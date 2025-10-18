@@ -171,7 +171,6 @@
   },
 
   "special_terms": {
-    "Script Node": "スクリプトノード",
     "Debug": "デバッグ",
     "TEMP TEXT": "仮テキスト",
     "Trigger Conv": "会話トリガー",
@@ -183,6 +182,12 @@
     "Small Chance": "低確率",
     "Hit Chance": "命中率",
     "Success": "成功"
+  },
+
+  "do_not_translate": {
+    "_comment": "以下の技術的な用語は絶対に翻訳しないでください",
+    "Script Node": "Script Node",
+    "Node": "Node"
   },
 
   "ui_common": {

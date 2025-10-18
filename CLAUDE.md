@@ -22,7 +22,7 @@ translation/
 ├── target/                    # Translation files (Japanese)
 │   └── v1.6.9.420.309496/
 │       └── ja_JP/            # Japanese translations (same structure as source)
-└── nouns_glossary.json       # Glossary for consistent noun translations
+└── nouns_glossary.json       # Glossary for consistent noun translations (location: translation/nouns_glossary.json)
 ```
 
 ## File Format
@@ -106,13 +106,23 @@ wc -l translation/target/v1.6.9.420.309496/ja_JP/*.txt
    - **Gender variants**: Only populate `femaleTexts` if the source has different text; otherwise keep them empty
    - **Context**: The `Filename` field indicates the mission/dialogue context for better translation accuracy
 
+5. **DO NOT TRANSLATE - Technical Terms** ⚠️
+   - **ABSOLUTELY NEVER translate the following technical terms**:
+     - `Script Node` (followed by any number) - This is a technical identifier, NOT dialogue
+     - `Node` (when referring to script nodes)
+     - Any text that starts with `Script Node` must remain in English
+   - These are internal game engine references and translating them will break the game
+   - Check the `do_not_translate` section in `translation/nouns_glossary.json` for the complete list
+   - When in doubt, compare with the English source file - if it's identical in structure to technical terms, do NOT translate it
+
 ### Translation Workflow Steps
 
-**Step 1: Glossary Creation**
-- Read through English source files
-- Extract all proper nouns and key terms
-- Create `nouns_glossary.json` with English-Japanese mappings
-- Format: `{"English Term": "日本語訳", ...}`
+**Step 1: Glossary Setup**
+- Use the existing glossary at `translation/nouns_glossary.json`
+- **CRITICAL**: Use ONLY `translation/nouns_glossary.json` - do NOT create additional glossary files
+- The glossary is organized into categories: organizations_factions, characters, locations, etc.
+- Check the `do_not_translate` section for terms that must NEVER be translated
+- When encountering new proper nouns, add them to the appropriate category in the existing glossary
 
 **Step 2: Sequential Translation**
 - Start from line 1 of the first file
