@@ -115,9 +115,79 @@ wc -l translation/target/v1.6.9.420.309496/ja_JP/*.txt
    - Check the `do_not_translate` section in `translation/nouns_glossary.json` for the complete list
    - When in doubt, compare with the English source file - if it's identical in structure to technical terms, do NOT translate it
 
+### Translation Execution Strategy - Use Subagent (MANDATORY)
+
+⚠️ **CRITICAL: All translation work MUST be performed by the wasteland3-translator subagent**
+
+**Why use subagent:**
+1. **Token management**: Translation tasks consume large amounts of tokens. Using a subagent allows session switching when tokens run low
+2. **Session continuity**: If main session runs out of tokens, you can start a new session and continue translation without losing progress
+3. **Memory isolation**: Each subagent has its own memory space, preventing memory issues in the main session
+4. **Specialized context**: The subagent maintains focused context on translation work only
+
+**When to use the wasteland3-translator subagent:**
+- ALL translation tasks (creating glossary, translating files, quality checks)
+- When user requests: "翻訳してください", "翻訳を続けて", "translate", "continue translation"
+- When working with StringTable files in translation/target/ directory
+- When updating or creating nouns_glossary.json
+
+**How to invoke the subagent:**
+
+Use the Task tool with `subagent_type: "wasteland3-translator"`:
+
+```
+Task tool parameters:
+- subagent_type: "wasteland3-translator"
+- description: "Translate [file name] [section/line range]"
+- prompt: "Detailed instructions for the translation task, including:
+    - Specific file path to translate
+    - Line range or section to work on (if applicable)
+    - Current progress/checkpoint
+    - Any specific instructions or context
+    - Reference to CLAUDE.md guidelines"
+```
+
+**Example invocations:**
+
+1. Starting new translation:
+```
+subagent_type: "wasteland3-translator"
+description: "Translate CAB-12345.txt"
+prompt: "Translate translation/source/v1.6.9.420.309496/en_US/StringTableData_English-CAB-12345.txt to Japanese. Follow all guidelines in CLAUDE.md. Start from line 1, process in chunks of 500 lines maximum. Save progress every 2000 lines."
+```
+
+2. Continuing translation:
+```
+subagent_type: "wasteland3-translator"
+description: "Continue CAB-12345 from line 5000"
+prompt: "Continue translating StringTableData_English-CAB-12345.txt from line 5000. Last completed section was 'mission_c2000_something'. Follow CLAUDE.md guidelines, process in 500-line chunks, commit every 2000 lines."
+```
+
+3. Creating/updating glossary:
+```
+subagent_type: "wasteland3-translator"
+description: "Update nouns glossary"
+prompt: "Update translation/nouns_glossary.json with new proper nouns found in [specific file or section]. Follow glossary structure and categorization rules in CLAUDE.md."
+```
+
+**Main session responsibilities:**
+- Route translation requests to wasteland3-translator subagent
+- Monitor overall progress
+- Handle user questions about translation status
+- Manage git operations (commits, branches) based on subagent reports
+- Coordinate between multiple translation tasks if needed
+
+**Subagent responsibilities:**
+- Perform actual translation work
+- Read source files and write target files
+- Follow all translation guidelines in CLAUDE.md
+- Manage memory by processing in chunks
+- Report progress and completion status back to main session
+
 ### Translation Workflow Steps
 
 **Step 1: Glossary Setup**
+- **IMPORTANT**: Invoke wasteland3-translator subagent for glossary creation/updates
 - Use the existing glossary at `translation/nouns_glossary.json`
 - **CRITICAL**: Use ONLY `translation/nouns_glossary.json` - do NOT create additional glossary files
 - The glossary is organized into categories: organizations_factions, characters, locations, etc.
@@ -125,13 +195,15 @@ wc -l translation/target/v1.6.9.420.309496/ja_JP/*.txt
 - When encountering new proper nouns, add them to the appropriate category in the existing glossary
 
 **Step 2: Sequential Translation**
-- Start from line 1 of the first file
+- **IMPORTANT**: Invoke wasteland3-translator subagent for all translation work
+- Subagent should start from line 1 of the first file
 - Translate each `string data` field in order
 - Reference glossary for all proper nouns
 - Verify format preservation after each section
 - Move to next file only after completing current file
 
 **Step 3: Quality Check**
+- **IMPORTANT**: Invoke wasteland3-translator subagent for quality verification
 - Verify no Simplified Chinese characters
 - Verify line counts match exactly
 - Verify all proper nouns use glossary translations
@@ -144,6 +216,105 @@ The files are very large (530K+ lines). When editing:
 - Use grep to locate specific dialogue or missions
 - Edit specific string data lines rather than replacing entire files
 - Test changes by comparing line counts before and after edits
+
+## Memory Management - CRITICAL for Large File Processing
+
+⚠️ **MANDATORY: Prevent Node.js Heap Out of Memory Errors**
+
+When processing large translation files (530K+ lines), Node.js can run out of memory and crash. Follow these rules STRICTLY:
+
+**IMPORTANT**: All translation work should be performed by the wasteland3-translator subagent (see "Translation Execution Strategy" section above). This provides additional memory isolation and allows session continuity even if memory issues occur.
+
+### 1. Memory Monitoring Rules
+
+**BEFORE starting any translation task:**
+- Check Node.js memory usage regularly during processing
+- **80% threshold rule**: If memory usage exceeds 80% of heap limit, STOP and clear memory
+- Use the following to monitor memory (if available via Node.js script):
+  ```javascript
+  const used = process.memoryUsage();
+  const heapUsedPercent = (used.heapUsed / used.heapTotal) * 100;
+  if (heapUsedPercent > 80) {
+    // Clear memory and use garbage collection
+    global.gc && global.gc();
+  }
+  ```
+
+### 2. Memory Management Best Practices
+
+**ALWAYS follow these practices:**
+
+1. **Chunk Processing (MANDATORY)**
+   - Process files in small chunks (100-500 lines at a time)
+   - Complete one chunk, then clear variables before moving to next chunk
+   - NEVER load entire 530K line files into memory at once
+   - Use Read tool with `offset` and `limit` parameters
+
+2. **Node.js Heap Size Configuration**
+   - If running Node.js scripts, set heap size explicitly:
+     ```bash
+     node --max-old-space-size=4096 script.js  # 4GB heap
+     node --max-old-space-size=8192 script.js  # 8GB heap (if available)
+     ```
+   - Default heap size (1.4GB) is insufficient for large files
+
+3. **Manual Garbage Collection**
+   - Between processing chunks, explicitly clear large variables
+   - If possible, enable and trigger garbage collection:
+     ```bash
+     node --expose-gc script.js
+     ```
+   - Call `global.gc()` after processing each major section
+
+4. **Section-based Translation Strategy**
+   - Divide translation work by mission sections (using `Filename` field)
+   - Complete one mission section, save, clear memory, then proceed to next
+   - Each mission section is typically 50-500 lines, manageable size
+
+### 3. Error Recovery Procedure
+
+**If heap out of memory error occurs:**
+
+1. **Identify last successfully processed line number**
+   - Check git diff to see what was translated before crash
+   - Note the last `Filename` section that was completed
+
+2. **Restart with smaller chunks**
+   - Reduce chunk size to 50-100 lines instead of 500
+   - Process one mission section at a time
+
+3. **Monitor memory during retry**
+   - Keep track of memory usage percentage
+   - If approaching 80%, commit current work and restart
+
+4. **Save frequently**
+   - Commit translations after each major section (every 1000-2000 lines)
+   - Don't wait until entire file is complete
+   - Use descriptive commit messages noting progress (e.g., "lines 1-2000 of file X")
+
+### 4. Translation Task Execution Rules
+
+**When Claude Code performs translation:**
+
+1. **NEVER attempt to process entire files in one operation**
+2. **ALWAYS use chunked approach**: Read → Translate → Edit → Verify → Repeat
+3. **Maximum chunk size**: 500 lines per Read/Edit operation
+4. **Checkpoint frequency**: Save/commit every 2000 lines or every mission section
+5. **Memory check frequency**: Monitor after every 5 chunks (every ~2500 lines)
+
+### 5. Signs of Memory Pressure
+
+**STOP and clear memory if you observe:**
+- Claude Code responses becoming slower
+- Increased latency in tool execution
+- Any garbage collection warnings in output
+- Memory usage exceeding 80% of available heap
+
+**Recovery action:**
+- Commit current work immediately
+- Clear all variables
+- Restart translation from next checkpoint
+- Reduce chunk size for remaining work
 
 ## Quality Checks
 
