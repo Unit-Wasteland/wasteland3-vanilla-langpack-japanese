@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-20T12:00:00+09:00",
+  "last_updated": "2025-10-20T05:15:00+09:00",
   "current_file": "StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
-  "total_entries_completed": 6434,
-  "last_completed_section": "DLC1: d2001_abigailmarkham (partial - entries [0]-[396] translated, 397 of 782)",
-  "next_section_to_translate": "DLC1: d2001_abigailmarkham (397 of 782 entries completed)",
-  "next_action": "Continue sequential translation in DLC1 file: d2001_abigailmarkham section from entry [397]",
-  "notes": "Session progress (2025-10-20 Session 20): Translated d2001_abigailmarkham entries [0]-[396] (397 entries). Total cumulative: 6434 entries.",
+  "total_entries_completed": 6819,
+  "last_completed_section": "DLC1: d2001_abigailmarkham (all 782 entries completed)",
+  "next_section_to_translate": "DLC1: d2001_adminstaff",
+  "next_action": "Continue sequential translation in DLC1 file: d2001_adminstaff section",
+  "notes": "Session progress (2025-10-20 Session 21): Completed d2001_abigailmarkham section entries [397]-[781] (385 entries). Total cumulative: 6819 entries.",
   "sections_completed": [
     "Base game - 0000_dorseyssnowedinn_radio",
     "Base game - 0000_gonzalez_radio_contactwithazrangers",
@@ -224,20 +224,20 @@
     "DLC1 - d1201_trappedgoon",
     "DLC1 - d1201_trapped_toaster",
     "DLC1 - d1201_turretcontrol",
-    "DLC1 - d1201_hotcommodities_stolenshipment"
+    "DLC1 - d1201_hotcommodities_stolenshipment",
+    "DLC1 - d2001_abigailmarkham"
   ],
   "partially_translated_sections": [
     "Base game - a1001_docparker (partial - entries [366]-[388] translated)",
-    "Base game - a1001_handcraft (partial - entries [54]-[90] translated)",
-    "DLC1 - d2001_abigailmarkham (partial - entries [0]-[396] translated, 397 of 782)"
+    "Base game - a1001_handcraft (partial - entries [54]-[90] translated)"
   ],
   "base_game_sections_completed": 88,
-  "dlc1_sections_completed": 128,
+  "dlc1_sections_completed": 129,
   "base_game_entries_completed": 906,
-  "dlc1_entries_completed": 5528,
+  "dlc1_entries_completed": 5913,
   "estimated_total_entries_base_game": "~81000",
   "estimated_total_entries_dlc1": "~120000",
   "estimated_total_entries_all": "~728000",
-  "last_commit": "198d659",
-  "session_number": 20
+  "last_commit": "69b3d0e",
+  "session_number": 21
 }
