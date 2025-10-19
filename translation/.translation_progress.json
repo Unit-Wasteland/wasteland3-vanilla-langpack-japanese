@@ -2,11 +2,11 @@
   "last_updated": "2025-10-20T04:15:00+09:00",
   "current_file": "StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
-  "total_entries_completed": 4983,
-  "last_completed_section": "DLC1: d1101_lootpile (complete, 21 entries)",
-  "next_section_to_translate": "DLC1: d1201_blue (496 entries, 0 completed)",
-  "next_action": "Continue sequential translation in DLC1 file: d1201_blue section",
-  "notes": "Session progress (2025-10-20 Session 15): Completed 4 sections totaling 265 entries - d1101_blue (129), d1101_bluegoons (25), d1101_blue_2 (90), d1101_lootpile (21). Total cumulative: 4983 entries.",
+  "total_entries_completed": 5302,
+  "last_completed_section": "DLC1: d1201_blue (partial, 319 entries of 496)",
+  "next_section_to_translate": "DLC1: d1201_blue (496 entries, 319 completed, 177 remaining)",
+  "next_action": "Continue sequential translation in DLC1 file: d1201_blue section from entry [319]",
+  "notes": "Session progress (2025-10-20 Session 16): Translated entries [0]-[318] of d1201_blue section (319 entries). Total cumulative: 5302 entries.",
   "sections_completed": [
     "Base game - 0000_dorseyssnowedinn_radio",
     "Base game - 0000_gonzalez_radio_contactwithazrangers",
@@ -221,5 +221,5 @@
   "estimated_total_entries_dlc1": "~120000",
   "estimated_total_entries_all": "~728000",
   "last_commit": "2fc35c0",
-  "session_number": 15
+  "session_number": 10
 }
