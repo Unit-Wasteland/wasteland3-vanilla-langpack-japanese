@@ -2075,17 +2075,17 @@
       1 Array Array (6 items)
        0 int size = 6
        [0]
-        1 string data = ""Patriarch's gonna be pissed that you killed Markham. He had a lot of respect for her. Maybe more than just respect, if the rumors are true.""
+        1 string data = "「マーカムを殺したことでパトリアークは怒るだろうな。彼女を大いに尊敬してたからな。噂が本当なら、尊敬以上のものかもしれない。」"
        [1]
-        1 string data = ""Patriarch's gonna be pissed that you killed Markham. He had a lot of respect for her. Maybe more than just respect, if the rumors are true.""
+        1 string data = "「マーカムを殺したことでパトリアークは怒るだろうな。彼女を大いに尊敬してたからな。噂が本当なら、尊敬以上のものかもしれない。」"
        [2]
-        1 string data = ""Patriarch's gonna be pissed you killed Markham. And leaving Steeltown in the hands of a bunch of amateurs? Hoo boy.""
+        1 string data = "「マーカムを殺したことでパトリアークは怒るだろうな。そしてスティールタウンを素人の集団の手に委ねるなんて?おいおい。」"
        [3]
-        1 string data = ""Gonna get a pat on the back from the Patriarch for how you handled Steeltown. Good job." "
+        1 string data = "「スティールタウンの処理の仕方で、パトリアークから褒められるだろうな。よくやった。」"
        [4]
-        1 string data = ""As long as Markham's running Steeltown, the Patriarch will be happy. Just don't mention the synths she's hiding in the attic." "
+        1 string data = "「マーカムがスティールタウンを運営している限り、パトリアークは満足だ。ただ彼女が屋根裏に隠してるシンセのことは言うなよ。」"
        [5]
-        1 string data = ""Things are gonna get bad around here if Steeltown stops pumping out the stuff Colorado needs to survive. You may just have fucked us.""
+        1 string data = "「スティールタウンがコロラドの生存に必要な物資を生産しなくなったら、ここは酷いことになるぞ。お前らが台無しにしたんじゃないか。」"
    [15]
     0 StringTable data
      1 string Filename = "a1001_medbay_irv"
@@ -2111,11 +2111,11 @@
       1 Array Array (3 items)
        0 int size = 3
        [0]
-        1 string data = ""Steeltown runs on the brains of enslaved synths now? That doesn't seem right at all.""
+        1 string data = "「スティールタウンは今や奴隷にされたシンセの頭脳で動いてるって?全然正しくないわね。」"
        [1]
-        1 string data = ""Synths are helping to run Steeltown now? That is wonderful. I wish Dr. Finster was alive to see this.""
+        1 string data = "「シンセが今スティールタウンの運営を手伝ってるって?それは素晴らしいわ。フィンスター博士が生きてこれを見られたらよかったのに。」"
        [2]
-        1 string data = ""Please tell me you have not destroyed the Dunes of Thought. I have always wanted to visit them.""
+        1 string data = "「思考の砂丘を破壊してないって言ってちょうだい。いつか訪れてみたかったのよ。」"
    [16]
     0 StringTable data
      1 string Filename = "a1001_museumexhibits"
@@ -2177,29 +2177,29 @@
       1 Array Array (12 items)
        0 int size = 12
        [0]
-        1 string data = "A card sits in front of this sculpture."
+        1 string data = "この彫刻の前にカードが置かれている。"
        [1]
-        1 string data = "A plaque next to this exhibit reads, 'A scale model of the Computation Engine.'"
+        1 string data = "この展示物の横のプラークには「計算エンジンの縮小模型」と書かれている。"
        [2]
-        1 string data = "A plaque is fixed to the base of this holographic projector."
+        1 string data = "このホログラフィック投影機の台座にプラークが固定されている。"
        [3]
-        1 string data = "'Abigail Markham, Administrator of Steeltown. The Rangers helped her restore Steeltown's stability.'"
+        1 string data = "「アビゲイル・マーカム、スティールタウン管理官。レンジャーズが彼女のスティールタウンの安定回復を支援した。」"
        [4]
-        1 string data = "A plaque is fixed to the base of this holographic projector."
+        1 string data = "このホログラフィック投影機の台座にプラークが固定されている。"
        [5]
-        1 string data = "'Salene Crow, Steeltown's new Administrator. The Rangers helped her and the workers of Steeltown overcome cruel exploitation to take control of their own destiny.'"
+        1 string data = "「サレネ・クロウ、スティールタウンの新管理官。レンジャーズが彼女とスティールタウンの労働者たちが残酷な搾取を克服し、自らの運命を掌握するのを支援した。」"
        [6]
-        1 string data = "'The sigil of Steeltown. Gifted to the Rangers by Abigail Markham for their assistance.'"
+        1 string data = "「スティールタウンの紋章。レンジャーズへの支援に対してアビゲイル・マーカムから贈られた。」"
        [7]
-        1 string data = "'The sigil of Steeltown. Gifted to the Rangers by Salene Crow for their assistance.'"
+        1 string data = "「スティールタウンの紋章。レンジャーズへの支援に対してサレネ・クロウから贈られた。」"
        [8]
-        1 string data = "'Destroyed by Team November along with its Synth inhabitants.'"
+        1 string data = "「チーム・ノベンバーによってシンセ住民と共に破壊された。」"
        [9]
-        1 string data = "'Decommissioned by Team Novemeber in exchange for the willing assistance of its former Synth inhabitants.'"
+        1 string data = "「以前のシンセ住民の自発的な協力と引き換えに、チーム・ノベンバーによって廃止された。」"
        [10]
-        1 string data = "'Disabled after its synth prisoners were liberated by Team November.'"
+        1 string data = "「シンセ囚人がチーム・ノベンバーによって解放された後、機能停止。」"
        [11]
-        1 string data = "'Repaired by Team November. Appearance of model modfied to protect Steeltown trade secrets.'"
+        1 string data = "「チーム・ノベンバーによって修理された。スティールタウンの企業秘密を保護するため模型の外観は変更されている。」"
    [17]
     0 StringTable data
      1 string Filename = "a1001_pizepi"
@@ -2243,17 +2243,17 @@
        [0]
         1 string data = "Script Node 180"
        [1]
-        1 string data = ""I hate to say it, but I don't think Steeltown is in good hands.""
+        1 string data = "「言いたくないけど、スティールタウンは良い手に委ねられてないと思うわ。」"
        [2]
-        1 string data = ""I know everyone thinks Steeltown won't succeed without Markam, but with Blue and Crow at the helm, I... have hope.""
+        1 string data = "「マーカムなしではスティールタウンは成功しないってみんな思ってるけど、ブルーとクロウが舵を取ってるなら、私は...希望を持ってるわ。」"
        [3]
-        1 string data = ""I wish Crow all the best, but I don't think she's ready to run Steeltown by herself.""
+        1 string data = "「クロウの幸運を祈ってるけど、彼女一人でスティールタウンを運営する準備ができてるとは思えないわ。」"
        [4]
-        1 string data = ""I grieve for the mind-death of those poor synths. Surely there must have been another way to return Steeltown to its previous efficiency.""
+        1 string data = "「あの可哀想なシンセたちの精神的死を嘆いているわ。スティールタウンを以前の効率に戻す別の方法が絶対にあったはずよ。」"
        [5]
-        1 string data = ""Markham is a hard woman. Too hard. But Steeltown is necessary to the survival of Colorado, so I see no alternative.""
+        1 string data = "「マーカムは厳しい女性ね。厳しすぎるわ。でもスティールタウンはコロラドの生存に必要だから、他に選択肢はないと思うわ。」"
        [6]
-        1 string data = ""Without anyone in charge, Steeltown won't last long. I fear for Colorado if it falls.""
+        1 string data = "「責任者が誰もいなければ、スティールタウンは長く持たないわ。もし崩壊したらコロラドが心配よ。」"
    [18]
     0 StringTable data
      1 string Filename = "a1001_psychopath_imprisonedatrangerhq"
