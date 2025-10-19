@@ -111,7 +111,9 @@ wc -l translation/target/v1.6.9.420.309496/ja_JP/*.txt
      - `Script Node` (followed by any number) - This is a technical identifier, NOT dialogue
      - `Node` (when referring to script nodes)
      - Any text that starts with `Script Node` must remain in English
+     - **Action markup in `::action::` format** (e.g., `::sings::`, `::laughs::`, `::coughs::`) - These are game engine processing markers for character actions and emotions
    - These are internal game engine references and translating them will break the game
+   - **Action markup examples**: `::sings::`, `::laughs::`, `::coughs::`, `::whispers::`, `::shouts::`, etc. - Keep the double-colon format EXACTLY as is
    - Check the `do_not_translate` section in `translation/nouns_glossary.json` for the complete list
    - When in doubt, compare with the English source file - if it's identical in structure to technical terms, do NOT translate it
 
