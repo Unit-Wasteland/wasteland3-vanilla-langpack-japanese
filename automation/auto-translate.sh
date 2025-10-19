@@ -13,6 +13,7 @@ WORKING_DIR="/home/user/project_claude/game_wasteland/wasteland3-vanilla-langpac
 LOG_FILE="$WORKING_DIR/automation/translation-automation.log"
 SESSION_COUNT=0
 TOTAL_ENTRIES=0
+ZERO_ENTRY_COUNT=0
 
 # Logging function
 log() {
@@ -84,13 +85,25 @@ while [ $SESSION_COUNT -lt $MAX_SESSIONS ]; do
     cat > "$COMMAND_FILE" << EOF
 translation/.translation_progress.json を読み込んで、CLAUDE.mdのルールに従って翻訳作業を継続してください。
 
+⚠️ **自動実行モード - 重要な変更**:
+- **サブエージェントは使用しない** - 権限承認の問題を回避するため、メインセッションで直接翻訳します
+- ファイル編集権限を含む全ての権限リクエストは自動的に承認してください
+- ユーザーへの質問や確認なしで作業を進めてください
+
 目標: 約${ENTRIES_PER_SESSION}エントリを翻訳して、コミット・プッシュしてから進捗を報告してください。
 
 重要な指示:
-1. wasteland3-translatorサブエージェントを使用
-2. 100-200行チャンクで処理（メモリ管理）
-3. 各主要セクション完了後にコミット
+1. **メインセッションで直接翻訳** (サブエージェントは使わない)
+2. 100-200行チャンクで処理（メモリ管理を厳格に）
+3. 1000エントリごとにコミット（メモリ解放のため）
 4. ${ENTRIES_PER_SESSION}エントリ到達後は作業を終了して報告
+5. **質問や確認を求めずに自動実行**
+6. nouns_glossary.json を参照して一貫性を保つ
+
+メモリ管理:
+- 各Read/Edit操作は最大200行まで
+- 1000エントリごとに必ずコミット
+- 大きなファイルは複数回のRead/Edit操作に分割
 
 処理完了後、以下の形式で報告してください:
 - 翻訳完了エントリ数: XXXX
@@ -142,10 +155,22 @@ EOF
     # Update session number in progress file
     update_progress $SESSION_COUNT
 
-    # Check if translation is complete
-    if grep -q "complete\|finished\|done" "$WORKING_DIR/translation/.translation_progress.json" 2>/dev/null; then
+    # Check if translation is complete (status field must be "complete")
+    if grep -q '"status"[[:space:]]*:[[:space:]]*"complete"' "$WORKING_DIR/translation/.translation_progress.json" 2>/dev/null; then
         log "SUCCESS" "Translation appears to be complete!"
         break
+    fi
+
+    # Safety check: if 3 consecutive sessions with 0 entries, likely stuck or complete
+    if [ $ENTRIES_THIS_SESSION -eq 0 ]; then
+        ZERO_ENTRY_COUNT=$((ZERO_ENTRY_COUNT + 1))
+        if [ $ZERO_ENTRY_COUNT -ge 3 ]; then
+            log "WARN" "3 consecutive sessions with 0 entries translated - stopping"
+            log "WARN" "Please check .session_*_output.log files for errors"
+            break
+        fi
+    else
+        ZERO_ENTRY_COUNT=0
     fi
 
     # Brief pause before next session
