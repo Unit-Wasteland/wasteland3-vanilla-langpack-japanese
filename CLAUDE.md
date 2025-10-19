@@ -124,8 +124,13 @@ wc -l translation/target/v1.6.9.420.309496/ja_JP/*.txt
 **Why use subagent:**
 1. **Token management**: Translation tasks consume large amounts of tokens. Using a subagent allows session switching when tokens run low
 2. **Session continuity**: If main session runs out of tokens, you can start a new session and continue translation without losing progress
-3. **Memory isolation**: Each subagent has its own memory space, preventing memory issues in the main session
+3. **Memory isolation**: Each subagent has its own memory space, preventing heap out of memory errors in the main session
 4. **Specialized context**: The subagent maintains focused context on translation work only
+
+**NEVER perform translation in the main session** - This is the primary cause of out of memory errors. The main session should only:
+- Route translation requests to the wasteland3-translator subagent
+- Monitor progress and handle user questions
+- Manage git operations based on subagent completion reports
 
 **When to use the wasteland3-translator subagent:**
 - ALL translation tasks (creating glossary, translating files, quality checks)
@@ -155,14 +160,14 @@ Task tool parameters:
 ```
 subagent_type: "wasteland3-translator"
 description: "Translate CAB-12345.txt"
-prompt: "Translate translation/source/v1.6.9.420.309496/en_US/StringTableData_English-CAB-12345.txt to Japanese. Follow all guidelines in CLAUDE.md. Start from line 1, process in chunks of 500 lines maximum. Save progress every 2000 lines."
+prompt: "Translate translation/source/v1.6.9.420.309496/en_US/StringTableData_English-CAB-12345.txt to Japanese. Follow all guidelines in CLAUDE.md. CRITICAL: Process in chunks of 100-200 lines maximum to prevent out of memory errors. Commit progress every 1000 lines. Start from line 1."
 ```
 
 2. Continuing translation:
 ```
 subagent_type: "wasteland3-translator"
 description: "Continue CAB-12345 from line 5000"
-prompt: "Continue translating StringTableData_English-CAB-12345.txt from line 5000. Last completed section was 'mission_c2000_something'. Follow CLAUDE.md guidelines, process in 500-line chunks, commit every 2000 lines."
+prompt: "Continue translating StringTableData_English-CAB-12345.txt from line 5000. Last completed section was 'mission_c2000_something'. Follow CLAUDE.md guidelines. CRITICAL: Use 100-200 line chunks, commit every 1000 lines to prevent memory issues."
 ```
 
 3. Creating/updating glossary:
@@ -247,10 +252,12 @@ When processing large translation files (530K+ lines), Node.js can run out of me
 **ALWAYS follow these practices:**
 
 1. **Chunk Processing (MANDATORY)**
-   - Process files in small chunks (100-500 lines at a time)
+   - **CRITICAL**: Process files in SMALL chunks (100-200 lines at a time, NEVER exceed 300 lines)
+   - **Chunk size reduction after OOM**: If out of memory occurred, reduce to 50-100 lines
    - Complete one chunk, then clear variables before moving to next chunk
    - NEVER load entire 530K line files into memory at once
    - Use Read tool with `offset` and `limit` parameters
+   - **Between chunks**: Allow garbage collection to run by processing sequentially, not in batches
 
 2. **Node.js Heap Size Configuration**
    - If running Node.js scripts, set heap size explicitly:
@@ -290,19 +297,23 @@ When processing large translation files (530K+ lines), Node.js can run out of me
    - If approaching 80%, commit current work and restart
 
 4. **Save frequently**
-   - Commit translations after each major section (every 1000-2000 lines)
+   - **CRITICAL**: Commit translations every 1000 lines (or after each major mission section, whichever is smaller)
    - Don't wait until entire file is complete
-   - Use descriptive commit messages noting progress (e.g., "lines 1-2000 of file X")
+   - Use descriptive commit messages noting progress (e.g., "Translate a1001_thepatriarch entries [0-49] (50 entries)")
+   - After each commit, memory pressure is reduced for next chunk
 
 ### 4. Translation Task Execution Rules
 
-**When Claude Code performs translation:**
+**When wasteland3-translator subagent performs translation:**
 
 1. **NEVER attempt to process entire files in one operation**
 2. **ALWAYS use chunked approach**: Read → Translate → Edit → Verify → Repeat
-3. **Maximum chunk size**: 500 lines per Read/Edit operation
-4. **Checkpoint frequency**: Save/commit every 2000 lines or every mission section
-5. **Memory check frequency**: Monitor after every 5 chunks (every ~2500 lines)
+3. **Maximum chunk size**: 100-200 lines per Read/Edit operation (NEVER exceed 300 lines)
+   - **After OOM error**: Reduce to 50-100 lines per chunk
+4. **Checkpoint frequency**: Save/commit every 1000 lines or every mission section (whichever is smaller)
+5. **Memory check frequency**: Monitor after every 3-5 chunks (every ~500-1000 lines)
+6. **Sequential processing**: Process one chunk at a time, never batch multiple chunks together
+7. **Commit immediately**: After completing a checkpoint (1000 lines), commit before continuing
 
 ### 5. Signs of Memory Pressure
 
