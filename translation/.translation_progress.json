@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-20T03:15:00+09:00",
+  "last_updated": "2025-10-20T02:15:00+09:00",
   "current_file": "StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
-  "total_entries_completed": 2534,
-  "last_completed_section": "DLC1: d1001_george_fakemichael (complete, 75/75 entries)",
-  "next_section_to_translate": "DLC1: d1001_ghostgang_squadleader (53 entries total)",
-  "next_action": "Continue sequential translation in DLC1 file: d1001_ghostgang_squadleader and subsequent sections",
-  "notes": "Session progress (2025-10-20 Session 6): Completed 1 section totaling 75 entries - d1001_george_fakemichael (75 entries - dark story about George who killed Michael and is trying to capture Marcia). Total cumulative: 2534 entries. Preserved action markup (::sigh::) throughout.",
+  "total_entries_completed": 2794,
+  "last_completed_section": "DLC1: d1001_int_clinictest_engineering (complete, 27/27 entries)",
+  "next_section_to_translate": "DLC1: d1001_int_clinictest_strength (87 entries total)",
+  "next_action": "Continue sequential translation in DLC1 file: d1001_int_clinictest_strength and subsequent sections",
+  "notes": "Session progress (2025-10-20 Session 7): Completed 8 sections totaling 260 entries - d1001_ghostgang_squadleader (53), d1001_ghostgaragedoor (23), d1001_ghostleader_maingates (17), d1001_grille (82), d1001_halliesmom (9), d1001_int_bodyscanner (22), d1001_int_clinictest_computers (27), d1001_int_clinictest_engineering (27). Total cumulative: 2794 entries.",
   "sections_completed": [
     "Base game - 0000_dorseyssnowedinn_radio",
     "Base game - 0000_gonzalez_radio_contactwithazrangers",
@@ -132,19 +132,27 @@
     "DLC1 - d1001_di_reactions",
     "DLC1 - d1001_drbreeler",
     "DLC1 - d1001_follower_bearsuitvinters",
-    "DLC1 - d1001_george_fakemichael"
+    "DLC1 - d1001_george_fakemichael",
+    "DLC1 - d1001_ghostgang_squadleader",
+    "DLC1 - d1001_ghostgaragedoor",
+    "DLC1 - d1001_ghostleader_maingates",
+    "DLC1 - d1001_grille",
+    "DLC1 - d1001_halliesmom",
+    "DLC1 - d1001_int_bodyscanner",
+    "DLC1 - d1001_int_clinictest_computers",
+    "DLC1 - d1001_int_clinictest_engineering"
   ],
   "partially_translated_sections": [
     "Base game - a1001_docparker (partial - entries [366]-[388] translated)",
     "Base game - a1001_handcraft (partial - entries [54]-[90] translated)"
   ],
   "base_game_sections_completed": 88,
-  "dlc1_sections_completed": 37,
+  "dlc1_sections_completed": 45,
   "base_game_entries_completed": 906,
-  "dlc1_entries_completed": 1628,
+  "dlc1_entries_completed": 1888,
   "estimated_total_entries_base_game": "~81000",
   "estimated_total_entries_dlc1": "~120000",
   "estimated_total_entries_all": "~728000",
-  "last_commit": "7d89edc",
-  "session_number": 6
+  "last_commit": "6e0c0a4",
+  "session_number": 7
 }
