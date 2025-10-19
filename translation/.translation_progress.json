@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-20T05:15:18+09:00",
+  "last_updated": "2025-10-20T05:25:02.553310+09:00",
   "current_file": "StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
-  "total_entries_completed": 6955,
-  "last_completed_section": "DLC1: d2001_ambient_admin (all 25 entries completed)",
-  "next_section_to_translate": "DLC1: d2001_armormerchant_amosryan",
-  "next_action": "Continue sequential translation in DLC1 file: d2001_armormerchant_amosryan section",
-  "notes": "Session progress (2025-10-20 Session 22): Completed 4 sections - d2001_adminstaff (83 entries), d2001_admin_dilemma (9 entries), d2001_admin_testing (19 entries), d2001_ambient_admin (25 entries). Total cumulative: 6955 entries.",
+  "total_entries_completed": 7052,
+  "last_completed_section": "DLC1: d2001_armormerchant_shempryan (all 23 entries completed)",
+  "next_section_to_translate": "DLC1: d2001_armormerchant_shirleyryan",
+  "next_action": "Continue sequential translation in DLC1 file: d2001_armormerchant_shirleyryan section",
+  "notes": "Session progress (2025-10-20 Session 23): Completed 2 sections - d2001_armormerchant_amosryan (74 entries), d2001_armormerchant_shempryan (23 entries). Total cumulative: 7052 entries.",
   "sections_completed": [
     "Base game - 0000_dorseyssnowedinn_radio",
     "Base game - 0000_gonzalez_radio_contactwithazrangers",
@@ -229,19 +229,21 @@
     "DLC1 - d2001_adminstaff",
     "DLC1 - d2001_admin_dilemma",
     "DLC1 - d2001_admin_testing",
-    "DLC1 - d2001_ambient_admin"
+    "DLC1 - d2001_ambient_admin",
+    "DLC1 - d2001_armormerchant_amosryan",
+    "DLC1 - d2001_armormerchant_shempryan"
   ],
   "partially_translated_sections": [
     "Base game - a1001_docparker (partial - entries [366]-[388] translated)",
     "Base game - a1001_handcraft (partial - entries [54]-[90] translated)"
   ],
   "base_game_sections_completed": 88,
-  "dlc1_sections_completed": 133,
+  "dlc1_sections_completed": 135,
   "base_game_entries_completed": 906,
-  "dlc1_entries_completed": 6049,
+  "dlc1_entries_completed": 6146,
   "estimated_total_entries_base_game": "~81000",
   "estimated_total_entries_dlc1": "~120000",
   "estimated_total_entries_all": "~728000",
-  "last_commit": "1d9faa7",
-  "session_number": 17
+  "last_commit": "42c1b03",
+  "session_number": 23
 }
