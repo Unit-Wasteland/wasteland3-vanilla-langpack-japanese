@@ -101,9 +101,10 @@ translation/.translation_progress.json を読み込んで、CLAUDE.mdのルー�
 
         # Change to working directory and run Claude Code
         # --dangerously-skip-permissions: Bypass all permission checks for automated execution
+        # yes: Automatically answer 'y' to any interactive permission prompts
         $ClaudeProcess = Start-Process -FilePath "wsl" -ArgumentList @(
             "bash", "-c",
-            "cd '$WorkingDir' && cat automation/.current_command.txt | claude --dangerously-skip-permissions 2>&1 | tee automation/.session_${SessionCount}_output.log"
+            "cd '$WorkingDir' && yes | cat automation/.current_command.txt | claude --dangerously-skip-permissions 2>&1 | tee automation/.session_${SessionCount}_output.log"
         ) -NoNewWindow -Wait -PassThru
 
         Write-Log "Claude Code session completed with exit code: $($ClaudeProcess.ExitCode)"

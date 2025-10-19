@@ -120,7 +120,8 @@ EOF
 
     # Start Claude Code in background with input redirection
     # --dangerously-skip-permissions: Bypass all permission checks for automated execution
-    timeout 3600 bash -c "cat '$COMMAND_FILE' | claude --dangerously-skip-permissions" > "$OUTPUT_FILE" 2>&1 &
+    # yes: Automatically answer 'y' to any interactive permission prompts
+    timeout 3600 bash -c "yes | cat '$COMMAND_FILE' | claude --dangerously-skip-permissions" > "$OUTPUT_FILE" 2>&1 &
     CLAUDE_PID=$!
 
     # Monitor memory usage
