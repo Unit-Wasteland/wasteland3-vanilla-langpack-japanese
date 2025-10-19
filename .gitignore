@@ -1,0 +1,15 @@
+# Automation temporary files and logs
+automation/.current_command.txt
+automation/.session_*_output.log
+automation/translation-automation.log
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
