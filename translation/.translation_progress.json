@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-20T02:15:20+09:00",
+  "last_updated": "2025-10-20T03:45:00+09:00",
   "current_file": "StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
-  "total_entries_completed": 3095,
-  "last_completed_section": "DLC1: d1001_refugee_bizarre (complete, 37/37 entries)",
-  "next_section_to_translate": "DLC1: d1001_refugee_breakin (58 entries total)",
-  "next_action": "Continue sequential translation in DLC1 file: d1001_refugee_breakin and subsequent sections",
-  "notes": "Session progress (2025-10-20 Session 8): Completed 10 sections totaling 301 entries - d1001_int_clinictest_strength (87), d1001_int_eyescanner (27), d1001_int_foundghostnote (3), d1001_labequipment (41), d1001_ludlow (61), d1001_morningstar (2), d1001_pistolpete (1), d1001_puzzleradio (29), d1001_refugeeleader (13), d1001_refugee_bizarre (37). Total cumulative: 3095 entries.",
+  "total_entries_completed": 3458,
+  "last_completed_section": "DLC1: d1001_refugee_camp (complete, 174/174 entries)",
+  "next_section_to_translate": "DLC1: d1001_refugee_louis (continue from entry 121, 142 entries remaining)",
+  "next_action": "Continue sequential translation in DLC1 file: d1001_refugee_louis (142 entries remaining) and subsequent sections",
+  "notes": "Session progress (2025-10-20 Session 9): Completed 4 sections totaling 363 entries - d1001_refugee_breakin (58), d1001_refugee_camp (174), d1001_refugee_elves (10), d1001_refugee_louis (121/263, in progress). Total cumulative: 3458 entries.",
   "sections_completed": [
     "Base game - 0000_dorseyssnowedinn_radio",
     "Base game - 0000_gonzalez_radio_contactwithazrangers",
@@ -150,19 +150,23 @@
     "DLC1 - d1001_pistolpete",
     "DLC1 - d1001_puzzleradio",
     "DLC1 - d1001_refugeeleader",
-    "DLC1 - d1001_refugee_bizarre"
+    "DLC1 - d1001_refugee_bizarre",
+    "DLC1 - d1001_refugee_breakin",
+    "DLC1 - d1001_refugee_camp",
+    "DLC1 - d1001_refugee_elves"
   ],
   "partially_translated_sections": [
     "Base game - a1001_docparker (partial - entries [366]-[388] translated)",
-    "Base game - a1001_handcraft (partial - entries [54]-[90] translated)"
+    "Base game - a1001_handcraft (partial - entries [54]-[90] translated)",
+    "DLC1 - d1001_refugee_louis (partial - 121/263 entries translated)"
   ],
   "base_game_sections_completed": 88,
-  "dlc1_sections_completed": 55,
+  "dlc1_sections_completed": 58,
   "base_game_entries_completed": 906,
-  "dlc1_entries_completed": 2189,
+  "dlc1_entries_completed": 2552,
   "estimated_total_entries_base_game": "~81000",
   "estimated_total_entries_dlc1": "~120000",
   "estimated_total_entries_all": "~728000",
-  "last_commit": "a359c61",
-  "session_number": 3
+  "last_commit": "56d3601",
+  "session_number": 9
 }
