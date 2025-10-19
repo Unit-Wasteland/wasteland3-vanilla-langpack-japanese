@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-20T02:15:00+09:00",
+  "last_updated": "2025-10-20T02:30:00+09:00",
   "current_file": "StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
-  "total_entries_completed": 1746,
-  "last_completed_section": "DLC1: d1001_carla [0]-[363]",
-  "next_section_to_translate": "Continue with next DLC1 section (d1001_companionbarks or similar)",
-  "next_action": "Search for next untranslated section in DLC1 file and continue sequential translation",
-  "notes": "Session progress (2025-10-20 Session 2): Translated 364 entries in DLC1 d1001_carla section. Completed full dialogue for Carla Asphalt-Runner including truck recovery, Corvette quest, battery retrieval, and mystery crate quests. Base game file appears to have scattered translations requiring systematic search. Focusing on DLC1 for continuous untranslated sections.",
+  "total_entries_completed": 1965,
+  "last_completed_section": "DLC1: d1001_crow_markham [0]-[75]",
+  "next_section_to_translate": "Continue with DLC1: d1001_dionnaherrera or similar sections",
+  "next_action": "Continue sequential translation in DLC1 file from d1001_dionnaherrera onwards",
+  "notes": "Session progress (2025-10-20 Session 3): Translated 219 entries in DLC1 including companion barks, Cookie mission dialogue, and Crow vs Markham labor dispute confrontation. Total cumulative: 1965 entries. Action markup (::coughs::, ::static::) preserved correctly. Complex labor negotiation dialogue translated naturally.",
   "sections_completed": [
     "Base game - 0000_dorseyssnowedinn_radio",
     "Base game - 0000_gonzalez_radio_contactwithazrangers",
@@ -123,19 +123,23 @@
     "DLC1 - d1001_car01",
     "DLC1 - d1001_car02",
     "DLC1 - d1001_car03",
-    "DLC1 - d1001_carla"
+    "DLC1 - d1001_carla",
+    "DLC1 - d1001_companionbarks",
+    "DLC1 - d1001_conniezeng",
+    "DLC1 - d1001_cookie",
+    "DLC1 - d1001_crow_markham"
   ],
   "partially_translated_sections": [
     "Base game - a1001_docparker (partial - entries [366]-[388] translated)",
     "Base game - a1001_handcraft (partial - entries [54]-[90] translated)"
   ],
   "base_game_sections_completed": 88,
-  "dlc1_sections_completed": 28,
+  "dlc1_sections_completed": 32,
   "base_game_entries_completed": 906,
-  "dlc1_entries_completed": 840,
+  "dlc1_entries_completed": 1059,
   "estimated_total_entries_base_game": "~81000",
   "estimated_total_entries_dlc1": "~120000",
   "estimated_total_entries_all": "~728000",
-  "last_commit": "5ee0407",
-  "session_number": 2
+  "last_commit": "fb11b3b",
+  "session_number": 3
 }
