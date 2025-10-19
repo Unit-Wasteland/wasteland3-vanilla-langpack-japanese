@@ -16221,41 +16221,41 @@
       1 Array Array (67 items)
        0 int size = 67
        [0]
-        1 string data = "\nDefault Greeting."
+        1 string data = "\n初期挨拶。"
        [1]
         1 string data = "DEBUG"
        [2]
-        1 string data = "Goodbye."
+        1 string data = "さようなら。"
        [3]
-        1 string data = "I am coughing in bed."
+        1 string data = "ベッドで咳をしている。"
        [4]
-        1 string data = "Take Sample (MEDICAL)"
+        1 string data = "サンプル採取(医療)"
        [5]
-        1 string data = "Here is ToOurHealth Medical Supply 0"
+        1 string data = "ToOurHealth医療物資0がここにある"
        [6]
-        1 string data = "You receive Black Lung Sample"
+        1 string data = "黒肺病のサンプルを入手した"
        [7]
-        1 string data = "I'm healed with this Scar Collector thing.\nI'm not thrilled, but it's good to be alive."
+        1 string data = "このスカー・コレクターの装置で治った。\n嬉しくはないが、生きていられるだけマシだ。"
        [8]
-        1 string data = "Wow, I feel much better! Have this TRINKET as a reward.\nIt may affect your interactions with Roland later."
+        1 string data = "うわぁ、すごく楽になった!報酬としてこのTRINKETを受け取って。\n後でローランドとやり取りする時に影響があるかもしれないわ。"
        [9]
-        1 string data = "You killed my brother!\nIt bothers me."
+        1 string data = "あんたたちが兄を殺した!\n許せない。"
        [10]
-        1 string data = "This is where I'd try convince Roland to stop selling the refugees."
+        1 string data = "ローランドが難民を売るのをやめさせるように説得するところだ。"
        [11]
-        1 string data = "I'm dead.\nProbably because you didn't find a cure."
+        1 string data = "死んでいる。\n多分治療法が見つからなかったからだろう。"
        [12]
-        1 string data = "I'm cured!\nAnd I don't even have any weird new cybernetic attachments!"
+        1 string data = "治った!\nしかも変なサイバネティック装置もついてない!"
        [13]
-        1 string data = "Die for debugging purposes."
+        1 string data = "デバッグ用に死ぬ。"
        [14]
-        1 string data = "The sickly woman sleeps fitfully, deep coughs spasming her thin frame. Her face is speckled with sweat. She doesn't respond to your presence."
+        1 string data = "病弱な女性が落ち着きなく眠っており、深い咳が細い体を痙攣させている。顔は汗まみれだ。あなたの存在には反応しない。"
        [15]
-        1 string data = ""Ugh. I feel like something puked in my mouth. Wait. WAIT. I can breathe? I can breathe! Doc, you did it! Thank you! I don't know how you did it, but thank you!""
+        1 string data = "「うっ。口の中で何かが吐いたみたいな味がする。待って。待って!息ができる?息ができる!先生、やったのね!ありがとう!どうやったのかわからないけど、ありがとう!」"
        [16]
         1 string data = """"
        [17]
-        1 string data = "The woman lies as you left her - pale, sweating, and coughing."
+        1 string data = "女性はあなたが去った時のまま横たわっている――青白く、汗をかき、咳をしている。"
        [18]
         1 string data = "Script Node 23"
        [19]
@@ -16269,91 +16269,91 @@
        [23]
         1 string data = "::clears throat::"
        [24]
-        1 string data = ""Can't breathe... can't breathe...""
+        1 string data = "「息が...できない...息が...できない...」"
        [25]
-        1 string data = "She is stroking the breathing apparatus implanted in her chest. Dismay crosses her face, replaced quickly by stoic acceptance. \r\n\r\n"I'm alive. Still alive. Doc Breeler, thank you. Even if... even if I'm attached to this <i>thing</i>, at least I'm still breathing.""
+        1 string data = "彼女は胸に埋め込まれた呼吸装置を撫でている。失望が顔をよぎるが、すぐに諦めの表情に変わる。\r\n\r\n「生きてる。まだ生きてる。ブリーラー先生、ありがとう。たとえ...たとえこの<i>もの</i>につながれているとしても、少なくともまだ息をしている。」"
        [26]
-        1 string data = "Use the aerosol Doc Breeler gave you."
+        1 string data = "ブリーラー先生がくれたエアゾールを使う。"
        [27]
-        1 string data = ""Who are you?""
+        1 string data = "「あなたは誰?」"
        [28]
-        1 string data = ""How'd you get here?""
+        1 string data = "「どうやってここに来たの?」"
        [29]
-        1 string data = "Leave."
+        1 string data = "立ち去る。"
        [30]
         1 string data = "::cough:: ::cough cough::"
        [31]
-        1 string data = ""Then you have my gratitude, Rangers. I don't know what I did to deserve your help, but I'll try to be worthy of the work you put in for me. Here. Take this. It's not much, but..."\n\n\n"So... Rangers, I assume you didn't do all this work for the pleasure of my company. What can I do for you?""
+        1 string data = "「それならあなたたちに感謝するわ、レンジャー。私がどうしてあなたたちの助けを受けるに値するのかわからないけど、あなたたちが私のために尽くしてくれたことに恥じないように努力するわ。はい。これを受け取って。大したものじゃないけど...」\n\n\n「それで...レンジャー、あなたたちが私との付き合いを楽しむためだけにこんな苦労をしたとは思えないわ。何か手伝えることはある?」"
        [32]
-        1 string data = ""Appreciate it, but it was the Rangers who did the hard work. I may've contributed, but they did the heavy lifting. It's them you want to thank.""
+        1 string data = "「ありがたいけど、大変な仕事をしたのはレンジャーたちだよ。私は協力しただけで、重労働はレンジャーたちがやってくれた。感謝すべきは彼らだよ。」"
        [33]
-        1 string data = "I'm dead.\nProbably because you didn't find a cure."
+        1 string data = "死んでいる。\n多分治療法が見つからなかったからだろう。"
        [34]
-        1 string data = ""I heard what you did to my brother, Rangers. I've got nothing to say to you.""
+        1 string data = "「あなたたちが兄に何をしたか聞いたわ、レンジャー。話すことは何もない。」"
        [35]
-        1 string data = "This is where I'd try convince Roland to stop selling the refugees."
+        1 string data = "ローランドが難民を売るのをやめさせるように説得するところだ。"
        [36]
-        1 string data = "I'm cured!\nAnd I don't even have any weird new cybernetic attachments!"
+        1 string data = "治った!\nしかも変なサイバネティック装置もついてない!"
        [37]
-        1 string data = "I'm healed with this Scar Collector thing.\nI'm not thrilled, but it's good to be alive."
+        1 string data = "このスカー・コレクターの装置で治った。\n嬉しくはないが、生きていられるだけマシだ。"
        [38]
-        1 string data = "I am coughing in bed."
+        1 string data = "ベッドで咳をしている。"
        [39]
-        1 string data = "Use the clinic's equipment to take a lung sample."
+        1 string data = "診療所の器具を使って肺のサンプルを採取する。"
        [40]
-        1 string data = "Rummaging through a box of medical supplies, you find a length of rubber tubing. You tilt Dionna's head back, open her mouth, sweep the tongue clear, and slowly feed the tube down her windpipe. Once the tube is in place, you take a thin spool of bristly wire and feed it down the tube."
+        1 string data = "医療物資の箱を漁ると、長いゴムチューブが見つかった。ディオナの頭を後ろに傾け、口を開き、舌を避け、ゆっくりとチューブを気管に通す。チューブが所定の位置に収まったら、細い針金の束を取り出してチューブに通す。"
        [41]
-        1 string data = "Die for debugging purposes."
+        1 string data = "デバッグ用に死ぬ。"
        [42]
-        1 string data = "You manipulate the wire and extract it carefully. \r\n\r\nWhen it emerges, it's covered in a thick layer of black, greasy mucus. You transfer this to a test tube.\r\n\r\nYou've got a sample - a gross, disgusting sample."
+        1 string data = "針金を操作して慎重に引き抜く。\r\n\r\n出てきた時、黒くて油っぽい粘液の厚い層に覆われていた。これを試験管に移す。\r\n\r\nサンプルを手に入れた――気持ち悪くて不快なサンプルだ。"
        [43]
-        1 string data = "She moans and rolls away."
+        1 string data = "彼女は呻きながら寝返りを打つ。"
        [44]
-        1 string data = "She coughs wetly and looks at you with blank, feverish eyes. She closes them again and coughs."
+        1 string data = "彼女は湿った咳をして、虚ろで熱っぽい目であなたを見る。再び目を閉じて咳をする。"
        [45]
-        1 string data = "You take hold of her head and force open her mouth. You aim the aerosol canister into her mouth and depress the trigger. A blast of mentholated air roars into her lungs."
+        1 string data = "あなたは彼女の頭を掴んで口を無理やり開けさせる。エアゾール缶の口を彼女の口に向けて、トリガーを押す。メントール入りの空気が勢いよく彼女の肺に流れ込む。"
        [46]
-        1 string data = "For a moment, nothing happens. And then - \r\n\r\n- and then she breathes deep - scarily deep - and retches a black slurry onto the ground near the bed. She coughs more, each hacking wheeze producing an incredible amount of dark slime. \r\n\r\nAt last she falls back, exhausted."
+        1 string data = "しばらく何も起こらない。そして――\r\n\r\n――そして彼女は深く息を吸う――恐ろしいほど深く――そしてベッドの近くの地面に黒い泥状のものを吐き出す。彼女はさらに咳き込み、息を切らすたびに信じられないほどの量の黒い粘液を吐き出す。\r\n\r\nついに彼女は疲れ果てて倒れ込む。"
        [47]
-        1 string data = ""All right. Let her rest. Whew, look at this mess. I'd say you saved her life, Rangers."\n\n\nHe ushers you away."
+        1 string data = "「よし。休ませてあげよう。ふう、この惨状を見てよ。あなたたちは彼女の命を救ったと言えるね、レンジャー。」\n\n\n彼はあなたたちを案内して外に出す。"
        [48]
-        1 string data = ""How can I help you?""
+        1 string data = "「何か手伝えることはある?」"
        [49]
-        1 string data = ""Does having that thing in your chest hurt?""
+        1 string data = "「胸にあるそれって、痛むの?」"
        [50]
-        1 string data = ""I met your brother Roland.""
+        1 string data = "「あなたの兄のローランドに会ったわ。」"
        [51]
-        1 string data = ""Tell me about yourself.""
+        1 string data = "「自分のことを教えて。」"
        [52]
-        1 string data = ""What happened after you got sick?""
+        1 string data = "「病気になってから何があったの?」"
        [53]
         1 string data = """"
        [54]
-        1 string data = ""Bye.""
+        1 string data = "「じゃあね。」"
        [55]
-        1 string data = ""Until later, then.""
+        1 string data = "「それじゃあまた。」"
        [56]
-        1 string data = ""My family fled the warlords of the Plains, far to the east. We thought we'd made it far enough, but... we didn't. A raiding party took my parents and my sisters... only my brother Roland and I escaped. He wanted to try to save them but.... but I wouldn't let him.""
+        1 string data = "「私の家族は遥か東の平原の戦争軍閥から逃げてきたの。十分遠くまで来たと思ったんだけど...そうじゃなかった。襲撃隊が両親と姉妹を連れ去って...兄のローランドと私だけが逃げられた。彼は彼らを助けようとしたかったけど...でも私が止めたの。」"
        [57]
-        1 string data = ""He would've been killed," she whispers."
+        1 string data = "「彼は殺されていたわ」と彼女はささやく。"
        [58]
-        1 string data = ""Anyway. We wound up in the ruins of Pueblo. Roland came here to get a job. He got one, too, and he was going to try to bring me in. But then I got sick. And if you're sick, they don't let you in.""
+        1 string data = "「とにかく。私たちはプエブロの廃墟に辿り着いたの。ローランドはここに仕事を得るために来た。実際に仕事を得て、私も連れてこようとしていたの。でもその時私が病気になった。病気だと、中に入れてもらえないの。」"
        [59]
-        1 string data = ""Roland kept taking care of me. He brought me food and medicine, got Doc Breeler to take care of me...""
+        1 string data = "「ローランドは私の世話を続けてくれた。食べ物や薬を持ってきて、ブリーラー先生に私の世話をしてもらって...」"
        [60]
-        1 string data = ""No. I mean, it's <i>weird</i>, but it doesn't hurt. It's hard to explain - like constantly breathing underwater, and the air tastes funny, but it doesn't hurt. Doc Breeler did a good job.""
+        1 string data = "「いいえ。つまり、<i>変な感じ</i>だけど、痛くはないわ。説明するのは難しいんだけど――水中でずっと呼吸しているような感じで、空気の味が変なんだけど、痛くはない。ブリーラー先生はいい仕事をしてくれたわ。」"
        [61]
-        1 string data = ""Oh, you got inside the Arcology? Lucky! I hardly ever see him anymore. He's a rough man, but he means well. He takes care of a lot of people.""
+        1 string data = "「あら、アーコロジーの中に入れたの?運がいいわね!最近はほとんど会えないの。荒っぽい男だけど、悪気はないのよ。たくさんの人の面倒を見ているわ。」"
        [62]
-        1 string data = ""Roland asked us to help him against the workers of the factory. We did.""
+        1 string data = "「ローランドが工場の労働者たちと戦うのを手伝ってくれって頼んできたの。手伝ったわ。」"
        [63]
-        1 string data = ""Oh, God, I'm so sorry. He's not a vindictive man, but... no. I can't lie for him. He <i>is</i> vindictive. Still, he's my brother, and I can't tell you how much I appreciate you keeping him alive. He did it for me for so many years.""
+        1 string data = "「ああ、なんてことを。本当に申し訳ない。彼は復讐心の強い男じゃないけど...いや。嘘はつけないわ。彼<i>は</i>復讐心が強い。でも彼は私の兄だし、あなたたちが彼を生かしておいてくれたことにどれだけ感謝しているか言葉にできないわ。彼は何年も私のためにそうしてくれたんだから。」"
        [64]
-        1 string data = ""I appreciate you helping my brother do the right thing, Rangers. He's trying, he really is - but sometimes he's too focused on survival, not morality.""
+        1 string data = "「兄が正しいことをするのを手伝ってくれてありがとう、レンジャー。彼は努力しているの、本当に――でも時々彼は生存に集中しすぎて、道徳を忘れがちなの。」"
        [65]
-        1 string data = ""Hang on. He brought you medicine? Food? That's not right. That's <i>illegal</i>. That should have been distributed to the refugees.""
+        1 string data = "「ちょっと待って。彼があなたに薬を持ってきた?食べ物も?それはおかしい。それは<i>違法</i>よ。難民に配られるべきものだったのに。」"
        [66]
-        1 string data = ""... well, I'm a refugee, aren't I? I... hm. Damn. Goddammit, Roland, now I'm complicit."\n\n\n"Fine. OK, I'll start sharing what he brought. I thought everyone got some. I'll have a word with him.""
+        1 string data = "「...まあ、私も難民でしょ?私...うーん。くそ。畜生、ローランド、今や私も共犯じゃない。」\n\n\n「いいわ。わかった、彼が持ってきたものを分け合うようにするわ。みんなが受け取っていると思っていたの。彼と話をしてみるわ。」"
    [55]
     0 StringTable data
      1 string Filename = "d1001_dionna_merchant"
@@ -16607,35 +16607,35 @@
        [1]
         1 string data = "Script Node 2"
        [2]
-        1 string data = ""Our task is not complete, Rangers, and I cannot accompany you beyond Steeltown. If you must depart, I will rejoin you upon your return.""
+        1 string data = "「我々の任務はまだ完了していない、レンジャー。そして私はスティールタウンの外にはついていけない。どうしても出発しなければならないなら、戻ってきた時に再び合流しよう。」"
        [3]
-        1 string data = "[Leave] "Okay, Di. We'll see you when we get back.""
+        1 string data = "[立ち去る]「わかった、ディ。戻ってきたらまた会おう。」"
        [4]
-        1 string data = "[Stay] "Never mind. We'll stay in Steeltown for now.""
+        1 string data = "[留まる]「やっぱりいい。今はスティールタウンに留まるよ。」"
        [5]
-        1 string data = ""Thank you.""
+        1 string data = "「感謝する。」"
        [6]
-        1 string data = ""Return promptly, Rangers. There is still much for you to do.""
+        1 string data = "「速やかに戻ってきてくれ、レンジャー。まだやるべきことがたくさんある。」"
        [7]
         1 string data = "Script Node 8"
        [8]
         1 string data = "Script Node 9"
        [9]
-        1 string data = ""Hello again, Rangers!""
+        1 string data = "「また会えたね、レンジャー!」"
        [10]
-        1 string data = ""You have returned. Let us resume our task.""
+        1 string data = "「戻ってきたな。任務を再開しよう。」"
        [11]
         1 string data = "Script Node 12"
        [12]
-        1 string data = ""Wait, are you going? Uh, I can't leave Steeltown, so if you need to go, I'll see you when you get back, eh.""
+        1 string data = "「待って、行くの?えっと、私はスティールタウンを離れられないから、行く必要があるなら、戻ってきた時にまた会うよ。」"
        [13]
-        1 string data = "[Leave] "Okay, Di. See you later.""
+        1 string data = "[立ち去る]「わかった、ディ。またね。」"
        [14]
-        1 string data = "[Stay] "Never mind. We'll stay in Steeltown for now.""
+        1 string data = "[留まる]「やっぱりいい。今はスティールタウンに留まるよ。」"
        [15]
-        1 string data = ""Okay. Hurry back, Rangers!""
+        1 string data = "「わかった。急いで戻ってきてね、レンジャー!」"
        [16]
-        1 string data = ""Okidoki! Let's get to it, eh.""
+        1 string data = "「オッケー!さあ、やろうよ。」"
        [17]
         1 string data = ""
        [18]
@@ -16659,25 +16659,25 @@
        [27]
         1 string data = ""
        [28]
-        1 string data = ""These are the main gates of Steeltown. Also our shipping and receiving area.""
+        1 string data = "「これがスティールタウンの正門だ。出荷と入荷のエリアでもある。」"
        [29]
-        1 string data = ""Steeltown was founded here because of this scrapyard. We get much of our steel here.""
+        1 string data = "「スティールタウンがここに建設されたのは、このスクラップ場があったからだ。ここから鋼鉄の大部分を得ている。」"
        [30]
-        1 string data = ""Beware. A bear.""
+        1 string data = "「警告。熊だ。」"
        [31]
-        1 string data = ""Gosh! Is that a bear?""
+        1 string data = "「わぁ!あれ、熊?」"
        [32]
-        1 string data = ""Warning. Hostiles ahead.""
+        1 string data = "「警告。前方に敵対者。」"
        [33]
-        1 string data = ""Uh oh. I think we've got trouble, eh.""
+        1 string data = "「やばい。問題が起きそうだよ。」"
        [34]
-        1 string data = ""Beware. Bandits.""
+        1 string data = "「警告。山賊だ。」"
        [35]
-        1 string data = ""I hear a faint radio signal here.""
+        1 string data = "「ここで微かな無線信号を受信している。」"
        [36]
-        1 string data = ""The radio signal again.""
+        1 string data = "「また無線信号だ。」"
        [37]
-        1 string data = ""Static.""
+        1 string data = "「ノイズだ。」"
    [57]
     0 StringTable data
      1 string Filename = "d1001_drbreeler"
@@ -17887,251 +17887,251 @@
       1 Array Array (299 items)
        0 int size = 299
        [0]
-        1 string data = "\nDefault Greeting."
+        1 string data = "\n初期挨拶。"
        [1]
         1 string data = "DEBUG"
        [2]
-        1 string data = "Goodbye."
+        1 string data = "さようなら。"
        [3]
-        1 string data = "Here's the To Our Health mission.\nHelp me find find a cure for Dionna!"
+        1 string data = "「私たちの健康のために」ミッションだ。\nディオナの治療法を見つけるのを手伝ってくれ!"
        [4]
-        1 string data = "Any luck with a cure for Dionna?"
+        1 string data = "ディオナの治療法は見つかった?"
        [5]
-        1 string data = "Install Turbine's Breather"
+        1 string data = "タービンの呼吸装置を取り付ける"
        [6]
-        1 string data = "I've just made a breakthrough with the Fungus.\nStart a scripted sequence of you running over to finish it, and then giving it to Dionna."
+        1 string data = "菌類で大きな突破口を開いた。\nあなたが走ってきて仕上げをして、それをディオナに渡すスクリプトシーケンスを開始する。"
        [7]
-        1 string data = "Here's the formula for the BLV vaccine"
+        1 string data = "BLVワクチンの処方箋だ"
        [8]
-        1 string data = "Thanks for all the help Rangers!"
+        1 string data = "レンジャー、すべての協力に感謝する!"
        [9]
-        1 string data = "Herrera is selling the Refugees to the Scar Collectors!\nPlease do something!"
+        1 string data = "エレーラが難民をスカー・コレクターに売っている!\n何とかしてくれ!"
        [10]
-        1 string data = "Herrera sold off the refugees to the Scar Collectors.\nI think it's time to shut down the clinic."
+        1 string data = "エレーラが難民をスカー・コレクターに売り渡した。\n診療所を閉鎖する時が来たと思う。"
        [11]
-        1 string data = "Thanks for stopping Herrera from selling the Refugees to the Scar Collectors!"
+        1 string data = "エレーラが難民をスカー・コレクターに売るのを止めてくれてありがとう!"
        [12]
-        1 string data = ""Welcome to the Steeltown Human Resources Evaluation Center. Enter the body scanner behind me to begin your assessment for employment in-""
+        1 string data = "「スティールタウン人事評価センターへようこそ。私の後ろにあるボディスキャナーに入って、採用評価を開始してくださ――」"
        [13]
-        1 string data = ""To enter the factory, you have to pass the evaluation tests, and to do that, you have to be examined by the machines. And lately, they've been failing applicants 9.9 times out of 10. The door hasn't opened in a week. Good luck." "
+        1 string data = "「工場に入るには、評価テストに合格しなければならない。そしてそのためには、機械の検査を受けなければならない。最近、応募者の10回中9.9回は不合格になっている。ドアは1週間開いていない。幸運を祈る。」"
        [14]
-        1 string data = ""You... you passed! I can't believe it! You're the first in... days!""
+        1 string data = "「あなた...合格した!信じられない!あなたはここ数日で初めての合格者だ!」"
        [15]
-        1 string data = ""Dionna's doing great, Rangers. My thanks. Now if you'll excuse me, I've got work to do.""
+        1 string data = "「ディオナは元気だよ、レンジャー。感謝する。さて、失礼するが、やるべき仕事があるんでね。」"
        [16]
-        1 string data = ""I've taken a sample of Black Lung from Dionna.""
+        1 string data = "「ディオナから黒肺病のサンプルを採取した。」"
        [17]
-        1 string data = ""What was I supposed to do again?""
+        1 string data = "「何をするんだっけ?」"
        [18]
-        1 string data = ""Got that rebreather.""
+        1 string data = "「リブリーザーを手に入れた。」"
        [19]
         1 string data = ""
        [20]
-        1 string data = ""Find a rebreather from that Scar Collector down near the ruins, or find a cure for the Black Lung. Either way. Doesn't make a difference to me.""
+        1 string data = "「廃墟の近くにいるスカー・コレクターからリブリーザーを手に入れるか、黒肺病の治療法を見つけるかだ。どっちでもいい。俺にとっては変わらない。」"
        [21]
-        1 string data = "We can find a cure!\nI'll take a sample from Dionna."
+        1 string data = "治療法を見つけられる!\nディオナからサンプルを採取する。"
        [22]
-        1 string data = "We'll look into the Scar Collector solution."
+        1 string data = "スカー・コレクターの解決策を調べてみる。"
        [23]
-        1 string data = "I'll take it to her and install it.\nHope she doesn't hate it..."
+        1 string data = "彼女のところに持っていって取り付けよう。\n気に入らないだろうけど..."
        [24]
-        1 string data = "I see you've made a breakthrough!\nI'll walk over to the instruments and finish the cure, then I'll give it to Dionna."
+        1 string data = "大きな突破口を開いたようだな!\n器具のところに行って治療法を仕上げてから、ディオナに渡そう。"
        [25]
-        1 string data = "Sadly, Dionna didn't make it..."
+        1 string data = "残念ながら、ディオナは助からなかった..."
        [26]
-        1 string data = "We're trying to find a reactant that breaks down the smog particles."
+        1 string data = "スモッグ粒子を分解する反応剤を探している。"
        [27]
-        1 string data = "Hrm.... maybe something with OBSCURE PROPERTY OF ARCOLOGY FUNGUS?\nNo idea where we'd find something like that though..."
+        1 string data = "うーん...アーコロジーの菌類の不明瞭な特性か何かかもしれない?\nそんなものがどこで見つかるか見当もつかないけど..."
        [28]
-        1 string data = "You can use the lab equipment in my office."
+        1 string data = "私のオフィスにある実験器具を使っていい。"
        [29]
-        1 string data = "We've got a tissue sample. We could use someplace to work."
+        1 string data = "組織サンプルを入手した。作業する場所が必要だ。"
        [30]
-        1 string data = ""Every time I see Dionna, I think she's a Scar Collector. But... I'm grateful she's alive.""
+        1 string data = "「ディオナを見るたびに、スカー・コレクターだと思ってしまう。でも...生きていてくれてありがたい。」"
        [31]
-        1 string data = ""Thanks for looking out for the refugees. Not many do.""
+        1 string data = "「難民の面倒を見てくれてありがとう。そうする人は少ないから。」"
        [32]
-        1 string data = ""Did you see outside? Ludlow's selling workers to slavers! He's gotta be stopped!""
+        1 string data = "「外を見たか?ラドローが労働者を奴隷商人に売っている!止めなければ!」"
        [33]
-        1 string data = ""Uh, you don't look like the usual candidates. What do you want?""
+        1 string data = "「えっと、いつもの応募者には見えないな。何の用だ?」"
        [34]
-        1 string data = ""Who are you?""
+        1 string data = "「あなたは誰?」"
        [35]
-        1 string data = ""What is the purpose of these tests?""
+        1 string data = "「これらのテストの目的は何?」"
        [36]
-        1 string data = ""Why are so many of these people being turned away?""
+        1 string data = "「なぜこれほど多くの人が拒否されているの?」"
        [37]
-        1 string data = ""We'd like to help Dionna.""
+        1 string data = "「ディオナを助けたいんだ。」"
        [38]
-        1 string data = ""What's the deal with the screening tests out there, anyway?""
+        1 string data = "「外にある検査テストって何なんだ?」"
        [39]
-        1 string data = ""I guess we'll take the tests, then.""
+        1 string data = "「じゃあテストを受けることにするよ。」"
        [40]
-        1 string data = ""Then step into the garbage disposal behind me. I'm sorry. I meant the Biometric Assessment Pod.""
+        1 string data = "「じゃあ私の後ろにあるゴミ処理装置に入ってくれ。いや、すまない。生体測定ポッドだった。」"
        [41]
-        1 string data = ""Everyone who wants to come in gets screened. No exceptions. Hm. Funny thing is, I think those cameras are just for show. No one's ever come when trouble breaks out.""
+        1 string data = "「入りたい人は全員検査を受ける。例外なしだ。うーん。面白いのは、あのカメラは見せかけだけだと思うんだ。問題が起きても誰も来たことがない。」"
        [42]
-        1 string data = ""I want to talk about these refugees.""
+        1 string data = "「この難民たちについて話したい。」"
        [43]
-        1 string data = ""My favorite topic. Ask."\n\n\nHe takes a swig from his bottle."
+        1 string data = "「俺の大好きな話題だ。聞いてくれ。」\n\n\n彼はボトルから一口飲む。"
        [44]
-        1 string data = ""Again? Fine.""
+        1 string data = "「また?いいだろう。」"
        [45]
-        1 string data = ""What's making these people sick?""
+        1 string data = "「この人たちを病気にしているのは何?」"
        [46]
-        1 string data = ""Can't you cure them?""
+        1 string data = "「治せないの?」"
        [47]
-        1 string data = ""With what medicine? I can't fill their prescriptions. Hell, I can't even <i>write</i> prescriptions. I'm out of everything I need. Basically I've got hope and a bottle, and I'm running awful short of liquor.""
+        1 string data = "「何の薬でだ?処方箋を埋めることもできない。くそ、処方箋を<i>書く</i>こともできないんだ。必要なものは全部なくなった。基本的に希望とボトルしかない、そして酒も底をついてる。」"
        [48]
-        1 string data = ""A condition called Black Lung. I've got no idea what's causing it, apart from the smog, but you'd think that asthma would be the worst of it. No such luck. There's something else going on, and I don't have any goddamn idea what it is.""
+        1 string data = "「黒肺病という症状だ。スモッグ以外に何が原因かわからないが、喘息が最悪の症状だと思うだろう。そうはいかない。何か他のことが起きているんだが、さっぱりわからない。」"
        [49]
-        1 string data = ""I can't help these people. Best I can do for them is ease their pain, and just between us, it's driving me fucking crazy. You see that coughing woman there? Her name's Dionna Herrera. She's gonna die, and there's not a damn thing I can do about it.""
+        1 string data = "「この人たちを助けることができない。できることは痛みを和らげることだけで、ここだけの話、狂いそうになる。あそこで咳をしている女性が見えるか?名前はディオナ・エレーラだ。彼女は死ぬ、そして俺にできることは何もない。」"
        [50]
-        1 string data = ""You know what'd make me happy? If one of 'em had pecker rot. I'd kill to work on an infected dick right now. I know how to cure that shit. But no. It's all Black Lung.""
+        1 string data = "「何が俺を幸せにするか知ってるか?もし誰かが性病にかかっていたらだ。今すぐ感染したチンポの治療をしたいくらいだ。そういうのは治し方を知ってる。でも違う。全部黒肺病だ。」"
        [51]
-        1 string data = ""So you've got no idea what's making these people sick. Any way we can help?""
+        1 string data = "「つまり、この人たちを病気にしているものが何かわからないってことだな。何か手伝えることはあるか?」"
        [52]
-        1 string data = ""Want to ask a few other questions.""
+        1 string data = "「他の質問をいくつかしたい。」"
        [53]
-        1 string data = ""Sure, fine, whatever.""
+        1 string data = "「ああ、いいよ、何でも。」"
        [54]
-        1 string data = ""Oh, do-gooders, huh? Sure, fine. Let's work on curing Dionna, then, because she's farthest along. Way I see it, I've got two options. Ideally, we find a cure, but honestly I'm out of ideas on  how to do that. Someone better at medicine could do it, maybe. I'm just so goddamned tired.""
+        1 string data = "「ああ、善人ぶりっこか?いいだろう。じゃあディオナの治療に取り組もう、彼女が一番進行してるからな。俺の見方では、2つの選択肢がある。理想的には治療法を見つけることだが、正直どうやったらいいかアイデアがない。医学に長けた誰かならできるかもしれない。俺はただもう疲れ果てている。」"
        [55]
-        1 string data = ""To be the living definition of the term Kafkaesque? To drain the hopes and dreams of a hundred plus people a day? To drive me to drink?""
+        1 string data = "「カフカ的という言葉の生きた定義になるため?1日に100人以上の希望と夢を奪うため?俺を酒に走らせるため?」"
        [56]
-        1 string data = ""Horace Breeler. You wouldn't guess it now, but I was an actual doctor once. Now I don't even do the eye test.""
+        1 string data = "「ホレス・ブリーラーだ。今では想像できないだろうが、かつては本物の医者だったんだ。今は視力検査すらしていない。」"
        [57]
-        1 string data = ""Sick. Not suitable for employment inside. No worthwhile skills. Not <i>important</i> enough.""
+        1 string data = "「病気。内部での雇用に適さない。価値あるスキルなし。十分<i>重要</i>ではない。」"
        [58]
-        1 string data = ""Second option - I saw a Scar Collector with an attached breathing apparatus exploring the scrapyard. Maybe acquire that breathing machine and I can hook Dionna up to it. Not sure how she'd feel about being part machine, but it's got to be better than being dead.""
+        1 string data = "「2つ目の選択肢は――スクラップ場を探索していたスカー・コレクターが呼吸装置を付けているのを見た。その呼吸機械を手に入れて、ディオナにつなげることができるかもしれない。機械の一部になることを彼女がどう思うかわからないが、死ぬよりはマシだろう。」"
        [59]
-        1 string data = ""So whaddya say, Rangers? Do you want to do this?""
+        1 string data = "「で、どうだ、レンジャー?やるか?」"
        [60]
-        1 string data = ""We've thought about it. We'll try to help Dionna.""
+        1 string data = "「考えた。ディオナを助けてみるよ。」"
        [61]
-        1 string data = ""Great."\n\n\nHis tone is hardly enthusiastic."
+        1 string data = "「よし。」\n\n\n彼の口調はほとんど熱意がない。"
        [62]
-        1 string data = ""Like I said, there are two options. Figure out how to develop a cure - best of luck with <i>that</i> - or get the Scar Collector's breathing machine.""
+        1 string data = "「言ったように、2つの選択肢がある。治療法を開発する方法を見つけるか――それは<i>頑張って</i>――スカー・コレクターの呼吸機械を手に入れるかだ。」"
        [63]
-        1 string data = ""Yep. Where should we start?""
+        1 string data = "「そうだな。どこから始めるべき?」"
        [64]
-        1 string data = ""Not doing it right now.""
+        1 string data = "「今はやらない。」"
        [65]
-        1 string data = ""Heh. Yep. It's a big, daunting job. Better not to try. Just setting yourself up for failure. And alcoholism, to boot."\n\n\nHe takes another swig."
+        1 string data = "「へっ。そうだな。大きくて手強い仕事だ。やらない方がいい。失敗のお膳立てをするだけだ。それにアルコール依存症も付いてくる。」\n\n\n彼はもう一口飲む。"
        [66]
-        1 string data = ""Really? Uh... I didn't expect that. Great. Okay. so... uh... hm. Next steps, next steps.""
+        1 string data = "「本当に?えっと...期待してなかった。素晴らしい。わかった。それで...えっと...うーん。次のステップ、次のステップ。」"
        [67]
-        1 string data = ""Medicine's our specialty. We should start by taking samples from Dionna.""
+        1 string data = "「医学は俺たちの専門だ。ディオナからサンプルを採取することから始めよう。」"
        [68]
-        1 string data = ""Don't know much about making cures, but we're <i>great</i> at finding hardware.""
+        1 string data = "「治療法を作ることはあまり知らないが、ハードウェアを見つけるのは<i>得意</i>だ。」"
        [69]
-        1 string data = ""Like I said, there are two options. Figure out how to develop a cure - best of luck with <i>that</i> - or get the Scar Collector's breathing machine.""
+        1 string data = "「言ったように、2つの選択肢がある。治療法を開発する方法を見つけるか――それは<i>頑張って</i>――スカー・コレクターの呼吸機械を手に入れるかだ。」"
        [70]
-        1 string data = ""Really? Maybe you should be here running this place and I should be out having adventures in frozen wastes, ha ha."\n\n\nHe doesn't look like he's joking."
+        1 string data = "「本当に?もしかしたらあんたがここを運営して、俺が凍てついた荒れ地で冒険するべきかもな、ハハハ。」\n\n\n彼は冗談を言っているようには見えない。"
        [71]
-        1 string data = ""If you can get the samples from her somehow, then you can use my lab equipment over there. Patriarch knows it hardly gets any real use these days anyway.""
+        1 string data = "「どうにかして彼女からサンプルを採取できたら、あそこにある俺の実験器具を使っていい。パトリアークも知ってる通り、最近はほとんど使われていないからな。」"
        [72]
-        1 string data = ""That Scar Collector's name is Turbine. He's out near the Scrapyard, last I heard. I expect I'll be seeing you in here with some bullet holes soon."\n\n\n"By which I mean, best of luck.""
+        1 string data = "「そのスカー・コレクターの名前はタービンだ。最後に聞いた時はスクラップ場の近くにいた。すぐに銃創を負ってここに来ることになると思うよ。」\n\n\n「つまり、幸運を祈るってことだ。」"
        [73]
-        1 string data = ""Anyway, if you've got nothing else to talk about..."\n\n\nHe turns back toward his work."
+        1 string data = "「とにかく、他に話すことがなければ...」\n\n\n彼は仕事に戻る。"
        [74]
-        1 string data = ""Damn it, I knew he was a psycho when he took the tests! Why did the computer pass him?""
+        1 string data = "「くそ、テストを受けた時からあいつがサイコパスだってわかってたんだ!なぜコンピュータはあいつを合格させたんだ?」"
        [75]
-        1 string data = ""I've got nothing to say to you until that slave auction is stopped.""
+        1 string data = "「奴隷オークションが止まるまであんたたちに言うことは何もない。」"
        [76]
         1 string data = """"
        [77]
-        1 string data = ""I've analyzed the lung samples. No luck so far.""
+        1 string data = "「肺のサンプルを分析した。今のところ運がない。」"
        [78]
-        1 string data = ""We have a few more questions.""
+        1 string data = "「もう少し質問がある。」"
        [79]
-        1 string data = ""Aw, jeez. Okay.""
+        1 string data = "「ああ、まったく。わかった。」"
        [80]
-        1 string data = ""Huh! Nice work. You want to use my lab equipment to check out the sample. Maybe find a reactant that can clear out the particles in the lungs."\n\n\nHe shrugs half-heartedly."
+        1 string data = "「へえ!いい仕事だ。サンプルを調べるために俺の実験器具を使いたいんだろう。肺の粒子を除去できる反応剤を見つけられるかもしれない。」\n\n\n彼は力なく肩をすくめる。"
        [81]
-        1 string data = ""I'm not keen on making her look like a Scar Collector, but given the alternative... Well, help me out here. Think you can get a sample of her lung tissue, or do you want to go ahead and install this? Once it's on, it's not coming off.""
+        1 string data = "「彼女をスカー・コレクターみたいにしたくはないが、他の選択肢を考えると...まあ、手伝ってくれ。彼女の肺組織のサンプルを取れると思うか、それともこれを今すぐ取り付けたいか?一度付けたら、外せないぞ。」"
        [82]
-        1 string data = ""Wish I could tell you where to start with finding that reactant, but... I've got no ideas. Best of luck. Let me know if you find something.""
+        1 string data = "「その反応剤を見つけるのをどこから始めたらいいか教えられればいいんだが...アイデアがない。幸運を祈る。何か見つけたら教えてくれ。」"
        [83]
-        1 string data = ""Question still stands - install this now, or see if you can find a cure?""
+        1 string data = "「質問はまだ有効だ――今すぐこれを取り付けるか、治療法を見つけられるか試すか?」"
        [84]
-        1 string data = ""Figured out a filter for the Black Lung - it was a fungus from the arcology.""
+        1 string data = "「黒肺病のフィルターを見つけた――アーコロジーの菌類だった。」"
        [85]
-        1 string data = ""That's <i>fantastic</i> news. Honestly, I never would've expected itinerants like yourselves to have the medical chops to find a cure for that disease, and especially not a cure that's easily synthesizable. You've got my thanks, Rangers.""
+        1 string data = "「それは<i>素晴らしい</i>ニュースだ。正直、あんたたちみたいな流浪者がその病気の治療法を見つける医学的手腕を持っているとは思わなかった。しかも簡単に合成できる治療法なんて。感謝するよ、レンジャー。」"
        [86]
-        1 string data = ""Now, let's put that cure to use. The canister will aerosolize the fungus."\n\n\nHe takes some fungus and grinds it into a fine powder. He tips the power into a small canister and hands it to you."
+        1 string data = "「さて、その治療法を使おう。キャニスターが菌類をエアゾール化する。」\n\n\n彼は菌類を取って細かい粉末に挽く。粉を小さなキャニスターに入れてあなたに渡す。"
        [87]
-        1 string data = ""Want to see if we can find a cure.""
+        1 string data = "「治療法を見つけられるか試したい。」"
        [88]
-        1 string data = ""Go ahead and stick it in her.""
+        1 string data = "「さあ、彼女に突っ込んでやれ。」"
        [89]
         1 string data = """"
        [90]
-        1 string data = ""Fine. I'll hold off on the install, then. Anything else you need?""
+        1 string data = "「わかった。それじゃあ取り付けは保留だ。他に何か必要か?」"
        [91]
-        1 string data = ""I'm not that kind of doctor! ... oh, you meant the rebreather. Fair enough. I hope she actually wants to live with a cure like this.""
+        1 string data = "「俺はそんな医者じゃない!...ああ、リブリーザーのことか。わかった。こんな治療法で生きることを彼女が本当に望んでいればいいんだが。」"
        [92]
-        1 string data = ""She's going to be under sedation for a while. Come back soon. She might have something to tell you then."\n\n\nHe collapses into a chair."
+        1 string data = "「彼女はしばらく鎮静下に置かれる。すぐに戻ってきてくれ。その時何か話すことがあるかもしれない。」\n\n\n彼は椅子に倒れ込む。"
        [93]
-        1 string data = ""She's gonna make it, Rangers. All thanks to you.""
+        1 string data = "「彼女は助かるよ、レンジャー。全部あんたたちのおかげだ。」"
        [94]
-        1 string data = ""Give the rebreather some time to work, will you? God, just give me a break.""
+        1 string data = "「リブリーザーが効くまで時間をくれよ?頼むから、休ませてくれ。」"
        [95]
-        1 string data = ""Go spray some in her mouth.""
+        1 string data = "「彼女の口にスプレーしてこい。」"
        [96]
-        1 string data = ""Fingers crossed, huh?""
+        1 string data = "「幸運を祈るってやつだな?」"
        [97]
-        1 string data = ""Keep it up. You're bound to find it someday.""
+        1 string data = "「頑張り続けろ。いつか必ず見つかる。」"
        [98]
-        1 string data = ""Thanks for looking out for the refugees. Not many do. You let me keep the clinic open.""
+        1 string data = "「難民の面倒を見てくれてありがとう。そうする人は少ない。あんたたちのおかげで診療所を開けておけるよ。」"
        [99]
         1 string data = """"
        [100]
-        1 string data = ""Crow let me keep my job, but the testing machines don't work anymore and I have to actually test people.""
+        1 string data = "「クロウが俺の仕事を残してくれたが、テスト機械はもう動かなくなって、実際に人々をテストしなければならない。」"
        [101]
-        1 string data = ""Testing center's closed until Crow's uprising is over. And maybe longer than that. Depends on who wins, I guess.""
+        1 string data = "「テストセンターはクロウの反乱が終わるまで閉鎖だ。多分それよりも長く。誰が勝つかによるんだろうな。」"
        [102]
-        1 string data = ""Welcome to the Steeltown Human Resources Evaluation Center.""
+        1 string data = "「スティールタウン人事評価センターへようこそ。」"
        [103]
-        1 string data = ""Can you heal us?""
+        1 string data = "「俺たちを治療できるか?」"
        [104]
-        1 string data = ""Can you pay? I prefer to be paid in bottles.""
+        1 string data = "「払えるのか?ボトルで払ってくれると嬉しいんだが。」"
        [105]
-        1 string data = ""Maybe check in the arcology? Something there might be useful to you.""
+        1 string data = "「アーコロジーを調べてみたらどうだ?そこに何かあんたたちに役立つものがあるかもしれない。」"
        [106]
-        1 string data = ""Anyway. What else d'you need?""
+        1 string data = "「とにかく。他に何が必要だ?」"
        [107]
-        1 string data = ""Anyway. What else d'you need?""
+        1 string data = "「とにかく。他に何が必要だ?」"
        [108]
-        1 string data = ""You mean <i>this</i> rebreather?""
+        1 string data = "「<i>この</i>リブリーザーのことか?」"
        [109]
-        1 string data = ""Uh... that looks very much like the device I remembered, yes.""
+        1 string data = "「えっと...俺が覚えていたデバイスにそっくりだな、ああ。」"
        [110]
-        1 string data = ""There's nothing wrong with you. I'll still charge you, though... if you want.""
+        1 string data = "「あんたたちには何も悪いところがない。それでも料金は請求するが...望むなら。」"
        [111]
-        1 string data = "[[Global: d1001_Money_Doctor_Breeler_const] Dollars] "It'll cost you, though.""
+        1 string data = "[[Global: d1001_Money_Doctor_Breeler_const]ドル]「でも金はかかるぞ。」"
        [112]
-        1 string data = "[[Global: d1001_Money_Doctor_Breeler_const] Dollars] "Deal. Heal us.""
+        1 string data = "[[Global: d1001_Money_Doctor_Breeler_const]ドル]「わかった。治療してくれ。」"
        [113]
-        1 string data = ""I'm afraid we're broke and dry.""
+        1 string data = "「金も酒もないんだ。」"
        [114]
-        1 string data = ""Never mind.""
+        1 string data = "「やっぱりいい。」"
        [115]
-        1 string data = ""Well, you'll get nothing out of me until you're rich and wet.""
+        1 string data = "「じゃあ、金持ちで酒が潤沢になるまで俺からは何も得られないぞ。」"
        [116]
-        1 string data = ""Here goes nothing. Don't mind the shaky hands...""
+        1 string data = "「さあ、やってみるか。震える手を気にするなよ...」"
        [117]
-        1 string data = ""Fine with me.""
+        1 string data = "「俺は構わない。」"
        [118]
         1 string data = "Script Node 128"
        [119]
         1 string data = "::coughs::"
        [120]
-        1 string data = ""Start at the body scanner behind me, then visit all stations before you return to me for your results.""
+        1 string data = "「私の後ろにあるボディスキャナーから始めて、全ての検査ステーションを回ってから結果を聞きに戻ってきてください。」"
        [121]
         1 string data = "::sighs::"
        [122]
-        1 string data = ""Uh, you don't look like the usual candidates. What's going on? Why do you have so many weapons?""
+        1 string data = "「えっと、いつもの応募者には見えないな。何が起きてるんだ?なぜそんなに多くの武器を持ってるんだ?」"
        [123]
         1 string data = ""We've got business in the factory. Are you who we see to get in?""
        [124]

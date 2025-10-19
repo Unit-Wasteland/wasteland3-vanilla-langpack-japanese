@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-20T02:30:00+09:00",
+  "last_updated": "2025-10-20T02:45:00+09:00",
   "current_file": "StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
-  "total_entries_completed": 1965,
-  "last_completed_section": "DLC1: d1001_crow_markham [0]-[75]",
-  "next_section_to_translate": "Continue with DLC1: d1001_dionnaherrera or similar sections",
-  "next_action": "Continue sequential translation in DLC1 file from d1001_dionnaherrera onwards",
-  "notes": "Session progress (2025-10-20 Session 3): Translated 219 entries in DLC1 including companion barks, Cookie mission dialogue, and Crow vs Markham labor dispute confrontation. Total cumulative: 1965 entries. Action markup (::coughs::, ::static::) preserved correctly. Complex labor negotiation dialogue translated naturally.",
+  "total_entries_completed": 2193,
+  "last_completed_section": "DLC1: d1001_drbreeler [0]-[122] (partial, 123/299 entries)",
+  "next_section_to_translate": "Continue DLC1: d1001_drbreeler from [123] onwards",
+  "next_action": "Continue sequential translation in DLC1 file: complete d1001_drbreeler section, then proceed to subsequent sections",
+  "notes": "Session progress (2025-10-20 Session 4): Translated 228 entries in DLC1: d1001_dionnaherrera (67 entries - Dionna Herrera sick refugee dialogue), d1001_di_reactions (38 entries - Di companion reactions), d1001_drbreeler partial (123/299 entries - Dr. Breeler clinic dialogue about Black Lung disease cure quest). Total cumulative: 2193 entries. Medical terminology and disease treatment dialogue translated naturally. Action markup preserved.",
   "sections_completed": [
     "Base game - 0000_dorseyssnowedinn_radio",
     "Base game - 0000_gonzalez_radio_contactwithazrangers",
@@ -127,19 +127,22 @@
     "DLC1 - d1001_companionbarks",
     "DLC1 - d1001_conniezeng",
     "DLC1 - d1001_cookie",
-    "DLC1 - d1001_crow_markham"
+    "DLC1 - d1001_crow_markham",
+    "DLC1 - d1001_dionnaherrera",
+    "DLC1 - d1001_di_reactions"
   ],
   "partially_translated_sections": [
     "Base game - a1001_docparker (partial - entries [366]-[388] translated)",
-    "Base game - a1001_handcraft (partial - entries [54]-[90] translated)"
+    "Base game - a1001_handcraft (partial - entries [54]-[90] translated)",
+    "DLC1 - d1001_drbreeler (partial - entries [0]-[122] translated, 123/299 total)"
   ],
   "base_game_sections_completed": 88,
-  "dlc1_sections_completed": 32,
+  "dlc1_sections_completed": 34,
   "base_game_entries_completed": 906,
-  "dlc1_entries_completed": 1059,
+  "dlc1_entries_completed": 1287,
   "estimated_total_entries_base_game": "~81000",
   "estimated_total_entries_dlc1": "~120000",
   "estimated_total_entries_all": "~728000",
   "last_commit": "fb11b3b",
-  "session_number": 3
+  "session_number": 4
 }
