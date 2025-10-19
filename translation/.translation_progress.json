@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-20T00:34:07.860594+09:00",
+  "last_updated": "2025-10-20T01:15:00+09:00",
   "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-  "total_entries_completed": 1327,
-  "last_completed_section": "mission_x4501_knoxatthedoor",
-  "next_section_to_translate": "0000_ananda_radio_recruitment",
-  "next_action": "Translate base game section '0000_ananda_radio_recruitment' starting from the first untranslated entry",
-  "notes": "CORRECTED (2025-10-20): Progress file rebuilt from actual file analysis. Only fully translated sections (zero untranslated entries) are counted. Partially translated sections are excluded. Next work must start from first untranslated section in sequential order per project guidelines.",
+  "total_entries_completed": 1382,
+  "last_completed_section": "Partial: a1001_handcraft [54]-[90]",
+  "next_section_to_translate": "Continue translating remaining untranslated entries in base game file",
+  "next_action": "Search for next untranslated section and continue sequential translation",
+  "notes": "Session progress (2025-10-20): Translated 55 entries (0000_ananda_radio_recruitment: 3 entries, a1001_docparker [366]-[388]: 22 entries, a1001_handcraft [54]-[90]: 30 entries). Many sections in base game file have mixed translation status - some entries translated, others not. Need systematic pass through file to identify and translate remaining untranslated entries.",
   "sections_completed": [
     "Base game - 0000_dorseyssnowedinn_radio",
     "Base game - 0000_gonzalez_radio_contactwithazrangers",
@@ -39,6 +39,7 @@
     "Base game - 0000_rileywoodson_radio",
     "Base game - 0000_rosiewong_radio_noisecomplaints",
     "Base game - 0000_scriptableinteractiontest",
+    "Base game - 0000_ananda_radio_recruitment",
     "Base game - a1001_radio_gonzalez_rangershavegonerogue",
     "Base game - a1001_armory_secalertcomputer",
     "Base game - a1001_bizarreliaison",
@@ -123,11 +124,16 @@
     "DLC1 - d1001_car02",
     "DLC1 - d1001_car03"
   ],
-  "base_game_sections_completed": 87,
+  "partially_translated_sections": [
+    "Base game - a1001_docparker (partial - entries [366]-[388] translated)",
+    "Base game - a1001_handcraft (partial - entries [54]-[90] translated)"
+  ],
+  "base_game_sections_completed": 88,
   "dlc1_sections_completed": 27,
-  "base_game_entries_completed": 851,
+  "base_game_entries_completed": 906,
   "dlc1_entries_completed": 476,
   "estimated_total_entries_base_game": "~81000",
   "estimated_total_entries_dlc1": "~120000",
-  "estimated_total_entries_all": "~728000"
+  "estimated_total_entries_all": "~728000",
+  "last_commit": "55d9dc0d207110ce1ce3ed48607aa5c5649d2188"
 }
