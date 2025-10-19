@@ -12,6 +12,7 @@ This project features a **fully automated translation system** that can run unat
 
 **Key Components:**
 - **Automation Scripts**: `automation/auto-translate.sh` (Bash) and `automation/auto-translate.ps1` (PowerShell)
+- **Permission Bypass**: Uses `--dangerously-skip-permissions` flag for true unattended operation
 - **Progress Persistence**: `translation/.translation_progress.json` automatically tracks progress
 - **Direct Translation**: Main Claude Code session performs translation work (no subagent overhead)
 - **Memory Management**: Automatic session restart when memory reaches 6-7GB threshold

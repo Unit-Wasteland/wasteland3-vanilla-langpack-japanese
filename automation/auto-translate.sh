@@ -119,7 +119,8 @@ EOF
     OUTPUT_FILE="$WORKING_DIR/automation/.session_${SESSION_COUNT}_output.log"
 
     # Start Claude Code in background with input redirection
-    timeout 3600 bash -c "cat '$COMMAND_FILE' | claude" > "$OUTPUT_FILE" 2>&1 &
+    # --dangerously-skip-permissions: Bypass all permission checks for automated execution
+    timeout 3600 bash -c "cat '$COMMAND_FILE' | claude --dangerously-skip-permissions" > "$OUTPUT_FILE" 2>&1 &
     CLAUDE_PID=$!
 
     # Monitor memory usage
