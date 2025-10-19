@@ -24,8 +24,8 @@ log() {
 
 # Get Claude Code process memory usage (in MB)
 get_claude_memory() {
-    local memory=$(ps aux | grep "[c]laude" | awk '{print $6}')
-    if [ -n "$memory" ]; then
+    local memory=$(ps aux | grep "[c]laude" | awk '{sum += $6} END {print sum}')
+    if [ -n "$memory" ] && [ "$memory" != "" ] && [ "$memory" != "0" ]; then
         echo $((memory / 1024))
     else
         echo 0
