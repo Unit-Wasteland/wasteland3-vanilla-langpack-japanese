@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-20T03:15:00+09:00",
+  "last_updated": "2025-10-20T03:30:00+09:00",
   "current_file": "StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
-  "total_entries_completed": 3675,
-  "last_completed_section": "DLC1: d1001_refugee_prisonervictim_iriscorpse (complete, 2/2 entries)",
-  "next_section_to_translate": "DLC1: d1001_refugee_prisoner_scarcollectors (19 entries)",
-  "next_action": "Continue sequential translation in DLC1 file: d1001_refugee_prisoner_scarcollectors and subsequent sections",
-  "notes": "Session progress (2025-10-20 Session 10): Completed 8 sections totaling 217 entries - d1001_refugee_louis (142, now complete 263/263), d1001_refugee_prisonervictim_aramcorpse (8), d1001_refugee_prisonervictim_arthur (20), d1001_refugee_prisonervictim_arthurcorpse (11), d1001_refugee_prisonervictim_fatima (17), d1001_refugee_prisonervictim_fatimacorpse (12), d1001_refugee_prisonervictim_iris (5), d1001_refugee_prisonervictim_iriscorpse (2). Total cumulative: 3675 entries.",
+  "total_entries_completed": 3694,
+  "last_completed_section": "DLC1: d1001_refugee_prisoner_scarcollectors (complete, 19/19 entries)",
+  "next_section_to_translate": "DLC1: d1001_refugee_stacks (59 entries)",
+  "next_action": "Continue sequential translation in DLC1 file: d1001_refugee_stacks and subsequent sections",
+  "notes": "Session progress (2025-10-20 Session 10): Completed 9 sections totaling 236 entries - d1001_refugee_louis (142, now complete 263/263), d1001_refugee_prisonervictim_aramcorpse (8), d1001_refugee_prisonervictim_arthur (20), d1001_refugee_prisonervictim_arthurcorpse (11), d1001_refugee_prisonervictim_fatima (17), d1001_refugee_prisonervictim_fatimacorpse (12), d1001_refugee_prisonervictim_iris (5), d1001_refugee_prisonervictim_iriscorpse (2), d1001_refugee_prisoner_scarcollectors (19). Total cumulative: 3694 entries.",
   "sections_completed": [
     "Base game - 0000_dorseyssnowedinn_radio",
     "Base game - 0000_gonzalez_radio_contactwithazrangers",
@@ -161,19 +161,20 @@
     "DLC1 - d1001_refugee_prisonervictim_fatima",
     "DLC1 - d1001_refugee_prisonervictim_fatimacorpse",
     "DLC1 - d1001_refugee_prisonervictim_iris",
-    "DLC1 - d1001_refugee_prisonervictim_iriscorpse"
+    "DLC1 - d1001_refugee_prisonervictim_iriscorpse",
+    "DLC1 - d1001_refugee_prisoner_scarcollectors"
   ],
   "partially_translated_sections": [
     "Base game - a1001_docparker (partial - entries [366]-[388] translated)",
     "Base game - a1001_handcraft (partial - entries [54]-[90] translated)"
   ],
   "base_game_sections_completed": 88,
-  "dlc1_sections_completed": 65,
+  "dlc1_sections_completed": 66,
   "base_game_entries_completed": 906,
-  "dlc1_entries_completed": 2769,
+  "dlc1_entries_completed": 2788,
   "estimated_total_entries_base_game": "~81000",
   "estimated_total_entries_dlc1": "~120000",
   "estimated_total_entries_all": "~728000",
-  "last_commit": "bd81a31",
+  "last_commit": "b1934df",
   "session_number": 4
 }
