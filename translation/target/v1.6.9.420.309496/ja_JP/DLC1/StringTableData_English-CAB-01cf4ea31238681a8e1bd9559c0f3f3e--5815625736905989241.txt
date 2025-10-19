@@ -147,67 +147,67 @@
       1 Array Array (31 items)
        0 int size = 31
        [0]
-        1 string data = ""Hello Rangers. This is the Patriarch.""
+        1 string data = "「こんにちは、レンジャーズ。パトリアークだ。」"
        [1]
-        1 string data = ""Hello Rangers. This is the Patriarch.""
+        1 string data = "「こんにちは、レンジャーズ。パトリアークだ。」"
        [2]
-        1 string data = ""My people have been monitoring the radio chatter, and...""
+        1 string data = "「私の部下が無線の会話を監視していたのだが...」"
        [3]
-        1 string data = """ Reaction to that. Talk about how we'll get rewards at our base (NOTE - Is that how we're handling it?)"
+        1 string data = "「それに対する反応。基地で報酬を受け取る方法について話す(注 - これが処理方法か?)」"
        [4]
-        1 string data = ""The Patriarch doesn't react well to you being cagey. We won't actually follow up with him later, he'll have found out what he needs to know by the time we get back. Any rewards that are due to us will be waiting at Ranger HQ whether or not we tell him.""
+        1 string data = "「パトリアークは、あなたが口を濁すことに良い反応を示さない。実際には後で彼に報告することはない。私たちが戻る頃には、彼は知る必要のあることを知っているだろう。私たちに与えられるべき報酬は、彼に話すかどうかに関わらず、レンジャー本部で待っているだろう。」"
        [5]
-        1 string data = """Reaction to that. (Do we get rewards in this case? Check with Eric and LDs)"
+        1 string data = "「それに対する反応。(この場合、報酬は得られるか?エリックとLDsに確認)」"
        [6]
-        1 string data = """ Reaction to that. Talk about how we'll get rewards at our base (NOTE - Is that how we're handling it?)"
+        1 string data = "「それに対する反応。基地で報酬を受け取る方法について話す(注 - これが処理方法か?)」"
        [7]
-        1 string data = " Markham's in charge."
+        1 string data = " マーカムが担当している。"
        [8]
-        1 string data = " Crow's in charge."
+        1 string data = " クロウが担当している。"
        [9]
-        1 string data = " No one's in charge."
+        1 string data = " 誰も担当していない。"
        [10]
-        1 string data = " It's pretty complicated. Let's just fill you in later."
+        1 string data = " かなり複雑だ。後で詳しく説明しよう。"
        [11]
-        1 string data = ""Anything else?"\nWe can respond with:\n-Tell him what we did to the Computation Engine\n-Tell him about the Worker Troubles we encountered and how we handled them.\n-We found a man in a bear suit!\n-Tell him it's nothing worth his attention."
+        1 string data = "「他に何かあるか?」\n以下のように答えられる:\n-計算エンジンに対して何をしたか伝える\n-遭遇した労働者の問題と、それをどう処理したか伝える。\n-熊の着ぐるみを着た男を見つけた!\n-彼の注意を引く価値のあることは何もないと伝える。"
        [12]
-        1 string data = ""Turns out the Computation Engine is made of synths. Don't worry, we fixed it.""
+        1 string data = "「判明したのは、計算エンジンはシンセでできているということだ。心配するな、修理した。」"
        [13]
-        1 string data = """
+        1 string data = "「」"
        [14]
-        1 string data = """"
+        1 string data = "「」"
        [15]
-        1 string data = """"
+        1 string data = "「」"
        [16]
-        1 string data = """"
+        1 string data = "「」"
        [17]
-        1 string data = """"
+        1 string data = "「」"
        [18]
-        1 string data = """"
+        1 string data = "「」"
        [19]
-        1 string data = ""Nothing worth your time. We handled it.""
+        1 string data = "「あなたの時間を費やす価値のあることは何もない。処理した。」"
        [20]
-        1 string data = ""I hope so, Rangers. I do hope so.""
+        1 string data = "「そう願いたい、レンジャーズ。そう願いたい。」"
        [21]
-        1 string data = ""Patriarch out.""
+        1 string data = "「パトリアーク、終わり。」"
        [22]
-        1 string data = ""Reaction to that.""
+        1 string data = "「それに対する反応。」"
        [23]
-        1 string data = ""Reaction to that.""
+        1 string data = "「それに対する反応。」"
        [24]
-        1 string data = ""Reaction to that.""
+        1 string data = "「それに対する反応。」"
        [25]
-        1 string data = ""Reaction to that.""
+        1 string data = "「それに対する反応。」"
        [26]
-        1 string data = ""Reaction to that.""
+        1 string data = "「それに対する反応。」"
        [27]
-        1 string data = ""Reaction to that.""
+        1 string data = "「それに対する反応。」"
        [28]
-        1 string data = ""Reaction to that.""
+        1 string data = "「それに対する反応。」"
        [29]
-        1 string data = ""We found a man in a bear suit. We're not sure if he knows he's a man.""
+        1 string data = "「熊の着ぐるみを着た男を見つけた。彼が自分が人間だと知っているかどうかはわからない。」"
        [30]
-        1 string data = ""Don't waste my time with stupid jokes, Rangers.""
+        1 string data = "「くだらない冗談で私の時間を無駄にするな、レンジャーズ。」"
    [1]
     0 StringTable data
      1 string Filename = "0000_steeltown_radio_gangraidincoming"
@@ -295,27 +295,27 @@
        [4]
         1 string data = "Script Node 5"
        [5]
-        1 string data = "Temp text: One of Liberty's raiding parties is coming our way. Rangers, save Steeltown!"
+        1 string data = "仮テキスト:リバティの襲撃隊の一つがこちらに向かっている。レンジャーズ、スティールタウンを救ってくれ!"
        [6]
-        1 string data = "Temp text: One of Liberty's raiding parties is coming our way. Rangers, save Steeltown!"
+        1 string data = "仮テキスト:リバティの襲撃隊の一つがこちらに向かっている。レンジャーズ、スティールタウンを救ってくれ!"
        [7]
-        1 string data = "Temp text: Rangers, you don't know me because I was hiding when everything... Y'know, <i>went down</i> in Steeltown. Let's not get into specifics.\n\n\nBut Liberty's raiding party is coming! Rangers, save Steeltown."
+        1 string data = "仮テキスト:レンジャーズ、私のことは知らないだろう。スティールタウンで全てが...その、<i>起こった</i>時、私は隠れていたからな。詳細には立ち入らないでおこう。\n\n\nしかしリバティの襲撃隊が来る!レンジャーズ、スティールタウンを救ってくれ。"
        [8]
-        1 string data = "Temp text: One of Liberty's raiding parties is coming our way. Rangers, save Steeltown!"
+        1 string data = "仮テキスト:リバティの襲撃隊の一つがこちらに向かっている。レンジャーズ、スティールタウンを救ってくれ!"
        [9]
-        1 string data = "<i>static</i>"
+        1 string data = "<i>ノイズ</i>"
        [10]
         1 string data = "Script Node 11"
        [11]
-        1 string data = "Temp text: The Rangers are here, just in time!"
+        1 string data = "仮テキスト:レンジャーズが来てくれた、ちょうど間に合った!"
        [12]
-        1 string data = "Temp text: The Rangers are here, just in time!"
+        1 string data = "仮テキスト:レンジャーズが来てくれた、ちょうど間に合った!"
        [13]
-        1 string data = "Temp text: The Rangers are here, just in time!"
+        1 string data = "仮テキスト:レンジャーズが来てくれた、ちょうど間に合った!"
        [14]
-        1 string data = "Temp text: The Rangers are here, just in time!"
+        1 string data = "仮テキスト:レンジャーズが来てくれた、ちょうど間に合った!"
        [15]
-        1 string data = " Battle starts! We set d1001_Raid_Cutscene_Complete which starts the battle in Cutscene_d1001_LibertyRaid."
+        1 string data = " 戦闘開始!Cutscene_d1001_LibertyRaidで戦闘を開始するd1001_Raid_Cutscene_Completeを設定する。"
    [2]
     0 StringTable data
      1 string Filename = "a1001_banterbarks_brig"
@@ -405,43 +405,43 @@
       1 Array Array (19 items)
        0 int size = 19
        [0]
-        1 string data = ""A lot of people think being the boss means getting to do whatever you want. Like, if you're in charge, reality bends to your will.""
+        1 string data = "「多くの人がボスになることは、やりたいことを何でもできることだと思っている。まるで、責任者になれば、現実が自分の意志に従うかのように。」"
        [1]
-        1 string data = ""But that's backwards! Leaders need to see their constraints, and strive to create environments that help their workers flourish.""
+        1 string data = "「しかしそれは逆だ!リーダーは自分の制約を見極め、労働者が繁栄できる環境を作るよう努力する必要がある。」"
        [2]
-        1 string data = ""Exploitation and oppression. I've seen that impulse in all positions of authority, Blue.""
+        1 string data = "「搾取と抑圧。私はあらゆる権力者にその衝動を見てきた、ブルー。」"
        [3]
-        1 string data = ""Someone gains a little bit of power over others, and they seek to remake a world for themselves, not for those who they are responsible for.""
+        1 string data = "「誰かが他者に対して少しの力を得ると、彼らは自分が責任を負う者たちのためではなく、自分のために世界を作り変えようとする。」"
        [4]
-        1 string data = ""Dictate what you want, and your subordinates will have to figure it out.""
+        1 string data = "「自分が望むことを命令すれば、部下たちがそれを何とかするだろう。」"
        [5]
-        1 string data = ""A boss that lets their ego drive just leads to, well, Steeltown.""
+        1 string data = "「自我に駆られるボスは、まあ、スティールタウンのような結果につながるだけだ。」"
        [6]
-        1 string data = ""Do you think you're doing any good in here?""
+        1 string data = "「ここで何か良いことをしていると思うか?」"
        [7]
-        1 string data = ""Look, don't get your panties in a bunch. It was just a suggestion. You wanna make your life more difficult, go ahead.""
+        1 string data = "「おい、そんなに怒るなよ。ただの提案だ。自分の人生をもっと難しくしたいなら、どうぞ。」"
        [8]
-        1 string data = ""Ms. Crow, I'm doing the best I can in a difficult situation.""
+        1 string data = "「クロウさん、私は困難な状況で最善を尽くしているんです。」"
        [9]
-        1 string data = ""Are you? You could be out fighting against the tyrants and thugs that assail the freedoms of every Coloradan.""
+        1 string data = "「本当に?あなたは全てのコロラド住民の自由を脅かす暴君や暴漢と戦うことができるはずだ。」"
        [10]
-        1 string data = ""Instead, you're watching me sit in a cage. When I could be out there helping people.""
+        1 string data = "「その代わりに、あなたは私が檻の中に座っているのを見張っている。私は外で人々を助けることができるのに。」"
        [11]
-        1 string data = ""Salene, there are rules we abide by to ensure mutual safety and respect how others want to live. You willfully and unapologetically violated those rules.""
+        1 string data = "「サリーン、相互の安全を確保し、他者の生き方を尊重するために、私たちが守るべきルールがある。あなたは故意に、そして悪びれることなくそのルールを破った。」"
        [12]
-        1 string data = ""Nobody listens when you ask politely, Hope!""
+        1 string data = "「丁寧に頼んでも誰も聞いてくれないのよ、ホープ!」"
        [13]
-        1 string data = ""Is it because, ultimately, they pay you? Because your vaunted ideals are just the way they manipulate you in to being their tool?""
+        1 string data = "「結局のところ、彼らがあなたに金を払っているからか?あなたの自慢の理想は、彼らがあなたを道具にするために操る方法に過ぎないのか?」"
        [14]
-        1 string data = ""Take my advice or leave it. You wanna make your life more difficult, go ahead.""
+        1 string data = "「私の助言を受け入れるか無視するかはあなた次第だ。自分の人生をもっと難しくしたいなら、どうぞ。」"
        [15]
-        1 string data = ""Mr. Ludlow, that sort of brutal punishment has no place in a modern brig and I truly worry for your mental state that you'd consider it a valid response to the actions of someone under your care.""
+        1 string data = "「ラドロウさん、そのような残忍な罰は現代のブリッグにふさわしくないし、あなたの管理下にある者の行動に対する正当な対応だと考えるあなたの精神状態を本当に心配します。」"
        [16]
-        1 string data = ""That sort of brutal conduct has no place in enlightened society, and I truly worry for your mental state that you'd consider it a valid response to the actions of someone under your care.""
+        1 string data = "「そのような残忍な行為は啓蒙された社会にふさわしくないし、あなたの管理下にある者の行動に対する正当な対応だと考えるあなたの精神状態を本当に心配します。」"
        [17]
-        1 string data = ""Not only is it a grossly disproportionate response to what was done, that sort of disfigurement would hinder reentry into productive society.""
+        1 string data = "「それは行われたことに対してあまりにも不釣り合いな対応であるだけでなく、そのような身体の損傷は生産的な社会への復帰を妨げるでしょう。」"
        [18]
-        1 string data = ""And why would you even think of doing that with a harmonica?""
+        1 string data = "「それに、なぜハーモニカでそんなことを考えるのですか?」"
    [3]
     0 StringTable data
      1 string Filename = "a1001_banterbarks_museum"
@@ -531,43 +531,43 @@
       1 Array Array (19 items)
        0 int size = 19
        [0]
-        1 string data = ""Oh look, the Steeltown symbol. Why do we have that?""
+        1 string data = "「ほら、スティールタウンのシンボルだ。なぜこれを持っているんだ?」"
        [1]
-        1 string data = ""It's not a gizmo. It's a scale model I made of the Computation Engine in Steeltown.""
+        1 string data = "「機械じゃない。スティールタウンの計算エンジンの縮尺模型を作ったんだ。」"
        [2]
-        1 string data = ""What's that crazy staff thing?""
+        1 string data = "「あのクレイジーな杖みたいなものは何?」"
        [3]
-        1 string data = ""Abigail Markham sent it to us after we helped her put down a strike and fix her Computation Engine. It's solid steel.""
+        1 string data = "「アビゲイル・マーカムがストライキを鎮圧し、計算エンジンを修理するのを手伝った後に送ってきたんだ。純粋な鋼鉄製だ。」"
        [4]
-        1 string data = ""That's nice of her. Must weigh a ton.""
+        1 string data = "「彼女らしい親切さね。1トンくらいありそう。」"
        [5]
-        1 string data = ""Took lots of Steeltown-made heavy equipment to install it. I think she was making a point.""
+        1 string data = "「設置するのにスティールタウン製の重機がたくさん必要だった。彼女は何かを主張していたんだと思う。」"
        [6]
-        1 string data = ""What's this gizmo?""
+        1 string data = "「この機械は何?」"
        [7]
-        1 string data = ""Markham was using a bunch of captured synths to run Steeltown, but they were messing things up, so Team November shut it all down.""
+        1 string data = "「マーカムは捕らえたシンセの集団を使ってスティールタウンを運営していたが、彼らが問題を起こしていたので、チーム・ノベンバーが全てを停止させたんだ。」"
        [8]
-        1 string data = ""Whoa. It's so small. They must have been really tiny synths.""
+        1 string data = "「わあ。すごく小さい。本当に小さなシンセだったに違いない。」"
        [9]
-        1 string data = ""You don't know what 'scale model' means, do you?""
+        1 string data = "「『縮尺模型』の意味がわかってないだろう?」"
        [10]
-        1 string data = ""Check out this scale model I made of the Computation Engine in Steeltown.""
+        1 string data = "「スティールタウンの計算エンジンの縮尺模型を作ったんだ、見てくれ。」"
        [11]
-        1 string data = ""Whoa. That's really detailed. What does it commemorate?""
+        1 string data = "「わあ。すごく詳細だ。何を記念してるの?」"
        [12]
-        1 string data = ""Markham was using a bunch of captured synths to run Steeltown, but they were messing things up, so Team November shut it all down.""
+        1 string data = "「マーカムは捕らえたシンセの集団を使ってスティールタウンを運営していたが、彼らが問題を起こしていたので、チーム・ノベンバーが全てを停止させたんだ。」"
        [13]
-        1 string data = ""I bet Markham wasn't very happy about that.""
+        1 string data = "「マーカムはあまり喜ばなかっただろうね。」"
        [14]
-        1 string data = ""You could say that, yeah.""
+        1 string data = "「まあ、そう言えるな。」"
        [15]
-        1 string data = ""Is that gear part of a machine?""
+        1 string data = "「あの歯車は機械の一部?」"
        [16]
-        1 string data = ""It's the symbol of Steeltown. Abigail Markham sent it to us after we helped her put down a strike and fix her Computation Engine.""
+        1 string data = "「スティールタウンのシンボルだ。アビゲイル・マーカムがストライキを鎮圧し、計算エンジンを修理するのを手伝った後に送ってきた。」"
        [17]
-        1 string data = ""Looks a bit... menacing.""
+        1 string data = "「ちょっと...威圧的に見える。」"
        [18]
-        1 string data = ""Yeah, well, so is Markham.""
+        1 string data = "「ああ、まあ、マーカムもそうだからな。」"
    [4]
     0 StringTable data
      1 string Filename = "a1001_blue"
