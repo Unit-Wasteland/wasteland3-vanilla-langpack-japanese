@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-20T03:45:00+09:00",
+  "last_updated": "2025-10-20T03:15:00+09:00",
   "current_file": "StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
-  "total_entries_completed": 3458,
-  "last_completed_section": "DLC1: d1001_refugee_camp (complete, 174/174 entries)",
-  "next_section_to_translate": "DLC1: d1001_refugee_louis (continue from entry 121, 142 entries remaining)",
-  "next_action": "Continue sequential translation in DLC1 file: d1001_refugee_louis (142 entries remaining) and subsequent sections",
-  "notes": "Session progress (2025-10-20 Session 9): Completed 4 sections totaling 363 entries - d1001_refugee_breakin (58), d1001_refugee_camp (174), d1001_refugee_elves (10), d1001_refugee_louis (121/263, in progress). Total cumulative: 3458 entries.",
+  "total_entries_completed": 3675,
+  "last_completed_section": "DLC1: d1001_refugee_prisonervictim_iriscorpse (complete, 2/2 entries)",
+  "next_section_to_translate": "DLC1: d1001_refugee_prisoner_scarcollectors (19 entries)",
+  "next_action": "Continue sequential translation in DLC1 file: d1001_refugee_prisoner_scarcollectors and subsequent sections",
+  "notes": "Session progress (2025-10-20 Session 10): Completed 8 sections totaling 217 entries - d1001_refugee_louis (142, now complete 263/263), d1001_refugee_prisonervictim_aramcorpse (8), d1001_refugee_prisonervictim_arthur (20), d1001_refugee_prisonervictim_arthurcorpse (11), d1001_refugee_prisonervictim_fatima (17), d1001_refugee_prisonervictim_fatimacorpse (12), d1001_refugee_prisonervictim_iris (5), d1001_refugee_prisonervictim_iriscorpse (2). Total cumulative: 3675 entries.",
   "sections_completed": [
     "Base game - 0000_dorseyssnowedinn_radio",
     "Base game - 0000_gonzalez_radio_contactwithazrangers",
@@ -153,20 +153,27 @@
     "DLC1 - d1001_refugee_bizarre",
     "DLC1 - d1001_refugee_breakin",
     "DLC1 - d1001_refugee_camp",
-    "DLC1 - d1001_refugee_elves"
+    "DLC1 - d1001_refugee_elves",
+    "DLC1 - d1001_refugee_louis",
+    "DLC1 - d1001_refugee_prisonervictim_aramcorpse",
+    "DLC1 - d1001_refugee_prisonervictim_arthur",
+    "DLC1 - d1001_refugee_prisonervictim_arthurcorpse",
+    "DLC1 - d1001_refugee_prisonervictim_fatima",
+    "DLC1 - d1001_refugee_prisonervictim_fatimacorpse",
+    "DLC1 - d1001_refugee_prisonervictim_iris",
+    "DLC1 - d1001_refugee_prisonervictim_iriscorpse"
   ],
   "partially_translated_sections": [
     "Base game - a1001_docparker (partial - entries [366]-[388] translated)",
-    "Base game - a1001_handcraft (partial - entries [54]-[90] translated)",
-    "DLC1 - d1001_refugee_louis (partial - 121/263 entries translated)"
+    "Base game - a1001_handcraft (partial - entries [54]-[90] translated)"
   ],
   "base_game_sections_completed": 88,
-  "dlc1_sections_completed": 58,
+  "dlc1_sections_completed": 65,
   "base_game_entries_completed": 906,
-  "dlc1_entries_completed": 2552,
+  "dlc1_entries_completed": 2769,
   "estimated_total_entries_base_game": "~81000",
   "estimated_total_entries_dlc1": "~120000",
   "estimated_total_entries_all": "~728000",
-  "last_commit": "56d3601",
-  "session_number": 9
+  "last_commit": "bd81a31",
+  "session_number": 4
 }
