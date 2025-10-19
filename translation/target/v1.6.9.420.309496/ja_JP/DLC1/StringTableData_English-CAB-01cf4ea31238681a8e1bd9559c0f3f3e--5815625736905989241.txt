@@ -69481,45 +69481,45 @@
       1 Array Array (20 items)
        0 int size = 20
        [0]
-        1 string data = "Welcome to the War-Bot Factory Operational Status Board computer. Please indicate parameter of inquiry."
+        1 string data = "ウォーボット工場運用状況ボードコンピュータへようこそ。照会パラメータを指定してください。"
        [1]
-        1 string data = "Check worker productivity status."
+        1 string data = "労働者生産性ステータスを確認する。"
        [2]
-        1 string data = "Check war-bot completion status."
+        1 string data = "ウォーボット完成ステータスを確認する。"
        [3]
-        1 string data = "Check quota compliance status."
+        1 string data = "ノルマ遵守ステータスを確認する。"
        [4]
-        1 string data = "Check production schedule compliance status."
+        1 string data = "生産スケジュール遵守ステータスを確認する。"
        [5]
-        1 string data = "War-Bot Station One - Workers Present and Idle\nWar-Bot Station Two - Workers Present and Negatively Productive\nWar-Bot Station Three - Workers Present and Negatively Productive"
+        1 string data = "ウォーボット・ステーション1 - 労働者在席・アイドル状態\nウォーボット・ステーション2 - 労働者在席・負の生産性\nウォーボット・ステーション3 - 労働者在席・負の生産性"
        [6]
-        1 string data = "War-Bot Station One - Insufficient Workers Present\nWar-Bot Station Two - Workers Present and Negatively Productive\nWar-Bot Station Three - Workers Present and Negatively Productive"
+        1 string data = "ウォーボット・ステーション1 - 労働者不足\nウォーボット・ステーション2 - 労働者在席・負の生産性\nウォーボット・ステーション3 - 労働者在席・負の生産性"
        [7]
-        1 string data = "War-Bot Station One - Insufficient Workers Present\nWar-Bot Station Two - Insufficient Workers Present\nWar-Bot Station Three - Workers Present and Negatively Productive"
+        1 string data = "ウォーボット・ステーション1 - 労働者不足\nウォーボット・ステーション2 - 労働者不足\nウォーボット・ステーション3 - 労働者在席・負の生産性"
        [8]
-        1 string data = "War-Bot Station One - Insufficient Workers Present\nWar-Bot Station Two - Insufficient Workers Present\nWar-Bot Station Three - Insufficient Workers Present"
+        1 string data = "ウォーボット・ステーション1 - 労働者不足\nウォーボット・ステーション2 - 労働者不足\nウォーボット・ステーション3 - 労働者不足"
        [9]
-        1 string data = "Returning to Main Menu"
+        1 string data = "メインメニューに戻る"
        [10]
-        1 string data = "No War-Bot on Production Line\nWar-Bot 0% Complete"
+        1 string data = "生産ラインにウォーボットなし\nウォーボット完成度0%"
        [11]
-        1 string data = "War-Bot on Production Line\nLeg Unit Assembled\nWar-Bot 33% Complete"
+        1 string data = "生産ラインにウォーボットあり\n脚部ユニット組立完了\nウォーボット完成度33%"
        [12]
-        1 string data = "War-Bot on Production Line\nTorso Unit Affixed to Leg Unit\nWar-Bot 66% Complete"
+        1 string data = "生産ラインにウォーボットあり\n胴体ユニットを脚部ユニットに取り付け完了\nウォーボット完成度66%"
        [13]
-        1 string data = "War-Bot on Production Line\nLazer Unit Affixed to Torso Unit\nWar-Bot 100% Complete"
+        1 string data = "生産ラインにウォーボットあり\nレーザーユニットを胴体ユニットに取り付け完了\nウォーボット完成度100%"
        [14]
-        1 string data = "Completed War-Bot Delivered to Destination\nNo War-Bot on Production Line"
+        1 string data = "完成したウォーボットを目的地に配送完了\n生産ラインにウォーボットなし"
        [15]
-        1 string data = "Weekly War-Bot Quota 100% Incomplete"
+        1 string data = "週間ウォーボット・ノルマ100%未達"
        [16]
-        1 string data = "Weekly War-Bot Quota 99% Incomplete"
+        1 string data = "週間ウォーボット・ノルマ99%未達"
        [17]
-        1 string data = "War-Bot Factory is Two Weeks, Three Days, Fourteen Hours, and Twenty Six Minutes behind Schedule."
+        1 string data = "ウォーボット工場はスケジュールより2週間、3日、14時間、26分遅れています。"
        [18]
-        1 string data = "War-Bot Factory is Two Weeks, Three Days, Fourteen Hours, and Nineteen Minutes behind Schedule."
+        1 string data = "ウォーボット工場はスケジュールより2週間、3日、14時間、19分遅れています。"
        [19]
-        1 string data = "Step away from the War-Bot Factory Operational Status Board computer."
+        1 string data = "ウォーボット工場運用状況ボードコンピュータから離れてください。"
    [241]
     0 StringTable data
      1 string Filename = "d2101_giles"
@@ -70133,305 +70133,305 @@
       1 Array Array (150 items)
        0 int size = 150
        [0]
-        1 string data = "Default Greeting."
+        1 string data = "デフォルト挨拶。"
        [1]
         1 string data = "DEBUG"
        [2]
-        1 string data = ""Good luck staying alive.""
+        1 string data = ""生き延びられるといいな。""
        [3]
-        1 string data = ""It... it left! That was amazing. I can't believe you got Ludlow to call it off. So... what do you want?""
+        1 string data = ""行った……行ったぞ!すごかった。ラドロウに引かせることができたなんて信じられない。それで……何の用だ?""
        [4]
-        1 string data = "Is there a working engine up there?"
+        1 string data = "あそこに動くエンジンはあるのか?"
        [5]
-        1 string data = "How should I know? We work in the body shop.\nWe're just hiding here."
+        1 string data = "どうやって知るんだ?俺たちはボディショップで働いてる。\nここで隠れてるだけだ。"
        [6]
-        1 string data = "Can we look at the engine?"
+        1 string data = "エンジンを見させてもらえないか?"
        [7]
-        1 string data = "You stay back! I'm not about to let one of Herrera's trigger-happy deputies up here!"
+        1 string data = "下がってろ!ヘレラの引き金が軽い手下なんかをここに上がらせるつもりはない!"
        [8]
-        1 string data = "too much text"
+        1 string data = "テキストが長すぎる"
        [9]
-        1 string data = ""Get out of the way before you get hurt.""
+        1 string data = ""怪我をする前にどけ。""
        [10]
-        1 string data = ""Ha! Trying to scare us? Sorry assholes. We were already ready to die. Threats aren't gonna work.""
+        1 string data = ""ハ!脅かそうってのか?悪いけどクソ野郎共。俺たちは既に死ぬ覚悟ができてる。脅しなんか通用しねえ。""
        [11]
-        1 string data = "[Attack] "We're done talking.""
+        1 string data = "[攻撃] 「話は終わりだ。」"
        [12]
-        1 string data = ""Management thugs! Die!""
+        1 string data = ""経営側の手先共め!死ね!""
        [13]
-        1 string data = "You intimidated us into leaving."
+        1 string data = "お前たちに脅されて出て行った。"
        [14]
-        1 string data = ""Thugs! We told you we'd shoot if you crossed the line!""
+        1 string data = ""手先共め!ラインを越えたら撃つって言っただろ!""
        [15]
-        1 string data = "You killed me!"
+        1 string data = "俺を殺しやがった!"
        [16]
-        1 string data = "Herrera killed me!"
+        1 string data = "ヘレラが俺を殺した!"
        [17]
         1 string data = ""
        [18]
-        1 string data = ""Woof. Interference with factory scheduling is a crime. Return to your jobs.""
+        1 string data = ""ワン。工場スケジュールへの妨害は犯罪です。仕事に戻りなさい。""
        [19]
-        1 string data = ""Twelve hour shifts with no breaks are a crime! Go fuck yourselves, robots!""
+        1 string data = ""休憩なしの12時間シフトが犯罪だ!くたばれ、ロボット共!""
        [20]
-        1 string data = ""Bow wow. You are resting on company time. Return to your jobs.""
+        1 string data = ""バウワウ。会社の時間に休んでいます。仕事に戻りなさい。""
        [21]
-        1 string data = ""Why don't you return to the scrap heap! We're not moving 'til Markham talks to Crow!""
+        1 string data = ""お前らこそスクラップ置き場に帰れ!マーカムがクロウと話すまで俺たちは動かねえぞ!""
        [22]
-        1 string data = ""Warning. There will be no more warning shots. Return to your jobs. Bark bark.""
+        1 string data = ""警告。これ以上の警告射撃はありません。仕事に戻りなさい。ワンワン。""
        [23]
-        1 string data = ""Go ahead and shoot, tin-pot! We're not moving!""
+        1 string data = ""撃ってみろよ、ブリキ野郎!俺たちは動かねえ!""
        [24]
-        1 string data = ""Thanks for dealing with that robot. See you when you get through to Crow.""
+        1 string data = ""あのロボットを片付けてくれてありがとう。クロウのところに辿り着いたらまた会おう。""
        [25]
-        1 string data = ""What's the matter? We just saved you from those killers.""
+        1 string data = ""何だ?俺たちは殺し屋共からお前らを救ったんだぞ。""
        [26]
-        1 string data = ""That just means you're guards, and the guards are even worse!""
+        1 string data = ""それはつまりお前らが警備員ってことだ、そして警備員はもっと悪い!""
        [27]
-        1 string data = ""Please, don't do anything to us! We don't want to fight. We just want to go back to work.""
+        1 string data = ""頼む、俺たちに何もしないでくれ!戦いたくない。ただ仕事に戻りたいだけなんだ。""
        [28]
-        1 string data = ""We just need you to get out of the way.""
+        1 string data = ""とにかくどいてもらわなきゃ。""
        [29]
-        1 string data = ""Sorry. Being in the way is the only leverage we've got.""
+        1 string data = ""悪いけど。邪魔をすることが俺たちの唯一の切り札なんだ。""
        [30]
-        1 string data = "Not that it matters! I'm gonna have to scrap it for parts to repair our defenses. Markham can send me the bill."
+        1 string data = "まあどうでもいいことだ!防衛を修理するために部品としてスクラップにしなきゃならん。マーカムには請求書を送っとくよ。"
        [31]
-        1 string data = ""Everybody just stand down. We don't want any trouble, right?""
+        1 string data = ""みんな落ち着け。問題は起こしたくないだろ?""
        [32]
-        1 string data = ""Not the whole cause. There's no way he shoulda been hired as Security Chief, but he's not just bad at his job, he's an asshole on purpose - shouting at us, pushing us around, having his robots 'reprimand' us with disruption weapons.""
+        1 string data = ""全ての原因じゃない。奴が警備長に雇われるべきじゃなかったのは確かだが、ただ仕事が下手なだけじゃない、わざと嫌な奴になってるんだ―俺たちに怒鳴り散らして、押しのけて、ロボットに妨害兵器で『懲らしめ』させたりして。""
        [33]
-        1 string data = ""So, you think Ludlow's the cause of your problems?""
+        1 string data = ""つまり、ラドロウがお前たちの問題の原因だと思うのか?""
        [34]
-        1 string data = ""Why are you on strike?""
+        1 string data = ""なぜストライキをしてるんだ?""
        [35]
-        1 string data = ""You got an hour? Seriously, there's so much wrong here I don't know where to start. First off, Ludlow's a shakedown artist, making us pay for food breaks and piss breaks, medical care. On top of that, our schedule is insane.""
+        1 string data = ""1時間くらいあるか?マジで、ここはひどすぎてどこから始めたらいいか分からない。まずラドロウは恐喝屋で、食事休憩やトイレ休憩、医療に金を払わせる。その上、俺たちのスケジュールは狂ってる。""
        [36]
-        1 string data = ""What do you think of Crow?""
+        1 string data = ""クロウについてどう思う?""
        [37]
-        1 string data = ""Crow may be a little crazy, but her heart's in the right place. She wants us workers to have a fair deal, and she's willing to fight for it.""
+        1 string data = ""クロウは少しイカれてるかもしれないが、心は正しい場所にある。彼女は俺たち労働者に公正な取引をしてほしいと思ってて、そのために戦う覚悟がある。""
        [38]
-        1 string data = ""Even if you don't fight, they shoot you. They say if we don't pick up a weapon and fight Crow's crew, then we're on her side. We can't win!""
+        1 string data = ""戦わなくても撃たれる。クロウの仲間と戦うために武器を取らなければ、俺たちは彼女の味方だって言うんだ。勝てるわけがない!""
        [39]
-        1 string data = ""Let's just go.""
+        1 string data = ""もう行こう。""
        [40]
-        1 string data = ""Th-thanks.""
+        1 string data = ""あ、ありがとう。""
        [41]
-        1 string data = ""Please. We're on your side. We need to cut through the door so Crow can help us defeat Ludlow.""
+        1 string data = ""お願いだ。俺たちはあんたの味方だ。ドアを切り開かなきゃならない、そうすればクロウがラドロウを倒すのを手伝ってくれる。""
        [42]
-        1 string data = ""What? Really? That's a good plan. You better not be lying to us.""
+        1 string data = ""何だって?本当に?いい作戦だな。嘘じゃないほうがいいぞ。""
        [43]
-        1 string data = ""Okay, crew. Stand down. Let 'em through.""
+        1 string data = ""よし、仲間たち。下がれ。通してやれ。""
        [44]
         1 string data = ""
        [45]
         1 string data = ""
        [46]
-        1 string data = ""Don't come any closer! Stop!""
+        1 string data = ""これ以上近づくな!止まれ!""
        [47]
         1 string data = ""
        [48]
-        1 string data = ""Back again? Go away! We're prepared to defend ourselves.""
+        1 string data = ""また来たのか?あっち行け!自分たちを守る用意はできてる。""
        [49]
-        1 string data = ""What? Are you scabs? Are you trying to take our jobs? No way!""
+        1 string data = ""何だ?お前らはスト破りか?俺たちの仕事を奪おうってのか?そうはさせねえ!""
        [50]
-        1 string data = ""All right, we're leaving.""
+        1 string data = ""分かった、出て行く。""
        [51]
-        1 string data = ""Yeah. Scram.""
+        1 string data = ""ああ。失せろ。""
        [52]
-        1 string data = ""Don't cross the red line! We'll shoot!""
+        1 string data = ""赤いラインを越えるな!撃つぞ!""
        [53]
-        1 string data = ""No closer! We warned you before!""
+        1 string data = ""これ以上近づくな!前に警告しただろ!""
        [54]
-        1 string data = ""Wait... are you the Rangers? They say... they say you help folks out. Poor folks... the ones who really need your help." "
+        1 string data = ""待て……お前たちはレンジャーズか?聞いた話だと……お前たちは人々を助けるって。貧しい人々……本当に助けが必要な人たちを。" "
        [55]
-        1 string data = ""All right... you can come on up. We won't shoot.""
+        1 string data = ""分かった……上がって来い。撃たない。""
        [56]
-        1 string data = ""Guns down, everybody... it's the Rangers.""
+        1 string data = ""銃を下ろせ、みんな……レンジャーズだ。""
        [57]
-        1 string data = ""Even if you don't fight, they shoot you. They say if we don't pick up a weapon and fight Crow's crew, then we're on her side. We can't win!""
+        1 string data = ""戦わなくても撃たれる。クロウの仲間と戦うために武器を取らなければ、俺たちは彼女の味方だって言うんだ。勝てるわけがない!""
        [58]
-        1 string data = ""Thanks, Rangers.""
+        1 string data = ""ありがとう、レンジャーズ。""
        [59]
-        1 string data = ""Glad you're here, strangers. Didn't have much hope before you showed up.""
+        1 string data = ""来てくれて嬉しいぜ、よそ者さん。お前たちが来る前は希望なんかなかった。""
        [60]
-        1 string data = ""We shall, we shall not be moved! We shall, we shall not be moved! Just like a truck without any axles, we shall not be moved!""
+        1 string data = ""俺たちは動かない、俺たちは動かない!俺たちは動かない、俺たちは動かない!車軸のないトラックみたいに、俺たちは動かない!""
        [61]
-        1 string data = ""You hear us, Ludlow? We're not moving!""
+        1 string data = ""聞こえてるか、ラドロウ?俺たちは動かねえぞ!""
        [62]
-        1 string data = ""Rangers, help my bot clear those lazy shit-sacks out of there.""
+        1 string data = ""レンジャーズ、あそこからあのぐうたらなクソ袋共を追い出すのを手伝ってくれ。""
        [63]
-        1 string data = ""Down 'em or kill 'em, I don't really care. They're already dead weight.""
+        1 string data = ""倒すなり殺すなり、どっちでもいい。あいつらはもう役立たずだ。""
        [64]
-        1 string data = ""Who are you?""
+        1 string data = ""お前たちは誰だ?""
        [65]
-        1 string data = ""Relax. We're here to help.""
+        1 string data = ""落ち着け。俺たちは助けに来た。""
        [66]
-        1 string data = ""For your own safety, get out of the way.""
+        1 string data = ""お前たちの安全のために、どけ。""
        [67]
-        1 string data = ""Move or we'll move you.""
+        1 string data = ""動くか、俺たちが動かすか。""
        [68]
-        1 string data = ""We'll see what we can do. Ludlow! Can you hear us?""
+        1 string data = ""どうにかしてみよう。ラドロウ!聞こえるか?""
        [69]
-        1 string data = ""Then get this robo-dog away from us.""
+        1 string data = ""じゃあこのロボ犬を俺たちから遠ざけろ。""
        [70]
-        1 string data = ""If you're worried about our safety, get that robo-dog away from us!""
+        1 string data = ""俺たちの安全を心配してるなら、あのロボ犬を遠ざけろ!""
        [71]
-        1 string data = ""More threats? We already told Ludlow threats wouldn't move us! Now, if you want to negotiate instead of trying to bully us, then get that robo-dog out of here.""
+        1 string data = ""また脅しか?もうラドロウには脅しは通用しないって言っただろ!今、俺たちをいじめようとするんじゃなくて交渉したいなら、そのロボ犬をここから出せ。""
        [72]
-        1 string data = ""I can hear you making fucking fools of yourselves. Don't let those slackers tell you what to do. Kick their asses and get to the assembly line! Time's awastin'.""
+        1 string data = ""お前らがバカを晒してるのが聞こえるぞ。あの怠け者共の言いなりになるな。ケツを蹴っ飛ばして組立ラインに行け!時間の無駄だ。""
        [73]
-        1 string data = ""We won't talk 'til it's gone.""
+        1 string data = ""あれがいなくなるまで話さねえ。""
        [74]
-        1 string data = ""We shall, we shall not be moved!""
+        1 string data = ""俺たちは動かない、俺たちは動かない!""
        [75]
-        1 string data = ""We told you! Deal with the robots, or you don't deal with us!""
+        1 string data = ""言っただろ!ロボット共をどうにかしろ、さもなきゃ俺たちと取引はできねえ!""
        [76]
-        1 string data = ""Come on, we just want to talk.""
+        1 string data = ""頼むよ、ただ話したいだけなんだ。""
        [77]
-        1 string data = "[Attack]"Fuck it. We're ending this.""
+        1 string data = "[攻撃]「くそったれ。終わらせるぞ。」"
        [78]
-        1 string data = "[Attack] "We're the ones putting a stop to this!""
+        1 string data = "[攻撃] 「これを止めるのは俺たちだ!」"
        [79]
-        1 string data = ""Management thugs! Die!""
+        1 string data = ""経営側の手先共め!死ね!""
        [80]
-        1 string data = ""Sorry. Not until the robots are gone.""
+        1 string data = ""悪い。ロボット共がいなくなるまでだ。""
        [81]
-        1 string data = ""Fine. We'll step back.""
+        1 string data = ""分かった。下がるよ。""
        [82]
-        1 string data = ""Good. And this time stay back.""
+        1 string data = ""よし。今度は下がったままでいろ。""
        [83]
-        1 string data = ""We need access to the production line.""
+        1 string data = ""生産ラインにアクセスしなきゃならない。""
        [84]
-        1 string data = ""We're building a laser-mounted war-bot to cut through the blast door and get to Crow.""
+        1 string data = ""防爆扉を切り開いてクロウのところに行くために、レーザー搭載ウォーボットを作ってる。""
        [85]
-        1 string data = ""You're what, now? You think we're going to help you kill our leader? Fuck you!""
+        1 string data = ""何だって、今?俺たちのリーダーを殺すのを手伝うと思ってんのか?くたばれ!""
        [86]
-        1 string data = ""We're not moving.""
+        1 string data = ""動かねえ。""
        [87]
-        1 string data = ""We're trying to get Crow and Ludlow face to face and hash this out. The only way to do that is build a laser and cut through that door.""
+        1 string data = ""クロウとラドロウを対面させて、これを解決しようとしてる。そのためにはレーザーを作って、あのドアを切り開くしかない。""
        [88]
-        1 string data = ""What? No way! You just want to take away the only protection Crow has. We can't agree to that!""
+        1 string data = ""何だって?冗談だろ!お前たちはクロウの唯一の守りを奪いたいだけだ。そんなことには同意できねえ!""
        [89]
-        1 string data = ""Then we'll have to arrest you.""
+        1 string data = ""じゃあお前たちを逮捕しなきゃならない。""
        [90]
-        1 string data = ""Not without a fight, you won't! Get these thugs, brothers and sisters!""
+        1 string data = ""戦わずにはいかねえぞ!この手先共をやっちまえ、兄弟姉妹たちよ!""
        [91]
-        1 string data = ""We're watching you, strangers.""
+        1 string data = ""見てるぞ、よそ者。""
        [92]
         1 string data = ""いくつか質問がある。""
        [93]
-        1 string data = ""Sure. It's not like we're going anywhere.""
+        1 string data = ""いいぞ。どうせどこにも行かないしな。""
        [94]
-        1 string data = ""We don't have to tell you our reasons. Just move.""
+        1 string data = ""俺たちの理由を教える義理はねえ。ただどけ。""
        [95]
-        1 string data = ""Ha! Make us, assholes.""
+        1 string data = ""ハ!やってみろよ、クソ野郎共。""
        [96]
-        1 string data = ""Thanks. You've answered our questions.""
+        1 string data = ""ありがとう。質問の答えはもらった。""
        [97]
-        1 string data = ""Good. Now what?""
+        1 string data = ""よし。それで?""
        [98]
-        1 string data = ""First off, Ludlow's a shakedown artist, making us pay for food breaks and piss breaks, medical care. But we wouldn't need to bribe him for those things if the schedule wasn't insane. ""
+        1 string data = ""まずラドロウは恐喝屋で、食事休憩やトイレ休憩、医療に金を払わせる。でもスケジュールが狂ってなければ、そんなものに賄賂を払う必要なんてないんだ。 ""
        [99]
-        1 string data = ""We've been doing twelve hour shifts with no breaks for weeks now. We haven't even been allowed to go home. People are dying at their machines!""
+        1 string data = ""もう何週間も休憩なしの12時間シフトをやってる。家に帰ることすら許されてない。機械の前で死んでいく人もいる!""
        [100]
-        1 string data = ""Markham seems like a reasonable person, but Ludlow won't let us talk to her. He says <i>he's</i> in charge down here, not her.""
+        1 string data = ""マーカムは理性的な人間に見えるけど、ラドロウは俺たちが彼女と話すのを許さない。ここで責任者なのは<i>奴</i>で、彼女じゃないって言うんだ。""
        [101]
-        1 string data = ""And that's on top of milking us for bribes - making us pay for all things that would be free in a functional workplace - bathroom breaks, lunch breaks, even beds! We gotta pay him to sleep!""
+        1 string data = ""それに加えて賄賂で絞り取ってる―機能的な職場なら無料のものすべてに金を払わせるんだ―トイレ休憩、昼食休憩、ベッドまで!眠るのに奴に金を払わなきゃならねえんだ!""
        [102]
-        1 string data = ""How he ended up in this job isn't as important to me as how he leaves it, which should be feet first, in a black bag.""
+        1 string data = ""奴がどうやってこの仕事に就いたかは、俺にとってどうやってこの仕事から去るかほど重要じゃない。それは足から先に、黒い袋に入ってってことであるべきだ。""
        [103]
-        1 string data = ""Is Crow willing to <i>kill</i> for a fair deal?""
+        1 string data = ""クロウは公正な取引のために<i>殺す</i>覚悟があるのか?""
        [104]
-        1 string data = ""Why not? Ludlow started it. He's killed plenty of us. Not with a gun, maybe, but with the machines that mangle us, the hours that grind us, and the illnesses and injuries that come from that. He didn't listen when we asked politely, so...""
+        1 string data = ""なぜダメなんだ?ラドロウが始めたんだ。奴は俺たちを大勢殺してきた。銃じゃないかもしれないが、俺たちをバラバラにする機械で、俺たちをすり減らす労働時間で、そしてそこから来る病気や怪我でな。丁寧に頼んだ時には聞かなかったんだから……""
        [105]
-        1 string data = ""If violence is the only language he can hear, well, Crow speaks it - fluently.""
+        1 string data = ""暴力が奴が聞ける唯一の言語なら、まあ、クロウはそれを話す―流暢にな。""
        [106]
-        1 string data = ""We don't have time for this. Move.""
+        1 string data = ""時間がない。どけ。""
        [107]
-        1 string data = ""W-we just told you, we don't talk until the dog is gone. You want through here any other way, well... you'll have to kill us.""
+        1 string data = ""さ、さっき言っただろ、犬がいなくなるまで話さねえって。他の方法でここを通りたいなら、まあ……俺たちを殺さなきゃならねえな。""
        [108]
-        1 string data = ""All right, fine. Ludlow, can you hear us?""
+        1 string data = ""分かった、いいだろう。ラドロウ、聞こえるか?""
        [109]
-        1 string data = "[Attack] "You asked for it.""
+        1 string data = "[攻撃] 「自業自得だ。」"
        [110]
-        1 string data = ""We're the Rangers. Who are you?""
+        1 string data = ""俺たちはレンジャーズだ。お前たちは誰だ?""
        [111]
-        1 string data = ""W-we are the workers who shall not be moved. So, you better not try anything.""
+        1 string data = ""俺、俺たちは動かない労働者だ。だから何もしないほうがいいぞ。""
        [112]
-        1 string data = ""Fuck! Brothers and sisters! Hold the line!""
+        1 string data = ""クソ!兄弟姉妹たちよ!ラインを守れ!""
        [113]
-        1 string data = ""Firefights cause expensive damage. Shut down the dog, and Markham won't have to repair all her machines.""
+        1 string data = ""銃撃戦は高くつく損害を引き起こす。犬を止めろ、そうすればマーカムは機械を修理する必要がなくなる。""
        [114]
-        1 string data = ""Order this dog to back off. You're treating these people like animals.""
+        1 string data = ""この犬に下がるよう命令しろ。この人たちを動物みたいに扱ってるぞ。""
        [115]
-        1 string data = ""Recall this dog now before we kill it.""
+        1 string data = ""今すぐこの犬を呼び戻せ、さもなきゃ殺すぞ。""
        [116]
-        1 string data = ""Hmmm. You got a point there. All right. Sorry, Fido, here boy. Come home.""
+        1 string data = ""うーむ。一理あるな。分かった。悪いな、フィド、おいで。帰るぞ。""
        [117]
-        1 string data = ""Oh, the poor babies. You tell 'em I wouldn't be siccing dogs on 'em if they got off their asses and did some fucking work for a change!""
+        1 string data = ""ああ、可哀想なベイビーちゃんたちだ。言っとけよ、あいつらがケツを上げて少しは働いてくれりゃ、犬なんかけしかけねえってな!""
        [118]
-        1 string data = ""Markham ain't gonna like that. Those dogs are expensive. Cheaper to use the mercy weapons on the strikers like I said. Hell, probably cheaper even if you killed 'em. Plains trash comes a dime a dozen.""
+        1 string data = ""マーカムは気に入らねえだろうな。あの犬は高いんだ。俺が言ったようにストライキ参加者に慈悲の武器を使った方が安上がりだ。いや、殺したとしても安上がりだろうな。平原のゴミなんざ安いもんだ。""
        [119]
-        1 string data = ""Or better yet, just kick their asses like I told you to. Use Markham's mercy weapons if it makes you feel better. Or not.""
+        1 string data = ""それよりいいのは、俺が言ったようにあいつらのケツを蹴っ飛ばすことだ。気が楽になるならマーカムの慈悲の武器を使ってもいい。使わなくてもいいけど。""
        [120]
-        1 string data = ""Cheaper for you if you use those mercy weapons on the strikers like I said. Hell, probably cheaper even if you killed 'em. Plains trash like that come a dime a dozen. Those dogs are expensive.""
+        1 string data = ""俺が言ったようにストライキ参加者に慈悲の武器を使った方がお前にとっても安上がりだ。いや、殺したとしても安上がりだろうな。ああいう平原のゴミなんざ安いもんだ。あの犬は高いんだぞ。""
        [121]
-        1 string data = ""You better get this done, Rangers. I'm waitin' on you.""
+        1 string data = ""さっさと終わらせろよ、レンジャーズ。待ってるんだからな。""
        [122]
-        1 string data = "[Kill the robo-dog] "So long, Fido.""
+        1 string data = "[ロボ犬を殺す] 「じゃあな、フィド。」"
        [123]
-        1 string data = "[Attack the workers] "Sorry, we tried.""
+        1 string data = "[労働者を攻撃] 「すまない、試してみたんだが。」"
        [124]
-        1 string data = ""Fucking vandals! You really did it. Unbelievable. You're getting a piece of my mind when you get back here. Fuck!""
+        1 string data = ""クソったれの破壊者め!本当にやりやがった。信じられん。戻ってきたら文句を言わせてもらうぞ。クソ!""
        [125]
-        1 string data = ""You... you killed it! I can't believe... That was amazing! So... what do you want?""
+        1 string data = ""お、お前たち……殺しやがった!信じられない……すごかった!それで……何の用だ?""
        [126]
-        1 string data = ""We're not moving.""
+        1 string data = ""動かねえ。""
        [127]
-        1 string data = ""Fuck you, you lying dickwads. You said you'd help Crow! Get away from us.""
+        1 string data = ""くたばれ、嘘つきのクソ野郎共。クロウを助けるって言っただろ!俺たちから離れろ。""
        [128]
-        1 string data = ""Thanks again, Rangers. Crow's gonna make sure Markham changes things around here.""
+        1 string data = ""改めてありがとう、レンジャーズ。クロウがマーカムにここの状況を変えさせるはずだ。""
        [129]
         1 string data = ""
        [130]
         1 string data = ""
        [131]
-        1 string data = "You bring your weapon to bear on Steeltown robot dog."
+        1 string data = "あなたはスティールタウンのロボ犬に武器を向けた。"
        [132]
-        1 string data = ""Fuck! Brothers and sisters! Hold the line!""
+        1 string data = ""クソ!兄弟姉妹たちよ!ラインを守れ!""
        [133]
         1 string data = ""
        [134]
         1 string data = "Script Node 333"
        [135]
-        1 string data = ""Thanks for stopping the raid, Rangers!""
+        1 string data = ""襲撃を止めてくれてありがとう、レンジャーズ!""
        [136]
-        1 string data = ""You saved the workers, Rangers. That means you saved Steeltown.""
+        1 string data = ""労働者たちを救ってくれた、レンジャーズ。つまりスティールタウンを救ったってことだ。""
        [137]
         1 string data = ""
        [138]
-        1 string data = ""Why doesn't this guy understand we're trying to help him? Uh, we are trying to help him, right?""
+        1 string data = ""なぜこいつは俺たちが助けようとしてるって分からないんだ?ええと、俺たちは助けようとしてるんだよな?""
        [139]
-        1 string data = ""Stubborn little idiot.""
+        1 string data = ""頑固な小さなバカめ。""
        [140]
-        1 string data = ""Is there no way to convince him to trust us?""
+        1 string data = ""こいつを説得して俺たちを信用させる方法はないのか?""
        [141]
-        1 string data = ""Get out of the way, meat.""
+        1 string data = ""どけよ、肉袋。""
        [142]
-        1 string data = ""Why doesn't he trust us?""
+        1 string data = ""なぜ奴は俺たちを信用しないんだ?""
        [143]
-        1 string data = ""Oh, just shoot him!""
+        1 string data = ""ああ、もう撃っちまえ!""
        [144]
-        1 string data = "[Kill the robo-dog] "How's that?""
+        1 string data = "[ロボ犬を殺す] 「これでどうだ?」"
        [145]
-        1 string data = ""We've been doing twelve hour shifts with no breaks for weeks now. We haven't even been allowed to go home. People are dying at their machines!""
+        1 string data = ""もう何週間も休憩なしの12時間シフトをやってる。家に帰ることすら許されてない。機械の前で死んでいく人もいる!""
        [146]
-        1 string data = ""We're on your side. We need to cut through the door because the holocom's dead and there's no way to tell Crow we killed Ludlow.""
+        1 string data = ""俺たちはあんたの味方だ。ホロコムが壊れててラドロウを殺したことをクロウに伝える方法がないから、ドアを切り開かなきゃならない。""
        [147]
-        1 string data = ""What? Really? You better not be lying to us.""
+        1 string data = ""何だって?本当に?嘘じゃないほうがいいぞ。""
        [148]
         1 string data = ""
        [149]
-        1 string data = ""Woof.""
+        1 string data = ""ワン。""
    [242]
     0 StringTable data
      1 string Filename = "d2101_giles_guard_barks"
