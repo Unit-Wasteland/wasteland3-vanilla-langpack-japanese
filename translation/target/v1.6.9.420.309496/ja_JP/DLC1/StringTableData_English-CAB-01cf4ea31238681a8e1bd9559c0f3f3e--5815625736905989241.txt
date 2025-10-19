@@ -28397,23 +28397,23 @@
       1 Array Array (9 items)
        0 int size = 9
        [0]
-        1 string data = "\nDefault Greeting."
+        1 string data = "\nデフォルト挨拶。"
        [1]
         1 string data = "DEBUG"
        [2]
-        1 string data = "Goodbye."
+        1 string data = "さようなら。"
        [3]
-        1 string data = "Ugh... Rangers...\nSome refugees just stole your car!"
+        1 string data = "ああ…レンジャーズか…\n難民どもがあんたらの車を盗んだぞ!"
        [4]
-        1 string data = "They drove off to the Scrapyard.\nThe only place to go over there is to the Garage With No Name."
+        1 string data = "スクラップヤードに向かって走り去ったぜ。\nあそこで行ける場所といえば、名もなきガレージだ。"
        [5]
-        1 string data = "You can cut through the Stacks to follow them.\nTalk to the guard inside the gates. He'll open our maintenance access for you."
+        1 string data = "スタックを通り抜けて追跡できる。\nゲート内の警備員に話しかけろ。奴が俺たちのメンテナンス用出入り口を開けてくれるだろう。"
        [6]
-        1 string data = "We saw them checking it out...\nWe came over to warn them off and... they got the drop on us..."
+        1 string data = "奴らが車を物色してるのを見てな…\n警告しに近づいたら…先手を取られちまった…"
        [7]
         1 string data = ""
        [8]
-        1 string data = "They have a door built into the junk out there. It's easy to spot if you know what you're looking for.\nIt's their damn traps that are hard to spot."
+        1 string data = "あいつら、あそこのガラクタに扉を組み込んでやがる。探し方を知ってれば簡単に見つかる。\n見つけにくいのは、あいつらのクソったれなトラップの方だ。"
    [101]
     0 StringTable data
      1 string Filename = "d1001_steeltownguard_clinic"
@@ -28635,35 +28635,35 @@
       1 Array Array (52 items)
        0 int size = 52
        [0]
-        1 string data = ""Halt. Continued attempts to access this area will result in termination.""
+        1 string data = "「停止。このエリアへのアクセスを続けると排除されます。」"
        [1]
-        1 string data = ""Stop. Only applicants who have passed all tests may enter Steeltown.""
+        1 string data = "「停止。全てのテストに合格した志願者のみがスティールタウンに入ることができます。」"
        [2]
-        1 string data = ""If you've finished the tests, see Dr. Breeler for the results.""
+        1 string data = "「テストを終えた場合は、結果についてブリーラー博士に会ってください。」"
        [3]
-        1 string data = "What's going on here?"
+        1 string data = "何が起きているんだ?"
        [4]
-        1 string data = "Nevermind."
+        1 string data = "気にしないでくれ。"
        [5]
-        1 string data = "These screening tests are part of the admissions process for Steeltown."
+        1 string data = "これらのスクリーニングテストはスティールタウンの入所プロセスの一部です。"
        [6]
-        1 string data = "Please speak to Dr. Breeler in the clinic for information about our screening process."
+        1 string data = "スクリーニングプロセスに関する情報は、クリニックのブリーラー博士にお話しください。"
        [7]
-        1 string data = "Can we do the screening tests as a group?"
+        1 string data = "グループでスクリーニングテストを受けることはできるか?"
        [8]
-        1 string data = "Uh... I'll have to contact my supervisor."
+        1 string data = "えー…上司に連絡しないと。"
        [9]
-        1 string data = " RADIO CRACKLES"
+        1 string data = " 無線がパチパチと鳴る"
        [10]
-        1 string data = "Huh. Apparently, the system says it's ok.\nGo on through."
+        1 string data = "ふむ。どうやらシステムはOKと言っているようだ。\n通っていいぞ。"
        [11]
-        1 string data = "Whoa, whoa!\nOne at a time, people!"
+        1 string data = "おい、おい!\n一人ずつだぞ、諸君!"
        [12]
-        1 string data = ""Only Steeltown security and medical personnel are authorized to use this door. Step away.""
+        1 string data = "「スティールタウンの警備と医療スタッフのみがこのドアを使用する権限を持っています。離れてください。」"
        [13]
-        1 string data = ""You still have to do the ocular scan before you can come through here.""
+        1 string data = "「ここを通る前に、まだ眼球スキャンを受ける必要があります。」"
        [14]
-        1 string data = "Ok, you got the physical stuff out of the way. Now you can go through and do the skill assessment pods. "
+        1 string data = "よし、身体検査は終わった。これでスキル評価ポッドに進めるぞ。 "
        [15]
         1 string data = ""
        [16]
@@ -28671,73 +28671,73 @@
        [17]
         1 string data = ""
        [18]
-        1 string data = "In this area, we'll be assessing your mechanical knowledge, your skill with computers, and your overall physique."
+        1 string data = "このエリアでは、あなたの機械知識、コンピュータースキル、そして全体的な体格を評価します。"
        [19]
-        1 string data = "These assessments will help us determine if there are any jobs for which you are qualified."
+        1 string data = "これらの評価は、あなたに適した仕事があるかどうかを判断するのに役立ちます。"
        [20]
-        1 string data = "After completing them all, speak to the administrator by the door to receive your results."
+        1 string data = "全て完了したら、ドアのそばにいる管理者に話しかけて結果を受け取ってください。"
        [21]
-        1 string data = "Good luck, candidates."
+        1 string data = "幸運を祈ります、候補者の皆さん。"
        [22]
-        1 string data = "Halt! Only authorized personnel beyond this point."
+        1 string data = "停止!この先は認可された者のみです。"
        [23]
-        1 string data = "You need to return to the screening line and get your body scan."
+        1 string data = "スクリーニングの列に戻って、身体スキャンを受ける必要があります。"
        [24]
-        1 string data = "You still need your ocular scan to proceed."
+        1 string data = "進むには、まだ眼球スキャンが必要です。"
        [25]
-        1 string data = "Oh, actually, you're good to go."
+        1 string data = "ああ、実は、もう通っていいぞ。"
        [26]
         1 string data = ""
        [27]
-        1 string data = "Rangers."
+        1 string data = "レンジャーズ。"
        [28]
-        1 string data = ""Breeler will tell you what to do.""
+        1 string data = "「ブリーラーが何をすべきか教えてくれます。」"
        [29]
-        1 string data = ""Dr. Breeler will help you with that.""
+        1 string data = "「ブリーラー博士が助けてくれます。」"
        [30]
-        1 string data = ""Come back if he tells you you passed.""
+        1 string data = "「合格したと言われたら戻ってきてください。」"
        [31]
-        1 string data = ""Just two more skill assessment pods to go.""
+        1 string data = "「スキル評価ポッドがあと2つ残っています。」"
        [32]
-        1 string data = ""You're almost there. One more skill assessment pod to complete.""
+        1 string data = "「もうすぐです。スキル評価ポッドがあと1つで完了です。」"
        [33]
-        1 string data = ""You may now enter through any gate.""
+        1 string data = "「どのゲートからでも入ることができます。」"
        [34]
-        1 string data = ""No loitering after test completion.""
+        1 string data = "「テスト完了後の徘徊は禁止されています。」"
        [35]
         1 string data = ""
        [36]
-        1 string data = ""Attention. All applicants wishing to enter Steeltown must first speak to Doctor Breeler and take the tests for employment.""
+        1 string data = "「注意。スティールタウンへの入場を希望する全ての志願者は、まずブリーラー医師に会い、雇用テストを受けなければなりません。」"
        [37]
         1 string data = ""
        [38]
-        1 string data = ""You have received 2 previous verbal warnings. Your personnel file and body will now be deleted.""
+        1 string data = "「あなたは過去に2回の口頭警告を受けました。あなたの人事ファイルと身体は削除されます。」"
        [39]
         1 string data = "Script Node 42"
        [40]
-        1 string data = ""Use of medical supplies must be approved by Dr. Breeler.""
+        1 string data = "「医療用品の使用はブリーラー博士の承認を得る必要があります。」"
        [41]
-        1 string data = ""Unauthorized requisition of supplies.""
+        1 string data = "「無許可の物資徴発。」"
        [42]
-        1 string data = ""Warning buffer exceeded. Resetting.""
+        1 string data = "「警告バッファが超過しました。リセット中。」"
        [43]
-        1 string data = ""Hey, I don't have much of that to spare.""
+        1 string data = "「おい、それはあまり余裕がないんだ。」"
        [44]
         1 string data = "Script Node 47"
        [45]
-        1 string data = ""Please exercise caution when targeting.""
+        1 string data = "「ターゲット指定時は注意してください。」"
        [46]
-        1 string data = ""Do not target the equipment.""
+        1 string data = "「機器をターゲットにしないでください。」"
        [47]
         1 string data = "Script Node 333"
        [48]
-        1 string data = ""Thanks for saving us from those raiders, Rangers!""
+        1 string data = "「あの略奪者どもから救ってくれてありがとう、レンジャーズ!」"
        [49]
-        1 string data = ""Sure are glad those Rangers were here to save us.""
+        1 string data = "「レンジャーズがいてくれて本当に良かった。」"
        [50]
         1 string data = ""
        [51]
-        1 string data = ""Steeltown policy violation in progress! Attack! Attack!""
+        1 string data = "「スティールタウンのポリシー違反が進行中!攻撃!攻撃!」"
    [102]
     0 StringTable data
      1 string Filename = "d1001_steeltownguard_courtyard"
@@ -28845,43 +28845,43 @@
        [2]
         1 string data = "Script Node 3"
        [3]
-        1 string data = ""Monitoring those assets is outside of this unit's scope of duties.""
+        1 string data = "「これらの資産の監視は、このユニットの職務範囲外です。」"
        [4]
-        1 string data = ""Those assets are designated as non-essential.""
+        1 string data = "「これらの資産は非必須として指定されています。」"
        [5]
-        1 string data = ""Requisition authorized.""
+        1 string data = "「徴発が承認されました。」"
        [6]
-        1 string data = ""Please exercise caution.""
+        1 string data = "「注意を払ってください。」"
        [7]
-        1 string data = ""Stow your weapons.""
+        1 string data = "「武器をしまってください。」"
        [8]
-        1 string data = ""Please maintain a safe distance.""
+        1 string data = "「安全な距離を保ってください。」"
        [9]
         1 string data = "Script Node 10"
        [10]
-        1 string data = ""These assets are in transit. Please do not move them.""
+        1 string data = "「これらの資産は輸送中です。移動させないでください。」"
        [11]
-        1 string data = ""These assets are waiting release authorization.""
+        1 string data = "「これらの資産は解放許可待ちです。」"
        [12]
-        1 string data = ""Delivery of these item is... pending.""
+        1 string data = "「これらのアイテムの配送は…保留中です。」"
        [13]
         1 string data = "Script Node 333"
        [14]
-        1 string data = ""Thanks for saving us from those raiders, Rangers!""
+        1 string data = "「あの略奪者どもから救ってくれてありがとう、レンジャーズ!」"
        [15]
-        1 string data = ""Sure are glad those Rangers were here to save us.""
+        1 string data = "「レンジャーズがいてくれて本当に良かった。」"
        [16]
         1 string data = ""
        [17]
-        1 string data = ""Warning: attempted theft will be met with force.""
+        1 string data = "「警告: 盗難の試みは武力で対処されます。」"
        [18]
-        1 string data = ""Step away from the assets or be terminated.""
+        1 string data = "「資産から離れてください。さもなくば排除されます。」"
        [19]
-        1 string data = ""Tampering with Steeltown property will not be tolerated.""
+        1 string data = "「スティールタウンの財産への干渉は容認されません。」"
        [20]
         1 string data = ""
        [21]
-        1 string data = ""Steeltown policy violation in progress! Attack! Attack!""
+        1 string data = "「スティールタウンのポリシー違反が進行中!攻撃!攻撃!」"
    [103]
     0 StringTable data
      1 string Filename = "d1001_steeltownguard_exterior"
@@ -29209,159 +29209,159 @@
        [0]
         1 string data = "Script Node 46"
        [1]
-        1 string data = ""Welcome to the new Steeltown.""
+        1 string data = "「新しいスティールタウンへようこそ。」"
        [2]
-        1 string data = ""Attention. It's a new day in Steeltown.""
+        1 string data = "「注意。スティールタウンに新しい日が訪れました。」"
        [3]
-        1 string data = ""General notice. Steeltown's problems are a thing of the past.""
+        1 string data = "「一般通知。スティールタウンの問題は過去のものです。」"
        [4]
         1 string data = "Script Node 34"
        [5]
-        1 string data = ""Attention. Employees with information about the perpetrators of the recent trouble are asked to report to the nearest guard-bot.""
+        1 string data = "「注意。最近の騒動の犯人に関する情報を持つ従業員は、最寄りの警備ボットに報告してください。」"
        [6]
-        1 string data = ""The incident at the gates is over. Please return to your normal work routines.""
+        1 string data = "「ゲートでの事件は終わりました。通常の勤務に戻ってください。」"
        [7]
-        1 string data = ""All is well. Security has been restored.""
+        1 string data = "「全て順調です。セキュリティは回復しました。」"
        [8]
-        1 string data = ""Please proceed. All agitators have been pacified.""
+        1 string data = "「進んでください。全ての扇動者は鎮圧されました。」"
        [9]
         1 string data = "Script Node 36"
        [10]
-        1 string data = ""Announcement. The disturbance in the factory has ended. Resume normal work routines.""
+        1 string data = "「お知らせ。工場での騒乱は終了しました。通常の勤務に戻ってください。」"
        [11]
-        1 string data = ""Normal operations in the factory have resumed. All security closures are lifted.""
+        1 string data = "「工場の通常業務が再開されました。全ての警備封鎖は解除されます。」"
        [12]
-        1 string data = ""All factory workers sheltering in place because of the disturbance must now return to work or be fined.""
+        1 string data = "「騒乱のため退避していた全ての工場労働者は、今すぐ仕事に戻らなければ罰金が科せられます。」"
        [13]
         1 string data = "Script Node 12"
        [14]
-        1 string data = ""Security team members assigned to duties in the War-Bot factory, please return there now.""
+        1 string data = "「ウォーボット工場での任務に割り当てられた警備チームのメンバーは、今すぐそこに戻ってください。」"
        [15]
-        1 string data = ""Greetings, security team members. You have unfinished duties in the War-Bot factory.""
+        1 string data = "「警備チームのメンバーの皆さん、こんにちは。ウォーボット工場で未完了の任務があります。」"
        [16]
-        1 string data = ""Security team members. Return to the War-Bot factory or you will be reported.""
+        1 string data = "「警備チームのメンバーへ。ウォーボット工場に戻らなければ報告されます。」"
        [17]
         1 string data = "Script Node 1"
        [18]
-        1 string data = ""Attention. Security units required in War-Bot Factory.""
+        1 string data = "「注意。ウォーボット工場で警備ユニットが必要です。」"
        [19]
-        1 string data = ""All security units. Please report to the War-Bot factory.""
+        1 string data = "「全警備ユニットへ。ウォーボット工場に報告してください。」"
        [20]
-        1 string data = ""Remain calm.""
+        1 string data = "「落ち着いてください。」"
        [21]
-        1 string data = ""Caution. Ongoing insurrection in the War-Bot factory.""
+        1 string data = "「警告。ウォーボット工場で反乱が進行中です。」"
        [22]
-        1 string data = ""The War-Bot factory is temporarily off limits to non-security personel.""
+        1 string data = "「ウォーボット工場は一時的に警備員以外の立ち入りが禁止されています。」"
        [23]
         1 string data = "Script Node 4"
        [24]
-        1 string data = ""Move along.""
+        1 string data = "「進んでください。」"
        [25]
-        1 string data = ""Good day.""
+        1 string data = "「良い一日を。」"
        [26]
-        1 string data = ""Please keep the causeways clear.""
+        1 string data = "「通路を空けておいてください。」"
        [27]
         1 string data = "Script Node 29"
        [28]
         1 string data = "Script Node 30"
        [29]
-        1 string data = ""The new Administrator has issued conflicting directives. Resolution ongoing.""
+        1 string data = "「新しい管理者が矛盾する指令を出しました。解決進行中です。」"
        [30]
-        1 string data = ""Awaiting new orders.""
+        1 string data = "「新しい命令を待っています。」"
        [31]
-        1 string data = ""Administrator Markham's departure coincided with a reduction in productivity. We are informed these are unrelated.""
+        1 string data = "「管理者マーカムの退任は生産性の低下と一致しました。これらは無関係だと通知を受けています。」"
        [32]
-        1 string data = ""The status quo is restored. Your task is complete, Rangers.""
+        1 string data = "「現状は回復しました。あなたの任務は完了です、レンジャーズ。」"
        [33]
-        1 string data = ""You are still authorized to enter.""
+        1 string data = "「まだ入る権限があります。」"
        [34]
-        1 string data = ""Steeltown's productivity has increased due to your actions.""
+        1 string data = "「あなたの行動によりスティールタウンの生産性が向上しました。」"
        [35]
-        1 string data = ""Administrator Markham commends your efficiency, Rangers.""
+        1 string data = "「管理者マーカムはあなたの効率性を称賛しています、レンジャーズ。」"
        [36]
         1 string data = "Script Node 38"
        [37]
-        1 string data = ""Your assistance is appreciated, Rangers.""
+        1 string data = "「あなたの支援に感謝します、レンジャーズ。」"
        [38]
-        1 string data = ""Danger: de-escalated.""
+        1 string data = "「危険: 緩和されました。」"
        [39]
-        1 string data = ""You have 'kept the peace' by dispersing former employees. This is good.""
+        1 string data = "「あなたは元従業員を追い払うことで『平和を保ちました』。これは良いことです。」"
        [40]
-        1 string data = ""You have re-asserted authority over the workers. Assistance noted.""
+        1 string data = "「あなたは労働者に対する権威を再び主張しました。支援を記録しました。」"
        [41]
         1 string data = "Script Node 43"
        [42]
-        1 string data = ""Your assistance has been counter-productive.""
+        1 string data = "「あなたの支援は逆効果でした。」"
        [43]
-        1 string data = ""You have removed multiple valuable workers, Rangers.""
+        1 string data = "「あなたは複数の貴重な労働者を排除しました、レンジャーズ。」"
        [44]
-        1 string data = ""The human Ludlow was a valuable asset. Crow was also an asset.""
+        1 string data = "「人間のラドローは貴重な資産でした。クロウも資産でした。」"
        [45]
-        1 string data = ""You have damaged the productivity of Steeltown.""
+        1 string data = "「あなたはスティールタウンの生産性を損ないました。」"
        [46]
         1 string data = "Script Node 48"
        [47]
-        1 string data = ""Crow's reassignment changes the status quo.""
+        1 string data = "「クロウの再配置が現状を変えます。」"
        [48]
-        1 string data = ""Your 'Crow' is not a satisfactory authority figure.""
+        1 string data = "「あなたの『クロウ』は満足のいく権威者ではありません。」"
        [49]
-        1 string data = ""Your interference has decreased the safety rating of Steeltown's industry, Rangers.""
+        1 string data = "「あなたの介入はスティールタウンの産業の安全性評価を低下させました、レンジャーズ。」"
        [50]
-        1 string data = ""Our assignment is unchanged: protect Steeltown.""
+        1 string data = "「我々の任務は変わりません: スティールタウンを守ることです。」"
        [51]
         1 string data = "Script Node 53"
        [52]
-        1 string data = ""Rebellion status: quelled. Your assistance is appreciated.""
+        1 string data = "「反乱状態: 鎮圧されました。あなたの支援に感謝します。」"
        [53]
-        1 string data = ""You have restored the status quo. Good. Job.""
+        1 string data = "「あなたは現状を回復しました。良い。仕事です。」"
        [54]
-        1 string data = ""Your removal of 'Crow' has assured Steeltown's safety.""
+        1 string data = "「あなたによる『クロウ』の排除がスティールタウンの安全を保証しました。」"
        [55]
-        1 string data = ""The human 'Crow' was a threat to worker safety and property values.""
+        1 string data = "「人間の『クロウ』は労働者の安全と資産価値への脅威でした。」"
        [56]
-        1 string data = ""What is the status of the factory?""
+        1 string data = "「工場の状況は?"
        [57]
-        1 string data = ""Your assistance quelling the worker rebellion is appreciated.""
+        1 string data = "「労働者の反乱を鎮圧する支援に感謝します。」"
        [58]
-        1 string data = ""Rebellion is unnacceptable. Use all necessary force.""
+        1 string data = "「反乱は受け入れられません。必要な武力を全て使用してください。」"
        [59]
-        1 string data = ""This unit 'delights' in 'murder.' When within the parameters of an assignment, of course.""
+        1 string data = "「このユニットは『殺害』を『喜びます』。もちろん任務のパラメータ内においてですが。」"
        [60]
         1 string data = "Script Node 47"
        [61]
-        1 string data = ""Pass through.""
+        1 string data = "「通過してください。」"
        [62]
-        1 string data = ""You may proceed.""
+        1 string data = "「進んでください。」"
        [63]
-        1 string data = ""Enter.""
+        1 string data = "「入ってください。」"
        [64]
-        1 string data = ""Authorization confirmed.""
+        1 string data = "「認証が確認されました。」"
        [65]
         1 string data = "Script Node 39"
        [66]
-        1 string data = ""No admittance without clearance.""
+        1 string data = "「許可なしの入場は禁止です。」"
        [67]
-        1 string data = ""Keep moving.""
+        1 string data = "「進んでください。」"
        [68]
-        1 string data = ""Authorization may be obtained from Dr. Breeler.""
+        1 string data = "「許可はブリーラー博士から得ることができます。」"
        [69]
-        1 string data = ""You have not been cleared for entry.""
+        1 string data = "「あなたは入場許可を得ていません。」"
        [70]
-        1 string data = ""Please move along.""
+        1 string data = "「進んでください。」"
        [71]
-        1 string data = ""Please depart.""
+        1 string data = "「出発してください。」"
        [72]
-        1 string data = ""You may enter once screened.""
+        1 string data = "「スクリーニングが完了したら入れます。」"
        [73]
         1 string data = "Script Node 52"
        [74]
-        1 string data = ""Designation: threat.""
+        1 string data = "「指定: 脅威。」"
        [75]
-        1 string data = ""The Rangers have aligned themselves with the workers.""
+        1 string data = "「レンジャーズは労働者と協力しています。」"
        [76]
-        1 string data = ""Loyalty called into question.""
+        1 string data = "「忠誠心に疑問が呈されています。」"
        [77]
-        1 string data = ""Steeltown's property will be defended.""
+        1 string data = "「スティールタウンの財産は守られます。」"
    [104]
     0 StringTable data
      1 string Filename = "d1001_steeltownguard_gates"
@@ -29523,79 +29523,79 @@
       1 Array Array (37 items)
        0 int size = 37
        [0]
-        1 string data = ""Halt! No one may enter without first undergoing the screening procedure.""
+        1 string data = "「停止!スクリーニング手続きを受けない限り、誰も入ることはできません。」"
        [1]
-        1 string data = ""We work for the Patriarch. Let us through.""
+        1 string data = "「我々はパトリアークのために働いている。通してくれ。」"
        [2]
-        1 string data = ""Only screened employees with proper identification may enter Steeltown.""
+        1 string data = "「適切な身分証明書を持ってスクリーニングを受けた従業員のみがスティールタウンに入ることができます。」"
        [3]
-        1 string data = ""Let us through, rust bucket.""
+        1 string data = "「通せ、錆びたバケツ野郎。」"
        [4]
-        1 string data = ""We're from the Patriarch. He asked us to speak with Abigail Markham.""
+        1 string data = "「我々はパトリアークから来た。彼はアビゲイル・マーカムと話すよう我々に頼んだ。」"
        [5]
-        1 string data = ""No visitors are permitted at this time.""
+        1 string data = "「現在、訪問者は許可されていません。」"
        [6]
-        1 string data = ""How do we get screened?""
+        1 string data = "「どうやってスクリーニングを受けるんだ?」"
        [7]
-        1 string data = ""See Doctor Breeler at the Human Resources Evaluation Center to complete your screening.""
+        1 string data = "「スクリーニングを完了するには、人事評価センターのブリーラー医師に会ってください。」"
        [8]
-        1 string data = ""Okay. Thanks.""
+        1 string data = "「わかった。ありがとう。」"
        [9]
-        1 string data = "(BRIBE) We have our papers right here..."
+        1 string data = "(賄賂) 書類はここにある…"
        [10]
-        1 string data = "[Attack] "We're going in whether you like it or not!""
+        1 string data = "[攻撃] 「好むと好まざるとにかかわらず、我々は入るぞ!」"
        [11]
         1 string data = ""
        [12]
-        1 string data = ""Who are you?""
+        1 string data = "「あなたは誰だ?」"
        [13]
-        1 string data = "I'm the Steeltown Security Guard in charge of these gates."
+        1 string data = "私はこのゲートを担当するスティールタウン警備員です。"
        [14]
-        1 string data = ""What is this place?""
+        1 string data = "「ここは何の場所だ?」"
        [15]
-        1 string data = ""This is Steeltown, the finest factory in Colorado.""
+        1 string data = "「ここはスティールタウン、コロラドで最高の工場です。」"
        [16]
-        1 string data = ""I'm the guy who's not letting you in without ID.""
+        1 string data = "「私は身分証なしであなたを通さない男です。」"
        [17]
-        1 string data = "Remind me how we get permission to enter?"
+        1 string data = "入場許可を得る方法を思い出させてくれ?"
        [18]
-        1 string data = "Oh, look at that! Your paperwork seems to be in order!"
+        1 string data = "おや、見てください!あなたの書類は問題ないようですね!"
        [19]
-        1 string data = "Come on through!"
+        1 string data = "通ってください!"
        [20]
-        1 string data = ""Welcome to Steeltown.""
+        1 string data = "「スティールタウンへようこそ。」"
        [21]
         1 string data = ""
        [22]
-        1 string data = ""Warning. Attempts to circumvent this unit, or ignore its authority, will be met with force.""
+        1 string data = "「警告。このユニットを回避しようとする、またはその権限を無視する試みは、武力で対処されます。」"
        [23]
-        1 string data = ""Don't try pulling rank on me, small fry."  "
+        1 string data = "「俺に階級をかざそうとするな、小物め。」  "
        [24]
-        1 string data = ""The Rangers, huh? Well, I'm not kissing your ass just because you're famous in Colorado Springs.""
+        1 string data = "「レンジャーズか?まあ、コロラドスプリングスで有名だからって、お前のケツにキスする気はないぜ。」"
        [25]
-        1 string data = ""Warning! Intruders! Warning!""
+        1 string data = "「警告!侵入者!警告!」"
        [26]
-        1 string data = ""Steeltown wishes you a nice day.""
+        1 string data = "「スティールタウンは良い一日をお祈りします。」"
        [27]
         1 string data = "Script Node 333"
        [28]
-        1 string data = ""Thanks for saving us from those raiders, Rangers!""
+        1 string data = "「あの略奪者どもから救ってくれてありがとう、レンジャーズ!」"
        [29]
-        1 string data = ""Sure are glad those Rangers were here to save us.""
+        1 string data = "「レンジャーズがいてくれて本当に良かった。」"
        [30]
-        1 string data = ""You may pass.""
+        1 string data = "「通過できます。」"
        [31]
-        1 string data = ""Halt! For entry, first see Doctor Breeler at the Steeltown Human Resources Evaluation Center, to your right.""
+        1 string data = "「停止!入場するには、まず右手にあるスティールタウン人事評価センターのブリーラー医師に会ってください。」"
        [32]
         1 string data = "Script Node 35"
        [33]
-        1 string data = ""What does Steeltown make?""
+        1 string data = "「スティールタウンは何を作っているんだ?」"
        [34]
-        1 string data = ""Steeltown holds many exclusive contracts across Colorado. We manufacture the highest-quality products servicing a wide range of consumer needs.""
+        1 string data = "「スティールタウンはコロラド全域で多くの独占契約を保持しています。我々は幅広い消費者ニーズに対応する最高品質の製品を製造しています。」"
        [35]
-        1 string data = ""Defense essentials such as advanced weapons and armor. Survival and lifestyle appliances including generators, heaters, and ovens. Engines and replacement parts for many models of pre-Deluge vehicles. And more.""
+        1 string data = "「先進的な武器や防具などの防衛必需品。発電機、ヒーター、オーブンなどの生存と生活用品。大洪水以前の車両の多くのモデル用のエンジンと交換部品。その他多数。」"
        [36]
-        1 string data = "" 'Steeltown. You need us to survive.™' "<i>"Catchy slogan trademark of Steeltown, Colorado. Trademarks are no longer enforced by the government and as such lethal force will be employed against infringing parties."</i>"
+        1 string data = "「 『スティールタウン。生き残るには我々が必要だ™』 」<i>「コロラド州スティールタウンのキャッチーなスローガンの商標。商標は政府によってもはや執行されていないため、侵害者に対して致死的武力が行使されます。」</i>"
    [105]
     0 StringTable data
      1 string Filename = "d1001_steeltownguard_ludlowslaveauction"
@@ -29671,33 +29671,33 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = ""De-authorized personnel have been removed from the property.""
+        1 string data = "「権限のない人員が財産から除去されました。」"
        [2]
-        1 string data = ""Thank you for not interfering with Steeltown business.""
+        1 string data = "「スティールタウンの業務を妨害しなかったことに感謝します。」"
        [3]
-        1 string data = ""Your compliance with Security Chief Ludlow has been noted.""
+        1 string data = "「あなたのセキュリティ責任者ラドローへの遵守は記録されました。」"
        [4]
-        1 string data = ""Transaction defense mode active.""
+        1 string data = "「取引防衛モード作動中。」"
        [5]
         1 string data = "Script Node 6"
        [6]
-        1 string data = ""Stand back. This sale has been authorized by... manual system override.""
+        1 string data = "「下がってください。この販売は…手動システムオーバーライドによって承認されました。」"
        [7]
-        1 string data = ""Ex-employees are not subject to our protection.""
+        1 string data = "「元従業員は我々の保護の対象ではありません。」"
        [8]
-        1 string data = ""Steeltown's employee compensation plan is void in cases of rebellion.""
+        1 string data = "「スティールタウンの従業員報酬計画は反乱の場合無効です。」"
        [9]
-        1 string data = ""Security Chief Ludlow has authorized this sale. Do not interfere.""
+        1 string data = "「セキュリティ責任者ラドローがこの販売を承認しました。妨害しないでください。」"
        [10]
-        1 string data = ""Do not be alarmed. This is a sanctioned business transaction.""
+        1 string data = "「動揺しないでください。これは認可された商取引です。」"
        [11]
-        1 string data = ""Security Chief Ludlow has been granted temporary personnel reassignment responsibilities.""
+        1 string data = "「セキュリティ責任者ラドローに一時的な人事異動責任が付与されました。」"
        [12]
         1 string data = "Script Node 25"
        [13]
-        1 string data = ""Move along.""
+        1 string data = "「進んでください。」"
        [14]
-        1 string data = ""Good day.""
+        1 string data = "「良い一日を。」"
    [106]
     0 StringTable data
      1 string Filename = "d1001_steeltownguard_threateninganimal"
@@ -29741,17 +29741,17 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = ""You are trespassing. Leave the premises immediately.""
+        1 string data = "「あなたは不法侵入しています。直ちに敷地を離れてください。」"
        [2]
-        1 string data = ""You have 19 seconds to comply.""
+        1 string data = "「従うまで19秒あります。」"
        [3]
-        1 string data = ""18.""
+        1 string data = "「18。」"
        [4]
-        1 string data = ""ERROR: buffer overflow. Reset routine. THREATEN_TRESPASSER.""
+        1 string data = "「エラー: バッファオーバーフロー。ルーチンをリセット。THREATEN_TRESPASSER。」"
        [5]
-        1 string data = ""You do not fit the parameters of worker or potential worker. You must leave.""
+        1 string data = "「あなたは労働者または潜在的な労働者のパラメータに適合しません。立ち去らなければなりません。」"
        [6]
-        1 string data = ""I will only warn you a limited number of times.""
+        1 string data = "「警告できる回数は限られています。」"
    [107]
     0 StringTable data
      1 string Filename = "d1001_steeltownguard_westgate"
@@ -29787,13 +29787,13 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = ""Halt! For your own safety the scrapyard is off limits to non-Steeltown employees. Only authorized badge-holders may enter.""
+        1 string data = "「停止!あなたの安全のため、スクラップヤードはスティールタウンの従業員以外立ち入り禁止です。認可されたバッジ所持者のみが入ることができます。」"
        [2]
-        1 string data = ""To apply for Steeltown employment, first see Doctor Breeler at the Steeltown Human Resources Evaluation Center to the right of the main gate.""
+        1 string data = "「スティールタウンの雇用に応募するには、まずメインゲートの右側にあるスティールタウン人事評価センターのブリーラー医師に会ってください。」"
        [3]
-        1 string data = ""Steeltown wishes you a nice day.""
+        1 string data = "「スティールタウンは良い一日をお祈りします。」"
        [4]
-        1 string data = ""Halt! Employees only. To apply for employment, first see Dr. Breeler at the Steeltown Human Resources Evaluation Center by the main gate.""
+        1 string data = "「停止!従業員のみ。雇用に応募するには、まずメインゲートのそばにあるスティールタウン人事評価センターのブリーラー医師に会ってください。」"
    [108]
     0 StringTable data
      1 string Filename = "d1001_steeltownworker_beth"
@@ -29845,15 +29845,15 @@
        [2]
         1 string data = ""
        [3]
-        1 string data = ""We've been putting these boxes out for shipment and then taking them back inside for a week now."\n\n\nNEVER MIND, We are deleting this character"
+        1 string data = "「もう一週間、これらの箱を出荷のために出しては、また中に戻すことを繰り返しています。」\n\n\nNEVER MIND, We are deleting this character"
        [4]
-        1 string data = ""It's crazy. We'll get orders to 'do this', then reprimanded for doing it.""
+        1 string data = "「おかしいわ。『これをやれ』って命令されて、やったら叱責されるのよ。」"
        [5]
-        1 string data = ""I hear there's trouble in the factory.""
+        1 string data = "「工場で問題が起きているって聞いたわ。」"
        [6]
-        1 string data = ""My family is right over that fence. Sometimes I can hear them shouting.""
+        1 string data = "「私の家族はあのフェンスのすぐ向こうにいるの。時々、叫び声が聞こえるわ。」"
        [7]
-        1 string data = ""The robots won't let us answer.""
+        1 string data = "「ロボットたちは私たちに答えさせてくれないのよ。」"
    [109]
     0 StringTable data
      1 string Filename = "d1001_sugarplummary"
@@ -30027,85 +30027,85 @@
       1 Array Array (40 items)
        0 int size = 40
        [0]
-        1 string data = ""Uh, hello?""
+        1 string data = "「あの、もしもし?」"
        [1]
         1 string data = ""
        [2]
-        1 string data = ""Bigger than Santa's place, huh?""
+        1 string data = "「サンタの場所より大きいね?」"
        [3]
-        1 string data = ""Hope you don't have to wear a collar here.""
+        1 string data = "「ここでは首輪をつけなくていいといいな。」"
        [4]
-        1 string data = ""For experience, maybe we should just put down 'lab work.'""
+        1 string data = "「経験欄には『研究室での作業』とだけ書いておくべきかもね。」"
        [5]
-        1 string data = ""How merry do you think we'll have to be?""
+        1 string data = "「どれくらい陽気にならなきゃいけないと思う?」"
        [6]
-        1 string data = ""I'm gonna put down 'Elf Employed' this time and see what they say.""
+        1 string data = "「今回は『エルフ・エンプロイド』って書いて、何て言われるか見てみるわ。」"
        [7]
-        1 string data = ""Aren't you Sugarplum Mary?""
+        1 string data = "「あなたはシュガープラム・メアリーじゃない?」"
        [8]
-        1 string data = ""Merry Christmas.""
+        1 string data = "「メリークリスマス。」"
        [9]
-        1 string data = ""Goodbye.""
+        1 string data = "「さようなら。」"
        [10]
-        1 string data = ""Okay, then.""
+        1 string data = "「じゃあね。」"
        [11]
-        1 string data = ""Oh! Hey, Rangers, what are you doing out here in this abominable sno-man's land?""
+        1 string data = "「おお!やあ、レンジャーズ、こんなひどい雪男の土地で何してるんだ?」"
        [12]
-        1 string data = ""Yeah, yeah, jackass. Like we haven't heard that a thousand ti-"\n\n\n"Oh! Hey, Rangers, what are you doing out here in this abominable no-man's land?""
+        1 string data = "「ああ、ああ、バカめ。もう千回も聞いたっ—」\n\n\n「おお!やあ、レンジャーズ、こんなひどい無人地帯で何してるんだ?」"
        [13]
-        1 string data = ""I'm freezin' my jingle bells off.""
+        1 string data = "「ジングルベルが凍りそうだよ。」"
        [14]
-        1 string data = ""Still working for the Patriarch.""
+        1 string data = "「まだパトリアークのために働いている。」"
        [15]
-        1 string data = ""Trying to get into Steeltown.""
+        1 string data = "「スティールタウンに入ろうとしている。」"
        [16]
-        1 string data = ""At least you got work. We've been looking for employment since you freed us from Santa's sweat shop. Heard there were good jobs here, but, Jiminy Christmas, it's hard to pass the application test.""
+        1 string data = "「少なくともあんたたちには仕事がある。俺たちはあんたたちがサンタの搾取工場から解放してくれて以来、仕事を探してるんだ。ここにいい仕事があるって聞いたんだが、なんてこった、応募テストに合格するのが難しいんだ。」"
        [17]
-        1 string data = ""Yeah? Us too. We've been looking for employment since you freed us from Santa's sweat shop. Heard there were good jobs here, but, Jiminy Christmas, it's hard to pass the application test.""
+        1 string data = "「そうなの?俺たちもだ。あんたたちがサンタの搾取工場から解放してくれて以来、仕事を探してるんだ。ここにいい仕事があるって聞いたんだが、なんてこった、応募テストに合格するのが難しいんだ。」"
        [18]
-        1 string data = ""Are you enjoying your freedom?""
+        1 string data = "「自由を楽しんでいるか?」"
        [19]
-        1 string data = ""Good luck with the test.""
+        1 string data = "「テスト頑張れよ。」"
        [20]
-        1 string data = ""Happy Holidays.""
+        1 string data = "「良い休日を。」"
        [21]
-        1 string data = ""Oh yeah. It's insane. It doesn't make any sense. But, hey, we're used to that, so... I figure we keep taking it until the Computation Engine, or whatever they call it, makes a mistake and hires us by accident.""
+        1 string data = "「ああ、そうだよ。おかしいんだ。全然意味がない。でも、ほら、俺たちはそれに慣れてるから…計算エンジンとか、何て呼ばれてるか知らないけど、それが間違えて偶然俺たちを雇うまで、受け続けるつもりさ。」"
        [22]
-        1 string data = ""I don't know why it's got a fancy name, it's a computer, right? Anyway, it's supposed to be super smart, but if this test is any indication, it's also super crazy.""
+        1 string data = "「なんでそんな派手な名前がついてるのか分からないよ、コンピューターだろ?とにかく、超賢いはずなんだけど、このテストを見る限りじゃ、超イカレてもいるね。」"
        [23]
-        1 string data = ""Thanks. You too.""
+        1 string data = "「ありがとう。あんたもね。」"
        [24]
-        1 string data = ""Don't make me come off the shelf, Rangers.""
+        1 string data = "「棚から降りてこさせないでくれよ、レンジャーズ。」"
        [25]
         1 string data = ""
        [26]
-        1 string data = ""So the test is hard?""
+        1 string data = "「つまりテストは難しいのか?」"
        [27]
-        1 string data = ""What do you know about the Computation Engine?""
+        1 string data = "「計算エンジンについて何を知っている?」"
        [28]
-        1 string data = ""Well, it's certainly a relief not to be wearing a bomb collar anymore, but it's pretty tough on an elf out here in the big wide world.""
+        1 string data = "「まあ、爆弾首輪をつけなくていいのは確かに安心だけど、広い世界に出たエルフには結構厳しいんだよね。」"
        [29]
-        1 string data = ""Not as many cookies, for one.""
+        1 string data = "「クッキーも前ほどないしね。」"
        [30]
-        1 string data = ""Man, this line isn't moving at all.""
+        1 string data = "「おい、この列全然進まないぞ。」"
        [31]
-        1 string data = ""Yeah?""
+        1 string data = "「ん?」"
        [32]
-        1 string data = ""Still waiting.""
+        1 string data = "「まだ待ってるよ。」"
        [33]
         1 string data = ""
        [34]
-        1 string data = ""Haven't moved an inch.""
+        1 string data = "「1インチも動いてない。」"
        [35]
-        1 string data = ""Hey, Rangers.""
+        1 string data = "「やあ、レンジャーズ。」"
        [36]
-        1 string data = ""What's the test for?""
+        1 string data = "「テストは何のためなんだ?」"
        [37]
-        1 string data = ""To get into Steeltown. If you don't pass the test they don't let you in. And if they don't let you in - well it's kinda hard to work there then, isn't it?""
+        1 string data = "「スティールタウンに入るためさ。テストに合格しなければ入れてくれない。入れてくれなければ—まあ、そこで働くのは難しいよね?」"
        [38]
-        1 string data = ""Trying to track down whatever's messing up production in Steeltown.""
+        1 string data = "「スティールタウンで生産を台無しにしている何かを突き止めようとしている。」"
        [39]
-        1 string data = ""At least you got work. We've been looking for employment since you freed us from Santa's sweat shop. Heard there were good jobs here, but, Jiminy Christmas, it's hard to pass the application test.""
+        1 string data = "「少なくともあんたたちには仕事がある。俺たちはあんたたちがサンタの搾取工場から解放してくれて以来、仕事を探してるんだ。ここにいい仕事があるって聞いたんだが、なんてこった、応募テストに合格するのが難しいんだ。」"
    [110]
     0 StringTable data
      1 string Filename = "d1001_takayuki"
@@ -30123,7 +30123,7 @@
       1 Array Array (1 items)
        0 int size = 1
        [0]
-        1 string data = ""If you've got a problem with Angie, you've got a problem with me.""
+        1 string data = "「アンジーに問題があるなら、俺にも問題があるってことだ。」"
    [111]
     0 StringTable data
      1 string Filename = "d1001_tvarchie"
@@ -30159,13 +30159,13 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = ""I'm watchin' the TV.""
+        1 string data = "「テレビ見てんだ。」"
        [2]
-        1 string data = ""Wait 'til the commercial.""
+        1 string data = "「CMまで待て。」"
        [3]
-        1 string data = ""Aw, go on.""
+        1 string data = "「ああ、行けよ。」"
        [4]
-        1 string data = ""Scram.""
+        1 string data = "「あっち行け。」"
    [112]
     0 StringTable data
      1 string Filename = "d1001_tvedith"
