@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-20T03:56:02+09:00",
+  "last_updated": "2025-10-20T04:15:30+09:00",
   "current_file": "StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
-  "total_entries_completed": 5302,
-  "last_completed_section": "DLC1: d1201_blue (partial, 319 entries of 496)",
-  "next_section_to_translate": "DLC1: d1201_blue (496 entries, 319 completed, 177 remaining)",
-  "next_action": "Continue sequential translation in DLC1 file: d1201_blue section from entry [319]",
-  "notes": "Session progress (2025-10-20 Session 16): Translated entries [0]-[318] of d1201_blue section (319 entries). Total cumulative: 5302 entries.",
+  "total_entries_completed": 5478,
+  "last_completed_section": "DLC1: d1201_blue (completed, 496 entries)",
+  "next_section_to_translate": "DLC1: d1201_bluegoon (28 entries)",
+  "next_action": "Continue sequential translation in DLC1 file: d1201_bluegoon section from entry [0]",
+  "notes": "Session progress (2025-10-20 Session 17): Completed d1201_blue section by translating entries [320]-[495] (176 entries). Total cumulative: 5478 entries.",
   "sections_completed": [
     "Base game - 0000_dorseyssnowedinn_radio",
     "Base game - 0000_gonzalez_radio_contactwithazrangers",
@@ -207,19 +207,20 @@
     "DLC1 - d1101_blue",
     "DLC1 - d1101_bluegoons",
     "DLC1 - d1101_blue_2",
-    "DLC1 - d1101_lootpile"
+    "DLC1 - d1101_lootpile",
+    "DLC1 - d1201_blue"
   ],
   "partially_translated_sections": [
     "Base game - a1001_docparker (partial - entries [366]-[388] translated)",
     "Base game - a1001_handcraft (partial - entries [54]-[90] translated)"
   ],
   "base_game_sections_completed": 88,
-  "dlc1_sections_completed": 111,
+  "dlc1_sections_completed": 112,
   "base_game_entries_completed": 906,
-  "dlc1_entries_completed": 4077,
+  "dlc1_entries_completed": 4572,
   "estimated_total_entries_base_game": "~81000",
   "estimated_total_entries_dlc1": "~120000",
   "estimated_total_entries_all": "~728000",
-  "last_commit": "2fc35c0",
-  "session_number": 11
+  "last_commit": "5cf425c",
+  "session_number": 17
 }
