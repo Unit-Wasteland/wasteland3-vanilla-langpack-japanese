@@ -232,6 +232,33 @@ When processing large translation files (530K+ lines), Node.js can run out of me
 
 **IMPORTANT**: All translation work should be performed by the wasteland3-translator subagent (see "Translation Execution Strategy" section above). This provides additional memory isolation and allows session continuity even if memory issues occur.
 
+### Session Memory Management
+
+⚠️ **CRITICAL FINDING**: Even with subagent usage, the main Claude Code session's memory grows continuously because:
+- Subagent results are received by the main session
+- Translation progress reports accumulate in memory
+- File read/edit operations build up in session history
+
+**Solution: Periodic Session Restart**
+
+1. **Monitor main session memory** every 2,000-3,000 entries:
+   ```bash
+   ps aux | grep claude | awk '{print $6/1024 " MB"}'
+   ```
+
+2. **Session restart threshold**: When memory reaches **6-7 GB**, restart the session:
+   - Current progress is automatically saved to `translation/.translation_progress.json`
+   - Exit current Claude Code session
+   - Start new Claude Code session
+   - Resume with: `translation/.translation_progress.json を読み込んで、CLAUDE.mdのルールに従って翻訳作業を継続してください。`
+
+3. **Progress state file**: `translation/.translation_progress.json`
+   - Updated automatically by wasteland3-translator subagent after each major milestone
+   - Contains: last completed section, total entries, next action, git commit hash
+   - Enables seamless continuation across session restarts
+
+4. **Automated resume instructions**: See `translation/RESUME_TRANSLATION.md`
+
 ### 1. Memory Monitoring Rules
 
 **BEFORE starting any translation task:**
