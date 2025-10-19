@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-20T12:15:00+09:00",
+  "last_updated": "2025-10-20T08:30:00+09:00",
   "current_file": "StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
-  "total_entries_completed": 7533,
-  "last_completed_section": "DLC1: d2001_benniebianchi (completed - all 458 entries translated)",
-  "next_section_to_translate": "DLC1: d2001_blue",
-  "next_action": "Continue sequential translation in DLC1 file: d2001_blue section",
-  "notes": "Session progress (2025-10-20 Session 26): Translated d2001_benniebianchi entries [316]-[457] (142 entries), completing the section. Total cumulative: 7533 entries.",
+  "total_entries_completed": 7735,
+  "last_completed_section": "DLC1: d2001_dogbot_admin (completed - 24 entries translated)",
+  "next_section_to_translate": "DLC1: d2001_engineer",
+  "next_action": "Continue sequential translation in DLC1 file: d2001_engineer section",
+  "notes": "Session progress (2025-10-20 Session 27): Translated 6 sections (202 entries): d2001_blue (20), d2001_companionbarks (17), d2001_crow (103), d2001_crowuprising_workerbarks (2), d2001_di_admin_barks (36), d2001_dogbot_admin (24). Total cumulative: 7735 entries.",
   "sections_completed": [
     "Base game - 0000_dorseyssnowedinn_radio",
     "Base game - 0000_gonzalez_radio_contactwithazrangers",
@@ -233,7 +233,13 @@
     "DLC1 - d2001_armormerchant_amosryan",
     "DLC1 - d2001_armormerchant_shempryan",
     "DLC1 - d2001_armormerchant_shirleyryan",
-    "DLC1 - d2001_benniebianchi"
+    "DLC1 - d2001_benniebianchi",
+    "DLC1 - d2001_blue",
+    "DLC1 - d2001_companionbarks",
+    "DLC1 - d2001_crow",
+    "DLC1 - d2001_crowuprising_workerbarks",
+    "DLC1 - d2001_di_admin_barks",
+    "DLC1 - d2001_dogbot_admin"
   ],
   "partially_translated_sections": [
     "Base game - a1001_docparker (partial - entries [366]-[388] translated)",
@@ -247,5 +253,5 @@
   "estimated_total_entries_dlc1": "~120000",
   "estimated_total_entries_all": "~728000",
   "last_commit": "ea0a98b",
-  "session_number": 20
+  "session_number": 21
 }
