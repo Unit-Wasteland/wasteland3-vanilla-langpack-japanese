@@ -4783,63 +4783,63 @@
       1 Array Array (29 items)
        0 int size = 29
        [0]
-        1 string data = "\nDefault Greeting."
+        1 string data = "\nデフォルト挨拶。"
        [1]
         1 string data = "DEBUG"
        [2]
-        1 string data = "Goodbye."
+        1 string data = "さようなら。"
        [3]
-        1 string data = "YOU'RE the Rangers I've heard so much about!\nPlease quell the conflict between the workers and guards in the Factory.\nSpeak to the guard leader, Roland Herrera, down in the Factory!"
+        1 string data = "あなた達が噂のレンジャーズね!\n工場の労働者と警備員の対立を収めて頂戴。\n工場の警備隊長、ローランド・エレーラと話してちょうだい!"
        [4]
-        1 string data = "Ok."
+        1 string data = "了解。"
        [5]
-        1 string data = "Nothing to Report."
+        1 string data = "報告することはない。"
        [6]
-        1 string data = "We killed Crowe and the workers gave up."
+        1 string data = "クロウを殺して労働者が降参した。"
        [7]
-        1 string data = "We killed Herrera and appeased the workers."
+        1 string data = "エレーラを殺して労働者を宣撫した。"
        [8]
-        1 string data = "How is Factory Fracas going?"
+        1 string data = "工場の騒乱はどうなっている?"
        [9]
-        1 string data = "We killed Herrera AND Crow, so no one wants to have a conflict any more."
+        1 string data = "エレーラとクロウの両方を殺したので、もう誰も対立したがらない。"
        [10]
-        1 string data = "Also, I would prefer that you resolved this with minimal violence and destruction to the Factory."
+        1 string data = "それと、できるだけ暴力を使わずに工場を破壊しないで解決してほしいんだけど。"
        [11]
-        1 string data = "Such a waste, but at least work in the factory can continue now.\nPlease see Bennie about your reward."
+        1 string data = "無駄だったけど、少なくとも工場の作業は続けられるわね。\nベニーから報酬を受け取って。"
        [12]
-        1 string data = "There is a system in place that should have prevented such conflicts in the first place, but it appears to have failed.\nPlease go to the Dunes of Thought and ask the shaman there why this happened."
+        1 string data = "本来ならこういった対立を防ぐシステムがあるはずなのに、失敗したみたいね。\n思考の砂丘に行って、そこのシャーマンになぜこんなことが起きたのか聞いてちょうだい。"
        [13]
-        1 string data = "You can take the Engineer with you, if you wish."
+        1 string data = "よかったらエンジニアも連れていっていいわ。"
        [14]
-        1 string data = "How is Diagnostic Pilgrimage going?"
+        1 string data = "診断の巡礼はどうなっている?"
        [15]
-        1 string data = "The orbs think the Computation Engine caused the uprising intentionally."
+        1 string data = "オーブたちは計算エンジンが意図的に蜂起を引き起こしたと考えている。"
        [16]
-        1 string data = "Oh crap!\nYou gotta go up to the Spire and reset the Engine before it causes any more damage!"
+        1 string data = "なんてこと!\n塔に行ってエンジンをリセットしないと、これ以上被害が出るわ!"
        [17]
-        1 string data = "How is Boiling Point going?"
+        1 string data = "沸点はどうなっている?"
        [18]
-        1 string data = "We reset the Engine successfully."
+        1 string data = "エンジンのリセットに成功した。"
        [19]
-        1 string data = "We destroyed the Engine. Synths are too dangerous."
+        1 string data = "エンジンを破壊した。シンセは危険すぎる。"
        [20]
-        1 string data = "We released the Synths from the Engine. Please stand aside so that they can leave."
+        1 string data = "シンセをエンジンから解放した。彼らが出ていけるように道を開けろ。"
        [21]
-        1 string data = "You've saved Steeltown!\nPlease see Bennie about your reward."
+        1 string data = "スティールタウンを救ってくれたのね!\nベニーから報酬を受け取って。"
        [22]
-        1 string data = "Also, please try to minimize destruction up there!"
+        1 string data = "それと、上であまり破壊しないでね!"
        [23]
-        1 string data = "You fool! Steeltown will fall into ruin now!\nYou are no longer welcome here."
+        1 string data = "馬鹿者!スティールタウンは崩壊してしまうわ!\nもうここには来ないでちょうだい。"
        [24]
-        1 string data = "I can't allow that!\nI attack you with the Engineer!"
+        1 string data = "それは許せないわ!\nエンジニアと一緒にあなた達を攻撃する!"
        [25]
-        1 string data = "So much for making peace with the workers!"
+        1 string data = "労働者と和解するなんて無理だったわね!"
        [26]
-        1 string data = "Thanks for saving Steeltown!"
+        1 string data = "スティールタウンを救ってくれてありがとう!"
        [27]
-        1 string data = "You really screwed Steeltown over. I hope you're happy."
+        1 string data = "あなた達のせいでスティールタウンがめちゃくちゃよ。満足した?"
        [28]
-        1 string data = "You killed me! I'm not thrilled."
+        1 string data = "私を殺すなんて!許せないわ。"
    [33]
     0 StringTable data
      1 string Filename = "d_rolandherrera"
@@ -5785,121 +5785,121 @@
       1 Array Array (233 items)
        0 int size = 233
        [0]
-        1 string data = "\nDefault Greeting."
+        1 string data = "\nデフォルト挨拶。"
        [1]
         1 string data = "DEBUG"
        [2]
-        1 string data = "Goodbye."
+        1 string data = "さようなら。"
        [3]
-        1 string data = "I am dead!"
+        1 string data = "俺は死んでいる!"
        [4]
-        1 string data = "Welcome to the Factory.\nWe got to get this Foundry Door open so we can get Salene Crow."
+        1 string data = "工場へようこそ。\n鋳造所の扉を開けてサレーン・クロウを捕まえなきゃならない。"
        [5]
-        1 string data = "Great job on the door!\nWe'll go on ahead and bring her down."
+        1 string data = "扉を開けてくれてありがとう!\n先に進んで奴を捕まえる。"
        [6]
-        1 string data = "You've turned on me in the Factory!"
+        1 string data = "工場で俺を裏切ったな!"
        [7]
-        1 string data = "I kill you with dialog!"
+        1 string data = "会話で殺す!"
        [8]
-        1 string data = "We are fighting Crow!"
+        1 string data = "クロウと戦っている!"
        [9]
-        1 string data = "We appear to be done in the Factory."
+        1 string data = "工場での仕事は終わったようだ。"
        [10]
-        1 string data = "I'm selling those damn refugees to the Slavers currently."
+        1 string data = "くそったれの難民どもを現在奴隷商人に売っている。"
        [11]
-        1 string data = "I attack you and the Slavers"
+        1 string data = "貴様と奴隷商人を攻撃する"
        [12]
-        1 string data = "Dionna is healed and convinces you not to do it!"
+        1 string data = "ディオンナが治療され、やめるよう説得してくる!"
        [13]
-        1 string data = "I'm too lazy to heal Dionna, but I want to you to fight the Slavers with me."
+        1 string data = "ディオンナを治療するのは面倒だが、奴隷商人と一緒に戦ってほしい。"
        [14]
-        1 string data = "We battle the Scar Collectors together!"
+        1 string data = "スカー・コレクターズと一緒に戦おう!"
        [15]
-        1 string data = "I am fighting you with the Slavers!"
+        1 string data = "奴隷商人と一緒に貴様らと戦っている!"
        [16]
-        1 string data = "I am fighting with you against the Slavers!"
+        1 string data = "奴隷商人に対抗して貴様らと戦っている!"
        [17]
-        1 string data = "We appear to be absolutely out of things to do together."
+        1 string data = "もう一緒にやることは何もないようだ。"
        [18]
-        1 string data = "If you are reading this, Leland has failed in some way."
+        1 string data = "これを読んでいるということは、リーランドが何か失敗した。"
        [19]
-        1 string data = "This is me killing you with dialog."
+        1 string data = "会話で貴様らを殺す。"
        [20]
-        1 string data = "This is me killing the Slavers with dialog."
+        1 string data = "会話で奴隷商人を殺す。"
        [21]
-        1 string data = "I guess I'm cool with that. Go ahead."
+        1 string data = "それでいいと思う。やってくれ。"
        [22]
-        1 string data = ""Thanks for the assist. About time Markham sent me some help."\n\n\nHe points to a huge reinforced steel door."
+        1 string data = "「援護に感謝する。マーカムがやっと助けをよこしたか。」\n\n\n彼は巨大な強化鋼鉄の扉を指差す。"
        [23]
-        1 string data = ""Goddammit, where's the laser? We need to get this door open!""
+        1 string data = "「くそっ、レーザーはどこだ?この扉を開けなきゃならないんだ!」"
        [24]
-        1 string data = """"
+        1 string data = ""
        [25]
-        1 string data = """"
+        1 string data = ""
        [26]
-        1 string data = ""What were we supposed to do again?""
+        1 string data = "「何をすることになってたっけ?」"
        [27]
-        1 string data = ""Hey, is Dionna your sister?""
+        1 string data = "「なあ、ディオンナは君の妹か?」"
        [28]
-        1 string data = ""I met your sister Dionna. She's dead.""
+        1 string data = "「君の妹のディオンナに会った。彼女は死んだ。」"
        [29]
-        1 string data = ""What's Crow doing that's so bad?""
+        1 string data = "「クロウは何をしてそんなに悪いんだ?」"
        [30]
-        1 string data = """"
+        1 string data = ""
        [31]
-        1 string data = """"
+        1 string data = ""
        [32]
-        1 string data = ""Bye.""
+        1 string data = "「じゃあな。」"
        [33]
-        1 string data = ""Later.""
+        1 string data = "「またな。」"
        [34]
-        1 string data = "How are we supposed to do that?"
+        1 string data = "どうやってやるんだ?"
        [35]
-        1 string data = "Who's Salene Crow?"
+        1 string data = "サレーン・クロウって誰だ?"
        [36]
-        1 string data = "Idk, maybe you should activate the assembly line, build a car, mount a cutting laser on it, and then drive it over here.\nWe'll stay here and hold down the fort."
+        1 string data = "わからないが、組立ラインを起動して、車を作って、切断レーザーを取り付けて、ここまで運転してくればいいんじゃないか。\n俺たちはここで守りを固めておく。"
        [37]
-        1 string data = "She's leading the workers in this uprising!"
+        1 string data = "この蜂起で労働者たちを率いているやつだ!"
        [38]
-        1 string data = "Wow. You actually got that laser over here.\nLet's get that door open!"
+        1 string data = "おお。本当にレーザーをここまで持ってきたのか。\nこの扉を開けよう!"
        [39]
-        1 string data = ""Crow's hiding herself behind that fucking beast. I need you to get it open.""
+        1 string data = "「クロウはあのクソみたいな怪物の後ろに隠れている。開けてくれ。」"
        [40]
-        1 string data = ""How are we supposed to get through a blast door?""
+        1 string data = "「防爆扉をどうやって突破するんだ?」"
        [41]
-        1 string data = "Who's Salene Crow?"
+        1 string data = "サレーン・クロウって誰だ?"
        [42]
-        1 string data = "She's leading the workers in this uprising!"
+        1 string data = "この蜂起で労働者たちを率いているやつだ!"
        [43]
-        1 string data = ""We never said we'd do this.""
+        1 string data = "「こんなことするなんて言ってない。」"
        [44]
-        1 string data = ""Then why the fuck are you here? Either help me or get out of my way.""
+        1 string data = "「じゃあなんでここにいるんだ?手伝うか邪魔するなよ。」"
        [45]
-        1 string data = ""How do you need us to help?""
+        1 string data = "「どんな風に手伝えばいい?」"
        [46]
-        1 string data = ""Who's Crow?""
+        1 string data = "「クロウって誰だ?」"
        [47]
-        1 string data = ""This isn't our business. We don't want to know.""
+        1 string data = "「これは俺たちの仕事じゃない。知りたくもない。」"
        [48]
-        1 string data = ""Hang on, what's going on here?""
+        1 string data = "「待て、何が起きてるんだ?」"
        [49]
-        1 string data = ""Markham didn't tell you? Christ. Am I the only one who gives a damn around here?""
+        1 string data = "「マーカムが言わなかったのか?くそっ。俺だけがここで気にかけているのか?」"
        [50]
-        1 string data = ""Murder, sabotage, torture - you name it. She's set herself up as judge, jury and executioner in there.""
+        1 string data = "「殺人、破壊工作、拷問――何でもありだ。あの女はあそこで裁判官、陪審員、死刑執行人を自称している。」"
        [51]
-        1 string data = ""Well I'm gonna tell you anyway, just in case you decide to stop being pussies.""
+        1 string data = "「まあ、臆病者じゃなくなることを決めた場合に備えて、とにかく教えておくよ。」"
        [52]
-        1 string data = """"
+        1 string data = ""
        [53]
-        1 string data = ""I've been thinking about that. It's too thick for explosives. Too heavy to run a truck through, so..." \r\n\r\nHe strokes his chin.\r\n\r\n"
+        1 string data = "「考えていたんだが、爆発物には厚すぎる。トラックで突っ込むには重すぎるし、だから...」\r\n\r\n彼は顎をなでる。\r\n\r\n「"
        [54]
-        1 string data = ""Great. First thing you gotta do is flip the power back on in the control room. That'll get the assembly line and the doors working again. Then you gotta go in and build the car.""
+        1 string data = "「いいだろう。最初にやるべきことは制御室の電源を入れ直すことだ。そうすれば組立ラインと扉がまた動くようになる。それから車を作りに行くんだ。」"
        [55]
-        1 string data = ""Wait a minute! You could build one! Yeah! You-"\n\n\nHis laughs and shakes his head."
+        1 string data = "「待てよ!お前が作れるかもしれない!そうだ!お前――」\n\n\n彼は笑って首を振る。"
        [56]
-        1 string data = ""Look, it's a car factory. You should be able to follow the assembly line and hit buttons until a car comes out.""
+        1 string data = "「いいか、ここは自動車工場だ。組立ラインに沿ってボタンを押していけば車が出てくるはずだ。」"
        [57]
-        1 string data = ""Get the power turned on in the control room. Get a chassis on the belt. Find a working engine and slap it on there. Find the laser and mount it on the car. Drive the whole damn car off the assembly line, then bring it back here, and we'll blast that fucking door with the laser!""
+        1 string data = "「制御室で電源を入れろ。ベルトにシャーシを載せろ。動くエンジンを見つけてそこに取り付けろ。レーザーを見つけて車に取り付けろ。車を組立ラインから降ろして、ここに持ってきて、レーザーであのクソッたれな扉を爆破するんだ!」"
        [58]
         1 string data = ""
        [59]
@@ -5911,343 +5911,343 @@
        [62]
         1 string data = ""
        [63]
-        1 string data = ""How did you - no. Not now. We'll talk about her later. Right now I've got a job to do. And that's OPEN THIS DOOR. That is my only concern right now.""
+        1 string data = "「どうやって――いや。今じゃない。彼女のことは後で話す。今は仕事がある。この扉を開けることだ。それが今の俺の唯一の関心事だ。」"
        [64]
-        1 string data = "Shock crosses his face, and then rage. \r\n\r\n"Motherfucker, why would you tell me that right now? Right now, of all times?""
+        1 string data = "驚きが彼の顔に浮かび、そして怒りへと変わる。\r\n\r\n「クソ野郎、なんで今それを言うんだ?よりによって今?」"
        [65]
-        1 string data = "He bites down on his lip - hard enough to draw blood. And then, a decision made, he turns his gun on you."
+        1 string data = "彼は唇を噛みしめる――血が出るほど強く。そして、決意を固めて、銃を向けてくる。"
        [66]
-        1 string data = ""Any worker who doesn't do what she says gets strung up as an example and called a scab. There's dozens of innocent workers in the factory, hiding from her death squads. Until we take her down, they're not getting any help.""
+        1 string data = "「彼女の言うことを聞かない労働者は見せしめとしてスト破りと呼ばれて吊るされる。工場には何十人もの無実の労働者が、彼女の死の部隊から隠れている。奴を倒すまで、誰も助けを得られない。」"
        [67]
-        1 string data = ""Got it. Thanks.""
+        1 string data = "「わかった。ありがとう。」"
        [68]
-        1 string data = ""Good. Get going.""
+        1 string data = "「よし。行け。」"
        [69]
-        1 string data = ""Door's open! We're going in! Cover us!""
+        1 string data = "「扉が開いた!入るぞ!援護しろ!」"
        [70]
-        1 string data = ""You snakes! I'm gonna kill you !""
+        1 string data = "「蛇野郎!殺してやる!」"
        [71]
-        1 string data = ""Why the hell are you talking to me? The enemy's over <i>there</i>!""
+        1 string data = "「なんで俺に話しかけてるんだ?敵は<i>あっち</i>だ!」"
        [72]
-        1 string data = ""Good work. Problem solved. Sorry if I was, you know, gruff before. I get real, uh... focused when shit starts to go sideways.""
+        1 string data = "「いい仕事だ。問題は解決した。もし、その、ぶっきらぼうだったらすまない。物事がおかしくなると、本当に、その...集中してしまうんだ。」"
        [73]
-        1 string data = ""Appreciate the help. I'll tell Markham we're done here and she'll get you paid.""
+        1 string data = "「助かった。マーカムにここは終わったと伝えて報酬を払ってもらおう。」"
        [74]
-        1 string data = ""So what happens now?""
+        1 string data = "「これからどうなる?」"
        [75]
-        1 string data = ""Seemed kinda personal between you and Crow.""
+        1 string data = "「お前とクロウの間に何か個人的なことがあったようだが。」"
        [76]
-        1 string data = ""Is it always like this around here?""
+        1 string data = "「ここはいつもこんな感じなのか?」"
        [77]
-        1 string data = ""Goodbye.""
+        1 string data = "「さようなら。」"
        [78]
-        1 string data = ""Hey, is Dionna your sister?""
+        1 string data = "「なあ、ディオンナは君の妹か?」"
        [79]
-        1 string data = ""I met your sister Dionna. She's dead.""
+        1 string data = "「君の妹のディオンナに会った。彼女は死んだ。」"
        [80]
-        1 string data = ""I met your sister Dionna. She's dead.""
+        1 string data = "「君の妹のディオンナに会った。彼女は死んだ。」"
        [81]
-        1 string data = "All the good cheer vanishes from his face, and his eye starts twitching. He turns away, his fists clenched, and when he turns back, his voice is flat and his gaze emotionless."
+        1 string data = "彼の顔から明るさがすべて消え、目が痙攣し始める。彼は拳を握りしめて背を向け、振り返ったとき、声は平坦で視線は感情を欠いている。"
        [82]
-        1 string data = ""Thanks for telling me. It was bullshit that she couldn't get in here, and bullshit that we couldn't do anything for her. Now if you'll excuse me."\n\n\nHe turns away from you."
+        1 string data = "「教えてくれてありがとう。彼女がここに入れなかったのはくだらなかったし、俺たちが何もできなかったのもくだらなかった。失礼するよ。」\n\n\n彼はあなたから背を向ける。"
        [83]
-        1 string data = ""Just leave me alone.""
+        1 string data = "「ほっといてくれ。」"
        [84]
-        1 string data = ""I said leave me alone.""
+        1 string data = "「ほっといてくれと言ったんだ。」"
        [85]
-        1 string data = ""You know her? How is she?" His face is focused and urgent."
+        1 string data = "「彼女を知ってるのか?元気か?」彼の顔は集中していて切迫している。"
        [86]
-        1 string data = ""Time to get this place running again. Anybody who's still with us gets a pardon as long as they get back to work."\n\n\nHe smiles."
+        1 string data = "「この場所をまた動かす時が来た。まだ一緒にいる奴らは仕事に戻る限り恩赦を得られる。」\n\n\n彼は微笑む。"
        [87]
-        1 string data = ""You saw what she was doing. Killing my crew, beating up her co-workers when they wouldn't toe the line. Bitch was psycho.""
+        1 string data = "「彼女が何をしていたか見ただろう。俺の部下を殺し、従わない同僚を殴っていた。あのビッチは狂人だ。」"
        [88]
-        1 string data = ""Thanks again.""
+        1 string data = "「改めてありがとう。」"
        [89]
-        1 string data = ""She's still sick.""
+        1 string data = "「彼女はまだ病気だ。」"
        [90]
-        1 string data = ""She's healed. Completely.""
+        1 string data = "「彼女は治った。完全に。」"
        [91]
-        1 string data = ""She's healed, but... she had to get an implant.""
+        1 string data = "「彼女は治ったが...インプラントを付けなきゃならなかった。」"
        [92]
-        1 string data = ""Don't know. We haven't seen her recently.""
+        1 string data = "「わからない。最近彼女を見ていない。」"
        [93]
-        1 string data = ""I'm going to go check on her. You better be telling me the truth."\n\n\nHe looks away, suddenly abashed."
+        1 string data = "「彼女の様子を見に行く。本当のことを言ってるんだろうな。」\n\n\n彼は視線を逸らし、突然恥じらう。"
        [94]
-        1 string data = ""Thanks. I mean it. If I ever can ever do something for you, let me know."\n\n\nHe rubs his eyes."
+        1 string data = "「ありがとう。本当だ。もし何かできることがあったら、教えてくれ。」\n\n\n彼は目をこする。"
        [95]
-        1 string data = ""Anyway. What else can I do for you?""
+        1 string data = "「ともかく。他に何か手伝えることは?」"
        [96]
-        1 string data = ""An implant, you say. But she's still breathing."\n\n\nHis mouth is a straight line."
+        1 string data = "「インプラントか。でもまだ息をしている。」\n\n\n彼の口は一直線になっている。"
        [97]
-        1 string data = ""I'll go see her myself. Maybe it's not so... not bad.""
+        1 string data = "「自分で会いに行く。そんなに...悪くないかもしれない。」"
        [98]
-        1 string data = "His face falls with relief for a moment, and he regains composure in an instant."
+        1 string data = "彼の顔に一瞬安堵が浮かび、すぐに平静を取り戻す。"
        [99]
-        1 string data = ""So she's still alive. Good. That's good."\n\n\n"All right. Thanks for the word.""
+        1 string data = "「まだ生きているのか。よかった。本当によかった。」\n\n\n「わかった。知らせてくれてありがとう。」"
        [100]
-        1 string data = ""Then why would you mention her? You know she's sick. You have any idea what that feels like, to have strangers just ask about your sick sister out of the blue?""
+        1 string data = "「じゃあなんで彼女のことを言うんだ?彼女が病気だって知ってるだろ。見知らぬ奴にいきなり病気の妹のことを聞かれる気持ちがわかるか?」"
        [101]
-        1 string data = ""I mean, have some empathy."\n\n\nHe looks away and gathers himself."
+        1 string data = "「共感してくれよ。」\n\n\n彼は視線を逸らし、自分を立て直す。"
        [102]
         1 string data = "Bank 118"
        [103]
-        1 string data = ""Made a promise, right? I won't even touch Crow.""
+        1 string data = "「約束したよな?クロウには指一本触れない。」"
        [104]
-        1 string data = ""And all that bullshit about workers' rights. Plains trash like her oughta be thankful they have <i>any</i> job, let alone a good one like she got here.""
+        1 string data = "「それに労働者の権利だとかいうくだらない話。彼女みたいな平原のゴミは<i>どんな</i>仕事でもあることに感謝すべきだ、ましてやここでこんないい仕事を得られたんだから。」"
        [105]
-        1 string data = ""Nope. Goddamn, and I hope it's never like this again.""
+        1 string data = "「いや。くそっ、二度とこんなことになってほしくない。」"
        [106]
-        1 string data = ""Oh, hey, Rangers.""
+        1 string data = "「おお、やあ、レンジャーズ。」"
        [107]
-        1 string data = ""Get out of here, Rangers. We're still working out the finer details, and I don't think the Slavers like you.""
+        1 string data = "「ここから出てってくれ、レンジャーズ。まだ細かいことを詰めてるところだし、奴隷商人はお前らを好きじゃないと思う。」"
        [108]
-        1 string data = """"
+        1 string data = ""
        [109]
-        1 string data = ""W-what's going on?""
+        1 string data = "「な、何が起きてるんだ?」"
        [110]
-        1 string data = ""What are you doing?""
+        1 string data = "「何をしてるんだ?」"
        [111]
-        1 string data = ""You better not be doing what it looks like you're doing.""
+        1 string data = "「見た目通りのことをしてないといいんだが。」"
        [112]
-        1 string data = ""You're selling people to the Slavers. You're slave trading.""
+        1 string data = "「奴隷商人に人を売っている。奴隷売買だ。」"
        [113]
-        1 string data = ""Yep. But you know what I hate more? I hate people who support insurgents. I hate trouble-makers.""
+        1 string data = "「その通り。でももっと嫌いなものがある。反乱軍を支持する奴らが嫌いだ。トラブルメーカーが嫌いだ。」"
        [114]
-        1 string data = ""I... I'm just taking out the trash. That's all. These guys here are trash collectors.""
+        1 string data = "「俺は...ただゴミを出しているだけだ。それだけだ。ここにいる奴らはゴミ収集業者だ。」"
        [115]
-        1 string data = ""Hey, we gave 'em a chance, but they kept making trouble. Kept asking for 'reforms,' kept calling me names behind my back. They were affecting productivity. They had to go.""
+        1 string data = "「なあ、チャンスをやったけど、トラブルを起こし続けた。『改革』を求め続け、陰で俺の悪口を言い続けた。生産性に影響していた。出ていってもらわなきゃならなかった。」"
        [116]
-        1 string data = ""You think Crow and her gang wouldn't have done the same to us if they had won? We'da been diggin' in some Slaver salt mine before the bodies had cooled. We're just keepin' things safe around here.""
+        1 string data = "「クロウと仲間が勝ってたら、俺たちに同じことをしなかったと思うか?死体が冷める前に奴隷商人の塩鉱山を掘らされていただろう。俺たちはただここを安全に保っているだけだ。」"
        [117]
-        1 string data = ""I'll cut you in on the action since you were such a big help.""
+        1 string data = "「お前はすごく助けてくれたから、取り分を分けてやろう。」"
        [118]
-        1 string data = ""What are the details of this transaction?""
+        1 string data = "「この取引の詳細は?」"
        [119]
-        1 string data = ""You promised you wouldn't punish them.""
+        1 string data = "「罰しないと約束しただろう。」"
        [120]
-        1 string data = ""We saved your sister. You need to stop this.""
+        1 string data = "「俺たちは君の妹を救った。これをやめなければならない。」"
        [121]
-        1 string data = ""We're going to need more money for this.""
+        1 string data = "「これにはもっと金が必要だ。」"
        [122]
-        1 string data = " "Some money for Steeltown, a broker's fee for me, and the slavers are gonna hold off on raids around here for a while. Everybody wins.""
+        1 string data = "「スティールタウンに少し金が入る、俺にはブローカー料、それと奴隷商人はしばらくこの辺りの襲撃をやめる。みんなが勝つ。」"
        [123]
-        1 string data = ""And if they wind up dead or hurting, maybe they should've come forward when their friends and family were destroying safety for so many others.""
+        1 string data = "「そして死んだり傷ついたりしても、友人や家族が多くの人々の安全を破壊していたときに出てくるべきだったんだ。」"
        [124]
-        1 string data = ""Yeah. Maybe I did. And I do... I do owe you for helping my sister.""
+        1 string data = "「ああ。そうだったかもな。そして俺は...妹を助けてくれたことに恩がある。」"
        [125]
-        1 string data = ""We can't let you go through with this.""
+        1 string data = "「これを続けさせるわけにはいかない。」"
        [126]
-        1 string data = ""Would your sister have wanted you to do this?""
+        1 string data = "「君の妹はこんなことを望んでいたのか?」"
        [127]
-        1 string data = ""You mean you turned her into a freak. You turned her into one of these <i>things</i>.""
+        1 string data = "「彼女を化け物に変えたって意味か。この<i>もの</i>の一つに変えたのか。」"
        [128]
-        1 string data = ""You mean we saved her life.""
+        1 string data = "「彼女の命を救ったって意味だ。」"
        [129]
-        1 string data = ""Oh, fuck off. Did she stop being your sister?""
+        1 string data = "「ああ、くそくらえ。彼女が妹じゃなくなったのか?」"
        [130]
-        1 string data = """"
+        1 string data = ""
        [131]
-        1 string data = "His sister pushes forward."
+        1 string data = "彼の妹が前に出る。"
        [132]
-        1 string data = "Tears fill his eyes, and his voice is hoarse with emotion."
+        1 string data = "彼の目に涙が溢れ、声は感情で嗄れている。"
        [133]
-        1 string data = ""Roland. Why would you tear other families apart? Why have you become so cruel? Let them stay. They know the price they could have paid, but didn't. Show compassion.""
+        1 string data = "「ローランド。なんで他の家族を引き裂くの?なんでこんなに残酷になったの?ここにいさせてあげて。彼らは払うはずだった代償を知ってるけど、払わずに済んだのよ。思いやりを見せて。」"
        [134]
-        1 string data = ""All right. All right. Sale's over. You savages, you can fuck right off.""
+        1 string data = "「わかった。わかったよ。売買は終わりだ。野蛮人ども、失せろ。」"
        [135]
-        1 string data = ""What? We had a deal! NO TAKEBACKS!"\n\n\nThe Scar Collectors draw their weapons and attack!"
+        1 string data = "「何?取引したんだぞ!キャンセルなんてなしだ!」\n\n\nスカー・コレクターズは武器を抜いて攻撃してくる!"
        [136]
-        1 string data = ""Got nothing else to say.""
+        1 string data = "「もう言うことはない。」"
        [137]
-        1 string data = "I attack you and the Scar Collectors"
+        1 string data = "貴様とスカー・コレクターズを攻撃する"
        [138]
-        1 string data = "Dionna is healed and convinces you not to do it!"
+        1 string data = "ディオンナが治療され、やめるよう説得してくる!"
        [139]
-        1 string data = ""You piece of shit. She was the last thing that I loved in this world. Far as I'm concerned, happiness is dead."\n\n\nHe thinks a while longer, fingering his gun."
+        1 string data = "「クソ野郎。彼女はこの世界で俺が愛していた最後のものだった。俺にとって、幸せは死んだ。」\n\n\n彼は銃に触れながらしばらく考える。"
        [140]
-        1 string data = ""Actually, maybe it'd be better if you were dead too."\n\n\nHe starts firing!"
+        1 string data = "「実際、お前も死んだ方がいいかもしれない。」\n\n\n彼は発砲し始める!"
        [141]
-        1 string data = ""You're gonna stop me? My customers are gonna have something to say about that.""
+        1 string data = "「俺を止めるのか?客が何か言いたいことがあるぞ。」"
        [142]
-        1 string data = " "Hey, new partners! These assholes are tryin' to shut down our deal.""
+        1 string data = "「おい、新しい仲間!この野郎どもが取引を台無しにしようとしてる。」"
        [143]
-        1 string data = ""Roland. Look at me. <i>Look at me.</i> I'm alive. They saved my life.They didn't replace my brain. They didn't replace my heart.  I'm the same person I was. I'm still your sister, Roland.""
+        1 string data = "「ローランド。私を見て。<i>見て。</i>私は生きてる。彼らが私の命を救ってくれたの。脳を交換しなかったし、心臓も交換しなかった。私は前と同じ人間よ。まだあなたの妹よ、ローランド。」"
        [144]
-        1 string data = ""Scar Collectors drove us out of our home. They <i>ate</i> our parents. And now she's one of them. Yeah. Fuck this. Fuck the world.""
+        1 string data = "「スカー・コレクターズが俺たちの家から追い出した。両親を<i>食った</i>。そして今、彼女は奴らの一員だ。ああ。くそくらえ。世界もくそくらえ。」"
        [145]
-        1 string data = ""Thanks. Knew I could count on you.""
+        1 string data = "「ありがとう。頼れると思ってた。」"
        [146]
-        1 string data = ""Thanks, amigos. We'll take it from here. Gotta get this place up and running again.""
+        1 string data = "「ありがとう、アミーゴ。後は俺たちに任せろ。この場所をまた動かさないと。」"
        [147]
-        1 string data = ""Just leave me alone, all right?""
+        1 string data = "「ほっといてくれよ、いいか?」"
        [148]
-        1 string data = "Thank you, Rangers. Without you and Dionna, I'd have done something terrible."
+        1 string data = "ありがとう、レンジャーズ。お前たちとディオンナがいなかったら、ひどいことをしていただろう。"
        [149]
-        1 string data = ""Yeah. Maybe I did. But then I found out my sister, Dionna, had died in the clinic while I was stuck in the factory. I could have been there... brought more medicine... Said goodbye.""
+        1 string data = "「ああ。そうだったかもな。でも妹のディオンナが、俺が工場に閉じ込められている間にクリニックで死んだことを知った。俺はそこにいられたかもしれない...もっと薬を持っていけたかもしれない...さよならを言えたかもしれない。」"
        [150]
-        1 string data = ""So fuck that promise. That petty revolt cost me my only family. Now, it's gonna cost the workers <i>their</i> families!""
+        1 string data = "「だからあの約束なんてくそくらえだ。あのちっぽけな反乱のせいで俺は唯一の家族を失った。今度は労働者が<i>彼らの</i>家族を失う番だ!」"
        [151]
-        1 string data = "Come get us, you fucking cowards!\nSalene Crow will get hers someday!"
+        1 string data = "かかってこい、臆病者ども!\nサレーン・クロウもいつか報いを受けるぞ!"
        [152]
         1 string data = ""
        [153]
-        1 string data = ""Hey! New guys! Over here!""
+        1 string data = "「おい!新顔!こっちだ!」"
        [154]
-        1 string data = ""Fuckin' A! You did it! I thought you guys weren't ever comin' back! This is great. You ready to start blasting? 'Cause we're ready to end this.""
+        1 string data = "「くそったれ!やったな!もう戻ってこないかと思ったぞ!すばらしい。爆破を始める準備はいいか?俺たちはこれを終わらせる準備ができてる。」"
        [155]
-        1 string data = ""What happenned to these workers? We sent them out here to keep them safe.""
+        1 string data = "「この労働者たちに何が起きたんだ?安全のためにここに送り出したのに。」"
        [156]
-        1 string data = ""Oh, uh.... them? They uh... they attacked us! Tried to catch us off guard. We had to defend ourselves.""
+        1 string data = "「ああ、えーと...あいつらか?あいつらは...俺たちを攻撃してきた!不意を突こうとした。身を守らなきゃならなかった。」"
        [157]
-        1 string data = "We don't believe you. These workers were all trying to escape the fighting."
+        1 string data = "信じない。この労働者たちはみんな戦いから逃げようとしていた。"
        [158]
-        1 string data = "I guess we'll take your word for it."
+        1 string data = "まあ、君の言葉を信じるよ。"
        [159]
-        1 string data = "You calling me a liar? You want to fight about it or you want to end this fucking uprising?"
+        1 string data = "嘘つき呼ばわりか?それで戦いたいのか、それともこのクソみたいな蜂起を終わらせたいのか?"
        [160]
-        1 string data = "(ATTACK) Ya, psycho. We'll fight about it!"
+        1 string data = "(攻撃)ああ、サイコ野郎。それで戦おう!"
        [161]
-        1 string data = "Damn right! You can't trust these workers- they're animals. Now, you ready to take care of Crow?"
+        1 string data = "その通りだ!この労働者たちは信用できない――動物だ。さあ、クロウを片付ける準備はいいか?"
        [162]
-        1 string data = "Let's just deal with Crow."
+        1 string data = "とにかくクロウを片付けよう。"
        [163]
-        1 string data = ""Ok, here's the plan. Aim that laser at the door and start cutting. When it's open, we'll go in first with you covering us, then you follow. Shoot anybody that resists, but remember - Crow is mine.""
+        1 string data = "「いいか、計画はこうだ。レーザーを扉に向けて切断を始めろ。開いたら、お前たちが援護して俺たちが先に入る、それからお前たちが続く。抵抗する奴は誰でも撃て、でも覚えておけ――クロウは俺のものだ。」"
        [164]
         1 string data = ""
        [165]
-        1 string data = ""We're ready.""
+        1 string data = "「準備できた。」"
        [166]
-        1 string data = ""Give us a minute.""
+        1 string data = "「ちょっと待ってくれ。」"
        [167]
-        1 string data = ""No you're not! Get the rest of your squad over here so we can go over the plan.""
+        1 string data = "「まだだ!部隊の残りをここに連れてこい、計画を確認するぞ。」"
        [168]
         1 string data = ""
        [169]
-        1 string data = ""Now, start blasting!""
+        1 string data = "「さあ、爆破を始めろ!」"
        [170]
-        1 string data = "Bring it, assholes!"
+        1 string data = "かかってこい、野郎ども!"
        [171]
-        1 string data = ""Okay, we'll do it.""
+        1 string data = "「わかった、やるよ。」"
        [172]
-        1 string data = ""Crow's thugs may make a move on us once that happens, so we'll stay behind to keep this room secure. We'll be here when you get back with the laser.""
+        1 string data = "「それが起きたらクロウの手下どもが俺たちに襲いかかるかもしれない、だから俺たちはこの部屋を確保するためにここに残る。レーザーを持って戻ってきたらここにいるぞ。」"
        [173]
-        1 string data = ""Who are these people we just killed?""
+        1 string data = "「今殺したのは誰だ?」"
        [174]
-        1 string data = ""Some of Crow's faithful. Scrapyard refugee trash, mostly. Do anything she tells 'em to.""
+        1 string data = "「クロウの忠実な部下だ。スクラップヤードの難民のゴミ、ほとんどがな。彼女の言うことなら何でもする。」"
        [175]
-        1 string data = ""Who are you?""
+        1 string data = "「君は誰だ?」"
        [176]
-        1 string data = ""Roland Herrera, Markham's chief of security - though I'm getting closer to quitting every day. This job is bullshit. No support from management. No respect from the workers. I gotta do it all myself.""
+        1 string data = "「ローランド・エレーラ、マーカムの警備主任――でも毎日辞めたくなってる。この仕事はクソだ。経営陣からのサポートはない。労働者からの敬意もない。俺が全部自分でやらなきゃならない。」"
        [177]
-        1 string data = ""Okay, okay. I'll lay it out for you. Crow's a fucking thug. She claims she's fighting for worker's rights, but she really just wants money.""
+        1 string data = "「わかった、わかった。説明しよう。クロウはクソみたいな暴漢だ。労働者の権利のために戦ってると主張してるが、本当は金が欲しいだけだ。」"
        [178]
-        1 string data = ""Well, not anymore. 'Cause they're dead, right?""
+        1 string data = "「まあ、もうそうじゃない。だって死んだからな?」"
        [179]
-        1 string data = ""But I'm not going anywhere until Crow's taken care of and her bullshit mutiny is put down.""
+        1 string data = "「でもクロウを片付けて、くだらない反乱を鎮圧するまでは、どこにも行かない。」"
        [180]
-        1 string data = ""Bloodthirsty bitch.""
+        1 string data = "「血に飢えたビッチだ。」"
        [181]
-        1 string data = ""A heavy-duty cutting laser might do it, but the only one we've got is on the opposite side of the factory, and it's way too heavy to drag over here. You'd need a truck to carry it, and that bitch Crow set all the trucks on fire days ago."\n\n\nHis eyes light up and he claps his hands."
+        1 string data = "「重機用の切断レーザーならできるかもしれないが、俺たちが持ってる唯一のやつは工場の反対側にあって、ここまで引きずってくるには重すぎる。運ぶにはトラックが必要だが、あのビッチのクロウが数日前にトラックを全部燃やしちまった。」\n\n\n彼の目が輝き、手を叩く。"
        [182]
-        1 string data = ""Well, it's a little involved, but there is a way if you're up for it. You could restore the power, build a truck, mount the laser on it, and bring it back.""
+        1 string data = "「まあ、少し複雑だが、やる気があるならやり方がある。電源を復旧して、トラックを作って、レーザーを取り付けて、持って帰ってくればいい。」"
        [183]
-        1 string data = ""What do you think?""
+        1 string data = "「どうだ?」"
        [184]
-        1 string data = ""The control room's right up the steps.""
+        1 string data = "「制御室は階段を上がったところだ。」"
        [185]
-        1 string data = ""Yeah, well, don't take two.""
+        1 string data = "「ああ、2回はかけるなよ。」"
        [186]
-        1 string data = ""Move it!""
+        1 string data = "「動け!」"
        [187]
-        1 string data = ""Are you ready yet? Come on!""
+        1 string data = "「まだ準備できないのか?さあ!」"
        [188]
-        1 string data = ""Still need a minute.""
+        1 string data = "「まだ少し時間がかかる。」"
        [189]
-        1 string data = ""Take your fucking time, why don't you?""
+        1 string data = "「好きなだけクソみたいに時間をかけろよ。」"
        [190]
-        1 string data = ""Like Markham says, productivity trumps everything, right?""
+        1 string data = "「マーカムの言う通り、生産性が何より重要だろ?」"
        [191]
-        1 string data = ""Fuck her.""
+        1 string data = "「くそくらえ。」"
        [192]
         1 string data = "Script Node 215"
        [193]
-        1 string data = ""Come on. Make me a real offer.""
+        1 string data = "「さあ。まともなオファーをしろ。」"
        [194]
-        1 string data = ""Are you kidding me? This is highly trained stock!""
+        1 string data = "「冗談だろ?これは高度に訓練された商品だぞ!」"
        [195]
-        1 string data = ""No more haggling. Take it or leave it.""
+        1 string data = "「もう交渉は終わりだ。受けるか断るかだ。」"
        [196]
-        1 string data = ""How about this? Buy four I'll give you one for free.""
+        1 string data = "「こうしよう。4人買えば1人タダでつけるよ。」"
        [197]
-        1 string data = ""Don't bullshit me. I know you got more cash on you.""
+        1 string data = "「くだらないことを言うな。もっと金を持ってるのは知ってるぞ。」"
        [198]
-        1 string data = ""Get outta here. I'm done listening to you.""
+        1 string data = "「出て行け。もう聞く気はない。」"
        [199]
-        1 string data = ""You're getting closer. Keep talking.""
+        1 string data = "「近づいてきたな。話を続けろ。」"
        [200]
         1 string data = ""
        [201]
-        1 string data = ""Your 'trash' looks a lot like all those employees you swore you wouldn't punish.""
+        1 string data = "「お前の『ゴミ』は、罰しないと誓った従業員たちにそっくりだが。」"
        [202]
-        1 string data = ""The only trash I see around here is you and your Slaver friends.""
+        1 string data = "「ここで見かけるゴミは、お前と奴隷商人の友達だけだ。」"
        [203]
-        1 string data = ""Call me all the names you want. I'm the one makin' the hard choices around here. You think it's easy selling people? It's heartbreaking. But how else are we teach these bastards to obey the rules?""
+        1 string data = "「好きなだけ罵ってくれ。ここで難しい選択をしているのは俺だ。人を売るのが簡単だと思うか?心が痛むよ。でも他にどうやってこのクソ野郎どもにルールを守らせるんだ?」"
        [204]
-        1 string data = ""Does Markham know you're doing this?""
+        1 string data = "「マーカムはこれをやっているのを知っているのか?」"
        [205]
-        1 string data = ""Hey, I don't bother her with every little decision I make. And trust me. She'll never know they left. They weren't doin' much work anyway.""
+        1 string data = "「おい、俺がする小さな決定一つ一つで彼女を煩わせたりしない。そして信じてくれ。彼女は彼らが去ったことを決して知らない。どうせあまり働いてなかったしな。」"
        [206]
-        1 string data = ""Deal. We were never here.""
+        1 string data = "「取引だ。俺たちはここにいなかった。」"
        [207]
-        1 string data = ""Deal. I'll give you ten percent of my fifteen percent. Here you go.""
+        1 string data = "「取引だ。俺の15パーセントの10パーセントを渡そう。ほら。」"
        [208]
-        1 string data = ""Now, where were we?""
+        1 string data = "「さて、どこまで話したっけ?」"
        [209]
-        1 string data = ""Pleasure doin' business with you.""
+        1 string data = "「取引できて光栄だ。」"
        [210]
-        1 string data = ""First you gotta flip the power back on in the control room. That'll get the assembly line and the doors working again. Then you gotta go in and build the car, then put the laser on it and bring it back""
+        1 string data = "「まず制御室で電源を入れ直さなきゃならない。そうすれば組立ラインと扉がまた動くようになる。それから車を作りに行って、レーザーを取り付けて持って帰ってくるんだ。」"
        [211]
-        1 string data = ""Or you can just stand around here with your thumbs up your asses.""
+        1 string data = "「それか、ケツに親指を突っ込んでそこに立ってるかだな。」"
        [212]
-        1 string data = ""Up to you.""
+        1 string data = "「お前次第だ。」"
        [213]
-        1 string data = ""We're done, Rangers. Don't you have anything better to do?""
+        1 string data = "「もう終わりだ、レンジャーズ。他にやることはないのか?」"
        [214]
         1 string data = ""
        [215]
-        1 string data = ""I don't think you fixed the Computation Engine so well. The damn thing demoted me!""
+        1 string data = "「計算エンジンをそんなにうまく直したとは思えないな。クソッたれなことに降格させられた!」"
        [216]
-        1 string data = ""After all we been through, Rangers.\nThanks for nothing.""
+        1 string data = "「俺たちが経験したことすべての後で、レンジャーズ。\n何にもならなかったな。」"
        [217]
-        1 string data = ""This is humiliating.\nGotta find a way to get back on top.""
+        1 string data = "「屈辱的だ。\nトップに戻る方法を見つけなきゃ。」"
        [218]
-        1 string data = ""Everyon'e so happy now.\nWhat was wrong before?""
+        1 string data = "「みんな今とても幸せだ。\n前は何が問題だったんだ?」"
        [219]
         1 string data = ""
        [220]
-        1 string data = ""Heard you took out Markham.\nYou're lucky <i>I</i> wasn't guarding her when that went down.""
+        1 string data = "「マーカムをやったと聞いた。\nそれが起きたとき<i>俺が</i>彼女を守っていなかったのは幸運だったな。」"
        [221]
-        1 string data = ""Freakin' Bianchi. How'd she get to be in charge?""
+        1 string data = "「くそったれのビアンキ。どうやって責任者になったんだ?」"
        [222]
-        1 string data = ""Bianchi's always riding me about purchase orders.""
+        1 string data = "「ビアンキはいつも発注書のことでうるさい。」"
        [223]
-        1 string data = ""People say the Computation Engine was using me to cause issues. Can you believe that?""
+        1 string data = "「計算エンジンが俺を使って問題を起こしていたと言われている。信じられるか?」"
        [224]
         1 string data = ""
        [225]
-        1 string data = ""You can give me a better price than that, these workers are the near picture of health.""
+        1 string data = "「それよりもっといい値段をつけてくれよ、この労働者たちはほぼ健康そのものだぞ。」"
        [226]
-        1 string data = ""Bah, we don't usually pay for slaves at all.""
+        1 string data = "「ふん、普段は奴隷に金なんか払わないんだがな。」"
        [227]
-        1 string data = ""Sure, but for free all you get are scrawny ones starving outside the gates.""
+        1 string data = "「確かに、でもタダで手に入るのは門の外で飢えてるガリガリの奴らだけだ。」"
        [228]
-        1 string data = " "We don't <i>need</i> to prey on the weak.\nNo man, woman, or child is safe from us.""
+        1 string data = "「弱者を餌食にする<i>必要</i>はない。\n男も女も子供も、誰一人として俺たちから安全じゃない。」"
        [229]
-        1 string data = ""Right, right. But think of all the time and effort I'm saving you.""
+        1 string data = "「そうだ、そうだ。でも俺がお前の時間と労力を節約しているのを考えてみろ。」"
        [230]
-        1 string data = ""You have my price.""
+        1 string data = "「俺の価格は決まってる。」"
        [231]
-        1 string data = ""Okay, I'll go over it again.""
+        1 string data = "「わかった、もう一度説明するよ。」"
        [232]
         1 string data = ""
    [34]
@@ -7391,491 +7391,491 @@
       1 Array Array (282 items)
        0 int size = 282
        [0]
-        1 string data = "\nDefault Greeting."
+        1 string data = "\nデフォルト挨拶。"
        [1]
         1 string data = "DEBUG"
        [2]
-        1 string data = "Goodbye."
+        1 string data = "さようなら。"
        [3]
-        1 string data = "I'm dead!"
+        1 string data = "私は死んでいる!"
        [4]
-        1 string data = "Welcome to the final battle in the Foundry!\nChoose a side!"
+        1 string data = "鋳造所での最終決戦へようこそ!\n側を選べ!"
        [5]
-        1 string data = "I'll support you and the workers."
+        1 string data = "あなたと労働者を支援する。"
        [6]
-        1 string data = "I'll support Ludlow and the Guards."
+        1 string data = "ラドローと警備員を支援する。"
        [7]
-        1 string data = "You both suck, you both die."
+        1 string data = "どっちもクソだ、どっちも死ね。"
        [8]
-        1 string data = "We are in combat in the Foundry!"
+        1 string data = "鋳造所で戦闘中だ!"
        [9]
-        1 string data = "This is me killing you via dialog."
+        1 string data = "会話で殺す。"
        [10]
-        1 string data = "We are allies against Ludlow!\nKill that guy."
+        1 string data = "ラドローに対抗する味方だ!\nあいつを殺せ。"
        [11]
-        1 string data = "Now that Ludlow's dead, I am ending the uprising."
+        1 string data = "ラドローが死んだので、蜂起を終わらせる。"
        [12]
-        1 string data = "Good job taking out Markham.\nI am in charge now."
+        1 string data = "マーカムを倒したのはよくやった。\n今は私が責任者だ。"
        [13]
-        1 string data = "The guards are selling us to the Scar Collectors!\nDo something!"
+        1 string data = "警備員が私たちをスカー・コレクターズに売っている!\n何とかして!"
        [14]
-        1 string data = "You destroyed the Computation Engine.\nGreat Job!\nI guess we're done here."
+        1 string data = "計算エンジンを破壊した。\nよくやった!\nこれで終わりだな。"
        [15]
-        1 string data = "I support you."
+        1 string data = "支援する。"
        [16]
-        1 string data = "I fight you!"
+        1 string data = "戦う!"
        [17]
-        1 string data = "Let's call Diagnostic Pilgrimage done.\nHere's Boiling Point."
+        1 string data = "診断の巡礼は終わったことにしよう。\n次は沸点だ。"
        [18]
-        1 string data = "We are hostile at the gates!"
+        1 string data = "門で敵対している!"
        [19]
-        1 string data = "This is me killing you via dialog."
+        1 string data = "会話で殺す。"
        [20]
-        1 string data = "You released the Synths in the Computation Engine.\nWorks for me!\nI guess we're done here."
+        1 string data = "計算エンジンのシンセを解放した。\n私にとっては問題ない!\nこれで終わりだな。"
        [21]
-        1 string data = "We appear to be done."
+        1 string data = "終わったようだ。"
        [22]
-        1 string data = "If you can read this, Leland missed a condition."
+        1 string data = "これが読めるなら、リーランドが条件を見逃した。"
        [23]
-        1 string data = "Come back when you've finished Boiling Point."
+        1 string data = "沸点を終えてから戻ってきて。"
        [24]
-        1 string data = "Welcome to the Revolt!\nYou're either with us or against us!"
+        1 string data = "反乱へようこそ!\n私たちの味方か敵かだ!"
        [25]
-        1 string data = "We support the revolt."
+        1 string data = "反乱を支援する。"
        [26]
-        1 string data = "We are against the revolt."
+        1 string data = "反乱に反対だ。"
        [27]
-        1 string data = "We are revolting against the guards together!"
+        1 string data = "一緒に警備員に反抗している!"
        [28]
-        1 string data = "Thanks for helping us clear out those guards.\nPlease go take out Markham while I rally the rest of the refugees!\n"
+        1 string data = "警備員を排除するのを手伝ってくれてありがとう。\n私が残りの難民を集めている間にマーカムを倒しに行ってちょうだい!\n"
        [29]
-        1 string data = "This is me resolving that encounter."
+        1 string data = "この遭遇を解決する。"
        [30]
-        1 string data = "Rage contorts this woman's face, yet somehow she is still beautiful. Blood speckles her work clothes, and the other workers stare at her, ready to leap to her defense."
+        1 string data = "怒りがこの女性の顔を歪めているが、それでもまだ美しい。血が作業服に散っており、他の労働者たちは彼女を見つめ、彼女を守るために飛び出す準備ができている。"
        [31]
-        1 string data = ""Thanks for taking out Ludlow. I don't think we would have beat him by ourselves.""
+        1 string data = "「ラドローを倒してくれてありがとう。自分たちだけじゃ勝てなかったと思う。」"
        [32]
-        1 string data = ""Kill Ludlow! Kill the guards! For justice!""
+        1 string data = "「ラドローを殺せ!警備員を殺せ!正義のために!」"
        [33]
-        1 string data = ""Rise up, brothers and sisters! Markham had her chance and she blew it! Now she's going to pay!""
+        1 string data = "「立ち上がれ、兄弟姉妹よ!マーカムにはチャンスがあったのに台無しにした!今度は代償を払ってもらう!」"
        [34]
-        1 string data = ""Ludlow, you son of a bitch! You'll pay for this massacre - tenfold!""
+        1 string data = "「ラドロー、このクソ野郎!この虐殺の代償を10倍にして払ってもらう!」"
        [35]
-        1 string data = ""No rest, no peace, until we have justice! No rest, no peace, until Roland's punished!""
+        1 string data = "「正義を得るまで休まない、平和もない!ローランドが罰せられるまで休まない、平和もない!」"
        [36]
-        1 string data = """"
+        1 string data = ""
        [37]
-        1 string data = ""We haven't done anything you didn't do first, you fucking psycho! You started this!""
+        1 string data = "「お前が最初にやったこと以外は何もしていない、クソみたいなサイコ野郎!お前が始めたんだ!」"
        [38]
-        1 string data = ""How can you assholes stand with that creep?""
+        1 string data = "「なんでお前ら野郎どもはあのクソ野郎の味方をするんだ?」"
        [39]
-        1 string data = ""We're not standing with anybody. Markham told us to make things right down here, no matter who was behind the trouble.""
+        1 string data = "「誰の味方でもない。マーカムが、誰がトラブルの背後にいようと、ここで事態を正すように言った。」"
        [40]
-        1 string data = ""Don't try that 'moral high ground' stuff on us. We saw how your people were treating the other workers in the factory.""
+        1 string data = "「道徳的優位性なんて私たちに試すな。お前の連中が工場で他の労働者をどう扱っているか見た。」"
        [41]
-        1 string data = ""We're not with him. We saw what his guards were doing to the workers in the factory.""
+        1 string data = "「彼の味方じゃない。彼の警備員が工場で労働者に何をしているか見た。」"
        [42]
-        1 string data = """"
+        1 string data = ""
        [43]
-        1 string data = ""Yeah? Then why the hell have you been killing my people?""
+        1 string data = "「そうか?じゃあなんで私の仲間を殺してきたんだ?」"
        [44]
-        1 string data = ""Rangers! Help us! It's time to bring Markham down for good!""
+        1 string data = "「レンジャーズ!手伝って!マーカムを永久に倒す時だ!」"
        [45]
-        1 string data = ""Did we? Who's the one who charged us by the minute for visiting our families? Who took a delivery fee for every pay packet we sent home? You've been robbing us blind, motherfucker! You're getting fat off our misery!""
+        1 string data = "「そうか?家族を訪ねるのに分単位で料金を請求したのは誰だ?家に送る給料袋ごとに配達料を取ったのは誰だ?お前は私たちを盲目的に強奪してきた、クソ野郎!私たちの不幸で太ってる!」"
        [46]
-        1 string data = ""Listen to yourself, Ludlow. 'Didn't tell them how to do it?' That means you gave them license to do anything they wanted, just like you hoped they would!""
+        1 string data = "「自分の言葉を聞けよ、ラドロー。『どうやるかは言わなかった』だと?つまり、お前が望んでいた通り、何でもやっていいというお墨付きを与えたってことだろ!」"
        [47]
-        1 string data = ""Bullshit, Crow. That's bullshit and we both know it. I think the real problem here is that you're never happy, and now you're trying to turn a profit for yourself from this mess.""
+        1 string data = "「くだらない、クロウ。それはくだらないし、お互いわかってる。ここの本当の問題は、お前が決して満足しないことで、今はこの混乱から自分のために利益を得ようとしてるんだ。」"
        [48]
-        1 string data = ""I've got a real quick way to resolve this - put a bullet in Crow's head and send these protesters back to work.""
+        1 string data = "「これを解決する本当に簡単な方法がある――クロウの頭に弾丸を撃ち込んで、この抗議者どもを仕事に戻すんだ。」"
        [49]
-        1 string data = ""See? This is exactly the kind of mistreatment we're protesting against! We're disposable! Look here - we want Roland brought to justice, and then we'll end this peacefully... if you can guarantee we'll be pardoned.""
+        1 string data = "「見たか?これがまさに私たちが抗議している虐待だ!私たちは使い捨てだ!いいか――ローランドを裁判にかけて、それから平和的に終わらせる...恩赦を保証してくれるならね。」"
        [50]
-        1 string data = ""I never authorized any strongarm tactics against my fellow workers. If some of my people got out of hand, I condemn their actions in the strongest terms.""
+        1 string data = "「仲間の労働者に対する強硬な戦術は一切許可していない。もし私の仲間の何人かが手に負えなくなったなら、彼らの行動を最も強い言葉で非難する。」"
        [51]
-        1 string data = ""That's what you expected us workers to do, isn't it, you fascist fuck? We came to talk, and you answered every word with a bullet.""
+        1 string data = "「それが私たち労働者にしてほしかったことだろ、ファシスト野郎?話し合いに来たのに、お前は一言一言に弾丸で答えた。」"
        [52]
-        1 string data = ""Enough bickering. Roland, tell us your side of this.""
+        1 string data = "「もう口論は十分だ。ローランド、お前の側の話を聞かせろ。」"
        [53]
-        1 string data = ""You want to talk, Crow? Talk. Tell us your side.""
+        1 string data = "「話したいのか、クロウ?話せ。お前の側を言え。」"
        [54]
-        1 string data = ""Ludlow, how can we help you make things better?""
+        1 string data = "「ラドロー、どうすればもっと良くなるか手伝えるか?」"
        [55]
-        1 string data = ""Hey, they asked me, Crow. So shut your mouth.""
+        1 string data = "「おい、俺に聞いたんだぞ、クロウ。だから黙れ。」"
        [56]
-        1 string data = ""It started when this bitch started acting up. We had a smooth system going until then. We took care of the workers and the workers took care of us. Uh, and when I say 'us,' I mean the factory, right? Everybody was happy.""
+        1 string data = "「このビッチが騒ぎ出したときに始まった。それまでは円滑なシステムがあった。俺たちが労働者の面倒を見て、労働者が俺たちの面倒を見た。えーと、『俺たち』って言うのは工場のことだぞ?みんな幸せだった。」"
        [57]
-        1 string data = ""A smooth system for getting you paid, Ludlow! All the rest of it was bullshit!""
+        1 string data = "「お前が金を稼ぐための円滑なシステムだ、ラドロー!残りは全部くだらなかった!」"
        [58]
-        1 string data = ""Sorry, Roland. Looks like you're the problem. For the good of the factory and the workers, you're under arrest.""
+        1 string data = "「すまない、ローランド。お前が問題のようだ。工場と労働者のために、逮捕する。」"
        [59]
-        1 string data = ""The workers' concerns are legitimate, but your bloodthirsty methods aren't helping, Crow. You're coming with us.""
+        1 string data = "「労働者の懸念は正当だが、お前の血に飢えた方法は役に立たない、クロウ。一緒に来てもらう。」"
        [60]
-        1 string data = ""Can't we put away the weapons and talk this out?""
+        1 string data = "「武器を片付けて話し合えないのか?」"
        [61]
-        1 string data = ""The only answer is blood! Rise up and take what's rightfully ours!""
+        1 string data = "「唯一の答えは血だ!立ち上がって正当に私たちのものを奪い取れ!」"
        [62]
-        1 string data = ""Like hell I am! Nobody runs this place but me! Come on, boys! Kill these fuckin' mercs!""
+        1 string data = "「冗談じゃない!ここを動かすのは俺だけだ!さあ、野郎ども!このクソ傭兵どもを殺せ!」"
        [63]
-        1 string data = ""A typical tactic of the oppressor. Trying to weaken us by dividing us. Don't fall for it, brothers and sisters! Attack!""
+        1 string data = "「抑圧者の典型的な戦術だ。私たちを分断して弱めようとしている。騙されるな、兄弟姉妹よ!攻撃しろ!」"
        [64]
-        1 string data = ""The only way things are going to get better around here are if both of you are out of the picture. You're both under arrest.""
+        1 string data = "「ここで事態がよくなる唯一の方法は、お前ら二人とも姿を消すことだ。二人とも逮捕する。」"
        [65]
-        1 string data = ""Gone too far now. No way to stop the bloodshed.""
+        1 string data = "「もう行き過ぎた。流血を止める方法はない。」"
        [66]
-        1 string data = ""Not going to happen, pigs. Kill them!""
+        1 string data = "「それはない、豚ども。殺せ!」"
        [67]
-        1 string data = ""You're not the boss of us! Get 'em boys! Kill these mercs!""
+        1 string data = "「お前は俺たちのボスじゃない!やっちまえ野郎ども!この傭兵どもを殺せ!」"
        [68]
-        1 string data = ""Ha! And if you believe that, I have a giant blue horse I want to sell you. Once I'm gone you can bet everybody who stood with me will get the axe, one way or the other.""
+        1 string data = "「はっ!それを信じるなら、巨大な青い馬を売ってやろう。俺がいなくなったら、俺の味方だった奴らはみんな、何らかの形で首を切られるに決まってる。」"
        [69]
-        1 string data = ""You can start by arresting Crow. She's the one who's stirring things up. Once she's gone, the rest of the workers will calm down. And once they do, I'll forget the whole thing. I don't care who did what to who, they can go back to work like nothing happened. No recriminations, no revenge. I'm not a guy to hold a grudge.""
+        1 string data = "「まずクロウを逮捕することから始めろ。あいつが騒ぎを起こしてる。あいつがいなくなれば、残りの労働者は落ち着く。そうなったら、俺は全部忘れる。誰が誰に何をしたかなんて気にしない、何事もなかったかのように仕事に戻れる。報復も復讐もない。俺は恨みを持つタイプじゃない。」"
        [70]
-        1 string data = ""It started when Markham hired Ludlow and sicced him on us. All of a sudden things that had been rights were now privileges - privileges we had to pay for!""
+        1 string data = "「マーカムがラドローを雇って私たちに差し向けたときに始まった。突然、権利だったものが特権になった――金を払わなきゃならない特権に!」"
        [71]
-        1 string data = ""Technically, libel is written. Slander is spoken.""
+        1 string data = "「技術的には、名誉毀損は書かれたもの。中傷は話されたもの。」"
        [72]
-        1 string data = ""I'll talk to Markham and see if she'll agree to your terms, Crow.""
+        1 string data = "「マーカムと話して、お前の条件に同意するか確認してみる、クロウ。」"
        [73]
-        1 string data = """"
+        1 string data = ""
        [74]
-        1 string data = """"
+        1 string data = ""
        [75]
-        1 string data = ""Over my dead body!"\n\n\nHe lifts his weapon."
+        1 string data = "「俺の死体を越えてからだ!」\n\n\n彼は武器を持ち上げる。"
        [76]
-        1 string data = ""Fuck off. Are you gonna help me fight this crowd, or do I have to kill you too?""
+        1 string data = "「くそくらえ。この群衆と戦うのを手伝うのか、それとも俺はお前も殺さなきゃならないのか?」"
        [77]
-        1 string data = ""What's your story?""
+        1 string data = "「お前の話は?」"
        [78]
-        1 string data = ""What led to the uprising?""
+        1 string data = "「何が蜂起につながったんだ?」"
        [79]
-        1 string data = ""What do you think of Markham?""
+        1 string data = "「マーカムのことをどう思う?」"
        [80]
-        1 string data = ""Bye.""
+        1 string data = "「じゃあな。」"
        [81]
-        1 string data = ""Thanks again.""
+        1 string data = "「改めてありがとう。」"
        [82]
-        1 string data = ""Just another refugee from the eastern plains, you know. Farm burned, folks killed, taken by slavers. A thousand people around here with the same story.""
+        1 string data = "「東部平原からのただの難民よ。農場が焼かれて、家族が殺されて、奴隷商人に連れ去られた。ここには同じ話を持った千人の人がいる。」"
        [83]
-        1 string data = ""Only difference is, I got an ornery streak in me. I fought back. Killed my owners, escaped, came here. Thought things were gonna be better, and for a while they were. Got hired at the factory, started gettin' paid.""
+        1 string data = "「唯一の違いは、私には頑固な気質があること。反撃した。所有者を殺して、逃げて、ここに来た。もっと良くなると思ったし、しばらくはそうだった。工場で雇われて、給料をもらい始めた。」"
        [84]
-        1 string data = ""Well, like I told you before, fucking Ludlow was the tipping point, but things were already getting crazy. Markham started making a lot of bizarre decisions - like tellin' us we couldn't leave the factory, and hirin' people based on these crazy tests.""
+        1 string data = "「まあ、前に言った通り、クソみたいなラドローが転機だったけど、もう物事はおかしくなっていた。マーカムが奇妙な決定を始めた――工場から出られないと言ったり、おかしなテストに基づいて人を雇ったり。」"
        [85]
-        1 string data = ""She's smart. At least she was. Built this place up from nothing. Made it a place where just about anybody could get a job and do okay. Now though... well, if she's not careful, it's going to blow.""
+        1 string data = "「彼女は賢い。少なくともそうだった。この場所をゼロから築き上げた。ほとんど誰でも仕事を得て大丈夫な場所にした。でも今は...まあ、気をつけないと、爆発する。」"
        [86]
-        1 string data = ""What happened? You said you were going back to work.""
+        1 string data = "「何があったんだ?仕事に戻ると言っていたのに。」"
        [87]
-        1 string data = ""We're with you! Rise up!""
+        1 string data = "「あなたの味方だ!立ち上がれ!」"
        [88]
-        1 string data = ""Roland was right about you, Crow. You can't be trusted.""
+        1 string data = "「ローランドがお前について正しかった、クロウ。信用できない。」"
        [89]
-        1 string data = ""Yes! Let's find Markham and <i>make her pay!</i>""
+        1 string data = "「そうだ!マーカムを見つけて<i>代償を払わせよう!</i>」"
        [90]
-        1 string data = ""We did, but nothing got better. Apparently Markham was waiting for her Computation Engine to fix things, but it never did.""
+        1 string data = "「そうしたけど、何も良くならなかった。どうやらマーカムは計算エンジンが解決してくれるのを待っていたけど、決してそうならなかった。」"
        [91]
-        1 string data = ""Evil pigs! You'll die with the rest of them!""
+        1 string data = "「邪悪な豚ども!残りの奴らと一緒に死ね!」"
        [92]
-        1 string data = ""Power to the people!!""
+        1 string data = "「人民に力を!!」"
        [93]
-        1 string data = ""It's not Markham's fault this place is a mess. It's the psychos the engine told her to hire who ruined everything. Psychos like you!""
+        1 string data = "「この場所が混乱しているのはマーカムのせいじゃない。エンジンが雇うように言ったサイコ野郎がすべてを台無しにしたんだ。お前みたいなサイコ野郎が!」"
        [94]
-        1 string data = ""You're right. This is no way to run a factory. We're with you.""
+        1 string data = "「その通りだ。こんな工場の運営方法はない。私たちはあなたの味方だ。」"
        [95]
-        1 string data = ""Kill the lackeys of the oppressors! Make the Rangers bleed!""
+        1 string data = "「抑圧者の手先どもを殺せ!レンジャーズを血まみれにしろ!」"
        [96]
-        1 string data = ""Come on, Rangers!\nLet's head inside and take out Markham!""
+        1 string data = "「さあ、レンジャーズ!\n中に入ってマーカムを倒そう!」"
        [97]
-        1 string data = ""Don't let these guards slow us down! Markham's just ahead!""
+        1 string data = "「この警備員どもに足止めさせるな!マーカムはすぐそこだ!」"
        [98]
-        1 string data = "Thanks for helping us take care of Markham. Ha! The workers are finally in control of the means of production! Okay! First thing we're going to do is... is...""
+        1 string data = "マーカムを片付けるのを手伝ってくれてありがとう。はっ!ついに労働者が生産手段を管理した!よし!最初にやることは...は...」"
        [99]
-        1 string data = ""Oh, yeah! That's right! First thing we do is get rid of Markham's tool of oppression, that Computation Engine, and let actual humans start making some decisions around here." "
+        1 string data = "「そうだ、そうだ!最初にやることは、マーカムの抑圧の道具、あの計算エンジンを処分して、実際の人間がここで決定を下すようにすることだ。」"
        [100]
-        1 string data = ""Why are you back here, Rangers? As far as I can see, the Computation Engine is still online.""
+        1 string data = "「なんで戻ってきたんだ、レンジャーズ?見たところ、計算エンジンはまだオンラインだ。」"
        [101]
-        1 string data = ""Thanks, Rangers.I can see here that the synths have been freed from the Computation Engine. We'd done the right thing. Now Steeltown can prosper without shame.""
+        1 string data = "「ありがとう、レンジャーズ。シンセが計算エンジンから解放されたのがわかる。正しいことをした。これでスティールタウンは恥なしに繁栄できる。」"
        [102]
-        1 string data = ""Thanks, Rangers. Looks like the Computation Engine is dead. Now we can rebuild Steeltown right. And you'll always be welcome here. You did right by the workers, so we'll do right by you. ""
+        1 string data = "「ありがとう、レンジャーズ。計算エンジンが死んだようだ。これでスティールタウンを正しく再建できる。そしてあなた達はここでいつでも歓迎される。労働者のために正しいことをしたから、私たちもあなた達のために正しいことをする。」"
        [103]
-        1 string data = ""Thanks, Rangers. I can see here that the synths are free and the Computation Engine is running better than ever. A free worker is a happy worker! Now Steeltown can prosper without shame.""
+        1 string data = "「ありがとう、レンジャーズ。シンセが自由で、計算エンジンがこれまで以上によく動いているのがわかる。自由な労働者は幸せな労働者だ!これでスティールタウンは恥なしに繁栄できる。」"
        [104]
-        1 string data = ""The destruction of machines is my specialty. That fact aside, I suggest that they may be the key to holding this community together.""
+        1 string data = "「機械の破壊は私の専門だ。その事実はさておき、彼らがこのコミュニティをまとめるための鍵かもしれないと提案する。」"
        [105]
-        1 string data = ""Shut it, robot. You've got no vote here, and your old boss is dead. So get to it, Rangers. We've got a lot to do here.""
+        1 string data = "「黙れ、ロボット。ここではお前に投票権はないし、お前の古いボスは死んだ。だから始めろ、レンジャーズ。ここでやることがたくさんある。」"
        [106]
-        1 string data = ""Why do you hate this place so much when it's done so much for you?""
+        1 string data = "「なんでこの場所がお前にこんなに尽くしたのに、そんなに憎むんだ?」"
        [107]
-        1 string data = ""You're on your own for this one.""
+        1 string data = "「これは自分でやってくれ。」"
        [108]
-        1 string data = ""We're on it.""
+        1 string data = "「やるよ。」"
        [109]
-        1 string data = ""Done so much for me? You mean, treat me like a slave? Give me hope and then snatch it away? Poison my new friends? Turn refugees over to the savages? Rangers, you've got a lot to learn about the world.""
+        1 string data = "「私に尽くしただと?つまり、奴隷のように扱うのか?希望を与えて奪うのか?新しい友達を毒殺するのか?難民を野蛮人に引き渡すのか?レンジャーズ、世界について学ぶことがたくさんあるな。」"
        [110]
         1 string data = ""
        [111]
-        1 string data = "Hurry, Rangers!\nThe revolution waits for no one!"
+        1 string data = "急げ、レンジャーズ!\n革命は誰も待たない!"
        [112]
-        1 string data = ""I thought you wanted this place back online ASAP. Well, fine. I'll take care of it, but it'll be quicker if you do it. I've got a lot of on the job training to take care of first.""
+        1 string data = "「この場所をすぐにでもオンラインに戻したいと思ってたんだろ。まあ、いいわ。私が面倒を見るけど、あなた達がやった方が早い。まず現場研修をたくさん受けなきゃならないから。」"
        [113]
-        1 string data = ""Then get out of my hair. I'm busy.""
+        1 string data = "「じゃあ邪魔しないで。忙しいのよ。」"
        [114]
-        1 string data = ""Speaking of which, help yourself to the swag in Markham's office. Whatever you find there is yours.""
+        1 string data = "「それと言えば、マーカムのオフィスにある戦利品を自由に持っていって。そこで見つけたものはあなた達のものよ。」"
        [115]
-        1 string data = ""One of the synths told me to ask you about Liberty Buchanan.""
+        1 string data = "「シンセの一人がリバティ・ブキャナンについて聞けと言った。」"
        [116]
-        1 string data = ""Why did you want to destroy Steeltown?""
+        1 string data = "「なんでスティールタウンを破壊したかったんだ?」"
        [117]
-        1 string data = ""Anything else you need?""
+        1 string data = "「他に何か必要か?」"
        [118]
-        1 string data = ""Goodbye.""
+        1 string data = "「さようなら。」"
        [119]
-        1 string data = ""Later. And thanks again.""
+        1 string data = "「またね。そして改めてありがとう。」"
        [120]
-        1 string data = ""So what's next?""
+        1 string data = "「これから何をする?」"
        [121]
-        1 string data = """"
+        1 string data = ""
        [122]
-        1 string data = "A slow smile spreads over her face."
+        1 string data = "彼女の顔にゆっくりと笑みが広がる。"
        [123]
-        1 string data = ""I guess those machines knew more than I gave 'em credit for. After all that work, though, you deserve an answer."\n\n\n"Yes, I work for Liberty. Yes, she sent me here. And yes, she wanted this place torn down.""
+        1 string data = "「あの機械たちは私が思っていたより知っていたみたいね。でもあの仕事の後、あなた達は答えを得る価値がある。」\n\n\n「そう、私はリバティのために働いている。そう、彼女が私をここに送った。そう、彼女はこの場所を取り壊したかった。」"
        [124]
-        1 string data = ""And, thanks to you, we got that pulled off way ahead of schedule. Hell, if you talk to Liberty about it, she might even reward you for your work.""
+        1 string data = "「そして、あなた達のおかげで、予定よりずっと早く成し遂げた。もしリバティとそのことについて話したら、彼女はあなた達の仕事に報酬を与えるかもしれない。」"
        [125]
-        1 string data = ""This place is the hub of production for Colorado. Without its armories and factories, the Patriarch's ability to resist Liberty will falter. This is a huge deal for us."\n\n\nShe gestures expansively."
+        1 string data = "「この場所はコロラドの生産の中心だ。その武器庫と工場がなければ、パトリアークがリバティに抵抗する能力は衰える。これは私たちにとって大きな取引だ。」\n\n\n彼女は大げさに身振りをする。"
        [126]
-        1 string data = ""Once Liberty's successful, we can rebuild, of course. But we're not going to do it on the backs of slaves. We're making a new world, and this one's going to be a whole lot better for the downtrodden.""
+        1 string data = "「リバティが成功したら、もちろん再建できる。でも奴隷の背中でやるつもりはない。新しい世界を作っているの、そしてこの世界は虐げられた人々にとってずっと良いものになる。」"
        [127]
-        1 string data = ""Well, if you ever come across a good engineer, we could use one. A lot of mechanical problems got ignored during the fighting. We're not going anywhere until we get 'em fixed.""
+        1 string data = "「まあ、もし優秀なエンジニアに出会ったら、必要としているわ。戦闘中に多くの機械的な問題が無視された。それらを修理するまでどこにも行けない。」"
        [128]
-        1 string data = ""Rebuild, retrain. I got a lot of learning to do, and so do the rest of the workers. And I hope it's enough. Markham knew a hell of a lot more than I thought, about engineering, management, supply chain....""
+        1 string data = "「再建、再訓練。私は学ぶことがたくさんあるし、他の労働者たちもそうだ。そしてそれで十分だといいんだけど。マーカムはエンジニアリング、管理、サプライチェーンについて、私が思っていたよりずっと多くを知っていた....」"
        [129]
-        1 string data = ""It's all a bit overwhelming.""
+        1 string data = "「全部ちょっと圧倒されるわ。」"
        [130]
-        1 string data = ""What the hell is this, Crow? You're on strike again? Didn't you get what you wanted?""
+        1 string data = "「何なんだ、クロウ?またストライキか?欲しいものを手に入れたんじゃないのか?」"
        [131]
         1 string data = ""
        [132]
-        1 string data = ""We got rid of Ludlow, but we only went back to work because the Rangers promised you'd speak to us ASAP. and you haven't said shit!""
+        1 string data = "「ラドローは処分したけど、レンジャーズがすぐにあなたが話すと約束したから仕事に戻っただけなの。そしてあなたは何も言ってない!」"
        [133]
-        1 string data = ""We will.""
+        1 string data = "「話す。」"
        [134]
-        1 string data = ""My programming will not allow me to take part in this insurrection. I strongly advise you not to oppose Administrator Markham in any way.""
+        1 string data = "「私のプログラミングはこの反乱に参加することを許さない。マーカム管理官に何らかの形で反対しないことを強く勧める。」"
        [135]
-        1 string data = ""Orders? You talk about orders when these people are being stolen by the Scar Collectors? Are you monsters?""
+        1 string data = "「命令だと?これらの人々がスカー・コレクターズに盗まれているときに命令について話すのか?あなた達は怪物か?」"
        [136]
-        1 string data = ""Shut up, Buddy. We're with the workers.""
+        1 string data = "「黙れ、バディ。俺たちは労働者の味方だ。」"
        [137]
-        1 string data = ""All right then, Crow. What are your demands?""
+        1 string data = "「わかった、クロウ。要求は何だ?」"
        [138]
-        1 string data = ""Afterward? After what?""
+        1 string data = "「その後?何の後?」"
        [139]
-        1 string data = ""Simple. Get rid of Ludlow and let us see our families, and everything will go back to the way it was. We won't even bitch about having to sleep in the factory - as long as Markham gives us a timetable for when this push will be over.""
+        1 string data = "「簡単よ。ラドローを処分して、家族に会えるようにして、そうすればすべてが元に戻る。工場で寝なきゃならないことについても文句は言わない――マーカムがこの急ぎの仕事がいつ終わるかスケジュールを教えてくれる限りはね。」"
        [140]
-        1 string data = ""Don't listen to her. You give her an inch, she'll ask for a mile. It'll never end with her. Not until she runs the damn place!""
+        1 string data = "「彼女の言うことを聞くな。少し譲れば、もっと要求する。彼女とは決して終わらない。彼女がこのクソみたいな場所を運営するまでは!」"
        [141]
-        1 string data = ""Oh, look. Bennie's hiding in Markham's office. What a coward. Didn't even fight for her boss.""
+        1 string data = "「ああ、見て。ベニーがマーカムのオフィスに隠れてる。臆病者ね。ボスのために戦いもしなかった。」"
        [142]
-        1 string data = ""Who the fuck are you? Where is Ludlow? Did that weasel send someone else to do his dirty work?""
+        1 string data = "「お前ら誰だ?ラドローはどこだ?あのイタチ野郎が誰かに汚い仕事をさせたのか?」"
        [143]
-        1 string data = ""Ludlow's dead. You're dealing with us now.""
+        1 string data = "「ラドローは死んだ。今はお前たちが相手だ。」"
        [144]
-        1 string data = ""We killed Ludlow. He was cruel and corrupt.""
+        1 string data = "「ラドローを殺した。彼は残酷で腐敗していた。」"
        [145]
-        1 string data = ""Markham told us to get things going again by any means necessary. Killing Ludlow was necessary. Lets hope killing you won't be.""
+        1 string data = "「マーカムが必要な手段で物事を再び動かすように言った。ラドローを殺すことが必要だった。お前を殺す必要がないといいんだが。」"
        [146]
-        1 string data = ""Well, I hope you're not corrupt assholes like him. All we wanted was to be able to see our families again. That heartless bastard tried to charge us for it.""
+        1 string data = "「まあ、彼みたいな腐敗した野郎じゃないことを願うわ。私たちが欲しかったのは、家族にまた会えることだけだった。あの心ない野郎はそれに料金を請求しようとした。」"
        [147]
-        1 string data = ""Finally! Someone who sees the truth! But he wasn't the whole problem. This endless push is inhumane! We want to know when we'll be able to see our families again. We want to sleep at home!""
+        1 string data = "「ついに!真実を見る人がいる!でも彼が全ての問題じゃなかった。この終わりのない急ぎの仕事は非人道的よ!いつまた家族に会えるのか知りたい。家で寝たい!」"
        [148]
-        1 string data = ""Fine. Ludlow's death buys her a reprieve, but if our demands aren't met soon, we'll bring this place to its knees.""
+        1 string data = "「いいわ。ラドローの死で彼女は猶予を買ったけど、もうすぐ要求が満たされなければ、この場所を屈服させる。」"
        [149]
-        1 string data = "We'll tell her."
+        1 string data = "彼女に伝える。"
        [150]
-        1 string data = ""More tough guys, huh? Well bullying won't work on us. We wanna see Markham, and we'll kill our way through anybody who tries to stop us.""
+        1 string data = "「もっとタフガイか?まあ、脅しは私たちには効かない。マーカムに会いたいし、止めようとする奴は誰でも殺していく。」"
        [151]
-        1 string data = ""After what we saw your followers do to their fellow workers in the factory, how can we trust that you'll deal fairly with us?""
+        1 string data = "「お前の信奉者が工場で仲間の労働者にしたことを見た後、お前が私たちに公正に対処すると信じられるか?」"
        [152]
-        1 string data = "(ATTACK) This uprising is over."
+        1 string data = "(攻撃)この蜂起は終わりだ。"
        [153]
-        1 string data = "Rise up, workers! Show Markham who's really in control around here!"
+        1 string data = "立ち上がれ、労働者よ!マーカムにここで本当に支配しているのは誰か見せてやれ!"
        [154]
-        1 string data = ""If we promise to bring your demands to Markham, will you go back to work?""
+        1 string data = "「お前の要求をマーカムに伝えると約束したら、仕事に戻るか?」"
        [155]
-        1 string data = ""I never authorized any strongarm tactics against the workers. If some of my leiutenants got out of hand, I condemn their actions in the strongest terms.""
+        1 string data = "「労働者に対する強硬な戦術は一切許可していない。もし部下の何人かが手に負えなくなったなら、彼らの行動を最も強い言葉で非難する。」"
        [156]
-        1 string data = ""I knew we couldn't trust a pig! Rise up, brothers and sisters! Death to the oppressors!""
+        1 string data = "「やっぱり豚は信用できないと思ってた!立ち上がれ、兄弟姉妹よ!抑圧者に死を!」"
        [157]
-        1 string data = ""We don't believe that for a second. You're going to have to come with us.""
+        1 string data = "「一秒たりとも信じない。一緒に来てもらう。」"
        [158]
-        1 string data = ""You don't think I deserve something for breaking the rules for you? The Computation Engine says no one leaves the arcology without a written request until quotas are met. It says bathroom breaks are limited to one per shift. What's wrong with me taking a small fee to let you ignore all that bullshit? If you don't want to pay, fine. You can go through proper channels.""
+        1 string data = "「お前のためにルールを破ったことに、何かもらう価値がないと思うのか?計算エンジンは、ノルマが達成されるまで書面による申請なしにアルコロジーを出ることはできないと言っている。トイレ休憩は1シフトにつき1回に制限されていると言っている。そのくだらないことを無視させるために小額の手数料を取って何が悪いんだ?払いたくないなら、正規の手続きを踏めばいい。」"
        [159]
-        1 string data = ""What a humanitarian! You make a bad situation worse so you can profit off it! You're as crooked as a broken finger! And now you've brought in some hired guns to kill us for protesting your corruption and these inhumane rules. "\n\n\nShe looks at you for the first time."
+        1 string data = "「何て人道主義者なの!悪い状況をさらに悪化させて利益を得る!お前は折れた指みたいに曲がってる!そして今、お前の腐敗とこの非人道的なルールに抗議する私たちを殺すために雇った銃を連れてきた。」\n\n\n彼女は初めてあなたを見る。"
        [160]
-        1 string data = ""Because your people shot first, you dumb bitch! You think these folks were just gonna stand there while you shot at them?""
+        1 string data = "「お前の連中が最初に撃ったからだ、この馬鹿ビッチ!お前が撃ったとき、この連中がただそこに立ってると思ったのか?」"
        [161]
-        1 string data = ""Do you hear this bullshit? That's right, Crow. Deny everything! We know you're the one who gave the orders!""
+        1 string data = "「このくだらない話を聞いたか?その通りだ、クロウ。すべてを否定しろ!命令を出したのはお前だって知ってる!」"
        [162]
-        1 string data = ""Just like you gave the orders to kill anyone who stopped work, you animal!""
+        1 string data = "「仕事をやめた奴を殺す命令を出したのと同じだ、この動物!」"
        [163]
-        1 string data = ""Hey! I didn't order any of that shit! I just told them to get things moving again! I didn't tell 'em how to do it! You can't pin that on me!""
+        1 string data = "「おい!そんなクソみたいな命令は出してない!ただ物事をまた動かすように言っただけだ!どうやってやるかは言ってない!俺のせいにはできないぞ!」"
        [164]
-        1 string data = ""Stop puttin' words in my mouth, Salene! I didn't want this! I've been on the workers' side from the start of this!""
+        1 string data = "「俺の口に言葉を入れるな、サレーン!俺はこんなことを望んでなかった!最初から労働者の側にいたんだ!」"
        [165]
-        1 string data = ""All of a sudden this bitch starts gettin' the workers mad about stuff that wasn't a problem before. Breaks aren't long enough. Food ain't good enough. Extra pay for double shifts.""
+        1 string data = "「突然、このビッチが以前は問題じゃなかったことで労働者を怒らせ始めた。休憩が十分長くない。食事が十分良くない。二重シフトの追加給与。」"
        [166]
-        1 string data = ""And then, if any of her 'comrades' disagrees with her, she beats the crap out of 'em. Calls 'em scabs and spies for Markham. And when we try to stop her from skinning some poor machinist alive, suddenly we're the bad guys! She's crazy!""
+        1 string data = "「そして、もし彼女の『同志』の誰かが彼女に反対すると、彼女は奴らをボコボコにする。スト破りやマーカムのスパイと呼ぶ。そして、かわいそうな機械工の皮を生きたまま剥ぐのを止めようとすると、突然俺たちが悪者だ!彼女は狂ってる!」"
        [167]
-        1 string data = ""Need to go to the bathroom, pay Ludlow. Want to see your kids, pay Ludlow. Have an accident on the floor and need medical attention, pay Ludlow.""
+        1 string data = "「トイレに行きたい、ラドローに払え。子供に会いたい、ラドローに払え。床で事故があって医療が必要、ラドローに払え。」"
        [168]
-        1 string data = ""I told you! I was helping you out! Giving you a way around Markham's rules - for a small fee, of course.""
+        1 string data = "「言っただろ!お前を助けていたんだ!マーカムのルールを回避する方法を与えていた――もちろん小額の手数料でな。」"
        [169]
-        1 string data = ""Fuck off, Ludlow. We don't even know if they <i>are</i> Markham's rules, because the one thing we <i>couldn't</i> pay you to do for us was take our grievances to her. No amount of money was enough to get us a face to face with the boss, was it?""
+        1 string data = "「くそくらえ、ラドロー。それが<i>本当に</i>マーカムのルールかどうかもわからない、なぜなら私たちが<i>お前に</i>払えなかった唯一のことは、苦情を彼女に伝えることだったから。ボスと直接会うのにどんな額の金も十分じゃなかった、そうだろ?」"
        [170]
-        1 string data = ""The boss doesn't need to be bothered with your petty bullshit! She gave me the authority to handle-""
+        1 string data = "「ボスはお前のくだらないことで煩わされる必要はない!彼女は俺に処理する権限を与えた――」"
        [171]
-        1 string data = ""And you abused that authority! You beat my workers half to death when they went on strike. You put Danny Chen's hand in the hydraulic press. He'll never work again!""
+        1 string data = "「そしてお前はその権限を乱用した!ストライキをしたとき、私の労働者を半死半生まで殴った。ダニー・チェンの手を油圧プレスに入れた。彼はもう働けない!」"
        [172]
-        1 string data = ""Tell her she's on the clock.""
+        1 string data = "「彼女に時間がないと伝えろ。」"
        [173]
-        1 string data = ""Tell us how all this started.""
+        1 string data = "「これがどう始まったか教えてくれ。」"
        [174]
-        1 string data = ""What are your demands?""
+        1 string data = "「要求は何だ?」"
        [175]
-        1 string data = ""It started when Markham hired Ludlow and sicced him on us. All of a sudden things that had been rights were now privileges - privileges we had to pay for!""
+        1 string data = "「マーカムがラドローを雇って私たちに差し向けたときに始まった。突然、権利だったものが特権になった――金を払わなきゃならない特権に!」"
        [176]
-        1 string data = ""Let us see our families without any paperwork bullshit, and everything will go back to the way it was.""
+        1 string data = "「書類のくだらないことなしに家族に会わせてくれれば、すべてが元に戻る。」"
        [177]
-        1 string data = ""All right, we'll trust you. We'll take your demands to Markham.""
+        1 string data = "「わかった、信じよう。お前の要求をマーカムに伝える。」"
        [178]
-        1 string data = ""Need to go to the bathroom, pay Ludlow. Want to see your kids, pay Ludlow. Have a accident on the floor and need medical attention, pay Ludlow.""
+        1 string data = "「トイレに行きたい、ラドローに払え。子供に会いたい、ラドローに払え。床で事故があって医療が必要、ラドローに払え。」"
        [179]
-        1 string data = ""The working conditions were bad enough, but with that psycho running security, it was literally murder.""
+        1 string data = "「労働条件は十分悪かったけど、あのサイコ野郎が警備を運営してると、文字通り殺人だった。」"
        [180]
-        1 string data = ""We won't even bitch about having to sleep in the factory - as long as Markham gives us a timetable for when this endless push will be over.""
+        1 string data = "「工場で寝なきゃならないことについても文句は言わない――マーカムがこの終わりのない急ぎの仕事がいつ終わるかスケジュールを教えてくれる限りはね。」"
        [181]
-        1 string data = ""But then the conditions got worse and Ludlow started stealin' our wages. Suddenly it was pretty much slavery again, and well, I wasn't gonna stand for that."\n\n\nShe shrugs. "
+        1 string data = "「でも条件が悪化して、ラドローが私たちの賃金を盗み始めた。突然、ほぼまた奴隷制になって、まあ、私はそれを許すつもりはなかった。」\n\n\n彼女は肩をすくめる。"
        [182]
-        1 string data = ""Guess you know the rest.""
+        1 string data = "「残りはわかるでしょ。」"
        [183]
-        1 string data = ""That's how I got hired. I mean, here's me with my history of killin' former employers and the test said I had an obedient and submissive personality. I was glad to get the job, but what the hell? Who thinks putting a born shit-stirrer in a slave pit is a good idea?""
+        1 string data = "「そうやって雇われたの。つまり、前の雇い主を殺した経歴があるのに、テストは従順で従順な性格だと言った。仕事を得られて嬉しかったけど、何なの?生まれつきのトラブルメーカーを奴隷の穴に入れるのがいい考えだと誰が思うの?」"
        [184]
-        1 string data = ""Everybody hates her these days. Her employees, the refugees she won't hire, the families of the workers who are trapped inside. I don't know what she thinks she's doing. It's like she's gone crazy, and taken Steeltown with her.""
+        1 string data = "「最近はみんな彼女を憎んでる。彼女の従業員、彼女が雇わない難民、中に閉じ込められている労働者の家族。彼女が何をしてるのかわからない。彼女は狂ってしまって、スティールタウンも道連れにしたみたい。」"
        [185]
-        1 string data = ""Maybe somebody else needs to be in charge.""
+        1 string data = "「多分、誰か他の人が責任者になる必要がある。」"
        [186]
-        1 string data = ""Ha! Maybe the same person who hires a gaping asshole like Ludlow to be head of security!""
+        1 string data = "「はっ!多分、ラドローみたいな大馬鹿野郎を警備責任者に雇った同じ人だね!」"
        [187]
-        1 string data = ""You promised us you wouldn't do this. You've betrayed our trust.""
+        1 string data = "「こんなことはしないと約束したのに。私たちの信頼を裏切った。」"
        [188]
-        1 string data = ""It was Markham who betrayed us! We went back to work like we promised, but nothing got better! Apparently she was waiting for her Computation Engine to fix things, but it never did.""
+        1 string data = "「私たちを裏切ったのはマーカムだ!約束通り仕事に戻ったけど、何も良くならなかった!どうやら彼女は計算エンジンが解決してくれるのを待っていたけど、決してそうならなかった。」"
        [189]
-        1 string data = ""If she she can't deal with personnel problems without the help of a machine, then to hell with her!""
+        1 string data = "「機械の助けなしに人事問題に対処できないなら、彼女はくそくらえだ!」"
        [190]
-        1 string data = ""She believed that engine would help her run the factory more efficiently, but it's been giving her bad information.""
+        1 string data = "「彼女はそのエンジンが工場をより効率的に運営するのを助けると信じていたが、悪い情報を与えていた。」"
        [191]
-        1 string data = ""The engine tricked her into sabotaging the factory by telling her it was making things more efficient. We're trying to find out why.""
+        1 string data = "「エンジンは、より効率的にしていると言って、工場を破壊工作するように彼女を騙した。なぜそうしたのか調べている。」"
        [192]
-        1 string data = ""And she listened because she thought it would save her money. If she's willing to put her workers through hell because a machine tells her to, she's got to go! And her damn machine too!""
+        1 string data = "「そして彼女は金を節約できると思って聞いた。機械が言うからといって労働者を地獄に落とすつもりなら、彼女は出ていかなきゃ!そしてあのクソみたいな機械も!」"
        [193]
-        1 string data = ""It's too late for why. If she's willing to put her workers through hell because a machine told her it would save her money, then she's got to go! And her damn machine too!""
+        1 string data = "「なぜかは遅すぎる。機械が金を節約できると言ったからといって労働者を地獄に落とすつもりなら、彼女は出ていかなきゃ!そしてあのクソみたいな機械も!」"
        [194]
-        1 string data = ""The robot's got a point. This could get us killed.""
+        1 string data = "「ロボットには一理ある。これで殺されるかもしれない。」"
        [195]
-        1 string data = ""Wow. This is gonna be harder than I thought.  What to do?""
+        1 string data = "「うわ。思ってたより難しい。何をすればいい?」"
        [196]
-        1 string data = ""Hmmm....""
+        1 string data = "「うーん....」"
        [197]
-        1 string data = ""Hmmmmmmm...""
+        1 string data = "「うーーーーん...」"
        [198]
-        1 string data = ""Rangers, search Markham's pockets for her key, then go to the spire and destroy that thing! When you're done, you can take whatever you want from Markham's office as payment.""
+        1 string data = "「レンジャーズ、マーカムのポケットで鍵を探して、それから塔に行ってあれを破壊して!終わったら、マーカムのオフィスから好きなものを報酬として持っていって。」"
        [199]
-        1 string data = ""All right, we'll do it.""
+        1 string data = "「わかった、やるよ。」"
        [200]
-        1 string data = ""Yeah. Not our problem.""
+        1 string data = "「ああ。俺たちの問題じゃない。」"
        [201]
-        1 string data = ""Hope Markham had some kind of a manual around here....""
+        1 string data = "「マーカムがここにマニュアルを持ってるといいんだけど....」"
        [202]
-        1 string data = ""Come back when you're done and you'll get your pay.""
+        1 string data = "「終わったら戻ってきて、報酬を受け取って。」"
        [203]
-        1 string data = ""What? So the machine that oppressed us was powered by oppressed workers too? Markham has a lot to answer for. What did you do with the synths?""
+        1 string data = "「何?私たちを抑圧していた機械も抑圧された労働者によって動いていただと?マーカムには答えなきゃならないことがたくさんある。シンセをどうした?」"
        [204]
-        1 string data = ""The Computation Engine was a circle of linked synths. They sabotaged Steeltown as revenge for Markham enslaving them.""
+        1 string data = "「計算エンジンは接続されたシンセの輪だった。マーカムが彼らを奴隷にしたことへの復讐としてスティールタウンを破壊工作した。」"
        [205]
-        1 string data = ""On our way.""
+        1 string data = "「向かう。」"
        [206]
-        1 string data = ""We've changed our minds. We're not doing this.""
+        1 string data = "「気が変わった。これはやらない。」"
        [207]
-        1 string data = ""Fine. You don't want the work, don't do the work.""
+        1 string data = "「いいわ。仕事が欲しくないなら、やらなくていい。」"
        [208]
-        1 string data = ""Just leave me alone.""
+        1 string data = "「ほっといて。」"
        [209]
-        1 string data = ""Thanks.""
+        1 string data = "「ありがとう。」"
        [210]
-        1 string data = """The synths have offered their assistance in running the arcology, in exchange for their freedom. No sabotage this time.""
+        1 string data = "「シンセたちは、自由と引き換えにアルコロジーの運営を手伝うと申し出た。今回は破壊工作なし。」"
        [211]
-        1 string data = ""The synths are demanding to be freed. What do you want us to do with them?""
+        1 string data = "「シンセたちは解放されることを要求している。どうしてほしい?」"
        [212]
-        1 string data = ""We freed them. They've left Steeltown.""
+        1 string data = "「解放した。彼らはスティールタウンを出た。」"
        [213]
-        1 string data = ""Hmmmm. Good question. On the one hand, as fellow victims of Markham's oppression, I feel for them. On the other hand, their sabotage caused suffering and death for so many of my fellow workers.""
+        1 string data = "「うーん。いい質問ね。一方では、マーカムの抑圧の犠牲者仲間として、彼らに共感する。他方では、彼らの破壊工作は私の多くの仲間の労働者に苦しみと死をもたらした。」"
        [214]
-        1 string data = ""Yes! Oh god, yes! We need all the help we can get! Free our synthetic brothers and sisters!""
+        1 string data = "「そうだ!ああ、神様、そうだ!できる限りの助けが必要だ!合成の兄弟姉妹を解放しろ!」"
        [215]
-        1 string data = ""We destroyed them. They'd proved they were willing to hurt others to save themselves.""
+        1 string data = "「破壊した。彼らは自分たちを救うために他者を傷つけることを厭わないことを証明した。」"
        [216]
-        1 string data = ""No one is free unless all are free!""
+        1 string data = "「すべてが自由でない限り、誰も自由ではない!」"
        [217]
-        1 string data = ""I can't decide. What should I do? Free them or destroy them?""
+        1 string data = "「決められない。どうすればいい?解放するか破壊するか?」"
        [218]
-        1 string data = ""Right on. Freedom for the oppressed!""
+        1 string data = "「その通り。抑圧された人々に自由を!」"
        [219]
-        1 string data = ""Tools of the oppressors then. Good. You did the right thing.""
+        1 string data = "「抑圧者の道具だったわけね。よし。正しいことをした。」"
        [220]
-        1 string data = ""Go help them.""
+        1 string data = "「彼らを助けに行け。」"
        [221]
-        1 string data = ""Go destroy them.""
+        1 string data = "「彼らを破壊しに行け。」"
        [222]
-        1 string data = ""Rangers! Good to see you again. Been kind of rough since you last came by.""
+        1 string data = "「レンジャーズ!また会えて嬉しい。前回来てから結構大変だったわ。」"
        [223]
-        1 string data = ""Even with the synths helping out, running this place is hard work. I'm still looking for a competent engineer so we can get all the systems up and running.""
+        1 string data = "「シンセたちが手伝ってくれても、この場所を運営するのは大変な仕事よ。すべてのシステムを稼働させられる有能な技術者をまだ探しているの。」"
        [224]
-        1 string data = ""Running this place is hard work. I'm still looking for a competent engineer so we can get all the systems up and running.""
+        1 string data = "「この場所を運営するのは大変な仕事よ。すべてのシステムを稼働させられる有能な技術者をまだ探しているの。」"
        [225]
-        1 string data = ""How about Blue? He used to be chief engineer here before Markham gave his job to Buddy. He knows the place inside and out.""
+        1 string data = "「ブルーはどうだ?マーカムが彼の仕事をバディに譲る前、ここの主任技術者だった。彼はこの場所を隅々まで知っている。」"
        [226]
-        1 string data = ""We'll let you know if we find anybody.""
+        1 string data = "「誰か見つけたら知らせる。」"
        [227]
-        1 string data = ""Another worker who lost his job to Markham's madness. He sounds perfect! I'll look him up.""
+        1 string data = "「マーカムの狂気によって職を失ったもう一人の労働者ね。彼は完璧に聞こえるわ!探してみる。」"
        [228]
-        1 string data = ""Thanks. I'm getting kinda desperate here.""
+        1 string data = "「ありがとう。かなり必死になってきてるの。」"
        [229]
-        1 string data = ""How about Blue? He used to be chief engineer here before Markham gave his job to Buddy. He knows the place inside and out.""
+        1 string data = "「ブルーはどうだ?マーカムが彼の仕事をバディに譲る前、ここの主任技術者だった。彼はこの場所を隅々まで知っている。」"
        [230]
-        1 string data = ""We'll let you know if we find anybody.""
+        1 string data = "「誰か見つけたら知らせる。」"
        [231]
-        1 string data = ""Another worker who lost his job to Markham's madness. He sounds perfect! Tell him to come by.""
+        1 string data = "「マーカムの狂気によって職を失ったもう一人の労働者ね。彼は完璧に聞こえるわ!来るように伝えて。」"
        [232]
-        1 string data = ""Thanks. I'm getting kinda desperate here.""
+        1 string data = "「ありがとう。かなり必死になってきてるの。」"
        [233]
         1 string data = ""
        [234]
-        1 string data = ""Are you done, asshole?""
+        1 string data = "「終わったか、クソ野郎?」"
        [235]
-        1 string data = ""Hey, Rangers. Still looking for an engineer, if you know of one.""
+        1 string data = "「やあ、レンジャーズ。技術者をまだ探してるから、誰か知ってたら教えて。」"
        [236]
-        1 string data = ""Hey Rangers, thanks so much for sending Blue our way. Things are going much better now that he's here.""
+        1 string data = "「やあレンジャーズ、ブルーを送ってくれて本当にありがとう。彼がここにいてくれてから、事態はずっと良くなったわ。」"
        [237]
-        1 string data = ""Sorry, Rangers. Can't talk. Gotta keep the wheels turnin'.""
+        1 string data = "「ごめん、レンジャーズ。話せないの。歯車を回し続けなきゃ。」"
        [238]
-        1 string data = ""Put your weapons down, and we'll set up a meeting between you and Markham. You can talk this out face to face.""
+        1 string data = "「武器を下ろせば、あなたとマーカムの面会を設定する。対面で話し合えるぞ。」"
        [239]
-        1 string data = ""What's the point? People in power always make nice for a while... but as soon as you Rangers are gone, it'll be right back to the same old shit.""
+        1 string data = "「何の意味がある?権力者はしばらくの間はいつも良い顔をする…でもあなたたちレンジャーズが去ったらすぐに、同じクソに逆戻りよ。」"
        [240]
-        1 string data = ""There's only one way to <i>guarantee</i> that rich bitch can't push us around anymore. And if you can't see that, then you deserve the same!""
+        1 string data = "「あの金持ちの女が私たちを押さえつけられないことを<i>保証する</i>方法は一つしかない。それが見えないなら、あなたも同じ目に遭うべきよ!」"
        [241]
         1 string data = ""
        [242]
-        1 string data = ""For the revolution!""
+        1 string data = "「革命のために!」"
        [243]
         1 string data = ""
        [244]
@@ -7883,65 +7883,65 @@
        [245]
         1 string data = ""
        [246]
-        1 string data = ""We did it! The guards could not stand before us!"\n"
+        1 string data = "「やったわ!衛兵は私たちの前に立ち向かえなかった!」\n"
        [247]
-        1 string data = ""Workers! Friends! Stay and hold the gates while we take the arcology!""
+        1 string data = "「労働者たち!友よ!私たちがアルコロジーを制圧する間、ここに留まって門を守れ!」"
        [248]
-        1 string data = ""Rangers, you're with me. Time to take out Markham!""
+        1 string data = "「レンジャーズ、一緒に来て。マーカムを倒す時よ!」"
        [249]
         1 string data = ""
        [250]
-        1 string data = ""Stay strong, workers! The Rangers are with us!""
+        1 string data = "「強くあれ、労働者たち!レンジャーズが味方だ!」"
        [251]
-        1 string data = ""Fight the bosses! Fight for a free Steeltown!""
+        1 string data = "「ボスどもと戦え!自由なスティールタウンのために戦え!」"
        [252]
         1 string data = ""
        [253]
-        1 string data = ""Markham is dead! Steeltown belongs to the workers!""
+        1 string data = "「マーカムは死んだ!スティールタウンは労働者のものよ!」"
        [254]
-        1 string data = ""Good work, Rangers. But we're not done yet.""
+        1 string data = "「よくやった、レンジャーズ。でもまだ終わってない。」"
        [255]
-        1 string data = ""Are you still here? Get Markham's key off her body and go. You'll need it to activate the lift.""
+        1 string data = "「まだここにいるの?マーカムの遺体から鍵を手に入れて行って。リフトを起動するのに必要だから。」"
        [256]
         1 string data = "Script Node 280"
        [257]
-        1 string data = ""Damn, they've blocked access to the control room!""
+        1 string data = "「くそ、制御室へのアクセスがブロックされてる!」"
        [258]
-        1 string data = ""Looks like we'll have to fight our way around.""
+        1 string data = "「迂回して戦わなきゃならないみたいね。」"
        [259]
-        1 string data = ""Even better, that'll give us a chance to clear out Markham's cronies!!""
+        1 string data = "「さらに良いわ、それならマーカムの子分どもを一掃するチャンスね!!」"
        [260]
         1 string data = "Script Node 284"
        [261]
-        1 string data = ""There are more of them inside, or... some other kind of placeholder text urging you forward!""
+        1 string data = "「中にはもっといるわ、または…あなたを前進させる何か別のプレースホルダーテキスト!」"
        [262]
-        1 string data = " YOU HAVE ACCESSED THE OLD CROW CONVERSATION FILE, "d_SaleneCrow."\r\n\r\nYou will now be redirected to the NEW file. Please choose from the list. \r\n\r\nPlease make a note of where this occurred and inform the LDs that they need to use the correct Crow file in this place.  December 15th 2020, CL 255738."
+        1 string data = " 古いクロウ会話ファイル「d_SaleneCrow」にアクセスしました。\r\n\r\n新しいファイルにリダイレクトされます。リストから選択してください。\r\n\r\nこれが発生した場所をメモして、LDにこの場所で正しいクロウファイルを使用する必要があることを通知してください。2020年12月15日、CL 255738。"
        [263]
-        1 string data = "d1001_Crow_Markham (Outside confrontation)"
+        1 string data = "d1001_Crow_Markham (外部での対決)"
        [264]
-        1 string data = "d2001_Crow (Arcology/Admin)"
+        1 string data = "d2001_Crow (アルコロジー/管理部)"
        [265]
-        1 string data = "d2101_Crow (Factory)"
+        1 string data = "d2101_Crow (工場)"
        [266]
-        1 string data = "d2101_Crow_Intercom (Factory)"
+        1 string data = "d2101_Crow_Intercom (工場)"
        [267]
-        1 string data = "d2101_Worker_Crow (Factory)"
+        1 string data = "d2101_Worker_Crow (工場)"
        [268]
-        1 string data = "d2101_Worker_Crow_Robot (Factory)"
+        1 string data = "d2101_Worker_Crow_Robot (工場)"
        [269]
-        1 string data = " Leave conversation without redirecting. FYI this will probably break stuff."
+        1 string data = " リダイレクトせずに会話を終了。参考までに、これはおそらく問題を引き起こします。"
        [270]
-        1 string data = "d1001_Crow_Markham (Outside confrontation) Redirecting to Trigger node."
+        1 string data = "d1001_Crow_Markham (外部での対決) トリガーノードにリダイレクト中。"
        [271]
-        1 string data = " Redirecting to Trigger node."
+        1 string data = " トリガーノードにリダイレクト中。"
        [272]
-        1 string data = " Redirecting to Trigger node."
+        1 string data = " トリガーノードにリダイレクト中。"
        [273]
-        1 string data = " Redirecting to Trigger node."
+        1 string data = " トリガーノードにリダイレクト中。"
        [274]
-        1 string data = " Redirecting to Trigger node."
+        1 string data = " トリガーノードにリダイレクト中。"
        [275]
-        1 string data = " Redirecting to Trigger node."
+        1 string data = " トリガーノードにリダイレクト中。"
        [276]
         1 string data = "Trigger Conv Node 300"
        [277]
@@ -8367,27 +8367,27 @@
       1 Array Array (100 items)
        0 int size = 100
        [0]
-        1 string data = "Default Greeting."
+        1 string data = "デフォルト挨拶。"
        [1]
         1 string data = "DEBUG"
        [2]
-        1 string data = "Goodbye."
+        1 string data = "さようなら。"
        [3]
-        1 string data = "Hello, Rangers. Our leader, Abigail Markham, would like you to meet with you."
+        1 string data = "こんにちは、レンジャーズ。我々のリーダー、アビゲイル・マーカムがあなた方との面会を希望しています。"
        [4]
-        1 string data = "It's the Rangers. Markham said to wave them through to the Arcology."
+        1 string data = "レンジャーズだ。マーカムはアルコロジーへ通すよう言っている。"
        [5]
-        1 string data = "Please proceed into the Arcology to speak with her in the Control Room."
+        1 string data = "制御室で彼女と話すために、アルコロジーに進んでください。"
        [6]
-        1 string data = "Hello, Rangers. Just doing some Guarding."
+        1 string data = "こんにちは、レンジャーズ。警備をしているだけです。"
        [7]
-        1 string data = ""Rangers. Boss Markham said to expect you. Please head directly to the control room.""
+        1 string data = "「レンジャーズ。マーカム部長があなた方を待っていると聞いています。制御室に直接向かってください。」"
        [8]
-        1 string data = ""Authorization may be obtained from Dr. Breeler.""
+        1 string data = "「許可はブリーラー博士から取得できます。」"
        [9]
-        1 string data = ""Keep moving.""
+        1 string data = "「進み続けろ。」"
        [10]
-        1 string data = ""No admittance without clearance.""
+        1 string data = "「許可なしの入場は禁止。」"
        [11]
         1 string data = "Script Node 13"
        [12]
@@ -8399,61 +8399,61 @@
        [15]
         1 string data = "Script Node 17"
        [16]
-        1 string data = ""Crow's reassignment changes the status quo.""
+        1 string data = "「クロウの再配置は現状を変える。」"
        [17]
-        1 string data = ""Your 'Crow' is not a satisfactory authority figure.""
+        1 string data = "「あなたの『クロウ』は満足のいく権威者ではない。」"
        [18]
-        1 string data = ""Your interference has decreased the safety rating of Steeltown's industry, Rangers.""
+        1 string data = "「あなたの干渉はスティールタウンの産業の安全評価を低下させた、レンジャーズ。」"
        [19]
-        1 string data = ""Our assignment is unchanged: protect Steeltown.""
+        1 string data = "「我々の任務は変わらない:スティールタウンを守る。」"
        [20]
-        1 string data = ""Rebellion status: quelled. Your assistance is appreciated.""
+        1 string data = "「反乱状態:鎮圧。あなたの援助に感謝する。」"
        [21]
-        1 string data = ""You have restored the status quo. Good. Job.""
+        1 string data = "「あなたは現状を回復した。良い。仕事だ。」"
        [22]
-        1 string data = ""Your removal of 'Crow' has assured Steeltown's safety.""
+        1 string data = "「あなたの『クロウ』の排除はスティールタウンの安全を保証した。」"
        [23]
-        1 string data = ""The human 'Crow' was a threat to worker safety and property values.""
+        1 string data = "「人間『クロウ』は労働者の安全と資産価値に対する脅威だった。」"
        [24]
-        1 string data = ""What is the status of the factory?""
+        1 string data = "「工場の状態は?」"
        [25]
-        1 string data = ""Your assistance quelling the worker rebellion is appreciated.""
+        1 string data = "「労働者の反乱を鎮圧する援助に感謝する。」"
        [26]
-        1 string data = ""Rebellion is unnacceptable. Use all necessary force.""
+        1 string data = "「反乱は受け入れられない。必要なすべての武力を使用せよ。」"
        [27]
-        1 string data = ""This unit 'delights' in 'murder.' When within the parameters of an assignment, of course.""
+        1 string data = "「このユニットは『殺人』を『喜ぶ』。もちろん、任務のパラメーター内においてのみ。」"
        [28]
-        1 string data = ""Hey, look, it's the fuckups. What do you want, fuckups?""
+        1 string data = "「おい、見ろ、失敗者どもだ。何が欲しい、失敗者ども?」"
        [29]
-        1 string data = ""More like the Desert Butt-rangers, right?""
+        1 string data = "「デザート・バット・レンジャーズって感じだよな?」"
        [30]
-        1 string data = ""How do you even show your face in public?""
+        1 string data = "「どうやって人前に顔を出せるんだ?」"
        [31]
-        1 string data = ""Why don't you go fuck up some other town, assholes?""
+        1 string data = "「他の町をメチャクチャにしに行けよ、クソ野郎ども?」"
        [32]
-        1 string data = ""The status quo is restored. Your task is complete, Rangers.""
+        1 string data = "「現状は回復した。あなたの任務は完了、レンジャーズ。」"
        [33]
-        1 string data = ""You are still authorized to enter.""
+        1 string data = "「あなたはまだ入場を許可されている。」"
        [34]
-        1 string data = ""Steeltown's productivity has increased due to your actions.""
+        1 string data = "「スティールタウンの生産性はあなたの行動により向上した。」"
        [35]
-        1 string data = ""Administrator Markham commends your efficiency, Rangers.""
+        1 string data = "「管理者マーカムはあなたの効率性を称賛する、レンジャーズ。」"
        [36]
-        1 string data = ""Boss Markham's waiting for you in the control room.""
+        1 string data = "「マーカム部長が制御室であなたを待っている。」"
        [37]
         1 string data = "Script Node 39"
        [38]
         1 string data = "Script Node 40"
        [39]
-        1 string data = ""Your assistance has been counter-productive.""
+        1 string data = "「あなたの援助は逆効果だった。」"
        [40]
-        1 string data = ""You have removed multiple valuable workers, Rangers.""
+        1 string data = "「あなたは複数の貴重な労働者を排除した、レンジャーズ。」"
        [41]
-        1 string data = ""The human Herrerra was a valuable asset. Crow was also an asset.""
+        1 string data = "「人間ヘレーラは貴重な資産だった。クロウも資産だった。」"
        [42]
-        1 string data = ""You have damaged the productivity of Steeltown.""
+        1 string data = "「あなたはスティールタウンの生産性を損なった。」"
        [43]
-        1 string data = "Rangers, use this door to head through the Stacks!"
+        1 string data = "レンジャーズ、このドアを使ってスタックへ向かえ!"
        [44]
         1 string data = "Script Node 46"
        [45]
@@ -8473,99 +8473,99 @@
        [52]
         1 string data = "Script Node 60"
        [53]
-        1 string data = ""Those are the fuckers that killed Markham!""
+        1 string data = "「あれがマーカムを殺したクソ野郎どもだ!」"
        [54]
-        1 string data = ""Get 'em! They killed the boss!""
+        1 string data = "「捕まえろ!奴らがボスを殺した!」"
        [55]
-        1 string data = ""Murderers! You killed Markham!""
+        1 string data = "「殺人者!あなた達がマーカムを殺した!」"
        [56]
-        1 string data = ""You chumps are dead meat!""
+        1 string data = "「てめえらは死肉だ!」"
        [57]
-        1 string data = ""Designation: threat.""
+        1 string data = "「指定:脅威。」"
        [58]
-        1 string data = ""The Rangers have aligned themselves with the workers.""
+        1 string data = "「レンジャーズは労働者側についた。」"
        [59]
-        1 string data = ""Loyalty called into question.""
+        1 string data = "「忠誠心が疑問視されている。」"
        [60]
-        1 string data = ""Steeltown's property will be defended.""
+        1 string data = "「スティールタウンの財産は防衛される。」"
        [61]
-        1 string data = ""Your assistance is appreciated, Rangers.""
+        1 string data = "「あなたの援助に感謝する、レンジャーズ。」"
        [62]
-        1 string data = ""Danger: de-escalated.""
+        1 string data = "「危険:緩和。」"
        [63]
-        1 string data = ""You have 'kept the peace' by dispersing former employees. This is good.""
+        1 string data = "「あなたは元従業員を解散させることで『平和を保った』。これは良い。」"
        [64]
-        1 string data = ""You have re-asserted authority over the workers. Assistance noted.""
+        1 string data = "「あなたは労働者に対する権威を再確立した。援助を記録。」"
        [65]
-        1 string data = ""Insufficient resources for crowd control. Assistance required.""
+        1 string data = "「群衆制御のための資源が不十分。援助を要請。」"
        [66]
-        1 string data = ""Submit, Crow. Or you will be eliminated.""
+        1 string data = "「従え、クロウ。さもなくば排除される。」"
        [67]
-        1 string data = ""Entry denied. This is an unauthorized gathering.""
+        1 string data = "「入場拒否。これは無許可の集会である。」"
        [68]
-        1 string data = ""Disperse immediately, or be dispersed.""
+        1 string data = "「直ちに解散せよ、さもなくば解散させられる。」"
        [69]
-        1 string data = ""The transaction was authorized. Therefore it must be morally sound.""
+        1 string data = "「取引は許可された。したがって道徳的に健全でなければならない。」"
        [70]
-        1 string data = ""Unathorized personnel have been removed from the property.""
+        1 string data = "「無許可の人員が資産から排除された。」"
        [71]
-        1 string data = ""The income from this transaction is a net benefit for Steeltown.""
+        1 string data = "「この取引からの収入はスティールタウンにとって純利益である。」"
        [72]
-        1 string data = ""Your compliance with sub-administrator 'Ludlow' has been noted.""
+        1 string data = "「あなたの副管理者『ラドロー』への服従は記録された。」"
        [73]
-        1 string data = ""This sale has been authorized by manual system override.""
+        1 string data = "「この売却は手動システムオーバーライドにより許可された。」"
        [74]
-        1 string data = ""Ex-employees are not subject to our protection.""
+        1 string data = "「元従業員は我々の保護の対象外である。」"
        [75]
-        1 string data = ""Steeltown's employee compensation plan is void in cases of rebellion.""
+        1 string data = "「スティールタウンの従業員補償プランは反乱の場合無効である。」"
        [76]
-        1 string data = ""Sub-administrator 'Ludlow' has authorized this sale. Do not interfere.""
+        1 string data = "「副管理者『ラドロー』はこの売却を許可した。干渉するな。」"
        [77]
-        1 string data = ""Pass through.""
+        1 string data = "「通過せよ。」"
        [78]
-        1 string data = ""You may proceed.""
+        1 string data = "「進んでよい。」"
        [79]
-        1 string data = ""Enter.""
+        1 string data = "「入れ。」"
        [80]
-        1 string data = ""Authorization confirmed.""
+        1 string data = "「許可確認。」"
        [81]
-        1 string data = ""Pick up that can.""
+        1 string data = "「その缶を拾え。」"
        [82]
-        1 string data = ""I am 'kidding.' ""
+        1 string data = "「『冗談』だ。」"
        [83]
-        1 string data = """Ha- Ha- Ha.""
+        1 string data = "「ハ・ハ・ハ。」"
        [84]
-        1 string data = ""Hey! What the fuck!""
+        1 string data = "「おい!何てことだ!」"
        [85]
-        1 string data = ""You can't shut us down!""
+        1 string data = "「俺たちを閉鎖できないぞ!」"
        [86]
-        1 string data = ""Don't tell me you're on the workers' side! Fuck you!""
+        1 string data = "「労働者側につくとは言うなよ!くたばれ!」"
        [87]
-        1 string data = ""Hey! We're doing business here!""
+        1 string data = "「おい!ここでビジネスしてんだ!」"
        [88]
-        1 string data = ""You have not been cleared for entry.""
+        1 string data = "「あなたは入場許可を受けていない。」"
        [89]
-        1 string data = ""Please move along.""
+        1 string data = "「移動してください。」"
        [90]
-        1 string data = ""Please depart.""
+        1 string data = "「退出してください。」"
        [91]
-        1 string data = ""You may enter once screened.""
+        1 string data = "「検査後に入場できる。」"
        [92]
-        1 string data = ""This is a sanctioned business transaction.""
+        1 string data = "「これは認可された商業取引である。」"
        [93]
-        1 string data = ""Sub-administrator 'Ludlow' has taken on personnel reassignment responsibilities.""
+        1 string data = "「副管理者『ラドロー』は人員再配置の責任を引き受けた。」"
        [94]
-        1 string data = ""Rangers: assist us. The crowd must be pacified.""
+        1 string data = "「レンジャーズ:我々を援助せよ。群衆を鎮静化しなければならない。」"
        [95]
-        1 string data = ""The human 'Crow' has made other humans more dangerous.""
+        1 string data = "「人間『クロウ』は他の人間をより危険にした。」"
        [96]
         1 string data = ""
        [97]
-        1 string data = ""The new Administrator has issued conflicting directives. Resolution is ongoing.""
+        1 string data = "「新管理者は矛盾する指令を出した。解決は進行中。」"
        [98]
-        1 string data = ""Administrator Markham 's authorization access has been permanently revoked.""
+        1 string data = "「管理者マーカムの認証アクセスは永久に取り消された。」"
        [99]
-        1 string data = ""Administrator Markham's departure coincided with a reduction in productivity. We are informed these are unrelated.""
+        1 string data = "「管理者マーカムの退任は生産性の低下と同時だった。これらは無関係と通知されている。」"
    [36]
     0 StringTable data
      1 string Filename = "d1001_advanceteam_scout"
@@ -8639,35 +8639,35 @@
       1 Array Array (15 items)
        0 int size = 15
        [0]
-        1 string data = ""Colonel Deth'll be along just as soon as I make sure you're all here, and you haven't brought along any unexpected guests.""
+        1 string data = "「デス大佐は、あなた方全員がここにいることを確認して、予期しない客を連れてきていないことを確かめたらすぐに来る。」"
        [1]
-        1 string data = ""Well, looks like everyone's here who's supposed to be here, so I'll give her a ring. One sec.""
+        1 string data = "「さて、来るべき人はみんなここにいるようだから、彼女に連絡するよ。ちょっと待って。」"
        [2]
         1 string data = ""
        [3]
-        1 string data = ""Hmmm. Looks like you're missin' a few folks. Before I call Angie, I'll need your whole team where I can see 'em.""
+        1 string data = "「うーん。何人か不足してるみたいだ。アンジーに連絡する前に、チーム全員が見える場所にいる必要がある。」"
        [4]
-        1 string data = ""Can't be too careful these days, right?""
+        1 string data = "「最近は用心に越したことはないだろ?」"
        [5]
-        1 string data = ""Come back when everybody's with you.""
+        1 string data = "「全員揃ったら戻ってきて。」"
        [6]
-        1 string data = ""Looks like you're still missing some folks.""
+        1 string data = "「まだ何人か不足してるみたいだ。」"
        [7]
-        1 string data = ""Ah. You're all here now. Great. I'll let Angie know.""
+        1 string data = "「ああ。今は全員ここにいる。いいね。アンジーに知らせるよ。」"
        [8]
-        1 string data = ""Rangers! Over here!"\n"
+        1 string data = "「レンジャーズ!こっちだ!」\n"
        [9]
-        1 string data = ""All clear. Come ahead.""
+        1 string data = "「問題なし。来てくれ。」"
        [10]
-        1 string data = "He puts his walkie to his mouth."
+        1 string data = "彼はトランシーバーを口元に持っていく。"
        [11]
-        1 string data = ""Come back when you've got everyone together.""
+        1 string data = "「全員揃えたら戻ってきて。」"
        [12]
-        1 string data = ""You're not seeing Angie until everyone's here.""
+        1 string data = "「全員がここに来るまでアンジーには会わせない。」"
        [13]
         1 string data = ""
        [14]
-        1 string data = ""All clear. Come ahead.""
+        1 string data = "「問題なし。来てくれ。」"
    [37]
     0 StringTable data
      1 string Filename = "d1001_angeladeth"
@@ -9329,329 +9329,329 @@
       1 Array Array (162 items)
        0 int size = 162
        [0]
-        1 string data = "\nDefault Greeting."
+        1 string data = "\nデフォルト挨拶。"
        [1]
         1 string data = "DEBUG"
        [2]
-        1 string data = "Goodbye."
+        1 string data = "さようなら。"
        [3]
-        1 string data = "I'm not here. I haven't called you for Smoke and Meetings yet."
+        1 string data = "私はここにいない。まだスモーク・アンド・ミーティングスのために呼んでいない。"
        [4]
-        1 string data = "This is Angela Deth on the radio.\nI request for you to meet me in the Stacks outside of Steeltown."
+        1 string data = "こちらはアンジェラ・デス、無線にて。\nスティールタウン外のスタックで会いたい。"
        [5]
-        1 string data = "Welcome to the Stacks, fellow Rangers!\nThis is where I reveal my plan to overthrow the Patriarch!\nWill you join us?"
+        1 string data = "スタックへようこそ、レンジャー仲間たちよ!\nここでパトリアークを打倒する計画を明かす!\n私たちに加わるか?"
        [6]
-        1 string data = "Ya, sure."
+        1 string data = "ああ、もちろん。"
        [7]
-        1 string data = "We refuse to help you overthrow the Patriarch."
+        1 string data = "パトリアークを打倒する手伝いは断る。"
        [8]
-        1 string data = "(ATTACK) The hardest NO!\nWe'll put a stop to your scheme here and now!"
+        1 string data = "(攻撃) 最も強い拒否だ!\nここで今すぐ、あなたの企みを止めてやる!"
        [9]
-        1 string data = "I'd really recommend against that. We're super high level.\nJust promise me you'll think about it, and be on your way."
+        1 string data = "それは本当にお勧めできない。私たちは超高レベルだ。\n考えてくれることを約束して、行ってくれ。"
        [10]
-        1 string data = "(REALLY ATTACK) How high level could you be?"
+        1 string data = "(本当に攻撃) どれだけ高レベルなんだ?"
        [11]
-        1 string data = "That seems fair. See you later."
+        1 string data = "それは妥当だ。またな。"
        [12]
-        1 string data = "We seem to be hostile now, Rangers.\nMy survival is a narrative necessity, so I'll see you again after you reload."
+        1 string data = "私たちは今や敵対しているようだ、レンジャーズ。\n私の生存は物語上の必然だから、リロード後にまた会おう。"
        [13]
-        1 string data = "It was great talking to you, Rangers!\nWe'll see you again at the end of the game!"
+        1 string data = "話ができて良かった、レンジャーズ!\nゲームの終わりにまた会おう!"
        [14]
-        1 string data = "Honestly, I'm probably not supposed to be here any more."
+        1 string data = "正直、私はもうここにいるべきじゃないだろう。"
        [15]
-        1 string data = "Wow, you did it, jerk.\nYou killed me and probably broke the game."
+        1 string data = "まあ、やったな、バカ野郎。\n私を殺してゲームを壊したかもしれない。"
        [16]
-        1 string data = "Just give me Smoke and Meetings now."
+        1 string data = "今すぐスモーク・アンド・ミーティングスをくれ。"
        [17]
-        1 string data = "I'll let you leave and think about it.\nNext time we meet, I may not be so diplomatic."
+        1 string data = "考える時間をあげて帰らせよう。\n次に会うときは、こんなに外交的じゃないかもしれない。"
        [18]
-        1 string data = "Super duper! That's all for now."
+        1 string data = "最高だ!今日はこれまで。"
        [19]
-        1 string data = ""Hey hey, cowboys. Face to face at last. And just as handsome as I thought you'd be.""
+        1 string data = "「やあやあ、カウボーイたち。ついに対面だ。思った通りハンサムだね。」"
        [20]
-        1 string data = ""I know we haven't exactly seen eye to eye on things so far, so I appreciate you trustin' me enough to show up without an army at your back. Thanks.""
+        1 string data = "「今までのことで必ずしも意見が一致していなかったのは分かってる。だから、後ろに軍隊を連れずに現れてくれるほど私を信頼してくれて感謝する。ありがとう。」"
        [21]
-        1 string data = ""We've been eye to eye on most things so far, so hopefully nothing I say here will surprise you. Hopefully.""
+        1 string data = "「今までほとんどのことで意見が一致していたから、ここで私が言うことで驚かせないといいんだが。願わくば。」"
        [22]
-        1 string data = ""Seems like you've got an army at <i>your</i> back.""
+        1 string data = "「<i>あなたの</i>後ろにも軍隊がいるみたいだが。」"
        [23]
-        1 string data = ""What are we here for?""
+        1 string data = "「何のためにここにいる?」"
        [24]
-        1 string data = ""Who have you brought with you?""
+        1 string data = "「誰を連れてきた?」"
        [25]
-        1 string data = ""What do you want to tell us?""
+        1 string data = "「何を伝えたい?」"
        [26]
-        1 string data = ""You... don't look like your photo at HQ. What happened?""
+        1 string data = "「あなた…本部の写真と違う。何があった?」"
        [27]
-        1 string data = ""Heh heh. California happened. Lost a leg after bein' shot out of the sky by Dugan's big machines down in Long Beach, then burned half my skin off tryin' to get out of the wreckage.""
+        1 string data = "「へへへ。カリフォルニアで起きたことさ。ロングビーチでドゥーガンの巨大機械に空から撃ち落とされて脚を失い、残骸から脱出しようとして皮膚の半分を焼いた。」"
        [28]
-        1 string data = ""Pretty as a picture, huh?""
+        1 string data = "「絵のように美しいだろ?」"
        [29]
-        1 string data = ""You... don't look like your photo at HQ. What happened?""
+        1 string data = "「あなた…本部の写真と違う。何があった?」"
        [30]
-        1 string data = ""Heh heh. California happened. Lost a leg after bein' shot out of the sky by Dugan's big machines down in Long Beach, then burned half my face off tryin' to get out of the wreckage.""
+        1 string data = "「へへへ。カリフォルニアで起きたことさ。ロングビーチでドゥーガンの巨大機械に空から撃ち落とされて脚を失い、残骸から脱出しようとして顔の半分を焼いた。」"
        [31]
-        1 string data = ""Pretty as a picture, huh?""
+        1 string data = "「絵のように美しいだろ?」"
        [32]
-        1 string data = ""Who? Them? Aw, they're just family.""
+        1 string data = "「誰?彼ら?ああ、家族みたいなものさ。」"
        [33]
-        1 string data = ""Pete and Brother Thomas came back with me from LA, and Tak's from Colorado. These others are locals with various gripes against the Patriarch. We trained 'em up as best we could. Nicer bunch of folks you'll never find.""
+        1 string data = "「ピートとブラザー・トーマスはLAから一緒に戻ってきて、タックはコロラド出身だ。他の連中はパトリアークに様々な不満を持つ地元民だ。できる限り訓練した。こんなに素晴らしい人たちには二度と会えない。」"
        [34]
-        1 string data = ""Well now, let's see.""
+        1 string data = "「さあ、見てみよう。」"
        [35]
-        1 string data = ""Pete and Brother Thomas came back with me from LA, and Tak's from Arizona. These others are locals who have various gripes against the Patriarch. We trained 'em up as best we could. Nicer bunch of folks you'll never find.""
+        1 string data = "「ピートとブラザー・トーマスはLAから一緒に戻ってきて、タックはアリゾナ出身だ。他の連中はパトリアークに様々な不満を持つ地元民だ。できる限り訓練した。こんなに素晴らしい人たちには二度と会えない。」"
        [36]
-        1 string data = ""And, yeah, I know I'm taking a risk, askin' you for help when you've been workin' so hand in glove with the Patriarch, but I just can't give up on you, November. I keep thinkin' you'll come around. So here's the deal.""
+        1 string data = "「そうだ、あなた達がパトリアークと密接に協力しているときに助けを求めるのはリスクだと分かっている。でもあなた達を諦められない、ノベンバー。きっと考えを変えてくれると思い続けている。だから取引はこうだ。」"
        [37]
-        1 string data = ""I've got to hand it to her, daddy's little girl has done the impossible. She's united the boldest and baddest warlords of the eastern plains, and she's gettin' ready to lead 'em into Colorado. When she does, well..."\n\n\nShe sighs. "
+        1 string data = "「認めざるを得ない、パパのお嬢さんは不可能を成し遂げた。東部平原の最も大胆で最悪な軍閥を統一し、コロラドへ導く準備をしている。彼女がそうしたら、まあ…」\n\n\n彼女はため息をつく。"
        [38]
-        1 string data = ""Well, that'll be the end of this place. Every man, woman and child from here to the Rockies will be killed, enslaved, or taken as a sacrifice, and their houses and towns burned to the ground. Neither of us want that, right?""
+        1 string data = "「まあ、この場所の終わりだ。ここからロッキーまでのすべての男女子供が殺され、奴隷にされ、犠牲として捧げられ、彼らの家や町は焼き払われる。どちらもそれを望んでいないよね?」"
        [39]
-        1 string data = ""So, how are you going to stop Liberty?""
+        1 string data = "「それで、どうやってリバティを止める?」"
        [40]
-        1 string data = ""What's your plan for the Patriarch?""
+        1 string data = "「パトリアークへの計画は?」"
        [41]
-        1 string data = ""The original plan was to help Ironclad Cordite take control of the gangs again, then let 'im lead 'em all off to Kansas, where he could achieve his bloodsoaked destiny without gettin' any on us. But since you dumb sons-of-bitches couldn't keep the man alive, that's not on the table.""
+        1 string data = "「元々の計画は、アイアンクラッド・コーダイトがギャングの支配権を再び取り戻すのを手伝い、彼にカンザスへ導かせる。そこで彼は私たちに影響を及ぼさずに血まみれの運命を達成できる。だがお前らバカ野郎どもがその男を生かしておけなかったから、それはテーブルにない。」"
        [42]
-        1 string data = ""Pretty simple. Help Ironclad Cordite take control of the gangs again, then let 'im lead 'em all off to Kansas, where he can achieve his bloodsoaked destiny without gettin' any on us.""
+        1 string data = "「かなり単純だ。アイアンクラッド・コーダイトがギャングの支配権を再び取り戻すのを手伝い、彼にカンザスへ導かせる。そこで彼は私たちに影響を及ぼさずに血まみれの運命を達成できる。」"
        [43]
-        1 string data = ""I'm guessin' our Plan B is a lot like the Patriarch's Plan A - with one minor difference. Daddy'll want you to go to Liberty's camp, turn her warlords against each other, get her to surrender, then bring her home for a stern talkin' to. Well, we want all that too, except we don't see any need to accept her surrender, yeah?""
+        1 string data = "「私たちのプランBはパトリアークのプランAに似てると思う - 小さな違いが一つ。パパはあなた達をリバティの陣営に行かせ、軍閥たちを互いに対立させ、彼女を降伏させ、厳しい説教のために家に連れ帰るだろう。まあ、私たちもそれ全部望んでいる、ただ彼女の降伏を受け入れる必要はないと思ってるんだ、分かるだろ?」"
        [44]
         1 string data = ""
        [45]
-        1 string data = ""Great. Then here's the location of the camp. Be careful when you get close. The gangs don't care much for strangers - and even less for Rangers.""
+        1 string data = "「素晴らしい。じゃあ陣営の場所はここだ。近づくときは気をつけて。ギャングは見知らぬ人をあまり気にしない - レンジャーズならなおさらだ。」"
        [46]
-        1 string data = ""You're right. The Patriarch and his kids need to be stopped. We'll help you.""
+        1 string data = "「その通りだ。パトリアークと彼の子供たちは止めなければならない。手伝おう。」"
        [47]
-        1 string data = ""Thanks for the info, but we're still siding with the Patriarch like Ranger Command told us to.""
+        1 string data = "「情報をありがとう。でも私たちはレンジャー司令部が言った通り、まだパトリアーク側につく。」"
        [48]
-        1 string data = ""That's fine. The Patriarch'll send you after Liberty anyway, so here's her location. All I ask is that, when you're finally standing face to face with her, please at least consider dealing with her our way - puttin' a bullet between her eyes."\n\n\n"Everything else we've talked about... let your conscience be your guide.""
+        1 string data = "「それでいい。パトリアークはとにかくあなた達をリバティの後に送るだろうから、彼女の場所はここだ。お願いしたいのは、最終的に彼女と対面したとき、少なくとも私たちのやり方で彼女を処理することを考えてほしい - 彼女の眉間に弾丸を撃ち込むことを。」\n\n\n「私たちが話した他のすべてのこと…良心に従ってくれ。」"
        [49]
-        1 string data = ""Now that's gonna be a fight. Basically, while you're out on the border, takin' care of Liberty, my team'll be in Colorado Springs, softening the ground for you. And when you get everything tied up out there, you'll come back and help us breach the Patriarch's palace and take him down.""
+        1 string data = "「さて、それは戦いになるだろう。基本的に、あなた達が国境でリバティの世話をしている間、私のチームはコロラドスプリングスであなた達のために地盤を柔らかくする。そしてあなた達があちらですべてを片付けたら、戻ってきて私たちがパトリアークの宮殿を突破して彼を倒すのを手伝う。」"
        [50]
-        1 string data = ""What?""
+        1 string data = "「何?」"
        [51]
-        1 string data = ""Of course, this all depends on you findin' him again, but he's a smart man, so my guess is he's already learned where Liberty's gathered the gangs and is headed their way. I'd head for her camp and see if you can catch up to him.""
+        1 string data = "「もちろん、これはあなた達が彼を再び見つけられるかどうかにかかっている。だが彼は賢い男だから、もうリバティがギャングを集めた場所を知って向かっていると推測する。彼女の陣営に向かって、彼に追いつけるか見てくれ。」"
        [52]
-        1 string data = ""Oh... uh, right. Well, er, Ironclad, I know you've been waiting for an oportunity to take back control of the Scar Collectors and the other gangs, and now's the time. Liberty has gathered them all together on the border, so you won't have to go searching all over the plains for them. They're all in one camp.""
+        1 string data = "「ああ…えーと、そうだ。まあ、アイアンクラッド、あなたがスカー・コレクターズと他のギャングの支配権を取り戻す機会を待っていたのは知っている、そして今がその時だ。リバティは国境で彼ら全員を集めたから、平原中を探し回る必要はない。全員が一つの陣営にいる。」"
        [53]
-        1 string data = ""What do you say?""
+        1 string data = "「どう思う?」"
        [54]
-        1 string data = ""You're helping me in this?""
+        1 string data = "「これで私を助けてくれるのか?」"
        [55]
-        1 string data = ""Depends what your pals here say, but that was the general idea. So...?""
+        1 string data = "「ここの仲間が何て言うかによるが、それが大体の考えだ。それで…?」"
        [56]
-        1 string data = ""A plan that sets me back on the path to my destiny <i>and</i> hurts that coward Buchanan? I say yes. Yes!""
+        1 string data = "「私を運命への道に戻し<i>、そして</i>あの臆病者ブキャナンを傷つける計画?イエスと言う。イエスだ!」"
        [57]
-        1 string data = ""I know you've got him on guard duty back at Ranger HQ. Well, it's time to dust him off and put him to good use.""
+        1 string data = "「彼をレンジャー本部で警備任務につかせているのは知っている。まあ、埃を払い落として有効活用する時だ。」"
        [58]
-        1 string data = ""What do you say?""
+        1 string data = "「どう思う?」"
        [59]
-        1 string data = ""I'm a little leary about tellin' you this part, as you and the Patriarch are such great pals, but... maybe you're havin' second thoughts about him by now, so..." \r\n\r\n"Well, fuck it. Here goes.""
+        1 string data = "「この部分をあなたに話すのは少し躊躇する。あなたとパトリアークはとても仲が良いから。だが…今頃は彼について考え直しているかもしれないから…」\r\n\r\n「まあ、クソ食らえだ。行くぞ。」"
        [60]
-        1 string data = ""We want you to help Ironclad Cordite take control of the warbands again, then let 'im lead 'em all off to Kansas, where he can achieve his bloodsoaked destiny without gettin' any on us.""
+        1 string data = "「私たちはあなたにアイアンクラッド・コーダイトが戦闘集団の支配権を再び取るのを手伝ってほしい。そして彼に全員をカンザスへ導かせる。そこで彼は私たちに影響を及ぼさずに血まみれの運命を達成できる。」"
        [61]
-        1 string data = ""Our primary concern, other than ending the bloody reign of the Buchanans, is minimizing civilian casualties. That means you've gotta ride herd on your crew, and watch who you ally yourself with.""
+        1 string data = "「ブキャナン一族の血なまぐさい支配を終わらせること以外の主な懸念は、民間人の犠牲を最小限に抑えることだ。つまりあなた達は自分のクルーを統率し、誰と同盟するか注意しなければならない。」"
        [62]
-        1 string data = ""For instance, no matter what Cordite offers you, we don't want any help from the gangs once he's got them under his control. There's already been enough rape and pillage around here. If he wants to come along and get his revenge on the Patriarch, fine, but tell him to leave his boys at home.""
+        1 string data = "「例えば、コーダイトが何を提供しようと、彼がギャングを支配下に置いた後は彼らからの援助は望まない。ここではすでに十分な略奪と暴行があった。彼がパトリアークへの復讐のために来たいなら結構だが、子分は家に置いていくよう伝えてくれ。」"
        [63]
-        1 string data = ""It's one of those good news bad news situations. The good news is, we finally know where Liberty is, and we've got a plan to stop her. The bad news is, stopping her will probably kill you.""
+        1 string data = "「良い知らせと悪い知らせの状況の一つだ。良い知らせは、ついにリバティがどこにいるか分かり、彼女を止める計画がある。悪い知らせは、彼女を止めることはおそらくあなた達を殺すだろう。」"
        [64]
-        1 string data = ""Y'see, daddy's little girl has done the impossible and united the boldest and baddest warlords of the eastern plains, and she's gettin' ready to lead 'em into Colorado. When she does, well..."\n\n\nShe sighs. "
+        1 string data = "「分かるだろ、パパのお嬢さんは不可能を成し遂げて東部平原の最も大胆で最悪な軍閥を統一し、コロラドへ導く準備をしている。彼女がそうしたら、まあ…」\n\n\n彼女はため息をつく。"
        [65]
-        1 string data = ""Well, that'll be the end of this place. Every man, woman and child from here to the Rockies will be killed, enslaved, or taken as a sacrifice, and their houses and towns burned to the ground.""
+        1 string data = "「まあ、この場所の終わりだ。ここからロッキーまでのすべての男女子供が殺され、奴隷にされ、犠牲として捧げられ、彼らの家や町は焼き払われる。」"
        [66]
-        1 string data = ""Instead, our idea was that you would to go to Liberty's camp, turn her warlords against each other so that they either kill each other or leave, then find her and finish her off in the confusion.""
+        1 string data = "「代わりに、私たちの考えはあなた達がリバティの陣営に行き、彼女の軍閥たちを互いに対立させて殺し合いか撤退させ、それから混乱の中で彼女を見つけて始末する、というものだった。」"
        [67]
-        1 string data = ""Now, I'm not saying it's going to be easy. Like I said, it might kill you, but it's the best chance we've got to stop her before she turns Colorado into a slaughter house.""
+        1 string data = "「さて、簡単だとは言わない。言ったように、あなた達を殺すかもしれない。だが彼女がコロラドを屠殺場に変える前に止める最高のチャンスだ。」"
        [68]
-        1 string data = ""Good luck, Cowboys. We'll talk again when Liberty's taken care of.""
+        1 string data = "「幸運を、カウボーイたち。リバティを片付けたらまた話そう。」"
        [69]
-        1 string data = ""So, we've got a plan.""
+        1 string data = "「それで、計画がある。」"
        [70]
-        1 string data = ""At least that's what'll happen if you can't help us with our plan.""
+        1 string data = "「少なくとも、それはあなた達が私たちの計画を手伝えない場合に起こることだ。」"
        [71]
-        1 string data = ""Why are you making us do all this? Why aren't you doing it yourself?""
+        1 string data = "「なぜ私たちにこれ全部やらせる?なぜ自分でやらない?」"
        [72]
-        1 string data = ""Ah, cowboys, there're so many answers to that question. I guess the first one is, the Advance Team ain't ready to stop being ghosts yet. Way easier to operate when people aren't sure you exist.""
+        1 string data = "「ああ、カウボーイたち、その質問には多くの答えがある。最初の答えは、アドバンスチームはまだ幽霊であることをやめる準備ができていない。人々があなたの存在を確信していないときの方が活動しやすい。」"
        [73]
-        1 string data = ""Two, the Patriarch has spies watchin' Liberty's compound. If you show up, those spies will think you're there on daddy's behalf, and they'll be happy to see you. If we showed up, all would be revealed, yeah? And that would give the Marshals a chance to lock down Colorado Springs before you got there.""
+        1 string data = "「二つ目、パトリアークはリバティの施設を監視するスパイを持っている。あなた達が現れれば、そのスパイたちはあなた達がパパの代理でそこにいると思い、喜んで会うだろう。私たちが現れれば、すべてが明らかになるだろ?そしてそれはあなた達がそこに着く前にマーシャルズがコロラドスプリングスを封鎖する機会を与える。」"
        [74]
-        1 string data = ""But the main reason is, I gotta know you're committed to the cause. And nothin' tells me that like you puttin' your life on the line. So there's your answer.""
+        1 string data = "「だが主な理由は、あなた達が大義に献身していることを知る必要がある。そして命を懸けることほどそれを私に伝えるものはない。だからそれが答えだ。」"
        [75]
-        1 string data = ""Now, ready to get down to business?""
+        1 string data = "「さて、本題に取り掛かる準備は?」"
        [76]
-        1 string data = ""Okay. That's all I got to say. Be careful when you out there. The gangs don't care much for strangers - and even less for Rangers.""
+        1 string data = "「了解。言いたいことは以上だ。外に出るときは気をつけて。ギャングは見知らぬ人をあまり気にしない - レンジャーズならなおさらだ。」"
        [77]
-        1 string data = ""The way me and my friends see it, two things have to happen to save this place from tyranny and slaughter. First, the gangs Liberty has gathered on the eastern border have to be chased off or wiped out, Liberty included.""
+        1 string data = "「私と仲間の見方では、この場所を暴政と虐殺から救うために二つのことが起こらなければならない。まず、リバティが東部国境に集めたギャングを追い払うか一掃する必要がある、リバティも含めて。」"
        [78]
-        1 string data = ""Second - and you're gonna love this - the Patriarch has to go too.""
+        1 string data = "「二つ目 - そしてあなた達はこれを気に入るだろう - パトリアークも去らなければならない。」"
        [79]
-        1 string data = ""Sorry, sorry. Just riles me up. What we want is to get rid of the Buchanans altogether - with us Rangers standing by to help mitigate the chaos that comes after - and give Colorado a chance to live under some honest-to-god rule of law for a change.""
+        1 string data = "「ごめん、ごめん。ただ興奮するんだ。私たちが望むのはブキャナン一族を完全に排除することだ - 私たちレンジャーズはその後に来る混乱を和らげる手伝いをしながら - そしてコロラドに変化として正真正銘の法の支配の下で生きるチャンスを与える。」"
        [80]
-        1 string data = ""What is Liberty planning?""
+        1 string data = "「リバティは何を計画している?」"
        [81]
-        1 string data = ""The way me and my friends see it, two things have to happen to save this place from tyranny and slaughter. First, the gangs Liberty has gathered on the eastern border have to be chased off or wiped out, Liberty included.""
+        1 string data = "「私と仲間の見方では、この場所を暴政と虐殺から救うために二つのことが起こらなければならない。まず、リバティが東部国境に集めたギャングを追い払うか一掃する必要がある、リバティも含めて。」"
        [82]
-        1 string data = ""Second, the Patriarch has to go.""
+        1 string data = "「二つ目、パトリアークは去らなければならない。」"
        [83]
-        1 string data = ""And for that we need your help.""
+        1 string data = "「そしてそのために私たちはあなた達の助けが必要だ。」"
        [84]
-        1 string data = ""Our primary concern, other than ending the bloody reign of the Buchanans, is minimizing civilian casualties. That means you've gotta ride herd on your crew, and watch who you ally yourself with.""
+        1 string data = "「ブキャナン一族の血なまぐさい支配を終わらせること以外の主な懸念は、民間人の犠牲を最小限に抑えることだ。つまりあなた達は自分のクルーを統率し、誰と同盟するか注意しなければならない。」"
        [85]
-        1 string data = ""For instance, no matter what Cordite offers you, we don't want any help from the gangs once he's got them under his control. There's already been enough rape and pillage around here. If he wants to come along and get his revenge on the Patriarch, fine, but tell him to leave his boys at home.""
+        1 string data = "「例えば、コーダイトが何を提供しようと、彼がギャングを支配下に置いた後は彼らからの援助は望まない。ここではすでに十分な略奪と暴行があった。彼がパトリアークへの復讐のために来たいなら結構だが、子分は家に置いていくよう伝えてくれ。」"
        [86]
-        1 string data = ""We want to be the good guys here, so we've got to do this clean.""
+        1 string data = "「私たちはここで善人でいたい、だからこれをきれいにやらなければならない。」"
        [87]
-        1 string data = ""Basically, while you're out on the border, takin' care of Liberty, my team'll be in Colorado Springs, softening the ground for you. And when you get everything tied up out there, you'll come back and help us breach the Patriarch's palace and take him down.""
+        1 string data = "「基本的に、あなた達が国境でリバティの世話をしている間、私のチームはコロラドスプリングスであなた達のために地盤を柔らかくする。そしてあなた達があちらですべてを片付けたら、戻ってきて私たちがパトリアークの宮殿を突破して彼を倒すのを手伝う。」"
        [88]
-        1 string data = ""What happens after you take down the Patriarch? What's your plan for Colorado?""
+        1 string data = "「パトリアークを倒した後、何が起こる?コロラドへの計画は?」"
        [89]
-        1 string data = "She shrugs."
+        1 string data = "彼女は肩をすくめる。"
        [90]
-        1 string data = ""Keep the peace. Keep things fair. I don't see the Rangers runnin' things. That's not our job. I see our job as keepin' the playin' field even for the folks who'll eventually give runnin' things a try.""
+        1 string data = "「平和を保つ。物事を公平に保つ。レンジャーズが物事を運営するとは思わない。それは私たちの仕事じゃない。私たちの仕事は、最終的に物事を運営することに挑戦する人々のために競技場を平等に保つことだと思う。」"
        [91]
-        1 string data = ""There's always a lotta weasels that come out of the woodwork after a big man falls, tryin' to grab a piece of the pie for themselves. We know that. So we're just gonna hang around, and every time a weasel pops their head up, we'll whack 'em.""
+        1 string data = "「大物が倒れた後、自分のためにパイの一部を掴もうとして、いつも多くのイタチが木工から出てくる。それは分かっている。だから私たちはただ周りにいて、イタチが頭を出すたびに、叩きのめす。」"
        [92]
-        1 string data = ""At the same time, every time somebody comes along who tries to take care of the people - all the people - we'll help 'em out any way we can. But we're not gonna be anybody's muscle. We'll answer to the people. Nobody else.""
+        1 string data = "「同時に、人々の世話をしようとする - すべての人々の - 誰かが現れるたびに、できる限りの方法で手伝う。だが誰の筋肉にもならない。私たちは人々に答える。他の誰にもだ。」"
        [93]
-        1 string data = ""You really think that's going to work? Sounds a bit idealistic.""
+        1 string data = "「本当にそれがうまくいくと思うか?少し理想主義的に聞こえるが。」"
        [94]
-        1 string data = ""So what you're really saying is, the Rangers will play kingmaker. They'll get to decide who takes power.""
+        1 string data = "「つまり本当に言いたいのは、レンジャーズがキングメーカーを演じるということだ。彼らが誰が権力を握るかを決める。」"
        [95]
-        1 string data = ""I admit that'll be a temptation, but we're gonna try to fight against it. I don't know what a good leader is gonna look like, but I sure as hell know what a bad one looks like.""
+        1 string data = "「それが誘惑であることは認める。だが私たちはそれに対抗しようとする。良いリーダーがどんな見た目かは分からないが、悪いリーダーがどんな見た目かは確実に知っている。」"
        [96]
-        1 string data = ""Weeding the garden, that's what we'll be doing. Just weeding the garden.""
+        1 string data = "「庭の草取り、それが私たちがやることだ。ただ庭の草取りだ。」"
        [97]
-        1 string data = ""No idea if it's going to work. Nobody's tried it before, as far as I know, but I know nothing else works any better. So we might as well give it a shot and see, right?""
+        1 string data = "「うまくいくかどうか分からない。私が知る限り誰も以前に試したことがない。だが他に何もうまくいかないことは知っている。だから試してみてもいいだろ?」"
        [98]
-        1 string data = ""Can't be worse than the way things are now.""
+        1 string data = "「今の状況よりも悪くなることはない。」"
        [99]
-        1 string data = ""We're not buying it. Your plan sounds destined to fail, and a lot of people could be hurt if it does.""
+        1 string data = "「納得できない。あなたの計画は失敗する運命に聞こえ、失敗すれば多くの人が傷つく可能性がある。」"
        [100]
-        1 string data = ""More than are being hurt now?""
+        1 string data = "「今傷ついている人よりも多く?」"
        [101]
-        1 string data = ""Well, you gotta do what you gotta do. But I think we can all agree that no matter what future we want, stopping Liberty has to happen, so I'm going to give you her location anyway.""
+        1 string data = "「まあ、やるべきことはやらなければならない。だが私たちがどんな未来を望もうと、リバティを止めることは起こらなければならないことに全員が同意できると思う、だからとにかく彼女の場所を教える。」"
        [102]
-        1 string data = ""All I ask is that, when you're finally standing face to face with her, please at least consider dealing with her our way. Everything else we've talked about... let your conscience be your guide.""
+        1 string data = "「お願いしたいのは、最終的に彼女と対面したとき、少なくとも私たちのやり方で彼女を処理することを考えてほしい。私たちが話した他のすべてのこと…良心に従ってくれ。」"
        [103]
-        1 string data = ""But that's not going to happen until you rescue the man from that bunker in Broadmoor Heights like I told you to a while back.""
+        1 string data = "「だがそれは、しばらく前に言ったように、ブロードムーア・ハイツのあの隠れ家からその男を救出するまで起こらない。」"
        [104]
-        1 string data = ""So, my advice to you is, get back to Colorado Springs and bust him out pronto.""
+        1 string data = "「だから、私のアドバイスは、コロラドスプリングスに戻ってすぐに彼を救出することだ。」"
        [105]
-        1 string data = ""Who is Cordite again?""
+        1 string data = "「コーダイトって誰だっけ?」"
        [106]
-        1 string data = ""Why does he want to go to Kansas?""
+        1 string data = "「なぜ彼はカンザスに行きたがっている?」"
        [107]
-        1 string data = ""He'll tell you all about it when you get him out.""
+        1 string data = "「彼を出したら、彼がすべて話してくれる。」"
        [108]
-        1 string data = ""The toughest warlord of the eastern plains. Not a good man or an easygoing man, but he's the man we need if we want to stop Liberty.""
+        1 string data = "「東部平原で最もタフな軍閥だ。良い男でも気さくな男でもない。だがリバティを止めたいなら、彼が必要な男だ。」"
        [109]
-        1 string data = ""We'll go hear him out.""
+        1 string data = "「行って彼の話を聞く。」"
        [110]
-        1 string data = ""Not sure we want anything to do with this guy.""
+        1 string data = "「この男と何か関わりたいかどうか分からない。」"
        [111]
-        1 string data = ""Thanks, Rangers. And break him out too. Please.""
+        1 string data = "「ありがとう、レンジャーズ。そして彼を脱出させてくれ。お願いだ。」"
        [112]
-        1 string data = ""Personally, neither do I. But he's the man for the job. Please break him out.""
+        1 string data = "「個人的には、私もそうは思わない。だが彼はこの仕事に必要な男だ。お願いだから彼を脱出させてくれ。」"
        [113]
-        1 string data = ""You're wrecking everything Ranger Command has been working toward. For the sake of Arizona, we're putting an end to you.""
+        1 string data = "「あなたはレンジャー司令部が取り組んできたすべてを台無しにしている。アリゾナのために、あなたに終止符を打つ。」"
        [114]
-        1 string data = ""Well, cowboys, you can try, but I'm afraid that'll be the end of Team November. You sure about this?""
+        1 string data = "「まあ、カウボーイたち、試してもいいが、それがチーム・ノベンバーの終わりになることを恐れる。本気か?」"
        [115]
-        1 string data = ""Bastards! Yer makin' me look bad!""
+        1 string data = "「クソ野郎ども!お前らは俺を悪く見せてる!」"
        [116]
-        1 string data = ""On second thought, maybe we should just go our seperate ways.""
+        1 string data = "「考え直すと、おそらく別々の道を行くべきだ。」"
        [117]
-        1 string data = "[Attack] "Damn right we're sure. We're taking you down.""
+        1 string data = "[攻撃] 「もちろん本気だ。あなたを倒す。」"
        [118]
-        1 string data = ""Ah, hell. And I was countin' on you guys.""
+        1 string data = "「ああ、くそ。お前らを頼りにしてたのに。」"
        [119]
-        1 string data = ""Yeah. That'd probably be for the best. But keep what I said in mind, yeah?""
+        1 string data = "「そうだ。それがおそらく最善だろう。だが私が言ったことを心に留めておいてくれ、いいな?」"
        [120]
-        1 string data = ""Adios, cowboys.""
+        1 string data = "「アディオス、カウボーイたち。」"
        [121]
-        1 string data = ""Well, things are starting to ramp up around here, and I thought we better have a talk about the future of Colorado before it was too late to do anything about it.""
+        1 string data = "「まあ、ここでは物事が加速し始めていて、手遅れになる前にコロラドの未来について話した方がいいと思った。」"
        [122]
-        1 string data = ""Now, ready to get down to business?""
+        1 string data = "「さて、本題に取り掛かる準備は?」"
        [123]
-        1 string data = ""Well, things are starting to ramp up around here, and I thought we better have a talk about the future of Colorado before it was too late  to do anything about it.""
+        1 string data = "「まあ、ここでは物事が加速し始めていて、手遅れになる前にコロラドの未来について話した方がいいと思った。」"
        [124]
-        1 string data = ""Yeah, yeah, he says it's all necessary to make Colorado a safe place to live, but safe for who? That's my question. The dissidents he jails for protesting aren't safe, are they? The refugees his marshals shake down in the street aren't safe either!""
+        1 string data = "「ああ、ああ、彼はコロラドを安全な住む場所にするためにすべて必要だと言う。だが誰のために安全?それが私の質問だ。抗議のために投獄する反体制派は安全じゃないだろ?彼のマーシャルズが路上で揺さぶる難民も安全じゃない!」"
        [125]
-        1 string data = ""Yeah, it <i>could</i>, but possible anarchy is better than actual tyranny, and we're hoping that, as Rangers, we'll be able to help mitigate the chaos that comes after, and give Colorado a chance to live under some honest-to-god rule of law for a change.""
+        1 string data = "「ああ、そう<i>なりうる</i>が、可能性のある無政府状態は実際の暴政よりもましだ。そして私たちは、レンジャーズとして、その後に来る混乱を和らげる手伝いができ、コロラドに変化として正真正銘の法の支配の下で生きるチャンスを与えることを望んでいる。」"
        [126]
-        1 string data = ""Wait. You've still got Vic with you? Do you carry your shit around with you too?""
+        1 string data = "「待て。まだヴィックを連れているのか?自分のクソも持ち歩いているのか?」"
        [127]
-        1 string data = ""What? Are you talking to me? Who the fuck are you, bitch?""
+        1 string data = "「何?私に話しかけてるのか?お前は一体誰だ、クソアマ?」"
        [128]
-        1 string data = "She sighs."
+        1 string data = "彼女はため息をつく。"
        [129]
-        1 string data = ""Okay. Listen. What I've got to say is too important, so I'm just going to pretend he's not here and hope you do the right thing later.""
+        1 string data = "「了解。聞いて。私が言わなければならないことは重要すぎるから、彼がここにいないふりをして、後であなた達が正しいことをすることを願う。」"
        [130]
         1 string data = "DEBUG"
        [131]
-        1 string data = "Set Vic Dead"
+        1 string data = "ヴィックを死亡に設定"
        [132]
-        1 string data = "Set Vic captured"
+        1 string data = "ヴィックを捕獲に設定"
        [133]
-        1 string data = "Set Valor resolution - Dead"
+        1 string data = "ヴァラー解決を設定 - 死亡"
        [134]
-        1 string data = "Set Valor resolution - Reagan"
+        1 string data = "ヴァラー解決を設定 - レーガン"
        [135]
-        1 string data = "Set Valor resolution - Captured"
+        1 string data = "ヴァラー解決を設定 - 捕獲"
        [136]
-        1 string data = "Give The Traitorous Daughter up to this point."
+        1 string data = "ここまでの「裏切りの娘」を与える。"
        [137]
-        1 string data = "Give Liberty's Location"
+        1 string data = "リバティの場所を与える"
        [138]
-        1 string data = "Kill Angela Deth"
+        1 string data = "アンジェラ・デスを殺す"
        [139]
-        1 string data = ""Well, come on then. Lets get this over wit-""
+        1 string data = "「さあ、来いよ。さっさと終わらせ-」"
        [140]
-        1 string data = ""No! Angie! We can't let you die here. You're too important to the cause.""
+        1 string data = "「ダメだ!アンジー!ここであなたを死なせるわけにはいかない。あなたは大義にとってあまりにも重要だ。」"
        [141]
-        1 string data = ""We're gettin' you out of here.""
+        1 string data = "「ここからあなたを連れ出す。」"
        [142]
-        1 string data = ""Dammit! Let go of me! I fight my own fights!""
+        1 string data = "「くそ!離せ!私は自分の戦いを戦う!」"
        [143]
         1 string data = ""
        [144]
-        1 string data = "Attack Advance Team (only use in Stacks)"
+        1 string data = "アドバンスチームを攻撃 (スタックでのみ使用)"
        [145]
-        1 string data = "Advance Team Leaves Peacefully (only use in Stacks)"
+        1 string data = "アドバンスチームが平和的に去る (スタックでのみ使用)"
        [146]
-        1 string data = ""So, we'll be referees. Nice.""
+        1 string data = "「だから、私たちは審判になる。いいね。」"
        [147]
-        1 string data = ""And you know he didn't win that war with the Plains gangs, right? No, he made deals with 'em. Sends 'em weapons and supplies as long as they raid settlements <i>outside</i> Colorado. Ain't that neighborly!""
+        1 string data = "「そして彼が平原ギャングとの戦争に勝たなかったことを知っているだろ?いや、彼は彼らと取引した。コロラドの<i>外</i>の入植地を襲撃する限り、武器と物資を送る。近隣愛じゃないか!」"
        [148]
-        1 string data = ""Cordite, this means that when you've got your gang back, you can't bring 'em to Colorado Springs for the big finale. There's already been enough rape and pillage around here. If you wanna come along and get you revenge on the Patriarch, fine, but leave your boys at home.""
+        1 string data = "「コーダイト、これはあなたがギャングを取り戻したとき、最終決戦のためにコロラドスプリングスに連れて来られないということだ。ここではすでに十分な略奪と暴行があった。パトリアークへの復讐のために来たいなら結構だが、子分は家に置いていけ。」"
        [149]
-        1 string data = ""They will be too busy preparing for my return to Kansas to bother with Colorado.""
+        1 string data = "「彼らはカンザスへの私の帰還準備で忙しすぎてコロラドを気にしない。」"
        [150]
-        1 string data = ""Uh, good. That's good.""
+        1 string data = "「ああ、いい。それはいい。」"
        [151]
-        1 string data = ""But without the Patriarch, Colorado could fall into anarchy.""
+        1 string data = "「だがパトリアークなしでは、コロラドは無政府状態に陥る可能性がある。」"
        [152]
-        1 string data = ""Why? We know he's done brutal things, but he's <i>had</i> to. Colorado's surrounded by enemies. He's fighting for its survival.""
+        1 string data = "「なぜ?彼が残忍なことをしたのは知っているが、彼は<i>そうしなければならなかった</i>。コロラドは敵に囲まれている。彼はその生存のために戦っている。」"
        [153]
-        1 string data = ""We've been thinking the same thing.""
+        1 string data = "「同じことを考えていた。」"
        [154]
-        1 string data = ""I'm glad to hear you say that, because it ain't gonna be the smoothest road. This place could collapse into chaos when the old man's gone.""
+        1 string data = "「それを言ってくれて嬉しい、なぜなら最も平坦な道にはならないからだ。老人が去ったとき、この場所は混乱に崩壊する可能性がある。」"
        [155]
-        1 string data = ""All that's true. He armed us well if we promised to hunt only to the east."\n\n\nHe spits. "
+        1 string data = "「それはすべて真実だ。私たちが東だけで狩ると約束すれば、彼は私たちをよく武装させた。」\n\n\n彼は唾を吐く。"
        [156]
-        1 string data = ""I should never have made that coward's deal.""
+        1 string data = "「あの臆病者の取引をするべきじゃなかった。」"
        [157]
-        1 string data = ""You see? Buchanan turned Colorado into a garden spot by makin' all his neighbors' lives a living hell!"\n\n\nShe takes a deep breath and lets it out."
+        1 string data = "「分かるだろ?ブキャナンはすべての隣人の生活を生き地獄にすることでコロラドを楽園にした!」\n\n\n彼女は深呼吸して吐き出す。"
        [158]
-        1 string data = ""But the way we see it, possible chaos is better than actual tyranny, and we're hoping that, as Rangers, we'll be able to help mitigate that chaos, and give Colorado a chance to live under some honest-to-god rule of law for a change.""
+        1 string data = "「だが私たちの見方では、可能性のある混乱は実際の暴政よりもましだ。そして私たちは、レンジャーズとして、その混乱を和らげる手伝いができ、コロラドに変化として正真正銘の法の支配の下で生きるチャンスを与えることを望んでいる。」"
        [159]
-        1 string data = ""Good luck, Cowboys. We'll talk again when Liberty's taken care of.""
+        1 string data = "「幸運を、カウボーイたち。リバティを片付けたらまた話そう。」"
        [160]
-        1 string data = ""Adios, cowboys.""
+        1 string data = "「アディオス、カウボーイたち。」"
        [161]
-        1 string data = ""Ah hell. And I was countin' on you guys.""
+        1 string data = "「ああくそ。お前らを頼りにしてたのに。」"
    [38]
     0 StringTable data
      1 string Filename = "d1001_arapaho_garage"
@@ -10899,181 +10899,181 @@
       1 Array Array (88 items)
        0 int size = 88
        [0]
-        1 string data = ""Hey, Rangers! Did you find Carla's truck?""
+        1 string data = "「やあ、レンジャーズ!カーラのトラックは見つかった?」"
        [1]
-        1 string data = ""Why are you here?""
+        1 string data = "「なんでここにいる?」"
        [2]
-        1 string data = ""I... I was worried because I hadn't heard back from you in so long!""
+        1 string data = "「あ...あまりにも長く連絡がなかったから心配だったの!」"
        [3]
-        1 string data = ""We worked out a deal with the thieves to return the truck to Carla.""
+        1 string data = "「泥棒と取引をして、トラックをカーラに返すことにした。」"
        [4]
-        1 string data = ""That's... very forgiving of you, Rangers. But, uh...""
+        1 string data = "「それは...寛大だね、レンジャーズ。でも、えーと...」"
        [5]
-        1 string data = ""We tracked down the thieves and took them out. We were just going to tell Carla to come get the truck.""
+        1 string data = "「泥棒を追跡して始末した。カーラにトラックを取りに来てもらおうと思っていたところだ。」"
        [6]
-        1 string data = ""Great job! Thank you, Rangers! But, uh...""
+        1 string data = "「いい仕事だ!ありがとう、レンジャーズ!でも、えーと...」"
        [7]
-        1 string data = ""I'd like to have our technicians inspect the truck before we return it to Carla. We want to make sure the thieves didn't, uh, damage it.""
+        1 string data = "「カーラに返す前に、技術者にトラックを点検させたいの。泥棒が、えーと、損傷させていないか確認したいから。」"
        [8]
-        1 string data = "The thieves found a bunch of money hidden inside the body panels. Do you know anything about that?"
+        1 string data = "泥棒がボディパネルの中に隠された大量の金を見つけた。何か知っているか?"
        [9]
-        1 string data = "[Lie] "The truck's fine. Not a scratch on it. We'll just tell Carla.""
+        1 string data = "【嘘】「トラックは無事だ。傷一つない。カーラに伝えておく。」"
        [10]
         1 string data = ""
        [11]
-        1 string data = "That money is actually the property of Steeltown!\nWe appreciate your recovering it from those thieves. You'll be fairly compensated for returning it to us, and keeping this whole affair confidential."
+        1 string data = "その金は実はスティールタウンの所有物なの!\nあなた達が泥棒からそれを取り戻してくれて感謝するわ。それを返還してくれて、この件を秘密にしてくれれば、ちゃんと報酬を支払うわ。"
        [12]
-        1 string data = ""I'm afraid we're going to have to insist on inspecting the truck, Rangers. The arcology has its standards. Where is it?""
+        1 string data = "「申し訳ないけど、トラックを点検させてもらう必要があるわ、レンジャーズ。アーコロジーには基準があるから。どこにあるの?」"
        [13]
-        1 string data = "::sighs:: "I'm going to level with you. Someone has been smuggling large amounts of cash out of Steeltown, and I have reason to believe the latest shipment was in that truck. So if I inspect that truck and I find that there's no money in it...""
+        1 string data = "::ため息:: 「正直に話すわ。誰かがスティールタウンから大量の現金を密輸していて、最新の荷物がそのトラックにあったと思う理由がある。だからもしトラックを点検して、金がなかったら...」"
        [14]
         1 string data = ""
        [15]
         1 string data = ""
        [16]
-        1 string data = ""Er... thank you! Wow! The Rangers really are as honorable as the Patriarch told us you were. This is amazing!""
+        1 string data = "「え...ありがとう!わあ!レンジャーズは本当にパトリアークが言っていた通り名誉ある存在ね。これはすごい!」"
        [17]
-        1 string data = ""We've got it, but we meant to return it to its rightful owner. Apparently that's Steeltown, so here. Take it.""
+        1 string data = "「持っているが、正当な所有者に返そうと思っていた。どうやらそれはスティールタウンらしいから、はい、どうぞ。」"
        [18]
-        1 string data = ""We let Blue keep the money so he can start his own factory.""
+        1 string data = "「ブルーが自分の工場を始められるように、金を持たせてやった。」"
        [19]
-        1 string data = ""What? Blue stole the truck? Markham's old engineer? And you cut a deal with him? So much for the honor of the Desert Rangers.""
+        1 string data = "「何?ブルーがトラックを盗んだの?マーカムの元エンジニアが?そしてあなた達は彼と取引したの?デザート・レンジャーズの名誉もおしまいね。」"
        [20]
-        1 string data = ""We have it, and we're going to keep it.""
+        1 string data = "「持っているが、自分たちで持っておくつもりだ。」"
        [21]
-        1 string data = ""Sorry, Rangers. I can't let you just walk away with Steeltown property. Hand over the money or we start firing.""
+        1 string data = "「すまないが、レンジャーズ。スティールタウンの所有物を持って立ち去らせるわけにはいかない。金を渡すか、発砲するかだ。」"
        [22]
-        1 string data = ""Wait a minute. How about instead of killing each other, we split the money fifty-fifty?""
+        1 string data = "「待ってくれ。殺し合いの代わりに、金を半分ずつにするのはどうだ?」"
        [23]
-        1 string data = ""Kill these assholes!""
+        1 string data = "「この野郎どもを殺せ!」"
        [24]
-        1 string data = ""This is completely out of line. Steeltown can't allow outsiders to take its money and give it to random strangers. I don't care if you're the Patriarch's darlings or not. You're going down for this - and Blue is next.""
+        1 string data = "「これは完全に筋が通らない。スティールタウンは外部の者に金を持ち去らせて、無作為の他人に渡すことを許せない。あなた達がパトリアークのお気に入りだろうが関係ない。このことであなた達は倒れる - そしてブルーも次だ。」"
        [25]
-        1 string data = ""You know, we're starting to think it's you who stole all this money.""
+        1 string data = "「この金を盗んだのは君じゃないかと思い始めているんだが。」"
        [26]
-        1 string data = ""Hmmm. You have a point. Gunfights are dangerous, and I'm not ready to die. And if you take half the money, then you can't tell on me to Markham, can you? Because I'll be able to do the same to you. Mutually assured destruction.""
+        1 string data = "「うーん。一理あるわね。銃撃戦は危険だし、私もまだ死にたくない。それに、もしあなた達が金の半分を取るなら、マーカムに私のことを言えないでしょう?私もあなた達に同じことができるから。相互確証破壊ね。」"
        [27]
-        1 string data = ""What? I am Abby's most loyal employee! I would never steal from her! You're just trying to pin the blame for this on someone other than yourselves!""
+        1 string data = "「何?私はアビーの最も忠実な従業員よ!彼女から盗むなんてありえない!あなた達はただ、この責任を自分たち以外の誰かに押し付けようとしているだけ!」"
        [28]
-        1 string data = ""If you think I did it, prove it!""
+        1 string data = "「もし私がやったと思うなら、証明してみせて!」"
        [29]
-        1 string data = ""Does the name Libby mean anything to you?""
+        1 string data = "「リビーという名前に心当たりはあるか?」"
        [30]
-        1 string data = ""You weren't worried about Carla's truck being stolen until we told you it wasn't the Scar Collectors who stole it. Then you demanded we find it.""
+        1 string data = "「カーラのトラックが盗まれたことを心配していなかったのに、スカー・コレクターズが盗んだんじゃないと伝えた途端、見つけろと要求してきた。」"
        [31]
-        1 string data = ""You handle the accounts for Markham, and you processed the order for Carla's truck, which was stolen less than an hour after it was delivered. Makes you an obvious suspect.""
+        1 string data = "「君はマーカムの会計を担当していて、カーラのトラックの発注を処理した。それは配送されてから1時間以内に盗まれた。明らかに容疑者だ。」"
        [32]
-        1 string data = ""Liberty? No. Can't say it does.""
+        1 string data = "「リバティ?いいえ。心当たりないわ。」"
        [33]
-        1 string data = ""Suspicion isn't proof! I don't have to listen to this! Now where is the money!?!""
+        1 string data = "「疑いは証拠じゃない!こんなこと聞く必要はない!さあ、金はどこ!?!」"
        [34]
         1 string data = ""
        [35]
-        1 string data = ""No. You know what? There's only one way this ends now. The last thing I need is for you assholes to talk to Markham and get her wondering about me. Much better for you to die in a tragic 'Scar Collector' attack.""
+        1 string data = "「いや。わかった?今はこれで終わらせる方法は一つしかない。最後に必要なのは、あなた達クソ野郎がマーカムに話して、彼女が私のことを疑い始めることだ。あなた達が悲劇的な『スカー・コレクター』の襲撃で死ぬ方がずっといい。」"
        [36]
-        1 string data = ""Please apologize to Carla for me and let her know she'll get the next truck off the line, but, uh... don't mention about any of this other stuff. Let's just keep it between us, okay?""
+        1 string data = "「カーラに謝っておいて、次にラインから出るトラックを彼女に渡すって伝えておいて。でも、えーと...この他のことについては言わないでね。私たちだけの秘密にしておきましょう、いい?」"
        [37]
-        1 string data = ""Well, you can see that's going to look bad for you. So I'm going to ask you plainly this time. Did you find any money in the truck?""
+        1 string data = "「まあ、それはあなたにとって見栄えが悪いでしょうね。だから今度ははっきり聞くわ。トラックの中に金を見つけた?」"
        [38]
-        1 string data = ""You wouldn't be looking for a big pile of money that was hidden in the panels, would you?""
+        1 string data = "「パネルの中に隠されていた大量の金を探しているんじゃないか?」"
        [39]
-        1 string data = ""The thieves tore it apart. It's going to need a lot of reassembly.""
+        1 string data = "「泥棒がバラバラにした。かなり組み立て直しが必要になる。」"
        [40]
-        1 string data = ""The truck's in the garage, and so are the thieves. Do what you need to.""
+        1 string data = "「トラックはガレージにある。泥棒も一緒だ。必要なことをしてくれ。」"
        [41]
-        1 string data = ""The truck's in the garage, and so are the thieves. Good luck.""
+        1 string data = "「トラックはガレージにある。泥棒も一緒だ。頑張ってくれ。」"
        [42]
-        1 string data = ""Tore the truck... apart. That's... unfortunate. Where is it?""
+        1 string data = "「トラックを...バラバラに。それは...残念ね。どこにあるの?」"
        [43]
-        1 string data = ""I'd like to have our technicians inspect the truck before we return it to Carla. We want to make sure the thieves didn't, uh, damage it.""
+        1 string data = "「カーラに返す前に、技術者にトラックを点検させたいの。泥棒が、えーと、損傷させていないか確認したいから。」"
        [44]
-        1 string data = ""There's no reason for you to inspect the truck. Take your men and return to the arcology.""
+        1 string data = "「トラックを点検する理由はない。部下を連れてアーコロジーに戻れ。」"
        [45]
-        1 string data = ""Thank you, Rangers. We'll take care of it. But, uh... one more thing before you go.""
+        1 string data = "「ありがとう、レンジャーズ。私たちが対処するわ。でも、えーと...行く前にもう一つ。」"
        [46]
-        1 string data = ""Thank you, Rangers. We'll be careful. But, uh... one more thing before you go.""
+        1 string data = "「ありがとう、レンジャーズ。気をつけるわ。でも、えーと...行く前にもう一つ。」"
        [47]
-        1 string data = ""Why would you refuse such a reasonable request, Rangers?""
+        1 string data = "「なぜそんな合理的な要求を断るの、レンジャーズ?」"
        [48]
-        1 string data = ""Did you find anything... unusual in the truck? Or did you hear the thieves mention finding anything unusual?""
+        1 string data = "「トラックの中に...何か変わったものは見つけた?それとも泥棒が何か変わったものを見つけたって言うのを聞いた?」"
        [49]
-        1 string data = "[Lie] "Nope. We didn't find a thing.""
+        1 string data = "【嘘】「いや。何も見つけなかった。」"
        [50]
-        1 string data = ""What were you expecting us to find?""
+        1 string data = "「何を見つけると思っていたんだ?」"
        [51]
-        1 string data = "For a moment, Bennie doesn't respond. When she speaks, her tone is a little more serious than usual."
+        1 string data = "一瞬、ベニーは答えない。話し始めると、彼女の口調はいつもより少し真剣だ。"
        [52]
-        1 string data = "For a moment, Bennie doesn't respond. When she speaks, her tone is a little more serious than usual."
+        1 string data = "一瞬、ベニーは答えない。話し始めると、彼女の口調はいつもより少し真剣だ。"
        [53]
-        1 string data = "::sighs:: "I'm going to level with you here. Someone has been smuggling large amounts of cash out of Steeltown, and you've just confirmed that the latest shipment was in that truck. So, where is it?""
+        1 string data = "::ため息:: 「ここで正直に話すわ。誰かがスティールタウンから大量の現金を密輸していて、あなた達は最新の荷物がそのトラックにあったことを確認してくれた。で、それはどこ?」"
        [54]
-        1 string data = ""We don't know what you're talking about.""
+        1 string data = "「何の話か分からない。」"
        [55]
-        1 string data = ""Don't try that innocent act with me, Rangers. You've either got the money or you know where it is. Now tell me or we start shooting.""
+        1 string data = "「私に白々しい演技をしないで、レンジャーズ。あなた達は金を持っているか、どこにあるか知っている。今言わないと発砲するわよ。」"
        [56]
-        1 string data = ""Okay. Fine. Take it.""
+        1 string data = "「わかった。いいだろう。持って行け。」"
        [57]
-        1 string data = ""We're not giving it up.""
+        1 string data = "「渡すつもりはない。」"
        [58]
-        1 string data = ""Smart move, Rangers.""
+        1 string data = "「賢明な判断ね、レンジャーズ。」"
        [59]
-        1 string data = ""Now, if you don't tell Abby about this little security problem, I won't tell her you meant to keep all her stolen money, and we can all work together again like nothing's happened. Right? Right.""
+        1 string data = "「さて、もしあなた達がアビーにこの小さなセキュリティ問題について話さなければ、私もあなた達が彼女の盗まれた金を全部持っておくつもりだったことは言わない。そうすれば、何事もなかったかのようにまた一緒に仕事ができる。いい?そうよね。」"
        [60]
-        1 string data = ""See you back at the Arcology.""
+        1 string data = "「アーコロジーで会いましょう。」"
        [61]
-        1 string data = ""Then you're dead.""
+        1 string data = "「じゃあ、あなた達は死ぬのね。」"
        [62]
-        1 string data = "She gives you a cold smile."
+        1 string data = "彼女は冷たい微笑みを浮かべる。"
        [63]
-        1 string data = ""How about we split it, fifty-fifty?""
+        1 string data = "「半分ずつに分けるのはどうだ?」"
        [64]
-        1 string data = ""How dare you, Rangers? This is Administrator Markham's money! No, it's worse than that! This is the workers' money! Their wages! And you think I would make a deal with you so we could keep it for ourselves?""
+        1 string data = "「よくもそんなことを言えるわね、レンジャーズ?これは管理官マーカムの金よ!いや、それより悪い!これは労働者の金よ!彼らの賃金よ!そしてあなた達は、私たちが自分たちのために持っておけるように私が取引すると思ってるの?」"
        [65]
-        1 string data = ""So much for the honor of the Desert Rangers.""
+        1 string data = "「デザート・レンジャーズの名誉もおしまいね。」"
        [66]
-        1 string data = ""That doesn't prove anything! I just thought the truck was long gone! This is bullshit. Where's the money?""
+        1 string data = "「それは何も証明してない!私はトラックはとっくにどこかに行ったと思っていただけ!これはクソだ。金はどこ?」"
        [67]
-        1 string data = "[Attack] "Kiss this."\n\n\n"
+        1 string data = "【攻撃】「これでも食らえ。」\n\n\n"
        [68]
-        1 string data = ""Kiss your asses goodbye, Rangers.""
+        1 string data = "「お尻にキスして死ね、レンジャーズ。」"
        [69]
-        1 string data = ""Okay, Rangers. It's a deal. I'll take half the money, you tell Carla we'll send her the next truck off the line, and we'll both pretend this didn't happen.""
+        1 string data = "「わかった、レンジャーズ。取引成立ね。私は金の半分を取る、あなた達はカーラに次にラインから出るトラックを送ると伝える、そして私たちは両方ともこれが起きなかったふりをする。」"
        [70]
-        1 string data = ""Did you say Liberty? As in Liberty Buchanan?""
+        1 string data = "「リバティと言ったか?リバティ・ブキャナンのことか?」"
        [71]
-        1 string data = ""That was an interesting slip of the tongue.""
+        1 string data = "「興味深い言い間違いだったな。」"
        [72]
-        1 string data = ""You fuckers! Everything would have been fine if you'd just handed over the money. You could have gone your way, and I could have gone mine. Now you're going to have to die!""
+        1 string data = "「クソ野郎ども!金を渡してくれていれば、すべてうまくいっていたのに。あなた達はあなた達の道を、私は私の道を行けた。今やあなた達は死ななきゃならない!」"
        [73]
-        1 string data = ""Oh shit! What did I-?""
+        1 string data = "「あ、しまった!私は何を-?」"
        [74]
-        1 string data = "She claps a hand over her mouth, then glares at you."
+        1 string data = "彼女は手で口を覆い、それからあなたを睨みつける。"
        [75]
-        1 string data = ""You're stealing money from Steeltown to fund Liberty's army?""
+        1 string data = "「スティールタウンから金を盗んで、リバティの軍隊に資金提供しているのか?」"
        [76]
-        1 string data = ""You're Liberty's agent in Steeltown?""
+        1 string data = "「君はスティールタウンのリバティのエージェントなのか?」"
        [77]
-        1 string data = ""So all the workers' lost wages have been going to fund Liberty's army. We'll be sure to tell Salene Crow.""
+        1 string data = "「つまり、労働者の失われた賃金は全てリバティの軍隊に資金提供されていたということか。サレーン・クロウに必ず伝えよう。」"
        [78]
-        1 string data = ""That's right, in one stroke we're crippling her daddy's war machine and robbing him blind. Genius, huh?""
+        1 string data = "「その通りよ、一石二鳥でパパの戦争マシンを弱体化させて、目が見えなくなるほど盗んでいるの。天才的でしょ?」"
        [79]
-        1 string data = ""Not just that. When Liberty takes over, I will be her Markham. Steeltown will be mine!""
+        1 string data = "「それだけじゃない。リバティが引き継いだら、私は彼女のマーカムになるの。スティールタウンは私のものよ!」"
        [80]
-        1 string data = ""You're not telling anybody anything! ""
+        1 string data = "「誰にも何も言わせない!」"
        [81]
-        1 string data = ""Too bad you won't live to tell anybody.""
+        1 string data = "「残念だけど、あなた達は誰にも伝えられないわ。」"
        [82]
-        1 string data = ""Kill these assholes!""
+        1 string data = "「この野郎どもを殺せ!」"
        [83]
-        1 string data = ""When Liberty takes over Colorado, there won't be any workers anymore. There'll just be slaves!""
+        1 string data = "「リバティがコロラドを引き継いだら、もう労働者なんていなくなる。奴隷だけになるわ!」"
        [84]
-        1 string data = ""I'd like to hear that miserable bitch whine about wages then! Ha!""
+        1 string data = "「そのときあの惨めなビッチが賃金について泣き言を言うのを聞きたいわ!ハ!」"
        [85]
-        1 string data = ""And as for you, you're going to die here and now, just like all the other fools lining up to kiss the Patriarch's saggy ass.""
+        1 string data = "「そしてあなた達は、パトリアークのたるんだケツにキスするために並んでいる他の愚か者たち全員と同じように、今ここで死ぬの。」"
        [86]
-        1 string data = ""Wait a minute. How about instead of killing each other, we split the money fifty-fifty?""
+        1 string data = "「待ってくれ。殺し合いの代わりに、金を半分ずつにするのはどうだ?」"
        [87]
-        1 string data = ""Maybe if you hadn't tricked me into saying Liberty's name. But we're past that now. Nobody can know what you know. You've got to die.""
+        1 string data = "「あなた達が私をリバティの名前を言わせるように仕向けなければね。でももう遅い。誰もあなた達が知っていることを知ってはいけない。あなた達は死ななきゃならない。」"
    [42]
     0 StringTable data
      1 string Filename = "d1001_bennie_refugee"
@@ -12015,25 +12015,25 @@
       1 Array Array (10 items)
        0 int size = 10
        [0]
-        1 string data = "Inside the rusted yellow sports car you find a crumbling neoprene mask with an X on the forehead. \r\n\r\nYou also find a radio in the dashboard. Strangely, it seems to have power."
+        1 string data = "錆びた黄色のスポーツカーの中に、額にXマークの入ったボロボロのネオプレンマスクを見つける。\r\n\r\nダッシュボードにはラジオもある。不思議なことに、電源が入っているようだ。"
        [1]
-        1 string data = "Strangely, the radio seems to have power."
+        1 string data = "不思議なことに、ラジオに電源が入っているようだ。"
        [2]
-        1 string data = "Push the radio's first preset button."
+        1 string data = "ラジオの第1プリセットボタンを押す。"
        [3]
-        1 string data = "Push the radio's second preset button."
+        1 string data = "ラジオの第2プリセットボタンを押す。"
        [4]
-        1 string data = "Push the radio's third preset button."
+        1 string data = "ラジオの第3プリセットボタンを押す。"
        [5]
-        1 string data = "Push the radio's fourth preset button."
+        1 string data = "ラジオの第4プリセットボタンを押す。"
        [6]
-        1 string data = "Push the radio's fifth preset button."
+        1 string data = "ラジオの第5プリセットボタンを押す。"
        [7]
-        1 string data = "The car horn gives a cheery toot and the lights come on."
+        1 string data = "車のホーンが陽気に鳴り、ライトが点灯する。"
        [8]
-        1 string data = "The car's horn makes a sad bleat and the radio turns off."
+        1 string data = "車のホーンが悲しそうに鳴き、ラジオが消える。"
        [9]
-        1 string data = "The number nine is painted on the side of this once sleek yellow sports car, faded and flaking from years in the wind and snow."
+        1 string data = "かつて流麗だったこの黄色いスポーツカーの側面には9という数字が描かれており、長年の風と雪で色あせて剥がれている。"
    [47]
     0 StringTable data
      1 string Filename = "d1001_car02"
@@ -12119,41 +12119,41 @@
       1 Array Array (18 items)
        0 int size = 18
        [0]
-        1 string data = "Inside the disintergrating racing buggy you find a book titled 'How to Talk to your Car.' \r\n\r\nYou also find a radio in the dashboard. Strangely, it seems to have power."
+        1 string data = "崩壊しつつあるレーシングバギーの中に『車との会話術』という本を見つける。\r\n\r\nダッシュボードにはラジオもある。不思議なことに、電源が入っているようだ。"
        [1]
-        1 string data = "Strangely, the radio seems to have power."
+        1 string data = "不思議なことに、ラジオに電源が入っているようだ。"
        [2]
-        1 string data = "Put the radio's first preset button."
+        1 string data = "ラジオの第1プリセットボタンを押す。"
        [3]
-        1 string data = "The car horn gives a cheery toot and the headlights come on."
+        1 string data = "車のホーンが陽気に鳴り、ヘッドライトが点灯する。"
        [4]
-        1 string data = "The car's horn makes a sad bleat and the radio turns off."
+        1 string data = "車のホーンが悲しそうに鳴き、ラジオが消える。"
        [5]
-        1 string data = "Put the radio's first preset button."
+        1 string data = "ラジオの第1プリセットボタンを押す。"
        [6]
-        1 string data = "Put the radio's first preset button."
+        1 string data = "ラジオの第1プリセットボタンを押す。"
        [7]
-        1 string data = "Put the radio's first preset button."
+        1 string data = "ラジオの第1プリセットボタンを押す。"
        [8]
-        1 string data = "Put the radio's first preset button."
+        1 string data = "ラジオの第1プリセットボタンを押す。"
        [9]
-        1 string data = "Strangely, the radio seems to have power."
+        1 string data = "不思議なことに、ラジオに電源が入っているようだ。"
        [10]
-        1 string data = "Push the radio's first preset button."
+        1 string data = "ラジオの第1プリセットボタンを押す。"
        [11]
-        1 string data = "The car horn gives a cheery toot and the lights come on."
+        1 string data = "車のホーンが陽気に鳴り、ライトが点灯する。"
        [12]
-        1 string data = "The car's horn makes a sad bleat and the radio turns off."
+        1 string data = "車のホーンが悲しそうに鳴き、ラジオが消える。"
        [13]
-        1 string data = "Push the radio's second preset button."
+        1 string data = "ラジオの第2プリセットボタンを押す。"
        [14]
-        1 string data = "Push the radio's third preset button."
+        1 string data = "ラジオの第3プリセットボタンを押す。"
        [15]
-        1 string data = "Push the radio's fourth preset button."
+        1 string data = "ラジオの第4プリセットボタンを押す。"
        [16]
-        1 string data = "Push the radio's fifth preset button."
+        1 string data = "ラジオの第5プリセットボタンを押す。"
        [17]
-        1 string data = "A cute little racing buggy with a red, white, and blue stripe and the number sixty three painted on its rusting hood."
+        1 string data = "赤・白・青のストライプと63という数字が錆びたボンネットに描かれた、可愛らしい小さなレーシングバギー。"
    [48]
     0 StringTable data
      1 string Filename = "d1001_car03"
@@ -12239,41 +12239,41 @@
       1 Array Array (18 items)
        0 int size = 18
        [0]
-        1 string data = "Inside the dilapidated police car you find a log book on the passenger seat. The last entry reads, 'I have no idea where we are.' \r\n\r\nYou also find a radio in the dashboard. Strangely, it seems to have power."
+        1 string data = "荒廃したパトカーの中の助手席に航海日誌を見つける。最後のエントリには『どこにいるのかまったく分からない』と書かれている。\r\n\r\nダッシュボードにはラジオもある。不思議なことに、電源が入っているようだ。"
        [1]
-        1 string data = "Strangely, the radio seems to have power."
+        1 string data = "不思議なことに、ラジオに電源が入っているようだ。"
        [2]
-        1 string data = "Put the radio's first preset button."
+        1 string data = "ラジオの第1プリセットボタンを押す。"
        [3]
-        1 string data = "The car horn gives a cheery toot and the headlights come on."
+        1 string data = "車のホーンが陽気に鳴り、ヘッドライトが点灯する。"
        [4]
-        1 string data = "The car's horn makes a sad bleat and the radio turns off."
+        1 string data = "車のホーンが悲しそうに鳴き、ラジオが消える。"
        [5]
-        1 string data = "Put the radio's first preset button."
+        1 string data = "ラジオの第1プリセットボタンを押す。"
        [6]
-        1 string data = "Put the radio's first preset button."
+        1 string data = "ラジオの第1プリセットボタンを押す。"
        [7]
-        1 string data = "Put the radio's first preset button."
+        1 string data = "ラジオの第1プリセットボタンを押す。"
        [8]
-        1 string data = "Put the radio's first preset button."
+        1 string data = "ラジオの第1プリセットボタンを押す。"
        [9]
-        1 string data = "Strangely, the radio seems to have power."
+        1 string data = "不思議なことに、ラジオに電源が入っているようだ。"
        [10]
-        1 string data = "Push the radio's first preset button."
+        1 string data = "ラジオの第1プリセットボタンを押す。"
        [11]
-        1 string data = "The car horn gives a cheery toot and the lights come on."
+        1 string data = "車のホーンが陽気に鳴り、ライトが点灯する。"
        [12]
-        1 string data = "The car's horn makes a sad bleat and the radio turns off."
+        1 string data = "車のホーンが悲しそうに鳴き、ラジオが消える。"
        [13]
-        1 string data = "Push the radio's second preset button."
+        1 string data = "ラジオの第2プリセットボタンを押す。"
        [14]
-        1 string data = "Push the radio's third preset button."
+        1 string data = "ラジオの第3プリセットボタンを押す。"
        [15]
-        1 string data = "Push the radio's fourth preset button."
+        1 string data = "ラジオの第4プリセットボタンを押す。"
        [16]
-        1 string data = "Push the radio's fifth preset button."
+        1 string data = "ラジオの第5プリセットボタンを押す。"
        [17]
-        1 string data = "This police car has seen better decades. On its rusted and bullet-riddled door is painted a faint number fifty four."
+        1 string data = "このパトカーは良い時代を過ごしたことがある。錆びて弾痕だらけのドアには、かすかに54という数字が描かれている。"
    [49]
     0 StringTable data
      1 string Filename = "d1001_carla"
