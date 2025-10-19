@@ -9,7 +9,9 @@ set -e
 MAX_MEMORY_MB=7000
 ENTRIES_PER_SESSION=2500
 MAX_SESSIONS=100
-WORKING_DIR="/home/user/project_claude/game_wasteland/wasteland3-vanilla-langpack-japanese"
+# Get the directory where this script is located, then get the parent directory (repository root)
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+WORKING_DIR="$(cd "$SCRIPT_DIR/.." && pwd)"
 LOG_FILE="$WORKING_DIR/automation/translation-automation.log"
 SESSION_COUNT=0
 TOTAL_ENTRIES=0

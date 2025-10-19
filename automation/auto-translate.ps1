@@ -6,13 +6,19 @@ param(
     [int]$MaxMemoryMB = 7000,           # Restart when Claude Code uses this much memory
     [int]$EntriesPerSession = 2500,     # Target entries per session
     [int]$MaxSessions = 100,            # Maximum number of sessions to run (safety limit)
-    [string]$WorkingDir = "/home/user/project_claude/game_wasteland/wasteland3-vanilla-langpack-japanese"
+    [string]$WorkingDir = ""            # Auto-detect if not specified
 )
 
 # Configuration
 $ErrorActionPreference = "Continue"
 $SessionCount = 0
 $TotalEntriesTranslated = 0
+
+# Auto-detect working directory if not specified
+if ([string]::IsNullOrEmpty($WorkingDir)) {
+    $ScriptDir = Split-Path -Parent $PSCommandPath
+    $WorkingDir = Split-Path -Parent $ScriptDir
+}
 
 # Logging function
 function Write-Log {
