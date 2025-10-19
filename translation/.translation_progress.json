@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-20T06:58:42+09:00",
+  "last_updated": "2025-10-20T07:45:00+09:00",
   "current_file": "StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
-  "total_entries_completed": 8665,
-  "last_completed_section": "DLC1: d2001_nurse_asstrahmen (completed - 38 entries translated)",
-  "next_section_to_translate": "DLC1: d2001_oluwademilade",
-  "next_action": "Continue sequential translation in DLC1 file: d2001_oluwademilade section (126 entries)",
-  "notes": "Session progress (2025-10-20 Session 31): Translated 3 sections (165 entries): d2001_marcia (57), d2001_nursefirenze (70), d2001_nurse_asstrahmen (38). Total cumulative: 8665 entries.",
+  "total_entries_completed": 8908,
+  "last_completed_section": "DLC1: d2001_recruit_personalitytest (completed - 8 entries translated)",
+  "next_section_to_translate": "DLC1: d2001_serenaash (partial - continue from entry [24])",
+  "next_action": "Continue sequential translation in DLC1 file: d2001_serenaash section (88 entries total, 17 completed, 71 remaining)",
+  "notes": "Session progress (2025-10-20 Session 32): Translated 9 sections (243 entries): d2001_oluwademilade (126), d2001_recruit_brainhelmet (13), d2001_recruit_brainhelmet_spectator (7), d2001_recruit_breathregulation (7), d2001_recruit_equipment (6), d2001_recruit_gyrosphere (14), d2001_recruit_gyrosphere_spectator (22), d2001_recruit_orientation (23), d2001_recruit_personalitytest (8), and partial d2001_serenaash (17/88). Total cumulative: 8908 entries.",
   "sections_completed": [
     "Base game - 0000_dorseyssnowedinn_radio",
     "Base game - 0000_gonzalez_radio_contactwithazrangers",
@@ -266,19 +266,29 @@
     "DLC1 - d2001_lunamoon",
     "DLC1 - d2001_marcia",
     "DLC1 - d2001_nursefirenze",
-    "DLC1 - d2001_nurse_asstrahmen"
+    "DLC1 - d2001_nurse_asstrahmen",
+    "DLC1 - d2001_oluwademilade",
+    "DLC1 - d2001_recruit_brainhelmet",
+    "DLC1 - d2001_recruit_brainhelmet_spectator",
+    "DLC1 - d2001_recruit_breathregulation",
+    "DLC1 - d2001_recruit_equipment",
+    "DLC1 - d2001_recruit_gyrosphere",
+    "DLC1 - d2001_recruit_gyrosphere_spectator",
+    "DLC1 - d2001_recruit_orientation",
+    "DLC1 - d2001_recruit_personalitytest"
   ],
   "partially_translated_sections": [
     "Base game - a1001_docparker (partial - entries [366]-[388] translated)",
-    "Base game - a1001_handcraft (partial - entries [54]-[90] translated)"
+    "Base game - a1001_handcraft (partial - entries [54]-[90] translated)",
+    "DLC1 - d2001_serenaash (partial - entries [0]-[23] translated, 17 entries / 88 total)"
   ],
   "base_game_sections_completed": 88,
-  "dlc1_sections_completed": 164,
+  "dlc1_sections_completed": 172,
   "base_game_entries_completed": 906,
-  "dlc1_entries_completed": 7759,
+  "dlc1_entries_completed": 8002,
   "estimated_total_entries_base_game": "~81000",
   "estimated_total_entries_dlc1": "~120000",
   "estimated_total_entries_all": "~728000",
-  "last_commit": "3c844ce",
-  "session_number": 26
+  "last_commit": "267a59a",
+  "session_number": 32
 }
