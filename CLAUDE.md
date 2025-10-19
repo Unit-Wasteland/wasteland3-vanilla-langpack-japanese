@@ -155,7 +155,7 @@ wc -l translation/target/v1.6.9.420.309496/ja_JP/*.txt
 4. **Simplified workflow**: No coordination overhead between main session and subagent
 
 **Key principles for automated translation:**
-- **Strict memory management**: Process in 100-200 line chunks, commit every 1000 entries
+- **Strict memory management**: Process in 100-200 line chunks, commit every 500 entries or after each section (whichever comes first)
 - **Sequential processing**: Never batch operations that can be done sequentially
 - **Frequent commits**: Regular commits reduce memory pressure and enable recovery
 - **Session restarts**: Automated scripts handle session restarts when memory threshold reached
@@ -164,16 +164,16 @@ wc -l translation/target/v1.6.9.420.309496/ja_JP/*.txt
 1. Read progress from `translation/.translation_progress.json`
 2. Process translation in small chunks (100-200 lines per Read/Edit operation)
 3. Reference `translation/nouns_glossary.json` for consistent terminology
-4. Commit every 1000 entries to reduce memory pressure
-5. Update progress file after each major milestone
+4. Commit every 500 entries or after each section completion (whichever comes first) to reduce memory pressure
+5. Update progress file after each commit
 6. Continue until target entry count reached or file completed
 
 **For manual translation sessions:**
 When user requests translation manually (not via automation script):
 - Process in 100-200 line chunks
-- Commit every 1000 entries or after major sections
+- Commit every 500 entries or after each section completion (whichever comes first)
 - Reference glossary for all proper nouns
-- Update progress file regularly
+- Update progress file after each commit
 - Monitor memory usage and restart session if approaching 6-7GB
 
 **For automated translation:**
@@ -197,7 +197,7 @@ The `automation/auto-translate.sh` script handles:
 - Translate each `string data` field in order
 - Process in 100-200 line chunks (Read → Translate → Edit → Verify)
 - Reference glossary for all proper nouns
-- Commit every 1000 entries
+- Commit every 500 entries or after each section completion (whichever comes first)
 - Verify format preservation after each section
 - Move to next file only after completing current file
 
@@ -316,7 +316,7 @@ When processing large translation files (530K+ lines), Node.js can run out of me
    - If approaching 80%, commit current work and restart
 
 4. **Save frequently**
-   - **CRITICAL**: Commit translations every 1000 lines (or after each major mission section, whichever is smaller)
+   - **CRITICAL**: Commit translations every 500 entries (or after each section completion, whichever comes first)
    - Don't wait until entire file is complete
    - Use descriptive commit messages noting progress (e.g., "Translate a1001_thepatriarch entries [0-49] (50 entries)")
    - After each commit, memory pressure is reduced for next chunk
@@ -329,10 +329,10 @@ When processing large translation files (530K+ lines), Node.js can run out of me
 2. **ALWAYS use chunked approach**: Read → Translate → Edit → Verify → Repeat
 3. **Maximum chunk size**: 100-200 lines per Read/Edit operation (NEVER exceed 300 lines)
    - **After OOM error**: Reduce to 50-100 lines per chunk
-4. **Checkpoint frequency**: Commit every 1000 entries or every major mission section
+4. **Checkpoint frequency**: Commit every 500 entries or after each section completion (whichever comes first)
 5. **Memory check frequency**: Monitor after every 3-5 chunks (every ~500-1000 lines)
 6. **Sequential processing**: Process one chunk at a time, never batch multiple chunks together
-7. **Commit immediately**: After completing a checkpoint (1000 entries), commit before continuing
+7. **Commit immediately**: After completing a checkpoint, commit before continuing
 8. **Update progress file**: After each commit, update `translation/.translation_progress.json`
 
 ### 5. Signs of Memory Pressure
