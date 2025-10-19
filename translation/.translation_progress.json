@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-20T03:15:00+09:00",
+  "last_updated": "2025-10-20T12:30:00+09:00",
   "current_file": "StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
-  "total_entries_completed": 4205,
-  "last_completed_section": "DLC1: d1001_tvarchie (complete, 5/5 entries)",
-  "next_section_to_translate": "DLC1: d1001_tvedith (49 entries)",
-  "next_action": "Continue sequential translation in DLC1 file: d1001_tvedith and subsequent sections",
-  "notes": "Session progress (2025-10-20 Session 12): Completed 12 sections totaling 279 entries - d1001_steeltownguard_carstolen (9), d1001_steeltownguard_clinic (52), d1001_steeltownguard_courtyard (22), d1001_steeltownguard_exterior (78), d1001_steeltownguard_gates (37), d1001_steeltownguard_ludlowslaveauction (15), d1001_steeltownguard_threateninganimal (7), d1001_steeltownguard_westgate (5), d1001_steeltownworker_beth (8), d1001_sugarplummary (40), d1001_takayuki (1), d1001_tvarchie (5). Total cumulative: 4205 entries.",
+  "total_entries_completed": 4459,
+  "last_completed_section": "DLC1: d1001_blue (complete, 47/47 entries)",
+  "next_section_to_translate": "DLC1: d1001_blue_radio (21 entries)",
+  "next_action": "Continue sequential translation in DLC1 file: d1001_blue_radio and subsequent sections",
+  "notes": "Session progress (2025-10-20 Session 13): Completed 6 sections totaling 254 entries - d1001_tvedith (49), d1001_winnebago (38), d1001_worker_prisoner (18), d2101_refugee_newt (1), d_follower_bearsuitvinters (101), d1001_blue (47). Total cumulative: 4459 entries.",
   "sections_completed": [
     "Base game - 0000_dorseyssnowedinn_radio",
     "Base game - 0000_gonzalez_radio_contactwithazrangers",
@@ -184,19 +184,25 @@
     "DLC1 - d1001_steeltownworker_beth",
     "DLC1 - d1001_sugarplummary",
     "DLC1 - d1001_takayuki",
-    "DLC1 - d1001_tvarchie"
+    "DLC1 - d1001_tvarchie",
+    "DLC1 - d1001_tvedith",
+    "DLC1 - d1001_winnebago",
+    "DLC1 - d1001_worker_prisoner",
+    "DLC1 - d2101_refugee_newt",
+    "DLC1 - d_follower_bearsuitvinters",
+    "DLC1 - d1001_blue"
   ],
   "partially_translated_sections": [
     "Base game - a1001_docparker (partial - entries [366]-[388] translated)",
     "Base game - a1001_handcraft (partial - entries [54]-[90] translated)"
   ],
   "base_game_sections_completed": 88,
-  "dlc1_sections_completed": 88,
+  "dlc1_sections_completed": 94,
   "base_game_entries_completed": 906,
-  "dlc1_entries_completed": 3299,
+  "dlc1_entries_completed": 3553,
   "estimated_total_entries_base_game": "~81000",
   "estimated_total_entries_dlc1": "~120000",
   "estimated_total_entries_all": "~728000",
-  "last_commit": "4b530c7",
-  "session_number": 12
+  "last_commit": "9ba2648",
+  "session_number": 13
 }
