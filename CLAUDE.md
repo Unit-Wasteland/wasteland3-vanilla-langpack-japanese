@@ -6,6 +6,30 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is a Japanese language pack translation project for Wasteland 3, a post-apocalyptic RPG game. The repository contains Unity StringTable data files extracted from the game that need to be translated from English (en_US) to Japanese (ja_JP).
 
+### 🤖 Automated Translation System
+
+This project features a **fully automated translation system** that can run unattended for days/weeks:
+
+**Key Components:**
+- **Automation Scripts**: `automation/auto-translate.sh` (Bash) and `automation/auto-translate.ps1` (PowerShell)
+- **Progress Persistence**: `translation/.translation_progress.json` automatically tracks progress
+- **AI Agent**: `wasteland3-translator` subagent performs actual translation work
+- **Memory Management**: Automatic session restart when memory reaches 6-7GB threshold
+
+**Usage Modes:**
+1. **Fully Automated** (Recommended for bulk translation):
+   ```bash
+   ./automation/auto-translate.sh  # Runs unattended until completion
+   ```
+
+2. **Manual Session** (For targeted translation or testing):
+   ```bash
+   claude
+   # Then: "translation/.translation_progress.json を読み込んで、CLAUDE.mdのルールに従って翻訳作業を継続してください。"
+   ```
+
+See [`automation/README.md`](automation/README.md) for detailed automation documentation.
+
 ## Repository Structure
 
 ```
