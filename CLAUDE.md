@@ -13,7 +13,7 @@ This project features a **fully automated translation system** that can run unat
 **Key Components:**
 - **Automation Scripts**: `automation/auto-translate.sh` (Bash) and `automation/auto-translate.ps1` (PowerShell)
 - **Progress Persistence**: `translation/.translation_progress.json` automatically tracks progress
-- **AI Agent**: `wasteland3-translator` subagent performs actual translation work
+- **Direct Translation**: Main Claude Code session performs translation work (no subagent overhead)
 - **Memory Management**: Automatic session restart when memory reaches 6-7GB threshold
 
 **Usage Modes:**
@@ -141,84 +141,48 @@ wc -l translation/target/v1.6.9.420.309496/ja_JP/*.txt
    - Check the `do_not_translate` section in `translation/nouns_glossary.json` for the complete list
    - When in doubt, compare with the English source file - if it's identical in structure to technical terms, do NOT translate it
 
-### Translation Execution Strategy - Use Subagent (MANDATORY)
+### Translation Execution Strategy - Direct Translation in Main Session
 
-⚠️ **CRITICAL: All translation work MUST be performed by the wasteland3-translator subagent**
+⚠️ **IMPORTANT: Translation work is performed directly in the main Claude Code session**
 
-**Why use subagent:**
-1. **Token management**: Translation tasks consume large amounts of tokens. Using a subagent allows session switching when tokens run low
-2. **Session continuity**: If main session runs out of tokens, you can start a new session and continue translation without losing progress
-3. **Memory isolation**: Each subagent has its own memory space, preventing heap out of memory errors in the main session
-4. **Specialized context**: The subagent maintains focused context on translation work only
+**Why direct translation (not subagent):**
+1. **Permission handling**: Subagents require manual permission approval for file edits, which blocks automation
+2. **Automation compatibility**: Direct translation enables fully unattended automated execution
+3. **Memory management**: Strict chunking and commit strategies prevent memory issues
+4. **Simplified workflow**: No coordination overhead between main session and subagent
 
-**NEVER perform translation in the main session** - This is the primary cause of out of memory errors. The main session should only:
-- Route translation requests to the wasteland3-translator subagent
-- Monitor progress and handle user questions
-- Manage git operations based on subagent completion reports
+**Key principles for automated translation:**
+- **Strict memory management**: Process in 100-200 line chunks, commit every 1000 entries
+- **Sequential processing**: Never batch operations that can be done sequentially
+- **Frequent commits**: Regular commits reduce memory pressure and enable recovery
+- **Session restarts**: Automated scripts handle session restarts when memory threshold reached
 
-**When to use the wasteland3-translator subagent:**
-- ALL translation tasks (creating glossary, translating files, quality checks)
-- When user requests: "翻訳してください", "翻訳を続けて", "translate", "continue translation"
-- When working with StringTable files in translation/target/ directory
-- When updating or creating nouns_glossary.json
+**Translation workflow:**
+1. Read progress from `translation/.translation_progress.json`
+2. Process translation in small chunks (100-200 lines per Read/Edit operation)
+3. Reference `translation/nouns_glossary.json` for consistent terminology
+4. Commit every 1000 entries to reduce memory pressure
+5. Update progress file after each major milestone
+6. Continue until target entry count reached or file completed
 
-**How to invoke the subagent:**
+**For manual translation sessions:**
+When user requests translation manually (not via automation script):
+- Process in 100-200 line chunks
+- Commit every 1000 entries or after major sections
+- Reference glossary for all proper nouns
+- Update progress file regularly
+- Monitor memory usage and restart session if approaching 6-7GB
 
-Use the Task tool with `subagent_type: "wasteland3-translator"`:
-
-```
-Task tool parameters:
-- subagent_type: "wasteland3-translator"
-- description: "Translate [file name] [section/line range]"
-- prompt: "Detailed instructions for the translation task, including:
-    - Specific file path to translate
-    - Line range or section to work on (if applicable)
-    - Current progress/checkpoint
-    - Any specific instructions or context
-    - Reference to CLAUDE.md guidelines"
-```
-
-**Example invocations:**
-
-1. Starting new translation:
-```
-subagent_type: "wasteland3-translator"
-description: "Translate CAB-12345.txt"
-prompt: "Translate translation/source/v1.6.9.420.309496/en_US/StringTableData_English-CAB-12345.txt to Japanese. Follow all guidelines in CLAUDE.md. CRITICAL: Process in chunks of 100-200 lines maximum to prevent out of memory errors. Commit progress every 1000 lines. Start from line 1."
-```
-
-2. Continuing translation:
-```
-subagent_type: "wasteland3-translator"
-description: "Continue CAB-12345 from line 5000"
-prompt: "Continue translating StringTableData_English-CAB-12345.txt from line 5000. Last completed section was 'mission_c2000_something'. Follow CLAUDE.md guidelines. CRITICAL: Use 100-200 line chunks, commit every 1000 lines to prevent memory issues."
-```
-
-3. Creating/updating glossary:
-```
-subagent_type: "wasteland3-translator"
-description: "Update nouns glossary"
-prompt: "Update translation/nouns_glossary.json with new proper nouns found in [specific file or section]. Follow glossary structure and categorization rules in CLAUDE.md."
-```
-
-**Main session responsibilities:**
-- Route translation requests to wasteland3-translator subagent
-- Monitor overall progress
-- Handle user questions about translation status
-- Manage git operations (commits, branches) based on subagent reports
-- Coordinate between multiple translation tasks if needed
-
-**Subagent responsibilities:**
-- Perform actual translation work
-- Read source files and write target files
-- Follow all translation guidelines in CLAUDE.md
-- Manage memory by processing in chunks
-- Report progress and completion status back to main session
+**For automated translation:**
+The `automation/auto-translate.sh` script handles:
+- Session memory monitoring and automatic restart
+- Progress tracking across multiple sessions
+- Error detection (3 consecutive sessions with 0 entries = stop)
+- Logging to `automation/translation-automation.log`
 
 ### Translation Workflow Steps
 
 **Step 1: Glossary Setup**
-- **IMPORTANT**: Invoke wasteland3-translator subagent for glossary creation/updates
 - Use the existing glossary at `translation/nouns_glossary.json`
 - **CRITICAL**: Use ONLY `translation/nouns_glossary.json` - do NOT create additional glossary files
 - The glossary is organized into categories: organizations_factions, characters, locations, etc.
@@ -226,19 +190,20 @@ prompt: "Update translation/nouns_glossary.json with new proper nouns found in [
 - When encountering new proper nouns, add them to the appropriate category in the existing glossary
 
 **Step 2: Sequential Translation**
-- **IMPORTANT**: Invoke wasteland3-translator subagent for all translation work
-- Subagent should start from line 1 of the first file
+- Start from line 1 of the first file (or resume from progress file)
 - Translate each `string data` field in order
+- Process in 100-200 line chunks (Read → Translate → Edit → Verify)
 - Reference glossary for all proper nouns
+- Commit every 1000 entries
 - Verify format preservation after each section
 - Move to next file only after completing current file
 
 **Step 3: Quality Check**
-- **IMPORTANT**: Invoke wasteland3-translator subagent for quality verification
 - Verify no Simplified Chinese characters
-- Verify line counts match exactly
+- Verify line counts match exactly between source and target
 - Verify all proper nouns use glossary translations
 - Verify no structural changes
+- Check git diff for any unexpected modifications
 
 ## Working with Large Files
 
@@ -254,14 +219,14 @@ The files are very large (530K+ lines). When editing:
 
 When processing large translation files (530K+ lines), Node.js can run out of memory and crash. Follow these rules STRICTLY:
 
-**IMPORTANT**: All translation work should be performed by the wasteland3-translator subagent (see "Translation Execution Strategy" section above). This provides additional memory isolation and allows session continuity even if memory issues occur.
+**IMPORTANT**: Translation work is performed directly in the main session (see "Translation Execution Strategy" section above). Strict memory management is essential for successful completion.
 
 ### Session Memory Management
 
-⚠️ **CRITICAL FINDING**: Even with subagent usage, the main Claude Code session's memory grows continuously because:
-- Subagent results are received by the main session
-- Translation progress reports accumulate in memory
-- File read/edit operations build up in session history
+⚠️ **CRITICAL FINDING**: The main Claude Code session's memory grows continuously because:
+- Translation progress data accumulates in session history
+- File read/edit operations build up in memory
+- Large files require significant heap space
 
 **Solution: Periodic Session Restart**
 
@@ -277,7 +242,7 @@ When processing large translation files (530K+ lines), Node.js can run out of me
    - Resume with: `translation/.translation_progress.json を読み込んで、CLAUDE.mdのルールに従って翻訳作業を継続してください。`
 
 3. **Progress state file**: `translation/.translation_progress.json`
-   - Updated automatically by wasteland3-translator subagent after each major milestone
+   - Updated automatically after each major milestone (commit points)
    - Contains: last completed section, total entries, next action, git commit hash
    - Enables seamless continuation across session restarts
 
@@ -355,16 +320,17 @@ When processing large translation files (530K+ lines), Node.js can run out of me
 
 ### 4. Translation Task Execution Rules
 
-**When wasteland3-translator subagent performs translation:**
+**When performing translation in main session:**
 
 1. **NEVER attempt to process entire files in one operation**
 2. **ALWAYS use chunked approach**: Read → Translate → Edit → Verify → Repeat
 3. **Maximum chunk size**: 100-200 lines per Read/Edit operation (NEVER exceed 300 lines)
    - **After OOM error**: Reduce to 50-100 lines per chunk
-4. **Checkpoint frequency**: Save/commit every 1000 lines or every mission section (whichever is smaller)
+4. **Checkpoint frequency**: Commit every 1000 entries or every major mission section
 5. **Memory check frequency**: Monitor after every 3-5 chunks (every ~500-1000 lines)
 6. **Sequential processing**: Process one chunk at a time, never batch multiple chunks together
-7. **Commit immediately**: After completing a checkpoint (1000 lines), commit before continuing
+7. **Commit immediately**: After completing a checkpoint (1000 entries), commit before continuing
+8. **Update progress file**: After each commit, update `translation/.translation_progress.json`
 
 ### 5. Signs of Memory Pressure
 

@@ -30,7 +30,7 @@ cd /home/user/project_claude/game_wasteland/wasteland3-vanilla-langpack-japanese
 
 1. **セッション開始**: Claude Codeを起動
 2. **進捗読み込み**: `.translation_progress.json`から前回の続きを読み込み
-3. **自動翻訳**: wasteland3-translatorサブエージェントで翻訳実行
+3. **自動翻訳**: メインセッションで直接翻訳実行（100-200行チャンク、1000エントリごとにコミット）
 4. **メモリ監視**: メモリ使用量を監視（30秒ごと）
 5. **自動再起動**: 以下の条件でセッションを終了・再起動
    - メモリが閾値（デフォルト7GB）を超えた
@@ -38,6 +38,11 @@ cd /home/user/project_claude/game_wasteland/wasteland3-vanilla-langpack-japanese
    - タイムアウト（1時間）に達した
 6. **ループ継続**: 次のセッションを自動的に開始
 7. **完了検出**: 翻訳完了を検出したら自動終了
+
+**重要な変更点（2025-10）:**
+- サブエージェントを使用せず、メインセッションで直接翻訳を実行
+- 権限承認の問題を回避し、完全な無人実行を実現
+- 厳格なメモリ管理（チャンク処理、頻繁なコミット）で安定性を確保
 
 ## 🎯 特徴
 
