@@ -56731,9 +56731,9 @@
       1 Array Array (2 items)
        0 int size = 2
        [0]
-        1 string data = "A framed child's drawing sits upon the table.\nIt seems to depict a parent with two daughters."
+        1 string data = "額に入った子供の絵がテーブルの上に置かれている。\n親と二人の娘を描いているようだ。"
        [1]
-        1 string data = "Leave"
+        1 string data = "立ち去る"
    [190]
     0 StringTable data
      1 string Filename = "d2001_int_markhamsecretsafe"
@@ -56775,19 +56775,19 @@
       1 Array Array (7 items)
        0 int size = 7
        [0]
-        1 string data = "A large Steeltown emblem hangs on the wall."
+        1 string data = "壁に大きなスティールタウンの紋章が掛かっている。"
        [1]
-        1 string data = "Admire it."
+        1 string data = "眺める。"
        [2]
-        1 string data = "The Steeltown emblem swings open to reveal a hidden vault."
+        1 string data = "スティールタウンの紋章が開き、隠された金庫が現れた。"
        [3]
-        1 string data = "You empty the vault and leave."
+        1 string data = "金庫を空にして立ち去る。"
        [4]
-        1 string data = "Loot the vault."
+        1 string data = "金庫から物を漁る。"
        [5]
-        1 string data = "Markham's secret vault is empty."
+        1 string data = "マーカムの秘密金庫は空だ。"
        [6]
-        1 string data = ""Step away from the vault.""
+        1 string data = "「金庫から離れる。」"
    [191]
     0 StringTable data
      1 string Filename = "d2001_int_warbot"
@@ -56869,27 +56869,27 @@
        [3]
         1 string data = ""
        [4]
-        1 string data = "The Showroom War-bot control interface allows the user to make the war-bot move and talk, but there are also other settings options available."
+        1 string data = "ショールーム・ウォーボット制御インターフェイスは、ユーザーがウォーボットを動かしたり話させたりできるようになっているが、他にも設定オプションがある。"
        [5]
-        1 string data = "[Attack] Use the synaptic degausser to return the war-bot to its original combat programming."
+        1 string data = "[攻撃] シナプス消磁器を使用して、ウォーボットを元の戦闘プログラムに戻す。"
        [6]
-        1 string data = "Inspect the war-bot system."
+        1 string data = "ウォーボットのシステムを調べる。"
        [7]
-        1 string data = "Step away."
+        1 string data = "離れる。"
        [8]
-        1 string data = "You log off and step away."
+        1 string data = "ログオフして離れる。"
        [9]
-        1 string data = "Using the synaptic degausser, you wipe the showroom protocols from the war-bot's processors and install yourselves as root admin."
+        1 string data = "シナプス消磁器を使用して、ウォーボットのプロセッサからショールームプロトコルを消去し、自分たちをルート管理者としてインストールした。"
        [10]
-        1 string data = "You dig through the system menus and see the war-bot is designed to be a showroom piece. Specialized display protocols override its core programming."
+        1 string data = "システムメニューを掘り下げると、このウォーボットはショールーム展示用に設計されていることがわかった。専用の展示プロトコルがコアプログラムを上書きしている。"
        [11]
-        1 string data = "Having returned the war-bot to its core combat programming, it no longer responds to this showroom control interface."
+        1 string data = "ウォーボットを元の戦闘プログラムに戻したため、このショールーム制御インターフェイスには反応しなくなった。"
        [12]
-        1 string data = "Having deactivated the war-bot, it no longer responds to this showroom control interface."
+        1 string data = "ウォーボットを無効化したため、このショールーム制御インターフェイスには反応しなくなった。"
        [13]
-        1 string data = "Deactivate the war-bot so you can strip it for parts."
+        1 string data = "ウォーボットを無効化して部品を取り外せるようにする。"
        [14]
-        1 string data = "Using the systems menu, you release the locks to the war-bot's maintainance panels, then deactivate it."
+        1 string data = "システムメニューを使用して、ウォーボットのメンテナンスパネルのロックを解除し、無効化した。"
    [192]
     0 StringTable data
      1 string Filename = "d2001_lazarblazer"
@@ -57247,171 +57247,171 @@
       1 Array Array (86 items)
        0 int size = 86
        [0]
-        1 string data = ""Sorry, I can't actually <i>sell</i> you anything 'til the factory is settled and Markham gives me the high sign. The freebies I gave you will have to do.""
+        1 string data = "「すまないが、工場の問題が解決してマーカムから合図があるまでは、実際に<i>販売</i>できないんだ。俺が渡した無料品で我慢してくれ。」"
        [1]
-        1 string data = ""Hey, guys, good work cleaning up that mess in the factory. Markham says I can sell you stuff now, so R&D is open for business!""
+        1 string data = "「やあ、みんな、工場の混乱を片付けてくれてありがとう。マーカムが販売許可を出したから、R&Dが営業開始だ!」"
        [2]
-        1 string data = ""What are you in the market for today?""
+        1 string data = "「今日は何をお探しですか?」"
        [3]
-        1 string data = ""何を売っているのか見せてくれ。""
+        1 string data = "「何を売っているのか見せてくれ。」"
        [4]
-        1 string data = ""Of course.""
+        1 string data = "「もちろん。」"
        [5]
-        1 string data = ""さようなら。""
+        1 string data = "「さようなら。」"
        [6]
-        1 string data = ""Have a non-lethal day!""
+        1 string data = "「非致死的な一日を!」"
        [7]
-        1 string data = ""Hi, Di. I have the non-lethal weapons Markham asked me to give your friends.""
+        1 string data = "「やあ、ダイ。マーカムが君の友人に渡すように言った非致死性武器を用意したよ。」"
        [8]
-        1 string data = ""How does the disruption tech work?""
+        1 string data = "「混乱テクノロジーはどう機能するんだ?」"
        [9]
-        1 string data = ""Show us what you've got.""
+        1 string data = "「何があるか見せてくれ。」"
        [10]
-        1 string data = ""We're not interested in non-lethal methods.""
+        1 string data = "「非致死性手段には興味がない。」"
        [11]
-        1 string data = ""Pretty clever if I do say so myself: the workers are all fitted with cybernetic controllers that connect them to their exoskeletons and other equipment.""
+        1 string data = "「自分で言うのもなんだが、なかなか賢いやり方でね。労働者は全員、外骨格やその他の装備に接続するサイバネティックコントローラーを装着しているんだ。」"
        [12]
-        1 string data = ""How does the disruption tech work?""
+        1 string data = "「混乱テクノロジーはどう機能するんだ?」"
        [13]
-        1 string data = ""Pretty clever if I do say so myself: the workers are all fitted with cybernetic controllers that connect them to their exoskeletons and other equipment.""
+        1 string data = "「自分で言うのもなんだが、なかなか賢いやり方でね。労働者は全員、外骨格やその他の装備に接続するサイバネティックコントローラーを装着しているんだ。」"
        [14]
-        1 string data = ""So what these weapons do is disrupt those controllers with feedback. Enough disruption and <i>zzzzz</i> the workers go nighty night but suffer no long term damage.""
+        1 string data = "「つまりこれらの武器は、フィードバックでそのコントローラーを混乱させるんだ。十分に混乱させれば<i>すやすや</i>と労働者はおやすみになるが、長期的なダメージは受けない。」"
        [15]
-        1 string data = ""Great, have a look!""
+        1 string data = "「いいね、見てみてくれ!」"
        [16]
         1 string data = ""
        [17]
-        1 string data = ""Uh, and Administrator Markham isn't interested in any worker casualties. So I'd advise you to take 'em.""
+        1 string data = "「ああ、それと管理者マーカムは労働者の犠牲者を一切望んでいない。だから受け取ることをお勧めするよ。」"
        [18]
-        1 string data = ""Thank you, researcher Blazer. Rangers, this is Lazer Blazer, a researcher in our R&D department, and its sales liasson.""
+        1 string data = "「ありがとう、ブレイザー研究員。レンジャーズ、この方がレイザー・ブレイザー、我々のR&D部門の研究員で販売担当だ。」"
        [19]
-        1 string data = ""It's Lazar, actually. Accent on the 'ZAR.' But yes. I'm your P.O.P. for R&D!""
+        1 string data = "「実はラザールだよ。アクセントは'ZAR'にある。でもそう、R&Dのあなた方のP.O.P.だ!」"
        [20]
-        1 string data = ""I strongly encourage you to use the disruption tech, Rangers. Factory efficiency could be degraded if labor resources are permanently lost.""
+        1 string data = "「混乱テクノロジーの使用を強くお勧めします、レンジャーズ。労働資源が永久に失われれば、工場の効率が低下する可能性があります。」"
        [21]
-        1 string data = ""Our next objective is finding Karl Ludlow, security chief. He will be on the factory level. Proceed to the elevator on the west end of this floor.""
+        1 string data = "「次の目標は、セキュリティチーフのカール・ラドローを見つけることだ。彼は工場階にいるはずだ。このフロアの西端にあるエレベーターに向かってくれ。」"
        [22]
         1 string data = "Script Node 333"
        [23]
-        1 string data = ""Good job fending off those raiders. Were the LTL weapons of any value?""
+        1 string data = "「レイダーたちを撃退するのは良い仕事だった。LTL武器は役に立ったかい?」"
        [24]
-        1 string data = ""I can't believe I'm still alive. That was intense.""
+        1 string data = "「まだ生きているなんて信じられない。すごい緊張だった。」"
        [25]
-        1 string data = ""P.O.P?""
+        1 string data = "「P.O.P?」"
        [26]
-        1 string data = ""Point of Purchase! That's sales lingo. I learned it in a book.""
+        1 string data = "「Point of Purchase! セールス用語だよ。本で学んだんだ。」"
        [27]
-        1 string data = ""That is incorrect, researcher Blazer.""
+        1 string data = "「それは正しくありません、ブレイザー研究員。」"
        [28]
-        1 string data = ""Come on, Di. You're not exactly helping my sales pitch here.""
+        1 string data = "「勘弁してくれよ、ダイ。私のセールストークの邪魔をしているじゃないか。」"
        [29]
-        1 string data = ""Apologies. This is the disclaimer required by the legal department.""
+        1 string data = "「申し訳ございません。これは法務部門が要求する免責事項です。」"
        [30]
-        1 string data = ""Have a look. Up to you to use them or not.""
+        1 string data = "「見てみてくれ。使うかどうかは君たち次第だよ。」"
        [31]
-        1 string data = ""Good luck out there!""
+        1 string data = "「外での幸運を祈る!」"
        [32]
-        1 string data = ""So what these weapons do is disrupt those controllers with feedback. Enough disruption and <i>zzzzz</i> the workers go nighty night but suffer no long term damage.""
+        1 string data = "「つまりこれらの武器は、フィードバックでそのコントローラーを混乱させるんだ。十分に混乱させれば<i>すやすや</i>と労働者はおやすみになるが、長期的なダメージは受けない。」"
        [33]
         1 string data = ""
        [34]
-        1 string data = ""Rangers, let's get you outfitted for the factory!""
+        1 string data = "「レンジャーズ、工場用の装備を準備しよう!」"
        [35]
-        1 string data = ""Over here, Rangers, I've got your equipment for the factory.""
+        1 string data = "「こっちだ、レンジャーズ、工場用の装備を用意したよ。」"
        [36]
         1 string data = ""
        [37]
-        1 string data = ""Sorry, guys, if Markham says I'm supposed to give you this batch, you gotta take it all. Up to you what you want to do with it once it's signed over.""
+        1 string data = "「すまないが、みんな、マーカムがこのバッチを渡すように言っているなら、全部受け取らなければならない。引き渡し後にどうするかは君たち次第だ。」"
        [38]
-        1 string data = ""Oh, uh, just to warn you, I <i>do</i> have to charge a $1 processing fee for each item. Sorry.""
+        1 string data = "「ああ、その、念のために言っておくが、各アイテムに1ドルの処理手数料を請求しなければならないんだ。すまない。」"
        [39]
-        1 string data = ""Is it LaZAR BlaZAR?""
+        1 string data = "「LaZAR BlaZARなのか?」"
        [40]
-        1 string data = ""No. It's Lazar Blazer. I don't know why people have a problem with that.""
+        1 string data = "「いや。Lazar Blazerだよ。なぜみんなそれに問題があるのかわからないけど。」"
        [41]
-        1 string data = ""Long term effects include occasional fainting, sleep loss, hairloss, memory loss, nosebleeds, erectile disfunction, and sterility. Short term effects include third degree burns, convulsions, and loss of bladder control.""
+        1 string data = "「長期的影響には、時折の失神、睡眠障害、脱毛、記憶喪失、鼻血、勃起不全、不妊症が含まれます。短期的影響には、三度熱傷、けいれん、失禁が含まれます。」"
        [42]
-        1 string data = ""So, you're saying the Computation Engine is to blame for the strike?""
+        1 string data = "「つまり、計算エンジンがストライキの原因だと言っているのか?」"
        [43]
-        1 string data = ""Well, they're armed with their tools, and they're deadly. Rivet guns, tar sprayers, ignition sticks - all of those things will mess you up - and they're mad enough to use 'em.""
+        1 string data = "「ああ、彼らは道具で武装していて、致命的だよ。リベットガン、タールスプレー、点火棒——これら全てが君をめちゃくちゃにするだろう——そして彼らはそれを使うほど怒っている。」"
        [44]
-        1 string data = ""That Salene Crow has got all the workers riled up. It's all Security Chief Ludlow can do to keep 'em penned up down in the factory. Otherwise they'd be running through here, tearing the place up and turning all our white collars red.""
+        1 string data = "「あのサリーン・クロウが労働者全員を煽り立てたんだ。セキュリティチーフのラドローが工場に閉じ込めておくのが精一杯だよ。でなければ、彼らはここを走り回って場所を破壊し、我々のホワイトカラーを全部レッドに変えてしまうだろう。」"
        [45]
         1 string data = ""
        [46]
-        1 string data = ""Are we really going to need these? How dangerous can striking workers be?""
+        1 string data = "「本当にこれらが必要なのか? ストライキ中の労働者がどれほど危険なんだ?」"
        [47]
-        1 string data = ""So, Salene Crow is just crazy?""
+        1 string data = "「サリーン・クロウは単に狂っているだけなのか?」"
        [48]
-        1 string data = ""Oh, I suppose she has some legitimate complaints, but she should have taken them through the proper channels, not started calling on the workers to smash the machines and hang the bosses.""
+        1 string data = "「ああ、彼女にはいくつか正当な不満があるとは思うが、正規のチャネルを通すべきだった。労働者に機械を破壊して上司を吊るせと呼びかけるべきではなかったんだ。」"
        [49]
-        1 string data = ""She's just too volatile for factory work. The Computation Engine should have never hired her.""
+        1 string data = "「彼女は工場作業には不安定すぎるんだ。計算エンジンは彼女を雇うべきではなかった。」"
        [50]
-        1 string data = ""I didn't say that! Stop putting words in my mouth! I- Look, if we don't have any more business, I've got work to do.""
+        1 string data = "「そんなこと言ってない! 勝手に言葉を口に入れるな! 私は——いいか、もうこれ以上用事がないなら、仕事があるんだ。」"
        [51]
-        1 string data = ""That is incorrect, researcher Blazer.""
+        1 string data = "「それは正しくありません、ブレイザー研究員。」"
        [52]
-        1 string data = ""Long term effects include occasional fainting, sleep loss, hairloss, memory loss, nosebleeds, erectile disfunction, and sterility. Short term effects include third degree burns, convulsions, and loss of bladder control.""
+        1 string data = "「長期的影響には、時折の失神、睡眠障害、脱毛、記憶喪失、鼻血、勃起不全、不妊症が含まれます。短期的影響には、三度熱傷、けいれん、失禁が含まれます。」"
        [53]
-        1 string data = ""Come on, Di. You're not exactly helping my sales pitch here.""
+        1 string data = "「勘弁してくれよ、ダイ。私のセールストークの邪魔をしているじゃないか。」"
        [54]
-        1 string data = ""Apologies. This is the disclaimer required by the legal department.""
+        1 string data = "「申し訳ございません。これは法務部門が要求する免責事項です。」"
        [55]
-        1 string data = ""Can we ask you some questions?""
+        1 string data = "「いくつか質問してもいいか?」"
        [56]
-        1 string data = ""Go right ahead.""
+        1 string data = "「どうぞ。」"
        [57]
-        1 string data = ""What do you know about what happened between Blue and Administrator Markham?""
+        1 string data = "「ブルーと管理者マーカムの間で何が起こったか知っているか?」"
        [58]
-        1 string data = ""情報をありがとう。""
+        1 string data = "「情報をありがとう。」"
        [59]
-        1 string data = ""Please, guys. She's <i>right</i> there.""
+        1 string data = "「頼むよ、みんな。彼女は<i>すぐそこに</i>いるんだぞ。」"
        [60]
-        1 string data = ""All I know is Blue stole something from Steeltown on his way out the door, and his gang of 'Ghosts' <i>continue</i> stealing from us every chance they get.""
+        1 string data = "「私が知っているのは、ブルーが出て行く時にスティールタウンから何かを盗んだことと、彼のギャング'ゴースト'が機会があるたびに我々から盗み<i>続けている</i>ことだけだ。」"
        [61]
-        1 string data = ""A lot of people around here remember Blue as a good guy, but in my book, actions like that make him nothing by a common crook.""
+        1 string data = "「この辺りの多くの人はブルーをいい奴として覚えているが、私の見方では、そういう行動は彼をただの泥棒にしている。」"
        [62]
-        1 string data = ""My pleasure.""
+        1 string data = "「どういたしまして。」"
        [63]
-        1 string data = ""Would these weapons be useful against the gangs when they get here?""
+        1 string data = "「これらの武器はギャングがここに来た時に役立つのか?」"
        [64]
-        1 string data = ""Uh, no. They only work on people wearing Steeltown brand cybernetic controllers - so just our workers.""
+        1 string data = "「ああ、いや。これらはスティールタウンブランドのサイバネティックコントローラーを着けている人にしか効かない——つまり我々の労働者だけだ。」"
        [65]
-        1 string data = ""If the gangs get here, and I hope they don't, you'll have to use normal weapons to fight them - even the Scar Collectors. Their cybernetics are all random bargain basement crap, and aren't compatible with ours.""
+        1 string data = "「もしギャングがここに来たら、そうならないことを願うが、普通の武器で戦わなければならない——スカー・コレクターに対してもだ。彼らのサイバネティックは全て安物のガラクタで、我々のものと互換性がないんだ。」"
        [66]
         1 string data = ""
        [67]
-        1 string data = ""Sorry! Store's closed! Now is not the time for non-lethal weapons!""
+        1 string data = "「すまない! 店は閉店中だ! 今は非致死性武器の時じゃない!」"
        [68]
-        1 string data = ""You want me to sell you things while all this fighting's going on? You're all crazy. Fortunately, so am I. Store's open.""
+        1 string data = "「この戦闘が起こっている最中に物を売って欲しいのか? お前らみんな狂ってる。幸い、俺もそうだ。店は開いてる。」"
        [69]
-        1 string data = ""Good point. We'll do this later.""
+        1 string data = "「いい指摘だ。後でやろう。」"
        [70]
-        1 string data = ""I'll be here! I hope.""
+        1 string data = "「ここにいるよ! たぶんね。」"
        [71]
-        1 string data = ""Thanks, Lazer! Lazer's a researcher in our R&D department, and he handles sales too.""
+        1 string data = "「ありがとう、レイザー! レイザーは我々のR&D部門の研究員で、販売も担当しているんだ。」"
        [72]
-        1 string data = ""Great. You're all set. Now we gotta find Karl Ludlow, our security chief. He'll be on the factory level. Let's head to the elevator. It's on the west end of this level.""
+        1 string data = "「いいね。準備完了だ。さあ、我々のセキュリティチーフ、カール・ラドローを見つけなければ。彼は工場階にいるはずだ。エレベーターに向かおう。このレベルの西端にあるよ。」"
        [73]
-        1 string data = ""Hang on, Lazar. You forgot all the side effects.""
+        1 string data = "「待って、ラザール。副作用を全部言い忘れてるわよ。」"
        [74]
-        1 string data = ""Long term effects include occasional fainting, sleep loss, hairloss, memory loss, nosebleeds, erectile disfunction, and sterility. Short term effects include third degree burns, convulsions, and loss of bladder control.""
+        1 string data = "「長期的影響には、時折の失神、睡眠障害、脱毛、記憶喪失、鼻血、勃起不全、不妊症が含まれます。短期的影響には、三度熱傷、けいれん、失禁が含まれます。」"
        [75]
-        1 string data = ""Sorry! Gotta say the disclaimer. It's required by the legal department.""
+        1 string data = "「すまない! 免責事項を言わなければならないんだ。法務部門の要求だよ。」"
        [76]
-        1 string data = ""You really should use use the disruption tech, Rangers. That's what Administrator Markham asked for, and if you don't kill all the striking workers, it'll save on us hiring new ones.""
+        1 string data = "「本当に混乱テクノロジーを使うべきだよ、レンジャーズ。それが管理者マーカムが求めたことだし、ストライキ中の労働者を全員殺さなければ、新しい労働者を雇う費用が節約できる。」"
        [77]
-        1 string data = ""Hang on, Lazar. You forgot all the side effects.""
+        1 string data = "「待って、ラザール。副作用を全部言い忘れてるわよ。」"
        [78]
-        1 string data = ""Long term effects include occasional fainting, sleep loss, hairloss, memory loss, nosebleeds, erectile disfunction, and sterility. Short term effects include third degree burns, convulsions, and loss of bladder control.""
+        1 string data = "「長期的影響には、時折の失神、睡眠障害、脱毛、記憶喪失、鼻血、勃起不全、不妊症が含まれます。短期的影響には、三度熱傷、けいれん、失禁が含まれます。」"
        [79]
-        1 string data = ""Sorry! Gotta say the disclaimer. It's required by the legal department.""
+        1 string data = "「すまない! 免責事項を言わなければならないんだ。法務部門の要求だよ。」"
        [80]
         1 string data = ""
        [81]
-        1 string data = ""Crap, crap, crap, crap, crap!""
+        1 string data = "「ヤバい、ヤバい、ヤバい、ヤバい、ヤバい!」"
        [82]
-        1 string data = ""Aw, c'mon! You don't wanna hurt me!""
+        1 string data = "「おい、やめてくれ! 俺を傷つけたくないだろ!」"
        [83]
         1 string data = ""
        [84]
@@ -57587,77 +57587,77 @@
        [1]
         1 string data = ""
        [2]
-        1 string data = ""All employees must immediately return to work.""
+        1 string data = "「全従業員は直ちに仕事に戻ること。」"
        [3]
-        1 string data = ""Stay back! Employees are not allowed to exit the factory!""
+        1 string data = "「下がれ! 従業員は工場から出ることを許可されていない!」"
        [4]
         1 string data = ""
        [5]
         1 string data = ""
        [6]
-        1 string data = "[TEMP]"Rangers, we need assistance dispersing these workers. They will not return to work.""
+        1 string data = "[TEMP]「レンジャーズ、これらの労働者を解散させるのに援助が必要だ。彼らは仕事に戻ろうとしない。」"
        [7]
-        1 string data = "[TEMP]"Rangers, please explain to these workers that our orders have changed.""
+        1 string data = "[TEMP]「レンジャーズ、これらの労働者に我々の命令が変わったことを説明してください。」"
        [8]
-        1 string data = ""Hey! Ho! Ludlow must go! Hey! Ho! Ludlow must go!""
+        1 string data = "「ヘイ! ホー! ラドローは去れ! ヘイ! ホー! ラドローは去れ!」"
        [9]
-        1 string data = ""But we have to help our friends! There's fighting out there!""
+        1 string data = "「でも仲間を助けなきゃ! 外で戦闘が起こっているんだ!」"
        [10]
-        1 string data = ""Refusals to comply will be met with force.""
+        1 string data = "「従わない者には武力で対処する。」"
        [11]
-        1 string data = ""Refusals to comply will be met with force.""
+        1 string data = "「従わない者には武力で対処する。」"
        [12]
-        1 string data = ""Fuck off, bots! We will not be sold as slaves!""
+        1 string data = "「失せろ、ロボットども! 俺たちは奴隷として売られはしない!」"
        [13]
-        1 string data = ""Stupid robots! Let us pass!""
+        1 string data = "「愚かなロボットめ! 通せ!」"
        [14]
-        1 string data = ""Motherfuckers! We saw you! Ludlow was selling our people as slaves out there and you just walked on by! You're dead!""
+        1 string data = "「クソ野郎め! 見たぞ! ラドローが仲間を奴隷として売っているのを、お前らは見て見ぬふりをした! 死ね!」"
        [15]
-        1 string data = ""You're dead if you don't back down. Or maybe you want to be next on the block?""
+        1 string data = "「引かなければ死ぬのはお前だ。それとも次の競売台に立ちたいのか?」"
        [16]
-        1 string data = ""We didn't have time to stop him. We have important business with Markham.""
+        1 string data = "「彼を止める時間がなかった。マーカムと重要な用事がある。」"
        [17]
-        1 string data = "[Attack] "We're sick of your threats. Time for a reprimand.""
+        1 string data = "[攻撃] 「お前らの脅しにはうんざりだ。懲罰の時間だ。」"
        [18]
-        1 string data = ""Fuck you! You won't always be here. And when you're gone, we're gonna rise again! For justice! For Crow! For the fallen and enslaved!""
+        1 string data = "「くたばれ! お前らがいつまでもここにいるわけじゃない。お前らがいなくなったら、また立ち上がる! 正義のために! クロウのために! 倒れた者と奴隷にされた者のために!」"
        [19]
         1 string data = ""
        [20]
-        1 string data = ""What kind of bullshit excuse is that? You didn't have time to stop our brothers and sisters from being sold as slaves?""
+        1 string data = "「なんてふざけた言い訳だ? 兄弟姉妹が奴隷として売られるのを止める時間がなかっただと?」"
        [21]
         1 string data = ""
        [22]
-        1 string data = ""Managment thugs!""
+        1 string data = "「経営側の暴力団め!」"
        [23]
-        1 string data = ""If you have a problem with your supervisor, take it up with their supervisor.""
+        1 string data = "「上司に問題があるなら、その上司に訴えろ。」"
        [24]
-        1 string data = ""You think this is a joke, you assholes? Get 'em, brothers and sisters!""
+        1 string data = "「これが冗談だと思ってるのか、この野郎ども? やっちまえ、兄弟姉妹!」"
        [25]
         1 string data = ""
        [26]
-        1 string data = ""All employees must immediately return to work.""
+        1 string data = "「全従業員は直ちに仕事に戻ること。」"
        [27]
-        1 string data = ""We're going to give Markham a chance to explain herself. That's all we can say right now.""
+        1 string data = "「マーカムに説明の機会を与えるつもりだ。今言えるのはそれだけだ。」"
        [28]
-        1 string data = ""Ludlow was the problem, and Ludlow's dead, so go back to work.""
+        1 string data = "「ラドローが問題だった、そしてラドローは死んだ。だから仕事に戻れ。」"
        [29]
-        1 string data = ""Yeah, and Markham's next. Stand down while we sort things out.""
+        1 string data = "「ああ、次はマーカムだ。我々が事態を整理するまで待機しろ。」"
        [30]
-        1 string data = ""Right on! Stand down, brothers and sisters. The Rangers are going to set things right!""
+        1 string data = "「その通りだ! 待機しろ、兄弟姉妹。レンジャーズが事態を正してくれる!」"
        [31]
-        1 string data = ""Security team, alert! Other guard units requesting aid near the showroom area. Please assist.""
+        1 string data = "「警備チーム、警告! 他の警備部隊がショールームエリア付近で援助を要請している。援護せよ。」"
        [32]
-        1 string data = ""Better than nothing, I suppose. But we're watching you, Rangers.""
+        1 string data = "「何もないよりはマシだろう。だが監視しているぞ、レンジャーズ。」"
        [33]
-        1 string data = ""That's bullshit and you know it, Rangers. Ludlow was a symptom, not a cause. There's gotta be real change around here!""
+        1 string data = "「それはでたらめで、お前らもわかってるだろう、レンジャーズ。ラドローは症状であって原因じゃない。ここには本当の変革が必要なんだ!」"
        [34]
-        1 string data = ""Yeah, yeah, you tin can thugs. We're going.""
+        1 string data = "「ああ、ああ、ブリキ缶の暴力団め。行くよ。」"
        [35]
-        1 string data = ""You are part of the problem, motherfuckers!""
+        1 string data = "「お前らは問題の一部だ、この野郎ども!」"
        [36]
-        1 string data = ""Rangers, what's going on? We saw you take down Ludlow. You had a change of heart? You fight for us now?""
+        1 string data = "「レンジャーズ、何が起きているんだ? ラドローを倒すのを見た。心変わりしたのか? 今は俺たちのために戦ってくれるのか?」"
        [37]
-        1 string data = ""Security team, alert! Other guard units requesting aid near the showroom area. Please assist.""
+        1 string data = "「警備チーム、警告! 他の警備部隊がショールームエリア付近で援助を要請している。援護せよ。」"
    [194]
     0 StringTable data
      1 string Filename = "d2001_ludlowreactivity_encounter2"
@@ -57791,55 +57791,55 @@
        [1]
         1 string data = ""
        [2]
-        1 string data = ""Enough is enough, brothers and sisters!""
+        1 string data = "「もう十分だ、兄弟姉妹!」"
        [3]
-        1 string data = ""Tear it all down, brothers and sisters! Wreck the war-bot! No peace until Markham fires Ludlow!""
+        1 string data = "「全て壊せ、兄弟姉妹! ウォーボットを破壊しろ! マーカムがラドローを解雇するまで平和はない!」"
        [4]
-        1 string data = ""Rise up!""
+        1 string data = "「立ち上がれ!」"
        [5]
-        1 string data = ""Let's dismantle this war-bot like we're going to dismantle the system!""
+        1 string data = "「このウォーボットをシステムを解体するように解体しよう!」"
        [6]
-        1 string data = ""But I heard Ludlow was killed.""
+        1 string data = "「でもラドローは殺されたって聞いたぞ。」"
        [7]
-        1 string data = ""Yeah, me too.""
+        1 string data = "「ああ、俺も聞いた。」"
        [8]
-        1 string data = ""Yeah!!! Uh, anybody bring a size eight socket wrench?""
+        1 string data = "「いいぞ!!! あー、誰か8番のソケットレンチ持ってきたか?」"
        [9]
-        1 string data = ""Ludlow was just the symptom! No peace until we get a new deal! Keep up the pressure!""
+        1 string data = "「ラドローは単なる症状だった! 新しい取引を得るまで平和はない! 圧力をかけ続けろ!」"
        [10]
         1 string data = ""
        [11]
         1 string data = ""
        [12]
-        1 string data = ""You bastards! You let Ludlow sell our coworkers as slaves! Bring 'em down, brothers and sisters!""
+        1 string data = "「この野郎ども! ラドローに同僚を奴隷として売らせやがって! やっちまえ、兄弟姉妹!」"
        [13]
-        1 string data = ""You bastards! You let Ludlow sell our coworkers as slaves! Bring 'em down, brothers and sisters!""
+        1 string data = "「この野郎ども! ラドローに同僚を奴隷として売らせやがって! やっちまえ、兄弟姉妹!」"
        [14]
         1 string data = ""
        [15]
         1 string data = ""
        [16]
-        1 string data = ""Don't believe 'em! Nobody tells us the truth around here!""
+        1 string data = "「信じるな! ここでは誰も真実を教えてくれない!」"
        [17]
-        1 string data = "[TEMP]"Mess is my middle name. Get 'em, boys!""
+        1 string data = "[TEMP]「面倒は俺のミドルネームだ。やっちまえ、野郎ども!」"
        [18]
-        1 string data = ""Wait! We killed Ludlow! We saved your friends!""
+        1 string data = "「待て! 俺たちがラドローを殺した! お前らの仲間を救ったんだ!」"
        [19]
-        1 string data = ""You better not mess with that war-bot, it's Steeltown property.""
+        1 string data = "「そのウォーボットに手を出さない方がいい、スティールタウンの財産だぞ。」"
        [20]
-        1 string data = "[Attack] "Ungrateful punks. You're no better than your bosses.""
+        1 string data = "[攻撃] 「恩知らずなガキどもめ。お前らは上司と変わらない。」"
        [21]
-        1 string data = ""Here we go, boys!""
+        1 string data = "「行くぞ、野郎ども!」"
        [22]
-        1 string data = ""Get 'em before they get us!""
+        1 string data = "「やられる前にやれ!」"
        [23]
-        1 string data = ""You're going to feel like asses when you find out we killed Ludlow outside.""
+        1 string data = "「外でラドローを殺したって知ったら、馬鹿みたいに感じるぞ。」"
        [24]
-        1 string data = ""Wait... what?! Any of you hear about this? Oh, you were serious! All right, Rangers, let's just all step away here and we'll leave you be... and you leave us be.""
+        1 string data = "「待て...何だと?! 誰かこれについて聞いたか? ああ、本気だったのか! わかった、レンジャーズ、みんなここから引こう。お前らを放っておくから...お前らも俺たちを放っておいてくれ。」"
        [25]
-        1 string data = ""Come on, brothers and sisters, tear this symbol of oppression down!""
+        1 string data = "「さあ、兄弟姉妹、この抑圧のシンボルを引き倒せ!」"
        [26]
-        1 string data = ""We told you to leave us be!""
+        1 string data = "「放っておけと言っただろ!」"
        [27]
         1 string data = ""
        [28]
@@ -57893,23 +57893,23 @@
       1 Array Array (9 items)
        0 int size = 9
        [0]
-        1 string data = ""Rangers! I'm here! It happened!""
+        1 string data = "「レンジャーズ! ここにいるよ! 実現したんだ!」"
        [1]
-        1 string data = ""Hey, again, Rangers!""
+        1 string data = "「また会ったね、レンジャーズ!」"
        [2]
-        1 string data = ""Yep, clearance approval came through just a few hours ago and we already moved Luna's stuff to my barracks.""
+        1 string data = "「ああ、許可承認がほんの数時間前に下りて、もうルナの荷物を俺の兵舎に移したんだ。」"
        [3]
-        1 string data = ""We just can't thank you enough.""
+        1 string data = "「どれだけ感謝してもしきれないよ。」"
        [4]
         1 string data = "Script Node 333"
        [5]
-        1 string data = ""Thanks to you, Rangers, we're safe.""
+        1 string data = "「あなた方のおかげで、レンジャーズ、俺たちは安全だ。」"
        [6]
-        1 string data = ""What a battle that was.""
+        1 string data = "「すごい戦いだったな。」"
        [7]
         1 string data = ""
        [8]
-        1 string data = ""This is crazy. There's fighting everywhere now!""
+        1 string data = "「これは狂ってる。今やあちこちで戦闘が起こっている!」"
    [196]
     0 StringTable data
      1 string Filename = "d2001_marcia"
