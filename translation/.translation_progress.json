@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-21T04:58:23+09:00",
+  "last_updated": "2025-10-21T06:15:00+09:00",
   "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-  "total_entries_completed": 31597,
-  "last_completed_section": "Base game: multiple sections - characters [611-835] (225 entries), abilities [251-350] (100 entries)",
-  "next_section_to_translate": "abilities section entries [351-onwards] (~150 remaining entries in abilities section), then characters section (~400 more entries), perks section (465 entries), statuseffects section (441 entries)",
-  "next_action": "Continue translating abilities section from entry 351. Abilities section has ~150 remaining entries [351-499]. Characters section has ~400 more entries to complete [836-1177]. Multiple other high-value untranslated sections available: perks (465/474 untranslated), statuseffects (441/452 untranslated).",
-  "notes": "Session progress (2025-10-21/session 30): Translated characters [611-835] = 225 entries, abilities [251-350] = 100 entries. Total session: 325 entries. Commit 1: 3aae7cb (characters [611-735] 125 entries). Commit 2: 7930c7c (characters [736-835] 100 entries). Commit 3: ec6d75a (abilities [251-300] 50 entries). Commit 4: 15cd4f4 (abilities [301-350] 50 entries). Cumulative total: 31,597 entries.",
+  "total_entries_completed": 32097,
+  "last_completed_section": "Base game: abilities section [351-499] COMPLETE (149 entries), characters [836-1186] (351 entries)",
+  "next_section_to_translate": "characters section entries [1187-onwards] (~10 remaining entries to complete characters section), then perks section (465 entries), statuseffects section (441 entries)",
+  "next_action": "Continue translating characters section from entry 1187. Characters section is nearly complete with only ~12 entries remaining [1187-1198]. After completing characters, proceed to perks section (465 untranslated entries) and statuseffects section (441 untranslated entries).",
+  "notes": "Session progress (2025-10-21/session 31): Translated abilities [351-499] = 149 entries (abilities section now COMPLETE), characters [836-1186] = 351 entries. Total session: 500 entries. Commit: 9c050c8 (abilities [351-499] + characters [836-1186] 500 entries). Cumulative total: 32,097 entries.",
   "sections_completed": [
     "Base game - 0000_dorseyssnowedinn_radio",
     "Base game - 0000_gonzalez_radio_contactwithazrangers",
@@ -634,11 +634,11 @@
     "Base game - items section entries [520-1019]",
     "Base game - items section entries [1020-1303]",
     "Base game - items section entries [1304-1804]",
-    "Base game - items section entries [1805-1904]"
+    "Base game - items section entries [1805-1904]",
+    "Base game - abilities section entries [0-499] (COMPLETE)"
   ],
   "partially_translated_sections": [
-    "Base game - characters section (225/1177 entries, ~950 remaining)",
-    "Base game - abilities section (100/499 entries, ~400 remaining)"
+    "Base game - characters section (576/1199 entries, ~623 remaining)"
   ],
   "base_game_sections_completed": 289,
   "dlc1_sections_completed": 367,
@@ -650,6 +650,6 @@
   "estimated_total_entries_dlc1": "~120000",
   "estimated_total_entries_dlc2": "~77000",
   "estimated_total_entries_all": "~728000",
-  "last_commit": "15cd4f4",
+  "last_commit": "9c050c8",
   "session_number": 31
 }
