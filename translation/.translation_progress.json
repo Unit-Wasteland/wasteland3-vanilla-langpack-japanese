@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-21T11:30:00+09:00",
+  "last_updated": "2025-10-21T08:15:00+09:00",
   "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-  "total_entries_completed": 32732,
-  "last_completed_section": "Base game: perks [376-474] COMPLETE (99 entries), statuseffects [0-149] (150 entries)",
-  "next_section_to_translate": "statuseffects section remaining entries [150-461] (~312 entries remaining)",
-  "next_action": "Continue translating statuseffects section from entry 150. Status effects section has 150/462 entries completed (~312 remaining). After completing statuseffects, next major sections are: poi, quest, skills, etc.",
-  "notes": "Session progress (2025-10-21/session 33): Translated perks [376-474] = 99 entries (perks section now COMPLETE - all 475 entries done), statuseffects [0-149] = 150 entries. Total session: 249 entries. Commit: ca0dded (perks [376-474] COMPLETE + statuseffects [0-149] 249 entries). Cumulative total: 32,732 entries.",
+  "total_entries_completed": 33044,
+  "last_completed_section": "Base game: statuseffects [150-461] COMPLETE (312 entries)",
+  "next_section_to_translate": "test section (12 entries), tutorial section (285 entries), worldmap section (38 entries)",
+  "next_action": "Translate test, tutorial, and worldmap sections. After these, continue to next major sections (poi, quest, skills, etc.).",
+  "notes": "Session progress (2025-10-21/session 34): statuseffects [150-461] COMPLETE = 312 entries. Commit: f17d905. Cumulative total: 33,044 entries. statuseffects section is now fully complete (all 462 entries).",
   "sections_completed": [
     "Base game - 0000_dorseyssnowedinn_radio",
     "Base game - 0000_gonzalez_radio_contactwithazrangers",
@@ -637,11 +637,10 @@
     "Base game - items section entries [1805-1904]",
     "Base game - abilities section entries [0-499] (COMPLETE)",
     "Base game - characters section entries [0-1198] (COMPLETE)",
-    "Base game - perks section entries [0-474] (COMPLETE)"
+    "Base game - perks section entries [0-474] (COMPLETE)",
+    "Base game - statuseffects section entries [0-461] (COMPLETE)"
   ],
-  "partially_translated_sections": [
-    "Base game - statuseffects section (150/462 entries, ~312 remaining)"
-  ],
+  "partially_translated_sections": [],
   "base_game_sections_completed": 290,
   "dlc1_sections_completed": 367,
   "dlc2_sections_completed": 34,
@@ -652,6 +651,6 @@
   "estimated_total_entries_dlc1": "~120000",
   "estimated_total_entries_dlc2": "~77000",
   "estimated_total_entries_all": "~728000",
-  "last_commit": "ca0dded",
-  "session_number": 33
+  "last_commit": "f17d905",
+  "session_number": 34
 }
