@@ -1,13 +1,24 @@
 {
-  "last_updated": "2025-10-21T$(date +%H:%M:%S)+09:00",
+  "last_updated": "2025-10-21T08:45:18+09:00",
   "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-  "total_entries_completed": 34947,
-  "last_completed_section": "Base game: c2001 sections (hardeeknox, liftcomputer, thepsychopath_radiobarks)",
-  "next_section_to_translate": "Continue with c2101 sections (starting with c2101_ash)",
-  "next_action": "Session 42 complete. Translated c2001 sections (158 entries). Next: c2101 sections. Cumulative: 34,947 entries.",
-  "notes": "Session 42 (2025-10-21): Translated c2001_hardeeknox (95 entries), c2001_liftcomputer (16 entries), c2001_thepsychopath_radiobarks (47 entries). Total: 158 entries. Cumulative: 34,947 entries (34,789 + 158). Content includes Hardee Knox torture scene by Vic Buchanan, ski lift computer, and Vic's radio communications.",
-  "sections_completed": ["Base game - c2001_hardeeknox", "Base game - c2001_liftcomputer", "Base game - c2001_thepsychopath_radiobarks"],
-  "last_commit": "577db3c",
-  "session_number": 42
+  "total_entries_completed": 35325,
+  "last_completed_section": "Base game: c2101_gwendolynreed (partial: entries 0-59 of 126)",
+  "next_section_to_translate": "Continue c2101_gwendolynreed from entry 60",
+  "next_action": "Session 43 complete. Translated 378 entries (c2101 sections + gwendolynreed partial). Next: Continue gwendolynreed from entry 60. Cumulative: 35,325 entries.",
+  "notes": "Session 43 (2025-10-21): Batch 1: c2101_ash through giftpicture (318 entries). Batch 2: c2101_gwendolynreed partial (60 of 126 entries). Total: 378 entries. Cumulative: 35,325 entries (34,947 + 378). Content includes Ash interrogation, video monitors, chemical lab, gas control, Doctor Hyde, Erastus, Estin Ward rescue, Gift's photo, and Gwendolyn Reed hostage scene with imperious dialogue.",
+  "sections_completed": [
+    "Base game - c2101_ash",
+    "Base game - c2101_ashsvideomonitors",
+    "Base game - c2101_chemicallab",
+    "Base game - c2101_controlroomcomputer",
+    "Base game - c2101_doctor",
+    "Base game - c2101_electricalpanelbox",
+    "Base game - c2101_erastus",
+    "Base game - c2101_estinward",
+    "Base game - c2101_giftpicture",
+    "Base game - c2101_gwendolynreed (partial: 0-59)"
+  ],
+  "last_commit": "9e01b95",
+  "session_number": 43
 }
