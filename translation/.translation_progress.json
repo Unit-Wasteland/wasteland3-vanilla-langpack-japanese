@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-20T16:45:00+09:00",
+  "last_updated": "2025-10-20T14:15:00+09:00",
   "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-  "total_entries_completed": 15448,
-  "last_completed_section": "Base game: a2001_sherrifdaisy_atconstabulary (partial: 290 of 414 entries)",
-  "next_section_to_translate": "Base game: a2001_sherrifdaisy_atconstabulary (continue from entry 290, 124 entries remaining)",
-  "next_action": "Continue translating sherrifdaisy_atconstabulary section (entries 290-413) then move to next section",
-  "notes": "Session progress (2025-10-20 Session 58): Translated 500 entries total this session: a2001_rosiewong_downtown remaining (69), runsonempty (90), seniormarshals (15), sgtlupinski_downtown (36), sherrifdaisy_atconstabulary (290 of 414). Total cumulative: 15,448 entries (+500 new this session).",
+  "total_entries_completed": 15679,
+  "last_completed_section": "Base game: a2001_snowpile (completed 9 entries)",
+  "next_section_to_translate": "Base game: a2001_theocurie_owpattract (0 of 198 entries)",
+  "next_action": "Continue translating theocurie_owpattract section (198 entries total)",
+  "notes": "Session progress (2025-10-20 Session 59): Translated 231 entries total this session: a2001_sherrifdaisy_atconstabulary remaining (124 entries), sherrifdaisy_endgameradio (7), silaswatkins (91), snowpile (9). Total cumulative: 15,679 entries (+231 new this session).",
   "sections_completed": [
     "Base game - 0000_dorseyssnowedinn_radio",
     "Base game - 0000_gonzalez_radio_contactwithazrangers",
@@ -407,16 +407,20 @@
     "Base game - a2001_rosiewong_downtown",
     "Base game - a2001_runsonempty",
     "Base game - a2001_seniormarshals",
-    "Base game - a2001_sgtlupinski_downtown"
+    "Base game - a2001_sgtlupinski_downtown",
+    "Base game - a2001_sherrifdaisy_atconstabulary",
+    "Base game - a2001_sherrifdaisy_endgameradio",
+    "Base game - a2001_silaswatkins",
+    "Base game - a2001_snowpile"
   ],
   "partially_translated_sections": [],
-  "base_game_sections_completed": 113,
+  "base_game_sections_completed": 117,
   "dlc1_sections_completed": 367,
-  "base_game_entries_completed": 3373,
+  "base_game_entries_completed": 3604,
   "dlc1_entries_completed": 11785,
   "estimated_total_entries_base_game": "~81000",
   "estimated_total_entries_dlc1": "~120000",
   "estimated_total_entries_all": "~728000",
   "last_commit": "ec5d713",
-  "session_number": 58
+  "session_number": 53
 }
