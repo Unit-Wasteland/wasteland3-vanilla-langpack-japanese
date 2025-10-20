@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-20T13:45:00+09:00",
+  "last_updated": "2025-10-20T14:30:00+09:00",
   "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-  "total_entries_completed": 14948,
-  "last_completed_section": "Base game: a2001_rosiewong_downtown (partially completed - 125 of 194 entries)",
-  "next_section_to_translate": "Base game: Continue a2001_rosiewong_downtown (69 entries remaining) and other sections",
-  "next_action": "Continue translating to reach 2500 entries target (1552 more needed)",
-  "notes": "Session progress (2025-10-20 Session 57): Translated 10 sections (203 entries total): parkerpatient (30), pillorysquare/pillory victim (33), radio sections (31), rosiewong_downtown partial (125 of 194). Total cumulative: 14,948 entries (+203 new this session).",
+  "total_entries_completed": 15158,
+  "last_completed_section": "Base game: a2001_sgtlupinski_downtown (36 entries)",
+  "next_section_to_translate": "Base game: a2001_sherrifdaisy_atconstabulary (414 entries) or other sections",
+  "next_action": "Continue translating to reach 2500 entries target (2290 more needed from current 210)",
+  "notes": "Session progress (2025-10-20 Session 58): Translated 4 sections (210 entries total): rosiewong_downtown remaining (69), runsonempty (90), seniormarshals (15), sgtlupinski_downtown (36). Total cumulative: 15,158 entries (+210 new this session).",
   "sections_completed": [
     "Base game - 0000_dorseyssnowedinn_radio",
     "Base game - 0000_gonzalez_radio_contactwithazrangers",
@@ -403,16 +403,20 @@
     "Base game - a2001_radio_arrestingirv",
     "Base game - a2001_radio_daisy_lostendgamesupport",
     "Base game - a2001_radio_delgado_paybackstart",
-    "Base game - a2001_radio_gonzalez_tier3upgradeavailable"
+    "Base game - a2001_radio_gonzalez_tier3upgradeavailable",
+    "Base game - a2001_rosiewong_downtown",
+    "Base game - a2001_runsonempty",
+    "Base game - a2001_seniormarshals",
+    "Base game - a2001_sgtlupinski_downtown"
   ],
-  "partially_translated_sections": ["Base game - a2001_rosiewong_downtown (125 of 194 entries)"],
-  "base_game_sections_completed": 109,
+  "partially_translated_sections": [],
+  "base_game_sections_completed": 113,
   "dlc1_sections_completed": 367,
-  "base_game_entries_completed": 3163,
+  "base_game_entries_completed": 3373,
   "dlc1_entries_completed": 11785,
   "estimated_total_entries_base_game": "~81000",
   "estimated_total_entries_dlc1": "~120000",
   "estimated_total_entries_all": "~728000",
-  "last_commit": "753955d",
-  "session_number": 57
+  "last_commit": "ec5d713",
+  "session_number": 58
 }
