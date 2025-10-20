@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-21T04:30:00+09:00",
+  "last_updated": "2025-10-21T04:15:00+09:00",
   "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-  "total_entries_completed": 28967,
-  "last_completed_section": "Base game: inputactions section entries [0-169]",
-  "next_section_to_translate": "Next section: interactables (starting at line 481573)",
-  "next_action": "Continue with interactables section - translate in 150-200 entry chunks, commit every 500 entries",
-  "notes": "Session progress (2025-10-21/session 25 continued): Translated inputactions entries [0-169] = 170 new entries (1169 total this session). Commits: 7a92c6c (GUI 254 entries), 3104583 (inputactions 170 entries). Next: interactables section line 481573+. Target for automation: completed 1169 entries this session so far, aiming for ~2500 total. Cumulative total: 28,967 entries.",
+  "total_entries_completed": 29117,
+  "last_completed_section": "Base game: interactables section entries [0-149]",
+  "next_section_to_translate": "Next section: interactables section entries [150-489] OR continue to items section for faster progress",
+  "next_action": "Note: interactables has 340 remaining entries [150-489]. Consider skipping to items section to reach 2500 target faster, return to complete interactables later",
+  "notes": "Session progress (2025-10-21/session 25 continued): Translated interactables entries [0-149] = 150 new entries (1319 total this session). Commits: 7a92c6c (GUI 254 entries), 3104583 (inputactions 170 entries), 4e16482 (interactables 150 entries). Interactables partially complete [0-149 of 490]. Strategy: prioritize reaching 2500 entry target, return to finish interactables later. Cumulative total: 29,117 entries.",
   "sections_completed": [
     "Base game - 0000_dorseyssnowedinn_radio",
     "Base game - 0000_gonzalez_radio_contactwithazrangers",
@@ -643,5 +643,5 @@
   "estimated_total_entries_dlc2": "~77000",
   "estimated_total_entries_all": "~728000",
   "last_commit": "040a0a5",
-  "session_number": 25
+  "session_number": 24
 }
