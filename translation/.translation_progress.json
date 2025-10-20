@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-21T06:18:13.796901+09:00",
+  "last_updated": "2025-10-21T06:19:55.706147+09:00",
   "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
   "total_entries_completed": 33621,
   "last_completed_section": "Base game: tutorial section [0-284] COMPLETE (285 entries), worldmap section [0-37] COMPLETE (38 entries)",
   "next_section_to_translate": "poi section (256 entries), skills section (99 entries)",
-  "next_action": "Continue with poi section translation. Tutorial and worldmap sections completed.",
-  "notes": "Session progress (2025-10-21/session 36): tutorial [31-284] = 254 entries, worldmap [0-37] = 38 entries. Cumulative total: 33,621 entries. Large file (530K lines) requires efficient translation strategy.",
+  "next_action": "Continue with poi section translation. Tutorial and worldmap sections completed successfully.",
+  "notes": "Session 36 final (2025-10-21): tutorial [31-284] = 254 entries, worldmap [0-37] = 38 entries. Session total: 292 entries. Cumulative total: 33,621 entries. Next: poi section (Point of Interest location names, 256 entries).",
   "sections_completed": [
     "Base game - 0000_dorseyssnowedinn_radio",
     "Base game - 0000_gonzalez_radio_contactwithazrangers",
@@ -653,6 +653,6 @@
   "estimated_total_entries_dlc1": "~120000",
   "estimated_total_entries_dlc2": "~77000",
   "estimated_total_entries_all": "~728000",
-  "last_commit": "a0e62fc",
+  "last_commit": "8755d57",
   "session_number": 36
 }
