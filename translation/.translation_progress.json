@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-20T22:45:03+09:00",
+  "last_updated": "2025-10-20T23:15:00+09:00",
   "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-  "total_entries_completed": 21537,
-  "last_completed_section": "DLC2: a4101_theocurie_energyindependence (111/208 entries partial)",
-  "next_section_to_translate": "DLC2: a4101_theocurie_energyindependence (continue from entry 111)",
-  "next_action": "Continue translating a4101_theocurie_energyindependence section entries 111-207, then proceed to subsequent sections",
-  "notes": "Session progress (2025-10-20/21): Translated 517 new entries in 3 commits (d36b77a, b0c6e1c, d62fb9b). Completed: Holy Detonation DLC sections including cultists barks (28), Megan Silver dialogue (25), Scientist guard barks (15), Theo Curie Energy Independence dialogue partial (111). Cumulative total: 21,537 entries.",
+  "total_entries_completed": 21674,
+  "last_completed_section": "DLC2: a5001_ambientdrones",
+  "next_section_to_translate": "DLC2: a5001_ambienthundredfamilies (113 entries)",
+  "next_action": "Continue translating a5001_ambienthundredfamilies and subsequent DLC2 sections",
+  "notes": "Session progress (2025-10-20/22): Translated 137 new entries in 2 commits (1ce7924, f6f6280). Completed: a4101_theocurie_energyindependence full (97 entries), a5001_ambientconstables (24 entries), a5001_ambientdrones (16 entries). Cumulative total: 21,674 entries.",
   "sections_completed": [
     "Base game - 0000_dorseyssnowedinn_radio",
     "Base game - 0000_gonzalez_radio_contactwithazrangers",
@@ -567,16 +567,22 @@
     "Base game - a4001_sgtdelgado_payback",
     "Base game - a4001_sijanhallsign",
     "Base game - a4001_theocurie_oldworldpower",
-    "Base game - a4001_tourmaline"
+    "Base game - a4001_tourmaline",
+    "DLC2 - a4101_theocurie_energyindependence",
+    "DLC2 - a5001_ambientconstables",
+    "DLC2 - a5001_ambientdrones"
   ],
   "partially_translated_sections": [],
   "base_game_sections_completed": 267,
   "dlc1_sections_completed": 367,
+  "dlc2_sections_completed": 3,
   "base_game_entries_completed": 8797,
   "dlc1_entries_completed": 12075,
+  "dlc2_entries_completed": 802,
   "estimated_total_entries_base_game": "~81000",
   "estimated_total_entries_dlc1": "~120000",
+  "estimated_total_entries_dlc2": "~77000",
   "estimated_total_entries_all": "~728000",
-  "last_commit": "d62fb9b",
-  "session_number": 6
+  "last_commit": "f6f6280",
+  "session_number": 7
 }
