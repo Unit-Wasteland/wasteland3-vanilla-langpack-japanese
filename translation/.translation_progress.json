@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-21T09:15:00+09:00",
+  "last_updated": "2025-10-21T10:00:00+09:00",
   "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-  "total_entries_completed": 36424,
-  "last_completed_section": "Base game: c2101_violetreed (partial: entries 0-56 of 99)",
-  "next_section_to_translate": "Continue c2101_violetreed from entry 57",
-  "next_action": "Session 46 checkpoint 1. Translated 500 entries (8 sections). Next: Continue violetreed from entry 57. Cumulative: 36,424 entries.",
-  "notes": "Session 46 (2025-10-21): c2101_rileywoodson completion (97), c2101_rileywoodsonradiocall (9), c2101_rook (62), c2101_saunacomputer (15), c2101_saunaguards (6), c2101_securitycontrolroomdoor (39), c2101_thegift (215), c2101_violetreed (57 partial). Total: 500 entries. Cumulative: 36,424 entries (35,924 + 500). Content includes Riley Woodson completion, The Gift's dream gas dialogue, Violet Reed hostage situation.",
+  "total_entries_completed": 37151,
+  "last_completed_section": "Base game: c3001_psychopathfacetoface (all 180 entries complete)",
+  "next_section_to_translate": "Continue with global_aspencompanionbarks",
+  "next_action": "Session 46 checkpoint 2. Translated 1,227 entries total (500 + 727). Next: global_aspencompanionbarks. Cumulative: 37,151 entries.",
+  "notes": "Session 46 (2025-10-21): Checkpoint 1: 500 entries. Checkpoint 2: 727 entries (c2101_violetreed completion 42, c3001_gonzalez_radio_afterpsychopathvicconvo 7, c3001_letterfrommarkham 11, c3001_patriarchsburialmap 19, c3001_psychopathfacetoface 180). Total session: 1,227 entries. Cumulative: 37,151 entries (35,924 + 1,227). Content includes Vic Buchanan confrontation dialogue, burial map, coded letters.",
   "sections_completed": [
     "Base game - c2101_ash",
     "Base game - c2101_ashsvideomonitors",
@@ -40,8 +40,12 @@
     "Base game - c2101_saunaguards (complete)",
     "Base game - c2101_securitycontrolroomdoor (complete)",
     "Base game - c2101_thegift (complete)",
-    "Base game - c2101_violetreed (partial: 0-56)"
+    "Base game - c2101_violetreed (complete)",
+    "Base game - c3001_gonzalez_radio_afterpsychopathvicconvo (complete)",
+    "Base game - c3001_letterfrommarkham (complete)",
+    "Base game - c3001_patriarchsburialmap (complete)",
+    "Base game - c3001_psychopathfacetoface (complete)"
   ],
-  "last_commit": "607e16a",
+  "last_commit": "880881f",
   "session_number": 46
 }
