@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-21T03:00:00+09:00",
+  "last_updated": "2025-10-21T04:00:00+09:00",
   "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-  "total_entries_completed": 27298,
-  "last_completed_section": "Base game: GUI section entries [606-1105]",
-  "next_section_to_translate": "Continue GUI section translation (1506 remaining from 2611 total)",
-  "next_action": "Continue GUI section from entry [1106] onwards - translate in 150-200 entry chunks, commit every 500 entries",
-  "notes": "Session progress (2025-10-21/session 23): Translated GUI entries [606-1105] = 500 new entries. Commit: ee9dcd5 (500 entries). Next: GUI section line 477541+ (entry [1106] onwards). Remaining in GUI: 1506. Target for automation: continue until 2500+ entries this session. Cumulative total: 27,298 entries.",
+  "total_entries_completed": 27798,
+  "last_completed_section": "Base game: GUI section entries [1106-1605]",
+  "next_section_to_translate": "Continue GUI section translation (1006 remaining from 2611 total)",
+  "next_action": "Continue GUI section from entry [1606] onwards - translate in 150-200 entry chunks, commit every 500 entries",
+  "notes": "Session progress (2025-10-21/session 24): Translated GUI entries [1106-1605] = 500 new entries. Commits: ee9dcd5 (500 entries [606-1105]), 66719bf (500 entries [1106-1605]). Next: GUI section line 478541+ (entry [1606] onwards). Remaining in GUI: 1006. Target for automation: continue until 2500+ entries this session. Cumulative total: 27,798 entries.",
   "sections_completed": [
     "Base game - 0000_dorseyssnowedinn_radio",
     "Base game - 0000_gonzalez_radio_contactwithazrangers",
@@ -622,10 +622,11 @@
     "Base game - a5101_patriarch_finaldialogue_bloodlesscoup_endgame",
     "Base game - system sections (colornames, derivedstats)",
     "Base game - GUI section entries [6-605]",
-    "Base game - GUI section entries [606-1105]"
+    "Base game - GUI section entries [606-1105]",
+    "Base game - GUI section entries [1106-1605]"
   ],
   "partially_translated_sections": [
-    "Base game - GUI section (1106 of 2611 entries completed)"
+    "Base game - GUI section (1606 of 2611 entries completed)"
   ],
   "base_game_sections_completed": 280,
   "dlc1_sections_completed": 367,
@@ -637,6 +638,6 @@
   "estimated_total_entries_dlc1": "~120000",
   "estimated_total_entries_dlc2": "~77000",
   "estimated_total_entries_all": "~728000",
-  "last_commit": "ee9dcd5",
-  "session_number": 23
+  "last_commit": "66719bf",
+  "session_number": 24
 }
