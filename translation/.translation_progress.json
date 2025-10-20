@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-20T12:30:00+09:00",
+  "last_updated": "2025-10-20T14:30:00+09:00",
   "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-  "total_entries_completed": 14420,
-  "last_completed_section": "Base game: a2001_marshalprisoner_drunk (fully completed - 14 entries)",
-  "next_section_to_translate": "Base game: 0000_encounter_fleshtrappers and other large untranslated sections",
-  "next_action": "Continue translating large untranslated sections (fleshtrappers, mrdebug_downtowncospring, paperboy, rosiewong_downtown, etc.)",
-  "notes": "Session progress (2025-10-20 Session 55): Translated 2 sections (26 entries total): a2001_marshalpowerarmor (12), a2001_marshalprisoner_drunk (14). Total cumulative: 14,420 entries (+26 new this session).",
+  "total_entries_completed": 14745,
+  "last_completed_section": "Base game: a2001_paperboy (fully completed - 129 entries)",
+  "next_section_to_translate": "Base game: Continue with other large untranslated sections",
+  "next_action": "Continue translating large untranslated sections to reach 2500 entries target (1755 more needed)",
+  "notes": "Session progress (2025-10-20 Session 56): Translated 2 sections (325 entries total): a2001_mrdebug_downtowncospring (196), a2001_paperboy (129). Total cumulative: 14,745 entries (+325 new this session).",
   "sections_completed": [
     "Base game - 0000_dorseyssnowedinn_radio",
     "Base game - 0000_gonzalez_radio_contactwithazrangers",
@@ -392,16 +392,18 @@
     "Base game - a2001_marshallpitts",
     "Base game - a2001_marshalpowerarmor",
     "Base game - a2001_marshalprisoner_asleep",
-    "Base game - a2001_marshalprisoner_drunk"
+    "Base game - a2001_marshalprisoner_drunk",
+    "Base game - a2001_mrdebug_downtowncospring",
+    "Base game - a2001_paperboy"
   ],
   "partially_translated_sections": [],
-  "base_game_sections_completed": 102,
+  "base_game_sections_completed": 104,
   "dlc1_sections_completed": 367,
-  "base_game_entries_completed": 2635,
+  "base_game_entries_completed": 2960,
   "dlc1_entries_completed": 12012,
   "estimated_total_entries_base_game": "~81000",
   "estimated_total_entries_dlc1": "~120000",
   "estimated_total_entries_all": "~728000",
-  "last_commit": "ead5f34",
-  "session_number": 55
+  "last_commit": "d9f9e8f",
+  "session_number": 56
 }
