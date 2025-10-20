@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-20T12:45:00+09:00",
+  "last_updated": "2025-10-20T13:10:00+09:00",
   "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-  "total_entries_completed": 14130,
-  "last_completed_section": "Base game: a2001_frankpappas_inflophouse (fully completed - 227 entries)",
-  "next_section_to_translate": "Base game: next untranslated section after a2001_frankpappas_inflophouse",
+  "total_entries_completed": 14261,
+  "last_completed_section": "Base game: a2001_mactavish_atmachineshop (fully completed - 131 entries)",
+  "next_section_to_translate": "Base game: next untranslated section after a2001_mactavish_atmachineshop",
   "next_action": "Continue finding and translating untranslated sections in base game file",
-  "notes": "Session progress (2025-10-20 Session 53): Translated a2001_frankpappas_inflophouse section (227 entries). Total cumulative: 14,130 entries (+227 new).",
+  "notes": "Session progress (2025-10-20 Session 54): Translated a2001_frankpappas_inflophouse (227 entries) and a2001_mactavish_atmachineshop (131 entries). Total cumulative: 14,261 entries (+358 new this session).",
   "sections_completed": [
     "Base game - 0000_dorseyssnowedinn_radio",
     "Base game - 0000_gonzalez_radio_contactwithazrangers",
@@ -384,16 +384,17 @@
     "Base game - a1001_docparker",
     "Base game - a1001_handcraft",
     "Base game - a1001_marcelogonzalez",
-    "Base game - a2001_frankpappas_inflophouse"
+    "Base game - a2001_frankpappas_inflophouse",
+    "Base game - a2001_mactavish_atmachineshop"
   ],
   "partially_translated_sections": [],
-  "base_game_sections_completed": 94,
+  "base_game_sections_completed": 95,
   "dlc1_sections_completed": 367,
-  "base_game_entries_completed": 2118,
+  "base_game_entries_completed": 2476,
   "dlc1_entries_completed": 12012,
   "estimated_total_entries_base_game": "~81000",
   "estimated_total_entries_dlc1": "~120000",
   "estimated_total_entries_all": "~728000",
-  "last_commit": "31b4666",
-  "session_number": 53
+  "last_commit": "703ec9a",
+  "session_number": 54
 }
