@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-21T09:45:00+09:00",
+  "last_updated": "2025-10-21T09:15:00+09:00",
   "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-  "total_entries_completed": 35924,
-  "last_completed_section": "Base game: c2101_rileywoodson (partial: entries 0-73 of 171)",
-  "next_section_to_translate": "Continue c2101_rileywoodson from entry 74",
-  "next_action": "Session 45 partial. Translated 273 entries (9 sections). Next: Continue rileywoodson from entry 74. Cumulative: 35,924 entries.",
-  "notes": "Session 45 (2025-10-21): c2101_pizepi (133 completion), c2101_poolcomputer (18), c2101_priscillareed (17), c2101_psychopath_intercom (14), c2101_psychopath_partybarks (2), c2101_psychopath_song (3), c2101_respectroomcomputer (6), c2101_respectroomguards (6), c2101_rileywoodson (74 partial). Total: 273 entries. Cumulative: 35,924 entries (35,651 + 273). Content includes Victory Buchanan psychopath dialogue, Pizepi rescue completion, Riley Woodson torture scene.",
+  "total_entries_completed": 36424,
+  "last_completed_section": "Base game: c2101_violetreed (partial: entries 0-56 of 99)",
+  "next_section_to_translate": "Continue c2101_violetreed from entry 57",
+  "next_action": "Session 46 checkpoint 1. Translated 500 entries (8 sections). Next: Continue violetreed from entry 57. Cumulative: 36,424 entries.",
+  "notes": "Session 46 (2025-10-21): c2101_rileywoodson completion (97), c2101_rileywoodsonradiocall (9), c2101_rook (62), c2101_saunacomputer (15), c2101_saunaguards (6), c2101_securitycontrolroomdoor (39), c2101_thegift (215), c2101_violetreed (57 partial). Total: 500 entries. Cumulative: 36,424 entries (35,924 + 500). Content includes Riley Woodson completion, The Gift's dream gas dialogue, Violet Reed hostage situation.",
   "sections_completed": [
     "Base game - c2101_ash",
     "Base game - c2101_ashsvideomonitors",
@@ -33,8 +33,15 @@
     "Base game - c2101_psychopath_song (complete)",
     "Base game - c2101_respectroomcomputer (complete)",
     "Base game - c2101_respectroomguards (complete)",
-    "Base game - c2101_rileywoodson (partial: 0-73)"
+    "Base game - c2101_rileywoodson (complete)",
+    "Base game - c2101_rileywoodsonradiocall (complete)",
+    "Base game - c2101_rook (complete)",
+    "Base game - c2101_saunacomputer (complete)",
+    "Base game - c2101_saunaguards (complete)",
+    "Base game - c2101_securitycontrolroomdoor (complete)",
+    "Base game - c2101_thegift (complete)",
+    "Base game - c2101_violetreed (partial: 0-56)"
   ],
-  "last_commit": "10ebac0",
-  "session_number": 45
+  "last_commit": "607e16a",
+  "session_number": 46
 }
