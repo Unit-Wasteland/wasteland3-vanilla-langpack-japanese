@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-21T04:10:00+09:00",
+  "last_updated": "2025-10-21T04:30:00+09:00",
   "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-  "total_entries_completed": 28797,
-  "last_completed_section": "Base game: GUI section entries [2351-2604]",
-  "next_section_to_translate": "Next section: inputactions (starting at line 480541)",
-  "next_action": "Continue with inputactions section - translate in 150-200 entry chunks, commit every 500 entries",
-  "notes": "Session progress (2025-10-21/session 25 continued): Translated GUI entries [2351-2604] = 254 new entries (999 total this session). Commit: 7a92c6c (254 entries [2351-2604]). Next: inputactions section line 480541+. Target for automation: completed 999 entries this session so far, aiming for ~2500 total. Cumulative total: 28,797 entries.",
+  "total_entries_completed": 28967,
+  "last_completed_section": "Base game: inputactions section entries [0-169]",
+  "next_section_to_translate": "Next section: interactables (starting at line 481573)",
+  "next_action": "Continue with interactables section - translate in 150-200 entry chunks, commit every 500 entries",
+  "notes": "Session progress (2025-10-21/session 25 continued): Translated inputactions entries [0-169] = 170 new entries (1169 total this session). Commits: 7a92c6c (GUI 254 entries), 3104583 (inputactions 170 entries). Next: interactables section line 481573+. Target for automation: completed 1169 entries this session so far, aiming for ~2500 total. Cumulative total: 28,967 entries.",
   "sections_completed": [
     "Base game - 0000_dorseyssnowedinn_radio",
     "Base game - 0000_gonzalez_radio_contactwithazrangers",
@@ -626,10 +626,11 @@
     "Base game - GUI section entries [1106-1605]",
     "Base game - GUI section entries [1606-2130]",
     "Base game - GUI section entries [2131-2350]",
-    "Base game - GUI section entries [2351-2604]"
+    "Base game - GUI section entries [2351-2604]",
+    "Base game - inputactions section entries [0-169]"
   ],
   "partially_translated_sections": [
-    "Base game - inputactions section (starting translation)"
+    "Base game - interactables section (starting translation)"
   ],
   "base_game_sections_completed": 282,
   "dlc1_sections_completed": 367,
