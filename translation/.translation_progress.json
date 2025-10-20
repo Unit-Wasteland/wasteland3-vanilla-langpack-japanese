@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-20T23:15:42+09:00",
+  "last_updated": "2025-10-20T23:50:25+09:00",
   "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-  "total_entries_completed": 21969,
-  "last_completed_section": "DLC2: a5001_castilloconstable",
-  "next_section_to_translate": "DLC2: a5001_coracastillo (82 entries)",
-  "next_action": "Continue translating a5001_coracastillo and subsequent DLC2 sections",
-  "notes": "Session progress (2025-10-20/23): Translated 295 new entries in 1 commit (c000236). Completed: a5001_ambienthundredfamilies (113 entries), a5001_ambienthundredfamilies_exchange (63 entries), a5001_angeladeth_radio_concludelordsofwar (48 entries), a5001_bellamyward (34 entries), a5001_bowen (19 entries), a5001_castilloconstable (18 entries). Cumulative total: 21,969 entries.",
+  "total_entries_completed": 24025,
+  "last_completed_section": "DLC2: a5001_luciawesson",
+  "next_section_to_translate": "DLC2: a5001_melissahowe (63 entries)",
+  "next_action": "Continue translating a5001_melissahowe and subsequent DLC2 sections",
+  "notes": "Session progress (2025-10-21/automated): Translated 997 new entries in 2 commits (891c2b1, 2374b69). Completed: a5001_gideonreyes (168/198 entries), a5001_gravelibertymother (24 entries), a5001_hardeeknox (11 entries), a5001_hundredfamiliesinchurch (11 entries), a5001_jolasmellscub (59 entries), a5001_luciawesson (102 entries). Cumulative total: 24,025 entries.",
   "sections_completed": [
     "Base game - 0000_dorseyssnowedinn_radio",
     "Base game - 0000_gonzalez_radio_contactwithazrangers",
@@ -576,19 +576,31 @@
     "DLC2 - a5001_angeladeth_radio_concludelordsofwar",
     "DLC2 - a5001_bellamyward",
     "DLC2 - a5001_bowen",
-    "DLC2 - a5001_castilloconstable"
+    "DLC2 - a5001_castilloconstable",
+    "DLC2 - a5001_coracastillo",
+    "DLC2 - a5001_cyborgchicken_rightleg",
+    "DLC2 - a5001_debug_broadmoor",
+    "DLC2 - a5001_debug_diligentjoe",
+    "DLC2 - a5001_debug_gideonreyes",
+    "DLC2 - a5001_deliverydrone",
+    "DLC2 - a5001_diligentjoe",
+    "DLC2 - a5001_elijahward",
+    "DLC2 - a5001_estinward",
+    "DLC2 - a5001_finaldelugepriest"
   ],
-  "partially_translated_sections": [],
+  "partially_translated_sections": [
+    "DLC2 - a5001_gideonreyes (30/198 entries)"
+  ],
   "base_game_sections_completed": 267,
   "dlc1_sections_completed": 367,
-  "dlc2_sections_completed": 9,
+  "dlc2_sections_completed": 19,
   "base_game_entries_completed": 8797,
   "dlc1_entries_completed": 12075,
-  "dlc2_entries_completed": 1097,
+  "dlc2_entries_completed": 1653,
   "estimated_total_entries_base_game": "~81000",
   "estimated_total_entries_dlc1": "~120000",
   "estimated_total_entries_dlc2": "~77000",
   "estimated_total_entries_all": "~728000",
-  "last_commit": "c000236",
-  "session_number": 8
+  "last_commit": "ca2e048",
+  "session_number": 10
 }
