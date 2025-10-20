@@ -108741,13 +108741,13 @@
        [5]
         1 string data = """"
        [6]
-        1 string data = "[Small Chance to Escape]"
+        1 string data = "[脱出の低確率]"
        [7]
-        1 string data = "Take advantage of the terrain to escape."
+        1 string data = "地形を利用して逃げる。"
        [8]
         1 string data = """"
        [9]
-        1 string data = "Defend yourself."
+        1 string data = "自衛する。"
        [10]
         1 string data = """"
        [11]
@@ -108867,13 +108867,13 @@
        [5]
         1 string data = """"
        [6]
-        1 string data = "[Small Chance to Escape]"
+        1 string data = "[脱出の低確率]"
        [7]
-        1 string data = "Take advantage of the terrain to escape."
+        1 string data = "地形を利用して逃げる。"
        [8]
         1 string data = """"
        [9]
-        1 string data = "Defend yourself."
+        1 string data = "自衛する。"
        [10]
         1 string data = """"
        [11]
@@ -109013,7 +109013,7 @@
        [7]
         1 string data = "Avoid them."
        [8]
-        1 string data = "[Small Chance to Escape]"
+        1 string data = "[脱出の低確率]"
        [9]
         1 string data = "[Attack]"
        [10]
@@ -109163,7 +109163,7 @@
        [7]
         1 string data = "Avoid them."
        [8]
-        1 string data = "[Small Chance to Escape]"
+        1 string data = "[脱出の低確率]"
        [9]
         1 string data = "[Attack]"
        [10]
@@ -109295,7 +109295,7 @@
        [6]
         1 string data = "[Small Chance to Escape] Gun the engine and try to slide past the Ghosts. Hey, it <i>could</i> work!"
        [7]
-        1 string data = "Take advantage of the terrain to escape."
+        1 string data = "地形を利用して逃げる。"
        [8]
         1 string data = "Tweak a disruption weapon to give off a low pulse, stunning the Ghosts long enough to give you the drop on them."
        [9]
@@ -109495,13 +109495,13 @@
        [5]
         1 string data = """"
        [6]
-        1 string data = "[Small Chance to Escape]"
+        1 string data = "[脱出の低確率]"
        [7]
-        1 string data = "Take advantage of the terrain to escape."
+        1 string data = "地形を利用して逃げる。"
        [8]
         1 string data = """"
        [9]
-        1 string data = "Defend yourself."
+        1 string data = "自衛する。"
        [10]
         1 string data = """"
        [11]
@@ -109547,7 +109547,7 @@
        [31]
         1 string data = ""
        [32]
-        1 string data = "Take advantage of the terrain to escape."
+        1 string data = "地形を利用して逃げる。"
        [33]
         1 string data = "You throw the Kodiak in reverse, crank the e-brake, fishtail into the wilderness. You're long gone before the Ghosts can react."
        [34]
@@ -109921,7 +109921,7 @@
        [7]
         1 string data = "Avoid them."
        [8]
-        1 string data = "[Small Chance to Escape]"
+        1 string data = "[脱出の低確率]"
        [9]
         1 string data = "[Attack]"
        [10]
@@ -112955,47 +112955,47 @@
       1 Array Array (21 items)
        0 int size = 21
        [0]
-        1 string data = "Use to remove Disruption, Hot Tar, Burning, Frozen, Shocked, Slowed, and Stunned status effects."
+        1 string data = "使用すると妨害、熱タール、燃焼、凍結、感電、減速、スタン状態を除去する。"
        [1]
-        1 string data = "Hazard Shield"
+        1 string data = "ハザードシールド"
        [2]
-        1 string data = "Fire a protective shield at an ally that grants immunity to most negative conditions. Lasts until hit by elemental damage."
+        1 string data = "味方に防護シールドを発射し、ほとんどの負の状態への免疫を付与する。属性ダメージを受けるまで持続。"
        [3]
-        1 string data = "Throw to create a persistent hazard that applies Disruption Field on anyone inside. Lasts 2 turns."
+        1 string data = "投げて持続的なハザードを作り、範囲内の全員に妨害フィールドを適用する。2ターン持続。"
        [4]
-        1 string data = "Charge Gauntlet"
+        1 string data = "チャージガントレット"
        [5]
-        1 string data = "Pneumatic Gauntlet"
+        1 string data = "ニューマティックガントレット"
        [6]
-        1 string data = "Energy Shield"
+        1 string data = "エネルギーシールド"
        [7]
-        1 string data = "Cryo Shield"
+        1 string data = "クライオシールド"
        [8]
-        1 string data = "Fire Shield"
+        1 string data = "ファイアシールド"
        [9]
-        1 string data = "Cryo Cannon"
+        1 string data = "クライオキャノン"
        [10]
-        1 string data = "Call Out"
+        1 string data = "呼びかけ"
        [11]
-        1 string data = "Cryo Cannon"
+        1 string data = "クライオキャノン"
        [12]
-        1 string data = "Subdue"
+        1 string data = "制圧"
        [13]
-        1 string data = "Extinguish"
+        1 string data = "消火"
        [14]
-        1 string data = "Use to safely put out flames on a target character."
+        1 string data = "使用すると対象キャラクターの炎を安全に消火する。"
        [15]
-        1 string data = "Self-Repair"
+        1 string data = "自己修復"
        [16]
-        1 string data = "Eat to gain +15% Melee Damage and +25% Max CON for 6 turns."
+        1 string data = "食べると近接ダメージ+15%、最大CON+25%を6ターン獲得。"
        [17]
-        1 string data = "Deploy Guard-Dog"
+        1 string data = "ガードドッグ配置"
        [18]
-        1 string data = "Deploy Guard-Bot"
+        1 string data = "ガードボット配置"
        [19]
-        1 string data = "Spinal Implant"
+        1 string data = "脊椎インプラント"
        [20]
-        1 string data = "Applies Disruption Field x10, instantly knocking out the target.\n\n\n<color=#808080>{0}% Chance:</color> Detonates the target's Spinal Implant, unleashing a Disruption Field hazard around them."
+        1 string data = "妨害フィールドx10を適用し、即座に対象をノックアウトする。\n\n\n<color=#808080>{0}%確率:</color> 対象の脊椎インプラントを起爆し、周囲に妨害フィールドハザードを放出する。"
    [375]
     0 StringTable data
      1 string Filename = "characters"
