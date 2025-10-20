@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-20T10:30:00+09:00",
+  "last_updated": "2025-10-20T11:15:00+09:00",
   "current_file": "StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
-  "total_entries_completed": 12766,
-  "last_completed_section": "DLC1: jenetest_combatbarks_workers (fully completed - 64 entries)",
-  "next_section_to_translate": "DLC1: d3001_lowvolt_obsolete or next available section",
-  "next_action": "Continue sequential translation in DLC1 file: next section after jenetest_combatbarks_workers",
-  "notes": "Session progress (2025-10-20 Session 46): Completed 3 sections (296 entries total). Sections: d3001_sparksinger (172), d3001_whiningjimmy (60), jenetest_combatbarks_workers (64). Total cumulative: 12,766 entries.",
+  "total_entries_completed": 12995,
+  "last_completed_section": "DLC1: mission_d1001_steeltown (fully completed - 28 entries)",
+  "next_section_to_translate": "DLC1: mission_d1001_toourhealth",
+  "next_action": "Continue sequential translation in DLC1 file: mission sections",
+  "notes": "Session progress (2025-10-20 Session 47): Completed 9 mission sections (229 entries total). Missions: mission_d1001_flushed (28), mission_d1001_followthatcar (15), mission_d1001_hotcommodities (38), mission_d1001_killgrille (16), mission_d1001_notwithoutmydaughter (14), mission_d1001_orderup (40), mission_d1001_reporun (36), mission_d1001_smokeandmeetings (14), mission_d1001_steeltown (28). Total cumulative: 12,995 entries.",
   "sections_completed": [
     "Base game - 0000_dorseyssnowedinn_radio",
     "Base game - 0000_gonzalez_radio_contactwithazrangers",
@@ -356,19 +356,28 @@
     "DLC1 - d3001_researchersjournal",
     "DLC1 - d3001_sparksinger",
     "DLC1 - d3001_whiningjimmy",
-    "DLC1 - jenetest_combatbarks_workers"
+    "DLC1 - jenetest_combatbarks_workers",
+    "DLC1 - mission_d1001_flushed",
+    "DLC1 - mission_d1001_followthatcar",
+    "DLC1 - mission_d1001_hotcommodities",
+    "DLC1 - mission_d1001_killgrille",
+    "DLC1 - mission_d1001_notwithoutmydaughter",
+    "DLC1 - mission_d1001_orderup",
+    "DLC1 - mission_d1001_reporun",
+    "DLC1 - mission_d1001_smokeandmeetings",
+    "DLC1 - mission_d1001_steeltown"
   ],
   "partially_translated_sections": [
     "Base game - a1001_docparker (partial - entries [366]-[388] translated)",
     "Base game - a1001_handcraft (partial - entries [54]-[90] translated)"
   ],
   "base_game_sections_completed": 88,
-  "dlc1_sections_completed": 344,
+  "dlc1_sections_completed": 353,
   "base_game_entries_completed": 906,
-  "dlc1_entries_completed": 11860,
+  "dlc1_entries_completed": 12089,
   "estimated_total_entries_base_game": "~81000",
   "estimated_total_entries_dlc1": "~120000",
   "estimated_total_entries_all": "~728000",
-  "last_commit": "092e52c",
-  "session_number": 40
+  "last_commit": "041ece3",
+  "session_number": 47
 }
