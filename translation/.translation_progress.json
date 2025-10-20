@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-21T07:30:00+09:00",
+  "last_updated": "2025-10-21T08:00:00+09:00",
   "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-  "total_entries_completed": 33877,
-  "last_completed_section": "Base game: poi section [0-255] COMPLETE (256 entries)",
-  "next_section_to_translate": "skills section (99 entries)",
-  "next_action": "Continue with skills section translation. Poi section completed successfully.",
-  "notes": "Session 37 (2025-10-21): poi [0-255] = 256 entries. Cumulative total: 33,877 entries. Next: skills section (Skill names and descriptions, 99 entries).",
+  "total_entries_completed": 33976,
+  "last_completed_section": "Base game: poi section [0-255] COMPLETE (256 entries), skills section [0-98] COMPLETE (99 entries)",
+  "next_section_to_translate": "scenedescriptions section or other sections",
+  "next_action": "Automated translation session complete. Both poi and skills sections completed successfully. Ready for next session.",
+  "notes": "Session 37 final (2025-10-21): poi [0-255] = 256 entries, skills [0-98] = 99 entries. Session total: 355 entries. Cumulative total: 33,976 entries. Next: continue with remaining sections.",
   "sections_completed": [
     "Base game - 0000_dorseyssnowedinn_radio",
     "Base game - 0000_gonzalez_radio_contactwithazrangers",
@@ -641,19 +641,20 @@
     "Base game - statuseffects section entries [0-461] (COMPLETE)",
     "Base game - tutorial section [0-284] (COMPLETE)",
     "Base game - worldmap section [0-37] (COMPLETE)",
-    "Base game - poi section [0-255] (COMPLETE)"
+    "Base game - poi section [0-255] (COMPLETE)",
+    "Base game - skills section [0-98] (COMPLETE)"
   ],
   "partially_translated_sections": [],
   "base_game_sections_completed": 290,
   "dlc1_sections_completed": 367,
   "dlc2_sections_completed": 34,
-  "base_game_entries_completed": 12998,
+  "base_game_entries_completed": 13097,
   "dlc1_entries_completed": 12075,
   "dlc2_entries_completed": 2060,
   "estimated_total_entries_base_game": "~81000",
   "estimated_total_entries_dlc1": "~120000",
   "estimated_total_entries_dlc2": "~77000",
   "estimated_total_entries_all": "~728000",
-  "last_commit": "34916d0",
+  "last_commit": "4dbfd85",
   "session_number": 37
 }
