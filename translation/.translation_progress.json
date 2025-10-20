@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-21T07:15:00+09:00",
+  "last_updated": "2025-10-21T16:00:00+09:00",
   "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-  "total_entries_completed": 34330,
-  "last_completed_section": "Base game: a2001 sections (dollshop, dorsey, flophouse, gonzalez radio, gideonreyes radio)",
-  "next_section_to_translate": "Continue with remaining a2001 sections and other untranslated dialogue sections",
-  "next_action": "Session 39 partial complete. Translated 11 sections (136 entries). Continue translating to reach daily target.",
-  "notes": "Session 39 (2025-10-21): Translated a2001_dollshop_couple (7), a2001_dollshop_marshal (1), a2001_dorseyholdout (23), a2001_dorseyprisoner (12), a2001_faranbrygo_arrested (4), a2001_flophouseintercom (48), a2001_flophouse_marshal (1), a2001_gonzalez_radio_aftermactavishconvo (8), a2001_gonzalez_radio_aftermamacotterconvo. (7), a2001_gonzalez_radio_aftermamacotterconvo (7), a2001_gideonreyes_radio_unwelcomeguest (18). Session total: 136 entries. Cumulative total: 34,330 entries.",
+  "total_entries_completed": 34468,
+  "last_completed_section": "Base game: a2001 sections (gunslinger_postgarden, hallie, hunters, irv sections)",
+  "next_section_to_translate": "Continue with remaining a2001 sections starting from a2001_junkokawano and onwards",
+  "next_action": "Session 40 complete. Translated 5 new sections (138 entries). Continue translating remaining a2001 dialogue sections.",
+  "notes": "Session 40 (2025-10-21): Translated a2001_gunslinger_postgarden (52), a2001_hallie (49), a2001_hunters (15), a2001_irv27journal_dybmnlore (2), a2001_irvclones (20). Many sections were already translated (a2001_irvscloningmachine-48, a2001_irv_downtown-116, a2001_jessecotter-6, a2001_jimmycotter-6). Session total: 138 new entries. Cumulative total: 34,468 entries.",
   "sections_completed": [
     "Base game - 0000_dorseyssnowedinn_radio",
     "Base game - 0000_gonzalez_radio_contactwithazrangers",
@@ -657,6 +657,6 @@
   "estimated_total_entries_dlc1": "~120000",
   "estimated_total_entries_dlc2": "~77000",
   "estimated_total_entries_all": "~728000",
-  "last_commit": "ae2bbfe",
-  "session_number": 39
+  "last_commit": "2e2643a",
+  "session_number": 40
 }
