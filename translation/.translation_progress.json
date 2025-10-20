@@ -2,11 +2,11 @@
   "last_updated": "2025-10-20T10:15:00+09:00",
   "current_file": "StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
-  "total_entries_completed": 12008,
-  "last_completed_section": "DLC1: d3001_acolyte_lowvolt (fully completed - 55 entries)",
-  "next_section_to_translate": "DLC1: d3001_blindmarvin (101 entries total)",
-  "next_action": "Continue sequential translation in DLC1 file: d3001_blindmarvin section",
-  "notes": "Session progress (2025-10-20 Session 43): Completed 8 sections (274 entries total). Sections: d2201_int_console_core (67), d2201_int_console_personnel (12), d2201_postsynths_crow (5), d2201_postsynths_markham (7), d2201_robot_defenses (3), d2201_smokebreakadmin (16), d2201_smokestacksmachine_nuttightenloosen (25), d2201_synth (84), d3001_acolyte_lowvolt (55). Total cumulative: 12,008 entries.",
+  "total_entries_completed": 12218,
+  "last_completed_section": "DLC1: d3001_lightningshamans_gatekeeper (fully completed - 42 entries)",
+  "next_section_to_translate": "DLC1: d3001_lowvolt (105 entries total)",
+  "next_action": "Continue sequential translation in DLC1 file: d3001_lowvolt section",
+  "notes": "Session progress (2025-10-20 Session 44): Completed 8 sections (210 entries total). Sections: d3001_blindmarvin (101), d3001_inertrobot (3), d3001_int_console_charlie_logs (22), d3001_int_console_charlie_materials (2), d3001_int_console_modelorb (12), d3001_int_console_whiskey (2), d3001_lightningshamans (26), d3001_lightningshamans_gatekeeper (42). Total cumulative: 12,218 entries.",
   "sections_completed": [
     "Base game - 0000_dorseyssnowedinn_radio",
     "Base game - 0000_gonzalez_radio_contactwithazrangers",
@@ -341,19 +341,27 @@
     "DLC1 - d2201_smokebreakadmin",
     "DLC1 - d2201_smokestacksmachine_nuttightenloosen",
     "DLC1 - d2201_synth",
-    "DLC1 - d3001_acolyte_lowvolt"
+    "DLC1 - d3001_acolyte_lowvolt",
+    "DLC1 - d3001_blindmarvin",
+    "DLC1 - d3001_inertrobot",
+    "DLC1 - d3001_int_console_charlie_logs",
+    "DLC1 - d3001_int_console_charlie_materials",
+    "DLC1 - d3001_int_console_modelorb",
+    "DLC1 - d3001_int_console_whiskey",
+    "DLC1 - d3001_lightningshamans",
+    "DLC1 - d3001_lightningshamans_gatekeeper"
   ],
   "partially_translated_sections": [
     "Base game - a1001_docparker (partial - entries [366]-[388] translated)",
     "Base game - a1001_handcraft (partial - entries [54]-[90] translated)"
   ],
   "base_game_sections_completed": 88,
-  "dlc1_sections_completed": 329,
+  "dlc1_sections_completed": 337,
   "base_game_entries_completed": 906,
-  "dlc1_entries_completed": 11102,
+  "dlc1_entries_completed": 11312,
   "estimated_total_entries_base_game": "~81000",
   "estimated_total_entries_dlc1": "~120000",
   "estimated_total_entries_all": "~728000",
-  "last_commit": "690835d",
-  "session_number": 43
+  "last_commit": "c1a21a5",
+  "session_number": 44
 }
