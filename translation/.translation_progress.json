@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-20T14:45:00+09:00",
+  "last_updated": "2025-10-20T14:30:00+09:00",
   "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-  "total_entries_completed": 15968,
-  "last_completed_section": "Base game: a2001_troyandbrandi (completed 36 entries)",
-  "next_section_to_translate": "Base game: c2001_josiahcasady (0 of 85 entries)",
-  "next_action": "Continue translating c2001_josiahcasady section (85 entries total)",
-  "notes": "Session progress (2025-10-20 Session 60): Translated 289 entries total this session: theocurie_owpattract (198), theprisoner_victim01 (2), thewarden (42), thieves (5), tommycotter (6), troyandbrandi (36). Total cumulative: 15,968 entries (+289 new this session).",
+  "total_entries_completed": 16282,
+  "last_completed_section": "Base game: a2011_combatbarks_angiesrebel (completed 74 entries)",
+  "next_section_to_translate": "Base game: a2011_combatbarks_brotherthomas (0 of 24 entries)",
+  "next_action": "Continue translating a2011_combatbarks_brotherthomas section (24 entries total)",
+  "notes": "Session progress (2025-10-20 Session 61): Translated 314 entries total this session: c2001_josiahcasady (85), c2001_marthacasady (30), a2011_angiesupport (28), a2011_combatbarks_adamant (20), a2011_combatbarks_angeladeth (77), a2011_combatbarks_angiesrebel (74). Total cumulative: 16,282 entries (+314 new this session).",
   "sections_completed": [
     "Base game - 0000_dorseyssnowedinn_radio",
     "Base game - 0000_gonzalez_radio_contactwithazrangers",
@@ -417,16 +417,22 @@
     "Base game - a2001_thewarden",
     "Base game - a2001_thieves",
     "Base game - a2001_tommycotter",
-    "Base game - a2001_troyandbrandi"
+    "Base game - a2001_troyandbrandi",
+    "Base game - c2001_josiahcasady",
+    "Base game - c2001_marthacasady",
+    "Base game - a2011_angiesupport",
+    "Base game - a2011_combatbarks_adamant",
+    "Base game - a2011_combatbarks_angeladeth",
+    "Base game - a2011_combatbarks_angiesrebel"
   ],
   "partially_translated_sections": [],
-  "base_game_sections_completed": 123,
+  "base_game_sections_completed": 129,
   "dlc1_sections_completed": 367,
-  "base_game_entries_completed": 3893,
+  "base_game_entries_completed": 4207,
   "dlc1_entries_completed": 11785,
   "estimated_total_entries_base_game": "~81000",
   "estimated_total_entries_dlc1": "~120000",
   "estimated_total_entries_all": "~728000",
-  "last_commit": "49b351a",
-  "session_number": 54
+  "last_commit": "abc330c",
+  "session_number": 61
 }
