@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-21T06:30:00+09:00",
+  "last_updated": "2025-10-21T05:59:15+09:00",
   "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-  "total_entries_completed": 33064,
-  "last_completed_section": "Base game: tutorial section [0-19] (20 entries - PARTIAL)",
-  "next_section_to_translate": "tutorial section [20-284] (remaining 265 entries), worldmap section (38 entries), poi section (256 entries), skills section (99 entries)",
-  "next_action": "Continue tutorial section translation [20-284]. After tutorial complete, translate worldmap, poi, skills sections. Tutorial translation in progress - manual edit approach too slow, need batch processing strategy for remaining 265 entries.",
-  "notes": "Session progress (2025-10-21/session 35): tutorial [0-19] = 20 entries. Commit: 4884a60. Cumulative total: 33,064 entries. Tutorial section started but incomplete (20/285 entries). Test section was already translated in previous session.",
+  "total_entries_completed": 33075,
+  "last_completed_section": "Base game: tutorial section [0-30] (31 entries - PARTIAL)",
+  "next_section_to_translate": "tutorial section [31-284] (remaining 254 entries), worldmap section (38 entries), poi section (256 entries), skills section (99 entries)",
+  "next_action": "Continue tutorial section translation [31-284]. After tutorial complete, translate worldmap, poi, skills sections. Tutorial translation in progress - need efficient batch processing for remaining 254 entries.",
+  "notes": "Session progress (2025-10-21/session 36): tutorial [20-30] = 11 entries. Cumulative total: 33,075 entries. Tutorial section in progress (31/285 entries). Large file (530K lines) requires efficient translation strategy.",
   "sections_completed": [
     "Base game - 0000_dorseyssnowedinn_radio",
     "Base game - 0000_gonzalez_radio_contactwithazrangers",
