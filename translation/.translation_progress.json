@@ -2,11 +2,11 @@
   "last_updated": "2025-10-20T12:00:00+09:00",
   "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-  "total_entries_completed": 13584,
-  "last_completed_section": "Base game: a1001_marcelogonzalez (fully completed - 192 entries)",
-  "next_section_to_translate": "Base game: a1001_marcelogonzalez_radiocallin",
-  "next_action": "Continue translating untranslated sections in base game file",
-  "notes": "Session progress (2025-10-20 Session 51): Completed a1001_marcelogonzalez section entries [0]-[191] (192 entries). This is the main dialogue for Gonzalez, the radio communications expert. Total cumulative: 13,584 entries (+192 new).",
+  "total_entries_completed": 13903,
+  "last_completed_section": "Base game: a1001_masato (fully completed - 154 entries)",
+  "next_section_to_translate": "Base game: next untranslated section after a1001_masato",
+  "next_action": "Continue finding and translating untranslated sections in base game file",
+  "notes": "Session progress (2025-10-20 Session 52): Discovered previously translated sections not in progress file: a1001_marshaldinh (159 entries) and a1001_masato (154 entries). Also minor DLC2 improvements (6 entries). Total cumulative: 13,903 entries (+319 new discovered).",
   "sections_completed": [
     "Base game - 0000_dorseyssnowedinn_radio",
     "Base game - 0000_gonzalez_radio_contactwithazrangers",
@@ -57,7 +57,9 @@
     "Base game - a1001_luciawesson_abandoned",
     "Base game - a1001_marcelogonzalez_radiocallin",
     "Base game - a1001_margaret",
+    "Base game - a1001_marshaldinh",
     "Base game - a1001_marshalquinn",
+    "Base game - a1001_masato",
     "Base game - a1001_medbay_corpse01",
     "Base game - a1001_medbay_corpse02",
     "Base game - a1001_medbay_corpse03",
@@ -384,13 +386,13 @@
     "Base game - a1001_marcelogonzalez"
   ],
   "partially_translated_sections": [],
-  "base_game_sections_completed": 91,
+  "base_game_sections_completed": 93,
   "dlc1_sections_completed": 367,
-  "base_game_entries_completed": 1572,
+  "base_game_entries_completed": 1891,
   "dlc1_entries_completed": 12012,
   "estimated_total_entries_base_game": "~81000",
   "estimated_total_entries_dlc1": "~120000",
   "estimated_total_entries_all": "~728000",
   "last_commit": "a3b1b87",
-  "session_number": 45
+  "session_number": 46
 }
