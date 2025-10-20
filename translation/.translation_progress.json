@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-20T11:15:00+09:00",
+  "last_updated": "2025-10-20T11:45:00+09:00",
   "current_file": "StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
-  "total_entries_completed": 13214,
-  "last_completed_section": "DLC1: mission_d2001_factoryfracas (fully completed - 52 entries)",
-  "next_section_to_translate": "DLC1: mission_d2001_giftofthemagi",
+  "total_entries_completed": 13291,
+  "last_completed_section": "DLC1: mission_dlc1_d2001_workingstiff (fully completed - 26 entries)",
+  "next_section_to_translate": "DLC1: mission_d3001_staffofthefinders",
   "next_action": "Continue sequential translation in DLC1 file: mission sections",
-  "notes": "Session progress (2025-10-20 Session 48): Completed 8 mission sections (219 entries total). Missions: mission_d1001_toourhealth (20), mission_dlc1_d1001_raiders (10), mission_dlc1_d2001_myboyblue (27), mission_d2001_boilingpoint (29), mission_d2001_crowspire (28), mission_d2001_diagnosticpilgrimage (15), mission_d2001_electricdreams (38), mission_d2001_factoryfracas (52). Total cumulative: 13,214 entries.",
+  "notes": "Session progress (2025-10-20 Session 48): Completed 10 mission sections (296 entries total). Missions: mission_d1001_toourhealth (20), mission_dlc1_d1001_raiders (10), mission_dlc1_d2001_myboyblue (27), mission_d2001_boilingpoint (29), mission_d2001_crowspire (28), mission_d2001_diagnosticpilgrimage (15), mission_d2001_electricdreams (38), mission_d2001_factoryfracas (52), mission_d2001_giftofthemagi (51), mission_dlc1_d2001_workingstiff (26). Total cumulative: 13,291 entries.",
   "sections_completed": [
     "Base game - 0000_dorseyssnowedinn_radio",
     "Base game - 0000_gonzalez_radio_contactwithazrangers",
@@ -373,19 +373,21 @@
     "DLC1 - mission_d2001_crowspire",
     "DLC1 - mission_d2001_diagnosticpilgrimage",
     "DLC1 - mission_d2001_electricdreams",
-    "DLC1 - mission_d2001_factoryfracas"
+    "DLC1 - mission_d2001_factoryfracas",
+    "DLC1 - mission_d2001_giftofthemagi",
+    "DLC1 - mission_dlc1_d2001_workingstiff"
   ],
   "partially_translated_sections": [
     "Base game - a1001_docparker (partial - entries [366]-[388] translated)",
     "Base game - a1001_handcraft (partial - entries [54]-[90] translated)"
   ],
   "base_game_sections_completed": 88,
-  "dlc1_sections_completed": 361,
+  "dlc1_sections_completed": 363,
   "base_game_entries_completed": 906,
-  "dlc1_entries_completed": 12308,
+  "dlc1_entries_completed": 12385,
   "estimated_total_entries_base_game": "~81000",
   "estimated_total_entries_dlc1": "~120000",
   "estimated_total_entries_all": "~728000",
-  "last_commit": "689afa7",
+  "last_commit": "21c5225",
   "session_number": 48
 }
