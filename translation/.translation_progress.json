@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-20T10:58:01+09:00",
+  "last_updated": "2025-10-20T11:15:32+09:00",
   "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-  "total_entries_completed": 13338,
-  "last_completed_section": "Base game: a1001_docparker (fully completed - 420 entries)",
-  "next_section_to_translate": "Base game: a1001_handcraft (continue from entry [0])",
-  "next_action": "Continue sequential translation in base game file: a1001_handcraft section (entries [0]-[53] and [91]+ remaining)",
-  "notes": "Session progress (2025-10-20 Session 49): Completed DLC1 sections: mission_d3001_staffofthefinders (23), yy_dlc1 combat barks (3), abilities (21). Discovered a1001_docparker was already fully translated (420 entries total). Total cumulative: 13,338 entries (+47 new).",
+  "total_entries_completed": 13392,
+  "last_completed_section": "Base game: a1001_handcraft (fully completed - 54 entries)",
+  "next_section_to_translate": "Base game: Continue sequential translation from next untranslated section",
+  "next_action": "Search for next untranslated section in base game file (most sections already completed)",
+  "notes": "Session progress (2025-10-20 Session 50): Completed a1001_handcraft section entries [0]-[53] (54 entries). Fixed a1001_immaculate action markup. Most base game sections already translated. Total cumulative: 13,392 entries (+54 new).",
   "sections_completed": [
     "Base game - 0000_dorseyssnowedinn_radio",
     "Base game - 0000_gonzalez_radio_contactwithazrangers",
@@ -379,18 +379,17 @@
     "DLC1 - mission_d3001_staffofthefinders",
     "DLC1 - yy_dlc1 combat barks",
     "DLC1 - abilities",
-    "Base game - a1001_docparker"
+    "Base game - a1001_docparker",
+    "Base game - a1001_handcraft"
   ],
-  "partially_translated_sections": [
-    "Base game - a1001_handcraft (partial - entries [54]-[90] translated)"
-  ],
-  "base_game_sections_completed": 89,
+  "partially_translated_sections": [],
+  "base_game_sections_completed": 90,
   "dlc1_sections_completed": 367,
-  "base_game_entries_completed": 1326,
+  "base_game_entries_completed": 1380,
   "dlc1_entries_completed": 12012,
   "estimated_total_entries_base_game": "~81000",
   "estimated_total_entries_dlc1": "~120000",
   "estimated_total_entries_all": "~728000",
-  "last_commit": "21c5225",
-  "session_number": 44
+  "last_commit": "a3b1b87",
+  "session_number": 50
 }
