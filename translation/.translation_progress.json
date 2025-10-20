@@ -2,11 +2,11 @@
   "last_updated": "2025-10-21T07:15:00+09:00",
   "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-  "total_entries_completed": 34194,
-  "last_completed_section": "Base game: scenedescriptions section [0-95] COMPLETE (96 entries), scenes section [0-121] COMPLETE (122 entries)",
-  "next_section_to_translate": "mission sections or other untranslated sections",
-  "next_action": "Automated translation session complete. scenedescriptions and scenes sections completed successfully. Ready for next session.",
-  "notes": "Session 38 (2025-10-21): scenedescriptions [0-95] = 96 entries, scenes [0-121] = 122 entries. Session total: 218 entries. Cumulative total: 34,194 entries. Next: continue with mission sections.",
+  "total_entries_completed": 34330,
+  "last_completed_section": "Base game: a2001 sections (dollshop, dorsey, flophouse, gonzalez radio, gideonreyes radio)",
+  "next_section_to_translate": "Continue with remaining a2001 sections and other untranslated dialogue sections",
+  "next_action": "Session 39 partial complete. Translated 11 sections (136 entries). Continue translating to reach daily target.",
+  "notes": "Session 39 (2025-10-21): Translated a2001_dollshop_couple (7), a2001_dollshop_marshal (1), a2001_dorseyholdout (23), a2001_dorseyprisoner (12), a2001_faranbrygo_arrested (4), a2001_flophouseintercom (48), a2001_flophouse_marshal (1), a2001_gonzalez_radio_aftermactavishconvo (8), a2001_gonzalez_radio_aftermamacotterconvo. (7), a2001_gonzalez_radio_aftermamacotterconvo (7), a2001_gideonreyes_radio_unwelcomeguest (18). Session total: 136 entries. Cumulative total: 34,330 entries.",
   "sections_completed": [
     "Base game - 0000_dorseyssnowedinn_radio",
     "Base game - 0000_gonzalez_radio_contactwithazrangers",
@@ -658,5 +658,5 @@
   "estimated_total_entries_dlc2": "~77000",
   "estimated_total_entries_all": "~728000",
   "last_commit": "ae2bbfe",
-  "session_number": 38
+  "session_number": 39
 }
