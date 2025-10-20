@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-21T04:15:32+09:00",
+  "last_updated": "2025-10-21T05:00:00+09:00",
   "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-  "total_entries_completed": 29838,
-  "last_completed_section": "Base game: items section entries [20-519]",
-  "next_section_to_translate": "items section entries [520-onwards] (2822 remaining entries in items section)",
-  "next_action": "Continue translating items section from entry 520. Items section has 2,822 remaining entries [520-3341]",
-  "notes": "Session progress (2025-10-21/session 27): Translated items [20-519] = 500 entries in automated session. Commit: f4ef54c (items 500 entries). Items section progress: 520/3342 entries complete. Cumulative total: 29,838 entries.",
+  "total_entries_completed": 30622,
+  "last_completed_section": "Base game: items section entries [804-1303]",
+  "next_section_to_translate": "items section entries [1304-onwards] (2038 remaining entries in items section)",
+  "next_action": "Continue translating items section from entry 1304. Items section has 2,038 remaining entries [1304-3341]",
+  "notes": "Session progress (2025-10-21/session 28): Translated items [804-1303] = 500 entries. Commit: bf1ec24 (items 500 entries). Items section progress: 1304/3342 entries complete. Cumulative total: 30,622 entries.",
   "sections_completed": [
     "Base game - 0000_dorseyssnowedinn_radio",
     "Base game - 0000_gonzalez_radio_contactwithazrangers",
@@ -628,21 +628,23 @@
     "Base game - GUI section entries [2131-2350]",
     "Base game - GUI section entries [2351-2604]",
     "Base game - inputactions section entries [0-169]",
-    "Base game - interactables section entries [0-350]"
+    "Base game - interactables section entries [0-350]",
+    "Base game - items section entries [0-19]",
+    "Base game - items section entries [20-519]"
   ],
   "partially_translated_sections": [
-    "Base game - items section (starting translation, 20/3342 entries)"
+    "Base game - items section (continuing translation, 804/3342 entries)"
   ],
-  "base_game_sections_completed": 283,
+  "base_game_sections_completed": 285,
   "dlc1_sections_completed": 367,
   "dlc2_sections_completed": 34,
-  "base_game_entries_completed": 11424,
+  "base_game_entries_completed": 11708,
   "dlc1_entries_completed": 12075,
   "dlc2_entries_completed": 2060,
   "estimated_total_entries_base_game": "~81000",
   "estimated_total_entries_dlc1": "~120000",
   "estimated_total_entries_dlc2": "~77000",
   "estimated_total_entries_all": "~728000",
-  "last_commit": "b24a355",
-  "session_number": 26
+  "last_commit": "ea86d70",
+  "session_number": 28
 }
