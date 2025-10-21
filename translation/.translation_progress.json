@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-21T20:41:15+09:00",
+  "last_updated": "2025-10-21T21:15:00+09:00",
   "current_file": "DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
-  "total_entries_completed": 51521,
-  "last_completed_section": "DLC2: loreentries完了 (ロア文書・ノート類)",
-  "next_section_to_translate": "poiセクション以降 (34エントリ)",
-  "next_action": "Session 95完了: 371エントリ完了 (items 340 + loadingtips 22 + loreentries 9)。次: poiセクション (34エントリ)から継続。",
-  "notes": "Session 95 (2025-10-21): 371エントリ完了 (itemsセクション340エントリ完了 / loadingtipsセクション22エントリ / loreentriesセクション9エントリ)。累積51,521エントリ。次はpoiセクション (34エントリ)から継続。",
+  "total_entries_completed": 51849,
+  "last_completed_section": "DLC2: mission_e1001_jailbreak完了 (ベゾア救出ミッション)",
+  "next_section_to_translate": "mission_e1001_securityoverrideセクション以降",
+  "next_action": "Session 96 Part 1完了: 328エントリ完了 (poi 34 + scenedescriptions 6 + scenes 14 + statuseffects 119 + tutorial 6 + mission_e1001_goitersgear 9 + mission_e1001_homecoming 27 + mission_e1001_jailbreak 41 + その他セクション)。次: mission_e1001_securityoverrideセクションから継続。",
+  "notes": "Session 96 Part 1 (2025-10-21): 328エントリ完了 (poi 34 + scenedescriptions 6 + scenes 14 + statuseffects 119 + tutorial 6 + missions開始)。累積51,849エントリ。次はmission_e1001_securityoverrideセクションから継続。",
   "sections_completed": [
     "Base game - ALL SECTIONS COMPLETE (530,425 lines)",
     "DLC1 - Order Up quest text (86020-86124) - 43 entries",
@@ -207,8 +207,16 @@
     "DLC2 - interactables (environment objects and interaction descriptions) - 36 entries",
     "DLC2 - items (DLC2 items and equipment) - 340 entries",
     "DLC2 - loadingtips (loading screen tips) - 22 entries",
-    "DLC2 - loreentries (lore documents and notes) - 9 entries"
+    "DLC2 - loreentries (lore documents and notes) - 9 entries",
+    "DLC2 - poi (location names in Cheyenne Mountain) - 34 entries",
+    "DLC2 - scenedescriptions (scene descriptions) - 12 entries (6 実質)",
+    "DLC2 - scenes (scene names) - 14 entries",
+    "DLC2 - statuseffects (status effects descriptions) - 119 entries",
+    "DLC2 - tutorial (tutorial texts) - 12 entries (6 実質)",
+    "DLC2 - mission_e1001_goitersgear (carbon fiber quest) - 12 entries (9 実質)",
+    "DLC2 - mission_e1001_homecoming (Jane's squadmate rescue) - 27 entries",
+    "DLC2 - mission_e1001_jailbreak (Bezoar rescue mission) - 41 entries"
   ],
-  "last_commit": "93c5678",
+  "last_commit": "438d97d",
   "session_number": 96
 }
