@@ -29647,7 +29647,7 @@
       1 Array Array (30 items)
        0 int size = 30
        [0]
-        1 string data = " Pick you're variables."
+        1 string data = " 変数を選択してください。"
        [1]
         1 string data = " e2001_ENEMY_isLevelOneClear = 1"
        [2]
@@ -29689,11 +29689,11 @@
        [20]
         1 string data = "          e5001_RAM_REMHasLeftTheBuilding = 0"
        [21]
-        1 string data = " e2001_RAM_MissionAccepted = 1\n\n\nMISSION ACCEPTED"
+        1 string data = " e2001_RAM_MissionAccepted = 1\n\n\nミッション受諾"
        [22]
-        1 string data = " e2001_RAM_MissionAccepted = 2\n\n\nMISSION FAILED"
+        1 string data = " e2001_RAM_MissionAccepted = 2\n\n\nミッション失敗"
        [23]
-        1 string data = " e2001_RAM_MissionAccepted = 3\n\n\nMISSION COMPLETED"
+        1 string data = " e2001_RAM_MissionAccepted = 3\n\n\nミッション完了"
        [24]
         1 string data = " e2001_RAM_RAMHasLeftTheBuilding = 0"
        [25]
@@ -29703,9 +29703,9 @@
        [27]
         1 string data = " e5001_RAM_metREM = 1"
        [28]
-        1 string data = " RESET VARIABLES"
+        1 string data = " 変数をリセット"
        [29]
-        1 string data = " Goodbye"
+        1 string data = " さようなら"
    [119]
     0 StringTable data
      1 string Filename = "e2001_debug_ram"
@@ -29739,9 +29739,9 @@
       1 Array Array (5 items)
        0 int size = 5
        [0]
-        1 string data = " Press any key..."
+        1 string data = " 何かキーを押してください..."
        [1]
-        1 string data = " Fixed terminal set to 1"
+        1 string data = " 修理済み端末を1に設定"
        [2]
         1 string data = " "
        [3]
@@ -29789,19 +29789,19 @@
       1 Array Array (7 items)
        0 int size = 7
        [0]
-        1 string data = " This is a hightech forklift with an onborad computer."
+        1 string data = " これはオンボードコンピューター搭載のハイテクフォークリフトだ。"
        [1]
-        1 string data = " There is nothing to do."
+        1 string data = " 何もすることはない。"
        [2]
-        1 string data = " Use Computer Science skill to hack the computer?"
+        1 string data = " コンピューター・サイエンススキルを使ってコンピューターをハッキングする?"
        [3]
-        1 string data = " Use Engineering skill to tinker with the onborad computer."
+        1 string data = " エンジニアリングスキルを使ってオンボードコンピューターをいじる。"
        [4]
-        1 string data = " Success: hacking the computer reveals theat the transponder opens the cargo elevator doors when the forklift gets close."
+        1 string data = " 成功:コンピューターをハッキングして、フォークリフトが近づくとトランスポンダーが貨物エレベーターのドアを開けることが判明した。"
        [5]
-        1 string data = " Success: You have successfuly removed the transponder."
+        1 string data = " 成功:トランスポンダーを正常に取り外した。"
        [6]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
    [121]
     0 StringTable data
      1 string Filename = "e2001_general3radiobark_00"
@@ -29819,7 +29819,7 @@
       1 Array Array (1 items)
        0 int size = 1
        [0]
-        1 string data = " General3 says something.\nNOTE: This should be a bark"
+        1 string data = " ジェネラル3が何か言う。\n注:これは短いセリフであるべき"
    [122]
     0 StringTable data
      1 string Filename = "e2001_general3radiobark_01"
@@ -29837,7 +29837,7 @@
       1 Array Array (1 items)
        0 int size = 1
        [0]
-        1 string data = " General3 says something.\nNOTE: This should be a bark"
+        1 string data = " ジェネラル3が何か言う。\n注:これは短いセリフであるべき"
    [123]
     0 StringTable data
      1 string Filename = "e2001_general3radiointro"
@@ -29859,7 +29859,7 @@
       1 Array Array (2 items)
        0 int size = 2
        [0]
-        1 string data = " General3 says something about the player entering the mountain and for everybody to kill him/her or something.\nNOTE: This should be a Convo"
+        1 string data = " ジェネラル3がプレイヤーが山に侵入したことと、全員で殺すべきことなどについて何か言う。\n注:これは会話であるべき"
        [1]
         1 string data = "Script Node 2"
    [124]
@@ -29907,21 +29907,21 @@
       1 Array Array (8 items)
        0 int size = 8
        [0]
-        1 string data = " Enter code..."
+        1 string data = " コードを入力してください..."
        [1]
-        1 string data = " Enter code."
+        1 string data = " コードを入力する。"
        [2]
-        1 string data = " Enter incorrect code."
+        1 string data = " 誤ったコードを入力する。"
        [3]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [4]
-        1 string data = " Set have correct code to true."
+        1 string data = " 正しいコード所持をtrueに設定する。"
        [5]
-        1 string data = " Reset Globals."
+        1 string data = " グローバル変数をリセットする。"
        [6]
-        1 string data = " Code is correct.\n(door opens)"
+        1 string data = " コードは正しい。\n(ドアが開く)"
        [7]
-        1 string data = " Code is incorrect\n(alram triggered)"
+        1 string data = " コードが誤っている\n(警報が作動)"
    [125]
     0 StringTable data
      1 string Filename = "e2001_mainelevator"
@@ -30007,41 +30007,41 @@
       1 Array Array (18 items)
        0 int size = 18
        [0]
-        1 string data = " Select floor."
+        1 string data = " フロアを選択してください。"
        [1]
-        1 string data = " SecPass-C is needed to operate main elevator."
+        1 string data = " メインエレベーターを操作するにはSecPass-Cが必要です。"
        [2]
-        1 string data = " Level 2"
+        1 string data = " レベル2"
        [3]
-        1 string data = " Level 3"
+        1 string data = " レベル3"
        [4]
-        1 string data = " Level 4"
+        1 string data = " レベル4"
        [5]
-        1 string data = " Level 5"
+        1 string data = " レベル5"
        [6]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [7]
-        1 string data = " Access Granted."
+        1 string data = " アクセスを許可しました。"
        [8]
-        1 string data = " Access Denied."
+        1 string data = " アクセスが拒否されました。"
        [9]
-        1 string data = " Access Granted."
+        1 string data = " アクセスを許可しました。"
        [10]
-        1 string data = " Access Denied."
+        1 string data = " アクセスが拒否されました。"
        [11]
-        1 string data = " Verify."
+        1 string data = " 認証する。"
        [12]
-        1 string data = " Access Denied."
+        1 string data = " アクセスが拒否されました。"
        [13]
-        1 string data = " Access Granted."
+        1 string data = " アクセスを許可しました。"
        [14]
-        1 string data = " Access Denied."
+        1 string data = " アクセスが拒否されました。"
        [15]
-        1 string data = " General, get us access."
+        1 string data = " ジェネラル、アクセス権を取得してくれ。"
        [16]
-        1 string data = " Hi, my name is General 3. My voice is my passport. Verify Me."
+        1 string data = " こんにちは、私の名前はジェネラル3。私の声が私のパスポートです。認証してください。"
        [17]
-        1 string data = " Access Granted."
+        1 string data = " アクセスを許可しました。"
    [126]
     0 StringTable data
      1 string Filename = "e2001_ram"
