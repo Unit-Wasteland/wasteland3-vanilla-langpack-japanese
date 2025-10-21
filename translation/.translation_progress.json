@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-21T14:30:00+09:00",
+  "last_updated": "2025-10-21T15:45:00+09:00",
   "current_file": "DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
-  "total_entries_completed": 43023,
-  "last_completed_section": "DLC2: e2001_deuterium、door制御系、e2001_goiter、e2001_iridium、e2001_melanoma完了 (241エントリ)",
-  "next_section_to_translate": "e2001_mitosis、e2001_nightterror等の対話セクション",
-  "next_action": "Session 70: e2001_deuterium(4)、e2001_door_elevators_east(7)、e2001_door_elevators_west(10)、e2001_door_holydetonation(5)、e2001_door_iridium(11)、e2001_door_ritual(31)、e2001_goiter(93)、e2001_iridium(45)、e2001_melanoma(35)を翻訳。合計241エントリ。次: e2001_mitosis等のDLC2対話セクションを継続翻訳。目標2,500エントリへ継続。",
-  "notes": "Session 70 (2025-10-21): DLC2ファイルの対話セクション翻訳継続。e2001_deuterium(デュウテリウム戦闘対話)、ドア制御端末セクション群(elevators、holydetonation、iridium、ritual)、e2001_goiter(ゴイター商人、収容装置クエスト、ファーザー・ベゾアサイドクエスト、93エントリの大型セクション)、e2001_iridium(イリジウム天使対話、哲学的独白、45エントリ)、e2001_melanoma(シスター・メラノーマ商人、腫瘍コロニー情報)を完了。アクション記法(::laughs::等)保持。メモリ管理を厳格に実施し、効率的に進行中。",
+  "total_entries_completed": 43352,
+  "last_completed_section": "DLC2: e2001_mitosis、e2001_papule、e2001_polyp、e2001_primordialist完了 (329エントリ)",
+  "next_section_to_translate": "e2001_proteus (481エントリの大型セクション)",
+  "next_action": "Session 71: e2001_mitosis(Sister Mitosis、Pitchblendクエスト、76エントリ)、e2001_papule(Brother Papule、プロテウス通訳者対話、134エントリ)、e2001_polyp(Sister Polyp対話、プロテウス交流、92エントリ)、e2001_primordialist(Primordialist ambient対話、27エントリ)を翻訳。合計329エントリ。次: e2001_proteus (481エントリ)の大型セクション翻訳へ継続。",
+  "notes": "Session 71 (2025-10-21): DLC2ファイルの対話セクション翻訳継続。Sister Mitosis(ピッチブレンド友情ブレスレットクエスト)、Brother Papule(プロテウスの主要通訳者、イリジウム捕獲、ベゾア救出、水フィルター問題等)、Sister Polyp(プロテウス対話、ベゾア失踪/帰還、告白システム等)、Primordialist ambient(信徒の日常会話)を完了。アクション記法(::sniff::、::sobs::等)を厳格に保持。メモリ管理のため329エントリでコミット。次は481エントリのe2001_proteusセクション。",
   "sections_completed": [
     "Base game - mission_o2001_thickerthanblood (complete)",
     "Base game - mission_o2001_thickerthanwater (complete)",
@@ -73,8 +73,12 @@
     "DLC2 - e2001_door_ritual (ritual elevator intercom system with Deuterium) - 31 entries",
     "DLC2 - e2001_goiter (Goiter merchant, containment device quest, Father Bezoar rescue side quest) - 93 entries",
     "DLC2 - e2001_iridium (Iridium angel dialogue, philosophical ramblings, containment) - 45 entries",
-    "DLC2 - e2001_melanoma (Sister Melanoma merchant, tumor colony information) - 35 entries"
+    "DLC2 - e2001_melanoma (Sister Melanoma merchant, tumor colony information) - 35 entries",
+    "DLC2 - e2001_mitosis (Sister Mitosis, Pitchblend friendship bracelet quest) - 76 entries",
+    "DLC2 - e2001_papule (Brother Papule, main Proteus interpreter, Iridium capture, Bezoar rescue, water filter issues) - 134 entries",
+    "DLC2 - e2001_polyp (Sister Polyp, Proteus dialogue, Bezoar disappearance/return, confession system) - 92 entries",
+    "DLC2 - e2001_primordialist (Primordialist ambient dialogue) - 27 entries"
   ],
-  "last_commit": "c832242",
-  "session_number": 70
+  "last_commit": "cd7914d",
+  "session_number": 72
 }
