@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-21T20:21:02+09:00",
+  "last_updated": "2025-10-21T20:39:20+09:00",
   "current_file": "DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
-  "total_entries_completed": 51150,
-  "last_completed_section": "DLC2: interactables完了 (環境オブジェクト説明)",
-  "next_section_to_translate": "itemsセクション以降 (340エントリの大型セクション)",
-  "next_action": "Session 94 Part 1完了: 260エントリ完了。次: itemsセクション (340エントリ)から継続。",
-  "notes": "Session 94 Part 1 (2025-10-21): 260エントリ完了 (ランダムエンカウンター54エントリ / ゲームシステム要素206エントリ: abilities, characters, gui, interactables)。累積51,150エントリ。次はitemsセクション (340エントリ)から継続。",
+  "total_entries_completed": 51521,
+  "last_completed_section": "DLC2: loreentries完了 (ロア文書・ノート類)",
+  "next_section_to_translate": "poiセクション以降 (34エントリ)",
+  "next_action": "Session 95完了: 371エントリ完了 (items 340 + loadingtips 22 + loreentries 9)。次: poiセクション (34エントリ)から継続。",
+  "notes": "Session 95 (2025-10-21): 371エントリ完了 (itemsセクション340エントリ完了 / loadingtipsセクション22エントリ / loreentriesセクション9エントリ)。累積51,521エントリ。次はpoiセクション (34エントリ)から継続。",
   "sections_completed": [
     "Base game - ALL SECTIONS COMPLETE (530,425 lines)",
     "DLC1 - Order Up quest text (86020-86124) - 43 entries",
@@ -204,8 +204,11 @@
     "DLC2 - abilities (DLC2 abilities and skills descriptions) - 66 entries",
     "DLC2 - characters (DLC2 character/NPC/object names) - 74 entries",
     "DLC2 - gui (GUI elements and system messages) - 15 entries",
-    "DLC2 - interactables (environment objects and interaction descriptions) - 36 entries"
+    "DLC2 - interactables (environment objects and interaction descriptions) - 36 entries",
+    "DLC2 - items (DLC2 items and equipment) - 340 entries",
+    "DLC2 - loadingtips (loading screen tips) - 22 entries",
+    "DLC2 - loreentries (lore documents and notes) - 9 entries"
   ],
-  "last_commit": "277c3d9",
+  "last_commit": "93c5678",
   "session_number": 95
 }
