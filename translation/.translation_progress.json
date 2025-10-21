@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-21T15:45:00+09:00",
+  "last_updated": "2025-10-21T15:52:33+09:00",
   "current_file": "DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
-  "total_entries_completed": 43352,
-  "last_completed_section": "DLC2: e2001_mitosis、e2001_papule、e2001_polyp、e2001_primordialist完了 (329エントリ)",
-  "next_section_to_translate": "e2001_proteus (481エントリの大型セクション)",
-  "next_action": "Session 71: e2001_mitosis(Sister Mitosis、Pitchblendクエスト、76エントリ)、e2001_papule(Brother Papule、プロテウス通訳者対話、134エントリ)、e2001_polyp(Sister Polyp対話、プロテウス交流、92エントリ)、e2001_primordialist(Primordialist ambient対話、27エントリ)を翻訳。合計329エントリ。次: e2001_proteus (481エントリ)の大型セクション翻訳へ継続。",
-  "notes": "Session 71 (2025-10-21): DLC2ファイルの対話セクション翻訳継続。Sister Mitosis(ピッチブレンド友情ブレスレットクエスト)、Brother Papule(プロテウスの主要通訳者、イリジウム捕獲、ベゾア救出、水フィルター問題等)、Sister Polyp(プロテウス対話、ベゾア失踪/帰還、告白システム等)、Primordialist ambient(信徒の日常会話)を完了。アクション記法(::sniff::、::sobs::等)を厳格に保持。メモリ管理のため329エントリでコミット。次は481エントリのe2001_proteusセクション。",
+  "total_entries_completed": 43833,
+  "last_completed_section": "DLC2: e2001_proteus完了 (481エントリ)",
+  "next_section_to_translate": "e2001_pump",
+  "next_action": "Session 72: e2001_proteus(Proteus本体対話、退化言語→通訳システム、プリモーディアリスト vs ニュークレイスト対立、イリジウム捕獲クエスト、Abbott Deuterium交渉、Holy Detonation崇拝、481エントリ)を翻訳完了。次: e2001_pumpセクション翻訳へ継続。",
+  "notes": "Session 72 (2025-10-21): DLC2ファイルの対話セクション翻訳継続。e2001_proteus(Proteus本体、退化言語を通訳者が翻訳、宗教対立、イリジウム捕獲、デューテリウム交渉)を完了。15チャンクで481エントリ翻訳。アクション記法(::sighs::、::laughs::等)とHTMLタグ(<i>等)を厳格に保持。次はe2001_pumpセクション。",
   "sections_completed": [
     "Base game - mission_o2001_thickerthanblood (complete)",
     "Base game - mission_o2001_thickerthanwater (complete)",
@@ -77,8 +77,9 @@
     "DLC2 - e2001_mitosis (Sister Mitosis, Pitchblend friendship bracelet quest) - 76 entries",
     "DLC2 - e2001_papule (Brother Papule, main Proteus interpreter, Iridium capture, Bezoar rescue, water filter issues) - 134 entries",
     "DLC2 - e2001_polyp (Sister Polyp, Proteus dialogue, Bezoar disappearance/return, confession system) - 92 entries",
-    "DLC2 - e2001_primordialist (Primordialist ambient dialogue) - 27 entries"
+    "DLC2 - e2001_primordialist (Primordialist ambient dialogue) - 27 entries",
+    "DLC2 - e2001_proteus (Proteus main dialogue, devolved language translation, Primordialists vs Nucleists conflict, Iridium capture quest) - 481 entries"
   ],
-  "last_commit": "cd7914d",
-  "session_number": 72
+  "last_commit": "333cb53",
+  "session_number": 73
 }
