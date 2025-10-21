@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-21T16:00:24+09:00",
+  "last_updated": "2025-10-21T16:30:00+09:00",
   "current_file": "DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
-  "total_entries_completed": 45013,
-  "last_completed_section": "DLC2: e3001_nuclearresearch完了(19エントリ - NRC核研究端末)",
-  "next_section_to_translate": "e3001_observationrooma_computer (21エントリ - 観察室Aコンピュータ)",
-  "next_action": "Session 77: FADER施設レベル3エリア翻訳完了(270エントリ)。次セッション: e3001_observationrooma_computer(21エントリ)から継続。",
-  "notes": "Session 77 (2025-10-21): DLC2 FADER施設レベル3エリア翻訳完了(270エントリ)。主要セクション: e3001_headresearcher(71エントリ:研究主任との対話、遺伝子改良計画、FADER組織説明), e3001_nightterror(47エントリ:Night Terror/Mongo対話、キャンディと人形要求), e3001_nuclearresearch(19エントリ:NRC核研究端末、核分裂/融合技術)。その他: librarycomputer01-04(40エントリ), labeetコンピュータ群(53エントリ), nightterrorcomputer(14エントリ)。次セッション: e3001_observationrooma_computer(21エントリ)から継続。",
+  "total_entries_completed": 45245,
+  "last_completed_section": "DLC2: e3001_sealedlab41c_computer02完了(10エントリ - 封鎖研究室コンピュータ)",
+  "next_section_to_translate": "e3001_soldier78 (14エントリ - Soldier-78対話)",
+  "next_action": "Session 78: FADER施設レベル3コンピュータ/ポッド制御完了(232エントリ)。次: e3001_soldier78から継続。",
+  "notes": "Session 78 (2025-10-21): DLC2 FADER施設レベル3コンピュータ/ポッド制御翻訳完了(232エントリ)。主要セクション: observationroom A/Bコンピュータ(42エントリ:観察室制御、ガス投入、警報システム), recoverycryopad_empty/01-06(128エントリ:空コールドスリープポッド破壊/ロックアウト), recoverycryopad_hasbody00-02(48エントリ:FADER入りポッド殺害/閉じ込めオプション), sealedlab41c_computer00-02(30エントリ:封鎖研究室情報ハッキング)。次セッション: e3001_soldier78(14エントリ)から継続。",
   "sections_completed": [
     "Base game - mission_o2001_thickerthanblood (complete)",
     "Base game - mission_o2001_thickerthanwater (complete)",
@@ -119,8 +119,13 @@
     "DLC2 - e3001_librarycomputer01/02/03/04 (library computers, hidden room discovery) - 40 entries",
     "DLC2 - e3001_nightterror (Night Terror/Mongo dialogue, candy and doll requests) - 47 entries",
     "DLC2 - e3001_nightterrorcomputer (Night Terror monitoring system) - 14 entries",
-    "DLC2 - e3001_nuclearresearch (NRC nuclear research terminal, fission/fusion tech) - 19 entries"
+    "DLC2 - e3001_nuclearresearch (NRC nuclear research terminal, fission/fusion tech) - 19 entries",
+    "DLC2 - e3001_observationrooma_computer (observation room A computer control) - 21 entries",
+    "DLC2 - e3001_observationroomb_computer (observation room B computer control) - 21 entries",
+    "DLC2 - e3001_recoverycryopad_empty + 01-06 (empty cryopod sabotage/lockout) - 112 entries",
+    "DLC2 - e3001_recoverycryopad_hasbody00-02 (Fader-occupied pods, kill/trap options) - 48 entries",
+    "DLC2 - e3001_sealedlab41c_computer00-02 (sealed lab intel terminals) - 30 entries"
   ],
-  "last_commit": "db15c45",
+  "last_commit": "1d82efd",
   "session_number": 78
 }

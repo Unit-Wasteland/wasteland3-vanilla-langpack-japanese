@@ -35007,33 +35007,33 @@
       1 Array Array (14 items)
        0 int size = 14
        [0]
-        1 string data = ""Identify yourself!""
+        1 string data = "「身元を明らかにしろ!」"
        [1]
         1 string data = """"
        [2]
         1 string data = "Script Node 3"
        [3]
-        1 string data = ""Don't shoot! The password is Foxtrot Uniform!""
+        1 string data = "「撃つな! 合言葉はフォックストロット・ユニフォームだ!」"
        [4]
-        1 string data = ""Don't shoot! We mean you no harm!""
+        1 string data = "「撃つな! 危害を加えるつもりはない!」"
        [5]
-        1 string data = "[Attack] "Fuck you! Surrender or die!""
+        1 string data = "[攻撃] 「くたばれ! 降伏しろ、さもなくば死だ!」"
        [6]
-        1 string data = ""I don't care! Passphrase! NOW!""
+        1 string data = "「知ったことか! 合言葉を言え! 今すぐにだ!」"
        [7]
-        1 string data = ""Can't we work this out?""
+        1 string data = "「話し合いで解決できないか?」"
        [8]
-        1 string data = ""FIRE!""
+        1 string data = "「発砲!」"
        [9]
         1 string data = """"
        [10]
-        1 string data = ""Identify yourself or we open fire!""
+        1 string data = "「身元を明らかにしろ、さもなくば発砲する!」"
        [11]
-        1 string data = ""Everyone stand down! Stand down!"\n\n\nHe lowers his rifle and looks at you carefully."
+        1 string data = "「全員、攻撃中止! 攻撃中止だ!」\n\n\n彼はライフルを下ろし、あなたを注意深く見つめる。"
        [12]
-        1 string data = ""This isn't the way we were expecting to get the message. We're off to join Soldier-3. Best of luck to you up here.""
+        1 string data = "「こんな形でメッセージを受け取るとは思っていなかった。俺たちはソルジャー3に合流する。ここでの幸運を祈る。」"
        [13]
-        1 string data = ""We've got some planning to do - we'll move out shortly.""
+        1 string data = "「計画を立てる必要がある――すぐに移動する。」"
    [173]
     0 StringTable data
      1 string Filename = "e3001_specialist78"
@@ -35083,23 +35083,23 @@
       1 Array Array (9 items)
        0 int size = 9
        [0]
-        1 string data = " Good to see you again Jane."
+        1 string data = " またお会いできて嬉しいわ、ジェーン。"
        [1]
-        1 string data = " Who are you."
+        1 string data = " あなたは誰?"
        [2]
-        1 string data = " Choose debug options."
+        1 string data = " デバッグオプションを選択。"
        [3]
-        1 string data = " Jane sent us to help you. Head to our HQ, you'll be safe there."
+        1 string data = " ジェーンがあなたを助けるよう私たちを派遣した。本部に向かいなさい、そこなら安全だ。"
        [4]
-        1 string data = " You're safe now, head to our HQ."
+        1 string data = " もう安全だ、本部に向かいなさい。"
        [5]
-        1 string data = " Thank you Jane"
+        1 string data = " ありがとう、ジェーン"
        [6]
-        1 string data = " Thank you Rangers."
+        1 string data = " ありがとう、レンジャーズ。"
        [7]
-        1 string data = " set global that Jane has sent you."
+        1 string data = " ジェーンがあなたを送ったというグローバル変数を設定。"
        [8]
-        1 string data = " just give the player the key."
+        1 string data = " プレイヤーに鍵を渡すだけ。"
    [174]
     0 StringTable data
      1 string Filename = "e3001_temp_headresearcher"
@@ -35161,29 +35161,29 @@
       1 Array Array (12 items)
        0 int size = 12
        [0]
-        1 string data = " What are you doing here?"
+        1 string data = " ここで何をしている?"
        [1]
-        1 string data = " testing heat on Fader Specialist-78"
+        1 string data = " FADERスペシャリスト78への熱効果をテスト中"
        [2]
         1 string data = " "
        [3]
-        1 string data = " We found the infected people."
+        1 string data = " 感染者たちを見つけた。"
        [4]
-        1 string data = " So what."
+        1 string data = " だから何だ。"
        [5]
-        1 string data = " WE're going to kill you."
+        1 string data = " お前を殺す。"
        [6]
-        1 string data = " Walk away."
+        1 string data = " 立ち去れ。"
        [7]
-        1 string data = " what are you doing here."
+        1 string data = " ここで何をしている。"
        [8]
-        1 string data = " "Jane in party" Jane gets angry LET HE GO!"
+        1 string data = " 「ジェーンがパーティにいる」ジェーンが怒る「彼を解放しろ!」"
        [9]
-        1 string data = " Let her go."
+        1 string data = " 彼女を解放しろ。"
        [10]
-        1 string data = " Fine, here is the key."
+        1 string data = " わかった、これが鍵だ。"
        [11]
-        1 string data = " change global set found infected people to true\n"
+        1 string data = " グローバル変数変更: 感染者発見をtrueに設定\n"
    [175]
     0 StringTable data
      1 string Filename = "e3001_testsubject1"
@@ -35365,89 +35365,89 @@
       1 Array Array (42 items)
        0 int size = 42
        [0]
-        1 string data = ""We just want to go home. Please.""
+        1 string data = "「家に帰りたいだけなんだ。お願いします。」"
        [1]
-        1 string data = ""What did they do to you?""
+        1 string data = "「あなたたちに何をしたんだ?」"
        [2]
-        1 string data = ""The way is clear. Hurry  home.""
+        1 string data = "「道は通れる。急いで家へ帰りなさい。」"
        [3]
-        1 string data = ""They infected you with a contagion that will destroy your home. We can't let you leave.""
+        1 string data = "「君たちは故郷を破壊する感染症に感染させられた。出すわけにはいかない。」"
        [4]
-        1 string data = " Walk away"
+        1 string data = " 立ち去る"
        [5]
-        1 string data = ""What? But... but we... that can't be true. Oh god, it's true, isn't it? We're stuck here 'til we die.""
+        1 string data = "「何だって? でも…でも俺たちは…そんなはずない。ああ、神よ、本当なんだな? ここで死ぬまで立ち往生するのか。」"
        [6]
-        1 string data = ""May the Patriarch bless you and smile on your every step. Thank you so much.""
+        1 string data = "「パトリアークのご加護があなたのすべての歩みにありますように。本当にありがとうございます。」"
        [7]
-        1 string data = " They preformed test on us for weeks or months, we have no idea how long we have been here."
+        1 string data = " 数週間か数ヶ月、俺たちに実験を行った。どれだけここにいたのかわからない。"
        [8]
         1 string data = " "
        [9]
-        1 string data = ""They typed something into that computer over there, and they've been watching us, and now... now we've all got coughs. But look, they're gone, and we just want to go home. Please help.""
+        1 string data = "「あそこのコンピュータに何か入力して、俺たちを監視していた。そして今…今、みんな咳が出るんだ。でも見てくれ、奴らはいなくなった。俺たちは家に帰りたいだけなんだ。助けてくれ。」"
        [10]
-        1 string data = ""Of course. The way is clear.""
+        1 string data = "「もちろんだ。道は通れる。」"
        [11]
-        1 string data = ""We can't let you go right now. Sorry.""
+        1 string data = "「今は行かせられない。すまない。」"
        [12]
-        1 string data = " sobbing..."
+        1 string data = " すすり泣き..."
        [13]
-        1 string data = ""Goodbye.""
+        1 string data = "「さようなら。」"
        [14]
-        1 string data = " (Let them go knowing they are infected)\nSure the way is clear go on."
+        1 string data = " (感染していることを知りながら行かせる)\nもちろん、道は通れる。行きなさい。"
        [15]
-        1 string data = " I'm sorry, you have been infected I can't let you leave here."
+        1 string data = " すまない、君たちは感染している。ここから出すわけにはいかない。"
        [16]
-        1 string data = " Please... Help..."
+        1 string data = " お願い…助けて..."
        [17]
-        1 string data = " Please... Help..."
+        1 string data = " お願い…助けて..."
        [18]
-        1 string data = " I'm back."
+        1 string data = " 戻ってきた。"
        [19]
-        1 string data = " Of course. The way is clear go home."
+        1 string data = " もちろんだ。道は通れる。家へ帰りなさい。"
        [20]
-        1 string data = " No."
+        1 string data = " だめだ。"
        [21]
-        1 string data = " sobbing..."
+        1 string data = " すすり泣き..."
        [22]
-        1 string data = " sobbing..."
+        1 string data = " すすり泣き..."
        [23]
-        1 string data = " Thank you, thank you."
+        1 string data = " ありがとう、ありがとう。"
        [24]
-        1 string data = " Thank you, thank you."
+        1 string data = " ありがとう、ありがとう。"
        [25]
-        1 string data = " Thank you, thank you."
+        1 string data = " ありがとう、ありがとう。"
        [26]
-        1 string data = "The man's face is gaunt and drawn, and his skin has an unhealthy grayish pallor. "Praise the Patriarch! Normal people! Not like those... those inhuman things that put us here!""
+        1 string data = "男の顔はやつれて引きつり、肌は不健康な灰色がかった青白さだ。「パトリアークに感謝! まともな人間だ! あの…俺たちをここに入れた非人間的な奴らとは違う!」"
        [27]
-        1 string data = "With a nervous glance at your companion, he adds, "Err, no offense. But your friends -"\n\n\nHe swallows the rest of his sentence. "We just want to go home. Please help us.""
+        1 string data = "あなたの同行者に神経質な視線を向けながら、彼は付け加える。「ええと、悪気はないんだ。でも、あんたの友達は――」\n\n\n彼は言葉の続きを飲み込む。「俺たちは家に帰りたいだけなんだ。助けてくれ。」"
        [28]
-        1 string data = ""We've been thinking about your request to go home.""
+        1 string data = "「帰宅の要望について考えてきた。」"
        [29]
-        1 string data = "His face brightens. "Are you going to let us leave?""
+        1 string data = "彼の表情が明るくなる。「俺たちを行かせてくれるのか?」"
        [30]
-        1 string data = ""Who are you?""
+        1 string data = "「あなたたちは誰だ?」"
        [31]
-        1 string data = ""How'd you get here?""
+        1 string data = "「どうやってここに来た?」"
        [32]
-        1 string data = ""Where's your village?""
+        1 string data = "「村はどこにある?」"
        [33]
-        1 string data = ""Please don't let us die here!""
+        1 string data = "「お願いだからここで死なせないでくれ!」"
        [34]
-        1 string data = ""I'm Froehlich. My friends are Castle and Milch. We're from a small village near here. No one important - we were just a scavenging party!""
+        1 string data = "「俺はフローリッヒだ。友達はキャッスルとミルヒ。俺たちはこの近くの小さな村の出身だ。重要人物じゃない――ただの物資回収隊だったんだ!」"
        [35]
-        1 string data = ""We were looking for some more pre-war settlements - something that hadn't been picked clean already - when these ghost-looking fuckers rose up from the snow, pointing guns at us. They hooded us and marched us to some vehicle, and then threw us into solitary. We just want to get home, buddy.""
+        1 string data = "「戦前の居住区をもっと探していたんだ――まだ根こそぎ漁られていない場所を――そうしたら、幽霊みたいなクソ野郎どもが雪の中から現れて、銃を向けてきた。頭巾をかぶせられて、何かの車両まで行進させられ、独房に放り込まれた。家に帰りたいだけなんだ、相棒。」"
        [36]
-        1 string data = ""We'll tell our families about your kindness!""
+        1 string data = "「あなたの優しさを家族に伝えるよ!」"
        [37]
         1 string data = "::sob::"
        [38]
-        1 string data = ""Leave us be, Rangers. We don't want to get you sick too.""
+        1 string data = "「放っておいてくれ、レンジャー。あんたたちまで病気にしたくない。」"
        [39]
-        1 string data = ""And that mist won't hurt us?""
+        1 string data = "「あの霧は俺たちを傷つけないのか?」"
        [40]
-        1 string data = "[Lie] "You'll be fine.""
+        1 string data = "[嘘をつく] 「大丈夫だ。」"
        [41]
-        1 string data = ""They snatched us from a scavenging run and just... locked us in our cells for weeks... and then they tossed us into the chamber here. Some kind of mist came out of the grille there and they knocked us out again.""
+        1 string data = "「物資回収から俺たちをさらって…ただ…何週間も独房に閉じ込めて…それからここの部屋に放り込んだ。あそこの格子から何かの霧が出てきて、また俺たちを気絶させた。」"
    [176]
     0 StringTable data
      1 string Filename = "e3001_testsubject2"
@@ -35529,39 +35529,39 @@
       1 Array Array (17 items)
        0 int size = 17
        [0]
-        1 string data = ""I'm Castle. I'm no one. Just a scavenger, a hunter, and someone who was trying to make a better life for her people by digging through pre-war ruins. When those pale fucks caught us, they hooded us to keep us from figuring out where we were going, and then... then we wound up here.""
+        1 string data = "「私はキャッスル。誰でもない存在。ただの物資回収者、狩人、そして戦前の廃墟を掘り起こすことで自分の民により良い生活をもたらそうとしていた者。あの青白いクソ野郎どもが私たちを捕まえたとき、どこに向かっているか分からないように頭巾をかぶせられて、それから…それでここに行き着いた。」"
        [1]
-        1 string data = ""Hug everyone, you know? Show them how much I appreciate them. Share the love around, remind them that we're stronger as a community, and... well, encourage them to go out armed. Maybe next time we can shoot some of these assholes.""
+        1 string data = "「みんなを抱きしめるの、分かる? どれだけ感謝しているか示す。愛を分かち合って、コミュニティとして強いことを思い出させて、それから…まあ、武装して出かけるよう励ます。次回はこのクソ野郎どもの何人かを撃てるかもしれない。」"
        [2]
-        1 string data = ""Oh yeah. That fucking sucked. I could see the vapor, and I read once in an old comic book that they use vapor to spread diseases easier. So I kinda figured that's what was happening.""
+        1 string data = "「ああ、そうよ。最悪だった。蒸気が見えたの。昔の漫画で読んだことがある、蒸気を使えば病気をより簡単に広められるって。だから何となく、それが起きているんだって思った。」"
        [3]
-        1 string data = ""Hey. I'm Castle. Look, I don't mind telling you, I'm goddamn scared. Those ghostly fuckers dropped us in here and did some weird magic on us and now I don't feel so good and I... I just wanna go home. Talk to Froehlich, please. He was our leader. He's gonna get us home.""
+        1 string data = "「ねえ。私はキャッスル。言っておくけど、すごく怖いの。あの幽霊みたいなクソ野郎どもが私たちをここに放り込んで、変な魔法をかけて、今は体調が悪くて…ただ…家に帰りたいだけなの。お願いだからフローリッヒと話して。彼が私たちのリーダーだった。彼が私たちを家に連れて帰ってくれる。」"
        [4]
-        1 string data = ""Look, we just want get back to our families, y'know?""
+        1 string data = "「ねえ、私たちは家族の元に戻りたいだけなの、分かる?」"
        [5]
-        1 string data = ""I don't wanna die here.""
+        1 string data = "「ここで死にたくない。」"
        [6]
-        1 string data = ""Who are you, and how did you get here?""
+        1 string data = "「あなたは誰で、どうやってここに来たの?」"
        [7]
-        1 string data = ""What're you going do if you get back home?""
+        1 string data = "「家に帰ったら何をするつもり?」"
        [8]
-        1 string data = ""We heard they gassed you.""
+        1 string data = "「毒ガスを浴びせられたと聞いた。」"
        [9]
-        1 string data = ""Goodbye.""
+        1 string data = "「さようなら。」"
        [10]
-        1 string data = ""Mm-hm.""
+        1 string data = "「うん。」"
        [11]
-        1 string data = ""For real?""
+        1 string data = "「本当に?」"
        [12]
-        1 string data = ""You're pretty smart.""
+        1 string data = "「あなた、かなり頭がいいわね。」"
        [13]
-        1 string data = "She smiles broadly. "Thank you! I always thought so, but everyone told me that I wasn't. So it means a lot to have a complete stranger tell me that. Wait 'til I tell the folks back home!"\n\n\nHer smile fades when he remembers where she is."
+        1 string data = "彼女は満面の笑みを浮かべる。「ありがとう! ずっとそう思ってたんだけど、みんなは違うって言うの。だから完全な他人がそう言ってくれるのはとても意味がある。家の人たちに話すのが待ちきれないわ!」\n\n\n彼女がどこにいるか思い出すと、笑顔が消える。"
        [14]
-        1 string data = ""I don't think I'm getting back home.""
+        1 string data = "「家には帰れないと思う。」"
        [15]
-        1 string data = ""Uh... well, look, honestly I just made that up. I don't know why, It seemed like a good idea, but now I feel like maybe I put some wrong information in your head. It's not something I actually read.""
+        1 string data = "「ええと…実は、正直に言うと、今の作り話。なぜかは分からないけど、いいアイデアに思えたんだけど、今は間違った情報をあなたの頭に入れてしまったような気がする。実際に読んだものじゃないの。」"
        [16]
-        1 string data = ""... god, I want to go home.""
+        1 string data = "「…神様、家に帰りたい。」"
    [177]
     0 StringTable data
      1 string Filename = "e3001_testsubject3"
@@ -35661,39 +35661,39 @@
        [2]
         1 string data = """"
        [3]
-        1 string data = "The man's skin is gray from malnutrition, and he can't seem to stop shaking. He catches you looking and chuckles.\n\n\n"M' name's Milch. I got the shaking sickness, friend. Those ghost assholes who brought us here said I had a new-ro-logic something. I didn't figure I had long to live anyway.""
+        1 string data = "男の肌は栄養失調で灰色になり、震えが止まらないようだ。彼はあなたの視線に気づいて笑う。\n\n\n「俺の名前はミルヒだ。震える病気を持ってるんだ、友よ。俺たちをここに連れてきた幽霊みたいなクソ野郎どもが、俺には神経何とかってのがあるって言った。どうせそう長くは生きられないと思ってたけどな。」"
        [4]
-        1 string data = ""Just let us go home, Rangers.""
+        1 string data = "「俺たちを家に帰してくれ、レンジャー。」"
        [5]
-        1 string data = ""So you got gassed, huh?""
+        1 string data = "「それで、毒ガスを浴びせられたのか?」"
        [6]
-        1 string data = ""Yep.""
+        1 string data = "「ああ。」"
        [7]
-        1 string data = ""What was in it?""
+        1 string data = "「何が入っていた?」"
        [8]
-        1 string data = ""No idea. But I figure they weren't doing it out of the kindness of their hearts. Not trying to cure us of anything, you know? Like... look at this."\n\n\nHe picks a louse from his hair."
+        1 string data = "「分からない。でも善意でやったわけじゃないだろう。俺たちを何かから治そうとしていたわけじゃない、分かるだろ? 例えば…これを見ろ。」\n\n\n彼は髪からシラミを一匹取る。"
        [9]
-        1 string data = ""They're not disinfecting us. So I figure maybe they're infecting us instead. The way they looked at us... like we're beasts... they don't mean us any good. So I figure we're gonna die here.""
+        1 string data = "「俺たちを消毒してない。だから思うに、逆に感染させてるんじゃないかってな。奴らが俺たちを見る目…獣を見るような…俺たちに良いことをしようとは思ってない。だから俺たちはここで死ぬんだろうな。」"
        [10]
-        1 string data = ""Did you enjoy it?""
+        1 string data = "「楽しかったか?」"
        [11]
-        1 string data = ""I didn't hate it. I mean, with all these tremors I got, it's not like it was the most unpleasant thing that's ever happened to me. But... no, I can't honestly say I enjoyed it.""
+        1 string data = "「嫌いじゃなかった。つまり、この震えがある身としては、今までで最も不快なことってわけじゃなかった。でも…いや、楽しんだとは正直言えないな。」"
        [12]
         1 string data = ""
        [13]
-        1 string data = ""What's this about your disease?""
+        1 string data = "「その病気について教えてくれ。」"
        [14]
-        1 string data = ""I just started shakin' a few years ago. Been getting worse. I chew some bark and eat some berries the village shaman mixes up and it dies down a bit, but... I dunno. Could be the spirits of the houses we go into. Whatever it is, I been cursed and I don't think I'm gonna live to see spring.""
+        1 string data = "「数年前から震え始めたんだ。悪化してる。村のシャーマンが調合した樹皮を噛んだり木の実を食べたりすると少し治まるが…分からない。俺たちが入った家の霊かもしれない。何であれ、呪われてるし、春まで生きられないと思う。」"
        [15]
-        1 string data = ""Can you tell me anything about the route you took in here?""
+        1 string data = "「ここまでの経路について何か教えてもらえるか?」"
        [16]
-        1 string data = ""Nope. I was bound and hooded.""
+        1 string data = "「いや。縛られて頭巾をかぶせられてた。」"
        [17]
-        1 string data = ""Goodbye.""
+        1 string data = "「さようなら。」"
        [18]
-        1 string data = ""Yep.""
+        1 string data = "「ああ。」"
        [19]
-        1 string data = ""I ain't surprised. Wish I weren't gonna die in a cage, but oh well.""
+        1 string data = "「驚かないね。檻の中で死にたくはないが、まあいい。」"
    [178]
     0 StringTable data
      1 string Filename = "e3001_testsubjectcomputer"
@@ -35755,29 +35755,29 @@
       1 Array Array (12 items)
        0 int size = 12
        [0]
-        1 string data = " Access Denied"
+        1 string data = " アクセス拒否"
        [1]
-        1 string data = " Access information"
+        1 string data = " 情報にアクセス"
        [2]
-        1 string data = ""Analysis.""
+        1 string data = "「分析。」"
        [3]
-        1 string data = ""Subject background.""
+        1 string data = "「被験者の背景。」"
        [4]
-        1 string data = "The green text glows, waiting for your input."
+        1 string data = "緑色のテキストが光り、入力を待っている。"
        [5]
-        1 string data = ""SUBJECTS ACQUIRED FROM SMALL LOCAL VILLAGE DESIGNATED X847/Z, LOCATED HERE. CONTAINED SEPARATELY FOR 12 DAYS. NO MEDICINES ADMINISTERED. ONE SUBJECT SUFFERS NEUROLOGICAL DEGENERATION. OTHER SUBJECTS APPEARED HEALTHY, THOUGH CRAWLING WITH VERMIN. RECOMMEND DELOUSING ALL AREAS THEY PASSED THROUGH.""
+        1 string data = "「X847/Z指定の小規模地元村から被験者を取得、場所はこちら。12日間別々に収容。薬物投与なし。1名の被験者は神経学的退行を患う。他の被験者は健康に見えるが、害虫が這いまわっている。通過した全エリアの駆除を推奨。」"
        [6]
-        1 string data = " Repeat info the player got to refesh thier memory"
+        1 string data = " プレイヤーが取得した情報を繰り返して記憶を更新"
        [7]
-        1 string data = "The screen flickers to life. "WELCOME DOCTOR.\r\nUPDATE: FATAL VIRAL LOAD DELIVERED TO TEST SUBJECTS.\r\n INPUT DATA REQUEST: \r\n- PROCEDURES\r\n- ANALYSIS\r\n- SUBJECT BACKGROUND""
+        1 string data = "画面が点滅して起動する。「ドクター、ようこそ。\r\n更新:致死的ウイルス負荷を被験者に投与しました。\r\n データリクエスト入力: \r\n- 手順\r\n- 分析\r\n- 被験者の背景」"
        [8]
-        1 string data = ""Procedures.""
+        1 string data = "「手順。」"
        [9]
-        1 string data = "Walk away."
+        1 string data = "立ち去る。"
        [10]
-        1 string data = ""SUBJECTS REMOVED FROM SOLITARY OBSERVATION AND PLACED IN SEALED CHAMBER. ALLOWED MOMENTARY REINTRODUCTION & REESTABLISHMENT OF TRIBAL HIERARCHY. DISPERSED AGENT THROUGH VENTILATION SHAFT IN CHAMBER. ALL SUBJECTS OBSERVED TO INHALE AGENT. AGENT ABSORBED QUICKLY. SEDATIVES ADMINISTERED. BLOOD DRAWN.""
+        1 string data = "「被験者を独房観察から除去し、密閉チャンバーに配置。一時的な再導入と部族階層の再確立を許可。チャンバー内の換気シャフトを通じて薬剤を分散。全被験者が薬剤を吸入することを確認。薬剤は迅速に吸収された。鎮静剤を投与。採血実施。」"
        [11]
-        1 string data = ""PROGNOSIS OF VIRAL INFECTION/TRANSMISSION 100%. SUBSEQUENT FATALITIES ESTIMATED AT 99.4%. AGENT IS TAILORED TO MATCH FADER DNA, SHOULD REMAIN HARMLESS. PROTECTIVE GEAR RECOMMENDED REGARDLESS.\n\n\nRECOMMENDATION: RELEASE SUBJECTS NEAR VILLAGE; OBSERVE." "
+        1 string data = "「ウイルス感染/伝播の予後100%。続発死亡率99.4%と推定。薬剤はFADER DNAに合わせて調整されており、無害のはず。それでも防護具を推奨。\n\n\n推奨事項:被験者を村の近くで解放し、観察せよ。」 "
    [179]
     0 StringTable data
      1 string Filename = "e3001_trainingareacomputer"
@@ -36011,115 +36011,115 @@
       1 Array Array (55 items)
        0 int size = 55
        [0]
-        1 string data = " Press any key..."
+        1 string data = " 何かキーを押してください..."
        [1]
-        1 string data = " Hack computer for intel."
+        1 string data = " 情報を得るためにコンピュータをハッキング。"
        [2]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [3]
-        1 string data = " Reset globals."
+        1 string data = " グローバル変数をリセット。"
        [4]
         1 string data = " "
        [5]
-        1 string data = " Computer skill not high enough, sorry not sorry."
+        1 string data = " コンピュータスキルが足りない、悪しからず。"
        [6]
-        1 string data = " Intel gained."
+        1 string data = " 情報を取得した。"
        [7]
-        1 string data = " Look at intell again."
+        1 string data = " 情報をもう一度見る。"
        [8]
-        1 string data = " Blah Blah Blah"
+        1 string data = " ブラブラブラ"
        [9]
-        1 string data = " Set gained intel to 1"
+        1 string data = " 情報取得を1に設定"
        [10]
-        1 string data = "The computer terminal sits next to a machine that looks like a microscope with strange straps to hold your head in place. \r\n\r\nThe computer is locked. "ENTER PASSWORD," it reads.\r\n\r\nA flashing cursor waits for your input."
+        1 string data = "コンピュータ端末は、頭を固定する奇妙なストラップが付いた顕微鏡のような機械の隣にある。\r\n\r\nコンピュータはロックされている。「パスワードを入力」と表示されている。\r\n\r\n点滅するカーソルが入力を待っている。"
        [11]
-        1 string data = ""Hack the computer.""
+        1 string data = "「コンピュータをハッキングする。」"
        [12]
-        1 string data = "Hack the computer."
+        1 string data = "コンピュータをハッキングする。"
        [13]
-        1 string data = "Use the computer again."
+        1 string data = "コンピュータを再び使用する。"
        [14]
-        1 string data = "Leave."
+        1 string data = "立ち去る。"
        [15]
-        1 string data = "Poke at the keys."
+        1 string data = "キーをいじる。"
        [16]
-        1 string data = "You crack the encryption easily.\n\n\n"WELCOME TO THE VIRTUAL TRAINING DOWNLOAD ASSISTANT. SELECT NO MORE THAN TWO AUGMENTS. ONCE SELECTIONS HAVE BEEN MADE, PLACE EYES OVER OCULAR INPUT DEVICE.""
+        1 string data = "あなたは暗号を簡単に解読した。\n\n\n「仮想訓練ダウンロードアシスタントへようこそ。2つ以下の強化を選択してください。選択が完了したら、目を光学入力装置の上に置いてください。」"
        [17]
-        1 string data = " Intel gained."
+        1 string data = " 情報を取得した。"
        [18]
-        1 string data = "You type in every password you can think of, but it's no use. You give up in frustration."
+        1 string data = "思いつく限りのパスワードを入力するが、無駄だった。あなたは苛立ちながら諦める。"
        [19]
-        1 string data = "Your fingers clatter on the keyboard, but it doesn't seem to have accomplished anything."
+        1 string data = "あなたの指がキーボードの上でカタカタと音を立てるが、何も達成できなかったようだ。"
        [20]
-        1 string data = "The cursor on the unlocked screen blinks patiently. "
+        1 string data = "ロック解除された画面のカーソルが辛抱強く点滅している。 "
        [21]
-        1 string data = "Use the computer again."
+        1 string data = "コンピュータを再び使用する。"
        [22]
-        1 string data = "The list of skills scrolls by again. "
+        1 string data = "スキルのリストが再びスクロールする。 "
        [23]
-        1 string data = "Debug."
+        1 string data = "デバッグ。"
        [24]
-        1 string data = ""MAXIMUM USAGE EXCEEDED. SKILL TRAINING UNAVAILABLE.""
+        1 string data = "「最大使用回数超過。スキル訓練は利用不可。」"
        [25]
         1 string data = "Bank 31"
        [26]
-        1 string data = ""TWO (2) SKILLS REMAINING.""
+        1 string data = "「残りスキル数:2」"
        [27]
-        1 string data = ""ONE (1) SKILL REMAINING.""
+        1 string data = "「残りスキル数:1」"
        [28]
-        1 string data = ""ZERO (0) SKILLS REMAINING.""
+        1 string data = "「残りスキル数:0」"
        [29]
         1 string data = """"
        [30]
-        1 string data = ""LIST OF SKILL GROUPS AVAILABLE:\n- GUERRILLA/TACTICAL\n- TECHNICAL\n- WEAPONS""
+        1 string data = "「利用可能なスキルグループのリスト:\n- ゲリラ/戦術\n- テクニカル\n- 武器」"
        [31]
-        1 string data = "Select Guerrilla/Tactical Skills."
+        1 string data = "ゲリラ/戦術スキルを選択。"
        [32]
-        1 string data = "Select Weapons Skills."
+        1 string data = "武器スキルを選択。"
        [33]
-        1 string data = "Select Technical Skills."
+        1 string data = "テクニカルスキルを選択。"
        [34]
-        1 string data = ""GUERRILLA/TACTICAL SKILLS:\n- ALARM DISARMING\n- COMMANDO\n- DEMOLITIONS""
+        1 string data = "「ゲリラ/戦術スキル:\n- 警報解除\n- コマンドー\n- 爆破」"
        [35]
-        1 string data = ""WEAPONS SKILLS:\n- AUTOMATIC WEAPONS\n- ENERGY WEAPONS\n- HEAVY WEAPONS\n- SNIPER RIFLES\n- TECH WEAPONS"\n"
+        1 string data = "「武器スキル:\n- 自動火器\n- エネルギー兵器\n- 重火器\n- スナイパーライフル\n- テック兵器」\n"
        [36]
-        1 string data = "Select Automatic Weapons."
+        1 string data = "自動火器を選択。"
        [37]
-        1 string data = "Select Energy Weapons."
+        1 string data = "エネルギー兵器を選択。"
        [38]
-        1 string data = "Select Heavy Weapons."
+        1 string data = "重火器を選択。"
        [39]
-        1 string data = "Select Sniper Rifles."
+        1 string data = "スナイパーライフルを選択。"
        [40]
-        1 string data = "Select Tech Weapons."
+        1 string data = "テック兵器を選択。"
        [41]
-        1 string data = "Back to skill list."
+        1 string data = "スキルリストに戻る。"
        [42]
-        1 string data = "Select Alarm Disarming."
+        1 string data = "警報解除を選択。"
        [43]
-        1 string data = "Select Commando."
+        1 string data = "コマンドーを選択。"
        [44]
-        1 string data = "Select Demolitions."
+        1 string data = "爆破を選択。"
        [45]
-        1 string data = ""TECHNICAL SKILLS:\n- COMPUTERS\n- ENGINEERING\n- MEDICINE\n- WEAPONSMITHING""
+        1 string data = "「テクニカルスキル:\n- コンピュータ\n- エンジニアリング\n- 医療\n- 武器製作」"
        [46]
-        1 string data = "Select Computers."
+        1 string data = "コンピュータを選択。"
        [47]
-        1 string data = "Select Engineering."
+        1 string data = "エンジニアリングを選択。"
        [48]
-        1 string data = "Select Medicine."
+        1 string data = "医療を選択。"
        [49]
-        1 string data = "Select Weaponsmithing."
+        1 string data = "武器製作を選択。"
        [50]
-        1 string data = "You place your eyes over the 'optical input device'. The straps fasten themselves around your head, holding it snugly in place. A pattern of bright lights flashes, too fast for your conscious mind to process, and your gorge rises.\n\n\nWhen at last the lights stop, the straps release... and you <i>know</i>."
+        1 string data = "あなたは目を「光学入力装置」の上に置く。ストラップが頭の周りに固定され、しっかりと所定の位置に保持する。明るい光のパターンが点滅し、意識的な心が処理するには速すぎて、胃がむかつく。\n\n\nついに光が止まると、ストラップが解放される…そしてあなたは<i>知っている</i>。"
        [51]
         1 string data = "Bank 59"
        [52]
-        1 string data = ""TWO (2) SKILLS REMAINING.""
+        1 string data = "「残りスキル数:2」"
        [53]
-        1 string data = ""ONE (1) SKILL REMAINING.""
+        1 string data = "「残りスキル数:1」"
        [54]
-        1 string data = ""ZERO (0) SKILLS REMAINING.""
+        1 string data = "「残りスキル数:0」"
    [180]
     0 StringTable data
      1 string Filename = "e3001_angelargument"
@@ -36379,87 +36379,87 @@
        [0]
         1 string data = "Script Node 46"
        [1]
-        1 string data = ""Blessed are the anthrocite.""
+        1 string data = "「炭化せし者らに祝福あれ。」"
        [2]
-        1 string data = ""The blood and the body, the bawd and the bloody.""
+        1 string data = "「血と肉体、淫売と血塗られし者。」"
        [3]
-        1 string data = ""Steel thy sinews 'gainst the cacophages of the multitudinous mundanities.""
+        1 string data = "「汝の筋肉を鋼鉄となし、多種多様なる凡俗の不協和音に抗え。」"
        [4]
-        1 string data = ""Make brittle thy teeth for the exalted. Welcome them with aquifers and fratricides.""
+        1 string data = "「高貴なる者のために汝の歯を脆弱にせよ。帯水層と同胞殺しをもって彼らを歓迎せよ。」"
        [5]
-        1 string data = ""The nucleation and the amputation. The solvable and the soluble. The iteration and the amplification.""
+        1 string data = "「核生成と切断。可解と可溶。反復と増幅。」"
        [6]
-        1 string data = ""Quo vadis peritoneum, valdictorians?""
+        1 string data = "「腹膜よいずこへ行かん、告別の辞を述べし者よ?」"
        [7]
-        1 string data = ""Why appertain to thy sylvan mendacity?""
+        1 string data = "「なにゆえ汝の森林的虚偽に属するや?」"
        [8]
-        1 string data = ""Vouchsafe vainglory upon our divine interlocution.""
+        1 string data = "「我らの神聖なる対話に虚栄の保証を与えよ。」"
        [9]
-        1 string data = "[Glowing] "Hmmm. Perambulations upon thy ecstatic metastatics?""
+        1 string data = "[輝く者] 「ふむ。汝の恍惚たる転移上を徘徊するや?」"
        [10]
-        1 string data = ""Ah. Benign aquiescence is a theramin upon the soul. Sequentially melodius.""
+        1 string data = "「ああ。良性の黙認は魂の上のテルミンなり。順次的旋律あり。」"
        [11]
-        1 string data = ""Er, the flat foot floogie with the floy floy?""
+        1 string data = "「えー、フロイフロイと共に扁平足のフージー?」"
        [12]
-        1 string data = ""Maledictious blasphemarians! Recantations and horripilations be upon thee!""
+        1 string data = "「呪詛に満ちし瀆神者どもめ! 撤回と戦慄が汝らに降りかからん!」"
        [13]
-        1 string data = ""What?""
+        1 string data = "「何?」"
        [14]
-        1 string data = "[Attack] "Sorry. We don't speak angel. We just speak gun.""
+        1 string data = "[攻撃] 「悪いが、天使語は話せない。俺たちは銃語を話す。」"
        [15]
-        1 string data = ""Disputatious ambuscade avaunt!""
+        1 string data = "「論争的待ち伏せよ立ち去れ!」"
        [16]
-        1 string data = "[Glowing] "Terpsichore your terrapin underpinning, methuselah. Por que?""
+        1 string data = "[輝く者] 「汝の亀の基盤をテルプシコレー化せよ、メトセラよ。なぜに?」"
        [17]
-        1 string data = ""Ah! Fulsome lenticular pontifications.""
+        1 string data = "「ああ! 過剰なるレンズ状説教。」"
        [18]
-        1 string data = ""Blessed be thy halitosis and thy otiosis.""
+        1 string data = "「汝の口臭と無為に祝福あれ。」"
        [19]
-        1 string data = "[Glowing] "Glory to the euphonium and the contrabasoon, oh most tangental of benefactors.""
+        1 string data = "[輝く者] 「ユーフォニウムとコントラファゴットに栄光あれ、最も接線的なる恩人よ。」"
        [20]
-        1 string data = ""Munificent magnificence abounds above thy peregrinations, natal chrysalids. Thou art fecund and elided.""
+        1 string data = "「惜しみなき壮麗さは汝の遍歴の上に溢れん、生誕の蛹よ。汝は豊穣にして省略されり。」"
        [21]
-        1 string data = ""Be absconded and absolved and obdurate, thou faithful fraternal and sororal.""
+        1 string data = "「逃走し赦免され頑強たれ、忠実なる兄弟姉妹的存在よ。」"
        [22]
-        1 string data = ""Remember me to thy besotted lothario, liturgical ones.""
+        1 string data = "「汝の酔いしれし色男によろしく伝えよ、典礼的なる者どもよ。」"
        [23]
-        1 string data = ""Querulous and platitudinous epistles, thou palpatating seraphim. We endure thee.""
+        1 string data = "「不平と陳腐なる書簡、汝動悸せし熾天使よ。我らは汝に耐えん。」"
        [24]
-        1 string data = ""How about, bow wow wow yippie yo yippie yay, bow wow yippie yo yippy yay?""
+        1 string data = "「バウワウワウ、イッピーヨー、イッピーイェイ、バウワウ、イッピーヨー、イッピーイェイというのはどうだ?」"
        [25]
-        1 string data = ""Alien parlimentarian, thou art defunct!""
+        1 string data = "「異星の国会議員よ、汝は死滅せり!」"
        [26]
-        1 string data = "[Attack] "Ugh. Can't take it anymore!""
+        1 string data = "[攻撃] 「うげっ。もう我慢できない!」"
        [27]
-        1 string data = ""Geez. Let's see. Mairzy doats and dozy doats and liddle lamzy divey?""
+        1 string data = "「おいおい。えーと。メアジードーツとドージードーツとリトルラムジーディヴィー?」"
        [28]
-        1 string data = ""Cadaverous malaprop! We cascade thy eternal ramification!""
+        1 string data = "「死体のような言葉遣い! 我らは汝の永遠の分岐を滝の如く流さん!」"
        [29]
-        1 string data = ""Hmmm. Luchenbach, Chattanooga, Kankakee?""
+        1 string data = "「ふむ。ルーケンバック、チャタヌーガ、カンカキー?」"
        [30]
-        1 string data = ""Yea high to the median of the meaning of middle path, maunderer. Matriculate meriticiously.""
+        1 string data = "「まさに中道の意味の中央値まで高く、愚痴る者よ。優秀に入学せよ。」"
        [31]
-        1 string data = "[Attack] "Yeah, enough of this. Let's send you to heaven.""
+        1 string data = "[攻撃] 「ああ、もう十分だ。天国に送ってやろう。」"
        [32]
-        1 string data = ""Amend and amen.""
+        1 string data = "「修正とアーメン。」"
        [33]
-        1 string data = ""Declamations regalia.""
+        1 string data = "「朗読の記章。」"
        [34]
         1 string data = ""
        [35]
-        1 string data = ""Verily, the gradation of the radiation resideth within the ossuary of the osculary.""
+        1 string data = "「まことに、放射の段階化は接吻の納骨堂の内に宿る。」"
        [36]
-        1 string data = ""In thy bones the world finds the truth of light.""
+        1 string data = "「汝の骨の内に、世界は光の真理を見出す。」"
        [37]
-        1 string data = ""In the echoes of Planke and Fermi one hears the singing of the infinite pachyderm.""
+        1 string data = "「プランクとフェルミの残響の内に、無限の厚皮動物の歌声を聞く。」"
        [38]
         1 string data = ""
        [39]
-        1 string data = ""Mmmmmm...""
+        1 string data = "「うーむ...」"
        [40]
-        1 string data = ""Mmmmmmmmmm...""
+        1 string data = "「うーーーーむ...」"
        [41]
-        1 string data = ""Mmmmmmmmm...""
+        1 string data = "「うーーーーーむ...」"
        [42]
         1 string data = "Script Node 53"
        [43]
@@ -36469,35 +36469,35 @@
        [45]
         1 string data = "Script Node 56"
        [46]
-        1 string data = ""Whoa! You speak angel?""
+        1 string data = "「うわっ! 天使語を話すのか?」"
        [47]
-        1 string data = ""Where'd you learn that?""
+        1 string data = "「どこで学んだんだ?」"
        [48]
-        1 string data = ""Hey, you sound just like 'em.""
+        1 string data = "「おい、奴らとまったく同じように聞こえるぞ。」"
        [49]
-        1 string data = ""Are you drunk?""
+        1 string data = "「酔っぱらってるのか?」"
        [50]
-        1 string data = ""Wow. I didn't think you had that kind of vocabulary.""
+        1 string data = "「わお。そんな語彙を持ってるとは思わなかった。」"
        [51]
-        1 string data = ""Was that... swearing?""
+        1 string data = "「今のは…悪態か?」"
        [52]
-        1 string data = ""Well, bibbity bobbity to you too, nerd.""
+        1 string data = "「まあ、ビビティボビティとお前にも言っとくよ、オタク野郎。」"
        [53]
-        1 string data = ""If you are what you eat, you musta ate a dictionary.""
+        1 string data = "「食べたものが体を作るっていうなら、辞書でも食ったんだろうな。」"
        [54]
-        1 string data = ""How are you doing that? Have you been sunbathing in the glow or something?""
+        1 string data = "「どうやってやってるんだ? 輝きの中で日光浴でもしたのか?」"
        [55]
-        1 string data = ""Watch it. Sounds like that radiation's getting to you.""
+        1 string data = "「気をつけろ。放射能にやられてるみたいだぞ。」"
        [56]
-        1 string data = ""Is it the radiation that's making you talk like that?""
+        1 string data = "「放射能のせいでそんな話し方になってるのか?」"
        [57]
-        1 string data = ""Hmmm, perhaps this kind of logorrheic verbalizing is connected to the amount of radiation one has absorbed.""
+        1 string data = "「ふむ、おそらくこの種の多弁な言葉遣いは、吸収した放射線の量と関連しているのだろう。」"
        [58]
-        1 string data = ""You're talking like them. Is it because you're irradiated like them?""
+        1 string data = "「お前、奴らみたいな話し方をしてる。奴らみたいに被曝してるからか?」"
        [59]
-        1 string data = ""Holy shit. Better ease off on your rad intake, cupcakes. You're speaking in tongues.""
+        1 string data = "「なんてこった。放射能の摂取を控えたほうがいいぞ、お嬢ちゃん。異言を話してる。」"
        [60]
-        1 string data = ""Is it the glow that's makin' you talk that way? You're freakin' me out.""
+        1 string data = "「輝きのせいでそんな話し方になってるのか? 怖気づいてるぞ。」"
    [181]
     0 StringTable data
      1 string Filename = "e3001_annoyingprimordialist"
@@ -36699,99 +36699,99 @@
       1 Array Array (47 items)
        0 int size = 47
        [0]
-        1 string data = ""Wh-who? Oh, outsiders. Uh, did Sister Polyp send you? Are you here to rescue me? Because I've been waiting for a long time.""
+        1 string data = "「だ、誰だ? ああ、部外者か。あー、シスター・ポリプがあなたたちを送ったのか? 私を救出に来たのか? ずっと待ってたんだ。」"
        [1]
-        1 string data = ""Are you Father Bezoar?""
+        1 string data = "「あなたはファーザー・ベゾアですか?」"
        [2]
-        1 string data = ""Who are you?""
+        1 string data = "「あなたは誰?」"
        [3]
-        1 string data = ""No, but I saw him brought in a while back. I tried to say 'hi' but he ignored me. Maybe he didn't notice me. I mean, they were beating him at the time, so whatever. I'm not hurt.""
+        1 string data = "「いや、違う。でも少し前に彼が連れてこられるのを見た。挨拶しようとしたんだが、無視された。気づかなかったのかもしれない。つまり、その時は殴られてたから、まあいいか。私は傷ついてない。」"
        [4]
-        1 string data = ""My name's Brother Caul. I'm with the Primordialists. Sister Polyp sent me to spy on the Nucleists and I, uh, I got caught. I've been here ever since, and it's been a long time, and I'm kinda surprised, actually that I haven't been rescued.""
+        1 string data = "「私の名前はブラザー・コール。プライモーディアリストの一員だ。シスター・ポリプがニュークリストをスパイするよう私を送ったんだ。それで、あー、捕まった。それ以来ずっとここにいて、長い間が経ってて、実際、救出されてないことにちょっと驚いてる。」"
        [5]
-        1 string data = ""Sister Polyp said I was her number one spy, so you would think that would mean she'd send someone to look for me if I didn't come back, but uh, maybe that's you? Is it? Are you here for me? Does Sister Polyp miss me? I sure miss her.""
+        1 string data = "「シスター・ポリプは私が彼女のナンバーワンスパイだと言ってた。だから、私が戻ってこなければ誰かを探しに送るってことだと思うんだけど、あー、それがあなたたちかな? そうなのか? 私のためにここに来たのか? シスター・ポリプは私を恋しがってる? 私は確実に彼女が恋しい。」"
        [6]
-        1 string data = ""Anyway, my name's Brother Caul. I'm with the Primordialists. Sister Polyp sent me to spy on the Nucleists and I, uh, I got caught. I've been here ever since, and it's been a long time, and I'm kinda surprised, actually, that I haven't been rescued.""
+        1 string data = "「とにかく、私の名前はブラザー・コール。プライモーディアリストの一員だ。シスター・ポリプがニュークリストをスパイするよう私を送ったんだ。それで、あー、捕まった。それ以来ずっとここにいて、長い間が経ってて、実際、救出されてないことにちょっと驚いてる。」"
        [7]
-        1 string data = ""Nope. She didn't mention you.""
+        1 string data = "「いや。彼女はあなたについて言及しなかった。」"
        [8]
-        1 string data = "[Lie] "Oh yeah, she's heartbroken you haven't come back. She hasn't slept since you left.""
+        1 string data = "[嘘をつく] 「ああ、そうだ。彼女はあなたが戻ってこなくて心が痛んでる。あなたが出発して以来、眠れていない。」"
        [9]
-        1 string data = ""Sister Polyp asked us to find Father Bezoar, actually.""
+        1 string data = "「シスター・ポリプは実はファーザー・ベゾアを探すよう私たちに頼んだんだ。」"
        [10]
-        1 string data = ""Oh, well, that's strange. Maybe she didn't want to reveal my secret work to strangers. Yeah, that must be it. It's super important.""
+        1 string data = "「ああ、それは奇妙だ。多分、私の秘密の仕事を見知らぬ人に明かしたくなかったんだ。ああ、そうに違いない。超重要だからな。」"
        [11]
-        1 string data = ""Really? That's weird. Because I've been here way longer than Father Bezoar. I mean, I know he's the speaker for the Proteus and all, but she told me my mission was critically important.""
+        1 string data = "「本当? おかしいな。だって私はファーザー・ベゾアよりずっと長くここにいるんだ。つまり、彼がプロテウスの代弁者だってことは知ってるけど、彼女は私のミッションが極めて重要だと言ってた。」"
        [12]
-        1 string data = ""Oh, man. I've got to get back to her then. I don't want her to worry about me. I mean, I'm sure she's being brave about it, because she's <i>so</i> brave and strong, but she's probably having a hard time coping without me by her side day and night.""
+        1 string data = "「ああ、なんてこった。それなら彼女のもとに戻らなきゃ。彼女に心配してほしくない。つまり、彼女は勇敢にしてるんだと思う。だって彼女は<i>とても</i>勇敢で強いから。でも、昼も夜も私が側にいなくて対処するのが大変なんだろう。」"
        [13]
-        1 string data = ""Anyway I have lots to report to her. Can you let me out of here so I can get back to her?""
+        1 string data = "「とにかく、彼女に報告することがたくさんある。ここから出して彼女のもとに戻れるようにしてくれるか?」"
        [14]
-        1 string data = ""Sure. Just give us a minute.""
+        1 string data = "「もちろん。ちょっと待ってくれ。」"
        [15]
-        1 string data = ""Maybe you better stay there for now. For safety's sake.""
+        1 string data = "「今のところはそこにいたほうがいいかもしれない。安全のためにね。」"
        [16]
-        1 string data = ""Nope.""
+        1 string data = "「だめだ。」"
        [17]
-        1 string data = ""Oh wow. Thanks. Sister Polyp is going to be so relieved.""
+        1 string data = "「わあ。ありがとう。シスター・ポリプはとても安心するだろう。」"
        [18]
-        1 string data = ""Stay here? But... but I've got to get back to Sister Polyp. She's going to be so worried. I... Okay, well, I'll just be here then, I guess.""
+        1 string data = "「ここに留まれ? でも…でもシスター・ポリプのもとに戻らなきゃ。彼女はとても心配するだろう。私は…わかった、じゃあここにいるよ、多分。」"
        [19]
-        1 string data = ""What? Why not. I've got to get back to Sister Polyp. She's going to be so worried.""
+        1 string data = "「何? なぜだめなんだ。シスター・ポリプのもとに戻らなきゃ。彼女はとても心配するだろう。」"
        [20]
-        1 string data = ""You guys are the best.""
+        1 string data = "「あなたたちは最高だ。」"
        [21]
-        1 string data = ""Bye.""
+        1 string data = "「じゃあね。」"
        [22]
-        1 string data = ""You guys are the worst.""
+        1 string data = "「あなたたちは最悪だ。」"
        [23]
-        1 string data = ""Oh, hey. You're back. Are you going to let me out now?""
+        1 string data = "「ああ、やあ。戻ってきたのか。今度は出してくれるのか?」"
        [24]
-        1 string data = ""One second.""
+        1 string data = "「ちょっと待って。」"
        [25]
-        1 string data = ""Nope.""
+        1 string data = "「だめだ。」"
        [26]
-        1 string data = ""Aw, you guys!""
+        1 string data = "「ああ、あなたたち!」"
        [27]
-        1 string data = ""Great! I can't wait!""
+        1 string data = "「最高! 待ちきれない!」"
        [28]
         1 string data = ""
        [29]
-        1 string data = ""Oh wow. Thanks, you guys! I can't believe I'm free at last. As soon as I get the feeling back into my legs, I'm going to go back and see Sister Polyp and let her know I'm okay.""
+        1 string data = "「わあ。ありがとう、みんな! ついに自由になれるなんて信じられない。脚に感覚が戻ったら、すぐに戻ってシスター・ポリプに会って、私が無事だと知らせるよ。」"
        [30]
-        1 string data = ""See you back at the camp!""
+        1 string data = "「キャンプで会おう!」"
        [31]
-        1 string data = ""Still working the kinks out. I'll be leaving soon!""
+        1 string data = "「まだこわばりを取ってる最中だ。すぐに出発するよ!」"
        [32]
         1 string data = ""
        [33]
-        1 string data = ""Hey! Stop it!""
+        1 string data = "「やめろ! やめてくれ!」"
        [34]
-        1 string data = ""Why would you shoot me?""
+        1 string data = "「なぜ私を撃つんだ?」"
        [35]
-        1 string data = ""Help! Help!""
+        1 string data = "「助けて! 助けてくれ!」"
        [36]
-        1 string data = ""Are you another Primordialist?""
+        1 string data = "「あなたも別のプライモーディアリスト?」"
        [37]
-        1 string data = ""My name's Brother Caul. Sister Polyp sent me to spy on the Nucleists and I, uh, I got caught. I've been here ever since, and it's been a long time, and I'm kinda surprised, actually, that I haven't been rescued.""
+        1 string data = "「私の名前はブラザー・コール。シスター・ポリプがニュークリストをスパイするよう私を送ったんだ。それで、あー、捕まった。それ以来ずっとここにいて、長い間が経ってて、実際、救出されてないことにちょっと驚いてる。」"
        [38]
         1 string data = ""
        [39]
-        1 string data = ""Uh, hmm.""
+        1 string data = "「うー、ふむ。」"
        [40]
-        1 string data = ""Uh-huh.""
+        1 string data = "「うんうん。」"
        [41]
-        1 string data = ""I'll bet.""
+        1 string data = "「そうだろうな。」"
        [42]
-        1 string data = ""Oh boy.""
+        1 string data = "「おやおや。」"
        [43]
-        1 string data = ""I... sure.""
+        1 string data = "「私は…そうだな。」"
        [44]
-        1 string data = ""Oh yeah. Totally.""
+        1 string data = "「ああ、そうだ。まったくだ。」"
        [45]
-        1 string data = ""I'll bet.""
+        1 string data = "「そうだろうな。」"
        [46]
-        1 string data = ""She sent you to die, pencil neck. Don't you get it?""
+        1 string data = "「彼女はお前を死なせるために送ったんだ、ひょろ野郎。わからないのか?」"
    [182]
     0 StringTable data
      1 string Filename = "e3001_bezoarcellterminal"
@@ -36969,83 +36969,83 @@
       1 Array Array (41 items)
        0 int size = 41
        [0]
-        1 string data = "Welcome, USER. Please enter your command:\n1) Expose Prisoner to HD238 Radiation Test.\n2) Terminate Prisoner.\n3) Release Prisoner.\n4) Exit."
+        1 string data = "ようこそ、ユーザー。コマンドを入力してください:\n1) 囚人をHD238放射線試験にさらす。\n2) 囚人を終了する。\n3) 囚人を解放する。\n4) 終了。"
        [1]
-        1 string data = "Free Bezoar."
+        1 string data = "ベゾアを解放する。"
        [2]
-        1 string data = "Kill Bezoar."
+        1 string data = "ベゾアを殺す。"
        [3]
-        1 string data = "Radiate Bezoar."
+        1 string data = "ベゾアに放射線を浴びせる。"
        [4]
-        1 string data = "Executing RELEASE protocol. Please stand by..."
+        1 string data = "解放プロトコルを実行中。お待ちください..."
        [5]
-        1 string data = "Executing TERMINATION protocol. Please stand by..."
+        1 string data = "終了プロトコルを実行中。お待ちください..."
        [6]
-        1 string data = "Executing EXPERIMENTATION protocol. Please stand by..."
+        1 string data = "実験プロトコルを実行中。お待ちください..."
        [7]
-        1 string data = "A security alert is in effect for the detention area. This terminal is unavailable until the security alert has been canceled."
+        1 string data = "拘留エリアにセキュリティ警報が発令されています。セキュリティ警報が解除されるまで、この端末は利用できません。"
        [8]
-        1 string data = ""This terminal gives us some options, Father. Free you, kill you, or expose you to radiation.""
+        1 string data = "「この端末にはいくつかの選択肢があります、ファーザー。あなたを解放、殺害、または放射線にさらすかです。」"
        [9]
-        1 string data = ""Heh. Well, I hope you won't kill me, but, uh what does it say about the radiation?""
+        1 string data = "「へへ。まあ、殺さないでくれることを願うけど、あー、放射線については何と書いてある?」"
        [10]
-        1 string data = ""It says, 'Expose Prisoner to HD238 Radiation Test.'""
+        1 string data = "「『囚人をHD238放射線試験にさらす』と書いてあります。」"
        [11]
-        1 string data = ""Never mind, we're not doing that one.""
+        1 string data = "「気にしないで、それはやらない。」"
        [12]
-        1 string data = ""Hmmm. HD probably stands for Holy Detonation, and I refuse to believe anything that comes from the Holy Detonation would harm me, so I'm tempted.""
+        1 string data = "「ふむ。HDはおそらくホーリー・デトネーションの略だろう。そしてホーリー・デトネーションから来たものが私に害を与えるなんて信じられない。だから惹かれる。」"
        [13]
-        1 string data = ""All right. As long as you don't kill me.""
+        1 string data = "「わかった。殺しさえしなければ。」"
        [14]
-        1 string data = ""On the other hand, is it a risk I want to take now that they need me back at the camp? Hmmm. Maybe you should make up my mind for me, Rangers. I can't decide.""
+        1 string data = "「一方で、キャンプに戻る必要がある今、冒したいリスクなのか? ふむ。私の代わりに決めてくれるかな、レンジャー。決められない。」"
        [15]
-        1 string data = "Terminal Active."
+        1 string data = "端末アクティブ。"
        [16]
-        1 string data = "Prior protocol executed. Returning to standby mode."
+        1 string data = "以前のプロトコルを実行しました。スタンバイモードに戻ります。"
        [17]
-        1 string data = "Exit system."
+        1 string data = "システムを終了する。"
        [18]
-        1 string data = "Logging off."
+        1 string data = "ログオフ中。"
        [19]
         1 string data = ""
        [20]
-        1 string data = ""You... you killed him! Why?""
+        1 string data = "「あなた…彼を殺した! なぜ?」"
        [21]
-        1 string data = ""Ha!""
+        1 string data = "「ハ!」"
        [22]
-        1 string data = ""Huh? What'd you do that for?""
+        1 string data = "「は? 何でそんなことした?」"
        [23]
-        1 string data = ""You killed him. In cold blood. Horrible.""
+        1 string data = "「彼を殺した。冷血に。恐ろしい。」"
        [24]
-        1 string data = ""Hey. That guy... died.""
+        1 string data = "「おい。あの男…死んだぞ。」"
        [25]
-        1 string data = ""What? I thought we were here to rescue that man. Why did you kill him?""
+        1 string data = "「何? あの男を救出に来たと思ってたのに。なぜ殺したんだ?」"
        [26]
-        1 string data = ""Heh. That's what I would have done.""
+        1 string data = "「へへ。俺もそうしてたな。」"
        [27]
-        1 string data = ""Well done. <i>Too</i> well done.""
+        1 string data = "「よくできました。<i>やり過ぎ</i>だけど。」"
        [28]
-        1 string data = ""Now you know how a rotisserie chicken feels, twerp!""
+        1 string data = "「これでロティサリーチキンの気持ちがわかっただろ、小僧!」"
        [29]
         1 string data = ""
        [30]
-        1 string data = "::gasps:: "He turned into a blob! Did we do that?""
+        1 string data = "::息を呑む:: 「彼がブロブになった! 私たちがやったのか?」"
        [31]
-        1 string data = ""Ugh. Disgusting.""
+        1 string data = "「うげ。気持ち悪い。」"
        [32]
-        1 string data = ""You... turned him into a blob. I mean, he kinda wanted that, but...""
+        1 string data = "「あなた…彼をブロブにした。つまり、彼はある意味それを望んでたけど…」"
        [33]
-        1 string data = ""Why did you do that? He explicitly said he didn't want to devolve now.""
+        1 string data = "「なぜそんなことをしたんだ? 彼は今は退化したくないと明確に言ってた。」"
        [34]
-        1 string data = ""Pink elephants on parade...""
+        1 string data = "「ピンクの象がパレードを…」"
        [35]
-        1 string data = ""You turned him into a blob? I thought he said <i>not</i> to do that.""
+        1 string data = "「彼をブロブにしたのか? 彼はそれを<i>しない</i>でと言ってたと思ったけど。」"
        [36]
-        1 string data = ""Holy shit! That was awesome!""
+        1 string data = "「すげえ! 最高だった!」"
        [37]
-        1 string data = ""Ugh. That was not an improvement.""
+        1 string data = "「うげ。改善じゃなかった。」"
        [38]
-        1 string data = ""Shit! He hatched!""
+        1 string data = "「クソ! 彼が孵化した!」"
        [39]
         1 string data = "Script Node 41"
        [40]
