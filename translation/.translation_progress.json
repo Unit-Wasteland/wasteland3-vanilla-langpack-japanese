@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-21T18:20:19+09:00",
+  "last_updated": "2025-10-21T19:15:00+09:00",
   "current_file": "DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
-  "total_entries_completed": 48895,
-  "last_completed_section": "DLC2: e5001_citadelsatellite完了 (シタデル衛星制御ターミナル)",
-  "next_section_to_translate": "e5001_debug_cheat_rem (REMデバッグコンソール、45エントリ)",
-  "next_action": "Session 86: DLC2翻訳継続中。384エントリ完了(1回コミット予定)。次: e5001_debug_cheat_remから翻訳継続。",
-  "notes": "Session 86 (2025-10-21): DLC2 e4001/e5001セクション群翻訳(384エントリ)。ロシアンスパイ・ボリス、粒子加速器システムアナウンス、キノコ実験の囚人、クローン事故、自動販売機パズル、シタデル衛星制御等完了。累積48,895エントリ。目標2500エントリまで残り1,605エントリ。",
+  "total_entries_completed": 49107,
+  "last_completed_section": "DLC2: e5001_generalsquarterscomputer完了 (将軍執務室コンピュータ端末)",
+  "next_section_to_translate": "e5001_opscomputer (作戦コンピュータ、18エントリ)",
+  "next_action": "Session 87完了: DLC2 General-3関連翻訳(212エントリ)。次: e5001_opscomputerから継続。",
+  "notes": "Session 87 (2025-10-21): DLC2 General-3主要対話完了(109エントリ)、無線バーク・端末UI(26エントリ)、共通UI文字列一括置換実施。累積49,107エントリ。自動化セッションで効率的な一括置換戦略を活用。次回は作戦コンピュータから継続。",
   "sections_completed": [
     "Base game - ALL SECTIONS COMPLETE (530,425 lines)",
     "DLC1 - Order Up quest text (86020-86124) - 43 entries",
@@ -151,8 +151,15 @@
     "DLC2 - e4001_theprisoner (Sick Rick / the Prisoner mushroom scientist, Steeltown murders, psychedelic experiments) - 81 entries",
     "DLC2 - e4001_unfortunateclone (unfortunate clone disintegration incident) - 15 entries",
     "DLC2 - e4001_vending (vending machine puzzle, note retrieval) - 33 entries",
-    "DLC2 - e5001_citadelsatellite (Citadel satellite control terminal, Geronimo AI link, weather analysis, weapon systems) - 58 entries"
+    "DLC2 - e5001_citadelsatellite (Citadel satellite control terminal, Geronimo AI link, weather analysis, weapon systems) - 58 entries",
+    "DLC2 - e5001_debug_cheat_rem (REM debug console) - 45 entries",
+    "DLC2 - e5001_debug_citadelsatellite (Citadel satellite debug console) - 17 entries",
+    "DLC2 - e5001_debug_npc_blue (Blue/FADER debug console) - 10 entries",
+    "DLC2 - e5001_general3 (General-3 main dialogue tree, complete military confrontation) - 109 entries",
+    "DLC2 - e5001_general3radiobark_00/01 (General-3 radio barks) - 5 entries",
+    "DLC2 - e5001_general3radiointro (General-3 radio intro) - 2 entries",
+    "DLC2 - e5001_generalsquarterscomputer (General's quarters computer terminal) - 24 entries (12×2 instances)"
   ],
-  "last_commit": "85ba1c5",
+  "last_commit": "6cd843a",
   "session_number": 87
 }
