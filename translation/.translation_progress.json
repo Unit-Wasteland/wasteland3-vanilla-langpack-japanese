@@ -1,11 +1,11 @@
 {
-  "last_updated": "2025-10-21T16:25:49+09:00",
+  "last_updated": "2025-10-21T17:00:00+09:00",
   "current_file": "DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
-  "total_entries_completed": 45575,
-  "last_completed_section": "DLC2: e3001_bezoarcellterminal完了(41エントリ - ファーザー・ベゾア独房端末)",
-  "next_section_to_translate": "e3001_bigbrother_terminal (284エントリ - Big Brother監視システム)",
-  "next_action": "Session 79: FADER施設レベル3対話・実験体セクション完了(330エントリ)。次: e3001_bigbrother_terminalから継続。",
+  "total_entries_completed": 45859,
+  "last_completed_section": "DLC2: e3001_bigbrother_terminal完了(284エントリ - Big Brother監視システム端末)",
+  "next_section_to_translate": "e3001_companions (80エントリ - コンパニオンバーク)",
+  "next_action": "Session 80: Big Brother監視システム完了(284エントリ)。次: e3001_companionsから継続。",
   "notes": "Session 79 (2025-10-21): DLC2 FADER施設レベル3対話・実験体セクション翻訳完了(330エントリ)。主要セクション: soldier78/specialist78(23エントリ:FADER兵士対話), temp_headresearcher(12エントリ:研究者デバッグ), testsubject1/2/3(79エントリ:実験体フローリッヒ/キャッスル/ミルヒ、感染症ジレンマ), testsubjectcomputer(12エントリ:ウイルス実験記録), trainingareacomputer(55エントリ:仮想訓練システム), angelargument(61エントリ:難解な天使語会話), annoyingprimordialist(47エントリ:ブラザー・コール捕虜), bezoarcellterminal(41エントリ:独房端末、放射線実験選択)。次セッション: e3001_bigbrother_terminal(284エントリ)から継続。",
   "sections_completed": [
     "Base game - mission_o2001_thickerthanblood (complete)",
@@ -135,8 +135,9 @@
     "DLC2 - e3001_trainingareacomputer (virtual training system, skill download) - 55 entries",
     "DLC2 - e3001_angelargument (Angel dialogue, obscure angel language conversation) - 61 entries",
     "DLC2 - e3001_annoyingprimordialist (Brother Caul, spy prisoner) - 47 entries",
-    "DLC2 - e3001_bezoarcellterminal (Father Bezoar cell terminal, radiation experiment choice) - 41 entries"
+    "DLC2 - e3001_bezoarcellterminal (Father Bezoar cell terminal, radiation experiment choice) - 41 entries",
+    "DLC2 - e3001_bigbrother_terminal (Big Brother surveillance system, COPS+NARCS, Ranger crime commentary) - 284 entries"
   ],
-  "last_commit": "115ebb2",
+  "last_commit": "ad2040e",
   "session_number": 80
 }
