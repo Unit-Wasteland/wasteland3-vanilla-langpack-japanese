@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-21T18:33:32+09:00",
+  "last_updated": "2025-10-21T19:15:00+09:00",
   "current_file": "DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
-  "total_entries_completed": 49107,
-  "last_completed_section": "DLC2: e5001_generalsquarterscomputer完了 (将軍執務室コンピュータ端末)",
-  "next_section_to_translate": "e5001_opscomputer (作戦コンピュータ、18エントリ)",
-  "next_action": "Session 87完了: DLC2 General-3関連翻訳(212エントリ)。次: e5001_opscomputerから継続。",
-  "notes": "Session 87 (2025-10-21): DLC2 General-3主要対話完了(109エントリ)、無線バーク・端末UI(26エントリ)、共通UI文字列一括置換実施。累積49,107エントリ。自動化セッションで効率的な一括置換戦略を活用。次回は作戦コンピュータから継続。",
+  "total_entries_completed": 49499,
+  "last_completed_section": "DLC2: e6001_companions完了 (コンパニオン環境コメント)",
+  "next_section_to_translate": "e6001_deuterium (Deuterium主要対話)",
+  "next_action": "Session 89進行中: e5001/e6001初期セクション群翻訳(180エントリ)完了。次: e6001_deuteriumから継続、目標2500エントリ到達。",
+  "notes": "Session 89 (2025-10-21): e5001/e6001初期セクション群翻訳(180エントリ) - radio_goiter/systemannouncer/airlock/bather/companions完了。累積49,499エントリ。目標2500エントリに向けて継続中。",
   "sections_completed": [
     "Base game - ALL SECTIONS COMPLETE (530,425 lines)",
     "DLC1 - Order Up quest text (86020-86124) - 43 entries",
@@ -161,5 +161,5 @@
     "DLC2 - e5001_generalsquarterscomputer (General's quarters computer terminal) - 24 entries (12×2 instances)"
   ],
   "last_commit": "6cd843a",
-  "session_number": 88
+  "session_number": 89
 }
