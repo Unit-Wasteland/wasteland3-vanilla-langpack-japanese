@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-21T15:35:00+09:00",
+  "last_updated": "2025-10-21T16:45:30+09:00",
   "current_file": "DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
-  "total_entries_completed": 44156,
-  "last_completed_section": "DLC2: e2001_theo完全完了(全278エントリ)",
-  "next_section_to_translate": "e2001_tumor (12エントリ)",
-  "next_action": "Session 74: e2001_theo残り106エントリ(172-277)を翻訳完了。Theoの観察記録、クエスト進行追跡、囚人とカルトに関する道徳的選択、イリジウム封じ込め警告など。次: e2001_tumor及び後続セクション。",
-  "notes": "Session 74 (2025-10-21): e2001_theoセクション完了(エントリ172-277、106エントリ)。Theo Curieのシャイアン・マウンテンでの観察とコメント、クエスト進行状況追跡、囚人やカルト信者に関する道徳的選択、イリジウム封じ込め警告を含む。セクション100%完了(278/278エントリ)。1コミットで106エントリ翻訳。",
+  "total_entries_completed": 44293,
+  "last_completed_section": "DLC2: e2001_dconelevator完了(4エントリ)",
+  "next_section_to_translate": "e2001_debug_cheat_ram (30エントリ)",
+  "next_action": "Session 75: 小規模ユーティリティセクション群を翻訳完了(137エントリ)。tumor、faderbark環境音声、computerインテル端末群、金属探知機/貯水槽制御端末、除染エレベーター。次: e2001_debug_cheat_ram及び後続の大規模セクション。",
+  "notes": "Session 75 (2025-10-21): DLC2小規模ユーティリティセクション群完了(137エントリ)。e2001_tumor(肉塊ペット12), faderbark環境音声8セクション(8), computerforjane(3), computerintel_00-08(90), computer_metaldetector(10), computer_waterreservoir(10), dconelevator(4)。1コミットで137エントリ翻訳。",
   "sections_completed": [
     "Base game - mission_o2001_thickerthanblood (complete)",
     "Base game - mission_o2001_thickerthanwater (complete)",
@@ -82,8 +82,15 @@
     "DLC2 - e2001_pump (water pump interactions, radiation/clean water) - 10 entries",
     "DLC2 - e2001_radio_goiter (Iridium containment failure emergency) - 1 entry",
     "DLC2 - e2001_sickrick (Sick Rick merchant, anti-rad mushrooms, cult infiltrator) - 34 entries",
-    "DLC2 - e2001_theo complete (Theo Curie observations, quest tracking, moral choices, Iridium warnings) - 278 entries"
+    "DLC2 - e2001_theo complete (Theo Curie observations, quest tracking, moral choices, Iridium warnings) - 278 entries",
+    "DLC2 - e2001_tumor (flesh mass pet interactions) - 12 entries",
+    "DLC2 - e2001_cnpc_faderbark* (Fader ambient barks - armory, checkpoint, computer room, decon room, elevator, parts room, repair shop, security) - 8 entries",
+    "DLC2 - e2001_computerforjane (Jane's computer access) - 3 entries",
+    "DLC2 - e2001_computerintel_00-08 (intel gathering terminals) - 90 entries",
+    "DLC2 - e2001_computer_metaldetector (metal detector control) - 10 entries",
+    "DLC2 - e2001_computer_waterreservoir (water reservoir information) - 10 entries",
+    "DLC2 - e2001_dconelevator (decon elevator control) - 4 entries"
   ],
-  "last_commit": "ddd521c",
-  "session_number": 74
+  "last_commit": "4cd130e",
+  "session_number": 75
 }
