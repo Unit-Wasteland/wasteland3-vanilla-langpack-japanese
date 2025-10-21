@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-21T14:15:30+09:00",
+  "last_updated": "2025-10-21T14:30:00+09:00",
   "current_file": "DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
-  "total_entries_completed": 42425,
-  "last_completed_section": "DLC2: Carbuncle barks完了、VRヘッドセット、対話セクション、Benign対話 (179エントリ)",
-  "next_section_to_translate": "e2001_bezoar、e2001_bubo、e2001_companions等の対話セクション",
-  "next_action": "Session 68: Carbuncle戦闘barks(9)、Night Terror barks(13)、VRヘッドセット(4)、Aqua Vitae medic(5)、Fader gateguard(5)、Airlock(8)、Annoying Primordialist(62)、Sister Benign(73)を翻訳。合計179エントリ。次: e2001_bezoar、e2001_bubo、e2001_companions等のDLC2対話セクションを継続翻訳。目標2,500エントリへ継続。",
-  "notes": "Session 68 (2025-10-21): DLC2ファイルの対話セクション翻訳。Carbuncle戦闘barks完了、VRヘッドセットツアー、医療インターフェース、Fader gateguard、エアロック端末、Annoying Primordialistの対話(Polypとの関係)、Sister Benignの全対話(Billとの関係、Church of the Holy Detonation背景)を完了。2回のコミット実施(106+73エントリ)。メモリ管理を厳格に実施し、効率的に進行中。",
+  "total_entries_completed": 43023,
+  "last_completed_section": "DLC2: e2001_deuterium、door制御系、e2001_goiter、e2001_iridium、e2001_melanoma完了 (241エントリ)",
+  "next_section_to_translate": "e2001_mitosis、e2001_nightterror等の対話セクション",
+  "next_action": "Session 70: e2001_deuterium(4)、e2001_door_elevators_east(7)、e2001_door_elevators_west(10)、e2001_door_holydetonation(5)、e2001_door_iridium(11)、e2001_door_ritual(31)、e2001_goiter(93)、e2001_iridium(45)、e2001_melanoma(35)を翻訳。合計241エントリ。次: e2001_mitosis等のDLC2対話セクションを継続翻訳。目標2,500エントリへ継続。",
+  "notes": "Session 70 (2025-10-21): DLC2ファイルの対話セクション翻訳継続。e2001_deuterium(デュウテリウム戦闘対話)、ドア制御端末セクション群(elevators、holydetonation、iridium、ritual)、e2001_goiter(ゴイター商人、収容装置クエスト、ファーザー・ベゾアサイドクエスト、93エントリの大型セクション)、e2001_iridium(イリジウム天使対話、哲学的独白、45エントリ)、e2001_melanoma(シスター・メラノーマ商人、腫瘍コロニー情報)を完了。アクション記法(::laughs::等)保持。メモリ管理を厳格に実施し、効率的に進行中。",
   "sections_completed": [
     "Base game - mission_o2001_thickerthanblood (complete)",
     "Base game - mission_o2001_thickerthanwater (complete)",
@@ -59,8 +59,22 @@
     "DLC2 - Fader gateguard dialogue - 5 entries",
     "DLC2 - Airlock terminal interactions - 8 entries",
     "DLC2 - Annoying Primordialist dialogues - 62 entries",
-    "DLC2 - Sister Benign complete dialogue - 73 entries"
+    "DLC2 - Sister Benign complete dialogue - 73 entries",
+    "DLC2 - e2001_bezoar dialogue (Father Bezoar, atonement system) - 46 entries",
+    "DLC2 - e2001_bubo dialogue (healer, radiation treatment) - 42 entries",
+    "DLC2 - e2001_capturedevice (Iridium capture device assembly) - 34 entries",
+    "DLC2 - e2001_carbuncle extended dialogue (Proteus translation, Nucleist conflict, water filter, Bezoar rescue) - 165 entries",
+    "DLC2 - e2001_companions barks (atomic bomb, Proteus, sarcoma, contaminated water, Iridium, candles) - 70 entries",
+    "DLC2 - e2001_deuterium (Deuterium combat dialogue) - 4 entries",
+    "DLC2 - e2001_door_elevators_east (elevator door control terminal) - 7 entries",
+    "DLC2 - e2001_door_elevators_west (elevator door control terminal) - 10 entries",
+    "DLC2 - e2001_door_holydetonation (Holy Detonation access terminal) - 5 entries",
+    "DLC2 - e2001_door_iridium (Iridium cooling pool door, radiation warning) - 11 entries",
+    "DLC2 - e2001_door_ritual (ritual elevator intercom system with Deuterium) - 31 entries",
+    "DLC2 - e2001_goiter (Goiter merchant, containment device quest, Father Bezoar rescue side quest) - 93 entries",
+    "DLC2 - e2001_iridium (Iridium angel dialogue, philosophical ramblings, containment) - 45 entries",
+    "DLC2 - e2001_melanoma (Sister Melanoma merchant, tumor colony information) - 35 entries"
   ],
-  "last_commit": "1f4ce2d",
-  "session_number": 68
+  "last_commit": "c832242",
+  "session_number": 70
 }
