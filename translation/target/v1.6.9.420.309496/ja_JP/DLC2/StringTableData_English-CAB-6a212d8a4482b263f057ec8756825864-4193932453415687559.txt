@@ -33463,45 +33463,45 @@
       1 Array Array (21 items)
        0 int size = 21
        [0]
-        1 string data = " Press any key..."
+        1 string data = " いずれかのキーを押してください..."
        [1]
-        1 string data = " Hack the computer."
+        1 string data = " コンピュータをハッキングする。"
        [2]
-        1 string data = " Enter passcode."
+        1 string data = " パスコードを入力する。"
        [3]
-        1 string data = " Break computer."
+        1 string data = " コンピュータを破壊する。"
        [4]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [5]
-        1 string data = " The computer is now broken and can't trigger the D-con room trap."
+        1 string data = " コンピュータは破壊され、除染室の罠を作動させることができなくなった。"
        [6]
-        1 string data = " Computer hacked."
+        1 string data = " コンピュータをハッキングした。"
        [7]
-        1 string data = " Skill no high enough."
+        1 string data = " スキルが不足している。"
        [8]
-        1 string data = " Correct passcode entered."
+        1 string data = " 正しいパスコードを入力した。"
        [9]
-        1 string data = " Wrong passcode entered."
+        1 string data = " パスコードが間違っている。"
        [10]
-        1 string data = " Pump gas into observation room B?"
+        1 string data = " 観察室Bにガスを送り込みますか?"
        [11]
-        1 string data = "  Gain intel."
+        1 string data = "  情報を入手する。"
        [12]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [13]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [14]
-        1 string data = " Try again?"
+        1 string data = " もう一度試しますか?"
        [15]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [16]
-        1 string data = " Two more failed attemps and the computer will be locked out."
+        1 string data = " あと2回失敗するとコンピュータはロックアウトされます。"
        [17]
-        1 string data = " One more failed attemps and the computer will be locked out."
+        1 string data = " あと1回失敗するとコンピュータはロックアウトされます。"
        [18]
-        1 string data = " Computer is locked out."
+        1 string data = " コンピュータはロックアウトされた。"
        [19]
-        1 string data = " Locked out."
+        1 string data = " ロックアウトされた。"
        [20]
         1 string data = " It's dead Jim."
    [158]
@@ -33601,47 +33601,47 @@
       1 Array Array (21 items)
        0 int size = 21
        [0]
-        1 string data = " Press any key..."
+        1 string data = " いずれかのキーを押してください..."
        [1]
-        1 string data = " Hack the computer."
+        1 string data = " コンピュータをハッキングする。"
        [2]
-        1 string data = " Enter passcode."
+        1 string data = " パスコードを入力する。"
        [3]
-        1 string data = " Break computer."
+        1 string data = " コンピュータを破壊する。"
        [4]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [5]
-        1 string data = " The computer is now broken and can't trigger the D-con room trap."
+        1 string data = " コンピュータは破壊され、除染室の罠を作動させることができなくなった。"
        [6]
-        1 string data = " Computer hacked."
+        1 string data = " コンピュータをハッキングした。"
        [7]
-        1 string data = " Skill no high enough."
+        1 string data = " スキルが不足している。"
        [8]
-        1 string data = " Correct passcode entered."
+        1 string data = " 正しいパスコードを入力した。"
        [9]
-        1 string data = " Wrong passcode entered."
+        1 string data = " パスコードが間違っている。"
        [10]
-        1 string data = " Gain intel."
+        1 string data = " 情報を入手する。"
        [11]
-        1 string data = "  Gain intel."
+        1 string data = "  情報を入手する。"
        [12]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [13]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [14]
-        1 string data = " Try again?"
+        1 string data = " もう一度試しますか?"
        [15]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [16]
-        1 string data = " Two more failed attemps and the alarm will be triggered."
+        1 string data = " あと2回失敗すると警報が作動します。"
        [17]
-        1 string data = " One more failed attemp and the alarm will be triggered."
+        1 string data = " あと1回失敗すると警報が作動します。"
        [18]
-        1 string data = " Alarm is triggered."
+        1 string data = " 警報が作動した。"
        [19]
-        1 string data = " Locked out."
+        1 string data = " ロックアウトされた。"
        [20]
-        1 string data = " It's dead Jim."
+        1 string data = " 完全に壊れている。"
    [159]
     0 StringTable data
      1 string Filename = "e3001_recoverycryopad_empty"
@@ -33719,31 +33719,31 @@
       1 Array Array (16 items)
        0 int size = 16
        [0]
-        1 string data = " Check vitals..."
+        1 string data = " バイタルをチェック..."
        [1]
-        1 string data = " Cryopod is empty..."
+        1 string data = " コールドスリープポッドは空だ..."
        [2]
-        1 string data = " Tamper with Cryopod."
+        1 string data = " コールドスリープポッドを改造する。"
        [3]
-        1 string data = " Sabotage cryopod?"
+        1 string data = " コールドスリープポッドを破壊しますか?"
        [4]
-        1 string data = " Lockout cryopod controls?"
+        1 string data = " コールドスリープポッドの制御をロックアウトしますか?"
        [5]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [6]
-        1 string data = " Success, anybody using this cryopod will recieve damage not healing."
+        1 string data = " 成功。このコールドスリープポッドを使用した者は、治癒ではなくダメージを受ける。"
        [7]
-        1 string data = " Your skill is not high enough."
+        1 string data = " スキルが不足している。"
        [8]
-        1 string data = " Success, nobody will be able to access the controlls to make the unit work."
+        1 string data = " 成功。誰もこのユニットの制御にアクセスできなくなる。"
        [9]
-        1 string data = " Your skill is not high enough."
+        1 string data = " スキルが不足している。"
        [10]
-        1 string data = " This pod is setup to damage any Fader that tries to use it."
+        1 string data = " このポッドは、使用しようとするFADERにダメージを与えるよう設定されている。"
        [11]
-        1 string data = " This pod's controlls are locked out, nobody will be able to access it."
+        1 string data = " このポッドの制御はロックアウトされており、誰もアクセスできない。"
        [12]
-        1 string data = " This is not the cryopod you are looking for."
+        1 string data = " これは君が探しているコールドスリープポッドではない。"
        [13]
         1 string data = " Set cryopod to 1 for Sabotage"
        [14]
@@ -33827,31 +33827,31 @@
       1 Array Array (16 items)
        0 int size = 16
        [0]
-        1 string data = " Check vitals..."
+        1 string data = " バイタルをチェック..."
        [1]
-        1 string data = " Cryopod is empty..."
+        1 string data = " コールドスリープポッドは空だ..."
        [2]
-        1 string data = " Tamper with Cryopod."
+        1 string data = " コールドスリープポッドを改造する。"
        [3]
-        1 string data = " Sabotage cryopod?"
+        1 string data = " コールドスリープポッドを破壊しますか?"
        [4]
-        1 string data = " Lockout cryopod controls?"
+        1 string data = " コールドスリープポッドの制御をロックアウトしますか?"
        [5]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [6]
-        1 string data = " Success, anybody using this cryopod will recieve damage not healing."
+        1 string data = " 成功。このコールドスリープポッドを使用した者は、治癒ではなくダメージを受ける。"
        [7]
-        1 string data = " Your skill is not high enough."
+        1 string data = " スキルが不足している。"
        [8]
-        1 string data = " Success, nobody will be able to access the controlls to make the unit work."
+        1 string data = " 成功。誰もこのユニットの制御にアクセスできなくなる。"
        [9]
-        1 string data = " Your skill is not high enough."
+        1 string data = " スキルが不足している。"
        [10]
-        1 string data = " This pod is setup to damage any Fader that tries to use it."
+        1 string data = " このポッドは、使用しようとするFADERにダメージを与えるよう設定されている。"
        [11]
-        1 string data = " This pod's controlls are locked out, nobody will be able to access it."
+        1 string data = " このポッドの制御はロックアウトされており、誰もアクセスできない。"
        [12]
-        1 string data = " This is not the cryopod you are looking for."
+        1 string data = " これは君が探しているコールドスリープポッドではない。"
        [13]
         1 string data = " Set cryopod to 1 for Sabotage"
        [14]
@@ -33935,31 +33935,31 @@
       1 Array Array (16 items)
        0 int size = 16
        [0]
-        1 string data = " Check vitals..."
+        1 string data = " バイタルをチェック..."
        [1]
-        1 string data = " Cryopod is empty..."
+        1 string data = " コールドスリープポッドは空だ..."
        [2]
-        1 string data = " Tamper with Cryopod."
+        1 string data = " コールドスリープポッドを改造する。"
        [3]
-        1 string data = " Sabotage cryopod?"
+        1 string data = " コールドスリープポッドを破壊しますか?"
        [4]
-        1 string data = " Lockout cryopod controls?"
+        1 string data = " コールドスリープポッドの制御をロックアウトしますか?"
        [5]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [6]
-        1 string data = " Success, anybody using this cryopod will recieve damage not healing."
+        1 string data = " 成功。このコールドスリープポッドを使用した者は、治癒ではなくダメージを受ける。"
        [7]
-        1 string data = " Your skill is not high enough."
+        1 string data = " スキルが不足している。"
        [8]
-        1 string data = " Success, nobody will be able to access the controlls to make the unit work."
+        1 string data = " 成功。誰もこのユニットの制御にアクセスできなくなる。"
        [9]
-        1 string data = " Your skill is not high enough."
+        1 string data = " スキルが不足している。"
        [10]
-        1 string data = " This pod is setup to damage any Fader that tries to use it."
+        1 string data = " このポッドは、使用しようとするFADERにダメージを与えるよう設定されている。"
        [11]
-        1 string data = " This pod's controlls are locked out, nobody will be able to access it."
+        1 string data = " このポッドの制御はロックアウトされており、誰もアクセスできない。"
        [12]
-        1 string data = " This is not the cryopod you are looking for."
+        1 string data = " これは君が探しているコールドスリープポッドではない。"
        [13]
         1 string data = " Set cryopod to 1 for Sabotage"
        [14]
