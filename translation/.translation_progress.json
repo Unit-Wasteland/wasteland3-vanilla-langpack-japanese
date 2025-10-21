@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-21T19:15:00+09:00",
+  "last_updated": "2025-10-21T19:45:00+09:00",
   "current_file": "DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
-  "total_entries_completed": 49999,
-  "last_completed_section": "DLC2: e7001_computer_crane_combined (部分、エントリ0-38/66完了、K.E.G.パズル制御システム)",
-  "next_section_to_translate": "e7001_computer_crane_combined (残りエントリ39-65/66、K.E.G.パズル制御の続き)",
-  "next_action": "Session 90進行中: e7001セクション群翻訳(500エントリ)完了。次: e7001_computer_crane_combined残り部分から継続、目標2500エントリ到達。",
-  "notes": "Session 90 (2025-10-21): e7001セクション群翻訳(500エントリ) - bezoar/carbuncle/companions/computer_crane_combined(部分)完了。累積49,999エントリ。e7001_computer_crane_combinedは66エントリ中39エントリまで完了、残り27エントリは次回処理。目標2500エントリに向けて継続中。",
+  "total_entries_completed": 50125,
+  "last_completed_section": "DLC2: e7001_entrancedoor完了 (ホーリー・デトネーション入口ドア)",
+  "next_section_to_translate": "e7001_holydetonation (46エントリ、ホーリー・デトネーション制御システム)",
+  "next_action": "Session 90進行中: e7001セクション群翻訳(626エントリ)完了。次: e7001_holydetonationから継続、目標2500エントリ到達。",
+  "notes": "Session 90 (2025-10-21): e7001セクション群翻訳(626エントリ) - crane_combined残り/crane_negative/crane_positive/cryogenics/deuterium/entrancedoor完了。累積50,125エントリ。次はe7001_holydetonation(46エントリ)から継続。",
   "sections_completed": [
     "Base game - ALL SECTIONS COMPLETE (530,425 lines)",
     "DLC1 - Order Up quest text (86020-86124) - 43 entries",
@@ -181,8 +181,13 @@
     "DLC2 - e7001_bezoar (Father Bezoar endgame barks, Holy Detonation sharing) - 3 entries",
     "DLC2 - e7001_carbuncle (Proteus endgame dialogue, Holy Detonation power sharing/meltdown choices) - 35 entries",
     "DLC2 - e7001_companions (companion barks, Holy Detonation approach) - 29 entries",
-    "DLC2 - e7001_computer_crane_combined (K.E.G. kinetic energy generator puzzle system, partial: entries 0-38/66) - 39 entries"
+    "DLC2 - e7001_computer_crane_combined (K.E.G. kinetic energy generator puzzle system) - 66 entries",
+    "DLC2 - e7001_computer_crane_negative (cryogenics negative direction arc-power controller) - 34 entries",
+    "DLC2 - e7001_computer_crane_positive (cryogenics positive direction arc-power controller) - 36 entries",
+    "DLC2 - e7001_cryogenics (cryogenic cooling system pressure controls) - 20 entries",
+    "DLC2 - e7001_deuterium (Deuterium endgame barks, Holy Detonation grid connection) - 3 entries",
+    "DLC2 - e7001_entrancedoor (Holy Detonation chamber entrance door) - 6 entries"
   ],
-  "last_commit": "6cd843a",
+  "last_commit": "a63131e",
   "session_number": 90
 }

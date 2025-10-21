@@ -65155,59 +65155,59 @@
        [38]
         1 string data = "正極移動コマンドを待機中です。お待ちください..."
        [39]
-        1 string data = "[[Global: e7001_Negative_Large_Uses] uses remaining.] Recharging..."
+        1 string data = "[[Global: e7001_Negative_Large_Uses]回使用可能] 再充電中..."
        [40]
-        1 string data = "[[Global: e7001_Negative_Large_Uses] uses remaining.] Expend positive charges for this movement command to start recharge cycle."
+        1 string data = "[[Global: e7001_Negative_Large_Uses]回使用可能] この移動コマンドのために正極電荷を消費して再充電サイクルを開始してください"
        [41]
-        1 string data = "[[Global: e7001_Negative_Large_Uses] uses remaining.] Executing movement command..."
+        1 string data = "[[Global: e7001_Negative_Large_Uses]回使用可能] 移動コマンドを実行中..."
        [42]
-        1 string data = "Movement control shifting to positive cycle. Please stand by..."
+        1 string data = "移動制御を正極サイクルに切り替え中です。お待ちください..."
        [43]
-        1 string data = "Move two units toward negative terminal. [[Global: e7001_Negative_Medium_Uses] uses remaining.]"
+        1 string data = "負極端子に向かって2ユニット移動。[[Global: e7001_Negative_Medium_Uses]回使用可能]"
        [44]
-        1 string data = "[[Global: e7001_Negative_Medium_Uses] uses remaining.] Executing movement command... "
+        1 string data = "[[Global: e7001_Negative_Medium_Uses]回使用可能] 移動コマンドを実行中..."
        [45]
-        1 string data = "Move one unit toward negative terminal. [[Global: e7001_Negative_Small_Uses] uses remaining.] "
+        1 string data = "負極端子に向かって1ユニット移動。[[Global: e7001_Negative_Small_Uses]回使用可能]"
        [46]
-        1 string data = "[[Global: e7001_Negative_Small_Uses] uses remaining.] Recharge in progress."
+        1 string data = "[[Global: e7001_Negative_Small_Uses]回使用可能] 再充電中"
        [47]
-        1 string data = "[[Global: e7001_Negative_Small_Uses] uses remaining.] Expend positive charges for this movement command to start recharge cycle."
+        1 string data = "[[Global: e7001_Negative_Small_Uses]回使用可能] この移動コマンドのために正極電荷を消費して再充電サイクルを開始してください"
        [48]
-        1 string data = "[[Global: e7001_Negative_Small_Uses] uses remaining.] Executing movement command..."
+        1 string data = "[[Global: e7001_Negative_Small_Uses]回使用可能] 移動コマンドを実行中..."
        [49]
-        1 string data = "Reset K.E.G. Trolley."
+        1 string data = "K.E.G.トロリーをリセット"
        [50]
-        1 string data = "Resetting..."
+        1 string data = "リセット中..."
        [51]
-        1 string data = "ALERT! Power transmission in process. Crane controls have been disabled by safety override."
+        1 string data = "警告! 電力伝送中です。クレーンの制御は安全オーバーライドにより無効化されました"
        [52]
-        1 string data = "[[Global: e7001_Positive_Medium_Uses] uses remaining.] Recharging..."
+        1 string data = "[[Global: e7001_Positive_Medium_Uses]回使用可能] 再充電中..."
        [53]
-        1 string data = "[[Global: e7001_Positive_Medium_Uses] uses remaining.] Expend negative charges for this movement command to start recharge cycle."
+        1 string data = "[[Global: e7001_Positive_Medium_Uses]回使用可能] この移動コマンドのために負極電荷を消費して再充電サイクルを開始してください"
        [54]
-        1 string data = "[[Global: e7001_Negative_Medium_Uses] uses remaining.] Recharging..."
+        1 string data = "[[Global: e7001_Negative_Medium_Uses]回使用可能] 再充電中..."
        [55]
-        1 string data = "[[Global: e7001_Negative_Medium_Uses] uses remaining.] Expend negative charges for this movement command to start recharge cycle."
+        1 string data = "[[Global: e7001_Negative_Medium_Uses]回使用可能] この移動コマンドのために負極電荷を消費して再充電サイクルを開始してください"
        [56]
-        1 string data = "Map our all-possible move permutations."
+        1 string data = "可能な移動の順列をすべてマッピングする"
        [57]
-        1 string data = "Question the boundaries of the test bed."
+        1 string data = "テストベッドの境界に疑問を持つ"
        [58]
-        1 string data = "Look over the test suspiciously"
+        1 string data = "テストを疑わしげに見渡す"
        [59]
-        1 string data = "Your inquisitive mind speculates as to what would happen if you made a move that would move the K.E.G. off the track."
+        1 string data = "あなたの探究心は、K.E.G.をトラックから外す移動をしたらどうなるかを思案している"
        [60]
-        1 string data = "You map out the various permutations of moves and realize: you can cover the most ground if you recently reset your 3 distance move. Example: Right-3, Left-3, Right-1, Left-3."
+        1 string data = "様々な移動の順列をマッピングして気づいた: 3距離の移動を最近リセットしていれば、最も多くの地面をカバーできる。例: 右-3、左-3、右-1、左-3"
        [61]
-        1 string data = "This is a scam if you've ever seen one. A con job; a carny game; a load of film flam; snake oil. Perpetual motion machines are BS. You can see some power cable dangling from the top rail that was clearly meant to be tucked away."
+        1 string data = "これは詐欺だ。詐欺商売、カーニバルゲーム、ペテン、いかさま。永久機関などデタラメだ。上部レールから垂れ下がっている電源ケーブルが見える。明らかに隠されるはずだったものだ"
        [62]
-        1 string data = "Hints."
+        1 string data = "ヒント"
        [63]
-        1 string data = "Select a hint topic:"
+        1 string data = "ヒントのトピックを選択してください:"
        [64]
-        1 string data = "Return to previous menu."
+        1 string data = "前のメニューに戻る"
        [65]
-        1 string data = "Please wait..."
+        1 string data = "お待ちください..."
    [345]
     0 StringTable data
      1 string Filename = "e7001_computer_crane_negative"
@@ -65357,73 +65357,73 @@
       1 Array Array (34 items)
        0 int size = 34
        [0]
-        1 string data = "Welcome to the Cryogenics Negative Direction Arc-Power Controller. \r\n\r\nNOTE: battery must be positioned between arc-power plugs to complete circuit. Please enter your command:"
+        1 string data = "低温学負極方向アーク電源コントローラへようこそ。\r\n\r\n注意: バッテリーはアーク電源プラグの間に配置して回路を完成させる必要があります。コマンドを入力してください:"
        [1]
-        1 string data = "Read user manual."
+        1 string data = "ユーザーマニュアルを読む"
        [2]
-        1 string data = "Select from the following topics:"
+        1 string data = "以下のトピックから選択してください:"
        [3]
-        1 string data = "Moving the battery with the Cryogenics Negative Direction Arc-Power Controller. \r\n"
+        1 string data = "低温学負極方向アーク電源コントローラでバッテリーを移動する\r\n"
        [4]
-        1 string data = "Commands from this terminal move the battery in the direction of the negative terminal. "
+        1 string data = "この端末からのコマンドはバッテリーを負極端子の方向に移動させます"
        [5]
-        1 string data = "Movement distances."
+        1 string data = "移動距離"
        [6]
-        1 string data = "This system will move the battery a specific distance along the track depending on user input. The three preprogrammed distances are: single length, double length, and triple length."
+        1 string data = "このシステムはユーザー入力に応じて、バッテリーをトラックに沿って特定の距離移動させます。3つのプリプログラムされた距離があります: 単一長、二重長、三重長"
        [7]
-        1 string data = "Movement costs."
+        1 string data = "移動コスト"
        [8]
-        1 string data = "Moving and stopping the battery trolley drains the power supply of the terminals, depending on distance covered. Moving one length uses one charge. Moving two lengths (the most efficient) uses no charges, and moving three lengths uses two charges."
+        1 string data = "バッテリートロリーの移動と停止は、移動した距離に応じて端末の電力供給を消耗します。1長移動は1チャージを使用します。2長移動(最も効率的)はチャージを使用しません。3長移動は2チャージを使用します"
        [9]
-        1 string data = "Return to main menu."
+        1 string data = "メインメニューに戻る"
        [10]
-        1 string data = "Welcome to the Cryogenics Negative Direction Arc-Power Controller. \r\n\r\nNOTE: battery must be positioned between arc-power plugs to complete circuit. Please enter your command:"
+        1 string data = "低温学負極方向アーク電源コントローラへようこそ。\r\n\r\n注意: バッテリーはアーク電源プラグの間に配置して回路を完成させる必要があります。コマンドを入力してください:"
        [11]
-        1 string data = "Move battery trolley."
+        1 string data = "バッテリートロリーを移動"
        [12]
-        1 string data = "ALERT! Power transmission in process. Crane controls have been disabled by safety override."
+        1 string data = "警告! 電力伝送中です。クレーンの制御は安全オーバーライドにより無効化されました"
        [13]
-        1 string data = "Select movement command:"
+        1 string data = "移動コマンドを選択してください:"
        [14]
-        1 string data = "Move three units toward negative terminal. [[Global: e7001_Negative_Large_Uses] uses remaining.] "
+        1 string data = "負極端子に向かって3ユニット移動。[[Global: e7001_Negative_Large_Uses]回使用可能]"
        [15]
-        1 string data = "Waiting for trolley movement. Please stand by..."
+        1 string data = "トロリーの移動を待機中です。お待ちください..."
        [16]
-        1 string data = "Waiting for movement command from positive terminal. Please stand by..."
+        1 string data = "正極端子からの移動コマンドを待機中です。お待ちください..."
        [17]
-        1 string data = "[[Global: e7001_Negative_Large_Uses] uses remaining.] Recharging..."
+        1 string data = "[[Global: e7001_Negative_Large_Uses]回使用可能] 再充電中..."
        [18]
-        1 string data = "[[Global: e7001_Negative_Large_Uses] uses remaining.] Expend charges on positive terminal for this movement command to start recharge cycle."
+        1 string data = "[[Global: e7001_Negative_Large_Uses]回使用可能] この移動コマンドのために正極端子でチャージを消費して再充電サイクルを開始してください"
        [19]
-        1 string data = "[[Global: e7001_Negative_Large_Uses] uses remaining.] Executing movement command..."
+        1 string data = "[[Global: e7001_Negative_Large_Uses]回使用可能] 移動コマンドを実行中..."
        [20]
-        1 string data = "Move two units toward negative terminal. "
+        1 string data = "負極端子に向かって2ユニット移動"
        [21]
-        1 string data = "Executing movement command... "
+        1 string data = "移動コマンドを実行中..."
        [22]
-        1 string data = "Move one unit toward negative terminal. [[Global: e7001_Negative_Small_Uses] uses remaining.] "
+        1 string data = "負極端子に向かって1ユニット移動。[[Global: e7001_Negative_Small_Uses]回使用可能]"
        [23]
-        1 string data = "[[Global: e7001_Negative_Small_Uses] uses remaining.] Recharge in progress."
+        1 string data = "[[Global: e7001_Negative_Small_Uses]回使用可能] 再充電中"
        [24]
-        1 string data = "[[Global: e7001_Negative_Small_Uses] uses remaining.] Expend charges on positive terminal for this movement command to start recharge cycle."
+        1 string data = "[[Global: e7001_Negative_Small_Uses]回使用可能] この移動コマンドのために正極端子でチャージを消費して再充電サイクルを開始してください"
        [25]
-        1 string data = "[[Global: e7001_Negative_Small_Uses] uses remaining.] Executing movement command..."
+        1 string data = "[[Global: e7001_Negative_Small_Uses]回使用可能] 移動コマンドを実行中..."
        [26]
-        1 string data = "Reset crane."
+        1 string data = "クレーンをリセット"
        [27]
-        1 string data = "Resetting..."
+        1 string data = "リセット中..."
        [28]
-        1 string data = "Exit."
+        1 string data = "終了"
        [29]
-        1 string data = "Logging off..."
+        1 string data = "ログアウト中..."
        [30]
-        1 string data = "Movement control shifting to positive terminal. Please stand by..."
+        1 string data = "移動制御を正極端子に切り替え中です。お待ちください..."
        [31]
-        1 string data = "Continue alternating commands from the negative and positive terminals to center the battery and complete the cryogenic circuit."
+        1 string data = "バッテリーを中心に配置して低温回路を完成させるため、負極端子と正極端子からのコマンドを交互に実行し続けてください"
        [32]
-        1 string data = "This terminal may issue only one movement command in a row, after which a movement command must be issued from the positive terminal."
+        1 string data = "この端末は連続して1つの移動コマンドのみを発行できます。その後、正極端子から移動コマンドを発行する必要があります"
        [33]
-        1 string data = "When all available charges for a given distance are consumed on BOTH terminals, they will begin to recharge. Recharging will complete after two additional movement cycles of any length."
+        1 string data = "特定の距離に対する利用可能なチャージが両方の端末で全て消費されると、再充電が開始されます。再充電は任意の長さの2回の追加移動サイクル後に完了します"
    [346]
     0 StringTable data
      1 string Filename = "e7001_computer_crane_positive"
@@ -65581,75 +65581,75 @@
       1 Array Array (36 items)
        0 int size = 36
        [0]
-        1 string data = "Welcome to the Cryogenics Positive Direction Arc-Power Controller. \r\n\r\nNOTE: battery must be positioned between arc-power plugs to complete circuit. Please enter your command:"
+        1 string data = "低温学正極方向アーク電源コントローラへようこそ。\r\n\r\n注意: バッテリーはアーク電源プラグの間に配置して回路を完成させる必要があります。コマンドを入力してください:"
        [1]
-        1 string data = "Read user manual."
+        1 string data = "ユーザーマニュアルを読む"
        [2]
-        1 string data = "Move battery trolley."
+        1 string data = "バッテリートロリーを移動"
        [3]
-        1 string data = "Reset crane."
+        1 string data = "クレーンをリセット"
        [4]
-        1 string data = "Exit."
+        1 string data = "終了"
        [5]
-        1 string data = "Moving the battery with the Cryogenics Positive Direction Arc-Power Controller. \r\n"
+        1 string data = "低温学正極方向アーク電源コントローラでバッテリーを移動する\r\n"
        [6]
-        1 string data = "Select from the following topics:"
+        1 string data = "以下のトピックから選択してください:"
        [7]
-        1 string data = "Movement distances."
+        1 string data = "移動距離"
        [8]
-        1 string data = "Movement costs."
+        1 string data = "移動コスト"
        [9]
-        1 string data = "Return to main menu."
+        1 string data = "メインメニューに戻る"
        [10]
-        1 string data = "Move three units toward positive terminal. [[Global: e7001_Positive_Large_Uses] uses remaining.] "
+        1 string data = "正極端子に向かって3ユニット移動。[[Global: e7001_Positive_Large_Uses]回使用可能]"
        [11]
-        1 string data = "Move two units toward positive terminal."
+        1 string data = "正極端子に向かって2ユニット移動"
        [12]
-        1 string data = "Please wait..."
+        1 string data = "お待ちください..."
        [13]
-        1 string data = "Select movement command:"
+        1 string data = "移動コマンドを選択してください:"
        [14]
-        1 string data = "Resetting..."
+        1 string data = "リセット中..."
        [15]
-        1 string data = "Logging off..."
+        1 string data = "ログアウト中..."
        [16]
-        1 string data = "Move one unit toward positive terminal. [[Global: e7001_Positive_Small_Uses] uses remaining.] "
+        1 string data = "正極端子に向かって1ユニット移動。[[Global: e7001_Positive_Small_Uses]回使用可能]"
        [17]
-        1 string data = "Commands from this terminal move the battery in the direction of the positive terminal. "
+        1 string data = "この端末からのコマンドはバッテリーを正極端子の方向に移動させます"
        [18]
-        1 string data = "This system will move the battery a specific distance along the track depending on user input. The three preprogrammed distances are: single length, double length, and triple length."
+        1 string data = "このシステムはユーザー入力に応じて、バッテリーをトラックに沿って特定の距離移動させます。3つのプリプログラムされた距離があります: 単一長、二重長、三重長"
        [19]
-        1 string data = "Moving and stopping the battery trolley drains the power supply of the terminals, depending on distance covered. Moving one length uses one charge. Moving two lengths (the most efficient) uses no charges, and moving three lengths uses two charges."
+        1 string data = "バッテリートロリーの移動と停止は、移動した距離に応じて端末の電力供給を消耗します。1長移動は1チャージを使用します。2長移動(最も効率的)はチャージを使用しません。3長移動は2チャージを使用します"
        [20]
-        1 string data = "[[Global: e7001_Positive_Large_Uses] uses remaining.] Recharging..."
+        1 string data = "[[Global: e7001_Positive_Large_Uses]回使用可能] 再充電中..."
        [21]
-        1 string data = "[[Global: e7001_Positive_Large_Uses] uses remaining.] Expend charges on negative terminal for this movement command to start recharge cycle."
+        1 string data = "[[Global: e7001_Positive_Large_Uses]回使用可能] この移動コマンドのために負極端子でチャージを消費して再充電サイクルを開始してください"
        [22]
-        1 string data = "[[Global: e7001_Positive_Large_Uses] uses remaining.] Executing movement command..."
+        1 string data = "[[Global: e7001_Positive_Large_Uses]回使用可能] 移動コマンドを実行中..."
        [23]
-        1 string data = "Waiting for movement command from negative terminal. Please stand by..."
+        1 string data = "負極端子からの移動コマンドを待機中です。お待ちください..."
        [24]
-        1 string data = "Executing movement command..."
+        1 string data = "移動コマンドを実行中..."
        [25]
-        1 string data = "[[Global: e7001_Positive_Small_Uses] uses remaining.] Recharge in progress."
+        1 string data = "[[Global: e7001_Positive_Small_Uses]回使用可能] 再充電中"
        [26]
         1 string data = ""
        [27]
-        1 string data = "[[Global: e7001_Positive_Small_Uses] uses remaining.] Executing movement command..."
+        1 string data = "[[Global: e7001_Positive_Small_Uses]回使用可能] 移動コマンドを実行中..."
        [28]
-        1 string data = "Waiting for trolley movement. Please stand by..."
+        1 string data = "トロリーの移動を待機中です。お待ちください..."
        [29]
-        1 string data = "ALERT! Power transmission in process. Crane controls have been disabled by safety override."
+        1 string data = "警告! 電力伝送中です。クレーンの制御は安全オーバーライドにより無効化されました"
        [30]
-        1 string data = "[[Global: e7001_Positive_Small_Uses] uses remaining.] Expend charges on negative terminal for this movement command to start recharge cycle."
+        1 string data = "[[Global: e7001_Positive_Small_Uses]回使用可能] この移動コマンドのために負極端子でチャージを消費して再充電サイクルを開始してください"
        [31]
-        1 string data = "Movement control shifting to negative terminal. Please stand by..."
+        1 string data = "移動制御を負極端子に切り替え中です。お待ちください..."
        [32]
-        1 string data = "This terminal may issue only one movement command in a row, after which a movement command must be issued from the negative terminal."
+        1 string data = "この端末は連続して1つの移動コマンドのみを発行できます。その後、負極端子から移動コマンドを発行する必要があります"
        [33]
-        1 string data = "Continue alternating commands from the positive and negative terminals to center the battery and complete the cryogenic circuit."
+        1 string data = "バッテリーを中心に配置して低温回路を完成させるため、正極端子と負極端子からのコマンドを交互に実行し続けてください"
        [34]
-        1 string data = "When all available charges for a given distance are consumed on BOTH terminals, they will begin to recharge. Recharging will complete after two additional movement cycles of any length."
+        1 string data = "特定の距離に対する利用可能なチャージが両方の端末で全て消費されると、再充電が開始されます。再充電は任意の長さの2回の追加移動サイクル後に完了します"
        [35]
         1 string data = ""
    [347]
@@ -65745,45 +65745,45 @@
       1 Array Array (20 items)
        0 int size = 20
        [0]
-        1 string data = "This appears to be a cryogenic cooling system. A storage tank connects to a liquid level sensor, a centrifugal pump, a pressure transducer, and a pressure controller."
+        1 string data = "これは低温冷却システムのようだ。貯蔵タンクは液面センサー、遠心ポンプ、圧力変換器、圧力制御装置に接続されている"
        [1]
-        1 string data = "Increase liquid pressure."
+        1 string data = "液体圧力を上げる"
        [2]
-        1 string data = "Leave it alone."
+        1 string data = "そのままにする"
        [3]
-        1 string data = "ERROR - Unable to adjust liquid pressure. Coolant supply failure detected."
+        1 string data = "エラー - 液体圧力を調整できません。冷却剤供給障害が検出されました"
        [4]
-        1 string data = "Increasing to 90% of maximum allowable working pressure. WARNING: Tank fill rate will be reduced by 50%. Severity of injury due to tank rupture increased by 20%."
+        1 string data = "最大許容作動圧力の90%まで上昇中。警告: タンクの充填速度が50%低下します。タンク破裂による怪我の重症度が20%増加します"
        [5]
-        1 string data = "Confirm pressure change."
+        1 string data = "圧力変更を確認"
        [6]
-        1 string data = "Cancel pressure change."
+        1 string data = "圧力変更をキャンセル"
        [7]
-        1 string data = "Reduce liquid pressure."
+        1 string data = "液体圧力を下げる"
        [8]
-        1 string data = "Reducing to 60% of maximum allowable working pressure. WARNING: Tank fill rate will be increased by 50%. Severity of injury due to tank rupture reduced by 20%"
+        1 string data = "最大許容作動圧力の60%まで低下中。警告: タンクの充填速度が50%増加します。タンク破裂による怪我の重症度が20%減少します"
        [9]
-        1 string data = "Pressure change confirmed. Reducing pressure..."
+        1 string data = "圧力変更が確認されました。圧力を下げています..."
        [10]
-        1 string data = "Canceling change..."
+        1 string data = "変更をキャンセル中..."
        [11]
-        1 string data = "Pressure change confirmed. Increasing pressure..."
+        1 string data = "圧力変更が確認されました。圧力を上げています..."
        [12]
-        1 string data = "Confirm pressure change."
+        1 string data = "圧力変更を確認"
        [13]
-        1 string data = "Cancel pressure change."
+        1 string data = "圧力変更をキャンセル"
        [14]
-        1 string data = "Canceling change..."
+        1 string data = "変更をキャンセル中..."
        [15]
-        1 string data = "Check system status."
+        1 string data = "システムステータスを確認"
        [16]
-        1 string data = "Liquid pressure has been adjusted and is currently rising."
+        1 string data = "液体圧力が調整され、現在上昇中です"
        [17]
-        1 string data = "Liquid pressure has been adjusted and is currently decreasing."
+        1 string data = "液体圧力が調整され、現在降下中です"
        [18]
-        1 string data = "Liquid pressure rating at nominal at 75% maximum allowable working pressure."
+        1 string data = "液体圧力は最大許容作動圧力の75%で公称値です"
        [19]
-        1 string data = "Liquid pressure is low. Cryogenic piping failure detected."
+        1 string data = "液体圧力が低い。低温配管の故障が検出されました"
    [348]
     0 StringTable data
      1 string Filename = "e7001_deuterium"
@@ -65809,11 +65809,11 @@
       1 Array Array (3 items)
        0 int size = 3
        [0]
-        1 string data = ""All I can say is, Theo Curie better know what he's talking about.""
+        1 string data = "「私が言えるのは、テオ・キュリーが何を言っているのか分かっているといいってことだけだ」"
        [1]
-        1 string data = ""Well, go on, then. Hook the Holy Detonation to the grid. But if you hurt it...""
+        1 string data = "「じゃあ、やってくれ。ホーリー・デトネーションを電力網に接続しろ。だがもし傷つけたら...」"
        [2]
-        1 string data = ""I'm watching you, Rangers.""
+        1 string data = "「見ているぞ、レンジャーズ」"
    [349]
     0 StringTable data
      1 string Filename = "e7001_entrancedoor"
@@ -65853,13 +65853,13 @@
        [0]
         1 string data = ""
        [1]
-        1 string data = "On the other side of this reinforced blast door you can hear the rumble of the Holy Detonation."
+        1 string data = "この強化防爆扉の向こう側から、ホーリー・デトネーションの轟音が聞こえる"
        [2]
-        1 string data = "On the other side of this reinforced blast door you can hear the rumble of the Holy Detonation. You should gather the rest of your squad before proceeding."
+        1 string data = "この強化防爆扉の向こう側から、ホーリー・デトネーションの轟音が聞こえる。先に進む前に、部隊の残りを集めた方がいいだろう"
        [3]
-        1 string data = "Open the door."
+        1 string data = "ドアを開ける"
        [4]
-        1 string data = "Step away from the door."
+        1 string data = "ドアから離れる"
        [5]
         1 string data = "::beep::"
    [350]
