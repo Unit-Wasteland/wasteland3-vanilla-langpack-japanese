@@ -48995,13 +48995,13 @@
       1 Array Array (4 items)
        0 int size = 4
        [0]
-        1 string data = " Old dude says something"
+        1 string data = "老人が何か言う"
        [1]
-        1 string data = " Player says something."
+        1 string data = "プレイヤーが何か言う。"
        [2]
-        1 string data = " Jane says something"
+        1 string data = "ジェーンが何か言う"
        [3]
-        1 string data = " Old dude says something."
+        1 string data = "老人が何か言う。"
    [247]
     0 StringTable data
      1 string Filename = "e6001_e6001_helipaddoorcomputer"
@@ -49055,25 +49055,25 @@
       1 Array Array (10 items)
        0 int size = 10
        [0]
-        1 string data = " Power is restored door is fully functioning"
+        1 string data = "電力が復旧しドアは完全に機能している"
        [1]
-        1 string data = " The door has no power. Use Engineering skill to reroot power to door."
+        1 string data = "ドアに電力が供給されていない。エンジニアリングスキルを使ってドアに電力を再接続する。"
        [2]
         1 string data = " "
        [3]
-        1 string data = " I pitty the fool who gets this responce.\n(Tell your local designer he screwed up)"
+        1 string data = "この応答を得る愚か者に同情する。\n(担当デザイナーにしくじったと伝えてくれ)"
        [4]
-        1 string data = " Use Engineering skill."
+        1 string data = "エンジニアリングスキルを使う。"
        [5]
-        1 string data = " Set e6001_HelipadDoorComputer = 0"
+        1 string data = "e6001_HelipadDoorComputer = 0 に設定"
        [6]
-        1 string data = " Set e6001_HelipadDoorComputer = 1"
+        1 string data = "e6001_HelipadDoorComputer = 1 に設定"
        [7]
-        1 string data = " Walk away."
+        1 string data = "立ち去る。"
        [8]
-        1 string data = " Success: You restored power to the door."
+        1 string data = "成功:ドアへの電力を復旧した。"
        [9]
-        1 string data = " Failed: Your skill is not high enough."
+        1 string data = "失敗:スキルレベルが不十分だ。"
    [248]
     0 StringTable data
      1 string Filename = "e6001_engineturbinecomputer"
@@ -49147,35 +49147,35 @@
       1 Array Array (15 items)
        0 int size = 15
        [0]
-        1 string data = " Hack the computer?"
+        1 string data = "コンピューターをハッキングする?"
        [1]
-        1 string data = " Computer has no power."
+        1 string data = "コンピューターに電力が供給されていない。"
        [2]
-        1 string data = " Press any key..."
+        1 string data = "何かキーを押してください..."
        [3]
-        1 string data = " I pitty the fool who gets this responce.\n(Tell your local designer he screwed up)"
+        1 string data = "この応答を得る愚か者に同情する。\n(担当デザイナーにしくじったと伝えてくれ)"
        [4]
-        1 string data = " Hack away."
+        1 string data = "ハッキングする。"
        [5]
-        1 string data = " Set e6001_EngineTurbineComputerHacked = 0"
+        1 string data = "e6001_EngineTurbineComputerHacked = 0 に設定"
        [6]
-        1 string data = " Set e6001_EngineTurbineComputerHacked = 1"
+        1 string data = "e6001_EngineTurbineComputerHacked = 1 に設定"
        [7]
-        1 string data = " Walk away."
+        1 string data = "立ち去る。"
        [8]
-        1 string data = " Success: You hacked the computer."
+        1 string data = "成功:コンピューターをハッキングした。"
        [9]
-        1 string data = " Failed: Your skill is not high enough."
+        1 string data = "失敗:スキルレベルが不十分だ。"
        [10]
-        1 string data = " Redistribute power equally through the area."
+        1 string data = "エリア全体に電力を均等に再分配する。"
        [11]
-        1 string data = " Walk away."
+        1 string data = "立ち去る。"
        [12]
-        1 string data = " Power is equally Redistributed."
+        1 string data = "電力が均等に再分配された。"
        [13]
-        1 string data = " Redistribute power equally through the area."
+        1 string data = "エリア全体に電力を均等に再分配する。"
        [14]
-        1 string data = " Walk away."
+        1 string data = "立ち去る。"
    [249]
     0 StringTable data
      1 string Filename = "e6001_engineturbinemechanical"
@@ -49225,23 +49225,23 @@
       1 Array Array (9 items)
        0 int size = 9
        [0]
-        1 string data = " Use Engineering skill?"
+        1 string data = "エンジニアリングスキルを使う?"
        [1]
-        1 string data = " The doohickey is working fine."
+        1 string data = "装置は正常に動作している。"
        [2]
-        1 string data = " I pitty the fool who gets this responce.\n(Tell your local designer he screwed up)"
+        1 string data = "この応答を得る愚か者に同情する。\n(担当デザイナーにしくじったと伝えてくれ)"
        [3]
-        1 string data = " Use Engineering skill."
+        1 string data = "エンジニアリングスキルを使う。"
        [4]
-        1 string data = " Set e6001_EngineTurbineMechanical = 0"
+        1 string data = "e6001_EngineTurbineMechanical = 0 に設定"
        [5]
-        1 string data = " Set e6001_EngineTurbineMechanical = 1"
+        1 string data = "e6001_EngineTurbineMechanical = 1 に設定"
        [6]
-        1 string data = " Walk away."
+        1 string data = "立ち去る。"
        [7]
-        1 string data = " Success: You repaired the doohickey."
+        1 string data = "成功:装置を修理した。"
        [8]
-        1 string data = " Failed: Your skill is not high enough."
+        1 string data = "失敗:スキルレベルが不十分だ。"
    [250]
     0 StringTable data
      1 string Filename = "e6001_junctionbox_00"
@@ -49303,13 +49303,13 @@
       1 Array Array (12 items)
        0 int size = 12
        [0]
-        1 string data = " Use Engineering skill to fix the junction box?"
+        1 string data = "エンジニアリングスキルを使って接続箱を修理する?"
        [1]
-        1 string data = " The junction box is working."
+        1 string data = "接続箱は正常に動作している。"
        [2]
         1 string data = " "
        [3]
-        1 string data = " I pitty the fool who gets this responce.\n(Tell your local game designer he screwed up)"
+        1 string data = "この応答を得る愚か者に同情する。\n(担当ゲームデザイナーにしくじったと伝えてくれ)"
        [4]
         1 string data = ""
        [5]
@@ -49319,13 +49319,13 @@
        [7]
         1 string data = ""
        [8]
-        1 string data = " Use skill."
+        1 string data = "スキルを使う。"
        [9]
-        1 string data = " Walk away."
+        1 string data = "立ち去る。"
        [10]
-        1 string data = " Success: The junction box is working correctly."
+        1 string data = "成功:接続箱は正常に動作している。"
        [11]
-        1 string data = " Failed: Your skill is not high enough."
+        1 string data = "失敗:スキルレベルが不十分だ。"
    [251]
     0 StringTable data
      1 string Filename = "e6001_junctionbox_01"
@@ -49367,9 +49367,9 @@
       1 Array Array (7 items)
        0 int size = 7
        [0]
-        1 string data = " Use Engineering skill to fix the junction box?"
+        1 string data = "エンジニアリングスキルを使って接続箱を修理する?"
        [1]
-        1 string data = " The junction box is working."
+        1 string data = "接続箱は正常に動作している。"
        [2]
         1 string data = " I pitty the fool who gets this responce.\n(Tell your local game designer he screwed up)"
        [3]
@@ -49377,7 +49377,7 @@
        [4]
         1 string data = " Walk away."
        [5]
-        1 string data = " Success: The junction box is now working correctly."
+        1 string data = "成功:接続箱は正常に動作している。"
        [6]
         1 string data = " Failed: Your skill is not high enough."
    [252]
@@ -49421,9 +49421,9 @@
       1 Array Array (7 items)
        0 int size = 7
        [0]
-        1 string data = " Use Engineering skill to fix the junction box?"
+        1 string data = "エンジニアリングスキルを使って接続箱を修理する?"
        [1]
-        1 string data = " The junction box is working."
+        1 string data = "接続箱は正常に動作している。"
        [2]
         1 string data = " I pitty the fool who gets this responce.\n(Tell your local game designer he screwed up)"
        [3]
@@ -49431,7 +49431,7 @@
        [4]
         1 string data = " Walk away."
        [5]
-        1 string data = " Success: The junction box is now working correctly."
+        1 string data = "成功:接続箱は正常に動作している。"
        [6]
         1 string data = " Failed: Your skill is not high enough."
    [253]
@@ -49451,7 +49451,7 @@
       1 Array Array (1 items)
        0 int size = 1
        [0]
-        1 string data = " Crazy Old Soldier says something crazy.\nNOTE: This should be a bark"
+        1 string data = "クレイジーなオールド・ソルジャーが狂ったことを言う。\nNOTE: これはバークにすべき"
    [254]
     0 StringTable data
      1 string Filename = "e6001_old_soldierradiobark_01"
@@ -49469,7 +49469,7 @@
       1 Array Array (1 items)
        0 int size = 1
        [0]
-        1 string data = " Crazy Old Soldier says something crazy.\nNOTE: This should be a bark"
+        1 string data = "クレイジーなオールド・ソルジャーが狂ったことを言う。\nNOTE: これはバークにすべき"
    [255]
     0 StringTable data
      1 string Filename = "e6001_old_soldierradiobark_02"
@@ -49487,7 +49487,7 @@
       1 Array Array (1 items)
        0 int size = 1
        [0]
-        1 string data = " Crazy Old Soldier says something crazy.\nNOTE: This should be a bark"
+        1 string data = "クレイジーなオールド・ソルジャーが狂ったことを言う。\nNOTE: これはバークにすべき"
    [256]
     0 StringTable data
      1 string Filename = "e6001_old_soldierradiointro"
@@ -49511,7 +49511,7 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = " The Old Soldier welcomes the player to his home in a creepy way.\nNOTE: This should be a Convo"
+        1 string data = "オールド・ソルジャーが不気味な形でプレイヤーを自分の家に歓迎する。\nNOTE: これは会話にすべき"
    [257]
     0 StringTable data
      1 string Filename = "e6001_reservoirbasincomputer"
@@ -49589,37 +49589,37 @@
       1 Array Array (16 items)
        0 int size = 16
        [0]
-        1 string data = " Fix computer.\nIf engineering skill is high enough the player can fix the computer."
+        1 string data = "コンピューターを修理する。\nエンジニアリングスキルが十分高ければ、プレイヤーはコンピューターを修理できる。"
        [1]
-        1 string data = " Press any key..."
+        1 string data = "何かキーを押してください..."
        [2]
-        1 string data = " Power has been restored and doors are unlocked."
+        1 string data = "電力が復旧しドアのロックが解除された。"
        [3]
-        1 string data = " I pitty the fool who gets this responce. \r\n(Tell your local designer he screwed up)"
+        1 string data = "この応答を得る愚か者に同情する。 \r\n(担当デザイナーにしくじったと伝えてくれ)"
        [4]
-        1 string data = " Use skill?"
+        1 string data = "スキルを使う?"
        [5]
-        1 string data = " Walk away."
+        1 string data = "立ち去る。"
        [6]
-        1 string data = " Power is restored."
+        1 string data = "電力が復旧した。"
        [7]
-        1 string data = " Failed: Your skill is not high enough."
+        1 string data = "失敗:スキルレベルが不十分だ。"
        [8]
-        1 string data = " Hack the computer?"
+        1 string data = "コンピューターをハッキングする?"
        [9]
         1 string data = " "
        [10]
         1 string data = " "
        [11]
-        1 string data = " Reset globals"
+        1 string data = "グローバル変数をリセット"
        [12]
-        1 string data = " Success: Computer was hacked."
+        1 string data = "成功:コンピューターをハッキングした。"
        [13]
-        1 string data = " Failed: Your skill is not high enough."
+        1 string data = "失敗:スキルレベルが不十分だ。"
        [14]
-        1 string data = " Reroute power to the doors?"
+        1 string data = "ドアへの電力を再経路する?"
        [15]
-        1 string data = " Walk away."
+        1 string data = "立ち去る。"
    [258]
     0 StringTable data
      1 string Filename = "e6001_secretbttf_box_00"
@@ -49661,9 +49661,9 @@
       1 Array Array (7 items)
        0 int size = 7
        [0]
-        1 string data = " Use Engineering skill to fix the junction box?"
+        1 string data = "エンジニアリングスキルを使って接続箱を修理する?"
        [1]
-        1 string data = " The junction box is working."
+        1 string data = "接続箱は正常に動作している。"
        [2]
         1 string data = " I pitty the fool who gets this responce.\n(Tell your local game designer he screwed up)"
        [3]
@@ -49671,7 +49671,7 @@
        [4]
         1 string data = " Walk away."
        [5]
-        1 string data = " Success: The junction box is now working correctly."
+        1 string data = "成功:接続箱は正常に動作している。"
        [6]
         1 string data = " Failed: Your skill is not high enough."
    [259]
@@ -49715,9 +49715,9 @@
       1 Array Array (7 items)
        0 int size = 7
        [0]
-        1 string data = " Use Engineering skill to fix the junction box?"
+        1 string data = "エンジニアリングスキルを使って接続箱を修理する?"
        [1]
-        1 string data = " The junction box is working."
+        1 string data = "接続箱は正常に動作している。"
        [2]
         1 string data = " I pitty the fool who gets this responce.\n(Tell your local game designer he screwed up)"
        [3]
@@ -49725,7 +49725,7 @@
        [4]
         1 string data = " Walk away."
        [5]
-        1 string data = " Success: The junction box is now working correctly."
+        1 string data = "成功:接続箱は正常に動作している。"
        [6]
         1 string data = " Failed: Your skill is not high enough."
    [260]
@@ -49769,9 +49769,9 @@
       1 Array Array (7 items)
        0 int size = 7
        [0]
-        1 string data = " Use Engineering skill to fix the junction box?"
+        1 string data = "エンジニアリングスキルを使って接続箱を修理する?"
        [1]
-        1 string data = " The junction box is working."
+        1 string data = "接続箱は正常に動作している。"
        [2]
         1 string data = " I pitty the fool who gets this responce.\n(Tell your local game designer he screwed up)"
        [3]
@@ -49779,7 +49779,7 @@
        [4]
         1 string data = " Walk away."
        [5]
-        1 string data = " Success: The junction box is now working correctly."
+        1 string data = "成功:接続箱は正常に動作している。"
        [6]
         1 string data = " Failed: Your skill is not high enough."
    [261]
@@ -49823,9 +49823,9 @@
       1 Array Array (7 items)
        0 int size = 7
        [0]
-        1 string data = " Use Engineering skill to fix the junction box?"
+        1 string data = "エンジニアリングスキルを使って接続箱を修理する?"
        [1]
-        1 string data = " The junction box is working."
+        1 string data = "接続箱は正常に動作している。"
        [2]
         1 string data = " I pitty the fool who gets this responce.\n(Tell your local game designer he screwed up)"
        [3]
@@ -49833,7 +49833,7 @@
        [4]
         1 string data = " Walk away."
        [5]
-        1 string data = " Success: The junction box is now working correctly."
+        1 string data = "成功:接続箱は正常に動作している。"
        [6]
         1 string data = " Failed: Your skill is not high enough."
    [262]
@@ -49877,9 +49877,9 @@
       1 Array Array (7 items)
        0 int size = 7
        [0]
-        1 string data = " Use Engineering skill to fix the junction box?"
+        1 string data = "エンジニアリングスキルを使って接続箱を修理する?"
        [1]
-        1 string data = " The junction box is working."
+        1 string data = "接続箱は正常に動作している。"
        [2]
         1 string data = " I pitty the fool who gets this responce.\n(Tell your local game designer he screwed up)"
        [3]
@@ -49887,7 +49887,7 @@
        [4]
         1 string data = " Walk away."
        [5]
-        1 string data = " Success: The junction box is now working correctly."
+        1 string data = "成功:接続箱は正常に動作している。"
        [6]
         1 string data = " Failed: Your skill is not high enough."
    [263]
