@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-21T14:54:50+09:00",
+  "last_updated": "2025-10-21T16:30:00+09:00",
   "current_file": "DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
-  "total_entries_completed": 43833,
-  "last_completed_section": "DLC2: e2001_proteus完了 (481エントリ)",
-  "next_section_to_translate": "e2001_pump",
-  "next_action": "Session 72: e2001_proteus(Proteus本体対話、退化言語→通訳システム、プリモーディアリスト vs ニュークレイスト対立、イリジウム捕獲クエスト、Abbott Deuterium交渉、Holy Detonation崇拝、481エントリ)を翻訳完了。次: e2001_pumpセクション翻訳へ継続。",
-  "notes": "Session 72 (2025-10-21): DLC2ファイルの対話セクション翻訳継続。e2001_proteus(Proteus本体、退化言語を通訳者が翻訳、宗教対立、イリジウム捕獲、デューテリウム交渉)を完了。15チャンクで481エントリ翻訳。アクション記法(::sighs::、::laughs::等)とHTMLタグ(<i>等)を厳格に保持。次はe2001_pumpセクション。",
+  "total_entries_completed": 44050,
+  "last_completed_section": "DLC2: e2001_theo partial完了(エントリ0-171, 172エントリ中)",
+  "next_section_to_translate": "e2001_theo [172-277] (106エントリ残り)",
+  "next_action": "Session 73: e2001_pump(ポンプ、汚染/浄化水、10エントリ)、e2001_radio_goiter(イリジウム格納失敗緊急、1エントリ)、e2001_sickrick(Sick Rick武器商人、抗放射線キノコ、34エントリ)、e2001_theo partial(Theo Curieエンジニア、変異研究、172/278エントリ)を翻訳完了。合計217エントリ。次: e2001_theo残り106エントリを継続。",
+  "notes": "Session 73 (2025-10-21): DLC2対話セクション翻訳継続。e2001_pump(ポンプインタラクション)、e2001_radio_goiter(ゴイター緊急無線)、e2001_sickrick(Sick Rick商人、カルト潜入者)、e2001_theo部分(Theo、エピジェネティック変異研究、プリモーディアリスト文化、放射線バッテリー発明、エントリ0-171)を完了。e2001_theoは278エントリと長く、残り106エントリ。2コミットで217エントリ翻訳。",
   "sections_completed": [
     "Base game - mission_o2001_thickerthanblood (complete)",
     "Base game - mission_o2001_thickerthanwater (complete)",
@@ -78,8 +78,12 @@
     "DLC2 - e2001_papule (Brother Papule, main Proteus interpreter, Iridium capture, Bezoar rescue, water filter issues) - 134 entries",
     "DLC2 - e2001_polyp (Sister Polyp, Proteus dialogue, Bezoar disappearance/return, confession system) - 92 entries",
     "DLC2 - e2001_primordialist (Primordialist ambient dialogue) - 27 entries",
-    "DLC2 - e2001_proteus (Proteus main dialogue, devolved language translation, Primordialists vs Nucleists conflict, Iridium capture quest) - 481 entries"
+    "DLC2 - e2001_proteus (Proteus main dialogue, devolved language translation, Primordialists vs Nucleists conflict, Iridium capture quest) - 481 entries",
+    "DLC2 - e2001_pump (water pump interactions, radiation/clean water) - 10 entries",
+    "DLC2 - e2001_radio_goiter (Iridium containment failure emergency) - 1 entry",
+    "DLC2 - e2001_sickrick (Sick Rick merchant, anti-rad mushrooms, cult infiltrator) - 34 entries",
+    "DLC2 - e2001_theo partial [0-171] (Theo Curie engineer, epigenetic mutation research, radiation batteries, partial 172/278 entries) - 172 entries"
   ],
-  "last_commit": "333cb53",
+  "last_commit": "15774cc",
   "session_number": 73
 }
