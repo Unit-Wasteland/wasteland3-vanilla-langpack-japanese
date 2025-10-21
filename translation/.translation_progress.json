@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-21T20:15:00+09:00",
+  "last_updated": "2025-10-21T21:30:00+09:00",
   "current_file": "DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
-  "total_entries_completed": 50890,
-  "last_completed_section": "DLC2: yy_dcl2_nucleists_ambush_mountains完了 (ランダムエンカウンター)",
-  "next_section_to_translate": "yy_dcl2_nucleists_ambush_plains以降",
-  "next_action": "Session 93 Part 1完了: 戦闘バーク&村人対話333エントリ完了。次: yy_dcl2_nucleists_ambush_plainsから継続。",
-  "notes": "Session 93 Part 1 (2025-10-21): 333エントリ完了 (nucleist_zealot_combatbarks 150エントリ戦闘バーク / e7001_villager2-8 村人アンビエント対話49エントリ / yy_dcl2_nucleists_ambush_foothills & mountains ランダムエンカウンター)。累積50,890エントリ。次はyy_dcl2_nucleists_ambush_plainsから継続。",
+  "total_entries_completed": 51150,
+  "last_completed_section": "DLC2: interactables完了 (環境オブジェクト説明)",
+  "next_section_to_translate": "itemsセクション以降 (340エントリの大型セクション)",
+  "next_action": "Session 94 Part 1完了: 260エントリ完了。次: itemsセクション (340エントリ)から継続。",
+  "notes": "Session 94 Part 1 (2025-10-21): 260エントリ完了 (ランダムエンカウンター54エントリ / ゲームシステム要素206エントリ: abilities, characters, gui, interactables)。累積51,150エントリ。次はitemsセクション (340エントリ)から継続。",
   "sections_completed": [
     "Base game - ALL SECTIONS COMPLETE (530,425 lines)",
     "DLC1 - Order Up quest text (86020-86124) - 43 entries",
@@ -193,8 +193,19 @@
     "DLC2 - e7001_primordialist (Primordialists endgame dialogue, Proteus/Deuterium reunion, power sharing vs liberation choice) - 35 entries",
     "DLC2 - e7001_proteus (Proteus endgame main dialogue tree, meltdown plan, faction unity/splits, power sharing negotiations, absorption combat) - 149 entries",
     "DLC2 - e7001_radio_patriarch (Patriarch radio, Holy Detonation power connection report, Theo Curie plan evaluation, reward payment) - 33 entries",
-    "DLC2 - e7001_systemannouncer (Holy Detonation system announcements, cooling tank status, meltdown warnings, power transfer notifications) - 34 entries"
+    "DLC2 - e7001_systemannouncer (Holy Detonation system announcements, cooling tank status, meltdown warnings, power transfer notifications) - 34 entries",
+    "DLC2 - yy_dcl2_nucleists_spotted_foothills (random encounter - Nucleists discovery in foothills) - 18 entries",
+    "DLC2 - yy_dcl2_nucleists_spotted_mountains (random encounter - Nucleists discovery in mountains) - 18 entries",
+    "DLC2 - yy_dcl2_nucleists_spotted_plains (random encounter - Nucleists discovery in plains) - 18 entries",
+    "DLC2 - yy_dlc2_elijahwardrewardcourier (Elijah Ward reward delivery event) - 10 entries",
+    "DLC2 - o2001_eidilon (Eidilon dialogue) - 2 entries",
+    "DLC2 - o2001_longjohn (Long John dialogue) - 2 entries",
+    "DLC2 - x2601_wolverines_companionbarks (wolverine attack companion bark) - 1 entry",
+    "DLC2 - abilities (DLC2 abilities and skills descriptions) - 66 entries",
+    "DLC2 - characters (DLC2 character/NPC/object names) - 74 entries",
+    "DLC2 - gui (GUI elements and system messages) - 15 entries",
+    "DLC2 - interactables (environment objects and interaction descriptions) - 36 entries"
   ],
-  "last_commit": "70880fd",
-  "session_number": 93
+  "last_commit": "277c3d9",
+  "session_number": 94
 }
