@@ -60293,29 +60293,29 @@
       1 Array Array (13 items)
        0 int size = 13
        [0]
-        1 string data = "Accessing Loading Dock Crane Controls."
+        1 string data = "荷積みドック・クレーン制御にアクセスしています。"
        [1]
-        1 string data = "Lower crane."
+        1 string data = "クレーンを降ろす。"
        [2]
-        1 string data = "Info."
+        1 string data = "情報。"
        [3]
-        1 string data = "Exit."
+        1 string data = "終了。"
        [4]
-        1 string data = "You are using Simplified Crane Controller 0.5.7. The Simplified Crane Controller will perform routine operations using a simple set of commands, and its safety override system will prevent use in hazardous conditions."
+        1 string data = "簡易クレーンコントローラー 0.5.7を使用中です。簡易クレーンコントローラーは、シンプルなコマンドセットを使用して日常的な操作を実行し、その安全オーバーライドシステムは危険な状況下での使用を防ぎます。"
        [5]
-        1 string data = "Lowering crane. Please stand by."
+        1 string data = "クレーンを降下中。しばらくお待ちください。"
        [6]
-        1 string data = "Thank you for using Simplified Crane Controller!"
+        1 string data = "簡易クレーンコントローラーをご利用いただきありがとうございました!"
        [7]
         1 string data = "Script Node 11"
        [8]
-        1 string data = "Simplified Crane Controller has detected hazardous conditions near the crane. Operation disabled by safety override."
+        1 string data = "簡易クレーンコントローラーがクレーン付近で危険な状況を検出しました。安全オーバーライドにより操作が無効化されました。"
        [9]
-        1 string data = "Contact Loading Dock supervisor to reset safety override and resume operation."
+        1 string data = "安全オーバーライドをリセットして操作を再開するには、荷積みドック監督者に連絡してください。"
        [10]
-        1 string data = "Logging off..."
+        1 string data = "ログオフしています..."
        [11]
-        1 string data = "ALERT: some commands may not be available due to current safety protocols. Please choose from the following options:"
+        1 string data = "警告:現在の安全プロトコルにより、一部のコマンドが使用できない可能性があります。以下のオプションから選択してください:"
        [12]
         1 string data = "Script Node 16"
    [321]
@@ -60407,37 +60407,37 @@
       1 Array Array (19 items)
        0 int size = 19
        [0]
-        1 string data = "Accessing liquid nitrogen pressure management system. WARNING: pressure must not exceed 580 psi or pipes may burst. Property damage and/or loss of life may occur!"
+        1 string data = "液体窒素圧力管理システムにアクセスしています。警告:圧力が580 psiを超えるとパイプが破裂する可能性があります。物的損害や人命損失が発生する可能性があります!"
        [1]
-        1 string data = "Current pressure: 90 psi.\n\n\nPlease enter your command:"
+        1 string data = "現在の圧力: 90 psi。\n\n\nコマンドを入力してください:"
        [2]
-        1 string data = "Increase pressure to 600 psi."
+        1 string data = "圧力を600 psiに上げる。"
        [3]
-        1 string data = "Exit liquid nitrogen pressure management system."
+        1 string data = "液体窒素圧力管理システムを終了する。"
        [4]
-        1 string data = "Disable safety override."
+        1 string data = "安全オーバーライドを無効化する。"
        [5]
-        1 string data = "Current pressure level: 600 psi."
+        1 string data = "現在の圧力レベル: 600 psi。"
        [6]
-        1 string data = "PRESSURE SENSOR ALERT! Pressure exceeds safety parameters! \r\n\r\nSafety override engaged - reducing pressure."
+        1 string data = "圧力センサー警告!圧力が安全パラメータを超えています!\r\n\r\n安全オーバーライド起動 - 圧力を下げています。"
        [7]
-        1 string data = "PRESSURE SYSTEM FAILURE! EVACUATE THE OPERATIONS ROOM IMMEDIATELY!"
+        1 string data = "圧力システム故障!直ちに作戦室から避難してください!"
        [8]
-        1 string data = "Please stand by."
+        1 string data = "しばらくお待ちください。"
        [9]
-        1 string data = " 'User input?\n\n\nWARNING - Security warnings disabled.'"
+        1 string data = " 「ユーザー入力?\n\n\n警告 - セキュリティ警告が無効化されました。」"
        [10]
-        1 string data = " Raise pressure."
+        1 string data = " 圧力を上げる。"
        [11]
-        1 string data = " Exit."
+        1 string data = " 終了。"
        [12]
-        1 string data = "Disabling safety override. WARNING: Exercise caution when adjusting pressure!"
+        1 string data = "安全オーバーライドを無効化しています。警告:圧力調整時は細心の注意を払ってください!"
        [13]
-        1 string data = "Logging off."
+        1 string data = "ログオフしています。"
        [14]
-        1 string data = "INVALID COMMAND - Pressure sensor must be disabled before this command may be executed."
+        1 string data = "無効なコマンド - このコマンドを実行する前に圧力センサーを無効化する必要があります。"
        [15]
-        1 string data = "Increase pressure to 600 psi."
+        1 string data = "圧力を600 psiに上げる。"
        [16]
         1 string data = ""
        [17]
@@ -60497,23 +60497,23 @@
       1 Array Array (10 items)
        0 int size = 10
        [0]
-        1 string data = "The pressure sensor remains disabled."
+        1 string data = "圧力センサーは無効化されたままです。"
        [1]
-        1 string data = "Looking at the machine, you see it monitors the pressure in the liquid nitrogen system, and opens a release valve if it gets too high. If you knew how to disconnect the sensor, the release valve would never open, and the system would explode."
+        1 string data = "機械を見ると、液体窒素システムの圧力を監視し、圧力が高くなりすぎるとリリースバルブを開くことがわかる。センサーの切断方法を知っていれば、リリースバルブは決して開かず、システムは爆発するだろう。"
        [2]
-        1 string data = "With your engineering knowledge, you easily disconnect the pressure sensor."
+        1 string data = "エンジニアリングの知識を使って、簡単に圧力センサーを切断した。"
        [3]
-        1 string data = "Step away from the liquid nitrogen pressure sensor."
+        1 string data = "液体窒素圧力センサーから離れる。"
        [4]
-        1 string data = "A red warning light starts to flash next to the gauge. Job done."
+        1 string data = "ゲージの隣で赤い警告灯が点滅し始めた。任務完了。"
        [5]
-        1 string data = "Logging off."
+        1 string data = "ログオフしています。"
        [6]
-        1 string data = "Poke and bang on bits of the machine at random."
+        1 string data = "でたらめに機械の部品を突いたり叩いたりする。"
        [7]
-        1 string data = "You don't even make a dent."
+        1 string data = "傷一つつけられなかった。"
        [8]
-        1 string data = "The machine is how you left it - pressure sensor operational, and monitoring the liquid nitrogen system as normal."
+        1 string data = "機械はそのままの状態だ - 圧力センサーは正常に動作し、液体窒素システムを通常通り監視している。"
        [9]
         1 string data = "Script Node 10"
    [323]
@@ -60541,11 +60541,11 @@
       1 Array Array (3 items)
        0 int size = 3
        [0]
-        1 string data = "Empty!"
+        1 string data = "空っぽだ!"
        [1]
         1 string data = "Script Node 2"
        [2]
-        1 string data = "Nope!"
+        1 string data = "何もない!"
    [324]
     0 StringTable data
      1 string Filename = "e5001_miniboss"
@@ -60671,39 +60671,39 @@
       1 Array Array (28 items)
        0 int size = 28
        [0]
-        1 string data = ""Gah! The outsiders!""
+        1 string data = "「がっ!よそ者どもだ!」"
        [1]
-        1 string data = ""No! They've found me!""
+        1 string data = "「しまった!見つかった!」"
        [2]
         1 string data = ""
        [3]
         1 string data = ""
        [4]
-        1 string data = ""Brothers and sisters, defend the loading dock!""
+        1 string data = "「兄弟姉妹よ、荷積みドックを守れ!」"
        [5]
         1 string data = ""
        [6]
-        1 string data = ""Where is it? Where is it?""
+        1 string data = "「どこだ?どこだ?」"
        [7]
-        1 string data = ""Calm down, fool. If I was a scatter ray emitter, where would I be?""
+        1 string data = "「落ち着け、バカ者。もし俺が散乱光線エミッターなら、どこにいる?」"
        [8]
-        1 string data = ""Did I look here before? Gah! Yes, I did.""
+        1 string data = "「前にここを見たか?ああ!見た。」"
        [9]
-        1 string data = ""Blasted thing! Where are you hiding?""
+        1 string data = "「忌々しい!どこに隠れている?」"
        [10]
-        1 string data = ""You'll never find the scatter ray emitter, heretics! I'll kill you first!""
+        1 string data = "「散乱光線エミッターを見つけることはできないぞ、異端者ども!先にお前らを殺してやる!」"
        [11]
-        1 string data = ""Hurry up, you fools! We need to find that scatter ray emitter!""
+        1 string data = "「急げ、バカ者ども!散乱光線エミッターを見つけるんだ!」"
        [12]
-        1 string data = ""Buy me some time to find the emitter!""
+        1 string data = "「エミッターを見つける時間を稼いでくれ!」"
        [13]
         1 string data = "Script Node 14"
        [14]
-        1 string data = ""What are you fools doing! You let them breach the first door!""
+        1 string data = "「バカ者どもが何をやってる!最初のドアを突破されたぞ!」"
        [15]
-        1 string data = ""And now they're through the second door! Stop them! I need more time!""
+        1 string data = "「もう第二ドアも抜かれた!止めろ!もっと時間が必要だ!」"
        [16]
-        1 string data = ""Don't let them come any further, brothers and sisters! Destroy them!""
+        1 string data = "「これ以上近づけさせるな、兄弟姉妹よ!奴らを壊滅させろ!」"
        [17]
         1 string data = "Script Node 18"
        [18]
@@ -60711,21 +60711,21 @@
        [19]
         1 string data = "Script Node 20"
        [20]
-        1 string data = ""Hey, who turned on the crane?""
+        1 string data = "「おい、誰がクレーンを動かした?」"
        [21]
-        1 string data = ""Why is it so cold in here all of a sudden?""
+        1 string data = "「なぜ急にこんなに寒くなった?」"
        [22]
-        1 string data = ""Shit! The outsiders opened the door. Metastatic is gonna be pissed!""
+        1 string data = "「くそ!よそ者どもがドアを開けやがった。Metastaticが怒るぞ!」"
        [23]
-        1 string data = ""Oh no! The cyro blast wrecked the access hatches!""
+        1 string data = "「まずい!極低温爆風でアクセスハッチが壊れた!」"
        [24]
         1 string data = ""
        [25]
         1 string data = ""
        [26]
-        1 string data = ""Crap! They've shut down all the access hatches! Our reinforcements are blocked!""
+        1 string data = "「ちくしょう!全てのアクセスハッチが閉鎖された!増援が阻まれた!」"
        [27]
-        1 string data = ""Run! They're unstoppable!""
+        1 string data = "「逃げろ!奴らは止められない!」"
    [325]
     0 StringTable data
      1 string Filename = "e5001_radio_goiter"
@@ -60973,119 +60973,119 @@
        [0]
         1 string data = ""
        [1]
-        1 string data = ""Uh, Rangers, this is Goiter again. Did you just activate the delivery elevator?""
+        1 string data = "「えーと、レンジャーズ、Goiterだ。配達用エレベーターを起動したのは君たちか?」"
        [2]
-        1 string data = ""Yep. Brought our truck down just like you told us to.""
+        1 string data = "「ああ。言われた通りトラックを降ろしたぞ。」"
        [3]
-        1 string data = ""Is that a problem?""
+        1 string data = "「何か問題でも?」"
        [4]
-        1 string data = ""Yeah, sorry. Just making sure. I'm still a bit on edge since the attack on our camp. I guess you're getting ready to head into our loading dock proper now?""
+        1 string data = "「ああ、すまない。確認しただけだ。キャンプへの襲撃以来、まだ少し神経質になっている。荷積みドックに入る準備はできているのかな?」"
        [5]
-        1 string data = ""No problem. Just making sure. I'm still a bit on edge since the attack on our camp. So, you've got your truck and you're getting ready to head into the loading dock proper now?""
+        1 string data = "「問題ない。確認しただけだ。キャンプへの襲撃以来、まだ少し神経質になっている。トラックを用意して、荷積みドックに入る準備はできているのかな?」"
        [6]
-        1 string data = ""We'll be going in shortly.""
+        1 string data = "「すぐに入る。」"
        [7]
-        1 string data = ""Not yet. We're still looking around.""
+        1 string data = "「まだだ。周りを調べている。」"
        [8]
-        1 string data = ""Unfortunately, the heating control is way at the back, so you're gonna have to run and gun till you get to it. Once you fire it up, though, the feral drools'll stop coming, and you'll have peace and quiet to search for the scatter ray emitter.""
+        1 string data = "「残念ながら、暖房制御は奥にあるから、そこに着くまで銃撃戦を続けることになる。でも起動すれば、野生化したdroolsの侵入は止まって、静かに散乱光線エミッターを探せるようになる。」"
        [9]
-        1 string data = ""Why did you want us to bring down our vehicle? Will we be blowing up doors with it?""
+        1 string data = "「なぜ車両を降ろす必要があった?ドアを爆破するためか?」"
        [10]
-        1 string data = ""There are proto-drools in the ventilation ducts?""
+        1 string data = "「換気ダクトにproto-droolsがいるのか?」"
        [11]
-        1 string data = ""Thanks for the info.""
+        1 string data = "「情報ありがとう。」"
        [12]
-        1 string data = ""My pleasure. Just remember - use your truck to open the big doors so you can reach the heating control in the back room. Once you get there, fire it up to block the proto-drools' way in, then find the scatter ray emitter. That's it.""
+        1 string data = "「どういたしまして。覚えておいてくれ - トラックで大きなドアを開けて奥の部屋の暖房制御に到達する。そこで起動してproto-droolsの侵入路を塞ぎ、それから散乱光線エミッターを見つける。それだけだ。」"
        [13]
-        1 string data = ""Not exactly. You need the truck for the pressure plates that <i>open</i> the doors. You gotta drive your truck onto a plate, wait for the door to rise, then move forward.""
+        1 string data = "「正確には違う。トラックはドアを<i>開ける</i>ための感圧プレートに必要なんだ。トラックをプレートに乗せて、ドアが上がるのを待ってから前進する。」"
        [14]
-        1 string data = " If you're going deep into the loading docks you're going to have to park you car on the plates and weight for the controller to open the access gates."
+        1 string data = " 荷積みドックの奥に行くには、車をプレートに停めて、コントローラーがアクセスゲートを開けるのを待つ必要がある。"
        [15]
-        1 string data = ""Yeah, they use 'em to scrabble around from place to place, so keep your eyes on a swivel.""
+        1 string data = "「ああ、奴らはダクトを使ってあちこち這い回っている。常に周囲に気を配れ。」"
        [16]
-        1 string data = ""See, the vent system has back up gas heaters in every duct in case the central furnace ever breaks down. You crank those up and you'll have open flames cutting off every vent from the inside. Not even a proto-drool likes to get burned.""
+        1 string data = "「つまり、換気システムには中央炉が故障した場合に備えて、各ダクトにバックアップのガスヒーターがある。それを起動すれば、ダクトの内側から炎が噴き出して全ての換気口を塞ぐ。proto-droolでさえ焼かれたくはないだろう。」"
        [17]
-        1 string data = ""Is that what it's called?""
+        1 string data = "「そういう呼び方なのか?」"
        [18]
-        1 string data = ""That's what I've always called it. And the sooner you get in there, the better. We wanna get that containment device built before Iridium decides to wander out of the pool room and kill us all.""
+        1 string data = "「俺はずっとそう呼んでいる。それに早く入ってくれた方がいい。Iridiumがプール室から出てきて俺たち全員を殺す前に、封じ込め装置を作りたいんだ。」"
        [19]
-        1 string data = ""Great. The sooner the better. We wanna get that containment device built before Iridium decides to wander out of the pool room and kill us all.""
+        1 string data = "「了解。早ければ早いほどいい。Iridiumがプール室から出てきて俺たち全員を殺す前に、封じ込め装置を作りたいんだ。」"
        [20]
-        1 string data = ""Definitely worth doing some recon. You're gonna  want every advantage you can find.""
+        1 string data = "「偵察する価値は絶対にある。あらゆる有利な点を見つけておきたいだろう。」"
        [21]
-        1 string data = ""Okay, Goiter out.""
+        1 string data = "「了解、Goiter終わり。」"
        [22]
-        1 string data = ""Is there anything else you can tell us about this area?""
+        1 string data = "「このエリアについて他に教えられることはあるか?」"
        [23]
-        1 string data = ""Hmm. Couple of things.""
+        1 string data = "「うーん。いくつかあるな。」"
        [24]
-        1 string data = ""Before the split with the Nucleists, I was down there all the time. We used to use a crane to set shipping containers on the pressure plates to open the big doors. Might be useful somehow.""
+        1 string data = "「Nucleistsとの分裂前、俺はあそこにしょっちゅういたんだ。クレーンを使って輸送コンテナを感圧プレートに置いて大きなドアを開けていた。何か役に立つかもしれない。」"
        [25]
-        1 string data = ""Nice. Then check out that liquid nitrogen pump. If it's the way I remember it, it's pretty much ready to blow.""
+        1 string data = "「いいね。じゃあ液体窒素ポンプもチェックしてみてくれ。俺の記憶が正しければ、爆発寸前の状態だ。」"
        [26]
-        1 string data = ""Nice! Well, that's all I got, so the rest is up to you. Good luck!""
+        1 string data = "「いいね!まあ、俺が言えるのはこれくらいだ。あとは君たち次第だ。幸運を!」"
        [27]
-        1 string data = ""The crane controls and the pressure monitor are both in a side hall. Have a look for 'em.""
+        1 string data = "「クレーン制御と圧力モニターは両方とも横の廊下にある。探してみてくれ。」"
        [28]
-        1 string data = ""If you investigate, you may be able shut down one or two of the service tunnels the Nucleists are using to defend the administration office in the back.""
+        1 string data = "「調べてみれば、Nucleistsが奥の管理事務所を守るために使っている整備トンネルの一つか二つを閉鎖できるかもしれない。」"
        [29]
-        1 string data = ""Nice. Then check out that crane. Could get you to the back quicker.""
+        1 string data = "「いいね。じゃあクレーンをチェックしてみてくれ。奥に早く着けるかもしれない。」"
        [30]
-        1 string data = ""Great! Good luck!""
+        1 string data = "「素晴らしい!幸運を!」"
        [31]
-        1 string data = ""Ten-four. Good luck.""
+        1 string data = "「了解。幸運を。」"
        [32]
-        1 string data = ""Also, last time I looked there was a liquid nitrogen pump in a back room that was in terrible shape, and I doubt Deuterium's crew have fixed it. If you cranked the pressure, I bet you'd burst some pipes. Could freeze some drools or flesh masses.""
+        1 string data = "「それと、最後に見た時、奥の部屋にひどい状態の液体窒素ポンプがあった。Deuteriumの連中が修理したとは思えない。圧力を上げれば、パイプがいくつか破裂するだろう。droolsや肉塊を凍らせられるかもしれない。」"
        [33]
-        1 string data = ""The Nucleists on this floor were supposedly also searching for the scatter ray emitter, so I suggest you hurry and get to it before they can.""
+        1 string data = "「このフロアのNucleistsも散乱光線エミッターを探しているらしいから、奴らより先に手に入れることをお勧めする。」"
        [34]
-        1 string data = ""We already used the crane, but thanks for the info.""
+        1 string data = "「もうクレーンは使った。でも情報ありがとう。」"
        [35]
-        1 string data = ""We already blew the liquid nitrogen pipes, but thanks for the info.""
+        1 string data = "「もう液体窒素パイプは爆破した。でも情報ありがとう。」"
        [36]
-        1 string data = ""We've done all that already, thanks.""
+        1 string data = "「そういうのは全部もうやった。ありがとう。」"
        [37]
-        1 string data = ""Sit-rep received. We're all set.""
+        1 string data = "「状況報告受信した。準備万端だ。」"
        [38]
-        1 string data = ""Good memory. We'll check it out.""
+        1 string data = "「よく覚えているな。調べてみる。」"
        [39]
-        1 string data = ""Goiter out.""
+        1 string data = "「Goiter終わり。」"
        [40]
         1 string data = ""
        [41]
-        1 string data = ""Rangers, it's Goiter. My terminal says you took the elevator to the loading dock level. Fair warning, the place is crawling with flesh masses and feral proto-drools, so watch out, they're dangerous.""
+        1 string data = "「レンジャーズ、Goiterだ。端末によると君たちは荷積みドックレベルにエレベーターで降りたようだな。警告しておくが、あそこは肉塊と野生化したproto-droolsだらけだ。危険だから気をつけろ。」"
        [42]
-        1 string data = ""And, uh, don't worry about killing them. It's true they were our brothers and sisters once, but mutation can make monsters of us sometimes, and just because <i>we</i> don't have the heart to kill 'em doesn't mean you shouldn't protect yourselves.""
+        1 string data = "「それと、えーと、奴らを殺すことを気に病む必要はない。確かにかつては俺たちの兄弟姉妹だったが、突然変異が時に怪物を生むこともある。<i>俺たち</i>には奴らを殺す心の強さがないからといって、君たちが自分の身を守るべきではないという意味ではない。」"
        [43]
-        1 string data = ""Anyway, the scatter ray emitter you're looking for is in a room back behind the loading dock, but you'll need your vehicle to get there, so you should bring it down to you from the entrance tunnel." "
+        1 string data = "「とにかく、君たちが探している散乱光線エミッターは荷積みドックの奥の部屋にある。でもそこに着くには車両が必要だから、入口トンネルから降ろす必要がある。」 "
        [44]
-        1 string data = ""It's parked on the delivery elevator right where you left it, so you can just call it from down there.""
+        1 string data = "「配達用エレベーターに君たちが置いた場所に停めてあるから、そこから呼び出せばいい。」"
        [45]
-        1 string data = ""Okay, good luck. Goiter out.""
+        1 string data = "「了解、幸運を。Goiter終わり。」"
        [46]
         1 string data = ""
        [47]
-        1 string data = ""Hey, Rangers, it's Goiter again. Nice work getting that scatter ray emitter! Sorry you had to kill so many feral proto-drools, but I guess there was no way around it. Ah well, I'll pray to the Glow for 'em.""
+        1 string data = "「やあ、レンジャーズ、またGoiterだ。散乱光線エミッターを手に入れたな。よくやった!野生化したproto-droolsをたくさん殺すことになってすまなかった。でも仕方なかったんだろう。ああ、奴らのためにGlowに祈っておくよ。」"
        [48]
-        1 string data = ""Two more pieces to get now before we can build Iridium's containment device - the voltage regulator from the lab level, and the crystal from the force field generator in the security level. Pick those up and we're in business.""
+        1 string data = "「Iridiumの封じ込め装置を作るにはあと二つ部品が必要だ - 研究室レベルの電圧レギュレーターと、セキュリティレベルのフォースフィールド発生器のクリスタルだ。それを手に入れれば万事順調だ。」"
        [49]
-        1 string data = ""Good luck down there! Goiter out.""
+        1 string data = "「下で幸運を!Goiter終わり。」"
        [50]
-        1 string data = ""Just one more piece to get now before we can build Iridium's containment device - the voltage regulator from the lab level. Pick that up and we're in business.""
+        1 string data = "「Iridiumの封じ込め装置を作るにはあと一つ部品が必要だ - 研究室レベルの電圧レギュレーターだ。それを手に入れれば万事順調だ。」"
        [51]
-        1 string data = ""Just one more piece to get now before we can build Iridium's containment device - the crystal from the force field generator in the security level. Pick that up and we're in business.""
+        1 string data = "「Iridiumの封じ込め装置を作るにはあと一つ部品が必要だ - セキュリティレベルのフォースフィールド発生器のクリスタルだ。それを手に入れれば万事順調だ。」"
        [52]
-        1 string data = ""But anyway, you did it! That's all the pieces. Bring 'em all back to me and I'll make the attachment that'll turn the syphon in the cooling pool chamber into a radiation angel containment device. Then you can get Iridium under control.""
+        1 string data = "「とにかく、やったな!全ての部品が揃った。全部持ってきてくれれば、冷却プール室のサイフォンを放射線エンジェル封じ込め装置に変えるアタッチメントを作る。それでIridiumを制御できるようになる。」"
        [53]
-        1 string data = ""All right then, see you soon! Goiter out.""
+        1 string data = "「よし、またすぐに会おう!Goiter終わり。」"
        [54]
-        1 string data = ""Copy that. Don't skimp on your recon, though. You're gonna want every advantage you can find.""
+        1 string data = "「了解。ただし偵察は手を抜くな。あらゆる有利な点が欲しくなるだろう。」"
        [55]
-        1 string data = ""And, listen, like I said, there'll be feral proto-drools crawling out of the ventilation ducts every minute you're down there, so searchin' for that scatter ray emitter's not gonna be easy, but I got a plan for that.""
+        1 string data = "「それと、聞いてくれ。言ったように、君たちがあそこにいる間、野生化したproto-droolsが一分ごとに換気ダクトから這い出してくるから、散乱光線エミッターを探すのは簡単じゃない。でも俺に計画がある。」"
        [56]
-        1 string data = ""Good luck. Goiter out.""
+        1 string data = "「幸運を。Goiter終わり。」"
        [57]
-        1 string data = ""Okay, that's all I got. Just remember - use your truck to open the big doors so you can reach the heating control in the back room. Once you get there, fire it up to block the proto-drools' way in, then find the scatter ray emitter. That's it.""
+        1 string data = "「了解、俺が言えるのはこれで全部だ。覚えておいてくれ - トラックで大きなドアを開けて奥の部屋の暖房制御に到達する。そこで起動してproto-droolsの侵入路を塞ぎ、それから散乱光線エミッターを見つける。それだけだ。」"
    [326]
     0 StringTable data
      1 string Filename = "e5001_systemannouncer"
@@ -61157,31 +61157,31 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = ""Payload awaiting processing in the loading dock.""
+        1 string data = "「荷積みドックで積荷処理待ち。」"
        [2]
-        1 string data = ""Payload awaiting delivery confirmation in shipping room.""
+        1 string data = "「出荷室で配送確認待ち。」"
        [3]
-        1 string data = ""Payload awaiting final delivery to operations room.""
+        1 string data = "「作戦室への最終配送待ち。」"
        [4]
-        1 string data = ""Ventilation system console powered.""
+        1 string data = "「換気システムコンソール電源投入。」"
        [5]
         1 string data = "Script Node 6"
        [6]
-        1 string data = ""Opening shipping room door.""
+        1 string data = "「出荷室ドアを開けています。」"
        [7]
-        1 string data = ""Opening operations room door.""
+        1 string data = "「作戦室ドアを開けています。」"
        [8]
-        1 string data = ""Powering ventilation system console.""
+        1 string data = "「換気システムコンソールに電源投入中。」"
        [9]
-        1 string data = ""Igniting loading dock ventilation system back-up heaters." "
+        1 string data = "「荷積みドック換気システムバックアップヒーターを点火しています。」 "
        [10]
-        1 string data = ""Igniting shipping room ventilation system back-up heaters." "
+        1 string data = "「出荷室換気システムバックアップヒーターを点火しています。」 "
        [11]
-        1 string data = ""Igniting all ventilation system back-up heaters." "
+        1 string data = "「全換気システムバックアップヒーターを点火しています。」 "
        [12]
-        1 string data = ""Lowering shipping room bollards.""
+        1 string data = "「出荷室ボラードを下降しています。」"
        [13]
-        1 string data = ""Shipping room bollards raised.""
+        1 string data = "「出荷室ボラード上昇。」"
    [327]
     0 StringTable data
      1 string Filename = "e5001_workbench"
@@ -61199,7 +61199,7 @@
       1 Array Array (1 items)
        0 int size = 1
        [0]
-        1 string data = "Vehicle not present."
+        1 string data = "車両が存在しません。"
    [328]
     0 StringTable data
      1 string Filename = "e6001_airlock"
@@ -61299,41 +61299,41 @@
        [0]
         1 string data = ""
        [1]
-        1 string data = " A reinforced gate covered in biohazard and radiation warnings blocks your path."
+        1 string data = " バイオハザードと放射線警告に覆われた強化ゲートが進路を塞いでいる。"
        [2]
-        1 string data = " [Requires Power Facility Keycard] Open the door."
+        1 string data = " [発電施設キーカード必要] ドアを開ける。"
        [3]
-        1 string data = " Access Granted. The gate opens with a hiss of hermetic seals."
+        1 string data = " アクセス許可。気密シールのシューという音とともにゲートが開く。"
        [4]
-        1 string data = "Examine the door."
+        1 string data = "ドアを調べる。"
        [5]
-        1 string data = " The door is locked and is designed to close automatically when someone enters. Muffled chanting can be heard on the far side."
+        1 string data = " ドアは施錠されており、誰かが入ると自動的に閉まるように設計されている。向こう側からくぐもった詠唱が聞こえる。"
        [6]
-        1 string data = "Leave it alone."
+        1 string data = "そのままにしておく。"
        [7]
-        1 string data = " A reinforced gate covered in biohazard and radiation warnings blocks your path. You should gather the rest of your squad before proceeding."
+        1 string data = " バイオハザードと放射線警告に覆われた強化ゲートが進路を塞いでいる。先に進む前に残りの部隊を集めるべきだ。"
        [8]
-        1 string data = "Open the door."
+        1 string data = "ドアを開ける。"
        [9]
-        1 string data = "Door opening. \r\n\r\nALERT: Door closes again automatically after entry. Please step all the way through."
+        1 string data = "ドア開放中。\r\n\r\n警告:ドアは入場後に自動的に再び閉まります。完全に通り抜けてください。"
        [10]
-        1 string data = " Access Denied. Power Facility Keycard required."
+        1 string data = " アクセス拒否。発電施設キーカードが必要です。"
        [11]
-        1 string data = " ::Beep::"
+        1 string data = " ::ビープ::"
        [12]
-        1 string data = "Door sealed. Requires Power Storage Facility Access Code.\n\n\nWARNING: Radiation detected in Power Storage Charging Chamber! Proceed with caution.\n"
+        1 string data = "ドア封鎖中。蓄電施設アクセスコードが必要です。\n\n\n警告:蓄電充電室で放射線を検出!注意して進んでください。\n"
        [13]
-        1 string data = "Open door."
+        1 string data = "ドアを開ける。"
        [14]
-        1 string data = "Door opening. \r\n\r\nALERT: Door closes again automatically after entry. Please step all the way through."
+        1 string data = "ドア開放中。\r\n\r\n警告:ドアは入場後に自動的に再び閉まります。完全に通り抜けてください。"
        [15]
-        1 string data = "Access Denied. Requires Power Storage Facility Access Code."
+        1 string data = "アクセス拒否。蓄電施設アクセスコードが必要です。"
        [16]
-        1 string data = "Step away from the door."
+        1 string data = "ドアから離れる。"
        [17]
-        1 string data = "Door sealed. Requires Power Storage Facility Access Code. Gather the rest of your squad before proceeding."
+        1 string data = "ドア封鎖中。蓄電施設アクセスコードが必要です。先に進む前に残りの部隊を集めてください。"
        [18]
-        1 string data = "::beep::"
+        1 string data = "::ビープ::"
        [19]
         1 string data = ""
        [20]
@@ -61381,17 +61381,17 @@
        [0]
         1 string data = ""
        [1]
-        1 string data = ""This feels wonderful! I feel healthier already!""
+        1 string data = "「素晴らしい気分だ!もう健康になった気がする!」"
        [2]
-        1 string data = ""It's so warm!""
+        1 string data = "「とても温かい!」"
        [3]
-        1 string data = ""It's working! My skin is tingling!""
+        1 string data = "「効いている!肌がピリピリする!」"
        [4]
-        1 string data = ""I love a good soak. It makes me feel like a new person every time!""
+        1 string data = "「良い浸かり心地が大好きだ。毎回新しい人間になった気分になる!」"
        [5]
-        1 string data = ""Ahhhh, bath time.""
+        1 string data = "「あああ、お風呂タイムだ。」"
        [6]
-        1 string data = ""Invigorating.""
+        1 string data = "「活力が湧く。」"
    [330]
     0 StringTable data
      1 string Filename = "e6001_companions"
@@ -61723,159 +61723,159 @@
        [0]
         1 string data = ""
        [1]
-        1 string data = ""Hey, maybe we can trick those proto-drools into those cages if we open the doors.""
+        1 string data = "「なあ、ドアを開ければあのproto-droolsをケージに誘い込めるかもしれない。」"
        [2]
-        1 string data = ""Trick those drools into their cages and we've got a clear road.""
+        1 string data = "「あのdroolsをケージに誘い込めば、道は開ける。」"
        [3]
-        1 string data = ""Hmm. Could we trick those drools into those cages? Easier than fighting 'em.""
+        1 string data = "「うーん。あのdroolsをケージに誘い込めるかな?戦うより楽だろう。」"
        [4]
-        1 string data = ""We've killed so many drools getting to this point, maybe we could spare those by tricking them into their cages.""
+        1 string data = "「ここまで来るのにたくさんのdroolsを殺してきた。ケージに誘い込めば、あいつらは助けられるかもしれない。」"
        [5]
-        1 string data = ""This some kinda jail?""
+        1 string data = "「これって牢獄みたいなもんか?」"
        [6]
-        1 string data = ""If we tricked those drools into those cages, we could get through here without a fight.""
+        1 string data = "「あのdroolsをケージに誘い込めれば、戦わずに通り抜けられる。」"
        [7]
-        1 string data = ""Can we open those cages? We could trick those drools into 'em and then shoot 'em through the bars!" ::laughs::"
+        1 string data = "「ケージを開けられるか?droolsを中に誘い込んで、檻越しに撃てるぞ!」 ::笑い::"
        [8]
-        1 string data = ""You wanna do this the easy way, we could trick those drools into those cages, and walk on through.""
+        1 string data = "「簡単な方法でやりたいなら、あのdroolsをケージに誘い込んで、そのまま通り抜ければいい。」"
        [9]
-        1 string data = ""Ugh. It smells like abomination in here.""
+        1 string data = "「うげ。この中は醜悪な臭いがする。」"
        [10]
         1 string data = ""
        [11]
-        1 string data = ""Oh no! Iridium's containment bubble is failing! Just like Gioter said!""
+        1 string data = "「まずい!Iridiumの封じ込めバブルが崩壊している!Goiterが言った通りだ!」"
        [12]
-        1 string data = ""Oh no! Her bubble's falling apart! Just like Goiter said!""
+        1 string data = "「まずい!彼女のバブルが崩壊している!Goiterが言った通りだ!」"
        [13]
-        1 string data = ""Crap. She's losing her bubble. Just like Goiter predicted.""
+        1 string data = "「くそ。彼女はバブルを失いつつある。Goiterの予測通りだ。」"
        [14]
-        1 string data = ""Look out! Iridium's breaking loose!""
+        1 string data = "「気をつけろ!Iridiumが脱走している!」"
        [15]
-        1 string data = ""Shit. She's breaking out of her cage.""
+        1 string data = "「くそ。彼女が檻から抜け出している。」"
        [16]
-        1 string data = ""Oh shit. The stick insect is escaping. Didn't we need her?""
+        1 string data = "「やばい。ナナフシが逃げている。あいつが必要だったんじゃないのか?」"
        [17]
-        1 string data = ""Hey! The angel's escaping! Watch out!""
+        1 string data = "「おい!エンジェルが逃げているぞ!気をつけろ!」"
        [18]
-        1 string data = ""Whoa. Izzat the sun?""
+        1 string data = "「おお。あれって太陽か?」"
        [19]
         1 string data = ""
        [20]
-        1 string data = ""Yikes! Those misters are spraying irradiated water!""
+        1 string data = "「うわ!あのミスターが照射水を噴射している!」"
        [21]
-        1 string data = ""Watch it. That water's hot.""
+        1 string data = "「気をつけろ。その水は熱い。」"
        [22]
-        1 string data = ""Irradiated misters. What is this, a spa for drools?""
+        1 string data = "「照射ミスターだ。これってdrools用のスパか?」"
        [23]
-        1 string data = ""Those misters must have originally been to keep the workers cool down here. Now they're keeping the drools irradiated.""
+        1 string data = "「あのミスターは元々この地下で作業員を冷やすためのものだったに違いない。今はdroolsを放射線照射し続けている。」"
        [24]
-        1 string data = ""Say, I could use a shower.""
+        1 string data = "「なあ、シャワーでも浴びたい気分だ。」"
        [25]
-        1 string data = ""Are those nozzles spraying irradiated mist? Why would you want that?""
+        1 string data = "「あのノズルは照射ミストを噴射しているのか?なぜそんなものが欲しいんだ?」"
        [26]
-        1 string data = ""Ha! Look! It's a steam room for drools!""
+        1 string data = "「は!見ろ!drools用のスチームルームだ!」"
        [27]
         1 string data = """"
        [28]
-        1 string data = ""You assholes better keep my feathers dry down here. No way you're gonna mutate <i>me</i> into a freak.""
+        1 string data = "「てめえら、俺の羽を濡らすんじゃねえぞ。<i>俺</i>を変な奴に変異させようなんて無理だからな。」"
        [29]
         1 string data = ""
        [30]
-        1 string data = ""Didja see that? When the pig exploded, the energy fed back to the angel and blasted her too!""
+        1 string data = "「見たか?豚が爆発したとき、エネルギーがエンジェルに跳ね返って、彼女も吹き飛ばされた!」"
        [31]
-        1 string data = ""Huh. When the pig died, the angel got hurt. Good to know.""
+        1 string data = "「ふーん。豚が死んだとき、エンジェルも傷ついた。覚えておこう。」"
        [32]
-        1 string data = ""Some kind of feedback happened when that pig exploded. The angel got a jolt too.""
+        1 string data = "「豚が爆発したとき、何らかのフィードバックが起きた。エンジェルも衝撃を受けた。」"
        [33]
-        1 string data = ""Hmmm. The pig was on the conduit, then it exploded and the angel got a backlash. What's the connection?""
+        1 string data = "「ふーむ。豚は導管の上にいて、それが爆発してエンジェルが反動を受けた。どういう関係だ?」"
        [34]
-        1 string data = ""Mmmm. Bacon.""
+        1 string data = "「んー。ベーコンだ。」"
        [35]
-        1 string data = ""I don't know why anyone would blow up a pig, but did you notice that the angel got hurt too?""
+        1 string data = "「なぜ誰かが豚を爆破するのかわからないが、エンジェルも傷ついたのに気づいたか?」"
        [36]
-        1 string data = ""Hee hee hee. Exploding pigs is exactly why I joined the Rangers. I love this job!""
+        1 string data = "「ひひひ。豚を爆破するのがまさにレンジャーズに入った理由だ。この仕事大好き!」"
        [37]
-        1 string data = ""You see that? The pig bought it, and the angel got the change. Some kind of connection there.""
+        1 string data = "「見たか?豚がやられて、エンジェルが影響を受けた。何か関係があるな。」"
        [38]
-        1 string data = ""Ha ha! Fry, you fucking shit flop! Fry!""
+        1 string data = "「はは!焼けろ、クソッタレの豚野郎!焼けろ!」"
        [39]
         1 string data = ""
        [40]
-        1 string data = ""All these poor, trapped animals. Maybe we could set them free.""
+        1 string data = "「この可哀想な捕らわれた動物たち。解放してあげられるかもしれない。」"
        [41]
         1 string data = """"
        [42]
-        1 string data = ""Are they going to experiment on these animals? We gotta get 'em outta here.""
+        1 string data = "「この動物たちに実験するつもりか?ここから出してやらないと。」"
        [43]
-        1 string data = ""These animals are being kept for lab experiments. We should free them.""
+        1 string data = "「この動物たちは実験室用に飼育されている。解放すべきだ。」"
        [44]
-        1 string data = ""Whosh a good doggie?""
+        1 string data = "「いい子だねぇ?」"
        [45]
-        1 string data = ""I think these animals are being experimented on. We should free them.""
+        1 string data = "「この動物たちは実験されていると思う。解放すべきだ。」"
        [46]
-        1 string data = ""Look. Animals. And they can't get away! Let's kill 'em!""
+        1 string data = "「見ろ。動物だ。しかも逃げられない!殺そうぜ!」"
        [47]
         1 string data = """"
        [48]
-        1 string data = ""Better them than me.""
+        1 string data = "「俺よりはマシだろう。」"
        [49]
         1 string data = ""
        [50]
-        1 string data = ""No wonder those misters are irradiated. This pump is drawing water from that radioactive pool.""
+        1 string data = "「あのミスターが放射線照射されているのも当然だ。このポンプがあの放射性プールから水を汲み上げている。」"
        [51]
-        1 string data = ""So this is where the water in those radioactive sprayers comes from.""
+        1 string data = "「あの放射性噴射器の水はここから来ているのか。」"
        [52]
-        1 string data = ""Looks like this pump draws water from that radioactive pool, and sends it to those misters in the other rooms.""
+        1 string data = "「このポンプはあの放射性プールから水を汲み上げて、他の部屋のミスターに送っているようだ。」"
        [53]
-        1 string data = ""Ah, the radioactive misters in the other rooms get their water from that pool. And this is the pump that sends it to them.""
+        1 string data = "「ああ、他の部屋の放射性ミスターはあのプールから水を得ている。そしてこれがそれを送るポンプだ。」"
        [54]
         1 string data = """"
        [55]
-        1 string data = ""Is this where those radioactive misters get their water from? This pump and that pool?""
+        1 string data = "「あの放射性ミスターが水を得ているのはここか?このポンプとあのプール?」"
        [56]
         1 string data = """"
        [57]
-        1 string data = ""This here must be what pumps the radioactive water to all those misters.""
+        1 string data = "「これがあのミスター全てに放射性水を送っているものに違いない。」"
        [58]
         1 string data = """"
        [59]
         1 string data = ""
        [60]
-        1 string data = ""Look. Angels.""
+        1 string data = "「見ろ。エンジェルだ。」"
        [61]
-        1 string data = ""Watch out. Angels.""
+        1 string data = "「気をつけろ。エンジェルだ。」"
        [62]
-        1 string data = ""Uh oh. More of those angels.""
+        1 string data = "「おっと。またあのエンジェルたちだ。」"
        [63]
-        1 string data = ""More radiation angels. Be careful.""
+        1 string data = "「またradiation angelsだ。気をつけろ。」"
        [64]
-        1 string data = ""Those are some shiny ladies.""
+        1 string data = "「ピカピカ光る女性たちだな。」"
        [65]
-        1 string data = ""Wait. More angels.""
+        1 string data = "「待て。またエンジェルだ。」"
        [66]
-        1 string data = ""Oh, look. More angel freaks.""
+        1 string data = "「おお、見ろ。またエンジェルの化け物だ。」"
        [67]
-        1 string data = ""Got some angels ahead.""
+        1 string data = "「前にエンジェルがいるぞ。」"
        [68]
-        1 string data = ""Hey, ladies!""
+        1 string data = "「やあ、お嬢さんたち!」"
        [69]
         1 string data = ""
        [70]
-        1 string data = ""Hmmm. What's this console do?""
+        1 string data = "「ふむ。このコンソールは何をするんだ?」"
        [71]
         1 string data = """"
        [72]
-        1 string data = ""A console. But what's it do?""
+        1 string data = "「コンソールだ。でも何をするんだ?」"
        [73]
-        1 string data = ""Some kind of control console. But what does it control?""
+        1 string data = "「何らかの制御コンソールだ。でも何を制御しているんだ?」"
        [74]
         1 string data = """"
        [75]
-        1 string data = ""What's that console do?""
+        1 string data = "「あのコンソールは何をするんだ?」"
        [76]
         1 string data = """"
        [77]
-        1 string data = ""Some sort of console. Not sure what it does.""
+        1 string data = "「何かのコンソールだ。何をするのかわからない。」"
        [78]
         1 string data = """"
    [331]
