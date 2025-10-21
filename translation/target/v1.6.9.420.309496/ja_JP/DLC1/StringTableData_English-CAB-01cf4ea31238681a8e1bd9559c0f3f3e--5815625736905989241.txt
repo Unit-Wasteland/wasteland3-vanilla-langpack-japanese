@@ -25855,43 +25855,43 @@
        [101]
         1 string data = ""
        [102]
-        1 string data = ""So, about that job johnny...""
+        1 string data = "「で、その便器の仕事についてだが……」"
        [103]
-        1 string data = ""Let's talk about your toilet situation instead.""
+        1 string data = "「代わりにあんたのトイレ状況について話そう」"
        [104]
-        1 string data = "Let's start the FLUSHED Mission. """
+        1 string data = "FLUSHEDミッションを開始しよう。「」"
        [105]
-        1 string data = ""We found the toilet and wiped up the beasties. You're clear to go get it.""
+        1 string data = "「便器を見つけて、獣どもを片付けた。取りに行っても大丈夫だ」"
        [106]
-        1 string data = " So we've reported the scrapyard status but haven't taken the next step yet..."
+        1 string data = " スクラップ置き場の状況を報告したが、まだ次のステップには進んでいない……"
        [107]
-        1 string data = ""I'll probably want to do that on my own, but for now, sure."\n\n\n"We sure could use a toilet! I saw a great one in the scrapyward, but it's surrounded by monsters. Can you clear them out for us?""
+        1 string data = "「たぶん自分でやりたいだろうが、今のところはいいだろう」\n\n\n「トイレが本当に必要なんだ!スクラップ置き場で良いのを見つけたんだが、モンスターに囲まれてる。片付けてくれるか?」"
        [108]
-        1 string data = ""Shit yeah! I'll get someone on that right away.""
+        1 string data = "「クソッタレ!すぐに誰かをやらせる」"
        [109]
         1 string data = "Script Node 111"
        [110]
-        1 string data = ""There it is! Set it down gentle. Just one more push oughta do it. Ahhh! Nice.""
+        1 string data = "「あった!そっと置け。あともう一押しだ。ああ!いいぞ」"
        [111]
-        1 string data = ""This is great, Rangers. Thank you so much. We really..." ::sniffs:: ::coughs::"
+        1 string data = "「素晴らしい、レンジャーズ。本当にありがとう。本当に……」::鼻をすする:: ::咳をする::"
        [112]
-        1 string data = "[5 Chemical Neutralizers] "Steeltown makes a spray called Chemical Neutralizer that oughta do the trick. If you see some, could you bring it to us?""
+        1 string data = "[5個のケミカル・ニュートラライザー]「スティールタウンがケミカル・ニュートラライザーっていうスプレーを作ってる。それで何とかなるはずだ。もし見つけたら、持ってきてくれるか?」"
        [113]
         1 string data = "Script Node 115"
        [114]
         1 string data = "Script Node 116"
        [115]
-        1 string data = ""There will actually be a number of variables to track here, folks."\n\n\n"We'll have some more nodes going over next steps depending on where you are in the quest.""
+        1 string data = "「実際にはここで追跡すべき変数がいくつかある、みんな」\n\n\n「クエストのどこにいるかによって、次のステップを説明するノードがもっとある」"
        [116]
-        1 string data = ""Let's skip ahead and get our reward for the Flushed mission.""
+        1 string data = "「先に進んでFlushedミッションの報酬をもらおう」"
        [117]
-        1 string data = ""Normally we'll gate this off, but for now, we'll just give you the rewards! Which one do you qualify for?""
+        1 string data = "「普通はゲートを閉じるが、今のところは報酬をあげよう!どれに該当する?」"
        [118]
-        1 string data = ""Thank you, Rangers. Here's the reward we promised you. And if you ever want to use the new throne, be our guests!""
+        1 string data = "「ありがとう、レンジャーズ。約束した報酬だ。新しい玉座を使いたければ、どうぞ!」"
        [119]
-        1 string data = ""Thank you, Rangers. Here's the reward we promised you. And if you ever want to use the new throne, be our guests!""
+        1 string data = "「ありがとう、レンジャーズ。約束した報酬だ。新しい玉座を使いたければ、どうぞ!」"
        [120]
-        1 string data = ""Now if you'll excuse me, I gotta...""
+        1 string data = "「じゃあ、失礼するが……」"
        [121]
         1 string data = "「じゃあな!トイレのダジャレを言うところだろうな、たぶん」"
        [122]
@@ -41661,7 +41661,7 @@
        [131]
         1 string data = "TODO: Put in a cutscene here that Fades Out, Flips the toilet off, then fades back in.\n\n\nFor now, we'll just flip the toilet off and end the conversation.\n\n\nNote - the toilet will re-appear on save/load, so until the cutscene is in, you'll encounter a blocking Talk Node if you try to talk to the toilet after stealing it.\n"
        [132]
-        1 string data = "You've already stolen the toilet. This text is temporary until we implement our full Toilet-Getting-Stolen logic, which will handle things like turning off this toilet interactable in Scene Load.\n\n\nFor now, we'll remove it again in 3, 2, 1..."
+        1 string data = "すでにトイレを盗んだ。このテキストは一時的なもので、シーンロード時にこのトイレのインタラクションをオフにするなどの処理を行う完全なToilet-Getting-Stolenロジックを実装するまでのものだ。\n\n\n今のところ、3、2、1で再び削除する..."
        [133]
         1 string data = "その説明から判断すると、Secret Headは難民のニーズを満たす最高級モデルだ。 "
        [134]
@@ -65003,21 +65003,21 @@
        [2]
         1 string data = "Script Node 3"
        [3]
-        1 string data = "Standard re-entry Node."
+        1 string data = "標準の再入場ノード。"
        [4]
         1 string data = "「ホッチキスのことですよね?戻すつもりだったんです。本当です。ただ……」"
        [5]
         1 string data = "「落ち着いて。カーラ・アスファルトランナーのトラックに現れた『謎の箱』について、何か知らないか聞きたいだけだ」"
        [6]
-        1 string data = "Actually, I changed my mind... CRIMINAL!"
+        1 string data = "やっぱり気が変わった……犯罪者だ!"
        [7]
         1 string data = "「荒っぽい手段は使いたくないんだ、バーニス。カーラ・アスファルトランナーのトラックの『謎の箱』について教えてくれ。今すぐだ!」"
        [8]
         1 string data = "「は、箱?私……一度だけ許可なしで供給室からペーパークリップの箱を取ったことがありますけど、ベニーが必要なものは自分で取れって言ったから、それで……」"
        [9]
-        1 string data = " It's true! Its truuuue!"
+        1 string data = " 本当だ!本当だあああ!"
        [10]
-        1 string data = " Repeatable answers."
+        1 string data = " 繰り返し可能な回答。"
        [11]
         1 string data = "「クビだ。分かってる。ああ、神様」::sobs::"
        [12]
@@ -65025,9 +65025,9 @@
        [13]
         1 string data = "「話しかけないでください。問題を起こしたくないんです」"
        [14]
-        1 string data = "Uh... That's enough. We believe you."
+        1 string data = "えーと……十分だ。信じるよ。"
        [15]
-        1 string data = "Sorry, this character is super stressed and really sorry. You're just VERY intimidating!"
+        1 string data = "すみません、このキャラクターは超ストレスを感じていて本当に申し訳なく思っています。あなたがとても威圧的なだけです!"
        [16]
         1 string data = "「ありがとう、バーニス。もう質問に答えなくていい。よくやったよ」"
        [17]
@@ -65835,11 +65835,11 @@
        [10]
         1 string data = "::whistles::"
        [11]
-        1 string data = "Quietly nudge the power cable with your foot."
+        1 string data = "足で静かに電源ケーブルを押す。"
        [12]
         1 string data = "「おい。再起動しろ。<i>再起動</i>」"
        [13]
-        1 string data = "As the power is interrupted, the machine powers down. After a moment, it cycles back online."
+        1 string data = "電源が遮断されると、マシンの電源が落ちる。しばらくすると、再びオンラインに戻る。"
        [14]
         1 string data = "「ん?変だな。まあ、復旧したみたいですね」"
        [15]
@@ -75603,7 +75603,7 @@
        [17]
         1 string data = "「よし、解放する」"
        [18]
-        1 string data = "Debug - make a run for it."
+        1 string data = "デバッグ - 逃げる。"
        [19]
         1 string data = "「ちょっと待ってくれ」"
        [20]
@@ -75625,23 +75625,23 @@
        [28]
         1 string data = "「改めてありがとう、お前らのおかげで助かったよ。お前らがいなかったら、まだあのプレートの上に立ってたぜ」"
        [29]
-        1 string data = "Debug options."
+        1 string data = "デバッグオプション。"
        [30]
-        1 string data = "Debug options for Keith and the plate."
+        1 string data = "キースとプレートのデバッグオプション。"
        [31]
-        1 string data = " Debug - step off plate."
+        1 string data = " デバッグ - プレートから降りる。"
        [32]
-        1 string data = " Debug- walk to plate."
+        1 string data = " デバッグ - プレートに歩く。"
        [33]
         1 string data = ""
        [34]
         1 string data = ""
        [35]
-        1 string data = " Debug - force plate toggle."
+        1 string data = " デバッグ - プレートを強制トグル。"
        [36]
         1 string data = ""
        [37]
-        1 string data = " Exit QA."
+        1 string data = " QA終了。"
        [38]
         1 string data = "「ここって結構居心地いいよな?」"
        [39]
@@ -86017,89 +86017,89 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = "Order UpStarts when you talk to the refugee cook, Cookie, about the food in the loading area.The refugee food supply is running low and a handful of frozen goats will only go so far. The camp cookie, Cookie, put in a requisition for food from inside Steeltown and it got as far as being moved into the loading area just inside the gate, but the bots won't let him take it and feed everyone due to a paperwork snafu. Cookie wants you to go inside and talk to the Organic Maintenance Coordinator and straighten things out."
+        1 string data = "Order Upは、難民コックのクッキーと積荷エリアの食料について話すと始まる。難民の食料供給が少なくなっており、凍ったヤギが数頭いるだけでは限界がある。キャンプのコック、クッキーはスティールタウン内部から食料の要請書を提出し、ゲート内側の積荷エリアに移動されたが、書類上の手違いでボットが彼に取らせてくれず、皆に食料を配れない。クッキーは、中に入って有機メンテナンス調整官と話して問題を解決してほしいと頼んでいる。"
        [2]
-        1 string data = "Cookie asks you  to talk to Walsh, the Organic Maintenance Coordinator."
+        1 string data = "クッキーは、有機メンテナンス調整官のウォルシュと話してほしいと頼んでいる。"
        [3]
-        1 string data = "Oh, of course. You just need to get a signature. \r\n\r\nNext objective: Get authorization signature from Functionary A (Node 2)"
+        1 string data = "ああ、もちろん。署名をもらうだけでいい。\r\n\r\n次の目標: 職員Aから認可署名を取得 (Node 2)"
        [4]
-        1 string data = "You know you need a barcode for this, right? \r\n\r\nNext objective:Print a 'confirmed requisition barcode' sticker from Terminal B (Node 3)"
+        1 string data = "これにはバーコードが必要なのは分かってるよね? \r\n\r\n次の目標: ターミナルBから「確認済み要請バーコード」ステッカーを印刷 (Node 3)"
        [5]
-        1 string data = "Your barcode will be invalid until it is validated. Please report to Validation Desk "V-D". \r\n\r\nAlso: this barcode printer is out of toner. No more barcodes, ever!\r\n\r\nNext objective:Get secondary barcode confirmation from Functionary C (Node 4)"
+        1 string data = "バーコードは認証されるまで無効だ。認証デスク「V-D」に報告してくれ。\r\n\r\nあと: このバーコードプリンターはトナー切れだ。もうバーコードは出ない!\r\n\r\n次の目標: 職員Cから二次バーコード確認を取得 (Node 4)"
        [6]
-        1 string data = "You're almost done! Just need to seal it up.\nNext objective:Obtain final shipment sanitation seal from functionary D (Node 5)"
+        1 string data = "もうすぐ終わる!封印するだけだ。\n次の目標: 職員Dから最終出荷衛生シールを取得 (Node 5)"
        [7]
-        1 string data = "Nice work! ...Of course, your seal needs a stamp to make it official.\n\n\nNext objective:Return to Organic Maintenance Coordinator for 'seal confirmation stamp' (Node 6)"
+        1 string data = "よくやった!……もちろん、シールには公式化するためのスタンプが必要だ。\n\n\n次の目標: 有機メンテナンス調整官のところに戻って「シール確認スタンプ」を取得 (Node 6)"
        [8]
-        1 string data = "Whoops! He can't use his SPECIAL INK without permission. Next objective:Obtain permission for the OWC to refill stamp with official Steeltown Shipment Stamp Ink.(Node7)"
+        1 string data = "おっと!彼は許可なしに特殊インクを使えない。次の目標: OWCがスタンプに公式スティールタウン出荷スタンプインクを補充する許可を取得。(Node7)"
        [9]
-        1 string data = "Next objective:Return to the OWC with the stamp ink.(node8)"
+        1 string data = "次の目標: スタンプインクを持ってOWCのところに戻る。(node8)"
        [10]
-        1 string data = "OWC stamps your form, puts it through his desktop paper shredder, and presses a large button. Your package is cleared!\n\n\nNext objective: Check in with Cookie (node 10)"
+        1 string data = "OWCが書類にスタンプを押し、デスクのシュレッダーに通し、大きなボタンを押す。荷物が許可された!\n\n\n次の目標: クッキーに確認 (node 10)"
        [11]
-        1 string data = "It's a robot guarding the cargo in the loading bay."
+        1 string data = "積荷ベイで貨物を警備しているロボットだ。"
        [12]
-        1 string data = "Leave."
+        1 string data = "立ち去る。"
        [13]
-        1 string data = "Go back to root node."
+        1 string data = "ルートノードに戻る。"
        [14]
-        1 string data = "Talk to Cookie, the Refugee Cook.(STEELTOWN EXTERIOR)"
+        1 string data = "難民コック、クッキーと話す。(スティールタウン外部)"
        [15]
-        1 string data = "Talk to Walsh in Admin."
+        1 string data = "管理部でウォルシュと話す。"
        [16]
-        1 string data = "Get authorization from Functionary A."
+        1 string data = "職員Aから認可を取得する。"
        [17]
-        1 string data = "Get barcode."
+        1 string data = "バーコードを取得する。"
        [18]
-        1 string data = "Get authorization for your barcode from yet another admin person."
+        1 string data = "さらに別の管理者からバーコードの認可を取得する。"
        [19]
-        1 string data = "Okay, time to verify the contents of the box."
+        1 string data = "よし、箱の中身を確認する時間だ。"
        [20]
-        1 string data = "Back to Walsh, the OMC, for the final stamp."
+        1 string data = "最終スタンプのため、OMCのウォルシュのところに戻る。"
        [21]
-        1 string data = "Register for stamp ink refill on behalf of Walsh."
+        1 string data = "ウォルシュの代わりにスタンプインク補充を登録する。"
        [22]
-        1 string data = "Okay, OWC. Stamp time."
+        1 string data = "よし、OWC。スタンプの時間だ。"
        [23]
-        1 string data = "Visit the robot guarding the cargo by the loading bay (STEELTOWN EXTERIOR)"
+        1 string data = "積荷ベイで貨物を警備しているロボットを訪ねる(スティールタウン外部)"
        [24]
-        1 string data = "Leave the robot alone."
+        1 string data = "ロボットを放っておく。"
        [25]
-        1 string data = "Hack the robot."
+        1 string data = "ロボットをハックする。"
        [26]
-        1 string data = "Sweet-talk OWC into 'giving you a bit of help.'"
+        1 string data = "OWCに甘い言葉で「ちょっと手伝って」もらう。"
        [27]
-        1 string data = "This is nonsense. Bully OWC into stamping the damn thing."
+        1 string data = "ばかげてる。OWCを脅してそのクソ書類にスタンプを押させる。"
        [28]
-        1 string data = "Hack the barcode computer so the requisition order changes from "GOAT_MEAT" to "ATOM_GATE""
+        1 string data = "バーコードコンピューターをハックして要請注文を「GOAT_MEAT」から「ATOM_GATE」に変更する"
        [29]
-        1 string data = " Well, sure! Scribble scribble."
+        1 string data = " ああ、もちろん!サラサラ。"
        [30]
-        1 string data = " Going back to the root node."
+        1 string data = " ルートノードに戻る。"
        [31]
-        1 string data = "Go back to Cookie and verify that the box is unloaded."
+        1 string data = "クッキーのところに戻って箱が荷降ろしされたか確認する。"
        [32]
-        1 string data = "Cookie's here! So about that box..."
+        1 string data = "クッキーが来た!で、あの箱だが……"
        [33]
-        1 string data = "The box is full of food!"
+        1 string data = "箱は食料でいっぱいだ!"
        [34]
-        1 string data = "SNAKES! There must have been a mistake.\n\n\nYou are poisoned.\n\n\n...But Cookie can still cook snakes. Probably."
+        1 string data = "蛇だ!間違いがあったに違いない。\n\n\n毒を受けた。\n\n\n……でもクッキーはまだ蛇を料理できる。たぶん。"
        [35]
-        1 string data = "The box labeled "ATOM_GATE" opens up. You see a brief flash of white before it explodes, vaporizing Cookie instantly.\n\n\nThere are LOTS of energy cells! You're rich.\nAll the refugees starve."
+        1 string data = "「ATOM_GATE」とラベルされた箱が開く。白い閃光が一瞬見えた後、箱が爆発し、クッキーが瞬時に蒸発する。\n\n\nエネルギーセルがたくさんある!金持ちだ。\n全ての難民が餓死する。"
        [36]
         1 string data = "Script Node 37"
        [37]
-        1 string data = "As noted before, the box contained Food."
+        1 string data = "前述の通り、箱には食料が入っていた。"
        [38]
-        1 string data = "As noted before, the box contained snakes, due to the mistakes introduced by Walsh."
+        1 string data = "前述の通り、ウォルシュのミスにより、箱には蛇が入っていた。"
        [39]
-        1 string data = "As noted before, the box contained an "Atom Gate", which was an explosion that killed Cookie and left behind a bunch of energy cells. All the refugees starve but you're in GREAT SHAPE to fight Liberty!"
+        1 string data = "前述の通り、箱には「アトムゲート」が入っており、それは爆発してクッキーを殺し、エネルギーセルを大量に残した。全ての難民は餓死するが、リバティと戦う準備は万全だ!"
        [40]
-        1 string data = "You've already completed the quest... But somehow don't have a valid Box Global. Something is broken!"
+        1 string data = "既にクエストを完了している……しかし何らかの理由で有効な箱のグローバル変数がない。何かが壊れている!"
        [41]
-        1 string data = "MIssion is not started (OR) is complete, so the robot just barks."
+        1 string data = "ミッションが開始されていない(または)完了しているため、ロボットは吠えるだけ。"
        [42]
-        1 string data = "Your code options are\n01011 - GOAT_MEAT\n00111 - GUN_AMMO\n10100 - SNAKES_LIVE"
+        1 string data = "コードオプションは\n01011 - GOAT_MEAT\n00111 - GUN_AMMO\n10100 - SNAKES_LIVE"
        [43]
         1 string data = "01011"
        [44]
@@ -86109,19 +86109,19 @@
        [46]
         1 string data = "10101"
        [47]
-        1 string data = "That's, uh, different than what we currently have in the box. Should we swap out the contents before you return?"
+        1 string data = "それは、ええと、現在箱に入ってるものとは違う。戻る前に中身を入れ替えようか?"
        [48]
-        1 string data = "Yup."
+        1 string data = "ああ。"
        [49]
-        1 string data = "Uh, let me choose again..."
+        1 string data = "ええと、もう一回選ばせて……"
        [50]
-        1 string data = "Yup, that matches what you had before."
+        1 string data = "ああ、前と同じものだ。"
        [51]
-        1 string data = ""ATOM_GATE?" I don't think that's in the database anymore. Can you try again?"
+        1 string data = "「ATOM_GATE」?もうデータベースにないと思う。もう一度試してくれる?"
        [52]
-        1 string data = " Weapons!"
+        1 string data = " 武器!"
        [53]
-        1 string data = "Some other box thing!"
+        1 string data = "他の箱のやつ!"
    [317]
     0 StringTable data
      1 string Filename = "d1001_debug_steeltownexterior"
