@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-21T12:35:00+09:00",
+  "last_updated": "2025-10-21T13:45:00+09:00",
   "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-  "total_entries_completed": 40026,
-  "last_completed_section": "Base game: loadingtips [0-222] (complete), items section [0-3340] (complete), keycodes section [0-33] (complete), loreentries [0-65] (complete - all 66 entries)",
-  "next_section_to_translate": "Continue to next section: options section (starting from line ~506564)",
-  "next_action": "Session 62: Completed loreentries [33-65] (33 entries). loreentries section fully complete (66/66). Next: start options section. Continue with chunked approach (100-200 lines, commit every 500 entries).",
-  "notes": "Session 62 (2025-10-21): Completed loreentries [33-65] (33 entries) including: Payasos raid orders, JabJab jokes, dog tags collection, Godfisher mythology, military documents, Encyclopedia Robotica, Holy Deluge ceremonies, disturbing doll series (15 types), warlord detention orders, Masher relocation notice, Wasteland 3 time capsule easter egg, Saul/Krankenstein story. loreentries section FULLY COMPLETE (66/66 entries).",
+  "total_entries_completed": 41536,
+  "last_completed_section": "Base game: options (4), perks (475), poi (256), scenedescriptions (96), scenes (122), skills (99), statuseffects (462) - all complete",
+  "next_section_to_translate": "Continue to mission dialogue sections (dialogue entries starting around line 121528+)",
+  "next_action": "Session 63: Discovered that options, perks, poi, scenedescriptions, scenes, skills, and statuseffects sections (total 1,510 entries) were already translated in previous sessions but not tracked in progress file. Updated count from 40,026 to 41,536. Next: continue with mission dialogue translation.",
+  "notes": "Session 63 (2025-10-21): Progress file audit revealed significant additional completed work: options section (4), perks section (475), poi section (256), scenedescriptions section (96), scenes section (122), skills section (99), statuseffects section (462). All were already translated and committed in git history but not reflected in progress tracking. Total: 1,510 additional entries found complete.",
   "sections_completed": [
     "Base game - mission_o2001_thickerthanblood (complete)",
     "Base game - mission_o2001_thickerthanwater (complete)",
@@ -16,8 +16,15 @@
     "Base game - loadingtips section [0-222] (complete)",
     "Base game - items section [0-3340] (complete)",
     "Base game - keycodes section [0-33] (complete)",
-    "Base game - loreentries section [0-65] (complete - 66 entries)"
+    "Base game - loreentries section [0-65] (complete - 66 entries)",
+    "Base game - options section [0-3] (complete - 4 entries)",
+    "Base game - perks section [0-474] (complete - 475 entries)",
+    "Base game - poi section [0-255] (complete - 256 entries)",
+    "Base game - scenedescriptions section [0-95] (complete - 96 entries)",
+    "Base game - scenes section [0-121] (complete - 122 entries)",
+    "Base game - skills section [0-98] (complete - 99 entries)",
+    "Base game - statuseffects section [0-461] (complete - 462 entries)"
   ],
-  "last_commit": "ce31142",
-  "session_number": 62
+  "last_commit": "e88c98b",
+  "session_number": 63
 }
