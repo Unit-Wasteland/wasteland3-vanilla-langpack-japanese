@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-21T16:45:00+09:00",
+  "last_updated": "2025-10-21T16:30:00+09:00",
   "current_file": "DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
-  "total_entries_completed": 44743,
-  "last_completed_section": "DLC2: e3001_geronimo完了(79エントリ - CochiseバックアップAI対話)",
-  "next_section_to_translate": "e3001_headresearcher (71エントリ - 主任研究員対話)",
-  "next_action": "Session 76: RAM/Geronimoクエスト&デバッグセクション翻訳完了(242エントリ)。次セッション: e3001_headresearcher(71エントリ)から継続。",
-  "notes": "Session 76 (2025-10-21): DLC2 RAM/Geronimoクエスト翻訳完了(242エントリ)。主要セクション: e2001_ram(76エントリ:RAMスパイダーボット救出クエスト), e3001_geronimo(79エントリ:CochiseバックアップAI Geronimoとの哲学的対話)。その他: VRツアー(25エントリ), デバッグ端末(33エントリ), General 3無線(7エントリ), スパイダーボット修理端末(22エントリ)。次セッション: e3001_headresearcher(71エントリ)から継続。",
+  "total_entries_completed": 45013,
+  "last_completed_section": "DLC2: e3001_nuclearresearch完了(19エントリ - NRC核研究端末)",
+  "next_section_to_translate": "e3001_observationrooma_computer (21エントリ - 観察室Aコンピュータ)",
+  "next_action": "Session 77: FADER施設レベル3エリア翻訳完了(270エントリ)。次セッション: e3001_observationrooma_computer(21エントリ)から継続。",
+  "notes": "Session 77 (2025-10-21): DLC2 FADER施設レベル3エリア翻訳完了(270エントリ)。主要セクション: e3001_headresearcher(71エントリ:研究主任との対話、遺伝子改良計画、FADER組織説明), e3001_nightterror(47エントリ:Night Terror/Mongo対話、キャンディと人形要求), e3001_nuclearresearch(19エントリ:NRC核研究端末、核分裂/融合技術)。その他: librarycomputer01-04(40エントリ), labeetコンピュータ群(53エントリ), nightterrorcomputer(14エントリ)。次セッション: e3001_observationrooma_computer(21エントリ)から継続。",
   "sections_completed": [
     "Base game - mission_o2001_thickerthanblood (complete)",
     "Base game - mission_o2001_thickerthanwater (complete)",
@@ -109,8 +109,18 @@
     "DLC2 - e3001_fader_radioresponce_00 (Fader radio response to General 3) - 1 entry",
     "DLC2 - e3001_general3radiobark_00/01/02 (General 3 radio barks) - 3 entries",
     "DLC2 - e3001_general3radiointro (General 3 radio intro, lockdown alert) - 3 entries",
-    "DLC2 - e3001_geronimo (Geronimo AI black box, Cochise backup, philosophical dialogue) - 79 entries"
+    "DLC2 - e3001_geronimo (Geronimo AI black box, Cochise backup, philosophical dialogue) - 79 entries",
+    "DLC2 - e3001_headresearcher (Researcher 88 dialogue, genetic improvement plan, FADER organization) - 71 entries",
+    "DLC2 - e3001_heavyroboticscomputer (heavy robotics computer terminal) - 2 entries",
+    "DLC2 - e3001_intel_observationrooma_computer (observation room A intel) - 4 entries",
+    "DLC2 - e3001_labeet_01/02/03/04_computer (research lab computer terminals) - 40 entries",
+    "DLC2 - e3001_labeet_03_heatcontrol (heat control system for weakening FADERs) - 6 entries",
+    "DLC2 - e3001_lab_ebd_computer (EBD lab computer, sonic weapon control) - 7 entries",
+    "DLC2 - e3001_librarycomputer01/02/03/04 (library computers, hidden room discovery) - 40 entries",
+    "DLC2 - e3001_nightterror (Night Terror/Mongo dialogue, candy and doll requests) - 47 entries",
+    "DLC2 - e3001_nightterrorcomputer (Night Terror monitoring system) - 14 entries",
+    "DLC2 - e3001_nuclearresearch (NRC nuclear research terminal, fission/fusion tech) - 19 entries"
   ],
-  "last_commit": "76d11b1",
-  "session_number": 76
+  "last_commit": "db15c45",
+  "session_number": 77
 }
