@@ -49665,15 +49665,15 @@
        [1]
         1 string data = "接続箱は正常に動作している。"
        [2]
-        1 string data = " I pitty the fool who gets this responce.\n(Tell your local game designer he screwed up)"
+        1 string data = "この反応を得る愚か者に哀れみを。\n(ローカルのゲームデザイナーに失敗したと伝えろ)"
        [3]
-        1 string data = " Use skill."
+        1 string data = "スキルを使う。"
        [4]
-        1 string data = " Walk away."
+        1 string data = "立ち去る。"
        [5]
         1 string data = "成功:接続箱は正常に動作している。"
        [6]
-        1 string data = " Failed: Your skill is not high enough."
+        1 string data = "失敗:スキルが足りない。"
    [259]
     0 StringTable data
      1 string Filename = "e6001_secretbttf_box_01"
@@ -49719,15 +49719,15 @@
        [1]
         1 string data = "接続箱は正常に動作している。"
        [2]
-        1 string data = " I pitty the fool who gets this responce.\n(Tell your local game designer he screwed up)"
+        1 string data = "この反応を得る愚か者に哀れみを。\n(ローカルのゲームデザイナーに失敗したと伝えろ)"
        [3]
-        1 string data = " Use skill."
+        1 string data = "スキルを使う。"
        [4]
-        1 string data = " Walk away."
+        1 string data = "立ち去る。"
        [5]
         1 string data = "成功:接続箱は正常に動作している。"
        [6]
-        1 string data = " Failed: Your skill is not high enough."
+        1 string data = "失敗:スキルが足りない。"
    [260]
     0 StringTable data
      1 string Filename = "e6001_secretbttf_box_02"
@@ -49773,15 +49773,15 @@
        [1]
         1 string data = "接続箱は正常に動作している。"
        [2]
-        1 string data = " I pitty the fool who gets this responce.\n(Tell your local game designer he screwed up)"
+        1 string data = "この反応を得る愚か者に哀れみを。\n(ローカルのゲームデザイナーに失敗したと伝えろ)"
        [3]
-        1 string data = " Use skill."
+        1 string data = "スキルを使う。"
        [4]
-        1 string data = " Walk away."
+        1 string data = "立ち去る。"
        [5]
         1 string data = "成功:接続箱は正常に動作している。"
        [6]
-        1 string data = " Failed: Your skill is not high enough."
+        1 string data = "失敗:スキルが足りない。"
    [261]
     0 StringTable data
      1 string Filename = "e6001_secretbttf_box_03"
@@ -49827,15 +49827,15 @@
        [1]
         1 string data = "接続箱は正常に動作している。"
        [2]
-        1 string data = " I pitty the fool who gets this responce.\n(Tell your local game designer he screwed up)"
+        1 string data = "この反応を得る愚か者に哀れみを。\n(ローカルのゲームデザイナーに失敗したと伝えろ)"
        [3]
-        1 string data = " Use skill."
+        1 string data = "スキルを使う。"
        [4]
-        1 string data = " Walk away."
+        1 string data = "立ち去る。"
        [5]
         1 string data = "成功:接続箱は正常に動作している。"
        [6]
-        1 string data = " Failed: Your skill is not high enough."
+        1 string data = "失敗:スキルが足りない。"
    [262]
     0 StringTable data
      1 string Filename = "e6001_secretbttf_box_04"
@@ -49881,15 +49881,15 @@
        [1]
         1 string data = "接続箱は正常に動作している。"
        [2]
-        1 string data = " I pitty the fool who gets this responce.\n(Tell your local game designer he screwed up)"
+        1 string data = "この反応を得る愚か者に哀れみを。\n(ローカルのゲームデザイナーに失敗したと伝えろ)"
        [3]
-        1 string data = " Use skill."
+        1 string data = "スキルを使う。"
        [4]
-        1 string data = " Walk away."
+        1 string data = "立ち去る。"
        [5]
         1 string data = "成功:接続箱は正常に動作している。"
        [6]
-        1 string data = " Failed: Your skill is not high enough."
+        1 string data = "失敗:スキルが足りない。"
    [263]
     0 StringTable data
      1 string Filename = "e6001_secretbttf_computer"
@@ -49979,43 +49979,43 @@
       1 Array Array (19 items)
        0 int size = 19
        [0]
-        1 string data = " Press any key..."
+        1 string data = "何かキーを押してください..."
        [1]
-        1 string data = " Hack the computer?"
+        1 string data = "コンピューターをハッキングする?"
        [2]
-        1 string data = " Bypass the computer's circuitry?"
+        1 string data = "コンピューターの回路をバイパスする?"
        [3]
-        1 string data = " Set computer hacked to 1"
+        1 string data = "コンピューターのハッキングを1に設定"
        [4]
-        1 string data = " Doors unlocked set to 2"
+        1 string data = "ドアのロック解除を2に設定"
        [5]
-        1 string data = " Reset globals"
+        1 string data = "グローバルをリセット"
        [6]
-        1 string data = " Walk away."
+        1 string data = "立ち去る。"
        [7]
-        1 string data = " Success: The computer is hacked."
+        1 string data = "成功:コンピューターをハッキングした。"
        [8]
-        1 string data = " Failed: Your skill is not high enough."
+        1 string data = "失敗:スキルが足りない。"
        [9]
-        1 string data = " Success: You have bypassed the computers circuitry, hotwire the doors open."
+        1 string data = "成功:コンピューターの回路をバイパスし、ドアを直結して開けた。"
        [10]
-        1 string data = " Failed: Your skill is not high enough."
+        1 string data = "失敗:スキルが足りない。"
        [11]
-        1 string data = " Access computer again?"
+        1 string data = "コンピューターに再度アクセスする?"
        [12]
-        1 string data = " The computer is fried from hot wiring it."
+        1 string data = "コンピューターは直結により焼損した。"
        [13]
-        1 string data = " I pitty the fool who gets this responce. \r\n(Tell your local designer he screwed up)"
+        1 string data = "この反応を得る愚か者に哀れみを。\r\n(ローカルのデザイナーに失敗したと伝えろ)"
        [14]
-        1 string data = " Access intel?"
+        1 string data = "情報にアクセスする?"
        [15]
-        1 string data = " Access door controls?"
+        1 string data = "ドア制御にアクセスする?"
        [16]
-        1 string data = " Blah blah blah\n(write something)"
+        1 string data = "どうのこうの\n(何か書いて)"
        [17]
-        1 string data = " Doors unlocked."
+        1 string data = "ドアのロックが解除された。"
        [18]
-        1 string data = " Set computer bypass to 3"
+        1 string data = "コンピューターのバイパスを3に設定"
    [264]
     0 StringTable data
      1 string Filename = "e6001_secretbttf_flux"
@@ -50057,19 +50057,19 @@
       1 Array Array (7 items)
        0 int size = 7
        [0]
-        1 string data = " (Proceeding will result in a game over scene.)\n\n\nPick up the Flux Capacitor?"
+        1 string data = "(続行するとゲームオーバーシーンになる。)\n\n\nフラックス・キャパシターを拾う?"
        [1]
-        1 string data = " Walk away."
+        1 string data = "立ち去る。"
        [2]
-        1 string data = " I pitty the fool who gets this responce. \r\n(Tell your local designer he screwed up)"
+        1 string data = "この反応を得る愚か者に哀れみを。\r\n(ローカルのデザイナーに失敗したと伝えろ)"
        [3]
-        1 string data = " (if no gameplay can be added)\nThe player/s take the Flux Capacitor and hook it up to the vehicle. They travel back in time to stop the bombs from falling but turn out to be the people who caused the apocalypse to happen in the first place."
+        1 string data = "(ゲームプレイが追加されない場合)\nプレイヤーはフラックス・キャパシターを取り、車両に接続する。彼らは核爆弾の投下を阻止するために時間を遡るが、結局は自分たちこそが黙示録を引き起こした張本人だったことが判明する。"
        [4]
-        1 string data = " (if gameplay is added)\nPlayers take the Flux Capacitor. They have to find a crazy old guy on the world map who can hook it up to the car. Once connected the player must get to top speed on the world map to travel back in time.\nDisplay epilogue."
+        1 string data = "(ゲームプレイが追加される場合)\nプレイヤーはフラックス・キャパシターを取る。ワールドマップで狂った老人を見つけて車に接続してもらわなければならない。接続後、プレイヤーはワールドマップで最高速度に到達し、時間を遡る必要がある。\nエピローグを表示。"
        [5]
-        1 string data = " Proceed."
+        1 string data = "続ける。"
        [6]
-        1 string data = " Walk away."
+        1 string data = "立ち去る。"
    [265]
     0 StringTable data
      1 string Filename = "e6001_secretbttf_forcefield_00"
@@ -50123,25 +50123,25 @@
       1 Array Array (10 items)
        0 int size = 10
        [0]
-        1 string data = " If perception is high enough you can see how to turn off the forcefield.\n(This lowers the skill threshold for computer skill use)"
+        1 string data = "知覚力が十分高ければ、フォースフィールドを停止する方法が分かる。\n(これによりコンピュータースキルの必要値が下がる)"
        [1]
-        1 string data = " If perception is low you're not sure how to turn the forcefield off.\n(This raises the skill threshold for computer skill use)"
+        1 string data = "知覚力が低いため、フォースフィールドを停止する方法が分からない。\n(これによりコンピュータースキルの必要値が上がる)"
        [2]
-        1 string data = " Deactivate the forcefield."
+        1 string data = "フォースフィールドを停止させる。"
        [3]
-        1 string data = " Walk away."
+        1 string data = "立ち去る。"
        [4]
-        1 string data = " Success: Forcefield deactivated.\n(3 second countdown timer starts, at 0 forcefield is re-activated)"
+        1 string data = "成功:フォースフィールドが停止した。\n(3秒のカウントダウンタイマーが開始、0になるとフォースフィールドが再起動)"
        [5]
-        1 string data = " Failed: Your skill is not high enough."
+        1 string data = "失敗:スキルが足りない。"
        [6]
-        1 string data = " Deactivate the forcefield."
+        1 string data = "フォースフィールドを停止させる。"
        [7]
-        1 string data = " Walk away."
+        1 string data = "立ち去る。"
        [8]
-        1 string data = " Success: Forcefield deactivated.\n(3 second countdown timer starts, at 0 forcefield is re-activated)"
+        1 string data = "成功:フォースフィールドが停止した。\n(3秒のカウントダウンタイマーが開始、0になるとフォースフィールドが再起動)"
        [9]
-        1 string data = " Failed: Your skill is not high enough."
+        1 string data = "失敗:スキルが足りない。"
    [266]
     0 StringTable data
      1 string Filename = "e6001_secretbttf_forcefield_01"
@@ -50195,25 +50195,25 @@
       1 Array Array (10 items)
        0 int size = 10
        [0]
-        1 string data = " If perception is high enough you can see how to turn off the forcefield.\n(This lowers the skill threshold for computer skill use)"
+        1 string data = "知覚力が十分高ければ、フォースフィールドを停止する方法が分かる。\n(これによりコンピュータースキルの必要値が下がる)"
        [1]
-        1 string data = " If perception is low you're not sure how to turn the forcefield off.\n(This raises the skill threshold for computer skill use)"
+        1 string data = "知覚力が低いため、フォースフィールドを停止する方法が分からない。\n(これによりコンピュータースキルの必要値が上がる)"
        [2]
-        1 string data = " Deactivate the forcefield."
+        1 string data = "フォースフィールドを停止させる。"
        [3]
-        1 string data = " Walk away."
+        1 string data = "立ち去る。"
        [4]
-        1 string data = " Success: Forcefield deactivated.\n(3 second countdown timer starts, at 0 forcefield is re-activated)"
+        1 string data = "成功:フォースフィールドが停止した。\n(3秒のカウントダウンタイマーが開始、0になるとフォースフィールドが再起動)"
        [5]
-        1 string data = " Failed: Your skill is not high enough."
+        1 string data = "失敗:スキルが足りない。"
        [6]
-        1 string data = " Deactivate the forcefield."
+        1 string data = "フォースフィールドを停止させる。"
        [7]
-        1 string data = " Walk away."
+        1 string data = "立ち去る。"
        [8]
-        1 string data = " Success: Forcefield deactivated.\n(3 second countdown timer starts, at 0 forcefield is re-activated)"
+        1 string data = "成功:フォースフィールドが停止した。\n(3秒のカウントダウンタイマーが開始、0になるとフォースフィールドが再起動)"
        [9]
-        1 string data = " Failed: Your skill is not high enough."
+        1 string data = "失敗:スキルが足りない。"
    [267]
     0 StringTable data
      1 string Filename = "e6001_secretbttf_hiddendoors"
@@ -50247,15 +50247,15 @@
       1 Array Array (5 items)
        0 int size = 5
        [0]
-        1 string data = " Power flow has been restored. Passage way is open."
+        1 string data = "電力供給が復旧した。通路が開いた。"
        [1]
-        1 string data = " There is no power to this computer."
+        1 string data = "このコンピューターに電力が供給されていない。"
        [2]
-        1 string data = " I pitty the fool who gets this responce.\n(Tell your local designer he screwed up)"
+        1 string data = "この反応を得る愚か者に哀れみを。\n(ローカルのデザイナーに失敗したと伝えろ)"
        [3]
-        1 string data = " Set all globals to 1 to restore power."
+        1 string data = "全てのグローバルを1に設定して電力を復旧。"
        [4]
-        1 string data = " Walk away."
+        1 string data = "立ち去る。"
    [268]
     0 StringTable data
      1 string Filename = "e6001_temperaturecontrolcomputer"
@@ -50329,35 +50329,35 @@
       1 Array Array (15 items)
        0 int size = 15
        [0]
-        1 string data = " There is no power to this computer."
+        1 string data = "このコンピューターに電力が供給されていない。"
        [1]
-        1 string data = " Press any key..."
+        1 string data = "何かキーを押してください..."
        [2]
-        1 string data = " Temperature Control"
+        1 string data = "温度制御"
        [3]
-        1 string data = " I pitty the fool who gets this responce.\n(Tell your local game designer he screwed up)"
+        1 string data = "この反応を得る愚か者に哀れみを。\n(ローカルのゲームデザイナーに失敗したと伝えろ)"
        [4]
-        1 string data = " Add power to computer set to 1"
+        1 string data = "コンピューターへの電力供給を1に設定"
        [5]
-        1 string data = " Walk away."
+        1 string data = "立ち去る。"
        [6]
-        1 string data = " Hack away."
+        1 string data = "ハッキングを始める。"
        [7]
-        1 string data = " Hack the computer?"
+        1 string data = "コンピューターをハッキングする?"
        [8]
-        1 string data = " Walk away."
+        1 string data = "立ち去る。"
        [9]
-        1 string data = " Success: The computer has been hacked you have access to temperature control."
+        1 string data = "成功:コンピューターをハッキングし、温度制御にアクセスした。"
        [10]
-        1 string data = " Failed: Your skill is not high enough."
+        1 string data = "失敗:スキルが足りない。"
        [11]
-        1 string data = " Make it hot."
+        1 string data = "熱くする。"
        [12]
-        1 string data = " Make it cold."
+        1 string data = "冷やす。"
        [13]
-        1 string data = " Walk away."
+        1 string data = "立ち去る。"
        [14]
-        1 string data = " Reset globals."
+        1 string data = "グローバルをリセット。"
    [269]
     0 StringTable data
      1 string Filename = "e6001_vrheadset_breakroom"
@@ -50381,7 +50381,7 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = ""We can take a break from the tour here if you'd like some refreshments.""
+        1 string data = "「ツアーをここで一時中断して、軽食を取られてもよろしいですよ。」"
    [270]
     0 StringTable data
      1 string Filename = "e6001_vrheadset_bulkheaddoors"
@@ -50405,7 +50405,7 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = ""If the base came under attack, you could seal off this area and open it again later. We'll continue through here.""
+        1 string data = "「基地が攻撃を受けた場合、このエリアを封鎖して後で再び開くことができます。ここを通って進みましょう。」"
    [271]
     0 StringTable data
      1 string Filename = "e4001_airlockdoor"
@@ -50489,37 +50489,37 @@
        [0]
         1 string data = ""
        [1]
-        1 string data = "Behind this door, the faint sound of voices and the hum of powerful machinery can be heard."
+        1 string data = "このドアの向こうから、かすかな話し声と強力な機械の唸り音が聞こえる。"
        [2]
-        1 string data = "Behind this door, the faint sound of voices and the hum of powerful machinery can be heard. You should gather the rest of your squad before proceeding."
+        1 string data = "このドアの向こうから、かすかな話し声と強力な機械の唸り音が聞こえる。先に進む前に、残りの部隊を集めるべきだ。"
        [3]
-        1 string data = " [Requires Research Level Keycard] Open the door."
+        1 string data = "[研究レベルキーカード必須] ドアを開ける。"
        [4]
-        1 string data = "Examine the door."
+        1 string data = "ドアを調べる。"
        [5]
-        1 string data = "Leave the door alone."
+        1 string data = "ドアに触らない。"
        [6]
-        1 string data = " The door opens..."
+        1 string data = "ドアが開く..."
        [7]
-        1 string data = "Faded lettering on the door says DANGER!! HIGH RADIATION AREA."
+        1 string data = "ドアに薄れた文字で「危険!! 高放射線エリア」と書かれている。"
        [8]
-        1 string data = " Access Denied. Requires Research Level Keycard."
+        1 string data = "アクセス拒否。研究レベルキーカードが必要です。"
        [9]
         1 string data = "::beep::"
        [10]
         1 string data = ""
        [11]
-        1 string data = "Door sealed. Requires Research Level Keycard.\n"
+        1 string data = "ドア封鎖。研究レベルキーカードが必要です。\n"
        [12]
-        1 string data = "Open door."
+        1 string data = "ドアを開ける。"
        [13]
-        1 string data = "Door opening."
+        1 string data = "ドア開放中。"
        [14]
-        1 string data = "Access Denied. Requires Research Level Keycard."
+        1 string data = "アクセス拒否。研究レベルキーカードが必要です。"
        [15]
-        1 string data = "Step away from the door."
+        1 string data = "ドアから離れる。"
        [16]
-        1 string data = "Door sealed. Requires Research Level Keycard. Gather the rest of your squad before proceeding."
+        1 string data = "ドア封鎖。研究レベルキーカードが必要です。先に進む前に、残りの部隊を集めてください。"
    [272]
     0 StringTable data
      1 string Filename = "e4001_battery"
@@ -50685,65 +50685,65 @@
       1 Array Array (38 items)
        0 int size = 38
        [0]
-        1 string data = "Inside the shipping container is a military hard case and a big battery that reeks of leaking hydrogen. The slightest spark could blow the built-up gas. Near you is a ventilation fan connected to a fuse box. The fan's not running."
+        1 string data = "輸送コンテナの中には軍用ハードケースと、水素が漏れて悪臭を放つ大型バッテリーがある。わずかな火花で蓄積されたガスが爆発する可能性がある。近くにはヒューズボックスに接続された換気ファンがある。ファンは動いていない。"
        [1]
-        1 string data = "Examine the container"
+        1 string data = "コンテナを調べる"
        [2]
-        1 string data = "Step away quickly"
+        1 string data = "素早く離れる"
        [3]
-        1 string data = "You figure you should be safe if you can get the ventilation system working again. You'll have to check the fuses in the metal box."
+        1 string data = "換気システムを再び動かすことができれば安全だと判断した。金属ボックス内のヒューズを確認する必要がある。"
        [4]
-        1 string data = "Inspect the wires leading out of the box."
+        1 string data = "ボックスから出ている配線を調べる。"
        [5]
-        1 string data = "Gently open the fuse box to check the fuses."
+        1 string data = "ヒューズボックスをそっと開けてヒューズを確認する。"
        [6]
-        1 string data = "Inside the box are three fuses - red, green, and blue."
+        1 string data = "ボックスの中には3つのヒューズ - 赤、緑、青がある。"
        [7]
-        1 string data = " You see three wires leading to the ventillation system - a red, green and blue."
+        1 string data = "換気システムに繋がる3本の配線 - 赤、緑、青が見える。"
        [8]
-        1 string data = "Carefully unplug all the fuses, clean them, then reseat them in the proper order."
+        1 string data = "すべてのヒューズを慎重に外して清掃し、正しい順序で差し直す。"
        [9]
-        1 string data = "Unplug and reseat the red fuse."
+        1 string data = "赤いヒューズを外して差し直す。"
        [10]
-        1 string data = "Unplug and reseat the blue fuse."
+        1 string data = "青いヒューズを外して差し直す。"
        [11]
-        1 string data = " Use your quick fingers to carefully unplug and reseat the three fuses at the same time."
+        1 string data = "素早い指先を使って、3つのヒューズを慎重に同時に外して差し直す。"
        [12]
-        1 string data = " Unplug and reseat the red fuse."
+        1 string data = "赤いヒューズを外して差し直す。"
        [13]
-        1 string data = " Unplug and reseat the green fuse."
+        1 string data = "緑のヒューズを外して差し直す。"
        [14]
-        1 string data = "Unplug and reseat the green fuse."
+        1 string data = "緑のヒューズを外して差し直す。"
        [15]
-        1 string data = " Unplug and reseat the blue fuse."
+        1 string data = "青いヒューズを外して差し直す。"
        [16]
-        1 string data = " The ventillation system starts up and quickly exctracts the excess hydrogen. The container is safe for now."
+        1 string data = "換気システムが起動し、余剰な水素を素早く排出した。コンテナは当面安全だ。"
        [17]
-        1 string data = "The ventillation system starts up and quickly exctracts the excess hydrogen. "
+        1 string data = "換気システムが起動し、余剰な水素を素早く排出した。"
        [18]
         1 string data = ""
        [19]
-        1 string data = "By blind chance, it works. The ventillation system starts up and quickly exctracts the excess hydrogen."
+        1 string data = "まぐれで成功した。換気システムが起動し、余剰な水素を素早く排出した。"
        [20]
-        1 string data = "Oops."
+        1 string data = "しまった。"
        [21]
-        1 string data = " You try to move away but it's too late..."
+        1 string data = "離れようとしたが、もう遅い..."
        [22]
-        1 string data = "Back away from the container."
+        1 string data = "コンテナから離れる。"
        [23]
-        1 string data = "You make it. The hydrogen didn't blow."
+        1 string data = "間に合った。水素は爆発しなかった。"
        [24]
-        1 string data = "Oops. A spark flies as it scrapes shut."
+        1 string data = "しまった。閉めるときにこすれて火花が飛んだ。"
        [25]
-        1 string data = "Inspect the side of the fuse box."
+        1 string data = "ヒューズボックスの側面を調べる。"
        [26]
-        1 string data = "On a worn label, you can make out the following shapes: Red Triangle, Blue Circle, and Green Square."
+        1 string data = "擦り切れたラベルに次の図形が読める:赤い三角形、青い円、緑の四角。"
        [27]
-        1 string data = "Inspect the inside of the fuse box door."
+        1 string data = "ヒューズボックス扉の内側を調べる。"
        [28]
-        1 string data = "On a taped up index card you see maintenance instructions: Triangle 1, Square 2, Circle 3."
+        1 string data = "テープで貼られたインデックスカードに保守指示が見える:三角形1、四角2、円3。"
        [29]
-        1 string data = "The fuse clicks into place without issue."
+        1 string data = "ヒューズが問題なくカチッと収まった。"
        [30]
         1 string data = ""
        [31]
@@ -50755,11 +50755,11 @@
        [34]
         1 string data = ""
        [35]
-        1 string data = "Try to close the fuse box."
+        1 string data = "ヒューズボックスを閉めようとする。"
        [36]
-        1 string data = "The shipping container still smells like leaking hydrogen."
+        1 string data = "輸送コンテナはまだ水素の漏出臭がする。"
        [37]
-        1 string data = "The fan is humming. The shipping container no longer smells like gas."
+        1 string data = "ファンが唸っている。輸送コンテナはもうガス臭くない。"
    [273]
     0 StringTable data
      1 string Filename = "e4001_clone_machine_advanced"
@@ -50997,15 +50997,15 @@
       1 Array Array (56 items)
        0 int size = 56
        [0]
-        1 string data = "System offline for sanitation. Try again later."
+        1 string data = "システムは消毒のためオフライン。後でもう一度試してください。"
        [1]
         1 string data = ""
        [2]
-        1 string data = "Welcome to the Finster Cloning Controller v2.0\nPlease select an option:"
+        1 string data = "フィンスター・クローニング・コントローラー v2.0へようこそ\nオプションを選択してください:"
        [3]
-        1 string data = "OPEN OPTIONS MENU"
+        1 string data = "オプションメニューを開く"
        [4]
-        1 string data = "Add undifferentiated pluripotent bio-genetic material?\n\n\nLAB ASSISTANTS! REMINDER! Unlike the iteration machine, this one is old and takes an hour to self-sterilize. Do not waste its time and our precious pink goo on frivolous experiments! Dr. F."
+        1 string data = "未分化多能性生体遺伝物質を追加しますか?\n\n\n研究室アシスタントへ!注意!反復機械と違い、これは古く自己消毒に1時間かかる。軽率な実験で時間と貴重なピンクの粘液を無駄にするな! Dr. F."
        [5]
         1 string data = ""
        [6]
@@ -51015,99 +51015,99 @@
        [8]
         1 string data = ""
        [9]
-        1 string data = "CHECK MACHINE STATUS"
+        1 string data = "機械の状態を確認"
        [10]
         1 string data = ""
        [11]
-        1 string data = "Standing by for clone synthesis.\n"
+        1 string data = "クローン合成待機中。\n"
        [12]
-        1 string data = "EXIT"
+        1 string data = "終了"
        [13]
-        1 string data = "Beep."
+        1 string data = "ビープ。"
        [14]
-        1 string data = "Cloning in progress."
+        1 string data = "クローニング進行中。"
        [15]
-        1 string data = "Sanitation cycle in progress. Please wait."
+        1 string data = "消毒サイクル進行中。お待ちください。"
        [16]
-        1 string data = "INSERT PINK UNDIFFERENTIATED PLURIPOTENT BIO-GENETIC MATERIAL"
+        1 string data = "ピンク未分化多能性生体遺伝物質を挿入"
        [17]
-        1 string data = "EXIT"
+        1 string data = "終了"
        [18]
-        1 string data = "Add optional advanced DNA?"
+        1 string data = "オプションの高度なDNAを追加しますか?"
        [19]
-        1 string data = "[Create Upgraded Clone] MAKE CLONE WITH OPTIONAL ADVANCED DNA"
+        1 string data = "[強化クローン作成] オプションの高度なDNAでクローンを作成"
        [20]
-        1 string data = "[Create Clone] MAKE CLONE WITHOUT OPTIONAL ADVANCED DNA"
+        1 string data = "[クローン作成] オプションの高度なDNA無しでクローンを作成"
        [21]
-        1 string data = "Please wait."
+        1 string data = "お待ちください。"
        [22]
-        1 string data = "No DNA material added. Make clone without DNA material instead?"
+        1 string data = "DNA物質が追加されていません。代わりにDNA物質無しでクローンを作成しますか?"
        [23]
-        1 string data = "CONFIRM"
+        1 string data = "確認"
        [24]
-        1 string data = "Please wait."
+        1 string data = "お待ちください。"
        [25]
-        1 string data = "[Create Upgraded Clone] INSERT PURPLE UNDIFFERENTIATED PLURIPOTENT BIO-GENETIC MATERIAL"
+        1 string data = "[強化クローン作成] パープル未分化多能性生体遺伝物質を挿入"
        [26]
         1 string data = ""
        [27]
         1 string data = ""
        [28]
-        1 string data = "REQUEST UNDIFFERENTIATED PLURIPOTENT BIO-GENETIC MATERIAL"
+        1 string data = "未分化多能性生体遺伝物質を要求"
        [29]
-        1 string data = "No undifferentiated pluripotent bio-genetic material in storage. To acquire UPBG, get requisition from Dr. F., or retrieve from former clone remains."
+        1 string data = "保管庫に未分化多能性生体遺伝物質がありません。UPBGを取得するには、Dr. F.から要請書を取得するか、旧クローンの遺骸から回収してください。"
        [30]
-        1 string data = "WARNING: unidentifiable genetic material in biomass hopper! Please purge to allow for proper insertion of undifferentiated pluripotent bio-genetic material."
+        1 string data = "警告:バイオマスホッパー内に識別不能な遺伝物質があります!未分化多能性生体遺伝物質を正しく挿入するためにパージしてください。"
        [31]
         1 string data = ""
        [32]
         1 string data = ""
        [33]
-        1 string data = "Cannot insert pink undifferentiated pluripotent bio-genetic material because unidentifiable genetic material detected in hopper. Purge material?"
+        1 string data = "ホッパー内に識別不能な遺伝物質が検出されたため、ピンク未分化多能性生体遺伝物質を挿入できません。物質をパージしますか?"
        [34]
-        1 string data = "[See what happens] PERFORM SYSTHESIS WITHOUT PURGING - USE UNIDENTIFIED GENETIC MASS"
+        1 string data = "[どうなるか見る] パージせずに合成を実行 - 識別不能な遺伝塊を使用"
        [35]
-        1 string data = "[Purge] PURGE UNIDENTIFIED GENETIC MASS"
+        1 string data = "[パージ] 識別不能な遺伝塊をパージ"
        [36]
-        1 string data = "Warning: performing synthesis with unidentified genetic mass will cause irreparable damage to machine. Cloning will no longer be possible."
+        1 string data = "警告:識別不能な遺伝塊で合成を実行すると機械に修復不可能な損傷を与えます。クローニングは不可能になります。"
        [37]
-        1 string data = "COMBINE ADVANCED DNA WITH UNIDENTIFIED GENETIC MASS"
+        1 string data = "高度なDNAを識別不能な遺伝塊と結合"
        [38]
-        1 string data = "CANCEL"
+        1 string data = "キャンセル"
        [39]
-        1 string data = "Canceling."
+        1 string data = "キャンセル中。"
        [40]
-        1 string data = "Please wait."
+        1 string data = "お待ちください。"
        [41]
-        1 string data = "WARNING: Purging will destroy all genetic material in the bio mass hopper. Are you sure you want to continue?"
+        1 string data = "警告:パージするとバイオマスホッパー内の全遺伝物質が破壊されます。本当に続行しますか?"
        [42]
-        1 string data = "System damaged. Please contact maintenance for repairs."
+        1 string data = "システム破損。修理のためメンテナンスに連絡してください。"
        [43]
-        1 string data = "OPEN BIOMASS HOPPER FOR VISUAL CHECK."
+        1 string data = "目視確認のためバイオマスホッパーを開く。"
        [44]
-        1 string data = "Unidentified genetic mass purged. Machine ready for Clone Synthesis. "
+        1 string data = "識別不能な遺伝塊がパージされました。機械はクローン合成準備完了。"
        [45]
-        1 string data = "Biomass hopper open. Standing by."
+        1 string data = "バイオマスホッパー開放。待機中。"
        [46]
-        1 string data = "You check the biomass hopper and it looks like a flesh tumor hopped in there and got stuck. You could purge it, or... just see what happens."
+        1 string data = "バイオマスホッパーを確認すると、肉腫が飛び込んで動けなくなっているようだ。パージすることもできるし...様子を見ることもできる。"
        [47]
-        1 string data = "CONTINUE PURGE"
+        1 string data = "パージを続行"
        [48]
-        1 string data = "CANCEL PURGE"
+        1 string data = "パージをキャンセル"
        [49]
-        1 string data = "Please wait."
+        1 string data = "お待ちください。"
        [50]
-        1 string data = "Now when you check the hopper, it's empty."
+        1 string data = "ホッパーを確認すると、今は空になっている。"
        [51]
-        1 string data = "PAUSE PURGE FOR VISUAL CHECK OF BIOMASS HOPPER."
+        1 string data = "バイオマスホッパーの目視確認のためパージを一時停止。"
        [52]
-        1 string data = "Purge paused. Standing by."
+        1 string data = "パージ一時停止。待機中。"
        [53]
-        1 string data = "You check the biomass hopper and it looks like a flesh tumor hopped in there and got stuck. You could purge it, or... just see what happens."
+        1 string data = "バイオマスホッパーを確認すると、肉腫が飛び込んで動けなくなっているようだ。パージすることもできるし...様子を見ることもできる。"
        [54]
-        1 string data = "Synthesis requires DNA sample. Please obtain sample before proceeding."
+        1 string data = "合成にはDNAサンプルが必要です。続行前にサンプルを入手してください。"
        [55]
-        1 string data = "Unidentified genetic material detected in biomass hopper. Clone synthesis unavailable until material is purged. No undifferentiated pluripotent bio-genetic material detected."
+        1 string data = "バイオマスホッパー内に識別不能な遺伝物質が検出されました。物質がパージされるまでクローン合成は利用できません。未分化多能性生体遺伝物質は検出されませんでした。"
    [274]
     0 StringTable data
      1 string Filename = "e4001_clone_machine_standard"
@@ -51201,45 +51201,45 @@
       1 Array Array (20 items)
        0 int size = 20
        [0]
-        1 string data = "Welcome to Cloning Controller v1.0\nIteration Experiment in progress.\nPlease select an option:"
+        1 string data = "クローニング・コントローラー v1.0へようこそ\n反復実験進行中。\nオプションを選択してください:"
        [1]
-        1 string data = "Current clone DNA deterioration progress: Runtime start 1/21/98 14:00:03. Current clone iteration number: (ERROR: unable to compute. Last verifiable iteration 65,536.)"
+        1 string data = "現在のクローンDNA劣化進捗: 実行開始 1/21/98 14:00:03。現在のクローン反復番号: (エラー: 計算不能。最後に検証された反復 65,536。)"
        [2]
-        1 string data = "VIEW ITERATION EXPERIMENT INFO"
+        1 string data = "反復実験情報を表示"
        [3]
-        1 string data = "EXIT"
+        1 string data = "終了"
        [4]
-        1 string data = "Beep."
+        1 string data = "ビープ。"
        [5]
-        1 string data = "REQUEST DNA SAMPLE COLLECTION"
+        1 string data = "DNAサンプル収集を要求"
        [6]
-        1 string data = "DNA sample will be collected from next complete clone iteration. There will be a three second scan before disintegration and collection.\n\n\nWarning: Countdown may cause clone to become aware of its impending disintegration. Do you wish to proceed?"
+        1 string data = "DNAサンプルは次の完全なクローン反復から収集されます。分解と収集の前に3秒間のスキャンがあります。\n\n\n警告:カウントダウンによりクローンが差し迫った分解を自覚する可能性があります。続行しますか?"
        [7]
-        1 string data = "CONFIRM"
+        1 string data = "確認"
        [8]
-        1 string data = "CANCEL"
+        1 string data = "キャンセル"
        [9]
-        1 string data = "Canceling."
+        1 string data = "キャンセル中。"
        [10]
-        1 string data = "DNA sample collection confirmed. Stand by for countdown. "
+        1 string data = "DNAサンプル収集を確認しました。カウントダウン待機中。"
        [11]
-        1 string data = "Collecting advanced DNA sample. Vial will dispense when chime sounds."
+        1 string data = "高度なDNAサンプルを収集中。チャイムが鳴ったらバイアルが排出されます。"
        [12]
-        1 string data = " Sampling cycle active. Sample collection will occur shortly after subject termination."
+        1 string data = "サンプリングサイクル有効。サンプル収集は被験体終了直後に行われます。"
        [13]
-        1 string data = "Advanced DNA sample ready. Please enjoy!"
+        1 string data = "高度なDNAサンプル準備完了。お楽しみください!"
        [14]
-        1 string data = "Vial supply empty. Advanced DNA sample cannot be dispensed."
+        1 string data = "バイアル供給が空です。高度なDNAサンプルは排出できません。"
        [15]
-        1 string data = "START ITERATION EXPERIMENT"
+        1 string data = "反復実験を開始"
        [16]
-        1 string data = "System not responding. Please contact IT department for maintainance."
+        1 string data = "システムが応答しません。メンテナンスのためIT部門に連絡してください。"
        [17]
-        1 string data = "Clone Iteration already active. Please make another selection. "
+        1 string data = "クローン反復は既に有効です。別の選択をしてください。"
        [18]
-        1 string data = "The purpose of this experiment is to determine the rate of DNA deterioration in clones recycled from a single batch of undifferentiated pluripotent bio-genetic material(UPBG) over multiple generations. "
+        1 string data = "この実験の目的は、単一バッチの未分化多能性生体遺伝物質(UPBG)から複数世代にわたってリサイクルされたクローンのDNA劣化率を判定することです。"
        [19]
-        1 string data = "Thus, using a laser borrowed from Dr. Dawson's lab, we have set up a system to create, destroy, and recycle clones in rapid succession. "
+        1 string data = "そのため、Dr. Dawsonの研究室から借りたレーザーを使用して、クローンを迅速に連続して作成、破壊、リサイクルするシステムを構築しました。"
    [275]
     0 StringTable data
      1 string Filename = "e4001_companions"
@@ -51937,9 +51937,9 @@
       1 Array Array (33 items)
        0 int size = 33
        [0]
-        1 string data = "Welcome Dr. Finster Jr. \r\n> Booting Volume C"
+        1 string data = "ようこそDr. Finster Jr. \r\n> ボリュームCを起動中"
        [1]
-        1 string data = "OPEN PROJECT_LOGS.txt"
+        1 string data = "PROJECT_LOGS.txtを開く"
        [2]
         1 string data = "DIR"
        [3]
@@ -51947,51 +51947,51 @@
        [4]
         1 string data = "Directory of C:\nPROJECT_LOGS.txt"
        [5]
-        1 string data = "OPEN Q2xvbmVz.txt"
+        1 string data = "Q2xvbmVz.txtを開く"
        [6]
-        1 string data = "Finally, the advanced genetic sequencer is fully operational. Our intial test run showed that it was capable of iterating hundreds of copies per day. This is a great day for science, and a great day for me. I must tell father."
+        1 string data = "ついに、高度な遺伝子シーケンサーが完全に稼働した。初期テストでは1日に数百コピーを反復できることが示された。これは科学にとって偉大な日であり、私にとっても偉大な日だ。父に伝えねば。"
        [7]
-        1 string data = "Access Denied. File encrypted."
+        1 string data = "アクセス拒否。ファイルが暗号化されています。"
        [8]
-        1 string data = "DECRYPT Q2xvbmVz.txt"
+        1 string data = "Q2xvbmVz.txtを復号化"
        [9]
-        1 string data = "FIle decrypted: CLONES.txt"
+        1 string data = "ファイル復号化完了: CLONES.txt"
        [10]
-        1 string data = "All clones made using my own DNA are proving frustratingly stupid. Though I've been hesitant to reveal the details - even going so far as to hide my cloning lab from my colleagues - I think I'm going to have to let someone in on the secret."
+        1 string data = "自分のDNAで作られた全てのクローンがイライラするほど愚かだ。詳細を明かすことをためらい、同僚から秘密のクローニングラボを隠すまでしたが、誰かに秘密を打ち明けなければならないと思う。"
        [11]
-        1 string data = "OPEN HIDDEN LAB USING CODE WORD: DARWIN"
+        1 string data = "コードワードを使って隠しラボを開く: DARWIN"
        [12]
-        1 string data = "OPEN CLONES.txt"
+        1 string data = "CLONES.txtを開く"
        [13]
-        1 string data = "Performing remote unlock."
+        1 string data = "リモートロック解除を実行中。"
        [14]
         1 string data = "Directory of C:\nPROJECT_LOGS.txt\nCLONES.txt\nSECRET_LAB_CODE.txt"
        [15]
-        1 string data = "SEARCH LOGS"
+        1 string data = "ログを検索"
        [16]
-        1 string data = "Pink Goo"
+        1 string data = "ピンクの粘液"
        [17]
-        1 string data = " Enter search term:"
+        1 string data = "検索語を入力:"
        [18]
-        1 string data = "Blue Goo"
+        1 string data = "ブルーの粘液"
        [19]
-        1 string data = " A very rare susbstance. It can be acquired by killing older clone variants and collecting their genetic matter."
+        1 string data = "非常に希少な物質。古いクローン変種を殺して遺伝物質を収集することで入手できる。"
        [20]
-        1 string data = " A common substance. By decreasing laster turret intensity my clone fabricator can collect a sample from the remaining clone matter."
+        1 string data = "一般的な物質。レーザータレットの強度を下げることで、クローン製造装置は残存クローン物質からサンプルを収集できる。"
        [21]
-        1 string data = "Perhaps Jenkins. He looks healthy."
+        1 string data = "ジェンキンスかもしれない。彼は健康そうだ。"
        [22]
-        1 string data = "OPEN Q2xvbmWa.txt"
+        1 string data = "Q2xvbmWa.txtを開く"
        [23]
-        1 string data = "Access Denied. File Encrypted."
+        1 string data = "アクセス拒否。ファイルが暗号化されています。"
        [24]
-        1 string data = "DECRYPT Q2xvbmWa.txt"
+        1 string data = "Q2xvbmWa.txtを復号化"
        [25]
-        1 string data = "I've really got to memorize this thing. \r\n\r\nClone lab code: DARWIN"
+        1 string data = "本当にこれを暗記しなければ。\r\n\r\nクローンラボコード: DARWIN"
        [26]
-        1 string data = "FIle decrypted: SECRET LAB CODE.txt"
+        1 string data = "ファイル復号化完了: SECRET LAB CODE.txt"
        [27]
-        1 string data = "OPEN SECRET_LAB_CODE.txt"
+        1 string data = "SECRET_LAB_CODE.txtを開く"
        [28]
         1 string data = "DIR /ah"
        [29]
@@ -51999,9 +51999,9 @@
        [30]
         1 string data = ""
        [31]
-        1 string data = "OPEN PROJECT_LOGS.txt"
+        1 string data = "PROJECT_LOGS.txtを開く"
        [32]
-        1 string data = "Finally, the advanced genetic sequencer is fully operational. Our intial test run showed that it was capable of iterating hundreds of copies per day. This is a great day for science, and a great day for me. I must tell father."
+        1 string data = "ついに、高度な遺伝子シーケンサーが完全に稼働した。初期テストでは1日に数百コピーを反復できることが示された。これは科学にとって偉大な日であり、私にとっても偉大な日だ。父に伝えねば。"
    [277]
     0 StringTable data
      1 string Filename = "e4001_cultistleader"
