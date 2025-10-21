@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-21T19:45:00+09:00",
+  "last_updated": "2025-10-21T20:15:00+09:00",
   "current_file": "DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
-  "total_entries_completed": 50125,
-  "last_completed_section": "DLC2: e7001_entrancedoor完了 (ホーリー・デトネーション入口ドア)",
-  "next_section_to_translate": "e7001_holydetonation (46エントリ、ホーリー・デトネーション制御システム)",
-  "next_action": "Session 90進行中: e7001セクション群翻訳(626エントリ)完了。次: e7001_holydetonationから継続、目標2500エントリ到達。",
-  "notes": "Session 90 (2025-10-21): e7001セクション群翻訳(626エントリ) - crane_combined残り/crane_negative/crane_positive/cryogenics/deuterium/entrancedoor完了。累積50,125エントリ。次はe7001_holydetonation(46エントリ)から継続。",
+  "total_entries_completed": 50430,
+  "last_completed_section": "DLC2: e7001_systemannouncer完了 (ホーリー・デトネーション冷却システムアナウンス)",
+  "next_section_to_translate": "e7001_theo (72エントリ、テオ・キュリーエンドゲーム対話)",
+  "next_action": "Session 91完了: e7001セクション群翻訳305エントリ完了 (holydetonation/iridium/polyp/primordialist/proteus/radio_patriarch/systemannouncer)。次: e7001_theoから継続。",
+  "notes": "Session 91 (2025-10-21): e7001セクション群翻訳305エントリ (Part 1: 238エントリ - holydetonation制御/iridium/polyp/primordialist/proteus主要対話, Part 2: 67エントリ - radio_patriarch/systemannouncer)。累積50,430エントリ。次はe7001_theo(72エントリ)から継続。",
   "sections_completed": [
     "Base game - ALL SECTIONS COMPLETE (530,425 lines)",
     "DLC1 - Order Up quest text (86020-86124) - 43 entries",
@@ -186,8 +186,15 @@
     "DLC2 - e7001_computer_crane_positive (cryogenics positive direction arc-power controller) - 36 entries",
     "DLC2 - e7001_cryogenics (cryogenic cooling system pressure controls) - 20 entries",
     "DLC2 - e7001_deuterium (Deuterium endgame barks, Holy Detonation grid connection) - 3 entries",
-    "DLC2 - e7001_entrancedoor (Holy Detonation chamber entrance door) - 6 entries"
+    "DLC2 - e7001_entrancedoor (Holy Detonation chamber entrance door) - 6 entries",
+    "DLC2 - e7001_holydetonation (Holy Detonation control terminal, time dilation adjustment, power output, meltdown warnings) - 46 entries",
+    "DLC2 - e7001_iridium (Angel Iridium endgame combat barks) - 5 entries",
+    "DLC2 - e7001_polyp (Mother Polyp endgame dialogue, Holy Detonation blessing) - 3 entries",
+    "DLC2 - e7001_primordialist (Primordialists endgame dialogue, Proteus/Deuterium reunion, power sharing vs liberation choice) - 35 entries",
+    "DLC2 - e7001_proteus (Proteus endgame main dialogue tree, meltdown plan, faction unity/splits, power sharing negotiations, absorption combat) - 149 entries",
+    "DLC2 - e7001_radio_patriarch (Patriarch radio, Holy Detonation power connection report, Theo Curie plan evaluation, reward payment) - 33 entries",
+    "DLC2 - e7001_systemannouncer (Holy Detonation system announcements, cooling tank status, meltdown warnings, power transfer notifications) - 34 entries"
   ],
-  "last_commit": "a63131e",
-  "session_number": 90
+  "last_commit": "70880fd",
+  "session_number": 91
 }
