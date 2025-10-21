@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-21T22:15:00+09:00",
+  "last_updated": "2025-10-21T23:30:00+09:00",
   "current_file": "DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
-  "total_entries_completed": 52428,
-  "last_completed_section": "DLC1: items, loadingtips完了 (287エントリ完了)",
-  "next_section_to_translate": "DLC1 loreentries以降のセクション",
-  "next_action": "Session 98 Part 1完了: 287エントリ完了 (DLC1 items, loadingtips完了)。次: DLC1の残りセクション継続。",
-  "notes": "Session 98 (2025-10-21): 287エントリ完了 (DLC1 items全272+loadingtips全15)。累積52,428エントリ。",
+  "total_entries_completed": 52661,
+  "last_completed_section": "DLC1: loreentries, poi, scenedescriptions, scenes, statuseffects, tutorial, missions完了 (520エントリ完了)",
+  "next_section_to_translate": "DLC1 mission_d1001_killgrilleセクション以降",
+  "next_action": "Session 98完了: 520エントリ完了 (DLC1 loreentries~mission_d1001_hotcommodities完了)。次: DLC1の残りミッションセクション継続。",
+  "notes": "Session 98 (2025-10-21): 520エントリ完了 (DLC1 items 272+loadingtips 15+loreentries 6+poi 39+scenedescriptions 4+scenes 7+statuseffects 70+tutorial 14+missions 93)。累積52,661エントリ。",
   "sections_completed": [
     "Base game - ALL SECTIONS COMPLETE (530,425 lines)",
     "DLC1 - Order Up quest text (86020-86124) - 43 entries",
@@ -21,6 +21,16 @@
     "DLC1 - Debug entry - 1 entry",
     "DLC1 - items (DLC1 items and equipment complete) - 272 entries",
     "DLC1 - loadingtips (loading screen tips complete) - 15 entries",
+    "DLC1 - loreentries (journal entries and documents) - 6 entries",
+    "DLC1 - poi (location names) - 39 entries",
+    "DLC1 - scenedescriptions (scene descriptions) - 4 entries",
+    "DLC1 - scenes (scene names) - 7 entries",
+    "DLC1 - statuseffects (status effects) - 70 entries",
+    "DLC1 - tutorial (tutorial texts) - 14 entries",
+    "DLC1 - mission_0000_steeltown_gangraid (gang raid mission) - 12 entries",
+    "DLC1 - mission_d1001_flushed (refugee toilet quest) - 28 entries",
+    "DLC1 - mission_d1001_followthatcar (car theft quest) - 15 entries",
+    "DLC1 - mission_d1001_hotcommodities (smuggling investigation) - 38 entries",
     "DLC2 - Irv (Cheyenne Mountain cloning) - 56 entries",
     "DLC2 - Museum exhibits (Holy Detonation) - 4 entries",
     "DLC2 - Paperboy headlines - 4 entries",
@@ -233,6 +243,6 @@
     "DLC2 - mission_e5001_trackdownblue (Blue tracking quest E5001) - 22 entries",
     "DLC2 - StringTableData_English-CAB COMPLETE (all 407 sections) - 77,353 lines"
   ],
-  "last_commit": "6666670",
+  "last_commit": "99ce750",
   "session_number": 98
 }
