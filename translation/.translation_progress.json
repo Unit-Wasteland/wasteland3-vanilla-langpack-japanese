@@ -1,12 +1,12 @@
 {
   "last_updated": "2025-10-21T14:30:00+09:00",
-  "current_file": "DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
-  "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
-  "total_entries_completed": 41874,
-  "last_completed_section": "DLC1: ガレージ労働者、スピーカー、各種対話セクション翻訳完了 (263エントリ)",
-  "next_section_to_translate": "DLC1ファイルの残り未翻訳エントリ (約890エントリ残存)",
-  "next_action": "Session 65: DLC1ファイルの複数対話セクションを翻訳。ガレージ労働者(87)、スピーカーアナウンス(12)、アルフォンソ(26)、ベニー・ビアンキ難民(52)、バグ関連(85)など、合計263エントリ翻訳。次: 残り未翻訳エントリの続き。目標2,500エントリに向けて継続。",
-  "notes": "Session 65 (2025-10-21): DLC1ファイル内の複数の小〜中規模対話セクションを順次翻訳。ガレージ労働者の台詞、スティールタウンアナウンス、陰謀論者、難民対応、若者のクエスト関連対話など多様なセクション。残り約890エントリ。自動化セッションで効率良く進行中。",
+  "current_file": "DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
+  "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
+  "total_entries_completed": 42016,
+  "last_completed_section": "DLC2: アーヴ、博物館、説教、エンディングスライド等翻訳完了 (142エントリ)",
+  "next_section_to_translate": "DLC2ファイルの残り未翻訳エントリ (約4,388エントリ残存)",
+  "next_action": "Session 66: DLC2ファイルの翻訳を開始。Irvのシャイアン・マウンテン関連対話(56)、博物館展示(4)、Paperboy見出し(4)、Patriarch対話(6)、シンセ対話(7)、カセットレコーディング(23)、フォロワー(7)、コンパニオンバーク(3)、エンディングスライド(32)を翻訳。次: DLC2の大規模対話セクション(radio_elijahward等)。目標2,500エントリに向けて継続。",
+  "notes": "Session 66 (2025-10-21): DLC2ファイル(Cult of the Holy Detonation)の翻訳を開始。アーヴのクローニング対話、ホーリー・デトネーション関連のエンディングスライド、カセット録音（説教、訓練ガイド、Petersen vs Cheyenne）など、DLC2の重要なストーリー要素を翻訳。DLC2は約4,530エントリあり、まだ大部分が未翻訳。自動化セッションで効率良く進行中。",
   "sections_completed": [
     "Base game - mission_o2001_thickerthanblood (complete)",
     "Base game - mission_o2001_thickerthanwater (complete)",
@@ -34,8 +34,17 @@
     "DLC1 - Brother Thomas - 1 entry",
     "DLC1 - Bug boyfriend quest - 79 entries",
     "DLC1 - Bug girlfriend - 5 entries",
-    "DLC1 - Debug entry - 1 entry"
+    "DLC1 - Debug entry - 1 entry",
+    "DLC2 - Irv (Cheyenne Mountain cloning) - 56 entries",
+    "DLC2 - Museum exhibits (Holy Detonation) - 4 entries",
+    "DLC2 - Paperboy headlines - 4 entries",
+    "DLC2 - Patriarch dialogue - 6 entries",
+    "DLC2 - Synth dialogues (Bill, DOP, Sexbot, etc.) - 7 entries",
+    "DLC2 - Cassette recordings (sermons, training) - 23 entries",
+    "DLC2 - Followers (Protodrool, Tumor) - 7 entries",
+    "DLC2 - Companion barks (Ash, Aspen) - 3 entries",
+    "DLC2 - End slides (Holy Detonation endings) - 32 entries"
   ],
-  "last_commit": "eff0802",
-  "session_number": 65
+  "last_commit": "10e6f46",
+  "session_number": 66
 }
