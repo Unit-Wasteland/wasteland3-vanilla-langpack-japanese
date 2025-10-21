@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-21T09:17:01+09:00",
+  "last_updated": "2025-10-21T10:15:00+09:00",
   "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-  "total_entries_completed": 37351,
-  "last_completed_section": "Base game: endslides (partial - entries [0-116] complete)",
-  "next_section_to_translate": "Continue with endslides from [117]",
-  "next_action": "Session 47 checkpoint 2. Translated 200 entries total (100 + 100). Next: Continue endslides section. Cumulative: 37,351 entries.",
-  "notes": "Session 47 (2025-10-21): Checkpoint 1: 100 entries (global_aspencompanionbarks 24, global_aspengiftsguards 2, woodsonandrangers_wrapup 40, 0000_radio_d_steeltown_initialradiocall 16, d2001_worker_arcology_powerloader 14, endslides 4). Checkpoint 2: 100 entries (endslides 100). Total session: 200 entries. Cumulative: 37,351 entries (37,151 + 200). Content includes Aspen companion dialogue, Woodson/Vic wrap-up, Steeltown DLC intro, factory worker dialogue, game ending slides.",
+  "total_entries_completed": 37640,
+  "last_completed_section": "Base game: civilian_combatbarks (partial - entries [24-77] = 54 entries)",
+  "next_section_to_translate": "Continue with m1001_angeladeth from [11]",
+  "next_action": "Session 49 in progress. Translated civilian_combatbarks [24-77] (54 entries) + m1001_angeladeth [0-10] (10 entries). Total this session: 64 entries. Cumulative: 37,640 entries. Next: Continue m1001_angeladeth section (193 total entries, 183 remaining).",
+  "notes": "Session 49 (2025-10-21): Translated civilian_combatbarks combat dialogue entries [24-77] (54 entries: civilian panic/combat reactions). Started m1001_angeladeth mission dialogue [0-10] (10 entries). Total session so far: 64 entries. Cumulative: 37,640 entries (37,576 + 64). Content includes civilian combat barks and Angela Deth mission dialogues about Liberty and Patriarch.",
   "sections_completed": [
     "Base game - c2101_ash",
     "Base game - c2101_ashsvideomonitors",
@@ -49,8 +49,10 @@
     "Base game - global_aspengiftsguards (complete)",
     "Base game - woodsonandrangers_wrapup (complete)",
     "DLC1 - 0000_radio_d_steeltown_initialradiocall (complete)",
-    "DLC1 - d2001_worker_arcology_powerloader (complete)"
+    "DLC1 - d2001_worker_arcology_powerloader (complete)",
+    "Base game - endslides (complete)",
+    "Base game - civilian_combatbarks (partial [24-77])"
   ],
-  "last_commit": "2a36f55",
-  "session_number": 48
+  "last_commit": "3713026",
+  "session_number": 49
 }
