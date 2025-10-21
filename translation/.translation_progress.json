@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-21T21:15:00+09:00",
+  "last_updated": "2025-10-21T21:25:00+09:00",
   "current_file": "DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
-  "total_entries_completed": 51849,
-  "last_completed_section": "DLC2: mission_e1001_jailbreak完了 (ベゾア救出ミッション)",
-  "next_section_to_translate": "mission_e1001_securityoverrideセクション以降",
-  "next_action": "Session 96 Part 1完了: 328エントリ完了 (poi 34 + scenedescriptions 6 + scenes 14 + statuseffects 119 + tutorial 6 + mission_e1001_goitersgear 9 + mission_e1001_homecoming 27 + mission_e1001_jailbreak 41 + その他セクション)。次: mission_e1001_securityoverrideセクションから継続。",
-  "notes": "Session 96 Part 1 (2025-10-21): 328エントリ完了 (poi 34 + scenedescriptions 6 + scenes 14 + statuseffects 119 + tutorial 6 + missions開始)。累積51,849エントリ。次はmission_e1001_securityoverrideセクションから継続。",
+  "total_entries_completed": 52141,
+  "last_completed_section": "DLC2: StringTableData_English-CAB完了 (全407セクション完了)",
+  "next_section_to_translate": "DLC1残りファイル",
+  "next_action": "Session 97完了: 292エントリ完了 (DLC2メインStringTableファイル完了)。次: DLC1の残りファイルに移行。",
+  "notes": "Session 97 (2025-10-21): 292エントリ完了 (DLC2メインStringTable完了)。累積52,141エントリ。DLC2 StringTableData全407セクション完了。",
   "sections_completed": [
     "Base game - ALL SECTIONS COMPLETE (530,425 lines)",
     "DLC1 - Order Up quest text (86020-86124) - 43 entries",
@@ -215,8 +215,22 @@
     "DLC2 - tutorial (tutorial texts) - 12 entries (6 実質)",
     "DLC2 - mission_e1001_goitersgear (carbon fiber quest) - 12 entries (9 実質)",
     "DLC2 - mission_e1001_homecoming (Jane's squadmate rescue) - 27 entries",
-    "DLC2 - mission_e1001_jailbreak (Bezoar rescue mission) - 41 entries"
+    "DLC2 - mission_e1001_jailbreak (Bezoar rescue mission) - 41 entries",
+    "DLC2 - mission_e1001_securityoverride (security override quest) - 8 entries",
+    "DLC2 - mission_e1001_theholydetonation (main quest, Holy Detonation) - 50 entries",
+    "DLC2 - mission_e1001_undercoverangel (Iridium capture quest) - 31 entries",
+    "DLC2 - mission_e3001_heartofglass (Father Bezoar rescue quest) - 24 entries",
+    "DLC2 - mission_e5001_loadingdock (scatter ray emitter quest) - 33 entries",
+    "DLC2 - mission_e6001_finalform (Proteus final form battle) - 12 entries",
+    "DLC2 - mission_e6001_nucleistritual (Iridium battle quest) - 10 entries",
+    "DLC2 - mission_e2001_ram (RAM spiderbot rescue) - 17 entries",
+    "DLC2 - mission_e4001_hardcores (voltage regulator quest) - 21 entries",
+    "DLC2 - mission_e4001_oldsoldier (old soldier FADER rescue quest) - 28 entries",
+    "DLC2 - mission_e2001_trackdownblue (Blue tracking quest) - 22 entries",
+    "DLC2 - mission_e5001_satellitelink (satellite link quest) - 14 entries",
+    "DLC2 - mission_e5001_trackdownblue (Blue tracking quest E5001) - 22 entries",
+    "DLC2 - StringTableData_English-CAB COMPLETE (all 407 sections) - 77,353 lines"
   ],
-  "last_commit": "438d97d",
-  "session_number": 96
+  "last_commit": "b6fd3ac",
+  "session_number": 97
 }
