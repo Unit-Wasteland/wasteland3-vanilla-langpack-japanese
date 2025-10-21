@@ -2,11 +2,11 @@
   "last_updated": "2025-10-21T18:15:00+09:00",
   "current_file": "DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
-  "total_entries_completed": 47976,
-  "last_completed_section": "DLC2: e6001_reservoirbasincomputer完了 (貯水槽コンピューター制御)",
-  "next_section_to_translate": "e6001_secretbttf系セクション群 (BTTF easter eggシーケンス) または他のe6001セクション",
-  "next_action": "Session 83: DLC2翻訳継続中。167エントリ完了。次: e6001_secretbttf系または後続のセクションから。",
-  "notes": "Session 83 (2025-10-21): DLC2インフラ制御セクション翻訳(167エントリ)。e4001_old_soldier完了(188エントリ全て)、e6001系インフラ制御完了(ヘリパッドドア、エンジンタービン、接続箱、貯水槽など85エントリ)。Old Soldierクエスト完結。累積47,976エントリ。目標2500エントリまで残り2,333エントリ。",
+  "total_entries_completed": 48243,
+  "last_completed_section": "DLC2: e4001_computer_clone_scientist完了 (クローニング研究用コンピューター)",
+  "next_section_to_translate": "e4001_cultistleader以降のセクション",
+  "next_action": "Session 84: DLC2翻訳継続中。267エントリ完了(1回目コミット)。次: e4001_cultistleader以降から翻訳継続。",
+  "notes": "Session 84 (2025-10-21): DLC2 e6001/e4001セクション群翻訳(267エントリ)。BTTFイースターエッグ、温度制御、エアロック、バッテリーパズル、クローニングマシン(advanced/standard)、クローン研究者PC等完了。累積48,243エントリ。目標2500エントリまで残り2,233エントリ。",
   "sections_completed": [
     "Base game - ALL SECTIONS COMPLETE (530,425 lines)",
     "DLC1 - Order Up quest text (86020-86124) - 43 entries",
@@ -148,5 +148,5 @@
     "DLC2 - e6001_reservoirbasincomputer (reservoir basin computer control) - 16 entries"
   ],
   "last_commit": "46fd739",
-  "session_number": 83
+  "session_number": 84
 }
