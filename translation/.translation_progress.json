@@ -2,11 +2,11 @@
   "last_updated": "2025-10-21T20:15:00+09:00",
   "current_file": "DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
-  "total_entries_completed": 50557,
-  "last_completed_section": "DLC2: e7001_elder完了 (Two Buttes長老対話、行方不明村人救出クエスト)",
-  "next_section_to_translate": "e7001_villager1以降のセクション",
-  "next_action": "Session 92 Part 1完了: e7001エンドゲーム対話127エントリ完了 (theo/weepingnucleists/elder)。次: e7001_villager1から継続して2500エントリ目標達成まで翻訳。",
-  "notes": "Session 92 Part 1 (2025-10-21): e7001エンドゲーム対話127エントリ (theo 72エントリ: テオ・キュリー科学者エンドゲーム / weepingnucleists 20エントリ: アクションマークアップのみ / elder 55エントリ: Two Buttes長老VHSクエスト)。累積50,557エントリ。次はe7001_villager1から継続。",
+  "total_entries_completed": 50890,
+  "last_completed_section": "DLC2: yy_dcl2_nucleists_ambush_mountains完了 (ランダムエンカウンター)",
+  "next_section_to_translate": "yy_dcl2_nucleists_ambush_plains以降",
+  "next_action": "Session 93 Part 1完了: 戦闘バーク&村人対話333エントリ完了。次: yy_dcl2_nucleists_ambush_plainsから継続。",
+  "notes": "Session 93 Part 1 (2025-10-21): 333エントリ完了 (nucleist_zealot_combatbarks 150エントリ戦闘バーク / e7001_villager2-8 村人アンビエント対話49エントリ / yy_dcl2_nucleists_ambush_foothills & mountains ランダムエンカウンター)。累積50,890エントリ。次はyy_dcl2_nucleists_ambush_plainsから継続。",
   "sections_completed": [
     "Base game - ALL SECTIONS COMPLETE (530,425 lines)",
     "DLC1 - Order Up quest text (86020-86124) - 43 entries",
@@ -196,5 +196,5 @@
     "DLC2 - e7001_systemannouncer (Holy Detonation system announcements, cooling tank status, meltdown warnings, power transfer notifications) - 34 entries"
   ],
   "last_commit": "70880fd",
-  "session_number": 92
+  "session_number": 93
 }
