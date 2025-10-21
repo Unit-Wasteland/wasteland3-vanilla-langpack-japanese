@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-21T12:42:55+09:00",
-  "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-  "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-  "total_entries_completed": 41536,
-  "last_completed_section": "Base game: options (4), perks (475), poi (256), scenedescriptions (96), scenes (122), skills (99), statuseffects (462) - all complete",
-  "next_section_to_translate": "Continue to mission dialogue sections (dialogue entries starting around line 121528+)",
-  "next_action": "Session 63: Discovered that options, perks, poi, scenedescriptions, scenes, skills, and statuseffects sections (total 1,510 entries) were already translated in previous sessions but not tracked in progress file. Updated count from 40,026 to 41,536. Next: continue with mission dialogue translation.",
-  "notes": "Session 63 (2025-10-21): Progress file audit revealed significant additional completed work: options section (4), perks section (475), poi section (256), scenedescriptions section (96), scenes section (122), skills section (99), statuseffects section (462). All were already translated and committed in git history but not reflected in progress tracking. Total: 1,510 additional entries found complete.",
+  "last_updated": "2025-10-21T13:15:00+09:00",
+  "current_file": "DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
+  "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
+  "total_entries_completed": 41611,
+  "last_completed_section": "DLC1: Order Upクエスト、デバッグエントリ翻訳完了 (75エントリ)",
+  "next_section_to_translate": "DLC1ファイルの残り未翻訳エントリ (約1,150エントリ残存)",
+  "next_action": "Session 64: Base gameファイル完了確認。DLC1ファイルの未翻訳エントリを翻訳開始。Order Upクエスト(86020-86124)およびデバッグテキスト(複数箇所)を翻訳。合計75エントリ翻訳。次: DLC1の残り未翻訳エントリの続き。",
+  "notes": "Session 64 (2025-10-21): Base gameファイル(530,425行)は完全翻訳済みを確認。DLC1ファイルに移行し、未翻訳エントリ約1,224個を発見。Order Upクエストテキスト、デバッグテキストなど75エントリを翻訳。残り約1,150エントリ。",
   "sections_completed": [
     "Base game - mission_o2001_thickerthanblood (complete)",
     "Base game - mission_o2001_thickerthanwater (complete)",
@@ -23,8 +23,11 @@
     "Base game - scenedescriptions section [0-95] (complete - 96 entries)",
     "Base game - scenes section [0-121] (complete - 122 entries)",
     "Base game - skills section [0-98] (complete - 99 entries)",
-    "Base game - statuseffects section [0-461] (complete - 462 entries)"
+    "Base game - statuseffects section [0-461] (complete - 462 entries)",
+    "Base game - ALL SECTIONS COMPLETE (530,425 lines)",
+    "DLC1 - Order Up quest text (86020-86124) - 43 entries",
+    "DLC1 - Various debug entries - 32 entries"
   ],
-  "last_commit": "e88c98b",
+  "last_commit": "bd6eab9",
   "session_number": 64
 }
