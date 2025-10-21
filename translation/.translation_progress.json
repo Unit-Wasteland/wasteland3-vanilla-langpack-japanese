@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-21T14:30:00+09:00",
+  "last_updated": "2025-10-21T14:45:00+09:00",
   "current_file": "DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
-  "total_entries_completed": 42016,
-  "last_completed_section": "DLC2: アーヴ、博物館、説教、エンディングスライド等翻訳完了 (142エントリ)",
-  "next_section_to_translate": "DLC2ファイルの残り未翻訳エントリ (約4,388エントリ残存)",
-  "next_action": "Session 66: DLC2ファイルの翻訳を開始。Irvのシャイアン・マウンテン関連対話(56)、博物館展示(4)、Paperboy見出し(4)、Patriarch対話(6)、シンセ対話(7)、カセットレコーディング(23)、フォロワー(7)、コンパニオンバーク(3)、エンディングスライド(32)を翻訳。次: DLC2の大規模対話セクション(radio_elijahward等)。目標2,500エントリに向けて継続。",
-  "notes": "Session 66 (2025-10-21): DLC2ファイル(Cult of the Holy Detonation)の翻訳を開始。アーヴのクローニング対話、ホーリー・デトネーション関連のエンディングスライド、カセット録音（説教、訓練ガイド、Petersen vs Cheyenne）など、DLC2の重要なストーリー要素を翻訳。DLC2は約4,530エントリあり、まだ大部分が未翻訳。自動化セッションで効率良く進行中。",
+  "total_entries_completed": 42246,
+  "last_completed_section": "DLC2: ラジオ対話、Fader/ロボットbarks、VRツアー、Carbuncle対話 (230エントリ)",
+  "next_section_to_translate": "e2001_carbuncle残り (エントリ131-199)、その後e2001_companionsおよび他の対話セクション",
+  "next_action": "Session 67: DLC2ファイルの翻訳を継続。Elijah Ward/Theo Curieラジオ対話(79)、Fader barks(48)、VRツアー(12)、ロボットbarks(11)、Carbuncle対話パート1(80)を完了。合計230エントリ翻訳。次: Carbuncleセクション残り(約70エントリ)、その後e2001_companions、e2001_bezoar、e2001_bubo等の対話セクションを翻訳。目標2,500エントリへ継続。",
+  "notes": "Session 67 (2025-10-21): DLC2ファイルのラジオ対話とbarksセクションを翻訳。Elijah WardとTheo Curieの対立するラジオ対話、Faderとロボットの戦闘台詞、VRヘッドセットツアー、Carbuncle(Proteusの通訳者)の対話を翻訳。Carbuncleセクション(199エントリ)の約40%完了。2回のコミット実施(150+80エントリ)。自動化セッションで効率良く進行中。",
   "sections_completed": [
     "Base game - mission_o2001_thickerthanblood (complete)",
     "Base game - mission_o2001_thickerthanwater (complete)",
@@ -43,8 +43,16 @@
     "DLC2 - Cassette recordings (sermons, training) - 23 entries",
     "DLC2 - Followers (Protodrool, Tumor) - 7 entries",
     "DLC2 - Companion barks (Ash, Aspen) - 3 entries",
-    "DLC2 - End slides (Holy Detonation endings) - 32 entries"
+    "DLC2 - End slides (Holy Detonation endings) - 32 entries",
+    "DLC2 - Elijah Ward radio dialogue (Holy Detonation) - 52 entries",
+    "DLC2 - Theo Curie radio dialogue (start) - 27 entries",
+    "DLC2 - Fader barks - elites - 11 entries",
+    "DLC2 - Fader barks - researchers - 18 entries",
+    "DLC2 - Fader barks - soldiers - 19 entries",
+    "DLC2 - Robot barks - 11 entries",
+    "DLC2 - VR headset tour - 12 entries",
+    "DLC2 - Carbuncle dialogue (Proteus interpreter) Part 1 [51-130] - 80 entries"
   ],
-  "last_commit": "10e6f46",
-  "session_number": 66
+  "last_commit": "29602fd",
+  "session_number": 68
 }
