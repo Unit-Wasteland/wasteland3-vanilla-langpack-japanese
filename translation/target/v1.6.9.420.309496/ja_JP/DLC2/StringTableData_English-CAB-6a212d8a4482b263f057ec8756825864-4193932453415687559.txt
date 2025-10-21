@@ -3695,23 +3695,23 @@
        [130]
         1 string data = ""
        [131]
-        1 string data = ""T-T-T-Tartarus..." "
+        1 string data = ""タ、タ、タルタロス..." "
        [132]
-        1 string data = ""G-G-G-Gelidia..." "
+        1 string data = ""ゲ、ゲ、ゲリディア..." "
        [133]
         1 string data = ""
        [134]
-        1 string data = ""Adumbral...""
+        1 string data = ""暗黒...""
        [135]
-        1 string data = ""Obsidian...""
+        1 string data = ""黒曜石...""
        [136]
         1 string data = ""
        [137]
-        1 string data = ""Rescind!""
+        1 string data = ""取り消せ!""
        [138]
-        1 string data = ""Abjure!""
+        1 string data = ""拒絶せよ!""
        [139]
-        1 string data = ""Rebuke!""
+        1 string data = ""叱責せよ!""
    [30]
     0 StringTable data
      1 string Filename = "night_terror_combatbarks"
@@ -3777,7 +3777,7 @@
       1 Array Array (13 items)
        0 int size = 13
        [0]
-        1 string data = ""I want some candy!""
+        1 string data = ""キャンディーが欲しい!""
        [1]
         1 string data = ""
        [2]
@@ -3785,23 +3785,23 @@
        [3]
         1 string data = ""
        [4]
-        1 string data = ""Meanies!""
+        1 string data = ""意地悪!""
        [5]
-        1 string data = ""Sleepy now. Gooooood night.""
+        1 string data = ""眠くなってきた。おやすみなさーい。""
        [6]
-        1 string data = ""La, la, la, la, la!""
+        1 string data = ""ラ、ラ、ラ、ラ、ラ!""
        [7]
-        1 string data = ""I'm helping! I'm helping!""
+        1 string data = ""お手伝いしてる! お手伝いしてる!""
        [8]
-        1 string data = ""Friends?""
+        1 string data = ""お友達?""
        [9]
-        1 string data = ""Awww.""
+        1 string data = ""ああ。""
        [10]
-        1 string data = ""Ewwww!""
+        1 string data = ""うえー!""
        [11]
-        1 string data = ""Wheeeee!""
+        1 string data = ""ひゃっほー!""
        [12]
-        1 string data = ""Caaaaaaaaandy!""
+        1 string data = ""キャンディィィィィィ!""
    [31]
     0 StringTable data
      1 string Filename = "nucleist_evangelist_combatbarks"
@@ -12393,7 +12393,7 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = ""Welcome to Cheyenne Mountain, General Hendrix. Make sure your badge is displayed at all times.""
+        1 string data = ""シャイアン・マウンテンへようこそ、ヘンドリックス将軍。バッジは常に見えるようにしてください。""
    [40]
     0 StringTable data
      1 string Filename = "e0001_vrheadset_helipad"
@@ -12417,7 +12417,7 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = ""We've activated the helipad landing code, general.""
+        1 string data = ""ヘリパッドの着陸コードを起動しました、将軍。""
    [41]
     0 StringTable data
      1 string Filename = "e0001_vrheadset_intro"
@@ -12441,7 +12441,7 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = ""Warming up... Welcome to Cheyenne Mountain! Check in at the security post to receive your guest pass.""
+        1 string data = ""ウォームアップ中...シャイアン・マウンテンへようこそ! セキュリティポストでゲストパスを受け取ってください。""
    [42]
     0 StringTable data
      1 string Filename = "e0001_vrheadset_trail"
@@ -12465,7 +12465,7 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = ""This durable door can withstand assaults from ordinary guns - it's vulnerable only to direct missile hits or energy weapons.""
+        1 string data = ""この頑丈な扉は通常の銃撃に耐えられます - ミサイルの直撃やエネルギー兵器にのみ脆弱です。""
    [43]
     0 StringTable data
      1 string Filename = "e1001_aqua_vitae_medic"
@@ -12499,15 +12499,15 @@
       1 Array Array (5 items)
        0 int size = 5
        [0]
-        1 string data = " Hello, how may I help you?"
+        1 string data = " こんにちは、ご用件は?"
        [1]
-        1 string data = " Error..."
+        1 string data = " エラー..."
        [2]
-        1 string data = " Heal me."
+        1 string data = " 治療してくれ。"
        [3]
-        1 string data = " Goodbye."
+        1 string data = " さようなら。"
        [4]
-        1 string data = " You are healed."
+        1 string data = " 治療が完了しました。"
    [44]
     0 StringTable data
      1 string Filename = "e1001_fader_companion"
@@ -12827,7 +12827,7 @@
        [2]
         1 string data = """"
        [3]
-        1 string data = ""We are Desert Rangers.""
+        1 string data = ""我々はデザート・レンジャーズだ。""
        [4]
         1 string data = """"
        [5]
@@ -12835,15 +12835,15 @@
        [6]
         1 string data = """"
        [7]
-        1 string data = ""Orders are to shoot all non-military intruders.""
+        1 string data = ""軍関係者以外の侵入者は射殺せよとの命令だ。""
        [8]
-        1 string data = "Attack him first."
+        1 string data = "先に攻撃する。"
        [9]
-        1 string data = ""The Desert Rangers are a division of the United States Military. Call it in if you don't believe us." "
+        1 string data = ""デザート・レンジャーズは合衆国軍の一部門だ。信じられないなら上に確認しろ。" "
        [10]
-        1 string data = "He picks up the radio, his gun never wavering from you. You can't hear much of the conversation - quiet muttering, and then: "Are you sure, sir?... yes, sir.""
+        1 string data = "彼は無線を取り、銃口はこちらから逸れることがない。会話の内容はほとんど聞き取れない - 静かなつぶやき、そして:「確かですか、サー?...了解しました、サー。」"
        [11]
-        1 string data = "He sets down the receiver and, a moment later, opens fire!"
+        1 string data = "彼は受話器を置き、一瞬後、発砲を開始した!"
    [46]
     0 StringTable data
      1 string Filename = "e1001_leftventinteraction_entrance"
@@ -16915,21 +16915,21 @@
        [0]
         1 string data = ""
        [1]
-        1 string data = "Door sealed. Control terminal active."
+        1 string data = "扉は密閉されている。制御端末起動中。"
        [2]
-        1 string data = "Door sealed. Control terminal active. You should gather the rest of your squad before proceeding."
+        1 string data = "扉は密閉されている。制御端末起動中。先に進む前に部隊全員を集めるべきだ。"
        [3]
-        1 string data = "Open door."
+        1 string data = "扉を開ける。"
        [4]
-        1 string data = "Examine the door."
+        1 string data = "扉を調べる。"
        [5]
-        1 string data = "Step away from the terminal."
+        1 string data = "端末から離れる。"
        [6]
-        1 string data = "Door opening."
+        1 string data = "扉が開く。"
        [7]
-        1 string data = "The door is closed but not locked. Muffled shouts can be heard on the other side."
+        1 string data = "扉は閉じているが施錠されていない。向こう側からくぐもった叫び声が聞こえる。"
        [8]
-        1 string data = "::beep::"
+        1 string data = "::ビープ音::"
    [71]
     0 StringTable data
      1 string Filename = "e2001_annoyingprimordialist"
@@ -17191,127 +17191,127 @@
       1 Array Array (62 items)
        0 int size = 62
        [0]
-        1 string data = ""The Rangers said you missed me when I was gone. Is that true?""
+        1 string data = ""レンジャーズが、私が留守の間あなたは私を恋しがっていたと言っていました。本当ですか?""
        [1]
-        1 string data = ""Yes. It was lovely.""
+        1 string data = ""ええ。素晴らしかったわ。""
        [2]
-        1 string data = ""Eh, what are you saying?""
+        1 string data = ""え、何を言っているんですか?""
        [3]
-        1 string data = ""I'm saying, how can I miss you if you won't go away?""
+        1 string data = ""つまりね、あなたが離れてくれないのに、どうやって恋しがれるのかしら?""
        [4]
-        1 string data = "::laughs:: "Oh, Mother Polyp. You're such a kidder.""
+        1 string data = "::笑う:: 「ああ、マザー・ポリップ。冗談が上手ですね。」"
        [5]
-        1 string data = ""I can't believe I missed the Nucleist attack. I should have been here to defend you.""
+        1 string data = ""ニュークリスト派の攻撃に立ち会えなかったなんて信じられません。あなたを守るためにここにいるべきでした。""
        [6]
-        1 string data = ""I'm never leaving your side again.""
+        1 string data = ""もう二度とあなたの側を離れません。""
        [7]
-        1 string data = ""Oh... good.""
+        1 string data = ""ああ...よかった。""
        [8]
-        1 string data = ""So, what are you looking forward to most about all of us joining with the Proteus and becoming one?""
+        1 string data = ""それで、私たち全員がプロテウスと一つになることについて、最も楽しみにしていることは何ですか?""
        [9]
-        1 string data = ""Not having to talk to each other.""
+        1 string data = ""お互いに話す必要がなくなることね。""
        [10]
-        1 string data = ""Is there anything you need me to do for you, Mother Polyp?""
+        1 string data = ""マザー・ポリップ、何かやることはありますか?""
        [11]
-        1 string data = ""As a matter of fact there is. I'd like you to go to Denver and set up a mission there, immediately.""
+        1 string data = ""実はあるわ。デンバーに行って、すぐにそこで拠点を設立してほしいの。""
        [12]
-        1 string data = ""Really! What an awesome responsibility! But... that would mean leaving your side, and I've vowed never to do that - for your safety.""
+        1 string data = ""本当ですか! なんて素晴らしい責任! でも...それはあなたの側を離れることを意味します。あなたの安全のために、それは決してしないと誓ったのに。""
        [13]
-        1 string data = ""For <i>your</i> safety, you should reconsider that vow.""
+        1 string data = ""<i>あなたの</i>安全のために、その誓いを再考した方がいいわよ。""
        [14]
         1 string data = ""
        [15]
-        1 string data = ""Mother Polyp?""
+        1 string data = ""マザー・ポリップ?""
        [16]
-        1 string data = ""Uh, Mother Polyp?""
+        1 string data = ""あの、マザー・ポリップ?""
        [17]
-        1 string data = ""I, uh...""
+        1 string data = ""私、その...""
        [18]
-        1 string data = ""Never mind. I guess you're busy.""
+        1 string data = ""いいです。お忙しいんですね。""
        [19]
-        1 string data = "::sighs::"
+        1 string data = "::ため息::"
        [20]
-        1 string data = ""Congratulations on your promotion, Mother Polyp.""
+        1 string data = ""昇進おめでとうございます、マザー・ポリップ。""
        [21]
-        1 string data = ""Thank you.""
+        1 string data = ""ありがとう。""
        [22]
-        1 string data = ""Sad about Father Bezoar, but it worked out nice for you, huh?""
+        1 string data = ""ファーザー・ベゾアのことは残念ですが、あなたにとってはうまくいきましたね?""
        [23]
-        1 string data = ""What? What have you heard?""
+        1 string data = ""何? 何を聞いたの?""
        [24]
-        1 string data = ""Huh? What have I heard about what?""
+        1 string data = ""え? 何について何を聞いたって?""
        [25]
-        1 string data = ""Nothing. Nothing. Never mind.""
+        1 string data = ""何でもない。何でもないわ。忘れて。""
        [26]
-        1 string data = ""Am... I bothering you?""
+        1 string data = ""私...邪魔してますか?""
        [27]
-        1 string data = ""You've got that far away look again. Everything all right?""
+        1 string data = ""また遠くを見ていますね。大丈夫ですか?""
        [28]
-        1 string data = ""I guess I'm bothering you.""
+        1 string data = ""やっぱり邪魔してるんですね。""
        [29]
-        1 string data = ""Yes? No?""
+        1 string data = ""はい? いいえ?""
        [30]
         1 string data = ""
        [31]
-        1 string data = ""It's totally not fair Father Bezoar got to be the speaker again when he came back. You were doing a great job.""
+        1 string data = ""ファーザー・ベゾアが戻ってきて再び語り部になったのは全然フェアじゃないですよ。あなたは素晴らしい仕事をしていたのに。""
        [32]
-        1 string data = ""Thank you.""
+        1 string data = ""ありがとう。""
        [33]
-        1 string data = ""I'm still with you.""
+        1 string data = ""私はまだあなたの味方です。""
        [34]
-        1 string data = ""Yes. That <i>is</i> a consolation.""
+        1 string data = ""ええ。それ<i>は</i>慰めになるわ。""
        [35]
-        1 string data = ""You want me to go talk to the Proteus for you, Sister? Tell them you should have Bezoar's job?""
+        1 string data = ""シスター、私がプロテウスに話しに行きましょうか? あなたがベゾアの仕事を引き継ぐべきだと伝えますよ?""
        [36]
-        1 string data = ""I would rather be eaten alive by waste wolves.""
+        1 string data = ""ウェイストウルフに生きたまま食べられる方がましだわ。""
        [37]
-        1 string data = ""Huh?""
+        1 string data = ""え?""
        [38]
-        1 string data = ""Would you keep your voice down!?""
+        1 string data = ""声を落としてくれない!?""
        [39]
-        1 string data = ""You know, Sister, if you wanted something to happen to Father Bezoar, well, I... I... There isn't much I wouldn't do for you.""
+        1 string data = ""ねぇシスター、もしファーザー・ベゾアに何かあってほしいなら、私、私...あなたのためならやれないことはほとんどありません。""
        [40]
-        1 string data = ""Sorry, sorry. Er, was that a yes?""
+        1 string data = ""ごめんなさい、ごめんなさい。あの、それは「はい」ってことですか?""
        [41]
-        1 string data = ""Shut. Up.""
+        1 string data = ""黙れ。""
        [42]
-        1 string data = ""Would... would you like to bathe in the cooling pools with me sometime, Sister Polyp?""
+        1 string data = ""いつか...シスター・ポリップと一緒に冷却プールで入浴しませんか?""
        [43]
-        1 string data = ""Only if one of us didn't come back.""
+        1 string data = ""どちらかが戻ってこないならね。""
        [44]
-        1 string data = ""Huh?""
+        1 string data = ""え?""
        [45]
-        1 string data = ""And I honestly don't care much anymore which one of us.""
+        1 string data = ""正直もう、どっちでもいいわ。""
        [46]
-        1 string data = ""Sister Polyp?""
+        1 string data = ""シスター・ポリップ?""
        [47]
-        1 string data = ""Uh, Sister Polyp?""
+        1 string data = ""あの、シスター・ポリップ?""
        [48]
-        1 string data = "::coughs:: "Sorry, I had something in my throat.""
+        1 string data = "::咳払い:: 「ごめんなさい、喉に何か詰まってて。」"
        [49]
-        1 string data = ""Oh. Okay.""
+        1 string data = ""ああ。そうですか。""
        [50]
         1 string data = ""
        [51]
-        1 string data = ""Polyp, I'll protect you!""
+        1 string data = ""ポリップ、守ります!""
        [52]
-        1 string data = ""Why are you attacking us?""
+        1 string data = ""なぜ我々を攻撃するんだ?""
        [53]
-        1 string data = ""Stop it!""
+        1 string data = ""やめて!""
        [54]
         1 string data = ""
        [55]
-        1 string data = ""Hi again, Rangers!""
+        1 string data = ""また会いましたね、レンジャーズ!""
        [56]
-        1 string data = ""Thanks for rescuing me!""
+        1 string data = ""助けてくれてありがとう!""
        [57]
-        1 string data = ""Can't talk now, I'm protecting Sister Polyp.""
+        1 string data = ""今は話せません、シスター・ポリップを守っているので。""
        [58]
-        1 string data = ""Can't talk now, I'm protecting Mother Polyp.""
+        1 string data = ""今は話せません、マザー・ポリップを守っているので。""
        [59]
-        1 string data = ""It's so good to be back here with Mother Polyp.""
+        1 string data = ""マザー・ポリップとここに戻ってこられて本当に嬉しいです。""
        [60]
-        1 string data = ""It's so good to be back here with Sister Polyp.""
+        1 string data = ""シスター・ポリップとここに戻ってこられて本当に嬉しいです。""
        [61]
         1 string data = ""
    [72]
