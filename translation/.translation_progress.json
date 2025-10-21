@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-21T17:15:45+09:00",
+  "last_updated": "2025-10-21T16:45:00+09:00",
   "current_file": "DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
-  "total_entries_completed": 44501,
-  "last_completed_section": "DLC2: e2001_mainelevator完了(18エントリ)",
-  "next_section_to_translate": "e2001_ram (76エントリ - 大規模RAMクエストダイアログ)",
-  "next_action": "Session 75: デバッグ・ユーティリティセクション群を翻訳完了(合計208エントリ、2コミット)。次セッション: e2001_ram(76エントリの大規模セクション)から継続。",
-  "notes": "Session 75 (2025-10-21): DLC2デバッグ・ユーティリティセクション完了(合計208エントリ、2コミット)。Part 1: tumor~dconelevator(137エントリ)。Part 2: debug_cheat_ram~mainelevator(71エントリ)。次の大規模セクションe2001_ram(76エントリ)はメモリ管理のため次セッションで処理。",
+  "total_entries_completed": 44743,
+  "last_completed_section": "DLC2: e3001_geronimo完了(79エントリ - CochiseバックアップAI対話)",
+  "next_section_to_translate": "e3001_headresearcher (71エントリ - 主任研究員対話)",
+  "next_action": "Session 76: RAM/Geronimoクエスト&デバッグセクション翻訳完了(242エントリ)。次セッション: e3001_headresearcher(71エントリ)から継続。",
+  "notes": "Session 76 (2025-10-21): DLC2 RAM/Geronimoクエスト翻訳完了(242エントリ)。主要セクション: e2001_ram(76エントリ:RAMスパイダーボット救出クエスト), e3001_geronimo(79エントリ:CochiseバックアップAI Geronimoとの哲学的対話)。その他: VRツアー(25エントリ), デバッグ端末(33エントリ), General 3無線(7エントリ), スパイダーボット修理端末(22エントリ)。次セッション: e3001_headresearcher(71エントリ)から継続。",
   "sections_completed": [
     "Base game - mission_o2001_thickerthanblood (complete)",
     "Base game - mission_o2001_thickerthanwater (complete)",
@@ -96,8 +96,21 @@
     "DLC2 - e2001_general3radiobark_00/01 (General 3 radio barks) - 2 entries",
     "DLC2 - e2001_general3radiointro (General 3 radio intro) - 2 entries",
     "DLC2 - e2001_keypad_checkpointmainelevator_guard (checkpoint elevator keypad) - 8 entries",
-    "DLC2 - e2001_mainelevator (main elevator control terminal) - 18 entries"
+    "DLC2 - e2001_mainelevator (main elevator control terminal) - 18 entries",
+    "DLC2 - e2001_ram (RAM spiderbot rescue quest) - 76 entries",
+    "DLC2 - e2001_spiderbotrepair (spiderbot repair terminal) - 22 entries",
+    "DLC2 - e2001_vrheadset_reservoir (VR headset water reservoir tour) - 2 entries",
+    "DLC2 - e2001_vr_holo_doorguard (VR hologram door guard tour) - 11 entries",
+    "DLC2 - e2001_vr_holo_id_guard (VR hologram ID guard tour) - 10 entries",
+    "DLC2 - e0001_vrheadset_skilltraining (VR skill training simulator tour) - 2 entries",
+    "DLC2 - e3001_ai_roboticscomputer (AI robotics computer terminal) - 10 entries",
+    "DLC2 - e3001_debug_geronimo (debug console for Geronimo/RAM/REM party status) - 9 entries",
+    "DLC2 - e3001_debug_headresearcher (debug console for head researcher quest variables) - 14 entries",
+    "DLC2 - e3001_fader_radioresponce_00 (Fader radio response to General 3) - 1 entry",
+    "DLC2 - e3001_general3radiobark_00/01/02 (General 3 radio barks) - 3 entries",
+    "DLC2 - e3001_general3radiointro (General 3 radio intro, lockdown alert) - 3 entries",
+    "DLC2 - e3001_geronimo (Geronimo AI black box, Cochise backup, philosophical dialogue) - 79 entries"
   ],
-  "last_commit": "386b9ce",
-  "session_number": 75
+  "last_commit": "76d11b1",
+  "session_number": 76
 }
