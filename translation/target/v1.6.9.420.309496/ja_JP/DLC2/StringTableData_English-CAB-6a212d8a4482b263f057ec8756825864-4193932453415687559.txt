@@ -47343,49 +47343,49 @@
       1 Array Array (29 items)
        0 int size = 29
        [0]
-        1 string data = " Use medicine skill to heal the Fader."
+        1 string data = " 医療スキルを使用してFADERを治療する。"
        [1]
-        1 string data = " With no life support he had no chance."
+        1 string data = " 生命維持装置がなければ、彼に勝ち目はなかった。"
        [2]
-        1 string data = " You saved his life."
+        1 string data = " あなたは彼の命を救った。"
        [3]
-        1 string data = " Use surgeon skill to end the Fader's life."
+        1 string data = " 外科医スキルを使用してFADERの命を絶つ。"
        [4]
-        1 string data = " The Fader is alive but unconscious."
+        1 string data = " FADERは生きているが意識不明だ。"
        [5]
-        1 string data = " You botched the job, he's dead Jim."
+        1 string data = " 作業を失敗した、彼は死んだぞジム。"
        [6]
-        1 string data = " He's dead Jim."
+        1 string data = " 彼は死んだぞジム。"
        [7]
-        1 string data = " You saved his life."
+        1 string data = " あなたは彼の命を救った。"
        [8]
-        1 string data = " End his life."
+        1 string data = " 彼の命を絶つ。"
        [9]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [10]
-        1 string data = " I pitty the fool who gets this responce."
+        1 string data = " この反応を得る愚か者が哀れだ。"
        [11]
-        1 string data = " Use skill."
+        1 string data = " スキルを使用する。"
        [12]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [13]
-        1 string data = " He's still dead Jim."
+        1 string data = " 彼はまだ死んだままだぞジム。"
        [14]
-        1 string data = " Thanks for saving me."
+        1 string data = " 助けてくれてありがとう。"
        [15]
-        1 string data = " Jane sent us, head to our HQ."
+        1 string data = " ジェーンが我々を送った、我々の本部へ向かえ。"
        [16]
-        1 string data = " You're safe now, head to HQ."
+        1 string data = " もう安全だ、本部へ向かえ。"
        [17]
-        1 string data = " Good to see you again Jane."
+        1 string data = " また会えて嬉しいよジェーン。"
        [18]
-        1 string data = " Who are you."
+        1 string data = " あんたは誰だ。"
        [19]
-        1 string data = " Thank you Jane."
+        1 string data = " ありがとうジェーン。"
        [20]
-        1 string data = " Thank you Rangers."
+        1 string data = " ありがとうレンジャーズ。"
        [21]
-        1 string data = " Thanks"
+        1 string data = " ありがとう"
        [22]
         1 string data = " Set Vars"
        [23]
@@ -47441,19 +47441,19 @@
       1 Array Array (7 items)
        0 int size = 7
        [0]
-        1 string data = " interact with the life sport machine."
+        1 string data = " 生命維持装置と対話する。"
        [1]
-        1 string data = " Use computer skill on machine?"
+        1 string data = " 装置にコンピュータースキルを使用する?"
        [2]
         1 string data = " Set life support = 0"
        [3]
-        1 string data = " Success: You have shut down life support.\n(Fader dies)"
+        1 string data = " 成功:生命維持装置をシャットダウンした。\n(FADERは死亡)"
        [4]
-        1 string data = " Your skill is not high enough."
+        1 string data = " あなたのスキルは十分ではない。"
        [5]
         1 string data = " Set life support = 1"
        [6]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
    [243]
     0 StringTable data
      1 string Filename = "e0001_vrheadset_simchamber"
@@ -47477,7 +47477,7 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = ""Welcome to level 5. Come this way to the Sim Chamber.""
+        1 string data = "「レベル5へようこそ。こちらへどうぞ、シミュレーションチェンバーへ。」"
    [244]
     0 StringTable data
      1 string Filename = "e4001_debug_cheat_old_soldier"
@@ -47715,7 +47715,7 @@
       1 Array Array (56 items)
        0 int size = 56
        [0]
-        1 string data = " Pick you're variables."
+        1 string data = " 変数を選択してください。"
        [1]
         1 string data = " Set e4001_Old_Soldier_ExcavatorMovesRubble to 1"
        [2]
@@ -47731,77 +47731,77 @@
        [7]
         1 string data = " Set e4001_Old_Soldier_isSoldier03Alive to 1"
        [8]
-        1 string data = " Set e4001_Old_Soldier_MissionAccepted to 1\n\n\nPLAYER ACCEPTED MISSION"
+        1 string data = " Set e4001_Old_Soldier_MissionAccepted to 1\n\n\nプレイヤーがミッション受諾"
        [9]
         1 string data = " Set e4001_Old_Soldier_ExcavatorMovesRubble to 0"
        [10]
-        1 string data = " RETURN."
+        1 string data = " 戻る。"
        [11]
         1 string data = " Set e4001_Old_Soldier_GiveSoldierTime to 0"
        [12]
-        1 string data = " RETURN."
+        1 string data = " 戻る。"
        [13]
         1 string data = " Set e4001_Old_Soldier_isHeadResearcherAlive to 0"
        [14]
-        1 string data = " RETURN."
+        1 string data = " 戻る。"
        [15]
         1 string data = " Set e4001_Old_Soldier_isPlayerDick to 0"
        [16]
-        1 string data = " RETURN."
+        1 string data = " 戻る。"
        [17]
         1 string data = " Set e4001_Old_Soldier_isSoldier01Alive to 0"
        [18]
-        1 string data = " RETURN."
+        1 string data = " 戻る。"
        [19]
         1 string data = " Set e4001_Old_Soldier_isSoldier02Alive to 0"
        [20]
-        1 string data = " RETURN."
+        1 string data = " 戻る。"
        [21]
         1 string data = " Set e4001_Old_Soldier_isSoldier03Alive to 0"
        [22]
-        1 string data = " RETURN."
+        1 string data = " 戻る。"
        [23]
-        1 string data = " Set e4001_Old_Soldier_MissionAccepted to 2\n\n\nPLAYED FAILED MISSION"
+        1 string data = " Set e4001_Old_Soldier_MissionAccepted to 2\n\n\nプレイヤーがミッション失敗"
        [24]
-        1 string data = " EXIT."
+        1 string data = " 終了。"
        [25]
-        1 string data = " Set e4001_Old_Soldier_MissionAccepted to 3\n\n\nPLAYER COMPLETED MISSION"
+        1 string data = " Set e4001_Old_Soldier_MissionAccepted to 3\n\n\nプレイヤーがミッション完了"
        [26]
-        1 string data = " EXIT."
+        1 string data = " 終了。"
        [27]
-        1 string data = " Set e4001_Old_Soldier_MissionAccepted to 0\n\n\nPLAYER HAS NOT ACCEPTED MISSION"
+        1 string data = " Set e4001_Old_Soldier_MissionAccepted to 0\n\n\nプレイヤーはミッション未受諾"
        [28]
-        1 string data = " EXIT."
+        1 string data = " 終了。"
        [29]
-        1 string data = " Pick you're variables."
+        1 string data = " 変数を選択してください。"
        [30]
-        1 string data = " Set e4001_Old_Soldier_MissionAccepted to 3\n\n\nPLAYER COMPLETED MISSION"
+        1 string data = " Set e4001_Old_Soldier_MissionAccepted to 3\n\n\nプレイヤーがミッション完了"
        [31]
-        1 string data = " Set e4001_Old_Soldier_MissionAccepted to 0\n\n\nPLAYER HAS NOT ACCEPTED MISSION"
+        1 string data = " Set e4001_Old_Soldier_MissionAccepted to 0\n\n\nプレイヤーはミッション未受諾"
        [32]
-        1 string data = " RETURN."
+        1 string data = " 戻る。"
        [33]
-        1 string data = " RETURN."
+        1 string data = " 戻る。"
        [34]
-        1 string data = " Pick you're variables."
+        1 string data = " 変数を選択してください。"
        [35]
-        1 string data = " Pick you're variables."
+        1 string data = " 変数を選択してください。"
        [36]
-        1 string data = " Pick you're variables."
+        1 string data = " 変数を選択してください。"
        [37]
-        1 string data = " Pick you're variables."
+        1 string data = " 変数を選択してください。"
        [38]
-        1 string data = " Pick you're variables."
+        1 string data = " 変数を選択してください。"
        [39]
-        1 string data = " Pick you're variables."
+        1 string data = " 変数を選択してください。"
        [40]
-        1 string data = " Pick you're variables."
+        1 string data = " 変数を選択してください。"
        [41]
-        1 string data = " Pick you're variables."
+        1 string data = " 変数を選択してください。"
        [42]
-        1 string data = " EXIT."
+        1 string data = " 終了。"
        [43]
-        1 string data = " REST ALL VARIABLES."
+        1 string data = " 全変数をリセット。"
        [44]
         1 string data = " Set e3001_HeadResearcher_GaveKeycard to 0"
        [45]
@@ -48591,87 +48591,87 @@
       1 Array Array (188 items)
        0 int size = 188
        [0]
-        1 string data = " What do you want?"
+        1 string data = " 何の用だ?"
        [1]
-        1 string data = " I came looking to clear this place out."
+        1 string data = " この場所を掃討しに来た。"
        [2]
-        1 string data = ""We're the Rangers. Who the hell are you?""
+        1 string data = "「我々はレンジャーズだ。あんたは一体誰だ?」"
        [3]
-        1 string data = " Goodbye."
+        1 string data = " さようなら。"
        [4]
-        1 string data = ""Long story. Look. I'm one of the FADERS who run this place. Or at least I was. I mean, I'm still a FADER, but I don't run this place. Not yet. Can I tell you my story, or are you gonna try to kill me?""
+        1 string data = "「長い話だ。いいか。俺はこの場所を運営していたFADERの一人だ。少なくとも以前はそうだった。つまり、俺はまだFADERだが、この場所は運営していない。まだな。俺の話を聞くか、それとも俺を殺そうとするか?」"
        [5]
-        1 string data = ""We're not your fucking messengers.""
+        1 string data = "「我々はあんたのクソ使い走りじゃない。」"
        [6]
-        1 string data = ""Sure. We'll find your friends.""
+        1 string data = "「分かった。あんたの仲間を見つけよう。」"
        [7]
-        1 string data = " Goodbye."
+        1 string data = " さようなら。"
        [8]
-        1 string data = ""Then piss off, throwback. Get the fuck out of here before I bring this room down on all of us.""
+        1 string data = "「じゃあ失せろ、原始人野郎。俺が全員まとめてこの部屋ごと潰す前に出て行け。」"
        [9]
-        1 string data = " Thank you, make sure you don't kill some FADER Soldiers on the Science Level, the Command Level and the Living Quarters level."
+        1 string data = " ありがとう、科学レベル、指揮レベル、居住区レベルにいるFADER兵士たちを殺さないでくれ。"
        [10]
-        1 string data = " Also make sure to spare the life of the Head Researcher\n\n\nRECIEVE MISSION: Old Soldiers Never Die, they just FADERs Away"
+        1 string data = " それから、主任研究員の命も必ず助けてくれ\n\n\nミッション受諾: 老兵は死なず、ただFADERに消ゆ"
        [11]
-        1 string data = " I'll be watching you."
+        1 string data = " 見ているぞ。"
        [12]
-        1 string data = " You done yet!"
+        1 string data = " もう終わったか!"
        [13]
         1 string data = " REST VARIABLES."
        [14]
-        1 string data = " Goodbye."
+        1 string data = " さようなら。"
        [15]
-        1 string data = " The Fader are gone."
+        1 string data = " FADERたちは去った。"
        [16]
         1 string data = " REST VARIABLES."
        [17]
-        1 string data = " Goodbye."
+        1 string data = " さようなら。"
        [18]
-        1 string data = " Thank you saving everyone."
+        1 string data = " 皆を救ってくれてありがとう。"
        [19]
-        1 string data = " We could have really  used the Head Researcher's help, you screwed the pooch on that one."
+        1 string data = " 主任研究員の助けが本当に必要だったんだが、お前は大失敗をやらかしたな。"
        [20]
-        1 string data = " Thank you for letting my friend on the Living Quarters Level live."
+        1 string data = " 居住区レベルにいる俺の友人を生かしてくれてありがとう。"
        [21]
-        1 string data = " We could have really  used the Head Researcher's help, you screwed the pooch on that one."
+        1 string data = " 主任研究員の助けが本当に必要だったんだが、お前は大失敗をやらかしたな。"
        [22]
-        1 string data = " The Head Researcher will be a lot of help, thank you."
+        1 string data = " 主任研究員は大いに役立つ、ありがとう。"
        [23]
-        1 string data = " What about turnning up the heat in here."
+        1 string data = " ここの暖房を上げることについてはどうだ。"
        [24]
-        1 string data = " Goodbye."
+        1 string data = " さようなら。"
        [25]
-        1 string data = " There are some tempature controls but they are blocked bu debris."
+        1 string data = " 温度制御装置があるが、瓦礫で塞がれている。"
        [26]
-        1 string data = " What the robots around here maybe they can move it?"
+        1 string data = " この辺のロボットが動かせるかもしれないか?"
        [27]
-        1 string data = " Goodbye."
+        1 string data = " さようなら。"
        [28]
-        1 string data = " Ahh yes, the Excavator could do it."
+        1 string data = " ああそうだ、エクスカベーターならできる。"
        [29]
         1 string data = " REST VARIABLES."
        [30]
-        1 string data = " Goodbye."
+        1 string data = " さようなら。"
        [31]
-        1 string data = " I have more questions."
+        1 string data = " もっと質問がある。"
        [32]
-        1 string data = " How could you let them all die."
+        1 string data = " どうして全員死なせたんだ。"
        [33]
-        1 string data = " How could you let them all die."
+        1 string data = " どうして全員死なせたんだ。"
        [34]
-        1 string data = " The Head Researcher will be a lot of help, thank you."
+        1 string data = " 主任研究員は大いに役立つ、ありがとう。"
        [35]
-        1 string data = " We could have really  used the Head Researcher's help, you screwed the pooch on that one."
+        1 string data = " 主任研究員の助けが本当に必要だったんだが、お前は大失敗をやらかしたな。"
        [36]
-        1 string data = " At leaset some made it out alive. The Head Researcher will be a lot of help, thank you."
+        1 string data = " 少なくとも何人かは生き延びた。主任研究員は大いに役立つ、ありがとう。"
        [37]
-        1 string data = " Thank you saving everyone."
+        1 string data = " 皆を救ってくれてありがとう。"
        [38]
-        1 string data = " I think you still have more work to do... You can't trick me."
+        1 string data = " まだやることがあると思うんだが…俺は騙せないぞ。"
        [39]
-        1 string data = " We could have really  used the Head Researcher's help, you screwed the pooch on that one."
+        1 string data = " 主任研究員の助けが本当に必要だったんだが、お前は大失敗をやらかしたな。"
        [40]
-        1 string data = " The Head Researcher will be a lot of help, thank you."
+        1 string data = " 主任研究員は大いに役立つ、ありがとう。"
        [41]
         1 string data = """"
        [42]
@@ -48689,121 +48689,121 @@
        [48]
         1 string data = ""
        [49]
-        1 string data = ""Tell us about the layout of the place.""
+        1 string data = "「この場所の構造について教えてくれ。」"
        [50]
         1 string data = ""
        [51]
-        1 string data = ""How'd you get down here?""
+        1 string data = "「どうやってここに来たんだ?」"
        [52]
-        1 string data = ""I was excavating the place when it collapsed on me. My comrades tried to get me out - at least to save my biomass - but gave up after a while. I was trapped, with nothing but my wits and some electronics. I put together some robots and started working on a way to contact the others.""
+        1 string data = "「この場所を発掘していたら崩落に巻き込まれた。仲間たちは俺を救出しようとした―少なくとも俺の生体物質を救おうとした―だがしばらくして諦めた。俺は閉じ込められ、知恵と電子機器だけが頼りだった。ロボットを組み立てて、他の者と連絡を取る方法を探し始めた。」"
        [53]
-        1 string data = ""My brothers agreed with me - it's time to find out what it means to live. So they've been slowly sabotaging the place, making sure they don't get injured or recycled. With each piece ruined, we make it easier to overthrow the ruling order.""
+        1 string data = "「俺の兄弟たちも同意してくれた―生きるとは何かを知る時が来たと。だから彼らはゆっくりとこの場所を破壊工作し、怪我をしたりリサイクルされたりしないようにしている。一つ一つ壊すたびに、支配秩序を覆すのが容易になる。」"
        [54]
-        1 string data = "The FADER's face is unusual - it's lined with worry. This soldier looks <i>old</i>. He fixes you with pale blue eyes, and his mouth tightens in a grimace. "
+        1 string data = "FADERの顔は尋常ではない―心配の皺が刻まれている。この兵士は<i>老けて</i>見える。彼は青白い目であなたを見つめ、口元を苦々しく引き締める。"
        [55]
-        1 string data = ""Thanks for your help, Rangers. Now I got to figure out how to put this place back together.""
+        1 string data = "「助けてくれてありがとう、レンジャーズ。さて、この場所をどう再建するか考えなきゃな。」"
        [56]
-        1 string data = ""Why'd you return? What do you need now?""
+        1 string data = "「なぜ戻ってきた?今度は何が必要なんだ?」"
        [57]
-        1 string data = ""All right, you scrubs. You've got a few seconds to explain yourselves before I bring this place down around us.""
+        1 string data = "「よし、ド素人ども。俺がこの場所を全員まとめて潰す前に、自分たちの説明をする時間を数秒やろう。」"
        [58]
-        1 string data = ""So you're not like the last ones to come through here, then. That's good. You want to investigate this place, you're going to need some help - access to the upper levels, disarmed explosives, elevators - stuff like that.""
+        1 string data = "「じゃあお前らは、ここを通った最後の連中とは違うんだな。それはいい。この場所を調査したいなら、助けが必要だ―上層階へのアクセス、爆薬の解除、エレベーター―そういったものだ。」"
        [59]
-        1 string data = ""We're not here to fight. We're just investigating.""
+        1 string data = "「我々は戦いに来たんじゃない。ただ調査しているだけだ。」"
        [60]
-        1 string data = ""I've reconsidered your offer. I'm ready to help you.""
+        1 string data = "「あんたの申し出を再考した。協力する準備ができた。」"
        [61]
-        1 string data = ""Talked to Soldier-78 on level 2. He's coming.""
+        1 string data = "「レベル2のソルジャー78と話した。彼は来るそうだ。」"
        [62]
-        1 string data = ""You can surrender or die.""
+        1 string data = "「降伏するか死ぬかだ。」"
        [63]
         1 string data = """"
        [64]
-        1 string data = ""If you're serious about wanting my help, I've got some conditions. Some of these other soldiers are friends of mine, and I need them alive to help rebuild our society. But I can't do that without the knowledge from the researchers.""
+        1 string data = "「本気で俺の助けが欲しいなら、条件がある。この兵士たちの何人かは俺の友人で、社会を再建するために生きている必要がある。だが研究者たちの知識がなければそれはできない。」"
        [65]
-        1 string data = ""I've got three mates I need you to find. Soldier-23 is on level 4, Soldier-78 is on level 2, and Soldier-115 is on level 3. Tell them 'Foxtrot Uniform'. They'll know what you mean. Sadly, most of the rest of my old cohort's likely to fire first and ask questions later, and I won't hold it against it you if they die."\n\n\nHe smiles thinly."
+        1 string data = "「探してほしい仲間が3人いる。ソルジャー23はレベル4、ソルジャー78はレベル2、ソルジャー115はレベル3にいる。『フォックストロット・ユニフォーム』と伝えてくれ。意味は分かるはずだ。残念ながら、俺の古い仲間の大半は、まず撃ってから質問するタイプだろうが、彼らが死んでもお前を責めはしない。」\n\n\n彼はかすかに微笑む。"
        [66]
         1 string data = "Script Node 76"
        [67]
-        1 string data = ""Motherfuckers, if that's the way you want this to go, I'm game. This robot? It'll fucking END you.""
+        1 string data = "「クソ野郎ども、そういう風にやりたいならいいぞ。このロボットか?お前らを完全に終わらせる。」"
        [68]
-        1 string data = ""I am more than willing to talk.""
+        1 string data = "「喜んで話すつもりだ。」"
        [69]
-        1 string data = "[Attack] "Bring it, asshole.""
+        1 string data = "[攻撃] 「かかって来いよ、クソ野郎。」"
        [70]
-        1 string data = ""Tell your story. Won't make any promises.""
+        1 string data = "「あんたの話を聞こう。約束はしないが。」"
        [71]
-        1 string data = ""If you're one of these asshole FADERS, you've got to die.""
+        1 string data = "「お前がこのクソFADERの一人なら、死ななきゃならない。」"
        [72]
-        1 string data = ""I won't kill you."
+        1 string data = "「お前を殺さない。"
        [73]
-        1 string data = ""Good news. In that case, here's what I need.""
+        1 string data = "「良い知らせだ。それなら、必要なものはこれだ。」"
        [74]
-        1 string data = ""Talked to Soldier-115 on level 3. He's coming.""
+        1 string data = "「レベル3のソルジャー115と話した。彼は来るそうだ。」"
        [75]
-        1 string data = ""Talked to Soldier-23 on level 4. He's coming.""
+        1 string data = "「レベル4のソルジャー23と話した。彼は来るそうだ。」"
        [76]
-        1 string data = ""Found the head researcher. She says she needs a keycard. She was glad your genetic material wasn't going to waste.""
+        1 string data = "「主任研究員を見つけた。彼女はキーカードが必要だと言っている。あんたの遺伝子物質が無駄にならないことを喜んでいた。」"
        [77]
-        1 string data = ""Head researcher has a keycard, and she's on the way.""
+        1 string data = "「主任研究員はキーカードを手に入れた、そして彼女は向かっている。」"
        [78]
-        1 string data = ""Answer a few other questions for me, will you?""
+        1 string data = "「他にもいくつか質問に答えてくれないか?」"
        [79]
-        1 string data = ""Bye.""
+        1 string data = "「じゃあな。」"
        [80]
-        1 string data = ""So long.""
+        1 string data = "「ではまた。」"
        [81]
-        1 string data = ""You make some decent robots. Any chance I could get one?""
+        1 string data = "「なかなか良いロボットを作るな。一つもらえないか?」"
        [82]
         1 string data = """"
        [83]
-        1 string data = ""Fuck no. You haven't done anything for me. Why should I do anything for you?""
+        1 string data = "「クソが、無理だ。お前は俺のために何もしていない。なぜ俺がお前のために何かしなきゃならないんだ?」"
        [84]
         1 string data = """"
        [85]
-        1 string data = ""No. No reason to help you until you help me.""
+        1 string data = "「いや。お前が俺を助けるまで、お前を助ける理由はない。」"
        [86]
-        1 string data = ""Go on. Get moving. Now.""
+        1 string data = "「さあ行け。今すぐだ。」"
        [87]
-        1 string data = ""I don't know about that. There's plenty going to waste, if you know what I mean. It's, ah, awful lonely down here.""
+        1 string data = "「それはどうかな。無駄になっているものがたくさんある、意味は分かるだろう。ああ、ここは本当に孤独なんだ。」"
        [88]
-        1 string data = ""But if she can get her hands on the cloning tech, that won't be a problem for much longer. Wish I could tell you where the keycard is, but I haven't got the faintest idea.""
+        1 string data = "「だが彼女がクローン技術を手に入れれば、もうすぐ問題はなくなる。キーカードがどこにあるか教えられればいいんだが、まったく見当もつかない。」"
        [89]
-        1 string data = ""Great. I've had a lot of time on my hands - well, time and, uh... other stuff... and once we get her cloning tanks up and running, we'll be able to repair some of the damage our creators did to us.""
+        1 string data = "「素晴らしい。俺は時間がたっぷりあった―まあ、時間と、その…他のものも…彼女のクローンタンクが稼働すれば、創造主が俺たちに与えた損傷の一部を修復できる。」"
        [90]
-        1 string data = ""What the fuck do you want?""
+        1 string data = "「何が欲しいんだ、クソが?」"
        [91]
-        1 string data = ""Nothing. Goodbye.""
+        1 string data = "「何も。さようなら。」"
        [92]
-        1 string data = "[Attack] "We're here to kill you.""
+        1 string data = "[攻撃] 「お前を殺しに来た。」"
        [93]
-        1 string data = ""You sure like to threaten a lot. Tell you what, fucko. I'm sick of hearing your shit, and honestly, I don't really care if I live or die. So you know what? Fuck you.""
+        1 string data = "「本当に脅すのが好きだな。教えてやるよ、クソ野郎。お前のたわ言を聞くのはもううんざりだ、正直言って、俺は生きようが死のうがどうでもいい。だから知ってるか?くたばれ。」"
        [94]
         1 string data = """"
        [95]
-        1 string data = "He presses a button, and the robot whirrs to life."
+        1 string data = "彼はボタンを押し、ロボットが唸りを上げて起動する。"
        [96]
-        1 string data = ""That's where you're wrong, you arrogant fuckstick.""
+        1 string data = "「そこが間違いだ、傲慢なクソ野郎。」"
        [97]
-        1 string data = ""Glad you see it my way. Now let's talk. I'm gonna tell you my story.  And then we'll talk about what you can do for me... and what I can do for you. Unless you plan to kill me first.""
+        1 string data = "「俺の考えに同意してくれて嬉しい。さあ話そう。俺の話をしよう。それから、お前が俺のためにできること…そして俺がお前のためにできることを話そう。先に俺を殺すつもりでなければな。」"
        [98]
-        1 string data = ""Get the fuck out of here. Maybe I'll calm down later, but right now, I can barely keep my finger from pushing this button.""
+        1 string data = "「ここから出て行け。後で落ち着くかもしれないが、今は指がこのボタンを押さないようにするのがやっとだ。」"
        [99]
-        1 string data = ""We can be reasonable.""
+        1 string data = "「我々は理性的になれる。」"
        [100]
-        1 string data = ""I... said... FUCKING GO.""
+        1 string data = "「俺は…言った…とっとと失せろ。」"
        [101]
-        1 string data = ""All right, I'm going.""
+        1 string data = "「分かった、行く。」"
        [102]
-        1 string data = ""NOW.""
+        1 string data = "「今すぐだ。」"
        [103]
         1 string data = ""
        [104]
-        1 string data = ""Glad you're willing to be reasonable. Us FADERS, we're soldiers - vat-grown, no mothers or fathers like you people. Our researchers tailor our genes, and when we die or suffer severe injury, we mix our biomass back into the common pool. Accelerated learning takes care of our education.""
+        1 string data = "「理性的になってくれて嬉しい。俺たちFADERは兵士だ―槽培養で育てられ、お前たちのような母親や父親はいない。研究者たちが遺伝子を調整し、俺たちが死んだり重傷を負ったりすると、生体物質を共有プールに戻す。加速学習が教育を担当する。」"
        [105]
-        1 string data = ""Glad to hear it. Anything else?""
+        1 string data = "「それは良かった。他に何かあるか?」"
        [106]
-        1 string data = ""Fine work. Two more to go, and then"
+        1 string data = "「良い仕事だ。あと2人で、それから"
        [107]
         1 string data = ""Lots of levels here. What are you looking for specifically?""
        [108]
@@ -56311,7 +56311,7 @@
       1 Array Array (45 items)
        0 int size = 45
        [0]
-        1 string data = " Pick you're variables."
+        1 string data = " 変数を選択してください。"
        [1]
         1 string data = " e2001_ENEMY_isLevelOneClear = 1"
        [2]
@@ -56323,17 +56323,17 @@
        [5]
         1 string data = " e4001_ENEMY_isLevelFiveClear = 1"
        [6]
-        1 string data = " Pick you're variables."
+        1 string data = " 変数を選択してください。"
        [7]
-        1 string data = " Pick you're variables."
+        1 string data = " 変数を選択してください。"
        [8]
-        1 string data = " Pick you're variables."
+        1 string data = " 変数を選択してください。"
        [9]
-        1 string data = " Pick you're variables."
+        1 string data = " 変数を選択してください。"
        [10]
-        1 string data = " Pick you're variables."
+        1 string data = " 変数を選択してください。"
        [11]
-        1 string data = " REST ALL VARIABLES."
+        1 string data = " 全変数をリセット。"
        [12]
         1 string data = " e2001_Old_Soldier_ReprogramRepairBot = 1"
        [13]
@@ -56357,15 +56357,15 @@
        [22]
         1 string data = " e4001_ENEMY_isLevelFiveClear = 0"
        [23]
-        1 string data = " REST ALL VARIABLES."
+        1 string data = " 全変数をリセット。"
        [24]
-        1 string data = " Pick you're variables."
+        1 string data = " 変数を選択してください。"
        [25]
         1 string data = " e2001_RAM_metRAM = 0"
        [26]
         1 string data = " Return"
        [27]
-        1 string data = " Pick you're variables."
+        1 string data = " 変数を選択してください。"
        [28]
         1 string data = "  e5001_RAM_AskedAboutButcher = 1"
        [29]
