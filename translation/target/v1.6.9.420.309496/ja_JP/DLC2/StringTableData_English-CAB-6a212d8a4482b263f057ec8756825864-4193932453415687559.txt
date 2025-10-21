@@ -43595,7 +43595,7 @@
       1 Array Array (1 items)
        0 int size = 1
        [0]
-        1 string data = " General3 says something.\nNOTE: This should be a bark"
+        1 string data = " ゼネラル3が何か言う。\n注: これはバーク(短い台詞)であるべき"
    [203]
     0 StringTable data
      1 string Filename = "e4001_general3radiobark_01"
@@ -43613,7 +43613,7 @@
       1 Array Array (1 items)
        0 int size = 1
        [0]
-        1 string data = " General3 says something.\nNOTE: This should be a bark"
+        1 string data = " ゼネラル3が何か言う。\n注: これはバーク(短い台詞)であるべき"
    [204]
     0 StringTable data
      1 string Filename = "e4001_general3radiobark_02"
@@ -43631,7 +43631,7 @@
       1 Array Array (1 items)
        0 int size = 1
        [0]
-        1 string data = " General3 says something.\nNOTE: This should be a bark"
+        1 string data = " ゼネラル3が何か言う。\n注: これはバーク(短い台詞)であるべき"
    [205]
     0 StringTable data
      1 string Filename = "e4001_general3radiointro."
@@ -56481,7 +56481,7 @@
       1 Array Array (17 items)
        0 int size = 17
        [0]
-        1 string data = " Pick the globals you seek."
+        1 string data = " 必要なグローバル変数を選択してください。"
        [1]
         1 string data = " e5001_Citadel_FinishedTalking = 0"
        [2]
@@ -56503,17 +56503,17 @@
        [10]
         1 string data = " e5001_Citadel_isSatelliteReleased = 1"
        [11]
-        1 string data = " e5001_Citadel_MissionAccepted = 1\n\n\nMISSION ACCEPTED"
+        1 string data = " e5001_Citadel_MissionAccepted = 1\n\n\nミッション受諾"
        [12]
-        1 string data = " e5001_Citadel_MissionAccepted = 3\n\n\nMISSION COMPLETED"
+        1 string data = " e5001_Citadel_MissionAccepted = 3\n\n\nミッション完了"
        [13]
         1 string data = " e5001_Citadel_SatelliteComputerHacked = 0"
        [14]
         1 string data = " e5001_Citadel_SatelliteComputerHacked = 1"
        [15]
-        1 string data = " RESET VARIABLES"
+        1 string data = " 変数をリセット"
        [16]
-        1 string data = " Goodbye"
+        1 string data = " さようなら"
    [296]
     0 StringTable data
      1 string Filename = "e5001_debug_npc_blue"
@@ -56567,7 +56567,7 @@
       1 Array Array (10 items)
        0 int size = 10
        [0]
-        1 string data = " Pick the globals you seek."
+        1 string data = " 必要なグローバル変数を選択してください。"
        [1]
         1 string data = " e5001_OpsComputer_haveBlueGeneticMaterial = 0"
        [2]
@@ -56583,9 +56583,9 @@
        [7]
         1 string data = " e5001_OpsComputer_MissionAccepted = 3"
        [8]
-        1 string data = " RESET VARIABLES"
+        1 string data = " 変数をリセット"
        [9]
-        1 string data = " Goodbye"
+        1 string data = " さようなら"
    [297]
     0 StringTable data
      1 string Filename = "e5001_general3"
@@ -57035,223 +57035,223 @@
       1 Array Array (109 items)
        0 int size = 109
        [0]
-        1 string data = " What are you doing here?"
+        1 string data = " ここで何をしている?"
        [1]
-        1 string data = " What are the fader's plans"
+        1 string data = " FADERの計画は何だ"
        [2]
-        1 string data = " I'm here to kill you. (combat begins)"
+        1 string data = " お前を殺しに来た。(戦闘開始)"
        [3]
-        1 string data = " The General talks about stuff here."
+        1 string data = " 将軍がここで色々と話す。"
        [4]
-        1 string data = " Time to die. (combat begins)"
+        1 string data = " 死ぬ時だ。(戦闘開始)"
        [5]
-        1 string data = " I'm dead, move along."
+        1 string data = " 俺は死んだ、続けろ。"
        [6]
-        1 string data = " What?"
+        1 string data = " 何だと?"
        [7]
-        1 string data = ""You Rangers are tenacious, I'll give you that. Of course, as an offshoot of the proud United States military, I wouldn't expect anything less. Good job, soldiers."\n\n\n"Now I remind you - I am a general in that military, in an unbroken line of command. I order you now to stand down.""
+        1 string data = "「君たちレンジャーズは粘り強いな、それは認めよう。もちろん、誇り高き合衆国軍の分派である以上、それ以下は期待していない。よくやった、兵士諸君。」\n\n\n「さて、改めて伝えておこう――私はその軍の将軍であり、途切れることのない指揮系統の中にいる。今、諸君に武器を下ろすよう命令する。」"
        [8]
-        1 string data = "Debug menu"
+        1 string data = "デバッグメニュー"
        [9]
-        1 string data = ""Who the hell are <i>you</i> to order us around?""
+        1 string data = "「俺たちに命令するとは、<i>何様</i>のつもりだ?」"
        [10]
-        1 string data = ""What happens if we do stand down?""
+        1 string data = "「武器を下ろしたら、どうなる?」"
        [11]
-        1 string data = ""Go where?""
+        1 string data = "「どこへ行くんだ?」"
        [12]
-        1 string data = ""I am General-3, in command of this installation. My predecessors were given control of the facility at the beginning of the hostilities that brought about the destruction of the world order. I carry on their traditions - much as you attempt to carry on yours.""
+        1 string data = "「私はゼネラル3、この施設の司令官だ。私の前任者たちは、世界秩序を破壊した敵対行為の開始時にこの施設の管理権を与えられた。私は彼らの伝統を受け継いでいる――君たちが自分たちの伝統を受け継ごうとしているのと同じようにな。」"
        [13]
-        1 string data = ""Then I'll order my troops to escort you unharmed to the entrance of the mountain. You'll be free to go.""
+        1 string data = "「ならば私の部隊に命じて、諸君を無傷で山の入口まで護衛させよう。そうすれば自由に去れる。」"
        [14]
-        1 string data = ""You're kidding, right?""
+        1 string data = "「冗談だろう?」"
        [15]
-        1 string data = ""I do not joke. It is literally not in my DNA. My tasks are strategy, tactics, supply, and leadership. My mission is to rebuild the United States with people who can survive in this new world.""
+        1 string data = "「私は冗談を言わない。それは文字通り私のDNAに含まれていない。私の任務は戦略、戦術、補給、そして指揮だ。私の使命は、この新しい世界で生き残れる人々と共に合衆国を再建することだ。」"
        [16]
-        1 string data = ""If you will not submit to my lawful orders, I have no choice but to order your execution for mutiny, desertion, and other similar capital crimes against the government of the United States of America.""
+        1 string data = "「もし諸君が私の合法的な命令に従わないなら、私には選択の余地はない。アメリカ合衆国政府に対する反逆、脱走、その他類似の死刑に値する罪により、諸君の処刑を命じるしかない。」"
        [17]
-        1 string data = ""Who decides who survives? You?""
+        1 string data = "「誰が生き残る者を決めるんだ? お前か?」"
        [18]
-        1 string data = ""Your soldiers aren't people - they're machines who don't know how to live.""
+        1 string data = "「お前の兵士たちは人間じゃない――生き方を知らない機械だ。」"
        [19]
-        1 string data = ""How do you know who can survive? The people of Colorado have been doing a fine job already.""
+        1 string data = "「誰が生き残れるかどうやって分かる? コロラドの人々は既に立派にやっている。」"
        [20]
-        1 string data = ""Back to Arizona. At that time we can discuss folding the Rangers back into the proper military hierarchy.""
+        1 string data = "「アリゾナに戻れ。その時、レンジャーズを適切な軍事階層に組み込むことについて話し合うことができる。」"
        [21]
-        1 string data = ""With you at its head, I bet.""
+        1 string data = "「お前がそのトップに立つんだろうな。」"
        [22]
-        1 string data = ""I am a general, duly appointed and sworn to defend the Constitution of the United States. So yes, this is part of the mission.""
+        1 string data = "「私は将軍だ、正式に任命され、合衆国憲法を守ることを誓った。だから、そうだ、これは任務の一部だ。」"
        [23]
-        1 string data = ""And if we resist?""
+        1 string data = "「抵抗したら?」"
        [24]
-        1 string data = ""Then you will die. And rest assured that within a few years, we will ensure that all of your comrades in Arizona will die too.""
+        1 string data = "「ならば諸君は死ぬ。そして数年以内に、アリゾナにいる諸君の仲間全員も死ぬことを保証しよう。」"
        [25]
-        1 string data = ""If you call a dying man dominating the rest 'survival'. They are weak and fractious. They must be united. I will use our knowledge and our strength to rebuild America in <i>our</i> image.""
+        1 string data = "「瀕死の男が他を支配することを『生存』と呼ぶならな。彼らは弱く、分裂している。統一されなければならない。私は我々の知識と力を使って、<i>我々の</i>イメージでアメリカを再建する。」"
        [26]
-        1 string data = ""We will restore its might. And one day, who knows? We might even be able to elect a president again." "
+        1 string data = "「我々はその力を復活させる。そしていつか、誰が分かる? また大統領を選出できるようになるかもしれない。」"
        [27]
-        1 string data = ""Are you saying that you're going to eliminate the people of Colorado?""
+        1 string data = "「コロラドの人々を排除するつもりだと言っているのか?」"
        [28]
-        1 string data = ""So it's slavery or extinction?""
+        1 string data = "「つまり奴隷か絶滅か?」"
        [29]
-        1 string data = ""They are <i>soldiers</i>. They carry out orders. When our mission is complete, they can find new lives.""
+        1 string data = "「彼らは<i>兵士</i>だ。命令を実行する。我々の任務が完了したら、新しい人生を見つけられる。」"
        [30]
-        1 string data = ""Problem is, the mission is never complete. You'll always find some way to keep them under your thumb. That's the nature of power.""
+        1 string data = "「問題は、任務は決して完了しないことだ。お前はいつも何らかの方法で彼らを支配下に置き続けるだろう。それが権力の本質だ。」"
        [31]
-        1 string data = ""Well, we'd like to find new lives too. How about you let us walk out of here?""
+        1 string data = "「さて、俺たちも新しい人生を見つけたい。ここから歩いて出ていかせてくれないか?」"
        [32]
-        1 string data = """"
+        1 string data = ""
        [33]
-        1 string data = ""Our mission is to pacify Colorado. Until such time, their lives are mine to dispose of as I see fit.""
+        1 string data = "「我々の任務はコロラドを平定することだ。それまでは、彼らの命は私が適切と判断する通りに処分する。」"
        [34]
-        1 string data = ""Soldiers! FIRE!""
+        1 string data = "「兵士諸君! 発砲!」"
        [35]
-        1 string data = ""We have carried on the finest traditions of the United States military for over a century. Even your Rangers have fallen prey to the decay and rot of the post-America years. My command is not guided by emotion. It is guided by science and long-standing moral right.""
+        1 string data = "「我々は一世紀以上にわたり、合衆国軍の最高の伝統を守り続けてきた。君たちレンジャーズでさえ、ポスト・アメリカ時代の腐敗と退廃の犠牲になっている。私の指揮は感情に導かれてはいない。科学と長年の道徳的正義に導かれている。」"
        [36]
-        1 string data = "[Attack] "Fuck this.""
+        1 string data = "[攻撃] 「くそったれが。」"
        [37]
-        1 string data = """"
+        1 string data = ""
        [38]
-        1 string data = ""Please. That's such a <i>final</i> word. It is more accurate to say that we will be engaging the locals in a program we have called the Pacification. Throwback humans - your kind - will be cared for, tended, fed, and in return they will provide genetic material to increase our numbers.""
+        1 string data = "「お願いだ。それはあまりに<i>最終的な</i>言葉だ。正確に言えば、我々は地元住民を『平定』と呼ぶプログラムに参加させる。退化した人類――君たちのような――は世話され、養われ、食事を与えられ、その見返りに我々の数を増やすための遺伝物質を提供する。」"
        [39]
-        1 string data = ""It's cooperation, you see. Unfortunately, yes, we have to cull certain uncooperative settlements and individuals. But the alternative is extinction. We have already come perilously close.""
+        1 string data = "「協力関係だ、分かるだろう。残念ながら、確かに非協力的な集落や個人を間引く必要はある。しかし代替案は絶滅だ。我々はすでに危険なほど近づいていた。」"
        [40]
-        1 string data = ""You are twisting my words.""
+        1 string data = "「私の言葉を歪めている。」"
        [41]
-        1 string data = ""I'll take you up on that.""
+        1 string data = "「その申し出を受けよう。」"
        [42]
-        1 string data = ""You're not actually letting us walk out of here, are you?""
+        1 string data = "「本当に俺たちをここから出すつもりはないんだろう?」"
        [43]
-        1 string data = "He smiles thinly."
+        1 string data = "彼は薄く笑う。"
        [44]
-        1 string data = ""Of course not. You've proven yourselves to be formidable opponents. I'd be a fool to let you marshal forces against me.""
+        1 string data = "「もちろんない。諸君は手ごわい敵であることを証明した。諸君に軍勢を集めさせるのは愚かだ。」"
        [45]
-        1 string data = ""Go on, then. I'll send a courier with our terms when we have pacified Colorado.""
+        1 string data = "「では行きたまえ。コロラドを平定したら、我々の条件を伝令で送ろう。」"
        [46]
-        1 string data = ""Good travels, Rangers.""
+        1 string data = "「良い旅を、レンジャーズ。」"
        [47]
         1 string data = "Script Node 50"
        [48]
-        1 string data = ""I honestly thought you'd see through that lie. How disappointing. Soldiers, FIRE!""
+        1 string data = "「正直、その嘘を見抜けると思っていた。失望だ。兵士諸君、発砲!」"
        [49]
-        1 string data = """"
+        1 string data = ""
        [50]
-        1 string data = ""But first: You travel in the company of a soldier who fled this facility and is now AWOL. Turn the deserter over to us. We'll see she faces justice.""
+        1 string data = "「だがその前に: 諸君はこの施設から逃亡し、現在AWOL(無許可離隊)の兵士と行動を共にしている。その脱走兵を我々に引き渡せ。正義の裁きを受けさせる。」"
        [51]
-        1 string data = ""You're under arrest. We identified ourselves to the gate guard as legitimate members of the military. You ordered him to fire on us.""
+        1 string data = "「お前を逮捕する。我々は門衛に軍の正当なメンバーであると身分を明かした。お前は彼に我々への発砲を命じた。」"
        [52]
-        1 string data = ""I... wait, what? No, I..."\n\n\nHe glances around the room. The other FADERs are glancing at each other with raised eyebrows. Their body language shifts slightly, and the general raises his hands."
+        1 string data = "「私は... 待て、何だ? いや、私は...」\n\n\n彼は部屋を見回す。他のFADERたちは眉を上げて互いに顔を見合わせている。彼らのボディランゲージがわずかに変わり、将軍は手を上げる。"
        [53]
-        1 string data = ""Mission report.""
+        1 string data = "「ミッション報告。」"
        [54]
-        1 string data = ""We'd like to ask a few questions.""
+        1 string data = "「いくつか質問したい。」"
        [55]
-        1 string data = ""The rogue soldier is dead.""
+        1 string data = "「反逆兵士は死んだ。」"
        [56]
-        1 string data = """"
+        1 string data = ""
        [57]
-        1 string data = """"
+        1 string data = ""
        [58]
-        1 string data = ""Deserter? Wth all due respect, <i>sir</i>, you were planning to recycle me. You were willing to throw away my accumulated knowledge and experience. This is hard-won wisdom, and it should be shared. I left the mountain because I would not see it destroyed.""
+        1 string data = "「脱走兵? 失礼ながら、<i>サー</i>、あなたは私をリサイクルする計画を立てていました。私の蓄積した知識と経験を捨てるつもりでした。これは苦労して得た知恵であり、共有されるべきものです。私が山を離れたのは、それが破壊されるのを見たくなかったからです。」"
        [59]
-        1 string data = ""It is possible I misunderstood his communication. You have my apologies. Let me make this right. Perhaps I can assist you in your mission? I will need to speak to your commander."\n\n\n"I will order my troops to stand down. In exchange, I will require you to acknowledge my legitimate authority.""
+        1 string data = "「彼の通信を誤解した可能性がある。謝罪する。これを正そう。おそらく諸君の任務を支援できるだろうか? 諸君の司令官と話す必要がある。」\n\n\n「私の部隊に武器を下ろすよう命じる。その見返りに、私の正当な権限を認めてもらう必要がある。」"
        [60]
-        1 string data = ""You disobeyed a lawful order. Rangers, will you turn over your companion to submit to her rightful chain of command?""
+        1 string data = "「彼女は合法的な命令に背いた。レンジャーズ、仲間を引き渡して、正当な指揮系統に従わせるか?」"
        [61]
-        1 string data = ""I can vouch for this statement. Until I left the mountain, I was unaware that this existence has many facets we have not explored.""
+        1 string data = "「この発言を保証します。山を離れるまで、この存在には我々が探求していない多くの側面があることを知りませんでした。」"
        [62]
-        1 string data = ""Your job is not to <i>explore facets</i>. It is to <i>serve</i>."\n\n\nHe turns back to you."
+        1 string data = "「君の仕事は<i>側面を探求すること</i>ではない。<i>奉仕すること</i>だ。」\n\n\n彼はあなたに向き直る。"
        [63]
-        1 string data = ""We're not going to hand over our companion.""
+        1 string data = "「仲間を引き渡すつもりはない。」"
        [64]
-        1 string data = ""We'd like some time to think about it.""
+        1 string data = "「少し考える時間が欲しい。」"
        [65]
-        1 string data = ""It's a deal.""
+        1 string data = "「取引成立だ。」"
        [66]
-        1 string data = ""I'll need a good faith demonstration from you if this is to succeed. You must turn over the deserter in your ranks, and you must help pacify a rogue element hiding in the mountain. Let's address the deserter first.""
+        1 string data = "「これを成功させるためには、君たちの誠意の証明が必要だ。君たちの隊列にいる脱走兵を引き渡し、山に隠れている反逆分子を平定する手伝いをしなければならない。まず脱走兵から対処しよう。」"
        [67]
-        1 string data = ""I'll need a good faith demonstration from you if this is to succeed. You must surrender the deserter in your ranks.""
+        1 string data = "「これを成功させるためには、君たちの誠意の証明が必要だ。君たちの隊列にいる脱走兵を引き渡さなければならない。」"
        [68]
-        1 string data = ""I'll need a good faith demonstration from you if this is to succeed. There's an old soldier in this mountain who slipped away and attempted to raise an insurrection. I need him dealt with.""
+        1 string data = "「これを成功させるためには、君たちの誠意の証明が必要だ。この山には逃げ出して反乱を起こそうとした古参兵がいる。彼を処理してもらう必要がある。」"
        [69]
-        1 string data = ""So. How about it? Army and Air Force, working together again?""
+        1 string data = "「さて。どうだ? 陸軍と空軍、再び協力するというのは?」"
        [70]
         1 string data = "Bank 73"
        [71]
-        1 string data = "\n"If we are to cooperate fully, this is a condition of the deal. I cannot have deserters running free. It would challenge my authority.""
+        1 string data = "\n「我々が完全に協力するためには、これが取引の条件だ。脱走兵を野放しにはできない。私の権威に挑戦することになる。」"
        [72]
-        1 string data = ""We won't betray someone under our command.""
+        1 string data = "「我々の指揮下にいる者を裏切るつもりはない。」"
        [73]
-        1 string data = ""We believe in the rule of law. Take her.""
+        1 string data = "「我々は法の支配を信じている。彼女を連れて行け。」"
        [74]
-        1 string data = ""Go fuck yourself.""
+        1 string data = "「くたばれ。」"
        [75]
-        1 string data = ""And you won't reconsider?""
+        1 string data = "「考え直さないか?」"
        [76]
-        1 string data = ""Actually, you can take her.""
+        1 string data = "「実は、彼女を連れて行ってもいい。」"
        [77]
-        1 string data = ""We won't.""
+        1 string data = "「考え直さない。」"
        [78]
-        1 string data = ""Your loyalty is admirable, though misplaced. Very well. Let's continue our discussion. Now, where were we?""
+        1 string data = "「君たちの忠誠心は称賛に値するが、見当違いだ。よろしい。議論を続けよう。さて、どこまで話したかな?」"
        [79]
-        1 string data = ""You can't mean that!""
+        1 string data = "「本気じゃないだろう!」"
        [80]
-        1 string data = "But the guards are already closing in. They latch onto her biceps and drag her out of the room.\n\n\n"You have my thanks. Discipline must be maintained."\n\n\n"Now, where were we?" He taps his fingers to his lips."
+        1 string data = "しかし護衛はすでに迫ってきている。彼らは彼女の上腕に掴みかかり、部屋から引きずり出す。\n\n\n「感謝する。規律は維持されなければならない。」\n\n\n「さて、どこまで話したかな?」彼は唇に指を当てる。"
        [81]
-        1 string data = ""Ah yes. We were discussing our cooperative mission.""
+        1 string data = "「ああ、そうだ。我々の協力任務について話していた。」"
        [82]
-        1 string data = ""Ah yes. I was telling you that you must stand down.""
+        1 string data = "「ああ、そうだ。君たちは武器を下ろさなければならないと伝えていた。」"
        [83]
-        1 string data = ""No deal.""
+        1 string data = "「取引はなしだ。」"
        [84]
-        1 string data = ""As a token of your ability to respect the legitimacy of my command, this is non-negotiable. She deserted her post and is a deserter from the United States Air Force. Remand her to my custody.""
+        1 string data = "「私の指揮の正当性を尊重する能力の証として、これは交渉の余地がない。彼女は持ち場を捨て、合衆国空軍の脱走兵だ。彼女を私の拘留下に引き渡せ。」"
        [85]
-        1 string data = ""We will return her to your command.""
+        1 string data = "「彼女をあなたの指揮下に戻す。」"
        [86]
-        1 string data = ""A pity." He looks to the other FADERs in the room.\n\n\n"All of you saw me try to offer terms, yes? Very well. I have conducted myself with good intent, but these Rangers have shown that they have no interest in lawful and legitimate command authority.""
+        1 string data = "「残念だ。」彼は部屋の他のFADERたちを見る。\n\n\n「諸君全員、私が条件を提示しようとしたのを見たな? よろしい。私は善意をもって行動したが、このレンジャーズは合法的かつ正当な指揮権限に興味がないことを示した。」"
        [87]
-        1 string data = ""Shoot them.""
+        1 string data = "「撃て。」"
        [88]
-        1 string data = ""I'm glad we understand each other. Terminate my rogue soldier, and Cheyenne Mountain and the Desert Rangers can begin normalizing and integrating per the rules in place before the war. I'll contact your commanding officer to establish terms when you've reported successfully.""
+        1 string data = "「お互いに理解し合えて嬉しい。私の反逆兵士を始末してくれれば、シャイアン・マウンテンとデザート・レンジャーズは戦前の規則に従って正常化と統合を開始できる。諸君が無事報告したら、諸君の指揮官に連絡して条件を確立しよう。」"
        [89]
-        1 string data = """"
+        1 string data = ""
        [90]
-        1 string data = ""It's a deal.""
+        1 string data = "「取引成立だ。」"
        [91]
-        1 string data = ""Congratulations, Rangers. You've just averted a shooting war between the Air Force and the Army. I'll contact your commanding officer, and we'll work to integrate our troops. We need the United States military to present a cohesive front, not be constantly sniping at each other." "
+        1 string data = "「おめでとう、レンジャーズ。諸君は空軍と陸軍の間の銃撃戦を回避したばかりだ。諸君の指揮官に連絡し、我々の部隊を統合するために協力しよう。合衆国軍は結束した前線を示す必要がある、互いに絶えず撃ち合うのではなくな。」"
        [92]
-        1 string data = ""I'll submit your names for commendation to your leader. I'll see what we can do about sending some of our supplies to re-equip your stores."\n\n\nHe starts barking orders to his subordinates. He turns back to you."
+        1 string data = "「諸君の名前を諸君のリーダーに表彰推薦しよう。我々の物資の一部を送って諸君の備蓄を再装備することについて何ができるか見てみよう。」\n\n\n彼は部下たちに命令を叫び始める。あなたに振り返る。"
        [93]
-        1 string data = ""Are you still here? You've done good work today, Rangers, but you still have a mission. I suggest you continue with it.""
+        1 string data = "「まだここにいるのか? 今日は良い仕事をした、レンジャーズ、だがまだ任務がある。それを続けることを勧める。」"
        [94]
-        1 string data = ""Dismissed.""
+        1 string data = "「解散。」"
        [95]
-        1 string data = ""I'll open the access to the lower levels. All of my soldiers have been ordered not to shoot. If someone shoots at you, your rules of engagement are: shoot back. Kill those deserting bastards.""
+        1 string data = "「下層レベルへのアクセスを開こう。私の兵士全員に発砲しないよう命令している。もし誰かが諸君に発砲したら、交戦規則は: 撃ち返せ。その脱走野郎どもを殺せ。」"
        [96]
-        1 string data = ""Your mission is to find that rogue soldier. Get to it.""
+        1 string data = "「諸君の任務はその反逆兵士を見つけることだ。取りかかれ。」"
        [97]
-        1 string data = "Then his eyes catch Jane Doe.\n\n\n"Belay that order. You travel in the company of a soldier who fled this facility and is now AWOL. Turn the deserter over to us. We'll see she faces justice.""
+        1 string data = "その時、彼の目がジェーン・ドウを捉える。\n\n\n「その命令を取り消せ。諸君はこの施設から逃亡し、現在AWOL(無許可離隊)の兵士と行動を共にしている。その脱走兵を我々に引き渡せ。正義の裁きを受けさせる。」"
        [98]
-        1 string data = ""No report.""
+        1 string data = "「報告なし。」"
        [99]
-        1 string data = ""Well done, Rangers. You'll be commended for your work.""
+        1 string data = "「よくやった、レンジャーズ。諸君の働きは表彰される。」"
        [100]
-        1 string data = ""Then get back down there!""
+        1 string data = "「ならば下に戻れ!」"
        [101]
-        1 string data = ""Ah yes. We were discussing the terms of our agreement.""
+        1 string data = "「ああ、そうだ。我々の合意条件について話し合っていた。」"
        [102]
-        1 string data = ""We will not turn over our companion.""
+        1 string data = "「仲間を引き渡すつもりはない。」"
        [103]
-        1 string data = """"
+        1 string data = ""
        [104]
-        1 string data = """"
+        1 string data = ""
        [105]
-        1 string data = ""My troops will stand down. All that remains is for you to accept that I am the legitimate commander of this installation. Are you will to proceed on these terms?""
+        1 string data = "「私の部隊は武器を下ろす。残るのは、諸君が私がこの施設の正当な司令官であることを受け入れることだけだ。これらの条件で進める意志はあるか?」"
        [106]
-        1 string data = ""Where do we go if we stand down?""
+        1 string data = "「武器を下ろしたらどこへ行くんだ?」"
        [107]
-        1 string data = ""If it will avert further bloodshed, then one person's life is a small price to pay. Take her.""
+        1 string data = "「さらなる流血を回避できるなら、一人の命は支払うべき小さな代価だ。彼女を連れて行け。」"
        [108]
-        1 string data = ""A pity." He looks to the other FADERs in the room.\n\n\n"All of you saw me try to offer terms, yes? Very well. I have conducted myself with good intent, but these Rangers have shown that they have no interest in lawful and legitimate command authority.""
+        1 string data = "「残念だ。」彼は部屋の他のFADERたちを見る。\n\n\n「諸君全員、私が条件を提示しようとしたのを見たな? よろしい。私は善意をもって行動したが、このレンジャーズは合法的かつ正当な指揮権限に興味がないことを示した。」"
    [298]
     0 StringTable data
      1 string Filename = "e5001_general3radiobark_00"
@@ -57269,7 +57269,7 @@
       1 Array Array (1 items)
        0 int size = 1
        [0]
-        1 string data = " General3 says something.\nNOTE: This should be a bark"
+        1 string data = " ゼネラル3が何か言う。\n注: これはバーク(短い台詞)であるべき"
    [299]
     0 StringTable data
      1 string Filename = "e5001_general3radiobark_01"
@@ -57287,7 +57287,7 @@
       1 Array Array (1 items)
        0 int size = 1
        [0]
-        1 string data = " General3 says something.\nNOTE: This should be a bark"
+        1 string data = " ゼネラル3が何か言う。\n注: これはバーク(短い台詞)であるべき"
    [300]
     0 StringTable data
      1 string Filename = "e5001_general3radiointro"
