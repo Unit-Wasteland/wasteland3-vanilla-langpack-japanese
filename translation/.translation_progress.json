@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-21T16:45:30+09:00",
+  "last_updated": "2025-10-21T17:15:45+09:00",
   "current_file": "DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
-  "total_entries_completed": 44293,
-  "last_completed_section": "DLC2: e2001_dconelevator完了(4エントリ)",
-  "next_section_to_translate": "e2001_debug_cheat_ram (30エントリ)",
-  "next_action": "Session 75: 小規模ユーティリティセクション群を翻訳完了(137エントリ)。tumor、faderbark環境音声、computerインテル端末群、金属探知機/貯水槽制御端末、除染エレベーター。次: e2001_debug_cheat_ram及び後続の大規模セクション。",
-  "notes": "Session 75 (2025-10-21): DLC2小規模ユーティリティセクション群完了(137エントリ)。e2001_tumor(肉塊ペット12), faderbark環境音声8セクション(8), computerforjane(3), computerintel_00-08(90), computer_metaldetector(10), computer_waterreservoir(10), dconelevator(4)。1コミットで137エントリ翻訳。",
+  "total_entries_completed": 44501,
+  "last_completed_section": "DLC2: e2001_mainelevator完了(18エントリ)",
+  "next_section_to_translate": "e2001_ram (76エントリ - 大規模RAMクエストダイアログ)",
+  "next_action": "Session 75: デバッグ・ユーティリティセクション群を翻訳完了(合計208エントリ、2コミット)。次セッション: e2001_ram(76エントリの大規模セクション)から継続。",
+  "notes": "Session 75 (2025-10-21): DLC2デバッグ・ユーティリティセクション完了(合計208エントリ、2コミット)。Part 1: tumor~dconelevator(137エントリ)。Part 2: debug_cheat_ram~mainelevator(71エントリ)。次の大規模セクションe2001_ram(76エントリ)はメモリ管理のため次セッションで処理。",
   "sections_completed": [
     "Base game - mission_o2001_thickerthanblood (complete)",
     "Base game - mission_o2001_thickerthanwater (complete)",
@@ -89,8 +89,15 @@
     "DLC2 - e2001_computerintel_00-08 (intel gathering terminals) - 90 entries",
     "DLC2 - e2001_computer_metaldetector (metal detector control) - 10 entries",
     "DLC2 - e2001_computer_waterreservoir (water reservoir information) - 10 entries",
-    "DLC2 - e2001_dconelevator (decon elevator control) - 4 entries"
+    "DLC2 - e2001_dconelevator (decon elevator control) - 4 entries",
+    "DLC2 - e2001_debug_cheat_ram (RAM quest debug cheat console) - 30 entries",
+    "DLC2 - e2001_debug_ram (debug terminal) - 5 entries",
+    "DLC2 - e2001_forklifttransponder (forklift transponder retrieval) - 7 entries",
+    "DLC2 - e2001_general3radiobark_00/01 (General 3 radio barks) - 2 entries",
+    "DLC2 - e2001_general3radiointro (General 3 radio intro) - 2 entries",
+    "DLC2 - e2001_keypad_checkpointmainelevator_guard (checkpoint elevator keypad) - 8 entries",
+    "DLC2 - e2001_mainelevator (main elevator control terminal) - 18 entries"
   ],
-  "last_commit": "4cd130e",
+  "last_commit": "386b9ce",
   "session_number": 75
 }
