@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-21T17:16:46+09:00",
+  "last_updated": "2025-10-21T17:27:58+09:00",
   "current_file": "DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
-  "total_entries_completed": 47609,
-  "last_completed_section": "DLC2: e4001_surgerycomputerlore完了(2エントリ - 手術コンピューターロア)",
-  "next_section_to_translate": "e4001_surgeryfaderontable (29エントリ - 手術台のFADER)",
-  "next_action": "Session 81: DLC2翻訳継続中。1,119エントリ完了。次: e4001_surgeryfaderontableから。",
-  "notes": "Session 81 (2025-10-21): DLC2 FADER施設翻訳進行中(1119エントリ)。保管室A/B/C戦利品マニフェスト(65)、手術室コンピューター(2)完了。累積47,609エントリ。目標2500エントリに向けて45%達成、継続中。",
+  "total_entries_completed": 47809,
+  "last_completed_section": "DLC2: e4001_old_soldier進行中(106/188エントリ完了 - Old Soldier反乱兵対話)",
+  "next_section_to_translate": "e4001_old_soldier継続 (残り82エントリ - Old Soldier対話の残り)",
+  "next_action": "Session 82: DLC2翻訳継続中。200エントリ完了。次: e4001_old_soldierの残り82エントリから。",
+  "notes": "Session 82 (2025-10-21): DLC2 FADER施設翻訳継続(200エントリ)。手術室(29+7)、VRツアー(2)、デバッグコンソール(56)、Old Soldier対話(106/188)完了。Old Soldierは反乱FADER兵士、3人の仲間救出と主任研究員救援を依頼。累積47,809エントリ。目標2500エントリまで残り2,300エントリ。",
   "sections_completed": [
     "Base game - ALL SECTIONS COMPLETE (530,425 lines)",
     "DLC1 - Order Up quest text (86020-86124) - 43 entries",
@@ -132,8 +132,13 @@
     "DLC2 - e3001_radio_goiter (Goiter radio, brig guidance, laser barricades, robot security) - 57 entries",
     "DLC2 - e3001_secondary_securityterminal (surveillance camera system) - 11 entries",
     "DLC2 - e3001_systemannouncer (security system announcements) - 19 entries",
-    "DLC2 - e4001_archetype_dna_storage (DNA archetype storage, FADER data deletion/explosion) - 56 entries"
+    "DLC2 - e4001_archetype_dna_storage (DNA archetype storage, FADER data deletion/explosion) - 56 entries",
+    "DLC2 - e4001_surgeryfaderontable (surgery table FADER treatment choices) - 29 entries",
+    "DLC2 - e4001_surgerylifesuport (life support system control) - 7 entries",
+    "DLC2 - e0001_vrheadset_simchamber (Sim Chamber VR tour) - 2 entries",
+    "DLC2 - e4001_debug_cheat_old_soldier (Old Soldier debug console) - 56 entries",
+    "DLC2 - e4001_old_soldier (Old Soldier rebel FADER dialogue, 3 soldier rescue mission, head researcher aid) - 106/188 entries (in progress)"
   ],
-  "last_commit": "36d70f6",
-  "session_number": 82
+  "last_commit": "d7efb19",
+  "session_number": 83
 }
