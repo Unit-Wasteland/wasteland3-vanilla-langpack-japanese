@@ -12891,7 +12891,7 @@
        [2]
         1 string data = " Player enters the wrong code"
        [3]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [4]
         1 string data = " Vent opens & the player can enter."
        [5]
@@ -13139,7 +13139,7 @@
        [3]
         1 string data = " Player enters the wrong code"
        [4]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [5]
         1 string data = " Vent opens & the player can enter."
        [6]
@@ -34053,7 +34053,7 @@
        [4]
         1 string data = " Lockout cryopod controls?"
        [5]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [6]
         1 string data = " Success, anybody using this cryopod will recieve damage not healing."
        [7]
@@ -34161,7 +34161,7 @@
        [4]
         1 string data = " Lockout cryopod controls?"
        [5]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [6]
         1 string data = " Success, anybody using this cryopod will recieve damage not healing."
        [7]
@@ -34269,7 +34269,7 @@
        [4]
         1 string data = " Lockout cryopod controls?"
        [5]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [6]
         1 string data = " Success, anybody using this cryopod will recieve damage not healing."
        [7]
@@ -34377,7 +34377,7 @@
        [4]
         1 string data = " Lockout cryopod controls?"
        [5]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [6]
         1 string data = " Success, anybody using this cryopod will recieve damage not healing."
        [7]
@@ -34483,13 +34483,13 @@
        [3]
         1 string data = " Lockout cryopod controls?\n(Trap Fader inside)"
        [4]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [5]
         1 string data = " Set cryopod to 1 for Sabotage."
        [6]
         1 string data = " Set cryopod to 1 for lockout controls."
        [7]
-        1 string data = " Reset globals."
+        1 string data = " グローバル変数をリセット。"
        [8]
         1 string data = " Success, the Fader inside is killed."
        [9]
@@ -34591,13 +34591,13 @@
        [3]
         1 string data = " Lockout cryopod controls?\n(Trap Fader inside)"
        [4]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [5]
         1 string data = " Set cryopod to 1 for Sabotage."
        [6]
         1 string data = " Set cryopod to 1 for lockout controls."
        [7]
-        1 string data = " Reset globals."
+        1 string data = " グローバル変数をリセット。"
        [8]
         1 string data = " Success, the Fader inside is killed."
        [9]
@@ -34699,13 +34699,13 @@
        [3]
         1 string data = " Lockout cryopod controls?\n(Trap Fader inside)"
        [4]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [5]
         1 string data = " Set cryopod to 1 for Sabotage."
        [6]
         1 string data = " Set cryopod to 1 for lockout controls."
        [7]
-        1 string data = " Reset globals."
+        1 string data = " グローバル変数をリセット。"
        [8]
         1 string data = " Success, the Fader inside is killed."
        [9]
@@ -34775,25 +34775,25 @@
       1 Array Array (10 items)
        0 int size = 10
        [0]
-        1 string data = " Press any key..."
+        1 string data = " 何かキーを押してください..."
        [1]
-        1 string data = " Hack computer for intel."
+        1 string data = " コンピュータをハッキングして情報を入手する。"
        [2]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [3]
-        1 string data = " Reset globals."
+        1 string data = " グローバル変数をリセット。"
        [4]
         1 string data = " "
        [5]
-        1 string data = " Computer skill not high enough, sorry not sorry."
+        1 string data = " コンピュータスキルが十分ではありません、悪しからず。"
        [6]
-        1 string data = " Intel gained."
+        1 string data = " 情報を入手した。"
        [7]
-        1 string data = " Look at intell again."
+        1 string data = " もう一度情報を見る。"
        [8]
-        1 string data = " Blah Blah Blah"
+        1 string data = " なんやかんや"
        [9]
-        1 string data = " Set gained intel to 1"
+        1 string data = " 入手した情報を1に設定"
    [170]
     0 StringTable data
      1 string Filename = "e3001_sealedlab41c_computer01"
@@ -34847,25 +34847,25 @@
       1 Array Array (10 items)
        0 int size = 10
        [0]
-        1 string data = " Press any key..."
+        1 string data = " 何かキーを押してください..."
        [1]
-        1 string data = " Hack computer for intel."
+        1 string data = " コンピュータをハッキングして情報を入手する。"
        [2]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [3]
-        1 string data = " Reset globals."
+        1 string data = " グローバル変数をリセット。"
        [4]
         1 string data = " "
        [5]
-        1 string data = " Computer skill not high enough, sorry not sorry."
+        1 string data = " コンピュータスキルが十分ではありません、悪しからず。"
        [6]
-        1 string data = " Intel gained."
+        1 string data = " 情報を入手した。"
        [7]
-        1 string data = " Look at intell again."
+        1 string data = " もう一度情報を見る。"
        [8]
-        1 string data = " Blah Blah Blah"
+        1 string data = " なんやかんや"
        [9]
-        1 string data = " Set gained intel to 1"
+        1 string data = " 入手した情報を1に設定"
    [171]
     0 StringTable data
      1 string Filename = "e3001_sealedlab41c_computer02"
@@ -34919,25 +34919,25 @@
       1 Array Array (10 items)
        0 int size = 10
        [0]
-        1 string data = " Press any key..."
+        1 string data = " 何かキーを押してください..."
        [1]
-        1 string data = " Hack computer for intel."
+        1 string data = " コンピュータをハッキングして情報を入手する。"
        [2]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [3]
-        1 string data = " Reset globals."
+        1 string data = " グローバル変数をリセット。"
        [4]
         1 string data = " "
        [5]
-        1 string data = " Computer skill not high enough, sorry not sorry."
+        1 string data = " コンピュータスキルが十分ではありません、悪しからず。"
        [6]
-        1 string data = " Intel gained."
+        1 string data = " 情報を入手した。"
        [7]
-        1 string data = " Look at intell again."
+        1 string data = " もう一度情報を見る。"
        [8]
-        1 string data = " Blah Blah Blah"
+        1 string data = " なんやかんや"
        [9]
-        1 string data = " Set gained intel to 1"
+        1 string data = " 入手した情報を1に設定"
    [172]
     0 StringTable data
      1 string Filename = "e3001_soldier78"
@@ -42585,7 +42585,7 @@
       1 Array Array (56 items)
        0 int size = 56
        [0]
-        1 string data = " Press any key..."
+        1 string data = " 何かキーを押してください..."
        [1]
         1 string data = " Use skills on computer."
        [2]
@@ -42599,7 +42599,7 @@
        [6]
         1 string data = "  Reset globals"
        [7]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [8]
         1 string data = " Success: Computer is hacked, you deleted the DNA files."
        [9]
@@ -42611,7 +42611,7 @@
        [12]
         1 string data = " 何かキーを押してください..."
        [13]
-        1 string data = " Press any key..."
+        1 string data = " 何かキーを押してください..."
        [14]
         1 string data = " I pitty the fool who gets this responce."
        [15]
@@ -42789,7 +42789,7 @@
       1 Array Array (20 items)
        0 int size = 20
        [0]
-        1 string data = " Press any key..."
+        1 string data = " 何かキーを押してください..."
        [1]
         1 string data = " Hack the computer to shut down machine?\n(use computer skill)"
        [2]
@@ -42803,7 +42803,7 @@
        [6]
         1 string data = " Set e4001_Cafeteria_foodDispenser to 1\n(3 = toaster repair skill ised)"
        [7]
-        1 string data = " Reset globals."
+        1 string data = " グローバル変数をリセット。"
        [8]
         1 string data = " Success: The food dispencer is shut down.\n(1 to 2 Faders come to loook at what's wrong with the machine)"
        [9]
@@ -42819,7 +42819,7 @@
        [14]
         1 string data = " Your skill is not high enough"
        [15]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [16]
         1 string data = " The food dispence is shut down."
        [17]
@@ -42927,11 +42927,11 @@
        [4]
         1 string data = " High perception skill reveals more."
        [5]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [6]
         1 string data = " Reset global."
        [7]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [8]
         1 string data = " You have gained all the intel you could."
        [9]
@@ -43137,7 +43137,7 @@
        [22]
         1 string data = " Reset Global."
        [23]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [24]
         1 string data = " Insert genetic material."
        [25]
@@ -43145,7 +43145,7 @@
        [26]
         1 string data = " Use genetic material."
        [27]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [28]
         1 string data = " Processing General3 DNA."
        [29]
@@ -43337,19 +43337,19 @@
        [21]
         1 string data = " Reset Global."
        [22]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [23]
         1 string data = "  Genetic material in stasis, waiting for command."
        [24]
         1 string data = " Use genetic material."
        [25]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [26]
         1 string data = " Warning, inferior genetic material detected. You may not proceed."
        [27]
         1 string data = " Use genetic material.\n(Weird Science skill needed, currently set to none)"
        [28]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [29]
         1 string data = " Processing inferior Fader DNA."
        [30]
@@ -43505,7 +43505,7 @@
        [21]
         1 string data = " Reset Global."
        [22]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
    [201]
     0 StringTable data
      1 string Filename = "e4001_evalroomcomputer"
@@ -43559,25 +43559,25 @@
       1 Array Array (10 items)
        0 int size = 10
        [0]
-        1 string data = " Press any key..."
+        1 string data = " 何かキーを押してください..."
        [1]
-        1 string data = " Hack computer for intel."
+        1 string data = " コンピュータをハッキングして情報を入手する。"
        [2]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [3]
-        1 string data = " Reset globals."
+        1 string data = " グローバル変数をリセット。"
        [4]
         1 string data = " "
        [5]
-        1 string data = " Computer skill not high enough, sorry not sorry."
+        1 string data = " コンピュータスキルが十分ではありません、悪しからず。"
        [6]
-        1 string data = " Intel gained."
+        1 string data = " 情報を入手した。"
        [7]
-        1 string data = " Look at intell again."
+        1 string data = " もう一度情報を見る。"
        [8]
-        1 string data = " Blah Blah Blah"
+        1 string data = " なんやかんや"
        [9]
-        1 string data = " Set gained intel to 1"
+        1 string data = " 入手した情報を1に設定"
    [202]
     0 StringTable data
      1 string Filename = "e4001_general3radiobark_00"
@@ -43689,7 +43689,7 @@
        [1]
         1 string data = " Follow me."
        [2]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [3]
         1 string data = " Well I'm dr. spock I'm here to rock y'all. That means yes I will follow."
    [207]
@@ -43841,7 +43841,7 @@
        [21]
         1 string data = " Reset Global."
        [22]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
    [208]
     0 StringTable data
      1 string Filename = "e4001_glasscagestate_01"
@@ -43955,7 +43955,7 @@
        [15]
         1 string data = " Reset Global."
        [16]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
    [209]
     0 StringTable data
      1 string Filename = "e4001_glasscagestate_02"
@@ -44069,7 +44069,7 @@
        [15]
         1 string data = " Reset Global."
        [16]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
    [210]
     0 StringTable data
      1 string Filename = "e4001_hiddenlabcomputerlore_00.conversatioe4001n"
@@ -44091,7 +44091,7 @@
       1 Array Array (2 items)
        0 int size = 2
        [0]
-        1 string data = " Press any key..."
+        1 string data = " 何かキーを押してください..."
        [1]
         1 string data = " LORE: Blah Blah Blah."
    [211]
@@ -44115,7 +44115,7 @@
       1 Array Array (2 items)
        0 int size = 2
        [0]
-        1 string data = " Press any key..."
+        1 string data = " 何かキーを押してください..."
        [1]
         1 string data = " LORE: Blah Blah Blah."
    [212]
@@ -44171,25 +44171,25 @@
       1 Array Array (10 items)
        0 int size = 10
        [0]
-        1 string data = " Press any key..."
+        1 string data = " 何かキーを押してください..."
        [1]
-        1 string data = " Hack computer for intel."
+        1 string data = " コンピュータをハッキングして情報を入手する。"
        [2]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [3]
-        1 string data = " Reset globals."
+        1 string data = " グローバル変数をリセット。"
        [4]
         1 string data = " "
        [5]
-        1 string data = " Computer skill not high enough, sorry not sorry."
+        1 string data = " コンピュータスキルが十分ではありません、悪しからず。"
        [6]
-        1 string data = " Intel gained."
+        1 string data = " 情報を入手した。"
        [7]
-        1 string data = " Look at intell again."
+        1 string data = " もう一度情報を見る。"
        [8]
-        1 string data = " Blah Blah Blah"
+        1 string data = " なんやかんや"
        [9]
-        1 string data = " Set gained intel to 1"
+        1 string data = " 入手した情報を1に設定"
    [213]
     0 StringTable data
      1 string Filename = "e4001_morguecomputer"
@@ -44249,19 +44249,19 @@
        [2]
         1 string data = " Skill not high enough."
        [3]
-        1 string data = " Reset globals."
+        1 string data = " グローバル変数をリセット。"
        [4]
         1 string data = " "
        [5]
-        1 string data = " Computer skill not high enough, sorry not sorry."
+        1 string data = " コンピュータスキルが十分ではありません、悪しからず。"
        [6]
-        1 string data = " Intel gained."
+        1 string data = " 情報を入手した。"
        [7]
-        1 string data = " Look at intell again."
+        1 string data = " もう一度情報を見る。"
        [8]
-        1 string data = " Blah Blah Blah"
+        1 string data = " なんやかんや"
        [9]
-        1 string data = " Set gained intel to 1"
+        1 string data = " 入手した情報を1に設定"
    [214]
     0 StringTable data
      1 string Filename = "e4001_morguefaderbody"
@@ -44381,11 +44381,11 @@
        [4]
         1 string data = " High perception skill reveals more."
        [5]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [6]
         1 string data = " Reset global."
        [7]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [8]
         1 string data = " You have gained all the intel you could."
        [9]
@@ -44471,25 +44471,25 @@
       1 Array Array (10 items)
        0 int size = 10
        [0]
-        1 string data = " Press any key..."
+        1 string data = " 何かキーを押してください..."
        [1]
-        1 string data = " Hack computer for intel."
+        1 string data = " コンピュータをハッキングして情報を入手する。"
        [2]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [3]
-        1 string data = " Reset globals."
+        1 string data = " グローバル変数をリセット。"
        [4]
         1 string data = " "
        [5]
-        1 string data = " Computer skill not high enough, sorry not sorry."
+        1 string data = " コンピュータスキルが十分ではありません、悪しからず。"
        [6]
-        1 string data = " Intel gained."
+        1 string data = " 情報を入手した。"
        [7]
-        1 string data = " Look at intell again."
+        1 string data = " もう一度情報を見る。"
        [8]
-        1 string data = " Blah Blah Blah"
+        1 string data = " なんやかんや"
        [9]
-        1 string data = " Set gained intel to 1"
+        1 string data = " 入手した情報を1に設定"
    [216]
     0 StringTable data
      1 string Filename = "e4001_sleeperroom_podempty00"
@@ -44577,7 +44577,7 @@
        [4]
         1 string data = " Lockout Sleeper Pod controls?"
        [5]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [6]
         1 string data = " Success, anybody using this Sleeper Pod will recieve damage not healing."
        [7]
@@ -44685,7 +44685,7 @@
        [4]
         1 string data = " Lockout Sleeper Pod controls?"
        [5]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [6]
         1 string data = " Success, anybody using this Sleeper Pod will recieve damage not healing."
        [7]
@@ -44793,7 +44793,7 @@
        [4]
         1 string data = " Lockout Sleeper Pod controls?"
        [5]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [6]
         1 string data = " Success, anybody using this Sleeper Pod will recieve damage not healing."
        [7]
@@ -44901,7 +44901,7 @@
        [4]
         1 string data = " Lockout Sleeper Pod controls?"
        [5]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [6]
         1 string data = " Success, anybody using this Sleeper Pod will recieve damage not healing."
        [7]
@@ -45009,7 +45009,7 @@
        [4]
         1 string data = " Lockout Sleeper Pod controls?"
        [5]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [6]
         1 string data = " Success, anybody using this Sleeper Pod will recieve damage not healing."
        [7]
@@ -45117,7 +45117,7 @@
        [4]
         1 string data = " Lockout Sleeper Pod controls?"
        [5]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [6]
         1 string data = " Success, anybody using this Sleeper Pod will recieve damage not healing."
        [7]
@@ -45225,7 +45225,7 @@
        [4]
         1 string data = " Lockout Sleeper Pod controls?"
        [5]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [6]
         1 string data = " Success, anybody using this Sleeper Pod will recieve damage not healing."
        [7]
@@ -45333,7 +45333,7 @@
        [4]
         1 string data = " Lockout Sleeper Pod controls?"
        [5]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [6]
         1 string data = " Success, anybody using this Sleeper Pod will recieve damage not healing."
        [7]
@@ -45441,7 +45441,7 @@
        [4]
         1 string data = " Lockout Sleeper Pod controls?"
        [5]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [6]
         1 string data = " Success, anybody using this Sleeper Pod will recieve damage not healing."
        [7]
@@ -45549,7 +45549,7 @@
        [4]
         1 string data = " Lockout Sleeper Pod controls?"
        [5]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [6]
         1 string data = " Success, anybody using this Sleeper Pod will recieve damage not healing."
        [7]
@@ -45657,7 +45657,7 @@
        [4]
         1 string data = " Lockout Sleeper Pod controls?"
        [5]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [6]
         1 string data = " Success, anybody using this Sleeper Pod will recieve damage not healing."
        [7]
@@ -45765,7 +45765,7 @@
        [4]
         1 string data = " Lockout Sleeper Pod controls?"
        [5]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [6]
         1 string data = " Success, anybody using this Sleeper Pod will recieve damage not healing."
        [7]
@@ -45873,7 +45873,7 @@
        [4]
         1 string data = " Lockout Sleeper Pod controls?"
        [5]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [6]
         1 string data = " Success, anybody using this Sleeper Pod will recieve damage not healing."
        [7]
@@ -45981,7 +45981,7 @@
        [4]
         1 string data = " Lockout Sleeper Pod controls?"
        [5]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [6]
         1 string data = " Success, anybody using this Sleeper Pod will recieve damage not healing."
        [7]
@@ -46089,7 +46089,7 @@
        [4]
         1 string data = " Lockout Sleeper Pod controls?"
        [5]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [6]
         1 string data = " Success, anybody using this Sleeper Pod will recieve damage not healing."
        [7]
@@ -46205,7 +46205,7 @@
        [6]
         1 string data = " Set Sleeper Pod to 1 for lockout controls."
        [7]
-        1 string data = " Reset globals."
+        1 string data = " グローバル変数をリセット。"
        [8]
         1 string data = " Success, the Fader inside is asleep."
        [9]
@@ -46319,7 +46319,7 @@
        [6]
         1 string data = " Set Sleeper Pod to 1 for lockout controls."
        [7]
-        1 string data = " Reset globals."
+        1 string data = " グローバル変数をリセット。"
        [8]
         1 string data = " Success, the Fader inside is asleep."
        [9]
@@ -46433,7 +46433,7 @@
        [6]
         1 string data = " Set Sleeper Pod to 1 for lockout controls."
        [7]
-        1 string data = " Reset globals."
+        1 string data = " グローバル変数をリセット。"
        [8]
         1 string data = " Success, the Fader inside is asleep."
        [9]
@@ -46547,7 +46547,7 @@
        [6]
         1 string data = " Set Sleeper Pod to 1 for lockout controls."
        [7]
-        1 string data = " Reset globals."
+        1 string data = " グローバル変数をリセット。"
        [8]
         1 string data = " Success, the Fader inside is asleep."
        [9]
@@ -46661,7 +46661,7 @@
        [6]
         1 string data = " Set Sleeper Pod to 1 for lockout controls."
        [7]
-        1 string data = " Reset globals."
+        1 string data = " グローバル変数をリセット。"
        [8]
         1 string data = " Success, the Fader inside is asleep."
        [9]
@@ -46887,7 +46887,7 @@
        [12]
         1 string data = " Interface with computer."
        [13]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [14]
         1 string data = " Set e4001_StorageA_cargoManifestList = 0\n\n\n(0 = not tampered with)"
        [15]
@@ -46895,11 +46895,11 @@
        [16]
         1 string data = " Set e4001_StorageA_cargoManifestList = 2\n\n\n(2 = engineering skill used to rewire computer)"
        [17]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [18]
         1 string data = " Set up globals"
        [19]
-        1 string data = " Press any key..."
+        1 string data = " 何かキーを押してください..."
        [20]
         1 string data = " Rewire the motherboard."
    [238]
@@ -47027,7 +47027,7 @@
        [11]
         1 string data = " Interface with computer."
        [12]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [13]
         1 string data = " Set e4001_StorageA_cargoManifestList = 0\n\n\n(0 = not tampered with)"
        [14]
@@ -47035,11 +47035,11 @@
        [15]
         1 string data = " Set e4001_StorageA_cargoManifestList = 2\n\n\n(2 = engineering skill used to rewire computer)"
        [16]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [17]
         1 string data = " Set up globals"
        [18]
-        1 string data = " Press any key..."
+        1 string data = " 何かキーを押してください..."
        [19]
         1 string data = """"
        [20]
@@ -47171,7 +47171,7 @@
        [11]
         1 string data = " Interface with computer."
        [12]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [13]
         1 string data = " Set e4001_StorageA_cargoManifestList = 0\n\n\n(0 = not tampered with)"
        [14]
@@ -47179,11 +47179,11 @@
        [15]
         1 string data = " Set e4001_StorageA_cargoManifestList = 2\n\n\n(2 = engineering skill used to rewire computer)"
        [16]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [17]
         1 string data = " Set up globals"
        [18]
-        1 string data = " Press any key..."
+        1 string data = " 何かキーを押してください..."
        [19]
         1 string data = """"
        [20]
@@ -47211,7 +47211,7 @@
       1 Array Array (2 items)
        0 int size = 2
        [0]
-        1 string data = " Press any key..."
+        1 string data = " 何かキーを押してください..."
        [1]
         1 string data = " LORE: Blah Blah Blah."
    [241]
@@ -49375,7 +49375,7 @@
        [3]
         1 string data = " Use skill."
        [4]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [5]
         1 string data = "成功:接続箱は正常に動作している。"
        [6]
@@ -49429,7 +49429,7 @@
        [3]
         1 string data = " Use skill."
        [4]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [5]
         1 string data = "成功:接続箱は正常に動作している。"
        [6]
@@ -57311,7 +57311,7 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = " General3 makes announces the enemy has made to the next level and says something...\nNOTE: This should be a Convo"
+        1 string data = " ゼネラル3が敵が次のレベルに到達したことを発表し、何か言う...\n注: これは会話(Convo)であるべき"
    [301]
     0 StringTable data
      1 string Filename = "e5001_generalsquarterscomputer"
@@ -57373,29 +57373,29 @@
       1 Array Array (12 items)
        0 int size = 12
        [0]
-        1 string data = " Press any key..."
+        1 string data = " 何かキーを押してください..."
        [1]
-        1 string data = " Hack computer for intel."
+        1 string data = " コンピュータをハッキングして情報を入手する。"
        [2]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [3]
-        1 string data = " Reset globals."
+        1 string data = " グローバル変数をリセット。"
        [4]
         1 string data = " "
        [5]
-        1 string data = " Computer skill not high enough, sorry not sorry."
+        1 string data = " コンピュータスキルが十分ではありません、悪しからず。"
        [6]
-        1 string data = " Intel gained."
+        1 string data = " 情報を入手した。"
        [7]
-        1 string data = " Look at intell again."
+        1 string data = " もう一度情報を見る。"
        [8]
-        1 string data = " Blah Blah Blah"
+        1 string data = " なんやかんや"
        [9]
-        1 string data = " Set gained intel to 1"
+        1 string data = " 入手した情報を1に設定"
        [10]
-        1 string data = " Secret found, this opens up the wall."
+        1 string data = " 秘密を発見した、これで壁が開く。"
        [11]
-        1 string data = " Nothing else to see."
+        1 string data = " 他に見るものはない。"
    [302]
     0 StringTable data
      1 string Filename = "e5001_opscomputer"
@@ -57577,29 +57577,29 @@
       1 Array Array (12 items)
        0 int size = 12
        [0]
-        1 string data = " Press any key..."
+        1 string data = " 何かキーを押してください..."
        [1]
-        1 string data = " Hack computer for intel."
+        1 string data = " コンピュータをハッキングして情報を入手する。"
        [2]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [3]
-        1 string data = " Reset globals."
+        1 string data = " グローバル変数をリセット。"
        [4]
         1 string data = " "
        [5]
-        1 string data = " Computer skill not high enough, sorry not sorry."
+        1 string data = " コンピュータスキルが十分ではありません、悪しからず。"
        [6]
-        1 string data = " Intel gained."
+        1 string data = " 情報を入手した。"
        [7]
-        1 string data = " Look at intell again."
+        1 string data = " もう一度情報を見る。"
        [8]
-        1 string data = " Blah Blah Blah"
+        1 string data = " なんやかんや"
        [9]
-        1 string data = " Set gained intel to 1"
+        1 string data = " 入手した情報を1に設定"
        [10]
-        1 string data = " Secret found, this opens up the wall."
+        1 string data = " 秘密を発見した、これで壁が開く。"
        [11]
-        1 string data = " Nothing else to see."
+        1 string data = " 他に見るものはない。"
    [304]
     0 StringTable data
      1 string Filename = "e5001_opsplanningcomputer_01"
@@ -57653,25 +57653,25 @@
       1 Array Array (10 items)
        0 int size = 10
        [0]
-        1 string data = " Press any key..."
+        1 string data = " 何かキーを押してください..."
        [1]
-        1 string data = " Hack computer for intel."
+        1 string data = " コンピュータをハッキングして情報を入手する。"
        [2]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [3]
-        1 string data = " Reset globals."
+        1 string data = " グローバル変数をリセット。"
        [4]
         1 string data = " "
        [5]
-        1 string data = " Computer skill not high enough, sorry not sorry."
+        1 string data = " コンピュータスキルが十分ではありません、悪しからず。"
        [6]
-        1 string data = " Intel gained."
+        1 string data = " 情報を入手した。"
        [7]
-        1 string data = " Look at intell again."
+        1 string data = " もう一度情報を見る。"
        [8]
-        1 string data = " Blah Blah Blah"
+        1 string data = " なんやかんや"
        [9]
-        1 string data = " Set gained intel to 1"
+        1 string data = " 入手した情報を1に設定"
    [305]
     0 StringTable data
      1 string Filename = "e5001_opsplanningcomputer_02"
@@ -57725,25 +57725,25 @@
       1 Array Array (10 items)
        0 int size = 10
        [0]
-        1 string data = " Press any key..."
+        1 string data = " 何かキーを押してください..."
        [1]
-        1 string data = " Hack computer for intel."
+        1 string data = " コンピュータをハッキングして情報を入手する。"
        [2]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [3]
-        1 string data = " Reset globals."
+        1 string data = " グローバル変数をリセット。"
        [4]
         1 string data = " "
        [5]
-        1 string data = " Computer skill not high enough, sorry not sorry."
+        1 string data = " コンピュータスキルが十分ではありません、悪しからず。"
        [6]
-        1 string data = " Intel gained."
+        1 string data = " 情報を入手した。"
        [7]
-        1 string data = " Look at intell again."
+        1 string data = " もう一度情報を見る。"
        [8]
-        1 string data = " Blah Blah Blah"
+        1 string data = " なんやかんや"
        [9]
-        1 string data = " Set gained intel to 1"
+        1 string data = " 入手した情報を1に設定"
    [306]
     0 StringTable data
      1 string Filename = "e5001_opsplanningcomputer_03"
@@ -57797,25 +57797,25 @@
       1 Array Array (10 items)
        0 int size = 10
        [0]
-        1 string data = " Press any key..."
+        1 string data = " 何かキーを押してください..."
        [1]
-        1 string data = " Hack computer for intel."
+        1 string data = " コンピュータをハッキングして情報を入手する。"
        [2]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [3]
-        1 string data = " Reset globals."
+        1 string data = " グローバル変数をリセット。"
        [4]
         1 string data = " "
        [5]
-        1 string data = " Computer skill not high enough, sorry not sorry."
+        1 string data = " コンピュータスキルが十分ではありません、悪しからず。"
        [6]
-        1 string data = " Intel gained."
+        1 string data = " 情報を入手した。"
        [7]
-        1 string data = " Look at intell again."
+        1 string data = " もう一度情報を見る。"
        [8]
-        1 string data = " Blah Blah Blah"
+        1 string data = " なんやかんや"
        [9]
-        1 string data = " Set gained intel to 1"
+        1 string data = " 入手した情報を1に設定"
    [307]
     0 StringTable data
      1 string Filename = "e5001_pacificationplanningcomputer"
@@ -57869,25 +57869,25 @@
       1 Array Array (10 items)
        0 int size = 10
        [0]
-        1 string data = " Press any key..."
+        1 string data = " 何かキーを押してください..."
        [1]
-        1 string data = " Hack computer for intel."
+        1 string data = " コンピュータをハッキングして情報を入手する。"
        [2]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [3]
-        1 string data = " Reset globals."
+        1 string data = " グローバル変数をリセット。"
        [4]
         1 string data = " "
        [5]
-        1 string data = " Computer skill not high enough, sorry not sorry."
+        1 string data = " コンピュータスキルが十分ではありません、悪しからず。"
        [6]
-        1 string data = " Intel gained."
+        1 string data = " 情報を入手した。"
        [7]
-        1 string data = " Look at intell again."
+        1 string data = " もう一度情報を見る。"
        [8]
-        1 string data = " Blah Blah Blah"
+        1 string data = " なんやかんや"
        [9]
-        1 string data = " Set gained intel to 1"
+        1 string data = " 入手した情報を1に設定"
    [308]
     0 StringTable data
      1 string Filename = "e5001_rem"
@@ -58187,31 +58187,31 @@
       1 Array Array (16 items)
        0 int size = 16
        [0]
-        1 string data = " Press any key..."
+        1 string data = " 何かキーを押してください..."
        [1]
-        1 string data = " Hack computer for intel."
+        1 string data = " コンピュータをハッキングして情報を入手する。"
        [2]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [3]
-        1 string data = " Reset globals."
+        1 string data = " グローバル変数をリセット。"
        [4]
         1 string data = " "
        [5]
-        1 string data = " Computer skill not high enough, sorry not sorry."
+        1 string data = " コンピュータスキルが十分ではありません、悪しからず。"
        [6]
-        1 string data = " Intel gained."
+        1 string data = " 情報を入手した。"
        [7]
-        1 string data = " Look at intell again."
+        1 string data = " もう一度情報を見る。"
        [8]
-        1 string data = " Blah Blah Blah"
+        1 string data = " なんやかんや"
        [9]
-        1 string data = " Set gained intel to 1"
+        1 string data = " 入手した情報を1に設定"
        [10]
-        1 string data = " Secret found, this opens up the wall."
+        1 string data = " 秘密を発見した、これで壁が開く。"
        [11]
-        1 string data = " Nothing else to see."
+        1 string data = " 他に見るものはない。"
        [12]
-        1 string data = " Press any key..."
+        1 string data = " 何かキーを押してください..."
        [13]
         1 string data = " Insert diskette..."
        [14]
@@ -58271,25 +58271,25 @@
       1 Array Array (10 items)
        0 int size = 10
        [0]
-        1 string data = " Press any key..."
+        1 string data = " 何かキーを押してください..."
        [1]
-        1 string data = " Hack computer for intel."
+        1 string data = " コンピュータをハッキングして情報を入手する。"
        [2]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [3]
-        1 string data = " Reset globals."
+        1 string data = " グローバル変数をリセット。"
        [4]
         1 string data = " "
        [5]
-        1 string data = " Computer skill not high enough, sorry not sorry."
+        1 string data = " コンピュータスキルが十分ではありません、悪しからず。"
        [6]
-        1 string data = " Intel gained."
+        1 string data = " 情報を入手した。"
        [7]
-        1 string data = " Look at intell again."
+        1 string data = " もう一度情報を見る。"
        [8]
-        1 string data = " Blah Blah Blah"
+        1 string data = " なんやかんや"
        [9]
-        1 string data = " Set gained intel to 1"
+        1 string data = " 入手した情報を1に設定"
    [311]
     0 StringTable data
      1 string Filename = "e5001_roomwestcomputer"
@@ -58343,25 +58343,25 @@
       1 Array Array (10 items)
        0 int size = 10
        [0]
-        1 string data = " Press any key..."
+        1 string data = " 何かキーを押してください..."
        [1]
-        1 string data = " Hack computer for intel."
+        1 string data = " コンピュータをハッキングして情報を入手する。"
        [2]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [3]
-        1 string data = " Reset globals."
+        1 string data = " グローバル変数をリセット。"
        [4]
         1 string data = " "
        [5]
-        1 string data = " Computer skill not high enough, sorry not sorry."
+        1 string data = " コンピュータスキルが十分ではありません、悪しからず。"
        [6]
-        1 string data = " Intel gained."
+        1 string data = " 情報を入手した。"
        [7]
-        1 string data = " Look at intell again."
+        1 string data = " もう一度情報を見る。"
        [8]
-        1 string data = " Blah Blah Blah"
+        1 string data = " なんやかんや"
        [9]
-        1 string data = " Set gained intel to 1"
+        1 string data = " 入手した情報を1に設定"
    [312]
     0 StringTable data
      1 string Filename = "e5001_soldier23"
@@ -58597,29 +58597,29 @@
       1 Array Array (12 items)
        0 int size = 12
        [0]
-        1 string data = " Press any key..."
+        1 string data = " 何かキーを押してください..."
        [1]
-        1 string data = " Hack computer for intel."
+        1 string data = " コンピュータをハッキングして情報を入手する。"
        [2]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [3]
-        1 string data = " Reset globals."
+        1 string data = " グローバル変数をリセット。"
        [4]
         1 string data = " Success: computer hacked."
        [5]
-        1 string data = " Computer skill not high enough, sorry not sorry."
+        1 string data = " コンピュータスキルが十分ではありません、悪しからず。"
        [6]
-        1 string data = " Intel gained."
+        1 string data = " 情報を入手した。"
        [7]
-        1 string data = " Look at intell again."
+        1 string data = " もう一度情報を見る。"
        [8]
-        1 string data = " Blah Blah Blah"
+        1 string data = " なんやかんや"
        [9]
-        1 string data = " Set gained intel to 1"
+        1 string data = " 入手した情報を1に設定"
        [10]
         1 string data = " Turn the turrets against the Faders"
        [11]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
    [315]
     0 StringTable data
      1 string Filename = "e5001_tempgeneral3"
@@ -58747,25 +58747,25 @@
       1 Array Array (12 items)
        0 int size = 12
        [0]
-        1 string data = " Press any key..."
+        1 string data = " 何かキーを押してください..."
        [1]
-        1 string data = " Hack computer for intel."
+        1 string data = " コンピュータをハッキングして情報を入手する。"
        [2]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [3]
-        1 string data = " Reset globals."
+        1 string data = " グローバル変数をリセット。"
        [4]
         1 string data = " Success: Computer hacked."
        [5]
-        1 string data = " Computer skill not high enough, sorry not sorry."
+        1 string data = " コンピュータスキルが十分ではありません、悪しからず。"
        [6]
-        1 string data = " Intel gained."
+        1 string data = " 情報を入手した。"
        [7]
-        1 string data = " Look at intell again."
+        1 string data = " もう一度情報を見る。"
        [8]
-        1 string data = " Blah Blah Blah"
+        1 string data = " なんやかんや"
        [9]
-        1 string data = " Set gained intel to 1"
+        1 string data = " 入手した情報を1に設定"
        [10]
         1 string data = """"
        [11]
