@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-21T18:30:00+09:00",
+  "last_updated": "2025-10-21T19:30:00+09:00",
   "current_file": "DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
-  "total_entries_completed": 48511,
-  "last_completed_section": "DLC2: e4001_stowaway_female完了 (ロシアンスパイ・ナターシャ)",
-  "next_section_to_translate": "e4001_stowaway_male (ロシアンスパイ・ボリス、158エントリ)",
-  "next_action": "Session 85: DLC2翻訳継続中。268エントリ完了(2回コミット)。次: e4001_stowaway_maleから翻訳継続。",
-  "notes": "Session 85 (2025-10-21): DLC2 e4001セクション群翻訳(268エントリ)。粒子加速器攻略、油圧ポンプ破壊工作、キノコ実験、ブラザー・ビスマス、ゴミ塚探索、ロシアンスパイ等完了。累積48,511エントリ。目標2500エントリまで残り1,989エントリ。",
+  "total_entries_completed": 48895,
+  "last_completed_section": "DLC2: e5001_citadelsatellite完了 (シタデル衛星制御ターミナル)",
+  "next_section_to_translate": "e5001_debug_cheat_rem (REMデバッグコンソール、45エントリ)",
+  "next_action": "Session 86: DLC2翻訳継続中。384エントリ完了(1回コミット予定)。次: e5001_debug_cheat_remから翻訳継続。",
+  "notes": "Session 86 (2025-10-21): DLC2 e4001/e5001セクション群翻訳(384エントリ)。ロシアンスパイ・ボリス、粒子加速器システムアナウンス、キノコ実験の囚人、クローン事故、自動販売機パズル、シタデル衛星制御等完了。累積48,895エントリ。目標2500エントリまで残り1,605エントリ。",
   "sections_completed": [
     "Base game - ALL SECTIONS COMPLETE (530,425 lines)",
     "DLC1 - Order Up quest text (86020-86124) - 43 entries",
@@ -145,8 +145,14 @@
     "DLC2 - e6001_junctionbox_00/01/02 (junction box repair systems) - 26 entries",
     "DLC2 - e6001_old_soldierradiobark_00/01/02 (Old Soldier radio barks) - 3 entries",
     "DLC2 - e6001_old_soldierradiointro (Old Soldier radio intro) - 2 entries",
-    "DLC2 - e6001_reservoirbasincomputer (reservoir basin computer control) - 16 entries"
+    "DLC2 - e6001_reservoirbasincomputer (reservoir basin computer control) - 16 entries",
+    "DLC2 - e4001_stowaway_male (Russian spy Boris dialogue, particle accelerator sabotage mission) - 158 entries",
+    "DLC2 - e4001_systemannouncer (particle accelerator system announcements, core status, radiation warnings) - 39 entries",
+    "DLC2 - e4001_theprisoner (Sick Rick / the Prisoner mushroom scientist, Steeltown murders, psychedelic experiments) - 81 entries",
+    "DLC2 - e4001_unfortunateclone (unfortunate clone disintegration incident) - 15 entries",
+    "DLC2 - e4001_vending (vending machine puzzle, note retrieval) - 33 entries",
+    "DLC2 - e5001_citadelsatellite (Citadel satellite control terminal, Geronimo AI link, weather analysis, weapon systems) - 58 entries"
   ],
-  "last_commit": "46fd739",
-  "session_number": 85
+  "last_commit": "b424751",
+  "session_number": 86
 }
