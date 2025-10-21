@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-10-21T13:15:00+09:00",
+  "last_updated": "2025-10-21T14:30:00+09:00",
   "current_file": "DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
   "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
-  "total_entries_completed": 41611,
-  "last_completed_section": "DLC1: Order Upクエスト、デバッグエントリ翻訳完了 (75エントリ)",
-  "next_section_to_translate": "DLC1ファイルの残り未翻訳エントリ (約1,150エントリ残存)",
-  "next_action": "Session 64: Base gameファイル完了確認。DLC1ファイルの未翻訳エントリを翻訳開始。Order Upクエスト(86020-86124)およびデバッグテキスト(複数箇所)を翻訳。合計75エントリ翻訳。次: DLC1の残り未翻訳エントリの続き。",
-  "notes": "Session 64 (2025-10-21): Base gameファイル(530,425行)は完全翻訳済みを確認。DLC1ファイルに移行し、未翻訳エントリ約1,224個を発見。Order Upクエストテキスト、デバッグテキストなど75エントリを翻訳。残り約1,150エントリ。",
+  "total_entries_completed": 41874,
+  "last_completed_section": "DLC1: ガレージ労働者、スピーカー、各種対話セクション翻訳完了 (263エントリ)",
+  "next_section_to_translate": "DLC1ファイルの残り未翻訳エントリ (約890エントリ残存)",
+  "next_action": "Session 65: DLC1ファイルの複数対話セクションを翻訳。ガレージ労働者(87)、スピーカーアナウンス(12)、アルフォンソ(26)、ベニー・ビアンキ難民(52)、バグ関連(85)など、合計263エントリ翻訳。次: 残り未翻訳エントリの続き。目標2,500エントリに向けて継続。",
+  "notes": "Session 65 (2025-10-21): DLC1ファイル内の複数の小〜中規模対話セクションを順次翻訳。ガレージ労働者の台詞、スティールタウンアナウンス、陰謀論者、難民対応、若者のクエスト関連対話など多様なセクション。残り約890エントリ。自動化セッションで効率良く進行中。",
   "sections_completed": [
     "Base game - mission_o2001_thickerthanblood (complete)",
     "Base game - mission_o2001_thickerthanwater (complete)",
@@ -26,8 +26,16 @@
     "Base game - statuseffects section [0-461] (complete - 462 entries)",
     "Base game - ALL SECTIONS COMPLETE (530,425 lines)",
     "DLC1 - Order Up quest text (86020-86124) - 43 entries",
-    "DLC1 - Various debug entries - 32 entries"
+    "DLC1 - Various debug entries - 32 entries",
+    "DLC1 - Garage workers ambient dialogue - 87 entries",
+    "DLC1 - Arcology loudspeakers - 12 entries",
+    "DLC1 - Awake Alphonso (conspiracy theorist) - 26 entries",
+    "DLC1 - Bennie refugee interaction - 52 entries",
+    "DLC1 - Brother Thomas - 1 entry",
+    "DLC1 - Bug boyfriend quest - 79 entries",
+    "DLC1 - Bug girlfriend - 5 entries",
+    "DLC1 - Debug entry - 1 entry"
   ],
-  "last_commit": "bd6eab9",
-  "session_number": 64
+  "last_commit": "eff0802",
+  "session_number": 65
 }
