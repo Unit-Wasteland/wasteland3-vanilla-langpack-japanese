@@ -19997,11 +19997,11 @@
        [0]
         1 string data = ""
        [1]
-        1 string data = ""Heretics! Degenerates! We cast you out! Leave this sacred place, or face the wrath of the angel!""
+        1 string data = ""異端者め！堕落者め！貴様らを追放する！この聖なる場所を去れ、さもなくば天使の怒りに直面せよ！""
        [2]
-        1 string data = ""Blast! Carbuncle and the others have broken through - and they've brought reinforcements! Run!""
+        1 string data = ""クソッ！カーバンクルと仲間たちが突破してきた――しかも援軍を連れてきた！逃げろ！""
        [3]
-        1 string data = ""Iridium, no! Not that way!""
+        1 string data = ""イリジウム、ダメだ！そっちじゃない！""
    [79]
     0 StringTable data
      1 string Filename = "e2001_door_elevators_east"
@@ -20043,17 +20043,17 @@
       1 Array Array (7 items)
        0 int size = 7
        [0]
-        1 string data = "Door sealed. Control terminal active.\n"
+        1 string data = "ドア封鎖中。制御端末起動中。\n"
        [1]
-        1 string data = "Enter access code: 'ADM1N1337.'"
+        1 string data = "アクセスコードを入力：'ADM1N1337。'"
        [2]
-        1 string data = "Door opening."
+        1 string data = "ドア開放中。"
        [3]
-        1 string data = "Use keypad to enter random numbers and letters."
+        1 string data = "キーパッドを使用してランダムな数字と文字を入力する。"
        [4]
-        1 string data = "Passcode not recognized. Have a nice day."
+        1 string data = "パスコードが認識されませんでした。良い一日を。"
        [5]
-        1 string data = "Step away from the terminal."
+        1 string data = "端末から離れる。"
        [6]
         1 string data = "::beep::"
    [80]
@@ -20111,23 +20111,23 @@
        [0]
         1 string data = ""
        [1]
-        1 string data = "Door sealed. Control terminal active.\n"
+        1 string data = "ドア封鎖中。制御端末起動中。\n"
        [2]
-        1 string data = "Use the keypad to enter: 'ADM1N1337.'"
+        1 string data = "キーパッドを使用して入力：'ADM1N1337。'"
        [3]
-        1 string data = "Door opening."
+        1 string data = "ドア開放中。"
        [4]
-        1 string data = "Examine the door status."
+        1 string data = "ドアの状態を調べる。"
        [5]
-        1 string data = "The nearby door is locked. You must enter an access code to open it."
+        1 string data = "近くのドアは施錠されている。開けるにはアクセスコードを入力する必要がある。"
        [6]
-        1 string data = "Step away from the terminal."
+        1 string data = "端末から離れる。"
        [7]
         1 string data = "::beep::"
        [8]
-        1 string data = "Use keypad to enter random numbers and letters."
+        1 string data = "キーパッドを使用してランダムな数字と文字を入力する。"
        [9]
-        1 string data = "Passcode not recognized. Have a nice day."
+        1 string data = "パスコードが認識されませんでした。良い一日を。"
    [81]
     0 StringTable data
      1 string Filename = "e2001_door_holydetonation"
@@ -20161,15 +20161,15 @@
       1 Array Array (5 items)
        0 int size = 5
        [0]
-        1 string data = "Cheyenne Mountain LIAB Stasis Reactor Experiment - Access Control Terminal.\n\n\nAccess Granted: Doors Open"
+        1 string data = "シャイアン・マウンテン LIAB 停滞炉実験 - アクセス制御端末。\n\n\nアクセス許可：ドア開放"
        [1]
-        1 string data = "Cheyenne Mountain LIAB Stasis Reactor Experiment - Access Control Terminal.\n\n\nPlease enter Admin codes 001 and 002."
+        1 string data = "シャイアン・マウンテン LIAB 停滞炉実験 - アクセス制御端末。\n\n\n管理者コード001と002を入力してください。"
        [2]
-        1 string data = "Enter random letters and numbers in code entry fields 001 and 002."
+        1 string data = "コード入力フィールド001と002にランダムな文字と数字を入力する。"
        [3]
-        1 string data = "Access denied. Have a nice day. "
+        1 string data = "アクセス拒否。良い一日を。 "
        [4]
-        1 string data = "Step away from the terminal."
+        1 string data = "端末から離れる。"
    [82]
     0 StringTable data
      1 string Filename = "e2001_door_iridium"
@@ -20227,25 +20227,25 @@
       1 Array Array (11 items)
        0 int size = 11
        [0]
-        1 string data = "Door sealed. Control terminal active.\n\n\nWARNING: Radiation detected in Cooling Pool Room! Proceed with caution.\n"
+        1 string data = "ドア封鎖中。制御端末起動中。\n\n\n警告：冷却プール室内で放射線検出！注意して進んでください。\n"
        [1]
-        1 string data = "Open door."
+        1 string data = "ドアを開ける。"
        [2]
-        1 string data = "Examine the door."
+        1 string data = "ドアを調べる。"
        [3]
-        1 string data = "Step away from the terminal."
+        1 string data = "端末から離れる。"
        [4]
-        1 string data = "The door is closed but not locked. You can still hear splashing and moaning from the other side."
+        1 string data = "ドアは閉まっているが施錠されていない。反対側から水しぶきの音とうめき声がまだ聞こえる。"
        [5]
-        1 string data = "Door opening."
+        1 string data = "ドア開放中。"
        [6]
         1 string data = ""
        [7]
         1 string data = ""
        [8]
-        1 string data = "Behind a heavy door you can hear faint sounds of moaning and water splashing. You should gather your squad before investigating."
+        1 string data = "重厚なドアの向こうから、かすかなうめき声と水しぶきの音が聞こえる。調査する前に部隊を集めるべきだ。"
        [9]
-        1 string data = " The door is open."
+        1 string data = " ドアは開いている。"
        [10]
         1 string data = "::beep::"
    [83]
@@ -20387,65 +20387,65 @@
        [0]
         1 string data = ""
        [1]
-        1 string data = "Elevator sealed. Control terminal active: \r\n1 - Use keypad\r\n2 - Use intercom"
+        1 string data = "エレベーター封鎖中。制御端末起動中： \r\n1 - キーパッド使用\r\n2 - インターコム使用"
        [2]
         1 string data = "::static::"
        [3]
-        1 string data = ""We've got Iridium with us, Deuterium. Open the elevator.""
+        1 string data = ""イリジウムを連れてきたぞ、デュウテリウム。エレベーターを開けろ。""
        [4]
-        1 string data = ""Abbot Deuterium. Open the elevator!""
+        1 string data = ""アボット・デュウテリウム。エレベーターを開けろ！""
        [5]
-        1 string data = "Step away from the terminal."
+        1 string data = "端末から離れる。"
        [6]
-        1 string data = ""Very well, strangers. I am unsealing the elevator. Bring Iridium to me. You shall be rewarded.""
+        1 string data = ""よかろう、よそ者よ。エレベーターの封印を解く。イリジウムを私のもとへ連れてこい。報酬は与えよう。""
        [7]
-        1 string data = ""Silence, heathen! This elevator will stay shut until the angel Iridium comes to it!""
+        1 string data = ""黙れ、異教徒め！このエレベーターは天使イリジウムが来るまで閉じたままだ！""
        [8]
-        1 string data = "This imposing door has been locked from the other side. You should gather the rest of your squad before proceeding."
+        1 string data = "この威圧的なドアは反対側から施錠されている。進む前に残りの部隊を集めるべきだ。"
        [9]
-        1 string data = ""I told you, unbelievers! Until Iridium is returned to us, we will not open this door!""
+        1 string data = ""言っただろう、不信心者め！イリジウムが我々のもとに戻るまで、このドアは開けない！""
        [10]
         1 string data = "::static::"
        [11]
-        1 string data = ""Come to me, Iridium! Come to me!""
+        1 string data = ""来るのだ、イリジウム！私のもとへ来るのだ！""
        [12]
-        1 string data = "1 - Use Keypad"
+        1 string data = "1 - キーパッド使用"
        [13]
-        1 string data = "2 - Use intercom"
+        1 string data = "2 - インターコム使用"
        [14]
-        1 string data = ""This is Deuterium. What do you want?""
+        1 string data = ""デュウテリウムだ。何の用だ？""
        [15]
-        1 string data = ""What now?""
+        1 string data = ""今度は何だ？""
        [16]
-        1 string data = "Keypad input disabled."
+        1 string data = "キーパッド入力無効。"
        [17]
-        1 string data = ""Let me hear her.""
+        1 string data = ""彼女の声を聞かせろ。""
        [18]
-        1 string data = ""The humiliations of the apothecaries shall be met with devastation and filigree!""
+        1 string data = ""薬剤師どもの屈辱は、破壊と装飾細工で報いられるだろう！""
        [19]
-        1 string data = ""Ah, Iridium, it's you! My prayers have been answered - and by unbelievers, no less. Courage my love, we shall be together soon.""
+        1 string data = ""ああ、イリジウム、お前か！私の祈りは聞き届けられた――しかも不信心者によって、というのだから。勇気を出すのだ、愛しい者よ、もうすぐ一緒になれる。""
        [20]
-        1 string data = ""Who's that? The outsiders? Where is Iridium? What have you done with her?""
+        1 string data = ""誰だ？よそ者か？イリジウムはどこだ？彼女に何をした？""
        [21]
-        1 string data = ""She's hiding in the cooling pool chamber. We haven't touched her.""
+        1 string data = ""冷却プール室に隠れている。手は出していない。""
        [22]
-        1 string data = ""What's the matter? Do you miss her?""
+        1 string data = ""どうした？彼女が恋しいのか？""
        [23]
-        1 string data = ""And you will not, or I will destroy you!""
+        1 string data = ""そして貴様らは手を出すな、さもなくば貴様らを滅ぼす！""
        [24]
-        1 string data = ""Do not mock me! I will destroy you!""
+        1 string data = ""私を侮辱するな！貴様らを滅ぼすぞ！""
        [25]
-        1 string data = ""What would you do to get her back? Would you share your code to the Holy Detonation chamber?""
+        1 string data = ""彼女を取り戻すために何をする？ホーリー・デトネーション室のコードを教えてくれるか？""
        [26]
-        1 string data = ""Let us come down there and you can give it a try. If we win, you give us your code to the Holy Detonation chamber, okay?""
+        1 string data = ""そこに降りていって勝負しよう。我々が勝ったら、ホーリー・デトネーション室のコードをくれるか？""
        [27]
-        1 string data = ""What? Did the Proteus put you up to this? Well, I'll say not another word until I hear Iridium's voice, understand me? Not another word!""
+        1 string data = ""何だと？プロテウスに唆されたのか？いいか、イリジウムの声を聞くまでもう一言も喋らんぞ、分かったか？もう一言もだ！""
        [28]
-        1 string data = ""What? Did the Proteus put you up to this? Well, this elevator remains closed until I hear Iridium's voice, understand me? I will not speak again until she does.""
+        1 string data = ""何だと？プロテウスに唆されたのか？いいか、イリジウムの声を聞くまでこのエレベーターは閉じたままだ、分かったか？彼女が喋るまで私は二度と喋らない。""
        [29]
-        1 string data = ""Can't we sort this out now?""
+        1 string data = ""今すぐ解決できないのか？""
        [30]
-        1 string data = ""Fine. We'll be back.""
+        1 string data = ""わかった。また戻ってくる。""
    [84]
     0 StringTable data
      1 string Filename = "e2001_goiter"
@@ -20831,95 +20831,95 @@
       1 Array Array (93 items)
        0 int size = 93
        [0]
-        1 string data = ""Hey there, Rangers! Welcome! Folks 'round here call me Goiter. If you're lookin' for salvaged tech, you've come to the right place!""
+        1 string data = ""やあ、レンジャーズ！ようこそ！ここらの人間は俺をゴイターと呼んでる。サルベージ技術を探してるなら、ここが正解だぜ！""
        [1]
-        1 string data = ""Hey, again! How's it going?""
+        1 string data = ""よお、また来たか！調子はどうだ？""
        [2]
         1 string data = ""
        [3]
-        1 string data = ""Good news! We found some carbon fiber for you.""
+        1 string data = ""いい知らせだ！カーボンファイバーを見つけたぞ。""
        [4]
-        1 string data = ""Where do you get your tech from?""
+        1 string data = ""技術製品はどこから入手している？""
        [5]
-        1 string data = ""Let's see what you've got for sale.""
+        1 string data = ""売り物を見せてくれ。""
        [6]
-        1 string data = ""Goodbye.""
+        1 string data = ""じゃあな。""
        [7]
-        1 string data = ""Go with the Glow, Rangers!""
+        1 string data = ""グローと共にあれ、レンジャーズ！""
        [8]
-        1 string data = ""Get it while it's hot!""
+        1 string data = ""熱いうちに手に入れろ！""
        [9]
-        1 string data = ""Holy Detonation! Let's have a look at it!""
+        1 string data = ""ホーリー・デトネーション！見せてくれ！""
        [10]
-        1 string data = ""That's the stuff! Yes, indeed. I sure do appreciate it. Now I can get to work turnin' that centrifuge into a salad spinner!""
+        1 string data = ""そうそう、それだよ！ああ、本当にありがたい。これで遠心分離機をサラダスピナーに改造できるぜ！""
        [11]
-        1 string data = ""Mostly it's salvage from down in the lab area. I repair what I can and repurpose the rest.""
+        1 string data = ""ほとんどは下の研究室エリアからのサルベージだ。修理できるものは修理して、残りは用途変更する。""
        [12]
-        1 string data = ""Speakin' of which, you folks wouldn't happen to have any carbon fiber, would ya? Sure could use some.""
+        1 string data = ""そういえば、あんたらカーボンファイバーを持ってないか？すごく必要なんだ。""
        [13]
-        1 string data = ""Suppose we find some. What's in it for us?""
+        1 string data = ""もし見つけたら、何か見返りはあるのか？""
        [14]
-        1 string data = ""If we find some we'll let you know.""
+        1 string data = ""見つけたら知らせよう。""
        [15]
-        1 string data = ""I'd be mighty obliged! And I'll make sure you're well compensated. Don't you worry about that.""
+        1 string data = ""すごく恩に着るぜ！ちゃんと報酬も出す。心配すんな。""
        [16]
-        1 string data = ""Don't you worry about that! I'm sure I can find somethin' around here to trade that'll make your eyes light up!""
+        1 string data = ""心配無用だ！目を輝かせるようなものを何か見つけて交換できるはずだ！""
        [17]
         1 string data = ""
        [18]
-        1 string data = ""The Proteus asked us to capture Iridium and bring her to Deuterium. They said you might know some way to contain her. Any ideas?""
+        1 string data = ""プロテウスがイリジウムを捕まえてデュウテリウムのもとへ連れて行くよう頼んできた。お前なら彼女を収容する方法を知ってるかもしれないと言っていた。何かアイデアはあるか？""
        [19]
-        1 string data = ""Contain Iridium? That's a tall order. She's already hot in her normal state, but when she fled into that cooling room she was practically shooting out solar flares. Hmm, now that I think of it, she probably went in there <i>because</i> she was so hot." "
+        1 string data = ""イリジウムを収容？そりゃ大変な注文だ。彼女は通常の状態でもすでに熱いが、あの冷却室に逃げ込んだ時は太陽フレアを撃ち出してるようなもんだった。うーん、考えてみると、彼女があそこに入ったのは<i>まさに</i>すごく熱かったからだろうな。" "
        [20]
-        1 string data = ""There was this one time I converted a hand-held cyclotron into a hair dryer. Straightened your short and curlies in two seconds flat!""
+        1 string data = ""昔、手持ちのサイクロトロンをヘアドライヤーに改造したことがあってな。縮れ毛を2秒でストレートにしたぜ！""
        [21]
-        1 string data = ""Thanks, Rangers! Now, I promised you something in trade, didn't I? Well, here. Take this doo-hickey. Might come in handy. And I'll give you a discount on all my stock, too.""
+        1 string data = ""ありがとう、レンジャーズ！さて、取引で何か約束したよな？ほら、これを持ってけ。役に立つかもしれん。それと、俺の在庫全部に割引してやるよ。""
        [22]
-        1 string data = ""You'll need some high-end parts. The particle accelerator down in R & D should have a voltage regulator tough enough to handle the job, and there's a scatter ray emitter over at the loading docks you'll want to collect.""
+        1 string data = ""高性能部品が必要だ。R&Dの粒子加速器に、この仕事に耐えられる電圧レギュレーターがあるはずだ。それと積み込みドックに散乱線エミッターがあるから、それも回収してくれ。""
        [23]
-        1 string data = ""Okay, got it. We're gonna turn my syphon into a containment device. To do that, we'll need three things. First, there's a particle accelerator on the lab level that has a voltage regulator tough enough to handle her fluctuations. Rip that out."\n"
+        1 string data = ""よし、わかった。俺のサイフォンを収容装置に改造する。そのためには3つのものが必要だ。まず、研究室階にある粒子加速器に、彼女の変動に耐えられる電圧レギュレーターがある。それを引っこ抜いてこい。"\n"
        [24]
-        1 string data = ""Second, I'm pretty sure I saw a scatter ray emitter in the shipping room near the loading docks that we can use to distribute our shielding material in a bubble around her.""
+        1 string data = ""次に、積み込みドック近くの出荷室に散乱線エミッターがあったはずだ。それを使って彼女の周りにバブル状にシールド材を分散させる。""
        [25]
-        1 string data = ""And third, the shield itself. The Nucleists are using the old brig to hold unwilling subjects for their experiments. They've been using a force field projector to keep irradiated captives contained. We'll need the crystal outta that.""
+        1 string data = ""3つ目は、シールド本体だ。ニュークリストたちは古い営倉を使って実験の被験者を拘束している。被曝した捕虜を収容するのにフォースフィールド投影機を使ってる。そこからクリスタルが必要だ。""
        [26]
-        1 string data = ""Bring all that stuff back to me and I'll whip you up something that'll hold Iridium long enough to get her through the camp and down the elevator to Deuterium, though, uh, not much longer than that.""
+        1 string data = ""それを全部持ってきてくれ。イリジウムをキャンプを通ってエレベーターでデュウテリウムのもとへ連れていくのに十分な時間だけ保持できるものを作ってやる。ただし、それほど長くはもたないけどな。""
        [27]
-        1 string data = ""We got one of the things on your shopping list.""
+        1 string data = ""買い物リストの1つを手に入れた。""
        [28]
-        1 string data = ""We got two of the things you asked for.""
+        1 string data = ""頼まれたもののうち2つを手に入れた。""
        [29]
-        1 string data = ""We've collected everything you wanted.""
+        1 string data = ""必要なものは全部集めた。""
        [30]
-        1 string data = ""Perfect. All right, hand it all over and let me do a little tinkering. I just gotta connect the gozinta to the gozoutta and realign the doohickeys, and...""
+        1 string data = ""完璧だ。よし、全部渡してくれ。ちょっといじらせてもらう。ゴジンタをゴジアウタに繋げて、ドゥーヒッキーを再調整すれば……""
        [31]
-        1 string data = ""Great! Only one more to go!""
+        1 string data = ""最高だ！あと1つだけだ！""
        [32]
-        1 string data = ""Fantastic. Hold on to it until you've got all three, then bring them all to me.""
+        1 string data = ""素晴らしい。3つ全部が揃うまで保管しといて、それから全部持ってきてくれ。""
        [33]
-        1 string data = ""All right, Rangers. There you go, you're very own radiation angel containment device. Well, it will be once you connect it to the energy syphon I built in the cooling pool room.""
+        1 string data = ""よし、レンジャーズ。これであんたらの放射線天使収容装置の完成だ。まあ、冷却プール室に俺が作ったエネルギーサイフォンに接続すればの話だが。""
        [34]
-        1 string data = ""See, they might look serene, but it hurts to be a radiation angel. They need to offload built up energy or they'll die, but they can't do it around us, or <i>we'll</i> die." "
+        1 string data = ""いいか、彼らは穏やかに見えるかもしれんが、放射線天使であることは苦痛なんだ。蓄積したエネルギーを放出しないと死んでしまうが、俺たちの近くでそれをやると<i>俺たちが</i>死ぬ。" "
        [35]
-        1 string data = ""That's what the pool is for. The angels soak in it and the water safely leaches their energy. In fact, before us and the Nucleists split, I was working on a device in there to syphon that energy and... Wait a minute. An idea's coming to me.""
+        1 string data = ""そのためのプールだ。天使たちがそこに浸かると、水が安全にエネルギーを吸い取る。実は、俺たちとニュークリストが分裂する前、あそこでそのエネルギーを吸い取る装置を作っててな……ちょっと待て。アイデアが浮かんできた。""
        [36]
-        1 string data = ""What is it?""
+        1 string data = ""何だ？""
        [37]
-        1 string data = ""Will it be arriving anytime soon?""
+        1 string data = ""すぐに出てくるのか？""
        [38]
-        1 string data = ""Ease off, unbelievers. You can't rush genius.""
+        1 string data = ""落ち着け、不信心者ども。天才を急かすな。""
        [39]
-        1 string data = ""And, uh, good luck with that. Hopefully Iridium's far enough away from the syphon that she doesn't burn you to the ground before you get it hooked up.""
+        1 string data = ""それと、幸運を祈るぜ。イリジウムがサイフォンから十分離れてて、接続する前にあんたらを焼き尽くさないといいが。""
        [40]
-        1 string data = ""We did it! We've contained Iridium.""
+        1 string data = ""やったぞ！イリジウムを収容した。""
        [41]
-        1 string data = ""Yeah, that's great. Now get her away from me. Get her out of the camp and back to Deuterium. There's no telling how long that shield will hold, but it won't be long.""
+        1 string data = ""ああ、よかった。じゃあ俺から遠ざけてくれ。キャンプから出してデュウテリウムのもとへ戻してやれ。シールドがどれだけもつか分からんが、長くはもたんぞ。""
        [42]
-        1 string data = ""Scoot! Go!""
+        1 string data = ""早く！行け！""
        [43]
-        1 string data = ""Oh, wait. Hang on. You won't be able to get any of those things without the access code for the elevators in the entrance lobby. Here it is, 'ADM1N1337'.""
+        1 string data = ""あ、待て。待ってくれ。入り口ロビーのエレベーターのアクセスコードがないと、そのどれも手に入らないぞ。これだ、'ADM1N1337'。""
        [44]
-        1 string data = " Perfect. All right, now you're going to want to attach them to the energy syphon I built in the pool room. Just connect the gozinta to the gozoutta, the framish to the gazornenplatz, and..."
+        1 string data = " 完璧だ。よし、次はプール室に作ったエネルギーサイフォンに取り付けることになる。ゴジンタをゴジアウタに繋いで、フラミッシュをガゾルネンプラッツに合わせて……"
        [45]
         1 string data = ""
        [46]
@@ -20927,89 +20927,89 @@
        [47]
         1 string data = ""
        [48]
-        1 string data = ""A high cost to pay to bring us together. Too high.""
+        1 string data = ""俺たちを引き合わせるには高すぎる代償だった。高すぎる。""
        [49]
-        1 string data = ""You assholes. I can't believe I helped you kill our god.""
+        1 string data = ""くそったれめ。俺たちの神を殺すのを手伝ったなんて信じられん。""
        [50]
-        1 string data = ""You assholes. After all the help I gave you.""
+        1 string data = ""くそったれめ。あれだけ協力してやったのに。""
        [51]
         1 string data = ""
        [52]
         1 string data = ""
        [53]
-        1 string data = ""You sons of bitches!""
+        1 string data = ""この野郎ども！""
        [54]
-        1 string data = ""This is a peaceful camp!""
+        1 string data = ""ここは平和なキャンプだ！""
        [55]
-        1 string data = ""Run!""
+        1 string data = ""逃げろ！""
        [56]
-        1 string data = ""Oh, and take this. Just a few things you might find handy when you meet Deuterium face to face.""
+        1 string data = ""それと、これを持ってけ。デュウテリウムと直接会う時に役立つかもしれん。""
        [57]
-        1 string data = ""Hopefully Iridium's far enough away from the syphon that she doesn't burn you to the ground before you get it hooked up.""
+        1 string data = ""イリジウムがサイフォンから十分離れてて、接続する前にあんたらを焼き尽くさないといいが。""
        [58]
-        1 string data = ""Hey, wait a second. I think I heard Sister Polyp telling you how Father Bezoar's gone missing? But I bet she didn't ask you to save him, did she?""
+        1 string data = ""おい、ちょっと待て。シスター・ポリプがファーザー・ベゾアが行方不明だって言ってたのを聞いたと思うが？でも彼女はあんたらに彼を救出してくれとは頼まなかっただろう？""
        [59]
-        1 string data = ""She mentioned him, but no, she didn't say anything about a rescue.""
+        1 string data = ""彼のことは口にしたが、いや、救出については何も言わなかった。""
        [60]
-        1 string data = ""She said she thought he was dead.""
+        1 string data = ""彼女は彼が死んだと思っていると言った。""
        [61]
-        1 string data = ""Yeah, well, she wouldn't. See, if he doesn't come back, then she's the speaker permanently. Stops bein' <i>Sister</i> Polyp and becomes <i>Mother</i> Polyp, and she'd like that just fine.""
+        1 string data = ""ああ、まあ、彼女はそうは言わんだろうな。いいか、もし彼が戻ってこなければ、彼女が恒久的に語り手になる。<i>シスター</i>・ポリプじゃなくなって<i>マザー</i>・ポリプになる。彼女はそれで大満足だろうよ。""
        [62]
-        1 string data = ""She <i>wishes</i> he was. See, if he doesn't come back, then she's the speaker permanently. Stops bein' <i>Sister</i> Polyp and becomes <i>Mother</i> Polyp, and she'd like that just fine.""
+        1 string data = ""彼女は彼が死ねば<i>いいと思ってる</i>。いいか、もし彼が戻ってこなければ、彼女が恒久的に語り手になる。<i>シスター</i>・ポリプじゃなくなって<i>マザー</i>・ポリプになる。彼女はそれで大満足だろうよ。""
        [63]
-        1 string data = ""The rest of us wouldn't be happy about that. She's a devout Primordialist. Ain't no denyin' that, but even her biggest supporters wouldn't call her exactly warm and friendly. More cold and tough.""
+        1 string data = ""俺たちの残りはそれを喜ばんだろう。彼女は敬虔なプライモーディアリストだ。それは否定しないが、最大の支持者でさえ彼女が温かくて親しみやすいとは言わんだろう。むしろ冷たくて厳しい。""
        [64]
-        1 string data = ""And, I don't know, what with Deuterium and the Nucleists actin' up, maybe we need that, but we love Father Bezoar. 'Least most of us do, and we want him back, so...""
+        1 string data = ""それに、分からんが、デュウテリウムとニュークリストが騒いでる今、そういうのが必要かもしれんが、俺たちはファーザー・ベゾアを愛してる。少なくとも俺たちの大半は、そして彼に戻ってきてほしいんだ、だから……""
        [65]
-        1 string data = ""If you find he's still alive down there in the security level, I hope you'll consider bringing him home. We'd appreciate it, thanks.""
+        1 string data = ""もし下のセキュリティ階で彼がまだ生きてるのを見つけたら、家に連れて帰ることを考えてくれ。感謝するぜ、ありがとう。""
        [66]
-        1 string data = ""Rangers! Thank's a million for rescuin' Father Bezoar. It's so great to see him back at his old post. And nice to see Polyp sulkin' too, if I'm honest.""
+        1 string data = ""レンジャーズ！ファーザー・ベゾアを救出してくれて本当にありがとう。彼が元の持ち場に戻ってきてくれて最高だ。正直に言えば、ポリプがふてくされてるのを見るのもいい気分だ。""
        [67]
-        1 string data = ""Heard Father Bezoar died in his cell, Rangers. A damn sad day. He was such a good man.""
+        1 string data = ""ファーザー・ベゾアが独房で死んだと聞いたぜ、レンジャーズ。本当に悲しい日だ。彼はとてもいい人だった。""
        [68]
-        1 string data = ""Just saw Father Bezoar become one with the Proteus. Guess I should be happy about that, but that means Polyp's in charge now, and... I just don't think she's gonna take the church in the right direction, if you know what I mean.""
+        1 string data = ""ファーザー・ベゾアがプロテウスと一体になったのを見たよ。それを喜ぶべきなんだろうが、つまりポリプが今は責任者で……彼女が教会を正しい方向に導くとは思えないんだ、意味分かるだろ。""
        [69]
-        1 string data = ""Here's a little something for helpin' bring him back. Now, what's happenin'?""
+        1 string data = ""彼を連れ戻すのを手伝ってくれたお礼だ。さて、何があった？""
        [70]
-        1 string data = ""Polyp's already gloating, though the Proteus don't seem ready to accept it yet. You should talk to 'em. They'll believe it if they hear it from you.""
+        1 string data = ""ポリプはもう勝ち誇ってるが、プロテウスはまだそれを受け入れる準備ができてないみたいだ。あいつらと話すべきだ。あんたらから聞けば信じるだろう。""
        [71]
-        1 string data = ""Guess you already told 'em, since I can see Polyp gloating from here. Poor Proteus. This has broken every one of their hearts.""
+        1 string data = ""もう話したんだろうな。ここからでもポリプが勝ち誇ってるのが見える。可哀想なプロテウス。これで彼らの心は皆傷ついた。""
        [72]
-        1 string data = "::sighs:: "Now how can I help you?""
+        1 string data = "::sighs:: "さて、何か手伝えることは？""
        [73]
-        1 string data = ""Saw you talkin' to her just now, so I'm sure you saw her gloating about it. Can't understand how the Proteus can't see her for what she really is.""
+        1 string data = ""さっきあいつと話してたのを見たから、あいつが勝ち誇ってるのを見ただろう。プロテウスがあいつの本性を見抜けないのが理解できん。""
        [74]
-        1 string data = ""Guess you better go over there and pay your respects, seeing as she's the speaker now. Can't understand how the Proteus can't see her for what she really is.""
+        1 string data = ""彼女が今は語り手だから、向こうに行って弔意を示した方がいいだろう。プロテウスがあいつの本性を見抜けないのが理解できん。""
        [75]
-        1 string data = ""Wait a second. Before we get to that. I think I heard Sister Polyp telling you how Father Bezoar's gone missing? But I bet she didn't ask you to save him, did she?""
+        1 string data = ""ちょっと待て。その前に。シスター・ポリプがファーザー・ベゾアが行方不明だって言ってたのを聞いたと思うが？でも彼女はあんたらに彼を救出してくれとは頼まなかっただろう？""
        [76]
-        1 string data = ""Now, what did you want to buy?""
+        1 string data = ""さて、何を買いたい？""
        [77]
         1 string data = ""
        [78]
         1 string data = ""
        [79]
-        1 string data = ""She wants him dead? Disgusting.""
+        1 string data = ""彼女は彼の死を望んでる？ひどいな。""
        [80]
-        1 string data = ""Mm. Ambitious.""
+        1 string data = ""うむ。野心的だ。""
        [81]
-        1 string data = ""A conniver, huh?""
+        1 string data = ""策略家か？""
        [82]
-        1 string data = ""Hmm. Her ambition outstrips her humanity.""
+        1 string data = ""うーむ。彼女の野心は人間性を上回っている。""
        [83]
-        1 string data = ""That... that's not right.""
+        1 string data = ""それは……それは正しくない。""
        [84]
-        1 string data = ""Well, well, well.""
+        1 string data = ""ほう、ほう、ほう。""
        [85]
-        1 string data = ""That's how <i>I</i> got ahead.""
+        1 string data = ""<i>俺</i>もそうやって出世したんだ。""
        [86]
-        1 string data = ""You get it, girl!""
+        1 string data = ""やるじゃないか！""
        [87]
         1 string data = ""
        [88]
         1 string data = ""
        [89]
-        1 string data = "[[Global: e2001_GeneralMerchantDiscount]% Discount] "Get it while it's hot!""
+        1 string data = "[[Global: e2001_GeneralMerchantDiscount]%割引] "熱いうちに手に入れろ！""
        [90]
         1 string data = ""
        [91]
@@ -21209,95 +21209,95 @@
       1 Array Array (45 items)
        0 int size = 45
        [0]
-        1 string data = ""Crapulous frond! I shall defenestrate thee forthwith!"\n"
+        1 string data = ""不潔な葉状体め！即座に窓から放り出してやる！"\n"
        [1]
         1 string data = ""
        [2]
-        1 string data = ""You are neither believer nor heretic. Who are you?""
+        1 string data = ""お前は信徒でも異端者でもない。何者だ？""
        [3]
-        1 string data = ""Fool! Your pathetic trinket means nothing to me! I am an angel! A divine being! I...I feel strange. What have you done to me? Let me go!""
+        1 string data = ""愚か者め！お前の哀れな小道具など私には何の意味もない！私は天使だ！神聖なる存在だ！私は……おかしい。何をした？離せ！""
        [4]
-        1 string data = ""What's this? Some kind of gift? An offering, perhaps?""
+        1 string data = ""これは何だ？何かの贈り物か？供え物か？""
        [5]
-        1 string data = "Use the containment device."
+        1 string data = "収容装置を使う。"
        [6]
-        1 string data = ""Something like that.""
+        1 string data = ""まあそんなところだ。""
        [7]
-        1 string data = ""It creates a powerful radiation containment field. Here, let me show you...""
+        1 string data = ""強力な放射線収容フィールドを生成する。見せてやろう……""
        [8]
-        1 string data = ""Fool! You can't contain the power of the cosmos! Witness my...oh! Oh, no! You can't do this! Let me go!""
+        1 string data = ""愚か者め！宇宙の力を収容できるわけがない！見よ、私の……おお！ああ、ダメだ！こんなことはできない！離せ！""
        [9]
-        1 string data = ""We're not going to hurt you. Just come with us and everything will be fine.""
+        1 string data = ""危害を加えるつもりはない。ただついてくればすべてうまくいく。""
        [10]
-        1 string data = ""If you want to see your people again, you'll come with us.""
+        1 string data = ""同胞に会いたければ、我々についてこい。""
        [11]
         1 string data = ""
        [12]
-        1 string data = ""It appears that you leave me no choice.""
+        1 string data = ""選択の余地はないようだな。""
        [13]
-        1 string data = ""Lead on.""
+        1 string data = ""先導せよ。""
        [14]
-        1 string data = ""Desert Rangers. We're trying to end the feud between the Nucleists and the Primordialists.""
+        1 string data = ""デザート・レンジャーズだ。ニュークリストとプライモーディアリストの争いを終わらせようとしている。""
        [15]
-        1 string data = ""They ran back to where they came from.""
+        1 string data = ""奴らは来た場所へ逃げ帰った。""
        [16]
-        1 string data = ""I have been trapped in this terrible place for an eternity... Tell me, are my people safe? They will be lost without me.""
+        1 string data = ""この恐ろしい場所に永遠に閉じ込められていた……教えてくれ、私の民は無事か？私なしでは彼らは迷うだろう。""
        [17]
-        1 string data = ""I am pleased. They will rejoice to see me. Stand aside. I must go to them.""
+        1 string data = ""嬉しい。彼らは私を見て歓喜するだろう。道を開けよ。私は彼らのもとへ行かねば。""
        [18]
-        1 string data = ""What the hell are you, anyway?""
+        1 string data = ""一体お前は何者なんだ？""
        [19]
-        1 string data = ""I am one of the Ascended, transformed by the light of the Holy Detonation into an angel of sacred radiation. Bow down before me...or burn.""
+        1 string data = ""私は昇天者の一人、ホーリー・デトネーションの光によって神聖なる放射線の天使へと変容した。私の前にひれ伏すがいい……さもなくば焼け死ぬぞ。""
        [20]
-        1 string data = ""We can't do that.""
+        1 string data = ""それはできない。""
        [21]
-        1 string data = ""Then you will burn.""
+        1 string data = ""ならば焼け死ぬがいい。""
        [22]
         1 string data = ""
        [23]
-        1 string data = ""Flames of transubstantiation, deliver surcease!""
+        1 string data = ""実体変化の炎よ、終息をもたらせ！""
        [24]
         1 string data = ""
        [25]
-        1 string data = ""Untether mine lofty pennons, appellates!""
+        1 string data = ""我が崇高なる旗印を解き放て、呼称者よ！""
        [26]
         1 string data = ""
        [27]
-        1 string data = ""My corpuscles burn with antigone!""
+        1 string data = ""我が血球はアンティゴネーで燃える！""
        [28]
-        1 string data = ""Holy incarceration! Give me sooth!""
+        1 string data = ""神聖なる投獄よ！我に真実を与えよ！""
        [29]
-        1 string data = ""The fires of the hebrides consumate me!""
+        1 string data = ""ヘブリディーズの炎が我を焼き尽くす！""
        [30]
-        1 string data = ""Demons of immolation, behest!""
+        1 string data = ""焼身の悪魔どもよ、命ずる！""
        [31]
-        1 string data = ""Attend! Thy chastity doth impinge my loquacious parabola!"\n"
+        1 string data = ""聞け！汝の純潔が我が饒舌なる放物線を侵すぞ！"\n"
        [32]
-        1 string data = ""Free me from thy blather of viscosity!""
+        1 string data = ""汝の粘性の戯言から我を解放せよ！""
        [33]
-        1 string data = ""Thou scrofulous bombazines! Unhinge my corporeal corpus!""
+        1 string data = ""汝ら、瘰癧の紡績綿布どもよ！我が肉体を解き放て！""
        [34]
-        1 string data = ""Incontinent raveners! Thou fetter me injudiciously!""
+        1 string data = ""失禁せし略奪者どもよ！汝らは我を不当に束縛する！""
        [35]
-        1 string data = ""Woe betide! Clemency and calamity coalesce!""
+        1 string data = ""災いあれ！慈悲と災厄が融合する！""
        [36]
-        1 string data = ""Forfend me not! Lest I cast thee beyond the never of temporal juxtaposition!""
+        1 string data = ""我を妨げるな！さもなくば汝を時間的並置の彼方へ追放せん！""
        [37]
-        1 string data = ""Repent thee, castigator!""
+        1 string data = ""悔い改めよ、懲罰者よ！""
        [38]
-        1 string data = ""Release mine stamens, without delamination!""
+        1 string data = ""我が雄しべを、剥離なく解き放て！""
        [39]
         1 string data = ""
        [40]
-        1 string data = ""Timorous!" "
+        1 string data = ""臆病者め！" "
        [41]
-        1 string data = ""EEEEAAAAH!" "
+        1 string data = ""いいいやああああ！" "
        [42]
         1 string data = ""
        [43]
-        1 string data = ""Sorry, mutant. You go where we go now. Come on.""
+        1 string data = ""悪いがミュータント、これからはお前も我々と行動を共にする。さあ行くぞ。""
        [44]
-        1 string data = ""If you want to see Deuterium again, follow us.""
+        1 string data = ""デュウテリウムに再び会いたければ、ついてこい。""
    [86]
     0 StringTable data
      1 string Filename = "e2001_melanoma"
@@ -21451,25 +21451,25 @@
       1 Array Array (35 items)
        0 int size = 35
        [0]
-        1 string data = ""Hello there! Blessings of the Glow be with you! I'm Sister Melanoma! If you're looking for a little protection, I'm sure I've got something that will help!""
+        1 string data = ""こんにちは！グローの祝福があなたと共にありますように！私はシスター・メラノーマ！少し防護をお求めなら、きっとお役に立てるものがあります！""
        [1]
-        1 string data = ""Radiation's blessings, Rangers! How can I help you?""
+        1 string data = ""放射線の祝福を、レンジャーズ！何かお手伝いできますか？""
        [2]
         1 string data = ""
        [3]
-        1 string data = ""Where do you get your supplies from?""
+        1 string data = ""物資はどこから手に入れている？""
        [4]
-        1 string data = ""Can we see your wares?""
+        1 string data = ""商品を見せてもらえるか？""
        [5]
-        1 string data = ""Goodbye.""
+        1 string data = ""じゃあな。""
        [6]
-        1 string data = ""Be safe! May the Glow protect you!""
+        1 string data = ""ご無事で！グローがあなたを守りますように！""
        [7]
-        1 string data = ""Of course! Let me know if there is anything you like.""
+        1 string data = ""もちろんです！何かお気に召すものがあればお知らせください。""
        [8]
-        1 string data = ""The Holy Detonation provides! There's all kinds of useful stuff down on the lower levels. Plenty of dead explorers, too!""
+        1 string data = ""ホーリー・デトネーションが与えてくださるのです！下の階層には役立つものが色々あります。死んだ探検家もたくさんいますが！""
        [9]
-        1 string data = ""Usually we just share this stuff amongst ourselves when we need it, but seeing as you're outsiders, I figure I should probably charge you. We'll put the money toward our missionary work.""
+        1 string data = ""普段はこういうものが必要な時は仲間内で分け合ってるんですが、あなたたちはよそ者なので、料金をいただいた方がいいかなと思いまして。集めたお金は伝道活動に使います。""
        [10]
         1 string data = ""
        [11]
@@ -21477,37 +21477,37 @@
        [12]
         1 string data = ""
        [13]
-        1 string data = ""How can the Proteus be dead? I don't understand.""
+        1 string data = ""プロテウスが死ぬなんてどういうこと？理解できないわ。""
        [14]
-        1 string data = ""This is the end of the world.""
+        1 string data = ""これは世界の終わりよ。""
        [15]
-        1 string data = ""Thieves. Murdering thieves!""
+        1 string data = ""盗人。人殺しの盗人！""
        [16]
         1 string data = ""
        [17]
-        1 string data = ""Look out! The Rangers are attacking!""
+        1 string data = ""気をつけて！レンジャーズが攻撃してくるわ！""
        [18]
-        1 string data = ""Protect yourselves!""
+        1 string data = ""身を守って！""
        [19]
-        1 string data = ""Proteus, help!""
+        1 string data = ""プロテウス、助けて！""
        [20]
-        1 string data = ""What's that weird mound of cancerous growths there?""
+        1 string data = ""あそこの癌性腫瘍の変な塊は何だ？""
        [21]
-        1 string data = ""Oh, that's a tumor colony. Flesh tumors are cancerous growths that flake off from the Proteus sometimes and scooch around on their own. For some reason they seem to form colonies around doors and crates, we don't know why.""
+        1 string data = ""ああ、あれは腫瘍コロニーです。肉腫瘍はプロテウスから時々剥がれ落ちる癌性増殖物で、自分で動き回るんです。どういうわけか、ドアや木箱の周りにコロニーを形成するようで、理由は分かりませんが。""
        [22]
-        1 string data = ""Father Bezoar's discovered that he can make them disperse by playing tunes for them on his flute.""
+        1 string data = ""ファーザー・ベゾアが、フルートで曲を演奏すると腫瘍を散らすことができると発見しました。""
        [23]
-        1 string data = "::laughs:: "This one's weird, though, because Bezoar hasn't been able to find a tune to disperse it."\n\n\n"Must have eclectic taste.""
+        1 string data = "::laughs:: "でもあれは変なんです。ベゾアがそれを散らす曲を見つけられなくて。"\n\n\n"きっと変わった趣味なんでしょうね。""
        [24]
-        1 string data = ""We found a tune we think might work on the tumor colony there.""
+        1 string data = ""あそこの腫瘍コロニーに効きそうな曲を見つけたんだ。""
        [25]
-        1 string data = ""Sure. Give it a shot. You don't need my permission.""
+        1 string data = ""どうぞ。試してみてください。私の許可なんていりません。""
        [26]
-        1 string data = ""Hey, you dispersed the tumor colony on that crate! Great job! Hope there was something useful in there for you.""
+        1 string data = ""あら、あの木箱の腫瘍コロニーを散らしたのね！お見事！中に何か役立つものがあればいいけど。""
        [27]
-        1 string data = ""Now, how can I help you?""
+        1 string data = ""さて、何かお手伝いできますか？""
        [28]
-        1 string data = ""Hey! You cleared that tumor colony! Nice tune too!""
+        1 string data = ""あら！腫瘍コロニーを片付けたのね！素敵な曲だったわ！""
        [29]
         1 string data = ""
        [30]
@@ -21515,7 +21515,7 @@
        [31]
         1 string data = ""
        [32]
-        1 string data = "[[Global: e2001_GeneralMerchantDiscount]% Discount] "Of course! Let me know if there is anything you like.""
+        1 string data = "[[Global: e2001_GeneralMerchantDiscount]%割引] "もちろんです！何かお気に召すものがあればお知らせください。""
        [33]
         1 string data = ""
        [34]
