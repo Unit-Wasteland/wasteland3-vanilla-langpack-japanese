@@ -12,9 +12,9 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 666,
-      "entries_completed": 0,
-      "status": "pending"
+      "current_line": 1045,
+      "entries_completed": 100,
+      "status": "in_progress"
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -37,10 +37,10 @@
       "status": "pending"
     }
   },
-  "last_commit_hash": "a57a1986001838484c0d77f19b18c253ce6b86d4",
-  "total_entries_completed": 0,
+  "last_commit_hash": "",
+  "total_entries_completed": 100,
   "estimated_total_entries": 71992,
-  "next_action": "Process base_game starting from line 666 (first translatable entry)",
+  "next_action": "Continue base_game retranslation from line 1045",
   "memory_settings": {
     "read_chunk_size": 50,
     "max_chunk_size": 100,
