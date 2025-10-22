@@ -158,7 +158,7 @@ get_claude_memory() {
 
 # Run single Claude Code session
 run_claude_session() {
-    ((SESSION_COUNT++))
+    SESSION_COUNT=$((SESSION_COUNT + 1))  # Avoid ((SESSION_COUNT++)) issue with set -e
     local session_log="$SCRIPT_DIR/.session_${SESSION_COUNT}_output.log"
 
     log "========================================="
@@ -171,7 +171,9 @@ run_claude_session() {
     log "Progress before session: $progress_before entries completed"
 
     # Create command file
+    log "DEBUG: Creating command file..."
     create_claude_command
+    log "DEBUG: Command file created at: $COMMAND_FILE"
 
     # Run Claude Code with automatic permission approval (background with timeout)
     log "Executing Claude Code session..."
@@ -180,14 +182,17 @@ run_claude_session() {
     local WARN_MEMORY_MB=4096   # 4GB warning
     local MAX_MEMORY_MB=6144    # 6GB mandatory restart
 
+    log "DEBUG: Starting timeout command..."
     # Start Claude Code in background with timeout (1 hour default)
     timeout 3600 bash -c "yes | cat '$COMMAND_FILE' | claude --dangerously-skip-permissions" > "$session_log" 2>&1 &
     local CLAUDE_PID=$!
 
     log "Claude Code session started (PID: $CLAUDE_PID)"
+    log "DEBUG: Session log file: $session_log"
 
     # Monitor memory usage
     local MONITOR_INTERVAL=30  # Check every 30 seconds
+    log "DEBUG: Entering memory monitoring loop..."
     while kill -0 $CLAUDE_PID 2>/dev/null; do
         sleep $MONITOR_INTERVAL
 
@@ -206,9 +211,11 @@ run_claude_session() {
         fi
     done
 
+    log "DEBUG: Exited memory monitoring loop, waiting for Claude process..."
     # Wait for Claude Code to finish
     wait $CLAUDE_PID 2>/dev/null
     local exit_code=$?
+    log "DEBUG: Claude process finished with exit code: $exit_code"
 
     if [[ $exit_code -eq 0 ]]; then
         log "Session #$SESSION_COUNT completed successfully"
@@ -228,7 +235,7 @@ run_claude_session() {
 
     # Check for zero progress
     if [[ $entries_completed -eq 0 ]]; then
-        ((CONSECUTIVE_ZERO_SESSIONS++))
+        CONSECUTIVE_ZERO_SESSIONS=$((CONSECUTIVE_ZERO_SESSIONS + 1))  # Avoid ((...++)) issue with set -e
         log "WARNING: Zero entries completed (consecutive: $CONSECUTIVE_ZERO_SESSIONS/$MAX_ZERO_SESSIONS)"
 
         if [[ $CONSECUTIVE_ZERO_SESSIONS -ge $MAX_ZERO_SESSIONS ]]; then
