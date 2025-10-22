@@ -45,6 +45,7 @@ readonly PROJECT_DIR="$(dirname "$SCRIPT_DIR")"
 readonly PROGRESS_FILE="$PROJECT_DIR/translation/.retranslation_progress.json"
 readonly LOG_FILE="$SCRIPT_DIR/retranslation-automation.log"
 readonly COMMAND_FILE="$SCRIPT_DIR/.current_retranslate_command.txt"
+readonly LOCK_FILE="$SCRIPT_DIR/.retranslation.lock"
 
 # Session tracking
 SESSION_COUNT=0
@@ -63,6 +64,35 @@ error_exit() {
     log "ERROR: $*"
     exit 1
 }
+
+# Lock file management
+acquire_lock() {
+    if [[ -f "$LOCK_FILE" ]]; then
+        local lock_pid
+        lock_pid=$(cat "$LOCK_FILE" 2>/dev/null || echo "unknown")
+
+        # Check if the process is still running
+        if [[ "$lock_pid" != "unknown" ]] && kill -0 "$lock_pid" 2>/dev/null; then
+            error_exit "Another retranslation session is already running (PID: $lock_pid)"
+        else
+            log "Removing stale lock file (PID: $lock_pid no longer running)"
+            rm -f "$LOCK_FILE"
+        fi
+    fi
+
+    echo "$$" > "$LOCK_FILE"
+    log "Lock acquired (PID: $$)"
+}
+
+release_lock() {
+    if [[ -f "$LOCK_FILE" ]]; then
+        rm -f "$LOCK_FILE"
+        log "Lock released"
+    fi
+}
+
+# Ensure lock is released on exit
+trap release_lock EXIT INT TERM
 
 # Check prerequisites
 check_prerequisites() {
@@ -264,6 +294,9 @@ main() {
     log "Progress file: $PROGRESS_FILE"
     log "Log file: $LOG_FILE"
     log ""
+
+    # Acquire exclusive lock (prevent duplicate sessions)
+    acquire_lock
 
     # Check prerequisites
     check_prerequisites
