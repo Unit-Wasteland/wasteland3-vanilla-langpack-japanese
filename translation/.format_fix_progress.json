@@ -1,0 +1,23 @@
+{
+  "last_updated": "2025-10-22T12:00:00+09:00",
+  "current_file": "base_game",
+  "current_file_path": "translation/target/v1.6.9.420.309496/ja_JP/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
+  "backup_file_path": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
+  "current_line_offset": 666,
+  "current_section": "0000_radio_elijahward_holydetonation",
+  "entries_processed": 20,
+  "entries_in_current_batch": 20,
+  "total_entries_to_process": 71992,
+  "total_entries": {
+    "base_game": 51853,
+    "DLC1": 12785,
+    "DLC2": 7354
+  },
+  "last_commit_hash": "",
+  "status": "in_progress",
+  "notes": "テスト用サンプル20エントリ完了。本格作業開始準備完了。",
+  "processing_strategy": {
+    "batch_size": 100,
+    "commit_frequency": 500
+  }
+}
