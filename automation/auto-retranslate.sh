@@ -243,9 +243,11 @@ run_claude_session() {
     done
 
     log "DEBUG: Exited memory monitoring loop, waiting for Claude process..."
-    # Wait for Claude Code to finish
+    # Wait for Claude Code to finish (capture exit code but don't trigger set -e)
+    set +e  # Temporarily disable exit on error
     wait $CLAUDE_PID 2>/dev/null
     local exit_code=$?
+    set -e  # Re-enable exit on error
     log "DEBUG: Claude process finished with exit code: $exit_code"
 
     if [[ $exit_code -eq 0 ]]; then

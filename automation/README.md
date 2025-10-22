@@ -299,6 +299,43 @@ PowerShell版はWSL内のプロセスを直接監視できない場合があり�
 - Ctrl+Cでも自動削除される（trapで処理）
 - kill -9やシステムクラッシュでは残る可能性あり
 
+### Claude Code CLI JSON.stringify エラー（修正済み）
+
+**症状:** セッションログに `RangeError: Invalid string length at JSON.stringify` エラーが大量に出力され、自動化が1セッションで停止する
+
+**原因:**
+- Claude Code CLIの内部制限：会話履歴が大きくなりすぎると、JSON serialization時にJavaScriptの文字列長制限（約536MB）を超える
+- セッションは作業を完了してコミットも作成するが、最後にクラッシュして非ゼロ終了コードを返す
+- 旧版の自動化スクリプトは `wait $CLAUDE_PID` で非ゼロコードにより `set -e` が発動し、即座に終了していた
+
+**影響:**
+- 作業は完了しているが、進捗検出と次セッションへの継続が行われない
+- 自動化が1セッションで停止する
+
+**解決済み（2025-10-22）:**
+`automation/auto-retranslate.sh` line 247-250:
+```bash
+# 修正前（バグ）
+wait $CLAUDE_PID 2>/dev/null  # 非ゼロでset -e発動 → 即終了
+
+# 修正後（正常）
+set +e  # 一時的にset -eを無効化
+wait $CLAUDE_PID 2>/dev/null
+local exit_code=$?
+set -e  # set -eを再有効化
+```
+
+**効果:**
+- Claude Code CLIがクラッシュしても自動化スクリプトは継続
+- 進捗検出が正常に動作（コミットは作られているため）
+- 次セッションに自動的に移行
+
+**確認方法:**
+```bash
+grep "Progress after session" automation/retranslation-automation.log | tail -5
+```
+このメッセージが表示されていれば修正版が正常動作している。
+
 ## 📝 注意事項
 
 ### API制限

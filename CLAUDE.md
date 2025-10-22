@@ -36,6 +36,10 @@ This project features a **fully automated retranslation system** with strict str
 - **Progress Persistence**: `translation/.retranslation_progress.json` automatically tracks progress
 - **Direct Translation**: Main Claude Code session performs work (no subagent overhead)
 - **Memory Management**: Automatic session restart when memory reaches 4GB (warning) or 6GB (mandatory)
+- **CLI Crash Resilience**: Handles Claude Code CLI JSON.stringify errors gracefully (fixed 2025-10-22)
+  - Uses `set +e` around wait command to prevent premature script termination
+  - Detects progress even when CLI crashes after completing work
+  - Automatically continues to next session
 - **Structure Protection**: Strict validation of `""`, `[]`, `<>`, `::action::` markers after every edit
 
 **Usage Modes:**
