@@ -6,47 +6,48 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is a Japanese language pack translation project for Wasteland 3, a post-apocalyptic RPG game. The repository contains Unity StringTable data files extracted from the game that need to be translated from English (en_US) to Japanese (ja_JP).
 
-### 🔧 Current Task: Format Fix
+### 🔧 Current Task: Complete Retranslation with Structure Protection
 
-**IMPORTANT**: The project is currently in **format fix mode**, not translation mode.
+**IMPORTANT**: The project is in **retranslation mode** - redoing all translations with strict structure protection.
 
-During initial translation work, Unity StringTable structural markers (`""`) were incorrectly converted to Japanese brackets (`「」`, `『』`), causing game import failures. The current task is to fix this formatting issue while preserving all translated Japanese text.
+Due to previous automation issues, Unity StringTable structural markers (`""`) were incorrectly converted to Japanese brackets (`「」`, `『』`), causing game import failures. The solution is to completely retranslate all files using English source as base, with strict structure protection.
 
-**Format Fix Overview:**
-- **Problem**: `string data = "「Japanese text」"` (broken, cannot import)
-- **Solution**: `string data = ""Japanese text""` (correct format)
-- **Method**: Extract Japanese text from backup files, replace English text in base files while preserving structure
+**Retranslation Overview:**
+- **Base**: English files (en_US) - guarantees correct structure
+- **Reference**: backup_broken files - reuses existing Japanese translations where valid
+- **Protection**: Strict rules for `""`, `[]`, `<>`, `::action::` markers
 - **Scope**: 71,992 entries across base game + DLC1 + DLC2
-- **Progress**: Tracked in `translation/.format_fix_progress.json`
+- **Progress**: Tracked in `translation/.retranslation_progress.json`
 
-See `translation/FORMAT_FIX_CLAUDE.md` for detailed instructions.
+See `translation/RETRANSLATION_WORKFLOW.md` for detailed workflow and `translation/STRUCTURE_PROTECTION_RULES.md` for structure rules.
 
-### 🤖 Automated Translation System
+### 🤖 Automated Retranslation System
 
-This project features a **fully automated translation system** that can run unattended for days/weeks:
+This project features a **fully automated retranslation system** with strict structure protection:
 
 **Key Components:**
-- **Automation Scripts**: `automation/auto-translate.sh` (Bash) and `automation/auto-translate.ps1` (PowerShell)
+- **Automation Script**: `automation/auto-retranslate.sh` (NEW - for retranslation)
 - **Permission Bypass**: Uses `--dangerously-skip-permissions` flag AND `yes` command for true unattended operation
   - `--dangerously-skip-permissions`: Bypasses internal Claude Code permission checks
   - `yes`: Automatically answers 'y' to interactive permission prompts
-- **Progress Persistence**: `translation/.translation_progress.json` automatically tracks progress
-- **Direct Translation**: Main Claude Code session performs translation work (no subagent overhead)
-- **Memory Management**: Automatic session restart when memory reaches 6-7GB threshold
+- **Progress Persistence**: `translation/.retranslation_progress.json` automatically tracks progress
+- **Direct Translation**: Main Claude Code session performs work (no subagent overhead)
+- **Memory Management**: Automatic session restart when memory reaches 4GB (warning) or 6GB (mandatory)
+- **Structure Protection**: Strict validation of `""`, `[]`, `<>`, `::action::` markers after every edit
 
 **Usage Modes:**
-1. **Fully Automated** (Recommended for bulk translation):
+1. **Fully Automated** (Recommended - runs until completion):
    ```bash
-   ./automation/auto-translate.sh  # Runs unattended until completion
+   ./automation/auto-retranslate.sh  # Runs unattended with structure protection
    ```
 
-2. **Manual Session** (For targeted translation or testing):
+2. **Manual Session** (For testing or targeted work):
    ```bash
    claude
-   # Then: "translation/.translation_progress.json を読み込んで、CLAUDE.mdのルールに従って翻訳作業を継続してください。"
+   # Then: "translation/.retranslation_progress.json を読み込んで、translation/RETRANSLATION_WORKFLOW.md に従って翻訳やり直し作業を継続してください。"
    ```
 
-See [`automation/README.md`](automation/README.md) for detailed automation documentation.
+See `translation/RETRANSLATION_WORKFLOW.md` for detailed workflow documentation.
 
 ## Repository Structure
 
@@ -64,13 +65,16 @@ translation/
 ├── target/                    # Translation files (Japanese)
 │   └── v1.6.9.420.309496/
 │       └── ja_JP/            # Japanese translations (same structure as source)
-├── backup_broken/            # Backup of broken format files (for format fix)
-│   ├── StringTableData_English-CAB-*.txt  (base game - broken format)
+├── backup_broken/            # Backup of broken format files (reference for retranslation)
+│   ├── StringTableData_English-CAB-*.txt  (base game - broken format but useful Japanese text)
 │   ├── DLC1/                 # DLC1 broken format backup
 │   └── DLC2/                 # DLC2 broken format backup
 ├── nouns_glossary.json       # Glossary for consistent noun translations
-├── .translation_progress.json  # Translation work progress tracker
-└── .format_fix_progress.json   # Format fix work progress tracker (CURRENT)
+├── .retranslation_progress.json  # Retranslation progress tracker (CURRENT)
+├── .translation_progress.json    # Old translation progress (archived)
+├── .format_fix_progress.json     # Old format fix progress (archived)
+├── RETRANSLATION_WORKFLOW.md     # Detailed retranslation workflow guide
+└── STRUCTURE_PROTECTION_RULES.md # Strict structure protection rules
 ```
 
 ## File Format
@@ -165,70 +169,77 @@ wc -l translation/target/v1.6.9.420.309496/ja_JP/*.txt
    - Check the `do_not_translate` section in `translation/nouns_glossary.json` for the complete list
    - When in doubt, compare with the English source file - if it's identical in structure to technical terms, do NOT translate it
 
-### Translation Execution Strategy - Direct Translation in Main Session
+### Retranslation Execution Strategy - Direct Work in Main Session
 
-⚠️ **IMPORTANT: Translation work is performed directly in the main Claude Code session**
+⚠️ **IMPORTANT: Retranslation work is performed directly in the main Claude Code session**
 
-**Why direct translation (not subagent):**
+**Why direct execution (not subagent):**
 1. **Permission handling**: Subagents require manual permission approval for file edits, which blocks automation
-2. **Automation compatibility**: Direct translation enables fully unattended automated execution
+2. **Automation compatibility**: Direct execution enables fully unattended automated operation
 3. **Memory management**: Strict chunking and commit strategies prevent memory issues
 4. **Simplified workflow**: No coordination overhead between main session and subagent
 
-**Key principles for automated processing:**
-- **Strict memory management**: Process in 50-100 line chunks, commit every 100-200 entries or after each section (whichever comes first)
+**Key principles for retranslation:**
+- **Strict memory management**: Process in 50 line chunks (NEVER exceed 100 lines), commit every 100 entries
+- **Structure protection**: Validate `""`, `[]`, `<>`, `::action::` markers after EVERY edit
 - **Sequential processing**: Never batch operations that can be done sequentially
 - **Frequent commits**: Regular commits reduce memory pressure and enable recovery
 - **Session restarts**: Automated scripts handle session restarts when memory threshold reached
-- **Memory threshold**: 4GB warning, 6GB mandatory restart (reduced from 6-7GB after heap OOM error)
+- **Memory threshold**: 4GB warning, 6GB mandatory restart
 
-**Standard workflow (Translation or Format Fix):**
-1. Read progress from `translation/.translation_progress.json` or `translation/.format_fix_progress.json`
-2. Process in small chunks (50-100 lines per Read/Edit operation, NEVER exceed 100 lines)
-3. Reference `translation/nouns_glossary.json` for consistent terminology (translation only)
-4. Commit every 100-200 entries or after each section completion (whichever comes first) to reduce memory pressure
-5. Update progress file after each commit
-6. Continue until target entry count reached or file completed
+**Standard retranslation workflow:**
+1. Read progress from `translation/.retranslation_progress.json`
+2. Read 50-line chunks from both backup_broken (Japanese source) and target (English base)
+3. Extract Japanese text from backup_broken, apply to target with structure protection
+4. For untranslated entries: translate English→Japanese using `nouns_glossary.json`
+5. Validate structure after each edit (line count, markers, no Chinese characters)
+6. Commit every 100 entries with progress update
+7. Continue until all files completed
 
 **For manual sessions:**
 When user requests work manually (not via automation script):
-- **Chunk size**: 50-100 lines (NEVER exceed 100 lines per Read/Edit)
+- **Chunk size**: 50 lines (NEVER exceed 100 lines per Read/Edit)
+- **Structure validation**: MANDATORY after each edit
 - **Commit frequency**: 100-200 entries or after each section (whichever comes first)
 - Reference glossary for all proper nouns (translation only)
 - Update progress file after each commit
 - Monitor memory usage and restart session if approaching 4GB (warning) or 6GB (mandatory)
 
-**For automated translation:**
-The `automation/auto-translate.sh` script handles:
+**For automated retranslation:**
+The `automation/auto-retranslate.sh` script handles:
 - Session memory monitoring and automatic restart
 - Progress tracking across multiple sessions
 - Error detection (3 consecutive sessions with 0 entries = stop)
-- Logging to `automation/translation-automation.log`
+- Logging to `automation/retranslation-automation.log`
+- Structure validation after each commit
 
-### Translation Workflow Steps
+### Retranslation Workflow Steps
 
-**Step 1: Glossary Setup**
-- Use the existing glossary at `translation/nouns_glossary.json`
-- **CRITICAL**: Use ONLY `translation/nouns_glossary.json` - do NOT create additional glossary files
-- The glossary is organized into categories: organizations_factions, characters, locations, etc.
-- Check the `do_not_translate` section for terms that must NEVER be translated
-- When encountering new proper nouns, add them to the appropriate category in the existing glossary
+**Step 1: Environment Preparation** (one-time setup)
+- Copy English files from `source/en_US/` to `target/ja_JP/` as new base
+- Existing broken translations already backed up in `backup_broken/`
+- Initialize progress file: `translation/.retranslation_progress.json`
+- See `translation/RETRANSLATION_WORKFLOW.md` Phase 0 for details
 
-**Step 2: Sequential Translation**
-- Start from line 1 of the first file (or resume from progress file)
-- Translate each `string data` field in order
-- Process in 100-200 line chunks (Read → Translate → Edit → Verify)
-- Reference glossary for all proper nouns
-- Commit every 500 entries or after each section completion (whichever comes first)
-- Verify format preservation after each section
-- Move to next file only after completing current file
+**Step 2: Sequential Retranslation** (automated)
+- Process files in order: base_game → DLC1 → DLC2
+- For each 50-line chunk:
+  1. Read backup_broken file (extract Japanese text)
+  2. Read target file (English base with correct structure)
+  3. Apply Japanese text with structure protection
+  4. For untranslated entries: translate English→Japanese using glossary
+  5. Validate structure markers (`""`, `[]`, `<>`, `::action::`)
+  6. Edit target file with validated translation
+- Commit every 100 entries with progress update
+- Continue until all 71,992 entries completed
 
-**Step 3: Quality Check**
-- Verify no Simplified Chinese characters
-- Verify line counts match exactly between source and target
-- Verify all proper nouns use glossary translations
-- Verify no structural changes
-- Check git diff for any unexpected modifications
+**Step 3: Quality Validation** (automatic per commit)
+- Line count matches source (mandatory)
+- No broken structure markers (no `「」` in structure)
+- No Chinese characters mixed in
+- All action markups remain English (`::action::`)
+- Script Node not translated
+- Git diff shows only text changes, no structure changes
 
 ## Working with Large Files
 
@@ -244,12 +255,12 @@ The files are very large (530K+ lines). When editing:
 
 When processing large translation files (530K+ lines), Node.js can run out of memory and crash. Follow these rules STRICTLY:
 
-**IMPORTANT**: Translation work is performed directly in the main session (see "Translation Execution Strategy" section above). Strict memory management is essential for successful completion.
+**IMPORTANT**: Retranslation work is performed directly in the main session (see "Retranslation Execution Strategy" section above). Strict memory management is essential for successful completion.
 
 ### Session Memory Management
 
 ⚠️ **CRITICAL FINDING**: The main Claude Code session's memory grows continuously because:
-- Translation progress data accumulates in session history
+- Retranslation progress data accumulates in session history
 - File read/edit operations build up in memory
 - Large files require significant heap space
 
@@ -263,17 +274,17 @@ When processing large translation files (530K+ lines), Node.js can run out of me
 2. **Session restart threshold**:
    - **4GB**: Warning level - reduce chunk size, commit more frequently
    - **6GB**: Mandatory restart - session must be restarted immediately
-   - Current progress is automatically saved to progress files (`.translation_progress.json` or `.format_fix_progress.json`)
+   - Current progress is automatically saved to `translation/.retranslation_progress.json`
    - Exit current Claude Code session
    - Start new Claude Code session
-   - Resume with appropriate command for the current task
+   - Resume with retranslation command
 
-3. **Progress state file**: `translation/.translation_progress.json`
+3. **Progress state file**: `translation/.retranslation_progress.json`
    - Updated automatically after each major milestone (commit points)
-   - Contains: last completed section, total entries, next action, git commit hash
+   - Contains: current file, line offset, total entries, next action, git commit hash
    - Enables seamless continuation across session restarts
 
-4. **Automated resume instructions**: See `translation/RESUME_TRANSLATION.md`
+4. **Automated resume**: The `automation/auto-retranslate.sh` script handles automatic session restarts
 
 ### 1. Memory Monitoring Rules
 
@@ -386,123 +397,28 @@ Before committing translations:
 
 ---
 
-## Format Fix Workflow (CURRENT TASK)
+## Related Documentation
 
-⚠️ **IMPORTANT**: This section describes the current priority task - fixing format errors in translated files.
+For detailed information about the retranslation process:
 
-### Problem Background
+- **`translation/RETRANSLATION_WORKFLOW.md`** - Complete retranslation workflow guide
+  - Environment preparation steps
+  - Detailed processing logic
+  - Memory management strategy
+  - Troubleshooting guide
 
-During translation work, Unity StringTable structural markers (`""`) were incorrectly converted to Japanese quotation marks (`「」`, `『』`), making the files unable to import into the game.
+- **`translation/STRUCTURE_PROTECTION_RULES.md`** - Strict structure protection rules
+  - Comprehensive list of protected markers
+  - Error examples and fixes
+  - Validation patterns
+  - Safety checklist
 
-**Example of the problem:**
-```
-❌ Broken format (cannot import):
-   string data = "「よう、カウボーイたち。デッド・レッドだ。」"
+- **`translation/nouns_glossary.json`** - Translation glossary
+  - Proper nouns (characters, locations, factions)
+  - Technical terms
+  - Do-not-translate list
 
-✅ Correct format:
-   string data = ""よう、カウボーイたち。デッド・レッドだ。""
-```
-
-### Format Fix Strategy
-
-1. **Backup**: Broken format files are saved in `translation/backup_broken/`
-2. **Base files**: English source files copied to `translation/target/` as new base
-3. **Text extraction**: Extract Japanese text from broken backup files
-4. **Structure preservation**: Replace only the English text portion, keep `""` structure intact
-5. **Verification**: Ensure line counts match and structure is preserved
-
-### Format Fix Execution
-
-**Processing parameters (STRICT MEMORY MANAGEMENT):**
-- **Chunk size**: 50 lines per Read/Edit (NEVER exceed 100 lines)
-- **Batch size**: 50 entries per processing cycle
-- **Commit frequency**: 100 entries or section completion (whichever comes first)
-- **Memory monitoring**: Check every 100-200 lines
-- **Session restart**: At 4GB warning, 6GB mandatory
-
-**Workflow per entry:**
-1. Read backup file (broken format) - extract Japanese text (50 line chunks)
-2. Read base file (English) - get structure with `""`
-3. Replace English text with Japanese text (preserve `""` structure)
-4. Use Edit tool to update base file
-5. Verify: line count unchanged, structure preserved
-
-**Progress tracking:**
-- File: `translation/.format_fix_progress.json`
-- Updated after each commit
-- Contains: current file, line offset, entries processed, commit hash
-
-**Resume command:**
-```
-translation/.format_fix_progress.json を読み込んで、
-translation/FORMAT_FIX_CLAUDE.md に従ってフォーマット修正作業を継続してください。
-
-重要な設定:
-- read_chunk_size: 50行（NEVER exceed）
-- batch_size: 50エントリ
-- commit_frequency: 100エントリごと
-- メモリ安全モード: 有効
-```
-
-### Format Fix Scope
-
-| File | Entries to Fix | Est. Time | Processing Cycles |
-|------|---------------|-----------|------------------|
-| Base Game | 51,853 | 3-5 hours | ~1,037 cycles |
-| DLC1 | 12,785 | 1-2 hours | ~256 cycles |
-| DLC2 | 7,354 | 1 hour | ~147 cycles |
-| **Total** | **71,992** | **5-8 hours** | **~1,440 cycles** |
-
-### Format Fix Examples
-
-**Simple dialogue:**
-```
-Backup (broken):  string data = "「よう、カウボーイたち。」"
-Base (English):   string data = ""Hey, cowboys.""
-Fixed (correct):  string data = ""よう、カウボーイたち。""
-```
-
-**With special markers:**
-```
-Backup (broken):  string data = "[27.065メガヘルツに切り替え] 「ニュースは聞いたと思うが」"
-Base (English):   string data = "[Switch to 27.065 Megahertz] "So I guess you heard the news.""
-Fixed (correct):  string data = "[27.065メガヘルツに切り替え] "ニュースは聞いたと思うが""
-```
-
-**Nested quotes:**
-```
-Backup (broken):  string data = "「『夜には千の目がある』って古い歌を知ってるか？」"
-Base (English):   string data = ""You know that old song, 'The Night Has a Thousand Eyes?'""
-Fixed (correct):  string data = ""'夜には千の目がある'って古い歌を知ってるか？""
-```
-
-### Critical Rules for Format Fix
-
-1. **NEVER modify structure**: Only replace English text, preserve all `""`, `'`, `[...]`, etc.
-2. **NEVER change line count**: File must have exact same line count as source
-3. **NEVER batch process**: Use 50-line chunks, process sequentially
-4. **ALWAYS verify**: Check line count after each edit
-5. **ALWAYS commit frequently**: Every 100 entries or section completion
-6. **ALWAYS update progress**: Update `.format_fix_progress.json` after each commit
-
-### Format Fix Verification
-
-**After each commit:**
-```bash
-# Count correct format entries (should increase)
-grep -c 'string data = "".*[ぁ-ん]' translation/target/v1.6.9.420.309496/ja_JP/*.txt
-
-# Count broken format entries (should be 0)
-grep -c 'string data = "「' translation/target/v1.6.9.420.309496/ja_JP/*.txt
-
-# Verify line counts match
-wc -l translation/source/v1.6.9.420.309496/en_US/*.txt \
-     translation/target/v1.6.9.420.309496/ja_JP/*.txt
-```
-
-### Related Documentation
-
-- **Detailed instructions**: `translation/FORMAT_FIX_CLAUDE.md`
-- **Resume guide**: `translation/RESUME_FORMAT_FIX.md`
-- **Memory management**: `MEMORY_MANAGEMENT_STRICT.md`
-- **Error recovery**: `ERROR_RECOVERY_GUIDE.md`
+- **`automation/README.md`** - Automation system documentation
+  - Script usage
+  - Security warnings
+  - Monitoring and logging
