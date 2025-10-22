@@ -9,7 +9,15 @@
 FATAL ERROR: Reached heap limit Allocation failed - JavaScript heap out of memory
 - メモリ使用量: 約2GB
 - 発生箇所: JSON.stringify処理中
+- 作業内容: フォーマット修正作業（20エントリ処理時）
 ```
+
+## 適用範囲
+
+このガイドラインは以下のすべての作業に適用されます：
+- ✅ **翻訳作業** (translation/.translation_progress.json)
+- ✅ **フォーマット修正作業** (translation/.format_fix_progress.json) ← **現在のタスク**
+- ✅ その他の大規模ファイル処理
 
 ## 厳格なルール（MUST FOLLOW）
 
@@ -17,9 +25,11 @@ FATAL ERROR: Reached heap limit Allocation failed - JavaScript heap out of memor
 
 **旧設定（メモリ不足発生）:**
 - バッチサイズ: 100-200行
+- コミット頻度: 500エントリ
 
-**新設定（必須）:**
-- **通常処理**: 50-100行/チャンク
+**新設定（必須 - 翻訳・フォーマット修正共通）:**
+- **通常処理**: 50行/チャンク
+- **最大**: 100行/チャンク (メモリ < 2GB時のみ)
 - **メモリ警告後**: 30-50行/チャンク
 - **NEVER exceed**: 100行/チャンク
 
@@ -28,10 +38,12 @@ FATAL ERROR: Reached heap limit Allocation failed - JavaScript heap out of memor
 **旧設定:**
 - 500エントリごとにコミット
 
-**新設定（必須）:**
+**新設定（必須 - 翻訳・フォーマット修正共通）:**
 - **100-200エントリごとにコミット**
 - セクション完了時は即座にコミット
 - コミット後は必ず進捗ファイルを更新
+- 翻訳: `translation/.translation_progress.json`
+- フォーマット修正: `translation/.format_fix_progress.json`
 
 ### 3. セッションメモリ監視の強化
 

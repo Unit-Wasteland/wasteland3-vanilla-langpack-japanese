@@ -4,7 +4,17 @@
 
 ```
 FATAL ERROR: Reached heap limit Allocation failed - JavaScript heap out of memory
+- 作業内容: フォーマット修正作業
+- 処理状況: 20エントリ処理時
+- メモリ使用量: 約2GB
 ```
+
+## 適用範囲
+
+このガイドは以下のすべての作業に適用されます：
+- ✅ **翻訳作業** (translation/.translation_progress.json)
+- ✅ **フォーマット修正作業** (translation/.format_fix_progress.json) ← **現在のタスク**
+- ✅ その他の大規模ファイル処理
 
 ## 即座に実行すべきこと
 
@@ -26,14 +36,20 @@ git push origin main
 ### 2. 進捗状態を確認
 
 ```bash
-# 進捗ファイルを確認
+# 進捗ファイルを確認（作業タイプに応じて）
+# フォーマット修正の場合:
 cat translation/.format_fix_progress.json
+# 翻訳作業の場合:
+cat translation/.translation_progress.json
 
 # 最近のコミットを確認
 git log --oneline -5
 
 # 処理済みエントリ数を確認
-jq -r '.entries_processed' translation/.format_fix_progress.json
+# フォーマット修正の場合:
+grep 'entries_processed' translation/.format_fix_progress.json
+# 翻訳作業の場合:
+grep 'entries_processed' translation/.translation_progress.json
 ```
 
 ### 3. セッションを再起動
@@ -46,11 +62,23 @@ exit
 claude
 
 # 作業を再開（改善された設定で）
-"translation/.format_fix_progress.json を読み込んで、以下の厳格なメモリ管理ルールで翻訳作業を継続してください:
-- チャンクサイズ: 50行（NEVER exceed）
+
+## フォーマット修正作業を再開する場合:
+"translation/.format_fix_progress.json を読み込んで、以下の厳格なメモリ管理ルールでフォーマット修正作業を継続してください:
+- チャンクサイズ: 50行（NEVER exceed 100 lines）
+- バッチサイズ: 50エントリ
 - コミット頻度: 100エントリごと
 - git diff は常に head -100 で制限
-- 逐次処理のみ（並列処理禁止）"
+- 逐次処理のみ（並列処理禁止）
+- translation/FORMAT_FIX_CLAUDE.md の指示に従う"
+
+## 翻訳作業を再開する場合:
+"translation/.translation_progress.json を読み込んで、以下の厳格なメモリ管理ルールで翻訳作業を継続してください:
+- チャンクサイズ: 50行（NEVER exceed 100 lines）
+- コミット頻度: 100エントリごと
+- git diff は常に head -100 で制限
+- 逐次処理のみ（並列処理禁止）
+- CLAUDE.md の指示に従う"
 ```
 
 ## 再発防止策

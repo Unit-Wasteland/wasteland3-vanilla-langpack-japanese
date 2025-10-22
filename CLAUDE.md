@@ -6,6 +6,21 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is a Japanese language pack translation project for Wasteland 3, a post-apocalyptic RPG game. The repository contains Unity StringTable data files extracted from the game that need to be translated from English (en_US) to Japanese (ja_JP).
 
+### 🔧 Current Task: Format Fix
+
+**IMPORTANT**: The project is currently in **format fix mode**, not translation mode.
+
+During initial translation work, Unity StringTable structural markers (`""`) were incorrectly converted to Japanese brackets (`「」`, `『』`), causing game import failures. The current task is to fix this formatting issue while preserving all translated Japanese text.
+
+**Format Fix Overview:**
+- **Problem**: `string data = "「Japanese text」"` (broken, cannot import)
+- **Solution**: `string data = ""Japanese text""` (correct format)
+- **Method**: Extract Japanese text from backup files, replace English text in base files while preserving structure
+- **Scope**: 71,992 entries across base game + DLC1 + DLC2
+- **Progress**: Tracked in `translation/.format_fix_progress.json`
+
+See `translation/FORMAT_FIX_CLAUDE.md` for detailed instructions.
+
 ### 🤖 Automated Translation System
 
 This project features a **fully automated translation system** that can run unattended for days/weeks:
@@ -49,7 +64,13 @@ translation/
 ├── target/                    # Translation files (Japanese)
 │   └── v1.6.9.420.309496/
 │       └── ja_JP/            # Japanese translations (same structure as source)
-└── nouns_glossary.json       # Glossary for consistent noun translations (location: translation/nouns_glossary.json)
+├── backup_broken/            # Backup of broken format files (for format fix)
+│   ├── StringTableData_English-CAB-*.txt  (base game - broken format)
+│   ├── DLC1/                 # DLC1 broken format backup
+│   └── DLC2/                 # DLC2 broken format backup
+├── nouns_glossary.json       # Glossary for consistent noun translations
+├── .translation_progress.json  # Translation work progress tracker
+└── .format_fix_progress.json   # Format fix work progress tracker (CURRENT)
 ```
 
 ## File Format
@@ -154,27 +175,28 @@ wc -l translation/target/v1.6.9.420.309496/ja_JP/*.txt
 3. **Memory management**: Strict chunking and commit strategies prevent memory issues
 4. **Simplified workflow**: No coordination overhead between main session and subagent
 
-**Key principles for automated translation:**
-- **Strict memory management**: Process in 100-200 line chunks, commit every 500 entries or after each section (whichever comes first)
+**Key principles for automated processing:**
+- **Strict memory management**: Process in 50-100 line chunks, commit every 100-200 entries or after each section (whichever comes first)
 - **Sequential processing**: Never batch operations that can be done sequentially
 - **Frequent commits**: Regular commits reduce memory pressure and enable recovery
 - **Session restarts**: Automated scripts handle session restarts when memory threshold reached
+- **Memory threshold**: 4GB warning, 6GB mandatory restart (reduced from 6-7GB after heap OOM error)
 
-**Translation workflow:**
-1. Read progress from `translation/.translation_progress.json`
-2. Process translation in small chunks (100-200 lines per Read/Edit operation)
-3. Reference `translation/nouns_glossary.json` for consistent terminology
-4. Commit every 500 entries or after each section completion (whichever comes first) to reduce memory pressure
+**Standard workflow (Translation or Format Fix):**
+1. Read progress from `translation/.translation_progress.json` or `translation/.format_fix_progress.json`
+2. Process in small chunks (50-100 lines per Read/Edit operation, NEVER exceed 100 lines)
+3. Reference `translation/nouns_glossary.json` for consistent terminology (translation only)
+4. Commit every 100-200 entries or after each section completion (whichever comes first) to reduce memory pressure
 5. Update progress file after each commit
 6. Continue until target entry count reached or file completed
 
-**For manual translation sessions:**
-When user requests translation manually (not via automation script):
-- Process in 100-200 line chunks
-- Commit every 500 entries or after each section completion (whichever comes first)
-- Reference glossary for all proper nouns
+**For manual sessions:**
+When user requests work manually (not via automation script):
+- **Chunk size**: 50-100 lines (NEVER exceed 100 lines per Read/Edit)
+- **Commit frequency**: 100-200 entries or after each section (whichever comes first)
+- Reference glossary for all proper nouns (translation only)
 - Update progress file after each commit
-- Monitor memory usage and restart session if approaching 6-7GB
+- Monitor memory usage and restart session if approaching 4GB (warning) or 6GB (mandatory)
 
 **For automated translation:**
 The `automation/auto-translate.sh` script handles:
@@ -238,11 +260,13 @@ When processing large translation files (530K+ lines), Node.js can run out of me
    ps aux | grep claude | awk '{print $6/1024 " MB"}'
    ```
 
-2. **Session restart threshold**: When memory reaches **6-7 GB**, restart the session:
-   - Current progress is automatically saved to `translation/.translation_progress.json`
+2. **Session restart threshold**:
+   - **4GB**: Warning level - reduce chunk size, commit more frequently
+   - **6GB**: Mandatory restart - session must be restarted immediately
+   - Current progress is automatically saved to progress files (`.translation_progress.json` or `.format_fix_progress.json`)
    - Exit current Claude Code session
    - Start new Claude Code session
-   - Resume with: `translation/.translation_progress.json を読み込んで、CLAUDE.mdのルールに従って翻訳作業を継続してください。`
+   - Resume with appropriate command for the current task
 
 3. **Progress state file**: `translation/.translation_progress.json`
    - Updated automatically after each major milestone (commit points)
@@ -271,8 +295,9 @@ When processing large translation files (530K+ lines), Node.js can run out of me
 **ALWAYS follow these practices:**
 
 1. **Chunk Processing (MANDATORY)**
-   - **CRITICAL**: Process files in SMALL chunks (100-200 lines at a time, NEVER exceed 300 lines)
-   - **Chunk size reduction after OOM**: If out of memory occurred, reduce to 50-100 lines
+   - **CRITICAL**: Process files in SMALL chunks (50-100 lines at a time, NEVER exceed 100 lines)
+   - **Standard chunk size**: 50 lines (safer after heap OOM error on 2025-10-22)
+   - **Maximum chunk size**: 100 lines (only if memory usage < 2GB)
    - Complete one chunk, then clear variables before moving to next chunk
    - NEVER load entire 530K line files into memory at once
    - Use Read tool with `offset` and `limit` parameters
@@ -316,24 +341,26 @@ When processing large translation files (530K+ lines), Node.js can run out of me
    - If approaching 80%, commit current work and restart
 
 4. **Save frequently**
-   - **CRITICAL**: Commit translations every 500 entries (or after each section completion, whichever comes first)
+   - **CRITICAL**: Commit work every 100-200 entries (or after each section completion, whichever comes first)
    - Don't wait until entire file is complete
-   - Use descriptive commit messages noting progress (e.g., "Translate a1001_thepatriarch entries [0-49] (50 entries)")
+   - Use descriptive commit messages noting progress (e.g., "Format fix: base_game line 666-1165 (100 entries)")
    - After each commit, memory pressure is reduced for next chunk
+   - Update progress file after each commit
 
 ### 4. Translation Task Execution Rules
 
-**When performing translation in main session:**
+**When performing any work in main session (translation or format fix):**
 
 1. **NEVER attempt to process entire files in one operation**
-2. **ALWAYS use chunked approach**: Read → Translate → Edit → Verify → Repeat
-3. **Maximum chunk size**: 100-200 lines per Read/Edit operation (NEVER exceed 300 lines)
-   - **After OOM error**: Reduce to 50-100 lines per chunk
-4. **Checkpoint frequency**: Commit every 500 entries or after each section completion (whichever comes first)
-5. **Memory check frequency**: Monitor after every 3-5 chunks (every ~500-1000 lines)
+2. **ALWAYS use chunked approach**: Read → Process → Edit → Verify → Repeat
+3. **Maximum chunk size**: 50-100 lines per Read/Edit operation (NEVER exceed 100 lines)
+   - **Standard**: 50 lines (recommended after heap OOM error)
+   - **Maximum**: 100 lines (only if memory < 2GB)
+4. **Checkpoint frequency**: Commit every 100-200 entries or after each section completion (whichever comes first)
+5. **Memory check frequency**: Monitor after every 2-3 chunks (every ~100-200 lines)
 6. **Sequential processing**: Process one chunk at a time, never batch multiple chunks together
 7. **Commit immediately**: After completing a checkpoint, commit before continuing
-8. **Update progress file**: After each commit, update `translation/.translation_progress.json`
+8. **Update progress file**: After each commit, update the appropriate progress file
 
 ### 5. Signs of Memory Pressure
 
@@ -356,3 +383,126 @@ Before committing translations:
 2. Ensure array sizes remain unchanged
 3. Check that entryIDs are identical between source and target
 4. Validate that special formatting and variables are preserved
+
+---
+
+## Format Fix Workflow (CURRENT TASK)
+
+⚠️ **IMPORTANT**: This section describes the current priority task - fixing format errors in translated files.
+
+### Problem Background
+
+During translation work, Unity StringTable structural markers (`""`) were incorrectly converted to Japanese quotation marks (`「」`, `『』`), making the files unable to import into the game.
+
+**Example of the problem:**
+```
+❌ Broken format (cannot import):
+   string data = "「よう、カウボーイたち。デッド・レッドだ。」"
+
+✅ Correct format:
+   string data = ""よう、カウボーイたち。デッド・レッドだ。""
+```
+
+### Format Fix Strategy
+
+1. **Backup**: Broken format files are saved in `translation/backup_broken/`
+2. **Base files**: English source files copied to `translation/target/` as new base
+3. **Text extraction**: Extract Japanese text from broken backup files
+4. **Structure preservation**: Replace only the English text portion, keep `""` structure intact
+5. **Verification**: Ensure line counts match and structure is preserved
+
+### Format Fix Execution
+
+**Processing parameters (STRICT MEMORY MANAGEMENT):**
+- **Chunk size**: 50 lines per Read/Edit (NEVER exceed 100 lines)
+- **Batch size**: 50 entries per processing cycle
+- **Commit frequency**: 100 entries or section completion (whichever comes first)
+- **Memory monitoring**: Check every 100-200 lines
+- **Session restart**: At 4GB warning, 6GB mandatory
+
+**Workflow per entry:**
+1. Read backup file (broken format) - extract Japanese text (50 line chunks)
+2. Read base file (English) - get structure with `""`
+3. Replace English text with Japanese text (preserve `""` structure)
+4. Use Edit tool to update base file
+5. Verify: line count unchanged, structure preserved
+
+**Progress tracking:**
+- File: `translation/.format_fix_progress.json`
+- Updated after each commit
+- Contains: current file, line offset, entries processed, commit hash
+
+**Resume command:**
+```
+translation/.format_fix_progress.json を読み込んで、
+translation/FORMAT_FIX_CLAUDE.md に従ってフォーマット修正作業を継続してください。
+
+重要な設定:
+- read_chunk_size: 50行（NEVER exceed）
+- batch_size: 50エントリ
+- commit_frequency: 100エントリごと
+- メモリ安全モード: 有効
+```
+
+### Format Fix Scope
+
+| File | Entries to Fix | Est. Time | Processing Cycles |
+|------|---------------|-----------|------------------|
+| Base Game | 51,853 | 3-5 hours | ~1,037 cycles |
+| DLC1 | 12,785 | 1-2 hours | ~256 cycles |
+| DLC2 | 7,354 | 1 hour | ~147 cycles |
+| **Total** | **71,992** | **5-8 hours** | **~1,440 cycles** |
+
+### Format Fix Examples
+
+**Simple dialogue:**
+```
+Backup (broken):  string data = "「よう、カウボーイたち。」"
+Base (English):   string data = ""Hey, cowboys.""
+Fixed (correct):  string data = ""よう、カウボーイたち。""
+```
+
+**With special markers:**
+```
+Backup (broken):  string data = "[27.065メガヘルツに切り替え] 「ニュースは聞いたと思うが」"
+Base (English):   string data = "[Switch to 27.065 Megahertz] "So I guess you heard the news.""
+Fixed (correct):  string data = "[27.065メガヘルツに切り替え] "ニュースは聞いたと思うが""
+```
+
+**Nested quotes:**
+```
+Backup (broken):  string data = "「『夜には千の目がある』って古い歌を知ってるか？」"
+Base (English):   string data = ""You know that old song, 'The Night Has a Thousand Eyes?'""
+Fixed (correct):  string data = ""'夜には千の目がある'って古い歌を知ってるか？""
+```
+
+### Critical Rules for Format Fix
+
+1. **NEVER modify structure**: Only replace English text, preserve all `""`, `'`, `[...]`, etc.
+2. **NEVER change line count**: File must have exact same line count as source
+3. **NEVER batch process**: Use 50-line chunks, process sequentially
+4. **ALWAYS verify**: Check line count after each edit
+5. **ALWAYS commit frequently**: Every 100 entries or section completion
+6. **ALWAYS update progress**: Update `.format_fix_progress.json` after each commit
+
+### Format Fix Verification
+
+**After each commit:**
+```bash
+# Count correct format entries (should increase)
+grep -c 'string data = "".*[ぁ-ん]' translation/target/v1.6.9.420.309496/ja_JP/*.txt
+
+# Count broken format entries (should be 0)
+grep -c 'string data = "「' translation/target/v1.6.9.420.309496/ja_JP/*.txt
+
+# Verify line counts match
+wc -l translation/source/v1.6.9.420.309496/en_US/*.txt \
+     translation/target/v1.6.9.420.309496/ja_JP/*.txt
+```
+
+### Related Documentation
+
+- **Detailed instructions**: `translation/FORMAT_FIX_CLAUDE.md`
+- **Resume guide**: `translation/RESUME_FORMAT_FIX.md`
+- **Memory management**: `MEMORY_MANAGEMENT_STRICT.md`
+- **Error recovery**: `ERROR_RECOVERY_GUIDE.md`

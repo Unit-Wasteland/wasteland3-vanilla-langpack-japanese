@@ -60,13 +60,23 @@ translation/target/v1.6.9.420.309496/ja_JP/
 
 ### ステップ2: エントリ置換プロセス
 
+⚠️ **CRITICAL: 厳格なメモリ管理（2025-10-22 heap OOM エラー後）**
+
+**メモリ安全設定:**
+- **read_chunk_size**: 50行/チャンク（NEVER exceed 100 lines）
+- **batch_size**: 50エントリ/バッチ
+- **commit_frequency**: 100エントリごと（頻繁なメモリ解放）
+- **memory_safe_mode**: 有効
+
 **1エントリあたりの処理:**
 
-1. **バックアップファイルから日本語テキストを読み込む**
+1. **バックアップファイルから日本語テキストを読み込む（50行チャンク）**
    - 例: `"「よう、カウボーイたち。」"` → `よう、カウボーイたち。`
+   - **CRITICAL**: Read tool with `offset` and `limit=50`
 
-2. **新しいベースファイル（英語）から対応エントリを読み込む**
+2. **新しいベースファイル（英語）から対応エントリを読み込む（50行チャンク）**
    - 例: `""Hey, cowboys.""`
+   - **CRITICAL**: Read tool with `offset` and `limit=50`
 
 3. **英語テキスト部分のみを日本語に置き換え**
    - 置換前: `""Hey, cowboys.""`
@@ -74,16 +84,33 @@ translation/target/v1.6.9.420.309496/ja_JP/
    - 構造（`""`）は完全保持
 
 4. **Editツールで更新**
+   - 1回の Edit で最大50行まで
 
 5. **検証**
    - 行数が変わっていないか
    - 構造が保持されているか
 
-### ステップ3: バッチ処理
+6. **変数クリア**
+   - 次のチャンクに進む前にメモリ解放
 
-- **処理単位**: 100エントリ/回
-- **コミット頻度**: 500エントリごと、または10回の処理ごと
+### ステップ3: バッチ処理とメモリ管理
+
+- **チャンクサイズ**: 50行（Read/Edit操作ごと）
+- **バッチサイズ**: 50エントリ/処理サイクル
+- **コミット頻度**: 100エントリごと、または各セクション完了時（少ない方）
 - **進捗保存**: 各コミット後に進捗ファイル更新
+- **メモリ監視**: 100-200エントリごとにメモリ使用量を確認
+
+**メモリ監視コマンド:**
+```bash
+ps aux | grep claude | awk '{print $6/1024 " MB"}'
+```
+
+**メモリ閾値:**
+- **< 2GB**: 安全、継続可能
+- **2-4GB**: 注意、チャンクサイズ維持
+- **4-6GB**: 警告、即座にコミットして継続
+- **> 6GB**: 危険、即座にコミット＆セッション再起動
 
 ---
 
@@ -97,11 +124,27 @@ translation/target/v1.6.9.420.309496/ja_JP/
 {
   "last_updated": "2025-10-22T12:00:00+09:00",
   "current_file": "base_game | DLC1 | DLC2",
+  "current_file_path": "translation/target/.../file.txt",
+  "backup_file_path": "translation/backup_broken/.../file.txt",
   "current_line_offset": 0,
+  "current_section": "section_name",
   "entries_processed": 0,
+  "entries_in_current_batch": 0,
   "total_entries_to_process": 71992,
+  "total_entries": {
+    "base_game": 51853,
+    "DLC1": 12785,
+    "DLC2": 7354
+  },
   "last_commit_hash": "",
-  "status": "in_progress | paused | completed"
+  "status": "ready | in_progress | paused | completed",
+  "notes": "",
+  "processing_strategy": {
+    "batch_size": 50,
+    "commit_frequency": 100,
+    "read_chunk_size": 50,
+    "memory_safe_mode": true
+  }
 }
 ```
 
@@ -310,9 +353,45 @@ string data = ""
 git reset --hard <last_commit_hash>
 ```
 
-### Q: メモリ不足エラー
+### Q: メモリ不足エラー（heap out of memory）
 
-**A:** 処理単位を100エントリから50エントリに減らしてください。
+**A:** 以下の対応を順番に実施してください:
+
+1. **即座に現在の作業をコミット**
+   ```bash
+   git add translation/
+   git commit -m "作業保存: メモリエラー発生前（$(date +%Y%m%d-%H%M%S)）"
+   ```
+
+2. **セッションを再起動**
+
+3. **チャンクサイズを削減**
+   - 現在50行 → 30行に削減
+   - または現在100行 → 50行に削減
+
+4. **コミット頻度を増やす**
+   - 現在100エントリ → 50エントリに削減
+
+5. **進捗ファイルを更新**
+   ```json
+   {
+     "processing_strategy": {
+       "batch_size": 30,
+       "commit_frequency": 50,
+       "read_chunk_size": 30,
+       "memory_safe_mode": true
+     }
+   }
+   ```
+
+6. **メモリ監視を強化**
+   - 別ターミナルでリアルタイム監視:
+   ```bash
+   watch -n 15 'ps aux | grep claude | awk "{print \$6/1024 \" MB\"}"'
+   ```
+
+7. **ERROR_RECOVERY_GUIDE.md を参照**
+   - 詳細な回復手順を確認
 
 ### Q: 進捗ファイルが見つからない
 

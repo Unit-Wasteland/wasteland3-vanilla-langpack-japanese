@@ -30,6 +30,19 @@ Claude Codeセッションで以下のように指示してください:
 ```
 translation/.format_fix_progress.json を読み込んで、
 translation/FORMAT_FIX_CLAUDE.md に従ってフォーマット修正作業を継続してください。
+
+⚠️ **CRITICAL: 厳格なメモリ管理（heap OOM エラー後）**
+
+重要な設定:
+- read_chunk_size: 50行（NEVER exceed 100 lines）
+- batch_size: 50エントリ
+- commit_frequency: 100エントリごと
+- メモリ安全モード: 有効
+
+メモリ監視:
+- 100-200エントリごとにメモリ使用量を確認
+- 4GB: 警告レベル
+- 6GB: 即座にコミット＆セッション再起動
 ```
 
 ### 4. 自動再開
@@ -40,15 +53,19 @@ Claude Codeは以下の処理を自動的に実行します:
    - 現在のファイル: `current_file`
    - 現在の行番号: `current_line_offset`
    - 処理済みエントリ数: `entries_processed`
+   - メモリ安全設定: `processing_strategy`
 
-2. **現在位置から処理を再開**
-   - バックアップファイルから日本語テキストを読み込み
-   - 新しいベースファイルの該当箇所を更新
-   - 100エントリごとに処理
+2. **現在位置から処理を再開（厳格なメモリ管理）**
+   - バックアップファイルから日本語テキストを読み込み（50行チャンク）
+   - 新しいベースファイルの該当箇所を更新（50行チャンク）
+   - 50エントリごとに処理
+   - 逐次処理（並列処理禁止）
 
-3. **進捗の自動保存**
-   - 500エントリごとにコミット
+3. **進捗の自動保存とメモリ管理**
+   - 100エントリごとにコミット（メモリ解放）
    - 進捗ファイルを更新
+   - メモリ使用量を監視
+   - 4GB: 警告、6GB: 即座に再起動
 
 ---
 
@@ -107,18 +124,26 @@ git log --oneline -10
 git reset --hard <commit_hash>
 ```
 
-### 処理が遅い場合
+### 処理が遅い場合 または メモリエラーが発生する場合
 
-処理単位を減らしてください:
+処理単位をさらに減らしてください:
 
 ```json
 {
   "processing_strategy": {
-    "batch_size": 50,  // 100 → 50 に変更
-    "commit_frequency": 250  // 500 → 250 に変更
+    "batch_size": 30,  // 50 → 30 に変更
+    "commit_frequency": 50,  // 100 → 50 に変更
+    "read_chunk_size": 30,  // 50 → 30 に変更
+    "memory_safe_mode": true
   }
 }
 ```
+
+**メモリエラー発生時:**
+1. 即座に現在の作業をコミット
+2. セッションを再起動
+3. 上記の設定で再開
+4. ERROR_RECOVERY_GUIDE.md を参照
 
 ---
 
@@ -142,7 +167,12 @@ cat translation/.format_fix_progress.json
 開始行: <current_line_offset>
 処理済み: <entries_processed>エントリ
 
-FORMAT_FIX_CLAUDE.md に従って、100エントリずつ処理してください。
+FORMAT_FIX_CLAUDE.md に従って、50エントリずつ処理してください。
+
+重要な設定:
+- read_chunk_size: 50行
+- batch_size: 50エントリ
+- commit_frequency: 100エントリごと
 ```
 
 ---
