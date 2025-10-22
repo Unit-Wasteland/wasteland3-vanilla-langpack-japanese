@@ -150,6 +150,12 @@ translation/.retranslation_progress.json を読み込んで、translation/RETRAN
 EOF
 }
 
+# Get Claude Code memory usage
+get_claude_memory() {
+    # Get memory usage in MB for all claude processes (excluding current session)
+    ps aux | grep 'claude --dangerously-skip-permissions' | grep -v grep | awk '{sum+=$6} END {print int(sum/1024)}'
+}
+
 # Run single Claude Code session
 run_claude_session() {
     ((SESSION_COUNT++))
@@ -167,12 +173,49 @@ run_claude_session() {
     # Create command file
     create_claude_command
 
-    # Run Claude Code with automatic permission approval
+    # Run Claude Code with automatic permission approval (background with timeout)
     log "Executing Claude Code session..."
-    if yes | cat "$COMMAND_FILE" | claude --dangerously-skip-permissions > "$session_log" 2>&1; then
+
+    # Memory thresholds (in MB)
+    local WARN_MEMORY_MB=4096   # 4GB warning
+    local MAX_MEMORY_MB=6144    # 6GB mandatory restart
+
+    # Start Claude Code in background with timeout (1 hour default)
+    timeout 3600 bash -c "yes | cat '$COMMAND_FILE' | claude --dangerously-skip-permissions" > "$session_log" 2>&1 &
+    local CLAUDE_PID=$!
+
+    log "Claude Code session started (PID: $CLAUDE_PID)"
+
+    # Monitor memory usage
+    local MONITOR_INTERVAL=30  # Check every 30 seconds
+    while kill -0 $CLAUDE_PID 2>/dev/null; do
+        sleep $MONITOR_INTERVAL
+
+        local MEMORY
+        MEMORY=$(get_claude_memory)
+        log "Memory usage: ${MEMORY}MB (Warning: ${WARN_MEMORY_MB}MB, Max: ${MAX_MEMORY_MB}MB)"
+
+        if [[ $MEMORY -gt $MAX_MEMORY_MB ]]; then
+            log "WARNING: Memory threshold exceeded (${MEMORY}MB > ${MAX_MEMORY_MB}MB), terminating session"
+            kill -TERM $CLAUDE_PID 2>/dev/null || true
+            sleep 2
+            kill -KILL $CLAUDE_PID 2>/dev/null || true
+            break
+        elif [[ $MEMORY -gt $WARN_MEMORY_MB ]]; then
+            log "WARNING: Memory approaching limit (${MEMORY}MB > ${WARN_MEMORY_MB}MB)"
+        fi
+    done
+
+    # Wait for Claude Code to finish
+    wait $CLAUDE_PID 2>/dev/null
+    local exit_code=$?
+
+    if [[ $exit_code -eq 0 ]]; then
         log "Session #$SESSION_COUNT completed successfully"
+    elif [[ $exit_code -eq 124 ]]; then
+        log "WARNING: Session #$SESSION_COUNT timed out (1 hour limit)"
     else
-        log "WARNING: Session #$SESSION_COUNT exited with non-zero status (may be normal)"
+        log "WARNING: Session #$SESSION_COUNT exited with status $exit_code (may be normal)"
     fi
 
     # Get progress after session
