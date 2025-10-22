@@ -30,6 +30,9 @@ This project features a **fully automated retranslation system** with strict str
 - **Permission Bypass**: Uses `--dangerously-skip-permissions` flag AND `yes` command for true unattended operation
   - `--dangerously-skip-permissions`: Bypasses internal Claude Code permission checks
   - `yes`: Automatically answers 'y' to interactive permission prompts
+- **Exclusive Lock**: Prevents duplicate automation sessions (lock file: `automation/.retranslation.lock`)
+  - Auto-removes stale locks from crashed sessions
+  - Unlock utility: `./automation/auto-retranslate.sh --unlock` or `./automation/unlock-retranslation.sh`
 - **Progress Persistence**: `translation/.retranslation_progress.json` automatically tracks progress
 - **Direct Translation**: Main Claude Code session performs work (no subagent overhead)
 - **Memory Management**: Automatic session restart when memory reaches 4GB (warning) or 6GB (mandatory)
@@ -45,6 +48,13 @@ This project features a **fully automated retranslation system** with strict str
    ```bash
    claude
    # Then: "translation/.retranslation_progress.json を読み込んで、translation/RETRANSLATION_WORKFLOW.md に従って翻訳やり直し作業を継続してください。"
+   ```
+
+3. **Unlock Stale Session** (If automation fails to start):
+   ```bash
+   ./automation/auto-retranslate.sh --unlock      # Safe unlock (recommended)
+   ./automation/unlock-retranslation.sh           # Detailed unlock utility
+   ./automation/unlock-retranslation.sh --force   # Force unlock (use with caution)
    ```
 
 See `translation/RETRANSLATION_WORKFLOW.md` for detailed workflow documentation.

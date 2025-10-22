@@ -246,6 +246,59 @@ PowerShell版はWSL内のプロセスを直接監視できない場合があり�
 2. 最新のコミットを確認: `git log -1`
 3. 手動で1セッション実行してエラーを確認
 
+### ロックファイルエラー（Retranslation自動化のみ）
+
+**症状:** "Another retranslation session is already running" エラーが表示される
+
+**原因:**
+- 以前の自動化セッションが異常終了（kill -9、システムクラッシュなど）してロックファイルが残っている
+- 別のセッションが既に実行中
+
+**解決方法:**
+
+1. **ロック状態を確認:**
+   ```bash
+   ls -la automation/.retranslation.lock
+   ```
+
+2. **実行中のプロセスを確認:**
+   ```bash
+   ps aux | grep auto-retranslate
+   ps aux | grep claude
+   ```
+
+3. **ロックを解除（3つの方法）:**
+
+   **方法1: 自動化スクリプトの --unlock オプション（推奨）**
+   ```bash
+   ./automation/auto-retranslate.sh --unlock
+   ```
+   - 古いロックのみ安全に削除（プロセスが実行中の場合は警告）
+
+   **方法2: 専用のロック解除スクリプト**
+   ```bash
+   ./automation/unlock-retranslation.sh         # 通常モード
+   ./automation/unlock-retranslation.sh --force # 強制削除モード
+   ```
+   - カラー出力で状態を明確に表示
+   - --force: プロセスが実行中でも強制削除（要注意）
+
+   **方法3: 手動削除（最終手段）**
+   ```bash
+   # まず実行中のプロセスを終了
+   kill <PID>  # または kill -9 <PID>
+
+   # ロックファイルを削除
+   rm automation/.retranslation.lock
+   ```
+
+**ロック機構について:**
+- 2025年10月に追加された安全機能
+- 複数の自動化セッションの同時実行を防止
+- 正常終了時は自動的に削除される
+- Ctrl+Cでも自動削除される（trapで処理）
+- kill -9やシステムクラッシュでは残る可能性あり
+
 ## 📝 注意事項
 
 ### API制限

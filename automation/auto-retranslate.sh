@@ -13,7 +13,8 @@
 # - Full automation with memory management
 #
 # Usage:
-#   ./automation/auto-retranslate.sh
+#   ./automation/auto-retranslate.sh         # Start automated retranslation
+#   ./automation/auto-retranslate.sh --unlock # Remove lock file and exit
 #
 # Requirements:
 # - Claude Code CLI installed
@@ -333,6 +334,36 @@ main() {
         sleep 60
     done
 }
+
+# Parse command line arguments
+if [[ "${1:-}" == "--unlock" ]]; then
+    echo "========================================"
+    echo "Unlocking retranslation automation"
+    echo "========================================"
+
+    if [[ ! -f "$LOCK_FILE" ]]; then
+        echo "✓ No lock file found - system is already unlocked"
+        exit 0
+    fi
+
+    LOCK_PID=$(cat "$LOCK_FILE" 2>/dev/null || echo "unknown")
+    echo "Lock file: $LOCK_FILE"
+    echo "Locked by PID: $LOCK_PID"
+
+    # Check if process is still running
+    if [[ "$LOCK_PID" != "unknown" ]] && kill -0 "$LOCK_PID" 2>/dev/null; then
+        echo "⚠ WARNING: Process $LOCK_PID is still running!"
+        echo "  Consider terminating it first: kill $LOCK_PID"
+        echo "  Or use: ./automation/unlock-retranslation.sh --force"
+        exit 1
+    else
+        rm -f "$LOCK_FILE"
+        echo "✓ Stale lock file removed"
+        echo ""
+        echo "You can now run: ./automation/auto-retranslate.sh"
+        exit 0
+    fi
+fi
 
 # Trap errors
 trap 'error_exit "Script interrupted or failed"' ERR
