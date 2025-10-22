@@ -13,11 +13,13 @@
     "DLC1": 12785,
     "DLC2": 7354
   },
-  "last_commit_hash": "73cad9f",
+  "last_commit_hash": "55d6aae",
   "status": "ready",
   "notes": "テスト用サンプル20エントリ完了。本格作業開始準備完了。",
   "processing_strategy": {
-    "batch_size": 100,
-    "commit_frequency": 500
+    "batch_size": 50,
+    "commit_frequency": 100,
+    "read_chunk_size": 50,
+    "memory_safe_mode": true
   }
 }
