@@ -154,36 +154,41 @@ create_claude_command() {
     cat > "$COMMAND_FILE" << 'EOF'
 translation/.retranslation_progress.json を読み込んで、translation/RETRANSLATION_WORKFLOW.md に従って翻訳やり直し作業を継続してください。
 
-**重要な処理パラメータ（STRICTLY ENFORCE）:**
-- read_chunk_size: 50行（ABSOLUTELY NEVER exceed 50 lines per Read operation）
-- batch_size: 50エントリ（1つずつ処理、バッチ処理禁止）
-- commit_frequency: 100エントリごと（またはセクション完了時）
-- メモリ安全モード: 最優先（CLI JSON.stringify エラー回避）
+**サーバー環境: Ubuntu 6GB RAM（メモリ制約あり）**
 
-**CRITICAL メモリ管理規則:**
+**重要な処理パラメータ（STRICTLY ENFORCE）:**
+- read_chunk_size: 30行（ABSOLUTELY NEVER exceed 30 lines per Read operation）
+- batch_size: 30エントリ（1つずつ処理、バッチ処理禁止）
+- commit_frequency: 50エントリごと（より頻繁にコミット）
+- メモリ安全モード: **最優先**（物理メモリ6GB制約）
+
+**CRITICAL メモリ管理規則（6GB RAM サーバー）:**
+- ⚠️ **Node.js heap limit: 2.5GB** - 絶対に超えないこと
 - ⚠️ 530K行ファイルの全体読み込みは絶対禁止
-- ⚠️ Read tool は必ず offset + limit を指定（最大50行）
+- ⚠️ Read tool は必ず offset + limit を指定（**最大30行**）
 - ⚠️ 大きな変数の保持を避ける（処理後すぐ解放）
-- ⚠️ 1セクション完了ごとにコミット（メモリリセット）
+- ⚠️ **50エントリごとに必ずコミット**（メモリリセット）
+- ⚠️ 一度に複数ファイルを開かない（1ファイルずつ）
 
 **構造保護（CRITICAL）:**
 - 絶対に変更禁止: "" [] <> ' ::action::
 - Script Node は翻訳禁止
 - 行数は絶対に変更禁止
 
-**処理戦略（Sequential Only）:**
-1. backup_brokenから50行チャンクで日本語テキストを抽出
-2. 英語ファイルから対応する50行チャンクを読み込み
-3. テキスト部分のみ安全に置換（1エントリずつ）
+**処理戦略（Sequential Only - 低メモリ最適化）:**
+1. backup_brokenから30行チャンクで日本語テキストを抽出
+2. 英語ファイルから対応する30行チャンクを読み込み
+3. テキスト部分のみ安全に置換（1エントリずつ、順次処理）
 4. 未翻訳は英語→日本語に翻訳（nouns_glossary.json参照）
-5. 100エントリまたはセクション完了ごとにコミット
+5. **50エントリごとに必ずコミット**（メモリプレッシャー軽減）
 
 **検証（MANDATORY）:**
 - 各エディット後に行数一致確認
 - 構造マーカー破損チェック
 - 中国語混入チェック
 
-**IMPORTANT: できるだけ多くのエントリを処理してください（目標: 100-200エントリ/セッション）**
+**目標: 50-100エントリ/セッション（6GB RAMに最適化）**
+より小さいチャンク、より頻繁なコミットで安定性を確保してください。
 
 作業を開始してください。
 EOF
@@ -263,14 +268,15 @@ run_claude_session() {
     # Run Claude Code with automatic permission approval (background with timeout)
     log "Executing Claude Code session..."
 
-    # Memory thresholds (in MB)
-    local WARN_MEMORY_MB=4096   # 4GB warning
-    local MAX_MEMORY_MB=6144    # 6GB mandatory restart
+    # Memory thresholds (in MB) - Optimized for 6GB physical RAM
+    local WARN_MEMORY_MB=2048   # 2GB warning (conservative for 6GB system)
+    local MAX_MEMORY_MB=2560    # 2.5GB mandatory restart (leave headroom for OS)
 
     log "DEBUG: Starting timeout command..."
     # Start Claude Code in background with timeout (2 hours to allow for large file processing)
-    # Increase Node.js heap size to 8GB to prevent JSON.stringify errors
-    timeout 7200 bash -c "export NODE_OPTIONS='--max-old-space-size=8192'; yes | cat '$COMMAND_FILE' | claude --dangerously-skip-permissions" > "$session_log" 2>&1 &
+    # Set Node.js heap size to 2.5GB (optimal for 6GB physical RAM server)
+    # Leaves ~3.5GB for OS and other processes
+    timeout 7200 bash -c "export NODE_OPTIONS='--max-old-space-size=2560'; yes | cat '$COMMAND_FILE' | claude --dangerously-skip-permissions" > "$session_log" 2>&1 &
     local CLAUDE_PID=$!
 
     log "Claude Code session started (PID: $CLAUDE_PID)"

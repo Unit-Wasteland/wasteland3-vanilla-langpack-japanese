@@ -81,17 +81,17 @@ cd /path/to/wasteland3-vanilla-langpack-japanese
 ./automation/auto-retranslate.sh
 ```
 
-### 📋 動作の仕組み（Retranslation版）
+### 📋 動作の仕組み（Retranslation版 - 6GB RAM最適化）
 
-1. **セッション開始**: Claude Codeを起動（Node.js heap 8GB設定）
+1. **セッション開始**: Claude Codeを起動（Node.js heap 2.5GB設定 - 6GB RAM最適化）
 2. **進捗読み込み**: `.retranslation_progress.json`から前回の続きを読み込み
 3. **自動翻訳やり直し**:
-   - backup_brokenから既存の日本語翻訳を抽出（50行チャンク）
+   - backup_brokenから既存の日本語翻訳を抽出（**30行チャンク** - 低メモリ最適化）
    - 英語ファイル（正しい構造）に日本語を適用
    - 構造マーカー（`""`, `[]`, `<>`, `::action::`）の厳格な保護
    - 未翻訳エントリは新規翻訳（glossary参照）
-   - 100エントリごとにコミット
-4. **メモリ監視**: メモリ使用量を監視（30秒ごと、4GB警告/6GB強制再起動）
+   - **50エントリごとにコミット**（より頻繁 - メモリ制約対応）
+4. **メモリ監視**: メモリ使用量を監視（30秒ごと、**2GB警告/2.5GB強制再起動** - 6GB RAM対応）
 5. **エラー検出**: セッションログの健全性チェック
    - JSON.stringify RangeError検出
    - Heap out of memory検出
@@ -103,10 +103,11 @@ cd /path/to/wasteland3-vanilla-langpack-japanese
 7. **自動再起動**: エラー検出後も自動的に次セッションへ継続
 8. **完了検出**: 全ファイル（71,992エントリ）完了で自動終了
 
-### 🎯 Retranslationの特徴（2025-10-23改善版）
+### 🎯 Retranslationの特徴（2025-10-23改善版 - 6GB RAM最適化）
 
-### ✅ 強化されたCLIクラッシュ耐性
-- **Node.js heap size 8GB**: JSON.stringify RangeErrorを防止
+### ✅ 強化されたCLIクラッシュ耐性（6GB RAM対応）
+- **Node.js heap size 2.5GB**: 6GB物理RAMに最適化、JSON.stringify RangeErrorを防止
+- **メモリ配分**: Claude 2.5GB + OS/他プロセス 3.5GB = 6GB
 - **エラー検出**: セッションログをパターンマッチングで検査
 - **未コミット作業検出**: CLIクラッシュ前の作業を検出
 - **自動リカバリ**: エラー検出後も処理を継続
@@ -117,10 +118,11 @@ cd /path/to/wasteland3-vanilla-langpack-japanese
 - **セッションタイムアウト**: 2時間（より多くの作業時間）
 - **3連続ゼロ進捗で中断**: 無限ループ防止
 
-### ✅ 厳格なメモリ管理
-- **50行チャンク処理**: 大ファイル（530K行）を安全に処理
-- **シーケンシャル処理**: バッチ処理禁止
-- **頻繁なコミット**: 100エントリごとにメモリリセット
+### ✅ 厳格なメモリ管理（6GB RAM厳格化）
+- **30行チャンク処理**: 大ファイル（530K行）を最小メモリで安全に処理
+- **シーケンシャル処理**: バッチ処理禁止（メモリ爆発防止）
+- **頻繁なコミット**: **50エントリごと**にメモリリセット（100→50に短縮）
+- **メモリ閾値**: 2GB警告、2.5GB強制再起動
 
 ### ✅ 構造保護
 - 全ての編集後に行数一致検証
@@ -129,7 +131,7 @@ cd /path/to/wasteland3-vanilla-langpack-japanese
 
 ### 🔧 Retranslationトラブルシューティング
 
-#### CLI JSON.stringify エラー（2025-10-23改善済み）
+#### CLI JSON.stringify エラー（2025-10-23改善済み - 6GB RAM対応）
 
 **症状:**
 ```
@@ -141,15 +143,21 @@ RangeError: Invalid string length
 - 大きなファイル（530K行）処理時のNode.jsメモリ不足
 - デフォルトheap size（~1.4GB）では不十分
 
-**解決済み（2025-10-23）:**
-1. **Node.js heap size 8GB化**: `NODE_OPTIONS='--max-old-space-size=8192'`
-2. **エラー検出強化**: `check_session_health()` 関数追加
-3. **自動継続**: エラー検出後も進捗があれば次セッションへ
+**解決済み（2025-10-23 - 6GB RAM最適化）:**
+1. **Node.js heap size 2.5GB化**: `NODE_OPTIONS='--max-old-space-size=2560'`
+   - 6GB物理RAMに最適（Claude 2.5GB + OS 3.5GB）
+   - スワップを避けるため物理メモリ内に収める
+2. **チャンクサイズ削減**: 50行 → 30行（メモリ使用量削減）
+3. **コミット頻度増加**: 100エントリ → 50エントリ（メモリプレッシャー軽減）
+4. **エラー検出強化**: `check_session_health()` 関数追加
+5. **自動継続**: エラー検出後も進捗があれば次セッションへ
 
 **効果:**
+- 6GB RAMサーバーで安定稼働
 - JSON.stringify エラーの発生率大幅減少
 - エラー発生時も自動リカバリ
 - 連続稼働の安定性向上
+- スワップ発生を回避（パフォーマンス向上）
 
 #### セッションが1回で停止する
 

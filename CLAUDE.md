@@ -35,9 +35,10 @@ This project features a **fully automated retranslation system** with strict str
   - Unlock utility: `./automation/auto-retranslate.sh --unlock` or `./automation/unlock-retranslation.sh`
 - **Progress Persistence**: `translation/.retranslation_progress.json` automatically tracks progress
 - **Direct Translation**: Main Claude Code session performs work (no subagent overhead)
-- **Memory Management**: Comprehensive memory handling for large file processing
-  - Node.js heap size increased to 8GB (prevents JSON.stringify errors)
-  - Session memory monitoring (4GB warning, 6GB mandatory restart)
+- **Memory Management**: Comprehensive memory handling optimized for 6GB RAM Ubuntu server
+  - Node.js heap size: 2.5GB (optimal for 6GB physical RAM)
+  - Session memory monitoring (2GB warning, 2.5GB mandatory restart)
+  - Leaves ~3.5GB for OS and other processes
   - Automatic session restart when thresholds reached
 - **CLI Crash Resilience**: Enhanced error detection and recovery (improved 2025-10-23)
   - Detects JSON.stringify RangeError errors in session logs
@@ -292,9 +293,10 @@ When processing large translation files (530K+ lines), Node.js can run out of me
    ps aux | grep claude | awk '{print $6/1024 " MB"}'
    ```
 
-2. **Session restart threshold**:
-   - **4GB**: Warning level - reduce chunk size, commit more frequently
-   - **6GB**: Mandatory restart - session must be restarted immediately
+2. **Session restart threshold** (Optimized for 6GB RAM Ubuntu server):
+   - **2GB**: Warning level - reduce chunk size, commit more frequently
+   - **2.5GB**: Mandatory restart - session must be restarted immediately
+   - Node.js heap limit: 2.5GB (leaves ~3.5GB for OS and other processes)
    - Current progress is automatically saved to `translation/.retranslation_progress.json`
    - Exit current Claude Code session
    - Start new Claude Code session
@@ -326,22 +328,23 @@ When processing large translation files (530K+ lines), Node.js can run out of me
 
 **ALWAYS follow these practices:**
 
-1. **Chunk Processing (MANDATORY)**
-   - **CRITICAL**: Process files in SMALL chunks (50-100 lines at a time, NEVER exceed 100 lines)
-   - **Standard chunk size**: 50 lines (safer after heap OOM error on 2025-10-22)
-   - **Maximum chunk size**: 100 lines (only if memory usage < 2GB)
+1. **Chunk Processing (MANDATORY) - Optimized for 6GB RAM**
+   - **CRITICAL**: Process files in SMALL chunks (30 lines at a time, NEVER exceed 30 lines)
+   - **Standard chunk size**: 30 lines (conservative for 6GB RAM server)
+   - **Maximum chunk size**: 30 lines (strict limit for memory safety)
    - Complete one chunk, then clear variables before moving to next chunk
    - NEVER load entire 530K line files into memory at once
    - Use Read tool with `offset` and `limit` parameters
    - **Between chunks**: Allow garbage collection to run by processing sequentially, not in batches
 
-2. **Node.js Heap Size Configuration**
-   - If running Node.js scripts, set heap size explicitly:
+2. **Node.js Heap Size Configuration (6GB RAM Server)**
+   - Automation script sets heap size to 2.5GB:
      ```bash
-     node --max-old-space-size=4096 script.js  # 4GB heap
-     node --max-old-space-size=8192 script.js  # 8GB heap (if available)
+     node --max-old-space-size=2560  # 2.5GB heap (optimal for 6GB physical RAM)
      ```
+   - Leaves ~3.5GB for OS and other processes
    - Default heap size (1.4GB) is insufficient for large files
+   - 8GB heap would exceed physical RAM and cause swapping
 
 3. **Manual Garbage Collection**
    - Between processing chunks, explicitly clear large variables
@@ -364,43 +367,44 @@ When processing large translation files (530K+ lines), Node.js can run out of me
    - Check git diff to see what was translated before crash
    - Note the last `Filename` section that was completed
 
-2. **Restart with smaller chunks**
-   - Reduce chunk size to 50-100 lines instead of 500
+2. **Restart with smaller chunks (6GB RAM)**
+   - Use 30-line chunks (strict limit for 6GB server)
    - Process one mission section at a time
 
-3. **Monitor memory during retry**
+3. **Monitor memory during retry (6GB RAM)**
    - Keep track of memory usage percentage
-   - If approaching 80%, commit current work and restart
+   - If approaching 2GB (80% of 2.5GB heap), commit current work and restart
 
-4. **Save frequently**
-   - **CRITICAL**: Commit work every 100-200 entries (or after each section completion, whichever comes first)
+4. **Save frequently (6GB RAM - More Frequent)**
+   - **CRITICAL**: Commit work every 50 entries (or after each section completion, whichever comes first)
+   - More frequent commits for lower memory environment
    - Don't wait until entire file is complete
-   - Use descriptive commit messages noting progress (e.g., "Format fix: base_game line 666-1165 (100 entries)")
+   - Use descriptive commit messages noting progress (e.g., "Retranslation: base_game line 666-1165 (50 entries)")
    - After each commit, memory pressure is reduced for next chunk
    - Update progress file after each commit
 
-### 4. Translation Task Execution Rules
+### 4. Translation Task Execution Rules (6GB RAM Optimized)
 
 **When performing any work in main session (translation or format fix):**
 
 1. **NEVER attempt to process entire files in one operation**
 2. **ALWAYS use chunked approach**: Read → Process → Edit → Verify → Repeat
-3. **Maximum chunk size**: 50-100 lines per Read/Edit operation (NEVER exceed 100 lines)
-   - **Standard**: 50 lines (recommended after heap OOM error)
-   - **Maximum**: 100 lines (only if memory < 2GB)
-4. **Checkpoint frequency**: Commit every 100-200 entries or after each section completion (whichever comes first)
-5. **Memory check frequency**: Monitor after every 2-3 chunks (every ~100-200 lines)
+3. **Maximum chunk size**: 30 lines per Read/Edit operation (NEVER exceed 30 lines)
+   - **Standard**: 30 lines (required for 6GB RAM server)
+   - **Maximum**: 30 lines (strict limit, no exceptions)
+4. **Checkpoint frequency**: Commit every 50 entries or after each section completion (whichever comes first)
+5. **Memory check frequency**: Monitor after every 1-2 chunks (every ~30-60 lines)
 6. **Sequential processing**: Process one chunk at a time, never batch multiple chunks together
 7. **Commit immediately**: After completing a checkpoint, commit before continuing
 8. **Update progress file**: After each commit, update the appropriate progress file
 
-### 5. Signs of Memory Pressure
+### 5. Signs of Memory Pressure (6GB RAM Server)
 
 **STOP and clear memory if you observe:**
 - Claude Code responses becoming slower
 - Increased latency in tool execution
 - Any garbage collection warnings in output
-- Memory usage exceeding 80% of available heap
+- Memory usage exceeding 2GB (80% of 2.5GB heap limit)
 
 **Recovery action:**
 - Commit current work immediately

@@ -42,12 +42,15 @@
   "estimated_total_entries": 71992,
   "next_action": "Continue base_game retranslation from line 5484",
   "memory_settings": {
-    "read_chunk_size": 50,
-    "max_chunk_size": 100,
-    "batch_size": 50,
-    "commit_frequency": 100,
-    "memory_warning_threshold_gb": 4,
-    "memory_limit_threshold_gb": 6
+    "physical_ram_gb": 6,
+    "nodejs_heap_size_gb": 2.5,
+    "read_chunk_size": 30,
+    "max_chunk_size": 30,
+    "batch_size": 30,
+    "commit_frequency": 50,
+    "memory_warning_threshold_gb": 2,
+    "memory_limit_threshold_gb": 2.5,
+    "optimization_note": "Settings optimized for 6GB RAM Ubuntu server"
   },
   "structure_protection": {
     "preserve_markers": ["\"\"", "[ ]", "< >", "' '", "::action::"],
