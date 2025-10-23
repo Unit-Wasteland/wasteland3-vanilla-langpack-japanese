@@ -125,10 +125,16 @@ string data = ""Japanese text here""
 ```
 
 **ABSOLUTELY FORBIDDEN - DO NOT USE:**
-- ❌ Escape sequences: `string data = "\"Japanese text\""`  (NO backslash escaping!)
+- ❌ Quote escape sequences: `string data = "\"Japanese text\""`  (NO backslash escaping for quotes!)
 - ❌ Japanese brackets: `string data = "「Japanese text」"`
 - ❌ Full-width quotes: `string data = ""Japanese text""`
 - ❌ Single quotes: `string data = "'Japanese text'"`
+
+**ALLOWED - Text control characters:**
+- ✅ Newline: `\n` (preserve as-is)
+- ✅ Carriage return: `\r` (preserve as-is)
+- ✅ Tab: `\t` (preserve as-is)
+- ✅ Other text formatting escape sequences within the text content
 
 **Why double double-quotes (`""`):**
 Unity's StringTable format requires text to be wrapped in TWO double-quote characters at start and end. This is NOT an escape sequence - it's the literal format requirement. Think of it as:
@@ -202,10 +208,11 @@ wc -l translation/target/v1.6.9.420.309496/ja_JP/*.txt
 4. **Format Preservation** ⚠️ CRITICAL
 
    **Structure Protection - NEVER do these:**
-   - ❌ **NEVER use escape sequences**: `\"` is FORBIDDEN (Unity format doesn't need escaping)
+   - ❌ **NEVER use quote escape sequences**: `\"` is FORBIDDEN (Unity format doesn't need quote escaping)
    - ❌ **NEVER change `""` to Japanese brackets**: `「」` `『』` will break the file
    - ❌ **NEVER use full-width quotes**: `""` `''` are not valid
    - ❌ **NEVER translate structure markers**: Keep `""`, `[]`, `<>`, `::action::` exactly as-is
+   - ✅ **DO preserve text control characters**: Keep `\n`, `\r`, `\t` within text content
 
    **Correct format (MANDATORY):**
    ```
