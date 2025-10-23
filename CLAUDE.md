@@ -35,11 +35,18 @@ This project features a **fully automated retranslation system** with strict str
   - Unlock utility: `./automation/auto-retranslate.sh --unlock` or `./automation/unlock-retranslation.sh`
 - **Progress Persistence**: `translation/.retranslation_progress.json` automatically tracks progress
 - **Direct Translation**: Main Claude Code session performs work (no subagent overhead)
-- **Memory Management**: Automatic session restart when memory reaches 4GB (warning) or 6GB (mandatory)
-- **CLI Crash Resilience**: Handles Claude Code CLI JSON.stringify errors gracefully (fixed 2025-10-22)
+- **Memory Management**: Comprehensive memory handling for large file processing
+  - Node.js heap size increased to 8GB (prevents JSON.stringify errors)
+  - Session memory monitoring (4GB warning, 6GB mandatory restart)
+  - Automatic session restart when thresholds reached
+- **CLI Crash Resilience**: Enhanced error detection and recovery (improved 2025-10-23)
+  - Detects JSON.stringify RangeError errors in session logs
+  - Detects heap out of memory errors
+  - Detects uncommitted work after CLI crashes
+  - Adaptive cooldown: 60s normal, 180s after errors
   - Uses `set +e` around wait command to prevent premature script termination
-  - Detects progress even when CLI crashes after completing work
-  - Automatically continues to next session
+  - Automatically continues to next session after recovery
+  - Session timeout: 2 hours (allows more work per session)
 - **Structure Protection**: Strict validation of `""`, `[]`, `<>`, `::action::` markers after every edit
 
 **Usage Modes:**

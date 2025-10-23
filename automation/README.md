@@ -68,7 +68,115 @@
 
 ---
 
-## 🚀 完全自動翻訳の実行方法
+## 🔄 Retranslation（翻訳やり直し）自動化システム
+
+**現在のプロジェクト状態: Retranslationモード**
+
+2025年10月現在、プロジェクトは**retranslation（翻訳やり直し）モード**で運用されています。以前の翻訳で構造マーカー（`""`→`「」`）が破損したため、英語ファイルをベースに全ての翻訳をやり直しています。
+
+### 🚀 Retranslation自動化の実行方法
+
+```bash
+cd /path/to/wasteland3-vanilla-langpack-japanese
+./automation/auto-retranslate.sh
+```
+
+### 📋 動作の仕組み（Retranslation版）
+
+1. **セッション開始**: Claude Codeを起動（Node.js heap 8GB設定）
+2. **進捗読み込み**: `.retranslation_progress.json`から前回の続きを読み込み
+3. **自動翻訳やり直し**:
+   - backup_brokenから既存の日本語翻訳を抽出（50行チャンク）
+   - 英語ファイル（正しい構造）に日本語を適用
+   - 構造マーカー（`""`, `[]`, `<>`, `::action::`）の厳格な保護
+   - 未翻訳エントリは新規翻訳（glossary参照）
+   - 100エントリごとにコミット
+4. **メモリ監視**: メモリ使用量を監視（30秒ごと、4GB警告/6GB強制再起動）
+5. **エラー検出**: セッションログの健全性チェック
+   - JSON.stringify RangeError検出
+   - Heap out of memory検出
+   - 空ログファイル検出
+   - 未コミット作業検出
+6. **適応的クールダウン**:
+   - 正常セッション: 60秒待機
+   - エラーセッション: 180秒待機（3分）
+7. **自動再起動**: エラー検出後も自動的に次セッションへ継続
+8. **完了検出**: 全ファイル（71,992エントリ）完了で自動終了
+
+### 🎯 Retranslationの特徴（2025-10-23改善版）
+
+### ✅ 強化されたCLIクラッシュ耐性
+- **Node.js heap size 8GB**: JSON.stringify RangeErrorを防止
+- **エラー検出**: セッションログをパターンマッチングで検査
+- **未コミット作業検出**: CLIクラッシュ前の作業を検出
+- **自動リカバリ**: エラー検出後も処理を継続
+- **詳細診断**: エラー時に具体的な問題を報告
+
+### ✅ 適応的な動作制御
+- **健全性ベースのクールダウン**: エラー時は3倍長く待機
+- **セッションタイムアウト**: 2時間（より多くの作業時間）
+- **3連続ゼロ進捗で中断**: 無限ループ防止
+
+### ✅ 厳格なメモリ管理
+- **50行チャンク処理**: 大ファイル（530K行）を安全に処理
+- **シーケンシャル処理**: バッチ処理禁止
+- **頻繁なコミット**: 100エントリごとにメモリリセット
+
+### ✅ 構造保護
+- 全ての編集後に行数一致検証
+- 構造マーカー破損の自動検出
+- 中国語混入チェック
+
+### 🔧 Retranslationトラブルシューティング
+
+#### CLI JSON.stringify エラー（2025-10-23改善済み）
+
+**症状:**
+```
+RangeError: Invalid string length
+    at JSON.stringify (<anonymous>)
+```
+
+**原因:**
+- 大きなファイル（530K行）処理時のNode.jsメモリ不足
+- デフォルトheap size（~1.4GB）では不十分
+
+**解決済み（2025-10-23）:**
+1. **Node.js heap size 8GB化**: `NODE_OPTIONS='--max-old-space-size=8192'`
+2. **エラー検出強化**: `check_session_health()` 関数追加
+3. **自動継続**: エラー検出後も進捗があれば次セッションへ
+
+**効果:**
+- JSON.stringify エラーの発生率大幅減少
+- エラー発生時も自動リカバリ
+- 連続稼働の安定性向上
+
+#### セッションが1回で停止する
+
+**診断:**
+```bash
+# 最後のセッションログを確認
+tail -50 automation/.session_*_output.log | grep -E "(ERROR|WARNING|RangeError)"
+
+# 自動化ログを確認
+tail -50 automation/retranslation-automation.log
+```
+
+**確認ポイント:**
+- ⚠ WARNING: Session log is empty → CLIクラッシュ
+- ⚠ WARNING: Detected JSON.stringify error → メモリ不足
+- ⚠ WARNING: Uncommitted changes → クラッシュ前の未保存作業
+
+**対処:**
+1. 進捗が保存されているか確認: `git log -1`
+2. 未コミット作業があれば手動でコミット: `git status`
+3. スクリプトを再実行（自動的に続きから再開）
+
+---
+
+## 🚀 完全自動翻訳の実行方法（旧システム - 非推奨）
+
+**注意: 以下は旧翻訳システムの説明です。現在はRetranslation自動化（上記）を使用してください。**
 
 ### Windows (PowerShell) から実行
 
