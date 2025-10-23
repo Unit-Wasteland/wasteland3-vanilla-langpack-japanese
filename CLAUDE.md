@@ -40,14 +40,17 @@ This project features a **fully automated retranslation system** with strict str
   - Session memory monitoring (2GB warning, 2.5GB mandatory restart)
   - Leaves ~3.5GB for OS and other processes
   - Automatic session restart when thresholds reached
-- **CLI Crash Resilience**: Enhanced error detection and recovery (improved 2025-10-23)
+- **CLI Crash Resilience**: Enhanced error detection and recovery (updated 2025-10-23)
   - Detects JSON.stringify RangeError errors in session logs
   - Detects heap out of memory errors
   - Detects uncommitted work after CLI crashes
   - Adaptive cooldown: 60s normal, 180s after errors
   - Uses `set +e` around wait command to prevent premature script termination
   - Automatically continues to next session after recovery
-  - Session timeout: 2 hours (allows more work per session)
+  - Session timeout: 30 minutes (prevents CLI memory accumulation)
+  - Session limit: 50 entries maximum (prevents JSON.stringify RangeError)
+  - Chunk size: 20 lines (reduced from 30 for memory safety)
+  - Commit frequency: 30 entries (increased from 50 for frequent memory release)
 - **Structure Protection**: Strict validation of `""`, `[]`, `<>`, `::action::` markers after every edit
 
 **Usage Modes:**
@@ -252,30 +255,33 @@ wc -l translation/target/v1.6.9.420.309496/ja_JP/*.txt
 4. **Simplified workflow**: No coordination overhead between main session and subagent
 
 **Key principles for retranslation:**
-- **Strict memory management**: Process in 50 line chunks (NEVER exceed 100 lines), commit every 100 entries
+- **Strict memory management**: Process in 20 line chunks (NEVER exceed 20 lines), commit every 30 entries
+- **Session limit**: 50 entries maximum per session (prevents JSON.stringify RangeError)
 - **Structure protection**: Validate `""`, `[]`, `<>`, `::action::` markers after EVERY edit
 - **Sequential processing**: Never batch operations that can be done sequentially
 - **Frequent commits**: Regular commits reduce memory pressure and enable recovery
 - **Session restarts**: Automated scripts handle session restarts when memory threshold reached
-- **Memory threshold**: 4GB warning, 6GB mandatory restart
+- **Memory threshold**: 2GB warning, 2.5GB mandatory restart (Node.js heap limit)
 
 **Standard retranslation workflow:**
 1. Read progress from `translation/.retranslation_progress.json`
-2. Read 50-line chunks from both backup_broken (Japanese source) and target (English base)
+2. Read 20-line chunks from both backup_broken (Japanese source) and target (English base)
 3. Extract Japanese text from backup_broken, apply to target with structure protection
 4. For untranslated entries: translate English→Japanese using `nouns_glossary.json`
 5. Validate structure after each edit (line count, markers, no Chinese characters)
-6. Commit every 100 entries with progress update
-7. Continue until all files completed
+6. Commit every 30 entries with progress update
+7. **End session after 50 entries** (prevents CLI memory accumulation)
+8. Continue until all files completed (across multiple sessions)
 
 **For manual sessions:**
 When user requests work manually (not via automation script):
-- **Chunk size**: 50 lines (NEVER exceed 100 lines per Read/Edit)
+- **Chunk size**: 20 lines (NEVER exceed 20 lines per Read/Edit)
+- **Session limit**: 50 entries maximum (must end session after 50 entries)
 - **Structure validation**: MANDATORY after each edit
-- **Commit frequency**: 100-200 entries or after each section (whichever comes first)
+- **Commit frequency**: 30 entries (frequent memory release)
 - Reference glossary for all proper nouns (translation only)
 - Update progress file after each commit
-- Monitor memory usage and restart session if approaching 4GB (warning) or 6GB (mandatory)
+- Monitor memory usage and restart session if approaching 2GB (warning) or 2.5GB (mandatory)
 
 **For automated retranslation:**
 The `automation/auto-retranslate.sh` script handles:
@@ -295,15 +301,16 @@ The `automation/auto-retranslate.sh` script handles:
 
 **Step 2: Sequential Retranslation** (automated)
 - Process files in order: base_game → DLC1 → DLC2
-- For each 50-line chunk:
+- For each 20-line chunk:
   1. Read backup_broken file (extract Japanese text)
   2. Read target file (English base with correct structure)
   3. Apply Japanese text with structure protection
   4. For untranslated entries: translate English→Japanese using glossary
   5. Validate structure markers (`""`, `[]`, `<>`, `::action::`)
   6. Edit target file with validated translation
-- Commit every 100 entries with progress update
-- Continue until all 71,992 entries completed
+- Commit every 30 entries with progress update
+- End session after 50 entries (automatic restart by automation script)
+- Continue until all 71,992 entries completed (across multiple sessions)
 
 **Step 3: Quality Validation** (automatic per commit)
 - Line count matches source (mandatory)
@@ -379,9 +386,10 @@ When processing large translation files (530K+ lines), Node.js can run out of me
 **ALWAYS follow these practices:**
 
 1. **Chunk Processing (MANDATORY) - Optimized for 6GB RAM**
-   - **CRITICAL**: Process files in SMALL chunks (30 lines at a time, NEVER exceed 30 lines)
-   - **Standard chunk size**: 30 lines (conservative for 6GB RAM server)
-   - **Maximum chunk size**: 30 lines (strict limit for memory safety)
+   - **CRITICAL**: Process files in SMALL chunks (20 lines at a time, NEVER exceed 20 lines)
+   - **Standard chunk size**: 20 lines (conservative for 6GB RAM server and CLI memory limits)
+   - **Maximum chunk size**: 20 lines (strict limit for memory safety and JSON.stringify error prevention)
+   - **Session entry limit**: 50 entries maximum per session (prevents CLI memory accumulation)
    - Complete one chunk, then clear variables before moving to next chunk
    - NEVER load entire 530K line files into memory at once
    - Use Read tool with `offset` and `limit` parameters
@@ -418,7 +426,7 @@ When processing large translation files (530K+ lines), Node.js can run out of me
    - Note the last `Filename` section that was completed
 
 2. **Restart with smaller chunks (6GB RAM)**
-   - Use 30-line chunks (strict limit for 6GB server)
+   - Use 20-line chunks (strict limit for 6GB server and CLI memory)
    - Process one mission section at a time
 
 3. **Monitor memory during retry (6GB RAM)**
@@ -426,12 +434,13 @@ When processing large translation files (530K+ lines), Node.js can run out of me
    - If approaching 2GB (80% of 2.5GB heap), commit current work and restart
 
 4. **Save frequently (6GB RAM - More Frequent)**
-   - **CRITICAL**: Commit work every 50 entries (or after each section completion, whichever comes first)
+   - **CRITICAL**: Commit work every 30 entries (or after each section completion, whichever comes first)
    - More frequent commits for lower memory environment
    - Don't wait until entire file is complete
-   - Use descriptive commit messages noting progress (e.g., "Retranslation: base_game line 666-1165 (50 entries)")
+   - Use descriptive commit messages noting progress (e.g., "Retranslation: base_game line 666-1165 (30 entries)")
    - After each commit, memory pressure is reduced for next chunk
    - Update progress file after each commit
+   - **End session after 50 entries** (prevents JSON.stringify RangeError)
 
 ### 4. Translation Task Execution Rules (6GB RAM Optimized)
 
@@ -439,14 +448,16 @@ When processing large translation files (530K+ lines), Node.js can run out of me
 
 1. **NEVER attempt to process entire files in one operation**
 2. **ALWAYS use chunked approach**: Read → Process → Edit → Verify → Repeat
-3. **Maximum chunk size**: 30 lines per Read/Edit operation (NEVER exceed 30 lines)
-   - **Standard**: 30 lines (required for 6GB RAM server)
-   - **Maximum**: 30 lines (strict limit, no exceptions)
-4. **Checkpoint frequency**: Commit every 50 entries or after each section completion (whichever comes first)
-5. **Memory check frequency**: Monitor after every 1-2 chunks (every ~30-60 lines)
-6. **Sequential processing**: Process one chunk at a time, never batch multiple chunks together
-7. **Commit immediately**: After completing a checkpoint, commit before continuing
-8. **Update progress file**: After each commit, update the appropriate progress file
+3. **Maximum chunk size**: 20 lines per Read/Edit operation (NEVER exceed 20 lines)
+   - **Standard**: 20 lines (required for 6GB RAM server and CLI memory limits)
+   - **Maximum**: 20 lines (strict limit, no exceptions)
+4. **Session entry limit**: 50 entries maximum per session (prevents JSON.stringify RangeError)
+5. **Checkpoint frequency**: Commit every 30 entries or after each section completion (whichever comes first)
+6. **Memory check frequency**: Monitor after every 1-2 chunks (every ~20-40 lines)
+7. **Sequential processing**: Process one chunk at a time, never batch multiple chunks together
+8. **Commit immediately**: After completing a checkpoint, commit before continuing
+9. **Update progress file**: After each commit, update the appropriate progress file
+10. **End session**: After 50 entries processed, end the session immediately
 
 ### 5. Signs of Memory Pressure (6GB RAM Server)
 

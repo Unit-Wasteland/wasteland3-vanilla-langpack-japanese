@@ -23,13 +23,15 @@
 # - Progress file: translation/.retranslation_progress.json
 #
 # Memory Management:
-# - 4GB: Warning threshold (reduce chunk size)
-# - 6GB: Mandatory session restart
+# - 2GB: Warning threshold (reduce chunk size)
+# - 2.5GB: Mandatory session restart (Node.js heap limit)
 # - Progress persisted in .retranslation_progress.json
+# - Session timeout: 30 minutes (prevent CLI memory accumulation)
 #
 # Safety Features:
-# - 50-line chunk processing (never exceed 100 lines)
-# - 100-entry commit frequency (reduce memory pressure)
+# - 20-line chunk processing (never exceed 20 lines)
+# - 30-entry commit frequency (frequent memory release)
+# - 50-entry session limit (prevent JSON.stringify RangeError)
 # - Structure validation after each edit
 # - 3 consecutive zero-progress sessions → abort
 #
@@ -157,17 +159,19 @@ translation/.retranslation_progress.json を読み込んで、translation/RETRAN
 **サーバー環境: Ubuntu 6GB RAM（メモリ制約あり）**
 
 **重要な処理パラメータ（STRICTLY ENFORCE）:**
-- read_chunk_size: 30行（ABSOLUTELY NEVER exceed 30 lines per Read operation）
-- batch_size: 30エントリ（1つずつ処理、バッチ処理禁止）
-- commit_frequency: 50エントリごと（より頻繁にコミット）
+- read_chunk_size: 20行（ABSOLUTELY NEVER exceed 20 lines per Read operation）
+- batch_size: 20エントリ（1つずつ処理、バッチ処理禁止）
+- commit_frequency: 30エントリごと（より頻繁にコミット）
+- **session_max_entries: 50エントリ** - このセッションで最大50エントリ処理したら必ず終了
 - メモリ安全モード: **最優先**（物理メモリ6GB制約）
 
 **CRITICAL メモリ管理規則（6GB RAM サーバー）:**
 - ⚠️ **Node.js heap limit: 2.5GB** - 絶対に超えないこと
 - ⚠️ 530K行ファイルの全体読み込みは絶対禁止
-- ⚠️ Read tool は必ず offset + limit を指定（**最大30行**）
+- ⚠️ Read tool は必ず offset + limit を指定（**最大20行**）
 - ⚠️ 大きな変数の保持を避ける（処理後すぐ解放）
-- ⚠️ **50エントリごとに必ずコミット**（メモリリセット）
+- ⚠️ **30エントリごとに必ずコミット**（メモリリセット）
+- ⚠️ **50エントリ処理したら必ずセッション終了**（CLIメモリ制限）
 - ⚠️ 一度に複数ファイルを開かない（1ファイルずつ）
 
 **構造保護（CRITICAL）:**
@@ -176,19 +180,23 @@ translation/.retranslation_progress.json を読み込んで、translation/RETRAN
 - 行数は絶対に変更禁止
 
 **処理戦略（Sequential Only - 低メモリ最適化）:**
-1. backup_brokenから30行チャンクで日本語テキストを抽出
-2. 英語ファイルから対応する30行チャンクを読み込み
+1. backup_brokenから20行チャンクで日本語テキストを抽出
+2. 英語ファイルから対応する20行チャンクを読み込み
 3. テキスト部分のみ安全に置換（1エントリずつ、順次処理）
 4. 未翻訳は英語→日本語に翻訳（nouns_glossary.json参照）
-5. **50エントリごとに必ずコミット**（メモリプレッシャー軽減）
+5. **30エントリごとに必ずコミット**（メモリプレッシャー軽減）
+6. **50エントリ処理後は必ずこのセッションを終了**（CLI crash防止）
 
 **検証（MANDATORY）:**
 - 各エディット後に行数一致確認
 - 構造マーカー破損チェック
 - 中国語混入チェック
 
-**目標: 50-100エントリ/セッション（6GB RAMに最適化）**
-より小さいチャンク、より頻繁なコミットで安定性を確保してください。
+**目標: 30-50エントリ/セッション（JSON.stringify error防止）**
+より小さいチャンク、より頻繁なコミット、早期セッション終了で安定性を確保してください。
+
+**⚠️ CRITICAL: このセッションで50エントリ処理したら必ず終了してください。**
+CLI の会話履歴が大きくなりすぎて JSON.stringify RangeError が発生するのを防ぐため。
 
 作業を開始してください。
 EOF
@@ -273,10 +281,10 @@ run_claude_session() {
     local MAX_MEMORY_MB=2560    # 2.5GB mandatory restart (leave headroom for OS)
 
     log "DEBUG: Starting timeout command..."
-    # Start Claude Code in background with timeout (2 hours to allow for large file processing)
+    # Start Claude Code in background with timeout (30 minutes to prevent CLI memory accumulation)
     # Set Node.js heap size to 2.5GB (optimal for 6GB physical RAM server)
     # Leaves ~3.5GB for OS and other processes
-    timeout 7200 bash -c "export NODE_OPTIONS='--max-old-space-size=2560'; yes | cat '$COMMAND_FILE' | claude --dangerously-skip-permissions" > "$session_log" 2>&1 &
+    timeout 1800 bash -c "export NODE_OPTIONS='--max-old-space-size=2560'; yes | cat '$COMMAND_FILE' | claude --dangerously-skip-permissions" > "$session_log" 2>&1 &
     local CLAUDE_PID=$!
 
     log "Claude Code session started (PID: $CLAUDE_PID)"
@@ -314,7 +322,7 @@ run_claude_session() {
     if [[ $exit_code -eq 0 ]]; then
         log "Session #$SESSION_COUNT completed successfully"
     elif [[ $exit_code -eq 124 ]]; then
-        log "WARNING: Session #$SESSION_COUNT timed out (2 hour limit)"
+        log "WARNING: Session #$SESSION_COUNT timed out (30 minute limit)"
     else
         log "WARNING: Session #$SESSION_COUNT exited with status $exit_code (may be normal)"
     fi
