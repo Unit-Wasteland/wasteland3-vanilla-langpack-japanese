@@ -110,7 +110,36 @@ The StringTable files use Unity's serialized text format with the following stru
   - `femaleTexts`: Array of female-specific dialogue variants (often empty)
   - `defaultTexts`: Array of default/male dialogue text (main content)
 
-**Important**: The `string data` lines contain the actual translatable text. Empty strings (`string data = ""`) should remain empty unless they need gender-specific translations.
+### ⚠️ CRITICAL: Unity StringTable Text Format
+
+**The `string data` lines contain the actual translatable text with specific formatting:**
+
+**Empty strings:**
+```
+string data = ""
+```
+
+**Text with content (using DOUBLE double-quotes):**
+```
+string data = ""Japanese text here""
+```
+
+**ABSOLUTELY FORBIDDEN - DO NOT USE:**
+- ❌ Escape sequences: `string data = "\"Japanese text\""`  (NO backslash escaping!)
+- ❌ Japanese brackets: `string data = "「Japanese text」"`
+- ❌ Full-width quotes: `string data = ""Japanese text""`
+- ❌ Single quotes: `string data = "'Japanese text'"`
+
+**Why double double-quotes (`""`):**
+Unity's StringTable format requires text to be wrapped in TWO double-quote characters at start and end. This is NOT an escape sequence - it's the literal format requirement. Think of it as:
+- First `"` = string delimiter (Unity format)
+- Second `"` = text boundary marker (Unity format)
+- Your text goes here
+- Third `"` = text boundary marker (Unity format)
+- Fourth `"` = string delimiter (Unity format)
+
+**Critical editing rule:**
+When editing `string data` lines, ONLY modify the text between the inner double-quotes. NEVER add backslashes, NEVER change the `""` markers to any other character.
 
 ## Translation Workflow
 
@@ -170,8 +199,22 @@ wc -l translation/target/v1.6.9.420.309496/ja_JP/*.txt
    - Verify that all translations are natural Japanese appropriate for a post-apocalyptic RPG
    - Maintain consistent tone and style throughout the translation
 
-4. **Format Preservation**
-   - **Preserve structure**: Only modify text within `string data = "..."` fields
+4. **Format Preservation** ⚠️ CRITICAL
+
+   **Structure Protection - NEVER do these:**
+   - ❌ **NEVER use escape sequences**: `\"` is FORBIDDEN (Unity format doesn't need escaping)
+   - ❌ **NEVER change `""` to Japanese brackets**: `「」` `『』` will break the file
+   - ❌ **NEVER use full-width quotes**: `""` `''` are not valid
+   - ❌ **NEVER translate structure markers**: Keep `""`, `[]`, `<>`, `::action::` exactly as-is
+
+   **Correct format (MANDATORY):**
+   ```
+   string data = ""Japanese text here""
+                 ↑↑              ↑↑
+                 Two " at start, two " at end (4 total)
+   ```
+
+   - **Preserve structure**: Only modify text within `string data = ""...""`
    - **Maintain formatting**: Keep special markers like:
      - Radio frequencies: `[Switch to 27.065 Megahertz]`
      - Script nodes: `Script Node 14`
