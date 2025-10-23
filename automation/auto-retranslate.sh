@@ -154,28 +154,36 @@ create_claude_command() {
     cat > "$COMMAND_FILE" << 'EOF'
 translation/.retranslation_progress.json を読み込んで、translation/RETRANSLATION_WORKFLOW.md に従って翻訳やり直し作業を継続してください。
 
-**重要な処理パラメータ:**
-- read_chunk_size: 50行（NEVER exceed 100 lines）
-- batch_size: 50エントリ
-- commit_frequency: 100エントリごと
-- メモリ安全モード: 有効（4GB警告、6GB強制終了）
+**重要な処理パラメータ（STRICTLY ENFORCE）:**
+- read_chunk_size: 50行（ABSOLUTELY NEVER exceed 50 lines per Read operation）
+- batch_size: 50エントリ（1つずつ処理、バッチ処理禁止）
+- commit_frequency: 100エントリごと（またはセクション完了時）
+- メモリ安全モード: 最優先（CLI JSON.stringify エラー回避）
+
+**CRITICAL メモリ管理規則:**
+- ⚠️ 530K行ファイルの全体読み込みは絶対禁止
+- ⚠️ Read tool は必ず offset + limit を指定（最大50行）
+- ⚠️ 大きな変数の保持を避ける（処理後すぐ解放）
+- ⚠️ 1セクション完了ごとにコミット（メモリリセット）
 
 **構造保護（CRITICAL）:**
 - 絶対に変更禁止: "" [] <> ' ::action::
 - Script Node は翻訳禁止
 - 行数は絶対に変更禁止
 
-**処理戦略:**
-1. backup_brokenから日本語テキストを抽出
-2. 英語ファイルの構造を保持
-3. テキスト部分のみ安全に置換
+**処理戦略（Sequential Only）:**
+1. backup_brokenから50行チャンクで日本語テキストを抽出
+2. 英語ファイルから対応する50行チャンクを読み込み
+3. テキスト部分のみ安全に置換（1エントリずつ）
 4. 未翻訳は英語→日本語に翻訳（nouns_glossary.json参照）
-5. 100エントリごとにコミット
+5. 100エントリまたはセクション完了ごとにコミット
 
 **検証（MANDATORY）:**
 - 各エディット後に行数一致確認
 - 構造マーカー破損チェック
 - 中国語混入チェック
+
+**IMPORTANT: できるだけ多くのエントリを処理してください（目標: 100-200エントリ/セッション）**
 
 作業を開始してください。
 EOF
@@ -185,6 +193,52 @@ EOF
 get_claude_memory() {
     # Get memory usage in MB for all claude processes (excluding current session)
     ps aux | grep 'claude --dangerously-skip-permissions' | grep -v grep | awk '{sum+=$6} END {print int(sum/1024)}'
+}
+
+# Check session log for errors
+check_session_health() {
+    local session_log="$1"
+    local has_errors=0
+
+    # Check if log file is empty or very small (< 100 bytes)
+    if [[ ! -s "$session_log" ]] || [[ $(stat -c%s "$session_log") -lt 100 ]]; then
+        log "⚠ WARNING: Session log is empty or too small (possible crash)"
+        has_errors=1
+    fi
+
+    # Check for JSON.stringify errors (CLI crash)
+    if grep -q "RangeError: Invalid string length" "$session_log" 2>/dev/null; then
+        log "⚠ WARNING: Detected JSON.stringify error (CLI memory issue)"
+        has_errors=1
+    fi
+
+    # Check for Node.js heap errors
+    if grep -q "JavaScript heap out of memory" "$session_log" 2>/dev/null; then
+        log "⚠ WARNING: Detected heap out of memory error"
+        has_errors=1
+    fi
+
+    # Check for unhandled promise rejections
+    if grep -q "UnhandledPromiseRejectionWarning" "$session_log" 2>/dev/null; then
+        log "⚠ WARNING: Detected unhandled promise rejection"
+        has_errors=1
+    fi
+
+    return $has_errors
+}
+
+# Check for uncommitted changes
+check_uncommitted_work() {
+    if ! git diff --quiet 2>/dev/null; then
+        log "⚠ WARNING: Uncommitted changes detected in working directory"
+        log "  Run: git status"
+        log "  Files with changes:"
+        git diff --name-only | head -5 | while read -r file; do
+            log "    - $file"
+        done
+        return 1
+    fi
+    return 0
 }
 
 # Run single Claude Code session
@@ -214,8 +268,9 @@ run_claude_session() {
     local MAX_MEMORY_MB=6144    # 6GB mandatory restart
 
     log "DEBUG: Starting timeout command..."
-    # Start Claude Code in background with timeout (1 hour default)
-    timeout 3600 bash -c "yes | cat '$COMMAND_FILE' | claude --dangerously-skip-permissions" > "$session_log" 2>&1 &
+    # Start Claude Code in background with timeout (2 hours to allow for large file processing)
+    # Increase Node.js heap size to 8GB to prevent JSON.stringify errors
+    timeout 7200 bash -c "export NODE_OPTIONS='--max-old-space-size=8192'; yes | cat '$COMMAND_FILE' | claude --dangerously-skip-permissions" > "$session_log" 2>&1 &
     local CLAUDE_PID=$!
 
     log "Claude Code session started (PID: $CLAUDE_PID)"
@@ -253,9 +308,21 @@ run_claude_session() {
     if [[ $exit_code -eq 0 ]]; then
         log "Session #$SESSION_COUNT completed successfully"
     elif [[ $exit_code -eq 124 ]]; then
-        log "WARNING: Session #$SESSION_COUNT timed out (1 hour limit)"
+        log "WARNING: Session #$SESSION_COUNT timed out (2 hour limit)"
     else
         log "WARNING: Session #$SESSION_COUNT exited with status $exit_code (may be normal)"
+    fi
+
+    # Check session health (detect crashes)
+    local session_has_errors=0
+    if ! check_session_health "$session_log"; then
+        session_has_errors=1
+    fi
+
+    # Check for uncommitted work
+    if ! check_uncommitted_work; then
+        log "⚠ WARNING: Found uncommitted changes - CLI may have crashed before committing"
+        session_has_errors=1
     fi
 
     # Get progress after session
@@ -275,6 +342,13 @@ run_claude_session() {
             log "ERROR: $MAX_ZERO_SESSIONS consecutive sessions with zero progress"
             log "Please check the session logs for errors:"
             log "  tail -100 $session_log"
+
+            # Show last session errors if available
+            if [[ $session_has_errors -eq 1 ]]; then
+                log "Last session errors detected:"
+                tail -20 "$session_log" | grep -E "(ERROR|WARNING|RangeError|heap)" || true
+            fi
+
             error_exit "Aborting due to repeated zero progress"
         fi
     else
@@ -283,9 +357,18 @@ run_claude_session() {
         log "✓ Progress detected, resetting zero-session counter"
     fi
 
+    # If session had errors but made progress, warn but continue
+    if [[ $session_has_errors -eq 1 ]] && [[ $entries_completed -gt 0 ]]; then
+        log "⚠ Session had errors but made progress ($entries_completed entries)"
+        log "  Continuing with caution - will use longer cooldown before next session"
+    fi
+
     # Log session details
     log "Session log saved: $session_log"
     log ""
+
+    # Return error status for main loop
+    return $session_has_errors
 }
 
 # Main automation loop
@@ -318,7 +401,10 @@ main() {
     # Main loop
     while true; do
         # Run Claude Code session
+        set +e  # Don't exit on error from run_claude_session
         run_claude_session
+        local session_had_errors=$?
+        set -e
 
         # Check if complete
         if is_retranslation_complete; then
@@ -331,9 +417,14 @@ main() {
             exit 0
         fi
 
-        # Wait before next session (cooldown)
-        log "Cooldown: waiting 60 seconds before next session..."
-        sleep 60
+        # Adaptive cooldown based on session health
+        if [[ $session_had_errors -eq 1 ]]; then
+            log "Cooldown: waiting 180 seconds (3 minutes) due to errors in previous session..."
+            sleep 180
+        else
+            log "Cooldown: waiting 60 seconds before next session..."
+            sleep 60
+        fi
     done
 }
 
