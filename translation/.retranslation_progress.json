@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 4499,
-      "entries_completed": 87,
+      "current_line": 6432,
+      "entries_completed": 107,
       "status": "in_progress",
-      "note": "Lines 1-4498: Structure validated and fixed. Continue from 4499."
+      "note": "Lines 390-6432: Applied 20 new translations with structure protection. Previous 87 structure fixes retained. Continue from 6433."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -38,10 +38,10 @@
       "status": "pending"
     }
   },
-  "last_commit_hash": "1deb4bbfa91a91f2ea8a3cde38150c0367d60d4e",
-  "total_entries_completed": 87,
+  "last_commit_hash": "1207587c957cb39ef4b6d18fe63e1f61b9fce26f",
+  "total_entries_completed": 107,
   "estimated_total_entries": 71992,
-  "next_action": "Structure protection: Fixed 87 broken markers (lines 3902-4498). Continue verification from line 4499",
+  "next_action": "Continue retranslation from line 6433 (next untranslated English entries)",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
