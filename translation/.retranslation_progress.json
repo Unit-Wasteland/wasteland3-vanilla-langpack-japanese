@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 9632,
-      "entries_completed": 411,
+      "current_line": 9684,
+      "entries_completed": 436,
       "status": "in_progress",
-      "note": "Lines 9613-9632: Applied 10 additional entries (debug menu, compromise dialogue). Session limit (30 entries) reached. Continue from 9633."
+      "note": "Lines 9673-9684: Applied 5 additional entries (Amber's final dialogue). Total 25 entries this session. Continue from 9685."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -38,10 +38,10 @@
       "status": "pending"
     }
   },
-  "last_commit_hash": "00b1131",
-  "total_entries_completed": 411,
+  "last_commit_hash": "e873c92",
+  "total_entries_completed": 436,
   "estimated_total_entries": 71992,
-  "next_action": "Continue retranslation from line 9633 (bandaged woman description)",
+  "next_action": "Continue retranslation from line 9685 (new section: a1001_anandarabindranath)",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
