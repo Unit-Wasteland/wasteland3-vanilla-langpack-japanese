@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 12235,
-      "entries_completed": 690,
+      "current_line": 12352,
+      "entries_completed": 700,
       "status": "in_progress",
-      "note": "Lines 12196-12235: Translated 20 entries from a1001_armorycartelofficer (Bagadonuts dialogue + team rumors). Continue from 12236."
+      "note": "Lines 12236-12352: Translated 10 entries (1 from a1001_armorycartelofficer + 9 from a1001_armorymarshal). Session limit reached (30 entries). Continue from 12352."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -39,9 +39,9 @@
     }
   },
   "last_commit_hash": "7770aa0",
-  "total_entries_completed": 690,
+  "total_entries_completed": 700,
   "estimated_total_entries": 71992,
-  "next_action": "Continue retranslation from line 12236 (a1001_armorycartelofficer section continues)",
+  "next_action": "Continue retranslation from line 12352 (a1001_armorymarshal section continues)",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
