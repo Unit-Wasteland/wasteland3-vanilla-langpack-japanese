@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 11986,
-      "entries_completed": 586,
+      "current_line": 12026,
+      "entries_completed": 603,
       "status": "in_progress",
-      "note": "Lines 11963-11986: Applied 10 entries from a1001_armorycartelofficer (Joey Bagodonuts dialogue about refugees, rescue missions, Riley). Session limit 30 reached. Continue from 11987."
+      "note": "Lines 11987-12026: Applied 17 entries from a1001_armorycartelofficer (Joey Bagodonuts dialogue - Riley care, Pizepi, Gwendolyn Reed family, Bizarre management). Continue from 12027."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -38,10 +38,10 @@
       "status": "pending"
     }
   },
-  "last_commit_hash": "62cc676",
-  "total_entries_completed": 586,
+  "last_commit_hash": "8996ce3",
+  "total_entries_completed": 603,
   "estimated_total_entries": 71992,
-  "next_action": "Continue retranslation from line 11987 (a1001_armorycartelofficer section continues - more dialogue variations)",
+  "next_action": "Continue retranslation from line 12027 (a1001_armorycartelofficer section continues - Bizarre incident outcomes)",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
