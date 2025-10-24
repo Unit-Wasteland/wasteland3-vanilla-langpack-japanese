@@ -52,6 +52,11 @@ This project features a **fully automated retranslation system** with strict str
   - Chunk size: 20 lines (reduced from 30 for memory safety)
   - Commit frequency: 20 entries (increased from 30 for more frequent memory release)
 - **Structure Protection**: Strict validation of `""`, `[]`, `<>`, `::action::` markers after every edit
+- **Automatic Backup**: Automatic git push after each successful session (data loss prevention)
+  - Pushes to remote only when progress is made
+  - Detects and counts push failures (3 consecutive failures → abort)
+  - Local commits are always safe, even if push fails
+  - Minimizes data loss risk from server crashes or disk failures
 
 **Usage Modes:**
 1. **Fully Automated** (Recommended - runs until completion):

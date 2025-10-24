@@ -34,6 +34,8 @@
 # - 30-entry session limit (prevent JSON.stringify RangeError)
 # - Structure validation after each edit
 # - 3 consecutive zero-progress sessions → abort
+# - Automatic git push after each successful session (minimize data loss risk)
+# - 3 consecutive push failures → abort (network/remote issue detection)
 #
 # Output:
 # - All logs → automation/retranslation-automation.log
@@ -54,6 +56,10 @@ readonly LOCK_FILE="$SCRIPT_DIR/.retranslation.lock"
 SESSION_COUNT=0
 CONSECUTIVE_ZERO_SESSIONS=0
 readonly MAX_ZERO_SESSIONS=3
+
+# Push tracking
+CONSECUTIVE_PUSH_FAILURES=0
+readonly MAX_PUSH_FAILURES=3
 
 # Logging function
 log() {
@@ -369,6 +375,25 @@ run_claude_session() {
         # Reset counter on successful progress
         CONSECUTIVE_ZERO_SESSIONS=0
         log "✓ Progress detected, resetting zero-session counter"
+
+        # Push to remote after successful progress (Option 1: safest approach)
+        log "Pushing changes to remote repository..."
+        if git push origin main >> "$LOG_FILE" 2>&1; then
+            log "✓ Successfully pushed to remote (commits: $entries_completed entries)"
+            CONSECUTIVE_PUSH_FAILURES=0
+        else
+            CONSECUTIVE_PUSH_FAILURES=$((CONSECUTIVE_PUSH_FAILURES + 1))
+            log "⚠ WARNING: Failed to push to remote (consecutive failures: $CONSECUTIVE_PUSH_FAILURES/$MAX_PUSH_FAILURES)"
+            log "  Local commits are safe but not backed up to remote"
+
+            if [[ $CONSECUTIVE_PUSH_FAILURES -ge $MAX_PUSH_FAILURES ]]; then
+                log "ERROR: $MAX_PUSH_FAILURES consecutive push failures detected"
+                log "  Please check network connection and git remote configuration"
+                log "  Run: git remote -v"
+                log "  Run: git push origin main"
+                error_exit "Aborting due to repeated push failures"
+            fi
+        fi
     fi
 
     # If session had errors but made progress, warn but continue
