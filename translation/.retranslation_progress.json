@@ -45,13 +45,14 @@
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
-    "read_chunk_size": 30,
-    "max_chunk_size": 30,
-    "batch_size": 30,
-    "commit_frequency": 50,
+    "read_chunk_size": 20,
+    "max_chunk_size": 20,
+    "batch_size": 20,
+    "commit_frequency": 20,
+    "session_limit": 30,
     "memory_warning_threshold_gb": 2,
     "memory_limit_threshold_gb": 2.5,
-    "optimization_note": "Settings optimized for 6GB RAM Ubuntu server"
+    "optimization_note": "Settings optimized for 6GB RAM Ubuntu server - reduced after JSON.stringify errors"
   },
   "structure_protection": {
     "preserve_markers": ["\"\"", "[ ]", "< >", "' '", "::action::"],

@@ -30,8 +30,8 @@
 #
 # Safety Features:
 # - 20-line chunk processing (never exceed 20 lines)
-# - 30-entry commit frequency (frequent memory release)
-# - 50-entry session limit (prevent JSON.stringify RangeError)
+# - 20-entry commit frequency (more frequent memory release)
+# - 30-entry session limit (prevent JSON.stringify RangeError)
 # - Structure validation after each edit
 # - 3 consecutive zero-progress sessions → abort
 #
@@ -161,8 +161,8 @@ translation/.retranslation_progress.json を読み込んで、translation/RETRAN
 **重要な処理パラメータ（STRICTLY ENFORCE）:**
 - read_chunk_size: 20行（ABSOLUTELY NEVER exceed 20 lines per Read operation）
 - batch_size: 20エントリ（1つずつ処理、バッチ処理禁止）
-- commit_frequency: 30エントリごと（より頻繁にコミット）
-- **session_max_entries: 50エントリ** - このセッションで最大50エントリ処理したら必ず終了
+- commit_frequency: 20エントリごと（より頻繁にコミット）
+- **session_max_entries: 30エントリ** - このセッションで最大30エントリ処理したら必ず終了
 - メモリ安全モード: **最優先**（物理メモリ6GB制約）
 
 **CRITICAL メモリ管理規則（6GB RAM サーバー）:**
@@ -170,8 +170,8 @@ translation/.retranslation_progress.json を読み込んで、translation/RETRAN
 - ⚠️ 530K行ファイルの全体読み込みは絶対禁止
 - ⚠️ Read tool は必ず offset + limit を指定（**最大20行**）
 - ⚠️ 大きな変数の保持を避ける（処理後すぐ解放）
-- ⚠️ **30エントリごとに必ずコミット**（メモリリセット）
-- ⚠️ **50エントリ処理したら必ずセッション終了**（CLIメモリ制限）
+- ⚠️ **20エントリごとに必ずコミット**（メモリリセット）
+- ⚠️ **30エントリ処理したら必ずセッション終了**（CLIメモリ制限）
 - ⚠️ 一度に複数ファイルを開かない（1ファイルずつ）
 
 **構造保護（CRITICAL）:**
@@ -184,18 +184,18 @@ translation/.retranslation_progress.json を読み込んで、translation/RETRAN
 2. 英語ファイルから対応する20行チャンクを読み込み
 3. テキスト部分のみ安全に置換（1エントリずつ、順次処理）
 4. 未翻訳は英語→日本語に翻訳（nouns_glossary.json参照）
-5. **30エントリごとに必ずコミット**（メモリプレッシャー軽減）
-6. **50エントリ処理後は必ずこのセッションを終了**（CLI crash防止）
+5. **20エントリごとに必ずコミット**（メモリプレッシャー軽減）
+6. **30エントリ処理後は必ずこのセッションを終了**（CLI crash防止）
 
 **検証（MANDATORY）:**
 - 各エディット後に行数一致確認
 - 構造マーカー破損チェック
 - 中国語混入チェック
 
-**目標: 30-50エントリ/セッション（JSON.stringify error防止）**
+**目標: 20-30エントリ/セッション（JSON.stringify error防止）**
 より小さいチャンク、より頻繁なコミット、早期セッション終了で安定性を確保してください。
 
-**⚠️ CRITICAL: このセッションで50エントリ処理したら必ず終了してください。**
+**⚠️ CRITICAL: このセッションで30エントリ処理したら必ず終了してください。**
 CLI の会話履歴が大きくなりすぎて JSON.stringify RangeError が発生するのを防ぐため。
 
 作業を開始してください。
