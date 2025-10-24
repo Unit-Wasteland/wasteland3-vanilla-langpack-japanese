@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 12172,
-      "entries_completed": 663,
+      "current_line": 12194,
+      "entries_completed": 670,
       "status": "in_progress",
-      "note": "Lines 12125-12172: Applied 20 entries from a1001_armorycartelofficer (Little Vegas, robot chicken jokes, Steeltown outcomes, computer/old folks). Continue from 12173."
+      "note": "Lines 12173-12194: Translated 7 entries from a1001_armorycartelofficer (Bagadonuts armory tech dialogue). Session #6 terminated early due to memory spike. Continue from 12196."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -38,10 +38,10 @@
       "status": "pending"
     }
   },
-  "last_commit_hash": "ba989a9",
-  "total_entries_completed": 663,
+  "last_commit_hash": "7770aa0",
+  "total_entries_completed": 670,
   "estimated_total_entries": 71992,
-  "next_action": "Continue retranslation from line 12173 (a1001_armorycartelofficer section may continue)",
+  "next_action": "Continue retranslation from line 12196 (a1001_armorycartelofficer section continues)",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
