@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 83797,
-      "entries_completed": 11422,
+      "current_line": 85639,
+      "entries_completed": 11688,
       "status": "in_progress",
-      "note": "Lines 82705-83796: Translated 180 entries (a1001_psychopath_imprisonedatrangerhq: 180 entries - Victory Buchanan imprisoned dialogue at Ranger HQ, psychopath character interactions). Continue from line 83797 (a1001_quarex section)."
+      "note": "Lines 83797-85638: Translated 266 entries (a1001_quarex: 147, various radio sections: 119 entries - Quarex dialogue, radio communications from Gonzalez, Wong, Gideon). Continue from line 85639 (a1001_radio_woodson_checkingin section onwards)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -38,10 +38,10 @@
       "status": "pending"
     }
   },
-  "last_commit_hash": "ad55af2",
-  "total_entries_completed": 11422,
+  "last_commit_hash": "a722a52",
+  "total_entries_completed": 11688,
   "estimated_total_entries": 71992,
-  "next_action": "Continue retranslation from line 83797 (a1001_quarex section onwards)",
+  "next_action": "Continue retranslation from line 85639 (a1001_radio_woodson_checkingin section onwards)",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
