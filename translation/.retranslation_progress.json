@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 97416,
-      "entries_completed": 13380,
+      "current_line": 98760,
+      "entries_completed": 13714,
       "status": "in_progress",
-      "note": "Lines 97217-97416: Translated 98 entries (thepatriarch section continuation). Continue thepatriarch from line 97416 onwards."
+      "note": "Lines 97416-98760: Translated 334 entries (completed thepatriarch section, completed theprisoner section). Continue from line 98760 onwards (thewarden section)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -38,10 +38,10 @@
       "status": "pending"
     }
   },
-  "last_commit_hash": "7605bea",
-  "total_entries_completed": 13380,
+  "last_commit_hash": "pending",
+  "total_entries_completed": 13714,
   "estimated_total_entries": 71992,
-  "next_action": "Continue retranslation from line 97416 onwards (thepatriarch section)",
+  "next_action": "Continue retranslation from line 98760 onwards (thewarden section)",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
