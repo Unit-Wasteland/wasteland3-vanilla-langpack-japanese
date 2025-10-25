@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 188230,
-      "entries_completed": 25563,
+      "current_line": 191474,
+      "entries_completed": 26063,
       "status": "in_progress",
-      "note": "Lines 186247-188230: Translated 261 entries (a5101_patriarch_finaldialogue_propatriarchending_endgame: 87 pro-Patriarch ending choices, a5101_patriarch_finaldialogue_antipatriarchending_endgame: 83 anti-Patriarch revolution ending, a5101_patriarch_finaldialogue_antipatriarchwithgangsending_endgame: 3 Patriarch suicide ending, a5101_patriarch_finaldialogue_bloodlesscoup_endgame: 88 bloodless coup Angela Deth dialogue). Major content: Critical endgame dialogue - all Patriarch finale paths (cooperation/betrayal/retirement/exile/arrest/kill), Angela Deth choices (stay/leave), Arizona Rangers future (invite/resources/abandon), multiple ending variations with long-term consequences. Structure protection maintained (\"\" format, ::action:: markers preserved, Script Node not translated, <i> tags preserved). Continue from line 188230 onwards (a5101_patriarch_finaldialogue_propatriarchending_endgame continued)."
+      "note": "Lines 188230-191474: Translated 500 entries. Major sections: (1) a5101_patriarch_finaldialogue_propatriarchending_endgame continued - final 90 entries with pro-Patriarch ending variations, companions' departure dialogue, Angela Deth choices; (2) a5101_patriarch_radio_antipatriarchlobby - 10 entries with Patriarch radio taunts during anti-Patriarch path; (3) a5101_patriarch_radio_antipatriarchscenario - 3 entries for final battle introduction; (4) a5101_psychopathcommentaryinpatriarchpalace - 10 entries (mostly removed/debug); (5) a5101_securewingguard - 1 entry; (6) a5101_thepatriarch_atpalace - 400 entries with extensive Patriarch palace dialogue including mission debriefs, child status reports, political questions, moral dilemmas, personal history. All structure protection maintained (\"\" format, ::action:: markers, Script Node, <i> tags, [Lie] prefixes preserved). Continue from line 191474 onwards (a5101_thepatriarch_atpalace continued - remaining ~114 entries in this section)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -38,10 +38,10 @@
       "status": "pending"
     }
   },
-  "last_commit_hash": "pending",
-  "total_entries_completed": 25563,
+  "last_commit_hash": "to_be_updated",
+  "total_entries_completed": 26063,
   "estimated_total_entries": 71992,
-  "next_action": "Continue retranslation from line 186247 onwards (a5101_patriarch_final dialogue_propatriarchending_endgame)",
+  "next_action": "Continue retranslation from line 191474 onwards (a5101_thepatriarch_atpalace continued)",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
