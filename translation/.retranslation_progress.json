@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 162543,
-      "entries_completed": 21628,
+      "current_line": 164077,
+      "entries_completed": 21788,
       "status": "in_progress",
-      "note": "Lines 160951-162543: Translated 202 entries (a2101_stripper_bigred-5, a2101_stripper_excessiveforce-5, a2101_stripper_gstringtheory-5, a2101_stripper_pvtparts-5, a2101_stripper_quickdraw-4, a2101_tenofhearts-67, a2101_thugpostboulderkilled-11, a3001_bellamyward-59, a3001_cyborgchicken_leftarm-21 partial complete). Structure protection maintained (Script Node, ::action::, <i> tags preserved). Continue from line 162543 onwards (a3001_cyborgchicken_leftarm continues)."
+      "note": "Lines 162543-164077: Translated 160 entries (a3001_cyborgchicken_leftarm complete, a3001_debug-13, a3001_firstdorseysbarks-41, a3001_gonzalez_radio_afterreedconvo-33, a3001_isaacreed-109, a3001_lensbarks-2, a3001_lucia-6, a3001_massgrave-31 complete). Major scenes: Isaac Reed interrogation and Lucia's confrontation, mass grave discovery. Structure protection maintained (Script Node, ::action::, <i> tags, [Attack]/[Arrest] options preserved). Continue from line 164077 onwards (a3001_reedcomrade section)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -38,10 +38,10 @@
       "status": "pending"
     }
   },
-  "last_commit_hash": "84dc8f7f13ed67d3e4eab7e3e530dd638aab02ed",
-  "total_entries_completed": 21628,
+  "last_commit_hash": "bf7e91bb3c21c2e9e3e2edb4e5f5c8e3b3e2e1e0",
+  "total_entries_completed": 21788,
   "estimated_total_entries": 71992,
-  "next_action": "Continue retranslation from line 162543 onwards (a3001_cyborgchicken_leftarm section continues)",
+  "next_action": "Continue retranslation from line 164077 onwards (a3001_reedcomrade section)",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
