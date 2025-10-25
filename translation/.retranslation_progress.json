@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 38392,
-      "entries_completed": 4542,
+      "current_line": 39193,
+      "entries_completed": 4891,
       "status": "in_progress",
-      "note": "Lines 34234-38392: Translated 500 entries (a1001_crow: 23 entries [71]-[117] - synth/airport dialogues; a1001_cyborgchicken_torso: 88 entries - cyborg chicken behaviors; a1001_daisy: 2 entries - Sheriff Daisy; a1001_danny: 4 entries - tabletop gaming; a1001_deadrefugee: 18 entries - investigation; a1001_delgado: 222 entries - armory/family/refugee storylines; a1001_delgado_endgame: 2 entries; a1001_diligentjoe: 5 entries - palace guard; a1001_disappeared_companions: 8 entries - missing companions quest; a1001_docparker: 86 entries [0]-[85] partial - Doc Parker patient quest dialogue). Continue from line 38392 (a1001_docparker section [86] onwards)."
+      "note": "Lines 38392-39193: Translated 349 entries (a1001_docparker: 334 entries [86]-[419] completed - Doc Parker full questline, patient surgery, Megan Silver recruitment, refugee commentary, moral choices; a1001_docparker_radio_patient: 2 entries - radio messages; a1001_donna: 7 entries - tabletop gaming NPC; a1001_dorseyhostagetaker: 6 entries - Dorsey hostage taker dialogues with Deluge cultist themes). Continue from line 39193 (a1001_dorseyhostagetakerleader section onwards)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -38,10 +38,10 @@
       "status": "pending"
     }
   },
-  "last_commit_hash": "aa12f51",
-  "total_entries_completed": 4542,
+  "last_commit_hash": "pending",
+  "total_entries_completed": 4891,
   "estimated_total_entries": 71992,
-  "next_action": "Continue retranslation from line 38392 (a1001_docparker section [86] onwards)",
+  "next_action": "Continue retranslation from line 39193 (a1001_dorseyhostagetakerleader section - 168 entries)",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
