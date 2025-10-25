@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 82705,
-      "entries_completed": 11242,
+      "current_line": 83797,
+      "entries_completed": 11422,
       "status": "in_progress",
-      "note": "Lines 80839-82704: Translated 291 entries (a1001_partyingteen: 58 entries - Ranger HQ party dialogue; a1001_patriarchbroadcast_rangersareenemiesofstate: 8 entries - Patriarch's enemy broadcast; a1001_patriarcheliteguard: 7 entries + a1001_patriarcheliteguard_wm: 5 entries - Elite guard dialogue; a1001_picardspeech: 18 entries - Warden's recruitment speech; a1001_pistolpete: 20 entries - Gate guard dialogue; a1001_pizepi: 169 entries - Pizepi companion extensive dialogue; a1001_psychopathabandonedrangers: 4 entries - Liberty abandonment dialogue). Continue from line 82705 (a1001_psychopath_imprisonedatrangerhq section)."
+      "note": "Lines 82705-83796: Translated 180 entries (a1001_psychopath_imprisonedatrangerhq: 180 entries - Victory Buchanan imprisoned dialogue at Ranger HQ, psychopath character interactions). Continue from line 83797 (a1001_quarex section)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -39,9 +39,9 @@
     }
   },
   "last_commit_hash": "ad55af2",
-  "total_entries_completed": 11242,
+  "total_entries_completed": 11422,
   "estimated_total_entries": 71992,
-  "next_action": "Continue retranslation from line 82705 (a1001_psychopath_imprisonedatrangerhq section onwards)",
+  "next_action": "Continue retranslation from line 83797 (a1001_quarex section onwards)",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
