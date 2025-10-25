@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 105385,
-      "entries_completed": 14768,
+      "current_line": 106424,
+      "entries_completed": 14908,
       "status": "in_progress",
-      "note": "Lines 103603-105385: Translated 279 entries (completed a1001_winona, a1001_wolfemercenary, a1001_woodson, a1011_greatski_endgame, a1011_vehicleinteraction, a2001_amber, a2001_ambientarapaho01-03 sections). Continue from line 105385 onwards (a2001_ambientarapaho04 section)."
+      "note": "Lines 105385-106424: Translated 140 entries (completed a2001_ambientarapaho04-05, a2001_ambientarapahogeneric, a2001_ambientconstables, a2001_ambientconstable_dorseypile, a2001_ambientdogs, partial a2001_ambientrefugee sections). Continue from line 106424 onwards (a2001_ambientrefugee section)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -38,8 +38,8 @@
       "status": "pending"
     }
   },
-  "last_commit_hash": "7daab62",
-  "total_entries_completed": 14768,
+  "last_commit_hash": "pending",
+  "total_entries_completed": 14908,
   "estimated_total_entries": 71992,
   "next_action": "Continue retranslation from line 105385 onwards (a2001_ambientarapaho04 section)",
   "memory_settings": {
