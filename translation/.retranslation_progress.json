@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 100417,
-      "entries_completed": 13988,
+      "current_line": 103602,
+      "entries_completed": 14489,
       "status": "in_progress",
-      "note": "Lines 98760-100417: Translated 274 entries (completed thewarden section). Fixed structure violation at line 98760. Continue from line 100417 onwards (thezealot_imprisonedatrangerhq section)."
+      "note": "Lines 100417-103602: Translated 501 entries (completed thezealot_imprisonedatrangerhq, tomredd, torres, troy, valorthezealot, vargasstatue, vici, wardenmathers, warroom_secalertcomputer sections). Continue from line 103603 onwards (a1001_winona section)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -38,10 +38,10 @@
       "status": "pending"
     }
   },
-  "last_commit_hash": "b46030e",
-  "total_entries_completed": 13988,
+  "last_commit_hash": "7daab62",
+  "total_entries_completed": 14489,
   "estimated_total_entries": 71992,
-  "next_action": "Continue retranslation from line 100417 onwards (thezealot_imprisonedatrangerhq section)",
+  "next_action": "Continue retranslation from line 103603 onwards (a1001_winona section)",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
