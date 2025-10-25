@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 79483,
-      "entries_completed": 10731,
+      "current_line": 80839,
+      "entries_completed": 10951,
       "status": "in_progress",
-      "note": "Lines 74257-79483: Translated 227 entries (a1001_morningstar: 188 entries - dialogue with Morningstar AI vehicle including Reagan quotes, refugee conflicts, mission feedback, garage integration; a1001_museumexhibits: 39 entries - museum exhibit descriptions including artifacts from battles, recovered items, memorial plaques). Continue from line 79483 (a1001_museumexhibits_peekandpoke section)."
+      "note": "Lines 79483-80838: Translated 220 entries (a1001_museumexhibits_peekandpoke: 2 entries - Peek and Poke robot mascot exhibit descriptions; a1001_museum_archivecomputer: 89 entries - security and personnel logs from Peterson Air Force Base; a1001_nitagett: 129 entries - Nita and Gett HQ ambient dialogue about missions). Continue from line 80839 (a1001_partyingteen section)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -38,10 +38,10 @@
       "status": "pending"
     }
   },
-  "last_commit_hash": "dd9e1d9",
-  "total_entries_completed": 10731,
+  "last_commit_hash": "9d39510",
+  "total_entries_completed": 10951,
   "estimated_total_entries": 71992,
-  "next_action": "Continue retranslation from line 79483 (a1001_museumexhibits_peekandpoke section onwards)",
+  "next_action": "Continue retranslation from line 80839 (a1001_partyingteen section onwards)",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
