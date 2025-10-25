@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 80839,
-      "entries_completed": 10951,
+      "current_line": 82705,
+      "entries_completed": 11242,
       "status": "in_progress",
-      "note": "Lines 79483-80838: Translated 220 entries (a1001_museumexhibits_peekandpoke: 2 entries - Peek and Poke robot mascot exhibit descriptions; a1001_museum_archivecomputer: 89 entries - security and personnel logs from Peterson Air Force Base; a1001_nitagett: 129 entries - Nita and Gett HQ ambient dialogue about missions). Continue from line 80839 (a1001_partyingteen section)."
+      "note": "Lines 80839-82704: Translated 291 entries (a1001_partyingteen: 58 entries - Ranger HQ party dialogue; a1001_patriarchbroadcast_rangersareenemiesofstate: 8 entries - Patriarch's enemy broadcast; a1001_patriarcheliteguard: 7 entries + a1001_patriarcheliteguard_wm: 5 entries - Elite guard dialogue; a1001_picardspeech: 18 entries - Warden's recruitment speech; a1001_pistolpete: 20 entries - Gate guard dialogue; a1001_pizepi: 169 entries - Pizepi companion extensive dialogue; a1001_psychopathabandonedrangers: 4 entries - Liberty abandonment dialogue). Continue from line 82705 (a1001_psychopath_imprisonedatrangerhq section)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -39,9 +39,9 @@
     }
   },
   "last_commit_hash": "9d39510",
-  "total_entries_completed": 10951,
+  "total_entries_completed": 11242,
   "estimated_total_entries": 71992,
-  "next_action": "Continue retranslation from line 80839 (a1001_partyingteen section onwards)",
+  "next_action": "Continue retranslation from line 82705 (a1001_psychopath_imprisonedatrangerhq section onwards)",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
