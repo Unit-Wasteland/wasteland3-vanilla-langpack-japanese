@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 174529,
-      "entries_completed": 23190,
+      "current_line": 178244,
+      "entries_completed": 23704,
       "status": "in_progress",
-      "note": "Lines 172597-174529: Translated 223 entries (Broadmoor Heights NPCs and quests - a5001_bellamyward: 27 Bellamy Ward dialogue about father/estate/Garden of Gods, a5001_bowen: 6 Bowen drone repair mission dialogue, a5001_castilloconstable: 8 constable guarding ransacked Castillo estate, a5001_castillodaughter01: 18 daughter scared of ghost/doll in walls, a5001_castillodaughter02: 15 daughter taunting about cursed doll/family secrets, a5001_castillodrone01: 19 Castillo estate servitor drone greetings, a5001_companionbarks: 62 companion location barks in Broadmoor Heights, a5001_coracastillo: 68 Cora Castillo furrier dialogue about collection/creepy doll mystery). Major content: Bellamy Ward family interactions, Castillo estate creepy doll quest setup, Cora's fur collection pride, daughters' ghost theories, companion reactions to wealthy district. Structure protection maintained (\"\" format, ::action:: like ::shivers::/::snort::/::sniff::, Script Node preservation, control characters preserved, [Lie] markers kept). Continue from line 174529 onwards (a5001_cyborgchicken_rightleg)."
+      "note": "Lines 177037-178244: Translated 110 entries (a5001_estinward: 14 Estin Ward traumatized survivor dialogue about snowflakes/cold/death, a5001_finaldelugepriest: 26 Final Deluge church priest dialogue about refugees/faith/apocalypse preparation, a5001_gideonreyes: 70 Gideon Reyes political advisor extensive dialogue about refugee smuggling problem, Colorado Springs facade, Hundred Families politics, peaceful/violent resolution options). Major content: Estin's psychological trauma from Holy Detonation exposure, church community notices and apocalyptic beliefs, Gideon's diplomatic approach to refugee crisis and political power dynamics. Structure protection maintained (\"\" format, ::action:: markers preserved, Script Node not translated, <i> tags preserved, control characters like \\r\\n preserved). Continue from line 178244 onwards (a5001_gideonreyes remaining entries)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -38,10 +38,10 @@
       "status": "pending"
     }
   },
-  "last_commit_hash": "3d8d877",
-  "total_entries_completed": 23190,
+  "last_commit_hash": "pending",
+  "total_entries_completed": 23704,
   "estimated_total_entries": 71992,
-  "next_action": "Continue retranslation from line 174529 onwards (a5001_cyborgchicken_rightleg)",
+  "next_action": "Continue retranslation from line 178244 onwards (a5001_gideonreyes remaining entries)",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
