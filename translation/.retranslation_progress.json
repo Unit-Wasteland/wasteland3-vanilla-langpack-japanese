@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 56413,
-      "entries_completed": 7304,
+      "current_line": 58278,
+      "entries_completed": 7603,
       "status": "in_progress",
-      "note": "Lines 54909-56413: Translated 116 entries (a1001_gideonreyes_rhq: 386 entries completed - Gideon Reyes NPC political advisor dialogues; a1001_gonzalez_after2ndkid_radio: 9 entries - radio call about Deth; a1001_gonzalez_wolfeathq: 10 entries - radio call about Wolfe; a1001_handcraft: 97 entries - Handcraft mechanic barks and team rumors). Continue from line 56413 (a1001_immaculate section next)."
+      "note": "Lines 56413-58278: Translated 299 entries (a1001_immaculate: 1 entry; a1001_isaacreedcompanion_inprison: 14 entries - Isaac Reed companion dialogues in prison; a1001_isaacreed_inprison: 133 entries - Isaac Reed main prison dialogues; a1001_isabelleredd: 24 entries - Isabelle Redd bomb trap encounter; a1001_jodiebell: 109 entries - Jodie Bell driver companion dialogues; a1001_jola: 18 entries - Jola companion recruitment barks). Continue from line 58278 (a1001_jorge section next)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -38,10 +38,10 @@
       "status": "pending"
     }
   },
-  "last_commit_hash": "8dd8db7",
-  "total_entries_completed": 7304,
+  "last_commit_hash": "13037e5",
+  "total_entries_completed": 7603,
   "estimated_total_entries": 71992,
-  "next_action": "Continue retranslation from line 56413 (a1001_immaculate section next)",
+  "next_action": "Continue retranslation from line 58278 (a1001_jorge section next)",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
