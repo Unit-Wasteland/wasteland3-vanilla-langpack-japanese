@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 13642,
-      "entries_completed": 846,
+      "current_line": 13651,
+      "entries_completed": 851,
       "status": "in_progress",
-      "note": "Lines 13602-13640: Translated 10 entries (Austin Pease dialogue continuation). Continue from 13642."
+      "note": "Lines 13602-13650: Translated 15 entries (Austin Pease dialogue - grateful recruit conversations). Session limit reached (15 entries). Continue from 13651 (a1001_banterbarks_armory section starts)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -39,9 +39,9 @@
     }
   },
   "last_commit_hash": "fa39e6e",
-  "total_entries_completed": 846,
+  "total_entries_completed": 851,
   "estimated_total_entries": 71992,
-  "next_action": "Continue retranslation from line 13642 (a1001_austinpease section continues)",
+  "next_action": "Continue retranslation from line 13651 (a1001_banterbarks_armory section starts)",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
