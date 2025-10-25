@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 184684,
-      "entries_completed": 25065,
+      "current_line": 186247,
+      "entries_completed": 25302,
       "status": "in_progress",
-      "note": "Lines 181200-184684: Translated 500 entries (a5001_slainservitor: 60 servitor robot dialogue, a5001_warddrone01: 43 ward drone interactions, a5101_adoptionrecord: 3 Howe adoption records, a5101_antipatriarch computer systems: 30 palace security/power/turret control UI, a5101_companionbarks: 78 companion comments exploring palace rooms/family portraits/Buchanan children's quarters, a5101_debugmissionthezealot: 13 debug mission controls, a5101_door systems: 10 palace door descriptions/vault access, a5101_elitemarshal: 2 marshal guard dialogue started). Major content: Palace endgame area, companion environmental commentary about Buchanan family, computer security systems, vault access mechanics. Structure protection maintained (\"\" format, ::action:: markers preserved, Script Node not translated, <i> tags preserved, TEMP prefix preserved). Continue from line 184684 onwards (a5101_elitemarshal continuation)."
+      "note": "Lines 184684-186247: Translated 237 entries (a5101_elitemarshal: 29 elite marshal palace guards, a5101_endgame_propatriarch_angeladethstandoff: 62 Angela Deth vs Patriarch finale confrontation, a5101_immaculate: 4 NPC, a5101_kidsroomguard: 15 Buchanan children's quarters guard, a5101_libertydesk: 13 Liberty's desk investigation/cache coordinates, a5101_mrdebug: 57 debug menu options, a5101_patriarch_endgame_antipatriarch_introtofinalbattle: 3 anti-Patriarch battle intro, a5101_patriarch_final dialogue_bloodlesscoup_endgame: 86 bloodless coup ending). Major content: Critical endgame dialogue - Angela Deth standoff choices, multiple ending paths (arrest/exile/kill Patriarch), Angela staying/leaving decisions, Arizona Rangers invitation options. Structure protection maintained (\"\" format, ::action:: markers preserved, Script Node not translated, <i> tags preserved). Continue from line 186247 onwards (a5101_patriarch_final dialogue_propatriarchending_endgame)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -38,10 +38,10 @@
       "status": "pending"
     }
   },
-  "last_commit_hash": "bb95c0a",
-  "total_entries_completed": 25065,
+  "last_commit_hash": "2ef2de5",
+  "total_entries_completed": 25302,
   "estimated_total_entries": 71992,
-  "next_action": "Continue retranslation from line 184684 onwards (a5101_elitemarshal continuation)",
+  "next_action": "Continue retranslation from line 186247 onwards (a5101_patriarch_final dialogue_propatriarchending_endgame)",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
