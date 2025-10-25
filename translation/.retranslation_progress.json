@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 28507,
-      "entries_completed": 3046,
+      "current_line": 30078,
+      "entries_completed": 3279,
       "status": "in_progress",
-      "note": "Lines 26473-28507: Translated 333 entries (warroom 0-270: 271 entries, betsy 0-44: 45 entries, bizarreliaison 0-16: 17 entries). Continue from line 28507 (blue section)."
+      "note": "Lines 28507-30078: Translated 233 entries (a1001_blue: 133, a1001_bollardcomputer: 39, a1001_brady: 21, a1001_brandi: 6, a1001_brig_secalertcomputer: 22, a1001_brothomas: 21, a1001_bryan: 6). Continue from line 30078 (a1001_buddy_catchingup section)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -38,10 +38,10 @@
       "status": "pending"
     }
   },
-  "last_commit_hash": "0cf1726",
-  "total_entries_completed": 3046,
+  "last_commit_hash": "8594bd7",
+  "total_entries_completed": 3279,
   "estimated_total_entries": 71992,
-  "next_action": "Continue retranslation from line 28507 (a1001_blue section)",
+  "next_action": "Continue retranslation from line 30078 (a1001_buddy_catchingup section)",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
