@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 165702,
-      "entries_completed": 22025,
+      "current_line": 167610,
+      "entries_completed": 22243,
       "status": "in_progress",
-      "note": "Lines 164077-165702: Translated 237 entries (DLC2 mission dialogues - a3001_reedcomrade, a3001_seconddorseybarks, a4001_bantermushroomers, a4001_cadetchapelsign, a4001_cultistintrooutsidetemple, a4001_cyborgchicken_rightarm, a4001_debug_wardradiocallplaceholder, a4001_fairchildhallsign, a4001_gonzalez_radio_af_reward, a4001_injuredwolf, a4001_larsodinkirk_payback, a4001_lorecomputer, a4001_mcdermottlibrarysign, a4001_megansilver_oldworldpower, a4001_mitchellhallsign complete). Major scenes: Reed's comrades, cyborg chicken companion, injured wolf companion, Lars Odinkirk revenge, Megan Silver DLC2 quest. Structure protection maintained (::action::, Script Node, HTML tags, choice markers, \"\" format). Continue from line 165702 onwards (a4001_mrdebug section)."
+      "note": "Lines 165702-167610: Translated 218 entries (DLC2 debug & mission dialogues - a4001_mrdebug: 75 debug options, a4001_radio_a_cultbarks: 16 cult radio broadcasts, a4001_scientistguard: 9 guard barks, a4001_sgtdelgado_payback: 75 Delgado torture scene, a4001_sijanhallsign: 2 hall signs, a4001_theocurie_oldworldpower: 41 Theo Curie quest partial). Major scenes: Mr. Debug test options, cult religious broadcasts, Sergeant Delgado torture & rescue, Theo Curie Old World Power quest start. Structure protection maintained (::action::, Script Node, \"\" format, all markers preserved). Continue from line 167610 onwards (a4001_theocurie_oldworldpower continuation)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -38,10 +38,10 @@
       "status": "pending"
     }
   },
-  "last_commit_hash": "256e1a1f7be2e7c9e9e1e8e5e5f5c8e3b3e2e1e0",
-  "total_entries_completed": 22025,
+  "last_commit_hash": "b6419ab",
+  "total_entries_completed": 22243,
   "estimated_total_entries": 71992,
-  "next_action": "Continue retranslation from line 165702 onwards (a4001_mrdebug section)",
+  "next_action": "Continue retranslation from line 167610 onwards (a4001_theocurie_oldworldpower continuation)",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
