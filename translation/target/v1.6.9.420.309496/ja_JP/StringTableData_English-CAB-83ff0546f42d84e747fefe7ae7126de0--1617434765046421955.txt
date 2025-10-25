@@ -198517,23 +198517,23 @@
        [41]
         1 string data = ""ミッション中に再入場するためシーン遷移を使用""
        [42]
-        1 string data = ""You're at the Machine Commune.""
+        1 string data = ""マシーン・コミューンに到着。""
        [43]
-        1 string data = ""Cool. Now heading back. Triggers identical content as Node 5 in b3001_DebugMissionReaganReborn.""
+        1 string data = ""了解。戻る。b3001_DebugMissionReaganRebornのNode 5と同じ内容がトリガーされる。""
        [44]
-        1 string data = ""Looks like you've already done what you need to do here, at least for purposes of this debug entry, so both your choices actually are 'leave scene transition.' ""
+        1 string data = ""このデバッグエントリでは既に必要な作業を完了しているため、両方の選択肢が実質的に「シーン遷移を抜ける」となる。""
        [45]
         1 string data = "Script Node 46"
        [46]
         1 string data = "Script Node 47"
        [47]
-        1 string data = ""There are two subjects awaiting the Judgement of Reagan.""
+        1 string data = ""レーガンの裁きを待つ囚人が2人いる。""
        [48]
-        1 string data = ""For reasons, we are letting one go! Who will it be?""
+        1 string data = ""理由があって、1人を解放することにした！どちらを解放する?""
        [49]
-        1 string data = ""All Gippers are dead. Drop off here, it doesn't matter what happens with them. We actually should never hit this node b/c the quest ends once you kill 'em all.""
+        1 string data = ""ギッパーズは全滅。ここで終了。彼らに何が起きても関係ない。実際には全員殺すとクエストが終了するため、このノードに到達することはないはずだが。""
        [50]
-        1 string data = ""Some Gippers are alive and are friendly.""
+        1 string data = ""ギッパーズの一部が生存しており友好的。""
        [51]
         1 string data = "Script Node 52"
        [52]
@@ -198541,29 +198541,29 @@
        [53]
         1 string data = "Script Node 54"
        [54]
-        1 string data = ""Gippers were not sabotaged. Cases of:\r\n - Gippers all dead\r\n\r\nShould have dropped out you of this tree earlier, so we just have to worry about...\r\n""
+        1 string data = ""ギッパーズは妨害されていない。以下のケース:\r\n - ギッパーズ全滅\r\n\r\n上記の場合、既にこのツリーから離脱しているはずなので、心配すべきは以下のみ...\r\n""
        [55]
-        1 string data = ""The Gippers do NOT hate you. Battle happens and if you engage, you can help save 'em from Godfishers. If you leave, the Gippers still win. They'll be annoyed at you but will still accept the Cybernetic Transfer Module.""
+        1 string data = ""ギッパーズはプレイヤーを嫌っていない。戦闘が発生し、参戦すればゴッドフィッシャーズからギッパーズを救うことができる。離脱した場合、ギッパーズは勝利する。彼らはプレイヤーに少し不満を持つが、それでもサイバネティック転送モジュールは受け取ってくれる。""
        [56]
         1 string data = """"
        [57]
-        1 string data = ""The Gippers hate you. Battle happens but if you engage both sides will fight you. Leaving results in gippers winning.""
+        1 string data = ""ギッパーズはプレイヤーを嫌っている。戦闘が発生するが、参戦すると両陣営がプレイヤーと戦う。離脱するとギッパーズが勝利する。""
        [58]
-        1 string data = ""All Godfishers were wiped out, but a new set shows up, so you still have the setpiece battle""
+        1 string data = ""ゴッドフィッシャーズは全滅したが、新しい集団が出現するため、セットピース戦闘は発生する。""
        [59]
-        1 string data = ""Increasing number of Godfisher camps destroyed.""
+        1 string data = ""破壊されたゴッドフィッシャーのキャンプ数が増加。""
        [60]
-        1 string data = ""Some Godfishers are still around.""
+        1 string data = ""ゴッドフィッシャーズの一部がまだ存在。""
        [61]
-        1 string data = ""Gippers were Sabotaged. When you get back, EVERYONE IS DEAD. OH NO! Or maybe that's what you wanted. We're done here.""
+        1 string data = ""ギッパーズは妨害された。戻ると全員死亡。なんてこった！もしくは、それがプレイヤーの望みだったのかもしれない。ここで終わり。""
        [62]
-        1 string data = ""Engage in combat and destroy them.""
+        1 string data = ""戦闘に参加して破壊する。""
        [63]
-        1 string data = ""Wiped them all out. This should actually end the quest.""
+        1 string data = ""全滅させた。これで実際にクエストが終了するはず。""
        [64]
-        1 string data = ""Kill <i>some</i> Gippers?""
+        1 string data = ""ギッパーズを<i>一部</i>殺す?""
        [65]
-        1 string data = ""Kill <i>all</i> Gippers?""
+        1 string data = ""ギッパーズを<i>全員</i>殺す?""
        [66]
         1 string data = "Script Node 67"
        [67]
@@ -198571,15 +198571,15 @@
        [68]
         1 string data = "Script Node 69"
        [69]
-        1 string data = ""And all the Gippers are dead! The quest is over, but the Godfishers still showed up.The Godfishers are annoyed you killed all their god-bait.""
+        1 string data = ""ギッパーズが全員死亡！クエストは終了したが、ゴッドフィッシャーズは現れた。ゴッドフィッシャーズは、プレイヤーが神の餌を全て殺したことに不満を持っている。""
        [70]
-        1 string data = ""Some Gippers are alive but they hate you.""
+        1 string data = ""ギッパーズの一部が生存しているが、プレイヤーを嫌っている。""
        [71]
-        1 string data = ""I'm a radio call. Sounds like you just killed a Godfisher Group!"\nCamps destroyed = [Global: b1001_Mission_GvG_GroupsDefeated] of 3\n\n\nSabotage progress = [Global: b1001_Mission_GvG_SabotageState] of 3"
+        1 string data = ""無線通信だ。ゴッドフィッシャーの集団を倒したようだな！"\n破壊されたキャンプ = [Global: b1001_Mission_GvG_GroupsDefeated] / 3\n\n\n妨害進捗 = [Global: b1001_Mission_GvG_SabotageState] / 3"
        [72]
-        1 string data = ""Another group."\nCamps destroyed = [Global: b1001_Mission_GvG_GroupsDefeated] of 3\n\n\nSabotage progress = [Global: b1001_Mission_GvG_SabotageState] of 3"
+        1 string data = ""別の集団だ。"\n破壊されたキャンプ = [Global: b1001_Mission_GvG_GroupsDefeated] / 3\n\n\n妨害進捗 = [Global: b1001_Mission_GvG_SabotageState] / 3"
        [73]
-        1 string data = ""Okay, that's all of them! We have intelligence about another band lurking around somewhere... Keep an eye out!"\nCamps destroyed = [Global: b1001_Mission_GvG_GroupsDefeated] of 3\n\n\nSabotage progress = [Global: b1001_Mission_GvG_SabotageState] of 3"
+        1 string data = ""よし、全部だ！別の集団がどこかに潜んでいるという情報がある...注意しろ！"\n破壊されたキャンプ = [Global: b1001_Mission_GvG_GroupsDefeated] / 3\n\n\n妨害進捗 = [Global: b1001_Mission_GvG_SabotageState] / 3"
        [74]
         1 string data = "Script Node 75"
        [75]
@@ -198593,71 +198593,71 @@
        [79]
         1 string data = "Script Node 80"
        [80]
-        1 string data = ""You're about to exit to the world map. Continue?""
+        1 string data = ""ワールドマップに移動しようとしている。続けるか?""
        [81]
-        1 string data = ""You're about to leave for the airport. Proceed?""
+        1 string data = ""空港に向かおうとしている。続行するか?""
        [82]
-        1 string data = ""You're re-entered from either the World Map or the Airport.\n\n\nWhat has spawned (and died) will depend on whether you sabotaged the Gippers.\n""
+        1 string data = ""ワールドマップまたは空港から再入場した。\n\n\n出現した（そして死亡した）ものは、ギッパーズを妨害したかどうかに依存する。\n""
        [83]
-        1 string data = ""You're re-entered from the Airport.""
+        1 string data = ""空港から再入場した。""
        [84]
-        1 string data = ""This is Nancy Reliance. Someone has destroyed the Reagan statue!"  TEMP"
+        1 string data = ""こちらナンシー・リライアンス。誰かがレーガン像を破壊した！" TEMP"
        [85]
-        1 string data = ""Oh woe!""
+        1 string data = ""ああ、悲しい！""
        [86]
-        1 string data = ""Transitioning to World Map on Exit""
+        1 string data = ""退出時にワールドマップへ遷移""
        [87]
-        1 string data = ""Transitioning to Airport on node exit.""
+        1 string data = ""ノード終了時に空港へ遷移。""
        [88]
         1 string data = "Script Node 89"
        [89]
-        1 string data = ""I'm Mist That Burns, a Godfisher.""
+        1 string data = ""私はミスト・ザット・バーンズ、ゴッドフィッシャーだ。""
        [90]
-        1 string data = ""I'm a robot who is not a communist!""
+        1 string data = ""私は共産主義者ではないロボットだ！""
        [91]
-        1 string data = ""Last text!""
+        1 string data = ""最後のテキスト！""
        [92]
-        1 string data = ""Nancy Glory... Does not speak in 3rd person!""
+        1 string data = ""ナンシー・グローリー...三人称では話さない！""
        [93]
-        1 string data = ""I'm the Reagan Console!""
+        1 string data = ""私はレーガン・コンソールだ！""
        [94]
-        1 string data = ""I'm the Reagan statue!""
+        1 string data = ""私はレーガン像だ！""
        [95]
         1 string data = "Script Node 96"
        [96]
-        1 string data = ""TEMP: Hello Rangers! We're Godfishers (or their patron) with a proposal for you. We sound more unhinged than this.""
+        1 string data = ""TEMP: こんにちは、レンジャーズ！私たちはゴッドフィッシャーズ（またはそのパトロン）で、提案がある。実際にはもっと狂気じみて聞こえるはずだが。""
        [97]
-        1 string data = ""The exact offer is this:"\n"They'll kill Valor for you. If you are pro-Angie (and thus were going to have to go through the Gippers to do that), this is an easy way to do it."\n\n\n"You get all this without the effort of fighting the Godfishers, the Gippers, or the Machine Commune robots (who the Gippers said are super dangerous), and you don't need to debase yourself by playing 'fetch' for the Gippers.""
+        1 string data = ""正確な提案内容はこうだ:"\n"彼らはヴァラーを殺してくれる。もしプレイヤーがアンジー派（つまりギッパーズを通過する必要があった）なら、これは簡単な方法だ。"\n\n\n"ゴッドフィッシャーズ、ギッパーズ、マシーン・コミューンのロボット（ギッパーズが超危険だと言った）と戦う努力なしに全てが手に入る。ギッパーズのために「お使い」をして自分を貶める必要もない。""
        [98]
-        1 string data = ""Sure thing. Keep those local Godfisher factions peaceful for us. This will be phrased as 'make them peaceful.'""
+        1 string data = ""分かった。地元のゴッドフィッシャー派閥を平和的に保ってくれ。これは「平和にする」と表現される。""
        [99]
-        1 string data = ""Seriously?""
+        1 string data = ""本気か?""
        [100]
-        1 string data = ""We'll leave Godfisher groups as peaceful for now. This only applies to groups in this area, and if you attack us, deal's off. (But sabotage will still kill Gippers).""
+        1 string data = ""当面、ゴッドフィッシャーの集団を平和的にしておく。これはこのエリアの集団にのみ適用され、攻撃されたら取引は無効だ。（ただし妨害行為は引き続きギッパーズを殺す）。""
        [101]
-        1 string data = ""Laaaaame. We'll still be hostile then.""
+        1 string data = ""つまらない。それなら敵対的なままだ。""
        [102]
-        1 string data = ""Absolutely not. Gippers 4 Lyfe.""
+        1 string data = ""絶対にお断りだ。ギッパーズ万歳。""
        [103]
         1 string data = "Script Node 104"
        [104]
-        1 string data = ""Cutscene!""""
+        1 string data = ""カットシーン！""""
        [105]
-        1 string data = ""Set Godfisher Ruins01 faction to neutral.""
+        1 string data = ""ゴッドフィッシャー Ruins01派閥を中立に設定。""
        [106]
-        1 string data = ""Set Godfisher Ruins01 faction to hate.""
+        1 string data = ""ゴッドフィッシャー Ruins01派閥を敵対に設定。""
        [107]
-        1 string data = ""Note that GvG_FactionManagement may set this somewhere else.""
+        1 string data = ""GvG_FactionManagementが別の場所でこれを設定する可能性がある。""
        [108]
-        1 string data = ""Ruins01 hates party.""
+        1 string data = ""Ruins01はパーティを嫌っている。""
        [109]
-        1 string data = ""Ruins01 does NOT hate party.""
+        1 string data = ""Ruins01はパーティを嫌っていない。""
        [110]
-        1 string data = ""Check Godfisher Status""
+        1 string data = ""ゴッドフィッシャーの状態を確認""
        [111]
-        1 string data = ""Ruins 02 hates party.""
+        1 string data = ""Ruins 02はパーティを嫌っている。""
        [112]
-        1 string data = ""Ruins 02 does not hate party.""
+        1 string data = ""Ruins 02はパーティを嫌っていない。""
        [113]
         1 string data = "Script Node 114"
        [114]
@@ -198665,29 +198665,29 @@
        [115]
         1 string data = "Script Node 117"
        [116]
-        1 string data = ""Oh no!""
+        1 string data = ""なんてこった！""
        [117]
-        1 string data = ""Ronnie's consciousness is safe and sound inside The Western White House, but our defenses are severely compromised. All Gippers, to arms! Defend our God-President from any and all invaders."  TEMP"
+        1 string data = ""ロニーの意識はウェスタン・ホワイトハウス内で安全だが、我々の防衛は深刻に損なわれた。全ギッパーズよ、武器を取れ！神なる大統領をあらゆる侵略者から守れ。" TEMP"
        [118]
-        1 string data = ""Ronnie!""
+        1 string data = ""ロニー！""
        [119]
-        1 string data = ""Oh no! Radio call, the Godfishers are attacking us! Can you come back and help?" TEMP "
+        1 string data = ""なんてこった！無線通信だ、ゴッドフィッシャーズが我々を攻撃している！戻って助けてくれないか?" TEMP "
        [120]
-        1 string data = ""Oh no! Radio call, the Godfishers are attacking us! Can you come back and help?" TEMP "
+        1 string data = ""なんてこった！無線通信だ、ゴッドフィッシャーズが我々を攻撃している！戻って助けてくれないか?" TEMP "
        [121]
-        1 string data = ""Nope, abandon them. Will transition to World Map.""
+        1 string data = ""いや、見捨てる。ワールドマップに遷移する。""
        [122]
-        1 string data = ""Return to help. (Will need to start combat with group unless we let this radio call get called multiple times).""
+        1 string data = ""戻って助ける。（この無線通信を複数回呼び出せるようにしない限り、集団との戦闘を開始する必要がある）。""
        [123]
-        1 string data = ""Nope, abandon them. Will transition to Machine Commune.""
+        1 string data = ""いや、見捨てる。マシーン・コミューンに遷移する。""
        [124]
-        1 string data = " Debugging this odd issue with our Global Variable: b1001_Mission_GvG_SabotageRequested == [Global: b1001_Mission_GvG_SabotageRequested]"
+        1 string data = " グローバル変数の奇妙な問題をデバッグ中: b1001_Mission_GvG_SabotageRequested == [Global: b1001_Mission_GvG_SabotageRequested]"
        [125]
-        1 string data = ""Get 'Hunt Godfishers' Mission.'"
+        1 string data = ""「ゴッドフィッシャー狩り」ミッションを取得。""
        [126]
         1 string data = ""
        [127]
-        1 string data = ""Everything after this requires conversation debug toggled on. Toggling it on now.""
+        1 string data = ""これ以降は全て会話デバッグがオンになっている必要がある。今オンにする。""
    [676]
     0 StringTable data
      1 string Filename = "b1001_driverbarks"
@@ -198751,21 +198751,21 @@
        [2]
         1 string data = "Script Node 3"
        [3]
-        1 string data = ""Whoa! That's one serious gate. No way Baby's smashing through that. You'll need to open it up.""
+        1 string data = ""おっと！とんでもないゲートだ。ベイビーじゃあれを突破できない。開ける必要があるな。""
        [4]
-        1 string data = ""Hold up! That gate's reinforced. You'll need to open it before we can go through.""
+        1 string data = ""待て！あのゲートは補強されている。通過する前に開けないとな。""
        [5]
-        1 string data = ""The gate ahead is too strong to break through. It must be powered and opened.""
+        1 string data = ""前方のゲートは頑丈すぎて突破できない。電源を入れて開けなければならない。""
        [6]
-        1 string data = ""We can't drive through that. You'll need to open it up""
+        1 string data = ""あれは突破できない。開ける必要がある。""
        [7]
-        1 string data = ""Whoa! Mother Nancy wasn't kidding when said she was fighting an army. Look at all these nutjobs!""
+        1 string data = ""おっと！マザー・ナンシーが軍隊と戦ってると言ったのは冗談じゃなかったな。こんなに狂人どもがいるぞ！""
        [8]
-        1 string data = ""Look at these sickos. They're tearin' people to pieces! And what's tied to those kites - are those <i>people?</i>""
+        1 string data = ""この異常者どもを見ろ。人を引き裂いてやがる！それに凧に縛られてるのは...あれって<i>人間か?</i>""
        [9]
-        1 string data = ""Bloodthirsty hooligans. This is who I was <i>made</i> to fight.""
+        1 string data = ""血に飢えたならず者どもだ。これが私が戦う<i>ために作られた</i>相手だ。""
        [10]
-        1 string data = ""Looks like we got here just in time.""
+        1 string data = ""ちょうど良いタイミングで到着したようだ。""
    [677]
     0 StringTable data
      1 string Filename = "b1001_fishlips"
