@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 22909,
-      "entries_completed": 2124,
+      "current_line": 24767,
+      "entries_completed": 2323,
       "status": "in_progress",
-      "note": "Lines 22277-22908: Translated 313 entries (a1001_banterbarks_messhall section completed). Continue from 22909 (a1001_banterbarks_museum section)."
+      "note": "Lines 22277-24766: Translated 512 entries total (messhall: 313 entries, museum: 199 entries 0-198). Continue from line 24767 (museum entry 199 onwards)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -39,7 +39,7 @@
     }
   },
   "last_commit_hash": "pending",
-  "total_entries_completed": 2124,
+  "total_entries_completed": 2323,
   "estimated_total_entries": 71992,
   "next_action": "Continue retranslation from line 22909 (a1001_banterbarks_museum section)",
   "memory_settings": {
