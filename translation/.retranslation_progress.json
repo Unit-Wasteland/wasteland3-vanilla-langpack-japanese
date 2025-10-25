@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 201985,
-      "entries_completed": 27894,
+      "current_line": 203064,
+      "entries_completed": 28068,
       "status": "in_progress",
-      "note": "Lines 198768-201985: Translated 500 entries. Sections: (1) b1001_fishlips (188) - Hard-Head gang dialogue; (2) b1001_gipperbarks (9) - Gipper barks; (3) b1001_hardheadscavengers (79) - Scavenger banter; (4) b1001_jola (73) - Jola panther telepathy; (5) b1001_lospayasos (70) - Payasos clown gang negotiations; (6) b1001_mobilegiftshop (35) - Machine Commune gift shop robot; (7) b1001_morningstarandgippers (46) - Morningstar AI observations about Gippers, Reagan worship theology, stealth mode activation. All structure protection maintained (\"\" format, <i> tags, \\n\\r\\n preserved, Script Node NOT translated). Continue from line 201985 onwards (b1001_morningstarconsole section)."
+      "note": "Lines 201985-203064: Translated 174 entries. Sections: (1) b1001_morningstarconsole (39) - Morningstar AI backup station console interface; (2) b1001_morningstarradio (103) - Radio communications with Morningstar AI; (3) b1001_psychickittens (32) - Debug/cut content psychic kitten encounters. All structure protection maintained (\"\" format, <i> tags, \\n\\r\\n preserved, Script Node NOT translated, ::action:: markers kept). Continue from line 203064 (b1001_sisternancyvigilance section - 140 entries)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -38,10 +38,10 @@
       "status": "pending"
     }
   },
-  "last_commit_hash": "03236c0",
-  "total_entries_completed": 27894,
+  "last_commit_hash": "570fcce",
+  "total_entries_completed": 28068,
   "estimated_total_entries": 71992,
-  "next_action": "Continue retranslation from line 201985 onwards (b1001_morningstarconsole section - 39 entries, then continue to reach next 500 entry session target)",
+  "next_action": "Continue retranslation from line 203064 onwards (b1001_sisternancyvigilance section - 140 entries, target 500 entry session completion)",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
