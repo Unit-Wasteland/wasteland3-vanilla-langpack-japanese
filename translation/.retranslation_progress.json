@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 150613,
-      "entries_completed": 19940,
+      "current_line": 152881,
+      "entries_completed": 20210,
       "status": "in_progress",
-      "note": "Lines 148762-150612: Translated 437 entries (a2101_charleyknowes_nightclub-158, a2101_charleyknowes_radio-7, a2101_charleyscronies-19, a2101_combatbarks_bartender-52, a2101_combatbarks_bigred-15, a2101_combatbarks_boulder-15, a2101_combatbarks_excessiveforce-15, a2101_combatbarks_faranbrygo-56). Structure protection maintained. Continue from line 150613 onwards (a2101_combatbarks_gstringtheory)."
+      "note": "Lines 150613-152880: Translated 270 entries (a2101_combatbarks_gstringtheory-15, a2101_combatbarks_local168s-15, a2101_combatbarks_nightclubenforcer-56, a2101_combatbarks_nightclubgoon-61, a2101_combatbarks_pvtparts-15, a2101_combatbarks_quickdraw-15, a2101_companionbarks-11, a2101_computerheating-11, a2101_daisy_radio-4, a2101_dancer_brygo-2, a2101_dancer_hall-3, a2101_dancer_privateparty-5, a2101_dealer_blackjack-57). Structure protection maintained. Continue from line 152881 onwards (a2101_dealer_roulette)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -38,10 +38,10 @@
       "status": "pending"
     }
   },
-  "last_commit_hash": "cc65d58",
-  "total_entries_completed": 19940,
+  "last_commit_hash": "pending",
+  "total_entries_completed": 20210,
   "estimated_total_entries": 71992,
-  "next_action": "Continue retranslation from line 150613 onwards (a2101_combatbarks_gstringtheory)",
+  "next_action": "Continue retranslation from line 152881 onwards (a2101_dealer_roulette)",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
