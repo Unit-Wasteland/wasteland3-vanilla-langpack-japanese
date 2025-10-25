@@ -35,12 +35,14 @@ This project features a **fully automated retranslation system** with strict str
   - Unlock utility: `./automation/auto-retranslate.sh --unlock` or `./automation/unlock-retranslation.sh`
 - **Progress Persistence**: `translation/.retranslation_progress.json` automatically tracks progress
 - **Direct Translation**: Main Claude Code session performs work (no subagent overhead)
-- **Memory Management**: Comprehensive memory handling optimized for 6GB RAM Ubuntu server
+- **Memory Management**: Comprehensive memory handling optimized for 6GB RAM Ubuntu server (IMPROVED 2025-10-25)
   - Node.js heap size: 2.5GB (optimal for 6GB physical RAM)
-  - Session memory monitoring (1.5GB warning, 2GB mandatory restart)
+  - Session memory monitoring: 15s intervals (was 30s - faster spike detection)
+  - **Preemptive termination at 1.5GB** (was: warning only - now terminates immediately)
+  - Hard limit: 2GB (should never reach with preemptive termination)
   - Leaves ~4GB for OS and other processes
   - Automatic session restart when thresholds reached
-- **CLI Crash Resilience**: Enhanced error detection and recovery (updated 2025-10-23)
+- **CLI Crash Resilience**: Enhanced error detection and recovery (updated 2025-10-25)
   - Detects JSON.stringify RangeError errors in session logs
   - Detects heap out of memory errors
   - Detects uncommitted work after CLI crashes
@@ -48,9 +50,9 @@ This project features a **fully automated retranslation system** with strict str
   - Uses `set +e` around wait command to prevent premature script termination
   - Automatically continues to next session after recovery
   - Session timeout: 30 minutes (prevents CLI memory accumulation)
-  - Session limit: 15 entries maximum (prevents JSON.stringify RangeError & memory buildup)
-  - Chunk size: 20 lines (reduced from 30 for memory safety)
-  - Commit frequency: 10 entries (increased for more frequent memory release)
+  - **Session limit: 5 entries maximum** (was 15 - aggressive prevention of JSON.stringify RangeError & memory buildup)
+  - Chunk size: 20 lines (strict limit for memory safety)
+  - **Commit frequency: 5 entries** (was 10 - very frequent memory release)
 - **Structure Protection**: Strict validation of `""`, `[]`, `<>`, `::action::` markers after every edit
 - **Automatic Backup**: Automatic git push after each successful session (data loss prevention)
   - Pushes to remote only when progress is made
@@ -259,34 +261,34 @@ wc -l translation/target/v1.6.9.420.309496/ja_JP/*.txt
 3. **Memory management**: Strict chunking and commit strategies prevent memory issues
 4. **Simplified workflow**: No coordination overhead between main session and subagent
 
-**Key principles for retranslation:**
-- **Strict memory management**: Process in 20 line chunks (NEVER exceed 20 lines), commit every 10 entries
-- **Session limit**: 15 entries maximum per session (prevents JSON.stringify RangeError & memory buildup)
+**Key principles for retranslation (UPDATED 2025-10-25):**
+- **Strict memory management**: Process in 20 line chunks (NEVER exceed 20 lines), commit every 5 entries
+- **Session limit**: 5 entries maximum per session (aggressive prevention of JSON.stringify RangeError & memory buildup)
 - **Structure protection**: Validate `""`, `[]`, `<>`, `::action::` markers after EVERY edit
 - **Sequential processing**: Never batch operations that can be done sequentially
-- **Frequent commits**: Regular commits reduce memory pressure and enable recovery
+- **Very frequent commits**: Commit every 5 entries to aggressively reduce memory pressure
 - **Session restarts**: Automated scripts handle session restarts when memory threshold reached
-- **Memory threshold**: 1.5GB warning, 2GB mandatory restart (prevent exceeding heap limit)
+- **Memory threshold**: 1.5GB preemptive termination (was: warning only), 2GB hard limit (monitored every 15s)
 
-**Standard retranslation workflow:**
+**Standard retranslation workflow (UPDATED 2025-10-25):**
 1. Read progress from `translation/.retranslation_progress.json`
 2. Read 20-line chunks from both backup_broken (Japanese source) and target (English base)
 3. Extract Japanese text from backup_broken, apply to target with structure protection
 4. For untranslated entries: translate English→Japanese using `nouns_glossary.json`
 5. Validate structure after each edit (line count, markers, no Chinese characters)
-6. Commit every 10 entries with progress update
-7. **End session after 15 entries** (prevents CLI memory accumulation & RangeError)
+6. **Commit every 5 entries** with progress update (very frequent memory release)
+7. **End session after 5 entries** (aggressive prevention of CLI memory accumulation & RangeError)
 8. Continue until all files completed (across multiple sessions)
 
-**For manual sessions:**
+**For manual sessions (UPDATED 2025-10-25):**
 When user requests work manually (not via automation script):
 - **Chunk size**: 20 lines (NEVER exceed 20 lines per Read/Edit)
-- **Session limit**: 15 entries maximum (must end session after 15 entries)
+- **Session limit**: 5 entries maximum (must end session after 5 entries)
 - **Structure validation**: MANDATORY after each edit
-- **Commit frequency**: 10 entries (more frequent memory release)
+- **Commit frequency**: 5 entries (very frequent memory release)
 - Reference glossary for all proper nouns (translation only)
 - Update progress file after each commit
-- Monitor memory usage and restart session if approaching 1.5GB (warning) or 2GB (mandatory)
+- Monitor memory usage - session will auto-terminate at 1.5GB (preemptive), hard limit 2GB
 
 **For automated retranslation:**
 The `automation/auto-retranslate.sh` script handles:
@@ -355,13 +357,13 @@ When processing large translation files (530K+ lines), Node.js can run out of me
    ps aux | grep claude | awk '{print $6/1024 " MB"}'
    ```
 
-2. **Session restart threshold** (Optimized for 6GB RAM Ubuntu server):
-   - **2GB**: Warning level - reduce chunk size, commit more frequently
-   - **2.5GB**: Mandatory restart - session must be restarted immediately
+2. **Session restart threshold** (Optimized for 6GB RAM Ubuntu server - UPDATED 2025-10-25):
+   - **1.5GB**: Preemptive termination - session auto-terminates immediately (was: warning only)
+   - **2GB**: Hard limit - should never reach this with preemptive termination
+   - **15s monitoring interval**: Check memory every 15 seconds (was: 30s - faster spike detection)
    - Node.js heap limit: 2.5GB (leaves ~3.5GB for OS and other processes)
    - Current progress is automatically saved to `translation/.retranslation_progress.json`
-   - Exit current Claude Code session
-   - Start new Claude Code session
+   - Automation script automatically starts new session after termination
    - Resume with retranslation command
 
 3. **Progress state file**: `translation/.retranslation_progress.json`
@@ -390,11 +392,11 @@ When processing large translation files (530K+ lines), Node.js can run out of me
 
 **ALWAYS follow these practices:**
 
-1. **Chunk Processing (MANDATORY) - Optimized for 6GB RAM**
+1. **Chunk Processing (MANDATORY) - Optimized for 6GB RAM (UPDATED 2025-10-25)**
    - **CRITICAL**: Process files in SMALL chunks (20 lines at a time, NEVER exceed 20 lines)
    - **Standard chunk size**: 20 lines (conservative for 6GB RAM server and CLI memory limits)
    - **Maximum chunk size**: 20 lines (strict limit for memory safety and JSON.stringify error prevention)
-   - **Session entry limit**: 15 entries maximum per session (prevents CLI memory accumulation)
+   - **Session entry limit**: 5 entries maximum per session (was 15 - aggressive CLI memory accumulation prevention)
    - Complete one chunk, then clear variables before moving to next chunk
    - NEVER load entire 530K line files into memory at once
    - Use Read tool with `offset` and `limit` parameters
@@ -434,20 +436,20 @@ When processing large translation files (530K+ lines), Node.js can run out of me
    - Use 20-line chunks (strict limit for 6GB server and CLI memory)
    - Process one mission section at a time
 
-3. **Monitor memory during retry (6GB RAM)**
-   - Keep track of memory usage percentage
-   - If approaching 1.5GB (warning level), commit current work and restart
+3. **Monitor memory during retry (6GB RAM - UPDATED 2025-10-25)**
+   - Automated monitoring every 15 seconds (was: 30s)
+   - Session auto-terminates at 1.5GB (preemptive termination)
 
-4. **Save frequently (6GB RAM - More Frequent)**
-   - **CRITICAL**: Commit work every 10 entries (or after each section completion, whichever comes first)
-   - More frequent commits for lower memory environment
+4. **Save frequently (6GB RAM - Very Frequent - UPDATED 2025-10-25)**
+   - **CRITICAL**: Commit work every 5 entries (was: 10 - very frequent memory release)
+   - Very frequent commits for aggressive memory management
    - Don't wait until entire file is complete
-   - Use descriptive commit messages noting progress (e.g., "Retranslation: base_game line 666-1165 (10 entries)")
+   - Use descriptive commit messages noting progress (e.g., "Retranslation: base_game line 666-1165 (5 entries)")
    - After each commit, memory pressure is reduced for next chunk
    - Update progress file after each commit
-   - **End session after 15 entries** (prevents JSON.stringify RangeError & memory buildup)
+   - **End session after 5 entries** (was: 15 - aggressive prevention of JSON.stringify RangeError & memory buildup)
 
-### 4. Translation Task Execution Rules (6GB RAM Optimized)
+### 4. Translation Task Execution Rules (6GB RAM Optimized - UPDATED 2025-10-25)
 
 **When performing any work in main session (translation or format fix):**
 
@@ -456,27 +458,31 @@ When processing large translation files (530K+ lines), Node.js can run out of me
 3. **Maximum chunk size**: 20 lines per Read/Edit operation (NEVER exceed 20 lines)
    - **Standard**: 20 lines (required for 6GB RAM server and CLI memory limits)
    - **Maximum**: 20 lines (strict limit, no exceptions)
-4. **Session entry limit**: 15 entries maximum per session (prevents JSON.stringify RangeError & memory buildup)
-5. **Checkpoint frequency**: Commit every 10 entries or after each section completion (whichever comes first)
-6. **Memory check frequency**: Monitor after every 1-2 chunks (every ~20-40 lines)
+4. **Session entry limit**: 5 entries maximum per session (was: 15 - aggressive prevention of JSON.stringify RangeError & memory buildup)
+5. **Checkpoint frequency**: Commit every 5 entries (was: 10 - very frequent memory release)
+6. **Memory check frequency**: Automated every 15 seconds (was: 30s - faster spike detection)
 7. **Sequential processing**: Process one chunk at a time, never batch multiple chunks together
 8. **Commit immediately**: After completing a checkpoint, commit before continuing
 9. **Update progress file**: After each commit, update the appropriate progress file
-10. **End session**: After 15 entries processed, end the session immediately
+10. **End session**: After 5 entries processed, end the session immediately (was: 15)
 
-### 5. Signs of Memory Pressure (6GB RAM Server)
+### 5. Signs of Memory Pressure (6GB RAM Server - UPDATED 2025-10-25)
 
-**STOP and clear memory if you observe:**
+**Automated termination at 1.5GB (preemptive):**
+- Session auto-terminates when memory reaches 1.5GB
+- No manual intervention needed
+- Automation script restarts session automatically
+
+**Manual indicators (if running manual session):**
 - Claude Code responses becoming slower
 - Increased latency in tool execution
 - Any garbage collection warnings in output
-- Memory usage exceeding 1.5GB (warning level for 6GB system)
 
-**Recovery action:**
-- Commit current work immediately
-- Clear all variables
-- Restart translation from next checkpoint
-- Reduce chunk size for remaining work
+**Recovery action (automated):**
+- Session terminates automatically at 1.5GB threshold
+- Work is committed every 5 entries (very frequent)
+- Progress saved to .retranslation_progress.json
+- Automation script restarts new session after 60s cooldown (or 180s if errors detected)
 
 ## Quality Checks
 

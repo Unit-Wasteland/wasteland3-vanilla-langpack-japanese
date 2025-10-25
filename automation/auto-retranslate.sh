@@ -22,16 +22,17 @@
 # - Broken translations in translation/backup_broken/
 # - Progress file: translation/.retranslation_progress.json
 #
-# Memory Management:
-# - 1.5GB: Warning threshold (early detection)
-# - 2GB: Mandatory session restart (prevent exceeding heap limit)
+# Memory Management (IMPROVED):
+# - 1.5GB: Preemptive termination threshold (was: warning only)
+# - 2GB: Hard limit (should never reach this with preemptive termination)
+# - 15s monitoring interval (was: 30s - faster spike detection)
 # - Progress persisted in .retranslation_progress.json
 # - Session timeout: 30 minutes (prevent CLI memory accumulation)
 #
 # Safety Features:
 # - 20-line chunk processing (never exceed 20 lines)
-# - 10-entry commit frequency (more frequent memory release)
-# - 15-entry session limit (prevent JSON.stringify RangeError & memory buildup)
+# - 5-entry commit frequency (very frequent memory release)
+# - 5-entry session limit (aggressive CLI memory accumulation prevention)
 # - Structure validation after each edit
 # - 3 consecutive zero-progress sessions → abort
 # - Automatic git push after each successful session (minimize data loss risk)
@@ -166,9 +167,9 @@ translation/.retranslation_progress.json を読み込んで、translation/RETRAN
 
 **重要な処理パラメータ（STRICTLY ENFORCE）:**
 - read_chunk_size: 20行（ABSOLUTELY NEVER exceed 20 lines per Read operation）
-- batch_size: 10エントリ（1つずつ処理、バッチ処理禁止）
-- commit_frequency: 10エントリごと（より頻繁にコミット）
-- **session_max_entries: 15エントリ** - このセッションで最大15エントリ処理したら必ず終了
+- batch_size: 5エントリ（1つずつ処理、バッチ処理禁止）
+- commit_frequency: 5エントリごと（非常に頻繁にコミット）
+- **session_max_entries: 5エントリ** - このセッションで最大5エントリ処理したら必ず終了
 - メモリ安全モード: **最優先**（物理メモリ6GB制約）
 
 **CRITICAL メモリ管理規則（6GB RAM サーバー）:**
@@ -176,8 +177,8 @@ translation/.retranslation_progress.json を読み込んで、translation/RETRAN
 - ⚠️ 530K行ファイルの全体読み込みは絶対禁止
 - ⚠️ Read tool は必ず offset + limit を指定（**最大20行**）
 - ⚠️ 大きな変数の保持を避ける（処理後すぐ解放）
-- ⚠️ **10エントリごとに必ずコミット**（メモリリセット）
-- ⚠️ **15エントリ処理したら必ずセッション終了**（CLIメモリ制限）
+- ⚠️ **5エントリごとに必ずコミット**（非常に頻繁なメモリリセット）
+- ⚠️ **5エントリ処理したら必ずセッション終了**（積極的なCLIメモリ制限）
 - ⚠️ 一度に複数ファイルを開かない（1ファイルずつ）
 
 **構造保護（CRITICAL）:**
@@ -185,24 +186,25 @@ translation/.retranslation_progress.json を読み込んで、translation/RETRAN
 - Script Node は翻訳禁止
 - 行数は絶対に変更禁止
 
-**処理戦略（Sequential Only - 低メモリ最適化）:**
+**処理戦略（Sequential Only - 極度に低メモリ最適化）:**
 1. backup_brokenから20行チャンクで日本語テキストを抽出
 2. 英語ファイルから対応する20行チャンクを読み込み
 3. テキスト部分のみ安全に置換（1エントリずつ、順次処理）
 4. 未翻訳は英語→日本語に翻訳（nouns_glossary.json参照）
-5. **10エントリごとに必ずコミット**（メモリプレッシャー軽減）
-6. **15エントリ処理後は必ずこのセッションを終了**（CLI crash防止）
+5. **5エントリごとに必ずコミット**（非常に頻繁なメモリプレッシャー軽減）
+6. **5エントリ処理後は必ずこのセッションを終了**（積極的なCLI crash防止）
 
 **検証（MANDATORY）:**
 - 各エディット後に行数一致確認
 - 構造マーカー破損チェック
 - 中国語混入チェック
 
-**目標: 10-15エントリ/セッション（JSON.stringify error & メモリ蓄積防止）**
-より小さいチャンク、より頻繁なコミット、早期セッション終了で安定性を確保してください。
+**目標: 5エントリ/セッション（積極的なJSON.stringify error & メモリ蓄積防止）**
+より小さいチャンク、非常に頻繁なコミット、早期セッション終了で安定性を確保してください。
 
-**⚠️ CRITICAL: このセッションで15エントリ処理したら必ず終了してください。**
+**⚠️ CRITICAL: このセッションで5エントリ処理したら必ず終了してください。**
 CLI の会話履歴が大きくなりすぎて JSON.stringify RangeError やメモリ制限超過が発生するのを防ぐため。
+セッション制限を15→5に削減し、メモリ蓄積を根本的に抑制します。
 
 作業を開始してください。
 EOF
@@ -283,8 +285,9 @@ run_claude_session() {
     log "Executing Claude Code session..."
 
     # Memory thresholds (in MB) - Optimized for 6GB physical RAM
-    local WARN_MEMORY_MB=1536   # 1.5GB warning (early detection for 6GB system)
-    local MAX_MEMORY_MB=2048    # 2GB mandatory restart (prevent exceeding heap limit)
+    # IMPROVED: Preemptive termination at warning threshold
+    local WARN_MEMORY_MB=1536   # 1.5GB - TERMINATE at this level (preemptive)
+    local MAX_MEMORY_MB=2048    # 2GB - hard limit (should never reach this)
 
     log "DEBUG: Starting timeout command..."
     # Start Claude Code in background with timeout (30 minutes to prevent CLI memory accumulation)
@@ -296,24 +299,24 @@ run_claude_session() {
     log "Claude Code session started (PID: $CLAUDE_PID)"
     log "DEBUG: Session log file: $session_log"
 
-    # Monitor memory usage
-    local MONITOR_INTERVAL=30  # Check every 30 seconds
-    log "DEBUG: Entering memory monitoring loop..."
+    # Monitor memory usage - IMPROVED: More frequent checks (15s intervals)
+    local MONITOR_INTERVAL=15  # Check every 15 seconds (was 30s - detect spikes faster)
+    log "DEBUG: Entering memory monitoring loop (interval: ${MONITOR_INTERVAL}s)..."
     while kill -0 $CLAUDE_PID 2>/dev/null; do
         sleep $MONITOR_INTERVAL
 
         local MEMORY
         MEMORY=$(get_claude_memory)
-        log "Memory usage: ${MEMORY}MB (Warning: ${WARN_MEMORY_MB}MB, Max: ${MAX_MEMORY_MB}MB)"
+        log "Memory usage: ${MEMORY}MB (Warning/Terminate: ${WARN_MEMORY_MB}MB, Hard limit: ${MAX_MEMORY_MB}MB)"
 
-        if [[ $MEMORY -gt $MAX_MEMORY_MB ]]; then
-            log "WARNING: Memory threshold exceeded (${MEMORY}MB > ${MAX_MEMORY_MB}MB), terminating session"
+        # IMPROVED: Preemptive termination at warning threshold
+        if [[ $MEMORY -gt $WARN_MEMORY_MB ]]; then
+            log "WARNING: Memory threshold exceeded (${MEMORY}MB > ${WARN_MEMORY_MB}MB), PREEMPTIVELY terminating session"
+            log "  This prevents memory spikes from exceeding hard limit (${MAX_MEMORY_MB}MB)"
             kill -TERM $CLAUDE_PID 2>/dev/null || true
             sleep 2
             kill -KILL $CLAUDE_PID 2>/dev/null || true
             break
-        elif [[ $MEMORY -gt $WARN_MEMORY_MB ]]; then
-            log "WARNING: Memory approaching limit (${MEMORY}MB > ${WARN_MEMORY_MB}MB)"
         fi
     done
 
