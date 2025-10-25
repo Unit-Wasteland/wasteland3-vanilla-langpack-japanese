@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 32635,
-      "entries_completed": 3682,
+      "current_line": 34327,
+      "entries_completed": 4042,
       "status": "in_progress",
-      "note": "Lines 31500-32635: Translated 187 entries (a1001_conniezheng: 187 entries completed - dialogue with Lieutenant Train Zeng and base reactive comments). Continue from line 32635 (a1001_cordite section)."
+      "note": "Lines 32635-34327: Translated 360 entries (a1001_cordite: 160 entries - Ironclad Cordite dialogue; a1001_crow: 118 entries partial - Crow companion reactive dialogue; completed through entry [59]). Continue from line 34234 (a1001_crow section [71] onwards - synth and airport-related dialogues)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -38,10 +38,10 @@
       "status": "pending"
     }
   },
-  "last_commit_hash": "PENDING",
-  "total_entries_completed": 3682,
+  "last_commit_hash": "aa12f51",
+  "total_entries_completed": 4042,
   "estimated_total_entries": 71992,
-  "next_action": "Continue retranslation from line 32635 (a1001_cordite section)",
+  "next_action": "Continue retranslation from line 34234 (a1001_crow section [71] onwards)",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
