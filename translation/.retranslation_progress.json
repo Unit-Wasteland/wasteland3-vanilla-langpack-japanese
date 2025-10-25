@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 196003,
-      "entries_completed": 26795,
+      "current_line": 198520,
+      "entries_completed": 27145,
       "status": "in_progress",
-      "note": "Lines 193827-196003: Translated 360 entries. Major sections: (1) a5201_cordite (173) - Ironclad Cordite prison rescue dialogue, Patriarch's secret deals with Scar Collectors/Payasos/Godfishers, Liberty's gang manipulation, Cordite's destiny prophecy, gang uprising backstory; (2) a5201_lifesupport (13) - life support machine decision; (3) a5201_mercenaries (32) - mercenary guard conversations about Desert Rangers; (4) a5201_mercenaries_hospitalroom (23) - hospital mercenary encounter with Victory Buchanan; (5) a5201_mercenaries_reinforcements (21) - mercenary reinforcement reactions; (6) a5201_mercenarycaptain (5) - mercenary captain combat barks; (7) a5201_mercenary_hydroponicsroom (74) - hydroponics mercenary dialogue, bribe negotiations, Desert vs Dessert pronunciation confusion; (8) a5201_mrdebug_survivalistbunker (6) - debug quest options. All structure protection maintained (\"\" format, ::action:: markers, Script Node preserved, <i> tags intact, [[Global:]] variables preserved). Continue from line 196003 onwards (01001_hawkbit_obsolete section)."
+      "note": "Lines 196003-198520: Translated 350 entries. Major sections: (1) 01001_hawkbit_obsolete (25) - Jola and Hawkbit panther dialogue, cage rescue choices; (2) b1001_billscorpse (17) - Bill's corpse investigation, keycard discovery, letter to mother; (3) b1001_debugmissioncalltoaction (67) - Morningstar mission debug menu, database unlocking, garage access, various debug shortcuts; (4) b1001_debugmissiondarkclouds (99) - Dark Clouds mission debug (cut content), Gipper oil field rescue, Buck/Blaze save options, Godfisher waves, barricade/turret setup; (5) b1001_debugmissionusefulprey (100) - Useful Prey debug, Jola companion mission options, keycard acquisition, cure destruction choices, Jola's children (Baldur/Freyja/Frigg) status tracking; (6) b1001_debug_gippersvsgodfishers (42/128 partial) - Gippers vs Godfishers faction debug, execution cutscene, Reagan Reborn acquisition, Godfisher hunting/elimination missions, Gipper sabotage options, scene transitions. All structure protection maintained (\"\" format, ::action:: markers, Script Node NOT translated, <i> tags intact, technical terms preserved). Continue from line 198520 onwards (b1001_debug_gippersvsgodfishers section continuation)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -39,9 +39,9 @@
     }
   },
   "last_commit_hash": "3f24930",
-  "total_entries_completed": 26435,
+  "total_entries_completed": 27145,
   "estimated_total_entries": 71992,
-  "next_action": "Continue retranslation from line 193827 onwards (a5201_cordite section)",
+  "next_action": "Continue retranslation from line 198520 onwards (b1001_debug_gippersvsgodfishers section continuation)",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
