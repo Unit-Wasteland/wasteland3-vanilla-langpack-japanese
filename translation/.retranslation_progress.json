@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 211582,
-      "entries_completed": 29427,
+      "current_line": 212207,
+      "entries_completed": 29932,
       "status": "in_progress",
-      "note": "Lines 208984-211581: Translated 441 entries total. Sections: (1) b2001_blaze [62-111] (50 entries) - Blaze oil field completion; (2) b2001_buck (47 entries) - Buck dialogue after rescue; (3) b2001_godfisherbarks (13 entries) - Godfisher combat barks; (4) b2001_godfisherbarks2 (12 entries) - Additional combat barks; (5) b2001_hardheadsbarks (12 entries) - Hard-Heads combat barks; (6) b2001_mistthatburns (17 entries) - Boss encounter; (7) b2001_mitower (288 entries) - Machine Intelligence Tower extensive dialogue system with Reagan transfer plotline. All structure protected (::action::, <i>, Script Node, technical terms). Continue from line 211582 (b2001_psychiclions - need 59 more entries to reach 500-entry session goal)."
+      "note": "Lines 211582-212206: Translated 505 entries total (500-entry session goal achieved). Sections: (1) b2001_psychiclions (39 entries) - Psychic lion combat barks with telepathic threats; (2) b2001_psychictigers (15 entries) - Psychic tiger combat barks with carnivorous threats; (3) b2001_reaganonbattlefield [0-6] (5 entries) - Reagan battle dialogue beginning. All structure protected (Script Node preserved, "" markers intact). Continue from line 212207 (b2001_reaganonbattlefield - 58 more entries remaining in this section)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -39,9 +39,9 @@
     }
   },
   "last_commit_hash": "0993b01",
-  "total_entries_completed": 29427,
+  "total_entries_completed": 29932,
   "estimated_total_entries": 71992,
-  "next_action": "Continue retranslation from line 211582 onwards (b2001_psychiclions - target 500 entry session, completed 441/500, need 59 more entries to reach goal)",
+  "next_action": "Continue retranslation from line 212207 onwards (b2001_reaganonbattlefield - 58 remaining entries, then proceed to next sections)",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
