@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 181200,
-      "entries_completed": 24565,
+      "current_line": 184684,
+      "entries_completed": 25065,
       "status": "in_progress",
-      "note": "Lines 180306-181200: Translated 501 entries (a5001_miriamknox: 90 Miriam Knox dialogue about husband rescue/religious faith/Church of Final Deluge, a5001_palaceguard: 3 palace guard ambient dialogue, a5001_parkpuzzle: 29 park puzzle treasure hunt with ancient love letter/proposal mechanics, a5001_secrethatchtobunker: 19 hidden bunker hatch discovery with Patriarch plaque). Major content: Religious themes (Church of Final Deluge belief system), emotional rescue storyline, environmental puzzle mechanics, hidden location discovery. Structure protection maintained (\"\" format, ::action:: markers preserved, Script Node not translated, <i> tags preserved, single quotes '' preserved). Continue from line 181200 onwards (a5001_slainservitor next)."
+      "note": "Lines 181200-184684: Translated 500 entries (a5001_slainservitor: 60 servitor robot dialogue, a5001_warddrone01: 43 ward drone interactions, a5101_adoptionrecord: 3 Howe adoption records, a5101_antipatriarch computer systems: 30 palace security/power/turret control UI, a5101_companionbarks: 78 companion comments exploring palace rooms/family portraits/Buchanan children's quarters, a5101_debugmissionthezealot: 13 debug mission controls, a5101_door systems: 10 palace door descriptions/vault access, a5101_elitemarshal: 2 marshal guard dialogue started). Major content: Palace endgame area, companion environmental commentary about Buchanan family, computer security systems, vault access mechanics. Structure protection maintained (\"\" format, ::action:: markers preserved, Script Node not translated, <i> tags preserved, TEMP prefix preserved). Continue from line 184684 onwards (a5101_elitemarshal continuation)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -38,10 +38,10 @@
       "status": "pending"
     }
   },
-  "last_commit_hash": "e478d06",
-  "total_entries_completed": 24565,
+  "last_commit_hash": "33ca08f",
+  "total_entries_completed": 25065,
   "estimated_total_entries": 71992,
-  "next_action": "Continue retranslation from line 181200 onwards (a5001_slainservitor next)",
+  "next_action": "Continue retranslation from line 184684 onwards (a5101_elitemarshal continuation)",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
