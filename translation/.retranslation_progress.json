@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 148762,
-      "entries_completed": 19503,
+      "current_line": 150613,
+      "entries_completed": 19940,
       "status": "in_progress",
-      "note": "Lines 146455-148762: Translated 269 entries (a2101_buzzkill_jorge-79, a2101_buzzkill_keg-32, a2101_buzzkill_smokingteen-21, a2101_buzzkill_troy-137). Structure protection maintained. Continue from line 148762 onwards (a2101_charleyknowes_nightclub-158 entries remaining)."
+      "note": "Lines 148762-150612: Translated 437 entries (a2101_charleyknowes_nightclub-158, a2101_charleyknowes_radio-7, a2101_charleyscronies-19, a2101_combatbarks_bartender-52, a2101_combatbarks_bigred-15, a2101_combatbarks_boulder-15, a2101_combatbarks_excessiveforce-15, a2101_combatbarks_faranbrygo-56). Structure protection maintained. Continue from line 150613 onwards (a2101_combatbarks_gstringtheory)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -38,10 +38,10 @@
       "status": "pending"
     }
   },
-  "last_commit_hash": "194cebc",
-  "total_entries_completed": 19503,
+  "last_commit_hash": "cc65d58",
+  "total_entries_completed": 19940,
   "estimated_total_entries": 71992,
-  "next_action": "Continue retranslation from line 148762 onwards (a2101_charleyknowes_nightclub - 158 entries)",
+  "next_action": "Continue retranslation from line 150613 onwards (a2101_combatbarks_gstringtheory)",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
