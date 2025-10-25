@@ -23,15 +23,15 @@
 # - Progress file: translation/.retranslation_progress.json
 #
 # Memory Management:
-# - 2GB: Warning threshold (reduce chunk size)
-# - 2.5GB: Mandatory session restart (Node.js heap limit)
+# - 1.5GB: Warning threshold (early detection)
+# - 2GB: Mandatory session restart (prevent exceeding heap limit)
 # - Progress persisted in .retranslation_progress.json
 # - Session timeout: 30 minutes (prevent CLI memory accumulation)
 #
 # Safety Features:
 # - 20-line chunk processing (never exceed 20 lines)
-# - 20-entry commit frequency (more frequent memory release)
-# - 30-entry session limit (prevent JSON.stringify RangeError)
+# - 10-entry commit frequency (more frequent memory release)
+# - 15-entry session limit (prevent JSON.stringify RangeError & memory buildup)
 # - Structure validation after each edit
 # - 3 consecutive zero-progress sessions → abort
 # - Automatic git push after each successful session (minimize data loss risk)
@@ -166,9 +166,9 @@ translation/.retranslation_progress.json を読み込んで、translation/RETRAN
 
 **重要な処理パラメータ（STRICTLY ENFORCE）:**
 - read_chunk_size: 20行（ABSOLUTELY NEVER exceed 20 lines per Read operation）
-- batch_size: 20エントリ（1つずつ処理、バッチ処理禁止）
-- commit_frequency: 20エントリごと（より頻繁にコミット）
-- **session_max_entries: 30エントリ** - このセッションで最大30エントリ処理したら必ず終了
+- batch_size: 10エントリ（1つずつ処理、バッチ処理禁止）
+- commit_frequency: 10エントリごと（より頻繁にコミット）
+- **session_max_entries: 15エントリ** - このセッションで最大15エントリ処理したら必ず終了
 - メモリ安全モード: **最優先**（物理メモリ6GB制約）
 
 **CRITICAL メモリ管理規則（6GB RAM サーバー）:**
@@ -176,8 +176,8 @@ translation/.retranslation_progress.json を読み込んで、translation/RETRAN
 - ⚠️ 530K行ファイルの全体読み込みは絶対禁止
 - ⚠️ Read tool は必ず offset + limit を指定（**最大20行**）
 - ⚠️ 大きな変数の保持を避ける（処理後すぐ解放）
-- ⚠️ **20エントリごとに必ずコミット**（メモリリセット）
-- ⚠️ **30エントリ処理したら必ずセッション終了**（CLIメモリ制限）
+- ⚠️ **10エントリごとに必ずコミット**（メモリリセット）
+- ⚠️ **15エントリ処理したら必ずセッション終了**（CLIメモリ制限）
 - ⚠️ 一度に複数ファイルを開かない（1ファイルずつ）
 
 **構造保護（CRITICAL）:**
@@ -190,19 +190,19 @@ translation/.retranslation_progress.json を読み込んで、translation/RETRAN
 2. 英語ファイルから対応する20行チャンクを読み込み
 3. テキスト部分のみ安全に置換（1エントリずつ、順次処理）
 4. 未翻訳は英語→日本語に翻訳（nouns_glossary.json参照）
-5. **20エントリごとに必ずコミット**（メモリプレッシャー軽減）
-6. **30エントリ処理後は必ずこのセッションを終了**（CLI crash防止）
+5. **10エントリごとに必ずコミット**（メモリプレッシャー軽減）
+6. **15エントリ処理後は必ずこのセッションを終了**（CLI crash防止）
 
 **検証（MANDATORY）:**
 - 各エディット後に行数一致確認
 - 構造マーカー破損チェック
 - 中国語混入チェック
 
-**目標: 20-30エントリ/セッション（JSON.stringify error防止）**
+**目標: 10-15エントリ/セッション（JSON.stringify error & メモリ蓄積防止）**
 より小さいチャンク、より頻繁なコミット、早期セッション終了で安定性を確保してください。
 
-**⚠️ CRITICAL: このセッションで30エントリ処理したら必ず終了してください。**
-CLI の会話履歴が大きくなりすぎて JSON.stringify RangeError が発生するのを防ぐため。
+**⚠️ CRITICAL: このセッションで15エントリ処理したら必ず終了してください。**
+CLI の会話履歴が大きくなりすぎて JSON.stringify RangeError やメモリ制限超過が発生するのを防ぐため。
 
 作業を開始してください。
 EOF
@@ -283,8 +283,8 @@ run_claude_session() {
     log "Executing Claude Code session..."
 
     # Memory thresholds (in MB) - Optimized for 6GB physical RAM
-    local WARN_MEMORY_MB=2048   # 2GB warning (conservative for 6GB system)
-    local MAX_MEMORY_MB=2560    # 2.5GB mandatory restart (leave headroom for OS)
+    local WARN_MEMORY_MB=1536   # 1.5GB warning (early detection for 6GB system)
+    local MAX_MEMORY_MB=2048    # 2GB mandatory restart (prevent exceeding heap limit)
 
     log "DEBUG: Starting timeout command..."
     # Start Claude Code in background with timeout (30 minutes to prevent CLI memory accumulation)
