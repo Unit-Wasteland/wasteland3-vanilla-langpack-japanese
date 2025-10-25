@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 58278,
-      "entries_completed": 7603,
+      "current_line": 60415,
+      "entries_completed": 7949,
       "status": "in_progress",
-      "note": "Lines 56413-58278: Translated 299 entries (a1001_immaculate: 1 entry; a1001_isaacreedcompanion_inprison: 14 entries - Isaac Reed companion dialogues in prison; a1001_isaacreed_inprison: 133 entries - Isaac Reed main prison dialogues; a1001_isabelleredd: 24 entries - Isabelle Redd bomb trap encounter; a1001_jodiebell: 109 entries - Jodie Bell driver companion dialogues; a1001_jola: 18 entries - Jola companion recruitment barks). Continue from line 58278 (a1001_jorge section next)."
+      "note": "Lines 58278-60415: Translated 346 entries (a1001_jorge: 38 entries - debug dialogues and seed pod scenarios; a1001_junkokawano: 134 entries - museum curator Junko Kawano HQ ambient dialogues covering major story events; a1001_kegteen1: 3 entries - drunken party ambient barks; a1001_kegteen2: 3 entries - more drunken ambient barks; a1001_laloca: 168 entries - la Loca companion dialogues at HQ covering Aspen rescue, Arizona family concerns, refugee situation, and major story events). Continue from line 60415 (a1001_laperla section next)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -38,21 +38,21 @@
       "status": "pending"
     }
   },
-  "last_commit_hash": "13037e5",
-  "total_entries_completed": 7603,
+  "last_commit_hash": "",
+  "total_entries_completed": 7949,
   "estimated_total_entries": 71992,
-  "next_action": "Continue retranslation from line 58278 (a1001_jorge section next)",
+  "next_action": "Continue retranslation from line 60415 (a1001_laperla section next)",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
-    "read_chunk_size": 20,
-    "max_chunk_size": 20,
-    "batch_size": 20,
-    "commit_frequency": 20,
-    "session_limit": 30,
-    "memory_warning_threshold_gb": 2,
-    "memory_limit_threshold_gb": 2.5,
-    "optimization_note": "Settings optimized for 6GB RAM Ubuntu server - reduced after JSON.stringify errors"
+    "read_chunk_size": 150,
+    "max_chunk_size": 200,
+    "batch_size": 150,
+    "commit_frequency": 500,
+    "session_limit": 500,
+    "memory_warning_threshold_gb": 4,
+    "memory_limit_threshold_gb": 5,
+    "optimization_note": "Large chunks (150-200 lines) minimize Read/Edit operations, preventing conversation history explosion. Session completes ~500 entries efficiently."
   },
   "structure_protection": {
     "preserve_markers": ["\"\"", "[ ]", "< >", "' '", "::action::"],
