@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 170953,
-      "entries_completed": 22737,
+      "current_line": 172597,
+      "entries_completed": 22967,
       "status": "in_progress",
-      "note": "Lines 169180-170953: Translated 266 entries (DLC2 scientist interactions & nuclear power quest - a4101_holydetonationcultists03-09: 18 cultist timer barks, a4101_megansilver_energyindependence: 25 Megan Silver dialogues, a4101_scientistguard_underground: 15 guard barks, a4101_theocurie_energyindependence: 208 Theodoric Curie main quest including nuclear detonation stabilization with branching outcomes). Major scenes: Energy independence quest (nuclear power conversion success/failure paths, scientist relationship subplot, Megan Silver recruitment). Structure protection maintained (\"\" format, ::action::, Script Node, all markers preserved). Continue from line 170953 onwards (a5001_ambientconstables)."
+      "note": "Lines 170953-172597: Translated 230 entries (Broadmoor Heights ambient NPCs - a5001_ambientconstables: 24 constable barks, a5001_ambientdrones: 10 drone messages, a5001_ambienthundredfamilies: 95 Hundred Families dialogues about Buchanan family/politics/Rangers, a5001_ambienthundredfamilies_exchange: 54 NPC conversation exchanges, a5001_angeladeth_radio_concludelordsofwar: 47 Angela Deth radio messages about Ironclad Cordite investigation). Major content: Hundred Families reactions to Vic/Val Buchanan events, Aspen hostage crisis gossip, Angela Deth's secret communications about Patriarch investigation. Structure protection maintained (\"\" format, ::action:: like ::sighs::/::sniff::/::cough::, Script Node preservation, control characters \\r\\n\\t preserved). Continue from line 172597 onwards (a5001_bellamyward)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -38,10 +38,10 @@
       "status": "pending"
     }
   },
-  "last_commit_hash": "5528deb",
-  "total_entries_completed": 22737,
+  "last_commit_hash": "5de0053",
+  "total_entries_completed": 22967,
   "estimated_total_entries": 71992,
-  "next_action": "Continue retranslation from line 170953 onwards (a5001_ambientconstables)",
+  "next_action": "Continue retranslation from line 172597 onwards (a5001_bellamyward)",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
