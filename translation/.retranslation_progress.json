@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 24767,
-      "entries_completed": 2323,
+      "current_line": 26473,
+      "entries_completed": 2713,
       "status": "in_progress",
-      "note": "Lines 22277-24766: Translated 512 entries total (messhall: 313 entries, museum: 199 entries 0-198). Continue from line 24767 (museum entry 199 onwards)."
+      "note": "Lines 24767-26472: Translated 390 entries (museum 199-361: 163 entries, partyteen 0-62: 63 entries, radioroom 0-162: 163 entries). Continue from line 26473 (warroom section)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -38,10 +38,10 @@
       "status": "pending"
     }
   },
-  "last_commit_hash": "a70e769",
-  "total_entries_completed": 2323,
+  "last_commit_hash": "0cf1726",
+  "total_entries_completed": 2713,
   "estimated_total_entries": 71992,
-  "next_action": "Continue retranslation from line 22909 (a1001_banterbarks_museum section)",
+  "next_action": "Continue retranslation from line 26473 (a1001_banterbarks_warroom section)",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
