@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 42565,
-      "entries_completed": 5391,
+      "current_line": 43777,
+      "entries_completed": 5617,
       "status": "in_progress",
-      "note": "Lines 39193-42565: Translated 500 entries (a1001_dorseyhostagetakerleader: 168 entries - hostage taker leader dialogues; a1001_endgameproangiebloodlesscoup: 91 entries - bloodless coup endgame scenario; a1001_endgameproangienogangs: 122 entries - no gangs endgame scenario; a1001_endgameproangiewithgangs: 114 entries - with gangs endgame scenario; a1001_endgamepropatriarch: 5 entries [18]-[22] started - pro-Patriarch endgame). Continue from line 42565 (a1001_endgamepropatriarch section continues - 69 entries remaining)."
+      "note": "Lines 42565-43777: Translated 226 entries (a1001_endgamepropatriarch: 51 entries remaining - pro-Patriarch endgame dialogues; a1001_endgame_destroyedbeater: 2 entries - destroyed vehicle; a1001_endgame_destroyedrover: 2 entries - destroyed rover; a1001_fadercompanion: 12 entries - companion base dialogues; a1001_faranbrygo: 139 entries - Faran Brygo prison dialogues; a1001_femaleclone: 20 entries - horror movie quotes). Continue from line 43777 (a1001_fishlips section - 194 entries remaining)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -39,9 +39,9 @@
     }
   },
   "last_commit_hash": "8771b76",
-  "total_entries_completed": 5391,
+  "total_entries_completed": 5617,
   "estimated_total_entries": 71992,
-  "next_action": "Continue retranslation from line 42565 (a1001_endgamepropatriarch section - 69 entries remaining)",
+  "next_action": "Continue retranslation from line 43777 (a1001_fishlips section - 194 entries remaining)",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
