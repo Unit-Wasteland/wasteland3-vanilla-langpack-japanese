@@ -242215,255 +242215,255 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = "Skill check for some rep.\n"We respectfully request an audience with the God-President to negotiate on behalf of the Patriarch.""
+        1 string data = ""評判を得るスキルチェック。\n「パトリアークの代理として、ゴッド・プレジデントとの謁見を謹んで要請します」""
        [2]
-        1 string data = """Paladin response - we're here for Valor."
+        1 string data = ""「パラディン的な反応 - 我々はヴァラーのために来た」"
        [3]
-        1 string data = """Merc response - we're here for Valor."
+        1 string data = ""「傭兵的な反応 - 我々はヴァラーのために来た」"
        [4]
-        1 string data = """Asshole response  - we're here for Valor."
+        1 string data = ""「粗暴な反応 - 我々はヴァラーのために来た」"
        [5]
-        1 string data = "TBD Skill check -"
+        1 string data = ""TBD スキルチェック -""
        [6]
-        1 string data = """Paladin response"
+        1 string data = ""「パラディン的な反応」"
        [7]
-        1 string data = """TEMP Cutscene Opens. SIster Glory challenge the Rangers. Mother Nancy Reliance says that's fine, she knows who these people are.\n\n\nFame reactivity."
+        1 string data = ""「TEMP カットシーンが開始。シスター・グローリーがレンジャーズに挑戦。マザー・ナンシー・リライアンスは構わないと言う、彼女はこの人々が誰か知っている。\n\n\n名声による反応。」"
        [8]
-        1 string data = ""Trial begins!"\r\nThe trial begins. First, Glory wakes up Reagan. 2-3 nodes. We probably have to drop the conversation and pick it up later, if we can't change the camera dynamically inside it. \r\n\r\n(We might be able to do this with dummy Speaker Spawners who each have their own unique camera override. We use Display Name and Clear Name to hide that we're using them.)"
+        1 string data = ""「裁判開始!」\r\n裁判が始まる。まず、グローリーがレーガンを起こす。2-3ノード。会話内でカメラを動的に変更できない場合は、おそらく会話を中断して後で再開する必要がある。\r\n\r\n(ダミーのSpeaker Spawnerを使えば可能かもしれない。各々に独自のカメラオーバーライドを持たせる。Display NameとClear Nameを使って、それらを使っていることを隠す。)""
        [9]
         1 string data = "Script Node 10"
        [10]
-        1 string data = """Asshole response"
+        1 string data = ""「粗暴な反応」"
        [11]
-        1 string data = "Watch silently."
+        1 string data = ""黙って見守る。""
        [12]
-        1 string data = "Time for accusations!\n\n\n\n\nBecause we're spacing this out with player choice, we need to explain what's up, and also explain the stakes here.\n\n\nReliance:\n"The heathen 'Godfisher' attacked three of our commandos, captured one, cut off his limbs, and sent him screaming into the sky."\n"
+        1 string data = ""告発の時間!\n\n\n\n\nプレイヤーの選択で間を空けているので、何が起きているのか説明し、さらにここでの賭けを説明する必要がある。\n\n\nリライアンス:\n「異教徒の『ゴッドフィッシャー』が我々のコマンド3名を襲撃し、1名を捕らえ、四肢を切断し、悲鳴を上げながら空へと送り出した。」\n""
        [13]
-        1 string data = "That robot clearly tried to help you out. Why is this even a question?"
+        1 string data = ""あのロボットは明らかに君たちを助けようとしていた。なぜこれが問題なんだ?""
        [14]
-        1 string data = "You should <i>definitely</i> kill that Godfisher."
+        1 string data = ""そのゴッドフィッシャーは<i>絶対に</i>殺すべきだ。""
        [15]
-        1 string data = "Robot helping humans? Sound suspicious."
+        1 string data = ""ロボットが人間を助ける?怪しいな。""
        [16]
-        1 string data = "Watch silently."
+        1 string data = ""黙って見守る。""
        [17]
-        1 string data = "Skill check recognized, Transition to next node.\r\nReliance likes this. You get some rep. \r\n"We'll talk... after the trial.""
+        1 string data = ""スキルチェック成功、次のノードへ移行。\r\nリライアンスはこれを気に入った。評判が上がる。\r\n「話は…裁判の後で」""
        [18]
-        1 string data = ""Your designation is incorrect. We are a direct democracy. ""
+        1 string data = ""「あなたの指定は不正確です。我々は直接民主制です。」""
        [19]
         1 string data = "Script Node 20"
        [20]
-        1 string data = "Reliance doesn't like this! "The fact that you would even ASK the question shows how thoroughly our enemies have brainwashed the world.""
+        1 string data = ""リライアンスはこれを嫌う!「その質問をすること自体が、我々の敵が世界をいかに徹底的に洗脳したかを示している」""
        [21]
-        1 string data = "All responses converge here, where we say 'okay, you're the perfect people to help with this trial.' OR\n'You can observe our dedication to justice first hand. Watch, don't talk.\n\n\n(Of course, the players can talk, interrupting the proceedings)"
+        1 string data = ""全ての反応がここに収束し、「では、あなた方はこの裁判を手伝うのに最適な人々だ」と言う。または\n「我々の正義への献身を自分の目で確かめなさい。見るだけ、話すな。\n\n\n(もちろん、プレイヤーは話すことができ、手続きに割り込める)""
        [22]
-        1 string data = "Lotta options here. Are we being an asshole in general or asshole to the Gippers?\r\n\r\nIs it more like...\r\n"This is a gross miscarriage of justice" or\r\n\r\n"Wow, you sure are a crazy cult" or\r\n\r\n"SHOW US YOUR HOT NAKED BODY, STATUE MAN!" or\r\n\r\n"I can't wait to see that statue eat somebody." or\r\n\r\n"Fuck all y'all, we're done watching this nonsense." or \r\n\r\nsomething else? The choice is yours! Well, ours. Probably Nathan's.\r\n"
+        1 string data = ""ここは多くの選択肢がある。一般的に粗暴なのか、それともギッパーズに対して粗暴なのか?\r\n\r\nこんな感じか...\r\n「これは甚だしい裁判の誤り」または\r\n\r\n「おいおい、あんた方は本当にイカれたカルトだな」または\r\n\r\n「その熱い裸体を見せてくれ、彫像野郎!」または\r\n\r\n「あの彫像が誰かを食うのが待ちきれないな」または\r\n\r\n「お前ら全員くたばれ、こんな馬鹿げたものを見るのはもううんざりだ」または\r\n\r\n他の何か?選択はあなた次第!まあ、我々次第。たぶんネイサン次第。\r\n""
        [23]
-        1 string data = "Reagan digs it! Or he's confused about it and says a non-sequitar."
+        1 string data = ""レーガンはそれを気に入る!または混乱して的外れなことを言う。""
        [24]
-        1 string data = ""Okay, Reagan has Awoken, and it was quite impressive!""
+        1 string data = ""「よし、レーガンが目覚めた、そしてそれは非常に印象的だった!」""
        [25]
-        1 string data = "Glory: "Oh, right! Welcome, Rangers. The God-President will receive you in the Sacred Server Room to discuss the matter of Valor Buchanan.""
+        1 string data = ""グローリー:「あ、そうだ!ようこそ、レンジャーズ。ゴッド・プレジデントが聖なるサーバールームでお待ちです。ヴァラー・ブキャナンの件について話し合います」""
        [26]
-        1 string data = ""Ha! Fools! The gods of the sky will devour you!""
+        1 string data = ""「ハ!愚か者め!空の神々がお前たちを貪り喰らうだろう!」""
        [27]
-        1 string data = ""C-c-communist? COMMUNIST!!!"\n\n\nReagan blasts the robot. Probably need to drop the conversation here and pick it back up after."
+        1 string data = ""「共、共産主義者?共産主義者!!!」\n\n\nレーガンがロボットを爆破する。おそらくここで会話を中断して後で再開する必要がある。""
        [28]
-        1 string data = "Reliance agrees. "Indeed. But that time will come!""
+        1 string data = ""リライアンスは同意する。「その通り。しかしその時は来る!」""
        [29]
         1 string data = "Script Node 30"
        [30]
-        1 string data = "Reliance: "Exactly! You've got rep with us. Communists are the <i>worst</i>."\nand Konbu Ramen. and temp text."
+        1 string data = ""リライアンス:「その通り!お前は我々から評判を得た。共産主義者は<i>最悪</i>だ」\nそして昆布ラーメン。そして仮テキスト。""
        [31]
-        1 string data = "Robot responds that it's not a communist. It comes across a little ambiguous. "Your assessment of my political allegience is incorrect. I follow a system of rationale self-interest. It is in my interest to be seen helping humans, but I am <i>not</i> a 'communist.' ""
+        1 string data = ""ロボットは自分が共産主義者ではないと答える。少し曖昧に聞こえる。「あなたの政治的所属についての評価は不正確です。私は合理的自己利益のシステムに従っています。人間を助ける姿を見られることは私の利益になりますが、私は<i>共産主義者ではありません</i>」""
        [32]
-        1 string data = "Robot responds somewhat sympathetically but also a little ambiguously. "It is in my interest to be seen assisting humans so I may generate good will that will make them less likely to destroy me.""
+        1 string data = ""ロボットはやや同情的だが、少し曖昧に答える。「人間を支援する姿を見られることは私の利益になります。そうすれば、彼らが私を破壊する可能性が低くなる好意を生み出せます」""
        [33]
-        1 string data = "Reliance is SO MAD about what you said, but"
+        1 string data = ""リライアンスはあなたの発言に激怒しているが""
        [34]
-        1 string data = ""Thus is justice done in America! God bless us, and God bless God-President Reagan!"\n\n\nConversation closes, crowd disperses, and Reliance walks away."
+        1 string data = ""「かくしてアメリカに正義がなされた!神よ我々を祝福し、そして神よゴッド・プレジデント・レーガンを祝福したまえ!」\n\n\n会話が終わり、群衆が散り、リライアンスが立ち去る。""
        [35]
-        1 string data = "The Godfisher makes it clear that there are NOT mitigating circumstances."
+        1 string data = ""ゴッドフィッシャーは、情状酌量の余地はないことを明確にする。""
        [36]
-        1 string data = "Pew! Bwoosh! Robot is blasted by Reagan."
+        1 string data = ""ピュー!ブオッシュ!ロボットがレーガンに爆破される。""
        [37]
-        1 string data = "Fake Q/A node for camera swap after node 81."
+        1 string data = ""ノード81後のカメラ切り替え用のフェイクQ/Aノード。""
        [38]
-        1 string data = "The Godfisher answers seriously."
+        1 string data = ""ゴッドフィッシャーは真剣に答える。""
        [39]
         1 string data = "Script Node 40"
        [40]
-        1 string data = "Bank 41"
+        1 string data = ""バンク41""
        [41]
-        1 string data = "Maybe, uh, there were mitigating circumstances?"
+        1 string data = ""あー、もしかして…情状酌量の余地があったのでは?""
        [42]
-        1 string data = "Watch silently."
+        1 string data = ""黙って見守る。""
        [43]
-        1 string data = "Joke option. Hey, Godfisher! Ever catch anything? Ha! (Gated: only if PCs NEVER actually encountered Godfishers, so we don't have too many responses)"
+        1 string data = ""ジョーク選択肢。おい、ゴッドフィッシャー!何か釣れたか?ハ!(ゲート:PCが実際にゴッドフィッシャーズに遭遇したことがない場合のみ、反応が多すぎないように)""
        [44]
         1 string data = ""
        [45]
-        1 string data = ""Uh..."\n"Indeed, husband. Now, for the second criminal! This commie robot from the Machine Commune trespassed on our lands to heal the survivors of the Godfisher attack.""
+        1 string data = ""「あー…」\n「その通りです、夫よ。さて、2人目の犯罪者です!このマシーン・コミューンの共産主義ロボットが、ゴッドフィッシャー襲撃の生存者を治療するため我々の領土に侵入しました」""
        [46]
-        1 string data = "What's a 'commie robot,' anyway?"
+        1 string data = ""『共産主義ロボット』って何だ?""
        [47]
-        1 string data = "Reliance: "That's exactly the kind of thing I'd expect to hear from a <i>communist</i>  robot.""
+        1 string data = ""リライアンス:「それこそまさに<i>共産主義</i>ロボットから聞くと予想する種類の発言だ」""
        [48]
-        1 string data = ""No one can be denied the promise that is America.""
+        1 string data = ""「誰もアメリカという約束を拒否されることはない」""
        [49]
         1 string data = "Script Node 50"
        [50]
-        1 string data = "Godfisher: I am unrepentant! You will feed the skies!"
+        1 string data = ""ゴッドフィッシャー:私は悔い改めない!お前たちは空を養うのだ!""
        [51]
-        1 string data = "Godfisher rant.\n"We caught the Gippers by surprise! We sliced them apart while they were alive! The gods fed well today."""
+        1 string data = ""ゴッドフィッシャーの怒り。\n「我々はギッパーズを不意打ちした!生きたまま切り刻んだ!今日、神々は豊かに食べた」""
        [52]
-        1 string data = "We've tangled with Godfishers before. They're really, really bad. (Gated by whether PCs actually encountered Godfishers) "
+        1 string data = ""以前にゴッドフィッシャーズと戦ったことがある。奴らは本当に、本当に悪い。(PCが実際にゴッドフィッシャーズに遭遇したかどうかでゲート)""
        [53]
-        1 string data = ""Go and, uh, sin no more.""
+        1 string data = ""「行け、そして、あー、もう罪を犯すな」""
        [54]
-        1 string data = """(TODO)-node for that specific response."
+        1 string data = ""「(TODO)-その特定の反応用のノード」"
        [55]
-        1 string data = """(TODO)-node for that specific response."
+        1 string data = ""「(TODO)-その特定の反応用のノード」"
        [56]
-        1 string data = ""MUCH TO PONDER" (or bridge line")"
+        1 string data = ""「深く考えるべき」(またはブリッジライン)""
        [57]
         1 string data = "Script Node 58"
        [58]
-        1 string data = ""Halt! A trial is in session! Outsiders are forbidden to interfere!""
+        1 string data = ""「止まれ!裁判中だ!部外者の干渉は禁止されている!」""
        [59]
-        1 string data = ""At ease, Sister Glory. I believe I know what this is about. The Patriarch has sent some goons to inquire after his son Valor.""
+        1 string data = ""「楽にしろ、シスター・グローリー。これが何の用件か分かっている。パトリアークが息子ヴァラーについて問い合わせるために手下どもを送ってきたのだ」""
        [60]
-        1 string data = ""At ease, Sister Glory. I know what this is about. The Patriarch has sent the famous Desert Rangers to inquire after his son Valor.""
+        1 string data = ""「楽にしろ、シスター・グローリー。これが何の用件か分かっている。パトリアークが息子ヴァラーについて問い合わせるために有名なデザート・レンジャーズを送ってきたのだ」""
        [61]
-        1 string data = ""I'll be with you in a just moment, strangers. Justice is swift in God-President Reagan's America.""
+        1 string data = ""「すぐに対応する、見知らぬ方々。ゴッド・プレジデント・レーガンのアメリカでは正義は迅速だ」""
        [62]
-        1 string data = ""I'll be with you in a just moment, Rangers. Justice is swift in God-President Reagan's America.""
+        1 string data = ""「すぐに対応する、レンジャーズ。ゴッド・プレジデント・レーガンのアメリカでは正義は迅速だ」""
        [63]
-        1 string data = ""Ronnie! Are you ready to begin the trial?""
+        1 string data = ""「ロニー!裁判を始める準備はできているか?」""
        [64]
-        1 string data = ""Yes, Mother Nancy.""
+        1 string data = ""「はい、マザー・ナンシー」""
        [65]
-        1 string data = ""Yes, Mother Nancy.""
+        1 string data = ""「はい、マザー・ナンシー」""
        [66]
-        1 string data = ""Thank you. We respectfully request an audience with the God-President to negotiate on behalf of the Patriarch.""
+        1 string data = ""「ありがとう。パトリアークの代理として、ゴッド・プレジデントとの謁見を謹んで要請する」""
        [67]
-        1 string data = ""Let's take care of business first. Then we'll get out of your hair.""
+        1 string data = ""「まず用件を済ませよう。それから邪魔にならないようにする」""
        [68]
-        1 string data = ""We don't care about your justice. Hand over Valor.""
+        1 string data = ""「お前らの正義など知ったことか。ヴァラーを引き渡せ」""
        [69]
-        1 string data = ""Well, well. <i>So</i> polite. Excellent. We have something we'd like to discuss with you too, but you'll still have to wait.""
+        1 string data = ""「おやおや。<i>とても</i>礼儀正しい。素晴らしい。我々もあなた方と話し合いたいことがあるが、それでも待ってもらわねばならない」""
        [70]
-        1 string data = ""Sorry. Business does not take precedence over justice with us. You'll have to wait.""
+        1 string data = ""「すまないが。我々にとって用事は正義に優先しない。待ってもらう」""
        [71]
-        1 string data = ""Such manners. Disrespect like that will only make us move slower.""
+        1 string data = ""「なんという態度。そのような無礼は我々の動きを遅くするだけだ」""
        [72]
-        1 string data = ""Yes, Nancy. Uh, present the accused.""
+        1 string data = ""「はい、ナンシー。えー、被告人を連れてこい」""
        [73]
-        1 string data = ""Whoa! It talks!""
+        1 string data = ""「おお!喋るぞ!」""
        [74]
-        1 string data = ""I've heard about this thing. Some kind of sentient super-weapon, so watch out.""
+        1 string data = ""「この物について聞いたことがある。何か知覚ある超兵器だそうだ、気をつけろ」""
        [75]
-        1 string data = ""Iz... zat guy really close? Or... really big?""
+        1 string data = ""「あ、あいつ…すごく近いのか?それとも…すごくデカいのか?」""
        [76]
-        1 string data = ""Damn. I gotta get me one of those.""
+        1 string data = ""「クソ。俺もあれが欲しいな」""
        [77]
-        1 string data = ""Thank you, husband. First, this filthy Godfisher attacked three of our commandos, captured one, cut off his limbs, and sent him screaming into the sky on a kite made of human leather.""
+        1 string data = ""「ありがとう、夫よ。まず、この汚らわしいゴッドフィッシャーが我々のコマンド3名を襲撃し、1名を捕らえ、四肢を切断し、人間の皮で作った凧に乗せて悲鳴を上げながら空へと送り出した」""
        [78]
-        1 string data = ""Well, that doesn't sound very civilized. What's the other one done?""
+        1 string data = ""「まあ、それはあまり文明的には聞こえないな。もう一人は何をした?」""
        [79]
-        1 string data = ""Uh, very well. Um, go and sin no more, Godfisher.""
+        1 string data = ""「あー、よかろう。うむ、行け、そしてもう罪を犯すな、ゴッドフィッシャーよ」""
        [80]
-        1 string data = ""You know nothing about my president, outsider.""
+        1 string data = ""「お前は私の大統領について何も知らない、部外者め」""
        [81]
-        1 string data = ""Ha! That's hilarious.""
+        1 string data = ""「ハ!それは笑えるな」""
        [82]
-        1 string data = ""Wow. There's something wrong with your 'president,' lady.""
+        1 string data = ""「おい。あんたの『大統領』は何かおかしいぞ、お嬢さん」""
        [83]
-        1 string data = ""Wait. You're not really going to let that murderer go, are you?""
+        1 string data = ""「待て。本当にあの殺人者を解放するつもりじゃないだろうな?」""
        [84]
-        1 string data = ""There is <i>nothing</i> funny about the pronouncements of the God-President of America, outsider.""
+        1 string data = ""「アメリカのゴッド・プレジデントの宣言には、<i>笑える</i>ことなど何もない、部外者め」""
        [85]
         1 string data = ""
        [86]
-        1 string data = ""Ha! Fools! The gods of the sky will devour you!""
+        1 string data = ""「ハ!愚か者め!空の神々がお前たちを貪り喰らうだろう!」""
        [87]
-        1 string data = ""She didn't sound very repentant.""
+        1 string data = ""「奴は全く悔い改めていないようだったな」""
        [88]
-        1 string data = ""Guessing we'll be killing that one later.""
+        1 string data = ""「後であいつを殺すことになるだろうな」""
        [89]
-        1 string data = ""The other one, husband, is a communist robot from the Machine Commune who trespassed on our land.""
+        1 string data = ""「もう一人、夫よ、マシーン・コミューンから来た共産主義ロボットで、我々の領土に侵入した」""
        [90]
-        1 string data = ""C-commune? "\n"
+        1 string data = ""「共、共産…?」\n""
        [91]
-        1 string data = ""Please. Don't interrupt."\n"Next, husband, this robot from the Machine Commune trespassed on our lands to heal the survivors of the Godfisher attack, and-""
+        1 string data = ""「お願いだから。割り込まないで」\n「次に、夫よ、このマシーン・コミューンのロボットがゴッドフィッシャー襲撃の生存者を治療するため我々の領土に侵入し、そして―」""
        [92]
-        1 string data = ""And I entered your lands to heal your injured humans. It is irrelevant whether one is 'communist' - ""
+        1 string data = ""「そして私はあなたの負傷した人間たちを治療するためにあなたの領土に入った。『共産主義者』かどうかは無関係だ―」""
        [93]
-        1 string data = ""C-c-communist? COMMUNIST!!!""
+        1 string data = ""「共、共産主義者?共産主義者!!!」""
        [94]
-        1 string data = ""Nice work blowing up that robot. Thats what those rust buckets deserve.""
+        1 string data = ""「あのロボットを爆破したのはいい仕事だ。あのガラクタどもにはそれが相応しい」""
        [95]
-        1 string data = ""Why did you kill the helpful robot and not the psycho who skinned your commando?""
+        1 string data = ""「なぜ助けてくれたロボットを殺して、コマンドの皮を剥いだサイコは殺さなかった?」""
        [96]
-        1 string data = ""All righty, then. Guess your robot doesn't like competition.""
+        1 string data = ""「なるほどね。お前のロボットは競争相手が嫌いらしい」""
        [97]
-        1 string data = ""And communists too. Indeed.""
+        1 string data = ""「そして共産主義者もだ。その通り」""
        [98]
-        1 string data = ""Er... the will of the God-President is not to be questioned. If he spares one sinner and not another, he has a reason.""
+        1 string data = ""「えー…ゴッド・プレジデントの意志は疑問視されるべきではない。一人の罪人を許し別の者を許さないなら、理由があるのだ」""
        [99]
-        1 string data = ""God President Reagan is not a robot! He is a living man!""
+        1 string data = ""「ゴッド・プレジデント・レーガンはロボットではない!生きている人間だ!」""
        [100]
-        1 string data = ""Sorry to keep you waiting, Strangers, but matters of state must come first. I'm Mother Nancy Reliance and this is my Husband, God-President Reagan. Welcome to the Shining City on the Hill.""
+        1 string data = ""「お待たせして申し訳ない、見知らぬ方々。しかし国家の問題が優先される。私はマザー・ナンシー・リライアンス、そしてこちらは私の夫、ゴッド・プレジデント・レーガンだ。丘の上の輝ける都市へようこそ」""
        [101]
-        1 string data = ""Now, if you still want to discuss Valor Buchanan, come and join Ronnie and I in the Western Whitehouse. We will receive you in the sacred server room.""
+        1 string data = ""「さて、ヴァラー・ブキャナンについてまだ話し合いたいなら、ロニーと私にウェスタン・ホワイトハウスで合流してくれ。聖なるサーバールームで応対しよう」""
        [102]
-        1 string data = ""Good day.""
+        1 string data = ""「良い一日を」""
        [103]
-        1 string data = ""As for the hippy, no one can be denied the promise that is America. Let's give her a second chance."\n"
+        1 string data = ""「ヒッピーに関しては、誰もアメリカという約束を拒否されることはない。彼女に二度目のチャンスを与えよう」\n""
        [104]
-        1 string data = ""You let a talking statue decide people's fates? That's not like any American justice we know.""
+        1 string data = ""「喋る彫像に人々の運命を決めさせるのか?それは我々が知るアメリカの正義らしくないな」""
        [105]
-        1 string data = ""Is this some kind of Wizard of Oz thing? Is there a guy in there making it talk?""
+        1 string data = ""「これは何かオズの魔法使いみたいなものか?中に人がいて喋らせてるんじゃないのか?」""
        [106]
-        1 string data = ""Your god is awesome.""
+        1 string data = ""「あんたの神は素晴らしい」""
        [107]
-        1 string data = ""No justice could be more American than the justice of God-President Reagan. Now, please. No further interruptions.""
+        1 string data = ""「ゴッド・プレジデント・レーガンの正義ほどアメリカらしい正義はない。さあ、お願いだ。これ以上の割り込みはやめてくれ」""
        [108]
-        1 string data = ""There is no one in there but God-President Reagan. Now, please. No further interruptions.""
+        1 string data = ""「中にいるのはゴッド・プレジデント・レーガンだけだ。さあ、お願いだ。これ以上の割り込みはやめてくれ」""
        [109]
-        1 string data = ""Thank you, but please. No further interruptions.""
+        1 string data = ""「ありがとう、しかしお願いだ。これ以上の割り込みはやめてくれ」""
        [110]
         1 string data = "Script Node 116"
        [111]
         1 string data = "Script Node 117"
        [112]
-        1 string data = ""Thank you, Ronnie. And the savage?""
+        1 string data = ""「ありがとう、ロニー。そして野蛮人は?」""
        [113]
-        1 string data = ""The gods of the sky must be appeased or the nurturing rains will never come! Thus we appease them with our sacred kites and the blood of unbelievers!""
+        1 string data = ""「空の神々を鎮めねば育みの雨は決して来ない!だから我々は聖なる凧と不信心者の血で神々を鎮めるのだ!」""
        [114]
-        1 string data = ""Uh...Thus is justice done in America! God bless us, Gippers, and God bless God-President Reagan!""
+        1 string data = ""「あー…かくしてアメリカに正義がなされた!神よ我々ギッパーズを祝福し、そして神よゴッド・プレジデント・レーガンを祝福したまえ!」""
        [115]
         1 string data = "Script Node 121"
        [116]
-        1 string data = ""Reagan's justice was impressive. Where could <i>we</i> get a weapon like that?""
+        1 string data = ""「レーガンの正義は印象的だった。<i>我々は</i>どこであんな武器を手に入れられる?」""
        [117]
-        1 string data = ""Funny you should ask. I have a proposal in mind that could get you one - as well as help you with your Valor Buchanan problem. ""
+        1 string data = ""「よくぞ聞いてくれた。あなた方にそれを手に入れる方法がある提案を考えている―そしてヴァラー・ブキャナンの問題の解決にも役立つ」""
        [118]
-        1 string data = ""Come and join the Ronnie and I in the Western Whitehouse. We'll meet you in the sacred server room, and discuss it there.""
+        1 string data = ""「ロニーと私にウェスタン・ホワイトハウスで合流してくれ。聖なるサーバールームで会って、そこで話し合おう」""
        [119]
         1 string data = "Script Node 125"
        [120]
         1 string data = ""DEBUG: NEW INTERACTIVE CUTSCENE""
        [121]
-        1 string data = "Start Pre-Cutscene Conversation."
+        1 string data = ""カットシーン前会話を開始。""
        [122]
-        1 string data = "Start cutscene barks.\n"
+        1 string data = ""カットシーンバークを開始。\n""
        [123]
-        1 string data = "Play post-cutscene conversation."
+        1 string data = ""カットシーン後会話を再生。""
        [124]
-        1 string data = "Leave this interface."
+        1 string data = ""このインターフェースを出る。""
        [125]
-        1 string data = "Note- this would follow the PreCutscene Conversation, and be followed by the barks.\n\n\nSpeaker on this node is ReaganStatue so we can see his bark in the next node."
+        1 string data = ""注意-これはカットシーン前会話の後に続き、バークが続く。\n\n\nこのノードのスピーカーはReaganStatueで、次のノードで彼のバークを見ることができる。""
    [765]
     0 StringTable data
      1 string Filename = "b1001_gipper_switchguard"
@@ -242727,33 +242727,33 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = ""What do you need?""
+        1 string data = ""「何か用か?」""
        [2]
-        1 string data = ""We bet you have some <i>amazing</i> stories about your time here.""
+        1 string data = ""「ここでの時間について、<i>素晴らしい</i>話があるに違いないな」""
        [3]
-        1 string data = ""We're gonna go.""
+        1 string data = ""「じゃあ行く」""
        [4]
-        1 string data = ""Oh, sure! There was the time we heard Reagan talk about Nancy, and the time Nancy asked Reagan about the other Nancies...""
+        1 string data = ""「ああ、もちろん!レーガンがナンシーについて語るのを聞いた時とか、ナンシーがレーガンに他のナンシーズについて尋ねた時とか…」""
        [5]
-        1 string data = "Q/A Node """
+        1 string data = ""Q/Aノード""
        [6]
-        1 string data = "The guard appears distracted."
+        1 string data = ""衛兵は気が散っているようだ。""
        [7]
-        1 string data = ""I'll be here. I'm always here.""
+        1 string data = ""「ここにいるさ。いつもここにいる」""
        [8]
-        1 string data = ""Sorry, can't talk right now -""
+        1 string data = ""「悪いが、今は話せない―」""
        [9]
         1 string data = "Script Node 10"
        [10]
-        1 string data = ""Hey! Get out of there.""
+        1 string data = ""「おい!そこから出ろ」""
        [11]
         1 string data = "Script Node 12"
        [12]
-        1 string data = ""The switch has flipped <i>entirely on its own.</i>""
+        1 string data = ""「スイッチが<i>完全にひとりでに</i>切り替わった」""
        [13]
-        1 string data = ""A <i>normal</i>  guard would be suspicious since some of you are standing next to the switch. Thank Reagan for my keen ears and eyes, which let me monitor everyone while conversing.""
+        1 string data = ""「<i>普通の</i>衛兵なら、お前らの何人かがスイッチの隣に立っているから怪しむだろう。会話しながら全員を監視できる俺の鋭い耳と目をレーガンに感謝しろ」""
        [14]
-        1 string data = ""You saw that, right? Nobody was even close to it, and it just... moved!""
+        1 string data = ""「見ただろ?誰も近くにいなかったのに、ただ…動いた!」""
        [15]
         1 string data = "Script Node 16"
        [16]
@@ -242763,67 +242763,67 @@
        [18]
         1 string data = "Script Node 19"
        [19]
-        1 string data = ""Don't touch that!""
+        1 string data = ""「それに触るな!」""
        [20]
-        1 string data = ""Don't break that!""
+        1 string data = ""「それを壊すな!」""
        [21]
-        1 string data = ""Why would you try to break that?!?""
+        1 string data = ""「なんでそれを壊そうとするんだ!?」""
        [22]
         1 string data = "Script Node 23"
        [23]
-        1 string data = ""Go on, get out of here, Rangers!""
+        1 string data = ""「さあ、ここから出ていけ、レンジャーズ!」""
        [24]
-        1 string data = ""Wait just a minute!""
+        1 string data = ""「ちょっと待て!」""
        [25]
-        1 string data = ""Whelp, that shouldn't have happened.""
+        1 string data = ""「おっと、これは起こるべきじゃなかった」""
        [26]
-        1 string data = ""What did you say earlier about this room being abandoned?""
+        1 string data = ""「この部屋が放棄されてるって、さっき何て言ってた?」""
        [27]
-        1 string data = "Bank 28"
+        1 string data = ""バンク28""
        [28]
-        1 string data = ""What are you doing here?""
+        1 string data = ""「ここで何をしている?」""
        [29]
-        1 string data = ""What was it you said about the switch?""
+        1 string data = ""「スイッチについて何て言ってた?」""
        [30]
-        1 string data = ""Guarding the Sacred Switch.""
+        1 string data = ""「聖なるスイッチを守護している」""
        [31]
-        1 string data = ""Long ago, one of the early Nancies designed this switch, inspired by the holy form of Reagan himself."\n\n\n"She told us it was not to be touched until the divine finger of Reagan moved it.""
+        1 string data = ""「昔々、初期のナンシーの一人が、レーガン自身の聖なる姿に触発されてこのスイッチを設計した」\n\n\n「彼女は、レーガンの神聖な指がそれを動かすまで触れてはならないと我々に告げた」""
        [32]
-        1 string data = ""Legends say Reagan banished all lingering radiation from the building to here. He makes it stay in that corner, thinking about what it's done, protecting the rest of us from its toxic touch.""
+        1 string data = ""「伝説によれば、レーガンは建物に残留していた全ての放射線をここに追放した。彼はそれをあの隅に留まらせ、自分のしたことを反省させ、その有毒な接触から我々を守っている」""
        [33]
-        1 string data = ""Some time after that, one of the early Nancies added the Sacred Switch. So a guard is posted here at all times.""
+        1 string data = ""「その後しばらくして、初期のナンシーの一人が聖なるスイッチを追加した。だから常に衛兵がここに配置されている」""
        [34]
-        1 string data = "Bank 35"
+        1 string data = ""バンク35""
        [35]
-        1 string data = ""Looks like the switch controls that heavy container. Is that sacred, too?""
+        1 string data = ""「スイッチはあの重いコンテナを制御しているようだな。それも聖なるものなのか?」""
        [36]
-        1 string data = ""Do you mind if we take a look around?""
+        1 string data = ""「ちょっと見て回ってもいいか?」""
        [37]
-        1 string data = ""What? No, that's just some old junk. Or at least, that's what everyone told me. No one's ever been able to get the thing open.""
+        1 string data = ""「何?いや、あれはただの古いガラクタだ。少なくとも、みんなが俺に言ったのはそうだ。誰もあれを開けられたことがない」""
        [38]
-        1 string data = ""Not at all. Just mind the toxic cloud in the corner. Don't breathe that.""
+        1 string data = ""「全く構わない。ただ隅の毒の雲には気をつけろ。あれを吸うな」""
        [39]
-        1 string data = ""Reagan be praised!""
+        1 string data = ""「レーガンを讃えよ!」""
        [40]
         1 string data = "Script Node 41"
        [41]
-        1 string data = ""I ought to tell someone about this...""
+        1 string data = ""「これについて誰かに伝えるべきだな…」""
        [42]
-        1 string data = ""...Which is how The Gipper struck down the traitorous Hinkley.""
+        1 string data = ""「…こうしてギッパーは裏切り者ヒンクリーを打ち倒した」""
        [43]
-        1 string data = ""Praise Reagan, it's a miracle!""
+        1 string data = ""「レーガンを讃えよ、奇跡だ!」""
        [44]
         1 string data = "Script Node 45"
        [45]
-        1 string data = ""Careful! That cloud is incredibly dangerous.""
+        1 string data = ""「気をつけろ!あの雲は信じられないほど危険だ」""
        [46]
-        1 string data = ""Do what you like, but... Wow. This is hard to watch.""
+        1 string data = ""「好きにしろ、だが…おい。見ていられないな」""
        [47]
-        1 string data = ""Reagan, please keep us safe from poison.""
+        1 string data = ""「レーガンよ、どうか毒から我々を守りたまえ」""
        [48]
-        1 string data = ""Do you think it's possible the Nancy just didn't want anybody messing with her stuff, so she made up the story about the switch?""
+        1 string data = ""「ナンシーが誰かに自分の物をいじられたくなかっただけで、スイッチについての話をでっち上げた可能性はあるか?」""
        [49]
-        1 string data = ""That's crazy talk! No Nancy would do such a thing, that's not how things work around here.""
+        1 string data = ""「それは狂った話だ!どのナンシーもそんなことはしない、ここではそういうことはない」""
        [50]
         1 string data = "Script Node 51"
        [51]
@@ -242831,23 +242831,23 @@
        [52]
         1 string data = "Script Node 53"
        [53]
-        1 string data = "The switch is jammed."
+        1 string data = ""スイッチが詰まっている。""
        [54]
-        1 string data = ""Haven't seen you around these parts. Or heard about you.""
+        1 string data = ""「この辺りでお前を見たことがない。噂も聞かない」""
        [55]
-        1 string data = ""Oh my. We've got celebrities visiting!""
+        1 string data = ""「おやまあ。有名人が訪問してるぞ!」""
        [56]
-        1 string data = ""C'mon, we put your God into Valor Buchanan. Let us touch the switch.""
+        1 string data = ""「おい、俺たちがお前らの神をヴァラー・ブキャナンに入れてやったんだ。スイッチを触らせろ」""
        [57]
-        1 string data = ""Get out of here, God-thieves.""
+        1 string data = ""「出ていけ、神泥棒め」""
        [58]
-        1 string data = ""I mean... if it were up to me, sure. But it ain't."\n\n\n"Sorry, hoss.""
+        1 string data = ""「つまり…俺次第なら、もちろんだ。でも違う」\n\n\n「すまない、相棒」""
        [59]
-        1 string data = ""Good-hearted ones, too. Nice change of pace.""
+        1 string data = ""「心優しい者たちでもある。いい気分転換だ」""
        [60]
-        1 string data = ""Too bad the Rangers are rotten to the core.""
+        1 string data = ""「残念ながらレンジャーズは根っから腐っている」""
        [61]
-        1 string data = ""Personally, I'm not feeling particularly strongly about you, one way or the other. Just kinda... Regular-like.""
+        1 string data = ""「個人的には、お前について特に強く感じてはいない、どちらにせよ。ただ何というか…普通って感じ」""
    [766]
     0 StringTable data
      1 string Filename = "b1001_godfishers"
@@ -243105,7 +243105,7 @@
       1 Array Array (61 items)
        0 int size = 61
        [0]
-        1 string data = ""Goodbye.""
+        1 string data = ""「さようなら」""
        [1]
         1 string data = "Script Node 2"
        [2]
@@ -243113,45 +243113,45 @@
        [3]
         1 string data = "Script Node 4"
        [4]
-        1 string data = ""We have nothing to discuss until the heretics' mechanical giant is destroyed.""
+        1 string data = ""「異教徒の機械巨人が破壊されるまで、話すことはない」""
        [5]
-        1 string data = ""What does that mean, exactly?""
+        1 string data = ""「それは正確には何を意味する?」""
        [6]
-        1 string data = ""Those were <i>our</i> sacrifices! You have left the gods hungry.""
+        1 string data = ""「あれは<i>我々の</i>生贄だった!お前たちは神々を飢えさせた」""
        [7]
-        1 string data = "One Godfisher stands out - the one who was released by Mother Nancy Reliance. She is staring up into the sky."
+        1 string data = ""一人のゴッドフィッシャーが目立つ―マザー・ナンシー・リライアンスに解放された者だ。彼女は空を見上げている。""
        [8]
-        1 string data = ""Do you see them - oh, gods of the sky? Do you see their <i>pride?</i> They stand among those who we've shorn of life of limb, and think they can escape. Ha!""
+        1 string data = ""「見えるか―おお、空の神々よ?奴らの<i>傲慢</i>が見えるか?奴らは我々が命と四肢を刈り取った者たちの中に立ち、逃げられると思っている。ハ!」""
        [9]
-        1 string data = ""Who the fuck are you talking to?""
+        1 string data = ""「一体誰に向かって話してるんだ?」""
        [10]
-        1 string data = ""We're only gonna say this once - surrender.""
+        1 string data = ""「一度しか言わないぞ―降伏しろ」""
        [11]
-        1 string data = "Remain silent. "
+        1 string data = ""黙っている。""
        [12]
-        1 string data = ""Hey! We're standing right here.""
+        1 string data = ""「おい!俺たちはここに立ってるぞ」""
        [13]
-        1 string data = "She does not look away from the skies above - and the gods she's presumably talking to. "
+        1 string data = ""彼女は上空から視線を外さない―そして彼女がおそらく話しかけている神々から。""
        [14]
-        1 string data = "She doesn't so much as glance your way."
+        1 string data = ""彼女はあなたを一瞥さえしない。""
        [15]
-        1 string data = ""We will send them to you, oh gods, soaring on our kites, so that you will bless us with tender rain and bury our enemies in killing snow!""
+        1 string data = ""「我々は彼らをあなたに送ろう、おお神々よ、凧で舞い上がらせて、そうすればあなたは優しい雨で我々を祝福し、殺しの雪で敵を埋めてくださる!」""
        [16]
-        1 string data = ""Darn right we are!""
+        1 string data = ""「その通りだ!」""
        [17]
-        1 string data = "Sister Nancy Glory glances over at you, embarrassed. The Godfisher doesn't appear to notice. "
+        1 string data = ""シスター・ナンシー・グローリーが恥ずかしそうにあなたをちらりと見る。ゴッドフィッシャーは気づいていないようだ。""
        [18]
-        1 string data = ""Amen.""
+        1 string data = ""「アーメン」""
        [19]
-        1 string data = "She lowers her head to look at you, grinning. "
+        1 string data = ""彼女はあなたを見るために頭を下げ、にやりと笑う。""
        [20]
-        1 string data = ""Gods of the endless sky, forgive us! We will pay for the sins of these heretics with their lives.""
+        1 string data = ""「無限の空の神々よ、我々を許したまえ!我々はこれらの異教徒の罪をその命で償わせる」""
        [21]
-        1 string data = "She ignores you."
+        1 string data = ""彼女はあなたを無視する。""
        [22]
-        1 string data = "[Attack] "It's a shame your gods live in the sky, because we're going to put you in the ground.""
+        1 string data = ""[攻撃]「お前の神々が空に住んでいるのは残念だな、なぜなら俺たちはお前を地面に埋めるからだ」""
        [23]
-        1 string data = ""Blasphemers!""
+        1 string data = ""「冒涜者め!」""
        [24]
         1 string data = "Script Node 25"
        [25]
@@ -243171,39 +243171,39 @@
        [32]
         1 string data = "Script Node 33"
        [33]
-        1 string data = ""Excellent. The heretics' giant has fallen. The gods of the sky smile upon us.""
+        1 string data = ""「素晴らしい。異教徒の巨人は倒れた。空の神々が我々に微笑んでくださる」""
        [34]
-        1 string data = ""The gods of the sky smile upon us."\n\n\n"Now leave this place. My family will arrive soon, and we shall feed Gipper flesh to the sky.""
+        1 string data = ""「空の神々が我々に微笑んでくださる」\n\n\n「さあこの場を去れ。我が一族がまもなく到着する、そして我々はギッパーの肉を空に捧げる」""
        [35]
-        1 string data = ""The gods of the sky demand your full attention! We will not start until all of your kin are present.""
+        1 string data = ""「空の神々はお前たちの全面的な注意を求めている!お前たちの一族全員が揃うまで始めない」""
        [36]
-        1 string data = ""Return with the rest of your kin, and we will begin.""
+        1 string data = ""「残りの一族を連れて戻れ、そうすれば始める」""
        [37]
         1 string data = "Script Node 38"
        [38]
-        1 string data = ""C'mon... come on!""
+        1 string data = ""「おい…開けよ!」""
        [39]
-        1 string data = ""Gods of the sky, why won't this stupid box open!?!""
+        1 string data = ""「空の神々よ、なぜこの愚かな箱は開かないのだ!?!」""
        [40]
         1 string data = "Script Node 41"
        [41]
-        1 string data = ""Gods of the endless sky, accept these holy offerings!""
+        1 string data = ""「無限の空の神々よ、これらの聖なる捧げ物を受け取りたまえ!」""
        [42]
-        1 string data = ""Gorge yourselves upon the entrails of the slain, oh gods!""
+        1 string data = ""「殺された者の内臓で貪り喰らいたまえ、おお神々よ!」""
        [43]
-        1 string data = ""Gods of the sky, we fly these morsels to you in hope of your forebearance!""
+        1 string data = ""「空の神々よ、我々はこれらの小片を凧で飛ばしてあなたに捧げる、あなたの寛容を願って!」""
        [44]
-        1 string data = ""Gods of the clouds and winds, accept our unworthy gifts of warm flesh.""
+        1 string data = ""「雲と風の神々よ、温かい肉という我々の不十分な贈り物を受け取りたまえ」""
        [45]
-        1 string data = ""Make it to rain gently upon us, but batter our enemies with hail!""
+        1 string data = ""「我々には優しく雨を降らせ、しかし敵には雹で打ちのめしたまえ!」""
        [46]
-        1 string data = ""Strike down those who stand against us with thy divine lightning.""
+        1 string data = ""「我々に立ち向かう者をその神聖な稲妻で打ち倒したまえ」""
        [47]
-        1 string data = ""Blow away our foes with thy mighty winds!""
+        1 string data = ""「その強大な風で敵を吹き飛ばしたまえ!」""
        [48]
         1 string data = "Script Node 49"
        [49]
-        1 string data = ""Oh gods, accept this harvest in the spirit it is given!""
+        1 string data = ""「おお神々よ、この収穫をその精神において受け取りたまえ!」""
        [50]
         1 string data = "Script Node 51"
        [51]
@@ -243211,19 +243211,19 @@
        [52]
         1 string data = "::moans::"
        [53]
-        1 string data = ""No outsiders.""
+        1 string data = ""「部外者お断り」""
        [54]
-        1 string data = ""Do not speak to us.""
+        1 string data = ""「我々に話しかけるな」""
        [55]
-        1 string data = ""All you are is dust in the wind...""
+        1 string data = ""「お前は風の中の塵に過ぎない…」""
        [56]
-        1 string data = ""I can tell the length of your entrails just by looking at you.""
+        1 string data = ""「見るだけでお前の内臓の長さが分かる」""
        [57]
-        1 string data = ""All will end in blood and rain.""
+        1 string data = ""「全ては血と雨で終わる」""
        [58]
-        1 string data = ""Get away, heathen.""
+        1 string data = ""「離れろ、異教徒め」""
        [59]
-        1 string data = " Debug Text to figure out what the heck is going on with Mist That Burns."
+        1 string data = ""Mist That Burnsで何が起こっているか把握するためのデバッグテキスト。""
        [60]
         1 string data = "Script Node 61"
    [767]
@@ -243343,45 +243343,45 @@
        [3]
         1 string data = "Script Node 4"
        [4]
-        1 string data = ""The heathens are attacking! Unbelievers, we will send you to the sky.""
+        1 string data = ""「異教徒が攻撃してくる!不信心者め、我々がお前たちを空に送ってやる」""
        [5]
-        1 string data = ""Such pretty hands. Don't tempt me to take them early.""
+        1 string data = ""「なんて綺麗な手だ。早めに奪いたくなるような誘惑をするな」""
        [6]
-        1 string data = ""That is destined for the sky. Do not touch.""
+        1 string data = ""「それは空に運命づけられている。触るな」""
        [7]
-        1 string data = ""Hey! It took a long time to set that up.""
+        1 string data = ""「おい!あれを設置するのに長い時間がかかったんだぞ」""
        [8]
-        1 string data = ""Touch not our delicate work! We use that to snare offerings for the gods.""
+        1 string data = ""「我々の繊細な仕事に触れるな!あれは神々への捧げ物を捕えるために使うものだ」""
        [9]
-        1 string data = ""Mind your fingers.""
+        1 string data = ""「指に気をつけろ」""
        [10]
         1 string data = "Script Node 11"
        [11]
-        1 string data = ""Stop destroying our traps, heathen.""
+        1 string data = ""「我々の罠を壊すのをやめろ、異教徒め」""
        [12]
-        1 string data = ""You must be eager to go to the sky, heathens.""
+        1 string data = ""「お前たちは空に行きたがっているに違いない、異教徒どもめ」""
        [13]
-        1 string data = ""Cease meddling, heathens!""
+        1 string data = ""「干渉をやめろ、異教徒どもめ!」""
        [14]
         1 string data = "Script Node 15"
        [15]
-        1 string data = ""Huh... Where'd you find that?""
+        1 string data = ""「ん…それをどこで見つけた?」""
        [16]
-        1 string data = ""Go on, steal from us, heathens. We'll take it back when we skin you.""
+        1 string data = ""「さあ、我々から盗め、異教徒どもめ。お前たちの皮を剥ぐときに取り戻す」""
        [17]
-        1 string data = ""Material possessions mean nothing. We have ascended beyond them.""
+        1 string data = ""「物質的所有物など無意味だ。我々はそれらを超越した」""
        [18]
         1 string data = "Script Node 19"
        [19]
-        1 string data = ""There's nothing there for you, heathens.""
+        1 string data = ""「そこにはお前たちのためのものは何もない、異教徒どもめ」""
        [20]
         1 string data = "Script Node 21"
        [21]
-        1 string data = ""Insolent fools, did no one teach you to knock?""
+        1 string data = ""「無礼な愚か者め、誰もノックを教えなかったのか?」""
        [22]
-        1 string data = ""Being chosen as food for the sky gods doesn't excuse you from basic manners and decency.""
+        1 string data = ""「空の神々の食べ物に選ばれたからといって、基本的なマナーと礼儀を免除されるわけではない」""
        [23]
-        1 string data = ""Looks like these blasphemers are as blind as the rest.""
+        1 string data = ""「この冒涜者どもは他の連中と同じく盲目のようだな」""
    [768]
     0 StringTable data
      1 string Filename = "b1001_mothernancyreliance"
