@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 220253,
-      "entries_completed": 31438,
+      "current_line": 221515,
+      "entries_completed": 31679,
       "status": "in_progress",
-      "note": "Lines 217321-220252: Translated 363 entries. Sections: (1) b3001_debugmissiontradingfire (61 entries - Trading Fire debug mission); (2) b3001_doortoreagancore (25 entries - door to Reagan core); (3) b3001_gonzalez_radio_afterthezealotvalorconvo (77 entries - Gonzalez radio after Valor convo); (4) b3001_mothernancyreliance partial (200/376 entries - Mother Nancy Reliance dialogues). All structure protected (\"\" markers, <i> tags, Script Node, \\n\\r escapes, ::action:: markup). Continue from line 220253 (b3001_mothernancyreliance entry 201/376)."
+      "note": "Lines 220253-221514: Translated 241 entries. Sections: (1) b3001_mothernancyreliance completion (176/376 entries - Mother Nancy Reliance dialogues); (2) b3001_reagansconsole (60 entries - Reagan console interactions, StarstationWars game, transfer options); (3) b3001_reagantransformation (5 entries - Valor transformation dialogues). All structure protected (\"\" markers, <i> tags, Script Node, \\n\\r escapes, ::action:: markup). Continue from line 221515 (b3001_ronaldreagan_thegipper section)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -39,9 +39,9 @@
     }
   },
   "last_commit_hash": "HEAD",
-  "total_entries_completed": 31438,
+  "total_entries_completed": 31679,
   "estimated_total_entries": 71992,
-  "next_action": "Continue retranslation from line 220253 onwards (b3001_mothernancyreliance entry 201/376 and subsequent sections)",
+  "next_action": "Continue retranslation from line 221515 onwards (b3001_ronaldreagan_thegipper section - Reagan Gipper dialogues)",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
