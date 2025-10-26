@@ -38,7 +38,7 @@
       "status": "pending"
     }
   },
-  "last_commit_hash": "tbd",
+  "last_commit_hash": "197de1b",
   "total_entries_completed": 36290,
   "estimated_total_entries": 71992,
   "next_action": "Continue retranslation from line 253285 onwards (translate cassettetape_c_aspen sections)",
@@ -55,8 +55,18 @@
     "optimization_note": "Large chunks (150-200 lines) minimize Read/Edit operations, preventing conversation history explosion. Session completes ~500 entries efficiently."
   },
   "structure_protection": {
-    "preserve_markers": ["\"\"", "[ ]", "< >", "' '", "::action::"],
-    "do_not_translate": ["Script Node", "[Switch to", "::.*::"],
+    "preserve_markers": [
+      "\"\"",
+      "[ ]",
+      "< >",
+      "' '",
+      "::action::"
+    ],
+    "do_not_translate": [
+      "Script Node",
+      "[Switch to",
+      "::.*::"
+    ],
     "validation_rules": [
       "Line count must match source",
       "No Japanese brackets in structure markers",
