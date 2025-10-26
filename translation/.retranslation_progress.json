@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 215574,
-      "entries_completed": 30754,
+      "current_line": 217321,
+      "entries_completed": 31075,
       "status": "in_progress",
-      "note": "Lines 214531-215573: Translated 500 entries. Sections: (1) b2001_tinker2 final (72 entries - philosophical synth dialogue); (2) b2001_vendomatic2000 partial (106 entries - comedic vending machine character). All structure protected ([Attack] markers, Script Node, <i> tags, [[Global]] variables). Continue from line 215574 (b2001_vendomatic2000 - 63 more entries remaining)."
+      "note": "Lines 215574-217320: Translated 321 entries. Sections: (1) b2001_vendomatic2000 final (63 entries); (2) b3001_bill (105 entries - character Bill); (3) b3001_blaze (60 entries - character Blaze); (4) b3001_blaze_old (10 entries); (5) b3001_buck (19 entries - character Buck); (6) b3001_debugmissionkillandclear (6 entries); (7) b3001_debugmissionreaganreborn (58 entries - Reagan Reborn debug menu). All structure protected (<i> tags, Script Node, \n\r escape sequences, ::action:: markup). Continue from line 217321."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -39,9 +39,9 @@
     }
   },
   "last_commit_hash": "HEAD",
-  "total_entries_completed": 30754,
+  "total_entries_completed": 31075,
   "estimated_total_entries": 71992,
-  "next_action": "Continue retranslation from line 215574 onwards (b2001_vendomatic2000 - 63 remaining entries, then proceed to next sections)",
+  "next_action": "Continue retranslation from line 217321 onwards (b3001_debugmissiontradingfire and subsequent sections)",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
