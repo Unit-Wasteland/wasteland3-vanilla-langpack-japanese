@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 224463,
-      "entries_completed": 32109,
+      "current_line": 227745,
+      "entries_completed": 32577,
       "status": "in_progress",
-      "note": "Lines 221515-224462: Translated 430 entries. Sections: (1) b3001_ronaldreagan_thegipper (201 entries - Reagan Gipper dialogues, cold war rhetoric, glitching AI behavior); (2) b3001_sisternancyforge (149 entries - Nancy Forge merchant/armorer, weapon crafting, oil field mission); (3) b3001_sisternancyglory (80/163 entries partial - Nancy Glory dialogues, Godfisher threats). All structure protected (\"\" markers, ::action:: markup, Script Node, \\n\\r escapes). Continue from line 224463 (b3001_sisternancyglory continuation)."
+      "note": "Lines 226722-227745: Translated 288 entries. Sections: (1) b3001_thezealot_valor (245 entries - Valor Buchanan main dialogues, Gipper compound, tech support quests, Reagan transfer); (2) b3001_thezealot_valorlocal (43/108 entries - Valor local dialogues with Vic, family dynamics). All structure protected (\"\" markers, Script Node, \\n\\r escapes, <i> tags, ::action:: markers). Next: complete b3001_thezealot_valorlocal (65 entries remaining, starting line 227745)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -38,10 +38,10 @@
       "status": "pending"
     }
   },
-  "last_commit_hash": "HEAD",
-  "total_entries_completed": 32109,
+  "last_commit_hash": "pending",
+  "total_entries_completed": 32577,
   "estimated_total_entries": 71992,
-  "next_action": "Continue retranslation from line 224463 onwards (b3001_sisternancyglory section continuation - Nancy Glory remaining 83 entries)",
+  "next_action": "Continue retranslation from line 227745 onwards (complete b3001_thezealot_valorlocal section - 65 entries remaining)",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
