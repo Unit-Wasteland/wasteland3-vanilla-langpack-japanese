@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 231171,
-      "entries_completed": 33181,
+      "current_line": 234399,
+      "entries_completed": 33466,
       "status": "in_progress",
-      "note": "Lines 229363-231170: Translated 295 entries in sections: (1) b4001_communetest (113 entries - Machine Commune morality test dialogues, judgment criteria for player actions); (2) b4001_doctorbot (125 entries - Doctor bot clinic dialogues, V.I.C.I. assistant quest, cybernetic upgrades); (3) b4001_dop (57 entries - DOP robot ambient dialogues, division by zero attempts, hex code messages). All structure protected (\"\" markers, Script Node untranslated, ::action:: markers, [[Global:...]] variables, hex codes, emojis preserved). Next: continue with b4001_funandgamesdebug and subsequent sections."
+      "note": "Lines 231171-234398: Translated 285 entries in sections: (1) b4001_funandgamesdebug (46 entries - debug commands, skipped as developer-only content); (2) b4001_hologrambarks (81 entries - hologram combat barks, simulation dialogue, error messages); (3) b4001_hologramconsole (67 entries - console interface, simulation controls, round management); (4) b4001_indigorouge (37 entries - Indigo Rouge robot painter dialogues, art critique conversation); (5) b4001_pico (100 entries - Pico game developer dialogues, Carty interactions, Fun and Games quest, Badalicious Entertainment backstory). All structure protected (\"\" markers, Script Node, ::action::, variables, <i> tags preserved). Next: continue with b4001_sal section."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -38,10 +38,10 @@
       "status": "pending"
     }
   },
-  "last_commit_hash": "bc81abf",
-  "total_entries_completed": 33181,
+  "last_commit_hash": "UPDATE_AFTER_COMMIT",
+  "total_entries_completed": 33466,
   "estimated_total_entries": 71992,
-  "next_action": "Continue retranslation from line 231171 onwards (translate b4001_funandgamesdebug and subsequent sections)",
+  "next_action": "Continue retranslation from line 234399 onwards (translate b4001_sal section)",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
