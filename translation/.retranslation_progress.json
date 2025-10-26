@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 221515,
-      "entries_completed": 31679,
+      "current_line": 224463,
+      "entries_completed": 32109,
       "status": "in_progress",
-      "note": "Lines 220253-221514: Translated 241 entries. Sections: (1) b3001_mothernancyreliance completion (176/376 entries - Mother Nancy Reliance dialogues); (2) b3001_reagansconsole (60 entries - Reagan console interactions, StarstationWars game, transfer options); (3) b3001_reagantransformation (5 entries - Valor transformation dialogues). All structure protected (\"\" markers, <i> tags, Script Node, \\n\\r escapes, ::action:: markup). Continue from line 221515 (b3001_ronaldreagan_thegipper section)."
+      "note": "Lines 221515-224462: Translated 430 entries. Sections: (1) b3001_ronaldreagan_thegipper (201 entries - Reagan Gipper dialogues, cold war rhetoric, glitching AI behavior); (2) b3001_sisternancyforge (149 entries - Nancy Forge merchant/armorer, weapon crafting, oil field mission); (3) b3001_sisternancyglory (80/163 entries partial - Nancy Glory dialogues, Godfisher threats). All structure protected (\"\" markers, ::action:: markup, Script Node, \\n\\r escapes). Continue from line 224463 (b3001_sisternancyglory continuation)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -39,9 +39,9 @@
     }
   },
   "last_commit_hash": "HEAD",
-  "total_entries_completed": 31679,
+  "total_entries_completed": 32109,
   "estimated_total_entries": 71992,
-  "next_action": "Continue retranslation from line 221515 onwards (b3001_ronaldreagan_thegipper section - Reagan Gipper dialogues)",
+  "next_action": "Continue retranslation from line 224463 onwards (b3001_sisternancyglory section continuation - Nancy Glory remaining 83 entries)",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
