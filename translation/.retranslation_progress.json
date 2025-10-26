@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 227745,
-      "entries_completed": 32577,
+      "current_line": 228948,
+      "entries_completed": 32777,
       "status": "in_progress",
-      "note": "Lines 226722-227745: Translated 288 entries. Sections: (1) b3001_thezealot_valor (245 entries - Valor Buchanan main dialogues, Gipper compound, tech support quests, Reagan transfer); (2) b3001_thezealot_valorlocal (43/108 entries - Valor local dialogues with Vic, family dynamics). All structure protected (\"\" markers, Script Node, \\n\\r escapes, <i> tags, ::action:: markers). Next: complete b3001_thezealot_valorlocal (65 entries remaining, starting line 227745)."
+      "note": "Lines 227746-228947: Translated 200 entries across multiple sections including b3001_thezealot_valorlocal (completed), b3001_thezealot_valor_update (completed), and scattered entries in various sections. All structure protected (\"\" markers, Script Node, \\n\\r escapes, <i> tags, ::action:: markers). Next: translate b4001_carty section (94 entries, lines 228948-229134) and continue sequential translation."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -38,10 +38,10 @@
       "status": "pending"
     }
   },
-  "last_commit_hash": "00d1055",
-  "total_entries_completed": 32577,
+  "last_commit_hash": "0924ce8",
+  "total_entries_completed": 32777,
   "estimated_total_entries": 71992,
-  "next_action": "Continue retranslation from line 227745 onwards (complete b3001_thezealot_valorlocal section - 65 entries remaining)",
+  "next_action": "Continue retranslation from line 228948 onwards (translate b4001_carty section - 94 entries)",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
