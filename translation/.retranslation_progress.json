@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 246013,
-      "entries_completed": 35175,
+      "current_line": 250981,
+      "entries_completed": 35979,
       "status": "in_progress",
-      "note": "Lines 244681-246012: Translated 216 entries in b1001_postgipperhardheads (Hard-Heads post-Gipper dialogues), b1001_radio_mission_gippersvsgodfishers (Gippers vs Godfishers radio mission - 159 entries), b1001_rangerstookreaganhostage (Reagan hostage scenario - 25 entries). All structure protected (\"\" markers, <i>, \\n, ::action:: preserved). Script Node entries kept as-is. Next: continue with b1001_sabotagestatue section (line 246013+)."
+      "note": "Lines 248257-250980: Translated 500 entries in b1201_fishlips_companionbarksinscene (14 entries), b1201_secondaryhardheads (1 entry), b4001_animalwarning (5 entries), b4001_berttheflippabletortoise (35 entries), b4001_campremains01 (4 entries), b4001_combatbarks_communecivilians (18 entries), b4001_communeturret (10 entries), b4001_companionbarks (56 entries), b4001_eastdoorrobot (26 entries), b4001_erastusdorsey (12 entries), b4001_gameconsole01 (75 entries), b4001_gameconsole02 (30 entries), b4001_gameconsole_02 (4 entries), b4001_radio_mitower (9 entries), b4001_sal_and_partypal (48 entries), b4001_vici (66 entries). All structure protected (\"\" markers, <i>, \\n, ::action:: preserved). Script Node entries kept as-is. Next: continue with b4001_welcomerobot section (line 250981+)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -38,10 +38,10 @@
       "status": "pending"
     }
   },
-  "last_commit_hash": "f272e5a",
-  "total_entries_completed": 35175,
+  "last_commit_hash": "47d44c4",
+  "total_entries_completed": 35979,
   "estimated_total_entries": 71992,
-  "next_action": "Continue retranslation from line 246013 onwards (translate b1001_sabotagestatue section)",
+  "next_action": "Continue retranslation from line 250981 onwards (translate b4001_welcomerobot section)",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
