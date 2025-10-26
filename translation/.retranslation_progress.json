@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 236413,
-      "entries_completed": 33798,
+      "current_line": 237913,
+      "entries_completed": 34040,
       "status": "in_progress",
-      "note": "Lines 234399-236412: Translated 332 entries in sections: (1) b4001_sal (227 entries - SAL radio DJ broadcasts, Machine Commune voice, Denver news, music commentary); (2) b4001_sexbot (105 entries - Little Sparrow robot dialogues, erotic poetry, player interactions, companion reactions). All structure protected (\"\" markers, Script Node, ::action::, \\n preserved). Next: continue with b4001_unnamedgippers section."
+      "note": "Lines 236413-237912: Translated 242 entries in sections: (1) b4001_unnamedgippers (109 entries - Gipper compound NPC barks, Reagan faith dialogues); (2) b4001_unnamedgippers_exchange (24 entries - Gipper civilian exchanges); (3) blaaah (1 entry - empty); (4) deletemeaftertest105pm (108 entries - Valor Buchanan dialogues, Gipper/Reagan body transfer, brother confrontation with Vic). Fixed previously untranslated English sections in deletemeaftertest105pm. All structure protected (\"\" markers, Script Node, ::action::, \\n, <i>, \\r\\n preserved). Next: continue with o1001_sixfingeredlarry_obolete section."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -38,10 +38,10 @@
       "status": "pending"
     }
   },
-  "last_commit_hash": "fd919b2",
-  "total_entries_completed": 33798,
+  "last_commit_hash": "198ea13",
+  "total_entries_completed": 34040,
   "estimated_total_entries": 71992,
-  "next_action": "Continue retranslation from line 236413 onwards (translate b4001_unnamedgippers section)",
+  "next_action": "Continue retranslation from line 237913 onwards (translate o1001_sixfingeredlarry_obolete section)",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
