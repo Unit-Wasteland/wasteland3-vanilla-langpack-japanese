@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 243385,
-      "entries_completed": 34745,
+      "current_line": 244681,
+      "entries_completed": 34959,
       "status": "in_progress",
-      "note": "Lines 241699-243384: Translated 273 entries in sections: (1) b1001_gippertrial (126 entries - Gipper trial scene, Reagan/Nancy Reliance dialogues); (2) b1001_gipper_switchguard (62 entries - Sacred Switch guard dialogues); (3) b1001_godfishers (61 entries - Godfisher faction rituals); (4) b1001_godfishers_rejectinteractions (24 entries - rejection barks). All structure protected (\"\" markers, <i>, \\n, ::action:: preserved). Next: continue with b1001_mothernancyreliance section (line 243385+)."
+      "note": "Lines 243385-244680: Translated 214 entries in b1001_mothernancyreliance section (Mother Nancy Reliance dialogues - Reagan transfer mission, Cybernetic Transfer Module explanations, Gipper lore, Nancy hierarchy, Valor negotiations). All structure protected (\"\" markers, <i>, \\n, ::action:: preserved). Script Node entries kept as-is. Next: continue with b1001_postgipperhardheads section (line 244681+)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -38,10 +38,10 @@
       "status": "pending"
     }
   },
-  "last_commit_hash": "d1b39a5",
-  "total_entries_completed": 34745,
+  "last_commit_hash": "1c54a8a",
+  "total_entries_completed": 34959,
   "estimated_total_entries": 71992,
-  "next_action": "Continue retranslation from line 243385 onwards (translate b1001_mothernancyreliance section)",
+  "next_action": "Continue retranslation from line 244681 onwards (translate b1001_postgipperhardheads section)",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
