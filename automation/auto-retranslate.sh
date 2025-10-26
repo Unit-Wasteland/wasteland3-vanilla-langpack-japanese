@@ -133,30 +133,68 @@ release_lock() {
 # Ensure lock is released on exit
 trap release_lock EXIT INT TERM
 
-# Read retranslation progress
-get_progress_entries() {
-    local progress_file="$WORKING_DIR/translation/.retranslation_progress.json"
-    if [ -f "$progress_file" ]; then
-        jq -r '.total_entries_completed // 0' "$progress_file"
-    else
-        echo 0
+# Helper function: safe JSON read with retry logic
+safe_jq_read() {
+    local jq_query="$1"
+    local json_file="$2"
+    local default_value="${3:-0}"
+
+    if [ ! -f "$json_file" ]; then
+        echo "$default_value"
+        return
     fi
+
+    # Retry up to 5 times with exponential backoff
+    local max_retries=5
+    local retry=0
+    local result
+
+    while [ $retry -lt $max_retries ]; do
+        # Small delay to ensure file write is complete
+        sleep 0.2
+
+        # Attempt to read JSON with jq
+        result=$(jq -r "$jq_query" "$json_file" 2>/dev/null)
+        local jq_exit_code=$?
+
+        # Success - return result
+        if [ $jq_exit_code -eq 0 ] && [ ! -z "$result" ]; then
+            echo "$result"
+            return
+        fi
+
+        # Failed - retry
+        retry=$((retry + 1))
+        if [ $retry -lt $max_retries ]; then
+            log "WARN" "JSON read failed (attempt $retry/$max_retries), retrying in $((retry * 2)) seconds..."
+            sleep $((retry * 2))
+        fi
+    done
+
+    # All retries failed - use fallback
+    log "ERROR" "Failed to read JSON after $max_retries attempts (query: $jq_query), using fallback: $default_value"
+    echo "$default_value"
 }
 
-# Check if retranslation is complete
+# Read retranslation progress (uses safe_jq_read)
+get_progress_entries() {
+    local progress_file="$WORKING_DIR/translation/.retranslation_progress.json"
+    safe_jq_read '.total_entries_completed // 0' "$progress_file" 0
+}
+
+# Check if retranslation is complete (uses safe_jq_read)
 is_retranslation_complete() {
     local progress_file="$WORKING_DIR/translation/.retranslation_progress.json"
-    if [ -f "$progress_file" ]; then
-        local status_base status_dlc1 status_dlc2
-        status_base=$(jq -r '.files.base_game.status' "$progress_file")
-        status_dlc1=$(jq -r '.files.dlc1.status' "$progress_file")
-        status_dlc2=$(jq -r '.files.dlc2.status' "$progress_file")
+    local status_base status_dlc1 status_dlc2
 
-        if [[ "$status_base" == "completed" ]] && \
-           [[ "$status_dlc1" == "completed" ]] && \
-           [[ "$status_dlc2" == "completed" ]]; then
-            return 0  # Complete
-        fi
+    status_base=$(safe_jq_read '.files.base_game.status' "$progress_file" "in_progress")
+    status_dlc1=$(safe_jq_read '.files.dlc1.status' "$progress_file" "pending")
+    status_dlc2=$(safe_jq_read '.files.dlc2.status' "$progress_file" "pending")
+
+    if [[ "$status_base" == "completed" ]] && \
+       [[ "$status_dlc1" == "completed" ]] && \
+       [[ "$status_dlc2" == "completed" ]]; then
+        return 0  # Complete
     fi
     return 1  # Not complete
 }
