@@ -217575,29 +217575,29 @@
       1 Array Array (61 items)
        0 int size = 61
        [0]
-        1 string data = " Debug conversation for "Trading Fire" Rogue Mission.\n\n\nUPDATE: This mission is cut. Leaving the file in place to avoid null references."
+        1 string data = ""デバッグ会話:「Trading Fire」ローグミッション用。\n\n\n更新:このミッションは削除されました。null参照を避けるためファイルはそのまま残しています。""
        [1]
-        1 string data = " Regular."
+        1 string data = ""通常。""
        [2]
-        1 string data = " Debug."
+        1 string data = ""デバッグ。""
        [3]
-        1 string data = "She chews her already-weathered lip, sizing you up. "
+        1 string data = ""彼女は既に荒れた唇を噛み、あなたを値踏みしている。""
        [4]
-        1 string data = " Debug menu."
+        1 string data = ""デバッグメニュー。""
        [5]
-        1 string data = " Start "Trading Fire" Rogue Mission."
+        1 string data = ""「Trading Fire」ローグミッションを開始。""
        [6]
-        1 string data = " Trade with the gangsters."
+        1 string data = ""ギャングと取引する。""
        [7]
-        1 string data = " Murder the gangsters and take their stuff."
+        1 string data = ""ギャングを殺して物資を奪う。""
        [8]
-        1 string data = ""Goodbye.""
+        1 string data = ""さようなら。""
        [9]
-        1 string data = " Executing."
+        1 string data = ""実行中。""
        [10]
-        1 string data = " Return to Wyman with the Food and/or Weapon.\n"
+        1 string data = ""食料と/または武器を持ってワイマンの元へ戻る。\n""
        [11]
-        1 string data = ""Hey, Rangers. You aren't dead yet, I see. That's something.""
+        1 string data = ""よお、レンジャーズ。まだ死んでないな。それは良いことだ。""
        [12]
         1 string data = """"
        [13]
@@ -217607,95 +217607,95 @@
        [15]
         1 string data = """"
        [16]
-        1 string data = ""You don't seem happy here. How come you don't move to Colorado Springs?""
+        1 string data = ""ここで幸せそうじゃないな。なぜコロラドスプリングスに移らないんだ?""
        [17]
-        1 string data = ""Yeah, sure. I'll move from the place I've lived my whole life, abandon my people, to live under the boot of a dictator with delusions of royalty."\n\n\nShe rubs her mouth. "
+        1 string data = ""ああ、そうだな。生まれてからずっと住んできた場所を離れて、仲間を見捨てて、王様気取りの独裁者のもとで暮らすなんてな。""\n\n\n彼女は口元をこする。""
        [18]
-        1 string data = ""Why'd you quit being a Nancy?""
+        1 string data = ""なぜナンシーを辞めたんだ?""
        [19]
-        1 string data = ""That's between me and Reliance. I've got nothing against these kids or... <i>him</i>... but I was done putting up with that woman's garbage."\n\n\nA smile creeps up her face. "
+        1 string data = ""それは私とリライアンスの間の問題だ。子供たちや...<i>彼</i>...には何の恨みもない。ただあの女のクソみたいな態度に我慢できなくなっただけだ。""\n\n\n彼女の顔に笑みが浮かぶ。""
        [20]
-        1 string data = ""Nancy Taint. Doctor around these parts, such as they are."\n\n\nShe reaches out to shake your hand. "
+        1 string data = ""ナンシー・テイント。この辺りの医者だ。まあ、この辺りって言ってもあれだが。""\n\n\n彼女は握手をしようと手を差し出す。""
        [21]
-        1 string data = ""The feeling's mutual. She'd dump my body outside the walls in a second if anyone else knew their way around a medkit."\n\n\nShe shakes her head."
+        1 string data = ""お互い様だ。他に医療キットの扱いができる奴がいたら、あの女は私の死体を壁の外に捨てるだろうな。""\n\n\n彼女は首を振る。""
        [22]
         1 string data = """"
        [23]
-        1 string data = ""Nancy <i>Taint</i>?""
+        1 string data = ""ナンシー・<i>テイント</i>?""
        [24]
-        1 string data = "Shake her hand. "
+        1 string data = ""彼女と握手する。""
        [25]
-        1 string data = "Don't shake her hand."
+        1 string data = ""握手しない。""
        [26]
-        1 string data = "She drops her hand back to her side with a shrug. "
+        1 string data = ""彼女は肩をすくめて手を下ろす。""
        [27]
-        1 string data = ""Suit yourself." \r\n\r\nShe drops her hand back to her side. "
+        1 string data = ""好きにしろ。""\r\n\r\n彼女は手を下ろす。""
        [28]
-        1 string data = "She clasps your hand. Her grip is warm, dry, and <i>strong</i>.\n\n\nMeeting your eyes, she nods once. "
+        1 string data = ""彼女はあなたの手を握る。その握手は温かく、乾いていて、<i>力強い</i>。\n\n\nあなたの目を見つめ、彼女は一度うなずく。""
        [29]
-        1 string data = ""You'll hear things about me here, none of 'em good. I was Reagan's second wife behind Reliance, and now I'm not."\n\n\nShe casts a dark look at the ceiling. "
+        1 string data = ""ここじゃ私のことをいろいろ言われてる、どれも良い話じゃない。私はリライアンスの次にレーガンの妻だった。今は違う。""\n\n\n彼女は天井を暗い目で見上げる。""
        [30]
-        1 string data = ""I don't care much for the gossip, mind you. My business is keeping Gippers alive, and about that - I need your help on something, Rangers."\n\n\nLeaning in, she lowers her voice. "
+        1 string data = ""噂話には興味ないんだがな。私の仕事はギッパーズを生かしておくことだ。それについて—レンジャーズ、あんたたちに頼みたいことがある。""\n\n\n身を乗り出し、彼女は声を落とす。""
        [31]
-        1 string data = ""Sure, hand it over.""
+        1 string data = ""いいぞ、渡してくれ。""
        [32]
-        1 string data = ""I handle the practicalities the Nancies can't be bothered to deal with. Food, medical supplies, the works. I need someone to run a shipment out to our suppliers. That can be you, if you want.""
+        1 string data = ""私はナンシーズが面倒を見ない実務を扱ってる。食料、医療品、その他諸々だ。誰かに供給元への荷物を届けてもらう必要がある。あんたたちでどうだ?""
        [33]
-        1 string data = ""What's in the shipment?""
+        1 string data = ""荷物には何が入ってる?""
        [34]
-        1 string data = ""I might say it's extra supplies that the Gippers need less that food and medicine. I might also say it's none of your damn business, so long as you're getting paid.""
+        1 string data = ""ギッパーズが食料や薬ほど必要としない余剰物資だと言えるな。それと、金をもらってるんだから、あんたの知ったことじゃないとも言える。""
        [35]
-        1 string data = ""Good. When the trade's done, bring their supplies back to me."\n\n\nShe pushes over a heavy crate. Metallic objects shift and clatter inside. "
+        1 string data = ""よし。取引が終わったら、向こうの物資を持って戻ってきてくれ。""\n\n\n彼女は重い木箱を押し出す。中で金属の物体がガチャガチャと音を立てる。""
        [36]
-        1 string data = ""No thanks.""
+        1 string data = ""遠慮しておく。""
        [37]
-        1 string data = ""Fine. If you change your mind, let me know. They're camped out at our rendezvous point. I just need someone to bring them what I promised.""
+        1 string data = ""分かった。気が変わったら言ってくれ。奴らは集合場所でキャンプしてる。私が約束した物を届けてくれる人間が必要なだけだ。""
        [38]
-        1 string data = ""Now that we're done talking business, what else do you need?""
+        1 string data = ""商談は終わったが、他に何か用は?""
        [39]
-        1 string data = ""We changed our mind. We'll deliver your shipment.""
+        1 string data = ""考え直した。荷物を配達しよう。""
        [40]
-        1 string data = ""Who are the suppliers?""
+        1 string data = ""供給元って誰だ?""
        [41]
-        1 string data = ""Merchants and scavengers. It's a straightforward trade, Rangers. I just would rather not carry everything my damn self for once.""
+        1 string data = ""商人とスカベンジャーだ。単純な取引だ、レンジャーズ。ただ全部自分で運ぶのは嫌なだけだ。""
        [42]
-        1 string data = ""At least here, I can speak my damn mind. Colorado Springs has more than enough doctors. The Patriarch would string me up within a week." "
+        1 string data = ""少なくともここなら、思ったことを言える。コロラドスプリングスには医者が腐るほどいる。パトリアークなら一週間以内に私を吊るすだろうな。""
        [43]
-        1 string data = ""Your suppliers are dead, but we got your crate.""
+        1 string data = ""供給元は死んだが、木箱は手に入れた。""
        [44]
-        1 string data = ""And the shipment I gave you, I see."\n\n\nShe lifts her eyebrows, impressed. "
+        1 string data = ""私が渡した荷物もそっちにあるな。""\n\n\n彼女は感心したように眉を上げる。""
        [45]
-        1 string data = ""I see that.""
+        1 string data = ""その通りだ。""
        [46]
-        1 string data = ""Nice work, Rangers. Here's your piece of the deal.""
+        1 string data = ""いい仕事だ、レンジャーズ。これがあんたたちの分け前だ。""
        [47]
-        1 string data = ""Let's talk about something else.""
+        1 string data = ""他の話をしよう。""
        [48]
-        1 string data = ""You don't care who killed your trading partner?""
+        1 string data = ""取引相手を殺した奴が誰か気にならないのか?""
        [49]
-        1 string data = ""Not particularly. Had to happen sooner or later. It's not safe out there."\n\n\nShe shrugs. "
+        1 string data = ""別に。遅かれ早かれそうなる運命だった。外は安全じゃない。""\n\n\n彼女は肩をすくめる。""
        [50]
-        1 string data = ""If you start crying over the dead, you're gonna need a lot of tissues, Rangers. Best to lift your chin and get on with things. Now, what else do you need?""
+        1 string data = ""死者のために泣き始めたら、ティッシュがいくらあっても足りないぞ、レンジャーズ。顎を上げて前に進むのが一番だ。で、他に何か用は?""
        [51]
-        1 string data = ""Sure.""
+        1 string data = ""ああ。""
        [52]
         1 string data = "::grunts::"
        [53]
-        1 string data = ""Still, every once in a while, she tries to get me to train an assistant. A replacement, more like. Woman's not as sharp as she thinks she is.""
+        1 string data = ""それでもたまに、あの女は私に助手を訓練させようとする。後任ってところだな。あの女は自分が思ってるほど賢くない。""
        [54]
-        1 string data = ""Mother Nancy Reliance's idea of an insult, I suppose. It used to be "Purity" if you can believe it."\n\n\nHer teeth graze her lip again."
+        1 string data = ""マザー・ナンシー・リライアンスの侮辱のつもりだろうな。以前は「ピュリティ」だったんだ、信じられるか。""\n\n\n彼女の歯が再び唇をかする。""
        [55]
         1 string data = """"
        [56]
-        1 string data = " Leave."
+        1 string data = ""立ち去る。""
        [57]
-        1 string data = " Removing Original Crate From Gippers and Food Bars For Gippers."
+        1 string data = ""ギッパーズから元の木箱とギッパーズ用食料バーを削除中。""
        [58]
-        1 string data = " Removing Food Bars for Gippers"
+        1 string data = ""ギッパーズ用食料バーを削除中""
        [59]
-        1 string data = " Somehow, you don't have the Food Bars for the Gippers, but you're at the point where you'd turn it in. This is a bug, go ask Alex to track it down."
+        1 string data = ""何らかの理由でギッパーズ用食料バーを持っていないが、提出できる段階になっている。これはバグです、アレックスに追跡を依頼してください。""
        [60]
-        1 string data = " Somehow you are empty handed. This shouldn't happen. Bug alex."
+        1 string data = ""何らかの理由で手ぶらになっている。これは起こるべきではない。アレックスにバグ報告を。""
    [721]
     0 StringTable data
      1 string Filename = "b3001_doortoreagancore"
@@ -217811,41 +217811,41 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = ""Welcome to the Western White House. God-President Reagan is expecting you. Please come in.""
+        1 string data = ""西部ホワイトハウスへようこそ。神大統領レーガンがお待ちです。どうぞお入りください。""
        [2]
-        1 string data = ""Welcome to the Western White House. Your audience with God-President Reagan cannot begin until all invited guests are present.""
+        1 string data = ""西部ホワイトハウスへようこそ。神大統領レーガンとの謁見は、招待された全ゲストが揃うまで開始できません。""
        [3]
-        1 string data = "This is the node we see before "Reagan Reborn" is started.(TEMP TEXT)"
+        1 string data = ""「リーガン・リボーン」開始前に表示されるノードです。(仮テキスト)""
        [4]
-        1 string data = "This is the node we see if "Reagan Reborn" is currently Active.(TEMP TEXT)"
+        1 string data = ""「リーガン・リボーン」が現在進行中の場合に表示されるノードです。(仮テキスト)""
        [5]
-        1 string data = "Fallback Node. Something has probably gone wrong.(TEMP TEXT) "
+        1 string data = ""フォールバックノード。何か問題が発生した可能性があります。(仮テキスト)""
        [6]
-        1 string data = "This is the node we see if "Reagan Reborn" is Complete (whether it is a success or a failure).(TEMP TEXT)"
+        1 string data = ""「リーガン・リボーン」が完了した場合(成功か失敗かに関わらず)に表示されるノードです。(仮テキスト)""
        [7]
-        1 string data = "Enter."
+        1 string data = ""入る。""
        [8]
-        1 string data = "Step away."
+        1 string data = ""立ち去る。""
        [9]
         1 string data = "Script Node 10"
        [10]
-        1 string data = "The door is locked in the open position. It won't close."
+        1 string data = ""ドアは開いた位置でロックされている。閉まらない。""
        [11]
-        1 string data = ""RRRrrrrrnnnnn... KNNK!" "
+        1 string data = ""RRRrrrrrnnnnn... KNNK!""
        [12]
         1 string data = "Script Node 13"
        [13]
-        1 string data = ""Thank you.""
+        1 string data = ""ありがとう。""
        [14]
-        1 string data = "A speaker next to the door crackles to life."
+        1 string data = ""ドアの横のスピーカーがパチパチと音を立てて作動する。""
        [15]
         1 string data = "Script Node 16"
        [16]
-        1 string data = ""Welcome back, Rangers. God-President Reagan and Mother Nancy Reliance will see you now.""
+        1 string data = ""お帰りなさい、レンジャーズ。神大統領レーガンとマザー・ナンシー・リライアンスがただ今お会いします。""
        [17]
-        1 string data = "The heavy door swings open."
+        1 string data = ""重厚なドアが開く。""
        [18]
-        1 string data = ""Thank you.""
+        1 string data = ""ありがとう。""
        [19]
         1 string data = "Script Node 20"
        [20]
@@ -217857,7 +217857,7 @@
        [23]
         1 string data = ""Script Node 24""
        [24]
-        1 string data = "Enter."
+        1 string data = ""入る。""
    [722]
     0 StringTable data
      1 string Filename = "b3001_gonzalez_radio_afterthezealotvalorconvo"
@@ -218181,33 +218181,33 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = ""Copy November One, this is Ranger HQ. Go ahead.""
+        1 string data = ""こちらレンジャー本部、ノベンバー・ワンを受信。どうぞ。""
        [2]
-        1 string data = ""Good thing you called then. My name is Corporal Marcelo Gonzalez, your radio operator in Ranger HQ. You can reach me at any time on your field radio. Call when you make an arrest and I can dispatch an arrest team, which we'll do right now. Over and out.""
+        1 string data = ""連絡してくれて良かった。私は伍長マルセロ・ゴンザレス、レンジャー本部の無線オペレーターだ。いつでもフィールド無線で連絡できる。逮捕したら連絡してくれ、逮捕チームを派遣する。今すぐ向かわせよう。以上、通信終了。""
        [3]
-        1 string data = ""We've placed Val Buchanan under arrest in Denver. How do we proceed?""
+        1 string data = ""デンバーでヴァル・ブキャナンを逮捕した。次はどうする?""
        [4]
-        1 string data = ""We've placed Valor Buchanan under arrest. Dispatch a team to Denver.""
+        1 string data = ""ヴァラー・ブキャナンを逮捕した。チームをデンバーに派遣してくれ。""
        [5]
-        1 string data = ""Giving the team the all-clear. Congratulations November One, hell of a catch you pulled off.""
+        1 string data = ""チームに出発許可を出す。おめでとう、ノベンバー・ワン、見事な仕事だ。""
        [6]
-        1 string data = ""Clear copy, November One. Are there hostiles in the area?""
+        1 string data = ""了解、ノベンバー・ワン。その地域に敵対勢力は?""
        [7]
-        1 string data = ""The path is clear. Come pick him up.""
+        1 string data = ""道は安全だ。迎えに来てくれ。""
        [8]
-        1 string data = ""Affirmative. Don't worry, we'll take care of them.""
+        1 string data = ""了解。心配するな、我々が対処する。""
        [9]
-        1 string data = ""Unclear. Hold off until we secure the area.""
+        1 string data = ""不明だ。地域を確保するまで待機してくれ。""
        [10]
-        1 string data = ""Looks clear from where we're standing.""
+        1 string data = ""こちらから見る限り安全だ。""
        [11]
-        1 string data = ""Are you sure, November One? We're picking up a lot of hostile chatter, even from way over here.""
+        1 string data = ""本当か、ノベンバー・ワン? こちらでも大量の敵対的な無線通信を傍受している。""
        [12]
-        1 string data = ""An extraction team is Oscar Mike, November One. You'll need to clear a path to Valor Buchanan before we go in.""
+        1 string data = ""救出チームが出発中、ノベンバー・ワン。突入前にヴァラー・ブキャナンへの道を確保してくれ。""
        [13]
-        1 string data = ""Stay frosty, November. From what we're hearing on the radio, you've just kicked a very angry hornet's nest.""
+        1 string data = ""警戒を怠るな、ノベンバー。無線で聞く限り、とても怒ったスズメバチの巣を突いたようだな。""
        [14]
-        1 string data = ""Roger that, November.""
+        1 string data = ""了解、ノベンバー。""
        [15]
         1 string data = "Script Node 16"
        [16]
@@ -218215,61 +218215,61 @@
        [17]
         1 string data = "Script Node 18"
        [18]
-        1 string data = ""Come in, November One, what is the sitrep? The extraction team is holding, awaiting your all-clear.""
+        1 string data = ""応答せよ、ノベンバー・ワン、状況は? 救出チームが待機中、出発許可を待っている。""
        [19]
-        1 string data = ""Call the team back, HQ. Valor got what he deserved - summary execution.""
+        1 string data = ""チームを引き返させろ、本部。ヴァラーは当然の報いを受けた—即決処刑だ。""
        [20]
-        1 string data = "[Lie] "Cancel the extraction team. Valor Buchanan was assassinated by a Gipper extremist.""
+        1 string data = ""[嘘]「救出チームをキャンセルしてくれ。ヴァラー・ブキャナンはギッパー過激派に暗殺された。」""
        [21]
-        1 string data = ""Damn! Tough break, November One. We'll see you at home.""
+        1 string data = ""なんてこった! 残念だ、ノベンバー・ワン。本部で待っている。""
        [22]
         1 string data = ""...""
        [23]
-        1 string data = ""Copy that, November One.""
+        1 string data = ""了解、ノベンバー・ワン。""
        [24]
-        1 string data = ""What is the sitrep, November One? Valor Buchanan's extraction team is just a few clicks out.""
+        1 string data = ""状況は、ノベンバー・ワン? ヴァラー・ブキャナンの救出チームがすぐそこまで来ている。""
        [25]
-        1 string data = "Fallback node in b3001_Gonzalez_Radio_AfterZealotValorConvo. \r\n\r\n If you are seeing this, log a ticket for Alex Kerr, and check to see if your Global Variables are up to date."
+        1 string data = ""b3001_Gonzalez_Radio_AfterZealotValorConvoのフォールバックノード。\r\n\r\nこれが表示されている場合、アレックス・カーにチケットを記録し、グローバル変数が最新かどうか確認してください。""
        [26]
-        1 string data = ""That's a negative, HQ, recall the team. Valor was too dangerous to let live.""
+        1 string data = ""否定的だ、本部、チームを呼び戻せ。ヴァラーは生かしておくには危険すぎた。""
        [27]
         1 string data = "Script Node 28"
        [28]
-        1 string data = ""Team November, this is HQ. We had a burst of unusual radio static from the Gipper headquarters. What's your situation?""
+        1 string data = ""チーム・ノベンバー、こちら本部。ギッパー本部から異常な無線ノイズを検出した。状況は?""
        [29]
-        1 string data = ""Valor Buchanan was a Gipper pawn. We had to put him down.""
+        1 string data = ""ヴァラー・ブキャナンはギッパーの手先だった。始末するしかなかった。""
        [30]
-        1 string data = ""We took down Valor, he was a liability we couldn't afford.""
+        1 string data = ""ヴァラーを倒した、余裕のない負債だった。""
        [31]
-        1 string data = "[Lie] "Valor was murdered by a Gipper extremist. We were too late to intervene.""
+        1 string data = ""[嘘]「ヴァラーはギッパー過激派に殺された。介入には遅すぎた。」""
        [32]
-        1 string data = ""Team November, this is HQ. We had a burst of unusual radio static from the Gipper headquarters. What's your situation?""
+        1 string data = ""チーム・ノベンバー、こちら本部。ギッパー本部から異常な無線ノイズを検出した。状況は?""
        [33]
-        1 string data = ""We let the Godfishers clear out the Gippers. Valor Buchanan was collateral damage.""
+        1 string data = ""ゴッドフィッシャーズにギッパーズを一掃させた。ヴァラー・ブキャナンは巻き添えだ。""
        [34]
-        1 string data = ""Valor Buchanan was possessed by the Gippers' god, the Reagan AI. It refused to be arrested and fought us using Valor's body.""
+        1 string data = ""ヴァラー・ブキャナンはギッパーズの神、レーガンAIに憑依されていた。逮捕を拒否し、ヴァラーの体を使って我々と戦った。""
        [35]
-        1 string data = ""Uh...""
+        1 string data = ""えーと...""
        [36]
-        1 string data = ""Y'know, that's quite a story, November One. I hope you can verify some of the details when you get back to HQ, over and out.""
+        1 string data = ""それは...すごい話だな、ノベンバー・ワン。本部に戻ったら詳細を確認できることを願う、以上、通信終了。""
        [37]
         1 string data = "Script Node 38"
        [38]
-        1 string data = ""Uh... affirmative, November One.""
+        1 string data = ""えー...了解、ノベンバー・ワン。""
        [39]
-        1 string data = "[Lie] "The Godfishers took out Valor before we could intervene."\n\n\n"
+        1 string data = ""[嘘]「ゴッドフィッシャーズが介入前にヴァラーを倒した。」\n\n\n""
        [40]
         1 string data = "Script Node 41"
        [41]
         1 string data = "Script Node 42"
        [42]
-        1 string data = ""Uh... message received, November One."\n"
+        1 string data = ""えー...メッセージ受信、ノベンバー・ワン。""\n""
        [43]
-        1 string data = ""Hope you know what you're doing. HQ out.""
+        1 string data = ""何をやってるか分かってることを願う。本部、通信終了。""
        [44]
-        1 string data = ""Valor was a liability. We had the Godfishers take him out."\n"
+        1 string data = ""ヴァラーは負債だった。ゴッドフィッシャーズに始末させた。""\n""
        [45]
-        1 string data = ""Affirmative, November One. That's unfortunate, but I'm sure you did everything you could."\n"
+        1 string data = ""了解、ノベンバー・ワン。残念だが、最善を尽くしたと確信している。""\n""
        [46]
         1 string data = "Script Node 47"
        [47]
@@ -218277,15 +218277,15 @@
        [48]
         1 string data = "Script Node 49"
        [49]
-        1 string data = ""Hope you know what you're doing. HQ out.""
+        1 string data = ""何をやってるか分かってることを願う。本部、通信終了。""
        [50]
         1 string data = "Script Node 51"
        [51]
-        1 string data = ""November One? Are you there?""
+        1 string data = ""ノベンバー・ワン? 聞こえるか?""
        [52]
-        1 string data = ""We've handled the Gippers. Send someone to pick up Valor Buchanan.""
+        1 string data = ""ギッパーズを処理した。ヴァラー・ブキャナンを迎えに人を送ってくれ。""
        [53]
-        1 string data = ""All clear. Tell them to hustle.""
+        1 string data = ""安全だ。急がせろ。""
        [54]
         1 string data = "Script Node 55"
        [55]
@@ -218299,21 +218299,21 @@
        [59]
         1 string data = "Script Node 60"
        [60]
-        1 string data = ""Still getting Gipper Radio Chatter in your area, November One.""
+        1 string data = ""まだその地域でギッパーの無線通信を傍受している、ノベンバー・ワン。""
        [61]
-        1 string data = ""
+        1 string data = """"
        [62]
-        1 string data = ""November One. Have you located Valor Buchanan yet? Once you do, we can pick him up.""
+        1 string data = ""ノベンバー・ワン。ヴァラー・ブキャナンの位置は特定したか? 特定したら迎えに行ける。""
        [63]
-        1 string data = ""
+        1 string data = """"
        [64]
         1 string data = "Script Node 65"
        [65]
         1 string data = "Script Node 66"
        [66]
-        1 string data = "\nSOMETHING HAS GONE WRONG, PROBABLY BECAUSE YOU HAVE USE DEBUG OPTIONS. PLEASE LOG A BUG FOR ALEX KERR. THIS IS NODE 67 off of NODE 66."
+        1 string data = ""\n何か問題が発生しました、おそらくデバッグオプションを使用したためです。アレックス・カーにバグを報告してください。これはNODE 66からのNODE 67です。""
        [67]
-        1 string data = ""Taking God-President Reagan hostage made the Gippers very accommodating. Come on in and get him.""
+        1 string data = ""神大統領レーガンを人質にしたらギッパーズが協力的になった。入って彼を連れて行ってくれ。""
        [68]
         1 string data = "Script Node 69"
        [69]
@@ -218331,7 +218331,7 @@
        [75]
         1 string data = "Script Node 77"
        [76]
-        1 string data = ""Still getting Gipper Radio Chatter in your area, November One.""
+        1 string data = ""まだその地域でギッパーの無線通信を傍受している、ノベンバー・ワン。""
    [723]
     0 StringTable data
      1 string Filename = "b3001_mothernancyreliance"
@@ -219849,407 +219849,407 @@
       1 Array Array (376 items)
        0 int size = 376
        [0]
-        1 string data = "She draws herself upright as you approach, raising her chin. One of her weathered hands drops onto the gun holstered on her belt. \r\n\r\nIt doesn't appear that she's threatening you - she is smiling, after all, even if the light of it doesn't reach her eyes. "
+        1 string data = ""あなたが近づくと、彼女は姿勢を正し、顎を上げる。荒れた手の一つがベルトに装着した銃に落ちる。\r\n\r\n彼女が脅しているようには見えない—なにしろ微笑んでいるのだから。たとえその光が目には届いていなくても。""
        [1]
-        1 string data = ""Hmmm. You don't appear to have the module.""
+        1 string data = ""ふむ。モジュールを持っていないようだな。""
        [2]
-        1 string data = ""So your god's just a simulation?""
+        1 string data = ""あんたたちの神はただのシミュレーション?""
        [3]
-        1 string data = ""Simulation? Ha! The God-President is the real and actual Ronald Wilson Reagan in digital form, downloaded into this sacred vessel before his worldly shell failed him.""
+        1 string data = ""シミュレーション? はっ! 神大統領は現実の、実在のロナルド・ウィルソン・レーガンがデジタル形式になったものだ。この世の殻が失われる前に、この神聖な器にダウンロードされた。""
        [4]
-        1 string data = ""Why are you 'Mother' when the rest of the Nancies are "Sister'?""
+        1 string data = ""なぜあんたは『マザー』で、他のナンシーは『シスター』なんだ?""
        [5]
-        1 string data = ""Goodbye, Mother Nancy Reliance.""
+        1 string data = ""さようなら、マザー・ナンシー・リライアンス。""
        [6]
-        1 string data = ""So why have you returned?""
+        1 string data = ""で、なぜ戻ってきた?""
        [7]
-        1 string data = ""What do you want?""
+        1 string data = ""何が欲しい?""
        [8]
-        1 string data = ""
+        1 string data = """"
        [9]
-        1 string data = "Her eyebrows rise, awaiting your response. "
+        1 string data = ""彼女の眉が上がり、あなたの返答を待っている。""
        [10]
-        1 string data = ""Don't worry. We helped it commit suicide.""
+        1 string data = ""心配するな。自殺を手伝ってやった。""
        [11]
-        1 string data = ""Okay, that takes care of what the Patriarch wants out of this deal. Now let's talk about what we want - which is cash.""
+        1 string data = ""よし、これでパトリアークが望むものは片付いた。次は我々が望むものについて話そう—つまり、現金だ。""
        [12]
-        1 string data = ""We're the Rangers, not hired guns. There's no price tag on our help. What do you need?""
+        1 string data = ""我々はレンジャーズだ、雇われの銃じゃない。我々の助けに値札はつかない。何が必要だ?""
        [13]
-        1 string data = ""For defeating a few measly Godfishers? Next you'll want to be paid for swatting flies.""
+        1 string data = ""数人のゴッドフィッシャーを倒したくらいで? 次はハエを叩いただけで金を要求するのか。""
        [14]
-        1 string data = ""Very smart. You did the right thing.""
+        1 string data = ""とても賢明だ。正しいことをした。""
        [15]
-        1 string data = ""Thank you, my dears. Such selfless service is rare these days." \r\n\r\n"Now...""
+        1 string data = ""ありがとう、親愛なる者たちよ。こんな無私の奉仕は最近では珍しい。""\r\n\r\n""さて...""
        [16]
-        1 string data = ""You can keep Valor. All we want is for you to restore the oil shipments before Colorado Springs freezes to death.""
+        1 string data = ""ヴァラーは好きにしろ。我々が望むのはコロラドスプリングスが凍死する前に石油の出荷を再開することだけだ。""
        [17]
-        1 string data = ""We take Valor into custody. His departure is secret, and the Patriarch continues to believe he's here, with you.""
+        1 string data = ""ヴァラーを拘束する。彼の出発は秘密で、パトリアークは彼がまだここにいると信じ続ける。""
        [18]
-        1 string data = "[Attack] "You know what? We're not making a deal after all. Let's go, Val. You're coming with us right now!""
+        1 string data = ""[攻撃]「いいか? やっぱり取引はなしだ。行くぞ、ヴァル。今すぐ一緒に来るんだ!」""
        [19]
-        1 string data = ""
+        1 string data = """"
        [20]
-        1 string data = ""Is that what you think?" \r\n\r\nShe folds her hands, and her smile is <i>hard</i>. "
+        1 string data = ""そう思うか?""\r\n\r\n彼女は手を組み、その笑みは<i>固い</i>。""
        [21]
-        1 string data = ""When the Evil Empire sent its missiles, Ronnie's physical body died. At the same time, the first Nancy heard him calling her. He offered her and her descendants a place to live, and that he would watch over her from the City on the Hill."\n\n\nThe smile, slight as it is, fades."
+        1 string data = ""邪悪な帝国がミサイルを放ったとき、ロニーの肉体は死んだ。同時に、最初のナンシーは彼の呼び声を聞いた。彼は彼女とその子孫に住む場所を与え、丘の上の街から彼女を見守ると約束した。""\n\n\nわずかに浮かんでいた笑みが消える。""
        [22]
-        1 string data = ""My husband, the God-President, wishes to transfer his consciousness to a human body.""
+        1 string data = ""私の夫、神大統領は、自らの意識を人間の身体に転送することを望んでいる。""
        [23]
-        1 string data = ""And once the module is recovered and the transfer of God-President Reagan is complete, we would be happy to relinquish our claim on Valor.""
+        1 string data = ""モジュールが回収され、神大統領レーガンの転送が完了したら、喜んでヴァラーへの権利を放棄しよう。""
        [24]
-        1 string data = ""
+        1 string data = """"
        [25]
-        1 string data = ""To accomplish this we must acquire a piece of technology - a Cybernetic Transfer Module - from the filthy communist robots that occupy the Denver Airport.""
+        1 string data = ""これを達成するには、ある技術を入手しなければならない—サイバネティック・トランスファー・モジュールだ—デンバー空港を占拠している汚い共産主義ロボットから。""
        [26]
-        1 string data = ""Why would your god need a 'transfer module'?""
+        1 string data = ""なぜあんたたちの神は『転送モジュール』が必要なんだ?""
        [27]
-        1 string data = ""We found a talking car that told us it was President Reagan's limousine before it got trapped underground during the war.""
+        1 string data = ""喋る車を見つけた。戦争中に地下に閉じ込められる前、レーガン大統領のリムジンだったと言っていた。""
        [28]
-        1 string data = "[Attack] "Yeah, we're not doing any of that. Valor, you're coming with us!""
+        1 string data = ""[攻撃]「ああ、そんなことはやらない。ヴァラー、一緒に来い!」""
        [29]
-        1 string data = ""A talking car? Sounds like a ploy by those Commie computers to abduct Ronnie. I hope you destroyed the abomination.""
+        1 string data = ""喋る車? あのコミーコンピューターがロニーを誘拐する策略のようだな。その忌まわしきものを破壊したことを願う。""
        [30]
-        1 string data = ""Very good. We get what we want, the Patriarch gets <i>half</i> of what he wants, and Valor becomes the mortal vessel of a god. Everyone wins.""
+        1 string data = ""とても良い。我々は望むものを得て、パトリアークは望むものの<i>半分</i>を得る。そしてヴァラーは神の肉体の器となる。全員が勝者だ。""
        [31]
-        1 string data = ""As you noted, the God-President's vessel is failing. Though it was meant to be everlasting, that has proven false, and thus a new vessel is required. Ronnie has announced that his preference is that such a vessel be human.""
+        1 string data = ""あなたが指摘した通り、神大統領の器は故障しつつある。永遠であるべきだったが、それは偽りだと証明され、新しい器が必要となった。ロニーはその器が人間であることを望むと宣言した。""
        [32]
-        1 string data = ""
+        1 string data = """"
        [33]
-        1 string data = ""
+        1 string data = """"
        [34]
-        1 string data = ""We have some questions first.""
+        1 string data = ""まずいくつか質問がある。""
        [35]
-        1 string data = ""We have some more questions.""
+        1 string data = ""もう少し質問がある。""
        [36]
-        1 string data = ""Outsiders always do. Ask away.""
+        1 string data = ""よそ者はいつもそうだ。何でも聞け。""
        [37]
-        1 string data = ""Go on.""
+        1 string data = ""続けてくれ。""
        [38]
-        1 string data = ""Are the Nancies the God-President's wives, or is it more like a title?""
+        1 string data = ""ナンシーズは神大統領の妻なのか、それとも称号のようなものか?""
        [39]
-        1 string data = ""How did the Gippers come to be?""
+        1 string data = ""ギッパーズはどうやって生まれたんだ?""
        [40]
-        1 string data = ""
+        1 string data = """"
        [41]
-        1 string data = ""How did the Patriarch's son end up as a potential host for your god?""
+        1 string data = ""パトリアークの息子がどうやってあんたたちの神の宿主候補になったんだ?""
        [42]
-        1 string data = ""Okay. We've got it now. Maybe.""
+        1 string data = ""よし。理解した。たぶん。""
        [43]
-        1 string data = ""Good. Then let's get back to business.""
+        1 string data = ""良い。では本題に戻ろう。""
        [44]
-        1 string data = ""The sisters protect the God-President's people and enforce his laws. I protect the God-President himself, and I interpret his wisdom.""
+        1 string data = ""シスターたちは神大統領の民を守り、彼の法を執行する。私は神大統領自身を守り、彼の知恵を解釈する。""
        [45]
-        1 string data = ""Tell us more about these robots at the airport.""
+        1 string data = ""空港のロボットについてもっと教えてくれ。""
        [46]
-        1 string data = ""They call themselves a 'commune' and say they are working for the betterment of all sentient beings."\n\n\n"It's a lie. They put on a friendly face so they can turn humans against each other. Mark my words - they'll try to trick you, too.""
+        1 string data = ""奴らは自分たちを『コミューン』と呼び、全ての感覚ある存在の向上のために働いていると言う。""\n\n\n""嘘だ。奴らは友好的な顔をして、人間同士を対立させようとしている。私の言葉を覚えておけ—奴らはあんたたちも騙そうとするだろう。""
        [47]
-        1 string data = ""We are his wives, <i>and</i> we all hold positions of great responsibilty in his government. It is the highest honor in the land.""
+        1 string data = ""我々は彼の妻であり、<i>かつ</i>我々全員が彼の政府で重要な地位を占めている。この地で最高の栄誉だ。""
        [48]
-        1 string data = ""In the days after the godless communists rained fire and death from sea to shining sea, the God-President awoke in the ruins of the City on the Hill and mourned for the loss of the world he'd built - and for the loss of his wife.""
+        1 string data = ""神なき共産主義者が海から輝く海へと炎と死を降らせた後、神大統領は丘の上の街の廃墟で目覚め、自分が築いた世界の喪失を—そして妻の喪失を嘆いた。""
        [49]
-        1 string data = ""
+        1 string data = """"
        [50]
-        1 string data = "Her eyes seek the air for a moment, gathering patience. "
+        1 string data = ""彼女の目が一瞬宙を見つめ、忍耐を集める。""
        [51]
-        1 string data = ""Your god is a prophet too, huh?""
+        1 string data = ""あんたたちの神も預言者なのか?""
        [52]
-        1 string data = ""Of a kind."\n\n\nShe stares at the air above your head, composing her thoughts. "
+        1 string data = ""ある意味ではな。""\n\n\n彼女はあなたの頭上の空を見つめ、考えをまとめる。""
        [53]
-        1 string data = ""In any case, we are badly in need of new blood and Valor was a young man in his prime."\n\n\n"Now that God-President Reagan has his body, I expect that our ladies will give Ronnie many children.""
+        1 string data = ""いずれにせよ、我々は新しい血を切実に必要としていた。ヴァラーは全盛期の若者だった。""\n\n\n""神大統領レーガンが彼の体を得た今、我々の女性たちがロニーに多くの子供を与えることを期待している。""
        [54]
-        1 string data = ""
+        1 string data = """"
        [55]
-        1 string data = ""
+        1 string data = """"
        [56]
-        1 string data = ""What is your problem with Valor anyway?""
+        1 string data = ""結局、ヴァラーの何が問題なんだ?""
        [57]
-        1 string data = ""You know what? Forget I asked anything.""
+        1 string data = ""いいや、忘れてくれ。何も聞かなかった。""
        [58]
-        1 string data = ""He is arrogant and abrasive. A deeply unimportant young man looking to make his mark on the world. His sole contribution to this life is that he made the device that will be used to kill him.""
+        1 string data = ""彼は傲慢で粗暴だ。世界に足跡を残そうとする、極めて取るに足らない若者だ。彼のこの人生への唯一の貢献は、自分を殺すために使われる装置を作ったことだ。""
        [59]
-        1 string data = ""Gladly. Explaining the truth to those who will not hear it is the pastime of fools.""
+        1 string data = ""喜んで。聞く耳を持たぬ者に真実を説明するのは愚か者の余興だ。""
        [60]
-        1 string data = ""Exemplary work, Rangers. I really didn't think you'd manage to recover the module, but Ronnie said to have faith.""
+        1 string data = ""見事な働きだ、レンジャーズ。正直モジュールを回収できるとは思っていなかったが、ロニーは信じろと言った。""
        [61]
-        1 string data = ""Some of us, like Sister Nancy Glory, who fought by your side against the godless Godfishers, are our finest warriors, and lead our troops in battle.""
+        1 string data = ""我々の中には、シスター・ナンシー・グローリーのように、神なきゴッドフィッシャーズとの戦いであなたたちと共に戦った、最高の戦士もいる。彼女たちは戦闘で我々の軍を率いる。""
        [62]
-        1 string data = ""Some are our best scientists and technicians. Sister Nancy Forge, for instance, builds all our weapons and defensive systems.""
+        1 string data = ""最高の科学者や技術者もいる。例えばシスター・ナンシー・フォージは、我々の全ての武器と防御システムを構築している。""
        [63]
-        1 string data = ""We have nothing against the Patriarch's people. If the oil shipments are your only demand, maybe we <i>can</i> make a deal.""
+        1 string data = ""パトリアークの民には何の恨みもない。石油の出荷があんたたちの唯一の要求なら、取引<i>できる</i>かもしれない。""
        [64]
-        1 string data = ""
+        1 string data = """"
        [65]
-        1 string data = ""Help us get the module, and you can name your price.""
+        1 string data = ""モジュール入手を手伝ってくれたら、値段は言い値でいい。""
        [66]
-        1 string data = ""
+        1 string data = """"
        [67]
-        1 string data = ""
+        1 string data = """"
        [68]
-        1 string data = ""
+        1 string data = """"
        [69]
-        1 string data = ""We want the Patriarch's son back. Let's negotiate.""
+        1 string data = ""パトリアークの息子を返してもらいたい。交渉しよう。""
        [70]
-        1 string data = "[Attack] "You know what? To hell with this shit. We're taking the Patriarch's son back.""
+        1 string data = ""[攻撃]「いいか? こんなクソみたいな話はたくさんだ。パトリアークの息子を連れ帰る。」""
        [71]
-        1 string data = ""Negotiate? Rangers, you have nothing that we want. Valor wants to merge with Ronnie as much as we want him to. There will be no negotiation.""
+        1 string data = ""交渉? レンジャーズ、あんたたちには我々が欲しいものなど何もない。ヴァラーは我々と同じくらいロニーとの融合を望んでいる。交渉の余地はない。""
        [72]
-        1 string data = ""Gippers, to me! Ronnie, tear them down!""
+        1 string data = ""ギッパーズ、集まれ! ロニー、奴らを引き裂け!""
        [73]
-        1 string data = ""You're making a mistake.""
+        1 string data = ""間違いを犯している。""
        [74]
-        1 string data = ""Fine. We'll go along with your plan for now.""
+        1 string data = ""分かった。今のところあんたたちの計画に従おう。""
        [75]
-        1 string data = ""Oh, I don't think so. But taking Valor against his will, in the seat of our power and under Ronnie's watchful eye? <i>That</i>, Rangers, would be a mistake.""
+        1 string data = ""いや、そうは思わない。だが我々の権力の座で、ロニーの見張る目の下で、ヴァラーの意思に反して連れ去る? <i>それこそ</i>、レンジャーズ、間違いというものだ。""
        [76]
-        1 string data = ""Yes, do that.""
+        1 string data = ""ああ、そうしてくれ。""
        [77]
-        1 string data = ""He also said you convinced those commie robots at the airport to give it to you of their own free will. I don't know why you bothered.""
+        1 string data = ""空港のコミーロボットたちを説得して、自分の意思でモジュールを渡させたとも言っていた。なぜそんな面倒をかけたのか分からんが。""
        [78]
-        1 string data = ""He also mentioned that you destroyed most of those commie robots at the airport in the process. Good. The only good communist is a dead communist.""
+        1 string data = ""空港でその過程でコミーロボットのほとんどを破壊したとも言っていた。良いことだ。良い共産主義者は死んだ共産主義者だけだ。""
        [79]
-        1 string data = ""Thank you for helping us achieve our destiny, Rangers." "
+        1 string data = ""運命達成を手伝ってくれてありがとう、レンジャーズ。""
        [80]
-        1 string data = ""I have been... somewhat harsh with you, Rangers. But you have done the Gippers a tremendous service, and I honor you for that.""
+        1 string data = ""あんたたちには...やや厳しく当たってしまった、レンジャーズ。だがギッパーズに多大な奉仕をしてくれた。それに敬意を表する。""
        [81]
-        1 string data = ""That's enough, Ronnie. You did very well, but it's bedtime for Bonzo now, okay?""
+        1 string data = ""もう十分だ、ロニー。とてもよくやったが、ボンゾの就寝時間だ、いいね?""
        [82]
-        1 string data = "[Attack] "We're not here to deal. We're here to <i>take</i>. Valor, you're coming with us!"\n"
+        1 string data = ""[攻撃]「取引しに来たんじゃない。<i>奪い</i>に来たんだ。ヴァラー、一緒に来るんだ!」\n""
        [83]
-        1 string data = "A puzzled line creases Reliance's forehead. "
+        1 string data = ""困惑したしわがリライアンスの額に刻まれる。""
        [84]
-        1 string data = ""I told you. Ronnie is not a simulation. He is an adaptive intelligence. His memories are stored magnetically, and transferred in and out of storage by read-write heads. Those, in turn, deliver data to and from his processing units.""
+        1 string data = ""言っただろう。ロニーはシミュレーションじゃない。適応型知能だ。彼の記憶は磁気的に保存され、読み書きヘッドでストレージから転送される。それらが処理ユニットとの間でデータを受け渡す。""
        [85]
-        1 string data = ""What do you mean, 'work around them?'""
+        1 string data = ""『回避する』とはどういう意味だ?""
        [86]
-        1 string data = ""Can I hear some of these prophecies?""
+        1 string data = ""その預言のいくつかを聞けるか?""
        [87]
-        1 string data = ""Keeping a sentient A.I. intact under those kinds of conditions is an incredible feat.""
+        1 string data = ""そのような条件下で知性あるAIを維持するのは驚くべき偉業だ。""
        [88]
-        1 string data = ""My sisters and I remove the errors when they appear and keep him running year after year. It is one of our great privileges. Our holy duty.""
+        1 string data = ""姉妹と私はエラーが出現したら削除し、彼を年々動かし続けている。それは我々の大きな特権の一つ。我々の神聖な義務だ。""
        [89]
-        1 string data = ""I'm sure you will, in time. As a matter of fact, he told us you were coming some months ago, though we only recently put the pieces together."\n\n\nShe smiles, proud."
+        1 string data = ""いずれ理解するだろう。実際、彼は数ヶ月前にあなたたちが来ることを告げていた。最近になってようやく断片が繋がったが。""\n\n\n彼女は誇らしげに微笑む。""
        [90]
-        1 string data = "A proud smile pulls at the corner of her mouth. "
+        1 string data = ""誇らしげな笑みが彼女の口元に浮かぶ。""
        [91]
-        1 string data = ""
+        1 string data = """"
        [92]
-        1 string data = ""So even though you know Reagan is artificial, you still worship him? How do you have faith in a machine?""
+        1 string data = ""レーガンが人工物だと知っていても、まだ崇拝するのか? どうやって機械に信仰を持てる?""
        [93]
-        1 string data = ""It has been my sisters' holy duty for generations. Our great privilege.""
+        1 string data = ""それは何世代にもわたる姉妹たちの神聖な義務だった。我々の大きな特権だ。""
        [94]
-        1 string data = "There is a touch of smugness to that smile as well. "
+        1 string data = ""その笑みには少しうぬぼれた様子もある。""
        [95]
-        1 string data = ""Perhaps the machine is how he reaches us, but there is no faith required, Ranger. You have seen him with your own eyes. Questioning reality is foolishness."\n"
+        1 string data = ""おそらく機械は彼が我々に届く方法だろう。だが信仰は必要ない、レンジャー。あなたは自分の目で彼を見た。現実を疑うのは愚かだ。""\n""
        [96]
-        1 string data = ""In any case, this is all quite reasonable. The Patriarch threw away his son, and we took him. And if you're referring to the process itself, I've reviewed the specifications myself. They're all quite sensible.""
+        1 string data = ""いずれにせよ、これは全く合理的だ。パトリアークは息子を捨て、我々が引き取った。プロセス自体について言っているなら、仕様書は自分で確認した。全て非常に理にかなっている。""
        [97]
-        1 string data = ""What is a cybernetic transfer module?""
+        1 string data = ""サイバネティック・トランスファー・モジュールとは何だ?""
        [98]
-        1 string data = ""The Module was built to create a direct connection between a human brain and a machine intelligence. It was scrapped after it overwrote a researcher's brain - allegedly."\n"
+        1 string data = ""モジュールは人間の脳と機械知性の間に直接接続を作るために構築された。研究者の脳を上書きした後、破棄された—とされている。""\n""
        [99]
-        1 string data = ""
+        1 string data = """"
        [100]
-        1 string data = ""But their end draws near. Once we have what we need from them, they will be dealt with like the dirty communists they are.""
+        1 string data = ""だが奴らの終わりは近い。必要なものを手に入れたら、汚い共産主義者らしく処理される。""
        [101]
-        1 string data = ""
+        1 string data = """"
        [102]
-        1 string data = ""This has been the honor and the duty of every Mother Nancy since the first. We brief the God-President on state and business issues, disputes between citizens, and once he speaks on them, we put the intent of his words into action.""
+        1 string data = ""これは最初から全てのマザー・ナンシーの名誉であり義務だった。我々は神大統領に国家と事業の問題、市民間の紛争を報告し、彼がそれについて語ると、我々は彼の言葉の意図を実行する。""
        [103]
-        1 string data = "A faint smile creases her lips."
+        1 string data = ""かすかな笑みが彼女の唇にしわを作る。""
        [104]
-        1 string data = ""He is, in a very real sense, the last true American - the only man left who lived before the Deluge of Fire and who knows the secrets of the old world.""
+        1 string data = ""彼は、非常に現実的な意味で、最後の真のアメリカ人だ—炎の大洪水の前に生き、旧世界の秘密を知る唯一の男だ。""
        [105]
-        1 string data = ""I have been married to Ronnie for fifty wonderful years, and our love is real. Just because his vessel is aging and I must tend to him, it does not make him any less a god, or me any less his wife.""
+        1 string data = ""私はロニーと50年間素晴らしい結婚生活を送ってきた。我々の愛は本物だ。彼の器が老化し、私が世話をしなければならないからといって、彼が神でなくなるわけでも、私が妻でなくなるわけでもない。""
        [106]
-        1 string data = "She laughs. "
+        1 string data = ""彼女は笑う。""
        [107]
-        1 string data = ""So mighty was his grief, so heartbreaking was his suffering, that it was heard throughout the gray and burning world. Men raged with him at the dying of the light, and women wept at his loneliness.""
+        1 string data = ""彼の悲しみは非常に強く、その苦しみは心が張り裂けるほどで、灰色で燃える世界中に響き渡った。男たちは光の消えゆくことに彼とともに怒り、女たちは彼の孤独に涙した。""
        [108]
-        1 string data = ""In gratitude, the God-President named her Nancy - the First Nancy. Then he led her to this building, dubbed it the Western White House, and decreed that it would be the heart of America Reborn.""
+        1 string data = ""感謝の念を込めて、神大統領は彼女をナンシーと名付けた—最初のナンシーだ。そして彼は彼女をこの建物に導き、西部ホワイトハウスと名付け、ここがアメリカ再生の中心になると定めた。""
        [109]
-        1 string data = ""All I will say is that Ronnie declared him 'my vessel made flesh' or some such, and those two boys were <i>thick as thieves</i> ever since."\n\n\nShe shakes her head, but there is an exasperated humor in her expression. "
+        1 string data = ""言えるのは、ロニーが彼を『肉となった我が器』かそんな感じに宣言したこと。それ以来、二人の男の子は<i>盗賊のように仲良く</i>なった。""\n\n\n彼女は首を振るが、その表情には困惑したユーモアがある。""
        [110]
-        1 string data = ""Wait, you're planning to have Reagan father children?""
+        1 string data = ""待て、レーガンに子供を作らせる計画なのか?""
        [111]
-        1 string data = "She raises an eyebrow."
+        1 string data = ""彼女は眉を上げる。""
        [112]
-        1 string data = ""Has no one ever told you that husbands and wives sometimes make children? Some of the ladies are quite looking forward to it, I understand.""
+        1 string data = ""夫と妻が子供を作ることがあると誰も教えなかったのか? 女性たちの中にはそれを楽しみにしている者もいると理解している。""
        [113]
-        1 string data = ""Something is wrong with all of you.""
+        1 string data = ""あんたたち全員おかしい。""
        [114]
-        1 string data = ""Aren't you jealous?" "
+        1 string data = ""嫉妬しないのか?""
        [115]
-        1 string data = "She rolls her eyes."
+        1 string data = ""彼女は目を回す。""
        [116]
-        1 string data = ""Oh, do grow up, Rangers.""
+        1 string data = ""ああ、大人になってくれ、レンジャーズ。""
        [117]
-        1 string data = ""Why ever would I be jealous?""
+        1 string data = ""なぜ嫉妬する必要があるんだ?""
        [118]
-        1 string data = ""I see manners have completely disintegrated out in what passes for civilization beyond these walls."\n\n\nShe rolls her eyes."
+        1 string data = ""この壁の外の文明らしきものでは、マナーが完全に崩壊しているようだな。""\n\n\n彼女は目を回す。""
        [119]
-        1 string data = ""Because you're too old to have children.""
+        1 string data = ""あんたは年を取りすぎて子供が作れないからだ。""
        [120]
-        1 string data = ""Your husband is going to sleep with other women.""
+        1 string data = ""あんたの夫は他の女と寝ることになる。""
        [121]
-        1 string data = ""No reason, I guess.""
+        1 string data = ""いや、理由はないと思う。""
        [122]
-        1 string data = ""His other wives, you mean?"\n\n\nShe shakes her head. "
+        1 string data = ""彼の他の妻たちのことか?""\n\n\n彼女は首を振る。""
        [123]
-        1 string data = ""But no, I'm happy for my sisters, and I must say the prospect of giving birth has never interested me. Life is full of enough pain without seeking out optional agonies.""
+        1 string data = ""だがいや、姉妹たちのために嬉しい。出産の見通しなど興味を持ったことがないと言わざるを得ない。人生は任意の苦痛を探し求めなくても十分痛みに満ちている。""
        [124]
-        1 string data = ""No reason." She rolls her eyes. "
+        1 string data = ""理由はない。"" 彼女は目を回す。""
        [125]
-        1 string data = "Sighing, she casts a dark look in his direction."
+        1 string data = ""ため息をついて、彼女は彼の方向に暗い視線を投げかける。""
        [126]
-        1 string data = ""Not that <i>he</i> can be convinced of this. He believes he will live on, merged with my husband, and no amount of data will change his mind. The fool.""
+        1 string data = ""<i>彼</i>にはこれを納得させられない。彼は自分が夫と融合して生き続けると信じており、どれだけデータを示しても考えを変えない。愚か者め。""
        [127]
-        1 string data = ""Now, Rangers, if you would do the honors? It will be the most delicious of ironies to have the Patriarch's emissaries give life to the leader who will eclipse him and all his accomplishments.""
+        1 string data = ""では、レンジャーズ、栄誉を? パトリアークの使者たちに、彼と彼の全ての業績を凌駕する指導者に命を与えさせるとは、最も美味な皮肉だろう。""
        [128]
-        1 string data = " DEBUG  Fallback node in b3001_MotherNancyReliance. \r\n\r\nIf you are seeing this, log a ticket for Alex Kerr, and check to see if your Global Variables are up to date."
+        1 string data = ""DEBUG b3001_MotherNancyRelianceのフォールバックノード。\r\n\r\nこれが表示されている場合、アレックス・カーにチケットを記録し、グローバル変数が最新かどうか確認してください。""
        [129]
-        1 string data = """  - if players arrive for the FIRST TIME with the device in their pocokets."
+        1 string data = """  - プレイヤーがポケットにデバイスを入れて初めて到着した場合。""
        [130]
-        1 string data = """ TEMPORARY: This will be replaced with a FADE IN / FADE OUT instead of a full transition."
+        1 string data = """ 仮: これは完全な遷移の代わりにフェードイン/フェードアウトに置き換えられます。""
        [131]
-        1 string data = ""Is this what you're looking for?""
+        1 string data = ""これが探しているものか?""
        [132]
-        1 string data = ""I won't ask how you came by this. Frankly, I don't care. I can only hope that you did a great deal of damage to those idiotic mechanical communists."\n\n\nShe turns to the Patriarch's son. "
+        1 string data = ""どうやって手に入れたかは聞かない。正直、気にしない。あの愚かな機械共産主義者に大きな損害を与えたことを願うばかりだ。""\n\n\n彼女はパトリアークの息子の方を向く。""
        [133]
-        1 string data = ""
+        1 string data = """"
        [134]
-        1 string data = "Hold out the device you took from the tower in the commune. Say nothing else. "
+        1 string data = ""コミューンの塔から持ってきた装置を差し出す。他には何も言わない。""
        [135]
-        1 string data = "  (DEBUG): At this point we would Fade In / Out  to include Valor's props if we haven't already. Finish talking to Mother Nancy Reliance, then click the console to complete the mission."
+        1 string data = ""(DEBUG): この時点で、まだであればヴァラーの小道具を含めるためにフェードイン/アウトを行います。マザー・ナンシー・リライアンスとの会話を終えてから、コンソールをクリックしてミッションを完了してください。""
        [136]
-        1 string data = ""Okay. We've got some work to do.""
+        1 string data = ""よし。やるべきことがある。""
        [137]
-        1 string data = ""Be quick about it.""
+        1 string data = ""さっさとやれ。""
        [138]
-        1 string data = ""Fuckin' <i>finally</i>.""
+        1 string data = ""クソったれ、<i>やっと</i>だ。""
        [139]
-        1 string data = "Kwon leans in, lowering his voice.\n"
+        1 string data = ""クォンが身を乗り出し、声を落とす。\n""
        [140]
-        1 string data = "She leans in, lowering her voice."
+        1 string data = ""彼女は身を乗り出し、声を落とす。""
        [141]
-        1 string data = ""If we want Valor back - the <i>real</i> Valor - this is gonna be a shootout.""
+        1 string data = ""ヴァラーを取り戻したいなら—<i>本当の</i>ヴァラーを—これは銃撃戦になる。""
        [142]
-        1 string data = ""She means it... but the Patriarch wanted his son back, alive and whole. Not with some dead President stuck in his brain.""
+        1 string data = ""彼女は本気だ...だがパトリアークは息子を生きて無傷で取り戻したかった。死んだ大統領が脳に詰まった状態ではなく。""
        [143]
-        1 string data = "Her eyes go wide when she sees the device."
+        1 string data = ""装置を見ると彼女の目が大きく見開かれる。""
        [144]
-        1 string data = "Her eyebrows climb into the stratosphere at sight of it. "
+        1 string data = ""それを見ると彼女の眉が成層圏まで上がる。""
        [145]
-        1 string data = ""Valor. It's time." "
+        1 string data = ""ヴァラー。時間だ。""
        [146]
-        1 string data = ""Thank you, Mother Nancy. I'll make myself ready. This will be the greatest day of my life.""
+        1 string data = ""ありがとう、マザー・ナンシー。準備します。これが私の人生で最高の日になる。""
        [147]
         1 string data = "Script Node 170"
        [148]
-        1 string data = ""People do rather get the wrong idea about us. I can't say I mind.""
+        1 string data = ""人々は我々についてかなり間違った考えを持っている。気にしないと言えば嘘になるが。""
        [149]
-        1 string data = ""Let us be underestimated and ridiculed. They think our Ronnie is dead and never coming back, and they are wrong. They accuse us of seeing communists in every shadow, and well, they're right. But so are we.""
+        1 string data = ""我々を過小評価し嘲笑させておけ。奴らは我々のロニーが死んで二度と戻らないと思っている、それは間違いだ。奴らは我々があらゆる影に共産主義者を見ると非難する、それは正しい。だが我々も正しい。""
        [150]
-        1 string data = ""Make no mistake, dears. We are surrounded by the vestiges of the Evil Empire. They have turned our great nation into an irradiated graveyard and they expect us to weep. But we are steel, sisters. We do not bend, nor do we rust. We endure.""
+        1 string data = ""間違えるな、親愛なる者たちよ。我々は邪悪な帝国の残滓に囲まれている。奴らは我々の偉大な国を放射能の墓場に変え、我々が泣くことを期待している。だが我々は鋼鉄だ、姉妹たちよ。曲がらず、錆びず。我々は耐える。""
        [151]
-        1 string data = ""So let them laugh at us. We are the wives of the God-President, and we will endure until he returns to us. Until then, his Great Work lies before us, unfinished.""
+        1 string data = ""だから奴らに笑わせておけ。我々は神大統領の妻であり、彼が我々のもとに戻るまで耐え続ける。それまで、彼の大いなる事業が未完のまま我々の前にある。""
        [152]
-        1 string data = ""We will arm our sons and our daughters and teach them to hunt communists and snake-tongued socialists. From birth, we will turn our children's hearts to unyielding stone. With our blessing, they will bring peace back to the world, one bullet at a time."\n\n\n"We do this in the Gipper's name. Amen.""
+        1 string data = ""我々は息子と娘に武器を与え、共産主義者と蛇の舌を持つ社会主義者を狩ることを教える。生まれた時から、子供たちの心を不屈の石に変える。我々の祝福とともに、彼らは一発ずつ世界に平和を取り戻す。""\n\n\n""我々はこれをギッパーの名において行う。アーメン。""
        [153]
         1 string data = "Script Node 176"
        [154]
-        1 string data = ""This is Mother Nancy Reliance of the Gippers, broadcasting on all channels. The Western White House is under attack by an army of godless savages. We require immediate reinforcement.""
+        1 string data = ""こちらギッパーズのマザー・ナンシー・リライアンス、全チャンネルに放送中。西部ホワイトハウスが神なき野蛮人の軍に攻撃されている。即座の増援を要請する。""
        [155]
-        1 string data = ""I repeat, is under attack. The life of the last true American is in peril. Send help.""
+        1 string data = ""繰り返す、攻撃を受けている。最後の真のアメリカ人の命が危機に瀕している。援助を送れ。""
        [156]
-        1 string data = "::Static:: "-whether you acknowlege-" ::Static:: "- communist menace is-" ::Static: "-if Denver is overrun, your access to our oil disappea-" ::Static:"
+        1 string data = "::ノイズ::「—認めるかどうか—」::ノイズ::「—共産主義の脅威は—」::ノイズ::「—デンバーが占領されれば、我々の石油へのアクセスは消え—」::ノイズ::""
        [157]
-        1 string data = "::Static: "-the grace of the God-President, we will weather this-" ::Static: "-will remember who answered our call in our hour of-" ::Static: "-who did not.""
+        1 string data = "::ノイズ::「—神大統領の恩寵により、我々はこれを乗り越える—」::ノイズ::「—我々の窮地の時に呼びかけに応えた者を覚えている—」::ノイズ::「—応えなかった者も。」""
        [158]
-        1 string data = "::Static:: "-dying-" ::Static:: "-will prevail-" ::Static::"
+        1 string data = "::ノイズ::「—死にかけて—」::ノイズ::「—勝利する—」::ノイズ::""
        [159]
         1 string data = "Script Node 182"
        [160]
-        1 string data = ""How dare you intrude on the God-President during his meditations!""
+        1 string data = ""瞑想中の神大統領に侵入するとはなんたる無礼な!""
        [161]
         1 string data = "Script Node 184"
        [162]
-        1 string data = ""Thank you, Valor. That was an excellent summation. This 'transfer' capability is precisely what we need to move the God-President into a human body.""
+        1 string data = ""ありがとう、ヴァラー。見事な要約だった。この『転送』能力こそ、神大統領を人間の身体に移すために必要なものだ。""
        [163]
-        1 string data = "Her hand doesn't move from her weapon."
+        1 string data = ""彼女の手は武器から離れない。""
        [164]
-        1 string data = ""Thank you for joining the God-President and I in the Sacred Server Room, Rangers. As I was saying before, we have something we'd like to discuss with you. Something you could do that might make us look more favorably on your... requests.""
+        1 string data = ""神聖なサーバールームで神大統領と私に加わってくれてありがとう、レンジャーズ。先ほど言っていたように、あなたたちと話したいことがある。あなたたちにできることで、我々があなたたちの...要求をより好意的に見られるかもしれないことだ。""
        [165]
-        1 string data = ""To attack us here, at the center of our strength. Such arrogance.""
+        1 string data = ""我々の力の中心で我々を攻撃するとは。なんという傲慢。""
        [166]
-        1 string data = ""Our only request is Valor Buchanan. We secured an alternate source of power, so Colorado won't freeze.""
+        1 string data = ""我々の唯一の要求はヴァラー・ブキャナンだ。別の電力源を確保したので、コロラドは凍らない。""
        [167]
-        1 string data = ""What happens if we <i>take</i> Valor instead?""
+        1 string data = ""もしヴァラーを<i>奪った</i>らどうなる?""
        [168]
-        1 string data = ""All right. We'll get you the Cybernetic Transfer Module.""
+        1 string data = ""分かった。サイバネティック・トランスファー・モジュールを入手する。""
        [169]
-        1 string data = ""You'd have to kill every one of us, dear... and then who will drill and refine the Patriarch's oil? We're the only ones who know how.""
+        1 string data = ""我々全員を殺さなければならないだろう、親愛なる...そしてその後、誰がパトリアークの石油を掘削し精製する? やり方を知っているのは我々だけだ。""
        [170]
-        1 string data = ""The Patriarch cannot have <i>everything</i>. Not this time.""
+        1 string data = ""パトリアークは<i>全て</i>を手に入れることはできない。今回はな。""
        [171]
-        1 string data = ""Meanwhile, our home is at your disposal. I'll tell the sisters to treat you like family. They can help you get ready to face the commune.""
+        1 string data = ""その間、我々の家はあなたたちの自由に使える。姉妹たちにあなたたちを家族のように扱うよう言おう。コミューンに立ち向かう準備を手伝ってくれる。""
        [172]
-        1 string data = ""Gippers, stop them! Ronnie, tear them down!""
+        1 string data = ""ギッパーズ、奴らを止めろ! ロニー、奴らを引き裂け!""
        [173]
-        1 string data = ""Give us Valor Buchanan and resume your oil shipments to Colorado Springs.""
+        1 string data = ""ヴァラー・ブキャナンを渡して、コロラドスプリングスへの石油出荷を再開してくれ。""
        [174]
-        1 string data = ""Once the transfer of God-President Reagan is complete, the oil will flow and we will relinquish our claim on Valor.""
+        1 string data = ""神大統領レーガンの転送が完了したら、石油は流れ、ヴァラーへの権利を放棄する。""
        [175]
-        1 string data = ""Are you feeling generous enough to carry out a small favor on our behalf? We aren't looking for a handout. You will be well compensated for your time.""
+        1 string data = ""我々のために小さな頼みを実行するほど寛大か? 施しを求めているわけではない。時間に対して十分な報酬を支払う。""
        [176]
-        1 string data = ""You mean that abomination at the old Academy. Yes, very clever. Colorado will still need oil for travel, of course... but we can supply that as a show of good faith.""
+        1 string data = ""旧アカデミーのあの忌まわしきもののことか。ああ、非常に賢い。もちろんコロラドは移動用の石油が必要だろう...だがそれは誠意の証として供給できる。""
        [177]
         1 string data = "Script Node 201"
        [178]
-        1 string data = ""Hello, Rangers. I am Mother Nancy Reliance, first wife to God-President Reagan. Welcome to the Western White House.""
+        1 string data = ""こんにちは、レンジャーズ。私はマザー・ナンシー・リライアンス、神大統領レーガンの第一夫人だ。西部ホワイトハウスへようこそ。""
        [179]
-        1 string data = ""I thank you for responding so swiftly to our call for help, and commend you for your zeal on the battlefield.""
+        1 string data = ""我々の助けの呼びかけに迅速に応えてくれたことに感謝し、戦場での熱意を称賛する。""
        [180]
-        1 string data = ""God-President Reagan is impressed with your actions and would like to thank you personally. Please make yourselves presentable and come inside.""
+        1 string data = ""神大統領レーガンはあなたたちの行動に感銘を受け、個人的に感謝したいと考えている。身だしなみを整えて中に入ってくれ。""
        [181]
         1 string data = "Script Node 205"
        [182]
         1 string data = "Script Node 206"
        [183]
-        1 string data = ""You're welcome. We're here to discuss Valor Buchanan and the oil shipments to Colorado Springs.""
+        1 string data = ""どういたしまして。ヴァラー・ブキャナンとコロラドスプリングスへの石油出荷について話し合いに来た。""
        [184]
-        1 string data = ""Let's skip the pleasantries. You're holding the Patriarch's son hostage and letting Colorado Springs freeze.""
+        1 string data = ""挨拶は省こう。あんたたちはパトリアークの息子を人質にして、コロラドスプリングスを凍らせている。""
        [185]
-        1 string data = ""We don't have time for a Join-Our-Cult speach. Give us Val, turn the oil back on, or get ready for a fight.""
+        1 string data = ""『カルトに入ろう』演説の時間はない。ヴァルを渡せ、石油を再開しろ、でなければ戦う準備をしろ。""
        [186]
-        1 string data = ""No need to be uncivil.""
+        1 string data = ""無礼になる必要はない。""
        [187]
-        1 string data = ""Mother Nancy, this is Ranger Command, reading you loud and clear. The Colorado Rangers are ready to aid you if we can. But, uh... where is the Western White House?""
+        1 string data = ""マザー・ナンシー、こちらレンジャー司令部、明瞭に受信している。コロラド・レンジャーズは可能な限り支援する用意がある。だが、えーと...西部ホワイトハウスはどこだ?""
        [188]
-        1 string data = ""Denver, sir. The capital! How can you call yourselves the Colorado Rangers when you don't know our geography? Now hurry!"\n\n\n::static::"
+        1 string data = ""デンバーです、閣下。首都ですよ! 自分たちの地理も知らずにコロラド・レンジャーズと名乗れるのですか? 急いで!""\n\n\n::ノイズ::""
        [189]
-        1 string data = ""Ah... Sorry, ma'am. We'll do better in the future. Er, looks like we have a Ranger team in your vicinity. Passing your info to them now.""
+        1 string data = ""あー...すまない。今後は改善する。えーと、その付近にレンジャーチームがいるようだ。今から情報を伝える。""
        [190]
-        1 string data = ""Good. Tell them to hurry."\n\n\n"
+        1 string data = ""良い。急ぐよう伝えてくれ。""\n\n\n""
        [191]
-        1 string data = ""Okay, then." \r\n\r\n"Uh... Team November. Pretty sure I just got a distress call from the group the Patriarch told us had his son, Valor. The Gippers? Caller said they're under attack by, um... savages. Helpin' 'em out might be a way to get some leverage, so check it out.""
+        1 string data = ""よし、じゃあ。""\r\n\r\n""えーと...チーム・ノベンバー。パトリアークが言っていた息子ヴァラーを持っているグループから救難信号を受信したと思う。ギッパーズ? 発信者は野蛮人に攻撃されていると言っていた。奴らを助けることで影響力を得られるかもしれない、確認してくれ。""
        [192]
-        1 string data = ""See a woman named Mother Nancy Reliance, and be careful going in. Sounded like a full scale war.""
+        1 string data = ""マザー・ナンシー・リライアンスという女性を探せ。突入時は注意しろ。全面戦争のようだった。""
        [193]
-        1 string data = ""Though you took your time responding to our call for help, you are to be commended for your zeal on the battlefield.""
+        1 string data = ""我々の助けの呼びかけに応えるのに時間がかかったが、戦場での熱意は称賛に値する。""
        [194]
-        1 string data = ""Though you have arrived almost too late, you are to be commended for your zeal on the battlefield.""
+        1 string data = ""到着がほとんど遅すぎたが、戦場での熱意は称賛に値する。""
        [195]
-        1 string data = "", then speak to you about a further service he would like you yo perform for the good of this great nation of ours.""
+        1 string data = ""、そしてあなたたちに、我々の偉大な国家のために実行してもらいたいさらなる奉仕について話す。""
        [196]
-        1 string data = ""Command out.""
+        1 string data = ""司令部、通信終了。""
        [197]
         1 string data = "Script Node 221"
        [198]
-        1 string data = ""What? You said Valor would be <i>assisting</i> with the transfer. You didn't say he'd be the recipient!""
+        1 string data = ""何だって? ヴァラーが転送を<i>手伝う</i>と言っていた。受け手になるとは言わなかった!""
        [199]
-        1 string data = "'Welp, have fun with your weird ceremony. We'll be taking Valor with us now, thanks.' (TEMP TEXT)"
+        1 string data = ""『じゃあ、奇妙な儀式を楽しんで。ヴァラーはこちらで引き取るから。』(仮テキスト)""
        [200]
-        1 string data = ""Of all people, why did you pick Valor for this?""
+        1 string data = ""なぜよりによってヴァラーを選んだんだ?""
        [201]
         1 string data = ""Valor. It's time.""
        [202]
