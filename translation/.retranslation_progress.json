@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 258673,
-      "entries_completed": 36946,
+      "current_line": 260155,
+      "entries_completed": 37191,
       "status": "in_progress",
-      "note": "Lines 257564-258672: Translated 430 entries from companions_banter section (companion dialogue exchanges, character interactions). Structure protection maintained (<i> tags, ::action:: markup preserved). Empty placeholder entries (439-552) kept as-is. Script Node entries unchanged. Next: companion_barks_cordite section (line 258673+, 245 entries)."
+      "note": "Lines 258673-260154: Translated 245 entries from companion_barks_cordite section (Cordite combat barks - character reactions, status callouts). Structure protection maintained (<i> tags preserved). Script Node entries (49 items) kept in English. Next: companion_barks_jodie section (line 260155+, 186 entries)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -39,9 +39,9 @@
     }
   },
   "last_commit_hash": "f10f1d8",
-  "total_entries_completed": 36946,
+  "total_entries_completed": 37191,
   "estimated_total_entries": 71992,
-  "next_action": "Continue retranslation from line 258673 onwards (translate companion_barks_cordite section - 245 entries)",
+  "next_action": "Continue retranslation from line 260155 onwards (translate companion_barks_jodie section - 186 entries)",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
