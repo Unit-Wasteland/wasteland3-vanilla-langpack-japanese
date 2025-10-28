@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 276900,
-      "entries_completed": 39283,
+      "current_line": 280163,
+      "entries_completed": 39783,
       "status": "in_progress",
-      "note": "Lines 272099-276900: Translated 506 entries - PC barks dialogue (player character combat/action): pc_barks_01 (273 entries), pc_barks_02 (258 entries), pc_barks_03 (160 of 261 entries - status effects, combat actions, skill usage). Fixed format errors. All structure markers preserved. Next: continue from line 276900."
+      "note": "Lines 276900-280163: Translated 500 entries - pc_barks_04 (253 entries - PC combat dialogue), reactionbarks_companion_cordite (163 entries - Ironclad Cordite dialogue with 'Gun-who-Walks' theme), reactionbarks_companion_fishlips (84 entries - cannibal companion dialogue). All structure markers preserved. Next: continue from line 280163."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -38,10 +38,10 @@
       "status": "pending"
     }
   },
-  "last_commit_hash": "2c51656",
-  "total_entries_completed": 39283,
+  "last_commit_hash": "pending",
+  "total_entries_completed": 39783,
   "estimated_total_entries": 71992,
-  "next_action": "Continue retranslation from line 276900 onwards (506 entries completed this session)",
+  "next_action": "Continue retranslation from line 280163 onwards (500 entries completed this session)",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
