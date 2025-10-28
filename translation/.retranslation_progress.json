@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 295788,
-      "entries_completed": 41748,
+      "current_line": 296370,
+      "entries_completed": 41830,
       "status": "in_progress",
-      "note": "Lines 293390-295788: Translated 335 entries - c1001_combatbarks_meleebreather (38), c1001_combatbarks_rangedbreather (49), c1001_companion_barktriggers (163), c1001_constructionbreathers (9), c1001_cranecomputer (10), c1001_debug (11), c1001_gondolabreathers (20), c1001_gravevalormother (13), c1001_int_computer_bunkerdefenses (11), c1001_int_computer_lodgedefenses (10). All structure markers preserved. Next: continue from line 295788 (c1001_opie)."
+      "note": "Lines 295788-296370: Translated 82 entries - c1001_opie (65), c1001_resortbreathers (4), c1001_resortcomputer (13). All structure markers preserved. Session completed 417 total entries this run (335+82). Next: continue from line 296370 (c1001_rileywoodsonradiocall)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -38,10 +38,10 @@
       "status": "pending"
     }
   },
-  "last_commit_hash": "5f734d6",
-  "total_entries_completed": 41748,
+  "last_commit_hash": "82ec662",
+  "total_entries_completed": 41830,
   "estimated_total_entries": 71992,
-  "next_action": "Continue retranslation from line 295788 onwards (335 entries completed this session)",
+  "next_action": "Continue retranslation from line 296370 onwards (417 entries completed this session)",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
