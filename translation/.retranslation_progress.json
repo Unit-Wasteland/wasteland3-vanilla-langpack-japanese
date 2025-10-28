@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 310806,
-      "entries_completed": 43875,
+      "current_line": 313714,
+      "entries_completed": 43998,
       "status": "in_progress",
-      "note": "Lines 309360-310806: Completed global_aspencompanionbarks (32), global_aspengiftsguards (3), woodsonandrangers_wrapup (47), 0000_radio_d_steeltown_initialradiocall (19), d2001_worker_arcology_powerloader (18). All structure markers preserved. Next: Continue from line 310806."
+      "note": "Lines 310806-313714: Completed endslides section (123 entries from [152] to [295]). Translated game ending slides for various story outcomes. All structure markers preserved. Next: Continue from line 313714."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -39,9 +39,9 @@
     }
   },
   "last_commit_hash": "a1cdf35",
-  "total_entries_completed": 43875,
+  "total_entries_completed": 43998,
   "estimated_total_entries": 71992,
-  "next_action": "Continue from line 310806 (90 entries completed this session)",
+  "next_action": "Continue from line 313714 (123 entries completed this session)",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
