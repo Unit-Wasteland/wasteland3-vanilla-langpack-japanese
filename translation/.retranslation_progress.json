@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 355319,
-      "entries_completed": 49315,
+      "current_line": 358194,
+      "entries_completed": 49760,
       "status": "in_progress",
-      "note": "Lines 353471-355319: Bizarre exterior NPCs - Great Gurn, Odinkirks, Hawkbit, Hopeful camp (290 entries)"
+      "note": "Lines 357011-358194: Polly dialogue, Larry/Polly cinematic, radio messages, Payasos flavor (175 entries)"
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -38,10 +38,10 @@
       "status": "pending"
     }
   },
-  "last_commit_hash": "1277eab",
-  "total_entries_completed": 49315,
+  "last_commit_hash": "619e29b",
+  "total_entries_completed": 49760,
   "estimated_total_entries": 71992,
-  "next_action": "Continue from line 355319 (next section: o1001_lewisstenerud - smuggler dialogue, then o1001_longjohnexterior)",
+  "next_action": "Continue from line 358194 (next section: o1001_randygett - Randy Gett family rescue dialogue, 105 entries)",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
