@@ -166,13 +166,13 @@ safe_jq_read() {
         # Failed - retry
         retry=$((retry + 1))
         if [ $retry -lt $max_retries ]; then
-            log "WARN" "JSON read failed (attempt $retry/$max_retries), retrying in $((retry * 2)) seconds..."
+            log "WARN" "JSON read failed (attempt $retry/$max_retries), retrying in $((retry * 2)) seconds..." >&2
             sleep $((retry * 2))
         fi
     done
 
     # All retries failed - use fallback
-    log "ERROR" "Failed to read JSON after $max_retries attempts (query: $jq_query), using fallback: $default_value"
+    log "ERROR" "Failed to read JSON after $max_retries attempts (query: $jq_query), using fallback: $default_value" >&2
     echo "$default_value"
 }
 

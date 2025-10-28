@@ -271919,9 +271919,9 @@
       1 Array Array (96 items)
        0 int size = 96
        [0]
-        1 string data = "Your squad is full, and there is no one you can remove at this time."
+        1 string data = "部隊が満員で、現時点で外せるメンバーがいません。"
        [1]
-        1 string data = "Your squad is full, so you must make room for this companion."
+        1 string data = "部隊が満員なので、このコンパニオンのためにスペースを空ける必要があります。"
        [2]
         1 string data = "Script Node 3"
        [3]
@@ -271931,35 +271931,35 @@
        [5]
         1 string data = "Trigger Conv Node 6"
        [6]
-        1 string data = ""Buddy, head back to base.""
+        1 string data = ""バディ、基地に戻れ。""
        [7]
-        1 string data = ""Cordite, we're switching things up. Head back to headquarters.""
+        1 string data = ""コーダイト、メンバーを入れ替える。本部に戻ってくれ。""
        [8]
-        1 string data = ""Kwon, we need you to head back to HQ.""
+        1 string data = ""クォン、本部に戻る必要がある。""
        [9]
-        1 string data = ""Lucia, do you mind returning to headquarters?""
+        1 string data = ""ルシア、本部に戻ってくれないか?""
        [10]
-        1 string data = ""Pizepi, can you head back to headquarters?""
+        1 string data = ""ピゼピ、本部に戻ってくれる?""
        [11]
-        1 string data = ""Head back to base, Vic. We don't need you right now.""
+        1 string data = ""基地に戻れ、ヴィック。今はお前は不要だ。""
        [12]
-        1 string data = ""Scotchmo, we'd like you to go back to headquarters.""
+        1 string data = ""スコッチモ、本部に戻ってほしい。""
        [13]
-        1 string data = ""Sorry. We're not ready to change our lineup right now. Can you report to our base?""
+        1 string data = ""申し訳ない。今はメンバー変更の準備ができていない。基地に戻ってくれるか?""
        [14]
-        1 string data = ""Understood.""
+        1 string data = ""了解。""
        [15]
-        1 string data = ""I go where I want. Lucky for you, I like your cook.""
+        1 string data = ""俺は好きなところに行く。運が良いな、お前んとこのコックが気に入っている。""
        [16]
-        1 string data = ""Time off? Absolutely. See you there.""
+        1 string data = ""休暇? もちろん。そこで会おう。""
        [17]
-        1 string data = ""I reckon I can do that. So long 'til later.""
+        1 string data = ""できると思う。じゃあまた後でな。""
        [18]
-        1 string data = ""Of course. On my way.""
+        1 string data = ""もちろん。向かっている。""
        [19]
-        1 string data = ""You're gonna leave me unsupervised in your headquarters? Heh. Okay...""
+        1 string data = ""本部で俺を監視なしにする気? へっ。いいぜ...""
        [20]
-        1 string data = ""Well... if that's what y'want. See ya at the bar!""
+        1 string data = ""まあ... それがお望みなら。バーで会おうぜ!""
        [21]
         1 string data = "Trigger Conv Node 6"
        [22]
@@ -272079,7 +272079,7 @@
        [79]
         1 string data = "Trigger Conv Node 88"
        [80]
-        1 string data = " "Jodie, get back to Ranger HQ. We'll catch up with you later.""
+        1 string data = " "ジョディ、レンジャー本部に戻れ。後で合流する。""
        [81]
         1 string data = "Script Node 90"
        [82]
@@ -272089,11 +272089,11 @@
        [84]
         1 string data = "Script Node 93"
        [85]
-        1 string data = " "Yes, sir. See you there!""
+        1 string data = " "了解、ボス。そこで会いましょう!""
        [86]
-        1 string data = " "Go back to Ranger HQ, Fish-Lips.""
+        1 string data = " "レンジャー本部に戻れ、フィッシュリップス。""
        [87]
-        1 string data = " "Uh-huh.""
+        1 string data = " "うんうん。""
        [88]
         1 string data = "Script Node 93"
        [89]
