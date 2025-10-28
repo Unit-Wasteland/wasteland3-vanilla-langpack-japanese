@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 332580,
-      "entries_completed": 46165,
+      "current_line": 334740,
+      "entries_completed": 46480,
       "status": "in_progress",
-      "note": "Lines 332003-332580: Completed m1001_aviehoon (54), m1001_bunkercomputer (14), m1001_dorseysvshoons (33), m1001_erastusandcar (9). Total 110 entries. Next: m1001_erastusdorsey (217 entries - large section) at line 332580."
+      "note": "Lines 333560-334740: m1001_erastusdorsey completed (167), m1001_erastusonradio (13), m1001_gravevicmother (21), m1001_hoongun (21), m1001_hoonmurdercomments (31), m1001_hoonsaltentry partial (12). Total 265 entries this session."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -38,10 +38,10 @@
       "status": "pending"
     }
   },
-  "last_commit_hash": "2b7606d",
-  "total_entries_completed": 46165,
+  "last_commit_hash": "5c1d3d8",
+  "total_entries_completed": 46480,
   "estimated_total_entries": 71992,
-  "next_action": "Continue from line 332580 (m1001_erastusdorsey - 217 entries, large dialogue section)",
+  "next_action": "Continue from line 334740 (next section: m1001_hoonsaltentry remaining entries, then continue sequentially)",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
