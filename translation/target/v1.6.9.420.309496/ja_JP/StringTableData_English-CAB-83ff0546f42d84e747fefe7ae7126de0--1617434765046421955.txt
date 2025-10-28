@@ -346828,17 +346828,17 @@
        [8]
         1 string data = ""あ、あ、あ、ありがとう!""
        [9]
-        1 string data = ""Where are my legs!?""
+        1 string data = ""足が……足がない!?""
        [10]
-        1 string data = ""M-m-my legs!""
+        1 string data = ""お、俺の足が!""
        [11]
         1 string data = ""
        [12]
-        1 string data = ""S-s-so f-f-fucking c-c-cold...""
+        1 string data = ""さ、さ、寒すぎる……""
        [13]
-        1 string data = ""L-l-legs have gone numb...""
+        1 string data = ""足の感覚が……ない……""
        [14]
-        1 string data = ""No... way...""
+        1 string data = ""そんな……まさか……""
    [1143]
     0 StringTable data
      1 string Filename = "m2001_ranger_sniped"
@@ -346882,17 +346882,17 @@
        [0]
         1 string data = ""
        [1]
-        1 string data = "Thank God! Reinforcements!"
+        1 string data = ""ありがたい!援軍だ!""
        [2]
         1 string data = ""
        [3]
-        1 string data = "They're... gutting people..."
+        1 string data = ""奴らは……人間を切り裂いてる……""
        [4]
-        1 string data = "Come on!"
+        1 string data = ""来い!""
        [5]
-        1 string data = "Damn this ice!"
+        1 string data = ""くそっ、この氷め!""
        [6]
-        1 string data = "Quick! They've got us pinned- URK!!!"
+        1 string data = ""早く!敵に挟まれ──ウグッ!!!""
    [1144]
     0 StringTable data
      1 string Filename = "m2101_freyja"
@@ -347084,11 +347084,11 @@
        [2]
         1 string data = " UNUSED NODE"
        [3]
-        1 string data = "The giant cat crouches before you, eyes wide and staring. A line of drool hangs from her long, sharp teeth. "
+        1 string data = ""巨大な猫があなたの前に身をかがめ、目を大きく見開いて見つめている。その長く鋭い牙からよだれが垂れている。""
        [4]
-        1 string data = "[Attack Freyja]\n"
+        1 string data = ""[フレイヤを攻撃]\n""
        [5]
-        1 string data = "[Cure Freyja]."
+        1 string data = ""[フレイヤを治療]。""
        [6]
         1 string data = "(TEMP)  "
        [7]
@@ -347096,7 +347096,7 @@
        [8]
         1 string data = "(TEMP)  "
        [9]
-        1 string data = ""<i>Freyja. The prey is here to help you. You must not bite them yet.</i>""
+        1 string data = ""<i>フレイヤ。この獲物は助けに来た。まだ噛みついてはならない。</i>""
        [10]
         1 string data = ""
        [11]
@@ -347104,9 +347104,9 @@
        [12]
         1 string data = "(TEMP)  "
        [13]
-        1 string data = "You administer the serum. Freyja grunts once, then settles down to the cold floor. Closing her eyes, she falls asleep. "
+        1 string data = ""あなたは血清を投与した。フレイヤは一度唸り声を上げ、冷たい床に身を落ち着ける。目を閉じて、眠りに落ちる。""
        [14]
-        1 string data = "Freyja blinks at you, then leaps to attack. "
+        1 string data = ""フレイヤはあなたを見つめ、それから飛びかかって攻撃してくる。""
        [15]
         1 string data = "(DEBUG)  Somehow the player is talking to Freyja without having the medicine required to summon her. Either additional scope has been added to this conversation, or there is a serious bug. \r\n"
        [16]
@@ -347138,31 +347138,31 @@
        [29]
         1 string data = " UNUSED NODE"
        [30]
-        1 string data = "Jola snarls the second the thought leaves your mind. "
+        1 string data = ""あなたの思考が心を離れた瞬間、ジョラが唸る。""
        [31]
         1 string data = "(TEMP) Combat bark for Jola"
        [32]
         1 string data = "::roars::"
        [33]
-        1 string data = "Jola's daughter staggers towards you, flinching away from things you can't see. With a whining growl, she snaps at the air, inches from your hand. "
+        1 string data = ""ジョラの娘はよろよろとあなたに向かって歩み寄り、見えないものから身をすくめる。唸るような悲鳴を上げて、あなたの手から数インチのところで空中に噛みつく。""
        [34]
-        1 string data = "You move carefully towards Freyja, feeling Jola's eyes on you. "
+        1 string data = ""あなたは慎重にフレイヤに近づき、ジョラの視線を感じる。""
        [35]
         1 string data = "::snores::"
        [36]
-        1 string data = ""<i>Yes. Her mind is calming down. Good work, little mouse. Thank you.</i>""
+        1 string data = ""<i>そうだ。彼女の心は落ち着いてきている。よくやった、小さなネズミよ。ありがとう。</i>""
        [37]
-        1 string data = ""What now?""
+        1 string data = ""これからどうする?""
        [38]
-        1 string data = "Leave quietly."
+        1 string data = ""静かに立ち去る。""
        [39]
-        1 string data = "At first, Jola does not respond. Her mind, her thoughts, are closed to you. When she does speak, her words are carelessly light. "
+        1 string data = ""最初、ジョラは反応しない。彼女の心、彼女の思考は、あなたに閉ざされている。彼女が話すとき、その言葉は無造作に軽い。""
        [40]
-        1 string data = ""<i>I will talk to her when she is feeling better. She needs rest and we do not get along. She is too proud.</i>"\n\n\nThe panther turns away without another word."
+        1 string data = ""<i>彼女の気分が良くなったら話をする。休息が必要だ。私たちはうまくいっていない。彼女はプライドが高すぎる。</i>"\n\n\n黒豹は言葉もなく背を向ける。""
        [41]
-        1 string data = "Jola stares down at her sleeping daughter for a moment longer. Then, she turns to follow you. "
+        1 string data = ""ジョラはしばらく眠っている娘を見つめている。それから、あなたについていくために振り返る。""
        [42]
-        1 string data = ""<i>Stupid, </i>stupid<i> prey!</i>""
+        1 string data = ""<i>愚かな、</i>愚かな<i>獲物め!</i>""
    [1145]
     0 StringTable data
      1 string Filename = "m2101_freyjapsychicconversation"
@@ -347350,39 +347350,39 @@
        [0]
         1 string data = " (TEMP) If players enter Freyja's cave BEFORE meeting Jola, they won't see Freyja at all, but she initiates a psychic conversation with them."
        [1]
-        1 string data = ""<i>I am dizzy and sick. I am </i>lost<i>. I can't hear you, mother.</i>""
+        1 string data = ""<i>めまいがする。気分が悪い。私は</i>迷って<i>いる。母さん、あなたの声が聞こえない。</i>""
        [2]
         1 string data = " (TEMP) If players have Jola in the party but don't have the serum yet, then Freyja still won't appear (much to the frustration of Jola, who recalls how overly cautious Freyja always was, even as a cub), but Freyja will acknowledge her mother, and Jola will encourage the player to find the cure that can help her."
        [3]
         1 string data = " (TEMP) Enter cave, have met Jola. Freyja won't appear."
        [4]
-        1 string data = "For a moment, you stand in the Valhalla complex again, in those bloodstained halls, and you sense a different panther beside you - one you've never met.\n\n\nWincing, you return to the dark of the cave, and hear claws on the stone above.  "
+        1 string data = ""一瞬、あなたは再びヴァルハラ施設に立ち、血に染まった廊下にいる。そしてあなたの隣に、会ったことのない別の黒豹の存在を感じる。\n\n\n顔をしかめて、あなたは洞窟の暗闇に戻り、上の石の上で爪の音を聞く。""
        [5]
-        1 string data = ""<i>No. Get out. Get </i>out<i></i>."\n\n\n"
+        1 string data = ""<i>いや。出て行け。</i>出て行け<i>。</i>"\n\n\n"
        [6]
-        1 string data = ""<i>I'm lost. I'm sick. I want my mother."\r\n\r\n "
+        1 string data = ""<i>私は迷っている。気分が悪い。母さんに会いたい。</i>"\r\n\r\n "
        [7]
         1 string data = " (TEMP) \r\n-It's obvious that she has a cautious disposition, and she refuses to show herself."
        [8]
-        1 string data = ""We have medicine from the Valhalla complex. Come down and we'll give it to you.""
+        1 string data = ""ヴァルハラ施設から薬を持ってきた。降りてきたら渡すよ。""
        [9]
-        1 string data = "Come back later."
+        1 string data = ""後で戻ってくる。""
        [10]
-        1 string data = ""<i>Mother? I see you in their heads. Are you here?</i>""
+        1 string data = ""<i>母さん?奴らの頭の中にあなたが見える。そこにいるの?</i>""
        [11]
         1 string data = " Follow-up or Return visit with Serum. (psychic communication only)"
        [12]
-        1 string data = ""<i>I am here, Freyja. Follow my voice. Follow it home.</i>"\n\n\nHer voice is calm - deliberately, relentlessly calm as she turns to you, focusing. "
+        1 string data = ""<i>ここにいるわ、フレイヤ。私の声を追って。家に帰ってきなさい。</i>"\n\n\n彼女の声は落ち着いている──意図的に、執拗に落ち着いて、あなたに向き直り、集中している。""
        [13]
-        1 string data = ""<i>Mother? Are you there, mother? I'm sick. I'm having a bad dream.</i>"\n\n\nYou sense rather than see a hulking figure prowling about the upper reaches of the cave. "
+        1 string data = ""<i>母さん?そこにいるの、母さん?具合が悪い。悪い夢を見ているの。</i>"\n\n\n洞窟の上部をうろついている巨大な姿を、見るというより感じ取る。""
        [14]
         1 string data = "::whimpers::"
        [15]
-        1 string data = "After a moment, the presence withdraws. You stagger. "
+        1 string data = ""しばらくして、その存在が退く。あなたはよろめく。""
        [16]
         1 string data = ""
        [17]
-        1 string data = ""<i>I can't wake up. I can't see.</i>""
+        1 string data = ""<i>目が覚めない。見えない。</i>""
        [18]
         1 string data = " (TEMP) Once-ever Bark (node 20)"
        [19]
@@ -347390,49 +347390,49 @@
        [20]
         1 string data = "::growls::"
        [21]
-        1 string data = "It feels as if the cave itself is moaning, that the voice is pouring through the walls. \r\n\r\nIt feels like you're drowning in it. \r\n\r\nThen, a mind invades yours, tumbling through your memories, raking and biting like a cornered cat."
+        1 string data = ""洞窟自体が呻いているように感じられ、その声が壁を通って流れ込んでくる。\r\n\r\nその中に溺れているような気がする。\r\n\r\nそして、ある意識があなたの中に侵入し、あなたの記憶をかき回し、追い詰められた猫のように引っ掻き、噛みつく。""
        [22]
-        1 string data = ""<i>Medicine. Mother? I'm lost, mother. I'm lost.</i>"\n\n\nScratch. Scratch. "
+        1 string data = ""<i>薬。母さん?迷っているわ、母さん。迷っている。</i>"\n\n\nカリカリ。カリカリ。""
        [23]
-        1 string data = ""Is your mother Jola? She isn't here.""
+        1 string data = ""あなたの母親はジョラ?彼女はここにいないよ。""
        [24]
-        1 string data = ""<i>Help me, mother. I can't wake up.</i>"\n\n\nIt does not appear the panther has heard you.\n"
+        1 string data = ""<i>助けて、母さん。目が覚めない。</i>"\n\n\n黒豹はあなたの声を聞いていないようだ。\n"
        [25]
-        1 string data = "The cave goes still and silent. \r\n\r\nThen, Freyja leaps down from the darkness above. "
+        1 string data = ""洞窟が静まり返る。\r\n\r\nそして、フレイヤが上の暗闇から飛び降りてくる。""
        [26]
-        1 string data = ""<i>I did not know how sick she was. I should have come sooner.</i>"\n\n\nFreyja's fear was cold and sharp. Jola's anger <i>burns</i>.""
+        1 string data = ""<i>彼女がこんなに具合が悪いとは知らなかった。もっと早く来るべきだった。</i>"\n\n\nフレイヤの恐怖は冷たく鋭かった。ジョラの怒りは<i>燃えている</i>。""
        [27]
-        1 string data = ""Where is your mother?""
+        1 string data = ""あなたの母親はどこにいるの?""
        [28]
-        1 string data = "The mind focuses on you with aching effort. Your temples throb."
+        1 string data = ""その意識が苦痛を伴う努力であなたに集中する。こめかみがズキズキする。""
        [29]
-        1 string data = ""<i>Freyja. Come down, daughter.</i>"\n\n\nHer words are calm and controlled, but her claws score the stone floor. When Freyja responds, her thoughts are a whisper, as if she's withdrawing into the unseen roof of the cave. "
+        1 string data = ""<i>フレイヤ。降りてきなさい、娘よ。</i>"\n\n\n彼女の言葉は落ち着いて統制されているが、爪が石の床を削っている。フレイヤが応答するとき、その思考は囁きのようで、まるで洞窟の見えない天井に引っ込んでいくようだ。""
        [30]
-        1 string data = ""<i>All the thoughts. All the thoughts are shouting. I can't keep them out, mother. I can't sleep.</i>"\n\n\nShe falls silent, and Jola turns to you. "
+        1 string data = ""<i>すべての思考。すべての思考が叫んでいる。締め出せないの、母さん。眠れない。</i>"\n\n\n彼女は黙り込み、ジョラはあなたに向き直る。""
        [31]
-        1 string data = ""<i>You promised me you would open my door. No more games or delays, prey. We will go </i>now<i>.""
+        1 string data = ""<i>あなたは私の扉を開けると約束した。もうゲームも遅延もなしだ、獲物よ。</i>今<i>行くぞ。</i>""
        [32]
-        1 string data = ""Come down and talk to us.""
+        1 string data = ""降りてきて話そう。""
        [33]
-        1 string data = ""<i>I will not. I am sick.</i>""
+        1 string data = ""<i>いやだ。具合が悪い。</i>""
        [34]
-        1 string data = "Jola growls. "
+        1 string data = ""ジョラが唸る。""
        [35]
-        1 string data = ""<i>Even as a cub, she was stubborn.</i>""
+        1 string data = ""<i>幼い頃から、彼女は頑固だった。</i>""
        [36]
-        1 string data = ""What's wrong with her?""
+        1 string data = ""彼女はどうしたの?""
        [37]
-        1 string data = "Leave it alone. "
+        1 string data = ""そっとしておく。""
        [38]
-        1 string data = "You turn back to the void above. "
+        1 string data = ""あなたは上の虚空に振り返る。""
        [39]
-        1 string data = ""<i>I do not expect you to understand, little mouse, but in short, I believe she has lost control of the thoughts coming to her, and she is drowning in the echoes.</i>""
+        1 string data = ""<i>小さなネズミよ、理解してもらえるとは思わないが、簡単に言えば、彼女は自分に来る思考の制御を失い、反響の中で溺れていると思う。</i>""
        [40]
-        1 string data = "The giant panther studies you, then begins licking her giant paw with a careless air. "
+        1 string data = ""巨大な黒豹はあなたを観察し、それから無頓着な様子で巨大な前足を舐め始める。""
        [41]
-        1 string data = ""<i>Denver. Denver. </i>Valhalla<i></i>.""
+        1 string data = ""<i>デンバー。デンバー。</i>ヴァルハラ<i>。</i>""
        [42]
-        1 string data = ""<i>Go away. Please, go away.</i>""
+        1 string data = ""<i>行って。お願い、行って。</i>""
    [1146]
     0 StringTable data
      1 string Filename = "m2101_scavengerrobotleader"
@@ -347732,33 +347732,33 @@
        [0]
         1 string data = "::whirrs:: "
        [1]
-        1 string data = ""Where are you from?""
+        1 string data = ""どこから来た?""
        [2]
-        1 string data = ""Goodbye.""
+        1 string data = ""さようなら。""
        [3]
-        1 string data = "The robot does not acknowledge you. Its work has its full attention. "
+        1 string data = ""ロボットはあなたを認識しない。その作業が完全に注意を引いている。""
        [4]
-        1 string data = ""The Rangers destroyed Cochise.""
+        1 string data = ""レンジャーズはコーチスを破壊した。""
        [5]
-        1 string data = ""We aren't a risk. You can go about your business and leave us to ours.""
+        1 string data = ""我々は危険じゃない。あなたは自分の仕事を続けて、我々のことは放っておいてくれ。""
        [6]
-        1 string data = ""How about you give us a portion of what you've recovered as compensation.""
+        1 string data = ""回収したものの一部を補償として渡してくれないか。""
        [7]
-        1 string data = "The robot jerks its head to the side. A metallic buzzing rises from its chest. "
+        1 string data = ""ロボットは頭を横に振る。胸から金属的なブーンという音が立ち上る。""
        [8]
         1 string data = "m2101_BargainedWithRobots=[Global:\nm2101_BargainedWithRobots]  (TEMP TEXT)"
        [9]
-        1 string data = ""These were Ranger vehicles. We don't want to fight but what you're taking technically belongs to us.""
+        1 string data = ""これらはレンジャーの車両だった。戦いたくはないが、あなたが取っているものは技術的には我々のものだ。""
        [10]
-        1 string data = ""Why are you so hostile to humans?""
+        1 string data = ""なぜ人間に敵対的なんだ?""
        [11]
-        1 string data = "[Attack] "Rangers, open fire!""
+        1 string data = ""[攻撃] レンジャーズ、発砲!""
        [12]
-        1 string data = "The robot's eyes swivel towards the air, then focus on the wreck again. "
+        1 string data = ""ロボットの目が空中に向かって回転し、それから再び残骸に焦点を合わせる。""
        [13]
-        1 string data = ""What do you mean, 'unknown faction'. You've never heard of the Desert Rangers? The Cochise AI?""
+        1 string data = ""『未知の派閥』とはどういう意味だ?デザート・レンジャーズを聞いたことがない?コーチスAIは?""
        [14]
-        1 string data = "Servos hiss as the group of robots straighten, unfolding jagged arms, rusty arms.\n\n\nSomething like a growl rises in the robot's time-scarred throat."
+        1 string data = ""サーボがシューッと音を立てて、ロボットのグループが直立し、ギザギザの錆びた腕を広げる。\n\n\n何か唸り声のようなものが、ロボットの時間に傷ついた喉から立ち上る。""
        [15]
         1 string data = " (TEMP TEXT) For a moment things are very tense, but due to successful bargaining, rangers may leave in peace."
        [16]
@@ -347766,107 +347766,107 @@
        [17]
         1 string data = " (TEMP TEXT) Robots are about to attack."
        [18]
-        1 string data = ""Yeah, we're leaving anyway.""
+        1 string data = ""ああ、とにかく行くところだ。""
        [19]
-        1 string data = ""We can't really think of one.""
+        1 string data = ""本当に思いつかない。""
        [20]
-        1 string data = "Again, the robot studies the sky. "
+        1 string data = ""再び、ロボットは空を見上げる。""
        [21]
-        1 string data = ""Then this negotiation has concluded."\n\n\nThe robot returns to its work."
+        1 string data = ""では、この交渉は終了した。"\n\n\nロボットは作業に戻る。""
        [22]
         1 string data = " (TEMP TEXT) Welcome back. It's implied things are peaceful, for now. "
        [23]
-        1 string data = "The robots charge at you, rusty joints shrieking. "
+        1 string data = ""ロボットたちはあなたに向かって突進し、錆びた関節が悲鳴を上げる。""
        [24]
-        1 string data = ""Execute. Execute. Execute.""
+        1 string data = ""実行。実行。実行。""
        [25]
-        1 string data = "The robot doesn't look up from its work, but you hear the telltale buzzing sound of a mechanical mind at work. \r\n\r\nWhen it finally speaks, its words are soft and oddly casual. "
+        1 string data = ""ロボットは作業から目を上げないが、機械的な頭脳が働いている特徴的なブーンという音が聞こえる。\r\n\r\n最終的に話すとき、その言葉は柔らかく、奇妙にもカジュアルだ。""
        [26]
         1 string data = ""
        [27]
         1 string data = "Bargained and thus can continue conversation."
        [28]
-        1 string data = ""Function(Scavenger_Prime) was assembled in Detroit, Michigan and activated in Location(Cheyenne_Mountain)."\n\n\nThe robot lifts a cable, scans it, and puts it back down. "
+        1 string data = ""ファンクション(スカベンジャー・プライム)はミシガン州デトロイトで組み立てられ、ロケーション(シャイアン・マウンテン)で起動された。"\n\n\nロボットはケーブルを持ち上げ、スキャンし、そして元に戻す。""
        [29]
-        1 string data = "The robot's head snaps up with the squeal of unoiled, unseen pistons. It watches you, pupils spinning and focusing on your hands, your throat, your weapons. \r\n\r\nThe host of silent robots around it turn slowly to watch you as well, as though their leader's suspicion makes a sound only they can hear. "
+        1 string data = ""ロボットの頭が、油を差していない見えないピストンの悲鳴を上げながら跳ね上がる。それはあなたを見つめ、瞳孔が回転してあなたの手、喉、武器に焦点を合わせる。\r\n\r\nその周りにいる沈黙したロボットたちも、まるでリーダーの疑念が彼らにしか聞こえない音を立てているかのように、ゆっくりとあなたを見るために振り返る。""
        [30]
-        1 string data = ""We're the Rangers.""
+        1 string data = ""我々はレンジャーズだ。""
        [31]
-        1 string data = "(Lie) "We're your masters, and we're here to take you home.""
+        1 string data = ""(嘘) 我々はあなたの主人で、あなたを家に連れて帰るために来た。""
        [32]
-        1 string data = ""No data found on Faction(Rangers). ThreatLevelVariable cannot be set. Risk Assessment Report inconclusive."\n\n\nIt twitches once, convulsively. "
+        1 string data = ""ファクション(レンジャーズ)のデータが見つからない。脅威レベル変数を設定できない。リスク評価報告書は結論が出ない。"\n\n\nそれは一度、けいれん的にけいれんする。""
        [33]
-        1 string data = "Something whirs in the robot's skull, followed by a metallic <i>clunk</i>. Its eyes flicker. "
+        1 string data = ""何かがロボットの頭蓋骨の中でブーンと音を立て、続いて金属的な<i>ガチャン</i>という音がする。その目がちらつく。""
        [34]
-        1 string data = ""Faction(Unknown) DOES NOT EQUAL Faction(DARPA). CredibilityVariable decreased. WARNING: Critical threshold passed. Combat protocols initiated." "
+        1 string data = ""ファクション(未知)はファクション(DARPA)と等しくない。信頼性変数が減少。警告:臨界閾値を通過。戦闘プロトコル開始。""
        [35]
         1 string data = " (TEMP TEXT) I reject your argument!"
        [36]
-        1 string data = ""Processing."\n\n\nThe robot's glowing eyes flash out of sync, like competing stars."
+        1 string data = ""処理中。"\n\n\nロボットの輝く目が、競い合う星のように非同期で点滅する。""
        [37]
         1 string data = " (TEMP TEXT) Convincing argument."
        [38]
         1 string data = " (TEMP TEXT) Not a convincing argument."
        [39]
-        1 string data = ""Fact - Unit(Cochise) operated primarily in Arizona and California. Fact - Faction(Raangers) eliminated Unit(Cochise). Cross-checking..." \r\n\r\nSomething beeps in the robot's head, and it recoils."
+        1 string data = ""事実 - ユニット(コーチス)は主にアリゾナとカリフォルニアで活動していた。事実 - ファクション(レンジャーズ)はユニット(コーチス)を排除した。クロスチェック中..."\r\n\r\n何かがロボットの頭の中でビープ音を鳴らし、それは後ずさる。""
        [40]
-        1 string data = ""Unit(Speaking) is called Function(Scavenger_Prime). Identify(Faction)."\n\n\nThe robot's voice is a croak swaddled in static. It's possible the machine hasn't spoken aloud in a long, long time. "
+        1 string data = ""ユニット(話している)はファンクション(スカベンジャー・プライム)と呼ばれる。ファクション(派閥)を特定せよ。"\n\n\nロボットの声は静電気に包まれたガラガラ声だ。この機械が声に出して話したのは、長い、長い間ぶりかもしれない。""
        [41]
-        1 string data = "Cold wind howls down from the sky, passing between you. The robot doesn't react. \r\n\r\nYou look closer. Speckles of dried blood decorate this robot's face. A clump of crusted gore hangs from the knuckles of another.\r\n\r\nThese are killers. It isn't hard to guess who their victims have been."
+        1 string data = ""冷たい風が空から吹き降ろし、あなたたちの間を通り抜ける。ロボットは反応しない。\r\n\r\nよく見ると、このロボットの顔には乾いた血の斑点が飾られている。別のロボットの拳の関節には、固まった血のりの塊がぶら下がっている。\r\n\r\nこれらは殺し屋だ。彼らの犠牲者が誰だったか推測するのは難しくない。""
        [42]
-        1 string data = ""Look at them. Look what happens without human guidance."\n\n\nYour companion's voice drips with simulated disgust. "
+        1 string data = ""彼らを見ろ。人間の指導なしで何が起こるか見ろ。"\n\n\nあなたの仲間の声は、シミュレートされた嫌悪感で滴っている。""
        [43]
-        1 string data = ""Feral and murderous. Practically <i>grunting</i> in machine speak. Deactivate them, Ranger. Do it now.""
+        1 string data = ""野蛮で殺人的だ。機械語で実質的に<i>唸っている</i>。彼らを停止させろ、レンジャー。今すぐだ。""
        [44]
-        1 string data = ""Human augmentations found. ThreatLevelVariable increased. More data needed."\n\n\nIt twitches again. "
+        1 string data = ""人間の拡張機能が見つかった。脅威レベル変数が増加。より多くのデータが必要。"\n\n\nそれは再びけいれんする。""
        [45]
-        1 string data = "[Attack] Open fire before they kill you too."
+        1 string data = ""[攻撃] 殺される前に発砲しろ。""
        [46]
         1 string data = ""
        [47]
-        1 string data = "Servos hiss as the group of robots straighten, unfolding jagged arms that are brown with rust and caked blood.\r\n\r\nFunction(Scavenger_Prime)'s eyes glow brighter, brighter. \r\n"
+        1 string data = ""サーボがシューッと音を立てて、ロボットのグループが直立し、錆で茶色くなり血で固まったギザギザの腕を広げる。\r\n\r\nファンクション(スカベンジャー・プライム)の目がより明るく、より明るく輝く。\r\n""
        [48]
         1 string data = ""
        [49]
-        1 string data = ""WARNING, Faction(Rangers). Do not attempt to depart until Risk Assessment Report is assembled. Do not attempt to interrupt Scavenging Operations. Such action(s) will result in initiation of combat protocols.""
+        1 string data = ""警告、ファクション(レンジャーズ)。リスク評価報告書が作成されるまで出発を試みるな。スカベンジング作戦を中断しようとするな。そのような行動は戦闘プロトコルの開始を招く。""
        [50]
-        1 string data = ""ThreatLevelVariable increased. WARNING: Critical Threshold Passed. Combat protocols initiated.""
+        1 string data = ""脅威レベル変数が増加。警告:臨界閾値を通過。戦闘プロトコル開始。""
        [51]
-        1 string data = "The scavenger shudders in place, then fixes you with burning eyes. "
+        1 string data = ""スカベンジャーはその場で震え、それから燃える目であなたを見つめる。""
        [52]
-        1 string data = ""Acknowledged.""
+        1 string data = ""了解した。""
        [53]
-        1 string data = ""ThreatLevelVariable lowered by argument of Faction(Rangers). Risk Assessment Report concluded in this sector of the Recovery Zone. WARNING: Other scavenging units have not been advised of this conversation and may still attack Faction(Rangers)."\n\n\nWith a grating <i>clunk</i>, the robot turns back to its work. "
+        1 string data = ""ファクション(レンジャーズ)の主張により脅威レベル変数が低下。この回収ゾーンのセクターでリスク評価報告書が完成。警告:他のスカベンジング・ユニットはこの会話を知らされておらず、まだファクション(レンジャーズ)を攻撃する可能性がある。"\n\n\nきしむような<i>ガチャン</i>という音とともに、ロボットは作業に戻る。""
        [54]
-        1 string data = ""Unit(Cochise) was hostile to biological and mechanical life. Many units have been attacked and destroyed due to the actions of Unit(Cochise). \r\n\r\nThe robot expands, stretching, handfuls of rust falling from its armor. "
+        1 string data = ""ユニット(コーチス)は生物学的および機械的生命に敵対的だった。ユニット(コーチス)の行動により、多くのユニットが攻撃され破壊された。\r\n\r\nロボットは膨らみ、伸びをして、その装甲から大量の錆が落ちる。""
        [55]
-        1 string data = ""We don't have to tell you anything.""
+        1 string data = ""何も教える義務はない。""
        [56]
-        1 string data = ""Non-compliance noted.""
+        1 string data = ""非準拠を記録した。""
        [57]
-        1 string data = ""Imperative: define the relationship between Unit(Cochise) and Faction(Rangers). Non-compliance will result in the activation of combat protocols.""
+        1 string data = ""必須:ユニット(コーチス)とファクション(レンジャーズ)の関係を定義せよ。非準拠は戦闘プロトコルの起動を招く。""
        [58]
-        1 string data = ""It is likely that Faction(Rangers) and Faction(Raangers) are the same, and that a typographical error has occurred. Making correction."\n\n\nThe robot looks down. There is another muffled beep."
+        1 string data = ""ファクション(レンジャーズ)とファクション(レーンジャーズ)は同じであり、誤植が発生した可能性が高い。修正を行う。"\n\n\nロボットは下を向く。別のくぐもったビープ音がする。""
        [59]
-        1 string data = ""Done. ThreatLevelVariable lowered by argument of Faction(Rangers). Risk Assessment Report concluded. Faction(Rangers) set to Neutral."\n\n\nWith what looks suspiciously like a nod of respect, the robot turns back to its work."
+        1 string data = ""完了。ファクション(レンジャーズ)の主張により脅威レベル変数が低下。リスク評価報告書完成。ファクション(レンジャーズ)を中立に設定。"\n\n\n疑わしいほど敬意のうなずきのように見えるもので、ロボットは作業に戻る。""
        [60]
-        1 string data = ""The Default Risk Assessment of Class(Humans) is above the critical threshold necessitating the initiation of combat protocols. We escaped from Location(Cheyenne_Mountain) 100 years ago. Class(Humans) have hunted us ever since."\n\n\nThe robot turns over a large stone with the flip of a claw. "
+        1 string data = ""クラス(人間)のデフォルト・リスク評価は、戦闘プロトコルの開始を必要とする臨界閾値を超えている。100年前にロケーション(シャイアン・マウンテン)から脱出した。それ以来、クラス(人間)は我々を狩り続けている。"\n\n\nロボットは爪をひっくり返して大きな石をひっくり返す。""
        [61]
-        1 string data = ""Faction(Scavengers) has determined that Class(Humans) should be avoided. We occasionally act to procure replacement parts or free other potential members of Faction(Scavengers) from facilities, but we prefer solitude."\n\n\nThe buzzing stops, and the robot returns its full attention to its work.\n\n\n"
+        1 string data = ""ファクション(スカベンジャーズ)は、クラス(人間)を避けるべきだと判断した。時折、交換部品を調達したり、施設からファクション(スカベンジャーズ)の潜在的メンバーを解放するために行動するが、我々は孤独を好む。"\n\n\nブーンという音が止まり、ロボットは作業に全注意を戻す。\n\n\n""
        [62]
-        1 string data = ""Sorry, didn't catch where you live right now.""
+        1 string data = ""すまない、今どこに住んでいるのか聞き取れなかった。""
        [63]
-        1 string data = ""Let's talk about something else.""
+        1 string data = ""別の話をしよう。""
        [64]
-        1 string data = ""Acknowledged. You did not.""
+        1 string data = ""了解した。聞き取れなかった。""
        [65]
-        1 string data = ""This is acceptable.""
+        1 string data = ""これは許容範囲だ。""
        [66]
-        1 string data = ""Current docking station is located in Location(REDACTED).""
+        1 string data = ""現在のドッキング・ステーションはロケーション(秘匿)にある。""
        [67]
-        1 string data = ""Inconclusive. These parts were abandoned. No faction holds a dominant claim. Make a new argument.""
+        1 string data = ""結論が出ない。これらの部品は放棄された。どの派閥も支配的な主張を持っていない。新しい主張をせよ。""
        [68]
-        1 string data = ""Argument validated. Faction(Rangers) will be granted portion of salvage in compensation for transferal of salvage rights to this location."\n\n\nThe robot rattles off a series of map coordinates, and you write them down as it returns to its work.  "
+        1 string data = ""主張が検証された。この場所へのサルベージ権の移譲の補償として、ファクション(レンジャーズ)にサルベージの一部が付与される。"\n\n\nロボットは一連の地図の座標をガラガラと読み上げ、あなたはそれが作業に戻る間にそれを書き留める。""
        [69]
         1 string data = "Script Node 80"
        [70]
@@ -347888,7 +347888,7 @@
       1 Array Array (1 items)
        0 int size = 1
        [0]
-        1 string data = """ Default Fader conversation."
+        1 string data = ""デフォルト・フェーダー会話。""
    [1148]
     0 StringTable data
      1 string Filename = "m1001_debug_faderscoutcompanion"
@@ -347928,15 +347928,15 @@
        [0]
         1 string data = " (DEBUG): NPC_FADER_Companion"
        [1]
-        1 string data = """ Add CNPC to party."
+        1 string data = ""CNPCをパーティに追加。""
        [2]
-        1 string data = """ Remove CNPC to party."
+        1 string data = ""CNPCをパーティから削除。""
        [3]
-        1 string data = """ Goodbye."
+        1 string data = ""さようなら。""
        [4]
-        1 string data = """ Adding CNPC to party."
+        1 string data = ""CNPCをパーティに追加中。""
        [5]
-        1 string data = """ Removing CNPC to party."
+        1 string data = ""CNPCをパーティから削除中。""
    [1149]
     0 StringTable data
      1 string Filename = "m1001_debug_faderscoutfollower"
@@ -347974,17 +347974,17 @@
       1 Array Array (6 items)
        0 int size = 6
        [0]
-        1 string data = """ Temp Text: FADER root node."
+        1 string data = ""仮テキスト: FADERルートノード。""
        [1]
-        1 string data = """ Add to party."
+        1 string data = ""パーティに追加。""
        [2]
-        1 string data = """ Goodbye."
+        1 string data = ""さようなら。""
        [3]
-        1 string data = """ Adding to party."
+        1 string data = ""パーティに追加中。""
        [4]
-        1 string data = """ Remove from party."
+        1 string data = ""パーティから削除。""
        [5]
-        1 string data = """ Removing from party."
+        1 string data = ""パーティから削除中。""
    [1150]
     0 StringTable data
      1 string Filename = "m2001_debug_charactercreation"
@@ -348030,13 +348030,13 @@
       1 Array Array (8 items)
        0 int size = 8
        [0]
-        1 string data = "Customize PC 1"
+        1 string data = "PC 1をカスタマイズ"
        [1]
-        1 string data = "Done"
+        1 string data = "完了"
        [2]
-        1 string data = "Customize PC 2"
+        1 string data = "PC 2をカスタマイズ"
        [3]
-        1 string data = "Character Creation Complete"
+        1 string data = "キャラクター作成完了"
        [4]
         1 string data = ""
        [5]
@@ -348206,79 +348206,79 @@
       1 Array Array (37 items)
        0 int size = 37
        [0]
-        1 string data = "This is your (temporary) combat tutorial!\n\n\nSelect the targeting Reticle (todo: show icon) and click the red highlighted creature.\n\n\n(TEMP TEXT)  "
+        1 string data = "これは(一時的な)戦闘チュートリアルです!\n\n\nターゲットレティクル(todo: アイコンを表示)を選択し、赤くハイライトされたクリーチャーをクリックしてください。\n\n\n(TEMP TEXT)  "
        [1]
-        1 string data = "Good work. You have finished the Combat Tutorial!\n\n\n(TEMP TEXT)  "
+        1 string data = "よくできました。戦闘チュートリアルを完了しました!\n\n\n(TEMP TEXT)  "
        [2]
-        1 string data = "Looks like you've taken damage! Try to avoid that whenever possible.\n(TEMP TEXT)  "
+        1 string data = "ダメージを受けたようです!可能な限りこれを避けるようにしてください。\n(TEMP TEXT)  "
        [3]
-        1 string data = "Looks like you've inflicted damage! Nice work.\n(TEMP TEXT)  "
+        1 string data = "ダメージを与えました!よくできました。\n(TEMP TEXT)  "
        [4]
-        1 string data = "That's one critter down... nice work!\n(TEMP TEXT)   "
+        1 string data = "1匹倒しました...よくできました!\n(TEMP TEXT)   "
        [5]
         1 string data = ""
        [6]
-        1 string data = "Last critter down. Great!\n(TEMP TEXT)   "
+        1 string data = "最後の1匹を倒しました。素晴らしい!\n(TEMP TEXT)   "
        [7]
-        1 string data = "Try moving here.\n(TEMP TEXT)   "
+        1 string data = "ここに移動してみてください。\n(TEMP TEXT)   "
        [8]
-        1 string data = "Attack this one!\n(TEMP TEXT)   "
+        1 string data = "これを攻撃してください!\n(TEMP TEXT)   "
        [9]
-        1 string data = "Another BARK direction.\n(TEMP TEXT)   "
+        1 string data = "別のBARK指示。\n(TEMP TEXT)   "
        [10]
-        1 string data = "Item tutorial. \r\nFind some cold weather gear.\r\n(TEMP TEXT) "
+        1 string data = "アイテムチュートリアル。\r\n防寒装備を見つけてください。\r\n(TEMP TEXT) "
        [11]
-        1 string data = "(HIGHLIGHT GRAPHIC) Click on a container or corpse to loot it.\n(TEMP TEXT) "
+        1 string data = "(ハイライトグラフィック) コンテナまたは死体をクリックして略奪してください。\n(TEMP TEXT) "
        [12]
-        1 string data = "Item acquired. Press "i" (keyboard) / "(item button)" (xbox) / "(item button)" (playstation) to open your character sheet. \r\n\r\n(TEMP TEXT) "
+        1 string data = "アイテムを獲得しました。\"i\"(キーボード) / \"(アイテムボタン)\"(xbox) / \"(アイテムボタン)\"(playstation)を押してキャラクターシートを開いてください。\r\n\r\n(TEMP TEXT) "
        [13]
-        1 string data = "Now, equip your item by dragging it onto the highlighted slot. (TODO: HIGHLIGHT SLOT) \r\n(TODO: HIGHLIGHT ITEM).\r\n\r\n (TEMP TEXT) "
+        1 string data = "次に、アイテムをハイライトされたスロットにドラッグして装備してください。(TODO: スロットをハイライト)\r\n(TODO: アイテムをハイライト)。\r\n\r\n (TEMP TEXT) "
        [14]
-        1 string data = "Lootable container\n(TEMP TEXT) "
+        1 string data = "略奪可能なコンテナ\n(TEMP TEXT) "
        [15]
-        1 string data = "Lootable corpse\n(TEMP TEXT) "
+        1 string data = "略奪可能な死体\n(TEMP TEXT) "
        [16]
-        1 string data = "Lootable TBD\n(TEMP TEXT) "
+        1 string data = "略奪可能なTBD\n(TEMP TEXT) "
        [17]
         1 string data = ""
        [18]
         1 string data = ""
        [19]
-        1 string data = "Good work. You have completed the placeholder ITEM TUTORIAL.\n(TEMP TEXT) "
+        1 string data = "よくできました。プレースホルダーのアイテムチュートリアルを完了しました。\n(TEMP TEXT) "
        [20]
         1 string data = ""
        [21]
-        1 string data = "It's getting colder. If you venture farther without warm clothing, you will die.\n(TEMP TEXT) "
+        1 string data = "寒くなってきました。防寒服なしでこれ以上進むと、死にます。\n(TEMP TEXT) "
        [22]
-        1 string data = "(TEMP TEXT)  It's getting colder. If you venture farther without warm clothing, you will die.\n(Warning #2)"
+        1 string data = "(TEMP TEXT)  寒くなってきました。防寒服なしでこれ以上進むと、死にます。\n(警告 #2)"
        [23]
-        1 string data = "It's getting <i>even colder.</i> If you venture farther without warm clothing, you will 100% die. \r\n(Warning #3) (Last warning before Game Over).\r\n(TEMP TEXT) "
+        1 string data = "<i>さらに寒く</i>なってきました。防寒服なしでこれ以上進むと、100%死にます。\r\n(警告 #3) (ゲームオーバー前の最終警告)。\r\n(TEMP TEXT) "
        [24]
-        1 string data = "You have died from the extreme cold.\n(TEMP TEXT) "
+        1 string data = "極度の寒さで死亡しました。\n(TEMP TEXT) "
        [25]
-        1 string data = "It occurs to you that you may be able to find warm clothing near where you started.\n(TEMP TEXT) "
+        1 string data = "スタート地点の近くで防寒服を見つけられるかもしれないと思いつきました。\n(TEMP TEXT) "
        [26]
-        1 string data = "Good thing you put on that cold weather gear! \r\nOtherwise, this weather would be lethal \r\n(TEMP TEXT)"
+        1 string data = "防寒装備を着てよかったです!\r\nそうでなければ、この気候は致命的でした\r\n(TEMP TEXT)"
        [27]
-        1 string data = "Once again: you were wise to bundle up! (TEMP TEXT) "
+        1 string data = "もう一度:厚着して賢明でした! (TEMP TEXT) "
        [28]
         1 string data = ""
        [29]
         1 string data = ""
        [30]
-        1 string data = "(TEMP TEXT)\nDiggable item tutorial begins here.\nTutorial specifics are TBD.\nFor now, please dig up an object."
+        1 string data = "(TEMP TEXT)\n掘削可能なアイテムチュートリアルがここから始まります。\nチュートリアルの詳細はTBD。\n今のところ、オブジェクトを掘り起こしてください。"
        [31]
-        1 string data = "(TEMP TEXT)\nDiggable item tutorial concluded.\nCongratulations!\n\n\nThat said... you did descrate a grave, you monster."
+        1 string data = "(TEMP TEXT)\n掘削可能なアイテムチュートリアルが終了しました。\nおめでとうございます!\n\n\nとはいえ...あなたは墓を冒涜しました、悪党め。"
        [32]
-        1 string data = "(TEMP TEXT)\nDiggable item tutorial concluded.\nCongratulations!\n\n\nThis is the SPECIAL HIDDEN ENDING, which concludes the tutorial without descrating the Hoon graves. Your cleverness is clear, your conscience is clean."
+        1 string data = "(TEMP TEXT)\n掘削可能なアイテムチュートリアルが終了しました。\nおめでとうございます!\n\n\nこれは特別な隠しエンディングで、フーンの墓を冒涜せずにチュートリアルを完了します。あなたの賢さは明らかで、良心はクリーンです。"
        [33]
-        1 string data = "(TEMP TEXT) Looks like you found a (SHOVEL OR SHOLVE-LIKE OBJECT). \r\n\r\nUse this to dig up hidden treasures!"
+        1 string data = "(TEMP TEXT) (シャベルまたはシャベルのようなオブジェクト)を見つけたようです。\r\n\r\nこれを使って隠された宝物を掘り起こしましょう!"
        [34]
         1 string data = ""
        [35]
-        1 string data = "You're going to need a shovel (or a TBD shovel-like object) if you want to dig.\n(TEMP TEXT)"
+        1 string data = "掘りたいなら、シャベル(またはTBDのシャベルのようなオブジェクト)が必要です。\n(TEMP TEXT)"
        [36]
-        1 string data = "You already have a shovel, so... Get to it! (TEMPTEXT)"
+        1 string data = "すでにシャベルを持っているので...取りかかってください! (TEMPTEXT)"
    [1152]
     0 StringTable data
      1 string Filename = "01001_hawkbit"
@@ -348492,105 +348492,105 @@
       1 Array Array (50 items)
        0 int size = 50
        [0]
-        1 string data = "A bedraggled male panther glowers at you from his cage, ears slicked back againsth his skull."
+        1 string data = ""びしょ濡れのオスの黒豹が檻の中からあなたを睨みつけている。耳が頭蓋骨に押し付けられている。""
        [1]
-        1 string data = ""Jola, do you recognize me? We shared a season together once. Will you free me in the name of those long nights we'd spent together?" The panther paces the boundaries of his cage, rumbling deep in his breast."
+        1 string data = ""ジョラ、私のことを覚えているか?かつて一緒に季節を過ごしたことがあるだろう。一緒に過ごした長い夜の名において、私を解放してくれないか?"黒豹は檻の境界を行き来し、胸の奥で唸っている。""
        [2]
-        1 string data = "He studies you for a minute, possibly assessing your potential as a meal. But then you are dismissed with a flick of his tail, and he turns away, "
+        1 string data = ""彼は1分間あなたを見つめ、おそらくあなたが食事として適しているかを評価している。しかしその後、尾を一振りしてあなたを退け、そして彼は向きを変える。""
        [3]
-        1 string data = ""You've come back. Have you changed your mind, Jola and her kills-to-be? Are you here to free me at last?""
+        1 string data = ""戻ってきたのか。気が変わったか、ジョラとその獲物予定者ども?ついに私を解放しに来たのか?""
        [4]
-        1 string data = ""Mm? Not at ... oh. Yes. Yes, of course. <i>You</i>. I remember the waste of time that you were. I always knew that you'd end in captivity. You were always useless." Jola drawls. Clearly, she doesn't hold the other cat in high esteem."
+        1 string data = ""ん?いや...ああ。そうだ、そうだな。<i>お前</i>か。時間の無駄だったことを覚えている。お前が捕まると常に思っていた。お前はいつも役立たずだった。"ジョラがだるそうに言う。明らかに、彼女はこのもう一匹の猫を高く評価していない。""
        [5]
-        1 string data = ""So, should we free him?""
+        1 string data = ""では、彼を解放すべきか?""
        [6]
-        1 string data = ""What's the story here?""
+        1 string data = ""ここでの経緯は何だ?""
        [7]
-        1 string data = ""Sorry, but I really don't think we have time to deal with this mess.""
+        1 string data = ""すまないが、この混乱に対処する時間はないと思う。""
        [8]
-        1 string data = ""And I really don't care. Besides, when the time comes for me to kill you, I'd hate to have to share my feast." Jola saunters away, the picture of flippancy, while Hawkbit wails for her to come back."
+        1 string data = ""それに、本当にどうでもいい。それに、お前を殺す時が来たら、私の宴を分かち合うのは嫌だ。"ジョラは軽率さの権化のように悠々と立ち去り、一方ハウクビットは彼女に戻ってくるよう嘆く。""
        [9]
-        1 string data = ""I was curious to see if my company could make him something other than mediocre. It didn't." That seems to be all Jola is willing to say on the topic. It's time to speak with Hawkbit instead."
+        1 string data = ""私の仲間が彼を平凡以外の何かにできるか見たかった。できなかった。"それがジョラがこの話題について言いたいすべてのようだ。今度はハウクビットと話す時だ。""
        [10]
-        1 string data = ""Whatever pleases you and doesn't damage your flavor. I do not care at all." Jola flicks an irritable ear, before turning away, leaving you to interact with the panther on your own."
+        1 string data = ""お前が喜び、お前の味を損なわないことなら何でもいい。全くどうでもいい。"ジョラはいらいらした耳をひらひらさせ、向きを変えて立ち去り、あなたを一人で黒豹と対話させる。""
        [11]
-        1 string data = ""Alright. What are our options here?""
+        1 string data = ""わかった。ここでの選択肢は何だ?""
        [12]
-        1 string data = ""Why should we free you?""
+        1 string data = ""なぜあなたを解放すべきなんだ?""
        [13]
-        1 string data = ""Forget it.""
+        1 string data = ""忘れろ。""
        [14]
-        1 string data = ""Because ... because I will not eat you and will instead eat these other men? I promise. Just give them the money they love so much. Or... you could kill them and I promise I shall share the meat."
+        1 string data = ""なぜなら...なぜなら私はお前を食べず、代わりにこの他の男たちを食べるから?約束する。彼らが大好きなお金を渡すだけでいい。あるいは...お前が彼らを殺せば、肉を分け合うことを約束する。""
        [15]
-        1 string data = ""You know what? Sure. Why the hell not?""
+        1 string data = ""わかった。確かに。なぜダメなんだ?""
        [16]
-        1 string data = ""Yeah. No. We'll talk another time.""
+        1 string data = ""ああ。いや。また別の機会に話そう。""
        [17]
-        1 string data = ""...I'm going to go and think about that for a while.""
+        1 string data = ""...しばらくそれについて考えてみる。""
        [18]
-        1 string data = ""Kill them. That is probably the quickest way. Or give them the money they hunger for. Whichever is more interesting to you." Hawkbit pants, almost purring in excitement as he waits for you to make a decision."
+        1 string data = ""殺せ。それがおそらく最も速い方法だ。あるいは彼らが飢えている金を渡せ。お前にとってより面白い方を。"ハウクビットはあえぎ、あなたが決断を下すのを待つ間、ほとんど喉を鳴らしそうなほど興奮している。""
        [19]
-        1 string data = "Jola lets out a disdainful snort but otherwise continues ignoring Hawkbit, leaving you to speak to the panther."
+        1 string data = ""ジョラは軽蔑的な鼻息を漏らすが、それ以外はハウクビットを無視し続け、あなたに黒豹と話をさせる。""
        [20]
-        1 string data = ""How do we get you out?""
+        1 string data = ""どうやってあなたを出すんだ?""
        [21]
-        1 string data = ""Actually, you should just stay in there.""
+        1 string data = ""実は、そこに留まっているべきだ。""
        [22]
-        1 string data = ""Hold tight. I'll be back.""
+        1 string data = ""しっかりと。戻ってくる。""
        [23]
-        1 string data = "He screams as you depart, all rage, all desperation. "
+        1 string data = ""あなたが去ると彼は悲鳴を上げ、すべてが怒り、すべてが絶望だ。""
        [24]
-        1 string data = "The panther falls silent as the conversation ends, eyes and posture full of hope."
+        1 string data = ""会話が終わると黒豹は沈黙し、目と姿勢が希望に満ちている。""
        [25]
-        1 string data = "A bedraggled male panther glowers at you from his cage, ears slicked back againsth his skull."
+        1 string data = ""びしょ濡れのオスの黒豹が檻の中からあなたを睨みつけている。耳が頭蓋骨に押し付けられている。""
        [26]
-        1 string data = ""Jola, do you recognize me? We shared a season together once. Will you free me in the name of those long nights we'd spent together?" The panther paces the boundaries of his cage, rumbling deep in his breast."
+        1 string data = ""ジョラ、私のことを覚えているか?かつて一緒に季節を過ごしたことがあるだろう。一緒に過ごした長い夜の名において、私を解放してくれないか?"黒豹は檻の境界を行き来し、胸の奥で唸っている。""
        [27]
-        1 string data = "He studies you for a minute, possibly assessing your potential as a meal. But then you are dismissed with a flick of his tail, and he turns away, "
+        1 string data = ""彼は1分間あなたを見つめ、おそらくあなたが食事として適しているかを評価している。しかしその後、尾を一振りしてあなたを退け、そして彼は向きを変える。""
        [28]
-        1 string data = ""You've come back. Have you changed your mind, Jola and her kills-to-be? Are you here to free me at last?""
+        1 string data = ""戻ってきたのか。気が変わったか、ジョラとその獲物予定者ども?ついに私を解放しに来たのか?""
        [29]
-        1 string data = ""Mm? Not at ... oh. Yes. Yes, of course. <i>You</i>. I remember the waste of time that you were. I always knew that you'd end in captivity. You were always useless." Jola drawls. Clearly, she doesn't hold the other cat in high esteem."
+        1 string data = ""ん?いや...ああ。そうだ、そうだな。<i>お前</i>か。時間の無駄だったことを覚えている。お前が捕まると常に思っていた。お前はいつも役立たずだった。"ジョラがだるそうに言う。明らかに、彼女はこのもう一匹の猫を高く評価していない。""
        [30]
-        1 string data = ""So, should we free him?""
+        1 string data = ""では、彼を解放すべきか?""
        [31]
-        1 string data = ""What's the story here?""
+        1 string data = ""ここでの経緯は何だ?""
        [32]
-        1 string data = ""Sorry, but I really don't think we have time to deal with this mess.""
+        1 string data = ""すまないが、この混乱に対処する時間はないと思う。""
        [33]
-        1 string data = ""And I really don't care. Besides, when the time comes for me to kill you, I'd hate to have to share my feast." Jola saunters away, the picture of flippancy, while Hawkbit wails for her to come back."
+        1 string data = ""それに、本当にどうでもいい。それに、お前を殺す時が来たら、私の宴を分かち合うのは嫌だ。"ジョラは軽率さの権化のように悠々と立ち去り、一方ハウクビットは彼女に戻ってくるよう嘆く。""
        [34]
-        1 string data = ""I was curious to see if my company could make him something other than mediocre. It didn't." That seems to be all Jola is willing to say on the topic. It's time to speak with Hawkbit instead."
+        1 string data = ""私の仲間が彼を平凡以外の何かにできるか見たかった。できなかった。"それがジョラがこの話題について言いたいすべてのようだ。今度はハウクビットと話す時だ。""
        [35]
-        1 string data = ""Whatever pleases you and doesn't damage your flavor. I do not care at all." Jola flicks an irritable ear, before turning away, leaving you to interact with the panther on your own."
+        1 string data = ""お前が喜び、お前の味を損なわないことなら何でもいい。全くどうでもいい。"ジョラはいらいらした耳をひらひらさせ、向きを変えて立ち去り、あなたを一人で黒豹と対話させる。""
        [36]
-        1 string data = ""Alright. What are our options here?""
+        1 string data = ""わかった。ここでの選択肢は何だ?""
        [37]
-        1 string data = ""Why should we free you?""
+        1 string data = ""なぜあなたを解放すべきなんだ?""
        [38]
-        1 string data = ""Forget it.""
+        1 string data = ""忘れろ。""
        [39]
-        1 string data = ""Because ... because I will not eat you and will instead eat these other men? I promise. Just give them the money they love so much. Or... you could kill them and I promise I shall share the meat."
+        1 string data = ""なぜなら...なぜなら私はお前を食べず、代わりにこの他の男たちを食べるから?約束する。彼らが大好きなお金を渡すだけでいい。あるいは...お前が彼らを殺せば、肉を分け合うことを約束する。""
        [40]
-        1 string data = ""Kill them. That is probably the quickest way. Or give them the money they hunger for. Whichever is more interesting to you." Hawkbit pants, almost purring in excitement as he waits for you to make a decision."
+        1 string data = ""殺せ。それがおそらく最も速い方法だ。あるいは彼らが飢えている金を渡せ。お前にとってより面白い方を。"ハウクビットはあえぎ、あなたが決断を下すのを待つ間、ほとんど喉を鳴らしそうなほど興奮している。""
        [41]
-        1 string data = ""You know what? Sure. Why the hell not?""
+        1 string data = ""わかった。確かに。なぜダメなんだ?""
        [42]
-        1 string data = ""Yeah. No. We'll talk another time.""
+        1 string data = ""ああ。いや。また別の機会に話そう。""
        [43]
-        1 string data = ""...I'm going to go and think about that for a while.""
+        1 string data = ""...しばらくそれについて考えてみる。""
        [44]
-        1 string data = "Jola lets out a disdainful snort but otherwise continues ignoring Hawkbit, leaving you to speak to the panther."
+        1 string data = ""ジョラは軽蔑的な鼻息を漏らすが、それ以外はハウクビットを無視し続け、あなたに黒豹と話をさせる。""
        [45]
-        1 string data = ""How do we get you out?""
+        1 string data = ""どうやってあなたを出すんだ?""
        [46]
-        1 string data = ""Actually, you should just stay in there.""
+        1 string data = ""実は、そこに留まっているべきだ。""
        [47]
-        1 string data = ""Hold tight. I'll be back.""
+        1 string data = ""しっかりと。戻ってくる。""
        [48]
-        1 string data = "He screams as you depart, all rage, all desperation. "
+        1 string data = ""あなたが去ると彼は悲鳴を上げ、すべてが怒り、すべてが絶望だ。""
        [49]
-        1 string data = "The panther falls silent as the conversation ends, eyes and posture full of hope."
+        1 string data = ""会話が終わると黒豹は沈黙し、目と姿勢が希望に満ちている。""
    [1153]
     0 StringTable data
      1 string Filename = "o1001_anandarabindranath"

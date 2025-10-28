@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 346829,
-      "entries_completed": 47974,
+      "current_line": 348594,
+      "entries_completed": 48252,
       "status": "in_progress",
-      "note": "Lines 343188-346829: Opening mission sections (500 entries - debug mission, Dorsey hostage, first driver intro, opening cinematics, Prasad radio, ranger dialogue, Major Tom cat, ranger nolegs partial)"
+      "note": "Lines 346829-348594: Freyja/Jola dialogues, robot scavenger, debug sections, hawkbit panther (278 entries)"
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -39,9 +39,9 @@
     }
   },
   "last_commit_hash": "7b184fc",
-  "total_entries_completed": 47974,
+  "total_entries_completed": 48252,
   "estimated_total_entries": 71992,
-  "next_action": "Continue from line 346829 (next section: m2001_ranger_nolegs entries 9-14, then m2001_ranger_sniped and following sections)",
+  "next_action": "Continue from line 348594 (next section: o1001_anandarabindranath - 156 entries)",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
