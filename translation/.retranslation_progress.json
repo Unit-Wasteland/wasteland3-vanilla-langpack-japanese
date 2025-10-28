@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 322086,
-      "entries_completed": 44872,
+      "current_line": 324294,
+      "entries_completed": 45105,
       "status": "in_progress",
-      "note": "Lines 319512-322086: Completed gianttoad_combatbarks (8 entries), gipper_combatbarks (101 entries), godfisher_combatbarks (112 entries), holydetonationcultist_combatbarks (9 entries), hostilerobots_combatbarks (91 entries). All combat dialogue translated with appropriate faction voice and themes. Structure markers preserved. Next: Continue from line 322086 (lawkeepers_combatbarks section)."
+      "note": "Lines 322086-324294: Completed lawkeepers_combatbarks (72 entries), lightningshaman_combatbarks (76 entries), mitower_combatbarks (21 entries), mountaingoat_combatbarks (15 entries), odinkirk_combatbarks (49 entries). All combat dialogue translated with faction-appropriate voice. Structure markers and ::action:: markups preserved. Next: Continue from line 324294 (payasos_combatbarks section)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -38,10 +38,10 @@
       "status": "pending"
     }
   },
-  "last_commit_hash": "2e6f225",
-  "total_entries_completed": 44872,
+  "last_commit_hash": "8e628b0",
+  "total_entries_completed": 45105,
   "estimated_total_entries": 71992,
-  "next_action": "Continue from line 322086 (321 entries completed this session)",
+  "next_action": "Continue from line 324294 (233 entries completed this session)",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
