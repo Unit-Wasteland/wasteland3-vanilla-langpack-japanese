@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 350657,
-      "entries_completed": 48588,
+      "current_line": 353471,
+      "entries_completed": 49025,
       "status": "in_progress",
-      "note": "Lines 348594-350657: Ananda/Bizarre entrance dialogues, Odinkirk combat barks (336 entries)"
+      "note": "Lines 350657-353471: Bizarre entrance NPCs, Carmen refugee dialogue, chemical lab puzzles, Dr. Smiles (437 entries)"
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -38,10 +38,10 @@
       "status": "pending"
     }
   },
-  "last_commit_hash": "PENDING",
-  "total_entries_completed": 48588,
+  "last_commit_hash": "bc198c3",
+  "total_entries_completed": 49025,
   "estimated_total_entries": 71992,
-  "next_action": "Continue from line 350657 (next section: o1001_bluemailbox - 18 entries estimated)",
+  "next_action": "Continue from line 353471 (next section: o1001_greatgurn - 76 entries remaining, then o1001_havadrodinkirk)",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
