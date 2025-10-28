@@ -350740,41 +350740,41 @@
       1 Array Array (18 items)
        0 int size = 18
        [0]
-        1 string data = "The mailbox is an unassuming shade of rust-eaten blue, with an opening just wide enough to peer through."
+        1 string data = ""郵便受けはさび付いた青色をした地味な代物だ。中を覗き込むのにちょうどいい大きさの開口部がある。""
        [1]
-        1 string data = " View Debug Options"
+        1 string data = "" デバッグオプションを表示""
        [2]
-        1 string data = "Leave."
+        1 string data = ""立ち去る。""
        [3]
-        1 string data = " Select a Debug Option"
+        1 string data = "" デバッグオプションを選択""
        [4]
-        1 string data = " Initiate 29 Across Quest"
+        1 string data = "" 29 Acrossクエスト開始""
        [5]
-        1 string data = " Return Quest Item Jigowatt Elecrolytic Condenser"
+        1 string data = "" クエストアイテム「ジゴワット・電解コンデンサー」を返却""
        [6]
-        1 string data = " Obtain Quest Item Jigowatt Elecrolytic Condenser"
+        1 string data = "" クエストアイテム「ジゴワット・電解コンデンサー」を入手""
        [7]
-        1 string data = " Quest Started"
+        1 string data = "" クエスト開始""
        [8]
-        1 string data = " Quest Item obtained, Quest updated"
+        1 string data = "" クエストアイテム入手、クエスト更新""
        [9]
-        1 string data = " Quest Item returned, Quest Completed"
+        1 string data = "" クエストアイテム返却、クエスト完了""
        [10]
-        1 string data = "Place the Condenser in the mailbox."
+        1 string data = ""コンデンサーを郵便受けに入れる。""
        [11]
-        1 string data = "Look inside the mailbox."
+        1 string data = ""郵便受けの中を覗く。""
        [12]
-        1 string data = "Reach into the mailbox."
+        1 string data = ""郵便受けに手を入れる。""
        [13]
-        1 string data = "Break the mailbox."
+        1 string data = ""郵便受けを壊す。""
        [14]
-        1 string data = "You place the object in the mailbox. Something lets out a loud <i>click</i>. When you look back inside, the Condenser is gone."
+        1 string data = ""物体を郵便受けに入れた。何かが大きな<i>カチッ</i>という音を立てた。もう一度中を覗くと、コンデンサーは消えていた。""
        [15]
-        1 string data = "You peer through the opening to find ... nothing. Dust-mantled steel and little more."
+        1 string data = ""開口部から中を覗き込むと……何もない。埃をかぶった鋼鉄があるだけだ。""
        [16]
-        1 string data = "You squeeze most of your fingers through the crack. Inside, there is nothing but bare, cold metal. "
+        1 string data = ""隙間から指をほとんど突っ込んだ。中には何もなく、むき出しの冷たい金属があるだけだ。""
        [17]
-        1 string data = "The mailbox proves impressively resilient against your attempts to smash it apart."
+        1 string data = ""郵便受けは驚くほど頑丈で、叩き壊そうとしても傷一つつかない。""
    [1158]
     0 StringTable data
      1 string Filename = "o1001_carmen"
@@ -351108,165 +351108,165 @@
       1 Array Array (80 items)
        0 int size = 80
        [0]
-        1 string data = " We need help. We're too fragile and unfamiliar with this place to travel in this cold. We need a caravan master to transport us out of here. Can you help? (TODO - Unwelcome Guests Quest Addendum)"
+        1 string data = "" 助けが必要だ。私たちはこの場所に不慣れで、この寒さの中を旅するには弱すぎる。ここから運び出してくれるキャラバンの頭領が必要だ。手を貸してくれるか？（TODO - Unwelcome Guests クエスト追加）""
        [1]
-        1 string data = " We'll find you a caravan master. Hold fast."
+        1 string data = "" キャラバンの頭領を見つけよう。辛抱してくれ。""
        [2]
-        1 string data = " We can't help you. You're on your own."
+        1 string data = "" 助けられない。自分でどうにかしろ。""
        [3]
-        1 string data = " Bless you. We'll hold out as long as we can."
+        1 string data = "" ありがとう。できる限り耐えてみる。""
        [4]
-        1 string data = " Then we'll die, we're at your mercy."
+        1 string data = "" じゃあ死ぬしかない。あんたたちの慈悲にすがるしかないよ。""
        [5]
-        1 string data = " Please hurry. I don't know how long we can last out here."
+        1 string data = "" 急いでくれ。あとどれだけここで持ちこたえられるか分からない。""
        [6]
-        1 string data = " I don't know what is colder, the snow or your heart."
+        1 string data = "" どっちが冷たいかね、雪か、それともあんたの心か。""
        [7]
-        1 string data = " This state should not be possible!"
+        1 string data = "" この状態はありえない！""
        [8]
-        1 string data = ""Who are you? Did Mama Cotter send you?""
+        1 string data = ""あんた誰？ママ・コッターが送ったのか？""
        [9]
-        1 string data = ""You first. Who are you, and what are you doing here?""
+        1 string data = ""まずはそっちからだ。あんたは誰で、ここで何をしてる？""
        [10]
-        1 string data = ""Who are you?""
+        1 string data = ""あんたは誰だ？""
        [11]
-        1 string data = ""We'll be back.""
+        1 string data = ""また戻る。""
        [12]
-        1 string data = ""Take alll the time you want. Not like we're dying out here.""
+        1 string data = ""好きなだけ時間かけな。別に死にかけてるわけじゃないし。""
        [13]
-        1 string data = ""Here? Oh. Oh, nothing. We're just starving, freezing, dying slowly of exposure. All the ings. No big deal."\n\n\n"What the fuck do you think we're doing?""
+        1 string data = ""ここで？あぁ。あぁ、別に何でもないよ。ただ飢えて、凍えて、ゆっくり凍死しかけてる。全部「してる」よ。大したことじゃない。」\n\n\n「私たちが何してると思ってんだ？""
        [14]
-        1 string data = ""That so? Trust me. We don't want to be here either. We'd move if we could, but we can't on account of the fact our caravan leader's dead." She glares."
+        1 string data = ""そうかい？信じてくれ。私たちもここにいたくないんだ。できることなら移動したいが、できない。キャラバンの頭領が死んでるからな。」彼女は睨みつけた。""
        [15]
-        1 string data = ""Find us a new one and we'll go. Problem solved.""
+        1 string data = ""新しいのを見つけてくれ。そうすれば行く。問題解決だ。""
        [16]
-        1 string data = ""Who's in charge here?""
+        1 string data = ""ここの責任者は誰だ？""
        [17]
-        1 string data = ""What caravan?""
+        1 string data = ""キャラバンとは？""
        [18]
-        1 string data = ""We'll get back to you.""
+        1 string data = ""また戻る。""
        [19]
-        1 string data = ""Used to be that there were people who'd move our people for us. That's all changed, though." Carmen squares her jaw, knuckles blanching from the way she squeezes her hands into fists."
+        1 string data = ""かつては私たちの民を運んでくれる人がいた。だが、それも変わっちまった。」カルメンは顎を引き締め、握りしめた拳で指の関節が白くなった。""
        [20]
-        1 string data = ""Depends on the kind of answer you're looking for. Whatever you need to say to this forsaken bunch, you say to me." Carmen jerks a thumb at her breastbone. "
+        1 string data = ""どんな答えを求めてるかによるね。この見捨てられた連中に言いたいことがあるなら、私に言え。」カルメンは胸を親指で指した。「""
        [21]
-        1 string data = ""But Mama Cotter's the one who put together the smuggling operation.""
+        1 string data = ""だが密輸作戦をまとめたのはママ・コッターだ。""
        [22]
-        1 string data = ""We'll help you and your people.""
+        1 string data = ""あんたとあんたの民を助けよう。""
        [23]
-        1 string data = ""Rather watch you lot freeze to death.""
+        1 string data = ""あんたらが凍死するのを見てる方がいいな。""
        [24]
-        1 string data = ""When the time comes for you to die, I hope you go slow. I hope it hurts. I hope you die lonely and cold as the hellscape you call a heart.""
+        1 string data = ""あんたが死ぬときが来たら、ゆっくり死ねばいい。痛みを伴えばいい。あんたの心と同じ地獄のように、孤独で冷たく死ねばいい。""
        [25]
-        1 string data = ""Thank you. That means a lot. I... can I help you with anything else?" For the first time, her face softens and suddenly, Carmen looks ancient, weighed down by the memory of a hundred unspoken fears."
+        1 string data = ""ありがとう。それは本当に大きいことだ。私は……他に何か手伝えることはあるか？」初めて、彼女の顔が和らぎ、突然カルメンは老いて見えた。百もの口に出されぬ恐怖の記憶に押しつぶされているようだった。""
        [26]
-        1 string data = " View Debug Options."
+        1 string data = "" デバッグオプション表示。""
        [27]
-        1 string data = " Select Debug Options."
+        1 string data = "" デバッグオプション選択。""
        [28]
-        1 string data = " Tell Carmen that you will secure transportation for the refugees."
+        1 string data = "" カルメンに難民の輸送手段を確保すると伝える。""
        [29]
-        1 string data = " Tell Carmen that you will not help the refugees."
+        1 string data = "" カルメンに難民を助けないと伝える。""
        [30]
-        1 string data = " Quest Addendum Added. "
+        1 string data = "" クエスト追加。""
        [31]
-        1 string data = " Quest Addendum Added."
+        1 string data = "" クエスト追加。""
        [32]
-        1 string data = " Ask Carmen who arranged to smuggling operation"
+        1 string data = "" カルメンに密輸作戦を手配した人物を尋ねる""
        [33]
-        1 string data = " You learn Mama Cotter arranged the smuggling operation."
+        1 string data = "" ママ・コッターが密輸作戦を手配したことを知る。""
        [34]
-        1 string data = ""We're not smugglers! We're their cargo. Those bastards promised they'd get us to Colorado Springs, but they took everything we had as payment.""
+        1 string data = ""私たちは密輸業者じゃない！私たちは荷物だ。あのクソ野郎どもはコロラドスプリングスまで連れて行くと約束したが、支払いとして持ち物を全部奪っていった。""
        [35]
-        1 string data = ""My name's Carmen. I guess you could say I'm de facto leader here." She juts her chin at you, glaring."
+        1 string data = ""私の名前はカルメン。ここの事実上のリーダーと言えるかもしれない。」彼女は顎を突き出し、睨みつけた。""
        [36]
-        1 string data = ""We're refugees, every one of us... Driven off our land by the plains gangs. Now we're stuck here with no food, but we'll probably freeze before we starve. We need transport to Colorado Springs, or we're dead.""
+        1 string data = ""私たちは全員難民だ……平原のギャングに土地を追われた。今は食料もなくここで立ち往生してる。だが飢え死にする前に凍死するだろう。コロラドスプリングスへの輸送手段が必要だ、さもなきゃ死ぬ。""
        [37]
-        1 string data = ""How can we help?""
+        1 string data = ""どう助けられる？""
        [38]
-        1 string data = ""Not our problem. Goodbye.""
+        1 string data = ""俺たちの問題じゃない。さらばだ。""
        [39]
-        1 string data = ""We'll get back to you.""
+        1 string data = ""また戻る。""
        [40]
-        1 string data = ""Then we're going to die. I hope the thought keeps you warm at night.""
+        1 string data = ""じゃあ死ぬしかない。その考えで夜は温かく過ごせるといいね。""
        [41]
-        1 string data = ""We need to find someone who can carry all of us to the city... and soon. We're not going to last out here.""
+        1 string data = ""全員を街まで運んでくれる人を見つけないと……それも早く。ここではもう持たない。""
        [42]
-        1 string data = ""I've heard that merchant caravans stop at the Bizarre - maybe one of them could help us. But the Monster Army won't let us into the Bizarre, and we don't have any money to pay for transport.""
+        1 string data = ""商人のキャラバンがビザールに立ち寄ると聞いた。誰か助けてくれるかもしれない。だがモンスター・アーミーがビザールに入れてくれないし、輸送費を払う金もない。""
        [43]
-        1 string data = ""Don't take your time.""
+        1 string data = ""急いでくれ。""
        [44]
-        1 string data = ""We'll see if we can find someone in the Bizarre who can help you.""
+        1 string data = ""ビザールであんたたちを助けられる人を探してみよう。""
        [45]
-        1 string data = ""You're the only hope we have. If we're stuck here much longer, I doubt we'll survive.""
+        1 string data = ""あんたたちが唯一の希望だ。もうしばらくここに閉じ込められてたら、生き延びられるか分からない。""
        [46]
         1 string data = ""
        [47]
-        1 string data = ""Fuck off. If you won't help us, then at least have the decency to let us die in peace.""
+        1 string data = ""失せろ。助けないなら、せめて静かに死なせてくれ。""
        [48]
-        1 string data = ""Thank you so much, Rangers! We owe you our lives.""
+        1 string data = ""本当にありがとう、レンジャーズ！命の恩人だ。""
        [49]
-        1 string data = ""We're all refugees. Mama Cotter set up the smuggling ring to get us all to safety. Unfortunately, our means of transportation seems to have been ... removed." Carmen flashes a meaningful look. "
+        1 string data = ""私たちは全員難民だ。ママ・コッターが密輸組織を立ち上げて、全員を安全な場所に運ぼうとした。残念ながら、輸送手段は……なくなったようだ。」カルメンは意味ありげな視線を送った。「""
        [50]
-        1 string data = ""Who the hell is Mama Cotter?""
+        1 string data = ""ママ・コッターって誰だ？""
        [51]
-        1 string data = ""She's the one who set everything up. She arranged for the smugglers to pick us up here and sneak us into Colorado Springs. She was going to meet us at the city gate and find us beds and food.""
+        1 string data = ""全てを手配した人だ。密輸業者を手配してここでピックアップさせ、コロラドスプリングスに密入させる予定だった。街の門で待っていて、寝床と食料を見つけてくれるはずだった。""
        [52]
-        1 string data = ""We're the Rangers. We were sent here to negotiate with the smugglers... but they attacked us.""
+        1 string data = ""俺たちはレンジャーズだ。密輸業者と交渉するために派遣されたが……襲われた。""
        [53]
-        1 string data = ""Mama Cotter set everything up. She arranged for the smugglers to pick us up here and sneak us into the city. She was going to meet us at the gate and find us beds and food.""
+        1 string data = ""ママ・コッターが全てを手配した。密輸業者を手配してここでピックアップさせ、街に密入させる予定だった。門で待っていて、寝床と食料を見つけてくれるはずだった。""
        [54]
-        1 string data = ""I really hate to ask favors of violent strangers, but thanks to you we're in a tight spot. We need help getting out of here.""
+        1 string data = ""暴力的な見知らぬ人に頼みごとをするのは本当に嫌だが、あんたたちのせいで苦境に立たされた。ここから脱出する手助けが必要だ。""
        [55]
-        1 string data = ""Those smugglers were bastards. They took everything we had because they knew we were desperate.""
+        1 string data = ""あの密輸業者どもはクソ野郎だった。私たちが必死だと知ってて、持ち物を全部奪っていった。""
        [56]
-        1 string data = ""Bastards.""
+        1 string data = ""クソ野郎ども。""
        [57]
-        1 string data = ""We came here to <i>stop</i> the flow of refugees. Can you go somewhere else?""
+        1 string data = ""俺たちは難民の流入を<i>止める</i>ために来た。どこか他に行けないか？""
        [58]
-        1 string data = ""How? We have no money, no food, no vehicles. We need to find <i>someone</i> who can carry all of us to the city... and soon. We're not going to last out here.""
+        1 string data = ""どうやって？金もない、食料もない、乗り物もない。全員を街まで運んでくれる<i>誰か</i>を見つけないと……それも早く。ここではもう持たない。""
        [59]
-        1 string data = ""We'll wait here and try to keep warm.""
+        1 string data = ""ここで待って暖を取ろう。""
        [60]
-        1 string data = ""We won't survive out here for much longer. Please find someone to help us soon.""
+        1 string data = ""もうすぐここで生き延びられなくなる。早く誰か助けてくれる人を見つけてくれ。""
        [61]
-        1 string data = ""Jones sent someone to find us. He's going to take us to Colorado Springs, and he said <i>you</i> paid our way. You've saved our lives, Rangers - thank you!""
+        1 string data = ""ジョーンズが誰かを送ってくれた。コロラドスプリングスまで連れて行ってくれるそうだ。<i>あんたたち</i>が費用を払ったと言ってた。命を救ってくれた、レンジャーズ。ありがとう！""
        [62]
-        1 string data = ""I doubt she knew what bastards those smugglers were. They took everything we had as 'bonus payment.'""
+        1 string data = ""彼女はあの密輸業者どもがどれほどクソ野郎か知らなかったんだろう。「ボーナス支払い」として持ち物を全部奪っていった。""
        [63]
         1 string data = ""
        [64]
-        1 string data = ""Help! We're locked in here!""
+        1 string data = ""助けて！ここに閉じ込められてる！""
        [65]
-        1 string data = ""Open the door!""
+        1 string data = ""ドアを開けて！""
        [66]
-        1 string data = ""Please don't leave us in here!""
+        1 string data = ""ここに置き去りにしないでくれ！""
        [67]
-        1 string data = ""We changed our minds, we want to help.""
+        1 string data = ""考えを変えた。助けたい。""
        [68]
-        1 string data = ""Sure, no problem.""
+        1 string data = ""もちろん、問題ない。""
        [69]
-        1 string data = ""Assholes.""
+        1 string data = ""クソ野郎ども。""
        [70]
-        1 string data = ""Better late than never - thank you. We need you to find someone who can bring all of us safely to Colorado Springs. The best option that comes to mind is to join one of the travelling merchant caravans.""
+        1 string data = ""遅くなったがありがとう。全員を安全にコロラドスプリングスまで連れて行ってくれる人を見つけてほしい。最善の選択肢は、旅する商人のキャラバンに合流することだ。""
        [71]
-        1 string data = ""I know the caravans stop in the Bizarre, but the Monster Army won't even let us in and we wouldn't have the money to pay the caravaneers if they did. Please, find someone to take us to Colorado Springs and soon, or we'll freeze to death.""
+        1 string data = ""キャラバンはビザールに立ち寄ると知ってるが、モンスター・アーミーが入れてくれないし、入れたとしてもキャラバン商人に払う金がない。頼む、コロラドスプリングスまで連れて行ってくれる人を見つけてくれ、早く。さもなきゃ凍死する。""
        [72]
-        1 string data = ""The smugglers mentioned what happened to the Bizarre. Everyone there is dead. That means there's no one to help us here. No food, no real shelter. We can only hope we'll freeze to death before we starve. So thanks, you dickheads.""
+        1 string data = ""密輸業者がビザールに何が起きたか話してた。全員死んだそうだ。つまりここで助けてくれる人はいない。食料もない、ちゃんとした避難所もない。飢え死にする前に凍死できることを祈るしかない。だからありがとうな、クソ野郎ども。""
        [73]
-        1 string data = ""Fuck off. Because of you, we're all doomed to die.""
+        1 string data = ""失せろ。あんたたちのせいで、全員死ぬ運命だ。""
        [74]
         1 string data = "Script Node 81"
        [75]
-        1 string data = ""How can we call ourselves Rangers if we don't help these people?""
+        1 string data = ""この人たちを助けなければ、どうして自分たちをレンジャーズと呼べるんだ？""
        [76]
-        1 string data = ""They shouldn't have come here, but it doesn't seem right to let them die.""
+        1 string data = ""ここに来るべきじゃなかったが、死なせるのは正しくない気がする。""
        [77]
         1 string data = "Script Node 85"
        [78]
-        1 string data = ""Son of a bitch!""
+        1 string data = ""クソッタレ！""
        [79]
-        1 string data = ""To the city? Oy. Daisy's gonna love that.""
+        1 string data = ""街へ？うわぁ。デイジーが喜ぶだろうな。""
    [1159]
     0 StringTable data
      1 string Filename = "o1001_cartelthug"
@@ -351336,29 +351336,29 @@
       1 Array Array (14 items)
        0 int size = 14
        [0]
-        1 string data = ""What are you mooks looking at?""
+        1 string data = ""何を見てやがる、間抜けども？""
        [1]
-        1 string data = ""I don't like what happened in Little Vegas. Not one bit.""
+        1 string data = ""リトル・ベガスで起きたことが気に入らない。全然だ。""
        [2]
-        1 string data = ""Watching you, Rangers.""
+        1 string data = ""見張ってるぞ、レンジャーズ。""
        [3]
-        1 string data = ""Ready to go, Rangers?""
+        1 string data = ""準備はいいか、レンジャーズ？""
        [4]
-        1 string data = ""Charley's a good man.""
+        1 string data = ""チャーリーはいい男だ。""
        [5]
-        1 string data = ""I can't wait to get my hands on some good Bizarre loot.""
+        1 string data = ""早くビザールの上等な戦利品を手に入れたい。""
        [6]
-        1 string data = ""No fear, brothers. I will be your shield in this verminous wolf-age.""
+        1 string data = ""恐れるな、兄弟たちよ。俺がこの害獣跋扈する狼の時代で盾となろう。""
        [7]
-        1 string data = ""Gather your wits, hold your courage in your teeth. Tonight, we take the Bizarre.""
+        1 string data = ""気を引き締めろ、勇気を歯で食いしばれ。今夜、ビザールを奪う。""
        [8]
-        1 string data = ""You can hear them through the walls. Rats trapped in the body of a dying frost giant.""
+        1 string data = ""壁越しに奴らの声が聞こえる。死にゆく氷の巨人の体に閉じ込められた鼠どもだ。""
        [9]
-        1 string data = ""Our foes will not survive this day.""
+        1 string data = ""我らの敵は今日を生き延びられぬ。""
        [10]
-        1 string data = ""I can smell their fear.""
+        1 string data = ""奴らの恐怖の匂いがする。""
        [11]
-        1 string data = ""Bind their necks with their bloodied tendons.""
+        1 string data = ""血まみれの腱で奴らの首を縛れ。""
        [12]
         1 string data = "Script Node 13"
        [13]
@@ -351540,79 +351540,79 @@
       1 Array Array (41 items)
        0 int size = 41
        [0]
-        1 string data = ""All right, down you go, Redhats. We're counting on you!""
+        1 string data = ""よし、降りていけ、レッドハットども。頼んだぞ！""
        [1]
-        1 string data = ""Good luck down there, Redhats!""
+        1 string data = ""下での幸運を祈る、レッドハットども！""
        [2]
-        1 string data = ""Redhats! I knew you couldn't refuse such a good opportunity. Didn't I tell you they'd come around sooner or later, men? So, you ready for the attack?""
+        1 string data = ""レッドハットども！こんないい機会を断れないと思ってたよ。遅かれ早かれ来ると言っただろう、みんな？それで、攻撃の準備はいいか？""
        [3]
-        1 string data = ""There you are, Redhats! Glad you could join us here. Opportunity awaits! Are you ready to take the Bizarre with us?""
+        1 string data = ""そこにいたか、レッドハットども！ここに来てくれて嬉しいよ。好機が待ってる！俺たちと一緒にビザールを奪う準備はできてるか？""
        [4]
-        1 string data = ""Ready to take the Bizarre?""
+        1 string data = ""ビザールを奪う準備はできてるか？""
        [5]
-        1 string data = ""What happened here?""
+        1 string data = ""ここで何があった？""
        [6]
-        1 string data = ""You're coming down with us?""
+        1 string data = ""あんたも一緒に降りるのか？""
        [7]
-        1 string data = ""Won't they be on alert on the inside now?""
+        1 string data = ""中の奴らは今頃警戒してないか？""
        [8]
-        1 string data = ""We cleared the way for you! These mooks fought best they could, but me and my boys handled them. So, hard part done, now comes the easy part - you Redhats go down there and take out anyone left. We'll be here guarding your flank!""
+        1 string data = ""道を切り開いといた！この間抜けどもは精一杯戦ったが、俺と仲間がやっつけた。だから、難しい部分は終わった。今から簡単な部分だ。レッドハットども、降りていって残った奴らを片付けろ。俺たちはここで側面を守る！""
        [9]
-        1 string data = ""Oh, I would really love to, believe me! But, no, we did the hard part getting rid of these guards. You can tackle the easy part - taking out anyone left down below. We'll guard your flank!""
+        1 string data = ""あぁ、本当に行きたいよ、信じてくれ！だが、いや、俺たちはこの警備員どもを片付けるという難しい部分をやった。簡単な部分は任せた。下に残った奴らを片付けるだけだ。俺たちは側面を守る！""
        [10]
-        1 string data = ""Uh... oh... Maybe? But I know you Redhats can handle yourselves! We took care of the hard part after all. Plus we'll guard your flank! Now you go down and get rid of anyone left down below.""
+        1 string data = ""あー……あぁ……かもな？だがレッドハットどもなら自分たちで何とかできると分かってる！結局、難しい部分は俺たちがやっつけた。それに側面も守る！さあ降りていって、下に残った奴らを片付けろ。""
        [11]
-        1 string data = ""Go on in, Redhats! Time to do your part!""
+        1 string data = ""入っていけ、レッドハットども！自分の役割を果たす時だ！""
        [12]
-        1 string data = ""We are ready.""
+        1 string data = ""準備できてる。""
        [13]
         1 string data = ""
        [14]
-        1 string data = ""We're not interested.""
+        1 string data = ""興味ない。""
        [15]
-        1 string data = ""We're still not interested.""
+        1 string data = ""まだ興味ない。""
        [16]
-        1 string data = ""Excellent! They shall sing songs of our glory!""
+        1 string data = ""素晴らしい！奴らは我らの栄光を歌うだろう！""
        [17]
-        1 string data = ""As you like. Brothers, slay these insolent red hats!""
+        1 string data = ""お望み通りだ。兄弟たちよ、この無礼な赤帽どもを殺せ！""
        [18]
-        1 string data = ""I pray  they can muster the forces to provide us with a true battle, one worthy of song. So, Rangers, are you ready?""
+        1 string data = ""奴らが本当の戦い、歌にふさわしい戦いを提供できる戦力を集められることを祈る。それで、レンジャーズ、準備はいいか？""
        [19]
-        1 string data = ""What are we waiting for? Let's take the Bizarre.""
+        1 string data = ""何を待ってる？ビザールを奪おう。""
        [20]
-        1 string data = "[Attack] "Flab knows about your plan. We're here to make sure you never threaten this place again.""
+        1 string data = "[攻撃] "フラブがあんたの計画を知ってる。二度とこの場所を脅かさないようにするために来た。""
        [21]
-        1 string data = ""What is the plan again?""
+        1 string data = ""計画をもう一度教えてくれ。""
        [22]
-        1 string data = ""Who are you guys exactly?""
+        1 string data = ""あんたたちは正確には何者だ？""
        [23]
-        1 string data = ""Not yet, give us a moment.""
+        1 string data = ""まだだ、少し待ってくれ。""
        [24]
-        1 string data = ""Uhm... No offense, friends, but I invited you for the full strength of your team. Come back with all of Team Redhat together, all right?""
+        1 string data = ""うーん……悪く思わないでくれ、友よ。だがチーム全員の力を期待して誘ったんだ。チーム・レッドハット全員揃って戻ってきてくれ、いいか？""
        [25]
-        1 string data = ""Excellent! Me and my boys are going to be the spearhead. Meet us at the entrance, Redhats!""
+        1 string data = ""素晴らしい！俺と仲間が先陣を切る。入口で会おう、レッドハットども！""
        [26]
-        1 string data = ""Is that so, Redhats? Shame it has to come to this. Boys? Get 'em!""
+        1 string data = ""そうなのか、レッドハットども？こうなるのは残念だ。野郎ども？やっちまえ！""
        [27]
-        1 string data = ""It's brilliant in its simplicity! The Monster Army is weak, but rich. All we need to do is knock 'em out, get rid of Flab, and we can take over.""
+        1 string data = ""単純さの中に輝きがある！モンスター・アーミーは弱いが、金持ちだ。やることは奴らをノックアウトして、フラブを始末すれば、乗っ取れる。""
        [28]
-        1 string data = ""First, we take the entrance, then we go down and wipe out anyone who doesn't surrender to the new Cartel management.""
+        1 string data = ""まず入口を取る。それから降りていって、新しいカルテルの経営に降伏しない奴らを一掃する。""
        [29]
         1 string data = ""
        [30]
-        1 string data = ""Purification through combat. That is the warrior's way.""
+        1 string data = ""戦闘を通じた浄化。それが戦士の道だ。""
        [31]
-        1 string data = ""Oooh, this sounds like <i>fun!</i>""
+        1 string data = ""おぉ、これは<i>楽しそう！</i>""
        [32]
-        1 string data = ""All right, but come back soon, Redhats.""
+        1 string data = ""分かった、だがすぐに戻ってきてくれ、レッドハットども。""
        [33]
-        1 string data = ""Our names are writ large across Colorado in the blood of our foes. We are the cartel and our destiny on these frozen fields is to spread our story with fire and blood.""
+        1 string data = ""我らの名は敵の血でコロラド中に大きく刻まれている。我らはカルテルであり、この凍てついた地での運命は、炎と血で我らの物語を広めることだ。""
        [34]
-        1 string data = ""Until we recently, our swords were guided by Faran Brygo. He was a man worthy of Odin's praise, and provided us glory untold. We bear you no grudge for bringing him down - now <i>we</i> can step into his place.""
+        1 string data = ""つい最近まで、我らの剣はファラン・ブライゴに導かれていた。彼はオーディンの賞賛に値する男で、我らに語り尽くせぬ栄光を与えてくれた。彼を倒したことに恨みはない。今や<i>我ら</i>が彼の場所に立てるのだから。""
        [35]
-        1 string data = ""Our swords are guided by Faran Brygo. Greater glory and fortune have befallen him, making now the time for the Odinkirks to rise in glory as well. We shall stand alongside Faran in honor when the Bizarre belongs to the Odinkirks!""
+        1 string data = ""我らの剣はファラン・ブライゴに導かれている。より大きな栄光と幸運が彼に降りかかり、今こそオーディンカークスも栄光に昇る時だ。ビザールがオーディンカークスのものになった時、我らはファランと共に名誉のうちに立つだろう！""
        [36]
-        1 string data = ""Uhm, okay. Let's hurry up, all right?""
+        1 string data = ""うーん、分かった。急ごう、いいな？""
        [37]
         1 string data = ""
        [38]
@@ -351886,131 +351886,131 @@
       1 Array Array (63 items)
        0 int size = 63
        [0]
-        1 string data = "The table before you is covered in various carefully marked containers and tools for the mixing of chemicals."
+        1 string data = "目の前のテーブルには、注意深く印が付けられた様々な容器と化学薬品を混合するための道具が並んでいる。"
        [1]
-        1 string data = "Start mixing chemicals for a new dye."
+        1 string data = "新しい染料を作るために化学薬品の混合を始める。"
        [2]
-        1 string data = "Step away from the table."
+        1 string data = "テーブルから離れる。"
        [3]
-        1 string data = "What chemical do you want to add first?"
+        1 string data = "最初に追加したい化学薬品は？"
        [4]
-        1 string data = "Carbon C-37."
+        1 string data = "炭素 C-37。"
        [5]
-        1 string data = "Carbon C-16."
+        1 string data = "炭素 C-16。"
        [6]
-        1 string data = "Carbon C-20."
+        1 string data = "炭素 C-20。"
        [7]
-        1 string data = "Carbon C-18."
+        1 string data = "炭素 C-18。"
        [8]
-        1 string data = "What chemical do you want to add next?"
+        1 string data = "次に追加したい化学薬品は？"
        [9]
-        1 string data = "Hydrogen H-34."
+        1 string data = "水素 H-34。"
        [10]
-        1 string data = "Hydrogen H-8."
+        1 string data = "水素 H-8。"
        [11]
-        1 string data = "Hydrogen H-6."
+        1 string data = "水素 H-6。"
        [12]
-        1 string data = "Hydrogen H-14."
+        1 string data = "水素 H-14。"
        [13]
-        1 string data = "Hydrogen H-9."
+        1 string data = "水素 H-9。"
        [14]
-        1 string data = "Hydrogen H-10."
+        1 string data = "水素 H-10。"
        [15]
-        1 string data = "Choose another chemical to add."
+        1 string data = "追加する別の化学薬品を選ぶ。"
        [16]
-        1 string data = "Nitrogen N-2."
+        1 string data = "窒素 N-2。"
        [17]
-        1 string data = "Iodine I-4."
+        1 string data = "ヨウ素 I-4。"
        [18]
-        1 string data = "Nitrogen N-4."
+        1 string data = "窒素 N-4。"
        [19]
-        1 string data = "What chemical are you adding next?"
+        1 string data = "次に追加する化学薬品は？"
        [20]
-        1 string data = "Sodium Na-2."
+        1 string data = "ナトリウム Na-2。"
        [21]
-        1 string data = "Sodium Na-3."
+        1 string data = "ナトリウム Na-3。"
        [22]
-        1 string data = "Choose another chemical to add."
+        1 string data = "追加する別の化学薬品を選ぶ。"
        [23]
-        1 string data = "Oxygen O-9."
+        1 string data = "酸素 O-9。"
        [24]
-        1 string data = "Oxygen O-8."
+        1 string data = "酸素 O-8。"
        [25]
-        1 string data = "Oxygen O-10."
+        1 string data = "酸素 O-10。"
        [26]
-        1 string data = "Oxygen O-5."
+        1 string data = "酸素 O-5。"
        [27]
-        1 string data = "Oxygen O-7."
+        1 string data = "酸素 O-7。"
        [28]
-        1 string data = "What is your final chemical component?"
+        1 string data = "最後の化学成分は？"
        [29]
-        1 string data = "Sulfur S-3."
+        1 string data = "硫黄 S-3。"
        [30]
-        1 string data = "Sulfur S-2."
+        1 string data = "硫黄 S-2。"
        [31]
-        1 string data = "Your mix is ready. Good luck!"
+        1 string data = "混合物の準備ができた。幸運を祈る！"
        [32]
-        1 string data = "Turn on the mixer."
+        1 string data = "ミキサーのスイッチを入れる。"
        [33]
-        1 string data = "Skip the sixth chemical."
+        1 string data = "6番目の化学薬品を飛ばす。"
        [34]
-        1 string data = "The chemicals begin reacting, and in a short moment a light blue dye mix comes out. Not what you were looking for, but it's nice!"
+        1 string data = "化学薬品が反応し始め、すぐに薄い青色の染料が出てきた。探していたものではないが、いい感じだ！"
        [35]
-        1 string data = "The chemical begin reacting. It takes some time, but finally a mix comes out... indigo."
+        1 string data = "化学薬品が反応し始めた。時間がかかったが、ついに混合物が出てきた……藍色だ。"
        [36]
-        1 string data = "The chemicals begin to react. You appear to have achieved a bright turquoise mix."
+        1 string data = "化学薬品が反応し始めた。明るいターコイズ色の混合物ができたようだ。"
        [37]
-        1 string data = "The chemical reaction produced a pink dye. It smells weird."
+        1 string data = "化学反応でピンク色の染料ができた。変な匂いがする。"
        [38]
-        1 string data = "The chemicals begin to react. The process takes an interminable time, but finally the mixer produced a beautiful crimson red dye. Exactly the blood red dye Paris was looking for!"
+        1 string data = "化学薬品が反応し始めた。非常に長い時間がかかったが、ついにミキサーが美しい深紅色の染料を作り出した。まさにパリが探していた血赤の染料だ！"
        [39]
-        1 string data = "The chemicals mix and react swiftly, producing a yellow dye."
+        1 string data = "化学薬品が素早く混ざって反応し、黄色の染料ができた。"
        [40]
-        1 string data = "The chemicals begin reacting, and in a short time produce an orange dye. "
+        1 string data = "化学薬品が反応し始め、短時間でオレンジ色の染料ができた。"
        [41]
-        1 string data = "The chemicals begin reacting but the reaction quickly fizzles. You were unable to produce a dye."
+        1 string data = "化学薬品が反応し始めたが、すぐに反応が止まった。染料を作ることができなかった。"
        [42]
-        1 string data = "Use your superior chemical knowhow to craft the Blood Red dye that Paris is looking for."
+        1 string data = "優れた化学知識を使って、パリが探している血赤の染料を作る。"
        [43]
-        1 string data = "Mix chemicals at random."
+        1 string data = "化学薬品をランダムに混ぜる。"
        [44]
-        1 string data = "Surprisingly, your unique 'just do whatever' approach to science does not bear any worthwhile results. At least nothing exploded."
+        1 string data = "驚くべきことに、独特の「適当にやる」科学アプローチは何の価値ある結果も生まなかった。少なくとも何も爆発しなかった。"
        [45]
-        1 string data = "The table before you has been carefully prepared by Paris for mixing chemicals. Each container is marked with the chemical it contains, and there are various tools for decanting and mixing."
+        1 string data = "目の前のテーブルはパリが化学薬品を混合するために注意深く準備したものだ。各容器には含まれる化学薬品の印が付けられ、注ぎ分けや混合のための様々な道具がある。"
        [46]
-        1 string data = "You deftly mix the correct chemicals to create a beatiful crimson dye. This looks like it's exactly what Paris is looking for."
+        1 string data = "正しい化学薬品を巧みに混ぜて、美しい深紅の染料を作った。これはまさにパリが探していたものだ。"
        [47]
-        1 string data = ""It's hard, huh? I hear there used to be books that'd tell you the exact mix you needed, but I'm pretty sure they're not around the Bizarre.""
+        1 string data = "「難しいだろ？昔は必要な正確な配合を教えてくれる本があったって聞いたけど、ビザールにはないと思う。」"
        [48]
-        1 string data = "You deftly mix the correct chemicals to create a beatiful crimson dye. If only Paris were alive to see this."
+        1 string data = "正しい化学薬品を巧みに混ぜて、美しい深紅の染料を作った。パリが生きてこれを見られたらよかったのに。"
        [49]
-        1 string data = "The chemicals begin to react. The process takes an interminable time, but finally the mixer produced a beautiful crimson red dye. If only Paris were alive to see this."
+        1 string data = "化学薬品が反応し始めた。非常に長い時間がかかったが、ついにミキサーが美しい深紅色の染料を作り出した。パリが生きてこれを見られたらよかったのに。"
        [50]
-        1 string data = ""Hey, uh, you sure you know what you're doing? Don't break my tools, please.""
+        1 string data = "「なぁ、本当に何をしてるか分かってるのか？道具を壊さないでくれよ。」"
        [51]
-        1 string data = ""Fiddlesticks! I thought you had something special cooking there. Oh well.""
+        1 string data = "「ちぇっ！何か特別なことをしてるのかと思ったよ。まぁいいさ。」"
        [52]
-        1 string data = ""Trying to improve the formula? There's no need. Your Blood Red dye looks PERFECT.""
+        1 string data = "「配合を改良しようとしてるのか？必要ないよ。血赤の染料は完璧に見えるぞ。」"
        [53]
-        1 string data = ""Orange you glad I didn't say banana? Hahaha. Hmm... I think the carbon is not quite right.""
+        1 string data = "「オレンジじゃなくてバナナって言わなくてよかったね？ははは。うーん……炭素が正しくない気がする。」"
        [54]
-        1 string data = ""Hmm, no, sorry, that's yellow. Looks like the hydrogen is way off?""
+        1 string data = "「うーん、いや、すまん、それは黄色だ。水素が大きくずれてるみたいだな？」"
        [55]
-        1 string data = ""Oooh, how did you know pink is my favorite? So pretty! But not quite what the Monster Army is looking for, hmm... I think it could use some more oxygen.""
+        1 string data = "「おぉ、ピンクが私の好きな色ってどうして分かった？とてもきれい！でもモンスター・アーミーが探してるものじゃないな、うーん……もっと酸素が必要だと思う。」"
        [56]
-        1 string data = ""Wow, that's bright! Hmm... seems like that's way too much carbon? Maybe?""
+        1 string data = "「わぁ、明るい！うーん……炭素が多すぎるみたいだな？たぶん？」"
        [57]
-        1 string data = ""That's a nice shade of indigo, neat! Not what we need though... maybe it could use a little more hydrogen.""
+        1 string data = "「いい藍色の色合いだね、素敵！でも私たちが必要なものじゃない……もう少し水素が必要かもしれない。」"
        [58]
-        1 string data = ""The shading is nice but it's far from red. There's definitely way too much carbon and hydrogen.""
+        1 string data = "「色合いはいいけど、赤には程遠い。炭素と水素が明らかに多すぎる。」"
        [59]
         1 string data = ""
        [60]
-        1 string data = "The table before you has been carefully prepared by Paris for mixing chemicals. It's too dangerous to use right now while she is distracted."
+        1 string data = "目の前のテーブルはパリが化学薬品を混合するために注意深く準備したものだ。今は彼女が気を取られているので使うのは危険すぎる。"
        [61]
-        1 string data = "The chemicals begin to react. The process takes an interminable time, but finally the mixer produced a beautiful crimson red dye."
+        1 string data = "化学薬品が反応し始めた。非常に長い時間がかかったが、ついにミキサーが美しい深紅色の染料を作り出した。"
        [62]
-        1 string data = ""I love watching you work. Such a beautiful shade of red, well done!""
+        1 string data = "「あなたが作業するのを見るのが好きだわ。とても美しい赤の色合い、お見事！」"
    [1162]
     0 StringTable data
      1 string Filename = "o1001_combatbarks_smugglers"
@@ -352114,35 +352114,35 @@
        [4]
         1 string data = "Script Node 5"
        [5]
-        1 string data = ""Going down...""
+        1 string data = ""倒れていく……""
        [6]
-        1 string data = ""I don't wanna die... out here...""
+        1 string data = ""死にたくない……ここで……""
        [7]
-        1 string data = ""Wasn't... worth it...""
+        1 string data = ""割に合わなかった……""
        [8]
-        1 string data = ""Just wanted to help...""
+        1 string data = ""ただ助けたかっただけなのに……""
        [9]
-        1 string data = ""We gotta smuggle in coffins...""
+        1 string data = ""棺桶で密輸しないと……""
        [10]
-        1 string data = ""Now I want revenge...""
+        1 string data = ""今は復讐がしたい……""
        [11]
-        1 string data = ""You'll pay for that!""
+        1 string data = ""その代償を払ってもらうぞ！""
        [12]
-        1 string data = ""I got 'em!""
+        1 string data = ""やったぞ！""
        [13]
-        1 string data = ""Eat lead, fuckers!""
+        1 string data = ""鉛玉を食らえ、クソ野郎ども！""
        [14]
-        1 string data = ""I got a bullet for ya!""
+        1 string data = ""あんたに弾丸をくれてやる！""
        [15]
-        1 string data = ""Eeny meeny miny moe!""
+        1 string data = ""どちらにしようかな！""
        [16]
-        1 string data = ""Eat shit!""
+        1 string data = ""クソ食らえ！""
        [17]
-        1 string data = ""Down ya go!""
+        1 string data = ""倒れろ！""
        [18]
-        1 string data = ""Don't let 'em get to the refugees.""
+        1 string data = ""難民に手を出させるな。""
        [19]
-        1 string data = ""Boss says you die, you die!""
+        1 string data = ""ボスの命令だ、死ね！""
    [1163]
     0 StringTable data
      1 string Filename = "o1001_companion_barktriggers"
@@ -352514,179 +352514,179 @@
        [0]
         1 string data = ""
        [1]
-        1 string data = ""A red balloon, just like Gurn said. I don't like this.""
+        1 string data = ""ガーンが言ってた通り、赤い風船だ。気に入らないな。""
        [2]
-        1 string data = ""Didn't that odd guy say something about a red balloon?""
+        1 string data = ""あの変な奴が赤い風船について何か言ってなかったか？""
        [3]
-        1 string data = ""A red balloon! The prophecy's coming true!""
+        1 string data = ""赤い風船だ！予言が実現しつつある！""
        [4]
-        1 string data = ""A red balloon. Didn't that Gurn person mention a red balloon?""
+        1 string data = ""赤い風船だ。ガーンって人が赤い風船について言ってなかったか？""
        [5]
         1 string data = ""
        [6]
-        1 string data = ""That... is a lot of snow.""
+        1 string data = ""あれは……大量の雪だな。""
        [7]
-        1 string data = ""If civilization collapses, all of Colorado Springs will look like this..." "
+        1 string data = ""文明が崩壊したら、コロラドスプリングス全体がこんな風になる……」""
        [8]
-        1 string data = ""Freezing my tits off out here. Better be warm in that building.""
+        1 string data = ""ここで凍死しそうだ。あの建物の中は暖かいといいんだが。""
        [9]
-        1 string data = ""I have never seen snow so deep.""
+        1 string data = ""こんなに深い雪を見たことがない。""
        [10]
         1 string data = ""
        [11]
-        1 string data = ""Even in such desperate conditions, the people here seek new knowledge.""
+        1 string data = ""こんな絶望的な状況でも、ここの人々は新しい知識を求めている。""
        [12]
-        1 string data = ""You'd think, with all these people waiting to get in, the Bizarre would be amazing.""
+        1 string data = ""こんなに多くの人が入るのを待ってるんだから、ビザールはすごい場所だと思うだろうな。""
        [13]
-        1 string data = ""I had no idea there were people living like this in Colorado.""
+        1 string data = ""コロラドにこんな生活をしてる人々がいるなんて知らなかった。""
        [14]
-        1 string data = ""You call this a camp? There's not even a toilet.""
+        1 string data = ""これをキャンプと呼ぶのか？トイレすらないぞ。""
        [15]
-        1 string data = ""It's so cozy here.""
+        1 string data = ""ここはとても居心地がいいな。""
        [16]
         1 string data = ""
        [17]
-        1 string data = ""Oh, look, a greenhouse!""
+        1 string data = ""おぉ、見て、温室だ！""
        [18]
-        1 string data = ""Careful. Might be clowns in there.""
+        1 string data = ""気をつけろ。中にピエロがいるかもしれない。""
        [19]
-        1 string data = ""Might be somebody in that greenhouse.""
+        1 string data = ""あの温室に誰かいるかもしれない。""
        [20]
-        1 string data = ""Oooh! Let's break some windows!""
+        1 string data = ""おぉ！窓を割ろう！""
        [21]
-        1 string data = ""Did anyone else hear a goat?""
+        1 string data = ""他の誰かヤギの声を聞いたか？""
        [22]
-        1 string data = ""Is that... clown stuff?""
+        1 string data = ""あれは……ピエロの道具か？""
        [23]
-        1 string data = ""Does anyone else hear a drill?""
+        1 string data = ""他の誰かドリルの音を聞いたか？""
        [24]
-        1 string data = ""Jesus. Look. It's a clown nest.""
+        1 string data = ""なんてこった。見ろ。ピエロの巣だ。""
        [25]
         1 string data = ""
        [26]
-        1 string data = ""These plants look like doll heads. They're so cute!""
+        1 string data = ""これらの植物は人形の頭みたいだ。とてもかわいい！""
        [27]
-        1 string data = ""Do the folks here really eat this stuff?""
+        1 string data = ""ここの人たちは本当にこれを食べるのか？""
        [28]
-        1 string data = ""Not much of a vegetable guy myself.""
+        1 string data = ""俺自身はあまり野菜好きじゃない。""
        [29]
-        1 string data = ""Can you smoke any of this stuff?""
+        1 string data = ""これのどれか吸えるものはあるか？""
        [30]
         1 string data = ""
        [31]
-        1 string data = " Ooh! There's a path leading onto these buildings."
+        1 string data = " おぉ！これらの建物に続く道がある。"
        [32]
-        1 string data = " Anyone else smell something coming from up there?"
+        1 string data = " 他の誰か上から何か匂いがするか？"
        [33]
-        1 string data = " I'm pretty sure I heard a goat on those rooftops."
+        1 string data = " あの屋上でヤギの声を聞いたと確信してる。"
        [34]
-        1 string data = " I got an idea. Lets climb up these buildings and piss off the edge."
+        1 string data = " アイデアがある。これらの建物に登って端から小便しよう。"
        [35]
         1 string data = ""
        [36]
-        1 string data = ""There's a door here.""
+        1 string data = ""ここにドアがある。""
        [37]
-        1 string data = ""Does somebody actually live in this ruin?""
+        1 string data = ""この廃墟に本当に誰か住んでるのか？""
        [38]
-        1 string data = ""Does anyone else hear a drill?""
+        1 string data = ""他の誰かドリルの音を聞いたか？""
        [39]
-        1 string data = ""Lights are on. Let's say hello.""
+        1 string data = ""明かりがついてる。挨拶しよう。""
        [40]
-        1 string data = ""Huh. Didn't somebody mention a red balloon recently?""
+        1 string data = ""ふむ。最近誰かが赤い風船について言ってなかったか？""
        [41]
-        1 string data = ""Whozzat guy?""
+        1 string data = ""あの男は誰だ？""
        [42]
-        1 string data = ""A red balloon... as was foretold.""
+        1 string data = ""赤い風船だ……予言されていた通りに。""
        [43]
-        1 string data = ""A red balloon, just like that weirdo said.""
+        1 string data = ""赤い風船だ、あの変人が言ってた通りに。""
        [44]
-        1 string data = ""Whoa. Didn't think there was so much snow in the whole world!""
+        1 string data = ""うわぁ。世界にこんなに多くの雪があるとは思わなかった！""
        [45]
-        1 string data = ""Ugh, so white...""
+        1 string data = ""うぇ、すごく白い……""
        [46]
-        1 string data = ""You could hide an army under a blanket like this.""
+        1 string data = ""こんな毛布の下なら軍隊を隠せるな。""
        [47]
-        1 string data = ""Snow what?""
+        1 string data = ""雪がどうした？""
        [48]
-        1 string data = ""Wish we could bring these poor folks to Arizona...""
+        1 string data = ""この可哀想な人たちをアリゾナに連れて行けたらいいのに……""
        [49]
-        1 string data = ""No bar... no stools... what kinda joint is this?""
+        1 string data = ""バーもない……椅子もない……何なんだこの店は？""
        [50]
-        1 string data = ""Buchanan can't make use of these people?""
+        1 string data = ""ブキャナンはこの人たちを活用できないのか？""
        [51]
-        1 string data = ""What a shit hole.""
+        1 string data = ""なんてクソみたいな場所だ。""
        [52]
-        1 string data = ""Imagine there being so many working cars in the world you need a building to stack them in.""
+        1 string data = ""世界に稼働してる車がこんなに多くて、それを積み重ねるための建物が必要だったなんて想像してみろ。""
        [53]
-        1 string data = ""Oooh, 'zat a goat I smell? Or izzat me?""
+        1 string data = ""おぉ、ヤギの匂いがするか？それとも俺か？""
        [54]
-        1 string data = ""Good vantage up here.""
+        1 string data = ""ここは見晴らしがいいな。""
        [55]
-        1 string data = ""Heh. Where did we park the car?""
+        1 string data = ""へへ。車はどこに停めたっけ？""
        [56]
-        1 string data = ""Reminds me of Ag Center.""
+        1 string data = ""Agセンターを思い出すな。""
        [57]
-        1 string data = ""Say, are we back in Arizona?""
+        1 string data = ""なぁ、俺たちアリゾナに戻ったのか？""
        [58]
-        1 string data = ""Food for rabbits and mice.""
+        1 string data = ""ウサギとネズミの餌だな。""
        [59]
-        1 string data = ""Place gives me the creeps.""
+        1 string data = ""この場所は気味が悪い。""
        [60]
-        1 string data = ""Looks like you can get in here.""
+        1 string data = ""ここから入れそうだ。""
        [61]
-        1 string data = ""Don' suppose thas a bar in there?""
+        1 string data = ""中にバーがあるわけないよな？""
        [62]
-        1 string data = ""I smell burning teeth.""
+        1 string data = ""焼けた歯の匂いがする。""
        [63]
-        1 string data = ""Where's that whirring comin' from?""
+        1 string data = ""あのうなり声はどこから来てる？""
        [64]
         1 string data = "Script Node 70"
        [65]
-        1 string data = ""How did that balloon get there?""
+        1 string data = ""あの風船はどうやってあそこに？""
        [66]
-        1 string data = ""Huh. Some kid lost his balloon.""
+        1 string data = ""ふむ。誰かの子供が風船を失くしたのか。""
        [67]
-        1 string data = ""Oh, how sad. Some child has lost their balloon.""
+        1 string data = ""あぁ、なんて悲しい。子供が風船を失くしてしまったんだ。""
        [68]
-        1 string data = ""Oooh! A balloon. Let's <i>pop</i> it!""
+        1 string data = ""おぉ！風船だ。<i>割ろう</i>！""
        [69]
-        1 string data = ""Huh? A balloon? That's weird.""
+        1 string data = ""ん？風船？変だな。""
        [70]
-        1 string data = ""Whozzat guy?""
+        1 string data = ""あの男は誰だ？""
        [71]
-        1 string data = ""Huh. A balloon.""
+        1 string data = ""ふむ。風船だ。""
        [72]
-        1 string data = ""What the fuck is that red thing?""
+        1 string data = ""あの赤いものは何だ？""
        [73]
-        1 string data = ""Wait. There ain't no kids with balloons around here.""
+        1 string data = ""待て。この辺りに風船を持った子供なんていないぞ。""
        [74]
-        1 string data = ""Man, is <i>his</i> face red.""
+        1 string data = ""おいおい、<i>奴の</i>顔が真っ赤だ。""
        [75]
-        1 string data = ""Let's be on our guard.""
+        1 string data = ""警戒しよう。""
        [76]
-        1 string data = ""Man, is <i>his</i> face red.""
+        1 string data = ""おいおい、<i>奴の</i>顔が真っ赤だ。""
        [77]
-        1 string data = ""I smell shenanigans.""
+        1 string data = ""いたずらの匂いがするな。""
        [78]
-        1 string data = ""But I gotta make a little bit of it yella.""
+        1 string data = ""でも少しだけ黄色くしないとな。""
        [79]
-        1 string data = ""Good insulation for the buildings, though.""
+        1 string data = ""建物の断熱にはいいけどな。""
        [80]
-        1 string data = ""Inspiring.""
+        1 string data = ""感動的だ。""
        [81]
-        1 string data = ""You'd think.""
+        1 string data = ""そう思うだろうな。""
        [82]
-        1 string data = ""He's a bigger fool than I thought.""
+        1 string data = ""奴は思ってたよりも大馬鹿だ。""
        [83]
-        1 string data = ""Brrr...""
+        1 string data = ""ブルブル……""
        [84]
-        1 string data = ""Uh-oh. Looks kinda... clowny in there.""
+        1 string data = ""おっと。中がちょっと……ピエロっぽく見える。""
        [85]
-        1 string data = ""What th'hell's in there? A nursery school?""
+        1 string data = ""中に何がある？託児所か？""
        [86]
-        1 string data = ""Huh. Payasos.""
+        1 string data = ""ふむ。パヤソスだ。""
        [87]
-        1 string data = ""Aw, shit. Not more clowns?""
+        1 string data = ""あぁ、クソ。またピエロか？""
        [88]
         1 string data = "Script Node 94"
    [1164]
@@ -352746,27 +352746,27 @@
       1 Array Array (11 items)
        0 int size = 11
        [0]
-        1 string data = " Welcome player."
+        1 string data = " プレイヤーを歓迎します。"
        [1]
-        1 string data = " View debug options."
+        1 string data = " デバッグオプション表示。"
        [2]
-        1 string data = " Goodbye."
+        1 string data = " さようなら。"
        [3]
-        1 string data = " Please select an option."
+        1 string data = " オプションを選択してください。"
        [4]
-        1 string data = " Initiate A Very Hostile Takeover Mission"
+        1 string data = " A Very Hostile Takeoverミッション開始"
        [5]
-        1 string data = " Quest Started"
+        1 string data = " クエスト開始"
        [6]
-        1 string data = " Iniate Unwanted Guests Mission"
+        1 string data = " Unwanted Guestsミッション開始"
        [7]
-        1 string data = " Quest Started"
+        1 string data = " クエスト開始"
        [8]
-        1 string data = " Welcome to my bug test case."
+        1 string data = " バグテストケースへようこそ。"
        [9]
-        1 string data = " Turn me hostile and start combat."
+        1 string data = " 敵対させて戦闘を開始。"
        [10]
-        1 string data = " Hostile!"
+        1 string data = " 敵対！"
    [1165]
     0 StringTable data
      1 string Filename = "o1001_drsmiles"
@@ -352858,41 +352858,41 @@
        [0]
         1 string data = ""
        [1]
-        1 string data = ""¡Hola, mamón! Bienvenidos to Dr. Smiles' orthodontic practice. Think of me as your friendly dental dilettante, a cultivator of cuspids. Do you have an appointment for full teeth extraction service?""
+        1 string data = ""¡Hola, mamón! Dr. Smilesの歯科矯正医院へようこそ。私をフレンドリーな歯科好事家、犬歯の栽培者だと思ってくれ。歯の全抜歯サービスの予約はあるかい？""
        [2]
-        1 string data = ""Die!""
+        1 string data = ""死ね！""
        [3]
-        1 string data = ""Sorry, I'm not looking for any dental work.""
+        1 string data = ""悪いが、歯科治療は必要ない。""
        [4]
-        1 string data = ""Yeah. We made one under the name 'Go Fuck Yourself.'""
+        1 string data = ""ああ。「クソ食らえ」って名前で予約した。""
        [5]
-        1 string data = ""No. Do you take walk-ins?""
+        1 string data = ""いいや。予約なしでも診てもらえるか？""
        [6]
-        1 string data = "[Attack] "No, but you have an appointment with death.""
+        1 string data = "[攻撃] 「いいや、だがあんたには死神との予約がある。」""
        [7]
-        1 string data = ""I see. Well... I'm afraid I'm going to have to <i>insist</i>. Esta ready?""
+        1 string data = ""なるほど。うーん……残念だが<i>強く勧めざるを得ない</i>。準備はいいかい？""
        [8]
-        1 string data = ""Yes, of course! I was in the middle of some work on the previous corpse, but that can wait.""
+        1 string data = ""ああ、もちろん！前の死体の作業の途中だったが、それは待てる。""
        [9]
-        1 string data = ""It's not every day we get visitors with teeth like yours. They'll fetch quite the price - once I rip them out of your mouth.""
+        1 string data = ""あんたみたいな歯を持った訪問者は毎日来るわけじゃない。口から引き抜いたら、いい値段で売れるだろう。""
        [10]
-        1 string data = ""Tsk, tsk! Such a foul mouth! Once I rip out your teeth, I'm going to have to take your tongue as well.""
+        1 string data = ""チッチッチッ！何て汚い口だ！歯を引き抜いたら、舌も取らなきゃならないな。""
        [11]
-        1 string data = ""What are cuspids?""
+        1 string data = ""犬歯って何だ？""
        [12]
-        1 string data = ""Only the cuspids? What about the other teeth?""
+        1 string data = ""犬歯だけか？他の歯はどうする？""
        [13]
-        1 string data = ""I guess you might call them canines, or fangs? I'll do my utmost to keep you alive long enough to show them to you after I rip them out of your mouh. Speaking of - you have an appointment, yes?""
+        1 string data = ""犬歯とか牙って呼ぶこともあるかな？口から引き抜いた後、見せられるくらい長く生かしておくよう全力を尽くすよ。それで、予約はあるかい？""
        [14]
-        1 string data = ""Ah, delightful, a fellow connoisseur! Don't fret - cuspids are my favorite, but I'll gladly take <i>all</i> your teeth. Now - you have an appointment, yes?""
+        1 string data = ""あぁ、素晴らしい、同好の士だ！心配するな。犬歯が好きだが、<i>全部</i>の歯も喜んで頂くよ。さて、予約はあるかい？""
        [15]
-        1 string data = "This man is tearing teeth from the corpse on the dentist chair in front of him. He turns to you with a maniacal grin, revealing a face covered in blood and clown makeup."
+        1 string data = "この男は目の前の歯科治療椅子にある死体から歯を引き抜いている。狂気じみた笑みを浮かべてこちらを振り返り、血とピエロの化粧で覆われた顔を見せた。"
        [16]
-        1 string data = ""Sorry, psycho, nobody messes with my pearly whites. They're my best feature.""
+        1 string data = ""悪いがサイコ野郎、俺の真珠のような白い歯に手を出す奴はいない。これが俺の最大の魅力だ。""
        [17]
-        1 string data = ""Hey, hey, hey! If it isn't the cabrones who attacked us in the Warrens. Tssk, tssk. Well, bienvenidos to Dr. Smiles' practice, where we cultivate cuspids. Do you have an appointment for our full teeth extraction service?""
+        1 string data = ""ヘイ、ヘイ、ヘイ！ウォレンズで俺たちを襲ったクソ野郎どもじゃないか。チッチッチッ。さて、Dr. Smilesの医院へようこそ、犬歯を栽培してるんだ。歯の全抜歯サービスの予約はあるかい？""
        [18]
-        1 string data = ""No. No! Your teeth will be mine!""
+        1 string data = ""いいや。ダメだ！あんたの歯は俺のものだ！""
    [1166]
     0 StringTable data
      1 string Filename = "o1001_entranceguard"
@@ -353026,13 +353026,13 @@
       1 Array Array (30 items)
        0 int size = 30
        [0]
-        1 string data = " I heard you cleared out the Warrens. Impressive."
+        1 string data = " ウォレンズを片付けたと聞いた。見事だ。"
        [1]
-        1 string data = " No loitering. If you don't have permission to enter the interior then move along."
+        1 string data = " 立ち止まるな。内部に入る許可がないなら進め。"
        [2]
-        1 string data = " I'm on guard duty. If you have questions then talk to someone in the interior."
+        1 string data = " 警備中だ。質問があるなら内部の誰かに話してくれ。"
        [3]
-        1 string data = " Welcome to the Bizarre."
+        1 string data = " ビザールへようこそ。"
        [4]
         1 string data = "Script Node 5"
        [5]
@@ -353040,51 +353040,51 @@
        [6]
         1 string data = "Script Node 7"
        [7]
-        1 string data = " Test Node."
+        1 string data = " テストノード。"
        [8]
-        1 string data = " The Bizarre is amazing but you can only get in with an Entrance Pass."
+        1 string data = " ビザールは素晴らしいが、入場パスがないと入れない。"
        [9]
-        1 string data = " Take good care of your Entrance Pass. If you lose it, you'll have to get a new one."
+        1 string data = " 入場パスを大切にしろ。なくしたら新しいのを手に入れなきゃならない。"
        [10]
-        1 string data = " Welcome to the Bizarre. Please clear your weapons if you're heading inside."
+        1 string data = " ビザールへようこそ。中に向かうなら武器を片付けてくれ。"
        [11]
-        1 string data = " I'm gonna sleep so much better now that there's no crazy clows to worry about."
+        1 string data = " 狂ったピエロを心配しなくていいから、もっとよく眠れるようになる。"
        [12]
-        1 string data = " I heard you killed a bunch of clowns in the Warrens. Color me impressed."
+        1 string data = " ウォレンズでピエロどもを大量に殺したと聞いた。感心したよ。"
        [13]
-        1 string data = " I lost a friend down in the Warrens. He can rest in peace now that those clowns are dead."
+        1 string data = " ウォレンズで友人を失った。あのピエロどもが死んで、彼も安らかに眠れる。"
        [14]
-        1 string data = " I'm glad you got rid of those clowns in the Warrens. I bet they weren't laughing when they saw you down there."
+        1 string data = " ウォレンズのピエロどもを始末してくれて嬉しい。下であんたたちを見た時、笑ってなかっただろうな。"
        [15]
-        1 string data = " Going down to the Safe Warrens to fetch more oil used to creep me out, but not anymore thanks to you."
+        1 string data = " セーフ・ウォレンズに油を取りに行くのは気味が悪かったが、あんたたちのおかげでもうそうじゃない。"
        [16]
-        1 string data = " I knew there was something strange happening down in the Warrens, but I never would've guessed it'd be clowns."
+        1 string data = " ウォレンズで何か変なことが起きてると知ってたが、ピエロだとは思わなかった。"
        [17]
-        1 string data = " Impressive work clearing out the Warrens. If Iever catch you inside the Bizarre I owe you and yoru team a drink."
+        1 string data = " ウォレンズを片付けた見事な仕事だ。ビザールの中であんたを見かけたら、あんたとチームに一杯奢るよ。"
        [18]
-        1 string data = " You can't be up here. If you need an Entrance Pass then use the intercom by the entrance."
+        1 string data = " ここにいちゃダメだ。入場パスが必要なら、入口のインターコムを使ってくれ。"
        [19]
-        1 string data = " Excuse me... I'm trying to keep a lookout here. If you need an Entrance Pass then just use the interrcom."
+        1 string data = " すまない……ここで見張りをしてるんだ。入場パスが必要ならインターコムを使ってくれ。"
        [20]
-        1 string data = " Are you looking to get inside? Use the intercom to speak with the doorman. There's no snow inside the Bizarre; it's nice and warm."
+        1 string data = " 中に入りたいのか？インターコムを使って門番と話してくれ。ビザールの中には雪がない。暖かくて快適だ。"
        [21]
-        1 string data = " I'm just here to keep the winch chains greased up. If you're trying to get insde then use the intercom."
+        1 string data = " ウインチのチェーンに油を塗るためにここにいるだけだ。中に入りたいならインターコムを使ってくれ。"
        [22]
-        1 string data = " Don't mind me, I'm just keeping notes of everyone who goes in and out of the Bizarre. The entrance is controlled from the inside so use the intercom speak with the doorman."
+        1 string data = " 気にしないでくれ、ビザールに出入りする全員の記録を取ってるだけだ。入口は内側から制御されてるから、インターコムを使って門番と話してくれ。"
        [23]
-        1 string data = " No loitering. If you need an Entrance Pass then talk to the doorman via the intercom, otherwise move along."
+        1 string data = " 立ち止まるな。入場パスが必要ならインターコムで門番と話してくれ、そうでなければ進め。"
        [24]
-        1 string data = " Even with binoculars it can get hard to spot vistors approaching when the weather gets bad."
+        1 string data = " 双眼鏡があっても、天気が悪い時は訪問者が近づいてくるのを見つけるのが難しくなる。"
        [25]
-        1 string data = " You gotta have cold gear to be marksman. You can't hit shit if you're shaking and shivering."
+        1 string data = " 狙撃手になるには防寒装備が必要だ。震えてたら何も当たらない。"
        [26]
-        1 string data = " Shoveling snow isn't so bad. It beats shoveling pig shit in the Safe Warrens."
+        1 string data = " 雪かきはそんなに悪くない。セーフ・ウォレンズで豚のクソをかくよりマシだ。"
        [27]
-        1 string data = " It's important to keep the chains greased up so they don't get jammed, but damn do I hate going down to the Safe Warrens for more grease. That place creeps me out."
+        1 string data = " チェーンが詰まらないように油を塗り続けることが重要だが、もっと油を取りにセーフ・ウォレンズに降りるのは嫌だ。あの場所は気味が悪い。"
        [28]
-        1 string data = " I'm keeping track of everyone who goes in and out of the Bizarre. I don't want anyone going missing on my watch."
+        1 string data = " ビザールに出入りする全員を追跡してる。俺の見張り中に誰もいなくなってほしくない。"
        [29]
-        1 string data = " You gotta keep moving, keep the blood pumping if you want to stay warm. When my shifts over I can warm up at Eidilon's if you know what I mean."
+        1 string data = " 暖かくいたいなら動き続けて、血を巡らせなきゃいけない。勤務が終わったら、Eidilonで暖まれる、分かるだろ。"
    [1167]
     0 StringTable data
      1 string Filename = "o1001_entranceguardgreaser"
@@ -353132,13 +353132,13 @@
        [2]
         1 string data = ""
        [3]
-        1 string data = ""Used to creep me out going into the Warrens, but you did a heck of a job clearing it. Thanks, Rangers!""
+        1 string data = ""ウォレンズに入るのは気味が悪かったが、あんたたちは見事に片付けた。ありがとう、レンジャーズ！""
        [4]
-        1 string data = ""I'm just the greaser - use the intercom if you're looking to get inside.""
+        1 string data = ""俺は油塗りだけだ。中に入りたいならインターコムを使ってくれ。""
        [5]
-        1 string data = ""I'll have to go down the Warrens again soon for some more grease. Gives me the creeps, I tell ya.""
+        1 string data = ""もっと油を取りにまたすぐウォレンズに降りなきゃいけない。気味が悪いんだ、マジで。""
        [6]
-        1 string data = ""Just keeping the chains greased up, lambs.""
+        1 string data = ""チェーンに油を塗り続けてるだけさ、諸君。""
    [1168]
     0 StringTable data
      1 string Filename = "o1001_entranceguardnotetaker"
@@ -353186,13 +353186,13 @@
        [2]
         1 string data = ""
        [3]
-        1 string data = ""Knew there was some bad stuff happening in the Warrens, but - clowns? Who could've guessed it?""
+        1 string data = ""ウォレンズで悪いことが起きてると知ってたが、ピエロ？誰が推測できた？""
        [4]
-        1 string data = ""Looking to get into the Bizarre? Use the intercom to talk to the door guard - only he can let you in.""
+        1 string data = ""ビザールに入りたいのか？インターコムを使ってドアの警備員と話してくれ。彼だけが中に入れることができる。""
        [5]
-        1 string data = ""I'm tracking all the Bizarre comers and goers. Had some strange happenings of late... but don't worry lambs, you'll be fine!""
+        1 string data = ""ビザールの出入りする全員を追跡してる。最近変なことが起きてたが……心配するな諸君、大丈夫だ！""
        [6]
-        1 string data = ""Please go talk to the doorman - I'm just here to record who goes in.""
+        1 string data = ""門番と話してくれ。俺はただ誰が入るかを記録してるだけだ。""
    [1169]
     0 StringTable data
      1 string Filename = "o1001_entranceguardpatrolman"
@@ -353264,25 +353264,25 @@
        [2]
         1 string data = ""
        [3]
-        1 string data = ""Good job down in the Warrens. If I ever catch you guys inside I'll be sure to buy you a round!""
+        1 string data = ""ウォレンズでの仕事、お見事。もし中であんたたちを見かけたら、一杯奢るよ！""
        [4]
-        1 string data = ""Looking for an Entrance Pass? Use the intercom to talk to the door guard. Otherwise, move along.""
+        1 string data = ""入場パスを探してるのか？インターコムを使ってドアの警備員と話してくれ。そうでないなら、進んでくれ。""
        [5]
-        1 string data = ""Going inside, then?""
+        1 string data = ""中に入るのか？""
        [6]
         1 string data = ""
        [7]
-        1 string data = ""Can't wait until lunch time so I can grab some pork buns.""
+        1 string data = ""豚まんを取りに行けるように、昼食の時間が待ち遠しい。""
        [8]
-        1 string data = ""Wonder what Eidilon and her troupe will be showing tonight...""
+        1 string data = ""今夜Eidilonと彼女の一座が何を見せてくれるのか気になるな……""
        [9]
-        1 string data = ""Really need to ask Piscitelli to look at my gun - bugger keeps jamming.""
+        1 string data = ""本当にPiscitelliに銃を見てもらわなきゃ。クソが詰まり続けてる。""
        [10]
-        1 string data = ""Freezing my fucking balls off out here...""
+        1 string data = ""ここでクソみたいに凍えてる……""
        [11]
-        1 string data = ""No loitering, lambs.""
+        1 string data = ""立ち止まるなよ、諸君。""
        [12]
-        1 string data = ""Can't wait to see Eidilon's new show!""
+        1 string data = ""Eidilonの新しいショーを見るのが待ち遠しい！""
    [1170]
     0 StringTable data
      1 string Filename = "o1001_entranceguardshoveler"
@@ -353330,13 +353330,13 @@
        [2]
         1 string data = ""
        [3]
-        1 string data = ""I'm glad you got rid of those clowns in the Warrens. Bet they weren't laughing when they saw you down there.""
+        1 string data = ""ウォレンズのピエロどもを始末してくれて嬉しい。下であんたたちを見た時、笑ってなかっただろうな。""
        [4]
-        1 string data = ""Looking to get inside? Use the intercom to speak with the door guard.""
+        1 string data = ""中に入りたいのか？インターコムを使ってドアの警備員と話してくれ。""
        [5]
-        1 string data = ""Shoveling snow ain't so bad. Sure beats shoveling pig shit in the Warrens.""
+        1 string data = ""雪かきはそんなに悪くない。ウォレンズで豚のクソをかくよりマシだ。""
        [6]
-        1 string data = ""Hurry up and get inside, little lambs - it's warm in there!""
+        1 string data = ""急いで中に入れよ、諸君。中は暖かいぞ！""
    [1171]
     0 StringTable data
      1 string Filename = "o1001_entranceguardsniperone"
@@ -353402,19 +353402,19 @@
        [3]
         1 string data = ""
        [4]
-        1 string data = ""I'm gonna sleep so much better now that there's no crazy clowns to worry about.""
+        1 string data = ""狂ったピエロを心配しなくていいから、もっとよく眠れるようになる。""
        [5]
-        1 string data = ""You can't be up here. If you need an Entrance Pass then use the intercom by the entrance.""
+        1 string data = ""ここにいちゃダメだ。入場パスが必要なら、入口のインターコムを使ってくれ。""
        [6]
-        1 string data = ""Weather's acting up - bad for visibility, even with binoculars.""
+        1 string data = ""天候が荒れてる。双眼鏡があっても視界が悪い。""
        [7]
-        1 string data = ""Welcome to the Bizarre, little lambs. Behave yourselves!""
+        1 string data = ""ビザールへようこそ、諸君。お行儀よくな！""
        [8]
-        1 string data = ""Move along, little lambs.""
+        1 string data = ""進んでくれ、諸君。""
        [9]
-        1 string data = ""It's the group that attacked the Hopefuls!""
+        1 string data = ""Hopefulsを襲った集団だ！""
        [10]
-        1 string data = ""Enemy sighted!""
+        1 string data = ""敵発見！""
    [1172]
     0 StringTable data
      1 string Filename = "o1001_entranceguardsnipertwo"
@@ -353462,13 +353462,13 @@
        [2]
         1 string data = ""
        [3]
-        1 string data = ""I lost a friend down in the Warrens. He can rest in peace now that those clowns are dead.""
+        1 string data = ""ウォレンズで友人を失った。あのピエロどもが死んで、彼も安らかに眠れる。""
        [4]
-        1 string data = ""Trying to keep a lookout here, lambs. Go talk to the door guard.""
+        1 string data = ""ここで見張りをしようとしてるんだ、諸君。ドアの警備員と話してくれ。""
        [5]
-        1 string data = ""You gotta have cold gear to be a marksman. You can't hit shit if you're shaking and shivering.""
+        1 string data = ""狙撃手になるには防寒装備が必要だ。震えてたら何も当たらない。""
        [6]
-        1 string data = ""...""
+        1 string data = ""……""
    [1173]
     0 StringTable data
      1 string Filename = "o1001_greatgurn"
