@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 286868,
-      "entries_completed": 40686,
+      "current_line": 291289,
+      "entries_completed": 41179,
       "status": "in_progress",
-      "note": "Lines 282968-286868: Translated 500 entries - reactionbarks_companion_pizepi (136 entries), reactionbarks_companion_scotchmo (126 entries), reactionbarks_companion_victorybuchanan (124 entries), reactionbarks_pc_cold (82 entries), reactionbarks_pc_educated (32 entries completed, 58 remaining). All structure markers (double-quotes, <i> tags, ::action::) preserved. Next: continue from line 286868 (reactionbarks_pc_educated entry 55)."
+      "note": "Lines 286868-291289: Translated 493 entries - reactionbarks_pc_educated (35), reactionbarks_pc_hardass (84), reactionbarks_pc_mime (3), reactionbarks_pc_recruit (79), reactionbarks_pc_smartass (85), reactionbarks_pc_stoic (67), reactionbarks_pc_wildass (67), reactionbarks_playervehicle (35), animalfollower_bearcub (10), animalfollower_cat (9), animalfollower_doe (10), animalfollower_fox (9). All structure markers (double-quotes, <i> tags, ::action::, \n) preserved. Next: continue from line 291289 (animalfollower_honeybadger)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -39,9 +39,9 @@
     }
   },
   "last_commit_hash": "f0a6319",
-  "total_entries_completed": 40686,
+  "total_entries_completed": 41179,
   "estimated_total_entries": 71992,
-  "next_action": "Continue retranslation from line 286868 onwards (500 entries completed this session)",
+  "next_action": "Continue retranslation from line 291289 onwards (493 entries completed this session)",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
