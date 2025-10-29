@@ -261,7 +261,10 @@ translation/.retranslation_progress.json を読み込んで、translation/RETRAN
 1. **150-200行チャンクで処理**（メモリ効率を最大化、Read/Edit操作を最小化）
 2. 500エントリごとにコミット
 3. nouns_glossary.json参照
-4. 構造保護ルール厳守（CLAUDE.md参照: ""、[]、<>、::action:: 保護）
+4. **構造保護ルール厳守** (translation/STRUCTURE_PROTECTION_RULES.md):
+   - ⚠️⚠️⚠️ **\\r\\n エスケープシーケンスを絶対に実際の改行に変換しない**
+   - "" マーカー保護（「」『』に変換禁止）
+   - []、<>、::action:: 保護
 5. ${ENTRIES_PER_SESSION}エントリ到達後は作業終了して報告
 
 処理完了後、以下の形式で報告:
@@ -340,7 +343,19 @@ EOF
     else
         ZERO_ENTRY_COUNT=0
 
-        # Push to remote after successful progress
+        # Validate structure before pushing
+        log "INFO" "Running structure validation..."
+        if bash "$WORKING_DIR/automation/validate-structure.sh" >> "$LOG_FILE" 2>&1; then
+            log "INFO" "✓ Structure validation passed"
+        else
+            log "ERROR" "✗ Structure validation FAILED!"
+            log "ERROR" "  File structure is corrupted - review validation output in log"
+            log "ERROR" "  Session output: $OUTPUT_FILE"
+            log "ERROR" "  Stopping automation to prevent data loss"
+            exit 1
+        fi
+
+        # Push to remote after successful progress and validation
         log "INFO" "Pushing changes to remote repository..."
         if git push origin main >> "$LOG_FILE" 2>&1; then
             log "INFO" "✓ Successfully pushed to remote (commits: $ENTRIES_THIS_SESSION entries)"
