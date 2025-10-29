@@ -13,7 +13,7 @@
       "total_lines": 530425,
       "total_entries_estimated": 51853,
       "current_line": 530425,
-      "entries_completed": 45621,
+      "entries_completed": 45626,
       "status": "in_progress",
       "note": "Completed scattered untranslated entries throughout file. Applied 96 translations: Daddy's Little Secret quest (20), mission_x4501_hardknoxlife (22), mission_x4501_knoxatthedoor (1), Joey Bagodonutsの会話 (6), Sonny Jimの会話 (13), ターミナルメッセージ (14), 兵士の独り言 (20). All structure markers preserved. File end-to-end scan complete."
     },
@@ -38,10 +38,10 @@
       "status": "pending"
     }
   },
-  "last_commit_hash": "965aef3",
-  "total_entries_completed": 45621,
+  "last_commit_hash": "b731cd2",
+  "total_entries_completed": 45626,
   "estimated_total_entries": 71992,
-  "next_action": "Continue scanning for remaining untranslated sections (96 entries completed this session)",
+  "next_action": "CRITICAL: Discovered ~21,000 entries with broken structure markers (「」 instead of \"\"). These have Japanese translations but need structure marker fix. Priority: Fix structure markers for all translated entries. (101 entries completed this session)",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
