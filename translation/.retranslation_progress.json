@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 392964,
-      "entries_completed": 54903,
+      "current_line": 394361,
+      "entries_completed": 55128,
       "status": "in_progress",
-      "note": "Lines 391829-392964: q1001_pieface (78), q1001_piefacevsstarthatdreams (4), q1001_radio_angeladeth (9), q1001_radio_libertyarrest (9), q1001_rebelliousslave (6), q1001_satoshi (17), q1001_scarcollectorambient (42), q1001_scarcollectorbisonwrangler (8); total: 173 entries"
+      "note": "Lines 392964-394361: q1001_scarcollectorslave (88), q1001_slaveambient (48), q1001_slavedoctor (28), q1001_starthatdreams (61); total: 225 entries"
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -39,9 +39,9 @@
     }
   },
   "last_commit_hash": "3efb16b",
-  "total_entries_completed": 54903,
+  "total_entries_completed": 55128,
   "estimated_total_entries": 71992,
-  "next_action": "Continue from line 392964 (section: q1001_scarcollectorslave - 88 entries, pending)",
+  "next_action": "Continue from line 394361 (section: q1001_steeltrap - 103 entries, pending)",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
