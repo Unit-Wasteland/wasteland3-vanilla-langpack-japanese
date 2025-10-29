@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 404309,
-      "entries_completed": 56685,
+      "current_line": 406757,
+      "entries_completed": 57074,
       "status": "in_progress",
-      "note": "Lines 402726-404309: debug/test sections (238 entries - debug flowchart, template barks, test conversations); total cumulative: 662 entries this session"
+      "note": "Lines 404309-406757: test conversation sections (389 entries - testconversation_alex01, alternateintros01, barkonly, barks, bartertest, cnpcadd_buddy, cnpcadd_cordite)"
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -38,10 +38,10 @@
       "status": "pending"
     }
   },
-  "last_commit_hash": "1437bfb",
-  "total_entries_completed": 56685,
+  "last_commit_hash": "5767c67",
+  "total_entries_completed": 57074,
   "estimated_total_entries": 71992,
-  "next_action": "Continue from line 404310 (section: testconversation_alex01 - large test section or skip to smaller sections)",
+  "next_action": "Continue from line 406758 (section: testconversation_cnpcadd_fader and following test sections)",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
