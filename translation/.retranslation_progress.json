@@ -23,10 +23,10 @@
       "backup_file": "translation/backup_broken/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
       "total_lines": 120559,
       "total_entries_estimated": 12785,
-      "current_line": 3967,
-      "entries_completed": 682,
+      "current_line": 4843,
+      "entries_completed": 808,
       "status": "in_progress",
-      "note": "DLC1 retranslation in progress. Applied 682 translations: companion_barks_robotengineer section (196 entries) complete. Robot engineer companion combat barks, status messages, and action confirmations translated. All structure markers preserved including ::action:: markup and 'Script Node' entries. Next: follower_bearsuit section."
+      "note": "DLC1 retranslation in progress. Applied 808 translations: companion_barks_robotengineer (196), follower_bearsuit (13), follower_nightterror (3), radio_d_steeltown_gangraid (11), radio_d_steeltown_postspirefollowup (70), d2001_abigailmarkham_obsolete (29). Main questline, companion dialogues, and radio messages complete. All structure markers preserved. Next: d_rolandherrera section."
     },
     "dlc2": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
@@ -39,10 +39,10 @@
       "status": "pending"
     }
   },
-  "last_commit_hash": "d22d3a8",
-  "total_entries_completed": 46308,
+  "last_commit_hash": "4fe8c9e",
+  "total_entries_completed": 46434,
   "estimated_total_entries": 71992,
-  "next_action": "Continue DLC1 retranslation from line 3967 (follower_bearsuit section). Session target of 500 entries reached (196 entries processed this session).",
+  "next_action": "Continue DLC1 retranslation from line 4843 (d_rolandherrera section). Session target of 500 entries exceeded (126 entries processed this session).",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,

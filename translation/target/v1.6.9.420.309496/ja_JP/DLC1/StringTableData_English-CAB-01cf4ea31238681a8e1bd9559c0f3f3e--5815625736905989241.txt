@@ -4029,31 +4029,31 @@
       1 Array Array (13 items)
        0 int size = 13
        [0]
-        1 string data = ""Roar!""
+        1 string data = ""ガオー!""
        [1]
-        1 string data = ""Growl. Growl!""
+        1 string data = ""グルル。グルル!""
        [2]
-        1 string data = ""Grrr....""
+        1 string data = ""グルルル....""
        [3]
-        1 string data = ""Barooo?""
+        1 string data = ""バロー?""
        [4]
-        1 string data = ""Snarl!""
+        1 string data = ""ウガー!""
        [5]
         1 string data = "Script Node 6"
        [6]
         1 string data = "Script Node 7"
        [7]
-        1 string data = ""Barawar?""
+        1 string data = ""バラワー?""
        [8]
-        1 string data = "Attempt to tame the "bear.""
+        1 string data = "「熊」を手なずけようとする。"
        [9]
-        1 string data = ""Nice bear suit.""
+        1 string data = ""いい熊の着ぐるみだな。""
        [10]
-        1 string data = "Step away."
+        1 string data = "離れる。"
        [11]
-        1 string data = ""Rawr!"
+        1 string data = ""ガルル!"
        [12]
-        1 string data = "The 'bear' ignores you."
+        1 string data = "「熊」はあなたを無視する。"
    [27]
     0 StringTable data
      1 string Filename = "follower_nightterror"
@@ -4079,11 +4079,11 @@
       1 Array Array (3 items)
        0 int size = 3
        [0]
-        1 string data = ""Skippidee doo dah!""
+        1 string data = ""スキッピディー・ドゥー・ダー!""
        [1]
-        1 string data = ""Wheeeee! I like adventures!""
+        1 string data = ""ウィーー!冒険が好き!""
        [2]
-        1 string data = ""Candy...?""
+        1 string data = ""キャンディー...?""
    [28]
     0 StringTable data
      1 string Filename = "0000_radio_d_steeltown_gangraid"
@@ -4145,23 +4145,23 @@
        [1]
         1 string data = ""
        [2]
-        1 string data = ""Rangers, this is Abigail Markham. I told you this day would come and it has. A scavenging party of Payasos, Godfishers, and Scar Collectors is within striking distance of Steeltown.""
+        1 string data = ""レンジャー、こちらはアビゲイル・マーカム。この日が来ると言っていたが、本当に来てしまった。パヤソス、ゴッドフィッシャーズ、そしてスカー・コレクターズの略奪団がスティールタウンの攻撃圏内に入っている。""
        [3]
         1 string data = "::static::"
        [4]
         1 string data = ""
        [5]
-        1 string data = ""Rangers, this is Salene Crow and, uh, Steeltown's in a world of shit right now. Those raiders we heard were coming? They're almost here. Payasos, Godfishers, and Scar Collectors all together, and all about to kick down our doors.""
+        1 string data = ""レンジャー、こちらはサレーン・クロウだ。あー、スティールタウンは今、めちゃくちゃな状況だ。来るって聞いてたレイダーたちだが?もうすぐここに着く。パヤソス、ゴッドフィッシャーズ、スカー・コレクターズが一緒になって、今にもドアを蹴破ろうとしている。""
        [6]
         1 string data = ""
        [7]
-        1 string data = ""Steeltown calling the Rangers! Steeltown calling the Rangers! SOS! There's a big mob of Payasos, Godfishers, and Scar Collectors bearing down on us as we speak, and we don't know what to do!""
+        1 string data = ""スティールタウンからレンジャーへ!スティールタウンからレンジャーへ!SOS!パヤソス、ゴッドフィッシャーズ、スカー・コレクターズの大群が今まさに押し寄せている。どうすればいいか分からない!""
        [8]
-        1 string data = ""We've done what we can to prepare for the assault, but we need your help if we're going to survive this. Get here ASAP or we're SOL. Markham out.""
+        1 string data = ""襲撃に備えて可能な限りのことはしたが、これを生き延びるには君たちの助けが必要だ。できるだけ早く来てくれ、さもなくば全滅だ。マーカム、以上。""
        [9]
-        1 string data = ""We've done what we can to get ready for 'em, but it's not as much as we'd like, and I don't think we're gonna survive without your help. So, get here as soon as you can, okay? Crow out.""
+        1 string data = ""奴らを迎え撃つ準備は全力でやったが、十分とは言えない。君たちの助けなしでは生き残れないと思う。だから、できるだけ早く来てくれ、頼む。クロウ、以上。""
        [10]
-        1 string data = ""Nobody's in charge here anymore, and we haven't been able to build up any defenses. We're gonna get slaughtered if nobody helps us. Please! Save us! Come back!""
+        1 string data = ""もう誰も指揮を取っていない。防衛体制も構築できていない。誰も助けてくれなければ、皆殺しにされる。お願いだ!助けてくれ!戻ってきてくれ!""
    [29]
     0 StringTable data
      1 string Filename = "0000_radio_d_steeltown_initialradiocall"
@@ -4475,63 +4475,63 @@
        [0]
         1 string data = ""
        [1]
-        1 string data = ""Hey, November, getting a few reports about your Steeltown shenanigans, but I wanna hear it from the horse's mouth. Whatcha been up to out there?""
+        1 string data = ""おい、ノベンバー、スティールタウンでの君たちの騒ぎについて報告を受けているが、当事者から直接聞きたい。あそこで何をしていたんだ?""
        [2]
-        1 string data = ""Rangers, come in. This is the Patriarch. I'm hearing rumors from Steeltown but nothing concrete. How did it go?""
+        1 string data = ""レンジャー、応答せよ。こちらはパトリアークだ。スティールタウンからの噂を聞いているが、具体的な内容は分からない。どうなった?""
        [3]
         1 string data = ""
        [4]
-        1 string data = ""We helped Markham sort out her production troubles and everything's back on track. Steeltown is going strong.""
+        1 string data = ""マーカムの生産トラブルを解決し、全て順調です。スティールタウンは好調です。""
        [5]
-        1 string data = ""Huh. From the way I hear it she's a bit of a hardass, but I guess as long as the place is chugging along, we can worry about personalities later.""
+        1 string data = ""ふむ。聞いた限りでは彼女はかなり厳しいようだが、施設が順調に稼働している限り、性格の問題は後で心配すればいいか。""
        [6]
-        1 string data = ""Steeltown's problem was Markham. We deposed her and gave her job to a worker, Salene Crow. Steeltown will recover.""
+        1 string data = ""スティールタウンの問題はマーカムでした。我々は彼女を解任し、労働者のサレーン・クロウに仕事を任せました。スティールタウンは回復するでしょう。""
        [7]
-        1 string data = ""Yeah, I'd heard that about Markham. Hope this new gal does a better job. At least she knows the place from the bottom up, right? Let's hope for the best.""
+        1 string data = ""ああ、マーカムについてはそう聞いていた。この新しい女性がもっとうまくやってくれることを願う。少なくとも彼女は現場を下から知っているだろう?うまくいくことを祈ろう。""
        [8]
-        1 string data = ""Things didn't go so well, and no one's running Steeltown anymore. Its future isn't bright.""
+        1 string data = ""あまりうまくいかず、もう誰もスティールタウンを運営していません。その未来は明るくありません。""
        [9]
-        1 string data = ""That's a damn shame, I was kinda countin' on Steeltown to smooth things out once we removed old Saul. Maybe we can rebuild it somehow.""
+        1 string data = ""まったく残念だ。老ソールを排除した後、スティールタウンが事態を収拾してくれると期待していたんだが。どうにか再建できるかもしれん。""
        [10]
-        1 string data = ""Anything else to report?""
+        1 string data = ""他に報告することは?""
        [11]
-        1 string data = ""Markham's Computation Engine, which ran the factories, turned out to be a bunch of synths.""
+        1 string data = ""マーカムの工場を動かしていた計算エンジンは、実はシンセの集団でした。""
        [12]
-        1 string data = ""We found a guy wearing a bear suit who seems to think he's really a bear.""
+        1 string data = ""熊の着ぐるみを着て、自分が本当に熊だと思い込んでいる男を見つけました。""
        [13]
-        1 string data = ""That's everything worth knowing.""
+        1 string data = ""知る価値があるのはそれだけです。""
        [14]
-        1 string data = ""Oh shit. You blew 'em sky high, right?""
+        1 string data = ""クソったれ。奴らを木っ端みじんにしたんだろうな?""
        [15]
-        1 string data = ""We wiped their minds. They're just a glorified computer now.""
+        1 string data = ""記憶を消去しました。今では単なる立派なコンピューターです。""
        [16]
-        1 string data = ""We did indeed.""
+        1 string data = ""その通りです。""
        [17]
-        1 string data = "[Lie] "Yeah, we destroyed every last one.""
+        1 string data = "[嘘] "ああ、最後の一体まで破壊した。""
        [18]
-        1 string data = ""We freed them.""
+        1 string data = ""解放しました。""
        [19]
-        1 string data = ""We got Markham and the synths to agree to work together.""
+        1 string data = ""マーカムとシンセたちに協力することで合意させました。""
        [20]
-        1 string data = ""Well, I guess that's almost as good as killin' 'em. But I still wouldn't trust 'em.""
+        1 string data = ""まあ、殺すのと同じくらい良いってことだな。だが信用はできん。""
        [21]
-        1 string data = ""Hoo-rah, November. Good fucking riddance.""
+        1 string data = ""フーラー、ノベンバー。良い厄介払いだ。""
        [22]
-        1 string data = ""You what?! Jesus dancing Christ, what were you fuck-knuckles thinking? Synths are the Rangers' greatest enemies! We're gonna have a talk about this once the world's not on fire, cowboys. You can bet your sweet ass on that.""
+        1 string data = ""何だと?!踊るキリストめ、何を考えていたんだこのバカどもは?シンセはレンジャーズの最大の敵だぞ!世界が燃えてない時にこのことについて話し合うからな、カウボーイ。絶対だぞ。""
        [23]
-        1 string data = ""You... you made a deal with synths? What were you thinking? Synths are the Rangers' greatest enemies! We're gonna have a talk about this once the world's not on fire, cowboys. You can bet your sweet ass on that.""
+        1 string data = ""お前ら...シンセと取引したのか?何を考えていた?シンセはレンジャーズの最大の敵だぞ!世界が燃えてない時にこのことについて話し合うからな、カウボーイ。絶対だぞ。""
        [24]
-        1 string data = ""Wait! Are you tellin' me the wasteland is full of weirdos? Get outta town! Now, anything important to report?""
+        1 string data = ""待て!ウェイストランドが変人だらけだって言ってるのか?冗談だろ!さて、何か重要な報告は?""
        [25]
-        1 string data = ""All right, see you back at RHQ, cowboys. Dead Red out.""
+        1 string data = ""わかった、本部で会おう、カウボーイ。デッド・レッド、以上。""
        [26]
-        1 string data = ""We helped Markham sort out her production troubles and everything's back on track. Steeltown is going strong.""
+        1 string data = ""マーカムの生産トラブルを解決し、全て順調です。スティールタウンは好調です。""
        [27]
-        1 string data = ""Glad to hear it. Abigail has been a staunch ally, and I'm glad you were able to help me help her. With her at the helm, Steeltown will guarantee Colorado's future.""
+        1 string data = ""それは良かった。アビゲイルは忠実な同盟者だ。彼女を助けることができて嬉しい。彼女が指揮を執れば、スティールタウンはコロラドの未来を保証してくれるだろう。""
        [28]
-        1 string data = ""Anything else to report?""
+        1 string data = ""他に報告することは?""
        [29]
-        1 string data = ""Markham's Computation Engine, which ran the factories, turned out to be a bunch of synths.""
+        1 string data = ""マーカムの工場を動かしていた計算エンジンは、実はシンセの集団でした。""
        [30]
         1 string data = ""
        [31]
@@ -4553,65 +4553,65 @@
        [39]
         1 string data = ""
        [40]
-        1 string data = ""We found a guy wearing a bear suit who seems to think he's really a bear.""
+        1 string data = ""熊の着ぐるみを着て、自分が本当に熊だと思い込んでいる男を見つけました。""
        [41]
-        1 string data = ""Stop wasting my time with nonsense.""
+        1 string data = ""くだらないことで時間を無駄にするな。""
        [42]
-        1 string data = ""That's everything worth knowing.""
+        1 string data = ""知る価値があるのはそれだけです。""
        [43]
-        1 string data = ""Very well, Rangers. Carry on. Buchanan out.""
+        1 string data = ""よろしい、レンジャー。続けたまえ。ブキャナン、以上。""
        [44]
         1 string data = ""
        [45]
-        1 string data = ""Steeltown's problem was Markham. We deposed her and gave her job to a worker, Salene Crow. Steeltown will recover.""
+        1 string data = ""スティールタウンの問題はマーカムでした。我々は彼女を解任し、労働者のサレーン・クロウに仕事を任せました。スティールタウンは回復するでしょう。""
        [46]
-        1 string data = ""Who the hell is Salene Crow? Does she have any experience? You better be right about this, Rangers. If Steeltown fails, Colorado won't be far behind.""
+        1 string data = ""サレーン・クロウとは何者だ?経験はあるのか?これで正しいと信じたいぞ、レンジャー。スティールタウンが失敗すれば、コロラドもすぐ後を追うことになる。""
        [47]
-        1 string data = ""Things didn't go so well, and no one's running Steeltown anymore. Its future isn't bright.""
+        1 string data = ""あまりうまくいかず、もう誰もスティールタウンを運営していません。その未来は明るくありません。""
        [48]
-        1 string data = ""You idiots. Steeltown is essential to Colorado's future. We will die without it! Dammit. Now I'm going to have to spend my own money to rebuild it. This is not your finest hour, Rangers.""
+        1 string data = ""バカどもが。スティールタウンはコロラドの未来に不可欠なんだぞ。それなしでは我々は死ぬ!くそったれ。今度は自分の金で再建しなければならん。レンジャー、これは君たちの最高の瞬間ではないぞ。""
        [49]
-        1 string data = ""Synths? What the hell is Markham doing messing with them? Those things are dangerous. What did you do?""
+        1 string data = ""シンセだと?マーカムは一体何を考えて奴らに手を出したんだ?あれは危険だぞ。どうしたんだ?""
        [50]
         1 string data = ""
        [51]
-        1 string data = ""We wiped their minds. They're just a glorified computer now.""
+        1 string data = ""記憶を消去しました。今では単なる立派なコンピューターです。""
        [52]
-        1 string data = ""Good. Hopefully they're harmless now. Job well done.""
+        1 string data = ""良かろう。無害になっていることを願う。よくやった。""
        [53]
-        1 string data = ""We destroyed them.""
+        1 string data = ""破壊しました。""
        [54]
-        1 string data = ""Probably for the best. Job well done.""
+        1 string data = ""それが最善だろう。よくやった。""
        [55]
-        1 string data = ""We freed them.""
+        1 string data = ""解放しました。""
        [56]
-        1 string data = ""What? What were you thinking? Are they still in Colorado? This is damn reckless behavior, Rangers. Synths can't be trusted.""
+        1 string data = ""何だと?何を考えていた?奴らはまだコロラドにいるのか?これはまったく無謀な行動だ、レンジャー。シンセは信用できん。""
        [57]
-        1 string data = ""We got Markham and the synths to agree to work together.""
+        1 string data = ""マーカムとシンセたちに協力することで合意させました。""
        [58]
-        1 string data = ""That sounds like a bad idea. What's to stop them from using the sanctuary of Steeltown to plot some anti-human scheme? I'll talk to Markham about this later.""
+        1 string data = ""それは悪い考えだ。スティールタウンの聖域を使って反人類的な計画を企てるのを止める術はあるのか?後でマーカムと話し合うことにしよう。""
        [59]
-        1 string data = ""We took care of them. They're no longer a threat to Steeltown.""
+        1 string data = ""始末しました。もうスティールタウンへの脅威ではありません。""
        [60]
-        1 string data = ""Took care of them? What exactly does that mean, November? If you didn't burn those fuckers to the ground and stomp on the pieces, I want to know - agh, dammit. We don't have time for that right now, but later, we are gonna have a talk.""
+        1 string data = ""始末した?それは具体的にどういう意味だ、ノベンバー?あのクソ野郎どもを焼き払って踏みつぶしたのでなければ、知りたいんだが - ああ、くそ。今はそんな暇はない。だが後で話すぞ。""
        [61]
-        1 string data = ""We took care of them. They're no longer a threat to Steeltown.""
+        1 string data = ""始末しました。もうスティールタウンへの脅威ではありません。""
        [62]
-        1 string data = ""I guess I'll have to take your word for it, but I'll want to hear more about this later. Synths... are never good news.""
+        1 string data = ""言葉を信じるしかないが、後でもっと詳しく聞きたい。シンセは...決して良い知らせではないからな。""
        [63]
-        1 string data = ""We did what we had to and the trouble's over. Everything should be fine.""
+        1 string data = ""やるべきことをやった。問題は解決した。全て問題ないはずです。""
        [64]
-        1 string data = ""That's, uh... a little unspecific. I'll want more details when you get back to Colorado Springs.""
+        1 string data = ""それは...少し曖昧だな。コロラドスプリングスに戻ったら詳細を聞かせてもらおう。""
        [65]
-        1 string data = ""We did what we had to and the trouble's over. Everything should be fine.""
+        1 string data = ""やるべきことをやった。問題は解決した。全て問題ないはずです。""
        [66]
-        1 string data = ""Uh... you wouldn't be being vague on purpose, would you? Well, we'll talk more about it once you get to Colorado Springs.""
+        1 string data = ""あー...わざと曖昧にしているわけじゃないよな?まあ、コロラドスプリングスに着いたらもっと話そう。""
        [67]
         1 string data = "Script Node 70"
        [68]
-        1 string data = ""We did what we had to and the trouble's over. Everything should be fine.""
+        1 string data = ""やるべきことをやった。問題は解決した。全て問題ないはずです。""
        [69]
-        1 string data = ""We did what we had to and the trouble's over. Everything should be fine.""
+        1 string data = ""やるべきことをやった。問題は解決した。全て問題ないはずです。""
    [31]
     0 StringTable data
      1 string Filename = "d1001_steeltownguard"
@@ -4783,63 +4783,63 @@
       1 Array Array (29 items)
        0 int size = 29
        [0]
-        1 string data = "\nDefault Greeting."
+        1 string data = "\nデフォルト挨拶。"
        [1]
         1 string data = "DEBUG"
        [2]
-        1 string data = "Goodbye."
+        1 string data = "さようなら。"
        [3]
-        1 string data = "YOU'RE the Rangers I've heard so much about!\nPlease quell the conflict between the workers and guards in the Factory.\nSpeak to the guard leader, Roland Herrera, down in the Factory!"
+        1 string data = "あなた達が噂のレンジャーズね!\n工場の労働者と警備員の対立を収めて頂戴。\n工場の警備隊長、ローランド・エレーラと話してちょうだい!"
        [4]
-        1 string data = "Ok."
+        1 string data = "了解。"
        [5]
-        1 string data = "Nothing to Report."
+        1 string data = "報告することはない。"
        [6]
-        1 string data = "We killed Crowe and the workers gave up."
+        1 string data = "クロウを殺して労働者が降参した。"
        [7]
-        1 string data = "We killed Herrera and appeased the workers."
+        1 string data = "エレーラを殺して労働者を宣撫した。"
        [8]
-        1 string data = "How is Factory Fracas going?"
+        1 string data = "工場の騒乱はどうなっている?"
        [9]
-        1 string data = "We killed Herrera AND Crow, so no one wants to have a conflict any more."
+        1 string data = "エレーラとクロウの両方を殺したので、もう誰も対立したがらない。"
        [10]
-        1 string data = "Also, I would prefer that you resolved this with minimal violence and destruction to the Factory."
+        1 string data = "それと、できるだけ暴力を使わずに工場を破壊しないで解決してほしいんだけど。"
        [11]
-        1 string data = "Such a waste, but at least work in the factory can continue now.\nPlease see Bennie about your reward."
+        1 string data = "無駄だったけど、少なくとも工場の作業は続けられるわね。\nベニーから報酬を受け取って。"
        [12]
-        1 string data = "There is a system in place that should have prevented such conflicts in the first place, but it appears to have failed.\nPlease go to the Dunes of Thought and ask the shaman there why this happened."
+        1 string data = "本来ならこういった対立を防ぐシステムがあるはずなのに、失敗したみたいね。\n思考の砂丘に行って、そこのシャーマンになぜこんなことが起きたのか聞いてちょうだい。"
        [13]
-        1 string data = "You can take the Engineer with you, if you wish."
+        1 string data = "よかったらエンジニアも連れていっていいわ。"
        [14]
-        1 string data = "How is Diagnostic Pilgrimage going?"
+        1 string data = "診断の巡礼はどうなっている?"
        [15]
-        1 string data = "The orbs think the Computation Engine caused the uprising intentionally."
+        1 string data = "オーブたちは計算エンジンが意図的に蜂起を引き起こしたと考えている。"
        [16]
-        1 string data = "Oh crap!\nYou gotta go up to the Spire and reset the Engine before it causes any more damage!"
+        1 string data = "なんてこと!\n塔に行ってエンジンをリセットしないと、これ以上被害が出るわ!"
        [17]
-        1 string data = "How is Boiling Point going?"
+        1 string data = "沸点はどうなっている?"
        [18]
-        1 string data = "We reset the Engine successfully."
+        1 string data = "エンジンのリセットに成功した。"
        [19]
-        1 string data = "We destroyed the Engine. Synths are too dangerous."
+        1 string data = "エンジンを破壊した。シンセは危険すぎる。"
        [20]
-        1 string data = "We released the Synths from the Engine. Please stand aside so that they can leave."
+        1 string data = "シンセをエンジンから解放した。彼らが出ていけるように道を開けろ。"
        [21]
-        1 string data = "You've saved Steeltown!\nPlease see Bennie about your reward."
+        1 string data = "スティールタウンを救ってくれたのね!\nベニーから報酬を受け取って。"
        [22]
-        1 string data = "Also, please try to minimize destruction up there!"
+        1 string data = "それと、上であまり破壊しないでね!"
        [23]
-        1 string data = "You fool! Steeltown will fall into ruin now!\nYou are no longer welcome here."
+        1 string data = "馬鹿者!スティールタウンは崩壊してしまうわ!\nもうここには来ないでちょうだい。"
        [24]
-        1 string data = "I can't allow that!\nI attack you with the Engineer!"
+        1 string data = "それは許せないわ!\nエンジニアと一緒にあなた達を攻撃する!"
        [25]
-        1 string data = "So much for making peace with the workers!"
+        1 string data = "労働者と和解するなんて無理だったわね!"
        [26]
-        1 string data = "Thanks for saving Steeltown!"
+        1 string data = "スティールタウンを救ってくれてありがとう!"
        [27]
-        1 string data = "You really screwed Steeltown over. I hope you're happy."
+        1 string data = "あなた達のせいでスティールタウンがめちゃくちゃよ。満足した?"
        [28]
-        1 string data = "You killed me! I'm not thrilled."
+        1 string data = "私を殺すなんて!許せないわ。"
    [33]
     0 StringTable data
      1 string Filename = "d_rolandherrera"
