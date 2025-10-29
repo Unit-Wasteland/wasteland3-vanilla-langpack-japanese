@@ -1465,7 +1465,7 @@
        [2]
         1 string data = "Ignore"
        [3]
-        1 string data = ""Ranger HQ out.""
+        1 string data = ""レンジャー本部、終わり。""
        [4]
         1 string data = ""Anybody hearin' me? Any marshals out there got their ears on?""
        [5]
@@ -1481,9 +1481,9 @@
        [10]
         1 string data = ""Team November, this is Ranger HQ. Got an auto theft call for you in Steeltown. Look for Carla at the Arapaho Garage. She'll give you the details.""
        [11]
-        1 string data = ""Rangers? I've heard of you. You're the Patriarch's new huntin' dogs.""
+        1 string data = ""レンジャー? 聞いたことあるぞ。パトリアークの新しい猟犬ってやつだろ。""
        [12]
-        1 string data = ""Er... I guess you could call us that. We've been helpin' out the Marshals, as they're spread pretty thin these days. Got a patrol in your area if you're in need of some assistance.""
+        1 string data = ""えっと……まあそう呼んでもらってもいい。我々はマーシャルたちの手伝いをしている。彼らは最近人手不足なんだ。君の地域に哨戒部隊がいるから、助けが必要なら対応できる。""
        [13]
         1 string data = "Script Node 16"
    [9]
@@ -1673,11 +1673,11 @@
       1 Array Array (3 items)
        0 int size = 3
        [0]
-        1 string data = "::static:: "... Come in..." ::static:: "... This is..." ::static:: "... Dorsey..." ::static::"
+        1 string data = "::static:: "……応答せよ……" ::static:: "……こちらは……" ::static:: "……ドーシー……" ::static::"
        [1]
-        1 string data = "::static:: "Repeat, we need resupply-" ::static:: "Any Dorseys remaining west of Colorado Springs, ple-" ::static::"
+        1 string data = "::static:: "繰り返す。補給が必要だ——" ::static:: "コロラドスプリングスの西にいるドーシーは——" ::static::"
        [2]
-        1 string data = ""This is Nelius Dorsey. To any remaining fighters in the mountains, rendezvous at Snowed Inn Resort. Repeat." ::static::"
+        1 string data = ""こちらはネリウス・ドーシー。山岳地帯に残る戦士たちへ、スノウド・イン・リゾートで合流せよ。繰り返す。" ::static::"
    [12]
     0 StringTable data
      1 string Filename = "0000_encounter_fleshtrappers"
