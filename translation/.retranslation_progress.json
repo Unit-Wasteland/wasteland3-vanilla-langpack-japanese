@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 374001,
-      "entries_completed": 52179,
+      "current_line": 375726,
+      "entries_completed": 52443,
       "status": "in_progress",
-      "note": "Lines 372588-374001: o2001_quarex complete (135 entries - Quarex dialogue), o2001_randygett complete (96 entries - Randy Gett dialogue); total session: 231 entries"
+      "note": "Lines 374001-375726: o2001_rangerguards (10), o2001_safewarrensguard (9), o2001_sanctifiedpiscitelli (106), o2001_sarahgunns (15), o2001_silcerdicer (21), o2001_stripper_gildedbert (13), o2001_stripper_jaxie (14), o2001_stripper_johnjosephnicholas (11 empty), o2001_stripper_officersix (13), o2001_stripper_polruby (12), o2001_stripper_tonybaloney (12), o2001_sylverstallionbarks (14), o2001_troelsodinkirk_interior (12); total: 264 entries"
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -38,10 +38,10 @@
       "status": "pending"
     }
   },
-  "last_commit_hash": "6858a8f",
-  "total_entries_completed": 52179,
+  "last_commit_hash": "",
+  "total_entries_completed": 52443,
   "estimated_total_entries": 71992,
-  "next_action": "Continue from line 374001 (next section: o2001_rangerguards - 10 entries)",
+  "next_action": "Continue from line 375726 (next section: o2001_vrdevice - 80 entries)",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,

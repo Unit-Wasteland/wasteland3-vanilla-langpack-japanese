@@ -374048,25 +374048,25 @@
       1 Array Array (10 items)
        0 int size = 10
        [0]
-        1 string data = ""Ma'am.""
+        1 string data = ""隊長。""
        [1]
         1 string data = ""
        [2]
-        1 string data = ""Sir.""
+        1 string data = ""隊長。""
        [3]
-        1 string data = ""Nothing new to report.""
+        1 string data = ""特に報告はありません。""
        [4]
-        1 string data = ""Can't count how many times I've seen Eidilon's latest. What a show!""
+        1 string data = ""エイディロンの最新作を何度観たか分からないぜ。最高のショーだ！""
        [5]
-        1 string data = ""All quiet in the Warrens.""
+        1 string data = ""ウォレンズは静かです。""
        [6]
-        1 string data = ""Feels good keeping these people safe.""
+        1 string data = ""この人たちを守れるのは気分がいいよ。""
        [7]
-        1 string data = ""The Bizarre is a great assignment!""
+        1 string data = ""ビザールは素晴らしい任務だ！""
        [8]
-        1 string data = ""You look hurt - you should see Dr. Cold Cuts.""
+        1 string data = ""怪我をしているようだ。コールドカッツ博士に診てもらうべきだ。""
        [9]
-        1 string data = ""Piscitelli does a great job maintaining our weapons, but she is an odd lady.""
+        1 string data = ""ピシテリは俺たちの武器を管理する素晴らしい仕事をしてくれるが、変わった女性だ。""
    [1261]
     0 StringTable data
      1 string Filename = "o2001_safewarrensguard"
@@ -374116,23 +374116,23 @@
       1 Array Array (9 items)
        0 int size = 9
        [0]
-        1 string data = " Damn it. I went into the Warrens to take a piss and a Hot Hog snuck past me."
+        1 string data = ""くそっ。ウォレンズに小便しに行ったら、ホット・ホッグに逃げられちまった。""
        [1]
-        1 string data = " Do not be alarmed. The Bizarre is secure."
+        1 string data = ""心配無用だ。ビザールは安全だ。""
        [2]
-        1 string data = " Carry on."
+        1 string data = ""よろしく頼む。""
        [3]
-        1 string data = " Flab is gonna chew me out for this."
+        1 string data = ""フラブに怒られるぞ。""
        [4]
-        1 string data = "You have nothing to worry about. The Bizarre is secure."
+        1 string data = ""心配いらない。ビザールは安全だ。""
        [5]
-        1 string data = "Carry on. Have a nice day."
+        1 string data = ""続けてくれ。良い一日を。""
        [6]
         1 string data = ""
        [7]
-        1 string data = ""Fuck! I swear I only opened the Warrens gate for one second and that fuckin' pig bolted by me.""
+        1 string data = ""ファック！ほんの一瞬ウォレンズの門を開けただけなのに、あのクソ豚が俺の横を駆け抜けやがった。""
        [8]
-        1 string data = " Flab is gonna chew me out for this."
+        1 string data = ""フラブに怒られるぞ。""
    [1262]
     0 StringTable data
      1 string Filename = "o2001_sanctifiedpiscitelli"
@@ -374570,217 +374570,217 @@
       1 Array Array (106 items)
        0 int size = 106
        [0]
-        1 string data = ""Hello again, strangers.""
+        1 string data = ""またお会いしましたね、よそ者さん。""
        [1]
-        1 string data = " Can we see your wares?"
+        1 string data = ""商品を見せてもらえますか？""
        [2]
-        1 string data = " Tell us about your blindness and scars."
+        1 string data = ""失明と傷跡について教えてください。""
        [3]
-        1 string data = " The carrier on your workbench is missing a retaining pin. (Requires Weaponsmithing) (Once Ever)"
+        1 string data = ""作業台のキャリアに固定ピンがありませんね。(武器製作スキル必要) (一度のみ)""
        [4]
-        1 string data = ""Goodbye.""
+        1 string data = ""さようなら。""
        [5]
-        1 string data = " Have a look at my wares."
+        1 string data = ""私の商品をご覧ください。""
        [6]
-        1 string data = " They are a blessing. I've been Sanctified by explosions and shrapnel during my weapon experiments."
+        1 string data = ""これらは恵みです。武器実験中の爆発と破片によって聖別されました。""
        [7]
-        1 string data = " I appreciate the help. Please accept this reward. (TODO - choice of pistol, rifle, shotgun)."
+        1 string data = ""ご協力感謝します。この報酬を受け取ってください。(TODO - ピストル、ライフル、ショットガンから選択)""
        [8]
-        1 string data = " Can we buy a Jigowatt Electrolytic Condenser? (Requires 29 Across Quest)"
+        1 string data = ""ジゴワット電解コンデンサを買えますか？(29 Acrossクエスト必要)""
        [9]
-        1 string data = " Those are very expenisve. One will cost you 100 currency."
+        1 string data = ""それは非常に高価です。一つ100通貨かかります。""
        [10]
-        1 string data = " We'll take one."
+        1 string data = ""一つもらいます。""
        [11]
-        1 string data = " No thanks."
+        1 string data = ""結構です。""
        [12]
-        1 string data = " Here you go. (TODO - Give Jigowatt Electrolytic Condenser)"
+        1 string data = ""どうぞ。(TODO - ジゴワット電解コンデンサを渡す)""
        [13]
-        1 string data = " You don't have enough currency."
+        1 string data = ""通貨が不足しています。""
        [14]
-        1 string data = " View Debug options."
+        1 string data = ""デバッグオプションを表示。""
        [15]
-        1 string data = " Select a Debug option."
+        1 string data = ""デバッグオプションを選択。""
        [16]
-        1 string data = " Open Merchant UI"
+        1 string data = ""商人UIを開く""
        [17]
-        1 string data = " Merchant UI Open"
+        1 string data = ""商人UI開いた""
        [18]
-        1 string data = " Ask about scars."
+        1 string data = ""傷跡について尋ねる。""
        [19]
-        1 string data = " Learned about scars."
+        1 string data = ""傷跡について学んだ。""
        [20]
-        1 string data = ""These? Hah! Life happened, child. Every weapon that you see in this shop was something we'd hand-crafted. But our material is sometimes ... volatile.""
+        1 string data = ""これですか？ハッ！人生が起きたのです、子供よ。この店で見る武器はすべて私たちが手作りしたものです。しかし材料は時々...不安定なのです。""
        [21]
-        1 string data = " Offer weapon repair help."
+        1 string data = ""武器の修理を手伝う。""
        [22]
-        1 string data = " Received reward for helping."
+        1 string data = ""手伝いの報酬を受け取った。""
        [23]
-        1 string data = " Buy Jigowatt Condensor"
+        1 string data = ""ジゴワットコンデンサを購入""
        [24]
-        1 string data = " Request 1 currency"
+        1 string data = ""1通貨を要求""
        [25]
-        1 string data = " Accept terms of sale"
+        1 string data = ""販売条件を受け入れる""
        [26]
-        1 string data = " Item purchased."
+        1 string data = ""アイテム購入完了。""
        [27]
-        1 string data = " Not enough money."
+        1 string data = ""資金不足。""
        [28]
-        1 string data = " Reject terms of sale."
+        1 string data = ""販売条件を拒否。""
        [29]
-        1 string data = " Initiate 29 Across Quest"
+        1 string data = ""29 Acrossクエストを開始""
        [30]
-        1 string data = " Quest started."
+        1 string data = ""クエスト開始。""
        [31]
-        1 string data = " Purchase canceled."
+        1 string data = ""購入キャンセル。""
        [32]
-        1 string data = ""How often do you have someone coming in for something like that? We'd be moving stock, making room in your inventory for better things.""
+        1 string data = ""どのくらいの頻度でそういう客が来ますか？在庫を動かして、もっといい商品のスペースを作れますよ。""
        [33]
-        1 string data = ""We'll get back to you.""
+        1 string data = ""また後で。""
        [34]
-        1 string data = ""What a sweet child you are. So rare to meet someone who won't waste time haggling. We'll remember you fondly.""
+        1 string data = ""なんて優しい子でしょう。値切りに時間を浪費しない人に会えるのは稀です。良く覚えておきましょう。""
        [35]
-        1 string data = ""I'll be waiting.""
+        1 string data = ""待っています。""
        [36]
-        1 string data = ""That'll be all for now.""
+        1 string data = ""今のところこれで。""
        [37]
-        1 string data = ""May your aim be steady and your rifles faithful. Be careful out there.""
+        1 string data = ""照準が安定し、ライフルが忠実でありますように。気をつけて。""
        [38]
-        1 string data = ""I promise you. This isn't a problem we suffer. But I do admire your enthuasiasm, even if your negotiation skills are lacking. A twenty percent discount, Ranger. So long as you promise you won't tell.""
+        1 string data = ""約束します。それは私たちが抱える問題ではありません。しかし交渉スキルは不足していますが、あなたの熱意には感心します。20パーセント割引しましょう、レンジャー。誰にも言わないと約束してくれるなら。""
        [39]
-        1 string data = ""We have something that you might be interested in.""
+        1 string data = ""興味を持ちそうなものがあります。""
        [40]
-        1 string data = ""I can taste your trepidation, child. The quiver in your voice. This must be important. Quickly, tell me what it is.""
+        1 string data = ""あなたの躊躇いが味わえます、子供よ。声の震え。これは重要なことに違いありません。急いで、何なのか教えて。""
        [41]
-        1 string data = ""We found plans detailing a heist. Your workshop was their primary target.""
+        1 string data = ""強盗計画を見つけました。あなたの工房が主要な標的でした。""
        [42]
-        1 string data = ""The Crossroad Gang had plans to rob you.""
+        1 string data = ""クロスロード・ギャングがあなたを襲う計画でした。""
        [43]
-        1 string data = ""It's not that important. We'll talk about it another time.""
+        1 string data = ""大したことじゃありません。また今度話しましょう。""
        [44]
-        1 string data = ""I see. Well, I thank you for the report, but I'm not worried. So many have tried over the years. None have succeeded. They all make the same mistake. They see the wheelchairs, the scarred faces, and think, 'This will be easy.'"\n\n\nShe barks a clear, pleasant laugh, one at odds with the subject matter. "
+        1 string data = ""なるほど。ええ、報告には感謝しますが、心配していません。何年もの間、多くの者が試みました。誰も成功していません。みんな同じ過ちを犯します。車椅子と傷だらけの顔を見て、『これは簡単だ』と思うのです。""\n\n\n彼女は明るく心地よい笑い声を上げた、この話題には似つかわしくない。""
        [45]
-        1 string data = ""But they forget that these weapons are a part of us, that we love them like they were children of flesh and salt. And what parent doesn't know their offspring inside out?"\n\n\n"
+        1 string data = ""しかし彼らは忘れています、これらの武器は私たちの一部であり、肉と塩の子供のように愛していることを。そして親が自分の子供を裏も表も知らないなんてことがありますか？""\n\n\n"
        [46]
-        1 string data = ""Interesting work you're doing here. Could we help with any projects that have you stumped?""
+        1 string data = ""ここで興味深い仕事をしていますね。行き詰まっているプロジェクトはありませんか？""
        [47]
-        1 string data = ""You know your information best.""
+        1 string data = ""あなたの情報が一番です。""
        [48]
-        1 string data = ""We've heard grand things about your [WEIRD WEAPON.] Could you give us a demonstration?""
+        1 string data = ""あなたの[奇妙な武器]について素晴らしい話を聞きました。デモンストレーションしてもらえますか？""
        [49]
-        1 string data = ""Connoisseurs in the Bizarre. What a rare treat. Of course, it'd take me a minute to prepare.""
+        1 string data = ""ビザールに通な方が。珍しいご馳走ですね。もちろん、準備に少し時間がかかりますが。""
        [50]
-        1 string data = ""Any chance you have a Jigowatt Condensor?""
+        1 string data = ""ジゴワットコンデンサはありますか？""
        [51]
-        1 string data = ""You'd be amazed as to what we DON'T have for sale. The part will cost you [Global: o2001_Condensor_Price] bucks. These kind of things don't come cheap.""
+        1 string data = ""私たちが販売していないものに驚くでしょう。その部品は[Global: o2001_Condensor_Price]ドルかかります。こういうものは安くありません。""
        [52]
-        1 string data = ""So noted. We won't intrude on your privacy any longer. Let's talk about something else.""
+        1 string data = ""了解しました。これ以上プライバシーを侵すのはやめましょう。別の話をしましょう。""
        [53]
-        1 string data = ""No doubt. Many have, in fact, fled these walls. But those of us who remain? We are here because the steel calls to us. Because this is our devotional, our art. There is no bravery involved here. There is only the work.""
+        1 string data = ""間違いありません。実際、多くの者がこの壁から逃げ出しました。しかし残った私たちは？鋼が私たちを呼ぶからここにいます。これが私たちの信仰、私たちの芸術だからです。ここに勇気は関係ありません。仕事があるだけです。""
        [54]
         1 string data = ""
        [55]
-        1 string data = "She inclines her head in response, a smile gashing her face apart."
+        1 string data = "彼女は返答として頭を傾け、笑顔が顔を切り裂く。"
        [56]
-        1 string data = ""Would it now? I suppose you may be right. You wouldn't be interested in assisting me, would you? My staff are ... preoccupied with their own pursuits, and I am always in need of a pair of eyes." \r\n\r\nHer mangled smile is a little sly, a little dangerous."
+        1 string data = ""そうでしょうか？あなたが正しいかもしれませんね。私を手伝う気はありませんか？スタッフは...自分の追求に夢中で、私はいつも一対の目が必要なのです。""\r\n\r\n彼女の傷だらけの笑顔は少し狡猾で、少し危険だ。"
        [57]
         1 string data = ""
        [58]
-        1 string data = ""That's fine. We'll take it.""
+        1 string data = ""結構です。買います。""
        [59]
-        1 string data = " Simulate turn in of Crossword Gang Book"
+        1 string data = ""クロスワード・ギャングの本を渡すシミュレーション""
        [60]
-        1 string data = " Recieve reward."
+        1 string data = ""報酬を受け取る。""
        [61]
-        1 string data = ""How did you know we're strangers?""
+        1 string data = ""どうして私たちがよそ者だと分かったのですか？""
        [62]
-        1 string data = ""The regulars know where to put their feet. You sound like oxen let loose in a china shop."\n\n\nA smile cracks her weathered face."
+        1 string data = ""常連は足の置き場を知っています。あなたたちは陶器店に放たれた牛のように聞こえます。""\n\n\n笑顔が彼女の風化した顔に亀裂を入れる。"
        [63]
-        1 string data = ""Those scars... Are they from your work with weapons?""
+        1 string data = ""その傷跡は...武器の仕事によるものですか？""
        [64]
-        1 string data = ""Have you ever loved something so deeply that it gouges loose all the fears you might have possessed? If so, you would know what these scars are. Benediction. Sanctification.""
+        1 string data = ""何かを深く愛したことがありますか、持っていたすべての恐怖を抉り取るほどに？もしあれば、これらの傷跡が何か分かるでしょう。祝福。聖別。""
        [65]
-        1 string data = ""We've got some information that may be of interest to you. The Crossword Gang's targeting your shop.""
+        1 string data = ""興味深い情報があります。クロスワード・ギャングがあなたの店を狙っています。""
        [66]
-        1 string data = ""I see. Well, I thank you for the report, but I'm not worried. So many have tried over the years. None have succeeded. They all make the same mistake. They see the wheelchairs, the scarred faces, and think, 'This will be easy.'"\r\n\r\nShe barks a clear, pleasant laugh, one at odds with the subject matter. \r\n"
+        1 string data = ""なるほど。ええ、報告には感謝しますが、心配していません。何年もの間、多くの者が試みました。誰も成功していません。みんな同じ過ちを犯します。車椅子と傷だらけの顔を見て、『これは簡単だ』と思うのです。""\r\n\r\n彼女は明るく心地よい笑い声を上げた、この話題には似つかわしくない。\r\n"
        [67]
-        1 string data = ""Be careful. It is an unkind world.""
+        1 string data = ""気をつけて。不親切な世界です。""
        [68]
-        1 string data = "\n"But they forget that these weapons are a part of us, that we love them like they were children of flesh and salt. And what parent doesn't know their offspring inside out?"\n"
+        1 string data = "\n""しかし彼らは忘れています、これらの武器は私たちの一部であり、肉と塩の子供のように愛していることを。そして親が自分の子供を裏も表も知らないなんてことがありますか？""\n"
        [69]
-        1 string data = ""Help? Hmm. I suppose there is an order I need assistance with. Yes, I can use your help. There is a weapon on the bench just waiting to provide its blessing to the needy.""
+        1 string data = ""手伝い？ふむ。手伝ってもらいたい仕事があるかもしれません。はい、あなたの助けが使えます。ベンチに武器があって、困っている人に祝福を与えるのを待っています。""
        [70]
-        1 string data = ""Ah. The pain does not last. And the scars? Those are blessings. They are a record of your dedication, proof you are strong enough to rise above the fears of the flesh."\n\n\n"A reward that fits your efforts - keep the weapon, with my blessings.""
+        1 string data = ""ああ。痛みは長続きしません。そして傷跡は？それらは祝福です。あなたの献身の記録であり、肉体の恐怖を超えて立ち上がるのに十分な強さを持っている証拠です。""\n\n\n""あなたの努力にふさわしい報酬 - この武器を、私の祝福と共に持っていってください。""
        [71]
-        1 string data = ""Show us what you've got for sale.""
+        1 string data = ""販売品を見せてください。""
        [72]
-        1 string data = ""Certainly.""
+        1 string data = ""もちろんです。""
        [73]
-        1 string data = ""We'll take it.""
+        1 string data = ""買います。""
        [74]
-        1 string data = ""Any chance you'd consider selling it to us for a cheaper price?""
+        1 string data = ""もっと安い価格で売ることを考えてもらえますか？""
        [75]
-        1 string data = ""We'll get back to you on that.""
+        1 string data = ""また検討します。""
        [76]
-        1 string data = ""I suppose it couldn't hurt. It is rare to have cogniscenti in the Bizarre. We might as well celebrate this rare pleasure. How about [Global: o2001_Condensor_Price] bucks?"\n\n\n"
+        1 string data = ""悪くないでしょう。ビザールに通な方がいるのは珍しい。この珍しい喜びを祝いましょう。[Global: o2001_Condensor_Price]ドルでどうです？""\n\n\n"
        [77]
-        1 string data = ""It was a pleasure doing business. I hope your new acquisition will serve your purposes well.""
+        1 string data = ""取引は楽しかったです。新しい品があなたの目的によく役立つことを願います。""
        [78]
-        1 string data = "A smile gashes her mangled face, but she offers no commentary on your decision."
+        1 string data = "笑顔が彼女の傷だらけの顔を切り裂くが、あなたの決定について何も言わない。"
        [79]
-        1 string data = ""We heard stories that you're in possession of a multi-chamber blast cannon. Could we have a demonstration?""
+        1 string data = ""多連装爆破砲を持っているという話を聞きました。デモンストレーションをお願いできますか？""
        [80]
-        1 string data = ""Aaaah. Connoisseurs. Such a rare pleasure in the Bizarre. Of course. Give me a moment to set up." \r\n\r\nShe wheels herself deeper into the store. "
+        1 string data = ""ああああ。通ですね。ビザールではとても珍しい喜びです。もちろんです。準備に少し時間をください。""\r\n\r\n彼女は車椅子で店の奥へと進む。"
        [81]
-        1 string data = ""Here. Watch this." \r\n\r\nThe Sanctified Piscitelli attends to the weapon like a harpist, fingers deft. The demonstration is balletic, an elegant performance that contrasts the bloodthirsty nature of the subject. When she finishes, she puts the weapon aside and gives you a curious look."
+        1 string data = ""ここです。これを見てください。""\r\n\r\n聖別されたピシテリはハープ奏者のように武器を扱い、指は器用だ。デモンストレーションはバレエのようで、対象の血に飢えた性質とは対照的なエレガントなパフォーマンスだ。終わると、彼女は武器を脇に置き、好奇心に満ちた視線を向ける。"
        [82]
-        1 string data = ""Anyway, I do appreciate the trouble you went through to get this information to me so please, take this weapon. And do be careful, it is very powerful.""
+        1 string data = ""とにかく、この情報を私に届けるために苦労してくれたことに感謝します。この武器を受け取ってください。そして気をつけて、とても強力ですから。""
        [83]
-        1 string data = "The woman has scars all over her body, marks that speak of acid burns and shrapnel damage. Her eyes are scarred and blind, yet she turns to you as you approach."
+        1 string data = "女性の体中に傷跡があり、酸による火傷と破片のダメージを物語る跡だ。彼女の目は傷つき盲目だが、あなたが近づくと振り向く。"
        [84]
-        1 string data = ""Word spreads that your actions saved the Bizarre, or at least brought us some measure of peace once more. Our gratitude is yours.""
+        1 string data = ""あなたの行動がビザールを救った、少なくとも再び平和をもたらしたという噂が広がっています。私たちの感謝をあなたに。""
        [85]
-        1 string data = ""Heartbeats that I don't recognize. Come closer, strangers. The Sanctified Piscitelli crafts weapons of all sorts for those in need, and she can read that you are very much in need.""
+        1 string data = ""知らない鼓動が聞こえます。近づいてください、よそ者さん。聖別されたピシテリは困っている人のためにあらゆる種類の武器を作ります、そしてあなたがとても困っているのが分かります。""
        [86]
-        1 string data = "The Sanctified Piscitelli leads you to a workbench with an unusual-looking pistol on it. You work on it for several hours. Piscitelli's tools are unusual, emanating a scorching heat that leaves your arms marked by burns. Piscitelli nods approvingly at this development."
+        1 string data = "聖別されたピシテリはあなたを、珍しい見た目のピストルが置かれた作業台へ導く。あなたは数時間それに取り組む。ピシテリの道具は珍しく、焼けるような熱を発し、あなたの腕に火傷の跡を残す。ピシテリはこの展開を承認するように頷く。"
        [87]
-        1 string data = ""We'll be happy to help.""
+        1 string data = ""喜んで手伝います。""
        [88]
-        1 string data = ""Is it safe?""
+        1 string data = ""安全ですか？""
        [89]
-        1 string data = ""Maybe another time.""
+        1 string data = ""また今度にします。""
        [90]
-        1 string data = ""Tsssk. 'Safe?' You will never feel the blessing of being truly one with your craft if you are concerned with such things. Safe. Hah.""
+        1 string data = ""チッ。『安全』ですって？そんなことを気にしていたら、自分の技術と真に一体になる祝福を決して感じられませんよ。安全だって。ハッ。""
        [91]
-        1 string data = ""Can we help you with that weapon now?""
+        1 string data = ""今その武器を手伝えますか？""
        [92]
-        1 string data = ""Yes. It slumbers, awaiting your touch to unleash its sanctification.""
+        1 string data = ""はい。眠っています、あなたの手が聖別を解き放つのを待っています。""
        [93]
-        1 string data = ""As you wish. It awaits.""
+        1 string data = ""お望みのままに。待っています。""
        [94]
         1 string data = ""
        [95]
-        1 string data = ""Guns, sanctified with blood. Blood, sanctified by guns.""
+        1 string data = ""銃は血で聖別され、血は銃で聖別される。""
        [96]
-        1 string data = ""You will not find finer weaponry elsewhere.""
+        1 string data = ""他では見つからないほど素晴らしい武器です。""
        [97]
-        1 string data = ""The finest weaponry can be purchased from the Sanctified.""
+        1 string data = ""最高の武器は聖別された者から購入できます。""
        [98]
-        1 string data = ""I hear the sanctified footsteps of the Rangers. Greetings.""
+        1 string data = ""レンジャーズの聖なる足音が聞こえます。ご挨拶を。""
        [99]
-        1 string data = ""You showed great wisdom in saving this place, Rangers. My weapons' song has been joyful.""
+        1 string data = ""この場所を救うことで素晴らしい知恵を示しましたね、レンジャーズ。私の武器の歌は喜びに満ちています。""
        [100]
         1 string data = "Script Node 112"
        [101]
-        1 string data = ""You seek my benediction? Very well. Prove yourself worthy.""
+        1 string data = ""私の祝福を求めますか？よろしい。自分の価値を証明してください。""
        [102]
-        1 string data = ""Ah! You wish to test your worthiness! I am pleased.""
+        1 string data = ""ああ！自分の価値を試したいのですね！嬉しいです。""
        [103]
-        1 string data = ""Sanctity is in the blood. Show me your worth.""
+        1 string data = ""聖性は血の中にあります。私にあなたの価値を示してください。""
        [104]
-        1 string data = ""Shit lady, what's been eating you?"\n\n\nThe woman either did not hear or chose to ignore your companion's remark."
+        1 string data = ""クソババア、何がお前を食ってんだ？""\n\n\n女性は聞こえなかったか、あるいは仲間の発言を無視することを選んだ。"
        [105]
-        1 string data = ""The same foolishness that inhabits your thoughts, the hubris of believing in one truth. Certainty is the path to losing everything. Yet, I hear strength in your approach...""
+        1 string data = ""あなたの思考に住む同じ愚かさ、一つの真実を信じることの傲慢さです。確信は全てを失う道です。しかし、あなたのアプローチには強さが聞こえます...""
    [1263]
     0 StringTable data
      1 string Filename = "o2001_sarahgunns"
@@ -374854,29 +374854,29 @@
       1 Array Array (15 items)
        0 int size = 15
        [0]
-        1 string data = ""Come with me if you want to know what true pleasure is about.""
+        1 string data = ""真の快楽が何か知りたければ、私についてきて。""
        [1]
-        1 string data = ""We're here to stop the end of celibacy.""
+        1 string data = ""独身の終わりを止めに来たの。""
        [2]
-        1 string data = ""There are 215 bones in your body. Let's give attention to <i>that</i> one.""
+        1 string data = ""あなたの体には215本の骨がある。<i>あの</i>一本に注目しましょう。""
        [3]
-        1 string data = ""I'll be back, front, whichever way you need me.""
+        1 string data = ""戻ってくるわ、正面から、どちらでもあなたの望むように。""
        [4]
         1 string data = ""
        [5]
         1 string data = ""
        [6]
-        1 string data = ""Leave me alone! I haven't done anything!""
+        1 string data = ""放っておいて！何もしてないわ！""
        [7]
-        1 string data = ""Check out these guns. Yeah, unf.""
+        1 string data = ""この筋肉をチェックして。イエー、んふっ。""
        [8]
-        1 string data = ""Skynet couldn't have predicated this coming.""
+        1 string data = ""スカイネットだってこれは予測できなかったでしょう。""
        [9]
-        1 string data = ""It is said that the orgasm of one person is the orgasm of the entire world.""
+        1 string data = ""一人のオーガズムは全世界のオーガズムだと言われているわ。""
        [10]
-        1 string data = ""T-Minus sexy...""
+        1 string data = ""Tマイナス・セクシー...""
        [11]
-        1 string data = ""I've come from the future to excite the past.""
+        1 string data = ""過去を刺激するために未来から来たの。""
        [12]
         1 string data = ""
        [13]
@@ -374980,47 +374980,47 @@
       1 Array Array (21 items)
        0 int size = 21
        [0]
-        1 string data = " Intro"
+        1 string data = ""イントロ""
        [1]
-        1 string data = " View Debug Options"
+        1 string data = ""デバッグオプションを表示""
        [2]
-        1 string data = " Selecta a Debug Option."
+        1 string data = ""デバッグオプションを選択。""
        [3]
-        1 string data = " Read data entries"
+        1 string data = ""データエントリを読む""
        [4]
-        1 string data = " You learn the robot's directives."
+        1 string data = ""ロボットの指令を学んだ。""
        [5]
-        1 string data = " Exit"
+        1 string data = ""退出""
        [6]
-        1 string data = "The robot slumps in place, eaten by rust, almost lifeless save for the faint pinpoint glow of its pupils."
+        1 string data = "ロボットはその場で崩れ落ちており、錆に侵されて、瞳のかすかな光点以外はほとんど生命がない。"
        [7]
-        1 string data = "Try to fix the robot."
+        1 string data = "ロボットを修理しようとする。"
        [8]
-        1 string data = ""Hey. You functional?""
+        1 string data = ""おい。機能してるか？""
        [9]
-        1 string data = "Leave."
+        1 string data = "立ち去る。"
        [10]
-        1 string data = "It clacks in reply, an uneven staccato noise, its head twitching like a clockwork bird that has forgotten the trick of realism.\n\n\nA hiss of black smoke unravels from the panelling of its throat."
+        1 string data = "カチカチと返事をする、不均一な断続音で、頭は現実感の技を忘れた機械仕掛けの鳥のように痙攣する。\n\n\n喉のパネルから黒煙がシューッと立ち上る。"
        [11]
-        1 string data = "For a moment, the machine comes to a mockery of staggering life, hissing, rusted pistons creaking within its carapace. Then it sags back on its pedestal, clearly beyond salvaging. However, it did shift slightly, allowing you a closer look at its parts."
+        1 string data = "一瞬、機械はよろめく生命の模造品のようになり、シューッという音を立て、錆びたピストンが外装内で軋む。それから台座に戻って垂れ下がり、明らかに修理不可能だ。しかし、わずかに動いて、部品をより近くで見ることができた。"
        [12]
-        1 string data = "Inspect the machine's legs."
+        1 string data = "機械の脚を調べる。"
        [13]
-        1 string data = "Learn what you can from its carapace."
+        1 string data = "外装から学べることを学ぶ。"
        [14]
-        1 string data = "Move away."
+        1 string data = "離れる。"
        [15]
-        1 string data = "The limbs are a madness of gunshot wounds and blunt trauma - evidence, perhaps, of encounters with raiders and whatever else haunts the wastelands."
+        1 string data = "四肢は銃創と鈍器外傷だらけだ - おそらく、レイダーやウェイストランドに潜む何かとの遭遇の証拠だ。"
        [16]
-        1 string data = "An inscription on the back of the robot reveals its serial number and place of origin. This Slicer Dicer came all the way from Arizona.\n\n\nYou also find some words scratched into robot's chassis, possibly by one of its own blades: 'Cochise is dead. I am free.'"
+        1 string data = "ロボットの背面の刻印がシリアル番号と原産地を明かしている。このスライサー・ダイサーははるばるアリゾナからやってきた。\n\n\nまた、ロボットの筐体に刻まれた言葉も見つかる、おそらく自分の刃の一つで：『コチースは死んだ。私は自由だ。』"
        [17]
-        1 string data = ""B-ba-bandits. I had gone too far from the airport. They c-ca-caught me. Send me back." It shudders once, a full-body convulsion, and slips to silence again."
+        1 string data = ""ば、ばば、盗賊。空港から遠くへ行きすぎた。やつらに捕ま、ままま、捕まった。送り返してくれ。"" 一度震え、全身の痙攣、そして再び沈黙に滑り込む。"
        [18]
-        1 string data = "A low, static hiss follows your retreat."
+        1 string data = "低い静電気のシューッという音があなたの後退に続く。"
        [19]
-        1 string data = "Kick the robot."
+        1 string data = "ロボットを蹴る。"
        [20]
-        1 string data = "The machine scissors forward at the blow, sudden and savage, shoulders rolling. Somewhere in the circuitry of its brain, it probably still believes it has arms and blades."
+        1 string data = "機械は打撃に対してハサミのように前に飛び出す、突然で野蛮に、肩を回しながら。脳の回路のどこかで、おそらくまだ腕と刃があると信じている。"
    [1265]
     0 StringTable data
      1 string Filename = "o2001_stripper_gildedbert"
@@ -375088,23 +375088,23 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = ""You know you want this. C'mon! Just admit it!""
+        1 string data = ""これが欲しいって分かってるだろう。さあ！認めろよ！""
        [2]
-        1 string data = ""Just try to imagine me whispering sweet nothings in your ear.""
+        1 string data = ""耳元で甘い言葉を囁く俺を想像してみろよ。""
        [3]
-        1 string data = ""Can we be honest here? This right here is the man of your dreams.""
+        1 string data = ""正直になろうぜ？ここにいるのがお前の夢の男だ。""
        [4]
-        1 string data = ""There once was a man from Pawtucket / and for a buck and a half / you can fuck it.""
+        1 string data = ""ポータケットの男が昔いて / 1ドル半で / やれるんだぜ。""
        [5]
-        1 string data = ""I just want you to know, what you see right here is yours for the taking.""
+        1 string data = ""知っておいてほしいんだ、ここで見てるものは全部お前のものだって。""
        [6]
-        1 string data = ""Look, ladies, try not to pile on me all at once.""
+        1 string data = ""見ろよレディたち、一度に俺に殺到しないでくれよ。""
        [7]
-        1 string data = ""Let's not split pubic hairs here. This is the man you want.""
+        1 string data = ""細かいことは気にすんな。これがお前の欲しい男だ。""
        [8]
-        1 string data = ""Would you believe it? Ten years of dancing lessons down the drain.""
+        1 string data = ""信じられるか？10年間のダンスレッスンが無駄になったぜ。""
        [9]
-        1 string data = ""This is crazy! I'm a lover, not fuckin' Rambo!""
+        1 string data = ""マジかよ！俺は愛の人だ、クソランボーじゃねえ！""
        [10]
         1 string data = ""
        [11]
@@ -375182,25 +375182,25 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = ""I want you to hold me between your legs.""
+        1 string data = ""あなたの脚の間に私を抱いてほしいの。""
        [2]
-        1 string data = ""Wait until you get a load of my wonderful toys.""
+        1 string data = ""私の素晴らしいおもちゃをたっぷり味わうまで待ってて。""
        [3]
-        1 string data = ""Heeeeere's Jaxie.""
+        1 string data = ""ジャクシーの登場よぉぉぉ。""
        [4]
-        1 string data = ""You want some of this? You can't handle some of this!""
+        1 string data = ""これが欲しいの？あなたには扱えないわよ！""
        [5]
-        1 string data = ""Not gonna screw ya. I'm just gonna dance your brains in!""
+        1 string data = ""やらせないわ。あなたの脳みそを踊らせるだけ！""
        [6]
-        1 string data = ""Ever dance with Jaxie in the pale moonlight?""
+        1 string data = ""淡い月明かりの中でジャクシーと踊ったことある？""
        [7]
-        1 string data = ""How would you like to tap my carnal knowledge?""
+        1 string data = ""私の肉欲の知識を掘り下げてみたい？""
        [8]
-        1 string data = ""You know sweetheart? How would you like a few good men?""
+        1 string data = ""ねえダーリン？優秀な男たちが何人か欲しくない？""
        [9]
-        1 string data = ""Just keep in mind, darling. I always ring twice.""
+        1 string data = ""覚えておいてね、ダーリン。私はいつも2回鳴らすの。""
        [10]
-        1 string data = ""Are you a bunch of crazies or something? Well, you are fuckin' crazy!""
+        1 string data = ""あんたたちキチガイの集まりか何か？まあ、クソキチガイだわね！""
        [11]
         1 string data = ""
        [12]
@@ -375352,23 +375352,23 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = ""There's a new sheriff of sexyville in town, ladies" ::laughs::"
+        1 string data = ""町にセクシービルの新しい保安官が来たぜ、レディたち"" ::laughs::"
        [2]
-        1 string data = ""Yeah, I know. How can I contain all this sexiness?" ::laughs::"
+        1 string data = ""ああ、分かってる。このセクシーさをどう抑えればいいんだ？"" ::laughs::"
        [3]
-        1 string data = ""Well when you're a man as sexy as I am, you always gotta fight off the ladies." ::laughs::"
+        1 string data = ""まあ俺みたいにセクシーな男だと、いつも女たちを追い払わなきゃならないんだ。"" ::laughs::"
        [4]
-        1 string data = ""All right, so which one of you lovely chickies would like to go a few rounds with this stud muffin?" ::laughs::"
+        1 string data = ""さて、可愛い小鳥ちゃんたち、このスタッド・マフィンと数ラウンドやりたいのは誰だい？"" ::laughs::"
        [5]
-        1 string data = ""What you're looking at here ladies is a man that can rock your world." ::laughs::"
+        1 string data = ""レディたち、ここで見てるのはお前らの世界を揺らせる男だぜ。"" ::laughs::"
        [6]
-        1 string data = ""You know you haven't lived until you've climbed aboard Barnes' nightstick." ::laughs::"
+        1 string data = ""バーンズの警棒に乗るまでは生きたことにならないって知ってるだろう？"" ::laughs::"
        [7]
-        1 string data = ""I tell you what, once you been deputized by me, you'll be spoiled for life." ::laughs::"
+        1 string data = ""言っとくが、一度俺に代理任命されたら、一生甘やかされるぜ。"" ::laughs::"
        [8]
-        1 string data = ""Yup, yup, yup. I got a tongue designed for every orifice of your body." ::laughs::"
+        1 string data = ""そうそうそう。お前の体のあらゆる穴に合わせて設計された舌を持ってるぜ。"" ::laughs::"
        [9]
-        1 string data = ""What's going on here? You're all under arrest! Don't make me pull out my bullet!""
+        1 string data = ""ここで何が起きてる？全員逮捕だ！銃弾を抜かせるなよ！""
        [10]
         1 string data = ""
        [11]
@@ -375438,19 +375438,19 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = ""I have a boner, daddy." ::laughs::"
+        1 string data = ""勃起してるよ、パパ。"" ::laughs::"
        [2]
-        1 string data = ""Hey! I'm trying to use the pole!" ::laughs::"
+        1 string data = ""おい！ポールを使おうとしてるんだ！"" ::laughs::"
        [3]
-        1 string data = ""Go ahead take a picture, it'll last longer!" ::laughs::"
+        1 string data = ""さあ写真撮って、長持ちするぜ！"" ::laughs::"
        [4]
-        1 string data = ""I know you want me but what am I. I know you want me but what am I." ::laughs::"
+        1 string data = ""俺が欲しいって分かってるだろうけど、俺って何だ。俺が欲しいって分かってるだろうけど、俺って何だ。"" ::laughs::"
        [5]
-        1 string data = ""How about sucking a few tequila shots from my belly button? It's an innie!" ::laughs::"
+        1 string data = ""俺のヘソからテキーラショットを何発か吸ってみたら？デベソじゃないぜ！"" ::laughs::"
        [6]
-        1 string data = ""La la la. Lalalala!" ::laughs::"
+        1 string data = ""ラララ。ラララララ！"" ::laughs::"
        [7]
-        1 string data = ""Let's play spin the bottle... but you won't believe how I use the bottle!" ::laughs::"
+        1 string data = ""ボトル回しをしよう...でも俺がボトルをどう使うか信じられないぜ！"" ::laughs::"
        [8]
         1 string data = "::weird laugh::"
        [9]
@@ -375522,21 +375522,21 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = ""Let me zip this down... so you can say hello to my little friend!""
+        1 string data = ""これを下ろさせてくれ...そうすれば俺のリトル・フレンドに挨拶できるぜ！""
        [2]
-        1 string data = ""Just when I think I'm out, you can put me back in.""
+        1 string data = ""もう抜けると思ったら、お前がまた入れてくれるんだ。""
        [3]
-        1 string data = ""Forget about it? Forget about it?! I'll give you something you'll never forget.""
+        1 string data = ""忘れろって？忘れろって？！絶対忘れられないものをやるぜ。""
        [4]
-        1 string data = ""Hoo-ah. Who's your daddy?""
+        1 string data = ""フーアー。誰がお前のパパだ？""
        [5]
-        1 string data = ""Do I detect the scent of a woman?""
+        1 string data = ""女の匂いを感じるか？""
        [6]
-        1 string data = ""Fuck with me? You fuckin' with the best.""
+        1 string data = ""俺とやるのか？最高とやるんだぜ。""
        [7]
-        1 string data = ""Stripping is the family business. Starting with my Godfather.""
+        1 string data = ""ストリップは家業だ。ゴッドファーザーから始まってな。""
        [8]
-        1 string data = ""You're out of order. You're out of order! This whole goddamn strip club is out of order!""
+        1 string data = ""お前が間違ってる。お前が間違ってる！このクソストリップクラブ全体が間違ってる！""
        [9]
         1 string data = ""
        [10]
@@ -375612,21 +375612,21 @@
       1 Array Array (14 items)
        0 int size = 14
        [0]
-        1 string data = ""Push it. Push it. Unf. Push it and I'll give it like you won't believe.""
+        1 string data = ""押せ。押せ。んふ。押せば信じられないほどやってやる。""
        [1]
-        1 string data = ""To survive sex, you gotta become... sex.""
+        1 string data = ""セックスで生き残るには、セックスになる必要がある...""
        [2]
-        1 string data = ""I want what they want and every other guy who came over here and spilled his jizz.""
+        1 string data = ""彼らが欲しいものが欲しい、そしてここに来て精液をこぼした他の全ての男が欲しいものが。""
        [3]
-        1 string data = ""Anyone of you boys want to touch, now's the time.""
+        1 string data = ""お前ら男の中で触りたい奴、今がその時だ。""
        [4]
-        1 string data = ""You can't get this American alone. I only like when there's... company.""
+        1 string data = ""このアメリカ人を一人では手に入れられない。俺は...仲間がいる時だけが好きなんだ。""
        [5]
         1 string data = "::dances::"
        [6]
-        1 string data = ""In the bar, you're law. Out in the bedroom, it's me.""
+        1 string data = ""バーでは、お前が法だ。寝室では、俺だ。""
        [7]
-        1 string data = ""When you're pushed, anything's as easy as breathing.""
+        1 string data = ""押されたら、何でも呼吸するのと同じくらい簡単だ。""
        [8]
         1 string data = ""
        [9]
@@ -375700,29 +375700,29 @@
       1 Array Array (12 items)
        0 int size = 12
        [0]
-        1 string data = " To Valhalla!"
+        1 string data = ""ヴァルハラへ！""
        [1]
-        1 string data = ""Don't embarrass yourself with trickery. Loki has taught us to see through all lies.""
+        1 string data = ""策略で自分を恥ずかしめるな。ロキは我々にあらゆる嘘を見抜くことを教えてくれた。""
        [2]
-        1 string data = ""I can see you thinking of how clever you can be. Stop. You'll only regret it.""
+        1 string data = ""お前がどれだけ賢くなれるか考えているのが見える。やめろ。後悔するだけだ。""
        [3]
-        1 string data = ""There is nowhere you can go in the Bizarre that is safe from us. So play nice, pup.""
+        1 string data = ""ビザールのどこに行こうとも我々から安全な場所はない。だからいい子にしてろ、子犬。""
        [4]
-        1 string data = ""Tread carefully. I've left surprises through the Bizarre.""
+        1 string data = ""慎重に歩め。ビザール中にサプライズを仕掛けておいた。""
        [5]
-        1 string data = ""Keep your heads low and bellies bared. Do not forget who rules here.""
+        1 string data = ""頭を低く、腹を見せておけ。ここを支配しているのは誰か忘れるな。""
        [6]
-        1 string data = ""No matter how far you run, my gun will find you. Don't make me prove it.""
+        1 string data = ""どれだけ遠くに逃げても、俺の銃がお前を見つける。証明させるな。""
        [7]
-        1 string data = ""Which do you think is faster? The bullet or the idiot who thinks he might outpace it?""
+        1 string data = ""どっちが速いと思う？弾丸か、それとも追い抜けると思ってる馬鹿か？""
        [8]
-        1 string data = ""Little pup, don't even try.""
+        1 string data = ""子犬め、試すな。""
        [9]
         1 string data = ""
        [10]
         1 string data = ""
        [11]
-        1 string data = ""Brothers! You should have heard their screams. Louder than Ymir himself.""
+        1 string data = ""兄弟たちよ！やつらの悲鳴を聞くべきだった。ユミル自身より大きかった。""
    [1273]
     0 StringTable data
      1 string Filename = "o2001_vrdevice"
