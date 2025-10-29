@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 372588,
-      "entries_completed": 51948,
+      "current_line": 374001,
+      "entries_completed": 52179,
       "status": "in_progress",
-      "note": "Lines 370914-372588: o2001_odinkirkleader complete (8 entries), o2001_pareidoliajones complete (105 entries), o2001_parishandler complete (13 entries), o2001_patron_armorshopa complete (8 entries), o2001_patron_armorshopb complete (9 entries), o2001_patron_bar complete (6 entries), o2001_patron_fountain_a complete (16 entries), o2001_patron_fountain_b complete (14 entries), o2001_patron_fountain_c complete (14 entries), o2001_patron_fountain_d complete (14 entries), o2001_patron_gunshop complete (14 entries), o2001_patron_hospital complete (7 entries), o2001_patron_pathing_a complete (7 entries), o2001_patron_pathing_b complete (7 entries), o2001_patron_pathing_c complete (7 entries); total session: 249 entries"
+      "note": "Lines 372588-374001: o2001_quarex complete (135 entries - Quarex dialogue), o2001_randygett complete (96 entries - Randy Gett dialogue); total session: 231 entries"
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -39,9 +39,9 @@
     }
   },
   "last_commit_hash": "6858a8f",
-  "total_entries_completed": 51948,
+  "total_entries_completed": 52179,
   "estimated_total_entries": 71992,
-  "next_action": "Continue from line 372588 (next section: o2001_quarex - 135 entries - Quarex dialogue)",
+  "next_action": "Continue from line 374001 (next section: o2001_rangerguards - 10 entries)",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
