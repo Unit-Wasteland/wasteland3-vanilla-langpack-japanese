@@ -11873,17 +11873,17 @@
       1 Array Array (183 items)
        0 int size = 183
        [0]
-        1 string data = " Sir?"
+        1 string data = "" サー？""
        [1]
-        1 string data = " I AM IN DBEUG MODE"
+        1 string data = "" デバッグモードです""
        [2]
-        1 string data = " What can i do for you?"
+        1 string data = "" 何かお手伝いできますか？""
        [3]
-        1 string data = " Show me your inventory"
+        1 string data = "" インベントリを見せてください""
        [4]
-        1 string data = " You got it"
+        1 string data = "" 承知しました""
        [5]
-        1 string data = " Farewell"
+        1 string data = "" さようなら""
        [6]
         1 string data = ""へい！俺はジョーイ・バゴドナッツだ。""
        [7]
@@ -28471,31 +28471,31 @@
       1 Array Array (17 items)
        0 int size = 17
        [0]
-        1 string data = " Hi again Rangers. You remember me right? Sonny Jim, from the Bizarre. As promised, I'm here as a liason to help you run the Bizarre."
+        1 string data = "" またお会いしましたね、レンジャーズ。覚えていますよね?ビザールのソニー・ジムです。約束通り、ビザールの運営をお手伝いする連絡係としてここにいます。""
        [1]
-        1 string data = " How can I help you?"
+        1 string data = "" 何かお手伝いできることはありますか?""
        [2]
-        1 string data = " See you!"
+        1 string data = "" では!""
        [3]
-        1 string data = "Status Report"
+        1 string data = ""状況報告""
        [4]
-        1 string data = "Tell me about yourself"
+        1 string data = ""自己紹介してくれ""
        [5]
-        1 string data = "Goodbye"
+        1 string data = ""さようなら""
        [6]
-        1 string data = " Business as usual at the Bizarre. No payouts ready yet, I'm still crunching the numbers."
+        1 string data = "" ビザールはいつも通りの営業です。まだ支払い準備はできていません、数字を計算中です。""
        [7]
-        1 string data = " I was a trainee in the Monster Army. I used to be an accountant in the old times, but Flab said he didn't need an accountant. They started me off in a low level position shoveling pig shit in the Safe Warrens."
+        1 string data = "" 私はモンスター・アーミーの訓練生でした。昔は会計士をしていたんですが、フラブが会計士は必要ないと言いました。セーフ・ウォーレンズで豚の糞を掃除する下っ端から始めました。""
        [8]
-        1 string data = " When I heard the commotion upstairs I took off my mask and went into hiding with the merchants. "
+        1 string data = "" 上階で騒ぎが起きたのを聞いて、マスクを外して商人たちと一緒に隠れました。""
        [9]
-        1 string data = " I'm a little worried something is wrong at the Bizarre. I keep trying to contact them but no one seems to answer. I'll keep trying I guess."
+        1 string data = "" ビザールで何か問題が起きているのではないかと少し心配しています。連絡を取ろうとしているんですが、誰も応答してくれません。引き続き試してみます。""
        [10]
-        1 string data = "How are you going to help me"
+        1 string data = ""どうやって私を助けてくれるんだ""
        [11]
-        1 string data = " As the liason, I will make sure the Merchants are happy. Same goes for the patrons. I'll keep the cash flowing so we can keep the power and the heat running. And of course, I will make sure all the merchant dues and entrance fee profits  fill up your pockets."
+        1 string data = "" 連絡係として、商人たちが満足するよう確認します。客も同様です。電力と暖房を維持できるよう資金を流し続けます。そしてもちろん、商人からの使用料と入場料の利益があなたのポケットに入るよう確認します。""
        [12]
-        1 string data = " Business is good! I have a payout ready for you."
+        1 string data = "" 商売は順調です!支払いの準備ができています。""
        [13]
         1 string data = " これは商人からの使用料による支払いです。私たちが提供する警備と、ビザール内のプレミアムな店舗場所を使用する対価として支払われます。"
        [14]
@@ -29483,33 +29483,33 @@
       1 Array Array (39 items)
        0 int size = 39
        [0]
-        1 string data = "Scanning the display, you find an option to lower the bollards separating the garage area from the courtyard."
+        1 string data = ""ディスプレイをスキャンすると、ガレージエリアと中庭を隔てるボラードを下げるオプションが見つかる。""
        [1]
-        1 string data = "This terminal is displaying information about the base's systems. All seems normal right now."
+        1 string data = ""このターミナルは基地のシステム情報を表示している。現在のところ、すべて正常なようだ。""
        [2]
-        1 string data = "Lower the bollards."
+        1 string data = ""ボラードを下げる。""
        [3]
-        1 string data = "Step away from the terminal."
+        1 string data = ""ターミナルから離れる。""
        [4]
-        1 string data = " You walk away from the terminal."
+        1 string data = "" あなたはターミナルから離れた。""
        [5]
-        1 string data = "A progress bar says "Lowering." As the bar fills, you hear faint mechanical sounds from outside.\n\n\nThe screen announces, "Complete!" "
+        1 string data = ""プログレスバーに「降下中」と表示される。バーが満たされるにつれて、外から微かな機械音が聞こえる。\n\n\n画面が「完了!」と告げる。""
        [6]
-        1 string data = "This computer is flashing "BACKUP GENERATORS OVERLOADED" in angry red letters."
+        1 string data = ""このコンピューターは「バックアップ発電機過負荷」と怒ったような赤い文字で点滅している。""
        [7]
-        1 string data = "Initiate generator restart sequence."
+        1 string data = ""発電機再起動シーケンスを開始する。""
        [8]
-        1 string data = "This terminal is displaying information about the base's systems. As you watch, it presents a status update."
+        1 string data = ""このターミナルは基地のシステム情報を表示している。あなたが見ていると、ステータス更新が表示される。""
        [9]
-        1 string data = ""External Power Insufficient. Backup Generators Operational.""
+        1 string data = ""「外部電力不足。バックアップ発電機稼働中。」""
        [10]
-        1 string data = " "ALERT: Brig: Security Lockdown""
+        1 string data = "" 「警報:営倉:セキュリティ封鎖」""
        [11]
-        1 string data = ""ALERT: Armory: Security Lockdown""
+        1 string data = ""「警報:武器庫:セキュリティ封鎖」""
        [12]
-        1 string data = "The messages continue to cycle."
+        1 string data = ""メッセージは繰り返し表示される。""
        [13]
-        1 string data = "A command prompt launches and fills with text as the terminal coordinates with the generator. After a few moments, the prompt closes, and a display reads "Backup Generators: Normal.""
+        1 string data = ""コマンドプロンプトが起動し、ターミナルが発電機と調整を行うにつれてテキストが表示される。しばらくすると、プロンプトが閉じ、「バックアップ発電機:正常」と表示が読み取れる。""
        [14]
         1 string data = "Script Node 16"
        [15]
@@ -34095,53 +34095,53 @@
        [2]
         1 string data = "Script Node 137"
        [3]
-        1 string data = ""Brass doesn't even know we exist."\n\n\n"
+        1 string data = ""「上層部は俺たちが存在してることすら知らねえんだ」\n\n\n""
        [4]
-        1 string data = ""I can't take this shit anymore.""
+        1 string data = ""「もうこんなクソみたいな仕事は我慢できねえ」""
        [5]
-        1 string data = ""I'm this close to quitting. I swear.""
+        1 string data = ""「辞めるまであと一歩だ。マジで」""
        [6]
-        1 string data = ""What's a recruit gotta do to get fired around here?""
+        1 string data = ""「新兵がクビになるにはどうすりゃいいんだ?」""
        [7]
-        1 string data = ""Not getting paid enough for this shit.""
+        1 string data = ""「こんなクソみたいな仕事に見合う給料じゃねえ」""
        [8]
-        1 string data = ""Think the Marshals are hiring?""
+        1 string data = ""「マーシャルズは人手を探してるかな?」""
        [9]
         1 string data = "Script Node 138"
        [10]
-        1 string data = ""If it wasn't for the paycheck, I'd walk."\n\n\n"
+        1 string data = ""「給料がなきゃとっくに辞めてる」\n\n\n""
        [11]
-        1 string data = ""I've had worse jobs.""
+        1 string data = ""「もっと酷い仕事もあったしな」""
        [12]
-        1 string data = ""Guess this'll do 'til something else comes along.""
+        1 string data = ""「まあ、次の仕事が見つかるまでの繋ぎだな」""
        [13]
-        1 string data = ""Not a lot of room for advancement, is there?""
+        1 string data = ""「昇進の余地があんまりないよな?」""
        [14]
-        1 string data = ""Man, what a grind.""
+        1 string data = ""「ああ、退屈な日々だぜ」""
        [15]
         1 string data = "Script Node 139"
        [16]
-        1 string data = ""Glad I landed this job.""
+        1 string data = ""「この仕事に就けて良かった」""
        [17]
-        1 string data = ""Three hots and a cot. Can't beat it.""
+        1 string data = ""「飯と寝床が保証されてる。これ以上は望めない」""
        [18]
-        1 string data = ""Beats workin' for the Marshals.""
+        1 string data = ""「マーシャルズで働くよりはマシだ」""
        [19]
-        1 string data = ""Gonna try to get my sister a job here.""
+        1 string data = ""「姉貴にもここで仕事を見つけてやろうと思ってる」""
        [20]
-        1 string data = ""You guys are really puttin' your hearts into this place.""
+        1 string data = ""「あんたらは本当にこの場所に心血を注いでるな」""
        [21]
         1 string data = "Script Node 140"
        [22]
-        1 string data = ""We all see what you do for us. Thank you."\n\n\n"
+        1 string data = ""「皆、あんたらが俺たちのために何をしてくれてるか見てるよ。ありがとう」\n\n\n""
        [23]
-        1 string data = ""I love this place.""
+        1 string data = ""「この場所が大好きだ」""
        [24]
-        1 string data = ""Another day in paradise.""
+        1 string data = ""「楽園のような日々だ」""
        [25]
-        1 string data = ""Best job ever.""
+        1 string data = ""「最高の仕事だ」""
        [26]
-        1 string data = ""We're doing important work here.""
+        1 string data = ""「俺たちは重要な仕事をしてるんだ」""
        [27]
         1 string data = "Script Node 141"
        [28]
@@ -530214,45 +530214,45 @@
       1 Array Array (20 items)
        0 int size = 20
        [0]
-        1 string data = "Daddy's Little Secret"
+        1 string data = ""パパの小さな秘密""
        [1]
-        1 string data = "Wait for intel on Liberty Buchanan's location."
+        1 string data = ""リバティ・ブキャナンの居場所についての情報を待つ。""
        [2]
-        1 string data = "Confront Liberty and find Percival Wesson at Yuma County Speedway."
+        1 string data = ""ユマ郡スピードウェイでリバティと対決し、パーシバル・ウェッソンを見つける。""
        [3]
-        1 string data = " Killed Percival Wesson before talking to him"
+        1 string data = "" パーシバル・ウェッソンと話す前に殺害した""
        [4]
-        1 string data = "Talk to Percival Wesson in Liberty's compound and decide what to do with him."
+        1 string data = ""リバティの居住区でパーシバル・ウェッソンと話し、彼をどうするか決定する。""
        [5]
-        1 string data = " Sent into exile"
+        1 string data = "" 追放した""
        [6]
-        1 string data = " Invited to RHQ"
+        1 string data = "" レンジャー本部に招待した""
        [7]
-        1 string data = " Killed"
+        1 string data = "" 殺害した""
        [8]
-        1 string data = " Endgame started without talking to Percival"
+        1 string data = "" パーシバルと話さずにエンドゲームが始まった""
        [9]
-        1 string data = " Trial"
+        1 string data = "" 裁判""
        [10]
-        1 string data = "We've learned that Lucia's father, Percival Wesson, is still alive and may have, many years ago, conspired with the Patriarch to betray and murder the Dorsey family. Liberty Buchanan is holding him hostage, and Lucia is focused on finding him and learning the truth."
+        1 string data = ""ルシアの父、パーシバル・ウェッソンはまだ生きており、何年も前にパトリアークと共謀してドーシー家を裏切り殺害した可能性があることがわかった。リバティ・ブキャナンが彼を人質に取っており、ルシアは彼を見つけて真実を知ることに集中している。""
        [11]
-        1 string data = "Percival Wesson is being held by Liberty, but until we learn her whereabouts we can't attempt to rescue him."
+        1 string data = ""パーシバル・ウェッソンはリバティに拘束されているが、彼女の居場所がわかるまで救出を試みることはできない。""
        [12]
-        1 string data = "Now that we know where to find Liberty, we can deal with her and locate Lucia's father."
+        1 string data = ""リバティの居場所がわかった。彼女に対処してルシアの父を見つけることができる。""
        [13]
-        1 string data = "Percival Wesson died before we could learn the truth from him."
+        1 string data = ""パーシバル・ウェッソンは、私たちが彼から真実を聞き出す前に死んでしまった。""
        [14]
-        1 string data = "Lucia's father is being held somewhere in Liberty's compound. We should talk to him."
+        1 string data = ""ルシアの父はリバティの居住区のどこかに拘束されている。彼と話すべきだ。""
        [15]
-        1 string data = "We sent Percival into exile for his part in slaughtering the Dorseys."
+        1 string data = ""ドーシーズ虐殺への関与により、パーシバルを追放した。""
        [16]
-        1 string data = "Percival's sins have been forgiven. He'll join us back at Ranger HQ."
+        1 string data = ""パーシバルの罪は許された。彼はレンジャー本部で私たちに合流する。""
        [17]
-        1 string data = "Percival had to die for his part in slaughtering the Dorseys."
+        1 string data = ""パーシバルはドーシーズ虐殺への関与により死ななければならなかった。""
        [18]
-        1 string data = "The final battle for Colorado Springs is on. No time to look for Percival now."
+        1 string data = ""コロラドスプリングスをめぐる最終決戦が始まった。今パーシバルを探している時間はない。""
        [19]
-        1 string data = "Percival needs to be held accountable for his past misdeeds. He'll stand trial in Colorado Springs."
+        1 string data = ""パーシバルは過去の悪行の責任を取る必要がある。彼はコロラドスプリングスで裁判にかけられる。""
    [1771]
     0 StringTable data
      1 string Filename = "mission_x4501_hardknoxlife"
@@ -530354,19 +530354,19 @@
       1 Array Array (22 items)
        0 int size = 22
        [0]
-        1 string data = "Hard Knox Life"
+        1 string data = ""ハード・ノックス・ライフ""
        [1]
-        1 string data = "Investigate the Knox Bison Ranch."
+        1 string data = ""ノックス・バイソン牧場を調査する。""
        [2]
-        1 string data = "Confront the Scar Collectors outside the Knox Bison Ranch."
+        1 string data = ""ノックス・バイソン牧場の外にいるスカー・コレクターズと対決する。""
        [3]
-        1 string data = "Clear out the vermin behind the Knox Bison Ranch building."
+        1 string data = ""ノックス・バイソン牧場の建物の裏にいる害獣を一掃する。""
        [4]
         1 string data = ""
        [5]
-        1 string data = "Enter the Knox Bison Ranch building from the back."
+        1 string data = ""ノックス・バイソン牧場の建物に裏口から入る。""
        [6]
-        1 string data = "Talk to the Scar Collectors outside Knox Bison Ranch."
+        1 string data = ""ノックス・バイソン牧場の外にいるスカー・コレクターズと話す。""
        [7]
         1 string data = ""
        [8]
@@ -530374,29 +530374,29 @@
        [9]
         1 string data = ""
        [10]
-        1 string data = "Report back to the ranchers at Knox Bison Ranch."
+        1 string data = ""ノックス・バイソン牧場の牧場主たちに報告する。""
        [11]
-        1 string data = "The Knox Bison Ranch is under attack and calling for help."
+        1 string data = ""ノックス・バイソン牧場が攻撃を受けており、助けを呼んでいる。""
        [12]
-        1 string data = "We received a distress call from the Knox Bison Ranch. It's under siege by unknown assailants."
+        1 string data = ""ノックス・バイソン牧場から救難信号を受信した。正体不明の襲撃者に包囲されている。""
        [13]
-        1 string data = "The head rancher flagged us down as we entered and explained the situation: Scar Collectors looking to rustle some bison have the place surrounded. We'll need to deal with the gang members one way or another."
+        1 string data = ""私たちが入ると、牧場主の責任者が手を振って呼び止め、状況を説明した:バイソンを盗もうとしているスカー・コレクターズが牧場を取り囲んでいる。何らかの方法でギャングのメンバーたちに対処する必要がある。""
        [14]
-        1 string data = "The Scar Collectors are dead, but during their siege, some kind of vermin have moved in behind the ranch. The ranch leader asked us to exterminate them."
+        1 string data = ""スカー・コレクターズは死んだが、彼らの包囲中に何らかの害獣が牧場の裏に入り込んだ。牧場の責任者は私たちに駆除を依頼した。""
        [15]
-        1 string data = "We've saved the Knox Bison Ranch from the Scar Collectors, and removed a vermin infestation so the ranchers can get back to tending to the bison. A delivery of bison meat should arrive at Ranger HQ shortly."
+        1 string data = ""ノックス・バイソン牧場をスカー・コレクターズから救い、害獣の蔓延を除去したので、牧場主たちはバイソンの世話に戻ることができる。バイソン肉の配達がまもなくレンジャー本部に届くはずだ。""
        [16]
-        1 string data = "After talking with the Scar Collectors, we've agreed to take out the ranchers by sneaking in the back. The Scar Collector's leader mentioned a scouting team he sent back there never returned, so we'll need to keep our eyes open."
+        1 string data = ""スカー・コレクターズと話した後、裏口からこっそり侵入して牧場主たちを始末することに同意した。スカー・コレクターのリーダーは、裏に送った偵察チームが戻ってこなかったと言っていたので、目を光らせておく必要がある。""
        [17]
-        1 string data = "With the ranchers dead, we just need to talk to the Scar Collectors about our reward."
+        1 string data = ""牧場主たちは死んだ。あとはスカー・コレクターズと報酬について話すだけだ。""
        [18]
-        1 string data = "The Knox Bison Ranch is now empty except for a few untended bison."
+        1 string data = ""ノックス・バイソン牧場は、世話されていないバイソンが数頭いるだけで、今は空っぽだ。""
        [19]
-        1 string data = "We killed the ranchers and any chance for a reward died with them."
+        1 string data = ""牧場主たちを殺し、報酬を得る可能性も彼らと共に死んだ。""
        [20]
-        1 string data = "The Scar Collectors gave us a pet baby bison. They kept their word... this time."
+        1 string data = ""スカー・コレクターズは私たちにペットの赤ちゃんバイソンをくれた。彼らは約束を守った...今回は。""
        [21]
-        1 string data = "We've killed the vermin. Now, we just need to report back to the head rancher."
+        1 string data = ""害獣を殺した。あとは牧場主の責任者に報告するだけだ。""
    [1772]
     0 StringTable data
      1 string Filename = "mission_x4501_knoxatthedoor"
@@ -530418,7 +530418,8 @@
       1 Array Array (2 items)
        0 int size = 2
        [0]
-        1 string data = "Knox at the Door"
+        1 string data = ""ドアのノックス""
        [1]
         1 string data = ""
  0 int WhichLanguage = 0
+
