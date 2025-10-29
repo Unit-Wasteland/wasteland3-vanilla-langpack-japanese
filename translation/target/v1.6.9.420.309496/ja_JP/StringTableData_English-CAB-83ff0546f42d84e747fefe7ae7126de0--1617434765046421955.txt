@@ -402984,125 +402984,125 @@
       1 Array Array (62 items)
        0 int size = 62
        [0]
-        1 string data = "Talk to Hunters (Hunters are outside of AOE DAMAGE and LINE OF SIGHT)\n(Possibly: short-range radio)\n\n\nHunters say on their call: Don't listen to the creature's lies, we won't hesitate to defend ourselves. If you set off our traps we'll be forced to assume it got to you."
+        1 string data = ""ハンターと話す（ハンターは範囲攻撃とLINE OF SIGHTの外にいる）\n（可能性：短距離無線）\n\n\nハンターが無線で言う：あの生物の嘘を聞くな、我々は自己防衛をためらわない。もしトラップを作動させたら、それが君たちに取り憑いたと判断せざるを得ない。""
        [1]
-        1 string data = "See creepy barks"
+        1 string data = ""不気味な発言を見る""
        [2]
-        1 string data = "Talk to Panther"
+        1 string data = ""パンサーと話す""
        [3]
-        1 string data = "Agree to Remove Traps (puts you at war with Hunters)"
+        1 string data = ""トラップを外すことに同意する（ハンターと敵対）""
        [4]
-        1 string data = "Refuse to Remove Traps and/or insult Panther (puts you at war with Panther)\n\n\nStarts Panther FIght Immediately.\n\n\n"
+        1 string data = ""トラップを外すことを拒否するか、パンサーを侮辱する（パンサーと敵対）\n\n\nパンサー戦が即座に始まる。\n\n\n""
        [5]
-        1 string data = "Kill all Hunters \r\n\r\n(B-Priority) : Winter Sky kills one hunter on-screen while you fight.\r\n\r\n"
+        1 string data = ""全ハンター殺害 \r\n\r\n(B-Priority) : 戦闘中にWinter Skyが画面内で1人のハンターを殺す。\r\n\r\n""
        [6]
-        1 string data = "Leave before killing Hunters"
+        1 string data = ""ハンター殺害前に立ち去る""
        [7]
-        1 string data = "Hunters are dead when you return (you can still find cubs, you can loot their stuff)"
+        1 string data = ""戻ったときハンターは死んでいる（まだ子供を見つけられる、装備を略奪できる）""
        [8]
-        1 string data = "Panther Fight, Panther Dies"
+        1 string data = ""パンサー戦、パンサー死亡""
        [9]
-        1 string data = "LEave before killing Panther"
+        1 string data = ""パンサー殺害前に立ち去る""
        [10]
         1 string data = ""
        [11]
-        1 string data = "Find Cubs (1) , Negotiate\n"
+        1 string data = ""子供を見つける（1）、交渉\n""
        [12]
-        1 string data = "Panther Fight, kill panther, get Cubs "
+        1 string data = ""パンサー戦、パンサー殺害、子供を得る ""
        [13]
-        1 string data = "Leave Cubs Alone, leave"
+        1 string data = ""子供をそのままにして立ち去る""
        [14]
-        1 string data = "Let her use as leverage to let the hunters escape."
+        1 string data = ""彼女にハンター脱出の切り札として使わせる。""
        [15]
-        1 string data = "Hunters are saved! (and they trust you)\r\nYou can talk to them on your way out if you want.\r\n\r\n\r\nTheir camp is gone when you revisit the scene after a scene load. \r\n"
+        1 string data = ""ハンター救出成功！（彼らは君を信頼する）\r\n帰り道で話したければ話せる。\r\n\r\n\r\nシーン再読み込み後、キャンプは消えている。 \r\n""
        [16]
-        1 string data = "IF YOU HAVE NOT YET KILLED ANY HUNTERS,\n\n\nThey escape, but don't trust the player.\n\n\n(We will not let the Hunters follow the player outside of their trap range so they cannot be on screen when Players are talking to Cubs)\n\n\nWe DESPAWN THE HUNTERS and DESPAWN THEIR CAMP, leave note (that forces a bark) at the exit. Note says "we're pissed at you, watch your back"\n\n\n(This could be the "They are pissed at you" situation)"
+        1 string data = ""まだ1人もハンターを殺していない場合、\n\n\n彼らは逃げるがプレイヤーを信頼しない。\n\n\n（ハンターがトラップ範囲外でプレイヤーを追跡できないようにするため、プレイヤーが子供と話しているときハンターは画面内にいられない）\n\n\nハンターをDESPAWN、キャンプをDESPAWN、出口にメモを残す（発言を強制する）。メモには「怒っている、背後に気をつけろ」\n\n\n（これが「彼らが怒っている」状況になる）""
        [17]
-        1 string data = "Find the Cubs (2) - ANYTIME, can always happen."
+        1 string data = ""子供を見つける（2） - いつでも、常に発生可能。""
        [18]
-        1 string data = "LEAVE, END NODE, come back later if you want"
+        1 string data = ""立ち去る、ノード終了、後で戻ってきてもよい""
        [19]
-        1 string data = "(Hunters still want to kill you, won't talk to you)"
+        1 string data = ""（ハンターはまだ君を殺したがっている、話しかけられない）""
        [20]
-        1 string data = "Panther Fight, kill panther, get Cubs "
+        1 string data = ""パンサー戦、パンサー殺害、子供を得る ""
        [21]
-        1 string data = "Resume Hunting Hunters"
+        1 string data = ""ハンター狩りを再開""
        [22]
-        1 string data = "Loot their stuff\n"
+        1 string data = ""装備を略奪\n""
        [23]
-        1 string data = "B-PRIORITY - Use the cubs as leverage and leave"
+        1 string data = ""B-PRIORITY - 子供を切り札として使って立ち去る""
        [24]
-        1 string data = "If you return, it's a fight!"
+        1 string data = ""戻ったら戦闘だ！""
        [25]
-        1 string data = "Leave"
+        1 string data = ""立ち去る""
        [26]
-        1 string data = "Interact with Cubs before killing Panther"
+        1 string data = ""パンサー殺害前に子供と接触""
        [27]
-        1 string data = "Panther is upgraded in last stage of fight"
+        1 string data = ""戦闘最終段階でパンサーが強化される""
        [28]
-        1 string data = "B-PRIORITY - Use cubs as leverage to let the hunters escape."
+        1 string data = ""B-PRIORITY - 子供を切り札としてハンター脱出を許可。""
        [29]
-        1 string data = "FINAL CUB FIGHT\r\n - Interact with Cubs for 2nd or 3rd time or after other objective\r\n\r\nPanther Attacks, Rangers Get Cubs"
+        1 string data = ""最終子供戦\r\n - 2回目か3回目の子供接触、または他の目標の後\r\n\r\nパンサーが襲撃、レンジャーズが子供を得る""
        [30]
-        1 string data = "If you HAVE KILLED ANY HUNTERS, They don't trust you, and you're still in a fight with them, can't initiate dialogue."
+        1 string data = ""1人でもハンターを殺している場合、彼らは君を信頼せず、まだ戦闘中、対話を開始できない。""
        [31]
-        1 string data = "Can find Unguarded Cubs, take 'em."
+        1 string data = ""守られていない子供を見つけて、奪える。""
        [32]
-        1 string data = "Can Leave (and come back later)"
+        1 string data = ""立ち去れる（後で戻ってこれる）""
        [33]
-        1 string data = "Can happen anytime: \r\nFIRE ON HUNTERS, AT WAR WITH HUNTERS\r\n"
+        1 string data = ""いつでも発生可能： \r\nハンターに発砲、ハンターと敵対\r\n""
        [34]
-        1 string data = "(JOLA IS HERE)\n"
+        1 string data = ""（ジョラがここにいる）\n""
        [35]
-        1 string data = "(JOLA IS NOT HERE)"
+        1 string data = ""（ジョラがここにいない）""
        [36]
-        1 string data = "Jola Negotiates"
+        1 string data = ""ジョラが交渉する""
        [37]
-        1 string data = "Here's how it's gonna be:\n\n\nLet the Hunters go free, it's all good.\n"
+        1 string data = ""こうなる：\n\n\nハンターを自由に解放する、全て問題ない。\n""
        [38]
-        1 string data = "Loot their sweet stuff. "
+        1 string data = ""彼らの良い装備を略奪する。 ""
        [39]
         1 string data = "Script Node 60"
        [40]
-        1 string data = "Test duration of delays. Global is set in OnExit from your selection."
+        1 string data = ""遅延のテスト。Globalは選択のOnExitで設定される。""
        [41]
-        1 string data = ""Test WaitForSecondsRealtime""
+        1 string data = ""「WaitForSecondsRealtimeをテスト」""
        [42]
-        1 string data = ""Test WaitForSeconds""
+        1 string data = ""「WaitForSecondsをテスト」""
        [43]
-        1 string data = "Exit without testing."
+        1 string data = ""テストせずに終了。""
        [44]
         1 string data = "Script Node 65"
        [45]
-        1 string data = "Follow up call."
+        1 string data = ""フォローアップコール。""
        [46]
         1 string data = "Script Node 67"
        [47]
-        1 string data = "Testing different types of nodes."
+        1 string data = ""異なるタイプのノードのテスト。""
        [48]
-        1 string data = ""Cascade Node.""
+        1 string data = ""「カスケードノード。」""
        [49]
-        1 string data = ""Bank Node.""
+        1 string data = ""「バンクノード。」""
        [50]
-        1 string data = ""Addendum node."\n"
+        1 string data = ""「追補ノード。」\n""
        [51]
-        1 string data = "Bank 72"
+        1 string data = ""バンク 72""
        [52]
         1 string data = "Script Node 73"
        [53]
-        1 string data = "testGlobal1 = [Global: testGlobal1]"
+        1 string data = ""testGlobal1 = [Global: testGlobal1]""
        [54]
-        1 string data = "testGlobal1 = [Global: testGlobal1]"
+        1 string data = ""testGlobal1 = [Global: testGlobal1]""
        [55]
-        1 string data = "this entry always shows up"
+        1 string data = ""このエントリは常に表示される""
        [56]
-        1 string data = "Make your selection."
+        1 string data = ""選択してください。""
        [57]
-        1 string data = "Entry node."
+        1 string data = ""エントリノード。""
        [58]
-        1 string data = "Bank 79"
+        1 string data = ""バンク 79""
        [59]
-        1 string data = " Addend. 80"
+        1 string data = "" 追補 80""
        [60]
         1 string data = """"
        [61]
@@ -403790,9 +403790,9 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = ""Damn, scratched the paint!""
+        1 string data = ""くそ、塗装に傷が！""
        [2]
-        1 string data = ""Shit, that'll leave a dent!""
+        1 string data = ""しまった、凹むぞ！""
        [3]
         1 string data = "Script Node 4"
        [4]
@@ -403814,49 +403814,49 @@
        [12]
         1 string data = "Script Node 13"
        [13]
-        1 string data = ""C'mon, hold together!""
+        1 string data = ""しっかりしろ、持ちこたえるんだ！""
        [14]
-        1 string data = ""Need repairs!""
+        1 string data = ""修理が必要だ！""
        [15]
-        1 string data = ""I'm out of commission!""
+        1 string data = ""戦闘不能だ！""
        [16]
-        1 string data = ""I'm scrap!""
+        1 string data = ""スクラップ寸前だ！""
        [17]
-        1 string data = ""Much obliged.""
+        1 string data = ""助かった。""
        [18]
-        1 string data = ""Good as new!""
+        1 string data = ""新品同様だ！""
        [19]
-        1 string data = ""Eat this!""
+        1 string data = ""食らえ！""
        [20]
-        1 string data = ""Heads up!""
+        1 string data = ""気をつけろ！""
        [21]
-        1 string data = ""Engine's going funky!""
+        1 string data = ""エンジンの調子がおかしい！""
        [22]
-        1 string data = ""Having trouble moving!""
+        1 string data = ""動きに支障が出てる！""
        [23]
-        1 string data = ""I'm a sitting duck!""
+        1 string data = ""完全に無防備だ！""
        [24]
-        1 string data = ""This is <i>not</i> the time!""
+        1 string data = ""今は<i>やめてくれ</i>！""
        [25]
-        1 string data = ""W-we're lit up!""
+        1 string data = ""う、撃たれてる！""
        [26]
-        1 string data = ""Oh, that can't be good.""
+        1 string data = ""おい、まずいぞ。""
        [27]
-        1 string data = ""Smoke's everywhere!""
+        1 string data = ""煙が充満してる！""
        [28]
-        1 string data = ""Put it out!""
+        1 string data = ""火を消せ！""
        [29]
-        1 string data = ""Everything's iced over!""
+        1 string data = ""全て凍ってる！""
        [30]
-        1 string data = ""It's too cold!""
+        1 string data = ""寒すぎる！""
        [31]
-        1 string data = ""Ready for orders.""
+        1 string data = ""命令待機中。""
        [32]
-        1 string data = ""Rockin' and rollin'!""
+        1 string data = ""準備万端だ！""
        [33]
-        1 string data = ""You called?""
+        1 string data = ""呼んだか？""
        [34]
-        1 string data = ""Time to unleash hell!""
+        1 string data = ""地獄を解き放つ時だ！""
    [1375]
     0 StringTable data
      1 string Filename = "testcamelcase3"
@@ -403898,7 +403898,7 @@
       1 Array Array (1 items)
        0 int size = 1
        [0]
-        1 string data = ""The words of the entry""
+        1 string data = ""エントリの言葉""
    [1377]
     0 StringTable data
      1 string Filename = "testconversationnewentry1"
@@ -403916,7 +403916,7 @@
       1 Array Array (1 items)
        0 int size = 1
        [0]
-        1 string data = "This is some text."
+        1 string data = ""これはテキストです。""
    [1378]
     0 StringTable data
      1 string Filename = "testconversationthefirst"
@@ -403942,9 +403942,9 @@
       1 Array Array (3 items)
        0 int size = 3
        [0]
-        1 string data = "At least there's something."
+        1 string data = ""少なくとも何かがある。""
        [1]
-        1 string data = "This is a player response."
+        1 string data = ""これはプレイヤーの応答です。""
        [2]
         1 string data = ""
    [1379]
@@ -403968,9 +403968,9 @@
       1 Array Array (2 items)
        0 int size = 2
        [0]
-        1 string data = "Talk Node Text - isn't it interesting?"
+        1 string data = ""トークノードのテキスト - 興味深いだろう？""
        [1]
-        1 string data = "Response Node Text - you can have any conversation option you want, as long as it's this."
+        1 string data = ""応答ノードのテキスト - これである限り、好きな会話選択肢が選べる。""
    [1380]
     0 StringTable data
      1 string Filename = "testconversation_activatetraps"
@@ -404024,25 +404024,25 @@
       1 Array Array (10 items)
        0 int size = 10
        [0]
-        1 string data = " Intro Text"
+        1 string data = "" イントロテキスト""
        [1]
-        1 string data = "Trigger Trap 1"
+        1 string data = ""トラップ1を起動""
        [2]
-        1 string data = "Trigger Trap 2"
+        1 string data = ""トラップ2を起動""
        [3]
-        1 string data = "Trigger Trap 3"
+        1 string data = ""トラップ3を起動""
        [4]
-        1 string data = "Triger Trap 4"
+        1 string data = ""トラップ4を起動""
        [5]
-        1 string data = "Exit"
+        1 string data = ""退出""
        [6]
-        1 string data = " Trap will trigger after this bark exits."
+        1 string data = "" この発言が終了するとトラップが起動する。""
        [7]
-        1 string data = " Trap will trigger after this bark exits."
+        1 string data = "" この発言が終了するとトラップが起動する。""
        [8]
-        1 string data = " Trap will trigger after this bark exits."
+        1 string data = "" この発言が終了するとトラップが起動する。""
        [9]
-        1 string data = " Trap will trigger after this bark exits."
+        1 string data = "" この発言が終了するとトラップが起動する。""
    [1381]
     0 StringTable data
      1 string Filename = "testconversation_addplayernodes"
@@ -404092,19 +404092,19 @@
       1 Array Array (9 items)
        0 int size = 9
        [0]
-        1 string data = "This is the start of the conversation.  When you continue, we'll wait while we try to add another player (or, for now, simulate a delay).\n\n\nThe next node is a script node executing a test script."
+        1 string data = ""これは会話の開始です。続けると、別のプレイヤーを追加しようとする間待機します（または今のところ遅延をシミュレート）。\n\n\n次のノードはテストスクリプトを実行するスクリプトノードです。""
        [1]
         1 string data = "Script Node 2"
        [2]
-        1 string data = "This node will show up if we successfully added the other player (or if they were already present)."
+        1 string data = ""別のプレイヤーを正常に追加した場合（またはすでに存在する場合）、このノードが表示されます。""
        [3]
-        1 string data = "This node will show up if the other player is not in the conversation."
+        1 string data = ""別のプレイヤーが会話に参加していない場合、このノードが表示されます。""
        [4]
-        1 string data = "Is the other player present yet?"
+        1 string data = ""別のプレイヤーはまだ参加していますか？""
        [5]
-        1 string data = "Yes."
+        1 string data = ""はい。""
        [6]
-        1 string data = "Nevermind. Bye bye."
+        1 string data = ""気にしないで。さようなら。""
        [7]
         1 string data = "Script Node 2"
        [8]
@@ -404178,25 +404178,25 @@
       1 Array Array (14 items)
        0 int size = 14
        [0]
-        1 string data = "Whatcha want to do with companions?"
+        1 string data = ""コンパニオンをどうしたい？""
        [1]
-        1 string data = "Add the Psychopath to my party."
+        1 string data = ""サイコパスをパーティに追加する。""
        [2]
-        1 string data = "Remove Psychopath from my party."
+        1 string data = ""サイコパスをパーティから外す。""
        [3]
-        1 string data = "Bye."
+        1 string data = ""さようなら。""
        [4]
-        1 string data = "Here you go."
+        1 string data = ""どうぞ。""
        [5]
-        1 string data = "He's gone."
+        1 string data = ""彼は去った。""
        [6]
-        1 string data = "Add Sgt Kwon to my party."
+        1 string data = ""クォン軍曹をパーティに追加する。""
        [7]
-        1 string data = "Remove Sgt Kwon from my party."
+        1 string data = ""クォン軍曹をパーティから外す。""
        [8]
-        1 string data = "Here you go."
+        1 string data = ""どうぞ。""
        [9]
-        1 string data = "He's gone."
+        1 string data = ""彼は去った。""
        [10]
         1 string data = "Script Node 11"
        [11]
@@ -404278,35 +404278,35 @@
       1 Array Array (15 items)
        0 int size = 15
        [0]
-        1 string data = " Would you like to add or remove a follower?"
+        1 string data = "" フォロワーを追加または削除しますか？""
        [1]
-        1 string data = " Add test Follower: Angela Deth"
+        1 string data = "" テストフォロワーを追加: アンジェラ・デス""
        [2]
-        1 string data = " Remove test Follower: Angela Deth"
+        1 string data = "" テストフォロワーを削除: アンジェラ・デス""
        [3]
-        1 string data = " Leave."
+        1 string data = "" 立ち去る。""
        [4]
-        1 string data = " Follower added"
+        1 string data = "" フォロワーが追加されました""
        [5]
-        1 string data = " Follower removed."
+        1 string data = "" フォロワーが削除されました。""
        [6]
-        1 string data = " Test status of Followers in party."
+        1 string data = "" パーティ内のフォロワーの状態をテスト。""
        [7]
-        1 string data = " In Party: Angela Deth"
+        1 string data = "" パーティ内: アンジェラ・デス""
        [8]
-        1 string data = " In Party: Golden Toaster"
+        1 string data = "" パーティ内: ゴールデン・トースター""
        [9]
         1 string data = "Script Node 10"
        [10]
-        1 string data = " in Party: Cloned Chicken"
+        1 string data = "" パーティ内: クローン・チキン""
        [11]
-        1 string data = " in Party: Major Tomcat"
+        1 string data = "" パーティ内: トムキャット少佐""
        [12]
-        1 string data = " in Party: The Provost"
+        1 string data = "" パーティ内: プロヴォスト""
        [13]
-        1 string data = " Done iterating through followers. If nobody was listed and you have a follower, this conversation doesn't test for it."
+        1 string data = "" フォロワーの反復処理が完了しました。誰もリストされておらず、フォロワーがいる場合、この会話ではテストされていません。""
        [14]
-        1 string data = "Bank 15"
+        1 string data = ""バンク 15""
    [1384]
     0 StringTable data
      1 string Filename = "testconversation_alex01"
