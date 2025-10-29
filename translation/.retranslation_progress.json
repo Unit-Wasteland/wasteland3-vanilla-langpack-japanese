@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 383744,
-      "entries_completed": 53445,
+      "current_line": 387053,
+      "entries_completed": 53945,
       "status": "in_progress",
-      "note": "Lines 382264-383744: q1001_combatbarks_payasos (87), q1001_combatbarks_scarcollectorcyclops (23), q1001_combatbarks_scarcollectoroverlord (36), q1001_combatbarks_scarcollectorslaver (64); total: 210 entries"
+      "note": "Lines 383744-387053: q1001_companion_barktriggers (228), q1001_cordite (69), q1001_corditeradio (2), q1001_dorseysambient (30), q1001_emogenedorsey (6), q1001_erastusdorsey (49), q1001_gangcompoundguards (73), q1001_gangcompoundslaveguards (42), q1001_godfishersambient (1/20 partial); total: 500 entries"
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -38,10 +38,10 @@
       "status": "pending"
     }
   },
-  "last_commit_hash": "c20a70c",
-  "total_entries_completed": 53445,
+  "last_commit_hash": "",
+  "total_entries_completed": 53945,
   "estimated_total_entries": 71992,
-  "next_action": "Continue from line 383744 (next section: q1001_companion_barktriggers - 228 entries)",
+  "next_action": "Continue from line 387053 (next section: q1001_godfishersambient - 19 remaining entries)",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
