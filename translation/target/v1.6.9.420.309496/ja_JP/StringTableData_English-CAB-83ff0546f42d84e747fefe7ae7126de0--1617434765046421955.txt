@@ -12331,45 +12331,45 @@
       1 Array Array (20 items)
        0 int size = 20
        [0]
-        1 string data = ""Talk to Delgado.""
+        1 string data = ""デルガドと話せ""
        [1]
         1 string data = "Script Node 2"
        [2]
-        1 string data = ""Sorry, got work to do.""
+        1 string data = ""悪いが、仕事があるんでね""
        [3]
-        1 string data = ""Huh?""
+        1 string data = ""はあ?""
        [4]
-        1 string data = ""Ask somebody else.""
+        1 string data = ""他の奴に聞いてくれ""
        [5]
-        1 string data = ""I don't work for you.""
+        1 string data = ""俺はあんたらの部下じゃない""
        [6]
-        1 string data = ""Talk to Dinh.""
+        1 string data = ""ディンと話せ""
        [7]
-        1 string data = ""Scram.""
+        1 string data = ""失せろ""
        [8]
-        1 string data = ""You're not the boss of me.""
+        1 string data = ""あんたが俺の上司ってわけじゃないだろ""
        [9]
-        1 string data = ""Talk to Delgado. I'm busy.""
+        1 string data = ""デルガドと話せ。俺は忙しいんだ""
        [10]
-        1 string data = ""Not now.""
+        1 string data = ""今はダメだ""
        [11]
-        1 string data = ""Talk to the boss.""
+        1 string data = ""上司と話せ""
        [12]
-        1 string data = ""Get outta my face.""
+        1 string data = ""どっか行け""
        [13]
-        1 string data = ""Don't ask me. I just work here.""
+        1 string data = ""俺に聞くな。俺はここで働いてるだけだ""
        [14]
-        1 string data = ""It ain't my job to talk to you.""
+        1 string data = ""あんたらと話すのが俺の仕事ってわけじゃない""
        [15]
         1 string data = "Script Node 129"
        [16]
-        1 string data = ""Put those terrorist traitors down, Rangers!""
+        1 string data = ""あのテロリストの裏切り者どもをやっつけろ、レンジャーズ!""
        [17]
         1 string data = """"
        [18]
         1 string data = """"
        [19]
-        1 string data = ""The Marshals stand with the Rangers!""
+        1 string data = ""マーシャルズはレンジャーズと共に戦う!""
    [95]
     0 StringTable data
      1 string Filename = "a1001_armory_secalertcomputer"
@@ -12515,13 +12515,13 @@
       1 Array Array (33 items)
        0 int size = 33
        [0]
-        1 string data = "This computer is flashing 'SECURITY COMPROMISED' in angry red letters."
+        1 string data = "このコンピューターには怒りに満ちた赤い文字で「セキュリティ侵害」と点滅している"
        [1]
-        1 string data = "Cancel the alert."
+        1 string data = "警報を解除する"
        [2]
-        1 string data = "'Alert Canceled!' appears on the screen. Then it returns to a standard informational display."
+        1 string data = "「警報解除!」と画面に表示される。その後、通常の情報表示に戻った"
        [3]
-        1 string data = "Step away from the terminal."
+        1 string data = "端末から離れる"
        [4]
         1 string data = " You walk away from the terminal."
        [5]
@@ -12549,37 +12549,37 @@
        [16]
         1 string data = "Bank 22"
        [17]
-        1 string data = "This terminal is displaying information about the base's systems. All seems normal right now."
+        1 string data = "この端末は基地のシステム情報を表示している。今のところすべて正常なようだ"
        [18]
-        1 string data = "This terminal is display information about the base's systems. There's a red-letter banner which reads, 'SECURITY LOCKDOWN ENABLED.'"
+        1 string data = "この端末は基地のシステム情報を表示している。「セキュリティロックダウン有効」と書かれた赤い文字のバナーがある"
        [19]
-        1 string data = "Check recent activity logs for this terminal."
+        1 string data = "この端末の最近の活動ログを確認する"
        [20]
-        1 string data = "Under 'Officer's Log,' you find a number of diligently taken entries. You grab one at random."
+        1 string data = "「士官のログ」の下に、注意深く記録された多数のエントリがある。無作為に1つを取り出した"
        [21]
-        1 string data = "Under 'Officer's Log,' you find a number of sporadically-dated entries. You open one that was improperly deleted, and is sitting in the trash."
+        1 string data = "「士官のログ」の下に、まばらな日付のエントリが多数ある。不適切に削除され、ゴミ箱に残っているものを1つ開いた"
        [22]
-        1 string data = "Under 'Officer's Log,' you find a number of improperly formatted entries. The first one you check is lyrics to a song called 'Fly Me to the Moon.' The second is lyrics to a song called 'That's Amore.' You manage to find a report on your sixth try."
+        1 string data = "「士官のログ」の下に、不適切なフォーマットのエントリが多数ある。最初に確認したのは「Fly Me to the Moon」という歌の歌詞だった。2つ目は「That's Amore」という歌の歌詞。6回目の試行でようやく報告書を見つけた"
        [23]
-        1 string data = "The only log you can find on this terminal relates to a massive data wipe from several decades ago."
+        1 string data = "この端末で見つかる唯一のログは、数十年前の大規模なデータ消去に関するものだ"
        [24]
-        1 string data = "'I gotta say, the Rangers' operation is well-organized. Manufacturing their own gear to their own specifications, incorporating the designs from this area, and distributing the equipment to their people and tracking their use.'"
+        1 string data = "「正直言って、レンジャーズの作戦は見事に組織化されている。独自の仕様で装備を製造し、この地域のデザインを取り入れ、人員に配布して使用状況を追跡している」"
        [25]
-        1 string data = "'Kind of makes the Marshals seem like they're making it up as they go.'"
+        1 string data = "「それに比べると、マーシャルズは行き当たりばったりみたいに見える」"
        [26]
-        1 string data = "'Talking with some of the recruits, sounds like the process has been around since they were first founded during the Deluge of Fire. Huddled in some Arizona prison, they started equipping themselves and helping people. Amazing.'"
+        1 string data = "「新兵の何人かと話したが、このプロセスは炎の大洪水の時に創設されて以来続いているらしい。アリゾナの刑務所に身を寄せて、装備を整え人々を助け始めたそうだ。驚きだ」"
        [27]
-        1 string data = "'Whatever stick these Rangers got up their ass sure as shit keeps their operation going smooth. If Daisy had a weapons pipeline like this in the old days... Well, she wouldn't be tellin' stories about how hard the old days were.'"
+        1 string data = "「このレンジャーズの連中がどれだけ厳格なのか知らないが、それが間違いなく作戦を円滑に進めている。もしデイジーが昔こんな武器供給ルートを持っていたら…まあ、昔がどれだけ大変だったかなんて話さなかっただろうな」"
        [28]
-        1 string data = "'Was a little curious how much I could get if one crate of these weapons were to fall off the truck, but one of the lookouts spotted my contact coming over the fence for a secret show-and-tell.'"
+        1 string data = "「この武器の箱が1つトラックから落ちたらいくらになるか少し気になっていたが、見張りの一人が秘密の見せ合いのためにフェンスを越えてくる俺の接触者を見つけてしまった」"
        [29]
-        1 string data = "'So much for that, I guess. That stick's got their security on point. I wonder what else they do to keep that up. Wonder if they read thes-'"
+        1 string data = "「まあ、それまでだな。あの厳格さがセキュリティを完璧にしている。それを維持するために他に何をしているのか気になる。これを読んでるのか—」"
        [30]
-        1 string data = "'Aaaaaaay so i Wuz talkinwit Lennie Da Snayk, braggin bout my fansy new lergittymet job, an git dis'"
+        1 string data = "「へいよーレニー・ザ・スネークとしゃべっててさ、オレのカッケー新しいマトモな仕事じまんしてたら、これがよー」"
        [31]
-        1 string data = "'He starts talkn bout aheist hez plannin. herd bout a new crew a gun runners on the outsida town, wuz gonna get a yooniform, sneek in, steal dere stuff, mabe mayk a thing of doin it once a month.'"
+        1 string data = "「そしたらアイツが計画してる強盗のハナシはじめやがってよ。町のソトに新しい銃密売人のグループがいるってきいて、ユニフォームてにいれて、こっそりはいって、モノぬすんで、月イチでやるつもりらしいぜ」"
        [32]
-        1 string data = "'Den he says da crewz name is da 'Rain Jerks' an i jus abowt fell outta my chairlaffin. Soz i tell him to lemme no when he gonna hit it. Gonna see how far he get anden get my boys ta jump im. Gonan be freekin HIGH larryus.'\n\n\nHe then transcribes the lyrics of 'Bim Bam Baby.'"
+        1 string data = "「んでソイツがそのグループの名まえは『レインジャークス』だってゆってオレはイスからおちそうになるぐらいワラっちまったよ。だからソイツに実行するトキおしえてくれっていっといた。どこまでいけるかミてから、ウチのヤツらにおそわせる。クソおもしれーことになるぜ」\n\n\n彼はその後、「Bim Bam Baby」の歌詞を書き写している"
    [96]
     0 StringTable data
      1 string Filename = "a1001_ash"
