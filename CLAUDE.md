@@ -6,21 +6,26 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is a Japanese language pack translation project for Wasteland 3, a post-apocalyptic RPG game. The repository contains Unity StringTable data files extracted from the game that need to be translated from English (en_US) to Japanese (ja_JP).
 
-### 🔧 Current Task: Complete Retranslation with Structure Protection
+### 🔧 Current Task: Complete Retranslation with Strict Structure Protection (2nd Restart)
 
-**IMPORTANT**: The project is in **retranslation mode** - redoing all translations with strict structure protection.
+**IMPORTANT**: The project is in **strict retranslation mode** - complete restart (2nd time) with rigorous workflow.
 
-Due to previous automation issues, Unity StringTable structural markers (`""`) were incorrectly converted to Japanese brackets (`「」`, `『』`), causing game import failures. The solution is to completely retranslate all files using English source as base, with strict structure protection.
+**Restart Reason:** 77,533 structural errors (45.7% of entries) were discovered in the previous version. Unity StringTable structural markers (`""`) were incorrectly converted to Japanese brackets (`「」`, `『』`), or had quotes improperly added/removed, causing game import failures. The solution is a complete clean restart from English source with strict validation workflow.
 
-**Retranslation Overview:**
-- **Base**: English files (en_US) - guarantees correct structure
-- **Reference**: backup_broken files - reuses existing Japanese translations where valid
-- **Protection**: Strict rules for `""`, `[]`, `<>`, `::action::` markers
-- **Scope**: 169,752 entries (corrected) across base game + DLC1 + DLC2
-- **Progress**: 93.88% complete (159,360/169,752), tracked in `translation/.retranslation_progress.json`
-- **Approach**: Sequential from line 1, complete each 50K-line section 100% before next
+**Strict Retranslation Overview:**
+- **Base**: English files (en_US) - guarantees correct structure (530,425 lines, 169,712 entries)
+- **Reference**: Spanish files (es_ES) - MANDATORY for translatability judgment (NOT backup_broken)
+- **Validation**: validate_structure_v2.py after EVERY edit - zero tolerance for errors
+- **Protection**: Strict rules for `""`, `[]`, `<>`, `::action::` markers (no Japanese brackets allowed)
+- **Scope**: 169,712 entries total across base game + DLC1 + DLC2
+- **Progress**: 0% complete (clean restart 2025-10-29), tracked in `translation/.retranslation_progress.json` v3.0
+- **Approach**: Sequential from line 666, NO skipping/prioritization/batch processing
 
-See `translation/RETRANSLATION_WORKFLOW.md` for detailed workflow and `translation/STRUCTURE_PROTECTION_RULES.md` for structure rules.
+**Key Documents:**
+- **translation/STRICT_TRANSLATION_RULES.md** - Comprehensive strict workflow guide (PRIMARY)
+- **translation/STRUCTURE_PROTECTION_RULES.md** - Structure protection rules (detailed)
+- **translation/RETRANSLATION_WORKFLOW.md** - Workflow overview
+- **translation/validate_structure_v2.py** - Mandatory validation script
 
 ### 🤖 Automated Retranslation System
 
@@ -92,12 +97,12 @@ translation/
 │       │   │   └── StringTableData_English-CAB-*.txt  (120,559 lines)
 │       │   └── DLC2/         # Cult of the Holy Detonation DLC
 │       │       └── StringTableData_English-CAB-*.txt  (77,353 lines)
-│       └── es_ES/            # Spanish files (may be useful for reference)
+│       └── es_ES/            # Spanish files (MANDATORY for translatability judgment)
 ├── target/                    # Translation files (Japanese)
 │   └── v1.6.9.420.309496/
 │       └── ja_JP/            # Japanese translations (same structure as source)
-├── backup_broken/            # Backup of broken format files (reference for retranslation)
-│   ├── StringTableData_English-CAB-*.txt  (base game - broken format but useful Japanese text)
+├── backup_broken/            # Backup of broken format files (77,533 errors - NOT recommended for use)
+│   ├── StringTableData_English-CAB-*.txt  (base game - 45.7% structural errors)
 │   ├── DLC1/                 # DLC1 broken format backup
 │   └── DLC2/                 # DLC2 broken format backup
 ├── nouns_glossary.json       # Glossary for consistent noun translations
@@ -254,40 +259,44 @@ wc -l translation/target/v1.6.9.420.309496/ja_JP/*.txt
 
 ⚠️ **IMPORTANT: Process files sequentially from the beginning**
 
-**Sequential Processing Approach (CORRECTED 2025-10-29):**
-1. **Start from line 1**: Never prioritize "problem areas" - this causes scattered gaps
-2. **Complete each 50K section 100%**: Before moving to next section
-3. **Validate after each section**: Use `validate_translation.py` to ensure 0 untranslated
-4. **Only advance when 100% complete**: Scattered work = project failure
+**Sequential Processing Approach (STRICT WORKFLOW 2025-10-29):**
+1. **Start from line 666**: First translatable entry (never skip or prioritize)
+2. **Complete each section 100%**: Before moving to next section
+3. **Spanish reference MANDATORY**: Check Spanish file for translatability before each translation
+4. **Validate after EVERY edit**: Use `validate_structure_v2.py` - zero tolerance for errors
+5. **Only advance when validated**: Any error = immediate fix required
 
-**Key principles for retranslation (REDESIGNED 2025-10-25):**
+**Key principles for strict retranslation (REDESIGNED 2025-10-29):**
+- **Spanish translatability check**: Compare with Spanish file - if Spanish translates, Japanese can translate
 - **Large chunk processing**: Process in 150-200 line chunks (minimizes Read/Edit operations → small conversation history)
-- **Session limit**: 500 entries per session (high efficiency - completes in ~34 sessions total)
+- **Session limit**: 500 entries per session (high efficiency - completes in ~340 sessions total for 169,712 entries)
 - **Structure protection**: Validate `""`, `[]`, `<>`, `::action::` markers after EVERY edit
-- **Sequential processing**: Never batch operations; never skip sections
+- **Sequential processing**: Never batch operations; never skip sections; never prioritize
 - **Efficient commits**: Commit every 500 entries (reduces git overhead while maintaining safety)
 - **Session restarts**: Automated scripts handle session restarts when memory threshold reached
 - **Memory threshold**: 5000MB limit (6GB physical RAM - 1GB margin, monitored every 30s)
 
-**Standard retranslation workflow (REDESIGNED 2025-10-25):**
-1. Read progress from `translation/.retranslation_progress.json`
-2. **Read 150-200 line chunks** from both backup_broken (Japanese source) and target (English base)
-3. Extract Japanese text from backup_broken, apply to target with structure protection
-4. For untranslated entries: translate English→Japanese using `nouns_glossary.json`
-5. Validate structure after each edit (line count, markers, no Chinese characters)
+**Standard strict retranslation workflow (UPDATED 2025-10-29):**
+1. Read progress from `translation/.retranslation_progress.json` (v3.0 - strict workflow)
+2. **Read 150-200 line chunks** from English source, Spanish reference, and Japanese target
+3. **Check Spanish for translatability**: If Spanish == English → skip (program identifier); if translated → translate to Japanese
+4. Translate English→Japanese using `nouns_glossary.json` (for translatable entries only)
+5. **Validate structure after EACH edit**: Run `validate_structure_v2.py` - any error → immediate rollback and fix
 6. **Commit every 500 entries** with progress update (efficient memory management)
 7. **End session after ~500 entries** (high efficiency - minimizes total sessions needed)
-8. Continue until all files completed (expected: ~150 sessions, ~3-4 days)
+8. Continue until all files completed (expected: ~340 sessions for 169,712 entries)
 
-**For manual sessions (REDESIGNED 2025-10-25):**
+**For manual sessions (STRICT WORKFLOW 2025-10-29):**
 When user requests work manually (not via automation script):
+- **Spanish reference check**: MANDATORY before each translation - check if Spanish translates the text
 - **Chunk size**: 150-200 lines (large chunks to minimize Read/Edit operations)
 - **Session target**: Process as many entries as comfortable (aim for 500 if possible)
-- **Structure validation**: MANDATORY after each edit
+- **Structure validation**: MANDATORY after EVERY edit using `validate_structure_v2.py`
 - **Commit frequency**: 500 entries (or when completing a major section)
-- Reference glossary for all proper nouns (translation only)
-- Update progress file after each commit
-- Memory threshold: 5000MB (6GB RAM - 1GB margin)
+- **Glossary reference**: nouns_glossary.json for all proper nouns (consistent translations)
+- **Progress update**: Update .retranslation_progress.json after each commit
+- **Memory threshold**: 5000MB (6GB RAM - 1GB margin)
+- **Sequential only**: NO skipping, NO prioritization, NO batch processing
 
 **For automated retranslation:**
 The `automation/auto-retranslate.sh` script handles:
