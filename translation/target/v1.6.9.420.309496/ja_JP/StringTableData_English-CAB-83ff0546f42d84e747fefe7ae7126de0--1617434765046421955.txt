@@ -405584,27 +405584,27 @@
       1 Array Array (316 items)
        0 int size = 316
        [0]
-        1 string data = "Your actions convinced the Machine Commune to take a chance on humanity. Calculating that desperation would overcome intolerance, the Commune restarted the Gipper oil wells and wiped out the scavenger gangs.\n\n\nDenver is now a safe haven for those with nowhere else to go, run with inhuman kindess."
+        1 string data = ""君の行動はマシーン・コミューンに人類を信頼させるに足るものだった。必死に縋るものは何でも受け入れると判断し、コミューンはギッパーズの油井を再稼働させ、スカベンジャーのギャングを一掃した。\n\n\nデンバーは今では行き場のない人々の安全な避難所として、非人間的な優しさによって運営されている。""
        [1]
-        1 string data = "\r\n\r\nYou actions convinced the Machine Commune that humanity could never be trusted. Without the Gippers to oppose them, they swept through the ruins of Denver, slicing and burning away every scrap of flesh, living or dead. \r\n\r\nNothing lives there anymore, and any who enter never return."
+        1 string data = ""\r\n\r\n君の行動はマシーン・コミューンに人類は決して信頼できないと確信させた。対抗するギッパーズがいなくなり、彼らはデンバーの廃墟を一掃し、生きているものも死んでいるものも、肉という肉を全て切り刻み焼き払った。\r\n\r\nもはやそこには何も生きておらず、入る者は誰も戻ってこない。""
        [2]
-        1 string data = "(EXIT)"
+        1 string data = ""(退出)""
        [3]
-        1 string data = "(To Arapaho Garage)"
+        1 string data = ""(アラパホ・ガレージへ)""
        [4]
-        1 string data = "The Machine Commune was thoroughly destroyed, and even the scavengers found little of interest in the airport."
+        1 string data = ""マシーン・コミューンは徹底的に破壊され、スカベンジャーでさえ空港には興味を示すものがほとんどなかった。""
        [5]
-        1 string data = "(To Arcology)"
+        1 string data = ""(アーコロジーへ)""
        [6]
-        1 string data = "Didn't visit Aspen! What happens to the Breathers and Vic?"
+        1 string data = ""アスペンに訪れなかった! ブリーザーズとヴィックはどうなる?""
        [7]
-        1 string data = "(To Pueblo Ruins)"
+        1 string data = ""(プエブロ遺跡へ)""
        [8]
-        1 string data = "Holy moly, they didn't even make it to CO Springs? Crazy! Magical powers."
+        1 string data = ""なんてこった、コロラドスプリングスまでたどり着かなかったのか? クレイジー! 魔法の力だ。""
        [9]
-        1 string data = ""Testing SPEAKER and LISTENER in normal CONVERSATION NODES. Speaker is A1001_DummySpeaker. "\n\n\nThis is Node 10. "
+        1 string data = ""通常の会話ノードでSPEAKERとLISTENERをテスト。話者はA1001_DummySpeaker。"\n\n\nこれはノード10。"
        [10]
-        1 string data = "Steeltown"
+        1 string data = ""スティールタウン""
        [11]
         1 string data = "Script Node 12"
        [12]
@@ -405612,15 +405612,15 @@
        [13]
         1 string data = "Script Node 14"
        [14]
-        1 string data = "To the residents of Colorado, the changes seemed to happen in the blink of an eye.\n\n\nOne moment, The Patriarch was in charge. The next, he had been deposed by mysterious strangers from Arizona. "
+        1 string data = ""コロラドの住民にとって、変化は瞬く間に起こったように思えた。\n\n\nつい今しがたまでパトリアークが支配していたのに、次の瞬間にはアリゾナから来た謎の異邦人によって退位させられていた。""
        [15]
-        1 string data = "In Denver, this came as a surprise to both God-President Reagan and the Machine Intelligence Tower. \r\n\r\nMother Nancy locked herself within the Sacred Server Room, determined to fix her God's newly discovered blindspot. Every day, Valor pleads for answers, but no one replies.\r\n\r\nNever before had the Machine Commune's predictive models failed so spectacularly. Fear has taken hold in the commune, and anti-human factions now command the majority. \r\n\r\nThe Ruins of Denver have become far, far more dangerous."
+        1 string data = ""デンバーでは、これは神大統領レーガンとマシーン・インテリジェンス・タワーの両方にとって驚きだった。\r\n\r\nマザー・ナンシーは神聖なサーバールームに閉じこもり、神の新しく発見された盲点を修復しようと決意した。毎日、ヴァラーは答えを求めて懇願するが、誰も応答しない。\r\n\r\nマシーン・コミューンの予測モデルがこれほど劇的に失敗したことは今までなかった。恐怖がコミューンを支配し、反人間派閥が今や多数派を占めている。\r\n\r\nデンバーの廃墟は遥かに、遥かに危険になった。""
        [16]
-        1 string data = "Player response, no speaker or listener assigned. Follows node 10. "
+        1 string data = ""プレイヤーの応答、話者もリスナーも割り当てられていない。ノード10に続く。""
        [17]
-        1 string data = "Player response. \r\nRequired Listener is A1001_DummySpeaker.\r\nSpeaker cannot be assigned. \r\nFollows node 10. This is Node 18"
+        1 string data = ""プレイヤーの応答。\r\n必須リスナーはA1001_DummySpeaker。\r\n話者は割り当てできない。\r\nノード10に続く。これはノード18""
        [18]
-        1 string data = "Player response. The next node will be a BARK and the conversation will drop.\r\nRequired Listener is A1001_DummySpeaker.\r\nSpeaker cannot be assigned. \r\nFollows node 10. This is Node 19"
+        1 string data = ""プレイヤーの応答。次のノードはBARKになり、会話は終了する。\r\n必須リスナーはA1001_DummySpeaker。\r\n話者は割り当てできない。\r\nノード10に続く。これはノード19""
        [19]
         1 string data = """"
        [20]
@@ -405638,19 +405638,19 @@
        [26]
         1 string data = "Script Node 27"
        [27]
-        1 string data = ""Wow! That was amazing!""
+        1 string data = ""ワオ! すごいじゃないか!""
        [28]
-        1 string data = ""Awesome, you're really good at this!""
+        1 string data = ""素晴らしい、君は本当に上手だな!""
        [29]
-        1 string data = ""Good job!""
+        1 string data = ""よくやった!""
        [30]
-        1 string data = ""Way to go!""
+        1 string data = ""その調子だ!""
        [31]
-        1 string data = ""Neat!""
+        1 string data = ""いいね!""
        [32]
-        1 string data = ""It's okay. Nobody's perfect.""
+        1 string data = ""まあ大丈夫だ。完璧な人間なんていない。""
        [33]
-        1 string data = ""You'll get 'em next time.""
+        1 string data = ""次はきっとうまくいくさ。""
        [34]
         1 string data = "Script Node 35"
        [35]
@@ -405670,131 +405670,131 @@
        [42]
         1 string data = "\n"
        [43]
-        1 string data = "In a way, Denver has finally become a "shining city on the hill," a safe haven for those with nowhere else to go, run with inhuman kindness. "
+        1 string data = ""ある意味で、デンバーはついに「丘の上の輝く都市」となり、行き場のない人々の安全な避難所として、非人間的な優しさによって運営されている。""
        [44]
-        1 string data = "It was whispered that they had impossible powers... Put simply, they didn't "play by our rules."\n\n\n"
+        1 string data = ""彼らは不可能な力を持っていると囁かれた...簡単に言えば、彼らは「我々のルールに従わなかった」のだ。\n\n\n""
        [45]
         1 string data = "Script Node 46"
        [46]
-        1 string data = "TEXT MIGRATED TO b1001_DRIVER BARKS.\nJODIE DIALOGUE."
+        1 string data = ""テキストはb1001_DRIVER BARKSに移行済み。\nジョディの会話。""
        [47]
-        1 string data = "TEXT MIGRATED TO b1001_DRIVER BARKS.\nWOODSON DIALOGUE."
+        1 string data = ""テキストはb1001_DRIVER BARKSに移行済み。\nウッドソンの会話。""
        [48]
-        1 string data = "TEXT MIGRATED TO b1001_DRIVER BARKS.\nFALLBACK DIALOGUE"
+        1 string data = ""テキストはb1001_DRIVER BARKSに移行済み。\nフォールバック会話""
        [49]
         1 string data = "Script Node 50"
        [50]
-        1 string data = " DEBUG: Very temporary debug conversation."
+        1 string data = ""デバッグ: 非常に一時的なデバッグ会話。""
        [51]
-        1 string data = "Skill gate check. Skill level: "Easy""
+        1 string data = ""スキルゲートチェック。スキルレベル: "Easy"""
        [52]
-        1 string data = "Skill gate check. Skill level: "Extreme""
+        1 string data = ""スキルゲートチェック。スキルレベル: "Extreme"""
        [53]
-        1 string data = "Skill gate check. Skill level: "Hard""
+        1 string data = ""スキルゲートチェック。スキルレベル: "Hard"""
        [54]
-        1 string data = "Exit debug menu."
+        1 string data = ""デバッグメニューを終了。""
        [55]
-        1 string data = "Transitional node that links back to menu."
+        1 string data = ""メニューに戻るためのトランジショナルノード。""
        [56]
-        1 string data = "Skill gate check. Skill level: "Impossible""
+        1 string data = ""スキルゲートチェック。スキルレベル: "Impossible"""
        [57]
-        1 string data = "Skill gate check. Skill level: "Medium"
+        1 string data = ""スキルゲートチェック。スキルレベル: "Medium"""
        [58]
-        1 string data = "Skill gate check. Skill level: "None""
+        1 string data = ""スキルゲートチェック。スキルレベル: "None"""
        [59]
-        1 string data = "Skill gate check. Skill level: "Simple""
+        1 string data = ""スキルゲートチェック。スキルレベル: "Simple"""
        [60]
-        1 string data = "Skill gate check. Skill level: "VeryEasy""
+        1 string data = ""スキルゲートチェック。スキルレベル: "VeryEasy"""
        [61]
-        1 string data = "Skill gate check. Skill level: "VeryHard""
+        1 string data = ""スキルゲートチェック。スキルレベル: "VeryHard"""
        [62]
-        1 string data = "Starting on Enter, stopping OnExit. "
+        1 string data = ""Enter時に開始、OnExit時に停止。""
        [63]
-        1 string data = "Skill Gate Checks. \r\n"
+        1 string data = ""スキルゲートチェック。\r\n""
        [64]
-        1 string data = "Animation Checks. "
+        1 string data = ""アニメーションチェック。""
        [65]
-        1 string data = "  Animation checks."
+        1 string data = ""アニメーションチェック。""
        [66]
-        1 string data = "Skill gate checks. "
+        1 string data = ""スキルゲートチェック。""
        [67]
-        1 string data = "Start Idle, stop idle, in conversation node.  "
+        1 string data = ""会話ノード内でアイドル開始、アイドル停止。""
        [68]
-        1 string data = "Start Idle, stop idle, in bark node. This will drop the conversation. "
+        1 string data = ""バークノード内でアイドル開始、アイドル停止。これで会話が終了する。""
        [69]
-        1 string data = "Play Animation Conversation Owner. "
+        1 string data = ""会話オーナーのアニメーションを再生。""
        [70]
-        1 string data = "I AM AN ORIGINAL NODE"
+        1 string data = ""私はオリジナルのノードです""
        [71]
-        1 string data = "This is a very long bark designed to test this animation. Lorem ipsum, other latin, it sounds like an incantation, but that's not our genre. "
+        1 string data = ""これはこのアニメーションをテストするための非常に長いバークです。ロレム・イプサム、その他のラテン語、呪文のように聞こえますが、それは我々のジャンルではありません。""
        [72]
-        1 string data = "Play animation on spawner.\n"
+        1 string data = ""スポーナーでアニメーションを再生。\n""
        [73]
-        1 string data = "Playing animation on spawner. "
+        1 string data = ""スポーナーでアニメーションを再生中。""
        [74]
         1 string data = "Script Node 75"
        [75]
-        1 string data = "Empty descriptive response, no speaker."
+        1 string data = ""空の説明的応答、話者なし。""
        [76]
-        1 string data = ""Response in quotes with Dummy Speaker.""
+        1 string data = ""ダミースピーカーを使った引用符付き応答。""
        [77]
-        1 string data = " Test Speakers and Listeners. Make sure you only use this if your Spawner includes a1001_DummySpeaker."
+        1 string data = ""話者とリスナーのテスト。スポーナーにa1001_DummySpeakerが含まれている場合にのみ使用してください。""
        [78]
-        1 string data = " There does not appear to be an instance of A1001_DummySpeaker available."
+        1 string data = ""A1001_DummySpeakerのインスタンスが利用できないようです。""
        [79]
-        1 string data = ""Response in quotes with Dummy Speaker."\nBark"
+        1 string data = ""ダミースピーカーを使った引用符付き応答。"\nバーク"
        [80]
-        1 string data = "Bark response, no speaker. Conversation will now drop."
+        1 string data = ""バーク応答、話者なし。会話はこれで終了します。""
        [81]
-        1 string data = "Test drop-through for QN Nodes."
+        1 string data = ""QNノードのドロップスルーをテスト。""
        [82]
-        1 string data = "Okay, QN Node testing. Test Global current value:\ntestGlobal1 == [Global: testGlobal1]\n"
+        1 string data = ""了解、QNノードのテスト。テストグローバルの現在値:\ntestGlobal1 == [Global: testGlobal1]\n""
        [83]
-        1 string data = " Gated QN Node testing. Test Global current value:\ntestGlobal1 == [Global: testGlobal1]\nThis node is gated by testGlobal1 == 1."
+        1 string data = ""ゲートされたQNノードのテスト。テストグローバルの現在値:\ntestGlobal1 == [Global: testGlobal1]\nこのノードはtestGlobal1 == 1でゲートされています。""
        [84]
-        1 string data = " Gated QN Node testing. Test Global current value:\ntestGlobal1 == [Global: testGlobal1]\nThis node is not gated."
+        1 string data = ""ゲートされたQNノードのテスト。テストグローバルの現在値:\ntestGlobal1 == [Global: testGlobal1]\nこのノードはゲートされていません。""
        [85]
-        1 string data = "Intermediate node. QN is..."
+        1 string data = ""中間ノード。QNは...""
        [86]
-        1 string data = "Set our test global to 1, gating off the first question node.testGlobal1 == [Global: testGlobal1]\n"
+        1 string data = ""テストグローバルを1に設定し、最初の質問ノードをゲートオフします。testGlobal1 == [Global: testGlobal1]\n""
        [87]
-        1 string data = "Set our test global to 0, allowing fall-through to the other node."
+        1 string data = ""テストグローバルを0に設定し、他のノードへのフォールスルーを許可します。""
        [88]
-        1 string data = "Attempt to step through without changing anything."
+        1 string data = ""何も変更せずにステップスルーを試みます。""
        [89]
-        1 string data = " I ONLY FOLLOW THE (sometimes invisible) QN NODE GATED BY testGlobal1 == 1.\n\n\nTest Global current value:\ntestGlobal1 == [Global: testGlobal1]"
+        1 string data = ""私はtestGlobal1 == 1でゲートされた（時々見えない）QNノードにのみ従います。\n\n\nテストグローバルの現在値:\ntestGlobal1 == [Global: testGlobal1]""
        [90]
-        1 string data = " I ONLY FOLLOW THE (sometimes invisible) QN NODE without any gating.\n\n\nTest Global current value:\ntestGlobal1 == [Global: testGlobal1]"
+        1 string data = ""私はゲートのない（時々見えない）QNノードにのみ従います。\n\n\nテストグローバルの現在値:\ntestGlobal1 == [Global: testGlobal1]""
        [91]
-        1 string data = "Step back."
+        1 string data = ""戻る。""
        [92]
-        1 string data = "Oh no! I couldn't go back to a QN Node, for some reason. Linking to the script node instead."
+        1 string data = ""なんてこった! なぜかQNノードに戻れませんでした。代わりにスクリプトノードにリンクします。""
        [93]
-        1 string data = "Attempt to step through again without changing anything, but link with "ALWAYS SHOW" "
+        1 string data = ""何も変更せずに再度ステップスルーを試みますが、"ALWAYS SHOW"でリンクします""
        [94]
-        1 string data = "Intermediate Node, linking to QNs with ALWAYS SHOW."
+        1 string data = ""中間ノード、ALWAYS SHOWでQNにリンクします。""
        [95]
-        1 string data = "Step through DIRECTLY to the QN Nodes without an intermediate or a link."
+        1 string data = ""中間やリンクなしで、QNノードに直接ステップスルーします。""
        [96]
-        1 string data = "TEXT MIGRATED TO b1001_DRIVER BARKS.\nMORNINGSTAR DIALOGUE."
+        1 string data = ""テキストはb1001_DRIVER BARKSに移行済み。\nモーニングスターの会話。""
        [97]
-        1 string data = "Test whether conditionals can still properly evaluate if they are behind a Random node."
+        1 string data = ""条件文がランダムノードの背後にある場合でも、適切に評価できるかをテストします。""
        [98]
-        1 string data = "Conditional testing section. Uses Global testMultiples05. Current value: [Global: testMultiples05] "
+        1 string data = ""条件テストセクション。グローバルtestMultiples05を使用。現在値: [Global: testMultiples05]""
        [99]
-        1 string data = "Test conditional tree and exit."
+        1 string data = ""条件ツリーをテストして終了。""
        [100]
-        1 string data = "Test conditional tree and return to prior node. "
+        1 string data = ""条件ツリーをテストして前のノードに戻る。""
        [101]
         1 string data = "Script Node 102"
        [102]
-        1 string data = ""Pizepi speaker.""
+        1 string data = ""ピゼピ話者。""
        [103]
-        1 string data = ""Should Not Play.""
+        1 string data = ""再生すべきではない。""
        [104]
-        1 string data = ""Generic Valid Text. 2nd-lowest Random Weight. Once-ever.""
+        1 string data = ""汎用有効テキスト。2番目に低いランダムウェイト。一度のみ。""
        [105]
-        1 string data = ""Generic Valid Text. Lowest Random Weight. Repeatable.""
+        1 string data = ""汎用有効テキスト。最低ランダムウェイト。繰り返し可能。""
        [106]
         1 string data = "Script Node 107"
        [107]
@@ -405802,199 +405802,199 @@
        [108]
         1 string data = "Script Node 109"
        [109]
-        1 string data = ""Global Gated.""
+        1 string data = ""グローバルゲート済み。""
        [110]
-        1 string data = "Conversation-related checks."
+        1 string data = ""会話関連のチェック。""
        [111]
-        1 string data = " Select a conversation-related option."
+        1 string data = ""会話関連のオプションを選択してください。""
        [112]
-        1 string data = " Test OEI Scripts: Set Mob Hostile to Player after Respawn.\nBug WL3-4184\n"
+        1 string data = ""OEIスクリプトをテスト: リスポーン後にモブをプレイヤーに敵対させる。\nバグWL3-4184\n""
        [113]
-        1 string data = " Testing node for WL3-4184, \r\n"OEIScripts: SetMobHostileToPlayer() fails on Mobs which have been Respawned"\r\nUse in conjunction with Drama_TEST_DespawnThenRespawnMob.cs\r\n"
+        1 string data = ""WL3-4184のテストノード、\r\n"OEIScripts: SetMobHostileToPlayer() がリスポーンされたモブで失敗する"\r\nDrama_TEST_DespawnThenRespawnMob.csと組み合わせて使用\r\n""
        [114]
-        1 string data = " DEBUG: Test "Set Mob Hostile to Player" on a despawned, then respawned enemy."
+        1 string data = ""デバッグ: デスポーン後にリスポーンされた敵に対して"モブをプレイヤーに敵対させる"をテストします。""
        [115]
-        1 string data = " Setting Global. You should see a mob despawn. Please wait until it has respawned."
+        1 string data = ""グローバルを設定中。モブがデスポーンするのが見えるはずです。リスポーンするまで待ってください。""
        [116]
-        1 string data = " Has it respawned? Great! If you press "Continue" too soon, you'll break stuff. Try not to do that."
+        1 string data = ""リスポーンしましたか? 素晴らしい! "Continue"を早く押しすぎると、壊れてしまいます。それは避けてください。""
        [117]
-        1 string data = ""NPC has respawned. Proceed.""
+        1 string data = ""NPCがリスポーンしました。続行してください。""
        [118]
-        1 string data = ""NPC has not yet respawned. Please return to prior node.""
+        1 string data = ""NPCがまだリスポーンしていません。前のノードに戻ってください。""
        [119]
-        1 string data = " You got it. Please hit "Continue" when ready."
+        1 string data = ""了解しました。準備ができたら"Continue"を押してください。""
        [120]
-        1 string data = "Setting Mob as hostile. Hit "Continue" then exit conversation."
+        1 string data = ""モブを敵対に設定中。"Continue"を押して会話を終了してください。""
        [121]
-        1 string data = "Test how well OEI detects items in the group.\n"
+        1 string data = ""OEIがグループ内のアイテムをどれだけうまく検出するかをテストします。\n""
        [122]
-        1 string data = "Has Item Party Is GreaterThanOrEqual to 1 (TALK NODE)\n\n\nThis means we FAILED\n"Equal to 1 AND GreaterThanOrEqualTo 1."\nand\n"Equal to 1."\n\n\nSo unless you have 2 of the item in question, there's a problem here."
+        1 string data = ""Has Item Party Is GreaterThanOrEqual to 1 (TALK NODE)\n\n\nこれは失敗を意味します\n"Equal to 1 AND GreaterThanOrEqualTo 1."\nおよび\n"Equal to 1."\n\n\n問題のアイテムを2つ持っていない限り、ここに問題があります。""
        [123]
-        1 string data = "Has Item Party Is Equal to 1 (TALK NODE)\nThis means we FAILED "Equal to 1 AND GreaterThanOrEqualTo 1.""
+        1 string data = ""Has Item Party Is Equal to 1 (TALK NODE)\nこれは"Equal to 1 AND GreaterThanOrEqualTo 1."に失敗したことを意味します""
        [124]
-        1 string data = "Select a Response Node. If you only see "Back up" and "Exit", then neither node has satisfied the requirements."
+        1 string data = ""応答ノードを選択してください。"Back up"と"Exit"しか表示されない場合、どちらのノードも要件を満たしていません。""
        [125]
-        1 string data = "No conditionals satisfied.\nOEI Nodes do not think you Have Item Party EqualTo OR GreaterThan 1."
+        1 string data = ""条件が満たされていません。\nOEIノードはHas Item Party EqualToまたはGreaterThan 1だと思っていません。""
        [126]
-        1 string data = "Talk Nodes."
+        1 string data = ""トークノード。""
        [127]
-        1 string data = "Player Response Nodes."
+        1 string data = ""プレイヤー応答ノード。""
        [128]
-        1 string data = "Get an empty Cybernetic Transfer Module."
+        1 string data = ""空のサイバネティック転送モジュールを取得。""
        [129]
-        1 string data = "Has Item Party Is Equal To 1 (RESPONSE NODE)"
+        1 string data = ""Has Item Party Is Equal To 1 (RESPONSE NODE)""
        [130]
-        1 string data = "Has Item Party Is GreaterThanOrEqual to 1 (RESPONSE NODE)"
+        1 string data = ""Has Item Party Is GreaterThanOrEqual to 1 (RESPONSE NODE)""
        [131]
-        1 string data = "Back Up."
+        1 string data = ""戻る。""
        [132]
-        1 string data = "Looping back to the root menu for the OEI Conditional test."
+        1 string data = ""OEI条件テストのルートメニューにループバックします。""
        [133]
-        1 string data = "Giving 1 Empty Cybernetic Transfer Module via Dropset."
+        1 string data = ""ドロップセット経由で空のサイバネティック転送モジュールを1つ付与。""
        [134]
-        1 string data = "Remove all Cybernetic Transfer Modules."
+        1 string data = ""全てのサイバネティック転送モジュールを削除。""
        [135]
-        1 string data = "Removing all copies of Cybernetic transfer module (Empty)."
+        1 string data = ""サイバネティック転送モジュール（空）の全コピーを削除中。""
        [136]
-        1 string data = "Has Item Party Is Equal to 1 (TALK NODE)\n&&\nHas Item Party Is GreaterThanOrEqual to 1 (TALK NODE)"
+        1 string data = ""Has Item Party Is Equal to 1 (TALK NODE)\n&&\nHas Item Party Is GreaterThanOrEqual to 1 (TALK NODE)""
        [137]
-        1 string data = "Has Item Party is Equal to 4.\nDo you have 4 members in your party, and 1 item?\nIf so, as of 2019_03_24, that means that HasItemParty counts the item once for each PC. This is probably because each PC has access to the party inventory, but we're counting as if they did not."
+        1 string data = ""Has Item Party is Equal to 4.\nパーティに4人のメンバーがいて、アイテムが1つありますか?\nもしそうなら、2019_03_24時点では、HasItemPartyが各PCごとにアイテムを1回カウントすることを意味します。これはおそらく、各PCがパーティインベントリにアクセスできるが、そうでないかのようにカウントしているためです。""
        [138]
-        1 string data = ""Boo!""
+        1 string data = ""ブー!""
        [139]
-        1 string data = ""I am a very long bark. 'Boo' is 6 characters. I'm 66 characters.""
+        1 string data = ""私は非常に長いバークです。'Boo'は6文字です。私は66文字です。""
        [140]
         1 string data = "Script Node 141"
        [141]
-        1 string data = "I may be an ownerless conversation!"
+        1 string data = ""私はオーナーのない会話かもしれません!""
        [142]
-        1 string data = "Display a bark! This will probably end badly."
+        1 string data = ""バークを表示! これはおそらくひどく終わるでしょう。""
        [143]
-        1 string data = "Try opening Merchant UI."
+        1 string data = ""マーチャントUIを開いてみてください。""
        [144]
-        1 string data = "You got it! Merchanting ahoy."
+        1 string data = ""やった! 取引開始です。""
        [145]
-        1 string data = "Test SetDisplayName and ClearDisplayName."
+        1 string data = ""SetDisplayNameとClearDisplayNameをテスト。""
        [146]
-        1 string data = "Testing Set DisplayName and ClearDisplayName."
+        1 string data = ""Set DisplayNameとClearDisplayNameをテスト中。""
        [147]
-        1 string data = "Display name, then clear on Exit, then display another Speaker Node."
+        1 string data = ""名前を表示し、Exit時にクリアし、別の話者ノードを表示。""
        [148]
-        1 string data = "Display name, then clear in On Enter on the next script node."
+        1 string data = ""名前を表示し、次のスクリプトノードのOn Enterでクリア。""
        [149]
-        1 string data = "Display name, then clear in On Enter on the next Talk node."
+        1 string data = ""名前を表示し、次のトークノードのOn Enterでクリア。""
        [150]
-        1 string data = "Reagan Display Node, clear On Exit, will follow with a Speaker node."
+        1 string data = ""レーガン表示ノード、On Exitでクリア、話者ノードが続く。""
        [151]
-        1 string data = "Reagan Display Node. Leading to Script Node with ClearConversationSpeakerDisplayName."
+        1 string data = ""レーガン表示ノード。Clear会話SpeakerDisplayNameを含むスクリプトノードに続く。""
        [152]
-        1 string data = "Reagan Display Node. Leading to another Talk Node."
+        1 string data = ""レーガン表示ノード。別のトークノードに続く。""
        [153]
         1 string data = "Script Node 154"
        [154]
-        1 string data = "Generic Empty Node."
+        1 string data = ""汎用空ノード。""
        [155]
-        1 string data = "Generic Node with Speaker."
+        1 string data = ""話者付き汎用ノード。""
        [156]
-        1 string data = "Clear Conversation Display name On Enter."
+        1 string data = ""On Enterで会話表示名をクリア。""
        [157]
-        1 string data = "Display name, then clear on Exit, then display an empty node."
+        1 string data = ""名前を表示し、Exit時にクリアし、空ノードを表示。""
        [158]
-        1 string data = "Display name, Clear on OnExit, then go to Script Node and Trigger Node."
+        1 string data = ""名前を表示し、OnExitでクリアし、スクリプトノードとトリガーノードへ。""
        [159]
-        1 string data = "Reagan Display Node, clear On Exit, will follow with an Empty Node."
+        1 string data = ""レーガン表示ノード、On Exitでクリア、空ノードが続く。""
        [160]
-        1 string data = "Display name, then clearing OnExit before Script Node followed by Trigger node. Will connect to b3001_MotherNancyReliance"
+        1 string data = ""名前を表示し、トリガーノードが続くスクリプトノードの前にOnExitでクリア。b3001_MotherNancyRelianceに接続します""
        [161]
         1 string data = "Script Node 162"
        [162]
-        1 string data = "Trigger Conv Node 163"
+        1 string data = ""トリガー会話ノード163""
        [163]
-        1 string data = "Display name, Clear on next Script Node, then go to Trigger Node."
+        1 string data = ""名前を表示し、次のスクリプトノードでクリアし、トリガーノードへ。""
        [164]
-        1 string data = "Display name, then clearing on Script Node followed by Trigger node. Will connect to b3001_MotherNancyReliance"
+        1 string data = ""名前を表示し、トリガーノードが続くスクリプトノードでクリア。b3001_MotherNancyRelianceに接続します""
        [165]
         1 string data = "Script Node 166"
        [166]
-        1 string data = "Display name, Clear on a following Talk Node, followed by a Trigger node."
+        1 string data = ""名前を表示し、続くトークノードでクリアし、トリガーノードが続く。""
        [167]
-        1 string data = "Display name, then clearing on Talk node's OnEnter, then script Node followed by Trigger node. Will connect to b3001_MotherNancyReliance"
+        1 string data = ""名前を表示し、トークノードのOnEnterでクリアし、トリガーノードが続くスクリプトノードへ。b3001_MotherNancyRelianceに接続します""
        [168]
-        1 string data = "Clearing talk node."
+        1 string data = ""トークノードをクリア中。""
        [169]
-        1 string data = ""I am a long bark, much longer than we should have in the final game. However, this is useful for testing dynamic bark duration systems. My length is 30x that of the 'boo' string.""
+        1 string data = ""私は長いバークで、最終ゲームで持つべきものよりもずっと長いです。しかし、これは動的バーク持続時間システムのテストに役立ちます。私の長さは'boo'文字列の30倍です。""
        [170]
-        1 string data = ""This is a test camera conversation.""
+        1 string data = ""これはテストカメラ会話です。""
        [171]
-        1 string data = ""This one is  NOT Cinematic.""
+        1 string data = ""これはシネマティックではありません。""
        [172]
-        1 string data = ""And... Bark.""
+        1 string data = ""そして...バーク。""
        [173]
-        1 string data = "Go to a NOT Cinematic node."
+        1 string data = ""シネマティックではないノードへ移動。""
        [174]
-        1 string data = "Cinematic node."
+        1 string data = ""シネマティックノード。""
        [175]
-        1 string data = "Cinematic node."
+        1 string data = ""シネマティックノード。""
        [176]
-        1 string data = "Leave via Bark"
+        1 string data = ""バーク経由で退出""
        [177]
-        1 string data = ""Talk node with several skill checks. Follows a script node (38) with IsAddPlayer=true."\n\n\n"PC 0 has Assault Rifles but not Medicine."\n"PC 3 has Medicine but not Assault Rifles."\n"No PC has Scavenginer.""
+        1 string data = ""複数のスキルチェックがあるトークノード。IsAddPlayer=trueのスクリプトノード(38)に続きます。"\n\n\n"PC 0はアサルトライフルを持っているが医療は持っていません。"\n"PC 3は医療を持っているがアサルトライフルは持っていません。"\n"どのPCもスカベンジャーは持っていません。""
        [178]
-        1 string data = ""Assault Rifles test.""
+        1 string data = ""アサルトライフルのテスト。""
        [179]
-        1 string data = ""Medicine test.""
+        1 string data = ""医療のテスト。""
        [180]
-        1 string data = ""Scavenger Test.""
+        1 string data = ""スカベンジャーのテスト。""
        [181]
-        1 string data = "Test Radio Call."
+        1 string data = ""ラジオコールをテスト。""
        [182]
-        1 string data = "Launching a Radio Call in OnExit."
+        1 string data = ""OnExitでラジオコールを起動中。""
        [183]
-        1 string data = "Debug checks, category 1 (pre 2019_08_29)"
+        1 string data = ""デバッグチェック、カテゴリー1 (2019_08_29以前)""
        [184]
-        1 string data = ""Debug tests pre-dating 2019_08_29 live here.""
+        1 string data = ""2019_08_29以前のデバッグテストはここにあります。""
        [185]
-        1 string data = "Test local-only cutscene.\n"
+        1 string data = ""ローカル専用カットシーンをテスト。\n""
        [186]
-        1 string data = ""Start the local only cutscene via Drama_b1001_ReturnContentTinker.cs."\n\n\n"We're NOT using the isOtherPlayerInRange conditional in OEI."\n\n\n"Using SetGlobalIfGlobal to make sure we only flip it ONCE each way.""
+        1 string data = ""Drama_b1001_ReturnContentTinker.cs経由でローカル専用カットシーンを開始。"\n\n\n"OEIのisOtherPlayerInRange条件文は使用していません。"\n\n\n"SetGlobalIfGlobalを使用して、各方向で一度だけフリップすることを確認します。""
        [187]
-        1 string data = "Debug checks, category 2 (from 2019_08_30 to 2019_10_22)"
+        1 string data = ""デバッグチェック、カテゴリー2 (2019_08_30から2019_10_22まで)""
        [188]
-        1 string data = ""Debug tests between 2019_08_30 and (TBD End Date in THE FUTURE) live here.""
+        1 string data = ""2019_08_30から(未来の未定終了日)までのデバッグテストはここにあります。""
        [189]
-        1 string data = "Add follower: Courageous Little Toaster."
+        1 string data = ""フォロワーを追加: クーラジャス・リトル・トースター。""
        [190]
-        1 string data = "Add follower: Party Pal."
+        1 string data = ""フォロワーを追加: パーティ・パル。""
        [191]
-        1 string data = "Remove Follower: Courageous Little Toaster."
+        1 string data = ""フォロワーを削除: クーラジャス・リトル・トースター。""
        [192]
-        1 string data = "Removing Courageous Little Toaster in On Exit and dropping Conversation."
+        1 string data = ""On Exitでクーラジャス・リトル・トースターを削除し、会話を終了します。""
        [193]
-        1 string data = "Adding Courageous Little Toaster in On Exit and dropping Conversation."
+        1 string data = ""On Exitでクーラジャス・リトル・トースターを追加し、会話を終了します。""
        [194]
-        1 string data = "Remove follower: Party Pal."
+        1 string data = ""フォロワーを削除: パーティ・パル。""
        [195]
-        1 string data = ""Removing follower in On Exit and dropping Conversation.""
+        1 string data = ""On Exitでフォロワーを削除し、会話を終了します。""
        [196]
-        1 string data = ""Adding follower in On Exit and dropping Conversation.""
+        1 string data = ""On Exitでフォロワーを追加し、会話を終了します。""
        [197]
-        1 string data = "Speaker and listener (Requires DUMMY SPEAKER)"
+        1 string data = ""話者とリスナー (ダミースピーカーが必要)""
        [198]
-        1 string data = ""Adding follower in On Exit and dropping Conversation.""
+        1 string data = ""On Exitでフォロワーを追加し、会話を終了します。""
        [199]
-        1 string data = "Toggle Global: Party Pal Recruitable.\n"
+        1 string data = ""グローバルを切り替え: パーティ・パルがリクルート可能。\n""
        [200]
-        1 string data = "b4001_PartyPal_isRecruitable] == [Global: b4001_PartyPal_isRecruitable]\n\n\nToggling"
+        1 string data = ""b4001_PartyPal_isRecruitable] == [Global: b4001_PartyPal_isRecruitable]\n\n\n切り替え中""
        [201]
         1 string data = "Script Node 202"
        [202]
         1 string data = "Script Node 203"
        [203]
-        1 string data = "b4001_PartyPal_isRecruitable] == [Global: b4001_PartyPal_isRecruitable]"
+        1 string data = ""b4001_PartyPal_isRecruitable] == [Global: b4001_PartyPal_isRecruitable]""
        [204]
-        1 string data = "Decrease Faction rep (MAJOR) with Gippers."
+        1 string data = ""ギッパーズとの派閥評価を減少 (大幅)。""
        [205]
-        1 string data = "Decreasing rep. Are they hostile yet?"
+        1 string data = ""評価を減少中。まだ敵対的ですか?""
        [206]
         1 string data = "Script Node 207"
        [207]
@@ -406002,45 +406002,45 @@
        [208]
         1 string data = "Script Node 209"
        [209]
-        1 string data = ""Continue will launch a cutscene.""
+        1 string data = ""Continueを押すとカットシーンが起動します。""
        [210]
-        1 string data = "Shared conversation test, launched from cutscene.\n"
+        1 string data = ""共有会話テスト、カットシーンから起動。\n""
        [211]
         1 string data = "Script Node 212"
        [212]
         1 string data = "Script Node 213"
        [213]
-        1 string data = ""Test conversation launched from cutscene.""
+        1 string data = ""カットシーンから起動されたテスト会話。""
        [214]
-        1 string data = "I AM A NEW NODE! "
+        1 string data = ""私は新しいノードです!""
        [215]
-        1 string data = "Test - Fight with Convo Owner (only start combat, combat won't persist)"
+        1 string data = ""テスト - 会話オーナーと戦闘 (戦闘開始のみ、戦闘は持続しません)""
        [216]
-        1 string data = "Test- give XP for spawner group"
+        1 string data = ""テスト - スポーナーグループにXPを付与""
        [217]
-        1 string data = "Give XP"
+        1 string data = ""XPを付与""
        [218]
-        1 string data = "Starting combat on exit\n"
+        1 string data = ""終了時に戦闘を開始\n""
        [219]
-        1 string data = "Debug checks, category 3 (from  2019_10_23 to 2020_01_12)"
+        1 string data = ""デバッグチェック、カテゴリー3 (2019_10_23から2020_01_12まで)""
        [220]
-        1 string data = ""Debug category 3""
+        1 string data = ""デバッグカテゴリー3""
        [221]
-        1 string data = "Test-Fight with Debug NPC in ar_TEST_COnversationZoomTest.unity (only start combat, combat won't persist)"
+        1 string data = ""テスト - ar_TEST_COnversationZoomTest.unityのデバッグNPCと戦闘 (戦闘開始のみ、戦闘は持続しません)""
        [222]
-        1 string data = "Starting combat on exit\n"
+        1 string data = ""終了時に戦闘を開始\n""
        [223]
-        1 string data = "Test-Attack NPC in ar_TEST_COnversationZoomTest.unity"
+        1 string data = ""テスト - ar_TEST_COnversationZoomTest.unityのNPCを攻撃""
        [224]
-        1 string data = "Starting on Exit"
+        1 string data = ""Exit時に開始""
        [225]
-        1 string data = "Test - Fight with Convo Owner (both Owner Hostile and Start Combat)"
+        1 string data = ""テスト - 会話オーナーと戦闘 (オーナー敵対と戦闘開始の両方)""
        [226]
-        1 string data = ""On Exit, will: \r\nSetConversationOwnerHostileToPlayer\r\nStartCombatWithConversationOwner""
+        1 string data = ""On Exitで実行: \r\nSet会話OwnerHostileToPlayer\r\nStartCombatWith会話Owner""
        [227]
-        1 string data = "Test Reagan Camera Angles.\n"
+        1 string data = ""レーガンカメラアングルをテスト。\n""
        [228]
-        1 string data = "Test Camera Angles.\n"
+        1 string data = ""カメラアングルをテスト。\n""
        [229]
         1 string data = """"
        [230]
@@ -406050,21 +406050,21 @@
        [232]
         1 string data = """"
        [233]
-        1 string data = "CameraOverride_01StatueReagan_ConversationSpeaker"
+        1 string data = ""カメラOverride_01StatueReagan_会話Speaker""
        [234]
-        1 string data = "CameraOverride_02StatueReagan_Wide"
+        1 string data = ""カメラOverride_02StatueReagan_Wide""
        [235]
-        1 string data = "Voice of Reagan (Virtual reagan) - used for barks and conversation"
+        1 string data = ""レーガンの声 (バーチャルレーガン) - バークと会話に使用""
        [236]
-        1 string data = "Reagan statue (normally only used for barks)"
+        1 string data = ""レーガン像 (通常はバークのみに使用)""
        [237]
-        1 string data = "999_iUSMI"
+        1 string data = ""999_iUSMI""
        [238]
-        1 string data = "MorningstarCamera"
+        1 string data = ""モーニングスターカメラ""
        [239]
-        1 string data = "Camera Override_VirtualReagan"
+        1 string data = ""カメラ Override_VirtualReagan""
        [240]
-        1 string data = "Mist that burns"
+        1 string data = ""燃える霧""
        [241]
         1 string data = """"
        [242]
@@ -406074,19 +406074,19 @@
        [244]
         1 string data = """"
        [245]
-        1 string data = "Reagan statue (Bark)"
+        1 string data = ""レーガン像 (バーク)""
        [246]
-        1 string data = "Reagan statue bark!"
+        1 string data = ""レーガン像のバーク!""
        [247]
-        1 string data = " Debug Options turned off via node 55. If you are seeing this for the first time, you may need to turn debug options on using the cheat menu."
+        1 string data = ""デバッグオプションはノード55経由でオフになっています。これが初めて表示される場合は、チートメニューを使用してデバッグオプションをオンにする必要があるかもしれません。""
        [248]
         1 string data = "Script Node 249"
        [249]
-        1 string data = "Nancy Reliance"
+        1 string data = ""ナンシー・リライアンス""
        [250]
-        1 string data = "Valor"
+        1 string data = ""ヴァラー""
        [251]
-        1 string data = "Terminal: Emergency Override"
+        1 string data = ""ターミナル: 緊急オーバーライド""
        [252]
         1 string data = """"
        [253]
@@ -406096,103 +406096,103 @@
        [255]
         1 string data = "Script Node 256"
        [256]
-        1 string data = "Test video clips!"
+        1 string data = ""ビデオクリップをテスト!""
        [257]
-        1 string data = "Change to clip 1."
+        1 string data = ""クリップ1に変更。""
        [258]
-        1 string data = "Change to clip 2."
+        1 string data = ""クリップ2に変更。""
        [259]
-        1 string data = "Cycle through 3 clips: 0, 3, and 1. "
+        1 string data = ""3つのクリップを循環: 0、3、1。""
        [260]
-        1 string data = "Changing to Clip 1."
+        1 string data = ""クリップ1に変更中。""
        [261]
-        1 string data = "Changing to Clip 2."
+        1 string data = ""クリップ2に変更中。""
        [262]
-        1 string data = "Changing to Clip 0. "
+        1 string data = ""クリップ0に変更中。""
        [263]
-        1 string data = "Changing to Clip 3."
+        1 string data = ""クリップ3に変更中。""
        [264]
-        1 string data = "Test a bark. Requires the REAGAN speaker."
+        1 string data = ""バークをテスト。REAGANスピーカーが必要。""
        [265]
-        1 string data = "BARK!"
+        1 string data = ""バーク!""
        [266]
-        1 string data = " Missing Spk_b1001_ReaganOnScreen."
+        1 string data = ""Spk_b1001_ReaganOnScreenが見つかりません。""
        [267]
-        1 string data = "Test calling radio conversations from OEI."
+        1 string data = ""OEIからラジオ会話を呼び出すテスト。""
        [268]
-        1 string data = "Radio options."
+        1 string data = ""ラジオオプション。""
        [269]
-        1 string data = "Gonzalez call from Script Node OnEXIT"
+        1 string data = ""スクリプトノードOnEXITからゴンザレスをコール""
        [270]
-        1 string data = "Gonzalez call OnExit on Conversation Talk node."
+        1 string data = ""会話トークノードのOnExitでゴンザレスをコール。""
        [271]
-        1 string data = "Gonzalez call OnExit on Bark node."
+        1 string data = ""バークノードのOnExitでゴンザレスをコール。""
        [272]
-        1 string data = "Starting Gonzalez Radio Call."
+        1 string data = ""ゴンザレスのラジオコールを開始中。""
        [273]
-        1 string data = "Talk node"
+        1 string data = ""トークノード""
        [274]
-        1 string data = "bark"
+        1 string data = ""バーク""
        [275]
         1 string data = "Script Node 276"
        [276]
-        1 string data = "Call this conversation On Exit from a talk node."
+        1 string data = ""トークノードのOn Exitからこの会話を呼び出す。""
        [277]
-        1 string data = ""Hi! I'm called from the radio test conversation.""
+        1 string data = ""やあ! 私はラジオテスト会話から呼び出されました。""
        [278]
-        1 string data = ""Talk node.""
+        1 string data = ""トークノード。""
        [279]
-        1 string data = " Debug category 4 (from 2020-01-13 to 2020-04-26)"
+        1 string data = ""デバッグカテゴリー4 (2020-01-13から2020-04-26まで)""
        [280]
-        1 string data = ""Debug checks, category 4.""
+        1 string data = ""デバッグチェック、カテゴリー4。""
        [281]
-        1 string data = ""Test achievement console text. Only works in-editor.""
+        1 string data = ""実績コンソールテキストをテスト。エディタ内でのみ機能します。""
        [282]
-        1 string data = ""Unlocking achievement: Bunker Buster. Only works in-editor.""
+        1 string data = ""実績をアンロック中: バンカー・バスター。エディタ内でのみ機能します。""
        [283]
-        1 string data = " Test Cordite Blast Dialogue: Script node 29."
+        1 string data = ""コーダイト爆破会話をテスト: スクリプトノード29。""
        [284]
-        1 string data = ""Triggering node 29  in a5201_Cordite.""
+        1 string data = ""a5201_Corditeのノード29をトリガー中。""
        [285]
-        1 string data = "Trigger Conv Node 286"
+        1 string data = ""トリガー会話ノード286""
        [286]
-        1 string data = " Test Cordite Blast Dialogue: Script node 10."
+        1 string data = ""コーダイト爆破会話をテスト: スクリプトノード10。""
        [287]
-        1 string data = ""Triggering nodes 10 in a5201_Cordite. Skipping 29.""
+        1 string data = ""a5201_Corditeのノード10をトリガー中。29をスキップします。""
        [288]
-        1 string data = "Trigger Conv Node 289"
+        1 string data = ""トリガー会話ノード289""
        [289]
-        1 string data = " Test Reagan node - 9, then return."
+        1 string data = ""レーガンノードをテスト - 9、その後戻る。""
        [290]
-        1 string data = " Turn off Reagan Testing variable."
+        1 string data = ""レーガンテスト変数をオフにする。""
        [291]
-        1 string data = " DEBUG-Testing Reagan Video without Audio."
+        1 string data = ""デバッグ - オーディオなしでレーガンビデオをテスト。""
        [292]
-        1 string data = " Trigger Conv Node 293"
+        1 string data = ""トリガー会話ノード293""
        [293]
-        1 string data = " Debug Category 5 (from 2020-04-27 to 2020_07_14)"
+        1 string data = ""デバッグカテゴリー5 (2020-04-27から2020_07_14まで)""
        [294]
-        1 string data = " Debug Category 5"
+        1 string data = ""デバッグカテゴリー5""
        [295]
-        1 string data = "[Reward: Skill Book-Melee Weapons]\n[Penalty: Randolph will leave] Enter Kansas through Tornado Alley."
+        1 string data = ""[報酬: スキルブック-近接武器]\n[ペナルティ: ランドルフが去る] トルネードアレー経由でカンザスに入る。""
        [296]
-        1 string data = "[Reward: Heal Party, New Recruit] Follow the thieves through Tulsa on your way to Kansas."
+        1 string data = ""[報酬: パーティを回復、新しい新兵] カンザスに向かう途中でタルサ経由で泥棒を追跡する。""
        [297]
-        1 string data = " Debug Category 6. (2020_07_14 to TBD )"
+        1 string data = ""デバッグカテゴリー6。(2020_07_14から未定まで)""
        [298]
-        1 string data = " Conversation Animation Test\n"
+        1 string data = ""会話アニメーションテスト\n""
        [299]
-        1 string data = " Test Speakers with Overrides."
+        1 string data = ""オーバーライド付き話者をテスト。""
        [300]
-        1 string data = " Conversation animation test!\n"Hello, I'm the first speaker. I've just started the custom idle 'TalkingHappy.' ""
+        1 string data = ""会話アニメーションテスト!\n"こんにちは、私は最初の話者です。カスタムアイドル'TalkingHappy'を開始しました。"""
        [301]
-        1 string data = " "I am the second speaker."\n\n\n"My buddy there just stopped their custom idle.""
+        1 string data = ""私は2番目の話者です。"\n\n\n"そこにいる仲間はカスタムアイドルを停止しました。""
        [302]
-        1 string data = " "I am the first speaker again."\n\n\n"This time, instead of stopping my custom idle, I'm going to START 'Custom Idle: None.' ""
+        1 string data = ""私は再び最初の話者です。"\n\n\n"今回は、カスタムアイドルを停止する代わりに、'カスタムアイドル: なし'を開始します。"""
        [303]
-        1 string data = " "Hey. Good talk.""
+        1 string data = ""やあ。いい話だったね。""
        [304]
-        1 string data = " "Me too. I'm really glad we're friends.""
+        1 string data = ""私もそう思います。私たちが友達で本当によかった。""
        [305]
         1 string data = "Script Node 306"
        [306]
@@ -406212,9 +406212,9 @@
        [313]
         1 string data = "Script Node 315"
        [314]
-        1 string data = " Test node."
+        1 string data = ""テストノード。""
        [315]
-        1 string data = "Talk node so I can be collapsed."
+        1 string data = ""折りたたむことができるようにトークノード。""
    [1385]
     0 StringTable data
      1 string Filename = "testconversation_alternateintros01"
@@ -406462,47 +406462,47 @@
        [2]
         1 string data = "Script Node 4"
        [3]
-        1 string data = "Prasad congratulates the PC on surviving. Because of their combat valor and being the only survivor she can find, you're getting a field promotion! Congratulations.\n\n"
+        1 string data = ""プラサドはPCが生き延びたことを祝福する。戦闘での勇気と、彼女が見つけた唯一の生存者であることから、君は現地昇進することになった! おめでとう。\n\n""
        [4]
-        1 string data = "Okay, no time to lose. Prasad needs you to run recon on the (cave / dam building / compound / other) to the West: someone mentioned it in a garbled radio transmission, but they were cut off.\nAnother survivor may be in trouble: check it out ASAP.\n\n"
+        1 string data = ""よし、時間がない。プラサドは西にある(洞窟/ダムの建物/複合施設/その他)の偵察を君に任せる必要がある: 誰かが混線した無線通信でそれについて言及したが、通信が途切れた。\n別の生存者が危険にさらされているかもしれない: できるだけ早く確認してくれ。\n\n""
        [5]
-        1 string data = "Looks like you're empty-handed. I'm assuming you're familiar with firearms?"
+        1 string data = ""手ぶらのようだな。銃器の扱いには慣れているだろう?""
        [6]
-        1 string data = ""Depends on the gun.""
+        1 string data = ""銃によるな。""
        [7]
-        1 string data = "Actually, I like to get up close and personal."
+        1 string data = ""実は、接近戦が好きなんだ。""
        [8]
-        1 string data = ""We're running low on sidearms. Ammo, too... But that's not <i>completely</i> your fault."\n\n\nShe chuckles."
+        1 string data = ""サイドアームが不足している。弾薬も...でもそれは<i>完全に</i>君のせいじゃない。"\n\n\n彼女は笑う。""
        [9]
-        1 string data = ""We've got plenty of ammo - thanks to you - but we're running low on sidearms.""
+        1 string data = ""弾薬は十分にある - 君のおかげでね - だがサイドアームが不足している。""
        [10]
-        1 string data = ""What's your specialty?""
+        1 string data = ""君の得意分野は?""
        [11]
-        1 string data = ""Top of my class, ma'am.""
+        1 string data = ""クラスでトップです、少佐。""
        [12]
         1 string data = "Script Node 14"
        [13]
-        1 string data = ""What should we drop?""
+        1 string data = ""何を置いていくべきだ?""
        [14]
-        1 string data = ""Medical supplies.""
+        1 string data = ""医療品。""
        [15]
-        1 string data = ""Booze and drugs.""
+        1 string data = ""酒とドラッグ。""
        [16]
-        1 string data = ""Spare ammo and explosives.""
+        1 string data = ""予備の弾薬と爆発物。""
        [17]
-        1 string data = ""I <i>am</i> the weapon.""
+        1 string data = ""俺<i>自身</i>が武器だ。""
        [18]
         1 string data = "Script Node 20"
        [19]
-        1 string data = ""I like your style. Any particular weapon?""
+        1 string data = ""君のスタイルは好きだ。何か特定の武器はあるか?""
        [20]
-        1 string data = ""Bursts and covering fire. Automatics and semi-auto.""
+        1 string data = ""バーストと援護射撃。自動と半自動。""
        [21]
-        1 string data = ""Pistols. They're fast and versatile.""
+        1 string data = ""拳銃。速くて万能だ。""
        [22]
-        1 string data = ""Got a shotgun? Stopping power, good spread.""
+        1 string data = ""ショットガンはあるか? 阻止力があって、拡散もいい。""
        [23]
-        1 string data = ""I like to stay behind a scope.""
+        1 string data = ""スコープ越しに狙うのが好きだ。""
        [24]
         1 string data = "Script Node 26"
        [25]
@@ -406512,29 +406512,29 @@
        [27]
         1 string data = "Script Node 29"
        [28]
-        1 string data = "So, soldier. What's your combat training?"
+        1 string data = ""さて、兵士よ。君の戦闘訓練は?""
        [29]
-        1 string data = ""Long range weaponry.""
+        1 string data = ""長距離武器。""
        [30]
-        1 string data = ""Close quarters engagements.""
+        1 string data = ""近接戦闘。""
        [31]
-        1 string data = ""Uh, training?""
+        1 string data = ""え、訓練?""
        [32]
-        1 string data = ""How do you <i>fight</i>?""
+        1 string data = ""君はどう<i>戦う</i>?""
        [33]
-        1 string data = ""I like your style. Anything in particular?""
+        1 string data = ""君のスタイルは好きだ。何か特に?""
        [34]
-        1 string data = ""Sensible. Anything in particular?""
+        1 string data = ""賢明だ。何か特に?""
        [35]
-        1 string data = ""Luckily, I just so happen to have one of those.""
+        1 string data = ""運が良いことに、ちょうどそれを持っている。""
        [36]
-        1 string data = ""Wait, I misunderstood. Can we back up a step?""
+        1 string data = ""待て、誤解していた。一歩戻ってもいいか?""
        [37]
-        1 string data = ""Bigger's better, as far as I'm concerned.""
+        1 string data = ""大きいほうが良い、俺の考えではな。""
        [38]
-        1 string data = ""Wait a sec, I misunderstood. Can we back up a step?""
+        1 string data = ""ちょっと待て、誤解していた。一歩戻ってもいいか?""
        [39]
-        1 string data = ""Sure.""
+        1 string data = ""了解。""
        [40]
         1 string data = "Script Node 42"
        [41]
@@ -406542,27 +406542,27 @@
        [42]
         1 string data = """"
        [43]
-        1 string data = ""Anything with a sharp edge.""
+        1 string data = ""鋭い刃があるものなら何でも。""
        [44]
-        1 string data = ""Big, heavy, and blunt.""
+        1 string data = ""大きくて、重くて、鈍器。""
        [45]
-        1 string data = ""Those Dorsey fucks left us <i>plenty</i> of blades. Give 'em a taste of their own medicine.""
+        1 string data = ""あのドーシーの野郎どもが刃物を<i>大量に</i>残していった。同じ薬を味わわせてやろう。""
        [46]
-        1 string data = ""Take this crowbar. I was trying to use it to help Jodie, but I'm just getting in her way.""
+        1 string data = ""このバールを持っていけ。ジョディを助けようと使っていたが、邪魔になるだけだった。""
        [47]
-        1 string data = ""Heh. Vargas would have liked you. Suit yourself, soldier.""
+        1 string data = ""へっ。ヴァーガスは君を気に入っただろう。好きにしろ、兵士よ。""
        [48]
-        1 string data = ""Sure, soldier. Combat training. Long-range or short-range?""
+        1 string data = ""了解だ、兵士よ。戦闘訓練。長距離か短距離か?""
        [49]
         1 string data = """"
        [50]
-        1 string data = ""We're the young rangers!""
+        1 string data = ""俺たちは若きレンジャーズだ!""
        [51]
-        1 string data = ""We're just a couple of married scientists. Who kicked your ass.""
+        1 string data = ""私たちは結婚した科学者のカップルよ。あなたたちをボコボコにした。""
        [52]
-        1 string data = "[Choose from pre-created characters]"
+        1 string data = ""[事前作成されたキャラクターから選択]""
        [53]
-        1 string data = "[Create custom Characters]"
+        1 string data = ""[カスタムキャラクターを作成]""
        [54]
         1 string data = """"
        [55]
@@ -406590,9 +406590,9 @@
       1 Array Array (2 items)
        0 int size = 2
        [0]
-        1 string data = "Extra! Extra!"
+        1 string data = ""号外! 号外!""
        [1]
-        1 string data = "Hurry, hurry! Step right up!"
+        1 string data = ""急いで、急いで! さあどうぞ!""
    [1387]
     0 StringTable data
      1 string Filename = "testconversation_barks"
@@ -406622,13 +406622,13 @@
       1 Array Array (4 items)
        0 int size = 4
        [0]
-        1 string data = "I'm saying something in a conversation!"
+        1 string data = ""会話で何か言っている!""
        [1]
-        1 string data = "This is a bark after the conversation."
+        1 string data = ""これは会話後のバークです。""
        [2]
         1 string data = ""
        [3]
-        1 string data = "This is an intro bark."
+        1 string data = ""これはイントロバークです。""
    [1388]
     0 StringTable data
      1 string Filename = "testconversation_bartertest"
@@ -406662,15 +406662,15 @@
       1 Array Array (5 items)
        0 int size = 5
        [0]
-        1 string data = "Testing top shelf items!\n\n\n"
+        1 string data = ""トップシェルフアイテムをテスト中!\n\n\n""
        [1]
-        1 string data = "Unlock top shelf"
+        1 string data = ""トップシェルフをアンロック""
        [2]
-        1 string data = "Open merchant dialogue\n"
+        1 string data = ""商人の会話を開く\n""
        [3]
-        1 string data = "Come on. Is this all you have available?"
+        1 string data = ""おいおい。これだけしかないのか?""
        [4]
-        1 string data = "Alright, fine, I can be persuaded to give up some of my choice wares.\n"
+        1 string data = ""わかったよ、いいだろう、選りすぐりの品を手放すよう説得されたようだ。\n""
    [1389]
     0 StringTable data
      1 string Filename = "testconversation_cnpcadd_buddy"
@@ -406704,15 +406704,15 @@
       1 Array Array (5 items)
        0 int size = 5
        [0]
-        1 string data = "Add Buddy to party?"
+        1 string data = ""バディをパーティに追加しますか?""
        [1]
-        1 string data = " Yes"
+        1 string data = ""はい""
        [2]
-        1 string data = " Ok"
+        1 string data = ""了解""
        [3]
         1 string data = "Script Node 5"
        [4]
-        1 string data = " No"
+        1 string data = ""いいえ""
    [1390]
     0 StringTable data
      1 string Filename = "testconversation_cnpcadd_cordite"
@@ -406746,15 +406746,15 @@
       1 Array Array (5 items)
        0 int size = 5
        [0]
-        1 string data = "Add Cordite to party?"
+        1 string data = ""コーダイトをパーティに追加しますか?""
        [1]
-        1 string data = " Yes"
+        1 string data = ""はい""
        [2]
-        1 string data = " Ok"
+        1 string data = ""了解""
        [3]
         1 string data = "Script Node 5"
        [4]
-        1 string data = " No"
+        1 string data = ""いいえ""
    [1391]
     0 StringTable data
      1 string Filename = "testconversation_cnpcadd_fader"
