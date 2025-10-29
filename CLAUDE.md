@@ -16,8 +16,9 @@ Due to previous automation issues, Unity StringTable structural markers (`""`) w
 - **Base**: English files (en_US) - guarantees correct structure
 - **Reference**: backup_broken files - reuses existing Japanese translations where valid
 - **Protection**: Strict rules for `""`, `[]`, `<>`, `::action::` markers
-- **Scope**: 71,992 entries across base game + DLC1 + DLC2
-- **Progress**: Tracked in `translation/.retranslation_progress.json`
+- **Scope**: 169,752 entries (corrected) across base game + DLC1 + DLC2
+- **Progress**: 93.88% complete (159,360/169,752), tracked in `translation/.retranslation_progress.json`
+- **Approach**: Sequential from line 1, complete each 50K-line section 100% before next
 
 See `translation/RETRANSLATION_WORKFLOW.md` for detailed workflow and `translation/STRUCTURE_PROTECTION_RULES.md` for structure rules.
 
@@ -64,7 +65,10 @@ This project features a **fully automated retranslation system** with strict str
 2. **Manual Session** (For testing or targeted work):
    ```bash
    claude
-   # Then: "translation/.retranslation_progress.json を読み込んで、translation/RETRANSLATION_WORKFLOW.md に従って翻訳やり直し作業を継続してください。"
+   # Current approach: Sequential processing from line 1
+   # - Section 1 (lines 1-50,000): COMPLETE (5 dev messages deferred)
+   # - Section 2 (lines 50,001-100,000): IN PROGRESS (50/342 translated)
+   # Continue from line 51,540
    ```
 
 3. **Unlock Stale Session** (If automation fails to start):
@@ -246,21 +250,21 @@ wc -l translation/target/v1.6.9.420.309496/ja_JP/*.txt
    - Check the `do_not_translate` section in `translation/nouns_glossary.json` for the complete list
    - When in doubt, compare with the English source file - if it's identical in structure to technical terms, do NOT translate it
 
-### Retranslation Execution Strategy - Direct Work in Main Session
+### Retranslation Execution Strategy - Sequential from Line 1
 
-⚠️ **IMPORTANT: Retranslation work is performed directly in the main Claude Code session**
+⚠️ **IMPORTANT: Process files sequentially from the beginning**
 
-**Why direct execution (not subagent):**
-1. **Permission handling**: Subagents require manual permission approval for file edits, which blocks automation
-2. **Automation compatibility**: Direct execution enables fully unattended automated operation
-3. **Memory management**: Strict chunking and commit strategies prevent memory issues
-4. **Simplified workflow**: No coordination overhead between main session and subagent
+**Sequential Processing Approach (CORRECTED 2025-10-29):**
+1. **Start from line 1**: Never prioritize "problem areas" - this causes scattered gaps
+2. **Complete each 50K section 100%**: Before moving to next section
+3. **Validate after each section**: Use `validate_translation.py` to ensure 0 untranslated
+4. **Only advance when 100% complete**: Scattered work = project failure
 
-**Key principles for retranslation (REDESIGNED 2025-10-25 - based on auto-translate.sh):**
+**Key principles for retranslation (REDESIGNED 2025-10-25):**
 - **Large chunk processing**: Process in 150-200 line chunks (minimizes Read/Edit operations → small conversation history)
-- **Session limit**: 500 entries per session (high efficiency - completes in ~150 sessions total)
+- **Session limit**: 500 entries per session (high efficiency - completes in ~34 sessions total)
 - **Structure protection**: Validate `""`, `[]`, `<>`, `::action::` markers after EVERY edit
-- **Sequential processing**: Never batch operations that can be done sequentially
+- **Sequential processing**: Never batch operations; never skip sections
 - **Efficient commits**: Commit every 500 entries (reduces git overhead while maintaining safety)
 - **Session restarts**: Automated scripts handle session restarts when memory threshold reached
 - **Memory threshold**: 5000MB limit (6GB physical RAM - 1GB margin, monitored every 30s)
@@ -302,17 +306,17 @@ The `automation/auto-retranslate.sh` script handles:
 - See `translation/RETRANSLATION_WORKFLOW.md` Phase 0 for details
 
 **Step 2: Sequential Retranslation** (automated)
-- Process files in order: base_game → DLC1 → DLC2
-- For each 20-line chunk:
+- Process files sequentially from line 1: base_game → DLC1 → DLC2
+- For each 150-200 line chunk:
   1. Read backup_broken file (extract Japanese text)
   2. Read target file (English base with correct structure)
   3. Apply Japanese text with structure protection
   4. For untranslated entries: translate English→Japanese using glossary
   5. Validate structure markers (`""`, `[]`, `<>`, `::action::`)
   6. Edit target file with validated translation
-- Commit every 10 entries with progress update
-- End session after 15 entries (automatic restart by automation script)
-- Continue until all 71,992 entries completed (across multiple sessions)
+- Commit every 500 entries with progress update
+- End session after ~500 entries (automatic restart by automation script)
+- Continue until all 169,752 entries completed (across ~34 sessions)
 
 **Step 3: Quality Validation** (automatic per commit)
 - Line count matches source (mandatory)
