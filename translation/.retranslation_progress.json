@@ -21,7 +21,7 @@
       "current_line": 11130,
       "status": "in_progress",
       "approach": "Strict sequential from line 666, complete each section 100% before next",
-      "note": "Session 13 complete: 97 new entries translated (lines 10365-11130, 3 sections: a1001_anandarabindranath final entries, a1001_angela endgame dialogue, a1001_armorycartel). Total: 984 entries. Validation: 19 QUOTE_COUNT_MISMATCH (all correct per strict workflow - Spanish empty entries). All structure markers preserved. Spanish reference used for translatability judgment. Characters: Ananda (manners-obsessed merchant), Angela Deth (endgame assault), Cartel workers (hostile). Dialogue: Ananda's reputation system, Angela's tunnel infiltration plan, Cartel dismissive responses."
+      "note": "Session 13 complete (FIXED): 97 new entries translated (lines 10365-11130, 3 sections: a1001_anandarabindranath final entries, a1001_angela endgame dialogue, a1001_armorycartel). Total: 984 entries. POST-FIX: Fixed 19 dialogue lines that were incorrectly left empty (Spanish had empty translations for these lines, but they are actual game dialogue that need Japanese translation for structural integrity). All structure markers preserved. Spanish reference used for translatability judgment. Characters: Ananda (manners-obsessed merchant), Angela Deth (endgame assault), Cartel workers (hostile). Dialogue: Ananda's reputation system, Angela's tunnel infiltration plan, Cartel dismissive responses, Everest Hotel, Dorsey gang, Markham/Steeltown."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
