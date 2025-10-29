@@ -245,31 +245,48 @@ while [ $SESSION_COUNT -lt $MAX_SESSIONS ]; do
     START_ENTRIES=$(get_progress_entries)
     log "INFO" "Current progress: $START_ENTRIES entries completed"
 
-    # Prepare command for Claude Code (SIMPLIFIED - based on auto-translate.sh)
+    # Prepare command for Claude Code (STRICT WORKFLOW - based on STRICT_TRANSLATION_RULES.md)
     COMMAND_FILE="$WORKING_DIR/automation/.current_retranslate_command.txt"
     cat > "$COMMAND_FILE" << EOF
-translation/.retranslation_progress.json を読み込んで、translation/RETRANSLATION_WORKFLOW.md に従って翻訳やり直し作業を継続してください。
+translation/.retranslation_progress.json を読み込んで、translation/STRICT_TRANSLATION_RULES.md に従って厳格翻訳作業を継続してください。
 
 ⚠️ **自動実行モード**:
 - メインセッションで直接作業（サブエージェント不使用）
 - 全ての権限リクエストは自動承認
 - 質問や確認なしで作業を進める
 
-目標: 約${ENTRIES_PER_SESSION}エントリを処理してコミット・プッシュ
+⚠️ **厳格ワークフロー要件** (STRICT_TRANSLATION_RULES.md):
+1. **スペイン語参照による翻訳可否判断** (MANDATORY):
+   - 各エントリを翻訳する前に、対応するスペイン語ファイルの同じ行を確認
+   - スペイン語で翻訳されている → 日本語でも翻訳可能
+   - スペイン語で英語のまま → プログラム識別子なので英語のまま残す
+   - スペイン語ファイル: translation/source/v1.6.9.420.309496/es_ES/*.txt
 
-重要な指示:
-1. **150-200行チャンクで処理**（メモリ効率を最大化、Read/Edit操作を最小化）
-2. 500エントリごとにコミット
-3. nouns_glossary.json参照
-4. **構造保護ルール厳守** (translation/STRUCTURE_PROTECTION_RULES.md):
+2. **構造保護ルール厳守** (STRUCTURE_PROTECTION_RULES.md):
    - ⚠️⚠️⚠️ **\\r\\n エスケープシーケンスを絶対に実際の改行に変換しない**
-   - "" マーカー保護（「」『』に変換禁止）
+   - "" マーカー保護（「」『』に変換禁止）- Unity形式必須
    - []、<>、::action:: 保護
-5. ${ENTRIES_PER_SESSION}エントリ到達後は作業終了して報告
+   - [Global:], [Dropset:], [Reward:] など絶対に翻訳禁止
+   - Script Node 翻訳禁止
+
+3. **各編集後の検証** (MANDATORY):
+   - 各editツール実行後、必ずvalidate_structure_v2.pyを実行
+   - エラーが1件でもあれば即座に修正
+   - 引用符の数が英語ソースと完全一致していることを確認
+
+4. **シーケンシャル処理** (MANDATORY):
+   - 現在の行位置から順番に処理（スキップ禁止）
+   - 150-200行チャンクで処理（メモリ効率最大化）
+   - 優先度付けや長文優先処理は厳格に禁止
+
+5. **用語集参照**: nouns_glossary.json を参照して一貫した訳語を使用
+
+目標: 約${ENTRIES_PER_SESSION}エントリを処理してコミット・プッシュ
 
 処理完了後、以下の形式で報告:
 - 翻訳完了エントリ数: XXXX
 - 最新コミットハッシュ: XXXXXXX
+- 検証結果: エラー数・警告数
 - 次のセクション: section_name
 
 この報告後、セッションを終了してください。

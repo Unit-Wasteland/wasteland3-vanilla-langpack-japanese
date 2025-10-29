@@ -2,45 +2,59 @@
 
 ## 概要
 
-このドキュメントは、構造破壊が発生したファイルを修正し、全翻訳をやり直すためのワークフローを定義します。
+このドキュメントは、構造破壊が発生したファイルを完全にやり直すためのワークフローを定義します。
 
 ### 背景
 
-自動翻訳処理の結果、Unity StringTableの構造マーカー（`""`）が日本語括弧（`「」`, `『』`）に変換され、ファイルがゲームにインポート不可能になりました。
+**完全再起動の理由（2回目）:**
+自動翻訳処理の結果、77,533件の構造エラー（全エントリの45.7%）が発生し、Unity StringTableの構造マーカー（`""`）が日本語括弧（`「」`, `『』`）に変換されたり、引用符が不正に追加・削除されたりして、ファイルがゲームにインポート不可能になりました。
 
 **問題の例:**
-- 破損: `string data = "「日本語テキスト」"`
-- 正常: `string data = ""日本語テキスト""`
+- 破損: `string data = "「日本語テキスト」"` (括弧変換)
+- 破損: `string data = ""English text""` (不要な引用符追加)
+- 破損: `string data = "Quoted text"` (引用符不足)
+- 正常: `string data = ""日本語テキスト""` (Unity形式)
 
-### 解決方針
+### 解決方針（厳格ワークフロー）
 
-1. **英語ファイルを新しいベース**として使用（構造保証）
-2. **backup_brokenから日本語訳を抽出**（既存作業の活用）
-3. **構造マーカーを厳格に保護**（再発防止）
-4. **未翻訳分を新規翻訳**（完全な日本語化）
-5. **完全自動化で実行**（人的エラー排除）
+1. **英語ファイルを新しいベース**として使用（構造100%保証）
+2. **スペイン語ファイルで翻訳可否を判断**（プログラム識別子の確実な識別）
+3. **各編集後に検証**（構造破壊の即座検出・修正）
+4. **シーケンシャル処理**（スキップ禁止、優先度付け禁止）
+5. **バッチ処理厳格禁止**（品質保証のため手動・個別処理のみ）
+
+**参照ドキュメント:**
+- **translation/STRICT_TRANSLATION_RULES.md** - 厳格翻訳ルール（包括的ガイド）
+- **translation/STRUCTURE_PROTECTION_RULES.md** - 構造保護ルール（詳細）
+- **translation/validate_structure_v2.py** - 構造検証スクリプト（必須ツール）
 
 ## ファイル構成
 
 ```
 translation/
 ├── source/v1.6.9.420.309496/
-│   ├── en_US/              # 英語ソース（新ベース用）
-│   │   ├── StringTableData_English-CAB-*.txt (530,425行)
+│   ├── en_US/              # 英語ソース（構造リファレンス・新ベース）
+│   │   ├── StringTableData_English-CAB-*.txt (530,425行、169,712エントリ)
 │   │   ├── DLC1/StringTableData_English-CAB-*.txt (120,559行)
 │   │   └── DLC2/StringTableData_English-CAB-*.txt (77,353行)
-│   └── es_ES/              # スペイン語（参考用、未使用）
+│   └── es_ES/              # スペイン語（翻訳可否判断用・MANDATORY）
+│       ├── StringTableData_Spanish-CAB-*.txt (530,425行)
+│       ├── DLC1/StringTableData_Spanish-CAB-*.txt (120,559行)
+│       └── DLC2/StringTableData_Spanish-CAB-*.txt (77,353行)
 ├── target/v1.6.9.420.309496/ja_JP/
-│   ├── StringTableData_English-CAB-*.txt  # 作業対象ファイル
+│   ├── StringTableData_English-CAB-*.txt  # 作業対象ファイル（英語からコピー済み）
 │   ├── DLC1/
 │   └── DLC2/
-├── backup_broken/          # 壊れた日本語訳（参照元）
-│   ├── StringTableData_English-CAB-*.txt
+├── backup_broken/          # 壊れた日本語訳（参考程度、使用推奨せず）
+│   ├── StringTableData_English-CAB-*.txt (77,533構造エラーあり)
 │   ├── DLC1/
 │   └── DLC2/
 ├── nouns_glossary.json     # 用語集（英語→日本語）
-├── .retranslation_progress.json  # 進捗管理ファイル（NEW）
-└── STRUCTURE_PROTECTION_RULES.md  # 構造保護ルール
+├── .retranslation_progress.json  # 進捗管理ファイル（v3.0）
+├── STRICT_TRANSLATION_RULES.md   # 厳格翻訳ルール（包括的ガイド）
+├── STRUCTURE_PROTECTION_RULES.md # 構造保護ルール（詳細）
+├── RETRANSLATION_WORKFLOW.md     # このファイル（ワークフロー概要）
+└── validate_structure_v2.py      # 構造検証スクリプト（必須）
 ```
 
 ## ワークフローステップ
@@ -123,77 +137,115 @@ Strategy: Extract Japanese from backup_broken, apply with structure protection
 Co-Authored-By: Claude <noreply@anthropic.com>"
 ```
 
-### Phase 1: 翻訳処理（自動実行）
+### Phase 1: 翻訳処理（厳格ワークフロー）
 
-**処理方式:**
-1. **backup_brokenから日本語テキストを抽出**
-   - 破損した構造マーカーを除去
-   - 純粋な日本語テキストのみ取得
+**⚠️ 重要: 必ずSTRICT_TRANSLATION_RULES.mdを参照してください**
 
-2. **英語ベースファイルの構造を保持**
-   - `""` マーカーを維持
-   - `[ ]`, `< >`, `::action::` を保持
-   - 技術用語（Script Nodeなど）を保持
+**処理方式（厳格ルール）:**
 
-3. **テキスト部分のみ置換**
-   - 構造部分は絶対に触らない
-   - 日本語テキストを安全に適用
+1. **シーケンシャル処理（MANDATORY）**
+   - 現在の行位置（.retranslation_progress.json参照）から順番に処理
+   - スキップ禁止、優先度付け禁止、長文優先禁止
+   - 1行ずつ確実に処理
 
-4. **未翻訳エントリの処理**
-   - backup_brokenに日本語がない場合
-   - 英語→日本語に新規翻訳
-   - nouns_glossary.json参照
+2. **スペイン語参照による翻訳可否判断（MANDATORY）**
+   - 各エントリを翻訳する前に、スペイン語ファイルの同じ行を確認
+   - スペイン語で翻訳されている → 日本語でも翻訳可能
+   - スペイン語で英語のまま/空 → プログラム識別子なので英語のまま残す
+   - 例: "Script Node 65" はスペイン語でも英語 → 翻訳禁止
+
+3. **構造保護（MANDATORY）**
+   - Unity形式: `string data = ""日本語テキスト""` (引用符4個)
+   - `\"` エスケープ使用禁止（Unity形式では不要）
+   - 日本語括弧（「」『』）使用禁止
+   - [Global:], [Dropset:], ::action:: 絶対に翻訳禁止
+
+4. **各編集後の検証（MANDATORY）**
+   ```bash
+   ./translation/validate_structure_v2.py \
+     translation/target/.../ja_JP/StringTableData_*.txt \
+     --source translation/source/.../en_US/StringTableData_*.txt \
+     --detailed
+   ```
+   - エラーが1件でもあれば即座に修正
+   - 引用符の数が英語ソースと完全一致していることを確認
+
+5. **用語集参照**
+   - nouns_glossary.jsonを参照して一貫した訳語を使用
+   - キャラクター名、地名、派閥名などの固有名詞
 
 **具体的な処理ロジック（Claude Codeが実行）:**
 
 ```
+⚠️ 重要: backup_brokenからの抽出は行わない。ゼロから新規翻訳する。
+
 FOR each file in [base_game, dlc1, dlc2]:
+  progress = load_progress_from_json()
+  current_line = progress.current_line
+
   WHILE current_line < total_lines:
-    # 1. 50行チャンクを読み込み
-    backup_chunk = Read(backup_file, offset=current_line, limit=50)
-    target_chunk = Read(target_file, offset=current_line, limit=50)
+    # 1. 150-200行チャンクを読み込み（メモリ効率化）
+    english_chunk = Read(english_source_file, offset=current_line, limit=150)
+    spanish_chunk = Read(spanish_source_file, offset=current_line, limit=150)
+    target_chunk = Read(target_file, offset=current_line, limit=150)
 
-    # 2. 各エントリを処理
-    FOR each line in chunk:
+    # 2. 各エントリを個別に処理（バッチ処理禁止）
+    FOR each line_num, line in enumerate(chunk):
       IF line contains 'string data = ':
-        # backup_brokenから日本語テキストを抽出
-        japanese_text = extract_japanese(backup_chunk[line])
+        # ステップA: スペイン語で翻訳可否を判断
+        spanish_line = spanish_chunk[line_num]
+        english_text = extract_text_only(english_chunk[line_num])
+        spanish_text = extract_text_only(spanish_line)
 
-        IF japanese_text exists and is_valid_japanese(japanese_text):
-          # 構造を保持して日本語を適用
-          english_structure = extract_structure(target_chunk[line])
-          new_line = apply_japanese_with_structure(english_structure, japanese_text)
+        IF spanish_text == english_text OR spanish_text is empty:
+          # プログラム識別子 → 翻訳禁止
+          # (例: "Script Node 65", "[Global: A1001_Test]")
+          CONTINUE  # 英語のまま残す
         ELSE:
-          # 未翻訳の場合は新規翻訳
-          english_text = extract_text(target_chunk[line])
-          japanese_text = translate_with_glossary(english_text)
-          new_line = apply_japanese_with_structure(english_structure, japanese_text)
+          # 翻訳可能 → 日本語に翻訳
+          japanese_text = translate_with_glossary(english_text, nouns_glossary.json)
 
-        # 3. 構造検証
-        ASSERT verify_structure_markers(new_line)
-        ASSERT verify_line_count(target_file)
+        # ステップB: 構造を保護しながら適用
+        structure = extract_structure_with_quotes(target_chunk[line_num])
+        new_line = apply_japanese_preserving_structure(structure, japanese_text)
 
-    # 4. チャンクを保存
-    Edit(target_file, old_chunk, new_chunk)
-    entries_completed += count_entries_in_chunk
-    current_line += 50
+        # ステップC: 編集実行
+        Edit(target_file, old_line=target_chunk[line_num], new_line=new_line)
 
-    # 5. 100エントリごとにコミット
-    IF entries_completed % 100 == 0:
+        # ステップD: 即座に検証（MANDATORY）
+        validation_result = run_validate_structure_v2(target_file, english_source_file)
+        IF validation_result.errors > 0:
+          ERROR("構造破壊を検出 - 即座に修正が必要")
+          # 前の状態にロールバック
+          Edit(target_file, old_line=new_line, new_line=target_chunk[line_num])
+          HALT  # 問題解決まで停止
+
+        entries_completed += 1
+
+    current_line += 150
+
+    # 5. 500エントリごとにコミット
+    IF entries_completed % 500 == 0:
       git_commit_with_progress()
-      update_progress_file()
+      update_progress_json(current_line, entries_completed)
+      PUSH to remote  # データ損失防止
 
     # 6. メモリチェック
-    IF memory_usage > 4GB:
-      WARNING("Memory approaching limit")
+    IF memory_usage > 5000MB:
+      WARNING("Memory threshold reached - session end")
       commit_immediately()
+      EXIT  # 自動化スクリプトが新セッション開始
 
-    IF memory_usage > 6GB:
-      ERROR("Memory limit reached - restart required")
-      EXIT
   END WHILE
 END FOR
 ```
+
+**禁止事項（厳格）:**
+- ❌ backup_brokenからの抽出（構造が破損しているため）
+- ❌ バッチ処理（品質保証のため個別処理のみ）
+- ❌ スペイン語参照のスキップ（誤翻訳防止）
+- ❌ 検証のスキップ（構造破壊即座検出が必須）
+- ❌ 行のスキップや優先度付け（完全性保証）
 
 ### Phase 2: 品質検証（自動実行）
 
