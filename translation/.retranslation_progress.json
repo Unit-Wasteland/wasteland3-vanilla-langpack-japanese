@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 397782,
-      "entries_completed": 55672,
+      "current_line": 399600,
+      "entries_completed": 56023,
       "status": "in_progress",
-      "note": "Lines 396294-397782: q2001_riskybriskett_obsolete (15), q2001_combatbarks_godfishers (74), q2001_combatbarks_mistthatburns (20), q2001_combatbarks_starthatburns (20), q2001_companion_barktriggers (89), q2001_cucarachakite (9), q2001_godfisherguards (7); total: 234 entries"
+      "note": "Lines 397782-399600: q2001_haloedmoon (134), q2001_haloedmooncorpse (19), q2001_meatclownpayasosambient (20), q2001_meatclown_radio (12), q2001_riskybriskett (92), q2001_starthatdreamscorpse (14); total: 351 entries"
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -38,10 +38,10 @@
       "status": "pending"
     }
   },
-  "last_commit_hash": "22f3c59",
-  "total_entries_completed": 55672,
+  "last_commit_hash": "145c4ac",
+  "total_entries_completed": 56023,
   "estimated_total_entries": 71992,
-  "next_action": "Continue from line 397782 (section: q2001_haloedmoon - pending)",
+  "next_action": "Continue from line 399600 (section: q3001_companion_barktriggers - pending)",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
