@@ -23,9 +23,10 @@
       "backup_file": "translation/backup_broken/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
       "total_lines": 120559,
       "total_entries_estimated": 12785,
-      "current_line": 0,
-      "entries_completed": 0,
-      "status": "pending"
+      "current_line": 1420,
+      "entries_completed": 232,
+      "status": "in_progress",
+      "note": "Started DLC1 retranslation. Applied 232 translations: Radio followup (31), Raid incoming (11), Banter barks (38), character dialogues Blue (41), Connie Zheng (7), Cordite (6), Crow (54), Gary Wolfe (5), Generic guard (7), Gideon Reyes (7). All structure markers preserved. Next: a1001_handcraft section."
     },
     "dlc2": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
@@ -38,10 +39,10 @@
       "status": "pending"
     }
   },
-  "last_commit_hash": "b731cd2",
-  "total_entries_completed": 45626,
+  "last_commit_hash": "a4b0561",
+  "total_entries_completed": 45858,
   "estimated_total_entries": 71992,
-  "next_action": "CRITICAL: Discovered ~21,000 entries with broken structure markers (「」 instead of \"\"). These have Japanese translations but need structure marker fix. Priority: Fix structure markers for all translated entries. (101 entries completed this session)",
+  "next_action": "Continue DLC1 retranslation from line 1420 (a1001_handcraft section). Process 268 more entries to reach 500-entry session target.",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
