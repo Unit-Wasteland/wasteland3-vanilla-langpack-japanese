@@ -5425,15 +5425,15 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = ""Hey, y'all! Found me some old brake fluid in the barn! Bring yer cups! We're gonna have us a hoedown!""
+        1 string data = ""やあ、みんな! 納屋で古いブレーキフルード見つけたぞ! カップ持って来い! みんなでダンスパーティだ!""
        [2]
-        1 string data = ""Hey, y'all. How long you s'sposed to leave a feller on the fire 'fore his skin crisps up? He's about five-ten an' a hunnert thirty pounds. 'Preciate the help!""
+        1 string data = ""やあ、みんな。どれくらい火にかければ人間の皮膚がカリカリになるんだ? 身長170センチくらいで体重60キロの奴なんだ。助言を頼む!""
        [3]
-        1 string data = ""Yee-haw! I got some big news, y'all! Sister Ella Mae said yes! We gettin' hitched next month, 'fore the baby comes! We'll be sendin' out invitations n'shit real soon!""
+        1 string data = ""イェーハー! ビッグニュースだ、みんな! 姉さんのElla Maeがイエスって言ったんだ! 来月結婚するぜ、赤ん坊が来る前にな! もうすぐ招待状とか送るからよ!""
        [4]
-        1 string data = ""Looks like Maebelle got out of her pen last night. If anybody sees her, throw a rope 'round her neck and bring her back to the house, okay?""
+        1 string data = ""昨夜Maebelleが囲いから逃げ出したみたいだ。誰か見かけたら、首にロープを巻いて家に連れて来てくれないか?""
        [5]
-        1 string data = ""Sorry fer the trouble. Can't still figure how she picked the dang lock.""
+        1 string data = ""迷惑かけて悪いな。どうやって錠前を壊したのか未だに分からないんだ。""
    [39]
     0 StringTable data
      1 string Filename = "0000_radio_broadcast_nooilfreezing"
@@ -5471,13 +5471,13 @@
       1 Array Array (6 items)
        0 int size = 6
        [0]
-        1 string data = ""This is the Morris family. The oil's been cut off, and the cold's gettin' real bad.""
+        1 string data = ""こちらMorris一家。石油が尽きて、寒さがひどくなってきた。""
        [1]
-        1 string data = ""Can't cook. Can't keep warm. I done drained the truck dry to buy us a few more days. If... if we don't get some help soon, we ain't gonna make it.""
+        1 string data = ""料理もできない。暖を取ることもできない。トラックの燃料を空にしてあと数日稼いだが……すぐに助けが来なければ、もう持たない。""
        [2]
-        1 string data = ""Does anybody got any oil to spare? Just a couple o' gallons. I'll give you anything you want. Anything at all.""
+        1 string data = ""誰か石油を少し分けてくれないか? ほんの数ガロンでいい。何でも差し上げます。何でも。""
        [3]
-        1 string data = ""Don't know how much longer the jenny's gonna run, so this might be my last broadcast. Please... I got kids here. Help us.""
+        1 string data = ""発電機がいつまで持つか分からない。これが最後の放送になるかもしれない。頼む……ここには子供たちがいるんだ。助けてくれ。""
        [4]
         1 string data = "Trigger Conv Node 5"
        [5]
@@ -5511,13 +5511,13 @@
       1 Array Array (4 items)
        0 int size = 4
        [0]
-        1 string data = "::air raid siren:: "This message is from the North American Air Defense Command. This is an attack warning. Repeat: this is an attack warning.""
+        1 string data = "::air raid siren:: "こちらは北米航空宇宙防衛司令部からのメッセージです。これは攻撃警報です。繰り返します。これは攻撃警報です。""
        [1]
-        1 string data = ""A nuclear attack is now underway. Proceed to the nearest civil defense shelter immediately.""
+        1 string data = ""核攻撃が進行中です。直ちに最寄りの民間防衛シェルターへ避難してください。""
        [2]
-        1 string data = ""This is not a drill. Stay tuned to this frequency for additional updates and instructions.""
+        1 string data = ""これは訓練ではありません。追加の情報と指示のため、この周波数に注意を払ってください。""
        [3]
-        1 string data = ""This message will repeat." ::short tones::"
+        1 string data = ""このメッセージは繰り返されます。" ::short tones::"
    [41]
     0 StringTable data
      1 string Filename = "0000_radio_broadcast_numbersstation"
@@ -5567,19 +5567,19 @@
       1 Array Array (9 items)
        0 int size = 9
        [0]
-        1 string data = ""Zero... Zero... Zero...""
+        1 string data = ""ゼロ…ゼロ…ゼロ…""
        [1]
-        1 string data = ""Seven... Nine... Four...""
+        1 string data = ""セブン…ナイン…フォー…""
        [2]
-        1 string data = ""Seven... Nine... Four...""
+        1 string data = ""セブン…ナイン…フォー…""
        [3]
         1 string data = "Script Node 4"
        [4]
-        1 string data = ""Zero... Zero... Zero...""
+        1 string data = ""ゼロ…ゼロ…ゼロ…""
        [5]
-        1 string data = ""Eight... Eight... Eight...""
+        1 string data = ""エイト…エイト…エイト…""
        [6]
-        1 string data = ""Zero... Zero... Zero...""
+        1 string data = ""ゼロ…ゼロ…ゼロ…""
        [7]
         1 string data = "Trigger Conv Node 8"
        [8]
@@ -5621,13 +5621,13 @@
       1 Array Array (6 items)
        0 int size = 6
        [0]
-        1 string data = ""This here's the Porter homestead, outside Denver. The oil's flowin' again!""
+        1 string data = ""こちらはDenver郊外のPorter農場だ。石油がまた流れ始めた!""
        [1]
-        1 string data = ""Honest to god, I didn't think we'd last another day. Now we got our heat back, and enough to spare to run the generator at night.""
+        1 string data = ""神に誓って、もう一日も持たないと思っていた。今は暖房が戻って、夜に発電機を回せるだけの余裕もある。""
        [2]
-        1 string data = ""The missus is cookin' up somethin' special to celebrate! Oh, it's gonna feel good to have some hot food again!""
+        1 string data = ""女房がお祝いに特別な料理を作ってくれている! ああ、温かい食べ物をまた食べられるなんて最高だ!""
        [3]
-        1 string data = ""I don't know who got the oil flowin' again, but as far as this old farmer's concerned, you're a bunch of goddamned heroes! Thank you!""
+        1 string data = ""誰が石油を再び流してくれたのか知らないが、この老農夫から見れば、あんたらは本物のヒーローだ! ありがとう!""
        [4]
         1 string data = "Trigger Conv Node 5"
        [5]
@@ -5711,35 +5711,35 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = ""Citizens of Colorado, this is your Patriarch, wishing you safety and warmth on this cold night. I want to assure you that our borders are secure, our fuel tanks are overflowing, and there is plenty of food and water for everyone.""
+        1 string data = ""Coloradoの市民諸君、諸君のPatriarchだ。この寒い夜に安全と温もりがあることを願っている。我々の国境は安全で、燃料タンクは満たされ、全員に十分な食料と水があることを保証する。""
        [2]
-        1 string data = ""Citizens of Colorado, this is your Patriarch. No one alive can remember what it was like before the war, but my parents remembered, and they filled me with stories of how it used to be.""
+        1 string data = ""Coloradoの市民諸君、諸君のPatriarchだ。戦争前がどうだったか覚えている者は誰もいない。だが私の両親は覚えていて、昔がどうだったかの物語で私を満たしてくれた。""
        [3]
-        1 string data = ""Citizens of Colorado, this is your Patriarch. I know many of our more adventurous, entrepreneurial citizens are drawn to prospecting, herding, and even homesteading on and beyond our eastern border, and I admire your frontier spirit.""
+        1 string data = ""Coloradoの市民諸君、諸君のPatriarchだ。冒険心と起業家精神に富んだ市民の多くが、東部国境やその先での探鉱、牧畜、入植に惹かれていることを知っている。その開拓者精神には敬意を表する。""
        [4]
-        1 string data = ""Citizens of Colorado, this is your Patriarch. Have you ever thought how privileged you are? How fortunate? You live in the greatest state in America. Indeed, it could be said that Colorado is the only America!""
+        1 string data = ""Coloradoの市民諸君、諸君のPatriarchだ。自分たちがどれほど恵まれているか考えたことがあるか? 幸運だと? 諸君はアメリカで最高の州に住んでいる。実際、Coloradoこそが唯一のアメリカだと言えるだろう!""
        [5]
-        1 string data = ""It has been a long, hard road getting to this point, with many sacrifices along the way, but the toil has been worth it. Colorado is the envy of all its neighbors, and its people live a life those outside its borders can't imagine.""
+        1 string data = ""ここまで来るのは長く厳しい道のりで、多くの犠牲を伴った。だがその苦労には価値があった。Coloradoは隣人たちの羨望の的であり、その民は国境の外では想像もできない生活を送っている。""
        [6]
-        1 string data = ""And those memories became my guide for how things could be again. Safety, security, friendly neighbors from coast to coast, and lives that weren't just filled with struggle, but joy, abundance, leisure.""
+        1 string data = ""そしてその記憶が、物事がどう再びなり得るかの指針となった。安全、安心、海岸から海岸まで友好的な隣人たち、そして苦闘だけでなく喜び、豊かさ、余暇に満ちた生活。""
        [7]
-        1 string data = ""But I want to warn you that the dangers there are great, and while it is true I and the Marshals long ago defeated the gangs of the plains, their remnants still prowl there, and will attack anyone who ventures too far east.""
+        1 string data = ""だが警告したい。そこには大きな危険がある。確かに私とMarshalsは昔、平原のギャングを倒したが、その残党がまだそこを徘徊しており、東へ行き過ぎた者を攻撃する。""
        [8]
-        1 string data = ""But that is a sad and lonely state of affairs. Colorado should not be alone. It should be one of many states, all prosperous and free, and enjoying the life we fortunate few are beginning to take for granted.""
+        1 string data = ""だがそれは悲しく孤独な状況だ。Coloradoは孤独であるべきではない。繁栄し自由で、我々幸運な少数が当たり前と思い始めている生活を享受する、多くの州の一つであるべきだ。""
        [9]
-        1 string data = ""Thank you, Colorado, and goodnight. This has been your Patriarch, signing off.""
+        1 string data = ""ありがとう、Colorado。おやすみ。これは諸君のPatriarchだった。以上。""
        [10]
-        1 string data = ""Enjoy it. It has been my life's work bringing it to you, and it does my old heart good, knowing you are living happy lives. It is all I ever wanted.""
+        1 string data = ""それを楽しんでくれ。これを諸君にもたらすことが私の人生の仕事だった。諸君が幸せな生活を送っていることを知り、私の老いた心は満たされる。それが私が常に望んできたすべてだ。""
        [11]
-        1 string data = "::chuckles:: "Well, I know we're not quite there. We can't take vacations in Colorado yet. We can't walk the streets without a gun at our side, but those days are coming, I promise you - as long as you stand with me and stay the course.""
+        1 string data = "::chuckles:: "まあ、まだそこまで達していないことは分かっている。Coloradoでまだ休暇を取ることはできない。銃を携えずに街を歩くこともできない。だがその日々は来る、約束する。諸君が私と共に立ち、道を進み続ける限りは。""
        [12]
-        1 string data = ""Please. Walk with me just a little further. The future is just over the next hill.""
+        1 string data = ""頼む。もう少しだけ私と共に歩んでくれ。未来はすぐそこの丘の向こうにある。""
        [13]
-        1 string data = ""So, I ask you, I beg you, seek your opportunities here, in the heart of the state, where we can keep you safe. There is still plenty of good land unclaimed, and valuable resources still in the ground, just waiting for you.""
+        1 string data = ""だから諸君に頼む、懇願する。この州の中心で、我々が諸君を守れる場所で、機会を求めてくれ。まだ多くの良い土地が未開拓で、貴重な資源が地中に眠り、諸君を待っている。""
        [14]
-        1 string data = ""That is why the torch of liberty that we have lit here, must light other torches in other states and territories, so that the flame of civilization spreads far and wide, and makes the world a kinder, more welcoming place.""
+        1 string data = ""だからこそ、我々がここで灯した自由の松明は、他の州や領土で他の松明を灯さねばならない。文明の炎が遠く広く広がり、世界をより優しく、より歓迎される場所にするために。""
        [15]
-        1 string data = ""Trade must be established, and democracy must be encouraged, while corruption and rule by fiat must be wiped out. We cannot stand alone against barbarism, so we must grow the allies we need, or we will perish.""
+        1 string data = ""交易を確立し、民主主義を奨励し、汚職と専制支配を一掃せねばならない。我々は野蛮に対して単独で立ち向かうことはできない。必要な同盟者を増やさねば、我々は滅びる。""
    [44]
     0 StringTable data
      1 string Filename = "0000_radio_broadcast_patriarchrecruitment"
@@ -5793,25 +5793,25 @@
       1 Array Array (10 items)
        0 int size = 10
        [0]
-        1 string data = ""Citizens of Colorado, this is your Patriarch speaking. The flame of liberty burns bright in our fair state, but not without help from you.""
+        1 string data = ""Coloradoの市民諸君、諸君のPatriarchが話している。我が美しい州では自由の炎が明るく燃えている。だがそれは諸君の助けなくしては不可能だ。""
        [1]
         1 string data = "Script Node 2"
        [2]
-        1 string data = ""Citizens of Colorado, this is your Patriarch speaking. The Colorado Marshals are the bulwark that protects our borders and keeps us safe in our beds.""
+        1 string data = ""Coloradoの市民諸君、諸君のPatriarchが話している。Colorado Marshalsは我々の国境を守り、我々を安全な寝床に保つ防壁だ。""
        [3]
-        1 string data = ""Citizens of Colorado, this is your Patriarch speaking. It's a hero's life in the Colorado Marshals, the finest security force in America.""
+        1 string data = ""Coloradoの市民諸君、諸君のPatriarchが話している。Colorado Marshalsでの生活は英雄の生活だ。アメリカ最高の治安部隊だ。""
        [4]
-        1 string data = ""Citizens of Colorado, this is your Patriarch speaking. Hard as it is for me to admit, life isn't always easy in Colorado - or fair.""
+        1 string data = ""Coloradoの市民諸君、諸君のPatriarchが話している。認めるのは辛いが、Coloradoでの生活は必ずしも楽ではない。公平でもない。""
        [5]
-        1 string data = ""If you would protect that flame, tend it, and keep it burning strong, then join the Colorado Marshals, the defenders of all our freedoms.""
+        1 string data = ""その炎を守り、世話をし、強く燃やし続けたいなら、我々の自由すべての守護者、Colorado Marshalsに加わってくれ。""
        [6]
-        1 string data = ""Visit your local marshal station today, and ask them what it takes to join. And make me proud.""
+        1 string data = ""今日、地元のマーシャル駐屯所を訪れて、加入に何が必要か聞いてくれ。そして私を誇りに思わせてくれ。""
        [7]
-        1 string data = ""If you believe you are strong enough to stand against the darkness and savagery that assail us from all sides, then join us. It would be an honor to have you at our side.""
+        1 string data = ""もし諸君が、四方八方から襲いかかる闇と野蛮に立ち向かうだけの強さを持っていると信じるなら、我々に加わってくれ。諸君を我々の側に迎えることは名誉だ。""
        [8]
-        1 string data = ""If you're looking for action, adventure, excitement, and the camaraderie of the corps, then the Marshals are the outfit for you. You'll never find a finer family.""
+        1 string data = ""もし行動、冒険、興奮、部隊の仲間意識を求めているなら、Marshalsこそが諸君の組織だ。これ以上の家族は見つからないだろう。""
        [9]
-        1 string data = ""If you're down on your luck, and seeking a job with security, benefits, and steady pay, then look no further than the Colorado Marshals. It's a demanding job, a dangerous job, but because of that, a well-compensated one - and well-respected too.""
+        1 string data = ""もし運に見放され、安定、福利厚生、定期的な給料のある仕事を求めているなら、Colorado Marshals以外を探す必要はない。厳しい仕事だ、危険な仕事だ。だがそれゆえに、十分な報酬が得られ、尊敬もされる。""
    [45]
     0 StringTable data
      1 string Filename = "0000_radio_broadcast_piratedrossradiosignal"
@@ -5929,45 +5929,45 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = ""I feel so much better now that you killed that awful cannibal Fish-Lips. He gave me the creeps! You're my guardian angel!""
+        1 string data = ""あの恐ろしい人食いFish-Lipsを殺してくれて、とても気分が良くなった。あいつは気味が悪かった! あなたは私の守護天使よ!""
        [2]
-        1 string data = ""Honey bun! You arrested Valor Buchanan?! That's amazing!""
+        1 string data = ""ハニー! Valor Buchananを逮捕したの?! すごい!""
        [3]
-        1 string data = ""You saved the Bizarre for me! Thanks, sweetie! Now you can take me on that romantic date for some pork buns! Can't wait!""
+        1 string data = ""Bizarreを私のために救ってくれたのね! ありがとう、スウィーティー! これでポークバンズのロマンチックなデートに連れて行ってくれるわね! 待ちきれない!""
        [4]
-        1 string data = ""Aw, sweetie! You knew I loved to take walks in the Garden of the Gods, didn't you? Thanks for getting rid of those Dorseys! Love ya!""
+        1 string data = ""ああ、スウィーティー! 私がGarden of the Godsを散歩するのが好きだって知ってたのね? あのDorseyたちを片付けてくれてありがとう! 愛してる!""
        [5]
-        1 string data = ""Oh, you must have been so worried when you heard about all those hostages in Aspen, thinking I might be among them! Poor thing!""
+        1 string data = ""ああ、Aspenの人質のことを聞いて、私もその中にいるんじゃないかって心配したでしょう! かわいそうに!""
        [6]
-        1 string data = ""Darling! You shut down the Nightclub for me! That's so sweet! All that noise was disturbing my beauty sleep! Thanks, hon!""
+        1 string data = ""ダーリン! 私のためにNightclubを閉鎖してくれたのね! なんて素敵なの! あの騒音が私の美容睡眠を邪魔してたの! ありがとう、ハニー!""
        [7]
-        1 string data = ""Hey, beloved! Do you miss me as much as I miss you? I miss you so much I wrote this poem about us. Want to hear it? Of course you do!""
+        1 string data = ""ねえ、愛しい人! 私があなたを恋しがっているのと同じくらい、あなたも私を恋しがってる? とても恋しくて、私たちについての詩を書いたの。聞きたい? もちろんそうよね!""
        [8]
-        1 string data = ""Always together / always apart / Never alone / Never.""
+        1 string data = ""いつも一緒に / いつも離れて / 決して孤独ではない / 決して。""
        [9]
-        1 string data = ""I'm always with you / just out of sight / Waiting for the right moment / that we can be together / Forever.""
+        1 string data = ""私はいつもあなたと共にいる / 視界の外に / 適切な瞬間を待っている / 私たちが一緒になれる / 永遠に。""
        [10]
-        1 string data = ""I've been watching you, Ranger. Do you believe in love at first sight? Of course you do.""
+        1 string data = ""ずっとあなたを見ていたわ、Ranger。一目惚れを信じる? もちろん信じるわよね。""
        [11]
-        1 string data = ""When everything's dark / and you hear a whisper in your ear / Don't be afraid / It's not a cannibal / or a psycho / or a bandit / It's just me / saying I love you.""
+        1 string data = ""すべてが暗闇の時 / そして耳元でささやきが聞こえたら / 怖がらないで / それは人食いじゃない / サイコでもない / 盗賊でもない / ただ私 / あなたを愛してると言っているだけ。""
        [12]
-        1 string data = ""Do you like it?""
+        1 string data = ""気に入った?""
        [13]
         1 string data = "Script Node 36"
        [14]
-        1 string data = ""Hope you liked my poem!""
+        1 string data = ""私の詩、気に入ってくれたかしら!""
        [15]
-        1 string data = ""Miss you, pookie!""
+        1 string data = ""会いたいわ、プーキー!""
        [16]
-        1 string data = ""You're doing great. Love you!""
+        1 string data = ""よくやってるわね。愛してる!""
        [17]
-        1 string data = ""Now he can be the witness at our wedding, just like I always wanted! Oh, what would I do without you?! Smooches!""
+        1 string data = ""これで彼が私たちの結婚式の証人になれるわ、ずっと望んでいた通りに! ああ、あなたなしで私はどうすればいいの?! チュー!""
        [18]
-        1 string data = ""But I was never near the place! Thanks for saving all the hostages! You're still my hero!""
+        1 string data = ""でも私はあそこの近くにいなかったわ! 人質全員を救ってくれてありがとう! あなたは今でも私のヒーローよ!""
        [19]
-        1 string data = ""I saw it in your soul the first time our eyes met. You were with your squad, being heroes in Colorado Springs, I was... well, you know where I was, and you can come see me any time.""
+        1 string data = ""初めて目が合った時、あなたの魂の中にそれを見たわ。あなたは分隊と一緒にいて、Colorado Springsで英雄をやっていた。私は……まあ、私がどこにいたか知ってるでしょう。いつでも会いに来ていいのよ。""
        [20]
-        1 string data = ""Until then, stay safe out there, sweetie. Can't wait to see you again.""
+        1 string data = ""それまで、外で気をつけてね、スウィーティー。またあなたに会えるのが待ちきれないわ。""
    [47]
     0 StringTable data
      1 string Filename = "0000_radio_broadcast_redskorpionhate"
@@ -5993,11 +5993,11 @@
       1 Array Array (3 items)
        0 int size = 3
        [0]
-        1 string data = ""Your days are numbered, Desert Rangers! The Red Skorpion Militia... wipe you out! Danforth... just the beginning!""
+        1 string data = ""貴様らの日々は数えられている、Desert Rangers! Red Skorpion Militia が……貴様らを一掃する! Danforth は……始まりに過ぎない!""
        [1]
-        1 string data = ""You got nothing left! Your fucking Citadel... But we're still here, and we haven't forgotten what you done.""
+        1 string data = ""もう何も残っていない! 貴様らのクソみたいなCitadel は……だが我々はまだここにいる。貴様らがやったことを忘れていない。""
        [2]
-        1 string data = ""You can't hold out forever. Won't be long... on your knees. Then you're gonna fucking pay... Tick tock... tick tock...""
+        1 string data = ""永遠に持ちこたえることはできない。すぐに……膝をつく。そして貴様らは代償を払うことになる……チクタク……チクタク……""
    [48]
     0 StringTable data
      1 string Filename = "0000_radio_broadcast_refugeecalls"
@@ -6035,13 +6035,13 @@
       1 Array Array (6 items)
        0 int size = 6
        [0]
-        1 string data = ""Is anybody out there? We're tryin' to get to Colorado Springs.""
+        1 string data = ""誰かいるか? Colorado Springsに行こうとしているんだ。""
        [1]
-        1 string data = ""Raiders burned my town. Most everybody was killed or taken away. The rest of us, we've been runnin' for days.""
+        1 string data = ""略奪者たちが町を焼いた。ほとんどの人が殺されるか連れ去られた。残りの俺たちは何日も逃げ続けている。""
        [2]
-        1 string data = ""I got women and little children with me. No food. Not much more'n the clothes on our backs. We need help.""
+        1 string data = ""女と小さな子供たちが一緒だ。食料はない。着ているもの以外ほとんど何もない。助けが必要だ。""
        [3]
-        1 string data = ""But who is even listening? Who would care? We're... we're going to try to make it to Colorado Springs. Then we'll be safe.""
+        1 string data = ""でも誰が聞いてくれるんだ? 誰が気にするんだ? 俺たちは……Colorado Springsまで辿り着こうとする。そうすれば安全だ。""
        [4]
         1 string data = "Trigger Conv Node 5"
        [5]
@@ -6075,13 +6075,13 @@
       1 Array Array (4 items)
        0 int size = 4
        [0]
-        1 string data = ""Calling all Rangers! Red alert, red alert! The city of Phoenix is under attack by a rogue AI and its horde of killer robots!""
+        1 string data = ""全Rangers に呼びかけ! レッドアラート、レッドアラート! Phoenix 市が暴走AI とその殺人ロボット軍団に攻撃されている!""
        [1]
-        1 string data = ""Are you bold enough to make the dangerous trek across the wasteland to reach the city? Can you discover the AI's secret weakness and defeat the robots?""
+        1 string data = ""荒野を横断する危険な旅をして都市に到達できるほど大胆か? AI の秘密の弱点を発見してロボットを倒せるか?""
        [2]
-        1 string data = ""If you crave adventure, the Colorado Springs Gaming Club wants you! We play Robots & Rangers every Tuesday night, and we're looking for a few heroes to join our party!""
+        1 string data = ""冒険を渇望しているなら、Colorado Springs Gaming Club が君を求めている! 毎週火曜の夜にRobots & Rangers をプレイしているが、パーティに加わってくれる英雄を何人か探している!""
        [3]
-        1 string data = ""We've got the rules and the dice; all we need is your imagination! Oh, and snacks. This is Ranger Control, signing off!""
+        1 string data = ""ルールとダイスはある。必要なのは君の想像力だけだ! ああ、それとスナックも。こちらRanger Control、以上!""
    [50]
     0 StringTable data
      1 string Filename = "0000_radio_broadcast_russianrobotbroadcast"

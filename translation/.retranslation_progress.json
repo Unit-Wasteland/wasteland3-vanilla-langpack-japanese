@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 531,
-      "entries_untranslated": 169181,
-      "completion_rate": 0.31,
-      "current_line": 5389,
+      "entries_translated": 594,
+      "entries_untranslated": 169118,
+      "completion_rate": 0.35,
+      "current_line": 6085,
       "status": "in_progress",
       "approach": "Strict sequential from line 666, complete each section 100% before next",
-      "note": "Session 6 complete: 36 new entries translated (lines 3985-5388, 6 sections: amateurweaponmodding, drunkteenagerbunker, gipperanticommunistpropaganda, godfisherinstructions, godfishersermon, huntingbigfoot, internationalbroadcast). Total: 531 entries. Validation: 0 errors, 0 warnings. All structure markers preserved (::minigun spins::, ::belch::, ::robo-beeps::, ::distant roars::, <i>, Script Node, Trigger Conv Node). Quote format strictly matched source. Skipped untranslatable sections (cultbarks dev notes, elijahward empty Spanish, broadcasthub technical nodes)."
+      "note": "Session 7 complete: 63 new entries translated (lines 5389-6084, 12 sections: mountainfolkrambling, nooilfreezing, noradearlywarning, numbersstation, oilfamilysaved, patriarchfiresidechats, patriarchrecruitment, piratedrossradiosignal [skipped-untranslatable], rangersecretadmirer, redskorpionhate, refugeecalls, robotsandrangerslfg). Total: 594 entries. Validation: 0 errors, 0 warnings. All structure markers preserved (::air raid siren::, ::short tones::, ::chuckles::, Script Node, Trigger Conv Node). Quote format strictly matched source. Russian text in russianrobotbroadcast kept as-is (not translatable)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "2ff89b9",
-  "last_commit_message": "Retranslation: base_game entries 370-495 (lines 3091-3984)",
-  "total_entries_completed": 531,
+  "last_commit_hash": "732e6d0",
+  "last_commit_message": "Retranslation: base_game entries 532-594 (lines 5389-6084)",
+  "total_entries_completed": 594,
   "total_entries": 169712,
-  "total_entries_untranslated": 169181,
-  "overall_completion_rate": 0.31,
-  "next_action": "Continue strict sequential translation from line 5389. Reference Spanish for translatability judgment. Validate structure after EVERY edit using validate_structure_v2.py.",
+  "total_entries_untranslated": 169118,
+  "overall_completion_rate": 0.35,
+  "next_action": "Continue strict sequential translation from line 6085. Reference Spanish for translatability judgment. Validate structure after EVERY edit using validate_structure_v2.py.",
   "strict_workflow": {
     "sequential_processing": "MANDATORY - Process from line 1 sequentially. NO skipping, NO prioritization.",
     "spanish_reference": "MANDATORY - Check Spanish file for translatability before each translation.",
