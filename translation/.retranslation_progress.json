@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 647,
-      "entries_untranslated": 169065,
-      "completion_rate": 0.38,
-      "current_line": 6608,
+      "entries_translated": 725,
+      "entries_untranslated": 168987,
+      "completion_rate": 0.43,
+      "current_line": 7357,
       "status": "in_progress",
       "approach": "Strict sequential from line 666, complete each section 100% before next",
-      "note": "Session 8 complete: 53 new entries translated (lines 6085-6607, 6 sections: santachristmassong, soscalls, storytimewithmisterfuntimes, wackypayasosbroadcasts, waronhugs, charley_takeoverfailure). Total: 647 entries. Validation: 0 errors, 0 warnings. All structure markers preserved (::chainsaw buzz::, ::tortured screams::, ::gunfire::, Script Node, Trigger Conv Node). Quote format strictly matched source (4-quote pattern). HTML tags preserved (<i>hugs</i>). Spanish reference used for translatability. Character name 'Charley' from glossary."
+      "note": "Session 9 complete: 78 new entries translated (lines 6608-7356, 10 sections: charley_veryhostiletakeover, erastusdorsey, flab_bizarreinvitation, flab_nitb_reminder, flab_payasotakeover, gasmaskkids_attract, gonzalez_tier4upgradeavailable, gonzalez_tier6upgradeavailable, greatski_radiation). Total: 725 entries. Validation: 0 errors, 0 warnings. All structure markers preserved (::gunshots::, ::whispers::, ::bloody gurgles::, ::chaotic gunfire::, ::Hoons screaming::, ::clowns giggling::, ::maniacal laughter::, Script Node, DEBUG). Quote format strictly matched source (4-quote vs 3-quote variants). HTML tags preserved (<i>). Spanish reference used for translatability. Characters from glossary: Charley, Erastus Dorsey, Jarett, Flab, Vargas, Gonzalez."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "d97f6e1",
-  "last_commit_message": "Retranslation: base_game entries 595-647 (lines 6085-6607)",
-  "total_entries_completed": 647,
+  "last_commit_hash": "975ada7",
+  "last_commit_message": "Retranslation: base_game entries 648-725 (lines 6608-7356)",
+  "total_entries_completed": 725,
   "total_entries": 169712,
-  "total_entries_untranslated": 169065,
-  "overall_completion_rate": 0.38,
-  "next_action": "Continue strict sequential translation from line 6608 (charley_veryhostiletakeover section). Reference Spanish for translatability judgment. Validate structure after EVERY edit using validate_structure_v2.py.",
+  "total_entries_untranslated": 168987,
+  "overall_completion_rate": 0.43,
+  "next_action": "Continue strict sequential translation from line 7357. Reference Spanish for translatability judgment. Validate structure after EVERY edit using validate_structure_v2.py.",
   "strict_workflow": {
     "sequential_processing": "MANDATORY - Process from line 1 sequentially. NO skipping, NO prioritization.",
     "spanish_reference": "MANDATORY - Check Spanish file for translatability before each translation.",
