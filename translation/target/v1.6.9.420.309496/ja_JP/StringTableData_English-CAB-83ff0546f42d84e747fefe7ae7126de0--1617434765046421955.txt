@@ -406788,15 +406788,15 @@
       1 Array Array (5 items)
        0 int size = 5
        [0]
-        1 string data = "Add Fader to party?"
+        1 string data = ""Faderをパーティに加えますか?""
        [1]
-        1 string data = " Yes"
+        1 string data = "" はい""
        [2]
-        1 string data = " Ok"
+        1 string data = "" OK""
        [3]
         1 string data = "Script Node 5"
        [4]
-        1 string data = " No"
+        1 string data = "" いいえ""
    [1392]
     0 StringTable data
      1 string Filename = "testconversation_cnpcadd_fishlips"
@@ -406830,15 +406830,15 @@
       1 Array Array (5 items)
        0 int size = 5
        [0]
-        1 string data = "Add Fishlips to party?"
+        1 string data = ""Fishlipsをパーティに加えますか?""
        [1]
-        1 string data = " Yes"
+        1 string data = "" はい""
        [2]
-        1 string data = " Ok"
+        1 string data = "" OK""
        [3]
         1 string data = "Script Node 5"
        [4]
-        1 string data = " No"
+        1 string data = "" いいえ""
    [1393]
     0 StringTable data
      1 string Filename = "testconversation_cnpcadd_kwon"
@@ -406872,15 +406872,15 @@
       1 Array Array (5 items)
        0 int size = 5
        [0]
-        1 string data = "Add Kwon to party?"
+        1 string data = ""Kwonをパーティに加えますか?""
        [1]
-        1 string data = " Yes"
+        1 string data = "" はい""
        [2]
-        1 string data = " Ok"
+        1 string data = "" OK""
        [3]
         1 string data = "Script Node 5"
        [4]
-        1 string data = " No"
+        1 string data = "" いいえ""
    [1394]
     0 StringTable data
      1 string Filename = "testconversation_cnpcadd_lucia"
@@ -406914,15 +406914,15 @@
       1 Array Array (5 items)
        0 int size = 5
        [0]
-        1 string data = "Add Lucia to party?"
+        1 string data = ""Luciaをパーティに加えますか?""
        [1]
-        1 string data = " Yes"
+        1 string data = "" はい""
        [2]
-        1 string data = " No"
+        1 string data = "" いいえ""
        [3]
         1 string data = "Script Node 5"
        [4]
-        1 string data = " Ok"
+        1 string data = "" OK""
    [1395]
     0 StringTable data
      1 string Filename = "testconversation_cnpcadd_vic"
@@ -406956,15 +406956,15 @@
       1 Array Array (5 items)
        0 int size = 5
        [0]
-        1 string data = "Add Vic to party?"
+        1 string data = ""Vicをパーティに加えますか?""
        [1]
-        1 string data = " Yes"
+        1 string data = "" はい""
        [2]
-        1 string data = " Ok"
+        1 string data = "" OK""
        [3]
         1 string data = "Script Node 5"
        [4]
-        1 string data = " No"
+        1 string data = "" いいえ""
    [1396]
     0 StringTable data
      1 string Filename = "testconversation_debugexample"
@@ -407010,21 +407010,21 @@
       1 Array Array (8 items)
        0 int size = 8
        [0]
-        1 string data = " Harlick. Leader of the Caretakers. Quest NPC."
+        1 string data = "" Harlick。Caretakersのリーダー。クエストNPC。""
        [1]
-        1 string data = "See debug options"
+        1 string data = ""デバッグオプションを見る""
        [2]
-        1 string data = "Farewell."
+        1 string data = ""さようなら。""
        [3]
-        1 string data = " Choose a debug option."
+        1 string data = "" デバッグオプションを選択してください。""
        [4]
-        1 string data = " Set a global variable."
+        1 string data = "" グローバル変数を設定します。""
        [5]
-        1 string data = "I'm setting a global."
+        1 string data = ""グローバル変数を設定中。""
        [6]
         1 string data = "Script Node 8"
        [7]
-        1 string data = ""This works!""
+        1 string data = """"これは動いています!""""
    [1397]
     0 StringTable data
      1 string Filename = "testconversation_denverrevisions"
@@ -407062,9 +407062,9 @@
       1 Array Array (6 items)
        0 int size = 6
        [0]
-        1 string data = "You must have some questions."
+        1 string data = ""何か質問があるだろう。""
        [1]
-        1 string data = "Goodbye."
+        1 string data = ""さようなら。""
        [2]
         1 string data = "Script Node 3"
        [3]
@@ -407072,7 +407072,7 @@
        [4]
         1 string data = "Script Node 5"
        [5]
-        1 string data = "First time entry.\n"
+        1 string data = ""初回エントリ。\n""
    [1398]
     0 StringTable data
      1 string Filename = "testconversation_doctor"
@@ -407126,25 +407126,25 @@
       1 Array Array (10 items)
        0 int size = 10
        [0]
-        1 string data = "Main question node"
+        1 string data = ""メイン質問ノード""
        [1]
-        1 string data = "Can I get some healing?"
+        1 string data = ""治療してもらえますか?""
        [2]
-        1 string data = "Leave"
+        1 string data = ""立ち去る""
        [3]
-        1 string data = "Looks like everyone is at full health, no need for healing."
+        1 string data = ""全員フルヘルスのようだ。治療は不要だ。""
        [4]
-        1 string data = "Sure, for a reasonable fee."
+        1 string data = ""もちろん、適正価格でね。""
        [5]
-        1 string data = "We don't have enough money"
+        1 string data = ""お金が足りない""
        [6]
-        1 string data = "[[Global: test_Money_Doctor_TestDoc_const] Dollars] We have enough money, heal us up"
+        1 string data = ""[[Global: test_Money_Doctor_TestDoc_const] Dollars] 十分なお金がある、治療してくれ""
        [7]
-        1 string data = "On second thought, nevermind."
+        1 string data = ""やっぱりいいや。""
        [8]
-        1 string data = "Maybe later."
+        1 string data = ""また今度で。""
        [9]
-        1 string data = "Great, here's some healing."
+        1 string data = ""よし、治療しよう。""
    [1399]
     0 StringTable data
      1 string Filename = "testconversation_fadeinandout"
@@ -407218,35 +407218,35 @@
       1 Array Array (15 items)
        0 int size = 15
        [0]
-        1 string data = "FADE IN/OUT DEBUG"
+        1 string data = ""フェードイン/アウト デバッグ""
        [1]
-        1 string data = "Test Fade In/Out as Conversation Nodes. (DEBUG)"
+        1 string data = ""会話ノードとしてフェードイン/アウトをテスト。(DEBUG)""
        [2]
-        1 string data = "Test Fade In Out as Barks. (DEBUG)"
+        1 string data = ""バークとしてフェードイン/アウトをテスト。(DEBUG)""
        [3]
-        1 string data = "Leave. (DEBUG)"
+        1 string data = ""去る。(DEBUG)""
        [4]
-        1 string data = "Fade out and in in various ways. If you progression break, keep hititng SPACEBAR."
+        1 string data = ""様々な方法でフェードアウト/インします。進行が止まったらスペースバーを押し続けてください。""
        [5]
-        1 string data = "Fade Out on OnExit, then in OnEnter on next node. (DEBUG)"
+        1 string data = ""OnExitでフェードアウト、次のノードのOnEnterでイン。(DEBUG)""
        [6]
-        1 string data = "Fade Out on OnEnter, then in OnEnter on next node. (DEBUG)"
+        1 string data = ""OnEnterでフェードアウト、次のノードのOnEnterでイン。(DEBUG)""
        [7]
-        1 string data = "Fade Out on OnExit, then OnExit on next node. (DEBUG)"
+        1 string data = ""OnExitでフェードアウト、次のノードのOnExitでアウト。(DEBUG)""
        [8]
-        1 string data = "FADING OUT on ON ENTER (DEBUG)"
+        1 string data = ""ON ENTERでフェードアウト中 (DEBUG)""
        [9]
-        1 string data = "NO FADE DURING THIS BARK. (DEBUG)"
+        1 string data = ""このバーク中はフェードなし。(DEBUG)""
        [10]
-        1 string data = "FADING IN on ON ENTER (DEBUG)"
+        1 string data = ""ON ENTERでフェードイン中 (DEBUG)""
        [11]
-        1 string data = "FINAL BARK, NO FADE. (DEBUG)"
+        1 string data = ""最終バーク、フェードなし。(DEBUG)""
        [12]
-        1 string data = "Fading in on OnEnter. (DEBUG)"
+        1 string data = ""OnEnterでフェードイン中。(DEBUG)""
        [13]
-        1 string data = "Fade Out on OnEnter, then OnExit on next node. (DEBUG)"
+        1 string data = ""OnEnterでフェードアウト、次のノードのOnExitでアウト。(DEBUG)""
        [14]
-        1 string data = "Fading in on OnExit. (DEBUG)"
+        1 string data = ""OnExitでフェードイン中。(DEBUG)""
    [1400]
     0 StringTable data
      1 string Filename = "testconversation_farm_npc"
@@ -407280,15 +407280,15 @@
       1 Array Array (5 items)
        0 int size = 5
        [0]
-        1 string data = ""Wanna fight?""
+        1 string data = """"戦いたいか?""""
        [1]
-        1 string data = ""Yes""
+        1 string data = """"ああ""""
        [2]
-        1 string data = ""No""
+        1 string data = """"いや""""
        [3]
-        1 string data = ""You asked for it!""
+        1 string data = """"自分から言い出したんだぞ!""""
        [4]
-        1 string data = ""Later... coward.""
+        1 string data = """"また今度な...臆病者め。""""
    [1401]
     0 StringTable data
      1 string Filename = "testconversation_gavin1"
@@ -407449,7 +407449,7 @@
        [27]
         1 string data = ""
        [28]
-        1 string data = ""Hey, ladybro," the formerly-boring-but-now-aggressive dude says, puffing out his chest. "What is happening with you?""
+        1 string data = """"よう、お姉さん。" 以前は退屈だったが今は攻撃的な男が胸を張って言う。"調子はどうだい?""""
        [29]
         1 string data = ""
        [30]
@@ -407494,95 +407494,95 @@
        [1]
         1 string data = ""
        [2]
-        1 string data = ""I have a little more time now. Would you like to be less boring?""
+        1 string data = """"今は少し時間があるんだ。もっと退屈じゃなくしたい?""""
        [3]
-        1 string data = ""Why are you so boring?""
+        1 string data = """"なんでそんなに退屈なんだ?""""
        [4]
-        1 string data = ""Goodbye.""
+        1 string data = """"さよなら。""""
        [5]
         1 string data = "::shuffles::"
        [6]
-        1 string data = ""You didn't have time to give me much of a character," he says. "Not that I'm trying to blame you or anything. Um.""
+        1 string data = """"俺にキャラを作る時間があまりなかったんだな。" 彼が言う。"別に責めてるわけじゃないんだけど。ええと。""""
        [7]
-        1 string data = "He straightens hopefully. \r\n\r\n"Yes. What do you have in mind?""
+        1 string data = ""彼は希望を持って姿勢を正す。\r\n\r\n"ああ。何か考えがあるのか?""""
        [8]
-        1 string data = ""Do HCNBP nodes work in this conversation?""
+        1 string data = """"HCNBPノードはこの会話で動くのか?""""
        [9]
-        1 string data = ""Let's find out," he says. "But really, none of you should be using those things anymore.""
+        1 string data = """"調べてみようか。" 彼が言う。"でもさ、もう誰もあれ使っちゃダメだろ。""""
        [10]
-        1 string data = ""It's just that they useless in other conversations," he says, shrugging. "And prone to bugs."\n\n\nHe blinks, then adds, "Not that I'm calling you lazy for using them, though.""
+        1 string data = """"ただ、他の会話では使えないってだけなんだ。" 彼は肩をすくめて言う。"それにバグが出やすいし。"\n\n\n彼は瞬きして付け加える。"あれを使ってるからって君が怠け者だとは言ってないけどね。""""
        [11]
-        1 string data = ""Why don't you like HCNBP?""
+        1 string data = """"なんでHCNBPが嫌いなんだ?""""
        [12]
-        1 string data = ""You're kind of a passive-aggressive dude, aren't you?""
+        1 string data = """"受動攻撃的なタイプだな、お前?""""
        [13]
-        1 string data = "Shrug."
+        1 string data = ""肩をすくめる。""
        [14]
-        1 string data = ""If you say so.""
+        1 string data = """"そう言うならそうだな。""""
        [15]
-        1 string data = "He shrugs back at you, but harder. If this is a competition, he's winning."
+        1 string data = ""彼も肩をすくめ返してきたが、より強く。これが競争なら、彼の勝ちだ。""
        [16]
-        1 string data = ""Maybe we should give you a jazzy mustache.""
+        1 string data = """"派手な口ひげをつけてあげようか。""""
        [17]
-        1 string data = ""Be more aggressive.""
+        1 string data = """"もっと攻撃的になれ。""""
        [18]
-        1 string data = ""Never mind. I like you the way you are.""
+        1 string data = """"やっぱりいいや。今のままの君が好きだ。""""
        [19]
-        1 string data = "He sags. \r\n\r\n"I don't.""
+        1 string data = ""彼はうなだれる。\r\n\r\n"俺は嫌だけどな。""""
        [20]
-        1 string data = ""Okay. Uh. Give me a second."\n\n\nHe walks away from you, muttering and cursing at himself."
+        1 string data = """"わかった。えーと。ちょっと待ってくれ。"\n\n\n彼は独り言を言いながら自分を罵りつつ、あなたから離れていく。""""
        [21]
         1 string data = ""
        [22]
-        1 string data = "You see a generic-looking dude for the first time. \r\n\r\n"Hello," he says. "I'm, uh, bland. And easy to forget.""
+        1 string data = ""ありふれた見た目の男を初めて目にした。\r\n\r\n"やあ。" 彼が言う。"俺はその、平凡だ。忘れられやすいんだ。""""
        [23]
-        1 string data = "You see the generic-looking dude again.\n\n\n"Hello," he says, looking uncomfortable. "
+        1 string data = ""ありふれた見た目の男に再び会った。\n\n\n"やあ。" 彼は居心地悪そうに言う。""
        [24]
         1 string data = ""
        [25]
-        1 string data = "The generic-looking dude tucks the marker away. His new mustache is still wet and slightly crooked. \r\n\r\n"I hope that's better.""
+        1 string data = ""ありふれた見た目の男がマーカーをしまった。彼の新しい口ひげはまだ濡れていて少し曲がっている。\r\n\r\n"これで良くなったと思うんだけど。""""
        [26]
-        1 string data = "The generic dude's mustache is smudged, as if he forgot it was there while itching his nose. "
+        1 string data = ""ありふれた見た目の男の口ひげは汚れている。鼻をかいている間にそこにあることを忘れたようだ。""
        [27]
         1 string data = ""
        [28]
-        1 string data = ""Hey, bro," the formerly-boring-but-now-aggressive dude says, puffing out his chest. "What is happening with you?""
+        1 string data = """"よう、兄弟。" 以前は退屈だったが今は攻撃的な男が胸を張って言う。"調子はどうだい?""""
        [29]
-        1 string data = "He nods at you, flexing a non-existent bicep."
+        1 string data = ""彼はあなたに頷き、存在しない上腕二頭筋を曲げてみせる。""
        [30]
-        1 string data = ""You can do this. You can <i>do</i> this.""
+        1 string data = """"お前ならできる。お前なら<i>できる</i>んだ。""""
        [31]
-        1 string data = "He blinks, then pulls a marker from his pocket.\n\n\n"Be right back." "
+        1 string data = ""彼は瞬きして、ポケットからマーカーを取り出す。\n\n\n"すぐ戻る。"""
        [32]
-        1 string data = ""I wish I had a mirror.""
+        1 string data = """"鏡があればなあ。""""
        [33]
-        1 string data = ""Your mustache is a little messed up.""
+        1 string data = """"口ひげが少し崩れてるぞ。""""
        [34]
-        1 string data = ""Oh, uh," he says, chewing on his lip. "Maybe I'll add a beard later. You won't notice the mustache then.""
+        1 string data = """"ああ、えっと。" 彼は唇を噛みながら言う。"後で髭も足すかもな。そうすれば口ひげは気にならないだろ。""""
        [35]
-        1 string data = ""The aggressive thing isn't working for you, is it?""
+        1 string data = """"攻撃的にするのは上手くいってないだろ?""""
        [36]
-        1 string data = ""Not really," he admits. "But maybe if I keep trying, it'll, you know, stick."\n\n\nHe bares his teeth at you like a bucktoothed lion."
+        1 string data = """"まあな。" 彼は認める。"でも続けてれば、ほら、身につくかもしれないし。"\n\n\n彼は出っ歯のライオンのようにあなたに歯をむき出しにした。""
        [37]
         1 string data = ""
        [38]
-        1 string data = ""How should I know?" he says, fidgeting. "
+        1 string data = """"俺がどうして知ってるんだよ?" 彼はそわそわしながら言う。""
        [39]
-        1 string data = ""I really have no idea.""
+        1 string data = """"本当にさっぱりだ。""""
        [40]
         1 string data = ""
        [41]
-        1 string data = ""Do follow-up nodes still work?""
+        1 string data = """"フォローアップノードはまだ動くのか?""""
        [42]
-        1 string data = ""Do you know if follow-up nodes are working or not?""
+        1 string data = """"フォローアップノードが動いてるかどうか知ってるか?""""
        [43]
         1 string data = """"
        [44]
-        1 string data = ""Megagoodbye.""
+        1 string data = """"メガさようなら。""""
        [45]
         1 string data = "::megashuffles::"
        [46]
-        1 string data = "(This is a test node and should go right to the main question node.)"
+        1 string data = ""(これはテストノードで、メイン質問ノードに直接進むべきです。)""
    [1402]
     0 StringTable data
      1 string Filename = "testconversation_gavin2"
@@ -407689,7 +407689,7 @@
        [0]
         1 string data = ""
        [1]
-        1 string data = "The"
+        1 string data = "その"
        [2]
         1 string data = ""
        [3]
@@ -407784,9 +407784,9 @@
       1 Array Array (47 items)
        0 int size = 47
        [0]
-        1 string data = """asda "
+        1 string data = """"asda ""
        [1]
-        1 string data = "Taek the dog. "
+        1 string data = ""犬を連れて行け。""
        [2]
         1 string data = """"
        [3]
@@ -407874,9 +407874,9 @@
        [44]
         1 string data = """"
        [45]
-        1 string data = "Test test"
+        1 string data = ""テスト テスト""
        [46]
-        1 string data = "Test"
+        1 string data = ""テスト""
    [1403]
     0 StringTable data
      1 string Filename = "testconversation_gavin4"
@@ -407946,33 +407946,33 @@
       1 Array Array (14 items)
        0 int size = 14
        [0]
-        1 string data = "This is a new conversation."
+        1 string data = ""これは新しい会話です。""
        [1]
-        1 string data = "This is a slightly used conversation. "
+        1 string data = ""これは少し使われた会話です。""
        [2]
-        1 string data = ""Hello.""
+        1 string data = """"こんにちは。""""
        [3]
-        1 string data = ""Goodbye.""
+        1 string data = """"さよなら。""""
        [4]
         1 string data = "::barks::"
        [5]
-        1 string data = "I have responded."
+        1 string data = ""応答しました。""
        [6]
-        1 string data = "Bank 7"
+        1 string data = ""バンク7""
        [7]
-        1 string data = ""I have a question.""
+        1 string data = """"質問があります。""""
        [8]
-        1 string data = ""I have a follow-up question.""
+        1 string data = """"フォローアップの質問があります。""""
        [9]
-        1 string data = "Bank 10"
+        1 string data = ""バンク10""
        [10]
-        1 string data = "First response."
+        1 string data = ""最初の応答。""
        [11]
-        1 string data = "Second response. "
+        1 string data = ""2番目の応答。""
        [12]
-        1 string data = "This will never play. "
+        1 string data = ""これは決して再生されない。""
        [13]
-        1 string data = "This will always play. "
+        1 string data = ""これは常に再生される。""
    [1404]
     0 StringTable data
      1 string Filename = "testconversation_gavin5"
@@ -407994,9 +407994,9 @@
       1 Array Array (2 items)
        0 int size = 2
        [0]
-        1 string data = "This was the smallest conversation in the world. "
+        1 string data = ""これは世界で最も小さな会話だった。""
        [1]
-        1 string data = "Now, it isn't. "
+        1 string data = ""今は違う。""
    [1405]
     0 StringTable data
      1 string Filename = "testconversation_genericcombatbarks"
@@ -408078,39 +408078,39 @@
       1 Array Array (17 items)
        0 int size = 17
        [0]
-        1 string data = "Ouch!"
+        1 string data = ""痛っ!""
        [1]
-        1 string data = "I'm about to die!"
+        1 string data = ""死にそうだ!""
        [2]
-        1 string data = "I am slain!"
+        1 string data = ""やられた!""
        [3]
-        1 string data = "They killed Kenny!"
+        1 string data = ""ケニーが殺された!""
        [4]
-        1 string data = "I feel better."
+        1 string data = ""気分が良くなった。""
        [5]
-        1 string data = "I'm attacking!"
+        1 string data = ""攻撃中!""
        [6]
-        1 string data = "Reloaded!"
+        1 string data = ""リロード完了!""
        [7]
-        1 string data = "Out of ammo!"
+        1 string data = ""弾切れだ!""
        [8]
-        1 string data = "Entering ambush mode!"
+        1 string data = ""待ち伏せモード突入!""
        [9]
-        1 string data = "Never saw me coming."
+        1 string data = ""俺が来たことに気づかなかっただろう。""
        [10]
-        1 string data = "I'm on fire!"
+        1 string data = ""燃えてる!""
        [11]
-        1 string data = "S-so c-c-c-cold..."
+        1 string data = ""さ、さ、さ、寒い...""
        [12]
-        1 string data = "Shocking!"
+        1 string data = ""衝撃的!""
        [13]
-        1 string data = "I KEEEEL YOU!"
+        1 string data = ""殺してやる!""
        [14]
         1 string data = "Script Node 18"
        [15]
-        1 string data = "Owie!"
+        1 string data = ""いたっ!""
        [16]
-        1 string data = "<i>bleeds loudly</i>"
+        1 string data = ""<i>大きな音で出血している</i>""
    [1406]
     0 StringTable data
      1 string Filename = "testconversation_goldstandard"
@@ -408144,15 +408144,15 @@
       1 Array Array (5 items)
        0 int size = 5
        [0]
-        1 string data = " Add a follower?"
+        1 string data = "" フォロワーを追加しますか?""
        [1]
-        1 string data = " Add a follower."
+        1 string data = "" フォロワーを追加する。""
        [2]
-        1 string data = " Leave."
+        1 string data = "" 立ち去る。""
        [3]
         1 string data = ""
        [4]
-        1 string data = " Follower added."
+        1 string data = "" フォロワーを追加しました。""
    [1407]
     0 StringTable data
      1 string Filename = "testconversation_kwan_reactionbarks"
@@ -408182,11 +408182,11 @@
       1 Array Array (4 items)
        0 int size = 4
        [0]
-        1 string data = "That hurts!"
+        1 string data = ""痛いぞ!""
        [1]
-        1 string data = "Joining the party!"
+        1 string data = ""パーティに参加する!""
        [2]
-        1 string data = "Leaving the party!"
+        1 string data = ""パーティから離脱する!""
        [3]
         1 string data = ""
    [1408]
@@ -408214,11 +408214,11 @@
       1 Array Array (3 items)
        0 int size = 3
        [0]
-        1 string data = "Trade?"
+        1 string data = ""取引する?""
        [1]
-        1 string data = "Let's trade"
+        1 string data = ""取引しよう""
        [2]
-        1 string data = "Bye"
+        1 string data = ""さようなら""
    [1409]
     0 StringTable data
      1 string Filename = "testconversation_mpterminal"
@@ -408592,9 +408592,9 @@
        [1]
         1 string data = "Script Node 2"
        [2]
-        1 string data = "Step away from the terminal."
+        1 string data = ""端末から離れる。""
        [3]
-        1 string data = ""Multiplayer terminal test.""
+        1 string data = """"マルチプレイヤー端末テスト。""""
        [4]
         1 string data = "Test Single-Player options. "
        [5]
@@ -408634,17 +408634,17 @@
        [22]
         1 string data = "Script Node 23"
        [23]
-        1 string data = "Select one of the following hologram attacks."
+        1 string data = ""以下のホログラム攻撃から1つを選択してください。""
        [24]
-        1 string data = ""Rock." (1)"
+        1 string data = """"グー" (1)""
        [25]
-        1 string data = ""Paper" (2)"
+        1 string data = """"パー" (2)""
        [26]
-        1 string data = ""Scissors" (3)"
+        1 string data = """"チョキ" (3)""
        [27]
-        1 string data = ""Talk it out" (4)"
+        1 string data = """"話し合う" (4)""
        [28]
-        1 string data = "Quit early."
+        1 string data = ""早めに終了する。""
        [29]
         1 string data = "Next round!\r\nb4001_Hologame_CurrentRound == \r\n[Global: b4001_Hologame_CurrentRound]"
        [30]
@@ -408654,9 +408654,9 @@
        [32]
         1 string data = "Ready, set... DEBUG INFO:\nb4001_HologameP2_InputLocked ==[Global: b4001_HologameP2_InputLocked]\nb4001_HologameP1_AttackType ==[Global: b4001_HologameP1_AttackType]\nb4001_HologameP2_AttackType ==[Global: b4001_HologameP2_AttackType]\nb4001_HologameP1_PcConnected == [Global: b4001_HologameP1_PcConnected]\nb4001_HologameP2_NpcConnected == [Global: b4001_HologameP2_NpcConnected]\nb4001_HologameP2_PcConnected ==\n[Global: b4001_HologameP2_PcConnected]\nb4001_Hologame_TalkAvailable == [Global: b4001_Hologame_TalkAvailable]"
        [33]
-        1 string data = "Wait."
+        1 string data = ""待つ。""
        [34]
-        1 string data = "Waiting for opponent selection..."
+        1 string data = ""対戦相手の選択を待っています...""
        [35]
         1 string data = "Bank 36"
        [36]
@@ -408688,13 +408688,13 @@
        [49]
         1 string data = "Debug: Force a random number for player 2, then 'wait.'."
        [50]
-        1 string data = "Play again (resets all variables and restarts)"
+        1 string data = ""もう一度プレイ (全変数をリセットして再開)""
        [51]
-        1 string data = "Step away (resets all variables)."
+        1 string data = ""離れる (全変数をリセット)""
        [52]
-        1 string data = ""Simulation initiated.""
+        1 string data = """"シミュレーション開始。""""
        [53]
-        1 string data = "One or both playes have quit. Bummer!"
+        1 string data = ""片方または両方のプレイヤーが終了しました。残念!""
        [54]
         1 string data = "Script Node 55"
        [55]
@@ -408706,13 +408706,13 @@
        [58]
         1 string data = "Script Node 59"
        [59]
-        1 string data = "Tell your other Ranger Squad to get going."
+        1 string data = ""もう一方のレンジャー部隊に出発するよう伝える。""
        [60]
-        1 string data = ""Player 1 (the human) wins!""
+        1 string data = """"プレイヤー1 (人間) の勝利!""""
        [61]
-        1 string data = ""Player 2 (the robot) wins!""
+        1 string data = """"プレイヤー2 (ロボット) の勝利!""""
        [62]
-        1 string data = ""The game is a tie!""
+        1 string data = """"引き分け!""""
        [63]
         1 string data = "DEBUG ONLY: Step away without resetting variables."
        [64]
@@ -408742,29 +408742,29 @@
        [76]
         1 string data = "We are still waiting for Player 2 to make their move.\n"
        [77]
-        1 string data = ""Did you want to help me test my game?""
+        1 string data = """"ゲームのテストを手伝ってくれる?""""
        [78]
-        1 string data = ""You got it.""
+        1 string data = """"いいぜ。""""
        [79]
-        1 string data = ""Actually, no.""
+        1 string data = """"いや、やめとく。""""
        [80]
-        1 string data = ""<i>Thank</i> you!"\n\n\nThe robot's blades wiggle in excitement."
+        1 string data = """"<i>ありがとう</i>!"\n\n\nロボットの刃が興奮して震えている。""
        [81]
-        1 string data = ""Oh. Okay. Sorry.""
+        1 string data = """"ああ。わかった。ごめん。""""
        [82]
         1 string data = "::sighs::"
        [83]
-        1 string data = ""My name's Pico, by the way. I'm setting up this simulation to help the commune defend itself.""
+        1 string data = """"俺の名前はPico。コミューンの防衛のためにこのシミュレーションを設定してるんだ。""""
        [84]
         1 string data = "Script Node 85"
        [85]
         1 string data = "Script Node 86"
        [86]
-        1 string data = "Play against an automated opponent."
+        1 string data = ""自動化された対戦相手と対戦する。""
        [87]
         1 string data = "Script Node 88"
        [88]
-        1 string data = "<<ERROR: EXECUTABLE MISSING>>"
+        1 string data = ""<<エラー: 実行ファイルが見つかりません>>""
    [1410]
     0 StringTable data
      1 string Filename = "testconversation_mpterminal2"
@@ -408946,9 +408946,9 @@
        [3]
         1 string data = "This node is pretty standard and boring.  Next up: Scripts and Conditionals test via GlobalVariables (specifically, testGlobal_NetworkCoverage)."
        [4]
-        1 string data = "Set the GlobalVariable to 0."
+        1 string data = ""グローバル変数を0に設定。""
        [5]
-        1 string data = "Set the GlobalVariable to 1."
+        1 string data = ""グローバル変数を1に設定。""
        [6]
         1 string data = "This node has a GlobalVariable Conditional.  This node should only appear if the GlobalVariable is set to 0."
        [7]
@@ -408956,9 +408956,9 @@
        [8]
         1 string data = "Execute test Script command TestScriptNetworkCoverage.  Use this to try executing arbitrary code by modifying the method of this name inside the code."
        [9]
-        1 string data = "Goodbye."
+        1 string data = ""さようなら。""
        [10]
-        1 string data = "Take me to the multiplayer-specific stuff."
+        1 string data = ""マルチプレイヤー専用の所に連れて行ってくれ。""
        [11]
         1 string data = "Welcome to the multiplayer-specific zone.  Here you can find a variety of nodes which use different multiplayer Conditionals.  Each of these will only show up if the Conditional passes.  The backend for the multiplayer Conditionals is not implemented so they currently all return false.  You can set them to true in code or implement them properly and test them here.\n\n\nThere's also a convenient node for executing test Script code in case that proves useful.  This is the same test Script method used elsewhere in this conversation."
        [12]
@@ -408978,9 +408978,9 @@
        [19]
         1 string data = "This node will only appear if IsOtherPlayerInRange returns true, using a range of 10 meters."
        [20]
-        1 string data = "I'm done with the multiplayer-specific zone for now."
+        1 string data = ""マルチプレイヤー専用ゾーンは今のところ終わり。""
        [21]
-        1 string data = "Goodbye."
+        1 string data = ""さようなら。""
    [1412]
     0 StringTable data
      1 string Filename = "testconversation_overridecamerapositions"
@@ -409132,13 +409132,13 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = "Generic Conversation.\n"
+        1 string data = ""汎用会話。\n""
        [2]
-        1 string data = ""Camera angle 1!""
+        1 string data = """"カメラアングル1!""""
        [3]
-        1 string data = "Start camera swaps on script nodes"
+        1 string data = ""スクリプトノードでカメラ切り替えを開始""
        [4]
-        1 string data = "Step away.\n"
+        1 string data = ""離れる。\n""
        [5]
         1 string data = "Script Node 6"
        [6]
