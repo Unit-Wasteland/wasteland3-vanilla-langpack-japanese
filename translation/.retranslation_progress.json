@@ -12,10 +12,10 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries_estimated": 51853,
-      "current_line": 369007,
-      "entries_completed": 51201,
+      "current_line": 370302,
+      "entries_completed": 51506,
       "status": "in_progress",
-      "note": "Lines 367303-369007: o2001_flabtheinhaler complete (266 entries), o2001_gonzalez_radio_rangertakeover complete (8 entries), o2001_gwyntalbot complete (27 entries), o2001_havardrodinkirk_interior complete (9 entries), o2001_kylerockitt complete (16 entries), o2001_larsodinkirk_exterior complete (8 entries), o2001_larsodinkirk_interior complete (57 entries), o2001_longjohn in progress (20/136 entries)"
+      "note": "Lines 369007-370302: o2001_longjohn complete (136 entries), o2001_magnushammer complete (14 entries), o2001_masato complete (87 entries), o2001_mashergreeter complete (56 entries), o2001_megascope complete (12 entries)"
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -38,10 +38,10 @@
       "status": "pending"
     }
   },
-  "last_commit_hash": "6fea9d8",
-  "total_entries_completed": 51201,
+  "last_commit_hash": "27236f7",
+  "total_entries_completed": 51506,
   "estimated_total_entries": 71992,
-  "next_action": "Continue from line 369007 (current section: o2001_longjohn - 20/136 entries completed, 116 remaining - Long John dialogue about Colorado travels and synth identity)",
+  "next_action": "Continue from line 370302 (next section: o2001_merchants_departure - 11 entries - merchant departure dialogues)",
   "memory_settings": {
     "physical_ram_gb": 6,
     "nodejs_heap_size_gb": 2.5,
