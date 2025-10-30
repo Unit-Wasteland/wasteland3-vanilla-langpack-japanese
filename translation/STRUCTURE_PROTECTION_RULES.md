@@ -176,6 +176,55 @@ bash automation/validate-structure.sh
 ❌ 破損: string data = ""スクリプトノード 14""
 ```
 
+### 6. 空エントリの処理（重要 - Session 125エラーから学んだ教訓）
+
+**⚠️ CRITICAL: スペイン語参照が空でもテキストを削除してはいけない**
+
+スペイン語参照ファイルで該当エントリが空文字列 (`string data = ""`) の場合、誤って日本語ファイルも空にすると**引用符の数が不一致**になり構造エラーが発生します。
+
+**問題のパターン:**
+```
+EN: string data = ""We arrested him. He's in our custody.""  (4個の引用符)
+ES: string data = ""  (2個の引用符 - 空)
+```
+
+**❌ 誤った対応（構造破壊）:**
+```
+JA: string data = ""  (2個の引用符 - 空)
+→ エラー: QUOTE_COUNT_MISMATCH (EN=4個、JA=2個)
+```
+
+**✅ 正しい対応（構造保持）:**
+```
+JA: string data = ""We arrested him. He's in our custody.""  (4個の引用符 - 英語保持)
+→ 検証成功: 引用符の数が一致（EN=4個、JA=4個）
+```
+
+**ルール:**
+1. **スペイン語が空 = 翻訳不要** を意味するが、**テキストを削除する** という意味ではない
+2. 翻訳しない場合は、**必ず英語テキストをそのまま保持**する
+3. 引用符の数を**絶対に変更しない**（構造の最優先ルール）
+
+**検出方法:**
+```bash
+# 引用符の数の不一致を検出
+python3 translation/validate_structure_v2.py \
+    translation/target/.../ja_JP/StringTableData_*.txt \
+    --source translation/source/.../en_US/StringTableData_*.txt
+```
+
+**実際のエラー例（Session 125 - Line 134280）:**
+```bash
+# エラー発生
+EN: string data = ""We arrested him. He's in our custody, and that's where he's going to stay.""
+JA: string data = ""  (誤って空にした)
+→ QUOTE_COUNT_MISMATCH: ソース=4, ターゲット=2
+
+# 修正
+JA: string data = ""We arrested him. He's in our custody, and that's where he's going to stay.""
+→ 検証成功: エラー0件
+```
+
 ## 正規表現パターン（検証用）
 
 ### 破損パターンの検出

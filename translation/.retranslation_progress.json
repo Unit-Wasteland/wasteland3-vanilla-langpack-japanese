@@ -67,10 +67,16 @@
       "Using scripts for bulk operations",
       "Translating without Spanish reference check",
       "Committing without validation",
-      "Changing quote count from source"
+      "Changing quote count from source",
+      "Deleting text when Spanish is empty (Session 125 error: preserve English text)"
     ]
   },
   "structure_protection": {
+    "critical_rules": [
+      "NEVER delete text when Spanish is empty - preserve English text to maintain quote count",
+      "Spanish empty (\"\") means 'no translation needed', NOT 'delete the text'",
+      "Always match quote count exactly: EN=4 quotes -> JA=4 quotes (Session 125 lesson)"
+    ],
     "preserve_markers": [
       "\"\"",
       "[ ]",

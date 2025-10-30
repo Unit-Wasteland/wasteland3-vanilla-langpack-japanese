@@ -268,6 +268,10 @@ translation/.retranslation_progress.json を読み込んで、translation/STRICT
    - []、<>、::action:: 保護
    - [Global:], [Dropset:], [Reward:] など絶対に翻訳禁止
    - Script Node 翻訳禁止
+   - ⚠️ **CRITICAL: スペイン語が空でもテキストを削除しない** (Session 125エラー教訓)
+     - スペイン語が空 ("") = 翻訳不要 → 英語テキストをそのまま保持
+     - 誤って空にすると引用符の数が不一致になり構造エラー
+     - 例: EN=""Text"" (4個), ES="" (2個) → JA=""Text"" (4個 - 英語保持)
 
 3. **各編集後の検証** (MANDATORY):
    - 各editツール実行後、必ずvalidate_structure_v2.pyを実行

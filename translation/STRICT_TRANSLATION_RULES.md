@@ -164,6 +164,68 @@ ES: string data = "::suspira:: "Desde luego"."
 
 **注意:** アクションマーカー自体は英語のまま推奨（::sighs::）
 
+### 2.3 重要: スペイン語が空の場合の処理
+
+**⚠️ CRITICAL RULE - 構造破壊の主要原因**
+
+スペイン語参照ファイルで該当エントリが空文字列 (`string data = ""`) の場合の処理:
+
+#### ❌ 絶対禁止: 日本語ファイルも空にする
+
+```
+EN: string data = ""We arrested him. He's in our custody.""  (4個の引用符)
+ES: string data = ""  (2個の引用符 - 空)
+❌ JA: string data = ""  (2個の引用符 - 空) → 構造破壊！引用符の数が不一致
+```
+
+**理由:**
+- スペイン語が空 = 「翻訳不要」を意味する
+- しかし、**空にする = テキストを削除する** ではない
+- 引用符の数が変わるため構造検証エラーになる
+
+#### ✅ 正解: 英語テキストをそのまま保持
+
+```
+EN: string data = ""We arrested him. He's in our custody.""  (4個の引用符)
+ES: string data = ""  (2個の引用符 - 空)
+✅ JA: string data = ""We arrested him. He's in our custody.""  (4個の引用符 - 英語保持)
+```
+
+**理由:**
+- 引用符の数が英語ソースと一致（4個 → 4個）
+- テキスト内容は英語のままだが、構造は保持される
+- ゲームは正常に動作し、英語テキストが表示される
+
+#### 判断フロー
+
+```
+スペイン語ファイルを確認
+  ├─ 翻訳されている → 日本語でも翻訳する
+  ├─ 英語のまま → 日本語でも英語のまま保持
+  └─ 空文字列 ("") → 日本語でも英語のまま保持（削除しない！）
+```
+
+#### 実際の例（Session 125のエラーケース）
+
+```bash
+# Line 134280のケース
+EN: string data = ""We arrested him. He's in our custody, and that's where he's going to stay.""
+ES: string data = ""
+
+# ❌ 誤った対応（構造破壊）
+JA: string data = ""
+→ 引用符: EN=4個、JA=2個 → QUOTE_COUNT_MISMATCH エラー
+
+# ✅ 正しい対応（構造保持）
+JA: string data = ""We arrested him. He's in our custody, and that's where he's going to stay.""
+→ 引用符: EN=4個、JA=4個 → 検証成功
+```
+
+**教訓:**
+- **スペイン語が空 ≠ テキストを削除する**
+- **翻訳しない = 英語テキストを保持する**
+- **構造（引用符の数）を絶対に変更しない**
+
 ---
 
 ## Part 3: 作業手順（絶対厳守）
