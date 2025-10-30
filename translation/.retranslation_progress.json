@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 6913,
-      "entries_untranslated": 162799,
+      "entries_translated": 6984,
+      "entries_untranslated": 162728,
       "completion_rate": 4.1,
-      "current_line": 87546,
+      "current_line": 88644,
       "status": "in_progress",
       "approach": "Strict sequential from line 666, complete each section 100% before next",
-      "note": "Session 86: 223 new entries translated (lines 86149-87546). Sections: a1001_ralphy (Ralphy dialogues at HQ garage, 23 entries), a1001_ramnrem (RAM and REM spider-bot dialogues, 18 entries), a1001_randygett (Randy Gett extensive dialogues, 141 entries), a1001_reedmessengerwoman (Gwendolyn Reed messenger, 10 entries), a1001_refugeefollower (Refugee follower dialogues, 31 entries). Structure validation: 0 errors, 0 warnings."
+      "note": "Session 87: 71 new entries translated (lines 88422-88644). Section: a1001_refugeeleader (Del Hackett refuge leader dialogues, 71 entries). Del Hackett introduction, refugee plea to stay, security incident with Andy, base exploration Q&A, Andy's death, refugee NPC reactions. Structure validation: 0 errors, 0 warnings."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "0c5c08a",
-  "last_commit_message": "Retranslation: base_game entries 6691-6913 (223 entries, lines 86149-87546)",
-  "total_entries_completed": 6913,
+  "last_commit_hash": "1ad8568",
+  "last_commit_message": "Retranslation: base_game entries 6914-6984 (71 entries, lines 88422-88644)",
+  "total_entries_completed": 6984,
   "total_entries": 169712,
-  "total_entries_untranslated": 162799,
+  "total_entries_untranslated": 162728,
   "overall_completion_rate": 4.1,
-  "next_action": "Continue strict sequential translation from line 87547 (a1001_refugeeleader section - Del Hackett refuge leader dialogues, 211 entries). Reference Spanish for translatability. Validate after each edit.",
+  "next_action": "Continue strict sequential translation from line 88645 onwards. Next section is likely more NPC ambient dialogues or next story section. Reference Spanish for translatability. Validate after each edit.",
   "strict_workflow": {
     "sequential_processing": "MANDATORY - Process from line 1 sequentially. NO skipping, NO prioritization.",
     "spanish_reference": "MANDATORY - Check Spanish file for translatability before each translation.",
