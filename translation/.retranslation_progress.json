@@ -21,7 +21,7 @@
       "current_line": 134468,
       "status": "in_progress",
       "approach": "Strict sequential from line 666, complete each section 100% before next",
-      "note": "Session 130: 43 entries (a2001_sherrifdaisy_atconstabulary: entries [214]-[217], [238]-[239], [242]-[243], [246]-[252], [272]-[279], [281]-[286], [288]-[300]). 1 error (entry [206] empty - untranslatable per Spanish), 0 warnings. Next: Continue a2001_sherrifdaisy_atconstabulary entry [301] onwards (line ~134470)."
+      "note": "Session 125: 43 entries (a2001_sherrifdaisy_atconstabulary: entries [214]-[217], [238]-[239], [242]-[243], [246]-[252], [272]-[279], [281]-[286], [288]-[300]). Structure error fixed: Entry [206] line 134280 restored English text (Spanish empty ≠ delete text). Validation: 0 errors. Next: Continue a2001_sherrifdaisy_atconstabulary entry [301] onwards (line ~134470)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,8 +48,8 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "db573d1",
-  "last_commit_message": "Retranslation: base_game entries 10295-10337 (43 entries, lines 134247-134468)",
+  "last_commit_hash": "13efff6",
+  "last_commit_message": "Fix structure error: Restore English text for entry [206]",
   "total_entries_completed": 10337,
   "total_entries": 169712,
   "total_entries_untranslated": 159375,
