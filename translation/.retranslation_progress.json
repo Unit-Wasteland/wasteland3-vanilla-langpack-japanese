@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 8827,
-      "entries_untranslated": 160885,
+      "entries_translated": 8900,
+      "entries_untranslated": 160812,
       "completion_rate": 5.2,
-      "current_line": 111042,
+      "current_line": 112442,
       "status": "in_progress",
       "approach": "Strict sequential from line 666, complete each section 100% before next",
-      "note": "Session 109: 133 new entries translated (lines 109949-111042). Sections: a2001_combatbarks_machineshopthugs (15), a2001_combatbarks_marshals (50), a2001_combatbarks_refugee (15), a2001_combatbarks_refugeeinstigator (18), a2001_combatbarks_sheriffdaisy (15), a2001_companionbarks (7), a2001_crowdatpillories (13). Combat barks, companion observations, crowd reactions. Spanish reference used for translatability verification. Structure validation: 0 errors, 0 warnings."
+      "note": "Session 110: 73 new entries translated (lines 111043-112442). Sections: a2001_cyborgchicken_leftleg (14), a2001_deadbattery (6), a2001_delhackett (6), a2001_deputymarshaltorres (47). Spanish reference used for translatability verification. Structure validation: 0 errors, 0 warnings."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "e372462",
-  "last_commit_message": "Retranslation: base_game entries 8695-8827 (133 entries, lines 109949-111042)",
-  "total_entries_completed": 8827,
+  "last_commit_hash": "903ffd1",
+  "last_commit_message": "Retranslation: base_game entries 8828-8900 (73 entries, lines 111043-112442)",
+  "total_entries_completed": 8900,
   "total_entries": 169712,
-  "total_entries_untranslated": 160885,
+  "total_entries_untranslated": 160812,
   "overall_completion_rate": 5.2,
-  "next_action": "Continue strict sequential translation from line 111042 onwards. Section: a2001_cyborgchicken_leftleg (59 entries). Reference Spanish for translatability. Validate structure after completing sections.",
+  "next_action": "Continue strict sequential translation from line 112442 onwards. Continue with a2001_deputymarshaltorres remaining entries. Reference Spanish for translatability. Validate structure after completing sections.",
   "strict_workflow": {
     "sequential_processing": "MANDATORY - Process from line 1 sequentially. NO skipping, NO prioritization.",
     "spanish_reference": "MANDATORY - Check Spanish file for translatability before each translation.",
