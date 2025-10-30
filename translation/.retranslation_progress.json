@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 10097,
-      "entries_untranslated": 159615,
-      "completion_rate": 5.9,
-      "current_line": 130141,
+      "entries_translated": 10184,
+      "entries_untranslated": 159528,
+      "completion_rate": 6.0,
+      "current_line": 131869,
       "status": "in_progress",
       "approach": "Strict sequential from line 666, complete each section 100% before next",
-      "note": "Session 126: 52 entries (a2001_parkerpatient_con: 9, a2001_parkerpatient_injury: 9, a2001_parkerpatient_suture: 9, a2001_pillorysquare_marshal: 9, a2001_radio_arrestingirv: 5, a2001_radio_daisy_lostendgamesupport: 3, a2001_radio_gonzalez_tier3upgradeavailable: 8). 0 errors, 0 warnings. Next: a2001_rosiewong_downtown (line 130141)."
+      "note": "Session 127: 87 entries (a2001_rosiewong_downtown: 60, a2001_runsonempty: 27). 0 errors, 0 warnings. Next: a2001_seniormarshals (line 131869)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "8177466386583b09f937d587a97ea84da866402e",
-  "last_commit_message": "Retranslation: base_game entries 9928-10045 (118 entries, lines 128605-129468)",
-  "total_entries_completed": 10097,
+  "last_commit_hash": "445c64a",
+  "last_commit_message": "Retranslation: base_game entries 10098-10184 (87 entries, lines 130141-131869)",
+  "total_entries_completed": 10184,
   "total_entries": 169712,
-  "total_entries_untranslated": 159615,
-  "overall_completion_rate": 5.9,
-  "next_action": "Continue strict sequential translation from line 130141 onwards (a2001_rosiewong_downtown section). Reference Spanish for translatability. Validate structure after completing sections.",
+  "total_entries_untranslated": 159528,
+  "overall_completion_rate": 6.0,
+  "next_action": "Continue strict sequential translation from line 131869 onwards (a2001_seniormarshals section). Reference Spanish for translatability. Validate structure after completing sections.",
   "strict_workflow": {
     "sequential_processing": "MANDATORY - Process from line 1 sequentially. NO skipping, NO prioritization.",
     "spanish_reference": "MANDATORY - Check Spanish file for translatability before each translation.",
