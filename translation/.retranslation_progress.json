@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 10337,
-      "entries_untranslated": 159375,
-      "completion_rate": 6.1,
-      "current_line": 134468,
+      "entries_translated": 10514,
+      "entries_untranslated": 159198,
+      "completion_rate": 6.2,
+      "current_line": 135306,
       "status": "in_progress",
       "approach": "Strict sequential from line 666, complete each section 100% before next",
-      "note": "Session 125: 43 entries (a2001_sherrifdaisy_atconstabulary: entries [214]-[217], [238]-[239], [242]-[243], [246]-[252], [272]-[279], [281]-[286], [288]-[300]). Structure error fixed: Entry [206] line 134280 restored English text (Spanish empty ≠ delete text). Validation: 0 errors. Next: Continue a2001_sherrifdaisy_atconstabulary entry [301] onwards (line ~134470)."
+      "note": "Session 126: 177 entries (a2001_sherrifdaisy_atconstabulary entries [301]-[406] completed; a2001_silaswatkins entries [0]-[90] completed). Structure validation: 0 errors. Spanish reference checked for all entries. Next: Continue to next section a2001_snowpile onwards (line ~135307)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "13efff6",
-  "last_commit_message": "Fix structure error: Restore English text for entry [206]",
-  "total_entries_completed": 10337,
+  "last_commit_hash": "pending",
+  "last_commit_message": "Retranslation: base_game entries 10338-10514 (177 entries, lines 134469-135306)",
+  "total_entries_completed": 10514,
   "total_entries": 169712,
-  "total_entries_untranslated": 159375,
-  "overall_completion_rate": 6.1,
-  "next_action": "Continue strict sequential translation. Next: a2001_sherrifdaisy_atconstabulary section (line ~134470), entry [301] onwards. Many entries have Spanish translations. Validate structure after completing sections.",
+  "total_entries_untranslated": 159198,
+  "overall_completion_rate": 6.2,
+  "next_action": "Continue strict sequential translation. Next: a2001_snowpile section onwards (line ~135307). Validate structure after completing sections.",
   "strict_workflow": {
     "sequential_processing": "MANDATORY - Process from line 1 sequentially. NO skipping, NO prioritization.",
     "spanish_reference": "MANDATORY - Check Spanish file for translatability before each translation.",
