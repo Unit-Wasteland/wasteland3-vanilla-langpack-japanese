@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 7068,
-      "entries_untranslated": 162644,
+      "entries_translated": 7111,
+      "entries_untranslated": 162601,
       "completion_rate": 4.2,
-      "current_line": 89576,
+      "current_line": 90921,
       "status": "in_progress",
       "approach": "Strict sequential from line 666, complete each section 100% before next",
-      "note": "Session 88: 84 new entries translated (lines 88645-89576). Sections: a1001_refugeeleader ambient NPC dialogues (64 entries - Bizarre/synth/airport/hotel/Dorsey/Reed/Brygo/Little Vegas/chickens/power/Steeltown), a1001_refugeesexecuted (2 entries), a1001_refugeestink (1 entry), a1001_ronaldreagan (5 entries), a1001_rook first dialogues (12 entries - Aspen rescue, Arizona situation, La Loca guilt). Structure validation: 0 errors, 0 warnings."
+      "note": "Session 89: 43 new entries translated (lines 89577-90921). Sections: a1001_rook NPC dialogues - refugee management/outcomes, Rook/la Loca/Pizepi/Riley outcomes, ambient comments on Gwendolyn Reed daughters/refugees/Bizarre outcomes, world state reactions (synth/airport/Kodiak/hotel/Dorsey/Brygo), chickens/power/Steeltown outcomes, companion dialogues (Angie/Connie/Bell/November), a1001_scarcollectorattackleader confrontation, a1001_scotchmo recruitment dialogue start. Structure validation: 0 errors, 0 warnings."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "78bd2e3",
-  "last_commit_message": "Retranslation: base_game entries 6985-7068 (84 entries, lines 88645-89576)",
-  "total_entries_completed": 7068,
+  "last_commit_hash": "21c4a5c",
+  "last_commit_message": "Retranslation: base_game entries 7069-7111 (43 entries, lines 89577-90921)",
+  "total_entries_completed": 7111,
   "total_entries": 169712,
-  "total_entries_untranslated": 162644,
+  "total_entries_untranslated": 162601,
   "overall_completion_rate": 4.2,
-  "next_action": "Continue strict sequential translation from line 89577 onwards. Next section is a1001_rook continued dialogues (refugee/Rook/Pizepi/Aspen/Gwendolyn Reed outcomes). Reference Spanish for translatability. Validate after each edit.",
+  "next_action": "Continue strict sequential translation from line 90922 onwards. Next section is a1001_scotchmo continued dialogues (recruitment, party interactions, drunk dialogue). Reference Spanish for translatability. Validate after each edit.",
   "strict_workflow": {
     "sequential_processing": "MANDATORY - Process from line 1 sequentially. NO skipping, NO prioritization.",
     "spanish_reference": "MANDATORY - Check Spanish file for translatability before each translation.",
