@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 11428,
-      "entries_untranslated": 158284,
-      "completion_rate": 6.7,
-      "current_line": 144907,
+      "entries_translated": 11583,
+      "entries_untranslated": 158129,
+      "completion_rate": 6.8,
+      "current_line": 145777,
       "status": "in_progress",
       "approach": "Strict sequential from line 666, complete each section 100% before next",
-      "note": "Session 136: 61 entries (a2101_benjiebraddock 45 COMPLETED - 41 translated, 4 kept English; a2101_billyandjean 2 COMPLETED - 2 translated; a2101_boulder_nightclub 14 translated of 87 total - section IN PROGRESS). Structure validation: 0 errors (13 quote errors fixed). Spanish reference checked for all entries. Action markers preserved. Glossary terms: Faran Brygo, Benjie, Ace, Billy, Jean, Boulder, Local 168, Delgado, Colorado Springs, Dorseys, Steeltown. Next: Continue from line 144907 (a2101_boulder_nightclub section remaining entries)."
+      "note": "Session 137: 155 entries. Sections: a2101_boulder_nightclub 42 COMPLETED (22 translated, 20 kept English/script); a2101_breakerguard 5 COMPLETED (kept English - Spanish empty); a2101_brothelpatron 7 COMPLETED (5 translated, 2 script); a2101_brygoguard 50 COMPLETED (28 translated, 22 kept English/script); a2101_buzzkill_animalfollower 1 COMPLETED; a2101_buzzkill_animalleader 22 COMPLETED (20 translated, 2 script); a2101_buzzkill_brandi 7 COMPLETED (6 translated, 1 script); a2101_buzzkill_bryan 7 COMPLETED (6 translated, 1 script); a2101_buzzkill_christopher 7 COMPLETED (6 translated, 1 script); a2101_buzzkill_dan 7 COMPLETED (6 translated, 1 script). Validation: 0 errors, 4 warnings (HTML tags - acceptable). Spanish reference MANDATORY check performed. Glossary terms: Boulder, Local 168, Delgado, Brygo, Jorge, Sofie, Gina, Paulie, Little Vegas. Next: Continue from line 145777 (a2101_buzzkill_discobot section)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "d1362a9",
-  "last_commit_message": "Retranslation: base_game entries 11415-11428 (14 entries, lines 144457-144906)",
-  "total_entries_completed": 11428,
+  "last_commit_hash": "9749d59",
+  "last_commit_message": "Retranslation: base_game entries 11429-11583 (155 entries, lines 144907-145776)",
+  "total_entries_completed": 11583,
   "total_entries": 169712,
-  "total_entries_untranslated": 158284,
-  "overall_completion_rate": 6.7,
-  "next_action": "Continue strict sequential translation. Next: a2101_boulder_nightclub section remaining entries from line 144907 onwards. Validate structure after completing sections.",
+  "total_entries_untranslated": 158129,
+  "overall_completion_rate": 6.8,
+  "next_action": "Continue strict sequential translation. Next: a2101_buzzkill_discobot section from line 145777 onwards. Validate structure after completing sections.",
   "strict_workflow": {
     "sequential_processing": "MANDATORY - Process from line 1 sequentially. NO skipping, NO prioritization.",
     "spanish_reference": "MANDATORY - Check Spanish file for translatability before each translation.",
