@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 6486,
-      "entries_untranslated": 163226,
+      "entries_translated": 6519,
+      "entries_untranslated": 163193,
       "completion_rate": 3.8,
-      "current_line": 83780,
+      "current_line": 84834,
       "status": "in_progress",
       "approach": "Strict sequential from line 666, complete each section 100% before next",
-      "note": "Session 82: 130 new entries translated (lines 82705-83780). Section: a1001_psychopath_imprisonedatrangerhq (Victoria imprisoned at Ranger HQ - extensive dialogue covering boredom, rejoining Rangers, refugees, game events reactions, family dynamics, 130 entries). Structure validation: 0 errors, 0 warnings."
+      "note": "Session 83: 33 new entries translated (lines 83781-84834). Sections: a1001_psychopath_imprisonedatrangerhq completion (6 entries), a1001_quarex (Quarex's video game references and game progress commentary, 24 entries), a1001_radio_gideon_lostendgamesupport (Gideon Reyes notification about Hundred Families withdrawal, 3 entries). Structure validation: 0 errors, 0 warnings."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -50,11 +50,11 @@
   },
   "last_commit_hash": "e6ce999",
   "last_commit_message": "Retranslation: base_game entries 6357-6486 (130 entries, lines 82705-83780)",
-  "total_entries_completed": 6486,
+  "total_entries_completed": 6519,
   "total_entries": 169712,
-  "total_entries_untranslated": 163226,
+  "total_entries_untranslated": 163193,
   "overall_completion_rate": 3.8,
-  "next_action": "Continue strict sequential translation from line 83781 (continuation of a1001_psychopath_imprisonedatrangerhq or next section). Reference Spanish for translatability. Validate after each edit.",
+  "next_action": "Continue strict sequential translation from line 84835 (a1001_radio_gonzalez_amberarrest section - radio messages from Gonzalez regarding various missions). Reference Spanish for translatability. Validate after each edit.",
   "strict_workflow": {
     "sequential_processing": "MANDATORY - Process from line 1 sequentially. NO skipping, NO prioritization.",
     "spanish_reference": "MANDATORY - Check Spanish file for translatability before each translation.",
