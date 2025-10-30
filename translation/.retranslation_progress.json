@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 10294,
-      "entries_untranslated": 159418,
+      "entries_translated": 10337,
+      "entries_untranslated": 159375,
       "completion_rate": 6.1,
-      "current_line": 134246,
+      "current_line": 134468,
       "status": "in_progress",
       "approach": "Strict sequential from line 666, complete each section 100% before next",
-      "note": "Session 129: 75 entries (a2001_sherrifdaisy_atconstabulary: entries [101]-[189], [193]-[205]). 0 errors, 0 warnings (6 quote mismatches fixed). Next: Continue a2001_sherrifdaisy_atconstabulary entry [206] onwards (line ~134279)."
+      "note": "Session 130: 43 entries (a2001_sherrifdaisy_atconstabulary: entries [214]-[217], [238]-[239], [242]-[243], [246]-[252], [272]-[279], [281]-[286], [288]-[300]). 1 error (entry [206] empty - untranslatable per Spanish), 0 warnings. Next: Continue a2001_sherrifdaisy_atconstabulary entry [301] onwards (line ~134470)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "2e9f6d4",
-  "last_commit_message": "Retranslation: base_game entries 10220-10294 (75 entries, lines 134069-134246)",
-  "total_entries_completed": 10294,
+  "last_commit_hash": "db573d1",
+  "last_commit_message": "Retranslation: base_game entries 10295-10337 (43 entries, lines 134247-134468)",
+  "total_entries_completed": 10337,
   "total_entries": 169712,
-  "total_entries_untranslated": 159418,
+  "total_entries_untranslated": 159375,
   "overall_completion_rate": 6.1,
-  "next_action": "Continue strict sequential translation. Next: a2001_sherrifdaisy_atconstabulary section (line ~134279), entry [206] onwards. Check Spanish for translatability (many entries empty in Spanish = dev/debug). Validate structure after completing sections.",
+  "next_action": "Continue strict sequential translation. Next: a2001_sherrifdaisy_atconstabulary section (line ~134470), entry [301] onwards. Many entries have Spanish translations. Validate structure after completing sections.",
   "strict_workflow": {
     "sequential_processing": "MANDATORY - Process from line 1 sequentially. NO skipping, NO prioritization.",
     "spanish_reference": "MANDATORY - Check Spanish file for translatability before each translation.",
