@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 9576,
-      "entries_untranslated": 160136,
-      "completion_rate": 5.6,
-      "current_line": 123655,
+      "entries_translated": 9736,
+      "entries_untranslated": 159976,
+      "completion_rate": 5.7,
+      "current_line": 124975,
       "status": "in_progress",
       "approach": "Strict sequential from line 666, complete each section 100% before next",
-      "note": "Session 119: 135 entries (a2001_maingate_marshal debug, a2001_mamacotter sections). Strict Spanish reference validation applied. Mama Cotter refugee quest complete. 0 errors, 0 warnings. Next: a2001_marketsquare_merchant_01 (line 123655)."
+      "note": "Session 121: 50 entries (a2001_marshallpitts, a2001_marshalpowerarmor, a2001_marshalprisoner_drunk). Strict Spanish reference validation applied. Gate guard and power armor dialogues complete. 0 errors, 0 warnings. Next: a2001_maxwell_downtown (line 124975)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "c1cfc96",
-  "last_commit_message": "Retranslation: base_game entries 9442-9576 (135 entries, lines 122545-123654)",
-  "total_entries_completed": 9576,
+  "last_commit_hash": "ea78410",
+  "last_commit_message": "Retranslation: base_game entries 9577-9686 (110 entries, lines 123655-124548)",
+  "total_entries_completed": 9736,
   "total_entries": 169712,
-  "total_entries_untranslated": 160136,
-  "overall_completion_rate": 5.6,
-  "next_action": "Continue strict sequential translation from line 123655 onwards (a2001_marketsquare_merchant_01 section). Reference Spanish for translatability. Validate structure after completing sections.",
+  "total_entries_untranslated": 159976,
+  "overall_completion_rate": 5.7,
+  "next_action": "Continue strict sequential translation from line 124975 onwards (a2001_maxwell_downtown section). Note: Spanish reference shows empty strings for maxwell_downtown (debug/dev content) - verify before translating. Reference Spanish for translatability. Validate structure after completing sections.",
   "strict_workflow": {
     "sequential_processing": "MANDATORY - Process from line 1 sequentially. NO skipping, NO prioritization.",
     "spanish_reference": "MANDATORY - Check Spanish file for translatability before each translation.",
