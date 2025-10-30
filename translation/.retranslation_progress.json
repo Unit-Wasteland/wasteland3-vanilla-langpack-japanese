@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 11081,
-      "entries_untranslated": 158631,
-      "completion_rate": 6.5,
-      "current_line": 141636,
+      "entries_translated": 11127,
+      "entries_untranslated": 158585,
+      "completion_rate": 6.6,
+      "current_line": 142224,
       "status": "in_progress",
       "approach": "Strict sequential from line 666, complete each section 100% before next",
-      "note": "Session 131: 66 entries (a2011_combatbarks_takayuki 19 entries; a2011_deputymarshalpitts 9 entries; a2011_deputymarshaltorres 10 entries; a2011_gang_looter_marketsquare 5 entries; a2011_josiahcasady 4 entries; a2011_mamacotter_endgame 19 entries). Structure validation: 0 errors. Spanish reference checked for all entries. Action marker ::weeps:: preserved outside quotes. Next: Continue from line 141637 onwards."
+      "note": "Session 132: 46 entries (a2011_marshallupinski 10 entries; a2011_marthacasady 14 entries; a2011_museumcomputer 10 entries; a2011_museumdoor 5 entries; a2011_museumhydraulics 6 entries; a2011_oldbaldy 8 entries; a2011_patriarch_gangpath_suicide 3 entries). Structure validation: 0 errors. Spanish reference checked for all entries. Script Node entries kept in English. ::weeps:: action marker preserved. Next: Continue from line 142225 onwards."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "f924a3d",
-  "last_commit_message": "Retranslation: base_game entries 11016-11081 (66 entries, lines 140575-141636)",
-  "total_entries_completed": 11081,
+  "last_commit_hash": "76b3d59",
+  "last_commit_message": "Retranslation: base_game entries 11082-11127 (46 entries, lines 141637-142224)",
+  "total_entries_completed": 11127,
   "total_entries": 169712,
-  "total_entries_untranslated": 158631,
-  "overall_completion_rate": 6.5,
-  "next_action": "Continue strict sequential translation. Next: Continue from line 141637 onwards. Validate structure after completing sections.",
+  "total_entries_untranslated": 158585,
+  "overall_completion_rate": 6.6,
+  "next_action": "Continue strict sequential translation. Next: Continue from line 142225 onwards. Validate structure after completing sections.",
   "strict_workflow": {
     "sequential_processing": "MANDATORY - Process from line 1 sequentially. NO skipping, NO prioritization.",
     "spanish_reference": "MANDATORY - Check Spanish file for translatability before each translation.",
