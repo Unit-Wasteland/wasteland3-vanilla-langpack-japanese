@@ -75347,17 +75347,17 @@
        [163]
         1 string data = "Script Node 164"
        [164]
-        1 string data = ""Systems active. Greetings, Rangers.""
+        1 string data = ""システム稼働中。こんにちは、レンジャー諸君。""
        [165]
-        1 string data = ""Somebody sounds mighty pleased with himself.""
+        1 string data = ""誰かさん、随分とご満悦のようだな。""
        [166]
-        1 string data = ""Bad enough I got to sit and let a mess of wires drive me around. Does he gotta sound so damn chipper while he's doin' it?""
+        1 string data = ""電線の塊に運転させられてるだけでも十分ウンザリだってのに。やってる間中、あんなにご機嫌な声を出さなきゃならんのか?""
        [167]
-        1 string data = ""Greetings, Rangers. Destination?""
+        1 string data = ""こんにちは、レンジャー諸君。目的地は?""
        [168]
-        1 string data = ""Destination? Who cares? C'mon, let's see what this crate can do! Kick the tires and light the fires! Let's roll!""
+        1 string data = ""目的地? そんなもん知るか! おら、このポンコツが何ができるか見てやろうぜ! タイヤを蹴ってエンジンに火をつけろ! 行くぞ!""
        [169]
-        1 string data = ""Destination not recognized. Destination?""
+        1 string data = ""目的地を認識できません。目的地は?""
        [170]
         1 string data = " "So you can keep us company while we're driving. Cool. What else can you do?""
        [171]
@@ -75367,13 +75367,13 @@
        [173]
         1 string data = " "Correct. I am programmed to protect my passengers in the event of over one hundred million incid-""
        [174]
-        1 string data = ""Ah, nuts.""
+        1 string data = ""あー、クソったれ。""
        [175]
         1 string data = "Script Node 176"
        [176]
-        1 string data = "Load into the car and head to the World Map."
+        1 string data = "車に乗り込んでワールドマップへ向かう。"
        [177]
-        1 string data = "Take the footpath to Downtown Colorado Springs."
+        1 string data = "歩道を使ってコロラドスプリングス中心部へ向かう。"
        [178]
         1 string data = "Script Node 181"
        [179]
@@ -75381,7 +75381,7 @@
        [180]
         1 string data = "Script Node 1"
        [181]
-        1 string data = "Leave Ranger Headquarters?"
+        1 string data = "レンジャー本部を離れますか?"
        [182]
         1 string data = " Load into the car and head to the World Map."
        [183]
@@ -75391,9 +75391,9 @@
        [185]
         1 string data = "Script Node 182"
        [186]
-        1 string data = "All Rangers must be present before you head out."
+        1 string data = "出発前に全てのレンジャーが揃っている必要があります。"
        [187]
-        1 string data = "Don't leave."
+        1 string data = "離れない。"
    [204]
     0 StringTable data
      1 string Filename = "a1001_mrdebug"
@@ -79403,55 +79403,55 @@
       1 Array Array (39 items)
        0 int size = 39
        [0]
-        1 string data = "This slot machine has an engraving along its arm."
+        1 string data = "このスロットマシンのアームに彫刻が刻まれている。"
        [1]
-        1 string data = "'For my friends, the Rangers. May Lady Luck keep smiling at you. ~Faran Brygo'"
+        1 string data = "'我が友、レンジャーたちへ。幸運の女神が君たちに微笑み続けますように。 ~ファラン・ブライゴ'"
        [2]
-        1 string data = "A plaque next to this Discobot reads, 'Recovered after the Little Vegas Nightclub was shut down.'"
+        1 string data = "このディスコボットの隣のプレートには「リトル・ベガス・ナイトクラブ閉鎖後に回収」と書かれている。"
        [3]
-        1 string data = "A sign has been affixed to this chalkboard."
+        1 string data = "この黒板に標識が取り付けられている。"
        [4]
-        1 string data = "'Recovered from the Temple of the Holy Detonation. Note the complex, mathematical ramblings of brilliant madmen.'"
+        1 string data = "'聖なる爆発の寺院から回収。天才的な狂人たちによる複雑な数学的戯言に注目。'"
        [5]
-        1 string data = "'Geiger counter readings show radiation levels are within Ranger safety protocols.'"
+        1 string data = "'ガイガーカウンターの測定値は、放射線レベルがレンジャー安全基準内であることを示している。'"
        [6]
-        1 string data = "A model of Bellamy Ward's Greenhouse Spires, celebrating the Rangers' routing of Dorsey forces in the Garden of the Gods."
+        1 string data = "ベラミー・ウォードの温室尖塔の模型。神々の庭でのドーシー軍に対するレンジャーの勝利を記念している。"
        [7]
-        1 string data = "Glowing, radioactive paint excluded for falling outside Ranger safety protocols."
+        1 string data = "発光性の放射性塗料は、レンジャー安全基準外のため除外されている。"
        [8]
-        1 string data = "A plaque reads, 'The Rangers condone neither trespassing nor underage drinking.'"
+        1 string data = "プレートには「レンジャーは不法侵入も未成年者の飲酒も容認しない」と書かれている。"
        [9]
-        1 string data = "A plaque reads, 'A hydroponic bay taken from the bunker where the Buchanan family rode out the Deluge of Fire.'"
+        1 string data = "プレートには「ブキャナン家が炎の大洪水をやり過ごしたバンカーから持ち出された水耕栽培施設」と書かれている。"
        [10]
-        1 string data = "'The Patriarch now holds his enemies there, in the same luxurious comfort he once enjoyed.'"
+        1 string data = "'パトリアークは今、かつて自分が享受したのと同じ贅沢な快適さの中で、そこに敵を拘束している。'"
        [11]
-        1 string data = "A plaque sits next to this prosthetic arm."
+        1 string data = "この義手の隣にプレートが置かれている。"
        [12]
-        1 string data = "'The remains of a Scar Collector who attacked Ranger HQ at the behest of the Traitor, Liberty Buchanan.'"
+        1 string data = "'裏切り者リバティ・ブキャナンの命令でレンジャー本部を襲撃したスカー・コレクターの遺骸。'"
        [13]
-        1 string data = "A memorial plaque is fixed to the base of the holographic projector."
+        1 string data = "ホログラフィック・プロジェクターの台座に追悼プレートが取り付けられている。"
        [14]
-        1 string data = "'Major Prasad, an example to all Rangers. Died bravely facing her maker.'"
+        1 string data = "'プラサド少佐、全てのレンジャーの模範。創造主に立ち向かい勇敢に散る。'"
        [15]
-        1 string data = "'Major Prasad. She had guts.'"
+        1 string data = "'プラサド少佐。彼女は度胸があった。'"
        [16]
-        1 string data = "'Major Prasad. Rest in Peace.'"
+        1 string data = "'プラサド少佐。安らかに眠れ。'"
        [17]
-        1 string data = "'Major Prasad. Lived a Ranger, died a Ranger.'"
+        1 string data = "'プラサド少佐。レンジャーとして生き、レンジャーとして死す。'"
        [18]
-        1 string data = "'A statue of the God-President Reagan, who was worshipped by the Gippers, and reborn in Valor Buchanan.'"
+        1 string data = "'ギッパーズに崇拝された神-大統領レーガンの像。ヴァラー・ブキャナンに転生した。'"
        [19]
-        1 string data = "A scale model of the Machine Intelligence Tower. There's an inscription on the base."
+        1 string data = "マシン・インテリジェンス・タワーの縮尺模型。台座に碑文が刻まれている。"
        [20]
-        1 string data = "'A commemoration of our friendship. Thank you for bringing Reagan's lost mind to us.'"
+        1 string data = "'我々の友情を記念して。レーガンの失われた精神を我々にもたらしてくれて感謝する。'"
        [21]
-        1 string data = "A plaque reads, 'A Godfisher kite. Part of their macabre religion. It is made from human skin as an offering to their gods.'"
+        1 string data = "プレートには「ゴッドフィッシャーの凧。彼らの陰惨な宗教の一部。神々への供物として人間の皮膚で作られている」と書かれている。"
        [22]
-        1 string data = "A plaque is fixed to the base of this holographic projector."
+        1 string data = "このホログラフィック・プロジェクターの台座にプレートが取り付けられている。"
        [23]
-        1 string data = "A plaque is fixed to the base of this holographic projector."
+        1 string data = "このホログラフィック・プロジェクターの台座にプレートが取り付けられている。"
        [24]
-        1 string data = "There's a plaque next to this garish statue."
+        1 string data = "この派手な像の隣にプレートがある。"
        [25]
         1 string data = "Trigger Conv Node 27"
        [26]
@@ -79459,25 +79459,25 @@
        [27]
         1 string data = "Trigger Conv Node 29"
        [28]
-        1 string data = "'Fish-Lips, the cannibal leader of the Hard-Heads. Defeated by Team November. One less thing for the people of Denver to fear.'"
+        1 string data = "'フィッシュリップス、ハードヘッズの食人リーダー。チーム・ノヴェンバーに敗北。デンバーの人々の恐怖が一つ減った。'"
        [29]
-        1 string data = "'Nelius, leader of the Dorseys. Responsible for the destruction of the Ranger Coloradan Expeditionary Caravan. Brought to justice by Team November.'"
+        1 string data = "'ネリウス、ドーシーズのリーダー。レンジャー・コロラド遠征キャラバンの破壊の責任者。チーム・ノヴェンバーにより裁きに処された。'"
        [30]
-        1 string data = "'A statue of the Payaso Rojo, recovered from the Bizarre.'"
+        1 string data = "'パヤソ・ロホの像、ビザールから回収。'"
        [31]
-        1 string data = "A card propped on this fancy chair reads, 'The Throne of Flab the Inhaler.'"
+        1 string data = "この豪華な椅子に立てかけられたカードには「吸入者フラブの玉座」と書かれている。"
        [32]
-        1 string data = "'Recovered from the Bizarre after Team November deposed the Monster Army.'"
+        1 string data = "'チーム・ノヴェンバーがモンスター軍を倒した後、ビザールから回収。'"
        [33]
-        1 string data = "A brass plate next to this telescope says, 'A gift from the Ward family, after Team November saved their son Bellamy in the Garden of the Gods.'"
+        1 string data = "この望遠鏡の隣の真鍮プレートには「チーム・ノヴェンバーが神々の庭で息子ベラミーを救った後、ウォード家からの贈り物」と書かれている。"
        [34]
-        1 string data = "The small brass plate on the frame of this portrait says, 'The Gift. Befriended by Team November.'"
+        1 string data = "この肖像画の額の小さな真鍮プレートには「ザ・ギフト。チーム・ノヴェンバーと友誼を結ぶ」と書かれている。"
        [35]
-        1 string data = "A plaque here reads, 'Synths hunted down by Team November. Graciously donated by Gary Wolfe.'"
+        1 string data = "ここのプレートには「チーム・ノヴェンバーに追い詰められたシンセ。ゲイリー・ウルフの善意により寄贈」と書かれている。"
        [36]
-        1 string data = "A fallen billboard. Who put it here?"
+        1 string data = "倒れた看板。誰がここに置いたのだろうか?"
        [37]
-        1 string data = "A billboard of Peek and Poke, the pre-apocalypse preparedness mascots. "
+        1 string data = "黙示録前の備えマスコット、ピークとポークの看板。"
        [38]
         1 string data = "Script Node 58"
    [206]
