@@ -103305,71 +103305,71 @@
       1 Array Array (148 items)
        0 int size = 148
        [0]
-        1 string data = "A display on this monitor reads:\n\n\n'SECURE LOCKDOWN ENABLED.'"
+        1 string data = "このモニターの表示には以下のメッセージが読み取れる:\n\n\n'セキュリティロックダウン有効'"
        [1]
-        1 string data = "Identify yourself as 'Command' and disable the system alert."
+        1 string data = "自分を'司令官'として認証し、システム警報を無効化する。"
        [2]
         1 string data = " "Success! Opening subterranian access pathway....""
        [3]
-        1 string data = "Step away from the terminal."
+        1 string data = "端末から離れる。"
        [4]
         1 string data = " You walk away from the terminal."
        [5]
-        1 string data = "This terminal is displaying information about the base's systems. All seems normal."
+        1 string data = "この端末は基地のシステムに関する情報を表示している。すべてが正常のようだ。"
        [6]
-        1 string data = "The monitor reads:\n\n\n'VEHICLE EVACUATION TUNNEL COMMANDS QUEUED. CANNOT EXECUTE UNTIL MARKET SQUARE ELEVATOR SECURITY OVERRIDE IS TERMINATED.'"
+        1 string data = "モニターには以下のメッセージが表示されている:\n\n\n'車両避難トンネルコマンドが待機中。マーケット・スクエア・エレベーターのセキュリティオーバーライドが終了するまで実行不可。'"
        [7]
-        1 string data = "As it boots up, 'SECURITY ALERT' flashes across the display. Every attempt to access a menu is met with, 'COMMAND ACCESS ONLY.'"
+        1 string data = "起動すると、ディスプレイに'セキュリティ警報'が点滅する。メニューにアクセスしようとするたびに'司令官アクセスのみ'と表示される。"
        [8]
-        1 string data = "This terminal is dusty and old, but when you press the power button, it flickers to life. The computer beeps and whirs for the first time in years."
+        1 string data = "この端末は埃っぽく古いが、電源ボタンを押すとちらつきながら起動する。コンピューターが何年ぶりかにビープ音を鳴らし、うなり声を上げる。"
        [9]
-        1 string data = "Install yourself as Command."
+        1 string data = "自分を司令官としてインストールする。"
        [10]
         1 string data = "Script Node 82"
        [11]
-        1 string data = "A camera flashes above the monitor, and terrible photos of your faces slowly appear on the screen, line by line."
+        1 string data = "モニターの上でカメラがフラッシュし、あなたたちの顔の酷い写真が画面に一行ずつゆっくりと表示される。"
        [12]
-        1 string data = "'ALL COMMAND PERSONNEL MUST BE PRESENT FOR VERIFICATION TO PROCEED.'"
+        1 string data = "'検証を進めるには全司令官職員の出席が必要です。'"
        [13]
         1 string data = "Script Node 16"
        [14]
-        1 string data = "Investigate the changes to security protocols."
+        1 string data = "セキュリティプロトコルの変更を調査する。"
        [15]
-        1 string data = "It appears the rebels have reprogrammed the defenses to target your loyalist crew. It'll take time to undo their modifications."
+        1 string data = "反乱軍が防衛システムを再プログラムして、あなたの忠誠派クルーを標的にしているようだ。彼らの改変を元に戻すには時間がかかる。"
        [16]
-        1 string data = "Reprogram the targeting routines."
+        1 string data = "ターゲティングルーチンを再プログラムする。"
        [17]
-        1 string data = "Success! The remaining turrets should now fire on your enemies."
+        1 string data = "成功だ!残りのタレットは今やあなたの敵に発砲するはずだ。"
        [18]
-        1 string data = "The status reports indicate all is normal at the moment. An option displaying old security alerts shows a number so long it goes off the right edge of the screen."
+        1 string data = "ステータスレポートは現時点ですべてが正常であることを示している。古いセキュリティ警報を表示するオプションには、画面の右端からはみ出すほど長い数字が表示されている。"
        [19]
         1 string data = "Search for ways to repair the servitor programming."
        [20]
         1 string data = ""
        [21]
-        1 string data = "Investigate the issues with the servitors' behavior."
+        1 string data = "サービターの挙動に関する問題を調査する。"
        [22]
         1 string data = ""
        [23]
-        1 string data = "You take a little time to test your code before running it, then watch the stale requests disappear. Processing returns to standard capacity."
+        1 string data = "コードを実行する前に少し時間をかけてテストし、古いリクエストが消えるのを見守る。処理能力が標準容量に戻る。"
        [24]
-        1 string data = "The terminal remains in lockdown mode."
+        1 string data = "端末はロックダウンモードのままだ。"
        [25]
-        1 string data = "Eventually, you query the machine for Command's identity, it replies:\n\n\n'COMMAND EMPTY. DESIGNATE NEW COMMAND?'"
+        1 string data = "やがて、マシンに司令官の身元を問い合わせると、こう返答する:\n\n\n'司令官空席。新しい司令官を指定しますか?'"
        [26]
-        1 string data = "'COMMAND RECOGNIZED. SECURITY ALERT CANCELED.'"
+        1 string data = "'司令官が認識されました。セキュリティ警報は解除されました。'"
        [27]
-        1 string data = "Examine the Security Systems."
+        1 string data = "セキュリティシステムを調べる。"
        [28]
-        1 string data = "Read the old security logs."
+        1 string data = "古いセキュリティログを読む。"
        [29]
-        1 string data = "After some searching, you access a hidden menu. The core processor is jammed with thousands of queued requests dating back a century. It's a wonder the servitors can make any decisions at all."
+        1 string data = "少し探索した後、隠しメニューにアクセスする。コアプロセッサは1世紀前からの何千ものキューに入れられたリクエストで詰まっている。サービターたちがどうやって決定を下せるのか不思議なくらいだ。"
        [30]
-        1 string data = "Write a script to wipe the requests."
+        1 string data = "リクエストを消去するスクリプトを書く。"
        [31]
-        1 string data = "Return to the security main menu."
+        1 string data = "セキュリティメインメニューに戻る。"
        [32]
-        1 string data = "With the accumulated clutter cleared, the system shows only a few thousand unread messages. Navigating it should be somewhat easier. "
+        1 string data = "蓄積された雑多なものをクリアすると、システムは数千の未読メッセージのみを表示する。ナビゲートがいくらか簡単になるはずだ。"
        [33]
         1 string data = "Filtering tools help you cull the routine and wholly corrupted reports. You may need a computer expert to access some of the files."
        [34]
@@ -103469,7 +103469,7 @@
        [81]
         1 string data = "There are fewer logs than you'd expect for a base of this size. Many have suffered data corruption and are unrecoverable, but you find a few that are legible."
        [82]
-        1 string data = "Return to the top menu."
+        1 string data = "トップメニューに戻る。"
        [83]
         1 string data = "Personal Log, Col. Fourchette, 22 March, 1998."
        [84]
@@ -103535,33 +103535,33 @@
        [114]
         1 string data = "Whoever wrote this custom encryption thought they were really smart. They really should have just used the standard one."
        [115]
-        1 string data = "You queue up commands to open the Vehicle Evacuation Tunnel and send your truck to the terminus point, Market Square, but as you hit 'Execute,' a message flashes."
+        1 string data = "車両避難トンネルを開いてトラックを終点のマーケット・スクエアに送るコマンドをキューに入れるが、'実行'を押すとメッセージが点滅する。"
        [116]
-        1 string data = "Apparently, the rebels weren't able to remove your Command privileges, so you disable the lockdown. The lights and sirens stop. The computer's main menu appears."
+        1 string data = "どうやら反乱軍はあなたの司令官特権を削除できなかったようだ。ロックダウンを無効化する。ライトとサイレンが停止する。コンピューターのメインメニューが表示される。"
        [117]
         1 string data = ""This message will repeat.""
        [118]
-        1 string data = "Initiate security lockdown."
+        1 string data = "セキュリティロックダウンを開始する。"
        [119]
-        1 string data = "Cancel security lockdown."
+        1 string data = "セキュリティロックダウンをキャンセルする。"
        [120]
-        1 string data = "Alarms blare and red lights flash. The monitor reads: 'LOCKDOWN IN PROGRESS.'\n\n\nAll around you, doors lock."
+        1 string data = "警報が鳴り響き、赤いライトが点滅する。モニターには:'ロックダウン進行中'と表示される。\n\n\n周囲のドアがすべてロックされる。"
        [121]
-        1 string data = "The alarms fall silent and the lights slow and fade. You hear the click of the doors unlocking. The monitor reads:\n\n\n'LOCKDOWN CANCELED.'"
+        1 string data = "警報が静まり、ライトがゆっくりと減速して消える。ドアのロックが解除されるカチッという音が聞こえる。モニターには:\n\n\n'ロックダウンがキャンセルされました'と表示される。"
        [122]
-        1 string data = "'Log Data backed up to Archive Room server.'"
+        1 string data = "'ログデータは保管室サーバーにバックアップされました。'"
        [123]
         1 string data = "Bank 132"
        [124]
-        1 string data = "The terminal displays information about the base's systems. A red-letter banner in the middle of the screen reads:  \r\n\r\n'SECURITY LOCKDOWN ENABLED.'"
+        1 string data = "端末は基地のシステムに関する情報を表示している。画面中央の赤い文字のバナーには以下が表示されている:\r\n\r\n'セキュリティロックダウン有効'"
        [125]
-        1 string data = "A status banner indicates this terminal has been locked. Old security alerts bleed off the right edge of the screen into infinity."
+        1 string data = "ステータスバナーは、この端末がロックされていることを示している。古いセキュリティ警報が画面の右端から無限に消えていく。"
        [126]
         1 string data = "Bank 135"
        [127]
         1 string data = "Bank 136"
        [128]
-        1 string data = "An alert indicates a security lockdown was initated from this terminal.\n\n\nHaving cleared out some of the accumulated clutter, the system shows only a few thousand unread messages. Navigating should be easier. "
+        1 string data = "警報は、この端末からセキュリティロックダウンが開始されたことを示している。\n\n\n蓄積された雑多なものの一部をクリアしたことで、システムは数千の未読メッセージのみを表示している。ナビゲートが簡単になるはずだ。"
        [129]
         1 string data = "Script Node 138"
        [130]
@@ -103573,31 +103573,31 @@
        [133]
         1 string data = "Script Node 142"
        [134]
-        1 string data = "Navigate to the Vehicle Evacuation Tunnel menu and get to work."
+        1 string data = "車両避難トンネルメニューに移動して作業を開始する。"
        [135]
-        1 string data = ""Whew! Good work, cowboys! Okay, now to get the truck sent downtown. Look for a button that says, 'Emergency Evacuation Tunnel,' or something like that.""
+        1 string data = ""ふう!よくやったぞ、カウボーイたち!さて、次はトラックをダウンタウンに送る番だ。'緊急避難トンネル'とかそういう名前のボタンを探せ。""
        [136]
-        1 string data = "'WARNING: COMMAND QUEUE PAUSED. VEHICLE CANNOT BE DELIVERED TO MARKET SQUARE ELEVATOR. SECURITY OVERRIDE IN EFFECT. ACCESS TERMINAL #MUSEUM06 TO TERMINATE OVERRIDE.'"
+        1 string data = "'警告:コマンドキューが一時停止中。マーケット・スクエア・エレベーターへの車両配達不可。セキュリティオーバーライド有効中。オーバーライドを終了するには端末#MUSEUM06にアクセスしてください。'"
        [137]
-        1 string data = ""Well, shit. Looks like the Patriarch anticipated us. Guess we're gonna have to get to that terminal and kill that override personally. Fortunately, I know where it is - kinda.""
+        1 string data = ""くそ。パトリアークは俺たちを先読みしてたようだな。その端末にたどり着いて、オーバーライドを直接潰さないとダメみたいだ。幸い、場所は知ってる - 大体だけどな。""
        [138]
-        1 string data = ""They got it hidden away inside a secret room in the Patriarch's little museum. Our people here will move the truck to this end of the tunnel, and once we cancel the alert, it should come right to us.""
+        1 string data = ""パトリアークのあのちっぽけな博物館内の秘密の部屋に隠されてるんだ。ここにいる仲間がトラックをトンネルのこちら側まで移動させる。警報をキャンセルすれば、俺たちの所まで来るはずだ。""
        [139]
-        1 string data = ""Which, I admit, isn't quite the same as rising up into the square in the truck and catchin' Buchanan with his pants down.""
+        1 string data = ""まあ、トラックで広場に乗り込んでブキャナンを不意打ちするのとは違うけどな。""
        [140]
-        1 string data = "Try again."
+        1 string data = "もう一度試す。"
        [141]
-        1 string data = "You return to the computer's main menu."
+        1 string data = "コンピューターのメインメニューに戻る。"
        [142]
-        1 string data = "Step away from the terminal."
+        1 string data = "端末から離れる。"
        [143]
-        1 string data = ""At least we'll have the truck, right? Come on. Let's go.""
+        1 string data = ""少なくともトラックは手に入るだろ?さあ、行こうぜ。""
        [144]
-        1 string data = "Clear access for Commander's armory."
+        1 string data = "司令官の武器庫へのアクセスをクリアする。"
        [145]
-        1 string data = "'DUAL AUTHORIZATION PROTOCOL ACCEPTED.'\n\n\n'VAULT UNLOCKING...'"
+        1 string data = "'二重認証プロトコル承認。'\n\n\n'金庫をアンロック中...'"
        [146]
-        1 string data = "'DUAL AUTHORIZATION PROTOCOL FAILED. COMMAND PRESENCE REQUIRED AT PRIMARY ACCESS POINT AND AT CLASSIFIED ENTRY POINT.'"
+        1 string data = "'二重認証プロトコル失敗。プライマリアクセスポイントと機密エントリーポイントに司令官の立ち会いが必要です。'"
        [147]
         1 string data = "Script Node 141"
    [269]
@@ -103655,11 +103655,11 @@
        [4]
         1 string data = " Please talk to Betsy."
        [5]
-        1 string data = ""You'll be wantin' to talk to Betsy.""
+        1 string data = ""ベッツィーと話をしたいだろうね。""
        [6]
-        1 string data = ""If you changed your minds, you should talk to Betsy...""
+        1 string data = ""もし気が変わったなら、ベッツィーと話すべきだね...""
        [7]
-        1 string data = ""You ain't half bad, Rangers.""
+        1 string data = ""悪くないじゃないか、レンジャーたち。""
    [270]
     0 StringTable data
      1 string Filename = "a1001_wolfemercenary"
@@ -103713,25 +103713,25 @@
       1 Array Array (10 items)
        0 int size = 10
        [0]
-        1 string data = ""Wolfe speaks for us. Talk to him.""
+        1 string data = ""ウルフが俺たちの代表だ。彼と話せ。""
        [1]
-        1 string data = ""Good to be working with you. Talk to Wolfe if you need anything.""
+        1 string data = ""お前たちと一緒に働けて良かったぜ。何か必要ならウルフと話してくれ。""
        [2]
-        1 string data = ""Thanks for sharing your HQ. We'll make sure the no-mans don't fuck up Colorado like they did Arizona and California.""
+        1 string data = ""HQを共有してくれてありがとよ。ノーマンどもがアリゾナやカリフォルニアでやったみたいにコロラドをめちゃくちゃにさせないようにしてやるぜ。""
        [3]
-        1 string data = ""See you lame-os never. We're out.""
+        1 string data = ""もう会わねえぞ、負け犬ども。俺たちは出て行く。""
        [4]
-        1 string data = ""Synth fucker.""
+        1 string data = ""シンセ野郎が。""
        [5]
-        1 string data = ""Don't worry. We'll protect your candy-asses from the big, bad synths.""
+        1 string data = ""心配すんな。お前らの軟弱な尻を、悪いシンセどもから守ってやるよ。""
        [6]
         1 string data = "Script Node 399"
        [7]
-        1 string data = ""Well... I guess some of you lame-os aren't completely hopeless in a fight...""
+        1 string data = ""まあ...負け犬のお前らでも、戦いで完全に見込みがないわけじゃないみたいだな...""
        [8]
-        1 string data = ""How'd you... you-you stand working with those synth-fucking, scar-faced freaks?""
+        1 string data = ""どうやってお前は...お前...あのシンセ野郎で傷だらけの化け物どもと一緒に働けるんだ?""
        [9]
-        1 string data = ""Catch ya later... Rangers.""
+        1 string data = ""じゃあな...レンジャーたち。""
    [271]
     0 StringTable data
      1 string Filename = "a1001_woodson"
