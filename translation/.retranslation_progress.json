@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 8209,
-      "entries_untranslated": 161503,
-      "completion_rate": 4.8,
-      "current_line": 105558,
+      "entries_translated": 8277,
+      "entries_untranslated": 161435,
+      "completion_rate": 4.9,
+      "current_line": 106518,
       "status": "in_progress",
       "approach": "Strict sequential from line 666, complete each section 100% before next",
-      "note": "Session 104: 38 new entries translated (lines 104809-105558). Sections: a1011_greatski_endgame (29 translatable), a1011_vehicleinteraction (2), a2001_amber (5 translatable), a2001_ambientarapahogeneric (4). Endgame mission dialogue, vehicle messages, prisoner dialogue, ambient convoy dialogue. Spanish reference used for translatability verification. Structure validation: 0 errors, 0 warnings."
+      "note": "Session 105: 68 new entries translated (lines 105559-106518). Sections: a2001_ambientconstables (73), a2001_ambientconstable_dorseypile (4), a2001_ambientdogs (4), a2001_ambientrefugee (25), a2001_ambientrefugee_grieving (5). Colorado Springs ambient NPC dialogue. Spanish reference used for translatability verification. Structure validation: 0 errors, 0 warnings."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "93aeb35",
-  "last_commit_message": "Retranslation: base_game entries 8172-8209 (38 entries, lines 104809-105558)",
-  "total_entries_completed": 8209,
+  "last_commit_hash": "09227a9",
+  "last_commit_message": "Retranslation: base_game entries 8210-8277 (68 entries, lines 105559-106518)",
+  "total_entries_completed": 8277,
   "total_entries": 169712,
-  "total_entries_untranslated": 161503,
-  "overall_completion_rate": 4.8,
-  "next_action": "Continue strict sequential translation from line 105558 onwards. Section: a2001_ambientconstables (100 entries). Reference Spanish for translatability. Validate structure after completing sections.",
+  "total_entries_untranslated": 161435,
+  "overall_completion_rate": 4.9,
+  "next_action": "Continue strict sequential translation from line 106518 onwards. Section: a2001_ambienttownie (135 entries). Reference Spanish for translatability. Validate structure after completing sections.",
   "strict_workflow": {
     "sequential_processing": "MANDATORY - Process from line 1 sequentially. NO skipping, NO prioritization.",
     "spanish_reference": "MANDATORY - Check Spanish file for translatability before each translation.",
