@@ -162145,35 +162145,35 @@
       1 Array Array (23 items)
        0 int size = 23
        [0]
-        1 string data = "The interface for the Photon Amplification Lens  looks simple. Most routines are automated, but there are some controls you can adjust."
+        1 string data = "光子増幅レンズのインターフェースはシンプルに見える。ほとんどのルーチンは自動化されているが、調整できるコントロールがいくつかある。"
        [1]
-        1 string data = "Install the Dynamic Cross-Photon Matrix onto the lens."
+        1 string data = "動的クロス光子マトリックスをレンズに取り付ける。"
        [2]
-        1 string data = "Press the button labeled, 'Adjust photon collection amount.'"
+        1 string data = "「光子収集量の調整」と書かれたボタンを押す。"
        [3]
-        1 string data = "Activate Photon Amplification Lens.\n"
+        1 string data = "光子増幅レンズを起動する。\n"
        [4]
-        1 string data = "You remove a component labeled, 'Passive Cross-Photon Matrix' and install the Dynamic Cross-Photon Matrix. There is a short hiss and the piece starts smelling of ozone. Probably not a problem. Probably."
+        1 string data = "「受動的クロス光子マトリックス」とラベルの付いたコンポーネントを取り外し、動的クロス光子マトリックスを取り付ける。短いシューという音がして、部品がオゾン臭を放ち始める。おそらく問題ない。たぶん。"
        [5]
-        1 string data = "Photon collection is at its highest setting, currently reading 100.0. An animated flower on the screen cackles in delight as it rides a fiery steed of the apocalypse."
+        1 string data = "光子収集は最高設定で、現在の読み取り値は100.0。画面上のアニメーション化された花が、黙示録の炎の馬に乗りながら喜んで笑っている。"
        [6]
-        1 string data = "Photon collection is at its highest setting, currently reading 10.0. On the screen, an animated flower wears sunglasses and cringes from glaring sun rays."
+        1 string data = "光子収集は最高設定で、現在の読み取り値は10.0。画面上で、アニメーション化された花がサングラスをかけ、まぶしい太陽光から縮こまっている。"
        [7]
-        1 string data = "Photon collection is at its lowest setting, currently reading 1.0. On the screen, an animated flower smiles as it basks in light sun rays."
+        1 string data = "光子収集は最低設定で、現在の読み取り値は1.0。画面上で、アニメーション化された花が穏やかな日光を浴びて微笑んでいる。"
        [8]
-        1 string data = "Increase photon collection to its highest level."
+        1 string data = "光子収集を最高レベルに上げる。"
        [9]
-        1 string data = "Leave it as is."
+        1 string data = "そのままにしておく。"
        [10]
-        1 string data = "You return to the main control interface for the lens."
+        1 string data = "レンズのメイン制御インターフェースに戻る。"
        [11]
-        1 string data = "You twist a nob to the right. A low hum grows in strength."
+        1 string data = "ノブを右に回す。低いうなり声が強くなる。"
        [12]
-        1 string data = "Decrease photon collection to its lowest level."
+        1 string data = "光子収集を最低レベルに下げる。"
        [13]
-        1 string data = "You twist a nob to the left. A loud hum becomes softer."
+        1 string data = "ノブを左に回す。大きなうなり声が小さくなる。"
        [14]
-        1 string data = "A happy flower appears on the screen. It says, 'PAL activated, pal!'"
+        1 string data = "幸せそうな花が画面に現れる。「PAL起動したぜ、相棒！」と言っている。"
        [15]
         1 string data = "Deactivate Photon Amplification Lens."
        [16]
@@ -162183,13 +162183,13 @@
        [18]
         1 string data = "Script Node 19"
        [19]
-        1 string data = "Step away."
+        1 string data = "立ち去る。"
        [20]
-        1 string data = "With the lens activated, you are locked out of all controls. A smiling flower avatar waves at you under a word balloon. 'Have a nice day!'"
+        1 string data = "レンズが起動されている状態では、すべてのコントロールがロックされている。微笑む花のアバターが吹き出しの下で手を振っている。「良い一日を！」"
        [21]
-        1 string data = "A stray bullet has damaged the computer. It sizzles, and the smell of burnt plastic fills the air. This is an ex-computer."
+        1 string data = "流れ弾がコンピューターに損傷を与えた。ジュージューと音を立て、焦げたプラスチックの匂いが空気を満たす。これはもう元コンピューターだ。"
        [22]
-        1 string data = "Photon collection is at its lowest setting, currently reading 10.0. On the screen, an animated flower wears sunglasses and cringes from glaring sun rays."
+        1 string data = "光子収集は最低設定で、現在の読み取り値は10.0。画面上で、アニメーション化された花がサングラスをかけ、まぶしい太陽光から縮こまっている。"
    [519]
     0 StringTable data
      1 string Filename = "a3001_computerworkshop"
@@ -162283,23 +162283,23 @@
       1 Array Array (20 items)
        0 int size = 20
        [0]
-        1 string data = "Bellamy appears to have modeled his entire workshop in the game. The only difference you notice is there is no computer and the electronic safe is connected directly to a generator. You launch Bellamyland 3 and your vegetable avatar repairs the generator."
+        1 string data = "ベラミーはゲーム内に工房全体をモデル化したようだ。唯一気づいた違いは、コンピューターがなく、電子金庫が発電機に直接接続されていることだ。ベラミーランド3を起動すると、あなたの野菜アバターが発電機を修理する。"
        [1]
-        1 string data = "The interface of the computer has been customized with a cartoonish plant-based theme. A large eggplant smiles and presents what looks like a game menu."
+        1 string data = "コンピューターのインターフェースは、漫画風の植物ベースのテーマでカスタマイズされている。大きなナスが笑顔でゲームメニューのようなものを提示している。"
        [2]
-        1 string data = "A large eggplant frowns. It seems to be unresponsive and is not presenting a menu any more."
+        1 string data = "大きなナスが眉をひそめている。応答がなく、もうメニューを提示していないようだ。"
        [3]
-        1 string data = "Create a new character."
+        1 string data = "新しいキャラクターを作成する。"
        [4]
         1 string data = "Play The Bellamy's Tale 4."
        [5]
-        1 string data = "Step away."
+        1 string data = "立ち去る。"
        [6]
-        1 string data = "You are assigned an avatar of a cob of corn. It stated your name was auto-generated, but you have doubts that 'Bellamaize' was random."
+        1 string data = "トウモロコシの穂のアバターが割り当てられた。名前は自動生成されたと書いてあるが、「ベラメイズ」がランダムだったとは疑わしい。"
        [7]
-        1 string data = "This time you are assigned a plump tomato as your avatar. Your name is 'Bellamato.' It's pretty obvious Bellamy isn't randomly generating names."
+        1 string data = "今度はアバターとしてふっくらしたトマトが割り当てられた。名前は「ベラマト」だ。ベラミーがランダムに名前を生成していないのは明らかだ。"
        [8]
-        1 string data = "The eggplant appears, tells you it's frustrated you keep making characters, and demands from now on you will be a short mushroom named 'Bellaroom.'"
+        1 string data = "ナスが現れ、キャラクターを作り続けることにイライラしていると言い、今後は「ベララーム」という名前の短いキノコになることを要求する。"
        [9]
         1 string data = "Your vegetable is falling through the air with no memory."
        [10]
@@ -162309,19 +162309,19 @@
        [12]
         1 string data = "Play Tides of Bellamy."
        [13]
-        1 string data = "Look through the file structure and source code."
+        1 string data = "ファイル構造とソースコードを調べる。"
        [14]
         1 string data = "On second thought, the puzzles were clearly designed by the criminally insane. You stop playing, wishing Bellamy would have included a way to bypass the puzzles."
        [15]
-        1 string data = "Digging through files, you find a partially implemented game called 'Bellamyland 3' which appears to have a map called 'Garden of Bellamy.'"
+        1 string data = "ファイルを掘り下げると、「ベラミーの庭」と呼ばれるマップを持つ「ベラミーランド3」という部分的に実装されたゲームを見つける。"
        [16]
-        1 string data = "Play Bellamyland."
+        1 string data = "ベラミーランドをプレイする。"
        [17]
-        1 string data = "Your vegetable avatar seems to be in a desert garden. You decide to stop after a series of events lead to all the cacti being slaughtered in a garden, and some guy with a BB gun started hunting you down."
+        1 string data = "あなたの野菜アバターは砂漠の庭にいるようだ。一連の出来事で庭のサボテンがすべて虐殺され、BBガンを持った男があなたを狩り始めた後、あなたは止めることにする。"
        [18]
-        1 string data = "Play Bellamyland 2."
+        1 string data = "ベラミーランド2をプレイする。"
        [19]
-        1 string data = "Your vegetable avatar seems to be in that same desert garden. The game starts at the funeral of a fellow vegetable. The game ends abruptly after you wondered what would happen if you dug up his grave. Shot to death. That was the answer."
+        1 string data = "あなたの野菜アバターは同じ砂漠の庭にいるようだ。ゲームは仲間の野菜の葬式から始まる。墓を掘り返したらどうなるか疑問に思った後、ゲームは突然終了する。射殺された。それが答えだった。"
    [520]
     0 StringTable data
      1 string Filename = "a3001_cyborgchicken_leftarm"
@@ -162529,45 +162529,45 @@
        [14]
         1 string data = " BAWK BAWK"
        [15]
-        1 string data = "Nearly spherical in shape, this plump specimen waddles contentedly along, pecking at the ground. For some reason, someone implanted metal devices into its body."
+        1 string data = "ほぼ球形のこのふっくらした個体は、満足そうによちよち歩きながら地面をつついている。何らかの理由で、誰かがその体に金属装置を埋め込んだようだ。"
        [16]
         1 string data = "Script Node 17"
        [17]
-        1 string data = ""<i>Bwak?</i>""
+        1 string data = ""<i>コッコ？</i>""
        [18]
-        1 string data = ""Buck. Buck. Buck. Buck.""
+        1 string data = ""コケー。コケー。コケー。コケー。""
        [19]
-        1 string data = ""Buck. Buuuuuuuuuck.""
+        1 string data = ""コケー。コケェェェェェー。""
        [20]
-        1 string data = ""Bwarrck!""
+        1 string data = ""コッコーッ！""
        [21]
-        1 string data = ""Brrrrrrrrk. Buck. Buck.""
+        1 string data = ""コココココー。コケー。コケー。""
        [22]
-        1 string data = ""Brrrk. BWACK!""
+        1 string data = ""コココー。コッコーッ！""
        [23]
         1 string data = "::agitated wing flaps::"
        [24]
-        1 string data = ""Crrooo. Coo.""
+        1 string data = ""クルックー。クー。""
        [25]
         1 string data = "Script Node 26"
        [26]
-        1 string data = ""Follow us.""
+        1 string data = ""ついてきて。""
        [27]
-        1 string data = ""Goodbye.""
+        1 string data = ""さよなら。""
        [28]
-        1 string data = "It pecks the ground once, head tilting this way and that, before it begins bobbing after you."
+        1 string data = "地面を一度つつき、頭をあちこちに傾けてから、あなたの後をついて来始める。"
        [29]
-        1 string data = ""Bwuck? Bwuck bwuuuuck buck.""
+        1 string data = ""コッコ？コッコ、コッコーコケー。""
        [30]
         1 string data = """"
        [31]
-        1 string data = ""Cluck cluck?""
+        1 string data = ""クックッ、クックッ？""
        [32]
-        1 string data = "It tilts its head one way and another, scrutinising you with one eye and then the next. "
+        1 string data = "頭をあちこちに傾け、片目で、次にもう片方の目であなたを観察する。"
        [33]
         1 string data = ""Cluck cluck cluck." It waddles away."
        [34]
-        1 string data = "The cybernetic bird cocks its head at you."
+        1 string data = "サイボーグの鳥があなたに向かって首をかしげる。"
        [35]
         1 string data = "Script Node 37"
        [36]
@@ -162575,9 +162575,9 @@
        [37]
         1 string data = "Trigger Conv Node 39"
        [38]
-        1 string data = ""Hey. Another weird chicken.""
+        1 string data = ""おい。また変な鶏だ。""
        [39]
-        1 string data = ""Look at that weird chicken.""
+        1 string data = ""あの変な鶏を見ろよ。""
        [40]
         1 string data = "[Dismiss] "Stay here, girl.""
    [521]
@@ -162865,57 +162865,57 @@
        [8]
         1 string data = "Script Node 9"
        [9]
-        1 string data = ""Get down from there, or we're comin' up!""
+        1 string data = ""そこから降りろ、でないと登っていくぞ！""
        [10]
-        1 string data = ""You... you don't want to do that!""
+        1 string data = ""そ、それはしない方がいい！""
        [11]
-        1 string data = ""Oh yeah? Why not?""
+        1 string data = ""そうか？なぜだ？""
        [12]
-        1 string data = ""I... uh... I've got this whole place rigged to blow, that's why!""
+        1 string data = ""お、俺は...この場所全体を爆破できるようにしてある、だからだ！""
        [13]
-        1 string data = ""I don't see no explosives. Where are they?""
+        1 string data = ""爆薬なんか見えないぞ。どこにある？""
        [14]
-        1 string data = ""All around here. Carefully concealed. If I press this button, we're all dead.""
+        1 string data = ""この辺り一帯だ。注意深く隠してある。このボタンを押せば、全員死ぬ。""
        [15]
-        1 string data = ""Okay. Do it then.""
+        1 string data = ""よし。じゃあやってみろ。""
        [16]
-        1 string data = ""Fine! Take one step closer, and I will!""
+        1 string data = ""いいだろう！あと一歩でも近づいたら、やるぞ！""
        [17]
         1 string data = ""Fuck it, I was trying to be nice, asshole!""
        [18]
-        1 string data = ""Hey! Where did <i>you</i> come from? Back the hell off, or you're dead!""
+        1 string data = ""おい！<i>お前ら</i>はどこから来た？下がれ、さもないと死ぬぞ！""
        [19]
-        1 string data = ""Get 'em, cousins!""
+        1 string data = ""やっちまえ、仲間たち！""
        [20]
-        1 string data = ""The guy on the ledge has a Buckminster-Fusion device. It can atomize everything for a mile around. Put down your weapons, and don't piss him off.""
+        1 string data = ""崖の上の男はバックミンスター核融合装置を持っている。1マイル周辺のすべてを原子化できる。武器を下ろして、あいつを怒らせるな。""
        [21]
-        1 string data = ""That's an empty threat, and you know it. You've got no food, you're low on ammo, and nobody's coming to help you. Drop your goddamn weapons <i>now</i>.""
+        1 string data = ""それは空虚な脅しだ、お前にもわかってるだろう。食料はなく、弾薬も少なく、誰も助けに来ない。今すぐ武器を<i>捨てろ</i>。""
        [22]
-        1 string data = ""Calm down. Let's talk this out like adults.""
+        1 string data = ""落ち着け。大人として話し合おう。""
        [23]
         1 string data = "[Attack] "We're not going anywhere.""
        [24]
-        1 string data = ""You sayin' I'm a child? You're the one who's in for a whoopin'!""
+        1 string data = ""俺をガキ扱いか？お仕置きを受けるのはお前らの方だぜ！""
        [25]
-        1 string data = ""Aw shit!""
+        1 string data = ""ああ、クソ！""
        [26]
-        1 string data = ""Wait... he's got <i>what</i> now?""
+        1 string data = ""待て...あいつは<i>何</i>を持ってるって？""
        [27]
-        1 string data = ""Settle down, cousins. We ain't lookin' to get... 'atomized.' That shit sounds like it would sting.""
+        1 string data = ""落ち着け、仲間たち。「原子化」なんてされたくねえ。痛そうだからな。""
        [28]
-        1 string data = ""We'll just put our weapons down, okay? Nice and slow. Nobody pisses the guy off on the ledge, right?""
+        1 string data = ""武器を下ろすぞ、いいな？ゆっくりだ。崖の上の男を怒らせるなよ、いいか？""
        [29]
         1 string data = "Script Node 30"
        [30]
-        1 string data = ""They're right about the food an' the ammo, cousin. And I don't think Nelius is comin' back for us.""
+        1 string data = ""食料と弾薬については連中の言う通りだ、仲間よ。それにネリウスはもう俺たちを迎えに来ないと思う。""
        [31]
         1 string data = "[Arrest] "We're putting you all under arrest.""
        [32]
-        1 string data = ""We'll go quiet, just... don't give us to the Marshals. Please.""
+        1 string data = ""おとなしくする、ただ...マーシャルには引き渡さないでくれ。頼む。""
        [33]
         1 string data = "[Attack] "We just want to kill you the old-fashioned way.""
        [34]
-        1 string data = ""Fine. We'll just put our weapons down, okay? Nice and slow. I guess the Deluge ain't comin' today.""
+        1 string data = ""わかった。武器を下ろすよ、いいか？ゆっくりとな。今日は大洪水は来ないみたいだ。""
        [35]
         1 string data = "[Attack] "Actually, we're going to kill you anyway.""
        [36]
@@ -162925,7 +162925,7 @@
        [38]
         1 string data = ""
        [39]
-        1 string data = ""Well, hot damn. Smoke 'em if y'all got 'em!""
+        1 string data = ""よっしゃ、やったれ。持ってる奴は撃ちまくれ！""
        [40]
         1 string data = ""
    [523]
@@ -163073,55 +163073,55 @@
       1 Array Array (33 items)
        0 int size = 33
        [0]
-        1 string data = ""Come in, November One, this is Ranger HQ. We're getting reports of shooting in your last known location at Garden of the Gods. What is your status? Over.""
+        1 string data = ""応答せよ、ノベンバー・ワン、こちらレンジャーHQ。神々の庭での最後の既知位置で銃撃戦の報告を受けている。状況を報告せよ。どうぞ。""
        [1]
         1 string data = "Script Node 2"
        [2]
-        1 string data = ""We took care of the Dorseys, and we arrested several rebels - can we house them in Ranger HQ?""
+        1 string data = ""ドーシー一味を始末し、反乱分子を数名逮捕した - レンジャーHQに収容できるか？""
        [3]
-        1 string data = ""We took care of the Dorseys, and we arrested several rebels. Send a team to pick them up as soon as possible.""
+        1 string data = ""ドーシー一味を始末し、反乱分子を数名逮捕した。できるだけ早く回収チームを送ってくれ。""
        [4]
-        1 string data = ""We took care of the Dorseys. We'd like to hand some prisoners over to Sheriff Daisy and the Marshals.""
+        1 string data = ""ドーシー一味を始末した。囚人を保安官デイジーとマーシャルに引き渡したい。""
        [5]
-        1 string data = ""We took care of the Dorseys. The only survivors were some Hundred Families kids - we let them go.""
+        1 string data = ""ドーシー一味を始末した。唯一の生存者は百家族の子供たちで、解放した。""
        [6]
-        1 string data = ""We took care of the Dorseys. There are no survivors.""
+        1 string data = ""ドーシー一味を始末した。生存者はいない。""
        [7]
-        1 string data = ""That's affirmative, November One. We have spacious facilities that are just right for these rebellious types.""
+        1 string data = ""了解、ノベンバー・ワン。こういう反乱分子にぴったりの広々とした施設がある。""
        [8]
-        1 string data = ""I do not believe we've met. My name is Corporal Marcelo Gonzalez - I am your radio operator back in Ranger HQ. You can reach us at any time using your field radio. When you have made an arrest, just radio them in to me. A pleasure to serve. Over and out.""
+        1 string data = ""お会いしたことはなかったと思う。私はマルセロ・ゴンザレス伍長、レンジャーHQの無線オペレーターだ。いつでも野戦無線で連絡を取れる。逮捕したら、私に無線連絡してくれ。喜んで奉仕する。以上、終わり。""
        [9]
-        1 string data = ""Copy that, November One, dispatching an arrest team now. Good job getting those sons of bitches! Over and out.""
+        1 string data = ""了解、ノベンバー・ワン、今すぐ逮捕チームを派遣する。あのクソ野郎どもを捕まえてよくやった！以上、終わり。""
        [10]
-        1 string data = ""Copy that, Team November. Congratulations on dealing with the threat, and I will inform the Marshals.""
+        1 string data = ""了解、チーム・ノベンバー。脅威の処理おめでとう、マーシャルに知らせる。""
        [11]
-        1 string data = ""They'll be happy to hear that, Team November, as am I. Good job getting those sumbitches. Over and out.""
+        1 string data = ""彼らは喜ぶだろう、チーム・ノベンバー、私もだ。あの野郎どもを捕まえてよくやった。以上、終わり。""
        [12]
-        1 string data = ""Copy that, Team November. For future actions, be advised we have facilities at Ranger HQ to house prisoners, if you are so inclined. Just call me, Corporal Marcelo Gonzalez, on your field radio, in case you need to make arrests or for any kind of sit rep. That's what we're here for, over and out.""
+        1 string data = ""了解、チーム・ノベンバー。今後の行動として、囚人を収容できる施設がレンジャーHQにあることを覚えておいてくれ。逮捕の必要がある場合や状況報告が必要な場合は、私、マルセロ・ゴンザレス伍長に野戦無線で連絡してくれ。そのために我々がいる。以上、終わり。""
        [13]
-        1 string data = ""..."\n\n\n"As is your prerogative, Team November. Over and out.""
+        1 string data = ""..."\n\n\n"それが君たちの特権だ、チーム・ノベンバー。以上、終わり。""
        [14]
-        1 string data = ""Copy that, Team November, glad to hear justice has been done."\n\n\n"This is Corporal Marcelo Gonzalez speaking, I don't believe we've met. Just so you know, you can reach me at any time on your field radio, and I can dispatch an arrest team if by any chance you leave some survivors next time. Over and out.""
+        1 string data = ""了解、チーム・ノベンバー、正義が果たされて嬉しい。"\n\n\n"こちらマルセロ・ゴンザレス伍長、お会いしたことはなかったと思う。いつでも野戦無線で連絡できることを覚えておいてくれ。次回たまたま生存者を残した場合は逮捕チームを派遣できる。以上、終わり。""
        [15]
-        1 string data = ""Kick ass, November One. Glad to hear justice has been done. Over and out.""
+        1 string data = ""最高だ、ノベンバー・ワン。正義が果たされて嬉しい。以上、終わり。""
        [16]
-        1 string data = ""We took care of the Dorseys. Nothing else to report.""
+        1 string data = ""ドーシー一味を始末した。他に報告なし。""
        [17]
-        1 string data = ""We killed every last Dorsey rat, and the Hundred Families kids helping them.""
+        1 string data = ""ドーシーの鼠どもを一匹残らず殺し、彼らを助けていた百家族の子供たちも殺した。""
        [18]
-        1 string data = ""Well done, November One. Over and out.""
+        1 string data = ""よくやった、ノベンバー・ワン。以上、終わり。""
        [19]
-        1 string data = ""Roger that, November One. Maybe let's not talk too loudly about this 'killing Hundred Families kids' business? Over and out.""
+        1 string data = ""了解、ノベンバー・ワン。ただ「百家族の子供を殺す」件については大声で話さない方がいいかもしれない？以上、終わり。""
        [20]
-        1 string data = ""This is Ranger HQ. Reading you loud and clear, November One. What's your status?""
+        1 string data = ""こちらレンジャーHQ。はっきり受信している、ノベンバー・ワン。状況は？""
        [21]
-        1 string data = ""We arrested several Dorseys. Send a team to pick them up as soon as possible.""
+        1 string data = ""ドーシー一味を数名逮捕した。できるだけ早く回収チームを送ってくれ。""
        [22]
-        1 string data = ""We'd like to hand some Dorsey prisoners over to Sheriff Daisy and the Marshals.""
+        1 string data = ""ドーシーの囚人を保安官デイジーとマーシャルに引き渡したい。""
        [23]
-        1 string data = ""Copy that, November One, dispatching an arrest team now. Over and out.""
+        1 string data = ""了解、ノベンバー・ワン、今すぐ逮捕チームを派遣する。以上、終わり。""
        [24]
-        1 string data = ""They'll be happy to hear that, November One. Over and out.""
+        1 string data = ""彼らは喜ぶだろう、ノベンバー・ワン。以上、終わり。""
        [25]
         1 string data = "Script Node 27"
        [26]
