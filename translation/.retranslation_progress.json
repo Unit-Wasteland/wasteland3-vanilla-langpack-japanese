@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 12184,
-      "entries_untranslated": 157528,
+      "entries_translated": 12267,
+      "entries_untranslated": 157445,
       "completion_rate": 7.2,
-      "current_line": 152526,
+      "current_line": 153078,
       "status": "in_progress",
       "approach": "Strict sequential from line 666, complete each section 100% before next",
-      "note": "Session 143: 53 entries completed. Sections: a2101_combatbarks_quickdraw (15), a2101_companionbarks (11), a2101_computerheating (10), a2101_daisy_radio (6), a2101_dancer_brygo (2), a2101_dancer_hall (4), a2101_dancer_privateparty (5) COMPLETED. Spanish reference MANDATORY check performed. Technical terms preserved: Script Node format. Validation: 0 errors (4 HTML warnings pre-existing). Next: Continue from line 152526 (a2101_dealer_blackjack section)."
+      "note": "Session 144: 83 entries completed. Sections: a2101_dealer_blackjack (54), a2101_dealer_roulette (29) COMPLETED. Casino gambling games dialogue. Spanish reference MANDATORY check performed. Technical terms preserved: Script Node 19, Script Node 33, Script Node 64. Validation: 0 errors (4 HTML warnings pre-existing). Next: Continue from line 153078 (a2101_delgadotimebomb section - 221 entries)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "0277698",
-  "last_commit_message": "Retranslation: base_game entries 12132-12184 (53 entries, lines 152022-152526)",
-  "total_entries_completed": 12184,
+  "last_commit_hash": "df0742a",
+  "last_commit_message": "Retranslation: base_game entries 12185-12267 (83 entries, lines 152768-153078)",
+  "total_entries_completed": 12267,
   "total_entries": 169712,
-  "total_entries_untranslated": 157528,
+  "total_entries_untranslated": 157445,
   "overall_completion_rate": 7.2,
-  "next_action": "Continue strict sequential translation. Next: a2101_dealer_blackjack section from line 152526 onwards. Validate structure after completing sections.",
+  "next_action": "Continue strict sequential translation. Next: a2101_delgadotimebomb section from line 153078 onwards (221 entries). Validate structure after completing sections.",
   "strict_workflow": {
     "sequential_processing": "MANDATORY - Process from line 1 sequentially. NO skipping, NO prioritization.",
     "spanish_reference": "MANDATORY - Check Spanish file for translatability before each translation.",
