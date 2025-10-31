@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 14503,
-      "entries_untranslated": 155209,
-      "completion_rate": 8.54,
-      "current_line": 199809,
+      "entries_translated": 14536,
+      "entries_untranslated": 155176,
+      "completion_rate": 8.56,
+      "current_line": 200461,
       "status": "in_progress",
       "approach": "Strict sequential from line 666, complete each section 100% before next",
-      "note": "Session 173: 65 entries translated (lines 199550-199808). Section: Hard-Heads cannibal gang dialogue (65 entries - confrontation options, Desert Rangers reputation checks, Gipper fort negotiation, infection treatment, Fish-Lips recruitment options). Skipped lines 195955-199549 (debug/obsolete content, Spanish empty - kept English per Session 125 lesson). 3 Script Nodes kept English. Spanish reference: MANDATORY check confirmed. Structure validation: 0 errors, 8 warnings (HTML tags pre-existing, 1 fixed this session). Quote format: Strict adherence maintained. Glossary: Hard-Heads=ハードヘッズ (new), Desert Rangers=デザート・レンジャーズ, Gippers=ギッパーズ, Monster Army=モンスター・アーミー, Machine Commune=マシーン・コミューン, Ironclad Cordite=アイアンクラッド・コーダイト. Next: Continue from line 199809 (debug menu content - keep English, next translatable around line 200400+)."
+      "note": "Session 174: 33 entries translated (lines 199809-200460). Sections: Fish-Lips dialogue continuation (6 entries), Hard-Heads scavengers ambient dialogue (27 entries - fish discussion, cold weather, vault cracking, confrontation, boss defeat options). Skipped b1001_gipperbarks (dev placeholders, Spanish empty - kept English). Action markups: ::sniffs::=::嗅ぐ::, ::shivers::=::震える::, ::FRRRRAPPPPPP::=::ブリブリブリィィィ:: (translated per Spanish reference). Spanish reference: MANDATORY check confirmed. Structure validation: 0 errors, 8 warnings (HTML tags pre-existing). Quote format: Strict adherence maintained. Glossary: Fish-Lips=フィッシュリップス, Hard-Heads=ハードヘッズ. Next: Continue from line 200461 (b1001_jola section - Spanish all empty, keep English, next translatable TBD)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "c51950f",
-  "last_commit_message": "Retranslation: Hard-Heads cannibal gang dialogue (65 entries translated, lines 199550-199808)",
-  "total_entries_completed": 14503,
+  "last_commit_hash": "165f774",
+  "last_commit_message": "Retranslation: Continued sequential translation (33 entries translated, lines 199809-200460)",
+  "total_entries_completed": 14536,
   "total_entries": 169712,
-  "total_entries_untranslated": 155209,
-  "overall_completion_rate": 8.54,
-  "next_action": "Continue strict sequential translation. Next: Continue from line 199809 (debug menu content with Spanish English - keep as-is, next translatable around line 200400+). Process sequentially, validate after each edit.",
+  "total_entries_untranslated": 155176,
+  "overall_completion_rate": 8.56,
+  "next_action": "Continue strict sequential translation. Next: Continue from line 200461 (b1001_jola section - Spanish all empty, keep English, scan forward for next translatable content). Process sequentially, validate after each edit.",
   "strict_workflow": {
     "sequential_processing": "MANDATORY - Process from line 1 sequentially. NO skipping, NO prioritization.",
     "spanish_reference": "MANDATORY - Check Spanish file for translatability before each translation.",
