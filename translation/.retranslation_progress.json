@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 13967,
-      "entries_untranslated": 155745,
+      "entries_translated": 13979,
+      "entries_untranslated": 155733,
       "completion_rate": 8.2,
-      "current_line": 187861,
+      "current_line": 191703,
       "status": "in_progress",
       "approach": "Strict sequential from line 666, complete each section 100% before next",
-      "note": "Session 166: 89 entries processed, 51 translated (lines 187291-187860). Sections: a5101_patriarch_finaldialogue_antipatriarchwithgangsending_endgame (1 entry - kept English, Spanish empty), a5101_patriarch_finaldialogue_bloodlesscoup_endgame (88 entries - 50 translated, 38 kept English - Spanish empty). Bloodless coup dialogue: arrest/exile/kill Patriarch choices, Angela Deth conversation (stay/leave decisions), Arizona/Colorado future (invite Rangers/share resources/take spoils), endgame report variants, Marshal reactions to coup. Spanish reference: MANDATORY check for each entry - empty Spanish = kept English (program identifiers), non-empty Spanish = translated to Japanese. Structure validation: 0 errors. Quote format fix: Line 187828 corrected from 6 quotes to 5 quotes (matching Spanish pattern). Glossary used: Patriarch=パトリアーク, Buchanan=ブキャナン, Angie=アンジー, Woodson=ウッドソン, Marshals=マーシャルズ, Rangers=レンジャーズ, Arizona=アリゾナ, Colorado=コロラド. Next: Continue from line 187861 (a5101_patriarch_finaldialogue_propatriarchending_endgame section)."
+      "note": "Session 167: 12 entries translated (lines 187861-191703). Sections: a5101_patriarch_finaldialogue_propatriarchending_endgame variants (10 entries - Victory/Valor/Liberty name variants, hostage scenarios, final confrontation dialogue), a5101_patriarch_radio_antipatriarchlobby (0 entries - all Spanish empty, kept English), a5101_patriarch_radio_antipatriarchscenario (0 entries - all Spanish empty, dev text), a5101_psychopathcommentaryinpatriarchpalace (0 entries - all Spanish empty), a5101_securewingguard (1 entry), a5101_thepatriarch_atpalace (1 entry - mostly dev/debug text, only first entry translated). Spanish reference: MANDATORY check confirmed - vast majority of entries in palace sections are dev/debug text (Spanish empty). Structure validation: 0 errors. Glossary used: Patriarch=パトリアーク, Valor=ヴァラー, Liberty=リバティ, Victory=ヴィクトリー, Arizona=アリゾナ, Rangers=レンジャーズ. Next: Continue from line 191703 (a5101_dutyroster section)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -50,11 +50,11 @@
   },
   "last_commit_hash": "5943c6b",
   "last_commit_message": "Retranslation: base_game bloodlesscoup endgame section (51 entries translated, lines 187291-187860)",
-  "total_entries_completed": 13967,
+  "total_entries_completed": 13979,
   "total_entries": 169712,
-  "total_entries_untranslated": 155745,
+  "total_entries_untranslated": 155733,
   "overall_completion_rate": 8.2,
-  "next_action": "Continue strict sequential translation. Next: Continue from line 187861 (a5101_patriarch_finaldialogue_propatriarchending_endgame section, 90 entries). Process sequentially, validate after each edit.",
+  "next_action": "Continue strict sequential translation. Next: Continue from line 191703 (a5101_dutyroster section, 70 entries). Process sequentially, validate after each edit.",
   "strict_workflow": {
     "sequential_processing": "MANDATORY - Process from line 1 sequentially. NO skipping, NO prioritization.",
     "spanish_reference": "MANDATORY - Check Spanish file for translatability before each translation.",
