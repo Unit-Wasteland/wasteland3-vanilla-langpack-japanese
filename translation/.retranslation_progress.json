@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 13276,
-      "entries_untranslated": 156436,
+      "entries_translated": 13307,
+      "entries_untranslated": 156405,
       "completion_rate": 7.8,
-      "current_line": 178493,
+      "current_line": 178880,
       "status": "in_progress",
       "approach": "Strict sequential from line 666, complete each section 100% before next",
-      "note": "Session 156: 101 entries completed (lines 178292-178492). Section: a5001_gideonreyes (Gideon Reyes dialogue, Colorado Springs leader, Lucias uncle). Content: Unwelcome Guests quest - refugee smuggling investigation, Mama Cotter operation, political discussion about Patriarchs succession, political advisor recruitment, garage mechanics reward negotiation, cyborg chicken discovery dialogue. Key dialogue: Lucia family discussion, regime change political intrigue, Hundred Families/Marshals support. Spanish reference: All entries verified and translated. Structure validation: 0 errors. Quote format: Strictly preserved (4-quote format). Action markers: All preserved. Technical terms: Script Node preserved. Next: Continue from line 178493 (next section after a5001_gideonreyes)."
+      "note": "Session 157: 31 entries completed (lines 178493-178879). Sections: a5001_gravelibertymother (21 entries - Larra Buchanan grave), a5001_hardeeknox (5 entries - rescued character), a5001_hundredfamiliesinchurch (7 entries - church reactions). Content: Grave investigation, Valor commentary on Larra assassination backstory, Vic confrontation dialogue, church congregation panic. Skipped: a5001_jolasmellscub (59 entries - Spanish empty per strict rules). Spanish reference: All entries verified. Structure validation: 0 errors. Quote format: Strictly preserved. Next: Continue from line 178880 (a5001_luciawesson section - Lucia Wesson dialogue, has Spanish translations)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "8fbc5ac",
-  "last_commit_message": "Retranslation: base_game a5001_gideonreyes (101 entries, lines 178292-178492)",
-  "total_entries_completed": 13276,
+  "last_commit_hash": "d360fac",
+  "last_commit_message": "Retranslation: base_game sections a5001_gravelibertymother+hardeeknox+church (31 entries, lines 178493-178879)",
+  "total_entries_completed": 13307,
   "total_entries": 169712,
-  "total_entries_untranslated": 156436,
+  "total_entries_untranslated": 156405,
   "overall_completion_rate": 7.8,
-  "next_action": "Continue strict sequential translation. Next: Continue from line 178493 (section after a5001_gideonreyes). Process sequentially, validate after each edit.",
+  "next_action": "Continue strict sequential translation. Next: Continue from line 178880 (a5001_luciawesson section - 102 entries, has Spanish translations). Process sequentially, validate after each edit.",
   "strict_workflow": {
     "sequential_processing": "MANDATORY - Process from line 1 sequentially. NO skipping, NO prioritization.",
     "spanish_reference": "MANDATORY - Check Spanish file for translatability before each translation.",
