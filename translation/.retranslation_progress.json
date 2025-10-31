@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 13706,
-      "entries_untranslated": 156006,
+      "entries_translated": 13772,
+      "entries_untranslated": 155940,
       "completion_rate": 8.1,
-      "current_line": 183559,
+      "current_line": 184741,
       "status": "in_progress",
       "approach": "Strict sequential from line 666, complete each section 100% before next",
-      "note": "Session 162: 128 entries completed (lines 182491-183558). Sections: a5011_cordite_endgame (79 translated - Cordite endgame dialogue, Kansas destiny, pillage choices, Ranger fate decisions), a5011_diligentjoe_endgame (0 translated - Spanish empty, kept English dev notes), a5011_marshal_endgame_wounded (0 translated - Spanish empty, kept English), a5011_patriarch_endgame (35 translated - Patriarch Buchanan final confrontation, democracy vs tyranny debate, betrayal accusations, civilization defense), a5011_refugee_endgame_palace (0 translated - Spanish empty, kept English), a2001_companion_topdocbarks (8 translated - Doc Parker supply mission barks), a5101_adamant (3 translated - character brief dialogue), a5101_adoptionrecord (3 translated - Melissa Howe adoption secret, Godfisher raid cover-up). Spanish reference: All entries verified (empty Spanish = kept English structure). Structure validation: 0 errors. Quote format: Strictly preserved (4-quote Unity format). Action markup: ::笑う:: properly translated. Script Nodes: kept untranslated. HTML tags: <i> preserved. Character names: Saul Buchanan, Angela Deth, Melissa Howe, Claire Howe preserved. Next: Continue from line 183559 (a5101_angeldeth_radio_bloodcoup section)."
+      "note": "Session 163: 66 entries completed (lines 184204-184738). Sections: a5101_companionbarks (54 translated - Palace companion dialogue barks, palace history commentary, Patriarch family observations, room descriptions including wives' portraits/dining room/children's rooms, action markup ::ごくり:: preserved, HTML <i> tags preserved), a5101_guards (12 translated - Palace guard dialogue, security instructions to Rangers, Vic-specific returning home dialogue, guard warnings and welcomes). Spanish reference: All entries verified (empty Spanish = kept English structure). Structure validation: 0 errors (2 quote count errors fixed immediately). Quote format: Strictly preserved (4-quote Unity format, special handling for mixed quote formats like line 184242 with \n escape and line 184282 with ::action:: markup). Script Nodes: kept untranslated. Character names: Vic, Daisy, Angela Deth, Buchanan preserved. Next: Continue from line 184741 (a5101_endgame_propatriarch_angeladethstandoff section - Angela Deth vs Patriarch critical endgame dialogue)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "84004e5",
-  "last_commit_message": "Retranslation: base_game a5011_cordite_endgame through a5101_adoptionrecord sections (128 entries, lines 182491-183558)",
-  "total_entries_completed": 13706,
+  "last_commit_hash": "3b57380",
+  "last_commit_message": "Retranslation: base_game a5101_companionbarks and a5101_guards sections (66 entries, lines 184204-184738)",
+  "total_entries_completed": 13772,
   "total_entries": 169712,
-  "total_entries_untranslated": 156006,
+  "total_entries_untranslated": 155940,
   "overall_completion_rate": 8.1,
-  "next_action": "Continue strict sequential translation. Next: Continue from line 183559 (a5101_angeldeth_radio_bloodcoup section). Process sequentially, validate after each edit.",
+  "next_action": "Continue strict sequential translation. Next: Continue from line 184741 (a5101_endgame_propatriarch_angeladethstandoff section - Angela Deth vs Patriarch critical endgame dialogue). Process sequentially, validate after each edit.",
   "strict_workflow": {
     "sequential_processing": "MANDATORY - Process from line 1 sequentially. NO skipping, NO prioritization.",
     "spanish_reference": "MANDATORY - Check Spanish file for translatability before each translation.",
