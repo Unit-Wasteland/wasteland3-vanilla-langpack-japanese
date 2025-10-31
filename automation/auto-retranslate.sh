@@ -87,6 +87,58 @@ log() {
     echo "[$timestamp] [$level] $message" | tee -a "$LOG_FILE"
 }
 
+# Clean up old Claude Code history files to prevent disk space issues
+cleanup_history() {
+    local history_dir="/home/claude/.claude/projects/-home-claude-work-project-claude-wasteland3-vanilla-langpack-japanese"
+
+    if [ ! -d "$history_dir" ]; then
+        log "WARN" "History directory not found: $history_dir"
+        return
+    fi
+
+    # Get current disk usage
+    local before_size=$(du -sm "$history_dir" 2>/dev/null | awk '{print $1}')
+    local file_count=$(find "$history_dir" -name "*.jsonl" -type f | wc -l)
+
+    log "INFO" "History cleanup: Directory size ${before_size}MB, File count: $file_count"
+
+    # Strategy 1: Remove files older than 3 days (conservative approach)
+    local deleted_old=0
+    while IFS= read -r file; do
+        rm -f "$file"
+        deleted_old=$((deleted_old + 1))
+    done < <(find "$history_dir" -name "*.jsonl" -type f -mtime +3)
+
+    if [ $deleted_old -gt 0 ]; then
+        log "INFO" "  Deleted $deleted_old history files older than 3 days"
+    fi
+
+    # Strategy 2: If still large (>30GB), keep only 50 most recent files
+    local after_size=$(du -sm "$history_dir" 2>/dev/null | awk '{print $1}')
+    if [ $after_size -gt 30720 ]; then  # 30GB = 30720MB
+        log "WARN" "  Directory still large (${after_size}MB > 30GB), keeping only 50 most recent files"
+
+        # Get all .jsonl files sorted by modification time (oldest first)
+        # Delete all except the 50 most recent
+        local deleted_excess=0
+        while IFS= read -r file; do
+            rm -f "$file"
+            deleted_excess=$((deleted_excess + 1))
+        done < <(find "$history_dir" -name "*.jsonl" -type f -printf "%T@ %p\n" | sort -n | head -n -50 | awk '{print $2}')
+
+        if [ $deleted_excess -gt 0 ]; then
+            log "INFO" "  Deleted $deleted_excess excess history files (kept 50 most recent)"
+        fi
+    fi
+
+    # Final statistics
+    local final_size=$(du -sm "$history_dir" 2>/dev/null | awk '{print $1}')
+    local final_count=$(find "$history_dir" -name "*.jsonl" -type f | wc -l)
+    local freed_mb=$((before_size - final_size))
+
+    log "INFO" "  Cleanup complete: ${freed_mb}MB freed, ${final_count} files remaining (${final_size}MB)"
+}
+
 # Get Claude Code process memory usage (in MB)
 get_claude_memory() {
     local memory=$(ps aux | grep "[c]laude" | awk '{sum += $6} END {print sum}')
@@ -212,6 +264,9 @@ log "INFO" ""
 
 # Acquire exclusive lock (prevent duplicate sessions)
 acquire_lock
+
+# Clean up old history files at startup
+cleanup_history
 
 # Check prerequisites
 if [ ! -f "$WORKING_DIR/translation/.retranslation_progress.json" ]; then
@@ -392,6 +447,11 @@ EOF
                 exit 1
             fi
         fi
+    fi
+
+    # Clean up history files between sessions (if progress was made)
+    if [ $ENTRIES_THIS_SESSION -gt 0 ]; then
+        cleanup_history
     fi
 
     # Brief pause before next session
