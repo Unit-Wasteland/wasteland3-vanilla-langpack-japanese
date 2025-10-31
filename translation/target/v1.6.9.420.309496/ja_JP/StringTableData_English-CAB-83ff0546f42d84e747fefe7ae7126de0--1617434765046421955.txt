@@ -191993,37 +191993,37 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = "Duty Roster Terminal\n>><i>ACCESS RESTRICTED</i><<"
+        1 string data = "勤務名簿ターミナル\n>><i>アクセス制限中</i><<"
        [2]
-        1 string data = "Step away from the terminal."
+        1 string data = "ターミナルから離れる。"
        [3]
         1 string data = "DELETING TEMP NODE"
        [4]
-        1 string data = "Re-assign the guard at the East Wing door to the dining room."
+        1 string data = "東ウィングドアの警備員を食堂に再配置する。"
        [5]
-        1 string data = "Override and give yourself administrator access."
+        1 string data = "オーバーライドして管理者アクセスを取得する。"
        [6]
         1 string data = "DELETING TEMP NODE"
        [7]
         1 string data = "Script Node 8"
        [8]
-        1 string data = "Duty Roster Terminal\n>><i>ADMIN ACCESS</i><<"
+        1 string data = "勤務名簿ターミナル\n>><i>管理者アクセス</i><<"
        [9]
         1 string data = "Script Node 10"
        [10]
-        1 string data = "Station >> East_Wing >> ON DUTY"
+        1 string data = "ステーション >> 東ウィング >> 勤務中"
        [11]
-        1 string data = "Station >> Turret_Maintainence >> UNASSIGNED"
+        1 string data = "ステーション >> タレット整備 >> 未配置"
        [12]
-        1 string data = "Station >> Dining_Room >> UNASSIGNED"
+        1 string data = "ステーション >> 食堂 >> 未配置"
        [13]
-        1 string data = "View current duty roster."
+        1 string data = "現在の勤務名簿を表示する。"
        [14]
-        1 string data = "Station >> East_Wing >> UNASSIGNED"
+        1 string data = "ステーション >> 東ウィング >> 未配置"
        [15]
-        1 string data = "Station >> Turret_Maintainence >> ON DUTY"
+        1 string data = "ステーション >> タレット整備 >> 勤務中"
        [16]
-        1 string data = "Station >> Dining_Room >> ON DUTY"
+        1 string data = "ステーション >> 食堂 >> 勤務中"
        [17]
         1 string data = "Bank 18"
        [18]
@@ -192031,99 +192031,99 @@
        [19]
         1 string data = "Script Node 20"
        [20]
-        1 string data = "USER RECOGNIZED>>ROSALYN BOURNAMUT"
+        1 string data = "ユーザー認識完了>>ロザリン・ブルナムット"
        [21]
-        1 string data = "USER RECOGNIZED>>CHARLIE ONDECK\n\n\nNEW ASSIGNMENT: FRONT DESK"
+        1 string data = "ユーザー認識完了>>チャーリー・オンデック\n\n\n新しい配置:フロントデスク"
        [22]
         1 string data = "Script Node 23"
        [23]
-        1 string data = "You enter the request and after a few seconds, the computer sends out a short-range broadcast on channel 0.220112."
+        1 string data = "リクエストを入力すると、数秒後にコンピューターがチャンネル0.220112で短距離放送を送信する。"
        [24]
-        1 string data = "Submit shift change request."
+        1 string data = "シフト変更リクエストを送信する。"
        [25]
-        1 string data = ">>ENTER NAME or use BACKSPACE key to CANCEL<<"
+        1 string data = ">>名前を入力 またはBACKSPACEキーでキャンセル<<"
        [26]
-        1 string data = ""Charlie""
+        1 string data = ""チャーリー""
        [27]
-        1 string data = "Enter a random name."
+        1 string data = "適当な名前を入力する。"
        [28]
-        1 string data = "Hit the BACKSPACE key."
+        1 string data = "BACKSPACEキーを押す。"
        [29]
-        1 string data = ">>UNKNOWN USER\n>>PLEASE CHECK SPELLING AND TRY AGAIN\n>>Use BACKSPACE key to CANCEL"
+        1 string data = ">>ユーザー不明\n>>スペルを確認して再試行してください\n>>BACKSPACEキーでキャンセル"
        [30]
-        1 string data = ">Namehaver McGillicuddy"
+        1 string data = ">ネームハバー・マクギリカディ"
        [31]
-        1 string data = ">Toledo Punchflaps"
+        1 string data = ">トレド・パンチフラップス"
        [32]
-        1 string data = ">Jowls Howitzer"
+        1 string data = ">ジョウルズ・ハウィッツァー"
        [33]
-        1 string data = ">Ms. Mulch Sullivan"
+        1 string data = ">マルチ・サリバン女史"
        [34]
-        1 string data = ">Mulch Sullivan, Jr."
+        1 string data = ">マルチ・サリバン・ジュニア"
        [35]
-        1 string data = ""Rosalyn""
+        1 string data = ""ロザリン""
        [36]
-        1 string data = ""Jason""
+        1 string data = ""ジェイソン""
        [37]
-        1 string data = "CURRENT USER HAS REACHED LIMIT OF ONE RE-ASSIGNMENT REQUEST PER DAY."
+        1 string data = "現在のユーザーは1日1回の再配置リクエスト制限に達しました。"
        [38]
         1 string data = "Script Node 39"
        [39]
-        1 string data = ""No sudden moves. Understand?""
+        1 string data = ""急な動きは禁物だ。わかったか?""
        [40]
-        1 string data = ""Stop!""
+        1 string data = ""止まれ!""
        [41]
         1 string data = "Script Node 42"
        [42]
-        1 string data = ""No shooting in the palace. Understand?""
+        1 string data = ""宮殿での発砲は禁止だ。わかったか?""
        [43]
-        1 string data = "Re-assign the guard on turret maintainence to the lobby front desk."
+        1 string data = "タレット整備の警備員をロビーのフロントデスクに再配置する。"
        [44]
-        1 string data = "You enter the request and after a few seconds, the computer sends out a short-range broadcast on channel 0.220112."
+        1 string data = "リクエストを入力すると、数秒後にコンピューターがチャンネル0.220112で短距離放送を送信する。"
        [45]
         1 string data = "Bank 46"
        [46]
-        1 string data = ""Charlie Ondeck""
+        1 string data = ""チャーリー・オンデック""
        [47]
         1 string data = "Bank 48"
        [48]
         1 string data = "Bank 49"
        [49]
-        1 string data = ""Jason Jacobonro""
+        1 string data = ""ジェイソン・ジャコボンロ""
        [50]
-        1 string data = ""Rosalyn Bournamut""
+        1 string data = ""ロザリン・ブルナムット""
        [51]
-        1 string data = "USER RECOGNIZED>>JASON JACOBONRO"
+        1 string data = "ユーザー認識完了>>ジェイソン・ジャコボンロ"
        [52]
-        1 string data = "Station >> Lobby_FrontDesk_ReceptionDuty >> ON DUTY"
+        1 string data = "ステーション >> ロビーフロントデスク受付業務 >> 勤務中"
        [53]
-        1 string data = "Station >> Lobby_FrontDesk_ReceptionDuty >> UNASSIGNED"
+        1 string data = "ステーション >> ロビーフロントデスク受付業務 >> 未配置"
        [54]
-        1 string data = ">Mary Smith"
+        1 string data = ">メアリー・スミス"
        [55]
-        1 string data = ">Saul Buchanan"
+        1 string data = ">ソール・ブキャナン"
        [56]
-        1 string data = ""Stop! No shooting in the palace.""
+        1 string data = ""止まれ! 宮殿での発砲は禁止だ。""
        [57]
-        1 string data = ""Hey. Leave that alone.""
+        1 string data = ""おい。それから手を離せ。""
        [58]
-        1 string data = ""That's not yours.""
+        1 string data = ""それはお前のものじゃない。""
        [59]
         1 string data = "Script Node 61"
        [60]
         1 string data = "Script Node 62"
        [61]
-        1 string data = "NEW ASSIGNMENT: DINING ROOM"
+        1 string data = "新しい配置:食堂"
        [62]
-        1 string data = "Re-assign the guard at the lobby front desk to turret maintainence."
+        1 string data = "ロビーのフロントデスクの警備員をタレット整備に再配置する。"
        [63]
-        1 string data = "You enter the request and after a few seconds, the computer sends out a short-range broadcast on channel 0.220112."
+        1 string data = "リクエストを入力すると、数秒後にコンピューターがチャンネル0.220112で短距離放送を送信する。"
        [64]
         1 string data = "Script Node 66"
        [65]
-        1 string data = "Re-assign the guard at the dining room to the East Wing door."
+        1 string data = "食堂の警備員を東ウィングドアに再配置する。"
        [66]
-        1 string data = "You enter the request and after a few seconds, the computer sends out a short-range broadcast on channel 0.220112."
+        1 string data = "リクエストを入力すると、数秒後にコンピューターがチャンネル0.220112で短距離放送を送信する。"
        [67]
         1 string data = "Script Node 69"
        [68]
@@ -192261,43 +192261,43 @@
        [6]
         1 string data = "Trigger Conv Node 7"
        [7]
-        1 string data = ""Uh... Need something, Vic?""
+        1 string data = ""あー……何か用か、ヴィック?""
        [8]
-        1 string data = ""Uh... w-welcome home, Vic. Good to have you back.""
+        1 string data = ""あ、あー……お、お帰りなさい、ヴィック。戻ってきてくれてよかった。""
        [9]
         1 string data = "Script Node 10"
        [10]
-        1 string data = ""I know we're on break, but keep your voice down.""
+        1 string data = ""休憩中だってわかってるが、声を抑えろ。""
        [11]
         1 string data = "::slurrrrrp::"
        [12]
-        1 string data = ""Busy day today.""
+        1 string data = ""今日は忙しい日だな。""
        [13]
         1 string data = "::zzzzxxxxxkkrrk::"
        [14]
-        1 string data = ""C'mon, dad. Five more minutes...""
+        1 string data = ""頼むよ、父さん。あと5分だけ……""
        [15]
-        1 string data = ""You better not start anything. We're on break.""
+        1 string data = ""何も始めるなよ。休憩中なんだから。""
        [16]
-        1 string data = ""Hey! You're not supposed to be back here.""
+        1 string data = ""おい! ここに戻ってきちゃダメだろう。""
        [17]
-        1 string data = ""Hey, you hear about Rosalyn's ex?""
+        1 string data = ""おい、ロザリンの元カレの話聞いたか?""
        [18]
-        1 string data = ""Uh, the 'love puzzle' guy?""
+        1 string data = ""ああ、『恋のパズル』の男?""
        [19]
-        1 string data = ""Scuttlebutt is he's been trying to get rotated into her unit.""
+        1 string data = ""噂によると、あいつは彼女の部隊に配置転換してもらおうとしてるらしい。""
        [20]
-        1 string data = ""Ha! Oh, we gotta make this happen! You ever see Roz go all ice queen on some poor soul? It's like... I can't even describe it.""
+        1 string data = ""ハ! これは実現させなきゃな! ロズが哀れな魂に氷の女王モード全開になるの見たことあるか? まるで……言葉にできないほどだ。""
        [21]
-        1 string data = ""Careful, or someone'll think <i>you</i> got the hots for Rosalyn.""
+        1 string data = ""気をつけろよ、誰かが<i>お前</i>がロザリンに惚れてると思われるぞ。""
        [22]
-        1 string data = ""No way. I just appreciate a nice evisceration when I see one.""
+        1 string data = ""まさか。俺はただ、素晴らしい八つ裂きを見るのを楽しんでるだけだ。""
        [23]
-        1 string data = ""今日も楽園だな""
+        1 string data = ""今日も楽園だな、え?""
        [24]
-        1 string data = ""Say what you like about the old man. At least we're inside, right?""
+        1 string data = ""老人について何を言おうと自由だ。少なくとも俺たちは中にいるんだ、だろ?""
        [25]
-        1 string data = ""Coffee's goin' right through me. Damn.""
+        1 string data = ""コーヒーが体を駆け巡ってる。くそ。""
    [654]
     0 StringTable data
      1 string Filename = "a5101_radio_guardshiftchange"
@@ -192341,17 +192341,17 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = ""AUTOMATED DUTY ROSTER CHANGE. NEW ASSIGNMENTS ARE AS FOLLOWS:"\n\n\n"
+        1 string data = ""自動勤務名簿変更。新しい配置は以下の通り:"\n\n\n"
        [2]
-        1 string data = ""Guard 04 - to - Station C.""
+        1 string data = ""警備員04 - ステーションCへ。""
        [3]
         1 string data = "Script Node 4"
        [4]
-        1 string data = ""Guard 08 - to - Station H.""
+        1 string data = ""警備員08 - ステーションHへ。""
        [5]
-        1 string data = ""ERROR! Guard_Assignment=NULL\nPLEASE CONTACT NETWORK ADMIN."\n\n\n"ERROR! Network_Admin=NULL.""
+        1 string data = ""エラー! 警備員配置=NULL\nネットワーク管理者に連絡してください。"\n\n\n"エラー! ネットワーク管理者=NULL。""
        [6]
-        1 string data = ""That is all.""
+        1 string data = ""以上です。""
    [655]
     0 StringTable data
      1 string Filename = "a5101_turretcontrol"
@@ -192381,13 +192381,13 @@
       1 Array Array (4 items)
        0 int size = 4
        [0]
-        1 string data = "Step away from the terminal."
+        1 string data = "ターミナルから離れる。"
        [1]
         1 string data = "Script Node 2"
        [2]
         1 string data = " "NO ACCESS"  TBD NODE."
        [3]
-        1 string data = "This terminal is unresponsive."
+        1 string data = "このターミナルは応答しない。"
    [656]
     0 StringTable data
      1 string Filename = "a5101_turrets"
@@ -192411,7 +192411,7 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = ""Access denied. Unauthorized user.""
+        1 string data = ""アクセス拒否。不正なユーザーです。""
    [657]
     0 StringTable data
      1 string Filename = "a5101_valterminal01"
