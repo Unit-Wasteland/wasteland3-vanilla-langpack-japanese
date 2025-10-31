@@ -152123,35 +152123,35 @@
        [4]
         1 string data = "Script Node 5"
        [5]
-        1 string data = ""I thought I could never quit you... I was wrong...""
+        1 string data = ""お前から離れられないと思ってたが……間違ってた……""
        [6]
-        1 string data = ""Looks... like... my final sunset has arrived...""
+        1 string data = ""どうやら……俺の……最後の夕日が来たようだ……""
        [7]
-        1 string data = ""So much... for... a final ride...""
+        1 string data = ""最後の……旅路が……これで終わりか……""
        [8]
-        1 string data = ""This is one thing... a man... can't run away from...""
+        1 string data = ""これだけは……男でも……逃げられねえんだ……""
        [9]
-        1 string data = ""Dyin' ain't much of a living.""
+        1 string data = ""死んじまったら生きてるとは言えねえよな""
        [10]
-        1 string data = ""You bastards, that was my huckleberry!""
+        1 string data = ""この野郎ども、あいつは俺の相棒だったんだぞ！""
        [11]
-        1 string data = ""I'll tip one back for ya later, compadre.""
+        1 string data = ""後で一杯やるぜ、相棒""
        [12]
-        1 string data = ""I got a bullet for each of ya!""
+        1 string data = ""てめえら全員に弾丸を用意してあるぜ！""
        [13]
-        1 string data = ""You a shooter or a digger?""
+        1 string data = ""てめえは撃つ側か、それとも墓を掘る側か？""
        [14]
-        1 string data = ""Too bad you didn't want my other gun more...""
+        1 string data = ""残念だな、てめえがもっとこっちの銃を欲しがってくれりゃあよかったんだが……""
        [15]
-        1 string data = ""You gonna fight or just bleed?""
+        1 string data = ""てめえは戦うのか、それともただ血を流すだけか？""
        [16]
-        1 string data = ""This is gonna be your last rodeo, partner.""
+        1 string data = ""これがてめえの最後のロデオになるぜ、相棒""
        [17]
-        1 string data = ""Words ain't getting through your thick skull.""
+        1 string data = ""言葉じゃてめえのぶ厚い頭蓋骨には届かねえな""
        [18]
-        1 string data = ""I tried being reasonable, I didn't like it.""
+        1 string data = ""理性的になろうとしたが、気に入らなかった""
        [19]
-        1 string data = ""Are you the quick, or the dead?""
+        1 string data = ""てめえは素早い方か、それとも死者の方か？""
    [474]
     0 StringTable data
      1 string Filename = "a2101_companionbarks"
@@ -152233,27 +152233,27 @@
        [3]
         1 string data = "Script Node 4"
        [4]
-        1 string data = ""Wonder if Ten is working today.""
+        1 string data = ""テンは今日働いてるかな""
        [5]
-        1 string data = ""No more gambling for me. I learned my lesson.""
+        1 string data = ""もうギャンブルはしない。教訓を得た""
        [6]
-        1 string data = ""I know some marshals who could benefit from these.""
+        1 string data = ""これが役立ちそうな保安官を何人か知ってる""
        [7]
-        1 string data = ""Mmmm! Smell that? They've been making chicken marsala.""
+        1 string data = ""んー！この匂い？チキンマルサラを作ってたんだな""
        [8]
-        1 string data = ""Are those fish? I've only ever seen one in a book.""
+        1 string data = ""あれは魚？本でしか見たことないな""
        [9]
-        1 string data = ""Makes me wanna dance.""
+        1 string data = ""踊りたくなるな""
        [10]
-        1 string data = ""Ugh. So gaudy. So ostentatious.""
+        1 string data = ""うぇ。派手すぎる。見せびらかし過ぎだ""
        [11]
-        1 string data = ""Gracious. Do people actually want to...? Disgusting!""
+        1 string data = ""なんてこった。人は本当にこれを……？気持ち悪い！""
        [12]
-        1 string data = ""Hot damn! Lookit all that booze!""
+        1 string data = ""すげえ！こんなに酒が！""
        [13]
-        1 string data = ""So <i>this</i> is where they keep th'good stuff!""
+        1 string data = ""つまり<i>ここ</i>が良い物を保管してる場所か！""
        [14]
-        1 string data = ""Make some romance.""
+        1 string data = ""ロマンスを作ろう""
    [475]
     0 StringTable data
      1 string Filename = "a2101_computerheating"
@@ -152327,35 +152327,35 @@
       1 Array Array (15 items)
        0 int size = 15
        [0]
-        1 string data = "The console reads, 'Dante's Radio Controlled Ventilation Systems, Inc. Please enter password to continue.'"
+        1 string data = "コンソールにはこう表示されている。「ダンテ無線制御換気システム社。続行するにはパスワードを入力してください」"
        [1]
-        1 string data = "Hack into the system."
+        1 string data = "システムにハッキングする"
        [2]
-        1 string data = "Type: 'Kestrel.'"
+        1 string data = "入力：「Kestrel」"
        [3]
-        1 string data = "Step away."
+        1 string data = "離れる"
        [4]
-        1 string data = "The system is as you left it. It is ready to overload, given your radio signal."
+        1 string data = "システムは前回の状態のままだ。無線信号を送れば過負荷になる準備が整っている"
        [5]
-        1 string data = "'Welcome to Dante's Radio Controlled Ventilation System. The radio frequency for this unit is: 154280Hz.\n\n\nWould you like to preprogram a climate routine to set later via radio?'"
+        1 string data = "「ダンテ無線制御換気システムへようこそ。このユニットの無線周波数は154280Hzです。\n\n\n後で無線経由で設定する空調ルーチンを事前にプログラムしますか？」"
        [6]
-        1 string data = "You sucessfully bypass the password, 'Kestrel.'"
+        1 string data = "パスワード「Kestrel」のバイパスに成功した"
        [7]
-        1 string data = "Yes."
+        1 string data = "はい"
        [8]
         1 string data = "Deactivate the slow overloading of the ventilation system."
        [9]
         1 string data = "The ventilation system has be returned to its normal operational state."
        [10]
-        1 string data = "You set the system so the fan will turn off and the heat will rise to max when you send a signal to the computer - then reset the password to 'Bryg0_by_the_ba115.'"
+        1 string data = "コンピューターに信号を送るとファンが停止し、熱が最大まで上昇するようシステムを設定した。そしてパスワードを「Bryg0_by_the_ba115」にリセットした"
        [11]
-        1 string data = "It appears the ventilation system is now in a secure automated mode and working normally."
+        1 string data = "換気システムは現在、安全な自動モードになっており、正常に動作しているようだ"
        [12]
-        1 string data = "No."
+        1 string data = "いいえ"
        [13]
-        1 string data = "You step away from the computer."
+        1 string data = "コンピューターから離れた"
        [14]
-        1 string data = "It looks like the ventilation computer got ventilated by a bullet during the recent shootout. It no longer functions."
+        1 string data = "換気用コンピューターは先ほどの銃撃戦で弾丸によって換気されてしまったようだ。もう機能しない"
    [476]
     0 StringTable data
      1 string Filename = "a2101_daisy_radio"
@@ -152397,19 +152397,19 @@
       1 Array Array (7 items)
        0 int size = 7
        [0]
-        1 string data = ""Rangers, this is Daisy. Sounds like you're at the Little Vegas, judgin' by all that noise in the background.""
+        1 string data = ""レンジャーズ、デイジーよ。背景の騒音からすると、あなた達はリトル・ベガスにいるみたいね""
        [1]
-        1 string data = ""Remember, your first order of business is to find Delgado. Maybe somebody in there has seen him.""
+        1 string data = ""忘れないで、第一の目的はデルガドを見つけること。きっと誰かが彼を見てるはずよ""
        [2]
         1 string data = "Script Node 3"
        [3]
-        1 string data = ""While you're at it, if you can prove that Brygo made a deal with the Dorseys, feel free to take that bastard down."\n\n\n"Best of luck, Rangers. Daisy out.""
+        1 string data = ""ついでに、ブライゴがドーシー一家と取引したって証明できたら、あの野郎を倒しちゃって構わないわ"\n\n\n"幸運を祈るわ、レンジャーズ。デイジー、以上""
        [4]
-        1 string data = ""Understood.""
+        1 string data = ""了解""
        [5]
-        1 string data = ""Those slot machines look like they're ready to pay out, though.""
+        1 string data = ""でも、あのスロットマシンは配当が出そうに見えますけど""
        [6]
-        1 string data = ""Sure, we'll all be millionaires. Keep your eyes on the prize, Rangers."\n\n\n"
+        1 string data = ""そうね、みんな大金持ちになるわね。目的を見失わないで、レンジャーズ"\n\n\n"
    [477]
     0 StringTable data
      1 string Filename = "a2101_dancer_brygo"
@@ -152431,9 +152431,9 @@
       1 Array Array (2 items)
        0 int size = 2
        [0]
-        1 string data = ""Bite me. This gig was good money.""
+        1 string data = ""くたばれ。この仕事は金になったんだ""
        [1]
-        1 string data = ""Heya, sugar.""
+        1 string data = ""やあ、お兄さん""
    [478]
     0 StringTable data
      1 string Filename = "a2101_dancer_hall"
@@ -152467,15 +152467,15 @@
       1 Array Array (5 items)
        0 int size = 5
        [0]
-        1 string data = ""You killed Mr. Brygo?!""
+        1 string data = ""ブライゴさんを殺したの？！""
        [1]
-        1 string data = ""Screw off.""
+        1 string data = ""失せろ""
        [2]
-        1 string data = ""Havin' a good time, honey?""
+        1 string data = ""楽しんでる、ハニー？""
        [3]
         1 string data = "Script Node 5"
        [4]
-        1 string data = ""Don't hurt me! Please!""
+        1 string data = ""傷つけないで！お願い！""
    [479]
     0 StringTable data
      1 string Filename = "a2101_dancer_privateparty"
@@ -152513,17 +152513,17 @@
       1 Array Array (6 items)
        0 int size = 6
        [0]
-        1 string data = ""Those Local 168 twats were shitty tippers anyway.""
+        1 string data = ""ローカル168の奴らはどうせチップをケチる野郎だったし""
        [1]
-        1 string data = ""You psychos cost me my job.""
+        1 string data = ""お前らサイコパスのせいで仕事を失った""
        [2]
-        1 string data = ""Shit. Now I'm out of a job. Thanks.""
+        1 string data = ""くそ。これで仕事がなくなった。ありがとよ""
        [3]
-        1 string data = ""Local 168 paid for the time, not you. Piss off.""
+        1 string data = ""時間の金を払ったのはローカル168であってお前らじゃない。失せろ""
        [4]
         1 string data = "Script Node 5"
        [5]
-        1 string data = ""Back off, asshole! I'm workin' here!""
+        1 string data = ""下がれ、クソ野郎！仕事中なんだよ！""
    [480]
     0 StringTable data
      1 string Filename = "a2101_dealer_blackjack"
