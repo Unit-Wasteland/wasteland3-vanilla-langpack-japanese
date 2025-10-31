@@ -160841,29 +160841,29 @@
        [0]
         1 string data = "Script Node 2"
        [1]
-        1 string data = ""Don't even think about pulling that lever. We're shuttin' down 'cuz of you.""
+        1 string data = ""レバーを引こうなんて考えるんじゃない。あんたらのせいで店じまいだ。""
        [2]
-        1 string data = ""Uh-oh. You're done playin' in Little Vegas. You won enough already.""
+        1 string data = ""ありゃりゃ。Little Vegasでのプレイは終わりだ。もう十分儲けただろう。""
        [3]
-        1 string data = ""All right, buddies. You can enjoy your winnings with drink or a lay, but you ain't playing any more games with us. Mr. Brygo's orders.""
+        1 string data = ""いいか、野郎ども。勝ち金は酒か女で楽しんでくれ。だがもうここでゲームをするのは禁止だ。Brygo氏の命令だ。""
        [4]
-        1 string data = "A flashing sign on the slot machine reads: '$[Global: a2101_SlotMachine_Cost] to play. Match 3 wins $[Global: a2101_SlotMachine_PayoutSmall]. 3 neon cowboys win the $[Global: a2101_SlotMachine_PayoutJackpot] jackpot!!!!'"
+        1 string data = "スロットマシンの点滅する看板にはこう書いてある：'プレイ料金$[Global: a2101_SlotMachine_Cost]。3つ揃えば$[Global: a2101_SlotMachine_PayoutSmall]獲得。ネオンのカウボーイ3つでジャックポット$[Global: a2101_SlotMachine_PayoutJackpot]!!!!'"
        [5]
-        1 string data = "Put $[Global: a2101_SlotMachine_Cost] into the slot."
+        1 string data = "$[Global: a2101_SlotMachine_Cost]をスロットに投入する。"
        [6]
-        1 string data = "Step away."
+        1 string data = "離れる。"
        [7]
-        1 string data = "'$[Global: a2101_SlotMachine_Cost] to play. Match 3 wins $[Global: a2101_SlotMachine_PayoutSmall]. 3 neon cowboys win the $[Global: a2101_SlotMachine_PayoutJackpot] jackpot!!!!'"
+        1 string data = "'プレイ料金$[Global: a2101_SlotMachine_Cost]。3つ揃えば$[Global: a2101_SlotMachine_PayoutSmall]獲得。ネオンのカウボーイ3つでジャックポット$[Global: a2101_SlotMachine_PayoutJackpot]!!!!'"
        [8]
-        1 string data = "Jimmy open the front panel to reach the inner works."
+        1 string data = "Jimmyが前面パネルを開けて内部機構に手を伸ばす。"
        [9]
-        1 string data = "Hack the slot machine's microcontroller to fix the odds in your favor."
+        1 string data = "スロットマシンのマイクロコントローラーをハッキングして、確率を自分に有利にする。"
        [10]
-        1 string data = "A few deft movements with your pocket knife and you've got the front panel open. Among the knot of gears, you spot the switch that triggers the jackpot mechanism. Winner!"
+        1 string data = "ポケットナイフで手際よく作業すると、前面パネルが開いた。歯車の絡まりの中に、ジャックポット機構を作動させるスイッチを発見した。当たりだ！"
        [11]
-        1 string data = "You find the control panel on the left side of the machine and surreptitiously splice a few wires. The apparatus' jackpot mechansim whirs to life. Winner!"
+        1 string data = "マシンの左側にある制御パネルを見つけ、こっそりと数本の配線をつなぐ。装置のジャックポット機構がうなりをあげて作動した。当たりだ！"
        [12]
-        1 string data = "You drop in your money, yank the lever, and watch as the machine springs to life..."
+        1 string data = "金を投入し、レバーを引き、マシンが動き出すのを見守る..."
    [509]
     0 StringTable data
      1 string Filename = "a2101_slotmachine_02"
@@ -160925,29 +160925,29 @@
       1 Array Array (12 items)
        0 int size = 12
        [0]
-        1 string data = ""No more fun for you. Brygo's in cuffs.""
+        1 string data = ""お前らの楽しみは終わりだ。Brygoは手錠をかけられた。""
        [1]
-        1 string data = ""Take it easy, pals. Mr. Brygo says you're cut off.""
+        1 string data = ""落ち着け、野郎ども。Brygo氏の言い分じゃ、お前らは出入り禁止だ。""
        [2]
-        1 string data = "A flashing sign on the slot machine reads: '$[Global: a2101_SlotMachine_Cost] to play. Match 3 wins $[Global: a2101_SlotMachine_PayoutSmall]. 3 neon cowboys win the $[Global: a2101_SlotMachine_PayoutJackpot] jackpot!!!!'"
+        1 string data = "スロットマシンの点滅する看板にはこう書いてある：'プレイ料金$[Global: a2101_SlotMachine_Cost]。3つ揃えば$[Global: a2101_SlotMachine_PayoutSmall]獲得。ネオンのカウボーイ3つでジャックポット$[Global: a2101_SlotMachine_PayoutJackpot]!!!!'"
        [3]
-        1 string data = "'$[Global: a2101_SlotMachine_Cost] to play. Match 3 wins $[Global: a2101_SlotMachine_PayoutSmall]. 3 neon cowboys win the $[Global: a2101_SlotMachine_PayoutJackpot] jackpot!!!!'"
+        1 string data = "'プレイ料金$[Global: a2101_SlotMachine_Cost]。3つ揃えば$[Global: a2101_SlotMachine_PayoutSmall]獲得。ネオンのカウボーイ3つでジャックポット$[Global: a2101_SlotMachine_PayoutJackpot]!!!!'"
        [4]
-        1 string data = "Jimmy open the front panel to reach the inner works."
+        1 string data = "Jimmyが前面パネルを開けて内部機構に手を伸ばした。"
        [5]
-        1 string data = "Hack the slot machine's microcontroller to fix the odds in your favor."
+        1 string data = "スロットマシンのマイクロコントローラーをハッキングして、確率を自分に有利にする。"
        [6]
-        1 string data = "Put $[Global: a2101_SlotMachine_Cost] into the slot."
+        1 string data = "$[Global: a2101_SlotMachine_Cost]をスロットに投入する。"
        [7]
-        1 string data = "Step away."
+        1 string data = "離れる。"
        [8]
-        1 string data = ""All right, buddies. You can enjoy your winnings with drink or a lay, but you ain't playing any more games with us. Brygo's orders.""
+        1 string data = ""いいか、野郎ども。勝ち金は酒か女で楽しんでくれ。だがもうここでゲームをするのは禁止だ。Brygoの命令だ。""
        [9]
-        1 string data = "A few deft movements with your pocket knife and you've got the front panel open. Among the knot of gears, you spot the switch that triggers the jackpot mechanism. Winner!"
+        1 string data = "ポケットナイフで手際よく作業すると、前面パネルが開いた。歯車の絡まりの中に、ジャックポット機構を作動させるスイッチを発見した。当たりだ！"
        [10]
-        1 string data = "You find the control panel on the left side of the machine and surreptitiously splice a few wires. The apparatus' jackpot mechansim whirs to life. Winner!"
+        1 string data = "マシンの左側にある制御パネルを見つけ、こっそりと数本の配線をつなぐ。装置のジャックポット機構がうなりをあげて作動した。当たりだ！"
        [11]
-        1 string data = "You drop in your money, yank the lever, and watch as the machine springs to life..."
+        1 string data = "金を投入し、レバーを引き、マシンが動き出すのを見守る..."
    [510]
     0 StringTable data
      1 string Filename = "a2101_stripper_bigred"
@@ -160987,15 +160987,15 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = ""Firemen have the <i>longest</i> hoses. Wanna see?""
+        1 string data = ""消防士は<i>一番長い</i>ホースを持ってるのよ。見てみたい？""
        [2]
-        1 string data = ""I'll put out that loin-fire for ya.""
+        1 string data = ""あんたの股間の火を消してあげるわ。""
        [3]
-        1 string data = ""Hydration is key! Let me <i>hose</i> you down.""
+        1 string data = ""水分補給が大事よ！私の<i>ホース</i>で水をかけてあげる。""
        [4]
-        1 string data = "::giggles:: "Wanna stop, drop, and roll with me?""
+        1 string data = "::giggles:: "止まって、倒れて、一緒に転がる？""
        [5]
-        1 string data = ""I'mma climb you like a ladder.""
+        1 string data = ""あんたをはしごみたいに登ってあげる。""
    [511]
     0 StringTable data
      1 string Filename = "a2101_stripper_excessiveforce"
@@ -161035,15 +161035,15 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = ""You are definitely on my most wanted list.""
+        1 string data = ""あんたは間違いなく私の最重要指名手配リストに入ってるわ。""
        [2]
-        1 string data = ""You've got <i>fine</i> written all over you.""
+        1 string data = ""あんたには<i>極上</i>って書いてあるわね。""
        [3]
-        1 string data = ""Is that a concealed weapon, or are you just happy to see me?""
+        1 string data = ""それは隠し持った武器？それとも私に会えて嬉しいだけ？""
        [4]
-        1 string data = ""You be the good cop, 'cause I love being bad.""
+        1 string data = ""あんたがいい警官ね、だって私は悪い娘が大好きだから。""
        [5]
-        1 string data = ""Are you going to come quietly? Oh, I hope not...""
+        1 string data = ""おとなしく来てくれる？ああ、そうじゃないといいな...""
    [512]
     0 StringTable data
      1 string Filename = "a2101_stripper_gstringtheory"
@@ -161083,15 +161083,15 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = ""Do you have 11 protons? 'Cause your 'sodium' fine.""
+        1 string data = ""あなたは11個の陽子を持ってる？だってあなた、ナトリウムみたいに素敵だから。""
        [2]
-        1 string data = ""There's a statistically significant chance we'll exchange genetic code.""
+        1 string data = ""統計的に有意な確率で、私たちは遺伝子コードを交換することになるわ。""
        [3]
-        1 string data = ""Let's discover our coefficient of friction."\n"
+        1 string data = ""私たちの摩擦係数を発見しましょう。"\n"
        [4]
-        1 string data = ""Did we meet in school? 'Cause I think we had <i>Chemistry</i> together.""
+        1 string data = ""学校で会ったことある？だって私たち、<i>化学</i>の授業を一緒に受けてたと思うの。""
        [5]
-        1 string data = ""I wish I were a DNA helicase so could unzip your genes.""
+        1 string data = ""DNAヘリカーゼになれたらいいのに。そしたらあなたの遺伝子を解凍できるから。""
    [513]
     0 StringTable data
      1 string Filename = "a2101_stripper_pvtparts"
@@ -161131,15 +161131,15 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = ""Stand at attention, tiny soldier!""
+        1 string data = ""気をつけ、ちっちゃな兵隊さん！""
        [2]
-        1 string data = ""I'm gonna cock that gun and clean your barrel.""
+        1 string data = ""その銃に装填して、銃身を磨いてあげるわ。""
        [3]
-        1 string data = ""I'm looking for someone to deploy... down south.""
+        1 string data = ""配備する人を探してるの...南方にね。""
        [4]
-        1 string data = ""Requesting permission to invade friendly lines.""
+        1 string data = ""友軍戦線への侵入許可を要請します。""
        [5]
-        1 string data = ""Target acquired, weapons hot, cleared to engage.""
+        1 string data = ""目標捕捉、武器準備完了、交戦許可を。""
    [514]
     0 StringTable data
      1 string Filename = "a2101_stripper_quickdraw"
@@ -161175,13 +161175,13 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = ""Hope ya got good balance, since you'll be ridin' bareback all night.""
+        1 string data = ""バランス感覚がいいといいわね、だって一晩中裸馬に乗ることになるから。""
        [2]
-        1 string data = ""I'mma gonna hog tie you and make ya squeal like a pig, boy.""
+        1 string data = ""あんたを縛り上げて豚みたいに鳴かせてやるわ、坊や。""
        [3]
-        1 string data = ""Save a horse, ride a cowboy.""
+        1 string data = ""馬を救って、カウボーイに乗りなさい。""
        [4]
-        1 string data = ""You won't regret this in the morning, 'cause we'll sleep 'til high noon.""
+        1 string data = ""朝になっても後悔しないわ、だって正午まで寝てるから。""
    [515]
     0 StringTable data
      1 string Filename = "a2101_tenofhearts"
@@ -161463,127 +161463,127 @@
       1 Array Array (67 items)
        0 int size = 67
        [0]
-        1 string data = "::gasp:: "Oh!"\n\n\nThis is the most beautiful woman you've ever met. She puts a hand to her chest."
+        1 string data = "::gasp:: "あら！"\n\n\nあなたがこれまで会った中で最も美しい女性だ。彼女は胸に手を当てている。"
        [1]
-        1 string data = "[[Global: a2101_TenOfHearts_Fee] Dollars] ::sweetly:: "I... I wish... I didn't have to ask f-for money. I don't want it to be like that between us, but they won't let me stay here if I don't charge, so I'm afraid you'll have to pay before we can... be together, okay?""
+        1 string data = "[[Global: a2101_TenOfHearts_Fee]ドル] ::sweetly:: "私...お金を請求しなくちゃいけないなんて...私も嫌なの。私たちの間がそんな関係じゃないといいのに。でもお金を取らなきゃここに居させてもらえないから...一緒にいる前に...お金を払ってもらわなきゃいけないの、いいかしら？""
        [2]
-        1 string data = ""Take our money!""
+        1 string data = ""金を持っていけ！""
        [3]
-        1 string data = ""No thanks.""
+        1 string data = ""遠慮しとく。""
        [4]
-        1 string data = ""Be gentle with me.""
+        1 string data = ""優しくしてくれ。""
        [5]
         1 string data = "Script Node 6"
        [6]
         1 string data = "Script Node 7"
        [7]
-        1 string data = ""Please come back, okay? Please?""
+        1 string data = ""また来てね、お願い？お願いだから？""
        [8]
-        1 string data = ""I'll miss you.""
+        1 string data = ""あなたがいないと寂しいわ。""
        [9]
         1 string data = "Script Node 10"
        [10]
         1 string data = "Script Node 11"
        [11]
-        1 string data = ""Want to sit with me?""
+        1 string data = ""一緒に座らない？""
        [12]
-        1 string data = ""I hope you can stay.""
+        1 string data = ""ずっといてくれるといいな。""
        [13]
-        1 string data = ""All I want to do is look at you.""
+        1 string data = ""あなたを見ていたいだけなの。""
        [14]
-        1 string data = ""I get all giddy when you smile.""
+        1 string data = ""あなたが笑うとドキドキしちゃう。""
        [15]
-        1 string data = ""It's never been like this before.""
+        1 string data = ""こんなの初めて。""
        [16]
-        1 string data = ""Ooohhh... don't stop. Don't ever stop.""
+        1 string data = ""ああ...やめないで。絶対にやめないで。""
        [17]
-        1 string data = ""I... I wish I'd met you before... all this.""
+        1 string data = ""もっと前に会いたかった...こんなことになる前に。""
        [18]
-        1 string data = ""I'm... I'm melting.""
+        1 string data = ""私...溶けちゃいそう。""
        [19]
-        1 string data = ""We don't have that much cash, sorry.""
+        1 string data = ""そんなに現金を持ってないんだ、ごめん。""
        [20]
-        1 string data = ""That's... that's a shame. Maybe I'll see you later then?""
+        1 string data = ""それは...残念ね。じゃあまた後で会えるかしら？""
        [21]
-        1 string data = ""Faran Brygo's dead? I refuse to believe it.""
+        1 string data = ""Faran Brygoが死んだ？信じられない。""
        [22]
-        1 string data = ""Did I hear fighting out there?""
+        1 string data = ""外で戦闘音が聞こえたけど？""
        [23]
-        1 string data = ""I'm sorry. My heart skipped when you walked in. I never expected anyone like <i>you</i> to come to a place like this. I hope... I hope you're here for me.""
+        1 string data = ""ごめんなさい。あなたが入ってきた時、心臓が止まりそうだった。<i>あなた</i>みたいな人がこんな場所に来るなんて思ってもみなかったわ。私は...あなたが私に会いに来てくれたらいいなって。""
        [24]
-        1 string data = ""Yes, please!""
+        1 string data = ""ああ、ぜひとも！""
        [25]
-        1 string data = ""Sorry. No.""
+        1 string data = ""悪いが、遠慮する。""
        [26]
-        1 string data = "::gasp:: "Oh, Kwon! It's you!"\n\n\nThis is the most beautiful woman you've ever met. She puts a hand to her chest the moment she sees Kwon."
+        1 string data = "::gasp:: "あら、Kwon！あなたなのね！"\n\n\nあなたがこれまで会った中で最も美しい女性だ。Kwonを見た瞬間、胸に手を当てている。"
        [27]
-        1 string data = ""Er... hi, Ten. G-good to see you."\n\n\nKwon is blushing like a rose."
+        1 string data = ""あ...やあ、Ten。会えて嬉しいよ。"\n\n\nKwonはバラのように赤面している。"
        [28]
-        1 string data = ""I... I... I'm so happy you're back! I've missed you so much. Can... can you stay?""
+        1 string data = ""私...私...戻ってきてくれて嬉しい！すごく会いたかったの。いて...いてくれる？""
        [29]
-        1 string data = ""I... I'm kinda on duty. M-maybe some other time."\n\n\nHe looks at the rest of you."
+        1 string data = ""俺...俺は任務中なんだ。また今度にしようかな。"\n\n\n彼はあなたたちの方を見る。"
        [30]
-        1 string data = ""Unless you all want to, uh... take a break for a while?""
+        1 string data = ""みんながその...しばらく休憩したいなら別だけど？""
        [31]
-        1 string data = ""You two seem to be old friends.""
+        1 string data = ""二人は旧知の仲のようだな。""
        [32]
-        1 string data = ""Go on, Kwon. We'll show ourselves out. And it's on us. Whatever it costs.""
+        1 string data = ""行ってこい、Kwon。俺たちは外で待ってる。費用はこっち持ちだ。いくらでも構わない。""
        [33]
-        1 string data = ""Sure, but we want to take a break with <i>her</i>.""
+        1 string data = ""構わないが、俺たちは<i>彼女</i>と休憩したいんだ。""
        [34]
-        1 string data = ""No time for that now. Come back on your own time.""
+        1 string data = ""今はそんな暇はない。自分の時間で来い。""
        [35]
-        1 string data = ""Friends. Heh. I <i>hope</i> we are.""
+        1 string data = ""友達。へっ。そう<i>だといいな</i>。""
        [36]
-        1 string data = ""R-really? That's... Thank you so much. Uh, you might want to get yourselves a drink or play some blackjack. I'm gonna be a while."\n\n\nHe turns to the Ten of Hearts."
+        1 string data = ""ま、マジで？それは...本当にありがとう。えっと、みんなは酒でも飲むかブラックジャックでもやってて。俺は時間かかるから。"\n\n\n彼はTen of Heartsの方を向く。"
        [37]
-        1 string data = ""Oh. Well. That's her job. I guess I can't stop you.""
+        1 string data = ""ああ。まあ。それが彼女の仕事だからな。止めることはできないか。""
        [38]
-        1 string data = ""Sure. Of course." ::sigh::\n\n\n"Sorry, Ten. I guess I gotta go.""
+        1 string data = ""ああ。もちろん。" ::sigh::\n\n\n"ごめん、Ten。俺は行かないと。""
        [39]
-        1 string data = ""Come back soon, Kwon. I miss you.""
+        1 string data = ""すぐ戻ってきてね、Kwon。寂しいわ。""
        [40]
-        1 string data = ""I'm sorry, Kwon. I'll see you soon, okay?"\n\n\nShe turns to you."
+        1 string data = ""ごめんなさい、Kwon。またすぐ会えるわよね？"\n\n\n彼女はあなたの方を向く。"
        [41]
-        1 string data = "[[Global: a2101_TenOfHearts_Fee] Dollars] "I apologize for having to charge, but they won't let me stay here if I don't, so I'm afraid you'll have to pay before we can be together.""
+        1 string data = "[[Global: a2101_TenOfHearts_Fee]ドル] "お金をいただかなきゃいけなくて申し訳ないけど、そうしないとここにいられないの。だから一緒にいる前にお支払いしていただかないといけないわ。""
        [42]
-        1 string data = ""Ten... I...""
+        1 string data = ""Ten...俺は...""
        [43]
-        1 string data = ""Oh, Kwon. It's been so long.""
+        1 string data = ""ああ、Kwon。すごく久しぶりね。""
        [44]
-        1 string data = ""Of course we are, Kwon. You are my dearest friend. My island of peace.""
+        1 string data = ""もちろんよ、Kwon。あなたは私の一番大切な友達。私の安らぎの島よ。""
        [45]
-        1 string data = ""I still have to pay you, though. How real a friendship is that?""
+        1 string data = ""でも俺は君にお金を払わなきゃいけない。それが本当の友情か？""
        [46]
-        1 string data = ""It's as real as it <i>can</i> be. More real than it <i>should</i> be.""
+        1 string data = ""できる<i>限り</i>本物よ。本来<i>あるべき</i>以上に本物なの。""
        [47]
-        1 string data = ""You say that. But do you mean it?""
+        1 string data = ""そう言うけど、本当にそう思ってる？""
        [48]
-        1 string data = ""Let me prove it to you.""
+        1 string data = ""証明させて。""
        [49]
-        1 string data = ""Oh, Kwon! It's you!""
+        1 string data = ""あら、Kwon！あなたなのね！""
        [50]
-        1 string data = ""How about it, Kwon? We'll cover the cost and show ourselves out.""
+        1 string data = ""どうだ、Kwon？俺たちが費用を負担して外に出てるよ。""
        [51]
-        1 string data = "[[Global: a2101_TenOfHearts_Fee] Dollars] "Kwon! You brought your friends too?"\n\n\n"I hope you're here to stay for a while. All I need is a little cash, and we can spend the whole day together...""
+        1 string data = "[[Global: a2101_TenOfHearts_Fee]ドル] "Kwon！お友達も連れてきてくれたのね？"\n\n\n"しばらくいてくれるといいな。少しだけお金があれば、一日中一緒にいられるわ...""
        [52]
-        1 string data = ""Not right now. Goodbye.""
+        1 string data = ""今は無理だ。さよなら。""
        [53]
-        1 string data = ""I-I'm sorry. Is that Vic Buchanan with you? I'm afraid I've been told to refuse service to him and anyone with him.""
+        1 string data = ""ご、ごめんなさい。Vic Buchananが一緒にいるの？彼と彼の連れには接客を断るよう言われてるの。""
        [54]
-        1 string data = ""You don't know what you're missing, you stuck up bitch.""
+        1 string data = ""何を逃してるか分かってないな、気取った尻軽女め。""
        [55]
-        1 string data = ""I hope you'll come back without him. I... I'd like to get to know you better.""
+        1 string data = ""彼なしでまた来てくれるといいな。私...もっとあなたを知りたいの。""
        [56]
-        1 string data = ""Goodbye.""
+        1 string data = ""さよなら。""
        [57]
-        1 string data = ""Watch your mouth, brat, or I'll bring you back to your dad in pieces.""
+        1 string data = ""口を慎め、ガキ。さもないとパパのところにバラバラにして送り返すぞ。""
        [58]
-        1 string data = ""Got a soft spot for a whore, Kwon? Heh heh. I didn't figure you for a sucker.""
+        1 string data = ""娼婦に甘いのか、Kwon？へへ。お前がそんな間抜けだとは思わなかったぜ。""
        [59]
-        1 string data = ""Oh!" "
+        1 string data = ""あら！" "
        [60]
-        1 string data = ""I'm sorry. You still have Vic Buchanan with you. I cannot serve you.""
+        1 string data = ""ごめんなさい。まだVic Buchananが一緒なのね。接客できないわ。""
        [61]
         1 string data = ""Oh! I'm so glad you don't have Vic Buchanan with you anymore. I've been thinking about you ever since I saw you.""
        [62]
@@ -161591,11 +161591,11 @@
        [63]
         1 string data = "Script Node 64"
        [64]
-        1 string data = ""Oh god! Please don't hurt me!""
+        1 string data = ""神様！お願い、傷つけないで！""
        [65]
-        1 string data = ""Don't do this! Please don't do this!""
+        1 string data = ""やめて！お願いだからやめて！""
        [66]
-        1 string data = ""Faran Brygo arrested? You must be mistaken!""
+        1 string data = ""Faran Brygoが逮捕された？何かの間違いよ！""
    [516]
     0 StringTable data
      1 string Filename = "a2101_thugpostboulderkilled"
@@ -161655,25 +161655,25 @@
        [0]
         1 string data = ""
        [1]
-        1 string data = ""Hey, what the hell is going on up there? I can't go two minutes without some mooks beatin' on each other.""
+        1 string data = ""おい、上で一体何が起きてるんだ？2分も経たないうちに誰かがお互いをぶん殴ってやがる。""
        [2]
-        1 string data = ""Someone was looking for a fight and forced us to defend ourselves.""
+        1 string data = ""誰かが喧嘩を探してて、俺たちに自衛を強いられたんだ。""
        [3]
-        1 string data = ""If you'd stop letting in psychopaths we wouldn't have to put them down.""
+        1 string data = ""サイコパスを入れるのをやめてくれれば、俺たちがそいつらを始末する必要もないんだがな。""
        [4]
-        1 string data = ""You know what happened. You want details? Go have a look for yourself.""
+        1 string data = ""何があったか知ってるだろ。詳細が知りたいなら自分で見に行けよ。""
        [5]
-        1 string data = ""Goddammit, now I have to clean up another mess! We need to stop hosting parties up there.""
+        1 string data = ""くそったれ、またまた掃除しなきゃならねえ！上でパーティーを開くのはやめるべきだ。""
        [6]
-        1 string data = ""How can I be sure I ain't looking at the psychopaths? I mean geezus, every fucking time someone's up there this happens. I'm sick of it...""
+        1 string data = ""どうやって俺が見てるのがサイコパスじゃないって確かめられるんだ？くそ、誰かが上にいる度にこれが起きるんだ。うんざりだ...""
        [7]
-        1 string data = "::laughs:: "You must have some kind of pull around here, getting away with shit like that. Hope it ain't someone important you killed, or I'll be looking for you...""
+        1 string data = "::laughs:: "こんなことをやらかして逃げるなんて、この辺で何か力を持ってるに違いねえ。殺したのが重要人物じゃないといいがな。そうだったらお前を探し出すぞ...""
        [8]
-        1 string data = ""None of your fucking business. Look away...""
+        1 string data = ""お前には関係ねえ。他を見ろ...""
        [9]
-        1 string data = ""Sorry... Never mind.""
+        1 string data = ""すまん...気にするな。""
        [10]
-        1 string data = ""Eeep.""
+        1 string data = ""ひいっ。""
    [517]
     0 StringTable data
      1 string Filename = "a3001_bellamyward"
@@ -161939,107 +161939,107 @@
        [7]
         1 string data = " Global Var set"
        [8]
-        1 string data = "The young gentleman is covered with dirt and shivering from the cold. His eyes are wide and shocked."
+        1 string data = "この若い紳士は泥まみれで、寒さで震えている。彼の目は大きく見開かれ、ショックを受けている。"
        [9]
-        1 string data = "He looks at you, still dazed."
+        1 string data = "彼はあなたを見るが、まだ呆然としている。"
        [10]
-        1 string data = ""Oh... oh god. Did the Patriarch send you? I'm sorry. I'm sorry. I-I need to warn you. The Dorseys are gathering up ahead, between the Gateway Rocks.""
+        1 string data = ""ああ...神様。Patriarchが送ってくれたのか？すまない。すまない。警告しなきゃ。Gateway Rocksの間で、Dorseysが集まってるんだ。""
        [11]
-        1 string data = ""Bellamy. Bellamy, look at me. Have you seen my family? Are they here?""
+        1 string data = ""Bellamy。Bellamy、こっちを見て。私の家族を見た？ここにいるの？""
        [12]
-        1 string data = ""I'll tell you whatever I can. Just... save their hostages, will you?""
+        1 string data = ""何でも話すよ。ただ...人質を助けてくれ、いいか？""
        [13]
-        1 string data = ""Who are you and what are you doing here?""
+        1 string data = ""お前は誰だ？ここで何をしてる？""
        [14]
-        1 string data = ""Where are the hostages?""
+        1 string data = ""人質はどこにいる？""
        [15]
         1 string data = """"
        [16]
-        1 string data = ""Goodbye.""
+        1 string data = ""さらばだ。""
        [17]
-        1 string data = ""I... think they took everyone to their camp, just past the Gateway Rocks.""
+        1 string data = ""みんなGateway Rocksのすぐ先にある、やつらのキャンプに連れて行かれたと思う。""
        [18]
-        1 string data = ""My name is Bellamy Ward. I'm a scientist... I invented the solar collectors and experimental farms on top of the rocks.""
+        1 string data = ""僕の名前はBellamy Ward。科学者だ...岩の上にあるソーラーコレクターと実験農場を発明したんだ。""
        [19]
-        1 string data = ""What about my family, Bell?""
+        1 string data = ""私の家族はどうなの、Bell？""
        [20]
-        1 string data = ""Last I saw them, they were all right. They were scared, and a little banged up, but... they were still alive.""
+        1 string data = ""最後に見た時は大丈夫だった。怖がってて、少し殴られてたけど...まだ生きてた。""
        [21]
-        1 string data = ""I was calibrating the solar arrays when the Dorseys came through here, herding their hostages with them. So I hid up here and kept out of sight.""
+        1 string data = ""ソーラーアレイの調整をしてた時に、Dorseysがここを通って人質を連れて行ったんだ。だから僕はここに隠れて、見つからないようにしてた。""
        [22]
-        1 string data = ""They're savages... Animals. They beat those people, laughed at them when they begged for their lives. The kids were screaming, so they beat them too."\n\n\n"Then they dragged them all further on, toward their camp.""
+        1 string data = ""やつらは野蛮だ...獣だ。人々を殴って、命乞いする姿を笑ってた。子供たちが叫んでたから、子供たちも殴ったんだ。"\n\n\n"それから全員をキャンプの方へ引きずっていった。""
        [23]
-        1 string data = ""What was the material you used for the solar collectors?""
+        1 string data = ""ソーラーコレクターに使った素材は何だ？""
        [24]
         1 string data = """"
        [25]
-        1 string data = ""Lucia? I... I thought you were with your family. Thank god you're not. Thank god. They went up ahead with their hostages, but... Lucia, I heard gunfire and screaming. You need to be ready for the worst.""
+        1 string data = ""Lucia？君は...家族と一緒だと思ってた。違ってよかった。本当によかった。やつらは人質を連れて先へ行ったけど...Lucia、銃声と叫び声が聞こえたんだ。最悪の事態に備えなきゃいけない。""
        [26]
-        1 string data = ""A while ago, we found some old, non-functional, solar panels from before the Deluge of Fire.""
+        1 string data = ""少し前に、Deluge of Fire以前の古い、機能しないソーラーパネルをいくつか見つけたんだ。""
        [27]
-        1 string data = ""You saved my life. I won't forget it.""
+        1 string data = ""命を救ってくれた。忘れない。""
        [28]
-        1 string data = ""Bellamy Ward. My father and I invented the solar collectors and the experimental farms.""
+        1 string data = ""Bellamy Wardだ。父と僕でソーラーコレクターと実験農場を発明した。""
        [29]
-        1 string data = ""Please do. I'll tell whatever I can to help. It's not much, but...""
+        1 string data = ""ぜひ聞いてくれ。助けになることなら何でも話すよ。大したことじゃないけど...""
        [30]
-        1 string data = ""If they've done anything to my people, I'm going to end them all."\n\n\nHer eyes brim with tears, and she turns away angrily when she sees you looking."
+        1 string data = ""もしあいつらが私の仲間に何かしたら、全員始末する。"\n\n\n彼女の目には涙があふれ、あなたが見ているのを知ると怒って顔をそむける。"
        [31]
-        1 string data = ""I couldn't figure out their function at first... until I recovered a microcircuitry board and developed a laser-spectrography process. I realized that I could help solve some of the electrical generation issues that have always been a problem for the city.""
+        1 string data = ""最初は機能が分からなかった...マイクロ回路基板を回収してレーザー分光法を開発するまではね。これで都市が常に抱えていた発電問題の一部を解決できると気づいたんだ。""
        [32]
         1 string data = "She grips his hand tight and squeezes his shoulder."
        [33]
         1 string data = ""Oh! And please be sure to keep my experiments intact! The city's depending on those panels!""
        [34]
-        1 string data = "::whispers:: "I'll stay out of sight until the Dorseys are gone.""
+        1 string data = "::whispers:: "Dorseysがいなくなるまで隠れていよう。""
        [35]
-        1 string data = "::low voice:: "He-hello? Whoever just came up from the city? Come in?""
+        1 string data = "::low voice:: "も、もしもし？街から来た人？聞こえるか？""
        [36]
-        1 string data = ""This is Bellamy Ward... I... There are Dorseys all over the Garden. I'm pinned down on a high ledge. Can... can you reach me?""
+        1 string data = ""こちらBellamy Ward...あの...Gardenじゅうにあいつらがいるんだ。高い崖で動けないんだ。助けに...来られるか？""
        [37]
-        1 string data = ""We're the Rangers. Sit tight, we'll take care of the Dorseys.""
+        1 string data = ""Rangersだ。そこで待ってろ。Dorseysは俺たちが始末する。""
        [38]
-        1 string data = ""No promises, but we're planning to kill every Dorsey we find.""
+        1 string data = ""約束はできないが、見つけたDorseyは全員殺すつもりだ。""
        [39]
-        1 string data = ""Oh, thank god. I'll call out if I see you... as long as it's safe.""
+        1 string data = ""ああ、神に感謝。安全なら...君たちが見えたら呼びかけるよ。""
        [40]
         1 string data = "Script Node 43"
        [41]
         1 string data = "Script Node 44"
        [42]
-        1 string data = ""Stop your blubbering. Just stay out of the way, and let us deal with the Dorseys.""
+        1 string data = ""泣き言を止めろ。邪魔にならないようにして、Dorseysは俺たちに任せろ。""
        [43]
-        1 string data = ""Right. I'll just... keep my head down then.""
+        1 string data = ""わかった。じゃあ...おとなしくしてるよ。""
        [44]
         1 string data = ""
        [45]
-        1 string data = ""Over here! I can help!""
+        1 string data = ""こっちだ！手伝えるぞ！""
        [46]
-        1 string data = ""I knew those hostages. Most of them were from the Hundred Families. The Dorseys were <i>targeting</i> us, and I don't even know why.""
+        1 string data = ""人質たちを知ってたんだ。ほとんどがHundred Familiesの出身だった。Dorseysは僕たちを<i>狙ってた</i>んだ、理由も分からないけど。""
        [47]
-        1 string data = ""How do you get enough solar power in this weather?""
+        1 string data = ""こんな天気でどうやって十分な太陽光を得てるんだ？""
        [48]
-        1 string data = ""The PALs... Photon Amplification Lenses. They harness and focus the ambient light. It's fascinating, actually - they polarize the waves and create constructive interference.""
+        1 string data = ""PALs...Photon Amplification Lensesだ。周囲の光を集めて集中させる。実は魅力的なんだよ - 波を偏光させて建設的干渉を作り出すんだ。""
        [49]
-        1 string data = ""Normally, they maintain a stable temperature for the plants. But they can be adjusted to help power the solar collectors, or even thaw frozen components.""
+        1 string data = ""通常は植物のために安定した温度を維持してる。でもソーラーコレクターの動力を助けたり、凍った部品を解凍したりするように調整できるんだ。""
        [50]
-        1 string data = ""I once coupled a PAL with a Dynamic Cross-Photon Matrix. I was trying to cook some bison steaks, but it incinerated the whole firepit... Melted the entire grill. Goes to show what can happen if you put a decimal in the wrong place.""
+        1 string data = ""昔PALをDynamic Cross-Photon Matrixと組み合わせたことがある。バイソンのステーキを焼こうとしたんだけど、焚き火台全体を焼却しちゃった...グリル全体が溶けたんだ。小数点を間違った場所に置くとどうなるかの見本だね。""
        [51]
-        1 string data = ""Hey! You on the ledge! Hands up!""
+        1 string data = ""おい！崖の上のやつ！手を上げろ！""
        [52]
-        1 string data = ""Oh no. They've found me!""
+        1 string data = ""まずい。見つかった！""
        [53]
-        1 string data = ""Do you really have this place rigged with explosives?""
+        1 string data = ""本当にここに爆薬を仕掛けてあるのか？""
        [54]
-        1 string data = ""God, no. I was stalling for time. If I had a few hours and the right chemicals, though, I could've prepared quite a surprise for them.""
+        1 string data = ""神様、違うよ。時間稼ぎをしてただけだ。でも数時間と適切な薬品があれば、やつらにすごい驚きを用意できたんだけどね。""
        [55]
         1 string data = "Script Node 59"
        [56]
-        1 string data = ""Don't hurt me! I'm just a scientist!""
+        1 string data = ""傷つけないでくれ！僕はただの科学者なんだ！""
        [57]
-        1 string data = ""Don't do this! Please!""
+        1 string data = ""こんなことするな！頼む！""
        [58]
-        1 string data = ""Please, no! I don't want to die!""
+        1 string data = ""お願い、やめてくれ！死にたくない！""
    [518]
     0 StringTable data
      1 string Filename = "a3001_computerambush"
