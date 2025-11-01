@@ -221313,19 +221313,19 @@
        [75]
         1 string data = "Script Node 84"
        [76]
-        1 string data = ""Something is wrong. I'm not... Where am I?""
+        1 string data = ""何かがおかしい。私は……ここはどこだ?""
        [77]
         1 string data = "Script Node 86"
        [78]
-        1 string data = ""THIS IS THE MECHANICAL INTELLIGENCE TOWER. THANK YOU, RANGERS, YOU HAVE SUCCESSFULLY LIBERATED THE REAGAN INTELLIGENCE. MISSION ACCOMPLISHED. TOWER OUT.""
+        1 string data = ""こちら機械知能タワー。レンジャーズ、諸君はレーガン知能の解放に成功した。任務完了。タワー終了。""
        [79]
-        1 string data = "...\n\n\n<i>Transfer complete.</i>"
+        1 string data = "...\n\n\n<i>転送完了。</i>"
        [80]
-        1 string data = "::static::"
+        1 string data = "::ノイズ::"
        [81]
-        1 string data = ""W-what?""
+        1 string data = ""な、何だ?""
        [82]
-        1 string data = ""Stop! What are you doing? You didn't disable the safety protocols!""
+        1 string data = ""待て! 何をしている? 安全プロトコルを無効化していないぞ!""
        [83]
         1 string data = ""
        [84]
@@ -221337,7 +221337,7 @@
        [87]
         1 string data = "Trigger Conv Node 97"
        [88]
-        1 string data = "PROJECT IMMORTAL COMPLEX - MASTER TERMINAL\n\n\n<i>Loading</i>"
+        1 string data = "プロジェクト・イモータル・コンプレックス - マスターターミナル\n\n\n<i>読み込み中</i>"
        [89]
         1 string data = "Script Node 99"
        [90]
@@ -221357,33 +221357,33 @@
        [97]
         1 string data = ""
        [98]
-        1 string data = "<i>SCANNING</i>\n\n\n<i>Cybernetic Transfer Module Detected</i>\n\n\n<i>Cybernetic Transfer Module Initializing</i>\n\n\n<<ERROR CODE 2727>>\n<<NO COMPATIBLE AI LOADED>>\n\n\n<<CRITICAL FAILURE>>"
+        1 string data = "<i>スキャン中</i>\n\n\n<i>サイバネティック転送モジュール検出</i>\n\n\n<i>サイバネティック転送モジュール初期化中</i>\n\n\n<<エラーコード 2727>>\n<<互換性のあるAI未読み込み>>\n\n\n<<致命的エラー>>"
        [99]
-        1 string data = "The tape heads inside the machine spin faster and faster until you hear an abrupt <i>crack</i>, and they fall silent.\n\n\nThe terminal spins up one more time and begins to eject the module. It comes out in pieces, shards of broken plastic and coils of brown magnetic tape."
+        1 string data = "機械内部のテープヘッドが回転をどんどん速め、突然<i>パキッ</i>という音が聞こえ、そして静かになった。\n\n\nターミナルがもう一度起動し、モジュールの排出を開始する。プラスチック片や茶色の磁気テープのコイルがバラバラになって出てくる。"
        [100]
-        1 string data = "'Critical failure. Please contact your licensed manufacturer for a replacement transfer drive.'"
+        1 string data = "「致命的エラー。交換用転送ドライブについては、ライセンス製造元にご連絡ください。」"
        [101]
         1 string data = "Bank 111"
        [102]
         1 string data = "[Trap Reagan]\nKeep safety protocols in place and imprison Reagan in the Cybernetic Transfer Module."
        [103]
-        1 string data = "With a few clicks, you've initiated the transfer."
+        1 string data = "数回のクリックで、転送が開始された。"
        [104]
-        1 string data = "::static::"
+        1 string data = "::ノイズ::"
        [105]
-        1 string data = "<i>SCANNING</i>\n\n\n<i>Cybernetic Transfer Module Detected</i>\n\n\n<i>Cybernetic Transfer Module Initializing</i>\n\n\n<i>Cybernetic Transfer Module Ready</i>"
+        1 string data = "<i>スキャン中</i>\n\n\n<i>サイバネティック転送モジュール検出</i>\n\n\n<i>サイバネティック転送モジュール初期化中</i>\n\n\n<i>サイバネティック転送モジュール準備完了</i>"
        [106]
-        1 string data = "<<ERROR CODE 92663>>\n<<NO PROTOCOL LOADED>>\n<<CRITICAL FAILURE>>"
+        1 string data = "<<エラーコード 92663>>\n<<プロトコル未読み込み>>\n<<致命的エラー>>"
        [107]
-        1 string data = "Examine the terminal slot."
+        1 string data = "ターミナルのスロットを調べる。"
        [108]
-        1 string data = "[Attack] "You know what? We're not doing this after all.""
+        1 string data = "[攻撃] "なあ、やっぱりこれはやめておこう。""
        [109]
-        1 string data = "It's the right size and shape for the device... Almost like it was made for it.\n\n\nIt may be the only original piece of this machine left. Everything else looks like it has been replaced at some point in time."
+        1 string data = "デバイスにちょうど合うサイズと形だ……まるでこれ専用に作られたかのようだ。\n\n\nこの機械に残された唯一のオリジナルパーツかもしれない。他の全ては、ある時点で交換されているようだ。"
        [110]
         1 string data = " Follow-up PQ. 121"
        [111]
-        1 string data = "Play 'StarstationWars.exe'."
+        1 string data = "'StarstationWars.exe'をプレイする。"
        [112]
         1 string data = "Play "StarstationWars.exe""
        [113]
@@ -221393,17 +221393,17 @@
        [115]
         1 string data = "Script Node 126"
        [116]
-        1 string data = "[Destroy Reagan] Disable safety protocols and force a 'transfer' with no target."
+        1 string data = "[レーガンを破壊]安全プロトコルを無効化し、ターゲットなしで「転送」を強制実行する。"
        [117]
         1 string data = "Script Node 128"
        [118]
-        1 string data = "[Transfer Reagan to Ranger HQ] Enter the coordinates for Peterson Air Base."
+        1 string data = "[レーガンをレンジャー本部へ転送]ピーターソン空軍基地の座標を入力する。"
        [119]
         1 string data = "Script Node 130"
        [120]
         1 string data = "Script Node 131"
        [121]
-        1 string data = ""THIS IS THE MECHANICAL INTELLIGENCE TOWER. YOU HAVE STOLEN REAGAN FROM THE GIPPERS, BUT ALSO FROM US." \r\n\r\n"WE ARE FURIOUS, RANGERS.""
+        1 string data = ""こちら機械知能タワー。貴様らはレーガンをギッパーズから盗み取ったが、我々からも盗んだのだ。" \r\n\r\n"我々は激怒している、レンジャーズよ。""
        [122]
         1 string data = "Script Node 133"
        [123]
@@ -221491,17 +221491,17 @@
       1 Array Array (11 items)
        0 int size = 11
        [0]
-        1 string data = ""Some... something's wrong. Mother Nancy, stop the transfer! Stop-!"\n"
+        1 string data = ""何か……何かがおかしい。マザー・ナンシー、転送を止めて! 止め——!"\n"
        [1]
-        1 string data = ""Goodbye, Valor.""
+        1 string data = ""さようなら、ヴェイラー。""
        [2]
-        1 string data = ""I... I... Nancy? I think it worked. I feel... strange.""
+        1 string data = ""俺は……俺は……ナンシー? うまくいったようだ。変な感じがする。""
        [3]
-        1 string data = ""I'm here, Ronnie. Everything's going to be all right now.""
+        1 string data = ""ここにいるわ、ロニー。もう全て大丈夫よ。""
        [4]
         1 string data = "Script Node 5"
        [5]
-        1 string data = ""Welcome back.""
+        1 string data = ""おかえりなさい。""
        [6]
         1 string data = "Trigger Conv Node 7"
        [7]
@@ -221509,7 +221509,7 @@
        [8]
         1 string data = "Script Node 9"
        [9]
-        1 string data = ""I... I... Nancy? I think it worked. I feel... strange.""
+        1 string data = ""俺は……俺は……ナンシー? うまくいったようだ。変な感じがする。""
        [10]
         1 string data = "Script Node 11"
    [726]
@@ -222329,21 +222329,21 @@
       1 Array Array (201 items)
        0 int size = 201
        [0]
-        1 string data = ""Well now, welcome, patriots. Nancy and I, well, we appreciate your selfless service and want to thank you for it. You are true Americans, and, well, good neighbors.""
+        1 string data = ""さあ、愛国者諸君、ようこそ。ナンシーと私は、諸君の無私の奉仕に感謝し、礼を言いたい。諸君は真のアメリカ人であり、良き隣人だ。""
        [1]
         1 string data = ""
        [2]
-        1 string data = ""If it takes a blood... blood... BLOODBATH, let's get it over with. Well, what do you say?""
+        1 string data = ""血……血……血の、大虐殺が必要なら、さっさと済ませよう。で、どうだね?""
        [3]
-        1 string data = ""That sounds reasonable.""
+        1 string data = ""それは道理にかなっている。""
        [4]
         1 string data = ""
        [5]
         1 string data = ""
        [6]
-        1 string data = ""We're at war with the most dangerous enemy that has ever faced mankind in its long climb from the swamp to the stars.""
+        1 string data = ""我々は、人類が沼地から星々へと登る長い旅路で直面した最も危険な敵と戦争をしている。""
        [7]
-        1 string data = ""You and I have a ren... ren... REN... dezvous with destiny. We'll preserve for our children this, the last best hope of m-m-man on Earth, or we'll sentence them to... A THOUSAND YEARS OF DARKNESS!""
+        1 string data = ""諸君と私には、運命との……運……運命との、約束がある。我々は子孫のために、地球上で人類最後にして最良の希望であるこれを守り抜くか、それとも彼らを……千年の、暗黒へと宣告するのだ!""
        [8]
         1 string data = ""
        [9]
@@ -222351,11 +222351,11 @@
        [10]
         1 string data = ""
        [11]
-        1 string data = ""What the heck was all that about? Are you all right?""
+        1 string data = ""一体全体何の話だ? 大丈夫か?""
        [12]
-        1 string data = ""It... it is the SOVIET UNION that runs against the tide of history by denying HUMAN free... free... FREEDOM and human dignity to its citizens.""
+        1 string data = ""それは……それはソビエト連邦だ。市民から人間の自由……自由……自由と人間の尊厳を奪うことで、歴史の流れに逆らっているのは。""
        [13]
-        1 string data = ""Americans are not going to tolerate intimidation, terror, and outright acts of war against this nation and its people.""
+        1 string data = ""アメリカ人は、この国家とその人民に対する脅迫、テロ、露骨な戦争行為を容認しない。""
        [14]
         1 string data = ""
        [15]
