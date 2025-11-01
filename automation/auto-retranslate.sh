@@ -390,11 +390,25 @@ translation/.retranslation_progress.json を読み込んで、translation/STRICT
 - 全ての権限リクエストは自動承認
 - 質問や確認なしで作業を進める
 
+🔴🔴🔴 **絶対に守るべき2つの重大ルール** (Session 193エラー防止) 🔴🔴🔴
+
+**ルール1: スペイン語が空なら英語テキストを保持 (削除禁止!)**
+❌ 間違い: EN=""Hiya, Rangers"" (4 quotes), ES="" (empty) → JA="" (2 quotes) - 削除してはダメ!
+✅ 正解:   EN=""Hiya, Rangers"" (4 quotes), ES="" (empty) → JA=""Hiya, Rangers"" (4 quotes) - 英語のまま保持!
+
+**ルール2: 引用符の数を英語ソースと完全一致させる (1個も増減禁止!)**
+❌ 間違い: EN has "\n\n\n" (quote, newlines, quote) → JA has ""\n\n\n"" (quote-quote, newlines, quote-quote)
+✅ 正解:   EN has "\n\n\n" (quote, newlines, quote) → JA has "\n\n\n" (quote, newlines, quote) - 完全一致!
+- 対話の区切りで引用符を追加・削除してはいけない
+- ENが4個なら → JAも必ず4個
+- ENが6個なら → JAも必ず6個
+
 ⚠️ **厳格ワークフロー要件** (STRICT_TRANSLATION_RULES.md):
 1. **スペイン語参照による翻訳可否判断** (MANDATORY):
    - 各エントリを翻訳する前に、対応するスペイン語ファイルの同じ行を確認
    - スペイン語で翻訳されている → 日本語でも翻訳可能
    - スペイン語で英語のまま → プログラム識別子なので英語のまま残す
+   - スペイン語が空 ("") → 英語テキストをそのまま保持（上記ルール1参照）
    - スペイン語ファイル: translation/source/v1.6.9.420.309496/es_ES/*.txt
 
 2. **構造保護ルール厳守** (STRUCTURE_PROTECTION_RULES.md):
@@ -403,15 +417,11 @@ translation/.retranslation_progress.json を読み込んで、translation/STRICT
    - []、<>、::action:: 保護
    - [Global:], [Dropset:], [Reward:] など絶対に翻訳禁止
    - Script Node 翻訳禁止
-   - ⚠️ **CRITICAL: スペイン語が空でもテキストを削除しない** (Session 125エラー教訓)
-     - スペイン語が空 ("") = 翻訳不要 → 英語テキストをそのまま保持
-     - 誤って空にすると引用符の数が不一致になり構造エラー
-     - 例: EN=""Text"" (4個), ES="" (2個) → JA=""Text"" (4個 - 英語保持)
 
 3. **各編集後の検証** (MANDATORY):
    - 各editツール実行後、必ずvalidate_structure_v2.pyを実行
    - エラーが1件でもあれば即座に修正
-   - 引用符の数が英語ソースと完全一致していることを確認
+   - 引用符の数が英語ソースと完全一致していることを確認（上記ルール2参照）
 
 4. **シーケンシャル処理** (MANDATORY):
    - 現在の行位置から順番に処理（スキップ禁止）
