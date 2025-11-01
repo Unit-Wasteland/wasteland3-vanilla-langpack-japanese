@@ -228,6 +228,70 @@ safe_jq_read() {
     echo "$default_value"
 }
 
+# Validate JSON file structure
+validate_json() {
+    local json_file="$1"
+
+    if [ ! -f "$json_file" ]; then
+        log "ERROR" "JSON validation failed: File not found: $json_file"
+        return 1
+    fi
+
+    # Validate with jq (checks syntax)
+    if ! jq empty "$json_file" >/dev/null 2>&1; then
+        log "ERROR" "JSON validation failed: Invalid JSON syntax in $json_file"
+        jq empty "$json_file" 2>&1 | head -5 | while read line; do
+            log "ERROR" "  $line"
+        done
+        return 1
+    fi
+
+    log "INFO" "✓ JSON validation passed: $json_file"
+    return 0
+}
+
+# Create backup of progress file
+backup_progress_file() {
+    local progress_file="$1"
+    local backup_file="${progress_file}.backup"
+
+    if [ ! -f "$progress_file" ]; then
+        log "WARN" "Progress file not found, skipping backup: $progress_file"
+        return 1
+    fi
+
+    # Only backup if current file is valid JSON
+    if validate_json "$progress_file"; then
+        cp "$progress_file" "$backup_file"
+        log "INFO" "✓ Progress file backed up: ${backup_file}"
+        return 0
+    else
+        log "ERROR" "Cannot backup invalid JSON file"
+        return 1
+    fi
+}
+
+# Restore progress file from backup if current is corrupted
+restore_progress_file() {
+    local progress_file="$1"
+    local backup_file="${progress_file}.backup"
+
+    if [ ! -f "$backup_file" ]; then
+        log "ERROR" "Backup file not found: $backup_file"
+        return 1
+    fi
+
+    # Validate backup before restoring
+    if validate_json "$backup_file"; then
+        cp "$backup_file" "$progress_file"
+        log "INFO" "✓ Progress file restored from backup"
+        return 0
+    else
+        log "ERROR" "Backup file is also corrupted, cannot restore"
+        return 1
+    fi
+}
+
 # Read retranslation progress (uses safe_jq_read)
 get_progress_entries() {
     local progress_file="$WORKING_DIR/translation/.retranslation_progress.json"
@@ -296,6 +360,22 @@ while [ $SESSION_COUNT -lt $MAX_SESSIONS ]; do
     # Clean up any existing Claude processes
     cleanup_claude
 
+    # Backup progress file BEFORE session starts
+    PROGRESS_FILE="$WORKING_DIR/translation/.retranslation_progress.json"
+    if ! backup_progress_file "$PROGRESS_FILE"; then
+        log "ERROR" "Failed to backup progress file, attempting restore..."
+        if restore_progress_file "$PROGRESS_FILE"; then
+            log "INFO" "Progress file restored, retrying backup..."
+            backup_progress_file "$PROGRESS_FILE" || {
+                log "ERROR" "Cannot create valid backup, aborting session"
+                exit 1
+            }
+        else
+            log "ERROR" "Cannot restore progress file, aborting"
+            exit 1
+        fi
+    fi
+
     # Get current progress
     START_ENTRIES=$(get_progress_entries)
     log "INFO" "Current progress: $START_ENTRIES entries completed"
@@ -339,6 +419,15 @@ translation/.retranslation_progress.json を読み込んで、translation/STRICT
    - 優先度付けや長文優先処理は厳格に禁止
 
 5. **用語集参照**: nouns_glossary.json を参照して一貫した訳語を使用
+
+6. **JSON安全性ガイドライン** (CRITICAL - 再発防止):
+   - ⚠️⚠️⚠️ 進捗ファイルの "note" フィールドに書き込む際の重要ルール:
+   - **絶対禁止**: noteフィールド内で "" (ダブルダブルクォート) を使用しない
+   - **絶対禁止**: noteフィールド内で \" (バックスラッシュクォート) を使用しない
+   - **推奨**: 引用符を説明する際は "double-double-quote format" や "4-quote format" など英語表現を使用
+   - **推奨**: \r\n を説明する際は "escape sequences" や "newline markers" など英語表現を使用
+   - **理由**: JSONパーサーがエスケープされていない引用符でエラーになる
+   - **例**: ❌ 'Quote format: "" strictly maintained' → ✅ 'Quote format: double-quote markers strictly maintained'
 
 目標: 約${ENTRIES_PER_SESSION}エントリを処理してコミット・プッシュ
 
@@ -385,13 +474,31 @@ EOF
 
     log "INFO" "Claude Code session completed"
 
-    # Get progress after session
-    END_ENTRIES=$(get_progress_entries)
-    ENTRIES_THIS_SESSION=$((END_ENTRIES - START_ENTRIES))
-    TOTAL_ENTRIES=$((TOTAL_ENTRIES + ENTRIES_THIS_SESSION))
+    # Validate progress file JSON after session
+    log "INFO" "Validating progress file JSON integrity..."
+    if ! validate_json "$PROGRESS_FILE"; then
+        log "ERROR" "Progress file corrupted after session, attempting rollback..."
+        if restore_progress_file "$PROGRESS_FILE"; then
+            log "INFO" "✓ Progress file successfully rolled back to pre-session state"
+            log "WARN" "Session #$SESSION_COUNT results discarded due to JSON corruption"
+            log "WARN" "Check session output for problematic JSON writes: $OUTPUT_FILE"
+            # Count as zero-entry session to trigger safety check
+            ENTRIES_THIS_SESSION=0
+        else
+            log "ERROR" "CRITICAL: Cannot restore progress file from backup!"
+            log "ERROR" "Manual intervention required"
+            log "ERROR" "Session output: $OUTPUT_FILE"
+            exit 1
+        fi
+    else
+        # Get progress after session (only if JSON is valid)
+        END_ENTRIES=$(get_progress_entries)
+        ENTRIES_THIS_SESSION=$((END_ENTRIES - START_ENTRIES))
+        TOTAL_ENTRIES=$((TOTAL_ENTRIES + ENTRIES_THIS_SESSION))
 
-    log "INFO" "Session #$SESSION_COUNT completed: $ENTRIES_THIS_SESSION entries translated"
-    log "INFO" "Cumulative total: $END_ENTRIES entries (out of ~71,992)"
+        log "INFO" "Session #$SESSION_COUNT completed: $ENTRIES_THIS_SESSION entries translated"
+        log "INFO" "Cumulative total: $END_ENTRIES entries (out of ~71,992)"
+    fi
 
     # Check if retranslation is complete
     if is_retranslation_complete; then

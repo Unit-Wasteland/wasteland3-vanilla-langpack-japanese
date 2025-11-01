@@ -508,9 +508,133 @@ Co-Authored-By: Claude <noreply@anthropic.com>
 
 ---
 
+## Part 9: 進捗ファイルJSON安全性ガイドライン
+
+### 9.1 背景
+
+進捗ファイル（`.retranslation_progress.json`）にUnity形式の引用符（`""`）やエスケープシーケンス（`\r\n`）を含むテキストを書き込むと、JSONパーサーエラーが発生します。
+
+**実際のエラー例（2025-11-01発生）:**
+```json
+"note": "Quote format: 4-quote format ("") strictly maintained"
+                                         ^^
+                                         JSON parse error
+```
+
+### 9.2 JSON安全性ルール（CRITICAL）
+
+#### 禁止事項
+
+進捗ファイルの `note` フィールドに書き込む際、以下を**絶対に使用禁止**:
+
+❌ **禁止1:** ダブルダブルクォート `""`
+```json
+// ❌ 間違い
+"note": "Quote format: ("") maintained"
+```
+
+❌ **禁止2:** バックスラッシュクォート `\"`
+```json
+// ❌ 間違い
+"note": "Quote format: (\"\") maintained"
+```
+
+❌ **禁止3:** エスケープシーケンスのリテラル表記 `\r\n`
+```json
+// ❌ 間違い
+"note": "Preserved: \r\n sequences"
+```
+
+#### 推奨表現
+
+Unity形式やエスケープシーケンスを説明する際は、**英語の説明表現**を使用:
+
+✅ **正解1:** 引用符の説明
+```json
+// ✅ 正しい
+"note": "Quote format: double-double-quote format maintained"
+"note": "Quote format: 4-quote format maintained"
+"note": "Quote format: double-quote markers maintained"
+```
+
+✅ **正解2:** エスケープシーケンスの説明
+```json
+// ✅ 正しい
+"note": "Escape sequences preserved (not converted to actual newlines)"
+"note": "Newline markers preserved in original format"
+"note": "Text control characters maintained"
+```
+
+### 9.3 自動化による保護
+
+`automation/auto-retranslate.sh` には以下の保護機能が実装されています:
+
+1. **セッション開始前のバックアップ作成**
+   - 進捗ファイルを `.backup` に自動コピー
+   - JSON検証が成功した場合のみバックアップ作成
+
+2. **セッション終了後のJSON検証**
+   - `jq` による構文チェック
+   - 検証失敗時は自動ロールバック
+
+3. **自動ロールバック機能**
+   - JSON破損検出時にバックアップから自動復元
+   - セッション結果を破棄し、安全な状態に復帰
+
+### 9.4 手動作業時のガイドライン
+
+手動で進捗ファイルを編集する場合:
+
+1. **編集前にバックアップ作成:**
+```bash
+cp translation/.retranslation_progress.json translation/.retranslation_progress.json.backup
+```
+
+2. **編集後にJSON検証:**
+```bash
+jq empty translation/.retranslation_progress.json
+# エラーが出なければOK
+```
+
+3. **検証失敗時の復元:**
+```bash
+cp translation/.retranslation_progress.json.backup translation/.retranslation_progress.json
+```
+
+### 9.5 エラー発生時の対処
+
+**症状:** 自動翻訳スクリプトが「JSON read failed」エラーで停止
+
+**原因:** 進捗ファイルにエスケープされていない引用符が含まれている
+
+**対処手順:**
+1. JSON検証でエラー箇所を特定:
+```bash
+jq . translation/.retranslation_progress.json
+# エラー行と列が表示される
+```
+
+2. 問題のある `note` フィールドを修正:
+   - `""` → `double-quote format`
+   - `\r\n` → `escape sequences`
+   - `\"` → 完全に削除
+
+3. 修正後に検証:
+```bash
+jq . translation/.retranslation_progress.json > /dev/null && echo "OK"
+```
+
+4. コミット:
+```bash
+git add translation/.retranslation_progress.json
+git commit -m "Fix: JSON syntax error in progress file"
+```
+
+---
+
 **このルールは絶対に遵守すること。例外は一切認めません。**
 
 ---
 
 作成者: Claude Code
-最終更新: 2025-10-29
+最終更新: 2025-11-01 (Part 9追加: JSON安全性ガイドライン)
