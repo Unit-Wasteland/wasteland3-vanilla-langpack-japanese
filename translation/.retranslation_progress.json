@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 15224,
-      "entries_untranslated": 154488,
-      "completion_rate": 8.97,
-      "current_line": 217860,
+      "entries_translated": 15304,
+      "entries_untranslated": 154408,
+      "completion_rate": 9.02,
+      "current_line": 220105,
       "status": "in_progress",
       "approach": "Strict sequential from line 666, Spanish reference mandatory",
-      "note": "Session 186: 88 entries translated (lines 216342-217860). Sections: b3001_blaze complete (57 entries - Blaze survival dialogue, emotional aftermath of oil field attack), b3001_buck complete (17 entries - Buck dialogue after oil field), b3001_doortoreagancore complete (14 entries - Western White House door interactions). Quote matching lesson reinforced: source quote count must match exactly (2-quote vs 4-quote format). Spanish reference check applied. Structure validation: 0 errors, 12 warnings (HTML only - pre-existing). Next: b3001_gonzalez_radio_afterthezealotvalorconvo (77 entries)."
+      "note": "Session 187: 80 entries translated (lines 217860-220105). Sections: b3001_gonzalez_radio_afterthezealotvalorconvo complete (30 translatable - Ranger HQ radio after Valor arrest, multiple outcome branches), b3001_mothernancyreliance partial (50 translatable - Mother Nancy dialogue, Gipper ideology, Reagan AI explanation, cybernetic transfer negotiation). Mixed quote format preserved (Sister vs Mother). Action markup preserved. Spanish reference check applied. Structure validation: 0 errors, 14 warnings (HTML only - pre-existing). Next: b3001_mothernancyreliance continuation from entry 78."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "c7e3d74",
-  "last_commit_message": "Retranslation: Vendomatic 2000 and Bill dialogue (55 entries, lines 215524-216342)",
-  "total_entries_completed": 15224,
+  "last_commit_hash": "a968dd5",
+  "last_commit_message": "Retranslation: Gonzalez radio and Mother Nancy dialogue (80 entries, lines 217860-220105)",
+  "total_entries_completed": 15304,
   "total_entries": 169712,
-  "total_entries_untranslated": 154488,
-  "overall_completion_rate": 8.97,
-  "next_action": "Continue strict sequential translation. Next: b3001_gonzalez_radio_afterthezealotvalorconvo from line 217860. Spanish reference mandatory. Validate after every edit.",
+  "total_entries_untranslated": 154408,
+  "overall_completion_rate": 9.02,
+  "next_action": "Continue strict sequential translation. Next: b3001_mothernancyreliance from entry 78 (line 220008). Spanish reference mandatory. Validate after every edit.",
   "strict_workflow": {
     "sequential_processing": "MANDATORY - Process from line 1 sequentially. NO skipping, NO prioritization.",
     "spanish_reference": "MANDATORY - Check Spanish file for translatability before each translation.",
