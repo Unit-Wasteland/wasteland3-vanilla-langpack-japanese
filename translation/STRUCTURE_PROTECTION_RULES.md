@@ -1,358 +1,362 @@
-# Structure Protection Rules (構造保護ルール)
+# Structure Protection Rules
 
-## 概要
+**Version:** 2.0 (English version for AI - 2025-11-01)
+**Primary Document:** See [CLAUDE.md](../CLAUDE.md) for complete guidelines
 
-このドキュメントは、Unity StringTableファイルの構造を保護するための厳格なルールを定義します。
-これらのルールに違反すると、ファイルがゲームにインポート不可能になります。
+---
 
-## 絶対に変更してはいけない記号とパターン
+## ⚠️ IMPORTANT: Primary Reference
 
-### 1. Unity構造マーカー（最優先）
+**This document is supplementary. The PRIMARY reference is [CLAUDE.md](../CLAUDE.md).**
 
-**`""` (半角ダブルクォーテーション2つ):**
-- Unity StringTableの文字列開始/終了マーカー
-- **テキストの前後に半角 `"` が2つずつ必要**（合計4つの `"` 文字）
-- **絶対に `「」` `『』` `""` （全角）などに変換してはいけない**
-- **絶対に `\"` のようなエスケープ処理をしてはいけない**
+For AI translation work, **ALWAYS refer to CLAUDE.md first**.
 
-**正しい形式の理解:**
+---
+
+## Purpose
+
+This document defines strict rules for protecting Unity StringTable file structure. Violating these rules makes files unable to import into the game.
+
+---
+
+## Protected Markers - NEVER MODIFY
+
+### 1. Unity Structure Markers (Highest Priority)
+
+#### `""` (Double Double-Quotes)
+
+**Format:** Text must be wrapped in TWO double-quote characters at start and end.
+
 ```
 string data = ""Japanese text here""
               ↑↑              ↑↑
               12              34
 ```
-- 位置1: 外側の文字列デリミタ（半角 `"`）
-- 位置2: 内側のテキスト境界マーカー（半角 `"`）
-- 位置3: 内側のテキスト境界マーカー（半角 `"`）
-- 位置4: 外側の文字列デリミタ（半角 `"`）
 
-**例:**
+**Quote positions:**
+1. Position 1: Outer string delimiter (half-width `"`)
+2. Position 2: Inner text boundary marker (half-width `"`)
+3. Position 3: Inner text boundary marker (half-width `"`)
+4. Position 4: Outer string delimiter (half-width `"`)
+
+**Examples:**
+
 ```
-✅ 正常: string data = ""こんにちは、カウボーイ。""
-         （半角 " が4つ: 2つ前、2つ後）
+✅ CORRECT: string data = ""Hello, cowboy.""
+            (4 half-width quotes: 2 before, 2 after)
 
-❌ 破損: string data = "「こんにちは、カウボーイ。」"
-         （日本語括弧を使用）
+❌ WRONG: string data = "「Hello, cowboy.」"
+          (Japanese brackets)
 
-❌ 破損: string data = ""こんにちは、カウボーイ。""
-         （全角ダブルクォーテーションを使用）
+❌ WRONG: string data = ""Hello, cowboy.""
+          (Full-width quotes)
 
-❌ 破損: string data = "\"こんにちは、カウボーイ。\""
-         （エスケープ処理を使用 - 絶対禁止！）
+❌ WRONG: string data = "\"Hello, cowboy.\""
+          (Backslash escaping - FORBIDDEN!)
 
-❌ 破損: string data = "'こんにちは、カウボーイ。'"
-         （シングルクォーテーションを使用）
-```
-
-**⚠️ クォーテーションのエスケープ処理は絶対禁止:**
-Unity StringTable形式ではバックスラッシュ（`\`）によるクォーテーションのエスケープは**使用禁止**です。
-`\"` のような記述は構造を破壊します。必ず `""` （半角ダブルクォート2つ）を使用してください。
-
-**⚠️ 注意: テキスト内制御文字は保持すること:**
-ただし、テキスト内の改行（`\n`）、キャリッジリターン（`\r`）、タブ（`\t`）などの制御文字は**正当なエスケープシーケンス**であり、保持する必要があります。
-```
-✅ 正常: string data = ""一行目\n二行目""
-❌ 破損: string data = ""一行目
-二行目""  （改行が壊れている）
+❌ WRONG: string data = "'Hello, cowboy.'"
+          (Single quotes)
 ```
 
-### 1.5. エスケープシーケンスの保護（最重要）⚠️⚠️⚠️
+**⚠️ Quote Escaping is ABSOLUTELY FORBIDDEN:**
 
-**`\r\n` エスケープシーケンスは絶対に実際の改行に変換してはいけない:**
+Unity StringTable format does NOT use backslash (`\`) escaping for quotes. Never use `\"` - it breaks the structure. Always use `""` (two half-width double-quotes).
 
-これは**構造破壊の最大の原因**です。`\r\n`や`\n`などのエスケープシーケンスを実際の改行に変換すると、ファイルの行数が変わり、Unityが正しくパースできなくなります。
+---
 
-**正しい形式:**
+### 2. Game Variable Markers `[...]`
+
+**Purpose:** Dynamic game content replacement
+
+**Examples:**
 ```
-✅ 正常: string data = ""Sorry, just riles me up." \r\n\r\n"What we want is...""
-         （\r\nをエスケープシーケンスとして保持）
-```
-
-**間違った形式（絶対禁止）:**
-```
-❌ 破損: string data = ""Sorry, just riles me up."
-
-"What we want is...""
-         （\r\nが実際の改行に変換され、3行に分割 - ファイル構造が破壊される！）
+[Switch to 27.065 Megahertz]
+[Global: PlayerName]
+[Dropset: RewardItems]
+[Reward: 100]
 ```
 
-**重大な影響:**
-- ファイルの行数が変化（例: 530,425行 → 530,454行）
-- Unity StringTableのパーサーがエラーを起こす
-- ゲームにインポート不可能になる
-- **全ての翻訳作業が無効になる**
+**Rules:**
+- ❌ NEVER translate content inside brackets
+- ❌ NEVER change brackets to `【】` or other characters
+- ✅ ALWAYS keep exact English text and format
 
-**検証方法:**
+---
+
+### 3. HTML Tags `<...>`
+
+**Purpose:** Text formatting (italic, bold, etc.)
+
+**Examples:**
+```
+<i>italic text</i>
+<b>bold text</b>
+```
+
+**Rules:**
+- ❌ NEVER remove tags
+- ❌ NEVER change tag names
+- ✅ Translate text BETWEEN tags only
+- ✅ Keep tag structure exactly as-is
+
+---
+
+### 4. Action Markers `::action::`
+
+**Purpose:** Game engine control commands for animations, sounds, effects
+
+**CRITICAL:** This is the most commonly violated rule (97 violations found 2025-11-01)
+
+**Examples of action markers:**
+```
+::sigh::
+::laughs::
+::nods::
+::static::
+::gunfire::
+::music plays::
+::classic rock plays::
+```
+
+**ABSOLUTE RULES:**
+
+```
+❌ NEVER translate:
+::sigh::  → ::ため息::        (translating to Japanese)
+::laughs:: → ::笑う::         (translating to Japanese)
+::classic rock plays:: → ::クラシックロック曲が流れる::
+
+✅ ALWAYS keep in English:
+English: string data = "::sigh:: "I don't know...""
+Japanese: string data = "::sigh:: "わからない...""
+                        ^^^^^^^^ UNCHANGED
+```
+
+**Why this is critical:**
+- Translated action markers break game engine recognition
+- Character animations will not play
+- Sound effects will not trigger
+- Visual effects will fail
+
+**Verification command:**
 ```bash
-# ソースファイルとターゲットファイルの行数が一致することを確認
-wc -l translation/source/.../StringTableData_English-*.txt
-wc -l translation/target/.../StringTableData_English-*.txt
-
-# 自動検証スクリプトを実行
-bash automation/validate-structure.sh
+# Should return nothing (no Japanese in action markers)
+grep -o '::[^:]*[ぁ-ゖァ-ヾ一-龯][^:]*::' TARGET_FILE
 ```
 
-**commit 8229d13の教訓:**
-- このエラーにより12,099エントリ（47 commits）が無効化
-- 約15セッション分の作業が失われた
-- 原因: `\r\n`を実際の改行に変換
-- 解決: 全てリバート後、厳格な検証を導入
+**See:** CLAUDE.md Section 5 for detailed action marker rules.
 
-### 2. 特殊フォーマットマーカー
+---
 
-**`[ ]` (角括弧):**
-- ラジオ周波数、スクリプトノード、特殊指示などに使用
-- 括弧内の内容も含めて変更禁止（翻訳対象外）
-- 例: `[Switch to 27.065 Megahertz]`, `[Script Node 14]`
+### 5. Technical Identifiers
 
-**例:**
+**NEVER translate these:**
+
+| Pattern | Example | Purpose |
+|---------|---------|---------|
+| `Script Node [number]` | `Script Node 14` | Game script reference |
+| `[Switch to ...]` | `[Switch to 27.065 Megahertz]` | Radio frequency |
+| `[Global: ...]` | `[Global: PlayerName]` | Global variable |
+| `[Dropset: ...]` | `[Dropset: AmmoRewards]` | Item drop configuration |
+| `[Reward: ...]` | `[Reward: 500]` | Reward value |
+| `DEBUG` | `DEBUG - go to combat` | Debug message |
+
+---
+
+## Quote Count Matching - MANDATORY
+
+**Rule:** Japanese translation must have SAME number of quotes as English source.
+
+### Pattern A: 2 Quotes (Simple Text)
+
 ```
-✅ 正常: string data = "[Switch to 27.065 Megahertz] ""Message here"""
-❌ 破損: string data = "【27.065メガヘルツに切り替え】 "Message here""
-```
-
-**`' '` (シングルクォーテーション):**
-- 引用や固有名詞の強調に使用
-- **絶対に `'` `'` や `「」` に変換してはいけない**
-- 例: `'The Night Has a Thousand Eyes'`
-
-**例:**
-```
-✅ 正常: ""You know that old song, 'The Night Has a Thousand Eyes?'""
-❌ 破損: ""You know that old song, '夜には千の目がある?'""
-```
-
-### 3. アクションマークアップ（ゲームエンジン処理用）
-
-**`::action::` 形式:**
-- キャラクターの動作・感情を示すゲームエンジンマーカー
-- **絶対に翻訳してはいけない**
-- **`::`（ダブルコロン）の形式を変更してはいけない**
-
-**翻訳禁止のアクションマークアップ例:**
-```
-::sings::      歌う
-::laughs::     笑う
-::coughs::     咳をする
-::whispers::   ささやく
-::shouts::     叫ぶ
-::cries::      泣く
-::sighs::      ため息をつく
-::groans::     うめく
-::screams::    絶叫する
-::mutters::    つぶやく
+English:  string data = "Script Node 65"
+Japanese: string data = "Script Node 65"
+                        ↑              ↑
+                        1 quote before, 1 quote after
 ```
 
-**例:**
-```
-✅ 正常: string data = ""::laughs:: That's hilarious!""
-          → ""::laughs:: それは面白い！""
-❌ 破損: string data = ""【笑い】 それは面白い！""
-❌ 破損: string data = ""：：笑う：： それは面白い！""
-```
+### Pattern B: 4 Quotes (Quoted Dialogue)
 
-### 4. HTML/XMLタグ
-
-**`< >` (山括弧):**
-- HTMLタグ、変数プレースホルダーなどに使用
-- タグ名と構造を変更してはいけない
-- 例: `<color=red>`, `<b>`, `</b>`, `{variable_name}`
-
-**例:**
 ```
-✅ 正常: string data = ""<color=red>Warning!</color> Message here""
-❌ 破損: string data = ""＜color=red＞警告！＜/color＞ Message here""
+English:  string data = ""Hello, Rangers.""
+Japanese: string data = ""こんにちは、レンジャーズ。""
+                        ↑↑                ↑↑
+                        2 quotes before, 2 quotes after
 ```
 
-### 5. 技術用語（翻訳禁止）
+### Pattern C: 6+ Quotes (Complex)
 
-**`Script Node` + 数字:**
-- ゲームエンジン内部の識別子
-- **絶対に翻訳してはいけない**
-
-**例:**
 ```
-✅ 正常: string data = ""Script Node 14""
-❌ 破損: string data = ""スクリプトノード 14""
+English:  string data = "::static:: "Come in..." ::static::"
+Japanese: string data = "::static:: "応答せよ..." ::static::"
+                        ↑          ↑          ↑            ↑
+                        Must match source quote count exactly
 ```
 
-### 6. 空エントリの処理（重要 - Session 125エラーから学んだ教訓）
+**Validation:** `validate_structure_v2.py` checks quote count per line.
 
-**⚠️ CRITICAL: スペイン語参照が空でもテキストを削除してはいけない**
+---
 
-スペイン語参照ファイルで該当エントリが空文字列 (`string data = ""`) の場合、誤って日本語ファイルも空にすると**引用符の数が不一致**になり構造エラーが発生します。
+## Forbidden Characters and Patterns
 
-**問題のパターン:**
+### ❌ NEVER Use These:
+
+1. **Japanese Brackets:**
+   - `「」` (corner brackets)
+   - `『』` (double corner brackets)
+   - These break Unity StringTable format
+
+2. **Full-Width Quotes:**
+   - `""` (full-width double quotes)
+   - `''` (full-width single quotes)
+   - Only half-width quotes allowed
+
+3. **Backslash Escaping:**
+   - `\"` (quote escaping)
+   - `\\` (backslash escaping)
+   - Unity format doesn't use these
+
+4. **Modified Brackets:**
+   - `【】` (black lenticular brackets)
+   - `[]` can ONLY be half-width ASCII
+
+5. **Modified Tags:**
+   - `＜i＞` (full-width angle brackets)
+   - Only half-width `<>` allowed
+
+---
+
+## Text Control Characters - PRESERVE
+
+### ✅ KEEP These Escape Sequences:
+
 ```
-EN: string data = ""We arrested him. He's in our custody.""  (4個の引用符)
-ES: string data = ""  (2個の引用符 - 空)
+\n  - Newline
+\r  - Carriage return
+\t  - Tab
+\\  - Backslash (in text content, not for quote escaping)
 ```
 
-**❌ 誤った対応（構造破壊）:**
+**Example:**
 ```
-JA: string data = ""  (2個の引用符 - 空)
-→ エラー: QUOTE_COUNT_MISMATCH (EN=4個、JA=2個)
-```
-
-**✅ 正しい対応（構造保持）:**
-```
-JA: string data = ""We arrested him. He's in our custody.""  (4個の引用符 - 英語保持)
-→ 検証成功: 引用符の数が一致（EN=4個、JA=4個）
+English:  string data = ""Line 1\nLine 2\n\nLine 4""
+Japanese: string data = ""1行目\n2行目\n\n4行目""
+                                 ↑↑    ↑↑
+                                 Preserve \n exactly
 ```
 
-**ルール:**
-1. **スペイン語が空 = 翻訳不要** を意味するが、**テキストを削除する** という意味ではない
-2. 翻訳しない場合は、**必ず英語テキストをそのまま保持**する
-3. 引用符の数を**絶対に変更しない**（構造の最優先ルール）
+---
 
-**検出方法:**
+## Validation Commands
+
+### Structure Validation:
 ```bash
-# 引用符の数の不一致を検出
-python3 translation/validate_structure_v2.py \
-    translation/target/.../ja_JP/StringTableData_*.txt \
-    --source translation/source/.../en_US/StringTableData_*.txt
+python3 translation/validate_structure_v2.py TARGET_FILE \
+  --source SOURCE_FILE --detailed
 ```
 
-**実際のエラー例（Session 125 - Line 134280）:**
+**Checks:**
+- Line count matching
+- Quote count per line
+- Game variable preservation
+- HTML tag preservation
+- NO Japanese brackets in structure
+
+### Quality Validation:
 ```bash
-# エラー発生
-EN: string data = ""We arrested him. He's in our custody, and that's where he's going to stay.""
-JA: string data = ""  (誤って空にした)
-→ QUOTE_COUNT_MISMATCH: ソース=4, ターゲット=2
-
-# 修正
-JA: string data = ""We arrested him. He's in our custody, and that's where he's going to stay.""
-→ 検証成功: エラー0件
+python3 translation/validate_translation_quality.py TARGET_FILE \
+  --start-line START --end-line END
 ```
 
-## 正規表現パターン（検証用）
+**Checks:**
+- NO Japanese in action markers
+- NO untranslated entries (where Spanish shows translation)
+- Technical terms preserved
 
-### 破損パターンの検出
-
+### Manual Verification:
 ```bash
-# クォーテーションのエスケープ処理の誤使用（最優先で検出）
-# 注意: これは \" を検出するが、\n（改行）や \r（キャリッジリターン）は検出しない
-grep 'string data = "\\"' file.txt
+# Check for Japanese in action markers
+grep -o '::[^:]*[ぁ-ゖァ-ヾ一-龯][^:]*::' TARGET_FILE
 
-# 壊れた構造マーカー（日本語括弧）の検出
-grep 'string data = "「' file.txt
-grep 'string data = "『' file.txt
+# Check for Japanese brackets (should return nothing)
+grep '[「」『』]' TARGET_FILE
 
-# 全角ダブルクォーテーションの検出
-grep 'string data = ""' file.txt
-
-# 壊れたアクションマークアップの検出
-grep 'string data = ""【.*】' file.txt
-grep 'string data = ""：：.*：：' file.txt
-
-# 壊れた角括弧の検出
-grep 'string data = ""【.*】' file.txt
-
-# 翻訳されたScript Nodeの検出
-grep 'string data = ""スクリプトノード' file.txt
+# Check for full-width quotes (should return nothing)
+grep '[""'']' TARGET_FILE
 ```
 
-### 正常パターンの確認
+---
 
-```bash
-# 正常な構造マーカー（日本語テキスト含む）
-grep 'string data = "".*[ぁ-ん].*""' file.txt
+## Common Mistakes and Fixes
 
-# 正常なアクションマークアップ
-grep 'string data = ""::[a-z]*::' file.txt
-
-# 正常な角括弧（英語のまま）
-grep 'string data = ""\[.*\]' file.txt
+### Mistake 1: Translating Action Markers
+```
+❌ WRONG: string data = "::ため息:: "わからない...""
+✅ CORRECT: string data = "::sigh:: "わからない...""
 ```
 
-## チェックリスト（コミット前に必ず確認）
-
-- [ ] **クォーテーションのエスケープが使用されていない**（`\"` が存在しない）
-- [ ] **テキスト内制御文字は保持されている**（`\n` `\r` `\t` など）
-- [ ] `""` マーカーが全て保持されている（半角ダブルクォート2つ）
-- [ ] 日本語括弧に変換されていない（`「」` `『』` が構造マーカーに使われていない）
-- [ ] 全角クォーテーションが使われていない（`""` `''`）
-- [ ] `[ ]` 内の技術用語が英語のまま保持されている
-- [ ] `::action::` 形式が全て英語のまま保持されている
-- [ ] `< >` タグが壊れていない
-- [ ] `Script Node` が翻訳されていない
-- [ ] ファイルの行数が元ファイルと一致している
-- [ ] 中国語（簡体字）が混入していない
-
-## エラー例と修正方法
-
-### エラー1: クォーテーションのエスケープ処理の誤使用（最も危険）
-
+### Mistake 2: Using Japanese Brackets
 ```
-❌ 誤り:
-   string data = "\"よう、カウボーイたち。デッド・レッドだ。\""
-
-✅ 修正:
-   string data = ""よう、カウボーイたち。デッド・レッドだ。""
+❌ WRONG: string data = "「こんにちは」"
+✅ CORRECT: string data = ""こんにちは""
 ```
 
-**説明:** バックスラッシュ（`\`）によるクォーテーションのエスケープは不要。Unity StringTable形式では `""` （半角ダブルクォート2つ）を直接使用する。
-
-**注意:** テキスト内の改行（`\n`）やその他の制御文字は正当なエスケープシーケンスであり、保持すること。
-
-### エラー2: 構造マーカーの日本語括弧への変換
-
+### Mistake 3: Quote Escaping
 ```
-❌ 誤り:
-   string data = "「よう、カウボーイたち。デッド・レッドだ。」"
-
-✅ 修正:
-   string data = ""よう、カウボーイたち。デッド・レッドだ。""
+❌ WRONG: string data = "\"こんにちは\""
+✅ CORRECT: string data = ""こんにちは""
 ```
 
-**説明:** 日本語括弧 `「」` `『』` は構造マーカーとして使用できない。必ず半角 `""` を使用する。
-
-### エラー3: アクションマークアップの翻訳
-
+### Mistake 4: Translating Game Variables
 ```
-❌ 誤り:
-   string data = ""【笑い】 それは面白い！""
-
-✅ 修正:
-   string data = ""::laughs:: それは面白い！""
+❌ WRONG: string data = "[27.065メガヘルツに切り替え]"
+✅ CORRECT: string data = "[Switch to 27.065 Megahertz]"
 ```
 
-### エラー4: 角括弧内の翻訳
-
+### Mistake 5: Removing HTML Tags
 ```
-❌ 誤り:
-   string data = "【27.065メガヘルツに切り替え】 "ニュースは聞いたと思うが""
-
-✅ 修正:
-   string data = "[Switch to 27.065 Megahertz] "ニュースは聞いたと思うが""
+❌ WRONG: string data = ""強調されたテキスト""
+✅ CORRECT: string data = ""<i>強調されたテキスト</i>""
 ```
 
-### エラー5: 入れ子引用符の処理
+---
 
-```
-❌ 誤り:
-   string data = ""「『夜には千の目がある』って古い歌を知ってるか？」""
+## Emergency Checklist
 
-✅ 修正:
-   string data = ""'夜には千の目がある'って古い歌を知ってるか？""
-```
+**Before committing, verify:**
 
-## 自動化スクリプトへの注意
+- [ ] Line count matches source exactly
+- [ ] All action markers (`::...:`) remain in English
+- [ ] No Japanese brackets (`「」『』`) anywhere
+- [ ] No full-width quotes (`""''`) anywhere
+- [ ] No backslash quote escaping (`\"`)
+- [ ] Game variables (`[...]`) unchanged
+- [ ] HTML tags (`<...>`) preserved
+- [ ] Quote count per line matches source
+- [ ] Both validation scripts show 0 errors/issues
 
-**スクリプトによる一括変換は禁止:**
-- 過去に何度も修復不可能な構造破壊が発生
-- 必ず50-100行のチャンク処理で手動確認
-- 正規表現による一括置換は危険
+**If ANY item fails → STOP → Fix → Re-validate**
 
-**安全な処理方法:**
-1. backup_brokenから日本語テキストを抽出
-2. 構造マーカーは英語ファイルから保持
-3. テキスト部分のみを慎重に置換
-4. 各チャンクごとに検証
-5. 100エントリごとにコミット
+---
 
-## 参考資料
+## Related Documentation
 
-- Unity StringTable公式ドキュメント
-- `nouns_glossary.json` の `do_not_translate` セクション
-- `translation/FORMAT_FIX_CLAUDE.md`
+**Primary:**
+- [CLAUDE.md](../CLAUDE.md) - Main translation guidelines
+
+**Supplementary:**
+- [STRICT_TRANSLATION_RULES.md](STRICT_TRANSLATION_RULES.md) - Translation rules summary
+- [RETRANSLATION_WORKFLOW.md](RETRANSLATION_WORKFLOW.md) - Workflow guide
+
+**Human-Readable (Japanese):**
+- [CRITICAL_RULES.md](CRITICAL_RULES.md) - 絶対厳守ルール
+
+**Tools:**
+- `validate_structure_v2.py` - Structure validation
+- `validate_translation_quality.py` - Quality validation
+
+---
+
+**Last Updated:** 2025-11-01
+**Primary Reference:** [CLAUDE.md](../CLAUDE.md)
