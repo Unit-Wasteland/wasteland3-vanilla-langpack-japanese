@@ -249837,21 +249837,21 @@
        [4]
         1 string data = "Script Node 5"
        [5]
-        1 string data = "'Choose your hologram's strategy.'"
+        1 string data = "''ホログラムの戦略を選べ''"
        [6]
-        1 string data = ">>Quit Game"
+        1 string data = ">>ゲーム終了"
        [7]
-        1 string data = ">><i>R</i> - Rush Attack"
+        1 string data = ">><i>R</i> - 突撃攻撃"
        [8]
-        1 string data = ">><i>P</i> - Precision Blast"
+        1 string data = ">><i>P</i> - 精密射撃"
        [9]
-        1 string data = ">><i>S</i> - Sneaky Strike"
+        1 string data = ">><i>S</i> - 隠密攻撃"
        [10]
-        1 string data = ">>Talk It Out"
+        1 string data = ">>話し合い"
        [11]
-        1 string data = ">>Tutorial"
+        1 string data = ">>チュートリアル"
        [12]
-        1 string data = "'Rush Attack' beats 'Precision Blast'\n'Precision Blast' beats 'Sneaky Strike'\n'Sneaky Strike' beats 'Rush Attack'\n\n\n'When in doubt, just remember: <i>R</i>><i>P</i>><i>S</i>'"
+        1 string data = "''突撃攻撃'は'精密射撃'に勝つ\n'精密射撃'は'隠密攻撃'に勝つ\n'隠密攻撃'は'突撃攻撃'に勝つ\n\n\n'迷ったら思い出せ: <i>R</i>><i>P</i>><i>S</i>''"
        [13]
         1 string data = "Script Node 14"
        [14]
@@ -249867,45 +249867,45 @@
        [19]
         1 string data = "Script Node 20"
        [20]
-        1 string data = "'Waiting for Player 2 to connect...'"
+        1 string data = "''プレイヤー2の接続を待機中...'"
        [21]
-        1 string data = "'Waiting for Player 2 to select a strategy...'"
+        1 string data = "''プレイヤー2の戦略選択を待機中...'"
        [22]
-        1 string data = "'Strategies have been locked in! Ready, set...'"
+        1 string data = "''戦略がロックされた! 準備、セット...'"
        [23]
-        1 string data = "Wait."
+        1 string data = "待つ"
        [24]
-        1 string data = ">>Automate opponent"
+        1 string data = ">>相手を自動化"
        [25]
-        1 string data = "Radio the other Ranger squad."
+        1 string data = "別のレンジャー分隊に無線連絡する"
        [26]
-        1 string data = ""Sure.""
+        1 string data = ""了解""
        [27]
-        1 string data = "'A player has left the game. Connection lost.'"
+        1 string data = "''プレイヤーがゲームから離脱した。接続が失われた'"
        [28]
         1 string data = "<<ERROR: EXECUTABLE NOT FOUND>>"
        [29]
-        1 string data = "'Begin game.'"
+        1 string data = "''ゲーム開始'"
        [30]
-        1 string data = ""Would you like to help me test my game?""
+        1 string data = ""俺のゲームのテストを手伝ってくれるか?""
        [31]
         1 string data = "Script Node 32"
        [32]
-        1 string data = ""Not interested.""
+        1 string data = ""興味ない""
        [33]
-        1 string data = ""You would? Thank you!"\n\n\nThe robot's blades tremble with excitement."
+        1 string data = ""手伝ってくれるのか? ありがとう!"\n\n\nロボットの刃が興奮で震える"
        [34]
-        1 string data = ""Oh. Okay. Sorry to bother you.""
+        1 string data = ""ああ、わかった。邪魔してすまない""
        [35]
-        1 string data = ""My name's Pico, by the way. I've designed this game to help the Commune defend itself!""
+        1 string data = ""ところで俺の名前はピコだ。このゲームはコミューンが自衛するのを助けるために設計したんだ!""
        [36]
         1 string data = "::sighs::"
        [37]
         1 string data = "Script Node 38"
        [38]
-        1 string data = "'Waiting for opponent to select a strategy...'"
+        1 string data = "''対戦相手の戦略選択を待機中...'"
        [39]
-        1 string data = "You signal to your fellow Rangers."
+        1 string data = "仲間のレンジャーに合図を送る"
        [40]
         1 string data = "Script Node 41"
        [41]
@@ -249925,29 +249925,29 @@
        [48]
         1 string data = "Script Node 49"
        [49]
-        1 string data = "'Tie. Neither player has won the round.'\n\n\n'Round #[Global: b4001_Hologame_CurrentRound] will be repeated.'"
+        1 string data = "''引き分け。どちらのプレイヤーもラウンドに勝利していない'\n\n\n'ラウンド#[Global: b4001_Hologame_CurrentRound]を繰り返す'"
        [50]
-        1 string data = "'Round #[Global: b4001_Hologame_CurrentRound] complete!'\n\n\n'<i>Player 1</i> has won the round.\nPlayer 2 has lost the round.'\n"
+        1 string data = "''ラウンド#[Global: b4001_Hologame_CurrentRound]完了!'\n\n\n'<i>プレイヤー1</i>がラウンドに勝利\nプレイヤー2がラウンドに敗北'\n"
        [51]
-        1 string data = "'Round #[Global: b4001_Hologame_CurrentRound] complete!'\r\n\r\n'<i>Player 2</i> has won the round. \r\nPlayer 1 has lost the round.'\r\n"
+        1 string data = "''ラウンド#[Global: b4001_Hologame_CurrentRound]完了!'\r\n\r\n'<i>プレイヤー2</i>がラウンドに勝利 \r\nプレイヤー1がラウンドに敗北'\r\n"
        [52]
         1 string data = ">>ERROR\r\n>>OUTCOME IMPOSSIBLE\r\nDEBUG CODES TO FOLLOW\r\nb4001_HologameP2_InputLocked == [Global: b4001_HologameP2_InputLocked].  \r\nb4001_HologameP2_AttackType == [Global: b4001_HologameP2_AttackType]\r\nb4001_HologameP1_AttackType == [Global: b4001_HologameP1_AttackType]\r\nb4001_HologameP1_PcConnected ==[Global: b4001_HologameP1_PcConnected]\r\nb4001_HologameP2_PcConnected ==[Global: b4001_HologameP2_PcConnected]\r\nb4001_Hologame_TalkAvailable == [Global: b4001_Hologame_TalkAvailable]"
        [53]
-        1 string data = "'Processing...'"
+        1 string data = "''処理中...'"
        [54]
-        1 string data = "'Next round!'"
+        1 string data = "''次のラウンド!'"
        [55]
-        1 string data = "'Player 1 wins! SIMULATED HUMAN VICTORY.'"
+        1 string data = "''プレイヤー1の勝利! 模擬人間勝利'"
        [56]
-        1 string data = "'Player 2 wins! SIMULATED ROBOT VICTORY.'"
+        1 string data = "''プレイヤー2の勝利! 模擬ロボット勝利'"
        [57]
-        1 string data = "'IMPOSSIBLE TO DETERMINE A VICTOR. UNABLE TO RESOLVE THE SIMULATION.'"
+        1 string data = "''勝者の判定不可能。シミュレーション解決不能'"
        [58]
-        1 string data = "'SIMULATION UNRESOLVED. NO VICTORY WAS POSSIBLE.'"
+        1 string data = "''シミュレーション未解決。勝利不可能'"
        [59]
-        1 string data = ">>Play Again"
+        1 string data = ">>もう一度プレイ"
        [60]
-        1 string data = ">>Quit Game"
+        1 string data = ">>ゲーム終了"
        [61]
         1 string data = "Script Node 62"
        [62]
@@ -249955,21 +249955,21 @@
        [63]
         1 string data = "Script Node 64"
        [64]
-        1 string data = ""Hm... I think I'll...""
+        1 string data = ""うーむ...俺は...""
        [65]
-        1 string data = ""The optimal strategy in this situation..."\n\n\n"Well, I'm sure they can be reasoned with it. I choose, 'Talk It Out!'""
+        1 string data = ""この状況での最適戦略は..."\n\n\n"まあ、きっと話せばわかってくれるだろう。'話し合い'を選ぶ!""
        [66]
-        1 string data = ""I know I should be more aggressive..."\n\n\n"... Well, maybe I can catch them off guard. They won't be expecting me to...""
+        1 string data = ""もっと攻撃的になるべきだとわかっているんだが..."\n\n\n"...まあ、不意を突けるかもしれない。相手は俺が...とは思わないだろう""
        [67]
-        1 string data = ""'Talk It Out!'""
+        1 string data = ""'話し合い!'""
        [68]
-        1 string data = ""Ack! 'Talk It Out' is gone. Gone!"\n\n\n"I'll, um, pick one at random, I guess. I'm sorry, little hologram!""
+        1 string data = ""あっ! '話し合い'が消えた。消えたんだ!"\n\n\n"えーと、ランダムに選ぶしかないな。ごめんよ、小さなホログラム!""
        [69]
-        1 string data = ""No! No. I don't have a choice. I'll have to pick-""
+        1 string data = ""だめだ! だめだ。選択肢がない。選ばないと...""
        [70]
-        1 string data = ""Oh dear...""
+        1 string data = ""ああ...""
        [71]
-        1 string data = ""Oh, I wish I could still choose 'Talk It Out!'""
+        1 string data = ""ああ、まだ'話し合い'を選べたらいいのに!""
        [72]
         1 string data = "Script Node 73"
        [73]
@@ -250119,53 +250119,53 @@
        [4]
         1 string data = "Script Node 5"
        [5]
-        1 string data = "'Please log in to console 1 to begin the game.'"
+        1 string data = "''コンソール1にログインしてゲームを開始してください'"
        [6]
-        1 string data = "'Game started!'\n\n\n'No player has logged into console 1. Would you like to wait for a player to join?'"
+        1 string data = "''ゲーム開始!'\n\n\n'コンソール1にログインしたプレイヤーがいません。プレイヤーの参加を待ちますか?'"
        [7]
         1 string data = "Script Node 8"
        [8]
-        1 string data = "'Waiting for Player 2 to select a strategy...'"
+        1 string data = "''プレイヤー2の戦略選択を待機中...'"
        [9]
         1 string data = "Script Node 10"
        [10]
         1 string data = ">>ERROR. Console 1 is occupied, but no connection has been found. Please investigate."
        [11]
-        1 string data = "'Both consoles are now connected. Game on!'"
+        1 string data = "''両方のコンソールが接続されました。ゲーム開始!'"
        [12]
         1 string data = "TBD"
        [13]
-        1 string data = "Wait for another player to connect."
+        1 string data = "別のプレイヤーの接続を待つ"
        [14]
-        1 string data = ">>Quit game"
+        1 string data = ">>ゲーム終了"
        [15]
         1 string data = "Script Node 16"
        [16]
-        1 string data = ">>Play again"
+        1 string data = ">>もう一度プレイ"
        [17]
-        1 string data = ""Oh! Would you like to play? Go right ahead!""
+        1 string data = ""おお! プレイしたいのか? どうぞどうぞ!""
        [18]
-        1 string data = "'Choose your hologram's strategy:'"
+        1 string data = "''ホログラムの戦略を選べ:'"
        [19]
-        1 string data = ">><i>R</i> ush Attack"
+        1 string data = ">><i>R</i> - 突撃攻撃"
        [20]
-        1 string data = ">><i>P</i> recision Blast"
+        1 string data = ">><i>P</i> - 精密射撃"
        [21]
-        1 string data = ">><i>S</i> neaky Strike"
+        1 string data = ">><i>S</i> - 隠密攻撃"
        [22]
-        1 string data = ">>Talk it out"
+        1 string data = ">>話し合い"
        [23]
-        1 string data = "'Round complete. Next?'"
+        1 string data = "''ラウンド完了。次は?'"
        [24]
-        1 string data = "'A player has left the game. Connection lost.'"
+        1 string data = "''プレイヤーがゲームから離脱した。接続が失われた'"
        [25]
-        1 string data = "'Game over! Would you like to play again?'"
+        1 string data = "''ゲームオーバー! もう一度プレイしますか?'"
        [26]
-        1 string data = "'Waiting for connection...'"
+        1 string data = "''接続を待機中...'"
        [27]
-        1 string data = "Wait for the other player."
+        1 string data = "他のプレイヤーを待つ"
        [28]
-        1 string data = "'Selection Confirmed. Waiting for Host.'"
+        1 string data = "''選択確認。ホストを待機中'"
        [29]
         1 string data = "<<ERROR: EXECUTABLE NOT FOUND>>"
    [796]
@@ -250255,21 +250255,21 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = ""RANGERS. WE ARE READY TO SPEAK WITH YOU. PLEASE PROCEED TO THE TALL STRUCTURE IN THE NORTH-EAST CORNER OF THE AIRPORT.""
+        1 string data = ""レンジャー諸君。我々は君たちと話す準備ができている。空港の北東の隅にある高い建造物に進んでくれ""
        [2]
-        1 string data = ""YOU WILL RECOGNIZE US BY OUR MANY GLOWING SCREENS.""
+        1 string data = ""我々の多数の光るスクリーンで判別できるだろう""
        [3]
         1 string data = "Script Node 4"
        [4]
         1 string data = "Script Node 5"
        [5]
-        1 string data = ""WE HAVE NOT FINISHED PROCESSING YOUR DATA, BUT VERY WELL - PLEASE COME IN.""
+        1 string data = ""君たちのデータの処理はまだ終わっていないが、わかった - 入ってくれ""
        [6]
-        1 string data = ""WE DID NOT KNOW THOSE STAIRS WERE STILL CAPABLE OF SUPPORTING WEIGHT. INTERESTING.""
+        1 string data = ""あの階段がまだ重量を支えられるとは知らなかった。興味深い""
        [7]
         1 string data = "Script Node 8"
        [8]
-        1 string data = ""RANGERS. WE ARE EAGER TO SPEAK WITH YOU. SEEK US IN THE NORTH-EAST CORNER OF THE AIRPORT.""
+        1 string data = ""レンジャー諸君。我々は君たちと話したいと思っている。空港の北東の隅で我々を探してくれ""
    [798]
     0 StringTable data
      1 string Filename = "b4001_sal_and_partypal"
@@ -250477,39 +250477,39 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = ""Hey, Rangers, I want you to meet my friend, Party Pal! It's been processing and re-processing Ranger data since we first heard about your work in Arizona.""
+        1 string data = ""やあ、レンジャー諸君。友人のパーティパルを紹介したい! アリゾナでの君たちの活動を最初に聞いて以来、ずっとレンジャーのデータを処理して再処理してきたんだ""
        [2]
-        1 string data = ""What did you want to know about Party Pal?""
+        1 string data = ""パーティパルについて何が知りたい?""
        [3]
-        1 string data = "[Recruit Party Pal] "Are you ready to be a Ranger, little guy?""
+        1 string data = "[パーティパルを勧誘] "レンジャーになる準備はできたか、相棒?""
        [4]
         1 string data = "Make Party Pal Recruitable, normally this will happen after getting Reagan. "" PLACEHOLDER TEXT"
        [5]
-        1 string data = "[Dismiss Party Pal] "We're unhappy with our Party Pal companion. Can you make it stop following us, please?""
+        1 string data = "[パーティパルを解散] "パーティパルの仲間に不満がある。ついてこないようにしてもらえるか?""
        [6]
         1 string data = "TBD\n"
        [7]
         1 string data = "DEBUG: Set Reagan to Recruitable "" PLACEHOLDER TEXT"
        [8]
-        1 string data = ""Never mind, let's talk later.""
+        1 string data = ""気にするな。後で話そう""
        [9]
-        1 string data = ""You said it, Party Pal.""
+        1 string data = ""そのとおりだ、パーティパル""
        [10]
         1 string data = "Script Node 11"
        [11]
         1 string data = "::CLICK::"
        [12]
-        1 string data = ""Party Pal, you're a real live Ranger now! Isn't that great?""
+        1 string data = ""パーティパル、お前は今や本物のレンジャーだ! 素晴らしいだろ?""
        [13]
-        1 string data = ""Oh wow. I don't think I've ever seen Party Pal <i>this</i> excited."\n\n\n"You're going to have so much fun together!""
+        1 string data = ""うわあ。パーティパルが<i>ここまで</i>興奮してるのは見たことがない"\n\n\n"一緒に楽しい時間を過ごせるぞ!""
        [14]
         1 string data = "Making Party Pal Recruitable"""" PLACEHOLDER TEXT\n\n\nb4001_PartyPal_isRecruitable] == [Global: b4001_PartyPal_isRecruitable]"
        [15]
-        1 string data = ""Wow, that's pretty cold. Party Pal has been dreaming of joining the Rangers since it first logged your existence."\n\n\n"But okay... Party Pal will be here if you change your mind.""
+        1 string data = ""うわあ、それはかなり冷たいな。パーティパルは最初に君たちの存在を記録して以来、レンジャーに加わることを夢見ていたんだ"\n\n\n"でもわかった...気が変わったらパーティパルはここにいるから""
        [16]
         1 string data = """ PLACEHOLDER TEXT"
        [17]
-        1 string data = ""Party Pal is the pinnacle of party participation prolongment and puke prevention! Originally a FindleyTek prototype, Party Pal's ability to perpetuate any party became the stuff of legend!""
+        1 string data = ""パーティパルはパーティー参加の持続と嘔吐防止の頂点だ! 元々はフィンドリーテック社のプロトタイプで、どんなパーティーも永続させるパーティパルの能力は伝説になった!""
        [18]
         1 string data = "Script Node 19"
        [19]
@@ -250521,9 +250521,9 @@
        [22]
         1 string data = """ PLACEHOLDER TEXT\n\n\nSomething has gone wrong! Investigate node 20 in b4001_SAL_And_PartyPal.conversation"
        [23]
-        1 string data = ""Reagan is here! That's great news. We've already lined up reams of data from the Commune questioning their co-existence in a variety of ways. A machine mind that was once human should be able to sift through such emotional baggage easily!""
+        1 string data = ""レーガンがここにいる! 素晴らしいニュースだ。コミューンからの共存に関するさまざまな疑問のデータがすでに大量に並んでいる。かつて人間だった機械の心なら、そうした感情的な重荷を簡単に整理できるはずだ!""
        [24]
-        1 string data = ""Why would you move Reagan to another server? The Commune needs a once-human machine mind to help them work through their existential crisis! I'm so disappointed, Rangers.""
+        1 string data = ""なぜレーガンを別のサーバーに移したんだ? コミューンには実存的危機を乗り越えるために、かつて人間だった機械の心が必要なんだ! とても失望したよ、レンジャー諸君""
        [25]
         1 string data = "Bank 26"
        [26]
@@ -250531,45 +250531,45 @@
        [27]
         1 string data = "::BOOP::"
        [28]
-        1 string data = ""Party Pal told me about its depressed cousin who used to track Santa and tell children his location."\n\n\n"Party Pal doesn't like to talk about that much. Seemed like a sensitive subject."\n"
+        1 string data = ""パーティパルがサンタを追跡して子供たちに位置を教えていた、落ち込んだいとこの話をしてくれた"\n\n\n"パーティパルはあまりその話をしたがらない。デリケートな話題みたいだ"\n"
        [29]
-        1 string data = ""Party Pal can't leave the Commune without a replacement machine mind psychologist, so..."\n\n\n"I'm sorry, Party Pal... You don't get to live your dream of being a Ranger.""
+        1 string data = ""パーティパルは代わりの機械の心理学者なしにはコミューンを離れられないから..."\n\n\n"ごめんよ、パーティパル...レンジャーになる夢は叶えられない""
        [30]
         1 string data = "::PARTY HORN::"
        [31]
         1 string data = " Follow-up PQ. 32"
        [32]
-        1 string data = ""What's Party Pal's history?""
+        1 string data = ""パーティパルの経歴は?""
        [33]
-        1 string data = ""What's Party Pal's history again?""
+        1 string data = ""パーティパルの経歴をもう一度聞かせてくれ""
        [34]
-        1 string data = ""Sorry, Rangers. Party Pal is gone and I know the Rangers had some part in it. The loss of a machine like Party Pal is difficult to bear..."\n\n\n"... No one partied like Party Pal.""
+        1 string data = ""すまない、レンジャー諸君。パーティパルはもういない。レンジャー諸君が関わっていたことも知っている。パーティパルのような機械を失うのは耐え難い..."\n\n\n"...パーティパルほどパーティーをする者はいなかった""
        [35]
-        1 string data = ""We had some questions unrelated to Party Pal.""
+        1 string data = ""パーティパルとは関係ない質問がある""
        [36]
-        1 string data = ""Just a moment, I need to clear my cache. Party Pal just has a way of amping things up, you know? Don't worry if I get repetitious, I still remember what you told me. Tiny bug. You understand.""
+        1 string data = ""ちょっと待ってくれ。キャッシュをクリアする必要がある。パーティパルは物事を増幅させる方法を持っているんだ、わかるだろう? 繰り返しても気にしないでくれ。君たちが言ったことは覚えている。小さなバグだ。わかってくれ""
        [37]
-        1 string data = "SAL emits a series of beeps as you hear spinning discs suddenly come to a halt. A moment of silence is followed by platters grinding back to life and a sudden low but harmonic tone."
+        1 string data = "SALが一連のビープ音を発し、回転するディスクが突然停止する音が聞こえる。一瞬の沈黙の後、プラッターが再び動き出し、突然低く調和のとれた音が鳴る"
        [38]
         1 string data = "Trigger Conv Node 39"
        [39]
-        1 string data = ""As soon as Reagan's safe and secure with us, Party Pal wants to join your Ranger team!"\n\n\n"Isn't that grand?""
+        1 string data = ""レーガンが安全に我々のもとに来たら、パーティパルは君たちのレンジャーチームに加わりたがっている!"\n\n\n"素晴らしいだろう?""
        [40]
         1 string data = "::WAMP WAMP::"
        [41]
-        1 string data = ""Party Pal became our commune's resident psychologist. Sentient super-intelligences have <i>unique</i> emotional problems."\n\n\n"But Party Pal needs a change of pace and is excited to join your team!""
+        1 string data = ""パーティパルは我々のコミューンの常駐心理学者になった。感覚を持つ超知能には<i>独特な</i>感情的問題があるんだ"\n\n\n"でもパーティパルには気分転換が必要で、君たちのチームに加わることを楽しみにしている!""
        [42]
-        1 string data = ""Why wait? We could use Party Pal's help securing the Reagan Intelligence.""
+        1 string data = ""なぜ待つ必要がある? レーガン知性体を確保するのにパーティパルの助けが使えるはずだ""
        [43]
         1 string data = "::BOOP::"
        [44]
-        1 string data = ""No offense intended, but you haven't proven yourself yet."\n\n\n"Party Pal wants to know if you measure up to the legends of the Arizona Rangers. Rescuing Reagan will prove you're the real deal.""
+        1 string data = ""悪気はないが、まだ君たちは自分を証明していない"\n\n\n"パーティパルはアリゾナレンジャーの伝説に匹敵するかどうかを知りたがっている。レーガンを救出すれば、君たちが本物だと証明される""
        [45]
-        1 string data = ""Are there other robots like Party Pal?""
+        1 string data = ""パーティパルのような他のロボットはいるのか?""
        [46]
         1 string data = "::PARTY HORN::"
        [47]
-        1 string data = ""I know, buddy. Sorry. I won't bring it up again.""
+        1 string data = ""わかってる、相棒。すまない。もう話題にしない""
    [799]
     0 StringTable data
      1 string Filename = "b4001_vici"
