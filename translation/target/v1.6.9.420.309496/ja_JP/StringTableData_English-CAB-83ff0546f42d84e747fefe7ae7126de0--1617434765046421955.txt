@@ -271919,9 +271919,9 @@
       1 Array Array (96 items)
        0 int size = 96
        [0]
-        1 string data = "Your squad is full, and there is no one you can remove at this time."
+        1 string data = ""部隊は満員で、現時点で外せる者はいません。""
        [1]
-        1 string data = "Your squad is full, so you must make room for this companion."
+        1 string data = ""部隊は満員です。この仲間のためにスペースを空けなければなりません。""
        [2]
         1 string data = "Script Node 3"
        [3]
@@ -271931,35 +271931,35 @@
        [5]
         1 string data = "Trigger Conv Node 6"
        [6]
-        1 string data = ""Buddy, head back to base.""
+        1 string data = ""バディ、基地に戻ってくれ。""
        [7]
-        1 string data = ""Cordite, we're switching things up. Head back to headquarters.""
+        1 string data = ""コーダイト、編成を変える。本部に戻ってくれ。""
        [8]
-        1 string data = ""Kwon, we need you to head back to HQ.""
+        1 string data = ""クォン、本部に戻ってくれないか。""
        [9]
-        1 string data = ""Lucia, do you mind returning to headquarters?""
+        1 string data = ""ルシア、本部に戻ってくれるかな?""
        [10]
-        1 string data = ""Pizepi, can you head back to headquarters?""
+        1 string data = ""ピゼピ、本部に戻ってもらえるか?""
        [11]
-        1 string data = ""Head back to base, Vic. We don't need you right now.""
+        1 string data = ""基地に戻ってくれ、ヴィック。今は必要ない。""
        [12]
-        1 string data = ""Scotchmo, we'd like you to go back to headquarters.""
+        1 string data = ""スコッチモ、本部に戻ってほしいんだ。""
        [13]
-        1 string data = ""Sorry. We're not ready to change our lineup right now. Can you report to our base?""
+        1 string data = ""すまない。今は編成を変える準備ができていない。基地に向かってくれるか?""
        [14]
-        1 string data = ""Understood.""
+        1 string data = ""了解。""
        [15]
-        1 string data = ""I go where I want. Lucky for you, I like your cook.""
+        1 string data = ""俺は行きたいところに行く。幸いなことに、お前らのコックは気に入ってる。""
        [16]
-        1 string data = ""Time off? Absolutely. See you there.""
+        1 string data = ""休暇? もちろん。じゃあそこで会おう。""
        [17]
-        1 string data = ""I reckon I can do that. So long 'til later.""
+        1 string data = ""それならできるわ。じゃあまた後でね。""
        [18]
-        1 string data = ""Of course. On my way.""
+        1 string data = ""もちろん。向かいます。""
        [19]
-        1 string data = ""You're gonna leave me unsupervised in your headquarters? Heh. Okay...""
+        1 string data = ""本部で監視なしで俺を放置するのか? へっ、いいぜ...""
        [20]
-        1 string data = ""Well... if that's what y'want. See ya at the bar!""
+        1 string data = ""まあ...それが望みなら。バーで会おうぜ!""
        [21]
         1 string data = "Trigger Conv Node 6"
        [22]
@@ -272069,7 +272069,7 @@
        [74]
         1 string data = "Trigger Conv Node 78"
        [75]
-        1 string data = ""Sorry. We're not ready to change our lineup right now. Can you hang out here?""
+        1 string data = ""すまない。今は編成を変える準備ができていない。ここで待機してくれるか?""
        [76]
         1 string data = "Trigger Conv Node 84"
        [77]
