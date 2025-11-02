@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 16123,
-      "entries_untranslated": 153589,
-      "completion_rate": 9.50,
-      "current_line": 227210,
+      "entries_translated": 16153,
+      "entries_untranslated": 153559,
+      "completion_rate": 9.52,
+      "current_line": 229944,
       "status": "in_progress",
       "approach": "Strict sequential from line 666, Spanish reference mandatory",
-      "note": "Session 196: 105 entries translated (lines 226987-227210). Section: b3001_thezealot_valor complete - System upgrade quest, Valor tech dialogues. Spanish reference applied. Action markers preserved in English. Structure validation: 0 errors, 20 warnings (HTML only - pre-existing). Next: Continue from line 227211 (new section start)."
+      "note": "Session 197: 30 entries translated (lines 229137-229944). Sections: b4001_communecivilian complete (15 entries, AI civilian barks), b4001_communetest partial (15 entries, AI judgment dialogues). Skipped lines 227211-229136 (Spanish empty - English preserved per rules). Spanish reference applied. Action markers ::BEEP::, ::CLICK::, ::Whistles:: preserved. Structure validation: 0 errors, 20 warnings (HTML only). Next: Continue b4001_communetest from line 229945."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "4aa7297",
-  "last_commit_message": "Retranslation: b3001_thezealot_valor complete (105 entries, lines 226987-227210)",
-  "total_entries_completed": 16123,
+  "last_commit_hash": "0ba3b40",
+  "last_commit_message": "Retranslation: b4001_commune sections partial (30 entries, lines 229137-229944)",
+  "total_entries_completed": 16153,
   "total_entries": 169712,
-  "total_entries_untranslated": 153589,
-  "overall_completion_rate": 9.50,
-  "next_action": "Continue strict sequential translation. Next: New section from line 227211. Spanish reference mandatory. Validate after every edit.",
+  "total_entries_untranslated": 153559,
+  "overall_completion_rate": 9.52,
+  "next_action": "Continue strict sequential translation. Next: b4001_communetest from line 229945. Spanish reference mandatory. Validate after every edit.",
   "strict_workflow": {
     "sequential_processing": "MANDATORY - Process from line 1 sequentially. NO skipping, NO prioritization.",
     "spanish_reference": "MANDATORY - Check Spanish file for translatability before each translation.",
