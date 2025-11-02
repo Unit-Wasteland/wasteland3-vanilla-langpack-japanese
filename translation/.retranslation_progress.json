@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 15802,
-      "entries_untranslated": 153910,
-      "completion_rate": 9.31,
-      "current_line": 224628,
+      "entries_translated": 15887,
+      "entries_untranslated": 153825,
+      "completion_rate": 9.36,
+      "current_line": 225510,
       "status": "in_progress",
       "approach": "Strict sequential from line 666, Spanish reference mandatory",
-      "note": "Session 193: 37 entries translated (lines 224349-224628). Section: b3001_sisternancyglory complete (163 entries total - Sister Nancy Glory dialogue, Godfishers quest, VIP treatment, Reagan statue interaction). Spanish reference applied for all entries. Structure validation: 0 errors, 20 warnings (HTML only - pre-existing). Next: b3001_sisternancytaint from line 225218."
+      "note": "Session 194: 85 entries translated (lines 225218-225510). Section: b3001_sisternancytaint complete (145 entries total - Sister Nancy Taint dialogue part 1, Doc medical quest, Machine Commune medical data quest). Spanish reference applied. Structure validation: 0 errors, 20 warnings (HTML only - pre-existing). Next: b3001_sisternancytaint2 from line 225513."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,19 +48,19 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "2d9b17e",
-  "last_commit_message": "Retranslation: b3001_sisternancyglory complete (37 entries, lines 224349-224628)",
-  "total_entries_completed": 15802,
+  "last_commit_hash": "",
+  "last_commit_message": "Retranslation: b3001_sisternancytaint complete (85 entries, lines 225218-225510)",
+  "total_entries_completed": 15887,
   "total_entries": 169712,
-  "total_entries_untranslated": 153910,
-  "overall_completion_rate": 9.31,
-  "next_action": "Continue strict sequential translation. Next: b3001_sisternancytaint from line 225218. Spanish reference mandatory. Validate after every edit.",
+  "total_entries_untranslated": 153825,
+  "overall_completion_rate": 9.36,
+  "next_action": "Continue strict sequential translation. Next: b3001_sisternancytaint2 from line 225513. Spanish reference mandatory. Validate after every edit.",
   "strict_workflow": {
     "sequential_processing": "MANDATORY - Process from line 1 sequentially. NO skipping, NO prioritization.",
     "spanish_reference": "MANDATORY - Check Spanish file for translatability before each translation.",
     "validation_frequency": "MANDATORY - Validate structure after EVERY edit using validate_structure_v2.py.",
     "manual_only": "MANDATORY - NO batch processing, NO automation shortcuts, NO efficiency compromises.",
-    "quote_format": "MANDATORY - Match source quote count exactly. Common formats: 2 quotes (\"text\") or 4 quotes (\"\"text\"\"). NEVER use \\\" escaping or Japanese brackets.",
+    "quote_format": "MANDATORY - Match source quote count exactly. Common formats: 2 quotes (text) or 4 quotes (double-quote text). NEVER use backslash escaping or Japanese brackets.",
     "forbidden_actions": [
       "Batch processing multiple entries",
       "Skipping lines or prioritizing content",
@@ -74,11 +74,11 @@
   "structure_protection": {
     "critical_rules": [
       "NEVER delete text when Spanish is empty - preserve English text to maintain quote count",
-      "Spanish empty (\"\") means 'no translation needed', NOT 'delete the text'",
+      "Spanish empty means no translation needed, NOT delete the text",
       "Always match quote count exactly: EN=4 quotes -> JA=4 quotes (Session 125 lesson)"
     ],
     "preserve_markers": [
-      "\"\"",
+      "double-quote format",
       "[ ]",
       "< >",
       "::action::"
@@ -94,8 +94,8 @@
     "validation_rules": [
       "Line count must match source exactly",
       "Quote count per line must match source exactly",
-      "No Japanese brackets (「」『』) in structure",
-      "No backslash escaping (\\\")",
+      "No Japanese brackets in structure",
+      "No backslash escaping",
       "No translated action markup (::action::)",
       "No translated technical terms (Script Node)",
       "All game variables preserved"
