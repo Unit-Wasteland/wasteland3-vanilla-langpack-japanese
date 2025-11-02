@@ -35,6 +35,28 @@ This document provides strict translation rules to prevent structural corruption
 
 **See:** CLAUDE.md Section 5 for detailed action marker rules.
 
+#### 1.1. Action-Only Entries - DO NOT EDIT
+
+**If an entry contains ONLY an action marker and nothing else, DO NOT edit it.**
+
+```
+Example:
+string data = "::shivers::"     ← DO NOT EDIT (action-only entry)
+string data = "::nods::"        ← DO NOT EDIT (action-only entry)
+```
+
+**Reason:** Editing action-only entries may accidentally add extra quotes or modify structure.
+
+**DISCOVERED ISSUE (2025-11-02):**
+- Line 237076: `string data = "::shivers::"` was accidentally edited to `string data = "::shivers::""` (extra quote added)
+- This caused quote count mismatch (2 quotes → 3 quotes)
+- Game import would fail
+
+**Prevention:**
+1. Before editing, check if entry is action-only
+2. If yes, skip editing (preserve source exactly)
+3. Validate quote count after any edit
+
 ---
 
 ### 2. Structure Markers - ABSOLUTE PRESERVATION
