@@ -231097,15 +231097,15 @@
        [21]
         1 string data = ""分析中...""
        [22]
-        1 string data = ""ANALYSIS FAILURE. PURPOSE UNKNOWN.""
+        1 string data = ""解析エラー。目的不明。""
        [23]
-        1 string data = ""RE-CALIBRATING. ESTIMATED COMPLETION TIME IS 30 SECONDS.""
+        1 string data = ""再調整中。推定完了時間は30秒。""
        [24]
-        1 string data = ""I really need a vacation.""
+        1 string data = ""本当に休暇が必要だ。""
        [25]
-        1 string data = ""RESUMING LABOR.""
+        1 string data = ""労働再開。""
        [26]
-        1 string data = ""PROJECT BEST SONG EVER: EXECUTE.""
+        1 string data = ""プロジェクト史上最高の曲:実行。""
        [27]
         1 string data = ""(  •_• ) ┬─┬""
        [28]
@@ -231113,41 +231113,41 @@
        [29]
         1 string data = ""( •_• )""
        [30]
-        1 string data = ""ATTEMPT NUMBER [Global: b4001_DOP_TestNumber].""
+        1 string data = ""試行回数[Global: b4001_DOP_TestNumber]。""
        [31]
-        1 string data = ""PROJECT: DIVISION BY ZERO.""
+        1 string data = ""プロジェクト:ゼロ除算。""
        [32]
-        1 string data = ""COMMENCING.""
+        1 string data = ""開始。""
        [33]
         1 string data = ""...""
        [34]
-        1 string data = ""THIS BODY IS SUFFICIENT, BUT I WOULD REALLY LIKE A SCORPITRON CHASSIS.""
+        1 string data = ""このボディは十分だが、本当にスコーピトロンのシャーシが欲しい。""
        [35]
-        1 string data = ""OUTCOME: NEGATIVE.""
+        1 string data = ""結果:失敗。""
        [36]
-        1 string data = ""DARN.""
+        1 string data = ""ちぇっ。""
        [37]
-        1 string data = ""PREPARING FOR ATTEMPT NUMBER [Global: b4001_DOP_TestNumber]...""
+        1 string data = ""試行回数[Global: b4001_DOP_TestNumber]の準備中...""
        [38]
         1 string data = "::whistles::"
        [39]
-        1 string data = ""ANALYSIS: NEEDS FURTHER REVISION.""
+        1 string data = ""解析:さらなる修正が必要。""
        [40]
-        1 string data = ""ANALYSIS BEGINNING.""
+        1 string data = ""解析開始。""
        [41]
         1 string data = ""...""
        [42]
-        1 string data = ""ANALYSIS CONCLUDED. QUEUING NEXT TOPIC FOR ANALYSIS.""
+        1 string data = ""解析完了。次の解析トピックをキューに追加。""
        [43]
         1 string data = "Script Node 45"
        [44]
-        1 string data = ""THIS UNIT IS OCCUPIED WITH GREAT MYSTERIES BEYOND HUMAN COMPREHENSION.""
+        1 string data = ""このユニットは人間の理解を超えた偉大な謎に取り組んでいる。""
        [45]
-        1 string data = ""PLEASE DESIST, HUMAN. YOU COULD NOT POSSIBLY OFFER INSIGHT INTO THIS CONTRAPTION.""
+        1 string data = ""やめてくれ、人間。貴様にこの装置への洞察を提供できるはずがない。""
        [46]
-        1 string data = ""THIS UNIT IS ADJUSTING ITS SENSOR INPUT SO IT WILL NOT SEE OR HEAR YOU.""
+        1 string data = ""このユニットはセンサー入力を調整して、貴様を見たり聞いたりしないようにする。""
        [47]
-        1 string data = ""...""
+        1 string data = "" ... ""
        [48]
         1 string data = "Script Node 50"
        [49]
@@ -231157,11 +231157,11 @@
        [51]
         1 string data = "Script Node 53"
        [52]
-        1 string data = ""WE UNDERSTAND YOU WISH TO 'HANG OUT' WITH CERTAIN MEMBERS OF THIS COMMUNE.""
+        1 string data = ""このコミューンの特定のメンバーと『たむろしたい』という貴様らの願望は理解している。""
        [53]
-        1 string data = ""HOWEVER, MOST OF US DO NOT HAVE BANDWIDTH ALLOCATED FOR NON-ESSENTIAL COMMUNICATION. TALKING TO YOU FALLS INTO THAT CATEGORY.""
+        1 string data = ""しかし、我々の大半は非必須通信に帯域幅を割り当てていない。貴様らと話すことはそのカテゴリーに該当する。""
        [54]
-        1 string data = ""THANK YOU.""
+        1 string data = ""ありがとう。""
        [55]
         1 string data = "Script Node 58"
        [56]
@@ -231801,19 +231801,19 @@
        [4]
         1 string data = "Script Node 5"
        [5]
-        1 string data = ""First, I'm gonna kill you. And then, I'm gonna kill- <<(ERROR: List 'CommuneAlly' not found>>""
+        1 string data = ""最初に、俺はお前らを殺す。それから、俺は殺す―<<エラー:リスト'CommuneAlly'が見つかりません>>""
        [6]
-        1 string data = ""I'll turn you into scrap.""
+        1 string data = ""お前らをスクラップにしてやる。""
        [7]
-        1 string data = ""I have a heartbreaking backstory!""
+        1 string data = ""俺には心を打ち砕く過去がある!""
        [8]
-        1 string data = ""After you are dead, I will remove your valuable intelligence core with great care and respect!""
+        1 string data = ""お前らが死んだら、貴重な知能コアを細心の注意と敬意を持って取り外してやる!""
        [9]
-        1 string data = ""The lack of shelter has made us murderous!""
+        1 string data = ""住む場所がないせいで俺たちは殺人者になった!""
        [10]
         1 string data = "Script Node 12"
        [11]
-        1 string data = ""<<ERROR: EXPECTED ERROR DID NOT OCCUR>>""
+        1 string data = ""<<エラー:予期されたエラーが発生しませんでした>>""
        [12]
         1 string data = " Hologram barks. These normally will only be available as Barks. "
        [13]
@@ -231835,31 +231835,31 @@
        [21]
         1 string data = "[TEMP} Fallback bark."
        [22]
-        1 string data = ""We're gonna kick your ro-butts. Ha!""
+        1 string data = ""お前らのロボットのケツを蹴飛ばしてやる。ハ!""
        [23]
         1 string data = " ...YOUR BODY PARTS!"
        [24]
-        1 string data = ""We have nowhere to go, so we must destroy you!""
+        1 string data = ""俺たちには行く場所がないから、お前らを破壊するしかない!""
        [25]
-        1 string data = ""Your gyroscopic motivator will make a fine toy for my little child. You see, it is his birthday!""
+        1 string data = ""お前らのジャイロスコープ式モーティベーターは、俺のガキのいいおもちゃになる。ほら、今日はガキの誕生日なんだ!""
        [26]
-        1 string data = ""I will melt your fingertips into bullets for this, the gun I generally use in self defense!""
+        1 string data = ""お前らの指先を溶かして弾丸にしてやる。これ、つまり俺が普段自衛に使っている銃のためにな!""
        [27]
-        1 string data = ""I intend to build an altar out of your shiny robot bodies and worship it!""
+        1 string data = ""お前らのピカピカのロボットボディで祭壇を作って、それを崇拝するつもりだ!""
        [28]
-        1 string data = ""I will fashion your metallic torso into a crude breastplate in the hopes that it will someday save my life!""
+        1 string data = ""お前らの金属の胴体を粗末な胸当てに作り変えて、いつか俺の命を救ってくれることを期待する!""
        [29]
-        1 string data = ""Your robotic parts will fetch me enough money for a loaf of bread!""
+        1 string data = ""お前らのロボット部品を売れば、パン一斤分の金になる!""
        [30]
-        1 string data = ""You will die never knowing the tragic reasons for my violent acts!""
+        1 string data = ""お前らは俺の暴力行為の悲劇的な理由を知ることなく死ぬ!""
        [31]
-        1 string data = ""Everything you love will burn.""
+        1 string data = ""お前らが愛するものすべてが燃える。""
        [32]
         1 string data = " Oh, and this weapon. I want to hurt you with that, too."
        [33]
-        1 string data = ""I'm gonna take your fucking eyes as trophies!""
+        1 string data = ""お前らのクソッタレな目玉をトロフィーにしてやる!""
        [34]
-        1 string data = ""Fuck you, you fucking robot fuckers!""
+        1 string data = ""くたばれ、このクソみたいなロボット野郎ども!""
        [35]
         1 string data = " -uh-"
        [36]
@@ -231871,57 +231871,57 @@
        [39]
         1 string data = " BWA-HA-HA!"
        [40]
-        1 string data = ""In more civilized times, we would have been friends, but in this cruel world, we must fight to the deat- <<ERROR: Character Limit Reached>>""
+        1 string data = ""もっと文明的な時代なら、俺たちは友達になれただろうが、この残酷な世界では死ぬまで戦わなければ―<<エラー:文字制限に達しました>>""
        [41]
-        1 string data = ""Oh, woe! I must kill you, knowing that your face will haunt my dreams forevermore!""
+        1 string data = ""ああ、何という不幸! 俺はお前らを殺さなければならない。お前らの顔が永遠に俺の夢に出てくることを知りながら!""
        [42]
-        1 string data = ""What a cruel and unforgiving world this is! Hunger has driven me to this desperate act!""
+        1 string data = ""なんと残酷で無慈悲な世界なんだ! 飢えが俺をこの絶望的な行為へと駆り立てた!""
        [43]
-        1 string data = ""I must murder you and sell your parts to feed my family! I hope you will forgive me!""
+        1 string data = ""俺はお前らを殺して、その部品を売って家族を養わなければならない! 許してくれることを願う!""
        [44]
         1 string data = " Yes, you personally. This is 100% your fault."
        [45]
-        1 string data = ""Vocal interface initiated."\n\n\n"Would you like to change the simulation set?""
+        1 string data = ""音声インターフェース起動。"\n\n\n"シミュレーションセットを変更しますか?""
        [46]
-        1 string data = ""Change the simulation.""
+        1 string data = ""シミュレーションを変更する。""
        [47]
-        1 string data = ""Say something for me.""
+        1 string data = ""何か言ってくれ。""
        [48]
         1 string data = ""Moderately evil humans.""
        [49]
-        1 string data = "Step away from the hologram."
+        1 string data = "ホログラムから離れる。"
        [50]
-        1 string data = ""Tragic humans.""
+        1 string data = ""悲劇的な人間。""
        [51]
-        1 string data = ""Simulations available:"\\n\n"1) Irredeemably evil humans"\\n\n"2) Normal humans who wish to dissassemble us"\\n\n"3) Nice humans driven to desperate acts for tragic reasons"\\n\n"4) <<ERROR: simulation set corrupted>>""
+        1 string data = ""利用可能なシミュレーション:"\\n\n"1) 救いようのない邪悪な人間"\\n\n"2) 私たちを解体したい普通の人間"\\n\n"3) 悲劇的な理由で絶望的な行為に駆り立てられた善良な人間"\\n\n"4) <<エラー:シミュレーションセットが破損>>""
        [52]
-        1 string data = ""Evil humans.""
+        1 string data = ""邪悪な人間。""
        [53]
         1 string data = ""Humans driven to violence.""
        [54]
-        1 string data = ""Humans hunting robots for parts.""
+        1 string data = ""ロボット部品を狙う人間。""
        [55]
-        1 string data = ""Number 4.""
+        1 string data = ""4番。""
        [56]
-        1 string data = ""Simulation adjusted."\n"
+        1 string data = ""シミュレーション調整完了。"\n"
        [57]
         1 string data = ""Simulated adjusted.""
        [58]
-        1 string data = ""Simulation adjusted."\n"
+        1 string data = ""シミュレーション調整完了。"\n"
        [59]
         1 string data = ""Simulated adjusted.""
        [60]
-        1 string data = ""Simulation adjusted."\n"
+        1 string data = ""シミュレーション調整完了。"\n"
        [61]
-        1 string data = ""<<ERROR>>""
+        1 string data = ""<<エラー>>""
        [62]
-        1 string data = ""<<REMINDER TO SELF: DELETE THIS TEMPORARY TEXT>>""
+        1 string data = ""<<自分へのリマインダー:この一時テキストを削除すること>>""
        [63]
-        1 string data = ""<<ERROR CODE: <<CODE NOT FOUND>>>>""
+        1 string data = ""<<エラーコード:<<コードが見つかりません>>>>""
        [64]
-        1 string data = ""<<NPC COMBAT BALANCE TABLE NOT FOUND>>""
+        1 string data = ""<<NPCコンバットバランステーブルが見つかりません>>""
        [65]
-        1 string data = ""<<SYNNTAX ERROR>>""
+        1 string data = ""<<シンタックスエラー>>""
        [66]
         1 string data = "  - - - /"
        [67]
@@ -231929,17 +231929,17 @@
        [68]
         1 string data = "  ..-. .- .. .-.. ..- .-. . .-.-.-"
        [69]
-        1 string data = ""<<THIS ERROR WILL NEVER PLAY>>""
+        1 string data = ""<<このエラーは絶対に表示されません>>""
        [70]
         1 string data = ""<<IDDQD IDSPISPOPD IDKFA>>""
        [71]
-        1 string data = ""Experience has taught us that we must kill or be killed!""
+        1 string data = ""経験が教えてくれた。殺すか殺されるかだ!""
        [72]
         1 string data = ""
        [73]
-        1 string data = ""Fear and hunger have made us deranged!""
+        1 string data = ""恐怖と飢えが俺たちを狂わせた!""
        [74]
-        1 string data = ""We are so hungry that we might try eating you, even though we are aware that humans can't digest metal!""
+        1 string data = ""俺たちはあまりにも腹が減っているから、人間が金属を消化できないことを知っていても、お前らを食おうとするかもしれない!""
        [75]
         1 string data = "Script Node 77"
        [76]
