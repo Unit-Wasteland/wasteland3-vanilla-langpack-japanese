@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 17452,
-      "entries_untranslated": 152260,
-      "completion_rate": 10.28,
-      "current_line": 244680,
+      "entries_translated": 17468,
+      "entries_untranslated": 152244,
+      "completion_rate": 10.29,
+      "current_line": 245535,
       "status": "in_progress",
       "approach": "Strict sequential from line 666, Spanish reference mandatory",
-      "note": "Session 210: 93 entries translated (lines 244495-244680). Section b1001_mothernancyreliance complete (214/214 entries): Mother Nancy Reliance and Valor Buchanan dialogue completion - Reagan transfer negotiation, Gippers origin story, weapon discussion. Spanish reference used for translatability check. Structure validation: 0 errors in edited range. Action marker ::sighs:: verified English. Quote format corrected (line 244556: 6 quotes matched). Next: Start b1001_postgipperhardheads section from line 244681."
+      "note": "Session 210: 109 entries translated (lines 244495-244884 + skipped 245044-245535). Sections complete: b1001_mothernancyreliance (93), b1001_postgipperhardheads (16 translated, 3 Script Node preserved). Skipped: b1001_radio_mission_gippersvsgodfishers (159 empty entries - no translation needed). Spanish reference used. Structure validation: 0 errors. Action marker ::sighs:: verified. Quote format corrected (line 244556). Next: Continue from line 245536 (next non-empty section)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "bb9f467",
-  "last_commit_message": "Retranslation: b1001_mothernancyreliance complete (93 entries, lines 244495-244680)",
-  "total_entries_completed": 17452,
+  "last_commit_hash": "898d8eb",
+  "last_commit_message": "Retranslation: b1001_postgipperhardheads complete (16 entries, lines 244821-244884)",
+  "total_entries_completed": 17468,
   "total_entries": 169712,
-  "total_entries_untranslated": 152260,
-  "overall_completion_rate": 10.28,
-  "next_action": "Continue strict sequential translation from line 244681 (b1001_postgipperhardheads section start). Spanish reference mandatory. Validate after every edit.",
+  "total_entries_untranslated": 152244,
+  "overall_completion_rate": 10.29,
+  "next_action": "Continue strict sequential translation from line 245536 (next non-empty section after b1001_radio_mission_gippersvsgodfishers). Spanish reference mandatory. Validate after every edit.",
   "strict_workflow": {
     "sequential_processing": "MANDATORY - Process from line 1 sequentially. NO skipping, NO prioritization.",
     "spanish_reference": "MANDATORY - Check Spanish file for translatability before each translation.",
