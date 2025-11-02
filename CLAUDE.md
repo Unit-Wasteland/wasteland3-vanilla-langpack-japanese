@@ -248,6 +248,8 @@ wc -l translation/target/v1.6.9.420.309496/ja_JP/*.txt
 
    **DISCOVERED ISSUE (2025-11-01): 97 instances of action markers were incorrectly translated to Japanese, breaking game functionality.**
 
+   **UPDATE (2025-11-02): Additional 3 instances found and fixed in Session 7. Enhanced prevention measures implemented.**
+
    **What are action markers?**
    - Action markers are game engine control commands in the format `::action::`
    - They control character animations, sounds, and visual effects
@@ -285,6 +287,19 @@ wc -l translation/target/v1.6.9.420.309496/ja_JP/*.txt
    # Check if any contain Japanese characters (should return nothing)
    grep -o '::[^:]*[ぁ-ゖァ-ヾ一-龯][^:]*::' target_file.txt
    ```
+
+   ⚠️⚠️⚠️ **MANDATORY: Post-Edit Verification (Added 2025-11-02)** ⚠️⚠️⚠️
+
+   **After EVERY Edit tool execution, you MUST run this command:**
+   ```bash
+   grep -o '::[^:]*[ぁ-ゖァ-ヾ一-龯][^:]*::' TARGET_FILE
+   ```
+
+   **Expected result**: Empty output (no lines printed)
+   - If output is empty → ✅ OK, proceed to next edit
+   - If output shows anything → ❌ ERROR, action marker contains Japanese, fix immediately before proceeding
+
+   **This verification is NOT optional. It MUST be executed after each edit.**
 
    **Common action markers (NEVER translate these):**
    - Emotions: `::sigh::`, `::laughs::`, `::cries::`, `::screams::`

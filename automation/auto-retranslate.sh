@@ -414,14 +414,46 @@ translation/.retranslation_progress.json を読み込んで、translation/STRICT
 2. **構造保護ルール厳守** (STRUCTURE_PROTECTION_RULES.md):
    - ⚠️⚠️⚠️ **\\r\\n エスケープシーケンスを絶対に実際の改行に変換しない**
    - "" マーカー保護（「」『』に変換禁止）- Unity形式必須
-   - []、<>、::action:: 保護
+   - []、<> 保護
    - [Global:], [Dropset:], [Reward:] など絶対に翻訳禁止
    - Script Node 翻訳禁止
 
+   ⚠️⚠️⚠️ **CRITICAL: ::action:: マーカー保護 (ZERO TOLERANCE)** ⚠️⚠️⚠️
+
+   **アクションマーカーとは**: ゲームエンジン制御コマンド (形式: ::action::)
+   例: ::sigh::, ::laughs::, ::nods::, ::static::, ::gunfire::, ::hums quietly::
+
+   **絶対ルール**:
+   ❌ **絶対禁止**: アクションマーカー内容を日本語に翻訳
+   ❌ **絶対禁止**: アクションマーカーを削除・変更
+   ✅ **正しい処理**: 英語のまま、文字単位で完全一致保持
+
+   **悪い例 (NG - ゲームが壊れる)**:
+   EN: string data = "::sigh:: \"I don't know...\""
+   JA: string data = "::ため息:: \"わからない...\"" ❌ WRONG!
+
+   **正しい例 (OK)**:
+   EN: string data = "::sigh:: \"I don't know...\""
+   JA: string data = "::sigh:: \"わからない...\"" ✅ CORRECT!
+
 3. **各編集後の検証** (MANDATORY):
-   - 各editツール実行後、必ずvalidate_structure_v2.pyを実行
-   - エラーが1件でもあれば即座に修正
-   - 引用符の数が英語ソースと完全一致していることを確認（上記ルール2参照）
+   各editツール実行後、必ず以下を実行:
+
+   a) **構造検証**:
+      python3 translation/validate_structure_v2.py TARGET_FILE --source SOURCE_FILE --detailed
+      → エラー数: 0 であることを確認
+
+   b) **アクションマーカー検証** (NEW - 2025-11-02追加):
+      grep -o '::[^:]*[ぁ-ゖァ-ヾ一-龯][^:]*::' TARGET_FILE
+      → 結果が空であること (何も表示されない = OK)
+      → 何か表示される = アクションマーカーに日本語が含まれている = 即座に修正
+
+   c) **エラーがある場合**:
+      - 次の編集に進まず、即座に修正
+      - 修正後、再度検証 (a) と (b) を実行
+      - 全エラー解消まで繰り返す
+
+   引用符の数が英語ソースと完全一致していることを確認（上記ルール2参照）
 
 4. **シーケンシャル処理** (MANDATORY):
    - 現在の行位置から順番に処理（スキップ禁止）
