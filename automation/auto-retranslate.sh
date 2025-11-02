@@ -573,11 +573,46 @@ EOF
         if bash "$WORKING_DIR/automation/validate-structure.sh" >> "$LOG_FILE" 2>&1; then
             log "INFO" "✓ Structure validation passed"
         else
-            log "ERROR" "✗ Structure validation FAILED!"
-            log "ERROR" "  File structure is corrupted - review validation output in log"
-            log "ERROR" "  Session output: $OUTPUT_FILE"
-            log "ERROR" "  Stopping automation to prevent data loss"
-            exit 1
+            log "WARN" "✗ Structure validation FAILED!"
+            log "WARN" "  Attempting auto-fix..."
+
+            # Attempt auto-fix
+            if bash "$WORKING_DIR/automation/auto-fix-errors.sh" "$LOG_FILE"; then
+                log "INFO" "✓ Auto-fix completed - retrying validation"
+
+                # Retry validation
+                if bash "$WORKING_DIR/automation/validate-structure.sh" >> "$LOG_FILE" 2>&1; then
+                    log "INFO" "✓ Structure validation passed after auto-fix"
+
+                    # Commit auto-fix changes
+                    log "INFO" "Committing auto-fix changes..."
+                    cd "$WORKING_DIR"
+                    git add -A
+                    AUTOFIX_COMMIT_MSG="Auto-fix: Structure errors (Session #$SESSION_COUNT)
+
+Automated error correction by auto-fix-errors.sh
+
+🤖 Generated with [Claude Code](https://claude.com/claude-code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+                    if git commit -m "$AUTOFIX_COMMIT_MSG" >> "$LOG_FILE" 2>&1; then
+                        log "INFO" "✓ Auto-fix changes committed"
+                    else
+                        log "WARN" "⚠ No changes to commit (auto-fix may have been no-op)"
+                    fi
+                else
+                    log "ERROR" "✗ Structure validation still failing after auto-fix"
+                    log "ERROR" "  File structure is corrupted - manual review required"
+                    log "ERROR" "  Session output: $OUTPUT_FILE"
+                    log "ERROR" "  Stopping automation to prevent data loss"
+                    exit 1
+                fi
+            else
+                log "ERROR" "✗ Auto-fix failed - cannot recover automatically"
+                log "ERROR" "  Session output: $OUTPUT_FILE"
+                log "ERROR" "  Stopping automation - manual intervention required"
+                exit 1
+            fi
         fi
 
         # Validate translation quality (action markers, untranslated entries)
@@ -597,12 +632,51 @@ EOF
             --end-line "$CURRENT_LINE" >> "$LOG_FILE" 2>&1; then
             log "INFO" "✓ Quality validation passed (no action marker or untranslated issues)"
         else
-            log "ERROR" "✗ Quality validation FAILED!"
-            log "ERROR" "  Translation quality issues detected (action markers or untranslated entries)"
-            log "ERROR" "  Review quality validation output in log"
-            log "ERROR" "  Session output: $OUTPUT_FILE"
-            log "ERROR" "  Stopping automation - manual review required"
-            exit 1
+            log "WARN" "✗ Quality validation FAILED!"
+            log "WARN" "  Attempting auto-fix..."
+
+            # Attempt auto-fix
+            if bash "$WORKING_DIR/automation/auto-fix-errors.sh" "$LOG_FILE"; then
+                log "INFO" "✓ Auto-fix completed - retrying validation"
+
+                # Retry validation
+                if python3 "$WORKING_DIR/translation/validate_translation_quality.py" \
+                    "$TARGET_FILE" \
+                    --reference "$REFERENCE_FILE" \
+                    --start-line 390 \
+                    --end-line "$CURRENT_LINE" >> "$LOG_FILE" 2>&1; then
+                    log "INFO" "✓ Quality validation passed after auto-fix"
+
+                    # Commit auto-fix changes
+                    log "INFO" "Committing auto-fix changes..."
+                    cd "$WORKING_DIR"
+                    git add -A
+                    AUTOFIX_COMMIT_MSG="Auto-fix: Quality errors (Session #$SESSION_COUNT)
+
+Automated error correction by auto-fix-errors.sh
+Fixed action markers and translation quality issues
+
+🤖 Generated with [Claude Code](https://claude.com/claude-code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+                    if git commit -m "$AUTOFIX_COMMIT_MSG" >> "$LOG_FILE" 2>&1; then
+                        log "INFO" "✓ Auto-fix changes committed"
+                    else
+                        log "WARN" "⚠ No changes to commit (auto-fix may have been no-op)"
+                    fi
+                else
+                    log "ERROR" "✗ Quality validation still failing after auto-fix"
+                    log "ERROR" "  Translation quality issues persist - manual review required"
+                    log "ERROR" "  Session output: $OUTPUT_FILE"
+                    log "ERROR" "  Stopping automation"
+                    exit 1
+                fi
+            else
+                log "ERROR" "✗ Auto-fix failed - cannot recover automatically"
+                log "ERROR" "  Session output: $OUTPUT_FILE"
+                log "ERROR" "  Stopping automation - manual intervention required"
+                exit 1
+            fi
         fi
 
         # Push to remote after successful progress and validation
