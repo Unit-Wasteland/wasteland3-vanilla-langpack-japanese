@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 18489,
-      "entries_untranslated": 151223,
-      "completion_rate": 10.89,
-      "current_line": 257792,
+      "entries_translated": 18719,
+      "entries_untranslated": 150993,
+      "completion_rate": 11.03,
+      "current_line": 258292,
       "status": "in_progress",
       "approach": "Strict sequential from line 666, Spanish reference mandatory",
-      "note": "Session 222: 35 entries translated (lines 257630-257792). Sections: companions_banter entries 31-112 (partial). Spanish reference MANDATORY for every entry. Structure validation: 0 errors, 32 warnings (pre-existing HTML tags). Action marker validation: 0 new issues. Critical fix: Removed incorrectly added action marker from entry 87 (must match English source exactly, not Spanish). All HTML tags preserved. Quote format: 4-quote strictly maintained. Next section: companions_banter continued (entry 113+, line 257793+)."
+      "note": "Session 223: 230 entries translated (lines 257793-258292). Sections: companions_banter entries 113-362 (partial). Spanish reference MANDATORY for every entry. Structure validation: 0 errors, 32 warnings (pre-existing HTML tags). Action marker validation: 0 issues - all markers remain in English. HTML tags preserved in 8 entries. Quote format: 4-quote strictly maintained. Next section: companions_banter continued (entry 363+, line 258293+)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "553e966",
-  "last_commit_message": "Retranslation: Session 222 complete (35 entries, lines 257630-257792)",
-  "total_entries_completed": 18489,
+  "last_commit_hash": "7a0b2aa",
+  "last_commit_message": "Retranslation: Session 223 partial (230 entries, lines 257793-258292)",
+  "total_entries_completed": 18719,
   "total_entries": 169712,
-  "total_entries_untranslated": 151223,
-  "overall_completion_rate": 10.89,
-  "next_action": "Continue strict sequential translation from line 257792. Next section: companions_banter (entry 113+). Spanish reference mandatory. Validate after every edit.",
+  "total_entries_untranslated": 150993,
+  "overall_completion_rate": 11.03,
+  "next_action": "Continue strict sequential translation from line 258293. Next section: companions_banter (entry 363+). Spanish reference mandatory. Validate after every edit.",
   "strict_workflow": {
     "sequential_processing": "MANDATORY - Process from line 1 sequentially. NO skipping, NO prioritization.",
     "spanish_reference": "MANDATORY - Check Spanish file for translatability before each translation.",
