@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 17468,
-      "entries_untranslated": 152244,
-      "completion_rate": 10.29,
-      "current_line": 245535,
+      "entries_translated": 17572,
+      "entries_untranslated": 152140,
+      "completion_rate": 10.35,
+      "current_line": 246012,
       "status": "in_progress",
       "approach": "Strict sequential from line 666, Spanish reference mandatory",
-      "note": "Session 210: 109 entries translated (lines 244495-244884 + skipped 245044-245535). Sections complete: b1001_mothernancyreliance (93), b1001_postgipperhardheads (16 translated, 3 Script Node preserved). Skipped: b1001_radio_mission_gippersvsgodfishers (159 empty entries - no translation needed). Spanish reference used. Structure validation: 0 errors. Action marker ::sighs:: verified. Quote format corrected (line 244556). Next: Continue from line 245536 (next non-empty section)."
+      "note": "Session 211: 104 entries translated (lines 245536-246012). Sections: b1001_radio_mission_gippersvsgodfishers (90 entries - Gippers vs Godfishers radio calls), b1001_rangerstookreaganhostage partial (14 entries - Rangers took Reagan hostage scenario). Spanish reference used (empty entries preserved as English). Structure validation: 0 errors. Action markers verified (::static::, ::beep::). Preserved: Script Node, DEBUG messages, [Transition to], [Attack], [Arrest] markers. Next: Continue b1001_rangerstookreaganhostage from line 246013, then b1001_sabotagestatue."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "898d8eb",
-  "last_commit_message": "Retranslation: b1001_postgipperhardheads complete (16 entries, lines 244821-244884)",
-  "total_entries_completed": 17468,
+  "last_commit_hash": "0dfb8f3",
+  "last_commit_message": "Retranslation: Session 211 complete (104 entries, lines 245536-246012)",
+  "total_entries_completed": 17572,
   "total_entries": 169712,
-  "total_entries_untranslated": 152244,
-  "overall_completion_rate": 10.29,
-  "next_action": "Continue strict sequential translation from line 245536 (next non-empty section after b1001_radio_mission_gippersvsgodfishers). Spanish reference mandatory. Validate after every edit.",
+  "total_entries_untranslated": 152140,
+  "overall_completion_rate": 10.35,
+  "next_action": "Continue strict sequential translation from line 246013. Next section: Continue b1001_rangerstookreaganhostage, then b1001_sabotagestatue. Spanish reference mandatory. Validate after every edit.",
   "strict_workflow": {
     "sequential_processing": "MANDATORY - Process from line 1 sequentially. NO skipping, NO prioritization.",
     "spanish_reference": "MANDATORY - Check Spanish file for translatability before each translation.",
