@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 18786,
-      "entries_untranslated": 150926,
+      "entries_translated": 18788,
+      "entries_untranslated": 150924,
       "completion_rate": 11.07,
-      "current_line": 258426,
+      "current_line": 270534,
       "status": "in_progress",
       "approach": "Strict sequential from line 666, Spanish reference mandatory",
-      "note": "Session 224: 67 entries translated (lines 258293-258426). Sections: companions_banter entries 364-430 (partial continuation). Spanish reference verified for all entries. Structure validation: 0 errors. Action marker validation: 0 issues in translated range. Chemistry jokes translated maintaining scientific terminology. HTML tags preserved in entry 375, 390, 402, 411. Quote format: 4-quote strictly maintained. Next section: companion_barks_cordite begins at line 258675."
+      "note": "Session 225 partial: 2 entries translated (lines 270532, 270534). Skipped range 258427-270531: all entries non-translatable (Script Node or Spanish empty = program identifiers). Section follower_bearsuit: Bear suit dialogue entries. Spanish reference verified - only entries 11, 12 translated (others Spanish empty). Structure validation: 0 errors. Quote format: 4-quote maintained. Remaining in section: lines 270594, 270616, 270636 (3 entries with Spanish translation). Next: Complete follower_bearsuit section."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -50,11 +50,11 @@
   },
   "last_commit_hash": "df40216",
   "last_commit_message": "Retranslation: Session 224 partial (67 entries, lines 258293-258426)",
-  "total_entries_completed": 18786,
+  "total_entries_completed": 18788,
   "total_entries": 169712,
-  "total_entries_untranslated": 150926,
+  "total_entries_untranslated": 150924,
   "overall_completion_rate": 11.07,
-  "next_action": "Continue strict sequential translation from line 258427. Section companions_banter continues with remaining entries, then transition to companion_barks_cordite. Spanish reference mandatory. Validate after every edit.",
+  "next_action": "Complete follower_bearsuit section: translate lines 270594, 270616, 270636 (3 remaining entries with Spanish translation). Then continue sequential processing. Spanish reference mandatory. Validate after every edit.",
   "strict_workflow": {
     "sequential_processing": "MANDATORY - Process from line 1 sequentially. NO skipping, NO prioritization.",
     "spanish_reference": "MANDATORY - Check Spanish file for translatability before each translation.",
