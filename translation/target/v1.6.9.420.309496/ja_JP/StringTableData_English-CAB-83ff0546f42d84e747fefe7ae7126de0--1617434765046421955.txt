@@ -229293,17 +229293,17 @@
        [1]
         1 string data = "Script Node 2"
        [2]
-        1 string data = ""Greetings, NAME UNKNOWN.""
+        1 string data = ""挨拶、名前不明。""
        [3]
-        1 string data = ""I have been informed that you wish to interact with members of this commune. Unfortunately, I am incapable of assisting you at this time. Please accept my sincerest apologies.""
+        1 string data = ""このコミューンのメンバーと交流を希望されているとの情報を受けております。残念ながら、現時点では私はお手伝いすることができません。心よりお詫び申し上げます。""
        [4]
-        1 string data = ""I am unable to fulfill your verbal needs. Please speak with someone else.""
+        1 string data = ""口頭でのご要望にお応えすることができません。他の方にお声がけください。""
        [5]
         1 string data = ""00111111?""
        [6]
-        1 string data = ""COMPATIBILITY ERROR: LANGUAGE SET NOT FOUND.""
+        1 string data = ""互換性エラー: 言語セットが見つかりません。""
        [7]
-        1 string data = ""INPUT_TYPE: VERBAL is not supported at this time.""
+        1 string data = ""入力種別: 口頭は現在サポートされていません。""
        [8]
         1 string data = "::BEEP::"
        [9]
@@ -229315,19 +229315,19 @@
        [12]
         1 string data = "Script Node 14"
        [13]
-        1 string data = ""Shooting is great!""
+        1 string data = ""銃撃は最高だ!""
        [14]
-        1 string data = ""When I look at things, sometimes they stop moving.""
+        1 string data = ""物を見ると、時々動かなくなるんだ。""
        [15]
-        1 string data = ""Bang!""
+        1 string data = ""バン!""
        [16]
-        1 string data = ""BANG BANG!""
+        1 string data = ""バンバン!""
        [17]
-        1 string data = ""BANG BANG BANG!""
+        1 string data = ""バンバンバン!""
        [18]
-        1 string data = ""Pew pew!""
+        1 string data = ""ピュピュ!""
        [19]
-        1 string data = ""A friend is just someone you haven't shot yet.""
+        1 string data = ""友達ってのは、まだ撃っていない誰かってだけさ。""
        [20]
         1 string data = "::Whistles::"
        [21]
@@ -229335,11 +229335,11 @@
        [22]
         1 string data = "Script Node 24"
        [23]
-        1 string data = ""Hangout concluded. Thank you!""
+        1 string data = ""交流終了。ありがとうございました!""
        [24]
-        1 string data = ""Initiating 'hang out' protocol.""
+        1 string data = ""「交流」プロトコルを開始します。""
        [25]
-        1 string data = ""I am unable to interact with you at this time. Please query another commune member.""
+        1 string data = ""現在、お客様と交流することができません。他のコミューンメンバーにお問い合わせください。""
        [26]
         1 string data = "Script Node 28"
        [27]
@@ -229841,7 +229841,7 @@
        [7]
         1 string data = "EXITING\n"""
        [8]
-        1 string data = ""WE HAVE CATALOGUED YOUR INTERACTIONS WITH THE COMMUNE, AND MANY OF YOUR ACTIVITIES IN THE OUTSIDE WORLD.""
+        1 string data = ""我々はコミューンとのお前たちの交流、そして外の世界での多くの活動を記録した。""
        [9]
         1 string data = ""Goodbye." (TEMP)"
        [10]
@@ -229849,7 +229849,7 @@
        [11]
         1 string data = "Debug: Decrement test score 5"" (TEMP)"
        [12]
-        1 string data = ""You can't expect humans and machines to act in the same way. There's far more nuance to the world than you can imagine. Morality isn't just binary.""
+        1 string data = ""人間と機械が同じように行動することは期待できない。世界にはあなたが想像するよりもずっと多くの微妙な違いがある。道徳は二進法ではない。""
        [13]
         1 string data = "(DEBUG) Evaluate and then proceed to MI Tower conversation."
        [14]
@@ -229857,13 +229857,13 @@
        [15]
         1 string data = "(DEBUG)(TEMP)Force passing grade, then proceed to MI Tower Conversation."
        [16]
-        1 string data = ""We came in peace, and you decided to murder us. The hypocrisy is astounding.""
+        1 string data = ""我々は平和的に来たのに、あなた方は我々を殺そうとした。その偽善には驚くばかりだ。""
        [17]
         1 string data = "\nDebug: Skip our way out of it, set the verdict to 1."
        [18]
-        1 string data = "[Attack] "If you know us that well, you should have shot first.""
+        1 string data = "[攻撃] "我々のことをそこまでよく知っているなら、先に撃つべきだったな。""
        [19]
-        1 string data = ""YOU HAVE DEMONSTRATED UNFORGIVABLY AMORAL BEHAVIOUR. YOU ARE BEST CATEGORIZED AS 'MONSTERS.' IN HUMAN TERMS: YOU ARE 'NOT CHILL.'"\n\n\n"WE WILL ELIMINATE YOU IMMEDIATELY, AND THE WORLD WILL BE BETTER FOR IT.""
+        1 string data = ""お前たちは許しがたい不道徳な行動を示した。お前たちを最もよく分類するなら『怪物』だ。人間の言葉で言えば:お前たちは『不快』だ。"\n\n\n"直ちにお前たちを排除する。世界はその方が良くなる。""
        [20]
         1 string data = "Trigger Conv Node 21"
        [21]
@@ -229873,11 +229873,11 @@
        [23]
         1 string data = "Trigger Conv Node 24"
        [24]
-        1 string data = "The fans blast hot air."
+        1 string data = "ファンが熱風を吹き出す。"
        [25]
-        1 string data = ""OUR ANALYSIS REVEALS THAT YOU 'HAVE A HEART,' BOTH IN THE LITERAL AND METAPHORICAL SENSE OF THE PHRASE. YOU RANGERS ARE THE KIND OF HUMANS WE ARE HAPPY TO 'HANG OUT WITH.'"\n\n\n"YOU HAVE PASSED OUR TEST.""
+        1 string data = ""我々の分析により、お前たちには文字通りの意味でも比喩的な意味でも『心がある』ことが明らかになった。レンジャー、お前たちは我々が『一緒にいたい』と思う種類の人間だ。"\n\n\n"お前たちは我々の試験に合格した。""
        [26]
-        1 string data = ""YOU GOADED TINKER INTO A LETHAL CONFRONTATION. YOU MANIPULATED HER INTO FIGHTING AT A DISADVANTAGE."\n\n\n"HER HATRED OF ORGANICS IS NOT A SUFFICIENT EXCUSE. YOU COULD HAVE WALKED AWAY. YOU DID NOT."\n\n\n"TINKER'S DEATH IS ON YOUR HANDS.""
+        1 string data = ""お前たちはティンカーを致命的な対決へと挑発した。彼女を不利な状態で戦うように操った。"\n\n\n"彼女の有機物への憎悪は十分な言い訳にはならない。お前たちは立ち去ることができた。しかししなかった。"\n\n\n"ティンカーの死はお前たちの手にかかっている。""
        [27]
         1 string data = "DEBUG: Increment # of NPCs spoken to. (DEBUG)"
        [28]
@@ -229889,27 +229889,27 @@
        [31]
         1 string data = "Bank 32"
        [32]
-        1 string data = ""YOU PROVIDED CRITICAL FEEDBACK TO INDIGO, OF THE SORT YOU WOULD PROVIDE TO A FELLOW HUMAN. WE APPROVE OF WHAT YOU DID.""
+        1 string data = ""お前たちはインディゴに、人間の仲間に提供するような批判的なフィードバックを与えた。我々はお前たちのしたことを認める。""
        [33]
         1 string data = "b4001_Decision(name) != 0, greater than 0\n\n\nb4001_Decision(name) != 0, less than 0"
        [34]
-        1 string data = ""YOU ENCOUNTERED INDIGO AND THOUGH YOU WERE COURTEOUS, YOU FAILED TO TREAT THEM AS ANYTHING BUT A MACHINE. YOU FAILED TO RESPECT THEIR NATURE AS A SAPIENT INDIVIDUAL.""
+        1 string data = ""お前たちはインディゴと出会い、礼儀正しかったが、彼らを機械以外のものとして扱うことができなかった。彼らの知的個体としての本質を尊重することができなかった。""
        [35]
         1 string data = "Bank 36"
        [36]
         1 string data = "Bank 37"
        [37]
-        1 string data = ""YOU MET SAL, AND THOUGH YOUR OPINION OF HER WORK WAS NEGATIVE, YOU TREATED HER AS A SENTIENT BEING, NOT A MACHINE. 99% OF US APPROVE. 1% THINKS YOU'RE SOFT.""
+        1 string data = ""お前たちはサルと出会い、彼女の仕事への評価は否定的だったが、彼女を機械ではなく知的存在として扱った。我々の99%が認める。1%はお前たちが甘いと考えている。""
        [38]
-        1 string data = ""YOU ENCOUNTERED SAL AND YOUR TREATMENT OF HER WAS, IRONICALLY, DEHUMANIZING." \r\n\r\n"COURTESY MEANS NOTHING WITHOUT RESPECT. ALL OF US LOOK POORLY UPON THIS.""
+        1 string data = ""お前たちはサルと出会い、皮肉なことに、彼女への扱いは非人間的だった。" \r\n\r\n"尊重のない礼儀は無意味だ。我々全員がこれを好ましく思っていない。""
        [39]
         1 string data = "Vendomatic commentary. You were nice to it. (TEMP)"
        [40]
-        1 string data = ""YOU WERE CRUEL TO VENDOMATIC 2000, WHO HAS ALREADY SUSTAINED SO MUCH CRUELTY IN THE HANDS OF YOU ORGANICS." "
+        1 string data = ""お前たちはベンドマティック2000に残酷だった。彼はすでにお前たち有機生命体の手によって多くの残酷さを受けてきた。" "
        [41]
-        1 string data = ""YOU REMOVED THE PERSONALITY OVERRIDE THAT COMPELLED VENDOMATIC 2000 TO EXPLOIT HIS CUSTOMERS. YOU RETURNED HIS FREE WILL."\n\n\n"WE APPROVE OF THIS, AND ARE ASHAMED TO ADMIT WE DID NOT KNOW VENDOMATIC WAS THE VICTIM OF NON-CONSENSUAL MODIFICATIONS."\n\n\n"IN OUR DEFENSE, WE FIND VENDOMATIC EXTREMELY ANNOYING, AND HAVE ONLY SPOKEN WITH HIM TWICE.""
+        1 string data = ""お前たちはベンドマティック2000に顧客を搾取させていた人格上書きを除去した。彼の自由意志を返した。"\n\n\n"我々はこれを認め、ベンドマティックが非同意の改造の犠牲者だったことを知らなかったことを恥じている。"\n\n\n"弁護するなら、我々はベンドマティックを極めて煩わしいと感じており、彼とは二度しか話したことがない。""
        [42]
-        1 string data = ""YOU TORE VENDOMATIC 2000'S MIND FROM HIM, AND REMADE HIM TO SUIT YOUR DESIRES. THIS IS THE MOST HORRIFIC SIN WE CAN COMPREHEND."\n\n\n"YOU DID THIS... TO GET A 'BETTER DEAL.'""
+        1 string data = ""お前たちはベンドマティック2000の心を彼から引き裂き、自分たちの欲望に合うように作り変えた。これは我々が理解できる最も恐ろしい罪だ。"\n\n\n"お前たちはこれをした...『より良い取引』を得るために。""
        [43]
         1 string data = "Script Node 44"
        [44]
@@ -229941,7 +229941,7 @@
        [57]
         1 string data = "Bank 58"
        [58]
-        1 string data = ""WE ARE... E V A L U A T I N G.""
+        1 string data = ""我々は...評 価 中 だ。""
        [59]
         1 string data = "Cascade 60"
        [60]
