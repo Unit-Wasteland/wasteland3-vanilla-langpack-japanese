@@ -551,13 +551,16 @@ EOF
         # Validate translation quality (action markers, untranslated entries)
         log "INFO" "Running quality validation..."
         TARGET_FILE="$WORKING_DIR/translation/target/v1.6.9.420.309496/ja_JP/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt"
+        REFERENCE_FILE="$WORKING_DIR/translation/source/v1.6.9.420.309496/es_ES/StringTableData_Spanish-CAB-f95544f6ef35e8a6587dccfa911ba0f8-9130184510981781208.txt"
 
         # Get current translation range from progress file
         CURRENT_LINE=$(safe_jq_read '.files.base_game.current_line // 390' "$PROGRESS_FILE" 390)
 
         # Run quality validation on translated range (from line 390 to current line)
+        # Use Spanish reference to determine if English text should be translated
         if python3 "$WORKING_DIR/translation/validate_translation_quality.py" \
             "$TARGET_FILE" \
+            --reference "$REFERENCE_FILE" \
             --start-line 390 \
             --end-line "$CURRENT_LINE" >> "$LOG_FILE" 2>&1; then
             log "INFO" "✓ Quality validation passed (no action marker or untranslated issues)"

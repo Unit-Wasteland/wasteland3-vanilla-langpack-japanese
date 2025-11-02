@@ -5,13 +5,17 @@ Translation Quality Validator
 Detects two major types of translation quality issues:
 1. Incorrectly translated ::action:: markers (translated to Japanese instead of kept in English)
 2. Untranslated English entries that should be translated
+
+Uses Spanish reference file to determine if English text should be translated:
+- Spanish empty ("") + English text = Program identifier → Keep English (NOT an error)
+- Spanish translated + English text = Normal text → Should translate to Japanese (IS an error if still English)
 """
 
 import re
 import sys
 import argparse
 from pathlib import Path
-from typing import List, Tuple, Dict
+from typing import List, Tuple, Dict, Optional
 
 # Japanese character ranges (Hiragana, Katakana, Kanji)
 JAPANESE_CHAR_PATTERN = re.compile(r'[\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FFF]')
@@ -89,8 +93,32 @@ def validate_action_markers(line_num: int, line: str) -> List[ValidationIssue]:
 
     return issues
 
-def validate_untranslated_english(line_num: int, line: str, start_line: int = 666, end_line: int = 999999999) -> List[ValidationIssue]:
-    """Validate that English text is translated (within the specified range)."""
+def load_spanish_reference(filepath: Optional[Path]) -> Dict[int, str]:
+    """Load Spanish reference file and extract string data by line number."""
+    spanish_data = {}
+
+    if not filepath or not filepath.exists():
+        return spanish_data
+
+    with open(filepath, 'r', encoding='utf-8') as f:
+        for line_num, line in enumerate(f, start=1):
+            if 'string data' in line:
+                # Extract the string content
+                match = re.search(r'string data = ""(.*)""', line)
+                if match:
+                    spanish_data[line_num] = match.group(1)
+                else:
+                    spanish_data[line_num] = ""
+
+    return spanish_data
+
+def validate_untranslated_english(line_num: int, line: str, spanish_data: Dict[int, str], start_line: int = 666, end_line: int = 999999999) -> List[ValidationIssue]:
+    """Validate that English text is translated (within the specified range).
+
+    Uses Spanish reference to determine if English should be translated:
+    - Spanish empty ("") = Program identifier → Keep English (NOT an error)
+    - Spanish translated = Normal text → Should be Japanese (IS an error if English)
+    """
     issues = []
 
     # Only check within the specified line range
@@ -125,6 +153,18 @@ def validate_untranslated_english(line_num: int, line: str, start_line: int = 66
     if not content_without_markers.strip():
         return issues
 
+    # Check Spanish reference if available
+    if line_num in spanish_data:
+        spanish_content = spanish_data[line_num]
+
+        # If Spanish is empty, this is a program identifier → Keep English (NOT an error)
+        if not spanish_content.strip():
+            return issues
+
+        # If Spanish equals English, this is also a program identifier
+        if spanish_content.strip() == content.strip():
+            return issues
+
     # Check if content contains common English words
     if contains_common_english(content):
         # Check if it also contains Japanese (partially translated)
@@ -136,18 +176,27 @@ def validate_untranslated_english(line_num: int, line: str, start_line: int = 66
             issues.append(ValidationIssue(
                 line_num=line_num,
                 issue_type="UNTRANSLATED_ENGLISH",
-                description=f"English text not translated",
+                description=f"English text not translated (Spanish was translated, so Japanese should also be translated)",
                 line_content=line.strip()
             ))
 
     return issues
 
-def validate_file(filepath: Path, start_line: int = 666, end_line: int = 999999999, verbose: bool = False) -> Dict[str, List[ValidationIssue]]:
+def validate_file(filepath: Path, reference_filepath: Optional[Path] = None, start_line: int = 666, end_line: int = 999999999, verbose: bool = False) -> Dict[str, List[ValidationIssue]]:
     """Validate a translation file for quality issues."""
     issues = {
         'action_markers': [],
         'untranslated': [],
     }
+
+    # Load Spanish reference data
+    spanish_data = load_spanish_reference(reference_filepath)
+
+    if reference_filepath:
+        if spanish_data:
+            print(f"Loaded Spanish reference: {len(spanish_data)} string data entries")
+        else:
+            print(f"Warning: Spanish reference file not found or empty: {reference_filepath}")
 
     with open(filepath, 'r', encoding='utf-8') as f:
         for line_num, line in enumerate(f, start=1):
@@ -156,7 +205,7 @@ def validate_file(filepath: Path, start_line: int = 666, end_line: int = 9999999
             issues['action_markers'].extend(marker_issues)
 
             # Check untranslated English
-            english_issues = validate_untranslated_english(line_num, line, start_line, end_line)
+            english_issues = validate_untranslated_english(line_num, line, spanish_data, start_line, end_line)
             issues['untranslated'].extend(english_issues)
 
     return issues
@@ -224,6 +273,7 @@ def save_detailed_report(issues: Dict[str, List[ValidationIssue]], output_file: 
 def main():
     parser = argparse.ArgumentParser(description='Validate translation quality')
     parser.add_argument('file', type=str, help='Translation file to validate')
+    parser.add_argument('--reference', '-r', type=str, help='Spanish reference file (to determine if English should be translated)')
     parser.add_argument('--start-line', type=int, default=666, help='Start line for validation (default: 666)')
     parser.add_argument('--end-line', type=int, default=999999999, help='End line for validation (default: end of file)')
     parser.add_argument('--verbose', '-v', action='store_true', help='Verbose output')
@@ -237,10 +287,20 @@ def main():
         print(f"Error: File not found: {filepath}")
         sys.exit(1)
 
+    reference_filepath = None
+    if args.reference:
+        reference_filepath = Path(args.reference)
+        if not reference_filepath.exists():
+            print(f"Warning: Spanish reference file not found: {reference_filepath}")
+            print("Validation will proceed without Spanish reference checks")
+            reference_filepath = None
+
     print(f"Validating: {filepath}")
     print(f"Range: lines {args.start_line} to {args.end_line}")
+    if reference_filepath:
+        print(f"Spanish reference: {reference_filepath}")
 
-    issues = validate_file(filepath, args.start_line, args.end_line, args.verbose)
+    issues = validate_file(filepath, reference_filepath, args.start_line, args.end_line, args.verbose)
     total_issues = print_report(issues, args.verbose)
 
     if args.output:
