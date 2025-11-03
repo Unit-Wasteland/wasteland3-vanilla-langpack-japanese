@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 24614,
-      "entries_untranslated": 145098,
-      "completion_rate": 14.51,
-      "current_line": 362448,
+      "entries_translated": 24677,
+      "entries_untranslated": 145035,
+      "completion_rate": 14.54,
+      "current_line": 363324,
       "status": "in_progress",
       "approach": "Strict sequential from line 666, Spanish reference mandatory",
-      "note": "Session 283: 83 entries translated (lines 360831-362448). Sections: o2001_anandarabindranath (116 entries - Ananda Rabindranath merchant NPC, kept in English per Spanish reference empty), o2001_asgerodinkirk_interior (12 entries - kept in English per Spanish reference empty), o2001_audiencemember (33 entries - audience reactions at show, translated), o2001_bardstale (12 entries - Bard's Tale IV game interaction, translated), o2001_bartender (25 entries - Finn bartender NPC dialogue, translated with 2 kept in English per Spanish empty), o2001_bizarrepatrons_hothogcutscene (4 entries - cutscene reactions, translated), o2001_bjornodinkirk_interior (11 entries - kept in English per Spanish empty), o2001_bluemailbox (10 entries - kept in English per Spanish empty), o2001_carmen (18 entries - kept in English per Spanish empty), o2001_cartelthug_interior (9 entries - Cartel member barks, translated). Spanish reference strictly applied. Structure validation: 0 errors. All action markers verified English-only. Next: o2001_charleyknowes section (43 entries)."
+      "note": "Session 284: 63 entries translated (lines 362449-363324). Sections: o2001_charleyknowes (43 entries - kept in English per Spanish reference empty, debug/program identifiers), o2001_charleythugs (6 entries - kept in English per Spanish reference empty), o2001_charley_interior (24 entries - Charley Knowes NPC dialogue translated), o2001_combatbarks_flabtheinhaler (24 entries - Flab combat barks translated), o2001_combatbarks_masher (15 entries - Masher combat barks translated, action marker howl preserved English). Spanish reference strictly applied. Structure validation: 0 errors. All action markers verified English-only. Next: o2001_doctor section (35 entries)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "f060914",
-  "last_commit_message": "Retranslation: Session 282 (39 entries, lines 358165-360830)",
-  "total_entries_completed": 24614,
+  "last_commit_hash": "72f8db1",
+  "last_commit_message": "Retranslation: Session 284 (63 entries, lines 362449-363324)",
+  "total_entries_completed": 24677,
   "total_entries": 169712,
-  "total_entries_untranslated": 145098,
-  "overall_completion_rate": 14.51,
-  "next_action": "Continue sequential processing from line 362449 (o2001_charleyknowes section - 43 entries). Spanish reference check mandatory.",
+  "total_entries_untranslated": 145035,
+  "overall_completion_rate": 14.54,
+  "next_action": "Continue sequential processing from line 363325 (o2001_doctor section - 35 entries). Spanish reference check mandatory.",
   "strict_workflow": {
     "sequential_processing": "MANDATORY - Process from line 1 sequentially. NO skipping, NO prioritization.",
     "spanish_reference": "MANDATORY - Check Spanish file for translatability before each translation.",
