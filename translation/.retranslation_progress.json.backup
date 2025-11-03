@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 23251,
-      "entries_untranslated": 146461,
-      "completion_rate": 13.70,
-      "current_line": 339432,
+      "entries_translated": 23491,
+      "entries_untranslated": 146221,
+      "completion_rate": 13.84,
+      "current_line": 342354,
       "status": "in_progress",
       "approach": "Strict sequential from line 666, Spanish reference mandatory",
-      "note": "Session 264: 79 entries translated (lines 338755-339432). Sections completed: m1001_twoheadedgoat (2 entries), m1002_almorehoon (17 entries - Hoon family post-attack dialogue), m1002_angusjrhoon (8 entries), m1002_mamahoon (14 entries), m1002_tabithahoon (10 entries - disturbing child), m1003_destroyedcompanionbarks (28 entries - companion reactions to massacre). Spanish reference logic: empty Spanish = keep English (e.g., m1002_mamahoon entry 5, m1001_radiotransmissions all entries), translated Spanish = translate to Japanese. Structure validation: 0 errors, 0 warnings. Action markers: protected. Quote count: matched exactly. Next: Continue from line 339433 in m1001_aviehoon_combatbarks section."
+      "note": "Session 266: 131 entries translated (lines 341029-342354). Sections completed: m2001_combatbarks_dorseypillager (40 entries - Dorsey flame weapon attacker), m2001_combatbarks_dorseyraider (15 entries - Dorsey explosive raider), m2001_combatbarks_prasad (30 entries - Ranger Prasad combat dialogue), m2001_combatbarks_ranger_abbas (18 entries - Ranger Abbas combat dialogue), m2001_combatbarks_ranger_russo (18 entries - Ranger Russo combat dialogue), m2001_combatbarks_ranger_shanowski (18 entries - Ranger Shanowski combat dialogue, partial). Spanish reference logic: translated Spanish = translate to Japanese, empty Spanish = keep English text unchanged. Structure validation: 0 errors, 0 warnings. Quote count: matched exactly. Next: Continue from line 342354 in m2001_combatbarks_ranger_siegel section."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "eafb97bcc86c7b6609bce41795b12fbe45ad4618",
-  "last_commit_message": "Retranslation: Session 264 (79 entries, lines 338755-339432)",
-  "total_entries_completed": 23251,
+  "last_commit_hash": "a29e8d10ae2ab36d0eae41d83ac1b37bb5f5a99d",
+  "last_commit_message": "Retranslation: Session 265 (109 entries, lines 339433-341029)",
+  "total_entries_completed": 23491,
   "total_entries": 169712,
-  "total_entries_untranslated": 146461,
-  "overall_completion_rate": 13.70,
-  "next_action": "Continue sequential processing from line 339433 in m1001_aviehoon_combatbarks section. Spanish reference check mandatory.",
+  "total_entries_untranslated": 146221,
+  "overall_completion_rate": 13.84,
+  "next_action": "Continue sequential processing from line 342354 in m2001_combatbarks_ranger_siegel section. Spanish reference check mandatory.",
   "strict_workflow": {
     "sequential_processing": "MANDATORY - Process from line 1 sequentially. NO skipping, NO prioritization.",
     "spanish_reference": "MANDATORY - Check Spanish file for translatability before each translation.",
