@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 23746,
-      "entries_untranslated": 145966,
-      "completion_rate": 13.99,
-      "current_line": 345984,
+      "entries_translated": 23821,
+      "entries_untranslated": 145891,
+      "completion_rate": 14.04,
+      "current_line": 346813,
       "status": "in_progress",
       "approach": "Strict sequential from line 666, Spanish reference mandatory",
-      "note": "Session 269: 115 entries translated (lines 344677-345984). Sections completed: m2001_openingcinematic (38 entries - opening cinematic), m2001_openingliveaction (39 entries - Bison/Chop), m2001_prasadradio (22 entries - Prasad radio), m2001_ranger_deserter (32 entries - deserter with Joey), m2001_ranger_fishinghut (2 entries - fishing hut), m2001_ranger_hostagesituation (partial 15 entries). Spanish reference logic: translated Spanish = translate to Japanese; empty Spanish = keep English. Structure validation: 0 errors, 0 warnings. Quote count matched exactly. Action markers verified (English preserved). Next: Continue from line 345984 in m2001_ranger_hostagesituation section."
+      "note": "Session 270: 75 entries translated (lines 345984-346812). Sections completed: m2001_ranger_hostagesituation (17 entries - hostage rescue), m2001_ranger_intro (2 entries - winch), m2001_ranger_introleader (7 entries - Prasad), m2001_ranger_majortomcat (21 entries - cat), m2001_ranger_nolegs (13 entries - drowning ranger), m2001_ranger_sniped (0 entries - ES empty). Spanish reference logic: translated Spanish = translate to Japanese; empty Spanish = keep English. Structure validation: 0 errors, 0 warnings. Quote count matched exactly. Action markers verified: sobs, cough preserved. Next: Continue from line 346813 in m2001_ranger_sniped section."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "2161011",
-  "last_commit_message": "Retranslation: Session 269 (115 entries, lines 344677-345984)",
-  "total_entries_completed": 23746,
+  "last_commit_hash": "94e87ef",
+  "last_commit_message": "Retranslation: Session 270 (75 entries, lines 345984-346812)",
+  "total_entries_completed": 23821,
   "total_entries": 169712,
-  "total_entries_untranslated": 145966,
-  "overall_completion_rate": 13.99,
-  "next_action": "Continue sequential processing from line 345984 in m2001_ranger_hostagesituation section. Spanish reference check mandatory.",
+  "total_entries_untranslated": 145891,
+  "overall_completion_rate": 14.04,
+  "next_action": "Continue sequential processing from line 346813 in m2001_ranger_sniped section. Spanish reference check mandatory.",
   "strict_workflow": {
     "sequential_processing": "MANDATORY - Process from line 1 sequentially. NO skipping, NO prioritization.",
     "spanish_reference": "MANDATORY - Check Spanish file for translatability before each translation.",
