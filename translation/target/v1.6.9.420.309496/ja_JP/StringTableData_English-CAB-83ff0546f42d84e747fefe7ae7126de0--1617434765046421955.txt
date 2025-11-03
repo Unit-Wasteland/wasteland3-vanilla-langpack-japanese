@@ -308099,29 +308099,29 @@
       1 Array Array (12 items)
        0 int size = 12
        [0]
-        1 string data = "One side of the page is blank. The other is covered in columns of letters, numbers, and unfamiliar symbols. \r\n\r\nIt appears to be a code. "
+        1 string data = "ページの片側は空白だ。もう片方には、文字、数字、見慣れない記号の列が書かれている。\r\n\r\n暗号のようだ。"
        [1]
-        1 string data = "You unfold the paper again, looking over the columns of letters, numbers, and unfamiliar symbols. "
+        1 string data = "紙を再び開き、文字、数字、見慣れない記号の列を眺める。"
        [2]
-        1 string data = "You pull the letter from your pack and unfold it. "
+        1 string data = "バッグから手紙を取り出し、広げる。"
        [3]
-        1 string data = "Crack the code."
+        1 string data = "暗号を解読する。"
        [4]
-        1 string data = "Put the paper away. "
+        1 string data = "紙をしまう。"
        [5]
-        1 string data = "You examine the page for repeating letters and symbols. It appears to be a fairly straightforward alphanumeric substitution code, with the symbols themselves representing punctuation. \r\n\r\nAfter a few minutes, you start piecing the letter together. "
+        1 string data = "繰り返し出てくる文字と記号を探す。かなり単純な英数字置換暗号のようで、記号自体は句読点を表しているようだ。\r\n\r\n数分後、手紙の内容を少しずつ解読し始める。"
        [6]
-        1 string data = "Read the letter again. "
+        1 string data = "手紙をもう一度読む。"
        [7]
-        1 string data = "Examine the page for clues. "
+        1 string data = "ページの手がかりを調べる。"
        [8]
         1 string data = ""
        [9]
-        1 string data = "As near as you can tell, the page contains no key. Everything is written in a practiced, almost casual hand, however, which likely means the author was comfortable writing in this code. "
+        1 string data = "見たところ、ページには鍵は含まれていない。しかし、すべてが熟練した、ほとんど無造作な筆跡で書かれている。おそらく、筆者はこの暗号を書くことに慣れていたのだろう。"
        [10]
-        1 string data = "'Saul,\n\n\nI do certainly understand the urgency of the situation, thank you, and can now assure you that the computational engines have entered the final phase of testing."
+        1 string data = "'サウル\n\n\n状況の緊急性は確かに理解している。ありがとう。そして今、計算エンジンが最終テスト段階に入ったことを保証できる。"
        [11]
-        1 string data = "You may be certain that the engines (under my supervision, of course) are far more capable and less fallible than any human leader.\r\n\r\nI recommend a staggered implementation - the engines simulating you from behind closed doors, perhaps - so that you may observe them at work. Perhaps that will put some of your concerns to rest. \r\n\r\nRegards,\r\n\r\nA.M.'"
+        1 string data = "エンジン（もちろん私の監督下にある）は、いかなる人間の指導者よりもはるかに有能で、間違いが少ないことを確信してよい。\r\n\r\n段階的な実装をお勧めする。おそらく、閉じたドアの後ろからエンジンがあなたをシミュレートし、あなたがそれを観察できるようにする、といった形で。それであなたの懸念のいくつかは解消されるだろう。\r\n\r\n敬具、\r\n\r\nA.M.'"
    [1001]
     0 StringTable data
      1 string Filename = "c3001_patriarchsburialmap"
@@ -308223,49 +308223,49 @@
       1 Array Array (22 items)
        0 int size = 22
        [0]
-        1 string data = "By the look of it, this map of Colorado has been crumpled many, many times. You smooth out the wrinkles and see three women's names and some directions beneath them, written in plain, capitalized letters - probably by the Patriarch himself.\n\n\nAt the top of the map is a single word - 'GRAVES.'"
+        1 string data = "見たところ、このコロラドの地図は何度も何度もくしゃくしゃにされている。シワを伸ばすと、三人の女性の名前と、その下に方向が書かれているのが見える。平易な大文字で書かれている。おそらくパトリアーク自身が書いたものだ。\n\n\n地図の上部には一つの言葉がある。「GRAVES（墓）」。"
        [1]
         1 string data = ""
        [2]
-        1 string data = ""CLEO.""
+        1 string data = ""CLEO""
        [3]
-        1 string data = ""LARRA.""
+        1 string data = ""LARRA""
        [4]
-        1 string data = ""LIVIA.""
+        1 string data = ""LIVIA""
        [5]
-        1 string data = "Step away from the map."
+        1 string data = "地図から離れる。"
        [6]
         1 string data = ""ASPEN. OUTSIDE SKI SHOP."\n\n\nThe Patriarch's writing is slanted, rushed. Almost dismissive. "
        [7]
         1 string data = ""
        [8]
-        1 string data = "The name hovers above a circle surrounding the Everest Hotel. The Patriarch's letters are smaller here than elsewhere.\n\n\n"NEAR THE GREENHOUSE. OUTSIDE HOTEL.""
+        1 string data = ""NEAR THE GREENHOUSE. OUTSIDE HOTEL.""
        [9]
-        1 string data = ""Old Saul wouldn't even tell me where she was buried."\n\n\nHe nudges you in the side."
+        1 string data = ""老サウルは、彼女がどこに埋葬されたかすら教えてくれなかった"\n\n\n彼はあなたの脇腹を小突く。"
        [10]
-        1 string data = "It is difficult to read these small, smeared letters. \r\n\r\n"COLORADO SPRINGS. NORTHWEST PARK. QUINCE BUSHES.""
+        1 string data = ""COLORADO SPRINGS. NORTHWEST PARK. QUINCE BUSHES.""
        [11]
-        1 string data = "You flatten the crumpled map labeled with women's names and lean over it. "
+        1 string data = "女性の名前が記されたくしゃくしゃの地図を平らにし、それに身を乗り出す。"
        [12]
-        1 string data = ""Livia is my mom's name."\n\n\nYou turn, and Victory is frowning down at the map beside you."
+        1 string data = ""リヴィアは母の名前だ"\n\n\n振り向くと、ヴィクトリーがあなたの横で地図を見下ろして眉をひそめている。"
        [13]
         1 string data = ""
        [14]
-        1 string data = ""I know those names. Those... those are the poor ladies who married the Patriarch. Every last one of them dead.""
+        1 string data = ""この名前を知っている。これは……パトリアークと結婚した可哀想な女性たちだ。一人残らず死んでいる""
        [15]
-        1 string data = ""Patriarch's ex-wives."\n\n\nKwon stares down at the names beside you, face a mask."
+        1 string data = ""パトリアークの元妻たちだ"\n\n\nクォンがあなたの横で名前を見下ろしている。顔は仮面のようだ。"
        [16]
-        1 string data = ""Daddy never talked about her. Mostly because he knew I wanted to know more. Asshole."\n\n\nHe stares at the map with something very much like hunger."
+        1 string data = ""父は彼女のことを決して話さなかった。主に、俺がもっと知りたがっていることを知っていたからだ。クソ野郎め"\n\n\n彼は飢えに似た何かをもって地図を見つめている。"
        [17]
-        1 string data = ""Not sure why he kept this map - he wasn't much for visiting graves.""
+        1 string data = ""なぜこの地図を取っておいたのかわからない。墓参りをするようなタイプではなかったのに""
        [18]
-        1 string data = ""I wanna go. When we can.""
+        1 string data = ""行きたい。行けるようになったら""
        [19]
-        1 string data = "'ASPEN. OUTSIDE SKI SHOP.'\n\n\nThe Patriarch's writing is slanted, rushed. Almost dismissive."
+        1 string data = "'ASPEN. OUTSIDE SKI SHOP.'\n\n\nパトリアークの文字は斜めで、急いで書かれている。ほとんど横柄だ。"
        [20]
-        1 string data = "It is difficult to read these small, smeared letters.\n\n\n'COLORADO SPRINGS. NORTHWEST PARK. QUINCE BUSHES.'"
+        1 string data = "この小さく汚れた文字を読むのは難しい。\n\n\n'COLORADO SPRINGS. NORTHWEST PARK. QUINCE BUSHES.'"
        [21]
-        1 string data = "The name hovers above a circle surrounding a remote location outside Colorado Springs. The Patriarch's letters are smaller here than elsewhere.\n\n\n'near the hoons residence'"
+        1 string data = "名前は、コロラドスプリングス郊外の遠隔地を囲む円の上に浮かんでいる。パトリアークの文字は、ここでは他の場所よりも小さい。\n\n\n'near the hoons residence'"
    [1002]
     0 StringTable data
      1 string Filename = "c3001_psychopathfacetoface"
@@ -309007,7 +309007,7 @@
        [3]
         1 string data = ""Oh, this is going to be <i>messy</i>.""
        [4]
-        1 string data = ""I know it was hard to get here, and no offense, but you can fuck right off back to Colorado Springs and tell Daddy you failed."\n\n\n"I like it here.""
+        1 string data = ""ここまで来るのは大変だったと思うが、悪気はないけど、コロラドスプリングスに帰ってパパに失敗したと伝えろよ"\n\n\n"俺はここが気に入ってる""
        [5]
         1 string data = "(Test) You have waged a horrific war against Vic Buchanan's stronghold. Though he's trying to hide it, he is frightened of you, and will behave as such. "
        [6]
@@ -309015,13 +309015,13 @@
        [7]
         1 string data = "This conversation takes place at the end of the Aspen zone. The Rangers (you) have just reached the Patriarch's quarters and found his cruel and sociopathic son, Vic Buchanan, waiting for you. \r\n\r\nThis conversation changes based on how you reached this point. How did you do it?"
        [8]
-        1 string data = "[Lie] "You're done, Vic. We're just Team November. Team X-Ray is outside with sniper rifles.""
+        1 string data = "[嘘] "もう終わりだ、ヴィック。俺たちはチーム・ノヴェンバーだ。チーム・X-レイが外にスナイパーライフルで待機している""
        [9]
         1 string data = "(Diplomacy)"You're outnumbered, Vic. You're done. Don't make us kill you.""
        [10]
-        1 string data = ""You don't call the shots here, you fucking psycho.""
+        1 string data = ""ここで指図するのはお前じゃない、クソサイコ野郎""
        [11]
-        1 string data = "[Attack] "Rangers, take him down.""
+        1 string data = "[攻撃] "レンジャーズ、奴を倒せ""
        [12]
         1 string data = ""Well, you can tell him I <i>am</i> home. I like it here.""
        [13]
@@ -309041,7 +309041,7 @@
        [20]
         1 string data = ""
        [21]
-        1 string data = ""Be smart. Your father will keep sending people, and you have nowhere left to run. What are your chances?""
+        1 string data = ""賢くなれ。お前の父親は人を送り続けるだろう。お前には逃げる場所がない。勝算は?""
        [22]
         1 string data = ""I dare you to say that again.""
        [23]
@@ -309073,7 +309073,7 @@
        [36]
         1 string data = ""
        [37]
-        1 string data = ""Oooh, that does sound tough. But I'm not worried, not as long as I got my good buddy Clarence here.""
+        1 string data = ""おお、確かに厳しそうだな。だが心配してない。俺の親友クラレンスがここにいる限りはな""
        [38]
         1 string data = ""
        [39]
@@ -309095,13 +309095,13 @@
        [47]
         1 string data = ""Okay, make your play, Rangers. Take your shot.""
        [48]
-        1 string data = ""Oh shit. Really? Wait, hold on. I'm getting a radio message.""
+        1 string data = ""クソ。マジで? 待て、ちょっと待て。無線メッセージが入ってる""
        [49]
-        1 string data = ""What?! Hey, hey, hey, hey, I'm talking to the Rangers here. Uh-huh? Mmhmm. No way! No <i>way!</i> Okay, I'll tell them.""
+        1 string data = ""何!? おい、おい、おい、おい、俺は今レンジャーズと話してるんだ。うん? ふむふむ。まさか! <i>まさか!</i> わかった、伝えるよ""
        [50]
-        1 string data = ""Oh, sorry, Rangers. Team Bullshit just killed Team X-Ray. Looks like you're on your own. Oh, and lookie here, Clarence has a little surprise for you.""
+        1 string data = ""ああ、すまんなレンジャーズ。チーム・ブルシットがチーム・X-レイを殺したそうだ。お前らは一人ぼっちみたいだな。ああ、それと見ろよ、クラレンスがお前らにちょっとしたサプライズを用意してる""
        [51]
-        1 string data = ""Surrender.""
+        1 string data = ""投降しろ""
        [52]
         1 string data = ""
        [53]
@@ -309109,7 +309109,7 @@
        [54]
         1 string data = "[Attack] "Rangers, kill this suicidal son of a bitch.""
        [55]
-        1 string data = ""That it? Sure thing, officers. But hold on. Before you slap the cuffs on, I have a... What's the word...? A proposition for you.""
+        1 string data = ""それだけか? もちろんだ、お巡りさん。だが待て。手錠をかける前に、俺には……なんて言うんだっけ……提案があるんだ""
        [56]
         1 string data = ""No. See, I have this crazy idea that I'm invincible. And I kinda want to see if it's true.""
        [57]
@@ -309125,21 +309125,21 @@
        [62]
         1 string data = ""But hold on. Before you slap the cuffs on, I have a... what's the word... a proposition for you.""
        [63]
-        1 string data = ""Don't lock me up. Take me with you, and I'll give you the VIP tour of Daddy's kingdom.""
+        1 string data = ""俺を閉じ込めるな。連れて行け。そしたらパパの王国のVIPツアーをしてやる""
        [64]
-        1 string data = ""Everyone here knows me. Everyone's fucking terrified of me. And that means they'll be terrified of <i>you</i>.""
+        1 string data = ""ここでは誰もが俺を知ってる。誰もがクソみたいに俺を恐れてる。つまり<i>お前ら</i>を恐れるってことだ""
        [65]
-        1 string data = "[Arrest] "You're out of your mind. No way.""
+        1 string data = "[逮捕] "気でも狂ったか。まっぴらだ""
        [66]
-        1 string data = ""You know what? Why the hell not - welcome to the team.""
+        1 string data = ""わかった、いいだろう。チームへようこそ""
        [67]
-        1 string data = ""And what's our guarantee you won't stab us in the back?""
+        1 string data = ""裏切らない保証は?""
        [68]
-        1 string data = ""Stab you in the back? Do I strike you as the subtle type? If I fuck you over, you'll see it coming.""
+        1 string data = ""裏切るだと? 俺が陰湿なタイプに見えるか? もし裏切るなら、お前らにも見えるさ""
        [69]
-        1 string data = ""Well, at least I tried. Take me away from all this, officer.""
+        1 string data = ""まあ、少なくとも試してみたさ。どこへでも連れて行ってくれ、お巡りさん""
        [70]
-        1 string data = ""You aren't gonna regret this. Now, where's my Ranger star?""
+        1 string data = ""後悔させない。で、俺のレンジャーバッジはどこだ?""
        [71]
         1 string data = ""Don't know if you've noticed, but your kingdom is falling apart.""
        [72]
@@ -309169,7 +309169,7 @@
        [84]
         1 string data = """"
        [85]
-        1 string data = ""Put down your weapons and surrender.""
+        1 string data = ""武器を捨てて投降しろ""
        [86]
         1 string data = ""Hmm. Rangers, I have to level with you. That sounds fuckin' <i>boring</i>. Why would I do that?""
        [87]
