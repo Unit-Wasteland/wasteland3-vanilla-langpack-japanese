@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 22701,
-      "entries_untranslated": 147011,
-      "completion_rate": 13.38,
-      "current_line": 313793,
+      "entries_translated": 22834,
+      "entries_untranslated": 146878,
+      "completion_rate": 13.46,
+      "current_line": 331788,
       "status": "in_progress",
       "approach": "Strict sequential from line 666, Spanish reference mandatory",
-      "note": "Session 255: 100 entries translated - epilogue narratives (lines 313400-313793). Faction outcomes, character fates, post-game consequences, Machine Commune scenarios, Gipper expansion, companion epilogues. All 4-quote format maintained. Action markers: None in range. Structure validation: 0 errors. Next: Continue from line 313793."
+      "note": "Session 257: 33 entries translated - Avie and Angus Hoon dialogue (lines 331398-331788). NPC conversation in m1001_aviehoon section. Spanish reference check applied. Entries with empty Spanish kept as English (program identifiers). Structure validation: 0 errors. Next: Continue from line 331788 in m1001_aviehoon section."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "e95e9ac",
-  "last_commit_message": "Retranslation: Session 255 (100 entries, lines 313400-313793)",
-  "total_entries_completed": 22701,
+  "last_commit_hash": "eaa190b",
+  "last_commit_message": "Retranslation: Session 256 (100 entries, lines 313793-314355)",
+  "total_entries_completed": 22834,
   "total_entries": 169712,
-  "total_entries_untranslated": 147011,
-  "overall_completion_rate": 13.38,
-  "next_action": "Continue sequential processing from line 313793. Process remaining epilogue and character fate texts. Verify Spanish reference for each entry. Maintain 4-quote format for all entries.",
+  "total_entries_untranslated": 146878,
+  "overall_completion_rate": 13.46,
+  "next_action": "Continue sequential processing from line 331788 in m1001_aviehoon section. More Hoon family dialogue ahead. Verify Spanish reference for each entry. Maintain quote format consistency.",
   "strict_workflow": {
     "sequential_processing": "MANDATORY - Process from line 1 sequentially. NO skipping, NO prioritization.",
     "spanish_reference": "MANDATORY - Check Spanish file for translatability before each translation.",
