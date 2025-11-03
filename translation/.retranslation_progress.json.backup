@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 22909,
-      "entries_untranslated": 146803,
-      "completion_rate": 13.50,
-      "current_line": 332088,
+      "entries_translated": 23067,
+      "entries_untranslated": 146645,
+      "completion_rate": 13.59,
+      "current_line": 334513,
       "status": "in_progress",
       "approach": "Strict sequential from line 666, Spanish reference mandatory",
-      "note": "Session 258: 75 entries translated - Hoon family dialogue continuation (lines 331788-332088). Completed m1001_aviehoon section. Topics: pet interaction, bunker dialogue, toaster repair, Major Tomcat, death responses, Desert Rangers intro, grave story, political discussion. Action markers preserved (whispers, cries, mutters). Spanish reference applied. Structure validation: 0 errors. Next: Continue from line 332088 in m1001_bunkercomputer section."
+      "note": "Session 261: 81 entries translated (lines 333678-334513). Sections completed: m1001_erastusdorsey remainder (17 entries - combat taunts, dialogue endings), m1001_gravevicmother (21 entries - Victory Buchanan mother grave discovery, suicide revelation, letter reading), m1001_hoongun (20 entries - Hoon family rifle theft scenario, companion reactions), m1001_hoonmurdercomments (23 entries - companion guilt responses after killing Hoons). Structure validation: 0 errors. Action markers protected: giggly and cheers kept in English. Spanish reference applied throughout. Next: Continue from line 334513 in m1001_hoonsaltentry section."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "08c7b68",
-  "last_commit_message": "Retranslation: Session 258 (75 entries, lines 331788-332088)",
-  "total_entries_completed": 22909,
+  "last_commit_hash": "08d517940f7fe67c1ffcec8a0129524c069530ce",
+  "last_commit_message": "Retranslation: Session 261 (81 entries, lines 333678-334513)",
+  "total_entries_completed": 23067,
   "total_entries": 169712,
-  "total_entries_untranslated": 146803,
-  "overall_completion_rate": 13.50,
-  "next_action": "Continue sequential processing from line 332088 in m1001_bunkercomputer section. Computer terminal interface dialogue. Verify Spanish reference for each entry. Maintain quote format consistency.",
+  "total_entries_untranslated": 146645,
+  "overall_completion_rate": 13.59,
+  "next_action": "Continue sequential processing from line 334513 in m1001_hoonsaltentry section. Spanish reference check mandatory.",
   "strict_workflow": {
     "sequential_processing": "MANDATORY - Process from line 1 sequentially. NO skipping, NO prioritization.",
     "spanish_reference": "MANDATORY - Check Spanish file for translatability before each translation.",
