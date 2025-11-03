@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 20632,
-      "entries_untranslated": 149080,
-      "completion_rate": 12.16,
-      "current_line": 292746,
+      "entries_translated": 20766,
+      "entries_untranslated": 148946,
+      "completion_rate": 12.24,
+      "current_line": 295134,
       "status": "in_progress",
       "approach": "Strict sequential from line 666, Spanish reference mandatory",
-      "note": "Session 237: 141 entries translated - 9 animal follower sections and 4 combat sections. Sections: majortomcat, mountaingoat, pig, rabbit, stag, wolf, wolverine, wolverine2, twoheadedgoat_inparty, breatherintros, breather_radiobroadcasts, brutishrocketbreather. Spanish reference checked per entry. Structure validation: 0 errors. All action markers in English verified. Next: c1001_combatbarks_flamethrowerbreather (line 292746+)."
+      "note": "Session 238: 134 entries translated - 6 combat and utility sections. Sections: flamethrowerbreather, gondolabreather, meleebreather, rangedbreather, constructionbreathers, cranecomputer (including UI text). Spanish reference checked per entry. Structure validation: 0 errors. All action markers in English verified. Next: c1001_companion_barktriggers (173 entries, line 294624+)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "c123f3c",
-  "last_commit_message": "Retranslation: Session 237 (141 entries, lines 291523-292746)",
-  "total_entries_completed": 20632,
+  "last_commit_hash": "a8b00bb",
+  "last_commit_message": "Retranslation: Session 238 (134 entries, lines 292746-295134)",
+  "total_entries_completed": 20766,
   "total_entries": 169712,
-  "total_entries_untranslated": 149080,
-  "overall_completion_rate": 12.16,
-  "next_action": "Continue sequential processing from line 292746. Next section: c1001_combatbarks_flamethrowerbreather. Process sequentially, verify Spanish reference for each entry. Translate only entries where Spanish shows translation. Skip Script Node entries. Validate after every edit.",
+  "total_entries_untranslated": 148946,
+  "overall_completion_rate": 12.24,
+  "next_action": "Continue sequential processing from line 294624. Next section: c1001_companion_barktriggers (173 entries). Process sequentially, verify Spanish reference for each entry. Translate only entries where Spanish shows translation. Skip Script Node entries. Validate after every edit.",
   "strict_workflow": {
     "sequential_processing": "MANDATORY - Process from line 1 sequentially. NO skipping, NO prioritization.",
     "spanish_reference": "MANDATORY - Check Spanish file for translatability before each translation.",
