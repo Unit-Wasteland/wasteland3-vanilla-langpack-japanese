@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 23172,
-      "entries_untranslated": 146540,
-      "completion_rate": 13.65,
-      "current_line": 338256,
+      "entries_translated": 23360,
+      "entries_untranslated": 146352,
+      "completion_rate": 13.76,
+      "current_line": 341029,
       "status": "in_progress",
       "approach": "Strict sequential from line 666, Spanish reference mandatory",
-      "note": "Session 263: 70 entries translated (lines 336577-338256). Sections completed: m1001_pacifistrobot (69 entries - Spanish empty, English preserved), m1001_prasad (70 entries - Major Prasad death scene, Angela Deth backstory, player choices, Jodie Bell introduction). Spanish reference logic: empty Spanish = keep English (preserve quote count), translated Spanish = translate to Japanese. Structure validation: 0 errors. Action markers: all protected. Quote count: matched exactly. Next: Continue from line 338257 in m1001_radiotransmissions section."
+      "note": "Session 265: 109 entries translated (lines 339433-341029). Sections completed: m1001_aviehoon_combatbarks (25 entries - all Script Node technical terms, kept English), m1001_hoons_combatbarks (29 entries - elderly Hoon couple combat dialogue), m2001_combatbarks_dorseyambusher (40 entries - Dorsey blood cult melee attacker), m2001_combatbarks_dorseyhunter (40 entries - Dorsey blood cult ranged attacker). Spanish reference logic: translated Spanish = translate to Japanese. Structure validation: 0 errors, 0 warnings. Quote count: matched exactly. Next: Continue from line 341029 in m2001_combatbarks_dorseypillager section."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "f509cf7af888ac3cf8af97174da87e505a28f519",
-  "last_commit_message": "Retranslation: Session 263 (70 entries, lines 336577-338256)",
-  "total_entries_completed": 23172,
+  "last_commit_hash": "eafb97bcc86c7b6609bce41795b12fbe45ad4618",
+  "last_commit_message": "Retranslation: Session 264 (79 entries, lines 338755-339432)",
+  "total_entries_completed": 23360,
   "total_entries": 169712,
-  "total_entries_untranslated": 146540,
-  "overall_completion_rate": 13.65,
-  "next_action": "Continue sequential processing from line 338257 in m1001_radiotransmissions section. Spanish reference check mandatory.",
+  "total_entries_untranslated": 146352,
+  "overall_completion_rate": 13.76,
+  "next_action": "Continue sequential processing from line 341029 in m2001_combatbarks_dorseypillager section. Spanish reference check mandatory.",
   "strict_workflow": {
     "sequential_processing": "MANDATORY - Process from line 1 sequentially. NO skipping, NO prioritization.",
     "spanish_reference": "MANDATORY - Check Spanish file for translatability before each translation.",
