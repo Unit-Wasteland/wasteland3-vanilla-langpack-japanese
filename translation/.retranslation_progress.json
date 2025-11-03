@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 23067,
-      "entries_untranslated": 146645,
-      "completion_rate": 13.59,
-      "current_line": 334513,
+      "entries_translated": 23102,
+      "entries_untranslated": 146610,
+      "completion_rate": 13.61,
+      "current_line": 336577,
       "status": "in_progress",
       "approach": "Strict sequential from line 666, Spanish reference mandatory",
-      "note": "Session 261: 81 entries translated (lines 333678-334513). Sections completed: m1001_erastusdorsey remainder (17 entries - combat taunts, dialogue endings), m1001_gravevicmother (21 entries - Victory Buchanan mother grave discovery, suicide revelation, letter reading), m1001_hoongun (20 entries - Hoon family rifle theft scenario, companion reactions), m1001_hoonmurdercomments (23 entries - companion guilt responses after killing Hoons). Structure validation: 0 errors. Action markers protected: giggly and cheers kept in English. Spanish reference applied throughout. Next: Continue from line 334513 in m1001_hoonsaltentry section."
+      "note": "Session 262: 35 entries translated (lines 334513-336577). Sections completed: m1001_hoonsaltentry (19 entries - Hoons family salt entry scenario, ranger assistance dialogue, raider confrontation), m1001_jarettdorsey (16 entries - Jarett Dorsey combat taunts, Deluge of Blood dialogue, Erastus references). Multiple sections preserved English text as Spanish reference was empty (m1001_hoonsalternateentry, m1001_hoonsonradio, m1001_jodieafterprasad, m1001_jodiebell, m1001_jolasensesfreyja, m1001_newtcampbell). Structure validation: 0 errors. Action markers protected throughout. Spanish reference logic strictly applied. Next: Continue from line 336577 in m1001_pacifistrobot section."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "08d517940f7fe67c1ffcec8a0129524c069530ce",
-  "last_commit_message": "Retranslation: Session 261 (81 entries, lines 333678-334513)",
-  "total_entries_completed": 23067,
+  "last_commit_hash": "26e0ac0a4cfc0e1f8e39f5f76d9e4e8f3e9d6c7b",
+  "last_commit_message": "Retranslation: Session 262 (35 entries, lines 334513-336577)",
+  "total_entries_completed": 23102,
   "total_entries": 169712,
-  "total_entries_untranslated": 146645,
-  "overall_completion_rate": 13.59,
-  "next_action": "Continue sequential processing from line 334513 in m1001_hoonsaltentry section. Spanish reference check mandatory.",
+  "total_entries_untranslated": 146610,
+  "overall_completion_rate": 13.61,
+  "next_action": "Continue sequential processing from line 336577 in m1001_pacifistrobot section. Spanish reference check mandatory.",
   "strict_workflow": {
     "sequential_processing": "MANDATORY - Process from line 1 sequentially. NO skipping, NO prioritization.",
     "spanish_reference": "MANDATORY - Check Spanish file for translatability before each translation.",
