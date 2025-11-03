@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 19767,
-      "entries_untranslated": 149945,
-      "completion_rate": 11.64,
-      "current_line": 284844,
+      "entries_translated": 19997,
+      "entries_untranslated": 149715,
+      "completion_rate": 11.78,
+      "current_line": 286938,
       "status": "in_progress",
       "approach": "Strict sequential from line 666, Spanish reference mandatory",
-      "note": "Session 231: 90 entries translated (reactionbarks_companion_scotchmo: 90 entries, lines 284592-284844). Scotchmo reaction barks with drunk dialogue, combat states, status effects, item usage, and hobo personality. Spanish reference verified for all entries. Structure validation: 0 errors. Action markers verified English-only (::sigh:: kept in English). Quote format strictly maintained. Next: Continue with reactionbarks_companion_victorybuchanan (line 285492+)."
+      "note": "Session 232: 230 entries translated - victorybuchanan reactions (100 entries, lines 285492-285738), pc_cold reactions (64 entries, lines 286222-286385), pc_educated reactions (66 entries, lines 286806-286937). Victory combat barks with psychopath personality, PC cold status effects, PC educated intelligence-based dialogue. Spanish reference verified. Structure validation: 0 errors. HTML tags preserved. Quote format strictly maintained. Next: reactionbarks_pc_hardass (line 287400+)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -49,12 +49,12 @@
     }
   },
   "last_commit_hash": "cba752f",
-  "last_commit_message": "Retranslation: Session 231 (90 entries, lines 284592-284844)",
-  "total_entries_completed": 19767,
+  "last_commit_message": "Retranslation: Session 232 (230 entries, lines 285492-286937)",
+  "total_entries_completed": 19997,
   "total_entries": 169712,
-  "total_entries_untranslated": 149945,
-  "overall_completion_rate": 11.64,
-  "next_action": "Continue sequential processing from line 285492. Next section: reactionbarks_companion_victorybuchanan. Process sequentially, verify Spanish reference for each entry. Translate only entries where Spanish shows translation. Skip Script Node entries. Validate after every edit.",
+  "total_entries_untranslated": 149715,
+  "overall_completion_rate": 11.78,
+  "next_action": "Continue sequential processing from line 287400. Next section: reactionbarks_pc_hardass. Process sequentially, verify Spanish reference for each entry. Translate only entries where Spanish shows translation. Skip Script Node entries. Validate after every edit.",
   "strict_workflow": {
     "sequential_processing": "MANDATORY - Process from line 1 sequentially. NO skipping, NO prioritization.",
     "spanish_reference": "MANDATORY - Check Spanish file for translatability before each translation.",
