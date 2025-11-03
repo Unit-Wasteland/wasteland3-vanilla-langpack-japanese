@@ -349199,7 +349199,7 @@
       1 Array Array (156 items)
        0 int size = 156
        [0]
-        1 string data = "Before you stands a man dressed in an impeccably clean, well-maintained suit. He bows with a flourish as you approach, and without pause starts rattling off a practiced spiel."
+        1 string data = "目の前に立っているのは、完璧に清潔で手入れの行き届いたスーツを着た男だ。あなたが近づくと、華やかに一礼し、間を置かずに練習したセールストークを喋り始める。"
        [1]
         1 string data = " You must forgive me if I don't seem excited to speak with you."
        [2]
@@ -349209,7 +349209,7 @@
        [4]
         1 string data = " Tell us about yourself."
        [5]
-        1 string data = ""We'll be back later.""
+        1 string data = ""また後で戻ります。""
        [6]
         1 string data = " Tell us about Refugees. (Requires Unwelcome Guests or Living like a Refugee mission) (TODO Flab Is Dead check, TODO - Smugglers Killed check)"
        [7]
@@ -349279,33 +349279,33 @@
        [39]
         1 string data = " Ananda was recruited."
        [40]
-        1 string data = ""Felicitations.""
+        1 string data = ""お祝いを。""
        [41]
-        1 string data = ""We have some questions for you.""
+        1 string data = ""いくつか質問があります。""
        [42]
-        1 string data = ""That is an impressive suit.""
+        1 string data = ""素晴らしいスーツですね。""
        [43]
-        1 string data = ""Have anything for sale?""
+        1 string data = ""何か売り物はありますか?""
        [44]
-        1 string data = ""We could use a tailor back at our HQ. Could we convince you to join us?""
+        1 string data = ""我々の本部には仕立て屋が必要なんです。一緒に来ていただけませんか?""
        [45]
-        1 string data = ""Have an exquisite day.""
+        1 string data = ""良い一日を。""
        [46]
         1 string data = "He motions with a hand, his gaze curious, his smile dazzling in its white-plaster perfection."
        [47]
-        1 string data = ""But of course.""
+        1 string data = ""もちろんです。""
        [48]
-        1 string data = ""Ah, I thank you! It is a pleasure to meet people of taste, a true rarity out in these uncivilized lands.""
+        1 string data = ""ああ、ありがとうございます！趣味の良い方々にお会いできて光栄です。この未開の地では本当に稀なことです。""
        [49]
         1 string data = ""Yes.. By the looks of you, I have no doubt you could use my services. However, I have no reason to leave this place - it has been good to me, after all.""
        [50]
         1 string data = ""We'll get back to you on that.""
        [51]
-        1 string data = ""We have aided the people of the Bizarre. Are you ready to join us?""
+        1 string data = ""ビザールの人々を助けました。一緒に来る準備はできましたか?""
        [52]
         1 string data = ""I look forward to your elucidations.""
        [53]
-        1 string data = ""You do seem like people of refined taste, without a doubt... but a man of class does not abandon his employer at an inopportune moment. I don't wish to speak out of turn, but this is a dangerous time for the Bizarre.""
+        1 string data = ""疑いなく、あなた方は洗練された趣味をお持ちのようです...しかし、教養ある者は不都合な時に雇い主を見捨てません。失言をしたくはありませんが、ビザールにとって危険な時期なのです。""
        [54]
         1 string data = "He listens attentively as you describe the people you have met inside the Bizarre. From the true nature of Eidilon's cabaret, to Masato's monomaniacal obsession with food, to Flab's craven greed."
        [55]
@@ -349323,15 +349323,15 @@
        [61]
         1 string data = ""
        [62]
-        1 string data = ""We're looking for the people who've been smuggling refugees into Colorado Springs. Do you know where they are?" "
+        1 string data = ""コロラドスプリングスに難民を密入国させている人々を探しています。彼らがどこにいるかご存知ですか?" "
        [63]
-        1 string data = ""You said you're a Mannerite. Aren't most Mannerites settled out west?""
+        1 string data = ""あなたはマナーライト教徒だと言いましたね。ほとんどのマナーライト教徒は西部に定住しているのではないですか?""
        [64]
         1 string data = ""Let's talk about something else.""
        [65]
         1 string data = ""I need to go.""
        [66]
-        1 string data = ""They are led by Mr. Jakub Martin, colloquially known as 'Flab the Inhaler'... A man who has truly embraced his position and leads this place with panache. I do wish he had a better tailor, though..."\n\n\n"You can find him inside the Bizarre proper, as he rarely ventures outside.""
+        1 string data = ""彼らは俗に「吸引屋フラブ」として知られるジェイコブ・マーティン氏に率いられています...真にその地位を受け入れ、この場所を華やかに導く男です。もっと良い仕立て屋がいればと思いますが..."\n\n\n"彼はビザールの中にいます。めったに外に出ないので。""
        [67]
         1 string data = ""It is a marketplace steeped in the exotic, the unusual and the, well, bizarre. I believe its wealth originally derived from a unique supply of livestock, but it has long since diversified and now offers whatever you are wanting."\n\n\n"It's best if you see it for yourself, if you can find a way in.""
        [68]
@@ -350237,7 +350237,7 @@
       1 Array Array (162 items)
        0 int size = 162
        [0]
-        1 string data = "No one answers the intercom. Either no one's manning the switchboards, or they're not interested in talking to you."
+        1 string data = "インターコムに誰も応答しない。交換台に誰もいないか、あなたと話す気がないかのどちらかだ。"
        [1]
         1 string data = "A trailer stands immobile at the entrance to the Bizarre. "
        [2]
@@ -350247,7 +350247,7 @@
        [4]
         1 string data = ""A LAMB STANDS AT THE DOOOOOR. Hehehe, What sacrifice do they bring to the door of monsters?" The voice booms and crackles through the speakers, seconds after you activate the intercom."
        [5]
-        1 string data = "The entrance to the Bizarre gapes like a toothless maw. The trailer which serves at its door has been rolled aside."
+        1 string data = "ビザールの入り口は、歯のない口のように大きく開いている。門として機能していたトレーラーは脇に転がされている。"
        [6]
         1 string data = ""Alright. You've convinced us. We want a security pass."(Performs Money Checks)"
        [7]
