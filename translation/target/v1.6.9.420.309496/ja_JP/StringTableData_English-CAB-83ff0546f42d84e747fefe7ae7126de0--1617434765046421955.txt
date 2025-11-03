@@ -332155,33 +332155,33 @@
       1 Array Array (14 items)
        0 int size = 14
        [0]
-        1 string data = "The old terminal displays a list of executable files in dimly glowing orange text."
+        1 string data = "古い端末には、薄暗く光るオレンジ色のテキストで実行可能ファイルのリストが表示されている。"
        [1]
-        1 string data = "SET_DIO.BIN"
+        1 string data = "DIO設定.BIN"
        [2]
-        1 string data = "RELEASE_CREEP.BIN"
+        1 string data = "クリープ解放.BIN"
        [3]
-        1 string data = "UNLOCK_BUNKER.BIN"
+        1 string data = "バンカーロック解除.BIN"
        [4]
-        1 string data = "A small lamp turns on near the monitor. A wire connects it to the computer through a hole crudely cut into the side of the chassis. The light turns off as the program ends after a 3 second wait."
+        1 string data = "モニターの近くで小さなランプが点灯する。ワイヤーが、シャーシの側面に雑に切られた穴を通じてコンピュータに接続されている。3秒の待機の後、プログラムが終了すると光が消える。"
        [5]
-        1 string data = "Hundreds of lines of text scroll past. The code, laden with electrical engineering wizardry and profane commentary, apparently remains unfinished."
+        1 string data = "何百行ものテキストがスクロールしていく。電気工学の魔法と冒涜的なコメントで満たされたコードは、どうやら未完成のままらしい。"
        [6]
-        1 string data = "You hear a whirring sound from behind and a mechanical click. Then the metallic creaking of an old door."
+        1 string data = "後ろからウィーンという音と機械的なカチッという音が聞こえる。それから古いドアの金属がきしむ音。"
        [7]
-        1 string data = "You hear a whirring sound behind you, followed by a sharp clank. Not unlike a door bumping against a bolted lock."
+        1 string data = "後ろからウィーンという音が聞こえ、続いて鋭いガシャンという音がする。まるでドアがボルトで固定されたロックにぶつかったような音だ。"
        [8]
         1 string data = "HELLO.BIN"
        [9]
-        1 string data = "A single line appears on the terminal screen:\n\n\n'Fuck You World!'"
+        1 string data = "端末の画面に1行だけ表示される:\n\n\n'くたばれ世界!'"
        [10]
-        1 string data = "Step away from the terminal"
+        1 string data = "端末から離れる"
        [11]
         1 string data = "README.TXT"
        [12]
-        1 string data = "'It feels like I could approach this problem in a million ways and never find a working solution. Even setting aside constant distractions from desperate cannibalism and pure idiocy, the possibility of escape seems hopeless.'"
+        1 string data = "'この問題には百万通りのアプローチができそうだが、機能する解決策は決して見つからないような気がする。絶望的な共食いや純粋な愚かさからの絶え間ない気晴らしはさておき、脱出の可能性は絶望的に思える。'"
        [13]
-        1 string data = "'Trying to backwards engineer the security systems is like trying to know the mind of God. It's impossible to truly understand why they would do something so fucked up...'"
+        1 string data = "'セキュリティシステムの逆解析を試みることは、神の心を知ろうとするようなものだ。彼らがなぜこんなにも狂ったことをしたのか、本当に理解することは不可能だ...'"
    [1083]
     0 StringTable data
      1 string Filename = "m1001_bunkerservitorbots_idlebarks"
@@ -332267,11 +332267,11 @@
        [9]
         1 string data = "Trigger Conv Node 10"
        [10]
-        1 string data = ""User interface system offline.""
+        1 string data = ""ユーザーインターフェースシステムがオフラインです。""
        [11]
-        1 string data = ""Sentry mode status: PENDING ACTIVATION.""
+        1 string data = ""セントリーモード状態: 起動保留中。""
        [12]
-        1 string data = ""No touching, please.""
+        1 string data = ""触らないでください。""
    [1084]
     0 StringTable data
      1 string Filename = "m1001_dorseysvshoons"
@@ -332421,19 +332421,19 @@
        [1]
         1 string data = ""Get off our property, you damn, dirty bushwhacker!""
        [2]
-        1 string data = ""Open up, old lady! We just wanna talk.""
+        1 string data = ""開けろよ、ババア! 話がしたいだけなんだ。""
        [3]
         1 string data = """ DEBUG: Fallback Node. Someone is dead!"
        [4]
-        1 string data = ""We can talk through the door just fine.""
+        1 string data = ""ドア越しに話せば十分だよ。""
        [5]
-        1 string data = ""We're gonna cut you apart when we get in there, lady.""
+        1 string data = ""中に入ったらお前をバラバラにしてやるぜ、ババア。""
        [6]
-        1 string data = ""What'd he say?""
+        1 string data = ""何て言った?""
        [7]
-        1 string data = ""He's talkin' about cuttin' me apart, Angus!""
+        1 string data = ""俺をバラバラにするって言ってるぞ、アンガス!""
        [8]
-        1 string data = ""Hnh. Tell him to fuck himself.""
+        1 string data = ""フン。くたばれって言っとけ。""
        [9]
         1 string data = ""Open this door right fuckin' now or we'll burn your fuckin' house down!""
        [10]
@@ -332447,19 +332447,19 @@
        [14]
         1 string data = ""What?""
        [15]
-        1 string data = ""We also want to steal all your shit and <i>maybe</i> cut you a little.""
+        1 string data = ""お前らの物全部盗みたいし、<i>多分</i>ちょっとだけ切り刻みたい。""
        [16]
-        1 string data = ""Know what? I think I'll keep the door closed.""
+        1 string data = ""わかった。ドアは閉めたままにするよ。""
        [17]
-        1 string data = ""You got to the count of ten before we shoot the door down.""
+        1 string data = ""10数えるまでに開けないとドアを撃ち抜くぞ。""
        [18]
-        1 string data = ""No way you can count that high.""
+        1 string data = ""そんなに数えられるわけないだろ。""
        [19]
-        1 string data = ""Ten! Nine. Seven!""
+        1 string data = ""10! 9。7!""
        [20]
-        1 string data = ""We got ourselves a raider with a head on his shoulders, Angus.""
+        1 string data = ""頭の回る略奪者がいるな、アンガス。""
        [21]
-        1 string data = ""Heh. Gonna be a shame to blow it off.""
+        1 string data = ""へっ。吹っ飛ばすのが惜しいくらいだな。""
        [22]
         1 string data = ""Thirteen! Fourteen!""
        [23]
@@ -332475,11 +332475,11 @@
        [28]
         1 string data = "Script Node 43"
        [29]
-        1 string data = ""What the hell was that? Sounded like somebody stepped on a mine."\n\n\n"Crap! We're being flanked! Get 'em!""
+        1 string data = ""一体何だ今の? 誰かが地雷を踏んだような音がした。"\n\n\n"クソ! 側面から攻撃されてる! やれ!""
        [30]
-        1 string data = ""Look out! More hotlanders!""
+        1 string data = ""気をつけろ! ホットランダーがもっと来たぞ!""
        [31]
-        1 string data = ""Hey! Y'still in there? Don't ignore us!""
+        1 string data = ""おい! まだ中にいるのか? 無視すんなよ!""
        [32]
         1 string data = "Script Node 47"
    [1085]
