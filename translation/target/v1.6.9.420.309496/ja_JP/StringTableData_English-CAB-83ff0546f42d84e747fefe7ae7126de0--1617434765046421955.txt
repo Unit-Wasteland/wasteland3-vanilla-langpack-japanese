@@ -303749,13 +303749,13 @@
       1 Array Array (18 items)
        0 int size = 18
        [0]
-        1 string data = "'Drain cycle complete. Level 4 disinfection required. Please contact Customer Service.'"
+        1 string data = "'排水サイクル完了。レベル4消毒が必要です。カスタマーサービスまでお問い合わせください。'"
        [1]
-        1 string data = "The computer display reads, 'Sani-Kleen Pool Hygiene Monitoring System v1.021\n\n\nIt has been 37,165 days since the last water quality test.\n\n\nDo you wish to test the water quality of your pool now?'"
+        1 string data = "コンピュータ画面には次のように表示されている。'Sani-Kleenプール衛生監視システム v1.021\n\n\n最終水質検査から37,165日が経過しました。\n\n\nプールの水質検査を今すぐ実施しますか？'"
        [2]
-        1 string data = "Yes."
+        1 string data = "はい。"
        [3]
-        1 string data = "No."
+        1 string data = "いいえ。"
        [4]
         1 string data = "Bang keys randomly."
        [5]
@@ -303771,19 +303771,19 @@
        [10]
         1 string data = "::brrrt::"
        [11]
-        1 string data = "'Commencing water quality test...'"
+        1 string data = "'水質検査を開始します...'"
        [12]
-        1 string data = "'WARNING: High levels of human blood and other bodily fluids detected!\n\n\nPH level is normal.\n\n\nDo you wish to drain the pool?'"
+        1 string data = "'警告：大量の人間の血液とその他の体液が検出されました！\n\n\nPHレベルは正常です。\n\n\nプールを排水しますか？'"
        [13]
-        1 string data = "Yes."
+        1 string data = "はい。"
        [14]
-        1 string data = "No."
+        1 string data = "いいえ。"
        [15]
-        1 string data = "'Commencing drain cycle...\n\n\nWARNING: The presence of human remains in your pool may void your warranty. Contact Customer Service for details.'"
+        1 string data = "'排水サイクルを開始します...\n\n\n警告：プール内に人間の遺体が存在する場合、保証が無効になる可能性があります。詳細についてはカスタマーサービスにお問い合わせください。'"
        [16]
         1 string data = "::brrt::"
        [17]
-        1 string data = "'WARNING: High levels of human blood and other bodily fluids still present!\n\n\nDo you wish to drain the pool?'"
+        1 string data = "'警告：大量の人間の血液とその他の体液がまだ存在しています！\n\n\nプールを排水しますか？'"
    [985]
     0 StringTable data
      1 string Filename = "c2101_priscillareed"
@@ -303889,15 +303889,15 @@
        [11]
         1 string data = ""
        [12]
-        1 string data = ""No! Don't touch anything! It's rigged to blow!""
+        1 string data = ""だめ！何も触らないで！爆発するわ！""
        [13]
-        1 string data = ""Oh, <i>Violet</i>.""
+        1 string data = ""ああ、<i>ヴァイオレット</i>。""
        [14]
         1 string data = "Script Node 17"
        [15]
-        1 string data = "::sob:: "Stop! Please!""
+        1 string data = "::sob:: "やめて！お願い！""
        [16]
-        1 string data = ""Oh god! What are you doing? Stop!""
+        1 string data = ""ああ、神様！何をしてるの？やめて！""
    [986]
     0 StringTable data
      1 string Filename = "c2101_psychopath_intercom"
@@ -303967,11 +303967,11 @@
       1 Array Array (14 items)
        0 int size = 14
        [0]
-        1 string data = ""Hey, strangers. Shit, it took you long enough to get here.""
+        1 string data = ""やあ、見知らぬ人たち。くそ、ここに来るまでずいぶんかかったな。""
        [1]
         1 string data = " View debug options"
        [2]
-        1 string data = "Leave the intercom alone."
+        1 string data = "インターコムを放っておく。"
        [3]
         1 string data = " Select a debug option"
        [4]
@@ -303979,21 +303979,21 @@
        [5]
         1 string data = " C'mon in."
        [6]
-        1 string data = ""Open the door. We have business to settle with you.""
+        1 string data = ""ドアを開けろ。お前と片をつけなければならない。""
        [7]
-        1 string data = ""Yeah, come on in. Let's have some fun, huh?""
+        1 string data = ""ああ、入ってこい。楽しもうぜ、な？""
        [8]
         1 string data = ""
        [9]
-        1 string data = "Beyond this door lies Victory Buchanan, the Patriarch's psychopathic son. To confront him, you're going to need your whole team."
+        1 string data = "このドアの向こうにはヴィクトリー・ブキャナン、パトリアークのサイコパスな息子がいる。彼と対決するには、チーム全員が必要になる。"
        [10]
         1 string data = "::static::"
        [11]
         1 string data = ""
        [12]
-        1 string data = ""Rangers - let's not waste time talking. We should put this monster down!""
+        1 string data = ""レンジャー、無駄話はやめよう。この化け物を倒すべきだ！""
        [13]
-        1 string data = ""Play it safe, Rangers. We want him alive.""
+        1 string data = ""慎重にいけ、レンジャー。奴を生かしたままにしたい。""
    [987]
     0 StringTable data
      1 string Filename = "c2101_psychopath_partybarks"
@@ -304017,7 +304017,7 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = ""Damn, that's where that went. I always liked Poke better than that pansy-ass Peek.""
+        1 string data = ""くそ、そこに行ったのか。俺はいつもあのヘナチョコなPeekよりPokeの方が好きだった。""
    [988]
     0 StringTable data
      1 string Filename = "c2101_psychopath_song"
@@ -304045,9 +304045,9 @@
        [0]
         1 string data = ""
        [1]
-        1 string data = ""You made me kill you / I didn't wanna do it / I didn't wanna do it / You made me skin you / And scalp you with a razor / A dirty rusty razor"\n"
+        1 string data = ""お前が俺に殺させた / やりたくなかった / やりたくなかった / お前が俺に皮を剥がさせた / 剃刀で頭の皮を剥がさせた / 汚くて錆びた剃刀で"\n"
        [2]
-        1 string data = ""You made me happy sometimes / You made me <i>glad</i> / But in the end, baby / You just made me / Mad""
+        1 string data = ""お前は時々俺を幸せにした / お前は俺を<i>喜ばせた</i> / だが最後には、ベイビー / お前は俺を / 狂わせた""
    [989]
     0 StringTable data
      1 string Filename = "c2101_respectroomcomputer"
@@ -304133,13 +304133,13 @@
       1 Array Array (6 items)
        0 int size = 6
        [0]
-        1 string data = ""What's next for the Ranger?""
+        1 string data = ""次はレンジャーをどうする？""
        [1]
-        1 string data = ""Victory wants him beaten again.""
+        1 string data = ""ヴィクトリーはまた殴らせたいらしい。""
        [2]
-        1 string data = ""His breath is short, so his dream will end soon.""
+        1 string data = ""息が短いから、もうすぐ夢が終わる。""
        [3]
-        1 string data = ""Good.""
+        1 string data = ""いいことだ。""
        [4]
         1 string data = " Are you crazy? What kind of an asshole would punch a woman. "
        [5]
@@ -304851,53 +304851,53 @@
        [4]
         1 string data = " Addendum added."
        [5]
-        1 string data = ""We'll be back. Get some rest.""
+        1 string data = ""戻ってくる。休んでいろ。""
        [6]
         1 string data = " Start The Psychopath Quest"
        [7]
         1 string data = " Quest Started"
        [8]
-        1 string data = ""You made it. Hoped you would.""
+        1 string data = ""来てくれたか。そうなることを願っていた。""
        [9]
         1 string data = ""
        [10]
-        1 string data = ""Rangers! In here!""
+        1 string data = ""レンジャー！ここだ！""
        [11]
-        1 string data = ""You there, Rangers?""
+        1 string data = ""そこにいるか、レンジャー？""
        [12]
-        1 string data = ""You going to make it, Rook?""
+        1 string data = ""持ちこたえられそうか、ルーク？""
        [13]
-        1 string data = ""I'd stand and shake your hands, but around two days ago, I missed a call because I was in the can. When I got back, they nailed my f-feet to the floor.""
+        1 string data = ""立って握手したいところだが、2日前にトイレに行っててコールを逃したんだ。戻ったら、奴らが俺の足を床に釘づけにしやがった。""
        [14]
-        1 string data = ""How bad is it?""
+        1 string data = ""どれくらい酷いんだ？""
        [15]
-        1 string data = ""You shouldn't stand for that kind of thing.""
+        1 string data = ""そんなことに耐える必要はない。""
        [16]
-        1 string data = "Listen."
+        1 string data = "聞く。"
        [17]
         1 string data = "Start Conversation?"
        [18]
         1 string data = "Start Conversation."
        [19]
-        1 string data = ""Tell us about yourself, Corporal.""
+        1 string data = ""自己紹介をしてくれ、伍長。""
        [20]
-        1 string data = ""Well, you probably know my brother. General Woodson. Wade. I spent a lot of time helping him, and I never got any field experience. That was the point of coming to Colorado.""
+        1 string data = ""まあ、たぶん俺の兄貴を知ってるだろう。ウッドソン将軍。ウェイドだ。俺は兄貴を手伝うのに多くの時間を費やして、現場経験を積んだことがなかった。それがコロラドに来た理由だ。""
        [21]
-        1 string data = ""Looks like I got it, huh? More than I can handle. Wade's gonna laugh and laugh.""
+        1 string data = ""結局、経験できたみたいだな、え？手に負えないほど。ウェイドは笑い転げるだろうな。""
        [22]
         1 string data = ""
        [23]
-        1 string data = ""Your brother drove you to this?""
+        1 string data = ""兄貴がお前をこんな目に遭わせたのか？""
        [24]
-        1 string data = "Stay quiet."
+        1 string data = "黙っている。"
        [25]
-        1 string data = ""What? No. He told me not to go, but I had to, y'know, prove myself. What an idiot, huh?""
+        1 string data = ""何だって？違う。行くなと言われたんだ。でも、俺は自分を証明しなきゃならなかった。馬鹿げてるだろ？""
        [26]
-        1 string data = "Rubbing the back of his neck, he continues."
+        1 string data = "首の後ろをさすりながら、彼は続ける。"
        [27]
-        1 string data = ""I spent a lot of time behind the radio, giving orders. Never getting them, never seeing what the world was like outside my brother's shadow.""
+        1 string data = ""無線の後ろで多くの時間を過ごして、命令を出してた。命令を受けることもなく、兄貴の影の外にある世界がどんなものか見ることもなく。""
        [28]
-        1 string data = ""Have to say, I miss those days now. To think I used to worry about losing my shit in a fight.""
+        1 string data = ""正直に言うと、今はあの日々が恋しい。戦闘で自制心を失うことを心配してたなんてな。""
        [29]
         1 string data = ""
        [30]
@@ -304913,57 +304913,57 @@
        [35]
         1 string data = ""
        [36]
-        1 string data = ""Then you got your feet nailed to a floor and <i>still</i> managed to call for help.""
+        1 string data = ""それで足を床に釘づけにされて、<i>それでも</i>助けを呼ぶことができたんだな。""
        [37]
-        1 string data = ""And... did you? Lose your shit?""
+        1 string data = ""それで……本当に？自制心を失ったか？""
        [38]
-        1 string data = ""Your brother will be proud of you.""
+        1 string data = ""兄貴はお前を誇りに思うだろう。""
        [39]
-        1 string data = "He smiles, without a hint of the pain he must be feeling. "
+        1 string data = "彼は感じているはずの痛みの痕跡もなく微笑む。"
        [40]
-        1 string data = ""Doesn't everyone?""
+        1 string data = ""誰だってそうだろ？""
        [41]
-        1 string data = "His eyebrows rise. Then he smiles and looks down."
+        1 string data = "彼の眉が上がる。そして微笑んで視線を落とす。"
        [42]
-        1 string data = ""But, hey. After days of hell, an honest firefight sounds like a goddamn vacation.""
+        1 string data = ""でも、な。地獄の日々の後では、まともな銃撃戦は休暇みたいなもんだ。""
        [43]
-        1 string data = "He gives you a long, sour look."
+        1 string data = "彼は長く、苦々しい視線をこちらに向ける。"
        [44]
-        1 string data = ""Hard to say. I think they missed the bones, but every time I check...""
+        1 string data = ""何とも言えない。骨には当たってないと思うが、確認するたびに……""
        [45]
-        1 string data = ""Every time I close my eyes, I can see the damn things. Probably no bigger than my pinkie, but they feel like tent spikes.""
+        1 string data = ""目を閉じるたびに、あのクソな釘が見えるんだ。たぶん小指より大きくないだろうが、テントの杭みたいに感じる。""
        [46]
-        1 string data = ""That's not the worst part. They were laughing when they did it, like kids playing a game. Get me <i>out</i> of this, Rangers. Get these goddamn nails <i>out</i> of me.""
+        1 string data = ""それが最悪じゃない。奴らは釘を打つ時に笑ってたんだ、ゲームで遊ぶガキみたいに。ここから<i>出してくれ</i>、レンジャー。このクソッタレな釘を<i>抜いてくれ</i>。""
        [47]
-        1 string data = ""We have some medical training. Let's get you fixed up.""
+        1 string data = ""医療の訓練を受けてる。治療しよう。""
        [48]
-        1 string data = ""We'll get those nails out, but it's going to hurt like hell.""
+        1 string data = ""釘を抜いてやる。だが、地獄のように痛むぞ。""
        [49]
-        1 string data = ""We can't spare a medkit, but we'll get those nails out.""
+        1 string data = ""医療キットは使えないが、釘は抜いてやる。""
        [50]
-        1 string data = ""You could have escaped at any time, but you've been waiting for someone to save you?""
+        1 string data = ""いつでも逃げられたのに、誰かに助けられるのを待ってたのか？""
        [51]
         1 string data = "He bites his lip hard enough to draw blood, and his eyes are cold. "
        [52]
-        1 string data = "He hesitates, then leans down. He painfully <i>rips</i> out the wet, blood-soaked nail.\n\n\nMeeting your eyes, he slams the bloody nail on the desk, then leans back down to get the other one. It takes longer."
+        1 string data = "彼はためらった後、身を屈める。痛みに耐えながら、濡れて血に染まった釘を<i>引き抜く</i>。\n\n\nこちらの目を見て、血塗られた釘を机に叩きつけ、再び身を屈めてもう一本を取りかかる。時間がかかる。"
        [53]
-        1 string data = "He eases back from the desk to give you room to work.\n\n\nYou numb the wounds, extract the nails, give him a shot of antibiotics, and bandage his swollen, bloody feet."
+        1 string data = "彼は机から身を引いて、作業スペースを空ける。\n\n\n傷口を麻痺させ、釘を抜き取り、抗生物質を注射し、腫れて血まみれの足に包帯を巻く。"
        [54]
-        1 string data = "He doesn't complain at this, but there is disappointment in his eyes, as raw as any wound. "
+        1 string data = "彼は文句を言わないが、その目には失望が宿っている。傷と同じくらい生々しい失望だ。"
        [55]
-        1 string data = "Gritting his teeth, he eases back, giving you room to work.\n\n\nYou yank the first nail out of the swollen, infected wound. When the second one is gone, he leans away from you, but does not faint. He straightens and meets your eyes with a nod."
+        1 string data = "歯を食いしばりながら、彼は身を引いて作業スペースを空ける。\n\n\n腫れて感染した傷から最初の釘を引き抜く。2本目が抜け終わると、彼はこちらから離れるが気を失わない。姿勢を正して、うなずきながらこちらの目を見る。"
        [56]
-        1 string data = "But he does not faint. Hissing between his teeth, he straightens and meets your eyes with a nod."
+        1 string data = "だが気を失わない。歯の間で息を吐きながら、姿勢を正して、うなずきながらこちらの目を見る。"
        [57]
-        1 string data = ""All right. Now let me give you a situation report before I pass the fuck out.""
+        1 string data = ""よし。気を失う前に状況報告をさせてくれ。""
        [58]
-        1 string data = ""Thank you. <i>Thank</i> you.""
+        1 string data = ""ありがとう。本当に<i>ありがとう</i>。""
        [59]
-        1 string data = ""You mentioned the rest of your Ranger team is being held too. Where are they?""
+        1 string data = ""残りのレンジャーチームも捕らわれてると言ってたな。どこにいる？""
        [60]
-        1 string data = ""Overall, not sure. I know they took Pizepi to a science lab. They have her working with someone named 'The Gift.' It sounds like that big brain of hers is keeping her safe.""
+        1 string data = ""全体的に、よく分からない。ピゼピは科学研究所に連れて行かれた。'ザ・ギフト'という名の誰かと一緒に働かされてる。あの優秀な頭脳が彼女を守ってるみたいだ。""
        [61]
-        1 string data = ""I have no idea where they took La Loca and Rook. The guards in the lobby kept joking about how lucky I was compared to what Vic was planning for the two of them. I really hope they're okay. What a fucking mess.""
+        1 string data = ""ラ・ロカとルークをどこに連れて行ったのか全く分からない。ロビーの警備兵たちは、ヴィクが2人のために計画してることと比べて俺がどれだけ幸運か、冗談を言い続けてた。2人が無事だといいんだが。クソッタレな混乱だ。""
        [62]
         1 string data = ""How's the pain?""
        [63]
@@ -304971,77 +304971,77 @@
        [64]
         1 string data = ""Not good, but I'll live.""
        [65]
-        1 string data = ""Trying not to puke or faint. So, not good?""
+        1 string data = ""吐いたり気を失ったりしないように努めてる。だから、よくない？""
        [66]
         1 string data = ""What do you care?""
        [67]
-        1 string data = ""What do you know about the Hundred Families hostages?""
+        1 string data = ""ハンドレッド・ファミリーズの人質について何を知ってる？""
        [68]
-        1 string data = ""There's a male, part of the Ward family, and two sisters, part of the Reed family. Can't really say much more. Even before the nails, they kept me locked down.""
+        1 string data = ""ワード家の男が1人と、リード家の姉妹が2人。それ以上はあまり言えない。釘の前から、俺は閉じ込められてた。""
        [69]
-        1 string data = ""Vic, The Patriarch's son, is in the Patriarch's wing, doing God-knows-what. Look, Rangers. I can't say this enough - as bad as his guys are, he's worse. Much worse.""
+        1 string data = ""ヴィク、パトリアークの息子は、パトリアークの棟にいて、神のみぞ知ることをしてる。いいか、レンジャー。何度言っても足りない。奴の手下どもがどんなに悪くても、奴はもっと悪い。ずっと悪い。""
        [70]
-        1 string data = ""He's just a man.""
+        1 string data = ""ただの人間だ。""
        [71]
-        1 string data = ""Worse than nails in the feet?""
+        1 string data = ""足に釘より酷いのか？""
        [72]
-        1 string data = ""Maybe. But you take a look around this place and tell me if you still feel that way an hour from now.""
+        1 string data = ""かもな。だがこの場所を見回して、1時間後にまだ同じように感じるか言ってくれ。""
        [73]
-        1 string data = ""Yeah. As bad as that was, I'm alive. I'll probably heal. Vic's games leave people dead."\n\n\nRubbing his eyes, he continues. "
+        1 string data = ""ああ。あれがどれだけ酷くても、俺は生きてる。たぶん治る。ヴィクのゲームは人を死なせる。"\n\n\n目をこすりながら、彼は続ける。"
        [74]
         1 string data = ""
        [75]
-        1 string data = ""I heard Ash - that's one of Vic's inner circle - saying he had the key to the Patriarch's wing. He's usually up in the security control room."\n\n\nHe taps the desk, staring at the air, then remembers something."
+        1 string data = ""アッシュ——ヴィクの側近の1人だが——がパトリアークの棟の鍵を持ってると言ってるのを聞いた。奴は大抵、セキュリティ管制室にいる。"\n\n\n机を叩き、空中を見つめ、それから何かを思い出す。"
        [76]
-        1 string data = ""Tell us more about Vic's people.""
+        1 string data = ""ヴィクの仲間についてもっと教えてくれ。""
        [77]
-        1 string data = ""Most of 'em are his friends from Colorado Springs. People who sucked up to him until they became like him. But don't get me wrong. They aren't as bad as the man himself. Not by far.""
+        1 string data = ""ほとんどがコロラドスプリングスの友人だ。奴のケツを舐めて奴みたいになった連中。だが誤解するな。奴ら自身ほど悪くはない。全然な。""
        [78]
-        1 string data = ""Yeah, I'll try.""
+        1 string data = ""ああ、やってみる。""
        [79]
-        1 string data = ""The Breathers. They never talked to me, but they look tough. Not sure what they want, or why they're working for Vic.""
+        1 string data = ""ブリーザーズだ。俺とは話さなかったが、タフそうだ。何が欲しいのか、なぜヴィクのために働いてるのか分からない。""
        [80]
         1 string data = ""
        [81]
-        1 string data = ""Still kicking, Rangers. Don't worry about me.""
+        1 string data = ""まだやってるよ、レンジャー。心配するな。""
        [82]
-        1 string data = ""Glad to have you back, Zeppie.""
+        1 string data = ""戻ってきてくれて嬉しいよ、ゼッピー。""
        [83]
-        1 string data = ""They stuck you in a freezer, Loca?""
+        1 string data = ""冷凍庫に閉じ込められたのか、ロカ？""
        [84]
-        1 string data = ""Forgive me if I don't laugh. I've been sitting in my own piss for two days.""
+        1 string data = ""笑わなくても許してくれ。2日間、自分の小便の上に座ってたんだ。""
        [85]
-        1 string data = ""Yeah. Coward that I am, I was afraid of the pain and getting shot when I crawled for the door. But since you're here... <i>fine</i>.""
+        1 string data = ""ああ。臆病者の俺は、ドアに這っていく時に痛みと銃撃を恐れてた。だがお前らがここにいるなら……<i>いい</i>。""
        [86]
-        1 string data = ""The hostages. Most of them are probably dead by now, but my team is probably still alive, and so are the prisoners from the Hundred Families. Vic hates 'em. Can't tell you why. Look, no matter what anyone else told you, saving the hostages is your top priority.""
+        1 string data = ""人質だ。ほとんどはもう死んでるかもしれないが、俺のチームはたぶんまだ生きてる。ハンドレッド・ファミリーズの囚人たちもな。ヴィクは奴らを憎んでる。理由は言えない。いいか、他の誰が何を言おうと、人質を救うのが最優先だ。""
        [87]
-        1 string data = ""Ow. Ow. Fuckin' <i>ow</i>.""
+        1 string data = ""痛っ。痛っ。クソったれ<i>痛い</i>。""
        [88]
-        1 string data = ""Yeah, and cut on me too. Look, new scar.""
+        1 string data = ""ああ、俺も切られた。見ろ、新しい傷跡だ。""
        [89]
         1 string data = "::whistles::"
        [90]
-        1 string data = ""Fuck if I know. You tell me.""
+        1 string data = ""知るか。お前が教えろ。""
        [91]
-        1 string data = ""You're gonna make it.""
+        1 string data = ""お前はやり遂げる。""
        [92]
-        1 string data = ""That's a relief.""
+        1 string data = ""安心した。""
        [93]
-        1 string data = ""Thanks, Woody.""
+        1 string data = ""ありがとう、ウッディ。""
        [94]
-        1 string data = ""Yeah. And it feels good.""
+        1 string data = ""ああ。気分がいい。""
        [95]
-        1 string data = ""Nice of you to say.""
+        1 string data = ""優しい言葉をありがとう。""
        [96]
         1 string data = " "Take care out there Rangers.""
        [97]
         1 string data = ""There was a broadcast a few days ago where he was taunting someone named Gwen. He mentioned that he was 'looking forward to playing a new game with her daughters', whatever that means. Gwen and her daughters must be part of the Hundred Families prisoners."\n"
        [98]
-        1 string data = ""Vic, the Patriarch's son, is in the Patriarch's wing, doing god-knows-what. Rangers. I can't say this enough - as bad as his guys are, Vic is worse. Much worse.""
+        1 string data = ""ヴィク、パトリアークの息子は、パトリアークの棟にいて、神のみぞ知ることをしてる。レンジャー。何度言っても足りない。奴の手下どもがどんなに悪くても、ヴィクはもっと悪い。ずっと悪い。""
        [99]
         1 string data = ""There was a broadcast a few days ago where he was taunting someone named Violet. He said that he was 'looking forward to playing a new game with her and her sister', whatever that means. The sisters are probably members of the Hundred Families.\n"
        [100]
-        1 string data = ""Worse than nails in the feet?""
+        1 string data = ""足に釘より酷いのか？""
        [101]
         1 string data = ""He's just a man.""
        [102]
