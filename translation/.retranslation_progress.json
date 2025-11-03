@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 23997,
-      "entries_untranslated": 145715,
-      "completion_rate": 14.14,
-      "current_line": 352116,
+      "entries_translated": 24122,
+      "entries_untranslated": 145590,
+      "completion_rate": 14.21,
+      "current_line": 353442,
       "status": "in_progress",
       "approach": "Strict sequential from line 666, Spanish reference mandatory",
-      "note": "Session 274: 78 entries translated (lines 351595-352116). Sections processed: o1001_chemicallab (63 entries - Paris chemical lab dye mixing puzzle, Blood Red dye quest), o1001_combatbarks_smugglers (15 entries - smuggler combat barks). CRITICAL: Fixed 9 quote structure errors (used Japanese brackets instead of double-quote format, converted all to correct 4-quote structure). Spanish reference logic strictly applied. Structure validation: 0 errors after fix. Action marker validation: passed. Next: Continue from line 352117 (o1001_companion_barktriggers section)."
+      "note": "Session 275: 125 entries translated (lines 352488-353442). Sections processed: o1001_companion_barktriggers (79 entries - companion bark triggers at Bizarre entrance), o1001_debug_simulacrum (0 entries - English preserved), o1001_drsmiles (14 entries - Dr. Smiles clown dentist), o1001_entranceguard (0 entries - English preserved), o1001_entranceguardgreaser (4 entries), o1001_entranceguardnotetaker (4 entries), o1001_entranceguardpatrolman (9 entries), o1001_entranceguardshoveler (4 entries), o1001_entranceguardsniperone (7 entries), o1001_entranceguardsnipertwo (4 entries). Spanish reference logic strictly applied. Structure validation: 0 errors. Action marker validation: passed. Quote counts match exactly. Next: Continue from line 353443 (o1001_greatgurn section - 76 entries)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "8a0b1ff",
-  "last_commit_message": "Retranslation: Session 274 (78 entries, lines 351595-352116)",
-  "total_entries_completed": 23997,
+  "last_commit_hash": "bae6063",
+  "last_commit_message": "Retranslation: Session 275 (125 entries, lines 352488-353442)",
+  "total_entries_completed": 24122,
   "total_entries": 169712,
-  "total_entries_untranslated": 145715,
-  "overall_completion_rate": 14.14,
-  "next_action": "Continue sequential processing from line 352117. Spanish reference check mandatory.",
+  "total_entries_untranslated": 145590,
+  "overall_completion_rate": 14.21,
+  "next_action": "Continue sequential processing from line 353443 (o1001_greatgurn section). Spanish reference check mandatory.",
   "strict_workflow": {
     "sequential_processing": "MANDATORY - Process from line 1 sequentially. NO skipping, NO prioritization.",
     "spanish_reference": "MANDATORY - Check Spanish file for translatability before each translation.",
