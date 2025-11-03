@@ -69,7 +69,7 @@ class StrictStructureValidator:
 
             results['string_data_lines'] += 1
 
-            # 引用符の数を確認
+            # 引用符の数を確認（ソースとターゲットは一致する必要がある）
             src_quotes = src_line.count('"')
             tgt_quotes = tgt_line.count('"')
 
