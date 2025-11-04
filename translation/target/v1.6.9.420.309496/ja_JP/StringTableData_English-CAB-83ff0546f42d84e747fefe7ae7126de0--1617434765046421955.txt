@@ -2597,17 +2597,17 @@
       1 Array Array (6 items)
        0 int size = 6
        [0]
-        1 string data = ""Come in, Team November, this is HQ. Not sure if hell froze over or what, but a messenger just arrived with a package from Gwendolyn Reed - says the family is offering the Rangers a reward for all you did for them.""
+        1 string data = ""応答せよ、チーム・ノヴェンバー、こちら本部。地獄が凍ったのかどうか分からないが、グウェンドリン・リードから荷物を持った使者が到着した。家族がお前たちがしてくれた全てのことに対して、レンジャーに報酬を提供すると言っている""
        [1]
         1 string data = "Script Node 2"
        [2]
-        1 string data = ""With Gwendolyn Reed? Can never be too sure. We'll give it a once-over. Anyway, the messenger will be waiting for you by the main doors when next you return to base. Over and out.""
+        1 string data = ""グウェンドリン・リード相手では安心できないからな。よく調べておく。とにかく、次に基地に戻った時、使者が正面ドアのところで待っている。通信終了""
        [3]
-        1 string data = ""You sure it's not a bomb, Gonzalez?""
+        1 string data = ""爆弾じゃないと確信できるか、ゴンザレス?""
        [4]
-        1 string data = ""Nice of her.""
+        1 string data = ""親切だな""
        [5]
-        1 string data = ""Don't look a gift horse in the mouth, I suppose. The messenger will be waiting for you by the main doors when next you return to base. Over and out.""
+        1 string data = ""もらえるものは文句を言わないものだ。次に基地に戻った時、使者が正面ドアのところで待っている。通信終了""
    [15]
     0 StringTable data
      1 string Filename = "0000_gonzalez_radio_bardstalereward"
@@ -2629,7 +2629,7 @@
       1 Array Array (2 items)
        0 int size = 2
        [0]
-        1 string data = ""Hey, November, this is Ranger Command. We just got a... delivery for you. No one saw it come in, but there's a crate with, 'Congratulations from Skara Brae!' printed on it sitting in the courtyard.""
+        1 string data = ""やあ、ノヴェンバー、こちらレンジャー司令部。お前たちへの...配達が届いた。誰も配達されるのを見ていないが、『スカラブレーからの祝福!』と印刷された木箱が中庭に置いてある""
        [1]
         1 string data = "Script Node 2"
    [16]
@@ -2669,15 +2669,15 @@
       1 Array Array (6 items)
        0 int size = 6
        [0]
-        1 string data = ""Come in, Team November, this is HQ. We finally got a signal through to Arizona. It's a bit spotty, but we got word from General Wade Woodson - he'd like to speak with you.""
+        1 string data = ""応答せよ、チーム・ノヴェンバー、こちら本部。ついにアリゾナへの通信が成功した。少し不安定だが、ウェイド・ウッドソン将軍から連絡があった。お前たちと話したいそうだ""
        [1]
-        1 string data = ""Great job, Gonzalez, we'll be back for that call.""
+        1 string data = ""よくやったな、ゴンザレス。電話のために戻る""
        [2]
-        1 string data = ""Copy that, HQ. We'll be there when we can.""
+        1 string data = ""了解、本部。できるだけ早く行く""
        [3]
-        1 string data = ""Thanks, November. Amazing what you can do with a bit of tape and a lot of ingenuity. See you soon. Over and out.""
+        1 string data = ""ありがとう、ノヴェンバー。少しのテープと大量の創意工夫で何ができるか驚くべきことだ。すぐに会おう。通信終了""
        [4]
-        1 string data = ""Solid copy, November. See you soon - over and out.""
+        1 string data = ""了解、ノヴェンバー。すぐに会おう。通信終了""
        [5]
         1 string data = ""
    [17]
@@ -2761,39 +2761,39 @@
       1 Array Array (17 items)
        0 int size = 17
        [0]
-        1 string data = ""Come in, Team November, this is Ranger HQ. We're picking up a ton of indistinct radio chatter originating from somewhere close to your location.""
+        1 string data = ""応答せよ、チーム・ノヴェンバー、こちらレンジャー本部。お前たちの位置の近くから発信される大量の不明瞭な無線交信を傍受している""
        [1]
-        1 string data = ""It's doing a hell of a job jamming up the airwaves. Sounds like some kind of code. It may just be some pre-war broadcast, but might be worth investigating. How do you copy?""
+        1 string data = ""電波をひどく妨害している。何かのコードのようだ。戦前の放送かもしれないが、調査する価値があるかもしれない。了解したか?""
        [2]
-        1 string data = ""I can't lock down an exact spot, but it's definitely coming from somewhere up in the mountain range near your current location.""
+        1 string data = ""正確な場所は特定できないが、お前たちの現在位置の近くの山脈のどこかから発信されているのは確かだ""
        [3]
-        1 string data = ""Let me know if you find anything. HQ over and out.""
+        1 string data = ""何か見つけたら知らせてくれ。本部、通信終了""
        [4]
-        1 string data = ""Solid copy, HQ. Do you have a location?""
+        1 string data = ""了解、本部。場所は分かるか?""
        [5]
-        1 string data = ""Did you say pre-war broadcast?""
+        1 string data = ""戦前の放送と言ったか?""
        [6]
-        1 string data = ""Oh yeah - happens all the time out here. They built those radio installations to last. Anyway, the signal is originating from somewhere in the mountain range near your current location.""
+        1 string data = ""ああ、そうだ。ここではしょっちゅうだ。あの無線設備は長持ちするように作られていた。とにかく、信号はお前たちの現在位置の近くの山脈のどこかから発信されている""
        [7]
         1 string data = ""
        [8]
         1 string data = "Script Node 9"
        [9]
-        1 string data = ""Team November, the signal's down. Does that mean you've saved the day and are celebrating?""
+        1 string data = ""チーム・ノヴェンバー、信号が停止した。それはお前たちが問題を解決して祝っているということか?""
        [10]
-        1 string data = ""We discovered a Cochise synth and had to shut it all down, for safety reasons.""
+        1 string data = ""コチーズのシンセを発見して、安全のため全て停止させなければならなかった""
        [11]
-        1 string data = ""Found a wannabe Cochise synth army forming, took them out, let the locals know where to send the thank you cards.""
+        1 string data = ""コチーズのシンセ軍団のなり損ないが形成されているのを発見し、全て排除して、感謝状の送り先を地元の人々に知らせた""
        [12]
-        1 string data = ""See synths, kill synths, same shit different day. Though they did have a thing for Cochise.""
+        1 string data = ""シンセを見つけて、シンセを殺す、いつもの仕事だ。ただ、奴らはコチーズに傾倒していたがな""
        [13]
-        1 string data = ""A Cochise synth is bad news. It's a good thing you investigated, Team November.""
+        1 string data = ""コチーズのシンセは悪い知らせだ。調査してくれて良かった、チーム・ノヴェンバー""
        [14]
-        1 string data = ""I'll be sure to let your fan club know all the details of your heroic efforts. The last thing Colorado needs is a Cochise uprising.""
+        1 string data = ""お前たちのファンクラブに、英雄的な活躍の詳細を必ず知らせておく。コロラドに最も必要ないのはコチーズの蜂起だ""
        [15]
-        1 string data = ""A thing... for Cochise? That's disturbing, November One. You did shut them all down, so I guess it's not a thing anymore.""
+        1 string data = ""傾倒...コチーズに? それは不穏だな、ノヴェンバー・ワン。全て停止させたんだろう、だからもう問題ないと思うが""
        [16]
-        1 string data = ""I'll log this as a win for the Rangers. HQ over and out.""
+        1 string data = ""これはレンジャーの勝利として記録しておく。本部、通信終了""
    [18]
     0 StringTable data
      1 string Filename = "0000_gonzalez_radio_shadyvisit"
@@ -2847,21 +2847,21 @@
       1 Array Array (10 items)
        0 int size = 10
        [0]
-        1 string data = ""Team November, this is Ranger HQ. A couple vehicles rolled up and set up right outside our base. Real shady characters.""
+        1 string data = ""チーム・ノヴェンバー、こちらレンジャー本部。2台の車両が基地のすぐ外に到着して陣取った。かなり怪しい連中だ""
        [1]
         1 string data = ""
        [2]
-        1 string data = ""La Perla? No idea.""
+        1 string data = ""ラ・ペルラ? 知らないな""
        [3]
-        1 string data = ""We'll check it out.""
+        1 string data = ""確認してみる""
        [4]
         1 string data = ""Copy that, Ranger HQ, we'll check it out.""
        [5]
-        1 string data = ""Their leader is a woman named La Perla, who claims to have business with the Rangers, but won't specify what it is to us. Ring any bells?""
+        1 string data = ""リーダーはラ・ペルラという名前の女性で、レンジャーと取引があると主張しているが、詳細は明かさない。心当たりは?""
        [6]
-        1 string data = ""Figured. We'll keep them outside the base for you to deal with in good time. Over and out.""
+        1 string data = ""そうだろうな。お前たちが適切な時に対処できるよう、基地の外に留めておく。通信終了""
        [7]
-        1 string data = ""Copy that, November. We'll have them hold outside until you return. Over and out.""
+        1 string data = ""了解、ノヴェンバー。お前たちが戻るまで外で待たせておく。通信終了""
        [8]
         1 string data = ""We'll be here. Over and out.""
        [9]
@@ -3019,75 +3019,75 @@
       1 Array Array (35 items)
        0 int size = 35
        [0]
-        1 string data = ""HQ to Team November, I received an urgent message from a distraught local currently being pursued by bandits, are you ready to receive?""
+        1 string data = ""本部からチーム・ノヴェンバー、現在バンディットに追われている地元住民から緊急メッセージを受け取った。受信準備はいいか?""
        [1]
-        1 string data = ""The victim is Kym Hie and her sister. They're being pursued by bandits, though details were scarce on enemy ordinance.""
+        1 string data = ""犠牲者はキム・ヒーとその妹だ。バンディットに追われているが、敵の装備については詳細が乏しい""
        [2]
-        1 string data = ""Kym has indicated that time is a critical factor.""
+        1 string data = ""キムは時間が重要な要素だと指摘している""
        [3]
-        1 string data = ""Well, they're women and they don't seem to be armed. Easy pickings, but that's where we come in, right?""
+        1 string data = ""まあ、彼女たちは女性で武装していないようだ。格好の獲物だが、だから我々が介入するんだろう?""
        [4]
-        1 string data = ""They're on the move, sending you coordinates. Time is of the essence, Team November. Over and out.""
+        1 string data = ""移動中だ、座標を送る。時間が勝負だ、チーム・ノヴェンバー。通信終了""
        [5]
         1 string data = ""
        [6]
-        1 string data = ""This is Kym Hie. Please tell us you're close...""
+        1 string data = ""こちらキム・ヒー。お願いします、近くにいると言って...""
        [7]
-        1 string data = ""This is Kym Hie! We've reached the ruins, but they're right behind us! Please hurry! We need your help!""
+        1 string data = ""こちらキム・ヒー! 廃墟に着いたけど、すぐ後ろまで来ています! 急いでください! 助けが必要です!""
        [8]
-        1 string data = ""This is Kym Hie! They have us cornered. I think some of them are trying to surround us.""
+        1 string data = ""こちらキム・ヒー! 追い詰められています。何人かが囲もうとしていると思います""
        [9]
-        1 string data = ""This is Kym Hie! Please tell me you're here. I can hear them. They're so close. There's nowhere to go. Please..." ::cries::"
+        1 string data = ""こちらキム・ヒー! お願いです、そこにいると言ってください。奴らの声が聞こえます。とても近いです。逃げ場がありません。お願い..." ::cries::"
        [10]
-        1 string data = ""Affirmative, HQ, details please.""
+        1 string data = ""了解、本部、詳細を頼む""
        [11]
-        1 string data = ""It's just an endless sea of needy locals out here, isn't it?""
+        1 string data = ""ここは助けを必要とする地元民の果てしない海だな、そうだろう?""
        [12]
-        1 string data = ""Copy that, November, but what's one more in a day's work? We're looking at bandits in pursuit of one Kym Hie and her sister.""
+        1 string data = ""了解、ノヴェンバー、だが一日の仕事でもう一人くらい何だ? キム・ヒーとその妹を追跡しているバンディットが相手だ""
        [13]
-        1 string data = ""What kind of bandits?""
+        1 string data = ""どんな種類のバンディットだ?""
        [14]
-        1 string data = ""What are they paying?""
+        1 string data = ""報酬はいくらだ?""
        [15]
-        1 string data = ""Unknown, Team November. Sorry to be low on details, but the victim and her sister were in a panic.""
+        1 string data = ""不明だ、チーム・ノヴェンバー。詳細が少なくて申し訳ないが、犠牲者と妹はパニックだった""
        [16]
-        1 string data = ""Why'd they target this woman?""
+        1 string data = ""なぜこの女性を狙ったんだ?""
        [17]
-        1 string data = ""Nothing if they're dead.""
+        1 string data = ""死んでいたら何もない""
        [18]
         1 string data = "Script Node 19"
        [19]
-        1 string data = ""Come in, Team November, this is Ranger HQ.""
+        1 string data = ""応答せよ、チーム・ノヴェンバー、こちらレンジャー本部""
        [20]
-        1 string data = ""Any progress with the Hie sisters? Things sounded pretty dire, over.""
+        1 string data = ""ヒー姉妹の件で進展は? かなり切迫していたようだが、通信終了""
        [21]
-        1 string data = ""Negative, HQ. We haven't tracked them down yet. Over.""
+        1 string data = ""否定的だ、本部。まだ追跡できていない。通信終了""
        [22]
-        1 string data = ""Copy, Team November. It sounds like they don't have much time left, though. Over and out.""
+        1 string data = ""了解、チーム・ノヴェンバー。だが、残り時間はあまりなさそうだ。通信終了""
        [23]
-        1 string data = ""We're still investigating, HQ. Over.""
+        1 string data = ""まだ調査中だ、本部。通信終了""
        [24]
         1 string data = ""
        [25]
         1 string data = ""
        [26]
-        1 string data = ""Copy that, Team November. I'll log the situation as resolved. Over and out.""
+        1 string data = ""了解、チーム・ノヴェンバー。状況を解決済みとして記録する。通信終了""
        [27]
-        1 string data = "[Abandon] "Negative, HQ. It's a Hundred Families dispute. We're not touching it. Over.""
+        1 string data = "[Abandon] "否定的だ、本部。これは百家族の紛争だ。我々は関わらない。通信終了""
        [28]
         1 string data = ""
        [29]
         1 string data = ""
        [30]
-        1 string data = "[Abandon] "We looked into it, but it's not worth the effort, HQ. We're leaving it alone.""
+        1 string data = "[Abandon] "調査したが、労力に見合わない、本部。放っておく""
        [31]
-        1 string data = ""Huh... copy that, Team November. I'll strike this one from the log. Over and out.""
+        1 string data = ""ふむ...了解、チーム・ノヴェンバー。記録から削除する。通信終了""
        [32]
         1 string data = ""
        [33]
         1 string data = ""
        [34]
-        1 string data = ""No, please! Someone! Help!"\n\n\n"They're coming in! No-!" ::static::"
+        1 string data = ""やめて、お願い! 誰か! 助けて!"\n\n\n"入ってくる! やめ―!" ::static::"
    [20]
     0 StringTable data
      1 string Filename = "0000_lemonadejoe"
@@ -3197,49 +3197,49 @@
       1 Array Array (24 items)
        0 int size = 24
        [0]
-        1 string data = ""... In our last episode, Hogofogo, Master Criminal of the Wild West, had cornered the lovely Winnifred in the Stetson City Cemetery.""
+        1 string data = ""...前回のエピソードでは、西部の大犯罪者ホゴフォゴが、ステットソン・シティ墓地で愛らしいウィニフレッドを追い詰めていました""
        [1]
-        1 string data = ""As the dastardly villain closed in, he was confronted by Tornado Lou, the sultry songbird of the Trigger Whisky Saloon.""
+        1 string data = ""卑劣な悪党が迫ると、トリガー・ウィスキー・サルーンの妖艶な歌姫トルネード・ルーが立ちはだかりました""
        [2]
-        1 string data = ""Now Lou lies dead at Hogofogo's feet, and poor Winnifred has nowhere left to run...""
+        1 string data = ""今やルーはホゴフォゴの足元に死んで倒れており、哀れなウィニフレッドには逃げ場がありません...""
        [3]
-        1 string data = ""No one can save you now, Winnifred! You're mine!""
+        1 string data = ""もう誰もお前を救えない、ウィニフレッド! お前は俺のものだ!""
        [4]
-        1 string data = ""No!!""
+        1 string data = ""いや!!""
        [5]
-        1 string data = ""Hogofogo! What have you done? What have you done!? You... you killed Tornado Lou!""
+        1 string data = ""ホゴフォゴ! 何をした? 何をしたんだ!? お前は...お前はトルネード・ルーを殺した!""
        [6]
-        1 string data = ""She got what she deserved! And so will you, if you get in my way!""
+        1 string data = ""彼女は当然の報いを受けた! お前も俺の邪魔をすれば同じ目に遭うぞ!""
        [7]
-        1 string data = ""You'll pay for this!""
+        1 string data = ""これは償ってもらうぞ!""
        [8]
-        1 string data = ""No, Doug! Don't!" ::gunfire::"
+        1 string data = ""だめだ、ダグ! やめろ!" ::gunfire::"
        [9]
         1 string data = "::screams::"
        [10]
-        1 string data = ""Before Hogofogo can carry out his evil designs on Winnifred, Doug Badman, the owner of the Trigger Whisky Saloon, comes looking for Tornado Lou.""
+        1 string data = ""ホゴフォゴがウィニフレッドに邪悪な企みを実行する前に、トリガー・ウィスキー・サルーンのオーナー、ダグ・バッドマンがトルネード・ルーを探しにやってきます""
        [11]
-        1 string data = ""Say... your... prayers... Winnifred. If I... can't have you... no one will...""
+        1 string data = ""祈りを...捧げろ...ウィニフレッド。俺が...お前を手に入れられないなら...誰も手に入れられない...""
        [12]
-        1 string data = ""As the dastardly Hogofogo turns his gun on Winnifred, a dashing figure in bright yellow leaps from the shadows!""
+        1 string data = ""卑劣なホゴフォゴがウィニフレッドに銃を向けると、鮮やかな黄色の服を着た颯爽とした人物が影から飛び出します!""
        [13]
-        1 string data = ""Not so fast!""
+        1 string data = ""そうはいかない!""
        [14]
-        1 string data = ""Lemonade Joe!""
+        1 string data = ""レモネード・ジョー!""
        [15]
-        1 string data = ""Lemonade Joe! It... it can't be! I gunned you down in the Trigger Whisky Saloon!""
+        1 string data = ""レモネード・ジョー! あり...ありえない! トリガー・ウィスキー・サルーンでお前を撃ち倒したはずだ!""
        [16]
-        1 string data = ""I'd have been a goner if it hadn't been for the miraculous healing power of Kolakoka! One drink and I was good as new!""
+        1 string data = ""コラコカの奇跡的な治癒力がなければ、俺はおしまいだった! 一杯飲んだら元通りだ!""
        [17]
-        1 string data = ""The stage is set for the final showdown! Who will prevail? Tune in next time for the further adventures of Lemonade Joe!""
+        1 string data = ""最終決戦の舞台が整った! 誰が勝つだろうか? レモネード・ジョーのさらなる冒険は次回をお楽しみに!""
        [18]
         1 string data = """"
        [19]
         1 string data = "Script Node 22"
        [20]
-        1 string data = ""When last we left the terrified Winnifried, she was cornered in the Stetson City Cemetary by the evil Hogofogo.""
+        1 string data = ""前回、恐怖に怯えるウィニフリードを残したとき、彼女は邪悪なホゴフォゴによってステットソン・シティ墓地で追い詰められていました""
        [21]
-        1 string data = ""But Doug Badman means to make the villain pay for killing his sweetheart, Tornado Lou. As Winnifried looks on, both men reach for their guns!""
+        1 string data = ""しかしダグ・バッドマンは、愛するトルネード・ルーを殺した悪党に報いを受けさせるつもりです。ウィニフリードが見守る中、二人の男が銃に手を伸ばします!""
        [22]
         1 string data = "Trigger Conv Node 25"
        [23]
