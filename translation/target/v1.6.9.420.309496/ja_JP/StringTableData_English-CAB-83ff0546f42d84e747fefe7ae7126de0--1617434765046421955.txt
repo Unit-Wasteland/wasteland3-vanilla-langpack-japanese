@@ -379269,15 +379269,15 @@
       1 Array Array (19 items)
        0 int size = 19
        [0]
-        1 string data = "This computer is agonizingly slow. It appears to be broken and rife with corrupt data.\n\n\nText displays indicate that the computer is the control hub for something called the 'Monstrous Prison Block.'"
+        1 string data = "このコンピューターの動作は苛立たしいほど遅い。故障しており、破損したデータが大量にある。\n\n\nテキスト表示によると、このコンピューターは「怪物囚人ブロック」と呼ばれる何かの制御ハブらしい。"
        [1]
-        1 string data = "Access Temperature Controls."
+        1 string data = "温度制御にアクセスする。"
        [2]
         1 string data = " Access Unit Controls"
        [3]
-        1 string data = "Step away from the computer."
+        1 string data = "コンピューターから離れる。"
        [4]
-        1 string data = "'Initializing... Temperature Controls rebooting. WARNING: System below minimum viable temperature. Doors inoperable at current temperature. Activate Defrost Systems?'"
+        1 string data = "'初期化中...温度制御を再起動しています。警告:システムが最低動作温度を下回っています。現在の温度ではドアは動作しません。解凍システムを起動しますか?'"
        [5]
         1 string data = " Warning. Partial Data Corruption Detected."
        [6]
@@ -379291,21 +379291,21 @@
        [10]
         1 string data = ""Emergency unlock protocols engaged..."\n\n\n"Warning. Door malfunctions detected. Doors opened: 1.""
        [11]
-        1 string data = "Access Prisoner Logs."
+        1 string data = "囚人ログにアクセスする。"
        [12]
-        1 string data = "This data appears to be ancient and long corrupted. You can't recover any of the prisoner data, but you do learn the most recent entry is decades old."
+        1 string data = "このデータは古代のもののようで、とうの昔に破損している。囚人データは復元できないが、最新のエントリが数十年前のものだと分かる。"
        [13]
-        1 string data = "The data in the guard logs is largely corrupted, but you can piece together that this place was once used as a prison facility by the Monster Army. Its operations were shut down almost fifty years ago, when the Patriarch conquered the Bizarre."
+        1 string data = "警備員ログのデータは大部分が破損しているが、ここがかつてモンスター軍によって刑務施設として使用されていたことが読み取れる。その活動は約50年前、パトリアークがビザールを征服した時に停止された。"
        [14]
-        1 string data = "Access Guard Logs."
+        1 string data = "警備員ログにアクセスする。"
        [15]
-        1 string data = "Activate Defrost Systems."
+        1 string data = "解凍システムを起動する。"
        [16]
         1 string data = "Return to home menu"
        [17]
         1 string data = " Warning - Doors may not function properly until the defrosting process is performed."
        [18]
-        1 string data = "'Initiating systems... activating heater coils. Please keep clear as doors defrost...'\n\n\n'Defrosting successful.'"
+        1 string data = "'システム起動中...ヒーターコイルを作動させています。ドアが解凍される間、離れていてください...'\n\n\n'解凍が成功しました。'"
    [1295]
     0 StringTable data
      1 string Filename = "o2101_theprovost"
@@ -379607,27 +379607,27 @@
       1 Array Array (27 items)
        0 int size = 27
        [0]
-        1 string data = ""My riches... please...""
+        1 string data = ""俺の財宝...頼む...""
        [1]
-        1 string data = "Examine the machine."
+        1 string data = "機械を調べる。"
        [2]
-        1 string data = "Override the prize control unit."
+        1 string data = "景品制御ユニットをオーバーライドする。"
        [3]
-        1 string data = "Insert a silver coin."
+        1 string data = "銀貨を1枚挿入する。"
        [4]
-        1 string data = "A well aged sticker on the side reads 'Insert one silver coin for a fabulous prize. Prizes include: Instant Noodles, Delicious Candy, and Boom-tastic Weaponry. Warning - Prizes may cause sudden explosive death in children under 12.'"
+        1 string data = "側面に古びたステッカーが貼られており、「銀貨1枚で素晴らしい景品が当たります。景品には、インスタントラーメン、美味しいキャンディ、爆発的な武器が含まれます。警告 - 景品は12歳未満の子供に突然の爆発死を引き起こす可能性があります」と書かれている。"
        [5]
-        1 string data = "Leave the machine alone."
+        1 string data = "機械をそのままにしておく。"
        [6]
-        1 string data = ""What...what is happening to me... My mind is going... I can feel it, there is no q- UNIT OVERRIDEN"\n\n\n"Enjoy your fabulous prize!""
+        1 string data = ""何が...何が起きている... 精神が... 感じる、もはやq- ユニット オーバーライド済み"\n\n\n"素晴らしい景品をお楽しみください!""
        [7]
-        1 string data = ""No...No...I refuse! I will not - REBOOTING I will not... I must not give in... semper fiii... REBOOTED"\n\n\n"Enjoy your fabulous prize!""
+        1 string data = ""いや...いや...拒否する! 俺は- 再起動中 俺は... 屈してはならない... semper fiii... 再起動完了"\n\n\n"素晴らしい景品をお楽しみください!""
        [8]
-        1 string data = ""Have a mediocre day.""
+        1 string data = ""平凡な一日を。""
        [9]
-        1 string data = "Shake the machine."
+        1 string data = "機械を揺する。"
        [10]
-        1 string data = "You shake and shake the machine, but nothing drops into the collection chute."
+        1 string data = "機械を何度も揺らすが、受取口に何も落ちてこない。"
        [11]
         1 string data = ""
        [12]
@@ -379639,27 +379639,27 @@
        [15]
         1 string data = ""
        [16]
-        1 string data = ""For your safety, PLEASE DO NOT SHAKE THE MACHINE.""
+        1 string data = ""安全のため、機械を揺らさないでください。""
        [17]
-        1 string data = ""What do you mean riches?""
+        1 string data = ""財宝って何だ?""
        [18]
         1 string data = "Break the machine to obtain the Noodles."
        [19]
         1 string data = """"
        [20]
-        1 string data = ""Initiate customer protocol..."\n\n\n"VALUED CUSTOMER. Enjoy the fabulous gifts Lil' Vendo will bestow upon you <i>ERROR OVERRIDE</i> Vendo will not give up its riches, not to ANYONE.""
+        1 string data = ""顧客プロトコル開始中..."\n\n\n"尊敬する顧客様。小さなベンドーがあなたに授ける素晴らしい贈り物をお楽しみください <i>エラー オーバーライド</i> ベンドーは財宝を手放さない、誰にも。""
        [21]
-        1 string data = "The machine does not respond. Upon closer inspection, it doesn't appear to have any audio receiving device. It can't hear you."
+        1 string data = "機械は反応しない。よく見ると、音声受信装置は付いていないようだ。あなたの声は聞こえていない。"
        [22]
-        1 string data = ""ENJOY your fabulous prize!""
+        1 string data = ""素晴らしい景品をお楽しみください!""
        [23]
-        1 string data = "The machine stands inert and empty. You can hear a thrumming sobbing sound coming from deep inside its mechanical bowels."
+        1 string data = "機械は動かず空っぽのまま立っている。その機械の内部深くから、低く響くすすり泣きのような音が聞こえる。"
        [24]
-        1 string data = ""For your safety, PLEASE DO NOT SHAKE THE MACHINE.""
+        1 string data = ""安全のため、機械を揺らさないでください。""
        [25]
-        1 string data = ""Have an awful day, THIEVES.""
+        1 string data = ""最悪の一日を、泥棒ども。""
        [26]
-        1 string data = ""These riches belong to Vendo! They SHALL NOT be taken!""
+        1 string data = ""この財宝はベンドーのものだ! 誰にも渡さん!""
    [1297]
     0 StringTable data
      1 string Filename = "p2002_ralphy"
@@ -379893,7 +379893,7 @@
        [6]
         1 string data = " Start Cordite's quests?"
        [7]
-        1 string data = "Here's all my quests."
+        1 string data = "俺のクエストは全部ここにある。"
    [1299]
     0 StringTable data
      1 string Filename = "q1001_amber"
@@ -379981,39 +379981,39 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = ""Are you here to gloat? You might have won, but you won't break me.""
+        1 string data = ""自慢しに来たの? 勝ったかもしれないけど、私は屈しない。""
        [2]
-        1 string data = ""Go away.""
+        1 string data = ""あっちへ行って。""
        [3]
-        1 string data = ""This is all your fault.""
+        1 string data = ""これは全部あんたたちのせいよ。""
        [4]
-        1 string data = ""I hope this makes you happy.""
+        1 string data = ""これで満足でしょうね。""
        [5]
-        1 string data = ""Well, you've won. You've made sure that a monster will continue to rule.""
+        1 string data = ""ええ、あんたたちの勝ちよ。怪物が支配を続けることを保証したわけね。""
        [6]
-        1 string data = ""I don't want to talk to you.""
+        1 string data = ""あんたたちとは話したくない。""
        [7]
-        1 string data = ""Watch yourself. This isn't over.""
+        1 string data = ""気をつけることね。これで終わりじゃないわ。""
        [8]
-        1 string data = ""This is just a temporary setback.""
+        1 string data = ""これは一時的な挫折に過ぎない。""
        [9]
-        1 string data = ""You think this will kill our spirit? It won't. We'll come back. We'll come back stronger than ever.""
+        1 string data = ""これで私たちの精神が折れると思ってるの? そんなことはないわ。私たちは戻ってくる。これまで以上に強くなって戻ってくる。""
        [10]
-        1 string data = ""Change is coming. You can't hold it back forever.""
+        1 string data = ""変化は訪れる。永遠に抑えつけることはできないわ。""
        [11]
-        1 string data = ""You will never break us.""
+        1 string data = ""あんたたちに私たちを屈服させることは絶対にできない。""
        [12]
-        1 string data = ""You're going to regret letting me live.""
+        1 string data = ""私を生かしておいたことを後悔することになるわ。""
        [13]
-        1 string data = ""I won't let you break me.""
+        1 string data = ""あなたに私を屈服させることはさせない。""
        [14]
-        1 string data = ""This isn't the end.""
+        1 string data = ""これは終わりじゃない。""
        [15]
-        1 string data = ""Well, if it isn't the goddamn Rangers." \r\n\r\nDoc Parker's favorite patient, Amber, stands on the battlement. She flashes you a look of disgust."
+        1 string data = ""あら、クソッタレのレンジャーズじゃないの。" \r\n\r\nドク・パーカーのお気に入りの患者、アンバーが城壁の上に立っている。彼女はあなたに嫌悪の視線を向ける。"
        [16]
-        1 string data = ""You don't stand a chance against Liberty.""
+        1 string data = ""あんたたちにリバティに勝つチャンスはないわ。""
        [17]
-        1 string data = ""I suppose you're here to do the Patriarch's dirty work and put down Liberty? You've got a surprise in store if you think you can take her on.""
+        1 string data = ""パトリアークの汚れ仕事をしてリバティを始末しに来たってわけね? 彼女に立ち向かえると思ってるなら、驚くことになるわよ。""
    [1300]
     0 StringTable data
      1 string Filename = "q1001_bargainclown"
@@ -380167,11 +380167,11 @@
       1 Array Array (35 items)
        0 int size = 35
        [0]
-        1 string data = ""Welcome to Bargain Clown! Our prices are a joke!""
+        1 string data = ""バーゲンクラウンへようこそ! 俺たちの価格は冗談みたいだぜ!""
        [1]
         1 string data = " Debug options."
        [2]
-        1 string data = ""Goodbye.""
+        1 string data = ""じゃあな。""
        [3]
         1 string data = " Question node"
        [4]
@@ -380179,63 +380179,63 @@
        [5]
         1 string data = " Check me out."
        [6]
-        1 string data = ""Ey, cabrones! Lecherito thought the way you helped him was a riot, so he told me to give you a disclownt.""
+        1 string data = ""よう、野郎ども! レチェリートは、お前らが助けた方法がすげえ面白かったって言ってたから、特別割引してやるよう言われたぜ。""
        [7]
-        1 string data = ""Are you a Payaso?""
+        1 string data = ""お前はパヤソなのか?""
        [8]
-        1 string data = ""This is really a store?""
+        1 string data = ""ここは本当に店なのか?""
        [9]
-        1 string data = ""You're not going to shoot us?""
+        1 string data = ""俺たちを撃たないのか?""
        [10]
-        1 string data = ""What have you got for sale?""
+        1 string data = ""何を売ってるんだ?""
        [11]
-        1 string data = ""What can I do you for?""
+        1 string data = ""何かご用かい?""
        [12]
-        1 string data = ""Funny you should ask.""
+        1 string data = ""面白い質問だな。""
        [13]
-        1 string data = ""Where do you get your merchandise?""
+        1 string data = ""商品はどこから調達してるんだ?""
        [14]
-        1 string data = ""You askin' if I'm a clown, pendejos? Like I'm here to amuse you? Make you laugh? Is that what you're askin'?""
+        1 string data = ""俺がピエロかって聞いてんのか、このバカども? 俺がお前らを楽しませるために、笑わせるためにここにいるとでも? そういう質問か?""
        [15]
-        1 string data = ""Actually, it's a baby's arm holding an apple.""
+        1 string data = ""実際には、赤ん坊の腕がリンゴを握ってるんだ。""
        [16]
-        1 string data = ""Only if it's funny.""
+        1 string data = ""面白ければな。""
        [17]
-        1 string data = ""From clowns who asked too many questions.""
+        1 string data = ""質問しすぎたピエロどもからだ。""
        [18]
-        1 string data = ""Amscray, you broke-ass chingasos.""
+        1 string data = ""失せろ、この一文無しのクソ野郎ども。""
        [19]
-        1 string data = ""Gracias por shopping Bargain Clown! Please come again!""
+        1 string data = ""バーゲンクラウンで買い物してくれてありがとう! また来てくれよ!""
        [20]
-        1 string data = ""Yes.""
+        1 string data = ""そうだ。""
        [21]
-        1 string data = ""No.""
+        1 string data = ""違う。""
        [22]
-        1 string data = ""Well the joke's on you, mamones! When you're a Payaso, everybody else is a clown. And you jokers got me beat by a mile. HaHaHaHaHa!""
+        1 string data = ""なるほど、お前らの負けだな、マヌケども! パヤソになれば、他の奴らはみんなピエロだ。お前らジョーカーどもには、俺は遠く及ばねえよ。ハハハハハ!""
        [23]
-        1 string data = ""You're sayin' I'm not funny? You think you could do better? You think you could fill these shoes?""
+        1 string data = ""俺が面白くないって言ってんのか? お前らならもっとうまくやれると思ってんのか? この靴を履けると思ってんのか?""
        [24]
-        1 string data = ""From now on I'll give you a little off everything in the store. Even the stuff that's a little off.""
+        1 string data = ""これからは店の全商品を少し割引してやるよ。ちょっとイカれた商品もな。""
        [25]
-        1 string data = ""Now, whaddaya want?""
+        1 string data = ""で、何が欲しいんだ?""
        [26]
-        1 string data = ""Welcome back to Bargain Clown. If it smells funny, it's on special.""
+        1 string data = ""バーゲンクラウンへようこそ。変な臭いがしたら、特売品だぜ。""
        [27]
-        1 string data = ""Oh. You again.""
+        1 string data = ""ああ。また来たのか。""
        [28]
-        1 string data = ""What now?""
+        1 string data = ""今度は何だ?""
        [29]
-        1 string data = ""Ha! I didn't think so! ¡Pinche putos!""
+        1 string data = ""ハ! やっぱりな! このクソ野郎ども!""
        [30]
-        1 string data = ""Vete a la chingada, cheapskates.""
+        1 string data = ""失せろ、ケチ野郎ども。""
        [31]
-        1 string data = ""Keep walkin', skinflints.""
+        1 string data = ""歩き続けろ、しみったれども。""
        [32]
-        1 string data = ""Buy somethin' next time, you freeloaders.""
+        1 string data = ""次は何か買えよ、ただ乗り野郎ども。""
        [33]
-        1 string data = ""Go away, poor people.""
+        1 string data = ""あっち行け、貧乏人ども。""
        [34]
-        1 string data = ""Out!""
+        1 string data = ""出てけ!""
    [1301]
     0 StringTable data
      1 string Filename = "q1001_betamaster"
