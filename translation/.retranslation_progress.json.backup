@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 26160,
-      "entries_untranslated": 143552,
-      "completion_rate": 15.4,
-      "current_line": 383713,
+      "entries_translated": 26365,
+      "entries_untranslated": 143347,
+      "completion_rate": 15.5,
+      "current_line": 385093,
       "status": "in_progress",
       "approach": "Strict sequential from line 666, Spanish reference mandatory",
-      "note": "Session 299 (partial): 147 entries total (lines 382363-383712). Sections: q1001_combatbarks_scarcollectorcyclops COMPLETE (50 entries - Scar Collector Cyclops: laser/eye-themed combat barks, brutal dialogue), q1001_combatbarks_scarcollectoroverlord COMPLETE (50 entries - Scar Collector Overlord: sadistic leader barks, pain/suffering themes), q1001_combatbarks_scarcollectorslaver COMPLETE (47 entries - Scar Collector Slaver: saw/cutting themed barks, limb harvesting dialogue). All Scar Collector faction enemies with cybernetic enhancements and body part collection themes. Spanish reference strictly applied (Script Nodes 1-24 preserved in all sections). Structure validation: 0 errors. HTML tags preserved (line 383666: <i> tags). Action markers verified: no Japanese in markers. Next: continue from line 383713 (q1001_companion_barktriggers section)."
+      "note": "Session 300 (partial): 205 entries total (lines 383713-385092). Section: q1001_companion_barktriggers (partial) - Companion reactions to various mission scenarios. Multiple companions commenting on mechanics, arena, slaves, Wolfe, Liberty, gang encounters. All action markers preserved in English (sing-song, sighs, sigh). All Script Nodes preserved (1-20, 188, 10, 16, 3, 262). HTML tags preserved. Spanish reference strictly applied throughout. Structure validation: 0 errors. Quote format strictly maintained (1 quote mismatch fixed at line 384972). Next: continue from line 385093 (new section q1001_cordite)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "9605858",
-  "last_commit_message": "Retranslation: Session 298 (125 entries, lines 381259-382362)",
-  "total_entries_completed": 26160,
+  "last_commit_hash": "7a71382",
+  "last_commit_message": "Retranslation: Session 300 (partial) - 205 entries (lines 383713-385092)",
+  "total_entries_completed": 26365,
   "total_entries": 169712,
-  "total_entries_untranslated": 143552,
-  "overall_completion_rate": 15.4,
-  "next_action": "Continue sequential processing from line 383713 (q1001_companion_barktriggers section). Spanish reference check mandatory.",
+  "total_entries_untranslated": 143347,
+  "overall_completion_rate": 15.5,
+  "next_action": "Continue sequential processing from line 385093 (q1001_cordite section). Spanish reference check mandatory.",
   "strict_workflow": {
     "sequential_processing": "MANDATORY - Process from line 1 sequentially. NO skipping, NO prioritization.",
     "spanish_reference": "MANDATORY - Check Spanish file for translatability before each translation.",
