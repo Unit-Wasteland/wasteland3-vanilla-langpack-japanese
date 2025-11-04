@@ -133,6 +133,18 @@ class StrictStructureValidator:
                 'target': tgt_line.strip()[:80]
             })
 
+        # []内に日本語が含まれていないか確認（技術的なマーカーは翻訳禁止）
+        bracket_pattern = re.compile(r'\[.*?[\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FFF].*?\]')
+        japanese_brackets = bracket_pattern.findall(tgt_line)
+        if japanese_brackets:
+            results['errors'].append({
+                'line': line_num,
+                'type': 'BRACKET_CONTENT_TRANSLATED',
+                'message': f'[]内の文字列が日本語に翻訳されています（翻訳禁止）: {", ".join(japanese_brackets[:3])}',
+                'source': src_line.strip()[:80],
+                'target': tgt_line.strip()[:80]
+            })
+
         # HTMLタグの確認
         src_tags = re.findall(r'<[^>]+>', src_line)
         for tag in src_tags:

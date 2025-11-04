@@ -182,11 +182,36 @@ def validate_untranslated_english(line_num: int, line: str, spanish_data: Dict[i
 
     return issues
 
+def validate_bracket_translation(line_num: int, line: str) -> List[ValidationIssue]:
+    """Validate that bracket [] content is not translated to Japanese.
+
+    Technical markers like [Attack], [Lie], [Global: ...] should remain in English.
+    """
+    issues = []
+
+    if 'string data' not in line:
+        return issues
+
+    # Pattern to find brackets containing Japanese characters
+    bracket_pattern = re.compile(r'\[.*?[\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FFF].*?\]')
+    japanese_brackets = bracket_pattern.findall(line)
+
+    if japanese_brackets:
+        issues.append(ValidationIssue(
+            line_num=line_num,
+            issue_type="BRACKET_CONTENT_TRANSLATED",
+            description=f"Bracket [] content translated to Japanese (should remain English): {', '.join(japanese_brackets[:3])}",
+            line_content=line.strip()
+        ))
+
+    return issues
+
 def validate_file(filepath: Path, reference_filepath: Optional[Path] = None, start_line: int = 666, end_line: int = 999999999, verbose: bool = False) -> Dict[str, List[ValidationIssue]]:
     """Validate a translation file for quality issues."""
     issues = {
         'action_markers': [],
         'untranslated': [],
+        'bracket_translation': [],
     }
 
     # Load Spanish reference data
@@ -207,6 +232,10 @@ def validate_file(filepath: Path, reference_filepath: Optional[Path] = None, sta
             # Check untranslated English
             english_issues = validate_untranslated_english(line_num, line, spanish_data, start_line, end_line)
             issues['untranslated'].extend(english_issues)
+
+            # Check bracket translation
+            bracket_issues = validate_bracket_translation(line_num, line)
+            issues['bracket_translation'].extend(bracket_issues)
 
     return issues
 
@@ -245,6 +274,19 @@ def print_report(issues: Dict[str, List[ValidationIssue]], verbose: bool = False
 
         if len(untranslated_issues) > 20:
             print(f"\n  ... and {len(untranslated_issues) - 20} more")
+
+    # Bracket translation issues
+    bracket_issues = issues['bracket_translation']
+    print(f"\n[3] Bracket [] content translated to Japanese: {len(bracket_issues)}")
+    if bracket_issues:
+        print("\nSample issues (first 20):")
+        for issue in bracket_issues[:20]:
+            print(f"  Line {issue.line_num}: {issue.description}")
+            if verbose:
+                print(f"    Content: {issue.line_content}")
+
+        if len(bracket_issues) > 20:
+            print(f"\n  ... and {len(bracket_issues) - 20} more")
 
     print("\n" + "="*80)
 
