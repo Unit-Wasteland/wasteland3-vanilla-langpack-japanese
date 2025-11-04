@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 24770,
-      "entries_untranslated": 144942,
-      "completion_rate": 14.60,
-      "current_line": 367360,
+      "entries_translated": 24822,
+      "entries_untranslated": 144890,
+      "completion_rate": 14.63,
+      "current_line": 367758,
       "status": "in_progress",
       "approach": "Strict sequential from line 666, Spanish reference mandatory",
-      "note": "Session 286 (part 1): 31 entries translated (lines 367179-367360). Section: o2001_flabtheinhaler (IN PROGRESS: 48/266 translated - Flab the Inhaler NPC dialogue continued - storytelling, Los Payasos gang, Charley Knowes conspiracy, Randy Gett discussion). Spanish reference strictly applied. Structure validation: 0 errors. All action markers verified English-only. Next: continue o2001_flabtheinhaler from line 367361 (218 entries remaining)."
+      "note": "Session 286 (part 2): 52 entries translated (lines 367361-367758). Sections: o2001_flabtheinhaler COMPLETE (266/266 entries - Flab NPC quest dialogue complete), o2001_gwyntalbot IN PROGRESS (3/27 entries - Talbot Tannery merchant NPC). Spanish reference strictly applied for all entries. Structure validation: 0 errors. All action markers verified English-only. Next: continue o2001_gwyntalbot from line 367759."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "45efcb5",
-  "last_commit_message": "Retranslation: Session 286 (part 1 - 31 entries, lines 367179-367360)",
-  "total_entries_completed": 24770,
+  "last_commit_hash": "pending",
+  "last_commit_message": "Retranslation: Session 286 (part 2 - 52 entries, lines 367361-367758)",
+  "total_entries_completed": 24822,
   "total_entries": 169712,
-  "total_entries_untranslated": 144942,
-  "overall_completion_rate": 14.60,
-  "next_action": "Continue sequential processing from line 367361 (o2001_flabtheinhaler section - 218 entries remaining). Spanish reference check mandatory.",
+  "total_entries_untranslated": 144890,
+  "overall_completion_rate": 14.63,
+  "next_action": "Continue sequential processing from line 367759 (o2001_gwyntalbot section - 24 entries remaining). Spanish reference check mandatory.",
   "strict_workflow": {
     "sequential_processing": "MANDATORY - Process from line 1 sequentially. NO skipping, NO prioritization.",
     "spanish_reference": "MANDATORY - Check Spanish file for translatability before each translation.",
