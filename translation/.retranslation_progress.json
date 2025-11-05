@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 4779,
-      "entries_untranslated": 164933,
-      "completion_rate": 2.82,
-      "current_line": 65791,
+      "entries_translated": 4870,
+      "entries_untranslated": 164842,
+      "completion_rate": 2.87,
+      "current_line": 66957,
       "status": "in_progress",
       "approach": "STRICT sequential from line 390 - enhanced validation with bracket translation detection",
-      "note": "Session R3-067: 28 entries (a1001_mamacotter complete). Translated lines 65516-65790: Mama Cotter imprisoned dialogue (28 entries - profanity-heavy angry reactions, refugee dialogue branches, game outcome references for Rook/la Loca/Riley/Pizepi/Reed daughters/Bizarre/synths/Isaac/Brygo). Spanish reference checked (all 28 had translations). 4-quote format maintained. Validation: 0 errors, 0 action markers with Japanese. Next: Continue a1001_marcelogonzalez from line 65791."
+      "note": "Session R3-068: 91 entries (a1001_marcelogonzalez complete). Translated lines 66571-66954: Gonzalez main dialogue section (91 entries - radio equipment dialogue, refugee comments, mission status updates, game outcome reactions for Nelius/Isaac/Brygo/Bizarre/Steeltown, team rumor system). Spanish reference checked (mixed empty and translated - empty entries kept as English per rule). 4-quote format maintained, bracket markers preserved in English. Validation: 0 errors, 0 action markers with Japanese. Next: Continue a1001_marcelogonzalez_radiocallin from line 66957."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "1565295",
-  "last_commit_message": "Retranslation R3-067: 28 entries (a1001_mamacotter complete)",
-  "total_entries_completed": 4779,
+  "last_commit_hash": "6675b72",
+  "last_commit_message": "Retranslation R3-068: 91 entries (a1001_marcelogonzalez complete)",
+  "total_entries_completed": 4870,
   "total_entries": 169712,
-  "total_entries_untranslated": 164933,
-  "overall_completion_rate": 2.82,
-  "next_action": "Continue sequential translation from line 65791 (a1001_marcelogonzalez start). Spanish reference check mandatory. Quote format matching critical. Validate after each edit.",
+  "total_entries_untranslated": 164842,
+  "overall_completion_rate": 2.87,
+  "next_action": "Continue sequential translation from line 66957 (a1001_marcelogonzalez_radiocallin start). Spanish reference check mandatory. Quote format matching critical. Validate after each edit.",
   "restart_info": {
     "restart_number": 3,
     "restart_date": "2025-11-05",
