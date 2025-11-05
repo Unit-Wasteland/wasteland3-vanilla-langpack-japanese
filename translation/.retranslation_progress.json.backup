@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 8498,
-      "entries_untranslated": 161214,
-      "completion_rate": 5.01,
-      "current_line": 122314,
+      "entries_translated": 8566,
+      "entries_untranslated": 161146,
+      "completion_rate": 5.05,
+      "current_line": 122544,
       "status": "in_progress",
       "approach": "STRICT sequential from line 390 - enhanced validation with quote format protection",
-      "note": "Session R3-124: 24 entries (Lucia Wesson conclusion + MacTavish dialogue). Translated lines 121372-122314. Content: a2001_luciawessongunslinger_downton conclusion (Lucia final dialogue, Sheriff Daisy commentary, combat expertise), a2001_mactavishgoons_atmachineshop (goons threatening dialogue, combat barks), a2001_mactavishgoons_barksatmachineshop (worker barks, nose joke), a2001_mactavish_atmachineshop start (MacTavish confrontation, bribery negotiation, Dorseys confession, Patriarch revenge, player choices). Characters: Lucia Wesson, Sheriff Daisy, MacTavish (Scottish accent preserved), MacTavish Goons. Locations: Garden of the Gods, Machine Shop. Factions: Arizona Rangers, Dorseys, Hundred Families, Faran Brygo gang. Game variables preserved: double-bracket format. Debug Mode entries kept in English. Spanish reference checked for all entries. Quote format strictly maintained (4-quote format). Structure validation: 0 errors. Action markers: None in section. Next: Continue from line 122314 (a2001_mactavish_atmachineshop continuation)"
+      "note": "Session R3-125: 68 entries (MacTavish dialogue conclusion + intercom). Translated lines 122316-122544. Content: a2001_mactavish_atmachineshop conclusion (MacTavish bribery negotiation, player threats, Dorsey location reveal, nose trivia, Scottish heritage), a2001_mactavish_intercom (door intercom dialogue, MacTavish responses, player options). Characters: MacTavish (Scottish accent preserved). Locations: Machine Shop. Factions: Faran Brygo gang, Arizona Rangers, Dorseys. Game variables preserved: double-bracket format. Spanish reference checked for all entries. Quote format strictly maintained. Structure validation: 0 errors. Action markers: 1 (laughs) verified in English. Quote count errors fixed: 10 instances corrected. Next: Continue from line 122544"
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "0f5a11d",
-  "last_commit_message": "Retranslation R3-124: 24 entries (Lucia Wesson conclusion + MacTavish dialogue - lines 121372-122314)",
-  "total_entries_completed": 8498,
+  "last_commit_hash": "b93354f",
+  "last_commit_message": "Retranslation R3-125: 68 entries (MacTavish conclusion + intercom - lines 122316-122544)",
+  "total_entries_completed": 8566,
   "total_entries": 169712,
-  "total_entries_untranslated": 161214,
-  "overall_completion_rate": 5.01,
-  "next_action": "Continue sequential translation from line 122314. Next section: a2001_mactavish_atmachineshop continuation (MacTavish dialogue). Spanish reference check mandatory before each translation. Action markers must remain English. Script Node must never be translated.",
+  "total_entries_untranslated": 161146,
+  "overall_completion_rate": 5.05,
+  "next_action": "Continue sequential translation from line 122544. Next section: a2001_maingate_marshal (dev messages - keep English) then a2001_mamacotter (Mama Cotter dialogue). Spanish reference check mandatory before each translation. Action markers must remain English. Script Node must never be translated.",
   "restart_info": {
     "restart_number": 3,
     "restart_date": "2025-11-05",
