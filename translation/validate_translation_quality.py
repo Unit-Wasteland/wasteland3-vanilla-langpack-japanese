@@ -2,9 +2,10 @@
 """
 Translation Quality Validator
 
-Detects two major types of translation quality issues:
+Detects major types of translation quality issues:
 1. Incorrectly translated ::action:: markers (translated to Japanese instead of kept in English)
 2. Untranslated English entries that should be translated
+3. Glossary violations (incorrect terminology not matching nouns_glossary.json)
 
 Uses Spanish reference file to determine if English text should be translated:
 - Spanish empty ("") + English text = Program identifier → Keep English (NOT an error)
@@ -13,6 +14,7 @@ Uses Spanish reference file to determine if English text should be translated:
 
 import re
 import sys
+import json
 import argparse
 from pathlib import Path
 from typing import List, Tuple, Dict, Optional
@@ -38,6 +40,13 @@ DO_NOT_TRANSLATE = [
 ENGLISH_PATTERNS = [
     r'\b(the|and|to|of|a|in|that|it|with|for|as|was|is|on|are|be|have|this|from|at|by|not|or|an|but|can|if|will|what|all|would|there|their|we|when|which|about|get|who|been|they|do|said|her|she|him|his|one|has|two|how|out|them|our|up|more|so|only|its|some|into|than|my|now|over|your|just|like|very|other|could|time|these|first|may|any|new|see|after|should|between|own|such|being|both|many|much|through|back|much|before|well|where|here|even|those|most|made|year|also|because|way|work|years|still|three|while|day|against|then|during|always|under|must|people|every|each|another|same|take|again|think|need|without|good|does|since|around|went|want|great|man|going|too|came|though|state|right|place|never|off|found|given|put|together|point|united|part|different|house|used|last|keep|best|called|better|known|tell|give|number|something|between|keep|often|rather|really|long|give|early|actually|several|perhaps|however)\b',
 ]
+
+# Known incorrect translation patterns
+# Maps English terms to their incorrect Japanese translations
+INCORRECT_TRANSLATIONS = {
+    'Rangers': 'レンジャーズ',  # Correct: レンジャー
+    'Desert Rangers': 'デザート・レンジャーズ',  # Correct: デザート・レンジャー
+}
 
 class ValidationIssue:
     def __init__(self, line_num: int, issue_type: str, description: str, line_content: str):
@@ -92,6 +101,30 @@ def validate_action_markers(line_num: int, line: str) -> List[ValidationIssue]:
             ))
 
     return issues
+
+def load_glossary(glossary_path: Optional[Path] = None) -> Dict[str, str]:
+    """Load nouns_glossary.json and return English -> Japanese mapping."""
+    if glossary_path is None:
+        # Default glossary path
+        glossary_path = Path(__file__).parent / 'nouns_glossary.json'
+
+    if not glossary_path.exists():
+        return {}
+
+    try:
+        with open(glossary_path, 'r', encoding='utf-8') as f:
+            glossary_data = json.load(f)
+
+        # Flatten all sections into a single dictionary
+        term_mapping = {}
+        for section_name, section_data in glossary_data.items():
+            if isinstance(section_data, dict) and section_name != 'do_not_translate':
+                term_mapping.update(section_data)
+
+        return term_mapping
+    except Exception as e:
+        print(f"Warning: Failed to load glossary: {e}")
+        return {}
 
 def load_spanish_reference(filepath: Optional[Path]) -> Dict[int, str]:
     """Load Spanish reference file and extract string data by line number."""
@@ -206,13 +239,52 @@ def validate_bracket_translation(line_num: int, line: str) -> List[ValidationIss
 
     return issues
 
-def validate_file(filepath: Path, reference_filepath: Optional[Path] = None, start_line: int = 666, end_line: int = 999999999, verbose: bool = False) -> Dict[str, List[ValidationIssue]]:
+def validate_glossary_compliance(line_num: int, line: str, glossary: Dict[str, str]) -> List[ValidationIssue]:
+    """Validate that translations comply with the glossary.
+
+    Detects incorrect translations that don't match nouns_glossary.json.
+    For example: "Rangers" should be "レンジャー", not "レンジャーズ".
+    """
+    issues = []
+
+    if 'string data' not in line:
+        return issues
+
+    # Extract the string content
+    match = re.search(r'string data = ""(.*)""', line)
+    if not match:
+        return issues
+
+    content = match.group(1)
+
+    # Check for known incorrect translations
+    for english_term, incorrect_japanese in INCORRECT_TRANSLATIONS.items():
+        if incorrect_japanese in content:
+            correct_japanese = glossary.get(english_term, '(not in glossary)')
+            issues.append(ValidationIssue(
+                line_num=line_num,
+                issue_type="GLOSSARY_VIOLATION",
+                description=f"Incorrect translation '{incorrect_japanese}' should be '{correct_japanese}' (for '{english_term}')",
+                line_content=line.strip()
+            ))
+
+    return issues
+
+def validate_file(filepath: Path, reference_filepath: Optional[Path] = None, glossary_path: Optional[Path] = None, start_line: int = 666, end_line: int = 999999999, verbose: bool = False) -> Dict[str, List[ValidationIssue]]:
     """Validate a translation file for quality issues."""
     issues = {
         'action_markers': [],
         'untranslated': [],
         'bracket_translation': [],
+        'glossary_violations': [],
     }
+
+    # Load glossary data
+    glossary = load_glossary(glossary_path)
+    if glossary:
+        print(f"Loaded glossary: {len(glossary)} terms")
+    else:
+        print("Warning: Glossary not loaded, skipping glossary validation")
 
     # Load Spanish reference data
     spanish_data = load_spanish_reference(reference_filepath)
@@ -236,6 +308,10 @@ def validate_file(filepath: Path, reference_filepath: Optional[Path] = None, sta
             # Check bracket translation
             bracket_issues = validate_bracket_translation(line_num, line)
             issues['bracket_translation'].extend(bracket_issues)
+
+            # Check glossary compliance
+            glossary_issues = validate_glossary_compliance(line_num, line, glossary)
+            issues['glossary_violations'].extend(glossary_issues)
 
     return issues
 
@@ -288,6 +364,19 @@ def print_report(issues: Dict[str, List[ValidationIssue]], verbose: bool = False
         if len(bracket_issues) > 20:
             print(f"\n  ... and {len(bracket_issues) - 20} more")
 
+    # Glossary violation issues
+    glossary_issues = issues['glossary_violations']
+    print(f"\n[4] Glossary violations (incorrect terminology): {len(glossary_issues)}")
+    if glossary_issues:
+        print("\nSample issues (first 20):")
+        for issue in glossary_issues[:20]:
+            print(f"  Line {issue.line_num}: {issue.description}")
+            if verbose:
+                print(f"    Content: {issue.line_content}")
+
+        if len(glossary_issues) > 20:
+            print(f"\n  ... and {len(glossary_issues) - 20} more")
+
     print("\n" + "="*80)
 
     return total_issues
@@ -312,10 +401,25 @@ def save_detailed_report(issues: Dict[str, List[ValidationIssue]], output_file: 
             f.write(f"Line {issue.line_num}: {issue.description}\n")
             f.write(f"  {issue.line_content}\n\n")
 
+        # Bracket translation issues
+        f.write(f"\n[3] Bracket [] content translated to Japanese: {len(issues['bracket_translation'])}\n")
+        f.write("-"*80 + "\n")
+        for issue in issues['bracket_translation']:
+            f.write(f"Line {issue.line_num}: {issue.description}\n")
+            f.write(f"  {issue.line_content}\n\n")
+
+        # Glossary violation issues
+        f.write(f"\n[4] Glossary violations (incorrect terminology): {len(issues['glossary_violations'])}\n")
+        f.write("-"*80 + "\n")
+        for issue in issues['glossary_violations']:
+            f.write(f"Line {issue.line_num}: {issue.description}\n")
+            f.write(f"  {issue.line_content}\n\n")
+
 def main():
     parser = argparse.ArgumentParser(description='Validate translation quality')
     parser.add_argument('file', type=str, help='Translation file to validate')
     parser.add_argument('--reference', '-r', type=str, help='Spanish reference file (to determine if English should be translated)')
+    parser.add_argument('--glossary', '-g', type=str, help='Glossary file (nouns_glossary.json) for terminology validation')
     parser.add_argument('--start-line', type=int, default=666, help='Start line for validation (default: 666)')
     parser.add_argument('--end-line', type=int, default=999999999, help='End line for validation (default: end of file)')
     parser.add_argument('--verbose', '-v', action='store_true', help='Verbose output')
@@ -337,12 +441,22 @@ def main():
             print("Validation will proceed without Spanish reference checks")
             reference_filepath = None
 
+    glossary_filepath = None
+    if args.glossary:
+        glossary_filepath = Path(args.glossary)
+        if not glossary_filepath.exists():
+            print(f"Warning: Glossary file not found: {glossary_filepath}")
+            print("Validation will proceed without glossary checks")
+            glossary_filepath = None
+
     print(f"Validating: {filepath}")
     print(f"Range: lines {args.start_line} to {args.end_line}")
     if reference_filepath:
         print(f"Spanish reference: {reference_filepath}")
+    if glossary_filepath:
+        print(f"Glossary: {glossary_filepath}")
 
-    issues = validate_file(filepath, reference_filepath, args.start_line, args.end_line, args.verbose)
+    issues = validate_file(filepath, reference_filepath, glossary_filepath, args.start_line, args.end_line, args.verbose)
     total_issues = print_report(issues, args.verbose)
 
     if args.output:

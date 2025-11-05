@@ -1,9 +1,10 @@
 #!/bin/bash
 #
-# Pre-commit hook: Action Marker Validation
+# Pre-commit hook: Translation Quality Validation
 #
-# Prevents commits containing action markers translated to Japanese
-# Added: 2025-11-02 (Prevention measure for Session 7 error)
+# Prevents commits containing:
+# 1. Action markers translated to Japanese (Added: 2025-11-02)
+# 2. Glossary violations (incorrect terminology) (Added: 2025-11-05)
 #
 # Installation:
 #   cp automation/git-hooks/pre-commit .git/hooks/pre-commit
@@ -11,6 +12,7 @@
 #
 
 TARGET_FILE="translation/target/v1.6.9.420.309496/ja_JP/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt"
+GLOSSARY_FILE="translation/nouns_glossary.json"
 
 echo "🔍 Running pre-commit validation..."
 
@@ -40,6 +42,29 @@ if git diff --cached --name-only | grep -q "$TARGET_FILE"; then
     fi
 
     echo "  ✅ Action marker validation passed"
+
+    # Check for glossary violations (incorrect terminology)
+    echo "  → Validating glossary compliance in: $TARGET_FILE"
+
+    # Known incorrect translations that violate the glossary
+    INCORRECT_RANGERS=$(grep -c "レンジャーズ" "$TARGET_FILE" 2>/dev/null || echo "0")
+
+    if [ "$INCORRECT_RANGERS" -gt 0 ]; then
+        echo ""
+        echo "❌ ERROR: Glossary violations found!"
+        echo ""
+        echo "Found $INCORRECT_RANGERS instances of incorrect terminology:"
+        echo "  'レンジャーズ' should be 'レンジャー' (for 'Rangers')"
+        echo ""
+        echo "Please fix these glossary violations before committing."
+        echo ""
+        echo "To find the exact lines, run:"
+        echo "  grep -n 'レンジャーズ' $TARGET_FILE"
+        echo ""
+        exit 1
+    fi
+
+    echo "  ✅ Glossary validation passed"
 else
     echo "  → Target file not staged, skipping validation"
 fi

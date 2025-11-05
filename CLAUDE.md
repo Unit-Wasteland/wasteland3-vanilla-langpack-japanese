@@ -488,12 +488,13 @@ Checks:
 - ✅ Game variables preserved (`[...]`)
 - ✅ HTML tags preserved (`<i>`, `</i>`)
 
-**Validation Script 2: Quality Validation (NEW - added 2025-11-01)**
+**Validation Script 2: Quality Validation (UPDATED - glossary check added 2025-11-05)**
 ```bash
 python3 translation/validate_translation_quality.py \
   translation/target/v1.6.9.420.309496/ja_JP/FILENAME.txt \
   --start-line START_LINE \
-  --end-line END_LINE
+  --end-line END_LINE \
+  --glossary translation/nouns_glossary.json
 ```
 
 Checks:
@@ -501,6 +502,8 @@ Checks:
 - ✅ NO untranslated English entries in translated range (entries that should be Japanese are Japanese)
 - ✅ Script Node not translated
 - ✅ Technical terms preserved
+- ✅ **Glossary compliance** (NEW - 2025-11-05): NO incorrect terminology that violates nouns_glossary.json
+  - Example: "Rangers" must be "レンジャー", NOT "レンジャーズ"
 
 **Additional Manual Checks:**
 - ✅ Git diff shows only text changes, no structure changes
