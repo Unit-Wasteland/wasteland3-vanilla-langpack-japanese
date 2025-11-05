@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 931,
-      "entries_untranslated": 168781,
-      "completion_rate": 0.549,
-      "current_line": 11967,
+      "entries_translated": 995,
+      "entries_untranslated": 168717,
+      "completion_rate": 0.586,
+      "current_line": 12517,
       "status": "in_progress",
       "approach": "STRICT sequential from line 390 - enhanced validation with bracket translation detection",
-      "note": "Session R3-013: 48 entries (lines 10627-11966). Sections: a1001_angela (Angela final assault dialogue - 18 entries), a1001_animalsounds (animal sounds preserved), a1001_armorycartel (cartel worker barks - 13 entries), a1001_armorycartelofficer (Joey Bagodonuts intro - 17/183 entries partial). Topics: final assault on Patriarch, emergency tunnel, Market Square elevator, Joey intro, refugee controversy. 4-quote format strictly maintained. Spanish reference checked. Validation: 0 errors. Next: Continue a1001_armorycartelofficer from line 11967 (entry 44/183)."
+      "note": "Session R3-014: 64 entries (lines 11967-12372). Sections: a1001_armorycartelofficer (partial, 17 entries), a1001_armorymarshal (complete, 16 entries), additional world state reactions (31 entries). Topics: Joey Bagodonuts continuation, Marshal responses, Bizarre outcomes, Nelius Dorsey, metal chicken jokes, Gipper oil, Steeltown, team rumors. 4-quote format maintained. Spanish reference checked. Validation: 0 errors. Next: Continue from line 12517 (a1001_armory_secalertcomputer section start)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "89041a4",
-  "last_commit_message": "Retranslation R3-013: 48 entries (lines 10627-11966)",
-  "total_entries_completed": 931,
+  "last_commit_hash": "1838655",
+  "last_commit_message": "Retranslation R3-014: 64 entries (lines 11967-12372)",
+  "total_entries_completed": 995,
   "total_entries": 169712,
-  "total_entries_untranslated": 168781,
-  "overall_completion_rate": 0.549,
-  "next_action": "Continue sequential translation from line 11967 (a1001_armorycartelofficer entry 44/183). Spanish reference check mandatory. Validate after each edit.",
+  "total_entries_untranslated": 168717,
+  "overall_completion_rate": 0.586,
+  "next_action": "Continue sequential translation from line 12517 (a1001_armory_secalertcomputer section). Spanish reference check mandatory. Validate after each edit.",
   "restart_info": {
     "restart_number": 3,
     "restart_date": "2025-11-05",
