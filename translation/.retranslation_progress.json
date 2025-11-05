@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 7220,
-      "entries_untranslated": 162492,
+      "entries_translated": 7321,
+      "entries_untranslated": 162391,
       "completion_rate": 4.3,
-      "current_line": 105180,
+      "current_line": 106266,
       "status": "in_progress",
       "approach": "STRICT sequential from line 390 - enhanced validation with quote format protection",
-      "note": "Session R3-107: 69 entries (woodson ending + greatski endgame + amber). Translated lines 104720-105180. Content: Riley Woodson final dialogue (Aspen rescue variations, Vic Buchanan hiring reactions, brother Wade relationship, motor pool work, Arizona homesickness), Greatski endgame coordination (vehicle evacuation tunnel system, war room traitor situation, Connie Zeng rebellion, back gate opening, Market Square elevator override, museum secret room), vehicle interaction messages, Amber execution scene. Spanish reference checked. All HTML tags preserved. Structure validation: 0 errors. Next: Continue from line 105230 (ambientarapaho sections)."
+      "note": "Session R3-108: 101 entries (ambient arapaho + constables + dorsey + dogs). Translated lines 105230-106266. Content: ambientarapahogeneric (4 - arapaho convoy), ambientconstables (90 - marshal dialogue, Dorsey aftermath, ranger relations), ambientconstable_dorseypile (4 - guard duty), ambientdogs (3 - dog barks in Japanese). Spanish reference checked. Action markers preserved in English. Structure validation: 0 errors. Next: Continue from line 106404 (ambientrefugee sections)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "cce32fe",
-  "last_commit_message": "Retranslation R3-107: 69 entries (woodson ending + greatski endgame + amber)",
-  "total_entries_completed": 7220,
+  "last_commit_hash": "9639766",
+  "last_commit_message": "Retranslation R3-108: 101 entries (ambient arapaho + constables + dorsey + dogs)",
+  "total_entries_completed": 7321,
   "total_entries": 169712,
-  "total_entries_untranslated": 162492,
+  "total_entries_untranslated": 162391,
   "overall_completion_rate": 4.3,
-  "next_action": "Continue sequential translation from line 105230. Section: a2001_ambientarapaho (ambient dialogue). Spanish reference check mandatory before each translation. Action markers must remain English.",
+  "next_action": "Continue sequential translation from line 106404. Section: a2001_ambientrefugee (refugee ambient dialogue). Spanish reference check mandatory before each translation. Action markers must remain English.",
   "restart_info": {
     "restart_number": 3,
     "restart_date": "2025-11-05",
