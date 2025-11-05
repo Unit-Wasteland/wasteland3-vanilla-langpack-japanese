@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 8566,
-      "entries_untranslated": 161146,
-      "completion_rate": 5.05,
-      "current_line": 122544,
+      "entries_translated": 8725,
+      "entries_untranslated": 160987,
+      "completion_rate": 5.14,
+      "current_line": 123654,
       "status": "in_progress",
-      "approach": "STRICT sequential from line 390 - enhanced validation with quote format protection",
-      "note": "Session R3-125: 68 entries (MacTavish dialogue conclusion + intercom). Translated lines 122316-122544. Content: a2001_mactavish_atmachineshop conclusion (MacTavish bribery negotiation, player threats, Dorsey location reveal, nose trivia, Scottish heritage), a2001_mactavish_intercom (door intercom dialogue, MacTavish responses, player options). Characters: MacTavish (Scottish accent preserved). Locations: Machine Shop. Factions: Faran Brygo gang, Arizona Rangers, Dorseys. Game variables preserved: double-bracket format. Spanish reference checked for all entries. Quote format strictly maintained. Structure validation: 0 errors. Action markers: 1 (laughs) verified in English. Quote count errors fixed: 10 instances corrected. Next: Continue from line 122544"
+      "approach": "STRICT sequential from line 390 - enhanced validation with bracket marker protection",
+      "note": "Session R3-126: 159 entries (Mama Cotter dialogue). Translated lines 122544-123654. Content: a2001_maingate_marshal (4 dev messages kept English), a2001_mamacotter (Mama Cotter refugee smuggling operation, arrest/alliance choices, mechanic recruits). Characters: Mama Cotter (elderly smuggler), Bobby/Jesse/Jimmy (mechanic sons). Factions: Rangers, Marshals, Dorseys, Refugees. Game mechanics: [Arrest] and [Attack] choice markers preserved in English (11 total instances). Spanish reference checked for all entries. Bracket marker translation error caught and fixed. Structure validation: 0 errors. Action markers: 1 (snort) verified in English. Next: Continue from line 123654"
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "b93354f",
-  "last_commit_message": "Retranslation R3-125: 68 entries (MacTavish conclusion + intercom - lines 122316-122544)",
-  "total_entries_completed": 8566,
+  "last_commit_hash": "b77b905",
+  "last_commit_message": "Retranslation R3-126: 159 entries (Mama Cotter dialogue - lines 122544-123654)",
+  "total_entries_completed": 8725,
   "total_entries": 169712,
-  "total_entries_untranslated": 161146,
-  "overall_completion_rate": 5.05,
-  "next_action": "Continue sequential translation from line 122544. Next section: a2001_maingate_marshal (dev messages - keep English) then a2001_mamacotter (Mama Cotter dialogue). Spanish reference check mandatory before each translation. Action markers must remain English. Script Node must never be translated.",
+  "total_entries_untranslated": 160987,
+  "overall_completion_rate": 5.14,
+  "next_action": "Continue sequential translation from line 123654. Next section: a2001_marketsquare_merchant_01. Spanish reference check mandatory before each translation. Bracket markers ([Attack], [Arrest], [Global:], [Dropset:], etc.) must remain in English. Action markers must remain English. Script Node must never be translated.",
   "restart_info": {
     "restart_number": 3,
     "restart_date": "2025-11-05",
@@ -71,6 +71,7 @@
     "validation_frequency": "MANDATORY - Validate structure after EVERY edit using validate_structure_v2.py.",
     "manual_only": "MANDATORY - NO batch processing, NO automation shortcuts, NO efficiency compromises.",
     "quote_format": "MANDATORY - Match source quote count exactly. Common formats: 2 quotes or 4 quotes. NEVER use backslash escaping or Japanese brackets.",
+    "bracket_markers": "MANDATORY - ALL bracket markers ([Attack], [Arrest], [Global:], etc.) must remain in English. NEVER translate bracket content.",
     "forbidden_actions": [
       "Batch processing multiple entries",
       "Skipping lines or prioritizing content",
@@ -78,14 +79,16 @@
       "Translating without Spanish reference check",
       "Committing without validation",
       "Changing quote count from source",
-      "Deleting text when Spanish is empty"
+      "Deleting text when Spanish is empty",
+      "Translating bracket markers to Japanese"
     ]
   },
   "structure_protection": {
     "critical_rules": [
       "NEVER delete text when Spanish is empty - preserve English text to maintain quote count",
       "Spanish empty means no translation needed, NOT delete the text",
-      "Always match quote count exactly"
+      "Always match quote count exactly",
+      "NEVER translate bracket markers - keep [Attack], [Arrest], [Global:], etc. in English"
     ],
     "preserve_markers": [
       "double-quote format",
@@ -95,6 +98,8 @@
     ],
     "do_not_translate": [
       "Script Node",
+      "[Attack]",
+      "[Arrest]",
       "[Switch to",
       "[Global:",
       "[Dropset:",
@@ -108,6 +113,7 @@
       "No backslash escaping",
       "No translated action markup",
       "No translated technical terms",
+      "No translated bracket markers",
       "All game variables preserved"
     ],
     "validation_command": "./translation/validate_structure_v2.py TARGET_FILE --source SOURCE_FILE --detailed"
