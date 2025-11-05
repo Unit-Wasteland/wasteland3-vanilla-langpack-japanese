@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 507,
-      "entries_untranslated": 169205,
-      "completion_rate": 0.299,
-      "current_line": 6780,
+      "entries_translated": 615,
+      "entries_untranslated": 169097,
+      "completion_rate": 0.362,
+      "current_line": 7717,
       "status": "in_progress",
       "approach": "STRICT sequential from line 390 - enhanced validation with bracket translation detection",
-      "note": "Session R3-008: 72 entries (lines 6144-6780). Sections: santachristmassong (14 entries), soscalls (8 entries), storytimewithmisterfuntimes (18 entries), wackypayasosbroadcasts (5 entries), waronhugs (4 entries), charley_takeoverfailure (2 entries), charley_veryhostiletakeover (21 entries). Action markers preserved: chainsaw buzz, tortured screams, gunfire, static. HTML tags preserved. Validation: 0 errors. Next: Continue from line 6780."
+      "note": "Session R3-009: 108 entries (lines 6780-7717). Sections: radio_erastusdorsey (24 entries), radio_flab_bizarreinvitation (2 entries), radio_flab_nitb_reminder (2 entries), radio_flab_payasotakeover (3 entries), radio_gasmaskkids_attract (6 entries), radio_gonzalez_tier4upgradeavailable (8 entries), radio_gonzalez_tier6upgradeavailable (1 entry), radio_greatski_radiation (5 entries), radio_jingles (57 entries - commercial advertisements). Action markers preserved: whispers, door breaks, gunshot, bloody gurgles, chaotic gunfire, clowns giggling, rooster crows, inhales. HTML tags preserved. Quote format strictly maintained. Validation: 0 errors. Next: Continue from line 7717."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "4b50270",
-  "last_commit_message": "Retranslation R3-008: 72 entries (lines 6144-6780)",
-  "total_entries_completed": 507,
+  "last_commit_hash": "877efb7",
+  "last_commit_message": "Retranslation R3-009: 108 entries (lines 6780-7717)",
+  "total_entries_completed": 615,
   "total_entries": 169712,
-  "total_entries_untranslated": 169205,
-  "overall_completion_rate": 0.299,
-  "next_action": "Continue sequential translation from line 6780. Spanish reference check mandatory. Validate after each edit.",
+  "total_entries_untranslated": 169097,
+  "overall_completion_rate": 0.362,
+  "next_action": "Continue sequential translation from line 7717. Spanish reference check mandatory. Validate after each edit.",
   "restart_info": {
     "restart_number": 3,
     "restart_date": "2025-11-05",
