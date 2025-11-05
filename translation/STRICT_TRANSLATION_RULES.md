@@ -76,22 +76,42 @@ string data = "::nods::"        ← DO NOT EDIT (action-only entry)
 
 ### 3. Spanish Reference Logic
 
-**CRITICAL: Correct logic for Spanish reference checking:**
+**CRITICAL: Correct logic for Spanish reference checking (FIXED 2025-11-05):**
 
 ```
-if Spanish == "" AND English == "":
-    → Skip (truly empty)
-elif Spanish == "" AND English != "":
-    → Keep English text (program identifier)
-elif Spanish != "" AND Spanish != English:
-    → Translate to Japanese
+a) If Spanish == "" (empty):
+    if English == "" (empty):
+        → Skip (truly empty entry)
+    else:
+        → Keep English text (program identifier)
+
+b) If Spanish != "" (non-empty):
+    if Spanish != English (translated):
+        → Translate to Japanese
+    else (Spanish == English, not translated):
+        Priority order:
+        1. Check nouns_glossary.json → If found: Translate using glossary (proper noun)
+        2. Check do_not_translate list → If found: Keep English (technical term)
+        3. Otherwise: Translate to Japanese (normal text)
 ```
+
+**IMPORTANT:** "Spanish == English" does NOT mean "program identifier".
+Proper nouns (character names, locations) often remain English in Spanish version.
+ALWAYS check glossary and translate if entry exists.
 
 **WRONG logic (DO NOT USE):**
 ```
 if Spanish == "":
     skip_translation()  # ❌ This leaves English text untranslated
+
+if Spanish == English:
+    keep_english()      # ❌ This skips proper nouns that should be translated
 ```
+
+**Examples:**
+- "Rangers" - Spanish may keep as "Rangers" → But glossary has "レンジャーズ" → MUST translate
+- "Angela Deth" - Spanish may keep as "Angela Deth" → But glossary has "アンジェラ・デス" → MUST translate
+- "Script Node" - Spanish may keep as "Script Node" → do_not_translate list → MUST NOT translate
 
 **See:** CLAUDE.md Section 7 for Spanish reference rules.
 
