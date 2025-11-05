@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 8048,
-      "entries_untranslated": 161664,
-      "completion_rate": 4.7,
-      "current_line": 115674,
+      "entries_translated": 8166,
+      "entries_untranslated": 161546,
+      "completion_rate": 4.8,
+      "current_line": 116996,
       "status": "in_progress",
       "approach": "STRICT sequential from line 390 - enhanced validation with quote format protection",
-      "note": "Session R3-117: 23 entries (flophouse intercom and Frank Pappas locations). Translated lines 115321-115674. Content: a2001_flophouseintercom (22 entries - apartment intercom dialogue with landlady, Rangers identifying themselves, various rejection responses, cat and vacuum sounds, lockdown warnings, visitor entries for Frank Pappas), a2001_flophouse_marshal (0 entries - Spanish empty, debug text), a2001_frankpappas_corpse (1 entry - Frank Pappas corpse description with blood pool and skull damage). Spanish reference checked. Action markers preserved (cat purring, vacuuming noises, toilet flushing, cat meowing). Script Node preserved (53, 49, 60, 61, 66). Debug text preserved in English. Structure validation: 0 errors. Next: Continue from line 115675 (a2001_frankpappas_inflophouse section - 227 entries)."
+      "note": "Session R3-118: 118 entries (Frank Pappas dialogue continuation). Translated lines 116700-116996. Content: a2001_frankpappas_inflophouse dialogue entries - Frank Pappas dialogue about Kwon and Sheriff Daisy, labor camp location discussions and protection needs, negotiation dialogue for Frank joining Rangers, references to Junior suspicious suicide, Colorado Springs neighborhood dangers, bribery and protection offers, work camp information about cave northeast of city, debug mode entries (kept in English per Spanish reference), Script Node markers preserved (212, 213). Spanish reference checked. Kwon, Daisy, Frank Pappas, Junior, Colorado Springs, Steeltown, Rangers preserved. All quote counts match source exactly. Game variables preserved. Structure validation: 0 errors. Next: Continue from line 116997 (a2001_frankpappas_inflophouse section continuation)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "6bccb06",
-  "last_commit_message": "Retranslation R3-116: 78 entries (Colorado Springs downtown encounters)",
-  "total_entries_completed": 8048,
+  "last_commit_hash": "27c4079",
+  "last_commit_message": "Retranslation R3-118: 118 entries (Frank Pappas dialogue continuation - lines 116700-116996)",
+  "total_entries_completed": 8166,
   "total_entries": 169712,
-  "total_entries_untranslated": 161664,
-  "overall_completion_rate": 4.7,
-  "next_action": "Continue sequential translation from line 115675. Section: a2001_frankpappas_inflophouse (227 entries - large Frank Pappas dialogue section). Spanish reference check mandatory before each translation. Action markers must remain English.",
+  "total_entries_untranslated": 161546,
+  "overall_completion_rate": 4.8,
+  "next_action": "Continue sequential translation from line 116997. Section: a2001_frankpappas_inflophouse (continuation). Spanish reference check mandatory before each translation. Action markers must remain English.",
   "restart_info": {
     "restart_number": 3,
     "restart_date": "2025-11-05",
