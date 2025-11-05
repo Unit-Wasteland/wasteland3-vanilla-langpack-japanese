@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 6786,
-      "entries_untranslated": 162926,
-      "completion_rate": 4.00,
-      "current_line": 100065,
+      "entries_translated": 6846,
+      "entries_untranslated": 162866,
+      "completion_rate": 4.03,
+      "current_line": 100986,
       "status": "in_progress",
       "approach": "STRICT sequential from line 390 - enhanced validation with quote format protection",
-      "note": "Session R3-101: 115 entries (thepatriarch + theprisoner + thewarden first half). Translated lines 98617-100065. Content: Patriarch finale, prisoner mystery dialogue, warden introduction and refugee conflict. Spanish reference checked. Structure validation: 0 errors (3 quote fixes + 1 HTML tag fix). Action markers preserved (sigh, sighs kept English). Next: Continue from line 100065 (thewarden remaining dialogue)."
+      "note": "Session R3-102: 60 entries (thewarden final + refugee crisis + zealot prisoner). Translated lines 100065-100986. Content: Warden on ranger HQ events (refugees, missions, Isaac Reed, Brygo), ranger recruit morale speeches, zealot prisoner Val dialogue intro. Spanish reference checked. Structure validation: 0 errors. All quote formats preserved (4-quote format maintained). Next: Continue from line 100986 (zealot prisoner remaining dialogue)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "2c36704",
-  "last_commit_message": "Retranslation R3-101: 115 entries (thepatriarch + theprisoner + thewarden)",
-  "total_entries_completed": 6786,
+  "last_commit_hash": "faf8211",
+  "last_commit_message": "Retranslation R3-102: 60 entries (thewarden + refugee crisis + zealot prisoner)",
+  "total_entries_completed": 6846,
   "total_entries": 169712,
-  "total_entries_untranslated": 162926,
-  "overall_completion_rate": 4.00,
-  "next_action": "Continue sequential translation from line 100065. Section: a1001_thewarden remaining dialogue. Spanish reference check mandatory before each translation. Action markers must remain English.",
+  "total_entries_untranslated": 162866,
+  "overall_completion_rate": 4.03,
+  "next_action": "Continue sequential translation from line 100986. Section: a1001_thezealot_imprisonedatrangerhq remaining dialogue. Spanish reference check mandatory before each translation. Action markers must remain English.",
   "restart_info": {
     "restart_number": 3,
     "restart_date": "2025-11-05",
