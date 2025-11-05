@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 8206,
-      "entries_untranslated": 161506,
-      "completion_rate": 4.8,
-      "current_line": 117970,
+      "entries_translated": 8265,
+      "entries_untranslated": 161447,
+      "completion_rate": 4.9,
+      "current_line": 119120,
       "status": "in_progress",
       "approach": "STRICT sequential from line 390 - enhanced validation with quote format protection",
-      "note": "Session R3-119: 40 entries (Colorado Springs dialogues). Translated lines 116997-117970. Content: a2001_frankpappas_inflophouse final entries (201-226) - Frank Pappas money negotiation, Daisy threats, Rangers recruitment dialogue; a2001_gideonreyes_radio_unwelcomeguest (326) - Gideon Reyes radio contact for logistical support; a2001_gonzalez_radio_aftermactavishconvo (327) - MacTavish arrest radio communication; a2001_gonzalez_radio_aftermamacotterconvo (328-329) - Mama Cotter arrest radio; a2001_gunslinger_postgarden (330) - Gunslinger post-Garden dialogue, Isaac aftermath, Nelius Dorsey hunt planning, debug entries preserved; a2001_hallie (331) - Hallie escaped slave encounter, La Perla slaver threat, family search storyline. Spanish reference checked. Quote formats strictly maintained (4-quote and 6-quote dialogue splits). Action markers preserved (sob, recovers, sobs). Game mechanics text ([Lie]) preserved in English. Structure validation: 0 errors. Next: Continue from line 117970 (a2001_hunters section)."
+      "note": "Session R3-120: 59 entries (Irv clone storyline). Translated lines 118188-119120. Content: a2001_irvclones (18 entries) - Clone philosophical musings about identity, existence, humanity; a2001_irvscloningmachine (8 entries) - Cloning machine interface, monitor readouts, Dr. Finster notes; a2001_irv_downtown (33 entries) - Irv downtown encounter, identity revelation, clone confession, joining Rangers offer, apartment negotiation. Character: Irv fourth generation clone. Game mechanics: [Arrest] marker corrected after initial mistranslation. Action markers preserved (sighs). Spanish reference checked. Quote format strictly maintained (4-quote format). Bracket translation error caught and fixed by validation. Structure validation: 0 errors. Next: Continue from line 119120 (more Irv dialogue continuation)"
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "130dde2",
-  "last_commit_message": "Retranslation R3-119: 40 entries (Colorado Springs dialogues - lines 116997-117970)",
-  "total_entries_completed": 8206,
+  "last_commit_hash": "903ac92",
+  "last_commit_message": "Retranslation R3-120: 59 entries (Irv clone storyline - lines 118188-119120)",
+  "total_entries_completed": 8265,
   "total_entries": 169712,
-  "total_entries_untranslated": 161506,
-  "overall_completion_rate": 4.8,
-  "next_action": "Continue sequential translation from line 117970. Section: a2001_hunters. Spanish reference check mandatory before each translation. Action markers must remain English.",
+  "total_entries_untranslated": 161447,
+  "overall_completion_rate": 4.9,
+  "next_action": "Continue sequential translation from line 119120. Continue Irv dialogue in a2001_irv_downtown section. Spanish reference check mandatory before each translation. Action markers must remain English. Bracket markers [xxx] must never be translated.",
   "restart_info": {
     "restart_number": 3,
     "restart_date": "2025-11-05",
