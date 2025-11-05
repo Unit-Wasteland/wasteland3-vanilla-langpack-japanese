@@ -29739,13 +29739,13 @@
        [1]
         1 string data = "Script Node 2"
        [2]
-        1 string data = ""Why are there old people here?""
+        1 string data = ""なんでここに年寄りがいるんだ?""
        [3]
-        1 string data = ""Back off!""
+        1 string data = ""下がれ!""
        [4]
-        1 string data = ""Not a bad party.""
+        1 string data = ""悪くないパーティーだな""
        [5]
-        1 string data = ""Way kewl.""
+        1 string data = ""超クールだぜ""
    [117]
     0 StringTable data
      1 string Filename = "a1001_brig_secalertcomputer"
@@ -29847,17 +29847,17 @@
       1 Array Array (22 items)
        0 int size = 22
        [0]
-        1 string data = "Angry red text flashes across the screen:\n\n\n'SECURITY COMPROMISED'"
+        1 string data = "画面に怒りに満ちた赤い文字が点滅する:\n\n\n'セキュリティ侵害'"
        [1]
-        1 string data = "Cancel the alert."
+        1 string data = "警報を解除する"
        [2]
-        1 string data = "Text appears on the screen:\n\n\n'ALERT CANCELED!' Then it returns to the main menu."
+        1 string data = "画面にテキストが表示される:\n\n\n'警報解除!' その後、メインメニューに戻る"
        [3]
-        1 string data = "Step away from the terminal."
+        1 string data = "端末から離れる"
        [4]
         1 string data = " You walk away from the terminal."
        [5]
-        1 string data = "The terminal displays information about the base's systems. Everything appears normal for the moment."
+        1 string data = "端末は基地システムの情報を表示している。今のところ全て正常に見える"
        [6]
         1 string data = " This computer is flashing "SECURITY COMPROMISED" in angry red letters.\n"
        [7]
@@ -29867,7 +29867,7 @@
        [9]
         1 string data = " This terminal is displaying information about the base's systems. It cycles through its concerns as you observe it."
        [10]
-        1 string data = ""Brig: All Clear""
+        1 string data = ""営倉: 異常なし""
        [11]
         1 string data = " "ALERT: Armory: Security Lockdown""
        [12]
@@ -29875,21 +29875,21 @@
        [13]
         1 string data = " The messages cycle as long as you observe the machine."
        [14]
-        1 string data = "Check recent activity logs for this terminal."
+        1 string data = "この端末の最近のアクティビティログを確認する"
        [15]
-        1 string data = "You comb through the logs, culling ancient messages and routine system notifications until you have a list of recent activations."
+        1 string data = "ログを精査し、古いメッセージと定型的なシステム通知を除外すると、最近のアクティベーションのリストが得られた"
        [16]
-        1 string data = "'OS: Wake initiatied. Wake complete. Credentials rejected. Credentials accepted: Login: 'admin.' Password: 'admin.' OS: Loading default admin operations. Backup generators initialized.'"
+        1 string data = "'OS: 起動開始。起動完了。認証情報が拒否されました。認証情報が承認されました: ログイン: 'admin.' パスワード: 'admin.' OS: デフォルト管理者操作をロード中。バックアップジェネレーター初期化完了'"
        [17]
         1 string data = "'Perimeter defenses: request refused: inactive; insufficient power. Core defenses: request refused: inactive; insufficient power. Security: request refused: nonresponsive, insufficient power. Power: external grid: nonresponsive; internal grid: unpowered, backup generator: responsive, disabled.'"
        [18]
         1 string data = ""Power: Generator restart requested... complete. Power: internal grid reports power surge in five sectors. OS: local power surge detected... system hardware has recovered. OS: Please hold, coordinating with remote systems. OS: Red Alert issued. OS: receive request 'reject generic user 'admin' from Core System.' OS: locking out local user.""
        [19]
-        1 string data = "'Automated security lockdown initiated. Login required. Credentials rejected. Credentials rejected. OS: Station locking out user due to multiple failed login attempts.'"
+        1 string data = "'自動セキュリティロックダウンが開始されました。ログインが必要です。認証情報が拒否されました。認証情報が拒否されました。OS: 複数のログイン試行失敗によりステーションがユーザーをロックアウトしています'"
        [20]
         1 string data = "Bank 22"
        [21]
-        1 string data = "The terminal displays information about the base's systems. A red-letter banner in the middle of the screen reads:\n\n\n'SECURITY LOCKDOWN ENABLED'"
+        1 string data = "端末は基地システムの情報を表示している。画面中央の赤い文字のバナーにはこう書かれている:\n\n\n'セキュリティロックダウン有効'"
    [118]
     0 StringTable data
      1 string Filename = "a1001_brothomas"
@@ -29993,41 +29993,41 @@
        [2]
         1 string data = "Script Node 4"
        [3]
-        1 string data = ""No need to worry about being flanked. We'll hold the doors.""
+        1 string data = ""側面攻撃の心配は無用だ。我々がドアを守る""
        [4]
-        1 string data = ""Go on. You have work to do.""
+        1 string data = ""行け。やるべき仕事があるだろう""
        [5]
-        1 string data = ""Good luck in there.""
+        1 string data = ""幸運を祈る""
        [6]
         1 string data = "Script Node 8"
        [7]
-        1 string data = ""The gangs are still looting, but we'll keep them from getting through here.""
+        1 string data = ""ギャングどもはまだ略奪してるが、ここを通過させはしない""
        [8]
-        1 string data = ""Your rear is secured. We won't let the savages follow.""
+        1 string data = ""後方は確保した。野蛮人どもを追跡させない""
        [9]
-        1 string data = ""Onward to the palace, eh?""
+        1 string data = ""宮殿へ向かうのか、eh?""
        [10]
         1 string data = "Script Node 12"
        [11]
         1 string data = "Script Node 13"
        [12]
-        1 string data = ""We'll keep up appearances out here so no one knows what you're doing inside.""
+        1 string data = ""外では見せかけを保って、中で何をしてるか誰にも気づかせない""
        [13]
-        1 string data = ""Go on. You have work to do.""
+        1 string data = ""行け。やるべき仕事があるだろう""
        [14]
-        1 string data = ""Calm on the outside. Chaos on the inside.""
+        1 string data = ""外は平穏。中は混沌""
        [15]
         1 string data = "Script Node 17"
        [16]
-        1 string data = ""We'll keep watch here while you go downtown.""
+        1 string data = ""お前が街へ行く間、ここで見張っている""
        [17]
-        1 string data = ""The end is nigh. Good luck.""
+        1 string data = ""終わりは近い。幸運を""
        [18]
-        1 string data = ""Onward to the palace, eh?""
+        1 string data = ""宮殿へ向かうのか、eh?""
        [19]
         1 string data = "Script Node 21"
        [20]
-        1 string data = ""Onward to the palace!""
+        1 string data = ""宮殿へ向かえ!""
    [119]
     0 StringTable data
      1 string Filename = "a1001_bryan"
@@ -30065,17 +30065,17 @@
       1 Array Array (6 items)
        0 int size = 6
        [0]
-        1 string data = ""This place is awesome. Thanks, Rangers!""
+        1 string data = ""ここ最高じゃん。ありがとう、レンジャー!""
        [1]
-        1 string data = ""Get me out of here! I don't want to die!""
+        1 string data = ""ここから出してくれ! 死にたくない!""
        [2]
         1 string data = "Script Node 3"
        [3]
         1 string data = "Script Node 4"
        [4]
-        1 string data = ""This is so cool.""
+        1 string data = ""超クールだ""
        [5]
-        1 string data = ""You're the best, Rangers.""
+        1 string data = ""お前ら最高だよ、レンジャー""
    [120]
     0 StringTable data
      1 string Filename = "a1001_buddy_catchingup"
@@ -31095,35 +31095,35 @@
       1 Array Array (16 items)
        0 int size = 16
        [0]
-        1 string data = "This enormous, spider-like robot is in bad shape. It twitches in a puddle of its own fluids, its casing dented and riddled with bullet holes."
+        1 string data = "この巨大なクモ型ロボットは状態が悪い。自身の流体の水たまりの中で痙攣し、外装は凹みと銃弾の穴だらけだ"
        [1]
         1 string data = ""
        [2]
         1 string data = "It sits in a puddle of its own fluids, its casing dented and riddled with bullet holes."
        [3]
-        1 string data = "Judging by the scrape marks on the floor, it looks like someone dragged it into the garage from somewhere else."
+        1 string data = "床のこすり跡から判断すると、誰かがどこかからガレージにこれを引きずり込んだようだ"
        [4]
-        1 string data = "Examine the robot."
+        1 string data = "ロボットを調べる"
        [5]
-        1 string data = "Try to repair the Slicer Dicer."
+        1 string data = "スライサーダイサーを修理してみる"
        [6]
-        1 string data = "Leave the robot alone."
+        1 string data = "ロボットには触れない"
        [7]
         1 string data = "You step away from the wrecked robot."
        [8]
-        1 string data = "You recognize it as a Slicer Dicer, a pre-apocalypse military robot. It appears to have been badly damaged in a firefight, and is missing some of its weapons."
+        1 string data = "これはスライサーダイサー、黙示録以前の軍事用ロボットだと分かる。銃撃戦でひどく損傷を受けたようで、武器の一部が欠損している"
        [9]
-        1 string data = "Upon closer inspection, you note that some of the bullet holes have been patched, and several of the legs show signs of recent welding."
+        1 string data = "よく調べると、銃弾の穴のいくつかには修復痕があり、数本の脚には最近溶接された痕跡が見られる"
        [10]
-        1 string data = "The Slicer Dicer's main access panel is open, revealing its wiring and power plant. It's clear that someone has been trying to repair the robot."
+        1 string data = "スライサーダイサーのメインアクセスパネルが開いており、配線と動力装置が見えている。誰かがこのロボットを修理しようとしていたのは明らかだ"
        [11]
-        1 string data = "Peering inside the quivering robot's casing, you find a lot of salvaged parts and new wiring. Someone's been working on the robot for a while."
+        1 string data = "震えるロボットの外装内部を覗き込むと、大量のサルベージ部品と新しい配線が見つかる。誰かがしばらくの間このロボットに取り組んでいたようだ"
        [12]
-        1 string data = "There's a bad connection to the power supply, strong enough to give someone a wicked shock. It takes some careful work to repair the connection."
+        1 string data = "電源への接続が悪く、誰かに強烈な電撃を与えるほどだ。接続を修理するには慎重な作業が必要だ"
        [13]
-        1 string data = "As soon as the short is repaired the robot sputters to life. It turns a cold, unfeeling optical sensor towards you, and its weapons spin up."
+        1 string data = "ショートが修理されるとすぐに、ロボットが音を立てて起動する。冷たく無感情な光学センサーがこちらを向き、武器が回転し始める"
        [14]
-        1 string data = "Despite its damage, the twitching robot exudes an air of menace."
+        1 string data = "損傷にもかかわらず、痙攣するロボットは脅威の雰囲気を醸し出している"
        [15]
         1 string data = ""
    [122]
@@ -31173,13 +31173,13 @@
        [2]
         1 string data = "Script Node 3"
        [3]
-        1 string data = ""BAWK.""
+        1 string data = ""コケー""
        [4]
         1 string data = "::servos whirring::"
        [5]
-        1 string data = ""CLUCK.""
+        1 string data = ""コッ""
        [6]
-        1 string data = ""COO-COO-CAW.""
+        1 string data = ""コッコッコー""
    [123]
     0 StringTable data
      1 string Filename = "a1001_christopher"
@@ -31217,9 +31217,9 @@
       1 Array Array (6 items)
        0 int size = 6
        [0]
-        1 string data = ""Thanks for letting us play here, Rangers! You rock!""
+        1 string data = ""ここで遊ばせてくれてありがとう、レンジャー! 最高だぜ!""
        [1]
-        1 string data = ""Shit is getting too real, dudes! I don't wanna play no more!""
+        1 string data = ""ヤバすぎだろ、マジで! もう遊びたくないよ!""
        [2]
         1 string data = "Script Node 3"
        [3]
