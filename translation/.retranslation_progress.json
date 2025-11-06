@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 12978,
-      "entries_untranslated": 156734,
-      "completion_rate": 7.6,
-      "current_line": 163141,
+      "entries_translated": 13149,
+      "entries_untranslated": 156563,
+      "completion_rate": 7.7,
+      "current_line": 164245,
       "status": "in_progress",
       "approach": "STRICT sequential from line 390 - enhanced validation with bracket marker protection",
-      "note": "Session R3-165: 148 entries (lines 162193-163140). Completed: a3001_computerworkshop (20 entries - Bellamy game computer, 6 entries kept English per Rule 1), a3001_cyborgchicken_leftarm (41 entries - cyborg chicken dialogue, chicken sounds localized, action markers preserved), a3001_debug (13 entries - debug messages, all kept English), a3001_firstdorseysbarks (41 entries - Dorsey confrontation, HTML tag preserved), a3001_gonzalez_radio_afterreedconvo (33 entries - radio communications, newline sequences preserved, 8 entries kept English). Structure validation: 0 errors, 0 warnings. Quality validation: 0 issues. Next: Line 163141 (a3001_isaacreed section - 109 entries)"
+      "note": "Session R3-166: 171 entries (lines 163141-164244). Completed: a3001_isaacreed (109 entries - Isaac Reed confrontation with Lucia, emotional dialogue, family tragedy, betrayal resolution, action markers preserved), a3001_lensbarks (2 entries - lens observation), a3001_lucia (6 entries - Lucia dialogue), a3001_massgrave (31 entries - mass grave discovery scene, body descriptions, burial options), a3001_reedcomrade (21 entries - Reed comrade dialogue, surrender/arrest scenarios), a3001_seconddorseybarks (3 entries - Dorsey guard dialogue). Structure validation: 0 errors, 0 warnings. Next: Line 164245 (a4001_bantermushroomers section)"
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "eb524ea",
-  "last_commit_message": "Retranslation R3-165 checkpoint 2: 33 entries (lines 162931-163140)",
-  "total_entries_completed": 12978,
+  "last_commit_hash": "PENDING",
+  "last_commit_message": "Retranslation R3-166: 171 entries (lines 163141-164244)",
+  "total_entries_completed": 13149,
   "total_entries": 169712,
-  "total_entries_untranslated": 156734,
-  "overall_completion_rate": 7.6,
-  "next_action": "Continue sequential translation from line 163141 (a3001_isaacreed section - 109 entries).",
+  "total_entries_untranslated": 156563,
+  "overall_completion_rate": 7.7,
+  "next_action": "Continue sequential translation from line 164245 (a4001_bantermushroomers section).",
   "restart_info": {
     "restart_number": 3,
     "restart_date": "2025-11-05",
