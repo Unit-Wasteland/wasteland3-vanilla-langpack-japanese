@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 10656,
-      "entries_untranslated": 159056,
-      "completion_rate": 6.3,
-      "current_line": 143330,
+      "entries_translated": 10896,
+      "entries_untranslated": 158816,
+      "completion_rate": 6.4,
+      "current_line": 145416,
       "status": "in_progress",
-      "approach": "STRICT sequential from line 390 - enhanced validation with bracket marker protection",
-      "note": "Session R3-144: 127 entries (3 endgame sections). Translated lines 142531-143329. Sections: a2011_sheriffdaisy (86), a2011_sheriffdaisy_radio (10), a2011_tommycotter_endgame (31 - partial). Spanish reference verified. Structure validation: 0 errors. Quality validation: 16 warnings (Spanish-empty entries kept in English per rules). Action marker ::gunfire:: preserved. Next: Line 143330 (a2101_aceofhearts - 41 entries)"
+      "approach": "STRICT sequential from line 390 - enhanced validation with action marker protection",
+      "note": "Session R3-146: 109 entries (6 Little Vegas sections). Translated lines 144344-145416. Sections: a2101_benjiebraddock (45), a2101_billyandjean (2), a2101_boulder_nightclub (32), a2101_brothelpatron (5), a2101_brygoguard (24), a2101_buzzkill_animalfollower (1). Spanish reference verified. Structure validation: 0 errors. Action markers preserved. Next: Line 145416 (a2101_buzzkill_animalleader - 22 entries)"
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "0a83191",
-  "last_commit_message": "Retranslation R3-144: 127 entries (3 endgame sections - lines 142531-143329)",
-  "total_entries_completed": 10656,
+  "last_commit_hash": "594a638",
+  "last_commit_message": "Retranslation R3-146: 109 entries (6 Little Vegas sections - lines 144344-145416)",
+  "total_entries_completed": 10896,
   "total_entries": 169712,
-  "total_entries_untranslated": 159056,
-  "overall_completion_rate": 6.3,
-  "next_action": "Continue sequential translation from line 143330 (a2101_aceofhearts section - 41 entries of adult content character dialogues).",
+  "total_entries_untranslated": 158816,
+  "overall_completion_rate": 6.4,
+  "next_action": "Continue sequential translation from line 145416 (a2101_buzzkill_animalleader section - 22 entries).",
   "restart_info": {
     "restart_number": 3,
     "restart_date": "2025-11-05",
