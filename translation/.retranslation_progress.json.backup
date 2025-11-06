@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 12748,
-      "entries_untranslated": 156964,
-      "completion_rate": 7.5,
-      "current_line": 161677,
+      "entries_translated": 12830,
+      "entries_untranslated": 156882,
+      "completion_rate": 7.6,
+      "current_line": 162193,
       "status": "in_progress",
       "approach": "STRICT sequential from line 390 - enhanced validation with bracket marker protection",
-      "note": "Session R3-163: 153 entries (lines 160639-161676). Completed: a2101_satoshi (21 entries - programmer NPC, technical jargon, 2 Script Nodes kept), a2101_slotmachine (13 entries - 1 Script Node kept), a2101_slotmachine_02 (12 entries), a2101_stripper_bigred to a2101_stripper_quickdraw (29 entries - adult content, 5 Script Nodes kept, giggles marker preserved), a2101_tenofhearts (67 entries - Kwon romance storyline, 5 Script Nodes kept, gasp/sweetly/sigh markers preserved), a2101_thugpostboulderkilled (11 entries - laughs marker preserved). Glossary terms: Brygo, Vic Buchanan, Kwon applied. Structure validation: 0 errors, 0 warnings (HTML tags corrected). Next: Line 161677 (a3001_bellamyward - 59 items expected)"
+      "note": "Session R3-164: 82 entries (lines 161677-162192). Completed: a3001_bellamyward (59 entries - Bellamy Ward rescue, 2 Script Nodes kept, whispers/low voice markers preserved), a3001_computerambush (23 entries - PAL computer interface, 2 Script Nodes kept). Quote format correction: Narrative (2 quotes) vs dialogue (4 quotes) properly applied. Spanish empty entries kept as English (Rule 1). Structure validation: 0 errors, 0 warnings. Next: Line 162193 (a3001_computerworkshop section)"
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "fddded8",
-  "last_commit_message": "Retranslation R3-163: 153 entries (lines 160639-161676)",
-  "total_entries_completed": 12748,
+  "last_commit_hash": "1097dee",
+  "last_commit_message": "Retranslation R3-164: 82 entries (lines 161677-162192)",
+  "total_entries_completed": 12830,
   "total_entries": 169712,
-  "total_entries_untranslated": 156964,
-  "overall_completion_rate": 7.5,
-  "next_action": "Continue sequential translation from line 161677 (a3001_bellamyward section - 59 items expected).",
+  "total_entries_untranslated": 156882,
+  "overall_completion_rate": 7.6,
+  "next_action": "Continue sequential translation from line 162193 (a3001_computerworkshop section).",
   "restart_info": {
     "restart_number": 3,
     "restart_date": "2025-11-05",
