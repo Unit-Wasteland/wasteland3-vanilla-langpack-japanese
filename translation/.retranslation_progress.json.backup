@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 8725,
-      "entries_untranslated": 160987,
-      "completion_rate": 5.14,
-      "current_line": 123654,
+      "entries_translated": 8866,
+      "entries_untranslated": 160846,
+      "completion_rate": 5.22,
+      "current_line": 124548,
       "status": "in_progress",
       "approach": "STRICT sequential from line 390 - enhanced validation with bracket marker protection",
-      "note": "Session R3-126: 159 entries (Mama Cotter dialogue). Translated lines 122544-123654. Content: a2001_maingate_marshal (4 dev messages kept English), a2001_mamacotter (Mama Cotter refugee smuggling operation, arrest/alliance choices, mechanic recruits). Characters: Mama Cotter (elderly smuggler), Bobby/Jesse/Jimmy (mechanic sons). Factions: Rangers, Marshals, Dorseys, Refugees. Game mechanics: [Arrest] and [Attack] choice markers preserved in English (11 total instances). Spanish reference checked for all entries. Bracket marker translation error caught and fixed. Structure validation: 0 errors. Action markers: 1 (snort) verified in English. Next: Continue from line 123654"
+      "note": "Session R3-127: 141 entries (Market Square merchants + gate dialogue). Translated lines 123907-124548. Content: a2001_marketsquare_merchant_01 (Taiwan Jones fish pun merchant, 60 entries), a2001_marketsquare_merchant_02 (Snappin Jimmy Bob trader, 32 entries), a2001_marketsquare_merchant_03 (Mary Milk-Teeth medicine, 33 entries), a2001_marshalatgate (Marshal guards, 16 entries). Characters: Taiwan Jones, Snappin Jimmy Bob, Mary Milk-Teeth. Spanish reference checked for all entries. Structure validation: 0 errors. No action markers in this section. Next: Continue from line 124548"
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "b77b905",
-  "last_commit_message": "Retranslation R3-126: 159 entries (Mama Cotter dialogue - lines 122544-123654)",
-  "total_entries_completed": 8725,
+  "last_commit_hash": "9c3a119",
+  "last_commit_message": "Retranslation R3-127: 141 entries (Market Square merchants + gate dialogue - lines 123907-124548)",
+  "total_entries_completed": 8866,
   "total_entries": 169712,
-  "total_entries_untranslated": 160987,
-  "overall_completion_rate": 5.14,
-  "next_action": "Continue sequential translation from line 123654. Next section: a2001_marketsquare_merchant_01. Spanish reference check mandatory before each translation. Bracket markers ([Attack], [Arrest], [Global:], [Dropset:], etc.) must remain in English. Action markers must remain English. Script Node must never be translated.",
+  "total_entries_untranslated": 160846,
+  "overall_completion_rate": 5.22,
+  "next_action": "Continue sequential translation from line 124548. Next section: a2001_marshallpitts. Spanish reference check mandatory before each translation. Bracket markers ([Attack], [Arrest], [Global:], [Dropset:], etc.) must remain in English. Action markers must remain English. Script Node must never be translated.",
   "restart_info": {
     "restart_number": 3,
     "restart_date": "2025-11-05",
