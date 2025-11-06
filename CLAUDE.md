@@ -324,39 +324,45 @@ wc -l translation/target/v1.6.9.420.309496/ja_JP/*.txt
 
 7. **Spanish Reference Rules** ⚠️
 
-   **DISCOVERED ISSUE (2025-11-01): 6,982 entries were left untranslated due to incorrect Spanish reference logic.**
+   **UPDATED (2025-11-06): Unified translation decision logic to prevent untranslated proper nouns.**
 
-   **Correct Spanish reference logic:**
+   **Unified Translation Decision Logic (Priority Order):**
 
-   | Spanish | English | Action | Reason |
-   |---------|---------|--------|--------|
-   | `""` (empty) | `""` (empty) | ✅ Skip | Truly empty entry |
-   | `""` (empty) | `"TEXT"` | ✅ **Keep English** | Program identifier/technical term |
-   | `"TRANSLATED"` | `"TEXT"` | ✅ **Translate to Japanese** | Normal translatable text |
+   1. **English == "" (empty)?** → Skip (truly empty entry)
+
+   2. **Check do_not_translate list** (Script Node, [Global:], [Switch to], etc.)
+      → If found: Keep English text (technical term)
+
+   3. **Check nouns_glossary.json** (proper nouns: characters, locations, factions)
+      → If found: Translate using glossary term
+
+   4. **Spanish != "" AND Spanish != English** (Spanish is translated)?
+      → Translate to Japanese (normal translatable text)
+
+   5. **Otherwise** (Spanish == "" OR Spanish == English):
+      → **Translate to Japanese** (default behavior)
+      → Includes: proper nouns not yet in glossary, dialogue, descriptions
+
+   **KEY CHANGES (2025-11-06):**
+   - Spanish reference is now **advisory, NOT decisive**
+   - Default behavior is **to translate** (prevents untranslated proper nouns)
+   - Only skip translation if explicitly in do_not_translate list
+   - Proper nouns are translated even when Spanish version keeps them in English
 
    **WRONG logic (DO NOT USE):**
    ```
    if Spanish == "":
-       skip_translation()  # ❌ WRONG - this leaves English text untranslated
+       keep_english()  # ❌ This leaves proper nouns untranslated
+
+   if Spanish == English:
+       keep_english()  # ❌ This skips proper nouns that should be translated
    ```
 
-   **CORRECT logic (ALWAYS USE):**
-   ```
-   if Spanish == "" AND English == "":
-       skip()  # Truly empty
-   elif Spanish == "" AND English != "":
-       keep_english_text()  # Program identifier
-   elif Spanish != "" AND Spanish != English:
-       translate_to_japanese()  # Normal translation
-   ```
-
-   **How to verify before translating:**
-   1. Open Spanish reference file
-   2. Find the same line number
-   3. Check Spanish content:
-      - Empty → keep English text unchanged
-      - Translated → translate to Japanese
-      - Same as English → might be program identifier, verify context
+   **CORRECT Examples:**
+   - "Rangers" - Spanish: "Rangers" (unchanged) → Glossary: "レンジャー" → **Translate to "レンジャー"**
+   - "Angela Deth" - Spanish: "Angela Deth" (unchanged) → Glossary: "アンジェラ・デス" → **Translate**
+   - "Patriarch" - Spanish: "Patriarch" (unchanged) → Glossary: "総主教" → **Translate**
+   - "Script Node" - Spanish: "Script Node" → do_not_translate list → **Do NOT translate**
 
 ### Retranslation Execution Strategy - Sequential from Line 1
 
@@ -373,12 +379,12 @@ wc -l translation/target/v1.6.9.420.309496/ja_JP/*.txt
 
 1. **Start from line 390**: First translatable entry (CORRECTED - was incorrectly stated as line 666)
 2. **Complete each section 100%**: Before moving to next section
-3. **Spanish reference MANDATORY**: Check Spanish file for translatability before each translation
+3. **Unified translation decision MANDATORY**: Apply 5-step priority logic (do_not_translate → glossary → Spanish reference → default to translate)
 4. **Validate after EVERY edit**: Use BOTH `validate_structure_v2.py` AND `validate_translation_quality.py` - zero tolerance for errors
 5. **Only advance when validated**: Any error = immediate fix required
 
-**Key principles for strict retranslation (REDESIGNED 2025-10-29):**
-- **Spanish translatability check**: Compare with Spanish file - if Spanish translates, Japanese can translate
+**Key principles for strict retranslation (REDESIGNED 2025-11-06):**
+- **Unified translation decision**: Check do_not_translate list → glossary → Spanish reference → default to translate (prevents untranslated proper nouns)
 - **Large chunk processing**: Process in 150-200 line chunks (minimizes Read/Edit operations → small conversation history)
 - **Session limit**: 500 entries per session (high efficiency - completes in ~340 sessions total for 169,712 entries)
 - **Structure protection**: Validate `""`, `[]`, `<>`, `::action::` markers after EVERY edit
@@ -387,11 +393,11 @@ wc -l translation/target/v1.6.9.420.309496/ja_JP/*.txt
 - **Session restarts**: Automated scripts handle session restarts when memory threshold reached
 - **Memory threshold**: 5000MB limit (6GB physical RAM - 1GB margin, monitored every 30s)
 
-**Standard strict retranslation workflow (UPDATED 2025-11-01):**
+**Standard strict retranslation workflow (UPDATED 2025-11-06):**
 1. Read progress from `translation/.retranslation_progress.json` (v3.0 - strict workflow)
 2. **Read 150-200 line chunks** from English source, Spanish reference, and Japanese target
-3. **Check Spanish for translatability**: If Spanish == English → skip (program identifier); if translated → translate to Japanese
-4. Translate English→Japanese using `nouns_glossary.json` (for translatable entries only)
+3. **Apply unified translation decision logic**: Check do_not_translate list → glossary → Spanish reference → default to translate
+4. Translate English→Japanese using `nouns_glossary.json` (for glossary terms and translatable entries)
 5. **MANDATORY VALIDATION after EACH edit (CRITICAL - 2025-11-01)**:
 
    **BOTH validations must pass with ZERO errors before commit:**
@@ -420,9 +426,9 @@ wc -l translation/target/v1.6.9.420.309496/ja_JP/*.txt
 7. **End session after ~500 entries** (high efficiency - minimizes total sessions needed)
 8. Continue until all files completed (expected: ~340 sessions for 169,712 entries)
 
-**For manual sessions (STRICT WORKFLOW 2025-11-01 UPDATED):**
+**For manual sessions (STRICT WORKFLOW 2025-11-06 UPDATED):**
 When user requests work manually (not via automation script):
-- **Spanish reference check**: MANDATORY before each translation - check if Spanish translates the text
+- **Unified translation decision**: MANDATORY - apply 5-step priority logic (do_not_translate → glossary → Spanish reference → default to translate)
 - **Chunk size**: For fixing errors: 10-20 entries per session; For new translation: 150-200 lines
 - **Session target**: Process as many entries as comfortable (for fixes: 10-20; for new content: aim for 500)
 - **DUAL VALIDATION MANDATORY after EVERY edit (CRITICAL)**:

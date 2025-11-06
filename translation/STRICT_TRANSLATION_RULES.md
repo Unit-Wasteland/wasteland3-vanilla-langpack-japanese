@@ -76,42 +76,52 @@ string data = "::nods::"        ← DO NOT EDIT (action-only entry)
 
 ### 3. Spanish Reference Logic
 
-**CRITICAL: Correct logic for Spanish reference checking (FIXED 2025-11-05):**
+**CRITICAL: Unified translation decision logic (FIXED 2025-11-06 - Proper Noun Handling):**
 
 ```
-a) If Spanish == "" (empty):
-    if English == "" (empty):
-        → Skip (truly empty entry)
-    else:
-        → Keep English text (program identifier)
+【Unified Translation Decision Logic (Priority Order)】
 
-b) If Spanish != "" (non-empty):
-    if Spanish != English (translated):
-        → Translate to Japanese
-    else (Spanish == English, not translated):
-        Priority order:
-        1. Check nouns_glossary.json → If found: Translate using glossary (proper noun)
-        2. Check do_not_translate list → If found: Keep English (technical term)
-        3. Otherwise: Translate to Japanese (normal text)
+1. English == "" (empty)?
+   → Skip (truly empty entry)
+
+2. Check do_not_translate list (Script Node, [Global:], [Switch to], etc.)
+   → If found: Keep English text (technical term)
+
+3. Check nouns_glossary.json (proper nouns: characters, locations, factions)
+   → If found: Translate using glossary term
+
+4. Spanish != "" AND Spanish != English (Spanish is translated)?
+   → Translate to Japanese (normal translatable text)
+
+5. Otherwise (Spanish == "" OR Spanish == English):
+   → Translate to Japanese (default behavior)
+   → Includes: proper nouns not yet in glossary, dialogue, descriptions
 ```
 
-**IMPORTANT:** "Spanish == English" does NOT mean "program identifier".
-Proper nouns (character names, locations) often remain English in Spanish version.
-ALWAYS check glossary and translate if entry exists.
+**KEY CHANGES (2025-11-06):**
+- Spanish reference is now advisory, NOT decisive
+- Default behavior is to translate (prevents untranslated proper nouns)
+- Only skip translation if explicitly in do_not_translate list
+- Proper nouns are translated even when Spanish version keeps them in English
+
+**IMPORTANT:** "Spanish == Empty" or "Spanish == English" does NOT mean "skip translation".
+Many proper nouns (character names, locations) remain English in Spanish version.
+These MUST still be translated to Japanese using glossary.
 
 **WRONG logic (DO NOT USE):**
 ```
 if Spanish == "":
-    skip_translation()  # ❌ This leaves English text untranslated
+    keep_english()  # ❌ This leaves proper nouns untranslated
 
 if Spanish == English:
-    keep_english()      # ❌ This skips proper nouns that should be translated
+    keep_english()  # ❌ This skips proper nouns that should be translated
 ```
 
-**Examples:**
-- "Rangers" - Spanish may keep as "Rangers" → But glossary has "レンジャーズ" → MUST translate
-- "Angela Deth" - Spanish may keep as "Angela Deth" → But glossary has "アンジェラ・デス" → MUST translate
-- "Script Node" - Spanish may keep as "Script Node" → do_not_translate list → MUST NOT translate
+**CORRECT Examples:**
+- "Rangers" - Spanish: "Rangers" (unchanged) → Glossary: "レンジャー" → MUST translate to "レンジャー"
+- "Angela Deth" - Spanish: "Angela Deth" (unchanged) → Glossary: "アンジェラ・デス" → MUST translate
+- "Patriarch" - Spanish: "Patriarch" (unchanged) → Glossary: "総主教" → MUST translate
+- "Script Node" - Spanish: "Script Node" → do_not_translate list → MUST NOT translate
 
 **See:** CLAUDE.md Section 7 for Spanish reference rules.
 
