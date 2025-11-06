@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 13311,
-      "entries_untranslated": 156401,
-      "completion_rate": 7.84,
-      "current_line": 165577,
+      "entries_translated": 13464,
+      "entries_untranslated": 156248,
+      "completion_rate": 7.93,
+      "current_line": 166339,
       "status": "in_progress",
       "approach": "STRICT sequential from line 390 - enhanced validation with bracket marker protection",
-      "note": "Session R3-168: 58 entries (lines 164965-165576). Completed: a4001_injuredwolf (12 entries - injured wolf encounter), a4001_larsodinkirk_payback (14 entries - Odinkirk revenge dialogue), a4001_lorecomputer (20 entries - aviation instructor journal entries), a4001_mcdermottlibrarysign (2 entries - library sign), a4001_megansilver_oldworldpower (10 entries - Megan Silver dialogue). Structure validation: 0 errors, 0 warnings. Next: Line 165577 (a4001_megansilver_oldworldpower continuation)"
+      "note": "Session R3-169: 153 entries (lines 165577-166338). Completed: a4001_megansilver_oldworldpower continuation (51 entries), a4001_mitchellhallsign (2 entries - damaged building sign), a4001_mrdebug (75 entries - debug menu), a4001_radio_a_cultbarks (16 entries - cult radio broadcasts), a4001_scientistguard (9 entries - guard dialogue). Structure validation: 0 errors, 0 warnings. Next: Line 166339 (a4001_sgtdelgado_payback - Delgado torture/rescue dialogue)"
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "ee20f72",
-  "last_commit_message": "Retranslation R3-168: 58 entries (lines 164965-165576)",
-  "total_entries_completed": 13311,
+  "last_commit_hash": "a38d178",
+  "last_commit_message": "Retranslation R3-169: 153 entries (lines 165577-166338)",
+  "total_entries_completed": 13464,
   "total_entries": 169712,
-  "total_entries_untranslated": 156401,
-  "overall_completion_rate": 7.84,
-  "next_action": "Continue sequential translation from line 165577 (a4001_megansilver_oldworldpower continuation).",
+  "total_entries_untranslated": 156248,
+  "overall_completion_rate": 7.93,
+  "next_action": "Continue sequential translation from line 166339 (a4001_sgtdelgado_payback - Delgado torture/rescue dialogue).",
   "restart_info": {
     "restart_number": 3,
     "restart_date": "2025-11-05",
