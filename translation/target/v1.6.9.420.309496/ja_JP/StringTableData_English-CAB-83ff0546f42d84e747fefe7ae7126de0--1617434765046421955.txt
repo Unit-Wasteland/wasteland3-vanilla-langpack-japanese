@@ -152771,113 +152771,113 @@
        [2]
         1 string data = ""くたばれ。テーブルは閉鎖だ。""
        [3]
-        1 string data = "[Bet $[Global: a2101_Money_Blackjack_MinimumBet]] "Let's play some blackjack.""
+        1 string data = "[Bet $[Global: a2101_Money_Blackjack_MinimumBet]] "ブラックジャックをしましょう。""
        [4]
-        1 string data = ""No thanks.""
+        1 string data = ""いえ、結構です。""
        [5]
-        1 string data = ""As you wish. This table's always hot, come back any time.""
+        1 string data = ""お好きなように。このテーブルはいつでもオープンしてるよ、いつでも戻っておいで。""
        [6]
-        1 string data = "The dealer lays 2 cards in front of you, and 2 in front of her, one card face up on each stack."
+        1 string data = "ディーラーは、あなたの前に2枚のカードを、そして自分の前にも2枚を配り、それぞれの山の一番上のカードを表向きにする。"
        [7]
-        1 string data = "You've got a [Card: a2101_Blackjack_PlayerCard_1] and a [Card: a2101_Blackjack_PlayerCard_2] for a total of [Global: a2101_Blackjack_PlayerTotal].\n\n\nThe dealer shows [Card: a2101_Blackjack_DealerCard_1]."
+        1 string data = "あなたは[Card: a2101_Blackjack_PlayerCard_1]と[Card: a2101_Blackjack_PlayerCard_2]で合計[Global: a2101_Blackjack_PlayerTotal]。\n\n\nディーラーは[Card: a2101_Blackjack_DealerCard_1]を見せている。"
        [8]
-        1 string data = "Hit."
+        1 string data = "ヒット。"
        [9]
-        1 string data = "Stay."
+        1 string data = "ステイ。"
        [10]
-        1 string data = "The dealer flips her hole card, showing [Card: a2101_Blackjack_DealerCard_2]. With her original [Card: a2101_Blackjack_DealerCard_1], she has a total of [Global: a2101_Blackjack_DealerTotal]."
+        1 string data = "ディーラーは伏せカードをめくり、[Card: a2101_Blackjack_DealerCard_2]を見せた。元々の[Card: a2101_Blackjack_DealerCard_1]と合わせて、合計[Global: a2101_Blackjack_DealerTotal]だ。"
        [11]
-        1 string data = "The dealer places a [Card: a2101_Blackjack_PlayerCard_5] on your stack.\n\n\nYou've already got [Card: a2101_Blackjack_PlayerCard_1], [Card: a2101_Blackjack_PlayerCard_2], [Card: a2101_Blackjack_PlayerCard_3], and [Card: a2101_Blackjack_PlayerCard_4] for a total of [Global: a2101_Blackjack_PlayerTotal].\n\n\nThe dealer shows [Card: a2101_Blackjack_DealerCard_1]."
+        1 string data = "ディーラーはあなたの山に[Card: a2101_Blackjack_PlayerCard_5]を置いた。\n\n\nすでに[Card: a2101_Blackjack_PlayerCard_1]、[Card: a2101_Blackjack_PlayerCard_2]、[Card: a2101_Blackjack_PlayerCard_3]、[Card: a2101_Blackjack_PlayerCard_4]があり、合計[Global: a2101_Blackjack_PlayerTotal]だ。\n\n\nディーラーは[Card: a2101_Blackjack_DealerCard_1]を見せている。"
        [12]
-        1 string data = "The dealer places a [Card: a2101_Blackjack_PlayerCard_4] on your stack.\n\n\nYou've already got [Card: a2101_Blackjack_PlayerCard_1], [Card: a2101_Blackjack_PlayerCard_2], and [Card: a2101_Blackjack_PlayerCard_3] for a total of [Global: a2101_Blackjack_PlayerTotal].\n\n\nThe dealer shows [Card: a2101_Blackjack_DealerCard_1]."
+        1 string data = "ディーラーはあなたの山に[Card: a2101_Blackjack_PlayerCard_4]を置いた。\n\n\nすでに[Card: a2101_Blackjack_PlayerCard_1]、[Card: a2101_Blackjack_PlayerCard_2]、[Card: a2101_Blackjack_PlayerCard_3]があり、合計[Global: a2101_Blackjack_PlayerTotal]だ。\n\n\nディーラーは[Card: a2101_Blackjack_DealerCard_1]を見せている。"
        [13]
-        1 string data = "The dealer places a [Card: a2101_Blackjack_PlayerCard_3] on your stack.\n\n\nYou've already got [Card: a2101_Blackjack_PlayerCard_1] and [Card: a2101_Blackjack_PlayerCard_2] for a total of [Global: a2101_Blackjack_PlayerTotal].\n\n\nThe dealer shows [Card: a2101_Blackjack_DealerCard_1]."
+        1 string data = "ディーラーはあなたの山に[Card: a2101_Blackjack_PlayerCard_3]を置いた。\n\n\nすでに[Card: a2101_Blackjack_PlayerCard_1]と[Card: a2101_Blackjack_PlayerCard_2]があり、合計[Global: a2101_Blackjack_PlayerTotal]だ。\n\n\nディーラーは[Card: a2101_Blackjack_DealerCard_1]を見せている。"
        [14]
         1 string data = "Script Node 21"
        [15]
         1 string data = "Script Node 23"
        [16]
-        1 string data = "You've hit the maximum number of times allowed. The dealer examines her hand."
+        1 string data = "許可されている最大回数のヒットに達した。ディーラーは手札を調べる。"
        [17]
-        1 string data = "The dealer places a [Card: a2101_Blackjack_PlayerCard_5] on your stack.\n\n\nYou've already got [Card: a2101_Blackjack_PlayerCard_1], [Card: a2101_Blackjack_PlayerCard_2], [Card: a2101_Blackjack_PlayerCard_3], and [Card: a2101_Blackjack_PlayerCard_4] for a total of [Global: a2101_Blackjack_PlayerTotal].\n\n\nYou bust!"
+        1 string data = "ディーラーはあなたの山に[Card: a2101_Blackjack_PlayerCard_5]を置いた。\n\n\nすでに[Card: a2101_Blackjack_PlayerCard_1]、[Card: a2101_Blackjack_PlayerCard_2]、[Card: a2101_Blackjack_PlayerCard_3]、[Card: a2101_Blackjack_PlayerCard_4]があり、合計[Global: a2101_Blackjack_PlayerTotal]だ。\n\n\nバースト!"
        [18]
-        1 string data = "The dealer places a [Card: a2101_Blackjack_PlayerCard_4] on your stack.\n\n\nYou've already got [Card: a2101_Blackjack_PlayerCard_1], [Card: a2101_Blackjack_PlayerCard_2], and [Card: a2101_Blackjack_PlayerCard_3] for a total of [Global: a2101_Blackjack_PlayerTotal].\n\n\nYou bust!"
+        1 string data = "ディーラーはあなたの山に[Card: a2101_Blackjack_PlayerCard_4]を置いた。\n\n\nすでに[Card: a2101_Blackjack_PlayerCard_1]、[Card: a2101_Blackjack_PlayerCard_2]、[Card: a2101_Blackjack_PlayerCard_3]があり、合計[Global: a2101_Blackjack_PlayerTotal]だ。\n\n\nバースト!"
        [19]
-        1 string data = "The dealer places a [Card: a2101_Blackjack_PlayerCard_3] on your stack.\n\n\nYou've already got [Card: a2101_Blackjack_PlayerCard_1] and [Card: a2101_Blackjack_PlayerCard_2] for a total of [Global: a2101_Blackjack_PlayerTotal].\n\n\nYou bust!"
+        1 string data = "ディーラーはあなたの山に[Card: a2101_Blackjack_PlayerCard_3]を置いた。\n\n\nすでに[Card: a2101_Blackjack_PlayerCard_1]と[Card: a2101_Blackjack_PlayerCard_2]があり、合計[Global: a2101_Blackjack_PlayerTotal]だ。\n\n\nバースト!"
        [20]
-        1 string data = "[[Global: a2101_Money_Blackjack_MinimumBet] Dollars] "Care to play again? Just a small starting bet.""
+        1 string data = "[[Global: a2101_Money_Blackjack_MinimumBet] Dollars] "もう一度やる? ちょっとした賭け金でいいよ。""
        [21]
-        1 string data = "She stays, holding a total of [Global: a2101_Blackjack_DealerTotal] against your [Global: a2101_Blackjack_PlayerTotal].\n\n\nYou win!"
+        1 string data = "彼女はステイした。合計[Global: a2101_Blackjack_DealerTotal]に対し、あなたは[Global: a2101_Blackjack_PlayerTotal]だ。\n\n\nあなたの勝ち!"
        [22]
-        1 string data = "She stays, holding a total of [Global: a2101_Blackjack_DealerTotal] against your [Global: a2101_Blackjack_PlayerTotal]."
+        1 string data = "彼女はステイした。合計[Global: a2101_Blackjack_DealerTotal]に対し、あなたは[Global: a2101_Blackjack_PlayerTotal]だ。"
        [23]
-        1 string data = "[[Global: a2101_Money_Blackjack_MinimumBet] Dollars] "Tough luck, friends. Play again? Just a small bet.""
+        1 string data = "[[Global: a2101_Money_Blackjack_MinimumBet] Dollars] "ついてなかったね。もう一度やる? ちょっとした賭け金だよ。""
        [24]
-        1 string data = "The dealer busts! You win!"
+        1 string data = "ディーラーがバースト! あなたの勝ち!"
        [25]
-        1 string data = "[[Global: a2101_Money_Blackjack_MinimumBet] Dollars] "Well played, friends. Another hand? Just put down a small bet.""
+        1 string data = "[[Global: a2101_Money_Blackjack_MinimumBet] Dollars] "やるねえ、みんな。もう一ラウンド? ちょっとした賭け金を置いてくれればいいよ。""
        [26]
-        1 string data = "The dealer lays down a [Card: a2101_Blackjack_DealerCard_3]. She already shows [Card: a2101_Blackjack_DealerCard_2] and [Card: a2101_Blackjack_DealerCard_1], for a total of [Global: a2101_Blackjack_DealerTotal]."
+        1 string data = "ディーラーは[Card: a2101_Blackjack_DealerCard_3]を引いた。すでに[Card: a2101_Blackjack_DealerCard_2]と[Card: a2101_Blackjack_DealerCard_1]を持っており、合計[Global: a2101_Blackjack_DealerTotal]だ。"
        [27]
-        1 string data = "The dealer lays down a [Card: a2101_Blackjack_DealerCard_4]. She already shows [Card: a2101_Blackjack_DealerCard_3], [Card: a2101_Blackjack_DealerCard_2], and [Card: a2101_Blackjack_DealerCard_1], for a total of [Global: a2101_Blackjack_DealerTotal]."
+        1 string data = "ディーラーは[Card: a2101_Blackjack_DealerCard_4]を引いた。すでに[Card: a2101_Blackjack_DealerCard_3]、[Card: a2101_Blackjack_DealerCard_2]、[Card: a2101_Blackjack_DealerCard_1]を持っており、合計[Global: a2101_Blackjack_DealerTotal]だ。"
        [28]
-        1 string data = "The dealer lays down a [Card: a2101_Blackjack_DealerCard_5]. She already shows [Card: a2101_Blackjack_DealerCard_4], [Card: a2101_Blackjack_DealerCard_3], [Card: a2101_Blackjack_DealerCard_2], and [Card: a2101_Blackjack_DealerCard_1] for a total of [Global: a2101_Blackjack_DealerTotal]."
+        1 string data = "ディーラーは[Card: a2101_Blackjack_DealerCard_5]を引いた。すでに[Card: a2101_Blackjack_DealerCard_4]、[Card: a2101_Blackjack_DealerCard_3]、[Card: a2101_Blackjack_DealerCard_2]、[Card: a2101_Blackjack_DealerCard_1]を持っており、合計[Global: a2101_Blackjack_DealerTotal]だ。"
        [29]
-        1 string data = "She hits."
+        1 string data = "彼女はヒット。"
        [30]
-        1 string data = "Spread $[Global: a2101_Blackjack_CardCounting_Bet] over thirty rounds of blackjack while counting cards to ensure you come out ahead."
+        1 string data = "$[Global: a2101_Blackjack_CardCounting_Bet]を30ラウンドのブラックジャックに使い、カードカウンティングをして確実に利益を出す。"
        [31]
-        1 string data = "Invest $[Global: a2101_Blackjack_CardCounting_Bet] and count cards again."
+        1 string data = "$[Global: a2101_Blackjack_CardCounting_Bet]を投資して、再びカードカウンティングをする。"
        [32]
-        1 string data = "Put up $[Global: a2101_Blackjack_CardCounting_Bet] and again attempt to count cards without being spotted."
+        1 string data = "$[Global: a2101_Blackjack_CardCounting_Bet]を賭けて、見つからないようにカードカウンティングを試みる。"
        [33]
-        1 string data = ""Buzz off, you cheats. You're banned from the table.""
+        1 string data = ""消えろ、イカサマ野郎。このテーブルは使用禁止だ。""
        [34]
-        1 string data = "You pay careful attention to the cards played over several rounds, then bet big when you know the odds are in your favor. Lo and behold, you make a tidy profit."
+        1 string data = "数ラウンドにわたってプレイされたカードに細心の注意を払い、オッズが有利だとわかったときに大きく賭けた。すると、見事な利益が出た。"
        [35]
-        1 string data = ""Nice run of luck there, friends. Play again?""
+        1 string data = ""ついてたねえ、みんな。もう一度やる?""
        [36]
-        1 string data = "Once again, you successfully keep track of the cards and bet heavy when the time is right. You win big. The dealer gives you a fishy eye."
+        1 string data = "再び、カードを追跡してタイミングが来たときに大きく賭けることに成功した。大勝ちだ。ディーラーはあなたを疑わしげに見ている。"
        [37]
-        1 string data = ""You're on a streak, aren't you? Maybe you should quit while you're ahead.""
+        1 string data = ""連勝してるね? 勝ち逃げした方がいいかもよ。""
        [38]
-        1 string data = "You win big once more. This time, though, the dealer gives you a cold stare as she hands over your winnings."
+        1 string data = "またしても大勝ちした。しかし今度は、ディーラーは賞金を渡すとき冷たい視線を送ってきた。"
        [39]
-        1 string data = ""All right, buckos, it ain't illegal to count cards, but it also ain't illegal for Mr. Brygo to ban you from playing here. You're done at this casino. For good. Vamoose.""
+        1 string data = ""いいか、お前ら。カードカウンティングは違法じゃないが、ブライゴさんがお前らをここで遊ばせないのも違法じゃない。このカジノでは終わりだ。永久にな。出てけ。""
        [40]
-        1 string data = ""Well played, friends. Unfortunately, I've just got word from Mr. Brygo himself that you've had quite enough fun at the casino. He's cutting you off. Feel free to stick around for drinks and dancing, but you won't be doing any more gambling.""
+        1 string data = ""お見事だったよ、みんな。でも残念ながら、ブライゴさん本人から連絡があって、カジノで十分楽しんだってさ。もう打ち止めだ。飲んで踊るのは自由だけど、ギャンブルはもうできないよ。""
        [41]
-        1 string data = ""Sorry, friends, Mr. Brygo says no more gambling for you.""
+        1 string data = ""悪いね、みんな。ブライゴさんがもうギャンブルは禁止だって。""
        [42]
-        1 string data = ""Do you run any other games?""
+        1 string data = ""他のゲームはありますか?""
        [43]
-        1 string data = "[Bet $[Global: a2101_Money_Blackjack_MinimumBet]] "Let's play Three Card Monty.""
+        1 string data = "[Bet $[Global: a2101_Money_Blackjack_MinimumBet]] "スリーカードモンテをやりましょう。""
        [44]
-        1 string data = "[[Global: a2101_Money_Blackjack_MinimumBet] Dollars] "Looking for one of those old Brygo classics, eh? He used to run Three Card Monty back in the real Vegas. I could run that. Easy rules. Put down a small bet, and I lay down three cards. Two are 10s, one's a Queen. Pick old queenie and I pay you even money.""
+        1 string data = "[[Global: a2101_Money_Blackjack_MinimumBet] Dollars] "ブライゴの昔ながらの名作ゲームをお探しかい? 彼は昔、本物のベガスでスリーカードモンテをやっていたんだ。それならできるよ。ルールは簡単。ちょっと賭けて、私が3枚のカードを置く。2枚が10で、1枚がクイーンだ。クイーンを当てたら賭け金と同額を払うよ。""
        [45]
-        1 string data = ""Okie dokie. Fast money it is.""
+        1 string data = ""オーケー。早稼ぎね。""
        [46]
-        1 string data = "The dealer lays three cards face down."
+        1 string data = "ディーラーは3枚のカードを伏せて置いた。"
        [47]
-        1 string data = "Pick the left-hand card."
+        1 string data = "左のカードを選ぶ。"
        [48]
-        1 string data = "Pick the middle card."
+        1 string data = "真ん中のカードを選ぶ。"
        [49]
-        1 string data = "Pick the right-hand card."
+        1 string data = "右のカードを選ぶ。"
        [50]
-        1 string data = ""Okay, let's see. Look at that, Queen's leaning sinister. Fortune favors!""
+        1 string data = ""オーケー、見てみよう。ほら、クイーンは左寄りだ。幸運に恵まれてるね!""
        [51]
-        1 string data = ""Let's see here. Aw, that's a tenner. The house wins.""
+        1 string data = ""見てみようか。おや、10だね。ハウスの勝ちだ。""
        [52]
-        1 string data = ""Cross those fingers! Hey, lucky duck, that's the Queen there.""
+        1 string data = ""指をクロスして! おや、ラッキーだね、クイーンだよ。""
        [53]
-        1 string data = ""The tension's killing me! But heyo, there's the Queen. Even money for you!""
+        1 string data = ""緊張するね! でもやった、クイーンだ。賭け金と同額だよ!""
        [54]
         1 string data = "Script Node 64"
        [55]
-        1 string data = ""You're pushin' your luck!""
+        1 string data = ""運を試しすぎだよ!""
        [56]
-        1 string data = ""No fightin' near the tables!""
+        1 string data = ""テーブルの近くで喧嘩はダメだよ!""
    [481]
     0 StringTable data
      1 string Filename = "a2101_dealer_roulette"
@@ -153015,67 +153015,67 @@
       1 Array Array (31 items)
        0 int size = 31
        [0]
-        1 string data = ""Hiya, chums. Wanna go for a spin on the roulette wheel? 'Zero' pays ten to one, red or black pay even money.""
+        1 string data = ""やあ、お客さん。ルーレットを回してみたいかい? 'ゼロ'なら10倍配当、赤か黒なら等倍配当だよ。""
        [1]
-        1 string data = ""Aw, go screw yerselves. We gotta shut down 'cuz of you.""
+        1 string data = ""ああ、くそったれ。お前らのせいで店を閉めなきゃならん。""
        [2]
-        1 string data = ""No can do, pallies. Mr. Brygo says you've taken him for enough. If it were up to me, I'd let you play, but he's the boss!""
+        1 string data = ""それはできないよ、友達。ブライゴさんが、もう十分稼いだってさ。俺なら遊ばせてやるんだけど、彼がボスだからね!""
        [3]
-        1 string data = "Put $[Global: a2101_Money_Roulette_RequiredBetAmount] on 'Zero.'"
+        1 string data = "$[Global: a2101_Money_Roulette_RequiredBetAmount]を'ゼロ'に賭ける。"
        [4]
-        1 string data = "Put $[Global: a2101_Money_Roulette_RequiredBetAmount] on red."
+        1 string data = "$[Global: a2101_Money_Roulette_RequiredBetAmount]を赤に賭ける。"
        [5]
-        1 string data = "Put $[Global: a2101_Money_Roulette_RequiredBetAmount] on black."
+        1 string data = "$[Global: a2101_Money_Roulette_RequiredBetAmount]を黒に賭ける。"
        [6]
-        1 string data = ""Not right now.""
+        1 string data = ""今はやめておく。""
        [7]
-        1 string data = ""Heya, pallies. Try your hand at a game o'luck 'n skill? Roulette's the name. Drop a bet on the table, I spin the doohickey, and you win big if the ball lands on your choice. Red or black pay even money, but 'Zero' pays ten to one if you've got the stones.""
+        1 string data = ""やあ、友達。運とスキルのゲームに挑戦したいかい? ルーレットだよ。テーブルに賭けてくれれば、俺がこいつを回す。選んだところにボールが落ちれば大勝ちだ。赤か黒なら等倍配当だけど、'ゼロ'なら10倍配当だぜ、度胸があるならね。""
        [8]
-        1 string data = ""No stomach for it, eh? No problem, I'll be here after you grab another round o' drinks.""
+        1 string data = ""度胸がないかい? 問題ないよ、もう一杯飲んだら戻ってくるといい。ここで待ってるから。""
        [9]
-        1 string data = "The croupier spins the wheel and drops the ball onto the edge. It hops, skips, and jumps, before finally dropping into a numbered, colored space."
+        1 string data = "ディーラーはルーレットを回し、縁にボールを落とす。ボールは跳ねて、滑って、飛び跳ねて、最後に番号の付いた色のマスに落ちた。"
        [10]
-        1 string data = "[Red [Global: a2101_Roulette_Roll]] "No luck, pallies.""
+        1 string data = "[Red [Global: a2101_Roulette_Roll]] "ついてなかったね、友達。""
        [11]
-        1 string data = "[Black [Global: a2101_Roulette_Roll]] "Sorry, friendos.""
+        1 string data = "[Black [Global: a2101_Roulette_Roll]] "残念だったね。""
        [12]
-        1 string data = ""Zero! Wowie zowie, you win the big one!""
+        1 string data = ""ゼロ! すごいぞ、大当たりだ!""
        [13]
-        1 string data = ""Zero! Not your lucky day, buddies.""
+        1 string data = ""ゼロ! 今日はついてないね、友達。""
        [14]
-        1 string data = "[Red [Global: a2101_Roulette_Roll]] "Easy money for you, chums!""
+        1 string data = "[Red [Global: a2101_Roulette_Roll]] "楽勝だったね、お客さん!""
        [15]
-        1 string data = "[Black [Global: a2101_Roulette_Roll]] "You got that lucky touch!""
+        1 string data = "[Black [Global: a2101_Roulette_Roll]] "ラッキーだね!""
        [16]
         1 string data = "Script Node 19"
        [17]
-        1 string data = ""Got some bad news to go with that good news, friends. Mr. Brygo just called down and said  you've had enough fun with his money. Afraid you're not welcome to play with us anymore.""
+        1 string data = ""良いニュースと一緒に悪いニュースもあるんだ、友達。ブライゴさんから連絡があって、彼の金で十分楽しんだってさ。残念だけど、もうここで遊ぶことはできないよ。""
        [18]
-        1 string data = ""Whaddya say, wanna give 'er another spin?""
+        1 string data = ""どうだい、もう一回回したいかい?""
        [19]
-        1 string data = ""Do you run any other games?""
+        1 string data = ""他のゲームはありますか?""
        [20]
-        1 string data = ""Well, now, there's a game called High/Low that Mr. Brygo used to run back in Vegas. Couldn't be simpler. You wager either high or low and I roll this here die. One, two, three is low. Four, five, six is high. If you made the correct call, I pay you even money. Easy, huh? What do you say?""
+        1 string data = ""そうだなあ、ブライゴさんが昔ベガスでやっていた、ハイ・ローってゲームがあるよ。これ以上簡単なものはない。ハイかローに賭けて、俺がこのサイコロを振る。1、2、3はロー。4、5、6はハイ。当たれば賭け金と同額を払うよ。簡単だろ? どうする?""
        [21]
-        1 string data = "[Bet $[Global: a2101_Money_Roulette_RequiredBetAmount]] "Let's play High/Low.""
+        1 string data = "[Bet $[Global: a2101_Money_Roulette_RequiredBetAmount]] "ハイ・ローをやりましょう。""
        [22]
-        1 string data = ""Fine. What's your call? High or low?""
+        1 string data = ""いいね。どっちにする? ハイかローか?""
        [23]
-        1 string data = ""High.""
+        1 string data = ""ハイ。""
        [24]
-        1 string data = ""Low.""
+        1 string data = ""ロー。""
        [25]
-        1 string data = "[Roll [Global: a2101_Roulette_HighLowRoll]] "Lucky day, pals!""
+        1 string data = "[Roll [Global: a2101_Roulette_HighLowRoll]] "ラッキーだね、友達!""
        [26]
-        1 string data = "[Roll [Global: a2101_Roulette_HighLowRoll]] "Aw, no luck.""
+        1 string data = "[Roll [Global: a2101_Roulette_HighLowRoll]] "おや、ついてなかったね。""
        [27]
-        1 string data = "[Roll [Global: a2101_Roulette_HighLowRoll]] "Hot dang!""
+        1 string data = "[Roll [Global: a2101_Roulette_HighLowRoll]] "やったぜ!""
        [28]
         1 string data = "Script Node 33"
        [29]
-        1 string data = ""What's your problem?""
+        1 string data = ""何か問題でも?""
        [30]
-        1 string data = ""Son of a bitch!""
+        1 string data = ""くそったれ!""
    [482]
     0 StringTable data
      1 string Filename = "a2101_delgadotimebomb"
@@ -154531,57 +154531,57 @@
       1 Array Array (26 items)
        0 int size = 26
        [0]
-        1 string data = "This Discobot, a modified Octotron equipped with speakers and lights, pumps out rockin' tunes."
+        1 string data = "このディスコボットは、スピーカーとライトを装備した改造オクトトロンで、ロックな曲を流している。"
        [1]
-        1 string data = ""PRESENT REQUESTS, PARTY HUMANS.""
+        1 string data = ""リクエストをどうぞ、パーティー参加者の皆さん。""
        [2]
-        1 string data = ""Play some new wave.""
+        1 string data = ""ニューウェーブをかけて。""
        [3]
-        1 string data = ""Rock some hair metal.""
+        1 string data = ""ヘアメタルでロックしよう。""
        [4]
-        1 string data = ""Pump up some hip-hop.""
+        1 string data = ""ヒップホップを流して。""
        [5]
-        1 string data = ""Slow it down with some easy listening.""
+        1 string data = ""スローダウンして、イージーリスニングを。""
        [6]
-        1 string data = ""No requests right now.""
+        1 string data = ""今はリクエストなし。""
        [7]
-        1 string data = ""ENJOY PARTY TIMES.""
+        1 string data = ""パーティータイムをお楽しみください。""
        [8]
-        1 string data = ""NEW WAVE TUNES QUEUED.""
+        1 string data = ""ニューウェーブの曲をキューに追加しました。""
        [9]
-        1 string data = ""HAIR METAL PROTOCOLS ENGAGED.""
+        1 string data = ""ヘアメタルプロトコル起動。""
        [10]
-        1 string data = ""NO JAMS WILL REMAIN UNPUMPED.""
+        1 string data = ""すべてのジャムが盛り上がります。""
        [11]
-        1 string data = ""TAKING IT DOWN A NOTCH WITH EXTREME PREJUDICE.""
+        1 string data = ""超本気でテンポを落とします。""
        [12]
         1 string data = "Script Node 14"
        [13]
         1 string data = "Script Node 15"
        [14]
-        1 string data = ""INITIATING NEW WAVE SUBROUTINES. PREPARE FOR WHIPPING IT GOOD.""
+        1 string data = ""ニューウェーブサブルーチン起動中。ぶっ飛ばす準備を。""
        [15]
-        1 string data = ""HAIR METAL.EXE LOADED. COMMENCE BANGING HEADS.""
+        1 string data = ""ヘアメタル.EXEロード完了。ヘッドバンギング開始。""
        [16]
-        1 string data = ""ADJUSTING BASS SERVOS FOR MAXIMUM ELECTRIC BOOGALOO.""
+        1 string data = ""ベース用サーボを調整中。最大限のエレクトリックブガルーを実現。""
        [17]
-        1 string data = ""RECALIBRATE ENERGY RECEPTORS FOR LAID BACK VIBES.""
+        1 string data = ""エネルギー受容体を再調整中。ゆったりした雰囲気に設定。""
        [18]
-        1 string data = ""COMBAT DETECTED: ENGAGING HIGH INTENSITY SONIC ENHANCEMENT.""
+        1 string data = ""戦闘検知:高強度ソニック強化を起動。""
        [19]
-        1 string data = ""PARTY PROTOCOLS DEACTIVATED.""
+        1 string data = ""パーティープロトコル停止。""
        [20]
-        1 string data = ""Vibe on some synth wave.""
+        1 string data = ""シンセウェーブを流して。""
        [21]
-        1 string data = ""BEEP BOOP.""
+        1 string data = ""ビープ・ブープ。""
        [22]
-        1 string data = ""SYNTH WAVE CIRCUITS OPERATIONAL.""
+        1 string data = ""シンセウェーブ回路動作中。""
        [23]
         1 string data = "Script Node 26"
        [24]
-        1 string data = ""COMBAT INITIATED: PREPARE TO FEEL THE BEAT.""
+        1 string data = ""戦闘開始:ビートを感じる準備を。""
        [25]
-        1 string data = ""THREAT DETECTED: VOLUME SET TO ELEVEN.""
+        1 string data = ""脅威検知:音量を11に設定。""
    [484]
     0 StringTable data
      1 string Filename = "a2101_drugmule"

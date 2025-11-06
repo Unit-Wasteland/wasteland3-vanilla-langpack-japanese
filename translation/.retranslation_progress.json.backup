@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 11818,
-      "entries_untranslated": 157894,
+      "entries_translated": 11840,
+      "entries_untranslated": 157872,
       "completion_rate": 7.0,
-      "current_line": 152359,
+      "current_line": 152773,
       "status": "in_progress",
       "approach": "STRICT sequential from line 390 - enhanced validation with bracket marker protection",
-      "note": "Session R3-152: 181 entries (8 Little Vegas sections + companion barks + computer). Translated lines 150745-152358. Sections: a2101_combatbarks_local168s (15 entries), a2101_combatbarks_nightclubenforcer (56 entries), a2101_combatbarks_nightclubgoon (56 entries, kept 5 untranslated per Spanish reference), a2101_combatbarks_pvtparts (15 entries), a2101_combatbarks_quickdraw (15 entries), a2101_companionbarks (11 entries), a2101_computerheating (13 entries, kept 2 untranslated per Spanish reference). HTML tags and quote counts strictly matched. Spanish reference verified for all entries. Structure validation: 0 errors. Next: Line 152359 (a2101_daisy_radio section awaiting)"
+      "note": "Session R3-153: 22 entries (4 Little Vegas sections + partial blackjack). Translated lines 152400-152772. Sections: a2101_daisy_radio (6 entries), a2101_dancer_brygo (2 entries), a2101_dancer_hall (4 entries), a2101_dancer_privateparty (5 entries), a2101_dealer_blackjack (3 entries - partial). Spanish reference verified. Structure validation: 2 BRACKET_CONTENT_TRANSLATED warnings (lines 152768, 152770) on double-bracket format unit text - Spanish translates Dollars to dolares suggesting translatability, kept as Dollars per validation warning. Next: Line 152773 (continue a2101_dealer_blackjack section)"
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "a460a38",
-  "last_commit_message": "Retranslation R3-152: 181 entries (8 Little Vegas sections + companion barks + computer - lines 150745-152358)",
-  "total_entries_completed": 11818,
+  "last_commit_hash": "7f3a0c7",
+  "last_commit_message": "Retranslation R3-153: 22 entries (4 Little Vegas sections + partial blackjack - lines 152400-152772)",
+  "total_entries_completed": 11840,
   "total_entries": 169712,
-  "total_entries_untranslated": 157894,
+  "total_entries_untranslated": 157872,
   "overall_completion_rate": 7.0,
-  "next_action": "Continue sequential translation from line 152359 (a2101_daisy_radio section awaiting translation).",
+  "next_action": "Continue sequential translation from line 152773 (continue a2101_dealer_blackjack section - 54 entries remaining in this section).",
   "restart_info": {
     "restart_number": 3,
     "restart_date": "2025-11-05",
