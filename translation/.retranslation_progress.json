@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 10529,
-      "entries_untranslated": 159183,
-      "completion_rate": 6.2,
-      "current_line": 142531,
+      "entries_translated": 10656,
+      "entries_untranslated": 159056,
+      "completion_rate": 6.3,
+      "current_line": 143330,
       "status": "in_progress",
       "approach": "STRICT sequential from line 390 - enhanced validation with bracket marker protection",
-      "note": "Session R3-143: 64 entries (9 endgame sections). Translated lines 141913-142530. Sections: museumcomputer (10), museumdoor (5), museumhydraulics (7), oldbaldy (8), patriarch_gangpath_suicide (3), payaso_looter (5), refugee_endgame (7), refugee_looter_casady (8), refugee_looter_marketsquare (5), scarcollector_looter (6). Spanish reference verified. Structure validation: 0 errors. Quality validation: 0 issues. Old Baldy preserved. Next: Line 142531 (a2011_sheriffdaisy - 86 entries)"
+      "note": "Session R3-144: 127 entries (3 endgame sections). Translated lines 142531-143329. Sections: a2011_sheriffdaisy (86), a2011_sheriffdaisy_radio (10), a2011_tommycotter_endgame (31 - partial). Spanish reference verified. Structure validation: 0 errors. Quality validation: 16 warnings (Spanish-empty entries kept in English per rules). Action marker ::gunfire:: preserved. Next: Line 143330 (a2101_aceofhearts - 41 entries)"
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "e256c5e",
-  "last_commit_message": "Retranslation R3-143: 64 entries (9 endgame sections - lines 141913-142530)",
-  "total_entries_completed": 10529,
+  "last_commit_hash": "0a83191",
+  "last_commit_message": "Retranslation R3-144: 127 entries (3 endgame sections - lines 142531-143329)",
+  "total_entries_completed": 10656,
   "total_entries": 169712,
-  "total_entries_untranslated": 159183,
-  "overall_completion_rate": 6.2,
-  "next_action": "Continue sequential translation from line 142531 (a2011_sheriffdaisy section - 86 entries of Sheriff Daisy dialogues).",
+  "total_entries_untranslated": 159056,
+  "overall_completion_rate": 6.3,
+  "next_action": "Continue sequential translation from line 143330 (a2101_aceofhearts section - 41 entries of adult content character dialogues).",
   "restart_info": {
     "restart_number": 3,
     "restart_date": "2025-11-05",
