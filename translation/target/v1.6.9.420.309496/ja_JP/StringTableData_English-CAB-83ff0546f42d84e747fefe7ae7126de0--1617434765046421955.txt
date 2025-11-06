@@ -141971,29 +141971,29 @@
       1 Array Array (12 items)
        0 int size = 12
        [0]
-        1 string data = "The computer screen flashes a red warning. 'EMERGENCY LOCKDOWN: Blastdoors locked and elevator functions disabled! To cancel Lockdown, please enter ADMIN ID, and press cancel.'"
+        1 string data = "コンピュータの画面に赤い警告が点滅している。'緊急ロックダウン: 防爆扉がロックされ、エレベーター機能が無効化されました! ロックダウンを解除するには、管理者IDを入力してキャンセルを押してください。'"
        [1]
-        1 string data = "Unfortunately, your 'method' also seems to have caused some sort of malfunction in Old Baldy."
+        1 string data = "残念ながら、あなたの「方法」はオールド・バルディに何らかの誤作動を引き起こしてしまったようだ。"
        [2]
-        1 string data = "Start tearing wires out of the back of the computer at random."
+        1 string data = "コンピュータの背面から無作為にワイヤーを引き抜き始める。"
        [3]
-        1 string data = "Leave the computer alone."
+        1 string data = "コンピュータをそのままにしておく。"
        [4]
         1 string data = "Read the director's log entries."
        [5]
         1 string data = " Due to military budget cuts we're ending our partnership with the airforce. We're closing off access to the evacuation access lift. "
        [6]
-        1 string data = "Find a way around the password and cancel the alarm."
+        1 string data = "パスワードを回避して警報をキャンセルする方法を見つける。"
        [7]
-        1 string data = "The lights and alarms stop, and the warning on the computer screen stops flashing. In its place is a message. 'LOCKDOWN CANCELED: Blastdoors unlocked and elevator function restored. Queued commands will now execute.'"
+        1 string data = "照明と警報が止まり、コンピュータ画面の警告が点滅を停止した。その代わりにメッセージが表示される。'ロックダウン解除: 防爆扉のロックが解除され、エレベーター機能が復旧しました。待機中のコマンドを実行します。'"
        [8]
-        1 string data = "Follow the system's wiring to a circuit box, figure out which circuit controls the alarm, and manually turn it off."
+        1 string data = "システムの配線を辿って回路ボックスまで行き、どの回路が警報を制御しているかを把握して、手動でオフにする。"
        [9]
-        1 string data = "'Thank you, Administrator.'"
+        1 string data = "'ありがとうございます、管理者。'"
        [10]
-        1 string data = "Amazingly, this works. The lights and alarms stop, and the warning on the computer screen stops flashing. In its place is a message. 'LOCKDOWN CANCELED: Blastdoors unlocked and elevator function restored. Queued commands will now execute.'"
+        1 string data = "驚くべきことに、これで上手くいった。照明と警報が止まり、コンピュータ画面の警告が点滅を停止した。その代わりにメッセージが表示される。'ロックダウン解除: 防爆扉のロックが解除され、エレベーター機能が復旧しました。待機中のコマンドを実行します。'"
        [11]
-        1 string data = "'Blastdoors unlocked. Elevator function restored. Thank you, Administrator.'"
+        1 string data = "'防爆扉のロックを解除しました。エレベーター機能が復旧しました。ありがとうございます、管理者。'"
    [423]
     0 StringTable data
      1 string Filename = "a2011_museumdoor"
@@ -142033,15 +142033,15 @@
        [0]
         1 string data = ""
        [1]
-        1 string data = "The door is unlocked. You can hear the Patriarch's troops beyond it. Open it and you will be face to face with him."
+        1 string data = "ドアのロックが解除されている。向こうからパトリアークの部隊の音が聞こえる。ドアを開ければ、彼と対面することになる。"
        [2]
-        1 string data = "The door is unlocked, but you'll need your whole team to face what's on the other side of it. Get them together."
+        1 string data = "ドアのロックは解除されているが、反対側にいるものと対峙するにはチーム全員が必要だ。全員を集めろ。"
        [3]
-        1 string data = "Open the door."
+        1 string data = "ドアを開ける。"
        [4]
-        1 string data = "Leave the door alone."
+        1 string data = "ドアをそのままにしておく。"
        [5]
-        1 string data = "This door won't open while the alert is active."
+        1 string data = "警報が鳴っている間はこのドアは開かない。"
    [424]
     0 StringTable data
      1 string Filename = "a2011_museumhydraulics"
@@ -142083,19 +142083,19 @@
       1 Array Array (7 items)
        0 int size = 7
        [0]
-        1 string data = "A sign on this machine reads, 'Hydraulic pump for Museum Security Door and Market Square Lift. WARNING to Museum Personnel: Do not operate this pump. It is to be used and maintained by Palace Security only. YOU WILL BE FIRED!'"
+        1 string data = "この機械の標識にはこう書かれている。'博物館セキュリティドアとマーケット・スクエアのリフト用油圧ポンプ。博物館職員への警告: このポンプを操作しないこと。これは宮殿警備のみが使用・保守を行うものです。操作した場合は解雇されます!'"
        [1]
-        1 string data = "Examine the pump."
+        1 string data = "ポンプを調べる。"
        [2]
-        1 string data = "Step away."
+        1 string data = "離れる。"
        [3]
-        1 string data = "Bleed, prime, and start the pump."
+        1 string data = "ポンプの空気を抜き、プライミングして始動させる。"
        [4]
-        1 string data = "The pump is operational. "
+        1 string data = "ポンプは稼働中だ。"
        [5]
-        1 string data = "The pump is not active. It appears to be controlled from the adjacent computer."
+        1 string data = "ポンプは作動していない。隣のコンピュータから制御されているようだ。"
        [6]
-        1 string data = "You got the pump working. It is now operational."
+        1 string data = "ポンプを動かすことに成功した。今は稼働している。"
    [425]
     0 StringTable data
      1 string Filename = "a2011_oldbaldy"
@@ -142159,25 +142159,25 @@
        [0]
         1 string data = ""
        [1]
-        1 string data = ""Th-th-thanks for comin' to see yer ol' pal, B-B-Baldy, folks. H-h-h-happy Trail-""
+        1 string data = ""み、みんな、お、お、俺の友達のB-B-バルディに、会いにきてくれて、あ、ありが...楽、楽しい旅を-""
        [2]
-        1 string data = ""Uh-oh, folks! Sounds like there's trouble in the ol' museum. Please walk to the exits right away.""
+        1 string data = ""おやおや、みんな! 古い博物館でトラブルが起きているようだ。すぐに出口に向かってくれ。""
        [3]
         1 string data = "Script Node 4"
        [4]
-        1 string data = ""Please walk to the exits, folks!""
+        1 string data = ""みんな、出口まで歩いてくれ!""
        [5]
-        1 string data = ""If you've got kids, folks, please hold 'em close until the alert is over.""
+        1 string data = ""子どもがいる人は、警報が解除されるまで近くに寄せておいてくれ。""
        [6]
-        1 string data = ""Don't panic, folks. Old Baldy's lookin' out for you.""
+        1 string data = ""パニックにならないでくれ、みんな。オールド・バルディがお前たちを見守っている。""
        [7]
-        1 string data = ""Hey, folks. Please follow the instructions of museum personnel at all times!""
+        1 string data = ""おい、みんな。博物館職員の指示に常に従ってくれ!""
        [8]
         1 string data = ""Ol-ol-ol-ol-old B-b-b-b-baldy, here, f-f-f-f-folks-s-s-s-s....""
        [9]
         1 string data = "Script Node 10"
        [10]
-        1 string data = ""Looks like the trouble's over, folks. Have a great day!""
+        1 string data = ""トラブルは終わったようだな、みんな。良い一日を!""
        [11]
         1 string data = ""
    [426]
@@ -142213,11 +142213,11 @@
       1 Array Array (5 items)
        0 int size = 5
        [0]
-        1 string data = ""Damn you, you wreckers! You burned it down! You burned it all down!""
+        1 string data = ""畜生、破壊者どもめ! お前たちが燃やした! 全てを燃やしやがった!""
        [1]
-        1 string data = ""Everything I built. Everything I worked for for fifty years, gone in a day. Ashes. Ashes on the wind. I... I'm too old to start again. I-I can't... I...""
+        1 string data = ""俺が築いた全て。50年間働いてきた全てが、一日で消えた。灰だ。風に舞う灰だ。俺は...もうやり直すには歳を取りすぎた。俺は...できない...俺は...""
        [2]
-        1 string data = ""Ah, Colorado. I hardly knew you.""
+        1 string data = ""ああ、コロラド。お前のことをほとんど知らなかった。""
        [3]
         1 string data = ""
        [4]
@@ -142259,17 +142259,17 @@
       1 Array Array (6 items)
        0 int size = 6
        [0]
-        1 string data = ""Arriba los Payasos!""
+        1 string data = ""ペイヤソスよ、上がれ!""
        [1]
-        1 string data = ""Hahahahahah!!!""
+        1 string data = ""ハハハハハハ!!!""
        [2]
         1 string data = "Script Node 3"
        [3]
-        1 string data = ""What a laugh, huh?""
+        1 string data = ""笑えるだろう?""
        [4]
-        1 string data = ""Time for a clown beatdown, huh?""
+        1 string data = ""ピエロのボコボコタイムだ、ああ?""
        [5]
-        1 string data = ""Man! What a punchline! I love this!""
+        1 string data = ""くそ! なんてオチだ! 最高だぜ!""
    [428]
     0 StringTable data
      1 string Filename = "a2011_refugee_endgame"
@@ -142315,19 +142315,19 @@
       1 Array Array (8 items)
        0 int size = 8
        [0]
-        1 string data = ""Down with the Patriarch!""
+        1 string data = ""パトリアークを倒せ!""
        [1]
-        1 string data = ""Justice for refugees!""
+        1 string data = ""難民に正義を!""
        [2]
-        1 string data = ""We're people too!""
+        1 string data = ""我々も人間だ!""
        [3]
-        1 string data = ""Colorado for everybody!""
+        1 string data = ""コロラドは全ての人のものだ!""
        [4]
-        1 string data = ""Ho! Hey ho! Buchanan's got to go!""
+        1 string data = ""ホー! ヘイ・ホー! ブキャナンは去れ!""
        [5]
-        1 string data = ""The Patriarch is unfair to refugees!""
+        1 string data = ""パトリアークは難民に不公平だ!""
        [6]
-        1 string data = ""Justice!""
+        1 string data = ""正義を!""
        [7]
         1 string data = "Script Node 8"
    [429]
@@ -142379,21 +142379,21 @@
       1 Array Array (9 items)
        0 int size = 9
        [0]
-        1 string data = ""Who are you? Go find your own loot!""
+        1 string data = ""お前らは誰だ? 自分の戦利品を探せ!""
        [1]
-        1 string data = ""Woo! Free stuff!""
+        1 string data = ""ウー! タダの物だ!""
        [2]
-        1 string data = ""It's a big city. There's enough loot for all of us.""
+        1 string data = ""大きな街だ。戦利品は俺たち全員に十分あるさ。""
        [3]
-        1 string data = ""Let's share.""
+        1 string data = ""分け合おう。""
        [4]
-        1 string data = ""Sorry. It's ours now. Get lost.""
+        1 string data = ""悪いな。もう俺たちのものだ。失せろ。""
        [5]
-        1 string data = ""S-sure. I guess so. Take what you need.""
+        1 string data = ""そ、そうだな。そうだろう。必要なものを持っていけ。""
        [6]
-        1 string data = ""That's what the man always says! Fuck you! We're taking it all!""
+        1 string data = ""いつも奴らがそう言う! くそったれ! 全部持っていくぞ!""
        [7]
-        1 string data = ""Fuck you, you assholes! We need this!""
+        1 string data = ""くそったれ、野郎ども! 俺たちには必要なんだ!""
        [8]
         1 string data = "Script Node 10"
    [430]
@@ -142435,15 +142435,15 @@
        [0]
         1 string data = ""
        [1]
-        1 string data = ""Shit. That big tank's got us pinned down. Should we make a run for it?""
+        1 string data = ""くそ。あのデカい戦車に釘付けにされてる。走って逃げるか?""
        [2]
-        1 string data = ""No way. If we move we're toast.""
+        1 string data = ""無理だ。動いたらおしまいだ。""
        [3]
-        1 string data = ""In the name of the Patriarch, I order you to surrender.""
+        1 string data = ""パトリアークの名において、投降を命じる。""
        [4]
-        1 string data = ""We're wise to your tricks, assholes. If we step out you'll kill us!""
+        1 string data = ""お前らの策略は見抜いてるぞ、野郎ども。外に出たら殺すつもりだろ!""
        [5]
-        1 string data = ""Step aside. I'll handle these looters.""
+        1 string data = ""どけ。この略奪者どもは俺が処理する。""
    [431]
     0 StringTable data
      1 string Filename = "a2011_refugee_rioter_marketsquare"
@@ -142515,19 +142515,19 @@
       1 Array Array (7 items)
        0 int size = 7
        [0]
-        1 string data = ""Oh yeah. I've been dreamin' of this for years!""
+        1 string data = ""そうさ。何年も夢見てきたんだ!""
        [1]
-        1 string data = ""Loot! Loot everywhere!""
+        1 string data = ""戦利品だ! そこら中に戦利品!""
        [2]
         1 string data = "Script Node 3"
        [3]
-        1 string data = ""Now this is some world class pillaging!""
+        1 string data = ""これが世界クラスの略奪ってやつだ!""
        [4]
-        1 string data = ""I've killed six so far! How about you?""
+        1 string data = ""今のところ6人殺した! お前は?""
        [5]
-        1 string data = ""Kill! Kill! <i>Kiiillll!!!</i>""
+        1 string data = ""殺せ! 殺せ! <i>殺せーーー!!!</i>""
        [6]
-        1 string data = ""Awhhhooooo!!!""
+        1 string data = ""アゥーーーッ!!!""
    [433]
     0 StringTable data
      1 string Filename = "a2011_sheriffdaisy"
