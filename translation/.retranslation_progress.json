@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 11998,
-      "entries_untranslated": 157714,
+      "entries_translated": 12071,
+      "entries_untranslated": 157641,
       "completion_rate": 7.1,
-      "current_line": 156267,
+      "current_line": 156863,
       "status": "in_progress",
       "approach": "STRICT sequential from line 390 - enhanced validation with bracket marker protection",
-      "note": "Session R3-156: 40 entries (a2101_faranbrygo_nightclub continued). Translated lines 156103-156266. Faran Brygo negotiation dialogue, backstory about Rangers and Vegas. Preserved bracket markers, HTML tags, action markers. Structure validation: 0 errors. Next: Line 156267 (continue a2101_faranbrygo_nightclub - remaining ~166 entries)"
+      "note": "Session R3-157: 73 entries across multiple sections. Lines 156267-156862. Completed: a2101_faranbrygo_nightclub ending, a2101_gonzalez_radio_afterfaranbrygoconvo (radio dialogue), a2101_hostess (hostess greetings), partial a2101_inspectordelgado_nightclub (Marshal Delgado rescue). Structure validation: 0 errors. Next: Line 156863 (continue a2101_inspectordelgado_nightclub - remaining ~35 entries)"
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "ec712f6",
-  "last_commit_message": "Retranslation R3-156: 40 entries (a2101_faranbrygo_nightclub continued - lines 156103-156266)",
-  "total_entries_completed": 11998,
+  "last_commit_hash": "PENDING",
+  "last_commit_message": "Retranslation R3-157: 73 entries across multiple sections (lines 156267-156862)",
+  "total_entries_completed": 12071,
   "total_entries": 169712,
-  "total_entries_untranslated": 157714,
+  "total_entries_untranslated": 157641,
   "overall_completion_rate": 7.1,
-  "next_action": "Continue sequential translation from line 156267 (a2101_faranbrygo_nightclub - remaining ~166 entries with negotiation and backstory dialogue).",
+  "next_action": "Continue sequential translation from line 156863 (a2101_inspectordelgado_nightclub - remaining ~35 entries with Marshal Delgado dialogue).",
   "restart_info": {
     "restart_number": 3,
     "restart_date": "2025-11-05",
