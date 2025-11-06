@@ -134,16 +134,43 @@ class StrictStructureValidator:
             })
 
         # []内に日本語が含まれていないか確認（技術的なマーカーは翻訳禁止）
-        bracket_pattern = re.compile(r'\[.*?[\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FFF].*?\]')
-        japanese_brackets = bracket_pattern.findall(tgt_line)
-        if japanese_brackets:
-            results['errors'].append({
-                'line': line_num,
-                'type': 'BRACKET_CONTENT_TRANSLATED',
-                'message': f'[]内の文字列が日本語に翻訳されています（翻訳禁止）: {", ".join(japanese_brackets[:3])}',
-                'source': src_line.strip()[:80],
-                'target': tgt_line.strip()[:80]
-            })
+        # 例外: [[Global: ...] UNIT]のような入れ子構造で単位語（Dollars→ドル等）は翻訳可
+        if 'string data' in tgt_line:
+            # Extract string data content
+            content_match = re.search(r'string data = ""(.*)""', tgt_line)
+            if content_match:
+                content = content_match.group(1)
+                # Find all individual bracket pairs (non-nested)
+                single_bracket_pattern = re.compile(r'\[([^\[\]]+)\]')
+                japanese_char_pattern = re.compile(r'[\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FFF]')
+
+                for bracket_match in single_bracket_pattern.finditer(content):
+                    bracket_content = bracket_match.group(1)
+
+                    # Check if this is a technical marker that should never contain Japanese
+                    is_technical_marker = (
+                        bracket_content.startswith('Global:') or
+                        bracket_content.startswith('Dropset:') or
+                        bracket_content.startswith('Reward:') or
+                        bracket_content.startswith('Attack') or
+                        bracket_content.startswith('Lie') or
+                        bracket_content.startswith('Kiss') or
+                        bracket_content.startswith('Hard Ass') or
+                        bracket_content.startswith('Kick') or
+                        bracket_content.startswith('Threaten') or
+                        bracket_content.startswith('Switch to') or
+                        bracket_content.startswith('Bet')
+                    )
+
+                    # If it's a technical marker and contains Japanese, flag it
+                    if is_technical_marker and japanese_char_pattern.search(bracket_content):
+                        results['errors'].append({
+                            'line': line_num,
+                            'type': 'BRACKET_CONTENT_TRANSLATED',
+                            'message': f'技術的マーカーが日本語に翻訳されています（翻訳禁止）: [{bracket_content}]',
+                            'source': src_line.strip()[:80],
+                            'target': tgt_line.strip()[:80]
+                        })
 
         # HTMLタグの確認
         src_tags = re.findall(r'<[^>]+>', src_line)

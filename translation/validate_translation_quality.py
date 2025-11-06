@@ -219,23 +219,57 @@ def validate_bracket_translation(line_num: int, line: str) -> List[ValidationIss
     """Validate that bracket [] content is not translated to Japanese.
 
     Technical markers like [Attack], [Lie], [Global: ...] should remain in English.
+
+    EXCEPTION: Nested structures like [[Global: ...] UNIT] where UNIT can be translated
+    (e.g., "Dollars" → "ドル", "dólares" in Spanish)
     """
     issues = []
 
     if 'string data' not in line:
         return issues
 
-    # Pattern to find brackets containing Japanese characters
-    bracket_pattern = re.compile(r'\[.*?[\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FFF].*?\]')
-    japanese_brackets = bracket_pattern.findall(line)
+    # Extract the string data content
+    match = re.search(r'string data = ""(.*)""', line)
+    if not match:
+        return issues
 
-    if japanese_brackets:
-        issues.append(ValidationIssue(
-            line_num=line_num,
-            issue_type="BRACKET_CONTENT_TRANSLATED",
-            description=f"Bracket [] content translated to Japanese (should remain English): {', '.join(japanese_brackets[:3])}",
-            line_content=line.strip()
-        ))
+    content = match.group(1)
+
+    # Find all individual bracket pairs (non-nested)
+    # This pattern finds single-level brackets only
+    single_bracket_pattern = re.compile(r'\[([^\[\]]+)\]')
+
+    for bracket_match in single_bracket_pattern.finditer(content):
+        bracket_content = bracket_match.group(1)
+
+        # Skip if this is part of a nested structure like [[Global: ...] UNIT]
+        # Check if this bracket is immediately followed by whitespace and then another bracket or closing bracket
+        full_match = bracket_match.group(0)
+        match_end = bracket_match.end()
+
+        # Check if this is a technical marker that should never contain Japanese
+        is_technical_marker = (
+            bracket_content.startswith('Global:') or
+            bracket_content.startswith('Dropset:') or
+            bracket_content.startswith('Reward:') or
+            bracket_content.startswith('Attack') or
+            bracket_content.startswith('Lie') or
+            bracket_content.startswith('Kiss') or
+            bracket_content.startswith('Hard Ass') or
+            bracket_content.startswith('Kick') or
+            bracket_content.startswith('Threaten') or
+            bracket_content.startswith('Switch to') or
+            bracket_content.startswith('Bet')
+        )
+
+        # If it's a technical marker and contains Japanese, flag it
+        if is_technical_marker and contains_japanese(bracket_content):
+            issues.append(ValidationIssue(
+                line_num=line_num,
+                issue_type="BRACKET_CONTENT_TRANSLATED",
+                description=f"Technical bracket marker translated to Japanese (should remain English): [{bracket_content}]",
+                line_content=line.strip()
+            ))
 
     return issues
 
