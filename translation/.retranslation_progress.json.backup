@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 8986,
-      "entries_untranslated": 160726,
-      "completion_rate": 5.3,
-      "current_line": 127363,
+      "entries_translated": 9513,
+      "entries_untranslated": 160199,
+      "completion_rate": 5.6,
+      "current_line": 131317,
       "status": "in_progress",
       "approach": "STRICT sequential from line 390 - enhanced validation with bracket marker protection",
-      "note": "Session R3-129: 77 entries (Museum exhibits + Dorsey rebellion). Translated lines 125688-127363. Content: a2001_mrdebug_downtowncospring skipped (196 entries - all Spanish empty = debug), a2001_museumshow (66 entries - Baldy eagle + Buchanan story songs), a2001_museum_dorseys (11 entries - Dorsey rebellion exhibit). Characters: Baldy the mechanical eagle. Special notes: Preserved action markers ::static:: in English, kept Script Node untranslated, bracket markers [Pet the eagle.] kept in English. Spanish reference checked for all entries. Structure validation: 0 errors. Next: Continue from line 127363 (museum sections: hundredfamilies, marshal, monsterarmy, plainswarlord)"
+      "note": "Session R3-133: 194 entries (Rosie Wong downtown dialogue tree). Translated lines 130930-131316. Content: a2001_rosiewong_downtown (194 entries - complete landlady dialogue). Rosie Wong apartment manager storylines: Irv clone tenant investigation, Little Vegas nightclub teens, Brady photographer inquiry, Marshal Kwon reunion, multiple quest outcomes. Spanish reference: Mixed (some translated, many empty - kept English text per rule). Script Nodes 53, 192, 201 preserved. Action markers ::sigh::, ::screams:: kept in English. Structure validation: 0 errors. Action marker validation: 0 Japanese characters. Next: Continue from line 131317 (a2001_runsonempty section - Jimmie Longhaul mechanic)"
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "c1ee473",
-  "last_commit_message": "Retranslation R3-129: 77 entries (Museum exhibits + Dorsey rebellion - lines 125688-127363)",
-  "total_entries_completed": 8986,
+  "last_commit_hash": "275cf2c",
+  "last_commit_message": "Retranslation R3-133: 194 entries (Rosie Wong downtown - lines 130930-131316)",
+  "total_entries_completed": 9513,
   "total_entries": 169712,
-  "total_entries_untranslated": 160726,
-  "overall_completion_rate": 5.3,
-  "next_action": "Continue sequential translation from line 125688. Next sections: Museum exhibits or October11 quest dialogue. Spanish reference check mandatory before each translation. Bracket markers must remain in English. Action markers must remain English. Script Node must never be translated. Target larger sections (paperboy 129 entries, october11_wolfeshunt 96 entries) for efficiency.",
+  "total_entries_untranslated": 160199,
+  "overall_completion_rate": 5.6,
+  "next_action": "Continue sequential translation from line 131317 (a2001_runsonempty section - Jimmie Longhaul mechanic). Spanish reference check mandatory before each translation. Bracket markers must remain in English. Action markers must remain English. Script Node must never be translated.",
   "restart_info": {
     "restart_number": 3,
     "restart_date": "2025-11-05",
