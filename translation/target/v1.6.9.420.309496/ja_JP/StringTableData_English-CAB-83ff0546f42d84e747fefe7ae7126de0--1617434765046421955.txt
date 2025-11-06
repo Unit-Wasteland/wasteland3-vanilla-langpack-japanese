@@ -152397,19 +152397,19 @@
       1 Array Array (7 items)
        0 int size = 7
        [0]
-        1 string data = ""Rangers, this is Daisy. Sounds like you're at the Little Vegas, judgin' by all that noise in the background.""
+        1 string data = ""レンジャー、こちらデイジー。背景の騒音から判断すると、リトル・ベガスにいるようね。""
        [1]
-        1 string data = ""Remember, your first order of business is to find Delgado. Maybe somebody in there has seen him.""
+        1 string data = ""忘れないで、最優先任務はデルガドを見つけることよ。誰か彼を見た人がいるかもしれないわ。""
        [2]
         1 string data = "Script Node 3"
        [3]
-        1 string data = ""While you're at it, if you can prove that Brygo made a deal with the Dorseys, feel free to take that bastard down."\n\n\n"Best of luck, Rangers. Daisy out.""
+        1 string data = ""ついでに、ブライゴがドーシー家と取引したことを証明できたら、あのクソ野郎を倒してもいいわ。"\n\n\n"幸運を祈るわ、レンジャー。デイジー、以上。""
        [4]
-        1 string data = ""Understood.""
+        1 string data = ""了解。""
        [5]
-        1 string data = ""Those slot machines look like they're ready to pay out, though.""
+        1 string data = ""でも、あのスロットマシンは当たりそうに見えるけどな。""
        [6]
-        1 string data = ""Sure, we'll all be millionaires. Keep your eyes on the prize, Rangers."\n\n\n"
+        1 string data = ""ええ、みんな大金持ちになれるわね。本題を忘れないで、レンジャー。"\n\n\n"
    [477]
     0 StringTable data
      1 string Filename = "a2101_dancer_brygo"
@@ -152431,9 +152431,9 @@
       1 Array Array (2 items)
        0 int size = 2
        [0]
-        1 string data = ""Bite me. This gig was good money.""
+        1 string data = ""ふざけんな。この仕事はいい金だったのに。""
        [1]
-        1 string data = ""Heya, sugar.""
+        1 string data = ""やあ、ハニー。""
    [478]
     0 StringTable data
      1 string Filename = "a2101_dancer_hall"
@@ -152467,15 +152467,15 @@
       1 Array Array (5 items)
        0 int size = 5
        [0]
-        1 string data = ""You killed Mr. Brygo?!""
+        1 string data = ""ブライゴさんを殺したの?!""
        [1]
-        1 string data = ""Screw off.""
+        1 string data = ""あっちへ行って。""
        [2]
-        1 string data = ""Havin' a good time, honey?""
+        1 string data = ""楽しんでる、ハニー?""
        [3]
         1 string data = "Script Node 5"
        [4]
-        1 string data = ""Don't hurt me! Please!""
+        1 string data = ""痛めつけないで!お願い!""
    [479]
     0 StringTable data
      1 string Filename = "a2101_dancer_privateparty"
@@ -152513,17 +152513,17 @@
       1 Array Array (6 items)
        0 int size = 6
        [0]
-        1 string data = ""Those Local 168 twats were shitty tippers anyway.""
+        1 string data = ""どうせローカル168の連中はチップもケチだったし。""
        [1]
-        1 string data = ""You psychos cost me my job.""
+        1 string data = ""あんたらサイコ野郎のせいで仕事がなくなったわ。""
        [2]
-        1 string data = ""Shit. Now I'm out of a job. Thanks.""
+        1 string data = ""クソ。仕事を失っちまった。ありがとよ。""
        [3]
-        1 string data = ""Local 168 paid for the time, not you. Piss off.""
+        1 string data = ""ローカル168が時間を払ったのよ、あんたらじゃない。失せろ。""
        [4]
         1 string data = "Script Node 5"
        [5]
-        1 string data = ""Back off, asshole! I'm workin' here!""
+        1 string data = ""下がって、クソ野郎!仕事中なのよ!""
    [480]
     0 StringTable data
      1 string Filename = "a2101_dealer_blackjack"
@@ -152765,11 +152765,11 @@
       1 Array Array (57 items)
        0 int size = 57
        [0]
-        1 string data = "[[Global: a2101_Money_Blackjack_MinimumBet] Dollars] "Welcome to Little Vegas, friends. Care to play some blackjack? A small fee gets you a seat at the table and wins pay even money."\n\n\nA small sign reads: 'House rules, only [Global: a2101_Blackjack_HitsMax] hits per hand.'"
+        1 string data = "[[Global: a2101_Money_Blackjack_MinimumBet] Dollars] "リトル・ベガスへようこそ、友よ。ブラックジャックをやってみるかい?少額の参加費でテーブルに着けて、勝てば同額が支払われるよ。"\n\n\n小さな看板にはこう書かれている: 'ハウスルール、1ハンドあたり[Global: a2101_Blackjack_HitsMax]回までヒット可能'。"
        [1]
-        1 string data = "[[Global: a2101_Money_Blackjack_MinimumBet] Dollars] "Welcome back, friends. Pay to play a hand of blackjack; wins pay even money. Remember the house rule."\n\n\nSign: 'Only [Global: a2101_Blackjack_HitsMax] hits per hand.'"
+        1 string data = "[[Global: a2101_Money_Blackjack_MinimumBet] Dollars] "またまたようこそ、友よ。料金を払ってブラックジャックを1ハンドプレイしよう。勝てば同額が支払われる。ハウスルールを忘れずに。"\n\n\n看板: '1ハンドあたり[Global: a2101_Blackjack_HitsMax]回までヒット可能'。"
        [2]
-        1 string data = ""Fuck you. Table's shut down.""
+        1 string data = ""くたばれ。テーブルは閉鎖だ。""
        [3]
         1 string data = "[Bet $[Global: a2101_Money_Blackjack_MinimumBet]] "Let's play some blackjack.""
        [4]
