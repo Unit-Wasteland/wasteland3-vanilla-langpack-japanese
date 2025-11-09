@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 26548,
-      "entries_untranslated": 143164,
-      "completion_rate": 15.64,
-      "current_line": 268313,
+      "entries_translated": 26666,
+      "entries_untranslated": 143046,
+      "completion_rate": 15.71,
+      "current_line": 269257,
       "status": "in_progress",
       "approach": "STRICT sequential from line 390 - double-double-quote format protection",
-      "note": "Session R3-260: 508 entries (lines 265410-268312). Completed companion_barks_pizepijoren (194 entries), companion_barks_scotchmo (199 entries), companion_barks_vicbuchananthepsychopath partial (115 entries). Double-double-quote format strictly maintained. Next: line 268313 continue Vic section"
+      "note": "Session R3-261: 118 entries (lines 268313-269256). Completed driver barks sections: driver_jodiebell_barks (48), driver_jodiebell_radio (22), driver_morningstar_barks (29), driver_morningstar_radio (15), plus Vic section final 4 entries. Double-double-quote format strictly maintained. Next: line 269257 start d_companion_robotengineer section"
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "106460cb97286b4f79ef1cfb358d2ba4c13054ee",
-  "last_commit_message": "Retranslation R3-260: Companion barks Pizepi, Scotchmo, and Vic sections - 508 entries (lines 265410-268312)",
-  "total_entries_completed": 26548,
+  "last_commit_hash": "31c606c8e15b4a582a4f59f5c3e98f7f8a88f8db",
+  "last_commit_message": "Retranslation R3-261: Driver barks sections (Jodie Bell, Morningstar, Riley Woodson) - 118 entries (lines 268313-269256)",
+  "total_entries_completed": 26666,
   "total_entries": 169712,
-  "total_entries_untranslated": 143164,
-  "overall_completion_rate": 15.64,
-  "next_action": "Continue from line 268313",
+  "total_entries_untranslated": 143046,
+  "overall_completion_rate": 15.71,
+  "next_action": "Continue from line 269257",
   "restart_info": {
     "restart_number": 3,
     "restart_date": "2025-11-05",
