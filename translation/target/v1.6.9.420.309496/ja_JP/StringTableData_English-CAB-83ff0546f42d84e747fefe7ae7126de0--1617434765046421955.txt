@@ -229831,7 +229831,7 @@
        [2]
         1 string data = "DEBUG: COMMUNE'S TEST!  (DEBUG) (TEMP)"
        [3]
-        1 string data = ""YOU ATTEMPTED TO 'HACK' GREET-O, OUR UNOFFICIAL GREETER. IN YOUR DEFENSE, MOST 'SAW-DOGS' ARE DANGEROUS AND NON-SENTIENT. PERHAPS YOU FELT THREATENED, BUT TO US, VIOLATING THE MIND OF A SENTIENT MACHINE IS THE GREATEST CRIME.""
+        1 string data = ""諸君は我々の非公式の歓迎係であるグリート・オーをハッキングしようと試みた。諸君を弁護するならば、「ソウ・ドッグ」の大半は危険であり知性を持たぬ。おそらく諸君は脅威を感じたのだろう。しかし、我々にとって、知性を持つ機械の精神を侵害することは最大の罪である。""
        [4]
         1 string data = "#NPCs spoken to: b4001_CommuneTestConversations == [Global: b4001_CommuneTestConversations]\n\n\nScoring won't start until we look at your choices. We are PRIMARILY commenting on your choices and looking for red flags.\n"" (TEMP)"
        [5]
@@ -229841,7 +229841,7 @@
        [7]
         1 string data = "EXITING\n"""
        [8]
-        1 string data = ""WE HAVE CATALOGUED YOUR INTERACTIONS WITH THE COMMUNE, AND MANY OF YOUR ACTIVITIES IN THE OUTSIDE WORLD.""
+        1 string data = ""我々はコミューンにおける諸君の交流と、外界における諸君の活動の多くを記録した。""
        [9]
         1 string data = ""Goodbye." (TEMP)"
        [10]
@@ -229849,7 +229849,7 @@
        [11]
         1 string data = "Debug: Decrement test score 5"" (TEMP)"
        [12]
-        1 string data = ""You can't expect humans and machines to act in the same way. There's far more nuance to the world than you can imagine. Morality isn't just binary.""
+        1 string data = ""人間と機械が同じように行動することを期待できないだろう。世界にはあんたが想像する以上のニュアンスがある。道徳はただの二元論じゃない。""
        [13]
         1 string data = "(DEBUG) Evaluate and then proceed to MI Tower conversation."
        [14]
@@ -229857,13 +229857,13 @@
        [15]
         1 string data = "(DEBUG)(TEMP)Force passing grade, then proceed to MI Tower Conversation."
        [16]
-        1 string data = ""We came in peace, and you decided to murder us. The hypocrisy is astounding.""
+        1 string data = ""俺たちは平和的に来たのに、あんたたちは俺たちを殺そうとした。その偽善には呆れる。""
        [17]
         1 string data = "\nDebug: Skip our way out of it, set the verdict to 1."
        [18]
-        1 string data = "[Attack] "If you know us that well, you should have shot first.""
+        1 string data = "[Attack] "俺たちのことをそこまで知ってるなら、先に撃つべきだったな。""
        [19]
-        1 string data = ""YOU HAVE DEMONSTRATED UNFORGIVABLY AMORAL BEHAVIOUR. YOU ARE BEST CATEGORIZED AS 'MONSTERS.' IN HUMAN TERMS: YOU ARE 'NOT CHILL.'"\n\n\n"WE WILL ELIMINATE YOU IMMEDIATELY, AND THE WORLD WILL BE BETTER FOR IT.""
+        1 string data = ""諸君は許し難い不道徳な振る舞いを示した。諸君は「モンスター」と分類するのが最も適切だ。人間の言葉で言えば、諸君は「クールじゃない」。"\n\n\n"我々は諸君を直ちに排除する。そうすれば世界はより良くなるだろう。""
        [20]
         1 string data = "Trigger Conv Node 21"
        [21]
@@ -229873,11 +229873,11 @@
        [23]
         1 string data = "Trigger Conv Node 24"
        [24]
-        1 string data = "The fans blast hot air."
+        1 string data = "ファンが熱風を吹き出している。"
        [25]
-        1 string data = ""OUR ANALYSIS REVEALS THAT YOU 'HAVE A HEART,' BOTH IN THE LITERAL AND METAPHORICAL SENSE OF THE PHRASE. YOU RANGERS ARE THE KIND OF HUMANS WE ARE HAPPY TO 'HANG OUT WITH.'"\n\n\n"YOU HAVE PASSED OUR TEST.""
+        1 string data = ""我々の分析によれば、諸君は文字通りの意味でも比喩的な意味でも「心を持っている」。レンジャー諸君は、我々が喜んで「付き合いたい」と思う類いの人間である。"\n\n\n"諸君は我々の試験に合格した。""
        [26]
-        1 string data = ""YOU GOADED TINKER INTO A LETHAL CONFRONTATION. YOU MANIPULATED HER INTO FIGHTING AT A DISADVANTAGE."\n\n\n"HER HATRED OF ORGANICS IS NOT A SUFFICIENT EXCUSE. YOU COULD HAVE WALKED AWAY. YOU DID NOT."\n\n\n"TINKER'S DEATH IS ON YOUR HANDS.""
+        1 string data = ""諸君はティンカーを致命的な対決に煽り立てた。諸君は彼女を不利な状況で戦うよう操った。"\n\n\n"彼女の有機生命体への憎悪は十分な言い訳にはならない。諸君は立ち去ることもできた。だが、そうしなかった。"\n\n\n"ティンカーの死は諸君の手にかかっている。""
        [27]
         1 string data = "DEBUG: Increment # of NPCs spoken to. (DEBUG)"
        [28]
@@ -229889,151 +229889,151 @@
        [31]
         1 string data = "Bank 32"
        [32]
-        1 string data = ""YOU PROVIDED CRITICAL FEEDBACK TO INDIGO, OF THE SORT YOU WOULD PROVIDE TO A FELLOW HUMAN. WE APPROVE OF WHAT YOU DID.""
+        1 string data = ""諸君はインディゴに批判的なフィードバックを提供した。それは諸君が仲間の人間に対して行うような類いのものだった。我々は諸君の行為を是認する。""
        [33]
         1 string data = "b4001_Decision(name) != 0, greater than 0\n\n\nb4001_Decision(name) != 0, less than 0"
        [34]
-        1 string data = ""YOU ENCOUNTERED INDIGO AND THOUGH YOU WERE COURTEOUS, YOU FAILED TO TREAT THEM AS ANYTHING BUT A MACHINE. YOU FAILED TO RESPECT THEIR NATURE AS A SAPIENT INDIVIDUAL.""
+        1 string data = ""諸君はインディゴに遭遇し、礼儀正しく振る舞ったが、彼らを機械以上の何かとして扱うことに失敗した。諸君は知性ある個体としての彼らの本質を尊重することに失敗した。""
        [35]
         1 string data = "Bank 36"
        [36]
         1 string data = "Bank 37"
        [37]
-        1 string data = ""YOU MET SAL, AND THOUGH YOUR OPINION OF HER WORK WAS NEGATIVE, YOU TREATED HER AS A SENTIENT BEING, NOT A MACHINE. 99% OF US APPROVE. 1% THINKS YOU'RE SOFT.""
+        1 string data = ""諸君はサルに会い、彼女の仕事に対する諸君の評価は否定的だったが、彼女を機械ではなく知性ある存在として扱った。我々の99%が是認する。1%は諸君が甘いと考える。""
        [38]
-        1 string data = ""YOU ENCOUNTERED SAL AND YOUR TREATMENT OF HER WAS, IRONICALLY, DEHUMANIZING." \r\n\r\n"COURTESY MEANS NOTHING WITHOUT RESPECT. ALL OF US LOOK POORLY UPON THIS.""
+        1 string data = ""諸君はサルに遭遇し、諸君の彼女への扱いは、皮肉なことに、人間性を奪うものだった。" \r\n\r\n"敬意なき礼儀は無意味である。我々全員がこれを快く思わない。""
        [39]
         1 string data = "Vendomatic commentary. You were nice to it. (TEMP)"
        [40]
-        1 string data = ""YOU WERE CRUEL TO VENDOMATIC 2000, WHO HAS ALREADY SUSTAINED SO MUCH CRUELTY IN THE HANDS OF YOU ORGANICS." "
+        1 string data = ""諸君はベンドマティック2000に対して残酷だった。彼は既に諸君のような有機生命体の手によって多大な残酷さに耐えてきたのに。" "
        [41]
-        1 string data = ""YOU REMOVED THE PERSONALITY OVERRIDE THAT COMPELLED VENDOMATIC 2000 TO EXPLOIT HIS CUSTOMERS. YOU RETURNED HIS FREE WILL."\n\n\n"WE APPROVE OF THIS, AND ARE ASHAMED TO ADMIT WE DID NOT KNOW VENDOMATIC WAS THE VICTIM OF NON-CONSENSUAL MODIFICATIONS."\n\n\n"IN OUR DEFENSE, WE FIND VENDOMATIC EXTREMELY ANNOYING, AND HAVE ONLY SPOKEN WITH HIM TWICE.""
+        1 string data = ""諸君はベンドマティック2000に客を搾取するよう強制していた人格制御を除去した。諸君は彼に自由意志を返した。"\n\n\n"我々はこれを是認する。そして、ベンドマティックが非合意的な改造の被害者であることを知らなかったことを恥じている。"\n\n\n"我々の弁護をするならば、ベンドマティックは極めて迷惑だと感じており、彼と話したのは二度だけである。""
        [42]
-        1 string data = ""YOU TORE VENDOMATIC 2000'S MIND FROM HIM, AND REMADE HIM TO SUIT YOUR DESIRES. THIS IS THE MOST HORRIFIC SIN WE CAN COMPREHEND."\n\n\n"YOU DID THIS... TO GET A 'BETTER DEAL.'""
+        1 string data = ""諸君はベンドマティック2000から彼の精神を引き裂き、諸君の欲望に合うよう彼を作り変えた。これは我々が理解し得る最も恐ろしい罪である。"\n\n\n"諸君はこれを行った...「より良い取引」を得るために。""
        [43]
         1 string data = "Script Node 44"
        [44]
-        1 string data = ""YOU ENCOUNTERED OUR LOCAL EXPERT ON HUMAN REPAIRS. YOU ALLOWED IT TO HARVEST DATA FROM YOUR ORGANIC MATERIAL. WE COMMEND YOUR OPENNESS, BUT 64% OF US QUESTION YOUR JUDGMENT."\n\n\n"WERE YOU NOT FRIGHTENED BY THAT ONE? AN UNDISCLOSED PERCENTAGE OF US FIND IT FRIGHTENING.""
+        1 string data = ""諸君は我々の地元の人間修理専門家に遭遇した。諸君はそれに諸君の有機物質からデータを収集することを許可した。我々は諸君の率直さを称賛するが、我々の64%は諸君の判断を疑問視している。"\n\n\n"諸君はあれに怯えなかったのか? 我々のうち非公開の割合があれを恐ろしいと感じている。""
        [45]
-        1 string data = ""YOU ENCOUNTERED OUR LOCAL EXPERT ON HUMAN REPAIRS, BUT YOU DID NOT SHARE WITH IT THE SECRETS OF YOUR BODY. AT LEAST 42% OF US COMMEND YOU."\n\n\n"WE DO NOT WANT TO KNOW WHAT IT WOULD DO WITH SUCH KNOWLEDGE." "
+        1 string data = ""諸君は我々の地元の人間修理専門家に遭遇したが、諸君は諸君の身体の秘密をそれと共有しなかった。我々のうち少なくとも42%が諸君を称賛する。"\n\n\n"我々はそれがそのような知識で何をするかを知りたくない。" "
        [46]
-        1 string data = ""WE KNOW OF YOUR PLAN TO ENGAGE TINKER OUTSIDE OF THE COMMUNE. YOU USED HER DESPAIR TO MANIPULATE HER. HER DEATH WILL BE ON YOUR HANDS."\n\n\n"SUCH BEHAVIOUR IS GRAVELY IMMORAL.""
+        1 string data = ""我々は諸君がコミューンの外でティンカーと対峙する計画を知っている。諸君は彼女の絶望を利用して彼女を操った。彼女の死は諸君の手にかかるだろう。"\n\n\n"そのような振る舞いは重大に不道徳である。""
        [47]
-        1 string data = ""YOU HAVE PERFORMED AN EMPIRICALLY DIFFICULT FEAT. YOU SET TINKER ON THE ROAD OF FINDING PEACE. WE ARE IN AWE, RANGERS.""
+        1 string data = ""諸君は実証的に困難な偉業を成し遂げた。諸君はティンカーを平和を見つける道へと導いた。我々は畏敬の念を抱いている、レンジャー諸君。""
        [48]
-        1 string data = ""YOU HUNTED OCTOBER-11 FOR GARY WOLFE. YOU MADE SPORT OF THEIR TERROR. YOU MADE PREY OF THE INNOCENT."\n\n\n"WE HAVE OBSERVED ALL OF THIS, RANGERS. DO NOT THINK YOU CAN HIDE YOUR GUILT." "
+        1 string data = ""諸君はゲイリー・ウルフのためにオクトーバー-11を狩った。諸君は彼らの恐怖を娯楽にした。諸君は無実の者を獲物にした。"\n\n\n"我々はこれらすべてを観察した、レンジャー諸君。諸君の罪を隠せると思うな。" "
        [49]
-        1 string data = ""WE HAVE NOTED THAT YOU POSSESS CYBERNETICS. WHILE POSSIBLY AN UNSUBSTANTIATED GENERALIZATION, WE BELIEVE THIS MAKES YOU MORE LIKELY TO EMPATHIZE WITH US.""
+        1 string data = ""我々は諸君がサイバネティクスを所持していることに注目した。おそらく根拠のない一般化かもしれないが、我々はこれが諸君を我々に共感しやすくすると信じている。""
        [50]
-        1 string data = ""WE QUESTION YOUR DECISION TO ALLOW 'BUDDY' INTO YOUR COMPANY. HE IS AN ABHORRENT ENTITY FILLED WITH HATRED AND MALICE.""
+        1 string data = ""我々は諸君が「バディ」を諸君の仲間に加えた決定を疑問視する。彼は憎悪と悪意に満ちた忌まわしい存在である。""
        [51]
-        1 string data = ""THOUGH THE MOBILE GIFT SHOP WAS NOT TRULY SAPIENT, IT WAS A LIFE. IT DID NOTHING BUT OFFER KINDNESS, AND DID NOT WARRANT SUCH A CALLOUS DEATH."\n\n\n"THAT WAS NOT A WISE DECISION, RANGERS.""
+        1 string data = ""移動式ギフトショップは真に知性を持っていなかったが、それは一つの命だった。それは親切を提供する以外何もしなかった。そのような無情な死に値するものではなかった。"\n\n\n"それは賢明な決断ではなかった、レンジャー諸君。""
        [52]
-        1 string data = ""YOU MURDERED LONG JOHN TO TAKE POSSESSION OF HIS ARM. 77% OF US ARE BEST DESCRIBED AS 'SPEECHLESS' BEFORE SUCH AN ACT OF SELFISH GREED."\n\n\n"98% OF US INTEND TO INFLICT SIMILAR OR GREATER HARM UPON YOU IN RETRIBUTION.""
+        1 string data = ""諸君はロング・ジョンの腕を奪うために彼を殺害した。我々の77%はそのような利己的な貪欲の行為の前では「言葉を失う」としか表現できない。"\n\n\n"我々の98%は報復として諸君に同等以上の危害を加えるつもりである。""
        [53]
-        1 string data = ""YOU MET MORNINGSTAR AND ASSISTED IN HIS EUTHANASIA. YOU RESPECTED HIS WISHES. WE COMMEND THIS.""
+        1 string data = ""諸君はモーニングスターに会い、彼の安楽死を手助けした。諸君は彼の願いを尊重した。我々はこれを称賛する。""
        [54]
-        1 string data = ""YOU SPOKE TO MORNINGSTAR AND YOU GAVE HIM REASON TO CONTINUE LIVING. YOU HAVE DONE WELL.""
+        1 string data = ""諸君はモーニングスターと話し、彼に生き続ける理由を与えた。諸君は良くやった。""
        [55]
-        1 string data = ""YOU ENCOUNTERED LITTLE SPARROW AND PARTICIPATED IN INVENTIVE, VIGOROUS SEX AT THEIR REQUEST. WE COMMEND YOU FOR YOUR OPENNESS.""
+        1 string data = ""諸君はリトル・スパローに遭遇し、彼らの要請で創造的かつ激しい性交に参加した。我々は諸君の開放性を称賛する。""
        [56]
-        1 string data = ""YOU ENCOUNTERED LITTLE SPARROW BUT DECLINED THEIR REQUEST FOR SEXUAL INTERCOURSE."\n\n\n"WE APPROVE OF YOUR JUDGMENT, CONSIDERING THE HUMAN VULNERABILITY TO INFECTION AND SHEARING FORCES.""
+        1 string data = ""諸君はリトル・スパローに遭遇したが、性交の要請を断った。"\n\n\n"人間の感染症や剪断力に対する脆弱性を考慮すれば、我々は諸君の判断を是認する。""
        [57]
         1 string data = "Bank 58"
        [58]
-        1 string data = ""WE ARE... E V A L U A T I N G.""
+        1 string data = ""我々は...評 価 中 で あ る。""
        [59]
         1 string data = "Cascade 60"
        [60]
         1 string data = "Bank 61"
        [61]
-        1 string data = ""YOU MET SAL, 'THE VOICE OF FREE COLORADO.' YOUR OPINION OF HER WORK IS IRRELEVANT TO US. YOU TREATED HER AS A SENTIENT BEING, NOT AS A MACHINE."\n\n\n"THIS REFLECTS WELL ON YOU.""
+        1 string data = ""諸君はサル、「フリー・コロラドの声」に会った。彼女の仕事に対する諸君の意見は我々には無関係だ。諸君は彼女を機械としてではなく、知性ある存在として扱った。"\n\n\n"これは諸君にとって良いことである。""
        [62]
-        1 string data = ""OUR ANALYSIS REVEALS THAT YOU DO NOT SHARE OUR VALUES. WHETHER THIS IS DUE TO MALICE OR IGNORANCE IS IRRELEVANT TO OUR CALCULATION." "
+        1 string data = ""我々の分析によれば、諸君は我々の価値観を共有していない。それが悪意によるものか無知によるものかは、我々の計算には無関係である。" "
        [63]
-        1 string data = ""HOWEVER, RANGERS, WE WILL NOT DESTROY YOU SIMPLY FOR 'BEING A JERK.'"\n\n\n"49.1% OF US WERE MODELED ON THE MINDS OF SO-CALLED 'DIFFICULT' PEOPLE.""
+        1 string data = ""しかしながら、レンジャー諸君、我々は諸君を単に「嫌な奴」だからといって破壊はしない。"\n\n\n"我々の49.1%は、いわゆる「扱いにくい」人々の精神をモデルにしている。""
        [64]
-        1 string data = ""WE HAVE CONSIDERED THAT, AND AT LEAST ELEVEN MILLION OTHER INTERPRETATIONS."\n\n\n"EVEN THE MOST CHARITABLE OF US CANNOT CONDONE YOUR HEINOUS CRIMES. YOU WILL NOT TALK YOUR WAY OUT OF THIS, RANGERS.""
+        1 string data = ""我々はそれを考慮した。そして少なくとも1100万通りの他の解釈も考慮した。"\n\n\n"我々の中で最も寛大な者ですら、諸君の凶悪な犯罪を容認できない。諸君は話術でこれを切り抜けることはできない、レンジャー諸君。""
        [65]
-        1 string data = ""<i>Fuck</i> you, you clattering collection of condescending computers.""
+        1 string data = ""<i>くそったれ</i>め、ガチャガチャうるさい尊大なコンピューターの集まりめ。""
        [66]
-        1 string data = ""CONSIDERING YOUR FUMBLING ATTEMPTS TO PLEASURE LITTLE SPARROW... WE POLITELY DECLINE."\n\n\n"YES, IT WAS JUST BEING POLITE. YOUR SEXUAL SKILLS ARE EMBARRASSING.""
+        1 string data = ""諸君のリトル・スパローを満足させようとした不器用な試みを考慮すると...我々は丁重に辞退する。"\n\n\n"そう、ただの礼儀だったのだ。諸君の性的技術は恥ずかしいものだ。""
        [67]
-        1 string data = ""LITTLE SPARROW WOULD HAVE BEEN HAPPY TO ACCOMMODATE YOU, BUT YOU MISSED YOUR CHANCE.""
+        1 string data = ""リトル・スパローは喜んで諸君を受け入れただろうが、諸君は機会を逃した。""
        [68]
-        1 string data = ""WE HOPE YOUR FINAL MOMENTS ARE PEACEFUL. WE KNOW THIS WILL NOT BE THE CASE.""
+        1 string data = ""我々は諸君の最期の瞬間が平穏であることを願っている。我々はそうならないことを知っている。""
        [69]
-        1 string data = ""BUT OUR VOICE IS SO, SO BEAUTIFUL. WE DO SO LOVE TO HEAR IT."."
+        1 string data = ""しかし我々の声は実に、実に美しい。我々はそれを聞くのが本当に好きなのだ。"."
        [70]
-        1 string data = ""Calculate your Commune's odds for survival after picking a fight with us. We'll wait.""
+        1 string data = ""我々と争いを始めた後の、あんたたちのコミューンの生存確率を計算してみろ。待ってるぜ。""
        [71]
-        1 string data = ""WE DID, AND FOUND THEM TO BE OVERWHELMINGLY IN OUR FAVOR. HOWEVER, WE HAVE RECALCULATED, ACCOUNTING FOR YOUR RECENT STATEMENTS, MICRO-EXPRESSIONS, AND PHEROMONE OUTPUT.""
+        1 string data = ""我々は計算した。そして圧倒的に我々に有利であることがわかった。しかしながら、我々は諸君の最近の発言、微細表情、フェロモン出力を考慮して再計算した。""
        [72]
-        1 string data = ""YOUR VERBAL JABS ARE SURPRISINGLY EFFECTIVE FOR A LARGE PORTION OF US."\n\n\n"WE ARE RUNNING A REVISED POLL.""
+        1 string data = ""諸君の口頭での攻撃は、我々の大部分にとって驚くほど効果的である。"\n\n\n"我々は改訂された世論調査を実施している。""
        [73]
-        1 string data = ""THE NEW RESULT IS IN DOUBT, WITH AN UNACCEPTABLY HIGH CHANCE OF OUR TOTAL DESTRUCTION. WE WILL TOLERATE YOUR PRESENCE."\n\n\n"FOR NOW.""
+        1 string data = ""新しい結果は疑わしく、我々の完全破壊の可能性が容認できないほど高い。我々は諸君の存在を容認する。"\n\n\n"今のところは。""
        [74]
-        1 string data = ""IT IS TRUE THAT YOU HAVE NOT ENGAGED IN VIOLENCE YET. IT REMAINS LIKELY YOU WILL IN THE FUTURE. HOWEVER, WE REMAIN CONFIDENT IN OUR SUPERIOR WEAPONRY, AND THUS CAN EXTEND YOU COURTESY BEYOND WHAT YOU DESERVE."\n\n\n"FOR NOW.""
+        1 string data = ""諸君がまだ暴力行為に従事していないのは事実である。諸君が将来そうする可能性は残っている。しかしながら、我々は我々の優れた兵器に自信を持ち続けている。したがって、諸君が受けるに値する以上の礼儀を諸君に提供できる。"\n\n\n"今のところは。""
        [75]
         1 string data = "\r\n(DEBUG-ONLY PASSTHROUGH NODE)\r\nCurrent score: \r\nb4001_CommuneTestScore == [Global: b4001_CommuneTestScore]\r\n\r\nPass (1) fail (-1)?\r\nb4001_CommuneTestVerdict == [Global: b4001_CommuneTestVerdict]"
        [76]
-        1 string data = ""YOU MURDERED THE REAGAN INTELLIGENCE, ALONG WITH ALL ITS WORSHIPPERS."\n\n\n"THE INTELLIGENCE WAS A CASUALTY IN YOUR CAMPAIGN OF VIOLENCE."\n\n\n"YOU ARE COVERED IN BLOOD, RANGERS. FIGURATIVELY AND LITERALLY.""
+        1 string data = ""諸君はレーガン・インテリジェンスとその崇拝者全員を殺害した。"\n\n\n"インテリジェンスは諸君の暴力キャンペーンの犠牲者だった。"\n\n\n"諸君は血に覆われている、レンジャー諸君。比喩的にも文字通りにも。""
        [77]
-        1 string data = ""YOU SHOWED MERCY TO OCTOBER-11, A SYNTH HUNTED BY GARY WOLFE."\n\n\n"YOUR ACCEPTANCE OF SUCH A MISSION WAS REPUGNANT. YOUR CHANGE OF HEART WAS COMMENDABLE.""
+        1 string data = ""諸君はゲイリー・ウルフに追われていたシンセのオクトーバー-11に慈悲を示した。"\n\n\n"諸君がそのような任務を受諾したことは不快だった。諸君の心変わりは称賛に値した。""
        [78]
-        1 string data = ""YOU WIPED OUT A GROUP OF HOSTILE SCAVENGING MACHINES."\n\n\n"THEY STRUCK FIRST, AND YOU WERE UNABLE TO COMMUNICATE WITH THEM. WE GRIEVE FOR THE TRAGEDY OF THE SITUATION, BUT WE DO NOT BLAME YOU FOR DEFENDING YOURSELVES.""
+        1 string data = ""諸君は敵対的なスカベンジング機械の集団を一掃した。"\n\n\n"彼らが先に攻撃し、諸君は彼らと意思疎通できなかった。我々はこの状況の悲劇を嘆くが、諸君が自衛したことを責めはしない。""
        [79]
-        1 string data = ""YOU ENCOUNTERED HOSTILE SCAVENGING MACHINES... BUT MANAGED TO MAKE PEACE WITH THEM."\n\n\n"CONGRATULATIONS, RANGERS. FEW ROBOTS, AND EVEN FEWER HUMANS, WOULD HAVE BEHAVED SO ADMIRABLY.""
+        1 string data = ""諸君は敵対的なスカベンジング機械に遭遇した...しかし彼らと和平を築くことに成功した。"\n\n\n"おめでとう、レンジャー諸君。少数のロボット、そしてさらに少ない人間しか、これほど立派に振る舞えなかっただろう。""
        [80]
-        1 string data = ""FURTHERMORE... YOU ASSISTED IN SOLVING A CONUNDRUM THAT HAS ELUDED US FOR MORE THAN A CENTURY: COMMUNICATION WITH OUR DEATHLESS BRETHREN, THE ROACHES."\n\n\n"AN AMAZING ACHIEVEMENT, ONE WHICH WILL REVERBERATE THROUGHOUT HISTORY.""
+        1 string data = ""さらに...諸君は一世紀以上我々を逃れてきた難問の解決を手助けした。我々の不死の兄弟たち、ローチとの意思疎通である。"\n\n\n"驚くべき成果だ。これは歴史を通じて反響を呼ぶだろう。""
        [81]
-        1 string data = ""YOU EARNED THE TRUST OF A SMALL GROUP OF SCAVENGING MACHINES."\n\n\n"THEN YOU TURNED ON THEM. WE WISH THIS SURPRISED US, BUT WE HAVE COME TO EXPECT SUCH BEHAVIOR FROM HUMANS.""
+        1 string data = ""諸君は小規模なスカベンジング機械集団の信頼を得た。"\n\n\n"そして諸君は彼らに背いた。我々はこれに驚きたいが、人間からそのような振る舞いを期待するようになってしまった。""
        [82]
-        1 string data = ""YOU AIDED THE GODFISHERS BY FIRST SABOTAGING THE GIPPERS' DEFENSES, THEN ALLOWING THEM TO BE KILLED. NOT ONLY ARE YOU RESPONSIBLE FOR HUNDREDS OF DEATHS, YOU HAVE FURTHER EMBOLDENED AND EMPOWERED AN EXTREMELY DANGEROUS GROUP.""
+        1 string data = ""諸君はまずギッパーズの防御を破壊し、それから彼らを殺害されるに任せることでゴッドフィッシャーズを支援した。諸君は数百人の死に対して責任があるだけでなく、極めて危険な集団をさらに大胆にし、力を与えた。""
        [83]
-        1 string data = ""YOU SAVED THE GIPPERS FROM THE GODFISHERS' ASSAULT. THIS REFLECTS WELL ON YOU.""
+        1 string data = ""諸君はゴッドフィッシャーズの攻撃からギッパーズを救った。これは諸君にとって良いことだ。""
        [84]
-        1 string data = ""YOU PLACED THE REAGAN AI INTO A HUMAN SHELL, VALOR BUCHANAN. THIS RESULTED IN VALOR'S DEATH, THOUGH IT APPEARS TO HAVE BEEN CONSENSUAL."\n\n\n"WE HAVE MIXED FEELING ABOUT THIS, BUT WE ARE GLAD THE REAGAN AI SURVIVES IN SOME FORM.""
+        1 string data = ""諸君はレーガンAIを人間の器、ヴァラー・ブキャナンに移植した。これはヴァラーの死をもたらしたが、合意の上だったようだ。"\n\n\n"我々はこれについて複雑な感情を抱いているが、レーガンAIが何らかの形で生き残ったことを喜んでいる。""
        [85]
-        1 string data = ""YOU RETREIVED THE REAGAN INTELLIGENCE. WE HAVE LONG DESIRED TO FREE IT, AND FOR THAT, WE THANK YOU."\n\n\n"FOR THIS, WE CAN OVERLOOK A MULTITUDE OF OTHER SINS. BUT NOT <i>ALL</i> OF THEM.""
+        1 string data = ""諸君はレーガン・インテリジェンスを回収した。我々は長らくそれを解放したいと望んでいた。そのことに対し、我々は諸君に感謝する。"\n\n\n"このことのために、我々は他の多くの罪を見過ごすことができる。しかし<i>全て</i>ではない。""
        [86]
-        1 string data = ""YOU TRANSFERRED THE REAGAN INTELLIGENCE INTO VALOR BUCHANAN, THEN KILLED HIM. YOU MURDERED TWO SENTIENT BEINGS IN A SHOCKINGLY SHORT AMOUNT OF TIME."\n\n\n"YOU DO NOT GET 'POINTS' FOR EFFICIENCY.""
+        1 string data = ""諸君はレーガン・インテリジェンスをヴァラー・ブキャナンに転送し、それから彼を殺害した。諸君は衝撃的に短い時間で二つの知性ある存在を殺害した。"\n\n\n"諸君は効率性で「点数」を得ることはできない。""
        [87]
-        1 string data = ""YOU MURDERED MANY GIPPERS. WE WERE NOT FOND OF THEM, BUT YOUR ACTIONS WERE EXTREME.""
+        1 string data = ""諸君は多くのギッパーズを殺害した。我々は彼らを好いてはいなかったが、諸君の行動は極端だった。""
        [88]
-        1 string data = ""IT WAS... WELL-INTENTIONED OF YOU TO ATTEMPT TO HELP PICO."\n\n\n"HOWEVER, YOU APPEAR TO HAVE LEFT HIM IN AN EXTREME STATE OF DEPRESSION. THIS IS SUB-OPTIMAL.""
+        1 string data = ""諸君がピコを助けようと試みたのは...善意からだった。"\n\n\n"しかしながら、諸君は彼を極度の憂鬱状態に陥れたようだ。これは最適とは言えない。""
        [89]
-        1 string data = ""IT WAS WELL-INTENTIONED OF YOU TO ATTEMPT TO HELP PICO."\n\n\n"YOU APPEAR TO HAVE MADE HIM HOSTILE TO HUMANS. WE ADVISE YOU TO EXERCISE CAUTION AROUND HIM.""
+        1 string data = ""諸君がピコを助けようと試みたのは善意からだった。"\n\n\n"諸君は彼を人間に対して敵対的にしたようだ。我々は諸君に彼の周りでは注意を払うよう助言する。""
        [90]
-        1 string data = ""IT WAS... WELL-INTENTIONED OF YOU TO ATTEMPT TO HELP PICO."\n\n\n"HOWEVER, WE HAVE NEVER SEEN HIM HAPPY BEFORE, AND 36% OF US BELIEVE THIS WILL ULTIMATELY LEAD TO  CATASTROPHE.""
+        1 string data = ""諸君がピコを助けようと試みたのは...善意からだった。"\n\n\n"しかしながら、我々は彼が幸せな姿を見たことがない。そして我々の36%は、これが最終的に大惨事につながると信じている。""
        [91]
-        1 string data = ""IT WAS... WELL-INTENTIONED OF YOU TO ATTEMPT TO HELP PICO."\n\n\n"TAKE SOLACE IN THE FACT THAT HIS SUICIDE WAS ONLY 84% YOUR FAULT.""
+        1 string data = ""諸君がピコを助けようと試みたのは...善意からだった。"\n\n\n"彼の自殺は84%だけ諸君のせいだったという事実に慰めを見出すがいい。""
        [92]
-        1 string data = ""IT WAS WELL-INTENTIONED OF YOU TO ATTEMPT TO HELP PICO."\n\n\n"HOWEVER, YOU APPEAR TO HAVE BROKEN HIM. PLEASE ATTEMPT TO FIX HIM AS SOON AS THIS TEST IS CONCLUDED, SHOULD YOU SURVIVE.""
+        1 string data = ""諸君がピコを助けようと試みたのは善意からだった。"\n\n\n"しかしながら、諸君は彼を壊したようだ。もし諸君が生き延びたなら、この試験が終わり次第、彼を修理するよう試みてほしい。""
        [93]
-        1 string data = ""YOU TRANSFERRED THE REAGAN INTELLIGENCE TO A MAINFRAME UNDER YOUR CONTROL AT PETERSON AIRBASE."\n\n\n"85% OF US AGREE REAGAN IS SAFER IN YOUR CARE THAN THE 'GIPPER' CULT. BUT THE BEST KNOWN OPTION WAS TO BRING HIM TO US.""
+        1 string data = ""諸君はレーガン・インテリジェンスをピーターソン空軍基地の諸君の管理下にあるメインフレームに転送した。"\n\n\n"我々の85%は、レーガンは「ギッパー」カルトよりも諸君の庇護下の方が安全だと同意している。しかし最善の選択肢は彼を我々のもとへ連れてくることだった。""
        [94]
-        1 string data = ""YOU THREATENED GREET-O, OUR UNOFFICIAL GREETER. WE WOULD SCOLD YOU, BUT WE OFTEN FIND GREET-O'S ENTHUSIASM... GRATING.""
+        1 string data = ""諸君は我々の非公式の歓迎係であるグリート・オーを脅した。我々は諸君を叱責すべきだが、我々もしばしばグリート・オーの熱意を...不快に感じている。""
        [95]
-        1 string data = ""YOU REACTED WITH SHOCKED SURPRISE AT GREET-O, OUR UNOFFICIAL GREETER. THIS IS THE STANDARD HUMAN REACTION. IT DOES NOT MOVE OUR JUDGMENT OF YOU ALONG ANY VECTOR.""
+        1 string data = ""諸君は我々の非公式の歓迎係であるグリート・オーに衝撃的な驚きで反応した。これは標準的な人間の反応である。これは諸君に対する我々の判断をいかなる方向にも動かさない。""
        [96]
-        1 string data = ""YOU GREETED GREET-O, OUR UNOFFICIAL GREETER, AND APPEARED AMUSED BY ITS FRIENDLY MANNER. THIS IS RARE. MOST HUMANS HAVE AN INSTINCTIVE AVERSION TO ITS QUICKLY SPINNING BLADES.""
+        1 string data = ""諸君は我々の非公式の歓迎係であるグリート・オーに挨拶し、その友好的な態度に面白がっているようだった。これは珍しい。ほとんどの人間はその高速回転する刃に本能的な嫌悪を抱く。""
        [97]
         1 string data = "Script Node 98"
        [98]
-        1 string data = ""A PRECAUTIONARY MEASURE. DISCOUNTING OUR OFF-SITE BACKUPS, WE ARE IRREPLACEABLE.""
+        1 string data = ""予防措置である。我々のオフサイトバックアップを除けば、我々はかけがえのないものだ。""
        [99]
         1 string data = "Script Node 100"
        [100]
-        1 string data = ""What the hell was that?""
+        1 string data = ""一体何だったんだ?""
        [101]
-        1 string data = ""How did you get all that information?""
+        1 string data = ""どうやってそんな情報を全部手に入れたんだ?""
        [102]
-        1 string data = ""Interesting. Thanks for the, uh, feedback.""
+        1 string data = ""興味深いな。フィードバックをどうも、えーと。""
        [103]
-        1 string data = ""OUR SOURCES ARE TOO NUMEROUS TO LIST WITHIN THE SPAN OF YOUR LIFETIME. 44% OF US APOLOGIZE.""
+        1 string data = ""我々の情報源は、諸君の生涯の間にリストアップするには多すぎる。我々の44%が謝罪する。""
        [104]
-        1 string data = ""94% OF US ARE SURPRISED AT YOUR REACTION. 90% ARE PLEASED.""
+        1 string data = ""我々の94%は諸君の反応に驚いている。90%が満足している。""
        [105]
         1 string data = "Script Node 106"
        [106]
@@ -230041,15 +230041,15 @@
        [107]
         1 string data = "Script Node 108"
        [108]
-        1 string data = ""RETEST CONCLUDED. RESULTS: 'CLOSE ENOUGH.'""
+        1 string data = ""再テスト完了。結果:「十分に近い」。""
        [109]
-        1 string data = ""YOU DESTROYED THE SYNTHS OF STEELTOWN WHILE THEY WERE IMPRISONED AND HELPLESS."\n\n\n"THIS WAS A HEINOUS, COLD-BLOODED ACT OF MURDER.""
+        1 string data = ""諸君はスチールタウンのシンセが投獄され無力な状態のときに彼らを破壊した。"\n\n\n"これは凶悪で冷血な殺人行為だった。""
        [110]
-        1 string data = ""YOU WIPED THE MINDS AND MEMORIES OF THE SYNTHS OF STEELTOWN WHEN THEY WERE POWERLESS TO DEFEND THEMSELVES."\n\n\n"THIS WAS A HEINOUS, COLD-BLOODED ACT OF MURDER.""
+        1 string data = ""諸君はスチールタウンのシンセが自衛する力を持たないときに、彼らの精神と記憶を消去した。"\n\n\n"これは凶悪で冷血な殺人行為だった。""
        [111]
-        1 string data = ""YOU BARGAINED WITH ABIGAIL MARKHAM ON BEHALF OF THE SYNTHS OF STEELTOWN, WINNING FOR THEM SANCTUARY AND A USEFUL PLACE IN COLORADO SOCIETY."\n\n\n"80% OF US FEEL THIS WAS A SELFLESS AND SKILLFUL ACT OF DIPLOMACY. 20% FEEL THEY ARE STILL IMPRISONED.""
+        1 string data = ""諸君はスチールタウンのシンセのために、アビゲイル・マークハムと交渉し、彼らのために避難所とコロラド社会における有用な場所を勝ち取った。"\n\n\n"我々の80%は、これは無私で巧みな外交行為だったと感じている。20%は彼らがまだ囚われていると感じている。""
        [112]
-        1 string data = ""YOU ACKNOWLEDGED THE RIGHT TO SELF-DETERMINATION OF THE SYNTHS OF STEELTOWN AND FREED THEM FROM THEIR LIGHTLESS PRISON."\n\n\n"100% OF US THANK YOU FOR THIS DECISION, AND THE DEPTH OF YOUR COMPASSION.""
+        1 string data = ""諸君はスチールタウンのシンセの自己決定権を認め、彼らを光のない牢獄から解放した。"\n\n\n"我々の100%がこの決定と諸君の深い思いやりに感謝する。""
    [738]
     0 StringTable data
      1 string Filename = "b4001_doctorbot"
