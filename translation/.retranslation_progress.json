@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 17605,
-      "entries_untranslated": 152107,
-      "completion_rate": 10.37,
-      "current_line": 195956,
+      "entries_translated": 17647,
+      "entries_untranslated": 152065,
+      "completion_rate": 10.40,
+      "current_line": 196279,
       "status": "in_progress",
       "approach": "STRICT sequential from line 390 - enhanced validation with bracket marker protection",
-      "note": "Session R3-196: 95 entries (lines 194875-195955). Translated: a5201_lifesupport (5), a5201_mercenaries (19), a5201_mercenaries_hospitalroom (14), a5201_mercenaries_reinforcements (5), a5201_mercenarycaptain (4), a5201_mercenary_hydroponicsroom (38). Topics: Life support moral choice, mercenary dialogue, Hydrocrew naming debate, Desert Rangers reputation, Vic Buchanan, negotiation/bribery, combat warnings, desert vs dessert joke. Structure: [Attack] x6 preserved, [Global:] x4 preserved, all brackets English, HTML tags preserved, ::wheeze:: preserved. Validation: 0 errors/warnings. Next: line 195956 (skip a5201_mrdebug_survivalistbunker debug), line 196003 (01001_hawkbit_obsolete)"
+      "note": "Session R3-197: 42 entries (lines 195956-196278). Translated: 01001_hawkbit_obsolete (25), b1001_billscorpse (17). Topics: Jola and Hawkbit panther dialogue cage freedom negotiation, Bill Gipper corpse investigation keycard retrieval unfinished letter to mother. Glossary: Hawkbit and Bill added. Structure: 0 errors 0 warnings, quote format strictly matched (double-double-quote format), HTML tags preserved, escape sequences preserved. Validation: passed. Next: line 196279 (b1001_debugmissioncalltoaction sequential processing per strict workflow)"
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "1bf1927",
-  "last_commit_message": "Retranslation R3-196: 95 entries (lines 194875-195955)",
-  "total_entries_completed": 17605,
+  "last_commit_hash": "6c7e5da",
+  "last_commit_message": "Retranslation R3-197: 42 entries (lines 195956-196278)",
+  "total_entries_completed": 17647,
   "total_entries": 169712,
-  "total_entries_untranslated": 152107,
-  "overall_completion_rate": 10.37,
-  "next_action": "Continue from line 195956 (skip debug section, proceed to line 196003 - 01001_hawkbit_obsolete)",
+  "total_entries_untranslated": 152065,
+  "overall_completion_rate": 10.40,
+  "next_action": "Continue from line 196279 (b1001_debugmissioncalltoaction - sequential processing per strict workflow)",
   "restart_info": {
     "restart_number": 3,
     "restart_date": "2025-11-05",
