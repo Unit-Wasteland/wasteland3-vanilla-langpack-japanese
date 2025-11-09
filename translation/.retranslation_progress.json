@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 17037,
-      "entries_untranslated": 152675,
-      "completion_rate": 10.04,
-      "current_line": 191701,
+      "entries_translated": 17175,
+      "entries_untranslated": 152537,
+      "completion_rate": 10.12,
+      "current_line": 192601,
       "status": "in_progress",
       "approach": "STRICT sequential from line 390 - enhanced validation with bracket marker protection",
-      "note": "Session R3-192: 225 entries (lines 191249-191700). Translated: a5101_thepatriarch_atpalace palace dialogues continuation (225 entries). Topics: Victory recruitment reactions, Liberty search, oil crisis, Ironclad Cordite prison raid consequences, secret prison interrogation, Angela Deth plan, Steeltown outcomes. All structure validation passed. Next: line 191701 (a5101_dutyroster section start)"
+      "note": "Session R3-193: 138 entries (lines 191701-192600). Translated: Palace security systems (a5101_dutyroster duty roster terminal 70 entries, a5101_offdutyguardbanter guard conversations 26 entries, a5101_radio_guardshiftchange automated broadcasts 7 entries, a5101_turretcontrol terminal 4 entries, a5101_turrets access control 2 entries, a5101_valterminal01 Valor terminal puzzle 29 entries). Topics: Guard shift management, terminal interfaces, chemical formula encryption. All structure validation passed. Next: line 192601 (a5201_cloudsdriftingwest section start)"
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "b38241a",
-  "last_commit_message": "Retranslation R3-192: 225 entries (lines 191249-191700)",
-  "total_entries_completed": 17037,
+  "last_commit_hash": "49c47d5",
+  "last_commit_message": "Retranslation R3-193: 138 entries (lines 191701-192600)",
+  "total_entries_completed": 17175,
   "total_entries": 169712,
-  "total_entries_untranslated": 152675,
-  "overall_completion_rate": 10.04,
-  "next_action": "Continue from line 191701 (a5101_dutyroster section start)",
+  "total_entries_untranslated": 152537,
+  "overall_completion_rate": 10.12,
+  "next_action": "Continue from line 192601 (a5201_cloudsdriftingwest section start)",
   "restart_info": {
     "restart_number": 3,
     "restart_date": "2025-11-05",
