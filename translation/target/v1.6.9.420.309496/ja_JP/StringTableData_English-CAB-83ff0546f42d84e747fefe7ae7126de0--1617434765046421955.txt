@@ -299725,39 +299725,39 @@
       1 Array Array (17 items)
        0 int size = 17
        [0]
-        1 string data = "This jury-rigged device looks like it was slapdashedly assembled, held together by duct tape and spit. A gas tank - marked with hazard symbols - has been attached to pipes flowing out of the room.\n\n\nYou can hear gas flowing into the pipes."
+        1 string data = "この応急処置的な装置は、ずさんに組み立てられたように見え、ダクトテープと唾液で固定されている。危険シンボルが付いたガスタンクが、部屋から流れ出るパイプに接続されている。\n\n\nパイプの中にガスが流れる音が聞こえる。"
        [1]
-        1 string data = " View debug options."
+        1 string data = " デバッグオプションを表示する。"
        [2]
-        1 string data = " Select a debug option."
+        1 string data = " デバッグオプションを選択する。"
        [3]
-        1 string data = " Disable sauna gas."
+        1 string data = " サウナのガスを無効化する。"
        [4]
-        1 string data = " Gas disabled."
+        1 string data = " ガスを無効化した。"
        [5]
-        1 string data = "Leave the device alone."
+        1 string data = "装置をそのままにしておく。"
        [6]
-        1 string data = "The gas tank device has been disabled. Gas is no longer flowing into the pipes."
+        1 string data = "ガスタンク装置が無効化された。ガスはもうパイプに流れていない。"
        [7]
-        1 string data = "This jury-rigged device looks like it was slapdashedly assembled, held together by duct tape and spit. A gas tank - marked with hazard symbols - has been attached to pipes flowing out of the room.\n\n\nApparently this was the device that was pumping gas into the sauna."
+        1 string data = "この応急処置的な装置は、ずさんに組み立てられたように見え、ダクトテープと唾液で固定されている。危険シンボルが付いたガスタンクが、部屋から流れ出るパイプに接続されている。\n\n\nどうやら、これがサウナにガスを送り込んでいた装置のようだ。"
        [8]
-        1 string data = "Detach the device from the pipes."
+        1 string data = "装置をパイプから取り外す。"
        [9]
-        1 string data = "Unlock and turn the hand wheel to halt the gas flow."
+        1 string data = "ハンドホイールのロックを解除して回し、ガスの流れを止める。"
        [10]
-        1 string data = "Inspect the device more closely."
+        1 string data = "装置をもっと詳しく調べる。"
        [11]
-        1 string data = "You deftly unlock the hand wheel and rotate it all the way. The flow of gas has stopped, disarming the device."
+        1 string data = "あなたは巧みにハンドホイールのロックを解除し、最後まで回した。ガスの流れが止まり、装置を無力化した。"
        [12]
         1 string data = """"
        [13]
-        1 string data = "You break the makeshift seals attaching the gas tank to the pipes.\n\n\nThe tank immediately releases its contents into the air. While it disperses quickly, you couldn't help but get a lungful of whatever was in there."
+        1 string data = "あなたはガスタンクをパイプに取り付けている応急処置的な封印を破壊した。\n\n\nタンクは直ちにその内容物を空気中に放出する。すぐに拡散したが、あなたは中身が何であれ、肺いっぱいに吸い込んでしまった。"
        [14]
         1 string data = """"
        [15]
-        1 string data = "The gas tank was not made to be attached to the pipes, and the jury-rigged attachment should be easy to break... but the gas might escape into this room."
+        1 string data = "ガスタンクはパイプに接続されるように作られておらず、応急処置的な取り付け部は簡単に壊せるはずだ...しかし、ガスがこの部屋に漏れるかもしれない。"
        [16]
-        1 string data = "This jury-rigged device looks like it was slapdashedly assembled, held together by duct tape and spit. A gas tank - marked with hazard symbols - has been attached to pipes. You can hear gas flowing through the pipes in the direction of the sauna you saw before."
+        1 string data = "この応急処置的な装置は、ずさんに組み立てられたように見え、ダクトテープと唾液で固定されている。危険シンボルが付いたガスタンクがパイプに接続されている。以前見たサウナの方向へ、パイプの中をガスが流れる音が聞こえる。"
    [970]
     0 StringTable data
      1 string Filename = "c2101_doctor"
@@ -299883,59 +299883,59 @@
       1 Array Array (28 items)
        0 int size = 28
        [0]
-        1 string data = ""Dreamwalkers, can we help?""
+        1 string data = ""ドリームウォーカーよ、助けが必要か?""
        [1]
-        1 string data = ""Can you heal us?""
+        1 string data = ""治療してもらえるか?""
        [2]
-        1 string data = ""Goodbye.""
+        1 string data = ""さようなら。""
        [3]
-        1 string data = ""WHAT...? You are not injured.""
+        1 string data = ""何だと...? 怪我をしていないではないか。""
        [4]
-        1 string data = "[[Global: c2101_Money_Doctor_Fee] Dollars] "Healing vapors can, for a small fee.""
+        1 string data = "[[Global: c2101_Money_Doctor_Fee] Dollars] "治癒の蒸気なら、わずかな料金でできる。""
        [5]
-        1 string data = ""On second thought, never mind.""
+        1 string data = ""やっぱり、いい。""
        [6]
-        1 string data = ""We don't have enough money.""
+        1 string data = ""金が足りない。""
        [7]
-        1 string data = "[[Global: c2101_Money_Doctor_Fee] Dollars] "Here's your money.""
+        1 string data = "[[Global: c2101_Money_Doctor_Fee] Dollars] "金はここだ。""
        [8]
-        1 string data = ""Unfortunate.""
+        1 string data = ""残念だ。""
        [9]
-        1 string data = ""Dream...""
+        1 string data = ""夢...""
        [10]
         1 string data = "::hhhssshhhh::"
        [11]
-        1 string data = ""Dreamwalkers, the Gift has said to heal you.""
+        1 string data = ""ドリームウォーカーよ、恩恵がお前たちを治癒せよと言っている。""
        [12]
-        1 string data = ""Who are you?""
+        1 string data = ""あなたは誰だ?""
        [13]
-        1 string data = ""What do you think of the Gift?""
+        1 string data = ""恩恵についてどう思う?""
        [14]
-        1 string data = ""Without flaw.""
+        1 string data = ""完璧だ。""
        [15]
-        1 string data = ""Savior. Without her, no vapors. She is the true giver... not Victory.""
+        1 string data = ""救世主だ。彼女なしでは、蒸気はない。彼女こそが真の与え主...ヴィクトリーではない。""
        [16]
-        1 string data = ""Hyde. No... yes. HYDE.""
+        1 string data = ""ハイド。いや...そうだ。ハイドだ。""
        [17]
-        1 string data = ""Why did you call us dreamwalkers?""
+        1 string data = ""なぜ我々をドリームウォーカーと呼ぶ?""
        [18]
-        1 string data = ""Stepped into... MY DREAM.""
+        1 string data = ""お前たちは...私の夢に足を踏み入れた。""
        [19]
         1 string data = "::hhhssshhh::"
        [20]
         1 string data = "Script Node 22"
        [21]
-        1 string data = ""No fight!""
+        1 string data = ""戦うな!""
        [22]
-        1 string data = ""Stop...!""
+        1 string data = ""やめろ...!""
        [23]
         1 string data = ""
        [24]
-        1 string data = ""Don't touch that!""
+        1 string data = ""それに触るな!""
        [25]
-        1 string data = ""Leave that alone!""
+        1 string data = ""それに手を出すな!""
        [26]
-        1 string data = ""Let's trade.""
+        1 string data = ""取引をしよう。""
        [27]
         1 string data = "::hhhssshhhh::"
    [971]
@@ -300007,31 +300007,31 @@
       1 Array Array (14 items)
        0 int size = 14
        [0]
-        1 string data = "The cables running across the floor terminate in a metal box bolted to the wall. The front panel looks like it can be detached easily."
+        1 string data = "床を這うケーブルが、壁にボルトで固定された金属製の箱に接続されている。フロントパネルは簡単に取り外せそうだ。"
        [1]
         1 string data = ""
        [2]
         1 string data = "::zzt::"
        [3]
-        1 string data = "Look for a way to disable the power."
+        1 string data = "電源を無効化する方法を探す。"
        [4]
-        1 string data = "Leave it alone. "
+        1 string data = "そのままにしておく。"
        [5]
-        1 string data = "The mess of wires is impossible to untangle, but the shoddy workmanship also means the device is easy to shortcircuit. Using several bits of metal and your engineering know-how, you interrupt the flow of elecricity."
+        1 string data = "配線の混乱はほどくことが不可能だが、ずさんな作業のおかげで装置を短絡させるのは簡単だ。いくつかの金属片と工学の知識を使って、あなたは電気の流れを遮断した。"
        [6]
-        1 string data = "Inside the panels are tightly-wrapped bundles of sturdy cables. Brute force won't work here, and you lack the technical expertise to figure out what will."
+        1 string data = "パネルの内部には、頑丈なケーブルがきつく束ねられている。ここでは力任せは通用しないし、何をすればいいのか判断する技術的専門知識もない。"
        [7]
         1 string data = ""
        [8]
         1 string data = "Script Node 13"
        [9]
-        1 string data = "Remove the panel."
+        1 string data = "パネルを取り外す。"
        [10]
-        1 string data = "The panel comes off easily, revealing a nightmarish tangle of wires. Whoever put this device together was either in a hurry or had very little idea of what they were doing."
+        1 string data = "パネルは簡単に外れ、悪夢のような配線の混乱が露わになった。この装置を組み立てた者は、急いでいたか、自分が何をしているのかほとんどわかっていなかったかのどちらかだ。"
        [11]
-        1 string data = "This metal box contains a jumble of wires. This jury-rigged device is attached to the cables running across the floor. "
+        1 string data = "この金属製の箱には、配線の寄せ集めが入っている。この応急処置的な装置は、床を這うケーブルに接続されている。"
        [12]
-        1 string data = "There's nothing else you can do here."
+        1 string data = "ここでできることは他にない。"
        [13]
         1 string data = "Trigger Conv Node 19"
    [972]
@@ -300099,31 +300099,31 @@
       1 Array Array (13 items)
        0 int size = 13
        [0]
-        1 string data = ""Rangers, I remember you... from the old... dream.""
+        1 string data = ""レンジャーよ、覚えているぞ...古い夢から...。""
        [1]
-        1 string data = ""Now... I have a new... dream.""
+        1 string data = ""今は...新しい夢がある...。""
        [2]
-        1 string data = ""Erastus? Is that you? You've changed.""
+        1 string data = ""エラスタス? 君か? 変わったな。""
        [3]
-        1 string data = ""Why are you still dressed lke a Dorsey?""
+        1 string data = ""なぜまだドーシーの格好をしている?""
        [4]
-        1 string data = ""We're here for the Patriarch's son.""
+        1 string data = ""パトリアークの息子を迎えに来た。""
        [5]
-        1 string data = ""Goodbye.""
+        1 string data = ""さようなら。""
        [6]
-        1 string data = ""You fade... from the dream.""
+        1 string data = ""お前たちは薄れていく...夢から...。""
        [7]
-        1 string data = ""Nothing outside the dream... matters.""
+        1 string data = ""夢の外にあるものは...何も重要ではない。""
        [8]
-        1 string data = ""I embrace... the new dream.""
+        1 string data = ""私は新しい夢を...受け入れる。""
        [9]
-        1 string data = ""I embrace... the new dream.""
+        1 string data = ""私は新しい夢を...受け入れる。""
        [10]
-        1 string data = ""Your words gave me... new thoughts. I... followed them here, to... the Gift.""
+        1 string data = ""お前たちの言葉が私に...新しい考えを与えた。私は...それらに従ってここに来た、恩恵のもとへ...。""
        [11]
-        1 string data = ""The dream-giver... He corrupts the dream.""
+        1 string data = ""夢を与える者...彼は夢を堕落させる。""
        [12]
-        1 string data = ""She has shown me... the beauty of the... dream.""
+        1 string data = ""彼女は私に見せてくれた...夢の美しさを...。""
    [973]
     0 StringTable data
      1 string Filename = "c2101_estinward"
@@ -300317,93 +300317,93 @@
       1 Array Array (45 items)
        0 int size = 45
        [0]
-        1 string data = " Intro"
+        1 string data = " イントロ"
        [1]
-        1 string data = " View debug options"
+        1 string data = " デバッグオプションを表示する"
        [2]
-        1 string data = " Goodbye"
+        1 string data = " さようなら"
        [3]
-        1 string data = " Select a debug option"
+        1 string data = " デバッグオプションを選択する"
        [4]
-        1 string data = " Rescue Estin Ward"
+        1 string data = " エスティン・ワードを救出する"
        [5]
-        1 string data = " Estin Rescued"
+        1 string data = " エスティン救出済み"
        [6]
-        1 string data = "Start Conversation."
+        1 string data = "会話を開始する。"
        [7]
-        1 string data = "You peer through a little window in the heavy door. The room beyond appears to be a sauna, filled with clouds of gas. \r\n\r\nA shivering man is trapped in the sauna - he looks toward you, eyes wide and staring."
+        1 string data = "あなたは重いドアの小さな窓から覗き込む。その先の部屋はサウナのようで、ガスの雲で満たされている。\r\n\r\n震えている男がサウナに閉じ込められている - 彼はあなたの方を見て、目を大きく見開いてじっと見つめている。"
        [8]
-        1 string data = ""Door! Trap! Boooom!""
+        1 string data = ""ドア! 罠! ドカーン!""
        [9]
-        1 string data = ""Don't! Don't open d-d-door! Trap! Boom!""
+        1 string data = ""ダメだ! ド-ド-ドアを開けるな! 罠だ! ドカーン!""
        [10]
-        1 string data = "The door is open, the gas has vacated, and a middle-aged man has exited the room."
+        1 string data = "ドアが開き、ガスは消え去り、中年の男が部屋から出てきた。"
        [11]
         1 string data = "::wheezes::"
        [12]
-        1 string data = ""Ash. B-b-bones. Ice and eyes and ice.""
+        1 string data = ""灰。ホ-ホ-骨。氷と目と氷。""
        [13]
-        1 string data = "He starts coughing violently, then after a brief pause he begins hyperventilating and shaking."
+        1 string data = "彼は激しく咳き込み始め、しばらくして過呼吸と震えが始まる。"
        [14]
-        1 string data = "Try to hold him still."
+        1 string data = "彼を動かないように押さえる。"
        [15]
-        1 string data = "It appears to be a side effect of whatever drugs were in the gas."
+        1 string data = "ガスに含まれていた薬物の副作用のようだ。"
        [16]
-        1 string data = "Leave him alone. "
+        1 string data = "放っておく。"
        [17]
-        1 string data = "He dies reaching out for you, for anyone. Bloody foam bubbles from his mouth and he goes still. "
+        1 string data = "彼はあなたに向かって、誰かに向かって手を伸ばしながら死んでいく。口から血まみれの泡が吹き出し、そして静止する。"
        [18]
         1 string data = "::twitch::"
        [19]
-        1 string data = "He thrashes in your arms, choking and shuddering. Bit by bit, his struggling subsides."
+        1 string data = "彼はあなたの腕の中で暴れ、窒息し震える。少しずつ、彼の抵抗は弱まっていく。"
        [20]
-        1 string data = "Tell him to concentrate on slowing his breathing."
+        1 string data = "呼吸を落ち着けることに集中するよう伝える。"
        [21]
-        1 string data = ""Brn. Gsh. Mf."\n\n\nHis brow wrinkles at the sound of his own voice."
+        1 string data = ""ブ...ガ...ム..."\n\n\n彼は自分の声を聞いて眉をしかめる。"
        [22]
-        1 string data = ""That's Estin Ward. What in blazes did they <i>do</i> to him?""
+        1 string data = ""エスティン・ワードだ。一体何を<i>したんだ</i>、彼に?""
        [23]
-        1 string data = ""Don't try to speak. Save your energy.""
+        1 string data = ""話そうとするな。体力を温存しろ。""
        [24]
-        1 string data = ""Stay here and rest.""
+        1 string data = ""ここで休んでいろ。""
        [25]
-        1 string data = "He rubs his throat, gently places his hands on your shoulders, then on the sides of your face. He can't speak.  "
+        1 string data = "彼は喉をさすり、そっとあなたの肩に手を置き、それからあなたの顔の横に手を置く。彼は話すことができない。"
        [26]
-        1 string data = "He clutches his arms, and nods silently. The gas took his voice, but he is stable.There's nothing more for you to do here."
+        1 string data = "彼は腕を抱え、黙ってうなずく。ガスで声を失ったが、容態は安定している。ここであなたがすべきことはもうない。"
        [27]
         1 string data = "::slow breaths::"
        [28]
-        1 string data = ""B-boom! Boom! Boom!""
+        1 string data = ""ド-ドカーン! ドカーン! ドカーン!""
        [29]
-        1 string data = "Slowly, steadily, he calms down and begins breathing normally. His mouth twitches, trying to form words."
+        1 string data = "ゆっくりと、着実に、彼は落ち着きを取り戻し、通常の呼吸を始める。彼の口がひきつり、言葉を形作ろうとしている。"
        [30]
-        1 string data = "The gas took his voice, but he is stable. There's nothing more you can do for him."
+        1 string data = "ガスで声を失ったが、容態は安定している。彼のためにこれ以上できることはない。"
        [31]
         1 string data = "Script Node 38"
        [32]
         1 string data = "Script Node 39"
        [33]
-        1 string data = " Debug Intro"
+        1 string data = " デバッグイントロ"
        [34]
-        1 string data = " View debug options"
+        1 string data = " デバッグオプションを表示する"
        [35]
-        1 string data = " Start Conv."
+        1 string data = " 会話を開始する"
        [36]
-        1 string data = " Exit"
+        1 string data = " 終了"
        [37]
-        1 string data = " Select a debug option"
+        1 string data = " デバッグオプションを選択する"
        [38]
-        1 string data = " Set Estin Ward Rescued"
+        1 string data = " エスティン・ワード救出済みに設定"
        [39]
-        1 string data = "  Estin has been rescued."
+        1 string data = "  エスティンは救出された。"
        [40]
-        1 string data = "You watch closely as he gasps for air, choking and shuddering. His hands reach for you, as if begging for help, but you remain out of reach."
+        1 string data = "あなたは彼が息を求めてあえぎ、窒息し震える様子を注意深く見守る。彼の手があなたに向かって伸びる、まるで助けを乞うように、しかしあなたは手の届かない場所にいる。"
        [41]
         1 string data = "Script Node 51"
        [42]
-        1 string data = ""N-no! No!""
+        1 string data = ""や-やめろ! やめろ!""
        [43]
-        1 string data = ""F-fire... and... blood...""
+        1 string data = ""ひ-火...と...血...""
        [44]
         1 string data = ""
    [974]
@@ -300435,11 +300435,11 @@
       1 Array Array (4 items)
        0 int size = 4
        [0]
-        1 string data = "You found a picture of a middle-aged woman with three young girls - possibly her daughters? The picture does not look old enough to be pre-war, but it is covered in a layer of dust, as if no one has looked at it in years."
+        1 string data = "あなたは中年女性と3人の若い女の子が写った写真を見つけた - おそらく娘たちだろうか? この写真は戦前のものとは思えないほど新しいが、長年誰も見ていないかのように、ほこりの層で覆われている。"
        [1]
-        1 string data = "The women seem content and well-off. As you look at the picture more closely, you notice that the middle-aged woman's dress is identical to the Gift's dress."
+        1 string data = "女性たちは満足そうで裕福に見える。写真をよく見ると、中年女性のドレスが恩恵のドレスと同じであることに気づく。"
        [2]
-        1 string data = "The women all seem content and healthy, they must have been fairly well-off."
+        1 string data = "女性たちは皆満足そうで健康的に見え、かなり裕福だったに違いない。"
        [3]
         1 string data = ""
    [975]
