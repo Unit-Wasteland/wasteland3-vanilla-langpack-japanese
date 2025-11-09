@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 25663,
-      "entries_untranslated": 144049,
-      "completion_rate": 15.12,
-      "current_line": 261283,
+      "entries_translated": 25882,
+      "entries_untranslated": 143830,
+      "completion_rate": 15.24,
+      "current_line": 263059,
       "status": "in_progress",
-      "approach": "STRICT sequential from line 390 - double-double-quote format protection",
-      "note": "Session R3-257: 318 entries (lines 259764-261282). Completed companion_barks_cordite (195 entries) and companion_barks_jodie (123 entries). Structure protection maintained. Next: line 261283 companion_barks_jola section"
+      "approach": "STRICT sequential from line 390 - 4-quote format protection",
+      "note": "Session R3-258: 219 entries (lines 261716-263058). Completed companion_barks_jola (69 entries) and companion_barks_kwon (150 entries). Structure protection maintained. Next: line 263059 companion_barks_lucia section"
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "pending",
-  "last_commit_message": "Retranslation R3-257: Companion barks dialogue - 318 entries (lines 259764-261282)",
-  "total_entries_completed": 25663,
+  "last_commit_hash": "039842c655f1525b8236b8813512afbd8f824769",
+  "last_commit_message": "Retranslation R3-258: Companion barks sections Jola and Kwon - 219 entries (lines 261716-263058)",
+  "total_entries_completed": 25882,
   "total_entries": 169712,
-  "total_entries_untranslated": 144049,
-  "overall_completion_rate": 15.12,
-  "next_action": "Continue from line 261283",
+  "total_entries_untranslated": 143830,
+  "overall_completion_rate": 15.24,
+  "next_action": "Continue from line 263059",
   "restart_info": {
     "restart_number": 3,
     "restart_date": "2025-11-05",
