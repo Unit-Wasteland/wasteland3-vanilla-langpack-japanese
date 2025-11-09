@@ -181671,23 +181671,23 @@
        [3]
         1 string data = "Script Node 4"
        [4]
-        1 string data = ""RETURNING To LastKnownObjective: <i>LOC_HIDDEN_TREASURE</i>.""
+        1 string data = ""最後に認識された目標に復帰中: <i>LOC_HIDDEN_TREASURE</i>。""
        [5]
         1 string data = "Trigger Conv Node 6"
        [6]
         1 string data = "Script Node 7"
        [7]
-        1 string data = ""OBJECTIVE COMPLETE. Current location: <i>LOC_HIDDEN_TREASURE</i>.""
+        1 string data = ""目標達成。現在地: <i>LOC_HIDDEN_TREASURE</i>。""
        [8]
-        1 string data = ""UNKNOWN: Treasure status. Objective log: 'Left a few things for you in the yard, honey. Love, Dad.'""
+        1 string data = ""不明: 財宝の状態。目標ログ: 『裏庭にいくつか残しておいたよ、ハニー。愛を込めて、パパより』""
        [9]
         1 string data = "Script Node 10"
        [10]
-        1 string data = ""That was dad. Always thinking ahead.""
+        1 string data = ""それがパパだった。いつも先を見据えて。""
        [11]
-        1 string data = ""REPAIRS IN PROGRESS. PLEASE WAIT.""
+        1 string data = ""修理中。お待ちください。""
        [12]
-        1 string data = ""Even when he knew those Dorseys were coming for him, he was thinking ahead. He'll be counting on me to rescue him.""
+        1 string data = ""ドーシー一家が襲ってくることを知っていたときでさえ、先を見据えていた。きっとパパは私が救出に来ることを見越しているはず。""
        [13]
         1 string data = "Script Node 14"
        [14]
@@ -181695,7 +181695,7 @@
        [15]
         1 string data = "::beeps::"
        [16]
-        1 string data = ""Welcome home, Miss Wesson.""
+        1 string data = ""おかえりなさいませ、ウェッソンお嬢様。""
        [17]
         1 string data = "Script Node 18"
        [18]
@@ -181903,31 +181903,31 @@
        [7]
         1 string data = " Global Value Set"
        [8]
-        1 string data = "At your approach, the servitor twitches and heaves, rising to its full height."
+        1 string data = "近づくと、サーヴィターが痙攣し、うめき声を上げながら、その全高まで立ち上がる。"
        [9]
-        1 string data = ""HELLO. HELLO AND WELCOME TO THE WONDROUS, FABULOUS, MOST FANTABULOUS HOME OF THE W-W-WARD FAMILY."\n\n\nIt finishes with a burst of static and sparks."
+        1 string data = ""こんにちは。こんにちは、そしてようこそ、素晴らしき、華麗なる、最高に素敵なウウウ・ウォード家の邸宅へ。"\n\n\n静電ノイズと火花の爆発と共に、言葉を締めくくる。"
        [10]
-        1 string data = ""WHAT IS YOUR BUSINESS AT THE WARDS' ESTATE?""
+        1 string data = ""ウォード家の屋敷で何の御用でしょうか?""
        [11]
-        1 string data = ""We just want to take a look around.""
+        1 string data = ""ちょっと見て回りたいだけだ。""
        [12]
-        1 string data = ""Elijah Ward sent for us.""
+        1 string data = ""イライジャ・ウォードに呼ばれた。""
        [13]
-        1 string data = ""Goodbye.""
+        1 string data = ""さよなら。""
        [14]
-        1 string data = "The servitor goes silent, inert save for a hum of static. Then without warning, it jolts to attention again."
+        1 string data = "サーヴィターは沈黙し、静電ノイズの唸り以外は不活性状態になる。それから警告なく、再び注意状態に跳ね起きる。"
        [15]
-        1 string data = ""THE MASTER IS EXPECTING YOU. PLEASE ENTER THROUGH THE DOOR.""
+        1 string data = ""ご主人様がお待ちです。ドアからお入りください。""
        [16]
-        1 string data = "The servitor slumps forward, going inert. Then without warning, it rouses itself."
+        1 string data = "サーヴィターは前方に垂れ下がり、不活性状態になる。それから警告なく、再び起動する。"
        [17]
-        1 string data = ""YOUR PRESENCE HAS NOT BEEN REQUESTED. YOU MAY NOT PASS.""
+        1 string data = ""お越しは要請されておりません。通行はできません。""
        [18]
-        1 string data = ""THANK YOU, LADIES AND GENTLEMEN."\n\n\nSparks burst from the back of the servitor's head. It appears to be looking past you at an imagined crowd."
+        1 string data = ""紳士淑女の皆様、ありがとうございました。"\n\n\nサーヴィターの頭部後方から火花が爆発する。それは君たちの向こう側にある想像上の群衆を見ているようだ。"
        [19]
-        1 string data = ""MAY THE SHOW GO ON!""
+        1 string data = ""ショーは続く!""
        [20]
-        1 string data = "The servitor stands to the side of the entrance, still as a poised knife."
+        1 string data = "サーヴィターは入口の脇に立ち、構えたナイフのように静止している。"
        [21]
         1 string data = " View debug options"
        [22]
@@ -181945,7 +181945,7 @@
        [28]
         1 string data = "Script Node 30"
        [29]
-        1 string data = ""THE W-W-WARDS WELCOME YOU!""
+        1 string data = ""ウウウ・ウォード家があなたを歓迎します!""
        [30]
         1 string data = "Script Node 32"
        [31]
@@ -181953,21 +181953,21 @@
        [32]
         1 string data = "Setting Elijah Invited == 2.."
        [33]
-        1 string data = "Override the robot and set yourself as an administrator."
+        1 string data = "ロボットを上書きして、自分を管理者に設定する。"
        [34]
-        1 string data = ""THE MASTER IS EXPECTING YOU. PLEASE ENTER THROUGH THE DOOR.""
+        1 string data = ""ご主人様がお待ちです。ドアからお入りください。""
        [35]
-        1 string data = "The servitor goes silent for a moment, before jolting back to attention."
+        1 string data = "サーヴィターは一瞬沈黙し、それから突然、再び注意状態に跳ね起きる。"
        [36]
-        1 string data = ""We have information about Bellamy Ward and Estin Ward.""
+        1 string data = ""ベラミー・ウォードとエスティン・ウォードに関する情報がある。""
        [37]
-        1 string data = ""We have information about Bellamy Ward.""
+        1 string data = ""ベラミー・ウォードに関する情報がある。""
        [38]
-        1 string data = ""We have information about Estin Ward.""
+        1 string data = ""エスティン・ウォードに関する情報がある。""
        [39]
-        1 string data = ""PROCESSING... INSUFFICIENT CREDENTIALS FOR ENTRY.""
+        1 string data = ""処理中... 入場には資格が不十分です。""
        [40]
-        1 string data = ""PLEASE RETURN AT A LATER DATE. ENTRY PARAMETERS MAY CHANGE IN THE FUTURE.""
+        1 string data = ""後日お戻りください。入場パラメーターは将来変更される可能性があります。""
        [41]
         1 string data = "Script Node 44"
        [42]
@@ -182055,15 +182055,15 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = ""THE MASTER WILL RECEIVE YOU IN HIS STUDY.""
+        1 string data = ""ご主人様が書斎でお待ちです。""
        [2]
-        1 string data = ""PLEASE DO NOT TOUCH ANYTHING.""
+        1 string data = ""何もお触りにならないでください。""
        [3]
-        1 string data = ""YOUR PRESENCE WAS NOT REQUESTED. PLEASE LEAVE IMMEDIATELY.""
+        1 string data = ""お越しは要請されておりません。直ちにお立ち去りください。""
        [4]
-        1 string data = ""THIS SERVITOR IS PROUD TO SERVE THE WARD FAMILY.""
+        1 string data = ""このサーヴィターはウォード家に仕える誇りを持っています。""
        [5]
-        1 string data = ""ENGAGING PRE-EMPTIVE SELF-DEFENSE PROTOCOLS.""
+        1 string data = ""先制自衛プロトコルを開始します。""
        [6]
         1 string data = "Script Node 7"
        [7]
@@ -182073,17 +182073,17 @@
        [9]
         1 string data = "Script Node 10"
        [10]
-        1 string data = ""THE MASTER IS WAITING PATIENTLY FOR YOU, RANGERS.""
+        1 string data = ""ご主人様が辛抱強くお待ちです、レンジャーの皆様。""
        [11]
-        1 string data = ""PLEASE PROCEED TO THE STUDY. THE MASTER IS EXPECTING YOU.""
+        1 string data = ""書斎へお進みください。ご主人様がお待ちです。""
        [12]
-        1 string data = ""WE ARE CERTAIN YOU ARE ENJOYING THE MASTER'S HOSPITALITY.""
+        1 string data = ""ご主人様のおもてなしをお楽しみいただいていることと存じます。""
        [13]
-        1 string data = ""FEEL FREE TO PROCEED TO THE NEAREST EXIT.""
+        1 string data = ""お近くの出口へお進みください。""
        [14]
-        1 string data = ""INTRUDERS MAY BE ARRESTED FOR TRESPASSING. ALSO, THEY MAY BE KILLED.""
+        1 string data = ""侵入者は不法侵入で逮捕される可能性があります。また、殺害される可能性もあります。""
        [15]
-        1 string data = ""PLEASE DIE AS RAPIDLY AS POSSIBLE.""
+        1 string data = ""できるだけ早くお亡くなりください。""
        [16]
         1 string data = "Script Node 17"
    [610]
@@ -182185,13 +182185,13 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = "This looks like a work-in-progress version of the solar collectors placed throughout the Garden of the Gods."
+        1 string data = "これはガーデン・オブ・ザ・ゴッズ全域に配置されているソーラーコレクターの試作版のようだ。"
        [2]
-        1 string data = "You have no idea what this is... but it's very, very shiny."
+        1 string data = "これが何なのかまったくわからない...でも、とても、とても光っている。"
        [3]
-        1 string data = "This is one of the most beautiful designs you've ever seen. Even the insulation is elegant."
+        1 string data = "これは君が今まで見た中で最も美しいデザインの一つだ。断熱材でさえ優雅だ。"
        [4]
-        1 string data = "You recognize this as a highly sophisticated solar collector, adapted to extreme cold and harsh conditions."
+        1 string data = "これは極寒と過酷な環境に適応した、非常に洗練されたソーラーコレクターだと認識できる。"
        [5]
         1 string data = "Script Node 6"
        [6]
@@ -182199,25 +182199,25 @@
        [7]
         1 string data = ""
        [8]
-        1 string data = "This solar collector has been designed to operate in extremely harsh conditions."
+        1 string data = "このソーラーコレクターは極めて過酷な環境下で動作するよう設計されている。"
        [9]
-        1 string data = "Upgrade the solar collector using the spare parts on the table."
+        1 string data = "テーブルの上の予備部品を使ってソーラーコレクターをアップグレードする。"
        [10]
-        1 string data = "Step away from the solar collector."
+        1 string data = "ソーラーコレクターから離れる。"
        [11]
-        1 string data = "Dismantle the solar collector and re-assemble it utilizing a more efficient design."
+        1 string data = "ソーラーコレクターを分解し、より効率的な設計を利用して再組み立てする。"
        [12]
         1 string data = "Script Node 13"
        [13]
-        1 string data = "Quietly remove the most valuable parts."
+        1 string data = "静かに最も価値のある部品を取り外す。"
        [14]
-        1 string data = "Your improvements, though barely visible, are definitely working."
+        1 string data = "君の改良は、ほとんど目に見えないが、確実に機能している。"
        [15]
-        1 string data = "Unless someone examines it very closely, they'll never notice anything is missing."
+        1 string data = "誰かが非常に注意深く調べない限り、何かが欠けていることに決して気付かないだろう。"
        [16]
-        1 string data = "You work quickly, pocketing the most valuable components."
+        1 string data = "君は素早く作業し、最も価値のある部品をポケットに入れる。"
        [17]
-        1 string data = "Though difficult, it doesn't take very long to put it back together in a more efficient configuration."
+        1 string data = "難しいが、より効率的な構成に再組み立てするのにそれほど時間はかからない。"
        [18]
         1 string data = "Script Node 19"
        [19]
@@ -182251,9 +182251,9 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = "After a moment of examination, it becomes clear this wood is burning abnormally slowly. It looks to have been treated with some kind of chemical."
+        1 string data = "しばらく調べると、この木材が異常に遅く燃えていることが明らかになる。何らかの化学薬品で処理されているようだ。"
        [2]
-        1 string data = "This piping-hot fire smells faintly of burning metal."
+        1 string data = "この激しく燃える火は、かすかに燃える金属の匂いがする。"
    [612]
     0 StringTable data
      1 string Filename = "a5001_wessondrone01"
@@ -182327,35 +182327,35 @@
       1 Array Array (15 items)
        0 int size = 15
        [0]
-        1 string data = ""INTRUDERS DETECTED. LEAVE NOW.""
+        1 string data = ""侵入者検出。ただちに立ち去れ。""
        [1]
         1 string data = " We serve the Wesson Family."
        [2]
         1 string data = "Script Node 3"
        [3]
-        1 string data = ""ALARM. ALARM. ALARM.""
+        1 string data = ""警報。警報。警報。""
        [4]
-        1 string data = ""INTRUDERS DETECTED. ENGAGING HOSTILE MODE.""
+        1 string data = ""侵入者検出。敵対モードを開始。""
        [5]
-        1 string data = ""SWEEP. SEEK. DESTROY.""
+        1 string data = ""掃討。捜索。破壊。""
        [6]
-        1 string data = ""Lucia Wesson: recognized.""
+        1 string data = ""ルシア・ウェッソン: 認識完了。""
        [7]
-        1 string data = ""Scanning... Lucia Wesson recognized. Good day, miss.""
+        1 string data = ""スキャン中... ルシア・ウェッソン認識完了。ごきげんよう、お嬢様。""
        [8]
-        1 string data = ""Scan complete. Lucia Wesson: Pass.""
+        1 string data = ""スキャン完了。ルシア・ウェッソン: 通過。""
        [9]
-        1 string data = ""UNAUTHORIZED INTRUDERS DETECTED.""
+        1 string data = ""不許可侵入者検出。""
        [10]
-        1 string data = ""YOU ARE TRESPASSING. WE ARE AUTHORIZED TO USE DEADLY FORCE.""
+        1 string data = ""不法侵入です。致死的武力の使用が許可されています。""
        [11]
-        1 string data = ""PREPARING TO OPEN FIRE.""
+        1 string data = ""発砲準備中。""
        [12]
         1 string data = "Script Node 20"
        [13]
         1 string data = "Script Node 22"
        [14]
-        1 string data = ""The master of the house will see you now.""
+        1 string data = ""屋敷の主人が今からお会いします。""
    [613]
     0 StringTable data
      1 string Filename = "a5001_wessondrone01attacks"
@@ -182391,13 +182391,13 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = ""ALARM. ALARM. ALARM.""
+        1 string data = ""警報。警報。警報。""
        [2]
-        1 string data = ""INTRUDERS DETECTED. ENGAGING HOSTILE MODE""
+        1 string data = ""侵入者検出。敵対モードを開始""
        [3]
-        1 string data = ""SWEEP. SEEK. DESTROY.""
+        1 string data = ""掃討。捜索。破壊。""
        [4]
-        1 string data = ""PREPARING TO OPEN FIRE.""
+        1 string data = ""発砲準備中。""
    [614]
     0 StringTable data
      1 string Filename = "a5001_wessonrubble"
@@ -182467,27 +182467,27 @@
        [1]
         1 string data = "Script Node 2"
        [2]
-        1 string data = "Looks like the Dorseys ransacked the house and tossed broken furniture into the hallways. It's too cluttered to get through."
+        1 string data = "ドーシー一家が家を荒らし回り、壊れた家具を廊下に投げ捨てたようだ。散らかりすぎて通り抜けられない。"
        [3]
-        1 string data = "Peer beyond the rubble."
+        1 string data = "瓦礫の向こうを覗き込む。"
        [4]
-        1 string data = "Step away from the debris."
+        1 string data = "破片から離れる。"
        [5]
-        1 string data = "It's dark, but you can make out smashed scraps of wood and splintered doors. It doesn't look like the attackers left much of anything behind."
+        1 string data = "暗いが、粉々になった木片と割れたドアを見分けることができる。襲撃者たちはほとんど何も残していないようだ。"
        [6]
-        1 string data = ""Lucia, what do you think happened here?""
+        1 string data = ""ルシア、ここで何が起きたと思う?""
        [7]
-        1 string data = ""My house was the first place the Dorseys went. Probably walked right in through the front door, stole my parents and little brother away, and then took out their anger on the house.""
+        1 string data = ""私の家はドーシー一家が最初に向かった場所だった。おそらく正面玄関からそのまま入り込んで、両親と弟を連れ去って、それから怒りを家にぶつけたんだ。""
        [8]
-        1 string data = ""Damned Dorseys weren't content to rip everything up. They had to toss the furniture around too. Animals.""
+        1 string data = ""くそったれドーシーどもは全部めちゃくちゃにしただけでは満足できなかった。家具も投げ散らかさなきゃ気が済まなかったんだ。獣め。""
        [9]
-        1 string data = ""No point looking back there. It's smashed up even worse, and the Dorseys took everything worth stealing.""
+        1 string data = ""あそこを覗いても意味がない。さらにひどく壊されてるし、ドーシーは盗む価値のあるものは全部持ち去った。""
        [10]
         1 string data = "Script Node 11"
        [11]
-        1 string data = ""Couldn't even leave my memories of this place alone.""
+        1 string data = ""この場所の思い出さえも残しておいてくれなかった。""
        [12]
-        1 string data = ""I sure hope my family wasn't here when this happened. I hate to think of them cowering in a corner while those bastards tore apart our home.""
+        1 string data = ""これが起きたとき、家族がここにいなかったことを願うわ。あのクソ野郎どもが家を引き裂いている間、家族が隅で怯えていたなんて考えたくない。""
    [615]
     0 StringTable data
      1 string Filename = "a5011_cordite_endgame"
@@ -182817,139 +182817,139 @@
       1 Array Array (79 items)
        0 int size = 79
        [0]
-        1 string data = ""Pathetic old man. A coward to the end.""
+        1 string data = ""哀れな老人め。最後まで臆病者だ。""
        [1]
-        1 string data = ""Are we done, Rangers? My destiny waits for me in Kansas. It's time to take my armies and go.""
+        1 string data = ""終わったか、レンジャー?　俺の運命がカンザスで待っている。軍を率いて出発する時だ。""
        [2]
-        1 string data = "I guess we should finish sacking the city first!"
+        1 string data = "まず街を略奪し尽くした方がいいんじゃないか!"
        [3]
-        1 string data = ""We're done. Thanks for your help. Follow your destiny. Just don't let your followers pillage the place on the way out.""
+        1 string data = ""終わった。協力に感謝する。運命を追え。ただし、帰る途中で部下どもに略奪させるなよ。""
        [4]
-        1 string data = ""We're done. Thanks for the help. Now go follow your destiny. And take all the plunder you want on the way out. You deserve it.""
+        1 string data = ""終わった。協力に感謝する。さあ運命を追え。そして、帰る途中で好きなだけ戦利品を奪え。君にはその資格がある。""
        [5]
         1 string data = ""
        [6]
-        1 string data = ""Didn't I say I'd keep 'em in line? Do you think I'd go back on a promise?""
+        1 string data = ""奴らを律すると言わなかったか?　俺が約束を破ると思うのか?""
        [7]
-        1 string data = ""Yeah. They did enough damage on the way in.""
+        1 string data = ""ああ。来る途中で十分な被害を出したからな。""
        [8]
-        1 string data = ""What the hell are you saying, Rangers? You let this happen, there'll be rape, murder, and slaves taken. They'll burn Colorado to the ground.""
+        1 string data = ""何を言ってる、レンジャー?　これを許せば、強姦、殺人、奴隷狩りが起きる。コロラドは焼け野原になるぞ。""
        [9]
-        1 string data = ""You sure about this? If I let the my troops off the leash, they won't just be stealing bread and booze. There'll be rape, murder, and slaves taken. Is that what you want?""
+        1 string data = ""本気か?　俺が部隊の綱を解けば、単にパンと酒を盗むだけじゃ済まない。強姦、殺人、奴隷狩りが起きる。それが望みか?""
        [10]
-        1 string data = ""I made no deal with you. I made it with the Rangers, and I still owe them one last favor.""
+        1 string data = ""俺はお前と取引したわけじゃない。レンジャーと取引した。そして、まだ奴らに最後の恩が一つ残っている。""
        [11]
-        1 string data = ""Why not come to Kansas with me? There'll be all the fighting you could want - and a kingdom to help rule if you come out of it all alive. What do you say?""
+        1 string data = ""俺と一緒にカンザスに来ないか?　望むだけの戦いがある—そして生き残れば統治を手伝う王国がある。どうだ?""
        [12]
-        1 string data = ""Thanks, but we're gonna head back to Arizona.""
+        1 string data = ""悪いが、アリゾナに戻る。""
        [13]
-        1 string data = ""Sorry. We're gonna stay here and rebuild Colorado.""
+        1 string data = ""悪いな。ここに残ってコロラドを再建する。""
        [14]
-        1 string data = ""Sounds like a plan. We're ready to ride.""
+        1 string data = ""いいプランだ。いつでも出発できる。""
        [15]
         1 string data = ""
        [16]
-        1 string data = ""Ha! You think they'll be happy to see you? After you killed the man your commander wanted you to cut a deal with?""
+        1 string data = ""ハッ!　歓迎されると思ってるのか?　司令官が取引させたかった男を殺した後でか?""
        [17]
-        1 string data = ""Damn glad to hear it! Particularly since you've done so much to fuck it up.""
+        1 string data = ""嬉しい限りだ!　特にお前らがこんなにめちゃくちゃにしてくれたんだからな。""
        [18]
-        1 string data = ""Good. Fatten the land. Refill your coffers. One day I'll come back to reap what you sow.""
+        1 string data = ""よし。土地を肥やせ。金庫を満たせ。いつかお前が蒔いたものを刈り取りに戻ってくる。""
        [19]
-        1 string data = ""We're gonna head east too, but we're going to go it alone.""
+        1 string data = ""俺たちも東に向かう。だが、一人でやる。""
        [20]
-        1 string data = ""Motherfuckers. Burn down the house then walk away like you weren't the one playing with matches? Yeah, get out of here. And don't come back. The Colorado Rangers just named you public enemy number one.""
+        1 string data = ""クソ野郎ども。家を燃やして、自分がマッチで遊んでたんじゃないみたいに立ち去るのか?　ああ、出て行け。そして戻ってくるな。コロラド・レンジャーは今お前らを公敵ナンバーワンに指名した。""
        [21]
-        1 string data = ""Really. You filled up on glory, and now you're just gonna go? You're gonna leave all the boring clean-up work to old Angie. Fucking typical.""
+        1 string data = ""本当にそうなのね。栄光で腹を満たして、それで行くだけ?　退屈な後片付け作業は全部、老いたアンジーに任せるのね。まったく典型的だわ。""
        [22]
-        1 string data = "Have fun with that. We're going to start rebuilding Colorado. We'll make it better this time.\nI hope you'll joins us, Rangers."
+        1 string data = "楽しんでください。私たちはコロラドの再建を始めます。今度はもっと良くします。\nレンジャーも参加してくれることを願っています。"
        [23]
-        1 string data = "Uh, I was sorta hoping to finish DESTROYING it actually..."
+        1 string data = "あー、実は破壊し尽くすつもりだったんだが..."
        [24]
-        1 string data = ""Good luck. But fair warning. Kansas is mine.""
+        1 string data = ""幸運を祈る。だが警告しておく。カンザスは俺のものだ。""
        [25]
-        1 string data = ""Really. You filled up on glory, and now you're just gonna go? You're gonna leave all the boring clean-up work to old Angie. Fucking typical.""
+        1 string data = ""本当にそうなのね。栄光で腹を満たして、それで行くだけ?　退屈な後片付け作業は全部、老いたアンジーに任せるのね。まったく典型的だわ。""
        [26]
-        1 string data = ""All right. Let's go.""
+        1 string data = ""わかった。行くぞ。""
        [27]
-        1 string data = ""Destiny awaits.""
+        1 string data = ""運命が待っている。""
        [28]
-        1 string data = ""And now you can't even make nice by sending home some supplies. There ain't no supplies, not after you let the gangs loot 'em all. The Rangers would string you up if you went back. Shit, they're probably so hungry back there they'd eat you.""
+        1 string data = ""そして今、補給品を本国に送って懐柔することすらできない。補給品なんかない、お前がギャングどもに全部略奪させた後じゃな。戻ったらレンジャーどもがお前を吊るし上げるぞ。クソ、あそこは飢えすぎてお前を食うかもしれん。""
        [29]
-        1 string data = ""Of course not. Just making sure.""
+        1 string data = ""もちろん違う。確認しただけだ。""
        [30]
-        1 string data = ""No hard feelings. We don't trust anybody.""
+        1 string data = ""恨みはない。俺たちは誰も信用しない。""
        [31]
-        1 string data = ""And... so far, neither have you. You kept your promises and dealt honorably with me. I appreciate that. In fact, you'd make good lieutenants.""
+        1 string data = ""そして...今のところ、お前もそうしていない。約束を守り、俺に誠実に対処した。それを評価する。実際、良い副官になるだろう。""
        [32]
-        1 string data = ""I've never betrayed a trust.""
+        1 string data = ""俺は信頼を裏切ったことがない。""
        [33]
-        1 string data = ""Come on, warlord. Don't do this. Just take your army and go.""
+        1 string data = ""頼むよ、ウォーロード。これはやめてくれ。軍を率いて行け。""
        [34]
-        1 string data = ""Your call, Rangers. Do I give my armies a reaver's reward, or do I keep them in check?""
+        1 string data = ""決めるのはお前らだ、レンジャー。軍に略奪者の報酬を与えるか、それとも抑えるか?""
        [35]
-        1 string data = ""Let them do what they want.""
+        1 string data = ""好きにさせろ。""
        [36]
-        1 string data = ""On second thought, keep them in check.""
+        1 string data = ""やっぱり、抑えてくれ。""
        [37]
-        1 string data = ""Fine. We'll need slaves and supplies for the long march east. We'll take them here.""
+        1 string data = ""いいだろう。東への長い行軍に奴隷と補給品が必要だ。ここで手に入れる。""
        [38]
-        1 string data = ""Fine. We'll find other lands to loot on the way home.""
+        1 string data = ""いいだろう。帰る途中で略奪する別の土地を見つける。""
        [39]
-        1 string data = ""You have dealt honorably with me and kept your promises. I appreciate that. In fact, you'd make good lieutenants.""
+        1 string data = ""お前は俺に誠実に対処し、約束を守った。それを評価する。実際、良い副官になるだろう。""
        [40]
-        1 string data = ""Really? After you killed the man Woodson wanted you to cut a deal with? Cowboys, that bridge is burnt.""
+        1 string data = ""本気か?　ウッドソンが取引させたかった男を殺した後でか?　カウボーイども、その橋は燃え落ちたんだ。""
        [41]
-        1 string data = ""Forget Arizona. My offer still stands, unless you've got a better idea.""
+        1 string data = ""アリゾナは忘れろ。もっといい考えがなければ、俺の申し出はまだ有効だ。""
        [42]
-        1 string data = ""We're still going home. And we'll deal with the Rangers when we get there.""
+        1 string data = ""それでも帰る。着いたらレンジャーと話をつける。""
        [43]
-        1 string data = ""We appreciate the offer, but we're gonna stay here and help rebuild.""
+        1 string data = ""申し出には感謝するが、ここに残って再建を手伝う。""
        [44]
-        1 string data = ""Thanks. We'll head east, but we don't need any help. We'll make our own way.""
+        1 string data = ""ありがとう。東に向かうが、助けは不要だ。自分たちで道を切り開く。""
        [45]
-        1 string data = ""Okay. We'll take you up on it. We're ready when you are.""
+        1 string data = ""わかった。申し出を受ける。君の準備ができ次第、こちらも準備できている。""
        [46]
-        1 string data = ""It's your funeral. Say hi to Woodson for me.""
+        1 string data = ""勝手にしろ。ウッドソンによろしく言っといてくれ。""
        [47]
-        1 string data = ""Good luck.""
+        1 string data = ""幸運を祈る。""
        [48]
-        1 string data = ""Be seeing you.""
+        1 string data = ""またな。""
        [49]
-        1 string data = ""You can't even make a peace offering by sending home some supplies. There's no supplies left. My army plundered them on the way here. The Rangers would string you up if you went back.""
+        1 string data = ""補給品を本国に送って和解の意を示すこともできない。補給品は残ってない。俺の軍がここに来る途中で略奪した。戻ったらレンジャーどもがお前を吊るし上げるぞ。""
        [50]
-        1 string data = ""Motherfuckers. I thought we were on the same side, but you're givin' these assholes leave to turn Colorado into a slaughterhouse. Fuck you. You just made yourself the Advance Team's public enemy number one.""
+        1 string data = ""クソ野郎ども。同じ側だと思ってたのに、お前らはこのクソどもにコロラドを虐殺場にする許可を与えている。くたばれ。お前らは今、先遣チームの公敵ナンバーワンになった。""
        [51]
-        1 string data = ""I'm out of here.""
+        1 string data = ""俺は出て行く。""
        [52]
-        1 string data = ""You've made a dangerous enemy there, Rangers. But you've dealt honorably with me, and I appreciate that. In fact, you'd make great lieutenants.""
+        1 string data = ""危険な敵を作ったな、レンジャー。だが、お前は俺に誠実に対処してくれた。それを評価する。実際、素晴らしい副官になるだろう。""
        [53]
-        1 string data = ""Well, at least you're not looting the place on your way out. Thanks for your help, Rangers. Write when you get work.""
+        1 string data = ""まあ、少なくとも帰る途中で略奪はしないのね。協力に感謝するわ、レンジャー。仕事が見つかったら連絡してね。""
        [54]
-        1 string data = ""Yes. Good luck. But fair warning. Kansas is mine.""
+        1 string data = ""ああ。幸運を祈る。だが警告しておく。カンザスは俺のものだ。""
        [55]
-        1 string data = ""Well, at least you're not looting the place on your way out. Thanks for your help, Rangers, and good luck with the new job.""
+        1 string data = ""まあ、少なくとも帰る途中で略奪はしないのね。協力に感謝するわ、レンジャー、そして新しい仕事の幸運を祈るわ。""
        [56]
-        1 string data = ""Whew!""
+        1 string data = ""ふう!""
        [57]
-        1 string data = ""What with all the looting and political chaos, seems like a good time to take take Colorado for all it's worth.""
+        1 string data = ""略奪と政治的混乱で、コロラドを搾り取るには良い時期みたいだ。""
        [58]
-        1 string data = ""Bandits, eh? Not surprised. Good luck.""
+        1 string data = ""盗賊団か。驚かないな。幸運を。""
        [59]
-        1 string data = ""Just don't get any big ideas about trying it in Kansas.""
+        1 string data = ""カンザスで同じことを試そうなんて大それた考えは持つなよ。""
        [60]
-        1 string data = ""So long.""
+        1 string data = ""じゃあな。""
        [61]
-        1 string data = ""Well, what with all the looting and political chaos, maybe it's a good time to take Colorado for all it's worth.""
+        1 string data = ""まあ、略奪と政治的混乱で、コロラドを搾り取るには良い時期かもな。""
        [62]
-        1 string data = ""Why not come to Kansas with me? There'll be all the fighting you could want - and a kingdom to help rule if you come out of it all alive. What do you say?""
+        1 string data = ""俺と一緒にカンザスに来ないか?　望むだけの戦いがある—そして生き残れば統治を手伝う王国がある。どうだ?""
        [63]
-        1 string data = ""Why not come to Kansas with me? There'll be all the fighting you could want - and a kingdom to help rule if you come out of it all alive. What do you say?""
+        1 string data = ""俺と一緒にカンザスに来ないか?　望むだけの戦いがある—そして生き残れば統治を手伝う王国がある。どうだ?""
        [64]
         1 string data = ""
        [65]
         1 string data = ""
        [66]
-        1 string data = ""Wise. That's my motto too.""
+        1 string data = ""賢明だ。それは俺のモットーでもある。""
        [67]
         1 string data = "Script Node 89"
        [68]
@@ -182957,23 +182957,23 @@
        [69]
         1 string data = "Script Node 73"
        [70]
-        1 string data = "It's over. The Patriarch is dealt with. The future awaits. What will you do now?\n"
+        1 string data = "終わった。総主教は片付いた。未来が待っている。今後どうする?\n"
        [71]
-        1 string data = "Return to Arizona to face General Woodson's wrath."
+        1 string data = "アリゾナに戻り、ウッドソン将軍の怒りに直面する。"
        [72]
-        1 string data = "Ignore all your responsibilities to seek adventure and glory in the untamed lands east of Colorado."
+        1 string data = "すべての責任を無視して、コロラドの東にある未開の土地で冒険と栄光を求める。"
        [73]
-        1 string data = "Stay and attempt to help Colorado rebuild."
+        1 string data = "残ってコロラドの再建を手伝おうとする。"
        [74]
-        1 string data = "You head back to Ranger HQ to start prepping for the long, cold journey home."
+        1 string data = "君たちはレンジャー本部に戻り、長く寒い帰郷の旅の準備を始める。"
        [75]
-        1 string data = "Join in the looting and pillaging."
+        1 string data = "略奪と強奪に加わる。"
        [76]
-        1 string data = "You head back to Ranger HQ to start preparing for the future."
+        1 string data = "君たちはレンジャー本部に戻り、未来への準備を始める。"
        [77]
-        1 string data = "It's going to be a long night. Heaven help anyone who gets in your way."
+        1 string data = "長い夜になるだろう。お前の道を阻む者たちに天の御加護があらんことを。"
        [78]
-        1 string data = "You head back to Ranger HQ and start prepping for a long, bloody journey."
+        1 string data = "君たちはレンジャー本部に戻り、長く血なまぐさい旅の準備を始める。"
    [616]
     0 StringTable data
      1 string Filename = "a5011_diligentjoe_endgame"
@@ -183055,39 +183055,39 @@
       1 Array Array (17 items)
        0 int size = 17
        [0]
-        1 string data = ""Really? After all the hard work we have done to civilize Colorado, and you're going to traipse up to the palace doors with a pack of savages at your back? I must confess, I am entirely disappointed."\n\n\n"It will take more than some leather-clad barbarians and genetic throwbacks to take this place.""
+        1 string data = ""本当ですか?　コロラドを文明化するために私たちがした懸命な努力の後で、野蛮人の群れを背に宮殿の扉まで闊歩するおつもりですか?　正直申し上げて、完全に失望しました。"\n\n\n"この場所を奪うには、革服の野蛮人や遺伝的な先祖返り以上のものが必要です。""
        [1]
-        1 string data = ""Hold up, Rangers." He seems exasperated, even annoyed."
+        1 string data = ""待ってください、レンジャー。" 彼はうんざりし、むしろ苛立っているようだ。"
        [2]
-        1 string data = ""It will take more than some leather-clad barbarians and genetic throwbacks to take this place.""
+        1 string data = ""この場所を奪うには、革服の野蛮人や遺伝的な先祖返り以上のものが必要です。""
        [3]
-        1 string data = ""You won't even make it to the palace steps."\n\n\n"Goodbye, Rangers. I wish I could say it had been a pleasure.""
+        1 string data = ""宮殿の階段にすら辿り着けないでしょう。"\n\n\n"さようなら、レンジャー。楽しかったと言えれば良かったのですが。""
        [4]
-        1 string data = ""Fire!""
+        1 string data = ""撃て!""
        [5]
-        1 string data = ""You see the tank behind me? The Patriarch has been waiting, just <i>waiting</i> to pull it out, before you ever set foot in Colorado. Your betrayal is so expected that I'm surprised at how unsurprised I am.""
+        1 string data = ""私の後ろの戦車が見えますか?　総主教はあなたがコロラドに足を踏み入れる前からずっと、<i>ずっと</i>それを引き出すのを待っていたのです。あなたの裏切りは予想通りで、私が驚いていないことに驚いているほどです。""
        [6]
-        1 string data = ""That's far enough, Rangers! Stay right there!""
+        1 string data = ""そこまでだ、レンジャー!　そこに留まれ!""
        [7]
-        1 string data = ""Do you think you're the first to try to betray the Patriarch? Did you think that you could just waltz in and seize power? Other, better people have tried, and they've all failed. The only surprise is that you managed to turn the marshals.""
+        1 string data = ""総主教を裏切ろうとしたのはあなたが初めてだと思いますか?　ただ踊り込んで権力を奪取できると思いましたか?　他のもっと優れた人々が試みて、全員失敗しました。驚きなのは、あなたがマーシャルを寝返らせたことだけです。""
        [8]
-        1 string data = ""We'll deal with them later, of course. With Daisy, especially. Fortunately, the elite palace guard were always chosen and tested for their loyalty, so at least you can't suborn <i>these</i>.""
+        1 string data = ""もちろん、後で彼らに対処します。特にデイジーには。幸いなことに、エリート宮殿警備隊は常に忠誠心で選ばれ試されてきました。だから、少なくとも<i>彼ら</i>を買収することはできません。""
        [9]
-        1 string data = "He points to the tank. "As you can see, we're more than prepared for your assault.""
+        1 string data = "彼は戦車を指す。"ご覧の通り、我々はあなたの襲撃に十分準備しています。""
        [10]
-        1 string data = "He is polishing his spectacles as you arrive, and he doesn't look at all surprised to see you."
+        1 string data = "君たちが到着すると、彼は眼鏡を磨いており、君たちを見ても全く驚いた様子はない。"
        [11]
-        1 string data = ""It grieves me to say this, but it's clear that the Patriarch has lost control. If he can't maintain a grasp on the marshals or the Hundred Families, then it's time for him to step down."\n\n\nHe sighs heavily. "All that's left is to inform him that he's no longer in charge.""
+        1 string data = ""これを言うのは悲しいことですが、総主教が統制を失ったのは明らかです。マーシャルや百家族を掌握できないなら、彼は退陣すべき時です。"\n\n\n彼は深くため息をつく。"残っているのは、もう彼が責任者ではないと伝えることだけです。""
        [12]
-        1 string data = ""He's in the audience chamber now. I'll open the gates so you can do the honors. And... try not to hurt him, please? He was once a great man.""
+        1 string data = ""彼は今、謁見の間にいます。門を開けますので、栄誉を果たしてください。そして...できれば傷つけないでください?　彼はかつて偉大な人物でした。""
        [13]
-        1 string data = ""Step aside, marshals. No one needs to get hurt today.""
+        1 string data = ""下がれ、マーシャル。今日は誰も傷つく必要はない。""
        [14]
         1 string data = ""
        [15]
-        1 string data = "You're not apparently opposing the Patriarch right now. Talk to Leland if you see this."
+        1 string data = "あなたは現在、総主教に明確に反対していないようです。これが見えたらリーランドに話してください。"
        [16]
-        1 string data = ""The doors are open, and the Patriarch is inside. Best of luck, Rangers.""
+        1 string data = ""扉は開いており、総主教は中にいます。幸運を祈ります、レンジャー。""
    [617]
     0 StringTable data
      1 string Filename = "a5011_marshal_endgame_wounded"
@@ -183105,7 +183105,7 @@
       1 Array Array (1 items)
        0 int size = 1
        [0]
-        1 string data = "Those Rangers... they stole... the tank..."
+        1 string data = "あのレンジャーどもが...奴らが奪った...戦車を..."
    [618]
     0 StringTable data
      1 string Filename = "a5011_patriarch_endgame"
