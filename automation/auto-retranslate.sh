@@ -380,10 +380,110 @@ while [ $SESSION_COUNT -lt $MAX_SESSIONS ]; do
     START_ENTRIES=$(get_progress_entries)
     log "INFO" "Current progress: $START_ENTRIES entries completed"
 
+    # Check for validation errors from previous session
+    STRUCTURE_ERROR_FILE="$WORKING_DIR/automation/.structure_errors.log"
+    QUALITY_ERROR_FILE="$WORKING_DIR/automation/.quality_errors.log"
+    HAS_STRUCTURE_ERRORS=false
+    HAS_QUALITY_ERRORS=false
+
+    if [ -f "$STRUCTURE_ERROR_FILE" ] && [ -s "$STRUCTURE_ERROR_FILE" ]; then
+        HAS_STRUCTURE_ERRORS=true
+        log "WARN" "Structure errors detected from previous session - will prioritize fixing"
+    fi
+
+    if [ -f "$QUALITY_ERROR_FILE" ] && [ -s "$QUALITY_ERROR_FILE" ]; then
+        HAS_QUALITY_ERRORS=true
+        log "WARN" "Quality errors detected from previous session - will prioritize fixing"
+    fi
+
     # Prepare command for Claude Code (STRICT WORKFLOW - based on STRICT_TRANSLATION_RULES.md)
     COMMAND_FILE="$WORKING_DIR/automation/.current_retranslate_command.txt"
-    cat > "$COMMAND_FILE" << EOF
+
+    # Generate command based on whether errors need fixing
+    if [ "$HAS_STRUCTURE_ERRORS" = true ] || [ "$HAS_QUALITY_ERRORS" = true ]; then
+        # ERROR FIXING MODE
+        log "INFO" "Generating error-fixing command..."
+        cat > "$COMMAND_FILE" << 'EOF'
+⚠️ **エラー修正モード - 優先タスク**
+
+前回のセッションでvalidationエラーが検出されました。通常の翻訳作業の前に、まずこれらのエラーを修正してください。
+
+**エラーレポートの確認:**
+EOF
+
+        if [ "$HAS_STRUCTURE_ERRORS" = true ]; then
+            echo "1. 構造エラー: automation/.structure_errors.log を読み込んで詳細を確認" >> "$COMMAND_FILE"
+        fi
+
+        if [ "$HAS_QUALITY_ERRORS" = true ]; then
+            echo "2. 品質エラー: automation/.quality_errors.log を読み込んで詳細を確認" >> "$COMMAND_FILE"
+        fi
+
+        cat >> "$COMMAND_FILE" << 'EOF'
+
+**修正手順 (CLAUDE.mdルールに従った個別判断・自動修正):**
+
+1. **エラーレポートの解析**:
+   - 各エラーの行番号、問題の種類、詳細を把握
+   - エラーの優先順位付け（構造エラー → 品質エラー）
+
+2. **個別エラーの修正** (MANDATORY - CLAUDE.mdルールに従う):
+   - 各エラーについて、CLAUDE.mdの該当ルールを適用
+   - Readツールで該当箇所を読み込み
+   - Editツールで正しい形式に修正
+   - 一度に1つのエラーを処理（バッチ処理禁止）
+
+3. **修正後の検証** (各修正ごとにMUSTで実行):
+
+   a) **構造検証**:
+      python3 translation/validate_structure_v2.py \
+        translation/target/v1.6.9.420.309496/ja_JP/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt \
+        --source translation/source/v1.6.9.420.309496/en_US/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt \
+        --detailed
+      → エラー数: 0 であることを確認
+
+   b) **アクションマーカー検証**:
+      grep -o '::[^:]*[ぁ-ゖァ-ヾ一-龯][^:]*::' translation/target/v1.6.9.420.309496/ja_JP/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt
+      → 結果が空であること確認
+
+   c) **品質検証**:
+      python3 translation/validate_translation_quality.py \
+        translation/target/v1.6.9.420.309496/ja_JP/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt \
+        --reference translation/source/v1.6.9.420.309496/es_ES/StringTableData_Spanish-CAB-f95544f6ef35e8a6587dccfa911ba0f8-9130184510981781208.txt \
+        --start-line 390 \
+        --end-line CURRENT_LINE \
+        --glossary translation/nouns_glossary.json
+      → Total issues found: 0 であることを確認
+
+4. **全エラー修正完了後**:
+   - 全ての検証が0エラーを確認
+   - git add -A
+   - git commit -m "Fix validation errors (auto-correction)"
+   - automation/.structure_errors.log 削除（該当する場合）
+   - automation/.quality_errors.log 削除（該当する場合）
+
+5. **通常翻訳作業への移行**:
+   - エラー修正完了を確認
+   - translation/.retranslation_progress.json を読み込み
+   - 通常の翻訳作業を再開（以下の通常モード指示に従う）
+
+---
+
+**通常翻訳作業（エラー修正完了後に実行）:**
+
 translation/.retranslation_progress.json を読み込んで、translation/STRICT_TRANSLATION_RULES.md に従って厳格翻訳作業を継続してください。
+EOF
+
+    else
+        # NORMAL TRANSLATION MODE
+        log "INFO" "Generating normal translation command..."
+        cat > "$COMMAND_FILE" << EOF
+translation/.retranslation_progress.json を読み込んで、translation/STRICT_TRANSLATION_RULES.md に従って厳格翻訳作業を継続してください。
+EOF
+    fi
+
+    # Append common instructions (same for both modes)
+    cat >> "$COMMAND_FILE" << EOF
 
 ⚠️ **自動実行モード**:
 - メインセッションで直接作業（サブエージェント不使用）
@@ -604,116 +704,47 @@ EOF
 
         # Validate structure before pushing
         log "INFO" "Running structure validation..."
-        if bash "$WORKING_DIR/automation/validate-structure.sh" >> "$LOG_FILE" 2>&1; then
-            log "INFO" "✓ Structure validation passed"
+        STRUCTURE_ERROR_FILE="$WORKING_DIR/automation/.structure_errors.log"
+        rm -f "$STRUCTURE_ERROR_FILE"  # Clear old errors
+
+        if ! python3 "$WORKING_DIR/translation/validate_structure_v2.py" \
+            "$WORKING_DIR/translation/target/v1.6.9.420.309496/ja_JP/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt" \
+            --source "$WORKING_DIR/translation/source/v1.6.9.420.309496/en_US/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt" \
+            --detailed > "$STRUCTURE_ERROR_FILE" 2>&1; then
+            log "WARN" "✗ Structure validation FAILED - errors saved to .structure_errors.log"
+            log "WARN" "  Next session will automatically fix these errors"
+            # Don't exit - continue to push current progress and let next session fix
         else
-            log "WARN" "✗ Structure validation FAILED!"
-            log "WARN" "  Attempting auto-fix..."
-
-            # Attempt auto-fix
-            if bash "$WORKING_DIR/automation/auto-fix-errors.sh" "$LOG_FILE"; then
-                log "INFO" "✓ Auto-fix completed - retrying validation"
-
-                # Retry validation
-                if bash "$WORKING_DIR/automation/validate-structure.sh" >> "$LOG_FILE" 2>&1; then
-                    log "INFO" "✓ Structure validation passed after auto-fix"
-
-                    # Commit auto-fix changes
-                    log "INFO" "Committing auto-fix changes..."
-                    cd "$WORKING_DIR"
-                    git add -A
-                    AUTOFIX_COMMIT_MSG="Auto-fix: Structure errors (Session #$SESSION_COUNT)
-
-Automated error correction by auto-fix-errors.sh
-
-🤖 Generated with [Claude Code](https://claude.com/claude-code)
-
-Co-Authored-By: Claude <noreply@anthropic.com>"
-                    if git commit -m "$AUTOFIX_COMMIT_MSG" >> "$LOG_FILE" 2>&1; then
-                        log "INFO" "✓ Auto-fix changes committed"
-                    else
-                        log "WARN" "⚠ No changes to commit (auto-fix may have been no-op)"
-                    fi
-                else
-                    log "ERROR" "✗ Structure validation still failing after auto-fix"
-                    log "ERROR" "  File structure is corrupted - manual review required"
-                    log "ERROR" "  Session output: $OUTPUT_FILE"
-                    log "ERROR" "  Stopping automation to prevent data loss"
-                    exit 1
-                fi
-            else
-                log "ERROR" "✗ Auto-fix failed - cannot recover automatically"
-                log "ERROR" "  Session output: $OUTPUT_FILE"
-                log "ERROR" "  Stopping automation - manual intervention required"
-                exit 1
-            fi
+            log "INFO" "✓ Structure validation passed"
+            rm -f "$STRUCTURE_ERROR_FILE"  # No errors, clean up
         fi
 
         # Validate translation quality (action markers, untranslated entries)
         log "INFO" "Running quality validation..."
+        QUALITY_ERROR_FILE="$WORKING_DIR/automation/.quality_errors.log"
+        rm -f "$QUALITY_ERROR_FILE"  # Clear old errors
+
         TARGET_FILE="$WORKING_DIR/translation/target/v1.6.9.420.309496/ja_JP/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt"
         REFERENCE_FILE="$WORKING_DIR/translation/source/v1.6.9.420.309496/es_ES/StringTableData_Spanish-CAB-f95544f6ef35e8a6587dccfa911ba0f8-9130184510981781208.txt"
 
         # Get current translation range from progress file
         CURRENT_LINE=$(safe_jq_read '.files.base_game.current_line // 390' "$PROGRESS_FILE" 390)
 
-        # Run quality validation on translated range (from line 390 to current line)
-        # Use Spanish reference to determine if English text should be translated
-        if python3 "$WORKING_DIR/translation/validate_translation_quality.py" \
+        if ! python3 "$WORKING_DIR/translation/validate_translation_quality.py" \
             "$TARGET_FILE" \
             --reference "$REFERENCE_FILE" \
             --start-line 390 \
-            --end-line "$CURRENT_LINE" >> "$LOG_FILE" 2>&1; then
-            log "INFO" "✓ Quality validation passed (no action marker or untranslated issues)"
+            --end-line "$CURRENT_LINE" \
+            --glossary "$WORKING_DIR/translation/nouns_glossary.json" > "$QUALITY_ERROR_FILE" 2>&1; then
+            log "WARN" "✗ Quality validation FAILED - errors saved to .quality_errors.log"
+            log "WARN" "  Next session will automatically fix these errors"
+            # Don't exit - continue to push current progress and let next session fix
         else
-            log "WARN" "✗ Quality validation FAILED!"
-            log "WARN" "  Attempting auto-fix..."
-
-            # Attempt auto-fix
-            if bash "$WORKING_DIR/automation/auto-fix-errors.sh" "$LOG_FILE"; then
-                log "INFO" "✓ Auto-fix completed - retrying validation"
-
-                # Retry validation
-                if python3 "$WORKING_DIR/translation/validate_translation_quality.py" \
-                    "$TARGET_FILE" \
-                    --reference "$REFERENCE_FILE" \
-                    --start-line 390 \
-                    --end-line "$CURRENT_LINE" >> "$LOG_FILE" 2>&1; then
-                    log "INFO" "✓ Quality validation passed after auto-fix"
-
-                    # Commit auto-fix changes
-                    log "INFO" "Committing auto-fix changes..."
-                    cd "$WORKING_DIR"
-                    git add -A
-                    AUTOFIX_COMMIT_MSG="Auto-fix: Quality errors (Session #$SESSION_COUNT)
-
-Automated error correction by auto-fix-errors.sh
-Fixed action markers and translation quality issues
-
-🤖 Generated with [Claude Code](https://claude.com/claude-code)
-
-Co-Authored-By: Claude <noreply@anthropic.com>"
-                    if git commit -m "$AUTOFIX_COMMIT_MSG" >> "$LOG_FILE" 2>&1; then
-                        log "INFO" "✓ Auto-fix changes committed"
-                    else
-                        log "WARN" "⚠ No changes to commit (auto-fix may have been no-op)"
-                    fi
-                else
-                    log "ERROR" "✗ Quality validation still failing after auto-fix"
-                    log "ERROR" "  Translation quality issues persist - manual review required"
-                    log "ERROR" "  Session output: $OUTPUT_FILE"
-                    log "ERROR" "  Stopping automation"
-                    exit 1
-                fi
-            else
-                log "ERROR" "✗ Auto-fix failed - cannot recover automatically"
-                log "ERROR" "  Session output: $OUTPUT_FILE"
-                log "ERROR" "  Stopping automation - manual intervention required"
-                exit 1
-            fi
+            log "INFO" "✓ Quality validation passed (no action marker or untranslated issues)"
+            rm -f "$QUALITY_ERROR_FILE"  # No errors, clean up
         fi
 
-        # Push to remote after successful progress and validation
+        # Push to remote after validation (even if validation found errors to fix later)
         log "INFO" "Pushing changes to remote repository..."
         if git push origin main >> "$LOG_FILE" 2>&1; then
             log "INFO" "✓ Successfully pushed to remote (commits: $ENTRIES_THIS_SESSION entries)"
