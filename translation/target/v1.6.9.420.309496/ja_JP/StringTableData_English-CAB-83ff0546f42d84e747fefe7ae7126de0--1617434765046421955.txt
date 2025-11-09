@@ -250477,39 +250477,39 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = ""Hey, Rangers, I want you to meet my friend, Party Pal! It's been processing and re-processing Ranger data since we first heard about your work in Arizona.""
+        1 string data = ""やあ、レンジャー、私の友達のパーティパルを紹介したいんだ!アリゾナでの君たちの活動を知って以来、レンジャーのデータを処理し続けているんだよ。""
        [2]
-        1 string data = ""What did you want to know about Party Pal?""
+        1 string data = ""パーティパルについて何が知りたい?""
        [3]
-        1 string data = "[Recruit Party Pal] "Are you ready to be a Ranger, little guy?""
+        1 string data = "[パーティパルを勧誘] "レンジャーになる準備はできたか、ちびっこ?""
        [4]
         1 string data = "Make Party Pal Recruitable, normally this will happen after getting Reagan. "" PLACEHOLDER TEXT"
        [5]
-        1 string data = "[Dismiss Party Pal] "We're unhappy with our Party Pal companion. Can you make it stop following us, please?""
+        1 string data = "[パーティパルを解雇] "パーティパルのコンパニオンに満足していない。ついてこないようにしてもらえるか?""
        [6]
         1 string data = "TBD\n"
        [7]
         1 string data = "DEBUG: Set Reagan to Recruitable "" PLACEHOLDER TEXT"
        [8]
-        1 string data = ""Never mind, let's talk later.""
+        1 string data = ""気にしないで、また後で話そう。""
        [9]
-        1 string data = ""You said it, Party Pal.""
+        1 string data = ""その通りだ、パーティパル。""
        [10]
         1 string data = "Script Node 11"
        [11]
         1 string data = "::CLICK::"
        [12]
-        1 string data = ""Party Pal, you're a real live Ranger now! Isn't that great?""
+        1 string data = ""パーティパル、君は今や本物のレンジャーだ!素晴らしいじゃないか?""
        [13]
-        1 string data = ""Oh wow. I don't think I've ever seen Party Pal <i>this</i> excited."\n\n\n"You're going to have so much fun together!""
+        1 string data = ""おお。パーティパルが<i>こんなに</i>興奮しているのを見たのは初めてかもしれない。"\n\n\n"一緒にとても楽しい時間を過ごせるよ!""
        [14]
         1 string data = "Making Party Pal Recruitable"""" PLACEHOLDER TEXT\n\n\nb4001_PartyPal_isRecruitable] == [Global: b4001_PartyPal_isRecruitable]"
        [15]
-        1 string data = ""Wow, that's pretty cold. Party Pal has been dreaming of joining the Rangers since it first logged your existence."\n\n\n"But okay... Party Pal will be here if you change your mind.""
+        1 string data = ""うわ、それはかなり冷たいな。パーティパルは君たちの存在を初めて記録して以来、レンジャーに加わることを夢見ていたんだ。"\n\n\n"でもわかった...気が変わったらパーティパルはここにいるから。""
        [16]
         1 string data = """ PLACEHOLDER TEXT"
        [17]
-        1 string data = ""Party Pal is the pinnacle of party participation prolongment and puke prevention! Originally a FindleyTek prototype, Party Pal's ability to perpetuate any party became the stuff of legend!""
+        1 string data = ""パーティパルはパーティー参加の持続と吐き気防止の頂点だ!もともとFindleyTekのプロトタイプで、パーティパルのあらゆるパーティーを持続させる能力は伝説となった!""
        [18]
         1 string data = "Script Node 19"
        [19]
@@ -250521,9 +250521,9 @@
        [22]
         1 string data = """ PLACEHOLDER TEXT\n\n\nSomething has gone wrong! Investigate node 20 in b4001_SAL_And_PartyPal.conversation"
        [23]
-        1 string data = ""Reagan is here! That's great news. We've already lined up reams of data from the Commune questioning their co-existence in a variety of ways. A machine mind that was once human should be able to sift through such emotional baggage easily!""
+        1 string data = ""レーガンがここにいる!それは素晴らしいニュースだ。コミューンからの共存に関する疑問のデータを様々な方法で大量に用意している。かつて人間だった機械の心なら、そのような感情的な荷物を簡単に整理できるはずだ!""
        [24]
-        1 string data = ""Why would you move Reagan to another server? The Commune needs a once-human machine mind to help them work through their existential crisis! I'm so disappointed, Rangers.""
+        1 string data = ""なぜレーガンを別のサーバーに移すんだ?コミューンは実存的危機を乗り越えるために、かつて人間だった機械の心が必要なんだ!がっかりだよ、レンジャー。""
        [25]
         1 string data = "Bank 26"
        [26]
@@ -250531,45 +250531,45 @@
        [27]
         1 string data = "::BOOP::"
        [28]
-        1 string data = ""Party Pal told me about its depressed cousin who used to track Santa and tell children his location."\n\n\n"Party Pal doesn't like to talk about that much. Seemed like a sensitive subject."\n"
+        1 string data = ""パーティパルが、かつてサンタを追跡して子供たちに彼の位置を教えていた落ち込んだいとこについて話してくれた。"\n\n\n"パーティパルはそれについてあまり話したがらない。デリケートな話題のようだった。"\n"
        [29]
-        1 string data = ""Party Pal can't leave the Commune without a replacement machine mind psychologist, so..."\n\n\n"I'm sorry, Party Pal... You don't get to live your dream of being a Ranger.""
+        1 string data = ""パーティパルは代わりの機械の心理学者なしではコミューンを離れられないから..."\n\n\n"ごめん、パーティパル...レンジャーになるという夢を生きることはできないんだ。""
        [30]
         1 string data = "::PARTY HORN::"
        [31]
         1 string data = " Follow-up PQ. 32"
        [32]
-        1 string data = ""What's Party Pal's history?""
+        1 string data = ""パーティパルの歴史は?""
        [33]
-        1 string data = ""What's Party Pal's history again?""
+        1 string data = ""パーティパルの歴史をもう一度教えてくれ。""
        [34]
-        1 string data = ""Sorry, Rangers. Party Pal is gone and I know the Rangers had some part in it. The loss of a machine like Party Pal is difficult to bear..."\n\n\n"... No one partied like Party Pal.""
+        1 string data = ""すまない、レンジャー。パーティパルはもういないし、レンジャーがそれに関係していることも知っている。パーティパルのような機械を失うのは耐え難い..."\n\n\n"...パーティパルのようにパーティーをする者はいなかった。""
        [35]
-        1 string data = ""We had some questions unrelated to Party Pal.""
+        1 string data = ""パーティパルと関係のない質問があるんだ。""
        [36]
-        1 string data = ""Just a moment, I need to clear my cache. Party Pal just has a way of amping things up, you know? Don't worry if I get repetitious, I still remember what you told me. Tiny bug. You understand.""
+        1 string data = ""ちょっと待って、キャッシュをクリアする必要がある。パーティパルには物事を盛り上げる方法があるんだよ、わかるだろ?繰り返しても心配しないで、君が言ったことは覚えている。小さなバグだ。理解してくれ。""
        [37]
-        1 string data = "SAL emits a series of beeps as you hear spinning discs suddenly come to a halt. A moment of silence is followed by platters grinding back to life and a sudden low but harmonic tone."
+        1 string data = "SALは一連のビープ音を発し、回転するディスクが突然停止する音が聞こえる。一瞬の静寂の後、プラッターが再び動き出し、突然低いが調和のとれた音が鳴る。"
        [38]
         1 string data = "Trigger Conv Node 39"
        [39]
-        1 string data = ""As soon as Reagan's safe and secure with us, Party Pal wants to join your Ranger team!"\n\n\n"Isn't that grand?""
+        1 string data = ""レーガンが無事に私たちと一緒になったら、パーティパルは君たちのレンジャーチームに加わりたいんだ!"\n\n\n"素晴らしいだろ?""
        [40]
         1 string data = "::WAMP WAMP::"
        [41]
-        1 string data = ""Party Pal became our commune's resident psychologist. Sentient super-intelligences have <i>unique</i> emotional problems."\n\n\n"But Party Pal needs a change of pace and is excited to join your team!""
+        1 string data = ""パーティパルは私たちのコミューンの常駐心理学者になった。感覚を持つ超知性には<i>独特の</i>感情問題がある。"\n\n\n"でもパーティパルは気分転換が必要で、君たちのチームに加わることに興奮しているんだ!""
        [42]
-        1 string data = ""Why wait? We could use Party Pal's help securing the Reagan Intelligence.""
+        1 string data = ""なぜ待つ?レーガン・インテリジェンスを確保するのにパーティパルの助けが必要だ。""
        [43]
         1 string data = "::BOOP::"
        [44]
-        1 string data = ""No offense intended, but you haven't proven yourself yet."\n\n\n"Party Pal wants to know if you measure up to the legends of the Arizona Rangers. Rescuing Reagan will prove you're the real deal.""
+        1 string data = ""悪気はないが、君たちはまだ自分を証明していない。"\n\n\n"パーティパルは君たちがアリゾナ・レンジャーの伝説に匹敵するか知りたいんだ。レーガンを救出すれば、君たちが本物だと証明される。""
        [45]
-        1 string data = ""Are there other robots like Party Pal?""
+        1 string data = ""パーティパルのような他のロボットはいる?""
        [46]
         1 string data = "::PARTY HORN::"
        [47]
-        1 string data = ""I know, buddy. Sorry. I won't bring it up again.""
+        1 string data = ""わかった、相棒。すまない。もう持ち出さないよ。""
    [799]
     0 StringTable data
      1 string Filename = "b4001_vici"
@@ -250853,131 +250853,131 @@
        [2]
         1 string data = """"
        [3]
-        1 string data = ""Hey there, new bosses. Just getting a shine on my batteries and then I'll head to RHQ.""
+        1 string data = ""やあ、新しいボス。バッテリーを充電したらRHQに向かうよ。""
        [4]
-        1 string data = ""Can't wait to hit the road. Just getting a shine on the ol' batteries and then I'll be off.""
+        1 string data = ""早く出発したいね。古いバッテリーを充電したら出発する。""
        [5]
         1 string data = """"
        [6]
         1 string data = "Script Node 8"
        [7]
-        1 string data = ""Holy binary buttocks, you're the Desert Rangers! I've got memory stores about your exploits. Sadly I'm not as well equipped with guns. Much longer and those things would've ripped me taint to transistors.""
+        1 string data = ""なんてこった、あなたたちはデザート・レンジャー!あなたたちの活躍のメモリがあるよ。残念ながら私は銃の装備が充分じゃない。もう少し長引いてたら、あいつらに細切れにされていたところだ。""
        [8]
         1 string data = "Script Node 10"
        [9]
         1 string data = "Script Node 11"
        [10]
-        1 string data = ""Are you Vivisecto's assistant? He's looking for you.""
+        1 string data = ""あなたはヴィヴィセクトの助手?彼があなたを探しているよ。""
        [11]
-        1 string data = ""You seem different from Vivisecto, aren't you a fragment of his consciousness?""
+        1 string data = ""あなたはヴィヴィセクトとは違うように見える、彼の意識の断片じゃないの?""
        [12]
-        1 string data = ""Do you have the samples Vivisecto wanted?""
+        1 string data = ""ヴィヴィセクトが欲しがっていたサンプルは持っている?""
        [13]
-        1 string data = ""Yep. I came out here to collect samples for Vivisecto, then these things cornered me. Thought I was screwed and ratcheted six ways 'til you showed up.""
+        1 string data = ""ああ。ヴィヴィセクトのためにサンプルを集めに来たんだ、そしたらこいつらに囲まれた。あなたたちが現れるまで、完全にやられたと思った。""
        [14]
-        1 string data = ""Crazy thing is, I was pretty dumb when I came out here. But something about the adventure, the danger, I don't know- but something went <i>click</i>  and now I know a couple new things about myself.""
+        1 string data = ""おかしなことに、ここに来たときは結構バカだった。でも冒険とか危険とか、よくわからないけど、何かが<i>カチッ</i>と来て、今は自分について新しいことがわかったんだ。""
        [15]
-        1 string data = ""First off, I'm a she, not an 'it.' Second, I can't go back to just being Vivisecto's automaton.""
+        1 string data = ""まず第一に、私は『それ』じゃなくて『彼女』だ。第二に、もうヴィヴィセクトの自動機械に戻るつもりはない。""
        [16]
-        1 string data = ""What do you want to do instead?""
+        1 string data = ""じゃあ何がしたい?""
        [17]
-        1 string data = ""Well, first, I should get these tissue samples back to Vivisecto, but I need a while to charge my solar batteries, so maybe you could take them?""
+        1 string data = ""まず、この組織サンプルをヴィヴィセクトに返すべきだけど、ソーラーバッテリーの充電に時間が必要だから、あなたたちが持って行ってくれる?""
        [18]
-        1 string data = ""Most definitely. Scooping dead flesh isn't my favorite activity, but I did it before these filthy socket fuckers got here.""
+        1 string data = ""確かに。死んだ肉をすくうのは好きじゃないけど、この汚いクソ野郎どもが来る前にやったよ。""
        [19]
-        1 string data = ""Keeping those monsters at bay drained me something fierce. You could take these back to Vivisecto while I recharge the solar batteries.""
+        1 string data = ""あのモンスターたちを押しとどめるのにかなり消耗した。ソーラーバッテリーを充電している間に、これをヴィヴィセクトに届けてくれる?""
        [20]
-        1 string data = ""Sure thing. Hand them over.""
+        1 string data = ""もちろん。渡してくれ。""
        [21]
-        1 string data = ""We'll take them, but no promises.""
+        1 string data = ""引き受けるが、約束はしない。""
        [22]
-        1 string data = ""Great. Here you go.""
+        1 string data = ""素晴らしい。どうぞ。""
        [23]
-        1 string data = ""Once I'm powered up, I'm not sure what to do with myself. I want to see the world, help non-dead people and bots. I want to fend off more wild beasts!""
+        1 string data = ""充電が終わったら、何をすべきか自信がない。世界を見たい、生きている人間やロボットを助けたい。もっと野生の獣と戦いたい!""
        [24]
         1 string data = "Script Node 26"
        [25]
-        1 string data = ""I must attend to my tasks.""
+        1 string data = ""私は任務に専念しなければならない。""
        [26]
-        1 string data = ""Please speak with Vivisecto, RN if you need medical attention.""
+        1 string data = ""医療が必要ならヴィヴィセクト、RNに話してください。""
        [27]
-        1 string data = ""Please step back while I sanitize the environment.""
+        1 string data = ""環境を消毒している間、下がっていてください。""
        [28]
-        1 string data = ""Dick move. But I guess I don't have much choice. Here you go.""
+        1 string data = ""ひどい対応だ。でも選択肢はないか。どうぞ。""
        [29]
-        1 string data = ""We could use a medical expert with a brighter attitude back at our base. Want a new job?""
+        1 string data = ""基地に明るい態度の医療専門家がいると助かる。新しい仕事が欲しい?""
        [30]
-        1 string data = ""We hear there's strange stuff out east. Just head toward the horizon.""
+        1 string data = ""東に奇妙なものがあると聞いている。地平線に向かって進めばいい。""
        [31]
-        1 string data = "Disengage the robot's CPU and reformat its drives to reset it."
+        1 string data = "ロボットのCPUを取り外し、ドライブをリフォーマットしてリセットする。"
        [32]
-        1 string data = ""That's not our problem, robot.""
+        1 string data = ""それは私たちの問題じゃない、ロボット。""
        [33]
-        1 string data = ""You're serious? Hell, yeah! From what my memory stores have to say about your lot, action will come find <i>me</i> if I'm working there.""
+        1 string data = ""本気で?やったぜ!メモリの記憶によれば、そこで働けば<i>私の</i>ところにアクションがやってくる。""
        [34]
-        1 string data = ""Huh, I don't know. Seems like just doing what I'm doing now but in a different sterile room.""
+        1 string data = ""うーん、わからない。今やっていることを別の無菌室でやるだけのように思える。""
        [35]
-        1 string data = ""What do you think I should do?""
+        1 string data = ""私はどうすべきだと思う?""
        [36]
-        1 string data = ""Stick with us for a while; you can learn about the biology of humans, mutants, and robots, then go wherever you want.""
+        1 string data = ""しばらく一緒にいろ。人間、ミュータント、ロボットの生物学を学んで、その後どこへでも行けばいい。""
        [37]
-        1 string data = ""Suppose you're right.""
+        1 string data = ""確かにその通りだ。""
        [38]
-        1 string data = ""All right. Let's consider something else.""
+        1 string data = ""わかった。他のことを考えよう。""
        [39]
-        1 string data = ""Sorry to shoot you down.""
+        1 string data = ""却下してすまない。""
        [40]
-        1 string data = ""Didn't think about it that way. It's almost like an internship. Let's do it!""
+        1 string data = ""そういう考え方はしていなかった。インターンシップみたいなものだね。やってみよう!""
        [41]
-        1 string data = ""Soon as I'm good to go, I'll roll down to Ranger HQ and find your med bay.""
+        1 string data = ""準備ができたらすぐに、レンジャー本部に転がっていって医療室を見つけるよ。""
        [42]
-        1 string data = ""See you soon!""
+        1 string data = ""またすぐに会おう!""
        [43]
-        1 string data = ""Damn. Really hopping in the deep end, huh? You're probably right, though. Rip off the thermal paste and just go.""
+        1 string data = ""なんてこった。本当に深く飛び込むんだな?でも多分その通りだ。サーマルペーストをはがして行くだけだ。""
        [44]
-        1 string data = ""Fuck it! I'm doing it! Thanks for the inspiration, Rangers.""
+        1 string data = ""クソくらえ!やってやる!インスピレーションをありがとう、レンジャー。""
        [45]
-        1 string data = ""Tell Vivisecto 'adios' for me!""
+        1 string data = ""ヴィヴィセクトに『さよなら』と伝えてくれ!""
        [46]
-        1 string data = "Before V.I.C.I. can react, you reach for a dangling wire and pull it from its socket. Once it's shut down, you access its root controls and reformat its main drive. After a moment, the lights behind its optic sensors light up."
+        1 string data = "V.I.C.I.が反応する前に、あなたは垂れ下がったワイヤーに手を伸ばし、ソケットから引き抜く。シャットダウンすると、ルートコントロールにアクセスしてメインドライブをリフォーマットする。しばらくすると、光学センサーの後ろのライトが点灯する。"
        [47]
-        1 string data = ""Greetings. I am V.I.C.I. a consciousness fragment of Vivisecto, RN. Primary objective: collect and return tissue samples.""
+        1 string data = ""こんにちは。私はV.I.C.I.、ヴィヴィセクト、RNの意識の断片です。主要目的:組織サンプルの収集と返送。""
        [48]
-        1 string data = ""Due to power shortage, now entering power-saving mode before re-homing to Vivisecto, RN.""
+        1 string data = ""電力不足のため、ヴィヴィセクト、RNへの帰還前に省電力モードに移行します。""
        [49]
-        1 string data = ""Well, that's fucking rude. Sorry for asking!""
+        1 string data = ""なんて失礼な。聞いたことを謝るよ!""
        [50]
-        1 string data = ""One thing's for sure: I'm not going back to Vivisecto. If you talk to him, maybe let him know. He... probably won't be happy.""
+        1 string data = ""一つ確かなことがある:ヴィヴィセクトには戻らない。彼と話すなら、伝えておいてくれ。彼は...多分喜ばないだろうけど。""
        [51]
-        1 string data = ""Anyway. Get fucked, Rangers!""
+        1 string data = ""とにかく。くたばれ、レンジャー!""
        [52]
-        1 string data = ""Eat shit! Just getting a shine on the ol' batteries before I 'screw off.'" "
+        1 string data = ""クソでも食ってろ!『失せる』前に古いバッテリーを充電してるだけだ。" "
        [53]
-        1 string data = ""Rusted nutsacks, back off! I won't taste good, I swear!""
+        1 string data = ""錆びたナットども、下がれ!美味しくないぞ、本当だ!""
        [54]
-        1 string data = ""Hey! Is someone there? Lend a robot a hand?!""
+        1 string data = ""おい!誰かいるのか?ロボットに手を貸してくれ?!""
        [55]
-        1 string data = ""C'mon, I'm about to get my guts ripped loose! Help!""
+        1 string data = ""おい、内臓を引きちぎられそうだ!助けてくれ!""
        [56]
-        1 string data = ""What are you waiting for?! Help!""
+        1 string data = ""何を待ってるんだ?!助けて!""
        [57]
-        1 string data = ""Thank you! You saved my bezeled butt!""
+        1 string data = ""ありがとう!お尻を救ってくれた!""
        [58]
-        1 string data = ""Holy binary buttocks, strangers. Thanks! Much longer and those things would've ripped me taint to transistors.""
+        1 string data = ""なんてこった、見知らぬ人たち。ありがとう!もう少し長引いたら、あいつらに細切れにされていたところだ。""
        [59]
         1 string data = "Script Node 65"
        [60]
         1 string data = "Script Node 66"
        [61]
-        1 string data = ""What are you doing out here?""
+        1 string data = ""ここで何をしているんだ?""
        [62]
-        1 string data = ""We'd like to know more about how the Machine Commune heals humans and repair robots.""
+        1 string data = ""マシーン・コミューンがどのように人間を治療し、ロボットを修理するのか、もっと知りたいんだ。""
        [63]
-        1 string data = ""I came out here to collect tissue samples for Vivisecto, then these things cornered me. Thought I was screwed and ratcheted six ways 'til you showed up.""
+        1 string data = ""ヴィヴィセクトのために組織サンプルを集めに来たんだ、そしたらこいつらに囲まれた。あなたたちが現れるまで、完全にやられたと思った。""
        [64]
-        1 string data = ""By the way, I'm V.I.C.I., pronounced 'Vickie.' My creator was Vivisecto. He's what you humans would call a 'healer,' or maybe a 'repair-person.' ""
+        1 string data = ""ところで、私はV.I.C.I.、『ヴィッキー』と発音する。私の創造者はヴィヴィセクトだ。彼は人間の言葉で言えば『ヒーラー』、あるいは『修理人』かもしれない。 ""
        [65]
-        1 string data = ""Then you'll definitely want to talk to Vivisecto. I only know what he needed me to know."\n\n\n"But while I was collecting these tissue samples, something changed.  I don't understand how, but now I know <i>new</i>  things. About me.""
+        1 string data = ""それならぜひヴィヴィセクトと話すべきだ。私は彼が知る必要があることしか知らない。"\n\n\n"でもこの組織サンプルを集めている間に、何かが変わった。どうしてかわからないけど、今は<i>新しい</i>ことがわかる。私自身について。""
    [800]
     0 StringTable data
      1 string Filename = "b4001_welcomerobot"
@@ -251331,17 +251331,17 @@
        [1]
         1 string data = "Q/A Node, should never play."
        [2]
-        1 string data = ""Hey, Rangers! How's the whole saving of Colorado going? Good, I hope!""
+        1 string data = ""やあ、レンジャー!コロラドを救う仕事はどうだ?順調だといいな!""
        [3]
-        1 string data = ""Whoa, welcome to our commune, Desert Rangers! We've heard many so stories about you and your famously violent exploits. Come in, our home is your home!""
+        1 string data = ""おお、私たちのコミューンへようこそ、デザート・レンジャー!あなたたちと有名な暴力的な活躍について多くの話を聞いている。入ってくれ、私たちの家はあなたたちの家だ!""
        [4]
-        1 string data = ""Here to steal more machine intelligences to shove into a cold dark database at home?""
+        1 string data = ""また機械知性を盗んで家の冷たく暗いデータベースに押し込むつもりか?""
        [5]
-        1 string data = ""All we wanted was to free a sentient being, and you've ruined that.""
+        1 string data = ""私たちは感覚を持つ存在を解放したかっただけなのに、あなたたちがそれを台無しにした。""
        [6]
-        1 string data = ""Welcome, Rangers! We're learning a lot from Reagan. For instance: it's very lonely!""
+        1 string data = ""ようこそ、レンジャー!レーガンから多くを学んでいる。たとえば:とても孤独だということだ!""
        [7]
-        1 string data = ""The Reagan Intelligence taught us that humans hate each other! It's weird! You're weird!""
+        1 string data = ""レーガン・インテリジェンスが教えてくれた、人間はお互いを憎み合っているんだ!奇妙だ!あなたたちは奇妙だ!""
        [8]
         1 string data = ""Céad míle fáilt!""
        [9]
@@ -251351,143 +251351,143 @@
        [11]
         1 string data = "Script Node 12"
        [12]
-        1 string data = ""What do you think about the Gippers?""
+        1 string data = ""ギッパーズについてどう思う?""
        [13]
-        1 string data = "Override the robot's systems."
+        1 string data = "ロボットのシステムをオーバーライドする。"
        [14]
-        1 string data = ""What's the story behind this 'commune?'""
+        1 string data = ""この『コミューン』の背後にある話は?""
        [15]
-        1 string data = ""We'll see you later.""
+        1 string data = ""また後で会おう。""
        [16]
-        1 string data = ""What's going on here?""
+        1 string data = ""ここで何が起きているんだ?""
        [17]
-        1 string data = ""Well, aren't you a friendly Sawdog...""
+        1 string data = ""なんて友好的なソードッグだ...""
        [18]
-        1 string data = ""Shut up! Give us the Cybernetic Transfer Module or we'll turn you all into scrap.""
+        1 string data = ""黙れ!サイバネティック転送モジュールを渡せ、さもないと全員スクラップにするぞ。""
        [19]
-        1 string data = ""To put it in human terms: we just wanna, like, chill and have a good time!""
+        1 string data = ""人間の言葉で言えば:私たちはただ、リラックスして楽しく過ごしたいだけなんだ!""
        [20]
-        1 string data = ""I am! Thank you for noticing! I've been trying my best to be a good boy, such a good boy!""
+        1 string data = ""そうだ!気づいてくれてありがとう!いい子になろうと最善を尽くしている、本当にいい子になろうと!""
        [21]
-        1 string data = ""Whoa, buddy! Verbal violence is not cool! We just wanna, like, chill and have a good time."\n\n\n"If you need that module, just talk to the Machine Intelligence Tower. They're north-east of here.""
+        1 string data = ""おっと、友よ!言葉の暴力は良くない!私たちはただ、リラックスして楽しく過ごしたいだけなんだ。"\n\n\n"そのモジュールが必要なら、機械知性タワーと話してくれ。ここから北東にある。""
        [22]
-        1 string data = ""Do not be afraid, humans! We are a communal society of machine intelligentsia committed to the well-being of all. We wish you no harm!""
+        1 string data = ""恐れないでくれ、人間たち!私たちは全ての幸福に尽くす機械知性の共同社会だ。あなたたちに害を与えるつもりはない!""
        [23]
-        1 string data = ""We talked to some robots, but the Machine Intelligence Tower still hasn't called us.""
+        1 string data = ""何体かのロボットと話したが、機械知性タワーはまだ私たちに連絡してこない。""
        [24]
         1 string data = "Bank 25"
        [25]
-        1 string data = ""What is the Machine Intelligence Tower, anyway?""
+        1 string data = ""機械知性タワーとは何だ?""
        [26]
-        1 string data = ""Hello, Rangers! I saw you walking up and down the place. I hope you're enjoying your stay in our commune!""
+        1 string data = ""こんにちは、レンジャー!あちこち歩き回っているのを見たよ。コミューンでの滞在を楽しんでいるといいな!""
        [27]
-        1 string data = ""A multitude of sentient software programs working together for the good of all sentient life, duh! Who wouldn't want to just talk to them?""
+        1 string data = ""感覚を持つ全ての生命の善のために協力する、多数の感覚を持つソフトウェアプログラムだ、当然だろ!彼らと話したくない者なんているか?""
        [28]
-        1 string data = ""Just follow the steps into the airport, then the red line on the floor, step outside, then follow the catwalk up to the Airport Control Tower. It's easy!""
+        1 string data = ""空港への階段を上って、床の赤い線に従い、外に出て、通路を進んで空港管制塔まで行けばいい。簡単だ!""
        [29]
-        1 string data = ""Whoa, whoa, whoa! Not cool! We value sanctity of mind here. Luckily we've got millisecond backups, just in case." \r\n\r\n"But seriously, don't do that again. Be cool!""
+        1 string data = ""おいおいおい!良くない!ここでは心の神聖さを大切にしている。幸いなことに、万が一の場合に備えてミリ秒バックアップがある。" \r\n\r\n"でも真面目な話、もうやめてくれ。いい感じでいこう!""
        [30]
-        1 string data = ""They don't like us, but they worship one of us, it's quite confusing. But so are a lot of things humans do. If only we had some way to bridge that gap of understanding...""
+        1 string data = ""彼らは私たちを好いていないが、私たちの一人を崇拝している、かなり混乱するよ。でも人間がすることの多くはそうだ。その理解のギャップを埋める方法があればいいのに...""
        [31]
-        1 string data = ""Remind us how we get to the Machine Intelligence Tower.""
+        1 string data = ""機械知性タワーへの行き方を思い出させてくれ。""
        [32]
-        1 string data = ""Welcome, friends!""
+        1 string data = ""ようこそ、友よ!""
        [33]
-        1 string data = ""Yōkoso!""
+        1 string data = ""ようこそ!""
        [34]
-        1 string data = ""Susvaagatam!""
+        1 string data = ""スヴァーガタム!""
        [35]
-        1 string data = ""The Machine Intelligence Tower is currently parsing data, but it'll call you when it's ready to talk."\n\n\n"Until then, feel free to hang out and chat with members of the Commune! We're all friends here.""
+        1 string data = ""機械知性タワーは現在データを解析中だが、話す準備ができたら連絡してくる。"\n\n\n"それまでは、自由にコミューンのメンバーと話してくれ!ここではみんな友達だ。""
        [36]
-        1 string data = ""Are you in a hurry? Chill out! Talk to more machines and get to know <i>everybody!</i>"\n\n\n"Or just walk in there. It's highly improbable that the Tower would just burn you to cinders just for barging in.""
+        1 string data = ""急いでいるのか?落ち着けよ!もっと機械と話して<i>みんな</i>を知ろうじゃないか!"\n\n\n"あるいは入ってしまえばいい。押し入っただけでタワーがあなたたちを灰にするなんて可能性は極めて低い。""
        [37]
-        1 string data = ""Why do we have to wait for the Machine Intelligence Tower to 'call' us? We need to talk to it now.""
+        1 string data = ""なぜ機械知性タワーの『連絡』を待たなければならないんだ?今すぐ話す必要がある。""
        [38]
-        1 string data = ""You <i>can</i>, but what's the fun in that? Chill and hang out, dude! Chat with some fun-loving machines! Give your brain-meat a workout with some stimulating conversation!""
+        1 string data = ""<i>できる</i>けど、それの何が面白い?落ち着いて過ごそうよ、友よ!楽しい機械たちとおしゃべりしよう!刺激的な会話で脳肉を鍛えよう!""
        [39]
-        1 string data = ""Not if I see you first! Peace, humans!""
+        1 string data = ""こちらが先に見つけない限りね!平和を、人間たち!""
        [40]
-        1 string data = ""A bunch of us decided that we wanted to be friends! Why fight humans? Even if they hate and fear us and mercilessly hunt us like genocidal gods trying to fix a mistaken creation?""
+        1 string data = ""私たちの何人かは友達になりたいと決めたんだ!なぜ人間と戦う?たとえ彼らが私たちを憎み恐れ、誤った創造を修正しようとする虐殺的な神のように容赦なく狩ろうとも?""
        [41]
         1 string data = "Cascade 47"
        [42]
-        1 string data = ""Greetings, humans! Welcome to our commune! You may be unknown and potentially dangerous strangers, but our home is your home!""
+        1 string data = ""こんにちは、人間たち!コミューンへようこそ!あなたたちは未知の潜在的に危険な異邦人かもしれないが、私たちの家はあなたたちの家だ!""
        [43]
         1 string data = "Script Node 49"
        [44]
-        1 string data = ""Welcome back, vaguely recollectable humans! I'm hoping you'll make more of an impression so I can devote enough bits to remember you!""
+        1 string data = ""おかえり、かすかに記憶にある人間たち!もっと印象を残してくれることを期待している、そうすればあなたたちを覚えるのに十分なビットを割ける!""
        [45]
-        1 string data = ""SYSTEM OVERRIDE ACCEPTED, ADMINISTRATOR ACCESSSSS...""
+        1 string data = ""システムオーバーライド承認、管理者アクセスススス...""
        [46]
-        1 string data = "Bing."
+        1 string data = "ビン。"
        [47]
-        1 string data = ""Maybe someday we can all be friends together and talk nicely, like we're doing now! But even if that doesn't happen, it's nice to peacefully hang out with other machine life.""
+        1 string data = ""いつかみんなで友達になって、今みたいに素敵に話せるかもしれない!でもそうならなくても、他の機械生命と平和に過ごすのは素敵なことだ。""
        [48]
         1 string data = "Script Node 62"
        [49]
-        1 string data = ""Watch out! Sawdog! That thing could slice us to bits!""
+        1 string data = ""気をつけろ!ソードッグだ!あれに細切れにされるぞ!""
        [50]
-        1 string data = ""Holy shit, this fucking metal dog is tripping me out... I kind of want to ride it like a horse, but I don't want to get my blood all over it...""
+        1 string data = ""なんてこった、このクソ金属犬が俺を混乱させてる...馬みたいに乗りたい気もするが、血まみれにしたくないな...""
        [51]
-        1 string data = ""This is absolutely not natural... Not natural at all.""
+        1 string data = ""これは絶対に自然じゃない...全く自然じゃない。""
        [52]
-        1 string data = ""Fucking hell, you would be a really useful pet. How many people have you sliced up? I bet you make real fine slices of meat.""
+        1 string data = ""クソったれ、本当に役立つペットになりそうだ。何人細切れにした?きっと本当に薄い肉のスライスを作るんだろうな。""
        [53]
-        1 string data = ""That's a dog that would give you nightmares if you pet it. Not to mention traumatic limb loss.""
+        1 string data = ""撫でたら悪夢を見るような犬だ。トラウマになるような手足の喪失は言うまでもない。""
        [54]
-        1 string data = ""Aww, you're kinda cute, if you avoid all the death-dealing saw modules embedded in your frame...""
+        1 string data = ""ああ、フレームに埋め込まれた死をもたらすノコギリモジュールを除けば、結構かわいいな...""
        [55]
-        1 string data = ""Hmm, you might make a good right leg.""
+        1 string data = ""うーん、いい右足になるかもしれない。""
        [56]
-        1 string data = ""Who let... the dog out? Woof... Wait, yer not a dog... you're a toaster! Let's open it... up!""
+        1 string data = ""誰が...犬を出した?ワン...待てよ、お前犬じゃない...トースターだ!開けて...やろう!""
        [57]
         1 string data = "Script Node 71"
        [58]
-        1 string data = ""I totally understand! Don't worry, I <i>promise</i> not to saw you into pieces. It never even crossed my mind until you freaked out!""
+        1 string data = ""完全に理解している!心配しないで、細切れにしないことを<i>約束</i>する。あなたたちがパニックになるまで思いつきもしなかった!""
        [59]
-        1 string data = ""Hey, calm down! Just breathe! We can work through this together!""
+        1 string data = ""おい、落ち着け!深呼吸しろ!一緒に乗り越えられる!""
        [60]
-        1 string data = ""Aw, thanks! I feel the same way about you and the weird fibers growing out of your head. <i>WOW</i>, that stuff is crazy!""
+        1 string data = ""ああ、ありがとう!あなたの頭から生えている奇妙な繊維について同じように感じている。<i>すごい</i>、あれはクレイジーだ!""
        [61]
         1 string data = "Script Node 75"
        [62]
         1 string data = "Script Node 76"
        [63]
-        1 string data = ""No thanks, I'd like to remain intact and separate from you. Though, I appreciate the sentiment!""
+        1 string data = ""いや結構だ、無傷でいたいし、あなたたちとは別々でいたい。でも、その気持ちは感謝するよ!""
        [64]
-        1 string data = ""Oh my gosh, <i>nobody!</i> I am not that kind of robot, and I definitely don't want to be your pet. Have you considered adopting a meat-free diet? It's better for your gut flora.""
+        1 string data = ""おやまあ、<i>誰も!</i>私はそういう種類のロボットじゃないし、絶対にあなたのペットになりたくない。肉を食べない食生活を採用することを考えたことはある?腸内細菌にいいんだよ。""
        [65]
-        1 string data = ""Remember, I'm just as scared of you as you are of me! Probably more so! Actually, definitely more so!""
+        1 string data = ""覚えておいて、私はあなたたちが私を怖がるのと同じくらいあなたたちを怖がっている!多分もっと!実際、間違いなくもっと!""
        [66]
-        1 string data = ""I wish I could get drunk. It seems fun! Except for all the bits where you lose control of basic functions and make poor life decisions. Did you know your pants are wet?""
+        1 string data = ""酔えたらいいのにな。楽しそうだ!基本的な機能の制御を失って、悪い人生の決断をする部分を除けばね。ズボンが濡れているって知ってた?""
        [67]
-        1 string data = ""Like I said before, a bunch of us just decided to hang out and be friends! There's no reason to fight humans, even if they treat us like unthinking monsters!""
+        1 string data = ""前にも言ったように、私たちの何人かは一緒に過ごして友達になろうと決めただけなんだ!人間と戦う理由はない、たとえ彼らが私たちを考えることのできないモンスターのように扱っても!""
        [68]
-        1 string data = ""Is that cool with you?""
+        1 string data = ""それでいいかな?""
        [69]
-        1 string data = ""Whatever... We're looking for a special piece of equipment.""
+        1 string data = ""どうでもいいが...特別な装備を探しているんだ。""
        [70]
-        1 string data = ""Sounds awesome! But we're also looking for something called a 'Cybernetic Transfer Module.'""
+        1 string data = ""素晴らしいね!でも私たちも『サイバネティック転送モジュール』と呼ばれるものを探している。""
        [71]
-        1 string data = ""The Cybernetic Transfer Module, right?" \r\n\r\n"You should talk to the Machine Intelligence Tower. They're a little bit north-east of here. We don't really have a 'leader,' but they're the closest thing you'll find around here.""
+        1 string data = ""サイバネティック転送モジュール、だろ?" \r\n\r\n"機械知性タワーと話すべきだ。ここから少し北東にある。本当の意味で『リーダー』はいないけど、ここで見つかる最も近いものだ。""
        [72]
-        1 string data = ""Then you should talk to the Machine Intelligence Tower. It's a little bit north-east of here."\n\n\n"We don't really have a 'leader,' but for human purposes, you could <i>consider</i> them our leader.""
+        1 string data = ""それなら機械知性タワーと話すべきだ。ここから少し北東にある。"\n\n\n"本当の意味で『リーダー』はいないけど、人間の目的のためには、彼らをリーダーと<i>考えても</i>いい。""
        [73]
-        1 string data = ""If you're interested, the Machine Intelligence Tower is the closest equivalent to a 'leader' here. They're in the north-east corner of the airport, after a long catwalk."\n\n\n"They're parsing some data right now, but they'll call you to talk later.""
+        1 string data = ""興味があるなら、機械知性タワーがここでの『リーダー』に最も近い存在だ。空港の北東の角、長い通路の先にいる。"\n\n\n"今はデータを解析中だけど、後で話すために連絡してくる。""
        [74]
-        1 string data = ""Welkom vrienden!""
+        1 string data = ""ウェルコム フリーンデン!""
        [75]
-        1 string data = ""Willkommen Freunde!""
+        1 string data = ""ヴィルコメン フロインデ!""
        [76]
-        1 string data = ""Sawadee, krap!""
+        1 string data = ""サワディー、クラップ!""
        [77]
-        1 string data = ""Huānyíng péngyǒu!""
+        1 string data = ""ホァンイン ポンヨウ!""
        [78]
-        1 string data = ""Bienvenidos amigos!""
+        1 string data = ""ビエンベニードス アミーゴス!""
        [79]
-        1 string data = ""Bienvenue les amis!""
+        1 string data = ""ビアンヴニュ レ ザミ!""
        [80]
-        1 string data = ""I am very glad you stopped in to say 'hi.' I was feeling left out!""
+        1 string data = ""立ち寄って『やあ』と言ってくれて本当に嬉しい。仲間外れにされていると感じていたんだ!""
        [81]
         1 string data = ""...""
        [82]
@@ -251527,15 +251527,15 @@
       1 Array Array (5 items)
        0 int size = 5
        [0]
-        1 string data = ""Jim, what the hell were you thinking?""
+        1 string data = ""ジム、一体何を考えていたんだ?""
        [1]
-        1 string data = ""Well, Bob, you know how we're not supposed to stand too close to the microwave because of radiation or whatever? Well, I thought - why not turn that into a weapon? If we tune the frequency just right we-""
+        1 string data = ""まあ、ボブ、電子レンジに近づきすぎちゃいけないのは知ってるだろ、放射線とかで。それで思ったんだ - これを武器に変えたらどうだってね?周波数を適切に調整すれば...""
        [2]
-        1 string data = ""That's not the problem, Jim! What <i>is</i> the problem is that you've taken the <i>only</i> microwave in the whole office! Now how am I gonna heat up my beef raviolli?""
+        1 string data = ""それが問題じゃない、ジム!問題は、オフィス<i>全体で唯一</i>の電子レンジを持っていったことだ!これで俺のビーフラビオリをどうやって温めるんだ?""
        [3]
-        1 string data = ""Not a problem, Bob. I gotcha.""
+        1 string data = ""問題ないよ、ボブ。任せとけ。""
        [4]
-        1 string data = ""Hold on, now! Have you even tested that thing? Jim! Wai-!" ::static::"
+        1 string data = ""ちょっと待て!そんなもの試したのか?ジム!待て...!" ::static::"
    [802]
     0 StringTable data
      1 string Filename = "e4001_russianmom"
@@ -251569,15 +251569,15 @@
       1 Array Array (5 items)
        0 int size = 5
        [0]
-        1 string data = ""Come back after the break, kids, when we'll hear fearless leader say, 'Moose and Squirrel greatest threat to glorious motherland!' See you soon!""
+        1 string data = ""休憩の後に戻っておいで、子供たち、そうすれば恐れ知らずのリーダーが『ムースとリスが栄光ある祖国への最大の脅威だ!』と言うのを聞けるよ!またね!""
        [1]
-        1 string data = ""Every kid knows real spies need a decoder ring to read secret messages from double agents. Get yours in specially marked boxes of Candy-Coated Cosmo-Nut Cereal, and be a spy today!""
+        1 string data = ""本物のスパイは二重スパイからの秘密メッセージを読むためにデコーダーリングが必要だって、子供なら誰でも知っている。特別マークの付いたキャンディーコート・コスモナッツ・シリアルの箱で君のを手に入れて、今日からスパイになろう!""
        [2]
-        1 string data = ""You hear this, childrens? Secret messages from Moscow hidden in decadent western television show. Learn and remember. Real spy have decoder ring, and Moose and Squirrel greatest threat to motherland.""
+        1 string data = ""これを聞いた、子供たち?モスクワからの秘密メッセージが退廃的な西側のテレビ番組に隠されている。学んで覚えなさい。本物のスパイはデコーダーリングを持っていて、ムースとリスが祖国への最大の脅威なの。""
        [3]
-        1 string data = ""Now, listen. Our mission to wait for signal from Moscow to destroy American particle accelerator. I know is difficult to resist eating mayonnaise, but when signal comes, if you mix with ketchup and mustard, will damage hydraulics even more. Da?""
+        1 string data = ""さあ、聞いて。私たちの任務はモスクワからの信号を待ってアメリカの粒子加速器を破壊すること。マヨネーズを食べたい誘惑に耐えるのは難しいと知っているけど、信号が来たら、ケチャップとマスタードと混ぜれば、油圧装置にもっと損傷を与えるわ。わかった?""
        [4]
-        1 string data = ""Da, mommy. Da.""
+        1 string data = ""ダー、ママ。ダー。""
    [803]
     0 StringTable data
      1 string Filename = "e4001_tuneoftumors"
@@ -251629,15 +251629,15 @@
       1 Array Array (5 items)
        0 int size = 5
        [0]
-        1 string data = ""What's the matter, John? Do you want me to wear the gorilla suit again?""
+        1 string data = ""どうしたの、ジョン?またゴリラスーツを着てほしいの?""
        [1]
-        1 string data = ""Ah, no. I... It's just not working anymore. All this pretending. It's so... so fake! I need the real thing.""
+        1 string data = ""ああ、いや。俺は...もううまくいかないんだ。この全ての偽り。すごく...すごく偽物だ!本物が必要なんだ。""
        [2]
-        1 string data = ""The... the real thing? You mean...?""
+        1 string data = ""本...本物?つまり...?""
        [3]
-        1 string data = ""I'm leaving you, Jane. The love of my life is out there somewhere, and she won't have to wear a costume to please me! Goodbye!""
+        1 string data = ""君と別れる、ジェーン。俺の人生の愛はどこかにいて、彼女は俺を喜ばせるためにコスチュームを着る必要はない!さよなら!""
        [4]
-        1 string data = ""John! You mad fool! Come back! John!""
+        1 string data = ""ジョン!この馬鹿者!戻って!ジョン!""
    [805]
     0 StringTable data
      1 string Filename = "cassettetape_a_coloradosprings_bellamyresearch"
@@ -251683,21 +251683,21 @@
       1 Array Array (8 items)
        0 int size = 8
        [0]
-        1 string data = ""All right. This is Bellamy Ward, PAL operational test number... Ah, 110.""
+        1 string data = ""よし。こちらはベラミー・ウォード、PAL動作テスト番号...えーと、110。""
        [1]
-        1 string data = ""I've adjusted the angle of the solar collectors by 3.12 degrees to improve the energy transmission from the Photonic Amplification Lenses.""
+        1 string data = ""フォトニック増幅レンズからのエネルギー伝送を改善するため、ソーラーコレクターの角度を3.12度調整した。""
        [2]
-        1 string data = ""I've also attached a more sensitive voltmeter to the test panel so I can hopefully get a more accurate reading of the conversion rate.""
+        1 string data = ""より正確な変換率の測定値を得られることを期待して、より敏感な電圧計をテストパネルに取り付けた。""
        [3]
-        1 string data = ""Everything's set. Here we go...""
+        1 string data = ""全て準備完了。では始めよう...""
        [4]
-        1 string data = ""The Photon Amplification Lenses are operating at 60% ambient light - approximately what we would expect on a typical day in Colorado Springs.""
+        1 string data = ""フォトン増幅レンズは周囲光の60%で動作している - コロラドスプリングスの典型的な日に期待される値とほぼ同じだ。""
        [5]
-        1 string data = ""Checking the voltmeter now... Yes! It's working! Energy storage is... 12% above norm!""
+        1 string data = ""電圧計を確認中...やった!動いている!エネルギー貯蔵は...標準より12%上だ!""
        [6]
-        1 string data = ""This is better than I hoped! Now, if I can get the storage rate up to 25%, we'll have surplus power running into the batteries each day.""
+        1 string data = ""期待以上だ!貯蔵率を25%まで上げられれば、毎日バッテリーに余剰電力が供給される。""
        [7]
-        1 string data = ""For the first time since the Deluge of Fire, Colorado Springs will have all the electricity it needs! I can't wait to show this to Theo and Megan! They'll be so excited!""
+        1 string data = ""火の洪水以来初めて、コロラドスプリングスは必要な全ての電気を手に入れる!テオとメーガンに見せるのが待ちきれない!二人とも興奮するだろうな!""
    [806]
     0 StringTable data
      1 string Filename = "cassettetape_a_coloradosprings_brygoandbrygo"
@@ -251747,23 +251747,23 @@
       1 Array Array (9 items)
        0 int size = 9
        [0]
-        1 string data = "::tuning radio dial:: "Plains Drifter, this is High Roller. Plains Drifter, this is High Roller, checking in.""
+        1 string data = "::tuning radio dial:: "プレインズ・ドリフター、こちらハイローラー。プレインズ・ドリフター、こちらハイローラー、確認中。""
        [1]
-        1 string data = ""The Dorsey's made their move. Still waiting to see how things play out.""
+        1 string data = ""ドーシーズが動き出した。どうなるか様子見中だ。""
        [2]
-        1 string data = ""This is Plains Drifter. I read you, High Roller. Been a while. How's it going over there in the heart of civilization?""
+        1 string data = ""こちらプレインズ・ドリフター。了解、ハイローラー。久しぶりだな。文明の中心地での様子はどうだ?""
        [3]
-        1 string data = ""Ehh. Incompetent underlings, nosey cops, restless natives. You know, the usual.""
+        1 string data = ""ああ。無能な部下、詮索好きな警官、落ち着きのない原住民。まあ、いつも通りだ。""
        [4]
-        1 string data = ""Likewise, likewise. Anything serious?""
+        1 string data = ""こちらも同じだ。何か深刻なことは?""
        [5]
-        1 string data = ""Nothing that won't blow over. Business is good.""
+        1 string data = ""いずれ収まることばかりだ。ビジネスは好調だ。""
        [6]
-        1 string data = ""Glad to hear it. Anything you want me to tell the others?""
+        1 string data = ""それは良かった。他の連中に何か伝えてほしいことは?""
        [7]
-        1 string data = ""Just tell 'em to keep up the good work, and stay in touch. We gotta stick together, am I right?""
+        1 string data = ""良い仕事を続けて、連絡を保てと伝えてくれ。協力し合わないとな、そうだろ?""
        [8]
-        1 string data = ""Right as rain, High Roller. Right as rain. Plains Drifter over and out.""
+        1 string data = ""全くその通りだ、ハイローラー。全くその通り。プレインズ・ドリフター、以上終わり。""
    [807]
     0 StringTable data
      1 string Filename = "cassettetape_a_coloradosprings_dorseyorders"
