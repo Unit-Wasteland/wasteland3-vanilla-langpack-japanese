@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 20837,
-      "entries_untranslated": 148875,
-      "completion_rate": 12.28,
-      "current_line": 222735,
+      "entries_translated": 20986,
+      "entries_untranslated": 148726,
+      "completion_rate": 12.37,
+      "current_line": 223641,
       "status": "in_progress",
       "approach": "STRICT sequential from line 390 - enhanced validation with bracket marker protection",
-      "note": "Session R3-219: 201 entries (lines 222332-222732). b3001_ronaldreagan_thegipper (complete): Reagan AI political speeches and player interactions. [Attack] bracket markers preserved correctly. Structure: 0 errors, Action: 0 issues (::bzzt:: preserved), Quality: 0 issues. Next: line 222735 (b3001_sisternancyforge starts)"
+      "note": "Session R3-220: 149 entries (lines 223342-223638). b3001_sisternancyforge (complete): Nancy Forge armorer dialogues, Gipper questlines, repair data mission. [Reward:] and [Dropset:] technical markers preserved. Structure: 0 errors, Action: 0 issues (::nods:: preserved), Quality: 0 issues (unified translation logic applied). Next: line 223641 (b3001_sisternancyglory starts)"
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "9fdc9c0",
-  "last_commit_message": "Retranslation R3-219: 201 entries (lines 222332-222732)",
-  "total_entries_completed": 20837,
+  "last_commit_hash": "PENDING",
+  "last_commit_message": "Retranslation R3-220: 149 entries (lines 223342-223638)",
+  "total_entries_completed": 20986,
   "total_entries": 169712,
-  "total_entries_untranslated": 148875,
-  "overall_completion_rate": 12.28,
-  "next_action": "Continue from line 222735 (b3001_sisternancyforge starts)",
+  "total_entries_untranslated": 148726,
+  "overall_completion_rate": 12.37,
+  "next_action": "Continue from line 223641 (b3001_sisternancyglory starts)",
   "restart_info": {
     "restart_number": 3,
     "restart_date": "2025-11-05",
