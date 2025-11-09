@@ -246697,33 +246697,33 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = "Cut power to the perimeter turrets."
+        1 string data = "周辺タレットへの電力を遮断する。"
        [2]
-        1 string data = "Turn off the Western White House's heating system."
+        1 string data = "西部ホワイトハウスの暖房システムをオフにする。"
        [3]
-        1 string data = "Rebalance the entire system... <i>IN 30 SECONDS!</i>"
+        1 string data = "システム全体を再調整する...<i>30秒で!</i>"
        [4]
-        1 string data = "Undo your last upgrade. This may break the terminal, but you'll save the power grid."
+        1 string data = "最後のアップグレードを取り消す。端末が壊れる可能性があるが、電力網は守られる。"
        [5]
-        1 string data = "Warnings flash across the screen!\nBetween perimeter defenses, the heating system, and your previous upgrades, the Gippers' power grid has been stretched to its limit. That final upgrade was one step too far!"
+        1 string data = "警告が画面に点滅する!\n周辺防衛、暖房システム、そして以前のアップグレードを合わせると、ギッパーの電力網は限界まで引き伸ばされている。最後のアップグレードが一歩踏み出しすぎた!"
        [6]
-        1 string data = "It comes down to the wire... but you pull it off! Somehow, all the systems are perfectly in balance."
+        1 string data = "ギリギリまで追い詰められたが...やり遂げた!どういうわけか、全てのシステムが完璧にバランスしている。"
        [7]
-        1 string data = "You aren't able to hear the turrets powering down from here... But their energy draw disappears from the system! The power grid will be okay, with all your upgrades intact. "
+        1 string data = "ここからタレットが停止する音は聞こえないが...システムからそのエネルギー消費が消えた!電力網は大丈夫だ、全てのアップグレードを維持したままで。"
        [8]
-        1 string data = "Things get chilly... But it looks like the power grid will be okay, with all your upgrades intact!"
+        1 string data = "寒くなってきた...しかし電力網は大丈夫そうだ、全てのアップグレードを維持したままで!"
        [9]
-        1 string data = "'Subsystem failure. Please contact manufAcTX%#SR-'"
+        1 string data = "'サブシステム故障。製造元に連絡してくださAcTX%#SR-'"
        [10]
-        1 string data = "'Subsystem failure. Warranty void!'"
+        1 string data = "'サブシステム故障。保証無効!'"
        [11]
-        1 string data = "'Sub-system failure: underutilizers overcapacity.'"
+        1 string data = "'サブシステム故障:利用率不足による過剰容量。'"
        [12]
-        1 string data = "Don't do anything."
+        1 string data = "何もしない。"
        [13]
         1 string data = "Script Node 14"
        [14]
-        1 string data = "The turrets aren't responding! You're not sure how their pulverized hardware is still drawing power, but you're going to have to try something else."
+        1 string data = "タレットが応答しない!粉砕されたハードウェアがまだ電力を消費しているのか理解できないが、他の方法を試さなければならない。"
        [15]
         1 string data = "Script Node 16"
        [16]
@@ -246733,7 +246733,7 @@
        [18]
         1 string data = "Script Node 19"
        [19]
-        1 string data = "'Routing extra power to target: (Statue of Almighty Reagan)'"
+        1 string data = "'追加電力をターゲットへ送信:(全能なるレーガン像)'"
        [20]
         1 string data = "Script Node 21"
        [21]
@@ -246743,11 +246743,11 @@
        [23]
         1 string data = "Trigger Conv Node 24"
        [24]
-        1 string data = ""I feel stronger!""
+        1 string data = ""力が湧いてくる!""
        [25]
-        1 string data = ""I am the first line of defense!""
+        1 string data = ""私が最前線の防衛だ!""
        [26]
-        1 string data = "'WARNING: INSUFFICIENT_POWER'\n\n\n'WARNING: SYSTEM_FAILURE_IMMINENT'\n\n\n'WARNING: UNKNOWN_WARNING'"
+        1 string data = "'警告:電力不足'\n\n\n'警告:システム故障が差し迫っています'\n\n\n'警告:不明な警告'"
    [776]
     0 StringTable data
      1 string Filename = "b1001_terminal_finalchoice"
@@ -246911,33 +246911,33 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = "Step away."
+        1 string data = "離れる。"
        [2]
-        1 string data = "[Sabotage] Turn on 'self-destruct' mode."
+        1 string data = "[Sabotage] '自己破壊'モードをオンにする。"
        [3]
-        1 string data = "[Upgrade] Turn on 'high-power' mode."
+        1 string data = "[Upgrade] '高出力'モードをオンにする。"
        [4]
         1 string data = ""
        [5]
-        1 string data = "Upgrading this terminal could increase the Reagan statue's combat effectiveness. Sabotaging it could damage or destroy the statue."
+        1 string data = "この端末をアップグレードすると、レーガン像の戦闘効果が向上する可能性がある。破壊工作を行うと、像を損傷または破壊する可能性がある。"
        [6]
-        1 string data = "The terminal has been disabled."
+        1 string data = "端末は無効化された。"
        [7]
-        1 string data = "'System running at maximum capacity.'"
+        1 string data = "'システムは最大容量で動作中。'"
        [8]
-        1 string data = "With the Reagan statue destroyed, this terminal appears to be stuck in some kind of a loop."
+        1 string data = "レーガン像が破壊されたため、この端末は何らかのループに陥っているようだ。"
        [9]
-        1 string data = "'TEMPERATURE WARNING. System throttling engaged to avoid hardware damage. Please defrost heating elements.'"
+        1 string data = "'温度警告。ハードウェアの損傷を回避するためシステムスロットルが作動。加熱要素を解凍してください。'"
        [10]
-        1 string data = "'Systems operational.'\n'Low-power mode: ON.'\n'Self-destruct mode: OFF.'"
+        1 string data = "'システム動作中。'\n'省電力モード:オン。'\n'自己破壊モード:オフ。'"
        [11]
-        1 string data = "'LOW TEMPERATURE WARNING. User interface disabled to prevent system damage.'\n\n\n'Please inspect heating elements and defrost if needed.'"
+        1 string data = "'低温警告。システム損傷を防ぐためユーザーインターフェイスを無効化。'\n\n\n'加熱要素を点検し、必要に応じて解凍してください。'"
        [12]
-        1 string data = "Examine the area around this machine."
+        1 string data = "この機械の周囲を調べる。"
        [13]
-        1 string data = "There's a large mass of ice covering some heating equipment next to the machine. That's probably what kicked off the warning."
+        1 string data = "機械の隣にある加熱装置を覆う大きな氷の塊がある。これが警告を引き起こした原因だろう。"
        [14]
-        1 string data = "'Now running at full power!'\n\n\nA crudely-rendered lightning bolt appears on-screen, followed by a smiling face."
+        1 string data = "'フルパワーで動作中!'\n\n\n粗雑に描かれた稲妻が画面に表示され、その後笑顔が表示される。"
        [15]
         1 string data = "::beeeeee-oooop::."
        [16]
@@ -246945,13 +246945,13 @@
        [17]
         1 string data = "Trigger Conv Node 18"
        [18]
-        1 string data = "'EMERGENCY OVERRIDE - TERMINAL LOCKED.'"
+        1 string data = "'緊急オーバーライド - 端末ロック。'"
        [19]
         1 string data = "Script Node 20"
        [20]
         1 string data = "Script Node 21"
        [21]
-        1 string data = "'Terminal 3 of 3. TEMPERATURE WARNING. Low-power mode engaged to avoid hardware damage. Please defrost heating elements.'"
+        1 string data = "'端末3/3。温度警告。ハードウェアの損傷を回避するため省電力モードを起動。加熱要素を解凍してください。'"
    [778]
     0 StringTable data
      1 string Filename = "b1001_terminal_onsitenoguard"
@@ -247081,57 +247081,57 @@
        [1]
         1 string data = "Script Node 2"
        [2]
-        1 string data = "This won't be regulating anything again for a long time."
+        1 string data = "これは長い間、何も制御できなくなるだろう。"
        [3]
-        1 string data = "Nobody notices as the screen slows down, and then eventually locks up."
+        1 string data = "画面が遅くなり、最終的にフリーズしても、誰も気づかない。"
        [4]
         1 string data = "Trigger Conv Node 5"
        [5]
-        1 string data = "A large, hand-written note dominates the top of this terminal: <i>No touching, by order of the Nancys!</i>"
+        1 string data = "大きな手書きのメモがこの端末の上部を占めている:<i>触るな、ナンシーの命令だ!</i>"
        [6]
         1 string data = ""
        [7]
-        1 string data = "This terminal appears to be regulating CPU temperatures for the Reagan statue, the 'Sacred Server Room,' and other important electronics.\n\n\nUpgrading this terminal will increase the Reagan statue's combat effectiveness. Sabotaging it could damage or destroy the statue."
+        1 string data = "この端末は、レーガン像、'神聖なサーバールーム'、およびその他の重要な電子機器のCPU温度を制御しているようだ。\n\n\nこの端末をアップグレードすると、レーガン像の戦闘効果が向上する。破壊工作を行うと、像を損傷または破壊する可能性がある。"
        [8]
-        1 string data = "'EMERGENCY OVERRIDE - TERMINAL LOCKED'"
+        1 string data = "'緊急オーバーライド - 端末ロック'"
        [9]
-        1 string data = "[Upgrade] Give the software direct access to the hardware thermometers."
+        1 string data = "[Upgrade] ソフトウェアにハードウェア温度計への直接アクセスを許可する。"
        [10]
-        1 string data = "[Sabotage] Open the case, discreetly pull out a fail-safe fuse."
+        1 string data = "[Sabotage] ケースを開け、こっそりと安全ヒューズを引き抜く。"
        [11]
-        1 string data = "Step away."
+        1 string data = "離れる。"
        [12]
-        1 string data = "[Upgrade] Modify the algorithms to self-optimize over time."
+        1 string data = "[Upgrade] アルゴリズムを修正して、時間の経過とともに自己最適化するようにする。"
        [13]
-        1 string data = "Investigate how you could sabotage this system."
+        1 string data = "このシステムを破壊する方法を調査する。"
        [14]
-        1 string data = "Your adjustments dramatically reduce the time required for the machine to react to temperature changes, making the entire system more responsive and efficient."
+        1 string data = "あなたの調整により、機械が温度変化に反応するのに必要な時間が劇的に短縮され、システム全体がより応答性が高く効率的になった。"
        [15]
-        1 string data = "[Sabotage] Set up an infinite loop in the program."
+        1 string data = "[Sabotage] プログラムに無限ループを設定する。"
        [16]
-        1 string data = "Without modifying the core code, you're able to adjust the program's measurement algorithms so it will become more efficient over time.\n\n\nYou spend a little extra time putting in conditionals to prevent the machine from accidentally achieving sentience. Just in case."
+        1 string data = "コアコードを変更することなく、プログラムの測定アルゴリズムを調整して、時間の経過とともにより効率的になるようにできた。\n\n\nさらに少し時間をかけて、機械が誤って意識を持つことを防ぐための条件文を組み込んだ。念のため。"
        [17]
-        1 string data = "The machine hums along normally for a few more seconds, then it starts to heat up. Nobody notices."
+        1 string data = "機械は数秒間正常に動作し続けるが、その後加熱し始める。誰も気づかない。"
        [18]
         1 string data = "Script Node 19"
        [19]
         1 string data = "Script Node 20"
        [20]
-        1 string data = "Now that the Reagan statue is destroyed, this terminal appears to have locked up."
+        1 string data = "レーガン像が破壊されたため、この端末はフリーズしているようだ。"
        [21]
-        1 string data = "With your upgrades in place, this terminal is running even better than before!"
+        1 string data = "アップグレードが完了し、この端末は以前よりもさらに良く動作している!"
        [22]
         1 string data = "Script Node 23"
        [23]
-        1 string data = "Investigate how you could upgrade this system."
+        1 string data = "このシステムをアップグレードする方法を調査する。"
        [24]
-        1 string data = "You spent a few minutes investigating the terminal."
+        1 string data = "数分かけて端末を調査した。"
        [25]
-        1 string data = "You spent a few minutes investigating the terminal."
+        1 string data = "数分かけて端末を調査した。"
        [26]
-        1 string data = "Don't change anything just yet."
+        1 string data = "今のところ何も変更しない。"
        [27]
-        1 string data = "'Terminal 2 of 3: temperature regulation'\n\n\n'Code 0041-2764-004D: all systems within acceptable tolerances.'"
+        1 string data = "'端末2/3:温度調整'\n\n\n'コード0041-2764-004D:全システムが許容範囲内'"
    [779]
     0 StringTable data
      1 string Filename = "b1001_terminal_withguard"
@@ -247325,89 +247325,89 @@
        [1]
         1 string data = "Script Node 2"
        [2]
-        1 string data = "They'll probably need to replace this."
+        1 string data = "これはおそらく交換する必要があるだろう。"
        [3]
-        1 string data = "With the Reagan statue destroyed, it looks like this system has stopped functioning."
+        1 string data = "レーガン像が破壊され、このシステムは機能を停止したようだ。"
        [4]
-        1 string data = "The terminal is unguarded."
+        1 string data = "端末は警備されていない。"
        [5]
-        1 string data = "'HD capacity: 4 MB. System fragmentation: 96%. Days since defrag: 3422.'\n\n\n'Press <i>D</i> to defragment hard disk. Press <i>F</i> to force-boot. WARNING: System integrity may be compromised.'\n\n\nThe nearby guard is watching you closely."
+        1 string data = "'HD容量:4 MB。システム断片化:96%。デフラグからの経過日数:3422。'\n\n\n'<i>D</i>を押してハードディスクをデフラグ。<i>F</i>を押して強制起動。警告:システム整合性が損なわれる可能性があります。'\n\n\n近くの警備兵があなたを注意深く監視している。"
        [6]
-        1 string data = "The terminal is guarded, but another member of your squad is distracting them."
+        1 string data = "端末は警備されているが、チームの別のメンバーが彼らの注意をそらしている。"
        [7]
-        1 string data = "The screen flickers, then fills up with scrolling gibberish. No one appears to have noticed."
+        1 string data = "画面がちらつき、スクロールする意味不明な文字で埋まる。誰も気づいていないようだ。"
        [8]
-        1 string data = "It looks like this terminal is connected to the Reagan statue. Upgrading it will increase the statue's combat effectiveness. Sabotaging it could damage or destroy the statue."
+        1 string data = "この端末はレーガン像に接続されているようだ。アップグレードすると像の戦闘効果が向上する。破壊工作を行うと、像を損傷または破壊する可能性がある。"
        [9]
-        1 string data = ""Sorry, pardners. Access to this console is restricted by order of the Nancys.""
+        1 string data = ""すまない、相棒。このコンソールへのアクセスはナンシーの命令により制限されている。""
        [10]
-        1 string data = ""Told you before, pardners. Access to this console is restricted by order of the Nancys.""
+        1 string data = ""前にも言ったが、相棒。このコンソールへのアクセスはナンシーの命令により制限されている。""
        [11]
         1 string data = "::Beeeeeeeep::"
        [12]
-        1 string data = "'Defragmentation started...'\n\n\n'... Defragmentation complete!'"
+        1 string data = "'デフラグ開始...'\n\n\n'...デフラグ完了!'"
        [13]
-        1 string data = ""What do you think you're doing? Hey. Hey!""
+        1 string data = ""何をしているつもりだ?おい。おい!""
        [14]
-        1 string data = "[Sabotage] Press the 'F' button."
+        1 string data = "[Sabotage] 'F'ボタンを押す。"
        [15]
-        1 string data = "[Upgrade] Press the 'D' button."
+        1 string data = "[Upgrade] 'D'ボタンを押す。"
        [16]
-        1 string data = "Step away."
+        1 string data = "離れる。"
        [17]
-        1 string data = ""Look alive, patriot! Do you think we're going to do your job for you?!""
+        1 string data = ""しっかりしろ、愛国者!お前の仕事を俺たちがやってやると思ってるのか?!""
        [18]
-        1 string data = ""You're a heckuva guard, but that won't matter when this system fails Ronnie.""
+        1 string data = ""お前は優秀な警備兵だが、このシステムがロニーを失敗させたら意味がない。""
        [19]
-        1 string data = "[Attack] Kill the guard."
+        1 string data = "[Attack] 警備兵を殺す。"
        [20]
-        1 string data = ""Ma'am, yes-ma'am! Pressing the button now, ma'am!""
+        1 string data = ""奥様、了解であります!今すぐボタンを押します、奥様!""
        [21]
-        1 string data = ""Sir, yes-sir! Pressing the button now, sir!""
+        1 string data = ""旦那様、了解であります!今すぐボタンを押します、旦那様!""
        [22]
-        1 string data = ""Oh shoot - I didn't even notice! Thank you kindly, little lady!""
+        1 string data = ""しまった、全然気づかなかった!ありがとうございます、お嬢さん!""
        [23]
-        1 string data = ""Oh shoot - I didn't even notice! Thanks a million, sir!""
+        1 string data = ""しまった、全然気づかなかった!本当にありがとう、旦那!""
        [24]
-        1 string data = "'HD capacity: 4 MB. System fragmentation: 96%. Days since defrag: 3422.'\n\n\n'Press <i>D</i> to defragment hard disk. Press <i>F</i> to force-boot. WARNING: System integrity may be compromised.'"
+        1 string data = "'HD容量:4 MB。システム断片化:96%。デフラグからの経過日数:3422。'\n\n\n'<i>D</i>を押してハードディスクをデフラグ。<i>F</i>を押して強制起動。警告:システム整合性が損なわれる可能性があります。'"
        [25]
-        1 string data = ""Howdy.""
+        1 string data = ""よう。""
        [26]
-        1 string data = ""What's new?""
+        1 string data = ""何か新しいことは?""
        [27]
-        1 string data = ""How are things?""
+        1 string data = ""調子はどう?""
        [28]
-        1 string data = ""See you around.""
+        1 string data = ""またな。""
        [29]
-        1 string data = ""Pard'ner.""
+        1 string data = ""相棒。""
        [30]
-        1 string data = ""Just watchin' this terminal for the Nancys. Keep it under your hat, but I'm told it's mighty important.""
+        1 string data = ""ナンシーのためにこの端末を見張ってるんだ。内緒だが、すごく重要だって聞いてるぞ。""
        [31]
-        1 string data = ""'Bout the same. Still watchin' the ternimal.""
+        1 string data = ""同じだよ。まだ端末を見張ってる。""
        [32]
         1 string data = "Script Node 33"
        [33]
         1 string data = "Trigger Conv Node 34"
        [34]
-        1 string data = "'EMERGENCY OVERRIDE - TERMINAL LOCKED'"
+        1 string data = "'緊急オーバーライド - 端末ロック'"
        [35]
-        1 string data = ""Whoa, something's going crazy with this terminal! Can you fix it?""
+        1 string data = ""おっと、この端末が何かおかしくなってる!直せるか?""
        [36]
-        1 string data = ""Uh... I think I did something wrong. I hope the Nancys don't get mad.""
+        1 string data = ""ええと...何か間違えたと思う。ナンシーが怒らないといいけど。""
        [37]
-        1 string data = "'System fully operational with 0% HD fragmentation. HD capacity: 4 MB.'\n\n\nLooks like everything is running smoothly.\n"
+        1 string data = "'システムはHD断片化0%で完全に稼働中。HD容量:4 MB。'\n\n\n全てが順調に動作しているようだ。\n"
        [38]
         1 string data = "Script Node 39"
        [39]
-        1 string data = ""W-what?! No, I didn't even realize - um, what should I do?""
+        1 string data = ""な、何?!いや、全然気づかなかった - えっと、どうすればいい?""
        [40]
-        1 string data = "[Sabotage] "Press that 'F' button! NOW!""
+        1 string data = "[Sabotage] "その'F'ボタンを押せ!今すぐだ!""
        [41]
-        1 string data = "[Upgrade] "Just press the 'D' button.""
+        1 string data = "[Upgrade] "'D'ボタンを押すだけでいい。""
        [42]
-        1 string data = ""At ease, you know who we are. We're here to help you before this system fails Ronnie.""
+        1 string data = ""気楽にしろ、俺たちが誰だか知ってるだろ。このシステムがロニーを失敗させる前に、お前を助けに来たんだ。""
        [43]
-        1 string data = "'Terminal 1 of 3. R.A.E.D. array online. Active systems status: multiple_Active'"
+        1 string data = "'端末1/3。R.A.E.D.アレイオンライン。アクティブシステムステータス:複数_アクティブ'"
    [780]
     0 StringTable data
      1 string Filename = "b1001_womaninwhite"
