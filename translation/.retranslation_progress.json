@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 14394,
-      "entries_untranslated": 155318,
-      "completion_rate": 8.48,
-      "current_line": 172597,
+      "entries_translated": 14550,
+      "entries_untranslated": 155162,
+      "completion_rate": 8.57,
+      "current_line": 173617,
       "status": "in_progress",
       "approach": "STRICT sequential from line 390 - enhanced validation with bracket marker protection",
-      "note": "Session R3-174: 264 entries (lines 170953-172596). Completed: a5001_ambientconstables (24), a5001_ambientdrones (16), a5001_ambienthundredfamilies (113), a5001_ambienthundredfamilies_exchange (63), a5001_angeladeth_radio_concludelordsofwar (48). Next: line 172597 (a5001_bellamyward)"
+      "note": "Session R3-175: 156 entries (lines 172745-173616). Completed: a5001_bellamyward (34), a5001_bowen (19), a5001_cassandrahowe (4), a5001_castilloconstable (18), a5001_castillodaughter01 (18), a5001_castillodaughter02 (15), a5001_castillodrone01 (48). Next: line 173617 (a5001_companionbarks)"
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "125b6b9782fc96ea3545b0c34cd6b2e098b3ee47",
-  "last_commit_message": "Retranslation R3-174: 264 entries (lines 170953-172596)",
-  "total_entries_completed": 14394,
+  "last_commit_hash": "c513b9ee61ebddbb2d956ac3a7f1c8b3258ed5d9",
+  "last_commit_message": "Retranslation R3-175: 156 entries (lines 172745-173616)",
+  "total_entries_completed": 14550,
   "total_entries": 169712,
-  "total_entries_untranslated": 155318,
-  "overall_completion_rate": 8.48,
-  "next_action": "Continue from line 172597 (a5001_bellamyward).",
+  "total_entries_untranslated": 155162,
+  "overall_completion_rate": 8.57,
+  "next_action": "Continue from line 173617 (a5001_companionbarks).",
   "restart_info": {
     "restart_number": 3,
     "restart_date": "2025-11-05",
