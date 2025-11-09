@@ -82,6 +82,43 @@ fix_action_markers() {
     fi
 }
 
+# Fix untranslated entries
+fix_untranslated_entries() {
+    log "INFO" "🔧 Fixing untranslated entries..."
+
+    # Get current translation range
+    local current_line=$(jq -r '.files.base_game.current_line // 390' "$WORKING_DIR/translation/.retranslation_progress.json" 2>/dev/null || echo "390")
+    local glossary="$WORKING_DIR/translation/nouns_glossary.json"
+
+    # Run auto-fix script
+    if python3 "$WORKING_DIR/automation/auto-fix-untranslated.py" \
+        "$TARGET_FILE" \
+        "$SOURCE_FILE" \
+        "$REFERENCE_FILE" \
+        --start-line 390 \
+        --end-line "$current_line" \
+        --glossary "$glossary" 2>&1 | while read -r line; do
+            log "INFO" "  $line"
+        done; then
+        log "INFO" "  ✓ Untranslated entries fixed successfully"
+        return 0
+    else
+        local exit_code=$?
+        if [ $exit_code -eq 1 ]; then
+            log "INFO" "  → No untranslated entries found"
+            return 0
+        elif [ $exit_code -eq 2 ]; then
+            log "WARN" "  → Some entries require manual translation (no glossary match)"
+            log "WARN" "  → This is expected for complex dialogue"
+            # Return 0 because partial auto-fix is acceptable
+            return 0
+        else
+            log "ERROR" "  ✗ Untranslated entry fix failed"
+            return 1
+        fi
+    fi
+}
+
 # Fix structure errors (quote count mismatch, etc.)
 fix_structure_errors() {
     log "INFO" "🔧 Analyzing structure errors..."
@@ -143,7 +180,12 @@ main() {
         fixes_applied=true
     fi
 
-    # Fix 2: Structure errors (currently limited)
+    # Fix 2: Untranslated entries (NEW - 2025-11-09)
+    if fix_untranslated_entries; then
+        fixes_applied=true
+    fi
+
+    # Fix 3: Structure errors (currently limited)
     # fix_structure_errors  # Commented out - needs more robust implementation
 
     # Re-validate after fixes

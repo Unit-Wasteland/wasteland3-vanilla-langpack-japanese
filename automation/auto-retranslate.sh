@@ -456,24 +456,38 @@ translation/.retranslation_progress.json を読み込んで、translation/STRICT
    EN: string data = "::sigh:: \"I don't know...\""
    JA: string data = "::sigh:: \"わからない...\"" ✅ CORRECT!
 
-3. **各編集後の検証** (MANDATORY):
-   各editツール実行後、必ず以下を実行:
+3. **各編集後の検証** (MANDATORY - ENHANCED 2025-11-09):
+   各editツール実行後、必ず以下を全て実行:
 
    a) **構造検証**:
       python3 translation/validate_structure_v2.py TARGET_FILE --source SOURCE_FILE --detailed
       → エラー数: 0 であることを確認
 
-   b) **アクションマーカー検証** (NEW - 2025-11-02追加):
+   b) **アクションマーカー検証** (2025-11-02追加):
       grep -o '::[^:]*[ぁ-ゖァ-ヾ一-龯][^:]*::' TARGET_FILE
       → 結果が空であること (何も表示されない = OK)
       → 何か表示される = アクションマーカーに日本語が含まれている = 即座に修正
 
-   c) **エラーがある場合**:
+   c) **品質検証** (NEW - 2025-11-09追加 - 翻訳漏れ防止):
+      python3 translation/validate_translation_quality.py TARGET_FILE \\
+        --reference REFERENCE_FILE \\
+        --start-line START_LINE \\
+        --end-line END_LINE \\
+        --glossary translation/nouns_glossary.json
+      → Total issues found: 0 であることを確認
+      → 特に "Untranslated English entries" が 0 であることを厳格に確認
+
+   d) **エラーがある場合**:
       - 次の編集に進まず、即座に修正
-      - 修正後、再度検証 (a) と (b) を実行
-      - 全エラー解消まで繰り返す
+      - 修正後、再度検証 (a), (b), (c) を全て実行
+      - 全エラー・全課題解消まで繰り返す
 
    引用符の数が英語ソースと完全一致していることを確認（上記ルール2参照）
+
+   ⚠️⚠️⚠️ **CRITICAL: 検証を1つでもスキップしてはならない**
+   - 全ての検証が合格するまでコミットしない
+   - 「たぶん大丈夫」という推測は禁止
+   - 必ず実際にスクリプトを実行して確認
 
 4. **シーケンシャル処理** (MANDATORY):
    - 現在の行位置から順番に処理（スキップ禁止）
