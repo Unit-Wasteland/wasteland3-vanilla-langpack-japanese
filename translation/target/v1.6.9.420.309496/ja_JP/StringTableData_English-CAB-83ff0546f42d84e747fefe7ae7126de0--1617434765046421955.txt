@@ -296343,31 +296343,31 @@
       1 Array Array (13 items)
        0 int size = 13
        [0]
-        1 string data = "'Hello, operator!\n\n\nWelcome to the bridge controls. Bridges! Superior to cranes!\n\n\nPlease enter your command using the keyboard. Current available: LOWER / INFO / EXIT'"
+        1 string data = "'こんにちは、操作者!\n\n\n橋の制御装置へようこそ。橋! クレーンより優れている!\n\n\nキーボードを使ってコマンドを入力してください。現在利用可能: LOWER / INFO / EXIT'"
        [1]
-        1 string data = "Type 'LOWER.'"
+        1 string data = "'LOWER'と入力する。"
        [2]
-        1 string data = "Bang keys randomly."
+        1 string data = "適当にキーを叩く。"
        [3]
-        1 string data = "'Understood! Lowering bridge...\n\n\nBe advised: RAISE command disabled pending administrator override.'"
+        1 string data = "'了解! 橋を下げています...\n\n\n注意: 管理者の上書き許可待機のため、RAISEコマンドは無効化されています。'"
        [4]
         1 string data = "This computer is operational, flashing yellow text in a glaringly obnoxious font."
        [5]
-        1 string data = "Type 'INFO.'"
+        1 string data = "'INFO'と入力する。"
        [6]
-        1 string data = "'You are using Simplified Bridge Controller 0.8.3, Operator! Designed for your convenience and safety, SBC allows full control of your local bridge. Safe, sturdy, better than a crane!'"
+        1 string data = "'Simplified Bridge Controller 0.8.3をご利用中です、操作者! 便利さと安全のために設計されたSBCは、お客様の地域の橋を完全に制御できます。安全で、頑丈で、クレーンより優れています!'"
        [7]
         1 string data = "Turret online.\n\n\nTargeting Protocols: Destroy those who do not breathe. They're. Not. Worthy."
        [8]
         1 string data = "Targeting protocols reset.\n\n\nPrime Directive: Protect Aspen staff. Protect Aspen guests. Delete villains."
        [9]
-        1 string data = "Type 'EXIT.'"
+        1 string data = "'EXIT'と入力する。"
        [10]
-        1 string data = "'Why... why would you do this? Are you with the cranes?'"
+        1 string data = "'なぜ... なぜこんなことを? あなたはクレーンの仲間ですか?'"
        [11]
-        1 string data = "'Thank you and so long! Remember, bridges are better than cranes!'"
+        1 string data = "'ありがとうございます、それではまた! 橋はクレーンより優れています、お忘れなく!'"
        [12]
-        1 string data = "'Thank you and so long!'"
+        1 string data = "'ありがとうございます、それではまた!'"
    [958]
     0 StringTable data
      1 string Filename = "c1001_rileywoodsonradiocall"
@@ -296693,161 +296693,161 @@
       1 Array Array (78 items)
        0 int size = 78
        [0]
-        1 string data = ""Yes, he's my brother. So, you <i>are</i> with the Desert Rangers?""
+        1 string data = ""ああ、彼は俺の兄だ。それで、あなた方は<i>本当に</i>デザート・レンジャーなのか?""
        [1]
-        1 string data = "The radio on your hip crackles, and someone speaks in a low whisper tinged with desperation."
+        1 string data = "腰の無線機がパチパチと鳴り、誰かが絶望に満ちた低い囁き声で話し始める。"
        [2]
         1 string data = ""
        [3]
-        1 string data = ""This is Corporal Riley Woodson, Team November, out of Arizona, broadcasting on all Desert Ranger channels. Does anyone read me?""
+        1 string data = ""こちらはライリー・ウッドソン伍長、チーム・ノベンバー、アリゾナより。全デザート・レンジャー・チャンネルに送信中。誰か聞こえるか?""
        [4]
-        1 string data = ""Woodson? Are you related to General Wade Woodson?""
+        1 string data = ""ウッドソン? ウェイド・ウッドソン将軍と関係が?""
        [5]
-        1 string data = "There is silence, broken only by the hiss and pops of static. Then, Riley speaks."
+        1 string data = "静電気のシューシューという音とパチパチという音だけが静寂を破る。そして、ライリーが話す。"
        [6]
-        1 string data = ""We read you.""
+        1 string data = ""聞こえている。""
        [7]
-        1 string data = ""How do I know you are who you say you are?""
+        1 string data = ""本当にあなたが本人だとどうやって分かる?""
        [8]
-        1 string data = ""How did you survive the attack at the lake?""
+        1 string data = ""湖での襲撃をどうやって生き延びた?""
        [9]
-        1 string data = "He laughs shakily. "
+        1 string data = "彼は震える声で笑う。"
        [10]
-        1 string data = ""Okay. Listen up. I don't have much time here. My guard's in the can.""
+        1 string data = ""よし。聞いてくれ。ここは時間がない。監視役がトイレに行ってる。""
        [11]
-        1 string data = "He exhales. It is a ragged, exhausted sound. "
+        1 string data = "彼は息を吐く。それは荒く、疲れ切った音だ。"
        [12]
-        1 string data = ""We got lucky, I guess. The attack broke up the ice, forced us onto the shore. We couldn't help, couldn't retreat. Only thing we could do was drive back towards Aspen and hope they had a working radio.""
+        1 string data = ""運が良かったんだと思う。攻撃で氷が割れて、岸に押し出された。助けることも、退却することもできなかった。できたのはアスペンに向かって車を走らせて、動く無線があることを願うだけだった。""
        [13]
-        1 string data = ""That's Ranger suspicion if I've ever heard it.""
+        1 string data = ""それはまさにレンジャーの疑い深さだ。""
        [14]
-        1 string data = ""Vic Buchanan - the Patriarch's crazy-ass son - is holding me and my team captive. He's making me listen to radio frequencies for trouble... Doesn't know I've been watching Ranger frequencies too. You'll need to come get us, but <i>be careful</i>.""
+        1 string data = ""ヴィック・ブキャナン - パトリアークのイカれた息子 - が俺とチームを捕らえている。無線周波数を監視して問題を探すよう強制されてる... 俺がレンジャーの周波数も監視してることは知らない。助けに来てくれ、だが<i>慎重に</i>。""
        [15]
-        1 string data = ""Are you injured?""
+        1 string data = ""負傷しているのか?""
        [16]
-        1 string data = ""Hell yeah. Badly. Don't worry about it - we don't have much time here.""
+        1 string data = ""ああ。ひどくな。でも心配するな - ここは時間がない。""
        [17]
         1 string data = ""
        [18]
-        1 string data = ""Copy that. What kind of threats are we looking at up there?""
+        1 string data = ""了解。そこにはどんな脅威が待ち受けている?""
        [19]
-        1 string data = ""Gotta be honest, Corporal Woodson - dealing with the Patriarch's son is our first priority.""
+        1 string data = ""正直に言うと、ウッドソン伍長 - パトリアークの息子への対処が最優先だ。""
        [20]
-        1 string data = "::coughs:: "I'd given up hope anyone would ever find us. Not sure what kept you, but I'm glad you're here.""
+        1 string data = "::coughs:: "誰かが見つけてくれる希望を諦めていた。何が遅らせたのか分からないが、来てくれて嬉しい。""
        [21]
-        1 string data = ""It's... it's bad up here. Worse than you can imagine.""
+        1 string data = ""ここは... ここはひどい状況だ。想像以上に悪い。""
        [22]
-        1 string data = ""Don't blame you for that. If we don't have the Patriarch on our side, Arizona's as good as dead.""
+        1 string data = ""それは責めない。パトリアークが味方でなければ、アリゾナは死んだも同然だ。""
        [23]
-        1 string data = ""And I'm not exaggerating when I call his people insane. 'Breathers,' he calls them. Constantly breathing crazy gasses from their tanks. They're crazy... and dangerous.""
+        1 string data = ""奴の連中を狂ってると言っても誇張じゃない。'ブリーザーズ'と呼んでる。いつもタンクから狂ったガスを吸ってる。狂ってる... そして危険だ。""
        [24]
-        1 string data = ""Nearly everyone up here will kill you on sight, so take it slow, and keep an eye out for supplies you can use.""
+        1 string data = ""ここにいるほぼ全員が見つけ次第殺してくる。だからゆっくり進め、使える物資を見つけたら確保しろ。""
        [25]
-        1 string data = ""Help's on the way, Corporal.""
+        1 string data = ""助けが向かっている、伍長。""
        [26]
-        1 string data = ""Can you make it outside to us?""
+        1 string data = ""外に出て俺たちと合流できるか?""
        [27]
-        1 string data = ""Good to hear that. We've been getting by on hope for a long time.""
+        1 string data = ""それは良かった。俺たちは長い間希望にすがってきた。""
        [28]
-        1 string data = ""No. We're too scattered or too injured. No way to coordinate an escape.""
+        1 string data = ""無理だ。散り散りになり過ぎているし、負傷者も多い。脱出を調整する術がない。""
        [29]
-        1 string data = "You hear a creak, then Riley curses. "
+        1 string data = "きしむ音が聞こえ、それからライリーが悪態をつく。"
        [30]
-        1 string data = ""My guard's coming back. See you soon, Rangers. Woodson out.""
+        1 string data = ""監視役が戻ってくる。また会おう、レンジャー。ウッドソン、通信終了。""
        [31]
-        1 string data = ""Guess that part worked out, at least.""
+        1 string data = ""少なくともその部分は上手くいったようだ。""
        [32]
-        1 string data = ""We are.""
+        1 string data = ""そうだ。""
        [33]
-        1 string data = ""You need to know what's going on up here. We're running out of time, so listen up.""
+        1 string data = ""ここで何が起きているか知る必要がある。時間がないから聞いてくれ。""
        [34]
-        1 string data = ""Vic and his people are insane. Remember that. Understand that. They've butchered people or burned them alive and laughed about it.""
+        1 string data = ""ヴィックと奴の仲間は狂ってる。それを覚えておけ。理解しろ。人を切り刻んだり、生きたまま焼いて笑っていた。""
        [35]
         1 string data = "Script Node 37"
        [36]
         1 string data = ""
        [37]
-        1 string data = ""Rangers, this is Corporal Woodson. What's going on down there? I'm hearing a lot of foot traffic up here. It sounds like they're sending a squad of Breathers down the Gondola.""
+        1 string data = ""レンジャー、ウッドソン伍長だ。そっちで何が起きてる? こっちで足音がたくさん聞こえる。ゴンドラでブリーザーズの部隊を送り込んでるようだ。""
        [38]
-        1 string data = ""We read you.""
+        1 string data = ""聞こえている。""
        [39]
         1 string data = ""
        [40]
-        1 string data = ""We cleared out some Breathers who were holed up in a resort.""
+        1 string data = ""リゾートに立てこもっていたブリーザーズを排除した。""
        [41]
-        1 string data = ""Sounds like you made it past their initial defenses. But I suspect they're setting up an ambush further ahead. You'll have to fight your way to the Gondola - the old ski lift that can take you to the summit.""
+        1 string data = ""初期防衛を突破したようだな。だが先で待ち伏せを用意していると思う。ゴンドラまで戦闘で突破する必要がある - 頂上まで行ける古いスキーリフトだ。""
        [42]
-        1 string data = ""Glad you feel that way, but be aware that heavy resistance is waiting. I overheard something that might help. Word is there's some Breathers trying to retrieve a weapons cache from a bunker. Seems they tripped some kind of Hundred Family defenses.""
+        1 string data = ""そう思ってくれて嬉しいが、強力な抵抗が待ち受けていることを覚悟しろ。役に立ちそうなことを小耳に挟んだ。ブリーザーズがバンカーから武器キャッシュを回収しようとしているらしい。百家族の防衛装置を作動させてしまったようだ。""
        [43]
-        1 string data = ""We're ready for them.""
+        1 string data = ""準備は万全だ。""
        [44]
-        1 string data = ""I don't know where the bunker is exactly, but it should be across the bridge. If you can take out those Breathers and get to those weapons, I'm sure they will come in real handy once you get up to the Gondola.""
+        1 string data = ""バンカーの正確な場所は分からないが、橋を渡った先にあるはずだ。ブリーザーズを倒して武器を手に入れられれば、ゴンドラに到着した時にきっと役立つだろう。""
        [45]
-        1 string data = ""Thanks for the tip. We'll see you soon.""
+        1 string data = ""情報感謝する。すぐ会おう。""
        [46]
-        1 string data = ""Good luck, Rangers. We're counting on you.""
+        1 string data = ""幸運を、レンジャー。君たちを頼りにしている。""
        [47]
         1 string data = ""
        [48]
-        1 string data = ""Rangers, this is Corporal Woodson. Are you at the Gondola?""
+        1 string data = ""レンジャー、ウッドソン伍長だ。ゴンドラに到着したか?""
        [49]
         1 string data = ""We read you.""
        [50]
         1 string data = ""What's your status? Is the Gondola clear?""
        [51]
-        1 string data = ""We reached the Gondola. Hold tight, Corporal, we're coming.""
+        1 string data = ""ゴンドラに到着した。持ちこたえろ、伍長、今向かう。""
        [52]
-        1 string data = ""Roger that, but please hurry. Things are getting worse up here. Vic is throwing a tantrum and taking out his frustrations on my squad and the civilian hostages. I don't know what he's doing to them, but judging by the screams it can't be good. We need you up here double time.""
+        1 string data = ""了解だが、急いでくれ。ここはさらに悪化している。ヴィックがかんしゃくを起こして、俺の部隊と民間人の人質に八つ当たりしている。何をしているか分からないが、叫び声から察するに良いことではない。すぐにここに来てくれ。""
        [53]
         1 string data = ""Understood. We're heading up soon.""
        [54]
-        1 string data = ""The guards are making their rounds. See you soon. Woodson out.""
+        1 string data = ""監視役が巡回を始めた。また会おう。ウッドソン、通信終了。""
        [55]
-        1 string data = ""The Gondola?""
+        1 string data = ""ゴンドラ?""
        [56]
-        1 string data = ""The Gondola is an old ski lift that goes up or down the mountainside - the only way to get up to the summit. You'll have to fight your way to it. They're probably setting up an ambush for you there as we speak.""
+        1 string data = ""ゴンドラは山腹を上下する古いスキーリフトだ - 頂上に行く唯一の方法だ。戦って進む必要がある。今この瞬間も、待ち伏せを準備しているだろう。""
        [57]
-        1 string data = ""Copy that. Any advice you can offer?""
+        1 string data = ""了解。何かアドバイスはあるか?""
        [58]
-        1 string data = ""Yes, actually - I picked up some chatter that might help. Word is there's some Breathers trying to retrieve a weapons cache from a bunker. Seems they tripped some kind of Hundred Family defenses.""
+        1 string data = ""実はある - 役立ちそうな会話を傍受した。ブリーザーズがバンカーから武器キャッシュを回収しようとしているらしい。百家族の防衛装置を作動させてしまったようだ。""
        [59]
-        1 string data = ""Clear copy, Corporal. Hold tight, we're on the way.""
+        1 string data = ""了解、伍長。持ちこたえろ、今向かう。""
        [60]
-        1 string data = ""Took care of the ambush - barely broke a sweat. We're coming up to deal with Vic.""
+        1 string data = ""待ち伏せを片付けた - ほとんど汗もかかなかった。これからヴィックに対処する。""
        [61]
-        1 string data = ""Copy that, just to let you know things are getting a lot worse up here. Vic is throwing a tantrum and taking out his frustrations on my squad and the civilian hostages. I don't know what he's doing to them, but judging by the screams it can't be good. Hope you're ready to keep kicking ass.""
+        1 string data = ""了解、伝えておくがここはさらに悪化している。ヴィックがかんしゃくを起こして、俺の部隊と民間人の人質に八つ当たりしている。何をしているか分からないが、叫び声から察するに良いことではない。引き続き戦える準備ができていることを願う。""
        [62]
-        1 string data = ""We lowered a drawbridge that was being guarded by Breathers.""
+        1 string data = ""ブリーザーズが守っていた跳ね橋を下げた。""
        [63]
         1 string data = ""
        [64]
-        1 string data = ""Rangers, Woodson here. Overheard the guards saying they lost contact with the squad at the bunker. You secured the weapons cache?""
+        1 string data = ""レンジャー、ウッドソンだ。監視役がバンカーの部隊と連絡が取れないと言っているのを聞いた。武器キャッシュは確保したか?""
        [65]
-        1 string data = ""It's secure, we're gearing up.""
+        1 string data = ""確保した、武装中だ。""
        [66]
-        1 string data = ""Affirmative. What's your status?""
+        1 string data = ""肯定。状態はどうだ?""
        [67]
-        1 string data = ""Copy that, you might need it soon. Hearing a lot of foot traffic heading for the Gondola lift. Be careful, Rangers, they're waiting for you.""
+        1 string data = ""了解、すぐに必要になるかもしれない。ゴンドラに向かう足音がたくさん聞こえる。気をつけろ、レンジャー、待ち伏せしている。""
        [68]
-        1 string data = ""As good as can be expected. Worried about the other Rangers up here, though. Gear up and move out as soon as you can. Hearing foot traffic - I think they're waiting for you at the Gondola.""
+        1 string data = ""予想通りといったところだ。ただ、ここにいる他のレンジャーが心配だ。できるだけ早く武装して出発してくれ。足音が聞こえる - ゴンドラで待ち伏せしていると思う。""
        [69]
-        1 string data = ""... Shit... I have to go. The guards are making their rounds. Woodson out.""
+        1 string data = ""... クソ... 行かなくては。監視役が巡回を始めた。ウッドソン、通信終了。""
        [70]
-        1 string data = ""We convinced the Breathers to let us through. We're coming up to deal with Vic.""
+        1 string data = ""ブリーザーズを説得して通してもらった。これからヴィックに対処する。""
        [71]
-        1 string data = ""That's unexpected, but good to hear. Things are getting worse up here. Vic is throwing a tantrum and taking out his frustrations on my squad and the civilian hostages. I don't know what he's doing to them, but judging by the screams it can't be good. Hope you're ready to keep kicking ass.""
+        1 string data = ""意外だが、良い知らせだ。ここはさらに悪化している。ヴィックがかんしゃくを起こして、俺の部隊と民間人の人質に八つ当たりしている。何をしているか分からないが、叫び声から察するに良いことではない。引き続き戦える準備ができていることを願う。""
        [72]
         1 string data = "Script Node 77"
        [73]
-        1 string data = ""This is Corporal Riley Woodson, Team November, out of Arizona, broadcasting on all Desert Ranger channels. Does anyone read me?""
+        1 string data = ""こちらはライリー・ウッドソン伍長、チーム・ノベンバー、アリゾナより。全デザート・レンジャー・チャンネルに送信中。誰か聞こえるか?""
        [74]
-        1 string data = ""Vic Buchanan - the Patriarch's crazy-ass son - is holding me and my team captive. You need to come get us, but <i>be careful</i>.""
+        1 string data = ""ヴィック・ブキャナン - パトリアークのイカれた息子 - が俺とチームを捕らえている。助けに来てくれ、だが<i>慎重に</i>。""
        [75]
-        1 string data = ""Okay. Listen up.""
+        1 string data = ""よし。聞いてくれ。""
        [76]
-        1 string data = ""I'm not exaggerating when I call his people insane. 'Breathers', he calls them. Constantly breathing crazy gasses from their tanks.""
+        1 string data = ""奴の連中を狂ってると言っても誇張じゃない。'ブリーザーズ'と呼んでる。いつもタンクから狂ったガスを吸ってる。""
        [77]
-        1 string data = ""Nearly everyone up here will kill you on sight, so take it slow.""
+        1 string data = ""ここにいるほぼ全員が見つけ次第殺してくる。だからゆっくり進め。""
    [959]
     0 StringTable data
      1 string Filename = "c1001_thepsychopath_radiobarks"
@@ -297103,123 +297103,123 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = ""Hiya, Rangers! I heard Daddy told you to call on me. Gosh darn great to meet you! We're rollin' out the red carpet for you.""
+        1 string data = ""やあ、レンジャー! パパが君たちに俺を訪ねるよう言ったと聞いた。会えて最高に嬉しいよ! レッドカーペットを敷いてるぜ。""
        [2]
-        1 string data = ""Uh-oh. Looks like I'm gonna need to find some more friends. You're goin' through 'em awful fast.""
+        1 string data = ""おっと。もっと友達を見つける必要がありそうだ。すごいスピードで片付けてるな。""
        [3]
         1 string data = "Script Node 4"
        [4]
         1 string data = "Script Node 4"
        [5]
-        1 string data = ""I'm hearin' a heck of a lot of shooting. Hope you're all making friends down there!""
+        1 string data = ""すごい銃声が聞こえてるぜ。下で友達作りしてるといいな!""
        [6]
         1 string data = "Script Node 4"
        [7]
-        1 string data = ""The question you have to ask yourself is, do you have a burning desire to be free? Are you on fire with purpose?"\n"
+        1 string data = ""自分に問いかけるべき質問は、自由になりたいという燃えるような欲望があるかどうかだ。目的に向かって燃えているか?"\n"
        [8]
         1 string data = "Script Node 4"
        [9]
-        1 string data = ""Ha! You're fired!""
+        1 string data = ""ハッ! お前はクビだ!""
        [10]
         1 string data = "Script Node 4"
        [11]
-        1 string data = ""Now let's see if you can <i>cut it</i> in a high stress environment.""
+        1 string data = ""さあ、ストレスの高い環境で<i>やっていける</i>か見てみよう。""
        [12]
         1 string data = "Script Node 4"
        [13]
-        1 string data = ""It's so hard making these tough human resource decisions, isn't it?""
+        1 string data = ""こういう厳しい人事決定をするのは難しいよな?""
        [14]
         1 string data = "Script Node 4"
        [15]
-        1 string data = ""Aw. I thought he had a lot of good years left.""
+        1 string data = ""ああ。まだたくさんいい年月が残ってると思ったのに。""
        [16]
         1 string data = "Script Node 4"
        [17]
-        1 string data = ""I know, I know, they're not dogs. I couldn't get dogs, okay? Bear with me.""
+        1 string data = ""分かってる、分かってるよ、犬じゃないんだ。犬は手に入らなかったんだ、いいか? 我慢してくれ。""
        [18]
         1 string data = "Script Node 4"
        [19]
-        1 string data = ""They were good dogs, Rangers! They were all good dogs!""
+        1 string data = ""良い犬たちだったぜ、レンジャー! みんな良い犬たちだった!""
        [20]
         1 string data = "Script Node 4"
        [21]
-        1 string data = ""Ha ha ha ha ha! Rangers, I'd be mad if that wasn't such a <i>bad ass explosion!</i>""
+        1 string data = ""ハハハハハ! レンジャー、あんなに<i>素晴らしい爆発</i>じゃなかったら怒ってたぜ!""
        [22]
         1 string data = "Script Node 4"
        [23]
-        1 string data = ""Oopsie!""
+        1 string data = ""おっと!""
        [24]
         1 string data = "Script Node 4"
        [25]
-        1 string data = ""Tricked you! Ha ha!""
+        1 string data = ""引っかかったな! ハハ!""
        [26]
         1 string data = "Script Node 4"
        [27]
-        1 string data = ""Awww, you killed all my Breathers. Oh well. Step into the Gondola.""
+        1 string data = ""あーあ、俺のブリーザーズを全員殺しちゃった。まあいいか。ゴンドラに乗り込んでくれ。""
        [28]
         1 string data = "Script Node 4"
        [29]
-        1 string data = ""Damn, Rangers! Talk about your Rocky Mountain high! Now, I've <i>got</i> to meet you. Get in to the Gondola.""
+        1 string data = ""クソッ、レンジャー! ロッキー山脈のハイ以上だぜ! もう君たちに会わ<i>なきゃ</i>いけない。ゴンドラに乗り込んでくれ。""
        [30]
         1 string data = "Script Node 31"
        [31]
-        1 string data = ""Looking for the way out, Rangers? Well, well, well - like I tell <i>all</i> my guests - if you've got what it takes, you can leave anytime you want.""
+        1 string data = ""出口を探してるのか、レンジャー? まあまあまあ - <i>全ての</i>ゲストに言ってることだが - 必要なものを持っているなら、いつでも好きな時に出ていけるぜ。""
        [32]
-        1 string data = ""Just follow the signs.""
+        1 string data = ""標識に従えばいい。""
        [33]
-        1 string data = ""Or... just on fire. Hee hee.""
+        1 string data = ""あるいは... ただ燃えるだけだ。ヒヒヒ。""
        [34]
         1 string data = "Script Node 35"
        [35]
-        1 string data = ""Looks like you got the axe! Ha ha ha!""
+        1 string data = ""斧でやられたようだな! ハハハ!""
        [36]
-        1 string data = ""Oooh! Burn!""
+        1 string data = ""おおっ! 燃えろ!""
        [37]
-        1 string data = ""That's hot!""
+        1 string data = ""熱いぜ!""
        [38]
-        1 string data = ""Feel the burn! C'mon, feel it!""
+        1 string data = ""燃焼を感じろ! さあ、感じるんだ!""
        [39]
-        1 string data = ""We've had to make some cuts.""
+        1 string data = ""いくつか削減しなきゃならなかった。""
        [40]
-        1 string data = ""Come on now. Chop, chop.""
+        1 string data = ""さあ。チョップチョップ。""
        [41]
-        1 string data = ""Everybody gets a cut!""
+        1 string data = ""みんな一刀両断だ!""
        [42]
-        1 string data = ""It's like one of those trust-building exercises, only, you know, in reverse.""
+        1 string data = ""信頼構築エクササイズの一種みたいなもんだよ、ただ、その、逆だけど。""
        [43]
         1 string data = "Script Node 44"
        [44]
-        1 string data = ""Now, it's a dog eat dog world out there, Rangers. Can you compete?""
+        1 string data = ""さあ、外は弱肉強食の世界だぜ、レンジャー。競争できるか?""
        [45]
         1 string data = "Script Node 46"
        [46]
-        1 string data = ""Some days the bear will eat you, right?""
+        1 string data = ""クマに食われる日もあるよな?""
        [47]
-        1 string data = ""Can you bear it?""
+        1 string data = ""耐えられるか?""
        [48]
-        1 string data = ""Law of the jungle around here.""
+        1 string data = ""ここでは弱肉強食の法則が支配してる。""
        [49]
-        1 string data = ""Eww! That bites!""
+        1 string data = ""うわっ! それは噛みつくぜ!""
        [50]
-        1 string data = ""Don't let 'em replace you!""
+        1 string data = ""取って代わられるなよ!""
        [51]
-        1 string data = ""Ever feel you're just a cog in a big machine?""
+        1 string data = ""自分がでっかい機械の歯車の一つだと感じたことないか?""
        [52]
-        1 string data = ""Isn't automation wonderful?""
+        1 string data = ""自動化って素晴らしいだろ?""
        [53]
-        1 string data = ""Dying was never this easy. You don't even have to lift a finger.""
+        1 string data = ""死ぬのがこんなに簡単だったことはない。指一本動かす必要すらないんだ。""
        [54]
-        1 string data = ""See you soon!""
+        1 string data = ""またすぐ会おう!""
        [55]
-        1 string data = ""I know, I know, they're not dogs. I couldn't get dogs, okay? Just go with it.""
+        1 string data = ""分かってる、分かってるよ、犬じゃないんだ。犬は手に入らなかったんだ、いいか? まあ乗ってくれ。""
        [56]
         1 string data = "Script Node 57"
        [57]
         1 string data = "Trigger Conv Node 58"
        [58]
-        1 string data = ""Awww, you killed all my Breathers. Oh well.""
+        1 string data = ""あーあ、俺のブリーザーズを全員殺しちゃった。まあいいか。""
        [59]
-        1 string data = ""Damn, Rangers! Talk about your Rocky Mountain high! Now, I've <i>got</i> to meet you.""
+        1 string data = ""クソッ、レンジャー! ロッキー山脈のハイ以上だぜ! もう君たちに会わ<i>なきゃ</i>いけない。""
    [960]
     0 StringTable data
      1 string Filename = "c1001_trapgauntletsurvivor"
@@ -297317,33 +297317,33 @@
       1 Array Array (21 items)
        0 int size = 21
        [0]
-        1 string data = ""Is... is someone there?""
+        1 string data = ""誰か... 誰かいるのか?""
        [1]
-        1 string data = ""Please... I want to die... help me...""
+        1 string data = ""頼む... 死にたい... 助けてくれ...""
        [2]
-        1 string data = ""Please, if someone is there... help me... help me die. I've been here for... I think the sun set three times.""
+        1 string data = ""頼む、もし誰かいるなら... 助けてくれ... 死ぬのを手伝ってくれ。ここにいるのは... たぶん太陽が三回沈んだ。""
        [3]
-        1 string data = "Examine the man's wounds."
+        1 string data = "男の傷を調べる。"
        [4]
-        1 string data = "[Euthanize] Set your hand against the man's throat and hold it until he stops breathing."
+        1 string data = "[安楽死させる] 男の喉に手を当て、呼吸が止まるまで抑える。"
        [5]
-        1 string data = "[Kill] Toss the man's limp body onto the nearby switch to hold it down."
+        1 string data = "[殺す] 男のぐったりした体を近くのスイッチに投げて押さえつける。"
        [6]
-        1 string data = "Step away."
+        1 string data = "離れる。"
        [7]
-        1 string data = ""Please...""
+        1 string data = ""頼む...""
        [8]
-        1 string data = "A large gash runs from his belly button to his ribcage, most likely from the spinning blades nearby. If there was ever any hope to save his life, it evaporated once the gangrene took hold."
+        1 string data = "へそから肋骨まで大きな裂傷が走っている。おそらく近くの回転する刃によるものだ。もし命を救う希望があったとしても、壊疽が始まった時点で消え失せた。"
        [9]
-        1 string data = ""Th-thank you..."\n\n\nIn a few moments, his head slumps slightly."
+        1 string data = ""あ、ありがとう..."\n\n\n数瞬後、彼の頭がわずかに垂れ下がる。"
        [10]
-        1 string data = "You pick up the man's dead weight and heave him toward the switch... and the spinning pillar of blades."
+        1 string data = "あなたは男の死体を持ち上げ、スイッチへ... そして回転する刃の柱へ向かって放り投げる。"
        [11]
         1 string data = "Script Node 14"
        [12]
-        1 string data = ""He-hello?""
+        1 string data = ""こ、こんにちは?""
        [13]
-        1 string data = ""Please...""
+        1 string data = ""頼む...""
        [14]
         1 string data = "::coughs::"
        [15]
@@ -297357,7 +297357,7 @@
        [19]
         1 string data = ""
        [20]
-        1 string data = "You pick up the man's dead weight and heave him toward the switch."
+        1 string data = "あなたは男の死体を持ち上げ、スイッチへ向かって放り投げる。"
    [961]
     0 StringTable data
      1 string Filename = "c1001_wolf"
