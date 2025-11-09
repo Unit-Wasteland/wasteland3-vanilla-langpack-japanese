@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 28737,
-      "entries_untranslated": 140975,
-      "completion_rate": 16,
-      "current_line": 286941,
+      "entries_translated": 28902,
+      "entries_untranslated": 140810,
+      "completion_rate": 17,
+      "current_line": 288392,
       "status": "in_progress",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session R3-272: Completed 275 entries (lines 285490-286938). Sections: Victory Buchanan barks (125) + PC Cold barks (83) + PC Educated barks (67). Unified translation logic applied. All entries validated with zero errors and zero quality issues. Next: line 286941 start pc_hardass section"
+      "note": "Session R3-273: Completed 165 entries (lines 287426-288388). Sections: PC Hardass barks (84) + PC Mime barks (3) + PC Recruit barks (78). Unified translation logic applied. ES empty preserved EN text (line 287542). All entries validated with zero errors and zero quality issues. Next: line 288392 start pc_smartass section"
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "f5fc21b",
-  "last_commit_message": "Retranslation R3-272: Added PC Educated barks - 67 entries",
-  "total_entries_completed": 28737,
+  "last_commit_hash": "",
+  "last_commit_message": "Retranslation R3-273: PC barks (Hardass/Mime/Recruit) - 165 entries",
+  "total_entries_completed": 28902,
   "total_entries": 169712,
-  "total_entries_untranslated": 140975,
-  "overall_completion_rate": 16,
-  "next_action": "Continue from line 286941",
+  "total_entries_untranslated": 140810,
+  "overall_completion_rate": 17,
+  "next_action": "Continue from line 288392",
   "restart_info": {
     "restart_number": 3,
     "restart_date": "2025-11-05",
