@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 21131,
-      "entries_untranslated": 148581,
-      "completion_rate": 12.45,
-      "current_line": 224629,
+      "entries_translated": 21311,
+      "entries_untranslated": 148401,
+      "completion_rate": 12.56,
+      "current_line": 225733,
       "status": "in_progress",
       "approach": "STRICT sequential from line 390 - enhanced validation with bracket marker protection",
-      "note": "Session R3-221: 145 entries (lines 224304-224594). b3001_sisternancyglory (mostly complete): Nancy Glory dialogues, Gipper faction relations, Godfisher encounters, Reagan statue interactions. [Reward:] and [Dropset:] markers preserved. Structure: 0 errors, Action: 0 issues (::yawns:: preserved), Quality: 0 issues (unified translation logic). Next: line 224629 (b3001_sisternancytaint starts)"
+      "note": "Session R3-222: 180 entries (lines 224629-225732). b3001_sisternancytaint (145 entries): Doc/Wyman dialogues, medical supplies trade, Machine Commune intelligence quest, Forge rivalry. b3001_sisternancytaint2 (35 entries): context-specific dialogue reuse. [Reward:], [Dropset:], [Global:] markers preserved. Structure: 0 errors, Quality: 0 issues (unified translation logic). Next: line 225733 (b3001_thezealot_valor starts)"
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "27e7847",
-  "last_commit_message": "Retranslation R3-221: 145 entries (lines 224304-224594)",
-  "total_entries_completed": 21131,
+  "last_commit_hash": "pending",
+  "last_commit_message": "Retranslation R3-222: 180 entries (lines 224629-225732)",
+  "total_entries_completed": 21311,
   "total_entries": 169712,
-  "total_entries_untranslated": 148581,
-  "overall_completion_rate": 12.45,
-  "next_action": "Continue from line 224629 (b3001_sisternancytaint starts)",
+  "total_entries_untranslated": 148401,
+  "overall_completion_rate": 12.56,
+  "next_action": "Continue from line 225733 (b3001_thezealot_valor starts)",
   "restart_info": {
     "restart_number": 3,
     "restart_date": "2025-11-05",
