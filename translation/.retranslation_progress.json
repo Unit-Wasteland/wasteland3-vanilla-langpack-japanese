@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 28347,
-      "entries_untranslated": 141365,
+      "entries_translated": 28462,
+      "entries_untranslated": 141250,
       "completion_rate": 16,
-      "current_line": 283932,
+      "current_line": 284844,
       "status": "in_progress",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session R3-270: 148 entries (lines 282952-283930). Sections completed: reactionbarks_companion_lucia tail (6 entries), reactionbarks_companion_pizepi (142 entries). Unified translation logic applied. All entries validated with zero errors and zero quality issues. Next: line 283935 start scotchmo section"
+      "note": "Session R3-271: Fixed 1 quality error (line 282736) + 114 entries (lines 283932-284844). Section completed: reactionbarks_companion_scotchmo (Scotchmo drunk dialogue - 114 entries). Unified translation logic applied. All entries validated with zero errors and zero quality issues. Next: line 284847 start victorybuchanan section"
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "bfe8c0b",
-  "last_commit_message": "Retranslation R3-270: Companion barks Lucia/Pizepi - 148 entries (lines 282952-283930)",
-  "total_entries_completed": 28347,
+  "last_commit_hash": "4bffc62",
+  "last_commit_message": "Session R3-271: Fixed quality error + Scotchmo section - 115 entries total",
+  "total_entries_completed": 28462,
   "total_entries": 169712,
-  "total_entries_untranslated": 141365,
+  "total_entries_untranslated": 141250,
   "overall_completion_rate": 16,
-  "next_action": "Continue from line 283935",
+  "next_action": "Continue from line 284847",
   "restart_info": {
     "restart_number": 3,
     "restart_date": "2025-11-05",
