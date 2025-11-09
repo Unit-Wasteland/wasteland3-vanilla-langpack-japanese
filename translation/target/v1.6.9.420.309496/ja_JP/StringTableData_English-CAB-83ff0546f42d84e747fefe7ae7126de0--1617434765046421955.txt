@@ -301733,17 +301733,17 @@
       1 Array Array (6 items)
        0 int size = 6
        [0]
-        1 string data = " Before you is a coded letter from Abigail Markham to the Patriarch."
+        1 string data = "目の前には、アビゲイル・マーカムから総主教への暗号化された手紙がある。"
        [1]
-        1 string data = " Analyze the indentiations in the margins of the letter for the key which can solve the cipher."
+        1 string data = "手紙の余白のインデントを分析し、暗号を解読する鍵を見つける。"
        [2]
-        1 string data = " Study the frequency and distribution of words in the letter in order to crack the cipher."
+        1 string data = "手紙の単語の頻度と分布を研究し、暗号を解読する。"
        [3]
-        1 string data = " Leave the letter alone."
+        1 string data = "手紙を放置する。"
        [4]
-        1 string data = " The letter reveals that Abigail Markham is the Patriarch's fallback succession plan... though he hasn't made it official yet, and Markham is still trying to convince him that her computational engines will be more capable and less fallible than an ordinary human leader on their own."
+        1 string data = "手紙の内容から、アビゲイル・マーカムが総主教の代替後継計画であることが明らかになる...しかしまだ正式なものではなく、マーカムは彼女の計算エンジンが通常の人間の指導者よりも有能で誤りが少ないと総主教を説得しようとしている。"
        [5]
-        1 string data = " Decode the letter and read the contents."
+        1 string data = "手紙を解読して内容を読む。"
    [979]
     0 StringTable data
      1 string Filename = "c2101_liftcomputertop"
@@ -301807,27 +301807,27 @@
        [0]
         1 string data = "Script Node 9"
        [1]
-        1 string data = "This console looks identical to the one you used at the foot of the mountain. You can ride the lift back down."
+        1 string data = "このコンソールは、山のふもとで使ったものと同じに見える。リフトに乗って山を下りることができる。"
        [2]
-        1 string data = "'Ski Lift is fully powered. Activate?'"
+        1 string data = "'スキーリフトは完全に稼働しています。起動しますか?'"
        [3]
-        1 string data = "[Travel to Base Camp] Activate Lift."
+        1 string data = "[Travel to Base Camp]リフトを起動する。"
        [4]
-        1 string data = "[Return to World Map] Activate Lift."
+        1 string data = "[Return to World Map]リフトを起動する。"
        [5]
-        1 string data = "[Return to World Map] Activate Lift."
+        1 string data = "[Return to World Map]リフトを起動する。"
        [6]
-        1 string data = "'Enjoy your trip down the mountain!'"
+        1 string data = "'山を下る旅をお楽しみください!'"
        [7]
-        1 string data = "'All passengers must be present in order to ride the lift.'"
+        1 string data = "'リフトに乗るには、すべての乗客が揃っている必要があります。'"
        [8]
-        1 string data = "'Enjoy your trip down the mountain!'"
+        1 string data = "'山を下る旅をお楽しみください!'"
        [9]
-        1 string data = "'All passengers must be present in order to ride the lift.'"
+        1 string data = "'リフトに乗るには、すべての乗客が揃っている必要があります。'"
        [10]
-        1 string data = "[Travel to Base Camp] Activate Lift."
+        1 string data = "[Travel to Base Camp]リフトを起動する。"
        [11]
-        1 string data = "Step away from the console."
+        1 string data = "コンソールから離れる。"
    [980]
     0 StringTable data
      1 string Filename = "c2101_llewellyn"
@@ -302277,125 +302277,125 @@
       1 Array Array (109 items)
        0 int size = 109
        [0]
-        1 string data = " Intro"
+        1 string data = "イントロ"
        [1]
-        1 string data = " View debug options"
+        1 string data = "デバッグオプションを見る"
        [2]
-        1 string data = " Select a debug option"
+        1 string data = "デバッグオプションを選択"
        [3]
-        1 string data = " Kill NPC via conversation"
+        1 string data = "会話経由でNPCを殺す"
        [4]
-        1 string data = " NPC killed, Key Obtained"
+        1 string data = "NPC死亡、鍵入手"
        [5]
-        1 string data = " Goodbye."
+        1 string data = "さよなら。"
        [6]
-        1 string data = " Heal NPC"
+        1 string data = "NPCを回復する"
        [7]
-        1 string data = " NPC healed"
+        1 string data = "NPC回復"
        [8]
-        1 string data = "The bloodstained young man appears to have been stabbed. He looks up at you and has a joyous realization."
+        1 string data = "血まみれの若い男が刺されているように見える。彼はあなたを見上げて、喜びに満ちた悟りを得る。"
        [9]
-        1 string data = ""Good to see you again, Rangers! Apologies if I seem a bit out of sorts, but I think the key in my belly might be, uh, cutting my insides a little.""
+        1 string data = ""またお会いできてうれしいです、レンジャー!ちょっと具合が悪いように見えたらすみません、でも腹の中の鍵が、えーと、内臓を少し切ってるみたいなんです。""
        [10]
-        1 string data = ""You're the Rangers! I knew you'd be coming to save us. I never gave up hope!""
+        1 string data = ""レンジャーだ!あなた達が助けに来るって知ってました。希望を捨てませんでした!""
        [11]
-        1 string data = ""At ease, son. What happened here?""
+        1 string data = ""落ち着け、坊主。ここで何があった?""
        [12]
-        1 string data = ""You've heard of us?""
+        1 string data = ""俺たちのことを聞いたことがあるのか?""
        [13]
-        1 string data = ""Get over yourself. We didn't come here for you.""
+        1 string data = ""勘違いするな。お前のために来たんじゃない。""
        [14]
-        1 string data = ""Sure! When the Patriarch said you were coming, I bought 'The History of the Desert Rangers' off a trader! Read it cover to cover that very night! And the <i>moment</i> we got attacked here, I knew you'd be coming to our aid!""
+        1 string data = ""もちろん!総主教があなた達が来るって言った時、商人から『砂漠のレンジャーの歴史』を買ったんです!その夜、表紙から裏表紙まで読みました!そしてここで襲撃された<i>瞬間</i>、あなた達が助けに来ることを知ってました!""
        [15]
-        1 string data = "He salutes again, out of sheer pride. "
+        1 string data = "彼は純粋な誇りから再び敬礼する。"
        [16]
-        1 string data = ""Of course not. Never thought it."\n\n\nHe salutes again, but uncertainly."
+        1 string data = ""もちろん違います。考えたこともありません。"\n\n\n彼は再び敬礼するが、不確かに。"
        [17]
-        1 string data = ""As you can see, Rangers, I've been stabbed, just like the others. But I <i>held on!</i> Played dead! And when none of them were looking, I swallowed the key, Rangers!""
+        1 string data = ""ご覧の通り、レンジャー、私は他の人たちと同じように刺されました。でも<i>持ちこたえました</i>!死んだふりをして!誰も見てない時に、鍵を飲み込んだんです、レンジャー!""
        [18]
         1 string data = ""
        [19]
-        1 string data = ""What key?""
+        1 string data = ""何の鍵だ?""
        [20]
-        1 string data = ""Uh. Good job.""
+        1 string data = ""うん。よくやった。""
        [21]
         1 string data = ""
        [22]
-        1 string data = ""No thanks needed, Rangers! 'Keeper of the Treasury', that's my job, and I take it very seriously! The treasure of the Hundred Families is safe as long as Llewellyn is around!"\n\n\nHe wobbles, then catches himself."
+        1 string data = ""お礼なんていりません、レンジャー!『財務官』、それが私の仕事で、とても真剣に取り組んでます!ルウェリンがいる限り、百家族の財宝は安全です!"\n\n\n彼はよろめくが、持ち直す。"
        [23]
-        1 string data = "He winces, clutching his stomach. It might be his wounds, or it might just be the key working its way through his guts."
+        1 string data = "彼は腹を押さえてうめく。傷のせいかもしれないし、鍵が内臓を通過しているせいかもしれない。"
        [24]
-        1 string data = ""Key to the treasury door, Rangers! Heavily armored. Can't be breached! The treasure of the Hundred Families is safe as long as Llewellyn is around!""
+        1 string data = ""宝物庫の扉の鍵です、レンジャー!重装甲です。突破できません!ルウェリンがいる限り、百家族の財宝は安全です!""
        [25]
         1 string data = ""
        [26]
-        1 string data = ""We want that key you ate.""
+        1 string data = ""お前が飲み込んだ鍵が欲しい。""
        [27]
-        1 string data = "He blinks."
+        1 string data = "彼は瞬きをする。"
        [28]
-        1 string data = ""Is there any other way into the treasury?""
+        1 string data = ""宝物庫に入る他の方法はないか?""
        [29]
         1 string data = """
        [30]
         1 string data = ""
        [31]
-        1 string data = ""Ah, good. You found it.""
+        1 string data = ""ああ、よかった。見つけたんだな。""
        [32]
-        1 string data = ""Who <i>are</i> you?""
+        1 string data = ""お前は<i>誰</i>だ?""
        [33]
-        1 string data = ""Good loot, eh?""
+        1 string data = ""いい戦利品だろ?""
        [34]
         1 string data = ""
        [35]
-        1 string data = ""How unfortunate.""
+        1 string data = ""気の毒だな。""
        [36]
-        1 string data = ""Patriarch's not gonna like this.""
+        1 string data = ""総主教はこれを気に入らないだろうな。""
        [37]
         1 string data = ""
        [38]
-        1 string data = ""Stay here for now.""
+        1 string data = ""今はここにいろ。""
        [39]
         1 string data = "::grimaces::"
        [40]
-        1 string data = " Start Conversation"
+        1 string data = "会話を始める"
        [41]
-        1 string data = "[Attack] "We're getting that key.""
+        1 string data = "[Attack]"その鍵をもらう。""
        [42]
-        1 string data = "You rush towards him with a knife. He barely has time to flinch."
+        1 string data = "あなたはナイフを持って彼に突進する。彼は身をすくめる時間もほとんどない。"
        [43]
-        1 string data = ""We don't have a medpack, but we'll be back if we find one.""
+        1 string data = ""医療キットがないが、見つけたら戻ってくる。""
        [44]
-        1 string data = ""This should help with your injuries.""
+        1 string data = ""これで傷に役立つはずだ。""
        [45]
-        1 string data = ""Much appreciated, sir!""
+        1 string data = ""ありがとうございます、隊長!""
        [46]
-        1 string data = "Wincing occasionally, he watches with interest as you clean and treat his wounds. "
+        1 string data = "時折うめきながら、彼はあなたが傷を洗浄して治療するのを興味深く見守る。"
        [47]
-        1 string data = ""Feels much better, Rangers! Much better! I feel good enough to sprint all the way back to Colorado Springs!"\n\n\nHe clutches his stomach."
+        1 string data = ""ずっと良くなりました、レンジャー!ずっと良くなった!コロラドスプリングスまで全力疾走で帰れる気分です!"\n\n\n彼は腹を押さえる。"
        [48]
-        1 string data = ""Maybe in a little bit.""
+        1 string data = ""少し待ってからな。""
        [49]
-        1 string data = ""Feeling much better already, Rangers! I'll set off in a little while.""
+        1 string data = ""もうずっと良くなりました、レンジャー!少ししたら出発します。""
        [50]
-        1 string data = ""Eeek. Ow. Thank you, Ranger.""
+        1 string data = ""いてて。痛っ。ありがとう、レンジャー。""
        [51]
         1 string data = ""
        [52]
-        1 string data = "You sort through his cooling guts, ignoring the young man's blank eyes. You feel a lump in his lower intestine, and slice through. \r\n\r\nSure enough, it's the key."
+        1 string data = "あなたは若い男の虚ろな目を無視して、冷えた内臓を漁る。下腸に塊を感じ、切り開く。\r\n\r\n案の定、それは鍵だった。"
        [53]
         1 string data = "::twitch::"
        [54]
-        1 string data = ""Err... maybe this is too much to ask, but do any of you happen to be a doctor? I'm not feeling so good."\n"
+        1 string data = ""えー...無理を言うようで悪いんですが、誰か医者の方はいませんか?具合が良くないんです。"\n"
        [55]
-        1 string data = ""... Oh, I see. You want to make sure everything's secure? Not to worry, Rangers. It's right here, in my belly, and <i>nobody's</i> getting their hands on it. It's good and stuck in there, mark my words.""
+        1 string data = ""...ああ、なるほど。すべてが安全か確認したいんですね?心配いりません、レンジャー。ここにありますよ、私の腹の中に、そして<i>誰も</i>それを手に入れることはできません。しっかり詰まってますから、私の言葉を覚えておいてください。""
        [56]
-        1 string data = ""Nope! The door only has one key, and I ate it. And if someone wants it, why, they'd have to cut it out of me!""
+        1 string data = ""いいえ!扉には鍵が一つしかなく、私がそれを飲み込みました。そして誰かがそれを欲しがるなら、私から切り出さなければなりません!""
        [57]
         1 string data = ""
        [58]
-        1 string data = ""W-wait... why is Vic with you? J-just leave me alone!""
+        1 string data = ""ま、待って...なぜビクがあなた達と一緒にいるんですか?ほ、放っておいてください!""
        [59]
-        1 string data = ""I didn't even <i>say</i> anything.""
+        1 string data = ""何も<i>言って</i>ないぞ。""
        [60]
         1 string data = ""
        [61]
@@ -302415,79 +302415,79 @@
        [68]
         1 string data = ""
        [69]
-        1 string data = ""Rangers! Why are you with... with <i>Vic?</i>""
+        1 string data = ""レンジャー!なぜ...なぜ<i>ビク</i>と一緒にいるんですか?""
        [70]
         1 string data = ""
        [71]
-        1 string data = "You sort through his cooling guts, ignoring the young man's blank eyes. You feel a lump in his stomach. \r\n\r\nSure enough, it's the key."
+        1 string data = "あなたは若い男の虚ろな目を無視して、冷えた内臓を漁る。胃に塊を感じる。\r\n\r\n案の定、それは鍵だった。"
        [72]
         1 string data = "::twitch::"
        [73]
         1 string data = ""
        [74]
-        1 string data = ""Ah, good. You found it.""
+        1 string data = ""ああ、よかった。見つけたんだな。""
        [75]
-        1 string data = ""Who <i>are</i> you?""
+        1 string data = ""お前は<i>誰</i>だ?""
        [76]
-        1 string data = ""Good loot, eh?""
+        1 string data = ""いい戦利品だろ?""
        [77]
-        1 string data = ""<i>Well done, little mouse.</i>""
+        1 string data = ""<i>よくやった、子ネズミ。</i>""
        [78]
-        1 string data = ""How unfortunate.""
+        1 string data = ""気の毒だな。""
        [79]
-        1 string data = ""Patriarch's not gonna like this.""
+        1 string data = ""総主教はこれを気に入らないだろうな。""
        [80]
         1 string data = ""
        [81]
-        1 string data = "You begin to reach for your knife but realize that in order to do this cleanly you're going to need your whole team."
+        1 string data = "あなたはナイフに手を伸ばし始めるが、これをきれいにやるにはチーム全員が必要だと気づく。"
        [82]
-        1 string data = ""Do you work here?""
+        1 string data = ""ここで働いているのか?""
        [83]
-        1 string data = ""Yes, Rangers. I'm part of the staff. Dozens of us worked up here... Kept the place nice for the Families.""
+        1 string data = ""はい、レンジャー。私はスタッフの一員です。数十人がここで働いていました...家族のためにこの場所を良好に保っていました。""
        [84]
-        1 string data = ""Right. I'll lay low.""
+        1 string data = ""わかった。身を潜めておけ。""
        [85]
-        1 string data = ""Vic killed the staff first. He was... brutal but quick. Didn't think we'd be as much fun to torture, maybe.""
+        1 string data = ""ビクは最初にスタッフを殺しました。彼は...残忍でしたが素早かった。私たちを拷問して楽しむほどではないと思ったのかもしれません。""
        [86]
-        1 string data = ""Don't worry. Like I said, there's only one key, and it's safe inside me!""
+        1 string data = ""心配いりません。言ったように、鍵は一つだけで、私の中に安全に保管されています!""
        [87]
-        1 string data = ""Just to let you know - we got into the Hundred Families vault.""
+        1 string data = ""念のため言っておくが、百家族の金庫に入ったぞ。""
        [88]
-        1 string data = ""You... you did what, Rangers? Oh, I see, I see, you're just keeping the Hundred Families' treasure safe for them? Clever play, Rangers!""
+        1 string data = ""あなた達は...何をしたんですか、レンジャー?ああ、なるほど、なるほど、百家族の財宝を彼らのために安全に保管しているだけですね?賢い手だ、レンジャー!""
        [89]
-        1 string data = ""Oh god... That was... intense. But look, here's the key! Uhm... do you have gloves?""
+        1 string data = ""ああ神様...それは...激しかった。でも見て、これが鍵です!ええと...手袋はありますか?""
        [90]
-        1 string data = ""Take some of this laxative.""
+        1 string data = ""この下剤を飲め。""
        [91]
-        1 string data = ""Oh? Oh, I see! Right, now that you're here, we can safely get the key out. Well... bottom's up!"\n\n\nHe downs the entire bottle of laxative."
+        1 string data = ""あれ?ああ、なるほど!そうですね、あなた達がここにいるので、安全に鍵を取り出せますね。えっと...一気飲みだ!"\n\n\n彼は下剤のボトルを全部飲み干す。"
        [92]
-        1 string data = ""Oh... oh god. Stand back. I can't hold it!""
+        1 string data = ""ああ...なんてこった。下がって。我慢できない!""
        [93]
-        1 string data = ""Dude! Did you even wipe?""
+        1 string data = ""おい!拭いたのか?""
        [94]
-        1 string data = ""Revolting.""
+        1 string data = ""気持ち悪い。""
        [95]
-        1 string data = ""All that came out of you? Shit. What else you been eatin'?""
+        1 string data = ""それが全部お前から出たのか?くそ。他に何を食ってたんだ?""
        [96]
-        1 string data = "::sniffs:: "Did I crap m'self again? Better check my pants.""
+        1 string data = "::sniffs::"またクソ漏らしたか?ズボンを確認した方がいいな。""
        [97]
-        1 string data = ""Woulda smelled better if we'd cut you open.""
+        1 string data = ""お前を切り開いた方がマシな匂いだったろうな。""
        [98]
         1 string data = "Script Node 107"
        [99]
-        1 string data = ""Oh god. Not again.""
+        1 string data = ""ああ神様。またか。""
        [100]
-        1 string data = ""Can't we talk this over?""
+        1 string data = ""話し合えないか?""
        [101]
-        1 string data = ""Mmmm. Tripe!""
+        1 string data = ""うーん。ホルモン!""
        [102]
-        1 string data = ""Hello again, Rangers.""
+        1 string data = ""またお会いしましたね、レンジャー。""
        [103]
         1 string data = "Script Node 112"
        [104]
-        1 string data = ""Hmmm. There's a metaphor for greed in here somewhere.""
+        1 string data = ""うーん。どこかに貪欲さの比喩があるな。""
        [105]
-        1 string data = ""Well... maybe in a little bit.""
+        1 string data = ""そうだな...少し待ってからかな。""
        [106]
         1 string data = ""
        [107]
@@ -302535,19 +302535,19 @@
       1 Array Array (7 items)
        0 int size = 7
        [0]
-        1 string data = " Before you is a large map. Three locations are marked."
+        1 string data = "目の前には大きな地図がある。3つの場所がマークされている。"
        [1]
-        1 string data = " Examine location marked "A""
+        1 string data = ""A"とマークされた場所を調べる"
        [2]
-        1 string data = " Examine location marked "B""
+        1 string data = ""B"とマークされた場所を調べる"
        [3]
-        1 string data = " Examine locatoin marked "C""
+        1 string data = ""C"とマークされた場所を調べる"
        [4]
-        1 string data = " Leave the map alone."
+        1 string data = "地図を放置する。"
        [5]
-        1 string data = " The map shows the Aspen base camp. The location is marked next to a building labled "Ski Supply Store.""
+        1 string data = "地図にはアスペンのベースキャンプが示されている。場所は"スキー用品店"と表示された建物の隣にマークされている。"
        [6]
-        1 string data = " The map shows an area named Broadmoar. The location is marked in an area labled Buchanan Park."
+        1 string data = "地図にはブロードモアという名前のエリアが示されている。場所はブキャナンパークと表示されたエリアにマークされている。"
    [982]
     0 StringTable data
      1 string Filename = "c2101_patriarchswifeburialground"
