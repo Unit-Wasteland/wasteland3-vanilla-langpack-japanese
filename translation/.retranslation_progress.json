@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 23804,
-      "entries_untranslated": 145908,
-      "completion_rate": 14.03,
-      "current_line": 244495,
+      "entries_translated": 23941,
+      "entries_untranslated": 145771,
+      "completion_rate": 14.11,
+      "current_line": 245595,
       "status": "in_progress",
       "approach": "STRICT sequential from line 390 - enhanced validation with bracket marker protection",
-      "note": "Session R3-242: 121 entries (lines 244254-244494). b1001_mothernancyreliance section partial progress (121 of 214 entries). Mother Nancy Reliance dialogue regarding Reagan transfer procedure. All validations passed: Structure 0 errors, Action markers 0 issues, Quality 0 issues. Next: line 244495 (continue b1001_mothernancyreliance section - 93 entries remaining)"
+      "note": "Session R3-243: 137 entries (lines 244495-245594). Completed b1001_mothernancyreliance (93 entries), b1001_postgipperhardheads (20 entries), and partial b1001_radio_mission_gippersvsgodfishers (24 entries). Mother Nancy Reliance completion + Hard-Heads and Gippers vs Godfishers radio dialogue. All validations passed: Structure 0 errors, Action markers 0 issues, Quality 0 issues. Next: line 245595 (continue b1001_radio_mission_gippersvsgodfishers section)"
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "354f6c7",
-  "last_commit_message": "Retranslation R3-242: b1001 Mother Nancy Reliance section - 121 entries (lines 244254-244494)",
-  "total_entries_completed": 23804,
+  "last_commit_hash": "d58d5e6",
+  "last_commit_message": "Retranslation R3-243: Mother Nancy Reliance + Hard-Heads + Gippers vs Godfishers radio - 137 entries (lines 244495-245594)",
+  "total_entries_completed": 23941,
   "total_entries": 169712,
-  "total_entries_untranslated": 145908,
-  "overall_completion_rate": 14.03,
-  "next_action": "Continue from line 244495 (b1001_mothernancyreliance section - 93 entries remaining)",
+  "total_entries_untranslated": 145771,
+  "overall_completion_rate": 14.11,
+  "next_action": "Continue from line 245595 (b1001_radio_mission_gippersvsgodfishers section continuation)",
   "restart_info": {
     "restart_number": 3,
     "restart_date": "2025-11-05",
