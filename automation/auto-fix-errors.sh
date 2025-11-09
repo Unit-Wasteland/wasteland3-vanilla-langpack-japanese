@@ -82,15 +82,15 @@ fix_action_markers() {
     fi
 }
 
-# Fix untranslated entries
-fix_untranslated_entries() {
-    log "INFO" "🔧 Fixing untranslated entries..."
+# Detect untranslated entries (NO auto-fix - manual translation required)
+detect_untranslated_entries() {
+    log "INFO" "🔍 Detecting untranslated entries..."
 
     # Get current translation range
     local current_line=$(jq -r '.files.base_game.current_line // 390' "$WORKING_DIR/translation/.retranslation_progress.json" 2>/dev/null || echo "390")
     local glossary="$WORKING_DIR/translation/nouns_glossary.json"
 
-    # Run auto-fix script
+    # Run detection script (DETECTION ONLY - no automatic fixing)
     if python3 "$WORKING_DIR/automation/auto-fix-untranslated.py" \
         "$TARGET_FILE" \
         "$SOURCE_FILE" \
@@ -100,20 +100,21 @@ fix_untranslated_entries() {
         --glossary "$glossary" 2>&1 | while read -r line; do
             log "INFO" "  $line"
         done; then
-        log "INFO" "  ✓ Untranslated entries fixed successfully"
+        log "INFO" "  ✓ No untranslated entries found"
         return 0
     else
         local exit_code=$?
         if [ $exit_code -eq 1 ]; then
-            log "INFO" "  → No untranslated entries found"
-            return 0
+            log "ERROR" "  ✗ Untranslated entries detected"
+            log "ERROR" "  → MANUAL translation required (CLAUDE.md strict workflow)"
+            log "ERROR" "  → NO batch processing allowed"
+            log "ERROR" "  → Start Claude Code session and translate one by one"
+            return 1
         elif [ $exit_code -eq 2 ]; then
-            log "WARN" "  → Some entries require manual translation (no glossary match)"
-            log "WARN" "  → This is expected for complex dialogue"
-            # Return 0 because partial auto-fix is acceptable
-            return 0
+            log "ERROR" "  ✗ Detection script error"
+            return 1
         else
-            log "ERROR" "  ✗ Untranslated entry fix failed"
+            log "ERROR" "  ✗ Unknown error during detection"
             return 1
         fi
     fi
@@ -175,14 +176,30 @@ main() {
     # Attempt fixes
     local fixes_applied=false
 
-    # Fix 1: Action markers
+    # Fix 1: Action markers (can be auto-fixed)
     if fix_action_markers; then
         fixes_applied=true
     fi
 
-    # Fix 2: Untranslated entries (NEW - 2025-11-09)
-    if fix_untranslated_entries; then
-        fixes_applied=true
+    # Detect 2: Untranslated entries (DETECTION ONLY - cannot auto-fix per CLAUDE.md)
+    # This will fail if untranslated entries are found, requiring manual intervention
+    if ! detect_untranslated_entries; then
+        log "ERROR" ""
+        log "ERROR" "========================================="
+        log "ERROR" "MANUAL TRANSLATION REQUIRED"
+        log "ERROR" "========================================="
+        log "ERROR" "Per CLAUDE.md strict workflow:"
+        log "ERROR" "- NO batch processing"
+        log "ERROR" "- NO automated bulk operations"
+        log "ERROR" "- Sequential manual translation only"
+        log "ERROR" ""
+        log "ERROR" "Please start a Claude Code session and:"
+        log "ERROR" "1. Read the untranslated entries listed above"
+        log "ERROR" "2. Translate each entry manually (one by one)"
+        log "ERROR" "3. Validate after each edit (structure + quality + action markers)"
+        log "ERROR" "4. Commit when all validations pass"
+        log "ERROR" "========================================="
+        return 1
     fi
 
     # Fix 3: Structure errors (currently limited)

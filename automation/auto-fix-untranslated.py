@@ -1,18 +1,25 @@
 #!/usr/bin/env python3
 """
-Auto-Fix Untranslated Entries Script
+Detect Untranslated Entries Script
 
-Automatically translates entries that were missed during translation sessions.
-Uses the same unified translation decision logic as the main workflow.
+Detects entries that were missed during translation sessions.
+DOES NOT automatically translate - reports issues for manual fixing.
+
+IMPORTANT: This script only DETECTS issues, it does NOT fix them.
+Actual translation must be done manually by Claude Code following CLAUDE.md rules:
+- NO batch processing
+- NO automated bulk operations
+- Sequential processing only
+- Manual translation with validation after each edit
 
 Usage:
     python3 auto-fix-untranslated.py TARGET_FILE SOURCE_FILE REFERENCE_FILE \\
         [--start-line START] [--end-line END] [--glossary GLOSSARY_FILE]
 
 Returns:
-    0 - All untranslated entries fixed successfully
-    1 - No untranslated entries found (nothing to fix)
-    2 - Error occurred during fixing
+    0 - No untranslated entries found
+    1 - Untranslated entries detected (need manual fixing)
+    2 - Error occurred during detection
 """
 
 import sys
@@ -140,13 +147,14 @@ def simple_translate(text, glossary):
 
     return translated
 
-def fix_untranslated_entries(target_file, source_file, reference_file,
-                             start_line=1, end_line=None, glossary_file=None):
+def detect_untranslated_entries(target_file, source_file, reference_file,
+                                start_line=1, end_line=None, glossary_file=None):
     """
-    Find and fix untranslated entries in target file.
+    Detect untranslated entries in target file.
+    DOES NOT fix them - only reports issues.
 
     Returns:
-        (fixed_count, error_count) tuple
+        (untranslated_count, line_numbers) tuple
     """
     print(f"Loading files...")
     print(f"  Target: {target_file}")
@@ -165,11 +173,7 @@ def fix_untranslated_entries(target_file, source_file, reference_file,
     source_lines = load_string_data_lines(source_file)
     reference_lines = load_string_data_lines(reference_file)
 
-    # Read full target file for modification
-    with open(target_file, 'r', encoding='utf-8') as f:
-        target_full = f.readlines()
-
-    fixes_needed = []
+    untranslated_entries = []
 
     # Scan for untranslated entries
     print(f"\nScanning lines {start_line} to {end_line or 'EOF'}...")
@@ -205,79 +209,50 @@ def fix_untranslated_entries(target_file, source_file, reference_file,
         # then Japanese should also be translated
         if reference_text != '""' and reference_inner != source_inner:
             # This should be translated
-            fixes_needed.append({
+            untranslated_entries.append({
                 'line_num': line_num,
                 'target_text': target_text,
                 'source_text': source_text,
                 'reference_text': reference_text
             })
 
-    if not fixes_needed:
+    if not untranslated_entries:
         print("\n✓ No untranslated entries found")
-        return 0, 0
+        return 0, []
 
-    print(f"\n⚠ Found {len(fixes_needed)} untranslated entries")
-    print("\nAttempting auto-fix...")
+    print(f"\n⚠ Found {len(untranslated_entries)} untranslated entries")
+    print("\n" + "="*80)
+    print("UNTRANSLATED ENTRIES DETECTED")
+    print("="*80)
+    print("\nThese entries need MANUAL translation by Claude Code:")
+    print("(Following CLAUDE.md strict workflow - NO batch processing)")
+    print()
 
-    fixed_count = 0
-    error_count = 0
+    line_numbers = []
+    for entry in untranslated_entries:
+        line_num = entry['line_num']
+        source_text = entry['source_text']
+        line_numbers.append(line_num)
 
-    for fix in fixes_needed:
-        line_num = fix['line_num']
-        source_text = fix['source_text']
+        print(f"  Line {line_num}:")
+        print(f"    EN: {source_text[:100]}...")
+        print()
 
-        print(f"\n  Line {line_num}:")
-        print(f"    EN: {source_text[:80]}...")
+    print("="*80)
+    print(f"Total: {len(untranslated_entries)} entries require manual translation")
+    print("="*80)
+    print("\nNext steps:")
+    print("1. Start Claude Code session")
+    print("2. Translate each entry manually (one by one)")
+    print("3. Validate after each edit (structure + quality + action markers)")
+    print("4. Commit when all validations pass")
+    print()
 
-        # Extract inner content
-        inner_text = source_text.strip('"')
-
-        # Apply glossary-based translation
-        translated = simple_translate(inner_text, glossary)
-
-        # Check if translation occurred
-        if translated != inner_text and is_japanese(translated):
-            # Wrap in same quote format as source
-            if source_text.startswith('""') and source_text.endswith('""'):
-                translated_text = f'"{translated}"'
-            else:
-                translated_text = f'"{translated}"'
-
-            # Update the line in target_full
-            old_line = target_full[line_num - 1]
-            new_line = re.sub(r'string data = .*$',
-                            f'string data = {translated_text}',
-                            old_line)
-
-            target_full[line_num - 1] = new_line
-            fixed_count += 1
-
-            print(f"    JA: {translated_text[:80]}...")
-            print(f"    ✓ Fixed using glossary")
-        else:
-            # Could not auto-translate (no glossary match)
-            error_count += 1
-            print(f"    ✗ Cannot auto-fix (no glossary match)")
-            print(f"    → Manual translation required")
-
-    if fixed_count > 0:
-        # Write updated file
-        print(f"\nWriting {fixed_count} fixes to {target_file}...")
-        with open(target_file, 'w', encoding='utf-8') as f:
-            f.writelines(target_full)
-        print("✓ File updated")
-
-    print(f"\n{'='*80}")
-    print(f"Auto-fix Summary:")
-    print(f"  Fixed: {fixed_count}")
-    print(f"  Needs manual fix: {error_count}")
-    print(f"{'='*80}")
-
-    return fixed_count, error_count
+    return len(untranslated_entries), line_numbers
 
 def main():
     parser = argparse.ArgumentParser(
-        description='Auto-fix untranslated entries in translation file'
+        description='Detect untranslated entries in translation file (detection only, NO auto-fix)'
     )
     parser.add_argument('target_file', help='Target translation file (ja_JP)')
     parser.add_argument('source_file', help='Source file (en_US)')
@@ -292,7 +267,7 @@ def main():
     args = parser.parse_args()
 
     try:
-        fixed, errors = fix_untranslated_entries(
+        count, line_numbers = detect_untranslated_entries(
             args.target_file,
             args.source_file,
             args.reference_file,
@@ -301,15 +276,12 @@ def main():
             glossary_file=args.glossary
         )
 
-        if fixed == 0 and errors == 0:
-            # Nothing to fix
-            return 1
-        elif errors > 0:
-            # Some entries need manual fix
-            return 2
-        else:
-            # All fixed successfully
+        if count == 0:
+            # No untranslated entries
             return 0
+        else:
+            # Untranslated entries found - need manual fixing
+            return 1
 
     except Exception as e:
         print(f"\n❌ Error: {e}", file=sys.stderr)
