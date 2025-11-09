@@ -169661,23 +169661,23 @@
       1 Array Array (15 items)
        0 int size = 15
        [0]
-        1 string data = " I am a generic guard, and this is my generic bark."
+        1 string data = " 俺は普通の警備員で、これは俺の普通の独り言だ。"
        [1]
-        1 string data = ""D-don't try anything. We've got our eyes on you.""
+        1 string data = ""へ、変なことをしようとするなよ。監視してるからな。""
        [2]
-        1 string data = ""What is this? What the hell is this? We didn't sign up for this.""
+        1 string data = ""何だこれは？一体何なんだこれは？こんなことのために契約したわけじゃない。""
        [3]
-        1 string data = ""I want to get out of here.""
+        1 string data = ""ここから出たい。""
        [4]
-        1 string data = ""This wasn't what I signed up for...""
+        1 string data = ""契約したのはこんな仕事じゃなかった...""
        [5]
-        1 string data = ""This is bad. This is really bad. We're all going to die.""
+        1 string data = ""やばい。本当にやばい。全員死ぬぞ。""
        [6]
-        1 string data = ""Don't understand why we let them talk us into this.""
+        1 string data = ""なんであいつらの話に乗っちまったんだか。""
        [7]
-        1 string data = ""Gotta hand it to those kids. I didn't think they'd pull it off.""
+        1 string data = ""あのガキどもには敬意を表するよ。やり遂げるとは思わなかった。""
        [8]
-        1 string data = ""I'm happy. That damn fireball's gone, and we can go home.""
+        1 string data = ""嬉しいぜ。あのクソみたいな火球は消えて、家に帰れる。""
        [9]
         1 string data = ""
        [10]
@@ -169685,11 +169685,11 @@
        [11]
         1 string data = ""
        [12]
-        1 string data = ""I ain't standing <i>any</i> closer to that fireball.""
+        1 string data = ""あの火球に<i>これ以上</i>近づくのは御免だ。""
        [13]
-        1 string data = ""So, uh... what happens if the scientist-kids screw something up?""
+        1 string data = ""で、その...科学者のガキどもが何かヘマしたらどうなるんだ？""
        [14]
-        1 string data = ""If you listen close... almost sounds like the fireball is <i>talkin'</i> to you...""
+        1 string data = ""よく聞くと...火球が<i>話しかけて</i>くるような気がするんだ...""
    [570]
     0 StringTable data
      1 string Filename = "a4101_theocurie_energyindependence"
@@ -170535,421 +170535,421 @@
       1 Array Array (208 items)
        0 int size = 208
        [0]
-        1 string data = " Hi, Rangers"
+        1 string data = " やあ、レンジャー"
        [1]
-        1 string data = " You have the Energy Independence Quest, and I'm waiting for you to bring me plans."
+        1 string data = " あなたはエネルギー独立クエストを持っていて、計画書を持ってきてくれるのを待っているんだ。"
        [2]
-        1 string data = " You have Energy Independence, and told me you already have the plans, but withheld them."
+        1 string data = " あなたはエネルギー独立を持っていて、すでに計画書があると言ったが、渡してくれなかった。"
        [3]
-        1 string data = " You declined Energy Independence, so I'm going to reoffer it."
+        1 string data = " あなたはエネルギー独立を断ったから、もう一度提案するよ。"
        [4]
-        1 string data = " You gave me plans, and we're waiting for the other player to arrive."
+        1 string data = " 計画書をもらったから、他のプレイヤーが到着するのを待っているんだ。"
        [5]
         1 string data = ""
        [6]
-        1 string data = " The detonation is stable, and I am happy."
+        1 string data = " 爆発は安定していて、私は嬉しい。"
        [7]
-        1 string data = " The detonation collapsed, and I am sad. We'll leave at scene transition."
+        1 string data = " 爆発は崩壊した。私は悲しい。シーン転換で去るよ。"
        [8]
         1 string data = "Script Node 19"
        [9]
-        1 string data = " You gave me plans, and all players are here! Let's do some science cutscene!"
+        1 string data = " 計画書をもらって、全プレイヤーがここにいる！科学カットシーンをやろう！"
        [10]
-        1 string data = " You gave me plans, and we're waiting for the other player to arrive."
+        1 string data = " 計画書をもらったから、他のプレイヤーが到着するのを待っているんだ。"
        [11]
-        1 string data = "DEBUG OPTIONS"
+        1 string data = "デバッグオプション"
        [12]
-        1 string data = "I have plans, and I will give them to you."
+        1 string data = "計画書を持っていて、渡すよ。"
        [13]
-        1 string data = "I have plans, but I will not give them to you."
+        1 string data = "計画書を持っているが、渡さない。"
        [14]
-        1 string data = "I do not have plans."
+        1 string data = "計画書は持っていない。"
        [15]
-        1 string data = "Farewell"
+        1 string data = "さらば"
        [16]
-        1 string data = " Here are some debug options:\n"
+        1 string data = " デバッグオプションだよ：\n"
        [17]
-        1 string data = "You gave me some plans!"
+        1 string data = "計画書をくれたね！"
        [18]
-        1 string data = "Return"
+        1 string data = "戻る"
        [19]
-        1 string data = "I know you have the plans, and I'm bummed that you won't give them to me."
+        1 string data = "計画書を持っているのはわかっているし、渡してくれないのは残念だ。"
        [20]
-        1 string data = "No plans? Keep Lookin"
+        1 string data = "計画書がない？探し続けろ"
        [21]
-        1 string data = "Other player is here, I promise!"
+        1 string data = "他のプレイヤーがここにいる、約束する！"
        [22]
-        1 string data = "Yes, Yes, science Cutscene"
+        1 string data = "そうそう、科学カットシーン"
        [23]
-        1 string data = "IMAGINE, IF YOU WOULD, A CUTSCENE:\n\n\nThe Science-Man uses a machine. The Science-Lady does chemicals! There are noises and lights, and suddenly..... "
+        1 string data = "想像してほしい、カットシーンを：\n\n\n科学者の男が機械を使う。科学者の女が化学物質を扱う！音と光があって、突然..... "
        [24]
-        1 string data = "The holy detonation swells and then winks out of existence. The modified plans performed as expected! CURIE SO SAD! Cutscene ends. Curie re-initiates conversation."
+        1 string data = "ホーリー・デトネーションが膨らんで、存在から消えた。改良計画は期待通りに機能した！キュリー悲しい！カットシーン終了。キュリーが会話を再開。"
        [25]
-        1 string data = "The detonation pulses briefly, and then a consistant, flat hum comes from a machine. Lights turn on, and flickering stops. COSprings has new power! CURIE SO HAPPY! Cutscene ends. Curie Re-iniitates conversation"
+        1 string data = "爆発が短く脈動し、機械から一定の平坦な音が鳴る。照明が点灯し、点滅が止まる。コロラドスプリングスに新しい電力が！キュリー嬉しい！カットシーン終了。キュリーが会話を再開"
        [26]
-        1 string data = " We can do that."
+        1 string data = " それはできるよ。"
        [27]
-        1 string data = " Great! Thanks, Rangers. We'll be here."
+        1 string data = " 素晴らしい！ありがとう、レンジャー。ここにいるよ。"
        [28]
-        1 string data = " We're too busy."
+        1 string data = " 忙しすぎる。"
        [29]
-        1 string data = " ...oh. Okay, well, if you change your minds, we'll be right here."
+        1 string data = " ...ああ。わかった、じゃあ気が変わったら、ここにいるから。"
        [30]
-        1 string data = " We found these research notes. They're yours."
+        1 string data = " この研究ノートを見つけた。あなたのものだ。"
        [31]
-        1 string data = " You gave me some plans!"
+        1 string data = " 計画書をくれたね！"
        [32]
-        1 string data = "  We found some notes, but we need to hold on to them for a little bit longer."
+        1 string data = "  ノートを見つけたけど、もう少し長く持っている必要がある。"
        [33]
-        1 string data = " I... okay, well, that's your call. We'll be down at the Holy Detonation if you change your mind.I know you have the plans, and I'm bummed that you won't give them to me."
+        1 string data = " え...わかった、それはあなたの判断だ。気が変わったら、ホーリー・デトネーションのところにいるよ。計画書を持っているのはわかっているし、渡してくれないのは残念だ。"
        [34]
-        1 string data = " The detonation is stable, and I am happy."
+        1 string data = " 爆発は安定していて、私は嬉しい。"
        [35]
-        1 string data = " The detonation collapsed, and I am sad. We'll leave at scene transition."
+        1 string data = " 爆発は崩壊した。私は悲しい。シーン転換で去るよ。"
        [36]
-        1 string data = " I love you, Theodoric!"
+        1 string data = " 愛してるわ、セオドリック！"
        [37]
-        1 string data = " I love ewes, too, Megan, but I don't see how that is relevant...OH! You're a biologist! All this Physics is a waste of your talent. Go do Biology with Rangers!"
+        1 string data = " 私も羊を愛してるよ、メーガン、でもそれが何の関係が...ああ！君は生物学者だ！この物理学は君の才能の無駄だ。レンジャーと一緒に生物学をやってきなさい！"
        [38]
-        1 string data = "....okay."
+        1 string data = "....わかった。"
        [39]
-        1 string data = " Don't be sad! I love you, Theodoric!"
+        1 string data = " 悲しまないで！愛してるわ、セオドリック！"
        [40]
-        1 string data = " I ONLY LOVE SCIENCE AND SHE JUST DUMPED ME A BLOO BLOO BLOOOOOOO"
+        1 string data = " 俺は科学しか愛してない、彼女は俺を振ったんだ、ウワーン"
        [41]
-        1 string data = "....okay. Rangers, I'm coming with you!"
+        1 string data = "....わかった。レンジャー、あなたたちと行くわ！"
        [42]
-        1 string data = " I havne't offered Energy Independence, probably because you solved OWP while I was still in COSPrings."
+        1 string data = " エネルギー独立を提案していない、たぶんコロラドスプリングスにまだいる間にOWPを解決したからだ。"
        [43]
-        1 string data = " I need some more information on the science behind the Holy Detonation to turn it into a reliable source of power. "
+        1 string data = " ホーリー・デトネーションの背後にある科学についてもっと情報が必要なんだ、それを信頼できる電力源に変えるために。 "
        [44]
-        1 string data = " I know old world scientists were doing nuclear power research in this area, and they must have had technical manuals filled with the sort of information I need."
+        1 string data = " 旧世界の科学者たちがこの地域で原子力研究をしていたのは知っていて、私が必要とする情報が詰まった技術マニュアルがあったはずなんだ。"
        [45]
-        1 string data = " I sort through what the Cultists have left below, but if you come across any pre-war military installations, keep an eye out for those sort of technical specs."
+        1 string data = " カルティストたちが下に残したものを調べているけど、もし戦前の軍事施設に出くわしたら、そういう技術仕様に目を光らせておいてほしい。"
        [46]
-        1 string data = ""Thank you, Rangers - for securing the detonation. We are nearly there now. All that is left is to find the documentation. Any luck yet?""
+        1 string data = ""ありがとう、レンジャー - 爆発を確保してくれて。もうすぐだ。残っているのは資料を見つけることだけだ。何か運はあった？""
        [47]
-        1 string data = ""We're still working on it.""
+        1 string data = ""まだ取り組んでいる。""
        [48]
-        1 string data = ""We have the plans, but you're going to have to wait.""
+        1 string data = ""計画書は持っているけど、待ってもらう必要がある。""
        [49]
-        1 string data = " Access debug dialog."
+        1 string data = " デバッグダイアログにアクセス。"
        [50]
-        1 string data = " Hi, Rangers"
+        1 string data = " やあ、レンジャー"
        [51]
-        1 string data = " You have the Energy Independence Quest, and I'm waiting for you to bring me plans."
+        1 string data = " あなたはエネルギー独立クエストを持っていて、計画書を持ってきてくれるのを待っているんだ。"
        [52]
-        1 string data = "DEBUG OPTIONS"
+        1 string data = "デバッグオプション"
        [53]
-        1 string data = " Here are some debug options:\n"
+        1 string data = " デバッグオプションだよ：\n"
        [54]
-        1 string data = "Return"
+        1 string data = "戻る"
        [55]
-        1 string data = "I have plans, and I will give them to you."
+        1 string data = "計画書を持っていて、渡すよ。"
        [56]
-        1 string data = "You gave me some plans!"
+        1 string data = "計画書をくれたね！"
        [57]
-        1 string data = "I have plans, but I will not give them to you."
+        1 string data = "計画書を持っているが、渡さない。"
        [58]
-        1 string data = "I know you have the plans, and I'm bummed that you won't give them to me."
+        1 string data = "計画書を持っているのはわかっているし、渡してくれないのは残念だ。"
        [59]
-        1 string data = "I do not have plans."
+        1 string data = "計画書は持っていない。"
        [60]
-        1 string data = "No plans? Keep Lookin"
+        1 string data = "計画書がない？探し続けろ"
        [61]
-        1 string data = "Farewell"
+        1 string data = "さらば"
        [62]
-        1 string data = " You have Energy Independence, and told me you already have the plans, but withheld them."
+        1 string data = " あなたはエネルギー独立を持っていて、すでに計画書があると言ったが、渡してくれなかった。"
        [63]
-        1 string data = " You declined Energy Independence, so I'm going to reoffer it."
+        1 string data = " あなたはエネルギー独立を断ったから、もう一度提案するよ。"
        [64]
-        1 string data = " We can do that."
+        1 string data = " それはできるよ。"
        [65]
-        1 string data = " Great! Thanks, Rangers. We'll be here."
+        1 string data = " 素晴らしい！ありがとう、レンジャー。ここにいるよ。"
        [66]
-        1 string data = " We're too busy."
+        1 string data = " 忙しすぎる。"
        [67]
-        1 string data = " ...oh. Okay, well, if you change your minds, we'll be right here."
+        1 string data = " ...ああ。わかった、じゃあ気が変わったら、ここにいるから。"
        [68]
-        1 string data = " We found these research notes. They're yours."
+        1 string data = " この研究ノートを見つけた。あなたのものだ。"
        [69]
-        1 string data = " You gave me some plans!"
+        1 string data = " 計画書をくれたね！"
        [70]
-        1 string data = "  We found some notes, but we need to hold on to them for a little bit longer."
+        1 string data = "  ノートを見つけたけど、もう少し長く持っている必要がある。"
        [71]
-        1 string data = " I... okay, well, that's your call. We'll be down at the Holy Detonation if you change your mind.I know you have the plans, and I'm bummed that you won't give them to me."
+        1 string data = " え...わかった、それはあなたの判断だ。気が変わったら、ホーリー・デトネーションのところにいるよ。計画書を持っているのはわかっているし、渡してくれないのは残念だ。"
        [72]
         1 string data = "Script Node 19"
        [73]
-        1 string data = " You gave me plans, and all players are here! Let's do some science cutscene!"
+        1 string data = " 計画書をもらって、全プレイヤーがここにいる！科学カットシーンをやろう！"
        [74]
-        1 string data = "Yes, Yes, science Cutscene"
+        1 string data = "そうそう、科学カットシーン"
        [75]
-        1 string data = "IMAGINE, IF YOU WOULD, A CUTSCENE:\n\n\nThe Science-Man uses a machine. The Science-Lady does chemicals! There are noises and lights, and suddenly..... "
+        1 string data = "想像してほしい、カットシーンを：\n\n\n科学者の男が機械を使う。科学者の女が化学物質を扱う！音と光があって、突然..... "
        [76]
-        1 string data = "The holy detonation swells and then winks out of existence. The modified plans performed as expected! CURIE SO SAD! Cutscene ends. Curie re-initiates conversation."
+        1 string data = "ホーリー・デトネーションが膨らんで、存在から消えた。改良計画は期待通りに機能した！キュリー悲しい！カットシーン終了。キュリーが会話を再開。"
        [77]
-        1 string data = "The detonation pulses briefly, and then a consistant, flat hum comes from a machine. Lights turn on, and flickering stops. COSprings has new power! CURIE SO HAPPY! Cutscene ends. Curie Re-iniitates conversation"
+        1 string data = "爆発が短く脈動し、機械から一定の平坦な音が鳴る。照明が点灯し、点滅が止まる。コロラドスプリングスに新しい電力が！キュリー嬉しい！カットシーン終了。キュリーが会話を再開"
        [78]
-        1 string data = " You gave me plans, and we're waiting for the other player to arrive."
+        1 string data = " 計画書をもらったから、他のプレイヤーが到着するのを待っているんだ。"
        [79]
-        1 string data = "Other player is here, I promise!"
+        1 string data = "他のプレイヤーがここにいる、約束する！"
        [80]
-        1 string data = " The detonation is stable, and I am happy."
+        1 string data = " 爆発は安定していて、私は嬉しい。"
        [81]
-        1 string data = " I love you, Theodoric!"
+        1 string data = " 愛してるわ、セオドリック！"
        [82]
-        1 string data = " I love ewes, too, Megan, but I don't see how that is relevant...OH! You're a biologist! All this Physics is a waste of your talent. Go do Biology with Rangers!"
+        1 string data = " 私も羊を愛してるよ、メーガン、でもそれが何の関係が...ああ！君は生物学者だ！この物理学は君の才能の無駄だ。レンジャーと一緒に生物学をやってきなさい！"
        [83]
-        1 string data = "....okay."
+        1 string data = "....わかった。"
        [84]
-        1 string data = " The detonation collapsed, and I am sad. We'll leave at scene transition."
+        1 string data = " 爆発は崩壊した。私は悲しい。シーン転換で去るよ。"
        [85]
-        1 string data = " Don't be sad! I love you, Theodoric!"
+        1 string data = " 悲しまないで！愛してるわ、セオドリック！"
        [86]
-        1 string data = " I ONLY LOVE SCIENCE AND SHE JUST DUMPED ME A BLOO BLOO BLOOOOOOO"
+        1 string data = " 俺は科学しか愛してない、彼女は俺を振ったんだ、ウワーン"
        [87]
-        1 string data = "....okay. Rangers, I'm coming with you!"
+        1 string data = "....わかった。レンジャー、あなたたちと行くわ！"
        [88]
-        1 string data = " The detonation is stable, and I am happy."
+        1 string data = " 爆発は安定していて、私は嬉しい。"
        [89]
-        1 string data = " The detonation collapsed, and I am sad. We'll leave at scene transition."
+        1 string data = " 爆発は崩壊した。私は悲しい。シーン転換で去るよ。"
        [90]
-        1 string data = " I havne't offered Energy Independence, probably because you solved OWP while I was still in COSPrings."
+        1 string data = " エネルギー独立を提案していない、たぶんコロラドスプリングスにまだいる間にOWPを解決したからだ。"
        [91]
-        1 string data = " I need some more information on the science behind the Holy Detonation to turn it into a reliable source of power. "
+        1 string data = " ホーリー・デトネーションの背後にある科学についてもっと情報が必要なんだ、それを信頼できる電力源に変えるために。 "
        [92]
-        1 string data = " I know old world scientists were doing nuclear power research in this area, and they must have had technical manuals filled with the sort of information I need."
+        1 string data = " 旧世界の科学者たちがこの地域で原子力研究をしていたのは知っていて、私が必要とする情報が詰まった技術マニュアルがあったはずなんだ。"
        [93]
-        1 string data = " I sort through what the Cultists have left below, but if you come across any pre-war military installations, keep an eye out for those sort of technical specs."
+        1 string data = " カルティストたちが下に残したものを調べているけど、もし戦前の軍事施設に出くわしたら、そういう技術仕様に目を光らせておいてほしい。"
        [94]
-        1 string data = ""Over here, Rangers!""
+        1 string data = ""こっちだ、レンジャー！""
        [95]
-        1 string data = ""Remind us what that's all about?""
+        1 string data = ""それがどういうことか思い出させてくれ？""
        [96]
-        1 string data = ""Wait? I... " Theodoric Curie exhales, sharp and explosive, his distress clear."
+        1 string data = ""待つ？私は..." セオドリック・キュリーが息を吐く、鋭く爆発的に、彼の苦悩が明らかだ。"
        [97]
-        1 string data = ""I understand that it can be easy to underestimate danger when you're well-armed. But please don't forget that Theo and I are scholars, not mercenaries. This place is a health risk." \r\n\r\nShe glares."
+        1 string data = ""武装していると危険を過小評価しやすいのは理解できます。でも私とテオは学者であって傭兵じゃないことを忘れないでください。この場所は健康リスクなんです。" \r\n\r\n彼女は睨む。"
        [98]
-        1 string data = ""Thank you. Return here as soon as you find them. Please!""
+        1 string data = ""ありがとう。見つけたらすぐにここに戻ってきて。お願い！""
        [99]
-        1 string data = ""Maybe even the world...""
+        1 string data = ""もしかしたら世界さえも...""
        [100]
-        1 string data = ""Of course. In order to convert the detonation into a reliable power source, I'll need the technical manuals associated with it. Until I have them, this miracle is only potential energy - wasted and unusuable.""
+        1 string data = ""もちろん。爆発を信頼できる電力源に変換するには、それに関連する技術マニュアルが必要なんだ。それがないと、この奇跡は単なるポテンシャルエネルギー - 無駄で使えないものだ。""
        [101]
-        1 string data = ""And less risk of him blowing us all up. We've heard stories of an old Department of Energy facility to the south of Colorado Springs. You might find something there.""
+        1 string data = ""それに彼が私たち全員を爆破するリスクも減る。コロラドスプリングスの南に古いエネルギー省施設があったという話を聞いた。そこで何か見つかるかもしれない。""
        [102]
-        1 string data = ""Have you finally changed your mind, Rangers?" A lilt of hope crooks his mouth."
+        1 string data = ""ついに気が変わったのかい、レンジャー？" 希望の調子が彼の口を歪ませる。"
        [103]
-        1 string data = ""Here. Take a look at these technical specs we found.""
+        1 string data = ""ほら。見つけた技術仕様書を見てくれ。""
        [104]
-        1 string data = ""Goodbye.""
+        1 string data = ""さようなら。""
        [105]
-        1 string data = ""Please come back soon.""
+        1 string data = ""すぐに戻ってきてくれ。""
        [106]
-        1 string data = ""Fantastic!" \r\n\r\nHe snatches the thick binder from your hands and begins thumbing through the pages, jotting notes into the margins with wild-eyed abandon."
+        1 string data = ""素晴らしい！" \r\n\r\n彼はあなたの手から厚いバインダーをひったくり、ページをめくり始め、狂気じみた目つきで余白にメモを書き込む。"
        [107]
         1 string data = ""
        [108]
-        1 string data = ""Sure thing. What do you need us to do again?""
+        1 string data = ""もちろん。もう一度何をすればいいか教えてくれ？""
        [109]
-        1 string data = ""We're too busy.""
+        1 string data = ""忙しすぎる。""
        [110]
-        1 string data = ""Goodbye.""
+        1 string data = ""さようなら。""
        [111]
-        1 string data = ""This is it. This is it. This is everything I need. Megan, we've done it. We have everything we need to change the world.""
+        1 string data = ""これだ。これだ。これが私が必要とする全てだ。メーガン、やったぞ。世界を変えるために必要なもの全てが揃った。""
        [112]
-        1 string data = "[Give him the NRC Tech Specs] "Here you go.""
+        1 string data = "[NRC技術仕様書を渡す] "どうぞ。""
        [113]
-        1 string data = ""All of it is ruined. Our hopes, the dream of seeing Colorado Springs free of the Gippers. Everything's gone." Theodoric's voice breaks at the last word, collapsing into an anguished whine."
+        1 string data = ""全てが台無しだ。我々の希望も、コロラドスプリングスがギッパーズから解放される夢も。全て消えた。" セオドリックの声が最後の言葉で途切れ、苦悩のうめき声に崩れる。"
        [114]
-        1 string data = ""You still have me, Theo. And ... and this doesn't have to be the end. There are alternatives. I know there are. We will figure something out." Megan stretches out an arm, Theodoric's anguish reflected in her own gaunt face."
+        1 string data = ""私はまだいるわ、テオ。そして...これが終わりである必要はない。代替案はある。あるはずよ。何とかするわ。" メーガンが腕を伸ばし、セオドリックの苦悩が彼女自身のやつれた顔に映る。"
        [115]
-        1 string data = ""Go away. I don't see the point in our continued association. You've been nothing but a distraction. I wish we never agreed to collaborate on this. Without your constant blathering, this might have amounted to something...." "
+        1 string data = ""出ていってくれ。これ以上の関係に意味を感じない。君は気を散らすだけだった。こんなことに協力すると合意しなければよかった。君の絶え間ないおしゃべりがなければ、何かになったかもしれないのに...." "
        [116]
-        1 string data = ""I... Theo. What are you saying? I've followed your every demand to the letter. I... fine. If that is what you want, I'll leave." A frisson walks down Megan's spine to her clenched fists. She drops her hands and turns from Theodoric, face hollowed of emotion."
+        1 string data = ""私...テオ。何を言っているの？あなたの要求全てに従ってきたわ。私は...わかった。それがあなたの望みなら、出ていく。" メーガンの背筋に震えが走り、握りしめた拳へと伝わる。彼女は手を下ろし、感情を失った顔でセオドリックから背を向ける。"
        [117]
-        1 string data = ""If you need an extra physician in your rosters, I'm more than happy to extend my services. There's ... nothing else left for me here..." And just for a second, her composure peels away to reveal a marrow-deep anguish."
+        1 string data = ""もし名簿に医師が必要なら、喜んで力を貸すわ。ここには...もう何も残っていないから..." ほんの一瞬、彼女の冷静さが剥がれ落ち、骨の髄までの苦悩が露わになる。"
        [118]
-        1 string data = ""We did it! I can't believe it. We've finally done it. Colorado Springs no longer has to be beholden to the Gippers. All of you, I can't thank you enough. This... this an emotional moment for me. Oh, dear. I think I might be crying." He blows his nose, clearly overwhelmed."
+        1 string data = ""やった！信じられない。ついにやったぞ。コロラドスプリングスはもうギッパーズに頼る必要がない。君たち全員に、どれだけ感謝しても足りない。これは...私にとって感動的な瞬間だ。おや。泣いているかもしれない。" 彼は鼻をかみ、明らかに圧倒されている。"
        [119]
-        1 string data = ""Congratulations, Theo. I'm so... I'm so glad." Megan holds a palm over her mouth, eyes glistening."
+        1 string data = ""おめでとう、テオ。私は本当に...本当に嬉しいわ。" メーガンが手のひらを口に当て、目を輝かせる。"
        [120]
-        1 string data = ""All this wouldn't have been possible without you here beside me. I don't know what to say. How to even begin describing how much you mean to this endeavour. To me."\n"
+        1 string data = ""君がそばにいなければ、これら全ては不可能だった。何と言えばいいかわからない。君がこの事業に、私にとってどれほど大きな意味を持つか、どう説明し始めればいいか。"\n"
        [121]
-        1 string data = ""Theo...""
+        1 string data = ""テオ...""
        [122]
-        1 string data = ""No. Please. Let me finish. There are things I should have said a long time ago, things I should have told you. Megan, I've been so selfish. I've kept you at my side, working at projects that have nothing to do with your expertise. I've wronged you with my lack of appreciation. You deserve so much more than this..."\n\n\nHe closes the gap between them."
+        1 string data = ""いや。頼む。最後まで聞いてくれ。ずっと前に言うべきだったことがある、君に伝えるべきだったことが。メーガン、私は本当に利己的だった。君を私のそばに置いて、君の専門とは全く関係ないプロジェクトで働かせてきた。感謝の欠如で君に不当な扱いをしてきた。君はこれよりもずっと良いものに値するんだ..."\n\n\n彼は二人の間の距離を詰める。"
        [123]
-        1 string data = ""Which is why you should go with the Rangers. You're not a nuclear scientist. You're a doctor, a physician. Your skills are wasted here. Just understand that I will always appreciate everything you've done.""
+        1 string data = ""だからこそ、君はレンジャーと一緒に行くべきなんだ。君は核科学者じゃない。医師だ、医者なんだ。君のスキルはここでは無駄になってしまう。ただ、私は君がしてくれたこと全てに常に感謝していることを理解してほしい。""
        [124]
-        1 string data = ""I .... okay? I suppose. I... don't know what to say. Thank you, I think?" Megan recoils as though singed. She turns to face you, frowning, her manner uncertain."
+        1 string data = ""私...わかった？そうね。何と言えばいいかわからない。ありがとう、かしら？" メーガンが焦げたかのように後ずさる。彼女はあなたの方を向き、眉をひそめ、態度が不確かだ。"
        [125]
-        1 string data = ""I ... I suppose I will be meeting you at your headquarters soon enough. Happy to be of eventual service?""
+        1 string data = ""私...すぐにあなたたちの本部で会うことになりそうね。いずれ役に立てれば嬉しいわ？""
        [126]
-        1 string data = "[Give him the NRC Tech Specs] "We found these technical specs on nuclear power generation.""
+        1 string data = "[NRC技術仕様書を渡す] "原子力発電に関するこの技術仕様書を見つけた。""
        [127]
-        1 string data = ""We have the plans. But we'll need to hold onto them just a little longer.""
+        1 string data = ""計画書はある。でももう少し長く持っている必要がある。""
        [128]
-        1 string data = ""Ah! You have them! Thank you! This is fantastic! With the information here to guide me, I'll be able to begin. Give me just a moment to look them over.""
+        1 string data = ""ああ！持っているのか！ありがとう！素晴らしい！ここにある情報を手引きにすれば、始められる。ちょっと目を通させてくれ。""
        [129]
-        1 string data = ""If you decide to change your mind, we'll be here. Unless something decides to come out from the shadows and end our lives. Ha. Haha." Theodoric glances furtively about, clearly ill at ease here."
+        1 string data = ""気が変わったら、ここにいるよ。何かが影から出てきて我々の命を終わらせることがなければね。ハ。ハハ。" セオドリックが周囲をこっそり見回し、明らかにここで落ち着かない。"
        [130]
-        1 string data = ""I ... see. I'd rather you didn't, but I will endeavour to be understanding." His disappointment is worn close to the surface, no hint of subtlety to its crafting."
+        1 string data = ""そうか...わかった。そうしないでほしいが、理解するよう努めるよ。" 彼の失望は表面に近く身につけられ、細工に微妙さのかけらもない。"
        [131]
-        1 string data = ""I hope you'll come back soon.""
+        1 string data = ""すぐに戻ってきてくれることを願うよ。""
        [132]
         1 string data = "Script Node 166"
        [133]
-        1 string data = ""Rangers, I did it! <i>We</i> did it! We have harnessed an inexhaustable source of power for our city! And none of it would have been possible without you. None of it!""
+        1 string data = ""レンジャー、やったぞ！<i>我々</i>がやったんだ！我々の街のために尽きることのない電力源を利用できるようにした！そしてこれは君たちなしでは不可能だった。全く不可能だった！""
        [134]
-        1 string data = ""Congratulations, Theo. I'm so... I'm so glad." "
+        1 string data = ""おめでとう、テオ。私は本当に...本当に嬉しいわ。" "
        [135]
-        1 string data = ""All this wouldn't have been possible without you here beside me, Megan. I don't know what to say. How to even begin describing how much you mean to this endeavour. To me."\n"
+        1 string data = ""君がそばにいなければ、これら全ては不可能だった、メーガン。何と言えばいいかわからない。君がこの事業に、私にとってどれほど大きな意味を持つか、どう説明し始めればいいか。"\n"
        [136]
-        1 string data = ""Theo...""
+        1 string data = ""テオ...""
        [137]
-        1 string data = ""No. Please. Let me finish. There are things I should have said a long time ago, things I should have told you. Megan, I've been so selfish. I've kept you at my side, working at projects that have nothing to do with your expertise. I've wronged you with my lack of appreciation. You deserve so much more than this..."\n\n\nHe closes the gap between them."
+        1 string data = ""いや。頼む。最後まで聞いてくれ。ずっと前に言うべきだったことがある、君に伝えるべきだったことが。メーガン、私は本当に利己的だった。君を私のそばに置いて、君の専門とは全く関係ないプロジェクトで働かせてきた。感謝の欠如で君に不当な扱いをしてきた。君はこれよりもずっと良いものに値するんだ..."\n\n\n彼は二人の間の距離を詰める。"
        [138]
-        1 string data = ""Which is why you should go with the Rangers. You're not a nuclear scientist. You're a doctor, a physician. Your skills are needed elsewhere. Just understand that I will always appreciate everything you've done.""
+        1 string data = ""だからこそ、君はレンジャーと一緒に行くべきなんだ。君は核科学者じゃない。医師だ、医者なんだ。君のスキルは他の場所で必要とされている。ただ、私は君がしてくれたこと全てに常に感謝していることを理解してほしい。""
        [139]
-        1 string data = ""I... okay? I suppose. I... don't know what to say. Thank you, I think?" \r\n\r\nMegan recoils as though singed. She turns to face you, frowning, her manner uncertain."
+        1 string data = ""私...わかった？そうね。何と言えばいいかわからない。ありがとう、かしら？" \r\n\r\nメーガンが焦げたかのように後ずさる。彼女はあなたの方を向き、眉をひそめ、態度が不確かだ。"
        [140]
-        1 string data = ""It... sounds like I'll be heading to your med bay. if you'll have me. Happy to be of eventual service?""
+        1 string data = ""私は...どうやらあなたたちの医務室に向かうことになりそうね。受け入れてくれるなら。いずれ役に立てれば嬉しいわ？""
        [141]
         1 string data = "Script Node 176"
        [142]
-        1 string data = ""Calibrating the flow rates...""
+        1 string data = ""流量を調整中...""
        [143]
-        1 string data = ""You're certain you have everything? You've checked it all?""
+        1 string data = ""全部揃っているか確認した？全部チェックした？""
        [144]
-        1 string data = ""Yes, yes... I just need the technical specifications. If you please, Rangers...""
+        1 string data = ""ああ、ああ...技術仕様書だけが必要なんだ。レンジャー、お願いだから...""
        [145]
         1 string data = "Script Node 180"
        [146]
         1 string data = "Script Node 181"
        [147]
-        1 string data = ""It... it's working! It's...""
+        1 string data = ""機能している...機能しているぞ！これは...""
        [148]
-        1 string data = ""Everything looks fine here. Do we have sufficient levels of U-235?" "
+        1 string data = ""ここは全て問題なさそうだ。U-235のレベルは十分か？" "
        [149]
-        1 string data = ""No! Wait! The stasis field is destabilizing. Kinetic energy is increasing across the board. What is,,,?""
+        1 string data = ""だめだ！待て！静止場が不安定になっている。運動エネルギーが全体的に増加している。何が...？""
        [150]
-        1 string data = ""Check the momentum distribution matrices! We can't risk the inertia helixes. If the recursive force...""
+        1 string data = ""運動量分布行列をチェックしろ！慣性ヘリックスはリスクが高すぎる。再帰力が...""
        [151]
-        1 string data = ""Ah-ha! The distribution matrices! They're over-amping the inertia helixes. I've got to...""
+        1 string data = ""ああ！分布行列だ！慣性ヘリックスを過剰増幅している。調整しないと...""
        [152]
-        1 string data = ""There. I damped them just in time. It's... it's... working! By the ancients, I've done it! The detonation's power is on line!""
+        1 string data = ""そこだ。ギリギリ間に合った。これは...これは...機能している！先人たちに誓って、やったぞ！爆発の力がオンラインだ！""
        [153]
-        1 string data = "There's a gout of sparks, and then the sounds settle into a comforting hum. Power begins flowing through the cables."
+        1 string data = "火花が噴き出し、その後音が心地よいハミングに落ち着く。電力がケーブルを通して流れ始める。"
        [154]
-        1 string data = ""What? According to the documentation, the coefficients should be rising now, but... Did I enter the values correctly? Let me just...""
+        1 string data = ""何？資料によれば、係数は今上昇しているはずなのに...値を正しく入力したか？ちょっと...""
        [155]
-        1 string data = ""Got it. Let me know when.""
+        1 string data = ""了解。いつでも言ってくれ。""
        [156]
-        1 string data = ""These are the numbers the notes provided, but now that I look at them, there's no way they can...""
+        1 string data = ""これがノートが提供した数値だが、今見直すと、これでは絶対に...""
        [157]
-        1 string data = ""Dammit! I have to shut it down! Start again! Quick, before it...""
+        1 string data = ""くそ！シャットダウンしなければ！やり直しだ！急げ、その前に...""
        [158]
-        1 string data = ""No! It's destablizing! Everyone out! It's going to...!""
+        1 string data = ""だめだ！不安定化している！全員退避！これは...！""
        [159]
-        1 string data = ""...implode?""
+        1 string data = ""...内破？""
        [160]
-        1 string data = ""Oh <i>no</i>, it's gone. It's gone! The world's perfect energy source, vanished! Why didn't I check the figures?""
+        1 string data = ""ああ<i>だめだ</i>、消えた。消えてしまった！世界の完璧なエネルギー源が消滅した！なぜ数値を確認しなかったんだ？""
        [161]
-        1 string data = ""No, no, no...""
+        1 string data = ""だめだ、だめだ、だめだ...""
        [162]
         1 string data = "Script Node 198"
        [163]
-        1 string data = ""I'm sorry, Rangers. I don't understand what happened. How could the creators of the detonation have gotten the numbers so wrong? Or... was it me? Did I read it wrong? Miss something?""
+        1 string data = ""申し訳ない、レンジャー。何が起こったのか理解できない。爆発の創造者たちがどうしてこんなに数値を間違えたんだ？それとも...私か？読み間違えた？何か見落とした？""
        [164]
-        1 string data = ""You still have me, Theo. And... and this doesn't have to be the end. There are alternatives. I know there are. We'll figure something out.""
+        1 string data = ""私はまだいるわ、テオ。そして...これが終わりである必要はない。代替案はある。あるはずよ。何とかするわ。""
        [165]
-        1 string data = ""Go away. I don't see the point in our continued association. You've been nothing but a distraction. If I'd found a proper physicist as a collaborator, this might have amounted to something, but you're just a doctor." "
+        1 string data = ""出ていってくれ。これ以上の関係に意味を感じない。君は気を散らすだけだった。ちゃんとした物理学者を協力者として見つけていれば、何かになったかもしれないが、君はただの医者だ。" "
        [166]
-        1 string data = ""I... Theo. What are you saying? I've followed your every demand to the letter. I... fine. If that's what you want, I'll leave." \r\n\r\nA frisson walks down Megan's spine to her clenched fists. She drops her hands and turns from Theodoric."
+        1 string data = ""私...テオ。何を言っているの？あなたの要求全てに従ってきたわ。私は...わかった。それがあなたの望みなら、出ていく。" \r\n\r\nメーガンの背筋に震えが走り、握りしめた拳へと伝わる。彼女は手を下ろし、セオドリックから背を向ける。"
        [167]
-        1 string data = ""If you need an extra doctor, I'm more than happy to volunteer for the Rangers. There's... nothing else left for me here." \r\n\r\nJust for a second, her composure peels away to reveal a marrow-deep anguish."
+        1 string data = ""もし医師が必要なら、喜んでレンジャーにボランティアするわ。ここには...もう何も残っていないから。" \r\n\r\nほんの一瞬、彼女の冷静さが剥がれ落ち、骨の髄までの苦悩が露わになる。"
        [168]
-        1 string data = ""It works... I can't believe it, but it works. This is... wonderful.""
+        1 string data = ""機能している...信じられないが、機能している。これは...素晴らしい。""
        [169]
-        1 string data = ""I suppose I should be glad there were no casualties, but... I... Oh, what does it matter?""
+        1 string data = ""犠牲者が出なかったことを喜ぶべきなんだろうが...私は...ああ、何の意味がある？""
        [170]
         1 string data = "Script Node 100"
        [171]
-        1 string data = ""No. Wait. You Rangers were critical to our success. All of you should be here to witness the results. When your whole team is here, then we can begin.""
+        1 string data = ""いや。待て。レンジャーの君たちは我々の成功に不可欠だった。全員が結果を目撃すべきだ。チーム全員が揃ったら、始めよう。""
        [172]
         1 string data = "Script Node 166"
        [173]
         1 string data = "Script Node 166"
        [174]
-        1 string data = ""I'll gather up my things...""
+        1 string data = ""荷物をまとめるわ...""
        [175]
-        1 string data = ""Yes... yes... I see. So, how would one...? Hmmm. Ah. Of course, of course. Ha!""
+        1 string data = ""ああ...ああ...わかった。では、どうやって...？うーん。ああ。もちろん、もちろん。ハ！""
        [176]
-        1 string data = ""Are you ready to be a witness to history?""
+        1 string data = ""歴史の目撃者になる準備はできたかい？""
        [177]
-        1 string data = ""Yes.""
+        1 string data = ""ああ。""
        [178]
-        1 string data = ""We need more time.""
+        1 string data = ""もう少し時間が必要だ。""
        [179]
-        1 string data = ""Wait. You should gather your whole team before we begin. They will not want to miss this.""
+        1 string data = ""待て。始める前にチーム全員を集めた方がいい。これを見逃したくないだろう。""
        [180]
-        1 string data = ""Right. Here we go, then. Time for salvation, or... damnation.""
+        1 string data = ""わかった。では始めよう。救済の時か、それとも...破滅か。""
        [181]
-        1 string data = ""Take your time. I'll reread the instructions." "
+        1 string data = ""ゆっくりでいいよ。説明書を読み直しているから。" "
        [182]
-        1 string data = ""Rangers! I heard the fighting and hoped that meant you were clearing out the-"\n\n\n"My God, there it is!"\n"
+        1 string data = ""レンジャー！戦闘の音が聞こえて、君たちが掃討してくれていることを期待していたんだ-"\n\n\n"なんてことだ、あれを見ろ！"\n"
        [183]
         1 string data = ""
        [184]
         1 string data = ""
        [185]
-        1 string data = ""Rangers? Are you here?"
+        1 string data = ""レンジャー？ここにいるのか？"
        [186]
-        1 string data = ""Come back soon!""
+        1 string data = ""すぐに戻ってきてくれ！""
        [187]
         1 string data = ""
        [188]
-        1 string data = ""Oh, you maginifcent miracle, you impossible inferno. I have waited so long for this day. Together we will usher in the future of Colorado Springs - unless of course we wipe it from the face of the earth - ha ha.""
+        1 string data = ""ああ、君という壮大な奇跡よ、不可能な業火よ。この日をどれほど待ちわびたことか。共にコロラドスプリングスの未来を迎えよう - もちろん、地球の表面からそれを消し去ることにならなければだが - はは。""
        [189]
-        1 string data = ""Thank you, Rangers - for securing the detonation, and for finding the documentation that shows how to tap its power. I have been studying it, and I believe I am ready to give it try."\r\n "
+        1 string data = ""ありがとう、レンジャー - 爆発を確保してくれて、そしてその力を利用する方法を示す資料を見つけてくれて。勉強してきたんだ、そして試す準備ができたと思う。"\r\n "
        [190]
-        1 string data = ""Come back soon.""
+        1 string data = ""すぐに戻ってきてくれ。""
        [191]
-        1 string data = ""Please find the documents as soon as you can.""
+        1 string data = ""できるだけ早く資料を見つけてくれ。""
        [192]
-        1 string data = ""Oh, Rangers, our ancestors were so bright! They thought of everything. It's far simpler than I imagined. We can do this now. Today! Everything I need is here. So...""
+        1 string data = ""ああ、レンジャー、我々の先祖は本当に賢かった！全てを考え抜いていた。想像していたよりずっと単純だ。今すぐできる。今日！必要なもの全てがここにある。では...""
        [193]
-        1 string data = """Inputing the Gazorninplat equasions, and... and...""
+        1 string data = """ガゾルニンプラット方程式を入力して、そして...そして...""
        [194]
-        1 string data = ""Come on, damn you. Come on!""
+        1 string data = ""頼む、動いてくれ。動け！""
        [195]
-        1 string data = ""Is it safe?""
+        1 string data = ""安全か？""
        [196]
-        1 string data = ""I can't thank you enough. This... Oh, dear. I think I might be crying. Please let me give you the reward I promised you. You deserve all of it, and more!""
+        1 string data = ""どれだけ感謝しても足りない。これは...おや。泣いているかもしれない。約束した報酬を渡させてくれ。君たちは全てに値する、それ以上にも！""
        [197]
-        1 string data = ""Oh, yes! And If these readouts are correct, the detonation should now be powering your headquarters. You should have enough power to run any systems you require.""
+        1 string data = ""ああ、そうだ！そしてもしこの読み取り値が正しければ、爆発は今君たちの本部に電力を供給しているはずだ。必要なシステムを動かすのに十分な電力があるはずだ。""
        [198]
-        1 string data = ""What about Colorado Springs? Is it powered too?""
+        1 string data = ""コロラドスプリングスはどうだ？そこにも電力が供給されているのか？""
        [199]
-        1 string data = ""You had us worried there for a minute, Theo, but you did it. Thanks.""
+        1 string data = ""一瞬心配したぞ、テオ。でもやったな。ありがとう。""
        [200]
-        1 string data = ""We never doubted you for a second, Theo. Thanks.""
+        1 string data = ""一瞬も疑わなかったぞ、テオ。ありがとう。""
        [201]
-        1 string data = ""That will take a little longer. There are no direct cables between here and there, and the lines we do have may not be able to handle the increased load. We'll have to go slowly at first. But powering your base is a great first test.""
+        1 string data = ""それにはもう少し時間がかかる。ここからそこへの直接ケーブルはないし、既存の回線では増加した負荷に耐えられないかもしれない。最初はゆっくり進める必要がある。でも君たちの基地に電力を供給するのは素晴らしい最初のテストだ。""
        [202]
-        1 string data = ""I am glad to have allayed your fears. Thank <i>you</i>!""
+        1 string data = ""君たちの不安を和らげられて嬉しいよ。こちらこそ<i>ありがとう</i>！""
        [203]
-        1 string data = ""I'm proud to have lived up to your expectations. Thank you.""
+        1 string data = ""期待に応えられて誇りに思う。ありがとう。""
        [204]
-        1 string data = ""Goodbye, Rangers.""
+        1 string data = ""さようなら、レンジャー。""
        [205]
-        1 string data = ""I will never forgive myself for not taking more time to on this. I... I can't believe it's gone. The dream is over. The power that could have been is gone forever." \r\n"
+        1 string data = ""これにもっと時間をかけなかったことを決して許せない。私は...消えたなんて信じられない。夢は終わった。あり得たかもしれない力は永遠に失われた。" \r\n"
        [206]
-        1 string data = ""But none of the blame for this falls on you. You did everything I asked you to, and more. And so I will give you the reward I promised you. I only regret I cannot power your headquarters too.""
+        1 string data = ""でもこの責任は君たちにはない。頼んだこと全てをやってくれた、それ以上に。だから約束した報酬を渡す。君たちの本部にも電力を供給できないことだけが悔やまれる。""
        [207]
-        1 string data = ""Thank you again, Rangers. Goodbye.""
+        1 string data = ""改めてありがとう、レンジャー。さようなら。""
    [571]
     0 StringTable data
      1 string Filename = "a5001_ambientconstables"
