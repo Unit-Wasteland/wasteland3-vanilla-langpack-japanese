@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 29597,
-      "entries_untranslated": 140115,
+      "entries_translated": 29757,
+      "entries_untranslated": 139955,
       "completion_rate": 17,
-      "current_line": 294793,
+      "current_line": 295789,
       "status": "in_progress",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session R3-278: Completed 172 entries (lines 293011-294792). Sections: c1001_combatbarks_meleebreather (50) + c1001_combatbarks_rangedbreather (50) + c1001_companion_barktriggers partial (72, entries 10-82). Gift terminology maintained. Victory Buchanan consistent. Patriarch terminology preserved. Unified translation decision logic applied. All entries validated with zero structural errors and zero quality issues. Next: line 294793 c1001_companion_barktriggers continuation (entry 83+)"
+      "note": "Session R3-279: Completed 160 entries (lines 294793-295788). Sections: c1001_companion_barktriggers (entry 83-172, 90 entries) + c1001_constructionbreathers (10) + c1001_cranecomputer (10) + c1001_gondolabreathers (18) + c1001_gravevalormother (13) + c1001_int_computer_bunkerdefenses (9) + c1001_int_computer_lodgedefenses (10). All entries validated with zero structural errors and zero quality issues. Next: line 295789 c1001_opie section"
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "ea09a46",
-  "last_commit_message": "Retranslation R3-278: Breather ranged combat + companion barks partial - 172 entries",
-  "total_entries_completed": 29597,
+  "last_commit_hash": "37f8f93",
+  "last_commit_message": "Retranslation R3-279: Companion barks continuation + misc combat sections - 160 entries",
+  "total_entries_completed": 29757,
   "total_entries": 169712,
-  "total_entries_untranslated": 140115,
+  "total_entries_untranslated": 139955,
   "overall_completion_rate": 17,
-  "next_action": "Continue from line 294793",
+  "next_action": "Continue from line 295789",
   "restart_info": {
     "restart_number": 3,
     "restart_date": "2025-11-05",
