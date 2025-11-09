@@ -1,0 +1,25 @@
+Validating: /home/claude/work/project-claude/wasteland3-vanilla-langpack-japanese/translation/target/v1.6.9.420.309496/ja_JP/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt
+Range: lines 390 to 283932
+Spanish reference: /home/claude/work/project-claude/wasteland3-vanilla-langpack-japanese/translation/source/v1.6.9.420.309496/es_ES/StringTableData_Spanish-CAB-f95544f6ef35e8a6587dccfa911ba0f8-9130184510981781208.txt
+Glossary: /home/claude/work/project-claude/wasteland3-vanilla-langpack-japanese/translation/nouns_glossary.json
+Loaded glossary: 277 terms
+Loaded Spanish reference: 169712 string data entries
+
+================================================================================
+TRANSLATION QUALITY VALIDATION REPORT
+================================================================================
+
+Total issues found: 1
+
+[1] Action markers translated to Japanese: 0
+
+[2] Untranslated English entries: 1
+
+Sample issues (first 20):
+  Line 282736: English text not translated (Spanish was translated, so Japanese should also be translated)
+
+[3] Bracket [] content translated to Japanese: 0
+
+[4] Glossary violations (incorrect terminology): 0
+
+================================================================================
