@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 19695,
-      "entries_untranslated": 150017,
-      "completion_rate": 11.61,
-      "current_line": 215366,
+      "entries_translated": 19903,
+      "entries_untranslated": 149809,
+      "completion_rate": 11.73,
+      "current_line": 216343,
       "status": "in_progress",
       "approach": "STRICT sequential from line 390 - enhanced validation with bracket marker protection",
-      "note": "Session R3-210: 198 entries (lines 214280-214674). Section: b2001_tinker2 (Tinker synth alternate dialogue - complete, 198 entries including Script Node 208-209). Topics: Ranger conflict aftermath, philosophical debates, revenge vs redemption themes, combat options. Characters: Tinker, Scotchmo references. Markers: ::pneumatic hiss:: action marker (kept English), [Attack] bracket markers preserved (lines 214488, 214500, 214658). Structure: 0 errors 0 warnings, 4-quote format strictly maintained, HTML tags intact, one empty entry preserved (line 214622). Validation: PASSED (structure + action + quality all 0 issues). Note: Line 214622 corrected from translated to empty to match source quote count. Next: line 215366 (b2001_vendomatic2000 section)"
+      "note": "Session R3-211: 208 entries (lines 215366-216342). Sections: b2001_vendomatic2000 (103 entries) + b3001_bill (105 entries). b2001_vendomatic2000: SAL/D.O.P./M.I.Tower dialogue, merchant interactions, hacking options, Script Node markers preserved. b3001_bill: Bill character introduction, nod competition, mother disappearance story, God-President Reagan lore, keycard exchange. Characters: Bill, Jola, Mother Nancy Reliance. Markers: double-quote format maintained, ::bzzt:: action marker (English), DEBUG NODE/MERCHANT OVERRIDE/Script Node preserved. Structure: 0 errors, Action: 0 issues, Quality: 0 issues (no untranslated, no bracket translation, no glossary violations). Next: line 216343 (b3001_blaze section)"
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "5972471",
-  "last_commit_message": "Retranslation R3-210: 198 entries (lines 214280-214674)",
-  "total_entries_completed": 19695,
+  "last_commit_hash": "40f2795",
+  "last_commit_message": "Retranslation R3-211: 208 entries (lines 215366-216342)",
+  "total_entries_completed": 19903,
   "total_entries": 169712,
-  "total_entries_untranslated": 150017,
-  "overall_completion_rate": 11.61,
-  "next_action": "Continue from line 215366 (b2001_vendomatic2000 - Vendomatic vending machine dialogue)",
+  "total_entries_untranslated": 149809,
+  "overall_completion_rate": 11.73,
+  "next_action": "Continue from line 216343 (b3001_blaze - Blaze character dialogue)",
   "restart_info": {
     "restart_number": 3,
     "restart_date": "2025-11-05",
