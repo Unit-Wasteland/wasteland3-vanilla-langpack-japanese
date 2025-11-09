@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 20488,
-      "entries_untranslated": 149224,
-      "completion_rate": 12.07,
-      "current_line": 220603,
+      "entries_translated": 20636,
+      "entries_untranslated": 149076,
+      "completion_rate": 12.16,
+      "current_line": 221515,
       "status": "in_progress",
       "approach": "STRICT sequential from line 390 - enhanced validation with bracket marker protection",
-      "note": "Session R3-217: 135 entries (lines 220333-220602). Mother Nancy Reliance dialogue completion (entries 241-375 of b3001_mothernancyreliance). Topics: Oil negotiations, Reagan transfer procedure, transfer module handover, Godfisher cleanup, technical discussions, Reagan AI vessel requirements. Structure: 0 errors, Action: 0 issues, Quality: 0 issues, Glossary: 0 violations. Next: line 220603 (b3001_reagansconsole starts)"
+      "note": "Session R3-218: 148 entries (lines 221164-221514). b3001_reagansconsole (137 entries): Reagan console interaction, StarstationWars mini-game, transfer procedure. b3001_reagantransformation (11 entries): transformation dialogue. Structure: 0 errors, Action: 0 issues, Quality: 0 issues, Glossary: 0 violations. Next: line 221515 (b3001_ronaldreagan_thegipper starts)"
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "4cd3ed5",
-  "last_commit_message": "Retranslation R3-217: 135 entries (lines 220333-220602)",
-  "total_entries_completed": 20488,
+  "last_commit_hash": "073eda6",
+  "last_commit_message": "Retranslation R3-218: 148 entries (lines 221164-221514)",
+  "total_entries_completed": 20636,
   "total_entries": 169712,
-  "total_entries_untranslated": 149224,
-  "overall_completion_rate": 12.07,
-  "next_action": "Continue from line 220603 (b3001_reagansconsole starts)",
+  "total_entries_untranslated": 149076,
+  "overall_completion_rate": 12.16,
+  "next_action": "Continue from line 221515 (b3001_ronaldreagan_thegipper starts)",
   "restart_info": {
     "restart_number": 3,
     "restart_date": "2025-11-05",
