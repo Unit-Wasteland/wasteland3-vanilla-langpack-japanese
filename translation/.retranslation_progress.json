@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 22993,
-      "entries_untranslated": 146719,
-      "completion_rate": 13.55,
-      "current_line": 237235,
+      "entries_translated": 23102,
+      "entries_untranslated": 146610,
+      "completion_rate": 13.61,
+      "current_line": 237913,
       "status": "in_progress",
       "approach": "STRICT sequential from line 390 - enhanced validation with bracket marker protection",
-      "note": "Session R3-235: 133 entries (lines 236861-237234). b4001_unnamedgippers complete + b4001_unnamedgippers_exchange complete: Unnamed Gipper dialogues, faith discussions. Structure: 0 errors, Quality: 0 issues. Next: line 237235 (blaaah + deletemeaftertest105pm sections)"
+      "note": "Session R3-236: 109 entries (lines 237235-237912). blaaah complete (1 entry) + deletemeaftertest105pm complete (108 entries): Test dialogue - Valor/Vic Gipper interactions. Structure: 0 errors, Quality: 0 issues. Next: line 237913 (o1001_sixfingeredlarry_obolete section)"
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "14f472f",
-  "last_commit_message": "Retranslation R3-235: b4001_unnamedgippers complete + b4001_unnamedgippers_exchange complete - 133 entries (lines 236861-237234)",
-  "total_entries_completed": 22993,
+  "last_commit_hash": "3c5a837",
+  "last_commit_message": "Retranslation R3-236: blaaah complete + deletemeaftertest105pm complete - 109 entries (lines 237235-237912)",
+  "total_entries_completed": 23102,
   "total_entries": 169712,
-  "total_entries_untranslated": 146719,
-  "overall_completion_rate": 13.55,
-  "next_action": "Continue from line 237235 (blaaah + deletemeaftertest105pm sections)",
+  "total_entries_untranslated": 146610,
+  "overall_completion_rate": 13.61,
+  "next_action": "Continue from line 237913 (o1001_sixfingeredlarry_obolete section)",
   "restart_info": {
     "restart_number": 3,
     "restart_date": "2025-11-05",
