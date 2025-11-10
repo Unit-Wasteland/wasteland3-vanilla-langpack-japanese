@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 30790,
-      "entries_untranslated": 138922,
+      "entries_translated": 30853,
+      "entries_untranslated": 138859,
       "completion_rate": 18,
-      "current_line": 303667,
+      "current_line": 304147,
       "status": "in_progress",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session R3-287: Completed 182 entries (lines 302651-303666). Sections: c2101_patriarchswifeburialground (22), c2101_pizepi (160). All action markers preserved, all Script Node entries kept in English. All validation passed (0 errors, 0 issues). Next: c2101_poolcomputer section from line 303667"
+      "note": "Session R3-288: Completed 63 entries (lines 303667-304146). Sections: c2101_poolcomputer (18), c2101_priscillareed (17), c2101_psychopath_intercom (14), c2101_psychopath_partybarks (1), c2101_psychopath_song (2), c2101_respectroomcomputer (6), c2101_respectroomguards (5). All action markers preserved (::brrrt::, ::brrt::, ::sob::, ::static::), all Script Node kept in English. All validation passed (0 errors, 0 issues). Next: c2101_rileywoodson section from line 304147 (171 entries)"
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "f94a1ff",
-  "last_commit_message": "Retranslation R3-287: c2101_patriarchswifeburialground + c2101_pizepi - 182 entries",
-  "total_entries_completed": 30790,
+  "last_commit_hash": "pending",
+  "last_commit_message": "Retranslation R3-288: 7 sections - 63 entries",
+  "total_entries_completed": 30853,
   "total_entries": 169712,
-  "total_entries_untranslated": 138922,
+  "total_entries_untranslated": 138859,
   "overall_completion_rate": 18,
-  "next_action": "Continue from line 303667 c2101_poolcomputer section",
+  "next_action": "Continue from line 304147 c2101_rileywoodson section (171 entries)",
   "restart_info": {
     "restart_number": 3,
     "restart_date": "2025-11-05",

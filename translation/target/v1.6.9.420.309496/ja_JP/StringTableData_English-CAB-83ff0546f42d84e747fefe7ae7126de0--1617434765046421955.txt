@@ -303749,41 +303749,41 @@
       1 Array Array (18 items)
        0 int size = 18
        [0]
-        1 string data = "'Drain cycle complete. Level 4 disinfection required. Please contact Customer Service.'"
+        1 string data = "「排水サイクル完了。レベル4消毒が必要です。カスタマーサービスにお問い合わせください」"
        [1]
-        1 string data = "The computer display reads, 'Sani-Kleen Pool Hygiene Monitoring System v1.021\n\n\nIt has been 37,165 days since the last water quality test.\n\n\nDo you wish to test the water quality of your pool now?'"
+        1 string data = "コンピュータの画面には次のように表示されている:「サニクリーン・プール衛生監視システム v1.021\n\n\n前回の水質検査から37,165日が経過しています。\n\n\n今すぐプールの水質を検査しますか?」"
        [2]
-        1 string data = "Yes."
+        1 string data = "はい。"
        [3]
-        1 string data = "No."
+        1 string data = "いいえ。"
        [4]
-        1 string data = "Bang keys randomly."
+        1 string data = "キーをランダムに叩く。"
        [5]
-        1 string data = "Type 'EXIT'."
+        1 string data = "「EXIT」と入力する。"
        [6]
-        1 string data = " Processing command ...\n\n\nOperation commencing. Opening drain..\n\n\nBe advised: CLOSE command disabled pending administrator override."
+        1 string data = " コマンドを処理中...\n\n\n操作を開始します。排水口を開放中...\n\n\nご注意:管理者による上書きまで、CLOSEコマンドは無効化されています。"
        [7]
-        1 string data = " You are using Simplified Drain Controller 0.8.1, Operator! Designed for your convenience and safety, SDC will override any potentially dangerous commands! It has never been easier to operate a drain safely!"
+        1 string data = " オペレーター、あなたは簡易排水コントローラー 0.8.1をお使いです!あなたの利便性と安全のために設計されたSDCは、潜在的に危険なコマンドを上書きします!排水口を安全に操作することがこれほど簡単になったことはありません!"
        [8]
-        1 string data = " You appear to be having difficulties, operator.\n\n\nFor assistance please call the following number H%U%^YH$%HR ::bzzzz::"
+        1 string data = " オペレーター、あなたは困難に直面しているようです。\n\n\nサポートについては次の番号にお電話ください H%U%^YH$%HR ::bzzzz::"
        [9]
-        1 string data = " We hope you have enjoyed your time with Simplified Drain Controller!"
+        1 string data = " 簡易排水コントローラーをご利用いただきありがとうございました!"
        [10]
         1 string data = "::brrrt::"
        [11]
-        1 string data = "'Commencing water quality test...'"
+        1 string data = "「水質検査を開始中...」"
        [12]
-        1 string data = "'WARNING: High levels of human blood and other bodily fluids detected!\n\n\nPH level is normal.\n\n\nDo you wish to drain the pool?'"
+        1 string data = "「警告:高レベルの人間の血液およびその他の体液が検出されました!\n\n\nPHレベルは正常です。\n\n\nプールの水を抜きますか?」"
        [13]
-        1 string data = "Yes."
+        1 string data = "はい。"
        [14]
-        1 string data = "No."
+        1 string data = "いいえ。"
        [15]
-        1 string data = "'Commencing drain cycle...\n\n\nWARNING: The presence of human remains in your pool may void your warranty. Contact Customer Service for details.'"
+        1 string data = "「排水サイクルを開始中...\n\n\n警告:プール内の人間の遺体の存在は保証を無効にする可能性があります。詳細についてはカスタマーサービスにお問い合わせください」"
        [16]
         1 string data = "::brrt::"
        [17]
-        1 string data = "'WARNING: High levels of human blood and other bodily fluids still present!\n\n\nDo you wish to drain the pool?'"
+        1 string data = "「警告:高レベルの人間の血液およびその他の体液がまだ存在しています!\n\n\nプールの水を抜きますか?」"
    [985]
     0 StringTable data
      1 string Filename = "c2101_priscillareed"
@@ -303865,39 +303865,39 @@
       1 Array Array (17 items)
        0 int size = 17
        [0]
-        1 string data = " Please help us."
+        1 string data = " 助けてください。"
        [1]
-        1 string data = " View debug option"
+        1 string data = " デバッグオプションを見る"
        [2]
-        1 string data = " Goodbye"
+        1 string data = " さようなら"
        [3]
-        1 string data = " Select a debug option"
+        1 string data = " デバッグオプションを選択"
        [4]
-        1 string data = " Shoot Violet Reed"
+        1 string data = " ヴァイオレット・リードを撃つ"
        [5]
-        1 string data = " Shots Fired"
+        1 string data = " 発砲"
        [6]
-        1 string data = " Tell them to RUN"
+        1 string data = " 逃げろと伝える"
        [7]
-        1 string data = " They RUN"
+        1 string data = " 逃走"
        [8]
-        1 string data = " I'm alive, but my sister is dead."
+        1 string data = " 私は生きているが、妹は死んだ。"
        [9]
-        1 string data = " We're saved. Thank you."
+        1 string data = " 助かったわ。ありがとう。"
        [10]
         1 string data = "::sob::"
        [11]
         1 string data = ""
        [12]
-        1 string data = ""No! Don't touch anything! It's rigged to blow!""
+        1 string data = ""だめ!何も触らないで!爆発するわ!""
        [13]
-        1 string data = ""Oh, <i>Violet</i>.""
+        1 string data = ""ああ、<i>ヴァイオレット</i>...""
        [14]
         1 string data = "Script Node 17"
        [15]
-        1 string data = "::sob:: "Stop! Please!""
+        1 string data = "::sob:: "やめて!お願い!""
        [16]
-        1 string data = ""Oh god! What are you doing? Stop!""
+        1 string data = ""なんてこと!何してるの?やめて!""
    [986]
     0 StringTable data
      1 string Filename = "c2101_psychopath_intercom"
@@ -303967,33 +303967,33 @@
       1 Array Array (14 items)
        0 int size = 14
        [0]
-        1 string data = ""Hey, strangers. Shit, it took you long enough to get here.""
+        1 string data = ""よう、よそ者さん。クソ、ここまで来るのに随分時間がかかったな""
        [1]
-        1 string data = " View debug options"
+        1 string data = " デバッグオプションを見る"
        [2]
-        1 string data = "Leave the intercom alone."
+        1 string data = "インターホンをそっとしておく。"
        [3]
-        1 string data = " Select a debug option"
+        1 string data = " デバッグオプションを選択"
        [4]
-        1 string data = " We're here to talk. Open the door."
+        1 string data = " 話がある。ドアを開けろ。"
        [5]
-        1 string data = " C'mon in."
+        1 string data = " どうぞお入り。"
        [6]
-        1 string data = ""Open the door. We have business to settle with you.""
+        1 string data = ""ドアを開けろ。お前と決着をつける用がある""
        [7]
-        1 string data = ""Yeah, come on in. Let's have some fun, huh?""
+        1 string data = ""ああ、入ってこいよ。楽しもうぜ、な?""
        [8]
         1 string data = ""
        [9]
-        1 string data = "Beyond this door lies Victory Buchanan, the Patriarch's psychopathic son. To confront him, you're going to need your whole team."
+        1 string data = "このドアの向こうには、パトリアークのサイコパスな息子、ヴィクトリー・ブキャナンがいる。彼に立ち向かうには、チーム全員が必要だ。"
        [10]
         1 string data = "::static::"
        [11]
         1 string data = ""
        [12]
-        1 string data = ""Rangers - let's not waste time talking. We should put this monster down!""
+        1 string data = ""レンジャー、話してる時間はない。この怪物を倒すぞ!""
        [13]
-        1 string data = ""Play it safe, Rangers. We want him alive.""
+        1 string data = ""慎重にいこう、レンジャー。彼を生け捕りにしたい""
    [987]
     0 StringTable data
      1 string Filename = "c2101_psychopath_partybarks"
@@ -304017,7 +304017,7 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = ""Damn, that's where that went. I always liked Poke better than that pansy-ass Peek.""
+        1 string data = ""クソ、そこにあったのか。俺はあの女々しいPeekよりPokeの方がずっと好きだったんだ""
    [988]
     0 StringTable data
      1 string Filename = "c2101_psychopath_song"
@@ -304045,9 +304045,9 @@
        [0]
         1 string data = ""
        [1]
-        1 string data = ""You made me kill you / I didn't wanna do it / I didn't wanna do it / You made me skin you / And scalp you with a razor / A dirty rusty razor"\n"
+        1 string data = ""お前は俺に殺させた / 俺はやりたくなかった / やりたくなかったんだ / お前は俺に皮を剥がさせた / カミソリで頭の皮を剥がさせた / 汚い錆びたカミソリで"\n"
        [2]
-        1 string data = ""You made me happy sometimes / You made me <i>glad</i> / But in the end, baby / You just made me / Mad""
+        1 string data = ""お前は時々俺を幸せにした / 俺を<i>喜ばせた</i> / だが最後には、ベイビー / お前はただ / 俺を狂わせた""
    [989]
     0 StringTable data
      1 string Filename = "c2101_respectroomcomputer"
@@ -304085,17 +304085,17 @@
       1 Array Array (6 items)
        0 int size = 6
        [0]
-        1 string data = " Intro"
+        1 string data = " イントロ"
        [1]
-        1 string data = " View debug options"
+        1 string data = " デバッグオプションを見る"
        [2]
-        1 string data = " Exit"
+        1 string data = " 終了"
        [3]
-        1 string data = " Select a debug option"
+        1 string data = " デバッグオプションを選択"
        [4]
-        1 string data = " Disable electric floor"
+        1 string data = " 電気床を無効化"
        [5]
-        1 string data = " Electric floor disabled"
+        1 string data = " 電気床が無効化されました"
    [990]
     0 StringTable data
      1 string Filename = "c2101_respectroomguards"
@@ -304133,15 +304133,15 @@
       1 Array Array (6 items)
        0 int size = 6
        [0]
-        1 string data = ""What's next for the Ranger?""
+        1 string data = ""レンジャーは次にどうなる?""
        [1]
-        1 string data = ""Victory wants him beaten again.""
+        1 string data = ""ヴィクトリーはまた殴り倒したいらしい""
        [2]
-        1 string data = ""His breath is short, so his dream will end soon.""
+        1 string data = ""奴の息は浅い、もうすぐ夢は終わる""
        [3]
-        1 string data = ""Good.""
+        1 string data = ""いいことだ""
        [4]
-        1 string data = " Are you crazy? What kind of an asshole would punch a woman. "
+        1 string data = " 正気か?女を殴るなんてどんなクソ野郎だ。 "
        [5]
         1 string data = ""
    [991]
