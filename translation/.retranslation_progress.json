@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 32137,
-      "entries_untranslated": 137575,
+      "entries_translated": 32215,
+      "entries_untranslated": 137497,
       "completion_rate": 18,
-      "current_line": 314172,
+      "current_line": 2222,
       "status": "in_progress",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session R3-299: Completed 157 entries (lines 313605-314172). Sections: character epilogue variations (Fish-Lips returns to Hard-Heads, Vic army raising, Scotchmo disappearance in Kansas bars), Charley Knowes leadership at Bizarre (prosperity or refugee haven scenarios), Savage Council defeat and Liberty Buchanan escape/imprisonment/Patriarch reconciliation attempts, companion endings (Jodie family outcomes with supply variations, Kwon loyalty or defection to Marshals with grave visitor mystery, Lucia service continuation or resistance death at Broadmoor Heights, Ironclad Cordite Kansas campaign with Team November alliance options, Pizepi supply distribution or Darwin defense return, Fish-Lips expulsion or attack death), alternative Kwon and Lucia timeline variations (Iron Thunder Arapaho consultant, power transition scenarios), Payasos recruitment failure, Gippers-Rangers truce with Reagan hostage worship, Machine Commune paranoia or destruction outcomes, Morningstar retirement journey or Kodiak AI salvage, character death memorials (Jodie Bell baseball cap, Lucia buckskin burial, Ironclad Cordite Kansas warlord relief, Pizepi Darwin ambassador honor, Fish-Lips liver consumption, Victory Buchanan grave desecration, Scotchmo drinking tribute, Percival Wesson grief), alternative power transition scenarios. Complete ending song endsongs (56 verses) covering all major story branches: Arizona-Colorado journey narrative, Buchanan children missions (Victory Aspen encounter kill/arrest/recruit, Valor Denver betrayal arrest/brain-swap/capture, Liberty Kansas encounter death/arrest scenarios), promise fulfillment or betrayal variations, Patriarch deposition methods (shooting/exile/mob/trial), aid delivery outcomes, Arizona Rangers fate (lost in snow/promise kept/empty-handed return/invitation to Colorado), ending choices (rescue both states/invite Arizona settlers/abandon friends/loot Colorado/eternal roaming/face consequences), premature game-breaking endings (early Patriarch kill, car bomb explosion, frozen nuclear blast). Action marker preserved: ::sputter::. Proper nouns: Team November, Fish-Lips, Hard-Heads, Vic, Colorado Springs, Scotchmo, Kansas, Charley Knowes, Bizarre, Flab, Faran Brygo, Savage Council, Liberty Buchanan, Patriarch, Marshals, Jodie, Arizona, Kwon, Lucia, Hundred Families, Broadmoor Heights, Ironclad Cordite, Pizepi, Darwin, Angela Deth, General Woodson, Gippers, Nancys, Reagan, Machine Commune, Denver, Morningstar, Kodiak, Jodie Bell, Percival Wesson, Victory Buchanan, Aspen, Valor, Buchanan. Structure validation: 0 errors. Quality validation: 0 issues. 4-quote format strictly preserved. Next: Continue from line 314172"
+      "note": "Session R3-300: Completed 78 entries (lines 315206-315312, 315518-315528, 2184-2222). Sections: civilian combat barks (pain reactions including groans and screams, mercy pleas and begging for life, healing acknowledgments, attack declarations and self-defense, tactical callouts for reloading/ammo/movement/cover, panic reactions including fear of death, status effect suffering from bleeding/burning/freezing/blindness, fear-driven retreat dialogue), dog/wolf combat barks (animal sound effects in Japanese onomatopoeia including growls and barking), cannibal encounter random event start (lost boy sitting on rock outside copse of trees seeking help, player dialogue options ranging from help to insult, boy's firewood collection story and flare signaling system explanation, flare firing sequence with father's response, boy guiding Rangers toward direction of response flare, arrival at cannibal homestead revealing horror scene with human corpses hanging from hooks and bone furniture). Context: Combat barks provide flavor for NPC reactions during battle. Cannibal encounter is random event where boy uses flare trap to lure travelers to cannibal camp. Multiple player response branches available. Proper nouns: Team November (glossary). Structure validation: 0 errors. Quality validation: 0 issues. 4-quote format strictly preserved. Next: Continue cannibal encounter dialogue from line 2224"
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "ee27685",
-  "last_commit_message": "Retranslation R3-299: character epilogues and ending songs - 157 entries",
-  "total_entries_completed": 32137,
+  "last_commit_hash": "47597be",
+  "last_commit_message": "Retranslation R3-300: civilian combat barks, animal sounds, and cannibal encounter start - 78 entries",
+  "total_entries_completed": 32215,
   "total_entries": 169712,
-  "total_entries_untranslated": 137575,
+  "total_entries_untranslated": 137497,
   "overall_completion_rate": 18,
-  "next_action": "Continue from line 314172",
+  "next_action": "Continue cannibal encounter dialogue from line 2224",
   "restart_info": {
     "restart_number": 3,
     "restart_date": "2025-11-05",
