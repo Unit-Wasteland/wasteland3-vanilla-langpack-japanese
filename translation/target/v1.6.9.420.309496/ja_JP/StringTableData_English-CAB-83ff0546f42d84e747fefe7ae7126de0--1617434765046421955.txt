@@ -302649,49 +302649,49 @@
       1 Array Array (22 items)
        0 int size = 22
        [0]
-        1 string data = "You look down at the unremarkable patch of ground at your feet. \r\n\r\nThis is where "Cleo" was buried, according to the Patriarch's map. "
+        1 string data = "あなたは足元の何の変哲もない地面を見下ろす。\r\n\r\nパトリアークの地図によれば、ここに"クレオ"が埋葬されている場所だという。"
        [1]
         1 string data = """"
        [2]
-        1 string data = "Cleo's jumbled bones lie in a heap, surrounded by bare, frozen earth. "
+        1 string data = "クレオのバラバラになった骨が山積みになっており、むき出しの凍った土に囲まれている。"
        [3]
-        1 string data = "Cleo's grave lies before you, undisturbed. "
+        1 string data = "クレオの墓が目の前にあり、手つかずのままだ。"
        [4]
-        1 string data = "Dig up the remains of the Patriarch's wife. "
+        1 string data = "パトリアークの妻の遺体を掘り起こす。"
        [5]
-        1 string data = "Search the grave for anything worth taking. "
+        1 string data = "何か価値のあるものがないか墓を探す。"
        [6]
-        1 string data = "Examine the remains. "
+        1 string data = "遺体を調べる。"
        [7]
-        1 string data = "Leave."
+        1 string data = "立ち去る。"
        [8]
-        1 string data = "The icy crust cracks beneath your shovel. It takes a long time to expose the bones at the bottom of the grave. "
+        1 string data = "氷の層がシャベルの下で砕ける。墓の底にある骨を露出させるには長い時間がかかる。"
        [9]
-        1 string data = "Shifting the bones and the icy clumps of dirt aside, you eventually find something that catches your eye. "
+        1 string data = "骨と凍った土の塊をかき分けていくと、やがて目を引くものが見つかる。"
        [10]
-        1 string data = "Hunkering over the pit, you squint at the remains. "
+        1 string data = "穴の上にかがみ込んで、遺体を目を細めて見る。"
        [11]
         1 string data = ""
        [12]
-        1 string data = "She hisses through her teeth, but doesn't stop you. "
+        1 string data = "彼女は歯の間からシューッと音を立てるが、あなたを止めようとはしない。"
        [13]
-        1 string data = "He clears his throat uncomfortably and looks away. "
+        1 string data = "彼は不快そうに咳払いをして、目をそらす。"
        [14]
-        1 string data = ""I remember Val's mommy. Always told my father that she wouldn't age well, and he should get rid of her while she was still young.""
+        1 string data = ""ヴァルのママのこと、覚えてるわ。いつも父に、彼女は歳を取ってもうまくいかないから、若いうちに手放すべきだって言ってたの。""
        [15]
-        1 string data = "Vic stares for a while. "
+        1 string data = "ヴィックはしばらくじっと見つめる。"
        [16]
-        1 string data = ""Well, how about that. She looks real fuckin' dead.""
+        1 string data = ""へえ、どういうことだ。すげえ死んでるじゃねえか。""
        [17]
-        1 string data = ""Guess Valor takes after his mom, huh?""
+        1 string data = ""ヴァラーは母親似ってことかな?""
        [18]
-        1 string data = ""Don't bother trying to solve this mystery, detective. She killed herself.""
+        1 string data = ""この謎を解こうとするな、探偵さん。彼女は自殺したんだ。""
        [19]
-        1 string data = ""And by that, I mean that marrying the Patriarch's fuckin' <i>suicide</i>. None of his lady-friends lived all that long. They kept having accidents.""
+        1 string data = ""つまり、パトリアークと結婚するのは<i>自殺</i>みたいなもんだってことさ。奴の女友達は誰も長生きしなかった。みんな事故に遭ってたからな。""
        [20]
-        1 string data = ""In this <i>particular</i> case, Val's mommy accidentally hit the ground real hard after Daddy lost his temper and threw her off a cliff.""
+        1 string data = ""この<i>特定の</i>ケースでは、ヴァルのママは、パパが激怒して崖から彼女を投げ落とした後、地面に激しくぶつかったんだ。""
        [21]
-        1 string data = "Most of the skeleton is largely intact, but the skull is utterly crushed. The spine is shattered. \r\n\r\nThere's little doubt that the injury killed her on impact."
+        1 string data = "骨格の大部分はほぼ無傷だが、頭蓋骨は完全に砕かれている。脊椎は粉々だ。\r\n\r\nこの損傷で即死したことは間違いない。"
    [983]
     0 StringTable data
      1 string Filename = "c2101_pizepi"
@@ -303345,103 +303345,103 @@
       1 Array Array (160 items)
        0 int size = 160
        [0]
-        1 string data = " Intro"
+        1 string data = " イントロ"
        [1]
-        1 string data = " View debug options"
+        1 string data = " デバッグオプションを表示"
        [2]
-        1 string data = " Goodbye"
+        1 string data = " さようなら"
        [3]
-        1 string data = " Select a debug option"
+        1 string data = " デバッグオプションを選択"
        [4]
-        1 string data = " Add Addendum"
+        1 string data = " 補遺を追加"
        [5]
-        1 string data = " Addendum added"
+        1 string data = " 補遺を追加しました"
        [6]
-        1 string data = "Start Conversation."
+        1 string data = "会話を開始。"
        [7]
-        1 string data = ""Oh my goodness. Rangers! We thought we were the only ones who survived the ambush on the lake!""
+        1 string data = ""ああ、なんてこと。レンジャーだわ!湖での待ち伏せを生き延びたのは私たちだけだと思ってた!""
        [8]
-        1 string data = ""Be careful, everyone!""
+        1 string data = ""みんな、気をつけて!""
        [9]
         1 string data = ""
        [10]
-        1 string data = ""I am <i>so</i> tired of snow. Blah.""
+        1 string data = ""雪にはもう<i>本当に</i>うんざりよ。もう嫌。""
        [11]
-        1 string data = ""This place is so gross.""
+        1 string data = ""ここ、すごく気持ち悪い。""
        [12]
-        1 string data = ""Oh no! Where's my lucky keychain?""
+        1 string data = ""あっ、やだ!私のラッキーキーホルダーはどこ?""
        [13]
-        1 string data = ""That, I'm sorry, was <i>stupid</i>. She wasn't harming <i>anyone!</i>""
+        1 string data = ""悪いけど、あれは<i>バカげてた</i>わ。彼女は誰にも危害を加えてなかった<i>のに!</i>""
        [14]
-        1 string data = ""I can't even <i>look</i> at you right now.""
+        1 string data = ""今はあなたの顔なんて<i>見たくもない</i>わ。""
        [15]
-        1 string data = ""Poor Gift.""
+        1 string data = ""可哀想なギフト。""
        [16]
-        1 string data = ""What were you thinking?""
+        1 string data = ""何を考えてたの?""
        [17]
-        1 string data = ""Okay. Okay. Deep breaths, Pizepi. So, what now?""
+        1 string data = ""わかった。わかったわ。深呼吸して、ピゼピ。それで、これからどうする?""
        [18]
-        1 string data = ""You want to join us?""
+        1 string data = ""私たちに加わりたいの?""
        [19]
-        1 string data = ""We're sorry about the Gift.""
+        1 string data = ""ギフトのことは申し訳なく思っている。""
        [20]
         1 string data = ""
        [21]
-        1 string data = ""Well, at least you're sorry. Even Rangers make wrong calls sometimes.""
+        1 string data = ""まあ、少なくとも申し訳ないと思ってるのね。レンジャーだって間違った判断をすることはあるわ。""
        [22]
-        1 string data = ""Honestly? I shouldn't. I'm bad luck. Every squad I'm on ends up getting captured by psychopaths or ends up fighting genocidal artificial intelligences. I'm going to sit this one out for now.""
+        1 string data = ""正直なところ?やめといた方がいいわ。私は不運の星の下に生まれてるの。私が参加した部隊はみんなサイコパスに捕まるか、大量虐殺AIと戦う羽目になるのよ。今回は見送らせてもらうわ。""
        [23]
         1 string data = ""
        [24]
-        1 string data = ""I did hear some stuff that might help you. There's a hostage in the sauna. Victory's idiots are testing Breather gasses on him. And there are two other hostages in the Hundred Families wing."\n\n\nBiting her lip, she continues. "
+        1 string data = ""役に立つかもしれない情報は聞いたわ。サウナに人質がいるの。ヴィクトリーの部下がブリーザーガスをその人に試してるって。それと百家連合の区画にも人質が2人いるわ。"\n\n\n唇を噛みしめながら、彼女は続ける。"
        [25]
         1 string data = ""
        [26]
-        1 string data = ""It smells kinda funky in here. Can we crack a window?""
+        1 string data = ""ここ、ちょっと変な匂いがするわね。窓を開けてもいい?""
        [27]
         1 string data = ""
        [28]
-        1 string data = ""Wow. I never thought she'd release me, not really. Wow. I'm not even sure what to <i>do</i> now."\n"
+        1 string data = ""すごい。彼女が本当に私を解放してくれるなんて、まったく思ってなかった。すごいわ。これから何を<i>すればいいのか</i>もわからない。"\n"
        [29]
-        1 string data = ""Wait. What were you even doing here?""
+        1 string data = ""待って。あなたたちはそもそも何でここにいたの?""
        [30]
-        1 string data = "She gives you a <i>look</i>."
+        1 string data = "彼女はあなたを<i>じっと見る</i>。"
        [31]
         1 string data = ""
        [32]
-        1 string data = ""Whoops. Found my lucky keychain. In my lucky pocket. Duh!""
+        1 string data = ""あっ。ラッキーキーホルダー見つけた。ラッキーポケットに入ってたわ。当然ね!""
        [33]
-        1 string data = ""What did he do? What did you let him <i>do!?</i>""
+        1 string data = ""彼は何をしたの?あなたたち、彼に何を<i>させたの!?</i>""
        [34]
-        1 string data = ""Truth be told - what I need right now is a breather. This place really was hell and I need to gather my wits. But I'll be rooting for you, and let's talk once you're done here, yeah?""
+        1 string data = ""本当のこと言うと、今必要なのは一息つくことなの。ここは本当に地獄だったし、気持ちを整理しなきゃ。でも応援してるわ。ここが終わったら話しましょう、ね?""
        [35]
-        1 string data = ""We could really use your help.""
+        1 string data = ""君の助けが本当に必要なんだ。""
        [36]
-        1 string data = ""Be careful.""
+        1 string data = ""気をつけて。""
        [37]
-        1 string data = ""And I could use a break. Are you kidding me? The General can court martial me later.""
+        1 string data = ""私も休憩が必要よ。冗談でしょ?将軍には後で軍法会議にかけられればいいわ。""
        [38]
-        1 string data = ""Oh, I will. Definitely I will.""
+        1 string data = ""ええ、そうするわ。絶対にね。""
        [39]
-        1 string data = ""Good luck with Victory. He's a... well, he's a... an <i>asshole</i>. That's what he is, and I'm not sorry.""
+        1 string data = ""ヴィクトリーとの戦い、頑張ってね。あいつは……まあ、あいつは……<i>クソ野郎</i>よ。それが真実だし、謝る気もないわ。""
        [40]
-        1 string data = ""Thank <i>goodness</i> Victory's done for. He was <i>such</i> an asshole. Whoops. Language.""
+        1 string data = ""<i>ありがたい</i>ことに、ヴィクトリーは終わったのね。あいつは<i>本当に</i>クソ野郎だった。あ、言葉遣い。""
        [41]
         1 string data = ""
        [42]
-        1 string data = ""Now, where did I put the rest of my stuff?""
+        1 string data = ""さて、残りの荷物はどこに置いたかしら?""
        [43]
         1 string data = ""
        [44]
-        1 string data = ""When we got captured, I was absolutely <i>sure</i> the mission was dead. This is <i>such</i> good news! Go team!""
+        1 string data = ""捕まった時は、ミッションは完全に失敗だと<i>確信</i>してたわ。これは<i>本当に</i>いいニュースね!がんばって!""
        [45]
-        1 string data = ""You seem to get along with the Gift.""
+        1 string data = ""ギフトとうまくやってるみたいだね。""
        [46]
         1 string data = ""
        [47]
         1 string data = ""
        [48]
-        1 string data = ""We have common interests. At first, I thought she was going to cut me open. But after they gassed me to keep me compliant and it didn't work? We talked about chemistry all night. It was practically a slumber party!""
+        1 string data = ""共通の関心事があるのよ。最初は、彼女が私を切り開くつもりなんだと思ったわ。でも私を従わせるためにガスを使ったのに効かなかったでしょ?そうしたら一晩中化学の話をしたの。まるでパジャマパーティーみたいだったわ!""
        [49]
         1 string data = ""
        [50]
@@ -303449,181 +303449,181 @@
        [51]
         1 string data = ""
        [52]
-        1 string data = "[Whisper] "Will you leave if we cover your escape?""
+        1 string data = "[Whisper] "私たちが脱出を援護したら、ここを出る?""
        [53]
-        1 string data = ""Not until she lets me go. She needs my help - the Patriarch's son is manipulating her people, but there must be a way out. I'm <i>needed</i> here.""
+        1 string data = ""彼女が許可するまでは無理よ。彼女は私の助けを必要としてるの。パトリアークの息子が彼女の仲間を操ってるけど、何か解決策があるはずよ。私はここで<i>必要とされてる</i>の。""
        [54]
-        1 string data = ""I heard that you've been rescuing my team. Good job!""
+        1 string data = ""あなたたちが私のチームを救出してるって聞いたわ。よくやった!""
        [55]
-        1 string data = ""I've been trying to figure out where La Loca and Rook were taken. They're the others from my team... but you probably know that. Maybe you can help them?""
+        1 string data = ""ラ・ロカとルークがどこに連れて行かれたのか考えてたの。私のチームの他のメンバーよ……知ってるでしょうけど。助けてあげられない?""
        [56]
-        1 string data = ""Let's not forget about Woodson. Have you found him yet? They made him work on the radio.""
+        1 string data = ""ウッドソンのことも忘れないで。もう見つけた?無線機の仕事をさせられてたわ。""
        [57]
-        1 string data = ""Yes, he's safe now.""
+        1 string data = ""ああ、今は安全だ。""
        [58]
-        1 string data = ""He's okay, but they hurt him pretty bad.""
+        1 string data = ""無事だが、かなりひどく傷ついていた。""
        [59]
-        1 string data = ""Enough about your team. Tell us what you can about what's going on here.""
+        1 string data = ""君のチームの話はもういい。ここで何が起きているのか、わかることを教えてくれ。""
        [60]
-        1 string data = "Her head tilts towards the floor. "
+        1 string data = "彼女の頭が床の方に傾く。"
        [61]
-        1 string data = ""Good. <i>Good</i>. We need to finish this.""
+        1 string data = ""よかった。<i>よかったわ</i>。これで終わらせなくちゃ。""
        [62]
-        1 string data = "She recoils a little. "
+        1 string data = "彼女は少し身をすくめる。"
        [63]
-        1 string data = ""Vic is in the Patriarch's wing - the fancy one. The prisoners are... all somewhere else, I don't know. I heard a guard talking about chemical testing being done on a man in the sauna.""
+        1 string data = ""ヴィックはパトリアークの区画にいるわ。豪華な方よ。囚人たちは……どこか別の場所にいるわ、詳しくは知らない。警備員がサウナで男に化学実験をしてるって話してるのを聞いたわ。""
        [64]
-        1 string data = ""There were five hostages left, apart from Woodson and me. I was separated from them when the Gift requested that I remain by her side.""
+        1 string data = ""ウッドソンと私を除いて、人質は5人残ってたわ。ギフトが私を側に置いておくよう要求したから、他の人たちとは離されたの。""
        [65]
-        1 string data = ""A guy named Ash told us he has a kill switch for the hostages.""
+        1 string data = ""アッシュって男が、人質用のキルスイッチを持ってるって言ってた。""
        [66]
-        1 string data = ""We're surprised you didn't try to escape.""
+        1 string data = ""逃げようとしなかったことに驚いている。""
        [67]
-        1 string data = ""Anything else you can tell us?""
+        1 string data = ""他に何か教えてくれることは?""
        [68]
-        1 string data = ""Yeah? I don't know why it took you so long to find us, but you don't see <i>me</i> complaining!""
+        1 string data = ""そう?あなたたちがなんでこんなに見つけるのに時間がかかったのかわからないけど、でも<i>私</i>は文句言ってないわよ!""
        [69]
-        1 string data = ""The other two hostages were women, and they were part of the Hundred Families. I'm not sure where they were taken.""
+        1 string data = ""他の2人の人質は女性で、百家連合の一員だったわ。どこに連れて行かれたのかわからないの。""
        [70]
-        1 string data = ""One thing I've learned here? It's not safe to assume that anyone is bluffing about how <i>crazy</i> they are. Make sure you save anyone you can before going after him again.""
+        1 string data = ""ここで学んだことが1つあるわ。誰かがどれだけ<i>狂ってる</i>かについて虚勢を張ってると思い込むのは危険よ。またあいつと対決する前に、助けられる人は必ず助けてね。""
        [71]
-        1 string data = "She rubs her eyes, thinking. "
+        1 string data = "彼女は目をこすりながら考える。"
        [72]
-        1 string data = ""Don't worry about me. I'll be okay.""
+        1 string data = ""心配しないで。私は大丈夫よ。""
        [73]
         1 string data = ""
        [74]
-        1 string data = ""You need to get to safety.""
+        1 string data = ""安全な場所に行く必要がある。""
        [75]
-        1 string data = ""What are you going to do now?""
+        1 string data = ""これからどうするつもり?""
        [76]
-        1 string data = ""We could really use your help out there.""
+        1 string data = ""外で本当に君の助けが必要なんだ。""
        [77]
-        1 string data = ""Be careful, Pizepi.""
+        1 string data = ""気をつけてね、ピゼピ。""
        [78]
-        1 string data = ""I'm sure, but look. I'm bad luck. Every squad I'm on ends up on gets captured by psychopaths or ends up fighting genocidal artificial intelligences. Here, I get to do math and solve problems without guns. I'm better off here, for now at least.""
+        1 string data = ""確かにそうだけど、聞いて。私は不運なの。私が参加した部隊はみんなサイコパスに捕まるか、大量虐殺AIと戦う羽目になるのよ。ここなら、銃なしで数学をしたり問題を解いたりできるわ。少なくとも今のところは、ここにいた方がいいの。""
        [79]
         1 string data = ""
        [80]
-        1 string data = ""Bye for now.""
+        1 string data = ""じゃあまたね。""
        [81]
-        1 string data = ""Vic keeps trying to get me back. She keeps refusing, saying I'm necessary. So I've <i>stayed</i> necessary. Just to be safe.""
+        1 string data = ""ヴィックは私を連れ戻そうと何度も試みてるわ。彼女はそれを拒否して、私は必要だって言うの。だから私は<i>必要な存在であり続けてる</i>の。安全のためにね。""
        [82]
-        1 string data = "She hesitates, then shakes her head. "
+        1 string data = "彼女は躊躇し、それから首を振る。"
        [83]
-        1 string data = ""This place. This <i>damn</i> place. Sorry, language.""
+        1 string data = ""ここは。この<i>クソみたいな</i>場所。ごめんなさい、言葉遣い。""
        [84]
-        1 string data = ""Okay. Listen up.""
+        1 string data = ""わかったわ。聞いて。""
        [85]
-        1 string data = ""Sorry. It's just been a little <i>tense</i> here, okay? Let me think if I'm missing anything.""
+        1 string data = ""ごめんなさい。ここはちょっと<i>緊張してた</i>のよ、わかるでしょ?何か忘れてないか考えさせて。""
        [86]
-        1 string data = "She stares past you. "
+        1 string data = "彼女はあなたの向こうを見つめる。"
        [87]
-        1 string data = "She hesitates. "
+        1 string data = "彼女は躊躇する。"
        [88]
         1 string data = "::sighs::"
        [89]
-        1 string data = ""I'm glad you're safe and you survived the ambush at the lake. I <i>really</i> am. But that was careless. She wasn't hurting <i>anyone</i>.""
+        1 string data = ""あなたたちが無事で、湖での待ち伏せを生き延びてくれて嬉しいわ。<i>本当に</i>嬉しい。でもあれは不注意だった。彼女は誰にも危害を加えてなかった<i>のに</i>。""
        [90]
-        1 string data = ""I was helping a strange chemist lady who protected me from the Patriarch's psychotic son - until you <i>killed</i> her. Changing the subject.""
+        1 string data = ""私はパトリアークのサイコ息子から守ってくれた奇妙な化学者の女性を手伝ってたのよ。あなたたちが彼女を<i>殺す</i>まではね。話題を変えましょう。""
        [91]
-        1 string data = ""He didn't make it.""
+        1 string data = ""彼は助からなかった。""
        [92]
-        1 string data = ""Keep an eye out for the rest of my team. La Loca and Rook. I don't know where they are. Don't even know if they're alive."\n\n\nShe studies the sky, mouth moving silently. "
+        1 string data = ""チームの残りのメンバーに気をつけてね。ラ・ロカとルーク。どこにいるのかわからない。生きてるかどうかさえわからないわ。"\n\n\n彼女は空を見上げ、口を無言で動かす。"
        [93]
-        1 string data = ""Yep. That's all of it."\n\n\nShe turns away."
+        1 string data = ""そう。これで全部よ。"\n\n\n彼女は背を向ける。"
        [94]
-        1 string data = ""You didn't leave when the Gift said you could go?""
+        1 string data = ""ギフトが行ってもいいって言った時に出なかったの?""
        [95]
-        1 string data = "She avoids your eyes."
+        1 string data = "彼女はあなたの目を避ける。"
        [96]
-        1 string data = ""Well, you know. It's hard to leave anywhere once you get comfortable. So to speak.""
+        1 string data = ""まあ、わかるでしょ。一度落ち着いちゃうと、どこからでも離れるのは難しいのよ。そういうこと。""
        [97]
         1 string data = """"
        [98]
-        1 string data = ""Are you going to be alright?""
+        1 string data = ""大丈夫?""
        [99]
-        1 string data = ""We saved the man in the sauna.""
+        1 string data = ""サウナにいた男は助けた。""
        [100]
-        1 string data = ""We set off a trap in the sauna. It killed the man.""
+        1 string data = ""サウナで罠を作動させてしまった。それで男は死んだ。""
        [101]
         1 string data = """"
        [102]
-        1 string data = ""We found the two women. We were able to save one of them.""
+        1 string data = ""2人の女性を見つけた。1人は助けることができた。""
        [103]
-        1 string data = ""The two women are dead.""
+        1 string data = ""2人の女性は死んだ。""
        [104]
-        1 string data = ""We rescued the two women.""
+        1 string data = ""2人の女性を救出した。""
        [105]
-        1 string data = ""We freed the man in the sauna, but didn't make it.""
+        1 string data = ""サウナの男を解放したが、助からなかった。""
        [106]
-        1 string data = ""I heard you rescued La Loca. Good job! I'm still worried about Rook. Knowing his attitude, they're probably not going easy on him.""
+        1 string data = ""ラ・ロカを救出したって聞いたわ。よくやった!でもまだルークが心配。彼の性格を考えると、きっと手加減されてないわ。""
        [107]
-        1 string data = ""I heard you rescued Rook. Good job! I'm still worried about La Loca. She doesn't back down and is crazy enough to get herself killed.""
+        1 string data = ""ルークを救出したって聞いたわ。よくやった!でもまだラ・ロカが心配。彼女は引き下がらないし、自分を殺されるほど狂ってるわ。""
        [108]
-        1 string data = ""I've been trying to figure out where La Loca and Rook - you know, the others from my team - were taken. Maybe you can help them?""
+        1 string data = ""ラ・ロカとルーク、私のチームの他のメンバーがどこに連れて行かれたのか考えてたの。助けてあげられる?""
        [109]
-        1 string data = ""I heard you rescued LaLoca, though. Good Job! I'm still worried about Rook. Knowing his attitude they're probably not going easy on him."\n\n\nShe detects a faint hint of guilt in your eyes."
+        1 string data = ""でもララロカを救出したって聞いたわ。よくやった!でもまだルークが心配。彼の性格を考えると、きっと手加減されてないわ。"\n\n\n彼女はあなたの目の中にかすかな罪悪感を見つける。"
        [110]
-        1 string data = ""We're sorry. They're dead.""
+        1 string data = ""申し訳ない。彼らは死んだ。""
        [111]
-        1 string data = "[Lie] "Don't worry. We'll try our best to make sure they're safe.""
+        1 string data = "[Lie] "心配しないで。彼らの安全を確保するために最善を尽くすから。""
        [112]
-        1 string data = ""We're sorry. Rook is dead.""
+        1 string data = ""申し訳ない。ルークは死んだ。""
        [113]
-        1 string data = "[Lie] "Don't worry. We'll try our best to make sure he's safe too.""
+        1 string data = "[Lie] "心配しないで。彼の安全も確保するために最善を尽くすから。""
        [114]
-        1 string data = ""For the love of all that is good and decent... I see why this place is called Little Hell. And Woodson? Have you found him yet? Please don't tell me him too...""
+        1 string data = ""善良でまともなものすべてへの愛のために……この場所がリトル・ヘルと呼ばれる理由がわかったわ。それでウッドソンは?もう見つけた?お願い、彼もだなんて言わないで……""
        [115]
-        1 string data = ""You seem stressed. You should relax.""
+        1 string data = ""ストレスがたまってるみたいだね。リラックスした方がいい。""
        [116]
-        1 string data = ""That's good information. Lie low for now and we'll take care of the situation.""
+        1 string data = ""それはいい情報だ。今は身を隠していてくれ。状況は我々が処理する。""
        [117]
-        1 string data = ""We rescued the man in the sauna.""
+        1 string data = ""サウナの男を救出した。""
        [118]
-        1 string data = ""The man in the sauna is dead.""
+        1 string data = ""サウナの男は死んだ。""
        [119]
-        1 string data = ""I guess I'm not surprised. As someone who has been exposed to their chemicals firsthand, I didn't expect him to last long.""
+        1 string data = ""驚かないわ。私は彼らの化学物質に直接さらされた人間だから、長くは持たないと思ってた。""
        [120]
-        1 string data = ""That's great, and also kind of surprising. As someone who has been exposed to their chemicals firsthand, I didn't expect him to last long.""
+        1 string data = ""それは素晴らしいことね、そして驚きでもあるわ。私は彼らの化学物質に直接さらされた人間だから、長くは持たないと思ってたの。""
        [121]
-        1 string data = ""I'm fine. Trust me. I'm just trying my best to stay positive.""
+        1 string data = ""大丈夫よ。信じて。前向きでいようと頑張ってるだけよ。""
        [122]
-        1 string data = ""I will. Bye for now.""
+        1 string data = ""そうするわ。じゃあまたね。""
        [123]
-        1 string data = ""Before you head out... I have something to ask you...""
+        1 string data = ""出発する前に……聞きたいことがあるの……""
        [124]
-        1 string data = ""I'll guess the lab will have to do for now.""
+        1 string data = ""とりあえずラボでいいと思うわ。""
        [125]
-        1 string data = ""Stay safe out there.""
+        1 string data = ""外では気をつけて。""
        [126]
-        1 string data = ""I still can't believe what happened to the Gift. She did not deserve that. I can't even think about going back into a lab now, doing work back in Ranger HQ...""
+        1 string data = ""ギフトに起こったことが今でも信じられないわ。彼女はあんなことされる筋合いなかった。今はラボに戻って、レンジャー本部で仕事をするなんて考えられない……""
        [127]
-        1 string data = ""I'd rather take my chances out there with you. There are some things you just can't learn in the lab, you know? So, can I join your squad?""
+        1 string data = ""あなたたちと外で運を試してみたいわ。ラボでは学べないこともあるのよ、わかるでしょ?だから、あなたの部隊に加わってもいい?""
        [128]
-        1 string data = ""Welcome to the squad.""
+        1 string data = ""部隊へようこそ。""
        [129]
-        1 string data = ""Sorry. We're full.""
+        1 string data = ""申し訳ないが、満員だ。""
        [130]
-        1 string data = ""If I go back to Ranger HQ now, I'll probably end up in a room doing lab work. To be honest, I'm kind of tired of research.""
+        1 string data = ""今レンジャー本部に戻ったら、たぶん部屋でラボ仕事をすることになるわ。正直に言うと、研究にはもう飽き飽きしてるの。""
        [131]
-        1 string data = ""Not a problem. I can help out there too. See you there.""
+        1 string data = ""問題ないよ。そっちでも手伝えるから。そこで会おう。""
        [132]
-        1 string data = ""Glad to join your team.""
+        1 string data = ""チームに加われて嬉しいわ。""
        [133]
-        1 string data = ""No worries. I understand.""
+        1 string data = ""心配しないで。わかってるわ。""
        [134]
         1 string data = "Script Node 159"
        [135]
-        1 string data = ""Or... did something happen to him?""
+        1 string data = ""それとも……彼に何かあったの?""
        [136]
-        1 string data = ""Or... did something happen to her?""
+        1 string data = ""それとも……彼女に何かあったの?""
        [137]
-        1 string data = ""We're sorry. La Loca is dead.""
+        1 string data = ""申し訳ない。ラ・ロカは死んだ。""
        [138]
-        1 string data = "[Lie] "Don't worry. We'll try our best to make sure she's safe too.""
+        1 string data = "[Lie] "心配しないで。彼女の安全も確保するために最善を尽くすから。""
        [139]
-        1 string data = "The Gift sighs, and Pizepi lowers her voice."
+        1 string data = "ギフトはため息をつき、ピゼピは声を低くする。"
        [140]
         1 string data = "Script Node 3"
        [141]
@@ -303633,35 +303633,35 @@
        [143]
         1 string data = "Script Node 6"
        [144]
-        1 string data = ""You're free to go now, Ranger.""
+        1 string data = ""もう自由に行っていいわよ、レンジャー。""
        [145]
-        1 string data = ""I suppose I am. Let's talk about this place first, though...""
+        1 string data = ""そうみたいね。でもまずはここについて話しましょう……""
        [146]
-        1 string data = ""Not sure what's next, to be honest... but thank you so much for getting the Gift to free me!""
+        1 string data = ""正直、次に何をすればいいかわからない……でもギフトに私を解放させてくれて本当にありがとう!""
        [147]
-        1 string data = ""Not going anywhere, but I'm <i>safe</i> here, Rangers. Worry about the others for now, okay?""
+        1 string data = ""どこにも行かないけど、ここなら<i>安全</i>よ、レンジャー。今は他の人たちを心配して、いい?""
        [148]
-        1 string data = ""I'm sure you could...""
+        1 string data = ""きっとできるわ……""
        [149]
-        1 string data = ""What's your status, Ranger?""
+        1 string data = ""状況はどうだ、レンジャー?""
        [150]
-        1 string data = ""Me? The Gift took a liking to me, I've been helping her on her research. She's kept me safe from the Patriarch's son. So, I guess I'm better off than most.""
+        1 string data = ""私?ギフトが私を気に入ってくれて、彼女の研究を手伝ってるの。彼女は私をパトリアークの息子から守ってくれてる。だから、大抵の人よりはましな状況だと思うわ。""
        [151]
-        1 string data = ""Why would you kill the Gift? After she frees me? Don't... don't talk to me right now, okay?""
+        1 string data = ""なぜギフトを殺したの?彼女が私を解放した後に?もう……今は話しかけないで、いい?""
        [152]
-        1 string data = ""Woodson's okay... but all the other hostages are dead.""
+        1 string data = ""ウッドソンは無事……でも他の人質は全員死んだ。""
        [153]
-        1 string data = ""Woodson's dead... and so are all the other hostages.""
+        1 string data = ""ウッドソンは死んだ……他の人質も全員死んだ。""
        [154]
-        1 string data = ""Unbelievable. This place SUCKS! Sorry, language.""
+        1 string data = ""信じられない。ここは最悪よ!ごめんなさい、言葉遣い。""
        [155]
-        1 string data = ""So... so I'm the only one left on my team? I can't... unbelievable. This place is the worst.""
+        1 string data = ""つまり……私のチームで残ってるのは私だけ?信じられない……信じられないわ。ここは最悪の場所よ。""
        [156]
-        1 string data = ""Vic's in the Patriarch's wing - the fancy one. I guess since everyone's dead you should just go get him. Good luck out there, Rangers.""
+        1 string data = ""ヴィックはパトリアークの区画にいるわ。豪華な方よ。みんな死んでるんだから、彼を捕まえに行くべきね。頑張って、レンジャー。""
        [157]
-        1 string data = ""Pizepi! You're here!""
+        1 string data = ""ピゼピ!ここにいたのね!""
        [158]
-        1 string data = ""Jodie! You survived! I am so glad to see you!""
+        1 string data = ""ジョディ!生き延びたのね!会えて本当に嬉しいわ!""
        [159]
         1 string data = "Script Node 194"
    [984]
