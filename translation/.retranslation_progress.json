@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 36736,
-      "entries_untranslated": 132976,
-      "completion_rate": 21.6,
-      "current_line": 83796,
+      "entries_translated": 36885,
+      "entries_untranslated": 132827,
+      "completion_rate": 21.7,
+      "current_line": 84890,
       "status": "in_progress",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session R3-405: Translated 32 entries in lines 83505-83796. Content: a1001_psychopath_imprisonedatrangerhq section continuation (Vic prison dialogue boredom refugee reactions Aspen hostage aftermath Reed daughters Hundred Families Riley rescue nail torture Brygo investigation Little Vegas outcomes Airport machine encounters synth quest Everest hotel Dorsey Izzy Reed chicken incidents power restoration Steeltown concerns Holy Detonation reactions). Spanish reference advisory unified translation logic applied all proper nouns consistent with glossary technical terms preserved action markers protected. Pre-commit validations passed - Structure 0 errors quote format strictly maintained action marker 0 Japanese characters quality 0 issues glossary compliance confirmed. Next: Continue from line 83797 (a1001_quarex section - 147 entries)."
+      "note": "Session R3-406: Translated 149 entries in lines 83797-84890. Content: a1001_quarex section complete (147 entries - Quarex dialogue game collection tips Ranger loyalty points Riley rescue Aspen hostages Reed daughters Bizarre refugees Monster control Broadmoor black site synth encounters Airport machines armored car Commune Gippers Everest hotel Dorsey revenge Reed boy justice Brygo arrest Little Vegas closure chicken incidents Steeltown management power supply Holy Detonation); a1001_radioroomradio (12 entries action markers preserved in English); a1001_radio_delgado_paybackstart (2 entries Odinkirk threat Nightclub meeting). Spanish reference advisory unified translation logic applied all proper nouns consistent with glossary technical terms preserved action markers protected. Pre-commit validations passed - Structure 0 errors double-double-quote format strictly maintained action marker 0 Japanese characters quality 0 issues glossary compliance confirmed. Next: Continue from line 84890 (more radio sections)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -53,10 +53,10 @@
     }
   },
   "last_commit_hash": "0644230",
-  "last_commit_message": "Translation: Session R3-405 - 32 entries (lines 83505-83796)",
-  "total_entries_completed": 36736,
+  "last_commit_message": "Translation: Session R3-406 - 149 entries (lines 83797-84890)",
+  "total_entries_completed": 36885,
   "total_entries": 232418,
-  "total_entries_untranslated": 195682,
-  "overall_completion_rate": 15.8,
-  "next_action": "MANDATORY: Complete base game translation to 100% BEFORE starting any DLC work. Current base game progress: 36,736/169,712 entries (21.6%). Continue from line 83797 (a1001_quarex section - 147 entries). DLC1 and DLC2 must remain at 0% until base game reaches 100% with strict validation."
+  "total_entries_untranslated": 195533,
+  "overall_completion_rate": 15.9,
+  "next_action": "MANDATORY: Complete base game translation to 100% BEFORE starting any DLC work. Current base game progress: 36,885/169,712 entries (21.7%). Continue from line 84890 (radio sections). DLC1 and DLC2 must remain at 0% until base game reaches 100% with strict validation."
 }
