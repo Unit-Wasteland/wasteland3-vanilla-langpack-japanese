@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 32736,
-      "entries_untranslated": 136976,
+      "entries_translated": 32739,
+      "entries_untranslated": 136973,
       "completion_rate": 19.3,
-      "current_line": 14730,
+      "current_line": 17140,
       "status": "in_progress",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session R3-355: Translated lines 14650-14730 (13 entries). Base game HQ ambient dialogue continuation: Barracks tension (Rangers helping Patriarch), Marshal dialogue (desert nostalgia, Steeltown supply issues, Pueblo/Markham reference), Brygo/Dorsey conflict commentary, Little Vegas corruption, recruiter workplace complaints, armory engineer schematic improvisation, cat interaction. Structure validation: 0 errors. Quality validation: 0 issues. All glossary terms maintained. Next: Continue from line 14730."
+      "note": "Session R3-356: Fixed 3 untranslated entries (lines 17130, 17138, 17140) in brig dialogue section. Brig warden dialogue: prisoner complaints, Hackett family complaints about cold/conditions/crowding, beer donation interaction, Brygo/Buchanan dialogue exchanges, escape plan discussion, Victory/Valor sibling interaction, ash/scissors request. Structure validation: 0 errors. Quality validation: 0 issues. Unified translation decision logic applied. Next: Continue from line 17140."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -52,11 +52,11 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation. Previous progress discarded due to incorrect work sequence (DLC started before base game completion)."
     }
   },
-  "last_commit_hash": "856bbbd",
-  "last_commit_message": "Translation: Session R3-355 - lines 14650-14730, 13 entries translated",
-  "total_entries_completed": 32736,
+  "last_commit_hash": "pending",
+  "last_commit_message": "Translation: Session R3-356 - 3 untranslated entries fixed",
+  "total_entries_completed": 32739,
   "total_entries": 232418,
-  "total_entries_untranslated": 199682,
+  "total_entries_untranslated": 199679,
   "overall_completion_rate": 14.1,
   "next_action": "MANDATORY: Complete base game translation to 100% BEFORE starting any DLC work. Current base game progress: 32,736/169,712 entries (19.3%). Continue from line 14730. DLC1 and DLC2 must remain at 0% until base game reaches 100% with strict validation.",
   "restart_info": {
