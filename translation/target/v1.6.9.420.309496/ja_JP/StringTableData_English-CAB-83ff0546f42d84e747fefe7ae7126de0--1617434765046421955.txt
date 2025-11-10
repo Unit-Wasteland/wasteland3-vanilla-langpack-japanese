@@ -8695,9 +8695,9 @@
       1 Array Array (2 items)
        0 int size = 2
        [0]
-        1 string data = " NOISE COMPLAINT #1\nRosie Wong, the flophouse matron, calls the Rangers with a noise complaint. She's hearing some very strange (and loud) sounds from one of the apartments in her building. The marshals don't take her seriously, so she asks the Rangers to come at once. "
+        1 string data = " 騒音苦情#1\nロージー・ウォン（安宿の女将）がレンジャーに騒音苦情の電話をかけてきた。彼女の建物のアパートの一つから、とても奇妙で（そして大きな）音が聞こえているという。マーシャルたちは彼女を真剣に取り合わないので、すぐに来てほしいとレンジャーに頼んでいる。 "
        [1]
-        1 string data = " NOISE COMPLAINT #2\nRosie Wong, the flophouse matron, calls with another noise complaint. She says there's a terrible cacophony coming from the boarded-up nightclub. She's pretty sure a bunch of teenage kids have gotten in there and are now blasting music and making all kinds of ruckus. Her tenants are complaining about it, and the noise is driving her cats crazy. The marshals don't seem to care, so she asks if the Rangers will do something about it."
+        1 string data = " 騒音苦情#2\nロージー・ウォン（安宿の女将）がまた騒音苦情の電話をかけてきた。板で塞がれたナイトクラブからひどい不協和音が聞こえてくるという。おそらく十代の子供たちが侵入して、大音量で音楽を流したり騒いだりしているのだろう。住人たちが文句を言っており、騒音で彼女の猫たちも気が狂いそうだという。マーシャルたちは気にしていないようなので、レンジャーが何とかしてくれないかと頼んでいる。"
    [82]
     0 StringTable data
      1 string Filename = "0000_scriptableinteractiontest"
@@ -8907,9 +8907,9 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = ""Hello Rangers. This is Angela Deth.""
+        1 string data = ""やあ、レンジャー。アンジェラ・デスだ。""
        [2]
-        1 string data = ""My people have been monitoring the radio chatter, and...""
+        1 string data = ""私の部下が無線の通信を監視していてな...""
        [3]
         1 string data = " Markham's in charge."
        [4]
@@ -8917,43 +8917,43 @@
        [5]
         1 string data = ""Anything else?"\nWe can respond with:\n-Tell him what we did to the Computation Engine\n-Tell him about the Worker Troubles we encountered and how we handled them.\n-We found a man in a bear suit!\n-Tell him it's nothing worth his attention."
        [6]
-        1 string data = ""Turns out the Computation Engine is made of synths. Don't worry, we fixed it.""
+        1 string data = ""計算エンジンがシンセで作られていたことが判明したよ。心配するな、もう直した。""
        [7]
-        1 string data = ""Reaction to that.""
+        1 string data = ""それに対する反応。""
        [8]
         1 string data = """
        [9]
-        1 string data = ""Reaction to that.""
+        1 string data = ""それに対する反応。""
        [10]
         1 string data = """"
        [11]
-        1 string data = ""Reaction to that.""
+        1 string data = ""それに対する反応。""
        [12]
         1 string data = """"
        [13]
-        1 string data = ""Reaction to that.""
+        1 string data = ""それに対する反応。""
        [14]
         1 string data = """"
        [15]
-        1 string data = ""Reaction to that.""
+        1 string data = ""それに対する反応。""
        [16]
         1 string data = """"
        [17]
-        1 string data = ""Reaction to that.""
+        1 string data = ""それに対する反応。""
        [18]
         1 string data = """"
        [19]
-        1 string data = ""Reaction to that.""
+        1 string data = ""それに対する反応。""
        [20]
-        1 string data = ""We found a man in a bear suit. We're not sure if he knows he's a man.""
+        1 string data = ""熊の着ぐるみを着た男を見つけたんだ。彼が自分を人間だと認識してるかはわからない。""
        [21]
-        1 string data = ""Don't waste my time with stupid jokes, Rangers.""
+        1 string data = ""くだらない冗談で私の時間を無駄にするな、レンジャー。""
        [22]
-        1 string data = ""Nothing worth your time. We handled it.""
+        1 string data = ""あなたの時間を使うほどのことじゃない。俺たちで対処した。""
        [23]
-        1 string data = ""I hope so, Rangers. I do hope so.""
+        1 string data = ""そうであることを願うよ、レンジャー。本当にな。""
        [24]
-        1 string data = ""Patriarch out.""
+        1 string data = ""パトリアーク、以上。""
        [25]
         1 string data = " Crow's in charge."
        [26]
@@ -8965,9 +8965,9 @@
        [29]
         1 string data = " It's pretty complicated. Let's just fill you in later."
        [30]
-        1 string data = ""Angela Deth doesn't react well to you being cagey. We won't actually follow up with him later, he'll have found out what he needs to know by the time we get back. Any rewards that are due to us will be waiting at Ranger HQ whether or not we tell him.""
+        1 string data = ""アンジェラ・デスは、あなたが口を濁すことをよく思わない。実際には後で彼に報告することはない。我々が戻る頃には彼は知るべきことを知っているだろう。我々に支払われるべき報酬は、彼に伝えるかどうかに関わらず、レンジャー本部で待っているだろう。""
        [31]
-        1 string data = ""Hello Rangers. This is Angela Deth.""
+        1 string data = ""やあ、レンジャー。アンジェラ・デスだ。""
    [84]
     0 StringTable data
      1 string Filename = "0000_steeltown_radio_followupwithpatriarch"
@@ -9033,19 +9033,19 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = ""Hey there's some women at HQ they need help with some disappeared relatives""
+        1 string data = ""おい、本部に女性たちが来てるんだ。行方不明になった親族の捜索を頼みたいらしい""
        [2]
-        1 string data = ""We'll come back ASAP!""
+        1 string data = ""すぐに戻るよ!""
        [3]
-        1 string data = ""Do they look like they're carrying large bags of money to afford our services?""
+        1 string data = ""彼女たち、うちのサービスに支払えるだけの大金を持ってそうに見えるか?""
        [4]
-        1 string data = ""Try calling someone who gives a shit.""
+        1 string data = ""気にかけてくれる奴に電話してくれ。""
        [5]
-        1 string data = ""That's the spirit!""
+        1 string data = ""そうこなくっちゃ!""
        [6]
-        1 string data = ""Nah sorry they look kinda poor. But still. Protect and serve!""
+        1 string data = ""いや、すまん、貧しそうに見える。でも、守り仕えるのが俺たちの仕事だからな!""
        [7]
-        1 string data = ""Wow, just... wow.""
+        1 string data = ""ワオ、言葉もない...""
    [86]
     0 StringTable data
      1 string Filename = "a1001_radio_gonzalez_rangershavegonerogue"
@@ -9063,7 +9063,7 @@
       1 Array Array (1 items)
        0 int size = 1
        [0]
-        1 string data = ""Team November have started attacking innocents and are to be considered hostiles.""
+        1 string data = ""チーム・ノベンバーが無実の人々を攻撃し始めた。敵対勢力と見なせ。""
    [87]
     0 StringTable data
      1 string Filename = "a1001_adamant"
@@ -9573,17 +9573,17 @@
        [38]
         1 string data = ""発言には気をつけることだ。""
        [39]
-        1 string data = ""That kind of talk could get you arrested.""
+        1 string data = ""そういう発言は逮捕される可能性がある。""
        [40]
-        1 string data = ""Let's just change the topic.""
+        1 string data = ""話題を変えよう。""
        [41]
-        1 string data = ""Or what? You'll be the one to shoot me this time? I'm not afraid." Amber lowers her voice."
+        1 string data = ""それで? 今度はあんたが私を撃つの? 怖くなんかないわ。" アンバーは声を潜める。"
        [42]
-        1 string data = ""I've lived my whole life afraid of this world. I'm not afraid anymore.""
+        1 string data = ""この世界に怯えて一生を過ごしてきた。もう怖くないわ。""
        [43]
-        1 string data = ""It won't be the first time." \r\n\r\nHer smile thins to a knife."
+        1 string data = ""初めてじゃないからね。" \r\n\r\n彼女の微笑みは刃のように細まる。"
        [44]
-        1 string data = ""Don't. Please. Can't you just... let her go? I know Daisy. There won't be a trial. They'll just jump straight to the execution.""
+        1 string data = ""やめて。お願いだ。彼女を...釈放できないか? デイジーのことは知ってる。裁判なんてない。すぐに処刑されてしまう。""
        [45]
         1 string data = ""彼女はドーシーの襲撃に加わっていた。保安官デイジーに引き渡して尋問を受けさせる。""
        [46]
@@ -9599,11 +9599,11 @@
        [51]
         1 string data = ""ああ。そうだと思ったわ。じゃあね、気持ち悪い。""
        [52]
-        1 string data = "She makes a strange noise, a delirious half-laugh that breaks into what might almost be a sob."
+        1 string data = "彼女は奇妙な音を立てる。狂気じみた半笑いが、ほとんどすすり泣きのようなものに崩れていく。"
        [53]
-        1 string data = ""Goodbye.""
+        1 string data = ""さようなら。""
        [54]
-        1 string data = ""Don't come back.""
+        1 string data = ""もう来るな。""
        [55]
         1 string data = """"
        [56]
