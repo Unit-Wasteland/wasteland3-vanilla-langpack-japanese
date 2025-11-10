@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 32334,
-      "entries_untranslated": 137378,
+      "entries_translated": 32367,
+      "entries_untranslated": 137345,
       "completion_rate": 19,
-      "current_line": 2868,
+      "current_line": 3984,
       "status": "in_progress",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session R3-301: Completed 119 entries (lines 2224-2868). Sections: cannibal encounter conclusion with player choices for father confrontation including redemption/extermination/furniture collection outcomes and various moral branches, faction standoff encounter with Godfishers vs Gippers vs Mercenaries dispute over Reagan nail clippings jar requiring player mediation or artifact destruction leading to all-faction hostility, radio communications about La Perla arrival and Department of Energy interference investigation. Context: Cannibal encounter provides moral choice test. Standoff demonstrates diplomatic challenge with hostile possibilities. Proper nouns: Team November, Godfishers, Gippers, Reagan (glossary), La Perla. Structure validation: 0 errors. Quality validation: 0 issues. Quote format strictly matched source. All bracket markers preserved in English. Next: Continue kymhie_radio section from line 2871"
+      "note": "Session R3-302: Completed 33 entries (lines 3446-3984). Sections: Liberty Buchanan dialogue including betrayal revelation and political views about Patriarch rule and Colorado governance, Polly parrot radio harassment broadcasts, Lemonade Joe radio drama episodes, Quarex distress call from Warrens tunnels below Bizarre, Arapaho 44 convoy ambush emergency communications with power armor cargo recovery priority, Rangers gone rogue scenario broadcasts. Context: Political intrigue with Buchanan family. Comic relief with parrot and radio drama. Urgent rescue missions establish stakes. Proper nouns: Liberty Buchanan (glossary), Victory, Valor, Team November, Quarex, Arapaho, Patriarch (glossary). Structure validation: 0 errors. Quality validation: 0 issues. Quote format strictly matched source. All bracket and action markers preserved. Next: Continue radio sequences from line 3985"
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -48,13 +48,13 @@
       "note": "Pending - will start after base game and DLC1 100% complete"
     }
   },
-  "last_commit_hash": "0d0e8c0",
-  "last_commit_message": "Retranslation R3-301: cannibal encounter completion + faction standoff + radio communications - 119 entries",
-  "total_entries_completed": 32334,
+  "last_commit_hash": "",
+  "last_commit_message": "Retranslation R3-302: Liberty dialogue + radio sequences - 33 entries",
+  "total_entries_completed": 32367,
   "total_entries": 169712,
-  "total_entries_untranslated": 137378,
+  "total_entries_untranslated": 137345,
   "overall_completion_rate": 19,
-  "next_action": "Continue kymhie_radio section from line 2871",
+  "next_action": "Continue radio sequences from line 3985",
   "restart_info": {
     "restart_number": 3,
     "restart_date": "2025-11-05",
