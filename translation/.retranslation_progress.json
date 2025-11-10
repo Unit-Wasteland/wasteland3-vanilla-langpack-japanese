@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 34895,
-      "entries_untranslated": 134817,
+      "entries_translated": 34959,
+      "entries_untranslated": 134753,
       "completion_rate": 20.6,
-      "current_line": 55618,
+      "current_line": 57270,
       "status": "in_progress",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session R3-384: Translated 45 entries in lines 55350-55618. Content: Generic guard dialogue and coup planning discussions (Chicken intelligence concerns getting smarter/talking/planning, Steeltown outcomes middle management/workers/Markham/synths/collapse, Generic guard misc dialogue desert computer/old folks/blood/discretion, Gideon reactions frustration/winces/quiet, Coup planning with advisor Liberty must be dealt with/allies waiting, Power restoration strategy convince Colorado/earn support, Sheriff Daisy persuasion regime change necessary/Marshals question, Hundred Families strategy keep helping/avoid losing support, Electricity solution discussion restore flow advice, Patriarch children strategy arrest/custody/treat carefully, Marshal support conditions both tasks simultaneously/impressed, Peaceful transition requirements all done/only Liberty remains, Various dialogue options who interested in/got it/he nods, Regime change impossibility scenarios storming palace/fighting Marshals, Valor/Vic capture outcomes good start/couldn't be easy, Character assessments Gideon grins/dying relic/thug at heart, Buchanan family analysis Valor misunderstood/Liberty destined to rule, Kwon assessment dialogue fair assessment/uh um, Team rumor love poems sweat drop/highway/Cincinnati WKRP). Spanish reference mostly empty - unified translation logic applied. Pre-commit validation passed - Structure 0 errors, action markers protected, quote format maintained. Next: Continue from line 55618 (more advisor dialogue and a1001_handcraft mission)."
+      "note": "Session R3-385: Translated 64 entries in lines 55618-57270. Content: Team rumor love poem sequences (quote format corrections for 4-quote pattern), Radio communications a1001_gonzalez missions, a1001_handcraft Handcraft brothers garage dialogue (Kodiak vomit, food complaints Masato hero, Refugee tensions Hackett people underfoot, Rook/Loca rescue reactions, Riley foot nail medical scenarios Woodson son, Pizepi presence/death Aspen, Bizarro management outcomes Rangers/Cartel/Payasos/destroyed, Synth encounters downtown release/kill Wolfe reactions, Airport machine judgments talk/escape, Kodiak Vic vehicle acquisition, Airport Commune/Gippers consequences, Everest hotel psycho/suicide/cleanup states), a1001_isaacreedcompanion_inprison imprisoned companion dialogue (consequences remorse regret deserve death), a1001_isaacreed_inprison Isaac Reed prison reflections (regret sorrow deserve punishment, Refugee barracks conflicts underfoot tight temporary out, Rook/Loca saved/lost, Woodson son Riley medical procedure, Pizepi Aspen massacre Pris/Violet deaths, Bizarro outcomes refugees border, Synth encounters Broadmoor black site, Airport machine battles escape, Kodiak Vic vehicle destroyed, Airport/Gippers takedown oil consequences, Everest hotel psycho/suicide/regular, Nelius death revenge Lucia/Rangers, Reed boy trial/execution/release Lucia regret, Brygo arrest/justice/freedom Little Vegas). Spanish reference mostly empty - unified translation logic applied (default to translate). Pre-commit validation passed - Structure 0 errors, action markers protected, 1 glossary violation fixed (Rangers terminology). Next: Continue from line 57270 (more Isaac Reed prison dialogue continuation)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -52,11 +52,11 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "1c3d1dc",
-  "last_commit_message": "Translation: Session R3-384 - 45 entries (lines 55350-55618)",
-  "total_entries_completed": 34895,
+  "last_commit_hash": "pending",
+  "last_commit_message": "Translation: Session R3-385 - 64 entries (lines 55618-57270)",
+  "total_entries_completed": 34959,
   "total_entries": 232418,
-  "total_entries_untranslated": 197523,
+  "total_entries_untranslated": 197459,
   "overall_completion_rate": 15.0,
-  "next_action": "MANDATORY: Complete base game translation to 100% BEFORE starting any DLC work. Current base game progress: 34,895/169,712 entries (20.6%). Continue from line 55618. DLC1 and DLC2 must remain at 0% until base game reaches 100% with strict validation."
+  "next_action": "MANDATORY: Complete base game translation to 100% BEFORE starting any DLC work. Current base game progress: 34,959/169,712 entries (20.6%). Continue from line 57270. DLC1 and DLC2 must remain at 0% until base game reaches 100% with strict validation."
 }
