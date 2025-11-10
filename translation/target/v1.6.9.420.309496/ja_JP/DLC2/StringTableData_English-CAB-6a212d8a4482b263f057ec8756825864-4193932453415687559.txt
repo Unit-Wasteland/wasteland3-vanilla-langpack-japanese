@@ -32133,7 +32133,7 @@
        [0]
         1 string data = " 何かキーを押してください..."
        [1]
-        1 string data = " Intel gained "Lore""
+        1 string data = " 情報を入手: "知識""
    [143]
     0 StringTable data
      1 string Filename = "e3001_intel_observationrooma_computer"
@@ -32163,13 +32163,13 @@
       1 Array Array (4 items)
        0 int size = 4
        [0]
-        1 string data = " Hack computer"
+        1 string data = " コンピューターをハッキング"
        [1]
-        1 string data = " Passcode for Observation Room A computer."
+        1 string data = " 観察室Aのコンピューターのパスコード"
        [2]
         1 string data = " 何かキーを押してください..."
        [3]
-        1 string data = " You need skillz son."
+        1 string data = " スキルが足りないぜ、坊や"
    [144]
     0 StringTable data
      1 string Filename = "e3001_labeet_01_computer"
@@ -32423,17 +32423,17 @@
       1 Array Array (6 items)
        0 int size = 6
        [0]
-        1 string data = " Insert keycard."
+        1 string data = " キーカードを挿入"
        [1]
-        1 string data = " Need keycard to access device."
+        1 string data = " デバイスにアクセスするにはキーカードが必要"
        [2]
-        1 string data = " Turn up the heat."
+        1 string data = " 熱を上げる"
        [3]
         1 string data = " 立ち去る"
        [4]
-        1 string data = " The temperature weakens any Fader left in the room."
+        1 string data = " 温度が部屋に残った全てのフェーダーを弱らせる"
        [5]
-        1 string data = " The heat is on."
+        1 string data = " 熱が入っている"
    [148]
     0 StringTable data
      1 string Filename = "e3001_labeet_04_computer"
@@ -32547,19 +32547,19 @@
       1 Array Array (7 items)
        0 int size = 7
        [0]
-        1 string data = " Insert key card."
+        1 string data = " キーカードを挿入"
        [1]
-        1 string data = " Reroute device to play sound through some of the adjacent room 2 killing any living thing in them.\n(Player needs very high comper skills for this)"
+        1 string data = " デバイスを経路変更して隣接する部屋2に音を流し、その中の全ての生物を殺す\n(プレイヤーはこれに非常に高いコンピュータースキルが必要)"
        [2]
         1 string data = " 立ち去る"
        [3]
-        1 string data = " Success: The sound plays in the adjacent rooms killing anybody left in them."
+        1 string data = " 成功: 音が隣接する部屋で再生され、残っている全員を殺した"
        [4]
-        1 string data = " Failed: Computer skill not high enough."
+        1 string data = " 失敗: コンピュータースキルが十分ではない"
        [5]
-        1 string data = " Need keycard to access device."
+        1 string data = " デバイスにアクセスするにはキーカードが必要"
        [6]
-        1 string data = " The device is broken."
+        1 string data = " デバイスは壊れている"
    [150]
     0 StringTable data
      1 string Filename = "e3001_librarycomputer01"
@@ -32615,7 +32615,7 @@
        [0]
         1 string data = " 何かキーを押してください..."
        [1]
-        1 string data = " Hack computer."
+        1 string data = " コンピューターをハッキング"
        [2]
         1 string data = " 立ち去る"
        [3]
@@ -32625,7 +32625,7 @@
        [5]
         1 string data = " コンピュータースキルが十分ではありません、悪いけど"
        [6]
-        1 string data = " A hidden room has been revealed."
+        1 string data = " 隠し部屋が明らかになった"
        [7]
         1 string data = " 情報をもう一度見る"
        [8]
@@ -33049,99 +33049,99 @@
       1 Array Array (47 items)
        0 int size = 47
        [0]
-        1 string data = "It stares at you balefully. "Candy?""
+        1 string data = "それは憎々しげにあなたを見つめる。"キャンディ?""
        [1]
-        1 string data = ""What do you want?""
+        1 string data = ""何が欲しいんだ?""
        [2]
-        1 string data = ""I have no candy.""
+        1 string data = ""キャンディは持ってない""
        [3]
-        1 string data = ""I got candy.""
+        1 string data = ""キャンディがあるぞ""
        [4]
-        1 string data = ""NOOOOOOOOO!" The mutant starts sobbing, and stops abruptly.\n\n\n"Candy?""
+        1 string data = ""いやああああああ!" ミュータントは泣き始め、突然止まった。\n\n\n"キャンディ?""
        [5]
-        1 string data = "Walk away."
+        1 string data = "立ち去る"
        [6]
-        1 string data = ""Mmmmm. Give! Give!""
+        1 string data = ""んー。ちょうだい! ちょうだい!""
        [7]
-        1 string data = ""Hey, come with me. I'll give you candy.""
+        1 string data = ""おい、一緒に来い。キャンディをやるから""
        [8]
-        1 string data = ""Yes yes! Candy for Mongo!""
+        1 string data = ""はいはい! モンゴにキャンディ!""
        [9]
-        1 string data = " Reset globals"
+        1 string data = " グローバル変数をリセット"
        [10]
-        1 string data = ""You want a new dolly? Here - take this.""
+        1 string data = ""新しい人形が欲しいか? ほら、これを持っていけ""
        [11]
-        1 string data = "The green-skinned, scaly mutant stares at you, its eyes lambent in the dim room. In one hand it clutches the ruined head of a plastic doll. Pieces of the doll lie scattered around the room.\n\n\n"Dolly. Want dolly!""
+        1 string data = "緑色の肌と鱗のあるミュータントがあなたを見つめている。薄暗い部屋で、その目が鈍く光っている。片手にはプラスチック製の人形の壊れた頭部を掴んでいる。人形のかけらが部屋中に散らばっている。\n\n\n"人形。人形ほしい!""
        [12]
         1 string data = "Script Node 13"
        [13]
-        1 string data = ""Give candy.""
+        1 string data = ""キャンディをちょうだい""
        [14]
-        1 string data = ""Want dolly.""
+        1 string data = ""人形ほしい""
        [15]
-        1 string data = ""Existential dread is a sine qua non of any self-regarding, self-aware entity.""
+        1 string data = ""実存的恐怖は、自己認識と自己意識を持つあらゆる存在の必要不可欠な要素だ""
        [16]
-        1 string data = ""oooh wee!""
+        1 string data = ""わーお!""
        [17]
-        1 string data = ""Sometimes life is scary and dark.""
+        1 string data = ""時々人生は怖くて暗い""
        [18]
-        1 string data = ""I like to dip candy in sauce. I get MAD when I don't get sauce.""
+        1 string data = ""キャンディをソースに浸すのが好き。ソースがないと怒っちゃう""
        [19]
         1 string data = "::SNIIIIIFFF::"
        [20]
-        1 string data = ""M-m-m-muh-MEMORIIIIIIES!""
+        1 string data = ""き、き、き、記、記憶いいいい!""
        [21]
-        1 string data = ""Tasty, slurpy, drippy, droopy...""
+        1 string data = ""おいしい、ちゅるちゅる、したたる、たらたら...""
        [22]
-        1 string data = ""Where's the CANDY?""
+        1 string data = ""キャンディはどこ?""
        [23]
-        1 string data = ""Head like a ho-ho!""
+        1 string data = ""ホーホーみたいな頭!""
        [24]
-        1 string data = ""Sticky candy is the best!""
+        1 string data = ""ねばねばキャンディが最高!""
        [25]
-        1 string data = ""Oh no! I have people syrup on me!""
+        1 string data = ""やばい! 人間シロップがついちゃった!""
        [26]
-        1 string data = ""Smelly belly full of jelly!""
+        1 string data = ""臭いお腹はゼリーでいっぱい!""
        [27]
-        1 string data = ""Occasionally I am concerned that I am treated as a caricature of a maddened, brain-damaged mutant.""
+        1 string data = ""時々、僕が狂って脳にダメージを負ったミュータントの戯画として扱われているんじゃないかと心配になる""
        [28]
-        1 string data = ""Who so stinky? You stinky!""
+        1 string data = ""誰が臭い? お前が臭い!""
        [29]
-        1 string data = ""I have a little song in my head that goes la la la RAAAAAAGH!""
+        1 string data = ""頭の中に小さな歌があって、ララララ ギャああああ! って感じ""
        [30]
-        1 string data = ""Dance in my pants! ... what are pants?""
+        1 string data = ""ズボンの中でダンス! ...ズボンって何?""
        [31]
-        1 string data = ""Groo-groo-groovy gravy!""
+        1 string data = ""グルー、グルー、グルービーなグレイビー!""
        [32]
-        1 string data = ""Garg a blarg blarg?""
+        1 string data = ""ガーグ ア ブラーグ ブラーグ?""
        [33]
-        1 string data = ""Dolly? Give! Give!" It reaches for the doll and hugs it to itself."
+        1 string data = ""人形? ちょうだい! ちょうだい!" それは人形に手を伸ばし、自分に抱きしめた。"
        [34]
-        1 string data = ""Love love love it! I be your friend now!""
+        1 string data = ""大好き大好き大好き! もう友達だよ!""
        [35]
-        1 string data = ""Candy!""
+        1 string data = ""キャンディ!""
        [36]
-        1 string data = ""What kind of candy do you like?""
+        1 string data = ""どんなキャンディが好きなんだ?""
        [37]
         1 string data = """"
        [38]
         1 string data = "Bank 39"
        [39]
-        1 string data = "It pauses. "And dolly!""
+        1 string data = "それは立ち止まる。"それと人形!""
        [40]
-        1 string data = ""Hard candy, soft candy, swallow candy! Squishy candy best. When goop squishes out... yum!"\n\n\n"Not sugar candy. Meat candy!""
+        1 string data = ""硬いキャンディ、柔らかいキャンディ、丸呑みキャンディ! ぐにゃぐにゃキャンディが最高。ドロッとしたのが出てくるとき...うまい!"\n\n\n"砂糖キャンディじゃない。肉キャンディ!""
        [41]
-        1 string data = ""... hungry.""
+        1 string data = ""...お腹すいた""
        [42]
-        1 string data = ""Only for candy! Feed more candy!""
+        1 string data = ""キャンディのためだけ! もっとキャンディちょうだい!""
        [43]
-        1 string data = ""Your name is Mongo?""
+        1 string data = ""お前の名前はモンゴか?""
        [44]
-        1 string data = ""Great. Let's go.""
+        1 string data = ""よし。行こう""
        [45]
-        1 string data = ""Mongo but pawn in game of life." It bows its head sadly. \r\n\r\n"Mongo not name... Candy?""
+        1 string data = ""モンゴは人生というゲームの駒にすぎない" それは悲しそうに頭を下げた。\r\n\r\n"モンゴは名前じゃない...キャンディ?""
        [46]
-        1 string data = ""Yaaaay!""
+        1 string data = ""イェーイ!""
    [155]
     0 StringTable data
      1 string Filename = "e3001_nightterrorcomputer"
@@ -33213,31 +33213,31 @@
        [0]
         1 string data = " 何かキーを押してください..."
        [1]
-        1 string data = " Hack computer?"
+        1 string data = " コンピューターをハッキング?"
        [2]
-        1 string data = " Destroy computer?"
+        1 string data = " コンピューターを破壊?"
        [3]
         1 string data = " 立ち去る"
        [4]
-        1 string data = " Set computer hacked to 1"
+        1 string data = " コンピューターハックを1に設定"
        [5]
-        1 string data = " Player has the skill.\n(computer hacked)"
+        1 string data = " プレイヤーはスキルを持っている\n(コンピューターがハックされた)"
        [6]
-        1 string data = " Player does not have the skill.\n(computer not hacked)"
+        1 string data = " プレイヤーはスキルを持っていない\n(コンピューターがハックされなかった)"
        [7]
-        1 string data = " Computer is destoryed.\n(the sound makes the Nightterror angry)"
+        1 string data = " コンピューターが破壊された\n(音がナイトテラーを怒らせる)"
        [8]
-        1 string data = " Gain intel on the Nightterror?"
+        1 string data = " ナイトテラーに関する情報を入手?"
        [9]
-        1 string data = " Free the Nightterror?"
+        1 string data = " ナイトテラーを解放?"
        [10]
-        1 string data = " Reset globals"
+        1 string data = " グローバル変数をリセット"
        [11]
-        1 string data = " Have door keycard?"
+        1 string data = " ドアのキーカードを持っている?"
        [12]
-        1 string data = " Door opens, player can talk to the Nightterror."
+        1 string data = " ドアが開き、プレイヤーはナイトテラーと話すことができる"
        [13]
-        1 string data = " Set have key to 1"
+        1 string data = " キーを持っているを1に設定"
    [156]
     0 StringTable data
      1 string Filename = "e3001_nuclearresearch"
@@ -33327,43 +33327,43 @@
       1 Array Array (19 items)
        0 int size = 19
        [0]
-        1 string data = "The NRC login screen still blinks at you. "PASSWORD REQUIRED.""
+        1 string data = "NRCのログイン画面がまだあなたに点滅している。"パスワードが必要です""
        [1]
-        1 string data = "The screen on this dusty machine flickers fitfully to life when you click on the keyboard. A green ASCII image forms the crude shape of an eagle surrounded by the words, "UNITED STATES NUCLEAR REGULATORY COMMISSION.""
+        1 string data = "この埃まみれのマシンの画面は、キーボードをクリックすると断続的にちらついて起動する。緑色のASCIIイメージが、"UNITED STATES NUCLEAR REGULATORY COMMISSION"という言葉に囲まれた鷲の粗い形を形成する。"
        [2]
-        1 string data = "Hack the computer."
+        1 string data = "コンピューターをハッキング"
        [3]
-        1 string data = "Examine the area."
+        1 string data = "周囲を調査"
        [4]
         1 string data = """"
        [5]
-        1 string data = "Leave."
+        1 string data = "去る"
        [6]
-        1 string data = "Launch the missiles!"
+        1 string data = "ミサイルを発射!"
        [7]
-        1 string data = "Select nuclear technology."
+        1 string data = "核技術を選択"
        [8]
-        1 string data = "You discover a massive trove of information stored here - on secret fission and fusion projects, on hidden bunkers and test sites, on the efficacy of containing and bottling nuclear explosions - and immediately download it onto a handful of high-capacity 3.5" floppy disks."
+        1 string data = "ここに保存されている膨大な情報を発見した - 秘密の核分裂および核融合プロジェクト、隠されたバンカーや実験場、核爆発の封じ込めと瓶詰の有効性について - そして即座にそれを数枚の大容量3.5"フロッピーディスクにダウンロードした。"
        [9]
-        1 string data = ""LOGIN ACCEPTED. AVAILABLE OPTIONS:\n1. NUCLEAR RESEARCH TECHNOLOGY\n2. LAUNCH MISSILES.""
+        1 string data = ""ログイン受理。利用可能なオプション:\n1. 核研究技術\n2. ミサイル発射""
        [10]
         1 string data = """"
        [11]
-        1 string data = "A list of missile silo sites appears. It looks like all of them have been emptied. Interestingly, it seems that one in Nebraska - wherever that is - malfunctioned and exploded in-ground."
+        1 string data = "ミサイルサイロサイトのリストが表示される。全てが空にされているようだ。興味深いことに、ネブラスカ州 - それがどこであれ - の1つが故障して地中で爆発したようだ。"
        [12]
-        1 string data = "A flashing cursor draws your attention. "PASSWORD REQUIRED.""
+        1 string data = "点滅するカーソルがあなたの注意を引く。"パスワードが必要です""
        [13]
-        1 string data = "It looks like the keyboard has been moved on the dusty desk and placed back down <i>almost</i> in the exact same spot. You lift the keyboard and find a hash of numbers and letters written on a spare piece of paper. A password, perhaps?"
+        1 string data = "埃まみれの机の上でキーボードが動かされ、<i>ほぼ</i>同じ場所に戻されたように見える。キーボードを持ち上げると、予備の紙片に数字と文字のハッシュが書かれているのを見つける。パスワードだろうか?"
        [14]
-        1 string data = "You find nothing more of value."
+        1 string data = "これ以上の価値あるものは何も見つからない"
        [15]
-        1 string data = "You enter the password, and the screen flashes. "PASSWORD ACCEPTED.""
+        1 string data = "パスワードを入力すると、画面が点滅する。"パスワード受理""
        [16]
-        1 string data = "Enter the password from the note under the keyboard."
+        1 string data = "キーボードの下のメモからパスワードを入力"
        [17]
-        1 string data = "You deploy your vast knowledge of old-world computers, and begin to crack the machine. At last you manage to pry the password out of the machine's innards."
+        1 string data = "旧世界のコンピューターに関する膨大な知識を展開し、マシンのクラッキングを開始する。ついにマシンの内部からパスワードを引き出すことに成功した。"
        [18]
-        1 string data = "It's the same information you saw before, and you've already copied it all."
+        1 string data = "以前に見たのと同じ情報で、既に全てコピー済みだ"
    [157]
     0 StringTable data
      1 string Filename = "e3001_observationrooma_computer"
