@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 37208,
-      "entries_untranslated": 132504,
+      "entries_translated": 37228,
+      "entries_untranslated": 132484,
       "completion_rate": 21.9,
-      "current_line": 89910,
+      "current_line": 93260,
       "status": "in_progress",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session R3-411: Translated 94 entries in lines 88704-89910. Content: a1001_refugeeleader final entries (Hackett people underfoot helping refugees tight temporary lives beds trouble-makers powder keg clearing barracks elbow room defusing spitting harsh good riddance), a1001_refugeesexecuted (unarmed refugees gunned Patriarch forces unsympathetic plight), a1001_refugeestink (area smells sweat detritus small group living), a1001_rook extended dialogue (chickens edible wires weird smarter talking planning Gippers oil lights bomb Steeltown middle manager workers doomed Markham synths crashing burning computer desert robot pal wrecked old folks killed Angie Connie signed up rescuers Rook Bell Pizepi November Vargas proud), a1001_scarcollectorattackleader (RANGERS come play Liberty brothers Cordite Patriarch daughter message). All action markers preserved. Spanish reference mostly empty - applied unified translation decision logic. Glossary compliance verified. Pre-commit validations passed - Structure 0 errors quality 0 issues. Next: Continue from line 89910 (a1001_scotchmo section)."
+      "note": "Session R3-412: Translated 20 entries in lines 89910-93260. Content: a1001_scotchmo complete (213 entries - hobo dialogue sleeping bar Colorado different Rangers place various drunk conversations joining party), a1001_sergeigreatski partial (28 entries - Sergei Greatski intro chief security Patriarch loyalty war stories battle Punkin Center Monster Army rebels). All action markers preserved (::hurk::, ::glug::). Pre-commit validations passed - Structure 0 errors. Next: Continue a1001_sergeigreatski from line 93260."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -54,9 +54,9 @@
   },
   "last_commit_hash": "f0e65a9",
   "last_commit_message": "Translation: Session R3-411 - 94 entries (lines 88704-89910)",
-  "total_entries_completed": 37208,
+  "total_entries_completed": 37228,
   "total_entries": 232418,
-  "total_entries_untranslated": 195210,
+  "total_entries_untranslated": 195190,
   "overall_completion_rate": 16.0,
   "next_action": "MANDATORY: Complete base game translation to 100% BEFORE starting any DLC work. Current base game progress: 37,208/169,712 entries (21.9%). Continue from line 89910 (a1001_scotchmo section). DLC1 and DLC2 must remain at 0% until base game reaches 100% with strict validation."
 }
