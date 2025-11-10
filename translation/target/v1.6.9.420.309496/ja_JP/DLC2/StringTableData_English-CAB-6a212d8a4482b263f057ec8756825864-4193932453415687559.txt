@@ -2385,43 +2385,43 @@
        [2]
         1 string data = "Script Node 3"
        [3]
-        1 string data = ""Look alive, people.""
+        1 string data = ""気を引き締めろ。""
        [4]
-        1 string data = ""Head on a swivel.""
+        1 string data = ""周囲を警戒しろ。""
        [5]
-        1 string data = ""Reporting in.""
+        1 string data = ""報告する。""
        [6]
-        1 string data = ""Nothing to report.""
+        1 string data = ""異常なし。""
        [7]
-        1 string data = ""All clear over here.""
+        1 string data = ""こちらは問題なし。""
        [8]
         1 string data = "::humming::"
        [9]
-        1 string data = ""Eyes open - thought I heard something.""
+        1 string data = ""目を開けておけ。何か聞こえた気がする。""
        [10]
-        1 string data = ""Flank 'em!""
+        1 string data = ""側面から攻めろ!""
        [11]
-        1 string data = ""Go! Go! Go!""
+        1 string data = ""行け!行け!行け!""
        [12]
-        1 string data = ""Hostiles sighted - repeat, hostiles sighted!""
+        1 string data = ""敵を視認! 繰り返す、敵を視認!""
        [13]
-        1 string data = ""Reinforcements requested!""
+        1 string data = ""増援を要請する!""
        [14]
-        1 string data = ""Someone call this in!""
+        1 string data = ""誰か報告しろ!""
        [15]
-        1 string data = ""Suppressing fire, now!""
+        1 string data = ""制圧射撃、今すぐだ!""
        [16]
-        1 string data = ""Mop 'em up, people!""
+        1 string data = ""一掃しろ!""
        [17]
         1 string data = """"
        [18]
-        1 string data = ""Medic!""
+        1 string data = ""衛生兵!""
        [19]
-        1 string data = ""Falling back!""
+        1 string data = ""撤退する!""
        [20]
-        1 string data = ""I'm hit!""
+        1 string data = ""撃たれた!""
        [21]
-        1 string data = ""Need some backup over here!""
+        1 string data = ""ここで援護が必要だ!""
    [25]
     0 StringTable data
      1 string Filename = "e0001_robots_barks"
@@ -2501,23 +2501,23 @@
        [4]
         1 string data = "::boop::"
        [5]
-        1 string data = ""Task initiated.""
+        1 string data = ""タスクを開始。""
        [6]
-        1 string data = ""Task ongoing.""
+        1 string data = ""タスク進行中。""
        [7]
-        1 string data = ""INTRUDER ALERT.""
+        1 string data = ""侵入者警報。""
        [8]
-        1 string data = ""DANGER. DANGER.""
+        1 string data = ""危険。危険。""
        [9]
-        1 string data = ""INTRUDERS DETECTED.""
+        1 string data = ""侵入者検出。""
        [10]
-        1 string data = ""ALERT. ALERT. ALERT.""
+        1 string data = ""警報。警報。警報。""
        [11]
-        1 string data = ""Task complete.""
+        1 string data = ""タスク完了。""
        [12]
-        1 string data = ""Processing error. Restarting loop.""
+        1 string data = ""処理エラー。ループを再起動。""
        [13]
-        1 string data = ""Bzzt. Commencing.""
+        1 string data = ""ビービー。開始。""
    [26]
     0 StringTable data
      1 string Filename = "e0001_vrheadset"
@@ -2623,29 +2623,29 @@
       1 Array Array (23 items)
        0 int size = 23
        [0]
-        1 string data = ""Warming up... Welcome to Cheyenne Mountain! Check in at the security post to receive your guest pass.""
+        1 string data = ""起動中...シャイアン・マウンテンへようこそ! セキュリティポストでチェックインして、来賓パスを受け取ってください。""
        [1]
-        1 string data = ""Welcome to Cheyenne Mountain, General Hendrix. Make sure your badge is displayed at all times.""
+        1 string data = ""ヘンドリクス将軍、シャイアン・マウンテンへようこそ。バッジは常に見えるように着用してください。""
        [2]
-        1 string data = ""This hiking trail leads to a scenic vista. Perfect for recreation.""
+        1 string data = ""このハイキングコースは景色の良い展望台に続いています。レクリエーションに最適です。""
        [3]
-        1 string data = ""We've activated the helipad landing code, general.""
+        1 string data = ""ヘリポート着陸コードを有効にしました、将軍。""
        [4]
-        1 string data = ""This durable door can withstand assaults from ordinary guns - it's vulnerable only to direct missile hits or energy weapons.""
+        1 string data = ""この頑丈なドアは通常の銃撃に耐えることができます。ミサイルの直撃やエネルギー兵器にのみ脆弱です。""
        [5]
-        1 string data = ""The metal detector is a facet of our rigorous security. Display your visitor badge prominently as you pass through.""
+        1 string data = ""金属探知機は厳格なセキュリティの一環です。通過する際は来賓バッジを目立つように表示してください。""
        [6]
-        1 string data = ""Welcome to level 5. Come this way to the Sim Chamber.""
+        1 string data = ""レベル5へようこそ。こちらへ、シミュレーションチャンバーへご案内します。""
        [7]
-        1 string data = ""This state-of-the-art training simulator is the perfect complement to the skill downloader - it keeps soldiers sharp!""
+        1 string data = ""この最先端の訓練シミュレーターはスキルダウンローダーの完璧な補完です。兵士の能力を維持します!""
        [8]
-        1 string data = ""We can take a break from the tour here if you'd like some refreshments.""
+        1 string data = ""ツアーの途中で休憩を取りたい場合は、ここで軽食を召し上がれます。""
        [9]
-        1 string data = ""If the base came under attack, you could seal off this area and open it again later. We'll continue through here.""
+        1 string data = ""基地が攻撃を受けた場合、このエリアを封鎖して後で開けることができます。こちらから進みます。""
        [10]
-        1 string data = ""The waste recycling system and the reservoir are built into the bedrock of the mountain. Hardly anything is completely lost.""
+        1 string data = ""廃棄物リサイクルシステムと貯水池は山の岩盤に組み込まれています。ほとんど何も完全には失われません。""
        [11]
-        1 string data = ""Because you have command access, general, we can enter the elevator banks. Follow me, please.""
+        1 string data = ""将軍は指揮アクセス権をお持ちですので、エレベーターバンクに入ることができます。どうぞこちらへ。""
        [12]
         1 string data = "Script Node 13"
        [13]
@@ -2747,35 +2747,35 @@
        [0]
         1 string data = ""
        [1]
-        1 string data = ""I want some candy. Do you have any candy?""
+        1 string data = ""キャンディが欲しい。キャンディある?""
        [2]
-        1 string data = ""La la la la la!""
+        1 string data = ""ラララララー!""
        [3]
-        1 string data = ""Friends are fun!""
+        1 string data = ""友達って楽しい!""
        [4]
-        1 string data = ""I love Rangers!""
+        1 string data = ""レンジャーが大好き!""
        [5]
-        1 string data = ""My daddy used to poke me with sticks...""
+        1 string data = ""パパは棒で僕を突いてた...""
        [6]
-        1 string data = ""Candy is yummy.""
+        1 string data = ""キャンディはおいしいね。""
        [7]
-        1 string data = ""Wheeeee! I like adventures!""
+        1 string data = ""わーい! 冒険好き!""
        [8]
-        1 string data = ""I have a peanut allergy!""
+        1 string data = ""ピーナッツアレルギーなんだ!""
        [9]
-        1 string data = ""Candy is best!""
+        1 string data = ""キャンディ最高!""
        [10]
-        1 string data = ""Candy candy candy!""
+        1 string data = ""キャンディキャンディキャンディ!""
        [11]
-        1 string data = ""Yaaaay! Candy!""
+        1 string data = ""やったー! キャンディ!""
        [12]
-        1 string data = ""Caaaaaaaaandy!""
+        1 string data = ""キャーンディー!""
        [13]
-        1 string data = ""Best friends! Have candy?""
+        1 string data = ""親友! キャンディある?""
        [14]
-        1 string data = ""Friends?""
+        1 string data = ""友達?""
        [15]
-        1 string data = ""Candy?""
+        1 string data = ""キャンディ?""
    [28]
     0 StringTable data
      1 string Filename = "base_alarm_combatbarks"
@@ -2845,21 +2845,21 @@
        [3]
         1 string data = ""
        [4]
-        1 string data = ""Scanning.""
+        1 string data = ""スキャン中。""
        [5]
-        1 string data = ""Scanning for intruders.""
+        1 string data = ""侵入者をスキャン中。""
        [6]
-        1 string data = ""Intruders detected.""
+        1 string data = ""侵入者を検出。""
        [7]
-        1 string data = ""Alert. Intruders present.""
+        1 string data = ""警報。侵入者が存在。""
        [8]
-        1 string data = ""Summoning mobile turret.""
+        1 string data = ""移動式タレットを召喚。""
        [9]
-        1 string data = ""Mobile turret deployed.""
+        1 string data = ""移動式タレット配備完了。""
        [10]
-        1 string data = ""Summoning recon unit.""
+        1 string data = ""偵察ユニットを召喚。""
        [11]
-        1 string data = ""Recon unit deployed.""
+        1 string data = ""偵察ユニット配備完了。""
    [29]
     0 StringTable data
      1 string Filename = "iridium_combatbarks"
@@ -3435,283 +3435,283 @@
        [0]
         1 string data = ""
        [1]
-        1 string data = ""Eternity, I...""
+        1 string data = ""永遠、我...""
        [2]
-        1 string data = ""AAAIIIIIEE!" "
+        1 string data = ""ああああああ!" "
        [3]
-        1 string data = ""Epiphany! NOOO!!!" "
+        1 string data = ""天啓! いやああ!" "
        [4]
-        1 string data = ""I... can... end?""
+        1 string data = ""我...終われる...のか?""
        [5]
         1 string data = ""
        [6]
-        1 string data = ""Hereticals!""
+        1 string data = ""異端者どもめ!""
        [7]
-        1 string data = ""Woe and lamenting!""
+        1 string data = ""嘆きと哀悼を!""
        [8]
-        1 string data = ""Vengeance pre-empt thee!""
+        1 string data = ""復讐が汝らを先取りせん!""
        [9]
         1 string data = ""
        [10]
-        1 string data = ""Smite!""
+        1 string data = ""打ち砕け!""
        [11]
-        1 string data = ""Beware the lathe of Wrath!""
+        1 string data = ""憤怒の旋盤に注意せよ!""
        [12]
-        1 string data = ""Conflagrations upon thee!""
+        1 string data = ""汝らに大火を!""
        [13]
         1 string data = ""
        [14]
-        1 string data = ""Thunderclap!""
+        1 string data = ""雷鳴!""
        [15]
-        1 string data = ""Asunder!""
+        1 string data = ""粉砕!""
        [16]
-        1 string data = ""Fear my liturgy!""
+        1 string data = ""我が典礼を恐れよ!""
        [17]
         1 string data = ""
        [18]
-        1 string data = ""Occluded and obscure!""
+        1 string data = ""隠蔽され不明瞭なり!""
        [19]
-        1 string data = ""Vanished!""
+        1 string data = ""消失せよ!""
        [20]
         1 string data = ""
        [21]
-        1 string data = ""Promenade!""
+        1 string data = ""行進せよ!""
        [22]
-        1 string data = ""Avaunt!""
+        1 string data = ""去れ!""
        [23]
         1 string data = ""
        [24]
-        1 string data = ""Timorous!""
+        1 string data = ""臆病者!""
        [25]
-        1 string data = ""Surreptitious!""
+        1 string data = ""隠密なり!""
        [26]
         1 string data = ""
        [27]
-        1 string data = ""Circumlocution!""
+        1 string data = ""回りくどき言い回し!""
        [28]
-        1 string data = ""Sidle to victory!""
+        1 string data = ""勝利へと横歩きせよ!""
        [29]
         1 string data = ""
        [30]
-        1 string data = ""Ascendant!!""
+        1 string data = ""優勢!""
        [31]
-        1 string data = ""From on high!""
+        1 string data = ""高みより!""
        [32]
         1 string data = ""
        [33]
-        1 string data = ""Patient lie the predacious!""
+        1 string data = ""辛抱強き捕食者!""
        [34]
-        1 string data = ""Penitence awaiteth!""
+        1 string data = ""懺悔が待ち受けん!""
        [35]
         1 string data = ""
        [36]
-        1 string data = ""Sufferage!""
+        1 string data = ""苦難!""
        [37]
-        1 string data = ""Reckoning!""
+        1 string data = ""清算!""
        [38]
         1 string data = ""
        [39]
-        1 string data = ""Rise and raze!""
+        1 string data = ""立ち上がり破壊せよ!""
        [40]
-        1 string data = ""Victory voracious!""
+        1 string data = ""貪欲なる勝利!""
        [41]
-        1 string data = ""Indefatigable!""
+        1 string data = ""不屈!""
        [42]
-        1 string data = ""Decimation tenfold!""
+        1 string data = ""十倍の殲滅!""
        [43]
         1 string data = ""
        [44]
-        1 string data = ""Eschew despair, oh my brazen!""
+        1 string data = ""絶望を避けよ、我が大胆なる者よ!""
        [45]
-        1 string data = ""The chosen shall prevaricate!""
+        1 string data = ""選ばれし者は言を左右せん!""
        [46]
         1 string data = ""
        [47]
-        1 string data = ""Strike while the megrims are nigh!""
+        1 string data = ""憂鬱が近き時に打て!""
        [48]
-        1 string data = ""Merciless temerity!""
+        1 string data = ""無慈悲なる大胆!""
        [49]
         1 string data = ""
        [50]
-        1 string data = ""Vile palanquin!""
+        1 string data = ""卑しき輿!""
        [51]
-        1 string data = ""Bileous conveyance!""
+        1 string data = ""胆汁質なる運搬具!""
        [52]
         1 string data = ""
        [53]
-        1 string data = ""Rend!""
+        1 string data = ""引き裂け!""
        [54]
-        1 string data = ""Dismantle!""
+        1 string data = ""解体!""
        [55]
         1 string data = ""
        [56]
-        1 string data = ""Obliterate!""
+        1 string data = ""全滅!""
        [57]
-        1 string data = ""A reckoning!""
+        1 string data = ""清算の時!""
        [58]
-        1 string data = ""Demolition!""
+        1 string data = ""破壊!""
        [59]
         1 string data = ""
        [60]
-        1 string data = ""Espied!""
+        1 string data = ""発見せり!""
        [61]
-        1 string data = ""The occulus of the angelus!""
+        1 string data = ""天使の眼!""
        [62]
-        1 string data = ""Discovered!""
+        1 string data = ""見つけたり!""
        [63]
         1 string data = ""
        [64]
-        1 string data = ""Obliteration!""
+        1 string data = ""抹殺!""
        [65]
-        1 string data = ""Ruin!""
+        1 string data = ""破滅!""
        [66]
-        1 string data = ""Conflagration!""
+        1 string data = ""大火!""
        [67]
         1 string data = ""
        [68]
-        1 string data = ""Lamentation!""
+        1 string data = ""哀悼!""
        [69]
-        1 string data = ""Agony!""
+        1 string data = ""苦悶!""
        [70]
         1 string data = ""
        [71]
-        1 string data = ""Wrath!""
+        1 string data = ""憤怒!""
        [72]
-        1 string data = ""Devastation!""
+        1 string data = ""荒廃!""
        [73]
-        1 string data = ""Despair, acanthus!""
+        1 string data = ""絶望せよ、アカンサスよ!""
        [74]
         1 string data = ""
        [75]
-        1 string data = ""Shield of misanthropy!""
+        1 string data = ""人間嫌悪の盾!""
        [76]
-        1 string data = ""Enshrouded!""
+        1 string data = ""覆い隠されたり!""
        [77]
-        1 string data = ""Carapace!""
+        1 string data = ""甲殻!""
        [78]
         1 string data = ""
        [79]
-        1 string data = ""I sing of the fire of the dawn of incipience!""
+        1 string data = ""我は始源の黎明の炎を歌わん!""
        [80]
-        1 string data = ""Hear my voice and ablate thyselves!""
+        1 string data = ""我が声を聞き汝ら自身を焼き尽くせ!""
        [81]
-        1 string data = ""Heavenly enunciations upon you!""
+        1 string data = ""天上の宣言が汝らに!""
        [82]
         1 string data = ""
        [83]
-        1 string data = ""NNNNNGHAH!""
+        1 string data = ""ぐわあああ!""
        [84]
-        1 string data = ""AHHHHHAH!""
+        1 string data = ""ああああ!""
        [85]
-        1 string data = ""EEEEAAAAH!""
+        1 string data = ""いいいいああ!""
        [86]
         1 string data = ""
        [87]
-        1 string data = ""Retaliations!""
+        1 string data = ""報復!""
        [88]
-        1 string data = ""Anguish and reprisal!""
+        1 string data = ""苦悶と仕返し!""
        [89]
-        1 string data = ""Vindication of fire!""
+        1 string data = ""炎の正当化!""
        [90]
         1 string data = ""
        [91]
-        1 string data = ""Con...fusion...""
+        1 string data = ""混...乱...""
        [92]
-        1 string data = ""Pain...""
+        1 string data = ""苦痛...""
        [93]
-        1 string data = ""Riven...""
+        1 string data = ""引き裂かれ...""
        [94]
-        1 string data = ""Dis...integrating...""
+        1 string data = ""崩...壊...""
        [95]
         1 string data = ""
        [96]
-        1 string data = ""AAGH!!" "
+        1 string data = ""ああっ!!" "
        [97]
-        1 string data = ""NNGH!!" "
+        1 string data = ""んぐっ!!" "
        [98]
-        1 string data = ""UUNNHH!!" "
+        1 string data = ""うぐっ!!" "
        [99]
-        1 string data = ""AAGH!""
+        1 string data = ""ああっ!""
        [100]
         1 string data = ""
        [101]
-        1 string data = ""Exposition!""
+        1 string data = ""解説!""
        [102]
-        1 string data = ""Revelation!""
+        1 string data = ""啓示!""
        [103]
         1 string data = ""
        [104]
-        1 string data = ""Providence!""
+        1 string data = ""摂理!""
        [105]
-        1 string data = ""Hallelujah!""
+        1 string data = ""ハレルヤ!""
        [106]
-        1 string data = ""Praise the wellspring!""
+        1 string data = ""源泉を称えよ!""
        [107]
-        1 string data = ""Restoration!""
+        1 string data = ""回復!""
        [108]
         1 string data = ""
        [109]
-        1 string data = ""The shattering!""
+        1 string data = ""粉砕!""
        [110]
-        1 string data = ""Schism!""
+        1 string data = ""分裂!""
        [111]
         1 string data = ""
        [112]
-        1 string data = ""Ex...sanguination...""
+        1 string data = ""放...血...""
        [113]
-        1 string data = ""Carmine... and crimson...""
+        1 string data = ""深紅...と緋色...""
        [114]
-        1 string data = ""Red life... escapes me...""
+        1 string data = ""赤き生命...逃げゆく...""
        [115]
         1 string data = ""
        [116]
-        1 string data = ""The curse of... Socrates...""
+        1 string data = ""ソクラテスの...呪い...""
        [117]
-        1 string data = ""Bilious upwellings...""
+        1 string data = ""胆汁質の湧出...""
        [118]
         1 string data = ""
        [119]
-        1 string data = ""Impinged...""
+        1 string data = ""侵害され...""
        [120]
-        1 string data = ""Bound and... fettered...""
+        1 string data = ""縛られ...束縛され...""
        [121]
         1 string data = ""
        [122]
-        1 string data = ""Horripilations...""
+        1 string data = ""鳥肌...""
        [123]
-        1 string data = ""Discon...certed...""
+        1 string data = ""動...揺...""
        [124]
         1 string data = ""
        [125]
-        1 string data = ""AaaAaAAaAaAAHAHAhAhAh!!!" "
+        1 string data = ""あああああああああ!!!" "
        [126]
-        1 string data = ""Sh-sh-sh-sh-i-i-!!!" "
+        1 string data = ""し-し-し-し-い-い-!!!" "
        [127]
         1 string data = ""
        [128]
-        1 string data = ""AAAAAGHH!!" "
+        1 string data = ""ああああああ!!" "
        [129]
-        1 string data = ""Incineration!" "
+        1 string data = ""焼却!" "
        [130]
         1 string data = ""
        [131]
-        1 string data = ""T-T-T-Tartarus..." "
+        1 string data = ""タ-タ-タ-タルタロス..." "
        [132]
-        1 string data = ""G-G-G-Gelidia..." "
+        1 string data = ""ゲ-ゲ-ゲ-ゲリディア..." "
        [133]
         1 string data = ""
        [134]
-        1 string data = ""Adumbral...""
+        1 string data = ""暗影...""
        [135]
-        1 string data = ""Obsidian...""
+        1 string data = ""黒曜石...""
        [136]
         1 string data = ""
        [137]
-        1 string data = ""Rescind!""
+        1 string data = ""取り消せ!""
        [138]
-        1 string data = ""Abjure!""
+        1 string data = ""放棄せよ!""
        [139]
-        1 string data = ""Rebuke!""
+        1 string data = ""拒絶せよ!""
    [30]
     0 StringTable data
      1 string Filename = "night_terror_combatbarks"
@@ -3777,7 +3777,7 @@
       1 Array Array (13 items)
        0 int size = 13
        [0]
-        1 string data = ""I want some candy!""
+        1 string data = ""キャンディが欲しい!""
        [1]
         1 string data = ""
        [2]
@@ -3785,23 +3785,23 @@
        [3]
         1 string data = ""
        [4]
-        1 string data = ""Meanies!""
+        1 string data = ""意地悪!""
        [5]
-        1 string data = ""Sleepy now. Gooooood night.""
+        1 string data = ""眠くなった。おやすみなさーい。""
        [6]
-        1 string data = ""La, la, la, la, la!""
+        1 string data = ""ラ、ラ、ラ、ラ、ラ!""
        [7]
-        1 string data = ""I'm helping! I'm helping!""
+        1 string data = ""手伝ってる! 手伝ってる!""
        [8]
-        1 string data = ""Friends?""
+        1 string data = ""友達?""
        [9]
-        1 string data = ""Awww.""
+        1 string data = ""あーあ。""
        [10]
-        1 string data = ""Ewwww!""
+        1 string data = ""えー!""
        [11]
-        1 string data = ""Wheeeee!""
+        1 string data = ""わーい!""
        [12]
-        1 string data = ""Caaaaaaaaandy!""
+        1 string data = ""キャーンディー!""
    [31]
     0 StringTable data
      1 string Filename = "nucleist_evangelist_combatbarks"
