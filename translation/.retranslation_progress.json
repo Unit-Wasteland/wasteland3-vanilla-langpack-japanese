@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 36029,
-      "entries_untranslated": 133683,
-      "completion_rate": 21.2,
-      "current_line": 75294,
+      "entries_translated": 36144,
+      "entries_untranslated": 133568,
+      "completion_rate": 21.3,
+      "current_line": 78518,
       "status": "in_progress",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session R3-399: Translated 153 entries in lines 73800-75294. Content: a1001_megansilver completed (Megan Silver doctor full dialogue - hiring greeting, Dr. Parker patient operation anxiety, Theodore project grief, Irv assessment unnerving, patient advice stop Doc obsession, tragic outcomes patient/doctor deaths, post-trauma physician role assumption, academy ruins scientific learning, schematic interest collaboration). a1001_morningstar partial (Morningstar AI vehicle dialogues - Reagan quotes human horizons, party unity requirements, garage assignment pride, refugee generosity Reagan approval, armory security defenses, Warden civic pride admiration, Colorado Springs road blockage, betrayal maintenance sabotage scenario, Hackett refugees underfoot tensions, barracks floor sleeping complaints, Aspen comrades rescue outcomes, Riley feet nailed medical procedure variance, Pizepi presence/absence reactions, innocent bystanders hero priority Aspen failures, Reed daughters survival Gwendolyn reactions, refugee Colorado entry Marshal questions, Bizarre unfortunates save/deaths duty reflections, Bizarre faction control Rangers/Monster Army outcomes, Odinkirk massacre horror circus clown shame, Broadmoor black site Patriarch enemies discovery, synth trust warnings destroy/release diplomatic outcomes, Airport machines trust arm-length no-soul entities, car-tank bitchin talks questions armored car regret, Airport Commune/Gippers takedown oil refining concerns, Everest hotel psycho/suicide/regular states, ambush commander authority insult revenge congratulations, Reed kid Marshals/cell/release/Lucia killing/cold justice, Brygo crime lord Marshals/jail/execute/free justice outcomes, club investigation vice depravity alliance closure, Mrs. Wong Little Vegas music Gonzalez complaints ravers beating/peaceful evacuation/HQ party puke, cyborg chickens edible weird smarter talking planning freaked, power Gippers oil lights bomb sources, Steeltown middle manager/workers/Markham synths/crash outcomes Colorado factory doom). Spanish reference mostly empty - unified translation logic applied default to translate. Pre-commit validations passed - Structure 0 errors 0 warnings, action markers protected sob kept English, 0 quality issues range 74110-75294. Next: Continue from line 75294 (a1001_morningstar remainder)."
+      "note": "Session R3-400: Translated 115 entries in lines 75294-78518. Content: a1001_morningstar completed (vehicle autonomous dialogue conclusion - driving accompaniment, core tech adaptive biomes Americas control targeting munitions description, autonomous clarification radio listening disappointment). a1001_mrdebug partial (developer debug menu - headquarters exit confirmation, Cartel assignment, payback quest debugging, Delgado family resolution both died/daughter survived/both survived torture death fate, firefight/freed outcomes, Top Doc quest debugging SutureKit antibiotics neuroscience book Parker recruitment options, Old World Power quest AFA visited underground temple enemies mushrooms Curie detonation safety energy independence specs modifications ward destroy/harness options, miscellaneous base options, Parker patient quest surgical equipment CT scanner Megan Silver recruitment surgery cancel/allow status completion arrest/release/death resolutions, neighbor quest Rosie radio Irv journal clones confrontation Rangers/Daisy invitation outcomes). Spanish reference empty for debug section - unified translation logic applied default to translate. Pre-commit validations passed - Structure 0 errors 0 warnings, action markers protected, 0 quality issues range 75294-78518. Next: Continue from line 78518 (a1001_mrdebug remainder 523 entries remain)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -52,11 +52,11 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "ff27fc6",
-  "last_commit_message": "Translation: Session R3-399 - 153 entries (lines 73800-75294)",
-  "total_entries_completed": 36029,
+  "last_commit_hash": "pending",
+  "last_commit_message": "Translation: Session R3-400 - 115 entries (lines 75294-78518)",
+  "total_entries_completed": 36144,
   "total_entries": 232418,
-  "total_entries_untranslated": 196389,
+  "total_entries_untranslated": 196274,
   "overall_completion_rate": 15.5,
-  "next_action": "MANDATORY: Complete base game translation to 100% BEFORE starting any DLC work. Current base game progress: 36,029/169,712 entries (21.2%). Continue from line 75294 (a1001_morningstar remainder). DLC1 and DLC2 must remain at 0% until base game reaches 100% with strict validation."
+  "next_action": "MANDATORY: Complete base game translation to 100% BEFORE starting any DLC work. Current base game progress: 36,144/169,712 entries (21.3%). Continue from line 78518 (a1001_mrdebug remainder - 523 debug menu entries remain). DLC1 and DLC2 must remain at 0% until base game reaches 100% with strict validation."
 }
