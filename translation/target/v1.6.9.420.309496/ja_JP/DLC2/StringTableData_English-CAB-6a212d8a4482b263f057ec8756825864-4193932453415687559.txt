@@ -20043,17 +20043,17 @@
       1 Array Array (7 items)
        0 int size = 7
        [0]
-        1 string data = "Door sealed. Control terminal active.\n"
+        1 string data = "扉は封鎖されています。制御端末が作動中です。\n"
        [1]
-        1 string data = "Enter access code: 'ADM1N1337.'"
+        1 string data = "アクセスコードを入力してください: 'ADM1N1337.'"
        [2]
-        1 string data = "Door opening."
+        1 string data = "扉を開放します。"
        [3]
-        1 string data = "Use keypad to enter random numbers and letters."
+        1 string data = "キーパッドを使用してランダムな数字と文字を入力してください。"
        [4]
-        1 string data = "Passcode not recognized. Have a nice day."
+        1 string data = "パスコードが認識されませんでした。良い一日を。"
        [5]
-        1 string data = "Step away from the terminal."
+        1 string data = "端末から離れてください。"
        [6]
         1 string data = "::beep::"
    [80]
@@ -20227,25 +20227,25 @@
       1 Array Array (11 items)
        0 int size = 11
        [0]
-        1 string data = "Door sealed. Control terminal active.\n\n\nWARNING: Radiation detected in Cooling Pool Room! Proceed with caution.\n"
+        1 string data = "扉は封鎖されています。制御端末が作動中です。\n\n\n警告: 冷却プール室で放射能を検出!注意して進んでください。\n"
        [1]
-        1 string data = "Open door."
+        1 string data = "扉を開ける。"
        [2]
-        1 string data = "Examine the door."
+        1 string data = "扉を調べる。"
        [3]
-        1 string data = "Step away from the terminal."
+        1 string data = "端末から離れる。"
        [4]
-        1 string data = "The door is closed but not locked. You can still hear splashing and moaning from the other side."
+        1 string data = "扉は閉まっているが施錠されていない。向こう側から水しぶきとうめき声がまだ聞こえる。"
        [5]
-        1 string data = "Door opening."
+        1 string data = "扉を開放します。"
        [6]
         1 string data = ""
        [7]
         1 string data = ""
        [8]
-        1 string data = "Behind a heavy door you can hear faint sounds of moaning and water splashing. You should gather your squad before investigating."
+        1 string data = "重い扉の向こうから、かすかなうめき声と水しぶきの音が聞こえる。調査する前に部隊を集めるべきだ。"
        [9]
-        1 string data = " The door is open."
+        1 string data = " 扉は開いている。"
        [10]
         1 string data = "::beep::"
    [83]
@@ -20387,65 +20387,65 @@
        [0]
         1 string data = ""
        [1]
-        1 string data = "Elevator sealed. Control terminal active: \r\n1 - Use keypad\r\n2 - Use intercom"
+        1 string data = "エレベーターが封鎖されています。制御端末が作動中: \r\n1 - キーパッドを使用\r\n2 - インターコムを使用"
        [2]
         1 string data = "::static::"
        [3]
-        1 string data = ""We've got Iridium with us, Deuterium. Open the elevator.""
+        1 string data = ""イリジウムを連れている、デューテリウム。エレベーターを開けろ。""
        [4]
-        1 string data = ""Abbot Deuterium. Open the elevator!""
+        1 string data = ""修道院長デューテリウム。エレベーターを開けろ!""
        [5]
-        1 string data = "Step away from the terminal."
+        1 string data = "端末から離れる。"
        [6]
-        1 string data = ""Very well, strangers. I am unsealing the elevator. Bring Iridium to me. You shall be rewarded.""
+        1 string data = ""よかろう、見知らぬ者たちよ。エレベーターの封印を解く。イリジウムを私の元に連れて来い。褒美をやろう。""
        [7]
-        1 string data = ""Silence, heathen! This elevator will stay shut until the angel Iridium comes to it!""
+        1 string data = ""黙れ、異教徒め!このエレベーターは天使イリジウムが来るまで閉じたままだ!""
        [8]
-        1 string data = "This imposing door has been locked from the other side. You should gather the rest of your squad before proceeding."
+        1 string data = "この威圧的な扉は向こう側から施錠されている。先に進む前に残りの部隊を集めるべきだ。"
        [9]
-        1 string data = ""I told you, unbelievers! Until Iridium is returned to us, we will not open this door!""
+        1 string data = ""言ったはずだ、不信心者め!イリジウムが我々の元に戻るまで、この扉は開けぬ!""
        [10]
         1 string data = "::static::"
        [11]
-        1 string data = ""Come to me, Iridium! Come to me!""
+        1 string data = ""私のもとへ来い、イリジウム!私のもとへ!""
        [12]
-        1 string data = "1 - Use Keypad"
+        1 string data = "1 - キーパッドを使用"
        [13]
-        1 string data = "2 - Use intercom"
+        1 string data = "2 - インターコムを使用"
        [14]
-        1 string data = ""This is Deuterium. What do you want?""
+        1 string data = ""デューテリウムだ。何の用だ?""
        [15]
-        1 string data = ""What now?""
+        1 string data = ""今度は何だ?""
        [16]
-        1 string data = "Keypad input disabled."
+        1 string data = "キーパッド入力は無効化されています。"
        [17]
-        1 string data = ""Let me hear her.""
+        1 string data = ""彼女の声を聞かせろ。""
        [18]
-        1 string data = ""The humiliations of the apothecaries shall be met with devastation and filigree!""
+        1 string data = ""薬剤師どもの屈辱は破壊と繊細な装飾で報いられるだろう!""
        [19]
-        1 string data = ""Ah, Iridium, it's you! My prayers have been answered - and by unbelievers, no less. Courage my love, we shall be together soon.""
+        1 string data = ""ああ、イリジウム、あなたなのか!私の祈りは応えられた - しかも不信心者によってだ。勇気を出せ、愛しい人よ、もうすぐ一緒になれる。""
        [20]
-        1 string data = ""Who's that? The outsiders? Where is Iridium? What have you done with her?""
+        1 string data = ""誰だ、そいつらは?外部の者か?イリジウムはどこだ?彼女に何をした?""
        [21]
-        1 string data = ""She's hiding in the cooling pool chamber. We haven't touched her.""
+        1 string data = ""彼女は冷却プール室に隠れている。我々は彼女に手を出していない。""
        [22]
-        1 string data = ""What's the matter? Do you miss her?""
+        1 string data = ""どうした?彼女が恋しいか?""
        [23]
-        1 string data = ""And you will not, or I will destroy you!""
+        1 string data = ""そして触れることもないだろう、さもなくば貴様らを滅ぼす!""
        [24]
-        1 string data = ""Do not mock me! I will destroy you!""
+        1 string data = ""私を嘲るな!貴様らを滅ぼしてやる!""
        [25]
-        1 string data = ""What would you do to get her back? Would you share your code to the Holy Detonation chamber?""
+        1 string data = ""彼女を取り戻すために何をする?聖なる起爆室のコードを教えるか?""
        [26]
-        1 string data = ""Let us come down there and you can give it a try. If we win, you give us your code to the Holy Detonation chamber, okay?""
+        1 string data = ""そこへ行かせろ、そうすれば試してみることができる。我々が勝ったら、聖なる起爆室のコードをよこせ、いいな?""
        [27]
-        1 string data = ""What? Did the Proteus put you up to this? Well, I'll say not another word until I hear Iridium's voice, understand me? Not another word!""
+        1 string data = ""何だと?プロテウスがこんなことをさせたのか?まあいい、イリジウムの声を聞くまでもう一言も言わん、わかったか?一言もだ!""
        [28]
-        1 string data = ""What? Did the Proteus put you up to this? Well, this elevator remains closed until I hear Iridium's voice, understand me? I will not speak again until she does.""
+        1 string data = ""何だと?プロテウスがこんなことをさせたのか?まあいい、このエレベーターはイリジウムの声を聞くまで閉じたままだ、わかったか?彼女が話すまで私はもう話さん。""
        [29]
-        1 string data = ""Can't we sort this out now?""
+        1 string data = ""今ここで解決できないか?""
        [30]
-        1 string data = ""Fine. We'll be back.""
+        1 string data = ""わかった。戻ってくる。""
    [84]
     0 StringTable data
      1 string Filename = "e2001_goiter"
@@ -20831,27 +20831,27 @@
       1 Array Array (93 items)
        0 int size = 93
        [0]
-        1 string data = ""Hey there, Rangers! Welcome! Folks 'round here call me Goiter. If you're lookin' for salvaged tech, you've come to the right place!""
+        1 string data = ""やあ、レンジャー!ようこそ!ここらの連中は俺をゴイターって呼んでる。回収した技術品を探してるなら、正しい場所に来たぜ!""
        [1]
-        1 string data = ""Hey, again! How's it going?""
+        1 string data = ""よう、また会ったな!調子はどうだ?""
        [2]
         1 string data = ""
        [3]
-        1 string data = ""Good news! We found some carbon fiber for you.""
+        1 string data = ""いい知らせだ!カーボンファイバーを見つけたぞ。""
        [4]
-        1 string data = ""Where do you get your tech from?""
+        1 string data = ""技術品はどこで手に入れてるんだ?""
        [5]
-        1 string data = ""Let's see what you've got for sale.""
+        1 string data = ""何を売ってるか見せてくれ。""
        [6]
-        1 string data = ""Goodbye.""
+        1 string data = ""さらば。""
        [7]
-        1 string data = ""Go with the Glow, Rangers!""
+        1 string data = ""輝きと共にあれ、レンジャー!""
        [8]
-        1 string data = ""Get it while it's hot!""
+        1 string data = ""熱いうちに手に入れろ!""
        [9]
-        1 string data = ""Holy Detonation! Let's have a look at it!""
+        1 string data = ""聖なる起爆だ!見せてくれ!""
        [10]
-        1 string data = ""That's the stuff! Yes, indeed. I sure do appreciate it. Now I can get to work turnin' that centrifuge into a salad spinner!""
+        1 string data = ""それだよ!確かに、本当に感謝してる。これで遠心分離機をサラダスピナーに改造する作業に取り掛かれるぜ!""
        [11]
         1 string data = ""Mostly it's salvage from down in the lab area. I repair what I can and repurpose the rest.""
        [12]
