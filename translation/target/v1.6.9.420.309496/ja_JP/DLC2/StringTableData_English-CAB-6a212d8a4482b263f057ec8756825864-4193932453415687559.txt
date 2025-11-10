@@ -43839,7 +43839,7 @@
        [21]
         1 string data = " Reset Global."
        [22]
-        1 string data = " 立ち去る"
+        1 string data = " Walk away."
    [208]
     0 StringTable data
      1 string Filename = "e4001_glasscagestate_01"
@@ -43953,7 +43953,7 @@
        [15]
         1 string data = " Reset Global."
        [16]
-        1 string data = " 立ち去る"
+        1 string data = " Walk away."
    [209]
     0 StringTable data
      1 string Filename = "e4001_glasscagestate_02"
@@ -44067,7 +44067,7 @@
        [15]
         1 string data = " Reset Global."
        [16]
-        1 string data = " 立ち去る"
+        1 string data = " Walk away."
    [210]
     0 StringTable data
      1 string Filename = "e4001_hiddenlabcomputerlore_00.conversatioe4001n"
@@ -44089,7 +44089,7 @@
       1 Array Array (2 items)
        0 int size = 2
        [0]
-        1 string data = " 何かキーを押してください..."
+        1 string data = " Press any key..."
        [1]
         1 string data = " LORE: Blah Blah Blah."
    [211]
@@ -44113,7 +44113,7 @@
       1 Array Array (2 items)
        0 int size = 2
        [0]
-        1 string data = " 何かキーを押してください..."
+        1 string data = " Press any key..."
        [1]
         1 string data = " LORE: Blah Blah Blah."
    [212]
@@ -44169,23 +44169,23 @@
       1 Array Array (10 items)
        0 int size = 10
        [0]
-        1 string data = " 何かキーを押してください..."
+        1 string data = " Press any key..."
        [1]
-        1 string data = " コンピューターをハッキングして情報を取得"
+        1 string data = " Hack computer for intel."
        [2]
-        1 string data = " 立ち去る"
+        1 string data = " Walk away."
        [3]
-        1 string data = " グローバル変数をリセット"
+        1 string data = " Reset globals."
        [4]
         1 string data = " "
        [5]
-        1 string data = " コンピュータースキルが十分ではありません、悪いけど"
+        1 string data = " Computer skill not high enough, sorry not sorry."
        [6]
-        1 string data = " 情報を入手した"
+        1 string data = " Intel gained."
        [7]
-        1 string data = " 情報をもう一度見る"
+        1 string data = " Look at intell again."
        [8]
-        1 string data = " 何とか何とか何とか"
+        1 string data = " Blah Blah Blah"
        [9]
         1 string data = " Set gained intel to 1"
    [213]
@@ -44247,17 +44247,17 @@
        [2]
         1 string data = " Skill not high enough."
        [3]
-        1 string data = " グローバル変数をリセット"
+        1 string data = " Reset globals."
        [4]
         1 string data = " "
        [5]
-        1 string data = " コンピュータースキルが十分ではありません、悪いけど"
+        1 string data = " Computer skill not high enough, sorry not sorry."
        [6]
-        1 string data = " 情報を入手した"
+        1 string data = " Intel gained."
        [7]
-        1 string data = " 情報をもう一度見る"
+        1 string data = " Look at intell again."
        [8]
-        1 string data = " 何とか何とか何とか"
+        1 string data = " Blah Blah Blah"
        [9]
         1 string data = " Set gained intel to 1"
    [214]
@@ -44379,11 +44379,11 @@
        [4]
         1 string data = " High perception skill reveals more."
        [5]
-        1 string data = " 立ち去る"
+        1 string data = " Walk away."
        [6]
         1 string data = " Reset global."
        [7]
-        1 string data = " 立ち去る"
+        1 string data = " Walk away."
        [8]
         1 string data = " You have gained all the intel you could."
        [9]
