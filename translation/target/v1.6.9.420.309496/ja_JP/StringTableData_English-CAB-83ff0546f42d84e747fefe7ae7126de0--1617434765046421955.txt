@@ -29503,13 +29503,13 @@
        [9]
         1 string data = ""外部電源不足。バックアップ発電機稼働中。""
        [10]
-        1 string data = " "ALERT: Brig: Security Lockdown""
+        1 string data = " "警告:ブリッグ:セキュリティロックダウン""
        [11]
         1 string data = ""警告:武器庫:セキュリティロックダウン""
        [12]
         1 string data = "メッセージが繰り返し表示される。"
        [13]
-        1 string data = "A command prompt launches and fills with text as the terminal coordinates with the generator. After a few moments, the prompt closes, and a display reads "Backup Generators: Normal.""
+        1 string data = "コマンドプロンプトが起動し、端末が発電機と連携する際のテキストで埋まる。しばらくすると、プロンプトが閉じ、ディスプレイに"バックアップ発電機:正常"と表示される。"
        [14]
         1 string data = "Script Node 16"
        [15]
@@ -29657,47 +29657,47 @@
       1 Array Array (21 items)
        0 int size = 21
        [0]
-        1 string data = ""Thanks again, Rangers, for letting me stay here. Not a lot of safe places for a photojournalist in Colorado Springs these days.""
+        1 string data = ""改めてありがとう、レンジャー。ここに滞在させてもらえて助かる。最近のコロラドスプリングスじゃ、報道写真家にとって安全な場所なんてほとんどないからね。""
        [1]
-        1 string data = ""Keep fighting the good fight, Rangers.""
+        1 string data = ""正しい戦いを続けてくれ、レンジャー。""
        [2]
-        1 string data = ""And I appreciate you taking care of Quinn, but I'd watch yourself. Sheriff Daisy isn't gonna be happy about you killing one of her Marshalls.""
+        1 string data = ""Quinnを始末してくれて感謝してるよ。でも気をつけた方がいい。保安官デイジーは自分のマーシャルズの一人を殺されて喜ぶはずがない。""
        [3]
-        1 string data = ""And thanks for chasing off Quinn. Feels like a weight's been lifted off my chest.""
+        1 string data = ""Quinnを追い払ってくれてありがとう。胸のつかえが取れた気分だ。""
        [4]
-        1 string data = ""You don't want to get on her bad side. Her enemies tend to disappear.""
+        1 string data = ""彼女の不興を買わない方がいい。彼女の敵は消えてしまう傾向があるからね。""
        [5]
-        1 string data = ""Glad to have you with us.""
+        1 string data = ""一緒にいてくれて嬉しいよ。""
        [6]
-        1 string data = ""Don't abuse the privledge. It can be revoked.""
+        1 string data = ""その特権を乱用するな。取り消すこともできるんだから。""
        [7]
-        1 string data = ""Happy to be here.""
+        1 string data = ""ここにいられて嬉しいよ。""
        [8]
-        1 string data = ""Uh... sure. Noted.""
+        1 string data = ""ああ...わかった。了解した。""
        [9]
-        1 string data = ""We know what we're doing.""
+        1 string data = ""俺たちは何をすべきか分かってる。""
        [10]
-        1 string data = ""Thanks for the advice.""
+        1 string data = ""アドバイスをありがとう。""
        [11]
-        1 string data = ""Are you still taking pictures?""
+        1 string data = ""まだ写真を撮ってるのか?""
        [12]
-        1 string data = ""So long.""
+        1 string data = ""じゃあな。""
        [13]
-        1 string data = ""I don't doubt it.""
+        1 string data = ""その通りだと思うよ。""
        [14]
-        1 string data = ""It's the least I can do. Thank you.""
+        1 string data = ""これくらいのことは当然だ。ありがとう。""
        [15]
-        1 string data = ""I'm sneaking out when I can. It's great to have a safe place to come back to, I'll tell you that.""
+        1 string data = ""隙を見て忍び出てるよ。戻ってこられる安全な場所があるっていうのは最高だね。""
        [16]
-        1 string data = ""Bye, Rangers.""
+        1 string data = ""さよなら、レンジャー。""
        [17]
-        1 string data = ""Our pleasure.""
+        1 string data = ""どういたしまして。""
        [18]
-        1 string data = ""Yeah. You owe us one.""
+        1 string data = ""ああ。一つ借りだな。""
        [19]
-        1 string data = ""I appreciate it.""
+        1 string data = ""感謝するよ。""
        [20]
-        1 string data = ""Uh... sure. Any time.""
+        1 string data = ""ああ...わかった。いつでもどうぞ。""
    [116]
     0 StringTable data
      1 string Filename = "a1001_brandi"
@@ -29855,25 +29855,25 @@
        [3]
         1 string data = "端末から離れる"
        [4]
-        1 string data = " You walk away from the terminal."
+        1 string data = " 端末から離れる。"
        [5]
         1 string data = "端末は基地システムの情報を表示している。今のところ全て正常に見える"
        [6]
-        1 string data = " This computer is flashing "SECURITY COMPROMISED" in angry red letters.\n"
+        1 string data = " このコンピュータは"セキュリティ侵害"という怒りに満ちた赤い文字を点滅させている。\n"
        [7]
-        1 string data = " Cancel the alert."
+        1 string data = " 警報を解除する。"
        [8]
-        1 string data = " The terminal displays "Alert Cancelled" for a moment before returning to its informational display."
+        1 string data = " 端末は一瞬"警報解除"と表示した後、情報表示に戻る。"
        [9]
-        1 string data = " This terminal is displaying information about the base's systems. It cycles through its concerns as you observe it."
+        1 string data = " この端末は基地のシステム情報を表示している。観察している間、懸念事項を次々と表示する。"
        [10]
         1 string data = ""営倉: 異常なし""
        [11]
-        1 string data = " "ALERT: Armory: Security Lockdown""
+        1 string data = " "警告:武器庫:セキュリティロックダウン""
        [12]
-        1 string data = " "ALERT: Backup Generators: Offline""
+        1 string data = " "警告:バックアップ発電機:オフライン""
        [13]
-        1 string data = " The messages cycle as long as you observe the machine."
+        1 string data = " 機械を観察している限り、メッセージは繰り返し表示される。"
        [14]
         1 string data = "この端末の最近のアクティビティログを確認する"
        [15]
@@ -29881,9 +29881,9 @@
        [16]
         1 string data = "'OS: 起動開始。起動完了。認証情報が拒否されました。認証情報が承認されました: ログイン: 'admin.' パスワード: 'admin.' OS: デフォルト管理者操作をロード中。バックアップジェネレーター初期化完了'"
        [17]
-        1 string data = "'Perimeter defenses: request refused: inactive; insufficient power. Core defenses: request refused: inactive; insufficient power. Security: request refused: nonresponsive, insufficient power. Power: external grid: nonresponsive; internal grid: unpowered, backup generator: responsive, disabled.'"
+        1 string data = "'周辺防御:要求拒否:非アクティブ;電力不足。コア防御:要求拒否:非アクティブ;電力不足。セキュリティ:要求拒否:応答なし、電力不足。電力:外部グリッド:応答なし;内部グリッド:電力供給なし、バックアップ発電機:応答あり、無効化。'"
        [18]
-        1 string data = ""Power: Generator restart requested... complete. Power: internal grid reports power surge in five sectors. OS: local power surge detected... system hardware has recovered. OS: Please hold, coordinating with remote systems. OS: Red Alert issued. OS: receive request 'reject generic user 'admin' from Core System.' OS: locking out local user.""
+        1 string data = ""電力:発電機再起動要求...完了。電力:内部グリッドが5つのセクターで電力サージを報告。OS:ローカル電力サージ検出...システムハードウェアは回復しました。OS:お待ちください、リモートシステムと調整中。OS:レッドアラート発行。OS:コアシステムから'汎用ユーザー'admin'を拒否'要求を受信。OS:ローカルユーザーをロックアウトしています。""
        [19]
         1 string data = "'自動セキュリティロックダウンが開始されました。ログインが必要です。認証情報が拒否されました。認証情報が拒否されました。OS: 複数のログイン試行失敗によりステーションがユーザーをロックアウトしています'"
        [20]
@@ -29987,7 +29987,7 @@
       1 Array Array (21 items)
        0 int size = 21
        [0]
-        1 string data = " Hi, Ranger."
+        1 string data = " やあ、レンジャー。"
        [1]
         1 string data = "Script Node 3"
        [2]
