@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 36144,
-      "entries_untranslated": 133568,
-      "completion_rate": 21.3,
-      "current_line": 78518,
+      "entries_translated": 36504,
+      "entries_untranslated": 133208,
+      "completion_rate": 21.5,
+      "current_line": 79236,
       "status": "in_progress",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session R3-400: Translated 115 entries in lines 75294-78518. Content: a1001_morningstar completed (vehicle autonomous dialogue conclusion - driving accompaniment, core tech adaptive biomes Americas control targeting munitions description, autonomous clarification radio listening disappointment). a1001_mrdebug partial (developer debug menu - headquarters exit confirmation, Cartel assignment, payback quest debugging, Delgado family resolution both died/daughter survived/both survived torture death fate, firefight/freed outcomes, Top Doc quest debugging SutureKit antibiotics neuroscience book Parker recruitment options, Old World Power quest AFA visited underground temple enemies mushrooms Curie detonation safety energy independence specs modifications ward destroy/harness options, miscellaneous base options, Parker patient quest surgical equipment CT scanner Megan Silver recruitment surgery cancel/allow status completion arrest/release/death resolutions, neighbor quest Rosie radio Irv journal clones confrontation Rangers/Daisy invitation outcomes). Spanish reference empty for debug section - unified translation logic applied default to translate. Pre-commit validations passed - Structure 0 errors 0 warnings, action markers protected, 0 quality issues range 75294-78518. Next: Continue from line 78518 (a1001_mrdebug remainder 523 entries remain)."
+      "note": "Session R3-401: Translated 360 entries in lines 78520-79236. Content: a1001_mrdebug completed (developer debug menu conclusion - Parker patient surgery completion arrest/release/death, neighbor quest DYBMN Rosie radio Irv clone Rangers/Daisy outcomes, Buzzkill party teens violent/nonviolent disperse R&R fate, Pappas Cave learning Rangers join/left to die, main quests start zealot/Reagan/dark cloud options, Reagan Reborn AI transfer Valor Commune cure Gippers fight MI Tower arrest/kill, The Zealot Brygo arrest psychopath resolution kill/arrest/recruit, endgame Angie/SC/Patriarch pro fame/allegiance levels, Psychopath Vic fate kill/arrest/recruit, Traitorous Daughter Liberty captured/killed Reed rebels Ash arrest, AZ Rangers Woodson/Pizepi/LaLoca/Rook death flags, time step increment story progression, Quarex hellacious journey, My Body Requires This Masato noodles, companion recruitments Ananda/Ralphy/Randy/Junko/Warden/all CNPCs, vehicle Ranger Rover/Morningstar, endgame setup Ranger takeover Daisy/Gideon power, Dorsey hostage taker fate killed/RHQ/Marshals, quick recruit/state set, Santa workshop reward regular/double brain candy, VICI recruit, zealot start, Reagan hostage, Cinema Verite poster increment, blue goo grant). Spanish reference empty for entire range - unified translation logic applied default to translate. Pre-commit validations passed - Structure 0 errors 0 warnings, action markers protected, 0 quality issues range 78520-79236. Next: Continue from line 79507 (a1001_museum_archivecomputer section begins - 89 archive computer entries)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -52,11 +52,11 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "5d49222",
-  "last_commit_message": "Translation: Session R3-400 - 115 entries (lines 75294-78518)",
-  "total_entries_completed": 36144,
+  "last_commit_hash": "6d4c803",
+  "last_commit_message": "Translation: Session R3-401 - 360 entries (lines 78520-79236)",
+  "total_entries_completed": 36504,
   "total_entries": 232418,
-  "total_entries_untranslated": 196274,
-  "overall_completion_rate": 15.5,
-  "next_action": "MANDATORY: Complete base game translation to 100% BEFORE starting any DLC work. Current base game progress: 36,144/169,712 entries (21.3%). Continue from line 78518 (a1001_mrdebug remainder - 523 debug menu entries remain). DLC1 and DLC2 must remain at 0% until base game reaches 100% with strict validation."
+  "total_entries_untranslated": 195914,
+  "overall_completion_rate": 15.7,
+  "next_action": "MANDATORY: Complete base game translation to 100% BEFORE starting any DLC work. Current base game progress: 36,504/169,712 entries (21.5%). Continue from line 79507 (a1001_museum_archivecomputer section - museum archive computer entries). DLC1 and DLC2 must remain at 0% until base game reaches 100% with strict validation."
 }
