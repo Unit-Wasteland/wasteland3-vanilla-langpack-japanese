@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 33859,
-      "entries_untranslated": 135853,
-      "completion_rate": 20.0,
-      "current_line": 38773,
+      "entries_translated": 34071,
+      "entries_untranslated": 135641,
+      "completion_rate": 20.1,
+      "current_line": 42210,
       "status": "in_progress",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session R3-371: Translated 151 entries in lines 38320-38773. Content: a1001_docparker extended dialogue (Megan recruitment, patient surgery quest progression, Patriarch employment backstory, equipment purchase, surgery outcomes, Amber aftermath), refugee management commentary, mission outcome reactions. Unified translation decision logic applied. Structure validation: 0 errors. Quality validation: 0 issues. All action markers preserved in English (4x ::sigh:: markers verified). Technical terms NOT translated. Next: Continue from line 38773 (mission commentary and quest reactions)."
+      "note": "Session R3-374: Translated 114 entries in lines 41515-42210 (mission a1001_endgameproangiewithgangs). Content: Endgame pro-Angie with gangs path - Rangers HQ base assault preparation. Angela Deth coordination. Party member recruitment dialogue (Kwon hostile, Lucia joins, Scotchmo joins, Vic joins, Cordite joins, Pizepi conditional, Buddy joins, Jodie questions, Woodson joins, Morningstar joins, Fish-Lips joins/hostile). Base infiltration mechanics explained (Armory, Brig, War Room access, Emergency Evacuation Tunnel). Dual validation passed. Structure validation: 0 errors. Quality validation: 0 issues. Action markers preserved in English (half-crying verified). Technical terms NOT translated (Script Node). Next: Continue from line 42210 (next mission)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -52,11 +52,11 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "1d7d198",
-  "last_commit_message": "Translation: Session R3-369 - 100 entries (lines 35960-36259)",
-  "total_entries_completed": 33708,
+  "last_commit_hash": "1e0a357",
+  "last_commit_message": "Translation: Session R3-374 - 114 entries (endgame pro-Angie with gangs path)",
+  "total_entries_completed": 34071,
   "total_entries": 232418,
-  "total_entries_untranslated": 198710,
-  "overall_completion_rate": 14.5,
-  "next_action": "MANDATORY: Complete base game translation to 100% BEFORE starting any DLC work. Current base game progress: 33,652/169,712 entries (19.8%). Continue from line 36260. DLC1 and DLC2 must remain at 0% until base game reaches 100% with strict validation."
+  "total_entries_untranslated": 198347,
+  "overall_completion_rate": 14.7,
+  "next_action": "MANDATORY: Complete base game translation to 100% BEFORE starting any DLC work. Current base game progress: 34,071/169,712 entries (20.1%). Continue from line 42210. DLC1 and DLC2 must remain at 0% until base game reaches 100% with strict validation."
 }
