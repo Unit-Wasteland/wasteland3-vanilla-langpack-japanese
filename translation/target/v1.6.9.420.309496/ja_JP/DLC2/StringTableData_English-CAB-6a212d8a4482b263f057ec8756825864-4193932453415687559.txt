@@ -33485,7 +33485,7 @@
        [11]
         1 string data = "  情報を入手する"
        [12]
-        1 string data = " 立ち去る"
+        1 string data = " Walk away."
        [13]
         1 string data = " 立ち去る"
        [14]
@@ -33623,7 +33623,7 @@
        [11]
         1 string data = "  情報を入手する"
        [12]
-        1 string data = " 立ち去る"
+        1 string data = " Walk away."
        [13]
         1 string data = " 立ち去る"
        [14]
@@ -46885,7 +46885,7 @@
        [12]
         1 string data = " Interface with computer."
        [13]
-        1 string data = " 立ち去る"
+        1 string data = " Walk away."
        [14]
         1 string data = " Set e4001_StorageA_cargoManifestList = 0\n\n\n(0 = not tampered with)"
        [15]
@@ -46893,11 +46893,11 @@
        [16]
         1 string data = " Set e4001_StorageA_cargoManifestList = 2\n\n\n(2 = engineering skill used to rewire computer)"
        [17]
-        1 string data = " 立ち去る"
+        1 string data = " Walk away."
        [18]
         1 string data = " Set up globals"
        [19]
-        1 string data = " 何かキーを押してください..."
+        1 string data = " Press any key..."
        [20]
         1 string data = " Rewire the motherboard."
    [238]
@@ -47025,7 +47025,7 @@
        [11]
         1 string data = " Interface with computer."
        [12]
-        1 string data = " 立ち去る"
+        1 string data = " Walk away."
        [13]
         1 string data = " Set e4001_StorageA_cargoManifestList = 0\n\n\n(0 = not tampered with)"
        [14]
@@ -47033,11 +47033,11 @@
        [15]
         1 string data = " Set e4001_StorageA_cargoManifestList = 2\n\n\n(2 = engineering skill used to rewire computer)"
        [16]
-        1 string data = " 立ち去る"
+        1 string data = " Walk away."
        [17]
         1 string data = " Set up globals"
        [18]
-        1 string data = " 何かキーを押してください..."
+        1 string data = " Press any key..."
        [19]
         1 string data = """"
        [20]
@@ -47169,7 +47169,7 @@
        [11]
         1 string data = " Interface with computer."
        [12]
-        1 string data = " 立ち去る"
+        1 string data = " Walk away."
        [13]
         1 string data = " Set e4001_StorageA_cargoManifestList = 0\n\n\n(0 = not tampered with)"
        [14]
@@ -47177,11 +47177,11 @@
        [15]
         1 string data = " Set e4001_StorageA_cargoManifestList = 2\n\n\n(2 = engineering skill used to rewire computer)"
        [16]
-        1 string data = " 立ち去る"
+        1 string data = " Walk away."
        [17]
         1 string data = " Set up globals"
        [18]
-        1 string data = " 何かキーを押してください..."
+        1 string data = " Press any key..."
        [19]
         1 string data = """"
        [20]
@@ -47209,7 +47209,7 @@
       1 Array Array (2 items)
        0 int size = 2
        [0]
-        1 string data = " 何かキーを押してください..."
+        1 string data = " Press any key..."
        [1]
         1 string data = " LORE: Blah Blah Blah."
    [241]
@@ -47359,13 +47359,13 @@
        [8]
         1 string data = " End his life."
        [9]
-        1 string data = " 立ち去る"
+        1 string data = " Walk away."
        [10]
         1 string data = " I pitty the fool who gets this responce."
        [11]
         1 string data = " Use skill."
        [12]
-        1 string data = " 立ち去る"
+        1 string data = " Walk away."
        [13]
         1 string data = " He's still dead Jim."
        [14]
@@ -47451,7 +47451,7 @@
        [5]
         1 string data = " Set life support = 1"
        [6]
-        1 string data = " 立ち去る"
+        1 string data = " Walk away."
    [243]
     0 StringTable data
      1 string Filename = "e0001_vrheadset_simchamber"
