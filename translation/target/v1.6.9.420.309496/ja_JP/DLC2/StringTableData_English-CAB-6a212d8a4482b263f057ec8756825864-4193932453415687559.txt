@@ -963,15 +963,15 @@
        [6]
         1 string data = "::sqoosh::"
        [7]
-        1 string data = "Stroke the flesh tumor."
+        1 string data = "肉腫を撫でる。"
        [8]
-        1 string data = "::gweep::\n\n\nThe flesh tumor jiggles happily."
+        1 string data = "::gweep::\n\n\n肉腫が嬉しそうにぷるぷると震えている。"
        [9]
-        1 string data = ""You have to stay here now.""
+        1 string data = ""もうここに留まらなければならない。""
        [10]
-        1 string data = "::gwoop::\n\n\nThe flesh tumor squirms dejectedly."
+        1 string data = "::gwoop::\n\n\n肉腫が落胆した様子でうごめいている。"
        [11]
-        1 string data = ""That's all for now.""
+        1 string data = ""今のところはここまでだ。""
        [12]
         1 string data = ""
        [13]
@@ -999,7 +999,7 @@
       1 Array Array (1 items)
        0 int size = 1
        [0]
-        1 string data = ""Do not kill him for following his orders, Rangers. He may still be of some use to you.""
+        1 string data = ""命令に従っただけで彼を殺してはならない、レンジャー。彼はまだ役に立つかもしれない。""
    [18]
     0 StringTable data
      1 string Filename = "global_aspencompanionbarks"
@@ -1021,9 +1021,9 @@
       1 Array Array (2 items)
        0 int size = 2
        [0]
-        1 string data = ""Hmm. Concentrated gas. Likely flammable.""
+        1 string data = ""ふむ。濃縮ガスだ。恐らく可燃性。""
        [1]
-        1 string data = ""Proceed carefully, Rangers. I detect elevated levels of an unknown compound.""
+        1 string data = ""慎重に進んでください、レンジャー。未知の化合物が高濃度で検出されています。""
    [19]
     0 StringTable data
      1 string Filename = "endslides"
@@ -1165,69 +1165,69 @@
       1 Array Array (32 items)
        0 int size = 32
        [0]
-        1 string data = "In Cheyenne Mountain, the quiet of its post-Deluge century returned. Those few Primordialists and Nucleists who didn't kill themselves when you snuffed out the Holy Detonation fled into the wastes and have not been heard of since."
+        1 string data = "シャイアン・マウンテンには、大洪水後の1世紀にわたる静寂が戻った。ホーリー・デトネーションを消滅させた際に自殺しなかった僅かなプライモーディアリストとニュークリストは荒野へと逃げ込み、それ以来音沙汰がない。"
        [1]
-        1 string data = "In Cheyenne Mountain, the reunited Primordialists and Nucleists live peacefully with each other, and with Theo Curie and his research assistants, as they continue to investigate and experiment with the mutating powers of the Holy Detonation."
+        1 string data = "シャイアン・マウンテンでは、和解したプライモーディアリストとニュークリストが互いに、そしてセオ・キューリーと彼の研究助手たちと平和に暮らし、ホーリー・デトネーションの変異力の調査と実験を続けている。"
        [2]
-        1 string data = "In Cheyenne Mountain, the bodies of the Proteus and their followers have been cleared, and Theo Curie and his assistants have the place to themselves, maintaining the Holy Detonation and keeping its power flowing."
+        1 string data = "シャイアン・マウンテンでは、プロテウスと信奉者たちの遺体が片付けられ、セオ・キューリーと助手たちだけが残り、ホーリー・デトネーションを維持してその力を流し続けている。"
        [3]
-        1 string data = "A disappointed Theo Curie turned his mind to other projects, but he could not forget what he considered your great betrayal of science and Colorado's future. Elijah Ward, however, remained pleased that you listened to his wisdom."
+        1 string data = "失望したセオ・キューリーは他のプロジェクトに心を向けたが、科学とコロラドの未来に対する君たちの大いなる裏切りと彼が考えていることを忘れることはできなかった。しかしイライジャ・ワードは、君たちが彼の知恵に耳を傾けたことに満足していた。"
        [4]
-        1 string data = "The cult has also come up with a new, safer way to share the Holy Detonation. They have opened Cheyenne Mountain as a teaching center and spa, where interested people can come learn about their church, participate in their rituals, and bathe in the glowing waters of the cooling pool. "
+        1 string data = "カルトはまた、ホーリー・デトネーションを共有するための新しく安全な方法を考案した。シャイアン・マウンテンを教育センター兼スパとして開放し、興味のある人々が教会について学び、儀式に参加し、冷却プールの輝く水に浸かれるようにした。"
        [5]
-        1 string data = "Theo Curie couldn't be happier with the situation. Elijah Ward, however, never misses an opportunity to speak ill of the Rangers and their works."
+        1 string data = "セオ・キューリーはこの状況に大満足だ。しかしイライジャ・ワードは、レンジャーとその業績について悪く言う機会を決して逃さない。"
        [6]
-        1 string data = "At the same time, Theo carries on his investigations and experiments with the mutating powers of the Holy Detonation - always with willing volunteers, of course. "
+        1 string data = "同時に、セオはホーリー・デトネーションの変異力についての調査と実験を続けている。もちろん常に自発的な志願者と共に。"
        [7]
-        1 string data = "He couldn't be happier with the situation. Elijah Ward, however, never misses an opportunity to speak ill of the Rangers and their works."
+        1 string data = "彼はこの状況に大満足だ。しかしイライジャ・ワードは、レンジャーとその業績について悪く言う機会を決して逃さない。"
        [8]
-        1 string data = "From time to time, small communities would be massacred. Survivors reported pale-skinned commandos who operated with ruthless efficiency."
+        1 string data = "時折、小さなコミュニティが虐殺された。生存者は、容赦なく効率的に作戦を遂行する肌の白いコマンドについて報告した。"
        [9]
-        1 string data = "It became increasingly clear that the FADERs posed a major threat to Colorado - one that could, perhaps, have been prevented."
+        1 string data = "FADERがコロラドに重大な脅威をもたらしていることが次第に明らかになった。おそらく防げたかもしれない脅威だ。"
        [10]
-        1 string data = "The sightings increased, and local people began to disappear. From time to time, small communities would be massacred. Survivors reported pale-skinned commandos who operated with ruthless efficiency."
+        1 string data = "目撃例が増え、地元の人々が姿を消し始めた。時折、小さなコミュニティが虐殺された。生存者は、容赦なく効率的に作戦を遂行する肌の白いコマンドについて報告した。"
        [11]
-        1 string data = "Whatever they were, these albino creatures seemed to pose a major threat to Colorado - one that might have been prevented if it had ever been uncovered."
+        1 string data = "正体が何であれ、これらの白子の生物はコロラドに重大な脅威をもたらすようだった。もし発見されていれば防げたかもしれない脅威だ。"
        [12]
-        1 string data = "For over a hundred years, the Holy Detonation had remained a frightening but harmless curiosity. Then you came along. Now you, your headquarters, the Patriarch and his palace, and all the people of Colorado Springs are nothing but a smoldering radioactive crater."
+        1 string data = "100年以上にわたり、ホーリー・デトネーションは恐ろしいが無害な珍品のままだった。そして君たちがやって来た。今や君たち、本部、パトリアークとその宮殿、そしてコロラドスプリングスの全住民は、くすぶる放射性クレーター以外の何物でもない。"
        [13]
-        1 string data = "With Colorado's stabilizing influence gone, and a giant cloud of radiation drifting toward the plains states, the west could easily plunge back into the dark age it had only just crawled from. But one thing is certain. Those who survive will forever curse the names of those who triggered another armageddon - the Desert Rangers."
+        1 string data = "コロラドの安定化の影響力が失われ、巨大な放射能雲が平原州に向かって漂っている今、西部は辛うじて抜け出したばかりの暗黒時代に容易に逆戻りするだろう。しかし一つ確実なことがある。生き残った者は永遠に別の終末を引き起こした者の名を呪うだろう。デザート・レンジャーの名を。"
        [14]
-        1 string data = "With Colorado's stabilizing influence gone, and a giant cloud of radiation drifting toward the plains states, the west could easily plunge back into the dark age it had only just crawled from. But one thing is certain. Those who do survive will forever curse the names of those who failed to stop another armageddon - the Desert Rangers. "
+        1 string data = "コロラドの安定化の影響力が失われ、巨大な放射能雲が平原州に向かって漂っている今、西部は辛うじて抜け出したばかりの暗黒時代に容易に逆戻りするだろう。しかし一つ確実なことがある。生き残った者は永遠に別の終末を止められなかった者の名を呪うだろう。デザート・レンジャーの名を。"
        [15]
-        1 string data = "For over a hundred years, the Holy Detonation had remained a frightening but harmless curiosity. Then you came along and tried to lead a walking meltdown past an unexploded A-Bomb. Now you, your headquarters, the Patriarch and his palace, and all the people of Colorado Springs are nothing but a smoldering radioactive crater."
+        1 string data = "100年以上にわたり、ホーリー・デトネーションは恐ろしいが無害な珍品のままだった。そして君たちがやって来て、歩くメルトダウンを不発の原爆の近くを通過させようとした。今や君たち、本部、パトリアークとその宮殿、そしてコロラドスプリングスの全住民は、くすぶる放射性クレーター以外の何物でもない。"
        [16]
-        1 string data = "But thanks to you, Colorado Springs was insulated from the upheaval. The Holy Detonation gave the city all the power it needed to heat its homes and grow its food, while all the other cities of Colorado grew dependent on the Hard-Heads."
+        1 string data = "しかし君たちのおかげで、コロラドスプリングスは激動から守られた。ホーリー・デトネーションは都市に家を暖め食料を育てるのに必要な全ての電力を与え、一方でコロラドの他の都市は全てハードヘッドに依存するようになった。"
        [17]
-        1 string data = "Without the life-giving Glow of the Holy Detonation to sustain her devolved body, Pizepi desperately fled towards Arizona, hoping to say a final farewell to her loved ones. She collapsed somewhere around Four Corners."
+        1 string data = "退化した体を支えるホーリー・デトネーションの命を与える輝きなしには、ピゼピは必死にアリゾナへ逃げ、愛する者たちに最後の別れを告げることを望んだ。彼女はフォー・コーナーズ付近のどこかで倒れた。"
        [18]
-        1 string data = "Born a mutant, Pizepi comfortably transitioned into her new life as a drool, frequently returning to bathe in the restorative Glow of the Holy Detonation."
+        1 string data = "生まれつきミュータントだったピゼピは、ドゥルールとしての新しい生活に快適に移行し、ホーリー・デトネーションの回復の輝きに浸るため頻繁に戻ってきた。"
        [19]
-        1 string data = "Though she found purpose in helping mutants like herself adapt to their new shape, she never stopped searching for a way to end her reliance on the Glow so she could return to Arizona."
+        1 string data = "彼女は自分のようなミュータントが新しい姿に適応するのを助けることに目的を見出したが、アリゾナに戻れるよう輝きへの依存を終わらせる方法を探すことを決してやめなかった。"
        [20]
-        1 string data = "Fish-Lips had always been a survivor. So, without the life-giving Glow of the Holy Detonation to sustain his devolved body, instinct took over. He fed on every ounce of toxic waste and irradiated flesh he could get his claws on."
+        1 string data = "フィッシュリップスは常に生存者だった。そのため、退化した体を支えるホーリー・デトネーションの命を与える輝きなしには、本能が支配した。彼は爪で掴めるあらゆる有毒廃棄物と放射能を帯びた肉を食らった。"
        [21]
-        1 string data = "Hopefully, the roiling mass of radiant meat he became will stay up in the mountains until the Glow fades."
+        1 string data = "彼がなった輝く肉の渦巻く塊が、輝きが消えるまで山に留まることを願う。"
        [22]
-        1 string data = "They died shortly thereafter of radiation poisoning. It took nine-tenths of the Hard-Heads before they reassessed their cannibalism."
+        1 string data = "彼らはその後すぐに放射線中毒で死んだ。カニバリズムを見直すまでにハードヘッドの9割を失った。"
        [23]
-        1 string data = "Fish-Lips returned to Cheyenne, requiring the Holy Detonation's Glow to sustain his devolved body. His mind, however, didn't benefit from the Glow's blessing, and he was put down after going feral."
+        1 string data = "フィッシュリップスは退化した体を支えるためホーリー・デトネーションの輝きを必要としてシャイアンに戻った。しかし彼の心は輝きの祝福から恩恵を受けず、野生化した後に殺処分された。"
        [24]
-        1 string data = "Scotchmo's devolved body was more dependent on the Holy Detonation than it had ever been on Squeezins. Without the Glow, Scotchmo was overtaken by fit of powerful tremens, and dissolved into a foul-smelling goo."
+        1 string data = "スコッチモの退化した体は、かつてスクイージンに依存していた以上にホーリー・デトネーションに依存していた。輝きなしには、スコッチモは強力な振戦せん妄に襲われ、悪臭を放つ粘液に溶けた。"
        [25]
-        1 string data = "After discovering his new, devolved body was unaffected by Squeezins, Scotchmo's mind cleared enough for him to consider his predicament. He moved into Cheyenne to be closer to the Holy Detonation's Glow, which he was now dependent upon."
+        1 string data = "新しい退化した体がスクイージンの影響を受けないと発見した後、スコッチモの心は自分の窮状を考えられるほどに澄んだ。彼は今や依存していたホーリー・デトネーションの輝きに近づくためシャイアンに移り住んだ。"
        [26]
-        1 string data = "He started fermenting fungus in toxic waste barrels, creating a potent mushroom wine that has attracted a cult following for its earthy bouquet, spicy flavor, and alarmingly full body."
+        1 string data = "彼は有毒廃棄物の樽でキノコを発酵させ始め、土の香り、スパイシーな風味、そして驚くほどフルボディな強力なキノコワインを作り出し、カルト的な人気を集めた。"
        [27]
-        1 string data = "The Ranger who devolved into Pustule stayed with Team November until their death, which came quickly without the life-sustaining Glow of the Holy Detonation. Pustule passed surrounded by their squad, screaming in agony until they were too soupy to hold in air."
+        1 string data = "パスチュールに退化したレンジャーは死ぬまでチーム・ノベンバーに留まったが、ホーリー・デトネーションの命を支える輝きなしにはすぐに死が訪れた。パスチュールは分隊に囲まれ、空気を保持できないほど液状になるまで苦悶の叫びを上げながら息絶えた。"
        [28]
-        1 string data = "The Ranger who devolved into Pustule was posthumously awarded a Medal of Sacrifice. Their grave is inscribed, "Gave everything to the Rangers, twice.""
+        1 string data = "パスチュールに退化したレンジャーには死後、犠牲のメダルが授与された。墓碑にはこう刻まれている、"レンジャーに全てを捧げた。二度。""
        [29]
-        1 string data = "The Ranger who devolved into Pustule, tethered to Colorado by their dependance on the Holy Detonation's Glow, took over security at Cheyenne, defending it until their retirement. "
+        1 string data = "パスチュールに退化したレンジャーは、ホーリー・デトネーションの輝きへの依存によってコロラドに縛られ、シャイアンの警備を引き受け、引退するまでそれを守った。"
        [30]
-        1 string data = "Now, some Rangers hold a tradition of keeping a lantern Glowing for Pustule, to honor their sacrifice."
+        1 string data = "今、一部のレンジャーは彼らの犠牲を称えるため、パスチュールのために灯籠の輝きを保つ伝統を持っている。"
        [31]
-        1 string data = "Pustule now lives in a cabin in the mountains, with a domesticated waste worm he calls Sluuuurp."
+        1 string data = "パスチュールは今、山の小屋で、スルーープと呼ぶ飼いならされた廃棄物ワームと共に暮らしている。"
    [20]
     0 StringTable data
      1 string Filename = "0000_radio_elijahward_holydetonation"
