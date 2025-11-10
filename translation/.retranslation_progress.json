@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 34416,
-      "entries_untranslated": 135296,
+      "entries_translated": 34476,
+      "entries_untranslated": 135236,
       "completion_rate": 20.3,
-      "current_line": 48378,
+      "current_line": 48798,
       "status": "in_progress",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session R3-379: Translated 93 entries in lines 47070-48378. Content: Dead Battery garage dialogue (Bobby Cotter continuation, Blackwrench, Dead Battery mechanic ambient dialogue on HQ upgrades, refugees, Aspen rescues, Riley/Pizepi, Hundred Families, Bizarre outcomes, Patriarch prison, synths, Machine Commune, Airport conflicts, oil/power sources, Steeltown outcomes, computer destruction, Everest hotel, Dorsey/Isaac Reed justice, Brygo/Little Vegas, teens, cyborg chickens, Team Rumor Kodiak puke incident). Jesse Cotter ambient garage dialogue (directing to Bobby, singing). Spanish reference mostly empty for many entries - applied unified translation logic. Dual validation passed: Structure 0 errors, Quality 0 issues. Next: Continue from line 48378 (Jimmy Cotter garage dialogue)."
+      "note": "Session R3-380: Translated 60 entries in lines 48378-48798. Content: Jimmy Cotter garage dialogue (family conversations about Mama coming to visit, apple pie baking, sibling rivalry over Tommy being the favorite, wife and bed arrangements, singing Mama's favorite song, remembering Benny Barker the bully, competition over Mama's beef stew recipe secret, crow droppings vs chocolate chips prank, lost wrench identical initials joke, chicken crossed the road dark joke). Spanish reference mostly empty - applied unified translation logic. Dual validation passed - Structure 0 errors, Quality 0 issues. Next: Continue from line 48798 (Little Jeep garage dialogue)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -54,9 +54,9 @@
   },
   "last_commit_hash": "320f7fe",
   "last_commit_message": "Translation: Session R3-379 - 93 entries (lines 47070-48378)",
-  "total_entries_completed": 34416,
+  "total_entries_completed": 34476,
   "total_entries": 232418,
-  "total_entries_untranslated": 198002,
+  "total_entries_untranslated": 197942,
   "overall_completion_rate": 14.8,
-  "next_action": "MANDATORY: Complete base game translation to 100% BEFORE starting any DLC work. Current base game progress: 34,416/169,712 entries (20.3%). Continue from line 48378. DLC1 and DLC2 must remain at 0% until base game reaches 100% with strict validation."
+  "next_action": "MANDATORY: Complete base game translation to 100% BEFORE starting any DLC work. Current base game progress: 34,476/169,712 entries (20.3%). Continue from line 48798. DLC1 and DLC2 must remain at 0% until base game reaches 100% with strict validation."
 }
