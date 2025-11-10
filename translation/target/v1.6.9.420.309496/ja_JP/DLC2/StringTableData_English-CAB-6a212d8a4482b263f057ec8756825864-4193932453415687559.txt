@@ -42787,7 +42787,7 @@
       1 Array Array (20 items)
        0 int size = 20
        [0]
-        1 string data = " 何かキーを押してください..."
+        1 string data = " Press any key..."
        [1]
         1 string data = " Hack the computer to shut down machine?\n(use computer skill)"
        [2]
@@ -42801,7 +42801,7 @@
        [6]
         1 string data = " Set e4001_Cafeteria_foodDispenser to 1\n(3 = toaster repair skill ised)"
        [7]
-        1 string data = " グローバル変数をリセット"
+        1 string data = " Reset globals."
        [8]
         1 string data = " Success: The food dispencer is shut down.\n(1 to 2 Faders come to loook at what's wrong with the machine)"
        [9]
@@ -42817,7 +42817,7 @@
        [14]
         1 string data = " Your skill is not high enough"
        [15]
-        1 string data = " 立ち去る"
+        1 string data = " Walk away."
        [16]
         1 string data = " The food dispence is shut down."
        [17]
@@ -42925,11 +42925,11 @@
        [4]
         1 string data = " High perception skill reveals more."
        [5]
-        1 string data = " 立ち去る"
+        1 string data = " Walk away."
        [6]
         1 string data = " Reset global."
        [7]
-        1 string data = " 立ち去る"
+        1 string data = " Walk away."
        [8]
         1 string data = " You have gained all the intel you could."
        [9]
@@ -43135,7 +43135,7 @@
        [22]
         1 string data = " Reset Global."
        [23]
-        1 string data = " 立ち去る"
+        1 string data = " Walk away."
        [24]
         1 string data = " Insert genetic material."
        [25]
@@ -43143,7 +43143,7 @@
        [26]
         1 string data = " Use genetic material."
        [27]
-        1 string data = " 立ち去る"
+        1 string data = " Walk away."
        [28]
         1 string data = " Processing General3 DNA."
        [29]
@@ -43335,19 +43335,19 @@
        [21]
         1 string data = " Reset Global."
        [22]
-        1 string data = " 立ち去る"
+        1 string data = " Walk away."
        [23]
         1 string data = "  Genetic material in stasis, waiting for command."
        [24]
         1 string data = " Use genetic material."
        [25]
-        1 string data = " 立ち去る"
+        1 string data = " Walk away."
        [26]
         1 string data = " Warning, inferior genetic material detected. You may not proceed."
        [27]
         1 string data = " Use genetic material.\n(Weird Science skill needed, currently set to none)"
        [28]
-        1 string data = " 立ち去る"
+        1 string data = " Walk away."
        [29]
         1 string data = " Processing inferior Fader DNA."
        [30]
@@ -43503,7 +43503,7 @@
        [21]
         1 string data = " Reset Global."
        [22]
-        1 string data = " 立ち去る"
+        1 string data = " Walk away."
    [201]
     0 StringTable data
      1 string Filename = "e4001_evalroomcomputer"
@@ -43557,23 +43557,23 @@
       1 Array Array (10 items)
        0 int size = 10
        [0]
-        1 string data = " 何かキーを押してください..."
+        1 string data = " Press any key..."
        [1]
-        1 string data = " コンピューターをハッキングして情報を取得"
+        1 string data = " Hack computer for intel."
        [2]
-        1 string data = " 立ち去る"
+        1 string data = " Walk away."
        [3]
-        1 string data = " グローバル変数をリセット"
+        1 string data = " Reset globals."
        [4]
         1 string data = " "
        [5]
-        1 string data = " コンピュータースキルが十分ではありません、悪いけど"
+        1 string data = " Computer skill not high enough, sorry not sorry."
        [6]
-        1 string data = " 情報を入手した"
+        1 string data = " Intel gained."
        [7]
-        1 string data = " 情報をもう一度見る"
+        1 string data = " Look at intell again."
        [8]
-        1 string data = " 何とか何とか何とか"
+        1 string data = " Blah Blah Blah"
        [9]
         1 string data = " Set gained intel to 1"
    [202]
@@ -43593,7 +43593,7 @@
       1 Array Array (1 items)
        0 int size = 1
        [0]
-        1 string data = " General3が何か言う。\n注:これはbarkにすべき"
+        1 string data = " General3 says something.\nNOTE: This should be a bark"
    [203]
     0 StringTable data
      1 string Filename = "e4001_general3radiobark_01"
@@ -43611,7 +43611,7 @@
       1 Array Array (1 items)
        0 int size = 1
        [0]
-        1 string data = " General3が何か言う。\n注:これはbarkにすべき"
+        1 string data = " General3 says something.\nNOTE: This should be a bark"
    [204]
     0 StringTable data
      1 string Filename = "e4001_general3radiobark_02"
@@ -43629,7 +43629,7 @@
       1 Array Array (1 items)
        0 int size = 1
        [0]
-        1 string data = " General3が何か言う。\n注:これはbarkにすべき"
+        1 string data = " General3 says something.\nNOTE: This should be a bark"
    [205]
     0 StringTable data
      1 string Filename = "e4001_general3radiointro."
@@ -43687,7 +43687,7 @@
        [1]
         1 string data = " Follow me."
        [2]
-        1 string data = " 立ち去る"
+        1 string data = " Walk away."
        [3]
         1 string data = " Well I'm dr. spock I'm here to rock y'all. That means yes I will follow."
    [207]
