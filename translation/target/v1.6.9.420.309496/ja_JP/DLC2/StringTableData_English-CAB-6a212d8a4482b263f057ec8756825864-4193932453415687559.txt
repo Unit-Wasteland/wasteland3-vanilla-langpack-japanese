@@ -33463,45 +33463,45 @@
        [0]
         1 string data = " 何かキーを押してください..."
        [1]
-        1 string data = " Hack the computer."
+        1 string data = " コンピューターをハッキングする"
        [2]
-        1 string data = " Enter passcode."
+        1 string data = " パスコードを入力する"
        [3]
-        1 string data = " Break computer."
+        1 string data = " コンピューターを破壊する"
        [4]
         1 string data = " 立ち去る"
        [5]
-        1 string data = " The computer is now broken and can't trigger the D-con room trap."
+        1 string data = " コンピューターは破壊され、D-con室のトラップを起動できなくなった"
        [6]
-        1 string data = " Computer hacked."
+        1 string data = " コンピューターをハッキングした"
        [7]
-        1 string data = " Skill no high enough."
+        1 string data = " スキルが十分でない"
        [8]
-        1 string data = " Correct passcode entered."
+        1 string data = " 正しいパスコードが入力された"
        [9]
-        1 string data = " Wrong passcode entered."
+        1 string data = " 間違ったパスコードが入力された"
        [10]
-        1 string data = " Pump gas into observation room B?"
+        1 string data = " 観察室Bにガスを送り込むか?"
        [11]
-        1 string data = "  Gain intel."
+        1 string data = "  情報を入手する"
        [12]
         1 string data = " 立ち去る"
        [13]
         1 string data = " 立ち去る"
        [14]
-        1 string data = " Try again?"
+        1 string data = " 再試行するか?"
        [15]
         1 string data = " 立ち去る"
        [16]
-        1 string data = " Two more failed attemps and the computer will be locked out."
+        1 string data = " あと2回失敗するとコンピューターがロックされる"
        [17]
-        1 string data = " One more failed attemps and the computer will be locked out."
+        1 string data = " あと1回失敗するとコンピューターがロックされる"
        [18]
-        1 string data = " Computer is locked out."
+        1 string data = " コンピューターがロックされた"
        [19]
-        1 string data = " Locked out."
+        1 string data = " ロックされた"
        [20]
-        1 string data = " It's dead Jim."
+        1 string data = " 完全に壊れた、ジム"
    [158]
     0 StringTable data
      1 string Filename = "e3001_observationroomb_computer"
@@ -33601,45 +33601,45 @@
        [0]
         1 string data = " 何かキーを押してください..."
        [1]
-        1 string data = " Hack the computer."
+        1 string data = " コンピューターをハッキングする"
        [2]
-        1 string data = " Enter passcode."
+        1 string data = " パスコードを入力する"
        [3]
-        1 string data = " Break computer."
+        1 string data = " コンピューターを破壊する"
        [4]
         1 string data = " 立ち去る"
        [5]
-        1 string data = " The computer is now broken and can't trigger the D-con room trap."
+        1 string data = " コンピューターは破壊され、D-con室のトラップを起動できなくなった"
        [6]
-        1 string data = " Computer hacked."
+        1 string data = " コンピューターをハッキングした"
        [7]
-        1 string data = " Skill no high enough."
+        1 string data = " スキルが十分でない"
        [8]
-        1 string data = " Correct passcode entered."
+        1 string data = " 正しいパスコードが入力された"
        [9]
-        1 string data = " Wrong passcode entered."
+        1 string data = " 間違ったパスコードが入力された"
        [10]
-        1 string data = " Gain intel."
+        1 string data = " 情報を入手する"
        [11]
-        1 string data = "  Gain intel."
+        1 string data = "  情報を入手する"
        [12]
         1 string data = " 立ち去る"
        [13]
         1 string data = " 立ち去る"
        [14]
-        1 string data = " Try again?"
+        1 string data = " 再試行するか?"
        [15]
         1 string data = " 立ち去る"
        [16]
-        1 string data = " Two more failed attemps and the alarm will be triggered."
+        1 string data = " あと2回失敗すると警報が作動する"
        [17]
-        1 string data = " One more failed attemp and the alarm will be triggered."
+        1 string data = " あと1回失敗すると警報が作動する"
        [18]
-        1 string data = " Alarm is triggered."
+        1 string data = " 警報が作動した"
        [19]
-        1 string data = " Locked out."
+        1 string data = " ロックされた"
        [20]
-        1 string data = " It's dead Jim."
+        1 string data = " 完全に壊れた、ジム"
    [159]
     0 StringTable data
      1 string Filename = "e3001_recoverycryopad_empty"
@@ -33717,37 +33717,37 @@
       1 Array Array (16 items)
        0 int size = 16
        [0]
-        1 string data = " Check vitals..."
+        1 string data = " バイタルを確認..."
        [1]
-        1 string data = " Cryopod is empty..."
+        1 string data = " クライオポッドは空だ..."
        [2]
-        1 string data = " Tamper with Cryopod."
+        1 string data = " クライオポッドを改造する"
        [3]
-        1 string data = " Sabotage cryopod?"
+        1 string data = " クライオポッドを妨害工作するか?"
        [4]
-        1 string data = " Lockout cryopod controls?"
+        1 string data = " クライオポッドの制御をロックアウトするか?"
        [5]
         1 string data = " 立ち去る"
        [6]
-        1 string data = " Success, anybody using this cryopod will recieve damage not healing."
+        1 string data = " 成功。このクライオポッドを使用すると、治療ではなくダメージを受ける"
        [7]
-        1 string data = " Your skill is not high enough."
+        1 string data = " あなたのスキルは十分ではない"
        [8]
-        1 string data = " Success, nobody will be able to access the controlls to make the unit work."
+        1 string data = " 成功。誰もこのユニットを動作させるための制御にアクセスできなくなる"
        [9]
-        1 string data = " Your skill is not high enough."
+        1 string data = " あなたのスキルは十分ではない"
        [10]
-        1 string data = " This pod is setup to damage any Fader that tries to use it."
+        1 string data = " このポッドは、使用しようとするフェイダーにダメージを与えるように設定されている"
        [11]
-        1 string data = " This pod's controlls are locked out, nobody will be able to access it."
+        1 string data = " このポッドの制御はロックアウトされており、誰もアクセスできない"
        [12]
-        1 string data = " This is not the cryopod you are looking for."
+        1 string data = " これはあなたが探しているクライオポッドではない"
        [13]
-        1 string data = " Set cryopod to 1 for Sabotage"
+        1 string data = " 妨害工作のためにクライオポッドを1に設定"
        [14]
-        1 string data = " Set cryopod to 1 for lockout controls\n"
+        1 string data = " ロックアウト制御のためにクライオポッドを1に設定\n"
        [15]
-        1 string data = " Reset globals"
+        1 string data = " グローバルをリセット"
    [160]
     0 StringTable data
      1 string Filename = "e3001_recoverycryopad_empty01"
@@ -33825,37 +33825,37 @@
       1 Array Array (16 items)
        0 int size = 16
        [0]
-        1 string data = " Check vitals..."
+        1 string data = " バイタルを確認..."
        [1]
-        1 string data = " Cryopod is empty..."
+        1 string data = " クライオポッドは空だ..."
        [2]
-        1 string data = " Tamper with Cryopod."
+        1 string data = " クライオポッドを改造する"
        [3]
-        1 string data = " Sabotage cryopod?"
+        1 string data = " クライオポッドを妨害工作するか?"
        [4]
-        1 string data = " Lockout cryopod controls?"
+        1 string data = " クライオポッドの制御をロックアウトするか?"
        [5]
         1 string data = " 立ち去る"
        [6]
-        1 string data = " Success, anybody using this cryopod will recieve damage not healing."
+        1 string data = " 成功。このクライオポッドを使用すると、治療ではなくダメージを受ける"
        [7]
-        1 string data = " Your skill is not high enough."
+        1 string data = " あなたのスキルは十分ではない"
        [8]
-        1 string data = " Success, nobody will be able to access the controlls to make the unit work."
+        1 string data = " 成功。誰もこのユニットを動作させるための制御にアクセスできなくなる"
        [9]
-        1 string data = " Your skill is not high enough."
+        1 string data = " あなたのスキルは十分ではない"
        [10]
-        1 string data = " This pod is setup to damage any Fader that tries to use it."
+        1 string data = " このポッドは、使用しようとするフェイダーにダメージを与えるように設定されている"
        [11]
-        1 string data = " This pod's controlls are locked out, nobody will be able to access it."
+        1 string data = " このポッドの制御はロックアウトされており、誰もアクセスできない"
        [12]
-        1 string data = " This is not the cryopod you are looking for."
+        1 string data = " これはあなたが探しているクライオポッドではない"
        [13]
-        1 string data = " Set cryopod to 1 for Sabotage"
+        1 string data = " 妨害工作のためにクライオポッドを1に設定"
        [14]
-        1 string data = " Set cryopod to 1 for lockout controls\n"
+        1 string data = " ロックアウト制御のためにクライオポッドを1に設定\n"
        [15]
-        1 string data = " Reset globals"
+        1 string data = " グローバルをリセット"
    [161]
     0 StringTable data
      1 string Filename = "e3001_recoverycryopad_empty02"
@@ -33933,37 +33933,37 @@
       1 Array Array (16 items)
        0 int size = 16
        [0]
-        1 string data = " Check vitals..."
+        1 string data = " バイタルを確認..."
        [1]
-        1 string data = " Cryopod is empty..."
+        1 string data = " クライオポッドは空だ..."
        [2]
-        1 string data = " Tamper with Cryopod."
+        1 string data = " クライオポッドを改造する"
        [3]
-        1 string data = " Sabotage cryopod?"
+        1 string data = " クライオポッドを妨害工作するか?"
        [4]
-        1 string data = " Lockout cryopod controls?"
+        1 string data = " クライオポッドの制御をロックアウトするか?"
        [5]
         1 string data = " 立ち去る"
        [6]
-        1 string data = " Success, anybody using this cryopod will recieve damage not healing."
+        1 string data = " 成功。このクライオポッドを使用すると、治療ではなくダメージを受ける"
        [7]
-        1 string data = " Your skill is not high enough."
+        1 string data = " あなたのスキルは十分ではない"
        [8]
-        1 string data = " Success, nobody will be able to access the controlls to make the unit work."
+        1 string data = " 成功。誰もこのユニットを動作させるための制御にアクセスできなくなる"
        [9]
-        1 string data = " Your skill is not high enough."
+        1 string data = " あなたのスキルは十分ではない"
        [10]
-        1 string data = " This pod is setup to damage any Fader that tries to use it."
+        1 string data = " このポッドは、使用しようとするフェイダーにダメージを与えるように設定されている"
        [11]
-        1 string data = " This pod's controlls are locked out, nobody will be able to access it."
+        1 string data = " このポッドの制御はロックアウトされており、誰もアクセスできない"
        [12]
-        1 string data = " This is not the cryopod you are looking for."
+        1 string data = " これはあなたが探しているクライオポッドではない"
        [13]
-        1 string data = " Set cryopod to 1 for Sabotage"
+        1 string data = " 妨害工作のためにクライオポッドを1に設定"
        [14]
-        1 string data = " Set cryopod to 1 for lockout controls\n"
+        1 string data = " ロックアウト制御のためにクライオポッドを1に設定\n"
        [15]
-        1 string data = " Reset globals"
+        1 string data = " グローバルをリセット"
    [162]
     0 StringTable data
      1 string Filename = "e3001_recoverycryopad_empty03"
@@ -34041,37 +34041,37 @@
       1 Array Array (16 items)
        0 int size = 16
        [0]
-        1 string data = " Check vitals..."
+        1 string data = " バイタルを確認..."
        [1]
-        1 string data = " Cryopod is empty..."
+        1 string data = " クライオポッドは空だ..."
        [2]
-        1 string data = " Tamper with Cryopod."
+        1 string data = " クライオポッドを改造する"
        [3]
-        1 string data = " Sabotage cryopod?"
+        1 string data = " クライオポッドを妨害工作するか?"
        [4]
-        1 string data = " Lockout cryopod controls?"
+        1 string data = " クライオポッドの制御をロックアウトするか?"
        [5]
         1 string data = " 立ち去る"
        [6]
-        1 string data = " Success, anybody using this cryopod will recieve damage not healing."
+        1 string data = " 成功。このクライオポッドを使用すると、治療ではなくダメージを受ける"
        [7]
-        1 string data = " Your skill is not high enough."
+        1 string data = " あなたのスキルは十分ではない"
        [8]
-        1 string data = " Success, nobody will be able to access the controlls to make the unit work."
+        1 string data = " 成功。誰もこのユニットを動作させるための制御にアクセスできなくなる"
        [9]
-        1 string data = " Your skill is not high enough."
+        1 string data = " あなたのスキルは十分ではない"
        [10]
-        1 string data = " This pod is setup to damage any Fader that tries to use it."
+        1 string data = " このポッドは、使用しようとするフェイダーにダメージを与えるように設定されている"
        [11]
-        1 string data = " This pod's controlls are locked out, nobody will be able to access it."
+        1 string data = " このポッドの制御はロックアウトされており、誰もアクセスできない"
        [12]
-        1 string data = " This is not the cryopod you are looking for."
+        1 string data = " これはあなたが探しているクライオポッドではない"
        [13]
-        1 string data = " Set cryopod to 1 for Sabotage"
+        1 string data = " 妨害工作のためにクライオポッドを1に設定"
        [14]
-        1 string data = " Set cryopod to 1 for lockout controls\n"
+        1 string data = " ロックアウト制御のためにクライオポッドを1に設定\n"
        [15]
-        1 string data = " Reset globals"
+        1 string data = " グローバルをリセット"
    [163]
     0 StringTable data
      1 string Filename = "e3001_recoverycryopad_empty04"
