@@ -13579,21 +13579,21 @@
        [0]
         1 string data = ""
        [1]
-        1 string data = "Door sealed. Control terminal active.\n"
+        1 string data = "ドアは封印されている。制御端末は起動中。\n"
        [2]
-        1 string data = "Door sealed. Control terminal active. Gather the rest of your squad before proceeding."
+        1 string data = "ドアは封印されている。制御端末は起動中。先に進む前に、分隊の残りのメンバーを集めろ。"
        [3]
-        1 string data = "Use keypad to enter random numbers and letters."
+        1 string data = "キーパッドを使用してランダムな数字と文字を入力する。"
        [4]
-        1 string data = "Step away from the door."
+        1 string data = "ドアから離れる。"
        [5]
-        1 string data = "Enter access code 'OU812.'"
+        1 string data = "アクセスコード「OU812」を入力する。"
        [6]
-        1 string data = "Code accepted. Door opening."
+        1 string data = "コードが承認されました。ドアを開放します。"
        [7]
-        1 string data = "Passcode not recognized. Have a nice day."
+        1 string data = "パスコードが認識されませんでした。良い一日を。"
        [8]
-        1 string data = "Door sealed. Control terminal disabled."
+        1 string data = "ドアは封印されている。制御端末は停止。"
    [53]
     0 StringTable data
      1 string Filename = "e1001_carbuncle"
@@ -13927,165 +13927,165 @@
       1 Array Array (80 items)
        0 int size = 80
        [0]
-        1 string data = ""Don't suppose you'd ::slurp:: help us again?  We can offer food and supplies.""
+        1 string data = ""::slurp:: また手伝ってくれるとは思わないけど?食料と物資なら提供できる。""
        [1]
         1 string data = ""
        [2]
-        1 string data = ""This is wrong! You can't keep the Holy Detonation to yourselves!""
+        1 string data = ""これは間違っている!聖なる起爆を独り占めにしてはいけない!""
        [3]
-        1 string data = ""You can't keep the Holy Detonation to yourselves!""
+        1 string data = ""聖なる起爆を独り占めにしてはいけない!""
        [4]
-        1 string data = " Wrong! The Nucliests are now in control of the Holy Detonation. "
+        1 string data = " 間違っている!ニュークリスト派が今や聖なる起爆を支配している。"
        [5]
-        1 string data = " Surrender now and we will tribute your bodies as warmth for the great glow."
+        1 string data = " 今すぐ降伏せよ、そうすれば偉大なる輝きのための暖として、お前たちの体を捧げよう。"
        [6]
-        1 string data = ""What have the Nucleists done to keep you out?""
+        1 string data = ""ニュークリスト派はあなたたちを締め出すために何をした?""
        [7]
-        1 string data = ""If helping you is what we need to do to get in there, fine. We'll do it.""
+        1 string data = ""中に入るためにあなたたちを助ける必要があるなら、いいだろう。やってやる。""
        [8]
-        1 string data = ""Walk in the light of the Holy Detonation, friends!""
+        1 string data = ""聖なる起爆の光の中を歩め、友よ!""
        [9]
-        1 string data = ""Oh, yeah. Sorry. I'm just a bit shook up. All that ::slurp:: violence! Ugh! Lemme explain.""
+        1 string data = ""ああ、そうだ。すまない。ちょっと動揺していて。あの ::slurp:: 暴力!ウッ!説明させてくれ。""
        [10]
-        1 string data = ""I was afraid of this. The Nucleists have triggered a ::slurp:: security lockdown to seal the door to our camp!""
+        1 string data = ""心配していたことが起きた。ニュークリスト派が ::slurp:: セキュリティロックダウンを作動させてキャンプへのドアを封鎖した!""
        [11]
         1 string data = ""
        [12]
-        1 string data = ""How do we cancel the lockdown?""
+        1 string data = ""どうやってロックダウンを解除する?""
        [13]
-        1 string data = ""Is there any other way in?""
+        1 string data = ""他に入る方法はある?""
        [14]
-        1 string data = ""Don't think so. We'll just have to try to ::slurp:: cancel it. I think you can do that in the access control room over there. Maybe?""
+        1 string data = ""ないと思う。::slurp:: 解除を試すしかない。あそこのアクセス制御室でできると思う。たぶん?""
        [15]
-        1 string data = ""Er, I think there ::slurp:: might be a way in the access control room over there. Maybe?""
+        1 string data = ""ええと、あそこのアクセス制御室に ::slurp:: 方法があるかもしれない。たぶん?""
        [16]
-        1 string data = ""You don't know much about your own base, do you?""
+        1 string data = ""自分の基地のことをあまり知らないんだな?""
        [17]
-        1 string data = ""We're on it.""
+        1 string data = ""任せろ。""
        [18]
-        1 string data = ""May the light of the Holy Detonation shine upon you!""
+        1 string data = ""聖なる起爆の光があなたたちを照らしますように!""
        [19]
-        1 string data = ""Also, uh, apparently, the room pumps out more robots as necessary - which seemed like a feature when we thought they'd be used against intruders, but now that we're the intruders, well...""
+        1 string data = ""それから、えーと、どうやらその部屋は必要に応じてロボットを次々と生産するらしい。侵入者に対して使われると思っていた頃は良い機能だったけど、今じゃ俺たちが侵入者だから、まあ...""
        [20]
-        1 string data = ""Anyway, who knows? Maybe you'll be able to turn off the robot making machine before they detect you. You seem like the sort of people who could do that.""
+        1 string data = ""とにかく、わからない。たぶん奴らに見つかる前にロボット製造機を止められるかもしれない。あなたたちならそれができそうな人たちに見える。""
        [21]
-        1 string data = ""Leave it to us. We'll get the door open.""
+        1 string data = ""任せておけ。ドアを開けてやる。""
        [22]
-        1 string data = ""Oh boy.""
+        1 string data = ""おやまあ。""
        [23]
-        1 string data = ""S-sorry.""
+        1 string data = ""す、すまない。""
        [24]
-        1 string data = ""Hello again, ::slurp:: friends. How's it going getting through the door?""
+        1 string data = ""また会ったね、::slurp:: 友よ。ドアを抜ける作業はどう?""
        [25]
-        1 string data = ""What's our next step?""
+        1 string data = ""次のステップは何だ?""
        [26]
-        1 string data = ""You've gotta access the terminal in the ::slurp:: control room and cancel the lockdown. That'll unlock the inner door.""
+        1 string data = ""::slurp:: 制御室の端末にアクセスしてロックダウンを解除する必要がある。そうすれば内側のドアが開く。""
        [27]
-        1 string data = ""Our camp is inside. We can ::slurp:: talk more once we get in there.""
+        1 string data = ""俺たちのキャンプは中にある。中に入ったら ::slurp:: もっと話せる。""
        [28]
-        1 string data = ""You seem to be good folks. We'll help you out.""
+        1 string data = ""あなたたちは良い人たちみたいだ。手伝おう。""
        [29]
-        1 string data = ""That was ::slurp:: Deuterium picking his moment. Up 'til now there's been no fighting between the two sides, but I guess he ::slurp:: decided it was time. He knew just when to strike - the bastard."  "
+        1 string data = ""あれは ::slurp:: デューテリウムが好機を選んだんだ。今まで両派の間に戦闘はなかったけど、奴は ::slurp:: 時が来たと決めたんだろう。いつ攻撃すべきかわかっていた。あのクソ野郎が。"  "
        [30]
-        1 string data = ""See, in the beginning was the Holy Detonation, and us ::slurp:: worshippers were called Primordialists. We believe the Detonation's sacred glow will make us all ::slurp:: one, and we want to share it with the whole world.""
+        1 string data = ""ほら、始まりには聖なる起爆があって、俺たち ::slurp:: 崇拝者はプリモーディアリスト派と呼ばれていた。俺たちは起爆の神聖なる輝きが俺たち全員を ::slurp:: 一つにしてくれると信じていて、それを全世界と共有したいんだ。""
        [31]
-        1 string data = ""And I'm sorry to say it won't be easy. The system will keep pooping out robots until you shut down the fabricators. There's no other way to stop them.""
+        1 string data = ""そして残念ながら、簡単じゃない。製造機を停止するまで、システムは次々とロボットを排出し続ける。止める方法は他にない。""
        [32]
-        1 string data = ""Look for terminals inside the control room to shut down the fabricators. It's the only way to stop 'em.""
+        1 string data = ""制御室の中の端末を探して製造機を停止しろ。奴らを止める唯一の方法だ。""
        [33]
-        1 string data = ""The Glow belongs to-" ::slurp:: "-everyone!""
+        1 string data = ""輝きは-" ::slurp:: "-全ての者のものだ!""
        [34]
-        1 string data = ""Thanks for defending us, strangers. No way we'd have ::slurp:: survived without you.""
+        1 string data = ""守ってくれてありがとう、見知らぬ人たち。あなたたちがいなければ ::slurp:: 生き延びられなかった。""
        [35]
-        1 string data = ""As a proud Primordialist, I wanna welcome you to Cheyenne Mountain, but that's ::slurp:: impossible now. Those bastard Nucleists have made their move, and it looks like ::slurp:: we'll have to fight to get back in.""
+        1 string data = ""誇り高きプリモーディアリスト派として、シャイアン・マウンテンへようこそと言いたいけど、今は ::slurp:: 無理だ。あのクソ野郎のニュークリスト派が動き出したから、::slurp:: 中に戻るには戦わなければならないようだ。""
        [36]
         1 string data = ""
        [37]
-        1 string data = ""Nucleists? Primordialists? Slow down and take it from the beginning. Who are you people?""
+        1 string data = ""ニュークリスト派?プリモーディアリスト派?落ち着いて最初から話してくれ。あなたたちは何者だ?""
        [38]
-        1 string data = ""What was this battle we just helped you fight all about?""
+        1 string data = ""俺たちが手伝ったこの戦いは何だったんだ?""
        [39]
-        1 string data = ""Anyway, we gotta hurry back inside. They're ::slurp:: attacking our camp in there. I heard our brothers and sisters calling for us on the walkie. That damned Deuterium's trying to ::slurp:: wipe us out once and for all!""
+        1 string data = ""とにかく、急いで中に戻らなきゃ。奴らが ::slurp:: 中のキャンプを襲っている。無線で兄弟姉妹が俺たちを呼んでいるのが聞こえた。あのクソ野郎デューテリウムが ::slurp:: 俺たちを完全に一掃しようとしている!""
        [40]
-        1 string data = ""He musta heard our call to poor Theo, saying we'd ::slurp:: come out to welcome him, because when we got back, the Nucleists we're waiting for us.""
+        1 string data = ""奴は俺たちが哀れなテオに呼びかけて、::slurp:: 出て行って彼を歓迎すると言ったのを聞いたに違いない。だって俺たちが戻った時、ニュークリスト派が待ち伏せしていたんだ。""
        [41]
-        1 string data = ""Well, they locked the airlock for one thing. Nobody comes to Cheyenne usually, so we mostly keep it open. I've got a passcode for that, but I'm afraid of what else they've done.""
+        1 string data = ""まず、奴らはエアロックを施錠した。普段シャイアンには誰も来ないから、大抵開けっ放しにしてる。パスコードは持っているけど、他に何をされたか心配だ。""
        [42]
-        1 string data = ""But one of us, Deuterium, started saying the world wasn't worthy of the glow, and we should ::slurp:: keep it to ourselves. We called that heresy, so he went off and ::slurp:: started a cult, the Nucleists, and called himself an 'abbot.'""
+        1 string data = ""でも俺たちの一人、デューテリウムが世界は輝きに値しないから、::slurp:: 独り占めにすべきだと言い始めた。俺たちはそれを異端と呼んだから、奴は去って ::slurp:: カルト、ニュークリスト派を立ち上げて、自分を「修道院長」と名乗った。""
        [43]
-        1 string data = ""Since then the peaceful paradise that ::slurp:: Cheyenne Mountain used to be has become a hell hole. It's terrible.""
+        1 string data = ""それ以来、かつて ::slurp:: シャイアン・マウンテンだった平和な楽園は地獄と化した。ひどいもんだ。""
        [44]
-        1 string data = ""There are automated defensive systems. If they've turned those on, there may be angry robots between us and the our camp, and I don't exactly know how to turn them off again.""
+        1 string data = ""自動防衛システムがある。もし奴らがそれを起動していたら、俺たちとキャンプの間に怒り狂ったロボットがいるかもしれないし、どうやって止めるのか正確には知らない。""
        [45]
-        1 string data = ""Damn that Deuterium!""
+        1 string data = ""あのデューテリウムめ!""
        [46]
-        1 string data = ""Praise the great glow! Thank you, friends. Here's the ::slurp:: passcode for the airlock. You enter it into the terminal next to it.""
+        1 string data = ""偉大なる輝きを讃えよ!ありがとう、友よ。これがエアロックの ::slurp:: パスコードだ。隣にある端末に入力してくれ。""
        [47]
-        1 string data = ""Uh, before you go, the lockdown probably activated the room's robot defense system. They'll attack anyone who tries to enter.""
+        1 string data = ""ああ、行く前に言っておくけど、ロックダウンで部屋のロボット防衛システムが起動している可能性がある。入ろうとする者全員を攻撃するだろう。""
        [48]
-        1 string data = ""Goodbye.""
+        1 string data = ""さようなら。""
        [49]
-        1 string data = ""Walk in the glow, friends!""
+        1 string data = ""輝きの中を歩め、友よ!""
        [50]
-        1 string data = ""So I'm Brother Carbuncle, and my friends and I are ::slurp:: Primordialists. The ones we fought were Nucleists, and it ::slurp:: sucks that we're fighting at all. Those people used to be my friends!""
+        1 string data = ""俺はブラザー・カーバンクル、俺と友人たちは ::slurp:: プリモーディアリスト派だ。戦った相手はニュークリスト派で、::slurp:: 戦うこと自体がクソだ。あいつらは昔俺の友達だったんだ!""
        [51]
-        1 string data = ""Not right now. Sorry.""
+        1 string data = ""今はダメだ。すまない。""
        [52]
-        1 string data = ""Okay, alright. I just thought, since you ::slurp:: already... Well, fine. But, uh, if you change your mind, let me give you the ::slurp:: passcode for the airlock, just in case.""
+        1 string data = ""わかった、いいよ。ただ、あなたたちはもう ::slurp::...まあ、いいや。でも、もし気が変わったら、念のためエアロックの ::slurp:: パスコードを渡しておくよ。""
        [53]
-        1 string data = ""Go with the glow, friends.""
+        1 string data = ""輝きと共にあれ、友よ。""
        [54]
-        1 string data = ""Hello. ::slurp:: Have you come back to help us?""
+        1 string data = ""やあ。::slurp:: 助けに戻ってきてくれたのかい?""
        [55]
-        1 string data = ""Yes. Remind us what you want us to do?""
+        1 string data = ""ああ。何をして欲しいか思い出させてくれ?""
        [56]
-        1 string data = ""Sorry. No.""
+        1 string data = ""すまない。ダメだ。""
        [57]
-        1 string data = ""Oh, okay. That's cool.""
+        1 string data = ""ああ、わかった。いいよ。""
        [58]
-        1 string data = ""Use the passcode to open the airlock so we can ::slurp:: go help our brothers and sisters inside. And thank you!""
+        1 string data = ""パスコードを使ってエアロックを開けてくれれば、中の兄弟姉妹を助けに ::slurp:: 行ける。ありがとう!""
        [59]
-        1 string data = ""Door's open. Let's head inside before it's too late.""
+        1 string data = ""ドアが開いた。手遅れになる前に中に入ろう。""
        [60]
-        1 string data = ""The inner door to the base can be unlocked now.""
+        1 string data = ""基地への内側のドアが今解錠できる。""
        [61]
-        1 string data = ""Now that the robots have been defeated, I'd look in the access control room to find-" ::slurp:: "-some way to cancel the lockdown.""
+        1 string data = ""ロボットを倒したんだから、アクセス制御室を探して-" ::slurp:: "-ロックダウンを解除する方法を見つけるといい。""
        [62]
         1 string data = ""
        [63]
-        1 string data = ""Yeah, those things are ::slurp:: security beacons. You're gonna need to shut them off or they'll keep calling more ::slurp:: robot reinforcements." "
+        1 string data = ""ああ、あれは ::slurp:: セキュリティビーコンだ。止めないと、ずっと ::slurp:: ロボットの増援を呼び続ける。" "
        [64]
-        1 string data = ""How do we shut them down?""
+        1 string data = ""どうやって止める?""
        [65]
-        1 string data = ""Those switches over there will do it. All you gotta do is ::slurp:: get to them.""
+        1 string data = ""あそこのスイッチでできる。::slurp:: たどり着きさえすればいい。""
        [66]
-        1 string data = ""What's a security beacon?""
+        1 string data = ""セキュリティビーコンって何だ?""
        [67]
-        1 string data = ""They're gizmos for ::slurp:: detecting and identifying threats, and summoning reinforcements to deal with them - which is great when you're controling them. Not so good ::slurp:: for us.""
+        1 string data = ""::slurp:: 脅威を検知して識別し、それに対処するための増援を呼び出す装置だ。自分が操作しているときは最高だけどね。俺たちには ::slurp:: よくない。""
        [68]
-        1 string data = ""Thanks for info.""
+        1 string data = ""情報をありがとう。""
        [69]
-        1 string data = ""Walk in the glow, friends.""
+        1 string data = ""輝きの中を歩め、友よ。""
        [70]
-        1 string data = ""Thanks again for agreeing to help us. Do you ::slurp:: need anything?""
+        1 string data = ""助けてくれることに再び感謝する。何か ::slurp:: 必要なものはあるかい?""
        [71]
-        1 string data = ""And, thanks!""
+        1 string data = ""それと、ありがとう!""
        [72]
-        1 string data = ""We're almost inside!""
+        1 string data = ""もうすぐ中に入れる!""
        [73]
-        1 string data = ""Good luck!""
+        1 string data = ""幸運を!""
        [74]
-        1 string data = ""May the glow guide you!""
+        1 string data = ""輝きがあなたたちを導きますように!""
        [75]
-        1 string data = ""And what are you, exactly? You don't look... human.""
+        1 string data = ""あなたは正確には何者?人間には見えない...""
        [76]
-        1 string data = ""Oh, I am. I'm just devolved. <i>Gloriously</i> devolved, Father Bezoar says. Mutation hits us all ::slurp:: differently, and I went down the proto-drool path. Still got my voice though - kinda - but some folks lose that first. It all ::slurp:: depends.""
+        1 string data = ""ああ、人間だよ。ただ退化しただけ。<i>栄光に満ちた</i>退化だ、ファーザー・ベゾアーが言うには。突然変異は俺たち全員に ::slurp:: 違った形で影響するし、俺は原生よだれの道を行った。声はまだ残っている。まあね。でも最初に声を失う人もいる。全部 ::slurp:: 次第だ。""
        [77]
-        1 string data = ""Eventually I'll just be a big blob of ::slurp:: protoplasm. It'll be great!""
+        1 string data = ""最終的には ::slurp:: 原形質の大きな塊になる。最高だろう!""
        [78]
-        1 string data = ""What's that weird stuff blocking the door to that booth over there?""
+        1 string data = ""あそこのブースのドアを塞いでいる奇妙なものは何だ?""
        [79]
-        1 string data = ""Oh, that's a sarcoma cluster. They form all over the place in Cheyenne Mountain. Kinda hard to clear them once they gather like that. Sister ::slurp:: Melanoma could tell you more about them once we get inside. If we get inside.""
+        1 string data = ""ああ、あれは肉腫クラスターだ。シャイアン・マウンテン中のあちこちにできる。あんな風に集まると取り除くのは結構難しい。中に入れたら、シスター・::slurp:: メラノーマがもっと詳しく教えてくれるだろう。入れればの話だけど。""
    [54]
     0 StringTable data
      1 string Filename = "e1001_companions"
@@ -14419,159 +14419,159 @@
       1 Array Array (80 items)
        0 int size = 80
        [0]
-        1 string data = ""Oh, look! A little robot just like the ones at HQ.""
+        1 string data = ""ああ、見て!本部にあるのと同じ小さなロボットだ。""
        [1]
         1 string data = ""
        [2]
         1 string data = """"
        [3]
-        1 string data = ""Hey, it's a servitor. Just like back at base.""
+        1 string data = ""おい、サーヴィターだ。基地にいるのと同じだ。""
        [4]
-        1 string data = ""That computer probably opens that bot's cage.""
+        1 string data = ""あのコンピューターでおそらくそのボットの檻が開く。""
        [5]
-        1 string data = ""Whaddaya think <i>he's</i> in for?""
+        1 string data = ""<i>こいつ</i>が何をやったと思う?""
        [6]
-        1 string data = ""Oh, a servitor bot!""
+        1 string data = ""ああ、サーヴィターボット!""
        [7]
         1 string data = """"
        [8]
-        1 string data = ""A servitor bot. Wonder if it still works.""
+        1 string data = ""サーヴィターボットだ。まだ動くか不思議だ。""
        [9]
         1 string data = """"
        [10]
         1 string data = ""
        [11]
-        1 string data = ""Huh. Looks like we could drive the truck onto that plate.""
+        1 string data = ""ふーん。トラックをあのプレートに乗せられそうだ。""
        [12]
-        1 string data = ""That plate probably lowers those bollards.""
+        1 string data = ""あのプレートでおそらくボラードが下がる。""
        [13]
-        1 string data = ""That's a big pressure plate. Must be for a vehicle.""
+        1 string data = ""大きな圧力プレートだ。車両用に違いない。""
        [14]
-        1 string data = ""Looks like that pressure plate lowers those bollards.""
+        1 string data = ""あの圧力プレートでボラードが下がるみたいだ。""
        [15]
         1 string data = ""
        [16]
-        1 string data = ""Is that a pressure plate?""
+        1 string data = ""あれは圧力プレート?""
        [17]
         1 string data = ""
        [18]
-        1 string data = ""Big, old pressure plate. Probably for a truck.""
+        1 string data = ""大きくて古い圧力プレート。おそらくトラック用だ。""
        [19]
         1 string data = ""
        [20]
         1 string data = ""
        [21]
-        1 string data = ""Watch out! I don't think that leak is just steam!""
+        1 string data = ""気をつけろ!あの漏れは蒸気だけじゃないと思う!""
        [22]
-        1 string data = ""Watch it. That steam's radioactive.""
+        1 string data = ""気をつけろ。あの蒸気は放射性だ。""
        [23]
-        1 string data = ""Hang back. That steam looks radioactive.""
+        1 string data = ""下がれ。あの蒸気は放射性に見える。""
        [24]
-        1 string data = ""Be careful. I think that leak is more than just steam.""
+        1 string data = ""注意しろ。あの漏れは蒸気以上のものだと思う。""
        [25]
-        1 string data = ""Issis the sauna?""
+        1 string data = ""こりゃサウナかい?""
        [26]
-        1 string data = ""Hold on. That pipe is leaking more than steam.""
+        1 string data = ""待て。あのパイプは蒸気以上のものを漏らしている。""
        [27]
         1 string data = ""
        [28]
-        1 string data = ""Whoa. That steam is hot. And I don't just mean temperature.""
+        1 string data = ""うわ。あの蒸気は熱い。温度のことだけじゃない。""
        [29]
         1 string data = ""
        [30]
         1 string data = ""
        [31]
-        1 string data = ""Hey, cool! A vehicle elevator! Doesn't look like you can use it from here, though. Hmmm.""
+        1 string data = ""おい、すごい!車両用エレベーターだ!でもここからは使えないみたいだな。うーん。""
        [32]
         1 string data = ""
        [33]
-        1 string data = ""A vehicle elevator. Wonder where that goes.""
+        1 string data = ""車両用エレベーターだ。どこに行くんだろう。""
        [34]
-        1 string data = ""That must be a vehicle elevator. Wonder where it goes.""
+        1 string data = ""あれは車両用エレベーターに違いない。どこに行くんだろう。""
        [35]
-        1 string data = ""Iss an elevamator. How about that?""
+        1 string data = ""エレベーまーたーだ。どうだい?""
        [36]
-        1 string data = ""That looks like an elevator for trucks. Interesting.""
+        1 string data = ""あれはトラック用エレベーターに見える。面白い。""
        [37]
         1 string data = ""
        [38]
-        1 string data = ""Huh. A truck elevator. Good salvage in one of those.""
+        1 string data = ""ふん。トラック用エレベーターか。あの中にはいいサルベージがある。""
        [39]
         1 string data = ""
        [40]
         1 string data = ""
        [41]
-        1 string data = ""What the heck is that? Is it alive?""
+        1 string data = ""一体何だあれは?生きているのか?""
        [42]
-        1 string data = ""What's that muck?""
+        1 string data = ""あの汚物は何だ?""
        [43]
-        1 string data = ""What the hell is that stuff? Gross.""
+        1 string data = ""一体何だあれは?気持ち悪い。""
        [44]
-        1 string data = ""Fascinating. It's some sort of organic matter. Looks like... giant cancer cells.""
+        1 string data = ""興味深い。何らかの有機物だ。見たところ...巨大なガン細胞だ。""
        [45]
-        1 string data = ""Ugh. Somebody puked over there. A lot.""
+        1 string data = ""うげ。誰かがあそこで吐いたな。大量に。""
        [46]
-        1 string data = ""Gross. What is that stuff?""
+        1 string data = ""気持ち悪い。あれは何だ?""
        [47]
-        1 string data = ""Ewww. That stuff's disgusting.""
+        1 string data = ""うえー。あれは気持ち悪い。""
        [48]
-        1 string data = ""Is that meat? What is it?""
+        1 string data = ""あれは肉?何だ?""
        [49]
-        1 string data = ""That's disgusting. Looks like Godzilla puked over there.""
+        1 string data = ""気持ち悪い。ゴジラがあそこで吐いたみたいだ。""
        [50]
         1 string data = ""
        [51]
-        1 string data = ""Look at that door! What is this place!?""
+        1 string data = ""あのドアを見ろ!ここは一体どんな場所だ!?""
        [52]
-        1 string data = ""With a door like that, I could keep out an army.""
+        1 string data = ""あんなドアがあれば、軍隊を締め出せる。""
        [53]
-        1 string data = ""Impressive front door. What kind of place is this?""
+        1 string data = ""印象的な玄関ドアだ。ここはどんな場所だ?""
        [54]
-        1 string data = ""That door is immense. What does it protect, I wonder?""
+        1 string data = ""あのドアは巨大だ。一体何を守っているんだろう?""
        [55]
-        1 string data = ""Aw, place is closed. Izzit past closin' time already?""
+        1 string data = ""おや、閉まっているぞ。もう閉店時間かい?""
        [56]
-        1 string data = ""Not even the Patriarch has a door like that. What is this place.""
+        1 string data = ""総主教でさえあんなドアは持っていない。ここは何だ。""
        [57]
-        1 string data = ""You know what big doors mean, right? Big loot!""
+        1 string data = ""大きなドアが何を意味するか知っているだろ?大きな戦利品だ!""
        [58]
-        1 string data = ""Fuck. Even at a buck a pound, that door would make me a millionaire.""
+        1 string data = ""くそ。1ポンド1ドルでも、あのドアで大金持ちになれる。""
        [59]
         1 string data = ""
        [60]
         1 string data = ""
        [61]
-        1 string data = ""Toxic waste all over this place. Watch your step.""
+        1 string data = ""この場所中に有毒廃棄物がある。足元に気をつけろ。""
        [62]
-        1 string data = ""Radioactive sludge in those things. Keep your distance.""
+        1 string data = ""あれらの中に放射性汚泥がある。距離を保て。""
        [63]
-        1 string data = ""Toxic waste all over this place. Watch your step.""
+        1 string data = ""この場所中に有毒廃棄物がある。足元に気をつけろ。""
        [64]
-        1 string data = ""Why is all this toxic waste here? Are they trying to scare us away?""
+        1 string data = ""なぜこんなに有毒廃棄物があるんだ?俺たちを怖がらせようとしているのか?""
        [65]
-        1 string data = ""Izzat Snake Squeezins in them barrels?""
+        1 string data = ""あの樽にゃスネーク・スクイージンズが入ってるのかい?""
        [66]
-        1 string data = ""Those barrels look radioactive. Be careful.""
+        1 string data = ""あの樽は放射性に見える。気をつけろ。""
        [67]
-        1 string data = ""Toxic waste. Best party prank ever.""
+        1 string data = ""有毒廃棄物。史上最高のパーティーいたずらだ。""
        [68]
-        1 string data = ""Watch out. Radioactive waste in those barrels.""
+        1 string data = ""気をつけろ。あの樽には放射性廃棄物がある。""
        [69]
-        1 string data = ""Oh, look! Toxic waste! And I don't mean you assholes this time.""
+        1 string data = ""ああ、見ろ!有毒廃棄物だ!今回はお前らクソ野郎のことじゃないぞ。""
        [70]
         1 string data = ""
        [71]
-        1 string data = ""Looks like that vent might lead to that security room.""
+        1 string data = ""あの通気口はあのセキュリティルームに通じているみたいだ。""
        [72]
-        1 string data = ""Might be able to get into that security room through that vent.""
+        1 string data = ""あの通気口を通ってあのセキュリティルームに入れるかもしれない。""
        [73]
-        1 string data = ""Hmmm. Could get to that security room through that vent, maybe.""
+        1 string data = ""うーん。あの通気口を通ってあのセキュリティルームに行けるかもしれない。""
        [74]
-        1 string data = ""I think that vent could lead to the security room. Might be worth a look.""
+        1 string data = ""あの通気口がセキュリティルームに通じていると思う。見る価値があるかもしれない。""
        [75]
         1 string data = ""
        [76]
-        1 string data = ""Is there a way to that security room through this vent?""
+        1 string data = ""この通気口を通ってあのセキュリティルームへ行く方法はある?""
        [77]
         1 string data = """"
        [78]
@@ -14683,49 +14683,49 @@
       1 Array Array (23 items)
        0 int size = 23
        [0]
-        1 string data = "Maintenance Management System online. Please enter your command:"
+        1 string data = "メンテナンス管理システム起動中。コマンドを入力してください:"
        [1]
-        1 string data = "Open maintenance robot storage."
+        1 string data = "メンテナンスロボット格納庫を開ける。"
        [2]
-        1 string data = "Exit."
+        1 string data = "終了。"
        [3]
-        1 string data = "Logging off."
+        1 string data = "ログオフします。"
        [4]
-        1 string data = "Opening maintenance robot storage."
+        1 string data = "メンテナンスロボット格納庫を開放中。"
        [5]
-        1 string data = "Check maintenance robot status."
+        1 string data = "メンテナンスロボットの状態を確認する。"
        [6]
-        1 string data = "Status: Offline. Location unknown."
+        1 string data = "状態: オフライン。所在不明。"
        [7]
-        1 string data = "Status: low power. Battery defect detected."
+        1 string data = "状態: 低電力。バッテリー欠陥検出。"
        [8]
-        1 string data = "Check maintenance management logs."
+        1 string data = "メンテナンス管理ログを確認する。"
        [9]
-        1 string data = "There are more than a hundred years of daily logs to scroll through. All the pre-Deluge logs are similar, detailing minor repairs and regularly scheduled maintenance. Ranking the files by bit size, you are able to find a few logs with more incidents."
+        1 string data = "100年以上の日次ログをスクロールする必要がある。大洪水前のログはすべて似ており、軽微な修理と定期メンテナンスが記録されている。ファイルをビットサイズで順位付けすると、より多くのインシデントがあるログをいくつか見つけることができる。"
        [10]
-        1 string data = "Read the log for March 21, 1998."
+        1 string data = "1998年3月21日のログを読む。"
        [11]
-        1 string data = "Read the log for May 26, 2021."
+        1 string data = "2021年5月26日のログを読む。"
        [12]
-        1 string data = "Read the log for February 9, 2106."
+        1 string data = "2106年2月9日のログを読む。"
        [13]
-        1 string data = "The log is over fifty pages long. It begins:\n\n\n-Auto Repair Request - Structural damage to entrance tunnel\n-Auto Repair Request - Power outage all levels\n-Auto Repair Request - Ceiling collapse L3\n-Auto Repair Request - Broken pipes L2\n"
+        1 string data = "ログは50ページ以上ある。冒頭はこう始まる:\n\n\n-自動修理リクエスト - 入口トンネルの構造損傷\n-自動修理リクエスト - 全レベル停電\n-自動修理リクエスト - L3天井崩落\n-自動修理リクエスト - L2パイプ破損\n"
        [14]
-        1 string data = "-Auto Repair Request - Damage to entrance tunnel turrets and main door\n-Auto Repair Request - Bullet holes in tunnel floor\n-Auto Maintenance Request - Dispose of corpses and clean up blood stains"
+        1 string data = "-自動修理リクエスト - 入口トンネルタレットとメインドアの損傷\n-自動修理リクエスト - トンネル床の銃弾穴\n-自動メンテナンスリクエスト - 死体処理と血痕清掃"
        [15]
-        1 string data = "-New Maintenance Admin added: B. Bezoar\n-B. Bezoar Maintenance Request - Clean entrance tunnel\n-B. Bezoar Repair Request - Fix main doors\n-B. Bezoar Repair Request - Fix loading dock elevator\n-B. Bezoar Maintenance Request - Replace lightbulbs"
+        1 string data = "-新メンテナンス管理者追加: B. ベゾアー\n-B. ベゾアー メンテナンスリクエスト - 入口トンネル清掃\n-B. ベゾアー 修理リクエスト - メインドア修理\n-B. ベゾアー 修理リクエスト - 積荷ドックエレベーター修理\n-B. ベゾアー メンテナンスリクエスト - 電球交換"
        [16]
-        1 string data = "Read the log for June 30, 2079."
+        1 string data = "2079年6月30日のログを読む。"
        [17]
-        1 string data = "-Auto Maintenance Request - Clean up animal feces and bones in entrance tunnel\n-Auto Maintenance Request - Clean up animal feces and bones in entrance tunnel\n-Auto Maintenance Request - Clean up animal feces and bones in entrance tunnel"
+        1 string data = "-自動メンテナンスリクエスト - 入口トンネルの動物の糞と骨の清掃\n-自動メンテナンスリクエスト - 入口トンネルの動物の糞と骨の清掃\n-自動メンテナンスリクエスト - 入口トンネルの動物の糞と骨の清掃"
        [18]
-        1 string data = "Read the log for March 22, 1998."
+        1 string data = "1998年3月22日のログを読む。"
        [19]
-        1 string data = "The log is identical to the previous day's log, except for a note next to almost every repair request. 'Unable to complete. Entrance locked.'"
+        1 string data = "ログは前日のログと同一だが、ほぼすべての修理リクエストの横にメモがある。「完了不能。入口施錠」"
        [20]
-        1 string data = "Return to Main Menu."
+        1 string data = "メインメニューに戻る。"
        [21]
-        1 string data = "Maintenance Management System online. Please enter your command:"
+        1 string data = "メンテナンス管理システム起動中。コマンドを入力してください:"
        [22]
         1 string data = ""
    [56]
@@ -14773,21 +14773,21 @@
       1 Array Array (8 items)
        0 int size = 8
        [0]
-        1 string data = "Door sealed. Terminal active. Please enter your command:"
+        1 string data = "ドア封鎖。端末起動中。コマンドを入力してください:"
        [1]
-        1 string data = "Open access control room."
+        1 string data = "アクセス制御室を開ける。"
        [2]
-        1 string data = "Opening door."
+        1 string data = "ドアを開放中。"
        [3]
-        1 string data = "Step away from the door."
+        1 string data = "ドアから離れる。"
        [4]
-        1 string data = "Logging off."
+        1 string data = "ログオフします。"
        [5]
         1 string data = "::beep::"
        [6]
         1 string data = ""
        [7]
-        1 string data = "Door sealed. Terminal active. Gather the rest of your squad before proceeding."
+        1 string data = "ドア封鎖。端末起動中。先に進む前に、分隊の残りのメンバーを集めろ。"
    [57]
     0 StringTable data
      1 string Filename = "e1001_computer_security"
@@ -14837,21 +14837,21 @@
       1 Array Array (9 items)
        0 int size = 9
        [0]
-        1 string data = "Entry Control System online. Please enter your command:"
+        1 string data = "入場制御システム起動中。コマンドを入力してください:"
        [1]
-        1 string data = "Check security status."
+        1 string data = "セキュリティ状態を確認する。"
        [2]
-        1 string data = "Deactivate security lockdown."
+        1 string data = "セキュリティロックダウンを解除する。"
        [3]
-        1 string data = "Exit."
+        1 string data = "終了。"
        [4]
-        1 string data = "Security lockdown deactivated."
+        1 string data = "セキュリティロックダウン解除。"
        [5]
-        1 string data = "Security lockdown activated."
+        1 string data = "セキュリティロックダウン起動。"
        [6]
-        1 string data = "Logging off."
+        1 string data = "ログオフします。"
        [7]
-        1 string data = "Security lockdown deactivated."
+        1 string data = "セキュリティロックダウン解除。"
        [8]
         1 string data = ""
    [58]
@@ -14925,31 +14925,31 @@
        [0]
         1 string data = ""
        [1]
-        1 string data = "The entrance to Cheyenne is sealed by a heavy airlock door."
+        1 string data = "シャイアンの入口は重厚なエアロックドアで封鎖されている。"
        [2]
         1 string data = "::beep::"
        [3]
-        1 string data = "Enter access code."
+        1 string data = "アクセスコードを入力する。"
        [4]
-        1 string data = "Examine the door."
+        1 string data = "ドアを調べる。"
        [5]
-        1 string data = "Step away from the door."
+        1 string data = "ドアから離れる。"
        [6]
-        1 string data = "There is a series of muffled clicks as the door's mag locks disengage."
+        1 string data = "ドアの電磁ロックが解除される際の、くぐもったカチカチという音が連続する。"
        [7]
-        1 string data = "ALERT: Security lockdown in progress. No entry to base at this time."
+        1 string data = "警告: セキュリティロックダウン進行中。現時点で基地への入場不可。"
        [8]
-        1 string data = "Door opening."
+        1 string data = "ドア開放中。"
        [9]
-        1 string data = "Open the door."
+        1 string data = "ドアを開ける。"
        [10]
         1 string data = ""
        [11]
-        1 string data = "ALERT: Security lockdown in progress. No entry to base at this time."
+        1 string data = "警告: セキュリティロックダウン進行中。現時点で基地への入場不可。"
        [12]
-        1 string data = "Open door."
+        1 string data = "ドアを開ける。"
        [13]
-        1 string data = "Step away from the door."
+        1 string data = "ドアから離れる。"
    [59]
     0 StringTable data
      1 string Filename = "e1001_nucleist"
