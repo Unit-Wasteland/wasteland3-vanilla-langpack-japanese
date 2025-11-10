@@ -12499,15 +12499,15 @@
       1 Array Array (5 items)
        0 int size = 5
        [0]
-        1 string data = " Hello, how may I help you?"
+        1 string data = " こんにちは、どのようなご用件ですか?"
        [1]
-        1 string data = " Error..."
+        1 string data = " エラー..."
        [2]
-        1 string data = " Heal me."
+        1 string data = " 治療してくれ。"
        [3]
-        1 string data = " Goodbye."
+        1 string data = " さようなら。"
        [4]
-        1 string data = " You are healed."
+        1 string data = " 治療完了です。"
    [44]
     0 StringTable data
      1 string Filename = "e1001_fader_companion"
@@ -12681,85 +12681,85 @@
       1 Array Array (40 items)
        0 int size = 40
        [0]
-        1 string data = " FADER companion speaks."
+        1 string data = " FADERの仲間が話す。"
        [1]
-        1 string data = "Goodbye"
+        1 string data = "さようなら"
        [2]
-        1 string data = " Player responds."
+        1 string data = " プレイヤーが応答する。"
        [3]
-        1 string data = " FADER companion speaks again."
+        1 string data = " FADERの仲間が再び話す。"
        [4]
-        1 string data = "Goodbye"
+        1 string data = "さようなら"
        [5]
-        1 string data = " Goodbye"
+        1 string data = " さようなら"
        [6]
-        1 string data = " Press for info."
+        1 string data = " 情報を求める。"
        [7]
-        1 string data = " Goodbye"
+        1 string data = " さようなら"
        [8]
-        1 string data = " FADER companion spills the beans."
+        1 string data = " FADERの仲間が秘密を明かす。"
        [9]
-        1 string data = " Press for more info."
+        1 string data = " さらに情報を求める。"
        [10]
-        1 string data = " Goodbye"
+        1 string data = " さようなら"
        [11]
-        1 string data = " FADER companion spills more beans."
+        1 string data = " FADERの仲間がさらに秘密を明かす。"
        [12]
-        1 string data = " Player responds."
+        1 string data = " プレイヤーが応答する。"
        [13]
-        1 string data = " Player presses for info."
+        1 string data = " プレイヤーが情報を求める。"
        [14]
-        1 string data = " Goodbye"
+        1 string data = " さようなら"
        [15]
-        1 string data = " Fader companion speaks again."
+        1 string data = " Faderの仲間が再び話す。"
        [16]
-        1 string data = " Goodbye"
+        1 string data = " さようなら"
        [17]
-        1 string data = " Fader acts like it has no idea."
+        1 string data = " Faderが何も知らないふりをする。"
        [18]
-        1 string data = " Player presses again for more info."
+        1 string data = " プレイヤーが再度情報を求める。"
        [19]
-        1 string data = " Like Inigo Montoya says, Back to the beginning..."
+        1 string data = " イニゴ・モントーヤの言葉通り、最初に戻る..."
        [20]
-        1 string data = " Fader gives info to the player. There are sensors and cameras hidden throughout the area to detect trespassers and the FADERs use robots as the first line of defense"
+        1 string data = " Faderがプレイヤーに情報を与える。エリア全体にセンサーとカメラが隠されており、侵入者を検知し、FADERは第一防衛線としてロボットを使用している"
        [21]
-        1 string data = " Like Inigo Montoya says, Back to the beginning..."
+        1 string data = " イニゴ・モントーヤの言葉通り、最初に戻る..."
        [22]
-        1 string data = " Player ask for general information."
+        1 string data = " プレイヤーが一般的な情報を求める。"
        [23]
-        1 string data = " Fader explains that the Mountain is designed to deter trespassers without revealing the FADER presence."
+        1 string data = " FaderがFADERの存在を明かすことなく侵入者を阻止するように設計されていることを説明する。"
        [24]
-        1 string data = " Like Inigo Montoya says, Back to the beginning..."
+        1 string data = " イニゴ・モントーヤの言葉通り、最初に戻る..."
        [25]
-        1 string data = " Goodbye"
+        1 string data = " さようなら"
        [26]
-        1 string data = " Player ask if the Fader wants to group up."
+        1 string data = " プレイヤーがFaderに合流を求める。"
        [27]
-        1 string data = " Fader says sure why not, we should search for the Deployment Records computer on the first floor of Cheyenne Mountain"
+        1 string data = " Faderがもちろんと答え、シャイアンマウンテンの1階にある配備記録コンピューターを探すべきだと言う"
        [28]
-        1 string data = " Let's Roll out. THE PLAYER GETS THE FADDER AS A COMPANION."
+        1 string data = " 出発しよう。プレイヤーがFADDERを仲間に得る。"
        [29]
-        1 string data = " RESET VARIABLES."
+        1 string data = " 変数リセット。"
        [30]
-        1 string data = " What'cha you want!"
+        1 string data = " 何の用だ!"
        [31]
         1 string data = "Script Node 41"
        [32]
-        1 string data = " "Rangers! Pull over!""
+        1 string data = " "レンジャー! 止まれ!""
        [33]
         1 string data = "Script Node 44"
        [34]
-        1 string data = " Debug options."
+        1 string data = " デバッグオプション。"
        [35]
-        1 string data = " What debug options do you want?"
+        1 string data = " どのデバッグオプションが必要だ?"
        [36]
         1 string data = "Script Node 48"
        [37]
-        1 string data = " Hey Rangers, I want your help finding my friends. Can I join your party and give you my quest?"
+        1 string data = " やあレンジャー、仲間を探すのを手伝ってほしい。パーティーに加わってクエストを渡してもいいか?"
        [38]
-        1 string data = " Yes, join up."
+        1 string data = " ああ、合流しよう。"
        [39]
-        1 string data = " No."
+        1 string data = " いや。"
    [45]
     0 StringTable data
      1 string Filename = "e1001_fader_gateguard"
@@ -12821,13 +12821,13 @@
       1 Array Array (12 items)
        0 int size = 12
        [0]
-        1 string data = " Enemy NPC says something when Fader Companion is in party. Fader companion says something back then combat begins."
+        1 string data = " Faderの仲間がパーティーにいる場合、敵NPCが何か言う。Faderの仲間が何か言い返してから戦闘が始まる。"
        [1]
-        1 string data = " Enemy NPC says something when Fader Companion is not in party. Player says something back then combat begins."
+        1 string data = " Faderの仲間がパーティーにいない場合、敵NPCが何か言う。プレイヤーが何か言い返してから戦闘が始まる。"
        [2]
         1 string data = """"
        [3]
-        1 string data = ""We are Desert Rangers.""
+        1 string data = ""俺たちはデザートレンジャーだ。""
        [4]
         1 string data = """"
        [5]
@@ -12835,15 +12835,15 @@
        [6]
         1 string data = """"
        [7]
-        1 string data = ""Orders are to shoot all non-military intruders.""
+        1 string data = ""命令は軍関係者以外の侵入者を全員射殺することだ。""
        [8]
-        1 string data = "Attack him first."
+        1 string data = "先に攻撃する。"
        [9]
-        1 string data = ""The Desert Rangers are a division of the United States Military. Call it in if you don't believe us." "
+        1 string data = ""デザートレンジャーはアメリカ軍の一部門だ。信じないなら確認を取ってみろ。" "
        [10]
-        1 string data = "He picks up the radio, his gun never wavering from you. You can't hear much of the conversation - quiet muttering, and then: "Are you sure, sir?... yes, sir.""
+        1 string data = "彼は無線を取り、銃口を君たちから逸らすことなく話し始めた。会話の大半は聞き取れないが、静かなつぶやきの後にこう言った。"確かですか、サー?...了解しました、サー。""
        [11]
-        1 string data = "He sets down the receiver and, a moment later, opens fire!"
+        1 string data = "彼は受話器を置き、そして一瞬後、発砲した!"
    [46]
     0 StringTable data
      1 string Filename = "e1001_leftventinteraction_entrance"
@@ -12885,19 +12885,19 @@
       1 Array Array (7 items)
        0 int size = 7
        [0]
-        1 string data = " Computer: Enter Passcode..."
+        1 string data = " コンピューター: パスコードを入力..."
        [1]
-        1 string data = " Player enters the right code"
+        1 string data = " プレイヤーが正しいコードを入力する"
        [2]
-        1 string data = " Player enters the wrong code"
+        1 string data = " プレイヤーが間違ったコードを入力する"
        [3]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [4]
-        1 string data = " Vent opens & the player can enter."
+        1 string data = " 通気孔が開き、プレイヤーが入れるようになる。"
        [5]
-        1 string data = " The explodes, damages the player and alerts the Faders."
+        1 string data = " 爆発し、プレイヤーにダメージを与え、Faderに警報が鳴る。"
        [6]
-        1 string data = " You shall not pass!\n\n\n(you entered the wrong code and the vent went boom)"
+        1 string data = " 汝、通るべからず!\n\n\n(間違ったコードを入力したため通気孔が爆発した)"
    [47]
     0 StringTable data
      1 string Filename = "e1001_quid_pro_go_merchant"
@@ -13031,65 +13031,65 @@
       1 Array Array (30 items)
        0 int size = 30
        [0]
-        1 string data = "The robot is powered down. It looks like someone stole its battery - possibly to power their car."
+        1 string data = "ロボットは電源が切れている。誰かがバッテリーを盗んだようだ - おそらく車の動力源にするために。"
        [1]
-        1 string data = " Fix robot with X skill."
+        1 string data = " Xスキルでロボットを修理する。"
        [2]
-        1 string data = ""Goodbye.""
+        1 string data = ""さようなら。""
        [3]
-        1 string data = " Thank you for fixing me."
+        1 string data = " 修理してくれてありがとう。"
        [4]
-        1 string data = " How can I help you."
+        1 string data = " どのようなご用件でしょうか。"
        [5]
-        1 string data = " Show me what you got. OPEN MERCHANT STORE."
+        1 string data = " 商品を見せてくれ。商人ストアを開く。"
        [6]
-        1 string data = " Die in a fire, START COMBAT."
+        1 string data = " 焼け死んでしまえ、戦闘開始。"
        [7]
-        1 string data = " Goodbye."
+        1 string data = " さようなら。"
        [8]
-        1 string data = " REST VARIABLES."
+        1 string data = " 変数リセット。"
        [9]
-        1 string data = " Welcome back."
+        1 string data = " お帰りなさい。"
        [10]
-        1 string data = ""Reboot. Power cycle override. Please be patient during diagnostics."\n\n\nAfter a few moments, it declares, "Diagnostics complete. This unit must begin tidying procedures."\n\n\nIt begins to scan the area."
+        1 string data = ""再起動中。電源サイクルオーバーライド。診断中はしばらくお待ちください。"\n\n\nしばらくして、ロボットは宣言した。"診断完了。このユニットは整頓作業を開始しなければなりません。"\n\n\nエリアのスキャンを始めた。"
        [11]
         1 string data = """"
        [12]
-        1 string data = "Play as written. (move Talk nodes to root when Debug is deleted)"
+        1 string data = "書かれた通りにプレイ。(デバッグが削除されたらトークノードをルートに移動)"
        [13]
-        1 string data = "Debug."
+        1 string data = "デバッグ。"
        [14]
-        1 string data = "Cool. What options do you want?"
+        1 string data = "よし。どのオプションが必要だ?"
        [15]
-        1 string data = ""Tidying procedure continues. Materials acquired. Query: interest in trade?""
+        1 string data = ""整頓作業継続中。資材を取得しました。質問: 取引に興味はありますか?""
        [16]
-        1 string data = "Reset all variables: Attacked, Dead, Fixed."
+        1 string data = "すべての変数をリセット: 攻撃、死亡、修理済み。"
        [17]
-        1 string data = "Anything else?"
+        1 string data = "他に何か?"
        [18]
-        1 string data = ""Please return to assess value of tidied materials in future.""
+        1 string data = ""今後、整頓された資材の価値を評価するために再度お越しください。""
        [19]
-        1 string data = ""What do you have for trade?""
+        1 string data = ""何を取引できるんだ?""
        [20]
-        1 string data = ""Who are you?""
+        1 string data = ""君は何者だ?""
        [21]
-        1 string data = ""You've been here for a while. Tell me about this place.""
+        1 string data = ""ここにしばらくいたようだな。この場所について教えてくれ。""
        [22]
-        1 string data = ""Do you understand humor?""
+        1 string data = ""ユーモアは理解できるのか?""
        [23]
-        1 string data = ""This unit is honored. Please peruse stock.""
+        1 string data = ""このユニットは光栄です。在庫をご覧ください。""
        [24]
-        1 string data = ""This unit is designated QPG-400. Previous owners have referred to it as Quid Pro Go. They declared this a humorous designation.""
+        1 string data = ""このユニットはQPG-400として指定されています。前の所有者たちはQuid Pro Goと呼んでいました。彼らはこれがユーモラスな名称だと言いました。""
        [25]
-        1 string data = ""Humor: the quality of being amusing or comic. None of these features have been incorporated into this operating system.""
+        1 string data = ""ユーモア: 面白いまたは滑稽である性質。これらの機能はこのオペレーティングシステムに組み込まれていません。""
        [26]
-        1 string data = ""Environmental conditions have changed since last system restore. Tidying procedure requires readjustment and reprioritization."\n\n\nIt beeps."
+        1 string data = ""最後のシステム復元以降、環境条件が変化しています。整頓作業には再調整と優先順位の見直しが必要です。"\n\n\nビープ音が鳴った。"
        [27]
         1 string data = ""
        [28]
-        1 string data = "Insert car battery to power the robot."
+        1 string data = "車のバッテリーを挿入してロボットに電源を入れる。"
        [29]
-        1 string data = "Leave the robot alone."
+        1 string data = "ロボットをそのままにしておく。"
    [48]
     0 StringTable data
      1 string Filename = "e1001_rightventinteraction_entrance"
@@ -13131,19 +13131,19 @@
       1 Array Array (7 items)
        0 int size = 7
        [0]
-        1 string data = " Computer: Enter Passcode..."
+        1 string data = " コンピューター: パスコードを入力..."
        [1]
-        1 string data = " You shall not pass!\n\n\n(you entered the wrong code and the vent went boom)"
+        1 string data = " 汝、通るべからず!\n\n\n(間違ったコードを入力したため通気孔が爆発した)"
        [2]
-        1 string data = " Player enters the right code"
+        1 string data = " プレイヤーが正しいコードを入力する"
        [3]
-        1 string data = " Player enters the wrong code"
+        1 string data = " プレイヤーが間違ったコードを入力する"
        [4]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [5]
-        1 string data = " Vent opens & the player can enter."
+        1 string data = " 通気孔が開き、プレイヤーが入れるようになる。"
        [6]
-        1 string data = " The explodes, damages the player and alerts the Faders."
+        1 string data = " 爆発し、プレイヤーにダメージを与え、Faderに警報が鳴る。"
    [49]
     0 StringTable data
      1 string Filename = "e1001_vr_holo_gateguard"
@@ -13209,31 +13209,31 @@
       1 Array Array (13 items)
        0 int size = 13
        [0]
-        1 string data = " Howdy folks. How can I help you?"
+        1 string data = " やあ、皆さん。どのようなご用件ですか?"
        [1]
-        1 string data = " We are the Rangers."
+        1 string data = " 俺たちはレンジャーだ。"
        [2]
-        1 string data = " To crush your enemies. See them driven before you. And to hear the lamentations of their women."
+        1 string data = " 敵を粉砕し、追い立てられる姿を見て、女たちの嘆きを聞くためだ。"
        [3]
-        1 string data = " Goodbye."
+        1 string data = " さようなら。"
        [4]
-        1 string data = " Goodbye now."
+        1 string data = " ではさようなら。"
        [5]
-        1 string data = " Nice to meet ya, who are you here to see today?"
+        1 string data = " お会いできて嬉しいです、今日はどなたに会いに来られましたか?"
        [6]
-        1 string data = " We are here to see General Hendrix."
+        1 string data = " ヘンドリックス将軍に会いに来た。"
        [7]
-        1 string data = " Your mother."
+        1 string data = " お前の母親だ。"
        [8]
-        1 string data = " Goodbye."
+        1 string data = " さようなら。"
        [9]
-        1 string data = " Goodbye now."
+        1 string data = " ではさようなら。"
        [10]
-        1 string data = " Sorry, I don't understand that statement."
+        1 string data = " 申し訳ございませんが、その発言は理解できません。"
        [11]
-        1 string data = " Wounderful, please proceed. Also make sure your badge is displayed at all times."
+        1 string data = " 素晴らしい、どうぞお進みください。また、バッジは常に表示してください。"
        [12]
-        1 string data = " Goodbye now, make sure your badge is displayed at all times."
+        1 string data = " ではさようなら、バッジは常に表示してくださいね。"
    [50]
     0 StringTable data
      1 string Filename = "e1001_vr_holo_guide_entrance"
@@ -13275,19 +13275,19 @@
       1 Array Array (7 items)
        0 int size = 7
        [0]
-        1 string data = " Hello and welcome to Cheyenne Mountain. Don't forget to pick up your vistor badge at the gate."
+        1 string data = " こんにちは、シャイアンマウンテンへようこそ。ゲートで訪問者バッジを受け取るのをお忘れなく。"
        [1]
-        1 string data = " Player ask something."
+        1 string data = " プレイヤーが何かを尋ねる。"
        [2]
-        1 string data = " Goodbye"
+        1 string data = " さようなら"
        [3]
-        1 string data = " Goodbye and enjoy your time here at Cheyenne Mountain."
+        1 string data = " さようなら、シャイアンマウンテンでの時間をお楽しみください。"
        [4]
-        1 string data = " VR Holo Guide respondes."
+        1 string data = " VRホロガイドが応答する。"
        [5]
-        1 string data = " Goodbye and enjoy your time here at Cheyenne Mountain."
+        1 string data = " さようなら、シャイアンマウンテンでの時間をお楽しみください。"
        [6]
-        1 string data = " Goodbye and enjoy your time here at Cheyenne Mountain."
+        1 string data = " さようなら、シャイアンマウンテンでの時間をお楽しみください。"
    [51]
     0 StringTable data
      1 string Filename = "e1001_benign"
@@ -13453,79 +13453,79 @@
       1 Array Array (38 items)
        0 int size = 38
        [0]
-        1 string data = ""They're attacking our camp inside too. We've got to get in there and save our brothers and sisters! Can you help us?""
+        1 string data = ""彼らは中のキャンプも攻撃している。中に入って兄弟姉妹を救わなければ! 助けてくれるか?""
        [1]
-        1 string data = ""Denver? Wait. You look familiar. Have we met?""
+        1 string data = ""デンバー? 待って。見覚えがある。会ったことあるか?""
        [2]
-        1 string data = ""So, this is some kind of religious war?""
+        1 string data = ""これは宗教戦争のようなものか?""
        [3]
-        1 string data = ""Not so much a war as a massacre. We Primordialists haven't thrown so much as a punch, and now it seems Abbot Deuterium and the Nucleists are trying to kill us all.""
+        1 string data = ""戦争というより虐殺だ。我々プライモーディアリストは一発も殴り返していないのに、アボット・デューテリウムとニュークリストたちが我々全員を殺そうとしているようだ。""
        [4]
-        1 string data = ""What's going on here?""
+        1 string data = ""ここで何が起きているんだ?""
        [5]
-        1 string data = ""Seems like Abbot Deuterium and the Nucleists are trying to kill all of us Primordialists.""
+        1 string data = ""アボット・デューテリウムとニュークリストたちが我々プライモーディアリスト全員を殺そうとしているようだ。""
        [6]
-        1 string data = ""Can't say as we have. Maybe you're thinking of my son, Bill? He's with the Gippers. Folks say he resembles me.""
+        1 string data = ""会ったことはないと思う。息子のビルのことを考えているのかもしれない。彼はギッパーズと一緒だ。みんな彼が私に似ていると言う。""
        [7]
-        1 string data = ""Oh, yeah! Bill! We convinced him to leave Denver and go looking for you.""
+        1 string data = ""ああ、そうだ! ビル! デンバーを出てお前を探しに行くよう説得したんだ。""
        [8]
-        1 string data = ""Right! Bill the cowboy! Nice kid. He's doing fine, except that he misses you.""
+        1 string data = ""そうだ! カウボーイのビル! いい子だ。君を恋しがっている以外は元気だよ。""
        [9]
-        1 string data = ""Nope. Don't think so.""
+        1 string data = ""いや、そうは思わない。""
        [10]
-        1 string data = ""Well, don't worry about it none. Soon we'll all be one in the light of the Glow!""
+        1 string data = ""まあ、気にしないでくれ。やがて我々は皆グローの光の中で一つになる!""
        [11]
-        1 string data = ""Oh, no. No! I left him in Denver to keep him safe! That sweet boy wouldn't last a minute out here in the Wasteland!""
+        1 string data = ""ああ、だめだ。だめだ! 彼を安全に保つためにデンバーに残したんだ! あの優しい子はウェイストランドでは一分も持たないだろう!""
        [12]
-        1 string data = ""I was planning to go back for him, to bring him into the holy light of the Glow...and now... aww, he's dead for certain. You... fools!""
+        1 string data = ""彼を迎えに戻り、グローの聖なる光の中に連れてくるつもりだったのに...今となっては...ああ、彼は確実に死んでいる。お前たち...愚か者め!""
        [13]
-        1 string data = ""Oh, Bill...my poor boy...""
+        1 string data = ""ああ、ビル...私の哀れな息子よ...""
        [14]
-        1 string data = ""Leave me be. I've got nothing more to say to you.""
+        1 string data = ""放っておいてくれ。お前たちに言うことは何もない。""
        [15]
-        1 string data = ""He...he does? Leaving him behind was the hardest thing I ever did, but I knew he wouldn't make it out in the Wasteland. I'm so glad to hear he's well.""
+        1 string data = ""彼が...そうなのか? 彼を置いていくのは今までで一番つらいことだったが、ウェイストランドでは生き延びられないと分かっていた。彼が元気だと聞けて本当に嬉しい。""
        [16]
-        1 string data = ""Been worried about that boy since the day I left Denver. Thank you for easing my mind. I've got some supplies in the ventilation room you're welcome to have. This key will let you in.""
+        1 string data = ""デンバーを出た日以来、あの子のことを心配していた。安心させてくれてありがとう。換気室に補給品があるから、持っていっていい。この鍵で入れる。""
        [17]
-        1 string data = ""We'll see what we can do.""
+        1 string data = ""できることをやってみよう。""
        [18]
-        1 string data = ""Thank you, friends. Thank you.""
+        1 string data = ""ありがとう、友よ。ありがとう。""
        [19]
-        1 string data = ""You should talk to Brother Carbuncle if you want to know more about us. I'm only a novice.""
+        1 string data = ""我々についてもっと知りたいならブラザー・カーバンクルと話すべきだ。私はまだ見習いだ。""
        [20]
         1 string data = ""
        [21]
-        1 string data = ""What's going on here?""
+        1 string data = ""ここで何が起きているんだ?""
        [22]
-        1 string data = ""So, you've only been with the Primodialists a short time?""
+        1 string data = ""プライモーディアリストになってまだ短いのか?""
        [23]
-        1 string data = ""A year or so, I think. You lose track of time here in the mountain. I'd been wandering since I left Denver, and they took me in.""
+        1 string data = ""1年くらいかな。この山では時間の感覚がなくなる。デンバーを出てからずっと放浪していて、彼らが私を受け入れてくれた。""
        [24]
-        1 string data = ""Like I said, I'm Sister Benign. I'm with the Primordialists.""
+        1 string data = ""言った通り、私はシスター・ベナインだ。プライモーディアリストに属している。""
        [25]
-        1 string data = ""So you were with the Gippers?""
+        1 string data = ""ギッパーズにいたのか?""
        [26]
-        1 string data = ""From one cult to another, right? But the Primodialists aren't like those angry cowboys. We love everybody. Don't matter who you are.""
+        1 string data = ""カルトからカルトへ、だろう? でもプライモーディアリストはあの怒れるカウボーイたちとは違う。我々はみんなを愛する。誰であろうと関係ない。""
        [27]
-        1 string data = ""I'm afraid I can't tell you much more. I'm only a novice.""
+        1 string data = ""これ以上多くは話せないんだ。私はまだ見習いだから。""
        [28]
-        1 string data = ""Thank you for saving us from those Nucleists, friends. I'm Sister Benign of the Primordialists. We owe you our lives.""
+        1 string data = ""ニュークリストから救ってくれてありがとう、友よ。私はプライモーディアリストのシスター・ベナインだ。命の恩人だ。""
        [29]
-        1 string data = ""Please help us get inside.""
+        1 string data = ""中に入るのを手伝ってくれ。""
        [30]
-        1 string data = ""Hang tight. We're still getting the lay of the land.""
+        1 string data = ""待ってくれ。まだ状況を把握しているところだ。""
        [31]
-        1 string data = ""Of course, but please hurry.""
+        1 string data = ""もちろん、でも急いでくれ。""
        [32]
-        1 string data = ""Be one with the Glow, friends.""
+        1 string data = ""グローと一つになれ、友よ。""
        [33]
         1 string data = ""
        [34]
-        1 string data = ""May the Glow guide your efforts.""
+        1 string data = ""グローがお前たちの努力を導かんことを。""
        [35]
-        1 string data = ""Thank you for helping us.""
+        1 string data = ""助けてくれてありがとう。""
        [36]
-        1 string data = ""Be one with the Glow, friends.""
+        1 string data = ""グローと一つになれ、友よ。""
        [37]
         1 string data = ""
    [52]
