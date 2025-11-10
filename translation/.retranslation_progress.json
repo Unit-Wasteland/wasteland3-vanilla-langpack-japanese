@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 32531,
-      "entries_untranslated": 137181,
+      "entries_translated": 32546,
+      "entries_untranslated": 137166,
       "completion_rate": 19,
-      "current_line": 9690,
+      "current_line": 10476,
       "status": "in_progress",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session R3-349: Translated lines 8698-9690 (36 entries). Rosie Wong noise complaints, Gonzalez radio dialogue, Steeltown Angela Deth follow-up, and Amber dialogue completed. Structure validation: 0 errors. Quality validation: 0 issues. Next: Continue from line 9690."
+      "note": "Session R3-350: Translated lines 10370-10476 (15 entries). Amber merchant dialogue including Rook/La Loca rescue, Riley injury treatment, Pizepi survival, Everest Hotel investigation, and refugee situations completed. All entries follow unified translation decision logic. Structure validation: 0 errors. Quality validation: 0 issues. Next: Continue from line 10476."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -52,13 +52,13 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation. Previous progress discarded due to incorrect work sequence (DLC started before base game completion)."
     }
   },
-  "last_commit_hash": "c904def",
-  "last_commit_message": "Translation: Session R3-349 - lines 8698-9690, 36 entries translated",
-  "total_entries_completed": 32531,
+  "last_commit_hash": "d45d8ca",
+  "last_commit_message": "Translation: Session R3-350 - lines 10370-10476, 15 entries translated",
+  "total_entries_completed": 32546,
   "total_entries": 232418,
-  "total_entries_untranslated": 199887,
+  "total_entries_untranslated": 199872,
   "overall_completion_rate": 14.0,
-  "next_action": "MANDATORY: Complete base game translation to 100% BEFORE starting any DLC work. Current base game progress: 32,531/169,712 entries (19%). Continue from line 9690. DLC1 and DLC2 must remain at 0% until base game reaches 100% with strict validation.",
+  "next_action": "MANDATORY: Complete base game translation to 100% BEFORE starting any DLC work. Current base game progress: 32,546/169,712 entries (19%). Continue from line 10476. DLC1 and DLC2 must remain at 0% until base game reaches 100% with strict validation.",
   "restart_info": {
     "restart_number": 3,
     "restart_date": "2025-11-05",
