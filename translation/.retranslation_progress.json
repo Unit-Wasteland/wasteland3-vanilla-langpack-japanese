@@ -33,7 +33,7 @@
       "current_line": 120559,
       "entries_completed": 38554,
       "status": "completed",
-      "note": "Session R3-304: Fixed 43 glossary violations (Rangers incorrectly translated as レンジャーズ instead of レンジャー) and 20 structure errors (quote count mismatches). All validations pass: Structure 0 errors, Quality 0 issues. File fully validated and ready."
+      "note": "Session R3-304: Fixed 43 glossary violations (Rangers incorrectly translated) and 20 structure errors (quote count mismatches). All validations pass: Structure 0 errors, Quality 0 issues. File fully validated and ready."
     },
     "dlc2": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
@@ -42,21 +42,21 @@
       "backup_file": "translation/backup_broken/DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
       "total_lines": 77353,
       "total_entries": 24152,
-      "current_line": 17767,
-      "entries_completed": 1404,
-      "entries_untranslated": 22748,
+      "current_line": 18534,
+      "entries_completed": 1526,
+      "entries_untranslated": 22626,
       "completion_rate": 6,
       "status": "in_progress",
-      "note": "Session R3-316: 136 new entries translated (1404 total). Lines 16862-17767 processed - e1001_theo end, e2001_airlock, e2001_annoyingprimordialist, e2001_benign sections complete. Unified translation decision logic applied (Spanish empty entries translated to Japanese). All action markers preserved in English. Structure validation: 0 errors. Quality validation: 0 issues. 4-quote format correctly maintained."
+      "note": "Session R3-317: 122 new entries translated (1526 total). Lines 17767-18534 processed - e2001_bezoar, e2001_bubo, e2001_capturedevice sections complete. Unified translation decision logic applied. All action markers preserved in English. Structure validation: 0 errors. Quality validation: 0 issues. 4-quote format maintained."
     }
   },
-  "last_commit_hash": "813e57a",
-  "last_commit_message": "DLC2 translation: Session R3-316 - 136 entries translated (1404 total)",
-  "total_entries_completed": 72406,
+  "last_commit_hash": "b8cadf7",
+  "last_commit_message": "DLC2 translation: Session R3-317 - 122 entries translated (1526 total)",
+  "total_entries_completed": 72528,
   "total_entries": 208218,
-  "total_entries_untranslated": 135812,
+  "total_entries_untranslated": 135690,
   "overall_completion_rate": 35,
-  "next_action": "Continue DLC2 translation from line 17767. Base game substantially complete (1 acceptable exception). DLC1 fully validated. DLC2 in progress (1404/24152 entries, 5.81%).",
+  "next_action": "Continue DLC2 translation from line 18534. Base game substantially complete (1 acceptable exception). DLC1 fully validated. DLC2 in progress (1526/24152 entries, 6.32%).",
   "restart_info": {
     "restart_number": 3,
     "restart_date": "2025-11-05",
