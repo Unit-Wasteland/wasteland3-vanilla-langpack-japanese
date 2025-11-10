@@ -42,21 +42,21 @@
       "backup_file": "translation/backup_broken/DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
       "total_lines": 77353,
       "total_entries": 24152,
-      "current_line": 46765,
+      "current_line": 47600,
       "entries_completed": 4714,
       "entries_untranslated": 19438,
       "completion_rate": 19.52,
       "status": "in_progress",
-      "note": "Session R3-346: e4001_soldier115 section translation complete. Lines 46740-46765 processed. Translated 9 entries: password challenge dialogue, combat engagement sequence, radio communications. Rangers term translated per glossary (レンジャー). All entries validated: Structure 0 errors, Quality 0 issues. Unified translation decision logic applied: Spanish empty, default to translate."
+      "note": "Session R3-347: Developer debug text corrections complete. Lines 46765-47600 verified. Fixed 9 entries incorrectly translated (Spanish empty, reverted to English): storage manifest sections (6 entries), surgery sections (3 entries). All validations pass: Structure 0 errors, Quality 0 issues. Next: e4001_debug_cheat_old_soldier (developer debug content)."
     }
   },
-  "last_commit_hash": "c4876bb",
-  "last_commit_message": "DLC2 translation: Session R3-346 - e4001_soldier115 section complete",
+  "last_commit_hash": "e08857a",
+  "last_commit_message": "DLC2 translation: Session R3-347 - Developer debug text corrections",
   "total_entries_completed": 75716,
   "total_entries": 232418,
   "total_entries_untranslated": 156702,
   "overall_completion_rate": 32.58,
-  "next_action": "Continue DLC2 translation from line 46765. Base game substantially complete (1 acceptable exception). DLC1 fully validated. DLC2 in progress (4714/24152 entries, 19.52%). Next sections: e4001_storagea/b/c_cargomanifestlist (developer debug/UI mixed content).",
+  "next_action": "Continue DLC2 translation from line 47600. Base game substantially complete (1 acceptable exception). DLC1 fully validated. DLC2 in progress (4714/24152 entries, 19.52%). Next sections: e4001_debug_cheat_old_soldier onwards (developer debug content mixed with gameplay).",
   "restart_info": {
     "restart_number": 3,
     "restart_date": "2025-11-05",
