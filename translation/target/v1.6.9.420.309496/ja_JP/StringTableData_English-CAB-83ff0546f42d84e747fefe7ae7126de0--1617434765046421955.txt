@@ -85097,17 +85097,17 @@
        [1]
         1 string data = ""応答願う、ノベンバー・ワン。こちらはマルセロ・ゴンザレス。私はコロラド中のあなたの目と耳だ。何か起きたら、それを知らせるのは私だ。""
        [2]
-        1 string data = " "Guessing you're in a hurry since you booked it without saying 'hi', so I won't keep you long.""
+        1 string data = " "挨拶もせずに飛び出していったから急いでいるんだろう、長くは引き留めないよ。""
        [3]
-        1 string data = " "My name's Marcelo Gonzalez. I'll be the friendly voice on your radio. I'll shout if anything important comes up.""
+        1 string data = " "私の名前はマルセロ・ゴンザレス。無線で聞こえる親切な声だ。何か重要なことがあれば叫ぶよ。""
        [4]
         1 string data = ""戻ってきたら、部隊に新兵を補充する必要があればセルゲイ・グレアツキが担当だ。それから、マーシャル・クォンが同行したいと伝えるよう頼まれた。彼はこの街のことなら何でも知っている。""
        [5]
         1 string data = ""ああ、最後にもう一つ。今は人手が少ない。外で参加を希望する人を見つけたら、本部に招待してくれ。スペースはあるし、助けはいつでも歓迎だ。以上。""
        [6]
-        1 string data = ""I hope that was helpful, November One. Over and out.""
+        1 string data = ""役に立てば良いが、ノベンバー・ワン。以上。""
        [7]
-        1 string data = ""Where can I find more team members?""
+        1 string data = ""もっとチームメンバーはどこで見つけられる?""
        [8]
         1 string data = ""会えて嬉しいよ、ゴンザレス。""
        [9]
@@ -85195,21 +85195,21 @@
        [0]
         1 string data = "Script Node 30"
        [1]
-        1 string data = "::krzzzzzh-POP:: "Hello? Rangers?""
+        1 string data = "::krzzzzzh-POP:: "もしもし?レンジャーの皆さん?""
        [2]
-        1 string data = ""Everything all right?" "
+        1 string data = ""大丈夫ですか?" "
        [3]
-        1 string data = ""What can we help you with?""
+        1 string data = ""何か手伝えることは?""
        [4]
-        1 string data = ""Can't talk now." "
+        1 string data = ""今は話せない。" "
        [5]
-        1 string data = ""Got it. Understood. But you're going to want to come back to HQ, regardless. Parker's patient...""
+        1 string data = ""了解。わかりました。でも、とにかく本部に戻りたいと思うはずです。パーカーの患者が...""
        [6]
-        1 string data = ""I... can't talk long. But the moment you're able? I'd come right back to HQ. We've performed surgery on that girl and, well. I'd come back when I can.""
+        1 string data = ""長く話せません。でも、可能になったら?すぐに本部に戻ってきてください。あの少女の手術を行ったんです、その...できる時に戻ってきてください。""
        [7]
-        1 string data = ""I guess you could say that. We just finished surgery. I... you should come back to medbay when you can." "
+        1 string data = ""まあ、そう言えるかもしれません。手術が終わったばかりです。えっと...時間があったら医療室に戻ってきてください。" "
        [8]
-        1 string data = ""Keep safe out there, Rangers."\n\n\n::click::"
+        1 string data = ""外で気をつけて、レンジャーの皆さん。"\n\n\n::click::"
    [230]
     0 StringTable data
      1 string Filename = "a1001_radio_rosiewong_buzzkill"
@@ -85313,17 +85313,17 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = " HI Rangers"
+        1 string data = " やあ、レンジャー"
        [2]
-        1 string data = " DEBUG MODE"
+        1 string data = " デバッグモード"
        [3]
-        1 string data = "Starting buzzkill (Might need to relaod sceene for rosie to be int he right spot)"
+        1 string data = "buzzkillを開始(ロージーが正しい場所にいるためにシーンをリロードする必要があるかも)"
        [4]
         1 string data = "::static::"
        [5]
-        1 string data = ""Hello, Rangers? It's Rosie Wong again. Hello?""
+        1 string data = ""もしもし、レンジャーの皆さん?ロージー・ウォンです、また。もしもし?""
        [6]
-        1 string data = ""Uh, hello, Ms. Wong, this is Corporal Gonzales. What can we do for you today?""
+        1 string data = ""ああ、もしもし、ウォン夫人、こちらはゴンザレス伍長です。今日は何かご用でしょうか?""
        [7]
         1 string data = ""何でもないみたいに聞こえるようにしないで!あの子供たちのせいで、私と猫たちが狂いそうなの!""
        [8]
@@ -85333,9 +85333,9 @@
        [10]
         1 string data = ""あなた次第よ、ノベンバー。でも...お願いするわ。""
        [11]
-        1 string data = ""Only them!""
+        1 string data = ""彼らだけよ!""
        [12]
-        1 string data = "<i>sigh</i>"
+        1 string data = "<i>ため息</i>"
        [13]
         1 string data = ""司令部よりチーム・ノベンバーへ、応答願う。聞いてくれ、彼女を引き留めようとしたんだが、ウォン夫人がこの騒音について電話をかけ続けるんだ。頼みがあるんだが...""
        [14]
@@ -85525,19 +85525,19 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = " HI Rangers"
+        1 string data = " やあ、レンジャー"
        [2]
-        1 string data = " DEBUG MODE"
+        1 string data = " デバッグモード"
        [3]
-        1 string data = "Starting dont' you be my neighbor...."
+        1 string data = "dont' you be my neighborを開始中...."
        [4]
-        1 string data = ""Hello? Hello? Hello? Is this the Rangers? I wanna talk to the Rangers.""
+        1 string data = ""もしもし?もしもし?もしもし?レンジャーですか?レンジャーと話したいんです。""
        [5]
         1 string data = ""ええと...""
        [6]
         1 string data = ""アパート3号室の変人よ!あいつが私たち全員を殺すわ!部屋からあらゆる種類の大きな物音が聞こえるの。しかも一人じゃない。仲間が中にいる!何かを企んでる、わかるのよ!""
        [7]
-        1 string data = ""Uh... have you contacted the Marshals, ma'am? I think this might be more their territory-""
+        1 string data = ""ええと...マーシャルズに連絡しましたか、奥さん?これは彼らの管轄だと思うのですが...""
        [8]
         1 string data = ""マーシャルズが私の話を聞いてくれたなら、あなたたちに電話すると思う?電話しすぎだって言うのよ!くそったれの怠け者の役立たず!他の時は何も起きてなかったかもしれないけど、今回は本物よ!確信してるわ!""
        [9]
@@ -85545,7 +85545,7 @@
        [10]
         1 string data = "[Reward: [Dropset: DRP_Reward_a2001_DYBMN_Rosie]] "サン・リュクス・アパートメントに来て!今すぐ!あの狂人が建物全体を吹き飛ばしかねないわ!""
        [11]
-        1 string data = ""Yes, ma'am. Be there as soon as we can. Thank you. Ten four.""
+        1 string data = ""はい、奥さん。できるだけ早く向かいます。ありがとうございます。了解。""
        [12]
         1 string data = "::static::"
        [13]
@@ -85631,11 +85631,11 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = " Come in Rangers. This is HQ."
+        1 string data = " 応答願う、レンジャー。こちらは本部だ。"
        [2]
-        1 string data = " We've got someone here claiming to be a member of Advance Team. Says she's got information about Liberty Buchanan, but will only give her message to your team."
+        1 string data = " 前線チームのメンバーだと主張する者がここにいる。リバティ・ブキャナンに関する情報を持っているそうだが、あなたたちのチームにしかメッセージを渡さないと言っている。"
        [3]
-        1 string data = " Be careful on your way back. I'm hearing the Plains Gangs have been encroaching into Colorado Territory recently. Lots of attacks on the open roads. Over and out."
+        1 string data = " 帰り道には気をつけろ。プレインズ・ギャングが最近コロラド領土に侵入しているという情報がある。開けた道路での攻撃が多発している。以上。"
    [233]
     0 StringTable data
      1 string Filename = "a1001_radio_woodson_checkingin"
@@ -85981,7 +85981,7 @@
       1 Array Array (83 items)
        0 int size = 83
        [0]
-        1 string data = ""Hey, November. Good to see you. Give me one second and I'll see if the General's still there.""
+        1 string data = ""やあ、ノベンバー。会えて嬉しい。ちょっと待ってくれ、将軍がまだそこにいるか確認してくる。""
        [1]
         1 string data = ""将軍、聞こえますか?チーム・ノベンバーをお繋ぎします""
        [2]
