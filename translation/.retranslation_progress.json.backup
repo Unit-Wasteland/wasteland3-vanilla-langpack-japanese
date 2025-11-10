@@ -42,21 +42,21 @@
       "backup_file": "translation/backup_broken/DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
       "total_lines": 77353,
       "total_entries": 24152,
-      "current_line": 43792,
+      "current_line": 44390,
       "entries_completed": 4705,
       "entries_untranslated": 19447,
       "completion_rate": 19.48,
       "status": "in_progress",
-      "note": "Session R3-343: Developer debug text corrections - no new translations. Lines 42697-43792 processed. Fixed incorrectly translated developer debug entries (Spanish empty) that should have remained in English per unified translation decision logic. Sections corrected: e4001_cafeteria_fooddispenser, e4001_dissectiontables_00, e4001_embryochamberstate_01/02/03, e4001_evalroomcomputer, e4001_general3radiobark_00/01/02, e4001_generalclone (10 sections total). All entries with empty Spanish correctly reverted to English to maintain structure. Structure validation: 0 errors. Quality validation: 0 issues."
+      "note": "Session R3-344: Developer debug text corrections continued. Lines 43792-44390 processed. Fixed 18-20 incorrectly translated entries (Spanish empty) that should have remained in English. Sections corrected: e4001_generalclone continued, e4001_glasscagestate_01, e4001_glasscagestate_02, e4001_hiddenlabcomputerlore_00, e4001_hiddenlabcomputerlore_01, e4001_hospitalcomputer, e4001_morguecomputer, e4001_morguefaderbody (8 sections). All entries with empty Spanish reverted to English to maintain structure. Structure validation: 0 errors. Quality validation: 0 issues."
     }
   },
-  "last_commit_hash": "caaab30",
-  "last_commit_message": "DLC2 translation: Session R3-342 - 127 entries translated (4705 total)",
+  "last_commit_hash": "ed8d3f6",
+  "last_commit_message": "DLC2 translation: Session R3-344 - Developer debug text corrections",
   "total_entries_completed": 75707,
   "total_entries": 232418,
   "total_entries_untranslated": 156711,
   "overall_completion_rate": 32.58,
-  "next_action": "Continue DLC2 translation from line 42697 (e4001_cafeteria_fooddispenser section). Base game substantially complete (1 acceptable exception). DLC1 fully validated. DLC2 in progress (4705/24152 entries, 19.48%).",
+  "next_action": "Continue DLC2 translation from line 44390 (e4001_morguefaderbody section continued). Base game substantially complete (1 acceptable exception). DLC1 fully validated. DLC2 in progress (4705/24152 entries, 19.48%). Many developer debug sections remain to be corrected.",
   "restart_info": {
     "restart_number": 3,
     "restart_date": "2025-11-05",
