@@ -4,6 +4,16 @@
 #
 # Purpose: Fully automated retranslation with structure protection
 #
+# IMPORTANT: Work Sequence (MANDATORY)
+# 1. Base Game (169,712 entries) - MUST complete to 100% FIRST
+# 2. DLC1 (38,554 entries) - Start ONLY after base game 100%
+# 3. DLC2 (24,152 entries) - Start ONLY after DLC1 100%
+#
+# Current Implementation: BASE GAME ONLY
+# - This script currently processes ONLY the base game file
+# - DLC1/DLC2 support will be added after base game reaches 100%
+# - File paths are hardcoded to base game StringTable file
+#
 # Architecture: Based on successful auto-translate.sh pattern
 # - Large chunks (150-200 lines) to minimize Read/Edit operations
 # - Simplified commands to reduce conversation history size
@@ -65,8 +75,12 @@ set -e
 # Configuration
 MAX_MEMORY_MB=5000          # 6GB physical RAM - 1GB margin
 ENTRIES_PER_SESSION=500     # 500 entries per session (100x improvement from 5)
-MAX_SESSIONS=150            # Max 150 sessions (should complete in ~150 sessions)
+MAX_SESSIONS=340            # Max 340 sessions for base game (169,712 entries ÷ 500)
 MONITOR_INTERVAL=30         # Check memory every 30 seconds
+
+# NOTE: Session count reflects BASE GAME ONLY
+# - Base game: 169,712 entries → ~340 sessions at 500 entries/session
+# - DLC1/DLC2 will require separate script execution after base game completion
 
 # Working directory (SCRIPT_DIR already defined above for --unlock handling)
 WORKING_DIR="$(cd "$SCRIPT_DIR/.." && pwd)"
@@ -319,6 +333,10 @@ is_retranslation_complete() {
 log "INFO" "========================================="
 log "INFO" "Wasteland 3 Retranslation Automation"
 log "INFO" "========================================="
+log "INFO" "IMPORTANT: Currently processing BASE GAME ONLY"
+log "INFO" "  Base Game: 169,712 entries (Target: 100% completion)"
+log "INFO" "  DLC1/DLC2: Will be processed AFTER base game completion"
+log "INFO" ""
 log "INFO" "Architecture: Based on successful auto-translate.sh pattern"
 log "INFO" "Max Memory: ${MAX_MEMORY_MB}MB, Entries/Session: $ENTRIES_PER_SESSION, Max Sessions: $MAX_SESSIONS"
 log "INFO" "Chunk Size: 150-200 lines (large chunks to minimize operations)"
@@ -673,7 +691,8 @@ EOF
         TOTAL_ENTRIES=$((TOTAL_ENTRIES + ENTRIES_THIS_SESSION))
 
         log "INFO" "Session #$SESSION_COUNT completed: $ENTRIES_THIS_SESSION entries translated"
-        log "INFO" "Cumulative total: $END_ENTRIES entries (out of ~71,992)"
+        log "INFO" "Cumulative total: $END_ENTRIES entries"
+        log "INFO" "  Base game progress: $END_ENTRIES / 169,712 (Target: 100% before DLC)"
     fi
 
     # Check if retranslation is complete

@@ -17,6 +17,24 @@ For AI translation work, **ALWAYS refer to CLAUDE.md first**.
 
 This document defines the workflow for fixing structural corruption discovered in translation files.
 
+### 🔴 CRITICAL: Work Sequence - MANDATORY 🔴
+
+**Translation work MUST follow this strict sequence:**
+
+1. **Base Game (169,712 entries)** - Complete to 100% with strict validation
+2. **DLC1: Battle of Steeltown (38,554 entries)** - Start ONLY after base game 100% complete
+3. **DLC2: Cult of the Holy Detonation (24,152 entries)** - Start ONLY after DLC1 100% complete
+
+**FORBIDDEN:**
+- ❌ Starting DLC1 or DLC2 before base game reaches 100%
+- ❌ Working on multiple files (base/DLC1/DLC2) simultaneously
+- ❌ Prioritizing DLC content over base game content
+
+**Current Status:**
+- Base Game: 19% (32,448/169,712) - **IN PROGRESS** (continue from line 5005)
+- DLC1: 0% (not started) - **DO NOT START** until base game 100%
+- DLC2: 0% (not started) - **DO NOT START** until DLC1 100%
+
 ### Background
 
 **Complete Restart Reason (2nd time):**
@@ -102,13 +120,15 @@ translation/
 
 ### Phase 1: Sequential Retranslation (In Progress)
 
-**Status:** 🔄 IN PROGRESS
+**Status:** 🔄 IN PROGRESS - BASE GAME ONLY
 
-**Current Progress (2025-11-01):**
-- **Translated:** 15,765 entries (9.29%)
-- **Remaining:** 153,947 entries (90.71%)
-- **Current Line:** 224,348
-- **Quality Issues Found:** 97 action markers + 6,982 untranslated entries + 3 skipped entries
+**Current Progress (2025-11-10):**
+- **Base Game Translated:** 32,448 entries (19.1% of 169,712)
+- **Base Game Remaining:** 137,264 entries (80.9%)
+- **Base Game Current Line:** 5,005
+- **DLC1 Status:** NOT STARTED (0% - will begin after base game 100%)
+- **DLC2 Status:** NOT STARTED (0% - will begin after DLC1 100%)
+- **Overall Progress:** 32,448 / 232,418 entries (13.96%)
 
 **Workflow for Each Entry:**
 
@@ -208,11 +228,26 @@ translation/
   "files": {
     "base_game": {
       "total_entries": 169712,
-      "entries_translated": 15765,
-      "current_line": 224348,
+      "entries_translated": 32448,
+      "entries_untranslated": 137264,
+      "current_line": 5005,
       "status": "in_progress"
+    },
+    "dlc1": {
+      "total_entries": 38554,
+      "entries_completed": 0,
+      "entries_untranslated": 38554,
+      "status": "not_started"
+    },
+    "dlc2": {
+      "total_entries": 24152,
+      "entries_completed": 0,
+      "entries_untranslated": 24152,
+      "status": "not_started"
     }
-  }
+  },
+  "total_entries_completed": 32448,
+  "total_entries": 232418
 }
 ```
 
@@ -356,26 +391,31 @@ Spanish != "" AND Spanish != English → Translate to Japanese
 
 ## Next Steps
 
-**Priority 1: Fix Action Markers (97 instances)**
-- Extract list of all problematic lines
-- Fix manually, 10-15 per session
-- Validate after each batch
-- Commit when validation passes
+**🔴 MANDATORY: Complete Base Game First**
 
-**Priority 2: Translate Lines 390-665 (3 entries)**
-- Read Spanish reference
-- Translate to Japanese
-- Validate and commit
+The ONLY priority is to complete the base game translation to 100% before starting any DLC work.
 
-**Priority 3: Fix Untranslated Entries (6,982 instances)**
-- Identify sections with most untranslated
-- Prioritize main quests
-- Fix systematically, 50-100 per session
-- Validate after each batch
+**Current Base Game Status:**
+- Progress: 19.1% (32,448 / 169,712 entries)
+- Continue from: Line 5005
+- Remaining: 137,264 entries (80.9%)
+
+**Workflow:**
+1. Continue sequential translation from line 5005
+2. Process in 150-200 line chunks with strict validation
+3. Commit every 500 entries
+4. Validate structure AND quality after EVERY edit
+5. NO skipping, NO prioritization
+
+**After Base Game 100% Complete:**
+1. Run full validation on base game file
+2. Verify NO structural errors, NO quality issues
+3. Only then begin DLC1 translation from line 1
+4. DLC2 begins only after DLC1 reaches 100%
 
 **See:** CLAUDE.md for detailed execution guidelines.
 
 ---
 
-**Last Updated:** 2025-11-01
+**Last Updated:** 2025-11-10 (DLC progress reset, base game priority enforced)
 **Primary Reference:** [CLAUDE.md](../CLAUDE.md)

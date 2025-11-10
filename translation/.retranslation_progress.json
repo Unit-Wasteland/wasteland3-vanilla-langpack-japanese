@@ -30,10 +30,12 @@
       "backup_file": "translation/backup_broken/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
       "total_lines": 120559,
       "total_entries": 38554,
-      "current_line": 120559,
-      "entries_completed": 38554,
-      "status": "completed",
-      "note": "Session R3-304: Fixed 43 glossary violations (Rangers incorrectly translated) and 20 structure errors (quote count mismatches). All validations pass: Structure 0 errors, Quality 0 issues. File fully validated and ready."
+      "current_line": 1,
+      "entries_completed": 0,
+      "entries_untranslated": 38554,
+      "completion_rate": 0,
+      "status": "not_started",
+      "note": "DLC1 translation will begin ONLY after base game reaches 100% completion with strict validation. Previous progress discarded due to incorrect work sequence (DLC started before base game completion)."
     },
     "dlc2": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
@@ -42,21 +44,21 @@
       "backup_file": "translation/backup_broken/DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
       "total_lines": 77353,
       "total_entries": 24152,
-      "current_line": 47600,
-      "entries_completed": 4714,
-      "entries_untranslated": 19438,
-      "completion_rate": 19.52,
-      "status": "in_progress",
-      "note": "Session R3-347: Developer debug text corrections complete. Lines 46765-47600 verified. Fixed 9 entries incorrectly translated (Spanish empty, reverted to English): storage manifest sections (6 entries), surgery sections (3 entries). All validations pass: Structure 0 errors, Quality 0 issues. Next: e4001_debug_cheat_old_soldier (developer debug content)."
+      "current_line": 1,
+      "entries_completed": 0,
+      "entries_untranslated": 24152,
+      "completion_rate": 0,
+      "status": "not_started",
+      "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation. Previous progress discarded due to incorrect work sequence (DLC started before base game completion)."
     }
   },
   "last_commit_hash": "e08857a",
-  "last_commit_message": "DLC2 translation: Session R3-347 - Developer debug text corrections",
-  "total_entries_completed": 75716,
+  "last_commit_message": "Documentation reset: DLC1/DLC2 progress discarded, base game priority enforced",
+  "total_entries_completed": 32448,
   "total_entries": 232418,
-  "total_entries_untranslated": 156702,
-  "overall_completion_rate": 32.58,
-  "next_action": "Continue DLC2 translation from line 47600. Base game substantially complete (1 acceptable exception). DLC1 fully validated. DLC2 in progress (4714/24152 entries, 19.52%). Next sections: e4001_debug_cheat_old_soldier onwards (developer debug content mixed with gameplay).",
+  "total_entries_untranslated": 199970,
+  "overall_completion_rate": 13.96,
+  "next_action": "MANDATORY: Complete base game translation to 100% BEFORE starting any DLC work. Current base game progress: 32,448/169,712 entries (19%). Continue from line 5005. DLC1 and DLC2 must remain at 0% until base game reaches 100% with strict validation.",
   "restart_info": {
     "restart_number": 3,
     "restart_date": "2025-11-05",
@@ -68,6 +70,7 @@
     ]
   },
   "strict_workflow": {
+    "work_sequence": "MANDATORY - base_game (100% complete with validation) → DLC1 (100% complete with validation) → DLC2 (100% complete with validation). NEVER work on multiple files simultaneously. NEVER start DLC before base game completion.",
     "sequential_processing": "MANDATORY - Process from line 1 sequentially. NO skipping, NO prioritization.",
     "spanish_reference": "MANDATORY - Check Spanish file for translatability before each translation.",
     "validation_frequency": "MANDATORY - Validate structure after EVERY edit using validate_structure_v2.py.",
@@ -82,7 +85,9 @@
       "Committing without validation",
       "Changing quote count from source",
       "Deleting text when Spanish is empty",
-      "Translating bracket markers to Japanese"
+      "Translating bracket markers to Japanese",
+      "Starting DLC1 or DLC2 before base game reaches 100%",
+      "Working on multiple files (base/DLC1/DLC2) simultaneously"
     ]
   },
   "structure_protection": {

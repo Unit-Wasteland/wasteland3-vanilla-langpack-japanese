@@ -20,6 +20,23 @@ This document provides strict translation rules to prevent structural corruption
 
 ---
 
+## 🔴 CRITICAL: Work Sequence - Rule #0 (Highest Priority)
+
+**Translation work MUST follow this strict sequence:**
+
+1. **Base Game (169,712 entries)** - Complete to 100% with strict validation
+2. **DLC1: Battle of Steeltown (38,554 entries)** - Start ONLY after base game 100% complete
+3. **DLC2: Cult of the Holy Detonation (24,152 entries)** - Start ONLY after DLC1 100% complete
+
+**FORBIDDEN:**
+- ❌ Starting DLC1 or DLC2 before base game reaches 100%
+- ❌ Working on multiple files (base/DLC1/DLC2) simultaneously
+- ❌ Prioritizing DLC content over base game content
+
+**Rationale:** Previous work violated this rule, resulting in incomplete base game (19% complete) while DLC1 was marked as 100% and DLC2 at 19%. This is unacceptable. The base game MUST be completed first to ensure proper glossary coverage and consistent translation quality.
+
+---
+
 ## Critical Rules Summary
 
 ### 1. Action Markers - ZERO TOLERANCE
@@ -187,6 +204,18 @@ python3 translation/validate_translation_quality.py TARGET_FILE \
 - Visual verification after each edit
 - Small chunks (10-20 entries for fixes, 150-200 lines for new translation)
 
+### 8. Work Sequence Violations - ABSOLUTELY FORBIDDEN
+
+**NEVER:**
+- Start DLC1 or DLC2 before base game reaches 100%
+- Work on multiple files (base/DLC1/DLC2) in parallel
+- Jump to DLC content because it seems "more interesting" or "shorter"
+
+**ALWAYS:**
+- Complete base game to 100% first
+- Validate base game completion before starting DLC1
+- Complete DLC1 to 100% before starting DLC2
+
 **See:** CLAUDE.md "Memory Management" and "forbidden_actions" in .retranslation_progress.json
 
 ---
@@ -298,5 +327,5 @@ grep 'string data = ""[A-Z]' TARGET_FILE | wc -l
 
 ---
 
-**Last Updated:** 2025-11-01
+**Last Updated:** 2025-11-10 (Work sequence rule added - base game priority enforced)
 **Primary Reference:** [CLAUDE.md](../CLAUDE.md)

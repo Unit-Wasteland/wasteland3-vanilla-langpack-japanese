@@ -12,14 +12,25 @@ This is a Japanese language pack translation project for Wasteland 3, a post-apo
 
 **Restart Reason:** 77,533 structural errors (45.7% of entries) were discovered in the previous version. Unity StringTable structural markers (`""`) were incorrectly converted to Japanese brackets (`「」`, `『』`), or had quotes improperly added/removed, causing game import failures. The solution is a complete clean restart from English source with strict validation workflow.
 
+**🔴 CRITICAL: Work Sequence - MANDATORY 🔴**
+
+**YOU MUST follow this sequence strictly:**
+
+1. **Base Game (169,712 entries)** - MUST reach 100% completion with strict validation
+2. **DLC1: Battle of Steeltown (38,554 entries)** - Start ONLY after base game 100% complete
+3. **DLC2: Cult of the Holy Detonation (24,152 entries)** - Start ONLY after DLC1 100% complete
+
+**NEVER work on DLC1 or DLC2 until base game reaches 100% completion with validation.**
+
 **Strict Retranslation Overview:**
 - **Base**: English files (en_US) - guarantees correct structure (530,425 lines, 169,712 entries)
 - **Reference**: Spanish files (es_ES) - MANDATORY for translatability judgment (NOT backup_broken)
 - **Validation**: validate_structure_v2.py after EVERY edit - zero tolerance for errors
 - **Protection**: Strict rules for `""`, `[]`, `<>`, `::action::` markers (no Japanese brackets allowed)
-- **Scope**: 169,712 entries total across base game + DLC1 + DLC2
-- **Progress**: 0% complete (clean restart 2025-10-29), tracked in `translation/.retranslation_progress.json` v3.0
-- **Approach**: Sequential from line 666, NO skipping/prioritization/batch processing
+- **Scope**: 232,418 entries total (base game: 169,712 + DLC1: 38,554 + DLC2: 24,152)
+- **Current Progress**: Base game 19% (32,448/169,712), DLC1 0% (not started), DLC2 0% (not started)
+- **Progress Tracking**: `translation/.retranslation_progress.json` v3.0
+- **Approach**: Sequential from line 390, NO skipping/prioritization/batch processing
 
 **Key Documents:**
 - **translation/STRICT_TRANSLATION_RULES.md** - Comprehensive strict workflow guide (PRIMARY)
