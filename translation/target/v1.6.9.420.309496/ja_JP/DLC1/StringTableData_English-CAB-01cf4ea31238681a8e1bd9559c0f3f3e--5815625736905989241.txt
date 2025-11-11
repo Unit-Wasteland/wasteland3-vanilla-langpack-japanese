@@ -71961,11 +71961,11 @@
        [6]
         1 string data = ""
        [7]
-        1 string data = "ERROR: Vehicle Incomplete"
+        1 string data = "ERROR: 車両未完成"
        [8]
-        1 string data = "Deploying completed vehicle..."
+        1 string data = "完成した車両を配備中..."
        [9]
-        1 string data = "Vehicle deployed and ready for delivery"
+        1 string data = "車両が配備され、納品準備が整いました"
        [10]
         1 string data = ""
    [254]
@@ -71989,9 +71989,9 @@
       1 Array Array (2 items)
        0 int size = 2
        [0]
-        1 string data = "Assembling chassis..."
+        1 string data = "シャーシを組み立て中..."
        [1]
-        1 string data = "Chassis complete and sent to assembly line"
+        1 string data = "シャーシの組み立てが完了し、組立ラインに送られました"
    [255]
     0 StringTable data
      1 string Filename = "d2101_int_console_chassis_mount"
@@ -72041,23 +72041,23 @@
       1 Array Array (9 items)
        0 int size = 9
        [0]
-        1 string data = "Chassis mounted\n\n\nSent to engine mount station"
+        1 string data = "シャーシを搭載しました\n\n\nエンジン搭載ステーションに送られました"
        [1]
-        1 string data = "Mounting Chassis on assembly line..."
+        1 string data = "組立ラインにシャーシを搭載中..."
        [2]
-        1 string data = "ERROR: No chassis"
+        1 string data = "ERROR: シャーシなし"
        [3]
-        1 string data = "War-bot Build Station Two - Torso Assembly\n\n\nAll components acquired and ready for assembly. Assembled leg unit in position.\n\n\nAssemble War-bot Torso Unit?"
+        1 string data = "ウォーボット製造ステーション2 - 胴体組立\n\n\n全ての部品を取得し、組立準備が整いました。組み立て済みの脚部ユニットが配置されています。\n\n\nウォーボット胴体ユニットを組み立てますか？"
        [4]
-        1 string data = "Yes."
+        1 string data = "はい。"
        [5]
-        1 string data = "Torso Unit assembled and mounted on Leg Unit\n\n\nSending to War-bot Build Station Three - Laser Mounting"
+        1 string data = "胴体ユニットを組み立て、脚部ユニットに搭載しました\n\n\nウォーボット製造ステーション3 - レーザー搭載に送られます"
        [6]
-        1 string data = "Step away from station. "
+        1 string data = "ステーションから離れてください。"
        [7]
-        1 string data = "War-bot Build Station Two - Torso Assembly\n\n\nNo components acquired. No components Available. Please contact supervisor for further information."
+        1 string data = "ウォーボット製造ステーション2 - 胴体組立\n\n\n部品を取得していません。部品がありません。詳細については監督者に連絡してください。"
        [8]
-        1 string data = "War-bot Build Station Two - Torso Assembly\n\n\nAll components acquired and ready for assembly.\n\n\nWARNING - No leg unit on assembly line. Torso must be mounted upon assembled leg unit. Assemble leg unit first."
+        1 string data = "ウォーボット製造ステーション2 - 胴体組立\n\n\n全ての部品を取得し、組立準備が整いました。\n\n\n警告 - 組立ラインに脚部ユニットがありません。胴体は組み立て済みの脚部ユニットに搭載する必要があります。最初に脚部ユニットを組み立ててください。"
    [256]
     0 StringTable data
      1 string Filename = "d2101_int_console_engine1"
@@ -72083,11 +72083,11 @@
       1 Array Array (3 items)
        0 int size = 3
        [0]
-        1 string data = "Engine Diagnostic: NON-OPERATIONAL\n\n\nPlease service engine for use in vehicle assembly"
+        1 string data = "エンジン診断：非稼働\n\n\n車両組立に使用するためエンジンを整備してください"
        [1]
-        1 string data = "Engine Diagnostic: OPERATIONAL\n\n\nEngine is cleared for use. Sending to vehicle assembly line..."
+        1 string data = "エンジン診断：稼働中\n\n\nエンジンは使用可能です。車両組立ラインに送られます..."
        [2]
-        1 string data = "Engine sent to assembly line"
+        1 string data = "エンジンが組立ラインに送られました"
    [257]
     0 StringTable data
      1 string Filename = "d2101_int_console_engine2"
@@ -72113,11 +72113,11 @@
       1 Array Array (3 items)
        0 int size = 3
        [0]
-        1 string data = "Engine sent to assembly line"
+        1 string data = "エンジンが組立ラインに送られました"
        [1]
-        1 string data = "Engine Diagnostic: OPERATIONAL\n\n\nEngine is cleared for use. Sending to vehicle assembly line"
+        1 string data = "エンジン診断：稼働中\n\n\nエンジンは使用可能です。車両組立ラインに送られます"
        [2]
-        1 string data = "Engine Diagnostic: NON-OPERATIONAL\n\n\nPlease service engine for use in vehicle assembly"
+        1 string data = "エンジン診断：非稼働\n\n\n車両組立に使用するためエンジンを整備してください"
    [258]
     0 StringTable data
      1 string Filename = "d2101_int_console_engineempty"
@@ -72135,7 +72135,7 @@
       1 Array Array (1 items)
        0 int size = 1
        [0]
-        1 string data = "WORKSTATION OFFLINE\n\n\nNo engine to service"
+        1 string data = "ワークステーション オフライン\n\n\n整備するエンジンがありません"
    [259]
     0 StringTable data
      1 string Filename = "d2101_int_console_engine_mount"
@@ -72181,21 +72181,21 @@
       1 Array Array (8 items)
        0 int size = 8
        [0]
-        1 string data = "Engined mounted\n\n\nSending vehicle to bodyshop"
+        1 string data = "エンジンを搭載しました\n\n\n車両をボディショップに送ります"
        [1]
-        1 string data = "Mounting engine on vehicle..."
+        1 string data = "車両にエンジンを搭載中..."
        [2]
-        1 string data = "War-bot Build Station One - Leg Assembly\n\n\nAll components acquired and ready for assembly.\n\n\nAssemble War-bot Leg Unit?"
+        1 string data = "ウォーボット製造ステーション1 - 脚部組立\n\n\n全ての部品を取得し、組立準備が整いました。\n\n\nウォーボット脚部ユニットを組み立てますか？"
        [3]
-        1 string data = "ERROR: Waiting for vehicle"
+        1 string data = "ERROR: 車両を待機中"
        [4]
-        1 string data = "Yes."
+        1 string data = "はい。"
        [5]
-        1 string data = "Step away from station. "
+        1 string data = "ステーションから離れてください。"
        [6]
-        1 string data = "Leg Unit assembled. \r\n\r\nSending to War-bot Build Station Two - Torso Assembly"
+        1 string data = "脚部ユニットを組み立てました。\r\n\r\nウォーボット製造ステーション2 - 胴体組立に送られます"
        [7]
-        1 string data = "War-bot Build Station One - Leg Assembly\n\n\nNo components acquired. No components Available. Please contact supervisor for further information."
+        1 string data = "ウォーボット製造ステーション1 - 脚部組立\n\n\n部品を取得していません。部品がありません。詳細については監督者に連絡してください。"
    [260]
     0 StringTable data
      1 string Filename = "d2101_int_console_laser_mount"
@@ -72249,25 +72249,25 @@
       1 Array Array (10 items)
        0 int size = 10
        [0]
-        1 string data = "Cutting laser mounted on vehicle and sent to delivery"
+        1 string data = "切断レーザーを車両に搭載し、納品に送られました"
        [1]
-        1 string data = "Mounting cutting laser on vehicle..."
+        1 string data = "車両に切断レーザーを搭載中..."
        [2]
-        1 string data = "ERROR: Waiting for Vehicle"
+        1 string data = "ERROR: 車両を待機中"
        [3]
-        1 string data = "ERROR: No Cutting Laser"
+        1 string data = "ERROR: 切断レーザーなし"
        [4]
-        1 string data = "War-bot Build Station Three - Laser Mounting\n\n\nAll components acquired and ready for assembly.\n\n\nWARNING - No Torso unit on assembly line. Lasers must be mounted upon assembled Torso unit. Assemble torso unit first."
+        1 string data = "ウォーボット製造ステーション3 - レーザー搭載\n\n\n全ての部品を取得し、組立準備が整いました。\n\n\n警告 - 組立ラインに胴体ユニットがありません。レーザーは組み立て済みの胴体ユニットに搭載する必要があります。最初に胴体ユニットを組み立ててください。"
        [5]
-        1 string data = "War-bot Build Station Three - Laser Mounting\n\n\nAll components acquired and ready for assembly. Assembled leg and torso units in position.\n\n\nMount laser on torso?"
+        1 string data = "ウォーボット製造ステーション3 - レーザー搭載\n\n\n全ての部品を取得し、組立準備が整いました。組み立て済みの脚部と胴体ユニットが配置されています。\n\n\n胴体にレーザーを搭載しますか？"
        [6]
-        1 string data = "Yes."
+        1 string data = "はい。"
        [7]
-        1 string data = "Lasers assembled and mounted on torso unit.\r\n\r\nWar-bot complete. \r\n\r\nSending War-bot to final inspection area. "
+        1 string data = "レーザーを組み立て、胴体ユニットに搭載しました。\r\n\r\nウォーボットが完成しました。\r\n\r\nウォーボットを最終検査エリアに送ります。"
        [8]
-        1 string data = "Step away from station. "
+        1 string data = "ステーションから離れてください。"
        [9]
-        1 string data = "War-bot Build Station Three - Laser Mounting\n\n\nNo components acquired. No components Available. Please contact supervisor for further information."
+        1 string data = "ウォーボット製造ステーション3 - レーザー搭載\n\n\n部品を取得していません。部品がありません。詳細については監督者に連絡してください。"
    [261]
     0 StringTable data
      1 string Filename = "d2101_int_corpse_ellen"
@@ -72293,11 +72293,11 @@
       1 Array Array (3 items)
        0 int size = 3
        [0]
-        1 string data = "The body of a Steeltown worker lies in the middle of the hallway. You don't see any signs of violence. "
+        1 string data = "スティールタウンの労働者の遺体が廊下の真ん中に横たわっている。暴力の痕跡は見られない。"
        [1]
-        1 string data = "Her name badge reads "Henn, Ellen.""
+        1 string data = "彼女の名札には"ヘン、エレン"と書かれている。"
        [2]
-        1 string data = "This must be Newt's mom. She'll want to know that her meds didn't come in time."
+        1 string data = "ニュートの母親に違いない。彼女の薬が間に合わなかったことを伝えなければならないだろう。"
    [262]
     0 StringTable data
      1 string Filename = "d2101_int_engine1"
@@ -72343,21 +72343,21 @@
       1 Array Array (8 items)
        0 int size = 8
        [0]
-        1 string data = "An engine sits on this workbench."
+        1 string data = "この作業台にエンジンが置かれている。"
        [1]
-        1 string data = "You can tell that some parts missing."
+        1 string data = "いくつかのパーツが欠けていることがわかる。"
        [2]
-        1 string data = "Attach Oil Pump"
+        1 string data = "オイルポンプを取り付ける"
        [3]
-        1 string data = "Attach Timing Belt"
+        1 string data = "タイミングベルトを取り付ける"
        [4]
-        1 string data = "It appears to be ready for use."
+        1 string data = "使用できる状態のようだ。"
        [5]
-        1 string data = "Leave"
+        1 string data = "離れる"
        [6]
-        1 string data = "You attach the Oil Pump."
+        1 string data = "オイルポンプを取り付けた。"
        [7]
-        1 string data = "You attach the Timing Belt"
+        1 string data = "タイミングベルトを取り付けた"
    [263]
     0 StringTable data
      1 string Filename = "d2101_int_engine2"
@@ -72379,9 +72379,9 @@
       1 Array Array (2 items)
        0 int size = 2
        [0]
-        1 string data = "This engine appears complete and ready to use."
+        1 string data = "このエンジンは完全な状態で、使用できるようだ。"
        [1]
-        1 string data = "It appears to be ready for use."
+        1 string data = "使用できる状態のようだ。"
    [264]
     0 StringTable data
      1 string Filename = "d2101_int_laser"
@@ -72427,21 +72427,21 @@
       1 Array Array (8 items)
        0 int size = 8
        [0]
-        1 string data = "Cutting Laser Status: OPERATIONAL"
+        1 string data = "切断レーザー ステータス：稼働中"
        [1]
-        1 string data = "PREPARE FOR TRANSPORT"
+        1 string data = "輸送準備"
        [2]
-        1 string data = "EXIT MENU"
+        1 string data = "メニュー終了"
        [3]
-        1 string data = "Cutting Laser Status: OPERATIONAL\n\n\nWaiting for Transport"
+        1 string data = "切断レーザー ステータス：稼働中\n\n\n輸送を待機中"
        [4]
-        1 string data = "AUTO TARGET HOSTILES"
+        1 string data = "敵対者自動標的"
        [5]
-        1 string data = "Cutting Laser Status: DISABLED\n\n\nLaser being transported"
+        1 string data = "切断レーザー ステータス：無効\n\n\nレーザーを輸送中"
        [6]
-        1 string data = "ACTIVATE LASER"
+        1 string data = "レーザー起動"
        [7]
-        1 string data = "Cutting Laser Status: OPERATIONAL\n\n\nTargetting Hostiles..."
+        1 string data = "切断レーザー ステータス：稼働中\n\n\n敵対者を標的設定中..."
    [265]
     0 StringTable data
      1 string Filename = "d2101_int_mountchassis"
@@ -72459,7 +72459,7 @@
       1 Array Array (1 items)
        0 int size = 1
        [0]
-        1 string data = "This convo is legacy."
+        1 string data = "この会話は過去のものです。"
    [266]
     0 StringTable data
      1 string Filename = "d2101_ludlow"
