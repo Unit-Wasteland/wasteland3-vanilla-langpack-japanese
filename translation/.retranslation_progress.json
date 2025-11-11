@@ -16,16 +16,16 @@
       "total_lines": 530425,
       "total_string_data_lines": 131783,
       "non_empty_entries": 42499,
-      "entries_translated": 28748,
+      "entries_translated": 28813,
       "entries_partially_translated": 575,
-      "entries_untranslated": 11540,
-      "entries_other": 1636,
-      "total_issues": 12115,
-      "completion_rate": 67.6,
-      "current_line": 32610,
+      "entries_untranslated": 11495,
+      "entries_other": 1616,
+      "total_issues": 12070,
+      "completion_rate": 67.8,
+      "current_line": 57307,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 237 work: Translated 16 entries (lines 32356-32610). Focused on War Room access instructions (10 entries), refugee dialogue (4 entries), and Buddy additional dialogue (2 entries). Applied unified translation decision logic (do_not_translate check, glossary check, Spanish reference, default to translate). All validations passed with 0 errors. Remaining: 11,540 untranslated + 575 partially translated. Next: Continue from line 32610 onwards."
+      "note": "Session 239 work: Translated 44 scattered entries across multiple sections (lines 38954-38958, 39880-39958, 50850-50884, 57268-57306). Included Brygo dialogue options, HQ recruit morale commentary, Gary Wolfe synth hunter dialogues, and Little Vegas aftermath reactions. Applied unified translation decision logic with default-to-translate approach. All validations passed: structure (0 errors), action markers (0 Japanese), translation quality (0 issues), double-double-quote format strictly maintained. Remaining: 11,495 untranslated + 575 partially translated. Next: Continue scattered entry cleanup from line 57307 onwards."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -60,15 +60,15 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "e4fd890",
-  "last_commit_message": "Base game translation: 16 entries (lines 32356-32610 区間)",
+  "last_commit_hash": "7c72af8",
+  "last_commit_message": "Base game translation: 21 entries (scattered entries session)",
   "validation_date": "2025-11-11",
   "validation_script": "validate_completion.py v1.0",
   "work_priority": "BASE_GAME_FIRST",
-  "total_entries_completed": 36334,
+  "total_entries_completed": 36355,
   "total_entries": 78361,
-  "total_entries_untranslated": 39117,
-  "total_issues": 15603,
+  "total_entries_untranslated": 39096,
+  "total_issues": 15582,
   "overall_completion_rate": 46.4,
-  "next_action": "RESUME base_game translation from line 32610 onwards. Priority: Complete all 12115 base_game issues before any DLC work. Focus on scattered untranslated entries identified by validate_completion.py. DLC1 work PAUSED until base_game verified 100% complete."
+  "next_action": "RESUME base_game translation from line 39084 onwards. Priority: Complete all 12094 base_game issues before any DLC work. Focus on scattered untranslated entries identified by validate_completion.py. DLC1 work PAUSED until base_game verified 100% complete."
 }
