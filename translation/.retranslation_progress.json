@@ -16,16 +16,16 @@
       "total_lines": 530425,
       "total_string_data_lines": 131783,
       "non_empty_entries": 42499,
-      "entries_translated": 28868,
+      "entries_translated": 28953,
       "entries_partially_translated": 575,
-      "entries_untranslated": 11440,
+      "entries_untranslated": 11355,
       "entries_other": 1616,
       "total_issues": 12028,
-      "completion_rate": 67.9,
-      "current_line": 202215,
+      "completion_rate": 68.1,
+      "current_line": 400626,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 242 work: Translated 13 scattered entries (8 in range 93082-93310, 5 in range 202166-202215). Covered Sergei Greatski dialogue, recruitment system instructions, and MorningStar backup station terminal messages. Applied unified translation decision logic. All validations passed: structure (0 errors), quality (0 issues). Remaining: 11,440 untranslated. Next: Continue scattered entry cleanup, prioritize ranges 400000-450000 (1,194 untranslated entries identified)."
+      "note": "Session 243 work: Translated 85 scattered entries in lines 400174-400626. Covered Steel-Trap mine ambient dialogue, Company Store slaves, Cutter Throat bar, and Dee Sharp abduction site. Applied unified translation decision logic. All validations passed: structure (0 errors), quality (0 issues). Remaining: 11,355 untranslated. Next: Continue scattered entry cleanup in 400000-450000 range."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -60,14 +60,14 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "cdd4682",
-  "last_commit_message": "Base game translation: 30 scattered entries (lines 1609-93082)",
+  "last_commit_hash": "fbfdf95",
+  "last_commit_message": "Base game translation: Scattered entries in lines 400174-400626 (85 entries)",
   "validation_date": "2025-11-11",
   "validation_script": "validate_completion.py v1.0",
   "work_priority": "BASE_GAME_FIRST",
-  "total_entries_completed": 36410,
+  "total_entries_completed": 36495,
   "total_entries": 78361,
-  "total_entries_untranslated": 39041,
+  "total_entries_untranslated": 38956,
   "total_issues": 15540,
   "overall_completion_rate": 46.5,
   "next_action": "RESUME base_game translation from line 39084 onwards. Priority: Complete all 12094 base_game issues before any DLC work. Focus on scattered untranslated entries identified by validate_completion.py. DLC1 work PAUSED until base_game verified 100% complete."
