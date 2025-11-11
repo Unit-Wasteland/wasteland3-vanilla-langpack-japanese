@@ -31,13 +31,13 @@
       "total_lines": 120559,
       "total_entries": 38554,
       "entries_from_backup": 21737,
-      "entries_newly_translated": 3961,
-      "entries_completed": 25825,
-      "entries_remaining": 12729,
-      "completion_rate": 67.0,
-      "current_line": 37798,
+      "entries_newly_translated": 4161,
+      "entries_completed": 26025,
+      "entries_remaining": 12529,
+      "completion_rate": 67.5,
+      "current_line": 38203,
       "status": "in_progress",
-      "note": "Session DLC1-030: Translated 180 entries (lines 37211-37797). Completed d1201_blue dialogue (Blue hideout Synaptic Degausser mission - C.E. enslaved synths ethical debate, Di reprogramming, degausser negotiation, reputation checks, hostage/payment options). All action markers preserved in English (sighs verified). All Global variables and brackets maintained. Next: continue from line 37798 (d1201_blue continuation). Dual validation passed."
+      "note": "Session DLC1-031: Translated 200 entries (lines 37798-38202). Continued d1201_blue dialogue (Blue/Markham partnership history, Patriarch relationship, synth consciousness debate, philosophical AI discussion, Ghost Gang combat scenarios, party reactions to slavery). Completed through end of d1201_blue section. All markers preserved. Next: continue from line 38203 (d1201_bluegoon section start). Dual validation passed."
     },
     "dlc2": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
@@ -54,11 +54,11 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "5075fa2",
-  "last_commit_message": "DLC1 translation: Session DLC1-030 (180 entries lines 37211-37797) - strict validation passed",
-  "total_entries_completed": 195537,
+  "last_commit_hash": "9913e74",
+  "last_commit_message": "DLC1 translation: Session DLC1-031 (200 entries lines 37798-38202) - strict validation passed",
+  "total_entries_completed": 195737,
   "total_entries": 232418,
-  "total_entries_untranslated": 36881,
-  "overall_completion_rate": 84.1,
-  "next_action": "Continue DLC1 translation from line 37798 (d1201_blue continuation). Process sequentially with strict workflow validation. Estimated 23 sessions remaining to complete DLC1."
+  "total_entries_untranslated": 36681,
+  "overall_completion_rate": 84.2,
+  "next_action": "Continue DLC1 translation from line 38203 (d1201_bluegoon section). Process sequentially with strict workflow validation. Estimated 22 sessions remaining to complete DLC1."
 }
