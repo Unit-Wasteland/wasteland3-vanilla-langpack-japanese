@@ -16,16 +16,16 @@
       "total_lines": 530425,
       "total_string_data_lines": 131783,
       "non_empty_entries": 42499,
-      "entries_translated": 29357,
+      "entries_translated": 29587,
       "entries_partially_translated": 575,
-      "entries_untranslated": 10951,
+      "entries_untranslated": 10721,
       "entries_other": 1616,
-      "total_issues": 11708,
-      "completion_rate": 69.1,
-      "current_line": 405734,
+      "total_issues": 11478,
+      "completion_rate": 69.6,
+      "current_line": 406525,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 248 work: Translated 96 test conversation entries (lines 404179-405733). Sections: testconversation_addremovefollowers (15 entries), testconversation_alex01 (81 entries - partial). Applied unified translation decision logic (5-step priority). Spanish was empty for all entries - default behavior: translated to Japanese. Glossary applied (Machine Commune, Denver, Reagan, Valor, Steeltown, etc.). Script Node preserved. Quote structure strictly maintained (corrected skill level quotes). All validations passed: structure (0 errors), action marker verification, quality (0 issues). Remaining: 10,951 untranslated. Next: Continue testconversation_alex01 from line 405734."
+      "note": "Session 249 work: Translated 230 test conversation entries (lines 405734-406524). Sections: testconversation_alex01 continuation (180 entries - debug tests, OEI systems, conversation mechanics, camera angles), testconversation_alternateintros01 start (50 entries - Prasad intro dialogue, weapon selection). Applied unified translation decision logic (Spanish empty - default to translate). Glossary applied (Prasad, Vargas, Dorsey, Jodie, Reagan, Gippers, Valor). Script Node preserved. Double-double-quote format strictly maintained for all dialogue. All validations passed: structure (0 errors), action marker verification, quality (0 issues). Remaining: 10,721 untranslated. Next: Continue testconversation_alternateintros01 from line 406525."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -60,15 +60,15 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "4241b79",
-  "last_commit_message": "Base game translation: 96 test conversation entries (lines 404179-405733)",
+  "last_commit_hash": "556a11f",
+  "last_commit_message": "Base game translation: 230 test conversation entries (lines 405734-406524)",
   "validation_date": "2025-11-12",
   "validation_script": "validate_structure_v2.py",
   "work_priority": "BASE_GAME_FIRST",
-  "total_entries_completed": 36899,
+  "total_entries_completed": 37129,
   "total_entries": 78361,
-  "total_entries_untranslated": 38537,
-  "total_issues": 15220,
-  "overall_completion_rate": 47.1,
-  "next_action": "RESUME base_game translation from line 405734 onwards. Continue testconversation_alex01 (large test file with 316 entries). Priority: Complete all base_game scattered untranslated entries. DLC1 work PAUSED until base_game verified 100% complete."
+  "total_entries_untranslated": 38307,
+  "total_issues": 14966,
+  "overall_completion_rate": 47.4,
+  "next_action": "RESUME base_game translation from line 406525 onwards. Continue testconversation_alternateintros01 (alternate intro conversation). Priority: Complete all base_game scattered untranslated entries. DLC1 work PAUSED until base_game verified 100% complete."
 }
