@@ -31,13 +31,13 @@
       "total_lines": 120559,
       "total_entries": 38554,
       "entries_from_backup": 21737,
-      "entries_newly_translated": 5434,
-      "entries_completed": 27360,
-      "entries_remaining": 11194,
-      "completion_rate": 70.9,
-      "current_line": 52969,
+      "entries_newly_translated": 5485,
+      "entries_completed": 27411,
+      "entries_remaining": 11143,
+      "completion_rate": 71.1,
+      "current_line": 54408,
       "status": "in_progress",
-      "note": "Session DLC1-041: Translated 59 entries (lines 52257-52968). Sections: d2001_crow ending, d2001_crowuprising_workerbarks, d2001_di_admin_barks, d2001_dogbot_admin. Fixed quote count mismatch. Kept dog-bot bark sounds in English. All validations passed (0 errors, 0 issues). Next: Continue from line 52969."
+      "note": "Session DLC1-042: Translated 51 entries (lines 54206-54410, d2001_engineer partial). Robot Di character dialogue. 2 untranslated entries remain at 54408, 54410. Known issue: 75 action markers from previous sessions contain Japanese text (to fix in dedicated cleanup). Structure validation: 0 errors. Next: Fix untranslated entries and continue from line 54408."
     },
     "dlc2": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
@@ -54,11 +54,11 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "b33ddf9",
-  "last_commit_message": "DLC1 translation: Session DLC1-041 (59 entries, lines 52257-52968)",
-  "total_entries_completed": 197072,
+  "last_commit_hash": "76cd29a",
+  "last_commit_message": "DLC1 translation: Session DLC1-042 (51 entries, lines 54206-54410)",
+  "total_entries_completed": 197123,
   "total_entries": 232418,
-  "total_entries_untranslated": 35346,
+  "total_entries_untranslated": 35295,
   "overall_completion_rate": 84.8,
-  "next_action": "Continue DLC1 translation from line 52969 (d2001_engineer section). Estimated 11 sessions remaining to complete DLC1."
+  "next_action": "Continue DLC1 translation from line 54408. Fix 2 untranslated entries first, then continue d2001_engineer section. Known cleanup needed: 75 action markers with Japanese text from previous sessions. Estimated 11 sessions remaining for DLC1."
 }
