@@ -31,13 +31,13 @@
       "total_lines": 120559,
       "total_entries": 38554,
       "entries_from_backup": 21737,
-      "entries_newly_translated": 1005,
-      "entries_completed": 22742,
-      "entries_remaining": 15812,
-      "completion_rate": 58.9,
-      "current_line": 14453,
+      "entries_newly_translated": 1145,
+      "entries_completed": 22882,
+      "entries_remaining": 15672,
+      "completion_rate": 59.3,
+      "current_line": 15850,
       "status": "in_progress",
-      "note": "Session DLC1-008: Translated 100 entries (lines 14053-14452) in d1001_carla continuation. Hot Commodities quest dialogues (war-bot crate mystery), Script Nodes preserved. Strict validation passed with 0 structure errors and 0 quality issues."
+      "note": "Session DLC1-009: Translated 140 entries in 2 batches (lines 14453-15850). Completed: d1001_carla finale, d1001_companionbarks, d1001_cookie (Order Up quest), d1001_crow_markham start (worker strike conflict). Action markers preserved, structure validation passed."
     },
     "dlc2": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
@@ -54,11 +54,11 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "f3c6f33",
-  "last_commit_message": "DLC1 translation: d1001_carla continuation batch 2 (100 entries lines 14053-14452) - strict validation passed",
-  "total_entries_completed": 192454,
+  "last_commit_hash": "243bd82",
+  "last_commit_message": "DLC1 translation: Session DLC1-009 batch 1 (110 entries lines 14453-15474) - strict validation passed",
+  "total_entries_completed": 192594,
   "total_entries": 232418,
-  "total_entries_untranslated": 39964,
-  "overall_completion_rate": 82.8,
-  "next_action": "Continue DLC1 translation from line 14453 (subsequent dialogues after Carla). Process next 400-500 entries with strict workflow validation. Estimated 22+ sessions remaining to complete DLC1."
+  "total_entries_untranslated": 39824,
+  "overall_completion_rate": 82.9,
+  "next_action": "Continue DLC1 translation from line 15850 (d1001_crow_markham continuation - worker strike resolution dialogues). Process next 400-500 entries with strict workflow validation. Estimated 21+ sessions remaining to complete DLC1."
 }
