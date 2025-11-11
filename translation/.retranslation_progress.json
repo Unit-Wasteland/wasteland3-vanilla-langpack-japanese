@@ -18,14 +18,14 @@
       "empty_entries": 88506,
       "non_empty_entries": 81206,
       "translatable_entries": 58406,
-      "entries_translated": 38079,
-      "entries_untranslated_real": 20327,
+      "entries_translated": 38103,
+      "entries_untranslated_real": 20303,
       "entries_kept_english": 22800,
       "completion_rate": 65.2,
-      "current_line": 413400,
+      "current_line": 530022,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 257 analysis: Comprehensive file state review completed. Discovered that many entries counted as untranslated are actually action markers correctly kept in English (Spanish version incorrectly translated them). Real completion: 65.2% (38,079/58,406 translatable entries). Remaining untranslated entries are scattered throughout file. Structure validation: 0 errors, quality validation: 0 issues. File is in excellent condition. Recommend manual review of scattered untranslated entries to determine which truly need translation."
+      "note": "Session 258: Translated 24 entries in scattered locations (x3101_toasteraltar: 6 entries at lines 415730-415740, mission_x3701_robotwar: 18 entries at lines 529958-530022). Applied unified translation decision logic. All validations passed (structure: 0 errors, quality: 0 issues). Quote format strictly maintained (learned from Session 258 error: initially used Japanese quote marks, corrected to match source quote count). File remains in excellent structural condition."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -60,8 +60,8 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "8245f00",
-  "last_commit_message": "Base game translation: 125 entries (lines 412760-413400)",
+  "last_commit_hash": "pending",
+  "last_commit_message": "Base game translation: 24 entries (Session 258 - scattered locations)",
   "validation_date": "2025-11-12",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
@@ -71,9 +71,9 @@
     "scattered_untranslated": "Remaining ~20,000 untranslated entries are scattered throughout file, many are action markers or technical content that should remain in English.",
     "validation_status": "Structure: 0 errors, Quality: 0 issues across all tested ranges"
   },
-  "total_entries_completed": 45665,
+  "total_entries_completed": 45689,
   "total_entries": 94268,
-  "total_entries_untranslated": 31061,
-  "overall_completion_rate": 48.4,
-  "next_action": "ANALYSIS COMPLETE. Base game at 65.2% true completion. Recommend focused manual review of scattered untranslated entries to identify which genuinely need translation versus technical content/action markers to keep in English. DLC1 work PAUSED until base_game strategy finalized."
+  "total_entries_untranslated": 31037,
+  "overall_completion_rate": 48.5,
+  "next_action": "Continue base game scattered entry translation. Session 258 successfully translated 24 entries with strict structure protection. Focus on remaining scattered untranslated entries throughout file. DLC1 work remains PAUSED until base_game strategy complete."
 }
