@@ -31,13 +31,13 @@
       "total_lines": 120559,
       "total_entries": 38554,
       "entries_from_backup": 21737,
-      "entries_newly_translated": 2229,
-      "entries_completed": 23966,
-      "entries_remaining": 14588,
-      "completion_rate": 62.2,
-      "current_line": 23344,
+      "entries_newly_translated": 2406,
+      "entries_completed": 24143,
+      "entries_remaining": 14411,
+      "completion_rate": 62.6,
+      "current_line": 24398,
       "status": "in_progress",
-      "note": "Session DLC1-016: Translated 130 entries (lines 22167-23344). Completed d1001_ludlow slave trading dialogue (59 entries), d1001_morningstar temporary node (1 entry), d1001_pistolpete (1 entry), d1001_puzzleradio Ghost Gang radio puzzle (19 entries), d1001_refugeeleader revolt dialogue (13 entries), d1001_refugee_bizarre refugee ambient dialogue (9 entries). Next: d1001_refugee_breakin from line 23340. Dual validation passed."
+      "note": "Session DLC1-017: Translated 177 entries (lines 23340-24398). Completed d1001_refugee_breakin dialogue (58 entries), partial d1001_refugee_camp ambient dialogue (119 entries). Next: continue d1001_refugee_camp from line 24398. Dual validation passed."
     },
     "dlc2": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
@@ -54,11 +54,11 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "pending",
+  "last_commit_hash": "f8058fd",
   "last_commit_message": "DLC1 translation: Session DLC1-016 (130 entries lines 22167-23344) - strict validation passed",
-  "total_entries_completed": 193678,
+  "total_entries_completed": 193855,
   "total_entries": 232418,
-  "total_entries_untranslated": 38740,
-  "overall_completion_rate": 83.3,
-  "next_action": "Continue DLC1 translation from line 23340 (d1001_refugee_breakin - refugee break-in dialogue with 58 entries). Process sequentially with strict workflow validation. Estimated 28+ sessions remaining to complete DLC1."
+  "total_entries_untranslated": 38563,
+  "overall_completion_rate": 83.4,
+  "next_action": "Continue DLC1 translation from line 24398 (d1001_refugee_camp - refugee camp ambient dialogue). Process sequentially with strict workflow validation. Estimated 27+ sessions remaining to complete DLC1."
 }
