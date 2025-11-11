@@ -16,16 +16,16 @@
       "total_lines": 530425,
       "total_string_data_lines": 131783,
       "non_empty_entries": 42499,
-      "entries_translated": 29587,
+      "entries_translated": 29668,
       "entries_partially_translated": 575,
       "entries_untranslated": 10721,
       "entries_other": 1616,
       "total_issues": 11478,
-      "completion_rate": 69.6,
-      "current_line": 406525,
+      "completion_rate": 17.5,
+      "current_line": 407264,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 249 work: Translated 230 test conversation entries (lines 405734-406524). Sections: testconversation_alex01 continuation (180 entries - debug tests, OEI systems, conversation mechanics, camera angles), testconversation_alternateintros01 start (50 entries - Prasad intro dialogue, weapon selection). Applied unified translation decision logic (Spanish empty - default to translate). Glossary applied (Prasad, Vargas, Dorsey, Jodie, Reagan, Gippers, Valor). Script Node preserved. Double-double-quote format strictly maintained for all dialogue. All validations passed: structure (0 errors), action marker verification, quality (0 issues). Remaining: 10,721 untranslated. Next: Continue testconversation_alternateintros01 from line 406525."
+      "note": "Session 250 work: Translated 81 test conversation entries (lines 406525-407263). Sections: testconversation_alternateintros01 (4 entries), testconversation_barkonly (2 entries), testconversation_barks (3 entries), testconversation_bartertest (5 entries), party add dialogues (Buddy, Cordite, Fader, Fishlips, Kwon, Lucia, Vic - 28 entries total), testconversation_debugexample (7 entries), testconversation_denverrevisions (3 entries), testconversation_doctor (9 entries), testconversation_fadeinandout (14 entries), testconversation_farm_npc (5 entries). Fixed quote count mismatch (71 lines). Applied unified translation decision logic. Glossary applied (Cordite, Fishlips, Kwon, Lucia, Vic). All validations passed: structure (0 errors), action marker verification. Next: Continue from line 407264."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -60,15 +60,15 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "556a11f",
-  "last_commit_message": "Base game translation: 230 test conversation entries (lines 405734-406524)",
+  "last_commit_hash": "3e3b71a",
+  "last_commit_message": "Base game translation: 81 test conversation entries (lines 406525-407263)",
   "validation_date": "2025-11-12",
   "validation_script": "validate_structure_v2.py",
   "work_priority": "BASE_GAME_FIRST",
-  "total_entries_completed": 37129,
+  "total_entries_completed": 37210,
   "total_entries": 78361,
-  "total_entries_untranslated": 38307,
+  "total_entries_untranslated": 38226,
   "total_issues": 14966,
-  "overall_completion_rate": 47.4,
-  "next_action": "RESUME base_game translation from line 406525 onwards. Continue testconversation_alternateintros01 (alternate intro conversation). Priority: Complete all base_game scattered untranslated entries. DLC1 work PAUSED until base_game verified 100% complete."
+  "overall_completion_rate": 16.0,
+  "next_action": "RESUME base_game translation from line 407264 onwards. Continue testconversation_gavin1 (Gavin test dialogue). Priority: Complete all base_game scattered untranslated entries. DLC1 work PAUSED until base_game verified 100% complete."
 }
