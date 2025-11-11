@@ -55487,59 +55487,59 @@
        [0]
         1 string data = "Default Greeting"
        [1]
-        1 string data = "Hello, Rangers, I'm Moral Dilemma Guard.\nWelcome to the surveillance room!"
+        1 string data = "こんにちは、レンジャー。俺はモラルジレンマ警備員だ。\n監視室へようこそ!"
        [2]
         1 string data = "DEBUG"
        [3]
-        1 string data = "Goodbye."
+        1 string data = "さようなら。"
        [4]
-        1 string data = "Hey, so what's up with that safe?"
+        1 string data = "で、あの金庫はどうしたんだ?"
        [5]
-        1 string data = "That safe is super important!\nIt's got all the money and supplies that everyone's put aside for their families outside the gates."
+        1 string data = "あの金庫は超重要なんだ!\nゲートの外にいる家族のためにみんなが蓄えてきた全ての金と物資が入ってる。"
        [6]
-        1 string data = "I keep an eye on it all by myself until we distribute it all at the end of the month."
+        1 string data = "月末に全部配布するまで、俺一人で見張ってるんだ。"
        [7]
-        1 string data = "Yep, we'd probably have a real big problem if anything happenned to it."
+        1 string data = "ああ、もし何かあったら本当に大問題になるだろうな。"
        [8]
-        1 string data = "Is the safe ever left unattended?"
+        1 string data = "金庫が無人になることはあるのか?"
        [9]
-        1 string data = "Oh no! I'm not allowed to leave until someone comes to take over."
+        1 string data = "ああ、ダメだ!交代要員が来るまで離れることは許されてないんだ。"
        [10]
-        1 string data = "Ah, yes. Smart."
+        1 string data = "ああ、そうか。賢明だな。"
        [11]
-        1 string data = "What do ya know!\nWe were sent to relieve you."
+        1 string data = "何だと思う!\n俺たちは交代に派遣されたんだ。"
        [12]
-        1 string data = "That's a good one!\nI know you guys don't work here!"
+        1 string data = "いい冗談だ!\nあんたらここでは働いてないって知ってるぞ!"
        [13]
-        1 string data = "Guess what we saw out in the ruins earlier... an entire crate of Eterni-Tarts!"
+        1 string data = "廃墟で見たものを当ててみろよ...エターニタルトが丸々1箱あったんだ!"
        [14]
-        1 string data = "You DID???\nDid you grab 'em???"
+        1 string data = "マジか???\n手に入れたのか???"
        [15]
-        1 string data = "Actually, we were just messing with you."
+        1 string data = "実は、ただからかっただけだ。"
        [16]
-        1 string data = "Ha, ha... that's true..."
+        1 string data = "ハハ...その通りだな..."
        [17]
-        1 string data = "No, they're probably just sitting out there still.\nIt's not like they're worth anything."
+        1 string data = "いや、まだそこに置きっぱなしだろう。\n価値があるってわけでもないしな。"
        [18]
-        1 string data = "Err... Hey, would you mind holding down the fort here for a while?\nI have to uhhhh... go to the bathroom!\nI'm not supposed to leave, but I know I can trust you guys."
+        1 string data = "えっと...ちょっとここを任せてもらってもいいか?\nえええっと...トイレに行かなきゃ!\n本当は離れちゃいけないんだが、あんたらなら信用できるって分かってる。"
        [19]
-        1 string data = "No problem, pal!\nTake your time!"
+        1 string data = "任せとけ、相棒!\nゆっくりしてきな!"
        [20]
-        1 string data = "Oh, heh. Ok.\nThat's a good one..."
+        1 string data = "ああ、へへ。OK。\nいい冗談だな..."
        [21]
-        1 string data = "Thanks, Rangers!\nI'll be back real soon!"
+        1 string data = "ありがとう、レンジャー!\nすぐ戻ってくる!"
        [22]
-        1 string data = "I'm Moral Dilemma Guard!\nYou've convinced me to abandon my post!"
+        1 string data = "俺はモラルジレンマ警備員だ!\nあんたらは俺を持ち場放棄するよう説得した!"
        [23]
-        1 string data = "Hey there! I'm sorry, but I have to ask you leave that safe alone!"
+        1 string data = "やあ!すまないが、その金庫には触らないでもらわないと!"
        [24]
         1 string data = "DEBUG"
        [25]
-        1 string data = "Check his locker"
+        1 string data = "彼のロッカーを調べる"
        [26]
-        1 string data = "Force him to leave"
+        1 string data = "無理やり立ち去らせる"
        [27]
-        1 string data = "Step away from the safe, Rangers."
+        1 string data = "金庫から離れろ、レンジャー。"
    [174]
     0 StringTable data
      1 string Filename = "d2001_int_console_comms"
@@ -55561,9 +55561,9 @@
       1 Array Array (2 items)
        0 int size = 2
        [0]
-        1 string data = "This communication console apparently has a direct uplink to Colorado Springs."
+        1 string data = "この通信コンソールはどうやらコロラドスプリングスへの直接アップリンクを持っているようだ。"
        [1]
-        1 string data = "Leave"
+        1 string data = "立ち去る"
    [175]
     0 StringTable data
      1 string Filename = "d2001_int_console_expansionmodeling"
@@ -55585,9 +55585,9 @@
       1 Array Array (2 items)
        0 int size = 2
        [0]
-        1 string data = "This is lore about Markham's plans for expansion around Colorado."
+        1 string data = "これはコロラド周辺でのマーカムの拡張計画に関する記録だ。"
        [1]
-        1 string data = "Leave"
+        1 string data = "立ち去る"
    [176]
     0 StringTable data
      1 string Filename = "d2001_int_console_factorylift"
