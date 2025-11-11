@@ -31,13 +31,13 @@
       "total_lines": 120559,
       "total_entries": 38554,
       "entries_from_backup": 21737,
-      "entries_newly_translated": 4609,
-      "entries_completed": 26534,
-      "entries_remaining": 12020,
-      "completion_rate": 68.8,
-      "current_line": 47338,
+      "entries_newly_translated": 4706,
+      "entries_completed": 26631,
+      "entries_remaining": 11923,
+      "completion_rate": 69.1,
+      "current_line": 47844,
       "status": "in_progress",
-      "note": "Session DLC1-036: Translated 75 entries (lines 41714-47338). Sections: d1201_trappedgoon (trapped goon dialogue), d1201_trapped_toaster (toaster trap puzzle), d1201_turretcontrol (AI turret terminal), d1201_hotcommodities_stolenshipment (quest data), d2001_abigailmarkham partial (admin NPC dialogue). All validations passed (0 structure errors, 0 quality issues). Next: Continue from line 47340."
+      "note": "Session DLC1-037: Translated 97 entries (lines 47340-47844). Sections: d2001_abigailmarkham completion, d2001_admin_dilemma (Safe Guard theft), d2001_admin_testing (job testing), d2001_ambient_admin (ambient conversations). Applied unified translation logic (Rule 5 for empty Spanish). All validations passed (0 errors, 0 issues). Next: Continue from line 47845."
     },
     "dlc2": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
@@ -54,11 +54,11 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "be87ddb",
-  "last_commit_message": "DLC1 translation: Session DLC1-036 (75 entries, lines 41714-47338)",
-  "total_entries_completed": 196246,
+  "last_commit_hash": "748ee37",
+  "last_commit_message": "DLC1 translation: Session DLC1-037 (97 entries, lines 47340-47844)",
+  "total_entries_completed": 196343,
   "total_entries": 232418,
-  "total_entries_untranslated": 36172,
-  "overall_completion_rate": 84.4,
-  "next_action": "Continue DLC1 translation from line 47340 (d2001_abigailmarkham continuation). Estimated 15 sessions remaining to complete DLC1."
+  "total_entries_untranslated": 36075,
+  "overall_completion_rate": 84.5,
+  "next_action": "Continue DLC1 translation from line 47845 (d2001_armormerchant_amosryan section). Estimated 14 sessions remaining to complete DLC1."
 }
