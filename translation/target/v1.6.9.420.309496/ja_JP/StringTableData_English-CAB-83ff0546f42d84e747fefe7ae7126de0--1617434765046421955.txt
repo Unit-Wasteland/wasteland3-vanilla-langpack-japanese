@@ -93083,19 +93083,19 @@
        [9]
         1 string data = """"
        [10]
-        1 string data = ""I hear you are good people. I'm here to help.  I have some experience with recruits and training people, so I asked myself, why don't you put those talents to use? I can mold your recruits at a basic level, but the finishing touches are up to you.""
+        1 string data = ""あなた方は良い人々だと聞いている。私は助けに来た。新兵や人々の訓練には多少経験がある。だから自分に問いかけたんだ、その才能を活かしてみたらどうかとね。新兵を基礎レベルまで鍛えることはできる。だが仕上げはあなた方次第だ。""
        [11]
-        1 string data = ""So what's your story?""
+        1 string data = ""それで、あなたの話は?""
        [12]
-        1 string data = ""Did you volunteer for this job, or did the Patriarch ask you to do it?""
+        1 string data = ""この仕事に志願したのか、それとも総督に頼まれたのか?""
        [13]
-        1 string data = ""You've served with the Patriarch for so long. You must like him.""
+        1 string data = ""長い間総督に仕えている。彼のことが好きなんだろう。""
        [14]
-        1 string data = ""Goodbye.""
+        1 string data = ""さようなら。""
        [15]
-        1 string data = ""Welp, came here with my folks when I was a kid, and was a young man when Saul was trying to unite the Families and make Colorado a state. I got behind him right away. He had leader written all over him, even back then.""
+        1 string data = ""ああ、子供の頃に家族と一緒にここに来てな。ソールが諸家族を統一してコロラドを州にしようとしていた時は若者だった。すぐに彼を支持した。当時から既に、彼には生まれながらのリーダーの風格があった。""
        [16]
-        1 string data = ""I heard stories about what the Rangers did out west. When Mr. Buchanan told me that he'd be giving you this space to build your organization, I was the first to volunteer. Figured you'd need a steady hand with new soldiers.""
+        1 string data = ""西部でレンジャーたちが成し遂げたことについての話を聞いていた。ブキャナン氏が組織を作るためにこのスペースを提供すると言った時、私が真っ先に志願した。新兵には確かな指導者が必要だろうと考えたんだ。""
        [17]
         1 string data = ""ああ、確かにそうだ。彼の無愛想なやり方を受け入れられない者もいるが、それは正しいことを知っている男が、それを理解しない愚か者を相手にする時のいら立ちに過ぎない。彼はコロラドの人々の幸福を深く気遣うあまり、政治的な礼儀で足を引っ張られることを許さないのだ。""
        [18]
@@ -93307,7 +93307,7 @@
        [121]
         1 string data = ""
        [122]
-        1 string data = " "Go to the Armory and the Brig to lower the Security Alert to gain access to the War Room. There, you can open a backdoor into Colorado Springs. Also, use the computer in the garage to lower the bollards so you can bring your vehcile into the city. You'll need the firepower once there.""
+        1 string data = " "武器庫と留置所に行ってセキュリティ警報を下げ、作戦室へのアクセスを得ろ。そこでコロラドスプリングスへの裏口を開くことができる。それから、ガレージのコンピューターを使ってボラードを下げ、車を街に持ち込めるようにしろ。そこに着いたら火力が必要になるからな。""
        [123]
         1 string data = ""
        [124]
@@ -202163,13 +202163,13 @@
        [5]
         1 string data = ""
        [6]
-        1 string data = "Step away from the console."
+        1 string data = "コンソールから離れろ。"
        [7]
         1 string data = "バックアップステーションアルファへようこそ。"
        [8]
         1 string data = "ユーザースキャン中...\r\n\r\n無許可ユーザーは自動防衛システムを作動させることを警告します。アラームが鳴ったら、セキュリティチームが!¿!¿分後に到着するまで、手を後ろに回して床に伏せてください。\r\n\r\n<i>ERROR</i>_UnableToQuerySecurityTeam"
        [9]
-        1 string data = "WARNING: Authentication routines disabled remotely from location_MSTARGARAGE\r\n\r\n?ILLEGAL QUANTITY ERROR at 44797/$AEFD\r\nWARNING: Authorized user list compromised\r\n\r\nERROR_CritAuthFail\r\n\r\nWARNI¿!¿!¿!"
+        1 string data = "警告: 認証ルーチンがlocation_MSTARGARAGEからリモートで無効化されました\r\n\r\n?不正な数量エラー at 44797/$AEFD\r\n警告: 許可ユーザーリストが侵害されました\r\n\r\nERROR_CritAuthFail\r\n\r\nWARNI¿!¿!¿!"
        [10]
         1 string data = "<i>ST</i>ATUS 処理中..."
        [11]
@@ -202181,11 +202181,11 @@
        [14]
         1 string data = "'ERROR_MissingMenuOption'を選択"
        [15]
-        1 string data = "ERROR_CommandNotFound"
+        1 string data = "エラー_コマンドが見つかりません"
        [16]
         1 string data = "<i>RemoteUser</i>:>探しているコマンドはルートメニューにあります。"
        [17]
-        1 string data = "<i>DesertRanger</i>:>"
+        1 string data = "<i>デザートレンジャー</i>:>"
        [18]
         1 string data = ">Who is this? と入力"
        [19]
@@ -202205,7 +202205,7 @@
        [26]
         1 string data = "プロジェクト・モーニングスターの封印データベースをアンロック中。データバックアップがアクセス可能になりました。\n\n\n"
        [27]
-        1 string data = "WARNING: Database accessed remotely from location_MSTARGARAGE."
+        1 string data = "警告: location_MSTARGARAGEからリモートでデータベースにアクセスされました。"
        [28]
         1 string data = "RemoteUser:>."
        [29]
