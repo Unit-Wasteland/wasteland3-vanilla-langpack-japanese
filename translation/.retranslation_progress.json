@@ -16,16 +16,16 @@
       "total_lines": 530425,
       "total_string_data_lines": 131783,
       "non_empty_entries": 42499,
-      "entries_translated": 29751,
+      "entries_translated": 29835,
       "entries_partially_translated": 575,
       "entries_untranslated": 10721,
       "entries_other": 1616,
       "total_issues": 11478,
-      "completion_rate": 70.0,
-      "current_line": 408193,
+      "completion_rate": 70.2,
+      "current_line": 408739,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 251 work: Translated 83 test conversation entries (lines 407264-408192). Sections: testconversation_gavin1 (38 entries), testconversation_gavin2 (4 entries), testconversation_gavin4 (13 entries), testconversation_gavin5 (2 entries), testconversation_genericcombatbarks (16 entries), testconversation_goldstandard (4 entries), testconversation_kwan_reactionbarks (3 entries), testconversation_merchant (3 entries). Applied unified translation decision logic. All validations passed: structure (0 errors), quality (0 issues). Next: Continue from line 408193."
+      "note": "Session 252 work: Translated 84 testconversation_mpterminal entries (lines 408193-408739). Complex quote format matching (2/4/6 quotes). Applied unified translation decision logic. All validations passed: structure (0 errors), quality (0 issues). Character: Pico. Next: Continue from line 408739."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -60,15 +60,15 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "3e3b71a",
-  "last_commit_message": "Base game translation: 81 test conversation entries (lines 406525-407263)",
+  "last_commit_hash": "437e559",
+  "last_commit_message": "Base game translation: 84 testconversation_mpterminal entries (lines 408193-408739)",
   "validation_date": "2025-11-12",
   "validation_script": "validate_structure_v2.py",
   "work_priority": "BASE_GAME_FIRST",
-  "total_entries_completed": 37293,
+  "total_entries_completed": 37377,
   "total_entries": 78361,
   "total_entries_untranslated": 38226,
   "total_issues": 14966,
-  "overall_completion_rate": 47.6,
-  "next_action": "RESUME base_game translation from line 407264 onwards. Continue testconversation_gavin1 (Gavin test dialogue). Priority: Complete all base_game scattered untranslated entries. DLC1 work PAUSED until base_game verified 100% complete."
+  "overall_completion_rate": 47.7,
+  "next_action": "RESUME base_game translation from line 408739 onwards. Continue testconversation_mpterminal2. Priority: Complete all base_game scattered untranslated entries. DLC1 work PAUSED until base_game verified 100% complete."
 }
