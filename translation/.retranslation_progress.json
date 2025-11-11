@@ -31,13 +31,13 @@
       "total_lines": 120559,
       "total_entries": 38554,
       "entries_from_backup": 21737,
-      "entries_newly_translated": 2687,
-      "entries_completed": 24424,
-      "entries_remaining": 14130,
-      "completion_rate": 63.3,
-      "current_line": 26370,
+      "entries_newly_translated": 2812,
+      "entries_completed": 24549,
+      "entries_remaining": 14005,
+      "completion_rate": 63.7,
+      "current_line": 27204,
       "status": "in_progress",
-      "note": "Session DLC1-019: Translated 190 entries (lines 25869-26370). Completed d1001_refugee_louis continuation (165 entries - Florinda storyline, toilet quest, Ghost Gang), d1001_refugee_prisonervictim_aramcorpse (6 entries), d1001_refugee_prisonervictim_arthur (19 entries). Next: continue from line 26370. Dual validation passed."
+      "note": "Session DLC1-020: Translated 125 entries (lines 26370-27204). Completed murder investigation series (arthurcorpse, fatima, fatimacorpse, iris, iriscorpse), prisoner rescue (scarcollectors), refugee camp (stacks). Action markers and Script Node entries preserved. Next: continue from line 27204. Dual validation passed."
     },
     "dlc2": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
@@ -54,11 +54,11 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "3517d81",
-  "last_commit_message": "DLC1 translation: Session DLC1-019 (190 entries lines 25869-26370) - strict validation passed",
-  "total_entries_completed": 194136,
+  "last_commit_hash": "dc8e81c",
+  "last_commit_message": "DLC1 translation: Session DLC1-020 (125 entries lines 26370-27204) - strict validation passed",
+  "total_entries_completed": 194261,
   "total_entries": 232418,
-  "total_entries_untranslated": 38282,
-  "overall_completion_rate": 83.5,
-  "next_action": "Continue DLC1 translation from line 26370. Process sequentially with strict workflow validation. Estimated 28+ sessions remaining to complete DLC1."
+  "total_entries_untranslated": 38157,
+  "overall_completion_rate": 83.6,
+  "next_action": "Continue DLC1 translation from line 27204. Process sequentially with strict workflow validation. Estimated 28 sessions remaining to complete DLC1."
 }
