@@ -16,16 +16,16 @@
       "total_lines": 530425,
       "total_string_data_lines": 131783,
       "non_empty_entries": 42499,
-      "entries_translated": 29205,
+      "entries_translated": 29261,
       "entries_partially_translated": 575,
-      "entries_untranslated": 11103,
+      "entries_untranslated": 11047,
       "entries_other": 1616,
-      "total_issues": 11860,
-      "completion_rate": 68.7,
-      "current_line": 403081,
+      "total_issues": 11804,
+      "completion_rate": 68.9,
+      "current_line": 404179,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 246 work: Translated 58 debug flowchart entries (lines 402697-403081). Sections: debug_flowchart_panther and hunters. CRITICAL FIX: Corrected quote format - initially added extra quotes (4 total) but fixed to match EN source (2 quotes). Applied unified translation decision logic. Script Node terms preserved (do_not_translate). All validations passed: structure (0 errors), action marker verification, quality (0 issues). Remaining: 11,103 untranslated. Next: Continue from line 403081+."
+      "note": "Session 247 work: Translated 56 test conversation entries (lines 403764-404178). Sections: template_reactionbarks_vehicle (24 vehicle dialogues), testconversation_* series (32 test entries). Applied unified translation decision logic (5-step priority). Spanish was empty for all entries - default behavior: translated to Japanese. Glossary applied (Kwon: クォン). Script Node preserved. All validations passed: structure (0 errors), action marker verification, quality (0 issues). Remaining: 11,047 untranslated. Next: Continue from line 404179."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -60,15 +60,15 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "4576a29",
-  "last_commit_message": "Base game translation: 58 debug flowchart entries (lines 402697-403081)",
+  "last_commit_hash": "ecb20f4",
+  "last_commit_message": "Base game translation: 56 test conversation entries (lines 403764-404178)",
   "validation_date": "2025-11-12",
   "validation_script": "validate_structure_v2.py",
   "work_priority": "BASE_GAME_FIRST",
-  "total_entries_completed": 36747,
+  "total_entries_completed": 36803,
   "total_entries": 78361,
-  "total_entries_untranslated": 38689,
-  "total_issues": 15372,
+  "total_entries_untranslated": 38633,
+  "total_issues": 15316,
   "overall_completion_rate": 46.9,
-  "next_action": "RESUME base_game translation from line 403081 onwards. Priority: Complete all base_game scattered untranslated entries. Continue section-by-section cleanup. DLC1 work PAUSED until base_game verified 100% complete."
+  "next_action": "RESUME base_game translation from line 404179 onwards. Priority: Complete all base_game scattered untranslated entries. Continue section-by-section cleanup. DLC1 work PAUSED until base_game verified 100% complete."
 }
