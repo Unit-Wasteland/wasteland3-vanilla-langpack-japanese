@@ -16,16 +16,16 @@
       "total_lines": 530425,
       "total_string_data_lines": 131783,
       "non_empty_entries": 42499,
-      "entries_translated": 29147,
+      "entries_translated": 29205,
       "entries_partially_translated": 575,
-      "entries_untranslated": 11161,
+      "entries_untranslated": 11103,
       "entries_other": 1616,
-      "total_issues": 11918,
-      "completion_rate": 68.6,
-      "current_line": 402697,
+      "total_issues": 11860,
+      "completion_rate": 68.7,
+      "current_line": 403081,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 245 work: Translated 84 scattered entries in lines 401756-402694. Covered Dee Sharp rescue completion (q3001_deesharp), mine slave ambient dialogue (q3001_mineslaveambient), Liberty-Steel-Trap recording (q3001_radio_betamaxtape_libertysteeltrap), Scar Collectors in mine (q3001_scarcollectorsinmineambient), and Soviet security computer logs (q3001_sovietsecuritycomputer). Applied unified translation decision logic. All validations passed: structure (0 errors), action marker verification (::ptoo::, ::sing-song::, ::groan::, ::sigh::, ::cough::, ::hack:: preserved). Note: 14 Japanese action markers from previous sessions detected - separate cleanup needed. Remaining: 11,161 untranslated. Next: Continue scattered entry cleanup in 402697+ range."
+      "note": "Session 246 work: Translated 58 debug flowchart entries (lines 402697-403081). Sections: debug_flowchart_panther and hunters. CRITICAL FIX: Corrected quote format - initially added extra quotes (4 total) but fixed to match EN source (2 quotes). Applied unified translation decision logic. Script Node terms preserved (do_not_translate). All validations passed: structure (0 errors), action marker verification, quality (0 issues). Remaining: 11,103 untranslated. Next: Continue from line 403081+."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -60,15 +60,15 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "f5b68ee",
-  "last_commit_message": "Base game translation: 84 scattered entries in lines 401756-402694",
+  "last_commit_hash": "4576a29",
+  "last_commit_message": "Base game translation: 58 debug flowchart entries (lines 402697-403081)",
   "validation_date": "2025-11-12",
   "validation_script": "validate_structure_v2.py",
   "work_priority": "BASE_GAME_FIRST",
-  "total_entries_completed": 36689,
+  "total_entries_completed": 36747,
   "total_entries": 78361,
-  "total_entries_untranslated": 38762,
-  "total_issues": 15430,
-  "overall_completion_rate": 46.8,
-  "next_action": "RESUME base_game translation from line 402697 onwards. Priority: Complete all base_game scattered untranslated entries. Continue section-by-section cleanup. DLC1 work PAUSED until base_game verified 100% complete."
+  "total_entries_untranslated": 38689,
+  "total_issues": 15372,
+  "overall_completion_rate": 46.9,
+  "next_action": "RESUME base_game translation from line 403081 onwards. Priority: Complete all base_game scattered untranslated entries. Continue section-by-section cleanup. DLC1 work PAUSED until base_game verified 100% complete."
 }

@@ -403761,9 +403761,9 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = ""Damn, scratched the paint!""
+        1 string data = ""くそ、塗装が傷ついた！""
        [2]
-        1 string data = ""Shit, that'll leave a dent!""
+        1 string data = ""ちくしょう、へこみが残るぞ！""
        [3]
         1 string data = "Script Node 4"
        [4]
@@ -403785,49 +403785,49 @@
        [12]
         1 string data = "Script Node 13"
        [13]
-        1 string data = ""C'mon, hold together!""
+        1 string data = ""頼む、もってくれ！""
        [14]
-        1 string data = ""Need repairs!""
+        1 string data = ""修理が必要だ！""
        [15]
-        1 string data = ""I'm out of commission!""
+        1 string data = ""もう動けない！""
        [16]
-        1 string data = ""I'm scrap!""
+        1 string data = ""スクラップ同然だ！""
        [17]
-        1 string data = ""Much obliged.""
+        1 string data = ""ありがとう。""
        [18]
-        1 string data = ""Good as new!""
+        1 string data = ""新品同様だ！""
        [19]
-        1 string data = ""Eat this!""
+        1 string data = ""食らえ！""
        [20]
-        1 string data = ""Heads up!""
+        1 string data = ""気をつけろ！""
        [21]
-        1 string data = ""Engine's going funky!""
+        1 string data = ""エンジンの調子がおかしい！""
        [22]
-        1 string data = ""Having trouble moving!""
+        1 string data = ""動きに問題がある！""
        [23]
-        1 string data = ""I'm a sitting duck!""
+        1 string data = ""無防備な的だ！""
        [24]
-        1 string data = ""This is <i>not</i> the time!""
+        1 string data = ""今は<i>その時ではない</i>！""
        [25]
-        1 string data = ""W-we're lit up!""
+        1 string data = ""わ、われわれは照らされている！""
        [26]
-        1 string data = ""Oh, that can't be good.""
+        1 string data = ""ああ、それは良くない。""
        [27]
-        1 string data = ""Smoke's everywhere!""
+        1 string data = ""煙が至る所に！""
        [28]
-        1 string data = ""Put it out!""
+        1 string data = ""消せ！""
        [29]
-        1 string data = ""Everything's iced over!""
+        1 string data = ""全てが凍りついた！""
        [30]
-        1 string data = ""It's too cold!""
+        1 string data = ""寒すぎる！""
        [31]
-        1 string data = ""Ready for orders.""
+        1 string data = ""命令待機中。""
        [32]
-        1 string data = ""Rockin' and rollin'!""
+        1 string data = ""絶好調だ！""
        [33]
-        1 string data = ""You called?""
+        1 string data = ""呼んだか？""
        [34]
-        1 string data = ""Time to unleash hell!""
+        1 string data = ""地獄を解き放つ時だ！""
    [1375]
     0 StringTable data
      1 string Filename = "testcamelcase3"
@@ -403869,7 +403869,7 @@
       1 Array Array (1 items)
        0 int size = 1
        [0]
-        1 string data = ""The words of the entry""
+        1 string data = ""エントリーの言葉""
    [1377]
     0 StringTable data
      1 string Filename = "testconversationnewentry1"
@@ -403887,7 +403887,7 @@
       1 Array Array (1 items)
        0 int size = 1
        [0]
-        1 string data = "This is some text."
+        1 string data = "これはいくつかのテキストです。"
    [1378]
     0 StringTable data
      1 string Filename = "testconversationthefirst"
@@ -403913,9 +403913,9 @@
       1 Array Array (3 items)
        0 int size = 3
        [0]
-        1 string data = "At least there's something."
+        1 string data = "少なくとも何かがある。"
        [1]
-        1 string data = "This is a player response."
+        1 string data = "これはプレイヤーの応答です。"
        [2]
         1 string data = ""
    [1379]
@@ -403939,9 +403939,9 @@
       1 Array Array (2 items)
        0 int size = 2
        [0]
-        1 string data = "Talk Node Text - isn't it interesting?"
+        1 string data = "トークノードのテキスト - 興味深いだろう？"
        [1]
-        1 string data = "Response Node Text - you can have any conversation option you want, as long as it's this."
+        1 string data = "応答ノードのテキスト - これである限り、あなたが望むどんな会話オプションも選べる。"
    [1380]
     0 StringTable data
      1 string Filename = "testconversation_activatetraps"
@@ -403995,25 +403995,25 @@
       1 Array Array (10 items)
        0 int size = 10
        [0]
-        1 string data = " Intro Text"
+        1 string data = " イントロテキスト"
        [1]
-        1 string data = "Trigger Trap 1"
+        1 string data = "トラップ1を起動"
        [2]
-        1 string data = "Trigger Trap 2"
+        1 string data = "トラップ2を起動"
        [3]
-        1 string data = "Trigger Trap 3"
+        1 string data = "トラップ3を起動"
        [4]
-        1 string data = "Triger Trap 4"
+        1 string data = "トラップ4を起動"
        [5]
-        1 string data = "Exit"
+        1 string data = "退出"
        [6]
-        1 string data = " Trap will trigger after this bark exits."
+        1 string data = " このバークが終了した後にトラップが起動します。"
        [7]
-        1 string data = " Trap will trigger after this bark exits."
+        1 string data = " このバークが終了した後にトラップが起動します。"
        [8]
-        1 string data = " Trap will trigger after this bark exits."
+        1 string data = " このバークが終了した後にトラップが起動します。"
        [9]
-        1 string data = " Trap will trigger after this bark exits."
+        1 string data = " このバークが終了した後にトラップが起動します。"
    [1381]
     0 StringTable data
      1 string Filename = "testconversation_addplayernodes"
@@ -404063,19 +404063,19 @@
       1 Array Array (9 items)
        0 int size = 9
        [0]
-        1 string data = "This is the start of the conversation.  When you continue, we'll wait while we try to add another player (or, for now, simulate a delay).\n\n\nThe next node is a script node executing a test script."
+        1 string data = "これは会話の開始です。続けると、別のプレイヤーを追加しようとする間待ちます（または、今のところ遅延をシミュレートします）。\n\n\n次のノードは、テストスクリプトを実行するスクリプトノードです。"
        [1]
         1 string data = "Script Node 2"
        [2]
-        1 string data = "This node will show up if we successfully added the other player (or if they were already present)."
+        1 string data = "このノードは、他のプレイヤーの追加に成功した場合（または既に存在している場合）に表示されます。"
        [3]
-        1 string data = "This node will show up if the other player is not in the conversation."
+        1 string data = "このノードは、他のプレイヤーが会話に参加していない場合に表示されます。"
        [4]
-        1 string data = "Is the other player present yet?"
+        1 string data = "他のプレイヤーはまだ存在していますか？"
        [5]
-        1 string data = "Yes."
+        1 string data = "はい。"
        [6]
-        1 string data = "Nevermind. Bye bye."
+        1 string data = "気にしないで。さようなら。"
        [7]
         1 string data = "Script Node 2"
        [8]
@@ -404149,25 +404149,25 @@
       1 Array Array (14 items)
        0 int size = 14
        [0]
-        1 string data = "Whatcha want to do with companions?"
+        1 string data = "コンパニオンをどうしたい？"
        [1]
-        1 string data = "Add the Psychopath to my party."
+        1 string data = "サイコパスをパーティーに追加する。"
        [2]
-        1 string data = "Remove Psychopath from my party."
+        1 string data = "サイコパスをパーティーから外す。"
        [3]
-        1 string data = "Bye."
+        1 string data = "さようなら。"
        [4]
-        1 string data = "Here you go."
+        1 string data = "どうぞ。"
        [5]
-        1 string data = "He's gone."
+        1 string data = "彼は去った。"
        [6]
-        1 string data = "Add Sgt Kwon to my party."
+        1 string data = "クォン軍曹をパーティーに追加する。"
        [7]
-        1 string data = "Remove Sgt Kwon from my party."
+        1 string data = "クォン軍曹をパーティーから外す。"
        [8]
-        1 string data = "Here you go."
+        1 string data = "どうぞ。"
        [9]
-        1 string data = "He's gone."
+        1 string data = "彼は去った。"
        [10]
         1 string data = "Script Node 11"
        [11]
