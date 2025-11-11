@@ -14,14 +14,18 @@
       "target_file": "translation/target/v1.6.9.420.309496/ja_JP/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
-      "total_entries": 169712,
-      "entries_translated": 169712,
-      "entries_untranslated": 0,
-      "completion_rate": 100.0,
+      "total_string_data_lines": 131783,
+      "non_empty_entries": 42499,
+      "entries_translated": 28567,
+      "entries_partially_translated": 574,
+      "entries_untranslated": 11711,
+      "entries_other": 1647,
+      "total_issues": 12285,
+      "completion_rate": 67.2,
       "current_line": 530425,
-      "status": "completed",
+      "status": "INCORRECT_COMPLETION_CLAIMED",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Base game 100% complete with 0 structure errors and 0 quality issues. Ready for DLC1."
+      "note": "CRITICAL: Progress tracking failure discovered 2025-11-11. File was incorrectly marked 100% complete, but validation reveals 12,285 untranslated/partially translated entries remain (27.6% English only + 1.4% mixed). Actual completion: 67.2% (28,567/42,499 non-empty entries). See translation/PROGRESS_TRACKING_ISSUE_ANALYSIS.md for details. Status frozen pending user decision on remediation approach."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -56,9 +60,11 @@
   },
   "last_commit_hash": "9c879c8",
   "last_commit_message": "DLC1 translation: Session DLC1-066 (143 entries, lines 74857-75768)",
-  "total_entries_completed": 200363,
-  "total_entries": 232418,
-  "total_entries_untranslated": 32055,
-  "overall_completion_rate": 86.2,
-  "next_action": "Continue DLC1 translation from line 75769. Next section: d2201_computationengine (135 entries). Sequential processing with strict structure protection."
+  "validation_date": "2025-11-11",
+  "validation_script": "validate_completion.py",
+  "total_entries_completed": 59218,
+  "total_entries": 105205,
+  "total_entries_untranslated": 45987,
+  "overall_completion_rate": 56.3,
+  "next_action": "CRITICAL ISSUE DETECTED: Base game falsely marked complete. User decision required: (A) Pause DLC1, complete base_game first (per CLAUDE.md rules), or (B) Continue DLC1, fix base_game later. See translation/PROGRESS_TRACKING_ISSUE_ANALYSIS.md and translation/base_game_completion_report.txt for details."
 }
