@@ -55637,23 +55637,23 @@
       1 Array Array (9 items)
        0 int size = 9
        [0]
-        1 string data = "EMERGENCY LOCKDOWN PROTOCOL:\n\n\nLIFT DISABLED"
+        1 string data = "緊急ロックダウンプロトコル:\n\n\nエレベーター無効化"
        [1]
-        1 string data = "LIFT ONLINE\n\n\nSELECT ADMIN LEVEL OR FACTORY LEVEL"
+        1 string data = "エレベーターオンライン\n\n\n管理階層または工場階層を選択"
        [2]
-        1 string data = "Press 'Factory.'"
+        1 string data = "'工場'を押す。"
        [3]
-        1 string data = "Press 'Admin.'"
+        1 string data = "'管理'を押す。"
        [4]
-        1 string data = "Step away."
+        1 string data = "離れる。"
        [5]
-        1 string data = "The lift lurches down toward the factory."
+        1 string data = "エレベーターが揺れながら工場へと下降する。"
        [6]
-        1 string data = "You should gather your whole squad before activating the lift."
+        1 string data = "エレベーターを起動する前に、分隊全員を集めるべきだ。"
        [7]
         1 string data = ""
        [8]
-        1 string data = "The lift ascends up toward the arcology."
+        1 string data = "エレベーターがアルコロジーへと上昇する。"
    [177]
     0 StringTable data
      1 string Filename = "d2001_int_console_generic"
@@ -55677,7 +55677,7 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = ""This console is not yet set up or contained obsolete data. TODO - either put meaningful stuff here, or entertaining side material. This conversation is used across several consoles." "
+        1 string data = ""このコンソールはまだ設定されていないか、古いデータが含まれています。TODO - ここに意味のある内容か、面白い副次的な素材を配置してください。この会話は複数のコンソールで使用されます。" "
    [178]
     0 StringTable data
      1 string Filename = "d2001_int_console_markham"
@@ -55707,13 +55707,13 @@
       1 Array Array (4 items)
        0 int size = 4
        [0]
-        1 string data = "This is Markham's Computer."
+        1 string data = "これはマーカムのコンピューターだ。"
        [1]
-        1 string data = "(Hack) Sabotage Safe Room Controls (not implemented)"
+        1 string data = "(ハック)セーフルームの制御を妨害する(未実装)"
        [2]
-        1 string data = "Leave"
+        1 string data = "立ち去る"
        [3]
-        1 string data = "(Hack) Gain Lore about the Synths that make up Computation Core. (not implemented)"
+        1 string data = "(ハック)演算コアを構成するシンスに関する知識を得る。(未実装)"
    [179]
     0 StringTable data
      1 string Filename = "d2001_int_console_surveillance"
@@ -55739,11 +55739,11 @@
       1 Array Array (3 items)
        0 int size = 3
        [0]
-        1 string data = "The screen of this monitor is divided into multiple security camera feeds, showing different areas both inside and outside the arcology. There are several angles on the recruitment testing center. "
+        1 string data = "このモニターの画面は複数の監視カメラフィードに分割されており、アルコロジーの内外のさまざまな区域を映し出している。リクルートテストセンターを複数の角度から捉えている。"
        [1]
-        1 string data = "Step away from the monitor."
+        1 string data = "モニターから離れる。"
        [2]
-        1 string data = "Your eagle eye notices that different shots are being highlighted, one here, one there, then another, as if someone was choosing which areas to monitor, but you can see no one working the controls."
+        1 string data = "鋭い観察眼で、異なるショットがハイライトされているのに気づく。ここ、あそこ、そして別の場所と、まるで誰かが監視する区域を選んでいるかのようだが、制御装置を操作している人物は見当たらない。"
    [180]
     0 StringTable data
      1 string Filename = "d2001_int_console_testingresults"
@@ -55765,9 +55765,9 @@
       1 Array Array (2 items)
        0 int size = 2
        [0]
-        1 string data = "This console is outputting data on the applicants being screened.\nIt's a flood of info, too much for anyone to make sense of."
+        1 string data = "このコンソールは審査中の応募者のデータを出力している。\n情報が洪水のように流れており、誰にも意味を理解できない。"
        [1]
-        1 string data = "Leave"
+        1 string data = "立ち去る"
    [181]
     0 StringTable data
      1 string Filename = "d2001_int_console_warbot"
@@ -55831,15 +55831,15 @@
       1 Array Array (5 items)
        0 int size = 5
        [0]
-        1 string data = "\nDefault Greeting."
+        1 string data = "\nデフォルトの挨拶。"
        [1]
         1 string data = "DEBUG"
        [2]
-        1 string data = "Goodbye."
+        1 string data = "さようなら。"
        [3]
-        1 string data = "A large column of edible fungus grows in the center of the dome."
+        1 string data = "ドームの中央に、食用菌類の大きな柱が生えている。"
        [4]
-        1 string data = "Grab a hunk of the fungus."
+        1 string data = "菌類の塊をつかむ。"
    [183]
     0 StringTable data
      1 string Filename = "d2001_int_jobtest_breath"
@@ -55949,53 +55949,53 @@
       1 Array Array (24 items)
        0 int size = 24
        [0]
-        1 string data = "This treadmill is hooked up to a computer. Along one side of it someone has scrawled, 'Rat race pole postion time trial.'"
+        1 string data = "このトレッドミルはコンピューターに接続されている。その側面に誰かが走り書きしている。'ラットレースのポールポジションタイムトライアル。'"
        [1]
         1 string data = "Script Node 2"
        [2]
         1 string data = "Script Node 3"
        [3]
-        1 string data = "You walk on the treadmill as it begins to move under your feet. Words flash on the computer screen as the speed increases."
+        1 string data = "トレッドミルの上を歩くと、足元で動き始める。速度が上がるにつれて、コンピューター画面に文字が点滅する。"
        [4]
         1 string data = "Script Node 5"
        [5]
-        1 string data = "'Heart rate increasing...'"
+        1 string data = "'心拍数増加中...'"
        [6]
         1 string data = "Script Node 7"
        [7]
-        1 string data = "'Administering fitness test Apple-01.'"
+        1 string data = "'フィットネステストApple-01実施中。'"
        [8]
-        1 string data = "'Recording synaptic response...'"
+        1 string data = "'シナプス反応記録中...'"
        [9]
-        1 string data = ""Let's go see what the Computation Engine has determined, based on your results.""
+        1 string data = ""結果に基づいて、演算エンジンが何を判定したか見に行きましょう。""
        [10]
         1 string data = "Script Node 11"
        [11]
         1 string data = "Trigger Conv Node 12"
        [12]
-        1 string data = "'Blood oxygen increasing...'"
+        1 string data = "'血中酸素濃度増加中...'"
        [13]
-        1 string data = "'Arousal increasing...'"
+        1 string data = "'覚醒度増加中...'"
        [14]
-        1 string data = ""Don't worry about it. It happens to everybody.""
+        1 string data = ""心配しないでください。誰にでも起こることです。""
        [15]
-        1 string data = ""Oops, it did it again. Oh well.""
+        1 string data = ""おっと、またやってしまいました。まあいいでしょう。""
        [16]
-        1 string data = ""Heh. You're really falling down on the job. Just kidding.""
+        1 string data = ""へへ。仕事で本当に転んでいますね。冗談ですよ。""
        [17]
-        1 string data = ""Have a nice trip?""
+        1 string data = ""良い旅でしたか?""
        [18]
-        1 string data = "'Administering fitness test Apple-02.'"
+        1 string data = "'フィットネステストApple-02実施中。'"
        [19]
-        1 string data = "'Administering fitness test Banana-01.'"
+        1 string data = "'フィットネステストBanana-01実施中。'"
        [20]
-        1 string data = "'Recording haptic response...'"
+        1 string data = "'触覚反応記録中...'"
        [21]
-        1 string data = "'Recording slapstick response...'"
+        1 string data = "'スラップスティック反応記録中...'"
        [22]
-        1 string data = ""Trickier than it looks, huh?""
+        1 string data = ""見た目より難しいでしょう?""
        [23]
-        1 string data = ""Let's go see what the Computation Engine has for you this time.""
+        1 string data = ""今回、演算エンジンが何を用意したか見に行きましょう。""
    [184]
     0 StringTable data
      1 string Filename = "d2001_int_jobtest_cognative"
@@ -56095,45 +56095,45 @@
        [0]
         1 string data = "Script Node 3"
        [1]
-        1 string data = "You step into the stimulus chamber and a blurred montage of random images begins to flash past your eyes, mundane and horrible, beautiful and gruesome, hilarous and sad. A question flashes on the screen."
+        1 string data = "刺激チャンバーに入ると、ランダムな画像のぼやけたモンタージュが目の前を点滅し始める。平凡で恐ろしく、美しく残酷で、陽気で悲しい。画面に質問が点滅する。"
        [2]
         1 string data = "Script Node 7"
        [3]
-        1 string data = "'What are you thinking? Do not answer. Only think it.'"
+        1 string data = "'何を考えていますか?答えないでください。考えるだけにしてください。'"
        [4]
         1 string data = "Script Node 5"
        [5]
-        1 string data = ""Congratulations. You tested positive for cognition. Let's go see what the Computation Engine has determined, based on your results.""
+        1 string data = ""おめでとうございます。認知検査で陽性でした。結果に基づいて、演算エンジンが何を判定したか見に行きましょう。""
        [6]
-        1 string data = "'Who are you? Do not answer. Only think it.'"
+        1 string data = "'あなたは誰ですか?答えないでください。考えるだけにしてください。'"
        [7]
-        1 string data = "'Why are you here? Do not answer. Only think it.'"
+        1 string data = "'なぜここにいるのですか?答えないでください。考えるだけにしてください。'"
        [8]
         1 string data = "Script Node 2"
        [9]
-        1 string data = "This looks like a vertical, high-tech coffin. Not intimidating at all."
+        1 string data = "これは縦型のハイテク棺のように見える。全く威圧的ではない。"
        [10]
         1 string data = "Script Node 11"
        [11]
         1 string data = "Trigger Conv Node 12"
        [12]
-        1 string data = "Test passed."
+        1 string data = "テスト合格。"
        [13]
-        1 string data = "Tabulating..."
+        1 string data = "集計中..."
        [14]
-        1 string data = "Tabulating..."
+        1 string data = "集計中..."
        [15]
-        1 string data = "Tabulating..."
+        1 string data = "集計中..."
        [16]
-        1 string data = "'How do you feel? Do not answer. Only think it.'"
+        1 string data = "'どう感じていますか?答えないでください。考えるだけにしてください。'"
        [17]
-        1 string data = "Think it."
+        1 string data = "考える。"
        [18]
-        1 string data = "Don't think it."
+        1 string data = "考えない。"
        [19]
-        1 string data = ""You can't tell me what to do.""
+        1 string data = ""あなたに指図される筋合いはない。""
        [20]
-        1 string data = ""You passed again! Let's go see what the Computation Engine has for you.""
+        1 string data = ""また合格しました!演算エンジンがあなたのために何を用意したか見に行きましょう。""
    [185]
     0 StringTable data
      1 string Filename = "d2001_int_jobtest_firing"
