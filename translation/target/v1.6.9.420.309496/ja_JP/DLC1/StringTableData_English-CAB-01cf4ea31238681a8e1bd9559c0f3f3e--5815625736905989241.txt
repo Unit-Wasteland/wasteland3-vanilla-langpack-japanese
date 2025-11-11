@@ -20659,11 +20659,11 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = """TEMP NODE. HALLIE's MOM. Need to script this out as per ZDD.\n\n\nHallie's Mom\n\n\nIf the player has completed Slaver's Bounty, Hallie's mom Deirdre can be found in the refugee camp.\n\n\nThe player can tell her what happened to her daughter (or lie about it)\n\n\nIf Hallie is free, you can have RHQ put her on the line with her mom and they agree to meet up and head for new horizons (California?). She is gone after the next scene transition.\n\n\nIf Hallie is enslaved, you can tell Deirdre you know where she is, call La Perla on the radio, and arrange for them to "meet" (Deirdre will also be enslaved). She is gone after the next scene transition.\n\n\nREWARD - In all cases, Deirdre gives you a meagre reward"
+        1 string data = """仮ノード。ハリーの母。ZDDに従ってスクリプトを作成する必要がある。\n\n\nハリーの母\n\n\nプレイヤーが奴隷商人の懸賞金を完了している場合、ハリーの母ディアドラは難民キャンプで見つけることができる。\n\n\nプレイヤーは彼女の娘に何が起こったかを伝えることができる(または嘘をつく)\n\n\nハリーが自由なら、RHQに母親と電話で話させ、彼らは新しい地平線(カリフォルニア?)に向かうことに合意する。次のシーン遷移後に彼女は消える。\n\n\nハリーが奴隷になっている場合、ディアドラに彼女の居場所を知っていると伝え、ラ・ペルラに無線で連絡し、彼らが"会う"ように手配できる(ディアドラも奴隷にされる)。次のシーン遷移後に彼女は消える。\n\n\n報酬 - いずれの場合も、ディアドラはわずかな報酬をくれる"
        [2]
-        1 string data = "Player regonizes Hallie's Mom, first time"
+        1 string data = "プレイヤーがハリーの母を認識する、初回"
        [3]
-        1 string data = ""Thank you, Rangers! I can't wait to see my daughter again.""
+        1 string data = ""ありがとうございます、レンジャーの皆さん!娘にまた会えるのが待ちきれません。""
        [4]
         1 string data = """"
        [5]
@@ -20775,49 +20775,49 @@
       1 Array Array (22 items)
        0 int size = 22
        [0]
-        1 string data = "Welcome to the Steeltown Human Resource Evaluation Center's Biometric Assessment Diagnostic (BAD). Please complete the following three multiple choice medical history statements to the best of your ability while the scan completes."
+        1 string data = "スティールタウン人事評価センターの生体認証評価診断(BAD)へようこそ。スキャン完了中に、以下の3つの選択式健康履歴声明を最善を尽くして記入してください。"
        [1]
-        1 string data = "'I am most allergic to ______.'"
+        1 string data = "'私が最もアレルギーを持つものは______です。'"
        [2]
-        1 string data = "Thank you for completing the statement. There are two more statements."
+        1 string data = "声明の記入をありがとうございます。あと2つの声明があります。"
        [3]
-        1 string data = "'I have _____ cybernetic implant(s).'"
+        1 string data = "'私は_____個のサイバネティック・インプラントを持っています。'"
        [4]
-        1 string data = "Congratulations. Your physical assessment is complete."
+        1 string data = "おめでとうございます。身体評価が完了しました。"
        [5]
         1 string data = ""
        [6]
-        1 string data = "A - Cats."
+        1 string data = "A - ネコ。"
        [7]
-        1 string data = "B - Peanuts."
+        1 string data = "B - ピーナッツ。"
        [8]
-        1 string data = "C - Pollen."
+        1 string data = "C - 花粉。"
        [9]
-        1 string data = "Thank you for completing the statement. There is one more statement."
+        1 string data = "声明の記入をありがとうございます。残り1つの声明があります。"
        [10]
-        1 string data = "D - Human skin."
+        1 string data = "D - 人間の皮膚。"
        [11]
-        1 string data = "A - None."
+        1 string data = "A - なし。"
        [12]
-        1 string data = "B - One."
+        1 string data = "B - 1つ。"
        [13]
-        1 string data = "C - Less than ten."
+        1 string data = "C - 10個未満。"
        [14]
-        1 string data = "D - I am not a robot."
+        1 string data = "D - 私はロボットではない。"
        [15]
-        1 string data = "'My family has a history of ______.'"
+        1 string data = "'私の家族は______の病歴があります。'"
        [16]
-        1 string data = "B - Epilepsy."
+        1 string data = "B - てんかん。"
        [17]
-        1 string data = "C - Heart Disease."
+        1 string data = "C - 心臓病。"
        [18]
-        1 string data = "A - Diabetes."
+        1 string data = "A - 糖尿病。"
        [19]
-        1 string data = "D - Joint Malfunction. "
+        1 string data = "D - 関節の機能不全。"
        [20]
-        1 string data = "Thank you for completing the last statement. Your final score is 100%."
+        1 string data = "最後の声明の記入をありがとうございます。最終スコアは100%です。"
        [21]
-        1 string data = "Words appear on a screen on the wall of the room."
+        1 string data = "部屋の壁にあるスクリーンに文字が現れる。"
    [66]
     0 StringTable data
      1 string Filename = "d1001_int_clinictest_computers"
@@ -20939,33 +20939,33 @@
       1 Array Array (27 items)
        0 int size = 27
        [0]
-        1 string data = "The console wakes as you approach it. Words appear on the screen."
+        1 string data = "近づくとコンソールが起動する。スクリーンに文字が現れる。"
        [1]
-        1 string data = "A - Turn it off and turn it on again.\n"
+        1 string data = "A - オフにして、再びオンにする。\n"
        [2]
-        1 string data = ""Thank you for completing the statement. There are two more statements.""
+        1 string data = ""声明の記入をありがとうございます。あと2つの声明があります。""
        [3]
-        1 string data = "You've debugged Steeltown.\nNo one thought it was possible."
+        1 string data = "スティールタウンのデバッグに成功した。\n誰も可能だとは思っていなかった。"
        [4]
-        1 string data = "You write a pretty nifty script to do the work for you.\nThe test moderator scribbles notes excitedly."
+        1 string data = "作業用にかなり優れたスクリプトを書いた。\nテスト司会者は興奮してメモを走り書きしている。"
        [5]
-        1 string data = "Your Copy/Paste skills are competent."
+        1 string data = "コピー/ペーストのスキルは有能だ。"
        [6]
-        1 string data = "Your confused finger-typing exasperates everyone around you."
+        1 string data = "混乱した指打ちは周りの全員をイライラさせる。"
        [7]
-        1 string data = "B - Turn it off, count to ten, then turn it on again. "
+        1 string data = "B - オフにして、10まで数えてから、再びオンにする。"
        [8]
         1 string data = "Script Node 9"
        [9]
-        1 string data = ""Welcome to Steeltown's Computer Resourcefulness Assessment Pod (CRAP). Please complete the following three statements to the best of your ability.""
+        1 string data = ""スティールタウンのコンピューター機知評価ポッド(CRAP)へようこそ。以下の3つの声明を最善を尽くして記入してください。""
        [10]
-        1 string data = "Statement One:\n\n\n"The first thing to do when confronted with a computer problem is _____.""
+        1 string data = "声明1:\n\n\n"コンピューターの問題に直面したときに最初にすべきことは_____です。""
        [11]
-        1 string data = "C - Jiggle it. \r\n"
+        1 string data = "C - 揺する。\r\n"
        [12]
-        1 string data = "D - Sacrifice a goat."
+        1 string data = "D - ヤギを生贄に捧げる。"
        [13]
-        1 string data = "Statement Two:\n\n\n"To condense large amounts of data into managable delivery packets, it is best to use a ____ protocol.""
+        1 string data = "声明2:\n\n\n"大量のデータを管理可能な配信パケットに凝縮するには、____プロトコルを使用するのが最適です。""
        [14]
         1 string data = "A - PDQ\n"
        [15]
@@ -20975,23 +20975,23 @@
        [17]
         1 string data = "D - SPQR"
        [18]
-        1 string data = ""Thank you for completing the statement. There is one final statement.""
+        1 string data = ""声明の記入をありがとうございます。最後の声明があります。""
        [19]
-        1 string data = "Statement Three:\n\n\n"Artificial Intelligence is ____.""
+        1 string data = "声明3:\n\n\n"人工知能は____です。""
        [20]
-        1 string data = "A - A myth.\n"
+        1 string data = "A - 神話。\n"
        [21]
-        1 string data = "B - A threat."
+        1 string data = "B - 脅威。"
        [22]
-        1 string data = "C - The future of computation."
+        1 string data = "C - コンピューテーションの未来。"
        [23]
-        1 string data = "D - My hacker name."
+        1 string data = "D - 私のハッカー名。"
        [24]
-        1 string data = ""Thank you for completing the last statement. Your final score is 100%.""
+        1 string data = ""最後の声明の記入をありがとうございます。最終スコアは100%です。""
        [25]
-        1 string data = ""Congratulations. You have passed the computer skills test.""
+        1 string data = ""おめでとうございます。コンピュータースキルテストに合格しました。""
        [26]
-        1 string data = ""Please proceed to the next station.""
+        1 string data = ""次のステーションに進んでください。""
    [67]
     0 StringTable data
      1 string Filename = "d1001_int_clinictest_engineering"
@@ -21113,59 +21113,59 @@
       1 Array Array (27 items)
        0 int size = 27
        [0]
-        1 string data = "The console wakes as you approach it. Words appear on the screen."
+        1 string data = "近づくとコンソールが起動する。スクリーンに文字が現れる。"
        [1]
-        1 string data = "A - Use a lathe to round the peg.\n"
+        1 string data = "A - 旋盤を使って杭を丸くする。\n"
        [2]
-        1 string data = ""Thank you for completing the statement. There are two more statements.""
+        1 string data = ""声明の記入をありがとうございます。あと2つの声明があります。""
        [3]
-        1 string data = "She purrs like a kitten.\nDoesn't even need gas!\nA new age of technology is born!\n"
+        1 string data = "子猫のように鳴る。\nガスすら必要ない!\n技術の新時代の誕生だ!\n"
        [4]
-        1 string data = "You replace the broken parts and even modify it to run more efficiently.\nThe administrator is very impressed."
+        1 string data = "壊れた部品を交換し、さらに効率的に動くように改造した。\n管理者は非常に感銘を受けている。"
        [5]
-        1 string data = "You get it working again, but it doesn't sound right...\nYou sweep some "extra" parts off the table."
+        1 string data = "再び動かすことに成功したが、音がおかしい...\nテーブルから"余分な"部品をいくつか掃き落とす。"
        [6]
-        1 string data = "You took the motor apart, but can't seem to put it together again.\nThe administrator shoos you away."
+        1 string data = "モーターを分解したが、再び組み立てられないようだ。\n管理者に追い払われる。"
        [7]
-        1 string data = "B - Use a jigsaw to square the hole.\n"
+        1 string data = "B - ジグソーを使って穴を四角くする。\n"
        [8]
         1 string data = "Script Node 9"
        [9]
-        1 string data = ""Welcome to Steeltown's Engineering Equipment Experience Pod. (EEEP) Please complete the following three statements to the best of your ability.""
+        1 string data = ""スティールタウンの工学機器体験ポッド(EEEP)へようこそ。以下の3つの声明を最善を尽くして記入してください。""
        [10]
-        1 string data = "Statement One:\n\n\n"When confronted with a square peg and a round hole, I ____.""
+        1 string data = "声明1:\n\n\n"四角い杭と丸い穴に直面したとき、私は____。""
        [11]
-        1 string data = "C - Get a bigger hammer."
+        1 string data = "C - もっと大きなハンマーを手に入れる。"
        [12]
-        1 string data = "D - Read the instructions."
+        1 string data = "D - 説明書を読む。"
        [13]
-        1 string data = ""If asked to design an explosive device, my main concern would be____.""
+        1 string data = ""爆発装置の設計を依頼された場合、私の主な関心事は____です。""
        [14]
-        1 string data = "A - Color.\n"
+        1 string data = "A - 色。\n"
        [15]
         1 string data = "B - UI\n"
        [16]
-        1 string data = "C - Synergy. \r\n"
+        1 string data = "C - シナジー。\r\n"
        [17]
-        1 string data = "D - Ergonomics."
+        1 string data = "D - エルゴノミクス。"
        [18]
-        1 string data = ""Thank you for completing the statement. There is one final statement.""
+        1 string data = ""声明の記入をありがとうございます。最後の声明があります。""
        [19]
-        1 string data = "Statement Three:\n\n\n"If I needed a friend, I would ____.""
+        1 string data = "声明3:\n\n\n"友達が必要なら、私は____。""
        [20]
-        1 string data = "A - Join a social club."
+        1 string data = "A - 社交クラブに参加する。"
        [21]
-        1 string data = "B - Hang around in bars."
+        1 string data = "B - バーをうろつく。"
        [22]
-        1 string data = "C - Build one."
+        1 string data = "C - 1つ作る。"
        [23]
-        1 string data = "D - My machines are my friends. "
+        1 string data = "D - 私の機械が私の友達だ。"
        [24]
-        1 string data = ""Thank you for completing the last statement. Your final score is 100%.""
+        1 string data = ""最後の声明の記入をありがとうございます。最終スコアは100%です。""
        [25]
-        1 string data = ""Congratulations. You have passed the engineering skills test.""
+        1 string data = ""おめでとうございます。工学スキルテストに合格しました。""
        [26]
-        1 string data = ""Please proceed to the next station.""
+        1 string data = ""次のステーションに進んでください。""
    [68]
     0 StringTable data
      1 string Filename = "d1001_int_clinictest_strength"
