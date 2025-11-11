@@ -15,13 +15,13 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "entries_translated": 37228,
-      "entries_untranslated": 132484,
-      "completion_rate": 21.9,
-      "current_line": 93260,
+      "entries_translated": 37350,
+      "entries_untranslated": 132362,
+      "completion_rate": 22.0,
+      "current_line": 94411,
       "status": "in_progress",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session R3-412: Translated 20 entries in lines 89910-93260. Content: a1001_scotchmo complete (213 entries - hobo dialogue sleeping bar Colorado different Rangers place various drunk conversations joining party), a1001_sergeigreatski partial (28 entries - Sergei Greatski intro chief security Patriarch loyalty war stories battle Punkin Center Monster Army rebels). All action markers preserved (::hurk::, ::glug::). Pre-commit validations passed - Structure 0 errors. Next: Continue a1001_sergeigreatski from line 93260."
+      "note": "Session R3-414: Translated 45 entries in lines 93660-94410. Content: a1001_sergeigreatski continued + a1001_sergeiradiobarks_homeawayfromhome + a1001_servitorprimary complete. Sergei dialogue - traitors war room gate elevator tunnel museum. Radio barks - security alerts power generator main hall terminals garage. Servitor primary - alarm warnings authorization IT repairs foolish orders programmer logic battery defense mutiny. Unified translation decision logic applied. Pre-commit dual validations passed - Structure 0 errors, Quality 0 issues. Next: Continue a1001_servitorsecondary from line 94411."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -52,11 +52,11 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "f0e65a9",
-  "last_commit_message": "Translation: Session R3-411 - 94 entries (lines 88704-89910)",
-  "total_entries_completed": 37228,
+  "last_commit_hash": "d9a0076",
+  "last_commit_message": "Translation: Session R3-414 - 45 entries (lines 93660-94410)",
+  "total_entries_completed": 37350,
   "total_entries": 232418,
-  "total_entries_untranslated": 195190,
-  "overall_completion_rate": 16.0,
-  "next_action": "MANDATORY: Complete base game translation to 100% BEFORE starting any DLC work. Current base game progress: 37,208/169,712 entries (21.9%). Continue from line 89910 (a1001_scotchmo section). DLC1 and DLC2 must remain at 0% until base game reaches 100% with strict validation."
+  "total_entries_untranslated": 195068,
+  "overall_completion_rate": 16.1,
+  "next_action": "MANDATORY: Complete base game translation to 100% BEFORE starting any DLC work. Current base game progress: 37,350/169,712 entries (22.0%). Continue from line 94411 (a1001_servitorsecondary section). DLC1 and DLC2 must remain at 0% until base game reaches 100% with strict validation."
 }
