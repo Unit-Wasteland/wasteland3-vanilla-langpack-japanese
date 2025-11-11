@@ -1,0 +1,69 @@
+================================================================================
+COMPLETION VALIDATION REPORT
+================================================================================
+
+File: StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt
+Total lines: 120,559
+String data lines: 32,483
+
+--------------------------------------------------------------------------------
+ENTRY BREAKDOWN
+--------------------------------------------------------------------------------
+Empty entries: 20,773 (翻訳不要)
+Non-empty entries: 11,710 (翻訳対象)
+
+Translation status (non-empty entries only):
+  ✅ Japanese only: 7,586 (64.8%)
+  ❌ English only: 3,434 (29.3%)
+  ⚠️  Mixed (JP+EN): 54 (0.5%)
+  ℹ️  Other (symbols/technical): 636 (5.4%)
+
+--------------------------------------------------------------------------------
+COMPLETION STATUS
+--------------------------------------------------------------------------------
+❌ FAIL: File is NOT complete!
+   Untranslated entries: 3,434
+   Partially translated: 54
+   Total issues: 3,488
+
+--------------------------------------------------------------------------------
+SAMPLE UNTRANSLATED ENTRIES (first 20)
+--------------------------------------------------------------------------------
+Line   7916: There are more of them inside, or... some other kind of placeholder text urging you forward!
+Line  21582: Please proceed to the next station.
+Line  21586: Steeltown's Engineering Equipment Experience Pod (EEEP)
+Line  21588: Steeltown's Computer Resourcefulness Assessment Pod (CRAP)
+Line  21862: It's actually three. You are within the margin of error. Passed test."\n\n\n"Also, system advises yo...
+Line  22422: Pleasure doing business with you, Rangers. Just, uh... finishing up here.
+Line  22426: Oh, uh, hey, Rangers.
+Line  25656: Damn Scar Collectors circle like buzzards around this place, and Markham's metal men don't chase 'em...
+Line  25658: Why do you stay here if you keep getting attacked?
+Line  25660: So the factory used to defend your camp?
+Line  25662: Sounds like Markham doesn't want you here.
+Line  25664: Where else are we gonna go? Rumor is they're turnin' folks away at Colorado Springs. Besides, there'...
+Line  25666: It did, until everything went crazy. These days, the robots stay inside, just like the workers. Nobo...
+Line  25668: You'd think that, but that's not what Bianchi says. She says there's jobs aplenty inside - that they...
+Line  25868: I'll probably want to do that on my own, but for now, sure."\n\n\n"We sure could use a toilet! I saw...
+Line  29750: ERROR: buffer overflow. Reset routine. THREATEN_TRESPASSER.
+Line  32014: This is us, cleaning a toilet!
+Line  32016: We have finished cleaning the toilet, and now we'll set d1001_Mission_Flsh_PortToilet_Cleaned to 1, ...
+Line  32020: There it is!" "Now we go on to the rewards.
+Line  32024: We have installed the fancy toilet!
+... and 3414 more
+
+--------------------------------------------------------------------------------
+SAMPLE MIXED ENTRIES (first 10)
+--------------------------------------------------------------------------------
+Line   3774: プライマリシステムが beennnnnnnnnnnn....
+Line   3778: UL定格が... excedededededed...
+Line   3780: この... volttttttttage... を処理できるように設計されていません...
+Line  14770: うわ。ここは-" ::coughs:: "-煙っぽいな。
+Line  15258: 「Order Up」ミッションのNPCクッキーのプレースホルダーテキスト。
+Line  25886: 先にスキップして、Flushedミッションの報酬を受け取りましょう。
+Line  25924: はい、Blueの秘密のバスルームからトイレを盗みました。これは実際にGhost Garageで起こります。
+Line  26108: クソ。" ::sniffs:: \r\n\r\n"おお、やあ、レンジャー。すまない。フロリンダのことを考えてたんだ。
+Line  27196: お願い！" ::cough:: ::cough::\n"ここにいるのはみんな病人なの！
+Line  32234: Hot Commoditiesの一件で追放されたんだ!
+... and 44 more
+
+================================================================================

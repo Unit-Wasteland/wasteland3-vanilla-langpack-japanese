@@ -33,15 +33,17 @@
       "target_file": "translation/target/v1.6.9.420.309496/ja_JP/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
       "backup_file": "translation/backup_broken/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
       "total_lines": 120559,
-      "total_entries": 38554,
-      "entries_from_backup": 21737,
-      "entries_newly_translated": 8725,
-      "entries_completed": 30651,
-      "entries_remaining": 7903,
-      "completion_rate": 79.5,
+      "total_string_data_lines": 32483,
+      "non_empty_entries": 11710,
+      "entries_translated": 7586,
+      "entries_partially_translated": 54,
+      "entries_untranslated": 3434,
+      "entries_other": 636,
+      "total_issues": 3488,
+      "completion_rate": 64.8,
       "current_line": 75769,
-      "status": "in_progress",
-      "note": "Session DLC1-066: Translated 143 entries (Worker rebellion aftermath and computation engine discovery: d2101_worker_crow_robot 5, d2101_worker_engines 13, d2101_worker_laser 41, d2101_worker_tunnel 3, d2101_workingstiff_keith 70, d2201_companionbarks 8 entries, lines 74857-75768). Unified translation decision logic applied. Structure and quality validations passed with 0 errors. Next: Continue from line 75769 (d2201_computationengine section, 135 entries)."
+      "status": "PAUSED_FOR_BASE_GAME",
+      "note": "CRITICAL: Progress tracking failure discovered 2025-11-11. File was incorrectly reported as 79.5% complete (30,651/38,554), but validation reveals actual completion is 64.8% (7,586/11,710 non-empty entries). Total issues: 3,488 entries (3,434 untranslated + 54 partially translated). DLC1 work PAUSED per user directive - base_game takes priority. Will resume only after base_game reaches verified 100% completion."
     },
     "dlc2": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
@@ -58,13 +60,15 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "9c879c8",
-  "last_commit_message": "DLC1 translation: Session DLC1-066 (143 entries, lines 74857-75768)",
+  "last_commit_hash": "7b98f85",
+  "last_commit_message": "CRITICAL FIX: Correct base_game false completion claim (67.2% actual vs 100% claimed)",
   "validation_date": "2025-11-11",
-  "validation_script": "validate_completion.py",
-  "total_entries_completed": 59218,
-  "total_entries": 105205,
-  "total_entries_untranslated": 45987,
-  "overall_completion_rate": 56.3,
-  "next_action": "CRITICAL ISSUE DETECTED: Base game falsely marked complete. User decision required: (A) Pause DLC1, complete base_game first (per CLAUDE.md rules), or (B) Continue DLC1, fix base_game later. See translation/PROGRESS_TRACKING_ISSUE_ANALYSIS.md and translation/base_game_completion_report.txt for details."
+  "validation_script": "validate_completion.py v1.0",
+  "work_priority": "BASE_GAME_FIRST",
+  "total_entries_completed": 36153,
+  "total_entries": 78361,
+  "total_entries_untranslated": 42208,
+  "total_issues": 15773,
+  "overall_completion_rate": 46.1,
+  "next_action": "RESUME base_game translation from untranslated entries. Priority: Complete all 12,285 base_game issues before any DLC work. DLC1 work PAUSED until base_game verified 100% complete. Use translation/base_game_untranslated_entries.txt for tracking."
 }
