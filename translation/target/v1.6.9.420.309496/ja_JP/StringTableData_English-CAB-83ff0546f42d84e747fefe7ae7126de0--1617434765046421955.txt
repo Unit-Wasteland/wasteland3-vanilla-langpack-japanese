@@ -404249,33 +404249,33 @@
       1 Array Array (15 items)
        0 int size = 15
        [0]
-        1 string data = " Would you like to add or remove a follower?"
+        1 string data = " フォロワーを追加または削除しますか？"
        [1]
-        1 string data = " Add test Follower: Angela Deth"
+        1 string data = " テストフォロワーを追加: アンジェラ・デス"
        [2]
-        1 string data = " Remove test Follower: Angela Deth"
+        1 string data = " テストフォロワーを削除: アンジェラ・デス"
        [3]
-        1 string data = " Leave."
+        1 string data = " 立ち去る。"
        [4]
-        1 string data = " Follower added"
+        1 string data = " フォロワーを追加しました"
        [5]
-        1 string data = " Follower removed."
+        1 string data = " フォロワーを削除しました。"
        [6]
-        1 string data = " Test status of Followers in party."
+        1 string data = " パーティ内のフォロワーのステータスをテスト。"
        [7]
-        1 string data = " In Party: Angela Deth"
+        1 string data = " パーティ内: アンジェラ・デス"
        [8]
-        1 string data = " In Party: Golden Toaster"
+        1 string data = " パーティ内: ゴールデン・トースター"
        [9]
         1 string data = "Script Node 10"
        [10]
-        1 string data = " in Party: Cloned Chicken"
+        1 string data = " パーティ内: クローンチキン"
        [11]
-        1 string data = " in Party: Major Tomcat"
+        1 string data = " パーティ内: トムキャット少佐"
        [12]
-        1 string data = " in Party: The Provost"
+        1 string data = " パーティ内: プロヴォスト"
        [13]
-        1 string data = " Done iterating through followers. If nobody was listed and you have a follower, this conversation doesn't test for it."
+        1 string data = " フォロワーの反復処理が完了しました。誰もリストに表示されず、フォロワーがいる場合、この会話ではテストされません。"
        [14]
         1 string data = "Bank 15"
    [1384]
@@ -405555,27 +405555,27 @@
       1 Array Array (316 items)
        0 int size = 316
        [0]
-        1 string data = "Your actions convinced the Machine Commune to take a chance on humanity. Calculating that desperation would overcome intolerance, the Commune restarted the Gipper oil wells and wiped out the scavenger gangs.\n\n\nDenver is now a safe haven for those with nowhere else to go, run with inhuman kindess."
+        1 string data = "君たちの行動により、マシーン・コミューンは人類に賭けることを決めた。絶望が不寛容を克服すると計算し、コミューンはギッパーの油田を再稼働させ、スカベンジャーギャングを一掃した。\n\n\nデンバーは今や行き場のない者たちの安全な避難所となり、非人間的な優しさで運営されている。"
        [1]
-        1 string data = "\r\n\r\nYou actions convinced the Machine Commune that humanity could never be trusted. Without the Gippers to oppose them, they swept through the ruins of Denver, slicing and burning away every scrap of flesh, living or dead. \r\n\r\nNothing lives there anymore, and any who enter never return."
+        1 string data = "\r\n\r\n君たちの行動により、マシーン・コミューンは人類が決して信用できないと確信した。ギッパーズの抵抗がなければ、彼らはデンバーの廃墟を席巻し、生きていようが死んでいようが、すべての肉片を切り裂き焼き払った。\r\n\r\nもはやそこには何も生きていない。入る者は誰も戻ってこない。"
        [2]
-        1 string data = "(EXIT)"
+        1 string data = "(終了)"
        [3]
-        1 string data = "(To Arapaho Garage)"
+        1 string data = "(アラパホ・ガレージへ)"
        [4]
-        1 string data = "The Machine Commune was thoroughly destroyed, and even the scavengers found little of interest in the airport."
+        1 string data = "マシーン・コミューンは完全に破壊され、スカベンジャーでさえ空港にはほとんど興味を示さなかった。"
        [5]
-        1 string data = "(To Arcology)"
+        1 string data = "(アーコロジーへ)"
        [6]
-        1 string data = "Didn't visit Aspen! What happens to the Breathers and Vic?"
+        1 string data = "アスペンには行かなかった！ブリーザーズとヴィックはどうなるんだ？"
        [7]
-        1 string data = "(To Pueblo Ruins)"
+        1 string data = "(プエブロの廃墟へ)"
        [8]
-        1 string data = "Holy moly, they didn't even make it to CO Springs? Crazy! Magical powers."
+        1 string data = "なんてことだ、コロラドスプリングスにすら辿り着かなかったのか？クレイジーだ！魔法の力だ。"
        [9]
-        1 string data = ""Testing SPEAKER and LISTENER in normal CONVERSATION NODES. Speaker is A1001_DummySpeaker. "\n\n\nThis is Node 10. "
+        1 string data = ""通常の会話ノードでSPEAKERとLISTENERをテスト中。話者はA1001_DummySpeaker。"\n\n\nこれはNode 10。"
        [10]
-        1 string data = "Steeltown"
+        1 string data = "スティールタウン"
        [11]
         1 string data = "Script Node 12"
        [12]
@@ -405583,15 +405583,15 @@
        [13]
         1 string data = "Script Node 14"
        [14]
-        1 string data = "To the residents of Colorado, the changes seemed to happen in the blink of an eye.\n\n\nOne moment, The Patriarch was in charge. The next, he had been deposed by mysterious strangers from Arizona. "
+        1 string data = "コロラドの住民にとって、変化は瞬く間に起こったように見えた。\n\n\nつい先ほどまでパトリアークが統治していた。次の瞬間には、アリゾナからの謎の異邦人によって退位させられていた。"
        [15]
-        1 string data = "In Denver, this came as a surprise to both God-President Reagan and the Machine Intelligence Tower. \r\n\r\nMother Nancy locked herself within the Sacred Server Room, determined to fix her God's newly discovered blindspot. Every day, Valor pleads for answers, but no one replies.\r\n\r\nNever before had the Machine Commune's predictive models failed so spectacularly. Fear has taken hold in the commune, and anti-human factions now command the majority. \r\n\r\nThe Ruins of Denver have become far, far more dangerous."
+        1 string data = "デンバーでは、これが神大統領レーガンとマシーン・インテリジェンス・タワーの両者にとって驚きだった。\r\n\r\nマザー・ナンシーは聖なるサーバー室に閉じこもり、神の新たに発見された盲点を修正しようと決意した。毎日、ヴァラーが答えを求めて懇願するが、誰も応答しない。\r\n\r\nマシーン・コミューンの予測モデルがこれほど見事に失敗したことはかつてなかった。コミューンに恐怖が根付き、反人間派閥が今や多数派を占めている。\r\n\r\nデンバーの廃墟ははるかに危険になった。"
        [16]
-        1 string data = "Player response, no speaker or listener assigned. Follows node 10. "
+        1 string data = "プレイヤーの応答、話者とリスナーは割り当てられていない。node 10に続く。"
        [17]
-        1 string data = "Player response. \r\nRequired Listener is A1001_DummySpeaker.\r\nSpeaker cannot be assigned. \r\nFollows node 10. This is Node 18"
+        1 string data = "プレイヤーの応答。\r\n必須リスナーはA1001_DummySpeaker。\r\n話者は割り当てられない。\r\nnode 10に続く。これはNode 18"
        [18]
-        1 string data = "Player response. The next node will be a BARK and the conversation will drop.\r\nRequired Listener is A1001_DummySpeaker.\r\nSpeaker cannot be assigned. \r\nFollows node 10. This is Node 19"
+        1 string data = "プレイヤーの応答。次のノードはBARKで、会話は終了する。\r\n必須リスナーはA1001_DummySpeaker。\r\n話者は割り当てられない。\r\nnode 10に続く。これはNode 19"
        [19]
         1 string data = """"
        [20]
@@ -405609,19 +405609,19 @@
        [26]
         1 string data = "Script Node 27"
        [27]
-        1 string data = ""Wow! That was amazing!""
+        1 string data = ""わあ！すごかった！""
        [28]
-        1 string data = ""Awesome, you're really good at this!""
+        1 string data = ""素晴らしい、君は本当に上手だね！""
        [29]
-        1 string data = ""Good job!""
+        1 string data = ""よくやった！""
        [30]
-        1 string data = ""Way to go!""
+        1 string data = ""その調子！""
        [31]
-        1 string data = ""Neat!""
+        1 string data = ""いいね！""
        [32]
-        1 string data = ""It's okay. Nobody's perfect.""
+        1 string data = ""大丈夫だ。完璧な人間なんていない。""
        [33]
-        1 string data = ""You'll get 'em next time.""
+        1 string data = ""次はうまくいくさ。""
        [34]
         1 string data = "Script Node 35"
        [35]
@@ -405641,81 +405641,81 @@
        [42]
         1 string data = "\n"
        [43]
-        1 string data = "In a way, Denver has finally become a "shining city on the hill," a safe haven for those with nowhere else to go, run with inhuman kindness. "
+        1 string data = "ある意味、デンバーはついに"丘の上の輝く都市"となった。行き場のない者たちの安全な避難所であり、非人間的な優しさで運営されている。"
        [44]
-        1 string data = "It was whispered that they had impossible powers... Put simply, they didn't "play by our rules."\n\n\n"
+        1 string data = "彼らは不可能な力を持っていると囁かれた...簡単に言えば、彼らは"我々のルールに従って行動しなかった"のだ。\n\n\n"
        [45]
         1 string data = "Script Node 46"
        [46]
-        1 string data = "TEXT MIGRATED TO b1001_DRIVER BARKS.\nJODIE DIALOGUE."
+        1 string data = "テキストはb1001_DRIVER BARKSに移行しました。\nジョディの対話。"
        [47]
-        1 string data = "TEXT MIGRATED TO b1001_DRIVER BARKS.\nWOODSON DIALOGUE."
+        1 string data = "テキストはb1001_DRIVER BARKSに移行しました。\nウッドソンの対話。"
        [48]
-        1 string data = "TEXT MIGRATED TO b1001_DRIVER BARKS.\nFALLBACK DIALOGUE"
+        1 string data = "テキストはb1001_DRIVER BARKSに移行しました。\nフォールバック対話"
        [49]
         1 string data = "Script Node 50"
        [50]
-        1 string data = " DEBUG: Very temporary debug conversation."
+        1 string data = " DEBUG: 非常に一時的なデバッグ会話。"
        [51]
-        1 string data = "Skill gate check. Skill level: "Easy""
+        1 string data = "スキルゲートチェック。スキルレベル: "Easy""
        [52]
-        1 string data = "Skill gate check. Skill level: "Extreme""
+        1 string data = "スキルゲートチェック。スキルレベル: "Extreme""
        [53]
-        1 string data = "Skill gate check. Skill level: "Hard""
+        1 string data = "スキルゲートチェック。スキルレベル: "Hard""
        [54]
-        1 string data = "Exit debug menu."
+        1 string data = "デバッグメニューを終了。"
        [55]
-        1 string data = "Transitional node that links back to menu."
+        1 string data = "メニューに戻る遷移ノード。"
        [56]
-        1 string data = "Skill gate check. Skill level: "Impossible""
+        1 string data = "スキルゲートチェック。スキルレベル: "Impossible""
        [57]
-        1 string data = "Skill gate check. Skill level: "Medium"
+        1 string data = "スキルゲートチェック。スキルレベル: "Medium"
        [58]
-        1 string data = "Skill gate check. Skill level: "None""
+        1 string data = "スキルゲートチェック。スキルレベル: "None""
        [59]
-        1 string data = "Skill gate check. Skill level: "Simple""
+        1 string data = "スキルゲートチェック。スキルレベル: "Simple""
        [60]
-        1 string data = "Skill gate check. Skill level: "VeryEasy""
+        1 string data = "スキルゲートチェック。スキルレベル: "VeryEasy""
        [61]
-        1 string data = "Skill gate check. Skill level: "VeryHard""
+        1 string data = "スキルゲートチェック。スキルレベル: "VeryHard""
        [62]
-        1 string data = "Starting on Enter, stopping OnExit. "
+        1 string data = "Enter時に開始、OnExit時に停止。"
        [63]
-        1 string data = "Skill Gate Checks. \r\n"
+        1 string data = "スキルゲートチェック。\r\n"
        [64]
-        1 string data = "Animation Checks. "
+        1 string data = "アニメーションチェック。"
        [65]
-        1 string data = "  Animation checks."
+        1 string data = "  アニメーションチェック。"
        [66]
-        1 string data = "Skill gate checks. "
+        1 string data = "スキルゲートチェック。"
        [67]
-        1 string data = "Start Idle, stop idle, in conversation node.  "
+        1 string data = "アイドル開始、アイドル停止、会話ノード内。  "
        [68]
-        1 string data = "Start Idle, stop idle, in bark node. This will drop the conversation. "
+        1 string data = "アイドル開始、アイドル停止、バークノード内。これで会話は終了します。"
        [69]
-        1 string data = "Play Animation Conversation Owner. "
+        1 string data = "会話所有者にアニメーション再生。"
        [70]
-        1 string data = "I AM AN ORIGINAL NODE"
+        1 string data = "私はオリジナルノードです"
        [71]
-        1 string data = "This is a very long bark designed to test this animation. Lorem ipsum, other latin, it sounds like an incantation, but that's not our genre. "
+        1 string data = "これはこのアニメーションをテストするために設計された非常に長いバークです。ローレム・イプサム、その他のラテン語、呪文のように聞こえますが、それは我々のジャンルではありません。"
        [72]
-        1 string data = "Play animation on spawner.\n"
+        1 string data = "スポーナーでアニメーション再生。\n"
        [73]
-        1 string data = "Playing animation on spawner. "
+        1 string data = "スポーナーでアニメーション再生中。"
        [74]
         1 string data = "Script Node 75"
        [75]
-        1 string data = "Empty descriptive response, no speaker."
+        1 string data = "空の記述的応答、話者なし。"
        [76]
-        1 string data = ""Response in quotes with Dummy Speaker.""
+        1 string data = ""ダミー話者による引用符内の応答。""
        [77]
-        1 string data = " Test Speakers and Listeners. Make sure you only use this if your Spawner includes a1001_DummySpeaker."
+        1 string data = " 話者とリスナーをテスト。スポーナーにa1001_DummySpeakerが含まれている場合のみ使用してください。"
        [78]
-        1 string data = " There does not appear to be an instance of A1001_DummySpeaker available."
+        1 string data = " A1001_DummySpeakerのインスタンスが利用可能ではないようです。"
        [79]
-        1 string data = ""Response in quotes with Dummy Speaker."\nBark"
+        1 string data = ""ダミー話者による引用符内の応答。"\nバーク"
        [80]
-        1 string data = "Bark response, no speaker. Conversation will now drop."
+        1 string data = "バーク応答、話者なし。会話は今終了します。"
        [81]
         1 string data = "Test drop-through for QN Nodes."
        [82]
