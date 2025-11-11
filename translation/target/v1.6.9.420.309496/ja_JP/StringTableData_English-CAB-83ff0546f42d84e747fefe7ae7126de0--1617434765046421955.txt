@@ -408789,25 +408789,25 @@
       1 Array Array (10 items)
        0 int size = 10
        [0]
-        1 string data = "Current test global value:[Global: Mission_FunAndGames_b4001_RoundScore]"
+        1 string data = "現在のテストグローバル値:[Global: Mission_FunAndGames_b4001_RoundScore]"
        [1]
-        1 string data = "Should only show up for MP."
+        1 string data = "マルチプレイヤーでのみ表示されます。"
        [2]
-        1 string data = "Increment our test global. \r\nCurrent test global value:[Global: Mission_FunAndGames_b4001_RoundScore]"
+        1 string data = "テストグローバルをインクリメント。\r\n現在のテストグローバル値:[Global: Mission_FunAndGames_b4001_RoundScore]"
        [3]
-        1 string data = "Step away from the machine."
+        1 string data = "装置から離れてください。"
        [4]
-        1 string data = "Test MP Options."
+        1 string data = "マルチプレイヤーオプションをテスト。"
        [5]
-        1 string data = "Incrementing."
+        1 string data = "インクリメント中。"
        [6]
-        1 string data = "Increment Global Value. Current value: [Global: Mission_FunAndGames_b4001_RoundScore]"
+        1 string data = "グローバル値をインクリメント。現在の値: [Global: Mission_FunAndGames_b4001_RoundScore]"
        [7]
-        1 string data = "Wait for other player. Global is: [Global: Mission_FunAndGames_b4001_RoundScore]"
+        1 string data = "他のプレイヤーを待機中。グローバル値は: [Global: Mission_FunAndGames_b4001_RoundScore]"
        [8]
-        1 string data = "INCREMENTING!\r\nNow: \r\n[Global: Mission_FunAndGames_b4001_RoundScore]"
+        1 string data = "インクリメント中!\r\n現在の値: \r\n[Global: Mission_FunAndGames_b4001_RoundScore]"
        [9]
-        1 string data = ""Waiting."\n[Global: Mission_FunAndGames_b4001_RoundScore]"
+        1 string data = ""待機中。"\n[Global: Mission_FunAndGames_b4001_RoundScore]"
    [1411]
     0 StringTable data
      1 string Filename = "testconversation_networkcoverage"
@@ -408909,49 +408909,49 @@
       1 Array Array (22 items)
        0 int size = 22
        [0]
-        1 string data = "This is the first talk node.  In this conversation, you will return to this node repeatedly until you say Goodbye."
+        1 string data = "これは最初の会話ノードです。この会話では、別れを告げるまでこのノードに繰り返し戻ってきます。"
        [1]
-        1 string data = "This is a once ever node.  You should see this the first time you pass the first talk node, but only once ever."
+        1 string data = "これは一度きりのノードです。最初の会話ノードを通過する最初の1回のみ表示され、その後は表示されません。"
        [2]
-        1 string data = "This is a once per conversation node.  You should see this the first time you pass the first talk node (or the second time, if you encountered the once ever node), but only once per conversation."
+        1 string data = "これは会話ごとに1回のノードです。最初の会話ノードを通過する最初の1回(または一度きりのノードを見た場合は2回目)のみ表示されますが、会話ごとに1回表示されます。"
        [3]
-        1 string data = "This node is pretty standard and boring.  Next up: Scripts and Conditionals test via GlobalVariables (specifically, testGlobal_NetworkCoverage)."
+        1 string data = "このノードはかなり標準的で退屈です。次はスクリプトとグローバル変数による条件テスト(具体的にはtestGlobal_NetworkCoverage)です。"
        [4]
-        1 string data = "Set the GlobalVariable to 0."
+        1 string data = "グローバル変数を0に設定。"
        [5]
-        1 string data = "Set the GlobalVariable to 1."
+        1 string data = "グローバル変数を1に設定。"
        [6]
-        1 string data = "This node has a GlobalVariable Conditional.  This node should only appear if the GlobalVariable is set to 0."
+        1 string data = "このノードにはグローバル変数条件があります。グローバル変数が0に設定されている場合にのみ表示されます。"
        [7]
-        1 string data = "This node has a GlobalVariable Conditional.  This node should only appear if the GlobalVariable is set to 1."
+        1 string data = "このノードにはグローバル変数条件があります。グローバル変数が1に設定されている場合にのみ表示されます。"
        [8]
-        1 string data = "Execute test Script command TestScriptNetworkCoverage.  Use this to try executing arbitrary code by modifying the method of this name inside the code."
+        1 string data = "テストスクリプトコマンドTestScriptNetworkCoverageを実行します。コード内のこの名前のメソッドを変更することで、任意のコードを試すことができます。"
        [9]
-        1 string data = "Goodbye."
+        1 string data = "さようなら。"
        [10]
-        1 string data = "Take me to the multiplayer-specific stuff."
+        1 string data = "マルチプレイヤー専用の内容に連れて行って。"
        [11]
-        1 string data = "Welcome to the multiplayer-specific zone.  Here you can find a variety of nodes which use different multiplayer Conditionals.  Each of these will only show up if the Conditional passes.  The backend for the multiplayer Conditionals is not implemented so they currently all return false.  You can set them to true in code or implement them properly and test them here.\n\n\nThere's also a convenient node for executing test Script code in case that proves useful.  This is the same test Script method used elsewhere in this conversation."
+        1 string data = "マルチプレイヤー専用ゾーンへようこそ。ここでは、さまざまなマルチプレイヤー条件を使用するノードが見つかります。これらはすべて、条件が満たされた場合にのみ表示されます。マルチプレイヤー条件のバックエンドは実装されていないため、現在はすべてfalseを返します。コードで条件をtrueに設定するか、適切に実装してここでテストできます。\n\n\n便利なテストスクリプトコードを実行するノードもあります。これは、この会話の他の場所で使用されているのと同じテストスクリプトメソッドです。"
        [12]
-        1 string data = "Execute test Script command TestScriptNetworkCoverage.  This doesn't do anything by default but you can modify the method to do whatever you like."
+        1 string data = "テストスクリプトコマンドTestScriptNetworkCoverageを実行します。デフォルトでは何もしませんが、好きなようにメソッドを変更できます。"
        [13]
-        1 string data = "This node will only appear if IsOtherPlayerPresentInGame returns true."
+        1 string data = "このノードは、IsOtherPlayerPresentInGameがtrueを返す場合にのみ表示されます。"
        [14]
-        1 string data = "This node will only appear if IsOtherPlayerPresentInConversation returns true."
+        1 string data = "このノードは、IsOtherPlayerPresentInConversationがtrueを返す場合にのみ表示されます。"
        [15]
-        1 string data = "This node will only appear if AreAllPlayersPresentInConversation returns true."
+        1 string data = "このノードは、AreAllPlayersPresentInConversationがtrueを返す場合にのみ表示されます。"
        [16]
-        1 string data = "This node will only appear if IsOtherPlayerInCombat returns true."
+        1 string data = "このノードは、IsOtherPlayerInCombatがtrueを返す場合にのみ表示されます。"
        [17]
-        1 string data = "This node will only appear if IsOtherPlayerInCutscene returns true."
+        1 string data = "このノードは、IsOtherPlayerInCutsceneがtrueを返す場合にのみ表示されます。"
        [18]
-        1 string data = "This node will only appear if IsOtherPlayerOnQuest returns true, using the quest TestQuestIgnobility."
+        1 string data = "このノードは、IsOtherPlayerOnQuestがtrueを返す場合にのみ表示されます。クエストTestQuestIgnobilityを使用します。"
        [19]
-        1 string data = "This node will only appear if IsOtherPlayerInRange returns true, using a range of 10 meters."
+        1 string data = "このノードは、IsOtherPlayerInRangeがtrueを返す場合にのみ表示されます。範囲は10メートルを使用します。"
        [20]
-        1 string data = "I'm done with the multiplayer-specific zone for now."
+        1 string data = "マルチプレイヤー専用ゾーンはこれで終わりです。"
        [21]
-        1 string data = "Goodbye."
+        1 string data = "さようなら。"
    [1412]
     0 StringTable data
      1 string Filename = "testconversation_overridecamerapositions"
@@ -409103,61 +409103,61 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = "Generic Conversation.\n"
+        1 string data = "一般的な会話。\n"
        [2]
-        1 string data = ""Camera angle 1!""
+        1 string data = ""カメラアングル1!""
        [3]
-        1 string data = "Start camera swaps on script nodes"
+        1 string data = "スクリプトノードでカメラ切り替えを開始"
        [4]
-        1 string data = "Step away.\n"
+        1 string data = "離れる。\n"
        [5]
         1 string data = "Script Node 6"
        [6]
-        1 string data = ""Camera angle 2!""
+        1 string data = ""カメラアングル2!""
        [7]
         1 string data = "Script Node 8"
        [8]
-        1 string data = ""Camera angle 3!""
+        1 string data = ""カメラアングル3!""
        [9]
         1 string data = "Script Node 10"
        [10]
-        1 string data = ""Camera angle 4!""
+        1 string data = ""カメラアングル4!""
        [11]
-        1 string data = "Swap Speakers with camera swap script nodes between"
+        1 string data = "カメラ切り替えスクリプトノード間で話者を切り替え"
        [12]
-        1 string data = ""Normal Speaker""
+        1 string data = ""通常の話者""
        [13]
-        1 string data = ""Dummy Speaker""
+        1 string data = ""ダミーの話者""
        [14]
-        1 string data = ""Normal Speaker""
+        1 string data = ""通常の話者""
        [15]
         1 string data = "Script Node 16"
        [16]
-        1 string data = ""Normal speaker after camera swap""
+        1 string data = ""カメラ切り替え後の通常の話者""
        [17]
-        1 string data = ""Dummy speaker after camera swap""
+        1 string data = ""カメラ切り替え後のダミーの話者""
        [18]
         1 string data = "Script Node 19"
        [19]
-        1 string data = ""Dummy speaker after Swap to Position 4""
+        1 string data = ""ポジション4への切り替え後のダミーの話者""
        [20]
-        1 string data = ""Regular speaker after Swap to Position 4""
+        1 string data = ""ポジション4への切り替え後の通常の話者""
        [21]
-        1 string data = "Start camera swap on regular nodes."
+        1 string data = "通常のノードでカメラ切り替えを開始。"
        [22]
-        1 string data = "No swap."
+        1 string data = "切り替えなし。"
        [23]
-        1 string data = ""Override 2""
+        1 string data = ""オーバーライド2""
        [24]
-        1 string data = ""Override 3""
+        1 string data = ""オーバーライド3""
        [25]
-        1 string data = ""Override 4 in OnEnter""
+        1 string data = ""OnEnterのオーバーライド4""
        [26]
-        1 string data = ""No change""
+        1 string data = ""変更なし""
        [27]
         1 string data = "Script Node 28"
        [28]
-        1 string data = "Swap on other Nodes."
+        1 string data = "他のノードで切り替え。"
        [29]
         1 string data = ""DummySpeaker""
        [30]
@@ -410505,45 +410505,45 @@
       1 Array Array (331 items)
        0 int size = 331
        [0]
-        1 string data = "That hurt."
+        1 string data = "痛い。"
        [1]
-        1 string data = "That really hurt."
+        1 string data = "本当に痛かった。"
        [2]
-        1 string data = "I'm dead."
+        1 string data = "死んだ。"
        [3]
-        1 string data = "You killed my friend!"
+        1 string data = "仲間を殺したな!"
        [4]
-        1 string data = "I feel much better."
+        1 string data = "ずっと気分が良くなった。"
        [5]
-        1 string data = "Firing!"
+        1 string data = "発砲!"
        [6]
-        1 string data = "Reloading!"
+        1 string data = "リロード中!"
        [7]
-        1 string data = "I need to reload!"
+        1 string data = "リロードが必要だ!"
        [8]
-        1 string data = "Preparing to ambush."
+        1 string data = "待ち伏せの準備。"
        [9]
-        1 string data = "I am the night!"
+        1 string data = "俺は夜だ!"
        [10]
-        1 string data = "Curse you, status effect!"
+        1 string data = "状態異常め、クソ!"
        [11]
-        1 string data = "The way is open."
+        1 string data = "道が開けた。"
        [12]
-        1 string data = "All fixed!"
+        1 string data = "修理完了!"
        [13]
-        1 string data = "Trap disarmed!"
+        1 string data = "罠解除完了!"
        [14]
-        1 string data = "Alarm disarmed!"
+        1 string data = "警報解除完了!"
        [15]
-        1 string data = "Hop in!"
+        1 string data = "乗って!"
        [16]
-        1 string data = "Time to fight!"
+        1 string data = "戦闘開始!"
        [17]
-        1 string data = "We win!"
+        1 string data = "勝利だ!"
        [18]
-        1 string data = "Unlimited POWER!"
+        1 string data = "無限の力だ!"
        [19]
-        1 string data = "Mission complete!"
+        1 string data = "ミッション完了!"
        [20]
         1 string data = "Script Node 1"
        [21]
@@ -410643,345 +410643,345 @@
        [68]
         1 string data = "Script Node 50"
        [69]
-        1 string data = ""They got me!""
+        1 string data = ""やられた!""
        [70]
-        1 string data = ""Shit!""
+        1 string data = ""クソ!""
        [71]
-        1 string data = ""Agh!""
+        1 string data = ""うぐっ!""
        [72]
-        1 string data = ""Taking fire!""
+        1 string data = ""被弾中!""
        [73]
-        1 string data = ""I'm not doing so good...""
+        1 string data = ""あまり...良くない...""
        [74]
-        1 string data = ""I'm... not... gonna make it...""
+        1 string data = ""もう...ダメ...だ...""
        [75]
-        1 string data = ""I need help here!""
+        1 string data = ""助けてくれ!""
        [76]
-        1 string data = ""M-medic...""
+        1 string data = ""衛生兵...""
        [77]
-        1 string data = ""Ungh...""
+        1 string data = ""うっ...""
        [78]
-        1 string data = ""H-help...""
+        1 string data = ""た...助けて...""
        [79]
-        1 string data = ""I'm h-hit... I...""
+        1 string data = ""撃た...れ...た...""
        [80]
-        1 string data = ""Aghh...""
+        1 string data = ""ああ...""
        [81]
-        1 string data = ""Ally down!""
+        1 string data = ""味方がやられた!""
        [82]
-        1 string data = ""They're down!""
+        1 string data = ""倒れた!""
        [83]
-        1 string data = ""Someone help them!""
+        1 string data = ""誰か助けろ!""
        [84]
-        1 string data = ""They need help!""
+        1 string data = ""助けが必要だ!""
        [85]
-        1 string data = ""Ugh... thanks.""
+        1 string data = ""うっ...助かった。""
        [86]
-        1 string data = ""Back in action.""
+        1 string data = ""戦線復帰。""
        [87]
-        1 string data = ""That was a close one...""
+        1 string data = ""危ないところだった...""
        [88]
-        1 string data = ""Ready to go.""
+        1 string data = ""準備完了。""
        [89]
-        1 string data = ""Taking the shot!""
+        1 string data = ""撃つぞ!""
        [90]
-        1 string data = ""Weapon free!""
+        1 string data = ""発砲許可!""
        [91]
-        1 string data = ""Watch this!""
+        1 string data = ""見てろ!""
        [92]
-        1 string data = ""Attacking!""
+        1 string data = ""攻撃する!""
        [93]
-        1 string data = ""Teach you to mess with me!""
+        1 string data = ""俺に手を出すとどうなるか教えてやる!""
        [94]
-        1 string data = ""I'll make it quick.""
+        1 string data = ""すぐ終わらせてやる。""
        [95]
-        1 string data = ""Taking you down.""
+        1 string data = ""叩きのめしてやる。""
        [96]
-        1 string data = ""Let's do this.""
+        1 string data = ""やってやろうぜ。""
        [97]
-        1 string data = ""Gun's empty.""
+        1 string data = ""弾切れだ。""
        [98]
-        1 string data = ""Reloading!""
+        1 string data = ""リロード中!""
        [99]
-        1 string data = ""Mag out!""
+        1 string data = ""マガジン交換!""
        [100]
-        1 string data = ""Moving up.""
+        1 string data = ""前進する。""
        [101]
-        1 string data = ""Cover me!""
+        1 string data = ""援護してくれ!""
        [102]
-        1 string data = ""Running forward.""
+        1 string data = ""前方へ走る。""
        [103]
-        1 string data = ""Watch my six.""
+        1 string data = ""背後を頼む。""
        [104]
-        1 string data = ""Getting to cover!""
+        1 string data = ""遮蔽物へ!""
        [105]
-        1 string data = ""Heading to cover.""
+        1 string data = ""遮蔽物へ向かう。""
        [106]
-        1 string data = ""Advancing!""
+        1 string data = ""前進!""
        [107]
-        1 string data = ""Getting the drop on them.""
+        1 string data = ""先手を取るぞ。""
        [108]
-        1 string data = ""They won't see me coming.""
+        1 string data = ""気づかれないぞ。""
        [109]
-        1 string data = ""Taking the advantage!""
+        1 string data = ""有利を取る!""
        [110]
-        1 string data = ""Ambushing!""
+        1 string data = ""奇襲だ!""
        [111]
-        1 string data = ""They'll never see me coming.""
+        1 string data = ""絶対に気づかれない。""
        [112]
-        1 string data = ""Keeping a lookout.""
+        1 string data = ""見張ってる。""
        [113]
-        1 string data = ""Right between the eyes!""
+        1 string data = ""眉間に一発!""
        [114]
-        1 string data = ""Taking the shot!""
+        1 string data = ""撃つ!""
        [115]
-        1 string data = ""They won't know what hit 'em.""
+        1 string data = ""何が当たったかわからないだろうな。""
        [116]
-        1 string data = ""Damn, I'm open!""
+        1 string data = ""クソ、無防備だ!""
        [117]
-        1 string data = ""I'm a sitting duck here!""
+        1 string data = ""格好の的だ!""
        [118]
-        1 string data = ""Someone, cover me!""
+        1 string data = ""誰か援護を!""
        [119]
-        1 string data = ""Shit, my armor's gone.""
+        1 string data = ""クソ、アーマーが消えた。""
        [120]
-        1 string data = ""I'm not ready to die here!""
+        1 string data = ""ここで死ぬ準備はできていない!""
        [121]
-        1 string data = ""I'm bleeding out!""
+        1 string data = ""出血が止まらない!""
        [122]
-        1 string data = ""That's a lot of blood...""
+        1 string data = ""血がすごい...""
        [123]
-        1 string data = ""Ack... I don't feel great...""
+        1 string data = ""うっ...気分最悪...""
        [124]
-        1 string data = ""Stand back in case I puke...""
+        1 string data = ""吐くかもしれないから下がって...""
        [125]
-        1 string data = ""I'm a sitting duck!""
+        1 string data = ""格好の的だ!""
        [126]
-        1 string data = ""Having trouble moving, here!""
+        1 string data = ""動くのが辛い!""
        [127]
-        1 string data = ""Ugh... my head's spinning...""
+        1 string data = ""うっ...頭が回ってる...""
        [128]
-        1 string data = ""Seeing stars...""
+        1 string data = ""目がチカチカする...""
        [129]
-        1 string data = ""Agh!""
+        1 string data = ""あぐっ!""
        [130]
-        1 string data = ""They s-shocked me!""
+        1 string data = ""電撃を喰らった!""
        [131]
-        1 string data = ""I'm... oh no! Ahh!""
+        1 string data = ""あ...まずい! うわあ!""
        [132]
-        1 string data = ""Fire... fire! I'm burning here!""
+        1 string data = ""火だ...火! 燃えてる!""
        [133]
-        1 string data = ""Jeez, I'm f-freezing!""
+        1 string data = ""ちくしょう、凍える!""
        [134]
-        1 string data = ""That's c-cold!""
+        1 string data = ""冷たい!""
        [135]
-        1 string data = ""Can't see!""
+        1 string data = ""見えない!""
        [136]
-        1 string data = ""W-where did everything go?""
+        1 string data = ""ど...どこに行った?""
        [137]
-        1 string data = ""Stand back and watch the best.""
+        1 string data = ""下がって最高の技を見せてやる。""
        [138]
-        1 string data = ""Ready for action.""
+        1 string data = ""戦闘準備完了。""
        [139]
-        1 string data = ""Ready and waiting.""
+        1 string data = ""準備万端、待機中。""
        [140]
-        1 string data = ""Time to fight!""
+        1 string data = ""戦闘開始!""
        [141]
-        1 string data = ""Gun's empty!""
+        1 string data = ""弾切れだ!""
        [142]
-        1 string data = ""Running dry!""
+        1 string data = ""弾がなくなる!""
        [143]
-        1 string data = ""Out of ammo!""
+        1 string data = ""弾薬切れ!""
        [144]
-        1 string data = ""Watch and learn.""
+        1 string data = ""見て学べ。""
        [145]
-        1 string data = ""That'll do it.""
+        1 string data = ""これでいいだろう。""
        [146]
-        1 string data = ""Done!""
+        1 string data = ""完了!""
        [147]
-        1 string data = ""Got it!""
+        1 string data = ""やった!""
        [148]
-        1 string data = ""Open sesame.""
+        1 string data = ""開けゴマ。""
        [149]
-        1 string data = ""Just a little finesse.""
+        1 string data = ""ちょっとした技術が必要だ。""
        [150]
-        1 string data = ""There we go.""
+        1 string data = ""これでよし。""
        [151]
-        1 string data = "" After you.""
+        1 string data = ""お先にどうぞ。""
        [152]
-        1 string data = ""Back online.""
+        1 string data = ""オンラインに戻った。""
        [153]
-        1 string data = ""Fixed it.""
+        1 string data = ""修理完了。""
        [154]
-        1 string data = ""Just a little elbow grease.""
+        1 string data = ""ちょっと頑張っただけ。""
        [155]
-        1 string data = ""Better than new.""
+        1 string data = ""新品より良い。""
        [156]
-        1 string data = ""Bypassed security.""
+        1 string data = ""セキュリティをバイパス。""
        [157]
-        1 string data = ""They can't keep me out.""
+        1 string data = ""俺を締め出せない。""
        [158]
-        1 string data = ""Firewalls down.""
+        1 string data = ""ファイアウォール解除。""
        [159]
-        1 string data = ""Child's play.""
+        1 string data = ""子供騙しだ。""
        [160]
-        1 string data = ""Trap's disarmed.""
+        1 string data = ""罠解除完了。""
        [161]
-        1 string data = ""It's safe now.""
+        1 string data = ""もう安全だ。""
        [162]
-        1 string data = ""Not today.""
+        1 string data = ""今日じゃない。""
        [163]
-        1 string data = ""Clever. But not clever enough.""
+        1 string data = ""賢いな。でも十分じゃない。""
        [164]
-        1 string data = ""They won't keep me out.""
+        1 string data = ""俺を締め出せない。""
        [165]
-        1 string data = "Alarm is down.""
+        1 string data = "警報解除完了。""
        [166]
-        1 string data = ""We're dark.""
+        1 string data = ""闇に紛れてる。""
        [167]
-        1 string data = ""They won't see us coming.""
+        1 string data = ""気づかれない。""
        [168]
-        1 string data = ""Shhh... hey there.""
+        1 string data = ""しっ...やあ。""
        [169]
-        1 string data = ""Aww.""
+        1 string data = ""あらー。""
        [170]
-        1 string data = ""Come with me.""
+        1 string data = ""一緒に来い。""
        [171]
-        1 string data = ""You'll be my friend, right?""
+        1 string data = ""友達になってくれるよな?""
        [172]
-        1 string data = ""Hopping in.""
+        1 string data = ""乗り込む。""
        [173]
-        1 string data = ""Leave a seat for me.""
+        1 string data = ""俺の席残しといてくれ。""
        [174]
-        1 string data = ""Takin' a ride.""
+        1 string data = ""乗車する。""
        [175]
-        1 string data = ""Let's roll.""
+        1 string data = ""出発しよう。""
        [176]
-        1 string data = ""Hoofin' it.""
+        1 string data = ""歩きだ。""
        [177]
-        1 string data = ""On foot again.""
+        1 string data = ""また徒歩。""
        [178]
-        1 string data = ""Back in the cold.""
+        1 string data = ""また寒い所に戻った。""
        [179]
-        1 string data = ""Just getting some air.""
+        1 string data = ""ちょっと外の空気を吸ってる。""
        [180]
-        1 string data = ""That'll teach them.""
+        1 string data = ""いい教訓になったろう。""
        [181]
-        1 string data = ""Colorado's finest.""
+        1 string data = ""コロラド最高。""
        [182]
-        1 string data = ""We did it!""
+        1 string data = ""やったぞ!""
        [183]
-        1 string data = ""We made it. They didn't.""
+        1 string data = ""俺たちは成功した。奴らは失敗した。""
        [184]
-        1 string data = ""Bogies ahead.""
+        1 string data = ""前方に敵。""
        [185]
-        1 string data = ""Spotted the enemy.""
+        1 string data = ""敵を発見。""
        [186]
-        1 string data = ""Watch for hostiles.""
+        1 string data = ""敵対者に警戒。""
        [187]
-        1 string data = ""Hold up. Bad guys.""
+        1 string data = ""待て。敵だ。""
        [188]
-        1 string data = ""Found something.""
+        1 string data = ""何か見つけた。""
        [189]
-        1 string data = ""Hang on... what's that?""
+        1 string data = ""待って...あれは?""
        [190]
-        1 string data = ""Look! Over there!""
+        1 string data = ""見ろ! あっちだ!""
        [191]
-        1 string data = ""Hey, you see that?""
+        1 string data = ""なあ、見えるか?""
        [192]
-        1 string data = ""Spotted an alarm.""
+        1 string data = ""警報を発見。""
        [193]
-        1 string data = ""Alarm ahead.""
+        1 string data = ""前方に警報。""
        [194]
-        1 string data = ""Watch out. Alarm.""
+        1 string data = ""気をつけろ。警報だ。""
        [195]
-        1 string data = ""Watch your step.""
+        1 string data = ""足元に注意。""
        [196]
-        1 string data = ""Hold up. It's a trap.""
+        1 string data = ""待て。罠だ。""
        [197]
-        1 string data = ""Trap spotted.""
+        1 string data = ""罠を発見。""
        [198]
-        1 string data = ""Hm. That doesn't look safe.""
+        1 string data = ""うーん。安全じゃなさそうだ。""
        [199]
-        1 string data = ""Don't want to step in that.""
+        1 string data = ""あそこには踏み入れたくない。""
        [200]
-        1 string data = ""Be careful. It's dangerous.""
+        1 string data = ""注意しろ。危険だ。""
        [201]
-        1 string data = ""I feel stronger.""
+        1 string data = ""強くなった気がする。""
        [202]
-        1 string data = ""I've learned something new.""
+        1 string data = ""新しいことを学んだ。""
        [203]
-        1 string data = ""The Wasteland won't stop me.""
+        1 string data = ""ウェイストランドでも俺を止められない。""
        [204]
-        1 string data = ""Practice makes perfect.""
+        1 string data = ""習うより慣れろ。""
        [205]
-        1 string data = ""Let's go.""
+        1 string data = ""行こう。""
        [206]
-        1 string data = ""The world's waiting.""
+        1 string data = ""世界が待ってる。""
        [207]
-        1 string data = ""Ready.""
+        1 string data = ""準備完了。""
        [208]
-        1 string data = ""I'll hang back here.""
+        1 string data = ""ここで待機してる。""
        [209]
-        1 string data = ""If that's what you want.""
+        1 string data = ""そうしたいならそれで。""
        [210]
-        1 string data = ""You know where to find me.""
+        1 string data = ""どこで見つけられるか分かってるだろ。""
        [211]
-        1 string data = ""Ready.""
+        1 string data = ""準備完了。""
        [212]
-        1 string data = ""What do you need?""
+        1 string data = ""何が必要だ?""
        [213]
-        1 string data = ""Reporting in.""
+        1 string data = ""報告する。""
        [214]
-        1 string data = ""Need something?""
+        1 string data = ""何か必要か?""
        [215]
-        1 string data = ""Can't do that.""
+        1 string data = ""できない。""
        [216]
-        1 string data = ""Don't think I can do that.""
+        1 string data = ""できないと思う。""
        [217]
-        1 string data = ""Not yet.""
+        1 string data = ""まだだ。""
        [218]
-        1 string data = ""Not now.""
+        1 string data = ""今はダメだ。""
        [219]
-        1 string data = ""Not quite ready.""
+        1 string data = ""まだ準備できてない。""
        [220]
-        1 string data = ""Too soon.""
+        1 string data = ""早すぎる。""
        [221]
-        1 string data = ""I'm not ready for that.""
+        1 string data = ""その準備ができていない。""
        [222]
-        1 string data = ""Need a moment for that one.""
+        1 string data = ""もう少し時間が必要だ。""
        [223]
-        1 string data = ""Can't reach 'em.""
+        1 string data = ""届かない。""
        [224]
-        1 string data = ""They're too far.""
+        1 string data = ""遠すぎる。""
        [225]
-        1 string data = ""I can't hit that.""
+        1 string data = ""当てられない。""
        [226]
-        1 string data = ""Need to get closer.""
+        1 string data = ""もっと近づく必要がある。""
        [227]
-        1 string data = ""Too much distance.""
+        1 string data = ""距離がありすぎる。""
        [228]
-        1 string data = ""I can't make it there.""
+        1 string data = ""そこまで行けない。""
        [229]
-        1 string data = ""Need to find a closer spot.""
+        1 string data = ""もっと近い場所を見つける必要がある。""
        [230]
-        1 string data = ""Just a bit too far.""
+        1 string data = ""ちょっと遠すぎる。""
        [231]
-        1 string data = ""Enemy down!""
+        1 string data = ""敵が倒れた!""
        [232]
-        1 string data = ""Got 'em!""
+        1 string data = ""やったぞ!""
        [233]
-        1 string data = ""Now you die!""
+        1 string data = ""今死ね!""
        [234]
-        1 string data = ""One less hostile!""
+        1 string data = ""敵が一人減った!""
        [235]
-        1 string data = "They'll never see it coming.""
+        1 string data = "絶対に気づかない。""
        [236]
-        1 string data = ""Taking the initiative.""
+        1 string data = ""主導権を取る。""
        [237]
-        1 string data = ""Watch out!""
+        1 string data = ""気をつけろ!""
        [238]
-        1 string data = ""On my mark!""
+        1 string data = ""合図で!""
        [239]
         1 string data = "Script Node 247"
        [240]
@@ -411009,115 +411009,115 @@
        [251]
         1 string data = "Script Node 259"
        [252]
-        1 string data = ""Take this!""
+        1 string data = ""食らえ!""
        [253]
-        1 string data = ""I'll show you!""
+        1 string data = ""見せてやる!""
        [254]
-        1 string data = ""A little something I learned.""
+        1 string data = ""ちょっと学んだことだ。""
        [255]
-        1 string data = ""Skill and technique, that's me!""
+        1 string data = ""技術とスキル、それが俺だ!""
        [256]
-        1 string data = ""Fortifying!""
+        1 string data = ""防御固める!""
        [257]
-        1 string data = ""You won't get through me!""
+        1 string data = ""俺を突破できないぞ!""
        [258]
-        1 string data = ""Fire in the hole!""
+        1 string data = ""発射!""
        [259]
-        1 string data = ""Watch out!""
+        1 string data = ""気をつけろ!""
        [260]
-        1 string data = ""Grenade out!""
+        1 string data = ""グレネード投擲!""
        [261]
-        1 string data = ""Throwing a grenade!""
+        1 string data = ""手榴弾を投げる!""
        [262]
-        1 string data = ""Delicious!""
+        1 string data = ""美味しい!""
        [263]
-        1 string data = ""Mmm... that's good.""
+        1 string data = ""うーん...旨い。""
        [264]
-        1 string data = ""Just like 'ma used to make.""
+        1 string data = ""母さんが作ってたのと同じだ。""
        [265]
-        1 string data = ""I'm starving!""
+        1 string data = ""腹ペコだ!""
        [266]
-        1 string data = ""Bottoms up!""
+        1 string data = ""乾杯!""
        [267]
-        1 string data = ""Down the hatch!""
+        1 string data = ""一気飲みだ!""
        [268]
-        1 string data = ""Gulp!""
+        1 string data = ""ゴクッ!""
        [269]
-        1 string data = ""That's the stuff!""
+        1 string data = ""これだよ!""
        [270]
-        1 string data = ""Mmm... yeah.""
+        1 string data = ""んー...いいね。""
        [271]
-        1 string data = ""Oh, that's it.""
+        1 string data = ""ああ、それだ。""
        [272]
-        1 string data = ""J-just one more hit...""
+        1 string data = ""あ...あと一発...""
        [273]
-        1 string data = ""Sweet bliss...""
+        1 string data = ""甘美な至福...""
        [274]
-        1 string data = ""To me, everyone!""
+        1 string data = ""俺に集まれ、みんな!""
        [275]
-        1 string data = ""We will <i>not</i> fall!""
+        1 string data = ""俺たちは<i>負けない</i>!""
        [276]
-        1 string data = ""We <i>will</i> win this!""
+        1 string data = ""俺たちは<i>絶対</i>勝つ!""
        [277]
-        1 string data = ""Rangers! We will be victorious!""
+        1 string data = ""レンジャー! 俺たちの勝利だ!""
        [278]
-        1 string data = ""You messin' with the <i>Desert Rangers</i>? You <i>fucked up</i>.""
+        1 string data = ""<i>デザート・レンジャー</i>に手を出したのか? <i>大失敗</i>だな。""
        [279]
-        1 string data = ""Hey, shit-for-brains!""
+        1 string data = ""おい、クソ野郎!""
        [280]
-        1 string data = ""Your mama stinks like a sasquatch, and is twice as ugly!""
+        1 string data = ""お前の母ちゃんビッグフットみたいに臭くて、その倍ブサイクだ!""
        [281]
-        1 string data = ""Hey asshole! Tell them to send the best next time!""
+        1 string data = ""おいクソ野郎! 次は最強を送れって伝えろ!""
        [282]
-        1 string data = ""Stay still...""
+        1 string data = ""じっとして...""
        [283]
-        1 string data = ""Just relax.""
+        1 string data = ""落ち着け。""
        [284]
-        1 string data = ""Don't worry, it'll get better.""
+        1 string data = ""心配すんな、良くなる。""
        [285]
-        1 string data = ""Good as new.""
+        1 string data = ""新品同様だ。""
        [286]
-        1 string data = ""We can't lose you!""
+        1 string data = ""お前を失えない!""
        [287]
-        1 string data = "" Back on your feet!""
+        1 string data = ""立て!""
        [288]
-        1 string data = ""Come on, we've still got a mission.""
+        1 string data = ""さあ、まだミッションが残ってる。""
        [289]
-        1 string data = ""You aren't leaving us that easily!""
+        1 string data = ""そう簡単に俺たちを見捨てるな!""
        [290]
-        1 string data = ""Just a little elbow grease.""
+        1 string data = ""ちょっと頑張っただけ。""
        [291]
-        1 string data = ""Fixed right up.""
+        1 string data = ""修理完了。""
        [292]
-        1 string data = ""That'll buff out. Probably.""
+        1 string data = ""磨けば直る。たぶんな。""
        [293]
-        1 string data = ""Repairing.""
+        1 string data = ""修理中。""
        [294]
-        1 string data = ""You're mine!""
+        1 string data = ""お前は俺のものだ!""
        [295]
-        1 string data = ""Another robotic minion joins my ranks.""
+        1 string data = ""別のロボットミニオンが仲間に加わった。""
        [296]
-        1 string data = ""Assuming control!""
+        1 string data = ""支配権掌握!""
        [297]
-        1 string data = "Hacking!"""
+        1 string data = "ハッキング中!"""
        [298]
-        1 string data = ""Shh, there there. It's alright.""
+        1 string data = ""しっ、よしよし。大丈夫だ。""
        [299]
-        1 string data = ""Aww, aren't you just the cutest?""
+        1 string data = ""あら、本当に可愛いわね?""
        [300]
-        1 string data = ""You're the best! Yes you are!""
+        1 string data = ""最高だね! そうだろう!""
        [301]
-        1 string data = ""Scitches? Who wants them? <i>You^ do!""
+        1 string data = ""撫でて欲しい? 欲しいのは<i>お前^だ!""
        [302]
         1 string data = "Script Node 311"
        [303]
-        1 string data = ""I'll tear you apart!""
+        1 string data = ""バラバラに引き裂いてやる!""
        [304]
-        1 string data = ""Time for a beat down!""
+        1 string data = ""ボコボコにする時間だ!""
        [305]
-        1 string data = ""Eyes up!""
+        1 string data = ""上を見ろ!""
        [306]
-        1 string data = ""Here comes the pain!""
+        1 string data = ""痛みの始まりだ!""
        [307]
         1 string data = "Script Node 316"
        [308]
