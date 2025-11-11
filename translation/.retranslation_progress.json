@@ -31,13 +31,13 @@
       "total_lines": 120559,
       "total_entries": 38554,
       "entries_from_backup": 21737,
-      "entries_newly_translated": 3413,
-      "entries_completed": 25277,
-      "entries_remaining": 13277,
-      "completion_rate": 65.6,
-      "current_line": 32598,
+      "entries_newly_translated": 3488,
+      "entries_completed": 25352,
+      "entries_remaining": 13202,
+      "completion_rate": 65.8,
+      "current_line": 33343,
       "status": "in_progress",
-      "note": "Session DLC1-026: Translated 81 entries (lines 31764-32598). Completed d1001_blue_radio (Blue radio messages), d1001_flushed_toilet (toilet interactions with action marker), d1001_hotcommodities_patsy, d1001_orderup_h1n1, d1001_orderup_robot, d1001_di_postraid, d1001_raiders_prefightleaderradiocall. Action markers preserved, technical IDs maintained, glossary terms applied. Next: continue from line 32598. Dual validation passed."
+      "note": "Session DLC1-027: Translated 75 entries (lines 32598-33343). Completed d1001_raiders_prefightreactivity (pre-fight reactivity), d1001_raiders_rewards (post-battle rewards), d1001_deirdre (mother-daughter reunion quest). Action markers preserved, UI markers translated, proper nouns maintained. Next: continue from line 33343. Dual validation passed."
     },
     "dlc2": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
@@ -54,11 +54,11 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "3355647",
-  "last_commit_message": "DLC1 translation: Session DLC1-026 (81 entries lines 31764-32598) - strict validation passed",
-  "total_entries_completed": 194989,
+  "last_commit_hash": "e733a55",
+  "last_commit_message": "DLC1 translation: Session DLC1-027 (75 entries lines 32598-33343) - strict validation passed",
+  "total_entries_completed": 195064,
   "total_entries": 232418,
-  "total_entries_untranslated": 37429,
+  "total_entries_untranslated": 37354,
   "overall_completion_rate": 83.9,
-  "next_action": "Continue DLC1 translation from line 32598. Process sequentially with strict workflow validation. Estimated 26 sessions remaining to complete DLC1."
+  "next_action": "Continue DLC1 translation from line 33343. Process sequentially with strict workflow validation. Estimated 26 sessions remaining to complete DLC1."
 }
