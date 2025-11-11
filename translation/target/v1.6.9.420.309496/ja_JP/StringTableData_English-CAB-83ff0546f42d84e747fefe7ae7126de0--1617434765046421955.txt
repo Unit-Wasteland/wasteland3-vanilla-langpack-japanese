@@ -1607,47 +1607,47 @@
       1 Array Array (21 items)
        0 int size = 21
        [0]
-        1 string data = "DEBUG WORLD MAP\nYou probably have to load a different scene and then return to see your changes."
+        1 string data = "DEBUG WORLD MAP\n変更を確認するには別のシーンを読み込んでから戻る必要があるでしょう。"
        [1]
-        1 string data = "Jump to Story Step"
+        1 string data = "ストーリーステップへジャンプ"
        [2]
-        1 string data = "Which story step?"
+        1 string data = "どのストーリーステップ？"
        [3]
-        1 string data = "1 : Random Encounters disabled, Mountain Pass Enabled"
+        1 string data = "1：ランダムエンカウント無効、山岳パス有効"
        [4]
-        1 string data = "2 : Random Encounters enabled"
+        1 string data = "2：ランダムエンカウント有効"
        [5]
         1 string data = "3"
        [6]
-        1 string data = "4 : Scar Collectors attack CoSpr"
+        1 string data = "4：スカー・コレクターズがコロラドスプリングスを攻撃"
        [7]
-        1 string data = "Aspen"
+        1 string data = "アスペン"
        [8]
-        1 string data = "Savage Council (not implemented)"
+        1 string data = "サベージ・カウンシル（未実装）"
        [9]
-        1 string data = "Colorado Springs"
+        1 string data = "コロラドスプリングス"
        [10]
-        1 string data = "Colorado Springs:"
+        1 string data = "コロラドスプリングス："
        [11]
-        1 string data = "Back"
+        1 string data = "戻る"
        [12]
-        1 string data = "Leave"
+        1 string data = "去る"
        [13]
-        1 string data = "Savage Council:"
+        1 string data = "サベージ・カウンシル："
        [14]
-        1 string data = "Complete King Cordite"
+        1 string data = "キング・コーダイト完了"
        [15]
-        1 string data = "Aspen:"
+        1 string data = "アスペン："
        [16]
-        1 string data = "Complete Gods and Fools"
+        1 string data = "神々と愚者たち完了"
        [17]
         1 string data = """"
        [18]
-        1 string data = "Complete Gods Have Spoken (Haloed Moon)"
+        1 string data = "神々は語った（ハローを持つ月）完了"
        [19]
-        1 string data = "Complete Canary in the Coal Mine"
+        1 string data = "炭鉱のカナリア完了"
        [20]
-        1 string data = "Capture Liberty"
+        1 string data = "リバティ捕獲"
    [11]
     0 StringTable data
      1 string Filename = "0000_dorseyssnowedinn_radio"
@@ -6569,11 +6569,11 @@
       1 Array Array (3 items)
        0 int size = 3
        [0]
-        1 string data = "Eerie banjo music!\n\n\n"SCREAMING""
+        1 string data = "不気味なバンジョー音楽！\n\n\n"叫び声""
        [1]
         1 string data = ""
        [2]
-        1 string data = ""Eerie singing!"\n\n\n"SCREAMING"\n\n\n"
+        1 string data = ""不気味な歌声！"\n\n\n"叫び声"\n\n\n"
    [57]
     0 StringTable data
      1 string Filename = "0000_radio_charley_takeoverfailure"
@@ -7053,7 +7053,7 @@
        [35]
         1 string data = ""
        [36]
-        1 string data = "Scrap"
+        1 string data = "スクラップ"
        [37]
         1 string data = ""
        [38]
@@ -8431,7 +8431,7 @@
        [8]
         1 string data = ""文書によると、常温核融合の実験だったようだ、あるいは...何かだ。とにかく、当時のログには成功と記録されている。まだ稼働しているか確認したいんだ""
        [9]
-        1 string data = "Did the documents say anyhting about space aliens?"
+        1 string data = "文書には宇宙人について何か書いてあったか?"
        [10]
         1 string data = ""
        [11]
@@ -8747,19 +8747,19 @@
       1 Array Array (9 items)
        0 int size = 9
        [0]
-        1 string data = "Your car is too hot! "
+        1 string data = "車が熱すぎる！ "
        [1]
         1 string data = ""
        [2]
-        1 string data = "Pour water on it."
+        1 string data = "水をかけろ。"
        [3]
-        1 string data = "Leave it behind and go fight. "
+        1 string data = "置いていって戦いに行け。 "
        [4]
-        1 string data = "Your car is cool, here is a grenade... because why not."
+        1 string data = "車は問題ない、手榴弾をやろう...なぜかって？特に理由はない。"
        [5]
-        1 string data = "Who cares, keep going!\n"
+        1 string data = "気にするな、進め！\n"
        [6]
-        1 string data = "Oh no the car caught on fire and burned your party.  Your guys take damage."
+        1 string data = "しまった、車が燃えてパーティが焼けた。仲間がダメージを受ける。"
        [7]
         1 string data = ""
        [8]
@@ -12547,7 +12547,7 @@
        [15]
         1 string data = ""
        [16]
-        1 string data = "Bank 22"
+        1 string data = "バンク22"
        [17]
         1 string data = "この端末は基地のシステム情報を表示している。今のところ、全て正常なようだ。"
        [18]
@@ -31099,7 +31099,7 @@
        [1]
         1 string data = ""
        [2]
-        1 string data = "It sits in a puddle of its own fluids, its casing dented and riddled with bullet holes."
+        1 string data = "自分の体液の水たまりの中に座っており、外装はへこみ、弾痕だらけだ"
        [3]
         1 string data = "床のこすり跡から判断すると、誰かがどこかからガレージにこれを引きずり込んだようだ"
        [4]
@@ -31109,7 +31109,7 @@
        [6]
         1 string data = "ロボットには触れない"
        [7]
-        1 string data = "You step away from the wrecked robot."
+        1 string data = "破壊されたロボットから離れる"
        [8]
         1 string data = "これはスライサーダイサー、黙示録以前の軍事用ロボットだと分かる。銃撃戦でひどく損傷を受けたようで、武器の一部が欠損している"
        [9]
@@ -42685,9 +42685,9 @@
       1 Array Array (2 items)
        0 int size = 2
        [0]
-        1 string data = "The tires have been slashed, and it looks like a load of thermite burned through the engine block. This car won't move without days of repair work."
+        1 string data = "タイヤが切り裂かれており、大量のテルミットがエンジンブロックを焼き切ったようだ。この車は何日もの修理作業なしには動かない"
        [1]
-        1 string data = "This car's not moving without days' worth of work."
+        1 string data = "この車は何日もかけて作業しないと動かない"
    [148]
     0 StringTable data
      1 string Filename = "a1001_endgame_destroyedrover"
@@ -42709,9 +42709,9 @@
       1 Array Array (2 items)
        0 int size = 2
        [0]
-        1 string data = "The entire undercarriage has been ripped out, linkages smashed, and wires severed. This rover isn't going anywhere."
+        1 string data = "車台全体が引き裂かれ、連結部が破壊され、配線が切断されている。このローバーはどこにも行けない"
        [1]
-        1 string data = "You never thought a car could be disembowled, but this one has. It's not going anywhere."
+        1 string data = "車が内臓を抜かれるとは思ってもみなかったが、この車はまさにそうだ。どこにも行けない"
    [149]
     0 StringTable data
      1 string Filename = "a1001_fadercompanion"
@@ -47141,7 +47141,7 @@
        [161]
         1 string data = ""レンジャーが老人たちを殺したって不穏な噂を聞いた。本当だとは思えないが""
        [162]
-        1 string data = "He nods towards the new decorative elements now spread across the garage. "
+        1 string data = "彼はガレージ中に広がった新しい装飾品の方にうなずく。 "
        [163]
         1 string data = ""ビザールを誰が仕切ってても大した問題じゃない、俺たちと協力してくれさえすれば""
        [164]
@@ -50901,7 +50901,7 @@
        [80]
         1 string data = ""俺の目の黒いうちは許さん。見つけ次第撃つ。喋るチャンスも与えない""
        [81]
-        1 string data = "He salutes. "
+        1 string data = "彼は敬礼する。 "
        [82]
         1 string data = ""コロラドスプリングスのシンセは見つかったか?""
        [83]
@@ -78021,23 +78021,23 @@
        [30]
         1 string data = " Got a confession from MacTavish"
        [31]
-        1 string data = "MacTavish's fate?"
+        1 string data = "マクタヴィッシュの運命は？"
        [32]
-        1 string data = " Executed"
+        1 string data = " 処刑"
        [33]
-        1 string data = " setting to executed"
+        1 string data = " 処刑に設定"
        [34]
-        1 string data = " Ranger Jail"
+        1 string data = " レンジャー刑務所"
        [35]
-        1 string data = " He'll be at RHQ after next scene load"
+        1 string data = " 次のシーン読み込み後にRHQにいる"
        [36]
-        1 string data = " Let go"
+        1 string data = " 解放"
        [37]
-        1 string data = " He's set to leave at next scene load."
+        1 string data = " 次のシーン読み込み時に去る設定"
        [38]
-        1 string data = "Granted Backroom Access"
+        1 string data = "バックルームアクセス許可"
        [39]
-        1 string data = " Got Backroom Access"
+        1 string data = " バックルームアクセス獲得"
        [40]
         1 string data = " Delgado Freed"
        [41]
@@ -78123,7 +78123,7 @@
        [81]
         1 string data = " TInker fate?"
        [82]
-        1 string data = "You've learned Delgado was taken"
+        1 string data = "デルガドが連れ去られたことを知った"
        [83]
         1 string data = " Tell Daisy what happened"
        [84]
@@ -78139,29 +78139,29 @@
        [89]
         1 string data = " HOLD ON TO YER BUTTS"
        [90]
-        1 string data = "MacTavish's fate?"
+        1 string data = "マクタヴィッシュの運命は？"
        [91]
-        1 string data = " Executed"
+        1 string data = " 処刑"
        [92]
-        1 string data = " setting to executed"
+        1 string data = " 処刑に設定"
        [93]
-        1 string data = " Ranger Jail"
+        1 string data = " レンジャー刑務所"
        [94]
-        1 string data = " He'll be at RHQ after next scene load"
+        1 string data = " 次のシーン読み込み後にRHQにいる"
        [95]
-        1 string data = " Let go"
+        1 string data = " 解放"
        [96]
-        1 string data = " He's set to leave at next scene load."
+        1 string data = " 次のシーン読み込み時に去る設定"
        [97]
-        1 string data = " HOLD ON TO YER BUTTS"
+        1 string data = " 気を引き締めろ"
        [98]
-        1 string data = "MacTavish's fate?"
+        1 string data = "マクタヴィッシュの運命は？"
        [99]
-        1 string data = " Executed"
+        1 string data = " 処刑"
        [100]
-        1 string data = " setting to executed"
+        1 string data = " 処刑に設定"
        [101]
-        1 string data = " Ranger Jail"
+        1 string data = " レンジャー刑務所"
        [102]
         1 string data = " He'll be at RHQ after next scene load"
        [103]
@@ -90931,7 +90931,7 @@
        [78]
         1 string data = ""やあ、スコッチモ。""
        [79]
-        1 string data = "Let him sleep."
+        1 string data = "寝かせておく"
        [80]
         1 string data = ""Zzzzzzzzzz...""
        [81]
@@ -93075,11 +93075,11 @@
        [5]
         1 string data = " TODO End Party Management"
        [6]
-        1 string data = "The man is tall and broad, with face and hands that look as though they've been hacked from heavy wood, scarred and rough. His blue eyes shine from his honest face."
+        1 string data = "この男は背が高くがっしりしており、顔と手は重い木材から削り出されたようで、傷だらけで荒い。正直な顔から青い瞳が輝いている"
        [7]
-        1 string data = ""People are talking about how you cleared those Dorseys outta the Garden. You're doing God's work here, Rangers.""
+        1 string data = ""お前たちがガーデンからドーシーズを追い出したことが話題になってる。ここで神の仕事をしてくれてるな、レンジャー""
        [8]
-        1 string data = ""I hear you found a new source of power for the city. That'll give us all some peace of mind - never liked relying on those crazy Gippers for everything.""
+        1 string data = ""街の新しい電源を見つけたそうだな。それで皆が安心できる - あの狂ったギッパーズに全てを頼るのは好きじゃなかった""
        [9]
         1 string data = """"
        [10]
