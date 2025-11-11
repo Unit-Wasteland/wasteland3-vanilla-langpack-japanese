@@ -31,13 +31,13 @@
       "total_lines": 120559,
       "total_entries": 38554,
       "entries_from_backup": 21737,
-      "entries_newly_translated": 3781,
-      "entries_completed": 25645,
-      "entries_remaining": 12909,
-      "completion_rate": 66.5,
-      "current_line": 35215,
+      "entries_newly_translated": 3961,
+      "entries_completed": 25825,
+      "entries_remaining": 12729,
+      "completion_rate": 67.0,
+      "current_line": 37798,
       "status": "in_progress",
-      "note": "Session DLC1-029: Translated 129 entries (lines 34363-35214). Completed d1101_bluegoons (Blue crew dialogue - Scar Collectors heist, stolen truck), d1101_blue_2 (Blue main dialogue - factory worker conflict, Markham vs Di, embezzlement plot), d1101_lootpile (money discovery, Libby note). All action markers preserved in English (snorts, sighs, coughs). Double-double-quote format maintained exactly. Next: continue from line 35215 (d1201_blue). Dual validation passed."
+      "note": "Session DLC1-030: Translated 180 entries (lines 37211-37797). Completed d1201_blue dialogue (Blue hideout Synaptic Degausser mission - C.E. enslaved synths ethical debate, Di reprogramming, degausser negotiation, reputation checks, hostage/payment options). All action markers preserved in English (sighs verified). All Global variables and brackets maintained. Next: continue from line 37798 (d1201_blue continuation). Dual validation passed."
     },
     "dlc2": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
@@ -54,11 +54,11 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "pending",
-  "last_commit_message": "DLC1 translation: Session DLC1-029 (129 entries lines 34363-35214) - strict validation passed",
-  "total_entries_completed": 195357,
+  "last_commit_hash": "5075fa2",
+  "last_commit_message": "DLC1 translation: Session DLC1-030 (180 entries lines 37211-37797) - strict validation passed",
+  "total_entries_completed": 195537,
   "total_entries": 232418,
-  "total_entries_untranslated": 37061,
+  "total_entries_untranslated": 36881,
   "overall_completion_rate": 84.1,
-  "next_action": "Continue DLC1 translation from line 35215 (d1201_blue - large section with 496 entries). Process sequentially with strict workflow validation. Estimated 24 sessions remaining to complete DLC1."
+  "next_action": "Continue DLC1 translation from line 37798 (d1201_blue continuation). Process sequentially with strict workflow validation. Estimated 23 sessions remaining to complete DLC1."
 }
