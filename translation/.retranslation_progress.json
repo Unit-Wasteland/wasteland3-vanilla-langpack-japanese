@@ -31,13 +31,13 @@
       "total_lines": 120559,
       "total_entries": 38554,
       "entries_from_backup": 21737,
-      "entries_newly_translated": 8461,
-      "entries_completed": 30387,
-      "entries_remaining": 8167,
-      "completion_rate": 78.8,
-      "current_line": 74059,
+      "entries_newly_translated": 8582,
+      "entries_completed": 30508,
+      "entries_remaining": 8046,
+      "completion_rate": 79.1,
+      "current_line": 74857,
       "status": "in_progress",
-      "note": "Session DLC1-064: Translated 79 entries (Factory foreman and refugee escape sequences: d2101_mabelle 35, d2101_radio_gonzalez_arrests 10, d2101_refugee_newt_vent01-03 34 entries, lines 73525-74058). Action markers preserved in English throughout escape sequences. Structure and quality validations passed with 0 errors. Next: Continue from line 74059 (d2101_reg section)."
+      "note": "Session DLC1-065: Translated 121 entries (Worker rebellion sequences: d2101_reg 59, d2101_reg_workers_barks 10, d2101_rody 21, d2101_vendingmachine01 3, d2101_warbot 2, d2101_worker_crow 26 entries, lines 74059-74856). Unified translation decision logic applied. Structure and quality validations passed with 0 errors. Next: Continue from line 74857 (d2101_worker_crow_robot section)."
     },
     "dlc2": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
@@ -54,11 +54,11 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "137f926",
-  "last_commit_message": "DLC1 translation: Session DLC1-064 (79 entries, lines 73525-74058)",
-  "total_entries_completed": 200099,
+  "last_commit_hash": "pending",
+  "last_commit_message": "DLC1 translation: Session DLC1-065 (121 entries, lines 74059-74856)",
+  "total_entries_completed": 200220,
   "total_entries": 232418,
-  "total_entries_untranslated": 32319,
+  "total_entries_untranslated": 32198,
   "overall_completion_rate": 86.1,
-  "next_action": "Continue DLC1 translation from line 74059. Next section: d2101_reg (59 entries). Sequential processing with strict structure protection."
+  "next_action": "Continue DLC1 translation from line 74857. Next section: d2101_worker_crow_robot (5 entries). Sequential processing with strict structure protection."
 }
