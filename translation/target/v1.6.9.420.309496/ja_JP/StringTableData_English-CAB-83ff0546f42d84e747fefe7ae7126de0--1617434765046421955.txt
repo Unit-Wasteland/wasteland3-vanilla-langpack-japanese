@@ -117219,11 +117219,11 @@
        [3]
         1 string data = ""了解、チーム・ノベンバー。本部から逮捕チームを派遣中""
        [4]
-        1 string data = " "We've placed MacTavish under arrest. Dispatch an arrest team to the machine shop, and have him chained to the back of our vehicle.""
+        1 string data = " "マクタヴィッシュを逮捕した。逮捕チームを機械工場に派遣し、彼を我々の車両の後ろに鎖でつないでくれ""
        [5]
         1 string data = ""マクタヴィッシュを拘束した。保安官に連絡して機械工場で引き取ってもらってくれ""
        [6]
-        1 string data = " "Copy that, Team November. Arrest team on the way.""
+        1 string data = " "了解、チーム・ノベンバー。逮捕チームを派遣中""
        [7]
         1 string data = ""了解、チーム・ノベンバー。保安官に逮捕が必要だと伝える""
    [328]
@@ -117267,17 +117267,17 @@
       1 Array Array (7 items)
        0 int size = 7
        [0]
-        1 string data = ""Copy November One, this is Ranger HQ. What's your status?""
+        1 string data = ""了解、ノベンバー・ワン、こちらレンジャー本部。状況は？""
        [1]
         1 string data = "Script Node 2"
        [2]
-        1 string data = ""We've placed Mama Cotter under arrest. Send a squad to pick her up.""
+        1 string data = ""ママ・コッターを逮捕した。部隊を送って引き取ってくれ""
        [3]
-        1 string data = ""Old Mama Cotter, a criminal? Who would've thought. Dispatching a squad, over and out.""
+        1 string data = ""ババア・コッターが犯罪者だって？誰が想像した？部隊を派遣する、以上""
        [4]
-        1 string data = ""We've placed Mama Cotter under arrest. Have the marshals send someone to pick her up.""
+        1 string data = ""ママ・コッターを逮捕した。保安官に誰か引き取りに寄越させてくれ""
        [5]
-        1 string data = ""Old Mama Cotter, a criminal? Who would've th--""
+        1 string data = ""ババア・コッターが犯罪者だって？誰が想――""
        [6]
         1 string data = "Trigger Conv Node 7"
    [329]
@@ -117593,7 +117593,7 @@
        [18]
         1 string data = ""それでも、引き金を引いたのは私。選択は<i>私の</i>ものだった。彼を……生かすこともできた。今……今彼は死んで、残っている記憶は彼が命乞いをしていることだけ""
        [19]
-        1 string data = ""It had to be done, didn't it? They gunned down my parents and my little brother. They burned my family's bodies and dumped them in a pit."\n\n\nSteel creeps back into her voice."
+        1 string data = ""そうするしかなかったのよね？彼らは両親と弟を撃ち殺した。家族の遺体を燃やして穴に捨てた"\n\n\n彼女の声に鋼鉄が戻ってくる。"
        [20]
         1 string data = ""アイザックを間違った道に導いた人々を……<i>本当の</i>責任者を見つけないと。ネリアス・ドーシーとリバティ・ブキャナン。探すのを手伝ってくれる？あなたたちは常に私の銃を頼りにできる""
        [21]
@@ -117633,7 +117633,7 @@
        [38]
         1 string data = ""確かに。もしあなたが来ていなければ、彼はまだ生きていたかもしれない""
        [39]
-        1 string data = ""Now he's dead and the only memories I have are of him laughing... and begging for his life.""
+        1 string data = ""今彼は死んで、残っている記憶は彼が笑っていたこと……そして命乞いをしていたこと""
        [40]
         1 string data = ""でもそうしたら彼は逃げおおせていたわ！それは全く公平じゃない！""
        [41]
@@ -117641,7 +117641,7 @@
        [42]
         1 string data = ""とりあえず、保安官のところに戻るべきだ""
        [43]
-        1 string data = ""I appreciate your consideration. Do not think me ungrateful. This is... a difficult moment for me.""
+        1 string data = ""配慮には感謝します。恩知らずだとは思わないで。これは……私にとって難しい瞬間なの""
        [44]
         1 string data = ""ごきげんよう""
        [45]
@@ -117871,7 +117871,7 @@
        [1]
         1 string data = ""マ、ママ……？" \r\n\r\n"あっ、私……""
        [2]
-        1 string data = ""... go away. You're attracting attention.""
+        1 string data = ""……あっちに行って。人目を引くわ""
        [3]
         1 string data = ""ごめんなさい。気にしないで""
        [4]
@@ -117885,7 +117885,7 @@
        [8]
         1 string data = ""何？なぜ？何が欲しいの？""
        [9]
-        1 string data = ""I'm... Will you go away if I tell you? I'm ... I'm looking for my family. There. You happy?""
+        1 string data = ""私は……話したらあっちに行ってくれる？私は……家族を探しているの。ほら、満足した？""
        [10]
         1 string data = ""わ……わからない。たくさんの人たちとコロラドスプリングスに向かっていて、そ、それで……離ればなれになった""
        [11]
@@ -117893,13 +117893,13 @@
        [12]
         1 string data = ""いや、お願い。行ってほしいの"\n\n\n"お願い！""
        [13]
-        1 string data = "She freezes in place, eyes widening, then puts her hand to her mouth."
+        1 string data = "彼女はその場で固まり、目を見開いて、それから口に手を当てる。"
        [14]
         1 string data = ""あなたたちは……彼女と……話したの？なんてことだ、私を売ることもできたのに、そうしなかった。ありがとう、本当にありがとう""
        [15]
         1 string data = "[Lie] "あなたのお母さんが本部に来た。あなたを探してくれと頼まれた。人相を教えてもらった。今そこであなたを待っている""
        [16]
-        1 string data = "Hope flares in her eyes."
+        1 string data = "彼女の目に希望が灯る。"
        [17]
         1 string data = ""ママが？彼女は……生きてるの？ありがとう、本当にありがとう。これがどれほど意味があるかわからないでしょう。あなたたちは……""
        [18]
@@ -117935,15 +117935,15 @@
        [33]
         1 string data = ""またあなたたち？何の用？""
        [34]
-        1 string data = ""Can we talk to you?""
+        1 string data = ""話せるか？""
        [35]
-        1 string data = ""Nothing. Never mind.""
+        1 string data = ""何でもない。気にするな""
        [36]
         1 string data = ""笑顔の女があなたを捕まえろと頼んできたが、彼女と奴隷商人の一味を殺した。知らせたいと思ってな""
        [37]
         1 string data = ""彼らは……もういないの？あ……ありがとう、本当にありがとう。これでママを探せるかもしれない""
        [38]
-        1 string data = " "They're gone? I... Thank you. Thank you so much. If I don't need to hide, I may be able to find my mother.""
+        1 string data = " "もういないの？あ……ありがとう、本当にありがとう。隠れなくていいなら、ママを見つけられるかもしれない""
        [39]
         1 string data = ""お返しができる方法を見つけたい""
        [40]
@@ -117955,7 +117955,7 @@
        [43]
         1 string data = ""離れて！助けて！""
        [44]
-        1 string data = ""A slaver asked us to catch you, but we don't help slavers, so we're warning you instead. Keep your head down. Stay safe.""
+        1 string data = ""奴隷商人があなたを捕まえろと頼んできたが、奴隷商人は助けない。だから警告に来た。目立つな。安全に""
        [45]
         1 string data = ""気にするな、小娘。幸運を祈る""
        [46]
@@ -118087,9 +118087,9 @@
       1 Array Array (2 items)
        0 int size = 2
        [0]
-        1 string data = " "The Journal of Irvin-27" is written in clean, precise handwriting on the first page of this journal."
+        1 string data = " "アーヴィン27号の日誌"は、このジャーナルの最初のページにきれいで正確な筆跡で書かれている。"
        [1]
-        1 string data = " It appears to belong to the clone of man named John Irwin Finster. The clone managed to escape the destruction of Base Cochise, and took notes as it journeyed north to Colorado."
+        1 string data = " ジョン・アーウィン・フィンスターという名の男のクローンのものらしい。このクローンはコクーズ基地の破壊から逃れることに成功し、コロラドに北上する旅の記録を残した。"
    [334]
     0 StringTable data
      1 string Filename = "a2001_irvclones"
