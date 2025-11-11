@@ -16,16 +16,16 @@
       "total_lines": 530425,
       "total_string_data_lines": 131783,
       "non_empty_entries": 42499,
-      "entries_translated": 28953,
+      "entries_translated": 29063,
       "entries_partially_translated": 575,
-      "entries_untranslated": 11355,
+      "entries_untranslated": 11245,
       "entries_other": 1616,
-      "total_issues": 12028,
-      "completion_rate": 68.1,
-      "current_line": 400626,
+      "total_issues": 11918,
+      "completion_rate": 68.4,
+      "current_line": 401754,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 243 work: Translated 85 scattered entries in lines 400174-400626. Covered Steel-Trap mine ambient dialogue, Company Store slaves, Cutter Throat bar, and Dee Sharp abduction site. Applied unified translation decision logic. All validations passed: structure (0 errors), quality (0 issues). Remaining: 11,355 untranslated. Next: Continue scattered entry cleanup in 400000-450000 range."
+      "note": "Session 244 work: Translated 110 scattered entries in lines 401424-401754. Covered Dee Sharp quest dialogue (q3001_deesharp) including rescue, Company Store takeover, Steel-Trap coup planning, and Scar Collectors rally. Applied unified translation decision logic. All validations passed: structure (0 errors), action marker verification (::sigh:: preserved). Remaining: 11,245 untranslated. Next: Continue scattered entry cleanup in 401754-450000 range."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -60,15 +60,15 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "fbfdf95",
-  "last_commit_message": "Base game translation: Scattered entries in lines 400174-400626 (85 entries)",
-  "validation_date": "2025-11-11",
-  "validation_script": "validate_completion.py v1.0",
+  "last_commit_hash": "35d3351",
+  "last_commit_message": "Base game translation: Scattered entries in lines 401424-401754 (110 entries)",
+  "validation_date": "2025-11-12",
+  "validation_script": "validate_structure_v2.py",
   "work_priority": "BASE_GAME_FIRST",
-  "total_entries_completed": 36495,
+  "total_entries_completed": 36605,
   "total_entries": 78361,
-  "total_entries_untranslated": 38956,
-  "total_issues": 15540,
-  "overall_completion_rate": 46.5,
-  "next_action": "RESUME base_game translation from line 39084 onwards. Priority: Complete all 12094 base_game issues before any DLC work. Focus on scattered untranslated entries identified by validate_completion.py. DLC1 work PAUSED until base_game verified 100% complete."
+  "total_entries_untranslated": 38846,
+  "total_issues": 15430,
+  "overall_completion_rate": 46.7,
+  "next_action": "RESUME base_game translation from line 401754 onwards. Priority: Complete all base_game scattered untranslated entries. Focus on 401754-450000 range. DLC1 work PAUSED until base_game verified 100% complete."
 }
