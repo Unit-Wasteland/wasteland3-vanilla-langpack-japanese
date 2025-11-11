@@ -26,18 +26,18 @@
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
       "reference_file": "translation/source/v1.6.9.420.309496/es_ES/DLC1/StringTableData_Spanish-CAB-01cf4ea31238681a8e1bd9559c0f3f3e-7305399230875977342.txt",
-      "target_file": "translation/target/v1.6.9.420.309496/ja_JP/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
+      "target_file": "translation/target/v1.6.9.420.309496/ja_JP/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3f3e--5815625736905989241.txt",
       "backup_file": "translation/backup_broken/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
       "total_lines": 120559,
       "total_entries": 38554,
       "entries_from_backup": 21737,
-      "entries_newly_translated": 7619,
-      "entries_completed": 29545,
-      "entries_remaining": 9009,
-      "completion_rate": 76.6,
-      "current_line": 67993,
+      "entries_newly_translated": 7669,
+      "entries_completed": 29595,
+      "entries_remaining": 8959,
+      "completion_rate": 76.8,
+      "current_line": 68305,
       "status": "in_progress",
-      "note": "Session DLC1-057: Translated 147 entries (lines 67700-67993). Section: d2101_crow (labor dispute dialogue between worker leader and security chief). Strict 4-quote format maintained. Both validations passed with 0 errors and 0 issues. Next: Continue from line 67995 (d2101_crow_intercom section)."
+      "note": "Session DLC1-057: Translated 197 entries total (d2101_crow: 147 entries lines 67700-67993, d2101_crow_intercom: 50 entries lines 68206-68304). Intercom barks during factory floor combat. Preserved newline sequences. Both validations passed with 0 errors and 0 issues. Next: Continue from line 68305 (d2101_cutscene_intro section)."
     },
     "dlc2": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
@@ -55,10 +55,10 @@
     }
   },
   "last_commit_hash": "pending",
-  "last_commit_message": "DLC1 translation: Session DLC1-057 (147 entries, lines 67700-67993)",
-  "total_entries_completed": 199257,
+  "last_commit_message": "DLC1 translation: Session DLC1-057 (197 entries, lines 67700-68304)",
+  "total_entries_completed": 199307,
   "total_entries": 232418,
-  "total_entries_untranslated": 33161,
-  "overall_completion_rate": 85.7,
-  "next_action": "Continue DLC1 translation from line 67995. Next section: d2101_crow_intercom (50 entries). Sequential processing with strict structure protection."
+  "total_entries_untranslated": 33111,
+  "overall_completion_rate": 85.8,
+  "next_action": "Continue DLC1 translation from line 68305. Next section: d2101_cutscene_intro (17 entries). Sequential processing with strict structure protection."
 }
