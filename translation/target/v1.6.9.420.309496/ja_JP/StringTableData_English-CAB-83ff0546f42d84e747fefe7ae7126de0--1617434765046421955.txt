@@ -411137,35 +411137,35 @@
        [315]
         1 string data = "Script Node 324"
        [316]
-        1 string data = ""Ahh! I'm on fire!""
+        1 string data = ""ああっ! 燃えてる!""
        [317]
-        1 string data = ""I'm a little hot here!""
+        1 string data = ""ちょっと熱いんだが!""
        [318]
-        1 string data = ""I'm f-freezing!""
+        1 string data = ""凍、凍えそうだ!""
        [319]
-        1 string data = ""S-s-so c-cold...""
+        1 string data = ""さ、寒、さ、寒すぎる...""
        [320]
-        1 string data = ""Not feeling so good...""
+        1 string data = ""体調が良くない...""
        [321]
-        1 string data = ""Ugh... what's wrong with me?""
+        1 string data = ""うっ... 何がどうなってる?""
        [322]
-        1 string data = ""W-what i-i-is it?""
+        1 string data = ""な、何、何、何だ?""
        [323]
-        1 string data = ""W-what? Who...?""
+        1 string data = ""な、何? 誰...?""
        [324]
-        1 string data = ""I'm seein' stars...""
+        1 string data = ""目がちかちかする...""
        [325]
-        1 string data = ""I'm stuck!""
+        1 string data = ""動けない!""
        [326]
-        1 string data = ""I'm a sitting duck!""
+        1 string data = ""完全に無防備だ!""
        [327]
-        1 string data = ""I can't see!""
+        1 string data = ""何も見えない!""
        [328]
-        1 string data = ""Anyone there?""
+        1 string data = ""誰かいるのか?""
        [329]
-        1 string data = ""I'm leaking all over the place!""
+        1 string data = ""あちこちから漏れてる!""
        [330]
-        1 string data = ""I'm bleeding out!""
+        1 string data = ""出血が止まらない!""
    [1414]
     0 StringTable data
      1 string Filename = "testconversation_perkconditional"
@@ -411227,15 +411227,15 @@
       1 Array Array (12 items)
        0 int size = 12
        [0]
-        1 string data = ""Is this where I am supposed to be checking for a specific perk?""
+        1 string data = ""ここで特定のパークをチェックすることになっているのか?""
        [1]
-        1 string data = ""Maybe? I don't know. Hopefully, the Engineer working on this is has fixed all of the game's problems.""
+        1 string data = ""多分? 分からない。この作業をしているエンジニアがゲームの全ての問題を修正してくれているといいんだが。""
        [2]
-        1 string data = ""Yeah, hopefully.""
+        1 string data = ""ああ、そうだといいな。""
        [3]
-        1 string data = ""Right""
+        1 string data = ""そうだな""
        [4]
-        1 string data = ""Well, good luck to you!""
+        1 string data = ""じゃあ、幸運を祈るよ!""
        [5]
         1 string data = ""
        [6]
@@ -411291,19 +411291,19 @@
       1 Array Array (7 items)
        0 int size = 7
        [0]
-        1 string data = " "Name's Vic Buchanan, son of the Patriarch and all around psychopath. Need any help getting shit done?""
+        1 string data = " "俺はヴィック・ブキャナン、パトリアークの息子で筋金入りのサイコパスだ。何か片付けるのに手を貸そうか?""
        [1]
-        1 string data = " "What's the story? Am I rolling with you?""
+        1 string data = " "で、どういう話だ? 俺も一緒に行くのか?""
        [2]
-        1 string data = " "Sure, you're deputized.""
+        1 string data = " "ああ、保安官代理に任命する。""
        [3]
-        1 string data = " "Not now.""
+        1 string data = " "今はいい。""
        [4]
-        1 string data = ""Great! Who needs killing?""
+        1 string data = ""最高だ! 誰を殺せばいい?""
        [5]
-        1 string data = " "Lemme know when you want to have some fun.""
+        1 string data = " "楽しいことをしたくなったら声をかけてくれ。""
        [6]
-        1 string data = " Vic smoothes his hair and draws an oversized pistol from inside his fur coat."
+        1 string data = " ヴィックは髪を撫でつけ、毛皮のコートの内側から大型の拳銃を抜いた。"
    [1416]
     0 StringTable data
      1 string Filename = "testconversation_radiotest"
@@ -411345,19 +411345,19 @@
       1 Array Array (7 items)
        0 int size = 7
        [0]
-        1 string data = ""Hello, hello, this is Ivan Radiovsky. Welcome to the radio test. How are you?""
+        1 string data = ""もしもし、もしもし、こちらはイワン・ラジオフスキーだ。無線テストへようこそ。調子はどうだい?""
        [1]
-        1 string data = ""Hello Ivan, how are you?""
+        1 string data = ""やあイワン、調子はどう?""
        [2]
-        1 string data = ""I don't like you, Ivan.""
+        1 string data = ""お前は気に入らないよ、イワン。""
        [3]
-        1 string data = ""Bye, Ivan.""
+        1 string data = ""じゃあな、イワン。""
        [4]
-        1 string data = ""Goodbye!""
+        1 string data = ""さよなら!""
        [5]
-        1 string data = ""Oh, you know, not so good. Nothing some vodka won't fix.""
+        1 string data = ""ああ、まあ、あまり良くないね。ウォッカを飲めば治るさ。""
        [6]
-        1 string data = ""That's ok, I don't like you much either.""
+        1 string data = ""そうか、こっちもお前のことあまり好きじゃないよ。""
    [1417]
     0 StringTable data
      1 string Filename = "testconversation_readnodetest1"
@@ -412239,81 +412239,81 @@
        [3]
         1 string data = "Script Node 4"
        [4]
-        1 string data = ""Thank you for joining the God-President and I in the Sacred Server Room, Rangers. As I was saying before, There is something you could do for our cause that would help us look more favorably on your... requests.""
+        1 string data = ""レンジャーの皆様、神なる大統領と私と共に神聖なサーバールームへようこそ。先ほど申し上げた通り、私たちの大義のために皆様にできることがあり、それをしていただければ皆様の...要求にもっと好意的に対応できるでしょう。""
        [5]
-        1 string data = ""Exemplary work, Rangers. I really didn't think you'd manage to recover the module, but Ronnie said to have faith.""
+        1 string data = ""素晴らしい働きです、レンジャー諸君。モジュールを回収できるとは本当に思っていませんでしたが、ロニーが信じろと言っていました。""
        [6]
-        1 string data = ""You don't appear to have the module. Why have you returned?""
+        1 string data = ""モジュールをお持ちでないようですね。なぜ戻って来たのですか?""
        [7]
-        1 string data = ""Thank you for helping us achieve our destiny, Rangers." \r\nMission_ReaganReborn_b3001_GipperCeremonyStep == [Global: Mission_ReaganReborn_b3001_GipperCeremonyStep]"
+        1 string data = ""私たちの運命の達成を手伝ってくれてありがとう、レンジャー諸君。" \r\nMission_ReaganReborn_b3001_GipperCeremonyStep == [Global: Mission_ReaganReborn_b3001_GipperCeremonyStep]"
        [8]
-        1 string data = "Goodbye, Mother Nancy Reliance."
+        1 string data = "さようなら、マザー・ナンシー・リライアンス。"
        [9]
-        1 string data = ""We're only here to discuss Valor Buchanan and the oil situation in Colorado Springs.""
+        1 string data = ""私たちはヴァラー・ブキャナンとコロラドスプリングスの石油問題について話し合いに来ただけだ。""
        [10]
-        1 string data = ""We're not here to make deals. Restart the oil and turn over Valor, or face the consequences.""
+        1 string data = ""取引をしに来たのではない。石油供給を再開しヴァラーを引き渡せ、さもなくば報いを受けるぞ。""
        [11]
-        1 string data = "Sure about that? Companions interject here, too."
+        1 string data = "本当にそれでいいのか? 仲間たちもここで口を挟む。"
        [12]
-        1 string data = "[Attack] Yes."
+        1 string data = "[攻撃] ああ。"
        [13]
-        1 string data = "No, we'll hear you out."
+        1 string data = "いや、話を聞こう。"
        [14]
         1 string data = "Script Node 16"
        [15]
         1 string data = "Script Node 17"
        [16]
-        1 string data = ""Gippers, stop them! Ronnie, tear them down!""
+        1 string data = ""ギッパーズ、奴らを止めろ! ロニー、奴らを引き裂け!""
        [17]
-        1 string data = "Combat, NPCs go first."
+        1 string data = "戦闘、NPCが先に行動。"
        [18]
-        1 string data = ""To accomplish this we must acquire a piece of technology - a Cybernetic Transfer Module - from the filthy communist robots that occupy the Denver Airport.""
+        1 string data = ""これを成し遂げるには、デンバー空港を占領している不潔な共産主義ロボットから、ある技術、つまりサイバネティック転送モジュールを入手しなければなりません。""
        [19]
-        1 string data = ""I thought that might be why you were in the neighborhood. If you do this little favor for us, we'll be happy to reciprocate.""
+        1 string data = ""そのためにこの辺りにいるのではないかと思っていました。この小さな頼みを聞いてくれれば、私たちも喜んでお返しします。""
        [20]
-        1 string data = ""My husband, the God-President, wishes to transfer his consciousness to a human body.""
+        1 string data = ""私の夫、神なる大統領は、自らの意識を人間の体に転送したいと望んでいます。""
        [21]
-        1 string data = """Glad you're reasonable. No need for this to get ugly. So...."
+        1 string data = """理性的で何よりです。醜い事態にする必要はありません。それで..."
        [22]
-        1 string data = ""Bring the module here. Once the transfer of God-President Reagan is complete, the oil will flow and we will relinquish our claim on Valor.""
+        1 string data = ""モジュールをここに持って来てください。神なる大統領レーガンの転送が完了したら、石油は流れ、ヴァラーへの請求権を放棄します。""
        [23]
-        1 string data = ""What? Don't talk to me! I'm busy! This set-up is a complete mess!""
+        1 string data = ""何? 話しかけるな! 忙しいんだ! この設定は完全に滅茶苦茶だ!""
        [24]
-        1 string data = ""Valor! These nice folks would like to take you away once our Ronnie's transfer is complete. What do you think about that?""
+        1 string data = ""ヴァラー! この素敵な方々が、私たちのロニーの転送が完了したら君を連れて行きたいそうよ。どう思う?""
        [25]
-        1 string data = ""Why would your god need a 'transfer module'?""
+        1 string data = ""なぜあなた方の神が「転送モジュール」を必要とするのか?""
        [26]
-        1 string data = ""How do we know you'll keep your promise to turn over Valor?"
+        1 string data = ""ヴァラーを引き渡すという約束を守ると、どうやって信じられる?"
        [27]
-        1 string data = "[Attack] "We're not here to deal. We're here to <i>take</i>. Valor, you're coming with us!"\n"
+        1 string data = "[攻撃] "取引に来たのではない。<i>奪いに</i>来たんだ。ヴァラー、一緒に来てもらうぞ!"\n"
        [28]
-        1 string data = ""Very well, but you are testing my patience, Rangers."\nb1001_MotherNancyReliance_PreMissionQuestions=\n[Global: b1001_MotherNancyReliance_PreMissionQuestions]"
+        1 string data = ""よろしい、しかし私の忍耐を試していますよ、レンジャー諸君。"\nb1001_MotherNancyReliance_PreMissionQuestions=\n[Global: b1001_MotherNancyReliance_PreMissionQuestions]"
        [29]
-        1 string data = ""As you can see, Rangers, he's a talented and driven young man, fully dedicated to our cause. Nobody is being held here against their will.""
+        1 string data = ""ご覧の通り、レンジャー諸君、彼は才能があり意欲的な青年で、私たちの大義に完全に献身しています。ここに誰も意志に反して拘束されている者はいません。""
        [30]
-        1 string data = ""It's a deal. We'll get the module, you turn over Valor and resume your oil shipments to Colorado Springs.""
+        1 string data = ""取引成立だ。モジュールを入手する、そちらはヴァラーを引き渡しコロラドスプリングスへの石油輸送を再開する。""
        [31]
-        1 string data = "We're going to need some more information first."
+        1 string data = "まず、もう少し情報が必要だ。"
        [32]
-        1 string data = ""We need some time to think about this.""
+        1 string data = ""これについて考える時間が欲しい。""
        [33]
-        1 string data = "We had questions about the mission."
+        1 string data = "任務について質問がある。"
        [34]
-        1 string data = "We had questions about the Gippers."
+        1 string data = "ギッパーズについて質問がある。"
        [35]
-        1 string data = "We had questions about... Well, a few different things."
+        1 string data = "質問がある... まあ、いくつかね。"
        [36]
-        1 string data = ""What do you need us to do?""
+        1 string data = ""何をすればいい?""
        [37]
-        1 string data = ""Bring us the Cybernetic Transfer Module. Then we'll restore the flow of oil to Colorado Springs and release our claim on Valor Buchanan. Is any part of that unclear?""
+        1 string data = ""サイバネティック転送モジュールを持って来てください。そうすればコロラドスプリングスへの石油供給を再開し、ヴァラー・ブキャナンへの請求権を放棄します。何か不明な点はありますか?""
        [38]
-        1 string data = "Outsiders always do. Ask away."
+        1 string data = "外の人間はいつもそうだ。何でも聞きなさい。"
        [39]
-        1 string data = "Question 1"
+        1 string data = "質問1"
        [40]
-        1 string data = "Question 2"
+        1 string data = "質問2"
        [41]
-        1 string data = ""So why would your god need a 'transfer module'?""
+        1 string data = ""では、なぜあなた方の神が「転送モジュール」を必要とするのか?""
        [42]
         1 string data = "Answer"
        [43]
