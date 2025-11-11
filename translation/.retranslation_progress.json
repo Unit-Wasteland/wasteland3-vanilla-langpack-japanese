@@ -32,13 +32,13 @@
       "total_entries": 38554,
       "entries_from_backup": 21737,
       "entries_untranslated_discovered": 15185,
-      "entries_newly_translated": 32,
-      "entries_completed": 21769,
-      "entries_remaining": 16785,
-      "completion_rate": 56.5,
-      "current_line": 7652,
+      "entries_newly_translated": 215,
+      "entries_completed": 21952,
+      "entries_remaining": 16602,
+      "completion_rate": 56.9,
+      "current_line": 8670,
       "status": "in_progress",
-      "note": "Session DLC1-001: Started DLC1 translation. Discovered backup_broken file was incomplete (15,185 untranslated entries). Translated first batch (32 entries, lines 7590-7652) with 0 structure errors and 0 quality issues. Estimated 30+ sessions needed at 500 entries/session."
+      "note": "Session DLC1-002: Translated 183 entries (lines 7654-8670). Includes dialogue from d_SaleneCrow, d_steeltownguard, and d1001_advanceteam_scout sections. Strict validation passed with 0 structure errors and 0 quality issues."
     },
     "dlc2": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
@@ -55,11 +55,11 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "1bed834",
-  "last_commit_message": "DLC1 translation: First batch (32 entries lines 7590-7652) - strict validation passed",
-  "total_entries_completed": 191481,
+  "last_commit_hash": "pending",
+  "last_commit_message": "DLC1 translation: Batch 2 (183 entries lines 7654-8670) - strict validation passed",
+  "total_entries_completed": 191664,
   "total_entries": 232418,
-  "total_entries_untranslated": 40937,
-  "overall_completion_rate": 82.4,
-  "next_action": "Continue DLC1 translation from line 7654. Process untranslated entries sequentially in 150-200 line chunks. Target: 500 entries per session. Validate after each edit (structure + quality). Estimated 30+ sessions to complete DLC1."
+  "total_entries_untranslated": 40754,
+  "overall_completion_rate": 82.5,
+  "next_action": "Continue DLC1 translation from line 8671. Process d1001_angeladeth section next. Target: 500 entries per session. Validate after each edit (structure + quality). Estimated 28+ sessions remaining to complete DLC1."
 }
