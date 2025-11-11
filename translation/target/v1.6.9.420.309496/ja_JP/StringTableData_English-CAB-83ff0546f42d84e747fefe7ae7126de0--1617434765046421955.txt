@@ -408563,77 +408563,77 @@
        [1]
         1 string data = "Script Node 2"
        [2]
-        1 string data = "Step away from the terminal."
+        1 string data = "端末から離れる。"
        [3]
-        1 string data = ""Multiplayer terminal test.""
+        1 string data = ""マルチプレイヤー端末テスト。""
        [4]
-        1 string data = "Test Single-Player options. "
+        1 string data = "シングルプレイヤーオプションをテストする。"
        [5]
-        1 string data = "Testing, looping back. Nothing here yet."
+        1 string data = "テスト中、ループバック。まだ何もありません。"
        [6]
-        1 string data = "Test Multiplayer options. Should only show up on MP game."
+        1 string data = "マルチプレイヤーオプションをテストする。MPゲームでのみ表示されるはずです。"
        [7]
-        1 string data = "Oh hello, our first Multiplayer option!\n\n\nCurrent test global value:[Global: Mission_FunAndGames_b4001_RoundScore]"
+        1 string data = "おや、最初のマルチプレイヤーオプションだ!\n\n\n現在のテストグローバル値:[Global: Mission_FunAndGames_b4001_RoundScore]"
        [8]
-        1 string data = "Increment our test global."
+        1 string data = "テストグローバルを増やす。"
        [9]
-        1 string data = "Wait for the other player to make a choice.."
+        1 string data = "他のプレイヤーが選択するまで待つ。"
        [10]
-        1 string data = "Waiting...."
+        1 string data = "待機中...."
        [11]
-        1 string data = "If we have Minimap Pings or anything like that, here's where we use them."
+        1 string data = "ミニマップピングなどがあれば、ここで使用します。"
        [12]
-        1 string data = "2nd MP Terminal for testing. \r\nCurrent test global value:[Global: Mission_FunAndGames_b4001_RoundScore]"
+        1 string data = "テスト用の2番目のMP端末。\r\n現在のテストグローバル値:[Global: Mission_FunAndGames_b4001_RoundScore]"
        [13]
-        1 string data = "Test Multiplayer options. Should only show up on MP game. (Terminal 2)"
+        1 string data = "マルチプレイヤーオプションをテストする。MPゲームでのみ表示されるはずです。(端末2)"
        [14]
-        1 string data = "Test Single-Player options. "
+        1 string data = "シングルプレイヤーオプションをテストする。"
        [15]
-        1 string data = "Testing, looping back. Nothing here yet."
+        1 string data = "テスト中、ループバック。まだ何もありません。"
        [16]
-        1 string data = "Oh hello, our first Multiplayer option!\n\n\nCurrent test global value:[Global: Mission_FunAndGames_b4001_RoundScore]"
+        1 string data = "おや、最初のマルチプレイヤーオプションだ!\n\n\n現在のテストグローバル値:[Global: Mission_FunAndGames_b4001_RoundScore]"
        [17]
-        1 string data = "Decrement our test global."
+        1 string data = "テストグローバルを減らす。"
        [18]
-        1 string data = "Wait for the other player to make a choice.."
+        1 string data = "他のプレイヤーが選択するまで待つ。"
        [19]
-        1 string data = "Waiting...."
+        1 string data = "待機中...."
        [20]
-        1 string data = "Decremented! \r\nCurrent test global value:[Global: Mission_FunAndGames_b4001_RoundScore]"
+        1 string data = "減らしました!\r\n現在のテストグローバル値:[Global: Mission_FunAndGames_b4001_RoundScore]"
        [21]
         1 string data = "Script Node 22"
        [22]
         1 string data = "Script Node 23"
        [23]
-        1 string data = "Select one of the following hologram attacks."
+        1 string data = "以下のホログラム攻撃のいずれかを選択してください。"
        [24]
-        1 string data = ""Rock." (1)"
+        1 string data = ""グー"(1)"
        [25]
-        1 string data = ""Paper" (2)"
+        1 string data = ""パー"(2)"
        [26]
-        1 string data = ""Scissors" (3)"
+        1 string data = ""チョキ"(3)"
        [27]
-        1 string data = ""Talk it out" (4)"
+        1 string data = ""話し合う"(4)"
        [28]
-        1 string data = "Quit early."
+        1 string data = "早期に終了する。"
        [29]
-        1 string data = "Next round!\r\nb4001_Hologame_CurrentRound == \r\n[Global: b4001_Hologame_CurrentRound]"
+        1 string data = "次のラウンド!\r\nb4001_Hologame_CurrentRound == \r\n[Global: b4001_Hologame_CurrentRound]"
        [30]
         1 string data = "Script Node 31"
        [31]
-        1 string data = "We are still waiting for Player 2 to connect. Neither NPC nor Ranger has connected."
+        1 string data = "プレイヤー2の接続をまだ待っています。NPCもレンジャーも接続していません。"
        [32]
-        1 string data = "Ready, set... DEBUG INFO:\nb4001_HologameP2_InputLocked ==[Global: b4001_HologameP2_InputLocked]\nb4001_HologameP1_AttackType ==[Global: b4001_HologameP1_AttackType]\nb4001_HologameP2_AttackType ==[Global: b4001_HologameP2_AttackType]\nb4001_HologameP1_PcConnected == [Global: b4001_HologameP1_PcConnected]\nb4001_HologameP2_NpcConnected == [Global: b4001_HologameP2_NpcConnected]\nb4001_HologameP2_PcConnected ==\n[Global: b4001_HologameP2_PcConnected]\nb4001_Hologame_TalkAvailable == [Global: b4001_Hologame_TalkAvailable]"
+        1 string data = "用意、始め... DEBUG INFO:\nb4001_HologameP2_InputLocked ==[Global: b4001_HologameP2_InputLocked]\nb4001_HologameP1_AttackType ==[Global: b4001_HologameP1_AttackType]\nb4001_HologameP2_AttackType ==[Global: b4001_HologameP2_AttackType]\nb4001_HologameP1_PcConnected == [Global: b4001_HologameP1_PcConnected]\nb4001_HologameP2_NpcConnected == [Global: b4001_HologameP2_NpcConnected]\nb4001_HologameP2_PcConnected ==\n[Global: b4001_HologameP2_PcConnected]\nb4001_Hologame_TalkAvailable == [Global: b4001_Hologame_TalkAvailable]"
        [33]
-        1 string data = "Wait."
+        1 string data = "待つ。"
        [34]
-        1 string data = "Waiting for opponent selection..."
+        1 string data = "対戦相手の選択を待っています..."
        [35]
         1 string data = "Bank 36"
        [36]
         1 string data = "Script Node 37"
        [37]
-        1 string data = "Both player's attack values reset. \r\n\r\nCurrent score: [Global: b4001_HologameP1_CurrentPoints] \r\nnegative values are for P2. Positive are for P1.\r\n\r\nDEBUG INFO:\r\nb4001_HologameP2_InputLocked == b4001_HologameP2_InputLocked == [Global: b4001_HologameP2_InputLocked].  \r\nb4001_HologameP2_AttackType == b4001_HologameP2_AttackType == [Global: b4001_HologameP2_AttackType]\r\nb4001_HologameP1_AttackType == b4001_HologameP1_AttackType == [Global: b4001_HologameP1_AttackType]\r\nb4001_HologameP1_PcConnected == b4001_HologameP1_PcConnected ==[Global: b4001_HologameP1_PcConnected]\r\nb4001_HologameP2_PcConnected == b4001_HologameP2_PcConnected ==[Global: b4001_HologameP2_PcConnected]\r\nb4001_Hologame_TalkAvailable == b4001_Hologame_TalkAvailable == [Global: b4001_Hologame_TalkAvailable]\r\n"
+        1 string data = "両プレイヤーの攻撃値がリセットされました。\r\n\r\n現在のスコア: [Global: b4001_HologameP1_CurrentPoints] \r\n負の値はP2用。正の値はP1用。\r\n\r\nDEBUG INFO:\r\nb4001_HologameP2_InputLocked == b4001_HologameP2_InputLocked == [Global: b4001_HologameP2_InputLocked].  \r\nb4001_HologameP2_AttackType == b4001_HologameP2_AttackType == [Global: b4001_HologameP2_AttackType]\r\nb4001_HologameP1_AttackType == b4001_HologameP1_AttackType == [Global: b4001_HologameP1_AttackType]\r\nb4001_HologameP1_PcConnected == b4001_HologameP1_PcConnected ==[Global: b4001_HologameP1_PcConnected]\r\nb4001_HologameP2_PcConnected == b4001_HologameP2_PcConnected ==[Global: b4001_HologameP2_PcConnected]\r\nb4001_Hologame_TalkAvailable == b4001_Hologame_TalkAvailable == [Global: b4001_Hologame_TalkAvailable]\r\n"
        [38]
         1 string data = "Script Node 39"
        [39]
@@ -408641,11 +408641,11 @@
        [40]
         1 string data = "Script Node 41"
        [41]
-        1 string data = ""It's a tie!"\n\n\nRound #[Global: b4001_Hologame_CurrentRound] will be repeated."
+        1 string data = ""引き分けだ!"\n\n\nラウンド#[Global: b4001_Hologame_CurrentRound]が繰り返されます。"
        [42]
-        1 string data = "Round #[Global: b4001_Hologame_CurrentRound] is complete!\r\n\r\n"Player 1 wins this round." \r\n"Player 2 loses this round.""
+        1 string data = "ラウンド#[Global: b4001_Hologame_CurrentRound]が完了しました!\r\n\r\n"プレイヤー1がこのラウンドに勝利しました。" \r\n"プレイヤー2がこのラウンドに敗北しました。""
        [43]
-        1 string data = "Round #[Global: b4001_Hologame_CurrentRound] is complete!\r\n\r\n"Player 2 wins this round." \r\n"Player 1 loses this round.""
+        1 string data = "ラウンド#[Global: b4001_Hologame_CurrentRound]が完了しました!\r\n\r\n"プレイヤー2がこのラウンドに勝利しました。" \r\n"プレイヤー1がこのラウンドに敗北しました。""
        [44]
         1 string data = "Script Node 45"
        [45]
@@ -408657,37 +408657,37 @@
        [48]
         1 string data = "Script Node 49"
        [49]
-        1 string data = "Debug: Force a random number for player 2, then 'wait.'."
+        1 string data = "Debug: プレイヤー2のランダム数を強制し、その後「待つ」。"
        [50]
-        1 string data = "Play again (resets all variables and restarts)"
+        1 string data = "もう一度プレイする(すべての変数をリセットして再起動)"
        [51]
-        1 string data = "Step away (resets all variables)."
+        1 string data = "離れる(すべての変数をリセット)"
        [52]
-        1 string data = ""Simulation initiated.""
+        1 string data = ""シミュレーション開始。""
        [53]
-        1 string data = "One or both playes have quit. Bummer!"
+        1 string data = "片方または両方のプレイヤーが終了しました。残念!"
        [54]
         1 string data = "Script Node 55"
        [55]
-        1 string data = "Something impossible has happened! Or, more likely, the scripting has a bug. Please review TestConversation_MPTerminal.conversation and then re-test.\r\n\r\nThe conversation will now close. All Globals will be left at their prior values so you can more easily debug what went wrong.\r\n\r\nDEBUG INFO:\r\nb4001_HologameP2_InputLocked == [Global: b4001_HologameP2_InputLocked].  \r\nb4001_HologameP2_AttackType == [Global: b4001_HologameP2_AttackType]\r\nb4001_HologameP1_AttackType == [Global: b4001_HologameP1_AttackType]\r\nb4001_HologameP1_PcConnected ==[Global: b4001_HologameP1_PcConnected]\r\nb4001_HologameP2_PcConnected ==[Global: b4001_HologameP2_PcConnected]\r\nb4001_Hologame_TalkAvailable == [Global: b4001_Hologame_TalkAvailable]"
+        1 string data = "何か不可能なことが起こりました!あるいはより可能性が高いのは、スクリプトにバグがあることです。TestConversation_MPTerminal.conversationを確認してから再テストしてください。\r\n\r\n会話が閉じられます。すべてのグローバル変数は以前の値のまま残されるので、何が問題だったのかをより簡単にデバッグできます。\r\n\r\nDEBUG INFO:\r\nb4001_HologameP2_InputLocked == [Global: b4001_HologameP2_InputLocked].  \r\nb4001_HologameP2_AttackType == [Global: b4001_HologameP2_AttackType]\r\nb4001_HologameP1_AttackType == [Global: b4001_HologameP1_AttackType]\r\nb4001_HologameP1_PcConnected ==[Global: b4001_HologameP1_PcConnected]\r\nb4001_HologameP2_PcConnected ==[Global: b4001_HologameP2_PcConnected]\r\nb4001_Hologame_TalkAvailable == [Global: b4001_Hologame_TalkAvailable]"
        [56]
-        1 string data = "And the game is concluded!\r\n...But something has gone wrong. Current globals:\r\n\r\nRound # == \r\n[Global: b4001_Hologame_CurrentRound]\r\n\r\nScore == [Global: b4001_HologameP1_CurrentPoints]\r\n\r\n(at 3 or more, P1 wins. at 3 or less, P2 wins)\r\n\r\nPlayer 1 last attack  == [Global: b4001_HologameP1_AttackType]\r\nPlayer 2 last attack  == [Global: b4001_HologameP2_AttackType]\r\nQuit value P1 == [Global: b4001_HologameP1_PcQuit]\r\nQuit value P2 == [Global: b4001_HologameP2_PcQuit]\r\n"
+        1 string data = "そしてゲームは終了しました!\r\n...しかし何かがうまくいっていません。現在のグローバル変数:\r\n\r\nラウンド# == \r\n[Global: b4001_Hologame_CurrentRound]\r\n\r\nスコア == [Global: b4001_HologameP1_CurrentPoints]\r\n\r\n(3以上でP1の勝利。-3以下でP2の勝利)\r\n\r\nプレイヤー1の最後の攻撃 == [Global: b4001_HologameP1_AttackType]\r\nプレイヤー2の最後の攻撃 == [Global: b4001_HologameP2_AttackType]\r\n終了値P1 == [Global: b4001_HologameP1_PcQuit]\r\n終了値P2 == [Global: b4001_HologameP2_PcQuit]\r\n"
        [57]
         1 string data = "Bank 58"
        [58]
         1 string data = "Script Node 59"
        [59]
-        1 string data = "Tell your other Ranger Squad to get going."
+        1 string data = "他のレンジャー部隊に出発を指示する。"
        [60]
-        1 string data = ""Player 1 (the human) wins!""
+        1 string data = ""プレイヤー1(人間)の勝利!""
        [61]
-        1 string data = ""Player 2 (the robot) wins!""
+        1 string data = ""プレイヤー2(ロボット)の勝利!""
        [62]
-        1 string data = ""The game is a tie!""
+        1 string data = ""ゲームは引き分けだ!""
        [63]
-        1 string data = "DEBUG ONLY: Step away without resetting variables."
+        1 string data = "DEBUG ONLY: 変数をリセットせずに離れる。"
        [64]
-        1 string data = "Current globals:\r\n\r\nRound # == \r\n[Global: b4001_Hologame_CurrentRound]\r\n\r\nScore == [Global: b4001_HologameP1_CurrentPoints]\r\n\r\n(at 3 or more, P1 wins. at 3 or less, P2 wins)\r\n\r\nPlayer 1 last attack  == [Global: b4001_HologameP1_AttackType]\r\nPlayer 2 last attack  == [Global: b4001_HologameP2_AttackType]\r\nQuit value P1 == [Global: b4001_HologameP1_PcQuit]\r\nQuit value P2 == [Global: b4001_HologameP2_PcQuit]"
+        1 string data = "現在のグローバル変数:\r\n\r\nラウンド# == \r\n[Global: b4001_Hologame_CurrentRound]\r\n\r\nスコア == [Global: b4001_HologameP1_CurrentPoints]\r\n\r\n(3以上でP1の勝利。-3以下でP2の勝利)\r\n\r\nプレイヤー1の最後の攻撃 == [Global: b4001_HologameP1_AttackType]\r\nプレイヤー2の最後の攻撃 == [Global: b4001_HologameP2_AttackType]\r\n終了値P1 == [Global: b4001_HologameP1_PcQuit]\r\n終了値P2 == [Global: b4001_HologameP2_PcQuit]"
        [65]
         1 string data = "Script Node 66"
        [66]
@@ -408703,35 +408703,35 @@
        [71]
         1 string data = "Script Node 72"
        [72]
-        1 string data = "Debug: Restore the "TALK" option for Pico, so it always plays the TALK option."
+        1 string data = "Debug: ピコの"話す"オプションを復元し、常に話すオプションを再生するようにします。"
        [73]
-        1 string data = "Debug: Remove the "TALK" option for Pico, so this is an actual contest."
+        1 string data = "Debug: ピコの"話す"オプションを削除し、これを実際の勝負にします。"
        [74]
         1 string data = "Script Node 75"
        [75]
         1 string data = "Script Node 76"
        [76]
-        1 string data = "We are still waiting for Player 2 to make their move.\n"
+        1 string data = "プレイヤー2が動くのをまだ待っています。\n"
        [77]
-        1 string data = ""Did you want to help me test my game?""
+        1 string data = ""私のゲームのテストを手伝ってくれる?""
        [78]
-        1 string data = ""You got it.""
+        1 string data = ""いいよ。""
        [79]
-        1 string data = ""Actually, no.""
+        1 string data = ""いや、やめておく。""
        [80]
-        1 string data = ""<i>Thank</i> you!"\n\n\nThe robot's blades wiggle in excitement."
+        1 string data = ""<i>ありがとう</i>!"\n\n\nロボットの刃が興奮して揺れる。"
        [81]
-        1 string data = ""Oh. Okay. Sorry.""
+        1 string data = ""ああ、分かった。ごめん。""
        [82]
         1 string data = "::sighs::"
        [83]
-        1 string data = ""My name's Pico, by the way. I'm setting up this simulation to help the commune defend itself.""
+        1 string data = ""僕の名前はピコ。コミューンが自衛できるように、このシミュレーションをセットアップしているんだ。""
        [84]
         1 string data = "Script Node 85"
        [85]
         1 string data = "Script Node 86"
        [86]
-        1 string data = "Play against an automated opponent."
+        1 string data = "自動化された対戦相手と対戦する。"
        [87]
         1 string data = "Script Node 88"
        [88]
