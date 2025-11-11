@@ -406523,13 +406523,13 @@
        [47]
         1 string data = ""へぇ。ヴァーガスはあなたを気に入ったでしょう。好きにしなさい、兵士。""
        [48]
-        1 string data = ""Sure, soldier. Combat training. Long-range or short-range?""
+        1 string data = ""了解、兵士。戦闘訓練だ。長距離か短距離か?""
        [49]
         1 string data = """"
        [50]
-        1 string data = ""We're the young rangers!""
+        1 string data = ""俺たちは若いレンジャーだ!""
        [51]
-        1 string data = ""We're just a couple of married scientists. Who kicked your ass.""
+        1 string data = ""私たちはただの既婚科学者よ。あなたをボコボコにしたけどね。""
        [52]
         1 string data = "[Choose from pre-created characters]"
        [53]
@@ -406561,9 +406561,9 @@
       1 Array Array (2 items)
        0 int size = 2
        [0]
-        1 string data = "Extra! Extra!"
+        1 string data = "号外! 号外!"
        [1]
-        1 string data = "Hurry, hurry! Step right up!"
+        1 string data = "急いで、急いで! さあ近づいて!"
    [1387]
     0 StringTable data
      1 string Filename = "testconversation_barks"
@@ -406593,13 +406593,13 @@
       1 Array Array (4 items)
        0 int size = 4
        [0]
-        1 string data = "I'm saying something in a conversation!"
+        1 string data = "会話で何か言っている!"
        [1]
-        1 string data = "This is a bark after the conversation."
+        1 string data = "これは会話後のバークだ。"
        [2]
         1 string data = ""
        [3]
-        1 string data = "This is an intro bark."
+        1 string data = "これはイントロのバークだ。"
    [1388]
     0 StringTable data
      1 string Filename = "testconversation_bartertest"
@@ -406633,15 +406633,15 @@
       1 Array Array (5 items)
        0 int size = 5
        [0]
-        1 string data = "Testing top shelf items!\n\n\n"
+        1 string data = "最高級品のテスト中!\n\n\n"
        [1]
-        1 string data = "Unlock top shelf"
+        1 string data = "最高級品のロックを解除"
        [2]
-        1 string data = "Open merchant dialogue\n"
+        1 string data = "商人の対話を開く\n"
        [3]
-        1 string data = "Come on. Is this all you have available?"
+        1 string data = "なあ。これが全部なのか?"
        [4]
-        1 string data = "Alright, fine, I can be persuaded to give up some of my choice wares.\n"
+        1 string data = "分かったよ、じゃあ、俺の選りすぐりの商品を手放すのを説得してくれ。\n"
    [1389]
     0 StringTable data
      1 string Filename = "testconversation_cnpcadd_buddy"
@@ -406675,15 +406675,15 @@
       1 Array Array (5 items)
        0 int size = 5
        [0]
-        1 string data = "Add Buddy to party?"
+        1 string data = "バディをパーティに追加?"
        [1]
-        1 string data = " Yes"
+        1 string data = " はい"
        [2]
-        1 string data = " Ok"
+        1 string data = " OK"
        [3]
         1 string data = "Script Node 5"
        [4]
-        1 string data = " No"
+        1 string data = " いいえ"
    [1390]
     0 StringTable data
      1 string Filename = "testconversation_cnpcadd_cordite"
@@ -406717,15 +406717,15 @@
       1 Array Array (5 items)
        0 int size = 5
        [0]
-        1 string data = "Add Cordite to party?"
+        1 string data = "コーダイトをパーティに追加?"
        [1]
-        1 string data = " Yes"
+        1 string data = " はい"
        [2]
-        1 string data = " Ok"
+        1 string data = " OK"
        [3]
         1 string data = "Script Node 5"
        [4]
-        1 string data = " No"
+        1 string data = " いいえ"
    [1391]
     0 StringTable data
      1 string Filename = "testconversation_cnpcadd_fader"
@@ -406759,15 +406759,15 @@
       1 Array Array (5 items)
        0 int size = 5
        [0]
-        1 string data = "Add Fader to party?"
+        1 string data = "フェーダーをパーティに追加?"
        [1]
-        1 string data = " Yes"
+        1 string data = " はい"
        [2]
-        1 string data = " Ok"
+        1 string data = " OK"
        [3]
         1 string data = "Script Node 5"
        [4]
-        1 string data = " No"
+        1 string data = " いいえ"
    [1392]
     0 StringTable data
      1 string Filename = "testconversation_cnpcadd_fishlips"
@@ -406801,15 +406801,15 @@
       1 Array Array (5 items)
        0 int size = 5
        [0]
-        1 string data = "Add Fishlips to party?"
+        1 string data = "フィッシュリップスをパーティに追加?"
        [1]
-        1 string data = " Yes"
+        1 string data = " はい"
        [2]
-        1 string data = " Ok"
+        1 string data = " OK"
        [3]
         1 string data = "Script Node 5"
        [4]
-        1 string data = " No"
+        1 string data = " いいえ"
    [1393]
     0 StringTable data
      1 string Filename = "testconversation_cnpcadd_kwon"
@@ -406843,15 +406843,15 @@
       1 Array Array (5 items)
        0 int size = 5
        [0]
-        1 string data = "Add Kwon to party?"
+        1 string data = "クォンをパーティに追加?"
        [1]
-        1 string data = " Yes"
+        1 string data = " はい"
        [2]
-        1 string data = " Ok"
+        1 string data = " OK"
        [3]
         1 string data = "Script Node 5"
        [4]
-        1 string data = " No"
+        1 string data = " いいえ"
    [1394]
     0 StringTable data
      1 string Filename = "testconversation_cnpcadd_lucia"
@@ -406885,15 +406885,15 @@
       1 Array Array (5 items)
        0 int size = 5
        [0]
-        1 string data = "Add Lucia to party?"
+        1 string data = "ルシアをパーティに追加?"
        [1]
-        1 string data = " Yes"
+        1 string data = " はい"
        [2]
-        1 string data = " No"
+        1 string data = " いいえ"
        [3]
         1 string data = "Script Node 5"
        [4]
-        1 string data = " Ok"
+        1 string data = " OK"
    [1395]
     0 StringTable data
      1 string Filename = "testconversation_cnpcadd_vic"
@@ -406927,15 +406927,15 @@
       1 Array Array (5 items)
        0 int size = 5
        [0]
-        1 string data = "Add Vic to party?"
+        1 string data = "ヴィックをパーティに追加?"
        [1]
-        1 string data = " Yes"
+        1 string data = " はい"
        [2]
-        1 string data = " Ok"
+        1 string data = " OK"
        [3]
         1 string data = "Script Node 5"
        [4]
-        1 string data = " No"
+        1 string data = " いいえ"
    [1396]
     0 StringTable data
      1 string Filename = "testconversation_debugexample"
@@ -406981,21 +406981,21 @@
       1 Array Array (8 items)
        0 int size = 8
        [0]
-        1 string data = " Harlick. Leader of the Caretakers. Quest NPC."
+        1 string data = " ハーリック。管理者たちのリーダー。クエストNPC。"
        [1]
-        1 string data = "See debug options"
+        1 string data = "デバッグオプションを見る"
        [2]
-        1 string data = "Farewell."
+        1 string data = "さらば。"
        [3]
-        1 string data = " Choose a debug option."
+        1 string data = " デバッグオプションを選択。"
        [4]
-        1 string data = " Set a global variable."
+        1 string data = " グローバル変数を設定。"
        [5]
-        1 string data = "I'm setting a global."
+        1 string data = "グローバルを設定している。"
        [6]
         1 string data = "Script Node 8"
        [7]
-        1 string data = ""This works!""
+        1 string data = ""これは動作する!""
    [1397]
     0 StringTable data
      1 string Filename = "testconversation_denverrevisions"
@@ -407033,9 +407033,9 @@
       1 Array Array (6 items)
        0 int size = 6
        [0]
-        1 string data = "You must have some questions."
+        1 string data = "何か質問があるはずだ。"
        [1]
-        1 string data = "Goodbye."
+        1 string data = "さようなら。"
        [2]
         1 string data = "Script Node 3"
        [3]
@@ -407043,7 +407043,7 @@
        [4]
         1 string data = "Script Node 5"
        [5]
-        1 string data = "First time entry.\n"
+        1 string data = "初回エントリ。\n"
    [1398]
     0 StringTable data
      1 string Filename = "testconversation_doctor"
@@ -407097,25 +407097,25 @@
       1 Array Array (10 items)
        0 int size = 10
        [0]
-        1 string data = "Main question node"
+        1 string data = "メイン質問ノード"
        [1]
-        1 string data = "Can I get some healing?"
+        1 string data = "治療してもらえるか?"
        [2]
-        1 string data = "Leave"
+        1 string data = "去る"
        [3]
-        1 string data = "Looks like everyone is at full health, no need for healing."
+        1 string data = "全員が完全に健康そうだな。治療は不要だ。"
        [4]
-        1 string data = "Sure, for a reasonable fee."
+        1 string data = "もちろん、妥当な料金でね。"
        [5]
-        1 string data = "We don't have enough money"
+        1 string data = "十分な金がない"
        [6]
-        1 string data = "[[Global: test_Money_Doctor_TestDoc_const] Dollars] We have enough money, heal us up"
+        1 string data = "[[Global: test_Money_Doctor_TestDoc_const] ドル] 十分な金がある、治療してくれ"
        [7]
-        1 string data = "On second thought, nevermind."
+        1 string data = "よく考えたら、やっぱりいいや。"
        [8]
-        1 string data = "Maybe later."
+        1 string data = "また後で。"
        [9]
-        1 string data = "Great, here's some healing."
+        1 string data = "素晴らしい、治療だ。"
    [1399]
     0 StringTable data
      1 string Filename = "testconversation_fadeinandout"
@@ -407189,35 +407189,35 @@
       1 Array Array (15 items)
        0 int size = 15
        [0]
-        1 string data = "FADE IN/OUT DEBUG"
+        1 string data = "フェードイン/アウト デバッグ"
        [1]
-        1 string data = "Test Fade In/Out as Conversation Nodes. (DEBUG)"
+        1 string data = "会話ノードとしてフェードイン/アウトをテスト。(デバッグ)"
        [2]
-        1 string data = "Test Fade In Out as Barks. (DEBUG)"
+        1 string data = "バークとしてフェードイン/アウトをテスト。(デバッグ)"
        [3]
-        1 string data = "Leave. (DEBUG)"
+        1 string data = "去る。(デバッグ)"
        [4]
-        1 string data = "Fade out and in in various ways. If you progression break, keep hititng SPACEBAR."
+        1 string data = "様々な方法でフェードアウトとイン。進行が止まったら、スペースバーを押し続けろ。"
        [5]
-        1 string data = "Fade Out on OnExit, then in OnEnter on next node. (DEBUG)"
+        1 string data = "OnExitでフェードアウト、次のノードのOnEnterでイン。(デバッグ)"
        [6]
-        1 string data = "Fade Out on OnEnter, then in OnEnter on next node. (DEBUG)"
+        1 string data = "OnEnterでフェードアウト、次のノードのOnEnterでイン。(デバッグ)"
        [7]
-        1 string data = "Fade Out on OnExit, then OnExit on next node. (DEBUG)"
+        1 string data = "OnExitでフェードアウト、次のノードのOnExitでアウト。(デバッグ)"
        [8]
-        1 string data = "FADING OUT on ON ENTER (DEBUG)"
+        1 string data = "ON ENTERでフェードアウト中 (デバッグ)"
        [9]
-        1 string data = "NO FADE DURING THIS BARK. (DEBUG)"
+        1 string data = "このバーク中はフェードなし。(デバッグ)"
        [10]
-        1 string data = "FADING IN on ON ENTER (DEBUG)"
+        1 string data = "ON ENTERでフェードイン中 (デバッグ)"
        [11]
-        1 string data = "FINAL BARK, NO FADE. (DEBUG)"
+        1 string data = "最終バーク、フェードなし。(デバッグ)"
        [12]
-        1 string data = "Fading in on OnEnter. (DEBUG)"
+        1 string data = "OnEnterでフェードイン中。(デバッグ)"
        [13]
-        1 string data = "Fade Out on OnEnter, then OnExit on next node. (DEBUG)"
+        1 string data = "OnEnterでフェードアウト、次のノードのOnExitでアウト。(デバッグ)"
        [14]
-        1 string data = "Fading in on OnExit. (DEBUG)"
+        1 string data = "OnExitでフェードイン中。(デバッグ)"
    [1400]
     0 StringTable data
      1 string Filename = "testconversation_farm_npc"
@@ -407251,15 +407251,15 @@
       1 Array Array (5 items)
        0 int size = 5
        [0]
-        1 string data = ""Wanna fight?""
+        1 string data = ""戦いたいか?""
        [1]
-        1 string data = ""Yes""
+        1 string data = ""はい""
        [2]
-        1 string data = ""No""
+        1 string data = ""いいえ""
        [3]
-        1 string data = ""You asked for it!""
+        1 string data = ""自分から言い出したんだぞ!""
        [4]
-        1 string data = ""Later... coward.""
+        1 string data = ""またな...臆病者。""
    [1401]
     0 StringTable data
      1 string Filename = "testconversation_gavin1"
