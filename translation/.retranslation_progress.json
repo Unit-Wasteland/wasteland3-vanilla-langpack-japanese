@@ -31,13 +31,13 @@
       "total_lines": 120559,
       "total_entries": 38554,
       "entries_from_backup": 21737,
-      "entries_newly_translated": 1628,
-      "entries_completed": 23365,
-      "entries_remaining": 15189,
-      "completion_rate": 60.6,
-      "current_line": 19360,
+      "entries_newly_translated": 1878,
+      "entries_completed": 23615,
+      "entries_remaining": 14939,
+      "completion_rate": 61.3,
+      "current_line": 20610,
       "status": "in_progress",
-      "note": "Session DLC1-012: Translated 124 entries (lines 18350-19360). Completed d1001_drbreeler (completion), d1001_follower_bearsuitvinters (bear suit person - full section). Started d1001_george_fakemichael (Michael impostor storyline). Next: d1001_george_fakemichael continuation from line 19360. Dual validation passed."
+      "note": "Session DLC1-013: Translated 250 entries (lines 19360-20610). Completed d1001_george_fakemichael (Michael impostor full story), d1001_ghostgang_squadleader (Ghost gang guard dialogue), d1001_ghostgaragedoor (radio frequency puzzle), d1001_ghostleader_maingates (Ghost gang leader at gates), d1001_grille (Grille character - nuclear battery salvager). Next: d1001_halliesmom from line 20610. Dual validation passed."
     },
     "dlc2": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
@@ -55,10 +55,10 @@
     }
   },
   "last_commit_hash": "0067e47",
-  "last_commit_message": "DLC1 translation: Session DLC1-012 (124 entries lines 18350-19360) - strict validation passed",
-  "total_entries_completed": 193077,
+  "last_commit_message": "DLC1 translation: Session DLC1-013 (250 entries lines 19360-20610) - strict validation passed",
+  "total_entries_completed": 193327,
   "total_entries": 232418,
-  "total_entries_untranslated": 39341,
-  "overall_completion_rate": 83.1,
-  "next_action": "Continue DLC1 translation from line 19360 (d1001_george_fakemichael continuation - Michael impostor quest). Process sequentially with strict workflow validation. Estimated 15+ sessions remaining to complete DLC1."
+  "total_entries_untranslated": 39091,
+  "overall_completion_rate": 83.2,
+  "next_action": "Continue DLC1 translation from line 20610 (d1001_halliesmom - Hallie's mother dialogue). Process sequentially with strict workflow validation. Estimated 14+ sessions remaining to complete DLC1."
 }
