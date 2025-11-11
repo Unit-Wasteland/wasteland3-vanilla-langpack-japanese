@@ -31,13 +31,13 @@
       "total_lines": 120559,
       "total_entries": 38554,
       "entries_from_backup": 21737,
-      "entries_newly_translated": 8209,
-      "entries_completed": 30135,
-      "entries_remaining": 8419,
-      "completion_rate": 78.2,
-      "current_line": 72463,
+      "entries_newly_translated": 8382,
+      "entries_completed": 30308,
+      "entries_remaining": 8246,
+      "completion_rate": 78.6,
+      "current_line": 73525,
       "status": "in_progress",
-      "note": "Session DLC1-062: Translated 58 entries (assembly line and factory systems: d2101_int_consoles_assemblyline 3, d2101_int_console_chassis_acquire 2, d2101_int_console_chassis_mount 9, d2101_int_console_engine1 3, d2101_int_console_engine2 3, d2101_int_console_engineempty 1, d2101_int_console_engine_mount 8, d2101_int_console_laser_mount 10, d2101_int_corpse_ellen 3, d2101_int_engine1 8, d2101_int_engine2 2, d2101_int_laser 8, d2101_int_mountchassis 1, lines 71894-72462). Both validations passed with 0 errors and 0 issues. Next: Continue from line 72463 (d2101_ludlow section - 133 entries)."
+      "note": "Session DLC1-063: Translated 173 entries (Ludlow factory confrontation and Luna Moon dialogue: d2101_ludlow 133, d2101_lunamoon 40, lines 73007-73524). Fixed quote format issues in [Arrest]/[Attack] lines and glossary compliance (Rangers terminology). Both validations passed with 0 errors and 0 issues. Next: Continue from line 73525 (d2101_mabelle section - 35 entries)."
     },
     "dlc2": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
@@ -56,9 +56,9 @@
   },
   "last_commit_hash": "326ea5a",
   "last_commit_message": "DLC1 translation: Session DLC1-062 (58 entries, lines 71894-72462)",
-  "total_entries_completed": 199847,
+  "total_entries_completed": 200020,
   "total_entries": 232418,
-  "total_entries_untranslated": 32571,
-  "overall_completion_rate": 86.0,
-  "next_action": "Continue DLC1 translation from line 72463. Next section: d2101_ludlow (133 entries - large dialogue section). Sequential processing with strict structure protection."
+  "total_entries_untranslated": 32398,
+  "overall_completion_rate": 86.1,
+  "next_action": "Continue DLC1 translation from line 73525. Next section: d2101_mabelle (35 entries). Sequential processing with strict structure protection."
 }
