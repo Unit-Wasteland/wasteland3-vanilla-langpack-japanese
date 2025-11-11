@@ -31,13 +31,13 @@
       "total_lines": 120559,
       "total_entries": 38554,
       "entries_from_backup": 21737,
-      "entries_newly_translated": 8582,
-      "entries_completed": 30508,
-      "entries_remaining": 8046,
-      "completion_rate": 79.1,
-      "current_line": 74857,
+      "entries_newly_translated": 8725,
+      "entries_completed": 30651,
+      "entries_remaining": 7903,
+      "completion_rate": 79.5,
+      "current_line": 75769,
       "status": "in_progress",
-      "note": "Session DLC1-065: Translated 121 entries (Worker rebellion sequences: d2101_reg 59, d2101_reg_workers_barks 10, d2101_rody 21, d2101_vendingmachine01 3, d2101_warbot 2, d2101_worker_crow 26 entries, lines 74059-74856). Unified translation decision logic applied. Structure and quality validations passed with 0 errors. Next: Continue from line 74857 (d2101_worker_crow_robot section)."
+      "note": "Session DLC1-066: Translated 143 entries (Worker rebellion aftermath and computation engine discovery: d2101_worker_crow_robot 5, d2101_worker_engines 13, d2101_worker_laser 41, d2101_worker_tunnel 3, d2101_workingstiff_keith 70, d2201_companionbarks 8 entries, lines 74857-75768). Unified translation decision logic applied. Structure and quality validations passed with 0 errors. Next: Continue from line 75769 (d2201_computationengine section, 135 entries)."
     },
     "dlc2": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
@@ -55,10 +55,10 @@
     }
   },
   "last_commit_hash": "pending",
-  "last_commit_message": "DLC1 translation: Session DLC1-065 (121 entries, lines 74059-74856)",
-  "total_entries_completed": 200220,
+  "last_commit_message": "DLC1 translation: Session DLC1-066 (143 entries, lines 74857-75768)",
+  "total_entries_completed": 200363,
   "total_entries": 232418,
-  "total_entries_untranslated": 32198,
-  "overall_completion_rate": 86.1,
-  "next_action": "Continue DLC1 translation from line 74857. Next section: d2101_worker_crow_robot (5 entries). Sequential processing with strict structure protection."
+  "total_entries_untranslated": 32055,
+  "overall_completion_rate": 86.2,
+  "next_action": "Continue DLC1 translation from line 75769. Next section: d2201_computationengine (135 entries). Sequential processing with strict structure protection."
 }
