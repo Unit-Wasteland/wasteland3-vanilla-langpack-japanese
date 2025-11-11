@@ -16,16 +16,16 @@
       "total_lines": 530425,
       "total_string_data_lines": 131783,
       "non_empty_entries": 42499,
-      "entries_translated": 28597,
-      "entries_partially_translated": 574,
-      "entries_untranslated": 11682,
-      "entries_other": 1646,
-      "total_issues": 12256,
+      "entries_translated": 28622,
+      "entries_partially_translated": 575,
+      "entries_untranslated": 11658,
+      "entries_other": 1644,
+      "total_issues": 12233,
       "completion_rate": 67.3,
-      "current_line": 20164,
+      "current_line": 27932,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session work: Translated 6 entries (lines 1510, 19598, 19600, 20152, 20160, 20162, 20164). Applied unified translation decision logic. All validations passed (structure + quality + action markers). Issues remaining: 12,256 entries (11,682 untranslated + 574 partially translated). Next: Continue from untranslated entry list."
+      "note": "Session work: Translated 25 entries (line 24374, lines 26152-26198). Applied unified translation decision logic. All validations passed with 0 errors. Issues reduced from 12,256 to 12,233 entries. Remaining: 11,658 untranslated + 575 partially translated. Next: Continue with line 27816 onwards."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -60,15 +60,15 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "530b6b2",
-  "last_commit_message": "Base game translation: 6 entries translated in session",
+  "last_commit_hash": "e1e1560",
+  "last_commit_message": "Base game translation: 25 entries translated in session",
   "validation_date": "2025-11-11",
   "validation_script": "validate_completion.py v1.0",
   "work_priority": "BASE_GAME_FIRST",
-  "total_entries_completed": 36183,
+  "total_entries_completed": 36208,
   "total_entries": 78361,
-  "total_entries_untranslated": 39268,
-  "total_issues": 15744,
+  "total_entries_untranslated": 39243,
+  "total_issues": 15721,
   "overall_completion_rate": 46.2,
-  "next_action": "RESUME base_game translation from untranslated entries. Priority: Complete all 12,256 base_game issues before any DLC work. DLC1 work PAUSED until base_game verified 100% complete."
+  "next_action": "RESUME base_game translation from line 27816 onwards. Priority: Complete all 12,233 base_game issues before any DLC work. DLC1 work PAUSED until base_game verified 100% complete."
 }
