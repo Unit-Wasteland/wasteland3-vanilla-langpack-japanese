@@ -15,17 +15,17 @@
       "backup_file": "translation/backup_broken/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
       "total_lines": 530425,
       "total_entries": 169712,
-      "empty_entries": 88506,
-      "non_empty_entries": 81206,
+      "empty_entries": 88512,
+      "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 38153,
-      "entries_untranslated_real": 7138,
-      "entries_kept_english": 43085,
+      "entries_translated": 38166,
+      "entries_untranslated_real": 7125,
+      "entries_kept_english": 43034,
       "completion_rate": 87.8,
       "current_line": 116690,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 261: Systematic scattered entry processing. Translated 32 entries across multiple sections (lines 113876-116690): Doc Parker and Frank Pappas dialogues. Applied unified decision logic: default to translate unless in do_not_translate list. All validations passed (structure: 0 errors, action markers: 0, quality: 0 issues in translated ranges). Progress: 38,153/43,479 translatable entries (87.9%). Remaining: 7,138 scattered entries. Quality validation detected 25 untranslated entries in range 114514-114774 for next session."
+      "note": "Session 261: Systematic scattered entry processing. Translated 32 entries across multiple sections (lines 113876-116690): Doc Parker and Frank Pappas dialogues. Applied unified decision logic: default to translate unless in do_not_translate list. All validations passed (structure: 0 errors, action markers: 0, quality: 0 issues in translated ranges). Progress updated to reflect actual file state: 38,166 Japanese entries (verified 2025-11-12). Remaining: 7,125 scattered entries. Quality validation detected 25 untranslated entries in range 114514-114774 for next session."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -33,17 +33,15 @@
       "target_file": "translation/target/v1.6.9.420.309496/ja_JP/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
       "backup_file": "translation/backup_broken/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
       "total_lines": 120559,
-      "total_string_data_lines": 32483,
-      "non_empty_entries": 11710,
-      "entries_translated": 7586,
-      "entries_partially_translated": 54,
-      "entries_untranslated": 3434,
-      "entries_other": 636,
-      "total_issues": 3488,
-      "completion_rate": 64.8,
+      "total_string_data_lines": 38554,
+      "empty_entries": 20293,
+      "non_empty_entries": 18261,
+      "entries_translated": 9385,
+      "entries_untranslated": 8876,
+      "completion_rate": 51.4,
       "current_line": 75769,
       "status": "PAUSED_FOR_BASE_GAME",
-      "note": "CRITICAL: Progress tracking failure discovered 2025-11-11. File was incorrectly reported as 79.5% complete, but validation reveals actual completion is 64.8%. Total issues: 3,488 entries. DLC1 work PAUSED per user directive - base_game takes priority. Will resume only after base_game reaches verified 100% completion."
+      "note": "CRITICAL: Progress tracking failure corrected 2025-11-12. Actual state: 9,385 Japanese entries, 8,876 English entries remaining. DLC1 work PAUSED per user directive - base_game takes priority. Will resume only after base_game reaches verified 100% completion."
     },
     "dlc2": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
@@ -60,8 +58,8 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "99f7ed2",
-  "last_commit_message": "Base game translation: 32 entries (Session 261 - scattered entry processing)",
+  "last_commit_hash": "8582658",
+  "last_commit_message": "Update progress: base_game 87.8% (38,153 translated, 7,138 remaining)",
   "validation_date": "2025-11-12",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
@@ -71,9 +69,9 @@
     "scattered_untranslated": "Remaining ~20,000 untranslated entries are scattered throughout file, many are action markers or technical content that should remain in English.",
     "validation_status": "Structure: 0 errors, Quality: 0 issues across all tested ranges"
   },
-  "total_entries_completed": 45689,
-  "total_entries": 94268,
-  "total_entries_untranslated": 31037,
-  "overall_completion_rate": 48.5,
+  "total_entries_completed": 47551,
+  "total_entries": 232418,
+  "total_entries_untranslated": 184867,
+  "overall_completion_rate": 20.5,
   "next_action": "Session 261 completed: 32 entries translated with full validation. Next session: Continue processing scattered untranslated entries starting from range 114514-114774 (25 entries detected). Use unified decision logic (default to translate). Target: 50-100 entries per session. Estimated 70-140 sessions remaining to complete base game. DLC1 work remains PAUSED until base_game 100% complete."
 }
