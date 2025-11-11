@@ -31,13 +31,13 @@
       "total_lines": 120559,
       "total_entries": 38554,
       "entries_from_backup": 21737,
-      "entries_newly_translated": 6273,
-      "entries_completed": 28199,
-      "entries_remaining": 10517,
-      "completion_rate": 73.1,
-      "current_line": 58938,
+      "entries_newly_translated": 6426,
+      "entries_completed": 28352,
+      "entries_remaining": 10202,
+      "completion_rate": 73.5,
+      "current_line": 59905,
       "status": "in_progress",
-      "note": "Session DLC1-048: Translated 165 entries (lines 57913-58938). Sections completed: d2001_marcia (57 entries), d2001_nursefirenze (70 entries), d2001_nurse_asstrahmen (38 entries). Strict validation passed. Next: Continue from line 58939 (d2001_oluwademilade section)."
+      "note": "Session DLC1-049: Translated 153 entries (lines 59456-59904). Sections: d2001_oluwademilade (126), d2001_recruit_brainhelmet (13), d2001_recruit_brainhelmet_spectator (7), d2001_recruit_breathregulation (7). Strict validation passed. Next: Continue from line 59905 (d2001_recruit_equipment section)."
     },
     "dlc2": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
@@ -56,9 +56,9 @@
   },
   "last_commit_hash": "58a560d",
   "last_commit_message": "DLC1 translation: Session DLC1-048 (165 entries, lines 57913-58938)",
-  "total_entries_completed": 197911,
+  "total_entries_completed": 198064,
   "total_entries": 232418,
-  "total_entries_untranslated": 34669,
-  "overall_completion_rate": 85.1,
-  "next_action": "Continue DLC1 translation from line 58939. Next section: d2001_oluwademilade (126 entries). Sequential processing with strict structure protection."
+  "total_entries_untranslated": 34516,
+  "overall_completion_rate": 85.2,
+  "next_action": "Continue DLC1 translation from line 59905. Next section: d2001_recruit_equipment. Sequential processing with strict structure protection."
 }
