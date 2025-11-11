@@ -1459,7 +1459,7 @@
       1 Array Array (14 items)
        0 int size = 14
        [0]
-        1 string data = ""Breaker-breaker. This is Asphalt G, requesting assistance from anyone near Steeltown. Somebody stole my damn truck.""
+        1 string data = ""ブレイカー・ブレイカー。こちらアスファルトG、スティールタウン近くの誰かに支援を要請。誰かが俺のトラックを盗みやがった""
        [1]
         1 string data = "こちらレンジャー、ご用件は?"
        [2]
@@ -1467,19 +1467,19 @@
        [3]
         1 string data = ""レンジャー本部、以上""
        [4]
-        1 string data = ""Anybody hearin' me? Any marshals out there got their ears on?""
+        1 string data = ""誰か聞こえるか?マーシャルズの誰か応答してくれ?""
        [5]
-        1 string data = ""Asphalt G, this is Ranger HQ in Colorado Springs. We're hearin' you. You're reportin' an auto theft?""
+        1 string data = ""アスファルトG、こちらコロラドスプリングスのレンジャー本部。聞こえている。車両盗難の報告か?""
        [6]
-        1 string data = ""Ranger HQ? Who the hell is Ranger HQ?""
+        1 string data = ""レンジャー本部?レンジャー本部って一体何だ?""
        [7]
-        1 string data = ""We're a new outfit. Been sanctioned by the Patriarch. Helpin' out the Marshals, as they're spread pretty thin these days. Got a patrol in your area if you're in need of some assistance.""
+        1 string data = ""我々は新しい組織だ。パトリアークの認可を受けている。マーシャルズが最近手薄になっているから支援している。援助が必要なら、君の地域にパトロールがいる""
        [8]
-        1 string data = ""Heh. The Marshals could use a little help, all right. Well, my name's Carla. Send your people to the Arapaho Garage in Steeltown. I'll be waitin'.""
+        1 string data = ""へえ。マーシャルズは手伝いが必要だろうな。私の名前はカーラ。スティールタウンのアラパホ・ガレージに人を送ってくれ。待っている""
        [9]
-        1 string data = ""Ten-Four, Carla. They're on their way.""
+        1 string data = ""了解、カーラ。今向かわせる""
        [10]
-        1 string data = ""Team November, this is Ranger HQ. Got an auto theft call for you in Steeltown. Look for Carla at the Arapaho Garage. She'll give you the details.""
+        1 string data = ""チーム・ノベンバー、こちらレンジャー本部。スティールタウンで車両盗難の通報がある。アラパホ・ガレージでカーラを探せ。詳細を伝えてくれる""
        [11]
         1 string data = ""レンジャー?お前たちのことは聞いている。総主教の新しい猟犬だな""
        [12]
@@ -5829,7 +5829,7 @@
       1 Array Array (1 items)
        0 int size = 1
        [0]
-        1 string data = ""Broadcasting from Ross Island. Hello, hello. The project has degenerated into warring factions. The candidates, they lied about everything. EVERYTHING!""
+        1 string data = ""ロス島から放送中。やあやあ。プロジェクトは戦争派閥に退化した。候補者たち、全てについて嘘をついた。全て!""
    [46]
     0 StringTable data
      1 string Filename = "0000_radio_broadcast_rangersecretadmirer"
@@ -6733,13 +6733,13 @@
        [3]
         1 string data = ""繋がって良かった、REDHAT の友人たち。お前たちの古い友人CHARLEYがまた戻ってきた、俺たちの財産を増やす方法を見つけた。どう思う?どうぞ。""
        [4]
-        1 string data = ""Who are the Charely Cartel?"
+        1 string data = ""チャーリー・カルテルって何だ?"
        [5]
         1 string data = ""財産は素晴らしいが、叫ぶのをやめてくれないか?""
        [6]
         1 string data = ""もっと詳しく教えてくれ、でも頼む - もっと静かに。""
        [7]
-        1 string data = ""I shall overlook your insolence this once, as you are but young red hats. The Charley Cartel is known and feared across the frozen waste. Assassins, raiders, warriors of the Gods. We will sear our name into the brains of the profligates as far as the eye can see.""
+        1 string data = ""今回だけお前の無礼を見逃そう、まだ若い赤い帽子だからな。チャーリー・カルテルは凍てついた荒野全体で知られ恐れられている。暗殺者、略奪者、神々の戦士だ。我々は見渡す限りの放蕩者の脳に名前を焼き付ける。""
        [8]
         1 string data = ""ハハ!つまり、ハハ。お前たちならやる気になると思ってたぜ!""
        [9]
@@ -6805,7 +6805,7 @@
        [0]
         1 string data = ""
        [1]
-        1 string data = ""HEEEEEEEEY, KIDS!"\n\n\n"Don't be a bozo! Come see the Colorado Clown Museum!""
+        1 string data = ""おーい、キッズのみんな!"\n\n\n"ばかなことはやめよう!コロラド・クラウン・ミュージアムに来いよ!""
        [2]
         1 string data = "::static:: "... UCK! HYUCK! HYUCK! HYU..." ::static::"
    [60]
@@ -8099,11 +8099,11 @@
       1 Array Array (3 items)
        0 int size = 3
        [0]
-        1 string data = ""This is the Colorado Rangers hailing all channels. The Bizarre is now under Ranger control.""
+        1 string data = ""こちらコロラド・レンジャー、全チャンネルに呼びかけている。ビザールは現在レンジャーの管理下にある。""
        [1]
-        1 string data = ""It will continue operating as before under the safeguarding of the Rangers. Your business is still welcome there as before. Stay safe, stay warm. Ranger HQ, out.""
+        1 string data = ""レンジャーの保護の下、以前と同様に運営を継続する。お前たちのビジネスは以前と同様に歓迎される。安全に、暖かく。レンジャー司令部、以上。""
        [2]
-        1 string data = " Please direct all business inquires to Ranger Headquarters in Colorado Springs. Stay warm and safe travels."
+        1 string data = " 全てのビジネスに関する問い合わせは、コロラドスプリングスのレンジャー司令部まで。暖かく、安全な旅を。"
    [74]
     0 StringTable data
      1 string Filename = "0000_radio_robotwar"
@@ -8187,7 +8187,7 @@
       1 Array Array (1 items)
        0 int size = 1
        [0]
-        1 string data = ""Hello? Can anyone here me?"\n\n\n"We're having a Santa-themed dystopian nightmare nearby, and we could really use some help!""
+        1 string data = ""もしもし？誰か聞こえますか?"\n\n\n"近くでサンタをテーマにしたディストピアの悪夢が起きていて、助けが本当に必要なんです!""
    [76]
     0 StringTable data
      1 string Filename = "0000_radio_themechanic_nearsavagecouncil"
