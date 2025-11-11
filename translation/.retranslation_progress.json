@@ -31,13 +31,13 @@
       "total_lines": 120559,
       "total_entries": 38554,
       "entries_from_backup": 21737,
-      "entries_newly_translated": 4827,
-      "entries_completed": 26752,
-      "entries_remaining": 11802,
-      "completion_rate": 69.4,
-      "current_line": 48606,
+      "entries_newly_translated": 5225,
+      "entries_completed": 27150,
+      "entries_remaining": 11404,
+      "completion_rate": 70.4,
+      "current_line": 51250,
       "status": "in_progress",
-      "note": "Session DLC1-038 part 1: Translated 121 entries (lines 48154-48606). Sections: d2001_armormerchant_amosryan (74 entries), d2001_armormerchant_shempryan (23 entries - angry brother), d2001_armormerchant_shirleyryan (24 entries - reluctant sister). Applied unified translation logic. All validations passed (0 errors, 0 issues). Next: Continue from line 48607 (d2001_benniebianchi, 458 entries)."
+      "note": "Session DLC1-039: Translated 299 entries (lines 50650-51249). Section: d2001_benniebianchi dialogue (Hot Commodities mission, placement tests, office dialogues). Fixed 2 action marker errors. All validations passed (0 errors, 0 issues). Next: Continue from line 51250."
     },
     "dlc2": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
@@ -54,11 +54,11 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "0827b43",
-  "last_commit_message": "DLC1 translation: Session DLC1-038 part 1 (121 entries, lines 48154-48606)",
-  "total_entries_completed": 196464,
+  "last_commit_hash": "8d11bef",
+  "last_commit_message": "DLC1 translation: Session DLC1-039 (299 entries, lines 50650-51249)",
+  "total_entries_completed": 196862,
   "total_entries": 232418,
-  "total_entries_untranslated": 35954,
-  "overall_completion_rate": 84.5,
-  "next_action": "Continue DLC1 translation from line 48607 (d2001_benniebianchi section, large dialogue with 458 entries). Estimated 12 sessions remaining to complete DLC1."
+  "total_entries_untranslated": 35556,
+  "overall_completion_rate": 84.7,
+  "next_action": "Continue DLC1 translation from line 51250 (d2001_benniebianchi section continuation). Estimated 11 sessions remaining to complete DLC1."
 }
