@@ -35025,7 +35025,7 @@
        [1]
         1 string data = "死因を特定しようとする。"
        [2]
-        1 string data = "Reexamine the body."
+        1 string data = "死体を再検査する"
        [3]
         1 string data = "死体から離れる。"
        [4]
@@ -36511,15 +36511,15 @@
       1 Array Array (8 items)
        0 int size = 8
        [0]
-        1 string data = " Hi, rangers."
+        1 string data = " やあ、レンジャー"
        [1]
-        1 string data = " I AM IN DEBUG MODE"
+        1 string data = " デバッグモード中です"
        [2]
-        1 string data = " The quest has been started. tahnks for helping us!"
+        1 string data = " クエストが開始されました。助けてくれてありがとう!"
        [3]
-        1 string data = " Please help us"
+        1 string data = " 助けてください"
        [4]
-        1 string data = " Please talk to Betsy."
+        1 string data = " ベッツィーと話してください"
        [5]
         1 string data = ""助けてくれてありがとう、レンジャー。もし何か分かったら、ベッツィーに必ず伝えてくれよ、いいな?""
        [6]
@@ -38219,17 +38219,17 @@
       1 Array Array (420 items)
        0 int size = 420
        [0]
-        1 string data = " Intro"
+        1 string data = " イントロ"
        [1]
-        1 string data = " View debug options"
+        1 string data = " デバッグオプションを表示"
        [2]
-        1 string data = " Goodbye"
+        1 string data = " さようなら"
        [3]
-        1 string data = " Select a debug option"
+        1 string data = " デバッグオプションを選択"
        [4]
-        1 string data = " Initiate Parker's Patient Quest"
+        1 string data = " パーカーの患者クエストを開始"
        [5]
-        1 string data = " Quest Initiated"
+        1 string data = " クエスト開始"
        [6]
         1 string data = ""やあ、レンジャー。ついに着いたぞ。""
        [7]
@@ -38279,11 +38279,11 @@
        [29]
         1 string data = """"
        [30]
-        1 string data = " Select a debug option"
+        1 string data = " デバッグオプションを選択"
        [31]
-        1 string data = " Initiate Parker's Patient Quest"
+        1 string data = " パーカーの患者クエストを開始"
        [32]
-        1 string data = " Quest Initiated"
+        1 string data = " クエスト開始"
        [33]
         1 string data = """"
        [34]
@@ -38957,15 +38957,15 @@
        [368]
         1 string data = ""Well you got Brygo... I'm not going to say that the Cartel was a good organization, but it was a hydra, not a snake. Watch out for the next head." "
        [369]
-        1 string data = ""Sometimes it takes a snake to keep a place like Little Vegas in line. I don't blame you for leaving Brygo right where he is.""
+        1 string data = ""リトル・ベガスのような場所を統制するには、時には蛇が必要なんだ。ブライゴをそのままにしておいたことを責めはしない""
        [370]
         1 string data = "Script Node 159"
        [371]
-        1 string data = ""Well if you have to <i>investigate</i> Little Vegas, you may as well live it up a little. Bet on black for me.""
+        1 string data = ""まあ、リトル・ベガスを<i>調査</i>しなきゃならないなら、少しは楽しんだ方がいい。俺のために黒に賭けてくれ""
        [372]
-        1 string data = ""Brygo remains in charge, and Little Vegas is business as usual. I know he's a criminal, but he keeps the place safe.""
+        1 string data = ""ブライゴが引き続き仕切っていて、リトル・ベガスはいつも通り営業している。犯罪者だとは分かっているが、奴は場所を安全に保っている""
        [373]
-        1 string data = ""Little Vegas getting destroyed is going to leave a vacuum for a much bigger rat than Brygo. Keep an eye out for what's coming next.""
+        1 string data = ""リトル・ベガスが破壊されたら、ブライゴよりもっと大きなネズミのための空白が残るだろう。次に何が来るか注意しておけ""
        [374]
         1 string data = "Script Node 163"
        [375]
@@ -39079,9 +39079,9 @@
       1 Array Array (2 items)
        0 int size = 2
        [0]
-        1 string data = " patient is waking up (if the patient survived)"
+        1 string data = " 患者が目を覚ましている（患者が生存した場合）"
        [1]
-        1 string data = " something terrible has happened (if the patient died) "
+        1 string data = " 何か恐ろしいことが起こった（患者が死亡した場合） "
    [140]
     0 StringTable data
      1 string Filename = "a1001_donna"
