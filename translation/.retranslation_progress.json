@@ -18,15 +18,15 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 40575,
-      "entries_untranslated_real": 17831,
+      "entries_translated": 40725,
+      "entries_untranslated_real": 17681,
       "entries_kept_english": 43034,
-      "completion_rate": 69.5,
-      "current_line": 338020,
+      "completion_rate": 69.7,
+      "current_line": 338982,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 295: Translated 42 entries (L337852-338020). m1001_prasad section - Major Prasad dying dialogue, player death choices, narrative descriptions. Preserved action marker ::coughing::, HTML tags, escape sequences. Structure: 0 errors. Quality: 0 issues.",
-      "entries_completed": 40575
+      "note": "Session 296: Translated 150 entries (L338020-338982). Multiple sections: Prasad aftermath/Jodie Bell conversations/Ranger orders, radio transmissions (DJ SAL, Everest Hotel, Sheriff Daisy), vehicle repair, Hoon family dialogues. Action markers preserved (cough, static, vroom, whispers). Structure: 0 errors. Quality: 0 issues.",
+      "entries_completed": 40725
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -59,20 +59,20 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "1eb0c93",
-  "last_commit_message": "Base game translation: Session 295 - Major Prasad dying dialogue L337852-338020",
+  "last_commit_hash": "adc0f02",
+  "last_commit_message": "Base game translation: Session 296 - Prasad aftermath, radio transmissions, Hoon family dialogues L338020-338982",
   "validation_date": "2025-11-12",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
-  "analysis_session": 295,
+  "analysis_session": 296,
   "analysis_findings": {
-    "action_marker_protection": "Session 295: Action marker ::coughing:: verified to remain in English. Zero translation errors detected.",
-    "quality_validation": "Dual validation passed. Structure: 0 errors (2 pre-existing HTML warnings). Quality: 0 issues (untranslated, action markers, glossary compliance all verified).",
-    "validation_status": "Structure: 0 errors, Quality: 0 issues across L337852-338020"
+    "action_marker_protection": "Session 296: Action markers preserved (cough, static, vroom, whispers). Zero translation errors detected.",
+    "quality_validation": "Dual validation passed. Structure: 0 errors (4 pre-existing HTML warnings). Quality: 0 issues (untranslated entries, action markers, glossary compliance all verified).",
+    "validation_status": "Structure: 0 errors, Quality: 0 issues across L338020-338982"
   },
-  "total_entries_completed": 49960,
+  "total_entries_completed": 50110,
   "total_entries": 232418,
-  "total_entries_untranslated": 182458,
-  "overall_completion_rate": 21.5,
-  "next_action": "Continue sequential translation from line 338020. Next section: m1001_prasad continued (165 entries remaining - Angela Deth background, Woodson orders, death scenes)."
+  "total_entries_untranslated": 182308,
+  "overall_completion_rate": 21.6,
+  "next_action": "Continue sequential translation from line 338982. Next section: m1002_mamahoon (16 entries remaining - Mama Hoon dialogue after Dorsey attack)."
 }
