@@ -18,15 +18,15 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 47336,
-      "entries_untranslated_real": 11513,
-      "entries_kept_english": 42359,
-      "completion_rate": 81.1,
-      "current_line": 393774,
+      "entries_translated": 47553,
+      "entries_untranslated_real": 11296,
+      "entries_kept_english": 42159,
+      "completion_rate": 81.4,
+      "current_line": 395136,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 358: 185 new Japanese translations (L392802-393774). Sections completed: q1001_scarcollectorambient (42 entries), q1001_scarcollectorbisonwrangler (7 entries), q1001_scarcollectorslave (88 entries), q1001_slaveambient (48 entries). Content: Scar Collector ambient dialogue post-Cordite return. Gang tensions: Godfishers departure relief, Payasos rivalry, Dorsey frustration. Camp life complaints: insufficient raiding, slavery nostalgia, Colorado Springs plunder anticipation. Bison wrangler romance with Bessie. Whetstone blind slave weapon smith: Company Store boss slave history, Steel-Trap drugging Cordite revelation, Dee Sharp singer disappearance mystery. Cordite poisoning witness testimony. Beta Master tip for gang manipulation. Blade sharpening services. Slave ambient general: escape futility, Liberty death celebration, new master speculation, Kansas relocation rumors, survival strategy. Action markers English-only (sigh, groan). Format compliance: Script Nodes preserved (1, 3-6, 21, 34, 38, 42, 45, 56, 90, 95), 4-quote format maintained. Character names: Cordite, Steel-Trap, Liberty-Buchanan, Dee-Sharp, Whetstone, Knock-Knock, Beta-Master, Bessie. Factions: Scar-Collectors, Godfishers, Payasos, Dorseys, Rangers. Locations: Colorado-Springs, Kansas, Alaska. Dual validation passed (Structure: 0 errors, Quality: 0 issues L392802-393774).",
-      "entries_completed": 47758
+      "note": "Session 359: 217 new Japanese translations (L393900-395136). Sections completed: q1001_slavedoctor (28 entries): Stitches slave doctor medical services, assistant background, healing ethics. q1001_starthatdreams (61 entries): Star-that-Dreams Godfisher leader, Haloed Moon affair confrontation, Cordite rivalry, demolition challenge. q1001_steeltrap (103 entries): Steel-Trap Scar Collector leader extensive dialogue, Cordite betrayal Trial by Demolition, camp entry test (slave execution vs cyborg mod), demolition derby preparation. q1001_steeltrapvsdeecutscene (2 entries): Steel-Trap vs Dee cutscene threats. q1001_surgeryboothsi (23 entries): Suture-Self Surgery Kiosk descriptions, ancient surgical device operations, Ironclad Cordite cyborg saturation. Action markers English-only (whispers, sighs, harsh whisper - 3 instances). Format compliance: Script Nodes preserved (70, 73, 77, 79, 80, 99, 17, 18), Trigger Conv Node preserved (14, 109), 4-quote format maintained, [Actor Name] placeholders preserved. Character names: Stitches, Steel-Trap, Star-that-Dreams, Haloed Moon, Cordite, Ironclad Cordite, Dee. Factions: Scar-Collectors, Godfishers. Locations: Alaska-Surprise. Glossary compliance: Rangers singular form corrected (レンジャー). Dual validation passed (Structure: 0 errors, Quality: 0 issues L393900-395136).",
+      "entries_completed": 47975
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -59,21 +59,21 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "5cc2c8f",
-  "last_commit_message": "Base game translation: Session 358 - Scar Collector camp life & slave dialogue (185 entries)",
+  "last_commit_hash": "0f7c9f7",
+  "last_commit_message": "Base game translation: Session 359 - Scar Collectors leadership dialogue & surgery kiosk (217 entries)",
   "validation_date": "2025-11-13",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
-  "analysis_session": 358,
+  "analysis_session": 359,
   "analysis_findings": {
-    "new_translations": "Session 358: 185 new Japanese translations across 4 sections (L392802-393774). q1001_scarcollectorambient: Scar Collector gang member ambient dialogue post-Cordite return. Godfisher departure relief, Payasos mockery, Dorsey complaints. Camp frustrations: insufficient raiding, slavery nostalgia, Colorado Springs plunder anticipation. q1001_scarcollectorbisonwrangler: Bison rancher dialogue, emotional bond with Bessie bison. Rangers assistance gratitude. q1001_scarcollectorslave: Whetstone blind slave weapon smith extensive dialogue tree. Company Store boss slave history, Steel-Trap drugging Cordite witness testimony, Dee Sharp singer disappearance investigation. Beta Master gang manipulation tip. Blade sharpening merchant services. q1001_slaveambient: General slave camp ambient dialogue. Escape futility, Liberty death celebration, new master speculation, Kansas relocation rumors, survival strategies.",
-    "action_marker_protection": "2 action markers in range L392802-393774: sigh (L393726), groan (L393744). All action markers preserved in English-only. Quality validation confirmed 0 action markers contain Japanese characters.",
-    "quote_format_handling": "All quote counts match source exactly (185 entries). 14 Script Nodes preserved English (Script Node 1, 3, 4, 5, 6, 21, 34, 38, 42, 45, 50, 51, 56, 90, 95). 4-quote format maintained throughout. Mixed dialogue-narrative entries corrected (removed extra quotes). Character names consistent: Cordite, Steel-Trap, Liberty-Buchanan, Dee-Sharp, Whetstone, Knock-Knock, Beta-Master, Bessie. Faction names: Scar-Collectors, Godfishers, Payasos, Dorseys, Rangers. Location names: Colorado-Springs, Kansas, Alaska.",
-    "quality_validation": "Dual validation passed. Structure: 0 errors 169712 entries all quote counts exact match. Quality: 0 issues L392802-393774 - no action markers translated to Japanese, no untranslated English entries, no bracket content translated, no glossary terminology violations. Technical terms: Script Nodes preserved English. Zero warnings."
+    "new_translations": "Session 359: 217 new Japanese translations across 5 sections (L393900-395136). q1001_slavedoctor: Stitches slave doctor dialogue. Medical pricing, assistant background, healing ethics. q1001_starthatdreams: Star-that-Dreams Godfisher leader dialogue. Haloed Moon affair confrontation, Cordite rivalry, demolition challenge, Alaska Surprise investigation. Leather throne descriptions. q1001_steeltrap: Steel-Trap Scar Collector leader extensive dialogue. Cordite betrayal Trial by Demolition challenge. Camp entry test: slave execution vs cyborg mod requirement. Suture Self surgery booth. Demolition derby preparation, trash talk. Gang philosophy: slavery + body modification. q1001_steeltrapvsdeecutscene: Steel-Trap vs Dee cutscene confrontation. q1001_surgeryboothsi: Suture-Self Surgery Kiosk ancient surgical device. START button activation, gruesome modification process, Ironclad Cordite cyborg saturation.",
+    "action_marker_protection": "3 action markers in range L393900-395136: whispers (L394278), sighs (L394290), harsh whisper (L394918). All action markers preserved in English-only. Quality validation confirmed 0 action markers contain Japanese characters.",
+    "quote_format_handling": "All quote counts match source exactly (217 entries). 8 Script Nodes preserved English (70, 73, 77, 79, 80, 99, 17, 18). 2 Trigger Conv Nodes preserved (14, 109). 4-quote format maintained throughout. [Actor Name] placeholders preserved in surgery kiosk descriptions. Glossary compliance: Rangers singular form corrected to レンジャー (was レンジャーズ). Character names: Stitches, Steel-Trap, Star-that-Dreams, Haloed Moon, Cordite, Ironclad Cordite, Dee. Factions: Scar-Collectors, Godfishers. Locations: Alaska-Surprise.",
+    "quality_validation": "Dual validation passed. Structure: 0 errors 169712 entries all quote counts exact match. Quality: 0 issues L393900-395136 - no action markers translated to Japanese, no untranslated English entries, no bracket content translated, no glossary terminology violations. Technical terms: Script Nodes preserved English, Trigger Conv Nodes preserved English. Zero warnings."
   },
-  "total_entries_completed": 56867,
+  "total_entries_completed": 57084,
   "total_entries": 232418,
-  "total_entries_untranslated": 175736,
-  "overall_completion_rate": 24.4,
-  "next_action": "Continue sequential translation from line 393775. Section q1001_slaveambient completed (48 of 48 entries). Next section: q1001_slavedoctor starting at line 393777."
+  "total_entries_untranslated": 175519,
+  "overall_completion_rate": 24.6,
+  "next_action": "Continue sequential translation from line 395137. Section q1001_surgeryboothsi completed (23 of 23 entries). Next section: q1001_themechanic starting at line 395139."
 }
