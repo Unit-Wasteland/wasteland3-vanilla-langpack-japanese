@@ -18,15 +18,15 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 44750,
-      "entries_untranslated_real": 14002,
+      "entries_translated": 44875,
+      "entries_untranslated_real": 13877,
       "entries_kept_english": 42647,
-      "completion_rate": 26.6,
-      "current_line": 373969,
+      "completion_rate": 26.7,
+      "current_line": 374754,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 335: 96 new Japanese translations (L373778-373968). One section completed: o2001_randygett (96 entries - Randy Gett mechanic character complete dialogue tree in Bizarre, family rescue quest introduction with parents killed siblings held hostage homestead backstory, recruitment conversation Rangers HQ mechanic job offer negotiations, personality traits car enthusiast gum chewing Flab employee constant quirks, quest dialogue variations pre-help during-quest post-Cartel takeover branches, multiple conversation paths recruitment payment kidnapper elimination options, character humor wedding cake car joke imagination pride rough exterior, debug options quest requirement bypass dialogues). Technical term preserved: Script Node 97 (NOT translated). Glossary compliant: Randy original Ranger レンジャー Rangers レンジャー Bizarre ビザール Colorado コロラド Flab フラブ Cartel original Warrens ウォレンズ Gett ゲット (all used correctly). Dual validation passed (Structure: 0 errors all quote counts exact match 4-quote dialogue format strictly maintained, Quality: 0 issues L373778-373968). Action markers verified: chew progressively more intense chewing all preserved in English format.",
-      "entries_completed": 45161
+      "note": "Session 336: 125 new Japanese translations (L373969-374754). Three sections completed: o2001_rangerguards (10 entries - Ranger guard ambient dialogue Bizarre security status reports casual observations character references), o2001_safewarrensguard (9 entries - gate guard Hot Hog escape incident embarrassed apology profanity preserved), o2001_sanctifiedpiscitelli (106 entries - Piscitelli weapon smith complete dialogue tree greeting merchant wares blindness scars sanctification theme weapon repair quest Jigowatt Condenser sale Crossword Gang heist warning multi-chamber blast cannon demo character philosophy craft dedication sacrifice post-salvation gratitude weapon crafting assistance blessing theme ambient lines debug options). Technical terms preserved: Script Node 112 (NOT translated). Glossary compliant: Bizarre ビザール Warrens ウォレンズ Flab フラブ Rangers レンジャー Piscitelli ピシテリ (all used correctly). Dual validation passed (Structure: 0 errors all quote counts exact match 4-quote format strictly maintained complex dialogue-narration mix corrected, Quality: 0 issues L373969-374754). Quote structure fix: line 374632 corrected single-quote preservation in mixed dialogue-narration entry.",
+      "entries_completed": 45286
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -59,21 +59,21 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "9032b46",
-  "last_commit_message": "Base game translation: Session 335 - Randy Gett mechanic character dialogue (96 entries)",
+  "last_commit_hash": "c6e7ed8",
+  "last_commit_message": "Base game translation: Session 336 (cont.) - Sanctified Piscitelli weapon smith (106 entries)",
   "validation_date": "2025-11-13",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
-  "analysis_session": 335,
+  "analysis_session": 336,
   "analysis_findings": {
-    "new_translations": "Session 335: 96 new Japanese translations for Randy Gett mechanic character complete dialogue tree. Content: Bizarre marketplace mechanic introduction with car enthusiasm and constant gum chewing personality, family rescue quest initiation parents killed siblings held hostage homestead backstory tragic circumstances, recruitment conversation Rangers HQ mechanic job offer with persuasion branches, quest dialogue variations including pre-help initial contact during-quest progress updates post-Cartel takeover situation changes, multiple conversation path options recruitment acceptance payment offers kidnapper elimination plans, character humor and quirks wedding cake car modification joke imagination pride rough exterior personality balance, emotional weight family situation balanced with informal rough mechanic speech tone, Flab boss relationship employee dynamic workplace dissatisfaction themes, debug options and quest requirement bypass dialogues technical implementation, comprehensive dialogue tree covering all quest states conversation branches character development. Translation approach: informal rough mechanic tone maintained consistently gum chewing trait emphasized throughout car enthusiasm preserved family emotional weight balanced.",
-    "action_marker_protection": "Two action marker types in section: chew (20+ instances) progressively more intense chewing (3 instances). All preserved in English with correct format. Verified - no Japanese characters in action marker content.",
-    "quality_validation": "Dual validation passed. Structure: 0 errors (all quote counts exact match English source including complex multi-part dialogues with chew markers 4-quote format strictly maintained dialogue entries 2-quote format non-dialogue entries). Quality: 0 issues (range L373778-373968 validated). Technical term preserved: Script Node 97 (NOT translated). Glossary compliance: Randy original Ranger レンジャー (10+ instances) Rangers レンジャー (all instances) Bizarre ビザール (8+ instances) Colorado コロラド (1 instance) Flab フラブ (3 instances) Cartel original Warrens ウォレンズ (3 instances) Gett ゲット (family name all used correctly). No bracket content translated. No untranslated English entries in range. Zero glossary violations.",
-    "validation_status": "Structure: 0 errors. Action markers: 23+ markers preserved correctly (chew progressively more intense chewing). Quality: 0 issues. All validations passed."
+    "new_translations": "Session 336: 125 new Japanese translations across three sections. o2001_rangerguards (10 entries - formal greetings status reports casual Eidilon show observations), o2001_safewarrensguard (9 entries - Hot Hog escape incident bathroom break failure Flab reprimand fear profanity preserved), o2001_sanctifiedpiscitelli (106 entries - complete weapon smith dialogue tree merchant greeting wares sanctification philosophy blindness scars blessing theme weapon repair quest Weaponsmithing skill check Jigowatt Condenser transaction price negotiation Crossword Gang heist robbery plan warning multi-chamber blast cannon demonstration request craft dedication sacrifice maternal weapon relationship wheelchair user confident security character development post-Bizarre salvation gratitude ambient merchant lines debug options). Character personalities preserved: embarrassed gate guard, philosophical weapon artisan. Translation approach: formal guard speech informal apology mystical sanctification tone rigorous quote structure preservation.",
+    "action_marker_protection": "Two action-only entries identified but NOT in this session range (o2001_sarahgunns section contains dances and cowers markers - will be processed in next session). No action markers in current 125 entries. Validation: grep showed 16 false positives (radio static markers with Japanese dialogue inside, not actual action markers).",
+    "quality_validation": "Dual validation passed. Structure: 0 errors (all quote counts exact match including complex dialogue-narration mix at line 374632, 4-quote format strictly maintained). Quality: 0 issues (range L373969-374754 validated). Technical terms preserved: Script Node 112 (NOT translated). Glossary compliance: Bizarre ビザール (15+ instances) Warrens ウォレンズ (6 instances) Flab フラブ (4 instances) Rangers レンジャー (8+ instances) Piscitelli ピシテリ (transliteration all instances). Critical fix: line 374632 single-quote preservation corrected (converted Japanese brackets back to English single quotes within dialogue). No bracket content translated. No untranslated English entries in range. Zero glossary violations.",
+    "validation_status": "Structure: 0 errors. Action markers: 0 in current range (verified). Quality: 0 issues. All validations passed. Quote structure fix applied successfully."
   },
-  "total_entries_completed": 54546,
+  "total_entries_completed": 54671,
   "total_entries": 232418,
-  "total_entries_untranslated": 177872,
+  "total_entries_untranslated": 177747,
   "overall_completion_rate": 23.5,
-  "next_action": "Continue sequential translation from line 373969. Next section: o2001_rangerguards (10 entries - Ranger guard ambient dialogue)."
+  "next_action": "Continue sequential translation from line 374755. Next section: o2001_sarahgunns (15 entries - adult-themed dialogue Terminator references, includes 2 action-only entries dances and cowers that must NOT be edited)."
 }
