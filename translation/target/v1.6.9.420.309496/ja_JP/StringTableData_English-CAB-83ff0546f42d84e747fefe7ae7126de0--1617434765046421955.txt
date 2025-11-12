@@ -199531,7 +199531,7 @@
       1 Array Array (188 items)
        0 int size = 188
        [0]
-        1 string data = """   "Oh, just a taste. A nibble here and there. In fact, I'm still hungry.""
+        1 string data = """   "ああ、ちょっと味見しただけだ。あちこちでちょっと齧っただけ。実際、まだ腹が減ってるんだ。""
        [1]
         1 string data = " じゃあな、魚の唇を持つ男。"
        [2]
@@ -199581,7 +199581,7 @@
        [24]
         1 string data = ""
        [25]
-        1 string data = ""Yeah. Funny story there, actually. Too bad you ain't gonna live to hear it.""
+        1 string data = ""ああ。実は面白い話があるんだが。残念ながらお前は聞くまで生きてられないがな。""
        [26]
         1 string data = """ さあ時間稼ぎはやめて俺の質問に答えろ。"
        [27]
@@ -199605,7 +199605,7 @@
        [36]
         1 string data = """ 良い手本を示させてやろう。10秒やる。ここから這って出て行け。""
        [37]
-        1 string data = ""Heh. For now.""
+        1 string data = ""へっ。今のところはな。""
        [38]
         1 string data = ""ちゃんとした説明があるんだろうな。""
        [39]
@@ -199747,27 +199747,27 @@
        [107]
         1 string data = "Script Node 114"
        [108]
-        1 string data = ""Temporary Debug node. ""
+        1 string data = ""一時的なデバッグノード。 ""
        [109]
-        1 string data = "Start the Cinematic Conversation normally (WARNING: at the moment, this is a progression breaker)."
+        1 string data = "シネマティック会話を通常通り開始(警告:現時点では進行不能のバグがあります)。"
        [110]
-        1 string data = "Start the fight. Ends Conversation."
+        1 string data = "戦闘を開始。会話を終了。"
        [111]
-        1 string data = "Leave Conversation."
+        1 string data = "会話を離脱。"
        [112]
         1 string data = "Script Node 119"
        [113]
         1 string data = "Script Node 120"
        [114]
-        1 string data = "Intimidate Hard-Heads."
+        1 string data = "ハードヘッドを威嚇する。"
        [115]
-        1 string data = ""Intimidating Hard-Heads. Will return to debug menu.""
+        1 string data = ""ハードヘッドを威嚇中。デバッグメニューに戻ります。""
        [116]
-        1 string data = ""Starting fight in OnExit node.""
+        1 string data = ""OnExitノードで戦闘を開始中。""
        [117]
-        1 string data = ""Starting Conversation."\nDEBUG. "
+        1 string data = ""会話を開始中。"\nDEBUG。 "
        [118]
-        1 string data = "Add Fish-Lips as a companion. Does not include all the TRIED TO SURRENDER globals.  - will end conversation. "
+        1 string data = "フィッシュリップスをコンパニオンとして追加。TRIED TO SURRENDERグローバル全ては含まれない。 - 会話を終了。 "
        [119]
         1 string data = ""ハードヘッドのルール:ボスを倒した者が……新しい<i>ボス</i>だ!" \r\n\r\n"お前が俺を倒した。いいだろう。一つアイデアがある。""
        [120]
@@ -199955,19 +199955,19 @@
       1 Array Array (9 items)
        0 int size = 9
        [0]
-        1 string data = " Gipper Bark #1. Writer, re-write me! Thanks."
+        1 string data = " ギッパーの吠え声 #1。ライターへ、書き直してください!ありがとう。"
        [1]
-        1 string data = " Gipper Bark #2. Writer, re-write me! Thanks."
+        1 string data = " ギッパーの吠え声 #2。ライターへ、書き直してください!ありがとう。"
        [2]
-        1 string data = " Gipper Bark #3. Writer, re-write me! Thanks."
+        1 string data = " ギッパーの吠え声 #3。ライターへ、書き直してください!ありがとう。"
        [3]
-        1 string data = " Gipper Bark #4. Writer, re-write me! Thanks."
+        1 string data = " ギッパーの吠え声 #4。ライターへ、書き直してください!ありがとう。"
        [4]
-        1 string data = " Gipper Bark #5. Only plays if the Rangers have attacked the Gippers!"
+        1 string data = " ギッパーの吠え声 #5。レンジャーがギッパーを攻撃した場合のみ再生されます!"
        [5]
-        1 string data = " Gipper Bark #6. Only plays if the Rangers have Abandoned the Gippers!"
+        1 string data = " ギッパーの吠え声 #6。レンジャーがギッパーを見捨てた場合のみ再生されます!"
        [6]
-        1 string data = " Gipper Bark #7. Writer, re-write me! Thanks."
+        1 string data = " ギッパーの吠え声 #7。ライターへ、書き直してください!ありがとう。"
        [7]
         1 string data = "Script Node 8"
        [8]
@@ -200325,17 +200325,17 @@
        [11]
         1 string data = ""少なくとも俺は魚のことを聞いたことがある。""
        [12]
-        1 string data = ""Yeah. I guess you're right.""
+        1 string data = ""ああ。お前が正しいと思う。""
        [13]
-        1 string data = ""Course I'm right. Who told you that garbage, anyway?""
+        1 string data = ""当然だろ。誰がそんなゴミ話を教えたんだ?""
        [14]
-        1 string data = ""Taylor.""
+        1 string data = ""テイラーだ。""
        [15]
-        1 string data = ""When we get back, I'm gonna stab 'em. In the mouth.""
+        1 string data = ""基地に戻ったら、やつを刺してやる。口にな。""
        [16]
-        1 string data = ""That'll show 'em.""
+        1 string data = ""それで思い知らせてやる。""
        [17]
-        1 string data = ""Oh, of course. That makes perfect sense. It <i>would</i> be Taylor.""
+        1 string data = ""ああ、もちろん。完璧に筋が通ってる。テイラーに<i>違いない</i>。""
        [18]
         1 string data = ""ここはクソみたいに<i>寒い</i>な。""
        [19]
