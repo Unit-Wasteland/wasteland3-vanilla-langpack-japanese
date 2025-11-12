@@ -18,14 +18,14 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 39245,
-      "entries_untranslated_real": 6373,
+      "entries_translated": 39317,
+      "entries_untranslated_real": 6301,
       "entries_kept_english": 43034,
-      "completion_rate": 67.2,
-      "current_line": 273596,
+      "completion_rate": 67.3,
+      "current_line": 69920,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 280: 220 entries translated (Nancy trial scene, Buchanan combat, Night Terror, Jodie dismissal, combat barks). Lines 242380-273596. Applied unified decision logic (Spanish empty defaults to translate). Structure validation: 0 errors. Action markers: 0 issues. Quality: 0 issues. Progress: 39245 Japanese entries. Next: Continue searching for untranslated entries after line 273596."
+      "note": "Session 281: 72 entries translated (scattered untranslated content: single letters, Jodie vehicle, refugee dialogue, mission feedback, Kwon base setup). Lines 396-69920. Applied unified decision logic (Spanish empty defaults to translate). Structure validation: 0 errors. Action markers: 0 issues. Quality: 0 issues. Progress: 39317 Japanese entries. Next: Continue searching for remaining untranslated entries."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -58,12 +58,12 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "35f64dd",
-  "last_commit_message": "Base game translation: 220 entries (Session 280 - Combat barks, Nancy trial)",
+  "last_commit_hash": "ec20472",
+  "last_commit_message": "Base game translation: 72 entries (Session 281 - Untranslated content)",
   "validation_date": "2025-11-12",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
-  "analysis_session": 280,
+  "analysis_session": 281,
   "analysis_findings": {
     "action_marker_issue": "Spanish reference incorrectly translates action marker contents (e.g., ::screams:: to ::grita::). Japanese version correctly keeps them in English. Many untranslated entries are actually correctly processed action markers.",
     "scattered_untranslated": "Remaining ~6,600 untranslated entries are scattered throughout file, many are action markers or technical content that should remain in English.",
