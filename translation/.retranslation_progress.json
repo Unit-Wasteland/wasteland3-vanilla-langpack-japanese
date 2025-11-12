@@ -18,15 +18,15 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 46542,
-      "entries_untranslated_real": 12307,
+      "entries_translated": 46677,
+      "entries_untranslated_real": 12172,
       "entries_kept_english": 42482,
-      "completion_rate": 79.7,
-      "current_line": 389196,
+      "completion_rate": 79.9,
+      "current_line": 390055,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 352: 124 new Japanese translations (L388872-389196). Sections completed: q1001_libertybuchanan (133 entries: Liberty Buchanan final confrontation dialogue), q1001_libertydoor (8 entries: Liberty confrontation warnings). Content types: Surrender negotiation (Liberty capture dialogue 18), Brother conflicts (Vic Val hatred sibling rivalry 14), Faction politics (Patriarch civilization empire ideology 12), Lucia Wesson confrontation (family revenge gun duel 9), Player choice branches (arrest attack partnership leave 15), Betrayal revelations (Amber Charley operative infiltration 8), Combat mechanics (power armor hack drone disable 4), Victory scenarios (arrest imprisonment Arizona retreat 11), Dorseys alliance (Get em command loyalty test 3), Game warnings (mission lock custom Ranger requirements 7). Format compliance: Quote format strictly maintained (EN source match mandatory - Session 193 rule), Debug options preserved English (9 entries: ID 0-8 dev commands), 3 Script Nodes preserved (ID 10 49 50 73), Technical labels preserved (Lucia response ID 27), HTML i tags preserved (emphasis 2 instances: have is not). Special handling: Quote count exact match (EN 2 quotes → JA 2 quotes, EN 4 quotes → JA 4 quotes), Incomplete dialogue preserved (ID 44 62 ends with single quote marker), Triple quote format (ID 119 ends with 3 quotes exactly), Newline-quote format (ID 116 ends with newline then quote). Character names: Liberty Buchanan Lucia Wesson Vic Val Ironclad Cordite Charley Amber Wolfe. Factions: Rangers Dorseys Arizona Patriarch. Locations: Arizona Colorado Ranger HQ Yuma DLC. Dual validation passed (Structure: 0 errors all quote counts exact match, Quality: 0 issues no action markers translated no untranslated entries no glossary violations).",
-      "entries_completed": 47064
+      "note": "Session 353: 135 new Japanese translations (L389445-390054). Sections completed: q1001_payasoatwindfarmexit (59 entries: Payaso-Godfisher slave rescue dialogue), q1001_payasoatwindfarmexitambient (16 entries: Bison hunt ambient reactions), q1001_payasosambient (58 entries: General Payaso gang banter and jokes), q1001_payasosatwindfarmexitbarks (2 entries: Post-battle trigger barks). Content types: Slave rescue negotiation (Payasos capture Godfisher victims 8), Bison hunting mission (Rangers help clown gang 6), Moral choices (free slaves vs deliver to Payasos 9), Combat threats (hamburger meat cannibalism 4), Cordite faction politics (boss return celebration 7), Liberty betrayal reactions (double-cross revenge 5), Godfisher mockery (kite flying jokes 4), Gang banter (crude humor dark comedy 34), Spanish slang phrases (cabrones mamones pendejos 21), Meat Clown boss references (Risky Briskett reward promises 7), Player choice branches (attack negotiate liberate 8), Steel-Trap rivalry (Payaso leadership conflict 3), Arena entertainment culture (fire it up chants 2), Joke exchanges (circumcision lightbulb punchlines 9). Format compliance: Quote format strictly maintained (EN source match), Action marker ::ppbbbttt:: preserved English (ID 34 - tongue raspberry sound), 12 Script Nodes preserved (IDs 1 2 4 8 9 15 37 in ambient + ID 2 6 11 25 42 60 in main + ID 4 in barks), 3 empty entries preserved (ID 36 37 38 conversation gaps), HTML i tag preserved (ID 36 well-marbled emphasis), Trigger nodes preserved (ID 58 63). Special handling: Incomplete dialogue ID 43 ends with dash preserved, Triple newline format ID 33 preserved exactly. Character names: Risky Briskett Cordite Liberty Steel-Trap. Factions: Payasos Godfishers Rangers. Locations: Meat Clown Godfisher shrine. Dual validation passed (Structure: 0 errors all quote counts exact match, Quality: 0 issues no action markers translated no untranslated entries no glossary violations).",
+      "entries_completed": 47199
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -59,8 +59,8 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "da9e865",
-  "last_commit_message": "Base game translation: Session 352 - Liberty Buchanan confrontation finale (124 entries)",
+  "last_commit_hash": "98d38a1",
+  "last_commit_message": "Base game translation: Session 353 - Payasos clown gang dialogues (135 entries)",
   "validation_date": "2025-11-13",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
@@ -71,9 +71,9 @@
     "quote_format_handling": "All quote counts match source exactly (177 entries). 24 Script Nodes preserved English (IDs 0-20 alternating Script Node 1/2 patterns + ID 168 Script Node 188 + ID 176 Script Node 3 + ID 191 Script Node 10). 13 empty entries preserved exactly with 4-quote format (IDs 22 26 31 34 47 57 61 75 89 124 166 183 plus ID 183). HTML i tags preserved in 8 instances (IDs 79 83 132 162 169 175 182 194 - emphasis text). Character names consistent throughout: Liberty Buchanan Wolfe Steel-Trap Lecherito Val Greatski. Faction names consistent: Patriarch Rangers Dorseys Godfishers Scar Collectors. Location names: Colorado Springs.",
     "quality_validation": "Dual validation passed. Structure: 0 errors (all quote counts exact match 169712 entries validated). Quality: 0 issues (L384680-385032 validated - no action markers translated to Japanese, no untranslated English entries, no bracket content translated, no glossary terminology violations). Technical terms: 24 Script Nodes preserved English across all positions. Zero warnings."
   },
-  "total_entries_completed": 56173,
+  "total_entries_completed": 56308,
   "total_entries": 232418,
-  "total_entries_untranslated": 176245,
+  "total_entries_untranslated": 176110,
   "overall_completion_rate": 24.2,
-  "next_action": "Continue sequential translation from line 387623. Current section: q1001_hallie (55 entries - Hallie McKay escaped slave confrontation dialogue). Next sections: q1001_haloedmoon and continuing gang content."
+  "next_action": "Continue sequential translation from line 390055. Current section: q1001_payasowannabeandexgodfisher (149 entries - Payaso wannabe and ex-Godfisher dialogues). Next sections: q1001_payasowannabegangintro q1001_poopertroopers."
 }
