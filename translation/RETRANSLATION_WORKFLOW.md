@@ -253,6 +253,46 @@ translation/
 
 **Update Frequency:** After each commit
 
+### ⚠️ CRITICAL: Progress File Update Checklist
+
+**When updating `.retranslation_progress.json`, you MUST update ALL of the following values:**
+
+1. **File-specific counters** (base_game, dlc1, or dlc2):
+   - `entries_translated` (or `entries_completed`)
+   - `entries_untranslated` (or `entries_untranslated_real`)
+   - `current_line`
+   - `completion_rate`
+   - `note` (session summary)
+
+2. **Global counters** (CRITICAL - automation monitoring depends on these):
+   - `total_entries_completed` = sum of all file entries_translated/completed
+   - `total_entries_untranslated` = total_entries - total_entries_completed
+   - `overall_completion_rate` = (total_entries_completed / total_entries) * 100
+
+3. **Commit tracking**:
+   - `last_commit_hash`
+   - `last_commit_message`
+
+**Example Calculation:**
+```
+base_game.entries_translated = 39,590
+dlc1.entries_translated = 9,385
+dlc2.entries_completed = 0
+→ total_entries_completed = 39,590 + 9,385 + 0 = 48,975
+→ total_entries_untranslated = 232,418 - 48,975 = 183,443
+→ overall_completion_rate = 48,975 / 232,418 = 21.1%
+```
+
+**⚠️ FAILURE TO UPDATE `total_entries_completed` WILL CAUSE AUTOMATION TO FAIL**
+
+The automation script (`auto-retranslate.sh`) monitors `total_entries_completed` to track
+progress. If this value is not updated, the script will detect 0 entries translated and
+stop after 3 consecutive sessions with 0 progress.
+
+**Incident Reference:** 2025-11-12 - Sessions #5, #6, #7 updated `base_game.entries_translated`
+but not `total_entries_completed`, causing automation to incorrectly detect 3 consecutive
+sessions with 0 entries and halt. (Commit: 9f0656f)
+
 ---
 
 ## Validation Requirements (UPDATED 2025-11-01)
