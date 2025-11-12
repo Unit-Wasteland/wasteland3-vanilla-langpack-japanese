@@ -18,15 +18,15 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 47151,
-      "entries_untranslated_real": 11698,
+      "entries_translated": 47336,
+      "entries_untranslated_real": 11513,
       "entries_kept_english": 42359,
-      "completion_rate": 80.8,
-      "current_line": 392610,
+      "completion_rate": 81.1,
+      "current_line": 393774,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 357: 110 new Japanese translations (L391801-392610). Sections completed: q1001_pieface (71 entries), q1001_piefacevsstarthatdreams (2 entries), q1001_radio_angeladeth (7 entries), q1001_radio_libertyarrest (8 entries), q1001_rebelliousslave (5 entries), q1001_satoshi (17 entries). Content: Lecherito Payasos leader confrontation with Cordite. Steel-Trap and Liberty conspiracy evidence via camcorder. Payasos betrayal revelation: used as Marshal bait. Gang alliance dynamics: Scar Collectors, Godfishers, tias and tios. Destruction derby camp warfare. Angela Deth radio communications: Liberty compound infiltration strategy. Ranger HQ status updates: Liberty Buchanan capture and transport. Rebellious slave combat barks and pleas. Satoshi hacker mysterious case quest: project solution execution, sensor config, haptic datastream device construction. Format compliance: Action markers English-only (sigh snorts verified), Script Nodes preserved (2, 3, 4, 34, 48, 49, 79), Trigger Conv Node 83 preserved, 4-quote format maintained, Attack brackets preserved, Spanish phrases retained (Mamones Payasos Aqui, Que chingados, Puta madres, Oye, pendejos). Character names: Lecherito Cordite Steel-Trap Liberty-Buchanan Dead-Red Satoshi. Factions: Payasos Scar-Collectors Godfishers Marshals Rangers. Locations: Colorado Colorado-Springs Kansas. Dual validation passed (Structure: 0 errors, Quality: 0 issues L391801-392610).",
-      "entries_completed": 47573
+      "note": "Session 358: 185 new Japanese translations (L392802-393774). Sections completed: q1001_scarcollectorambient (42 entries), q1001_scarcollectorbisonwrangler (7 entries), q1001_scarcollectorslave (88 entries), q1001_slaveambient (48 entries). Content: Scar Collector ambient dialogue post-Cordite return. Gang tensions: Godfishers departure relief, Payasos rivalry, Dorsey frustration. Camp life complaints: insufficient raiding, slavery nostalgia, Colorado Springs plunder anticipation. Bison wrangler romance with Bessie. Whetstone blind slave weapon smith: Company Store boss slave history, Steel-Trap drugging Cordite revelation, Dee Sharp singer disappearance mystery. Cordite poisoning witness testimony. Beta Master tip for gang manipulation. Blade sharpening services. Slave ambient general: escape futility, Liberty death celebration, new master speculation, Kansas relocation rumors, survival strategy. Action markers English-only (sigh, groan). Format compliance: Script Nodes preserved (1, 3-6, 21, 34, 38, 42, 45, 56, 90, 95), 4-quote format maintained. Character names: Cordite, Steel-Trap, Liberty-Buchanan, Dee-Sharp, Whetstone, Knock-Knock, Beta-Master, Bessie. Factions: Scar-Collectors, Godfishers, Payasos, Dorseys, Rangers. Locations: Colorado-Springs, Kansas, Alaska. Dual validation passed (Structure: 0 errors, Quality: 0 issues L392802-393774).",
+      "entries_completed": 47758
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -59,21 +59,21 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "11ae6a4",
-  "last_commit_message": "Base game translation: Session 357 - Payasos gang warfare & Satoshi quest (110 entries)",
+  "last_commit_hash": "5cc2c8f",
+  "last_commit_message": "Base game translation: Session 358 - Scar Collector camp life & slave dialogue (185 entries)",
   "validation_date": "2025-11-13",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
-  "analysis_session": 357,
+  "analysis_session": 358,
   "analysis_findings": {
-    "new_translations": "Session 357: 110 new Japanese translations across 6 sections (L391801-392610). q1001_pieface: Lecherito Payasos gang leader dialogue, Steel-Trap conspiracy exposure, camcorder evidence of betrayal. Cordite confrontation: yesterday's model vs loser dynamics. Payasos used as Marshal bait revelation. Gang camp alliance: Scar Collectors, Godfishers, tias and tios mobilization. Destruction derby preparation. q1001_piefacevsstarthatdreams: Battle taunts between factions. q1001_radio_angeladeth: Dead Red radio guidance for Liberty infiltration. q1001_radio_libertyarrest: Ranger HQ Liberty capture confirmation, transport coordination. q1001_rebelliousslave: Slave NPC combat pleas. q1001_satoshi: Hacker mysterious case quest resolution, device construction via haptic sensor datastream.",
-    "action_marker_protection": "3 action markers in range L391801-392610: sigh (L392212), snorts (L392238). All action markers preserved in English-only. Quality validation confirmed 0 action markers contain Japanese characters.",
-    "quote_format_handling": "All quote counts match source exactly (110 entries). 7 Script Nodes preserved English (Script Node 2, 3, 4, 34, 48, 49, 79). Trigger Conv Node 83 preserved. Attack brackets preserved (L392170 L392585 L392608). HTML i-tags preserved 3 instances (L392214 L392248 L392264). 4-quote format maintained throughout. Spanish phrases retained untranslated (Mamones Payasos Aqui, Que chingados, Puta madres, Oye, pendejos - cultural authenticity). Character names consistent: Lecherito, Cordite, Steel-Trap, Liberty-Buchanan, Dead-Red, Satoshi. Faction names: Payasos, Scar-Collectors, Godfishers, Marshals, Rangers. Location names: Colorado, Colorado-Springs, Kansas.",
-    "quality_validation": "Dual validation passed. Structure: 0 errors 169712 entries all quote counts exact match. Quality: 0 issues L391801-392610 - no action markers translated to Japanese, no untranslated English entries, no bracket content translated, no glossary terminology violations. Technical terms: Script Nodes preserved English. Trigger Conv Node preserved. Zero warnings."
+    "new_translations": "Session 358: 185 new Japanese translations across 4 sections (L392802-393774). q1001_scarcollectorambient: Scar Collector gang member ambient dialogue post-Cordite return. Godfisher departure relief, Payasos mockery, Dorsey complaints. Camp frustrations: insufficient raiding, slavery nostalgia, Colorado Springs plunder anticipation. q1001_scarcollectorbisonwrangler: Bison rancher dialogue, emotional bond with Bessie bison. Rangers assistance gratitude. q1001_scarcollectorslave: Whetstone blind slave weapon smith extensive dialogue tree. Company Store boss slave history, Steel-Trap drugging Cordite witness testimony, Dee Sharp singer disappearance investigation. Beta Master gang manipulation tip. Blade sharpening merchant services. q1001_slaveambient: General slave camp ambient dialogue. Escape futility, Liberty death celebration, new master speculation, Kansas relocation rumors, survival strategies.",
+    "action_marker_protection": "2 action markers in range L392802-393774: sigh (L393726), groan (L393744). All action markers preserved in English-only. Quality validation confirmed 0 action markers contain Japanese characters.",
+    "quote_format_handling": "All quote counts match source exactly (185 entries). 14 Script Nodes preserved English (Script Node 1, 3, 4, 5, 6, 21, 34, 38, 42, 45, 50, 51, 56, 90, 95). 4-quote format maintained throughout. Mixed dialogue-narrative entries corrected (removed extra quotes). Character names consistent: Cordite, Steel-Trap, Liberty-Buchanan, Dee-Sharp, Whetstone, Knock-Knock, Beta-Master, Bessie. Faction names: Scar-Collectors, Godfishers, Payasos, Dorseys, Rangers. Location names: Colorado-Springs, Kansas, Alaska.",
+    "quality_validation": "Dual validation passed. Structure: 0 errors 169712 entries all quote counts exact match. Quality: 0 issues L392802-393774 - no action markers translated to Japanese, no untranslated English entries, no bracket content translated, no glossary terminology violations. Technical terms: Script Nodes preserved English. Zero warnings."
   },
-  "total_entries_completed": 56682,
+  "total_entries_completed": 56867,
   "total_entries": 232418,
   "total_entries_untranslated": 175736,
   "overall_completion_rate": 24.4,
-  "next_action": "Continue sequential translation from line 392611. Section q1001_satoshi completed (17 of 17 entries). Next section: q1001_scarcollectorambient starting at line 392613."
+  "next_action": "Continue sequential translation from line 393775. Section q1001_slaveambient completed (48 of 48 entries). Next section: q1001_slavedoctor starting at line 393777."
 }
