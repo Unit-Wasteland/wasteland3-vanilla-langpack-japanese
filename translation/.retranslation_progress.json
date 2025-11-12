@@ -18,15 +18,15 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 43636,
-      "entries_untranslated_real": 15116,
-      "entries_kept_english": 42992,
-      "completion_rate": 25.9,
-      "current_line": 363325,
+      "entries_translated": 43846,
+      "entries_untranslated_real": 14906,
+      "entries_kept_english": 42782,
+      "completion_rate": 25.8,
+      "current_line": 365440,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 325: 70 new Japanese translations (L362767-363324). Three sections: o2001_charley_interior (37 entries - Charley after-battle victory dialogue, compensation offer, keycard to hideout safe, ninja army story), o2001_combatbarks_flabtheinhaler (19 entries - Flab combat barks with dying words, philosophical reflections, age complaints, violent threats), o2001_combatbarks_masher (14 entries - Monster Army combat calls including battle cries, howl action marker correctly preserved). Action marker protection verified (howl kept in English). Proper nouns from glossary (Redhats, Charley Knowes, Bizarre, Cartel, Rangers, Patriarch, Monster Army). Dual validation passed (Structure: 0 errors, Quality: 0 issues).",
-      "entries_completed": 43952
+      "note": "Session 326: 210 new Japanese translations (L363478-365438). Two sections: o2001_doctor (35 entries - Doctor Cold Cuts Lev Hirsch veterinarian slash butcher offering medical services, Cartel takeover causing injuries, Monster Army Cyclops rumors in Warrens, crazy clowns resolved), o2001_eidilon (175 entries - Eidilon Chix Flicks theatre adult movie quest, requests movie spools from Monster Army Bunker, extensive pornographic film dialogue and editing scene with Rangers, multiple explicit movie descriptions). Added translations: Doctor Cold Cuts, Lev Hirsch, Eidilon, Chick Flx Theatre, Cartel, Cyclops. Proper nouns from glossary correctly applied. HTML i tags and escape sequences preserved. Dual validation passed (Structure: 0 errors, Quality: 0 issues). Double-double-quote format strictly maintained.",
+      "entries_completed": 44162
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -59,21 +59,21 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "49c5d65",
-  "last_commit_message": "Base game translation: Session 325 - Charley's victory and Monster Army combat barks (70 entries)",
+  "last_commit_hash": "b8fd731",
+  "last_commit_message": "Base game translation: Session 326 - Doctor Cold Cuts and Eidilon theatre quest (210 entries)",
   "validation_date": "2025-11-13",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
-  "analysis_session": 325,
+  "analysis_session": 326,
   "analysis_findings": {
-    "new_translations": "Session 325: 70 new Japanese translations across 3 sections. o2001_charley_interior (37 entries - Charley Knowes claiming victory over Bizarre, offering compensation to Rangers, reveals keycard to safe in hideout, mentions ninja army backup), o2001_combatbarks_flabtheinhaler (19 entries - Flab the Inhaler combat barks including dying words about living and dying as Monster, philosophical reflections, Patriarch comparison, age-related complaints like back pain and wheelchair need, violent blood threats), o2001_combatbarks_masher (14 entries - Masher Monster Army combat barks with battle cries, howl action marker preserved correctly, references to longing for open battle, Just like old times calls).",
-    "action_marker_protection": "One action marker in current section: howl. Correctly kept in English. No Japanese characters in any action markers. Strict protection maintained.",
-    "quality_validation": "Dual validation passed. Structure: 0 errors. Quality: 0 issues. Proper nouns from glossary correctly applied (Redhats, Charley Knowes, Bizarre, Cartel, Rangers, Patriarch, Monster Army). Action marker verified (howl remained in English). Unified translation decision logic applied successfully.",
-    "validation_status": "Structure: 0 errors. Action markers: 0 Japanese (1 marker verified - howl). Quality: 0 issues. All validations passed. Double-double-quote format strictly maintained."
+    "new_translations": "Session 326: 210 new Japanese translations across 2 sections. o2001_doctor (35 entries - Doctor Cold Cuts dialogue, Lev Hirsch character introduction, veterinarian and butcher background, medical services at Bizarre, references Cartel takeover causing injuries, Monster Army Cyclops rumors in Warrens, crazy clowns quest resolved), o2001_eidilon (175 entries - Eidilon Chix Flicks theatre owner quest, adult movie theatre requesting movie spools from Monster Army Bunker, extensive dialogue about pornographic film production, collaborative movie editing scene with player choices, 16 explicit movie scene descriptions, film viewing and quest completion).",
+    "action_marker_protection": "No action markers in o2001_doctor or o2001_eidilon sections. Grep verification performed.",
+    "quality_validation": "Dual validation passed. Structure: 0 errors. Quality: 0 issues. Proper nouns from glossary correctly applied (Rangers, Bizarre, Colorado, Monster Army, Warrens, Flab). New translations added: Doctor Cold Cuts, Lev Hirsch, Doc Kessler, Eidilon, Chick Flx Theatre, Cartel, Cyclops. HTML i tags preserved. Escape sequences maintained. Unified translation decision logic applied successfully.",
+    "validation_status": "Structure: 0 errors. Action markers: None present (verified by grep). Quality: 0 issues. All validations passed. Double-double-quote format strictly maintained."
   },
-  "total_entries_completed": 53337,
+  "total_entries_completed": 53547,
   "total_entries": 232418,
-  "total_entries_untranslated": 179081,
-  "overall_completion_rate": 22.9,
-  "next_action": "Continue sequential translation from line 363325. Section: o2001_doctor."
+  "total_entries_untranslated": 178871,
+  "overall_completion_rate": 23.0,
+  "next_action": "Continue sequential translation from line 365440. Section: o2001_eidilon continuation."
 }
