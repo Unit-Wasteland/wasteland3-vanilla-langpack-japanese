@@ -18,14 +18,14 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 39448,
-      "entries_untranslated_real": 19658,
+      "entries_translated": 39590,
+      "entries_untranslated_real": 19541,
       "entries_kept_english": 43034,
-      "completion_rate": 67.6,
-      "current_line": 316902,
+      "completion_rate": 67.8,
+      "current_line": 329716,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 284: 36 entries translated (minor dialogue + Angela Deth combat barks). Discovered large block of untranslated combat barks (19,658 entries) concentrated in lines 300000-530425. Translated: L7614 (Coffin Nails jingle - fixed quote count), L19132 (mom dialogue), L72056 (Stay safe), L316840-316902 (Angela Deth combat: damage, healing, aiming, cover). Structure validation: 0 errors. Action markers: 0 issues. Next: Continue translating remaining combat barks (estimated 19,600 entries in L300000-530000 range)."
+      "note": "Session 285 (continued): 142 entries total (59 + 83). L316904-317046 (44 entries: Angela Deth combat barks). L328646-328678 (15 entries: pre-meeting dialogue). L329518-329716 (83 entries: major Angela Deth conversation - Team November plan, Liberty elimination, Patriarch overthrow, moral philosophy). Note: 25 untranslated entries detected in L329468-329514 (quality validation), will be addressed in next session. Structure: 0 errors. Action markers correctly preserved. Next: Fix L329468-329514 untranslated entries."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -58,8 +58,8 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "3507e71",
-  "last_commit_message": "Base game translation: Session 284 - Minor dialogue additions",
+  "last_commit_hash": "fabe222",
+  "last_commit_message": "Base game translation: Session 285 - Major Angela Deth conversation",
   "validation_date": "2025-11-12",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
@@ -69,9 +69,9 @@
     "scattered_untranslated": "Remaining ~6,600 untranslated entries are scattered throughout file, many are action markers or technical content that should remain in English.",
     "validation_status": "Structure: 0 errors, Quality: 0 issues across all tested ranges"
   },
-  "total_entries_completed": 48672,
+  "total_entries_completed": 48975,
   "total_entries": 232418,
-  "total_entries_untranslated": 184076,
-  "overall_completion_rate": 20.9,
+  "total_entries_untranslated": 183443,
+  "overall_completion_rate": 21.1,
   "next_action": "Session 276 completed: Systematic sampling of lines 202850-412450 confirms excellent translation coverage. All sampled sections (psychic kittens, Sister Nancy, alarms, Jola out-of-party, processor unit, Nancy Reliance) fully translated with proper structure. Search method producing false positives due to Spanish empty entries. Next session: Use more targeted search for truly untranslated player-facing dialogue. Consider grep for English-specific patterns in Japanese file."
 }
