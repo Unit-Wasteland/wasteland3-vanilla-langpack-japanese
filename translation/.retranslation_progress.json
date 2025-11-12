@@ -18,15 +18,15 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 42711,
-      "entries_untranslated_real": 15857,
-      "entries_kept_english": 42904,
+      "entries_translated": 42811,
+      "entries_untranslated_real": 15757,
+      "entries_kept_english": 42992,
       "completion_rate": 25.2,
-      "current_line": 354261,
+      "current_line": 355294,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 314: Translated 130 entries (L353443-354260). Sections: o1001_greatgurn (76 entries - Great Gurn fortune teller), o1001_havadrodinkirk (9 entries - Norse dialogue), o1001_hawkbit (45 entries - Hawkbit panther). Quote format strictly maintained (4-quote vs 2-quote distinction). Action markers preserved. Dual validation passed (Structure: 0 errors, Quality: 0 issues).",
-      "entries_completed": 42711
+      "note": "Session 315: Translated 100 entries (L354261-355293). Sections: o1001_hopeful (22 entries), o1001_hopefulguard (16 entries), o1001_hopeful_couple (10 entries), o1001_hunter (6 entries), o1001_int_greenhousecomputer (7 entries), o1001_larsodinkirk (39 translated - Norse warrior dialogue). Action markers preserved (::crazed howling::, ::boisterous laughter::). HTMLタグ2箇所保持. Dual validation passed (Structure: 0 errors, Quality: 0 issues).",
+      "entries_completed": 42811
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -59,21 +59,21 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "00aaddb",
-  "last_commit_message": "Base game translation: Session 314 - Bizarre sections",
+  "last_commit_hash": "pending",
+  "last_commit_message": "Base game translation: Session 315 - Hopefuls camp and Odinkirk sections",
   "validation_date": "2025-11-12",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
-  "analysis_session": 314,
+  "analysis_session": 315,
   "analysis_findings": {
-    "new_translations": "Session 314: 130 new Japanese translations - Bizarre sections (Great Gurn: 76 entries, Havadrodinkirk: 9 entries, Hawkbit: 45 entries)",
-    "action_marker_protection": "Action marker preserved (::growls::). All action markers remain in English. No Japanese characters in action markers.",
-    "quality_validation": "Dual validation passed. Structure: 0 errors (4 pre-existing HTML warnings unrelated). Quality: 0 issues. Quote format strictly maintained (2-quote vs 4-quote distinction preserved per Unity requirements).",
-    "validation_status": "Structure: 0 errors, Quality: 0 issues. [TO JOLA] directive tags maintained. HTML tags preserved. Quote counts match source exactly."
+    "new_translations": "Session 315: 100 new Japanese translations - Bizarre sections (Hopefuls: 22 entries, Guards: 16 entries, Couple: 10 entries, Hunter: 6 entries, Greenhouse computer: 7 entries, Odinkirk Norse warriors: 39 entries)",
+    "action_marker_protection": "Action markers preserved (::crazed howling::, ::boisterous laughter::). All action markers remain in English. No Japanese characters in action markers.",
+    "quality_validation": "Dual validation passed. Structure: 0 errors (4 pre-existing HTML warnings unrelated). Quality: 0 issues. HTML tags preserved in 2 locations.",
+    "validation_status": "Structure: 0 errors, Quality: 0 issues. Quote counts match source exactly. 2-quote and 4-quote formats distinguished properly."
   },
-  "total_entries_completed": 52096,
+  "total_entries_completed": 52196,
   "total_entries": 232418,
-  "total_entries_untranslated": 180484,
-  "overall_completion_rate": 22.4,
-  "next_action": "Continue sequential translation from line 354261. Section: o1001_hopeful (next section starting)."
+  "total_entries_untranslated": 180384,
+  "overall_completion_rate": 22.5,
+  "next_action": "Continue sequential translation from line 355294. Section: o1001_lewisstenerud (next section starting)."
 }
