@@ -18,15 +18,15 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 42358,
-      "entries_untranslated_real": 16210,
-      "entries_kept_english": 43034,
-      "completion_rate": 25.0,
-      "current_line": 351595,
+      "entries_translated": 42811,
+      "entries_untranslated_real": 15757,
+      "entries_kept_english": 42992,
+      "completion_rate": 25.2,
+      "current_line": 355294,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 311: Translated 162 entries (L350563-351594). Sections completed: o1001_bjornodinkirk (9 entries), o1001_bluemailbox (18 entries), o1001_carmen (80 entries), o1001_cartelthug (14 entries), o1001_charley (41 entries). All proper nouns correctly translated using glossary. Dual validation passed (Structure: 0 errors, Quality: 0 issues).",
-      "entries_completed": 42358
+      "note": "Session 315: Translated 100 entries (L354261-355293). Sections: o1001_hopeful (22 entries), o1001_hopefulguard (16 entries), o1001_hopeful_couple (10 entries), o1001_hunter (6 entries), o1001_int_greenhousecomputer (7 entries), o1001_larsodinkirk (39 translated - Norse warrior dialogue). Action markers preserved (::crazed howling::, ::boisterous laughter::). HTMLタグ2箇所保持. Dual validation passed (Structure: 0 errors, Quality: 0 issues).",
+      "entries_completed": 42811
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -59,21 +59,21 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "eafb026",
-  "last_commit_message": "Base game translation: Session 311 - Bizarre sections Part 2",
+  "last_commit_hash": "3a2f125",
+  "last_commit_message": "Base game translation: Session 315 - Hopefuls camp and Odinkirk sections",
   "validation_date": "2025-11-12",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
-  "analysis_session": 311,
+  "analysis_session": 315,
   "analysis_findings": {
-    "new_translations": "Session 311: 162 new Japanese translations - Bizarre entrance sections (bjornodinkirk, bluemailbox, carmen, cartelthug, charley)",
-    "action_marker_protection": "Action markers verified - all preserved in English. HTML tags preserved in dialogue.",
-    "quality_validation": "Dual validation passed. Structure: 0 errors (4 pre-existing HTML warnings unrelated). Quality: 0 issues.",
-    "validation_status": "Structure: 0 errors, Quality: 0 issues. Script Node markers preserved. Quote format strictly maintained."
+    "new_translations": "Session 315: 100 new Japanese translations - Bizarre sections (Hopefuls: 22 entries, Guards: 16 entries, Couple: 10 entries, Hunter: 6 entries, Greenhouse computer: 7 entries, Odinkirk Norse warriors: 39 entries)",
+    "action_marker_protection": "Action markers preserved (::crazed howling::, ::boisterous laughter::). All action markers remain in English. No Japanese characters in action markers.",
+    "quality_validation": "Dual validation passed. Structure: 0 errors (4 pre-existing HTML warnings unrelated). Quality: 0 issues. HTML tags preserved in 2 locations.",
+    "validation_status": "Structure: 0 errors, Quality: 0 issues. Quote counts match source exactly. 2-quote and 4-quote formats distinguished properly."
   },
-  "total_entries_completed": 51743,
+  "total_entries_completed": 52196,
   "total_entries": 232418,
-  "total_entries_untranslated": 180837,
-  "overall_completion_rate": 22.2,
-  "next_action": "Continue sequential translation from line 351595. Section: o1001_chemicallab (new section starting)."
+  "total_entries_untranslated": 180384,
+  "overall_completion_rate": 22.5,
+  "next_action": "Continue sequential translation from line 355294. Section: o1001_lewisstenerud (next section starting)."
 }
