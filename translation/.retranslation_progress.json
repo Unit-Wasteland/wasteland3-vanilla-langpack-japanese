@@ -21,12 +21,12 @@
       "entries_translated": 43869,
       "entries_untranslated_real": 14883,
       "entries_kept_english": 42782,
-      "completion_rate": 26.0,
-      "current_line": 365952,
+      "completion_rate": 26.1,
+      "current_line": 367542,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 327: 23 new Japanese translations (L365440-365952). Two sections: o2001_eidilon conclusion (15 entries - Quest finale, party member participation offers including Fish-Lips Jodie Bell Bell Victory Scotchmo, show premiere arrangements, Marshal Kwon interactions), o2001_ellaripplesbarks (8 entries - Ella Ripples adult performer combat barks, sci-fi film references xenomorph parody). Action markers preserved: dances cowers (NOT translated to Japanese). Special quote formats maintained: triple-quote and five-quote formats correctly preserved. HTML i tags preserved. Dual validation passed (Structure: 0 errors, Quality: 0 issues).",
-      "entries_completed": 44185
+      "note": "Session 328: 95 new Japanese translations (L367270-367542). One major section: o2001_flabtheinhaler (95 entries - Flab the Inhaler as Monster Army/Bizarre leader, Randy Gett mechanic questline, Charley Knowes conspiracy, Los Payasos clown threat in Warrens, exploding pigs attacks, missing people investigation, merchant discount rewards 20% and 30%, Victory Buchanan confrontation dialogue, location references Bizarre Quarex museum Eidilon shows). Action marker preserved: ptooh (NOT translated). HTML i tags preserved. Script Nodes preserved: 219 256 267 (NOT translated). Dual validation passed (Structure: 0 errors, Quality: 0 issues).",
+      "entries_completed": 44280
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -59,21 +59,21 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "279be94",
-  "last_commit_message": "Base game translation: Session 327 - Eidilon theatre quest conclusion and Ella Ripples barks (23 entries)",
+  "last_commit_hash": "b7f2401",
+  "last_commit_message": "Base game translation: Session 328 - Flab the Inhaler dialogue (95 entries)",
   "validation_date": "2025-11-13",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
-  "analysis_session": 327,
+  "analysis_session": 328,
   "analysis_findings": {
-    "new_translations": "Session 327: 23 new Japanese translations across 2 sections. o2001_eidilon conclusion (15 entries - Quest finale with party member participation offers, Fish-Lips and Jodie Bell Bell companion dialogue, Victory character performance, Scotchmo participation, Marshal Kwon special interactions, show premiere arrangements, final quest resolution), o2001_ellaripplesbarks (8 entries - Ella Ripples adult film performer combat barks, theatrical sci-fi references, xenomorph parody lines).",
-    "action_marker_protection": "2 action markers present and correctly preserved in English: dances, cowers. Verified NOT translated to Japanese (Spanish reference had incorrect translations to baila and se acobarda).",
-    "quality_validation": "Dual validation passed. Structure: 0 errors. Quality: 0 issues. Special quote formats correctly maintained: 5-quote format and 3-quote format (incomplete). HTML i tags preserved. Script Node 10 preserved (technical term). Action markers verified in English.",
-    "validation_status": "Structure: 0 errors (all quote counts match source). Action markers: 2 present, all in English (verified). Quality: 0 issues. All validations passed."
+    "new_translations": "Session 328: 95 new Japanese translations across one major section. o2001_flabtheinhaler (95 entries - Flab the Inhaler Monster Army/Bizarre leader dialogues covering Randy Gett mechanic storyline, Charley Knowes conspiracy quest, Los Payasos threat investigation, Warrens mystery with exploding pigs and missing people, merchant discount reward variants 20% and 30%, Victory Buchanan confrontation, player dialogue choices, location references to Bizarre facilities, Quarex museum, Eidilon shows).",
+    "action_marker_protection": "1 action marker present and correctly preserved in English: ptooh (spitting sound effect). Verified NOT translated to Japanese.",
+    "quality_validation": "Dual validation passed. Structure: 0 errors. Quality: 0 issues. HTML i tags preserved for emphasis (dog, weren't, good old days). Technical terms preserved: Script Node 219, Script Node 256, Script Node 267 (NOT translated). Glossary compliant: character names (Flab, Charley Knowes, Quarex, Randy Gett, Vic, Sasha), faction names (Los Payasos, Monster Army, Mashers).",
+    "validation_status": "Structure: 0 errors (all quote counts match source exactly). Action markers: 1 present, kept in English (ptooh verified). Quality: 0 issues. All validations passed."
   },
-  "total_entries_completed": 53570,
+  "total_entries_completed": 53665,
   "total_entries": 232418,
-  "total_entries_untranslated": 178848,
+  "total_entries_untranslated": 178753,
   "overall_completion_rate": 23.1,
-  "next_action": "Continue sequential translation from line 365952. Next section: o2001_flabtheinhaler (Flab the Inhaler dialogue)."
+  "next_action": "Continue sequential translation from line 367542. Next section: Continue o2001_flabtheinhaler (more dialogue)."
 }
