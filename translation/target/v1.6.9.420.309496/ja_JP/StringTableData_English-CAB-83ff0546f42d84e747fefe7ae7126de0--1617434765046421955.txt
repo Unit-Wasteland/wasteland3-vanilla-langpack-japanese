@@ -196593,97 +196593,97 @@
        [17]
         1 string data = "バックアップビル。"
        [18]
-        1 string data = "Y'know, around."
+        1 string data = "ああ、その辺だよ。"
        [19]
-        1 string data = "You haven't used the console for Morningstar's Mission yet! Now it's a failure."
+        1 string data = "モーニングスターのミッションのコンソールをまだ使ってないぞ！今や失敗だ。"
        [20]
-        1 string data = "Doesn't matter, you already got what you needed."
+        1 string data = "問題ない、必要なものは既に手に入れた。"
        [21]
-        1 string data = "Use Console."
+        1 string data = "コンソールを使う。"
        [22]
-        1 string data = "Looks like you can unlock the database. Nice."
+        1 string data = "データベースのロックを解除できそうだ。いいね。"
        [23]
-        1 string data = "Nothing to do here yet (or) you've already done it.\n\n\n"
+        1 string data = "まだやることがない（あるいは）既に済ませた。\n\n\n"
        [24]
         1 string data = "Trigger Conv Node 25"
        [25]
-        1 string data = """ "Conversation Node" doesn't appear to work yet."
+        1 string data = """ "Conversation Node" はまだ動作していないようだ。"
        [26]
-        1 string data = """Okay. Where now?"
+        1 string data = """了解。次はどこだ？"
        [27]
-        1 string data = "Go to Morningstar's basement."
+        1 string data = "モーニングスターの地下室へ行く。"
        [28]
-        1 string data = "Actually, go back."
+        1 string data = "やっぱり戻る。"
        [29]
-        1 string data = "You're not on Morningstar's quest, though.\n"
+        1 string data = "だがモーニングスターのクエストを受けてないぞ。\n"
        [30]
-        1 string data = "This shouldn't ever fire. Go bug Alex."
+        1 string data = "これは絶対に起動しないはず。アレックスにバグ報告しろ。"
        [31]
-        1 string data = "Door 1 Opens, Door 1 closes, Door 2 opens. Triggers next step of quest."
+        1 string data = "ドア1が開き、ドア1が閉じ、ドア2が開く。クエストの次の段階をトリガー。"
        [32]
-        1 string data = "2nd Bunker door closes, sealing you in."
+        1 string data = "2つ目のバンカードアが閉じ、君を封印する。"
        [33]
-        1 string data = "Morningstar asks you to kill it."
+        1 string data = "モーニングスターがそれを殺すよう頼む。"
        [34]
-        1 string data = "Dilly-dally a bit."
+        1 string data = "少しぐずぐずする。"
        [35]
-        1 string data = ""Thank you, Rangers." His voice is lower than a whisper. \r\n\r\nIn the echoing silence, you sort through the car's guts pocketing what looks valuable. "
+        1 string data = ""ありがとう、レンジャー。" 彼の声は囁きより低い。\r\n\r\n響く静寂の中、車の内臓を漁って価値がありそうなものをポケットに入れる。"
        [36]
-        1 string data = "Starting quest."
+        1 string data = "クエスト開始。"
        [37]
-        1 string data = "Contact Initiated."
+        1 string data = "接触開始。"
        [38]
-        1 string data = "Go to the "Backup Building" (Database Building) when we're not on the quest."
+        1 string data = "クエストを受けていない時に"バックアップビル"（データベースビル）へ行く。"
        [39]
-        1 string data = "You're not at the right part of the quest. Come back later."
+        1 string data = "クエストの適切な段階にいない。後でまた来い。"
        [40]
-        1 string data = "Debug: Leave conversation to check the Journal. Normally you can't do this!"
+        1 string data = "Debug: 会話を離れてジャーナルを確認。通常はこれはできない！"
        [41]
-        1 string data = "Verifed Mission Failure. Check your debug log."
+        1 string data = "ミッション失敗確認済み。デバッグログを確認せよ。"
        [42]
-        1 string data = "Could not verifiy mission failure. This shouldn't happen: check your debug logs and bug Alex."
+        1 string data = "ミッション失敗を確認できなかった。これは起こらないはず: デバッグログを確認してアレックスにバグ報告せよ。"
        [43]
-        1 string data = "Quest not started, but it'll fail once you start it. This won't happen in the game, as you'll trigger the quest before approaching the building."
+        1 string data = "クエスト未開始だが、開始すれば失敗する。これはゲームでは起こらない、建物に近づく前にクエストをトリガーするため。"
        [44]
-        1 string data = "Activate Morningstar Console conversation"
+        1 string data = "モーニングスターのコンソール会話を起動"
        [45]
-        1 string data = "Back to Debug Options"
+        1 string data = "デバッグオプションに戻る"
        [46]
-        1 string data = "About to start Morningstar Conversation. This is an "Unsafe" speaker."
+        1 string data = "モーニングスター会話を開始しようとしている。これは"安全でない"話者。"
        [47]
-        1 string data = "Fall through if speaker isn't present."
+        1 string data = "話者が存在しない場合はフォールスルー。"
        [48]
-        1 string data = "Walkthrough shortcut: Set up "Call to Action" and unlock Morningstar's garage in this scene. Changing this string."
+        1 string data = "ウォークスルーショートカット: "コール・トゥ・アクション"をセットアップし、このシーンでモーニングスターのガレージをアンロック。この文字列を変更。"
        [49]
-        1 string data = "Contacted by Morningstar over Radio, step 1, step 2."
+        1 string data = "モーニングスターから無線で連絡、ステップ1、ステップ2。"
        [50]
-        1 string data = "Entered Backup building, used Console to unlock Database.\n"
+        1 string data = "バックアップビルに入り、コンソールを使用してデータベースをアンロック。\n"
        [51]
-        1 string data = "Transitions to b1201_Morningstar.conversation, node 0"
+        1 string data = "b1201_Morningstar.conversation、node 0に遷移"
        [52]
-        1 string data = "Transitions to b1201_Morningstar2.conversation, node 0"
+        1 string data = "b1201_Morningstar2.conversation、node 0に遷移"
        [53]
-        1 string data = " Debug node. Do Not Translate. To access this conversation, make sure TOGGLE CONVERSATION Debug is set to TRUE."
+        1 string data = " Debug node. Do Not Translate. この会話にアクセスするには、TOGGLE CONVERSATION Debugを TRUE に設定せよ。"
        [54]
-        1 string data = " Transition into old Morningstar conversation for testing purposes."
+        1 string data = " テスト目的で古いモーニングスター会話に遷移。"
        [55]
-        1 string data = " Transition into new Morningstar Conversation for Testing purposes."
+        1 string data = " テスト目的で新しいモーニングスター会話に遷移。"
        [56]
         1 string data = "Trigger Conv Node 60"
        [57]
         1 string data = "Trigger Conv Node 61"
        [58]
-        1 string data = " Debug: Morningstar conversation options."
+        1 string data = " Debug: モーニングスター会話オプション。"
        [59]
-        1 string data = " Debug: Pick."
+        1 string data = " Debug: 選択。"
        [60]
-        1 string data = " Morningstar 'rejects' you: b1201_Morningstar2 node 140."
+        1 string data = " モーニングスターが君を「拒絶」: b1201_Morningstar2 node 140。"
        [61]
-        1 string data = " Morningstar asks you to decide on a car. b1201_Morningstar2 Node 131."
+        1 string data = " モーニングスターが車を決めるよう頼む。b1201_Morningstar2 Node 131。"
        [62]
-        1 string data = " Debug: Trigger Gonzalez Radio Call.\n"
+        1 string data = " Debug: ゴンザレスの無線呼び出しをトリガー。\n"
        [63]
-        1 string data = " Debug: Morningstar Reactivity Convo, MorningstarAndGippers. "
+        1 string data = " Debug: モーニングスターリアクティビティ会話、MorningstarAndGippers。"
        [64]
         1 string data = "Trigger Conv Node 68"
        [65]
@@ -197099,95 +197099,95 @@
       1 Array Array (99 items)
        0 int size = 99
        [0]
-        1 string data = " Dark Clouds Mission Debug. What action would you like to take?"
+        1 string data = " ダーククラウズミッションのデバッグ。どの行動を取りたいか？"
        [1]
-        1 string data = " (Conditionals are active) Debug Menu #1. Select Debug Commands to execute."
+        1 string data = " （条件分岐が有効）デバッグメニュー#1。実行するデバッグコマンドを選択。"
        [2]
-        1 string data = " Farewell."
+        1 string data = " さらばだ。"
        [3]
-        1 string data = " (Conditionals are active). Debug Menu #1. Select a Debug option. Certain options may be invisible in the User Interface."
+        1 string data = " （条件分岐が有効）。デバッグメニュー#1。デバッグオプションを選択。一部のオプションはユーザーインターフェースで不可視かもしれない。"
        [4]
-        1 string data = "  Root menu, please."
+        1 string data = "  ルートメニューを頼む。"
        [5]
-        1 string data = "  (Dark Clouds)\nStart the "Dark Clouds" mission. "
+        1 string data = "  （ダーククラウズ）\n"ダーククラウズ"ミッションを開始。"
        [6]
-        1 string data = "  (to World Map)\nApproach the World Map transition before visiting the Gipper Oil Field. Triggers a warning.\nCurrent Warnings: [Global: Mission_DarkClouds_b1001_AbandonedWarnings]\n"
+        1 string data = "  （ワールドマップへ）\nギッパーズの油田を訪問する前にワールドマップへの遷移に近づく。警告をトリガー。\n現在の警告数: [Global: Mission_DarkClouds_b1001_AbandonedWarnings]\n"
        [7]
-        1 string data = " (Conditionals are NOT active) Leads to Debug Menu #2.  Select Debug Commands to execute without checking the conditionals. This is very likely to break stuff."
+        1 string data = " （条件分岐が無効）デバッグメニュー#2へ。条件分岐をチェックせずにデバッグコマンドを実行。これは非常に壊れやすい。"
        [8]
-        1 string data = " You really should be checking with all the conditionals turned on. Talk to Alex before going down this road."
+        1 string data = " 全ての条件分岐をオンにしてチェックすべきだ。この道を進む前にAlexに相談せよ。"
        [9]
-        1 string data = " Let's go back to the root menu, please."
+        1 string data = " ルートメニューに戻ろう。"
        [10]
-        1 string data = "  Trigger Warnings incremented.\nCurrent Warnings: [Global: Mission_DarkClouds_b1001_AbandonedWarnings]\n"
+        1 string data = "  警告トリガーが増加。\n現在の警告数: [Global: Mission_DarkClouds_b1001_AbandonedWarnings]\n"
        [11]
-        1 string data = " Debug Menu #2. Debug Options with DIRECT ACCESS. Make your choice with caution!"
+        1 string data = " デバッグメニュー#2。直接アクセス付きデバッグオプション。注意して選択せよ！"
        [12]
-        1 string data = " Already checked with Alex, he says "totes McGoats, go forth and #GameDev."\nIt was a weird response, but we don't have to dwell on it. let's start debug without any conditionals."
+        1 string data = " 既にAlexに確認済み、彼は"totes McGoats, go forth and #GameDev."と言った。\n変な返答だったが、気にする必要はない。条件分岐なしでデバッグを始めよう。"
        [13]
-        1 string data = "  After helping the Gippers in the Denver Ruins, Sister Nancy Vigilance asks you to Investigate The Oil Field.\n\n\nAlso triggers Addendum 0 in "The Zealot.""
+        1 string data = "  デンバー廃墟でギッパーズを助けた後、シスター・ナンシー・ヴィジランスが油田を調査するよう頼む。\n\n\n"ザ・ジーロット"の補遺0もトリガー。"
        [14]
-        1 string data = "  Start "Dark Clouds.""
+        1 string data = "  "ダーククラウズ"を開始。"
        [15]
-        1 string data = "  Go back to some other menus."
+        1 string data = "  他のメニューに戻る。"
        [16]
-        1 string data = "  (Dark Clouds)\nTake steps to Advance the Mission."
+        1 string data = "  （ダーククラウズ）\nミッションを進める手順を踏む。"
        [17]
-        1 string data = "  (Dark Clouds)\nRisk Failing the mission, take actions counter-productive to the mission."
+        1 string data = "  （ダーククラウズ）\nミッション失敗のリスク、ミッションに逆効果の行動を取る。"
        [18]
-        1 string data = "  (Dark Clouds)\nTake steps to Advance the Mission."
+        1 string data = "  （ダーククラウズ）\nミッションを進める手順を踏む。"
        [19]
-        1 string data = "  (Dark Clouds)\nRisk Failing the mission, take actions counter-productive to the mission."
+        1 string data = "  （ダーククラウズ）\nミッション失敗のリスク、ミッションに逆効果の行動を取る。"
        [20]
-        1 string data = "  (Dark Clouds)\nOther mission-related options."
+        1 string data = "  （ダーククラウズ）\nその他のミッション関連オプション。"
        [21]
-        1 string data = "  (Oil Field)\nSave Buck and Blaze."
+        1 string data = "  （油田）\nバックとブレイズを救う。"
        [22]
-        1 string data = "  Attack one of the Gippers."
+        1 string data = "  ギッパーズの一人を攻撃。"
        [23]
-        1 string data = "  (to World Map)\nAbandon the Mission: Transition to the World Map even after receiving warnings, or leave the Oil Field fight before it's completed."
+        1 string data = "  （ワールドマップへ）\nミッションを放棄: 警告を受けた後でもワールドマップに遷移、あるいは油田の戦闘が完了する前に離脱。"
        [24]
-        1 string data = " (Denver Ruins to Oil Field)\nVisit the Gipper Oil Field for the first time after receiving the mission. "
+        1 string data = " （デンバー廃墟から油田へ）\nミッションを受けた後、初めてギッパーズの油田を訪問。"
        [25]
-        1 string data = "  (Dark Clouds) Fight off the Gippers and talk to Nancy Glory, who asks you to Rescue the Trapped Gippers."
+        1 string data = "  （ダーククラウズ）ギッパーズを撃退しナンシー・グローリーと話す、彼女は閉じ込められたギッパーズを救出するよう頼む。"
        [26]
-        1 string data = "  (Oil Field)\nPrepare the Battlefield (Increment Actions Taken). Current value is [Global: Mission_DarkClouds_b1001_PreBattleActionsTaken]\n"
+        1 string data = "  （油田）\n戦場を準備（行動数を増加）。現在の値: [Global: Mission_DarkClouds_b1001_PreBattleActionsTaken]\n"
        [27]
-        1 string data = "  (Oil Field)\nIncrement Godfisher Waves.\nCurrent value is [Global: Mission_DarkClouds_b1001_GodfisherWave]"
+        1 string data = "  （油田）\nゴッドフィッシャーの波を増加。\n現在の値: [Global: Mission_DarkClouds_b1001_GodfisherWave]"
        [28]
-        1 string data = "  (Oil Field)\nComplete the Battle."
+        1 string data = "  （油田）\n戦闘を完了。"
        [29]
-        1 string data = " (Denver Ruins)\nMess around in the various Denver Zones without leaving to the World Map."
+        1 string data = " （デンバー廃墟）\nワールドマップに出ずに様々なデンバーゾーンをうろつく。"
        [30]
-        1 string data = " That's fine, there are no consequences for this (for now)."
+        1 string data = " 問題ない、これには（今のところ）何の結果もない。"
        [31]
-        1 string data = "  (Oil Field to Denver Ruins)\nReturn to Sister Nancy Vigilance in the Denver Ruins."
+        1 string data = "  （油田からデンバー廃墟へ）\nデンバー廃墟のシスター・ナンシー・ヴィジランスの元に戻る。"
        [32]
-        1 string data = "  - Destroy a PumpJack.\nDestroyed so far: [Global: Mission_DarkClouds_b1001_PumpjacksDestroyed]\n"
+        1 string data = "  - ポンプジャックを破壊。\nこれまでに破壊した数: [Global: Mission_DarkClouds_b1001_PumpjacksDestroyed]\n"
        [33]
-        1 string data = " Go to the Debug With Conditionals menu."
+        1 string data = " 条件分岐付きデバッグメニューへ行く。"
        [34]
-        1 string data = " SubMenu #1: Advance the Mission. Choose an action."
+        1 string data = " サブメニュー#1: ミッションを進める。行動を選択。"
        [35]
-        1 string data = " SubMenu #2: Bad Stuff. Choose an action"
+        1 string data = " サブメニュー#2: 悪いもの。行動を選択"
        [36]
-        1 string data = " SubMenu #3: Choose an action"
+        1 string data = " サブメニュー#3: 行動を選択"
        [37]
-        1 string data = " Return to the first Conditionals Debug Node."
+        1 string data = " 最初の条件分岐デバッグ Node に戻る。"
        [38]
-        1 string data = " How do you save Buck and Blaze?"
+        1 string data = " バックとブレイズをどう救う？"
        [39]
-        1 string data = "  Actually, I haven't saved them yet."
+        1 string data = "  実は、まだ彼らを救っていない。"
        [40]
-        1 string data = "  [COMPUTERS SKILL] Hack the terminal controlling the oil pipe. Solution #1."
+        1 string data = "  [COMPUTERS SKILL] 石油パイプを制御するターミナルをハック。解決策#1。"
        [41]
-        1 string data = "  Tank damage and flip the switch. Solution #2"
+        1 string data = "  ダメージを受けてスイッチを切り替える。解決策#2"
        [42]
-        1 string data = "  Shoot the pipe. Solution #3\n"
+        1 string data = "  パイプを撃つ。解決策#3\n"
        [43]
-        1 string data = "  (C-PRIORITY) Convince them to jump through. Kills Buck, Scars Blaze. Solution #4\n"
+        1 string data = "  （C-PRIORITY）飛び抜けるよう説得。バックが死亡、ブレイズに傷。解決策#4\n"
        [44]
-        1 string data = "  Buck and Blaze, Not yet saved. Global b1001_SaveSolution = 0."
+        1 string data = "  バックとブレイズ、まだ救われていない。Global b1001_SaveSolution = 0。"
        [45]
         1 string data = "  Global b1001_SaveSolution = 1"
        [46]
@@ -197197,47 +197197,47 @@
        [48]
         1 string data = "  Global b1001_SaveSolution = 4 (C-Priority)"
        [49]
-        1 string data = "  Buck and Blaze are both saved. Once rescued, Buck and Blaze give the Rangers mission items that allow them to repair the Barricades and Reagan A.I. Turrets. Buck and Blaze will also each repair one Barricade and Turret, respectively."
+        1 string data = "  バックとブレイズは両方とも救われた。救出されると、バックとブレイズはレンジャーにバリケードとレーガンA.I.タレットを修理できるミッションアイテムを渡す。バックとブレイズはそれぞれバリケード1つとタレット1つを修理する。"
        [50]
-        1 string data = "  Kill off one or more named NPC Gippers during the fight."
+        1 string data = "  戦闘中に名前付きNPCギッパーズを1人以上殺す。"
        [51]
-        1 string data = "  Increment number of slain Gippers (not named NPCs) during the fight."
+        1 string data = "  戦闘中に倒したギッパーズの数を増加（名前付きNPCではない）。"
        [52]
-        1 string data = "  Something else here."
+        1 string data = "  他の何か。"
        [53]
-        1 string data = "  You build Barricades and/or activate Reagan Turrets. Current value is [Global: Mission_DarkClouds_b1001_PreBattleActionsTaken]\n"
+        1 string data = "  バリケードを建設 かつ/または レーガンタレットを起動。現在の値: [Global: Mission_DarkClouds_b1001_PreBattleActionsTaken]\n"
        [54]
-        1 string data = "  Increment the Godfisher waves. Current value is [Global: Mission_DarkClouds_b1001_GodfisherWave]"
+        1 string data = "  ゴッドフィッシャーの波を増加。現在の値: [Global: Mission_DarkClouds_b1001_GodfisherWave]"
        [55]
         1 string data = "  Mission_DarkClouds_b1001_Completed fight == 1\n"
        [56]
         1 string data = "  Mission_DarkClouds_b1001_ReturnedToVigilance == 1"
        [57]
-        1 string data = "  Destroyed a Pumpjack.\nDestroyed so far: [Global: Mission_DarkClouds_b1001_PumpjacksDestroyed]\n"
+        1 string data = "  ポンプジャックを破壊。\nこれまでに破壊: [Global: Mission_DarkClouds_b1001_PumpjacksDestroyed]\n"
        [58]
-        1 string data = "  Nothing here yet."
+        1 string data = "  まだ何もない。"
        [59]
-        1 string data = "  Nothing here yet."
+        1 string data = "  まだ何もない。"
        [60]
-        1 string data = "  Nothing here yet."
+        1 string data = "  まだ何もない。"
        [61]
-        1 string data = "  Sets Gippers_Attacked to True. \r\nTODO: also, Turn Gipper Faction Hostile."
+        1 string data = "  Gippers_Attacked を True に設定。\r\nTODO: また、ギッパー派閥を敵対にする。"
        [62]
-        1 string data = "  Abandoned the Gippers."
+        1 string data = "  ギッパーズを見捨てた。"
        [63]
-        1 string data = "  Arriving at Field. As of now, this is not an extra step in terms of the mission."
+        1 string data = "  油田に到着。現時点では、これはミッションの追加ステップではない。"
        [64]
-        1 string data = " Fallback node. Something went wrong."
+        1 string data = " フォールバック node。何かがおかしくなった。"
        [65]
-        1 string data = "Asked to get Buck and Blaze."
+        1 string data = "バックとブレイズを連れてくるよう頼まれた。"
        [66]
-        1 string data = " Who survived the fight along with you? This list isn't comprehensive."
+        1 string data = " 君と共に戦闘を生き延びたのは誰？このリストは包括的ではない。"
        [67]
-        1 string data = "  Buck, Blaze, and Nancy Glory."
+        1 string data = "  バック、ブレイズ、そしてナンシー・グローリー。"
        [68]
-        1 string data = "  Only Nancy Glory"
+        1 string data = "  ナンシー・グローリーだけ"
        [69]
-        1 string data = "  Nobody! Awwww, nuts."
+        1 string data = "  誰も！あーあ、くそっ。"
        [70]
         1 string data = "  "
        [71]
@@ -197245,55 +197245,55 @@
        [72]
         1 string data = "  "
        [73]
-        1 string data = "  Only Buck and Blaze."
+        1 string data = "  バックとブレイズだけ。"
        [74]
         1 string data = "  "
        [75]
-        1 string data = "(TEMP)  (Debug)\nBack up a step to the previous menu."
+        1 string data = "(TEMP)  (Debug)\n前のメニューに戻る。"
        [76]
-        1 string data = "  (DEBUG #2)\nAdvance the mission directly, with no conditionals."
+        1 string data = "  (DEBUG #2)\n条件分岐なしで直接ミッションを進める。"
        [77]
-        1 string data = "  (DEBUG #2)\nBad stuff for the mission, with no conditionals."
+        1 string data = "  (DEBUG #2)\n条件分岐なしでミッションに悪いもの。"
        [78]
-        1 string data = " (Denver Ruins)\nMess around in the various Denver Zones without leaving to the World Map."
+        1 string data = " (デンバー廃墟)\nワールドマップに出ずに様々なデンバーゾーンをうろつく。"
        [79]
-        1 string data = " (Denver Ruins to Oil Field)\nVisit the Gipper Oil Field for the first time after receiving the mission. "
+        1 string data = " (デンバー廃墟から油田へ)\nミッションを受けた後、初めてギッパーズの油田を訪問。"
        [80]
-        1 string data = "  (Oil Field)\nSave Buck and Blaze."
+        1 string data = "  (油田)\nバックとブレイズを救う。"
        [81]
-        1 string data = "  (Oil Field)\nPrepare the Battlefield (Increment Actions Taken). Current value is [Global: Mission_DarkClouds_b1001_PreBattleActionsTaken]\n"
+        1 string data = "  (油田)\n戦場を準備（行動数を増加）。現在の値: [Global: Mission_DarkClouds_b1001_PreBattleActionsTaken]\n"
        [82]
-        1 string data = "  (Oil Field)\nIncrement Godfisher Waves. Current value is [Global: Mission_DarkClouds_b1001_GodfisherWave]"
+        1 string data = "  (油田)\nゴッドフィッシャーの波を増加。現在の値: [Global: Mission_DarkClouds_b1001_GodfisherWave]"
        [83]
-        1 string data = "  (Oil Field)\nComplete the Battle."
+        1 string data = "  (油田)\n戦闘を完了。"
        [84]
-        1 string data = "  (Oil Field to Denver Ruins)\nReturn to Sister Nancy Vigilance in the Denver Ruins."
+        1 string data = "  (油田からデンバー廃墟へ)\nデンバー廃墟のシスター・ナンシー・ヴィジランスの元に戻る。"
        [85]
-        1 string data = "  (Dark Clouds)\nApproach the World Map transition before visiting the Gipper Oil Field. Triggers a warning. Current Warnings: [Global: Mission_DarkClouds_b1001_AbandonedWarnings]\n"
+        1 string data = "  (ダーククラウズ)\nギッパーズの油田を訪問する前にワールドマップへの遷移に近づく。警告をトリガー。現在の警告数: [Global: Mission_DarkClouds_b1001_AbandonedWarnings]\n"
        [86]
-        1 string data = "  (Denver Ruins or Oil Field)\nAbandon the Mission: Transition to the World Map even after receiving warnings, or leave the Oil Field fight before it's completed."
+        1 string data = "  (デンバー廃墟または油田)\nミッションを放棄: 警告を受けた後でもワールドマップに遷移、あるいは油田の戦闘が完了する前に離脱。"
        [87]
-        1 string data = "  (Anywhere)\nAttack one of the Gippers."
+        1 string data = "  (どこでも)\nギッパーズの一人を攻撃。"
        [88]
-        1 string data = "  (Oil Field Fight)\nDestroy a PumpJack. [Global: Mission_DarkClouds_b1001_PumpjacksDestroyed]"
+        1 string data = "  (油田戦闘)\nポンプジャックを破壊。[Global: Mission_DarkClouds_b1001_PumpjacksDestroyed]"
        [89]
-        1 string data = "   (Oil Field Fight)\nKill off one or more named NPC Gippers during the fight."
+        1 string data = "   (油田戦闘)\n戦闘中に名前付きNPCギッパーズを1人以上殺す。"
        [90]
-        1 string data = "   (Oil Field Fight)\nIncrement number of slain Gippers (not named NPCs) duromg the fight."
+        1 string data = "   (油田戦闘)\n戦闘中に倒したギッパーズの数を増加（名前付きNPCではない）。"
        [91]
-        1 string data = "(TEMP)  (Debug #2)\nBack up a step to the previous menu."
+        1 string data = "(TEMP)  (Debug #2)\n前のメニューに戻る。"
        [92]
-        1 string data = """   (Dark Clouds)\nDEBUG: Complete all steps of "Dark Clouds""
+        1 string data = """   (ダーククラウズ)\nDEBUG: "ダーククラウズ"の全ステップを完了"
        [93]
-        1 string data = """   Going through all steps to complete Dark Clouds normally. \r\n - Getting Asked to save Buck and Blaze\r\n - Saving via Computer\r\n - Saving Buck & Blaze"
+        1 string data = """   ダーククラウズを通常通り完了する全ステップを進行中。\r\n - バックとブレイズを救うよう頼まれる\r\n - コンピューター経由で救出\r\n - バック&ブレイズを救出"
        [94]
-        1 string data = """   (Dark Clouds)\n-Saved Buck & Blaze.\n-Prepping the battlefield\n"
+        1 string data = """   (ダーククラウズ)\n-バック&ブレイズを救出。\n-戦場を準備中\n"
        [95]
-        1 string data = """   (Dark Clouds)\n-Completed the fight\n-Returned to Vigilance"
+        1 string data = """   (ダーククラウズ)\n-戦闘を完了\n-ヴィジランスの元に戻った"
        [96]
-        1 string data = """""   (Dark Clouds)\nStarting quest."
+        1 string data = """""   (ダーククラウズ)\nクエスト開始。"
        [97]
-        1 string data = " Dark Clouds is cut. This file is only here to avoid breaking several Debug NPCs who are still in the scene. They will be culled."
+        1 string data = " ダーククラウズはカット。このファイルはシーンにまだいる複数のデバッグNPCを壊さないためだけにある。彼らは削除される予定。"
        [98]
         1 string data = " Debug node. Do Not Translate."
    [674]
@@ -197709,153 +197709,153 @@
       1 Array Array (100 items)
        0 int size = 100
        [0]
-        1 string data = "What would you like to do?"
+        1 string data = "何がしたい？"
        [1]
-        1 string data = "Start mission."
+        1 string data = "ミッションを開始。"
        [2]
-        1 string data = "Find keycard.\nMission_UsefulPrey_b1001_HaveDoorKey = 1"
+        1 string data = "キーカードを見つける。\nMission_UsefulPrey_b1001_HaveDoorKey = 1"
        [3]
-        1 string data = "Open Door. (Note: Not possible without meeting Jola)\nMission_UsefulPrey_b1001_DoorStatus = 1 or 2"
+        1 string data = "ドアを開く。（注: ジョラに会わないと不可能）\nMission_UsefulPrey_b1001_DoorStatus = 1 or 2"
        [4]
-        1 string data = "Find or destroy the cure.\n\n\nMission_UsefulPrey_b1001_CureDestroyed = 0 or 1\n\n\nb1101_ValhallaCompoundStatus =  1=destroyed, 2 = player received cure\n\n\nMission_UsefulPrey_b1001_VahallaDoses\n\n\n"
+        1 string data = "治療薬を見つけるか破壊する。\n\n\nMission_UsefulPrey_b1001_CureDestroyed = 0 or 1\n\n\nb1101_ValhallaCompoundStatus =  1=破壊済み、2 = プレイヤーが治療薬を受領\n\n\nMission_UsefulPrey_b1001_VahallaDoses\n\n\n"
        [5]
-        1 string data = "Jola options: Join, Leave, Death (Murder), Death (non-Murder)"
+        1 string data = "ジョラのオプション: 加入、離脱、死亡（殺害）、死亡（非殺害）"
        [6]
-        1 string data = "Find / Cure / Kill Jola's children."
+        1 string data = "ジョラの子供たちを探す / 治療する / 殺す。"
        [7]
         1 string data = "TBD"
        [8]
         1 string data = "TBD"
        [9]
-        1 string data = "Exit."
+        1 string data = "終了。"
        [10]
-        1 string data = "Jola options."
+        1 string data = "ジョラのオプション。"
        [11]
-        1 string data = "Jola dies (not killed by the Rangers, but during Quest)\nMission_UsefulPrey_b1001_JolaDeath=1"
+        1 string data = "ジョラが死亡（レンジャーに殺されたのではなく、クエスト中に）\nMission_UsefulPrey_b1001_JolaDeath=1"
        [12]
-        1 string data = "Jola dies (not killed by rangers, not during Quest)\nMission_UsefulPrey_b1001_JolaDeath=2"
+        1 string data = "ジョラが死亡（レンジャーに殺されたのではなく、クエスト外で）\nMission_UsefulPrey_b1001_JolaDeath=2"
        [13]
-        1 string data = "Jola dies (Killed by Rangers, anytime)\nMission_UsefulPrey_b1001_JolaDeath=3"
+        1 string data = "ジョラが死亡（レンジャーに殺された、いつでも）\nMission_UsefulPrey_b1001_JolaDeath=3"
        [14]
-        1 string data = "Jola leaves peacefully\nMission_UsefulPrey_b1001_JolaLeft = 1"
+        1 string data = "ジョラが平和的に離脱\nMission_UsefulPrey_b1001_JolaLeft = 1"
        [15]
-        1 string data = "Jola leaves and will seek vengeance.\nMission_UsefulPrey_b1001_JolaLeft = 2"
+        1 string data = "ジョラが離脱し復讐を求める。\nMission_UsefulPrey_b1001_JolaLeft = 2"
        [16]
-        1 string data = "Mission  started: Mission_b1101_UsefulPrey.quest"
+        1 string data = "ミッション開始: Mission_b1101_UsefulPrey.quest"
        [17]
-        1 string data = "Next command?"
+        1 string data = "次のコマンド？"
        [18]
-        1 string data = " Debug node for Useful Prey, Jola's companion Mission.\n"
+        1 string data = " Useful Prey、ジョラのコンパニオンミッションのデバッグ node。\n"
        [19]
-        1 string data = "How do you find the Keycard?"
+        1 string data = "キーカードをどう見つける？"
        [20]
-        1 string data = "Using the keycard or skill overrides?"
+        1 string data = "キーカードを使うかスキルオーバーライドか？"
        [21]
-        1 string data = "(b1001 Denver Ruins)\nOff Bill's Corpse. "Take the keycard.""
+        1 string data = "(b1001 デンバー廃墟)\nビルの死体から。"キーカードを取る。""
        [22]
-        1 string data = "(b3001 Gipper Stronghold)\nFrom Bill in dialogue."
+        1 string data = "(b3001 ギッパー要塞)\n会話でビルから。"
        [23]
-        1 string data = "Set  _HaveDoorKey=1\nGive item to party: ITM_Mission_b1101_UsefulPrey_BillsKeyCard (1)"
+        1 string data = "_HaveDoorKey=1 に設定\nパーティにアイテムを付与: ITM_Mission_b1101_UsefulPrey_BillsKeyCard (1)"
        [24]
-        1 string data = "Set _BillGaveNecklace=1\nSet  _HaveDoorKey=1\nGive item to party: ITM_Mission_b1101_UsefulPrey_BillsKeyCard (1)"
+        1 string data = "_BillGaveNecklace=1 に設定\n_HaveDoorKey=1 に設定\nパーティにアイテムを付与: ITM_Mission_b1101_UsefulPrey_BillsKeyCard (1)"
        [25]
-        1 string data = "Keycard (starts Find Keycard debug branch)"
+        1 string data = "キーカード（キーカード発見デバッグ分岐を開始）"
        [26]
-        1 string data = "Skill (Very Hard Engineering)"
+        1 string data = "スキル（Very Hard Engineering）"
        [27]
-        1 string data = "Skill (Very Hard Computers)"
+        1 string data = "スキル（Very Hard Computers）"
        [28]
         1 string data = "Mission_UsefulPrey_b1001_DoorStatus = 2"
        [29]
-        1 string data = "Go back to the root debug node."
+        1 string data = "ルートデバッグ node に戻る。"
        [30]
-        1 string data = "Take the cure or destroy it?"
+        1 string data = "治療薬を取るか破壊するか？"
        [31]
-        1 string data = "Take the cure from the Master Terminal."
+        1 string data = "マスターターミナルから治療薬を取る。"
        [32]
-        1 string data = "Destroy the cure (aggros Jola if she's here)"
+        1 string data = "治療薬を破壊（ジョラがここにいれば怒らせる）"
        [33]
-        1 string data = "Add Jola to party w/out any other options."
+        1 string data = "他のオプションなしでジョラをパーティに追加。"
        [34]
-        1 string data = "Setting\r\nb1101_ValhallaCompoundStatus to [Global: b1101_ValhallaCompoundStatus], \r\n\r\nMission_UsefulPrey_b1001_VahallaDoses to [Global: Mission_UsefulPrey_b1001_VahallaDoses],\r\n\r\nand giving dropset: \r\nDRP_Mission_b1101UsefulPreyVahallaSerum_Tier1)"
+        1 string data = "設定中\r\nb1101_ValhallaCompoundStatus を [Global: b1101_ValhallaCompoundStatus]、\r\n\r\nMission_UsefulPrey_b1001_VahallaDoses を [Global: Mission_UsefulPrey_b1001_VahallaDoses]、\r\n\r\nそしてdropsetを付与: \r\nDRP_Mission_b1101UsefulPreyVahallaSerum_Tier1)"
        [35]
         1 string data = "b1101_ValhallaCompoundStatus = 1\nMission_UsefulPrey_b1001_CureDestroyed = 1\n"
        [36]
-        1 string data = ""What have you done?!" DEBUG: Using SPK_Companion_Jola"
+        1 string data = ""What have you done?!" DEBUG: SPK_Companion_Jolaを使用中"
        [37]
-        1 string data = "DEBUG: Conversation couldn't find SPK_Companion_Jola, so we use this fall-through node instead."
+        1 string data = "DEBUG: 会話でSPK_Companion_Jolaが見つからなかった、代わりにこのフォールスルー node を使用。"
        [38]
-        1 string data = "Add Follower Jola to Party."
+        1 string data = "フォロワー・ジョラをパーティに追加。"
        [39]
-        1 string data = "Remove follower from party."
+        1 string data = "フォロワーをパーティから除外。"
        [40]
-        1 string data = "Remove Jola from party w/out any other options."
+        1 string data = "他のオプションなしでジョラをパーティから除外。"
        [41]
-        1 string data = "RemoveFromParty=Jola\n\n\nThen set Mission Variable and Faction hostility.\n\n\nMission_UsefulPrey_b1001_JolaLeft = 2\n"
+        1 string data = "RemoveFromParty=Jola\n\n\nそしてミッション変数と派閥敵対性を設定。\n\n\nMission_UsefulPrey_b1001_JolaLeft = 2\n"
        [42]
-        1 string data = "RemoveFromParty=Jola\n\n\nThen set Mission Variable and Faction hostility.\n\n\nMission_UsefulPrey_b1001_JolaLeft = 1\n"
+        1 string data = "RemoveFromParty=Jola\n\n\nそしてミッション変数と派閥敵対性を設定。\n\n\nMission_UsefulPrey_b1001_JolaLeft = 1\n"
        [43]
         1 string data = "Mission_UsefulPrey_b1001_JolaDeath=3\nRemoveFromPartyByName=Jola"
        [44]
-        1 string data = "INCOMPLETE. Unclear how we'll handle Companion Death. Probably need to have a global FOLLOWER CHECK that handles these things."
+        1 string data = "未完成。コンパニオンの死をどう扱うか不明瞭。おそらくこれらを扱うグローバルFOLLOWER CHECKが必要。"
        [45]
-        1 string data = "Mission_UsefulPrey_b1001_JolaDeath=1\nRemove Follower from Party (Jola)"
+        1 string data = "Mission_UsefulPrey_b1001_JolaDeath=1\nフォロワーをパーティから除外（ジョラ）"
        [46]
         1 string data = "Mission_UsefulPrey_b1001_JolaDeath=2\nRemoveFromPartyByName=Jola"
        [47]
-        1 string data = " Mission_UsefulPrey_b1001_ChildBaldur\r\nENUM  0=not found. 1= found.\r\nMission_UsefulPrey_b1001_ChildFreyja\r\nENUM  0=not found. 1= cured. 2= killed.\r\nMission_UsefulPrey_b1001_ChildTaste\r\nENUM  0=not found. 1= cured. 2= killed.\r\n\r\nMission_UsefulPrey_b1001_VahallaDoses = # of doses."
+        1 string data = " Mission_UsefulPrey_b1001_ChildBaldur\r\nENUM  0=未発見。1= 発見済み。\r\nMission_UsefulPrey_b1001_ChildFreyja\r\nENUM  0=未発見。1= 治療済み。2= 殺害済み。\r\nMission_UsefulPrey_b1001_ChildTaste\r\nENUM  0=未発見。1= 治療済み。2= 殺害済み。\r\n\r\nMission_UsefulPrey_b1001_VahallaDoses = 用量の数。"
        [48]
-        1 string data = "(CO Springs)\nFind Baldur."
+        1 string data = "(CO Springs)\nバルドルを見つける。"
        [49]
-        1 string data = "(p1001_HotelExterior)\nCure Frigg / Taste of Winter Sky,  trigger her quest addendum"
+        1 string data = "(p1001_HotelExterior)\nフリッグ / テイスト・オブ・ウィンター・スカイを治療、彼女のクエスト補遺をトリガー"
        [50]
-        1 string data = "(p1001_HotelExterior)\nKill Frigg / Taste of Winter Sky"
+        1 string data = "(p1001_HotelExterior)\nフリッグ / テイスト・オブ・ウィンター・スカイを殺す"
        [51]
-        1 string data = "Incomplete: There will be more options related to finding Baldur, and the possibility of angering Jola in the process. \r\n\r\nAdded Addendum 2 and set \r\n Mission_UsefulPrey_b1001_ChildBaldur=1\r\n"
+        1 string data = "未完成: バルドルを見つけることに関するオプションが増え、その過程でジョラを怒らせる可能性がある。\r\n\r\n補遺2を追加し設定: \r\n Mission_UsefulPrey_b1001_ChildBaldur=1\r\n"
        [52]
-        1 string data = "Pop Addendum and Cure Variable.\nThe addendum is important in this case b/c the Mission's End State checks against it in the case of the "Dead" Variable.\n\n\nAddendum 3\nMission_UsefulPrey_b1001_ChildTaste=1"
+        1 string data = "補遺と治療変数をポップ。\nこの場合、補遺が重要なのは、ミッションの終了状態が"Dead"変数の場合にそれをチェックするため。\n\n\n補遺3\nMission_UsefulPrey_b1001_ChildTaste=1"
        [53]
         1 string data = "Mission_UsefulPrey_b1001_ChildFreya=2"
        [54]
-        1 string data = "(m2101_AmbushSiteReturn)\nCure Freyja, trigger her quest addendum"
+        1 string data = "(m2101_AmbushSiteReturn)\nフレイヤを治療、彼女のクエスト補遺をトリガー"
        [55]
-        1 string data = "(TBD scene)\nKill Freya"
+        1 string data = "(TBD scene)\nフレイヤを殺す"
        [56]
-        1 string data = "Simulate the script that will evaluate whether the "UsefulPrey" mission is finished.\n\n\nMission_UsefulPrey_b1001_ChildVahallaResolution: [Global: Mission_UsefulPrey_b1001_ChildVahallaResolution]"
+        1 string data = ""UsefulPrey"ミッションが完了したかどうかを評価するスクリプトをシミュレート。\n\n\nMission_UsefulPrey_b1001_ChildVahallaResolution: [Global: Mission_UsefulPrey_b1001_ChildVahallaResolution]"
        [57]
-        1 string data = "Pop Addendum and Cure Variable.\nThe addendum is important in this case b/c the Mission's End State checks against it in the case of the "Dead" Variable.\n\n\nAddendum 4\nMission_UsefulPrey_b1001_ChildFreya=1"
+        1 string data = "補遺と治療変数をポップ。\nこの場合、補遺が重要なのは、ミッションの終了状態が"Dead"変数の場合にそれをチェックするため。\n\n\n補遺4\nMission_UsefulPrey_b1001_ChildFreya=1"
        [58]
         1 string data = "Mission_UsefulPrey_b1001_ChildTaste=2"
        [59]
-        1 string data = "All three globals are == to 1.\nMission_UsefulPrey_b1001_ChildBaldur: [Global: Mission_UsefulPrey_b1001_ChildBaldur]\nMission_UsefulPrey_b1001_ChildTaste: [Global: Mission_UsefulPrey_b1001_ChildTaste]\nMission_UsefulPrey_b1001_ChildFreyja: [Global: Mission_UsefulPrey_b1001_ChildFreyja]\n\n\n"
+        1 string data = "3つのグローバル全てが1と等しい。\nMission_UsefulPrey_b1001_ChildBaldur: [Global: Mission_UsefulPrey_b1001_ChildBaldur]\nMission_UsefulPrey_b1001_ChildTaste: [Global: Mission_UsefulPrey_b1001_ChildTaste]\nMission_UsefulPrey_b1001_ChildFreyja: [Global: Mission_UsefulPrey_b1001_ChildFreyja]\n\n\n"
        [60]
-        1 string data = "One of these is still 0. Check log.\nMission_UsefulPrey_b1001_ChildBaldur: [Global: Mission_UsefulPrey_b1001_ChildBaldur]\nMission_UsefulPrey_b1001_ChildTaste: [Global: Mission_UsefulPrey_b1001_ChildTaste]\nMission_UsefulPrey_b1001_ChildFreyja: [Global: Mission_UsefulPrey_b1001_ChildFreyja]\n\n\n"
+        1 string data = "これらの1つがまだ0。ログを確認。\nMission_UsefulPrey_b1001_ChildBaldur: [Global: Mission_UsefulPrey_b1001_ChildBaldur]\nMission_UsefulPrey_b1001_ChildTaste: [Global: Mission_UsefulPrey_b1001_ChildTaste]\nMission_UsefulPrey_b1001_ChildFreyja: [Global: Mission_UsefulPrey_b1001_ChildFreyja]\n\n\n"
        [61]
-        1 string data = "Freya or Frigg (Taste) are dead (2).\n\n\nMission_UsefulPrey_b1001_ChildBaldur: [Global: Mission_UsefulPrey_b1001_ChildBaldur]\nMission_UsefulPrey_b1001_ChildTaste: [Global: Mission_UsefulPrey_b1001_ChildTaste]\nMission_UsefulPrey_b1001_ChildFreyja: [Global: Mission_UsefulPrey_b1001_ChildFreyja]\n\n\n"
+        1 string data = "フレイヤまたはフリッグ（Taste）が死亡 (2)。\n\n\nMission_UsefulPrey_b1001_ChildBaldur: [Global: Mission_UsefulPrey_b1001_ChildBaldur]\nMission_UsefulPrey_b1001_ChildTaste: [Global: Mission_UsefulPrey_b1001_ChildTaste]\nMission_UsefulPrey_b1001_ChildFreyja: [Global: Mission_UsefulPrey_b1001_ChildFreyja]\n\n\n"
        [62]
-        1 string data = "ERROR! Quest has not failed and has started. This should never happen: Check the log."
+        1 string data = "ERROR! クエストが失敗しておらず開始済み。これは決して起こらないはず: ログを確認。"
        [63]
-        1 string data = "Quest is confirmed as failed. Check the log."
+        1 string data = "クエストは失敗と確認済み。ログを確認。"
        [64]
-        1 string data = "Quest not  yet started, but when it is, it should immediately fail."
+        1 string data = "クエストはまだ未開始だが、開始すれば即座に失敗するはず。"
        [65]
-        1 string data = "ERROR. CHECK LOG."
+        1 string data = "ERROR. ログを確認。"
        [66]
-        1 string data = "Setting Mission_UsefulPrey_b1001_ChildVahallaResolution=2"
+        1 string data = "Mission_UsefulPrey_b1001_ChildVahallaResolution=2 に設定中"
        [67]
-        1 string data = "One but not all of these is 1, none are 2.\n\n\nMission_UsefulPrey_b1001_ChildBaldur: [Global: Mission_UsefulPrey_b1001_ChildBaldur]\nMission_UsefulPrey_b1001_ChildTaste: [Global: Mission_UsefulPrey_b1001_ChildTaste]\nMission_UsefulPrey_b1001_ChildFreyja: [Global: Mission_UsefulPrey_b1001_ChildFreyja]"
+        1 string data = "これらの1つだけが1で全てではない、どれも2ではない。\n\n\nMission_UsefulPrey_b1001_ChildBaldur: [Global: Mission_UsefulPrey_b1001_ChildBaldur]\nMission_UsefulPrey_b1001_ChildTaste: [Global: Mission_UsefulPrey_b1001_ChildTaste]\nMission_UsefulPrey_b1001_ChildFreyja: [Global: Mission_UsefulPrey_b1001_ChildFreyja]"
        [68]
-        1 string data = "Setting Mission_UsefulPrey_b1001_ChildVahallaResolution=1"
+        1 string data = "Mission_UsefulPrey_b1001_ChildVahallaResolution=1 に設定中"
        [69]
-        1 string data = "Mission_UsefulPrey_b1001_ChildVahallaResolution is already == 2. \r\n\r\nMission_UsefulPrey_b1001_ChildVahallaResolution: [Global: Mission_UsefulPrey_b1001_ChildVahallaResolution]\r\n\r\nMission_UsefulPrey_b1001_ChildBaldur: [Global: Mission_UsefulPrey_b1001_ChildBaldur]\r\nMission_UsefulPrey_b1001_ChildTaste: [Global: Mission_UsefulPrey_b1001_ChildTaste]\r\nMission_UsefulPrey_b1001_ChildFreyja: [Global: Mission_UsefulPrey_b1001_ChildFreyja]"
+        1 string data = "Mission_UsefulPrey_b1001_ChildVahallaResolution は既に2と等しい。\r\n\r\nMission_UsefulPrey_b1001_ChildVahallaResolution: [Global: Mission_UsefulPrey_b1001_ChildVahallaResolution]\r\n\r\nMission_UsefulPrey_b1001_ChildBaldur: [Global: Mission_UsefulPrey_b1001_ChildBaldur]\r\nMission_UsefulPrey_b1001_ChildTaste: [Global: Mission_UsefulPrey_b1001_ChildTaste]\r\nMission_UsefulPrey_b1001_ChildFreyja: [Global: Mission_UsefulPrey_b1001_ChildFreyja]"
        [70]
-        1 string data = "Once Mission_UsefulPrey_b1001_ChildVahallaResolution==2, it shouldn't change, even if Frigg or Freyja are killed later."
+        1 string data = "Mission_UsefulPrey_b1001_ChildVahallaResolution==2になったら、フリッグやフレイヤが後で殺されても変わらないはず。"
        [71]
-        1 string data = "Keycard, which is already in your possession."
+        1 string data = "キーカード、既に君の所持品にある。"
        [72]
         1 string data = "Mission_UsefulPrey_b1001_DoorStatus=\n[Global: Mission_UsefulPrey_b1001_DoorStatus]"
        [73]
-        1 string data = "Simulating script..."
+        1 string data = "スクリプトをシミュレート中..."
        [74]
         1 string data = ""
        [75]
@@ -197863,51 +197863,51 @@
        [76]
         1 string data = ""
        [77]
-        1 string data = " Walkthrough shortcut (Jola's Lair scene): \r\nMeet Jola, Start Mission, Enter scene, determine whether Jola is a follower or not."
+        1 string data = " ウォークスルーショートカット（ジョラの隠れ家シーン）: \r\nジョラに会い、ミッションを開始、シーンに入り、ジョラがフォロワーかどうかを判定。"
        [78]
-        1 string data = "Mission  started: Mission_b1101_UsefulPrey.quest"
+        1 string data = "ミッション開始: Mission_b1101_UsefulPrey.quest"
        [79]
-        1 string data = "Killing Jola."
+        1 string data = "ジョラを殺害中。"
        [80]
-        1 string data = "Adding Addendum RE: Door key."
+        1 string data = "ドアの鍵に関する補遺を追加中。"
        [81]
-        1 string data = "Adding Jola to party."
+        1 string data = "ジョラをパーティに追加中。"
        [82]
-        1 string data = "Opening Jola's Door in Denver Ruins."
+        1 string data = "デンバー廃墟のジョラのドアを開放中。"
        [83]
-        1 string data = "Leave."
+        1 string data = "立ち去る。"
        [84]
-        1 string data = " Nothing, enter the scene with Jola."
+        1 string data = " 何もない、ジョラとシーンに入る。"
        [85]
-        1 string data = " We murdered Jola or caused her to turn on us (same result). Enter the scene without Jola."
+        1 string data = " ジョラを殺害したか彼女を敵に回した（結果は同じ）。ジョラなしでシーンに入る。"
        [86]
-        1 string data = " What happened to Jola before you entered this room?"
+        1 string data = " この部屋に入る前にジョラに何が起こった？"
        [87]
-        1 string data = "Found Key."
+        1 string data = "鍵を発見。"
        [88]
-        1 string data = "You've got Jola already, so no need to ask about her here."
+        1 string data = "既にジョラがいるので、ここで彼女について尋ねる必要なし。"
        [89]
-        1 string data = " Debug Nodes: FREYJA\n"
+        1 string data = " デバッグ Nodes: FREYJA\n"
        [90]
-        1 string data = " (TEMP TEXT) Toggle m2101_Freyja_TriggerFreyjaConversation\n\n\nCurrently: m2101_Freyja_TriggerFreyjaConversation = [Global: m2101_Freyja_TriggerFreyjaConversation]"
+        1 string data = " (TEMP TEXT) m2101_Freyja_TriggerFreyjaConversationをトグル\n\n\n現在: m2101_Freyja_TriggerFreyjaConversation = [Global: m2101_Freyja_TriggerFreyjaConversation]"
        [91]
-        1 string data = " (TEMP TEXT) Enable, or re-enable m2101_Freyja_FreyjaWillAppear\n\n\nCurrently\nm2101_Freyja_FreyjaWillAppear = [Global: m2101_Freyja_FreyjaWillAppear]\n"
+        1 string data = " (TEMP TEXT) m2101_Freyja_FreyjaWillAppearを有効化、または再有効化\n\n\n現在\nm2101_Freyja_FreyjaWillAppear = [Global: m2101_Freyja_FreyjaWillAppear]\n"
        [92]
-        1 string data = " DEBUG: Freyja Options."
+        1 string data = " DEBUG: フレイヤのオプション。"
        [93]
-        1 string data = "DEBUG Treat Freyja"
+        1 string data = "DEBUG フレイヤを治療"
        [94]
-        1 string data = "UPDATED: DEBUG VALUES:\n\n\nm2101_Freyja_TriggerFreyjaConversation = [Global: m2101_Freyja_TriggerFreyjaConversation]\n\n\nm2101_Freyja_FreyjaWillAppear = [Global: m2101_Freyja_FreyjaWillAppear]\n\n\n\n\n"
+        1 string data = "UPDATE: DEBUG VALUES:\n\n\nm2101_Freyja_TriggerFreyjaConversation = [Global: m2101_Freyja_TriggerFreyjaConversation]\n\n\nm2101_Freyja_FreyjaWillAppear = [Global: m2101_Freyja_FreyjaWillAppear]\n\n\n\n\n"
        [95]
-        1 string data = " Get Serum, both types, testing Dropset."
+        1 string data = " 血清を取得、両タイプ、Dropsetをテスト中。"
        [96]
-        1 string data = " Giving Serum Dropset"
+        1 string data = " 血清Dropsetを付与中"
        [97]
-        1 string data = " DEBUG: Test "Set Mob Hostile to Player" on a normally-spawned enemy. (only works in Frozen Lake: Ambush)"
+        1 string data = " DEBUG: 通常スポーンされた敵に"Set Mob Hostile to Player"をテスト。（Frozen Lake: Ambushでのみ機能）"
        [98]
-        1 string data = " DEBUG: Test "Set Mob Hostile to Player" on a despawned, then respawned enemy (only works in Frozen Lake: Ambush)"
+        1 string data = " DEBUG: デスポーン後、リスポーンされた敵に"Set Mob Hostile to Player"をテスト（Frozen Lake: Ambushでのみ機能）"
        [99]
-        1 string data = " Respawning Freyja (prior node). \r\nSetting her hostile (OnExit in this node)."
+        1 string data = " フレイヤをリスポーン中（前 node）。\r\n彼女を敵対に設定（この node の OnExit で）。"
    [675]
     0 StringTable data
      1 string Filename = "b1001_debug_gippersvsgodfishers"
