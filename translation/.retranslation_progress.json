@@ -18,15 +18,15 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 42025,
-      "entries_untranslated_real": 16381,
+      "entries_translated": 42196,
+      "entries_untranslated_real": 16210,
       "entries_kept_english": 43034,
-      "completion_rate": 72.0,
-      "current_line": 349513,
+      "completion_rate": 72.3,
+      "current_line": 350563,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 309: Translated 78 entries (L349343-349512). Section: o1001_anandarabindranath dialogue Part 3 (section completed). Ananda Rabindranath full conversation with Rangers about Bizarre access. Dual validation passed (Structure: 0 errors, Quality: 0 issues). Quote format strictly maintained per source - corrected quote count issues.",
-      "entries_completed": 42025
+      "note": "Session 310: Translated 171 entries (L349562-350562). Sections completed: o1001_asgerodinkirk (9 entries - Viking battle cries), o1001_bizarreentrance (162 entries - Bizarre entrance dialogue with Monster Army gatekeeper). Dual validation passed (Structure: 0 errors, Quality: 0 issues). All proper nouns (Rangers, Bizarre, Monster Army, Paris Handler) correctly translated using glossary. Action markers preserved.",
+      "entries_completed": 42196
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -59,21 +59,21 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "TBD",
+  "last_commit_hash": "efaec6d",
   "last_commit_message": "Base game translation: Session 309 - Ananda dialogue Part 3 (completed)",
   "validation_date": "2025-11-12",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
-  "analysis_session": 309,
+  "analysis_session": 310,
   "analysis_findings": {
-    "new_translations": "Session 309: 78 new Japanese translations completing Ananda Rabindranath dialogue section",
-    "action_marker_protection": "No action markers in this section. All proper nouns correctly translated using glossary.",
-    "quality_validation": "Dual validation passed. Structure: 0 errors (4 pre-existing HTML warnings). Quality: 0 issues.",
-    "validation_status": "Structure: 0 errors, Quality: 0 issues. Quote format strictly maintained per source. Fixed quote count issues in L349380."
+    "new_translations": "Session 310: 171 new Japanese translations - o1001_asgerodinkirk (9 entries) and o1001_bizarreentrance (162 entries, section completed)",
+    "action_marker_protection": "Action markers verified - sigh marker preserved in English. All proper nouns (Rangers, Bizarre, Monster Army, Paris Handler, Charley, Odinkirks, Payasos) correctly translated using glossary.",
+    "quality_validation": "Dual validation passed. Structure: 0 errors (4 pre-existing HTML warnings unrelated to this session). Quality: 0 issues.",
+    "validation_status": "Structure: 0 errors, Quality: 0 issues. Quote format strictly maintained per source. Global variable markers preserved in [Global:] format."
   },
-  "total_entries_completed": 51410,
+  "total_entries_completed": 51581,
   "total_entries": 232418,
-  "total_entries_untranslated": 181008,
-  "overall_completion_rate": 22.1,
-  "next_action": "Continue sequential translation from line 349513. Section: o1001_asgerodinkirk (new section starting)."
+  "total_entries_untranslated": 180837,
+  "overall_completion_rate": 22.2,
+  "next_action": "Continue sequential translation from line 350563. Section: o1001_bjornodinkirk (new section starting)."
 }
