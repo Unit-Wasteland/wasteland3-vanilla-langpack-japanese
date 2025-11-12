@@ -18,15 +18,15 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 48578,
-      "entries_untranslated_real": 10811,
+      "entries_translated": 48588,
+      "entries_untranslated_real": 10801,
       "entries_kept_english": 42331,
       "completion_rate": 28.6,
-      "current_line": 401668,
+      "current_line": 402696,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 365: 20 new Japanese translations (L401630-401668). Section continued: q3001_deesharp (entries 104-122, 20 JP). Dee Sharp and Rangers planning against Steel-Trap: Cutter Throat revenge quest, Scar Collectors loyalty and rescue discussion, Beta Master pervert mention, Company Store operation history, Steel-Trap power challenge decision points. Quote format: double-double-quote format strictly maintained. Technical terms: Script Node 138 (L401688) preserved English. HTML tags: <i>miner</i> (L401712, 401714), <i>blackmail</i> (L401776), <i>dirt</i> (L401780), <i>him</i> (L401586) preserved. Escape sequences: backslash-n maintained in dialogue separation (L401642, 401676, 401684, 401754, 401786). Character names: Dee Sharp, Steel-Trap, Cutter Throat, Beta Master, Cordite, Company Store. Factions: Scar Collectors, Desert Rangers. Dual validation passed (Structure: 0 errors, Quality: 0 issues L401630-401668).",
-      "entries_completed": 48578
+      "note": "Session 366: 10 new Japanese translations (L401670-402668). Dee Sharp dialogue completion (9 JP): airlock explanation, Beta Master mention, proposal details, character background, Company Store history, rescue coordination. Mine rescue gratitude (1 JP). Soviet security computer menus translated (2 entries). Quote format: 4-quote format strictly maintained. Technical terms: Script Node 138, Script Node 168 preserved English. HTML tags: <i>miner</i> preserved in wordplay. Action markers: ::ptoo:: (L401990) preserved English. Escape sequences: newline markers in menus maintained. Spanish reference: empty entries kept English per RULE 1. Characters: Dee Sharp, Steel-Trap. Locations: tech mine, Company Store, airlock. Dual validation passed (Structure: 0 errors, Quality: 0 issues).",
+      "entries_completed": 48588
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -59,21 +59,21 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "320e276",
-  "last_commit_message": "Base game translation: Session 365 - Dee Sharp dialogue continuation (20 entries)",
+  "last_commit_hash": "26ea3c6",
+  "last_commit_message": "Base game translation: Session 366 - Dee Sharp dialogue completion + Soviet computer (10 entries)",
   "validation_date": "2025-11-13",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
-  "analysis_session": 365,
+  "analysis_session": 366,
   "analysis_findings": {
-    "new_translations": "Session 365: 20 new Japanese translations (L401630-401668). q3001_deesharp section entries 104-122 (20 JP). Dee Sharp dialogue continuation: planning against Steel-Trap with Rangers, Cutter Throat revenge quest setup, Scar Collectors loyalty discussion after rescue, Beta Master pervert tape hiding mention, Company Store operation history and takeback plan, Steel-Trap power challenge decision points with Scar Collectors support.",
-    "action_marker_protection": "No action markers in translated range L401630-401668. Quality validation confirmed 0 action markers contain Japanese characters. Verification command executed after edit: grep Japanese character pattern in action markers returned empty result (0 Japanese-contaminated markers).",
-    "quote_format_handling": "All quote counts match source exactly (20 entries). 1 Script Node preserved English (Script Node 138 L401688). HTML tags: <i>miner</i> (L401712, 401714), <i>blackmail</i> (L401776), <i>dirt</i> (L401780), <i>him</i> (L401586) preserved. Escape sequences: backslash-n maintained in dialogue separation (L401642, 401676, 401684, 401754, 401786). Character names: Dee Sharp (singer/Company Store owner), Steel-Trap (Scar Collectors leader), Cutter Throat (rival Store operator), Beta Master (pervert character), Cordite (ally). Factions: Scar Collectors, Desert Rangers. Location: Company Store, tech mine. Unified translation decision logic: Spanish translated entries converted to Japanese, technical terms preserved English.",
-    "quality_validation": "Dual validation passed. Structure: 0 errors 169712 entries all quote counts exact match with English source. Quality: 0 issues L401630-401668 - 0 action markers contain Japanese characters, 0 untranslated English entries in translated range, 0 bracket content translated to Japanese, 0 glossary terminology violations. Technical terms: Script Node 138 preserved English per do_not_translate list. HTML tags: <i> preserved throughout. Escape sequences: backslash-n maintained. Zero warnings. Action marker verification command executed post-edit: grep Japanese character pattern in action markers returned empty output (validation passed)."
+    "new_translations": "Session 366: 10 new Japanese translations (L401670-402668). Dee Sharp section completion: airlock explanation, Beta Master knowledge check, proposal hearing, Cutter Throat takeover details, Beta Master recording behavior, airlock crate storage, entertainment background reveal, Steel-Trap kidnapping story, mine clearance requirement. Mine rescue section (q3001_mineslaveambient): gratitude dialogue. Soviet security computer (q3001_sovietsecuritycomputer): menu options translated, date selection menu translated. Spanish reference empty entries kept English per RULE 1 (test dialogues, debug entries preserved).",
+    "action_marker_protection": "Action marker ::ptoo:: (L401990) preserved English. Quality validation confirmed 0 action markers contain Japanese characters in translated range L401670-402668.",
+    "quote_format_handling": "All quote counts match source exactly (10 entries). Technical terms: Script Node 138, Script Node 168 preserved English per do_not_translate list. HTML tags: <i>miner</i> preserved in Dee Sharp wordplay (L401712, 401714). Escape sequences: newline markers (backslash-n, backslash-r-backslash-n) maintained in computer menus (L402644, 402646, 402668). Character names: Dee Sharp (Company Store owner/singer), Steel-Trap (Scar Collectors leader), Cutter Throat (rival), Beta Master (pervert). Locations: airlock, Company Store, tech mine. Russian text: Cyrillic entries preserved (Soviet bot dialogues L402428-402510, computer alerts L402640, 402696). Unified translation decision logic: Spanish translated entries converted to Japanese, Spanish empty entries kept English.",
+    "quality_validation": "Dual validation passed. Structure: 0 errors 169712 entries all quote counts exact match with English source. Quality: 0 issues L401670-402668 - 0 action markers contain Japanese characters, 0 untranslated English entries in translated range (Spanish empty entries correctly kept English), 0 bracket content translated to Japanese, 0 glossary terminology violations. Technical terms preserved. HTML tags preserved. Escape sequences maintained. Russian/Cyrillic text preserved. Zero warnings."
   },
-  "total_entries_completed": 57687,
+  "total_entries_completed": 57697,
   "total_entries": 232418,
-  "total_entries_untranslated": 174731,
+  "total_entries_untranslated": 174721,
   "overall_completion_rate": 24.8,
-  "next_action": "Continue sequential translation from line 401669. q3001_deesharp section has more untranslated entries (L401670-401814) including: airlock explanation, Beta Master mention, Dee Sharp entertainment background, Company Store history, Steel-Trap conflict details, Cordite interaction dialogue. Approximately 70 more entries remaining in this section."
+  "next_action": "Continue sequential translation from line 402697. Next sections: debug flowchart (mostly translated), template reaction barks, continued game content. Focus on translatable dialogue while preserving technical terms, debug entries with empty Spanish reference, Russian text, and all structural markers."
 }
