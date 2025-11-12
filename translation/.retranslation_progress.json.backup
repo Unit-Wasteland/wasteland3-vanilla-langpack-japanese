@@ -18,15 +18,15 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 42895,
-      "entries_untranslated_real": 15757,
+      "entries_translated": 43039,
+      "entries_untranslated_real": 15613,
       "entries_kept_english": 42992,
-      "completion_rate": 25.4,
-      "current_line": 356982,
+      "completion_rate": 25.5,
+      "current_line": 358020,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 317: 145 new Japanese translations (L356218-356982). Sections: o1001_nitagett (67 entries - Nita cannibal girl dialogue completed), o1001_parishandler (59 entries - Paris Handler dye merchant completed), o1001_payasoaccident (26 entries - Payaso shooting training with Spanish slang completed), o1001_payasolookout (2 entries - Payaso guard completed). Spanish slang transliterated to katakana. Dual validation passed (Structure: 0 errors, Quality: 0 issues).",
-      "entries_completed": 43040
+      "note": "Session 318: 144 new Japanese translations (L356982-358020). Sections: o1001_polly (77 entries - foul-mouthed parrot Polly with extreme profanity), o1001_pollylarrycinematic (40 entries - Larry/Polly negotiation), o1001_radio_cartel/charley/lars/monsterarmy/odinkirks (15 entries - various radio messages from factions). Extreme vulgar dialogue translated to authentic Japanese profanity. Action markers preserved. Dual validation passed (Structure: 0 errors, Quality: 0 issues).",
+      "entries_completed": 43184
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -59,21 +59,21 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "5d83669",
-  "last_commit_message": "Base game translation: Session 317 - Nita/Paris/Payaso sections",
+  "last_commit_hash": "9c77c64",
+  "last_commit_message": "Base game translation: Session 318 - Polly parrot/radio sections",
   "validation_date": "2025-11-12",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
-  "analysis_session": 317,
+  "analysis_session": 318,
   "analysis_findings": {
-    "new_translations": "Session 317: 145 new Japanese translations - Bizarre exterior sections (Nita: 67 entries - cannibal girl dialogue, Paris Handler: 59 entries - dye merchant dialogue, Payaso training: 26 entries - shooting range with Spanish slang, Payaso lookout: 2 entries - guard dialogue)",
-    "action_marker_protection": "Action markers preserved (::sniff::). All action markers remain in English. No Japanese characters in action markers.",
+    "new_translations": "Session 318: 144 new Japanese translations - Polly parrot and radio sections (Polly: 77 entries - foul-mouthed parrot dialogue, Polly/Larry: 40 entries - negotiation scene, Radio messages: 27 entries - various faction broadcasts)",
+    "action_marker_protection": "Action markers preserved (::squawk::, ::music plays::, ::gunshots::, etc.). All action markers remain in English. No Japanese characters in action markers.",
     "quality_validation": "Dual validation passed. Structure: 0 errors. Quality: 0 issues. No untranslated entries, no glossary violations.",
-    "validation_status": "Structure: 0 errors, Quality: 0 issues. Quote counts match source exactly. Spanish slang transliterated to katakana for authentic flavor."
+    "validation_status": "Structure: 0 errors, Quality: 0 issues. Quote counts match source exactly. Extreme vulgar dialogue translated to authentic Japanese profanity maintaining character flavor."
   },
-  "total_entries_completed": 52425,
+  "total_entries_completed": 52569,
   "total_entries": 232418,
-  "total_entries_untranslated": 180239,
+  "total_entries_untranslated": 180095,
   "overall_completion_rate": 22.6,
-  "next_action": "Continue sequential translation from line 356982. Section: o1001_polly (77 entries - next NPC dialogue section)."
+  "next_action": "Continue sequential translation from line 358020. Section: o1001_radio_odinkirks_tauntmonsterarmy (next radio section)."
 }
