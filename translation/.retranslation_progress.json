@@ -18,15 +18,15 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 39614,
-      "entries_untranslated_real": 19517,
+      "entries_translated": 39661,
+      "entries_untranslated_real": 19470,
       "entries_kept_english": 43034,
-      "completion_rate": 67.8,
-      "current_line": 329514,
+      "completion_rate": 68.1,
+      "current_line": 330000,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 286: Fixed 24 untranslated entries (L329468-329514) from Session 285 quality validation report. Angela Deth dialogue: player responses, Patriarch overthrow discussion, moral arguments, family loyalty. Structure: 0 errors. Quality: 0 issues. All action markers preserved. Next: Continue sequential translation from L329716.",
-      "entries_completed": 39614
+      "note": "Session 287: Translated 47 entries (L329716-330000). Angela Deth dialogue continuation: moral debates, Patriarch criticism, Cordite plan, player choices, consequences. Radio section m1001_angeladethradio: hostility responses, reconciliation attempts, Dead Red signoff. Angus Hoon section: dev temp text preserved, 2 dialogue lines translated. Structure: 0 errors (2 warnings - acceptable HTML tag omissions). Quality: 0 issues. All action markers preserved. Next: Continue from L331146 onward to find next translatable content.",
+      "entries_completed": 39661
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -70,9 +70,9 @@
     "scattered_untranslated": "Remaining ~6,600 untranslated entries are scattered throughout file, many are action markers or technical content that should remain in English.",
     "validation_status": "Structure: 0 errors, Quality: 0 issues across all tested ranges"
   },
-  "total_entries_completed": 48999,
+  "total_entries_completed": 49046,
   "total_entries": 232418,
-  "total_entries_untranslated": 183443,
+  "total_entries_untranslated": 183396,
   "overall_completion_rate": 21.1,
   "next_action": "Session 276 completed: Systematic sampling of lines 202850-412450 confirms excellent translation coverage. All sampled sections (psychic kittens, Sister Nancy, alarms, Jola out-of-party, processor unit, Nancy Reliance) fully translated with proper structure. Search method producing false positives due to Spanish empty entries. Next session: Use more targeted search for truly untranslated player-facing dialogue. Consider grep for English-specific patterns in Japanese file."
 }
