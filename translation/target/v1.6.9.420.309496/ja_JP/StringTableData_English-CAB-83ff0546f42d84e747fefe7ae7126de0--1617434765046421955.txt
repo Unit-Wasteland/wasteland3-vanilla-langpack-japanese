@@ -350609,23 +350609,23 @@
       1 Array Array (9 items)
        0 int size = 9
        [0]
-        1 string data = " To Valhalla!"
+        1 string data = ""ヴァルハラへ!""
        [1]
-        1 string data = ""Can you hear them, brothers? The Valkyries are weeping. They know they will not ride home with us tonight.""
+        1 string data = ""聞こえるか、兄弟たちよ? ヴァルキューレが嘆いている。今夜、我らと共に帰還できぬことを知っているのだ。""
        [2]
-        1 string data = ""Gather your wits, hold your courage in your teeth. Tonight, we take the Bizarre for Asgard.""
+        1 string data = ""気を引き締めろ、勇気を歯にくわえて持て。今夜、我らはアスガルドのためにビザールを取る。""
        [3]
-        1 string data = ""No fear, brothers. I will be your shield in this verminous wolf-age.""
+        1 string data = ""恐れるな、兄弟たちよ。この害虫どもの狼の時代において、俺がお前たちの盾となろう。""
        [4]
-        1 string data = ""You can hear them through the walls. Rats trapped in the body of a dying frost giant.""
+        1 string data = ""奴らの声が壁越しに聞こえるだろう。死にゆく霜の巨人の体内に閉じ込められたネズミどもだ。""
        [5]
-        1 string data = ""DO YOU HEAR US, VERMIN? YOUR END IS HERE. WE ARE COMING FOR YOU.""
+        1 string data = ""聞こえるか、害虫ども? 貴様らの終わりだ。我らが今、向かうぞ。""
        [6]
-        1 string data = ""Thor has chosen me as his avatar. I'll pulp the Monster Army in his name.""
+        1 string data = ""トールは俺を彼の化身に選んだ。奴の名において、モンスター・アーミーを叩き潰してやる。""
        [7]
-        1 string data = ""Take your time. Prepare carefully. There is no reason to rush. Our foes will not survive this day.""
+        1 string data = ""落ち着いて行け。慎重に準備しろ。急ぐ理由などない。我らが敵はこの日を生き延びることはないのだから。""
        [8]
-        1 string data = ""Soon, we'll make a tomb of this place.""
+        1 string data = ""まもなく、ここを墓場にしてやる。""
    [1157]
     0 StringTable data
      1 string Filename = "o1001_bluemailbox"
@@ -350711,41 +350711,41 @@
       1 Array Array (18 items)
        0 int size = 18
        [0]
-        1 string data = "The mailbox is an unassuming shade of rust-eaten blue, with an opening just wide enough to peer through."
+        1 string data = ""この郵便ポストは目立たない錆びた青色で、覗くのに十分な幅の開口部がある。""
        [1]
-        1 string data = " View Debug Options"
+        1 string data = ""デバッグオプションを表示""
        [2]
-        1 string data = "Leave."
+        1 string data = ""立ち去る。""
        [3]
-        1 string data = " Select a Debug Option"
+        1 string data = ""デバッグオプションを選択""
        [4]
-        1 string data = " Initiate 29 Across Quest"
+        1 string data = ""29 Acrossクエストを開始""
        [5]
-        1 string data = " Return Quest Item Jigowatt Elecrolytic Condenser"
+        1 string data = ""クエストアイテム ジゴワット電解コンデンサを返却""
        [6]
-        1 string data = " Obtain Quest Item Jigowatt Elecrolytic Condenser"
+        1 string data = ""クエストアイテム ジゴワット電解コンデンサを入手""
        [7]
-        1 string data = " Quest Started"
+        1 string data = ""クエスト開始""
        [8]
-        1 string data = " Quest Item obtained, Quest updated"
+        1 string data = ""クエストアイテム入手、クエスト更新""
        [9]
-        1 string data = " Quest Item returned, Quest Completed"
+        1 string data = ""クエストアイテム返却、クエスト完了""
        [10]
-        1 string data = "Place the Condenser in the mailbox."
+        1 string data = ""コンデンサを郵便ポストに入れる。""
        [11]
-        1 string data = "Look inside the mailbox."
+        1 string data = ""郵便ポストの中を覗く。""
        [12]
-        1 string data = "Reach into the mailbox."
+        1 string data = ""郵便ポストに手を入れる。""
        [13]
-        1 string data = "Break the mailbox."
+        1 string data = ""郵便ポストを壊す。""
        [14]
-        1 string data = "You place the object in the mailbox. Something lets out a loud <i>click</i>. When you look back inside, the Condenser is gone."
+        1 string data = ""物体を郵便ポストに入れると、何かが大きな<i>カチッ</i>という音を立てた。中を覗き返すと、コンデンサは消えていた。""
        [15]
-        1 string data = "You peer through the opening to find ... nothing. Dust-mantled steel and little more."
+        1 string data = ""開口部から覗き込むと……何もない。埃にまみれた鉄と、それだけだ。""
        [16]
-        1 string data = "You squeeze most of your fingers through the crack. Inside, there is nothing but bare, cold metal. "
+        1 string data = ""隙間にほとんどの指を押し込む。中には何もない、ただの冷たい金属だけだ。""
        [17]
-        1 string data = "The mailbox proves impressively resilient against your attempts to smash it apart."
+        1 string data = ""郵便ポストは、叩き壊そうとする試みに対して驚くほど頑丈だった。""
    [1158]
     0 StringTable data
      1 string Filename = "o1001_carmen"
@@ -351079,165 +351079,165 @@
       1 Array Array (80 items)
        0 int size = 80
        [0]
-        1 string data = " We need help. We're too fragile and unfamiliar with this place to travel in this cold. We need a caravan master to transport us out of here. Can you help? (TODO - Unwelcome Guests Quest Addendum)"
+        1 string data = ""助けが必要だ。この寒さの中を移動するには、私たちは弱すぎるし、この場所に不慣れすぎる。ここから運び出してくれる隊商のリーダーが必要だ。助けてくれるか?(TODO - Unwelcome Guests Quest Addendum)""
        [1]
-        1 string data = " We'll find you a caravan master. Hold fast."
+        1 string data = ""隊商のリーダーを見つけよう。頑張れ。""
        [2]
-        1 string data = " We can't help you. You're on your own."
+        1 string data = ""助けられない。自分たちでなんとかしろ。""
        [3]
-        1 string data = " Bless you. We'll hold out as long as we can."
+        1 string data = ""ありがとう。できる限り持ちこたえる。""
        [4]
-        1 string data = " Then we'll die, we're at your mercy."
+        1 string data = ""それなら死ぬだけだ。あなたたちの慈悲にすがるしかない。""
        [5]
-        1 string data = " Please hurry. I don't know how long we can last out here."
+        1 string data = ""急いでくれ。ここでどれだけ持つか分からない。""
        [6]
-        1 string data = " I don't know what is colder, the snow or your heart."
+        1 string data = ""雪とあなたの心、どちらが冷たいか分からないよ。""
        [7]
-        1 string data = " This state should not be possible!"
+        1 string data = ""この状態は起こり得ないはずだ!""
        [8]
-        1 string data = ""Who are you? Did Mama Cotter send you?""
+        1 string data = ""あなたたちは誰? ママ・コッターが送ってきたの?""
        [9]
-        1 string data = ""You first. Who are you, and what are you doing here?""
+        1 string data = ""まず君たちからだ。誰で、ここで何をしている?""
        [10]
-        1 string data = ""Who are you?""
+        1 string data = ""あなたたちは誰?""
        [11]
-        1 string data = ""We'll be back.""
+        1 string data = ""また戻ってくる。""
        [12]
-        1 string data = ""Take alll the time you want. Not like we're dying out here.""
+        1 string data = ""好きなだけ時間をかけてくれ。別にここで死にかけてるわけじゃないしな。""
        [13]
-        1 string data = ""Here? Oh. Oh, nothing. We're just starving, freezing, dying slowly of exposure. All the ings. No big deal."\n\n\n"What the fuck do you think we're doing?""
+        1 string data = ""ここで? ああ、ああ、別に何も。ただ飢えて、凍えて、ゆっくりと衰弱死しているだけさ。全部揃ってる。大した問題じゃない。""\n\n\n""一体何をしてると思ってるんだ?""
        [14]
-        1 string data = ""That so? Trust me. We don't want to be here either. We'd move if we could, but we can't on account of the fact our caravan leader's dead." She glares."
+        1 string data = ""そうかい? 信じてくれ、俺たちだってここにいたくない。できれば移動したい。でも隊商のリーダーが死んでるからできないんだ。" 彼女は睨みつける。"
        [15]
-        1 string data = ""Find us a new one and we'll go. Problem solved.""
+        1 string data = ""新しいリーダーを見つけてくれ。そうすれば出て行く。問題解決だ。""
        [16]
-        1 string data = ""Who's in charge here?""
+        1 string data = ""ここの責任者は誰だ?""
        [17]
-        1 string data = ""What caravan?""
+        1 string data = ""何の隊商?""
        [18]
-        1 string data = ""We'll get back to you.""
+        1 string data = ""また来る。""
        [19]
-        1 string data = ""Used to be that there were people who'd move our people for us. That's all changed, though." Carmen squares her jaw, knuckles blanching from the way she squeezes her hands into fists."
+        1 string data = ""昔は、私たちの民を移動させてくれる人たちがいたんだ。だけど全てが変わってしまった。" カルメンは顎を引き、拳を握りしめて手の甲が白くなる。"
        [20]
-        1 string data = ""Depends on the kind of answer you're looking for. Whatever you need to say to this forsaken bunch, you say to me." Carmen jerks a thumb at her breastbone. "
+        1 string data = ""求めている答えの種類によるな。この見捨てられた連中に言いたいことがあるなら、私に言え。" カルメンは親指で自分の胸を指す。"
        [21]
-        1 string data = ""But Mama Cotter's the one who put together the smuggling operation.""
+        1 string data = ""でも密輸作戦をまとめたのはママ・コッターだ。""
        [22]
-        1 string data = ""We'll help you and your people.""
+        1 string data = ""あなたとあなたたちの仲間を助けよう。""
        [23]
-        1 string data = ""Rather watch you lot freeze to death.""
+        1 string data = ""お前らが凍死するのを見ている方がいい。""
        [24]
-        1 string data = ""When the time comes for you to die, I hope you go slow. I hope it hurts. I hope you die lonely and cold as the hellscape you call a heart.""
+        1 string data = ""お前が死ぬときが来たら、ゆっくり苦しんで死ねばいい。痛みを感じろ。お前が心と呼ぶ地獄のように孤独で冷たく死ねばいい。""
        [25]
-        1 string data = ""Thank you. That means a lot. I... can I help you with anything else?" For the first time, her face softens and suddenly, Carmen looks ancient, weighed down by the memory of a hundred unspoken fears."
+        1 string data = ""ありがとう。本当に感謝する。私は……他に何か手伝えることはある?" 初めて、彼女の顔が和らぎ、突然カルメンは年老いて見え、百の言葉にならぬ恐怖の記憶に押しつぶされているようだった。"
        [26]
-        1 string data = " View Debug Options."
+        1 string data = ""デバッグオプションを表示。""
        [27]
-        1 string data = " Select Debug Options."
+        1 string data = ""デバッグオプションを選択。""
        [28]
-        1 string data = " Tell Carmen that you will secure transportation for the refugees."
+        1 string data = ""カルメンに難民の輸送手段を確保すると伝える。""
        [29]
-        1 string data = " Tell Carmen that you will not help the refugees."
+        1 string data = ""カルメンに難民を助けないと伝える。""
        [30]
-        1 string data = " Quest Addendum Added. "
+        1 string data = ""クエスト追加項目が追加された。""
        [31]
-        1 string data = " Quest Addendum Added."
+        1 string data = ""クエスト追加項目が追加された。""
        [32]
-        1 string data = " Ask Carmen who arranged to smuggling operation"
+        1 string data = ""カルメンに誰が密輸作戦を手配したか尋ねる""
        [33]
-        1 string data = " You learn Mama Cotter arranged the smuggling operation."
+        1 string data = ""ママ・コッターが密輸作戦を手配したことを知る。""
        [34]
-        1 string data = ""We're not smugglers! We're their cargo. Those bastards promised they'd get us to Colorado Springs, but they took everything we had as payment.""
+        1 string data = ""私たちは密輸業者じゃない! 彼らの荷物なんだ。あのクソ野郎どもはコロラドスプリングスに連れて行くと約束したのに、支払いとして私たちの全てを奪っていった。""
        [35]
-        1 string data = ""My name's Carmen. I guess you could say I'm de facto leader here." She juts her chin at you, glaring."
+        1 string data = ""私の名前はカルメン。ここの事実上のリーダーと言えるかもしれない。" 彼女は顎を突き出し、睨みつける。"
        [36]
-        1 string data = ""We're refugees, every one of us... Driven off our land by the plains gangs. Now we're stuck here with no food, but we'll probably freeze before we starve. We need transport to Colorado Springs, or we're dead.""
+        1 string data = ""私たちは全員が難民だ……平原のギャングに土地を追われた。今はここで食料もなく立ち往生している。でも餓死する前に凍死するだろう。コロラドスプリングスへの輸送手段が必要だ。さもなくば死ぬ。""
        [37]
-        1 string data = ""How can we help?""
+        1 string data = ""どう助けられる?""
        [38]
-        1 string data = ""Not our problem. Goodbye.""
+        1 string data = ""俺たちの問題じゃない。さよなら。""
        [39]
-        1 string data = ""We'll get back to you.""
+        1 string data = ""また後で来る。""
        [40]
-        1 string data = ""Then we're going to die. I hope the thought keeps you warm at night.""
+        1 string data = ""それなら私たちは死ぬ。その考えが夜にあなたを温めてくれることを願うよ。""
        [41]
-        1 string data = ""We need to find someone who can carry all of us to the city... and soon. We're not going to last out here.""
+        1 string data = ""全員を街に運んでくれる誰かを見つけないと……それも早く。ここではもう長く持たない。""
        [42]
-        1 string data = ""I've heard that merchant caravans stop at the Bizarre - maybe one of them could help us. But the Monster Army won't let us into the Bizarre, and we don't have any money to pay for transport.""
+        1 string data = ""商人の隊商がビザールに立ち寄ると聞いた。もしかしたら誰かが助けてくれるかもしれない。でもモンスター・アーミーは私たちをビザールに入れてくれないし、輸送の支払いをする金もない。""
        [43]
-        1 string data = ""Don't take your time.""
+        1 string data = ""のんびりしないで。""
        [44]
-        1 string data = ""We'll see if we can find someone in the Bizarre who can help you.""
+        1 string data = ""ビザールであなたたちを助けられる誰かを探してみる。""
        [45]
-        1 string data = ""You're the only hope we have. If we're stuck here much longer, I doubt we'll survive.""
+        1 string data = ""あなたたちが唯一の希望だ。ここにもっと長く閉じ込められたら、生き延びられないと思う。""
        [46]
         1 string data = ""
        [47]
-        1 string data = ""Fuck off. If you won't help us, then at least have the decency to let us die in peace.""
+        1 string data = ""消えろ。助けないなら、せめて平穏に死なせてくれ。""
        [48]
-        1 string data = ""Thank you so much, Rangers! We owe you our lives.""
+        1 string data = ""本当にありがとう、レンジャー! 命を救われた。""
        [49]
-        1 string data = ""We're all refugees. Mama Cotter set up the smuggling ring to get us all to safety. Unfortunately, our means of transportation seems to have been ... removed." Carmen flashes a meaningful look. "
+        1 string data = ""私たちは全員が難民だ。ママ・コッターが密輸組織を作って、全員を安全な場所に連れて行こうとした。残念ながら、輸送手段が……失われてしまったようだ。" カルメンは意味ありげな視線を向ける。"
        [50]
-        1 string data = ""Who the hell is Mama Cotter?""
+        1 string data = ""ママ・コッターって誰だ?""
        [51]
-        1 string data = ""She's the one who set everything up. She arranged for the smugglers to pick us up here and sneak us into Colorado Springs. She was going to meet us at the city gate and find us beds and food.""
+        1 string data = ""全てを手配した人だ。密輸業者にここで私たちを拾ってコロラドスプリングスに忍び込ませる手配をした。街の門で会って、寝床と食料を見つけてくれる予定だった。""
        [52]
-        1 string data = ""We're the Rangers. We were sent here to negotiate with the smugglers... but they attacked us.""
+        1 string data = ""俺たちはレンジャーだ。密輸業者と交渉するためにここに送られた……だが奴らは襲ってきた。""
        [53]
-        1 string data = ""Mama Cotter set everything up. She arranged for the smugglers to pick us up here and sneak us into the city. She was going to meet us at the gate and find us beds and food.""
+        1 string data = ""ママ・コッターが全てを手配した。密輸業者にここで私たちを拾って街に忍び込ませる手配をした。門で会って、寝床と食料を見つけてくれる予定だった。""
        [54]
-        1 string data = ""I really hate to ask favors of violent strangers, but thanks to you we're in a tight spot. We need help getting out of here.""
+        1 string data = ""暴力的な見知らぬ人に頼み事をするのは本当に嫌だが、あなたたちのせいで窮地に陥った。ここから脱出するのを助けてほしい。""
        [55]
-        1 string data = ""Those smugglers were bastards. They took everything we had because they knew we were desperate.""
+        1 string data = ""あの密輸業者どもはクソ野郎だった。私たちが必死だと知って、全てを奪っていった。""
        [56]
-        1 string data = ""Bastards.""
+        1 string data = ""クソ野郎め。""
        [57]
-        1 string data = ""We came here to <i>stop</i> the flow of refugees. Can you go somewhere else?""
+        1 string data = ""俺たちは難民の流入を<i>止める</i>ために来たんだ。どこか他所に行けないか?""
        [58]
-        1 string data = ""How? We have no money, no food, no vehicles. We need to find <i>someone</i> who can carry all of us to the city... and soon. We're not going to last out here.""
+        1 string data = ""どうやって? 金もない、食料もない、乗り物もない。全員を街に運んでくれる<i>誰か</i>を見つけないと……それも早く。ここではもう長く持たない。""
        [59]
-        1 string data = ""We'll wait here and try to keep warm.""
+        1 string data = ""ここで待って、暖かくしていよう。""
        [60]
-        1 string data = ""We won't survive out here for much longer. Please find someone to help us soon.""
+        1 string data = ""ここではもう長く生き延びられない。早く助けてくれる人を見つけてくれ。""
        [61]
-        1 string data = ""Jones sent someone to find us. He's going to take us to Colorado Springs, and he said <i>you</i> paid our way. You've saved our lives, Rangers - thank you!""
+        1 string data = ""ジョーンズが誰かを送って探してくれた。コロラドスプリングスに連れて行ってくれるそうだ。<i>あなたたち</i>が運賃を払ってくれたと言っていた。命を救ってくれてありがとう、レンジャー!""
        [62]
-        1 string data = ""I doubt she knew what bastards those smugglers were. They took everything we had as 'bonus payment.'""
+        1 string data = ""彼女はあの密輸業者たちがどれだけクソ野郎だったか知らなかったんだと思う。奴らは『追加料金』として私たちの全てを奪っていった。""
        [63]
         1 string data = ""
        [64]
-        1 string data = ""Help! We're locked in here!""
+        1 string data = ""助けて! ここに閉じ込められてる!""
        [65]
-        1 string data = ""Open the door!""
+        1 string data = ""ドアを開けて!""
        [66]
-        1 string data = ""Please don't leave us in here!""
+        1 string data = ""お願い、ここに置いていかないで!""
        [67]
-        1 string data = ""We changed our minds, we want to help.""
+        1 string data = ""気が変わった。助けたい。""
        [68]
-        1 string data = ""Sure, no problem.""
+        1 string data = ""もちろん、問題ない。""
        [69]
-        1 string data = ""Assholes.""
+        1 string data = ""クソ野郎ども。""
        [70]
-        1 string data = ""Better late than never - thank you. We need you to find someone who can bring all of us safely to Colorado Springs. The best option that comes to mind is to join one of the travelling merchant caravans.""
+        1 string data = ""遅くても来ないよりはマシだ。ありがとう。全員を安全にコロラドスプリングスに連れて行ける人を見つけてほしい。一番いいのは旅の商人隊商に合流することだ。""
        [71]
-        1 string data = ""I know the caravans stop in the Bizarre, but the Monster Army won't even let us in and we wouldn't have the money to pay the caravaneers if they did. Please, find someone to take us to Colorado Springs and soon, or we'll freeze to death.""
+        1 string data = ""隊商はビザールに立ち寄ると知っているが、モンスター・アーミーは入れてくれないし、仮に入れたとしても隊商の人たちに払う金もない。お願いだ、コロラドスプリングスに連れて行ってくれる人を見つけて。それも早く。さもないと凍死する。""
        [72]
-        1 string data = ""The smugglers mentioned what happened to the Bizarre. Everyone there is dead. That means there's no one to help us here. No food, no real shelter. We can only hope we'll freeze to death before we starve. So thanks, you dickheads.""
+        1 string data = ""密輸業者たちがビザールで何が起きたか話していた。全員が死んだ。つまりここで助けてくれる人は誰もいない。食料もない、本当の避難所もない。餓死する前に凍死することを願うしかない。だからありがとうよ、クソ野郎ども。""
        [73]
-        1 string data = ""Fuck off. Because of you, we're all doomed to die.""
+        1 string data = ""消えろ。お前たちのせいで、全員死ぬ運命だ。""
        [74]
         1 string data = "Script Node 81"
        [75]
-        1 string data = ""How can we call ourselves Rangers if we don't help these people?""
+        1 string data = ""この人たちを助けなかったら、どうしてレンジャーを名乗れる?""
        [76]
-        1 string data = ""They shouldn't have come here, but it doesn't seem right to let them die.""
+        1 string data = ""ここに来るべきじゃなかったが、死なせるのは正しくない気がする。""
        [77]
         1 string data = "Script Node 85"
        [78]
-        1 string data = ""Son of a bitch!""
+        1 string data = ""クソったれ!""
        [79]
-        1 string data = ""To the city? Oy. Daisy's gonna love that.""
+        1 string data = ""街へ? おいおい。デイジーが喜ぶぜ。""
    [1159]
     0 StringTable data
      1 string Filename = "o1001_cartelthug"
