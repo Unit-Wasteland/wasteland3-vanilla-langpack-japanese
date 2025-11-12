@@ -18,15 +18,15 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 45029,
-      "entries_untranslated_real": 13723,
+      "entries_translated": 45096,
+      "entries_untranslated_real": 13656,
       "entries_kept_english": 42647,
-      "completion_rate": 26.8,
-      "current_line": 377182,
+      "completion_rate": 26.9,
+      "current_line": 378072,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 340: 80 new Japanese translations (L376321-377182). Multiple sections completed: o2001_zoltar (23 entries - fortune teller machine Tarjan dialogue predictions), x2601_hostagetakercorpse (7 entries - bandit corpse investigation Nita finger collection), x2601_wolverines_companionbarks (6 entries - companion reactions wolverine-eaten corpse), o2101_combatbarks_ditsogogo (15 entries - combat barks clown cult payaso rojo battle taunts), o2101_ditsogogo (16 entries - El Payaso Rojo clown cult religious teachings apocalyptic humor), o2101_djmasher partial (21/40 entries - DJ R.I.P. radio show Believe It Or Not contest Ghostbusters reference). Quote format learning: Complex 6-quote format for multi-part dialogue (format: double-double-quote Text1 close-quote newlines open-quote Text2 double-quote). Spanish slang preserved: pendejos cabrones amigos payasos chanclas. Technical preservation: Script Node kept English (instances: 13 29 41), debug options kept English (ES empty). Glossary compliance: Rangers レンジャー, Bizarre ビザール, Warrens ウォーレン (all consistent). Dual validation passed (Structure: 0 errors all quote counts exact match including complex 6-quote multi-dialogue format, Quality: 0 issues L376321-377182 validated action markers clean no untranslated entries).",
-      "entries_completed": 45551
+      "note": "Session 341: 67 new Japanese translations (L377183-378072). Sections completed: o2101_djmasher continuation (19 entries - DJ R.I.P. radio show remaining contest dialogue prize dedications vinyl protection barks), o2101_monstermasher (27 entries - Warrens security guard entrance pass verification exploding pig incident Flab the Inhaler boss references clown defeat confirmation), o2101_monstertender (21 entries - pig tender Gwynplaine dialogue pig care duties Warrens history perfume smell quest Monster Army uniform). Content types: Radio show rewards/dedications, Bizarre security protocols, Warrens access control, exploding pig investigation, pig farming operations, smell masking side quest. Format compliance: 6-quote multi-dialogue format preserved (L377800), Script Node 64 and 1 kept English, technical terms preserved, all tags maintained. Glossary: ウォーレン (Warrens) ビザール (Bizarre) フラブ (Flab) モンスター軍 (Monster Army) all consistent. Dual validation passed (Structure: 0 errors all quote counts exact match, Quality: 0 issues L377183-378072 no action markers no untranslated entries).",
+      "entries_completed": 45618
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -59,22 +59,22 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "96e9ca5",
-  "last_commit_message": "Base game translation: Session 340 - Fortune teller, clown cult, and DJ R.I.P. radio show (80 entries)",
+  "last_commit_hash": "32075ae",
+  "last_commit_message": "Base game translation: Session 341 - DJ R.I.P., Warrens door guard, and pig tender (67 entries)",
   "validation_date": "2025-11-13",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
-  "analysis_session": 340,
+  "analysis_session": 341,
   "analysis_findings": {
-    "new_translations": "Session 339: 100 new Japanese translations across two sections. o2001_vrdevice (80 entries - NORAD Cheyenne Mountain VR headset simulation tutorial with checkpoint alpha entrance helipad command interactions error handling unauthorized user warnings), o2001_youngvincent (20 entries - Young Vincent merchant dialogue Masato store successor terse personality minimal conversation style). Content types: VR simulation UI menu options location selection error messages technical notifications, merchant greeting dialogue player questions shop interactions.",
-    "action_marker_protection": "1 action marker preserved: buzz marker kept in English (line 376176). All action markers validated - no Japanese characters found in any markers.",
-    "quote_format_handling": "Critical learning: 4-quote format handling for dialogue. Initial errors fixed by avoiding Japanese brackets in Unity structure markers. Dialogue uses quote markers NOT brackets to match English source quote count. Example: Welcome to Cheyenne Mountains dialogue requires 4 quotes total (2 at start 1 after dialogue 1 at end) NOT Japanese brackets which add extra characters.",
-    "quality_validation": "Dual validation passed. Structure: 0 errors (all quote counts exact match after fixing initial bracket issues). Quality: 0 issues (range L376030-376320 validated). Technical terms preserved: NORAD (military term kept as-is), A STRANGE GAME (WarGames movie reference preserved), debug options (View Select Question Response kept in English due to ES empty), TODO comment (developer note preserved), VISTA ERROR REBOOTING (technical terms kept in English). Glossary compliance: Quarex クォレックス Cheyenne Mountain シャイアン・マウンテン Complex シャイアン・マウンテン複合施設 Patriarch パトリアーク (all consistent). No bracket content translated. No untranslated English entries in validated range. Zero glossary violations detected.",
+    "new_translations": "Session 341: 67 new Japanese translations across three sections. o2101_djmasher continuation (19 entries - DJ R.I.P. radio show final contest dialogue Believe It Or Not Ghostbusters marshmallow man question correct/incorrect answers prize dedications vinyl protection barks), o2101_monstermasher (27 entries - Warrens security door guard dialogue entrance pass verification exploding pig incident explanation clown cult defeat aftermath Flab the Inhaler boss meeting requests security protocols), o2101_monstertender (21 entries - pig tender Gwynplaine dialogue pig farming operations Warrens tunnel history perfume smell masking quest Monster Army Tenders uniform description). Content types: Radio show contest rewards listener dedications, Bizarre security access control, exploding pig investigation, clown aftermath reactions, pig care duties smell problems side quest.",
+    "action_marker_protection": "0 action markers in this range. All entries validated - no Japanese characters found in any structural markers.",
+    "quote_format_handling": "Complex 6-quote format preserved at L377800 (multi-part dialogue with triple-newline separator). All quote counts match English source exactly. Script Node entries kept in English (Script Node 64 at L377770, Script Node 1 at L378008).",
+    "quality_validation": "Dual validation passed. Structure: 0 errors (all quote counts exact match including 6-quote multi-dialogue format). Quality: 0 issues (range L377183-378072 validated). Technical terms preserved: Script Node (kept English), TODO comments (preserved), [Attack] and [[Global:]] markers (preserved), Dollars variable (preserved), all HTML tags maintained. Glossary compliance: ウォーレン (Warrens), ビザール (Bizarre), フラブ (Flab), モンスター軍 (Monster Army), フラブ・ザ・インヘイラー (Flab the Inhaler) all consistent. No bracket content translated. No untranslated English entries in validated range. Zero glossary violations detected.",
     "validation_status": "Structure: 0 errors. Action markers: 0 Japanese in markers (verified). Quality: 0 issues. All validations passed with zero warnings. Ready for next section."
   },
-  "total_entries_completed": 54936,
+  "total_entries_completed": 55003,
   "total_entries": 232418,
-  "total_entries_untranslated": 177482,
-  "overall_completion_rate": 23.6,
-  "next_action": "Continue sequential translation from line 377183. Next section: o2101_djmasher continuation (19 remaining entries of 40 - DJ R.I.P. radio show remaining dialogue and barks)."
+  "total_entries_untranslated": 177415,
+  "overall_completion_rate": 23.7,
+  "next_action": "Continue sequential translation from line 378073. Next section: o2101_payaso_chapel_door (clown chapel door interactions and security dialogue)."
 }
