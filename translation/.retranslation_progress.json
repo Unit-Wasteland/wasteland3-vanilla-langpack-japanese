@@ -18,14 +18,14 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 38857,
+      "entries_translated": 38896,
       "entries_untranslated_real": 6434,
       "entries_kept_english": 43034,
-      "completion_rate": 66.5,
-      "current_line": 223485,
+      "completion_rate": 66.6,
+      "current_line": 241010,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 277: 65 entries translated (Buck and Blaze rescue dialogue, Nancy Forge oil field). Lines 208862-223484. Buck and Blaze trapped in flames with multiple rescue methods. Nancy Forge oil field mission dialogue. Applied unified decision logic (Spanish empty defaults to translate). Structure validation: 0 errors. Action markers: 0 issues. Quality: 0 issues. Progress: 38,857 Japanese entries (66.5% of translatable). Remaining: 6,434 scattered entries. Next: Continue searching for untranslated entries."
+      "note": "Session 278: 39 entries translated (Sister Nancy Glory dialogue, Mother Nancy Reliance trial scene). Lines 224600-241010. Sister Nancy Glory post-mission dialogues. Mother Nancy Reliance judging Godfisher and robot trial scene. Applied unified decision logic (Spanish empty defaults to translate). Structure validation: 0 errors. Action markers: 0 issues. Quality: 0 issues. Progress: 38896 Japanese entries. Next: Continue searching for untranslated entries after line 241010."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -59,11 +59,11 @@
     }
   },
   "last_commit_hash": "171530a",
-  "last_commit_message": "Base game translation: 65 entries (Session 277 - Buck/Blaze dialogue, Nancy Forge)",
+  "last_commit_message": "Base game translation: 39 entries (Session 278 - Sister Nancy dialogue, trial scene)",
   "validation_date": "2025-11-12",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
-  "analysis_session": 277,
+  "analysis_session": 278,
   "analysis_findings": {
     "action_marker_issue": "Spanish reference incorrectly translates action marker contents (e.g., ::screams:: to ::grita::). Japanese version correctly keeps them in English. Many untranslated entries are actually correctly processed action markers.",
     "scattered_untranslated": "Remaining ~6,600 untranslated entries are scattered throughout file, many are action markers or technical content that should remain in English.",
