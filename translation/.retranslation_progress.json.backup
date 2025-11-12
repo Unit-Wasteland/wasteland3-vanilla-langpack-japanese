@@ -18,15 +18,15 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 47553,
-      "entries_untranslated_real": 11296,
-      "entries_kept_english": 42159,
-      "completion_rate": 81.4,
-      "current_line": 395136,
+      "entries_translated": 47907,
+      "entries_untranslated_real": 10942,
+      "entries_kept_english": 42331,
+      "completion_rate": 82.0,
+      "current_line": 397632,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 359: 217 new Japanese translations (L393900-395136). Sections completed: q1001_slavedoctor (28 entries): Stitches slave doctor medical services, assistant background, healing ethics. q1001_starthatdreams (61 entries): Star-that-Dreams Godfisher leader, Haloed Moon affair confrontation, Cordite rivalry, demolition challenge. q1001_steeltrap (103 entries): Steel-Trap Scar Collector leader extensive dialogue, Cordite betrayal Trial by Demolition, camp entry test (slave execution vs cyborg mod), demolition derby preparation. q1001_steeltrapvsdeecutscene (2 entries): Steel-Trap vs Dee cutscene threats. q1001_surgeryboothsi (23 entries): Suture-Self Surgery Kiosk descriptions, ancient surgical device operations, Ironclad Cordite cyborg saturation. Action markers English-only (whispers, sighs, harsh whisper - 3 instances). Format compliance: Script Nodes preserved (70, 73, 77, 79, 80, 99, 17, 18), Trigger Conv Node preserved (14, 109), 4-quote format maintained, [Actor Name] placeholders preserved. Character names: Stitches, Steel-Trap, Star-that-Dreams, Haloed Moon, Cordite, Ironclad Cordite, Dee. Factions: Scar-Collectors, Godfishers. Locations: Alaska-Surprise. Glossary compliance: Rangers singular form corrected (レンジャー). Dual validation passed (Structure: 0 errors, Quality: 0 issues L393900-395136).",
-      "entries_completed": 47975
+      "note": "Session 361: 172 new Japanese translations (L396338-397632). Sections completed: q2001_riskybriskett_obsolete (13 entries): Obsolete Risky Briskett debug dialogue, Meat Clown manager interaction, Cucaracha body quest options, sandwich eating choices, debug status effects. q2001_combatbarks_godfishers (50 entries): Godfishers combat barks, sky god worship battle cries, kite sacrifice threats, vehicle destruction commands. q2001_combatbarks_mistthatburns (15 entries): Mist that Burns death dialogue, sky god ascension wishes, believer sacrifice commands, god hunger cries. q2001_combatbarks_starthatburns (15 entries): Star that Burns dialogue, Great Kite fetching, death gift philosophy, heathen slaying commands. q2001_companion_barktriggers (79 entries): Companion reactions to Meat Clown restaurant, clown food disgust, body discovery horror, ice cream nostalgia, Haloed Moon arrival, kite quest progress, limb pile discovery, corpse kite retrieval, rat infestation observations. Action marker English-only: ::chokes:: (L397608). Format compliance: 46 Script Nodes preserved English, quote format strictly maintained (EN quotes equal JA quotes), HTML tags preserved (<i>). Character names: Risky Briskett, Cucaracha, Lecherito, Haloed Moon. Factions: Godfishers, Payasos, Gippers. Locations: Alaska. Items: Squeezins. Dual validation passed (Structure: 0 errors, Quality: 0 issues L396338-397632).",
+      "entries_completed": 48329
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -59,21 +59,21 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "0f7c9f7",
-  "last_commit_message": "Base game translation: Session 359 - Scar Collectors leadership dialogue & surgery kiosk (217 entries)",
+  "last_commit_hash": "9be8c7d",
+  "last_commit_message": "Base game translation: Session 361 - obsolete quests & Godfishers combat (172 entries)",
   "validation_date": "2025-11-13",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
-  "analysis_session": 359,
+  "analysis_session": 361,
   "analysis_findings": {
-    "new_translations": "Session 359: 217 new Japanese translations across 5 sections (L393900-395136). q1001_slavedoctor: Stitches slave doctor dialogue. Medical pricing, assistant background, healing ethics. q1001_starthatdreams: Star-that-Dreams Godfisher leader dialogue. Haloed Moon affair confrontation, Cordite rivalry, demolition challenge, Alaska Surprise investigation. Leather throne descriptions. q1001_steeltrap: Steel-Trap Scar Collector leader extensive dialogue. Cordite betrayal Trial by Demolition challenge. Camp entry test: slave execution vs cyborg mod requirement. Suture Self surgery booth. Demolition derby preparation, trash talk. Gang philosophy: slavery + body modification. q1001_steeltrapvsdeecutscene: Steel-Trap vs Dee cutscene confrontation. q1001_surgeryboothsi: Suture-Self Surgery Kiosk ancient surgical device. START button activation, gruesome modification process, Ironclad Cordite cyborg saturation.",
-    "action_marker_protection": "3 action markers in range L393900-395136: whispers (L394278), sighs (L394290), harsh whisper (L394918). All action markers preserved in English-only. Quality validation confirmed 0 action markers contain Japanese characters.",
-    "quote_format_handling": "All quote counts match source exactly (217 entries). 8 Script Nodes preserved English (70, 73, 77, 79, 80, 99, 17, 18). 2 Trigger Conv Nodes preserved (14, 109). 4-quote format maintained throughout. [Actor Name] placeholders preserved in surgery kiosk descriptions. Glossary compliance: Rangers singular form corrected to レンジャー (was レンジャーズ). Character names: Stitches, Steel-Trap, Star-that-Dreams, Haloed Moon, Cordite, Ironclad Cordite, Dee. Factions: Scar-Collectors, Godfishers. Locations: Alaska-Surprise.",
-    "quality_validation": "Dual validation passed. Structure: 0 errors 169712 entries all quote counts exact match. Quality: 0 issues L393900-395136 - no action markers translated to Japanese, no untranslated English entries, no bracket content translated, no glossary terminology violations. Technical terms: Script Nodes preserved English, Trigger Conv Nodes preserved English. Zero warnings."
+    "new_translations": "Session 361: 172 new Japanese translations across 5 sections (L396338-397632). q2001_riskybriskett_obsolete: Obsolete debug dialogue Risky Briskett Meat Clown restaurant manager (13 entries). Cucaracha body quest report options, sandwich eating choices, debug status effect applications. q2001_combatbarks_godfishers: Godfishers combat barks fanatic religious warriors (50 entries). Sky god worship battle cries, kite sacrifice threats, death proclamations, thunder/lightning declarations, vehicle destruction commands, sky vengeance shouts. q2001_combatbarks_mistthatburns: Mist that Burns enemy death wishes (15 entries). Sky god ascension prayers, kite binding requests, Gipper killing regrets, god appeasement commands, believer ascent celebrations, blood sacrifice offerings, god hunger declarations. q2001_combatbarks_starthatburns: Star that Burns enemy dialogue (15 entries). Final ascension wishes, god smile acknowledgments, Great Kite fetching, death as gift philosophy, sky beckoning commands, heathen slaying orders, insolent pup insults, sacrifice declarations. q2001_companion_barktriggers: Companion reactions to Payasos quest elements (79 entries). Meat Clown restaurant discovery, clown food disgust reactions, body pile horror, ice cream nostalgia Alaska Surprise references, Haloed Moon arrival observations, kite quest advancement, limb pile discoveries, corpse kite retrieval reactions, rat infestation observations, meat storage critique.",
+    "action_marker_protection": "1 action marker in range L396338-397632: ::chokes:: (L397608 death smell choking). All action markers preserved in English-only. Quality validation confirmed 0 action markers contain Japanese characters.",
+    "quote_format_handling": "All quote counts match source exactly (172 entries). 46 Script Nodes preserved English (q2001_riskybriskett_obsolete: 12, 15; q2001_combatbarks_godfishers: 1-24; q2001_combatbarks_mistthatburns: 1-5; q2001_combatbarks_starthatburns: 1-5; q2001_companion_barktriggers: 1-10). Quote format strictly maintained: EN quotes equal JA quotes (no additions or deletions). HTML tags preserved: <i> tags in combat barks maintained. Unified translation decision logic applied (do_not_translate check, glossary check, Spanish reference, default to translate). Character names: Risky Briskett (リスキー・ブリスケット), Cucaracha (クカラチャ), Lecherito (レチェリート), Haloed Moon (ヘイロード・ムーン). Factions: Godfishers (ゴッドフィッシャーズ), Payasos (パヤソス), Gippers (ギッパーズ). Locations: Alaska (アラスカ). Items: Squeezins (スクイージン moonshine alcohol).",
+    "quality_validation": "Dual validation passed. Structure: 0 errors 169712 entries all quote counts exact match. Quality: 0 issues L396338-397632 - 0 action markers contain Japanese characters, 0 untranslated English entries in translated range, 0 bracket content translated to Japanese, 0 glossary terminology violations. Technical terms: Script Node (46 instances) preserved English per do_not_translate list. Escape sequences preserved: newline markers maintained in original format. HTML tags preserved: <i> tags maintained. Zero warnings."
   },
-  "total_entries_completed": 57084,
+  "total_entries_completed": 57438,
   "total_entries": 232418,
-  "total_entries_untranslated": 175519,
-  "overall_completion_rate": 24.6,
-  "next_action": "Continue sequential translation from line 395137. Section q1001_surgeryboothsi completed (23 of 23 entries). Next section: q1001_themechanic starting at line 395139."
+  "total_entries_untranslated": 175165,
+  "overall_completion_rate": 24.7,
+  "next_action": "Continue sequential translation from line 397633. Sections q2001_riskybriskett_obsolete (13 entries), q2001_combatbarks_godfishers (50 entries), q2001_combatbarks_mistthatburns (15 entries), q2001_combatbarks_starthatburns (15 entries), q2001_companion_barktriggers (79 entries) completed. Next section: q2001_cucarachakite starting at line 397633."
 }
