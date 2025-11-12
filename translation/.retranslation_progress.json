@@ -18,15 +18,15 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 46418,
-      "entries_untranslated_real": 12431,
+      "entries_translated": 46542,
+      "entries_untranslated_real": 12307,
       "entries_kept_english": 42482,
-      "completion_rate": 80.1,
-      "current_line": 388326,
+      "completion_rate": 79.7,
+      "current_line": 389196,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 351: 152 new Japanese translations (L387623-388326). Sections completed: q1001_hallie (55 entries: Hallie McKay escaped slave confrontation moral consequences), q1001_haloedmoon (97 entries: Haloed Moon wife of Star-that-Dreams sacrifice plan divine omen). Content types: Moral reckoning (Hallie blames Rangers for slavery 18), Escape slave aftermath (scars torture Steel-Trap brutality 12), Freedom scenarios (Liberty defeat liberation offers 11), Sacrifice planning (divine omen kite ritual suicide 24), Religious dialogue (gods signs prophecy unwitting vessels 19), Godfisher politics (alliance departure strategy negotiations 15). Debug entries preserved (6 Pretend options kept English). Format compliance: 2 Script Nodes preserved (82 104), 1 Trigger Conv Node 39, HTML i tags preserved (emphasis 3 instances Rangers slavers him only thank), 1 Global variable [Global: q1001_Money_HallieBribe], escape sequences protected. Character names: Hallie McKay La Perla Liberty Buchanan Steel-Trap Gary Wolfe Star-that-Dreams Haloed Moon Cordite. Factions: Rangers Godfishers Scar Collectors Payasos. Locations: Ranger HQ Colorado Springs Alaska Surprise truck wind farm Mechanic garage. Special format: 1 six-quote empty entry preserved. Dual validation passed (Structure: 0 errors all quotes match, Quality: 0 issues no action markers translated no untranslated entries no glossary violations).",
-      "entries_completed": 46940
+      "note": "Session 352: 124 new Japanese translations (L388872-389196). Sections completed: q1001_libertybuchanan (133 entries: Liberty Buchanan final confrontation dialogue), q1001_libertydoor (8 entries: Liberty confrontation warnings). Content types: Surrender negotiation (Liberty capture dialogue 18), Brother conflicts (Vic Val hatred sibling rivalry 14), Faction politics (Patriarch civilization empire ideology 12), Lucia Wesson confrontation (family revenge gun duel 9), Player choice branches (arrest attack partnership leave 15), Betrayal revelations (Amber Charley operative infiltration 8), Combat mechanics (power armor hack drone disable 4), Victory scenarios (arrest imprisonment Arizona retreat 11), Dorseys alliance (Get em command loyalty test 3), Game warnings (mission lock custom Ranger requirements 7). Format compliance: Quote format strictly maintained (EN source match mandatory - Session 193 rule), Debug options preserved English (9 entries: ID 0-8 dev commands), 3 Script Nodes preserved (ID 10 49 50 73), Technical labels preserved (Lucia response ID 27), HTML i tags preserved (emphasis 2 instances: have is not). Special handling: Quote count exact match (EN 2 quotes → JA 2 quotes, EN 4 quotes → JA 4 quotes), Incomplete dialogue preserved (ID 44 62 ends with single quote marker), Triple quote format (ID 119 ends with 3 quotes exactly), Newline-quote format (ID 116 ends with newline then quote). Character names: Liberty Buchanan Lucia Wesson Vic Val Ironclad Cordite Charley Amber Wolfe. Factions: Rangers Dorseys Arizona Patriarch. Locations: Arizona Colorado Ranger HQ Yuma DLC. Dual validation passed (Structure: 0 errors all quote counts exact match, Quality: 0 issues no action markers translated no untranslated entries no glossary violations).",
+      "entries_completed": 47064
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -59,8 +59,8 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "fa4bc65",
-  "last_commit_message": "Base game translation: Session 351 - Escaped slave moral consequences and religious sacrifice (152 entries)",
+  "last_commit_hash": "da9e865",
+  "last_commit_message": "Base game translation: Session 352 - Liberty Buchanan confrontation finale (124 entries)",
   "validation_date": "2025-11-13",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
