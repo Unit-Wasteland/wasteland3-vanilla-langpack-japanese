@@ -1363,7 +1363,7 @@
       1 Array Array (2 items)
        0 int size = 2
        [0]
-        1 string data = " Player gets a radio call from Angie upon exiting Savage Council. If they agree to help her unseat the Patriarch, this mission starts at the end of the radio call."
+        1 string data = " プレイヤーはサベージ評議会を退出時にアンジーから無線を受け取る。総主教を失脚させることに同意すると、無線通話の終わりにこのミッションが開始される。"
        [1]
         1 string data = "Script Node 2"
    [7]
@@ -1387,7 +1387,7 @@
       1 Array Array (2 items)
        0 int size = 2
        [0]
-        1 string data = " Player gets a radio call from Angie upon exiting Savage Council. If they refuse to help her unseat the Patriarch, this mission starts at the end of the radio call."
+        1 string data = " プレイヤーはサベージ評議会を退出時にアンジーから無線を受け取る。総主教を失脚させることを拒否すると、無線通話の終わりにこのミッションが開始される。"
        [1]
         1 string data = "Script Node 2"
    [8]
@@ -8911,11 +8911,11 @@
        [2]
         1 string data = ""私の部下が無線の通信を監視していてな...""
        [3]
-        1 string data = " Markham's in charge."
+        1 string data = " マーカムが責任者だ。"
        [4]
-        1 string data = """ Reaction to that. Talk about how we'll get rewards at our base (NOTE - Is that how we're handling it?)"
+        1 string data = """ それに対する反応。基地で報酬を得ることについて話す (注意 - そういう処理でいいのか?)"
        [5]
-        1 string data = ""Anything else?"\nWe can respond with:\n-Tell him what we did to the Computation Engine\n-Tell him about the Worker Troubles we encountered and how we handled them.\n-We found a man in a bear suit!\n-Tell him it's nothing worth his attention."
+        1 string data = ""何か他には？"\n我々は以下で応答できる:\n-計算エンジンについてやったことを伝える\n-遭遇した労働者トラブルとその対処法を伝える\n-熊の着ぐるみを着た男を見つけた！\n-彼の注意を引くほどのことじゃないと伝える。"
        [6]
         1 string data = ""計算エンジンがシンセで作られていたことが判明したよ。心配するな、もう直した。""
        [7]
@@ -8955,15 +8955,15 @@
        [24]
         1 string data = ""パトリアーク、以上。""
        [25]
-        1 string data = " Crow's in charge."
+        1 string data = " クロウが責任者だ。"
        [26]
-        1 string data = """ Reaction to that. Talk about how we'll get rewards at our base (NOTE - Is that how we're handling it?)"
+        1 string data = """ それに対する反応。基地で報酬を得ることについて話す (注意 - そういう処理でいいのか?)"
        [27]
-        1 string data = " No one's in charge."
+        1 string data = " 誰も責任者じゃない。"
        [28]
-        1 string data = """Reaction to that. (Do we get rewards in this case? Check with Eric and LDs)"
+        1 string data = """それに対する反応。(この場合報酬は得られる？EricとLDsに確認)"
        [29]
-        1 string data = " It's pretty complicated. Let's just fill you in later."
+        1 string data = " かなり複雑だ。後で詳しく説明する。"
        [30]
         1 string data = ""アンジェラ・デスは、あなたが口を濁すことをよく思わない。実際には後で彼に報告することはない。我々が戻る頃には彼は知るべきことを知っているだろう。我々に支払われるべき報酬は、彼に伝えるかどうかに関わらず、レンジャー本部で待っているだろう。""
        [31]
@@ -9495,17 +9495,17 @@
       1 Array Array (94 items)
        0 int size = 94
        [0]
-        1 string data = " Intro"
+        1 string data = " イントロ"
        [1]
-        1 string data = " View debug options"
+        1 string data = " デバッグオプション表示"
        [2]
-        1 string data = " Goodbye"
+        1 string data = " さよなら"
        [3]
-        1 string data = " Select a debug option"
+        1 string data = " デバッグオプションを選択"
        [4]
-        1 string data = " Option 1"
+        1 string data = " オプション1"
        [5]
-        1 string data = " Option 1"
+        1 string data = " オプション1"
        [6]
         1 string data = "若い女性の頭蓋骨はまだ包帯に包まれているが、彼女の瞳は生気に満ち、表情は獰猛だ。"
        [7]
@@ -9607,17 +9607,17 @@
        [55]
         1 string data = """"
        [56]
-        1 string data = " Intro"
+        1 string data = " イントロ"
        [57]
-        1 string data = " View debug options"
+        1 string data = " デバッグオプション表示"
        [58]
-        1 string data = " Select a debug option"
+        1 string data = " デバッグオプションを選択"
        [59]
-        1 string data = " Option 1"
+        1 string data = " オプション1"
        [60]
-        1 string data = " Option 1"
+        1 string data = " オプション1"
        [61]
-        1 string data = " Goodbye"
+        1 string data = " さよなら"
        [62]
         1 string data = ""釈放はできないが、保安官が彼女を殺すのは分かっている。ここに閉じ込めておく。""
        [63]
@@ -10321,11 +10321,11 @@
        [2]
         1 string data = "[Ranger Allegiance: [Global: A1001_GeneralMerchantDiscounrt]% Discount] "もちろんですとも、レンジャーさん。こんな素晴らしいお買い得品を共有しないのは無礼というものでしょう。""
        [3]
-        1 string data = " We'd like to change our look."
+        1 string data = " 見た目を変えたい。"
        [4]
         1 string data = ""マナーって本当にそんなに重要なのですか?""
        [5]
-        1 string data = " You got it\n\n\n(Not yet available)"
+        1 string data = " 了解しました\n\n\n(まだ利用できません)"
        [6]
         1 string data = "Script Node 2"
        [7]
@@ -11091,7 +11091,7 @@
       1 Array Array (19 items)
        0 int size = 19
        [0]
-        1 string data = " I should probably have some reactive barks..."
+        1 string data = " 恐らく何かリアクティブなセリフを持つべき..."
        [1]
         1 string data = "Script Node 2"
        [2]
@@ -11873,17 +11873,17 @@
       1 Array Array (183 items)
        0 int size = 183
        [0]
-        1 string data = " Sir?"
+        1 string data = " 何でしょう？"
        [1]
-        1 string data = " I AM IN DBEUG MODE"
+        1 string data = " デバッグモード中"
        [2]
-        1 string data = " What can i do for you?"
+        1 string data = " 何か御用ですか？"
        [3]
-        1 string data = " Show me your inventory"
+        1 string data = " インベントリを見せて"
        [4]
-        1 string data = " You got it"
+        1 string data = " 了解"
        [5]
-        1 string data = " Farewell"
+        1 string data = " さよなら"
        [6]
         1 string data = ""おう!俺はJoey Bagodonutsだ。""
        [7]
@@ -28301,27 +28301,27 @@
       1 Array Array (45 items)
        0 int size = 45
        [0]
-        1 string data = " Hi, rangers."
+        1 string data = " やあ、レンジャー。"
        [1]
-        1 string data = " I AM IN DEBUG MODE"
+        1 string data = " デバッグモード中"
        [2]
-        1 string data = " The quest has been started. thanks for looking into this, rangers."
+        1 string data = " クエストが開始されました。調べてくれてありがとう、レンジャー。"
        [3]
-        1 string data = " I havne't offered you the quest. Please find our missing men?"
+        1 string data = " まだクエストを提供していない。行方不明の仲間を探してもらえませんか？"
        [4]
-        1 string data = " You turned us down. Would you reconsider?"
+        1 string data = " あなたたちは断った。考え直してもらえませんか？"
        [5]
-        1 string data = " Yes, start quest"
+        1 string data = " はい、クエスト開始"
        [6]
-        1 string data = " No, don't start quest."
+        1 string data = " いいえ、クエストを開始しない。"
        [7]
-        1 string data = " That sucks!"
+        1 string data = " 最悪だ！"
        [8]
-        1 string data = " Quest starting. Thank you! Allwe know is a MArshal named Frank Pappas took them."
+        1 string data = " クエスト開始。ありがとう！分かっているのは、フランク・パパスという保安官が彼らを連れて行ったということだけだ。"
        [9]
-        1 string data = " Papaps is retired. Lives somewhere downtown."
+        1 string data = " パパスは引退している。ダウンタウンのどこかに住んでいる。"
        [10]
-        1 string data = " They might knwo more about Papaps at MArshal HQ, btu they won't talk to us."
+        1 string data = " 保安官本部ならパパスについてもっと知っているかもしれないが、彼らは我々とは話さない。"
        [11]
         1 string data = "女性はやかんのように頑丈で、厳しい顔をして鷲鼻だ。服装は質素だが、清潔さから判断して、これが彼女の一番の服かもしれない。"
        [12]
@@ -78017,9 +78017,9 @@
        [28]
         1 string data = " マクタビッシュがドーシー家に関与していることを知った"
        [29]
-        1 string data = " Get MacTavish's confession"
+        1 string data = " マクタヴィッシュの自白を取る"
        [30]
-        1 string data = " Got a confession from MacTavish"
+        1 string data = " マクタヴィッシュから自白を得た"
        [31]
         1 string data = "マクタヴィッシュの運命は？"
        [32]
@@ -78039,105 +78039,105 @@
        [39]
         1 string data = " バックルームアクセス獲得"
        [40]
-        1 string data = " Delgado Freed"
+        1 string data = " デルガド解放済み"
        [41]
-        1 string data = " Delgado's freed."
+        1 string data = " デルガドは解放された。"
        [42]
-        1 string data = " Picked a fight with the cartel"
+        1 string data = " カルテルと衝突"
        [43]
-        1 string data = " You picke da fight with the cartel"
+        1 string data = " カルテルと衝突した"
        [44]
-        1 string data = " Delgado Died"
+        1 string data = " デルガド死亡"
        [45]
-        1 string data = " Delgado has been killed"
+        1 string data = " デルガドは殺された"
        [46]
-        1 string data = " Brygo Killed"
+        1 string data = " ブリゴ殺害"
        [47]
-        1 string data = " Brygo's dead."
+        1 string data = " ブリゴは死んだ。"
        [48]
-        1 string data = " Brygo Arrested, Ranger Custody"
+        1 string data = " ブリゴ逮捕、レンジャー拘留"
        [49]
-        1 string data = " Brygo's been Arrested"
+        1 string data = " ブリゴは逮捕された"
        [50]
-        1 string data = " Grant MAcTavish Letter"
+        1 string data = " マクタヴィッシュの手紙を与える"
        [51]
-        1 string data = " Granted Letter"
+        1 string data = " 手紙を与えた"
        [52]
-        1 string data = " show letter to CHarley"
+        1 string data = " チャーリーに手紙を見せる"
        [53]
-        1 string data = " Showed Charley the letter"
+        1 string data = " チャーリーに手紙を見せた"
        [54]
-        1 string data = " See Wolfe's Hunt MIssion Options"
+        1 string data = " ウルフの狩りミッションオプション参照"
        [55]
-        1 string data = " Wolfe's Hunt Options"
+        1 string data = " ウルフの狩りオプション"
        [56]
-        1 string data = " start quest"
+        1 string data = " クエスト開始"
        [57]
-        1 string data = " Started"
+        1 string data = " 開始済み"
        [58]
-        1 string data = " October 11 Fate"
+        1 string data = " October 11の運命"
        [59]
-        1 string data = " Tourmaline Killed"
+        1 string data = " ターマリン殺害"
        [60]
-        1 string data = " Tinker fate"
+        1 string data = " ティンカーの運命"
        [61]
-        1 string data = " Steeltown Synths"
+        1 string data = " スティールタウンのシンス"
        [62]
-        1 string data = " What is OCtober-11's fate?"
+        1 string data = " October-11の運命は？"
        [63]
-        1 string data = " Killed"
+        1 string data = " 殺害"
        [64]
-        1 string data = " Freed"
+        1 string data = " 解放"
        [65]
-        1 string data = " Oct-11 killed."
+        1 string data = " Oct-11殺害済み。"
        [66]
-        1 string data = " Oct-11 freed"
+        1 string data = " Oct-11解放済み"
        [67]
-        1 string data = " Tourmaline killed."
+        1 string data = " ターマリン殺害済み。"
        [68]
-        1 string data = " Killed"
+        1 string data = " 殺害"
        [69]
-        1 string data = " Tinker Killed"
+        1 string data = " ティンカー殺害"
        [70]
-        1 string data = " Let Go"
+        1 string data = " 解放"
        [71]
-        1 string data = " Tinker Let go"
+        1 string data = " ティンカー解放済み"
        [72]
-        1 string data = " Killed"
+        1 string data = " 殺害"
        [73]
-        1 string data = " Synths Destroyed"
+        1 string data = " シンス破壊済み"
        [74]
-        1 string data = " Freed"
+        1 string data = " 解放"
        [75]
-        1 string data = " Synths freed\n"
+        1 string data = " シンス解放済み\n"
        [76]
-        1 string data = " Escaped"
+        1 string data = " 逃走"
        [77]
-        1 string data = " Synths scaped"
+        1 string data = " シンス逃走済み"
        [78]
-        1 string data = " Reset"
+        1 string data = " リセット"
        [79]
-        1 string data = " Synths reset\n"
+        1 string data = " シンスリセット済み\n"
        [80]
-        1 string data = " Synth Fate"
+        1 string data = " シンスの運命"
        [81]
-        1 string data = " TInker fate?"
+        1 string data = " ティンカーの運命は？"
        [82]
         1 string data = "デルガドが連れ去られたことを知った"
        [83]
-        1 string data = " Tell Daisy what happened"
+        1 string data = " デイジーに何が起こったか伝える"
        [84]
-        1 string data = " Told Daisy"
+        1 string data = " デイジーに伝えた"
        [85]
-        1 string data = " quickly resolve quest"
+        1 string data = " クエストを即座に解決"
        [86]
-        1 string data = " Which path?"
+        1 string data = " どちらの道？"
        [87]
-        1 string data = " Pro-Marshal"
+        1 string data = " 保安官寄り"
        [88]
-        1 string data = " Pro-Brygo"
+        1 string data = " ブリゴ寄り"
        [89]
-        1 string data = " HOLD ON TO YER BUTTS"
+        1 string data = " 気を引き締めろ"
        [90]
         1 string data = "マクタヴィッシュの運命は？"
        [91]
@@ -78163,139 +78163,139 @@
        [101]
         1 string data = " レンジャー刑務所"
        [102]
-        1 string data = " He'll be at RHQ after next scene load"
+        1 string data = " 次のシーン読み込み後にRHQにいる"
        [103]
-        1 string data = " Let go"
+        1 string data = " 解放"
        [104]
-        1 string data = " He's set to leave at next scene load."
+        1 string data = " 次のシーン読み込み時に去る設定"
        [105]
-        1 string data = " BRygo Fate?"
+        1 string data = " ブリゴの運命は？"
        [106]
-        1 string data = " Brygo Killed"
+        1 string data = " ブリゴ殺害"
        [107]
-        1 string data = " Brygo's dead."
+        1 string data = " ブリゴは死んだ。"
        [108]
-        1 string data = " Brygo Arrested, ranger custdy"
+        1 string data = " ブリゴ逮捕、レンジャー拘留"
        [109]
-        1 string data = " Brygo's been Arrested"
+        1 string data = " ブリゴは逮捕された"
        [110]
-        1 string data = " Delgado Fate?"
+        1 string data = " デルガドの運命は？"
        [111]
-        1 string data = " Delgado Freed"
+        1 string data = " デルガド解放済み"
        [112]
-        1 string data = " Delgado's freed."
+        1 string data = " デルガドは解放された。"
        [113]
-        1 string data = " Delgado Died"
+        1 string data = " デルガド死亡"
        [114]
-        1 string data = " Delgado has been killed"
+        1 string data = " デルガドは殺された"
        [115]
-        1 string data = " Unwelcome Guest"
+        1 string data = " 招かれざる客"
        [116]
-        1 string data = " Unwelcome Guest options. NOTE: this is a barebones debug function. It may not set all associated vars"
+        1 string data = " 招かれざる客オプション。注意: これは最低限のデバッグ機能です。関連する変数を全て設定しない可能性があります"
        [117]
-        1 string data = " Quickly assign and complete quest"
+        1 string data = " クエストを即座に割り当てて完了"
        [118]
-        1 string data = " HOLD ON TO YER BUTTS"
+        1 string data = " 気を引き締めろ"
        [119]
-        1 string data = " Agree to Help refugees?"
+        1 string data = " 難民を助けることに同意？"
        [120]
-        1 string data = " Do not agree to help refgees"
+        1 string data = " 難民を助けることに同意しない"
        [121]
-        1 string data = " Agreeing"
+        1 string data = " 同意する"
        [122]
-        1 string data = " Not Agreeing"
+        1 string data = " 同意しない"
        [123]
-        1 string data = " Jones WIll save refugees"
+        1 string data = " ジョーンズが難民を救う"
        [124]
-        1 string data = " Killed refugees"
+        1 string data = " 難民を殺した"
        [125]
-        1 string data = " Good ol jones."
+        1 string data = " 良きジョーンズ。"
        [126]
-        1 string data = " Kiling refugees...\n"
+        1 string data = " 難民を殺す...\n"
        [127]
-        1 string data = " Mama Cotter Fate?"
+        1 string data = " ママ・コッターの運命は？"
        [128]
-        1 string data = " Arrested"
+        1 string data = " 逮捕"
        [129]
-        1 string data = " Killed"
+        1 string data = " 殺害"
        [130]
-        1 string data = " Sided with"
+        1 string data = " 味方した"
        [131]
-        1 string data = " Arresting"
+        1 string data = " 逮捕中"
        [132]
-        1 string data = " Killing...."
+        1 string data = " 殺害中...."
        [133]
-        1 string data = " Siding with cotter"
+        1 string data = " コッターに味方"
        [134]
-        1 string data = " See Police Brutality Options"
+        1 string data = " 警察の残虐性オプション参照"
        [135]
-        1 string data = " Police Brutality Options."
+        1 string data = " 警察の残虐性オプション。"
        [136]
-        1 string data = " Start Quest"
+        1 string data = " クエスト開始"
        [137]
-        1 string data = " Starting... YOu soudl restart to see these take effect\n\n\n"
+        1 string data = " 開始中... 効果を確認するには再起動してください\n\n\n"
        [138]
-        1 string data = " Set Maxwell states"
+        1 string data = " マクスウェルの状態設定"
        [139]
-        1 string data = " Brady states"
+        1 string data = " ブレイディの状態"
        [140]
-        1 string data = " Maxwell State not important to quest right now, let's ignore it."
+        1 string data = " マクスウェルの状態は今のところクエストに重要ではない、無視しよう。"
        [141]
-        1 string data = " What happened to brady in COSprings?"
+        1 string data = " COスプリングスでブレイディに何が起こった？"
        [142]
-        1 string data = " Invited to Rangers"
+        1 string data = " レンジャーに招待"
        [143]
-        1 string data = " Forcibly got Film"
+        1 string data = " 強制的にフィルム入手"
        [144]
-        1 string data = " Murdered"
+        1 string data = " 殺害"
        [145]
-        1 string data = " Inviting. You should restart this scene to see this effect."
+        1 string data = " 招待中。効果を確認するにはこのシーンを再起動してください。"
        [146]
-        1 string data = " Getting film...."
+        1 string data = " フィルム入手中...."
        [147]
-        1 string data = " Killing"
+        1 string data = " 殺害中"
        [148]
-        1 string data = " Restart Now"
+        1 string data = " 今すぐ再起動"
        [149]
-        1 string data = " DO it later"
+        1 string data = " 後でやる"
        [150]
-        1 string data = " Downtown COSprings"
+        1 string data = " ダウンタウンCOスプリングス"
        [151]
-        1 string data = " Loading...\n"
+        1 string data = " 読み込み中...\n"
        [152]
-        1 string data = " AFA Ruins"
+        1 string data = " AFA廃墟"
        [153]
-        1 string data = " Loading...\n"
+        1 string data = " 読み込み中...\n"
        [154]
-        1 string data = " AFA Underground"
+        1 string data = " AFA地下"
        [155]
-        1 string data = " Loading...\n"
+        1 string data = " 読み込み中...\n"
        [156]
-        1 string data = " Loading...\n"
+        1 string data = " 読み込み中...\n"
        [157]
-        1 string data = " Restart Now"
+        1 string data = " 今すぐ再起動"
        [158]
-        1 string data = " DO it later"
+        1 string data = " 後でやる"
        [159]
-        1 string data = " Disappeared Options"
+        1 string data = " 失踪オプション"
        [160]
-        1 string data = " Disappeared Options"
+        1 string data = " 失踪オプション"
        [161]
-        1 string data = " Increase fame to start mission"
+        1 string data = " ミッション開始のため名声を上げる"
        [162]
-        1 string data = " Increasing. Don't forget: you must also deal with one of the sons. You should restart the scene so the women will appear."
+        1 string data = " 上昇中。忘れないこと: 息子の一人も処理する必要がある。女性たちが現れるようシーンを再起動すべし。"
        [163]
-        1 string data = " Restart Now"
+        1 string data = " 今すぐ再起動"
        [164]
-        1 string data = " DO it later"
+        1 string data = " 後でやる"
        [165]
-        1 string data = " Got to point in caves where the women move there"
+        1 string data = " 洞窟で女性たちが移動する地点に到達"
        [166]
-        1 string data = " Setting vars. Reload the scene to have the women leave from here."
+        1 string data = " 変数設定中。女性たちがここから去るようシーンを再読み込み。"
        [167]
-        1 string data = " PReviosu choices will assign Delgado to base."
+        1 string data = " 以前の選択でデルガドを基地に配置"
        [168]
-        1 string data = " PReviosu choices will assign Dinh to base."
+        1 string data = " 以前の選択でディンを基地に配置"
        [169]
         1 string data = " 以前の選択でカルテルを基地に配置"
        [170]
