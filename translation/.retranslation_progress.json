@@ -58,8 +58,8 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "07d5d40",
-  "last_commit_message": "Base game translation: Session 285 - Combat barks and dialogue",
+  "last_commit_hash": "fabe222",
+  "last_commit_message": "Base game translation: Session 285 - Major Angela Deth conversation",
   "validation_date": "2025-11-12",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
@@ -69,9 +69,9 @@
     "scattered_untranslated": "Remaining ~6,600 untranslated entries are scattered throughout file, many are action markers or technical content that should remain in English.",
     "validation_status": "Structure: 0 errors, Quality: 0 issues across all tested ranges"
   },
-  "total_entries_completed": 48672,
+  "total_entries_completed": 48975,
   "total_entries": 232418,
-  "total_entries_untranslated": 184076,
-  "overall_completion_rate": 20.9,
+  "total_entries_untranslated": 183443,
+  "overall_completion_rate": 21.1,
   "next_action": "Session 276 completed: Systematic sampling of lines 202850-412450 confirms excellent translation coverage. All sampled sections (psychic kittens, Sister Nancy, alarms, Jola out-of-party, processor unit, Nancy Reliance) fully translated with proper structure. Search method producing false positives due to Spanish empty entries. Next session: Use more targeted search for truly untranslated player-facing dialogue. Consider grep for English-specific patterns in Japanese file."
 }
