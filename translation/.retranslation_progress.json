@@ -22,11 +22,11 @@
       "entries_untranslated_real": 15116,
       "entries_kept_english": 42992,
       "completion_rate": 25.9,
-      "current_line": 362767,
+      "current_line": 363325,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 324: 157 new Japanese translations (L361621-362767). Eight sections: o2001_audiencemember (28 entries - theater audience reactions), o2001_bardstale (12 entries - Bard's Tale IV game descriptions), o2001_bartender (24 entries - bartender Finn dialogue at Bizarre), o2001_bizarrepatrons_hothogcutscene (2 entries - patron reactions to Hot Hog bomb), o2001_bjornodinkirk_interior (10 entries - Bjorn Odinkirk intimidation dialogue), o2001_bluemailbox (10 entries - mailbox interaction with Condensator), o2001_carmen (18 entries - Carmen smuggler leader dialogue), o2001_cartelthug_interior (8 entries - Cartel thug ambient dialogue), o2001_charleyknowes (40 entries - extensive Charley Knowes dialogue including medals story and Bizarre takeover), o2001_charleythugs (5 entries - Charley's thug ambient dialogue). Proper nouns applied (Ranger, Bizarre, Monster Army, Odinkirks, Payasos, Colorado Springs, Patriarch, Charley Knowes, Redhats). Quote format errors fixed (3 instances). Dual validation passed (Structure: 0 errors, Quality: 0 issues).",
-      "entries_completed": 43882
+      "note": "Session 325: 70 new Japanese translations (L362767-363324). Three sections: o2001_charley_interior (37 entries - Charley after-battle victory dialogue, compensation offer, keycard to hideout safe, ninja army story), o2001_combatbarks_flabtheinhaler (19 entries - Flab combat barks with dying words, philosophical reflections, age complaints, violent threats), o2001_combatbarks_masher (14 entries - Monster Army combat calls including battle cries, howl action marker correctly preserved). Action marker protection verified (howl kept in English). Proper nouns from glossary (Redhats, Charley Knowes, Bizarre, Cartel, Rangers, Patriarch, Monster Army). Dual validation passed (Structure: 0 errors, Quality: 0 issues).",
+      "entries_completed": 43952
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -59,21 +59,21 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "2c136f4",
-  "last_commit_message": "Base game translation: Session 324 - Bizarre NPCs and Charley Knowes extensive dialogue (157 entries)",
+  "last_commit_hash": "49c5d65",
+  "last_commit_message": "Base game translation: Session 325 - Charley's victory and Monster Army combat barks (70 entries)",
   "validation_date": "2025-11-13",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
-  "analysis_session": 324,
+  "analysis_session": 325,
   "analysis_findings": {
-    "new_translations": "Session 324: 157 new Japanese translations across 9 sections. o2001_audiencemember (28 entries - theater audience reactions to shows), o2001_bardstale (12 entries - Bard's Tale IV game interaction descriptions), o2001_bartender (24 entries - Finn the bartender at Bizarre, explains Monster Army defeat and Flab the Inhaler), o2001_bizarrepatrons_hothogcutscene (2 entries - patron reactions to Hot Hog bomb), o2001_bjornodinkirk_interior (10 entries - Bjorn Odinkirk intimidation dialogue with Viking themes), o2001_bluemailbox (10 entries - blue mailbox puzzle with Condensator), o2001_carmen (18 entries - Carmen smuggler leader dialogue seeking caravan master), o2001_cartelthug_interior (8 entries - Cartel thug ambient dialogue about Charley), o2001_charleyknowes (40 entries - extensive Charley Knowes dialogue including medals backstory, Bizarre takeover, clown problem), o2001_charleythugs (5 entries - Charley's thug ambient dialogue).",
-    "action_marker_protection": "Zero action markers in current work section. No Japanese characters in any markers. Strict protection maintained.",
-    "quality_validation": "Dual validation passed. Structure: 0 errors. Quality: 0 issues. Proper nouns from glossary correctly applied (Ranger, Bizarre, Monster Army, Odinkirks, Payasos, Colorado Springs, Patriarch, Charley Knowes, Redhats, Flab the Inhaler, Eidilon, Piscitelli, Brygo, Little Vegas). Quote format errors detected and fixed (3 instances at lines 362650, 362658, 362662). Unified translation decision logic applied successfully.",
-    "validation_status": "Structure: 0 errors. Action markers: 0 Japanese. Quality: 0 issues. All validations passed after quote fixes. Double-double-quote format strictly maintained."
+    "new_translations": "Session 325: 70 new Japanese translations across 3 sections. o2001_charley_interior (37 entries - Charley Knowes claiming victory over Bizarre, offering compensation to Rangers, reveals keycard to safe in hideout, mentions ninja army backup), o2001_combatbarks_flabtheinhaler (19 entries - Flab the Inhaler combat barks including dying words about living and dying as Monster, philosophical reflections, Patriarch comparison, age-related complaints like back pain and wheelchair need, violent blood threats), o2001_combatbarks_masher (14 entries - Masher Monster Army combat barks with battle cries, howl action marker preserved correctly, references to longing for open battle, Just like old times calls).",
+    "action_marker_protection": "One action marker in current section: howl. Correctly kept in English. No Japanese characters in any action markers. Strict protection maintained.",
+    "quality_validation": "Dual validation passed. Structure: 0 errors. Quality: 0 issues. Proper nouns from glossary correctly applied (Redhats, Charley Knowes, Bizarre, Cartel, Rangers, Patriarch, Monster Army). Action marker verified (howl remained in English). Unified translation decision logic applied successfully.",
+    "validation_status": "Structure: 0 errors. Action markers: 0 Japanese (1 marker verified - howl). Quality: 0 issues. All validations passed. Double-double-quote format strictly maintained."
   },
-  "total_entries_completed": 53267,
+  "total_entries_completed": 53337,
   "total_entries": 232418,
-  "total_entries_untranslated": 179497,
+  "total_entries_untranslated": 179081,
   "overall_completion_rate": 22.9,
-  "next_action": "Continue sequential translation from line 362767. Section: o2001_charley_interior."
+  "next_action": "Continue sequential translation from line 363325. Section: o2001_doctor."
 }
