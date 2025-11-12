@@ -18,15 +18,15 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 45366,
-      "entries_untranslated_real": 13386,
-      "entries_kept_english": 42647,
-      "completion_rate": 26.7,
-      "current_line": 380238,
+      "entries_translated": 46418,
+      "entries_untranslated_real": 12431,
+      "entries_kept_english": 42482,
+      "completion_rate": 80.1,
+      "current_line": 388326,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 344: 56 new Japanese translations (L379663-380238). Sections completed: p2002_ralphy (0 new - DEBUG entries already English), q1001_debug_corditecnpc (7 entries - Cordite NPC debug dialogue party join quest options Mechanic kill reference), q1001_amber (17 entries - Amber prisoner character Liberty Buchanan ally defiant dialogue Rangers won monster rule temporary setback spirit unbroken change coming), q1001_bargainclown (32 entries - Bargain Clown merchant Payaso faction store dark humor Spanish slang cabrones mamones pendejos chingasos Lecherito discount deals merchandise stolen from dead clowns broke-ass cheapskates). Content types: Debug dialogue (party join options quest triggers), prisoner dialogue (defiant resistance political message anti-Patriarch sentiment), merchant interaction (dark comedy Spanish mixing price jokes). Format compliance: CRITICAL FIX at start - lines 379882-379896 initially had 4-quote format but source has 2-quote format fixed immediately all quote counts now match exactly. Script Node 1 4 kept English. HTML i tag preserved throughout. Escape sequences maintained. Spanish slang: cabrones mamones pendejos chingasos Gracias Pinche putos kept untranslated per cultural authenticity. Glossary: Rangers Patriarch Liberty consistent all proper nouns. Dual validation passed (Structure: 0 errors all quote counts exact match after immediate fix, Action markers: 0 Japanese none found, Quality: 0 issues L379782-380238 no untranslated entries no glossary violations).",
-      "entries_completed": 45888
+      "note": "Session 351: 152 new Japanese translations (L387623-388326). Sections completed: q1001_hallie (55 entries: Hallie McKay escaped slave confrontation moral consequences), q1001_haloedmoon (97 entries: Haloed Moon wife of Star-that-Dreams sacrifice plan divine omen). Content types: Moral reckoning (Hallie blames Rangers for slavery 18), Escape slave aftermath (scars torture Steel-Trap brutality 12), Freedom scenarios (Liberty defeat liberation offers 11), Sacrifice planning (divine omen kite ritual suicide 24), Religious dialogue (gods signs prophecy unwitting vessels 19), Godfisher politics (alliance departure strategy negotiations 15). Debug entries preserved (6 Pretend options kept English). Format compliance: 2 Script Nodes preserved (82 104), 1 Trigger Conv Node 39, HTML i tags preserved (emphasis 3 instances Rangers slavers him only thank), 1 Global variable [Global: q1001_Money_HallieBribe], escape sequences protected. Character names: Hallie McKay La Perla Liberty Buchanan Steel-Trap Gary Wolfe Star-that-Dreams Haloed Moon Cordite. Factions: Rangers Godfishers Scar Collectors Payasos. Locations: Ranger HQ Colorado Springs Alaska Surprise truck wind farm Mechanic garage. Special format: 1 six-quote empty entry preserved. Dual validation passed (Structure: 0 errors all quotes match, Quality: 0 issues no action markers translated no untranslated entries no glossary violations).",
+      "entries_completed": 46940
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -59,21 +59,21 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "606e9ef",
-  "last_commit_message": "Base game translation: Session 344 - Amber, Bargain Clown, Cordite debug (56 entries)",
+  "last_commit_hash": "fa4bc65",
+  "last_commit_message": "Base game translation: Session 351 - Escaped slave moral consequences and religious sacrifice (152 entries)",
   "validation_date": "2025-11-13",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
-  "analysis_session": 344,
+  "analysis_session": 350,
   "analysis_findings": {
-    "new_translations": "Session 344: 56 new Japanese translations across four sections. q1001_debug_corditecnpc (7 entries - Cordite NPC party join yes no questions Script Node 4 Mechanic quest references), q1001_amber (17 entries - Amber Liberty Buchanan ally prisoner defiant defeated Rangers won monster rules temporary setback spirit unbroken change coming regret letting live Doc Parker battlement disgust Patriarch dirty work), q1001_bargainclown (32 entries - Bargain Clown Payaso faction merchant store black comedy Spanish slang mixing cabrones mamones pendejos chingasos Gracias Lecherito discount joke prices merchandise from dead clowns questions cheapskates broke-ass freeloaders poor people). Content types: Debug (party system), prisoner dialogue (political resistance defiance), merchant (dark humor cultural authenticity).",
-    "action_marker_protection": "No action markers in this range L379663-380238. Verification confirmed zero Japanese characters in any action marker patterns across all 56 entries.",
-    "quote_format_handling": "CRITICAL ERROR CAUGHT AND FIXED IMMEDIATELY: Lines 379882-379896 (q1001_debug_corditecnpc) initially translated with 4-quote format but source has 2-quote format. Error detected by validation script immediately after first edit. All quotes corrected to 2-quote format matching source exactly. After fix all entries validate perfectly. Script Node 1 4 kept English. HTML i tags preserved. Escape sequences maintained. Spanish slang intentionally kept untranslated: cabrones mamones pendejos chingasos Gracias Pinche putos (cultural authenticity character voice). Empty quote format preserved for empty entries.",
-    "quality_validation": "Dual validation passed after immediate quote fix. Structure: 0 errors (all quote counts exact match after correction). Action markers: 0 Japanese characters found (none present in range). Quality: 0 issues (L379782-380238 validated - no untranslated entries no glossary violations no bracket translations). Technical terms: Script Node 1 4 preserved English. Glossary: Rangers Patriarch Liberty Lecherito Doc Parker Amber consistent. Spanish kept for character voice authenticity. Zero warnings."
+    "new_translations": "Session 348: 177 new Japanese translations in q1001_companion_barktriggers section (partial completion - 177 of 228 total entries). Environmental reactions: Mechanic shop evaluations arena observations slave pen moral distress bison wildlife encounters (27). Character encounters: Wolfe mercenary recognition clown performer interactions (17). Faction observations: Godfishers religious fanatics Payasos clowns Scar Collectors cybernetic modifications (29). Mission reactions: Liberty Buchanan compound infiltration auto-duel preparation (13). Moral commentary: Slavery rescue versus return consequences ethical debates (10). NPC character judgments: Lecherito Godfisher leader Steel-Trap mechanic rival creepy individuals (23). Steeltown Patriarch agent death reactions mission ethics questioning (9). Arena vehicle battle preparation statements (7). Guard escort acceptance interactions (7). Freed slaves aftermath moral reflections (6). Content captures companion party member contextual reactions to mission locations characters ethical dilemmas with tone variety reflecting different companion personalities.",
+    "action_marker_protection": "1 action marker in range L384680-385032: ::sing-song:: at L384888 (ID 125 - sing-song tone indicator for mocking call to Liberty). Action marker preserved in English. Quality validation confirmed 0 action markers contain Japanese characters.",
+    "quote_format_handling": "All quote counts match source exactly (177 entries). 24 Script Nodes preserved English (IDs 0-20 alternating Script Node 1/2 patterns + ID 168 Script Node 188 + ID 176 Script Node 3 + ID 191 Script Node 10). 13 empty entries preserved exactly with 4-quote format (IDs 22 26 31 34 47 57 61 75 89 124 166 183 plus ID 183). HTML i tags preserved in 8 instances (IDs 79 83 132 162 169 175 182 194 - emphasis text). Character names consistent throughout: Liberty Buchanan Wolfe Steel-Trap Lecherito Val Greatski. Faction names consistent: Patriarch Rangers Dorseys Godfishers Scar Collectors. Location names: Colorado Springs.",
+    "quality_validation": "Dual validation passed. Structure: 0 errors (all quote counts exact match 169712 entries validated). Quality: 0 issues (L384680-385032 validated - no action markers translated to Japanese, no untranslated English entries, no bracket content translated, no glossary terminology violations). Technical terms: 24 Script Nodes preserved English across all positions. Zero warnings."
   },
-  "total_entries_completed": 55273,
+  "total_entries_completed": 56173,
   "total_entries": 232418,
-  "total_entries_untranslated": 177145,
-  "overall_completion_rate": 23.8,
-  "next_action": "Continue sequential translation from line 380239. Next section: q1001_betamaster (Beta Master character creepy photographer dialogue - 168 entry large section starting at L380241)."
+  "total_entries_untranslated": 176245,
+  "overall_completion_rate": 24.2,
+  "next_action": "Continue sequential translation from line 387623. Current section: q1001_hallie (55 entries - Hallie McKay escaped slave confrontation dialogue). Next sections: q1001_haloedmoon and continuing gang content."
 }
