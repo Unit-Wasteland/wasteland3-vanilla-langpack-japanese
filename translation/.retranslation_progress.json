@@ -18,15 +18,15 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 43846,
-      "entries_untranslated_real": 14906,
+      "entries_translated": 43869,
+      "entries_untranslated_real": 14883,
       "entries_kept_english": 42782,
-      "completion_rate": 25.8,
-      "current_line": 365440,
+      "completion_rate": 26.0,
+      "current_line": 365952,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 326: 210 new Japanese translations (L363478-365438). Two sections: o2001_doctor (35 entries - Doctor Cold Cuts Lev Hirsch veterinarian slash butcher offering medical services, Cartel takeover causing injuries, Monster Army Cyclops rumors in Warrens, crazy clowns resolved), o2001_eidilon (175 entries - Eidilon Chix Flicks theatre adult movie quest, requests movie spools from Monster Army Bunker, extensive pornographic film dialogue and editing scene with Rangers, multiple explicit movie descriptions). Added translations: Doctor Cold Cuts, Lev Hirsch, Eidilon, Chick Flx Theatre, Cartel, Cyclops. Proper nouns from glossary correctly applied. HTML i tags and escape sequences preserved. Dual validation passed (Structure: 0 errors, Quality: 0 issues). Double-double-quote format strictly maintained.",
-      "entries_completed": 44162
+      "note": "Session 327: 23 new Japanese translations (L365440-365952). Two sections: o2001_eidilon conclusion (15 entries - Quest finale, party member participation offers including Fish-Lips Jodie Bell Bell Victory Scotchmo, show premiere arrangements, Marshal Kwon interactions), o2001_ellaripplesbarks (8 entries - Ella Ripples adult performer combat barks, sci-fi film references xenomorph parody). Action markers preserved: dances cowers (NOT translated to Japanese). Special quote formats maintained: triple-quote and five-quote formats correctly preserved. HTML i tags preserved. Dual validation passed (Structure: 0 errors, Quality: 0 issues).",
+      "entries_completed": 44185
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -59,21 +59,21 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "b8fd731",
-  "last_commit_message": "Base game translation: Session 326 - Doctor Cold Cuts and Eidilon theatre quest (210 entries)",
+  "last_commit_hash": "279be94",
+  "last_commit_message": "Base game translation: Session 327 - Eidilon theatre quest conclusion and Ella Ripples barks (23 entries)",
   "validation_date": "2025-11-13",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
-  "analysis_session": 326,
+  "analysis_session": 327,
   "analysis_findings": {
-    "new_translations": "Session 326: 210 new Japanese translations across 2 sections. o2001_doctor (35 entries - Doctor Cold Cuts dialogue, Lev Hirsch character introduction, veterinarian and butcher background, medical services at Bizarre, references Cartel takeover causing injuries, Monster Army Cyclops rumors in Warrens, crazy clowns quest resolved), o2001_eidilon (175 entries - Eidilon Chix Flicks theatre owner quest, adult movie theatre requesting movie spools from Monster Army Bunker, extensive dialogue about pornographic film production, collaborative movie editing scene with player choices, 16 explicit movie scene descriptions, film viewing and quest completion).",
-    "action_marker_protection": "No action markers in o2001_doctor or o2001_eidilon sections. Grep verification performed.",
-    "quality_validation": "Dual validation passed. Structure: 0 errors. Quality: 0 issues. Proper nouns from glossary correctly applied (Rangers, Bizarre, Colorado, Monster Army, Warrens, Flab). New translations added: Doctor Cold Cuts, Lev Hirsch, Doc Kessler, Eidilon, Chick Flx Theatre, Cartel, Cyclops. HTML i tags preserved. Escape sequences maintained. Unified translation decision logic applied successfully.",
-    "validation_status": "Structure: 0 errors. Action markers: None present (verified by grep). Quality: 0 issues. All validations passed. Double-double-quote format strictly maintained."
+    "new_translations": "Session 327: 23 new Japanese translations across 2 sections. o2001_eidilon conclusion (15 entries - Quest finale with party member participation offers, Fish-Lips and Jodie Bell Bell companion dialogue, Victory character performance, Scotchmo participation, Marshal Kwon special interactions, show premiere arrangements, final quest resolution), o2001_ellaripplesbarks (8 entries - Ella Ripples adult film performer combat barks, theatrical sci-fi references, xenomorph parody lines).",
+    "action_marker_protection": "2 action markers present and correctly preserved in English: dances, cowers. Verified NOT translated to Japanese (Spanish reference had incorrect translations to baila and se acobarda).",
+    "quality_validation": "Dual validation passed. Structure: 0 errors. Quality: 0 issues. Special quote formats correctly maintained: 5-quote format and 3-quote format (incomplete). HTML i tags preserved. Script Node 10 preserved (technical term). Action markers verified in English.",
+    "validation_status": "Structure: 0 errors (all quote counts match source). Action markers: 2 present, all in English (verified). Quality: 0 issues. All validations passed."
   },
-  "total_entries_completed": 53547,
+  "total_entries_completed": 53570,
   "total_entries": 232418,
-  "total_entries_untranslated": 178871,
-  "overall_completion_rate": 23.0,
-  "next_action": "Continue sequential translation from line 365440. Section: o2001_eidilon continuation."
+  "total_entries_untranslated": 178848,
+  "overall_completion_rate": 23.1,
+  "next_action": "Continue sequential translation from line 365952. Next section: o2001_flabtheinhaler (Flab the Inhaler dialogue)."
 }
