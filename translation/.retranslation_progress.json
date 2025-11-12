@@ -18,15 +18,15 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 44266,
-      "entries_untranslated_real": 14486,
+      "entries_translated": 44410,
+      "entries_untranslated_real": 14342,
       "entries_kept_english": 42782,
-      "completion_rate": 26.4,
-      "current_line": 370620,
+      "completion_rate": 26.5,
+      "current_line": 371587,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 331: 100 new Japanese translations (L370078-370620). Six sections completed: o2001_mashergreeter (48 entries - Masher greeter at Bizarre entrance, welcome dialogue, facility info, merchant locations including Piscitelli Gwyn Talbot Dr Cold Cuts, entertainment venues Fountain Bar Eidilon Quarex museum, Los Payasos mentions), o2001_megascope (10 entries - MEGA SCOPE weapon display case, Quarex museum exhibit, theft options, prewar scope), o2001_merchants_departure (9 entries - merchant evacuation after Jones negotiation failure, Cartel attack, Bizarre closure), o2001_monsterarmy_captain (2 entries - safe tampering warnings), o2001_monsterarmy_hothogbarks (1 entry - explosion panic bark), o2001_monstermasher (30 entries - Monster Army guard ambient dialogue, Warrens references, character reactions to Darius Kwon Scotchmo Victory BUDDY in Eidilon shows, movie references Romancing the Bone Fuckloose, Cyclops rumors). Technical terms preserved: Script Node 32. Dual validation passed (Structure: 0 errors, Quality: 0 issues).",
-      "entries_completed": 44677
+      "note": "Session 332: 144 new Japanese translations (L370804-371586). Four sections completed: o2001_mysteriouscaller (29 entries - anonymous radio job offer, Piscitelli theft mission for Jigowatt Elecrolytic Condenser, Crossword Gang hideout blue mailbox drop-off, payment negotiation dialogue), o2001_odinkirkbarks (2 entries - Odinkirk faction Bizarre control claims), o2001_odinkirkleader (8 entries - debug menu for Odinkirk scenarios including Charley alliance and combat options), o2001_pareidoliajones (105 entries - Pareidolia Jones caravan master introduction and full dialogue tree: refugee transport humanitarian mission to Colorado Springs, Colorado travel information and safety, duck phobia comedy subplot, Bizarre battle aftermath negotiations with multiple faction outcomes Rangers Cartel Odinkirks, merchant fate decisions including evacuation vs staying, Bizarre ownership outcomes, Lucia Wesson recognition dialogue). Technical terms preserved: Script Node 43 (NOT translated). Action markers preserved: CLICK. Dual validation passed (Structure: 0 errors, Quality: 0 issues).",
+      "entries_completed": 44821
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -59,21 +59,21 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "ccaaa49",
-  "last_commit_message": "Base game translation: Session 331 - Bizarre NPCs and Monster Army dialogue (100 entries)",
+  "last_commit_hash": "21d6fdc",
+  "last_commit_message": "Base game translation: Session 332 - Pareidolia Jones caravan master dialogue (144 entries total)",
   "validation_date": "2025-11-13",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
-  "analysis_session": 331,
+  "analysis_session": 332,
   "analysis_findings": {
-    "new_translations": "Session 331: 100 new Japanese translations across six sections. Covers Bizarre Monster Army NPCs and facility information: Masher greeter entrance dialogue (48 entries - facility information, merchant locations Piscitelli weapons Gwyn Talbot armor Dr Cold Cuts medical, entertainment Fountain Bar Eidilon shows Quarex museum, Los Payasos clown bandits), MEGA SCOPE weapon display (10 entries - museum exhibit theft interaction, prewar scope), merchant evacuation scenario (9 entries - post-Pareidolia Jones negotiation failure, Cartel attack, Bizarre closure), Monster Army captain safe warnings (2 entries), Hot Hog explosion panic (1 entry), Monster Army guard ambient dialogue (30 entries - Warrens exploration, character-specific reactions to Darius Kwon Scotchmo Victory BUDDY in Eidilon entertainment shows, movie references Romancing the Bone Fuckloose, Cyclops resurrection rumors three-headed dog legends).",
-    "action_marker_protection": "No action markers in this session range. Verified with grep - no Japanese characters in action marker format.",
-    "quality_validation": "Dual validation passed. Structure: 0 errors. Quality: 0 issues. Technical terms preserved: Script Node 32 (NOT translated). Glossary compliant: character names (Flab Masher Piscitelli Gwyn Talbot Dr Cold Cuts Eidilon Quarex Masato Pareidolia Jones Darius Kwon Scotchmo Victory BUDDY Cyclops Los Payasos), location names (Bizarre Warrens Fountain Bar), faction names (Monster Army Rangers Cartel). Movie titles preserved: Romancing the Bone (entertainment show name), Fuckloose (entertainment show name). Unified translation logic applied throughout session.",
-    "validation_status": "Structure: 0 errors (all quote counts match source exactly). Action markers: 0 present in range. Quality: 0 issues (range L370078-370620 validated). All validations passed."
+    "new_translations": "Session 332: 144 new Japanese translations across four major sections. Mysterious caller job offer (29 entries) featuring anonymous radio contact hiring Rangers to steal Jigowatt Elecrolytic Condenser from merchant Piscitelli, Crossword Gang hideout blue mailbox drop-off location, payment negotiation. Odinkirk faction dialogue (10 entries) covering territorial claims and debug scenarios. Pareidolia Jones extensive dialogue tree (105 entries) as caravan master: initial meeting and profession explanation, refugee transport humanitarian mission arranging Colorado Springs evacuation, Colorado travel safety information covering Denver to Steeltown corridor and Patriarch protection, memorable duck phobia comedy subplot with rubber duck terror, Bizarre battle aftermath multi-faction negotiations with Rangers Cartel Odinkirks alliance options, merchant community fate decisions evacuation vs staying outcomes, Bizarre ownership scenarios and protection arrangements, Lucia Wesson family recognition, trade route discussions.",
+    "action_marker_protection": "Action marker CLICK preserved in English (L370858). Verified with grep - no Japanese characters in action marker format.",
+    "quality_validation": "Dual validation passed. Structure: 0 errors (all quote counts match source exactly). Quality: 0 issues (range L370804-371586 validated). Technical terms preserved: Script Node 43 (NOT translated), [Attack] action marker, double-bracket variables preserved [[Global:o2001_PareidoliaJones_Money_TransportFee] Dollars]. Glossary compliant: all character names (Pareidolia Jones Charley Knowes Lucia Wesson Piscitelli Flab), locations (Bizarre Colorado Springs Denver Steeltown Warrens), factions (Rangers Cartel Monster Army Odinkirks Gipper), technical items (Jigowatt Elecrolytic Condenser Crossword Gang). HTML tags preserved: <i> italics tag. New terms added: Crossword Gang hideout, blue mailbox. Unified translation logic applied throughout session with proper Spanish reference usage.",
+    "validation_status": "Structure: 0 errors. Action markers: 1 verified (CLICK in English). Quality: 0 issues. All validations passed."
   },
-  "total_entries_completed": 54062,
+  "total_entries_completed": 54206,
   "total_entries": 232418,
-  "total_entries_untranslated": 178356,
+  "total_entries_untranslated": 178212,
   "overall_completion_rate": 23.3,
-  "next_action": "Continue sequential translation from line 370620. Next section: o2001_mrdebug (Mr. Debug character interactions)."
+  "next_action": "Continue sequential translation from line 371587. Next section: o2001_parishandler."
 }
