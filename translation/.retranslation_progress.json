@@ -18,14 +18,14 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 38372,
-      "entries_untranslated_real": 6919,
+      "entries_translated": 38385,
+      "entries_untranslated_real": 6906,
       "entries_kept_english": 43034,
       "completion_rate": 65.7,
-      "current_line": 195456,
+      "current_line": 196594,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 270: Mercenary guard dialogue translation (9 entries). Translated: lines 195424-195454 (mercenary reactions to Desert Rangers, 9 entries). Applied unified decision logic. Structure validation: 0 errors. Quality validation: 0 issues. Progress: 38,372 Japanese entries. Remaining: 6,919 scattered entries. Many previously identified sections already translated by prior sessions. Continue systematic search for remaining untranslated entries."
+      "note": "Session 271: 13 entries translated (7 mercenary dialogue + 6 Morningstar/navigation entries). Lines 195860-196594. Applied unified decision logic. Structure validation: 0 errors. Quality validation: 0 issues. Progress: 38,385 Japanese entries. Remaining: 6,906 scattered entries. Continue systematic search for remaining untranslated entries."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -69,9 +69,9 @@
     "scattered_untranslated": "Remaining ~7,000 untranslated entries are scattered throughout file, many are action markers or technical content that should remain in English.",
     "validation_status": "Structure: 0 errors, Quality: 0 issues across all tested ranges"
   },
-  "total_entries_completed": 47750,
+  "total_entries_completed": 47763,
   "total_entries": 232418,
-  "total_entries_untranslated": 184668,
-  "overall_completion_rate": 20.5,
-  "next_action": "Session 270 completed: 9 entries translated with strict validation. Next session: Continue systematic search for remaining untranslated entries. Many sections previously identified with Spanish translations have already been completed in prior sessions. Focus on finding scattered untranslated dialogue and descriptions. Use unified decision logic. Dual validation mandatory after each batch. Estimated progress: ~6,919 scattered entries remaining in base game."
+  "total_entries_untranslated": 184655,
+  "overall_completion_rate": 20.6,
+  "next_action": "Session 271 completed: 13 entries translated with strict validation. Next session: Continue systematic search starting around line 207000-217000 range. Many large untranslated sections identified (148-288 line ranges). Focus on non-debug player dialogue. Use unified decision logic. Dual validation mandatory after each batch."
 }
