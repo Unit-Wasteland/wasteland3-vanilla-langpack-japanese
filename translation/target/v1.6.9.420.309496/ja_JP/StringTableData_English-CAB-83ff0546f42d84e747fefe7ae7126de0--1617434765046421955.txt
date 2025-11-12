@@ -334709,23 +334709,23 @@
        [24]
         1 string data = "DEBUG: Pretend we killed the Dorseys already. Set the DorseysDefeatedGlobal to 1."
        [25]
-        1 string data = ""Actually, we're going to loot this place for supplies. Don't get in our way.""
+        1 string data = ""実はこの場所を物資調達のために漁らせてもらう。邪魔をするな。""
        [26]
-        1 string data = ""Wait, we're doing <i>what</i>?""
+        1 string data = ""待って、私たちは<i>何を</i>やろうとしてるの?""
        [27]
-        1 string data = ""That's a damn shame. Sure was hopin' you'd changed your minds.""
+        1 string data = ""残念だ。気が変わってくれたんじゃないかと期待していたのに。""
        [28]
-        1 string data = ""Guess this is it, Angus...""
+        1 string data = ""これまでね、アンガス...""
        [29]
-        1 string data = ""We'll talk to them. Maybe we can get them to back off.""
+        1 string data = ""奴らと話をしよう。引き下がらせられるかもしれない。""
        [30]
-        1 string data = ""Just be careful. We got young folk in here.""
+        1 string data = ""気をつけてくれよ。うちには若い者もいるんだ。""
        [31]
-        1 string data = ""You seen what they done to our poor Dee-dee? I'm bettin' they ain't the type to back off.""
+        1 string data = ""奴らが可哀想なディーディーに何をしたか見ただろう? 引き下がるような連中じゃないと思うがね。""
        [32]
-        1 string data = ""What's all that jawin'? Who you got in there with you?""
+        1 string data = ""何をベラベラしゃべってやがる? 誰が一緒にいるんだ?""
        [33]
-        1 string data = ""Come on, everybody. Let's get t'the back.""
+        1 string data = ""みんな、来い。奥に行くぞ。""
    [1092]
     0 StringTable data
      1 string Filename = "m1001_hoonsalternateentry"
@@ -334863,17 +334863,17 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = ""This is Avie Hoon, callin' them bushwhackers at the old campground. You better clear out, cuz there's <i>payback</i> comin' your way!""
+        1 string data = ""こちらアヴィー・フーン、古いキャンプ場にいる待ち伏せ野郎どもへ。さっさと消えろ、<i>報復</i>がお前たちに向かってるからな!""
        [2]
-        1 string data = ""Hey Erastus. It's Clovis. Somebody, uh... killed the folks in that house before we could have our fun.""
+        1 string data = ""やあエラストゥス。クロヴィスだ。誰かが、あー...俺たちが楽しむ前にあの家の連中を殺しちまった。""
        [3]
-        1 string data = ""This is Avie Hoon calling any marshals who can hear! Our home is bein' attacked! We need help-""
+        1 string data = ""こちらアヴィー・フーン、聞こえるマーシャルに呼びかけている! 我が家が襲撃されている! 助けが必要だ―""
        [4]
         1 string data = "Script Node 5"
        [5]
-        1 string data = """ How did you get here? This is SECRET RADIO NODE."
+        1 string data = """ どうやってここに来た? これは秘密の無線ノードだぞ。"
        [6]
-        1 string data = ""This is Avie Hoon, calling the mysterious strangers who killed the raiders out front of our house.""
+        1 string data = ""こちらアヴィー・フーン、家の前のレイダーどもを殺してくれた謎の客人たちを呼んでいる。""
        [7]
         1 string data = "::radio static::"
        [8]
@@ -334881,19 +334881,19 @@
        [9]
         1 string data = "Script Node 10"
        [10]
-        1 string data = ""Clovis, come in. It's Erastus. You an' your boys loot that house yet?""
+        1 string data = ""クロヴィス、応答しろ。エラストゥスだ。お前と手下どもはあの家を漁ったか?""
        [11]
-        1 string data = ""Sure was nice of you to help us out, and, uh... well, we'd like to thank you in person, if you've a mind to stop by.""
+        1 string data = ""助けてくれて本当にありがとう、その、えっと...もしよかったら立ち寄ってくれれば、直接お礼を言いたいんだ。""
        [12]
-        1 string data = ""Clovis, where the fuck are you?""
+        1 string data = ""クロヴィス、どこにいるんだ?""
        [13]
-        1 string data = ""Ha! Thanks for lettin' us know, old timer! We'll be waitin' on 'em!""
+        1 string data = ""ハッ! 教えてくれてありがとよ、ジジイ! 待ち構えてやるぜ!""
        [14]
-        1 string data = ""Uh... Did I...? Wait! I was kiddin'. Nobody's comin'! I-""
+        1 string data = ""あ...俺は...? 待て! 冗談だ。誰も来ない! 俺は―""
        [15]
-        1 string data = ""Ha! Too late for that, y'old fool! Get in position, boys!""
+        1 string data = ""ハッ! 遅すぎるぜ、老いぼれ! 配置につけ、野郎ども!""
        [16]
-        1 string data = ""Huh. Well, keep an eye out. Could be those fucks who murdered Jarett.""
+        1 string data = ""フン。まあ、警戒しとけ。ジャレットを殺したクソどもかもしれねぇ。""
    [1094]
     0 StringTable data
      1 string Filename = "m1001_jarettdorsey"
@@ -335043,31 +335043,31 @@
       1 Array Array (34 items)
        0 int size = 34
        [0]
-        1 string data = ""Aw, dammit. Looks like we killed 'em all. Guess the fun's over." "
+        1 string data = ""ああ、くそったれ。全員殺しちまったらしい。楽しみも終わりだな。" "
        [1]
-        1 string data = ""Who the hell are you people?""
+        1 string data = ""お前たちは一体何者だ?""
        [2]
-        1 string data = ""Why the fuck did you attack us?""
+        1 string data = ""なぜ俺たちを襲った?""
        [3]
-        1 string data = ""What's this Deluge of Blood you keep talking about?""
+        1 string data = ""お前が言い続けている血の大洪水とは何だ?""
        [4]
-        1 string data = ""Ha! Ya don't know much, do yuh?"\n\n\n"The Dorseys are the harbingers of the Deluge! The motherfuckin' end of the old world and the beginnin' of the new!""
+        1 string data = ""ハッ! 何も知らねぇんだな?"\n\n\n"ドーシーズは大洪水の先駆者だ! 古き世界のクソったれ終焉と新たな世界の始まりだ!""
        [5]
-        1 string data = ""Because it was ordained."\n\n\n"The Dorseys are the harbingers of the Deluge! The motherfuckin' end of the old world and the beginnin' of the new!""
+        1 string data = ""定められていたからだ。"\n\n\n"ドーシーズは大洪水の先駆者だ! 古き世界のクソったれ終焉と新たな世界の始まりだ!""
        [6]
-        1 string data = ""I guess you don't know your scripture."\r\n \r\n"The Dorseys are the harbingers of the Deluge! The motherfuckin' end of the old world and the beginnin' of the new!""
+        1 string data = ""聖書を知らねぇんだろうな。"\r\n \r\n"ドーシーズは大洪水の先駆者だ! 古き世界のクソったれ終焉と新たな世界の始まりだ!""
        [7]
-        1 string data = ""And it all begins here, you little prairie dog. What I do to you, the Dorseys gonna do to all of Colorado, so squeal all you want.""
+        1 string data = ""そして全てはここから始まる、ちっぽけなプレーリードッグめ。俺がお前にすることを、ドーシーズはコロラド全土にしてやる。だから好きなだけ叫んでろ。""
        [8]
         1 string data = """ Temp: (ATTACK) Attack!"
        [9]
         1 string data = """ Temp: Now, with that said..."
        [10]
-        1 string data = ""No one's comin' t'save...""
+        1 string data = ""誰も助けには...""
        [11]
-        1 string data = ""Heh. As much fun as it is killin' folk long distance..."\n\n\n"I like it best when the Deluge of Blood happens up close and personal. Know what I mean?""
+        1 string data = ""ヘッ。遠くから人を殺すのも楽しいが..."\n\n\n"血の大洪水が至近距離で、個人的に起きる時が一番好きだ。わかるか?""
        [12]
-        1 string data = ""Erastus gonna be sorry he stayed home. He loves him some entrails.""
+        1 string data = ""エラストゥスは家に残って残念だったろうな。あいつは臓物が大好きだ。""
        [13]
         1 string data = ""
        [14]
@@ -335077,35 +335077,35 @@
        [16]
         1 string data = ""
        [17]
-        1 string data = ""Wait a minute. Maybe not."\n\n\n"Howdy, hotlander.""
+        1 string data = ""待てよ。そうでもないかもな。"\n\n\n"よう、よそ者。""
        [18]
         1 string data = "Script Node 20"
        [19]
-        1 string data = ""Who's Erastus?""
+        1 string data = ""エラストゥスって誰だ?""
        [20]
-        1 string data = ""My big brother. He'da loved takin' a piece outta you."\n\n\n"But that's okay. I'll bring 'im one later.""
+        1 string data = ""俺の兄貴だ。お前から一片を取るのが大好きだっただろうな。"\n\n\n"でも構わねぇ。後で持っていってやる。""
        [21]
-        1 string data = ""The way you go on about him, it sounds like Erastus is the real leader. So why are we talking to you?""
+        1 string data = ""お前の言い方だと、エラストゥスが本当のリーダーみたいだな。なぜ俺たちはお前と話しているんだ?""
        [22]
-        1 string data = ""You... you..."\n\n\n"You ain't talkin' to me, assholes. I'm talkin' to you! And I'm done talkin'!"\n\n\n"The Deluge of Blood is comin', and I'm its harbinger!""
+        1 string data = ""お前...お前..."\n\n\n"お前らが俺に話しかけてるんじゃねぇ、クソ野郎ども。俺がお前らに話してるんだ! もう話すのは終わりだ!"\n\n\n"血の大洪水が来る、そして俺はその先駆者だ!""
        [23]
-        1 string data = ""Ho-lee shit! I... I just <i>killed</i> that guy!""
+        1 string data = ""あ、ああ...クソ! 俺...俺はあいつを<i>殺した</i>んだ!""
        [24]
-        1 string data = ""Yeeeghh!"\n\n\n"Ah! Oh crap!""
+        1 string data = ""ひいいい!"\n\n\n"ああ! しまった!""
        [25]
-        1 string data = ""Look-look out! They're comin'!""
+        1 string data = ""気を、気をつけろ! 来るぞ!""
        [26]
-        1 string data = ""The state of your knife is a disgrace. When is the last time you cleaned and sharpened it?""
+        1 string data = ""そのナイフの状態は恥ずかしいな。最後に手入れして研いだのはいつだ?""
        [27]
-        1 string data = ""Sharpened... my...?"\n\n\n"I'll sharpen my knife on your bones! And I'll wash it clean in your blood!"\n\n\n"For the Deluge is comin', you heathen, and I'm its harbinger!""
+        1 string data = ""研いだ...俺の...?"\n\n\n"お前の骨でナイフを研いでやる! お前の血で洗い清めてやる!"\n\n\n"大洪水が来るんだ、異教徒め。そして俺はその先駆者だ!""
        [28]
         1 string data = ""
        [29]
-        1 string data = ""Ho-leee shit, they done killed Jarett!""
+        1 string data = ""ク、クソッ、あいつらジャレットを殺しやがった!""
        [30]
-        1 string data = ""Thought he'd... never shut up...""
+        1 string data = ""もう...二度と...しゃべらねぇと...思った...""
        [31]
-        1 string data = ""Heads up, Rangers... more... incoming...""
+        1 string data = ""気をつけろ、レンジャー...もっと...来るぞ...""
        [32]
         1 string data = "Script Node 35"
        [33]
@@ -335263,75 +335263,75 @@
       1 Array Array (35 items)
        0 int size = 35
        [0]
-        1 string data = ""Damn. That was... cold.""
+        1 string data = ""くそ。あれは...冷酷だった。""
        [1]
-        1 string data = ""It... it had to be done, so I guess that was the best way to do it.""
+        1 string data = ""それは...やらなきゃいけなかった。だからあれが最善の方法だったと思う。""
        [2]
-        1 string data = ""Aw, Major. Goddamn it. Why'd you have to...?" ::sobs::"
+        1 string data = ""ああ、少佐。なんてこった。なぜあんたは...?" ::sobs::"
        [3]
-        1 string data = ""I... I'm fine. I have to be. Too much riding on this for me to wimp out now.""
+        1 string data = ""私は...大丈夫。そうでなきゃいけない。今ここで弱音を吐くわけにはいかないほど重要なことだ。""
        [4]
-        1 string data = ""I guess I do. My folks are farmers back in AZ. Rangers very kindly took 'em in after the Ag Center plague.""
+        1 string data = ""そうね。私の両親はアリゾナの農民なの。レンジャーが農業センターの疫病の後、とても親切に保護してくれた。""
        [5]
-        1 string data = ""What do you know about this Patriarch?""
+        1 string data = ""このパトリアークについて何を知ってる?""
        [6]
-        1 string data = ""Sounds like you've got a stake in this.""
+        1 string data = ""これにかなり利害関係があるみたいだな。""
        [7]
-        1 string data = ""What do you think happened to Angela Deth?""
+        1 string data = ""アンジェラ・デスに何があったと思う?""
        [8]
-        1 string data = ""Nothing bad, I hope. I've looked up to Angie since I was a kid. It'd be an honor to meet her.""
+        1 string data = ""悪いことでないといいんだけど。私は子供の頃からアンジーを尊敬してた。彼女に会えたら光栄だわ。""
        [9]
-        1 string data = ""All I know is what Woodson told us - he's the boss of Colorado, he's rich, and he's willing to share food and supplies with us in exchange for a little fire power.""
+        1 string data = ""私が知ってるのはウッドソンが教えてくれたことだけ - 彼はコロラドのボスで、金持ちで、少しの火力と引き換えに食料と物資を分けてくれる意思がある。""
        [10]
-        1 string data = ""But what with Ranger Citadel destroyed and the Rangers havin' to start from scratch again, they really haven't been able to make a go of it. Too many starvin' people raidin' their fields.""
+        1 string data = ""でもレンジャー・シタデルが破壊されてレンジャーがゼロから再出発しなきゃいけなくなって、うまくいってない。飢えた人たちが畑を襲撃しすぎてる。""
        [11]
-        1 string data = ""I know they could turn a corner if they just had some breathing room, and from what Major Prasad was sayin' this Patriarch could give us that.""
+        1 string data = ""少し余裕さえあれば状況が好転すると思うの。プラサド少佐が言ってたけど、このパトリアークがそれを与えてくれるかもしれない。""
        [12]
-        1 string data = ""I'm not goin' back home until this deal gets done. My folks are countin' on me.""
+        1 string data = ""この取引が成立するまで家には帰らない。両親が私を頼りにしてる。""
        [13]
-        1 string data = "She searches Major Prasad's pack and finds some first aid supplies."
+        1 string data = "彼女はプラサド少佐のパックを調べて応急処置用品を見つける。"
        [14]
-        1 string data = ""Guess we better head to to Colorado Springs. Come on.""
+        1 string data = ""コロラドスプリングスに向かった方がよさそうね。行きましょう。""
        [15]
-        1 string data = ""Move out. Our mission's in Colorado Springs.""
+        1 string data = ""出発だ。任務はコロラドスプリングスだ。""
        [16]
-        1 string data = ""I bet we'll need these. Probably not the last time we'll get in a fight out here, right?""
+        1 string data = ""これが必要になるだろうな。ここで戦うのはこれが最後じゃないだろうし、そうでしょ?""
        [17]
-        1 string data = ""You lead, I'll follow. Hey, looks like the Dorseys left a truck over there. Let's see if it runs. It'd be a long walk to Peterson Air Force Base."\n"
+        1 string data = ""あなたが先導して、私がついていく。ねえ、ドーシーズがトラックを向こうに置いていったみたい。動くか見てみよう。ピーターソン空軍基地まで歩くのは遠いからね。"\n"
        [18]
-        1 string data = ""All right then, time's a'wasting. We gotta get to Colorado Springs.""
+        1 string data = ""じゃあ、時間を無駄にしてられない。コロラドスプリングスに行かなきゃ。""
        [19]
-        1 string data = ""Ready."\n\n\n"Actually, wait...""
+        1 string data = ""準備できた。"\n\n\n"実は、待って...""
        [20]
-        1 string data = ""Yessir."\n\n\n"Actually, wait...""
+        1 string data = ""了解です。"\n\n\n"実は、待って...""
        [21]
-        1 string data = ""I mean, there's no way she was gonna make it, but...""
+        1 string data = ""つまり、彼女が助かる可能性はなかったけど...""
        [22]
-        1 string data = ""... damn.""
+        1 string data = ""...くそ。""
        [23]
-        1 string data = ""Poor Major. That woulda been me if she hadn't kept those psychos back. God.""
+        1 string data = ""可哀想な少佐。彼女があのサイコ野郎どもを食い止めてくれなかったら私だった。神様。""
        [24]
-        1 string data = ""Too stubborn for her own damn good.""
+        1 string data = ""自分のためには頑固すぎた。""
        [25]
-        1 string data = ""You okay?""
+        1 string data = ""大丈夫か?""
        [26]
-        1 string data = ""Pull yourself together. We've got a job to do.""
+        1 string data = ""しっかりしろ。やるべき仕事がある。""
        [27]
-        1 string data = ""You're not going to cry on us, are you?""
+        1 string data = ""泣いたりしないよな?""
        [28]
-        1 string data = ""Way I look at it, he might be Arizona's last chance, so we better not mess this up.""
+        1 string data = ""私の見方では、彼がアリゾナの最後のチャンスかもしれない。だから失敗しない方がいい。""
        [29]
-        1 string data = ""You're right. And I've got too much riding on this to wimp out now.""
+        1 string data = ""その通りね。私はこれにかけすぎてるから、今弱音を吐くわけにはいかない。""
        [30]
-        1 string data = ""No... no, I'm not. I've got too much riding on this to wimp out now.""
+        1 string data = ""いや...いや、そんなことしない。私はこれにかけすぎてるから、今弱音を吐くわけにはいかない。""
        [31]
-        1 string data = ""Uh... right. I mean yes, ma'am. Er, sir. Er... okay, going.""
+        1 string data = ""あ...了解。つまりはい、マーム。いや、サー。えっと...わかった、行きます。""
        [32]
         1 string data = "Script Node 36"
        [33]
-        1 string data = ""Move out, soldier. We need to get to Colorado Springs.""
+        1 string data = ""出発だ、兵士。コロラドスプリングスに行かなければならない。""
        [34]
-        1 string data = ""Oh, but first...""
+        1 string data = ""ああ、でもその前に...""
    [1096]
     0 StringTable data
      1 string Filename = "m1001_jodiebell"
