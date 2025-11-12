@@ -18,15 +18,15 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 48588,
-      "entries_untranslated_real": 10801,
+      "entries_translated": 48740,
+      "entries_untranslated_real": 10649,
       "entries_kept_english": 42331,
-      "completion_rate": 28.6,
-      "current_line": 402696,
+      "completion_rate": 28.7,
+      "current_line": 414325,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 366: 10 new Japanese translations (L401670-402668). Dee Sharp dialogue completion (9 JP): airlock explanation, Beta Master mention, proposal details, character background, Company Store history, rescue coordination. Mine rescue gratitude (1 JP). Soviet security computer menus translated (2 entries). Quote format: 4-quote format strictly maintained. Technical terms: Script Node 138, Script Node 168 preserved English. HTML tags: <i>miner</i> preserved in wordplay. Action markers: ::ptoo:: (L401990) preserved English. Escape sequences: newline markers in menus maintained. Spanish reference: empty entries kept English per RULE 1. Characters: Dee Sharp, Steel-Trap. Locations: tech mine, Company Store, airlock. Dual validation passed (Structure: 0 errors, Quality: 0 issues).",
-      "entries_completed": 48588
+      "note": "Session 367: 152 new Japanese translations (L414022-414324). Test quest dialogue section (testquestjko2_nancy): NPC interactions, healing system tests, item management, XP distribution, faction hostility settings, spawning mechanics, damage tests, status effects, interactables, cutscene triggers, perception checks, tutorial triggers, animation tests, multiplayer host/client checks. [Global: test_moneyGlobal1] markers preserved. Glossary compliance: Rangers translated. All quote counts match source exactly. Zero action markers in section. Zero technical term violations. Dual validation passed (Structure: 0 errors, Quality: 0 issues). Spanish reference all empty, entries translated per unified decision logic.",
+      "entries_completed": 48740
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -59,21 +59,21 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "26ea3c6",
-  "last_commit_message": "Base game translation: Session 366 - Dee Sharp dialogue completion + Soviet computer (10 entries)",
+  "last_commit_hash": "PENDING",
+  "last_commit_message": "Base game translation: Session 367 - Test quest dialogue section (testquestjko2_nancy, 152 entries)",
   "validation_date": "2025-11-13",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
-  "analysis_session": 366,
+  "analysis_session": 367,
   "analysis_findings": {
-    "new_translations": "Session 366: 10 new Japanese translations (L401670-402668). Dee Sharp section completion: airlock explanation, Beta Master knowledge check, proposal hearing, Cutter Throat takeover details, Beta Master recording behavior, airlock crate storage, entertainment background reveal, Steel-Trap kidnapping story, mine clearance requirement. Mine rescue section (q3001_mineslaveambient): gratitude dialogue. Soviet security computer (q3001_sovietsecuritycomputer): menu options translated, date selection menu translated. Spanish reference empty entries kept English per RULE 1 (test dialogues, debug entries preserved).",
-    "action_marker_protection": "Action marker ::ptoo:: (L401990) preserved English. Quality validation confirmed 0 action markers contain Japanese characters in translated range L401670-402668.",
-    "quote_format_handling": "All quote counts match source exactly (10 entries). Technical terms: Script Node 138, Script Node 168 preserved English per do_not_translate list. HTML tags: <i>miner</i> preserved in Dee Sharp wordplay (L401712, 401714). Escape sequences: newline markers (backslash-n, backslash-r-backslash-n) maintained in computer menus (L402644, 402646, 402668). Character names: Dee Sharp (Company Store owner/singer), Steel-Trap (Scar Collectors leader), Cutter Throat (rival), Beta Master (pervert). Locations: airlock, Company Store, tech mine. Russian text: Cyrillic entries preserved (Soviet bot dialogues L402428-402510, computer alerts L402640, 402696). Unified translation decision logic: Spanish translated entries converted to Japanese, Spanish empty entries kept English.",
-    "quality_validation": "Dual validation passed. Structure: 0 errors 169712 entries all quote counts exact match with English source. Quality: 0 issues L401670-402668 - 0 action markers contain Japanese characters, 0 untranslated English entries in translated range (Spanish empty entries correctly kept English), 0 bracket content translated to Japanese, 0 glossary terminology violations. Technical terms preserved. HTML tags preserved. Escape sequences maintained. Russian/Cyrillic text preserved. Zero warnings."
+    "new_translations": "Session 367: 152 new Japanese translations (L414022-414324). Test quest dialogue section (testquestjko2_nancy): comprehensive game mechanics testing including NPC greeting/farewell dialogues, healing system (single/full/conversation-wide), item management (give/remove/check possession), XP distribution (listener/party/PCs in conv), faction system (mob/faction hostility/neutral/faction-to-faction), spawning mechanics (despawn/respawn), damage/kill character tests, status effects application (PC listener/PCs in conv/party), interactables (interact/unlock/power/alarm/trap/perceive hidden), cutscene triggers, perception checks (all in conv/gated responses), doctor heal, tutorial triggers, animation one-offs, multiplayer host/client detection. Character names: Harlick, Jim-Bob (test characters). [Global: test_moneyGlobal1] markers preserved per structure protection rules.",
+    "action_marker_protection": "No action markers present in this section. Quality validation confirmed 0 action markers contain Japanese characters in translated range L414022-414321.",
+    "quote_format_handling": "All quote counts match source exactly (152 entries). All [Global: XXX] markers preserved unchanged. No technical terms violated. No HTML tags present. Escape sequences: backslash-n, backslash-r-backslash-n maintained in text formatting. Glossary compliance: Rangers correctly translated. All empty Spanish reference entries translated to Japanese per unified decision logic default behavior.",
+    "quality_validation": "Dual validation passed. Structure: 0 errors - all 169,712 entries maintain exact quote count match with English source. Quality: 0 issues L414022-414321 - 0 action markers contain Japanese characters, 0 untranslated English entries in translated range, 0 bracket content translated to Japanese, 0 glossary terminology violations. Zero warnings."
   },
-  "total_entries_completed": 57697,
+  "total_entries_completed": 57849,
   "total_entries": 232418,
-  "total_entries_untranslated": 174721,
-  "overall_completion_rate": 24.8,
-  "next_action": "Continue sequential translation from line 402697. Next sections: debug flowchart (mostly translated), template reaction barks, continued game content. Focus on translatable dialogue while preserving technical terms, debug entries with empty Spanish reference, Russian text, and all structural markers."
+  "total_entries_untranslated": 174569,
+  "overall_completion_rate": 24.9,
+  "next_action": "Continue sequential translation from line 414325. Next section: character origin story (Li-Tsing and William backstory, ~54 entries L415380-415479). Focus on narrative dialogue while preserving character names (Li-Tsing, William, Lydia, Dusty, Marie, Perdido), location names (Arizona), faction names (Desert Rangers, Diamond Back Militia), enemy names (Cochise, synth terminology), and all structural markers."
 }
