@@ -18,14 +18,14 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 38957,
+      "entries_translated": 39025,
       "entries_untranslated_real": 6373,
       "entries_kept_english": 43034,
-      "completion_rate": 66.7,
-      "current_line": 241010,
+      "completion_rate": 66.8,
+      "current_line": 242380,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 278: 39 entries translated (Sister Nancy Glory dialogue, Mother Nancy Reliance trial scene). Lines 224600-241010. Sister Nancy Glory post-mission dialogues. Mother Nancy Reliance judging Godfisher and robot trial scene. Applied unified decision logic (Spanish empty defaults to translate). Structure validation: 0 errors. Action markers: 0 issues. Quality: 0 issues. Progress: 38896 Japanese entries. Next: Continue searching for untranslated entries after line 241010."
+      "note": "Session 279: 68 entries translated (Nancy Reliance trial scene continuation, Reagan debug messages). Lines 241010-242380. Trial scene dialogue: Rangers arrival, Godfisher and robot trial, Mother Nancy and Reagan interactions. Applied unified decision logic (Spanish empty defaults to translate). Structure validation: 0 errors. Action markers: 0 issues. Quality: 0 issues. Progress: 39025 Japanese entries. Next: Continue searching for untranslated entries after line 242380."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -58,18 +58,18 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "b061052",
+  "last_commit_hash": "e138c6d",
   "last_commit_message": "Base game translation: 39 entries (Session 278 - Sister Nancy dialogue, trial scene)",
   "validation_date": "2025-11-12",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
-  "analysis_session": 278,
+  "analysis_session": 279,
   "analysis_findings": {
     "action_marker_issue": "Spanish reference incorrectly translates action marker contents (e.g., ::screams:: to ::grita::). Japanese version correctly keeps them in English. Many untranslated entries are actually correctly processed action markers.",
     "scattered_untranslated": "Remaining ~6,600 untranslated entries are scattered throughout file, many are action markers or technical content that should remain in English.",
     "validation_status": "Structure: 0 errors, Quality: 0 issues across all tested ranges"
   },
-  "total_entries_completed": 48342,
+  "total_entries_completed": 48410,
   "total_entries": 232418,
   "total_entries_untranslated": 184076,
   "overall_completion_rate": 20.8,
