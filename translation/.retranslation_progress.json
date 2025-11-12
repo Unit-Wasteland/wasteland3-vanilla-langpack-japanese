@@ -18,15 +18,15 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 43869,
-      "entries_untranslated_real": 14883,
+      "entries_translated": 43980,
+      "entries_untranslated_real": 14772,
       "entries_kept_english": 42782,
-      "completion_rate": 26.1,
-      "current_line": 367542,
+      "completion_rate": 26.2,
+      "current_line": 368988,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 328: 95 new Japanese translations (L367270-367542). One major section: o2001_flabtheinhaler (95 entries - Flab the Inhaler as Monster Army/Bizarre leader, Randy Gett mechanic questline, Charley Knowes conspiracy, Los Payasos clown threat in Warrens, exploding pigs attacks, missing people investigation, merchant discount rewards 20% and 30%, Victory Buchanan confrontation dialogue, location references Bizarre Quarex museum Eidilon shows). Action marker preserved: ptooh (NOT translated). HTML i tags preserved. Script Nodes preserved: 219 256 267 (NOT translated). Dual validation passed (Structure: 0 errors, Quality: 0 issues).",
-      "entries_completed": 44280
+      "note": "Session 329: 111 new Japanese translations (L367542-368988). Seven major sections completed: o2001_flabtheinhaler end (9 entries - Warrens investigation conclusion merchant discount dialogue), o2001_gonzalez_radio_rangertakeover (6 entries - Ranger HQ radio communications Bizarre takeover), o2001_gwyntalbot (23 entries - Gwyn Talbot Tannery merchant shop armor dialogue), o2001_havardrodinkirk_interior (9 entries - Viking cultist threatening dialogue), o2001_kylerockitt (13 entries - Kyle Rockitt male stripper dialogue LA escape reference), o2001_larsodinkirk_interior (26 entries - Lars Odinkirk Viking cultist plot to cleanse Bizarre dialogue Charley Knowes betrayal), o2001_longjohn (25 entries - Long John robot pretending human mask dialogue dreams Denver Collective Robot Hunter quest references). Action markers preserved: cough dances cowers (NOT translated). Technical terms preserved: Script Node 27 35 53 12 (NOT translated). Dual validation passed (Structure: 0 errors, Quality: 0 issues).",
+      "entries_completed": 44391
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -59,21 +59,21 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "b7f2401",
-  "last_commit_message": "Base game translation: Session 328 - Flab the Inhaler dialogue (95 entries)",
+  "last_commit_hash": "pending",
+  "last_commit_message": "Base game translation: Session 329 - Bizarre character dialogues (111 entries)",
   "validation_date": "2025-11-13",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
-  "analysis_session": 328,
+  "analysis_session": 329,
   "analysis_findings": {
-    "new_translations": "Session 328: 95 new Japanese translations across one major section. o2001_flabtheinhaler (95 entries - Flab the Inhaler Monster Army/Bizarre leader dialogues covering Randy Gett mechanic storyline, Charley Knowes conspiracy quest, Los Payasos threat investigation, Warrens mystery with exploding pigs and missing people, merchant discount reward variants 20% and 30%, Victory Buchanan confrontation, player dialogue choices, location references to Bizarre facilities, Quarex museum, Eidilon shows).",
-    "action_marker_protection": "1 action marker present and correctly preserved in English: ptooh (spitting sound effect). Verified NOT translated to Japanese.",
-    "quality_validation": "Dual validation passed. Structure: 0 errors. Quality: 0 issues. HTML i tags preserved for emphasis (dog, weren't, good old days). Technical terms preserved: Script Node 219, Script Node 256, Script Node 267 (NOT translated). Glossary compliant: character names (Flab, Charley Knowes, Quarex, Randy Gett, Vic, Sasha), faction names (Los Payasos, Monster Army, Mashers).",
-    "validation_status": "Structure: 0 errors (all quote counts match source exactly). Action markers: 1 present, kept in English (ptooh verified). Quality: 0 issues. All validations passed."
+    "new_translations": "Session 329: 111 new Japanese translations across seven sections. Covers Bizarre location NPCs: Gwyn Talbot Tannery merchant (armor protective gear), Viking Odinkirk cultists (Lars threatening dialogue, plot to exterminate Bizarre residents, conflict with Charley Knowes), Kyle Rockitt male stripper (combat barks sexual innuendo), Long John robot character (pretending to be human with mask, Denver Collective robot sanctuary quest, denial of robot nature dreams dialogue). Radio communication with Ranger HQ for Bizarre takeover reinforcements.",
+    "action_marker_protection": "3 action markers present and correctly preserved in English: cough (Talbot smoking), dances (Kyle performing), cowers (Kyle scared). Verified NOT translated to Japanese.",
+    "quality_validation": "Dual validation passed. Structure: 0 errors. Quality: 0 issues. Technical terms preserved: Script Node 12, 27, 35, 53 (NOT translated). Glossary compliant: character names (Talbot, Lars, Troels, Kyle Rockitt, Long John, Charley), location names (Bizarre, Warrens, High Plains, Denver Collective, Aspen), faction names (Odinkirk, Rangers, Monster Army). Unified translation logic applied: Spanish empty entries translated per default behavior.",
+    "validation_status": "Structure: 0 errors (all quote counts match source exactly). Action markers: 3 present, kept in English (cough dances cowers verified). Quality: 0 issues (range L367542-368988 validated). All validations passed."
   },
-  "total_entries_completed": 53665,
+  "total_entries_completed": 53776,
   "total_entries": 232418,
-  "total_entries_untranslated": 178753,
+  "total_entries_untranslated": 178642,
   "overall_completion_rate": 23.1,
-  "next_action": "Continue sequential translation from line 367542. Next section: Continue o2001_flabtheinhaler (more dialogue)."
+  "next_action": "Continue sequential translation from line 368988. Next section: o2001_longjohn (continue Long John robot dialogue)."
 }
