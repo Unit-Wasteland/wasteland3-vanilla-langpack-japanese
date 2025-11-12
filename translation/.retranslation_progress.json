@@ -18,15 +18,15 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 40219,
-      "entries_untranslated_real": 18912,
+      "entries_translated": 40297,
+      "entries_untranslated_real": 18109,
       "entries_kept_english": 43034,
-      "completion_rate": 69.1,
-      "current_line": 334513,
+      "completion_rate": 69.0,
+      "current_line": 335334,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 291: Translated 121 entries (L333630-334513). Erastus Dorsey finale confrontation, radio taunts, Victory Buchanan mother grave discovery (Livia suicide note), Hoon gun theft moral dilemma, companion murder reactions. Preserved ::cheers::, ::giggly:: action markers, [Lie]/[Truth] options, TEMP markers, escape sequences. Structure: 0 errors. Quality: 0 issues.",
-      "entries_completed": 40219
+      "note": "Session 292: Translated 78 entries (L334513-335334). Hoon alternate entry paths, radio comms with Dorseys, Jarett Dorsey confrontation (Deluge of Blood harbinger), Jodie Bell aftermath post-Prasad. Preserved ::sobs:: action marker, [Enter car] option, TEMP/DEBUG markers, escape sequences. Structure: 0 errors. Quality: 0 issues.",
+      "entries_completed": 40297
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -59,20 +59,20 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "446dcf0",
-  "last_commit_message": "Base game translation: Session 291 - Erastus finale, Livia grave, Hoon gun events L333630-334513",
+  "last_commit_hash": "e1bf65d",
+  "last_commit_message": "Base game translation: Session 292 - Hoon alternate entry, radio comms, Jarett Dorsey dialogue, Jodie aftermath L334513-335334",
   "validation_date": "2025-11-12",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
-  "analysis_session": 291,
+  "analysis_session": 292,
   "analysis_findings": {
-    "action_marker_protection": "Session 291: All action markers (::cheers::, ::giggly::) verified to remain in English. Zero translation errors detected.",
+    "action_marker_protection": "Session 292: All action markers (::sobs::, ::radio static::) verified to remain in English. Zero translation errors detected.",
     "quality_validation": "Dual validation passed. Structure: 0 errors (2 pre-existing HTML warnings). Quality: 0 issues (untranslated, action markers, glossary compliance all verified).",
-    "validation_status": "Structure: 0 errors, Quality: 0 issues across L333630-334513"
+    "validation_status": "Structure: 0 errors, Quality: 0 issues across L334513-335334"
   },
-  "total_entries_completed": 49604,
+  "total_entries_completed": 49682,
   "total_entries": 232418,
-  "total_entries_untranslated": 182838,
-  "overall_completion_rate": 21.3,
-  "next_action": "Continue sequential translation from line 334513. Next section: m1001_hoonsaltentry (Hoon alternative entry dialogue)."
+  "total_entries_untranslated": 182736,
+  "overall_completion_rate": 21.4,
+  "next_action": "Continue sequential translation from line 335334. Next section: m1001_jodiebell (144 entries - Jodie Bell as driver, truck interactions, world map dialogue)."
 }
