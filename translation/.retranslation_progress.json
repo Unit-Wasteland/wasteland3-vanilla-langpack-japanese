@@ -18,15 +18,15 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 40725,
-      "entries_untranslated_real": 17681,
+      "entries_translated": 40822,
+      "entries_untranslated_real": 17584,
       "entries_kept_english": 43034,
-      "completion_rate": 69.7,
-      "current_line": 338982,
+      "completion_rate": 69.9,
+      "current_line": 340224,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 296: Translated 150 entries (L338020-338982). Multiple sections: Prasad aftermath/Jodie Bell conversations/Ranger orders, radio transmissions (DJ SAL, Everest Hotel, Sheriff Daisy), vehicle repair, Hoon family dialogues. Action markers preserved (cough, static, vroom, whispers). Structure: 0 errors. Quality: 0 issues.",
-      "entries_completed": 40725
+      "note": "Session 297: Translated 97 entries (L338982-340224). Sections: Mama Hoon family dialogues post-Dorsey attack, Tabitha Hoon disturbing dialogue, destroyed companion reactions, Hoon family combat barks. Action marker preserved (giggles). Names: Dee-dee, Almore, Tabitha, Angus Jr, Avie, Angus, Alastair. Structure: 0 errors. Quality: 0 issues.",
+      "entries_completed": 40822
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -59,20 +59,20 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "adc0f02",
-  "last_commit_message": "Base game translation: Session 296 - Prasad aftermath, radio transmissions, Hoon family dialogues L338020-338982",
+  "last_commit_hash": "pending",
+  "last_commit_message": "Base game translation: Session 297 - Hoon family dialogues L338982-340224",
   "validation_date": "2025-11-12",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
-  "analysis_session": 296,
+  "analysis_session": 297,
   "analysis_findings": {
-    "action_marker_protection": "Session 296: Action markers preserved (cough, static, vroom, whispers). Zero translation errors detected.",
-    "quality_validation": "Dual validation passed. Structure: 0 errors (4 pre-existing HTML warnings). Quality: 0 issues (untranslated entries, action markers, glossary compliance all verified).",
-    "validation_status": "Structure: 0 errors, Quality: 0 issues across L338020-338982"
+    "action_marker_protection": "Session 297: Action marker preserved (giggles). Zero translation errors detected.",
+    "quality_validation": "Dual validation passed. Structure: 0 errors (4 pre-existing HTML warnings). Quality: 0 issues across all sections (L338982-340224).",
+    "validation_status": "Structure: 0 errors, Quality: 0 issues. HTML tags preserved in all <i> tags."
   },
-  "total_entries_completed": 50110,
+  "total_entries_completed": 50207,
   "total_entries": 232418,
-  "total_entries_untranslated": 182308,
+  "total_entries_untranslated": 182211,
   "overall_completion_rate": 21.6,
-  "next_action": "Continue sequential translation from line 338982. Next section: m1002_mamahoon (16 entries remaining - Mama Hoon dialogue after Dorsey attack)."
+  "next_action": "Continue sequential translation from line 340224. Next section: m2001_combatbarks_dorseyambusher (Dorsey ambusher combat dialogue)."
 }
