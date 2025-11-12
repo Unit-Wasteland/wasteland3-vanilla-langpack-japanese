@@ -18,15 +18,15 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 47735,
-      "entries_untranslated_real": 11114,
-      "entries_kept_english": 42159,
-      "completion_rate": 81.7,
-      "current_line": 396264,
+      "entries_translated": 47907,
+      "entries_untranslated_real": 10942,
+      "entries_kept_english": 42331,
+      "completion_rate": 82.0,
+      "current_line": 397632,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 360: 182 new Japanese translations (L395841-396264). Sections completed: q1001_themechanic (173 entries): The Mechanic Patriarch spy NPC, Cordite confrontation choice, gang briefing (Scar Collectors Steel-Trap body mod, Payasos Lecherito mockery, Godfishers Star-that-Dreams sky sacrifices, Dorseys Liberty guards), slave pen key, Liberty isolation mission, victory/failure outcomes, merchant shop, spy survival tactics. q1001_themechanicbots (5 entries): Repair bot diagnostics (torque optimization, calibration, friction minimization, suspension calculations). q1001_wolfemercenary (4 entries): Hostile dismissals, coward taunts, ptoo spit sound. Action marker English-only: ptoo (L396264). Format compliance: Script Nodes preserved (89, 112, 113, 147, 173, 182, 183, 184), Trigger Conv Node preserved (192), quote format strictly maintained (EN 2=JA 2, EN 4=JA 4), [Attack] [Lie] placeholders preserved. Character names: The Mechanic, Liberty Buchanan, Ironclad Cordite, Steel-Trap, Lecherito, Star-that-Dreams. Factions: Scar Collectors, Payasos, Godfishers, Dorseys, Desert Rangers, Patriarch. Locations: Colorado Springs, Arizona. Dual validation passed (Structure: 0 errors, Quality: 0 issues L395841-396264).",
-      "entries_completed": 48157
+      "note": "Session 361: 172 new Japanese translations (L396338-397632). Sections completed: q2001_riskybriskett_obsolete (13 entries): Obsolete Risky Briskett debug dialogue, Meat Clown manager interaction, Cucaracha body quest options, sandwich eating choices, debug status effects. q2001_combatbarks_godfishers (50 entries): Godfishers combat barks, sky god worship battle cries, kite sacrifice threats, vehicle destruction commands. q2001_combatbarks_mistthatburns (15 entries): Mist that Burns death dialogue, sky god ascension wishes, believer sacrifice commands, god hunger cries. q2001_combatbarks_starthatburns (15 entries): Star that Burns dialogue, Great Kite fetching, death gift philosophy, heathen slaying commands. q2001_companion_barktriggers (79 entries): Companion reactions to Meat Clown restaurant, clown food disgust, body discovery horror, ice cream nostalgia, Haloed Moon arrival, kite quest progress, limb pile discovery, corpse kite retrieval, rat infestation observations. Action marker English-only: ::chokes:: (L397608). Format compliance: 46 Script Nodes preserved English, quote format strictly maintained (EN quotes equal JA quotes), HTML tags preserved (<i>). Character names: Risky Briskett, Cucaracha, Lecherito, Haloed Moon. Factions: Godfishers, Payasos, Gippers. Locations: Alaska. Items: Squeezins. Dual validation passed (Structure: 0 errors, Quality: 0 issues L396338-397632).",
+      "entries_completed": 48329
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -59,21 +59,21 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "fd6f52a",
-  "last_commit_message": "Base game translation: Session 360 - The Mechanic & associates dialogue (182 entries)",
+  "last_commit_hash": "9be8c7d",
+  "last_commit_message": "Base game translation: Session 361 - obsolete quests & Godfishers combat (172 entries)",
   "validation_date": "2025-11-13",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
-  "analysis_session": 360,
+  "analysis_session": 361,
   "analysis_findings": {
-    "new_translations": "Session 360: 182 new Japanese translations across 3 sections (L395841-396264). q1001_themechanic: The Mechanic NPC comprehensive dialogue (173 entries). Patriarch spy car mechanic cover story. Initial Cordite confrontation choice sequence. Gang strategy briefing: Scar Collectors (Steel-Trap leadership body mod slavers), Payasos (Lecherito mockery philosophy), Godfishers (Star-that-Dreams sky god kite sacrifices), Dorseys (Liberty bodyguards). Slave pen intelligence key acquisition. Liberty Buchanan isolation mission setup. Combat outcomes victory/failure dialogue. Merchant shop repeated interactions inventory management. Spy survival tactics other agent sacrifice. q1001_themechanicbots: Repair bot diagnostic messages (5 entries). Technical repair operations: torque optimization diagnostic calibration friction minimization suspension calculations. q1001_wolfemercenary: Wolfe mercenary hostile dismissals (4 entries). Territorial coward taunts ptoo spit sound.",
-    "action_marker_protection": "1 action marker in range L395841-396264: ptoo (L396264 spitting sound effect). All action markers preserved in English-only. Quality validation confirmed 0 action markers contain Japanese characters.",
-    "quote_format_handling": "All quote counts match source exactly (182 entries). 4 Script Nodes preserved English (89, 112, 113, 173, 182, 183, 184, 147). 1 Trigger Conv Node preserved (192). Quote format strictly maintained: EN 2 quotes equals JA 2 quotes (debug/technical entries), EN 4 quotes equals JA 4 quotes (dialogue entries). Unified translation decision logic applied (do_not_translate check, glossary check, Spanish reference, default to translate). Character names: The Mechanic (メカニック), Liberty Buchanan (リバティ・ブキャナン), Ironclad Cordite (アイアンクラッド・コーダイト), Steel-Trap (スティール・トラップ), Lecherito (レチェリート), Star-that-Dreams (スター・ザット・ドリームス). Factions: Scar Collectors (スカー・コレクターズ), Payasos (パヤソス), Godfishers (ゴッドフィッシャーズ), Dorseys (ドーシーズ), Desert Rangers (デザート・レンジャー), Patriarch (パトリアーク). Locations: Colorado Springs (コロラドスプリングス), Arizona (アリゾナ).",
-    "quality_validation": "Dual validation passed. Structure: 0 errors 169712 entries all quote counts exact match. Quality: 0 issues L395841-396264 - 0 action markers contain Japanese characters, 0 untranslated English entries in translated range, 0 bracket content translated to Japanese, 0 glossary terminology violations. Technical terms: Script Node (4 instances), Trigger Conv Node (1 instance) preserved English per do_not_translate list. Escape sequences preserved: newline markers maintained in original format. Game variables preserved: [Attack], [Lie], placeholder underscores maintained. Zero warnings."
+    "new_translations": "Session 361: 172 new Japanese translations across 5 sections (L396338-397632). q2001_riskybriskett_obsolete: Obsolete debug dialogue Risky Briskett Meat Clown restaurant manager (13 entries). Cucaracha body quest report options, sandwich eating choices, debug status effect applications. q2001_combatbarks_godfishers: Godfishers combat barks fanatic religious warriors (50 entries). Sky god worship battle cries, kite sacrifice threats, death proclamations, thunder/lightning declarations, vehicle destruction commands, sky vengeance shouts. q2001_combatbarks_mistthatburns: Mist that Burns enemy death wishes (15 entries). Sky god ascension prayers, kite binding requests, Gipper killing regrets, god appeasement commands, believer ascent celebrations, blood sacrifice offerings, god hunger declarations. q2001_combatbarks_starthatburns: Star that Burns enemy dialogue (15 entries). Final ascension wishes, god smile acknowledgments, Great Kite fetching, death as gift philosophy, sky beckoning commands, heathen slaying orders, insolent pup insults, sacrifice declarations. q2001_companion_barktriggers: Companion reactions to Payasos quest elements (79 entries). Meat Clown restaurant discovery, clown food disgust reactions, body pile horror, ice cream nostalgia Alaska Surprise references, Haloed Moon arrival observations, kite quest advancement, limb pile discoveries, corpse kite retrieval reactions, rat infestation observations, meat storage critique.",
+    "action_marker_protection": "1 action marker in range L396338-397632: ::chokes:: (L397608 death smell choking). All action markers preserved in English-only. Quality validation confirmed 0 action markers contain Japanese characters.",
+    "quote_format_handling": "All quote counts match source exactly (172 entries). 46 Script Nodes preserved English (q2001_riskybriskett_obsolete: 12, 15; q2001_combatbarks_godfishers: 1-24; q2001_combatbarks_mistthatburns: 1-5; q2001_combatbarks_starthatburns: 1-5; q2001_companion_barktriggers: 1-10). Quote format strictly maintained: EN quotes equal JA quotes (no additions or deletions). HTML tags preserved: <i> tags in combat barks maintained. Unified translation decision logic applied (do_not_translate check, glossary check, Spanish reference, default to translate). Character names: Risky Briskett (リスキー・ブリスケット), Cucaracha (クカラチャ), Lecherito (レチェリート), Haloed Moon (ヘイロード・ムーン). Factions: Godfishers (ゴッドフィッシャーズ), Payasos (パヤソス), Gippers (ギッパーズ). Locations: Alaska (アラスカ). Items: Squeezins (スクイージン moonshine alcohol).",
+    "quality_validation": "Dual validation passed. Structure: 0 errors 169712 entries all quote counts exact match. Quality: 0 issues L396338-397632 - 0 action markers contain Japanese characters, 0 untranslated English entries in translated range, 0 bracket content translated to Japanese, 0 glossary terminology violations. Technical terms: Script Node (46 instances) preserved English per do_not_translate list. Escape sequences preserved: newline markers maintained in original format. HTML tags preserved: <i> tags maintained. Zero warnings."
   },
-  "total_entries_completed": 57266,
+  "total_entries_completed": 57438,
   "total_entries": 232418,
-  "total_entries_untranslated": 175337,
-  "overall_completion_rate": 24.6,
-  "next_action": "Continue sequential translation from line 396265. Sections q1001_themechanic (173 entries), q1001_themechanicbots (5 entries), q1001_wolfemercenary (4 entries) completed. Next section: q2001_riskybriskett_obsolete starting at line 396265."
+  "total_entries_untranslated": 175165,
+  "overall_completion_rate": 24.7,
+  "next_action": "Continue sequential translation from line 397633. Sections q2001_riskybriskett_obsolete (13 entries), q2001_combatbarks_godfishers (50 entries), q2001_combatbarks_mistthatburns (15 entries), q2001_combatbarks_starthatburns (15 entries), q2001_companion_barktriggers (79 entries) completed. Next section: q2001_cucarachakite starting at line 397633."
 }
