@@ -18,14 +18,14 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 39025,
+      "entries_translated": 39245,
       "entries_untranslated_real": 6373,
       "entries_kept_english": 43034,
-      "completion_rate": 66.8,
-      "current_line": 242380,
+      "completion_rate": 67.2,
+      "current_line": 273596,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 279: 68 entries translated (Nancy Reliance trial scene continuation, Reagan debug messages). Lines 241010-242380. Trial scene dialogue: Rangers arrival, Godfisher and robot trial, Mother Nancy and Reagan interactions. Applied unified decision logic (Spanish empty defaults to translate). Structure validation: 0 errors. Action markers: 0 issues. Quality: 0 issues. Progress: 39025 Japanese entries. Next: Continue searching for untranslated entries after line 242380."
+      "note": "Session 280: 220 entries translated (Nancy trial scene, Buchanan combat, Night Terror, Jodie dismissal, combat barks). Lines 242380-273596. Applied unified decision logic (Spanish empty defaults to translate). Structure validation: 0 errors. Action markers: 0 issues. Quality: 0 issues. Progress: 39245 Japanese entries. Next: Continue searching for untranslated entries after line 273596."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -58,20 +58,20 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "64c44ee",
-  "last_commit_message": "Base game translation: 68 entries (Session 279 - Nancy trial scene, debug)",
+  "last_commit_hash": "35f64dd",
+  "last_commit_message": "Base game translation: 220 entries (Session 280 - Combat barks, Nancy trial)",
   "validation_date": "2025-11-12",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
-  "analysis_session": 279,
+  "analysis_session": 280,
   "analysis_findings": {
     "action_marker_issue": "Spanish reference incorrectly translates action marker contents (e.g., ::screams:: to ::grita::). Japanese version correctly keeps them in English. Many untranslated entries are actually correctly processed action markers.",
     "scattered_untranslated": "Remaining ~6,600 untranslated entries are scattered throughout file, many are action markers or technical content that should remain in English.",
     "validation_status": "Structure: 0 errors, Quality: 0 issues across all tested ranges"
   },
-  "total_entries_completed": 48410,
+  "total_entries_completed": 48630,
   "total_entries": 232418,
   "total_entries_untranslated": 184076,
-  "overall_completion_rate": 20.8,
+  "overall_completion_rate": 20.9,
   "next_action": "Session 276 completed: Systematic sampling of lines 202850-412450 confirms excellent translation coverage. All sampled sections (psychic kittens, Sister Nancy, alarms, Jola out-of-party, processor unit, Nancy Reliance) fully translated with proper structure. Search method producing false positives due to Spanish empty entries. Next session: Use more targeted search for truly untranslated player-facing dialogue. Consider grep for English-specific patterns in Japanese file."
 }
