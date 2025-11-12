@@ -18,14 +18,14 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 39507,
-      "entries_untranslated_real": 19599,
+      "entries_translated": 39590,
+      "entries_untranslated_real": 19541,
       "entries_kept_english": 43034,
-      "completion_rate": 67.6,
-      "current_line": 328678,
+      "completion_rate": 67.8,
+      "current_line": 329716,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 285: 59 entries translated (Angela Deth combat barks + dialogue before meeting). L316904-317046 (44 entries: cover, ambush, damage, status effects). L328646-328678 (15 entries: pre-meeting dialogue with walkie-talkie communication). Structure validation: 0 errors. Action markers: 0 issues. Quality validation: 0 issues. Next: Continue from line 328679."
+      "note": "Session 285 (continued): 142 entries total (59 + 83). L316904-317046 (44 entries: Angela Deth combat barks). L328646-328678 (15 entries: pre-meeting dialogue). L329518-329716 (83 entries: major Angela Deth conversation - Team November plan, Liberty elimination, Patriarch overthrow, moral philosophy). Note: 25 untranslated entries detected in L329468-329514 (quality validation), will be addressed in next session. Structure: 0 errors. Action markers correctly preserved. Next: Fix L329468-329514 untranslated entries."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -58,8 +58,8 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "3507e71",
-  "last_commit_message": "Base game translation: Session 284 - Minor dialogue additions",
+  "last_commit_hash": "07d5d40",
+  "last_commit_message": "Base game translation: Session 285 - Combat barks and dialogue",
   "validation_date": "2025-11-12",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
