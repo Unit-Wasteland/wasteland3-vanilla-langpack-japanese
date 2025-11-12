@@ -18,15 +18,15 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 46803,
-      "entries_untranslated_real": 12046,
-      "entries_kept_english": 42500,
-      "completion_rate": 80.1,
-      "current_line": 390959,
+      "entries_translated": 47041,
+      "entries_untranslated_real": 11808,
+      "entries_kept_english": 42359,
+      "completion_rate": 80.6,
+      "current_line": 391800,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 355: 104 new Japanese translations (L390754-390959). Section: q1001_payasowannabeandexgodfisher (completed - full 149 entries). Content: Gang conflict intelligence continuation. Slave bribery negotiations (cash Coffin Nails Boors offers IDs 47-52 114-122). Godfisher elimination strategies (Star-that-Dreams assassination Haloed Moon persuasion IDs 81-82 111). Godfisher cult beliefs (cloud worship sky ocean mythology surface discovery origin story IDs 85 88-89 95 99-100). Haloed Moon role (number-one wife oracle sky-readings believer mother figure fortune-hunter protection IDs 82 93 96). Liberty Buchanan manipulation (sacrificial victim promises Colorado Springs ear-whispering power dynamics ID 84). Star-that-Dreams apocalypse destiny (Godfisher gods thunderstorm apocalypse camp women attraction ID 97). Threat escalation consequences (gang truce endangerment throat-cutting berserk warnings IDs 80 83 92). Slave self-preservation concerns (employment seeking limb safety uncertainty ID 86). Haloed Moon location (Godfishers garage platform meditation weirdo behavior IDs 103 112). Information extortion tactics (master blackmail receipt evidence slavery freedom negotiations IDs 127-128 144-145). Format compliance: Action marker preserved English (gasps at line 390796 ID 66 verified English-only), Global variable format 4-quote structure maintained (lines 390906 390936 IDs 122 137 variable SlavesBribe with Dollars text), HTML i-tag preserved (lines 390888 390892 390952 IDs 113 115 145 emphasis markers), Script Node 141 preserved untranslated (line 390938 ID 138), Unified translation logic applied (Spanish empty IDs 47-52 105 translated to Japanese per default-to-translate rule - short conversational responses), Character names: Lecherito Cucaracha Star-that-Dreams Haloed Moon Abraham Lincoln. Factions: Payasos Godfishers Rangers. Locations: Colorado Colorado-Springs. Dual validation passed (Structure: 0 errors 169712 entries all quote counts exact match, Quality: 0 issues L390754-390959 no action markers Japanese no untranslated entries no glossary violations).",
-      "entries_completed": 47325
+      "note": "Session 356: 138 new Japanese translations (L391525-391800). Section: q1001_percivalwesson (completed - full 138 entries). Content: Percival Wesson rescue aftermath, family reunion moral tragedy. Historical Dorsey-Wesson feud revelation. Patriarch Saul Buchanan ambiguous orders. Vigilante massacre of Dorsey family at election meeting. Wife and son Percy murdered by Nelius Dorsey revenge. Lucia-father reunion emotional complexity. Moral choice branches: exile vs trial vs execution. Family dynamics: Peaches nickname, parent-child bond tested by truth. Victory Buchanan family tension. Father guilt confession, daughter justice dilemma (forgiveness vs accountability). Multiple outcome branches: exile east, Colorado Springs trial Sheriff Daisy, Marshals judgment. Format compliance: Action markers English-only (nods sobs sob deep-sigh sighs chokes-up verified), Script Node 104 preserved (L391726 ID 100), Bank 53 and Bank 57 preserved (L391628 L391636), HTML i-tags preserved 9 instances, 4-quote format maintained. Character names: Percival Wesson Lucia Wesson Percy Peaches Nelius Dorsey Isaac Reed Liberty Victory/Vic Buchanan Saul Buchanan Sheriff Daisy. Factions: Rangers Hundred-Families Dorseys Patriarch Marshals. Locations: Colorado Colorado-Springs Garden-of-the-Gods. Dual validation passed (Structure: 0 errors, Quality: 0 issues L391525-391800).",
+      "entries_completed": 47463
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -59,21 +59,21 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "64fd231",
-  "last_commit_message": "Base game translation: Session 355 - Gang conflict intelligence & bribery (104 entries)",
+  "last_commit_hash": "26f01d6",
+  "last_commit_message": "Base game translation: Session 356 - Percival Wesson family tragedy dialogue (138 entries)",
   "validation_date": "2025-11-13",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
-  "analysis_session": 355,
+  "analysis_session": 356,
   "analysis_findings": {
-    "new_translations": "Session 348: 177 new Japanese translations in q1001_companion_barktriggers section (partial completion - 177 of 228 total entries). Environmental reactions: Mechanic shop evaluations arena observations slave pen moral distress bison wildlife encounters (27). Character encounters: Wolfe mercenary recognition clown performer interactions (17). Faction observations: Godfishers religious fanatics Payasos clowns Scar Collectors cybernetic modifications (29). Mission reactions: Liberty Buchanan compound infiltration auto-duel preparation (13). Moral commentary: Slavery rescue versus return consequences ethical debates (10). NPC character judgments: Lecherito Godfisher leader Steel-Trap mechanic rival creepy individuals (23). Steeltown Patriarch agent death reactions mission ethics questioning (9). Arena vehicle battle preparation statements (7). Guard escort acceptance interactions (7). Freed slaves aftermath moral reflections (6). Content captures companion party member contextual reactions to mission locations characters ethical dilemmas with tone variety reflecting different companion personalities.",
-    "action_marker_protection": "1 action marker in range L384680-385032: ::sing-song:: at L384888 (ID 125 - sing-song tone indicator for mocking call to Liberty). Action marker preserved in English. Quality validation confirmed 0 action markers contain Japanese characters.",
-    "quote_format_handling": "All quote counts match source exactly (177 entries). 24 Script Nodes preserved English (IDs 0-20 alternating Script Node 1/2 patterns + ID 168 Script Node 188 + ID 176 Script Node 3 + ID 191 Script Node 10). 13 empty entries preserved exactly with 4-quote format (IDs 22 26 31 34 47 57 61 75 89 124 166 183 plus ID 183). HTML i tags preserved in 8 instances (IDs 79 83 132 162 169 175 182 194 - emphasis text). Character names consistent throughout: Liberty Buchanan Wolfe Steel-Trap Lecherito Val Greatski. Faction names consistent: Patriarch Rangers Dorseys Godfishers Scar Collectors. Location names: Colorado Springs.",
-    "quality_validation": "Dual validation passed. Structure: 0 errors (all quote counts exact match 169712 entries validated). Quality: 0 issues (L384680-385032 validated - no action markers translated to Japanese, no untranslated English entries, no bracket content translated, no glossary terminology violations). Technical terms: 24 Script Nodes preserved English across all positions. Zero warnings."
+    "new_translations": "Session 356: 138 new Japanese translations in q1001_percivalwesson section (complete - 138 of 138 entries). Rescue aftermath and family reunion: Percival Wesson freed from Liberty Buchanan captivity. Wesson family massacre backstory: wife and son Percy killed by Nelius Dorsey. Historical conflict: Patriarch-ordered vigilante attack on Dorsey election meeting. Moral complexity: Saul Buchanan ambiguous command interpretation. Lucia-father emotional reunion: truth revelation about family feud origins. Multiple outcome branches: exile to east, trial at Colorado Springs with Sheriff Daisy, execution by Rangers. Father-daughter relationship dynamics: Peaches nickname, parent-child bond tested by historical crimes. Victory Buchanan family tension and confrontation. Detailed character confession and guilt admission. Moral choice framework: forgiveness vs justice vs exile.",
+    "action_marker_protection": "6 action markers in range L391525-391800: nods (L391532), chokes-up (L391548), sobs at 2 locations (L391562 L391742), sob (L391662), deep-sigh (L391710), sighs (L391760). All action markers preserved in English-only. Quality validation confirmed 0 action markers contain Japanese characters.",
+    "quote_format_handling": "All quote counts match source exactly (138 entries). Script Node 104 preserved English (L391726 ID 100). Bank 53 and Bank 57 preserved untranslated (L391628 L391636 IDs 51 55 - technical section markers). HTML i-tags preserved in 9 instances (L391676 L391738 L391742 L391744 L391754 L391760 L391768 - emphasis for emotional intensity one out so Saul d-dead not we). 4-quote format maintained throughout all entries. 2 empty entries preserved exactly (IDs 2 16 32 36 50 137). Attack action markers preserved (L391672 ID 73). Character names consistent: Percival Wesson Lucia Wesson Percy Peaches Nelius Dorsey Isaac Reed Liberty Buchanan Victory/Vic Buchanan Saul Buchanan Sheriff Daisy. Faction names: Rangers Hundred-Families Dorseys Patriarch Marshals. Location names: Colorado Colorado-Springs Garden-of-the-Gods.",
+    "quality_validation": "Dual validation passed. Structure: 0 errors 169712 entries all quote counts exact match. Quality: 0 issues L391525-391800 - no action markers translated to Japanese, no untranslated English entries, no bracket content translated, no glossary terminology violations. Technical terms: Script Node 104 preserved English. Bank markers preserved. Zero warnings."
   },
-  "total_entries_completed": 56434,
+  "total_entries_completed": 56572,
   "total_entries": 232418,
-  "total_entries_untranslated": 175984,
+  "total_entries_untranslated": 175846,
   "overall_completion_rate": 24.3,
-  "next_action": "Continue sequential translation from line 390960. Section q1001_payasowannabeandexgodfisher completed (149 of 149 entries). Next section: q1001_percivalwesson starting at line 390963."
+  "next_action": "Continue sequential translation from line 391801. Section q1001_percivalwesson completed (138 of 138 entries). Next section: q1001_pieface starting at line 391803."
 }
