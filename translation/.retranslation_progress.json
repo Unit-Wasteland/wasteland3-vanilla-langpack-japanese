@@ -18,15 +18,15 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 40533,
-      "entries_untranslated_real": 17873,
+      "entries_translated": 40575,
+      "entries_untranslated_real": 17831,
       "entries_kept_english": 43034,
-      "completion_rate": 69.4,
-      "current_line": 337002,
+      "completion_rate": 69.5,
+      "current_line": 338020,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 294: Translated 35 entries (L336576-337002). m1001_pacifistrobot section complete - Recovery Robot interactions with roaches, Faction communication protocols, Major Tomcat/Billy-Jean dialogue. Preserved ::whirr::, ::click::, ::clunk::, ::Hiss:: action markers, Faction/Class/Unit notation, <i> HTML tags, escape sequences, Script Node markers. Structure: 0 errors. Quality: 0 issues.",
-      "entries_completed": 40533
+      "note": "Session 295: Translated 42 entries (L337852-338020). m1001_prasad section - Major Prasad dying dialogue, player death choices, narrative descriptions. Preserved action marker ::coughing::, HTML tags, escape sequences. Structure: 0 errors. Quality: 0 issues.",
+      "entries_completed": 40575
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -59,20 +59,20 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "619b62c",
-  "last_commit_message": "Base game translation: Session 294 - Recovery Robot pacifist interactions L336576-337002",
+  "last_commit_hash": "TBD",
+  "last_commit_message": "Base game translation: Session 295 - Major Prasad dying dialogue L337852-338020",
   "validation_date": "2025-11-12",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
-  "analysis_session": 294,
+  "analysis_session": 295,
   "analysis_findings": {
-    "action_marker_protection": "Session 294: All action markers (::whirr::, ::click::, ::clunk::, ::Hiss::) verified to remain in English. Zero translation errors detected.",
+    "action_marker_protection": "Session 295: Action marker ::coughing:: verified to remain in English. Zero translation errors detected.",
     "quality_validation": "Dual validation passed. Structure: 0 errors (2 pre-existing HTML warnings). Quality: 0 issues (untranslated, action markers, glossary compliance all verified).",
-    "validation_status": "Structure: 0 errors, Quality: 0 issues across L336576-337002"
+    "validation_status": "Structure: 0 errors, Quality: 0 issues across L337852-338020"
   },
-  "total_entries_completed": 49918,
+  "total_entries_completed": 49960,
   "total_entries": 232418,
-  "total_entries_untranslated": 182500,
+  "total_entries_untranslated": 182458,
   "overall_completion_rate": 21.5,
-  "next_action": "Continue sequential translation from line 337002. Next section: m1001_prasad (207 entries - Major Prasad dying dialogue, player choices)."
+  "next_action": "Continue sequential translation from line 338020. Next section: m1001_prasad continued (165 entries remaining - Angela Deth background, Woodson orders, death scenes)."
 }
