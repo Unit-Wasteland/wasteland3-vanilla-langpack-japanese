@@ -414403,39 +414403,39 @@
       1 Array Array (17 items)
        0 int size = 17
        [0]
-        1 string data = "No time for Chitchat. We're supposed to be fighting!\n(Global variable "FightingCaretakers"=1)"
+        1 string data = "おしゃべりしてる暇はないぞ。俺たちは戦わなきゃならないんだ!\n(グローバル変数 "FightingCaretakers"=1)"
        [1]
-        1 string data = "Let's talk about how you beat that dang ol' maze!"
+        1 string data = "あのクソッたれな迷路をどうやって攻略したか話そうぜ!"
        [2]
-        1 string data = "Thanks, we'll talk later. (r4)"
+        1 string data = "ありがとう、また後で話そう。(r4)"
        [3]
-        1 string data = "Okidoke. (r5)\n"
+        1 string data = "オーケー。(r5)\n"
        [4]
-        1 string data = "Thanks, we'll talk later. (r6)\n"
+        1 string data = "ありがとう、また後で話そう。(r6)\n"
        [5]
-        1 string data = "Hello. We haven't met before!\n"
+        1 string data = "こんにちは。初めましてですね!\n"
        [6]
-        1 string data = "Hello again, Ranger(s). I continue to be a surly slacker.\n"
+        1 string data = "またどうも、レンジャーさん。相変わらず不機嫌なサボり魔だよ。\n"
        [7]
-        1 string data = "If you're reading this, something has gone terribly wrong elsewhere in my conversation. Please ask Alex to fix it! "
+        1 string data = "これを読んでいるってことは、会話の別の場所でひどく間違ったことが起きてるってことだ。Alexに修正を頼んでくれ! "
        [8]
-        1 string data = "And we're not going to! ( Leave )"
+        1 string data = "そんなことはしないぞ! ( 去る )"
        [9]
-        1 string data = "I had a few questions..."
+        1 string data = "いくつか質問があるんだが..."
        [10]
-        1 string data = "So I had a few questions..."
+        1 string data = "それで、いくつか質問があるんだが..."
        [11]
-        1 string data = "You got it!\nI'll ask Alex to check this out.\n"
+        1 string data = "了解!\nAlexに確認してもらうよ。\n"
        [12]
-        1 string data = "Ask away."
+        1 string data = "どうぞ聞いてくれ。"
        [13]
-        1 string data = "Question 1!"
+        1 string data = "質問1!"
        [14]
         1 string data = """"
        [15]
         1 string data = """"
        [16]
-        1 string data = "Hey, who was that who scurried into the elevator?"
+        1 string data = "エレベーターに慌てて駆け込んだのは誰だ?"
    [1432]
     0 StringTable data
      1 string Filename = "test_debugexample"
@@ -414485,21 +414485,21 @@
       1 Array Array (9 items)
        0 int size = 9
        [0]
-        1 string data = "Intro"
+        1 string data = "イントロ"
        [1]
-        1 string data = "Debug Options"
+        1 string data = "デバッグオプション"
        [2]
-        1 string data = "Goodbye"
+        1 string data = "さようなら"
        [3]
-        1 string data = "Choose a debug option"
+        1 string data = "デバッグオプションを選択"
        [4]
-        1 string data = "Debug Option 1"
+        1 string data = "デバッグオプション1"
        [5]
-        1 string data = "Debug Option 2"
+        1 string data = "デバッグオプション2"
        [6]
-        1 string data = "Execute Option 1"
+        1 string data = "オプション1を実行"
        [7]
-        1 string data = "Execute option 2"
+        1 string data = "オプション2を実行"
        [8]
         1 string data = """"
    [1433]
@@ -414551,11 +414551,11 @@
       1 Array Array (3 items)
        0 int size = 3
        [0]
-        1 string data = "The Entry Talk Node"
+        1 string data = "エントリートークノード"
        [1]
-        1 string data = "Player Response Node - Always Available"
+        1 string data = "プレイヤー応答ノード - 常に利用可能"
        [2]
-        1 string data = "Player Response Node - Debug Node"
+        1 string data = "プレイヤー応答ノード - デバッグノード"
    [1435]
     0 StringTable data
      1 string Filename = "tmpconvo3"
