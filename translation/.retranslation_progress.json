@@ -18,15 +18,15 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 45727,
+      "entries_translated": 45824,
       "entries_untranslated_real": 13025,
       "entries_kept_english": 42719,
-      "completion_rate": 27.2,
-      "current_line": 382818,
+      "completion_rate": 78.5,
+      "current_line": 383713,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 346: 208 new Japanese translations (L381391-382818). Sections completed: q1001_combatbarks_libertybuchanan (71 entries - Liberty Buchanan combat barks death lines taunts attacks coverdefense flanking vehicle mockery imperious queen tone father Patriarch mentions), q1001_combatbarks_payasos (87 entries - Payaso gang combat barks death lines taunts attacks Spanish slang Adios pendejos puta madre cabrón mamón pendejo chingado Arriba los Payasos comedic violence dark humor), q1001_combatbarks_scarcollectorcyclops (50 entries - Scar Collector Cyclops combat barks death lines laser beam attacks cybernetic mutant sadistic tone modification obsession). Content types: Combat barks (death lines taunts attacks cover flanking vehicle mockery pain expressions). Faction characters: Liberty Buchanan (Patriarch daughter boss), Payasos (clown gang), Scar Collectors (cybernetic mutants). Format compliance: Script Nodes 1-24 preserved English (72 entries across 3 sections). Spanish slang preserved throughout: Adios pendejos puta madre cabrón mamón pendejo chingado Arriba los Payasos (character voice authenticity). Combat bark translations capture faction-specific speech patterns: Liberty imperious commanding, Payasos comedic violent, Cyclops sadistic cybernetic. Dual validation passed (Structure: 0 errors all quote counts exact match 169712 entries validated, Quality: 0 issues L381684-382818 no untranslated entries no glossary violations no bracket translations no action marker translation).",
-      "entries_completed": 46249
+      "note": "Session 347: 97 new Japanese translations (L382819-383712). Sections completed: q1001_combatbarks_scarcollectoroverlord (50 entries - Scar Collector Overlord variant combat barks death lines taunts attacks cover flanking vehicle discovery pain obsession violence suffering cybernetic sadistic tone), q1001_combatbarks_scarcollectorslaver (47 entries - Scar Collector Slaver variant combat barks saw weapons limb cutting modification obsession dark humor dismemberment vehicle destruction). Content types: Combat barks (death lines taunts attacks cover flanking vehicle mockery pain expressions). Faction characters: Scar Collectors (cybernetic mutants - Overlord and Slaver variants). Format compliance: Script Nodes 1-24 preserved English in both sections (48 entries total). Combat bark translations capture faction-specific speech patterns: Overlord commanding sadistic pain-focused, Slaver saw-obsessed darkly humorous dismemberment-focused. HTML i tag preserved at L383666. Dual validation passed (Structure: 0 errors all quote counts exact match 169712 entries validated, Quality: 0 issues both ranges validated no untranslated entries no glossary violations no bracket translations no action marker translation).",
+      "entries_completed": 46346
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -64,16 +64,16 @@
   "validation_date": "2025-11-13",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
-  "analysis_session": 346,
+  "analysis_session": 347,
   "analysis_findings": {
-    "new_translations": "Session 346: 208 new Japanese translations across three combat bark sections. q1001_combatbarks_libertybuchanan (71 entries - Liberty Buchanan boss character combat barks death lines taunts attacks cover flanking vehicle mockery imperious queen commanding tone Patriarch father references), q1001_combatbarks_payasos (87 entries - Payaso clown gang combat barks death lines attacks taunts Spanish slang comedic violence dark humor), q1001_combatbarks_scarcollectorcyclops (50 entries - Scar Collector Cyclops variant combat barks laser beam attacks death lines sadistic cybernetic mutant tone modification obsession pain pleasure). Content types: Combat barks (death lines taunts attacks cover movement flanking vehicle taunts pain expressions discovery). Faction characters: Liberty Buchanan (Patriarch daughter final boss), Payasos (violent clown gang members), Scar Collectors (cybernetically enhanced mutant faction).",
-    "action_marker_protection": "No action markers in this range L381391-382818. All 208 entries verified for zero Japanese characters in action marker patterns.",
-    "quote_format_handling": "All quote counts match source exactly across 3 sections (232 total entries including Script Nodes). Script Nodes 1-24 preserved English in all sections: Liberty L381688-381734 (24 nodes), Payasos L382190-382236 (24 nodes), Cyclops L382672-382718 (24 nodes) = 72 Script Node entries kept English. Spanish slang preserved throughout for character voice authenticity: Adios pendejos (death line), puta madre (pain expression), cabrón mamón pendejo chingado (insults), Arriba los Payasos (rally cry), Estas ready chingado (taunt). Combat bark tone preserved per faction: Liberty imperious commanding royal arrogant, Payasos comedic violent joking sadistic, Cyclops mechanical sadistic pain-obsessed cybernetic. HTML i tag preserved at L382800.",
-    "quality_validation": "Dual validation passed. Structure: 0 errors (all quote counts exact match 169712 entries validated). Quality: 0 issues (L381684-382818 validated - no untranslated English entries no glossary violations no bracket translations no action marker translation). Technical terms: Script Node 1-24 preserved English across 3 sections. Glossary compliance: Liberty Buchanan Payasos Scar Collectors consistent with nouns glossary. Spanish slang preservation verified for cultural authenticity. Zero warnings."
+    "new_translations": "Session 347: 97 new Japanese translations across two combat bark sections. q1001_combatbarks_scarcollectoroverlord (50 entries - Scar Collector Overlord boss variant combat barks death lines taunts attacks cover flanking vehicle mockery pain suffering violence obsession imperious commanding sadistic tone), q1001_combatbarks_scarcollectorslaver (47 entries - Scar Collector Slaver variant combat barks saw blade weapons limb cutting modification obsession dark humor dismemberment body parts vehicle destruction). Content types: Combat barks (death lines taunts attacks cover movement flanking vehicle taunts pain expressions discovery). Faction characters: Scar Collectors (cybernetically enhanced mutant faction - Overlord and Slaver specialized variants).",
+    "action_marker_protection": "No action markers in L382819-383712. All 97 entries verified for zero Japanese characters in action marker patterns.",
+    "quote_format_handling": "All quote counts match source exactly across 2 sections (145 total entries including Script Nodes). Script Nodes 1-24 preserved English in both sections: Overlord L383128-383174 (24 nodes), Slaver L383572-383618 (24 nodes) = 48 Script Node entries kept English. HTML i tag preserved at L383666 (slaver combat bark emphasis). Combat bark tone preserved per variant: Overlord imperious commanding sadistic pain-obsessed, Slaver saw-blade focused darkly humorous dismemberment-obsessed modification-crazed.",
+    "quality_validation": "Dual validation passed. Structure: 0 errors (all quote counts exact match 169712 entries validated). Quality: 0 issues (L383128-383274 and L383572-383712 validated - no untranslated English entries no glossary violations no bracket translations no action marker translation). Technical terms: Script Node 1-24 preserved English across 2 sections. Zero warnings."
   },
-  "total_entries_completed": 55634,
+  "total_entries_completed": 55731,
   "total_entries": 232418,
-  "total_entries_untranslated": 176784,
-  "overall_completion_rate": 23.9,
-  "next_action": "Continue sequential translation from line 382819. Next section: q1001_combatbarks_scarcollectoroverlord (Scar Collector Overlord combat barks - 74 entry section starting at L382821)."
+  "total_entries_untranslated": 176687,
+  "overall_completion_rate": 24.0,
+  "next_action": "Continue sequential translation from line 383713. Next section: q1001_companion_barktriggers (228 entry section starting at L383715)."
 }
