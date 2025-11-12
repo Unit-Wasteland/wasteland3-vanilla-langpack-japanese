@@ -342909,25 +342909,25 @@
       1 Array Array (10 items)
        0 int size = 10
        [0]
-        1 string data = "'Aegis Automated Defense Network. Status: OFFLINE'"
+        1 string data = "'イージス自動防衛ネットワーク。ステータス: オフライン'"
        [1]
-        1 string data = "'Network access unavailable - please try again later.'"
+        1 string data = "'ネットワークアクセス不可 - 後でもう一度お試しください。'"
        [2]
         1 string data = ""
        [3]
-        1 string data = "The computer display reads, 'Aegis Automated Defense Network\n\n\nStatus: READY\n\n\nEnter command:'"
+        1 string data = "コンピュータのディスプレイに次のように表示される:'イージス自動防衛ネットワーク\n\n\nステータス: 準備完了\n\n\nコマンドを入力:'"
        [4]
         1 string data = "::brrrt::"
        [5]
-        1 string data = "Reprogram network to target non-humans."
+        1 string data = "非人間を標的とするようにネットワークを再プログラムする。"
        [6]
-        1 string data = "Disable defenses."
+        1 string data = "防衛機能を無効にする。"
        [7]
-        1 string data = "Step away from the computer."
+        1 string data = "コンピュータから離れる。"
        [8]
-        1 string data = "The display reads, 'Updating target profiles...\n\n\nTarget profiles updated. Scanning...'"
+        1 string data = "ディスプレイに次のように表示される:'ターゲットプロファイルを更新中...\n\n\nターゲットプロファイル更新完了。スキャン中...'"
        [9]
-        1 string data = "The display reads, 'DEFENSE NETWORK DISABLED. Sysadmin authorization required for restart.'"
+        1 string data = "ディスプレイに次のように表示される:'防衛ネットワーク無効化。再起動にはシステム管理者の承認が必要です。'"
    [1124]
     0 StringTable data
      1 string Filename = "m2001_cutscene_charactercreationcomplete"
@@ -342967,15 +342967,15 @@
        [0]
         1 string data = ""
        [1]
-        1 string data = ""Hahaaa! Nowhere t'hide <i>now</i>, rabbits!""
+        1 string data = ""ハハハ！<i>もう</i>隠れる場所はないぞ、ウサギちゃん達!""
        [2]
         1 string data = ""
        [3]
-        1 string data = "Not yet, asshole!"
+        1 string data = "まだだ、クソ野郎！"
        [4]
-        1 string data = ""You're sunk!""
+        1 string data = ""沈むのはお前だ!""
        [5]
-        1 string data = "Move up and take cover!"
+        1 string data = "前進して遮蔽物を取れ！"
    [1125]
     0 StringTable data
      1 string Filename = "m2001_cutscene_prasadentrance"
@@ -343063,13 +343063,13 @@
        [0]
         1 string data = ""
        [1]
-        1 string data = ""Kill these varmints!"\n\n\n"
+        1 string data = ""この害獣どもを殺せ!"\n\n\n"
        [2]
-        1 string data = ""Free the blood from their- OH SHIT!""
+        1 string data = ""奴らから血を解き放- クソッ!""
        [3]
-        1 string data = ""No you don't, assholes!""
+        1 string data = ""させるか、クソ野郎ども!""
        [4]
-        1 string data = ""Jodie, man the gun!"\n\n\n"Rangers, wipe them out!""
+        1 string data = ""ジョディ、銃を構えろ!"\n\n\n"レンジャー、奴らを一掃しろ!""
        [5]
         1 string data = ""
        [6]
@@ -343077,25 +343077,25 @@
        [7]
         1 string data = """"
        [8]
-        1 string data = ""At ease, Rangers! We got this!""
+        1 string data = ""楽にしていろ、レンジャー！俺たちがやる!""
        [9]
         1 string data = "Script Node 10"
        [10]
         1 string data = "Script Node 11"
        [11]
-        1 string data = ""Hold 'em off, Team November!""
+        1 string data = ""チーム・ノベンバー、奴らを食い止めろ!""
        [12]
-        1 string data = ""The drive train on this heap is shot, but buy me a minute and I think I can get the weapons online!""
+        1 string data = ""このボロ車の駆動系は壊れてるが、1分くれれば武器をオンラインにできると思う!""
        [13]
-        1 string data = ""Ha! Got it! November, you have targeting control!""
+        1 string data = ""よし！やった！ノベンバー、照準制御を使え!""
        [14]
-        1 string data = ""I'm gonna do some hunting!""
+        1 string data = ""狩りをしてやる!""
        [15]
         1 string data = "Script Node 16"
        [16]
-        1 string data = ""C'mon, you piece of - ha! There's the problem!""
+        1 string data = ""おい、このクソッタレ - よし！問題はこれだ!""
        [17]
-        1 string data = ""Hang in there, November! Almost got it!""
+        1 string data = ""頑張れノベンバー！もう少しだ!""
    [1126]
     0 StringTable data
      1 string Filename = "m2001_damentry"
@@ -343141,15 +343141,15 @@
       1 Array Array (8 items)
        0 int size = 8
        [0]
-        1 string data = "On the other side of the door, you can hear rough voices and laughter... and rocket fire."
+        1 string data = "ドアの向こう側から荒々しい声と笑い声が聞こえる…そしてロケット弾の発射音も。"
        [1]
-        1 string data = "Open the door."
+        1 string data = "ドアを開ける。"
        [2]
-        1 string data = "Leave it closed."
+        1 string data = "閉めたままにする。"
        [3]
         1 string data = ""
        [4]
-        1 string data = "On the other side of the door, you can hear rough voices and laughter... and rocket fire. Better get your squad together before you continue."
+        1 string data = "ドアの向こう側から荒々しい声と笑い声が聞こえる…そしてロケット弾の発射音も。続行する前に分隊を集めた方がいい。"
        [5]
         1 string data = "Script Node 6"
        [6]
@@ -343545,29 +343545,29 @@
        [0]
         1 string data = ""
        [1]
-        1 string data = ""Blood! Blood for the Deluge!""
+        1 string data = ""血だ！大洪水のための血を!""
        [2]
-        1 string data = ""Gonna make a sign post outta you. 'Welcome to Colorado! Now go home!'""
+        1 string data = ""お前らで看板を作ってやる。『コロラドへようこそ！さあ家に帰れ！』ってな!""
        [3]
         1 string data = ""
        [4]
-        1 string data = ""Bah! Ruining our fun!""
+        1 string data = ""ちぇっ！俺たちの楽しみを台無しにしやがって!""
        [5]
         1 string data = ""
        [6]
-        1 string data = ""Oh yeah! Guts everywhere!""
+        1 string data = ""そうだ！内臓がそこらじゅうに!""
        [7]
-        1 string data = ""Heh heh heh. Don't worry, crybaby. You won't be grievin' long.""
+        1 string data = ""へへへ。心配すんな、泣き虫ちゃん。嘆く時間は長くねえよ。""
        [8]
-        1 string data = ""Joey! Noooo!!!""
+        1 string data = ""ジョーイ！やめてえええ!!!""
        [9]
-        1 string data = ""Murderers! Sick fucks!""
+        1 string data = ""人殺し！クソ野郎ども!""
        [10]
-        1 string data = ""Post up, cousins! Don't let 'em get the drop on us!""
+        1 string data = ""配置につけ、仲間！奴らに出し抜かれるな!""
        [11]
-        1 string data = ""Bathe me in the blood of the slaughtered!""
+        1 string data = ""虐殺された者の血で俺を浸せ!""
        [12]
-        1 string data = ""Guess we better finish off the rest of 'em.""
+        1 string data = ""残りの連中も始末しちまった方がいいだろうな。""
        [13]
         1 string data = ""
    [1129]
@@ -343869,135 +343869,135 @@
        [0]
         1 string data = ""
        [1]
-        1 string data = ""Fuck! Yer friends are here!""
+        1 string data = ""クソッ！お前らの仲間が来た!""
        [2]
-        1 string data = ""Where is yer CO?""
+        1 string data = ""お前らの指揮官はどこだ?""
        [3]
-        1 string data = ""Okay, hotlanders, drop your guns and she doesn't die. Got it?""
+        1 string data = ""いいか、よそ者ども、銃を捨てれば彼女は殺さない。わかったか?""
        [4]
-        1 string data = ""H-how should I know? Maybe you... blew her up already.""
+        1 string data = ""し、知るわけないでしょ？もう…爆殺したかもしれないのに。""
        [5]
-        1 string data = ""Liar! I want her head! It's gonna be me who bring it to Jarett! Where is she?""
+        1 string data = ""嘘つき！奴の首が欲しいんだ！ジャレットに持っていくのは俺だ！どこにいる?""
        [6]
-        1 string data = ""I don't know. I don't know!""
+        1 string data = ""知らない。知らないわ!""
        [7]
-        1 string data = ""Get that <i>fucking</i> gun offa me! I. Don't. Know!""
+        1 string data = ""この<i>クソッタレ</i>銃を下ろせ！知ら。ない。の!""
        [8]
-        1 string data = "I've never seen them before in my life."
+        1 string data = "生まれてこの方、そんな人たち見たことない。"
        [9]
-        1 string data = ""Ugh. Stupid cow! Yer wastin' my time!""
+        1 string data = ""うげっ。バカな牝牛め！時間の無駄だ!""
        [10]
-        1 string data = "I've been kind so far since you're a guest.\nDo you know what the Dorseys usually do with captives like you?"
+        1 string data = "お前は客だから今まで優しくしてきた。\nドーシーズがお前みたいな捕虜に普段何をするか知ってるか?"
        [11]
-        1 string data = "So...uh... what do you want to talk about?"
+        1 string data = "それで…何の話がしたいんだ?"
        [12]
-        1 string data = ""You are hiding her from me! You are denying me my glory!""
+        1 string data = ""奴を隠している！俺の栄光を奪おうとしている!""
        [13]
-        1 string data = "Oh, am I a captive?"
+        1 string data = "えっ、私って捕虜なの?"
        [14]
-        1 string data = ""You don't talk, I'm gonna bleed you 'till you die!""
+        1 string data = ""喋らねえなら、死ぬまで血を流させてやる!""
        [15]
-        1 string data = "I think you're still alive enough for that!\nStill want to make jokes?!?"
+        1 string data = "まだその冗談を言えるくらいは生きているみたいだな！\nまだ冗談を言いたいか!??"
        [16]
-        1 string data = "Fine! I'll tell you what I know."
+        1 string data = "わかった！知ってることを話す。"
        [17]
-        1 string data = "Now look: to wipe out the Rangers, all you have to do is go in low, from behind, real sneaky.\nYou get in close and, this is key..."
+        1 string data = "いいか、レンジャーを全滅させるには、低い位置から、後ろから、こっそりと近づけばいい。\n近づいたら、これが重要だが..."
        [18]
-        1 string data = "KISS MY ASS!!!"
+        1 string data = "ケツでも舐めてろ!!!"
        [19]
-        1 string data = ""Is that what you want? Is it?""
+        1 string data = ""それが望みか？そうなのか?""
        [20]
-        1 string data = ""Stubborn bastard! This'll loosen yer-""
+        1 string data = ""頑固なクソ野郎！これでお前の口も-""
        [21]
-        1 string data = ""Did... did you just die on me, you sonofabitch?\r\n Unbelievable.""
+        1 string data = ""おい…おい、死んだのか、このクソ野郎？\r\n信じられん。""
        [22]
-        1 string data = "Fuck this. The Deluge can't come soon enough for these assholes."
+        1 string data = "もういい。こんなクソ野郎どもには大洪水が早く来ればいいのに。"
        [23]
-        1 string data = ""Fuck this! The Deluge can't come soon enough for these assholes.""
+        1 string data = ""もういい！こんなクソ野郎どもには大洪水が早く来ればいいのに。""
        [24]
         1 string data = ""
        [25]
-        1 string data = ""Who <i>are</i> you people, and why are you attacking us?""
+        1 string data = ""お前らは<i>何者</i>で、なぜ俺たちを襲っているんだ?""
        [26]
-        1 string data = ""You ain't heard of the Dorseys? The bringers of the Deluge?""
+        1 string data = ""ドーシーズを知らねえのか？大洪水をもたらす者たちだぞ?""
        [27]
-        1 string data = ""Why are you attacking us?""
+        1 string data = ""なぜ俺たちを襲っている?""
        [28]
-        1 string data = ""Colorado belongs to us! We won't allow the Patriarch to drive us out with mercenaries.""
+        1 string data = ""コロラドは俺たちのものだ！パトリアークが傭兵を使って俺たちを追い出すのは許さない。""
        [29]
-        1 string data = ""Put the gun down and no one gets hurt!""
+        1 string data = ""銃を下ろせ、誰も傷つけない!""
        [30]
-        1 string data = ""I'm not a fool, stranger.\n\n\nThe only way all of us live through this is if you don't move while I head out the back.""
+        1 string data = ""俺はバカじゃない、よそ者。\n\n\n全員が生き残る唯一の方法は、俺が裏口から出ていく間、お前らが動かないことだ。""
        [31]
-        1 string data = "[Attack] Kill her."
+        1 string data = "[攻撃] 彼女を殺す。"
        [32]
-        1 string data = ""Fine. Get out of here.""
+        1 string data = ""わかった。出て行け。""
        [33]
-        1 string data = ""Ha! What a bunch of rubes!""
+        1 string data = ""はっ！なんてバカな連中だ!""
        [34]
-        1 string data = ""I told you!""
+        1 string data = ""言ったでしょ!""
        [35]
-        1 string data = ""The only way <i>you</i> don't die is if you run. So get lost while you still can.""
+        1 string data = ""<i>お前</i>が死なない唯一の方法は逃げることだ。まだ間に合ううちに消えろ。""
        [36]
-        1 string data = ""Okay, okay. Fuck you. I'm gone.""
+        1 string data = ""わかった、わかったよ。くそったれ。行くよ。""
        [37]
         1 string data = ""誰も死なないというのはどうだ？彼女に銃を渡せば立ち去れる。レンジャーは非武装の人間を撃たない。""
        [38]
-        1 string data = ""Then the Rangers're idiots. But fine, I'll take advantage of yer civilized ways...""
+        1 string data = ""じゃあレンジャーはバカだな。でもいいさ、お前らの文明的なやり方を利用してやる...""
        [39]
         1 string data = ""
        [40]
-        1 string data = ""Sneaky bastards! No one gets the drop on me!""
+        1 string data = ""こそこそしやがって！誰も俺を出し抜けねえ!""
        [41]
-        1 string data = ""Bastards! I told you I'd kill 'er!""
+        1 string data = ""クソ野郎ども！殺すって言っただろうが!""
        [42]
-        1 string data = ""Here. Take it."\n\n\nShe hands the weapon to the injured Ranger."
+        1 string data = ""ほら。受け取って。"\n\n\n彼女は負傷したレンジャーに武器を渡す。"
        [43]
-        1 string data = ""G-God forgive me."\n\n\nShe raises the pistol."
+        1 string data = ""か、神よ許したまえ。"\n\n\n彼女はピストルを構える。"
        [44]
-        1 string data = ""S-sorry.""
+        1 string data = ""ご、ごめんなさい。""
        [45]
-        1 string data = ""You dirty li-!"\n\n\n"
+        1 string data = ""汚い嘘つ-!"\n\n\n"
        [46]
-        1 string data = ""You're all dead!""
+        1 string data = ""全員死ね!""
        [47]
         1 string data = ""
        [48]
-        1 string data = ""I'm tellin' my cousins yer here.""
+        1 string data = ""仲間にお前らがここにいるって伝えてやる。""
        [49]
         1 string data = ""
        [50]
-        1 string data = ""What the-? ACK!""
+        1 string data = ""なんだ-？うぐっ!""
        [51]
         1 string data = ""
        [52]
-        1 string data = ""Wake up, cousins! More hotlanders comin'!""
+        1 string data = ""起きろ、仲間！よそ者がもっと来るぞ!""
        [53]
-        1 string data = ""Agghh! Please-!""
+        1 string data = ""ああああ！やめて-!""
        [54]
-        1 string data = ""Ha! You're more ignorant than I thought!""
+        1 string data = ""はっ！思ったより無知だな!""
        [55]
-        1 string data = ""Oh shit!""
+        1 string data = ""ヤバい!""
        [56]
-        1 string data = ""Are you nuts? You already killed him!""
+        1 string data = ""正気か？もう殺したじゃないか!""
        [57]
-        1 string data = ""Fuck, more hotlanders!""
+        1 string data = ""クソッ、よそ者がもっと来た!""
        [58]
-        1 string data = ""Sonofa- ""
+        1 string data = ""この野- ""
        [59]
         1 string data = ""
        [60]
-        1 string data = ""What the...? More of you? Die!""
+        1 string data = ""なんだと...？まだいるのか？死ね!""
        [61]
         1 string data = ""
        [62]
-        1 string data = ""I'm gonna kill you like I killed yer friend!""
+        1 string data = ""お前の友達を殺したように、お前も殺してやる!""
        [63]
-        1 string data = ""Wait. Nobody has to die. Just leave and we won't shoot.""
+        1 string data = ""待て。誰も死ななくていい。立ち去れば撃たない。""
        [64]
-        1 string data = ""All right, fine. I'm goin'.""
+        1 string data = ""わかった、いいだろう。行くよ。""
        [65]
-        1 string data = ""Suckers!""
+        1 string data = ""カモめ!""
        [66]
         1 string data = ""
        [67]
@@ -344007,7 +344007,7 @@
        [69]
         1 string data = ""
        [70]
-        1 string data = ""An' I wouldn't tell you if I did.""
+        1 string data = ""たとえ知ってても、お前には教えねえよ。""
    [1130]
     0 StringTable data
      1 string Filename = "m2001_firstdriverintro"
