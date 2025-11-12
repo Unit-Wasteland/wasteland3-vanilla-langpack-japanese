@@ -18,14 +18,14 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 39317,
+      "entries_translated": 39359,
       "entries_untranslated_real": 6301,
       "entries_kept_english": 43034,
-      "completion_rate": 67.3,
-      "current_line": 69920,
+      "completion_rate": 67.4,
+      "current_line": 78020,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 281: 72 entries translated (scattered untranslated content: single letters, Jodie vehicle, refugee dialogue, mission feedback, Kwon base setup). Lines 396-69920. Applied unified decision logic (Spanish empty defaults to translate). Structure validation: 0 errors. Action markers: 0 issues. Quality: 0 issues. Progress: 39317 Japanese entries. Next: Continue searching for remaining untranslated entries."
+      "note": "Session 282: 42 debug option entries translated (lines 71000-71010, 77962-78019). Fixed quote structure errors (lines 1288, 1294). Unified decision logic applied (Spanish empty defaults to translate). Structure validation: 0 errors. Action markers: 0 issues. Progress: 39359 Japanese entries. Next: Continue searching for untranslated entries."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -58,18 +58,18 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "ec20472",
-  "last_commit_message": "Base game translation: 72 entries (Session 281 - Untranslated content)",
+  "last_commit_hash": "49a65c2",
+  "last_commit_message": "Base game translation: Session 282 - Quote structure fix and debug options",
   "validation_date": "2025-11-12",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
-  "analysis_session": 281,
+  "analysis_session": 282,
   "analysis_findings": {
     "action_marker_issue": "Spanish reference incorrectly translates action marker contents (e.g., ::screams:: to ::grita::). Japanese version correctly keeps them in English. Many untranslated entries are actually correctly processed action markers.",
     "scattered_untranslated": "Remaining ~6,600 untranslated entries are scattered throughout file, many are action markers or technical content that should remain in English.",
     "validation_status": "Structure: 0 errors, Quality: 0 issues across all tested ranges"
   },
-  "total_entries_completed": 48630,
+  "total_entries_completed": 48672,
   "total_entries": 232418,
   "total_entries_untranslated": 184076,
   "overall_completion_rate": 20.9,
