@@ -18,15 +18,15 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 46156,
-      "entries_untranslated_real": 12693,
+      "entries_translated": 46266,
+      "entries_untranslated_real": 12583,
       "entries_kept_english": 42564,
-      "completion_rate": 79.7,
-      "current_line": 386432,
+      "completion_rate": 79.8,
+      "current_line": 387623,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 349: 155 new Japanese translations (L385033-386432). Sections completed: q1001_companion_barktriggers remaining (25 entries), q1001_cordite (56 entries: 19 initial + 37 continuation including Cordite leadership dialogue Steel-Trap duel challenges gang alliance choices companion objections), q1001_corditeradio (2 entries: Cordite radio messages about Rangers leaving for Yuma without him), q1001_dorseysambient (24 entries: Dorsey gang ambient dialogue about Cordite return Liberty control gang preparations Colorado Springs attack), q1001_emogenedorsey (5 entries: Emogene Dorsey gate guard dialogue leader recognition gang clearing), q1001_erastusdorsey (35 entries: Erastus Dorsey Rangers hatred vengeance threats brother Jarett Cordite encounter Liberty death reactions), q1001_gangcompoundguards (10 entries: Savage Council entrance guards Cordite party recognition debug entries preserved English). Content types: Leadership transitions (Cordite vs Steel-Trap power struggle 15), Gang alliance dynamics (Payasos Godfishers recruitment dilemmas 12), Companion moral objections (Kwon Lucia gang violence concerns 9), Dorsey family vengeance (Jarett death Rangers blame 11), Liberty Buchanan capture reactions (gang leadership void 8), Combat preparation dialogue (arena duel gang rallying 6), Gate guard challenges (entrance security Cordite recognition 10). Format compliance: 16 Script Nodes preserved English (4 q1001_cordite, 2 q1001_dorseysambient, 7 q1001_erastusdorsey, 3 q1001_gangcompoundguards), 8 Debug entries preserved English (q1001_gangcompoundguards), 1 Technical stub preserved (q1001_erastusdorsey), 2 Trigger nodes preserved (q1001_emogenedorsey q1001_erastusdorsey), 2 Action markers protected (::sighs:: ::sigh:: preserved English), HTML i tags preserved (3 instances emphasis text). Character names: Ironclad Cordite Steel-Trap Liberty Buchanan Erastus Dorsey Jarett Lecherito Kwon Lucia Emogene Dorsey. Faction names: Scar Collectors Dorseys Payasos Godfishers Rangers Patriarch Hundred Families. Locations: Colorado Springs Kansas Broadmoor Heights Yuma Murderdome. Dual validation passed (Structure: 0 errors all quote counts exact match, Quality: 0 issues no action markers translated no untranslated entries no bracket translations no glossary violations).",
-      "entries_completed": 46678
+      "note": "Session 350: 110 new Japanese translations (L386432-387390). Sections completed: q1001_gangcompoundguards finale (24 entries), q1001_gangcompoundslaveguards (8 entries), q1001_garywolfe (40 entries: Gary Wolfe synth-hater merc confrontation Rangers rivalry), q1001_godfishersambient (18 entries: Godfisher cult fanatic dialogue ritual warnings), q1001_godfisherslavewindfarmexit (37 entries: slave rescue scenarios Payaso threats bison stampede), q1001_godfisherslavewindfarmexitbarks (3 entries). Content types: Gang aftermath commentary (Scar Collectors Godfishers Payasos defeat 17), Mercenary rivalry (Wolfe vs Rangers synth debates 23), Cult ambient (Godfisher fanatic warnings sacrifices 18), Slave rescue (freedom choices moral dilemmas 34), Guard idle banter (18). Format compliance: 8 Script Nodes preserved, 2 Trigger Conv Nodes preserved, 2 Action markers protected (yawn grunt), HTML i tags preserved (bot-coddlers emphasis 4), 1 Global variable preserved [Global: q1001_Money_HallieBribe]. Character names: Gary Wolfe Cordite Liberty Buchanan Steel-Trap Lecherito. Factions: Godfishers Payasos Scar Collectors Rangers. Dual validation passed (Structure: 0 errors all quotes match, Quality: 0 issues no action markers translated no untranslated entries).",
+      "entries_completed": 46788
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -59,21 +59,21 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "PENDING",
-  "last_commit_message": "Base game translation: Session 349 - Gang leadership conflicts and moral dilemmas (155 entries)",
+  "last_commit_hash": "6ee7941",
+  "last_commit_message": "Base game translation: Session 350 - Gang compound dialogues and slave interactions (110 entries)",
   "validation_date": "2025-11-13",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
-  "analysis_session": 349,
+  "analysis_session": 350,
   "analysis_findings": {
     "new_translations": "Session 348: 177 new Japanese translations in q1001_companion_barktriggers section (partial completion - 177 of 228 total entries). Environmental reactions: Mechanic shop evaluations arena observations slave pen moral distress bison wildlife encounters (27). Character encounters: Wolfe mercenary recognition clown performer interactions (17). Faction observations: Godfishers religious fanatics Payasos clowns Scar Collectors cybernetic modifications (29). Mission reactions: Liberty Buchanan compound infiltration auto-duel preparation (13). Moral commentary: Slavery rescue versus return consequences ethical debates (10). NPC character judgments: Lecherito Godfisher leader Steel-Trap mechanic rival creepy individuals (23). Steeltown Patriarch agent death reactions mission ethics questioning (9). Arena vehicle battle preparation statements (7). Guard escort acceptance interactions (7). Freed slaves aftermath moral reflections (6). Content captures companion party member contextual reactions to mission locations characters ethical dilemmas with tone variety reflecting different companion personalities.",
     "action_marker_protection": "1 action marker in range L384680-385032: ::sing-song:: at L384888 (ID 125 - sing-song tone indicator for mocking call to Liberty). Action marker preserved in English. Quality validation confirmed 0 action markers contain Japanese characters.",
     "quote_format_handling": "All quote counts match source exactly (177 entries). 24 Script Nodes preserved English (IDs 0-20 alternating Script Node 1/2 patterns + ID 168 Script Node 188 + ID 176 Script Node 3 + ID 191 Script Node 10). 13 empty entries preserved exactly with 4-quote format (IDs 22 26 31 34 47 57 61 75 89 124 166 183 plus ID 183). HTML i tags preserved in 8 instances (IDs 79 83 132 162 169 175 182 194 - emphasis text). Character names consistent throughout: Liberty Buchanan Wolfe Steel-Trap Lecherito Val Greatski. Faction names consistent: Patriarch Rangers Dorseys Godfishers Scar Collectors. Location names: Colorado Springs.",
     "quality_validation": "Dual validation passed. Structure: 0 errors (all quote counts exact match 169712 entries validated). Quality: 0 issues (L384680-385032 validated - no action markers translated to Japanese, no untranslated English entries, no bracket content translated, no glossary terminology violations). Technical terms: 24 Script Nodes preserved English across all positions. Zero warnings."
   },
-  "total_entries_completed": 56063,
+  "total_entries_completed": 56173,
   "total_entries": 232418,
-  "total_entries_untranslated": 176355,
-  "overall_completion_rate": 24.1,
-  "next_action": "Continue sequential translation from line 386433. Current section: q1001_gangcompoundguards (73 entries total - 10 translated, 63 remaining). Next sections: Continue gang compound dialogues and mission content."
+  "total_entries_untranslated": 176245,
+  "overall_completion_rate": 24.2,
+  "next_action": "Continue sequential translation from line 387623. Current section: q1001_hallie (55 entries - Hallie McKay escaped slave confrontation dialogue). Next sections: q1001_haloedmoon and continuing gang content."
 }
