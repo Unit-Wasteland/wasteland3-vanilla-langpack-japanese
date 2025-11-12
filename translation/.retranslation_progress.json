@@ -18,15 +18,15 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 45824,
-      "entries_untranslated_real": 13025,
+      "entries_translated": 46001,
+      "entries_untranslated_real": 12848,
       "entries_kept_english": 42719,
-      "completion_rate": 78.5,
-      "current_line": 383713,
+      "completion_rate": 78.8,
+      "current_line": 385033,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 347: 97 new Japanese translations (L382819-383712). Sections completed: q1001_combatbarks_scarcollectoroverlord (50 entries - Scar Collector Overlord variant combat barks death lines taunts attacks cover flanking vehicle discovery pain obsession violence suffering cybernetic sadistic tone), q1001_combatbarks_scarcollectorslaver (47 entries - Scar Collector Slaver variant combat barks saw weapons limb cutting modification obsession dark humor dismemberment vehicle destruction). Content types: Combat barks (death lines taunts attacks cover flanking vehicle mockery pain expressions). Faction characters: Scar Collectors (cybernetic mutants - Overlord and Slaver variants). Format compliance: Script Nodes 1-24 preserved English in both sections (48 entries total). Combat bark translations capture faction-specific speech patterns: Overlord commanding sadistic pain-focused, Slaver saw-obsessed darkly humorous dismemberment-focused. HTML i tag preserved at L383666. Dual validation passed (Structure: 0 errors all quote counts exact match 169712 entries validated, Quality: 0 issues both ranges validated no untranslated entries no glossary violations no bracket translations no action marker translation).",
-      "entries_completed": 46346
+      "note": "Session 348: 177 new Japanese translations (L384680-385032). Section: q1001_companion_barktriggers (177 translated out of 228 total entries - 24 Script Nodes preserved English, 27 remaining entries continue after L385032). Content types: Environmental reactions (mechanic shop arena slave pen bison 27 entries), Character encounters (Wolfe mercenary clown performers 17), Faction observations (Godfishers Payasos Scar Collectors 29), Mission reactions (Liberty compound auto-duel 13), Moral commentary (slavery consequences 10), NPC judgments (Lecherito Steel-Trap 23), Steeltown agent death reactions (9), Arena battle preparation (7), Guard escort (7), Freed slaves aftermath (6). Format compliance: 24 Script Nodes preserved English (IDs 0-20 168 176 191), 13 empty entries preserved exactly, HTML i tags preserved (8 instances), Action marker ::sing-song:: preserved (ID 125). Character names: Liberty Buchanan Wolfe Steel-Trap Lecherito Val Greatski. Faction names: Patriarch Rangers Dorseys Godfishers Scar Collectors. Location: Colorado Springs. Dual validation passed (Structure: 0 errors all quote counts exact match, Quality: 0 issues no action markers translated no untranslated entries no bracket translations no glossary violations).",
+      "entries_completed": 46523
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -59,21 +59,21 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "84b7225",
-  "last_commit_message": "Base game translation: Session 346 - Liberty Buchanan, Payasos, Scar Collector Cyclops combat barks (208 entries)",
+  "last_commit_hash": "bae483d",
+  "last_commit_message": "Base game translation: Session 348 - Companion bark triggers (177 entries)",
   "validation_date": "2025-11-13",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
-  "analysis_session": 347,
+  "analysis_session": 348,
   "analysis_findings": {
-    "new_translations": "Session 347: 97 new Japanese translations across two combat bark sections. q1001_combatbarks_scarcollectoroverlord (50 entries - Scar Collector Overlord boss variant combat barks death lines taunts attacks cover flanking vehicle mockery pain suffering violence obsession imperious commanding sadistic tone), q1001_combatbarks_scarcollectorslaver (47 entries - Scar Collector Slaver variant combat barks saw blade weapons limb cutting modification obsession dark humor dismemberment body parts vehicle destruction). Content types: Combat barks (death lines taunts attacks cover movement flanking vehicle taunts pain expressions discovery). Faction characters: Scar Collectors (cybernetically enhanced mutant faction - Overlord and Slaver specialized variants).",
-    "action_marker_protection": "No action markers in L382819-383712. All 97 entries verified for zero Japanese characters in action marker patterns.",
-    "quote_format_handling": "All quote counts match source exactly across 2 sections (145 total entries including Script Nodes). Script Nodes 1-24 preserved English in both sections: Overlord L383128-383174 (24 nodes), Slaver L383572-383618 (24 nodes) = 48 Script Node entries kept English. HTML i tag preserved at L383666 (slaver combat bark emphasis). Combat bark tone preserved per variant: Overlord imperious commanding sadistic pain-obsessed, Slaver saw-blade focused darkly humorous dismemberment-obsessed modification-crazed.",
-    "quality_validation": "Dual validation passed. Structure: 0 errors (all quote counts exact match 169712 entries validated). Quality: 0 issues (L383128-383274 and L383572-383712 validated - no untranslated English entries no glossary violations no bracket translations no action marker translation). Technical terms: Script Node 1-24 preserved English across 2 sections. Zero warnings."
+    "new_translations": "Session 348: 177 new Japanese translations in q1001_companion_barktriggers section (partial completion - 177 of 228 total entries). Environmental reactions: Mechanic shop evaluations arena observations slave pen moral distress bison wildlife encounters (27). Character encounters: Wolfe mercenary recognition clown performer interactions (17). Faction observations: Godfishers religious fanatics Payasos clowns Scar Collectors cybernetic modifications (29). Mission reactions: Liberty Buchanan compound infiltration auto-duel preparation (13). Moral commentary: Slavery rescue versus return consequences ethical debates (10). NPC character judgments: Lecherito Godfisher leader Steel-Trap mechanic rival creepy individuals (23). Steeltown Patriarch agent death reactions mission ethics questioning (9). Arena vehicle battle preparation statements (7). Guard escort acceptance interactions (7). Freed slaves aftermath moral reflections (6). Content captures companion party member contextual reactions to mission locations characters ethical dilemmas with tone variety reflecting different companion personalities.",
+    "action_marker_protection": "1 action marker in range L384680-385032: ::sing-song:: at L384888 (ID 125 - sing-song tone indicator for mocking call to Liberty). Action marker preserved in English. Quality validation confirmed 0 action markers contain Japanese characters.",
+    "quote_format_handling": "All quote counts match source exactly (177 entries). 24 Script Nodes preserved English (IDs 0-20 alternating Script Node 1/2 patterns + ID 168 Script Node 188 + ID 176 Script Node 3 + ID 191 Script Node 10). 13 empty entries preserved exactly with 4-quote format (IDs 22 26 31 34 47 57 61 75 89 124 166 183 plus ID 183). HTML i tags preserved in 8 instances (IDs 79 83 132 162 169 175 182 194 - emphasis text). Character names consistent throughout: Liberty Buchanan Wolfe Steel-Trap Lecherito Val Greatski. Faction names consistent: Patriarch Rangers Dorseys Godfishers Scar Collectors. Location names: Colorado Springs.",
+    "quality_validation": "Dual validation passed. Structure: 0 errors (all quote counts exact match 169712 entries validated). Quality: 0 issues (L384680-385032 validated - no action markers translated to Japanese, no untranslated English entries, no bracket content translated, no glossary terminology violations). Technical terms: 24 Script Nodes preserved English across all positions. Zero warnings."
   },
-  "total_entries_completed": 55731,
+  "total_entries_completed": 55908,
   "total_entries": 232418,
-  "total_entries_untranslated": 176687,
-  "overall_completion_rate": 24.0,
-  "next_action": "Continue sequential translation from line 383713. Next section: q1001_companion_barktriggers (228 entry section starting at L383715)."
+  "total_entries_untranslated": 176510,
+  "overall_completion_rate": 24.1,
+  "next_action": "Continue sequential translation from line 385033. Remaining entries in q1001_companion_barktriggers section (51 entries remain: 27 translatable + 24 Script Nodes already accounted). Next section after completion begins around L385260."
 }
