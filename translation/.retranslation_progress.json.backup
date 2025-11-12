@@ -18,15 +18,15 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 44166,
-      "entries_untranslated_real": 14586,
+      "entries_translated": 44266,
+      "entries_untranslated_real": 14486,
       "entries_kept_english": 42782,
-      "completion_rate": 26.3,
-      "current_line": 369840,
+      "completion_rate": 26.4,
+      "current_line": 370620,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 330: 186 new Japanese translations (L368988-369840). Four major sections completed: o2001_longjohn end (90 entries - Long John robot dialogue continuation, mask concealing synth identity, EMP device in chest, ramen quest references, Rangers-Cordite interactions, fear of decommissioning by humans, Bizarre residents knowledge, reluctant synth identity reveal), o2001_magnushammer (8 entries - Magnus Hammer male stripper robot Terminator parody dialogue), o2001_masato (87 entries - Masato Japanese chef NPC, instant ramen noodle quest, Ranger HQ recruitment dialogue, Bizarre merchant, Warrens exploration references, cooking demonstration). Action markers preserved: whispers dances cowers (NOT translated). Technical terms preserved: Script Node 10 63 90 (NOT translated). HTML tags preserved: i tags for emphasis. Dual validation passed (Structure: 0 errors, Quality: 0 issues).",
-      "entries_completed": 44577
+      "note": "Session 331: 100 new Japanese translations (L370078-370620). Six sections completed: o2001_mashergreeter (48 entries - Masher greeter at Bizarre entrance, welcome dialogue, facility info, merchant locations including Piscitelli Gwyn Talbot Dr Cold Cuts, entertainment venues Fountain Bar Eidilon Quarex museum, Los Payasos mentions), o2001_megascope (10 entries - MEGA SCOPE weapon display case, Quarex museum exhibit, theft options, prewar scope), o2001_merchants_departure (9 entries - merchant evacuation after Jones negotiation failure, Cartel attack, Bizarre closure), o2001_monsterarmy_captain (2 entries - safe tampering warnings), o2001_monsterarmy_hothogbarks (1 entry - explosion panic bark), o2001_monstermasher (30 entries - Monster Army guard ambient dialogue, Warrens references, character reactions to Darius Kwon Scotchmo Victory BUDDY in Eidilon shows, movie references Romancing the Bone Fuckloose, Cyclops rumors). Technical terms preserved: Script Node 32. Dual validation passed (Structure: 0 errors, Quality: 0 issues).",
+      "entries_completed": 44677
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -59,21 +59,21 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "317c3ea",
-  "last_commit_message": "Base game translation: Session 330 - Bizarre character dialogues (186 entries)",
+  "last_commit_hash": "ccaaa49",
+  "last_commit_message": "Base game translation: Session 331 - Bizarre NPCs and Monster Army dialogue (100 entries)",
   "validation_date": "2025-11-13",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
-  "analysis_session": 330,
+  "analysis_session": 331,
   "analysis_findings": {
-    "new_translations": "Session 330: 186 new Japanese translations across four major sections. Covers Bizarre location NPCs and robot characters: Long John synth continuation (90 entries - identity concealment with Nixon mask, EMP device implanted in chest for stunning robots and stalling cars, reluctant revelation of synth nature, fear of decommissioning by humans who cannot distinguish toasters from synthetics with feelings, Bizarre residents acceptance or hostility, quest to bait Long John outside Bizarre for Robot Hunter dialogue), Magnus Hammer male stripper robot (8 entries - Terminator movie parody dialogue with sexual innuendo, combat barks), Masato Japanese chef (87 entries - instant ramen noodle obsession quest, Warrens exploration for pre-war delicacy, Ranger HQ mess hall recruitment offer, Bizarre merchant dialogue, cooking demonstrations, character information about Bizarre residents including Eidilon Piscitelli Pareidolia Jones Dr Cold Cuts Gwyn Talbot).",
-    "action_marker_protection": "3 action markers present and correctly preserved in English: whispers (Cordite companion commenting on Long John EMP device), dances (Magnus Hammer stripper performing), cowers (Magnus Hammer combat bark). Verified NOT translated to Japanese.",
-    "quality_validation": "Dual validation passed. Structure: 0 errors. Quality: 0 issues. Technical terms preserved: Script Node 10 63 90 (NOT translated). HTML tags preserved: i tags for emphasis in dialogue. Glossary compliant: character names (Long John Cordite Magnus Hammer Masato Piscitelli Gwyn Talbot Pareidolia Jones Eidilon Quarex Dr Cold Cuts Flab), location names (Bizarre Warrens Fountain Bar Denver Steeltown Colorado Springs High Plains Ranger HQ), faction names (Rangers Gippers Monster Army). Unified translation logic applied: Spanish empty entries translated per default behavior.",
-    "validation_status": "Structure: 0 errors (all quote counts match source exactly). Action markers: 3 present, kept in English (whispers dances cowers verified). Quality: 0 issues (range L368988-369840 validated). All validations passed."
+    "new_translations": "Session 331: 100 new Japanese translations across six sections. Covers Bizarre Monster Army NPCs and facility information: Masher greeter entrance dialogue (48 entries - facility information, merchant locations Piscitelli weapons Gwyn Talbot armor Dr Cold Cuts medical, entertainment Fountain Bar Eidilon shows Quarex museum, Los Payasos clown bandits), MEGA SCOPE weapon display (10 entries - museum exhibit theft interaction, prewar scope), merchant evacuation scenario (9 entries - post-Pareidolia Jones negotiation failure, Cartel attack, Bizarre closure), Monster Army captain safe warnings (2 entries), Hot Hog explosion panic (1 entry), Monster Army guard ambient dialogue (30 entries - Warrens exploration, character-specific reactions to Darius Kwon Scotchmo Victory BUDDY in Eidilon entertainment shows, movie references Romancing the Bone Fuckloose, Cyclops resurrection rumors three-headed dog legends).",
+    "action_marker_protection": "No action markers in this session range. Verified with grep - no Japanese characters in action marker format.",
+    "quality_validation": "Dual validation passed. Structure: 0 errors. Quality: 0 issues. Technical terms preserved: Script Node 32 (NOT translated). Glossary compliant: character names (Flab Masher Piscitelli Gwyn Talbot Dr Cold Cuts Eidilon Quarex Masato Pareidolia Jones Darius Kwon Scotchmo Victory BUDDY Cyclops Los Payasos), location names (Bizarre Warrens Fountain Bar), faction names (Monster Army Rangers Cartel). Movie titles preserved: Romancing the Bone (entertainment show name), Fuckloose (entertainment show name). Unified translation logic applied throughout session.",
+    "validation_status": "Structure: 0 errors (all quote counts match source exactly). Action markers: 0 present in range. Quality: 0 issues (range L370078-370620 validated). All validations passed."
   },
-  "total_entries_completed": 53962,
+  "total_entries_completed": 54062,
   "total_entries": 232418,
-  "total_entries_untranslated": 178456,
-  "overall_completion_rate": 23.2,
-  "next_action": "Continue sequential translation from line 369840. Next section: o2001_mashergreeter (Masher greeter - Bizarre entrance greeter NPC)."
+  "total_entries_untranslated": 178356,
+  "overall_completion_rate": 23.3,
+  "next_action": "Continue sequential translation from line 370620. Next section: o2001_mrdebug (Mr. Debug character interactions)."
 }
