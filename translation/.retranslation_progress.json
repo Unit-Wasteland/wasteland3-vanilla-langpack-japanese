@@ -18,14 +18,14 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 39412,
-      "entries_untranslated_real": 6248,
+      "entries_translated": 39448,
+      "entries_untranslated_real": 19658,
       "entries_kept_english": 43034,
-      "completion_rate": 67.5,
-      "current_line": 28330,
+      "completion_rate": 67.6,
+      "current_line": 316902,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 283: 53 entries translated (designer notes and debug menus). Applied unified decision logic Rule 5 (Spanish empty defaults to translate). Translated: lines 1366, 1390 (quest flow notes), 8914-8966 (Steeltown notes), 9498-9508, 9610-9620 (debug menus), 10324, 10328 (customization), 11094, 11876-11886 (developer notes), 28304-28324 (quest debug). Structure validation: 0 errors. Quality validation (first 30k lines): 0 issues. Progress: 39412 Japanese entries (67.5%). Next: Continue systematic search for untranslated entries."
+      "note": "Session 284: 36 entries translated (minor dialogue + Angela Deth combat barks). Discovered large block of untranslated combat barks (19,658 entries) concentrated in lines 300000-530425. Translated: L7614 (Coffin Nails jingle - fixed quote count), L19132 (mom dialogue), L72056 (Stay safe), L316840-316902 (Angela Deth combat: damage, healing, aiming, cover). Structure validation: 0 errors. Action markers: 0 issues. Next: Continue translating remaining combat barks (estimated 19,600 entries in L300000-530000 range)."
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -58,8 +58,8 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "f0c32b8",
-  "last_commit_message": "Base game translation: Session 283 - Debug menus and designer notes",
+  "last_commit_hash": "3507e71",
+  "last_commit_message": "Base game translation: Session 284 - Minor dialogue additions",
   "validation_date": "2025-11-12",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
