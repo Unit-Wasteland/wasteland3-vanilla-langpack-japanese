@@ -1,0 +1,76 @@
+================================================================================
+Unity StringTable 厳格構造検証結果 v2.0
+================================================================================
+総行数: 530,425
+string data行数: 169,712
+
+エラー: 137件
+警告: 0件
+
+================================================================================
+エラー一覧:
+================================================================================
+
+QUOTE_COUNT_MISMATCH: 137件
+  Line 444964: 引用符の数が不一致: ソース=4, ターゲット=2
+    SRC: 1 string data = ""Oh! Hey, before we get to business, I just want to thank you for all you've done f
+    TGT: 1 string data = "「おっと! ねえ、商売の話をする前に、あんたたちがやってくれたこと全てに感謝したいんだ。マジでトリプルA、大予算、高品質の仕事をモンスター・アーミーのためにやってくれ
+  Line 444966: 引用符の数が不一致: ソース=6, ターゲット=2
+    SRC: 1 string data = ""Name's She-Monster, folks call me She. 'She sells shotgun shells. Buy the C-4,' th
+    TGT: 1 string data = "「名前はシー・モンスター、みんな俺のことをシーって呼ぶ。『彼女はショットガンの弾を売る。C-4を買え』、そう言われてんだ!」 ::laughs:: 「俺が持ってるもの
+  Line 444968: 引用符の数が不一致: ソース=4, ターゲット=2
+    SRC: 1 string data = ""Any new word out there?""
+    TGT: 1 string data = "「何か新しい情報はあるか?」"
+  Line 444970: 引用符の数が不一致: ソース=4, ターゲット=2
+    SRC: 1 string data = "She scratches her chin, "Same old movie, different flavor of popcorn. Don't dye you
+    TGT: 1 string data = "シーは顎を掻いて、「同じ古い映画、違う味のポップコーンさ。金髪に髪を染めるな。第二幕までに死んじまう。何か取引するもんはあるか?」"
+  Line 444972: 引用符の数が不一致: ソース=4, ターゲット=2
+    SRC: 1 string data = "She looks to her friends. They all look down quickly and avoid eye contact.\n\n\n"I
+    TGT: 1 string data = "シーは仲間たちに目をやる。全員がすぐに目を伏せ、視線を避ける。\n\n\n「正直に言うと、俺たちは普段は古いVHSテープを観て、その後くだらない話をしてるだけさ。バカ
+  Line 444974: 引用符の数が不一致: ソース=6, ターゲット=2
+    SRC: 1 string data = "She smiles, "Syzygy! Really great new word." \r\n\r\nShe and her friends laugh and 
+    TGT: 1 string data = "シーは微笑み、「サイジジー! 本当に素晴らしい新しい単語だ」 \r\n\r\n彼女と仲間たちは笑ってくすくす笑う。二人がハイファイブする。\r\n\r\n「あんたがず
+  Line 444976: 引用符の数が不一致: ソース=4, ターゲット=2
+    SRC: 1 string data = ""Let's see what you've got.""
+    TGT: 1 string data = "「何があるか見せてくれ」"
+  Line 444978: 引用符の数が不一致: ソース=4, ターゲット=2
+    SRC: 1 string data = "She smiles and walks you over to her rig, "I think you might be interested in some 
+    TGT: 1 string data = "シーは微笑み、車まで案内しながら、「この中にいくつか興味を持ちそうなものがあると思うんだ...」"
+  Line 444984: 引用符の数が不一致: ソース=4, ターゲット=2
+    SRC: 1 string data = "She lets out a bit of a shriek, "Aaaaa! Rangers! What in the... stop! Fine, just do
+    TGT: 1 string data = "彼女は悲鳴を上げる、「あああ! レンジャー! 何なんだよ... やめろ! わかった、誰も傷つけないでくれ! 欲しいもんを持って行って、俺たちを放っておいてくれ」\n\
+  Line 444990: 引用符の数が不一致: ソース=4, ターゲット=2
+    SRC: 1 string data = ""We're good on supplies. Maybe later.""
+    TGT: 1 string data = "「物資は足りてる。また今度な」"
+  Line 444992: 引用符の数が不一致: ソース=4, ターゲット=2
+    SRC: 1 string data = "She shrugs, "Fair enough. Remember, if the lights go out in your house, they're alr
+    TGT: 1 string data = "シーは肩をすくめ、「まあいいさ。覚えとけ、家の明かりが消えたら、もう中に入ってるってことだ。お決まりの展開さ。壁に背を向けるな、レンジャー。壁に背を向けるなよ」"
+  Line 444994: 引用符の数が不一致: ソース=4, ターゲット=2
+    SRC: 1 string data = "She-Monster and gang are once again camped out, swapping stories of monster movies 
+    TGT: 1 string data = "シー・モンスターと仲間たちは再びキャンプを張り、別の結末のモンスター映画の話を交わしている。お前たちが近づくと止まる。\n\n\n「ああ、レンジャー! 興味を持ちそう
+  Line 444996: 引用符の数が不一致: ソース=4, ターゲット=2
+    SRC: 1 string data = "As you pack up your rig, She's van door slams closed and you hear She yell, "alrigh
+    TGT: 1 string data = "装備を片付けると、シーのバンのドアが勢いよく閉まり、シーが叫ぶ声が聞こえる、「よし、バンの中でセックスしたのは誰だ? お決まりのセックス展開だ! ほら! 俺たちはもう
+  Line 445000: 引用符の数が不一致: ソース=4, ターゲット=2
+    SRC: 1 string data = ""Keep drivin', Rangers. You ain't no friend to the Monster Army, so I don't want yo
+    TGT: 1 string data = "「走り続けろ、レンジャー。お前らはモンスター・アーミーの友達じゃねえ、だから商売したくねえ」"
+  Line 445002: 引用符の数が不一致: ソース=4, ターゲット=2
+    SRC: 1 string data = ""Hey, it's the Rangers! I'm She-Monster, from the Monster Army. Love how you guys b
+    TGT: 1 string data = "「おや、レンジャーじゃないか! 俺はシー・モンスター、モンスター・アーミーのメンバーさ。あんたらが俺たちを助けてくれてるのが嬉しいよ。取引したいか?」"
+  Line 445004: 引用符の数が不一致: ソース=4, ターゲット=2
+    SRC: 1 string data = ""Actually, hang on. You been so good to us Monsters I'mma give you a pressie first,
+    TGT: 1 string data = "「実は、ちょっと待て。あんたたちは俺たちモンスターにすごく良くしてくれてるから、まずプレゼントをやるよ、立ち寄ってくれただけで。ほら」\n\n\n彼女は振り返り、何か
+  Line 445006: 引用符の数が不一致: ソース=4, ターゲット=2
+    SRC: 1 string data = ""Hey, lambs, wanna trade? My name's She-Monster.""
+    TGT: 1 string data = "「よう、子羊ちゃん、取引したいか? 俺の名前はシー・モンスターだ」"
+  Line 445010: 引用符の数が不一致: ソース=4, ターゲット=2
+    SRC: 1 string data = ""Yeah. Let's trade.""
+    TGT: 1 string data = "「ああ。取引しよう」"
+  Line 445012: 引用符の数が不一致: ソース=4, ターゲット=2
+    SRC: 1 string data = ""Lemme open up the store.""
+    TGT: 1 string data = "「店を開けるぜ」"
+  Line 445014: 引用符の数が不一致: ソース=4, ターゲット=2
+    SRC: 1 string data = ""You guys are such badasses. There is no cooler crew in Colorado than the Monster A
+    TGT: 1 string data = "「お前ら本当にかっこいいな。コロラドにモンスター・アーミーより格好いいクルーはいないぜ」"
+  ... 他117件
+================================================================================

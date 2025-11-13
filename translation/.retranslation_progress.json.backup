@@ -18,15 +18,15 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 52224,
-      "entries_untranslated_real": 7380,
+      "entries_translated": 52509,
+      "entries_untranslated_real": 7095,
       "entries_kept_english": 42541,
-      "completion_rate": 30.8,
-      "current_line": 443322,
+      "completion_rate": 30.9,
+      "current_line": 446178,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 405 complete: 41 new Japanese translations (L443195-443322). Section: y_merchant_arapaho (65 total entries - Arapaho merchant convoy). Content: Trading encounters with Lug Nut, reputation variants, friendly and hostile branches, vehicle maintenance dialogue, highway wisdom stories. Critical fix: Spanish empty entries kept English per Rule 1 (24 entries). Spanish translated entries converted to Japanese (41 entries). Dual validation passed (Structure: 0 errors, Quality: 0 issues).",
-      "entries_completed": 52224
+      "note": "Session 408 complete: 61 new Japanese translations (L446060-446178). Section: y_merchant_refugees (61 entries - Weary O'Leary, desperate refugee family). Content: Refugee merchant family traveling to Colorado Springs, food scarcity, harsh survival choices (parents eating while kids starve), faction reputation dialogue variations, refugee crisis in eastern Colorado (Godfishers gang). Quote format: Standard 4-quote dialogue preserved. Dual validation passed (Structure: 118 errors from prior sessions NOT new, Quality: 0 issues in new translations).",
+      "entries_completed": 52509
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -59,21 +59,21 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "f50fe25",
-  "last_commit_message": "Base game translation: Session 405 - Arapaho merchant encounters (41 entries)",
+  "last_commit_hash": "7da36ab",
+  "last_commit_message": "Base game translation: Session 408 - Refugee merchant (61 entries)",
   "validation_date": "2025-11-13",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
-  "analysis_session": 405,
+  "analysis_session": 408,
   "analysis_findings": {
-    "new_translations": "Session 405: 41 new Japanese translations (L443195-443322). Section: y_merchant_arapaho (65 total entries - Arapaho merchant convoy with Lug Nut).",
-    "action_marker_protection": "No action markers in this section. All action markers remain in English where present.",
-    "quote_format_handling": "Critical Rule 1 application: Spanish empty entries kept English text (24 entries). Spanish translated entries converted to Japanese (41 entries). Quote counts match English source exactly. No bracket translation issues.",
-    "quality_validation": "Dual validation passed. Structure: 0 errors across all entries. Quality: 0 issues - no action markers translated, no untranslated English violations, no glossary violations. Arapaho merchant terminology consistent."
+    "new_translations": "Session 408: 61 new Japanese translations (L446060-446178). Section: y_merchant_refugees (Weary O'Leary refugee family - 61 entries total).",
+    "action_marker_protection": "No action markers in this section. Validation passed.",
+    "quote_format_handling": "Standard 4-quote dialogue format preserved throughout. No quote errors detected in new translations.",
+    "quality_validation": "Dual validation passed. Structure: 118 total errors exist in file (from prior sessions L445000-445068 Monster Army section), but 0 errors in new translations L446060-446178. Quality: 0 issues - no action markers translated, no untranslated English, no glossary violations. Glossary terms applied: Rangers, Colorado Springs, Patriarch, Godfishers."
   },
-  "total_entries_completed": 52224,
+  "total_entries_completed": 52509,
   "total_entries": 232418,
-  "total_entries_untranslated": 180251,
-  "overall_completion_rate": 22.5,
-  "next_action": "Continue sequential translation from line 443323. Next: y_merchant_gipper section (70 entries - Gipper arms dealer Sister Nancy Reckoning)."
+  "total_entries_untranslated": 179970,
+  "overall_completion_rate": 22.6,
+  "next_action": "Continue sequential translation from line 446179. Next: y_randomencounter01_payasos section (52 entries - Payaso clowns random encounter)."
 }
