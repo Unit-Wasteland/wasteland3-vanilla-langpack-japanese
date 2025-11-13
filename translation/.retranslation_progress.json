@@ -9,13 +9,13 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 512946,
+    "current_line": 515662,
     "total_lines": 530425,
-    "entries_completed": 63426,
+    "entries_completed": 63826,
     "total_entries": 169712,
-    "percent_complete": 37.37,
-    "last_section": "skills",
-    "last_entry_index": 98,
+    "percent_complete": 37.60,
+    "last_section": "statuseffects",
+    "last_entry_index": 427,
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
@@ -34,22 +34,22 @@
     "percent_complete": 0.0
   },
   "last_session": {
-    "session_number": 451,
+    "session_number": 452,
     "date": "2025-11-14",
-    "entries_processed": 99,
+    "entries_processed": 400,
     "sections_completed": [
-      "skills entries [0]-[98]"
+      "statuseffects entries [31]-[427]"
     ],
-    "commit_hash": "3146425",
+    "commit_hash": "2559a4c",
     "validation_passed": true,
-    "notes": "Translated game skills section including skill names and descriptions. Preserved multi-line escape sequences correctly. All validations passed.",
-    "next_action": "Continue statuseffects section from line 512947"
+    "notes": "Translated statuseffects section including status names, descriptions, combat effects, mutations, leadership and combo system entries. Maintained quote format strictly.",
+    "next_action": "Continue statuseffects section from line 515663"
   },
   "cumulative_stats": {
-    "total_sessions": 451,
-    "total_entries_translated": 63426,
+    "total_sessions": 452,
+    "total_entries_translated": 63826,
     "average_entries_per_session": 141,
-    "estimated_sessions_remaining_base": 754,
+    "estimated_sessions_remaining_base": 748,
     "estimated_days_remaining_base": "75-94 days"
   }
 }
