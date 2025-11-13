@@ -18,15 +18,15 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 51704,
-      "entries_untranslated_real": 7843,
+      "entries_translated": 51718,
+      "entries_untranslated_real": 7829,
       "entries_kept_english": 42439,
       "completion_rate": 30.5,
-      "current_line": 438397,
+      "current_line": 438697,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 397 complete: 55 new Japanese translations (L437904-438396). Two Hard-Heads sections: y_combat19_hardheadsattack (35 entries - ambush scenarios), y_combat20_hardheadsspotted (20 entries - spotted scenarios). Content: Hard-Heads faction encounters with Fish-Lips companion. Includes: ambush traps (campfire, road spike, white flag, gas station), Fish-Lips leadership dynamics, escape mechanics, moral choices (stopping cannibals vs survival), combat vs diplomacy options. Technical: Quote format matched exactly (single quotes for embedded dialogue), HTML <i> tags preserved, newline sequences preserved, bracket markers kept, Script Node not translated. Dual validation passed (Structure: 0 errors across 169,712 entries, Quality: 0 issues).",
-      "entries_completed": 51704
+      "note": "Session 398 complete: 14 new Japanese translations (L438666-438692). Section: y_combat22_breathersattack. Breathers faction encounter dialogue with drug-laced fog scenarios. Content: Ambush encounters, escape mechanics, hallucinogenic effects, combat vs stealth options. Technical: Quote format strictly matched (2 quotes standard, 6 quotes for embedded dialogue). Dual validation passed (Structure: 0 errors across 169,712 entries, Quality: 0 issues).",
+      "entries_completed": 51718
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -59,21 +59,21 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "ef41a1f",
-  "last_commit_message": "Base game translation: Session 397 - Hard-Heads encounter sections (55 entries)",
+  "last_commit_hash": "064becd",
+  "last_commit_message": "Base game translation: Session 398 - Breathers attack section (14 entries)",
   "validation_date": "2025-11-13",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
-  "analysis_session": 397,
+  "analysis_session": 398,
   "analysis_findings": {
-    "new_translations": "Session 397: 55 new Japanese translations (L437904-438396). Two Hard-Heads sections: y_combat19_hardheadsattack (35 entries), y_combat20_hardheadsspotted (20 entries). Hard-Heads faction encounters with Fish-Lips companion interactions.",
+    "new_translations": "Session 398: 14 new Japanese translations (L438666-438692). Section: y_combat22_breathersattack. Breathers faction encounters featuring drug-laced fog ambush scenarios.",
     "action_marker_protection": "No action markers in this translation range. Verified with grep check.",
-    "quote_format_handling": "Fixed Japanese bracket usage: Replaced Japanese brackets (single quote and double quote markers) with English quotes to match source exactly. Single quotes (') used for embedded dialogue (e.g. L438024, L438298, L438302, L438316). All quotes counted and matched exactly to English source.",
+    "quote_format_handling": "Quote format strictly matched to English source. Standard entries: 2 quotes. Embedded dialogue (L438688): 6 quotes. All quotes counted and matched character-for-character.",
     "quality_validation": "Dual validation passed. Structure: 0 errors across 169,712 entries. Quality: 0 issues - no action markers translated, no untranslated English, no bracket translation, no glossary violations."
   },
-  "total_entries_completed": 51704,
+  "total_entries_completed": 51718,
   "total_entries": 232418,
-  "total_entries_untranslated": 180714,
-  "overall_completion_rate": 22.2,
-  "next_action": "Continue sequential translation from line 438397. Next: y_combat22_breathersattack section. Breathers encounter dialogue."
+  "total_entries_untranslated": 180700,
+  "overall_completion_rate": 22.3,
+  "next_action": "Continue sequential translation from line 438697. Next: y_combat23_breathersspotted section. Breathers spotted encounter dialogue."
 }
