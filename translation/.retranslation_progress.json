@@ -18,15 +18,15 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 53002,
-      "entries_untranslated_real": 6602,
+      "entries_translated": 53048,
+      "entries_untranslated_real": 6556,
       "entries_kept_english": 42541,
       "completion_rate": 31.2,
-      "current_line": 449478,
+      "current_line": 449983,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 412B complete: 24 entries total (L449197-449478). Sections: y_reusable_fire01 complete (13 entries), y_reusable_fire02 partial (11 entries). Content: Vehicle ambushes, Kodiak repair encounters with Arapaho mechanics. Action marker: ::laughs:: preserved correctly. Quote format: 2-quote and 4-quote formats preserved correctly. Dual validation passed (Structure: 0 errors, Quality: 0 issues).",
-      "entries_completed": 53002
+      "note": "Session 413 complete: 46 entries total (L449480-449983). Sections: y_reusable_fire02 complete (15 entries), y_reusable_general08 complete (23 entries), y_reusable_location05 complete (16 entries), y_reusable_scorpitron01 complete (28 entries). Content: Vehicle encounters, Pappy prospector dialogue, Holy Detonation graffiti, Scorpitron ambush scenarios. Quote format preserved correctly. Dual validation passed (Structure: 0 errors, Quality: 0 issues).",
+      "entries_completed": 53048
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -59,21 +59,21 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "62dcd98",
-  "last_commit_message": "Base game translation: Session 412 - Reusable encounters fire01 and fire02 partial (18 entries)",
+  "last_commit_hash": "b8a76d5",
+  "last_commit_message": "Base game translation: Session 413 - Reusable encounters continuation (46 entries)",
   "validation_date": "2025-11-13",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
-  "analysis_session": 412,
+  "analysis_session": 413,
   "analysis_findings": {
-    "new_translations": "Session 412: 24 entries total (L449197-449478). Sections: y_reusable_fire01 complete (13 entries), y_reusable_fire02 partial (11 entries).",
-    "action_marker_protection": "Action marker ::laughs:: preserved correctly. Validation passed.",
-    "quote_format_handling": "2-quote format for simple text, 4-quote format for dialogue preserved correctly.",
+    "new_translations": "Session 413: 46 entries total (L449480-449983). Sections: y_reusable_fire02 complete (15 entries), y_reusable_general08 complete (23 entries), y_reusable_location05 complete (16 entries), y_reusable_scorpitron01 complete (28 entries).",
+    "action_marker_protection": "No action markers in this section. Validation passed.",
+    "quote_format_handling": "2-quote and 4-quote formats preserved correctly throughout all entries.",
     "quality_validation": "Dual validation passed. Structure: 0 errors. Quality: 0 issues."
   },
-  "total_entries_completed": 53002,
+  "total_entries_completed": 53048,
   "total_entries": 232418,
-  "total_entries_untranslated": 179416,
+  "total_entries_untranslated": 179370,
   "overall_completion_rate": 22.8,
-  "next_action": "Continue sequential translation from line 449480. Next: y_reusable_fire02 continuation (17 entries remaining - Arapaho caravan departure and Kodiak breakdown scenarios)."
+  "next_action": "Continue sequential translation from line 449985. Next: y_reusable_shelter_abandonedhut section (99 entries - abandoned hut shelter encounters)."
 }
