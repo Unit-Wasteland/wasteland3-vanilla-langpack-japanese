@@ -18,15 +18,15 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 50356,
-      "entries_untranslated_real": 9191,
+      "entries_translated": 50516,
+      "entries_untranslated_real": 9031,
       "entries_kept_english": 42425,
-      "completion_rate": 29.7,
-      "current_line": 426461,
+      "completion_rate": 29.8,
+      "current_line": 427195,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 383 complete (partial): 89 new Japanese translations (L425480-426460). Three sections complete: x3801_bbq_darryl_00 (33 entries), x3801_bbq_darryl_01 (31 entries), x3801_bbq_minibossintro [0]-[24] (25 entries partial). Content: Darryl brothers ranch dialogue refusing Boss Giff jamboree return due to brother Larry death and family loyalty promise, plus early Boss Giff BBQ encounter development placeholders. Technical: Script Node 22 30 34 preserved, quote format exact match 2-quote and 4-quote patterns maintained, [Attack] tags preserved, character names Darryl Larry Giff Earline Alfredo consistent, El Guapo mechanical bull introduced. Dual validation passed (Structure: 0 errors across all 169,712 entries, Quality: 0 issues in translated ranges). Session incomplete - minibossintro section has 139 more entries remaining (total 164 entries).",
-      "entries_completed": 50356
+      "note": "Session 384 complete: 160 new Japanese translations (L426461-427194). Five sections complete: x3801_bbq_minibossintro [25]-[163] (124 entries - Boss Giff cannibal jamboree main dialogue, deserter hunt quest, El Guapo mechanical bull encounter), x3801_entranceambush (13 entries - BBQ entrance guard dialogue), x3801_radio_cannibaljamboree (3 entries - distress call about cannibals), x3901_gasmaskkids (7 entries - mysterious masked children encounter), x4101_dorseypatrolbarks (13 entries - Dorsey patrol cold weather dialogue). Content: Complete Boss Giff BBQ encounter with five missing persons quest (Alfredo Garcia Earline Darryl brothers Larry), El Guapo bull ride challenge reward pitmaster suit, Fishlips companion moral conflict over baby-eating, entrance guard cannibal dialogue, radio distress broadcast, gas mask children investigation, Dorsey guard patrol banter. Technical: ::country western music:: action markers preserved in English, Script Node 13 132 139 185-187 kept in English, [Attack] [Leave area] [Reward: Dropset:] tags preserved, quote format exact match maintained, character names Rollan Giff Alfredo Earline Darryl Larry consistent per glossary, location Colorado Springs preserved. Dual validation passed (Structure: 0 errors across all 169,712 entries, Quality: 0 issues - 0 action markers translated, 0 untranslated English, 0 bracket content translated, 0 glossary violations).",
+      "entries_completed": 50516
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -64,16 +64,16 @@
   "validation_date": "2025-11-13",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
-  "analysis_session": 383,
+  "analysis_session": 384,
   "analysis_findings": {
-    "new_translations": "Session 383: 89 new Japanese translations (L425480-426460). Three sections: x3801_bbq_darryl_00 (33 entries - Darryl brother ranch dialogue), x3801_bbq_darryl_01 (31 entries - second Darryl brother dialogue), x3801_bbq_minibossintro [0]-[24] (25 entries partial - Boss Giff BBQ encounter development placeholders).",
-    "action_marker_protection": "No action markers in translated sections. Quality validation confirmed 0 action markers contain Japanese characters.",
-    "quote_format_handling": "Exact quote count match strictly maintained across all 89 entries. 2-quote pattern for player dialogue options, 4-quote pattern for NPC responses. Script Node markers 22, 30, 34 kept in English. [Attack] tags preserved.",
+    "new_translations": "Session 384: 160 new Japanese translations (L426461-427194). Five sections complete: x3801_bbq_minibossintro [25]-[163] (124 entries), x3801_entranceambush (13 entries), x3801_radio_cannibaljamboree (3 entries), x3901_gasmaskkids (7 entries), x4101_dorseypatrolbarks (13 entries). Boss Giff cannibal BBQ complete with deserter quest, El Guapo bull ride, entrance guards, radio distress, masked children, Dorsey patrols.",
+    "action_marker_protection": "::country western music:: action markers preserved in English (2 instances in x3801_radio_cannibaljamboree). Quality validation confirmed 0 action markers contain Japanese characters.",
+    "quote_format_handling": "Exact quote count match strictly maintained across all 160 entries. 2-quote pattern for empty entries, 4-quote pattern for dialogue text. Script Node 13 132 139 185-187 kept in English. [Attack] [Leave area] [Reward: Dropset:] tags preserved. Technical markers ::country western music:: kept in English.",
     "quality_validation": "Dual validation passed with zero errors. Structure: 0 errors - all 169,712 entries maintain exact quote count match with English source. Quality: 0 issues in translated ranges - 0 action markers translated, 0 untranslated English, 0 bracket content translated, 0 glossary violations."
   },
-  "total_entries_completed": 50356,
+  "total_entries_completed": 50516,
   "total_entries": 232418,
-  "total_entries_untranslated": 173111,
+  "total_entries_untranslated": 172951,
   "overall_completion_rate": 21.7,
-  "next_action": "Continue sequential translation from line 426461. Next: Complete x3801_bbq_minibossintro section (139 entries remaining [25]-[163]). Process Boss Giff main encounter dialogue with strict validation."
+  "next_action": "Continue sequential translation from line 427195. Next: x4101_neliusdorsey section (87 entries). Process Nelius Dorsey encounter dialogue with strict validation."
 }
