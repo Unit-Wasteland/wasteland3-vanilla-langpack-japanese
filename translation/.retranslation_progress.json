@@ -18,15 +18,15 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 48915,
-      "entries_untranslated_real": 10474,
+      "entries_translated": 48998,
+      "entries_untranslated_real": 10391,
       "entries_kept_english": 42282,
-      "completion_rate": 28.8,
-      "current_line": 415692,
+      "completion_rate": 28.9,
+      "current_line": 416250,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 370: 100 new Japanese translations (L415470-415692). wl3_cyoa_promo section complete: Dusty and Marie story branches (Diamond Back Militia conflict, Captain Lewis confrontations, Perdido rescue, Desert Rangers recruitment decision, final convergence with Li-Tsing and William). Multiple branching paths completed: attack/escape choices, Lewis fate decisions (spare/kill), Perdido decisions (Rangers/Ag Center). Character names: Dusty, Marie, Perdido, Lewis, Li-Tsing, William kept romanized. Quote format: All entries maintain exact quote counts with English source. Zero action markers. Glossary compliance: Rangers, Desert Rangers, Canyon of Titan, Ag Center, DBM, Ranger Citadel translated. Dual validation passed (Structure: 0 errors, Quality: 0 issues L415470-415692). Spanish reference all empty, all entries translated per unified decision logic. Section ends with THE END marker at L415692.",
-      "entries_completed": 48915
+      "note": "Session 371: 83 new Japanese translations (L416086-416250). x1201_betsy section complete: Betsy and companions confronting Wind-that-Tangles (revenge for Godfisher deaths). Multiple dialogue branches covering moral choices: spare/kill Wind-that-Tangles, protect him vs allow vengeance, revelations about prior knowledge of deaths, Marshal bribes to Sheriff Daisy. Character names: Betsy, Wind-that-Tangles, Nikki, Margaret kept romanized. Quote format: All entries maintain exact quote count match with English source (4-quote format strictly enforced). Zero action markers in section. Glossary compliance: Rangers (レンジャー), Desert Rangers (デザート・レンジャー), Godfisher (ゴッドフィッシャー), Marshal (マーシャル), Sheriff Daisy (保安官Daisy) translated per glossary. Dual validation passed (Structure: 0 errors, Quality: 0 issues L416086-416250). Spanish reference all empty, all entries translated per unified decision logic.",
+      "entries_completed": 48998
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -59,21 +59,21 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "4554ef0",
-  "last_commit_message": "Base game translation: Session 369 - wl3_cyoa_promo origin story (Li-Tsing, William, 49 entries)",
+  "last_commit_hash": "pending",
+  "last_commit_message": "Base game translation: Session 371 - x1201_betsy complete (Betsy revenge quest, 83 entries)",
   "validation_date": "2025-11-13",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
-  "analysis_session": 370,
+  "analysis_session": 371,
   "analysis_findings": {
-    "new_translations": "Session 370: 100 new Japanese translations (L415470-415692). wl3_cyoa_promo section complete: Dusty and Marie story branches (Diamond Back Militia conflict with Captain Lewis, Perdido rescue operations, Desert Rangers recruitment decision). Covers: multiple branching narrative paths, moral choice consequences (spare/kill Lewis), companion fate decisions (Perdido to Rangers vs Ag Center), final convergence with Li-Tsing and William. Section ends with THE END marker.",
-    "action_marker_protection": "No action markers present in this section. Quality validation confirmed 0 action markers contain Japanese characters in translated range L415470-415692.",
-    "quote_format_handling": "Quote format maintained strictly. All 100 entries maintain exact quote count match with English source. Character dialogue quotes preserved as double-quote characters. Escape sequences maintained throughout. Character names: Dusty, Marie, Perdido, Lewis, Li-Tsing, William kept romanized. Location names: Canyon of Titan, Ag Center, Ranger Citadel romanized. Rangers, Desert Rangers, DBM, Diamond Back Militia translated to Japanese.",
-    "quality_validation": "Dual validation passed. Structure: 0 errors - all 169,712 entries maintain exact quote count match with English source. Quality: 0 issues L415470-415692 - 0 action markers contain Japanese characters, 0 untranslated English entries in translated range, 0 bracket content translated to Japanese, 0 glossary terminology violations. Spanish reference entries all empty, unified decision logic applied (default to translate). Zero warnings."
+    "new_translations": "Session 371: 83 new Japanese translations (L416086-416250). x1201_betsy section complete: Betsy and companions confronting Wind-that-Tangles for Godfisher revenge. Multiple dialogue branches: moral choices (spare/kill Wind-that-Tangles), protect vs allow vengeance, revelations about prior knowledge of deaths, Marshal corruption exposing Sheriff Daisy secrecy.",
+    "action_marker_protection": "No action markers present in this section. Quality validation confirmed 0 action markers contain Japanese characters in translated range L416086-416250.",
+    "quote_format_handling": "Quote format maintained strictly. All 83 entries maintain exact quote count match with English source (4-quote format). Character dialogue quotes preserved. Escape sequences maintained. Character names: Betsy, Wind-that-Tangles, Nikki, Margaret kept romanized. Rangers (レンジャー), Desert Rangers (デザート・レンジャー), Godfisher (ゴッドフィッシャー), Marshal (マーシャル), Sheriff Daisy (保安官Daisy) translated per glossary.",
+    "quality_validation": "Dual validation passed. Structure: 0 errors - all 169,712 entries maintain exact quote count match with English source. Quality: 0 issues L416086-416250 - 0 action markers contain Japanese characters, 0 untranslated English entries in translated range, 0 bracket content translated to Japanese, 0 glossary terminology violations. Spanish reference all empty, unified decision logic applied (default to translate). Zero warnings."
   },
-  "total_entries_completed": 58024,
+  "total_entries_completed": 58107,
   "total_entries": 232418,
-  "total_entries_untranslated": 174394,
+  "total_entries_untranslated": 174311,
   "overall_completion_rate": 25.0,
-  "next_action": "Continue sequential translation from line 415692. Next section: x3101_toasteraltar (new section starting at L415694). Process next translatable entries sequentially. Focus on preserving all structural markers and maintaining strict validation standards."
+  "next_action": "Continue sequential translation from line 416250. Next section: x1201_companionreaction (new section starting at L416253). Process next translatable entries sequentially. Focus on preserving all structural markers and maintaining strict validation standards."
 }
