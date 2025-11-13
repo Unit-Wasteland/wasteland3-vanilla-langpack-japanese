@@ -18,15 +18,15 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 51090,
-      "entries_untranslated_real": 8457,
+      "entries_translated": 51175,
+      "entries_untranslated_real": 8372,
       "entries_kept_english": 42439,
-      "completion_rate": 30.1,
-      "current_line": 431497,
+      "completion_rate": 30.2,
+      "current_line": 432181,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 388 complete: 177 new Japanese translations (L430375-431497). Five sections complete: y210_hostile_hills_dorseys_mountains (21 entries - Dorseys patrols in Hills/Mountains with stealth options), y211_hostile_hills_monsterarmy (12 entries - Monster Army mannequin trap with bomb mechanics), y212_hostile_hills_payasos (53 entries - Payasos camp with joke distraction gameplay), y212_hostile_hills_payasos_plains (21 entries - Payasos patrols with Y.M.C.A. dance), y213_hostile_hills_payasos (70 entries - Complex Payasos ambush scenarios with fuel dump, terrain escapes, riddles). Content: Random encounters for Hills/Plains/Mountains featuring Dorseys and Payasos factions, Monster Army trap, humor-based gameplay with jokes and riddles, circus-themed combat. Technical: All entries maintain strict 4-quote format. Multi-line dialogue with newline separators correct. Glossary terms applied: Dorseys, Monster Army, Payasos, Kodiak, Bizarre, Rangers. Dual validation passed (Structure: 0 errors across 169,712 entries, Quality: 0 issues L430471-431496 - 0 action markers, 0 untranslated, 0 bracket translation, 0 glossary violations).",
-      "entries_completed": 51090
+      "note": "Session 389 complete: 85 new Japanese translations (L431497-432180). Three sections: y213_hostile_hills_payasos_plains (19 entries - Payasos random encounters in Plains with circus ambush scenarios, escape mechanics), y214_hostile_hills_refugees (21 entries - Refugee funeral encounter with moral choices on respect, speaking, grave robbery), y301_assistance_hills_scarcollectors (45 entries - Scar Collectors encounters with stealth, avoidance, combat options). Content: Random encounters Hills/Plains for Payasos faction and Scar Collectors (slave-taker gangs), refugee funeral with moral gameplay. Technical: All entries maintain strict quote format matching source exactly (2-quote format, internal quotes preserved in L431616, L431730). [Small Chance to Escape] [Attack] tags preserved. HTML i tags preserved. Multi-line dialogue with newline separators correct. Glossary terms: Payasos, Kodiak, Ranger, Scar Collector. Dual validation passed (Structure: 0 errors across 169,712 entries, Quality: 0 issues - 0 action markers, 0 untranslated, 0 bracket translation, 0 glossary violations).",
+      "entries_completed": 51175
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -59,21 +59,21 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "d46d926",
-  "last_commit_message": "Base game translation: Session 388 - Random encounters Hills region Payasos encounters (177 entries)",
+  "last_commit_hash": "3c01388",
+  "last_commit_message": "Base game translation: Session 389 - Random encounters Hills/Plains Payasos and Scar Collectors (85 entries)",
   "validation_date": "2025-11-13",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
-  "analysis_session": 388,
+  "analysis_session": 389,
   "analysis_findings": {
-    "new_translations": "Session 388: 177 new Japanese translations (L430375-431497). Five sections: y210_hostile_hills_dorseys_mountains (21 entries), y211_hostile_hills_monsterarmy (12 entries), y212_hostile_hills_payasos (53 entries), y212_hostile_hills_payasos_plains (21 entries), y213_hostile_hills_payasos (70 entries). Random encounters for Hills/Plains/Mountains featuring Dorseys, Monster Army, and Payasos factions with humor-based gameplay mechanics.",
+    "new_translations": "Session 389: 85 new Japanese translations (L431497-432180). Three sections: y213_hostile_hills_payasos_plains (19 entries - Payasos Plains encounters with circus ambush, escape options), y214_hostile_hills_refugees (21 entries - Refugee funeral with moral choices), y301_assistance_hills_scarcollectors (45 entries - Scar Collectors stealth encounters with combat, avoidance options). Random encounters Hills/Plains for Payasos and Scar Collectors factions, refugee funeral with moral gameplay.",
     "action_marker_protection": "No action markers in this translation range. Quality validation confirmed 0 action markers contain Japanese characters.",
-    "quote_format_handling": "All entries maintain strict 4-quote format matching English source. Multi-line dialogue with newline separators handled correctly. [Attack] [Small Chance to Escape] tags preserved. Complex dialogue structures with embedded speech preserved accurately.",
-    "quality_validation": "Dual validation passed with zero errors. Structure: 0 errors - all 169,712 entries maintain exact quote count match. Quality: 0 issues L430471-431496 - 0 action markers translated, 0 untranslated English, 0 bracket content translated, 0 glossary violations. Glossary terms correctly applied for all faction names and locations."
+    "quote_format_handling": "All entries maintain strict quote format matching English source exactly. 2-quote format standard. Internal quotes preserved correctly in L431616 (6 quotes), L431730 (4 quotes). [Small Chance to Escape] and [Attack] tags preserved. HTML i tags preserved. Multi-line dialogue with newline separators handled correctly.",
+    "quality_validation": "Dual validation passed with zero errors. Structure: 0 errors - all 169,712 entries maintain exact quote count match with source. Quality: 0 issues across all validated ranges - 0 action markers translated, 0 untranslated English, 0 bracket content translated, 0 glossary violations. Glossary terms correctly applied: Payasos, Kodiak, Ranger, Scar Collector."
   },
-  "total_entries_completed": 51090,
+  "total_entries_completed": 51175,
   "total_entries": 232418,
-  "total_entries_untranslated": 172199,
+  "total_entries_untranslated": 172114,
   "overall_completion_rate": 22.0,
-  "next_action": "Continue sequential translation from line 431497. Next: y213_hostile_hills_payasos_plains (19 entries). Random encounter dialogue for Payasos in Plains region."
+  "next_action": "Continue sequential translation from line 432181. Next: y302_breakdown_hills_godfishers (5 entries). Random encounter dialogue for God Fishers faction."
 }
