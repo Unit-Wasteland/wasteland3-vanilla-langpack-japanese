@@ -475685,53 +475685,53 @@
        [177]
         1 string data = "装備"
        [178]
-        1 string data = "Unequip"
+        1 string data = "装備解除"
        [179]
-        1 string data = "Use Item"
+        1 string data = "アイテムを使う"
        [180]
-        1 string data = "Your Turn"
+        1 string data = "あなたのターン"
        [181]
-        1 string data = "Partner's Turn"
+        1 string data = "パートナーのターン"
        [182]
-        1 string data = "{0}'s Turn"
+        1 string data = "{0}のターン"
        [183]
-        1 string data = "Perks"
+        1 string data = "パーク"
        [184]
-        1 string data = "Delete"
+        1 string data = "削除"
        [185]
-        1 string data = "Are you sure you want to load this game? You will lose any unsaved changes."
+        1 string data = "このゲームをロードしますか? 保存されていない変更は失われます。"
        [186]
-        1 string data = "Sign-in change detected. Returning to main menu."
+        1 string data = "サインインの変更が検出されました。メインメニューに戻ります。"
        [187]
-        1 string data = "Please reconnect your controller."
+        1 string data = "コントローラーを再接続してください。"
        [188]
-        1 string data = "Guest profiles cannot save progress. You need to be signed in to a profile to continue."
+        1 string data = "ゲストプロファイルでは進行状況を保存できません。続けるにはプロファイルにサインインする必要があります。"
        [189]
-        1 string data = "None"
+        1 string data = "なし"
        [190]
-        1 string data = "Requires {0} {1}"
+        1 string data = "{0} {1}が必要"
        [191]
-        1 string data = "{0} - Requires {0} {1}"
+        1 string data = "{0} - {0} {1}が必要"
        [192]
-        1 string data = "Weapon Modification"
+        1 string data = "武器改造"
        [193]
-        1 string data = "Confirm"
+        1 string data = "決定"
        [194]
-        1 string data = "Weaponsmith"
+        1 string data = "武器工"
        [195]
-        1 string data = "Weapon Modding {0}"
+        1 string data = "武器改造 {0}"
        [196]
-        1 string data = "Available Modifications"
+        1 string data = "利用可能な改造"
        [197]
-        1 string data = "Install"
+        1 string data = "装着"
        [198]
-        1 string data = "Clip Size"
+        1 string data = "弾倉サイズ"
        [199]
-        1 string data = "Range"
+        1 string data = "射程"
        [200]
-        1 string data = "Hit Chance"
+        1 string data = "命中率"
        [201]
-        1 string data = "Critical Damage"
+        1 string data = "クリティカルダメージ"
        [202]
         1 string data = "({0})"
        [203]
@@ -475739,117 +475739,117 @@
        [204]
         1 string data = "{0}x"
        [205]
-        1 string data = "Melee"
+        1 string data = "近接"
        [206]
-        1 string data = "Downloading"
+        1 string data = "ダウンロード中"
        [207]
-        1 string data = "To return to Main Menu"
+        1 string data = "メインメニューに戻る"
        [208]
-        1 string data = "<color=#818A8E>Target:</color> {0}"
+        1 string data = "<color=#818A8E>ターゲット:</color> {0}"
        [209]
-        1 string data = "Allies and Enemies"
+        1 string data = "味方と敵"
        [210]
-        1 string data = "Allies"
+        1 string data = "味方"
        [211]
-        1 string data = "Enemies"
+        1 string data = "敵"
        [212]
-        1 string data = "No Abilities Available"
+        1 string data = "利用可能なアビリティなし"
        [213]
-        1 string data = "Ability source unknown."
+        1 string data = "アビリティの出所不明。"
        [214]
-        1 string data = "Granted by item {0}."
+        1 string data = "アイテム{0}から付与。"
        [215]
-        1 string data = "Granted by skill {0}."
+        1 string data = "スキル{0}から付与。"
        [216]
-        1 string data = "Granted by perk {0}."
+        1 string data = "パーク{0}から付与。"
        [217]
-        1 string data = "Buy"
+        1 string data = "購入"
        [218]
-        1 string data = "Sell"
+        1 string data = "売却"
        [219]
-        1 string data = "Trade Failed"
+        1 string data = "取引失敗"
        [220]
-        1 string data = "You cannot afford this item."
+        1 string data = "このアイテムを買う余裕がありません。"
        [221]
-        1 string data = "Set up an attack that will trigger on the enemy's next turn. Uses all remaining AP, gaining +5% Hit Chance per extra AP spent."
+        1 string data = "敵の次のターンで発動する攻撃を設定します。残りのAPをすべて使用し、追加で消費したAP1につき命中率が+5%増加します。"
        [222]
-        1 string data = "In Vehicle"
+        1 string data = "乗車中"
        [223]
-        1 string data = "Enter Area"
+        1 string data = "エリアに入る"
        [224]
-        1 string data = "Choose Entrance"
+        1 string data = "入口を選ぶ"
        [225]
-        1 string data = "Active Missions"
+        1 string data = "進行中のミッション"
        [226]
-        1 string data = "Location Discovered: {0}"
+        1 string data = "場所を発見: {0}"
        [227]
-        1 string data = "Usable in Combat"
+        1 string data = "戦闘で使用可能"
        [228]
-        1 string data = "Usable in Exploration"
+        1 string data = "探索で使用可能"
        [229]
-        1 string data = "Usable in Combat or Exploration"
+        1 string data = "戦闘または探索で使用可能"
        [230]
-        1 string data = "Ambushing"
+        1 string data = "待ち伏せ中"
        [231]
-        1 string data = "Executed Ambush"
+        1 string data = "待ち伏せ実行"
        [232]
-        1 string data = "{0} took {1} damage."
+        1 string data = "{0}は{1}ダメージを受けた。"
        [233]
-        1 string data = "{0} died."
+        1 string data = "{0}は死亡した。"
        [234]
-        1 string data = "{0} gained {1}."
+        1 string data = "{0}は{1}を獲得した。"
        [235]
-        1 string data = "{0} lost {1}."
+        1 string data = "{0}は{1}を失った。"
        [236]
-        1 string data = "{0} gained {1} XP."
+        1 string data = "{0}は{1} XPを獲得した。"
        [237]
         1 string data = "[{0}]: {1}"
        [238]
-        1 string data = "{0} has reached level {1}!"
+        1 string data = "{0}はレベル{1}に到達した!"
        [239]
         1 string data = "{0} XP"
        [240]
-        1 string data = "Level Up!"
+        1 string data = "レベルアップ!"
        [241]
-        1 string data = "Create Custom Character"
+        1 string data = "カスタムキャラクター作成"
        [242]
-        1 string data = "Select Ranger"
+        1 string data = "レンジャーを選択"
        [243]
-        1 string data = "{0} healed {1} CON."
+        1 string data = "{0}は{1} CONを回復した。"
        [244]
-        1 string data = "{0} used {1}."
+        1 string data = "{0}は{1}を使用した。"
        [245]
-        1 string data = "{0} is now affected by {1}."
+        1 string data = "{0}は{1}の影響を受けている。"
        [246]
-        1 string data = "{0} is no longer affected by {1}."
+        1 string data = "{0}は{1}の影響を受けなくなった。"
        [247]
-        1 string data = "Customize Ranger"
+        1 string data = "レンジャーのカスタマイズ"
        [248]
-        1 string data = "Portrait"
+        1 string data = "ポートレート"
        [249]
-        1 string data = "Customize Appearance"
+        1 string data = "外見のカスタマイズ"
        [250]
-        1 string data = "Biography"
+        1 string data = "経歴"
        [251]
-        1 string data = "Derived Stats"
+        1 string data = "派生ステータス"
        [252]
-        1 string data = "Gender"
+        1 string data = "性別"
        [253]
-        1 string data = "Age"
+        1 string data = "年齢"
        [254]
-        1 string data = "Attribute Points Remaining:"
+        1 string data = "残りの能力ポイント:"
        [255]
-        1 string data = "Skill Points:"
+        1 string data = "スキルポイント:"
        [256]
-        1 string data = "Are you sure you wish to leave character creation? You will lose all changes."
+        1 string data = "キャラクター作成を終了しますか? すべての変更が失われます。"
        [257]
-        1 string data = "Lock cameras to isometric views?"
+        1 string data = "カメラを等角投影ビューに固定しますか?"
        [258]
-        1 string data = "Reimport Custom Portraits"
+        1 string data = "カスタムポートレートを再インポート"
        [259]
-        1 string data = "Select Quirk"
+        1 string data = "クワークを選択"
        [260]
-        1 string data = "Quirk"
+        1 string data = "クワーク"
        [261]
         1 string data = "+"
        [262]
@@ -475857,823 +475857,823 @@
        [263]
         1 string data = "{2}: <color={3}>{0}{1}</color>"
        [264]
-        1 string data = "Grants the {0} ability"
+        1 string data = "{0}アビリティを付与"
        [265]
-        1 string data = "{0} turns remaining"
+        1 string data = "残り{0}ターン"
        [266]
-        1 string data = "One turn remaining"
+        1 string data = "残り1ターン"
        [267]
-        1 string data = "Read"
+        1 string data = "読む"
        [268]
-        1 string data = "Unjam"
+        1 string data = "詰まりを除く"
        [269]
-        1 string data = "Clear the jammed round from your weapon, allowing you to attack."
+        1 string data = "武器に詰まった弾丸を取り除き、攻撃できるようにします。"
        [270]
-        1 string data = "Show Log"
+        1 string data = "ログを表示"
        [271]
-        1 string data = "{0} - Requires level {1} {2}"
+        1 string data = "{0} - レベル{1} {2}が必要"
        [272]
-        1 string data = "Locked"
+        1 string data = "施錠"
        [273]
-        1 string data = "Broken"
+        1 string data = "破損"
        [274]
-        1 string data = "Unlocked"
+        1 string data = "解錠"
        [275]
-        1 string data = "Repaired"
+        1 string data = "修理済み"
        [276]
-        1 string data = "Requires Power"
+        1 string data = "電力が必要"
        [277]
-        1 string data = "Powered Up"
+        1 string data = "電力供給中"
        [278]
-        1 string data = "Powered Down"
+        1 string data = "電力停止"
        [279]
-        1 string data = "Secure"
+        1 string data = "セキュア"
        [280]
-        1 string data = "Hacked"
+        1 string data = "ハック済み"
        [281]
-        1 string data = "Combat Grid"
+        1 string data = "コンバットグリッド"
        [282]
-        1 string data = "Accessed"
+        1 string data = "アクセス済み"
        [283]
-        1 string data = "Secured"
+        1 string data = "確保済み"
        [284]
-        1 string data = "Edit"
+        1 string data = "編集"
        [285]
-        1 string data = "Create Ranger"
+        1 string data = "レンジャーを作成"
        [286]
-        1 string data = "Cannot Edit Other Player's Character"
+        1 string data = "他プレイヤーのキャラクターは編集不可"
        [287]
-        1 string data = "Create New Character"
+        1 string data = "新しいキャラクターを作成"
        [288]
-        1 string data = "Engine's busted."
+        1 string data = "エンジンが壊れている。"
        [289]
-        1 string data = "The engine starts."
+        1 string data = "エンジンが始動する。"
        [290]
-        1 string data = "The mechanism is broken."
+        1 string data = "機構が壊れている。"
        [291]
         1 string data = ""
        [292]
-        1 string data = "Fixed!"
+        1 string data = "修理完了!"
        [293]
-        1 string data = "Customize Ranger Insignia"
+        1 string data = "レンジャーエンブレムのカスタマイズ"
        [294]
-        1 string data = "Select Insignia"
+        1 string data = "エンブレムを選択"
        [295]
-        1 string data = "Select Insignia Color"
+        1 string data = "エンブレムの色を選択"
        [296]
-        1 string data = "Select Banner Color"
+        1 string data = "バナーの色を選択"
        [297]
-        1 string data = "Can't Reload - {0}"
+        1 string data = "リロード不可 - {0}"
        [298]
-        1 string data = "Not Enough AP"
+        1 string data = "APが不足"
        [299]
-        1 string data = "Out of Ammo"
+        1 string data = "弾薬切れ"
        [300]
-        1 string data = "You cannot leave the area during combat."
+        1 string data = "戦闘中はエリアを離れられません。"
        [301]
-        1 string data = "You cannot leave the area while a player is in a conversation."
+        1 string data = "プレイヤーが会話中の間はエリアを離れられません。"
        [302]
-        1 string data = "Assemble your team before rolling out."
+        1 string data = "出発前にチームを編成してください。"
        [303]
-        1 string data = "Ranger Stash"
+        1 string data = "レンジャー倉庫"
        [304]
-        1 string data = "Transfer Item"
+        1 string data = "アイテムを転送"
        [305]
-        1 string data = "Appearance Unlocked: {0}"
+        1 string data = "外見のロック解除: {0}"
        [306]
-        1 string data = "Skip Intro Movies"
+        1 string data = "イントロムービーをスキップ"
        [307]
-        1 string data = "Weapon Jammed"
+        1 string data = "武器の詰まり"
        [308]
-        1 string data = "Can't Attack Target"
+        1 string data = "ターゲットを攻撃不可"
        [309]
         1 string data = "{0} AP"
        [310]
-        1 string data = "Pick Lock"
+        1 string data = "鍵を開ける"
        [311]
-        1 string data = "Repair"
+        1 string data = "修理"
        [312]
-        1 string data = "Repair Toaster"
+        1 string data = "トースターを修理"
        [313]
-        1 string data = "Disarm Alarm"
+        1 string data = "警報を解除"
        [314]
-        1 string data = "Hack Computer"
+        1 string data = "コンピューターをハック"
        [315]
-        1 string data = "Disarm Explosive"
+        1 string data = "爆発物を解除"
        [316]
-        1 string data = "Exit to {0}"
+        1 string data = "{0}に出る"
        [317]
-        1 string data = "Characters"
+        1 string data = "キャラクター"
        [318]
-        1 string data = "Points of Interest"
+        1 string data = "関心地点"
        [319]
-        1 string data = "Client Disconnected"
+        1 string data = "クライアント切断"
        [320]
-        1 string data = "You have been disconnected from the host."
+        1 string data = "ホストから切断されました。"
        [321]
-        1 string data = "The client has been disconnected."
+        1 string data = "クライアントが切断されました。"
        [322]
-        1 string data = "Attempt to Reconnect"
+        1 string data = "再接続を試みる"
        [323]
-        1 string data = "{0} - Impossible"
+        1 string data = "{0} - 不可能"
        [324]
-        1 string data = "Requires {0}"
+        1 string data = "{0}が必要"
        [325]
-        1 string data = "No Games Found"
+        1 string data = "ゲームが見つかりません"
        [326]
-        1 string data = "Select Game"
+        1 string data = "ゲームを選択"
        [327]
-        1 string data = "New Game"
+        1 string data = "新規ゲーム"
        [328]
-        1 string data = "[PH]The Frozen Lake"
+        1 string data = "[PH]凍てついた湖"
        [329]
-        1 string data = "[PH]The Patriarch's Call"
+        1 string data = "[PH]総主教の招集"
        [330]
-        1 string data = "Edge Scrolling"
+        1 string data = "エッジスクロール"
        [331]
-        1 string data = "Edge Scroll Speed"
+        1 string data = "エッジスクロール速度"
        [332]
-        1 string data = "Follow Look Ahead"
+        1 string data = "フォローの先読み"
        [333]
-        1 string data = "Vehicle Re-Center"
+        1 string data = "ビークルの再センタリング"
        [334]
-        1 string data = "Load Multiplayer"
+        1 string data = "マルチプレイヤーをロード"
        [335]
-        1 string data = "Disable Tutorials"
+        1 string data = "チュートリアルを無効化"
        [336]
-        1 string data = "Invite Friend"
+        1 string data = "友達を招待"
        [337]
-        1 string data = "Look-At Camera"
+        1 string data = "注視カメラ"
        [338]
-        1 string data = "Formation"
+        1 string data = "フォーメーション"
        [339]
-        1 string data = "Invalid Target"
+        1 string data = "無効なターゲット"
        [340]
-        1 string data = "Out of Range"
+        1 string data = "射程外"
        [341]
-        1 string data = "Target Blocked"
+        1 string data = "ターゲットが遮蔽されている"
        [342]
-        1 string data = "Not Enough AP"
+        1 string data = "APが不足"
        [343]
-        1 string data = "Out of Ammo"
+        1 string data = "弾薬切れ"
        [344]
-        1 string data = "Weapon Jammed"
+        1 string data = "武器の詰まり"
        [345]
-        1 string data = "AoE Not Allowed"
+        1 string data = "範囲攻撃不可"
        [346]
-        1 string data = "Attack Hits Friendlies"
+        1 string data = "攻撃が味方に命中"
        [347]
-        1 string data = "Overhead Health Bars"
+        1 string data = "頭上ヘルスバー"
        [348]
-        1 string data = "Highlight Fill"
+        1 string data = "ハイライト塗りつぶし"
        [349]
-        1 string data = "Talk"
+        1 string data = "会話"
        [350]
-        1 string data = "More Actions"
+        1 string data = "その他のアクション"
        [351]
         1 string data = "[{0}: {1}]"
        [352]
-        1 string data = "No Targets In Range"
+        1 string data = "射程内にターゲットなし"
        [353]
-        1 string data = "Requires Safecracker Tool"
+        1 string data = "金庫破り道具が必要"
        [354]
-        1 string data = "Unlock Safe"
+        1 string data = "金庫を開錠"
        [355]
-        1 string data = "Running"
+        1 string data = "走行中"
        [356]
-        1 string data = "Electrified"
+        1 string data = "帯電"
        [357]
-        1 string data = "Chest Armor"
+        1 string data = "胸部アーマー"
        [358]
-        1 string data = "Utility"
+        1 string data = "ユーティリティ"
        [359]
-        1 string data = "Weapon 1"
+        1 string data = "武器1"
        [360]
-        1 string data = "Weapon 2"
+        1 string data = "武器2"
        [361]
-        1 string data = "Cybernetic Arms"
+        1 string data = "サイバネティックアーム"
        [362]
-        1 string data = "Cybernetic Legs"
+        1 string data = "サイバネティックレッグ"
        [363]
-        1 string data = "Cybernetic Chest"
+        1 string data = "サイバネティックチェスト"
        [364]
-        1 string data = "Cybernetic Head"
+        1 string data = "サイバネティックヘッド"
        [365]
-        1 string data = "Custom"
+        1 string data = "カスタム"
        [366]
-        1 string data = "Trooper"
+        1 string data = "トルーパー"
        [367]
-        1 string data = "Combat Medic"
+        1 string data = "コンバットメディック"
        [368]
-        1 string data = "Hacker"
+        1 string data = "ハッカー"
        [369]
-        1 string data = "Infiltrator"
+        1 string data = "潜入者"
        [370]
-        1 string data = "Mechanic"
+        1 string data = "整備士"
        [371]
-        1 string data = "Inventor"
+        1 string data = "発明家"
        [372]
-        1 string data = "Survivalist"
+        1 string data = "生存者"
        [373]
-        1 string data = "Sniper"
+        1 string data = "狙撃手"
        [374]
-        1 string data = "Modder"
+        1 string data = "改造屋"
        [375]
-        1 string data = "Trader"
+        1 string data = "商人"
        [376]
-        1 string data = "Commander"
+        1 string data = "コマンダー"
        [377]
-        1 string data = "Enforcer"
+        1 string data = "エンフォーサー"
        [378]
-        1 string data = "Brawler"
+        1 string data = "ブローラー"
        [379]
-        1 string data = "Explosives Expert"
+        1 string data = "爆発物のエキスパート"
        [380]
-        1 string data = "Driver"
+        1 string data = "ドライバー"
        [381]
-        1 string data = "Lawkeeper"
+        1 string data = "ローキーパー"
        [382]
-        1 string data = "Warlord"
+        1 string data = "ウォーロード"
        [383]
-        1 string data = "Gunslinger"
+        1 string data = "ガンスリンガー"
        [384]
-        1 string data = "Psychopath"
+        1 string data = "サイコパス"
        [385]
-        1 string data = "Starting Skills"
+        1 string data = "初期スキル"
        [386]
-        1 string data = "Overview"
+        1 string data = "概要"
        [387]
-        1 string data = "Appearance"
+        1 string data = "外見"
        [388]
-        1 string data = "Background"
+        1 string data = "背景"
        [389]
-        1 string data = "Portrait"
+        1 string data = "ポートレート"
        [390]
-        1 string data = "Specialization"
+        1 string data = "専門分野"
        [391]
-        1 string data = "Male"
+        1 string data = "男性"
        [392]
-        1 string data = "Female"
+        1 string data = "女性"
        [393]
-        1 string data = "Hair"
+        1 string data = "髪"
        [394]
-        1 string data = "Face"
+        1 string data = "顔"
        [395]
-        1 string data = "Beard"
+        1 string data = "ひげ"
        [396]
-        1 string data = "Jacket"
+        1 string data = "ジャケット"
        [397]
-        1 string data = "Pants"
+        1 string data = "パンツ"
        [398]
-        1 string data = "Hair Color"
+        1 string data = "髪の色"
        [399]
-        1 string data = "Skin Color"
+        1 string data = "肌の色"
        [400]
-        1 string data = "Color 1"
+        1 string data = "カラー1"
        [401]
-        1 string data = "Color 2"
+        1 string data = "カラー2"
        [402]
-        1 string data = "Physique"
+        1 string data = "体格"
        [403]
-        1 string data = "Hands"
+        1 string data = "手"
        [404]
-        1 string data = "Feet"
+        1 string data = "足"
        [405]
-        1 string data = "Effects"
+        1 string data = "エフェクト"
        [406]
-        1 string data = "Ancestry"
+        1 string data = "民族"
        [407]
-        1 string data = "Religion"
+        1 string data = "宗教"
        [408]
-        1 string data = "Vice"
+        1 string data = "悪癖"
        [409]
-        1 string data = "American"
+        1 string data = "アメリカ人"
        [410]
-        1 string data = "African"
+        1 string data = "アフリカ人"
        [411]
-        1 string data = "Middle Eastern"
+        1 string data = "中東人"
        [412]
-        1 string data = "Asian"
+        1 string data = "アジア人"
        [413]
-        1 string data = "Australian"
+        1 string data = "オーストラリア人"
        [414]
-        1 string data = "Indian"
+        1 string data = "インド人"
        [415]
-        1 string data = "Hispanic"
+        1 string data = "ヒスパニック"
        [416]
-        1 string data = "Native American"
+        1 string data = "ネイティブアメリカン"
        [417]
-        1 string data = "Mixed"
+        1 string data = "混血"
        [418]
-        1 string data = "Pagan"
+        1 string data = "異教徒"
        [419]
-        1 string data = "Buddhist"
+        1 string data = "仏教徒"
        [420]
-        1 string data = "Christian"
+        1 string data = "キリスト教徒"
        [421]
-        1 string data = "Hindu"
+        1 string data = "ヒンドゥー教徒"
        [422]
-        1 string data = "Indigenous"
+        1 string data = "土着"
        [423]
-        1 string data = "Jewish"
+        1 string data = "ユダヤ教徒"
        [424]
-        1 string data = "Mormon"
+        1 string data = "モルモン教徒"
        [425]
-        1 string data = "Muslim"
+        1 string data = "イスラム教徒"
        [426]
-        1 string data = "Sikh"
+        1 string data = "シク教徒"
        [427]
-        1 string data = "Gambling"
+        1 string data = "ギャンブル"
        [428]
-        1 string data = "Smoking"
+        1 string data = "喫煙"
        [429]
-        1 string data = "Booze"
+        1 string data = "酒"
        [430]
-        1 string data = "Drugs"
+        1 string data = "麻薬"
        [431]
-        1 string data = "Hostile Encounter"
+        1 string data = "敵対的遭遇"
        [432]
-        1 string data = "Puny"
+        1 string data = "極小"
        [433]
-        1 string data = "Small"
+        1 string data = "小"
        [434]
-        1 string data = "Average"
+        1 string data = "平均"
        [435]
-        1 string data = "Tall"
+        1 string data = "高"
        [436]
-        1 string data = "Huge"
+        1 string data = "巨大"
        [437]
-        1 string data = "Gigantic"
+        1 string data = "超巨大"
        [438]
-        1 string data = "Targeting Group: Enemies"
+        1 string data = "ターゲットグループ: 敵"
        [439]
-        1 string data = "Targeting Group: Friendlies"
+        1 string data = "ターゲットグループ: 味方"
        [440]
-        1 string data = "Targeting Group: Objects"
+        1 string data = "ターゲットグループ: オブジェクト"
        [441]
-        1 string data = "Fully Loaded"
+        1 string data = "完全装備"
        [442]
-        1 string data = "Busy"
+        1 string data = "忙しい"
        [443]
-        1 string data = "Revive"
+        1 string data = "蘇生"
        [444]
-        1 string data = "Remove From Squad"
+        1 string data = "部隊から外す"
        [445]
-        1 string data = "Are you sure you wish to remove {0} from the squad?"
+        1 string data = "{0}を部隊から外してもよろしいですか?"
        [446]
-        1 string data = "Purchase Perk"
+        1 string data = "パークを購入"
        [447]
-        1 string data = "Are you sure you wish to purchase {0}?"
+        1 string data = "{0}を購入してもよろしいですか?"
        [448]
-        1 string data = "Failed"
+        1 string data = "失敗"
        [449]
-        1 string data = "European"
+        1 string data = "ヨーロッパ人"
        [450]
-        1 string data = "The other player is currently busy."
+        1 string data = "相手のプレイヤーは現在忙しい状態です。"
        [451]
-        1 string data = "Something went wrong and the trade failed."
+        1 string data = "何か問題が発生し、取引に失敗しました。"
        [452]
-        1 string data = "Trade Complete"
+        1 string data = "取引完了"
        [453]
-        1 string data = "Trade Accepted"
+        1 string data = "取引承認"
        [454]
-        1 string data = "Church of the Final Deluge"
+        1 string data = "最終大洪水教会"
        [455]
-        1 string data = "Pacific Islander"
+        1 string data = "太平洋諸島人"
        [456]
-        1 string data = "[PH] Ranger Team November is no more, and without any backup from Colorado, the Desert Rangers soon follow. YA DONE GOOFED, KID."
+        1 string data = "[PH] レンジャーチーム・ノベンバーはもはや存在せず、コロラドからの支援もなく、デザート・レンジャーもすぐに続く。やらかしちまったな、小僧。"
        [457]
-        1 string data = "Camera Follow Mode"
+        1 string data = "カメラフォローモード"
        [458]
-        1 string data = "Always"
+        1 string data = "常に"
        [459]
-        1 string data = "Exploration Only"
+        1 string data = "探索のみ"
        [460]
-        1 string data = "Combat"
+        1 string data = "戦闘"
        [461]
-        1 string data = "Never"
+        1 string data = "使用しない"
        [462]
-        1 string data = "Level {0}"
+        1 string data = "レベル{0}"
        [463]
-        1 string data = "Warning! Leaving now will affect missions that are still in progress in this area."
+        1 string data = "警告! 今離れると、このエリアで進行中のミッションに影響が出ます。"
        [464]
-        1 string data = "Brightness"
+        1 string data = "明るさ"
        [465]
-        1 string data = "Contrast"
+        1 string data = "コントラスト"
        [466]
-        1 string data = "Saturation"
+        1 string data = "彩度"
        [467]
-        1 string data = "Reset Preferences"
+        1 string data = "設定をリセット"
        [468]
-        1 string data = "Are you sure you want to revert these settings to their default values?"
+        1 string data = "これらの設定をデフォルト値に戻してもよろしいですか?"
        [469]
-        1 string data = "Flow engaged "
+        1 string data = "フロー有効 "
        [470]
-        1 string data = "Flow cut "
+        1 string data = "フロー無効 "
        [471]
-        1 string data = "Select Difficulty"
+        1 string data = "難易度を選択"
        [472]
-        1 string data = "You may customize these options in the Options Menu later if you wish."
+        1 string data = "これらのオプションは後でオプションメニューでカスタマイズできます。"
        [473]
-        1 string data = "For players more interested in story than combat, a less lethal sub-zero hellscape."
+        1 string data = "戦闘よりもストーリーに興味があるプレイヤー向け、より致死性の低い氷点下の地獄。"
        [474]
-        1 string data = "For new and returning players who want to experience the wastes as intended, a harsh but fair apocalypse. "
+        1 string data = "荒廃地を意図された通りに体験したい新規・既存プレイヤー向け、厳しいが公平な黙示録。 "
        [475]
-        1 string data = "For veteran strategy game players seeking a challenge, a cruel and unforgiving world. "
+        1 string data = "挑戦を求めるベテランストラテジーゲームプレイヤー向け、残酷で容赦のない世界。 "
        [476]
-        1 string data = "For the hardest of the hard, a soul-killing nightmare of brutality. Not even remotely fair. "
+        1 string data = "究極の難関を求める人向け、魂を殺す残虐性の悪夢。公平さは全くない。 "
        [477]
-        1 string data = "Your life has ended in The Wasteland."
+        1 string data = "あなたの命は荒廃地で終わった。"
        [478]
-        1 string data = "GAME COMPLETE\\nSavage Council Attacked Colorado Springs!\\n(COULDN'T FIND CORDITE FOR EPILOGUE!!! "
+        1 string data = "ゲーム完了\\n野蛮な評議会がコロラドスプリングスを攻撃!\\n(エピローグ用のコルダイトが見つからない!!! "
        [479]
-        1 string data = "No Target Selected"
+        1 string data = "ターゲット未選択"
        [480]
         1 string data = "{0}"
        [481]
         1 string data = "x{0}"
        [482]
-        1 string data = "Benefits"
+        1 string data = "効果"
        [483]
-        1 string data = "Show Stats"
+        1 string data = "ステータスを表示"
        [484]
-        1 string data = "Hide Stats"
+        1 string data = "ステータスを隠す"
        [485]
-        1 string data = "Abilties Unlocked"
+        1 string data = "アビリティ解放"
        [486]
-        1 string data = "Level {0}: {1}"
+        1 string data = "レベル{0}: {1}"
        [487]
-        1 string data = "Normal"
+        1 string data = "通常"
        [488]
-        1 string data = "Very Small"
+        1 string data = "極小"
        [489]
-        1 string data = "Small"
+        1 string data = "小"
        [490]
-        1 string data = "Large"
+        1 string data = "大"
        [491]
-        1 string data = "Very Large"
+        1 string data = "極大"
        [492]
-        1 string data = "Huge"
+        1 string data = "巨大"
        [493]
-        1 string data = "Manage Squad"
+        1 string data = "部隊を管理"
        [494]
-        1 string data = "Current Player"
+        1 string data = "現在のプレイヤー"
        [495]
-        1 string data = "Other Player"
+        1 string data = "他のプレイヤー"
        [496]
-        1 string data = "Starting Characters"
+        1 string data = "初期キャラクター"
        [497]
-        1 string data = "Do you want to start with premade characters, or create your own?"
+        1 string data = "既製キャラクターで開始しますか、それとも自分で作成しますか?"
        [498]
-        1 string data = "Premade Characters"
+        1 string data = "既製キャラクター"
        [499]
-        1 string data = "Custom Characters"
+        1 string data = "カスタムキャラクター"
        [500]
-        1 string data = "Move Squad Member"
+        1 string data = "部隊メンバーを移動"
        [501]
-        1 string data = "Junk"
+        1 string data = "がらくた"
        [502]
-        1 string data = "Ding!"
+        1 string data = "レベルアップ!"
        [503]
-        1 string data = "Taoist"
+        1 string data = "道教徒"
        [504]
-        1 string data = "Jain"
+        1 string data = "ジャイナ教徒"
        [505]
-        1 string data = "Cult of the Mushroom Cloud"
+        1 string data = "きのこ雲の教団"
        [506]
-        1 string data = "Immune"
+        1 string data = "免疫"
        [507]
-        1 string data = "Legend"
+        1 string data = "伝説"
        [508]
-        1 string data = "Squad Member"
+        1 string data = "部隊メンバー"
        [509]
-        1 string data = "Friendly NPC"
+        1 string data = "友好的NPC"
        [510]
-        1 string data = "Hostile NPC"
+        1 string data = "敵対的NPC"
        [511]
-        1 string data = "Merchant"
+        1 string data = "商人"
        [512]
-        1 string data = "Point of Interest"
+        1 string data = "関心地点"
        [513]
-        1 string data = "Level Exit"
+        1 string data = "レベル出口"
        [514]
-        1 string data = "Kodiak"
+        1 string data = "コディアック"
        [515]
-        1 string data = "Waypoint"
+        1 string data = "ウェイポイント"
        [516]
-        1 string data = "Travel to Waypoint"
+        1 string data = "ウェイポイントに移動"
        [517]
-        1 string data = "Summon Vehicle"
+        1 string data = "ビークルを召喚"
        [518]
-        1 string data = "Are you sure you wish to travel to this waypoint in your vehicle?"
+        1 string data = "ビークルでこのウェイポイントに移動してもよろしいですか?"
        [519]
-        1 string data = "Feature Unavailable"
+        1 string data = "機能利用不可"
        [520]
-        1 string data = "This feature is not currently supported for client players. Ask your host player to do this instead."
+        1 string data = "この機能は現在クライアントプレイヤーではサポートされていません。代わりにホストプレイヤーに依頼してください。"
        [521]
-        1 string data = "Random Name"
+        1 string data = "ランダムな名前"
        [522]
-        1 string data = "Game Credits"
+        1 string data = "ゲームクレジット"
        [523]
-        1 string data = "Backer Credits"
+        1 string data = "バッカークレジット"
        [524]
         1 string data = "AP"
        [525]
-        1 string data = "Player Join Checkpoint"
+        1 string data = "プレイヤー合流チェックポイント"
        [526]
         1 string data = "DMG"
        [527]
-        1 string data = "Ranger Status"
+        1 string data = "レンジャーステータス"
        [528]
-        1 string data = "Receiving"
+        1 string data = "受信中"
        [529]
-        1 string data = "Call"
+        1 string data = "呼出"
        [530]
-        1 string data = "Auto Switch Character"
+        1 string data = "キャラクター自動切替"
        [531]
-        1 string data = "Auto Switch Character at Low AP"
+        1 string data = "AP低下時にキャラクター自動切替"
        [532]
-        1 string data = "Auto End Turn"
+        1 string data = "ターン自動終了"
        [533]
-        1 string data = "Movement Mode"
+        1 string data = "移動モード"
        [534]
-        1 string data = "Friendly Fire"
+        1 string data = "フレンドリーファイア"
        [535]
-        1 string data = "Hobo"
+        1 string data = "ホーボー"
        [536]
-        1 string data = "Starting Your Turn"
+        1 string data = "あなたのターン開始"
        [537]
-        1 string data = "Starting Other Player's Turn"
+        1 string data = "他プレイヤーのターン開始"
        [538]
-        1 string data = "Starting Friendly Turn"
+        1 string data = "友軍のターン開始"
        [539]
-        1 string data = "Starting Enemy's Turn"
+        1 string data = "敵のターン開始"
        [540]
-        1 string data = "Researcher"
+        1 string data = "研究者"
        [541]
-        1 string data = "Self"
+        1 string data = "自分"
        [542]
-        1 string data = "The Mechanic's Garage"
+        1 string data = "整備士のガレージ"
        [543]
-        1 string data = "Slave Pen"
+        1 string data = "奴隷檻"
        [544]
-        1 string data = "Savage Council Gate"
+        1 string data = "野蛮な評議会のゲート"
        [545]
-        1 string data = "Mesa Ascent"
+        1 string data = "メサ上昇路"
        [546]
-        1 string data = "Murderdome"
+        1 string data = "マーダードーム"
        [547]
-        1 string data = "Customize Vehicle"
+        1 string data = "ビークルのカスタマイズ"
        [548]
-        1 string data = "Bumper"
+        1 string data = "バンパー"
        [549]
-        1 string data = "Armor Plating"
+        1 string data = "装甲板"
        [550]
-        1 string data = "Hood Ornament"
+        1 string data = "ボンネットオーナメント"
        [551]
-        1 string data = "Treads"
+        1 string data = "トレッド"
        [552]
-        1 string data = "Horn"
+        1 string data = "ホーン"
        [553]
-        1 string data = "Utility"
+        1 string data = "ユーティリティ"
        [554]
-        1 string data = "Vehicle Color"
+        1 string data = "ビークルの色"
        [555]
-        1 string data = "Paths to Windfarm and Mine"
+        1 string data = "風力発電所と鉱山への道"
        [556]
-        1 string data = "Paint Job"
+        1 string data = "塗装"
        [557]
-        1 string data = "Simultaneous Enemy Movement"
+        1 string data = "敵の同時移動"
        [558]
-        1 string data = "Simultaneous Enemy Movement Rank"
+        1 string data = "敵の同時移動ランク"
        [559]
-        1 string data = "Civilian"
+        1 string data = "民間人"
        [560]
-        1 string data = "Cannon Fodder"
+        1 string data = "捨て駒"
        [561]
-        1 string data = "Normal"
+        1 string data = "通常"
        [562]
-        1 string data = "Mini-Boss"
+        1 string data = "ミニボス"
        [563]
-        1 string data = "Boss"
+        1 string data = "ボス"
        [564]
-        1 string data = "Vehicle"
+        1 string data = "ビークル"
        [565]
-        1 string data = "Requirement not met."
+        1 string data = "要件が満たされていません。"
        [566]
-        1 string data = "Colorado [World Map]"
+        1 string data = "コロラド [ワールドマップ]"
        [567]
-        1 string data = "Western White House"
+        1 string data = "ウェスタン・ホワイトハウス"
        [568]
-        1 string data = "Gipper Gate"
+        1 string data = "ギッパーゲート"
        [569]
         1 string data = ""
        [570]
-        1 string data = "Hard-Head Gate"
+        1 string data = "ハードヘッドゲート"
        [571]
-        1 string data = "Union Station"
+        1 string data = "ユニオン駅"
        [572]
-        1 string data = "Machine Commune"
+        1 string data = "マシーンコミューン"
        [573]
         1 string data = ""
        [574]
-        1 string data = "Fork in road "
+        1 string data = "道の分岐点 "
        [575]
-        1 string data = "Perk Points Remaining:"
+        1 string data = "残りパークポイント:"
        [576]
-        1 string data = "Game Saved"
+        1 string data = "ゲームを保存しました"
        [577]
-        1 string data = "Cannot Leave Area"
+        1 string data = "エリアを離れられません"
        [578]
-        1 string data = "Could not find the target game session."
+        1 string data = "ターゲットゲームセッションが見つかりませんでした。"
        [579]
-        1 string data = "Error"
+        1 string data = "エラー"
        [580]
         1 string data = "- {0}"
        [581]
-        1 string data = "Travel"
+        1 string data = "移動"
        [582]
-        1 string data = "The other player has control of the vehicle."
+        1 string data = "相手のプレイヤーがビークルを操作しています。"
        [583]
-        1 string data = "Vehicle Part Unlocked: {0}"
+        1 string data = "ビークルパーツのロック解除: {0}"
        [584]
-        1 string data = "{0} used!"
+        1 string data = "{0}を使用した!"
        [585]
-        1 string data = "Failed to create the game session."
+        1 string data = "ゲームセッションの作成に失敗しました。"
        [586]
-        1 string data = "Please reconnect the DUALSHOCK®4 wireless controller for user {0}"
+        1 string data = "ユーザー{0}のDUALSHOCK®4ワイヤレスコントローラーを再接続してください"
        [587]
-        1 string data = "Giving default equipment to this character..."
+        1 string data = "このキャラクターにデフォルト装備を付与しています..."
        [588]
-        1 string data = "This character already has an animal follower."
+        1 string data = "このキャラクターは既に動物の従者を持っています。"
        [589]
-        1 string data = "Strike"
+        1 string data = "攻撃"
        [590]
-        1 string data = "Anti-Aliasing"
+        1 string data = "アンチエイリアス"
        [591]
-        1 string data = "You do not have permission for online play"
+        1 string data = "オンラインプレイの許可がありません"
        [592]
-        1 string data = "Failed to sucessfully check online permissions"
+        1 string data = "オンライン許可の確認に失敗しました"
        [593]
         1 string data = ""
        [594]
-        1 string data = "The Bizarre"
+        1 string data = "ビザール"
        [595]
-        1 string data = "Parking Garage"
+        1 string data = "駐車場"
        [596]
-        1 string data = "Frozen Outskirts"
+        1 string data = "凍てついた郊外"
        [597]
-        1 string data = "Head"
+        1 string data = "頭部"
        [598]
-        1 string data = "Body"
+        1 string data = "本体"
        [599]
-        1 string data = "Arms"
+        1 string data = "腕部"
        [600]
-        1 string data = "Legs"
+        1 string data = "脚部"
        [601]
         1 string data = "CPU"
        [602]
-        1 string data = "Chassis"
+        1 string data = "シャーシ"
        [603]
-        1 string data = "Servos"
+        1 string data = "サーボ"
        [604]
-        1 string data = "Actuators"
+        1 string data = "アクチュエーター"
        [605]
-        1 string data = "Engine"
+        1 string data = "エンジン"
        [606]
-        1 string data = "Plating"
+        1 string data = "装甲"
        [607]
-        1 string data = "Turret"
+        1 string data = "タレット"
        [608]
-        1 string data = "Wheels"
+        1 string data = "車輪"
        [609]
-        1 string data = "Welcome Lodge"
+        1 string data = "ウェルカムロッジ"
        [610]
-        1 string data = "Construction Yard"
+        1 string data = "建設ヤード"
        [611]
-        1 string data = "Midhill Plaza"
+        1 string data = "ミッドヒルプラザ"
        [612]
-        1 string data = "Hilltop Gondola "
+        1 string data = "ヒルトップゴンドラ "
        [613]
-        1 string data = "Initializing"
+        1 string data = "初期化中"
        [614]
-        1 string data = "Tunnel Entrance"
+        1 string data = "トンネル入口"
        [615]
-        1 string data = "Tunnel Midpoint"
+        1 string data = "トンネル中間地点"
        [616]
-        1 string data = "Tunnel Exit"
+        1 string data = "トンネル出口"
        [617]
-        1 string data = "Exit to World Map"
+        1 string data = "ワールドマップに出る"
        [618]
-        1 string data = "Texture Quality"
+        1 string data = "テクスチャ品質"
        [619]
-        1 string data = "Flee"
+        1 string data = "逃走"
        [620]
-        1 string data = "Leave"
+        1 string data = "立ち去る"
        [621]
-        1 string data = "Fight"
+        1 string data = "戦闘"
        [622]
-        1 string data = "Reputation"
+        1 string data = "評判"
        [623]
-        1 string data = "Fame"
+        1 string data = "名声"
        [624]
-        1 string data = "Unknown"
+        1 string data = "無名"
        [625]
-        1 string data = "Obscure"
+        1 string data = "無名に近い"
        [626]
-        1 string data = "Recognized"
+        1 string data = "認知"
        [627]
-        1 string data = "Well-Known"
+        1 string data = "よく知られている"
        [628]
-        1 string data = "Renowned"
+        1 string data = "著名"
        [629]
-        1 string data = "Fame & Reputation"
+        1 string data = "名声と評判"
        [630]
-        1 string data = "Hated"
+        1 string data = "嫌悪"
        [631]
-        1 string data = "Disliked"
+        1 string data = "嫌い"
        [632]
-        1 string data = "Neutral"
+        1 string data = "中立"
        [633]
-        1 string data = "Liked"
+        1 string data = "好意"
        [634]
-        1 string data = "Loved"
+        1 string data = "敬愛"
        [635]
-        1 string data = "Hundred Families"
+        1 string data = "百家族"
        [636]
-        1 string data = "Patriarch's Marshals"
+        1 string data = "総主教の保安官"
        [637]
-        1 string data = "Gippers"
+        1 string data = "ギッパー"
        [638]
-        1 string data = "Wastelander Refugees"
+        1 string data = "荒廃地の難民"
        [639]
-        1 string data = "Monster Army"
+        1 string data = "モンスター軍"
        [640]
-        1 string data = "Reputation tracks how your actions have affected each faction's opinion of the Rangers.\\n\\nThe leading citizens of Colorado Springs, descended from the survivalist families who founded the Patriarch’s nation, and dedicated to rebuilding America as it was before the bombs."
+        1 string data = "評判は、あなたの行動が各勢力のレンジャーに対する意見にどう影響したかを追跡します。\\n\\n総主教の国家を建国したサバイバリスト家族の子孫であるコロラドスプリングスの主要市民で、爆弾投下前のアメリカの再建に尽力している。"
        [641]
-        1 string data = "Reputation tracks how your actions have affected each faction's opinion of the Rangers.\\n\\nA police force led by Sheriff Daisy, the Marshals enforce the Patriarch's laws in Colorado Springs and - when necessary - beyond. "
+        1 string data = "評判は、あなたの行動が各勢力のレンジャーに対する意見にどう影響したかを追跡します。\\n\\nデイジー保安官が率いる警察力で、保安官はコロラドスプリングスで総主教の法律を執行し、必要に応じて外でも執行する。 "
        [642]
-        1 string data = "Reputation tracks how your actions have affected each faction's opinion of the Rangers.\\n\\nA heavily-armed cult devoted to the “God-President,” Ronald Reagan. Some may call them crazy, but since they produce and refine all the oil in Colorado, everybody's got to pretend they're not."
+        1 string data = "評判は、あなたの行動が各勢力のレンジャーに対する意見にどう影響したかを追跡します。\\n\\n「神大統領」ロナルド・レーガンに献身する重武装カルト。狂っていると言う人もいるが、コロラドの全ての石油を生産・精製しているため、誰もが彼らが狂っていないふりをしなければならない。"
        [643]
-        1 string data = "Reputation tracks how your actions have affected each faction's opinion of the Rangers.\\n\\nFifty years ago, the Monster Army ruled Colorado. Now they’re old and fading, and all they have left is the Bizarre, a “free haven” of trade and eccentric delights."
+        1 string data = "評判は、あなたの行動が各勢力のレンジャーに対する意見にどう影響したかを追跡します。\\n\\n50年前、モンスター軍はコロラドを支配していた。今や彼らは老いて衰え、残っているのは貿易と風変わりな楽しみの「自由な避難所」であるビザールだけだ。"
        [644]
-        1 string data = "Reputation tracks how your actions have affected each faction's opinion of the Rangers.\\n\\nDesperate, hardscrabble people from the periphery of the Patriarch’s nation. As gangs and other dangers encroach from outside, many refugees have fled to Colorado Springs and other fortified towns."
+        1 string data = "評判は、あなたの行動が各勢力のレンジャーに対する意見にどう影響したかを追跡します。\\n\\n総主教の国家の周辺部からの必死の貧しい人々。ギャングや他の危険が外から侵入するにつれ、多くの難民がコロラドスプリングスや他の要塞化された町に逃げてきた。"
        [645]
-        1 string data = "Launch"
+        1 string data = "起動"
        [646]
-        1 string data = "Squad Overview"
+        1 string data = "部隊概要"
        [647]
-        1 string data = "Active Rangers"
+        1 string data = "現役レンジャー"
        [648]
-        1 string data = "New Recruits"
+        1 string data = "新規入隊者"
        [649]
-        1 string data = "Create Custom Ranger"
+        1 string data = "カスタムレンジャーを作成"
        [650]
-        1 string data = "Empty Slot"
+        1 string data = "空きスロット"
        [651]
-        1 string data = "An animal of this type is already following the party"
+        1 string data = "この種類の動物は既にパーティに従っています"
        [652]
-        1 string data = "Entrance Road"
+        1 string data = "入口の道"
        [653]
-        1 string data = "Hide Helmet"
+        1 string data = "ヘルメットを隠す"
        [654]
-        1 string data = "Item Created"
+        1 string data = "アイテム作成完了"
        [655]
-        1 string data = "Schematics"
+        1 string data = "設計図"
        [656]
-        1 string data = "Required Components"
+        1 string data = "必要な部品"
        [657]
-        1 string data = "Create Item"
+        1 string data = "アイテムを作成"
        [658]
-        1 string data = "Disable"
+        1 string data = "無効化"
        [659]
-        1 string data = "Running"
+        1 string data = "動作中"
        [660]
-        1 string data = "Disabled"
+        1 string data = "無効"
        [661]
-        1 string data = "You spot a brick that has a mushroom cloud drawn on it. When you touch it, the wall slides away, revealing a door."
+        1 string data = "きのこ雲が描かれたレンガを発見した。触れると壁が滑り去り、扉が現れる。"
        [662]
-        1 string data = "Helmet"
+        1 string data = "ヘルメット"
        [663]
-        1 string data = "Requires Smuggler Camp Key"
+        1 string data = "密輸キャンプの鍵が必要"
        [664]
-        1 string data = "Scar Collector Roadblock"
+        1 string data = "スカー収集者の検問所"
        [665]
-        1 string data = "Pueblo Ruins"
+        1 string data = "プエブロ遺跡"
        [666]
-        1 string data = "Scrapyard"
+        1 string data = "スクラップヤード"
        [667]
-        1 string data = "To Ghost Garage"
+        1 string data = "ゴーストガレージへ"
        [668]
-        1 string data = "To World Map"
+        1 string data = "ワールドマップへ"
        [669]
-        1 string data = "Arapaho Garage"
+        1 string data = "アラパホガレージ"
        [670]
-        1 string data = "Locked"
+        1 string data = "施錠"
        [671]
-        1 string data = "Unlocked"
+        1 string data = "解錠"
        [672]
-        1 string data = "Locked"
+        1 string data = "施錠"
        [673]
         1 string data = "Unlocked"
        [674]
