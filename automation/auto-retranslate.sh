@@ -309,7 +309,7 @@ restore_progress_file() {
 # Read retranslation progress (uses safe_jq_read)
 get_progress_entries() {
     local progress_file="$WORKING_DIR/translation/.retranslation_progress.json"
-    safe_jq_read '.total_entries_completed // 0' "$progress_file" 0
+    safe_jq_read '.base_game.entries_completed // 0' "$progress_file" 0
 }
 
 # Check if retranslation is complete (uses safe_jq_read)
