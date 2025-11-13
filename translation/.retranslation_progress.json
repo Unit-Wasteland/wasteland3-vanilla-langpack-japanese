@@ -18,15 +18,15 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 51464,
-      "entries_untranslated_real": 8083,
+      "entries_translated": 51522,
+      "entries_untranslated_real": 8025,
       "entries_kept_english": 42439,
-      "completion_rate": 30.3,
-      "current_line": 435805,
+      "completion_rate": 30.4,
+      "current_line": 436297,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 393 complete: 57 new Japanese translations (L435187-435804). Four sections: yy_robots_ambush_plains (20 entries - Plains robot ambush), yy_robots_spotted (15 entries - Robot stealth encounter), yy_robots_spotted_mountains (11 entries - Mountains variant), yy_robots_spotted_plains (11 entries - Plains variant). Content: Robot encounters with terrain-specific escape mechanics. Key scenarios: Robot ambush (stealth vs surprise, terrain advantage like icy slopes), Robot spotted (avoid/sneak/attack options, circuit scrambling). Technical: Quote format initially had errors (4 quotes instead of 2 to match English source), all corrected. Structure: All markers preserved. Dual validation passed (Structure: 0 errors, Quality: 0 issues).",
-      "entries_completed": 51464
+      "note": "Session 394 complete: 58 new Japanese translations (L435805-436296). Five sections: yy_worms_ambush (12 entries - Waste worm ambush), yy_worms_ambush_mountains (10 entries - Mountains variant), yy_worms_ambush_plains (10 entries - Plains variant), y_arapahomerchant (10 entries - Cargo merchant dialogue), y_bbb_kwon (16 entries - Marshal Darius Kwon introduction). Content: Waste worm encounters with escape mechanics (drive/terrain/science advantages), Iron Thunder Arapaho merchant (Cargo), Marshal Kwon recruitment explaining Gippers (Ronald Reagan worshippers), Godfishers (kite-hanging cultists), Patriarch's son Valor situation. Technical: Major quote format corrections - changed Japanese brackets to proper Unity double-quote format, matched English source quote counts exactly (including embedded dialogue). Structure: All markers preserved including escape sequences and HTML tags. Dual validation passed (Structure: 0 errors, Quality: 0 issues).",
+      "entries_completed": 51522
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -59,21 +59,21 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "5f6dd76",
-  "last_commit_message": "Base game translation: Session 393 - Robot encounter sections (57 entries)",
+  "last_commit_hash": "824e5aa",
+  "last_commit_message": "Base game translation: Session 394 - Worm ambush and encounter sections (58 entries)",
   "validation_date": "2025-11-13",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
-  "analysis_session": 393,
+  "analysis_session": 394,
   "analysis_findings": {
-    "new_translations": "Session 393: 57 new Japanese translations (L435187-435804). Four sections: yy_robots_ambush_plains (20 entries), yy_robots_spotted (15 entries), yy_robots_spotted_mountains (11 entries), yy_robots_spotted_plains (11 entries). All robot encounter sections with stealth/avoid/attack options.",
+    "new_translations": "Session 394: 58 new Japanese translations (L435805-436296). Five sections: yy_worms_ambush (12 entries), yy_worms_ambush_mountains (10 entries), yy_worms_ambush_plains (10 entries), y_arapahomerchant (10 entries), y_bbb_kwon (16 entries). Waste worm encounters with escape options, Arapaho merchant, Marshal Kwon introduction.",
     "action_marker_protection": "No action markers in this translation range.",
-    "quote_format_handling": "Initial translation used 4-quote format (double-double-quote) when English source had 2 quotes. All corrected to match English source exactly. Critical learning: Always check English source quote count and match precisely.",
-    "quality_validation": "Dual validation passed after quote format corrections. Structure: 0 errors across 169,712 entries. Quality: 0 issues - no action markers translated, no untranslated English, no bracket translation, no glossary violations."
+    "quote_format_handling": "Major correction effort required. Initially used Japanese brackets which resulted in mismatched quote counts. Corrected all to proper Unity format with exact quote count matching English source (including embedded dialogue quotes). Verified embedded dialogue maintains correct total quote count.",
+    "quality_validation": "Dual validation passed after comprehensive quote corrections. Structure: 0 errors across 169,712 entries. Quality: 0 issues - no action markers translated, no untranslated English, no bracket translation, no glossary violations."
   },
-  "total_entries_completed": 51464,
+  "total_entries_completed": 51522,
   "total_entries": 232418,
-  "total_entries_untranslated": 171825,
-  "overall_completion_rate": 22.1,
-  "next_action": "Continue sequential translation from line 435805. Next: yy_worms_ambush (18 entries). Worm ambush encounters."
+  "total_entries_untranslated": 171767,
+  "overall_completion_rate": 22.2,
+  "next_action": "Continue sequential translation from line 436297. Next: y_bbb_pizepi section. Pizepi encounter dialogue."
 }
