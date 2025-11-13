@@ -481231,345 +481231,345 @@
       1 Array Array (170 items)
        0 int size = 170
        [0]
-        1 string data = " The first InputAction entry text"
+        1 string data = ""
        [1]
-        1 string data = "Move Character"
+        1 string data = "キャラクター移動"
        [2]
-        1 string data = "Move Character"
+        1 string data = "キャラクター移動"
        [3]
-        1 string data = "Rotate Camera"
+        1 string data = "カメラ回転"
        [4]
-        1 string data = "Zoom Camera"
+        1 string data = "カメラズーム"
        [5]
-        1 string data = "Navigate Menus"
+        1 string data = "メニュー操作"
        [6]
-        1 string data = "Navigate Menus"
+        1 string data = "メニュー操作"
        [7]
-        1 string data = "D-Pad Horizontal"
+        1 string data = "十字キー水平"
        [8]
-        1 string data = "D-Pad Vertical"
+        1 string data = "十字キー垂直"
        [9]
-        1 string data = "Submit"
+        1 string data = "決定"
        [10]
-        1 string data = "Cancel"
+        1 string data = "キャンセル"
        [11]
-        1 string data = "Continue"
+        1 string data = "続ける"
        [12]
-        1 string data = "Select"
+        1 string data = "選択"
        [13]
-        1 string data = "Interact"
+        1 string data = "インタラクト"
        [14]
-        1 string data = "Alternate Interact"
+        1 string data = "代替インタラクト"
        [15]
-        1 string data = "Highlight Objects"
+        1 string data = "オブジェクトハイライト"
        [16]
-        1 string data = "End Turn"
+        1 string data = "ターン終了"
        [17]
-        1 string data = "Attack"
+        1 string data = "攻撃"
        [18]
-        1 string data = "Pause"
+        1 string data = "ポーズ"
        [19]
-        1 string data = "Close"
+        1 string data = "閉じる"
        [20]
-        1 string data = "Quicksave"
+        1 string data = "クイックセーブ"
        [21]
-        1 string data = "Quickload"
+        1 string data = "クイックロード"
        [22]
-        1 string data = "Toggle HUD"
+        1 string data = "HUD切り替え"
        [23]
-        1 string data = "Toggle Console"
+        1 string data = "コンソール切り替え"
        [24]
-        1 string data = "Attributes"
+        1 string data = "属性"
        [25]
-        1 string data = "Inventory"
+        1 string data = "インベントリ"
        [26]
-        1 string data = "Journal"
+        1 string data = "ジャーナル"
        [27]
-        1 string data = "Map"
+        1 string data = "マップ"
        [28]
-        1 string data = "Menu"
+        1 string data = "メニュー"
        [29]
-        1 string data = "Select Next Character"
+        1 string data = "次のキャラクターを選択"
        [30]
-        1 string data = "Select Previous Character"
+        1 string data = "前のキャラクターを選択"
        [31]
-        1 string data = "Select Next Target"
+        1 string data = "次のターゲットを選択"
        [32]
-        1 string data = "Select Previous Target"
+        1 string data = "前のターゲットを選択"
        [33]
-        1 string data = "Next Tab"
+        1 string data = "次のタブ"
        [34]
-        1 string data = "Previous Tab"
+        1 string data = "前のタブ"
        [35]
-        1 string data = "Examine Item"
+        1 string data = "アイテム調査"
        [36]
-        1 string data = "Default Item Action"
+        1 string data = "デフォルトアイテムアクション"
        [37]
-        1 string data = "Level Up"
+        1 string data = "レベルアップ"
        [38]
-        1 string data = "Drop Item"
+        1 string data = "アイテムドロップ"
        [39]
-        1 string data = "Transfer Item"
+        1 string data = "アイテム転送"
        [40]
-        1 string data = "Delete Saved Game"
+        1 string data = "セーブデータ削除"
        [41]
-        1 string data = "Talk To Squad Member"
+        1 string data = "スクワッドメンバーと話す"
        [42]
-        1 string data = "Show Stats"
+        1 string data = "ステータス表示"
        [43]
-        1 string data = "Back"
+        1 string data = "戻る"
        [44]
-        1 string data = "Next"
+        1 string data = "次へ"
        [45]
-        1 string data = "Quickbar {0}"
+        1 string data = "クイックバー{0}"
        [46]
-        1 string data = "Restore Defaults"
+        1 string data = "デフォルトに戻す"
        [47]
-        1 string data = "Switch Weapons"
+        1 string data = "武器切り替え"
        [48]
-        1 string data = "Reload"
+        1 string data = "リロード"
        [49]
-        1 string data = "Switch Fire Mode"
+        1 string data = "射撃モード切り替え"
        [50]
-        1 string data = "Toggle Tactical Mode"
+        1 string data = "タクティカルモード切り替え"
        [51]
-        1 string data = "Select Character {0}"
+        1 string data = "キャラクター{0}を選択"
        [52]
-        1 string data = "Left Click"
+        1 string data = "左クリック"
        [53]
-        1 string data = "Right Click"
+        1 string data = "右クリック"
        [54]
-        1 string data = "Middle Click"
+        1 string data = "中クリック"
        [55]
-        1 string data = "Attack"
+        1 string data = "攻撃"
        [56]
-        1 string data = "Compare Items"
+        1 string data = "アイテム比較"
        [57]
-        1 string data = "Zoom"
+        1 string data = "ズーム"
        [58]
-        1 string data = "Zoom In"
+        1 string data = "ズームイン"
        [59]
-        1 string data = "Zoom Out"
+        1 string data = "ズームアウト"
        [60]
-        1 string data = "Items & Abilities"
+        1 string data = "アイテムとアビリティ"
        [61]
-        1 string data = "Combat Actions"
+        1 string data = "戦闘アクション"
        [62]
-        1 string data = "New Saved Game"
+        1 string data = "新規セーブ"
        [63]
-        1 string data = "Radio"
+        1 string data = "無線"
        [64]
-        1 string data = "Switch User"
+        1 string data = "ユーザー切り替え"
        [65]
-        1 string data = "Left Stick Left"
+        1 string data = "左スティック左"
        [66]
-        1 string data = "Left Stick Right"
+        1 string data = "左スティック右"
        [67]
-        1 string data = "Left Stick Up"
+        1 string data = "左スティック上"
        [68]
-        1 string data = "Left Stick Down"
+        1 string data = "左スティック下"
        [69]
-        1 string data = "Attack Mode"
+        1 string data = "攻撃モード"
        [70]
-        1 string data = "Toggle Group Mode"
+        1 string data = "グループモード切り替え"
        [71]
-        1 string data = "Modify Weapon"
+        1 string data = "武器改造"
        [72]
-        1 string data = "Ambush"
+        1 string data = "待ち伏せ"
        [73]
-        1 string data = "Enter Vehicle"
+        1 string data = "乗車"
        [74]
-        1 string data = "Exit Vehicle"
+        1 string data = "降車"
        [75]
-        1 string data = "Toggle Camera Mode"
+        1 string data = "カメラモード切り替え"
        [76]
-        1 string data = "Raw button press from Right Stick"
+        1 string data = "右スティックボタン押下"
        [77]
-        1 string data = "Raw button press from Left Stick"
+        1 string data = "左スティックボタン押下"
        [78]
-        1 string data = "Snap Camera To Squad"
+        1 string data = "スクワッドにカメラ移動"
        [79]
-        1 string data = "Rotate Camera Clockwise"
+        1 string data = "カメラ右回転"
        [80]
-        1 string data = "Rotate Camera Counterclockwise"
+        1 string data = "カメラ左回転"
        [81]
-        1 string data = "Handbrake"
+        1 string data = "サイドブレーキ"
        [82]
-        1 string data = "Host Multiplayer"
+        1 string data = "マルチプレイホスト"
        [83]
-        1 string data = "Join Multiplayer"
+        1 string data = "マルチプレイ参加"
        [84]
-        1 string data = "PS4 Handshake"
+        1 string data = "PS4ハンドシェイク"
        [85]
-        1 string data = "Multiplayer Ready"
+        1 string data = "マルチプレイ準備完了"
        [86]
-        1 string data = "Customize Appearance"
+        1 string data = "外見カスタマイズ"
        [87]
-        1 string data = "Select Portrait"
+        1 string data = "ポートレート選択"
        [88]
-        1 string data = "Reimport Custom Portraits"
+        1 string data = "カスタムポートレート再インポート"
        [89]
-        1 string data = "Purchase Rank"
+        1 string data = "ランク購入"
        [90]
-        1 string data = "Refund Rank"
+        1 string data = "ランク払い戻し"
        [91]
-        1 string data = "Exit Vehicle (All)"
+        1 string data = "降車(全員)"
        [92]
-        1 string data = "Reset Camera Angle"
+        1 string data = "カメラ角度リセット"
        [93]
-        1 string data = "Toggle Combat Grid"
+        1 string data = "戦闘グリッド切り替え"
        [94]
-        1 string data = "Toggle Target Type"
+        1 string data = "ターゲットタイプ切り替え"
        [95]
-        1 string data = "Load Multiplayer"
+        1 string data = "マルチプレイロード"
        [96]
-        1 string data = "Change Formation"
+        1 string data = "フォーメーション変更"
        [97]
-        1 string data = "Trade"
+        1 string data = "トレード"
        [98]
-        1 string data = "Remove From Party"
+        1 string data = "パーティから除外"
        [99]
-        1 string data = "Loot All"
+        1 string data = "全て入手"
        [100]
-        1 string data = "Distribute All"
+        1 string data = "全て分配"
        [101]
-        1 string data = "Randomize"
+        1 string data = "ランダム化"
        [102]
-        1 string data = "Advance Credits"
+        1 string data = "クレジット送り"
        [103]
-        1 string data = "Toggle Credits Mode"
+        1 string data = "クレジットモード切り替え"
        [104]
-        1 string data = "Randomize Name"
+        1 string data = "名前ランダム化"
        [105]
-        1 string data = "Call Car"
+        1 string data = "車両召喚"
        [106]
-        1 string data = "Precision Strike"
+        1 string data = "精密射撃"
        [107]
-        1 string data = "Crafting"
+        1 string data = "クラフト"
        [108]
-        1 string data = "Toggle Perk Visibility"
+        1 string data = "パーク表示切り替え"
        [109]
-        1 string data = "Skills"
+        1 string data = "スキル"
        [110]
-        1 string data = "Perks"
+        1 string data = "パーク"
        [111]
-        1 string data = "Fame & Reputation"
+        1 string data = "名声と評判"
        [112]
-        1 string data = "Start Chat"
+        1 string data = "チャット開始"
        [113]
-        1 string data = "Increase Value"
+        1 string data = "値を増やす"
        [114]
-        1 string data = "Decrease Value"
+        1 string data = "値を減らす"
        [115]
-        1 string data = "Swap Characters"
+        1 string data = "キャラクター入れ替え"
        [116]
-        1 string data = "Move"
+        1 string data = "移動"
        [117]
-        1 string data = "Modify Armor"
+        1 string data = "アーマー改造"
        [118]
-        1 string data = "Load Game"
+        1 string data = "ゲームロード"
        [119]
-        1 string data = "Load Last Save"
+        1 string data = "最新セーブをロード"
        [120]
-        1 string data = "Add to Group"
+        1 string data = "グループに追加"
        [121]
-        1 string data = "Collections"
+        1 string data = "コレクション"
        [122]
-        1 string data = "Submit"
+        1 string data = "決定"
        [123]
-        1 string data = "Break Down"
+        1 string data = "分解"
        [124]
-        1 string data = "Field Strip"
+        1 string data = "フィールドストリップ"
        [125]
-        1 string data = "Inspect"
+        1 string data = "調査"
        [126]
-        1 string data = "Toggle Targeting Mode"
+        1 string data = "ターゲティングモード切り替え"
        [127]
-        1 string data = "Select Previous Level"
+        1 string data = "前のレベルを選択"
        [128]
-        1 string data = "Select Next Level"
+        1 string data = "次のレベルを選択"
        [129]
-        1 string data = "Select Multiplayer Game"
+        1 string data = "マルチプレイゲーム選択"
        [130]
-        1 string data = "Send Multiplayer Invite"
+        1 string data = "マルチプレイ招待送信"
        [131]
-        1 string data = "Final Actions"
+        1 string data = "最終アクション"
        [132]
-        1 string data = "Show Actions"
+        1 string data = "アクション表示"
        [133]
-        1 string data = "Show Items"
+        1 string data = "アイテム表示"
        [134]
-        1 string data = "Vehicle Horn"
+        1 string data = "車両ホーン"
        [135]
-        1 string data = "Replace"
+        1 string data = "交換"
        [136]
         1 string data = ""
        [137]
-        1 string data = "Quick Targeting Mode"
+        1 string data = "クイックターゲティングモード"
        [138]
-        1 string data = "Disable Tutorials"
+        1 string data = "チュートリアル無効化"
        [139]
-        1 string data = "Privacy: Private"
+        1 string data = "プライバシー：プライベート"
        [140]
-        1 string data = "Privacy: Public"
+        1 string data = "プライバシー：パブリック"
        [141]
-        1 string data = "Multiplayer Start Game"
+        1 string data = "マルチプレイゲーム開始"
        [142]
-        1 string data = "Direct Connect Multiplayer"
+        1 string data = "マルチプレイ直接接続"
        [143]
-        1 string data = "Refresh Lobby List"
+        1 string data = "ロビーリスト更新"
        [144]
-        1 string data = "Change Lobby Sort Field"
+        1 string data = "ロビーソートフィールド変更"
        [145]
-        1 string data = "Toggle Lobby List (Sort Ascending)"
+        1 string data = "ロビーリスト切り替え(昇順ソート)"
        [146]
-        1 string data = "Change Lobby List (Sort Ascending)"
+        1 string data = "ロビーリスト変更(昇順ソート)"
        [147]
-        1 string data = "Swap Characters Left"
+        1 string data = "キャラクター左入れ替え"
        [148]
-        1 string data = "Skip Song"
+        1 string data = "曲スキップ"
        [149]
         1 string data = ""
        [150]
-        1 string data = "Toggle Visibility"
+        1 string data = "表示切り替え"
        [151]
-        1 string data = "Sell Junk"
+        1 string data = "ジャンク売却"
        [152]
-        1 string data = "Toggle Inventory Filter"
+        1 string data = "インベントリフィルター切り替え"
        [153]
-        1 string data = "Track"
+        1 string data = "追跡"
        [154]
-        1 string data = "Untrack"
+        1 string data = "追跡解除"
        [155]
-        1 string data = "Crouch Down"
+        1 string data = "しゃがむ"
        [156]
-        1 string data = "Take a lower stance to gain improved Hit Chance, Evasion, and Detection Time. You will automatically stand up if you begin moving."
+        1 string data = "低い姿勢を取ることで命中率、回避率、発見時間が向上します。移動を開始すると自動的に立ち上がります。"
        [157]
-        1 string data = "Stand Up"
+        1 string data = "立ち上がる"
        [158]
-        1 string data = "Stand up to begin moving again, but lose the benefits of crouching."
+        1 string data = "立ち上がって再び移動できるようになりますが、しゃがみの利点は失われます。"
        [159]
-        1 string data = "<color=#CA3429>Cannot change stance while in cover</color>"
+        1 string data = "<color=#CA3429>遮蔽中は姿勢を変更できません</color>"
        [160]
-        1 string data = "Adjust Brightness"
+        1 string data = "明るさ調整"
        [161]
-        1 string data = " Unused"
+        1 string data = ""
        [162]
-        1 string data = "Defend"
+        1 string data = "防御"
        [163]
-        1 string data = "Prepare"
+        1 string data = "準備"
        [164]
         1 string data = "HUD"
        [165]
-        1 string data = "Pan Camera Up"
+        1 string data = "カメラ上移動"
        [166]
-        1 string data = "Pan Camera Down"
+        1 string data = "カメラ下移動"
        [167]
-        1 string data = "Pan Camera Left"
+        1 string data = "カメラ左移動"
        [168]
-        1 string data = "Pan Camera Right"
+        1 string data = "カメラ右移動"
        [169]
-        1 string data = "Push To Talk"
+        1 string data = "プッシュトゥトーク"
    [1671]
     0 StringTable data
      1 string Filename = "interactables"

@@ -18,15 +18,15 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 57959,
-      "entries_untranslated_real": 1645,
+      "entries_translated": 58459,
+      "entries_untranslated_real": 1145,
       "entries_kept_english": 42541,
-      "completion_rate": 34.1,
-      "current_line": 479774,
+      "completion_rate": 34.4,
+      "current_line": 480541,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 428 complete: GUI interface (600 entries, indices 1844-2443). All validations passed (structure: 0 errors, action markers: no Japanese, quality: 0 issues). Quote format and structure strictly maintained. Continue from GUI index 2444.",
-      "entries_completed": 57959
+      "note": "Session 429 complete: GUI interface (500 entries, indices 2444-2604). All validations passed (structure: 0 errors, action markers: no Japanese, quality: 0 issues). Quote format and structure strictly maintained. GUI section complete. Continue from inputactions section (line 480541+).",
+      "entries_completed": 58459
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -59,21 +59,21 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "621b906",
-  "last_commit_message": "Base game translation: Session 428 - GUI interface (600 entries)",
+  "last_commit_hash": "ee37197",
+  "last_commit_message": "Base game translation: Session 429 - GUI interface (500 entries)",
   "validation_date": "2025-11-13",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
-  "analysis_session": "Session_428",
+  "analysis_session": "Session_429",
   "analysis_findings": {
-    "sections_translated": "gui (indices 1844-2443, 600 entries total - settings, weapons, multiplayer, difficulty)",
+    "sections_translated": "gui (indices 2444-2604, 500 entries total - settings detailed descriptions, multiplayer interface, DLC interface, crafting, save/load system)",
     "validation_results": "All validations passed. Structure: 0 errors. Action markers: No Japanese. Quality: 0 issues.",
-    "sections_affected": "gui (continued - comprehensive interface elements)",
-    "next_session": "Continue from GUI index 2444 (line 479774+). GUI section has 161 remaining entries (2444-2604)."
+    "sections_affected": "gui (complete - all interface elements finished)",
+    "next_session": "Continue from inputactions section (line 480541+)."
   },
-  "total_entries_completed": 57959,
+  "total_entries_completed": 58459,
   "total_entries": 232418,
-  "total_entries_untranslated": 174459,
-  "overall_completion_rate": 24.9,
-  "next_action": "Continue sequential translation from line 479774. Next: gui section (index 2444-2604)."
+  "total_entries_untranslated": 173959,
+  "overall_completion_rate": 25.2,
+  "next_action": "Continue sequential translation from line 480541. Next: inputactions section."
 }
