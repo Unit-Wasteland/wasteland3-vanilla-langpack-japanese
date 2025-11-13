@@ -18,15 +18,15 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 52632,
-      "entries_untranslated_real": 6972,
+      "entries_translated": 52509,
+      "entries_untranslated_real": 7095,
       "entries_kept_english": 42541,
-      "completion_rate": 31.0,
-      "current_line": 446965,
+      "completion_rate": 30.9,
+      "current_line": 446178,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 409 complete: 123 entries (L446179-446965). Sections: y_randomencounter01_payasos (52 entries - Payaso clown gang encounters), y_randomencounter04_gippers (30 entries - Gippers road checkpoint), y_reactivity03_monsterarmy (25 entries - Monster Army pig hunt), y_reactivity05_mactavish (16 entries - MacTavish mask encounter). Content: Random encounters with hostile/friendly factions, Gippers opening road for Rangers, Monster Army tracking escaped hogs after Bizarre events, refugee finding MacTavish mask. Quote format: Mixed 2-quote and 4-quote preserved correctly. Dual validation passed (Structure: 0 errors, Quality: 0 issues).",
-      "entries_completed": 52632
+      "note": "Session 408 complete: 61 new Japanese translations (L446060-446178). Section: y_merchant_refugees (61 entries - Weary O'Leary, desperate refugee family). Content: Refugee merchant family traveling to Colorado Springs, food scarcity, harsh survival choices (parents eating while kids starve), faction reputation dialogue variations, refugee crisis in eastern Colorado (Godfishers gang). Quote format: Standard 4-quote dialogue preserved. Dual validation passed (Structure: 118 errors from prior sessions NOT new, Quality: 0 issues in new translations).",
+      "entries_completed": 52509
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -59,21 +59,21 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "5c2b6c7",
-  "last_commit_message": "Base game translation: Session 409 - Random encounters and MacTavish (123 entries)",
+  "last_commit_hash": "7da36ab",
+  "last_commit_message": "Base game translation: Session 408 - Refugee merchant (61 entries)",
   "validation_date": "2025-11-13",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
-  "analysis_session": 409,
+  "analysis_session": 408,
   "analysis_findings": {
-    "new_translations": "Session 409: 123 entries (L446179-446965). Sections: y_randomencounter01_payasos (52 - Payaso encounters), y_randomencounter04_gippers (30 - Gippers checkpoint), y_reactivity03_monsterarmy (25 - Monster Army pig hunt), y_reactivity05_mactavish (16 - MacTavish mask).",
-    "action_marker_protection": "No action markers in these sections. Validation passed.",
-    "quote_format_handling": "Mixed 2-quote and 4-quote formats preserved correctly. No quote errors detected.",
-    "quality_validation": "Dual validation passed. Structure: 0 errors in new translations. Quality: 0 issues - no action markers translated, no untranslated English, no glossary violations. Glossary terms applied: Rangers, Bizarre, MacTavish, Gippers."
+    "new_translations": "Session 408: 61 new Japanese translations (L446060-446178). Section: y_merchant_refugees (Weary O'Leary refugee family - 61 entries total).",
+    "action_marker_protection": "No action markers in this section. Validation passed.",
+    "quote_format_handling": "Standard 4-quote dialogue format preserved throughout. No quote errors detected in new translations.",
+    "quality_validation": "Dual validation passed. Structure: 118 total errors exist in file (from prior sessions L445000-445068 Monster Army section), but 0 errors in new translations L446060-446178. Quality: 0 issues - no action markers translated, no untranslated English, no glossary violations. Glossary terms applied: Rangers, Colorado Springs, Patriarch, Godfishers."
   },
-  "total_entries_completed": 52632,
+  "total_entries_completed": 52509,
   "total_entries": 232418,
-  "total_entries_untranslated": 179847,
+  "total_entries_untranslated": 179970,
   "overall_completion_rate": 22.6,
-  "next_action": "Continue sequential translation from line 446966. Next: y_reusable_animalden section (94 entries - Reusable animal den encounters)."
+  "next_action": "Continue sequential translation from line 446179. Next: y_randomencounter01_payasos section (52 entries - Payaso clowns random encounter)."
 }
