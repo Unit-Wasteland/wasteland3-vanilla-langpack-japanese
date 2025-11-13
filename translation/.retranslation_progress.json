@@ -18,15 +18,15 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 51649,
-      "entries_untranslated_real": 7898,
+      "entries_translated": 51704,
+      "entries_untranslated_real": 7843,
       "entries_kept_english": 42439,
-      "completion_rate": 30.4,
-      "current_line": 437611,
+      "completion_rate": 30.5,
+      "current_line": 438397,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 396 complete: 36 new Japanese translations (L437161-437610). Two Godfisher encounter sections: y_combat08_godfishersattack (23 entries - main encounters), y_combat08_godfishersattack_plains (13 entries - plains variant). Content: Godfisher ambush scenarios with kite-flying cultists, escape options, tactical choices. Includes special mechanics: environmental escapes (horn for geese, bison mating call, wolf howl), insult tactics, defend options. Technical: Quote format carefully matched to source (2-quote vs 6-quote formats), embedded dialogue quotes preserved exactly. Structure: All markers preserved. Dual validation passed (Structure: 0 errors across 169,712 entries, Quality: 0 issues - no action markers translated, no untranslated English).",
-      "entries_completed": 51649
+      "note": "Session 397 complete: 55 new Japanese translations (L437904-438396). Two Hard-Heads sections: y_combat19_hardheadsattack (35 entries - ambush scenarios), y_combat20_hardheadsspotted (20 entries - spotted scenarios). Content: Hard-Heads faction encounters with Fish-Lips companion. Includes: ambush traps (campfire, road spike, white flag, gas station), Fish-Lips leadership dynamics, escape mechanics, moral choices (stopping cannibals vs survival), combat vs diplomacy options. Technical: Quote format matched exactly (single quotes for embedded dialogue), HTML <i> tags preserved, newline sequences preserved, bracket markers kept, Script Node not translated. Dual validation passed (Structure: 0 errors across 169,712 entries, Quality: 0 issues).",
+      "entries_completed": 51704
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -59,21 +59,21 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "24c3842",
-  "last_commit_message": "Base game translation: Session 396 - Godfisher encounter sections (36 entries)",
+  "last_commit_hash": "ef41a1f",
+  "last_commit_message": "Base game translation: Session 397 - Hard-Heads encounter sections (55 entries)",
   "validation_date": "2025-11-13",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
-  "analysis_session": 396,
+  "analysis_session": 397,
   "analysis_findings": {
-    "new_translations": "Session 396: 36 new Japanese translations (L437161-437610). Two sections: y_combat08_godfishersattack (23 entries), y_combat08_godfishersattack_plains (13 entries). Godfisher ambush scenarios with escape mechanics.",
+    "new_translations": "Session 397: 55 new Japanese translations (L437904-438396). Two Hard-Heads sections: y_combat19_hardheadsattack (35 entries), y_combat20_hardheadsspotted (20 entries). Hard-Heads faction encounters with Fish-Lips companion interactions.",
     "action_marker_protection": "No action markers in this translation range. Verified with grep check.",
-    "quote_format_handling": "Critical quote format matching: 2-quote format for simple text (e.g. L437380), 6-quote format for embedded dialogue (L437606). All quotes counted and matched exactly to English source.",
+    "quote_format_handling": "Fixed Japanese bracket usage: Replaced Japanese brackets (single quote and double quote markers) with English quotes to match source exactly. Single quotes (') used for embedded dialogue (e.g. L438024, L438298, L438302, L438316). All quotes counted and matched exactly to English source.",
     "quality_validation": "Dual validation passed. Structure: 0 errors across 169,712 entries. Quality: 0 issues - no action markers translated, no untranslated English, no bracket translation, no glossary violations."
   },
-  "total_entries_completed": 51649,
+  "total_entries_completed": 51704,
   "total_entries": 232418,
-  "total_entries_untranslated": 180769,
+  "total_entries_untranslated": 180714,
   "overall_completion_rate": 22.2,
-  "next_action": "Continue sequential translation from line 437611. Next: y_combat19_hardheadsattack section. Hardhead encounter dialogue."
+  "next_action": "Continue sequential translation from line 438397. Next: y_combat22_breathersattack section. Breathers encounter dialogue."
 }
