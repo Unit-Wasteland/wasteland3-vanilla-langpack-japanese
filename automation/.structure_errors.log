@@ -1,0 +1,76 @@
+================================================================================
+Unity StringTable 厳格構造検証結果 v2.0
+================================================================================
+総行数: 530,425
+string data行数: 169,712
+
+エラー: 159件
+警告: 0件
+
+================================================================================
+エラー一覧:
+================================================================================
+
+QUOTE_COUNT_MISMATCH: 159件
+  Line 501850: 引用符の数が不一致: ソース=2, ターゲット=4
+    SRC: 1 string data = "Ancient Love Letter"
+    TGT: 1 string data = ""古代の恋文""
+  Line 501852: 引用符の数が不一致: ソース=3, ターゲット=4
+    SRC: 1 string data = ""My dearest, I have left a puzzle for you as a test of our bond. This is the first 
+    TGT: 1 string data = ""最愛の君へ。愛の証として、君にパズルを残しました。ここはこの公園内の特別な場所3つのうちの最初の1つです。今日は日曜日。私たちが再び一緒になるまでの日々を数えていま
+  Line 501854: 引用符の数が不一致: ソース=2, ターゲット=4
+    SRC: 1 string data = "Pelt of Proposal"
+    TGT: 1 string data = ""プロポーズの毛皮""
+  Line 501856: 引用符の数が不一致: ソース=4, ターゲット=6
+    SRC: 1 string data = "Tight, cramped words are tattooed on the underside of the pelt. "My dearest Camila,
+    TGT: 1 string data = ""毛皮の裏側に、小さくぎっしりと詰まった文字で刺青が施されている。"最愛のカミラへ。君は私の愛のパズルを解いてくれた!この毛皮は私の永遠の忠誠を表すもの。君なしでは生
+  Line 501858: 引用符の数が不一致: ソース=2, ターゲット=4
+    SRC: 1 string data = "Gas Mask"
+    TGT: 1 string data = ""ガスマスク""
+  Line 501860: 引用符の数が不一致: ソース=2, ターゲット=4
+    SRC: 1 string data = "The ultimate post-apocalypse fashion accessory. Provides immunity to hazardous gas 
+    TGT: 1 string data = ""究極のポストアポカリプス・ファッションアクセサリー。有害なガスの雲への完全な耐性を提供する。""
+  Line 501862: 引用符の数が不一致: ソース=2, ターゲット=4
+    SRC: 1 string data = "A Letter from Aunt Ellen"
+    TGT: 1 string data = ""エレン叔母からの手紙""
+  Line 501864: 引用符の数が不一致: ソース=2, ターゲット=4
+    SRC: 1 string data = "This letter is written in elegant, flowing cursive script on heavy, cream-colored p
+    TGT: 1 string data = ""この手紙は、クリーム色の厚い紙に優美で流れるような筆記体で書かれている。サウル・ブキャナン宛だ。日付は約50年前、総主教がまだ若かった頃のものだ。""
+  Line 501866: 引用符の数が不一致: ソース=2, ターゲット=4
+    SRC: 1 string data = "Bunker Pamphlet"
+    TGT: 1 string data = ""バンカーのパンフレット""
+  Line 501868: 引用符の数が不一致: ソース=2, ターゲット=4
+    SRC: 1 string data = "Made of glossy, heavy paper, this ancient brochure is faded and flecked with mold."
+    TGT: 1 string data = ""光沢のある厚い紙で作られたこの古代のパンフレットは、色あせてカビの斑点がついている。""
+  Line 501870: 引用符の数が不一致: ソース=2, ターゲット=4
+    SRC: 1 string data = "Dynamic Cross-Photon Matrix"
+    TGT: 1 string data = ""動的光子クロス行列""
+  Line 501872: 引用符の数が不一致: ソース=2, ターゲット=4
+    SRC: 1 string data = "Well, it's a dynamic matrix that crosses photons. Clearly."
+    TGT: 1 string data = ""まあ、光子を交差させる動的行列だ。明らかだな。""
+  Line 501874: 引用符の数が不一致: ソース=2, ターゲット=4
+    SRC: 1 string data = "Gold Plated Hammer"
+    TGT: 1 string data = ""金メッキのハンマー""
+  Line 501876: 引用符の数が不一致: ソース=2, ターゲット=4
+    SRC: 1 string data = "A smaller, gold plated cast of the Patriarch's signature weapon. This early prototy
+    TGT: 1 string data = ""総主教の代表的な武器を金メッキで小型に再現したもの。この初期のプロトタイプは軽すぎて実際の武器として扱うには向いていない。柄のデザインは、特定の溝にスライドして収ま
+  Line 501878: 引用符の数が不一致: ソース=2, ターゲット=4
+    SRC: 1 string data = "Patriarch's Prototype Hammer"
+    TGT: 1 string data = ""総主教の試作ハンマー""
+  Line 501880: 引用符の数が不一致: ソース=2, ターゲット=4
+    SRC: 1 string data = "The design of the Patriarch's hammer was subject to several rounds of revisions."
+    TGT: 1 string data = ""総主教のハンマーのデザインは、何度も改訂を重ねた。""
+  Line 501882: 引用符の数が不一致: ソース=2, ターゲット=4
+    SRC: 1 string data = "Laxative"
+    TGT: 1 string data = ""下剤""
+  Line 501884: 引用符の数が不一致: ソース=2, ターゲット=4
+    SRC: 1 string data = "Ingesting this compound is guaranteed to empty one's bowels."
+    TGT: 1 string data = ""この化合物を摂取すれば、腸の中身が確実に空になる。""
+  Line 501886: 引用符の数が不一致: ソース=2, ターゲット=4
+    SRC: 1 string data = "Everybody Shits!"
+    TGT: 1 string data = ""誰だってクソをする!""
+  Line 501888: 引用符の数が不一致: ソース=2, ターゲット=4
+    SRC: 1 string data = "This dog-eared composition book smells like an outhouse, but its pages are packed w
+    TGT: 1 string data = ""この折り目だらけの作文ノートは便所のような匂いがするが、ページには化学式がびっしりと詰まっている。""
+  ... 他139件
+================================================================================
