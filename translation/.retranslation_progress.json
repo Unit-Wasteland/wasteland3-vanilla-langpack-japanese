@@ -9,13 +9,13 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 511009,
+    "current_line": 512341,
     "total_lines": 530425,
-    "entries_completed": 63178,
+    "entries_completed": 63327,
     "total_entries": 169712,
-    "percent_complete": 37.22,
-    "last_section": "poi",
-    "last_entry_index": 255,
+    "percent_complete": 37.31,
+    "last_section": "scenes",
+    "last_entry_index": 120,
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
@@ -34,20 +34,20 @@
     "percent_complete": 0.0
   },
   "last_session": {
-    "session_number": 449,
+    "session_number": 450,
     "date": "2025-11-14",
-    "entries_processed": 256,
-    "sections_completed": ["poi entries [0]-[255]"],
-    "commit_hash": "84eec7a",
+    "entries_processed": 149,
+    "sections_completed": ["scenedescriptions entries [8]-[95]", "scenes entries [0]-[120]"],
+    "commit_hash": "pending",
     "validation_passed": true,
-    "notes": "Translated POI location names: buildings, rooms, landmarks. Fixed quote format issue (used correct single-quote format). All validations passed.",
-    "next_action": "Continue scenedescriptions section from line 511009"
+    "notes": "Translated scene descriptions and location names. Fixed quote count mismatch in Resort name entry. All validations passed.",
+    "next_action": "Continue skills section from line 512341"
   },
   "cumulative_stats": {
-    "total_sessions": 449,
-    "total_entries_translated": 63178,
+    "total_sessions": 450,
+    "total_entries_translated": 63327,
     "average_entries_per_session": 141,
-    "estimated_sessions_remaining_base": 756,
+    "estimated_sessions_remaining_base": 755,
     "estimated_days_remaining_base": "31-38 days"
   }
 }

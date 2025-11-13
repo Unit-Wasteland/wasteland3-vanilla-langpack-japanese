@@ -9,13 +9,13 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 509068,
+    "current_line": 511009,
     "total_lines": 530425,
-    "entries_completed": 62724,
+    "entries_completed": 63178,
     "total_entries": 169712,
-    "percent_complete": 36.95,
-    "last_section": "perks",
-    "last_entry_index": 277,
+    "percent_complete": 37.22,
+    "last_section": "poi",
+    "last_entry_index": 255,
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
@@ -34,20 +34,20 @@
     "percent_complete": 0.0
   },
   "last_session": {
-    "session_number": 447,
-    "date": "2025-11-13",
-    "entries_processed": 13,
-    "sections_completed": ["options entry [1]", "perks entries [254]-[277]"],
-    "commit_hash": "f7326ed",
+    "session_number": 449,
+    "date": "2025-11-14",
+    "entries_processed": 256,
+    "sections_completed": ["poi entries [0]-[255]"],
+    "commit_hash": "84eec7a",
     "validation_passed": true,
-    "notes": "Translated options section and perks character backgrounds. Key learning: embedded quotes in English source must be preserved as regular quote marks, not converted to Japanese brackets. Quote count must match source exactly.",
-    "next_action": "Continue perks section from line 509068 (entry [278]+)"
+    "notes": "Translated POI location names: buildings, rooms, landmarks. Fixed quote format issue (used correct single-quote format). All validations passed.",
+    "next_action": "Continue scenedescriptions section from line 511009"
   },
   "cumulative_stats": {
-    "total_sessions": 447,
-    "total_entries_translated": 62724,
-    "average_entries_per_session": 140,
-    "estimated_sessions_remaining_base": 764,
-    "estimated_days_remaining_base": "32-38 days"
+    "total_sessions": 449,
+    "total_entries_translated": 63178,
+    "average_entries_per_session": 141,
+    "estimated_sessions_remaining_base": 756,
+    "estimated_days_remaining_base": "31-38 days"
   }
 }
