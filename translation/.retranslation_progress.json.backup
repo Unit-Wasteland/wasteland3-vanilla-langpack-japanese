@@ -18,15 +18,15 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 49792,
-      "entries_untranslated_real": 9755,
-      "entries_kept_english": 42496,
-      "completion_rate": 29.3,
-      "current_line": 421597,
+      "entries_translated": 49887,
+      "entries_untranslated_real": 9660,
+      "entries_kept_english": 42425,
+      "completion_rate": 29.4,
+      "current_line": 422598,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 377 complete: 169 new Japanese translations (L420475-421597). Nine sections complete: x3401_lookout (36 entries - clown museum door guard dialogue with Spanish slang preserved: cabrón, pendejos. Ballerina repair quest negotiation with fani cultural reference), x3401_lookouthiddendoor (9 entries - hidden door encounter with Payasos gang bilingual dialogue), x3401_lookouthiddendoordestroyed (6 entries - door destruction confrontation with Spanish combat expressions), x3401_radio_addformuseum (2 entries - bilingual Spanish-English radio advertisement for Clown Museum with cultural authenticity: Oye amigos, el Big Top, cabronzitos, Arriba los Payasos), x3501_arapahomaintruck (4 entries - Arapaho caravan truck investigation with hammer-and-gear emblem description), x3501_debugman (12 entries - developer debug menu items), x3501_drivetrain (65 entries - Drive-Train caravan leader dialogue including ambush aftermath, injured survivor treatment, Scar Collectors encounter, cargo security discussion), x3501_georgiaoverdrive (14 entries - Georgia Overdrive wounded survivor medical treatment with Suture Kit reference), x3501_radio_gonzalez_scenecomplete (21 entries - Ranger HQ radio communications about Arapaho Caravan mission outcomes). Dual validation passed (Structure: 0 errors all 169,712 entries - exact quote count match with English source, Quality: 0 issues L420475-421597 - 0 action markers contain Japanese characters, 0 untranslated English entries, 0 bracket content translated, 0 glossary violations, Script Node markers preserved).",
-      "entries_completed": 49792
+      "note": "Session 378 complete: 95 new Japanese translations (L421597-422598). Ten sections complete: x3501_shotgun (13 entries - wounded survivor medical diagnosis and treatment scene with Injury Kit field surgery), merchant_00 (4 entries - Spanish empty, English text preserved), x3501_merchant_00 (6 entries - Emma's Roving Emporium mobile merchant dialogue), x3601_merchant_01 (6 entries - Amblin' Art mobile mart merchant), x3701_merchant_02 (6 entries - crude merchant dialogue), x3801_merchant_03 (6 entries - desperate merchant dialogue), x3601_backdoorwarning (12 entries - Santa back door warning escalation with reindeer threats), x3601_coldwarning (2 entries - Santa weather advisory), x3601_combatbarks_santa (20 entries - Santa combat barks with dark Christmas-themed threats including Ho-ho-homicidal wordplay and naughty list references), x3601_elfbarks (20 entries - enslaved elf worker dialogue with sing-song Christmas carol parodies and desperate liberation pleas). Santa character voice maintained with ホ、ホホ pattern. Dark humor preserved: サンタメンタル, ホ、ホホ殺人的. HTML tags maintained: <i>エルフ力</i>, <i>焼き</i>. Drug operation terms: ブレイン・キャンディ, 麻薬カルテル. Action markers protected: ::sing-song::, ::sobs:: preserved in English. Script Node markers 1-21 untranslated. Dual validation passed (Structure: 0 errors all 169,712 entries - exact quote count match with English source, Quality: 0 issues L421597-422598 - 0 action markers contain Japanese characters, 0 untranslated English entries, 0 bracket content translated, 0 glossary violations).",
+      "entries_completed": 49887
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -59,21 +59,21 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "ade4e3c",
-  "last_commit_message": "Base game translation: Session 377 - Arapaho caravan and clown museum sections (169 entries)",
+  "last_commit_hash": "0a9bfb1",
+  "last_commit_message": "Base game translation: Session 378 - Santa's Workshop and merchant sections (95 entries)",
   "validation_date": "2025-11-13",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
-  "analysis_session": 377,
+  "analysis_session": 378,
   "analysis_findings": {
-    "new_translations": "Session 377: 169 new Japanese translations (L420475-421597). Nine sections complete: x3401_lookout (36 entries - Payasos Rojos clown museum door guard with ballerina repair quest), x3401_lookouthiddendoor (9 entries - hidden door confrontation), x3401_lookouthiddendoordestroyed (6 entries - destroyed door aftermath), x3401_radio_addformuseum (2 entries - bilingual museum advertisement), x3501_arapahomaintruck (4 entries - Arapaho truck cargo investigation), x3501_debugman (12 entries - debug menu), x3501_drivetrain (65 entries - Drive-Train caravan leader comprehensive dialogue about Scar Collectors ambush with survivor rescue medical treatment and cargo security), x3501_georgiaoverdrive (14 entries - Georgia Overdrive wounded survivor treatment), x3501_radio_gonzalez_scenecomplete (21 entries - Ranger HQ mission debrief radio communications). Spanish gang slang preserved for cultural authenticity: cabrón, pendejos, cabronzitos, Oye amigos, el Big Top, Arriba los Payasos. Combat terminology: [Attack] brackets maintained. Character names: Drive-Train, Georgia Overdrive, November (team codename). Faction references: Scar Collectors, Arapaho, Rangers, Marshals.",
-    "action_marker_protection": "Zero action markers in this translated range. Quality validation confirmed 0 action markers contain Japanese characters in L420475-421597.",
-    "quote_format_handling": "Exact quote count match strictly maintained with English source across all 169 entries. Standard 4-quote format (double-double-quote) for dialogue. 2-quote format for descriptive text without quotes. Script Node markers kept in English (8 instances: Script Node 2, 8, 9, 10, 13, 38, 43, 48, 50, 55). Bilingual Spanish-English entries preserved with exact structure: Oye amigos, el Big Top format maintained. [Attack] combat option brackets untranslated. HTML tags preserved: <i>Ten!</i> italics maintained.",
-    "quality_validation": "Triple validation passed with zero errors. Structure: 0 errors - all 169,712 entries maintain exact quote count match with English source across complete file scan. Action markers: 0 Japanese characters in action markers. Quality: 0 issues L420475-421597 - 0 action markers translated, 0 untranslated English entries in translated range, 0 bracket content translated to Japanese, 0 glossary terminology violations. Spanish reference consulted, unified translation decision logic applied correctly for all entries."
+    "new_translations": "Session 378: 95 new Japanese translations (L421597-422598). Ten sections complete: x3501_shotgun (13 entries - wounded survivor medical diagnosis with internal bleeding assessment and Injury Kit field surgery stabilization), merchant_00 (4 entries - Spanish empty, English preserved per strict workflow), x3501_merchant_00 (6 entries - Emma's Roving Emporium mobile merchant), x3601_merchant_01 (6 entries - Amblin' Art mobile mart), x3701_merchant_02 (6 entries - crude merchant), x3801_merchant_03 (6 entries - desperate merchant seeking survival), x3601_backdoorwarning (12 entries - Santa back door warning escalation: elves-only room threats, reindeer feeding intimidation, elf explosion aftermath dialogue), x3601_coldwarning (2 entries - Santa weather advisory), x3601_combatbarks_santa (20 entries - Santa combat barks with dark Christmas wordplay: Ho-ho-homicidal, naughty list threats, candy cane weapon puns, サンタが痛みをお届け), x3601_elfbarks (20 entries - enslaved elf dialogue: sing-song Christmas carol parodies with jangled nerves theme, desperate pleas for rescue from slave labor, post-liberation gratitude, alarm system torture description). Character voice: Santa's ホ、ホホ pattern maintained throughout. Dark humor: サンタメンタル (Santa-mental), ホ、ホホ殺人的 (Ho-ho-homicidal). Drug operation: ブレイン・キャンディ (Brain Candy), 麻薬カルテル (drug cartel), レンジャー本部 (Ranger HQ). HTML tags: <i>エルフ力</i> (elf-made → elf-power), <i>焼き</i>上がる (bake pun).",
+    "action_marker_protection": "Action markers protected: ::sing-song::, ::sobs::, ::deep breath:: preserved in English across all elf worker and Santa dialogue. Quality validation confirmed 0 action markers contain Japanese characters in L421597-422598.",
+    "quote_format_handling": "Exact quote count match strictly maintained with English source across all 95 entries. Standard 4-quote format for dialogue. Script Node markers 1-21 kept in English (technical identifiers). [Attack] combat option brackets untranslated. HTML italic tags preserved: <i>エルフ力</i>, <i>焼き</i>, <i>崩れて</i>. Developer notes with typos preserved exactly: Sets global as if the player santa santa run away skill intimidation (unchanged - maintains exact structure).",
+    "quality_validation": "Dual validation passed with zero errors. Structure: 0 errors - all 169,712 entries maintain exact quote count match with English source across complete file scan. Quality: 0 issues L421597-422598 - 0 action markers translated to Japanese, 0 untranslated English entries in translated range, 0 bracket content translated, 0 glossary violations. Script Node markers preserved. Spanish reference consulted for translation decision. Unified translation logic applied correctly: merchant_00 Spanish empty entries kept in English, all other translatable content rendered to Japanese."
   },
-  "total_entries_completed": 49792,
+  "total_entries_completed": 49887,
   "total_entries": 232418,
-  "total_entries_untranslated": 173675,
-  "overall_completion_rate": 21.4,
-  "next_action": "Continue sequential translation from line 421597. Next section: x3501_shotgun and subsequent sections. Process next translatable entries sequentially with strict validation."
+  "total_entries_untranslated": 173580,
+  "overall_completion_rate": 21.5,
+  "next_action": "Continue sequential translation from line 422598. Next section: x3601_mainsantaconversation (remaining entries) and subsequent sections. Process remaining Santa Workshop dialogue sequentially with strict validation."
 }
