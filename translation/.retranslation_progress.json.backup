@@ -18,15 +18,15 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 51818,
-      "entries_untranslated_real": 7729,
-      "entries_kept_english": 42439,
-      "completion_rate": 30.5,
-      "current_line": 439834,
+      "entries_translated": 51895,
+      "entries_untranslated_real": 7652,
+      "entries_kept_english": 42469,
+      "completion_rate": 30.6,
+      "current_line": 440508,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 400 complete: 70 new Japanese translations (L439306-439834). Sections: y_combat24_breathersspecial (38 entries - hallucination sequence), y_combat25_marshalscarchase (22 entries - car chase), y_combat26_marshalsinvestigation (10 entries partially - murder investigation). Content: Drug-induced hallucinations with rainbow squirrel, Matrix references, marshal conflicts. Technical: Double-double-quote format maintained, <i> tags preserved, glossary terms applied correctly (Marshals, Rangers, November, Colorado). Structure protection: All entries verified. Dual validation passed (Structure: 0 errors across 169,712 entries, Quality: 0 issues).",
-      "entries_completed": 51818
+      "note": "Session 401 complete: 77 new Japanese translations (L439836-440508). Sections: y_combat26_marshalsinvestigation (41 entries - investigation conclusion), y_combat27_marshalsprotection (18 entries - extortion encounters), y_combat35_razorbacksattack (24 entries - combat scenarios), y_combat36_razorbacksspotted (24 entries - stealth/ambush). Content: Marshal investigation incompetence and player choices, protection racket encounters, razorback wildlife combat and stealth encounters, Team November tactical coordination. Technical: 30 Script Node entries preserved in English, double-double-quote format maintained, glossary terms applied (Marshals, November, Colorado). Dual validation passed (Structure: 0 errors across 169,712 entries, Quality: 0 issues).",
+      "entries_completed": 51895
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -59,21 +59,21 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "baaea7d",
-  "last_commit_message": "Base game translation: Session 400 - Hallucination and marshal sections (70 entries)",
+  "last_commit_hash": "d80e385",
+  "last_commit_message": "Base game translation: Session 401 - Marshal and razorback encounter sections (77 entries)",
   "validation_date": "2025-11-13",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
-  "analysis_session": 400,
+  "analysis_session": 401,
   "analysis_findings": {
-    "new_translations": "Session 400: 70 new Japanese translations (L439306-439834). Sections: y_combat24_breathersspecial (38 entries), y_combat25_marshalscarchase (22 entries), y_combat26_marshalsinvestigation (10 entries partial).",
-    "action_marker_protection": "No action markers in translated ranges. Verified with grep check. All action markers remain in English.",
-    "quote_format_handling": "Double-double-quote format maintained throughout. <i> tags preserved in line 439578. All quotes character-for-character matched with English source.",
-    "quality_validation": "Dual validation passed. Structure: 0 errors across 169,712 entries. Quality: 0 issues - no action markers translated, no untranslated English, no bracket translation, no glossary violations. Glossary terms correctly applied: Marshals, Rangers, November, Colorado."
+    "new_translations": "Session 401: 77 new Japanese translations (L439836-440508). Sections: y_combat26_marshalsinvestigation (41 entries - investigation conclusion), y_combat27_marshalsprotection (18 entries - extortion), y_combat35_razorbacksattack (24 entries), y_combat36_razorbacksspotted (24 entries).",
+    "action_marker_protection": "No action markers in translated ranges. All action markers remain in English. Verified with quality validation.",
+    "quote_format_handling": "Double-double-quote format maintained throughout. 30 Script Node entries preserved in English as per do_not_translate list. All quotes character-for-character matched with English source.",
+    "quality_validation": "Dual validation passed. Structure: 0 errors across 169,712 entries. Quality: 0 issues - no action markers translated, no untranslated English, no bracket translation, no glossary violations. Glossary terms correctly applied: Marshals, November, Colorado."
   },
-  "total_entries_completed": 51818,
+  "total_entries_completed": 51895,
   "total_entries": 232418,
-  "total_entries_untranslated": 180600,
+  "total_entries_untranslated": 180523,
   "overall_completion_rate": 22.3,
-  "next_action": "Continue sequential translation from line 439834. Next: Continue y_combat26_marshalsinvestigation section (remaining 41 entries)."
+  "next_action": "Continue sequential translation from line 440510. Next: y_combat41_droolsattack section."
 }
