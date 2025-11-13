@@ -436367,35 +436367,35 @@
       1 Array Array (15 items)
        0 int size = 15
        [0]
-        1 string data = "Gun shots echo across the snow, then stop as you get close. Three civilians huddle in the door of a concrete bunker, while a woman with a ranger star on her parka loots some heavily armed corpses. She looks up as she hears you. Her skin is green."
+        1 string data = "銃声が雪原に響き渡り、あなたが近づくと止まる。3人の民間人がコンクリート製の掩蔽壕の入り口に身を寄せ合い、パーカーにレンジャー・スターを付けた女性が重武装した死体を物色している。彼女はあなたの気配に気づいて顔を上げる。肌が緑色だ。"
        [1]
-        1 string data = ""November, thanks for coming. All taken care of, though. Just robbing these robbers.""
+        1 string data = ""ノベンバー、来てくれてありがとう。でももう片付いたわ。強盗から物を盗んでるところよ。""
        [2]
-        1 string data = ""Who are you?""
+        1 string data = ""あなたは誰だ?""
        [3]
-        1 string data = ""Why is your skin green?""
+        1 string data = ""なぜ肌が緑色なんだ?""
        [4]
-        1 string data = ""What happened here?""
+        1 string data = ""ここで何があった?""
        [5]
-        1 string data = ""We haven't met? I'm Pizepi Joren, one of the Rangers who came out here with you from Arizona. We must have missed each other at HQ.""
+        1 string data = ""会ったことない?私はピゼピ・ジョレン。アリゾナからあなたと一緒にここに来たレンジャーの一人よ。本部ですれ違いだったのね。""
        [6]
-        1 string data = ""I'm a mutant. From Darwin Village, back in AZ. Joined up with the Rangers when they came through about five years ago. Been with 'em ever since - helping people out and seeing the world.""
+        1 string data = ""私はミュータントなの。アリゾナのダーウィン村出身。5年ほど前にレンジャーが村に来た時に入隊したの。それ以来ずっと一緒よ。人々を助けて世界を見て回ってる。""
        [7]
-        1 string data = ""This is a seed bank. They preserve native crops so people will always have viable seeds to plant. A crucial public resource."\n\n\nShe points to the bodies. "These jerks wanted to rob the place and sell the seeds. I, uh... discouraged them.""
+        1 string data = ""ここは種子バンクよ。在来作物を保存して、人々がいつでも発芽可能な種を植えられるようにしてるの。極めて重要な公共資源よ。"\n\n\n彼女は死体を指差す。"この連中は場所を襲って種を売り払おうとしたの。私が、えっと…説得したわ。""
        [8]
-        1 string data = ""These jerks were 'entrepreneurs' who wanted to take over and charge for the seeds. Trying to make money off people's desperation. The seed bank folks called me to discourage their hostile take-over. Well, uh... they wouldn't take no for an answer.""
+        1 string data = ""この連中は'起業家'気取りで、乗っ取って種に課金しようとしてたの。人々の絶望につけ込んで金儲けしようとしてね。種子バンクの人たちが敵対的な乗っ取りを阻止するよう私を呼んだの。まあ、えっと…連中は引き下がらなかったわ。""
        [9]
-        1 string data = ""Anyway, I'm done here if you need a hand. You're heading for Denver, right? Looking for Valor Buchanan? Good.""
+        1 string data = ""とにかく、私はここでの仕事は終わったから、手伝いが必要なら。デンバーに向かってるのよね?ヴァラー・ブキャナンを探してる?いいわね。""
        [10]
-        1 string data = ""The sooner we get all the Patriarch's kids back to him, the sooner we can return to Arizona with the supplies he promised us. My people are dying back there, and I know yours are too, so we gotta keep moving. Ready?""
+        1 string data = ""パトリアークの子供たち全員を早く戻せば、彼が約束した物資を持ってアリゾナに帰れる。私の仲間は向こうで死にかけてるし、あなたの仲間もそうでしょ。だから進み続けないと。準備はいい?""
        [11]
-        1 string data = ""Ready. Let's go.""
+        1 string data = ""準備できてる。行こう。""
        [12]
-        1 string data = ""We're good. Thanks anyway.""
+        1 string data = ""大丈夫だ。ありがとう。""
        [13]
-        1 string data = ""Great.""
+        1 string data = ""最高よ。""
        [14]
-        1 string data = ""No worries. See you back at HQ.""
+        1 string data = ""問題ないわ。本部で会いましょう。""
    [1591]
     0 StringTable data
      1 string Filename = "y_combat01_dorseysattack"
@@ -436547,27 +436547,27 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = "A group of Dorseys lies ahead. Hooting and hollering about... something. They seem to be working themselves into a frenzy. Perhaps to go on the attack, or just because they're fucking crazy."
+        1 string data = "ドーシーズの集団が前方にいる。何かについて…叫び声を上げている。狂乱状態に陥りつつあるようだ。攻撃に出るつもりか、それとも単に狂ってるだけか。"
        [2]
-        1 string data = "More Dorseys doing crazy Dorsey shit. Screaming about the Deluge and getting worked up to do something to someone. You've seen it before, no doubt you'll see it again."
+        1 string data = "またドーシーズがクレイジーなことをやってる。デリュージについて叫び、誰かに何かをしようと興奮している。見慣れた光景だ。きっとまた見ることになるだろう。"
        [3]
-        1 string data = "What will you do?"
+        1 string data = "どうする?"
        [4]
-        1 string data = "[Attack] Order November into combat utilizing the terrain and positioning against the Dorseys."
+        1 string data = "[Attack] 地形と配置を利用してノベンバーにドーシーズとの戦闘を命じる。"
        [5]
-        1 string data = "[Attack] Let's kill these sick bastards!"
+        1 string data = "[Attack] この病んだ野郎どもを殺そう!"
        [6]
-        1 string data = "[Flee] Let's move out of here, really really quietly."
+        1 string data = "[Flee] ここから静かに、本当に静かに離れよう。"
        [7]
-        1 string data = "[Flee] We can't deal with this now, let's get the hell out of here, fast."
+        1 string data = "[Flee] 今は対処できない。急いでここから逃げよう。"
        [8]
-        1 string data = "[Success] You direct the Team to take up optimal cover points, putting you in range before the Dorseys can attack. Looks like November has the upper-hand on the blood-thirsty Dorseys!"
+        1 string data = "[Success] チームに最適な遮蔽位置を取らせ、ドーシーズが攻撃する前に射程内に入る。ノベンバーが血に飢えたドーシーズに対して優位に立ったようだ!"
        [9]
-        1 string data = "The Dorseys were ready and waiting for just such an attack. They're already armed and waiting to shed Ranger blood!"
+        1 string data = "ドーシーズはそのような攻撃を待ち構えていた。すでに武装してレンジャーの血を流す準備ができている!"
        [10]
-        1 string data = "[Success] Team November sneaks away without raising an alert. You're not sure the blood raging Dorseys would notice anything other than the Deluge itself..."
+        1 string data = "[Success] チーム・ノベンバーは警報を発せずにこっそり離れる。血に狂ったドーシーズはデリュージ以外には何も気づかないだろう…"
        [11]
-        1 string data = "[Fail] It seems the Dorseys had lookouts. As November begins to back track, the Dorseys begin a blood curdling howl! Someone shouts: 'It's the Rangers, KILL THEM ALL!'"
+        1 string data = "[Fail] ドーシーズには見張りがいたようだ。ノベンバーが後退し始めると、ドーシーズが血も凍るような叫び声を上げ始める!誰かが叫ぶ: 'レンジャーだ、皆殺しにしろ!'"
        [12]
         1 string data = "Script Node 13"
        [13]
@@ -436579,33 +436579,33 @@
        [16]
         1 string data = ""
        [17]
-        1 string data = "You come around a bend in the road and drive right into a Dorsey ambush. Oops!"
+        1 string data = "道路のカーブを曲がると、ドーシーの待ち伏せに突っ込んでしまう。しまった!"
        [18]
-        1 string data = "You're having a stand-up lunch by the side of the road when you get the feeling you're being watched. It's the Dorseys!"
+        1 string data = "道路脇で立ったまま昼食をとっていると、見られている気がする。ドーシーズだ!"
        [19]
-        1 string data = "You didn't see those Dorseys until it was way too late. Now they're raising their weapons. Decision time."
+        1 string data = "ドーシーズに気づいたときには遅すぎた。今、彼らは武器を構えている。決断の時だ。"
        [20]
-        1 string data = "Well, you walked into that. The Dorseys have the drop on you. Now what?"
+        1 string data = "まあ、罠にかかった。ドーシーズに先手を取られた。さてどうする?"
        [21]
-        1 string data = "The road is blocked ahead. As you start to reverse, armed figures cut off the road behind you. Shit! It's the Dorseys!"
+        1 string data = "前方の道路が塞がれている。バックし始めると、武装した人影が後方の道を遮る。くそっ!ドーシーズだ!"
        [22]
-        1 string data = "[Small Chance to Escape] Put the pedal to the metal and try to drive out of the trap."
+        1 string data = "[Small Chance to Escape] アクセルを床まで踏み込んで罠から脱出を試みる。"
        [23]
-        1 string data = "With bullets battering the bodywork and whistling overhead, you floor it and escape by the skin of your teeth. Whew!"
+        1 string data = "弾丸が車体を叩き、頭上を掠めて飛ぶ中、アクセル全開で間一髪逃げ出す。ふう!"
        [24]
-        1 string data = "It's far too late for that. Before you can even touch the gas, the bullets are flying thick and fast. Time to pile out and brace for incoming fire. "
+        1 string data = "もう遅すぎる。アクセルに触れる前に、弾丸が激しく飛び交う。飛び出して着弾に備える時だ。 "
        [25]
-        1 string data = "Take advantage of the terrain to escape."
+        1 string data = "地形を利用して脱出する。"
        [26]
-        1 string data = "Not realizing the Kodiak's capabilities, the Dorseys didn't block a stretch of rough terrain. You drop into low gear and boulder your way out of trouble as they fire after you. "
+        1 string data = "コディアックの能力を理解していないドーシーズは、険しい地形の区間を塞がなかった。ローギアに入れて岩だらけの道を突破し、追撃射撃をかわす。 "
        [27]
-        1 string data = "Scare these idiots into blinking, then attack."
+        1 string data = "この馬鹿どもを怯ませてから攻撃する。"
        [28]
-        1 string data = "You get on the loudspeaker. "We got a tactical nuke in here, motherfuckers! Start shooting and we all go!"\n\n\nIt only makes them hesitate for a second, but a second was all you needed."
+        1 string data = "拡声器に向かう。"戦術核を積んでるぞ、クソ野郎ども!撃ったら全員道連れだ!"\n\n\n一瞬躊躇させただけだが、一瞬あれば十分だった。"
        [29]
-        1 string data = "Defend yourself. "
+        1 string data = "身を守れ。 "
        [30]
-        1 string data = "You brace yourself for the Dorseys' attack."
+        1 string data = "ドーシーズの攻撃に備える。"
        [31]
         1 string data = ""
        [32]
@@ -436698,21 +436698,21 @@
        0 int size = 18
        [0]
         1 string data = ""
-       [1]
+        1 string data = "道路のカーブを曲がると、ドーシーの待ち伏せに突っ込んでしまう。しまった!"
         1 string data = "You come around a bend in the road and drive right into a Dorsey ambush. Oops!"
-       [2]
+        1 string data = "道路脇で立ったまま昼食をとっていると、見られている気がする。ドーシーズだ!"
         1 string data = "You're having a stand-up lunch by the side of the road when you get the feeling you're being watched. It's the Dorseys!"
-       [3]
+        1 string data = "ドーシーズに気づいたときには遅すぎた。今、彼らは武器を構えている。決断の時だ。"
         1 string data = "You didn't see those Dorseys until it was way too late. Now they're raising their weapons. Decision time."
-       [4]
+        1 string data = "まあ、罠にかかった。ドーシーズに先手を取られた。さてどうする?"
         1 string data = "Well, you walked into that. The Dorseys have the drop on you. Now what?"
-       [5]
+        1 string data = "前方の道路が塞がれている。バックし始めると、武装した人影が後方の道を遮る。くそっ!ドーシーズだ!"
         1 string data = "The road is blocked ahead. As you start to reverse, armed figures cut off the road behind you. Shit! It's the Dorseys!"
-       [6]
+        1 string data = "[Small Chance to Escape] アクセルを床まで踏み込んで罠から脱出を試みる。"
         1 string data = "[Small Chance to Escape] Put the pedal to the metal and try to drive out of the trap."
-       [7]
+        1 string data = "弾丸が車体を叩き、頭上を掠めて飛ぶ中、アクセル全開で間一髪逃げ出す。ふう!"
         1 string data = "With bullets battering the bodywork and whistling overhead, you floor it and escape by the skin of your teeth. Whew!"
-       [8]
+        1 string data = "もう遅すぎる。アクセルに触れる前に、弾丸が激しく飛び交う。飛び出して着弾に備える時だ。 "
         1 string data = "It's far too late for that. Before you can even touch the gas, the bullets are flying thick and fast. Time to pile out and brace for incoming fire. "
        [9]
         1 string data = ""
@@ -436720,17 +436720,17 @@
         1 string data = ""
        [11]
         1 string data = ""
-       [12]
+        1 string data = "地形を利用して脱出する。"
         1 string data = "Take advantage of the terrain to escape."
-       [13]
+        1 string data = "コディアックの能力を理解していないドーシーズは、険しい地形の区間を塞がなかった。ローギアに入れて岩だらけの道を突破し、追撃射撃をかわす。 "
         1 string data = "Not realizing the Kodiak's capabilities, the Dorseys didn't block a stretch of rough terrain. You drop into low gear and boulder your way out of trouble as they fire after you. "
-       [14]
+        1 string data = "この馬鹿どもを怯ませてから攻撃する。"
         1 string data = "Scare these idiots into blinking, then attack."
-       [15]
+        1 string data = "拡声器に向かう。"戦術核を積んでるぞ、クソ野郎ども!撃ったら全員道連れだ!"\n\n\n一瞬躊躇させただけだが、一瞬あれば十分だった。"
         1 string data = "You get on the loudspeaker. "We got a tactical nuke in here, motherfuckers! Start shooting and we all go!"\n\n\nIt only makes them hesitate for a second, but a second was all you needed."
-       [16]
+        1 string data = "身を守れ。 "
         1 string data = "Defend yourself. "
-       [17]
+        1 string data = "ドーシーズの攻撃に備える。"
         1 string data = "You brace yourself for the Dorseys' attack."
    [1593]
     0 StringTable data
@@ -436942,31 +436942,31 @@
        0 int size = 49
        [0]
         1 string data = "Script Node 1"
-       [1]
+        1 string data = "肉と機械の臭いがあなたを包む。すぐ前方を見ると、大勢のスカー・コレクターが戦争の準備をしている。待ち伏せか、それとも無防備な町に襲いかかろうとしているのか?"
         1 string data = "The smell of flesh and machine washes over you. Looking just ahead you see a large group of Scar Collectors preparing for war. Is it an ambush or are they about to unleash on some unsuspecting town?"
-       [2]
+        1 string data = "別のスカー・コレクターの集団が集まり、厄介事を探している。手足に取り付けた武器を熱心に期待を込めて準備しているのが見える。"
         1 string data = "Another group of Scar Collectors has pooled up and is looking for trouble. You can see them preparing their limb-attached weaponry in eager anticipation."
-       [3]
+        1 string data = "どうする?"
         1 string data = "What do you do?"
-       [4]
+        1 string data = "[Attack] 命令が下され、ノベンバーが位置につく。"
         1 string data = "[Attack] Orders are given and November moves into position."
-       [5]
+        1 string data = "[Attack] ノベンバーが戦闘に突入!"
         1 string data = "[Attack] November charges into battle!"
-       [6]
+        1 string data = "[Flee] 全員に指示して、スカー・コレクターから気づかれずに静かに離れる。"
         1 string data = "[Flee] You direct everyone to move quietly away from the Scar Collectors, ideally unnoticed."
-       [7]
+        1 string data = "[Flee] 最寄りの脱出路に向かって全速力で逃げる!"
         1 string data = "[Flee] You book it for the nearest escape!"
-       [8]
+        1 string data = "[Success] チームは素早く静かに位置につく。スカー・コレクターは部品をいじるのに夢中で気づきもしない。先手を取った!"
         1 string data = "[Success] The team moves into position quickly and quietly. The Scar Collectors, busy manipulating their parts, don't even notice. You've got the drop on them!"
-       [9]
+        1 string data = "スカー・コレクターは常に戦闘準備ができている。スカー・コレクターが一斉に怒りの叫び声を上げ、チームは不意を突かれる。血なまぐさい戦いになるだろう!"
         1 string data = "The Scar Collectors are always ready for combat. The Team is put off-kilter as the Scar Collectors join in a unified scream of rage. The fight will be bloody!"
        [10]
         1 string data = "Script Node 11"
        [11]
         1 string data = "Script Node 12"
-       [12]
+        1 string data = "[Success] スカー・コレクターは互いに力を試し合うことに夢中のようだ。あなたとチームは気づかれずに立ち去ることができる。"
         1 string data = "[Success] The Scar Collectors seem to be preoccupied with testing their mettle against each other. You and the team are able to slip away unnoticed."
-       [13]
+        1 string data = "[Fail] スカー・コレクターから急いで離れようとしたとき、身の毛もよだつ叫び声が響く。ほとんどがあなたの方向を指差し、数人はすでに武器を向けている。捕まった!"
         1 string data = "[Fail] You all begin hustling away from the Scar Collectors when a hoarifying yell rings out. Most of them are pointing in your direction and several are already pointing weapons. You got caught!"
        [14]
         1 string data = "Script Node 15"
@@ -437004,33 +437004,33 @@
         1 string data = ""
        [31]
         1 string data = ""
-       [32]
+        1 string data = "古い廃棄場。周りはタープで覆われた物だらけだ。回収しようと足を踏み出すと、突然タープがめくれ、スカー・コレクターの待ち伏せが姿を現す!"
         1 string data = "An old dump. All around are things covered in tarps. As you step out to scavenge, the tarps suddenly come off, revealing a Scar-Collector ambush!"
-       [33]
+        1 string data = "女性が道路脇ですすり泣きながら助けを求めている。調べようと足を踏み出すと、荷電弾が彼女の頭を吹き飛ばす。振り返ると、スカー・コレクターが影から姿を現す。"
         1 string data = "A woman is sobbing and calling for help by the road. As you step out to investigate, a charged round blows her head off. You turn. Scar Collectors step from the shadows."
-       [34]
+        1 string data = "放棄されたスカー・コレクターのキャンプ。物色し始めると、後ろでエンジンが唸る。戦闘トラックが低木のスクリーンを突き破り、スカー・コレクターがこぼれ出す。あなたを待っていたのだ。"
         1 string data = "An abandoned Scar-Collector camp. As you begin to loot it, an engine revs behind you. A battle truck bursts through a screen of scrub and Scar Collectors spill out of it. They were waiting for you."
-       [35]
+        1 string data = "コロラドのギャングの中で最も目立たないはずの連中に待ち伏せされるのは少し恥ずかしいが…ここにいる、スカー・コレクターの銃口を見つめながら。"
         1 string data = "It's kind of embarrassing to be ambushed by the least subtle of all the Colorado gangs, but... here you are, looking down the barrels of the Scar Collectors' guns."
-       [36]
+        1 string data = "道路に死体か?調べるために降りると、ただの服だ。後ろで銃がコックされる。振り返ると、スカー・コレクターが迫ってくる。餌が効いたとニヤついている。"
         1 string data = "Is that a dead body in the road? You get out to investigate and see it's just clothes. Guns cock behind you. You turn. Scar Collectors are closing in, grinning because their bait worked."
-       [37]
+        1 string data = "[Small Chance to Escape] コディアックに走り込んでアクセル全開にすれば逃げられるかもしれない。 "
         1 string data = "[Small Chance to Escape] There's a chance you could escape if you run for the Kodiak and floor it. "
-       [38]
+        1 string data = "ぎりぎりでトラックに飛び込み、二輪走行で轟音を上げて去る。トラックはかなり傷ついたが、命は助かった。 "
         1 string data = "You pile in the truck with seconds to spare, and roar off on two wheels. The truck's worse for the wear, but you saved your skins. "
-       [39]
+        1 string data = "ドアに辿り着く前にスカー・コレクターが発砲を始める。戦う時だ。"
         1 string data = "You don't even make it to the door before the Scar Collectors open fire. Time to fight."
-       [40]
+        1 string data = "地形を利用して脱出する。"
         1 string data = "Take advantage of the terrain to escape."
-       [41]
+        1 string data = "コディアックに飛び乗り、凍った地面で急旋回し、制御されたスキッドでスカー・コレクターを弾き飛ばす。彼らが回復する前に轟音を上げて去る。"
         1 string data = "You pile into the Kodiak and whip it around on the icy ground, using a controlled skid to knock the Scar Collectors back. You roar off before they can recover."
-       [42]
+        1 string data = "サイバネティック義肢を逆用してスカー・コレクターを出し抜く。"
         1 string data = "Get the drop on the Scar Collectors by using their cybernetic limbs against them."
-       [43]
+        1 string data = "無線と意味不明なコードが入ったカセットテープを使い、スカー・コレクター全員の義肢を一斉に暴れさせる。すぐに制御を取り戻すが、十分に遅い。攻撃の時だ!"
         1 string data = "Using your radio and a cassette tape full of gibberish code, you make all the Scar Collectors' limbs start flailing at once. They quickly regain control, but not quickly enough. Time to strike!"
-       [44]
+        1 string data = "身を守れ。 "
         1 string data = "Defend yourself. "
-       [45]
+        1 string data = "スカー・コレクターの攻撃に備える。"
         1 string data = "You brace yourself for the Scar Collectors' attack."
        [46]
         1 string data = ""
@@ -437124,21 +437124,21 @@
        0 int size = 18
        [0]
         1 string data = ""
-       [1]
+        1 string data = "古い廃棄場。周りはタープで覆われた物だらけだ。回収しようと足を踏み出すと、突然タープがめくれ、スカー・コレクターの待ち伏せが姿を現す!"
         1 string data = "An old dump. All around are things covered in tarps. As you step out to scavenge, the tarps suddenly come off, revealing a Scar-Collector ambush!"
-       [2]
+        1 string data = "女性が道路脇ですすり泣きながら助けを求めている。調べようと足を踏み出すと、荷電弾が彼女の頭を吹き飛ばす。振り返ると、スカー・コレクターが影から姿を現す。"
         1 string data = "A woman is sobbing and calling for help by the road. As you step out to investigate, a charged round blows her head off. You turn. Scar-Collectors step from the shadows."
-       [3]
+        1 string data = "放棄されたスカー・コレクターのキャンプ。物色し始めると、後ろでエンジンが唸る。戦闘トラックが低木のスクリーンを突き破り、スカー・コレクターがこぼれ出す。あなたを待っていたのだ。"
         1 string data = "An abandoned Scar-Collector camp. As you begin to loot it, an engine revs behind you. A battle truck bursts through a screen of scrub and Scar-Collectors spill out of it. They were waiting for you."
-       [4]
+        1 string data = "コロラドのギャングの中で最も目立たないはずの連中に待ち伏せされるのは少し恥ずかしいが…ここにいる。"
         1 string data = "It's kind of embarrassing to be ambushed by the least subtle of all the Colorado gangs, but... here you are."
-       [5]
+        1 string data = "道路に死体か?調べるために降りると、ただの服だ。後ろで銃がコックされる。振り返ると、スカー・コレクターが迫ってくる。餌が効いたとニヤついている。"
         1 string data = "Is that a dead body in the road? You get out to investigate and see it's just clothes. Guns cock behind you. You turn. Scar-Collectors are closing in, grinning because their bait worked."
-       [6]
+        1 string data = "[Small Chance to Escape] コディアックに走り込んでアクセル全開にすれば逃げられるチャンスがあるようだ。 "
         1 string data = "[Small Chance to Escape] Looks like you've got a chance of escaping if you run for the Kodiak and floor it. "
-       [7]
+        1 string data = "ぎりぎりでトラックに飛び込み、二輪走行で轟音を上げて去る。トラックはかなり傷ついたが、命は助かった。 "
         1 string data = "You pile in the truck with seconds to spare, and roar off on two wheels. The truck's worse for the wear, but you saved your skins. "
-       [8]
+        1 string data = "ドアに辿り着く前にスカー・コレクターが発砲を始める。戦う時だ。"
         1 string data = "You don't even make it to the door before the Scar Collectors open fire. Time to fight."
        [9]
         1 string data = ""
@@ -437146,17 +437146,17 @@
         1 string data = ""
        [11]
         1 string data = ""
-       [12]
+        1 string data = "地形を利用して脱出する。"
         1 string data = "Take advantage of the terrain to escape."
-       [13]
+        1 string data = "コディアックに飛び乗り、凍った地面で急旋回し、制御されたスキッドでスカー・コレクターを弾き飛ばす。彼らが回復する前に轟音を上げて去る。 "
         1 string data = "You pile into the Kodiak and whip it around on the icy ground, using a controlled skid to knock the Scar-Collectors back. You roar off before they can recover. "
-       [14]
+        1 string data = "サイバネティック義肢を逆用してスカー・コレクターを出し抜く。 "
         1 string data = "Get the drop on the Scar-Collectors' by using their cybernetic limbs against them. "
-       [15]
+        1 string data = "無線と意味不明なコードが入ったカセットテープを使い、スカー・コレクター全員の義肢を一斉に暴れさせる。すぐに制御を取り戻すが、十分に遅い。攻撃の時だ!"
         1 string data = "Using your radio and a cassette tape full of gibberish code, you make all the Scar-Collectors' limbs start flailing at once. They quickly regain control, but not quickly enough. Time to strike!"
-       [16]
+        1 string data = "身を守れ。 "
         1 string data = "Defend yourself. "
-       [17]
+        1 string data = "スカー・コレクターの攻撃に備える。"
         1 string data = "You brace yourself for the Scar-Collectors' attack."
    [1595]
     0 StringTable data
