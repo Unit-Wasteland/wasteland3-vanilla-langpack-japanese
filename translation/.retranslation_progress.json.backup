@@ -18,15 +18,15 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 51718,
-      "entries_untranslated_real": 7829,
+      "entries_translated": 51818,
+      "entries_untranslated_real": 7729,
       "entries_kept_english": 42439,
       "completion_rate": 30.5,
-      "current_line": 438697,
+      "current_line": 439834,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 398 complete: 14 new Japanese translations (L438666-438692). Section: y_combat22_breathersattack. Breathers faction encounter dialogue with drug-laced fog scenarios. Content: Ambush encounters, escape mechanics, hallucinogenic effects, combat vs stealth options. Technical: Quote format strictly matched (2 quotes standard, 6 quotes for embedded dialogue). Dual validation passed (Structure: 0 errors across 169,712 entries, Quality: 0 issues).",
-      "entries_completed": 51718
+      "note": "Session 400 complete: 70 new Japanese translations (L439306-439834). Sections: y_combat24_breathersspecial (38 entries - hallucination sequence), y_combat25_marshalscarchase (22 entries - car chase), y_combat26_marshalsinvestigation (10 entries partially - murder investigation). Content: Drug-induced hallucinations with rainbow squirrel, Matrix references, marshal conflicts. Technical: Double-double-quote format maintained, <i> tags preserved, glossary terms applied correctly (Marshals, Rangers, November, Colorado). Structure protection: All entries verified. Dual validation passed (Structure: 0 errors across 169,712 entries, Quality: 0 issues).",
+      "entries_completed": 51818
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -59,21 +59,21 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "064becd",
-  "last_commit_message": "Base game translation: Session 398 - Breathers attack section (14 entries)",
+  "last_commit_hash": "baaea7d",
+  "last_commit_message": "Base game translation: Session 400 - Hallucination and marshal sections (70 entries)",
   "validation_date": "2025-11-13",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
-  "analysis_session": 398,
+  "analysis_session": 400,
   "analysis_findings": {
-    "new_translations": "Session 398: 14 new Japanese translations (L438666-438692). Section: y_combat22_breathersattack. Breathers faction encounters featuring drug-laced fog ambush scenarios.",
-    "action_marker_protection": "No action markers in this translation range. Verified with grep check.",
-    "quote_format_handling": "Quote format strictly matched to English source. Standard entries: 2 quotes. Embedded dialogue (L438688): 6 quotes. All quotes counted and matched character-for-character.",
-    "quality_validation": "Dual validation passed. Structure: 0 errors across 169,712 entries. Quality: 0 issues - no action markers translated, no untranslated English, no bracket translation, no glossary violations."
+    "new_translations": "Session 400: 70 new Japanese translations (L439306-439834). Sections: y_combat24_breathersspecial (38 entries), y_combat25_marshalscarchase (22 entries), y_combat26_marshalsinvestigation (10 entries partial).",
+    "action_marker_protection": "No action markers in translated ranges. Verified with grep check. All action markers remain in English.",
+    "quote_format_handling": "Double-double-quote format maintained throughout. <i> tags preserved in line 439578. All quotes character-for-character matched with English source.",
+    "quality_validation": "Dual validation passed. Structure: 0 errors across 169,712 entries. Quality: 0 issues - no action markers translated, no untranslated English, no bracket translation, no glossary violations. Glossary terms correctly applied: Marshals, Rangers, November, Colorado."
   },
-  "total_entries_completed": 51718,
+  "total_entries_completed": 51818,
   "total_entries": 232418,
-  "total_entries_untranslated": 180700,
+  "total_entries_untranslated": 180600,
   "overall_completion_rate": 22.3,
-  "next_action": "Continue sequential translation from line 438697. Next: y_combat23_breathersspotted section. Breathers spotted encounter dialogue."
+  "next_action": "Continue sequential translation from line 439834. Next: Continue y_combat26_marshalsinvestigation section (remaining 41 entries)."
 }
