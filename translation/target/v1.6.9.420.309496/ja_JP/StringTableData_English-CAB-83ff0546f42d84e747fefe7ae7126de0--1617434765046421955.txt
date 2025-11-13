@@ -449477,35 +449477,35 @@
        [12]
         1 string data = "キャラバンのリーダーがコディアックを見て、"やられたな、え? ::laughs:: すぐに修理して道路に戻してやる。"\n\n\n彼らはその通りにした。見事な仕事だった。熟練した腕前で驚くほど速かった。あなた達が感謝を伝える前に、彼らは道を走り去った。"
        [13]
-        1 string data = "You can see one of them shrug and laugh. The caravan pulls away into the night."
+        1 string data = "彼らの一人が肩をすくめて笑うのが見える。キャラバンは夜の闇へと走り去った。"
        [14]
-        1 string data = "An arm reaches out of one of their windows and gives you a thumbs up. The caravan pulls away and continues down another road."
+        1 string data = "彼らの車の窓から腕が伸びて、親指を立てるサインを送ってくる。キャラバンは別の道を走り去った。"
        [15]
-        1 string data = "A couple honks and the caravan pulls away, waving as they trail off into the night."
+        1 string data = "クラクションが数回鳴り、手を振りながらキャラバンは夜の闇へと消えていった。"
        [16]
-        1 string data = "Their lights flash in acknowledgment. Waving, they fade into the night."
+        1 string data = "彼らのライトが合図のように点滅する。手を振りながら、夜の闇に消えていった。"
        [17]
-        1 string data = "[[Global: Y_Reusable_Fire02_RepairPrice] Dollars] "Damn, that heap's in bad shape. I could fix her if you can pay.""
+        1 string data = "[[Global: Y_Reusable_Fire02_RepairPrice] Dollars] "くそ、このポンコツはひどい状態だな。金を払ってくれるなら修理してやれるぞ。""
        [18]
-        1 string data = "The Kodiak is a mess. You can hardly drive it in a straight line anymore. You edge to the shoulder to see if it's fatal. "
+        1 string data = "コディアックはひどい有様だ。もう直進するのも難しくなってきた。致命的かどうか確かめるため、路肩に寄せる。"
        [19]
-        1 string data = "Bits of the Kodiak are falling off as you drive. You stop to see if you can do something to hold it together. "
+        1 string data = "走行中にコディアックの部品がボロボロと落ちていく。なんとか持ちこたえさせられないか、停車して確認する。"
        [20]
-        1 string data = "The Kodiak's engine sounds like someone threw a fork in a blender. You pull over to see if there's anything to be done."
+        1 string data = "コディアックのエンジンがミキサーにフォークを投げ込んだような音を立てている。何かできることはないか、路肩に停車する。"
        [21]
-        1 string data = "You don't need their help. Fix it yourself. "
+        1 string data = "彼らの助けは必要ない。自分で修理する。"
        [22]
-        1 string data = "Refuse the help and keep going. You'll have the Kodiak fixed when you get back to HQ."
+        1 string data = "助けを断って進み続ける。本部に戻ったらコディアックを修理してもらおう。"
        [23]
-        1 string data = ""You Rangers are so stingy you'd ask for change out of a penny, but fine. I'll get started.""
+        1 string data = ""レンジャーってのは、1セントからお釣りを要求するくらいケチだな。まあいい、始めるか。""
        [24]
-        1 string data = ""You Rangers are so stingy you won't even tip your hat, but okay. I'll do the job.""
+        1 string data = ""レンジャーってのは、帽子を脱ぐことさえしないケチだな。でもまあいい、仕事はするよ。""
        [25]
-        1 string data = ""You Rangers are so cheap you won't even pay attention, but all right. It's a deal.""
+        1 string data = ""レンジャーってのは、注意を払うことさえしないほど安上がりだな。でもいいさ、取引成立だ。""
        [26]
-        1 string data = "Shit! You don't have [Global: Y_Reusable_Fire02_RepairPrice] dollars. "
+        1 string data = "くそ! [Global: Y_Reusable_Fire02_RepairPrice]ドルも持っていない。"
        [27]
-        1 string data = "Begrudgingly, the mechanic gets to work. A few hours later the Kodiak is completely repaired. They did a great job. You get on your way again. "
+        1 string data = "渋々ながら、整備士は作業に取り掛かる。数時間後、コディアックは完全に修理された。見事な仕事だった。再び出発する。"
    [1642]
     0 StringTable data
      1 string Filename = "y_reusable_general08"
@@ -449621,51 +449621,51 @@
        [0]
         1 string data = ""
        [1]
-        1 string data = "A large bison slowly lumbers towards your rig, laden with bundles of supplies roped together. An old man steps from behind the bison, "whoa, Sour Doe! Easy girl. Let's take a rest and see who we got here.""
+        1 string data = "大きなバイソンが、束ねた荷物をロープで結んでゆっくりと車に近づいてくる。バイソンの後ろから老人が現れる。"おっと、Sour Doe! 落ち着け。ちょっと休憩して、ここに誰がいるか見てみよう。""
        [2]
-        1 string data = "Once again you see the old prospector, Pappy, and his bison, Sour Doe, walking along the side of the road. Supplies mounted on Sour Doe shift and wobble as they come to a halt. Pappy waves a greeting."
+        1 string data = "また、老採掘者のPappyと彼のバイソンSour Doeが道端を歩いているのが見える。Sour Doeに積まれた荷物が止まると揺れ動く。Pappyが挨拶の手を振る。"
        [3]
-        1 string data = "The old man calls out to you, holding his hands out to show you they are bare, "I ain't a threat, so don't you be either and things will stay civil. Just passing through doing a little prospecting.""
+        1 string data = "老人が手を広げて何も持っていないことを示しながら呼びかける。"俺は脅威じゃない、あんたらも敵対しなければ穏便に済む。ちょっと採掘しながら通りかかっただけだ。""
        [4]
-        1 string data = ""Who are you?""
+        1 string data = ""あんたは誰だ?""
        [5]
-        1 string data = ""What are you doing in these parts?""
+        1 string data = ""この辺で何をしているんだ?""
        [6]
-        1 string data = "Wave back, but continue on."
+        1 string data = "手を振り返すが、そのまま進む。"
        [7]
-        1 string data = ""You can call me Pappy, most folks do. This is my girl, Sour Doe."\n\n\nSour Doe snorts loudly and shakes her head at you. Pappy laughs and pets her, "Yes you are... my good girl.""
+        1 string data = ""俺のことはPappyと呼んでくれ、みんなそう呼ぶ。こいつが俺の相棒、Sour Doeだ。"\n\n\nSour Doeが大きく鼻を鳴らし、頭を振る。Pappyが笑って撫でる。"そうだよ...いい子だ。""
        [8]
-        1 string data = "Pappy spits a wad of dark brown saliva onto the ground, "You see, there's piles of old junk all around us, in the ruins from folks now long gone. Many places ain't easy to get to, can't take rigs to get 'em so they just lie there. But my Sour Doe can get to 'em. Don't need roads, or much equipment, with her strength.""
+        1 string data = "Pappyが濃い茶色の唾を地面に吐く。"ほら、この辺りには古いガラクタの山がある。今は亡き人々の遺跡にな。多くの場所は行くのが難しい。車じゃ行けないから放置されたままだ。でも俺のSour Doeなら行ける。道も要らない、大した装備も要らない。彼女の力さえあればな。""
        [9]
-        1 string data = ""Prospecting treating you well, Pappy?""
+        1 string data = ""採掘の調子はどうだ、Pappy?""
        [10]
-        1 string data = "You honk your horn and give him a salute and continue on. Pappy nods and gives Sour Doe a tug. Sour Doe snorts as they move into the forest and disappear into the night."
+        1 string data = "クラクションを鳴らして敬礼し、そのまま進む。Pappyが頷いてSour Doeを引っ張る。Sour Doeが鼻を鳴らし、森の中へ消えていく。"
        [11]
-        1 string data = ""Nice to meet you, but we need to head out.""
+        1 string data = ""会えて良かったが、もう出発しないと。""
        [12]
-        1 string data = ""Pleasure was all mine. Nice to find good folks and chat a bit. So many times folks is in such a hurry."\n\n\nPappy tugs on Sour Doe's neck, "Come on girl! There's things to be found out there."\n\n\nThey disappear into the night as you drive off."
+        1 string data = ""こちらこそだよ。良い人たちと出会えて少し話せて嬉しい。みんないつも急いでばかりでな。"\n\n\nPappyがSour Doeの首を引っ張る。"行くぞ、相棒! 見つけるべきものがあそこにある。"\n\n\nあなた達が走り去ると、彼らは夜の闇に消える。"
        [13]
-        1 string data = ""Find anything good?""
+        1 string data = ""何かいいもの見つけたか?""
        [14]
-        1 string data = "Pappy smiles, "Always. Though I just recently traded it away to a fella in Broadmoor. Pays top dollar for collectables. One of my regulars."\n\n\nPappy smiles from ear to ear. He's missing a couple teeth."
+        1 string data = "Pappyが微笑む。"いつもな。さっきブロードムーアの男に売ったばかりだ。収集品に高値を払ってくれる。常連客の一人だ。"\n\n\nPappyが満面の笑みを浮かべる。歯が何本か抜けている。"
        [15]
-        1 string data = "Pappy spits on the ground, "Shit, wish it's been better, Rangers. Can't seem to find much. Ol' Sour Doe gets in a foul mood when she can't work those muscles hauling shit. Needs to warm up soon with a good day's work.""
+        1 string data = "Pappyが地面に唾を吐く。"クソ、もっと良ければいいんだが、レンジャー達よ。あまり見つからないんだ。Sour Doeは重い荷物を運ぶ筋肉を使えないと機嫌が悪くなる。すぐにいい仕事で体を温める必要があるな。""
        [16]
-        1 string data = "Pappy stretches his back, "Well... can't say it's been bad. Can't say it's been good either, though. Not too much worth trading. Since we are friends and all, you can have this..."\n\n\nPappy digs through his bundles of supplies, strapped to Sour Doe, and hands you a small package."
+        1 string data = "Pappyが背中を伸ばす。"そうだな...悪くはなかったとは言える。良かったとも言えないがな。あまり取引に値するものはない。友達だから、これをやろう..."\n\n\nPappyがSour Doeに括りつけた荷物の束を漁り、小さな包みを手渡す。"
        [17]
-        1 string data = "Pappy smiles, "Old Sour Doe has been sniffing out quite a few finds lately! Heading to town to unload them. Before we go, interested in anything?" \r\n\r\nPappy begins to unstrap Sour Doe's packs, "She'd be mightly obliged to lessen some of the weight, if anything catches your eye.""
+        1 string data = "Pappyが微笑む。"最近、Sour Doeがかなりの発見物を嗅ぎつけてる! 町に降ろしに行くんだ。行く前に、何か興味あるかい?" \r\n\r\nPappyがSour Doeの荷物を解き始める。"何か目に留まれば、重さを軽くできて彼女も喜ぶだろう。""
        [18]
-        1 string data = "Pappy smiles from ear to ear, "Woo hee, Rangers! It's been quite the time out there for me and Sour Doe."\n\n\nSour Doe shakes her head and snorts proudly.\n\n\nPappy laughs, "Damn right, girl. Rangers, you gotta see what we got. Trade you, if you fancy?""
+        1 string data = "Pappyが満面の笑みを浮かべる。"やあ、レンジャー達! 俺とSour Doeにとってすごい時間だったぜ。"\n\n\nSour Doeが頭を振って誇らしげに鼻を鳴らす。\n\n\nPappyが笑う。"その通りだ、相棒。レンジャー達、俺達の持ち物を見てくれ。取引するかい?""
        [19]
-        1 string data = "Sour Doe snorts and grunts as she shifts in place.\n\n\n"All right, girl, we're a leavin'. Stay warm, Rangers."\n\n\nSour Doe starts lumbering down the road with Pappy following. They disappear into the night."
+        1 string data = "Sour Doeが鼻を鳴らし、うなりながら体を動かす。\n\n\n"よし、相棒、行くぞ。暖かくしてな、レンジャー達。"\n\n\nSour DoeがPappyを伴って道をゆっくりと進み始める。彼らは夜の闇に消える。"
        [20]
-        1 string data = ""Sure, let's take a look.""
+        1 string data = ""ああ、見せてもらおう。""
        [21]
-        1 string data = ""We're all good on supplies, Pappy.""
+        1 string data = ""物資は足りてるよ、Pappy。""
        [22]
         1 string data = ""
        [23]
-        1 string data = ""Let's give it a look, Pappy.""
+        1 string data = ""見せてくれ、Pappy。""
        [24]
         1 string data = ""
    [1643]
@@ -449755,39 +449755,39 @@
        [0]
         1 string data = ""
        [1]
-        1 string data = "As you've been driving along, the last couple miles have been accented by similar graffiti. Some more detailed than others, but they all clearly look like nuclear mushroom clouds. Off on the side of the road is another, this time with some words beneath."
+        1 string data = "ここ数マイルの間、似たような落書きが続いている。詳細なものもあれば粗いものもあるが、どれも明らかに核のキノコ雲を描いている。道端にまた一つ、今度は下に文字が添えられている。"
        [2]
-        1 string data = "A small abandoned camp lies off on the side of the road. The fire has long been extinguished, but some piles of trash are strewn about."
+        1 string data = "道端に小さな放棄されたキャンプがある。焚き火はとうに消えているが、ゴミの山が散らばっている。"
        [3]
-        1 string data = "Stop to investigate."
+        1 string data = "停車して調査する。"
        [4]
-        1 string data = "Drive on."
+        1 string data = "そのまま進む。"
        [5]
-        1 string data = "Just another radiated weirdo thinking themselves an artist. What kind of a freak honors the end of civilization?"
+        1 string data = "ただの放射能狂いが芸術家気取りか。文明の終焉を称えるなんて、どんな変人だ?"
        [6]
-        1 string data = "The words below the painted mushroom cloud read, "praise the Holy Detonation. Praise the Radiant Father."\n\n\nBesides recent footprints, you notice larger indentations in the snow, possibly impressions from kneeling."
+        1 string data = "描かれたキノコ雲の下に書かれた文字を読む。"聖なる爆発を称えよ。光輝ける父を称えよ。"\n\n\n最近の足跡の他に、雪の中に大きなくぼみがある。膝をついた跡かもしれない。"
        [7]
-        1 string data = "This painting of a mushroom cloud has many, "amen" painted in the clouds with the following below, "we shall be reborn in his luminance, uplifted by the Holy Detonation.""
+        1 string data = "このキノコ雲の絵には、雲の中に多くの"アーメン"が描かれ、下に次のように書かれている。"我らは彼の輝きの中で再生し、聖なる爆発によって高められる。""
        [8]
-        1 string data = "Scribbled to look like the ground below the mushroom cloud, the following words are written, "and the Radiant Father said to Saint Einstein, 'Look for me in the numbers.""
+        1 string data = "キノコ雲の下の地面のように走り書きされた次の言葉がある。"そして光輝ける父は聖アインシュタインに言った、'数字の中で私を探せ。""
        [9]
-        1 string data = "Other than the graffiti, there doesn't seem to be anything else in the area.\n\n\nYou get back into the Kodiak and continue on your way."
+        1 string data = "落書き以外には、この地域に何もないようだ。\n\n\nコディアックに戻り、道を進む。"
        [10]
         1 string data = ""
        [11]
-        1 string data = "Buried under a freshly falling of snow, you find an assortment of objects, left behind as an offering. Most of it is junk, but a couple things have some value.\n\n\nYou pile back into your rig and drive off."
+        1 string data = "降りたばかりの雪の下に、供え物として残されたさまざまな物が埋もれている。ほとんどはガラクタだが、いくつかは価値がある。\n\n\n車に戻り、走り去る。"
        [12]
-        1 string data = "Stop to investigate."
+        1 string data = "停車して調査する。"
        [13]
-        1 string data = "Continue driving."
+        1 string data = "そのまま進む。"
        [14]
-        1 string data = "You don't have time to waste. You continue on your mission."
+        1 string data = "時間を無駄にしている場合ではない。任務を続ける。"
        [15]
-        1 string data = "Very little of the original camp remains. Some bones from meals eaten, scraps of paper and cloth litter the ground around the ring of stones that once held a fire. Scribble on one rock the following words can be barely made out, "Makers of the Bomb hold his rage."\n\n\nYou head back out on the road."
+        1 string data = "元のキャンプの痕跡はほとんど残っていない。食事の骨、紙や布の切れ端が、かつて火を囲んでいた石の輪の周りに散乱している。一つの岩に走り書きされた次の言葉がかろうじて読める。"爆弾の作り手が彼の怒りを抑える。"\n\n\n道に戻る。"
        [16]
-        1 string data = "You find a small crate that appears to have been used as an offering altar. Besides the contents, a message is scribbled on the top, "the Radium Girls showed us the way. Embrace the pain."\n\n\nYou collect the contents, get back into the Kodiak and continue on your way."
+        1 string data = "供え物の祭壇として使われたと思われる小さな木箱を見つける。中身の他に、上部に走り書きされたメッセージがある。"ラジウム・ガールズが道を示した。痛みを受け入れよ。"\n\n\n中身を回収し、コディアックに戻って道を進む。"
        [17]
-        1 string data = "This camp has been long abandoned. even the usual junk you might find from campers' waste has either been scavenged by animals or blown away. One piece of paper, though, is frozen to a rock, "the Holy Detonation shall cleanse us all when we are ready."\n\n\nYou load back into the Kodiak and leave."
+        1 string data = "このキャンプは長い間放棄されている。通常キャンパーの残したゴミさえも、動物に漁られたか吹き飛ばされている。しかし、一枚の紙が岩に凍りついている。"聖なる爆発は、我らが準備できたときに全てを浄化する。"\n\n\nコディアックに戻り、出発する。"
    [1644]
     0 StringTable data
      1 string Filename = "y_reusable_scorpitron01"
@@ -449923,59 +449923,59 @@
        [0]
         1 string data = ""
        [1]
-        1 string data = "You weave through a series of potholes, then realize their spacing is quite regular. Something made them. Something large. Suddenly, it emerges from around the bend, a Scorpitron!"
+        1 string data = "一連のくぼみを縫うように進んでいると、その間隔が非常に規則的だと気づく。何かが作ったものだ。何か巨大な物が。突然、カーブの向こうから姿を現す。スコーピトロンだ!"
        [2]
-        1 string data = "You're forced to a quick halt as a herd of pikalopes rushes across the road. Moments later, it's clear what they're running from, as a Scorpitron crashes through the ruins!"
+        1 string data = "pikalopesの群れが道路を横切り、急停止を余儀なくされる。しばらくして、彼らが何から逃げているのかが明らかになる。スコーピトロンが遺跡を突き破って現れたのだ!"
        [3]
-        1 string data = "Something large blocks the road. Possibly a fallen building or a collapsed radio tower? Suddenly, the thing curls its weaponized tail into the air and rises up on its claws. Shit, a Scorpitron!"
+        1 string data = "何か巨大なものが道を塞いでいる。倒壊した建物か、崩れた電波塔だろうか? 突然、それは武装した尾を空中に巻き上げ、爪で立ち上がる。クソッ、スコーピトロンだ!"
        [4]
-        1 string data = "You come around a bend and skid to a stop to avoid hitting a pile of burning cars and broken bodies.  Finished with its victims, a scorpitron turns its attention on you."
+        1 string data = "カーブを曲がると、燃える車と砕けた死体の山にぶつかるのを避けるため、滑りながら急停止する。犠牲者を片付け終えたスコーピトロンが、あなた達に注意を向ける。"
        [5]
         1 string data = ""
        [6]
-        1 string data = "A loud explosion rattles your rig as you see a tree crashing down from that same direction! You see what the deer were running so frantically from now.\n\n\nA Scorpitron!"
+        1 string data = "大きな爆発音が車を揺らし、同じ方向から木が倒れてくるのが見える! 鹿たちが必死に逃げていた理由が今わかった。\n\n\nスコーピトロンだ!"
        [7]
-        1 string data = "Suddenly, emerging from around the bend in the road, you see a Scorpitron!"
+        1 string data = "突然、道のカーブの向こうから現れる。スコーピトロンだ!"
        [8]
-        1 string data = "Suddenly, it fires back, overwhelming the illumination from the guns with it's own turret.\n\n\nThen darkness.\n\n\nMoments later you see it once again, illuminated now by it's shot towards you!"
+        1 string data = "突然、それが反撃し、銃の光を圧倒する砲塔の光を放つ。\n\n\n闇が訪れる。\n\n\n数瞬後、再びそれが見える。今度はこちらへの射撃で照らされている!"
        [9]
-        1 string data = "You spot a small refugee camp. One of the refugees stands and waves, when suddenly a thunderous storm of gunfire turns her into a red mist."
+        1 string data = "小さな難民キャンプを発見する。難民の一人が立ち上がって手を振ると、突然、轟音のような銃撃の嵐が彼女を赤い霧に変える。"
        [10]
-        1 string data = "The other refugees shriek and run as a Scorpitron emerges from behind the ruins and advances upon you."
+        1 string data = "他の難民が悲鳴を上げて逃げ出す。スコーピトロンが遺跡の後ろから現れ、あなた達に迫る。"
        [11]
-        1 string data = "Your radio turns to a static hiss. Something is interfering with the signal. The source of the interference might be the huge Scorpitron turning its guns on you."
+        1 string data = "ラジオがザーザーという静電音に変わる。何かが電波を妨害している。妨害源は、あなた達に銃を向けている巨大なスコーピトロンかもしれない。"
        [12]
-        1 string data = "High pitch squeels and hums blare over the speakers, overwhelmed by an onslaught of frequencies. Something is targeting your electronics.\n\n\nThen the noise stops suddenly and the song can be heard once again. Oh good."
+        1 string data = "甲高い悲鳴のような音とうなり声がスピーカーから轟き、周波数の猛攻に圧倒される。何かが電子機器を狙っている。\n\n\n突然音が止まり、曲が再び聞こえる。よかった。"
        [13]
-        1 string data = "The night would have been more enjoyable if it hadn't been for the Scorpitron having targeted you and standing before your rig now.\n\n\nWell, fuck. It was a really good song too..."
+        1 string data = "スコーピトロンがあなた達を標的にして車の前に立っていなければ、もっと楽しい夜だっただろう。\n\n\nクソッ。本当にいい曲だったのに..."
        [14]
-        1 string data = "Slight vibrations are making your coffee cup jitter. An earthquake, perhaps? The illusion is quickly dispelled by the loud thuds of a Scorpitron stomping around the corner."
+        1 string data = "わずかな振動がコーヒーカップを震わせている。地震だろうか? その錯覚は、角を曲がって足音を立てるスコーピトロンの轟音ですぐに打ち消される。"
        [15]
-        1 string data = "A Scorpitron emerges from the side of the road and blocks your way. It's guns point at you.\n\n\nYep, it's been one of those kinds of shit nights..."
+        1 string data = "スコーピトロンが道端から現れ、道を塞ぐ。銃があなた達を狙っている。\n\n\nああ、そういう最悪な夜の一つだ..."
        [16]
-        1 string data = "Oh, what the heck. Meet it head-on!"
+        1 string data = "ああ、何てこった。真正面から挑め!"
        [17]
-        1 string data = "Overwhelm the Scorpitron with disruptive signals and escape."
+        1 string data = "スコーピトロンを妨害信号で圧倒して逃げる。"
        [18]
-        1 string data = "Use your surroundings to create a distraction and book it out of here."
+        1 string data = "周囲を利用して陽動を作り、ここから逃げる。"
        [19]
-        1 string data = "Overload the Scorpitron's sensors and then attack."
+        1 string data = "スコーピトロンのセンサーを過負荷にしてから攻撃する。"
        [20]
-        1 string data = "Try to get the hell out of here."
+        1 string data = "何とかしてここから逃げ出す。"
        [21]
         1 string data = "Script Node 22"
        [22]
-        1 string data = "You don't get very far before the Scorpitron blocks your path. No choice but to fight!"
+        1 string data = "あまり進めないうちに、スコーピトロンが道を塞ぐ。戦うしかない!"
        [23]
-        1 string data = "As you turn and floor it, the Scorpitron gives chase, but by some stroke of luck, one of its legs gets stuck in some rubble, giving you the opportunity to escape. It's unlikely you'll be so lucky next time."
+        1 string data = "向きを変えて全速力で逃げると、スコーピトロンが追ってくるが、幸運なことに、その脚の一つが瓦礫に引っかかり、逃げる機会を得る。次はこうはいかないだろう。"
        [24]
-        1 string data = "You send a mix of Cochise coding, US DoD, and Russian secret signals to scramble the Scorpitron's processors. It stumbles around in confusion. You take the opportunity to get the hell out of there."
+        1 string data = "Cochiseのコーディング、米国国防総省、ロシアの秘密信号を混ぜて送信し、スコーピトロンのプロセッサーをスクランブルする。混乱してよろめいている間に、逃げ出す。"
        [25]
-        1 string data = "You spot an tall, unstable ruin near the Scorpitron. Nudging it with the Kodiak brings it tumbling down on top of the metal beast. While it digs itself out, you take off."
+        1 string data = "スコーピトロンの近くに高くて不安定な遺跡を発見する。コディアックで押すと、金属の獣の上に崩れ落ちる。それが抜け出す間に、逃げ出す。"
        [26]
-        1 string data = "You overload the Scorpitron's auditory sensors with signals and noise from the Kodiak. It will recover quickly, but this gives you enough time to get the first shots in."
+        1 string data = "コディアックから信号とノイズを送り、スコーピトロンの聴覚センサーを過負荷にする。すぐに回復するだろうが、先制攻撃には十分な時間が稼げる。"
        [27]
-        1 string data = "You're either brave, stupid, or extremely well-armed. Whatever the case, good luck!"
+        1 string data = "あなたは勇敢か、愚かか、それとも非常に優れた武装をしているかのいずれかだ。いずれにせよ、幸運を!"
        [28]
         1 string data = "Script Node 29"
        [29]
