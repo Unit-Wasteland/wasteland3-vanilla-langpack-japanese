@@ -18,15 +18,15 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 51221,
-      "entries_untranslated_real": 8326,
+      "entries_translated": 51302,
+      "entries_untranslated_real": 8245,
       "entries_kept_english": 42439,
       "completion_rate": 30.2,
-      "current_line": 433525,
+      "current_line": 434299,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 390 complete: 46 new Japanese translations (L432912-433518). Four sections: y313_hostile_hills_godfishers (15 entries - Godfishers ambush encounters with stealth, avoidance, attack options), y313_hostile_hills_godfishers_plains (17 entries - duplicate section for Plains region), yy_dorseys_ambush (14 entries - generic ambush encounter with defense, escape, skill-based options), yy_drools_ambush (14 entries - Drools enemy encounters with cave dwellers, skinless mutants, escape/combat scenarios). Content: Random encounter dialogue for Hills/Plains regions, Godfishers faction (kite-making cult), Drools (irradiated mutants). Player choices: stealth approach, direct combat, skill-based escapes. Technical: All entries maintain strict 2-quote format matching source exactly. [Small Chance to Escape] [Attack] tags preserved. Multi-scenario text with newline separators (carriage-return-newline format) preserved correctly. Glossary terms: Godfishers, Payasos, Kodiak, Rangers, Drools (new term - katakana transliteration). Dual validation passed (Structure: 0 errors across 169,712 entries, Quality: 0 issues - 0 action markers, 0 untranslated, 0 bracket translation, 0 glossary violations).",
-      "entries_completed": 51221
+      "note": "Session 391 complete: 81 new Japanese translations (L433525-434298). Six sections: yy_drools_ambush_mountains (14 entries), yy_drools_ambush_plains (14 entries - Plains duplicate), yy_drools_spotted (13 entries - Drools spotted encounters with stealth/avoidance options), yy_drools_spotted_mountains (13 entries - Mountains version), yy_drools_spotted_plains (13 entries - Plains version), yy_frogs_ambush (14 entries - NEW enemy type: Giant Frogs, sub-zero wildlife with terrain/animal knowledge escape options). Content: Random encounter dialogue for Drools and Giant Frogs. Player options: stealth, avoidance, skill checks (Animal Knowledge, Survival), direct combat. Technical: Strict 2-quote format maintained. [Small Chance to Escape] [Attack] tags preserved. Glossary: Drools, Kodiak used consistently. New enemy type: Giant Frogs introduced. Dual validation passed (Structure: 0 errors across 169,712 entries, Quality: 0 issues - 0 action markers translated, 0 untranslated English, 0 bracket translation, 0 glossary violations).",
+      "entries_completed": 51302
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -59,21 +59,21 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "eb63381",
-  "last_commit_message": "Base game translation: Session 390 - Random encounter sections (46 entries)",
+  "last_commit_hash": "de16420",
+  "last_commit_message": "Base game translation: Session 391 - Random encounter sections (81 entries)",
   "validation_date": "2025-11-13",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
-  "analysis_session": 390,
+  "analysis_session": 391,
   "analysis_findings": {
-    "new_translations": "Session 390: 46 new Japanese translations (L432912-433518). Four sections: y313_hostile_hills_godfishers (15 entries - Godfishers ambush encounters with stealth, avoidance, attack options), y313_hostile_hills_godfishers_plains (17 entries - duplicate section for Plains region), yy_dorseys_ambush (14 entries - generic ambush encounter with defense, escape, skill-based options), yy_drools_ambush (14 entries - Drools enemy encounters). Random encounter dialogue for Hills/Plains regions.",
+    "new_translations": "Session 391: 81 new Japanese translations (L433525-434298). Six sections: yy_drools_ambush_mountains (14 entries), yy_drools_ambush_plains (14 entries), yy_drools_spotted (13 entries), yy_drools_spotted_mountains (13 entries), yy_drools_spotted_plains (13 entries), yy_frogs_ambush (14 entries - NEW enemy type: Giant Frogs). Random encounter dialogue for Drools (irradiated mutants) and Giant Frogs (post-apocalyptic wildlife in sub-zero environment).",
     "action_marker_protection": "No action markers in this translation range. Quality validation confirmed 0 action markers contain Japanese characters.",
-    "quote_format_handling": "All entries maintain strict 2-quote format matching English source exactly. [Small Chance to Escape] [Attack] tags preserved. Multi-scenario text with newline separators (carriage-return-newline escape sequence format) preserved correctly. Glossary terms: Godfishers, Payasos, Kodiak, Rangers, Drools (new term - katakana transliteration).",
+    "quote_format_handling": "All entries maintain strict 2-quote format matching English source exactly. [Small Chance to Escape] [Attack] tags preserved. Player skill check options (Animal Knowledge, Survival) preserved. Glossary terms: Drools, Kodiak used consistently.",
     "quality_validation": "Dual validation passed with zero errors. Structure: 0 errors - all 169,712 entries maintain exact quote count match with source. Quality: 0 issues across all validated ranges - 0 action markers translated, 0 untranslated English, 0 bracket content translated, 0 glossary violations."
   },
-  "total_entries_completed": 51221,
+  "total_entries_completed": 51302,
   "total_entries": 232418,
-  "total_entries_untranslated": 172068,
-  "overall_completion_rate": 22.0,
-  "next_action": "Continue sequential translation from line 433525. Next: yy_drools_ambush_mountains (18 entries). Continuation of Drools encounter dialogue for Mountains region."
+  "total_entries_untranslated": 171987,
+  "overall_completion_rate": 22.1,
+  "next_action": "Continue sequential translation from line 434299. Next: yy_frogs_ambush_mountains (16 entries). Continuation of Giant Frogs encounter dialogue for Mountains region."
 }
