@@ -435279,21 +435279,21 @@
        [0]
         1 string data = ""
        [1]
-        1 string data = "The worst thing about robots is, it's hard to tell if they're active or not until it's too late.\n\n\nIt's too late. "
+        1 string data = "ロボットで最悪なのは、起動しているかどうかが手遅れになるまで分からないことだ。\n\n\n手遅れだ。 "
        [2]
-        1 string data = "A robot steps in front of the Kodiak. You hit the brakes, but too late. You smash into it and run over it. You stop to check your undercarriage and the robot gets up - and it's joined by some friends."
+        1 string data = "ロボットがコディアックの前に飛び出してきた。ブレーキを踏んだが遅すぎた。衝突して轢いてしまう。車体の底部を確認しようと停車すると、ロボットが起き上がった。しかも仲間を連れている。"
        [3]
-        1 string data = "You see something shiny by the road and stop to investigate. It's a robot hand, sticking out of the ground. The hand is attached to a robot, which sits up. More robots sit up around it. Uh-oh."
+        1 string data = "道端に光る何かが見えたので、調査のために停車した。地面から突き出たロボットの手だ。その手はロボットに繋がっており、起き上がってきた。周りでもさらにロボットが起き上がる。しまった。"
        [4]
-        1 string data = "A terrified woman carrying a goat runs up to you, gibbering about killer robots. \r\n\r\nYou exit the Kodiak. "Where?"\r\n\r\nShe stares over your shoulder, then backs up, pointing and shaking."
+        1 string data = "ヤギを抱えた怯えた女が、殺人ロボットについて何か喚きながら君たちの方へ走ってくる。 \r\n\r\nコディアックを降りる。"どこだ？"\r\n\r\n女は君の肩越しに見つめ、後ずさりし、震えながら指差す。"
        [5]
-        1 string data = "A smell of hot metal and hotter oil fills the Kodiak. Fearing it might be overheating, you stop to take a look. The smell is stronger outside. And there's a sound of clanking feet. Robots!"
+        1 string data = "熱い金属と熱いオイルの臭いがコディアックを満たす。オーバーヒートではないかと不安になり、停車して確認することにした。外は臭いがさらに強い。そしてカチャカチャという足音が聞こえる。ロボットだ！"
        [6]
-        1 string data = "[Small Chance to Escape] You might just escape the robots if you run for the Kodiak and floor it. "
+        1 string data = "[Small Chance to Escape] コディアックに走り、アクセルを全開にすれば、ロボットから逃げられるかもしれない。 "
        [7]
-        1 string data = "You jump in the truck inches ahead of metal claws, then fire it up and smash through the robots to freedom. "
+        1 string data = "金属の爪のわずか数センチ手前でトラックに飛び乗り、エンジンをかけてロボットを蹴散らし、自由へと突進する。 "
        [8]
-        1 string data = "The robots slam the door of the truck closed and keep you from entering. Time to fight!"
+        1 string data = "ロボットたちがトラックのドアを叩きつけて閉め、乗り込むのを阻止してくる。戦う時だ！"
        [9]
         1 string data = ""
        [10]
@@ -435305,17 +435305,17 @@
        [13]
         1 string data = ""
        [14]
-        1 string data = "Take advantage of the terrain to escape."
+        1 string data = "地形を利用して逃げる。"
        [15]
-        1 string data = "You pile into the Kodiak and drive up an icy hill. The robots' metal feet have difficulty getting purchase on the slick slope and you quickly leave them behind. "
+        1 string data = "コディアックに乗り込み、凍った丘を登っていく。ロボットの金属製の足は滑りやすい斜面で足場を得るのに苦労し、君たちはすぐに引き離すことができた。 "
        [16]
-        1 string data = "Get the drop on the robots by scrambling their circuits. "
+        1 string data = "回路を狂わせてロボットに先手を打つ。 "
        [17]
-        1 string data = "At the top of your lungs you shout, "C:>taskkill /F /IM "killallhumans.exe" /T!"\n\n\nYou must have said it wrong, because it doesn't stop them, but they do pause for a second - and a second is enough. "
+        1 string data = "大声で叫ぶ。"C:>taskkill /F /IM "killallhumans.exe" /T！"\n\n\n言い方が間違っていたようだ。止まってくれなかったが、1秒だけ動きが止まった。その1秒で十分だ。 "
        [18]
-        1 string data = "Defend yourself. "
+        1 string data = "自衛する。 "
        [19]
-        1 string data = "You brace yourself for the robots' attack."
+        1 string data = "ロボットの攻撃に備える。"
    [1582]
     0 StringTable data
      1 string Filename = "yy_robots_spotted"
@@ -435431,35 +435431,35 @@
        [0]
         1 string data = ""
        [1]
-        1 string data = "A robot wanders across the road ahead of you. Then another. Looks like a squad of them. At this point you could give them the slip... or not."
+        1 string data = "前方の道路をロボットが横切っている。さらにもう一体。どうやら部隊のようだ。今なら見逃してもらえるかもしれない...いや、無理かもしれない。"
        [2]
-        1 string data = "Some robots are watching while one of them repairs another. They seem intent on the procedure and haven't noticed you yet. "
+        1 string data = "数体のロボットが見守る中、一体が別のロボットを修理している。作業に集中しており、まだこちらに気づいていないようだ。 "
        [3]
-        1 string data = "Some traders in an old truck roar through an intersection ahead of you, pursued by robots. The traders pull away and the robots stop and start looking for other targets. "
+        1 string data = "古いトラックに乗った商人たちが、ロボットに追われながら前方の交差点を轟音を上げて通過していく。商人たちは引き離し、ロボットは停止して他の標的を探し始める。 "
        [4]
-        1 string data = "A group of robots stands in an open area, all facing in the same direction, as if they were listening to something. They haven't seen you. "
+        1 string data = "ロボットの一団が開けた場所に立ち、全員が同じ方向を向いている。まるで何かに耳を傾けているようだ。こちらには気づいていない。 "
        [5]
-        1 string data = "A group of robots are all digging in the ground like they are looking for something. The task has their full attention. "
+        1 string data = "ロボットの一団が地面を掘っている。何かを探しているようだ。その作業に完全に集中している。 "
        [6]
-        1 string data = "Sneak up on them."
+        1 string data = "忍び寄る。"
        [7]
-        1 string data = "You get into a flanking position without the robots noticing. Time to strike. "
+        1 string data = "ロボットに気づかれずに側面の位置に移動する。攻撃の時だ。 "
        [8]
         1 string data = ""
        [9]
-        1 string data = "Avoid them."
+        1 string data = "避ける。"
        [10]
-        1 string data = "Using the lay of the land, you keep out of sight of the robots as you back away and drive off. "
+        1 string data = "地形を利用して、後退して運転しながらロボットの視界から逃れる。 "
        [11]
-        1 string data = "[Small Chance to Escape] There's a chance you could just avoid them."
+        1 string data = "[Small Chance to Escape] 避けられる可能性はある。"
        [12]
-        1 string data = "Success! You give the robots the slip and drive off undetected."
+        1 string data = "成功！ロボットを出し抜いて、発見されずに立ち去る。"
        [13]
-        1 string data = "The robots somehow sense your presence. They attack!"
+        1 string data = "ロボットがどういうわけか君の存在を感知した。攻撃してくる！"
        [14]
-        1 string data = "[Attack] Attack them before they attack you."
+        1 string data = "[Attack] 先手を取って攻撃する。"
        [15]
-        1 string data = "You charge the robots and catch them unprepared. The battle begins!"
+        1 string data = "ロボットに突撃し、不意を突く。戦闘開始だ！"
        [16]
         1 string data = ""
        [17]
@@ -435593,19 +435593,19 @@
        [0]
         1 string data = ""
        [1]
-        1 string data = "A robot wanders across the road ahead of you. Then another. Looks like a squad of them. At this point you could give them the slip... or not."
+        1 string data = "前方の道路をロボットが横切っている。さらにもう一体。どうやら部隊のようだ。今なら見逃してもらえるかもしれない...いや、無理かもしれない。"
        [2]
-        1 string data = "Some robots are watching while one of them repairs another. They seem intent on the procedure and haven't noticed you yet. "
+        1 string data = "数体のロボットが見守る中、一体が別のロボットを修理している。作業に集中しており、まだこちらに気づいていないようだ。 "
        [3]
-        1 string data = "Some traders in an old truck roar through an intersection ahead of you, pursued by robots. The traders pull away and the robots stop and start looking for other targets. "
+        1 string data = "古いトラックに乗った商人たちが、ロボットに追われながら前方の交差点を轟音を上げて通過していく。商人たちは引き離し、ロボットは停止して他の標的を探し始める。 "
        [4]
-        1 string data = "A group of robots stands in an open area, all facing in the same direction, as if they were listening to something. They haven't seen you. "
+        1 string data = "ロボットの一団が開けた場所に立ち、全員が同じ方向を向いている。まるで何かに耳を傾けているようだ。こちらには気づいていない。 "
        [5]
-        1 string data = "A group of robots are all digging in the ground like they are looking for something. The task has their full attention. "
+        1 string data = "ロボットの一団が地面を掘っている。何かを探しているようだ。その作業に完全に集中している。 "
        [6]
-        1 string data = "Sneak up on them."
+        1 string data = "忍び寄る。"
        [7]
-        1 string data = "You get into a flanking position without the robots noticing. Time to strike. "
+        1 string data = "ロボットに気づかれずに側面の位置に移動する。攻撃の時だ。 "
        [8]
         1 string data = ""
        [9]
@@ -435617,19 +435617,19 @@
        [12]
         1 string data = ""
        [13]
-        1 string data = "Avoid them."
+        1 string data = "避ける。"
        [14]
-        1 string data = "Using the lay of the land, you keep out of sight of the robots as you back away and drive off. "
+        1 string data = "地形を利用して、後退して運転しながらロボットの視界から逃れる。 "
        [15]
-        1 string data = "[Small Chance to Escape] There's a chance you could just avoid them."
+        1 string data = "[Small Chance to Escape] 避けられる可能性はある。"
        [16]
-        1 string data = "Success! You give the robots the slip and drive off undetected."
+        1 string data = "成功！ロボットを出し抜いて、発見されずに立ち去る。"
        [17]
-        1 string data = "The robots somehow sense your presence. They attack!"
+        1 string data = "ロボットがどういうわけか君の存在を感知した。攻撃してくる！"
        [18]
-        1 string data = "[Attack] Attack them before they attack you."
+        1 string data = "[Attack] 先手を取って攻撃する。"
        [19]
-        1 string data = "You charge the robots and catch them unprepared. The battle begins!"
+        1 string data = "ロボットに突撃し、不意を突く。戦闘開始だ！"
        [20]
         1 string data = ""
        [21]
@@ -435755,19 +435755,19 @@
        [0]
         1 string data = ""
        [1]
-        1 string data = "A robot wanders across the road ahead of you. Then another. Looks like a squad of them. At this point you could give them the slip... or not."
+        1 string data = "前方の道路をロボットが横切っている。さらにもう一体。どうやら部隊のようだ。今なら見逃してもらえるかもしれない...いや、無理かもしれない。"
        [2]
-        1 string data = "Some robots are watching while one of them repairs another. They seem intent on the procedure and haven't noticed you yet. "
+        1 string data = "数体のロボットが見守る中、一体が別のロボットを修理している。作業に集中しており、まだこちらに気づいていないようだ。 "
        [3]
-        1 string data = "Some traders in an old truck roar through an intersection ahead of you, pursued by robots. The traders pull away and the robots stop and start looking for other targets. "
+        1 string data = "古いトラックに乗った商人たちが、ロボットに追われながら前方の交差点を轟音を上げて通過していく。商人たちは引き離し、ロボットは停止して他の標的を探し始める。 "
        [4]
-        1 string data = "A group of robots stands in an open area, all facing in the same direction, as if they were listening to something. They haven't seen you. "
+        1 string data = "ロボットの一団が開けた場所に立ち、全員が同じ方向を向いている。まるで何かに耳を傾けているようだ。こちらには気づいていない。 "
        [5]
-        1 string data = "A group of robots are all digging in the ground like they are looking for something. The task has their full attention. "
+        1 string data = "ロボットの一団が地面を掘っている。何かを探しているようだ。その作業に完全に集中している。 "
        [6]
-        1 string data = "Sneak up on them."
+        1 string data = "忍び寄る。"
        [7]
-        1 string data = "You get into a flanking position without the robots noticing. Time to strike. "
+        1 string data = "ロボットに気づかれずに側面の位置に移動する。攻撃の時だ。 "
        [8]
         1 string data = ""
        [9]
@@ -435779,19 +435779,19 @@
        [12]
         1 string data = ""
        [13]
-        1 string data = "Avoid them."
+        1 string data = "避ける。"
        [14]
-        1 string data = "Using the lay of the land, you keep out of sight of the robots as you back away and drive off. "
+        1 string data = "地形を利用して、後退して運転しながらロボットの視界から逃れる。 "
        [15]
-        1 string data = "[Small Chance to Escape] There's a chance you could just avoid them."
+        1 string data = "[Small Chance to Escape] 避けられる可能性はある。"
        [16]
-        1 string data = "Success! You give the robots the slip and drive off undetected."
+        1 string data = "成功！ロボットを出し抜いて、発見されずに立ち去る。"
        [17]
-        1 string data = "The robots somehow sense your presence. They attack!"
+        1 string data = "ロボットがどういうわけか君の存在を感知した。攻撃してくる！"
        [18]
-        1 string data = "[Attack] Attack them before they attack you."
+        1 string data = "[Attack] 先手を取って攻撃する。"
        [19]
-        1 string data = "You charge the robots and catch them unprepared. The battle begins!"
+        1 string data = "ロボットに突撃し、不意を突く。戦闘開始だ！"
        [20]
         1 string data = ""
        [21]
