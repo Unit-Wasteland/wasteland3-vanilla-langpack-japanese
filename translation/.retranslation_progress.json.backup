@@ -18,15 +18,15 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 52048,
-      "entries_untranslated_real": 7499,
-      "entries_kept_english": 42517,
-      "completion_rate": 30.7,
-      "current_line": 441984,
+      "entries_translated": 52224,
+      "entries_untranslated_real": 7380,
+      "entries_kept_english": 42541,
+      "completion_rate": 30.8,
+      "current_line": 443322,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 402 complete: 153 new Japanese translations (L440670-441984). Sections: y_combat41_droolsattack (24 entries - drool ambush encounters), y_combat42_droolsspotted (24 entries - drool stealth scenarios), y_combat44_wormsattack (24 entries - worm ambush), y_combat45_wormsignspotted (24 entries - worm tracking), y_combat47_growlersattack (24 entries - growler encounters), y_combat48_growlersspotted (24 entries - growler hunting), y_dogandmine (9 entries - dog landmine event). Content: Multiple creature encounters with Team November, tactical choices for combat/escape, terrain usage, ambush mechanics. Technical: 65 Script Node entries preserved in English, double-double-quote format maintained, glossary terms applied. Dual validation passed (Structure: 0 errors across 169,712 entries, Quality: 0 issues).",
-      "entries_completed": 52048
+      "note": "Session 405 complete: 41 new Japanese translations (L443195-443322). Section: y_merchant_arapaho (65 total entries - Arapaho merchant convoy). Content: Trading encounters with Lug Nut, reputation variants, friendly and hostile branches, vehicle maintenance dialogue, highway wisdom stories. Critical fix: Spanish empty entries kept English per Rule 1 (24 entries). Spanish translated entries converted to Japanese (41 entries). Dual validation passed (Structure: 0 errors, Quality: 0 issues).",
+      "entries_completed": 52224
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -59,21 +59,21 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "6d92a23",
-  "last_commit_message": "Base game translation: Session 402 - Creature encounters (153 entries)",
+  "last_commit_hash": "f50fe25",
+  "last_commit_message": "Base game translation: Session 405 - Arapaho merchant encounters (41 entries)",
   "validation_date": "2025-11-13",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
-  "analysis_session": 402,
+  "analysis_session": 405,
   "analysis_findings": {
-    "new_translations": "Session 402: 153 new Japanese translations (L440670-441984). Sections: y_combat41_droolsattack (24 entries), y_combat42_droolsspotted (24 entries), y_combat44_wormsattack (24 entries), y_combat45_wormsignspotted (24 entries), y_combat47_growlersattack (24 entries), y_combat48_growlersspotted (24 entries), y_dogandmine (9 entries).",
-    "action_marker_protection": "No action markers in translated ranges. All action markers remain in English. Verified with quality validation.",
-    "quote_format_handling": "Double-double-quote format maintained throughout. 65 Script Node entries preserved in English as per do_not_translate list. All quotes character-for-character matched with English source.",
-    "quality_validation": "Dual validation passed. Structure: 0 errors across 169,712 entries. Quality: 0 issues - no action markers translated, no untranslated English, no bracket translation, no glossary violations. Glossary terms correctly applied: November."
+    "new_translations": "Session 405: 41 new Japanese translations (L443195-443322). Section: y_merchant_arapaho (65 total entries - Arapaho merchant convoy with Lug Nut).",
+    "action_marker_protection": "No action markers in this section. All action markers remain in English where present.",
+    "quote_format_handling": "Critical Rule 1 application: Spanish empty entries kept English text (24 entries). Spanish translated entries converted to Japanese (41 entries). Quote counts match English source exactly. No bracket translation issues.",
+    "quality_validation": "Dual validation passed. Structure: 0 errors across all entries. Quality: 0 issues - no action markers translated, no untranslated English violations, no glossary violations. Arapaho merchant terminology consistent."
   },
-  "total_entries_completed": 52048,
+  "total_entries_completed": 52224,
   "total_entries": 232418,
-  "total_entries_untranslated": 180370,
-  "overall_completion_rate": 22.4,
-  "next_action": "Continue sequential translation from line 441986. Next: y_dronemystery section."
+  "total_entries_untranslated": 180251,
+  "overall_completion_rate": 22.5,
+  "next_action": "Continue sequential translation from line 443323. Next: y_merchant_gipper section (70 entries - Gipper arms dealer Sister Nancy Reckoning)."
 }
