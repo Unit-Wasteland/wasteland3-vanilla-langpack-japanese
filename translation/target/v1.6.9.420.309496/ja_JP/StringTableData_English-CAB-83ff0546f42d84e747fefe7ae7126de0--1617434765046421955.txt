@@ -421659,19 +421659,19 @@
       1 Array Array (13 items)
        0 int size = 13
        [0]
-        1 string data = "At first glance, the man looks like just another corpse among many, but a sudden sharp twitch indicates his fast-fading vitality."
+        1 string data = "一見すると、男は多くの死体の中のただの一つに見えるが、突然の鋭い痙攣が彼の急速に消えゆく生命力を示している。"
        [1]
-        1 string data = "Battered and listless, his face is covered in drying blood. There's barely a hint of breath coming from his split lips."
+        1 string data = "打ちのめされ、生気を失い、彼の顔は乾いた血で覆われている。割れた唇からはかすかに息が漏れているだけだ。"
        [2]
-        1 string data = "Diagnose the man's wounds."
+        1 string data = "男の傷を診断する。"
        [3]
-        1 string data = "Leave him be."
+        1 string data = "放っておく。"
        [4]
-        1 string data = "There are signs of internal bleeding. He's in bad shape..."
+        1 string data = "内出血の兆候がある。彼の状態は非常に悪い..."
        [5]
         1 string data = "::deep breath::"
        [6]
-        1 string data = "Though unconscious, he'll likely live if they can get him to a safe place."
+        1 string data = "意識不明だが、安全な場所に移せれば生き延びる可能性が高い。"
        [7]
         1 string data = "Script Node 8"
        [8]
@@ -421681,7 +421681,7 @@
        [10]
         1 string data = ""...""
        [11]
-        1 string data = "With an Injury Kit and field surgery for the worst of his wounds, he should be stable enough to move him to long-term care."
+        1 string data = "傷害キットと最悪の傷の応急手術があれば、長期治療施設に移送できるほど容態を安定させられるだろう。"
        [12]
         1 string data = ""
    [1484]
@@ -421757,17 +421757,17 @@
       1 Array Array (6 items)
        0 int size = 6
        [0]
-        1 string data = ""Welcome, friends, to Emma's Roving Emporium of the Road. A little bit of everything all in one place. But never the same place twice. Want to have a look?""
+        1 string data = ""ようこそ、友よ。エマの流浪の道端商店へ。何でも揃っているよ。ただし、同じ場所には二度と来ないがね。見てみるかい？""
        [1]
-        1 string data = ""Sure.""
+        1 string data = ""ああ。""
        [2]
-        1 string data = ""No thanks.""
+        1 string data = ""結構だ。""
        [3]
-        1 string data = ""Feast your eyes on this.""
+        1 string data = ""これを見てくれ。""
        [4]
-        1 string data = ""See you down the road.""
+        1 string data = ""道中でまた会おう。""
        [5]
-        1 string data = ""Welcome back to Emma's, friends. Care to do some shopping?""
+        1 string data = ""おかえり、友よ。買い物はいかがかな？""
    [1486]
     0 StringTable data
      1 string Filename = "x3601_merchant_01"
@@ -421805,17 +421805,17 @@
       1 Array Array (6 items)
        0 int size = 6
        [0]
-        1 string data = ""Howdy, all. Welcome to Amblin' Art's mobile mart. If you're lookin' for necessities, good, bad, or middlin', I got 'em. Want a look?""
+        1 string data = ""やあ、皆さん。アンブリン・アートの移動商店へようこそ。必需品をお探しなら、良いものも悪いものも中途半端なものも揃ってるよ。見てみるかい？""
        [1]
-        1 string data = ""Why not?""
+        1 string data = ""ああ。""
        [2]
-        1 string data = ""Not today.""
+        1 string data = ""今日はいい。""
        [3]
-        1 string data = ""Here you are.""
+        1 string data = ""どうぞ。""
        [4]
-        1 string data = ""Then I'll see you tomorrow. So long.""
+        1 string data = ""じゃあまた明日。さらばだ。""
        [5]
-        1 string data = ""Howdy. Good t'see you again. In a buyin' mood?""
+        1 string data = ""やあ。また会えて嬉しいね。買い物の気分かい？""
    [1487]
     0 StringTable data
      1 string Filename = "x3701_merchant_02"
@@ -421853,17 +421853,17 @@
       1 Array Array (6 items)
        0 int size = 6
        [0]
-        1 string data = ""Hey! Got some shit to sell. Want some?""
+        1 string data = ""おい！売るもんがあるんだ。欲しいか？""
        [1]
-        1 string data = ""What you got?""
+        1 string data = ""何がある？""
        [2]
-        1 string data = ""Nope.""
+        1 string data = ""いや。""
        [3]
-        1 string data = ""Look at this shit.""
+        1 string data = ""これを見ろよ。""
        [4]
-        1 string data = ""You again. Wanna buy some shit?""
+        1 string data = ""またお前か。買う気あんのか？""
        [5]
-        1 string data = ""Whatever.""
+        1 string data = ""どうでもいいわ。""
    [1488]
     0 StringTable data
      1 string Filename = "x3801_merchant_03"
@@ -421901,17 +421901,17 @@
       1 Array Array (6 items)
        0 int size = 6
        [0]
-        1 string data = ""Strangers, please help. If I don't sell these things, I'll have nothing to eat.""
+        1 string data = ""旅の方、どうかお願いします。これを売れなければ、食べるものがなくなってしまうんです。""
        [1]
-        1 string data = ""Okay, show us.""
+        1 string data = ""わかった、見せてくれ。""
        [2]
-        1 string data = ""Sorry.""
+        1 string data = ""すまない。""
        [3]
-        1 string data = ""It isn't much, but it's all I have.""
+        1 string data = ""大したものじゃありませんが、私の全財産です。""
        [4]
-        1 string data = ""Bless you.""
+        1 string data = ""神のご加護を。""
        [5]
-        1 string data = ""Strangers, you're back. Will you look at my wares?""
+        1 string data = ""旅の方、戻ってきてくれたんですね。商品を見ていただけますか？""
    [1489]
     0 StringTable data
      1 string Filename = "x3601_backdoorwarning"
@@ -421973,21 +421973,21 @@
       1 Array Array (12 items)
        0 int size = 12
        [0]
-        1 string data = ""Ho-ho-hold on! That room is elves only!""
+        1 string data = ""ホ、ホホホ待て！あの部屋はエルフ専用だ！""
        [1]
-        1 string data = ""Don't be naughty, that room is not for you!""
+        1 string data = ""いたずらはダメだぞ、あの部屋はお前たちのものじゃない！""
        [2]
-        1 string data = ""Don't touch that door again, kids.""
+        1 string data = ""子供たち、二度とあのドアに触るんじゃないぞ。""
        [3]
-        1 string data = ""That's it, I'm going to feed you to my reindeer!""
+        1 string data = ""もういい、お前たちをトナカイの餌にしてやる！""
        [4]
-        1 string data = ""Time to die, you naughty little shits!""
+        1 string data = ""死ね、この悪ガキどもが！""
        [5]
-        1 string data = ""Ho-hoo?""
+        1 string data = ""ホ、ホホォ？""
        [6]
-        1 string data = ""My elves! You blew up my fucking elves!""
+        1 string data = ""私のエルフたち！お前ら私のエルフを爆破しやがった！""
        [7]
-        1 string data = ""My naughty list! You've freed my fucking elves!""
+        1 string data = ""私の悪い子リスト！お前ら私のエルフを解放しやがった！""
        [8]
         1 string data = "Script Node 9"
        [9]
@@ -422017,9 +422017,9 @@
       1 Array Array (2 items)
        0 int size = 2
        [0]
-        1 string data = ""Be sure to bundle up, it's cold outside!""
+        1 string data = ""厚着を忘れずに、外は寒いぞ！""
        [1]
-        1 string data = ""Ho-ho-hoooo!""
+        1 string data = ""ホ、ホホホォ！""
    [1491]
     0 StringTable data
      1 string Filename = "x3601_combatbarks_santa"
@@ -422123,35 +422123,35 @@
        [4]
         1 string data = "Script Node 5"
        [5]
-        1 string data = ""Ho... ho... hooooo...""
+        1 string data = ""ホ...ホ...ホォォォ...""
        [6]
-        1 string data = ""Merry... fucking... Christmas...""
+        1 string data = ""メリー...クソッタレ...クリスマス...""
        [7]
-        1 string data = ""No presents... for anybody... this year...""
+        1 string data = ""今年は...誰にも...プレゼントなしだ...""
        [8]
-        1 string data = ""Naughty... fucking... Rangers...""
+        1 string data = ""悪い子...クソッタレ...レンジャーめ...""
        [9]
-        1 string data = ""Naughty, Rangers, very naughty!""
+        1 string data = ""悪い子だな、レンジャー、とっても悪い子だ！""
        [10]
-        1 string data = ""See that, boys and girls? They're evil!""
+        1 string data = ""見たか、子供たち？奴らは悪なんだ！""
        [11]
-        1 string data = ""Ho-ho-homicidal, Rangers!""
+        1 string data = ""ホ、ホホ殺人的だな、レンジャー！""
        [12]
-        1 string data = ""Ready for a surprise?""
+        1 string data = ""サプライズの準備はいいか？""
        [13]
-        1 string data = ""I've got a gift for you!""
+        1 string data = ""お前たちへの贈り物があるぞ！""
        [14]
-        1 string data = ""Death, death for everybody!""
+        1 string data = ""死だ、全員に死を！""
        [15]
-        1 string data = ""No candy, just cane for you!""
+        1 string data = ""お前らにキャンディーはない、杖だけだ！""
        [16]
-        1 string data = ""Santa's bringing the pain!""
+        1 string data = ""サンタが痛みをお届けするぜ！""
        [17]
-        1 string data = ""Eat Santa's sack!""
+        1 string data = ""サンタの袋を食らえ！""
        [18]
-        1 string data = ""Ho-ho-hope is lost for you!""
+        1 string data = ""ホ、ホホ希望は失われた！""
        [19]
-        1 string data = ""Ho-ho-horrors untold await!""
+        1 string data = ""ホ、ホホ恐怖が待っているぞ！""
    [1492]
     0 StringTable data
      1 string Filename = "x3601_elfbarks"
@@ -422263,51 +422263,51 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = "::sing-song:: "Jangled nerves, jangled nerves, jangled all to hell...""
+        1 string data = "::sing-song:: "神経ズタズタ、神経ズタズタ、地獄の底まで...""
        [2]
-        1 string data = "::sing-song:: "It's a holly, jolly Pissmiss... It's the best time for some beer...""
+        1 string data = "::sing-song:: "陽気なクソッタレクリスマス...ビールを飲むのに最高の時...""
        [3]
-        1 string data = "::sing-song:: "Silent night, unholy blight... All is hell, no end in sight...""
+        1 string data = "::sing-song:: "静かな夜、邪悪な災い...全ては地獄、終わりは見えず...""
        [4]
         1 string data = "Script Node 5"
        [5]
-        1 string data = ""Please, oh please, help us, that fat fuck works us day and night, we're dying!""
+        1 string data = ""お願い、本当にお願い、助けて。あのデブ野郎は昼も夜も働かせるの、死にそうなのよ！""
        [6]
-        1 string data = ""If we stop working, the alarms ring. The noise is so loud it makes you sick and we can't even cover our ears because it would slow down our work...""
+        1 string data = ""作業を止めたら、警報が鳴るの。音がすごく大きくて気分が悪くなるし、耳を塞ぐことすらできないの。そんなことしたら作業が遅れちゃうから...""
        [7]
-        1 string data = ""I'd rather be dead than work here another day. Just kill me, Rangers. Please... It would be a mercy.""
+        1 string data = ""もう一日だってここで働くくらいなら死んだ方がマシよ。殺してくれない、レンジャー？お願い...慈悲ってものよ。""
        [8]
         1 string data = "Script Node 9"
        [9]
-        1 string data = "::sing-song:: "Rangers suck, Rangers suck, please eat shit and die...""
+        1 string data = "::sing-song:: "レンジャー最悪、レンジャー最悪、クソ食らって死ね...""
        [10]
-        1 string data = "::sing-song:: "It's a folly to trust Rangers, they're the liars of the year...""
+        1 string data = "::sing-song:: "レンジャー信じるなんて愚かなこと、今年一番の嘘つきさ...""
        [11]
-        1 string data = "::sing-song:: "Rangers all suck, they should all die... Promises broke, constantly lie...""
+        1 string data = "::sing-song:: "レンジャーは皆クソ、皆死ぬべきだ...約束破って、常に嘘つき...""
        [12]
         1 string data = "Script Node 13"
        [13]
-        1 string data = ""No, please! Please don't kill me! I'm begging you! I want to live, oh fuck... Please... don't kill me." ::sobs::"
+        1 string data = ""やめて、お願い！殺さないで！頼むから！生きたいの、クソ...お願い...殺さないで。" ::sobs::"
        [14]
-        1 string data = ""You fucking murderous monsters! What kind of psychopaths kill kids?!?""
+        1 string data = ""この殺人鬼のバケモノども！どんなサイコパスが子供を殺すんだ！？""
        [15]
-        1 string data = ""You disgust me, Rangers. Fucking murderers.""
+        1 string data = ""反吐が出るわ、レンジャー。クソッタレの殺人者。""
        [16]
         1 string data = "Script Node 17"
        [17]
-        1 string data = ""Oh, thank you! Finally, the sores on my hands can begin to heal!""
+        1 string data = ""ああ、ありがとう！ついに手の傷が治り始められるわ！""
        [18]
-        1 string data = ""We can finally take a break! I thought I was going to die making toys...""
+        1 string data = ""ついに休憩が取れる！おもちゃ作りで死ぬかと思った...""
        [19]
-        1 string data = ""Thank you, Rangers! You have no idea how painful slave labor can be!""
+        1 string data = ""ありがとう、レンジャー！奴隷労働がどれだけ辛いか、あなたたちには分からないでしょうね！""
        [20]
         1 string data = "Script Node 21"
        [21]
-        1 string data = ""Fuck off! I'm busy!""
+        1 string data = ""あっち行け！忙しいんだ！""
        [22]
-        1 string data = ""クソ野郎ども! 今仕事中なんだ!""
+        1 string data = ""クソ野郎ども！今仕事中なんだ！""
        [23]
-        1 string data = ""Aieee! You're just as bad as Santa!""
+        1 string data = ""ひぃぃぃ！あんたたちサンタと同じくらい最悪だ！""
    [1493]
     0 StringTable data
      1 string Filename = "x3601_mainsantaconversation"
@@ -422557,45 +422557,45 @@
       1 Array Array (59 items)
        0 int size = 59
        [0]
-        1 string data = ""Ho-ho-holy shit, what are you guys doing here? Are you lost, little Rangers?""
+        1 string data = ""ホ、ホホ何だって、お前らここで何してる？迷子か、チビレンジャー？""
        [1]
         1 string data = ""
        [2]
-        1 string data = ""We're investigating a distress call.""
+        1 string data = ""遭難信号を調査している。""
        [3]
-        1 string data = ""Well that's quite strange, no one here is in distress.""
+        1 string data = ""ほう、それは奇妙だな。ここには遭難している者などいないぞ。""
        [4]
-        1 string data = ""Your elf seems distressed, and this all seems a bit off...""
+        1 string data = ""あんたのエルフは苦しんでいるようだし、これ全部ちょっとおかしいんだが...""
        [5]
-        1 string data = ""Bye, Santa.""
+        1 string data = ""じゃあな、サンタ。""
        [6]
-        1 string data = ""Ho-ho-hosting you was a great honor. Come back anytime, Rangers!""
+        1 string data = ""ホ、ホホおもてなしできて光栄だったよ。いつでも来てくれ、レンジャー！""
        [7]
-        1 string data = ""Ho-ho-hold on there... little Mary just needs a little... time out. My elves work very hard all year to make others happy, it'd be a shame if that all went ho-ho-hopeless.""
+        1 string data = ""ホ、ホホちょっと待て...小さなメアリーはちょっと...休憩が必要なんだ。私のエルフたちは一年中懸命働いて他人を幸せにしている、それが全部ホ、ホホ台無しになったら残念だろう。""
        [8]
-        1 string data = ""We found your secret recipe, Santa. We know you're peddling drugs.""
+        1 string data = ""秘密のレシピを見つけたぞ、サンタ。お前が麻薬を売ってるのは知ってる。""
        [9]
         1 string data = ""
        [10]
         1 string data = ""
        [11]
-        1 string data = ""Hello again, my little busy bodies!""
+        1 string data = ""また会ったな、おせっかいな小僧ども！""
        [12]
-        1 string data = ""Ho-ho-who fucking cares? Do you not know who I am? You can't touch me, or my operation, but maybe we can make a deal?""
+        1 string data = ""ホ、ホホ誰が気にする？俺が誰か知らないのか？俺にも俺の事業にも手出しできないぞ、だが取引はできるかもな？""
        [13]
-        1 string data = ""You send us the product or we shut you down. Keep things quiet and shipments flowing to Ranger HQ.""
+        1 string data = ""製品を送るか、店を閉めるかだ。静かにして、レンジャー本部に出荷を続けろ。""
        [14]
-        1 string data = ""How about we cuff you and put you in jail?""
+        1 string data = ""手錠をかけて刑務所にぶち込むのはどうだ？""
        [15]
-        1 string data = ""I guess I have no choice but to send my shipments to you, Rangers. Although I prefer being an <i>elf-made</i> man, good old Santa knows how to share.""
+        1 string data = ""選択肢はないようだな、レンジャーに出荷するしかないか。<i>エルフ力</i>だけでやるのが好みだが、良き老サンタは分け合い方を知っている。""
        [16]
-        1 string data = ""We can increase production efficiency by 200%. Just send your shipments to Ranger HQ.""
+        1 string data = ""生産効率を200%上げられる。レンジャー本部に出荷するだけでいい。""
        [17]
-        1 string data = ""Call me Santa-mental, but this reminds me of when I first started this operation. You've got a deal, Rangers. I'll send double shipments of Brain Candy to Ranger HQ.""
+        1 string data = ""俺をサンタメンタルと呼んでくれ、この事業を始めたときを思い出すよ。取引成立だ、レンジャー。ブレイン・キャンディの二倍出荷をレンジャー本部に送ろう。""
        [18]
-        1 string data = ""Why don't you open your presents, Rangers?""
+        1 string data = ""プレゼントを開けてみたらどうだ、レンジャー？""
        [19]
-        1 string data = ""Make your way north, fatman, or your little elves are going to find Santa's lost his head. Literally.""
+        1 string data = ""北へ向かえ、デブ野郎。さもないとお前の小さなエルフたちがサンタが首を失うのを目撃することになるぞ。文字通りな。""
        [20]
         1 string data = ""Ho-ho-hooh no, I'm not dying over this. You win, Rangers.""
        [21]
