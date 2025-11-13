@@ -18,15 +18,15 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 51464,
-      "entries_untranslated_real": 8083,
+      "entries_translated": 51613,
+      "entries_untranslated_real": 7934,
       "entries_kept_english": 42439,
-      "completion_rate": 30.3,
-      "current_line": 435805,
+      "completion_rate": 30.4,
+      "current_line": 437161,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 393 complete: 57 new Japanese translations (L435187-435804). Four sections: yy_robots_ambush_plains (20 entries - Plains robot ambush), yy_robots_spotted (15 entries - Robot stealth encounter), yy_robots_spotted_mountains (11 entries - Mountains variant), yy_robots_spotted_plains (11 entries - Plains variant). Content: Robot encounters with terrain-specific escape mechanics. Key scenarios: Robot ambush (stealth vs surprise, terrain advantage like icy slopes), Robot spotted (avoid/sneak/attack options, circuit scrambling). Technical: Quote format initially had errors (4 quotes instead of 2 to match English source), all corrected. Structure: All markers preserved. Dual validation passed (Structure: 0 errors, Quality: 0 issues).",
-      "entries_completed": 51464
+      "note": "Session 395 complete: 91 new Japanese translations (L436370-437160). Five encounter sections: y_bbb_pizepi (15 entries - Pizepi Joren recruitment), y_combat01_dorseysattack (23 entries - Dorsey ambush), y_combat01_dorseysattack_mountains (14 entries - Mountain variant), y_combat04_scarcollectorsattack (25 entries - Scar Collector encounters), y_combat04_scarcollectorsattack_plains (14 entries - Plains variant). Content: Pizepi Joren (green-skinned mutant Ranger from Darwin Village) offers recruitment at seed bank. Multiple Dorsey and Scar Collector encounter scenarios with escape mechanics and tactical options. Technical: Quote format corrections, preserved bracket markers, handled non-breaking space in text. Structure: All markers preserved. Dual validation passed (Structure: 0 errors, Quality: 0 issues).",
+      "entries_completed": 51613
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -59,21 +59,21 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "5f6dd76",
-  "last_commit_message": "Base game translation: Session 393 - Robot encounter sections (57 entries)",
+  "last_commit_hash": "77258e1",
+  "last_commit_message": "Base game translation: Session 395 - Encounter sections (91 entries)",
   "validation_date": "2025-11-13",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
-  "analysis_session": 393,
+  "analysis_session": 395,
   "analysis_findings": {
-    "new_translations": "Session 393: 57 new Japanese translations (L435187-435804). Four sections: yy_robots_ambush_plains (20 entries), yy_robots_spotted (15 entries), yy_robots_spotted_mountains (11 entries), yy_robots_spotted_plains (11 entries). All robot encounter sections with stealth/avoid/attack options.",
+    "new_translations": "Session 395: 91 new Japanese translations (L436370-437160). Five encounter sections: y_bbb_pizepi (15 entries), y_combat01_dorseysattack (23 entries), y_combat01_dorseysattack_mountains (14 entries), y_combat04_scarcollectorsattack (25 entries), y_combat04_scarcollectorsattack_plains (14 entries). Pizepi Joren recruitment, Dorsey and Scar Collector encounters.",
     "action_marker_protection": "No action markers in this translation range.",
-    "quote_format_handling": "Initial translation used 4-quote format (double-double-quote) when English source had 2 quotes. All corrected to match English source exactly. Critical learning: Always check English source quote count and match precisely.",
-    "quality_validation": "Dual validation passed after quote format corrections. Structure: 0 errors across 169,712 entries. Quality: 0 issues - no action markers translated, no untranslated English, no bracket translation, no glossary violations."
+    "quote_format_handling": "Quote format correction on L436370: Changed 4-quote format to 2-quote format to match English source (narrative text, not dialogue). Non-breaking space handled in L436600/436726.",
+    "quality_validation": "Dual validation passed. Structure: 0 errors across 169,712 entries. Quality: 0 issues - no action markers translated, no untranslated English, no bracket translation, no glossary violations."
   },
-  "total_entries_completed": 51464,
+  "total_entries_completed": 51613,
   "total_entries": 232418,
-  "total_entries_untranslated": 171825,
-  "overall_completion_rate": 22.1,
-  "next_action": "Continue sequential translation from line 435805. Next: yy_worms_ambush (18 entries). Worm ambush encounters."
+  "total_entries_untranslated": 180805,
+  "overall_completion_rate": 22.2,
+  "next_action": "Continue sequential translation from line 437161. Next: y_combat08_godfishersattack section. Godfisher encounter dialogue."
 }
