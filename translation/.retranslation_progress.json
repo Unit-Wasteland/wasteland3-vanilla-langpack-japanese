@@ -9,13 +9,13 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 506563,
+    "current_line": 509068,
     "total_lines": 530425,
-    "entries_completed": 62711,
+    "entries_completed": 62724,
     "total_entries": 169712,
-    "percent_complete": 36.9,
-    "last_section": "loreentries",
-    "last_entry_index": 65,
+    "percent_complete": 36.95,
+    "last_section": "perks",
+    "last_entry_index": 277,
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
@@ -34,20 +34,20 @@
     "percent_complete": 0.0
   },
   "last_session": {
-    "session_number": 446,
+    "session_number": 447,
     "date": "2025-11-13",
-    "entries_processed": 46,
-    "sections_completed": ["loreentries entries [20]-[65]"],
-    "commit_hash": "6793e89",
+    "entries_processed": 13,
+    "sections_completed": ["options entry [1]", "perks entries [254]-[277]"],
+    "commit_hash": "f7326ed",
     "validation_passed": true,
-    "notes": "Completed remaining loreentries section entries including complex documents with embedded quotes. All quote count mismatches resolved through careful preservation of English quote structure.",
-    "next_action": "Continue with next section after loreentries (line 506563+)"
+    "notes": "Translated options section and perks character backgrounds. Key learning: embedded quotes in English source must be preserved as regular quote marks, not converted to Japanese brackets. Quote count must match source exactly.",
+    "next_action": "Continue perks section from line 509068 (entry [278]+)"
   },
   "cumulative_stats": {
-    "total_sessions": 446,
-    "total_entries_translated": 62711,
-    "average_entries_per_session": 141,
-    "estimated_sessions_remaining_base": 761,
-    "estimated_days_remaining_base": "31-38 days"
+    "total_sessions": 447,
+    "total_entries_translated": 62724,
+    "average_entries_per_session": 140,
+    "estimated_sessions_remaining_base": 764,
+    "estimated_days_remaining_base": "32-38 days"
   }
 }
