@@ -504737,7 +504737,7 @@
        [0]
         1 string data = " The first keycode text"
        [1]
-        1 string data = "Backspace"
+        1 string data = "バックスペース"
        [2]
         1 string data = "Delete"
        [3]
@@ -504753,13 +504753,13 @@
        [8]
         1 string data = "Space"
        [9]
-        1 string data = "Up"
+        1 string data = "↑"
        [10]
-        1 string data = "Down"
+        1 string data = "↓"
        [11]
-        1 string data = "Right"
+        1 string data = "→"
        [12]
-        1 string data = "Left"
+        1 string data = "←"
        [13]
         1 string data = "Insert"
        [14]
@@ -504777,31 +504777,31 @@
        [20]
         1 string data = "Scroll Lock"
        [21]
-        1 string data = "Keypad Enter"
+        1 string data = "テンキーEnter"
        [22]
-        1 string data = "Keypad {0}"
+        1 string data = "テンキー{0}"
        [23]
         1 string data = "&lt;quad class="{0}"&gt;"
        [24]
-        1 string data = "Left Alt"
+        1 string data = "左Alt"
        [25]
-        1 string data = "Left Ctrl"
+        1 string data = "左Ctrl"
        [26]
-        1 string data = "Left Cmd"
+        1 string data = "左Cmd"
        [27]
-        1 string data = "Left Shift"
+        1 string data = "左Shift"
        [28]
-        1 string data = "Right Alt"
+        1 string data = "右Alt"
        [29]
-        1 string data = "Right Ctrl"
+        1 string data = "右Ctrl"
        [30]
-        1 string data = "Right Cmd"
+        1 string data = "右Cmd"
        [31]
-        1 string data = "Right Shift"
+        1 string data = "右Shift"
        [32]
-        1 string data = "Left Apple"
+        1 string data = "左Apple"
        [33]
-        1 string data = "Right Apple"
+        1 string data = "右Apple"
    [1674]
     0 StringTable data
      1 string Filename = "loadingtips"
@@ -505707,451 +505707,451 @@
       1 Array Array (223 items)
        0 int size = 223
        [0]
-        1 string data = "The Scar Collectors are a gang of slavers who heavily modify their bodies as badges of honor."
+        1 string data = "スカー・コレクターズは奴隷商人のギャングで、名誉の証として体を大きく改造している。"
        [1]
-        1 string data = "Colorado Springs is the center of authority for most of the settlements and factions of Colorado."
+        1 string data = "コロラドスプリングスはコロラドのほとんどの入植地と勢力の権力の中心である。"
        [2]
-        1 string data = "Colorado Springs has been ruled by the Patriarch for over 50 years."
+        1 string data = "コロラドスプリングスは50年以上にわたってパトリアークに統治されている。"
        [3]
-        1 string data = "Ranger Citadel was the headquarters of the Desert Rangers until its destruction in 2102."
+        1 string data = "レンジャー・シタデルは2102年に破壊されるまでデザート・レンジャーズの本部だった。"
        [4]
-        1 string data = "The Patriarch has three exiled heirs: sons Valor and Victory, and daughter Liberty."
+        1 string data = "パトリアークには追放された3人の後継者がいる。息子のヴァラーとヴィクトリー、そして娘のリバティだ。"
        [5]
-        1 string data = "General Wade Woodson took command of the Desert Rangers after the loss of General Vargas.  "
+        1 string data = "ウェイド・ウッドソン将軍はヴァーガス将軍の喪失後、デザート・レンジャーズの指揮を執った。"
        [6]
-        1 string data = "The Hundred Families are Colorado’s richest and most powerful citizens."
+        1 string data = "百家族はコロラドで最も裕福で強力な市民たちである。"
        [7]
-        1 string data = "A synth is a Cochise-built robot with an AI so advanced it has achieved true conciousness."
+        1 string data = "シンセはコクスが造ったロボットで、真の意識を獲得するほど高度なAIを持っている。"
        [8]
-        1 string data = "Drools, the creatures who inhabit mine shafts, were once human."
+        1 string data = "ドルールは鉱山坑道に住む生物で、かつては人間だった。"
        [9]
-        1 string data = "The Desert Rangers were founded by army engineers who survived the nuclear apocalypse."
+        1 string data = "デザート・レンジャーズは核の黙示録を生き延びた陸軍技術者たちによって設立された。"
        [10]
-        1 string data = "Colorado is currently in the grip of a brutal, perpetual winter."
+        1 string data = "コロラドは現在、残酷で永続的な冬に囚われている。"
        [11]
-        1 string data = "The Rangers in Arizona are in desperate need of resources after the destruction of Ranger Citadel."
+        1 string data = "アリゾナのレンジャーズはレンジャー・シタデルの破壊後、資源を切実に必要としている。"
        [12]
-        1 string data = "Angela Deth was part of the Ranger team which destroyed Base Cochise."
+        1 string data = "アンジェラ・デスはベース・コクスを破壊したレンジャーチームの一員だった。"
        [13]
-        1 string data = "The Kodiak is a tracked, all-terrain vehicle designed for hostile environments."
+        1 string data = "コディアックは過酷な環境向けに設計された履帯式全地形対応車両である。"
        [14]
-        1 string data = "In the years before the apocalypse, artificial intelligence (AI) had been integrated into the military control systems of the United States and the USSR."
+        1 string data = "黙示録前の数年間、人工知能(AI)はアメリカとソ連の軍事制御システムに統合されていた。"
        [15]
-        1 string data = "A robot is an semi-autonomous, ambulatory machine with a limited AI."
+        1 string data = "ロボットは限定的なAIを持つ半自律的な歩行機械である。"
        [16]
-        1 string data = "The Brainwave Destabilizer uses microwaves to scramble a target's neural pathways."
+        1 string data = "ブレインウェーブ・デスタビライザーはマイクロ波を使用して標的の神経経路を撹乱する。"
        [17]
-        1 string data = "The apocalypse occurred when a meteor struck the US military’s orbital Starstation, triggering a full-scale nuclear attack."
+        1 string data = "黙示録は隕石がアメリカ軍の軌道上スターステーションに衝突し、全面核攻撃を引き起こしたときに起こった。"
        [18]
-        1 string data = "Slicer Dicers are fearsome robotic war machines that attack using circular saws mounted on their limbs."
+        1 string data = "スライサー・ダイサーは四肢に取り付けられた回転のこぎりを使って攻撃する恐るべきロボット戦争機械である。"
        [19]
-        1 string data = "Before being reduced to ruins in the war, the Academy in Colorado Springs trained officer cadets for the United States Air Force."
+        1 string data = "戦争で廃墟となる前、コロラドスプリングスのアカデミーは米国空軍の士官候補生を訓練していた。"
        [20]
-        1 string data = "Over the years, scavengers have created ingenious weapons from broken tools and old scrap, such as the Road Sign Cleaver and the Sawblade."
+        1 string data = "長年にわたり、スカベンジャーは壊れた工具や古い屑から、道路標識クリーバーやソーブレードのような独創的な武器を作り出してきた。"
        [21]
-        1 string data = "By the time of the apocalypse, laser and energy weapons were deployed with many US Army units. Many examples survive to the present day."
+        1 string data = "黙示録の時点で、レーザーとエネルギー兵器は多くのアメリカ陸軍部隊に配備されていた。多くの例が現在まで生き残っている。"
        [22]
-        1 string data = "Angela Deth was assigned by General Vargas to lead the Ranger advance team into Colorado."
+        1 string data = "アンジェラ・デスはヴァーガス将軍によってコロラドへのレンジャー先遣隊を率いるよう任命された。"
        [23]
-        1 string data = "The Bile Bomber is a Drool that explodes in a shower of poisonous bile when killed."
+        1 string data = "バイル・ボマーは殺されると有毒な胆汁のシャワーで爆発するドルールである。"
        [24]
-        1 string data = "Radioactive fallout has spawned horrific mutations in both people and animals throughout the wasteland."
+        1 string data = "放射性降下物はウェイストランド全体で人間と動物の両方に恐ろしい変異を引き起こした。"
        [25]
-        1 string data = "Bandits are an ever-present threat when crossing the wasteland."
+        1 string data = "山賊はウェイストランドを横断する際の常なる脅威である。"
        [26]
-        1 string data = "Ranger HQ in Colorado has been established in the ruins of what was once Peterson Air Force Base."
+        1 string data = "コロラドのレンジャー本部はかつてピーターソン空軍基地だった廃墟に設立された。"
        [27]
-        1 string data = "Peterson Air Force Base shares an airfield with Colorado Springs Municipal Airport, which housed many pre-war government command centers."
+        1 string data = "ピーターソン空軍基地はコロラドスプリングス市営空港と飛行場を共有しており、戦前の多くの政府司令センターが収容されていた。"
        [28]
-        1 string data = "Corporal Marcelo Gonzalez is a former marshal and radio communications expert that serves as Ranger HQ’s radio officer."
+        1 string data = "マルセロ・ゴンザレス伍長は元マーシャルで無線通信の専門家であり、レンジャー本部の無線士官を務めている。"
        [29]
-        1 string data = "The head of Ranger HQ security, Sergei Greatski is a veteran of the Patriarch’s most important battles."
+        1 string data = "レンジャー本部警備の責任者であるセルゲイ・グレアツキはパトリアークの最も重要な戦いのベテランである。"
        [30]
-        1 string data = "During his reign, the Patriarch has striven to protect Colorado from the chaos of the wastes, and give it a semblance of prewar American life."
+        1 string data = "パトリアークは統治期間中、荒地の混沌からコロラドを守り、戦前のアメリカ生活の一端を与えることに努めてきた。"
        [31]
-        1 string data = "Marshal Darius Kwon is the Patriarch’s liaison to the Rangers."
+        1 string data = "マーシャル・ダリウス・クォンはパトリアークとレンジャーズとの連絡官だ。"
        [32]
-        1 string data = "You've made your decision. There's no turning back now. All that remains is to find out who's still with you. "
+        1 string data = "決断を下した。もう後戻りはできない。残るは誰がまだ味方かを確かめるだけだ。"
        [33]
-        1 string data = "Colorado Springs is experiencing an increasing problem with refugees fleeing the vicious warlords who dominate the eastern plains."
+        1 string data = "コロラドスプリングスは東部平原を支配する凶悪な軍閥から逃れる難民の増加問題を抱えている。"
        [34]
-        1 string data = "Colorado Springs usually gets its oil from the Gippers, the cult that controls most of the state's fuel production. Unfortunately, because of recent hostilities, the Gippers stopped oil deliveries to the city."
+        1 string data = "コロラドスプリングスは通常、州の燃料生産の大半を支配するカルト、ギッパーズから石油を入手している。残念ながら、最近の敵対行為により、ギッパーズは市への石油供給を停止した。"
        [35]
-        1 string data = "Before being reduced to ruins in the war, the Academy in Colorado Springs trained officer cadets for the United States Air Force."
+        1 string data = "戦争で廃墟となる前、コロラドスプリングスのアカデミーはアメリカ空軍の士官候補生を訓練していた。"
        [36]
-        1 string data = "The penalty for breaking the law in Colorado Springs often means time in the pillories. In Colorado’s freezing weather, this is effectively a death sentence."
+        1 string data = "コロラドスプリングスで法を破った際の罰はしばしば晒し台に立たされることを意味する。コロラドの極寒の気候では、これは事実上の死刑宣告だ。"
        [37]
-        1 string data = "Colorado Springs is a rare, fully-functioning society in post-apocalyptic America - but many harsh sacrifices have to be made in order to maintain it."
+        1 string data = "コロラドスプリングスはポストアポカリプスのアメリカでは稀な、完全に機能する社会だ―だが、それを維持するには多くの厳しい犠牲を払わなければならない。"
        [38]
-        1 string data = "Colorado Springs escaped nuclear annihilation thanks to missile defense systems put in place to defend the nearby military installation at Cheyenne Mountain."
+        1 string data = "コロラドスプリングスは近隣の軍事施設シャイアン・マウンテンを守るために設置されたミサイル防衛システムのおかげで核による全滅を免れた。"
        [39]
-        1 string data = ""It's time to end this, one way or another.""
+        1 string data = ""これを終わらせる時だ、何らかの形で。""
        [40]
-        1 string data = "Faran Brygo, the former boss of Las Vegas, now runs a nightclub and criminal organization in Colorado Springs."
+        1 string data = "ラスベガスの元ボス、ファラン・ブライゴは今やコロラドスプリングスでナイトクラブと犯罪組織を運営している。"
        [41]
-        1 string data = "Brygo’s Little Vegas nightclub is open all hours, and features a dance hall, lounge, and brothel."
+        1 string data = "ブライゴのリトル・ベガス・ナイトクラブは終日営業しており、ダンスホール、ラウンジ、売春宿を備えている。"
        [42]
-        1 string data = "Brygo's nightclub is the favorite watering hole for Local 168, a mercenary company run by a former miner named Boulder."
+        1 string data = "ブライゴのナイトクラブは、元鉱夫ボルダーが運営する傭兵会社ローカル168の憩いの場だ。"
        [43]
-        1 string data = "A eunuch named Ken Doll runs the brothel in Brygo’s Little Vegas."
+        1 string data = "ケン・ドールという名の宦官がブライゴのリトル・ベガスの売春宿を運営している。"
        [44]
-        1 string data = "Faran Brygo employs a gang of machine-gun-wielding thugs to maintain order in his club."
+        1 string data = "ファラン・ブライゴはマシンガンを振り回すギャングを雇ってクラブの秩序を保っている。"
        [45]
-        1 string data = "The Discobot is a variant of the Octotron, exchanging the fearsome arsenal of spinning blades for flashing lights and a library of danceable tunes."
+        1 string data = "ディスコボットはオクトトロンの変種で、恐るべき回転刃の武装を点滅ライトとダンス音楽ライブラリに置き換えている。"
        [46]
-        1 string data = "Since Faran Brygo’s Little Vegas nightclub was shut down, kids from the Hundred Families have taken over the building  to throw parties."
+        1 string data = "ファラン・ブライゴのリトル・ベガス・ナイトクラブが閉鎖されて以来、百家族の子供たちが建物を乗っ取ってパーティーを開いている。"
        [47]
-        1 string data = "Approximately twenty years ago, the Dorsey family was one of Colorado’s elite Hundred Families – until they challenged the Patriarch’s rule."
+        1 string data = "約20年前、ドーシー家はコロラドのエリート百家族の一つだった―パトリアークの支配に挑戦するまでは。"
        [48]
-        1 string data = "After fleeing to the plains to escape the Patriarch’s wrath, Nelius Dorsey molded what was left of his extended family into a vicious gang of hunters and raiders."
+        1 string data = "パトリアークの怒りから逃れるため平原に逃げた後、ネリウス・ドーシーは残った親族を狩人とレイダーの凶悪なギャングに変貌させた。"
        [49]
-        1 string data = "The Dorseys believe they are harbingers of the Deluge of Blood, a great cataclysm that will wipe away the last remnants of the old world."
+        1 string data = "ドーシーズは自分たちが「血の大洪水」の先触れであり、旧世界の最後の名残を一掃する大異変だと信じている。"
        [50]
-        1 string data = "Broadmoor Heights is home to the Church of the Final Deluge, Colorado’s official religion."
+        1 string data = "ブロードムーア・ハイツはコロラドの公式宗教である最終大洪水の教会がある場所だ。"
        [51]
-        1 string data = "The flow of refugees into Colorado Springs is putting a severe strain on resources and creating tensions with the Hundred Families."
+        1 string data = "コロラドスプリングスへの難民の流入は資源に深刻な負担をかけ、百家族との緊張を生み出している。"
        [52]
-        1 string data = "The wealthiest and most influential of the Hundred Families maintain residences in Broadmoor Heights, close to the Patriarch’s Palace."
+        1 string data = "百家族の中でも最も裕福で影響力のある者たちは、パトリアークの宮殿に近いブロードムーア・ハイツに邸宅を構えている。"
        [53]
-        1 string data = "The Patriarch’s Palace was formerly a luxury hotel in the historic Old Broadmoor section of Colorado Springs."
+        1 string data = "パトリアークの宮殿は以前、コロラドスプリングスの歴史的なオールド・ブロードムーア地区にあった高級ホテルだった。"
        [54]
-        1 string data = "The Patriarch rose to power by uniting the Hundred Families and leading them to victory over the vicious gangs of Colorado."
+        1 string data = "パトリアークは百家族を統一し、コロラドの凶悪なギャングたちに対する勝利へと導くことで権力を握った。"
        [55]
-        1 string data = "The Patriarch’s Marshals are responsible for maintaining law and order in Colorado."
+        1 string data = "パトリアークのマーシャルズはコロラドの法と秩序を維持する責任を負っている。"
        [56]
-        1 string data = "Survivalist groups were common in Colorado in the years before the bombs fell."
+        1 string data = "サバイバリストグループは核爆弾が落ちる前の数年間、コロラドでは一般的だった。"
        [57]
-        1 string data = "Wealthy survivalists had the resources to create elaborate bunkers for their families in case of disaster."
+        1 string data = "裕福なサバイバリストたちは災害に備えて家族のための精巧なバンカーを作る資源を持っていた。"
        [58]
-        1 string data = "Peek and Poke are believed to have been popular cartoon characters before war. Strangely, new cartoons continue to appear on billboards across Colorado, but no one knows who is putting them there."
+        1 string data = "ピークとポークは戦前に人気のあった漫画のキャラクターだったと考えられている。奇妙なことに、新しい漫画がコロラド中の看板に現れ続けているが、誰がそれを設置しているのか誰も知らない。"
        [59]
-        1 string data = "The Gippers are a religious faction that worships Ronald Reagan as a god."
+        1 string data = "ギッパーズはロナルド・レーガンを神として崇拝する宗教派閥だ。"
        [60]
-        1 string data = "The oil that Coloradans depend on for heat and fuel is pumped from the Denver oil fields."
+        1 string data = "コロラド人が暖房と燃料に依存している石油はデンバーの油田から汲み上げられている。"
        [61]
-        1 string data = "Mother Nancy Reliance is the most recent leader of the Gippers."
+        1 string data = "マザー・ナンシー・リライアンスはギッパーズの最新のリーダーだ。"
        [62]
-        1 string data = "Union Station was the main railway station and a central transportation hub in Denver before the war."
+        1 string data = "ユニオン駅は戦前のデンバーにおける主要鉄道駅であり、中央交通ハブだった。"
        [63]
-        1 string data = "The area surrounding Union Station is populated by scavenger gangs and dangerous predators."
+        1 string data = "ユニオン駅周辺地域はスカベンジャーのギャングと危険な捕食者によって占められている。"
        [64]
-        1 string data = "Many federal and municipal buildings contained secret bunkers or caches of emergency supplies in case of nuclear war."
+        1 string data = "多くの連邦および自治体の建物には、核戦争に備えた秘密のバンカーや緊急物資の貯蔵庫が含まれていた。"
        [65]
-        1 string data = "The Machine Commune is a colony of robots and artificial intelligences at the Denver airport."
+        1 string data = "マシーン・コミューンはデンバー空港にあるロボットと人工知能のコロニーだ。"
        [66]
-        1 string data = "The MI Tower is a collection of machine intelligences that serve as the leader of the Machine Commune."
+        1 string data = "MIタワーはマシーン・コミューンのリーダーとして機能する機械知能の集合体だ。"
        [67]
-        1 string data = "SAL is a well-known radio DJ who broadcasts from the ruins of the Denver Airport."
+        1 string data = "SALはデンバー空港の廃墟から放送する有名なラジオDJだ。"
        [68]
-        1 string data = "Until recently, Aspen served as a vacation retreat for the Patriarch and the Hundred Families."
+        1 string data = "つい最近まで、アスペンはパトリアークと百家族のバカンス用の保養地として機能していた。"
        [69]
-        1 string data = "Aspen is reached by travelling up the remains of Interstate 82. In times past, the Hundred Families took turns on “82 duty” guarding the road and keeping it clear."
+        1 string data = "アスペンには州間高速道路82号線の残骸を登って行く。かつて、百家族は交代で「82号線当番」として道路を警備し、道を確保していた。"
        [70]
-        1 string data = "The Breathers are innocent Coloradans who have been forcibly addicted to a powerful mix of hallucinogenic gases that Victory Buchanan uses to keep them under his control."
+        1 string data = "ブリーザーズは無実のコロラド人で、ヴィクトリー・ブキャナンが彼らを支配下に置くために使用する強力な幻覚性ガスの混合物に強制的に中毒にされた者たちだ。"
        [71]
-        1 string data = "Once a year, the Patriarch and representatives of the Hundred Families would gather at the lodge in Aspen for a summit on Colorado affairs."
+        1 string data = "年に一度、パトリアークと百家族の代表者たちがアスペンのロッジに集まり、コロラドの問題に関する首脳会議を開いていた。"
        [72]
-        1 string data = "The Summit Lodge was a somewhat seedy ski lodge in Aspen before the war."
+        1 string data = "サミット・ロッジは戦前のアスペンにあったやや場末なスキーロッジだった。"
        [73]
-        1 string data = "No one knows what happened to the original inhabitants of Aspen. Evidence suggests they simply walked off into the snow and disappeared."
+        1 string data = "アスペンの元の住民に何が起きたのか誰も知らない。証拠は彼らが単に雪の中に歩き出て消えたことを示唆している。"
        [74]
-        1 string data = "Major Vera Prasad is the commanding officer of the Ranger convoy heading to Colorado."
+        1 string data = "ヴェラ・プラサド少佐はコロラドへ向かうレンジャーの輸送隊の指揮官だ。"
        [75]
-        1 string data = "Ranger HQ has dispatched a convoy of Rangers to Colorado to establish a lifeline of vital supplies to Arizona."
+        1 string data = "レンジャー本部はアリゾナへの重要な物資の生命線を確立するため、コロラドへのレンジャーの輸送隊を派遣した。"
        [76]
-        1 string data = "The Bloodbeast is a breed of savage, skinless wolverine that the Dorseys train to track down bleeding prey."
+        1 string data = "ブラッドビーストはドーシーズが出血した獲物を追跡するために訓練する、凶暴で皮のない狼の一種だ。"
        [77]
-        1 string data = "The Bizarre is a marketplace of the expensive, the dangerous, and the weird, built into a prewar mall that’s buried under decades of snow."
+        1 string data = "ビザールは高価で危険で奇妙なものの市場で、数十年分の雪の下に埋もれた戦前のモールに建てられている。"
        [78]
-        1 string data = "The Monster Army ruled a significant portion of Colorado for many years until they were defeated by the Patriarch and the Hundred Families. The Bizarre, once their seat of power, is now the only area they still control."
+        1 string data = "モンスター・アーミーは長年コロラドのかなりの部分を支配していたが、パトリアークと百家族に敗北した。かつて彼らの権力の座だったビザールは、今や彼らが支配する唯一の地域だ。"
        [79]
-        1 string data = "Travelers have been known to wait outside for days – or even weeks – in hopes of gaining entrance into the Bizarre."
+        1 string data = "旅人たちはビザールへの入場を期待して、外で何日も―あるいは何週間も―待つことが知られている。"
        [80]
-        1 string data = "The Bizarre exports meats, leather, and manure to Colorado Springs, in trade for more varied foodstuffs and supplies, as well as acting as a secure trading hub."
+        1 string data = "ビザールは肉、皮革、肥料をコロラドスプリングスに輸出し、より多様な食料品や物資と交換すると共に、安全な交易拠点としても機能している。"
        [81]
-        1 string data = "The Sanctified Piscitelli is the owner and operator of the Bizarre’s weapon store and experimental workshop."
+        1 string data = "サンクティファイド・ピシテリはビザールの武器店と実験工房のオーナー兼運営者だ。"
        [82]
-        1 string data = "Jakub Martin – aka Flab the Inhaler – is the most recent leader of the Monster Army."
+        1 string data = "ヤクブ・マーティン―別名フラブ・ジ・インヘイラー―はモンスター・アーミーの最新のリーダーだ。"
        [83]
-        1 string data = "Someone has been strapping explosives to pigs and releasing them from the Warrens to wreak havoc in the Bizarre. The locals have taken to calling them "Hot Hogs.""
+        1 string data = "誰かが豚に爆弾を括り付けてウォレンズから放ち、ビザールで大混乱を引き起こしている。地元の人々はそれらを"Hot Hogs"と呼んでいる。"
        [84]
-        1 string data = "Decades ago, the Patriarch defeated the Monster Army by finding a way into the Bizarre through the Warrens."
+        1 string data = "数十年前、パトリアークはウォレンズを通じてビザールへの道を見つけることで、モンスター・アーミーを打ち破った。"
        [85]
-        1 string data = "The first post-war inhabitants of the Bizarre were pig farmers, who used the Warrens to keep their livestock."
+        1 string data = "ビザールの最初の戦後住民は豚農家で、彼らはウォレンズを家畜を飼うために使用していた。"
        [86]
-        1 string data = "The Monster Army seized the Bizarre from its original inhabitants and transformed it into the trading hub it is today."
+        1 string data = "モンスター・アーミーはビザールを元の住民から奪い、今日の交易拠点に変貌させた。"
        [87]
-        1 string data = "Members of the Monster Army wear pre-war Halloween masks to create a gang of faceless, unsettling killers."
+        1 string data = "モンスター・アーミーのメンバーは戦前のハロウィンマスクを着用し、顔のない不気味な殺し屋のギャングを作り出している。"
        [88]
-        1 string data = "After their defeat at the hands of the Patriarch, the remnants of the Monster Army swore fealty to him, and were allowed to keep the Bizarre in return."
+        1 string data = "パトリアークの手による敗北の後、モンスター・アーミーの残党は彼への忠誠を誓い、その見返りとしてビザールを保持することを許された。"
        [89]
-        1 string data = "The Ice Hopper is a mutated horned toad with blue-white skin and ice crystals instead of horns."
+        1 string data = "アイスホッパーは青白い皮膚と角の代わりに氷の結晶を持つ、変異した角のあるヒキガエルだ。"
        [90]
-        1 string data = "Some Colorado families eke out a desperate existence on isolated homesteads, despite the danger from bandits and other predators."
+        1 string data = "一部のコロラドの家族は、盗賊やその他の捕食者からの危険にもかかわらず、孤立した農場で必死の生活を送っている。"
        [91]
-        1 string data = "Many homesteads have been pillaged and burned by encroaching raiders, driving the survivors to seek shelter in Colorado Springs and elsewhere."
+        1 string data = "多くの農場が侵入してくるレイダーに略奪され焼き払われ、生存者はコロラドスプリングスなどに避難を求めて追い込まれている。"
        [92]
-        1 string data = "The most powerful gangs of the eastern plains have gathered together at a derelict speedway in a council of war to overthrow the Patriarch."
+        1 string data = "東部平原の最も強力なギャングたちがパトリアークを倒すため、荒廃したスピードウェイで戦争評議会のために集まった。"
        [93]
-        1 string data = "Ironclad Cordite is the former leader of the Scar Collectors."
+        1 string data = "アイアンクラッド・コーダイトはスカー・コレクターズの元リーダーだ。"
        [94]
-        1 string data = "Three gangs currently dominate the eastern plains: the Scar Collectors, the Godfishers, and the Payasos."
+        1 string data = "現在、東部平原を支配する3つのギャングがある：スカー・コレクターズ、ゴッドフィッシャーズ、そしてパヤソスだ。"
        [95]
-        1 string data = "The Godfishers are part gang, part apocalyptic cult, sacrificing prisoners on huge leather kites to their strange sky gods."
+        1 string data = "ゴッドフィッシャーズは半分ギャング、半分黙示録カルトで、囚人を巨大な革の凧で奇妙な天空の神々に生贄として捧げる。"
        [96]
-        1 string data = "Star-that-Dreams is the current leader of the Godfishers."
+        1 string data = "スター・ザット・ドリームスはゴッドフィッシャーズの現在のリーダーだ。"
        [97]
-        1 string data = "Godfishers cover their bodies with blue tattoos as a sign of their devotion to the sky gods."
+        1 string data = "ゴッドフィッシャーズは天空の神々への献身の印として体を青い刺青で覆っている。"
        [98]
-        1 string data = "The Glow Hopper is a glowing, irradiated toad that feeds on nuclear sludge."
+        1 string data = "グローホッパーは核のヘドロを餌とする、光り輝く放射線を帯びたヒキガエルだ。"
        [99]
-        1 string data = "Before the Apocalypse there were hundreds of satellites and a number of operational space stations in orbit. Many have crashed to earth in the years since."
+        1 string data = "アポカリプス前には軌道上に何百もの衛星といくつかの稼働中の宇宙ステーションがあった。多くはその後の年月で地球に墜落した。"
        [100]
-        1 string data = "The Scar Collectors make extensive use of slave labor in their tech-mines."
+        1 string data = "スカー・コレクターズはテックマインで奴隷労働を広範囲に利用している。"
        [101]
-        1 string data = "Billy and Jean are an especially ornery mutant two-headed goat with a propensity for butting people they don’t like."
+        1 string data = "ビリーとジーンは特に気難しい変異双頭ヤギで、気に入らない人に頭突きをする傾向がある。"
        [102]
-        1 string data = "Over time, the Dorsey gang has grown beyond Nelius Dorsey’s extended family, and includes recruits from all over the plains."
+        1 string data = "時を経て、ドーシーのギャングはネリウス・ドーシーの親族を超えて成長し、平原中からの新兵を含んでいる。"
        [103]
-        1 string data = "Alistair Hoon was a decorated marshal and a scourge of the plains raiders."
+        1 string data = "アリスター・フーンは勲章を授与されたマーシャルで、平原のレイダーたちの災いだった。"
        [104]
-        1 string data = "Lieutenant Connie Zeng was Angela Deth’s second-in-command for the Colorado advance team."
+        1 string data = "コニー・ゼン中尉はアンジェラ・デスのコロラド先遣隊における副官だった。"
        [105]
-        1 string data = "Many Ranger badges are more than a century old, passed from one generation of Rangers to the next."
+        1 string data = "多くのレンジャーバッジは1世紀以上前のもので、一世代のレンジャーから次の世代へと受け継がれている。"
        [106]
-        1 string data = "Major Tomcat is the Rangers’ mascot, and most valuable squad member."
+        1 string data = "トムキャット少佐はレンジャーズのマスコットであり、最も貴重な部隊員だ。"
        [107]
-        1 string data = "Ghost towns are a common sight across Colorado, as populations die out or are forced to relocate to the larger cities."
+        1 string data = "ゴーストタウンはコロラド中でよく見られる光景で、人口が死に絶えるか、より大きな都市への移住を余儀なくされている。"
        [108]
-        1 string data = "The Hundred Families often employ mercenaries as bodyguards or enforcers."
+        1 string data = "百家族はしばしば傭兵をボディガードや用心棒として雇う。"
        [109]
-        1 string data = "The Spiny Hopper is a mutated toad covered in painful spines."
+        1 string data = "スパイニーホッパーは痛みを伴う棘で覆われた変異ヒキガエルだ。"
        [110]
-        1 string data = "Servitor Bots are vaguely humanoid utility robots that can be programmed for a wide range of functions."
+        1 string data = "サーヴィターボットは、幅広い機能のためにプログラム可能な、おおよそ人型のユーティリティロボットだ。"
        [111]
-        1 string data = "Some remote government sites are still broadcasting automated radio messages from before the war."
+        1 string data = "一部の遠隔政府施設は今でも戦前の自動化されたラジオメッセージを放送し続けている。"
        [112]
-        1 string data = "The Rocky Mountains are difficult and dangerous to cross in the best of times, home to packs of hungry mutants and vicious bandit gangs."
+        1 string data = "ロッキー山脈は最良の時でも横断が困難で危険であり、腹を空かしたミュータントの群れと凶悪な盗賊ギャングの住処だ。"
        [113]
-        1 string data = "The Waste Worm is a huge, burrowing worm that bursts from the earth to ambush its prey."
+        1 string data = "ウェイストワームは地中から飛び出して獲物を待ち伏せする巨大な穴掘りワームだ。"
        [114]
-        1 string data = "Numerous strange cults and secret societies have emerged in the wake of the Apocalypse."
+        1 string data = "アポカリプスの後、数多くの奇妙なカルトと秘密結社が出現した。"
        [115]
-        1 string data = "Powered by a portable nuclear reactor, the LE-L1 power armor suit is the most powerful combat armor ever made."
+        1 string data = "携帯型原子炉で動くLE-L1パワーアーマースーツは、これまで作られた最も強力な戦闘用アーマーだ。"
        [116]
-        1 string data = "The Pikalope is the mutant hybrid of a pika and an elk. Though individually weak, they are dangerous in large numbers."
+        1 string data = "パイカロープはピカとエルクの変異ハイブリッドだ。個々は弱いが、大群では危険だ。"
        [117]
-        1 string data = "Toaster Repair is a highly valued skill in many parts of the wasteland."
+        1 string data = "トースター修理は荒地の多くの地域で高く評価されるスキルだ。"
        [118]
-        1 string data = "RadTek armor was developed for use in extremely hazardous environments."
+        1 string data = "ラドテック・アーマーは極めて危険な環境で使用するために開発された。"
        [119]
-        1 string data = "The Razorback is a mutated wolverine that has porcupine-like quills along its back."
+        1 string data = "レイザーバックは背中に豪猪のような棘を持つ変異クズリだ。"
        [120]
-        1 string data = "Composite Armor was state-of-the-art prewar personal defense tech, comprised of multi-layered composite plates for superior ballistic and impact protection."
+        1 string data = "コンポジット・アーマーは戦前の最先端個人防護技術で、優れた弾道衝撃防護のための多層複合プレートで構成されていた。"
        [121]
-        1 string data = "The Neutron Projector fires a hyper-focused beam of ionizing radiation to kill targets with minimal collateral damage."
+        1 string data = "ニュートロン・プロジェクターは超集中した電離放射線ビームを発射し、副次的損害を最小限に抑えてターゲットを殺す。"
        [122]
-        1 string data = "Los Payasos originated in the town of Arriba, Colorado, some time after the Apocalypse."
+        1 string data = "ロス・パヤソスはアポカリプス後のいつか、コロラド州アリバの町で生まれた。"
        [123]
-        1 string data = "Los Payasos are a gang of sadistic killers who believe that the apocalypse was a vicious joke – and they are the punchline."
+        1 string data = "ロス・パヤソスはサディスティックな殺人者のギャングで、アポカリプスは残酷なジョークであり、彼らがそのオチだと信じている。"
        [124]
-        1 string data = "The founder of the Payasos was a messianic figure known as El Payaso Rojo."
+        1 string data = "パヤソスの創設者はエル・パヤソ・ロホとして知られる救世主的な人物だった。"
        [125]
-        1 string data = "The Iron Thunder Arapaho are considered the best drivers and mechanics in Colorado."
+        1 string data = "アイアン・サンダー・アラパホはコロラドで最高のドライバーと整備士だと考えられている。"
        [126]
-        1 string data = "Arapaho caravans provide much of the trade between Colorado’s scattered towns."
+        1 string data = "アラパホのキャラバンはコロラドの散在する町々の間の交易の大部分を提供している。"
        [127]
-        1 string data = "The Iron Thunder Arapaho never bent the knee to the Patriarch. They are seen as valuable allies, given freedom of movement through his territory in the interests of trade."
+        1 string data = "アイアン・サンダー・アラパホはパトリアークに決して膝を屈しなかった。彼らは貴重な同盟者と見なされ、交易の利益のために彼の領土を自由に移動することを認められている。"
        [128]
-        1 string data = "Despite the scarcity of resources – or perhaps because of it – drugs of various kinds are in high demand across the wasteland."
+        1 string data = "資源の希少性にもかかわらず―あるいはそれゆえに―様々な種類のドラッグは荒地全体で需要が高い。"
        [129]
-        1 string data = "The Meson Cannon fires a focused beam of high-energy particles that break down heavy armor at the subatomic level."
+        1 string data = "メソン・キャノンは重装甲を亜原子レベルで分解する高エネルギー粒子の集中ビームを発射する。"
        [130]
-        1 string data = "Turrets are autonomous defensive weapons that can be deployed to protect high-value targets."
+        1 string data = "タレットは高価値ターゲットを保護するために配備できる自律防衛兵器だ。"
        [131]
-        1 string data = "Tellurium is a valuable mineral that is used to manufacture circuit boards and other advanced electronics."
+        1 string data = "テルルは回路基板やその他の高度な電子機器を製造するために使用される貴重な鉱物だ。"
        [132]
-        1 string data = "Robot scavengers have become increasingly common across the wasteland as spare parts become increasingly scarce."
+        1 string data = "スペアパーツがますます希少になるにつれて、ロボットのスカベンジャーが荒地全体でますます一般的になっている。"
        [133]
-        1 string data = "Government scientists pursued numerous secret projects, from advanced weapons to robotics, at hidden sites across Colorado."
+        1 string data = "政府の科学者たちは、高度兵器からロボット工学まで、コロラド中の隠された施設で数多くの秘密プロジェクトを追求した。"
        [134]
-        1 string data = "Constant snows and lack of food have driven some mountain clans to cannibalism in order to survive."
+        1 string data = "絶え間ない雪と食糧不足により、一部の山岳氏族は生き延びるために人食いに追い込まれている。"
        [135]
-        1 string data = "The Tesla Arc Projector is a voltaic cannon that fires bolts of lightning at its target."
+        1 string data = "テスラ・アーク・プロジェクターはターゲットに雷撃を発射するボルタ式キャノンだ。"
        [136]
-        1 string data = "The Octotron is an eight-limbed, tracked robot armed with a number of deadly, spinning blades."
+        1 string data = "オクトトロンは8本の手足を持つ無限軌道式ロボットで、多数の致命的な回転刃で武装している。"
        [137]
-        1 string data = "Commando Armor is specialized light armor that was originally used by special forces troops stationed in the Colorado region."
+        1 string data = "コマンドー・アーマーはコロラド地域に駐留していた特殊部隊が元々使用していた特殊軽装甲だ。"
        [138]
-        1 string data = "The Graviton Shredder is a heavy weapon that destroys its target with a blast of  gravitic micro-singularities."
+        1 string data = "グラビトン・シュレッダーは重力マイクロ特異点の爆風でターゲットを破壊する重火器だ。"
        [139]
-        1 string data = "The Sawdog is a large, multi-legged robot that attacks enemies with its giant rotary saw blade."
+        1 string data = "ソードッグは巨大な回転鋸刃で敵を攻撃する大型多脚ロボットだ。"
        [140]
-        1 string data = "Killers are wheeled, miniature robot tanks armed with energy weapons."
+        1 string data = "キラーは車輪付きの小型ロボット戦車でエネルギー兵器で武装している。"
        [141]
-        1 string data = "The Growler is a savage, mutated bear with a taste for human flesh."
+        1 string data = "グラウラーは人肉を好む凶暴な変異グマだ。"
        [142]
-        1 string data = "The Waste Wolf is a savage predator found all over the wasteland."
+        1 string data = "ウェイストウルフは荒地全体で見られる凶暴な捕食者だ。"
        [143]
-        1 string data = "The Godfishers and other gangs use slaves for labor, entertainment, and occasionally for food."
+        1 string data = "ゴッドフィッシャーズやその他のギャングは奴隷を労働、娯楽、そして時には食料として使用する。"
        [144]
-        1 string data = "The Patriarch is rumored to have work camps in remote areas where debtors and malcontents are sent for “rehabilitation”."
+        1 string data = "パトリアークは債務者や不満分子が「更生」のために送られる遠隔地に労働キャンプを持っているという噂がある。"
        [145]
-        1 string data = "The War-bot is a fearsome, robotic battle platform that can be outfitted with a variety of heavy weapon turrets."
+        1 string data = "ウォーボットは様々な重火器タレットを装備できる恐るべきロボット戦闘プラットフォームだ。"
        [146]
-        1 string data = "The Rage Ram is highly territorial, and will attack trespassers on sight."
+        1 string data = "レイジ・ラムは非常に縄張り意識が強く、侵入者を見つけ次第攻撃する。"
        [147]
-        1 string data = "The Mutant Bison is a huge, horned animal as big as a tank, and nearly as hard to kill."
+        1 string data = "変異バイソンは戦車ほどの大きさの巨大な角のある動物で、殺すのもほぼ同じくらい困難だ。"
        [148]
-        1 string data = "The Mechagrowler is a Growler that’s been modified by the Scar Collectors and trained to kill non-modded people."
+        1 string data = "メカグラウラーはスカー・コレクターズによって改造され、非改造の人間を殺すように訓練されたグラウラーだ。"
        [149]
-        1 string data = "The deadly Scorpitron is a robot war machine with a powerful minigun in its tail."
+        1 string data = "致命的なスコーピトロンは尾に強力なミニガンを持つロボット戦争機械だ。"
        [150]
-        1 string data = "Spectrum Assault Armor is hyper-advanced light armor developed by the Cochise AI to protect its human servants from the dangers of the wasteland."
+        1 string data = "スペクトラム・アサルト・アーマーは、コチセAIが人間の使用人を荒地の危険から守るために開発した超先進的軽装甲だ。"
        [151]
-        1 string data = "The Atom Smasher is a particle weapon that triggers a fusion reaction inside the body of its target."
+        1 string data = "アトム・スマッシャーはターゲットの体内で核融合反応を引き起こす粒子兵器だ。"
        [152]
-        1 string data = "Energy weapons are extra effective against conductive targets such as robots or vehicles. With a higher Weird Science skill you'll gain additional critical chances and damage with these weapons."
+        1 string data = "エネルギー兵器はロボットや車両などの導電性ターゲットに対して特に効果的だ。ウィアード・サイエンスのスキルが高いほど、これらの武器で追加のクリティカルチャンスとダメージが得られる。"
        [153]
-        1 string data = "Each time a brawler punches someone they’ll build up a brawling combo meter which will lead to bonus critical chances and damage."
+        1 string data = "格闘家が誰かを殴るたびに、格闘コンボメーターが蓄積され、ボーナスクリティカルチャンスとダメージにつながる。"
        [154]
-        1 string data = "Barter is one of the most important skills in the wasteland. If you don’t know how to barter you’ll only sell items for 5% of their total value, but barter can increase that amount to 30% or more!"
+        1 string data = "バーターは荒地で最も重要なスキルの一つだ。バーターの方法を知らなければ、アイテムは総価値の5%でしか売れないが、バーターはその額を30%以上に増やすことができる！"
        [155]
-        1 string data = "Think before you do drugs. Alcohol and drugs can provide bonus melee damage, critical chance, and more. But the come-down is a bitch. Prepare to suffer long lasting consequences!"
+        1 string data = "ドラッグを摂取する前によく考えよう。アルコールとドラッグは近接ダメージボーナス、クリティカルチャンスなどを提供できる。しかし離脱症状は最悪だ。長期的な後遺症に備えよう！"
        [156]
-        1 string data = "Charisma does more than affect your leadership and sweet-talking skills - it controls how quickly you charge up your strike meter."
+        1 string data = "カリスマはリーダーシップと口説きスキルに影響するだけでなく、ストライクメーターの充電速度も制御する。"
        [157]
-        1 string data = "Ammo is hard to find and expensive to purchase. It’s wise to ensure no more than one or two Rangers are using the same type of ammo."
+        1 string data = "弾薬は見つけるのが難しく、購入するのも高価だ。同じタイプの弾薬を使用するレンジャーが1、2人以下であることを確認するのが賢明だ。"
        [158]
-        1 string data = "Don’t like one of your Rangers? Kick 'em out of your team and recruit a new Ranger back at HQ."
+        1 string data = "レンジャーが気に入らない？チームから追い出して、本部に戻って新しいレンジャーを募集しよう。"
        [159]
-        1 string data = "Protecting yourself from radiation on the World Map is critical. Upgrade your chassis back at the garage to punch through that radiation and unlock more of the World Map."
+        1 string data = "ワールドマップ上の放射線から身を守ることは重要だ。ガレージでシャーシをアップグレードして放射線を突破し、ワールドマップのより多くをアンロックしよう。"
        [160]
-        1 string data = "Cold, heat, and explosive damage all ignore armor. However, some enemies have special elemental resistances."
+        1 string data = "冷気、熱、爆発ダメージはすべてアーマーを無視する。ただし、一部の敵は特殊な属性耐性を持っている。"
        [161]
-        1 string data = "Each time you level up you earn 3 skill points. Upgrading skills starts out cheap, but becomes more expensive the higher level they are."
+        1 string data = "レベルアップするたびに3スキルポイントを獲得する。スキルのアップグレードは最初は安価だが、レベルが高くなるほど高額になる。"
        [162]
-        1 string data = "Your characters earn one Attribute Point and three Skill Points every level-up, and a Perk Point every other level-up."
+        1 string data = "キャラクターはレベルアップごとに1属性ポイントと3スキルポイントを獲得し、レベルアップ2回ごとに1パークポイントを獲得する。"
        [163]
-        1 string data = "If you have a low barter skill, you make better money field stripping your weapons and selling the parts, rather than the weapons themselves."
+        1 string data = "バータースキルが低い場合、武器自体を売るよりも、武器を分解してパーツを売る方がより良い収入になる。"
        [164]
-        1 string data = "Almost all turrets are powered by a generator. Finding and destroying or deactivating the generator is often much easier than destroying the turret itself."
+        1 string data = "ほとんどすべてのタレットは発電機で動作している。発電機を見つけて破壊または無効化する方が、タレット自体を破壊するよりもはるかに簡単なことが多い。"
        [165]
-        1 string data = "In a tight spot? Decoy is an amazing deployable that’ll trick enemies into shooting at a hologram instead of your fleshy bits."
+        1 string data = "窮地に陥った？デコイは敵をあなたの肉体ではなくホログラムを撃つように欺く素晴らしい配備可能アイテムだ。"
        [166]
-        1 string data = "Seek the mythic golden toaster parts to unlock the ultimate bread toasting companion!"
+        1 string data = "神話的な黄金のトースターパーツを探して、究極のパン焼きコンパニオンをアンロックしよう！"
        [167]
-        1 string data = "Cyborg Chickens, collect them all!"
+        1 string data = "サイボーグチキン、全部集めよう！"
        [168]
-        1 string data = "Rangers work best as a team of specialists. There are only a few non-weapon skills worth putting on multiple squad members: First Aid, Sneaky Shit, Explosives, and Weird Science."
+        1 string data = "レンジャーは専門家のチームとして最もよく機能する。複数の部隊員に割り当てる価値がある非武器スキルは数少ない：応急処置、スニーキー・シット、爆発物、そしてウィアード・サイエンスだ。"
        [169]
-        1 string data = "Just because a conversation option requires a skill check does not mean you’ll like the outcome. Consider what you’re saying before you automatically pick the skill based conversation option."
+        1 string data = "会話オプションにスキルチェックが必要だからといって、結果が気に入るとは限らない。自動的にスキルベースの会話オプションを選ぶ前に、何を言っているのか考えよう。"
        [170]
-        1 string data = "Your vehicle can run over enemies and kill them instantly. However, each time you do this your vehicle will take damage."
+        1 string data = "あなたの車両は敵を轢いて即座に殺すことができる。ただし、これを行うたびに車両はダメージを受ける。"
        [171]
-        1 string data = "Food is a good alternative to medical supplies when you’re looking to heal outside of combat."
+        1 string data = "食料は戦闘外で回復したい時の医療品の良い代替品だ。"
        [172]
-        1 string data = "Got a need for speed? The turbo-charger upgrade will make your Kodiak drive faster on the world map!"
+        1 string data = "スピードが必要？ターボチャージャーのアップグレードでワールドマップ上のコディアックの走行速度が速くなる！"
        [173]
-        1 string data = "Don’t neglect your Kodiak upgrades. You’ll wish you had a suped up super-truck when you’re jumped by angry randos on the world map."
+        1 string data = "コディアックのアップグレードを怠るな。ワールドマップで怒った無法者に襲われた時、パワーアップしたスーパートラックがあればと思うだろう。"
        [174]
-        1 string data = "Your surviving Rangers drive through the night, fighting their way through Colorado's brutal storms, and finally reach their destination - the Patriarch's stronghold of Colorado Springs."
+        1 string data = "生き残ったレンジャーたちは夜通し車を走らせ、コロラドの過酷な嵐と戦いながら、ついに目的地―パトリアークの拠点コロラドスプリングスに到達した。"
        [175]
-        1 string data = "Since the Deluge of Fire, the Peterson Airforce Base has been home to many groups, from bandits to slavers to refugees - and now the Rangers."
+        1 string data = "炎の大洪水以来、ピーターソン空軍基地は盗賊から奴隷商人、難民まで、多くのグループの本拠地となってきた―そして今はレンジャーズだ。"
        [176]
-        1 string data = "There are rooms in Ranger HQ no one knows how to enter."
+        1 string data = "レンジャー本部には誰も入り方を知らない部屋がある。"
        [177]
-        1 string data = "The servitors in the war room started their watch before the Deluge of Fire."
+        1 string data = "作戦室のサーヴィターたちは炎の大洪水の前から見張りを始めた。"
        [178]
-        1 string data = "Before being reduced to ruins in the war, the Academy in Colorado Springs trained officer cadets for the United States Air Force."
+        1 string data = "戦争で廃墟となる前、コロラドスプリングスのアカデミーはアメリカ空軍の士官候補生を訓練していた。"
        [179]
-        1 string data = "The Sans Luxe Apartments provide the finest budget accommodations in Colorado Springs."
+        1 string data = "サン・リュクス・アパートメントはコロラドスプリングスで最高の格安宿泊施設を提供している。"
        [180]
-        1 string data = "The Patriarch's Marshals keep the peace in Colorado Springs. Sometimes they keep a piece for themselves too."
+        1 string data = "パトリアークのマーシャルズはコロラドスプリングスの平和を保っている。時には自分のために一切れ取っておくこともある。"
        [181]
-        1 string data = "The Arapaho Garage keeps the Iron Thunder delivery fleet fueled and running, but they're open to the public too."
+        1 string data = "アラパホ・ガレージはアイアン・サンダー配送艦隊を燃料補給し稼働させ続けているが、一般にも開放されている。"
        [182]
-        1 string data = "No matter what you need, the merchants in Market Square have got you covered."
+        1 string data = "何が必要でも、マーケット・スクエアの商人たちが用意している。"
        [183]
-        1 string data = "The Little Vegas Casino guarantees that all its table games are ninety five percent on the level."
+        1 string data = "リトル・ベガス・カジノはすべてのテーブルゲームが95パーセント公正であることを保証している。"
        [184]
-        1 string data = "Little Vegas' collection of beers from around the world has selections from as far away as Denver."
+        1 string data = "リトル・ベガスの世界中からのビールコレクションにはデンバーのような遠方からのセレクションがある。"
        [185]
-        1 string data = "Charley Knowes is the flair champion of Colorado Springs."
+        1 string data = "チャーリー・ノウズはコロラドスプリングスのフレアチャンピオンだ。"
        [186]
-        1 string data = "No refunds are given for injuries sustained during a session with the 'Joker.'"
+        1 string data = "「ジョーカー」とのセッション中に負った怪我に対する返金はない。"
        [187]
-        1 string data = "The Garden of the Gods was originally known as Red Rock Corral."
+        1 string data = "ガーデン・オブ・ザ・ゴッズは元々レッドロック・コラールとして知られていた。"
        [188]
-        1 string data = "The Garden of the Gods' strange rock formations were created during a geological upheaval millions of years ago."
+        1 string data = "ガーデン・オブ・ザ・ゴッズの奇妙な岩の地形は数百万年前の地殻変動によって作られた。"
        [189]
-        1 string data = "Broadmoor Heights gets its name from a dairy that operated in the area during the 1880s."
+        1 string data = "ブロードムーア・ハイツはその名を1880年代にこの地域で営業していた酪農場から取っている。"
        [190]
-        1 string data = "There were never a hundred founding families in Colorado Springs, but the Hundred Families sounded better than the Sixty Three Families."
+        1 string data = "コロラドスプリングスには決して百の創設家族はいなかったが、六十三家族よりも百家族の方が響きが良かった。"
        [191]
-        1 string data = "Entrance to Broadmoor Heights is restricted to residents, guests, and servants."
+        1 string data = "ブロードムーア・ハイツへの入場は住民、ゲスト、使用人に限定されている。"
        [192]
-        1 string data = "The Hundred Families united under the Patriarch's leadership fifty years ago, and have been his staunchest supporters ever since."
+        1 string data = "百家族は50年前にパトリアークのリーダーシップの下で統一し、それ以来彼の最も忠実な支持者となっている。"
        [193]
-        1 string data = "Even before they rebelled against him, the Patriarch's children were not known for their filial piety."
+        1 string data = "パトリアークに反逆する前から、パトリアークの子供たちは親孝行で知られていたわけではない。"
        [194]
-        1 string data = "Diligent Joe is the Patriarch's gatekeeper and personal secretary."
+        1 string data = "ディリジェント・ジョーはパトリアークの門番兼個人秘書だ。"
        [195]
-        1 string data = "The Gippers' 'Western White House' is the former state capitol building of Colorado."
+        1 string data = "ギッパーズの「ウェスタン・ホワイトハウス」はコロラドの元州議会議事堂だ。"
        [196]
-        1 string data = "The Gippers disapprove of swearing, and thus use many creative non-profane epithets when stirred to anger."
+        1 string data = "ギッパーズは悪態をつくことを嫌い、怒りを掻き立てられた時は多くの創造的な非冒涜的な罵り言葉を使う。"
        [197]
-        1 string data = "Denver is named after former Kansas Territorial Governor James W. Denver."
+        1 string data = "デンバーは元カンザス準州知事ジェームズ・W・デンバーにちなんで名付けられた。"
        [198]
-        1 string data = "Denver got its nickname, the Mile-High City, because its official elevation is one mile above sea level."
+        1 string data = "デンバーは公式標高が海抜1マイルであることから「マイルハイシティ」というニックネームを得た。"
        [199]
-        1 string data = "The Godfishers make leather clothing from the parts of their victims that they do not fly on their kites. Nothing goes to waste."
+        1 string data = "ゴッドフィッシャーズは犠牲者のうち凧で飛ばさない部分から革の衣服を作る。何も無駄にしない。"
        [200]
-        1 string data = "Rumors from before the war say the Denver airport is cursed and can drive visitors mad."
+        1 string data = "戦前からの噂では、デンバー空港は呪われており、訪問者を狂わせる可能性があるという。"
        [201]
-        1 string data = "When built, the Denver airport was the largest in the United States. It probably still is."
+        1 string data = "建設時、デンバー空港はアメリカで最大の空港だった。おそらく今でもそうだろう。"
        [202]
-        1 string data = "In the late 1800s, Aspen was America's most productive silver mining town."
+        1 string data = "1800年代後半、アスペンはアメリカで最も生産性の高い銀鉱の町だった。"
        [203]
-        1 string data = "Before the Deluge of Fire, Aspen was a playground for the rich and famous, many of whom kept second homes there."
+        1 string data = "炎の大洪水の前、アスペンは富裕層と有名人の遊び場であり、多くの人が別荘を持っていた。"
        [204]
-        1 string data = "After several unfortunate incidents when he was a child, Victory Buchanan was never allowed to be alone with a cat."
+        1 string data = "子供の頃のいくつかの不幸な事件の後、ヴィクトリー・ブキャナンは猫と二人きりになることを決して許されなかった。"
        [205]
-        1 string data = "Before Victory rebelled against him and left the palace, the Patriarch set aside a yearly fund for paying off the families of his victims."
+        1 string data = "ヴィクトリーが反逆して宮殿を離れる前、パトリアークは彼の犠牲者の家族に支払うための年間基金を確保していた。"
        [206]
-        1 string data = "People who tell the mashers of the Bizarre that it's actually spelled Bazaar only ever do that once."
+        1 string data = "ビザールのマッシャーたちに実際のスペルはバザールだと言う人は、それを一度しか言わない。"
        [207]
-        1 string data = "Legend has it that the Monster Army discovered the Bizarre when they heard the sounds of idling arcade games coming from beneath the snow."
+        1 string data = "伝説によると、モンスター・アーミーは雪の下から聞こえるアーケードゲームのアイドリング音を聞いてビザールを発見した。"
        [208]
-        1 string data = "You've got to know someone to get into the Bizarre."
+        1 string data = "ビザールに入るには知り合いを知っている必要がある。"
        [209]
-        1 string data = "Eidilon is the most famous entertainer in all of Colorado, and she'll tell you so herself."
+        1 string data = "エイディロンはコロラド全土で最も有名なエンターテイナーであり、彼女自身がそう言うだろう。"
        [210]
-        1 string data = "Masato's noodles are a big reason there are long lines of people waiting to get into the Bizarre."
+        1 string data = "マサトの麺はビザールに入るために長い列ができる大きな理由だ。"
        [211]
-        1 string data = "The debt the Monster Army owes to Robert George Pickett cannot be overestimated."
+        1 string data = "モンスター・アーミーがロバート・ジョージ・ピケットに負っている恩義は過大評価できない。"
        [212]
-        1 string data = "If you need armor - or just like leather - Talbot's Tannery has just what you need."
+        1 string data = "アーマーが必要なら―あるいはただ革が好きなら―タルボット・タナリーに必要なものがある。"
        [213]
-        1 string data = "Need a drink? See Finn at the concourse bar, right next to Masato's noodle shop."
+        1 string data = "飲み物が必要？マサトの麺店の隣、コンコースバーでフィンに会おう。"
        [214]
-        1 string data = "Rumor has it that there are treasures buried in the Warrens that have not seen the light of day since before the Deluge of Fire."
+        1 string data = "噂によると、ウォレンズには炎の大洪水以前から日の目を見ていない宝物が埋まっているという。"
        [215]
-        1 string data = "Walk without rhythm and you won't attract the ice worms."
+        1 string data = "リズムなしで歩けばアイスワームを引き寄せない。"
        [216]
-        1 string data = "One of the things that makes the Scar Collectors so intimidating is their faint but ever-present stench of gangrene."
+        1 string data = "スカー・コレクターズを威圧的にしているものの一つは、彼らのかすかだが常に存在する壊疽の悪臭だ。"
        [217]
-        1 string data = "Los Payasos believe that the world's a joke, and they're the punchline."
+        1 string data = "ロス・パヤソスは世界はジョークであり、彼らがそのオチだと信じている。"
        [218]
-        1 string data = "The Godfishers read the clouds and the weather for signs of things yet to come."
+        1 string data = "ゴッドフィッシャーズは雲と天候をこれから来るものの兆候として読む。"
        [219]
-        1 string data = "Before the Deluge of Fire, the windmills of the windfarm provided energy for the whole region."
+        1 string data = "炎の大洪水の前、風力発電所の風車は地域全体にエネルギーを提供していた。"
        [220]
-        1 string data = "Meat Clown is a Payaso-run restaurant. Try the Clown Burger."
+        1 string data = "ミートクラウンはパヤソスが運営するレストランだ。クラウンバーガーを試してみよう。"
        [221]
-        1 string data = "The Company Store is a Scar Collector-only bar, founded by singer Dee Sharp."
+        1 string data = "カンパニー・ストアはスカー・コレクター専用のバーで、歌手ディー・シャープによって設立された。"
        [222]
-        1 string data = "Many of the Scar Collectors' augmentations were first unearthed in the tech mine."
+        1 string data = "スカー・コレクターズの増強の多くは、最初にテックマインで発掘された。"
    [1675]
     0 StringTable data
      1 string Filename = "loreentries"
@@ -506429,135 +506429,135 @@
       1 Array Array (66 items)
        0 int size = 66
        [0]
-        1 string data = " The Lady in Blue"
+        1 string data = " 青衣の貴婦人"
        [1]
         1 string data = " One of the most persistent of Colorado's local fables is that of the Lady in Blue.\\n\\nStarting only a few years after the world didn't quite end, the locals began to encounter a woman who became known as the Lady in Blue.She would appear at random from the perpetually-frozen wastes of Colorado, generally when someone was in dire need of aid. She seldom spoke, but was always masked, and always wore something blue. Over the years, she became something of a local curiosity, but most put it up to one more eccentric survivor in a world full of them.\\n\\nThen the village of Snowhaven was destroyed.\\n\\nRaiders calling themselves the Frostwolves descended upon the small, poorly - defended village after its inhabitants refused to pay "protection fees." By the next morning, the entire village had been pillaged and burned, and the inhabitants either murdered or enslaved and dragged back to the Frostwolves' encampment in a nearby shopping mall.\\n\\nThree days later, raiders began to vanish. First, it was isolated patrollers or drunks who wandered too far alone.Then a half-dozen man "protection detail" failed to return from another nearby village. It came to a head when someone started to pick the raiders off from extreme range with some kind of railgun. Armed mostly carried bludgeons and a smattering of poorly-maintained firearms, the Frostwolves were woefully outclassed. They pulled back to the fortified shopping mall and holed up in one of the stores.\\n\\nIt didn't help.\\n\\nIn the space of twenty minutes, a single blue-scarved figure carrying an antique katana swept through them like the angel of death. When the surviving villagers emerged from the warehouse at the back of the store, every single raider was dead, and their savior was vanishing into a descending blizzard without a word.\\n\\nWho or what is the Lady in Blue? Some say an immortal super soldier. Others, a synth. Still others say it is a title passed down along a succession of women. No one knows, but to this day, bandits dislike anyone wearing anything blue."
        [2]
-        1 string data = " A brief summary of the tales of a local vigilante."
+        1 string data = " 地元の自警団員の物語の簡単な要約。"
        [3]
         1 string data = " "
        [4]
-        1 string data = " Lore on how to repair drones. It's useful but incomplete."
+        1 string data = " ドローンの修理方法に関する知識。有用だが不完全。"
        [5]
-        1 string data = "Thank you for reading my survival guide.\\n\\nI have read many guides, and thought a lot about survival, and distilled my knowledge into four simple steps that will let you survive anything. \\n\\nReady? Here we go!!  \\n\\nCARE. You can't care for others if you can't care for yourself, right? So make sure you are taken CARE of. When you are hungry, eat. Your body knows when you need. Running low on food? Instinct will tell you how to get it.  \\n\\nREPAIR. Things are key to your survival. Do you have broken things? Fix them! Few things will harm your long-term prospects more than a lack of critical, functioning supplies. If you don't have spare parts on hand, you can often fix a broken thing by taking parts from a working thing.   \\n\\nAND. This is one of the most useful words, because it can connect other words. Use it often: words are free!  \\n\\nPREPARE. Make sure you have what you need before you need it. If you die, it's your own fault, because you weren't prepared. So: in summary, make sure to plan ahead for everything you could possibly need.  \\n\\nCONGRATULATIONS! You now have all the tools you need to survive <i>anything</i>. \\n\\nEnjoy the future!!!"
+        1 string data = "サバイバルガイドをお読みいただき、ありがとうございます。\\n\\n私は多くのガイドを読み、サバイバルについて深く考え、どんなことでも生き延びられる4つの簡単なステップに知識を凝縮しました。\\n\\n準備はいいですか?さあ、始めましょう!!\\n\\nCARE(ケア)。自分自身をケアできなければ、他人をケアすることはできませんよね?だから、自分がケアされていることを確認してください。お腹が空いたら、食べましょう。体は必要な時を知っています。食料が少なくなってきた?本能が入手方法を教えてくれます。\\n\\nREPAIR(修理)。物はあなたの生存の鍵です。壊れた物はありますか?修理しましょう!長期的な見通しを損なうものは、重要で機能する物資の不足ほど深刻なものはありません。予備の部品が手元にない場合、動作している物から部品を取って、壊れた物を修理することができます。\\n\\nAND(そして)。これは最も有用な言葉の一つです。なぜなら、他の言葉と言葉を繋ぐことができるからです。頻繁に使いましょう:言葉はタダです!\\n\\nPREPARE(準備)。必要になる前に、必要なものを確保しておきましょう。もし死んだら、それはあなた自身のせいです。準備ができていなかったからです。つまり:必要になる可能性のあるすべてのことを前もって計画しておきましょう。\\n\\nおめでとうございます!これで、<i>あらゆること</i>を生き延びるために必要なすべてのツールが手に入りました。\\n\\n未来を楽しんでください!!!"
        [6]
-        1 string data = "The surface of the card displays symbols and numbers. Sometimes they change."
+        1 string data = "カードの表面には記号と数字が表示されている。時々変化する。"
        [7]
-        1 string data = "Instructions to Major Vera Prasad:\\n\\n(a) Take command of convoy designated Team November and cross the Rocky Mountains to the city of Colorado Springs. Make contact with Saul Buchanan AKA “The Patriarch.”\\n\\n(b) Establish a base of operations in Colorado Springs. Recruit and train additional personnel as needed.\\n\\n(c) Preserve the life and position of the Patriarch at all costs. Do whatever is necessary to secure the aid promised to the Desert Rangers.\\n\\n(d) Locate Colonel Angela Deth and her Advance Team. If Advance Team is deceased, collect bodies for burial. If alive, ascertain reasons for loss of communication. Disciplinary action is authorized at your discretion.\\n\\n(e) In the event of your death or incapacitation, these orders shall apply to the senior surviving member of the expedition.\\n\\nWADE WOODSON\\nCommanding General, Desert Rangers"
+        1 string data = "ヴェラ・プラサド少佐への指示:\\n\\n(a) チーム・ノベンバーと指定された輸送隊の指揮を取り、ロッキー山脈を越えてコロラド・スプリングス市へ向かえ。ソール・ブキャナン、通称「パトリアーク」と接触せよ。\\n\\n(b) コロラド・スプリングスに作戦基地を設立せよ。必要に応じて追加の人員を募集し、訓練せよ。\\n\\n(c) パトリアークの生命と地位を何としても守れ。デザート・レンジャーズに約束された支援を確保するために、必要なことは何でも行え。\\n\\n(d) アンジェラ・デス大佐と彼女の先遣隊を発見せよ。先遣隊が死亡している場合は、埋葬のために遺体を回収せよ。生存している場合は、通信が途絶えた理由を確認せよ。懲戒処分は貴官の裁量に委ねられる。\\n\\n(e) 貴官が死亡または行動不能となった場合、これらの命令は遠征隊の生存している最上位者に適用される。\\n\\nウェイド・ウッドソン\\nデザート・レンジャーズ司令官"
        [8]
-        1 string data = "MAKE THAT FIRST TIME FUN\\n\\nCongratulations. You've finally admitted to yourself, your friends, and your awed family members that you are a toaster connoisseur, one of the preeminent few who understand <i>all</i> the virtues of that humble household appliance. But now that you've acknowledged your love for that shining temple of heat, you need to consummate that passion.\\n\\nThe important thing is not on which side you butter your toast, but that you make full use of every available opening. Most restrict themselves to only a single slot, fearful of what might happen if they double-fist opportunity. But you should understand that both slots can be equally pleasurable. It just requires proper handling. Therefore, we recommend that you spend your first evening of pleasure exploring your toaster's openings. Yes, both of them. Use whatever baked goods you're most comfortable with. Turn on the toaster. Make sure it is properly warmed up. Then work  your bread into the toaster. Test the size of the opening; see how it feels. Don't worry about the size of your bread. When carefully inserted, the toaster will firmly grip your piece, regardless of its girth. It is possible to make this fun regardless of whether you blessed with a bagel or a bun or a crumpet or a full-sized french baguette.\\n\\nJust make sure to go slow. Pay attention to every moment and every detail of the experience. You won't ever have a first time again."
+        1 string data = "初めてを楽しくしよう\\n\\nおめでとうございます。あなたはついに自分自身、友人、そして畏敬の念を抱く家族に、あなたがトースター愛好家であることを認めました。謙虚な家電製品の<i>すべて</i>の美徳を理解する、卓越した少数の一人です。しかし、輝く熱の神殿への愛を認めた今、その情熱を完成させる必要があります。\\n\\n重要なことは、トーストのどちら側にバターを塗るかではなく、利用可能なすべての開口部を最大限に活用することです。ほとんどの人は、両手で機会を掴んだらどうなるかを恐れて、一つのスロットだけに制限しています。しかし、両方のスロットが同じように快適であることを理解すべきです。適切な扱いが必要なだけです。したがって、最初の快楽の夜は、トースターの開口部を探索することに費やすことをお勧めします。はい、両方です。最も快適に感じる焼き菓子を使ってください。トースターをオンにします。適切に温まっていることを確認してください。それからパンをトースターに入れます。開口部のサイズをテストして、どう感じるか確認してください。パンのサイズを心配する必要はありません。注意深く挿入すると、トースターは太さに関係なく、あなたのパンをしっかりと掴みます。ベーグルでも、バンズでも、クランペットでも、フルサイズのフランスパンでも、これを楽しくすることができます。\\n\\nゆっくりと進めることを忘れずに。体験のあらゆる瞬間と詳細に注意を払ってください。初めては二度とありません。"
        [9]
-        1 string data = "... and in 1691, the Great Schism between the ruling houses began. For 3 generations, the repair guilds fought a secret war beneath the streets of London, Athens, and Zagreb. The layman knew nothing of the violence, but many lives flamed out in service of their ruler...\\n\\n... After the Treaty of Incandesca, the violence shifted to a more genteel form. Spontaneous combustions became unusually common and the court records show simmering tensions. But it no longer spilled out into the factories and guildhalls...\\n\\nWith the foundation of the Toaster Repair Academy in 1856, the tenuous peace was baked in to a more stable form. Repairmen the world 'round made pilgrimages to discuss the latest innovations in heating elements and timers. But more importantly they now had a place to honor the long, luminous history of Toaster Repair."
+        1 string data = "...そして1691年、支配家の間で大分裂が始まった。3世代にわたり、修理ギルドはロンドン、アテネ、ザグレブの街の地下で秘密戦争を繰り広げた。素人は暴力について何も知らなかったが、多くの命が彼らの支配者への奉仕で燃え尽きた...\\n\\n...インカンデスカ条約の後、暴力はより上品な形に移行した。自然発火が異常に一般的になり、宮廷記録には燻る緊張が示されている。しかし、もはや工場やギルドホールに溢れ出ることはなくなった...\\n\\n1856年にトースター修理アカデミーが設立されたことで、不安定な平和はより安定した形に焼き上げられた。世界中の修理工が、発熱体とタイマーの最新技術革新について議論するために巡礼を行った。しかし、さらに重要なことは、彼らがトースター修理の長く輝かしい歴史を称える場所を手に入れたことだった。"
        [10]
-        1 string data = "Jan 19\\nOne thing Sean didn't tell us about bunkers.\\n\\nThey smell. The stink of piss, shit, and unwashed human ain't got nowhere to go. Fucking reeks. Better than radiation burns I guess. Better than nuclear winter.\\n\\nFeb 15\\nFucking. Hell.\\n\\nThe. Door. Is. Fucking. Locked!\\n\\nFUCK!\\n\\nI got itchy and thought I'd take a look outside. Door's got no latch. There ain't even a handle! Sean's got some explaining to do.\\n\\nFeb 16\\nIt's a time lock. Thank fucking Christ. Sean said he set it for 5 years, so the fools who hadn't prepped like we did couldn't get in. I did 5 years in state pen, I can do 5 in here, long as the rations hold out. Which they should. We were all supposed to bring enough for 7. Might even have some left over for trade when we get out. Wonder what it'll be like out there? Maybe we'll be able to trade butter for blowjobs.\\n\\nMar 25\\nCan you fucking believe it? Paul brought guns instead of food. And fucking security robots! We're all going to fucking starve in here because that DICKWAD wanted to be some kind of wasteland warrior and thought the rest of us would feed him. Fuck! I'm gonna steal one of his guns and kill him. Least that way we'll have one less mouth to feed.\\n\\nMar 26\\nSo, the others didn't like me killing Paul. Didn't like me eating him either, which is bullshit. I mean, are we survivalists or not? HA HA! Big joke! We're not! We're all gonna die here.\\n\\nIt went down like this. Sean held a vote and him and Susan and Blake voted me out of the bunker, so he went looking for an override switch to the lock. Turns out there isn't one. Also turns out he made a mistake when he set the time lock. He didn't set it for 5 years. He set it for 50.\\n\\nFucking losers. I hope they like bein' fried with marinated garlic."
+        1 string data = "1月19日\\nショーンがバンカーについて教えてくれなかったことが一つある。\\n\\n臭い。小便、糞、そして洗っていない人間の悪臭は逃げ場がない。くそったれに臭い。放射線熱傷よりはマシだろうけど。核の冬よりはマシだ。\\n\\n2月15日\\nくそったれ。地獄だ。\\n\\nドアが。くそったれに。ロックされている!\\n\\nクソが!\\n\\nムズムズして外を見てみようと思ったんだ。ドアにラッチがない。取っ手すらない!ショーンには説明してもらう必要がある。\\n\\n2月16日\\nタイムロックだ。くそったれキリストに感謝だ。ショーンは5年にセットしたと言った。俺たちみたいに準備していなかった馬鹿どもが入れないようにだ。俺は州立刑務所で5年やった。ここで5年くらいできる。配給が持つ限りな。持つはずだ。俺たちは全員7年分を持ってくることになっていた。出た時に交換用に余るかもしれない。外はどうなっているんだろう?バターをフェラと交換できるかもな。\\n\\n3月25日\\n信じられるか?ポールは食料の代わりに銃を持ってきた。そしてくそったれの警備ロボットを!あのクソ野郎が何らかの荒野の戦士になりたがって、俺たちが養ってくれると思ったから、俺たち全員がここで飢え死にするんだ。クソ!銃の一つを盗んで殺してやる。そうすれば、少なくとも養う口が一つ減る。\\n\\n3月26日\\nだから、他の奴らは俺がポールを殺したことを気に入らなかった。俺が彼を食ったことも気に入らなかった。でたらめだ。つまり、俺たちはサバイバリストなのか、違うのか?ハハ!大きな冗談だ!違う!俺たちは全員ここで死ぬ。\\n\\nこういうことになった。ショーンは投票を行い、彼とスーザンとブレイクは俺をバンカーから追い出すことに投票した。だから彼はロックのオーバーライドスイッチを探しに行った。存在しないことが判明した。また、彼がタイムロックをセットした時にミスをしたことも判明した。5年にセットしたんじゃない。50年にセットしたんだ。\\n\\nくそったれの負け犬ども。ニンニク漬けで揚げられるのを楽しんでくれ。"
        [11]
-        1 string data = "<i>How to order from the restaurant</i>\\n\\nDue to recent circumstances, we now only serve a limited menu. It's just mushrooms. But rest reassured that the menu boiled, steamed, fried, but always mushrooms, and don't expect any seasonings because we've got mushrooms. We will still feature the high standards synonymous with the menu. In fact, it is arguably a better selection of available dishes. No longer will we subject our guests to fatty meats. Now, instead, we will provide culinary experiences intended to enhance the health and the well being of our guests. Because it's only mushrooms.\\n\\nThe following note, which can be found at the last page of the pamphlet, is scrawled in with clumsy block letters.\\n\\n<i>seriously run away while you can. something is wrong here</i>\\n\\nOver this, written by a precise hand, is another note:\\nNOT FOR PUBLICATION, PRINTING ERRORS, REVISION REQUIRED"
+        1 string data = "<i>レストランでの注文方法</i>\\n\\n最近の事情により、限定メニューのみを提供しています。マッシュルームだけです。しかし、メニューは茹でたもの、蒸したもの、揚げたものがありますが、常にマッシュルームです。調味料は期待しないでください。マッシュルームがあるからです。メニューと同義の高い基準を維持します。実際、これはより良い料理の選択肢だと言えます。もはやゲストに脂っこい肉を提供することはありません。代わりに、ゲストの健康と幸福を高めることを目的とした料理体験を提供します。マッシュルームだけだからです。\\n\\nパンフレットの最後のページに見られる次の注記は、不器用なブロック体で殴り書きされている。\\n\\n<i>真剣に逃げろ、できるうちに。何かがおかしい</i>\\n\\nこれの上に、正確な手書きで別の注記が書かれている:\\n未公開、印刷エラー、修正が必要"
        [12]
-        1 string data = "January 4th\\nMother Iodide tells us stories of the exodus every night. Sometimes, she tells us Saint Charmaine came to warn her parents that the robots were coming, and that's how they escaped from Las Vegas. Sometimes she says the robots woke her in the middle of the night, wearing her parents' faces like masks. I don't know which is right. Maybe neither. Iodide looks into the glow sometimes, and it does something to her. Anyway, I'm pretty sure the robots were real. All the parents say so. Big spindly robots. Like spiders. And they were coming to destroy humanity. They wanted us dead, but we escaped. Like spiders, hiding from a big shoe.\\n\\nSo we survived. The Servants  of the Mushroom Cloud. We were led across the mountains by Einstein and Oppenheimer, to this place, which the parents say is sacred. It is the place of the Eternal Glow. The Holy Detonation. The place Saint Charmaine promised us.\\n\\nFebruary 13th\\nMother Iodide gave me more of my medicine. It's beautiful and it glows, and I feel like I'm singing in the temple, but it hurts too. My gums are soft and swollen and they bleed sometimes. But at least the robots didn't kill us. At least we're free.\\n\\nMarch 8th\\nMother Iodide gave herself to the Holy Detonation today. A sacrifice, she said, to help the scholars find the grand equation, which will save us all and make us well again.\\n\\nMaybe I should be a sacrifice too.\\n\\nI'm so tired. My teeth hurt.\\n\\nIt's hard to think. My dreams don't stop in daytime now.\\n\\nI eat my teeth.\\n\\nAll hail the Mushroom Cloud."
+        1 string data = "1月4日\\nマザー・アイオダイドは毎晩、脱出の物語を語ってくれる。時々、彼女は聖シャーメインが両親にロボットが来ることを警告に来て、それでラスベガスから逃げることができたと言う。時々、彼女はロボットが真夜中に彼女を起こして、両親の顔を仮面のように着けていたと言う。どちらが正しいのか分からない。多分どちらも違う。アイオダイドは時々輝きを見つめ、それが彼女に何かをする。とにかく、ロボットは本物だったと確信している。両親は皆そう言っている。大きくて細長いロボット。蜘蛛のような。そして彼らは人類を破壊しに来た。私たちを殺したかったが、私たちは逃げた。大きな靴から隠れる蜘蛛のように。\\n\\nだから私たちは生き残った。キノコ雲の使徒たち。私たちはアインシュタインとオッペンハイマーに導かれて山を越え、両親が聖なる場所だと言うこの場所に来た。永遠の輝きの場所。聖なる爆発。聖シャーメインが約束した場所。\\n\\n2月13日\\nマザー・アイオダイドは私にもっと薬をくれた。美しくて輝いていて、寺院で歌っているような気分だが、痛みもある。歯茎が柔らかく腫れていて、時々出血する。でも少なくともロボットは私たちを殺さなかった。少なくとも私たちは自由だ。\\n\\n3月8日\\nマザー・アイオダイドは今日、聖なる爆発に身を捧げた。学者たちが壮大な方程式を見つけるのを助けるための犠牲だと彼女は言った。それは私たち全員を救い、また健康にしてくれる。\\n\\n私も犠牲になるべきかもしれない。\\n\\nとても疲れた。歯が痛い。\\n\\n考えるのが難しい。夢は今や昼間も止まらない。\\n\\n私は自分の歯を食べる。\\n\\nキノコ雲万歳。"
        [13]
-        1 string data = "The equations won't balance! Why? Why!\\n\\nHave I not been dedicated enough? Have I not prayed enough to the Prophet Fermi and the Prophet Einstein? What more could be missing? Maybe more time in the presence of the great and searing holiness is necessary to gain true understanding? Or perhaps I was selfish in only giving a finger when I made my last offering. Perhaps I should have given my whole hand. Should I do so now? Should I repair the omission? No. Not yet. To give a hand that has written imperfect equations would be a blasphemy. The figures must be right first. I must make them straight. I must!\\n\\nMY HEAD! My head splits! My ears ring! The figures dance before my eyes! It is impossible. I must sacrifice more to the holy light or it will never come out right. Perhaps... My foot has not committed blasphemy. It is safe. Perhaps my whole leg. Yes! I must give my leg! It is the only way. I shall return shortly."
+        1 string data = "方程式が釣り合わない!なぜだ?なぜだ!\\n\\n私は十分に献身的ではなかったのか?預言者フェルミと預言者アインシュタインに十分に祈らなかったのか?他に何が欠けているのだろう?真の理解を得るには、偉大で焼け付くような聖性の前でより多くの時間を過ごす必要があるのか?あるいは、最後の供物をした時に指だけを捧げたのは利己的だったのかもしれない。手全体を捧げるべきだったかもしれない。今それをすべきか?欠落を修復すべきか?いや。まだだ。不完全な方程式を書いた手を捧げるのは冒涜だろう。まず数字を正しくしなければならない。正しくしなければならない!\\n\\n頭が!頭が割れる!耳が鳴る!数字が目の前で踊っている!不可能だ。聖なる光にもっと犠牲を捧げなければ、決して正しくならない。おそらく...私の足は冒涜を犯していない。安全だ。おそらく脚全体。そうだ!脚を捧げなければならない!それが唯一の方法だ。すぐに戻る。"
        [14]
-        1 string data = "Dearest Brother Neutrino, the paper I wrote has been accepted by our Blessed Leader. I will be allowed into the Inner Sanctum to view IT for myself, to further study ITS Holy Mysteries, BLESSED BE THE GREAT GLOW!\\n\\nI have told them of your assistance, of your shining radiant mind, and though they say you are not yet ready to join me inside, I bring good news to you through this missive.\\n\\nIn the False Temple, you will find the hidden path, just as Holy Hahn found the nucleus once he knew where to look. Search the walls near the back of the room, and the TRUE PATH laid out for us by the Prophetic Professors of the Old Age will be revealed to you. Come, join me so that together we may lay eyes on the Great Miracle of the Fallen World and be inspired to new discoveries and epiphanies."
+        1 string data = "親愛なる兄弟ニュートリノ、私が書いた論文が祝福された指導者に受け入れられました。私は内部聖域に入ることが許され、自分の目でそれを見て、その聖なる神秘をさらに研究することができます。偉大なる輝きに祝福あれ!\\n\\n私は彼らにあなたの援助について、あなたの輝く光り輝く精神について話しました。彼らはあなたがまだ私と一緒に内部に入る準備ができていないと言いますが、この書簡を通してあなたに良い知らせをもたらします。\\n\\n偽りの神殿で、あなたは隠された道を見つけるでしょう。ちょうど聖なるハーンがどこを見るべきかを知った時に原子核を見つけたように。部屋の奥の壁を探してください。そうすれば、旧時代の預言的な教授たちが私たちのために用意した真の道が明らかになるでしょう。来てください、一緒に堕落した世界の偉大な奇跡に目を向け、新しい発見と悟りに触発されましょう。"
        [15]
-        1 string data = "<i>Indigo Milkcap</i>\\n\\nYou will know the Indigo Milkcap by its singular appearance. The fungus is an exquisite specimen: its cap is ivory, its gills the sapphire of a summer sky. Sadly, they've become a rarity here in Colorado, on account of the weather. But don't fear. Plenty of people have taken to growing said mushrooms in their shacks and we all know why. Flowers are beautiful but they require unpredictable things like sunshine and warmth. Mushrooms, though, they're elegant. You rarely need more than a warm corpse in order to grow an attractive harvest.\\nBut I digress.\\nThe Indigo Milkcap, on top of being spectacular-looking, is an unusual addition to any pantry. The granular texture will complicate mouthfeel, provide some necessary grain to any nutritional paste you may be forced to consume. If you're lucky, your mushrooms will taste lithely of peppery notes, providing you the opportunity to subtly enhance any soup you create. Best of all, they will provide color to your every course.\\n\\n<i>Lion's Mane</i>\\n\\nWhat strangely beautiful things mushrooms are! I don't agree with popular consensus: it doesn't look very much like its namesake to me. Nonetheless, its appearance remains unequivocally distinctive, and you'd be hard-pressed to find anything that shares its characteristics. Be vigilant in your explorations of Colorado. Native to Northern America, this delicious fungus can still be found outside in the wilderness. If you stumble across them, pause and harvest everything you can. You won't find a better meat substitute in these woods, vegetarians!\\nBest served with anything with flavour. In the old days, they pan-fried Lion's Mane with an excess of butter and garlic, and served along with meat dishes. But you don't have to do that here. Skip the veal, forget the beef, and let go of the chicken. Soak your Lion's Mane in seasoning and then roast it. You'll forget you ever needed meat."
+        1 string data = "<i>インディゴ・ミルクキャップ</i>\\n\\nインディゴ・ミルクキャップは独特の外観で分かります。この菌類は絶妙な標本です:傘は象牙色で、ひだは夏の空のサファイアです。悲しいことに、天候のせいでコロラドでは珍しくなってしまいました。しかし心配はいりません。多くの人々が小屋でこれらのマッシュルームを栽培し始めており、その理由は誰もが知っています。花は美しいですが、太陽光や暖かさといった予測不可能なものを必要とします。しかし、マッシュルームはエレガントです。魅力的な収穫を育てるには、温かい死体以上のものは滅多に必要ありません。\\nしかし、話が逸れました。\\nインディゴ・ミルクキャップは、見た目が壮観であることに加えて、どんな食料庫にも珍しい追加品です。粒状の食感は口当たりを複雑にし、消費を強いられるかもしれない栄養ペーストに必要な穀物を提供します。運が良ければ、マッシュルームは軽やかに胡椒のような風味を持ち、作成するスープを繊細に強化する機会を提供します。何よりも、すべてのコースに色を提供します。\\n\\n<i>ライオンズ・メイン</i>\\n\\nマッシュルームは何と奇妙で美しいものでしょう!一般的な見解には同意しません:私には名前の由来にあまり似ているようには見えません。それにもかかわらず、その外観は明確に特徴的であり、その特性を共有するものを見つけるのは困難です。コロラドの探索では注意してください。北アメリカ原産のこの美味しい菌類は、まだ荒野の外で見つけることができます。偶然見つけたら、立ち止まって収穫できるすべてを収穫してください。この森で、これより良い肉の代用品は見つかりません、ベジタリアンの方!\\n風味のあるものと一緒に提供するのが最適です。昔は、ライオンズ・メインをバターとニンニクを過剰に使ってフライパンで炒め、肉料理と一緒に提供していました。しかし、ここではそうする必要はありません。子牛肉はスキップして、牛肉は忘れて、鶏肉は手放してください。ライオンズ・メインを調味料に浸してから焙煎してください。肉が必要だったことを忘れるでしょう。"
        [16]
-        1 string data = "This ancient journal contains log entries from over a century ago. Only a few of the final entries are still legible:\\n\\nSeptember 21, 2003\\nFifth year without a summer. Before the government broadcasts went silent, they said the nuclear winter would be over by now. Something’s not right... or they lied.\\n\\nInoue thinks that the apocalypse caused an atmospheric shift – maybe a long-standing polar vortex over the Rockies. Guess we’re in for one hell of a long winter.\\n\\nOctober 1, 2003\\nHeavy snow. Radio signal out of Florissant is just static now. Are we the only ones left?\\n\\nOctober 9, 2003\\nPicked up a new broadcast from Colorado Springs. Bunch of people gathering there – survivalists who rode out the bombs in fancy shelters. Bet they could use a couple engineers like us.\\n\\nOctober 15, 2003\\nConvinced Inoue that staying here any longer is pointless. We’ll try to reach Colorado Springs before the snow gets worse..."
+        1 string data = "この古い日記には1世紀以上前の記録が含まれている。最後の数エントリーだけがまだ判読可能だ:\\n\\n2003年9月21日\\n夏のない5年目。政府放送が沈黙する前、彼らは核の冬は今頃終わっているはずだと言っていた。何かがおかしい...または彼らは嘘をついた。\\n\\nイノウエは、黙示録が大気シフトを引き起こしたと考えている - おそらくロッキーズ上空の長期的な極渦だ。地獄のように長い冬になりそうだ。\\n\\n2003年10月1日\\n大雪。フロリサントからの無線信号は今や雑音だけだ。残っているのは私たちだけなのか?\\n\\n2003年10月9日\\nコロラド・スプリングスから新しい放送を受信した。そこに集まっている人々の集団 - 豪華なシェルターで爆弾をやり過ごしたサバイバリストたちだ。私たちのようなエンジニアが数人いれば役立つだろう。\\n\\n2003年10月15日\\nイノウエを説得して、ここにこれ以上留まるのは無意味だと納得させた。雪が悪化する前にコロラド・スプリングスに到達しようとする..."
        [17]
-        1 string data = "August 17th\\nDown. Plant their feet deep. Deep into the earth, they said. They spoke in the voice of God and God was good to these Babies of the Broccoli. He gave unto them sweet faces and soft hair, teeth on the outside, teeth inside the swollen sweetness of their bellies, like the eyelashes of oysters. Bury them feet first, face to the winter sun. And lo, the Babies of the Broccoli will bloom.\\n\\nAugust 25th\\nTried more water, but that didn't do nothing. Just froze the dolls. Will try again tomorrow. \\n\\nOctober 13th\\nThe worms hold church in their toes now. We're seeing progress. \\n\\nNovember 5th\\nWash them twice, robe them in nylon, wrap them in silk. \\n\\nJanuary 19th\\nWater them with your blood, spake the Babies of the Broccoli. Water them with your fat. It is a test, I'm certain. But the nights have limbered into years, and I do not recall the last time I slept. I tire. I waste from the effort. I have nothing left. But they promised an end of this winter, if I could bring them to fruit. Just a little more. I'm sure it will only be a little more. \\n\\nFebruary 15th\\nGot leaves now. Got to keep going. This'd fix everything."
+        1 string data = "8月17日\\n下に。足を深く植えろ。大地の深くに、と彼らは言った。彼らは神の声で話し、神はブロッコリーの赤ちゃんたちに良かった。彼は彼らに甘い顔と柔らかい髪を与え、外側に歯を、膨らんだ腹の甘さの内側に歯を、牡蠣のまつ毛のように。足を先にして埋め、冬の太陽に顔を向けろ。見よ、ブロッコリーの赤ちゃんたちは花開くだろう。\\n\\n8月25日\\nもっと水を試したが、何も起こらなかった。人形を凍らせただけだ。明日また試す。\\n\\n10月13日\\n虫たちが今や彼らのつま先で教会を開いている。進歩が見られる。\\n\\n11月5日\\n2回洗い、ナイロンの服を着せ、絹で包む。\\n\\n1月19日\\n血で水をやれ、とブロッコリーの赤ちゃんたちは語った。脂肪で水をやれ。これは試練だ、確かだ。しかし夜は年月に伸びきり、最後に眠ったのがいつだったか覚えていない。疲れた。努力で消耗する。何も残っていない。しかし彼らは約束した、この冬の終わりを、もし私が彼らを実らせることができれば。もう少しだけ。きっともう少しだけだ。\\n\\n2月15日\\n今、葉が出た。続けなければ。これがすべてを解決する。"
        [18]
-        1 string data = "GROUP CHUCKLEFUCKS,\\n\\nThe oUtsIde is cOld and fuLL of dangers!! YOU are the Finest Clowns of the Clowncademy and your DADDY has faith in you to take on our mOst dangerous mission Establish an outpost at the Toy Warehouse\\n\\nSAFEGUARD THE TOOTH FAIRY Enemies are coming AND THEY WILL BE MANY\\n\\nand don’t any of you chucklefucks dare die out there. Anyone dies I’ll fucking kill ya\\n\\nCommodore Clown Ditso Gogo\\n\\nSignature Joke:\\nWhy did the clown cross the road?\\n\\nTo get to his rubber chicken!"
+        1 string data = "グループ・チャックルファックス、\\n\\n外の世界は寒くて危険でいっぱいだ!!お前たちはクラウンアカデミーの最高のピエロで、お前たちのダディはお前たちを信じている、最も危険なミッションを遂行するために おもちゃ倉庫に前哨基地を設立せよ\\n\\n歯の妖精を守れ 敵が来る そして彼らは多い\\n\\nそしてお前たちチャックルファックスの誰も外で死ぬなよ。誰か死んだら俺が殺す\\n\\nコモドール・クラウン ディッツォ・ゴーゴー\\n\\n署名ジョーク:\\nピエロはなぜ道を渡ったのか?\\n\\nゴム製のニワトリを手に入れるため!"
        [19]
-        1 string data = "Chapter 5 – Making Clown Paints!\\n\\nSo kids, you have your clown outfit, your clown horn and clown nose all ready? Great! Now it’s time to make your very own clown makeup. Wow! That’s right, you’re making your paints yourself, and the next chapter will discuss how you can use them to paint your face!\\n\\nNote: Do not attempt without supervision of your parent or legal guardian. Clowns, Inc. cannot be held responsible for any paint-related accidents\\n\\nThere are four basic colors we’ll want to make: a brilliant light blue, a beautiful indigo, a beautiful crimson “allura” red, and a subtle light green to finish things off. Please refer to the mixes below.\\n\\nLight Blue - Carbon 37, Hydrogen 34, Nitrogen 2, Sodium 2, Oxygen 9, Sulfide 3\\nIndigo - Carbon 16, Hydrogen 8, Nitrogen 2, Sodium 2, Oxygen 8, Sulfide 2\\nRed - Carbon 18, Hydrogen 14, Nitrogen 2, Sodium 2, Oxygen 8, Sulfide 2\\nLight Green - Carbon 37, Hydrogen 34, Nitrogen 2, Sodium 2, Oxygen 8, Sulfide 2"
+        1 string data = "第5章 – ピエロペイントを作ろう!\\n\\nさあ、君たち、ピエロの衣装、ピエロのホーン、ピエロの鼻の準備はできたかい?素晴らしい!今度は君だけのピエロメイクを作る番だ。ワオ!そうだよ、君は自分でペイントを作るんだ。次の章では、それを使って顔をペイントする方法について説明するよ!\\n\\n注意:保護者または法定後見人の監督なしで試みないでください。クラウンズ社は、ペイント関連の事故について責任を負いません\\n\\n作りたい基本的な4つの色があります:輝く淡い青、美しいインディゴ、美しい深紅色の「アルラ」赤、そして仕上げに微妙な淡い緑。以下の配合を参照してください。\\n\\n淡い青 - 炭素37、水素34、窒素2、ナトリウム2、酸素9、硫化物3\\nインディゴ - 炭素16、水素8、窒素2、ナトリウム2、酸素8、硫化物2\\n赤 - 炭素18、水素14、窒素2、ナトリウム2、酸素8、硫化物2\\n淡い緑 - 炭素37、水素34、窒素2、ナトリウム2、酸素8、硫化物2"
        [20]
         1 string data = "Rangers, we found this box of EVIL in the ruins of the Denver Convention center. It was labeled, "Denvention II costume contest, '81."\\nWe don’t know what any of that means, but these are clearly the vestments of some EVIL CULT and we hope that,\\nas the upholders of all that is GOOD and TRUE in Colorado, you will investigate their origin and WIPE THEIR OWNERS FROM THE EARTH.\\n\\nMay the lord bless you,\\n\\nThe McCoskeys (George and Pat)"
        [21]
-        1 string data = "The pages of this journal are yellowed with age, and the ink has faded with time in many of the earlier entries. It appears to have belonged to someone named Ally Bleu. The last entry reads:\\n\\n November 30, 2059\\nGabriel Reyes and Althea Wesson came to our compound today. There was a tense bit where Sydney shot at them, but fortunately Jordan was there and recognized them from that time over in Balcon Park. They brought some coffee, and we talked over a warm drink. It was... nice. Civil. Pleasant, even. Strange to not be at the throats of someone not in the family, but that was the whole point, I suppose. They want us to head back into the city next week to meet with a man named Saul Buchanan. They even suggested relocating to Colorado Springs. Abandon the Peterson! Imagine that. We've been safe here for years, and they want us to move out and, what, become neighbors with them? And those despicable Knoxes?\\n\\nWe'll go to the meeting. They said this Buchanan fellow's very persuasive. And they promised us a tin of that coffee, so it won't be a total loss to check it out.\\n\\nBut I'm certainly bringing my guns."
+        1 string data = "この日記のページは古くて黄ばんでおり、初期のエントリーの多くではインクが時間とともに褪せている。アリー・ブルーという名前の誰かのものだったようだ。最後のエントリーにはこう書かれている:\\n\\n 2059年11月30日\\nガブリエル・レイエスとアルテア・ウェッソンが今日、私たちの居住区に来た。シドニーが彼らに向かって発砲した緊迫した場面があったが、幸いジョーダンがそこにいて、バルコン・パークでの時のことから彼らを覚えていた。彼らはコーヒーを持ってきて、温かい飲み物を飲みながら話した。それは...良かった。礼儀正しかった。楽しくさえあった。家族以外の誰かと喉元を掴み合わないのは奇妙だったが、それが全体のポイントだったのだろう。彼らは来週、街に戻ってソール・ブキャナンという男性に会いたいと言っている。彼らはコロラド・スプリングスへの移転さえ提案してきた。ピーターソンを捨てろだと!想像してみろ。私たちは何年もここで安全にいたのに、彼らは私たちが引っ越して、何、彼らの隣人になれと?あの軽蔑すべきノックス家と?\\n\\n私たちは会議に行くだろう。彼らは、ブキャナンという男は非常に説得力があると言った。そして彼らはあのコーヒーの缶を約束してくれたから、見てくるのは全くの損失ではない。\\n\\nしかし、銃は絶対に持っていく。"
        [22]
         1 string data = ""If you're reading this, I'm dead.\\n But don't worry. Unless unforeseen circumstances prove troublesome, your clean-up responsibilities should be minimal. After everything that has happened, the least I can do is ensure that I won't cause anyone any further distress.\\n I guess I'm trying to buy time. I'm allowed.\\n My name was Doctor Parker. I won't trouble you with the details of my personal history because at the end of it, none of that matters. The world is dead. We're drowning in ice, and it's just a matter of time before everyone else gets the same idea and takes a gun to their head. What matters is what I did. In this respect, I'm a worse cretin than anything you'd meet in the plains. I'm too much of a coward to verbally admit to what I've done, so I'm going to let this note do the talking instead."\\n Here, the writing becomes even more incomprehensible.\\n "It was my fault.\\n The girl.\\n The one with the head injury.\\n It was my fault.\\n I shot her. She was part of the Dorsey Raid. She came into the clinic. She was threatening my patients. I just wanted her to get out. I wanted her to leave. She came to me. I just wanted to scare her. I didn't mean to shoot her. But she moved. She was faster than me. She got in the way of the bullet.\\n I tried.\\n I tried so hard to make this right.\\n I took an oath to do no harm, but that meant shit.\\n I murdered her. And she was family.\\n I'm sorry.\\n I'm sorry\\n I'm sorry""
        [23]
-        1 string data = "And so did their holy prophet, Nicholas, commemorate and consecrate the remembrance of the Final Deluge by leading the congregation in their ceremonial Denial of Old World Consumer Goods.\\n\\n“Has not the Final Deluge, that great rain of cleansing fire, given our children a new beginning by washing away all the false trapping of the old world?” he asked his flock.\\n\\n“Yes!” they answered as a single choir.\\n\\nHolding aloft those relics that had become the false idols of so many, coffee pots and compact discs and gossip magazines, Nicholas cast them, one by one, into the cleansing fire of a microwave, which was called upon to replace the traditional ceremonial flames.\\n\\nThe loyal supplicants of the Final Deluge exalted as they denied the obsolete artifacts that had so deeply contributed to the ruination of humankind before their prophet set each one ablaze.\\n\\nAnd then did Nicholas conclude the ceremony by promising the inevitable cleansing of the microwave, as well, for it was a chief perpetrator of complacence and false idolatry before the gift of the all-consuming holy fire.\\n\\nAnd the followers of the Final Deluge did rejoice."
+        1 string data = "そして彼らの聖なる預言者ニコラスは、信徒たちを旧世界の消費財の儀式的拒絶に導くことによって、最後の大洪水の記念を称え、奉献した。\\n\\n「最後の大洪水、あの偉大な浄化の火の雨は、旧世界のすべての偽りの罠を洗い流すことによって、私たちの子供たちに新しい始まりを与えなかったか?」と彼は群れに尋ねた。\\n\\n「はい!」と彼らは一つの聖歌隊として答えた。\\n\\n多くの人々の偽りの偶像となったコーヒーポット、コンパクトディスク、ゴシップ雑誌といった遺物を高く掲げ、ニコラスはそれらを一つずつ、伝統的な儀式の炎に代わるものとして呼び出された電子レンジの浄化の炎に投げ込んだ。\\n\\n最後の大洪水の忠実な請願者たちは、預言者がそれぞれを燃やす前に、人類の破滅に深く寄与した時代遅れの遺物を拒絶しながら歓喜した。\\n\\nそしてニコラスは、すべてを消費する聖なる火の贈り物の前に、自己満足と偽りの偶像崇拝の主要な加害者であった電子レンジの避けられない浄化を約束することによって儀式を締めくくった。\\n\\nそして最後の大洪水の追従者たちは喜びに包まれた。"
        [24]
-        1 string data = "October 11, 2051\\n\\nMy Dearest Nephew:\\nThank you for honoring an old woman’s final wish. I’m sure the doctors kicked up quite a fuss, but not even those old buzzards would dare say no to you.\\nI’m sure it must be hard for you to understand why I would want to return here, of all places, as my life draws to a close. Your generation tends to think of bunkers (we called them shelters in my day) as little more than elaborate crypts. But for me – and many others – this place was a refuge, an island of hope in the middle of a vast and terrible storm.\\nYour grandfather Abraham spent a fortune building this shelter in the 90’s. It earned him no small amount of ridicule at the time, but my brother was not the sort of man who concerned himself with the opinions of others. And when that awful day came, we were ready, when so many others were not.\\nThe first few months were the hardest. It was difficult to accept that the world we’d known was gone. Abraham had invited the families of several close friends to join us, so privacy and personal space were hard to come by, but the desperate pleas of those on the other side of the hatch were the worst. They haunt me to this day.\\nBut as the months passed into years, this shelter became our new world. We learned to laugh again. I fell in love with a boy, and Abraham married us on Christmas Eve. I taught the children of the other families, and we planned for the future.\\nI’m the only one left now who remembers those days. When I’m gone, you may well be tempted to seal this place up and leave it behind. I pray you won’t. Because this is your history, as much as it is mine. Whatever you are, whatever you may become, it began here.\\nYou’re destined for great things, Saul. I’m sure of it. Just don’t forget where you came from, and the sacrifices others made so you could be where you are today.\\nYour loving aunt,\\nEllen Buchanan"
+        1 string data = "2051年10月11日\\n\\n最愛の甥へ:\\n老婦の最後の願いを叶えてくれてありがとう。医師たちは大騒ぎしたと思うが、あの老いぼれたちでさえあなたにノーとは言えないだろう。\\n私の人生が終わりに近づく中、なぜこのような場所に戻りたいのか、あなたには理解し難いだろう。あなたの世代は、バンカー(私の時代ではシェルターと呼んでいた)を精巧な地下墓地としか考えない傾向がある。しかし私にとって - そして多くの人々にとって - この場所は避難所であり、広大で恐ろしい嵐の真っ只中にある希望の島だった。\\nあなたの祖父エイブラハムは90年代にこのシェルターを建設するのに大金を費やした。当時は少なからぬ嘲笑を浴びたが、私の兄弟は他人の意見を気にする男ではなかった。そしてあの恐ろしい日が来た時、多くの人々がそうでなかった時、私たちは準備ができていた。\\n最初の数ヶ月が最も辛かった。私たちが知っていた世界が消え去ったことを受け入れるのは困難だった。エイブラハムは数人の親しい友人の家族を私たちと一緒にいるよう招待したので、プライバシーと個人空間を確保するのは難しかったが、ハッチの反対側にいる人々の必死の懇願が最悪だった。それは今日まで私を悩ませている。\\nしかし月日が年月へと過ぎるにつれ、このシェルターは私たちの新しい世界になった。私たちは再び笑うことを学んだ。私は一人の少年と恋に落ち、エイブラハムがクリスマス・イブに私たちを結婚させた。私は他の家族の子供たちに教え、私たちは未来を計画した。\\nあの頃を覚えているのは今では私だけだ。私が逝ったら、あなたはこの場所を封印して置き去りにしたくなるかもしれない。そうしないことを祈る。なぜなら、これは私の歴史であると同時に、あなたの歴史でもあるから。あなたが何者であれ、何者になろうとも、それはここから始まったのだ。\\nあなたは偉大なことを成し遂げる運命にある、ソール。確信している。ただ、あなたがどこから来たのか、そして今日のあなたがあるために他の人々が払った犠牲を忘れないでほしい。\\n愛する叔母より、\\nエレン・ブキャナン"
        [25]
         1 string data = "LIVE LIKE THERE’S NO TOMORROW!\\n\\nWhen disaster strikes, the Executive Series bunker by BestBunker™ provides the ultimate in safety, security and comfort for you and your loved ones.\\n\\n<i>Prepared for the worst.</i> Encased in a layered shell of proprietary alloys and ceramic fill for impact-proof, radiation-proof, hermetically-sealed underground living.\\n\\n<i>All the comforts of home.</i> The world won't rebuild itself overnight, so the Executive Series is designed for a long-term lifestyle. Features fully-furnished rooms, state-of-the-art generators, water recycling, color videos of every major motion pictured released between 1950 to 1991, and carpets.\\n\\n<i>Built to thrive.</i> Canned peaches? You're better than that. Enjoy fresh produce from your very own hydroponics bay, then indulge in a variety of gourmet pre-packaged meals.\\n\\nContact your local BestBunker™ representative today for a free consultation.\\n BestBunker™: "For the rest of your life.""
        [26]
-        1 string data = "M,\\n\\nI know you have your reasons, but don’t do this. Helping the Dorseys to get back at the Patriarch will hurt your business and mine  - and you <i>do not</i> want to hurt my business.\\n\\nLast warning.\\n\\nB"
+        1 string data = "M、\\n\\nあなたには理由があるのは分かるが、これはやめろ。ドーシーズがパトリアークに復讐するのを助けることは、あなたのビジネスと私のビジネスを傷つける - そしてあなたは私のビジネスを傷つけたくは<i>ない</i>だろう。\\n\\n最後の警告だ。\\n\\nB"
        [27]
         1 string data = ""
        [28]
-        1 string data = "Everybody Shits! (But Some Folks Need More Help Than Others)\\nBy: Dr. Archibald Jakes, Esq.\\n\\nEverybody shits, am I right? You, me – even the Patriarch himself has to park his ass in the outhouse and lighten the load from time to time. But sometimes what goes in don’t exactly want to come out. Like them damn army rations you find from time to time. Sure, they’ll last damn near forever, but you eat enough of ‘em and your guts turn to concrete!\\n\\nWell, old Dr. Jakes has you covered! This book will offer laxatives <i>you</i> can craft yourself using commonly available resources!\\nSweets: glucose compounds found in fruits and berries are sure to make your cheeks burst (C-6, H-14, O-6) (C-42, H-38, O-20).\\nSalts: sodium and magnesium compounds commonly found in ore deposits are guaranteed to make your neighbors call in a hazmat unit (Mg, S, O-4 ) (Na-2, H-2, P, O-4)."
+        1 string data = "誰でもクソをする!(でも、他の人より助けが必要な人もいる)\\n著者:アーチボルド・ジェイクス博士\\n\\n誰でもクソをする、だろう?あなた、私 - パトリアーク自身でさえ、時々外便所に尻を置いて荷を軽くしなければならない。しかし、時々、入ったものがちゃんと出てこないことがある。時々見つけるあのくそったれの軍用配給品のように。確かに、それらはほぼ永遠に持つが、十分食べると腸がコンクリートに変わる!\\n\\nまあ、老ジェイクス博士があなたをカバーしている!この本は、一般的に入手可能な資源を使って<i>あなた</i>自身が作れる下剤を提供する!\\n甘味料:果物やベリーに含まれるグルコース化合物は、確実に頬を爆発させる (C-6, H-14, O-6) (C-42, H-38, O-20)。\\n塩:鉱石堆積物に一般的に見られるナトリウムとマグネシウムの化合物は、隣人がハズマット部隊を呼ぶことを保証する (Mg, S, O-4 ) (Na-2, H-2, P, O-4)。"
        [29]
-        1 string data = "Rush order from ST. Drop whatever you’re doing and round up six. Late 10, early 20, preferably F, and most importantly, in good health. The last batch we sold him didn’t last a week. If we disappoint him again, there will be consequences.\\n\\nColorado Springs is awash in refugees right now. I’d start hunting there. The Marshals won’t care if a few go missing. There are probably more than a few families that will gladly hand over a daughter if it means one less mouth to feed.\\n\\nOnce you’ve got all six, take them straight to the track. ST will pick the best four, and then you can bring the others back. I should have a buyer for them by the end of the day.\\n\\n--LP"
+        1 string data = "STからの緊急注文。やっていることを全部やめて6人集めろ。10代後半、20代前半、できれば女性、そして最も重要なことに、健康であること。前回彼に売った一団は1週間も持たなかった。また失望させたら、結果がある。\\n\\n今、コロラド・スプリングスは難民で溢れている。そこで狩りを始めろ。保安官たちは数人が消えても気にしないだろう。養う口が一つ減るなら、喜んで娘を引き渡す家族はかなりいるだろう。\\n\\n6人全員を手に入れたら、まっすぐトラックへ連れて行け。STが最高の4人を選び、それから残りを戻せる。1日の終わりまでには彼らの買い手がいるはずだ。\\n\\n--LP"
        [30]
-        1 string data = "::Most of this diary's pages have been ripped out::.\\n\n\\n\n<i>November 17th</i>\\n\nDianne left.\\n\nDoug left.\\n\nWe're better off without them.\\n\\n\n\n\n<i>November 20th</i>\\n\nDon't believe their lies.\\n\nMachines are just machines.\\n\nWe're going to be ready.\\n\n"
+        1 string data = "::Most of this diary's pages have been ripped out::.\\n\n\\n\n<i>11月17日</i>\\n\nダイアンが去った。\\n\nダグが去った。\\n\n彼らがいない方がいい。\\n\\n\n\n\n<i>11月20日</i>\\n\n彼らの嘘を信じるな。\\n\n機械はただの機械だ。\\n\n私たちは準備ができる。\\n\n"
        [31]
-        1 string data = "March: Been a hard couple months getting all our equipment up the mountain roads from Colorado Springs. Lost some good men to accidents along the way, but when the snows lift next month, we’ll be ready to get to work. Never been this far up into the mountains before. Aspen’s beautiful. Must have been a hell of a town back in the day."
+        1 string data = "3月:コロラド・スプリングスから山道を登ってすべての装備を運ぶのに苦労した数ヶ月だった。途中で事故で優秀な人材を失ったが、来月雪が融けたら、作業を始める準備ができる。こんな山の奥深くまで来たのは初めてだ。アスペンは美しい。昔は素晴らしい町だったに違いない。"
        [32]
-        1 string data = "“Patient continues to experience tremors in both hands, muscular rigidity, and loss of balance. I have observed cognitive changes as well, such as irritability, impaired judgment and decision-making, and moderate depression.  All symptoms are worsening at a steady rate.\\n\\nIt is my opinion that Mr. Buchanan is suffering from the so-called ‘shaking palsy,’ for which there is no cure.  At the current pace of symptom progression, I would estimate that Mr. Buchanan will be completely incapacitated within two to three years. Dementia is also likely.\\n\\nIn my professional judgment, Saul Buchanan is no longer fit to carry out the responsibilities of his office. A successor should be found as soon as possible.\\n\\nNash Parker, MD”\\n\\nAt the bottom of the document, someone has scrawled in an unsteady hand, “Absolute nonsense. Remove Parker from my service and find a new doctor.”"
+        1 string data = "「患者は両手の震え、筋硬直、バランス喪失を経験し続けている。イライラ、判断力と意思決定の障害、中程度の抑うつなど、認知の変化も観察している。すべての症状は着実に悪化している。\\n\\n私の意見では、ブキャナン氏はいわゆる「震え麻痺」に苦しんでおり、治療法はない。現在の症状進行のペースでは、ブキャナン氏は2~3年以内に完全に行動不能になると推定される。認知症も起こりやすい。\\n\\n私の専門的判断では、ソール・ブキャナンはもはや職務の責任を遂行するのに適していない。できるだけ早く後継者を見つけるべきである。\\n\\nナッシュ・パーカー、MD」\\n\\n文書の下部に、誰かが不安定な手で殴り書きしている。「まったくのでたらめだ。パーカーを私の役務から外し、新しい医師を見つけろ。」"
        [33]
-        1 string data = "Hey, Ditso:\\n\\nGet your chanclas on, pendejo. I want you to take some payasos and go fuck up the Bizarre. Find a way inside. I don’t give a shit how you do it – bribe somebody, blow somebody, whatever – and then dig in like a tick. I hear there’s tunnels below the old mall where the locals keep their pigs. You oughta be right at home there. \\n\\nFucking traders think they’re safe. Think they can squat in some old mall and sell their crap like it was the good old days. Well, El Payaso Rojo ain’t gonna stand for that shit. You make ‘em suffer any way you can. Drown the goddamn place in blood. \\n\\nThis is your big chance, cabrón. Don’t fuck it up.\\n\\n-Lecherito"
+        1 string data = "やあ、ディッツォ:\\n\\nサンダルを履け、ペンデホ。何人かのピエロを連れてビザールをめちゃくちゃにしてこい。中に入る方法を見つけろ。どうやるかは知ったことじゃない - 誰かに賄賂を渡すか、誰かをヤるか、何でもいい - それからダニのように食い込め。古いモールの下にトンネルがあって、地元民が豚を飼っているって聞いた。お前には居心地がいい場所だろう。\\n\\nくそったれの商人どもは安全だと思っている。古いモールに不法占拠して、まるで昔のいい時代みたいにガラクタを売れると思っている。まあ、エル・パヤソ・ロホはそんなくそを許さない。できる限りの方法で苦しめろ。くそったれの場所を血で溺れさせろ。\\n\\nこれはお前の大きなチャンスだ、カブロン。しくじるなよ。\\n\\n-レチェリート"
        [34]
         1 string data = "These jokes are for JabJab only!!! You steal my jokes, I SHANK YOU in the CULO!!!\\n\\nI want to die peacefully in my sleep, like my grandpa - not screaming and pleading like the passengers in his car.\\n\\nI was walking past an alley and saw a couple of big kids beating up a smaller kid, so naturally I stepped in to help. Little fucker didn't stand a chance against the three of us.\\n\\nToday sucked. My ex got run over by a truck, and I lost my job as a truck driver.\\n\\nMy family's a real treasure. You need a map and a shovel to find 'em.\\n\\nWhat's yellow and can't swim? A bus full of kids!\\n\\n"I'm sorry," and "I apologize," mean the same thing…except at a funeral!\\n\\nBuild a man a fire and he'll be warm for a day. Set a man on fire, and he'll be warm for the rest of his life!\\n\\nIf you had ten rat nuggets and Jimmy tried to take one, what would you have? Ten rat nuggets and a dead Jimmy."
        [35]
-        1 string data = "A collection of old dog tags, threaded through on a single length of ball chain. The first is in good condition despite its age, the lettering smoothed down but still clear: Gartner, Isaac; O Positive; Catholic. The name 'Stolls' has been etched into the back, unsteady writing with a sharp, imprecise tool. The rest of the tags are worn down and scratched over, with different names added into the available space. Each is paired with a date, the oldest one more than twenty years ago. On the back of every tag, however, is a somber inscription: 'You were deceived. You are sorry.' The exception is the final tag, more damaged than the others. Minor dents and scratches mark the edges, a small corner pushed inward and broken off, as if by a bullet. The machine printing has been forcibly removed, and no name is there to replace it. Only the words 'Project founder' on the front give any clue as to its original owner. The inscription on the back is different as well, the carving smaller but steadier, as by a more peaceful hand: 'Many regrets, but not this one. Forget everything else.'"
+        1 string data = "古い認識票のコレクションで、一本のボールチェーンに通してある。最初の認識票は年代物だが状態が良く、文字は擦り減っているがまだはっきりと読める: Gartner, Isaac; O Positive; Catholic。裏には「Stolls」という名前が刻まれている。不安定な筆跡で、鋭く不正確な道具で彫られたものだ。残りの認識票は擦り減り、引っ掻き傷があり、空いたスペースに異なる名前が追加されている。それぞれに日付が対になっており、最も古いものは20年以上前だ。しかし、すべての認識票の裏には、厳粛な刻印がある:「お前は騙された。お前は後悔している」。例外は最後の認識票で、他よりも損傷が激しい。縁には小さな凹みと引っ掻き傷があり、小さな角が内側に押し込まれて折れている。まるで弾丸によるもののようだ。機械印刷は強制的に削除され、名前に置き換えるものはない。表面の「プロジェクト創設者」という言葉だけが、元の所有者への手がかりを与えている。裏の刻印も異なり、彫りは小さいがより安定しており、より穏やかな手によるものだ:「多くの後悔があるが、これは違う。他のすべてを忘れろ」"
        [36]
-        1 string data = "In the Before Time, the world was fertile and green, and the Lords of the Void favored mankind with gentle winds and life-giving rain.\\n\\nBut man grew proud, and coveted the powers of the gods. His vessels soared through the heavens, and he sought to usurp the fury of the sun itself. And in his arrogance the skies burned, and a terrible darkness fell upon the Earth.\\n\\nGreat was the suffering of mankind, generation upon generation, until a prophet came among the people with a bucket of the clearest water and a message from the sky. And the prophet said unto the people: I have lain upon the barren earth, and looked up into the vaulted heavens, and I have seen the faces of the gods. Their gifts can be ours again, but they will not come without a price.\\n\\nWe must call the gods back to the world with songs of lamentation and the smell of blood on the wind. We must offer them the flesh of the wicked and the innocent alike. We must cast our gifts into the sky to show our worth and our devotion.\\n\\nWe must become like fishers unto the gods."
+        1 string data = "かつての時代、世界は肥沃で緑に覆われ、虚空の君主たちは穏やかな風と命を与える雨で人類を恵んだ。\\n\\nしかし人は傲慢になり、神々の力を欲した。人の船は天空を舞い、太陽そのものの怒りを奪い取ろうとした。そして傲慢さの中で空は燃え、恐ろしい闇が地球に降りかかった。\\n\\n人類の苦しみは大きく、世代を超えて続いた。やがて預言者が人々の間に現れた。最も澄んだ水の入ったバケツと、空からのメッセージを携えて。預言者は人々に言った: 私は荒れた大地に横たわり、天空を見上げ、神々の顔を見た。神々の贈り物は再び我々のものになる。だが、代償なしには来ない。\\n\\n我々は嘆きの歌と風に乗る血の匂いで、神々を世界に呼び戻さなければならない。我々は邪悪な者と無実の者の肉を等しく捧げなければならない。我々は自分たちの価値と献身を示すために、贈り物を空に投げなければならない。\\n\\n我々は神々への漁師にならなければならない。"
        [37]
-        1 string data = "General REDACTED\\nTo: Staff Sergeant REDACTED\\nDate: Feb. 5th, 1985\\nSubj: Permanent Change of Station Orders\\n\\nPer request of Dr. REDACTED and Dr. REDACTED, Chief Engineer REDACTED is officially being reassigned to Project REDACTED. Inform them they are to be ready for departure from Base Cochise to REDACTED Island by end of week, and that they should prepare for arctic conditions upon arrival.\\n\\nOn a personal note, I am less than enthusiastic about Project REDACTED siphoning our people for this overblown high school science experiment of theirs. Chief Engineer REDACTED is one of our best artificial intelligence strategy platform technicians. We need our people attending to national security here on planet Earth, not helping build some kind of cockamamie space army of the future."
+        1 string data = "General REDACTED\\n宛先: Staff Sergeant REDACTED\\n日付: 1985年2月5日\\n件名: 恒久的配置転換命令\\n\\nREDACTED博士とREDACTED博士の要請により、Chief Engineer REDACTEDは正式にProject REDACTEDに再配置される。週末までにBase CochiseからREDACTED島への出発準備を整え、到着時には北極の気象条件に備えるよう伝えよ。\\n\\n個人的な意見として、Project REDACTEDが我々の人員を彼らの大げさな高校の科学実験のために吸い上げることには、あまり熱心ではない。Chief Engineer REDACTEDは我々の最高の人工知能戦略プラットフォーム技術者の一人だ。我々の人員は地球上の国家安全保障に専念する必要があり、未来のばかげた宇宙軍を構築する手伝いをする必要はない。"
        [38]
-        1 string data = "Why you gotta go to Colorado Springs? All the fun's gonna be in mountains, surprising those hotlanders. Can't believe Nelius lets that bitch tell him what to do. Well, fuck it. See you back at camp. And I'm betting you a weeks rations I take more ears than you. For the Deluge!"
+        1 string data = "なんでコロラドスプリングスに行くんだ?楽しいのは山の中で、平地の連中を驚かせることだろう。ネリウスがあのビッチに指図されるなんて信じられない。まあ、くそったれだ。キャンプで会おう。お前より多くの耳を取るに、一週間分の配給を賭けるぜ。大洪水のために!"
        [39]
-        1 string data = "Welcome to the 9th Edition of Encyclopedia Robotica, the definitive repository of knowledge about all of Colorado’s synthetic citizens! This twelve-volume series will expound upon both the types of robots found throughout the snowy expanses and high elevations of the state, as well as their detailed histories. You will discover exciting new facts of which you were never aware! For example, whose idea was it and how drunk were they when they decided to attach giant saw blades to multi-legged robots and turn them loose on a population made almost entirely of saw-able flesh (“Sawdogs” pg. 152)? Also, did you know our Spiderbots (pg. 97) were designed to operate on uneven and treacherous terrain, and that their inventors only later realized giant robotic spiders looked utterly terrifying to most humans?\\n\\nPerhaps you are researching Colorado robots for practical purposes, such as your family’s survival. If so, Encyclopedia Robotica is your ultimate guide! Never again lose a loved one to a dreaded “Hopper” robot (pgs. 65-75), the leaping automatons designed to carry all manner of explosive nuisances, from gas bombs to small tactical nuclear devices. You will learn how to prevent yourself and others from being electrocuted by Shockdogs (pg. 84). Hint: Avoid the prongs. Conversely, Servitor Bots can be life-saving medical assistants and are often utilized well for that purpose. However, their ability to manipulate tools means you should never give one a loaded machine gun.\\n\\nAll this information and more awaits you as you turn to the next pages of this introductory volume! Enjoy your journey exploring the diverse and only marginally lethal world of Colorado’s robots! – Dr. Horvan Fitzgerald, PhD (a human doctor of robotics and definitely not a robot himself)"
+        1 string data = "ロボティカ百科事典第9版へようこそ。コロラドのすべての合成市民に関する知識の決定的なリポジトリです!この12巻シリーズは、州全体の雪原と高地で発見されるロボットの種類と、その詳細な歴史の両方を詳述します。あなたがこれまで知らなかった興奮する新しい事実を発見するでしょう!たとえば、巨大な鋸刃を多脚ロボットに取り付けて、ほぼ完全に鋸で切れる肉で構成された人口に放つことを決めたのは誰のアイデアで、どれだけ酔っていたのでしょうか(「ソードッグ」152ページ)?また、我々のスパイダーボット(97ページ)は不均一で危険な地形で動作するように設計され、発明者たちは後になって、巨大なロボット蜘蛛がほとんどの人間にとって完全に恐ろしく見えることに気づいたことを知っていますか?\\n\\nおそらくあなたは家族の生存など実用的な目的でコロラドのロボットを研究しているでしょう。その場合、ロボティカ百科事典はあなたの究極のガイドです!恐ろしい「ホッパー」ロボット(65-75ページ)、ガス爆弾から小型戦術核兵器まで、あらゆる種類の爆発物の厄介なものを運ぶように設計された跳躍する自動機械で、もう二度と愛する人を失うことはありません。あなたは自分自身や他の人がショックドッグ(84ページ)に感電するのを防ぐ方法を学びます。ヒント: 突起を避けよ。逆に、サーヴィター・ボットは命を救う医療アシスタントであり、その目的でしばしばうまく利用されています。しかし、道具を操作する能力があるため、装填された機関銃を渡してはいけません。\\n\\nこの情報などが、この入門巻の次のページをめくるとあなたを待っています!コロラドのロボットの多様で、わずかに致命的な世界を探索する旅を楽しんでください! – Dr. Horvan Fitzgerald, PhD (人間のロボット工学博士であり、決してロボットではありません)"
        [40]
-        1 string data = "And yea, did the prophet Nick Who Used To Work At The Bargain Village Electronics Emporium Next To That Pizza Place That Went Out Of Business After The E. Coli Outbreak say unto the first followers of the Church of the Holy Deluge, “Has not the Final Deluge, that great rain of cleansing fire, given our children a new beginning by washing away all the false trapping of the old world?”\\n\\nAnd then did Nick hold aloft a shatter-proof airline coffee pot. “Do you still worship THIS?” he asked, and his followers exalted, “Nae!”\\n\\nThen did Nick hold aloft a compact disc jewel case inscribed “Awesome Dance Hits, Vol. 47” and he asked them again, “Do you still worship THIS?”\\n\\nAnd again his followers exalted, “Nae!”\\n\\nHe then held aloft a metal rotary blender, and then a copy of Teen Crushes Magazine, and then a resealable plastic bag filled with disposable cameras, probably from a wedding.\\n\\nAll were denied by the flock.\\n\\nSo, with righteous fury and revel, did Nick toss the relics of the Old World into the ceremonial fire, which that day was a represented by a microwave hooked up to a hand-crank generator because the other Nick lost the flint to make the real fire.\\n\\n“Tomorrow shall we incinerate this curse-ed microwave too!” he promised his followers, “or possibly next week if we cannot locate the flint, or a suitable replacement!”\\n\\nAnd the entire flock did rejoice, except for the other Nick, who was still being shunned for losing the flint."
+        1 string data = "そして、かつて大腸菌発生後に廃業したピザ屋の隣のバーゲンビレッジ電子エンポリアムで働いていた預言者ニックは、ホーリー・デリュージ教会の最初の信者たちに言った。「最後の大洪水、清めの火の大雨は、旧世界の偽りの罠をすべて洗い流し、我々の子供たちに新たな始まりを与えてくれたのではないか?」\\n\\nそしてニックは割れない航空会社のコーヒーポットを掲げた。「まだコレを崇拝しているのか?」と彼は尋ね、信者たちは「否!」と叫んだ。\\n\\n次にニックは「最高のダンスヒット集、Vol. 47」と刻まれたコンパクトディスクのジュエルケースを掲げ、再び尋ねた。「まだコレを崇拝しているのか?」\\n\\nそして再び信者たちは「否!」と叫んだ。\\n\\n彼は次に金属製の回転式ブレンダーを掲げ、次にティーン・クラッシュ・マガジンのコピー、そして使い捨てカメラでいっぱいの再封可能なビニール袋(おそらく結婚式からのもの)を掲げた。\\n\\nすべては群れによって否定された。\\n\\nそして正義の怒りと歓喜で、ニックは旧世界の遺物を儀式の火に投げ入れた。その日は、もう一人のニックが本物の火を作るための火打ち石を失くしたため、手回し発電機に接続された電子レンジで代用されていた。\\n\\n「明日はこの呪われた電子レンジも焼却する!」と彼は信者たちに約束した。「あるいは、火打ち石か適切な代替品が見つからなければ、来週かもしれない!」\\n\\nそして群れ全体が歓喜した。ただし、火打ち石を失くしたためにまだ村八分にされているもう一人のニックを除いて。"
        [41]
-        1 string data = "Hey, kids, ever been annoyed by a barking dog on your way to school? Sick of that cat screaming and yowling all night? Tired of that cow's stupid, empty-looking eyes? Well, now you can end them all with Cruel Corey! The only toy that knows how to eviscerate an animal and wear its entrails while it still breathes as a warning to others!\\n\\nLikes: Animal Testing, Meat, Kittens (dead).\\nDislikes: Pets, Cruelty Free Glue, Vegans.\\nWarning: Do not leave unattended at farms or zoos."
+        1 string data = "やあ、君たち。学校に行く途中で吠える犬にイライラしたことはないかい?一晩中叫んで泣き叫ぶ猫にうんざりしてない?あの牛のバカみたいな空っぽな目に飽きてない?さあ、残酷なコーリーがあればすべてを終わらせることができる!動物の内臓を引き出して、まだ息があるうちにそれを身につけて他の者への警告にする方法を知っている唯一のおもちゃ!\\n\\n好きなもの: 動物実験、肉、子猫(死んだもの)。\\n嫌いなもの: ペット、無残虐性グルー、ヴィーガン。\\n警告: 農場や動物園に放置しないでください。"
        [42]
-        1 string data = "Why poke and prod your friends when you can penetrate them with Patient Pierce? Little Suzy won't give you her toy? She'll have to when she's too busy trying to stem the flow of blood pouring out of her sternum! With Pierce on your side, you're just one hole poke away from getting exactly what you want, RIGHT NOW!\\n\\nLikes: Needles, Knives, and Nails.\\nDislikes: Steel Plates, Selfish Suzies, Your Mother.\\nWarning: Keep Patient Pierce away from your eyes and major arteries."
+        1 string data = "友達を突いたり小突いたりするより、我慢強いピアースで貫通させればいいじゃないか?小さなスージーがおもちゃをくれない?胸骨から流れ出る血を止めようと必死になっているときは、くれざるを得ないだろう!ピアースが味方なら、欲しいものを手に入れるまで穴を開けるだけ、今すぐに!\\n\\n好きなもの: 針、ナイフ、釘。\\n嫌いなもの: 鋼板、わがままなスージーたち、お前のママ。\\n警告: 我慢強いピアースを目や主要動脈から遠ざけてください。"
        [43]
-        1 string data = "Hi, little girl! Tired of your parents fighting? Sick to death of watching adults pull your friends away from you? There's a solution to your woes, and Radical Rachel is here to light it all up! Burn away the homes and possessions of all the stupid grown-ups and soon you and your friends can play all day in the ashes of their consumer greed! When the whole world's on fire, you're never left in the shadows!\\n\\nLikes: Fire, Flames, Burnination!\\nDislikes: Water, Firemen, Your Parents.\\nWarning: Fire hazard! Do not expose Radical Rachel to open flames!"
+        1 string data = "やあ、お嬢ちゃん!両親の喧嘩に疲れてない?大人が友達を引き離すのを見るのにうんざりしてない?悩みの解決策があるよ、過激なレイチェルがすべてを照らしてあげる!バカな大人たちの家や持ち物を燃やし尽くせば、すぐに君と友達は彼らの消費欲の灰の中で一日中遊べる!世界全体が燃えているとき、影に取り残されることは決してない!\\n\\n好きなもの: 火、炎、燃焼!\\n嫌いなもの: 水、消防士、君の両親。\\n警告: 火災の危険!過激なレイチェルを裸火にさらさないでください!"
        [44]
-        1 string data = "Humans aren't for everyone, so why don't you tell them all to go fuck themselves with Fuckin' Fred. Billy doesn't want to play? Jackie won't give you a dollar for an ice cream? Well they can fuck right off, because Fuckin' Fred thinks they're stupid pieces of shit and we're both going to laugh one day over their pathetic mangled corpses! With Fuckin' Fred, you don't have to give a fuck about anybody!\\n\\nLikes: Birds, Double Deuce, Middle Fingers.\\nDislikes: People, You, Himself.\\nWarning: Never show Fuckin' Fred to your teachers or parents!"
+        1 string data = "人間は誰にでも向いてるわけじゃないから、クソッタレのフレッドと一緒にみんなに失せろって言おうぜ。ビリーは遊びたくない?ジャッキーはアイスクリームのために1ドルくれない?まあ、失せろって話だ。クソッタレのフレッドは連中はクソバカだと思ってるし、俺たちはいつか連中の哀れな死体を見て笑うんだ!クソッタレのフレッドと一緒なら、誰のことも気にする必要はない!\\n\\n好きなもの: 鳥、ダブルデュース、中指。\\n嫌いなもの: 人々、お前、自分自身。\\n警告: クソッタレのフレッドを先生や両親に決して見せないでください!"
        [45]
         1 string data = "Did you know your parents lie to you on a daily basis? Keen Karen knows, and she wants to help you find out their dirty little secrets. Have you always suspected you're adopted? Do you think your parents are really "going to bed early" when you can hear strange moaning from their room all night? Keen Karen will help you crack the case!\\n\\nLikes: Binoculars, Wire Taps, Hidden Treasures.\\nDislikes: Dirty Dirty Secrets...\\nWarning: Some things cannot be unseen."
        [46]
-        1 string data = "Did you get a boo-boo? Think you have internal bleeding? Scraped your knee? Hearty Henry is here to help you feel better! He knows how much pain you're in and he wants you to SUCK IT UP, BUTTERCUP! Rub some grass on that knee and WALK IT OFF! All you need to get through anything is grit, determination, and Henry.\\n\\nLikes: Getting Back Up, Living To See Another Day, Band-Aids.\\nDislikes: Whiners, Cry-Babies, Soccer Players.\\nWarning: Repeated blows to the head with Hearty Henry may cause brain damage."
+        1 string data = "怪我した?内出血があると思う?膝をすりむいた?元気なヘンリーが気分を良くしてくれる!どれだけ痛いか彼は知ってるし、お前に我慢しろって言いたいんだ!膝に草をこすりつけて歩き続けろ!何でも乗り越えるのに必要なのは根性と決意とヘンリーだけだ。\\n\\n好きなもの: 立ち上がること、翌日まで生きること、絆創膏。\\n嫌いなもの: 泣き言を言う奴、泣き虫、サッカー選手。\\n警告: 元気なヘンリーで頭を繰り返し殴ると脳損傷を引き起こす可能性があります。"
        [47]
-        1 string data = "Hello, kids. Are you hungry? Maneater Maury sure is, and he says you look DELICIOUS! But don't worry about Maury eating you, he just needs your help to find someone more delectable. That way, he can devour them right alongside you. After all, sharing is caring, and Maury can only eat so much. He's got to be full eventually... We hope...\\n\\nLikes: Femur Meat, Fried Skin, Head Cheese.\\nDislikes: Rot, Maggots, Empty Plates.\\nWarning: Do not bring Maury to birthday parties of people you like."
+        1 string data = "やあ、子供たち。お腹空いてる?人食いモーリーは確実に空いてるし、君はおいしそうだって言ってる!でもモーリーに食べられる心配はいらない。彼はただ、もっとおいしそうな人を見つける手伝いが必要なだけだ。そうすれば、君と一緒にその人を食べられる。だって、分かち合うことは思いやること。モーリーはそんなに食べられないからね。いつかは満腹になるはず...多分...\\n\\n好きなもの: 大腿骨の肉、揚げた皮膚、ヘッドチーズ。\\n嫌いなもの: 腐敗、ウジ、空の皿。\\n警告: 好きな人の誕生日パーティーにモーリーを連れて行かないでください。"
        [48]
-        1 string data = "Hey, hey, hey, hey, hey, hey, kid! Come here. Look at this doll. It's Hyper Heather! She's gonna make your world spin in new and exciting ways! Look over there, is that a bug? Check out that tree, its leaves are falling! Is that cloud actually a UFO coming to take you away? Hahaha! No! It's not, that'd be silly! Look a car! You can't be caught unaware with Heather in your hair! Nukes!!!\\n\\nLikes: Coffee, Coffee, Coffeeeeee!\\nDislikes: Sleep, Rest, Napping.\\nWarning: Keep Hyper Heather away from your parents' drug cabinet!"
+        1 string data = "ねえ、ねえ、ねえ、ねえ、ねえ、ねえ、君!こっちおいで。この人形を見て。ハイパー・ヘザーだよ!彼女は君の世界を新しくて刺激的な方法で回転させる!あそこを見て、あれは虫?あの木を見て、葉っぱが落ちてる!あの雲って実際にはUFOで君を連れ去りに来てる?ハハハ!違う!そんなわけないよ、バカみたい!車を見て!ヘザーが髪にいれば、油断することはない!核兵器!!!\\n\\n好きなもの: コーヒー、コーヒー、コーヒーーーー!\\n嫌いなもの: 睡眠、休息、昼寝。\\n警告: ハイパー・ヘザーを両親の薬棚から遠ざけてください!"
        [49]
-        1 string data = "Did you hear that? No? Then you might already be dead. Nervous Nancy heard it and she's going to help keep you alive! Nancy knows when the government is hunting you for horrible experiments. Nancy knows when the clowns are most likely to rise up and strike (it's when you're sleeping). Nancy even knows that your parents are planning to sell you when the circus comes to town. Nancy can help you... Cause Nancy knows...\\n\\nLikes: Tripwires, Tinfoil, Underground Bunkers.\\nDislikes: Shadows, Bumps In The Night, Clowns.\\nWarning: Keep Nervous Nancy nearby at all times or the clowns will eat you."
+        1 string data = "今の聞こえた?聞こえない?じゃあもう死んでるかも。神経質なナンシーは聞こえたし、君を生かし続けるのを手伝ってくれる!ナンシーは政府が恐ろしい実験のために君を狩っているときを知ってる。ナンシーはピエロが蜂起して攻撃する可能性が最も高いとき(君が寝ているとき)を知ってる。ナンシーは両親がサーカスが町に来たときに君を売る計画をしていることさえ知ってる。ナンシーは君を助けられる...だってナンシーは知ってるから...\\n\\n好きなもの: トリップワイヤー、アルミホイル、地下バンカー。\\n嫌いなもの: 影、夜中の物音、ピエロ。\\n警告: 神経質なナンシーを常に近くに置いてください。さもないとピエロに食べられます。"
        [50]
-        1 string data = "Bullies at school won't leave you alone? Angry Aaron is here to remind you that rage takes the pain away! Not to mention, his soft, stuffed body makes great padding against sticks and stones!\\n\\nLikes: Turning Agony into Anger, Covering Your Back, Taking The Hit.\\nDislikes: Jerks, Bullies, Puns.\\nWarning: Never leave Aaron behind, he can only protect you if he's with you!"
+        1 string data = "学校のいじめっ子が放っておいてくれない?怒りんぼアーロンが、怒りが痛みを消してくれることを思い出させてくれる!それに、彼の柔らかい詰め物の体は、棒や石に対する素晴らしいパッドになる!\\n\\n好きなもの: 苦痛を怒りに変える、背中を守る、一撃を受ける。\\n嫌いなもの: 嫌な奴、いじめっ子、駄洒落。\\n警告: アーロンを置いていかないで。彼は一緒にいるときだけ君を守れる!"
        [51]
         1 string data = "Zen Zoey asks: "Is the doll before you, inside or outside of your mind? If it is inside, you must have it. If it is outside, you must hold it. If you hold it, you have it." When you know the doll is yours, Zen Zoey was always in your heart.\\n\\nLikes: Mind, Soul, Body As One.\\nDislikes: Nothing.\\nWarning: If Zen Zoey disappears, do not worry, the doll has ascended to a higher plane."
        [52]
-        1 string data = "Don't lock your emotions away inside, let the anger flow with Ferocious Francesca! Did that stupid kid at school laugh at you? PUNCH THEM IN THE FACE! Did your dad take your favorite toy away? KICK HIM IN THE BALLS! Don't get mad, get FURIOUS with Ferocious Francesca!\\n\\nLikes: Hitting, Kicking, and BODY SLAMS!\\nDislikes: Talking, De-escalation, Reasonable People.\\nWarning: OW OW OW! STOP PUNCHING ME!!!"
+        1 string data = "感情を内に閉じ込めないで、獰猛なフランチェスカと怒りを解き放て!学校のバカなガキに笑われた?顔面を殴れ!パパがお気に入りのおもちゃを取り上げた?金玉を蹴れ!怒るな、獰猛なフランチェスカと一緒に激怒しろ!\\n\\n好きなもの: 殴る、蹴る、ボディスラム!\\n嫌いなもの: 話し合い、事態の鎮静化、理性的な人々。\\n警告: 痛い痛い痛い!殴るのやめて!!!"
        [53]
-        1 string data = "Enjoy the tingle of the electrical socket, but not the ensuing dehydration? Love high voltage wires but not the frizzy hair? Bring Electric Emmet with you to partially stem the flow and make those vicious volts more livable! Trust us, you'll be ex-static!\\n\\nLikes: Plugs, hertz, forks.\\nDislikes: Rubber, Grounding, Resistance.\\nWarning: Do not bring Electric Emmett for showers or baths!"
+        1 string data = "電気ソケットのピリピリ感は楽しいけど、その後の脱水症状は嫌?高圧電線は好きだけど、縮れ毛は嫌?エレクトリック・エメットを連れて行って、流れを部分的に抑えて、その凶悪なボルトをもっと生きやすくしよう!信じて、君は静電気になる!\\n\\n好きなもの: プラグ、ヘルツ、フォーク。\\n嫌いなもの: ゴム、接地、抵抗。\\n警告: エレクトリック・エメットをシャワーやお風呂に連れて行かないでください!"
        [54]
-        1 string data = "Is that bum's gaze making you irate? Don't wait, eviscerate! School bully coming your way? Don't delay, stab away! Is that a cop knocking at your door? Shoot first, they'll hit the floor! With Quick Quaid you're always the winner by default!\\n\\nLikes: Briefs, Fast Food, Snappy Quips.\\nDislikes: Lines, Turtles, Old People.\\nWarning: Quick Quaid can result in dead friends."
+        1 string data = "あの浮浪者の視線にイライラする?待つな、内臓を引き出せ!学校のいじめっ子が向かってくる?遅延するな、刺せ!ドアをノックしてるのは警官?先に撃て、奴らは床に倒れる!クイック・クエイドと一緒なら、常にデフォルトで勝者だ!\\n\\n好きなもの: ブリーフ、ファストフード、小気味いい皮肉。\\n嫌いなもの: 列、カメ、老人。\\n警告: クイック・クエイドは友達が死ぬ結果になる可能性があります。"
        [55]
-        1 string data = "Worried about the future of the human species, kids? So is Purist Patty! She's here to make sure none of those dangerous mutations from future nuclear attacks ever make it into the human genome! Together, you can wipe away the disgusting plague of green skin and multi-appendaged monster people so we can keep our DNA pure!\\n\\nLikes: Cleanliness, Milk, Immaculacy.\\nDislikes: Microwaves, Nuclear Energy, Barbecues.\\nWarning: Keep Purist Patty away from public barbecues, swimming pools, and shopping malls!"
+        1 string data = "人類の未来を心配してる、子供たち?純粋主義者パティもそうだよ!彼女は将来の核攻撃による危険な突然変異が人間のゲノムに入り込まないようにするためにここにいる!一緒に、緑の肌と多肢のモンスター人間の嫌悪すべき疫病を一掃して、DNAを純粋に保とう!\\n\\n好きなもの: 清潔さ、ミルク、無垢。\\n嫌いなもの: 電子レンジ、原子力、バーベキュー。\\n警告: 純粋主義者パティを公共のバーベキュー、プール、ショッピングモールから遠ざけてください!"
        [56]
         1 string data = ""I pray the three of you can see through your paranoia.\\n\\n They're machines. If they wanted us dead, we'd already be dead.\\n\\n Dianne and I are leaving. We heard there are some survivors congregating in Denver. The 'bots have given us supplies for the trip. If you ask, they'll help you, too. Even if you want to stay.\\nWe've left you a week's supply of rations. I swear that this food is <i>safe.</i> Please, eat it before you starve. \\n\\n Think about it.""
        [57]
-        1 string data = "Captain,\\nYou and your men have retained, on behalf of Mr. Buchanan, and hold in your custody a pair of eastern plains warlords. Mr. Buchanan wants these warlords to remain under lock and key until further notice, and he has authorized continued payments to be delivered to you as long as his wish is carried out.\\nYou should be advised that you are guarding two of the most dangerous individuals in the nation of Colorado. Ironclad Cordite rose up through the ranks of the Scar Collectors, no easy feat for anyone to accomplish and still keep most of their organs inside of their body. The man is a fanatic for himself, totally convinced of his own grand destiny to rule all of creation, and he is willing to do anything to anyone to see that come true.\\nClouds-Drifting-West led a whole pack of fanatics as head of the Godfishers. Those zealots are so crazy they think that his survival has defied the will of their gods. His replacement, the new leader of the Godfishers, Star-That-Dreams, is reportedly dead-set on finding him so that he can appease those gods by killing Clouds. Be on the look out for them, and don’t let word you’re holding Clouds spread.\\nFinally, and just as important to remember, NO ONE is to question or otherwise interrogate Cordite or Clouds-Drifting-West except for Mr. Buchanan himself. You and your men are instructed to keep them well fed and in fair shape, and that is all. There is no need for conversing with either of them.\\nYour next payment will follow on schedule as before.\\n\\nOne Nation. One Father.\\nSigned,\\nThe Patriarch (dictated, not read, to Diligent Joe)"
+        1 string data = "大尉殿、\\nあなたとあなたの部下は、ブキャナン氏の代理として、東部平原の軍閥のペアを拘留し、保管している。ブキャナン氏は、追って通知があるまでこれらの軍閥を厳重に監禁し続けることを望んでおり、彼の希望が実行される限り、引き続き支払いを届けることを許可している。\\nあなたはコロラド国で最も危険な二人の人物を警護していることを知っておくべきだ。アイアンクラッド・コーダイトはスカー・コレクターズの階級を上り詰めた。誰にとっても、体内に臓器のほとんどを保ちながら達成するのは容易な偉業ではない。この男は自分自身の狂信者であり、全創造物を支配する自分の壮大な運命を完全に確信しており、それを実現するために誰に対しても何でもする用意がある。\\nクラウズ・ドリフティング・ウェストはゴッドフィッシャーズの長として、狂信者の集団全体を率いていた。あの狂信者たちは、彼の生存が神々の意志に反していると考えるほど狂っている。彼の後任、ゴッドフィッシャーズの新しい指導者スター・ザット・ドリームズは、クラウズを殺すことで神々を宥めるために、彼を見つけることに執心していると報告されている。彼らに警戒し、クラウズを拘留していることを広めるな。\\n最後に、同じく重要なこととして、ブキャナン氏本人を除いて、誰もコーダイトやクラウズ・ドリフティング・ウェストに質問したり尋問したりしてはならない。あなたとあなたの部下は、彼らに十分な食事を与え、良好な状態を保つよう指示されている。それだけだ。どちらとも会話する必要はない。\\n次の支払いは以前と同じスケジュールで続く。\\n\\n一つの国家。一人の父。\\n署名、\\nパトリアーク(口述、読んでいない、勤勉なジョーへ)"
        [58]
-        1 string data = "MASHERS!\\n\\nFor years you've all been bitching that this place is getting too cramped. Your leaders listened! We took a new nest from a bunch of little lambs, just ready for the slaughter. They thought of their holding as only a place of safety and hiding. But the wolf can see it for what it truly is - a den, a fort, a castle from which we can spread fear to lambs all across Colorado. Awoooo!!\\n\\nThis place needs to be cleared out within the week. Tell your fellow Mashers. We're turning the security system back on and even the dumbest of you fuckers knows what that means: get the fuck out. The AI on these bots has been busted for years and we have no way to make it tell friend from foe, so anyone dumb enough to enter our old homestead will be splattered.\\n\\nTo any lamb that got their hands on this note: if you've got the balls you're welcome to find us in our new home, THE BIZARRE. Awwwoooo!"
+        1 string data = "マッシャーズ!\\n\\n何年もお前らはこの場所が狭くなりすぎてると文句を言ってきた。指導者たちは聞いた!俺たちは小さな子羊の群れから新しい巣を奪った。ちょうど屠殺の準備ができている。奴らは自分たちの拠点を安全と隠れ場所だけだと思っていた。しかし狼には本当の姿が見える - コロラド中の子羊に恐怖を広げることができる巣窟、要塞、城だ。アウーーー!!\\n\\nこの場所は一週間以内に片付けなければならない。仲間のマッシャーズに伝えろ。セキュリティシステムを再び起動する。お前らのうち最もバカな奴でさえ、それが何を意味するか知っている:失せろ。これらのボットのAIは何年も壊れており、敵味方を区別させる方法はない。だから俺たちの古い屋敷に入るほどバカな奴は、みな粉砕される。\\n\\nこのメモを手にした子羊へ:度胸があるなら、俺たちの新しい家、ビザールに来い。アウーーーー!"
        [59]
-        1 string data = "She's eating everyone!"
+        1 string data = "彼女はみんなを食べている!"
        [60]
-        1 string data = "Congratulations, Ranger, you found the hidden time capsule!\\n\\nWhen we began development on Wasteland 3, we said that we'd be hiding a special time capsule in an in-game location, and the first person to find it would be eligible to receive a special prize. Finding this message is proof that you found the time capsule, not to mention proof of your gaming skill!\\n\\nTo let us know that you found the time capsule, please take a photo or screenshot of this screen, right this second, with this letter showing, and email it to wastelandcommunity@inxile.net. We'll then randomly select a winner from all the screenshots we receive (check out our website for full contest details and entry requirements).\\n\\nGreat job finding it, and thanks for playing Wasteland 3!\\n\\nThank you,\\nBrian Fargo\\ninXile Studio Head"
+        1 string data = "おめでとう、レンジャー。隠されたタイムカプセルを見つけた!\\n\\nWasteland 3の開発を始めたとき、ゲーム内の場所に特別なタイムカプセルを隠し、最初に見つけた人が特別な賞品を受け取る資格があると言った。このメッセージを見つけたことは、タイムカプセルを見つけた証拠であり、ゲームスキルの証拠でもある!\\n\\nタイムカプセルを見つけたことを知らせるには、この画面の写真またはスクリーンショットを、この手紙が表示された状態で、今すぐ撮影して、wastelandcommunity@inxile.netにメールしてください。受け取ったすべてのスクリーンショットからランダムに勝者を選びます(完全なコンテストの詳細とエントリー要件についてはウェブサイトをご覧ください)。\\n\\nよく見つけた。Wasteland 3をプレイしてくれてありがとう!\\n\\nありがとう、\\nBrian Fargo\\ninXile Studio Head"
        [61]
-        1 string data = "Llewellyn, this place is a shithole. I want you to clean up your station AND the inside of the vault before the Patriarch's visit next week. Also, take an inventory of all the weapons and armor in there so we have it on hand in case he asks, and while you're at it, give his golden hammer a polish too. If he peeks his head in, we want him to see that thing shining like a sunny day!"
+        1 string data = "ルウェリン、ここは最悪な場所だ。来週のパトリアークの訪問前に、お前のステーションと保管庫の内部を掃除しろ。また、万が一彼が尋ねた場合に備えて、中のすべての武器と防具の在庫を取れ。ついでに、彼の黄金のハンマーも磨いておけ。彼が頭を覗かせたとき、晴れた日のように輝いているのを見せたい!"
        [62]
-        1 string data = "O Redd-of-Blood \n\nThough its roots rot in the dry dirt, the desert weed continues to spread \nIt has sprouted on the fetid coast, and now stretches north \nEver searching for new earth to infest \nThus, you are called upon and anointed \nYour bones fortified, your veins filled with fire, your flesh wrapped in the armor of faith \nHurt the Star, o Redd-of-Blood \nTeach the weeds to keep to their own garden \nShow them they were right to molder in their prison all those years"
+        1 string data = "おお、レッド・オブ・ブラッドよ\\n\\nその根は乾いた土で腐っても、砂漠の雑草は広がり続ける\\n悪臭を放つ海岸に芽を出し、今や北へと伸びる\\n常に新しい大地を求め、寄生する\\nゆえに、汝は召喚され、聖別される\\n汝の骨は強化され、汝の血管は火で満たされ、汝の肉は信仰の鎧で包まれる\\nスターを傷つけよ、おお、レッド・オブ・ブラッドよ\\n雑草に自分の庭に留まることを教えよ\\n彼らが長年牢獄で朽ちるのが正しかったことを示せ"
        [63]
-        1 string data = "Australian Rules Board Game\\n\\nRule 1 - No board needed. Just carve some squares into the fucking table.\\nRule 2 - No pieces needed. Use some fucking bottle caps.\\nRule 3 - Move some of the bottle caps around on the fucking squares.\\nRule 4 - If any fucking bottle caps fall off the table, drink!\\nRule 5 - If no fucking bottle caps fall off the table, drink!\\nRule 6 - There is no fucking rule 6!\\nRule 7 - If anyone questions these rules, fucking make them drink!\\nRule 8 - Last drinker standing fucking drinks!"
+        1 string data = "オーストラリアン・ルールズ・ボードゲーム\\n\\nルール1 - ボードは不要。くそったれのテーブルにいくつかマス目を彫るだけ。\\nルール2 - 駒は不要。くそったれの瓶の蓋を使え。\\nルール3 - くそったれのマス目の上で瓶の蓋をいくつか動かせ。\\nルール4 - くそったれの瓶の蓋がテーブルから落ちたら、飲め!\\nルール5 - くそったれの瓶の蓋がテーブルから落ちなかったら、飲め!\\nルール6 - くそったれのルール6はない!\\nルール7 - 誰かがこれらのルールに疑問を持ったら、くそったれに飲ませろ!\\nルール8 - 最後まで飲んで立ってる奴がくそったれに飲む!"
        [64]
-        1 string data = "Brandi - Monday: I can't believe Troy! What a loser! That was totally inappropriate! I'm never talking to him again! Well, except to break up with him. <i>Then</i> I'm never talking to him.\\n\\nTroy - Tuesday: What the frick was that about? Brandi just broke up with me and for why? Maybe it's 'cause my pass got intercepted  during the Mashers game last week. Well, things are gonna be different when we play the Denver High All Americans. She'll see what she's missing!\\n\\nBrandi - Wednesday: I totally ignored Troy at practice today, and he didn't even notice!\\n\\nTroy - Thursday: Another ten yards on my pass, bro! Those hicks will never stop me!\\n\\nBrandi - Friday: How is Troy supposed to know I'm not talking to him if he doesn't talk to <i>me</i>!\\n\\nTroy - Saturday: Who's the MVP of the big game? That's right, this guy! Five completions, no interceptions. Let's see Brandi ignore that!\\n\\nBrandi - Sunday: I'm back with Troy. I couldn't let the other girls have him, could I? They were practically throwing themselves at him after the big game. So I forgave him for giving me a hickey right before church last week, and we kissed and made up. Except - he gave me another hickey right before church! Ewww! I'm totally breaking up with him!\\n"
+        1 string data = "ブランディ - 月曜日: トロイが信じられない!なんて負け犬!完全に不適切だった!二度と話さない!まあ、別れを告げるのは別だけど。<i>それから</i>二度と話さない。\\n\\nトロイ - 火曜日: 一体何だったんだ?ブランディが俺と別れた。なぜ?先週のマッシャーズの試合でパスがインターセプトされたからかな。まあ、デンバー高校オールアメリカンズと対戦するときは違うだろう。彼女は何を逃してるか分かるだろう!\\n\\nブランディ - 水曜日: 今日の練習でトロイを完全に無視した。彼は気づきもしなかった!\\n\\nトロイ - 木曜日: パスがさらに10ヤード伸びた、兄弟!あの田舎者たちは俺を止められない!\\n\\nブランディ - 金曜日: 彼が<i>私</i>に話しかけなかったら、私が話してないってトロイはどうやって知るの!\\n\\nトロイ - 土曜日: ビッグゲームのMVPは誰だ?そう、この男だ!5つのパス成功、インターセプトなし。ブランディがそれを無視するか見てみよう!\\n\\nブランディ - 日曜日: トロイとよりを戻した。他の女の子に彼を取られるわけにはいかないでしょ?ビッグゲームの後、彼女たちは文字通り彼に身を投げてた。だから先週、教会の直前にキスマークをつけられたことを許して、キスして仲直りした。でも - また教会の直前にキスマークをつけられた!うわー!完全に別れる!\\n"
        [65]
         1 string data = "With his mighty hammer, Saul caved in the skull of the last masher sentry, then crouched toward the rusty quoset hut where it huddled under a thick blanket of snow. A Monster Army raiding party had been using this old junkyard as a hideout, and the locals had called Saul for a rescue. Mission almost accomplished. There was just the leader left - the savage killer known as Krankenstein.\\n\\nSaul edged open the door and looked into the dark interior. Silhouetted in the red light of an electric heater sat a hulking shirt-less form, one big hand stitching closed a wound on its massive shoulder. "Buchanan," rumbled a deep voice. "Been expecting you."\\n\\nThe masher cut the thread with a bowie knife and stood. He was huge - nearly seven feet tall and rippling with muscle, all crisscrossed with scars, and had a face like a granite statue. He was also entirely naked.\\n \\n"Impressive," said Saul, as he sized up the man-beast's stitched and sutured manhood. "Looks they don't call you Krankenstein for nothing."\\n\\n"They say the Patriarch's the biggest man in Colorado," said Krankenstein. "I don't believe it. Show me what you got."\\n\\n"I'm not the Patriarch," Said Saul, unzipping his fly. "<i>This</i> is the Patriarch.""
    [1676]
