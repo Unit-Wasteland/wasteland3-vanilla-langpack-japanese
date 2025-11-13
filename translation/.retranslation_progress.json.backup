@@ -18,15 +18,15 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 48740,
-      "entries_untranslated_real": 10649,
-      "entries_kept_english": 42331,
-      "completion_rate": 28.7,
-      "current_line": 414325,
+      "entries_translated": 48815,
+      "entries_untranslated_real": 10574,
+      "entries_kept_english": 42282,
+      "completion_rate": 28.8,
+      "current_line": 415470,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 367: 152 new Japanese translations (L414022-414324). Test quest dialogue section (testquestjko2_nancy): NPC interactions, healing system tests, item management, XP distribution, faction hostility settings, spawning mechanics, damage tests, status effects, interactables, cutscene triggers, perception checks, tutorial triggers, animation tests, multiplayer host/client checks. [Global: test_moneyGlobal1] markers preserved. Glossary compliance: Rangers translated. All quote counts match source exactly. Zero action markers in section. Zero technical term violations. Dual validation passed (Structure: 0 errors, Quality: 0 issues). Spanish reference all empty, entries translated per unified decision logic.",
-      "entries_completed": 48740
+      "note": "Session 369: 49 new Japanese translations (L415374-415470). wl3_cyoa_promo section: Li-Tsing and William origin story, post-Wasteland 2 narrative (Cochise AI aftermath, synth attacks, Lydia death, Desert Rangers recruitment, choice-driven storyline). Character names: Li-Tsing, William, Lydia, Dusty, Marie (glossary), Perdido, Cochise kept romanized. Quote format: All entries maintain exact quote counts with English source. Zero action markers. Glossary compliance: Marie as glossary term, Rangers translated. Dual validation passed (Structure: 0 errors, Quality: 0 issues L415374-415470). Spanish reference all empty, all entries translated per unified decision logic.",
+      "entries_completed": 48815
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -59,21 +59,21 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "7f1a72b",
-  "last_commit_message": "Base game translation: Session 367 - Test quest dialogue section (testquestjko2_nancy, 152 entries)",
+  "last_commit_hash": "4554ef0",
+  "last_commit_message": "Base game translation: Session 369 - wl3_cyoa_promo origin story (Li-Tsing, William, 49 entries)",
   "validation_date": "2025-11-13",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
-  "analysis_session": 367,
+  "analysis_session": 369,
   "analysis_findings": {
-    "new_translations": "Session 367: 152 new Japanese translations (L414022-414324). Test quest dialogue section (testquestjko2_nancy): comprehensive game mechanics testing including NPC greeting/farewell dialogues, healing system (single/full/conversation-wide), item management (give/remove/check possession), XP distribution (listener/party/PCs in conv), faction system (mob/faction hostility/neutral/faction-to-faction), spawning mechanics (despawn/respawn), damage/kill character tests, status effects application (PC listener/PCs in conv/party), interactables (interact/unlock/power/alarm/trap/perceive hidden), cutscene triggers, perception checks (all in conv/gated responses), doctor heal, tutorial triggers, animation one-offs, multiplayer host/client detection. Character names: Harlick, Jim-Bob (test characters). [Global: test_moneyGlobal1] markers preserved per structure protection rules.",
-    "action_marker_protection": "No action markers present in this section. Quality validation confirmed 0 action markers contain Japanese characters in translated range L414022-414321.",
-    "quote_format_handling": "All quote counts match source exactly (152 entries). All [Global: XXX] markers preserved unchanged. No technical terms violated. No HTML tags present. Escape sequences: backslash-n, backslash-r-backslash-n maintained in text formatting. Glossary compliance: Rangers correctly translated. All empty Spanish reference entries translated to Japanese per unified decision logic default behavior.",
-    "quality_validation": "Dual validation passed. Structure: 0 errors - all 169,712 entries maintain exact quote count match with English source. Quality: 0 issues L414022-414321 - 0 action markers contain Japanese characters, 0 untranslated English entries in translated range, 0 bracket content translated to Japanese, 0 glossary terminology violations. Zero warnings."
+    "new_translations": "Session 369: 49 new Japanese translations (L415374-415470). wl3_cyoa_promo section: Li-Tsing and William origin story, post-Wasteland 2 narrative. Covers: Cochise AI destruction aftermath, synth attacks, Lydia death scene, raider encounters, Desert Rangers recruitment broadcast, choice-driven storyline branches. First 49 entries of 160-entry section completed.",
+    "action_marker_protection": "No action markers present in this section. Quality validation confirmed 0 action markers contain Japanese characters in translated range L415374-415470.",
+    "quote_format_handling": "Quote format maintained strictly. All entries maintain exact quote count match with English source (49 entries). Character dialogue quotes preserved as double-quote characters. Escape sequences (newline, carriage return) maintained in narrative text. Character names: Li-Tsing, William, Lydia, Dusty, Perdido, Cochise kept romanized. Marie used glossary term. Rangers, Desert Rangers, Arizona, Diamond Back Militia translated to Japanese.",
+    "quality_validation": "Dual validation passed. Structure: 0 errors - all 169,712 entries maintain exact quote count match with English source. Quality: 0 issues L415374-415470 - 0 action markers contain Japanese characters, 0 untranslated English entries in translated range, 0 bracket content translated to Japanese, 0 glossary terminology violations. Spanish reference entries all empty, unified decision logic applied (default to translate). Zero warnings."
   },
-  "total_entries_completed": 57849,
+  "total_entries_completed": 57924,
   "total_entries": 232418,
-  "total_entries_untranslated": 174569,
+  "total_entries_untranslated": 174494,
   "overall_completion_rate": 24.9,
-  "next_action": "Continue sequential translation from line 414325. Next section: character origin story (Li-Tsing and William backstory, ~54 entries L415380-415479). Focus on narrative dialogue while preserving character names (Li-Tsing, William, Lydia, Dusty, Marie, Perdido), location names (Arizona), faction names (Desert Rangers, Diamond Back Militia), enemy names (Cochise, synth terminology), and all structural markers."
+  "next_action": "Continue sequential translation from line 415470. Next: wl3_cyoa_promo continuation (entries 49-159, 111 remaining entries). Complete Li-Tsing and William origin story narrative branches. Focus on preserving character names, conversation quotes as double-quote characters, and all structural markers."
 }
