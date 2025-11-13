@@ -18,15 +18,15 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 50516,
-      "entries_untranslated_real": 9031,
-      "entries_kept_english": 42425,
-      "completion_rate": 29.8,
-      "current_line": 427195,
+      "entries_translated": 50746,
+      "entries_untranslated_real": 8801,
+      "entries_kept_english": 42439,
+      "completion_rate": 29.9,
+      "current_line": 428971,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 384 complete: 160 new Japanese translations (L426461-427194). Five sections complete: x3801_bbq_minibossintro [25]-[163] (124 entries - Boss Giff cannibal jamboree main dialogue, deserter hunt quest, El Guapo mechanical bull encounter), x3801_entranceambush (13 entries - BBQ entrance guard dialogue), x3801_radio_cannibaljamboree (3 entries - distress call about cannibals), x3901_gasmaskkids (7 entries - mysterious masked children encounter), x4101_dorseypatrolbarks (13 entries - Dorsey patrol cold weather dialogue). Content: Complete Boss Giff BBQ encounter with five missing persons quest (Alfredo Garcia Earline Darryl brothers Larry), El Guapo bull ride challenge reward pitmaster suit, Fishlips companion moral conflict over baby-eating, entrance guard cannibal dialogue, radio distress broadcast, gas mask children investigation, Dorsey guard patrol banter. Technical: ::country western music:: action markers preserved in English, Script Node 13 132 139 185-187 kept in English, [Attack] [Leave area] [Reward: Dropset:] tags preserved, quote format exact match maintained, character names Rollan Giff Alfredo Earline Darryl Larry consistent per glossary, location Colorado Springs preserved. Dual validation passed (Structure: 0 errors across all 169,712 entries, Quality: 0 issues - 0 action markers translated, 0 untranslated English, 0 bracket content translated, 0 glossary violations).",
-      "entries_completed": 50516
+      "note": "Session 386 part 1 complete: 101 new Japanese translations (L428376-428968). Six sections complete: x4501_rancherleader completion (49 entries [37]-[85] - ranch defense conclusion, bison quest completion, vermin clearing, rancher back entrance dialogue), x4501_rancherleaderradiocall (2 entries - post-combat radio), x4501_rancherplea (5 entries - rancher betrayal barks), x4501_scarcollectorleader (35 entries - Scar Collector negotiations, bison demands, rancher extermination proposal, multiple paths, hostile dialogue; 13 dev messages kept English), x4501_scarcollectorsambient (7 entries - Scar Collector idle chatter, Cordite references), x4501_scarfodderbarks (3 entries - combat barks). Content: Knox Ranch quest conclusion with Scar Collector moral choice (trade bison, help exterminate ranchers, or fight Scar Collectors), hostile bandit negotiations, multiple resolution paths. Technical: [Attack] [Reward: [Dropset:]] tags preserved, Script Node 37 55 56 94 preserved, mixed 2-quote and 4-quote patterns validated, Kodiak Cordite Steel-Trap names per glossary. Dual validation passed (Structure: 0 errors across 169,712 entries, Quality: 0 issues L428376-428968 - 0 action markers, 0 untranslated, 0 bracket translation, 0 glossary violations).",
+      "entries_completed": 50746
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -59,21 +59,21 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "27ab026",
-  "last_commit_message": "Base game translation: Session 384 - Boss Giff BBQ complete + entrance guards + Dorsey patrols (160 entries)",
+  "last_commit_hash": "738ab03",
+  "last_commit_message": "Base game translation: Session 386 part 1 - Knox Ranch conclusion + Scar Collector dialogue (101 entries)",
   "validation_date": "2025-11-13",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
-  "analysis_session": 384,
+  "analysis_session": 386,
   "analysis_findings": {
-    "new_translations": "Session 384: 160 new Japanese translations (L426461-427194). Five sections complete: x3801_bbq_minibossintro [25]-[163] (124 entries), x3801_entranceambush (13 entries), x3801_radio_cannibaljamboree (3 entries), x3901_gasmaskkids (7 entries), x4101_dorseypatrolbarks (13 entries). Boss Giff cannibal BBQ complete with deserter quest, El Guapo bull ride, entrance guards, radio distress, masked children, Dorsey patrols.",
-    "action_marker_protection": "::country western music:: action markers preserved in English (2 instances in x3801_radio_cannibaljamboree). Quality validation confirmed 0 action markers contain Japanese characters.",
-    "quote_format_handling": "Exact quote count match strictly maintained across all 160 entries. 2-quote pattern for empty entries, 4-quote pattern for dialogue text. Script Node 13 132 139 185-187 kept in English. [Attack] [Leave area] [Reward: Dropset:] tags preserved. Technical markers ::country western music:: kept in English.",
-    "quality_validation": "Dual validation passed with zero errors. Structure: 0 errors - all 169,712 entries maintain exact quote count match with English source. Quality: 0 issues in translated ranges - 0 action markers translated, 0 untranslated English, 0 bracket content translated, 0 glossary violations."
+    "new_translations": "Session 386 part 1: 101 new Japanese translations (L428376-428968). Six sections: x4501_rancherleader completion (49 entries - Knox Ranch defense conclusion), x4501_rancherleaderradiocall (2 entries), x4501_rancherplea (5 entries - rancher betrayal barks), x4501_scarcollectorleader (35 entries - Scar Collector negotiations, multiple paths), x4501_scarcollectorsambient (7 entries), x4501_scarfodderbarks (3 entries). Knox Ranch quest completion with Scar Collector moral choice (trade bison, help exterminate ranchers, or fight).",
+    "action_marker_protection": "No action markers in this translation range. Quality validation confirmed 0 action markers contain Japanese characters.",
+    "quote_format_handling": "Complex quote patterns validated: Mixed 2-quote and 4-quote formats, 6-quote pattern with escape sequences (line 428390), [Attack] tag single-quote pattern (line 428408, 428756, 428832). All patterns match English source exactly. Script Node 37 55 56 94 preserved. [Attack] [Reward: [Dropset:]] tags maintained.",
+    "quality_validation": "Dual validation passed with zero errors. Structure: 0 errors - all 169,712 entries maintain exact quote count match. Quality: 0 issues L428376-428968 - 0 action markers translated, 0 untranslated English, 0 bracket content translated, 0 glossary violations. Dev messages correctly kept in English when Spanish reference empty."
   },
-  "total_entries_completed": 50516,
+  "total_entries_completed": 50746,
   "total_entries": 232418,
-  "total_entries_untranslated": 172951,
-  "overall_completion_rate": 21.7,
-  "next_action": "Continue sequential translation from line 427195. Next: x4101_neliusdorsey section (87 entries). Process Nelius Dorsey encounter dialogue with strict validation."
+  "total_entries_untranslated": 172543,
+  "overall_completion_rate": 21.8,
+  "next_action": "Continue sequential translation from line 428971. Next: y201_assistance_hills_refugees (24 entries) and y202_breakdown_hills_animals (17 entries). Random encounter dialogue for Hills region with refugee ambush and wildlife breakdown scenarios."
 }
