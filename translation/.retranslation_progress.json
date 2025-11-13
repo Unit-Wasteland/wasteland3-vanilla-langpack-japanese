@@ -18,15 +18,15 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 52978,
-      "entries_untranslated_real": 6626,
+      "entries_translated": 52996,
+      "entries_untranslated_real": 6608,
       "entries_kept_english": 42541,
       "completion_rate": 31.2,
-      "current_line": 449196,
+      "current_line": 449464,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 411 complete: 176 entries (L448198-449196). Sections: y_reusable_crates_tier3/4/5/6 (48 entries each - Higher tier crate encounters). Content: Crate variations (unlocked, locked, trapped), lockpicking and forced opening, booby trap disarming, toaster shrine encounters. Quote format: Mixed 2-quote and 4-quote preserved correctly. Dual validation passed (Structure: 0 errors, Quality: 0 issues).",
-      "entries_completed": 52978
+      "note": "Session 412 complete: 18 entries (L449197-449464). Sections: y_reusable_fire01 (13 entries - Ambush encounters), y_reusable_fire02 partial (5 entries - Arapaho mechanic encounters). Content: Vehicle ambushes by factions, Kodiak repair encounters. Quote format: 2-quote and 4-quote formats preserved correctly. Dual validation passed (Structure: 0 errors, Quality: 0 issues).",
+      "entries_completed": 52996
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -64,16 +64,16 @@
   "validation_date": "2025-11-13",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
-  "analysis_session": 411,
+  "analysis_session": 412,
   "analysis_findings": {
-    "new_translations": "Session 411: 176 entries (L448198-449196). Sections: y_reusable_crates_tier3/4/5/6 (48 entries each - higher tier crate encounters).",
+    "new_translations": "Session 412: 18 entries (L449197-449464). Sections: y_reusable_fire01 complete (13 entries), y_reusable_fire02 partial (5 entries).",
     "action_marker_protection": "No action markers in these sections. Validation passed.",
-    "quote_format_handling": "Mixed 2-quote and 4-quote formats preserved correctly.",
-    "quality_validation": "Dual validation passed. Structure: 0 errors. Quality: 0 issues - no action markers translated, no untranslated English, no glossary violations. Glossary term applied: Kodiak."
+    "quote_format_handling": "2-quote format for simple text, 4-quote format for dialogue preserved correctly.",
+    "quality_validation": "Dual validation passed. Structure: 0 errors. Quality: 0 issues."
   },
-  "total_entries_completed": 52978,
+  "total_entries_completed": 52996,
   "total_entries": 232418,
-  "total_entries_untranslated": 179440,
+  "total_entries_untranslated": 179422,
   "overall_completion_rate": 22.8,
-  "next_action": "Continue sequential translation from line 449197. Next: y_reusable_fire01 section (20 entries - Fire/campfire encounters)."
+  "next_action": "Continue sequential translation from line 449465. Next: y_reusable_fire02 continuation (23 entries remaining - Arapaho mechanic dialogue)."
 }
