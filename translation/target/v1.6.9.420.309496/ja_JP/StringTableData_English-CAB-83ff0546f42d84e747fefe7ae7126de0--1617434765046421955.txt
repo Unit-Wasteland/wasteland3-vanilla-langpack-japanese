@@ -424115,29 +424115,29 @@
        [10]
         1 string data = ""Ping to the Programmer!"\n\n\nA surge of power rattles through it's limbs, elecricity arcs across it's body. It's one working eye closes.\n\n\nThen nothing more."
        [11]
-        1 string data = "This scavenger is heavily damaged. It lies in a pool of leaking fluids, its power plant emitting a faint, stuttering whir. Its single, undamaged eye studies you as you approach, a faint glimmer of power flickering in its depths."
+        1 string data = "このスカベンジャーロボットは深刻な損傷を受けている。漏出する液体の中に横たわり、動力プラントはかすかに途切れがちな唸り声を発している。無傷の単眼が君たちの接近を注視し、その奥でかすかな力の煌めきが明滅している。"
        [12]
-        1 string data = "Attempt to repair the robot."
+        1 string data = "ロボットを修理してみる。"
        [13]
-        1 string data = "Leave the robot alone."
+        1 string data = "ロボットを放置する。"
        [14]
-        1 string data = "As you back away from the robot, its power plant stutters, then falls silent. A faint shudder passes through its chassis, and its remaining eye goes dark."
+        1 string data = "ロボットから離れると、動力プラントが音を立てて停止した。シャーシに微かな震えが走り、残された単眼が暗くなった。"
        [15]
-        1 string data = "Most of the robot's vital components are damaged beyond repair, and its power supply is on the verge of failure. If you move quickly you could try to repair the robot's voice box, or just strip it for parts instead."
+        1 string data = "ロボットの重要な部品のほとんどは修理不能なほど破損しており、動力供給も限界寸前だ。素早く動けば、ロボットの音声ボックスを修理できるかもしれないし、部品だけを回収することもできる。"
        [16]
-        1 string data = "Repair the robot's voice box."
+        1 string data = "ロボットの音声ボックスを修理する。"
        [17]
-        1 string data = "Strip the robot for spare parts."
+        1 string data = "ロボットを分解して予備部品を回収する。"
        [18]
-        1 string data = "Moving quickly, you gut the robot like a freshly-killed rat. Your coolant-stained hands pull out twisted lengths of cable, warm computer modules, and bits of circuit board."
+        1 string data = "素早く動き、君は殺したばかりのネズミを捌くようにロボットを解体した。冷却液で汚れた手が、捻れたケーブルや、温かいコンピュータモジュール、回路基板の断片を引き抜いた。"
        [19]
-        1 string data = "As you reconnect the voice box, its speaker lets out an agonized squawk. You smell burning plastic, and then the robot utters a few, tortured words."
+        1 string data = "音声ボックスを再接続すると、スピーカーから苦悶の悲鳴が漏れ出した。プラスチックが焼ける臭いがし、そしてロボットがいくつかの苦しげな言葉を発した。"
        [20]
-        1 string data = ""Meat... unit. Query... Null Stack. Null Stack... can help. Reclaim...""
+        1 string data = ""肉体...ユニット。照会...Null Stack。Null Stack...助力可能。回収...""
        [21]
-        1 string data = "A shudder wracks the robot's chassis. The whir of the power plant stutters and falls silent, and the robot's one eye goes dark."
+        1 string data = "震えがロボットのシャーシを襲った。動力プラントの唸り声が途切れ、沈黙した。ロボットの単眼が暗くなった。"
        [22]
-        1 string data = "The lifeless hulk of a scavenger robot lies on the frozen ground. Thin streams of coolant leak sluggishly from its battered carapace."
+        1 string data = "スカベンジャーロボットの生命なき残骸が凍てついた地面に横たわっている。冷却液の細い流れがその破損した外殻から緩慢に漏れ出している。"
    [1503]
     0 StringTable data
      1 string Filename = "x3701_bulb"
@@ -424567,211 +424567,211 @@
       1 Array Array (104 items)
        0 int size = 104
        [0]
-        1 string data = ""I'll be damned! You're here! You got my message!""
+        1 string data = ""なんてことだ!ここに来てくれたのか!メッセージを受け取ってくれたんだな!""
        [1]
-        1 string data = ""You take care o' them robots yet? Trudy an' me ain't gonna make it if we can't work that mine.""
+        1 string data = ""ロボットどもの始末はついたか?あの鉱山が使えないと、俺とトゥルーディーは生きていけないんだ。""
        [2]
-        1 string data = ""Forget somethin'?""
+        1 string data = ""何か忘れてないか?""
        [3]
-        1 string data = ""Sure am glad to see you folks! Yessir! We got us a gen-u-ine crisis here!""
+        1 string data = ""あんたたちに会えて嬉しいよ!本当だ!こっちは本物の危機に陥ってるんだ!""
        [4]
-        1 string data = ""The message we got said something about... martians?""
+        1 string data = ""受け取ったメッセージには...火星人のことが書いてあったが?""
        [5]
-        1 string data = ""Martians! Yessir! Well, martian robots, anyhow. Don't know what else they could be. They showed up right outta the blue, like they stepped off a flyin' saucer! I reckon the martians want my tellurium, so they sent their war machines ta jump my claim!""
+        1 string data = ""火星人だ!本当だとも!まあ、火星人のロボットなんだが。他に何だっていうんだ。奴らは突然現れたんだ、まるで空飛ぶ円盤から降りてきたみたいに!火星人どもが俺のテルルを狙ってるに違いない、だから戦闘マシンを送り込んで俺の鉱区を奪おうってんだ!""
        [6]
         1 string data = "Script Node 8"
        [7]
         1 string data = "Script Node 9"
        [8]
-        1 string data = ""What seems to be the problem?""
+        1 string data = ""何が問題なんだ?""
        [9]
-        1 string data = ""This here's my tellurium mine, y'see."
+        1 string data = ""ここは俺のテルル鉱山なんだよ。"
        [10]
-        1 string data = ""Folks around here call me Bulb, by the way. That's on account of the tellurium. Makes you stink like garlic. Don't much bother me, and Trudy don't seem to mind, if'n you know what I mean. Hee hee!""
+        1 string data = ""この辺りの連中は俺をバルブって呼んでる。テルルのせいでな。ニンニクみたいに臭くなるんだ。俺は気にしちゃいないし、トゥルーディーも気にしてないみたいだ、意味はわかるだろ?ヒヒヒ!""
        [11]
-        1 string data = ""Where was I? Oh yeah - the martians! Me an' Trudy was workin' at the mine, and all of a sudden these robots appeared! One of 'em was as big as a house! I could tell right off they weren't no scavengers. They was somethin' else!""
+        1 string data = ""どこまで話したっけ?ああそうだ、火星人だ!俺とトゥルーディーが鉱山で働いてたら、いきなりロボットどもが現れたんだ!そのうちの一体は家みたいにでかかった!奴らがスカベンジャーじゃないってすぐわかったよ。何か別のもんだった!""
        [12]
-        1 string data = ""Now I bet you're askin' yourself how an old prospector like Bulb would know the difference between a martian death machine and some old scavenger robot, am I right?"\r"
+        1 string data = ""バルブみたいな年寄り採掘者が、火星の殺人マシンと古ぼけたスカベンジャーロボットの違いをどうやって見分けられるのか、自問してるんだろうな、違うか?"\r"
        [13]
-        1 string data = ""I ain't seen Trudy for a while now, and I'm gettin worried. Can you do somethin' about these dang robots?""
+        1 string data = ""しばらくトゥルーディーを見てなくて、心配になってきたんだ。あのいまいましいロボットどもを何とかしてくれないか?""
        [14]
-        1 string data = ""What's tellurium?""
+        1 string data = ""テルルって何だ?""
        [15]
-        1 string data = ""Who's Trudy?""
+        1 string data = ""トゥルーディーって誰だ?""
        [16]
-        1 string data = ""You really do reek of garlic. Can't you do anything about the smell?""
+        1 string data = ""本当にニンニク臭いな。その匂いを何とかできないのか?""
        [17]
-        1 string data = ""Don't worry, Bulb. We'll take care of it.""
+        1 string data = ""心配するな、バルブ。俺たちがなんとかする。""
        [18]
-        1 string data = ""Glad ya asked! It's this mineral that's good fer makin' electronics an' such. Most of what we scrape out of the mine we send to the Patriarch. Most folks won't handle it 'cause it's toxic, but I ain't never had no problems with it." ::coughs::"
+        1 string data = ""聞いてくれて嬉しいよ!電子機器なんかを作るのに良い鉱物なんだ。鉱山から掘り出したものの大半は総主教に送ってる。毒性があるから、ほとんどの連中は扱いたがらないが、俺は一度も問題になったことはない。" ::coughs::"
        [19]
-        1 string data = ""Ain't you been listenin'? Trudy... well, she's my lady. Been with me through good times an' bad. She can be a real bitch sometimes, but I ain't the easiest feller ta live with either.""
+        1 string data = ""聞いてなかったのか?トゥルーディーは...まあ、俺の女だ。良い時も悪い時も一緒にいてくれた。時々本物のクソ女になることもあるが、俺だって一緒に暮らすのが楽な男じゃない。""
        [20]
-        1 string data = ""Fact is, not many folks can stand ta be around me, what with the smell an' all. Not her, though. No sir. Don't know what I'd do without her.""
+        1 string data = ""実を言うと、匂いとかそういうのがあって、俺の近くにいられる人間はそう多くない。でも彼女は違う。違うんだ。彼女なしでどうやって生きていけばいいのかわからない。""
        [21]
-        1 string data = ""They used ta call it 'tellurium breath' back in the day. Occupational hazard, I reckon. Been up here so long, I don't even notice. Trudy don't mind, so why should I?""
+        1 string data = ""昔は『テルル息』って呼ばれてたんだ。職業病ってやつだな。ここにいる時間が長すぎて、もう気づきもしない。トゥルーディーが気にしないなら、俺が気にする理由はないだろ?""
        [22]
-        1 string data = ""I knew you was good folks the minute I laid eyes on you! Yessir! The mine's just over that hill, yonder. Find Trudy and chase them dang robots off my claim!""
+        1 string data = ""あんたたちが良い連中だってのは一目見た瞬間からわかってたよ!本当だ!鉱山はあの丘の向こうにある。トゥルーディーを見つけて、あのいまいましいロボットどもを俺の鉱区から追い出してくれ!""
        [23]
-        1 string data = ""One more thing: if you find Trudy and she's, well... you know... I'd appreciate it if you'd bring her necklace back. There's some codes written on it that I need to run the mine. She kept 'em safe fer me.""
+        1 string data = ""もう一つある。もしトゥルーディーを見つけて、彼女が、まあ...わかるだろ...彼女のネックレスを持って帰ってきてくれないか。鉱山を運営するのに必要なコードが書いてあるんだ。彼女が俺のために安全に保管してくれてた。""
        [24]
-        1 string data = ""What's in it for us?""
+        1 string data = ""俺たちに何の得がある?""
        [25]
-        1 string data = "[Reward: [Dropset: DRP_x3701_BulbReward]] "Well... I got lots of books. 'Fore Trudy came around, that's how I passed my time. One of 'em you might find real interestin'. Make all kinda useful stuff with it. Yessir. You help me out, and it's yours.""
+        1 string data = "[Reward: [Dropset: DRP_x3701_BulbReward]] "まあ...本をたくさん持ってる。トゥルーディーが来る前は、それで時間を過ごしてたんだ。その中の一冊はあんたたちにとって本当に興味深いかもしれない。いろんな便利なものの作り方が載ってる。本当だ。俺を助けてくれたら、それをやるよ。""
        [26]
-        1 string data = ""We're working on it.""
+        1 string data = ""取り組んでるところだ。""
        [27]
-        1 string data = ""Yeah? Well, don't strain yerselves none.""
+        1 string data = ""そうかい?まあ、無理しないでくれよ。""
        [28]
-        1 string data = ""This used to be a gold mine, y'know, way back 'fore the bombs fell. When the mine got played out, the owners turned it into some kinda tourist trap.""
+        1 string data = ""ここは昔は金鉱だったんだ、爆弾が落ちる前の大昔にな。鉱山が枯渇したとき、所有者たちはここを観光客の罠みたいなものに変えたんだ。""
        [29]
-        1 string data = ""I came up here hopin' there might still be a little gold left, but found the tellurium instead. It ain't an easy life, but it keeps me an' Trudy fed.""
+        1 string data = ""まだ少しは金が残ってるかもしれないと期待してここに来たんだが、代わりにテルルを見つけた。楽な生活じゃないが、俺とトゥルーディーを養うには十分だ。""
        [30]
-        1 string data = ""Don't know what I'd do without the old girl, lemme tell ya.""
+        1 string data = ""あの年寄り娘なしでどうすればいいかわからないよ、本当に。""
        [31]
-        1 string data = ""Pals, you ain't no winter flowers yerselves." ::coughs::"
+        1 string data = ""なあ、あんたたちだってそんなにいい匂いじゃないぜ。" ::coughs::"
        [32]
-        1 string data = ""We're sorry, Bulb. Trudy... the dog... if it helps, we don't think she suffered any. We brought back her collar like you asked.""
+        1 string data = ""すまない、バルブ。トゥルーディー...犬のことだが...もし慰めになるなら、苦しまなかったと思う。頼まれた通り、首輪を持ってきた。""
        [33]
-        1 string data = ""Poor, old Trudy. Never hurt no one in her life. Not unless they were askin' her for it, anyhow. She was a sweet, good-hearted lady, and a hard worker. Yessir. I'm gonna miss her somethin' fierce.""
+        1 string data = ""可哀想な年寄りトゥルーディー。生涯誰も傷つけたことなんてなかった。求められない限りはな。彼女は優しくて心の良いお嬢さんで、働き者だった。本当だ。ひどく恋しくなるだろうな。""
        [34]
-        1 string data = ""Damn them robots. Each and every one. I sure hope you gave 'em hell fer old Trudy! You, ah... you did get 'em all, didn't you?""
+        1 string data = ""あのロボットどもを呪ってやる。一体残らずだ。年寄りトゥルーディーのために奴らに地獄を見せてやったと信じたいよ!あー...全部片付けたんだろうな?""
        [35]
-        1 string data = ""Let's just say that the mine's blocked by a whole lot of wreckage and leave it at that.""
+        1 string data = ""鉱山が大量の残骸で塞がれてるとだけ言っておこう。""
        [36]
-        1 string data = ""We got them all, but now the mine is blocked by wreckage.""
+        1 string data = ""全部片付けたが、今は鉱山が残骸で塞がれてる。""
        [37]
-        1 string data = ""Now I'm right back where I started. Some fuckin' help you turned out ta be! Best y'all clear outta here. I got work to do.""
+        1 string data = ""結局元の場所に戻っちまった。お前らは何の役にも立たなかったな!ここから出て行ってくれ。やるべきことがある。""
        [38]
-        1 string data = ""I promised you a reward, and I'm a man who keeps my word. Yessir. Here's the book I was tellin' you about. Got all kinda useful information in it. Hope it'll be of some use to ya.""
+        1 string data = ""報酬を約束したからな、俺は約束を守る男だ。本当だ。これが話してた本だ。いろんな役立つ情報が載ってる。役に立つといいんだが。""
        [39]
-        1 string data = ""We dealt with the robots, but there was no sign of Trudy anywhere. Just a dead dog.""
+        1 string data = ""ロボットどもを片付けたが、トゥルーディーの姿はどこにもなかった。ただ死んだ犬がいただけだ。""
        [40]
-        1 string data = ""Just a dead dog? <i>Just</i> a dead dog? That was my Trudy, you idiots! And you left her necklace up there too, didn't you? Didn't you listen to a single word I said?""
+        1 string data = ""ただの死んだ犬だと?<i>ただの</i>死んだ犬だと?あれは俺のトゥルーディーだぞ、この馬鹿どもが!それに、彼女のネックレスも上に置いてきたんだろう?俺の言ったことを一言も聞いてなかったのか?""
        [41]
-        1 string data = ""Y'all come back any time, y'hear? Be glad ta see ya!""
+        1 string data = ""いつでも戻って来いよ、聞こえるか?会えて嬉しいぞ!""
        [42]
-        1 string data = ""Ain't y'all a sight fer sore eyes! Does a lonely ol' prospector good to have some company now an' agin!""
+        1 string data = ""あんたたちは本当に目に優しい光景だ!孤独な年寄り採掘者にとって、時々仲間がいるのは良いものだ!""
        [43]
-        1 string data = ""You're fine folk. Yessir. Real salt of the earth, helpin' a poor, old miner out and askin' nothin' in return. Maybe there's some hope for this wasted world after all.""
+        1 string data = ""あんたたちは立派な連中だ。本当だ。大地の塩だ、何も求めずに貧しい年寄り鉱夫を助けてくれて。この荒廃した世界にもまだ希望があるかもしれないな。""
        [44]
-        1 string data = ""They all started fighting each other, probably over the tellurium. That's what I mine here. Did I mention that? I told Trudy to high tail it out. She was right in the middle of it all. I came running down and sent out a call for help. You got that message, eh? You don't look like the usual folks The Patriarch sends around to lend a hand.""
+        1 string data = ""奴ら全員が互いに戦い始めたんだ、おそらくテルルを巡ってな。俺がここで採掘してるものだ。言ったっけ?トゥルーディーに急いで逃げるように言ったんだ。彼女はその真っ只中にいた。俺は走って降りてきて助けを求めた。そのメッセージを受け取ったんだろう?あんたたちは総主教が手伝いによこす普通の連中には見えないが。""
        [45]
-        1 string data = ""You said you've dealt with scavengers before?""
+        1 string data = ""前にもスカベンジャーと取引したことがあるって言ったか?""
        [46]
-        1 string data = ""Oh yeah. Started a few years back, first one group an' then another. They'd roll in, tear things up, take whatever they could. Lately, though, it's been a different bunch. Got a leader name of... Nell Stack? Neil Stack? Somethin' like that.""
+        1 string data = ""ああそうだ。数年前に始まったんだ、最初は一つのグループ、それから別のグループ。奴らは乗り込んできて、めちゃくちゃにして、取れるものは何でも奪っていった。でも最近は違う連中だ。リーダーの名前は...ネル・スタック?ニール・スタック?そんな感じだ。""
        [47]
-        1 string data = ""Yep. Here we are, minding our lonesome, working hard like proper folk do, and not one, but two... TWO packs of robots come in on the same damn day! Ain't that just the dirt in the grease!""
+        1 string data = ""そうなんだ。俺たちはここで静かに過ごして、まっとうな人間のように一生懸命働いてるのに、一つじゃなくて二つ...二つのロボット集団が同じ日にやってくるんだ!油に入った泥みたいなもんだろう!""
        [48]
-        1 string data = ""Who's Trudy?""
+        1 string data = ""トゥルーディーって誰だ?""
        [49]
-        1 string data = ""You... don't get many visitors, do you?""
+        1 string data = ""お前...あまり訪問者は来ないんだろうな?""
        [50]
-        1 string data = ""Can't say we do, 'less you count the scavengers, an' they ain't much for conversation. Nope, me an' Trudy are left to ourselves, most times.""
+        1 string data = ""来ないとは言えないな、スカベンジャーを数えないなら。奴らは会話には向いてない。いや、俺とトゥルーディーはほとんど二人きりだ。""
        [51]
-        1 string data = ""Gets lonely up here, 'specially in the winter, but we got the mine to keep us busy, and we talk to pass the time. That Trudy, she's a hell of a listener, let me tell ya!""
+        1 string data = ""ここは寂しいんだ、特に冬はな。でも鉱山で忙しくしてるし、時間を潰すために話をする。あのトゥルーディーは最高の聞き手なんだ、本当だぞ!""
        [52]
-        1 string data = ""Well? You better not be back because you was cold. Them fuckers taken care of yet?""
+        1 string data = ""どうした?寒いから戻ってきたんじゃないだろうな。あのクソ野郎どもの始末はついたか?""
        [53]
         1 string data = "Script Node 57"
        [54]
-        1 string data = ""You're welcome to warm up, just don't touch things. It's all organized.""
+        1 string data = ""暖まるのは構わないが、物には触るな。全部整理してあるんだ。""
        [55]
         1 string data = "Script Node 60"
        [56]
-        1 string data = ""That's Trudy's. She don't like folks poking around her stuff.""
+        1 string data = ""それはトゥルーディーのだ。彼女は人が自分のものを詮索するのを好まない。""
        [57]
-        1 string data = ""So you're telling us that robots... from Mars... have taken over your mine.""
+        1 string data = ""つまり、ロボットが...火星から...お前の鉱山を乗っ取ったと言ってるのか。""
        [58]
-        1 string data = ""Tellurium? What's that?""
+        1 string data = ""テルル?それは何だ?""
        [59]
-        1 string data = ""I'll be waitin' here when yer done.""
+        1 string data = ""終わったらここで待ってるぞ。""
        [60]
-        1 string data = ""Good luck up there.""
+        1 string data = ""上で頑張れよ。""
        [61]
-        1 string data = ""Go on, now! Git!""
+        1 string data = ""さあ行け!行くんだ!""
        [62]
-        1 string data = ""Me an' Trudy ain't gettin' any younger, you know!""
+        1 string data = ""俺とトゥルーディーはどんどん年を取ってるんだぞ、わかってるか!""
        [63]
-        1 string data = ""We've got some questions.""
+        1 string data = ""いくつか質問がある。""
        [64]
-        1 string data = ""You got somethin' on yer mind, let's hear it! I ain't shy!""
+        1 string data = ""何か気になることがあるなら聞いてくれ!恥ずかしがらないぞ!""
        [65]
-        1 string data = ""Hee hee! I reckon you do! Ask away! I'm always glad fer a little conversation. Just ask Trudy. It's a wonder I ain't talked her ears off after all these years!""
+        1 string data = ""ヒヒヒ!そうだと思ったよ!何でも聞いてくれ!ちょっとした会話はいつでも嬉しいんだ。トゥルーディーに聞いてみろよ。これだけ長年話し続けて、彼女の耳が落ちなかったのは奇跡だ!""
        [66]
-        1 string data = ""That's all for now.""
+        1 string data = ""今はこれだけだ。""
        [67]
-        1 string data = ""Fair enough. You change yer mind, you know where ta find me.""
+        1 string data = ""まあいいだろう。気が変わったら、どこにいるかわかってるだろ。""
        [68]
         1 string data = """
        [69]
-        1 string data = ""So, Trudy... She's a dog, right?""
+        1 string data = ""それで、トゥルーディー...彼女は犬だよな?""
        [70]
-        1 string data = ""Well... I admit, she ain't much to look at, but miners can't be choosers, if you know what I mean. She's loyal and true - she's got a heart of gold. That's what matters.""
+        1 string data = ""まあ...見た目は大したことないって認めるよ、でも鉱夫は選り好みできないんだ、意味はわかるだろ。彼女は忠実で誠実だ、金の心を持ってる。それが大事なんだ。""
        [71]
-        1 string data = ""No, we mean... She's an actual dog.""
+        1 string data = ""いや、俺たちが言いたいのは...彼女は本物の犬だってことだ。""
        [72]
-        1 string data = ""You know what? Forget we asked.""
+        1 string data = ""わかった。聞かなかったことにしよう。""
        [73]
-        1 string data = ""Best to let sleepin' dogs lie. Otherwise, yer liable to get bit. Understand?""
+        1 string data = ""眠ってる犬は放っておくのが一番だ。そうしないと噛まれるかもしれない。わかるか?""
        [74]
-        1 string data = ""Not sure what you're gettin' at, friends.""
+        1 string data = ""何が言いたいのかよくわからないな、友よ。""
        [75]
-        1 string data = ""There's one good thing about livin' in the back end o' nowhere. Ain't nobody tryin' ta stick their nose in yer business. You get what I'm sayin'?""
+        1 string data = ""世界の果てに住むことの良い点が一つある。誰もお前の仕事に口を出そうとしないってことだ。わかるか?""
        [76]
-        1 string data = ""You got enough trouble on yer hands with those dang robots. Don't go lookin' fer any more.""
+        1 string data = ""あのいまいましいロボットどもで十分問題を抱えてるだろう。これ以上探すな。""
        [77]
-        1 string data = ""We worked with Null Stack to defeat the intruders. They promise they'll continue to ensure your safety.""
+        1 string data = ""侵入者を倒すためにNull Stackと協力した。彼らはお前の安全を確保し続けると約束してくれた。""
        [78]
-        1 string data = ""We sided with Null Stack against the intruders. None of the robots survived the battle, and now the mine's blocked by wreckage.""
+        1 string data = ""侵入者に対してNull Stackの側についた。ロボットは一体も戦闘を生き延びなかったし、今は鉱山が残骸で塞がれてる。""
        [79]
-        1 string data = "::laughs:: "Ain't no pile o' scrap metal gonna stop ol' Bulb! No sir! I got just the thing to clear that mess out. Have that mine goin' again in no time! You wait an' see!""
+        1 string data = "::laughs:: "スクラップの山なんかで年寄りバルブは止まらないぞ!そうだとも!あの散らかったものを片付けるちょうどいいものがある。すぐにあの鉱山を再稼働させてやるさ!待ってろよ!""
        [80]
-        1 string data = ""You talked to Null Stack, eh? Look, I'd appreciate it if'n we could keep this quiet. The Patriarch, he, uh... wouldn't look too kindly on me shortin' his tellurium shipments.""
+        1 string data = ""Null Stackと話したのか?なあ、これは秘密にしてもらえるとありがたいんだが。総主教は、その...テルルの出荷をごまかしてることを良く思わないだろうからな。""
        [81]
-        1 string data = ""Goddamnit. We had this conversation once before, didn't we? About askin' questions that'll come back and bite you on the ass.""
+        1 string data = ""くそったれ。この会話は前にもしたよな?尻に噛みついてくる質問をすることについて。""
        [82]
-        1 string data = ""The hell is your problem? All you had to do was go up there and wreck those robots! Nobody said anythin' about talkin' to 'em!""
+        1 string data = ""何が問題なんだ?ただ上に行ってあのロボットどもを破壊すればよかったんだ!誰も奴らと話すなんて言ってないぞ!""
        [83]
-        1 string data = ""Fuckin' Null Stack's had me by the short hairs for a while. Had to work like a dog ta keep them an' the Patriarch satisfied. And what did I get out of it? Nothin'!""
+        1 string data = ""クソッタレのNull Stackがしばらく俺を掌握してやがった。奴らと総主教の両方を満足させるために犬のように働かなきゃならなかった。で、俺は何を得たんだ?何もだ!""
        [84]
-        1 string data = ""An' don't come cryin' to me for no reward! You didn't stick to yer end o' the deal, so I'll be damned if'n I stick to mine!""
+        1 string data = ""報酬が欲しいなんて泣きついてくるな!お前らは契約を守らなかったんだ、だから俺が守る理由なんてないぞ!""
        [85]
-        1 string data = ""Get off my land, ya varmints! I ain't got no time fer the likes of you! Git!""
+        1 string data = ""俺の土地から出て行け、害虫どもが!お前らみたいな連中に構ってる時間はないんだ!出て行け!""
        [86]
-        1 string data = ""That sounds mighty sensible. Yessir! Let them sleepin' dogs lie. Safer for everybody that way.""
+        1 string data = ""それは非常に賢明だな。本当だ!眠ってる犬は放っておけ。その方が皆にとって安全だ。""
        [87]
-        1 string data = ""Fair enough. Long as the job's done, I don't need ta know more. I'm much obliged to ya.""
+        1 string data = ""まあいいだろう。仕事さえ終わってれば、これ以上知る必要はない。感謝してるよ。""
        [88]
-        1 string data = ""This here's my tellurium mine, y'see. Well, mine and Trudy's. Don't know what I'd do without the old girl. Works harder'n any man I ever saw, and ain't a-feared of nothin'! Why, I once saw her bite a grizzly bear right on the ass! Yessir!""
+        1 string data = ""ここは俺のテルル鉱山なんだ、わかるだろ。まあ、俺とトゥルーディーのものだ。あの年寄り娘なしでどうすればいいかわからない。俺が見た誰よりも一生懸命働くし、何も恐れない!なんと、グリズリー熊の尻に噛みついたのを見たことがあるんだ!本当だ!""
        [89]
-        1 string data = ""Yessir! But wait 'til you hear the weird part!""
+        1 string data = ""本当だ!でも奇妙な部分を聞くまで待ってくれ!""
        [90]
-        1 string data = ""We get scavengers pokin' 'round up here all the time. Trudy can hear them rust buckets comin' a mile off. We leave out old parts or a few pounds of ore and they leave us be.""
+        1 string data = ""ここにはいつもスカベンジャーがうろついてる。トゥルーディーは奴らの錆びたバケツが1マイル先から来るのが聞こえるんだ。古い部品や数ポンドの鉱石を置いておくと、奴らは俺たちを放っておいてくれる。""
        [91]
-        1 string data = ""But not the martians. No sir. When they turned up, the scavengers got madder'n a pack of wet hornets! They came at the martians from all directions, with me an' Trudy caught in the middle!""
+        1 string data = ""でも火星人どもは違った。違うんだ。奴らが現れたとき、スカベンジャーどもは濡れたスズメバチの群れよりも怒り狂ったんだ!四方八方から火星人どもに襲いかかって、俺とトゥルーディーはその真ん中に取り残された!""
        [92]
-        1 string data = ""I told the old girl to hightail it out of there, but Trudy was fit to raise hell, and you can't tell her nothin' when she's got her dander up. I ran down here to call fer help, and I been waitin' on you folks ever since.""
+        1 string data = ""年寄り娘にそこから急いで逃げるように言ったんだが、トゥルーディーは大暴れする気満々で、怒ってる時には何を言っても聞かないんだ。俺はここまで走って助けを呼んで、それからずっとあんたたちを待ってたんだ。""
        [93]
-        1 string data = ""We never know when they're gonna turn up, but when Trudy hears 'em comin, we set out a little tellurium, an' they leave us be. Not the best deal, maybe, but it beats gettin' killed.""
+        1 string data = ""いつ奴らが現れるかわからないが、トゥルーディーが奴らが来るのを聞くと、少しテルルを置いておくんだ、そうすれば奴らは俺たちを放っておいてくれる。最良の取引じゃないかもしれないが、殺されるよりはマシだ。""
        [94]
-        1 string data = ""Anyhow, thanks fer bringin' back her necklace. Can't run the machinery in the mine without them codes.""
+        1 string data = ""とにかく、彼女のネックレスを持ってきてくれてありがとう。あのコードなしでは鉱山の機械を動かせないんだ。""
        [95]
-        1 string data = ""Sure is a relief not to have them dang robots takin' my ore! They've been a thorn in my side fer a long time, and I'm grateful fer yer help.""
+        1 string data = ""あのいまいましいロボットどもが俺の鉱石を取らなくなって本当に安心だ!奴らは長い間俺の目の上のたんこぶだったんだ、助けてくれて感謝してるよ。""
        [96]
-        1 string data = ""Tell you the truth, I was hopin' you'd just head up there and clear 'em all out, and nobody'd be the wiser. Which is kinda what happened, so I reckon it all worked out.""
+        1 string data = ""正直に言うと、あんたたちがただ上に行って全部片付けてくれて、誰も気づかないことを期待してたんだ。まあそういうことが起きたから、全部うまくいったってことだな。""
        [97]
         1 string data = "Script Node 108"
        [98]
-        1 string data = ""Hey! Cut it out!""
+        1 string data = ""おい!やめろ!""
        [99]
-        1 string data = ""I got enough trouble 'round here without you startin' somethin'!""
+        1 string data = ""お前らが何か始めなくても、ここには十分問題があるんだ!""
        [100]
-        1 string data = ""Don't be startin' somethin' ya can't finish!""
+        1 string data = ""終わらせられないことを始めるな!""
        [101]
         1 string data = "Script Node 112"
        [102]
-        1 string data = "Bulb ignores you and keeps right on talking."
+        1 string data = "Bulbは君を無視して話し続けている。"
        [103]
         1 string data = ""
    [1504]
