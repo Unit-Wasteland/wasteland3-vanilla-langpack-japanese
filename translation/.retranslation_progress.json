@@ -18,15 +18,15 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 52802,
-      "entries_untranslated_real": 6802,
+      "entries_translated": 52978,
+      "entries_untranslated_real": 6626,
       "entries_kept_english": 42541,
-      "completion_rate": 31.1,
-      "current_line": 447997,
+      "completion_rate": 31.2,
+      "current_line": 449196,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 410 complete: 170 entries (L446966-447997). Error fixes: 2 entries (L445052, L445054 - untranslated She-Monster dialogue). Sections: y_reusable_animalden (94 entries - Animal den camping encounters), y_reusable_crates (74 entries - Crate loot encounters). Content: Animal den camping with survival choices (repair Kodiak, hunt wildlife, forage herbs), crate loot with locks/traps (Patriarch Marshal smuggled goods, toaster shrine worship). Quote format: Mixed 2-quote and 4-quote preserved correctly. Dual validation passed (Structure: 0 errors, Quality: 0 issues).",
-      "entries_completed": 52802
+      "note": "Session 411 complete: 176 entries (L448198-449196). Sections: y_reusable_crates_tier3/4/5/6 (48 entries each - Higher tier crate encounters). Content: Crate variations (unlocked, locked, trapped), lockpicking and forced opening, booby trap disarming, toaster shrine encounters. Quote format: Mixed 2-quote and 4-quote preserved correctly. Dual validation passed (Structure: 0 errors, Quality: 0 issues).",
+      "entries_completed": 52978
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -59,21 +59,21 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "pending",
-  "last_commit_message": "Base game translation: Session 410 - Error fixes and reusable encounters (170 entries)",
+  "last_commit_hash": "2a8e05c",
+  "last_commit_message": "Base game translation: Session 411 - Reusable crate encounters tiers 3-6 (176 entries)",
   "validation_date": "2025-11-13",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
-  "analysis_session": 410,
+  "analysis_session": 411,
   "analysis_findings": {
-    "new_translations": "Session 410: 170 entries (L446966-447997). Error fixes: 2 (L445052, L445054). Sections: y_reusable_animalden (94 - animal den camping), y_reusable_crates (74 - crate loot).",
+    "new_translations": "Session 411: 176 entries (L448198-449196). Sections: y_reusable_crates_tier3/4/5/6 (48 entries each - higher tier crate encounters).",
     "action_marker_protection": "No action markers in these sections. Validation passed.",
-    "quote_format_handling": "Mixed 2-quote and 4-quote formats preserved correctly. Fixed L447428 quote count mismatch.",
-    "quality_validation": "Dual validation passed. Structure: 0 errors. Quality: 0 issues - no action markers translated, no untranslated English, no glossary violations. Glossary terms applied: Rangers, Kodiak, Patriarch."
+    "quote_format_handling": "Mixed 2-quote and 4-quote formats preserved correctly.",
+    "quality_validation": "Dual validation passed. Structure: 0 errors. Quality: 0 issues - no action markers translated, no untranslated English, no glossary violations. Glossary term applied: Kodiak."
   },
-  "total_entries_completed": 52802,
+  "total_entries_completed": 52978,
   "total_entries": 232418,
-  "total_entries_untranslated": 179616,
-  "overall_completion_rate": 22.7,
-  "next_action": "Continue sequential translation from line 447998. Next: y_reusable_crates_tier3 section (48 entries - High tier crate encounters)."
+  "total_entries_untranslated": 179440,
+  "overall_completion_rate": 22.8,
+  "next_action": "Continue sequential translation from line 449197. Next: y_reusable_fire01 section (20 entries - Fire/campfire encounters)."
 }
