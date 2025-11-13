@@ -9,13 +9,13 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 509461,
+    "current_line": 511009,
     "total_lines": 530425,
-    "entries_completed": 62922,
+    "entries_completed": 63178,
     "total_entries": 169712,
-    "percent_complete": 37.07,
-    "last_section": "perks",
-    "last_entry_index": 475,
+    "percent_complete": 37.22,
+    "last_section": "poi",
+    "last_entry_index": 255,
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
@@ -34,20 +34,20 @@
     "percent_complete": 0.0
   },
   "last_session": {
-    "session_number": 448,
-    "date": "2025-11-13",
-    "entries_processed": 198,
-    "sections_completed": ["perks entries [278]-[475]"],
-    "commit_hash": "1b385c6",
+    "session_number": 449,
+    "date": "2025-11-14",
+    "entries_processed": 256,
+    "sections_completed": ["poi entries [0]-[255]"],
+    "commit_hash": "84eec7a",
     "validation_passed": true,
-    "notes": "Translated perks section entries: character backgrounds, perk effects, and weapon abilities. Fixed embedded quote issue (line 509076 - Russian in quotes) and HTML tag preservation (line 509436 - italic tag). All validations passed.",
-    "next_action": "Continue poi section from line 509461 (next section after perks)"
+    "notes": "Translated POI location names: buildings, rooms, landmarks. Fixed quote format issue (used correct single-quote format). All validations passed.",
+    "next_action": "Continue scenedescriptions section from line 511009"
   },
   "cumulative_stats": {
-    "total_sessions": 448,
-    "total_entries_translated": 62922,
-    "average_entries_per_session": 140,
-    "estimated_sessions_remaining_base": 762,
-    "estimated_days_remaining_base": "32-38 days"
+    "total_sessions": 449,
+    "total_entries_translated": 63178,
+    "average_entries_per_session": 141,
+    "estimated_sessions_remaining_base": 756,
+    "estimated_days_remaining_base": "31-38 days"
   }
 }
