@@ -18,15 +18,15 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 52632,
-      "entries_untranslated_real": 6972,
+      "entries_translated": 52802,
+      "entries_untranslated_real": 6802,
       "entries_kept_english": 42541,
-      "completion_rate": 31.0,
-      "current_line": 446965,
+      "completion_rate": 31.1,
+      "current_line": 447997,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 409 complete: 123 entries (L446179-446965). Sections: y_randomencounter01_payasos (52 entries - Payaso clown gang encounters), y_randomencounter04_gippers (30 entries - Gippers road checkpoint), y_reactivity03_monsterarmy (25 entries - Monster Army pig hunt), y_reactivity05_mactavish (16 entries - MacTavish mask encounter). Content: Random encounters with hostile/friendly factions, Gippers opening road for Rangers, Monster Army tracking escaped hogs after Bizarre events, refugee finding MacTavish mask. Quote format: Mixed 2-quote and 4-quote preserved correctly. Dual validation passed (Structure: 0 errors, Quality: 0 issues).",
-      "entries_completed": 52632
+      "note": "Session 410 complete: 170 entries (L446966-447997). Error fixes: 2 entries (L445052, L445054 - untranslated She-Monster dialogue). Sections: y_reusable_animalden (94 entries - Animal den camping encounters), y_reusable_crates (74 entries - Crate loot encounters). Content: Animal den camping with survival choices (repair Kodiak, hunt wildlife, forage herbs), crate loot with locks/traps (Patriarch Marshal smuggled goods, toaster shrine worship). Quote format: Mixed 2-quote and 4-quote preserved correctly. Dual validation passed (Structure: 0 errors, Quality: 0 issues).",
+      "entries_completed": 52802
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -59,21 +59,21 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "5c2b6c7",
-  "last_commit_message": "Base game translation: Session 409 - Random encounters and MacTavish (123 entries)",
+  "last_commit_hash": "pending",
+  "last_commit_message": "Base game translation: Session 410 - Error fixes and reusable encounters (170 entries)",
   "validation_date": "2025-11-13",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
-  "analysis_session": 409,
+  "analysis_session": 410,
   "analysis_findings": {
-    "new_translations": "Session 409: 123 entries (L446179-446965). Sections: y_randomencounter01_payasos (52 - Payaso encounters), y_randomencounter04_gippers (30 - Gippers checkpoint), y_reactivity03_monsterarmy (25 - Monster Army pig hunt), y_reactivity05_mactavish (16 - MacTavish mask).",
+    "new_translations": "Session 410: 170 entries (L446966-447997). Error fixes: 2 (L445052, L445054). Sections: y_reusable_animalden (94 - animal den camping), y_reusable_crates (74 - crate loot).",
     "action_marker_protection": "No action markers in these sections. Validation passed.",
-    "quote_format_handling": "Mixed 2-quote and 4-quote formats preserved correctly. No quote errors detected.",
-    "quality_validation": "Dual validation passed. Structure: 0 errors in new translations. Quality: 0 issues - no action markers translated, no untranslated English, no glossary violations. Glossary terms applied: Rangers, Bizarre, MacTavish, Gippers."
+    "quote_format_handling": "Mixed 2-quote and 4-quote formats preserved correctly. Fixed L447428 quote count mismatch.",
+    "quality_validation": "Dual validation passed. Structure: 0 errors. Quality: 0 issues - no action markers translated, no untranslated English, no glossary violations. Glossary terms applied: Rangers, Kodiak, Patriarch."
   },
-  "total_entries_completed": 52632,
+  "total_entries_completed": 52802,
   "total_entries": 232418,
-  "total_entries_untranslated": 179847,
-  "overall_completion_rate": 22.6,
-  "next_action": "Continue sequential translation from line 446966. Next: y_reusable_animalden section (94 entries - Reusable animal den encounters)."
+  "total_entries_untranslated": 179616,
+  "overall_completion_rate": 22.7,
+  "next_action": "Continue sequential translation from line 447998. Next: y_reusable_crates_tier3 section (48 entries - High tier crate encounters)."
 }
