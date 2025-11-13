@@ -18,15 +18,15 @@
       "empty_entries": 88512,
       "non_empty_entries": 81200,
       "translatable_entries": 58406,
-      "entries_translated": 52305,
-      "entries_untranslated_real": 7299,
+      "entries_translated": 52448,
+      "entries_untranslated_real": 7156,
       "entries_kept_english": 42541,
-      "completion_rate": 30.8,
-      "current_line": 443844,
+      "completion_rate": 30.9,
+      "current_line": 444726,
       "status": "IN_PROGRESS",
       "approach": "STRICT sequential from line 390 - strict structure protection enforced",
-      "note": "Session 406 complete: 81 new Japanese translations (L443323-443844). Sections: y_merchant_generic (12 entries), y_merchant_gipper (69 entries). Content: Generic merchant test entries, Sister Nancy Reckoning Gipper arms dealer encounters, capitalism dialogue, reputation variants. Character names: Sister Nancy Reckoning, Mother/Sister Reliance, Sister Nancy Forge, Mother Nancy. Quote format matching: 2-quote and 4-quote formats carefully preserved. Dual validation passed (Structure: 0 errors, Quality: 0 issues).",
-      "entries_completed": 52305
+      "note": "Session 407 complete: 143 new Japanese translations (L444154-444726). Sections: y_merchant_hundredfamilies (74 entries), y_merchant_marshals (69 entries). Content: Zero Pricely Hundred Families merchant (Broadmoor aristocrat, preppers/preppies, knock-knock joke, gossip), B.B. Gunn Marshals merchant (civil forfeiture scheme, budget balancing, kickback gifts, corruption scenarios). Quote format: Single quotes and double-quote pairs preserved. Fixed L444594 quote error. Dual validation passed (Structure: 0 errors, Quality: 0 issues).",
+      "entries_completed": 52448
     },
     "dlc1": {
       "source_file": "translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
@@ -59,21 +59,21 @@
       "note": "DLC2 translation will begin ONLY after DLC1 reaches 100% completion with strict validation."
     }
   },
-  "last_commit_hash": "b9dfc30",
-  "last_commit_message": "Base game translation: Session 406 - Generic and Gipper merchants (81 entries)",
+  "last_commit_hash": "548e807",
+  "last_commit_message": "Base game translation: Session 407 - Hundred Families and Marshals merchants (143 entries)",
   "validation_date": "2025-11-13",
   "validation_script": "validate_structure_v2.py and validate_translation_quality.py",
   "work_priority": "BASE_GAME_FIRST",
-  "analysis_session": 406,
+  "analysis_session": 407,
   "analysis_findings": {
-    "new_translations": "Session 406: 81 new Japanese translations (L443323-443844). Sections: y_merchant_generic (12 entries - generic merchant with test globals), y_merchant_gipper (69 entries - Sister Nancy Reckoning, Reagan-blessed arms dealer).",
-    "action_marker_protection": "No action markers in these sections. [Attack] and [Steal] bracket markers preserved correctly.",
-    "quote_format_handling": "Complex quote format handling: 2-quote format (simple dialogue) and 4-quote format (nested dialogue with escape sequences). Quote counts matched English source exactly. Special handling for line 443708 (4 quotes with inner dialogue and trailing space quote).",
-    "quality_validation": "Dual validation passed. Structure: 0 errors across all entries. Quality: 0 issues - no action markers translated, no untranslated English violations, no glossary violations. Glossary terms applied: Rangers, Gippers, Reagan, Desert Rangers, Dorseys, Godfisher, Colorado Springs."
+    "new_translations": "Session 407: 143 new Japanese translations (L444154-444726). Sections: y_merchant_hundredfamilies (74 entries - Zero Pricely, Broadmoor aristocrat), y_merchant_marshals (69 entries - B.B. Gunn, corrupt marshal).",
+    "action_marker_protection": "Action markers: ::laughs::, ::wink:: preserved correctly in English. No translation to Japanese detected.",
+    "quote_format_handling": "Mixed quote formats: 2-quote (empty), 4-quote (dialogue), 6-quote (nested dialogue with inner quotes). Fixed L444594 error: changed inner Japanese brackets to single quotes to match English source (6 quotes total). All entries now match source quote counts exactly.",
+    "quality_validation": "Dual validation passed. Structure: 0 errors after fix. Quality: 0 issues - no action markers translated, no untranslated English violations, no glossary violations. Glossary terms applied: Rangers, Hundred Families, Patriarch, Broadmoor, Dorseys, Marshals, Colorado Springs, Gippers."
   },
-  "total_entries_completed": 52305,
+  "total_entries_completed": 52448,
   "total_entries": 232418,
-  "total_entries_untranslated": 180170,
-  "overall_completion_rate": 22.5,
-  "next_action": "Continue sequential translation from line 443845. Next: y_merchant_hundredfamilies section (74 entries - Hundred Families faction merchant)."
+  "total_entries_untranslated": 180113,
+  "overall_completion_rate": 22.6,
+  "next_action": "Continue sequential translation from line 444727. Next: y_merchant_monsterarmy section (55 entries - Monster Army faction merchant)."
 }
