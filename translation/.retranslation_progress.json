@@ -9,13 +9,13 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 525991,
+    "current_line": 527317,
     "total_lines": 530425,
-    "entries_completed": 65362,
+    "entries_completed": 65523,
     "total_entries": 169712,
-    "percent_complete": 38.6,
-    "last_section": "mission_o2001_cinemaverite",
-    "last_entry_index": 12,
+    "percent_complete": 38.7,
+    "last_section": "mission_o1001_weneedawrenchjockey",
+    "last_entry_index": 18,
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
@@ -34,30 +34,30 @@
     "percent_complete": 0.0
   },
   "last_session": {
-    "session_number": 462,
+    "session_number": 463,
     "date": "2025-11-14",
-    "entries_processed": 110,
+    "entries_processed": 161,
     "sections_completed": [
-      "mission_b3001_thisland - 6 entries",
-      "mission_b3001_tradingfireroguemission - 8 entries",
-      "mission_b4001_funandgames - 28 entries",
-      "mission_c1000_gamescomdemo - 4 entries",
-      "mission_c1001_littlehell - 22 entries",
-      "mission_m1001_rangerslasthope - 6 entries",
-      "mission_m2001_welcometocolorado - 24 entries",
-      "mission_o2001_29across - 4 entries",
-      "mission_o2001_cinemaverite - 8 entries"
+      "mission_o2001_mybodyrequiresthis - 18 entries",
+      "mission_o2001_nightmareinthebizarre - 17 entries",
+      "mission_o2001_thickerthanblood - 10 entries",
+      "mission_o2001_thickerthanwater - 22 entries",
+      "debug_mission_o1001_knockknock - 18 entries",
+      "mission_o1001_knockknock - 30 entries",
+      "mission_o1001_nightmareinthebizarre - 8 entries",
+      "mission_o1001_veryhostiletakeover - 38 entries",
+      "mission_o1001_weneedawrenchjockey - 10 entries"
     ],
-    "commit_hash": "b679a1d",
+    "commit_hash": "d41e5a4",
     "validation_passed": true,
-    "notes": "Translated 110 entries across 9 mission sections. All validations passed with zero errors. Sequential processing maintained.",
-    "next_action": "Continue mission_o2001_mybodyrequiresthis section from line 525991"
+    "notes": "Translated 161 entries across 9 mission sections. All validations passed with zero errors. Sequential processing maintained.",
+    "next_action": "Continue mission_o2101_quarexhellaciousjourney section from line 527317"
   },
   "cumulative_stats": {
-    "total_sessions": 462,
-    "total_entries_translated": 65362,
-    "average_entries_per_session": 141.5,
-    "estimated_sessions_remaining_base": 736,
+    "total_sessions": 463,
+    "total_entries_translated": 65523,
+    "average_entries_per_session": 141.6,
+    "estimated_sessions_remaining_base": 735,
     "estimated_days_remaining_base": "74-92 days"
   }
 }
