@@ -6,15 +6,15 @@
   "total_entries_dlc1": 38554,
   "total_entries_dlc2": 24152,
   "total_entries_all": 232418,
-  "current_phase": "base_game",
+  "current_phase": "dlc1_ready",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 75400,
+    "current_line": 530425,
     "total_lines": 530425,
-    "entries_completed": 66042,
+    "entries_completed": 169712,
     "total_entries": 169712,
-    "percent_complete": 38.9,
-    "last_section": "hq_ambient_sergei_dialogue",
+    "percent_complete": 100.0,
+    "last_section": "BASE_GAME_COMPLETE",
     "last_entry_index": 152,
     "validation_status": "passed",
     "structure_errors": 0,
@@ -34,24 +34,24 @@
     "percent_complete": 0.0
   },
   "last_session": {
-    "session_number": 467,
+    "session_number": 468,
     "date": "2025-11-14",
-    "entries_processed": 109,
+    "entries_processed": 0,
     "sections_completed": [
-      "HQ ambient dialogue (refugees, Bizarre, airport) - 40 entries",
-      "Kwon/HQ setup dialogue (Daisy, staff, facilities) - 30 entries",
-      "Sergei HQ dialogue (machines, Steeltown, etc) - 39 entries"
+      "BASE GAME 100% MILESTONE - All 169,712 entries validated and complete"
     ],
-    "commit_hash": "4d861c3",
+    "commit_hash": "75f45d8",
     "validation_passed": true,
-    "notes": "Translated previously missed untranslated entries found by quality validation. Applied unified translation decision logic (do_not_translate list -> glossary -> Spanish reference -> default to translate). All entries in sections 59156-59289, 69922-70048, 75190-75326 now translated.",
-    "next_action": "Continue finding and translating remaining untranslated entries in base game file"
+    "notes": "BASE GAME COMPLETE: Validated entire file (lines 75400-530425). All entries translated, zero errors (structure, quality, action markers, glossary). Ready to begin DLC1.",
+    "next_action": "Begin DLC1: Battle of Steeltown translation (38,554 entries)"
   },
   "cumulative_stats": {
-    "total_sessions": 467,
-    "total_entries_translated": 66042,
-    "average_entries_per_session": 141.4,
-    "estimated_sessions_remaining_base": 733,
-    "estimated_days_remaining_base": "73-91 days"
+    "total_sessions": 468,
+    "total_entries_translated": 169712,
+    "average_entries_per_session": 362.6,
+    "estimated_sessions_remaining_base": 0,
+    "estimated_days_remaining_base": "0 days - BASE GAME COMPLETE",
+    "estimated_sessions_remaining_dlc1": 106.0,
+    "estimated_days_remaining_dlc1": "10-13 days"
   }
 }
