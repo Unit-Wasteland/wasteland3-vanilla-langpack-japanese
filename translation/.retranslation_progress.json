@@ -9,13 +9,13 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 517028,
+    "current_line": 517534,
     "total_lines": 530425,
-    "entries_completed": 63891,
+    "entries_completed": 64140,
     "total_entries": 169712,
-    "percent_complete": 37.64,
+    "percent_complete": 37.79,
     "last_section": "tutorial",
-    "last_entry_index": 30,
+    "last_entry_index": 284,
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
@@ -34,24 +34,22 @@
     "percent_complete": 0.0
   },
   "last_session": {
-    "session_number": 453,
+    "session_number": 454,
     "date": "2025-11-14",
-    "entries_processed": 65,
+    "entries_processed": 249,
     "sections_completed": [
-      "statuseffects entries [428]-[461]",
-      "test entries [6]-[9]",
-      "tutorial entries [4]-[30]"
+      "tutorial entries [31]-[284] - completed tutorial section"
     ],
-    "commit_hash": "9264707",
+    "commit_hash": "d77a28c",
     "validation_passed": true,
-    "notes": "Completed final statuseffects entries and started tutorial section. Fixed quote format error in entry 434. All validations passed with zero errors.",
-    "next_action": "Continue tutorial section from line 517029 entry [31]"
+    "notes": "Translated 249 tutorial entries covering skill checks, vehicle mechanics, combat systems, character progression, HQ facilities, world map, companions, crafting, and UI navigation. Fixed 3 quote count mismatches. All validations passed with zero errors.",
+    "next_action": "Continue worldmap section from line 517537 entry [0]"
   },
   "cumulative_stats": {
-    "total_sessions": 453,
-    "total_entries_translated": 63891,
-    "average_entries_per_session": 141,
-    "estimated_sessions_remaining_base": 748,
-    "estimated_days_remaining_base": "75-94 days"
+    "total_sessions": 454,
+    "total_entries_translated": 64140,
+    "average_entries_per_session": 141.0,
+    "estimated_sessions_remaining_base": 749.0,
+    "estimated_days_remaining_base": "74-93 days"
   }
 }
