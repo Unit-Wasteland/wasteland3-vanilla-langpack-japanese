@@ -9,13 +9,13 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 527317,
+    "current_line": 528007,
     "total_lines": 530425,
-    "entries_completed": 65523,
+    "entries_completed": 65608,
     "total_entries": 169712,
     "percent_complete": 38.7,
-    "last_section": "mission_o1001_weneedawrenchjockey",
-    "last_entry_index": 18,
+    "last_section": "mission_q1001_nobodysfools",
+    "last_entry_index": 22,
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
@@ -34,29 +34,25 @@
     "percent_complete": 0.0
   },
   "last_session": {
-    "session_number": 463,
+    "session_number": 464,
     "date": "2025-11-14",
-    "entries_processed": 161,
+    "entries_processed": 85,
     "sections_completed": [
-      "mission_o2001_mybodyrequiresthis - 18 entries",
-      "mission_o2001_nightmareinthebizarre - 17 entries",
-      "mission_o2001_thickerthanblood - 10 entries",
-      "mission_o2001_thickerthanwater - 22 entries",
-      "debug_mission_o1001_knockknock - 18 entries",
-      "mission_o1001_knockknock - 30 entries",
-      "mission_o1001_nightmareinthebizarre - 8 entries",
-      "mission_o1001_veryhostiletakeover - 38 entries",
-      "mission_o1001_weneedawrenchjockey - 10 entries"
+      "mission_o2101_quarexhellaciousjourney - 16 entries",
+      "mission_q1001_canaryinthecoalmine - 30 entries",
+      "mission_q1001_godsandclowns - 18 entries",
+      "mission_q1001_kingcordite - 18 entries",
+      "mission_q1001_nobodysfools - 23 entries (last entry completed via sed)"
     ],
-    "commit_hash": "d41e5a4",
+    "commit_hash": "f57f204",
     "validation_passed": true,
-    "notes": "Translated 161 entries across 9 mission sections. All validations passed with zero errors. Sequential processing maintained.",
-    "next_action": "Continue mission_o2101_quarexhellaciousjourney section from line 527317"
+    "notes": "Translated 85 entries across 5 mission sections. All validations passed with zero errors. Individual line editing required due to complex string matching.",
+    "next_action": "Continue mission_q1001_oneofus section from line 528007"
   },
   "cumulative_stats": {
-    "total_sessions": 463,
-    "total_entries_translated": 65523,
-    "average_entries_per_session": 141.6,
+    "total_sessions": 464,
+    "total_entries_translated": 65608,
+    "average_entries_per_session": 141.4,
     "estimated_sessions_remaining_base": 735,
     "estimated_days_remaining_base": "74-92 days"
   }
