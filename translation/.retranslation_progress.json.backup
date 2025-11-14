@@ -9,13 +9,13 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 517028,
+    "current_line": 521425,
     "total_lines": 530425,
-    "entries_completed": 63891,
+    "entries_completed": 64738,
     "total_entries": 169712,
-    "percent_complete": 37.64,
-    "last_section": "tutorial",
-    "last_entry_index": 30,
+    "percent_complete": 38.14,
+    "last_section": "mission_a2001_topdoc",
+    "last_entry_index": 24,
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
@@ -34,24 +34,28 @@
     "percent_complete": 0.0
   },
   "last_session": {
-    "session_number": 453,
+    "session_number": 457,
     "date": "2025-11-14",
-    "entries_processed": 65,
+    "entries_processed": 172,
     "sections_completed": [
-      "statuseffects entries [428]-[461]",
-      "test entries [6]-[9]",
-      "tutorial entries [4]-[30]"
+      "mission_a1001_wolfeshunt - 33 entries",
+      "mission_a2001_babydoll - 10 entries",
+      "mission_a2001_bigtroubleinlittlevegas - 37 entries",
+      "mission_a2001_corneredrats - 14 entries",
+      "mission_a2001_justiceforliberty - 34 entries (fixed 1 quote error)",
+      "mission_a2001_oldworldpower - 19 entries",
+      "mission_a2001_topdoc - 25 entries"
     ],
-    "commit_hash": "9264707",
+    "commit_hash": "b470480",
     "validation_passed": true,
-    "notes": "Completed final statuseffects entries and started tutorial section. Fixed quote format error in entry 434. All validations passed with zero errors.",
-    "next_action": "Continue tutorial section from line 517029 entry [31]"
+    "notes": "Translated 172 entries covering various mission quest objectives. Fixed quote format error in justiceforliberty section. All validations passed with zero errors.",
+    "next_action": "Continue mission_a2101_charleyincharge section from line 521427"
   },
   "cumulative_stats": {
-    "total_sessions": 453,
-    "total_entries_translated": 63891,
-    "average_entries_per_session": 141,
-    "estimated_sessions_remaining_base": 748,
-    "estimated_days_remaining_base": "75-94 days"
+    "total_sessions": 457,
+    "total_entries_translated": 64738,
+    "average_entries_per_session": 141.6,
+    "estimated_sessions_remaining_base": 741.0,
+    "estimated_days_remaining_base": "74-93 days"
   }
 }
