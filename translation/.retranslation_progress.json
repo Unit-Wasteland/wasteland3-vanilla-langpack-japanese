@@ -9,13 +9,13 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 522463,
+    "current_line": 523428,
     "total_lines": 530425,
-    "entries_completed": 64903,
+    "entries_completed": 65049,
     "total_entries": 169712,
-    "percent_complete": 38.24,
-    "last_section": "a5001_unwelcomeguests",
-    "last_entry_index": 45,
+    "percent_complete": 38.33,
+    "last_section": "mission_b1001_darkclouds",
+    "last_entry_index": 33,
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
@@ -34,25 +34,26 @@
     "percent_complete": 0.0
   },
   "last_session": {
-    "session_number": 458,
+    "session_number": 459,
     "date": "2025-11-14",
-    "entries_processed": 165,
+    "entries_processed": 146,
     "sections_completed": [
-      "mission_a2101_charleyincharge - 67 entries",
-      "mission_a4001_energyindependence - 26 entries",
-      "a5001_lordsofwar - 26 entries",
-      "a5001_unwelcomeguests - 46 entries"
+      "mission_a5001_unwelcomeguests - 8 entries",
+      "a5101_thezealot - 31 entries",
+      "mission_b1001_calltoaction - 26 entries",
+      "mission_b1001_counterintelligence - 47 entries",
+      "mission_b1001_darkclouds - 34 entries"
     ],
-    "commit_hash": "ef69da3",
+    "commit_hash": "8f2f01e",
     "validation_passed": true,
-    "notes": "Translated 165 entries covering various DLC and mission quest objectives. All validations passed with zero errors.",
-    "next_action": "Continue mission_a5001_unwelcomeguests section from line 522465"
+    "notes": "Translated 146 entries covering Denver area missions. All validations passed with zero errors.",
+    "next_action": "Continue mission_b1001_gippersvsgodfishers section from line 523429"
   },
   "cumulative_stats": {
-    "total_sessions": 458,
-    "total_entries_translated": 64903,
+    "total_sessions": 459,
+    "total_entries_translated": 65049,
     "average_entries_per_session": 141.7,
-    "estimated_sessions_remaining_base": 741.0,
+    "estimated_sessions_remaining_base": 740.0,
     "estimated_days_remaining_base": "74-93 days"
   }
 }
