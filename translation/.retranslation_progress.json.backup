@@ -9,13 +9,13 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 529651,
+    "current_line": 75400,
     "total_lines": 530425,
-    "entries_completed": 65854,
+    "entries_completed": 66042,
     "total_entries": 169712,
-    "percent_complete": 38.8,
-    "last_section": "mission_x3501_arapahocaravanorhoons",
-    "last_entry_index": 25,
+    "percent_complete": 38.9,
+    "last_section": "hq_ambient_sergei_dialogue",
+    "last_entry_index": 152,
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
@@ -34,35 +34,24 @@
     "percent_complete": 0.0
   },
   "last_session": {
-    "session_number": 465,
+    "session_number": 467,
     "date": "2025-11-14",
-    "entries_processed": 246,
+    "entries_processed": 109,
     "sections_completed": [
-      "mission_q1001_oneofus - 19 entries",
-      "mission_q1001_sandinthegastank - 20 entries",
-      "mission_q1001_thegodshavespoken - 34 entries",
-      "mission_q3001_thecompanystore - 18 entries",
-      "testquestignobility - 10 entries",
-      "testquestjko2 - 18 entries",
-      "testquestjko3 - 11 entries",
-      "testquestjko4 - 20 entries",
-      "testquestjko_061917 - 9 entries",
-      "testquestnoble - 11 entries",
-      "mission_d3301_codedtransmissions - 11 entries",
-      "mission_x2801_sisterskeeper - 28 entries",
-      "mission_x3301_codedtransmissions - 11 entries",
-      "mission_x3501_arapahocaravanorhoons - 26 entries"
+      "HQ ambient dialogue (refugees, Bizarre, airport) - 40 entries",
+      "Kwon/HQ setup dialogue (Daisy, staff, facilities) - 30 entries",
+      "Sergei HQ dialogue (machines, Steeltown, etc) - 39 entries"
     ],
-    "commit_hash": "268bfc4",
+    "commit_hash": "4d861c3",
     "validation_passed": true,
-    "notes": "Translated 246 entries across 14 mission and test sections. All validations passed with zero errors.",
-    "next_action": "Continue mission_x3601_elfonashelf section from line 529651"
+    "notes": "Translated previously missed untranslated entries found by quality validation. Applied unified translation decision logic (do_not_translate list -> glossary -> Spanish reference -> default to translate). All entries in sections 59156-59289, 69922-70048, 75190-75326 now translated.",
+    "next_action": "Continue finding and translating remaining untranslated entries in base game file"
   },
   "cumulative_stats": {
-    "total_sessions": 465,
-    "total_entries_translated": 65854,
-    "average_entries_per_session": 141.6,
-    "estimated_sessions_remaining_base": 422,
-    "estimated_days_remaining_base": "42-53 days"
+    "total_sessions": 467,
+    "total_entries_translated": 66042,
+    "average_entries_per_session": 141.4,
+    "estimated_sessions_remaining_base": 733,
+    "estimated_days_remaining_base": "73-91 days"
   }
 }
