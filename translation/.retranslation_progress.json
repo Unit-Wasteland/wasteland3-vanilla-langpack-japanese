@@ -9,13 +9,13 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 519007,
+    "current_line": 520309,
     "total_lines": 530425,
-    "entries_completed": 64365,
+    "entries_completed": 64566,
     "total_entries": 169712,
-    "percent_complete": 37.92,
-    "last_section": "mission_a1001_dontyoubemyneighbor",
-    "last_entry_index": 29,
+    "percent_complete": 38.04,
+    "last_section": "mission_a1001_thetraitorousdaughter",
+    "last_entry_index": 34,
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
@@ -34,31 +34,29 @@
     "percent_complete": 0.0
   },
   "last_session": {
-    "session_number": 455,
+    "session_number": 456,
     "date": "2025-11-14",
-    "entries_processed": 225,
+    "entries_processed": 201,
     "sections_completed": [
-      "worldmap - 38 entries (world map encounters, location names)",
-      "mission_0000_endgame_gangsallhere - 21 entries",
-      "mission_0000_endgame_promisesmadepromiseskept - 19 entries", 
-      "mission_0000_endgame_showdownatthebroadmoor - 21 entries",
-      "mission_0000_endgame_showdownatthebroadmoorbloodless - 10 entries",
-      "mission_0000_gangsallhere - 17 entries",
-      "mission_0000_radiationupgrade - 10 entries",
-      "mission_a1001_buzzkill - 19 entries",
-      "mission_a1001_disappeared - 40 entries (fixed 1 quote count error)",
-      "mission_a1001_dontyoubemyneighbor - 30 entries"
+      "mission_a1001_homeawayfromhome - 34 entries",
+      "mission_a1001_homeawayfromhomepart2 - 16 entries",
+      "mission_a1001_parkerspatient - 26 entries",
+      "mission_a1001_payback - 18 entries",
+      "mission_a1001_policebrutality - 15 entries",
+      "mission_a1001_slaversbounty - 23 entries",
+      "mission_a1001_thepsychopath - 34 entries (fixed 1 quote count error)",
+      "mission_a1001_thetraitorousdaughter - 35 entries (fixed 1 quote count error in line 520304)"
     ],
-    "commit_hash": "99ae560",
+    "commit_hash": "e7bd3cf",
     "validation_passed": true,
-    "notes": "Translated 225 entries covering endgame missions, radiation upgrades, and side missions (Buzzkill, Disappeared, Neighbor). Fixed 1 quote count mismatch in disappeared mission. All validations passed with zero errors.",
-    "next_action": "Continue mission_a1001_homeawayfromhome section from line 519010"
+    "notes": "Translated 201 entries covering home base missions and main quest missions. Fixed 2 quote count errors. All validations passed with zero errors.",
+    "next_action": "Continue mission_a1001_wolfeshunt section from line 520312"
   },
   "cumulative_stats": {
-    "total_sessions": 455,
-    "total_entries_translated": 64365,
-    "average_entries_per_session": 141.0,
-    "estimated_sessions_remaining_base": 747.0,
+    "total_sessions": 456,
+    "total_entries_translated": 64566,
+    "average_entries_per_session": 141.6,
+    "estimated_sessions_remaining_base": 742.0,
     "estimated_days_remaining_base": "74-93 days"
   }
 }
