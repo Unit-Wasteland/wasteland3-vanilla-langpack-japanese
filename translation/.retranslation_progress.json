@@ -9,13 +9,13 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 524360,
+    "current_line": 524917,
     "total_lines": 530425,
-    "entries_completed": 65161,
+    "entries_completed": 65252,
     "total_entries": 169712,
-    "percent_complete": 38.4,
-    "last_section": "mission_b1101_usefulprey",
-    "last_entry_index": 31,
+    "percent_complete": 38.5,
+    "last_section": "mission_b3001_reaganreborn",
+    "last_entry_index": 47,
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
@@ -34,26 +34,25 @@
     "percent_complete": 0.0
   },
   "last_session": {
-    "session_number": 460,
+    "session_number": 461,
     "date": "2025-11-14",
-    "entries_processed": 112,
+    "entries_processed": 91,
     "sections_completed": [
-      "mission_b1001_gippersvsgodfishers - 30 entries",
-      "mission_b1001_helpgodfishers - 19 entries",
-      "mission_b1001_tinyclawsnopockets - 6 entries",
-      "mission_b1001_upgrades - 25 entries",
-      "mission_b1101_usefulprey - 32 entries"
+      "mission_b3001_amansplace - 18 entries",
+      "mission_b3001_dangerzone - 6 entries",
+      "mission_b3001_killandclear - 19 entries",
+      "mission_b3001_reaganreborn - 48 entries"
     ],
-    "commit_hash": "17479d7",
+    "commit_hash": "pending",
     "validation_passed": true,
-    "notes": "Translated 112 entries across 5 mission sections. All validations passed with zero errors. Quote format maintained correctly including embedded quotes.",
-    "next_action": "Continue mission_b3001_amansplace section from line 524360"
+    "notes": "Translated 91 entries across 4 mission sections. All validations passed with zero errors. Fixed embedded quote format issues (converted Japanese brackets to English double-quotes to match source).",
+    "next_action": "Continue mission_b3001_thisland section from line 524917"
   },
   "cumulative_stats": {
-    "total_sessions": 460,
-    "total_entries_translated": 65161,
-    "average_entries_per_session": 141.7,
-    "estimated_sessions_remaining_base": 738,
+    "total_sessions": 461,
+    "total_entries_translated": 65252,
+    "average_entries_per_session": 141.6,
+    "estimated_sessions_remaining_base": 737,
     "estimated_days_remaining_base": "74-92 days"
   }
 }

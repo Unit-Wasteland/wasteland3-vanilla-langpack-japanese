@@ -524357,37 +524357,37 @@
       1 Array Array (18 items)
        0 int size = 18
        [0]
-        1 string data = "A Man's Place"
+        1 string data = "男の居場所"
        [1]
-        1 string data = "Find the missing trader. "
+        1 string data = "行方不明の商人を見つける。 "
        [2]
-        1 string data = "Return to Wyman"
+        1 string data = "ワイマンのもとへ戻る"
        [3]
-        1 string data = "Search Gipper lockboxes for the missing shipment. "
+        1 string data = "ギッパーのロックボックスから行方不明の荷物を探す。 "
        [4]
-        1 string data = "Deal with Dale"
+        1 string data = "デイルに対処する"
        [5]
-        1 string data = "Return to Wyman "
+        1 string data = "ワイマンのもとへ戻る "
        [6]
-        1 string data = "Return to Wyman "
+        1 string data = "ワイマンのもとへ戻る "
        [7]
-        1 string data = "() End state 1"
+        1 string data = "() エンド状態 1"
        [8]
-        1 string data = "() End state 1"
+        1 string data = "() エンド状態 1"
        [9]
-        1 string data = "Summary: Gippers reports that a medical shipment has gone missing somewhere in the Denver area on the way to the Gipper base. She's under no illusions that the trader is dead, but still needs the meds. She recommends searching the opening area. \r\nPrerequisite: Dark Clouds\r\nStart Condition: Nancy Taint grants the quest once Dark Clouds is complete. Additional dialogue reactivity is possible if player has transferred the Gipper AI into the Zealot's head, as she expects an increase of expectant mothers soon.\r\nEnd Conditions:\r\nEnd State 1: Players return to MNR with the shipment. \r\nReward: XP"
+        1 string data = "概要: ギッパーズによると、医療品の荷物がギッパー基地への途中、デンバー地域のどこかで行方不明になっているという。商人が死んでいることは疑いないが、それでも医薬品は必要だ。開始エリアを捜索することを勧める。 \r\n前提条件: Dark Clouds\r\n開始条件: Nancy TaintがDark Clouds完了後にクエストを与える。プレイヤーがギッパーAIを狂信者の頭に移植した場合、妊婦の増加を見込んでいるため、追加の会話反応が可能。\r\n終了条件:\r\nエンド状態 1: プレイヤーが荷物を持ってMNRに戻る。 \r\n報酬: XP"
        [10]
-        1 string data = "Find the missing trader. "
+        1 string data = "行方不明の商人を見つける。 "
        [11]
-        1 string data = "Return to Wyman"
+        1 string data = "ワイマンのもとへ戻る"
        [12]
-        1 string data = "Our patron suspects the person responsible might have sold it (she does not have a romantic outlook on the Gippers), but asks the player to search the area with footlocker key she provides. The lockboxes are interactibles, not SIs. \r\nAdvanced to Step 4 when the player finds the evidence inside Dale Dawson's locker."
+        1 string data = "依頼主は、責任者が荷物を売ってしまったのではないかと疑っている(彼女はギッパーズに対してロマンチックな見方をしていない)が、提供するフットロッカーの鍵でエリアを捜索するようプレイヤーに頼む。ロックボックスはインタラクション可能だが、SIではない。 \r\nプレイヤーがデイル・ドーソンのロッカー内で証拠を見つけると、ステップ4に進む。"
        [13]
-        1 string data = "Deal with Dale\nNote: Player finds a footlocker belonging to Dale Dawson. He pulls a gun on the Rangers before they can turn him in. Players can:\nShoot Dale (which is fine, because all the Gippers saw him pull a gun on you.)\nReason with Dale (but arrest him)\nAdvanced to Step 5 if player kills Dale.\nAdvanced to Step 6 if player convinces Dale to surrender."
+        1 string data = "デイルに対処する\n注: プレイヤーはデイル・ドーソンのフットロッカーを見つける。彼はレンジャーが彼を引き渡す前に銃を抜く。プレイヤーは以下が可能:\nデイルを撃つ(すべてのギッパーが彼が銃を抜くのを見たので問題ない。)\nデイルを説得する(しかし逮捕する)\nプレイヤーがデイルを殺した場合、ステップ5に進む。\nプレイヤーがデイルを降伏させた場合、ステップ6に進む。"
        [14]
-        1 string data = "Return to Wyman "
+        1 string data = "ワイマンのもとへ戻る "
        [15]
-        1 string data = "Return to Wyman "
+        1 string data = "ワイマンのもとへ戻る "
        [16]
         1 string data = ""
        [17]
@@ -524429,17 +524429,17 @@
       1 Array Array (6 items)
        0 int size = 6
        [0]
-        1 string data = "DANGER ZONE!"
+        1 string data = "デンジャーゾーン!"
        [1]
-        1 string data = "Test the patriotic battle-show"
+        1 string data = "愛国的バトルショーをテストする"
        [2]
-        1 string data = "We successfully defended the Gippers' new toy... AND FREEDOM."
+        1 string data = "ギッパーの新しいおもちゃを無事守りきった...そして自由も。"
        [3]
-        1 string data = "WOO WOO!"
+        1 string data = "ウー ウー!"
        [4]
         1 string data = ""
        [5]
-        1 string data = "It's the AMERICAAAAAAN WAAAAAY"
+        1 string data = "これがアメリカァァァンの流儀だ"
    [1727]
     0 StringTable data
      1 string Filename = "mission_b3001_killandclear"
@@ -524529,43 +524529,43 @@
       1 Array Array (19 items)
        0 int size = 19
        [0]
-        1 string data = "The New Frontier"
+        1 string data = "新たなるフロンティア"
        [1]
-        1 string data = "Harvest lion brains"
+        1 string data = "ライオンの脳を収穫する"
        [2]
-        1 string data = "Return to the Gippers"
+        1 string data = "ギッパーズのもとへ戻る"
        [3]
-        1 string data = "BLOOD BLOOD BLOOD"
+        1 string data = "血だ 血だ 血だ"
        [4]
-        1 string data = "ARGLE"
+        1 string data = "アーグル"
        [5]
-        1 string data = "My face or yours?"
+        1 string data = "俺の顔か? それともお前の顔か?"
        [6]
-        1 string data = "Redeemed ten 'bounties'"
+        1 string data = "10個の「報奨金」を換金した"
        [7]
-        1 string data = "Winners don't go crazy"
+        1 string data = "勝者は狂わない"
        [8]
-        1 string data = "Kill psychic lions and collect their brains."
+        1 string data = "サイキック・ライオンを殺して脳を集める。"
        [9]
-        1 string data = "Kill Lions."
+        1 string data = "ライオンを殺す。"
        [10]
-        1 string data = "When Rangers return to Teddy with pieces of meat, they can get information on what's happening to them."
+        1 string data = "レンジャーが肉片を持ってテディのもとに戻ると、彼らに何が起きているのか情報を得られる。"
        [11]
-        1 string data = "This should never have happened."
+        1 string data = "こんなことは起きるべきではなかった。"
        [12]
         1 string data = ""
        [13]
         1 string data = ""
        [14]
-        1 string data = "We've been rewarded for our efforts. Was it worth it?"
+        1 string data = "努力の報酬を得た。それだけの価値があったのか?"
        [15]
-        1 string data = "We quit the mission while our sanity was still intact."
+        1 string data = "正気が保たれているうちにミッションを中止した。"
        [16]
-        1 string data = "Jola has warned us that the lions are vindictive and that taking this mission is a bad idea."
+        1 string data = "ジョラは、ライオンたちは執念深く、このミッションを引き受けるのは悪い考えだと警告してくれた。"
        [17]
-        1 string data = "We are suffering some kind of psychic side-effects from killing these lions. "
+        1 string data = "これらのライオンを殺したことで、何らかのサイキック副作用に苦しんでいる。 "
        [18]
-        1 string data = "These... side-effects... aren't getting any better.\n\n\nWe don't feel well."
+        1 string data = "この...副作用は...少しも良くならない。\n\n\n気分が悪い。"
    [1728]
     0 StringTable data
      1 string Filename = "mission_b3001_killtentigers"
@@ -524819,101 +524819,101 @@
       1 Array Array (48 items)
        0 int size = 48
        [0]
-        1 string data = "Reagan Reborn"
+        1 string data = "リーガン・リボーン"
        [1]
-        1 string data = "Retrieve the Cybernetic Transfer Module from the Machine Commune at the Denver Airport."
+        1 string data = "デンバー空港のマシーン・コミューンからサイバネティック転送モジュールを回収する。"
        [2]
-        1 string data = "Valor erased and replaced with Reagan"
+        1 string data = "ヴァラーが消去されレーガンと置き換えられた"
        [3]
-        1 string data = "Return to Reagan, Valor, and Mother Nancy Reliance at the Western Whitehouse in the Denver Ruins."
+        1 string data = "デンバー廃墟のウェスタン・ホワイトハウスで、レーガン、ヴァラー、マザー・ナンシー・リライアンスのもとへ戻る。"
        [4]
-        1 string data = "Cured Commune"
+        1 string data = "コミューンを治療した"
        [5]
-        1 string data = "Sold to a merchant"
+        1 string data = "商人に売却した"
        [6]
-        1 string data = "Return to the Machine Intelligence Tower in the Denver Airport."
+        1 string data = "デンバー空港のマシーン・インテリジェンス・タワーに戻る。"
        [7]
-        1 string data = "Repair the M.I. Tower, cure the Machine Commune."
+        1 string data = "M.I.タワーを修理し、マシーン・コミューンを治療する。"
        [8]
-        1 string data = " Hope you're comfy, Ron."
+        1 string data = " 快適だといいな、ロン。"
        [9]
-        1 string data = " END STATE 4 - (FAIL) - Attacked the Gippers before the Transfer Ceremony."
+        1 string data = " エンド状態4 - (失敗) - 転送儀式の前にギッパーズを攻撃した。"
        [10]
-        1 string data = "At war with both Gippers and Commune"
+        1 string data = "ギッパーズとコミューンの両方と戦争状態"
        [11]
-        1 string data = "Download the Reagan AI from the Western Whitehouse in the Denver Ruins."
+        1 string data = "デンバー廃墟のウェスタン・ホワイトハウスからレーガンAIをダウンロードする。"
        [12]
-        1 string data = "Conflict with both Machine Commune and Gippers."
+        1 string data = "マシーン・コミューンとギッパーズの両方と対立。"
        [13]
-        1 string data = "Attacked Gippers before getting transfer module"
+        1 string data = "転送モジュールを入手する前にギッパーズを攻撃した"
        [14]
-        1 string data = "Reagan at Commune"
+        1 string data = "レーガンはコミューンに"
        [15]
-        1 string data = "Goodnight, sweet prince."
+        1 string data = "おやすみ、可愛い王子様。"
        [16]
-        1 string data = "Return to the Western Whitehouse with the Cybernetic Transfer Module. "
+        1 string data = "サイバネティック転送モジュールを持ってウェスタン・ホワイトハウスに戻る。 "
        [17]
-        1 string data = "Reagan destroyed"
+        1 string data = "レーガン破壊された"
        [18]
-        1 string data = "Attend an audience with the God-President inside the Western Whitehouse in the Denver Ruins."
+        1 string data = "デンバー廃墟のウェスタン・ホワイトハウス内で神大統領との謁見に出席する。"
        [19]
-        1 string data = "Took Reagan Hostage"
+        1 string data = "レーガンを人質にした"
        [20]
-        1 string data = "The God-President could use our help."
+        1 string data = "神大統領が我々の助けを必要としている。"
        [21]
-        1 string data = "The Gippers want to transfer the AI mind of "Reagan" into a human body. They need an ancient piece of technology to do it and the robots at the Machine Commune have it.\n\n\n[Reward: [Dropset: DRP_b3001_MotherReliance_ReaganReborn_Reward]]"
+        1 string data = "ギッパーズは"レーガン"のAI精神を人間の身体に転送したいと考えている。そのために古代のテクノロジーが必要だが、マシーン・コミューンのロボットがそれを持っている。\n\n\n[Reward: [Dropset: DRP_b3001_MotherReliance_ReaganReborn_Reward]]"
        [22]
-        1 string data = "We helped the Gippers erase Valor's brain, replacing him with "Reagan.""
+        1 string data = "我々はギッパーズがヴァラーの脳を消去し、"レーガン"と置き換えるのを手伝った。"
        [23]
-        1 string data = "The M.I. Tower gave us the Cybernetic Transfer Module, which can be used to download Reagan into a loyal Gipper. Alternately, we can use it to steal the Reagan intelligence and transmit it to another mainframe.\r \r [Reward: [Dropset: DRP_b3001_MotherReliance_ReaganReborn_Reward] or Party Pal robot]"
+        1 string data = "M.I.タワーはサイバネティック転送モジュールをくれた。これを使ってレーガンを忠実なギッパーにダウンロードできる。あるいは、レーガンの知能を盗んで別のメインフレームに送信することもできる。\r \r [Reward: [Dropset: DRP_b3001_MotherReliance_ReaganReborn_Reward] or Party Pal robot]"
        [24]
-        1 string data = "We stole Reagan from the Gippers and delivered him successfully to the Commune."
+        1 string data = "我々はギッパーズからレーガンを盗み、コミューンに無事届けた。"
        [25]
-        1 string data = "We made everyone angry and sold Reagan to a merchant."
+        1 string data = "我々は全員を怒らせ、レーガンを商人に売った。"
        [26]
-        1 string data = "Take the Reagan intelligence to the M.I. Tower in the Machine Commune."
+        1 string data = "レーガンの知能をマシーン・コミューンのM.I.タワーに持っていく。"
        [27]
-        1 string data = "Repair the M.I. Tower, cure the Machine Commune."
+        1 string data = "M.I.タワーを修理し、マシーン・コミューンを治療する。"
        [28]
-        1 string data = " BTW, you're at war with the Gippers now, too. Good going, champ!"
+        1 string data = " ところで、お前はギッパーズとも戦争状態だ。よくやったな、チャンプ!"
        [29]
-        1 string data = " Fail state. The Rangers won't be able to get the CTM, and if they already have it, they don't have the knowledge to use it. NOTE: This only occurs if they attack the Gippers BEFORE the Transfer ceremony. This Ending is cut off once the Transfer is initiated (but the Rangers can still get into a fight with the Gippers)."
+        1 string data = " 失敗状態。レンジャーはCTMを入手できず、もし既に持っていても使う知識がない。注: これは転送儀式の前にギッパーズを攻撃した場合にのみ発生する。転送が開始されるとこのエンディングは発生しない(ただしレンジャーはギッパーズと戦闘になる可能性はある)。"
        [30]
-        1 string data = "Now that we're at war with both the Gippers AND the Machine Commune, there's no place for Reagan to go."
+        1 string data = "ギッパーズとマシーン・コミューンの両方と戦争状態になった今、レーガンの行き場はない。"
        [31]
-        1 string data = "Fight your way to the Reagan AI, then start hunting for a port that's compatible with this device.\n\n\n[Reward: Party Pal robot]"
+        1 string data = "レーガンAIまで戦い抜き、このデバイスと互換性のあるポートを探し始める。\n\n\n[Reward: Party Pal robot]"
        [32]
-        1 string data = "We ended up in a conflict with both the Gippers and the Machine Commune, so Reagan won't be "Reborn" anytime soon."
+        1 string data = "我々はギッパーズとマシーン・コミューンの両方と対立することになったため、レーガンはすぐには"リボーン"しない。"
        [33]
-        1 string data = "We decided not to play "fetch" for The Gippers. Things got messy."
+        1 string data = "我々はギッパーズの"お使い"をするのをやめた。事態は混乱した。"
        [34]
-        1 string data = "We stole Reagan from the Gippers and delivered him to the Machine Commune. In exchange, the Commune has sent the robot "Party Pal" to help our team."
+        1 string data = "我々はギッパーズからレーガンを盗み、マシーン・コミューンに届けた。その見返りに、コミューンはロボット"パーティ・パル"を我々のチームに送ってくれた。"
        [35]
         1 string data = ""
        [36]
-        1 string data = "We destroyed the Commune and took the Cybernetic Transfer Module."
+        1 string data = "我々はコミューンを破壊し、サイバネティック転送モジュールを奪った。"
        [37]
-        1 string data = "The Reagan intelligence has been destroyed."
+        1 string data = "レーガンの知能は破壊された。"
        [38]
-        1 string data = "Meet Mother Nancy Reliance and "Reagan" inside the Western Whitehouse at the north-west corner of the Denver Ruins."
+        1 string data = "デンバー廃墟の北西の角にあるウェスタン・ホワイトハウス内で、マザー・ナンシー・リライアンスと"レーガン"に会う。"
        [39]
-        1 string data = "We stole Reagan from the Gippers. He's stashed in the mainframe at Peterson Airforce base."
+        1 string data = "我々はギッパーズからレーガンを盗んだ。彼はピーターソン空軍基地のメインフレームに隠されている。"
        [40]
-        1 string data = "The Machine Intelligence Tower claims the Reagan AI is being held captive by the Gippers and wants us to free it. It warned us that the Gippers won't let us take Reagan without a fight. "
+        1 string data = "マシーン・インテリジェンス・タワーは、レーガンAIがギッパーズに捕らわれていると主張し、我々に解放するよう求めている。ギッパーズは戦わずにレーガンを渡さないと警告してきた。 "
        [41]
-        1 string data = "We got the device the Gippers asked for, but had to destroy the Machine Commune to do it. "
+        1 string data = "我々はギッパーズが求めていたデバイスを手に入れたが、そのためにマシーン・コミューンを破壊しなければならなかった。 "
        [42]
-        1 string data = "Valor explained that the Cybernetic Transfer Module was created before the war. Allegedly, it erased the brain of a human researcher, which halted its development."
+        1 string data = "ヴァラーによると、サイバネティック転送モジュールは戦争前に作られたという。伝えられるところによると、それは人間の研究者の脳を消去し、開発が中止されたという。"
        [43]
-        1 string data = "The Machine Intelligence Tower warned us that using the device to "transfer" Reagan into a human host will erase the original human's brain, effectively killing them."
+        1 string data = "マシーン・インテリジェンス・タワーは、このデバイスを使ってレーガンを人間の宿主に"転送"すると、元の人間の脳が消去され、事実上殺すことになると警告した。"
        [44]
-        1 string data = "The Machine Intelligence Tower has asked for a meeting with us. It is located in the north-east corner of the Denver Airport."
+        1 string data = "マシーン・インテリジェンス・タワーが我々との会議を求めている。デンバー空港の北東の角にある。"
        [45]
-        1 string data = "We can get the Cybernetic Transfer Module from something called the "Machine Intelligence Tower." It will radio when it's ready to talk. Until then we've been encouraged to "hang out" and talk to members of the Commune."
+        1 string data = "我々は"マシーン・インテリジェンス・タワー"と呼ばれるものからサイバネティック転送モジュールを入手できる。準備ができたら無線で連絡してくる。それまではコミューンのメンバーと"たむろ"して話すことを勧められている。"
        [46]
-        1 string data = ""Party Pal' sure knows how to make an entrance!"
+        1 string data = ""パーティ・パル'は登場の仕方を心得ているな!"
        [47]
-        1 string data = "The M.I. Tower sent Party Pal to help us."
+        1 string data = "M.I.タワーが我々を助けるためにパーティ・パルを送ってくれた。"
    [1730]
     0 StringTable data
      1 string Filename = "mission_b3001_thisland"
