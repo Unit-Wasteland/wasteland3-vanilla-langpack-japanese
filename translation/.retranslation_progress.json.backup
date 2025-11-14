@@ -9,13 +9,13 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 515662,
+    "current_line": 517028,
     "total_lines": 530425,
-    "entries_completed": 63826,
+    "entries_completed": 63891,
     "total_entries": 169712,
-    "percent_complete": 37.60,
-    "last_section": "statuseffects",
-    "last_entry_index": 427,
+    "percent_complete": 37.64,
+    "last_section": "tutorial",
+    "last_entry_index": 30,
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
@@ -34,20 +34,22 @@
     "percent_complete": 0.0
   },
   "last_session": {
-    "session_number": 452,
+    "session_number": 453,
     "date": "2025-11-14",
-    "entries_processed": 400,
+    "entries_processed": 65,
     "sections_completed": [
-      "statuseffects entries [31]-[427]"
+      "statuseffects entries [428]-[461]",
+      "test entries [6]-[9]",
+      "tutorial entries [4]-[30]"
     ],
-    "commit_hash": "2559a4c",
+    "commit_hash": "9264707",
     "validation_passed": true,
-    "notes": "Translated statuseffects section including status names, descriptions, combat effects, mutations, leadership and combo system entries. Maintained quote format strictly.",
-    "next_action": "Continue statuseffects section from line 515663"
+    "notes": "Completed final statuseffects entries and started tutorial section. Fixed quote format error in entry 434. All validations passed with zero errors.",
+    "next_action": "Continue tutorial section from line 517029 entry [31]"
   },
   "cumulative_stats": {
-    "total_sessions": 452,
-    "total_entries_translated": 63826,
+    "total_sessions": 453,
+    "total_entries_translated": 63891,
     "average_entries_per_session": 141,
     "estimated_sessions_remaining_base": 748,
     "estimated_days_remaining_base": "75-94 days"

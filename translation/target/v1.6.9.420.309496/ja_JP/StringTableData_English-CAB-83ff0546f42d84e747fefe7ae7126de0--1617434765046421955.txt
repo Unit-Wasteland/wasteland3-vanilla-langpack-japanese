@@ -517027,49 +517027,49 @@
        [30]
         1 string data = "スキルチェック"
        [31]
-        1 string data = "Certain objects require enough points in a specific Skill to use. When you interact with these objects, the most skilled member of your party will automatically attempt the check."
+        1 string data = "特定のオブジェクトを使用するには、特定のスキルに十分なポイントが必要です。これらのオブジェクトとやり取りすると、パーティで最もスキルの高いメンバーが自動的にチェックを試みます。"
        [32]
-        1 string data = "Attacking Objects"
+        1 string data = "オブジェクトへの攻撃"
        [33]
-        1 string data = "If your squad's Skills aren't high enough, sometimes brute force will still work. To break down a door, smack a misbehaving computer, or forcefully shut down a power generator, use the Attack option in the Quickbar or press [Keybind: ForceAreaAttack]. Certain objects, such as vault doors or ice walls, may require specific damage types to damage."
+        1 string data = "部隊のスキルが十分でない場合でも、時には力技がうまくいくこともあります。ドアを破壊したり、誤作動しているコンピューターをぶっ叩いたり、発電機を強制的にシャットダウンするには、クイックバーのAttackオプションを使用するか、[Keybind: ForceAreaAttack]を押してください。金庫の扉や氷の壁などの特定のオブジェクトにダメージを与えるには、特定のダメージタイプが必要な場合があります。"
        [34]
-        1 string data = "Vehicles"
+        1 string data = "車両"
        [35]
-        1 string data = "Your vehicle allows you to travel around a location more quickly, store extra items in the trunk, and attack in combat. It cannot be permanently destroyed, but if damaged enough, it will require repairs. You must take it with you when you leave a location to the World Map."
+        1 string data = "車両を使用すると、ロケーション内をより速く移動でき、トランクに追加のアイテムを保管でき、戦闘で攻撃できます。完全に破壊されることはありませんが、十分にダメージを受けると修理が必要になります。ロケーションからワールドマップに移動する際は、車両を一緒に持っていく必要があります。"
        [36]
-        1 string data = "Character Creation"
+        1 string data = "キャラクター作成"
        [37]
-        1 string data = "Welcome to Wasteland 3, Ranger. On this screen, you will create your starting Ranger. In addition to your appearance, you may pick a pre-set Specialization, or fully customize your Attributes, Skills, and other details."
+        1 string data = "Wasteland 3へようこそ、レンジャー。この画面で、スタート時のレンジャーを作成します。外見に加えて、プリセットの専門化を選択したり、属性、スキル、その他の詳細を完全にカスタマイズしたりできます。"
        [38]
-        1 string data = "Movement"
+        1 string data = "移動"
        [39]
-        1 string data = "To move to a specific spot, right-click on the ground. You can also continue holding it down to follow the direction of the mouse cursor."
+        1 string data = "特定の場所に移動するには、地面を右クリックします。また、押し続けることでマウスカーソルの方向に従うこともできます。"
        [40]
-        1 string data = "You need to find safety. Use [Keybind: ToggleTargetingMode] to move your character."
+        1 string data = "安全な場所を見つける必要があります。[Keybind: ToggleTargetingMode]を使用してキャラクターを移動させてください。"
        [41]
-        1 string data = "You need to find safety. Use [Keybind: ToggleTargetingMode] to move your character."
+        1 string data = "安全な場所を見つける必要があります。[Keybind: ToggleTargetingMode]を使用してキャラクターを移動させてください。"
        [42]
-        1 string data = "Camera"
+        1 string data = "カメラ"
        [43]
-        1 string data = "You can zoom the camera in and out by using [Keybind: ZoomIn] and [Keybind: ZoomOut], and rotate it by holding down [Keybind: Zoom] while dragging the cursor, or by pressing [Keybind: RotateCameraClockwise] and [Keybind: RotateCameraCounterclockwise]. The camera will automatically follow you as you move, but you can manually pan the camera by either moving the cursor to the edge of the screen, or using [Keybind: ]. If you want to reset the camera to its default orientation, press [Keybind: ResetCameraAngle]."
+        1 string data = "[Keybind: ZoomIn]と[Keybind: ZoomOut]を使用してカメラをズームイン・アウトでき、[Keybind: Zoom]を押しながらカーソルをドラッグするか、[Keybind: RotateCameraClockwise]と[Keybind: RotateCameraCounterclockwise]を押すことで回転できます。カメラは移動に合わせて自動的に追従しますが、カーソルを画面の端に移動するか、[Keybind: ]を使用して手動でカメラをパンすることもできます。カメラをデフォルトの向きにリセットしたい場合は、[Keybind: ResetCameraAngle]を押してください。"
        [44]
-        1 string data = "You can zoom and rotate the camera in and out by using [Keybind: Zoom]. The camera will automatically follow you as you move. To manually pan the camera, you can press [Keybind: ChangeCameraMode] to switch camera mode, then use [Keybind: Zoom] to pan in a direction."
+        1 string data = "[Keybind: Zoom]を使用してカメラをズームイン・アウトおよび回転できます。カメラは移動に合わせて自動的に追従します。手動でカメラをパンするには、[Keybind: ChangeCameraMode]を押してカメラモードを切り替え、[Keybind: Zoom]を使用して方向をパンできます。"
        [45]
-        1 string data = "You can zoom and rotate the camera in and out by using [Keybind: Zoom]. The camera will automatically follow you as you move. To manually pan the camera, you can press [Keybind: ChangeCameraMode] to switch camera mode, then use [Keybind: Zoom] to pan in a direction."
+        1 string data = "[Keybind: Zoom]を使用してカメラをズームイン・アウトおよび回転できます。カメラは移動に合わせて自動的に追従します。手動でカメラをパンするには、[Keybind: ChangeCameraMode]を押してカメラモードを切り替え、[Keybind: Zoom]を使用して方向をパンできます。"
        [46]
-        1 string data = "You can zoom and rotate the camera in and out by using [Keybind: Zoom]. The camera will automatically follow you as you move. To manually pan the camera, you can press [Keybind: ChangeCameraMode] to switch camera mode, then use [Keybind: Zoom] to pan in a direction."
+        1 string data = "[Keybind: Zoom]を使用してカメラをズームイン・アウトおよび回転できます。カメラは移動に合わせて自動的に追従します。手動でカメラをパンするには、[Keybind: ChangeCameraMode]を押してカメラモードを切り替え、[Keybind: Zoom]を使用して方向をパンできます。"
        [47]
-        1 string data = "Conversation"
+        1 string data = "会話"
        [48]
-        1 string data = "When in Conversation, your party leader will speak most of the time. The options you pick from the list will determine how characters respond to you, and may have important consequences."
+        1 string data = "会話中、パーティリーダーがほとんどの時間話します。リストから選択したオプションによって、キャラクターがあなたにどう反応するかが決まり、重要な結果をもたらす可能性があります。"
        [49]
-        1 string data = "Multiplayer Conversations"
+        1 string data = "マルチプレイヤー会話"
        [50]
-        1 string data = "During Multiplayer, if both you and your friend are in a Conversation, only one player will be able to pick Conversation options. However, that player may offer to switch control to the other player at any time if they wish."
+        1 string data = "マルチプレイヤー中、あなたと友達の両方が会話中の場合、1人のプレイヤーだけが会話オプションを選択できます。ただし、そのプレイヤーは、希望すればいつでも他のプレイヤーにコントロールを切り替えることができます。"
        [51]
-        1 string data = "Conversation Skill Checks"
+        1 string data = "会話スキルチェック"
        [52]
-        1 string data = "During Conversations, you may see options which require a certain Skill Level. Using one of these options will automatically pick the character who is most trained in that Skill, provided they are nearby."
+        1 string data = "会話中、特定のスキルレベルを必要とするオプションが表示されることがあります。これらのオプションのいずれかを使用すると、そのスキルで最も訓練されたキャラクターが自動的に選択されます（近くにいる場合）。"
        [53]
         1 string data = " Deprecated"
        [54]
@@ -517081,457 +517081,457 @@
        [57]
         1 string data = " Deprecated"
        [58]
-        1 string data = "Your Inventory Screen shows all the items you are carrying. You can left-click and drag items to move, equip, or unequip them. You can also right-click to see all your available options with a specific item."
+        1 string data = "インベントリ画面には、所持しているすべてのアイテムが表示されます。アイテムを左クリックしてドラッグして、移動、装備、装備解除できます。また、特定のアイテムで利用可能なすべてのオプションを表示するには、右クリックします。"
        [59]
-        1 string data = "Inventory Screen"
+        1 string data = "インベントリ画面"
        [60]
-        1 string data = "Formations"
+        1 string data = "フォーメーション"
        [61]
-        1 string data = "You now have several members in your party. You can switch their current arrangement by left-clicking on the Formation Button on the HUD, or pressing [Keybind: ChangeFormation]."
+        1 string data = "パーティに複数のメンバーがいます。HUDのFormation Buttonを左クリックするか、[Keybind: ChangeFormation]を押すことで、現在の配置を切り替えることができます。"
        [62]
-        1 string data = "You now have several members in your party. You can switch their current arrangement by pressing [Keybind: ChangeFormation]."
+        1 string data = "パーティに複数のメンバーがいます。[Keybind: ChangeFormation]を押すことで、現在の配置を切り替えることができます。"
        [63]
-        1 string data = "You now have several members in your party. You can switch their current arrangement by pressing [Keybind: ChangeFormation]."
+        1 string data = "パーティに複数のメンバーがいます。[Keybind: ChangeFormation]を押すことで、現在の配置を切り替えることができます。"
        [64]
-        1 string data = "Squad Order"
+        1 string data = "部隊の順序"
        [65]
-        1 string data = "You can also change your squad's current ordering by left-clicking and dragging their portraits on the HUD. In Group Movement Mode, this also lets you rearrange your squad members into separate control groups."
+        1 string data = "HUDでポートレートを左クリックしてドラッグすることで、部隊の現在の順序を変更することもできます。グループ移動モードでは、部隊メンバーを別々のコントロールグループに再配置することもできます。"
        [66]
-        1 string data = "Starting Combat"
+        1 string data = "戦闘開始"
        [67]
-        1 string data = "Your enemies haven't detected you yet. You can split up your squad members by pressing [Keybind: ToggleGroupMode].\n\n\nOnce you are in position, get the first strike by pressing [Keybind: ForceAreaAttack] and targeting an enemy.\n"
+        1 string data = "敵はまだあなたを検出していません。[Keybind: ToggleGroupMode]を押して部隊メンバーを分散させることができます。\n\n\n位置についたら、[Keybind: ForceAreaAttack]を押して敵をターゲットにして先制攻撃を仕掛けましょう。\n"
        [68]
-        1 string data = "Your enemies haven't detected you yet. You can split up your squad members by pressing [Keybind: ToggleGroupMode].\n\n\nOnce you are in position, get the first strike by pressing [Keybind: ForceAreaAttack] and targeting an enemy."
+        1 string data = "敵はまだあなたを検出していません。[Keybind: ToggleGroupMode]を押して部隊メンバーを分散させることができます。\n\n\n位置についたら、[Keybind: ForceAreaAttack]を押して敵をターゲットにして先制攻撃を仕掛けましょう。"
        [69]
-        1 string data = "Your enemies haven't detected you yet. You can split up your squad members by pressing [Keybind: ToggleGroupMode]."
+        1 string data = "敵はまだあなたを検出していません。[Keybind: ToggleGroupMode]を押して部隊メンバーを分散させることができます。"
        [70]
-        1 string data = "Reload"
+        1 string data = "リロード"
        [71]
-        1 string data = "Your weapon is out of ammo. Press [Keybind: Reload] or left-click the Reload button on the HUD to reload it."
+        1 string data = "武器の弾薬が切れています。[Keybind: Reload]を押すか、HUDのReloadボタンを左クリックしてリロードしてください。"
        [72]
-        1 string data = "Your weapon is out of ammo. Press [Keybind: Reload] to reload it."
+        1 string data = "武器の弾薬が切れています。[Keybind: Reload]を押してリロードしてください。"
        [73]
-        1 string data = "Your weapon is out of ammo. Press [Keybind: Reload] to reload it."
+        1 string data = "武器の弾薬が切れています。[Keybind: Reload]を押してリロードしてください。"
        [74]
-        1 string data = "You found some equipment. Press the [Keybind: Inventory] button to open the Inventory Screen."
+        1 string data = "装備を見つけました。[Keybind: Inventory]ボタンを押してインベントリ画面を開いてください。"
        [75]
-        1 string data = "You found some equipment. Press [Keybind: Inventory] to open the Inventory Screen."
+        1 string data = "装備を見つけました。[Keybind: Inventory]を押してインベントリ画面を開いてください。"
        [76]
-        1 string data = "Vehicles & Combat"
+        1 string data = "車両と戦闘"
        [77]
-        1 string data = "Your vehicle can be a powerful asset in combat. It can move, provide cover to your on-foot squad members, attack enemies with its turret, and even crush certain cover and enemies under its treads! Watch out, though, as running over destructable cover will damage your vehicle a little. Trust us, it's worth it."
+        1 string data = "車両は戦闘で強力な資産となり得ます。移動でき、歩行中の部隊メンバーにカバーを提供し、タレットで敵を攻撃し、特定のカバーや敵をキャタピラで踏み潰すこともできます！ただし、破壊可能なカバーを踏み越えると車両に少しダメージが入るので注意してください。でも信じてください、それだけの価値はあります。"
        [78]
-        1 string data = "Vehicle Wrecked"
+        1 string data = "車両破壊"
        [79]
-        1 string data = "When combat begins, all your squad members will hop out of your vehicle, except for the driver. Your vehicle gets its own turn in the turn order, and always moves before the rest of your party. It uses Action Points to move and attack, just like your other squad members."
+        1 string data = "戦闘が始まると、運転手を除くすべての部隊メンバーが車両から降ります。車両はターン順で独自のターンを持ち、常にパーティの他のメンバーより先に移動します。他の部隊メンバーと同様に、アクションポイントを使用して移動および攻撃します。"
        [80]
-        1 string data = "Vehicle Damage"
+        1 string data = "車両ダメージ"
        [81]
-        1 string data = "Your vehicle has CON and an Armor rating, just like your squad members. To bring your vehicle's CON back up, you can use Repair Kits."
+        1 string data = "車両は部隊メンバーと同様にCONとアーマー評価を持っています。車両のCONを回復するには、修理キットを使用できます。"
        [82]
-        1 string data = "Your vehicle has been wrecked! While wrecked, it cannot move, attack, or provide cover. To repair it, interact with it with one of your squad members, or use a Repair Kit on it."
+        1 string data = "車両が破壊されました！破壊されている間、移動、攻撃、カバーの提供ができません。修理するには、部隊メンバーの1人で車両とやり取りするか、修理キットを使用してください。"
        [83]
-        1 string data = "Healing Items"
+        1 string data = "回復アイテム"
        [84]
-        1 string data = "To heal damage you may have taken, you can use items by left-clicking the buttons on the Quickbar. Painkillers can be used by anyone, while Medic Packs require the First Aid skill to use."
+        1 string data = "受けたダメージを回復するには、クイックバーのボタンを左クリックしてアイテムを使用できます。鎮痛剤は誰でも使用できますが、メディックパックを使用するにはFirst Aidスキルが必要です。"
        [85]
-        1 string data = "To heal damage you may have taken, you can use items by pressing [Keybind: RadialCombatAction] and selecting them from the menu. Painkillers can be used by anyone, while Medic Packs require the First Aid skill to use."
+        1 string data = "受けたダメージを回復するには、[Keybind: RadialCombatAction]を押してメニューからアイテムを選択して使用できます。鎮痛剤は誰でも使用できますが、メディックパックを使用するにはFirst Aidスキルが必要です。"
        [86]
-        1 string data = "To heal damage you may have taken, you can use items by pressing [Keybind: RadialCombatAction] and selecting them from the menu. Painkillers can be used by anyone, while Medic Packs require the Medicine skill to use."
+        1 string data = "受けたダメージを回復するには、[Keybind: RadialCombatAction]を押してメニューからアイテムを選択して使用できます。鎮痛剤は誰でも使用できますが、メディックパックを使用するにはMedicineスキルが必要です。"
        [87]
-        1 string data = "Sneak Attacks"
+        1 string data = "奇襲攻撃"
        [88]
-        1 string data = "If enemies haven't spotted you yet, you can get the first strike on them by left-clicking the Attack button on the Quickbar, or pressing [Keybind: ForceAreaAttack]. Pull off the attack without being detected, and combat will begin in your favor."
+        1 string data = "敵にまだ見つかっていない場合、クイックバーのAttackボタンを左クリックするか、[Keybind: ForceAreaAttack]を押すことで先制攻撃を仕掛けることができます。検出されずに攻撃を成功させれば、有利に戦闘を開始できます。"
        [89]
-        1 string data = "If enemies haven't spotted you yet, you can get the first strike on them by pressing [Keybind: ToggleTargetingMode] near a hostile enemy and targeting them. Pull off the attack without being detected, and combat will begin in your favor."
+        1 string data = "敵にまだ見つかっていない場合、敵対的な敵の近くで[Keybind: ToggleTargetingMode]を押してターゲットにすることで先制攻撃を仕掛けることができます。検出されずに攻撃を成功させれば、有利に戦闘を開始できます。"
        [90]
-        1 string data = "If enemies haven't spotted you yet, you can get the first strike on them by pressing [Keybind: ToggleTargetingMode] near a hostile enemy and targeting them. Pull off the attack without being detected, and combat will begin in your favor."
+        1 string data = "敵にまだ見つかっていない場合、敵対的な敵の近くで[Keybind: ToggleTargetingMode]を押してターゲットにすることで先制攻撃を仕掛けることができます。検出されずに攻撃を成功させれば、有利に戦闘を開始できます。"
        [91]
-        1 string data = "Doctors"
+        1 string data = "医者"
        [92]
-        1 string data = "Doctors are characters you can find around Colorado that will fully heal your party and remove any negative Status Effects - sometimes for a fee. Many will also sell medical supplies to you."
+        1 string data = "医者はコロラド州内で見つけることができるキャラクターで、パーティを完全に回復し、マイナスのステータス効果を除去してくれます（有料の場合もあります）。多くの医者は医療用品も販売しています。"
        [93]
-        1 string data = "Trading Items"
+        1 string data = "アイテムの取引"
        [94]
-        1 string data = "In multiplayer, it can be important to share and exchange items and equipment. To do this, open the Inventory Screen and use the Trade option."
+        1 string data = "マルチプレイヤーでは、アイテムや装備を共有・交換することが重要になることがあります。これを行うには、インベントリ画面を開いてTradeオプションを使用します。"
        [95]
-        1 string data = "Combat Order"
+        1 string data = "戦闘順序"
        [96]
-        1 string data = "In combat, each member of your party has their own Action Points, and can be moved in any order during your turn.\n\n\nOnce you end your turn, all other characters will take theirs before you can go again."
+        1 string data = "戦闘では、パーティの各メンバーが独自のアクションポイントを持ち、ターン中に任意の順序で移動できます。\n\n\nターンを終了すると、他のすべてのキャラクターがターンを取り、その後再びあなたのターンになります。"
        [97]
-        1 string data = "Energy Weapons"
+        1 string data = "エネルギー兵器"
        [98]
-        1 string data = "You've found an Energy Weapon! Not only do these advanced weapons bypass enemy Armor, but they also get bonus Crit Chance and Crit Damage when targeting Conductive enemies. Increase your Weird Science skill to become more effective with Energy Weapons."
+        1 string data = "エネルギー兵器を見つけました！これらの先進的な兵器は敵のアーマーをバイパスするだけでなく、導電性の敵をターゲットにすると、ボーナスのクリティカル率とクリティカルダメージを得られます。Weird Scienceスキルを上げると、エネルギー兵器がより効果的になります。"
        [99]
-        1 string data = "Ranger Recruits"
+        1 string data = "レンジャー新兵"
        [100]
-        1 string data = "You can now recruit new Rangers. You can have up to 4 Rangers at once (including starting characters), and 6 total including Companions, such as Marshal Kwon.\n\n\nBuilding a full squad of Rangers will make it easier to defeat enemies in combat, give you more Skills to utilize, and make your mission in Colorado more likely to succeed."
+        1 string data = "新しいレンジャーを募集できるようになりました。一度に最大4人のレンジャー（スタートキャラクターを含む）、マーシャル・クウォンなどのコンパニオンを含めて合計6人を持つことができます。\n\n\nレンジャーのフルチームを編成すると、戦闘で敵を倒しやすくなり、利用できるスキルが増え、コロラド州でのミッションが成功しやすくなります。"
        [101]
-        1 string data = "If your squad's Skills aren't high enough, sometimes brute force will still work. To break down a door, smack a misbehaving computer, or forcefully shut down a power generator, press [Keybind: RadialCombatAction] and select the Attack option. Certain objects, such as vault doors or ice walls, may require specific damage types to damage."
+        1 string data = "部隊のスキルが十分でない場合でも、時には力技がうまくいくこともあります。ドアを破壊したり、誤作動しているコンピューターをぶっ叩いたり、発電機を強制的にシャットダウンするには、[Keybind: RadialCombatAction]を押してAttackオプションを選択してください。金庫の扉や氷の壁などの特定のオブジェクトにダメージを与えるには、特定のダメージタイプが必要な場合があります。"
        [102]
-        1 string data = "If your squad's Skills aren't high enough, sometimes brute force will still work. To break down a door, smack a misbehaving computer, or forcefully shut down a power generator, press [Keybind: RadialCombatAction] and select the Attack option. Certain objects, such as vault doors or ice walls, may require specific damage types to damage."
+        1 string data = "部隊のスキルが十分でない場合でも、時には力技がうまくいくこともあります。ドアを破壊したり、誤作動しているコンピューターをぶっ叩いたり、発電機を強制的にシャットダウンするには、[Keybind: RadialCombatAction]を押してAttackオプションを選択してください。金庫の扉や氷の壁などの特定のオブジェクトにダメージを与えるには、特定のダメージタイプが必要な場合があります。"
        [103]
-        1 string data = "Vehicle Upgrades"
+        1 string data = "車両アップグレード"
        [104]
-        1 string data = "You've unlocked a vehicle upgrade. Go back to your garage at Ranger HQ to install it!"
+        1 string data = "車両アップグレードをアンロックしました。レンジャーHQのガレージに戻ってインストールしてください！"
        [105]
-        1 string data = "Injuries"
+        1 string data = "負傷"
        [106]
-        1 string data = "Upon being revived, your characters will suffer a lasting Injury. Injuries can only be removed with an Injury Kit item, or by getting treatment from a Doctor NPC. Each Injury your Downed Rangers suffer from will decrease their stats, and reduce the time you have to revive them if they are Downed again."
+        1 string data = "蘇生されると、キャラクターは持続的な負傷を受けます。負傷は負傷キットアイテム、または医者NPCの治療でのみ除去できます。倒れたレンジャーが受けた各負傷はステータスを低下させ、再び倒れた場合の蘇生時間を短縮します。"
        [107]
-        1 string data = "Vehicle Upgrades"
+        1 string data = "車両アップグレード"
        [108]
-        1 string data = "You've unlocked a vehicle upgrade. Return to Ranger HQ to install it onto the Kodiak!"
+        1 string data = "車両アップグレードをアンロックしました。レンジャーHQに戻ってコディアックにインストールしてください！"
        [109]
-        1 string data = "Attacking"
+        1 string data = "攻撃"
        [110]
-        1 string data = "Left-click an enemy within your weapon's range to attack them. Enemies within your attack range will show your Hit Chance above their head."
+        1 string data = "武器の射程内にいる敵を左クリックして攻撃します。攻撃範囲内の敵は頭上に命中率が表示されます。"
        [111]
         1 string data = "Blank Test Made By Mistake"
        [112]
-        1 string data = "Basic Movement"
+        1 string data = "基本移動"
        [113]
-        1 string data = "To move your characters, right-click on the ground where you'd like to go. You can also hold down the mouse button and your characters will follow your mouse cursor. Try it now to proceed with your mission."
+        1 string data = "キャラクターを移動させるには、行きたい場所の地面を右クリックします。また、マウスボタンを押し続けると、キャラクターがマウスカーソルに従います。今すぐ試してミッションを進めてください。"
        [114]
-        1 string data = "Vehicle Turret Online!"
+        1 string data = "車両タレットオンライン！"
        [115]
         1 string data = "<i> Edit </i>"
        [116]
-        1 string data = "It's time to even the odds! Left-click on the vehicle or use [Keybind: SelectNextCharacter] to select it, then attack the Dorsey War-bot to take it out."
+        1 string data = "形勢を逆転させる時です！車両を左クリックするか、[Keybind: SelectNextCharacter]を使用して選択し、ドーシー・ウォーボットを攻撃して倒してください。"
        [117]
-        1 string data = "Taking Cover"
+        1 string data = "カバーに入る"
        [118]
-        1 string data = "Quick, take cover! Taking cover protects you from enemy gunfire and improves your weapon's Hit Chance. There are two types of cover: Low and High. High cover provides the best protection. Watch out, though - cover only protects you from attacks coming from that direction."
+        1 string data = "早く、カバーに入れ！カバーに入ると敵の銃撃から身を守り、武器の命中率が向上します。カバーには低カバーと高カバーの2種類があります。高カバーは最高の防護を提供します。ただし注意してください - カバーはその方向からの攻撃のみを防ぎます。"
        [119]
-        1 string data = "Enemy Detection"
+        1 string data = "敵の検出"
        [120]
-        1 string data = "Look out, there's a big ass robot ahead! Luckily, it doesn't see you yet. Stay out of its detection range to go unnoticed. You can get the first turn in combat by attacking an enemy before it's spotted you. However, we cannot stress enough how badly that robot will fuck you up right now."
+        1 string data = "気をつけろ、前方にクソでかいロボットがいる！幸いにも、まだこちらを見ていません。検出範囲外に留まって気づかれないようにしましょう。敵に見つかる前に攻撃すれば、戦闘で先手を取れます。ただし、今そのロボットがあなたをどれだけボコボコにするか、強調してもしきれません。"
        [121]
-        1 string data = "Flanking"
+        1 string data = "側面攻撃"
        [122]
-        1 string data = "That enemy has taken cover! To flank them, try moving to a new firing position on the battlefield by hovering on a grid space with the mouse cursor and right-clicking."
+        1 string data = "あの敵はカバーに入っています！側面を突くには、マウスカーソルをグリッドスペースに合わせて右クリックすることで、戦場の新しい射撃位置に移動してみてください。"
        [123]
-        1 string data = "Group vs. Individual Selection"
+        1 string data = "グループ vs. 個別選択"
        [124]
-        1 string data = "You’re now controlling a single character. This is useful when setting up before a fight, or navigating past land mines and traps. However, while exploring the world, it's generally better to keep your entire squad together. You can quickly select everyone by pressing [Keybind: ToggleGroupMode], or by left-clicking and dragging the cursor to box-select your entire group."
+        1 string data = "現在、1人のキャラクターを操作しています。これは戦闘前のセットアップや地雷・罠を回避する際に便利です。ただし、世界を探索する際は、通常部隊全体を一緒に保つ方が良いでしょう。[Keybind: ToggleGroupMode]を押すか、カーソルを左クリックしてドラッグしてグループ全体をボックス選択することで、すばやく全員を選択できます。"
        [125]
-        1 string data = "Healing After Combat"
+        1 string data = "戦闘後の回復"
        [126]
-        1 string data = "Your Rangers are injured! Fortunately, they are also equipped with Med Hypos they can use to heal themselves. To use one, left-click your Items button in the Quickbar, then left-click on the Med Hypo."
+        1 string data = "レンジャーが負傷しています！幸いにも、彼らは自分自身を回復するために使用できるメディック・ハイポを装備しています。使用するには、クイックバーのItemsボタンを左クリックし、次にメディック・ハイポを左クリックします。"
        [127]
-        1 string data = "Healing In Combat"
+        1 string data = "戦闘中の回復"
        [128]
-        1 string data = "This Ranger is injured! Fortunately, they are also equipped with Med Hypos they can use to heal themself. To use one, left-click your Items button in the Quickbar, then left-click on the Med Hypo."
+        1 string data = "このレンジャーが負傷しています！幸いにも、自分自身を回復するために使用できるメディック・ハイポを装備しています。使用するには、クイックバーのItemsボタンを左クリックし、次にメディック・ハイポを左クリックします。"
        [129]
-        1 string data = "Leveling Up"
+        1 string data = "レベルアップ"
        [130]
-        1 string data = "Your Rangers have leveled up! Leveling up grants them extra Constitution (CON) and Skill Points to spend on upgrading their Skills. At later levels they'll also gain additional Attribute Points. To upgrade your Skills, use [Keybind: Skills], or left-click on the Inventory button, then go to the Skills tab."
+        1 string data = "レンジャーがレベルアップしました！レベルアップすると、追加の体力(CON)とスキルをアップグレードするために使用できるスキルポイントが付与されます。後のレベルでは、追加の属性ポイントも獲得できます。スキルをアップグレードするには、[Keybind: Skills]を使用するか、Inventoryボタンを左クリックしてSkillsタブに移動してください。"
        [131]
-        1 string data = "Upgrading Skills"
+        1 string data = "スキルのアップグレード"
        [132]
-        1 string data = "Leveling up rewards each character with Skill Points that can be spent to upgrade their existing Skills or learn new ones. It only costs a single Skill Point to increase a Skill early on, but this cost goes up at higher levels. Upgrade a Skill by left-clicking on the one you want to increase."
+        1 string data = "レベルアップすると、各キャラクターは既存のスキルをアップグレードしたり、新しいスキルを習得したりするために使用できるスキルポイントを獲得します。初期のうちはスキルを1つ上げるのに1つのスキルポイントしかかかりませんが、高レベルではこのコストが上がります。アップグレードしたいスキルを左クリックしてアップグレードします。"
        [133]
-        1 string data = "Looting"
+        1 string data = "略奪"
        [134]
-        1 string data = "This campsite is rife with loot. Left-click on the containers to loot them."
+        1 string data = "このキャンプサイトは略奪品で溢れています。コンテナを左クリックして略奪してください。"
        [135]
-        1 string data = "Strikes"
+        1 string data = "ストライク"
        [136]
-        1 string data = "Your Strike Meter is full! You charge up your Strike Meter each time you make a successful attack. Each weapon type has a unique Strike, a powerful special attack that can turn the tide of battle. Click the Strike button in your Quickbar, or press [Keybind: PrecisionStrike] to give it a <i>shot</i>."
+        1 string data = "ストライクメーターが満タンです！攻撃に成功するたびにストライクメーターがチャージされます。各武器タイプには固有のストライクがあり、戦況を一変させる強力な特殊攻撃です。クイックバーのStrikeボタンをクリックするか、[Keybind: PrecisionStrike]を押して<i>撃って</i>みましょう。"
        [137]
-        1 string data = "Reloading and Weapon Switching"
+        1 string data = "リロードと武器切り替え"
        [138]
-        1 string data = "You're out of ammo. You can either spend Action Points (AP) to reload your weapon with [Keybind: Reload], or you can switch to an alterate weapon if you have one."
+        1 string data = "弾薬が切れています。[Keybind: Reload]でアクションポイント(AP)を消費して武器をリロードするか、予備の武器があれば切り替えることができます。"
        [139]
-        1 string data = "Action Points"
+        1 string data = "アクションポイント"
        [140]
-        1 string data = "Action Points (AP) allow you to move, attack, and reload your weapons during combat. Each weapon costs a certain amount of AP to fire. You have enough left to fire your weapon again."
+        1 string data = "アクションポイント(AP)を使用すると、戦闘中に移動、攻撃、武器のリロードができます。各武器は発射に一定量のAPを消費します。もう一度武器を発射するのに十分なAPが残っています。"
        [141]
-        1 string data = "Spending Leftover AP"
+        1 string data = "余ったAPの使用"
        [142]
-        1 string data = "Once you've finished acting with a character, you may have Action Points (AP) left over. That's okay! You can put them to good use by opening your Quickbar and selecting one of your Final Actions - Ambush, Defend, or Prepare."
+        1 string data = "キャラクターの行動を終えた後、アクションポイント(AP)が余っている場合があります。問題ありません！クイックバーを開いてファイナルアクションの1つ（待ち伏せ、防御、準備）を選択することで、有効活用できます。"
        [143]
-        1 string data = "Upgrading Your Gear 1"
+        1 string data = "装備のアップグレード 1"
        [144]
-        1 string data = "You've looted an item upgrade! Click the Inventory button on the HUD, or use [Keybind: Inventory], to access the Inventory Screen and equip your new gear."
+        1 string data = "アイテムアップグレードを略奪しました！HUDのInventoryボタンをクリックするか、[Keybind: Inventory]を使用してインベントリ画面にアクセスし、新しい装備を装備してください。"
        [145]
-        1 string data = "Upgrading Your Gear 2"
+        1 string data = "装備のアップグレード 2"
        [146]
-        1 string data = "Let's equip your new gear! Choose a Ranger by selecting their portrait near the top of the Inventory Screen or pressing [Keybind: SelectNextCharacter]. Then, left-click and drag the item from your Inventory into the character's equipment slot, or double-click it to instantly equip it."
+        1 string data = "新しい装備を装備しましょう！インベントリ画面の上部近くでポートレートを選択するか、[Keybind: SelectNextCharacter]を押してレンジャーを選択します。次に、インベントリからアイテムを左クリックしてキャラクターの装備スロットにドラッグするか、ダブルクリックして即座に装備します。"
        [147]
-        1 string data = "Acquiring Skill Points"
+        1 string data = "スキルポイントの獲得"
        [148]
-        1 string data = "When Rangers level up, they earn Skill Points needed for Skill upgrades. Since you've just leveled up, go to the Skills tab by using the Navigation Bar at the top of the screen, or by pressing [Keybind: Skills]."
+        1 string data = "レンジャーがレベルアップすると、スキルアップグレードに必要なスキルポイントを獲得します。レベルアップしたばかりなので、画面上部のナビゲーションバーを使用するか、[Keybind: Skills]を押してSkillsタブに移動してください。"
        [149]
-        1 string data = "Combat Movement"
+        1 string data = "戦闘移動"
        [150]
-        1 string data = "During combat, your Rangers may need to take cover or change attack positions. Blue spaces are areas a Ranger can move to with enough Action Points (AP) left for an attack. Orange spaces are areas within their maximum movement range. The red target preview lines show if their new positions place them within targeting range."
+        1 string data = "戦闘中、レンジャーはカバーに入ったり攻撃位置を変えたりする必要があるかもしれません。青いスペースは、攻撃に十分なアクションポイント(AP)を残してレンジャーが移動できるエリアです。オレンジ色のスペースは、最大移動範囲内のエリアです。赤いターゲットプレビューラインは、新しい位置がターゲット範囲内にあるかどうかを示します。"
        [151]
-        1 string data = "Inventory Intro"
+        1 string data = "インベントリ紹介"
        [152]
-        1 string data = "Welcome to the Inventory Screen! From here, you'll be able to see all the items you are carrying, view their stats and information, equip them to your characters, and more. There are no limits on the number of items you can carry at once."
+        1 string data = "インベントリ画面へようこそ！ここでは、所持しているすべてのアイテムを見たり、ステータスや情報を確認したり、キャラクターに装備したりできます。一度に持ち運べるアイテムの数に制限はありません。"
        [153]
-        1 string data = "Accessing Item Options"
+        1 string data = "アイテムオプションへのアクセス"
        [154]
-        1 string data = "You can right-click on any of your items to see extra actions you can do with them. For example, this is an easy way to quickly heal up your Rangers after combat."
+        1 string data = "アイテムを右クリックすると、そのアイテムでできる追加のアクションを表示できます。たとえば、これは戦闘後にレンジャーをすばやく回復させる簡単な方法です。"
        [155]
-        1 string data = "Inventory - Viewing Stats"
+        1 string data = "インベントリ - ステータス表示"
        [156]
-        1 string data = "To view your characters' stats, you can left-click the Derived Stats button while in the Inventory Screen. These stats are primarily determined by your Attributes, but certain Skills, your equipment, and any active Status Effects will influence them as well."
+        1 string data = "キャラクターのステータスを表示するには、インベントリ画面でDerived Statsボタンを左クリックします。これらのステータスは主に属性によって決定されますが、特定のスキル、装備、アクティブなステータス効果も影響します。"
        [157]
-        1 string data = "Inventory - Crafting"
+        1 string data = "インベントリ - クラフト"
        [158]
-        1 string data = "You also have the ability to craft new items out of the junk you collect. You can access the Crafting Screen here."
+        1 string data = "収集したジャンクから新しいアイテムをクラフトすることもできます。クラフト画面にはここからアクセスできます。"
        [159]
-        1 string data = "Inventory - Field Stripping"
+        1 string data = "インベントリ - フィールド分解"
        [160]
-        1 string data = "Any weapon can be broken down into spare parts by Field Stripping it. If you have a very low Barter skill, you can sometimes get a better price from Merchants for the parts than the weapon itself. With the Scrounger's Touch perk, Field Stripping also has a chance to grant Weapon Mods."
+        1 string data = "どの武器もフィールド分解することで予備のパーツに分解できます。Barterスキルが非常に低い場合、パーツの方が武器自体よりも商人から良い価格を得られることがあります。Scrounger's Touchパークを持っている場合、フィールド分解で武器モッドを獲得できる可能性もあります。"
        [161]
-        1 string data = "Increasing Attributes"
+        1 string data = "属性の上昇"
        [162]
-        1 string data = "Starting at level three, your Rangers will earn one Attribute Point per level. Attributes always cost one point to upgrade. Attributes are the source of all your vital stats. Want to live longer, run faster, shoot straighter, or hit harder? There’s an Attribute for that."
+        1 string data = "レベル3から、レンジャーはレベルごとに1つの属性ポイントを獲得します。属性のアップグレードには常に1ポイントかかります。属性はすべての重要なステータスの源です。より長く生き、より速く走り、より正確に撃ち、より強く打ちたいですか？それぞれに対応する属性があります。"
        [163]
-        1 string data = "Learning Perks"
+        1 string data = "パークの習得"
        [164]
-        1 string data = "Starting at level four, your Rangers will earn a Perk Point every other level. Perk Points are used to unlock powerful abilities and passive bonuses. Perks become available to learn as you upgrade your Skills."
+        1 string data = "レベル4から、レンジャーは1レベルおきにパークポイントを獲得します。パークポイントは強力な能力やパッシブボーナスをアンロックするために使用されます。スキルをアップグレードすると、パークが習得可能になります。"
        [165]
-        1 string data = "Perk Points"
+        1 string data = "パークポイント"
        [166]
-        1 string data = "You've earned a Perk Point! Proceed to the Perk Screen to unlock a powerful new Perk."
+        1 string data = "パークポイントを獲得しました！パーク画面に進んで強力な新しいパークをアンロックしてください。"
        [167]
-        1 string data = "Attribute Points"
+        1 string data = "属性ポイント"
        [168]
-        1 string data = "You've earned an Attribute Point! Proceed to the Attributes Screen to upgrade one of your Attributes."
+        1 string data = "属性ポイントを獲得しました！属性画面に進んで属性の1つをアップグレードしてください。"
        [169]
-        1 string data = "Quirks"
+        1 string data = "特質"
        [170]
-        1 string data = "Some Rangers are Quirkier than others. Quirks are completely optional. Selecting a Quirk gives your Ranger a powerful bonus and penalty, changing their playstyle dramatically. Character Creation is the only chance you'll have to assign a Quirk, and once you do you're stuck with it. Choose wisely."
+        1 string data = "一部のレンジャーは他よりも変わっています。特質は完全にオプションです。特質を選択すると、レンジャーに強力なボーナスとペナルティが与えられ、プレイスタイルが劇的に変わります。キャラクター作成は特質を割り当てる唯一の機会であり、一度割り当てると変更できません。賢く選んでください。"
        [171]
-        1 string data = "World Map Intro"
+        1 string data = "ワールドマップ紹介"
        [172]
-        1 string data = "The World Map allows you to traverse Colorado in your trusty Kodiak. As you explore, you'll find cities and settlements in need of your help, as well as experience Random Encounters that may bring fortune, trade, danger, or all three at once."
+        1 string data = "ワールドマップでは、信頼できるコディアックでコロラド州を横断できます。探索すると、助けを必要としている都市や集落、そして幸運、交易、危険、またはその3つすべてをもたらすランダムエンカウンターを見つけることができます。"
        [173]
-        1 string data = "World Map - Known Locations"
+        1 string data = "ワールドマップ - 既知の場所"
        [174]
-        1 string data = "You've got a tip on a new location. When you hear about a new place to explore, it'll be marked on your Map Screen with a star. It's up to you to find a safe path there."
+        1 string data = "新しい場所の情報を得ました。探索する新しい場所について聞いたら、マップ画面に星印で表示されます。そこへの安全なルートを見つけるのはあなた次第です。"
        [175]
-        1 string data = "Watch out! That glowing green cloud ahead is radiation. Radiation can damage your squad, make them sick, give them mutations, and even kill them. The severity level of a radiation hazard is shown on the Geiger Counter at the top of the screen. To navigate the fallout, find and install upgrades to the Kodiak to boost its Radiation Resistance."
+        1 string data = "気をつけて！前方に輝く緑の雲は放射線です。放射線は部隊にダメージを与え、病気にさせ、突然変異を起こさせ、さらには殺すこともあります。放射線ハザードの深刻度レベルは、画面上部のガイガーカウンターに表示されます。死の灰をナビゲートするには、コディアックのアップグレードを見つけてインストールし、放射線耐性を高めてください。"
        [176]
-        1 string data = "Radiation"
+        1 string data = "放射線"
        [177]
-        1 string data = "Hidden Objects & Perception"
+        1 string data = "隠されたオブジェクトとPerception"
        [178]
-        1 string data = "Wow, what was that? Some objects in the world are hidden. Each character in your squad has a Perception stat that indicates how well they're able to spot hidden objects like alarms, traps, or secrets."
+        1 string data = "おお、今のは何だ？世界の一部のオブジェクトは隠されています。部隊の各キャラクターには、警報、罠、秘密などの隠されたオブジェクトをどれだけうまく見つけられるかを示すPerceptionステータスがあります。"
        [179]
-        1 string data = "Companions 1"
+        1 string data = "コンパニオン 1"
        [180]
-        1 string data = "You've recruited your first Companion! Companions are a unique kind of squad member. Unlike the Rangers you create, Companions are pre-made characters that have their own personality and agenda. Piss them off and they could leave you high and dry."
+        1 string data = "最初のコンパニオンを募集しました！コンパニオンは特別な種類の部隊メンバーです。作成したレンジャーとは異なり、コンパニオンは独自の性格とアジェンダを持つ事前作成キャラクターです。怒らせると、あなたを見捨てて去る可能性があります。"
        [181]
-        1 string data = "Companions 2"
+        1 string data = "コンパニオン 2"
        [182]
-        1 string data = "You can have up to six characters in your squad. Up to four of them can be Ranger recruits, leaving at least two spots open for Companions. There's no reason not to take them along, provided you can maintain their loyalty."
+        1 string data = "部隊には最大6人のキャラクターを持つことができます。そのうち最大4人がレンジャー新兵で、少なくとも2つの枠がコンパニオンのために開いています。忠誠心を維持できれば、彼らを連れて行かない理由はありません。"
        [183]
-        1 string data = "Companions Going Rogue"
+        1 string data = "コンパニオンの暴走"
        [184]
-        1 string data = "Companions have a chance of Going Rogue. When they do, they'll sometimes perform special abilities, and other times they'll just fuck everything up. The higher your squad's average Charisma, the better chance you have of your companions performing a positive action instead of a negative one."
+        1 string data = "コンパニオンには暴走の可能性があります。暴走すると、特殊能力を発動することもあれば、すべてをめちゃくちゃにすることもあります。部隊の平均カリスマが高いほど、コンパニオンがマイナスアクションではなくプラスアクションを実行する可能性が高くなります。"
        [185]
-        1 string data = "Armor System"
+        1 string data = "アーマーシステム"
        [186]
-        1 string data = "That enemy has Armor, which means that it can block some of your incoming damage! Fortunately, all weapons have a Penetration stat. If your weapon's Penetration is equal to or greater than your enemy's Armor, your weapon will deal full damage."
+        1 string data = "その敵にはアーマーがあり、受けるダメージの一部をブロックできます！幸いにも、すべての武器にはPenetrationステータスがあります。武器のPenetrationが敵のArmor以上であれば、武器は完全なダメージを与えます。"
        [187]
-        1 string data = "Energy, Fire, Cold, and Explosion Damage"
+        1 string data = "エネルギー、火炎、冷気、爆発ダメージ"
        [188]
-        1 string data = "Elemental Weapons ignore enemy Armor entirely. The four elemental damage types are Energy, Fire, Cold, and Explosive damage. Enemies are often weak to some elemental damage types and resistant to others."
+        1 string data = "属性武器は敵のアーマーを完全に無視します。4つの属性ダメージタイプは、エネルギー、火炎、冷気、爆発ダメージです。敵は特定の属性ダメージタイプに弱く、他のものに耐性があることがよくあります。"
        [189]
-        1 string data = "Seizing Initiative"
+        1 string data = "先制権の奪取"
        [190]
-        1 string data = "When you've been spotted by an enemy, each Ranger in your squad has a chance to take the first combat turn, with a higher Initiative stat increasing that chance. To get a higher Initiative, you can increase your Speed attribute and Sneaky Shit skill."
+        1 string data = "敵に見つかった場合、部隊の各レンジャーは最初の戦闘ターンを取るチャンスがあり、Initiativeステータスが高いほどそのチャンスが増加します。より高いInitiativeを得るには、Speed属性とSneaky Shitスキルを上げることができます。"
        [191]
-        1 string data = "Crafting"
+        1 string data = "クラフト"
        [192]
-        1 string data = "Need some explosives, medical supplies, or a pet killer robot? Crafting has you covered! To craft advanced items, someone in your squad needs to have the Crafting skill. Some specialized equipment may also need additional Skills to craft, such as First Aid, Weird Science, Weapon Modding, or Armor Modding."
+        1 string data = "爆発物、医療用品、ペットのキラーロボットが必要ですか？クラフトがカバーします！高度なアイテムをクラフトするには、部隊の誰かがCraftingスキルを持っている必要があります。一部の専門装備は、First Aid、Weird Science、Weapon Modding、Armor Moddingなどの追加スキルも必要な場合があります。"
        [193]
-        1 string data = "Learning Recipes"
+        1 string data = "レシピの習得"
        [194]
-        1 string data = "You discovered a Crafting Recipe! Crafting Recipes don't appear in your Inventory Screen. Instead, they're automatically added to your Crafting Screen and can be accessed from it."
+        1 string data = "クラフトレシピを発見しました！クラフトレシピはインベントリ画面には表示されません。代わりに、自動的にクラフト画面に追加され、そこからアクセスできます。"
        [195]
-        1 string data = "Weapon & Armor Mods"
+        1 string data = "武器とアーマーのモッド"
        [196]
-        1 string data = "In the wasteland, you'll find both Weapon and Armor Mods. Installing a Mod will improve any equipment it's attached to, but once installed, they cannot be removed. To install a Mod, one of your squad members must have the necessary Weapon Modding or Armor Modding Skill Level."
+        1 string data = "荒野では、武器モッドとアーマーモッドの両方を見つけることができます。モッドをインストールすると、装着された装備が改善されますが、一度インストールすると取り外せません。モッドをインストールするには、部隊メンバーの1人が必要なWeapon ModdingまたはArmor Moddingスキルレベルを持っている必要があります。"
        [197]
-        1 string data = "Modding Your Gear"
+        1 string data = "装備のモッディング"
        [198]
-        1 string data = "To install a Weapon or Armor Mod, select the weapon or armor you want to upgrade and choose the Modify option under it. Different Mods require different Armor or Weapon Modding Skill Levels. The better the Mod, the harder it is to install."
+        1 string data = "武器またはアーマーモッドをインストールするには、アップグレードしたい武器またはアーマーを選択し、その下のModifyオプションを選択します。異なるモッドには異なるArmorまたはWeapon Moddingスキルレベルが必要です。モッドが優れているほど、インストールが困難になります。"
        [199]
-        1 string data = "Ranger HQ - Medbay"
+        1 string data = "レンジャーHQ - 医務室"
        [200]
-        1 string data = "You've unlocked the Medbay! Here you can shop for medical supplies. You can also speak to the Doctor to get free health care, including restoring any Incapacitated squad members."
+        1 string data = "医務室をアンロックしました！ここで医療用品を購入できます。また、医者に話しかけることで、無力化された部隊メンバーの復元を含む無料の医療を受けることもできます。"
        [201]
-        1 string data = "Ranger HQ - Armory"
+        1 string data = "レンジャーHQ - 武器庫"
        [202]
-        1 string data = "You've unlocked the Armory! You can come here to shop for new weapons and armor at a discounted rate!"
+        1 string data = "武器庫をアンロックしました！ここに来て割引価格で新しい武器とアーマーを購入できます！"
        [203]
-        1 string data = "Ranger HQ - Clothing Store"
+        1 string data = "レンジャーHQ - 衣料品店"
        [204]
-        1 string data = "You've unlocked Ananda the tailor! With his services, you will be able to purchase clothing items to keep your squad at the height of post-apocalyptic fashion. Ananda also sells trinkets and other assorted goods."
+        1 string data = "仕立て屋のアナンダをアンロックしました！彼のサービスで、ポストアポカリプスファッションの最先端を行く衣料品アイテムを購入できます。アナンダは装身具やその他の雑貨も販売しています。"
        [205]
-        1 string data = "Ranger HQ - Insignia Customization"
+        1 string data = "レンジャーHQ - 記章カスタマイゼーション"
        [206]
-        1 string data = "You're now able to customize your Ranger Insignia! Talk to Sgt. Greatski to select your own logo to represent the Rangers in Colorado."
+        1 string data = "レンジャー記章をカスタマイズできるようになりました！グレアツスキー軍曹に話しかけて、コロラド州のレンジャーを代表する独自のロゴを選択してください。"
        [207]
-        1 string data = "Ranger HQ - Recruiting Rangers"
+        1 string data = "レンジャーHQ - レンジャーの募集"
        [208]
-        1 string data = "Speak to Sgt. Greatski to hire new Rangers for your squad. Your squad can have up to six members. No more than four can be Rangers. The other two slots may be filled by Companions, such as Marshal Kwon. Companions are unique NPCs who aren't officially Rangers, but want to help out all the same. You'll find plenty of Companions on your journey throughout Colorado."
+        1 string data = "グレアツスキー軍曹に話しかけて、部隊に新しいレンジャーを雇ってください。部隊には最大6人のメンバーを配置できます。レンジャーは最大4人までです。他の2つの枠は、マーシャル・クウォンなどのコンパニオンで埋めることができます。コンパニオンは正式にはレンジャーではありませんが、同じように助けたいと思っているユニークなNPCです。コロラド州での旅の途中で、たくさんのコンパニオンを見つけるでしょう。"
        [209]
-        1 string data = "Ranger HQ - Garage"
+        1 string data = "レンジャーHQ - ガレージ"
        [210]
-        1 string data = "You've unlocked your Garage! From here you can customize the Kodiak to improve its stats, weaponry, abilities, and more. You can also customize its appearance, so you can ride through the wasteland in style. As you explore, you'll discover and unlock new vehicle upgrades."
+        1 string data = "ガレージをアンロックしました！ここから、コディアックをカスタマイズしてステータス、武装、能力などを改善できます。また外観もカスタマイズできるので、スタイリッシュに荒野を走行できます。探索すると、新しい車両アップグレードを発見しアンロックできます。"
        [211]
-        1 string data = "One of your Rangers has been Downed! Rangers are Downed when they reach 0 CON. They'll stay Downed for several turns before becoming Incapacitated. If another character can reach them before that happens, they can spend some of their Action Points (AP) to revive them."
+        1 string data = "レンジャーの1人が倒れました！レンジャーはCONが0になると倒れます。数ターンの間倒れた状態になり、その後無力化されます。それまでに別のキャラクターが彼らに到達できれば、アクションポイント(AP)を消費して蘇生できます。"
        [212]
-        1 string data = "Downed Rangers"
+        1 string data = "倒れたレンジャー"
        [213]
-        1 string data = "Incapacitation"
+        1 string data = "無力化"
        [214]
-        1 string data = "Oh shit! One of your Rangers has been Incapacitated. They aren't dead, but they won't be able to contribute to your squad while in that state. To resuscitate them, you can find a Doctor NPC and have them provide treatment. If you've got a Nitro Spike item handy, you can also use it to restore all Incapacitated Rangers in your squad."
+        1 string data = "やばい！レンジャーの1人が無力化されました。死んではいませんが、その状態では部隊に貢献できません。蘇生するには、医者NPCを見つけて治療してもらうことができます。ニトロ・スパイクアイテムが手元にあれば、それを使用して部隊内のすべての無力化されたレンジャーを復元することもできます。"
        [215]
-        1 string data = "Ranger HQ - Managing Your Squad"
+        1 string data = "レンジャーHQ - 部隊の管理"
        [216]
-        1 string data = "Now that you've got a full squad, you might want to kick someone out to make room for fresh blood. Talk to Sgt. Greatski to manage your squad and recruit new Rangers."
+        1 string data = "フル部隊になったので、新鮮な血を入れるために誰かを追い出したい場合があるかもしれません。グレアツスキー軍曹に話しかけて、部隊を管理し新しいレンジャーを募集してください。"
        [217]
-        1 string data = "To move your characters, use [Keybind: LeftStickUp]. You can also zoom and rotate the camera with [Keybind: Zoom]. Try it now to proceed with your mission."
+        1 string data = "キャラクターを移動させるには、[Keybind: LeftStickUp]を使用します。[Keybind: Zoom]でカメラをズーム・回転することもできます。今すぐ試してミッションを進めてください。"
        [218]
-        1 string data = "It's time to even the odds! Press [Keybind: SelectPreviousCharacter][Keybind: SelectNextCharacter] to select your vehicle, then attack the Dorsey War-bot to take it out."
+        1 string data = "形勢を逆転させる時です！[Keybind: SelectPreviousCharacter][Keybind: SelectNextCharacter]を押して車両を選択し、ドーシー・ウォーボットを攻撃して倒してください。"
        [219]
-        1 string data = "You’re now controlling a single character. This is useful when setting up before a fight, or navigating past land mines and traps. However, while exploring the world, it's generally better to keep your entire squad together. You can quickly select everyone by pressing [Keybind: ToggleGroupMode]."
+        1 string data = "現在、1人のキャラクターを操作しています。これは戦闘前のセットアップや地雷・罠を回避する際に便利です。ただし、世界を探索する際は、通常部隊全体を一緒に保つ方が良いでしょう。[Keybind: ToggleGroupMode]を押してすばやく全員を選択できます。"
        [220]
-        1 string data = "Your Rangers are injured! Fortunately, they are also equipped with Med Hypos they can use to heal themselves. To use one, select the injured Ranger with [Keybind: SelectPreviousCharacter][Keybind: SelectNextCharacter]. Then, open the Radial Menu with [Keybind: RadialCombatAction], and switch to the Quick Items Menu by pressing [Keybind: RadialCombatAction] a second time."
+        1 string data = "レンジャーが負傷しています！幸いにも、彼らは自分自身を回復するために使用できるメディック・ハイポを装備しています。使用するには、[Keybind: SelectPreviousCharacter][Keybind: SelectNextCharacter]で負傷したレンジャーを選択します。次に、[Keybind: RadialCombatAction]でラジアルメニューを開き、[Keybind: RadialCombatAction]をもう一度押してクイックアイテムメニューに切り替えます。"
        [221]
-        1 string data = "Your Rangers are injured! Fortunately, they are also equipped with Med Hypos they can use to heal themselves. To use one, select the injured Ranger with [Keybind: SelectPreviousCharacter][Keybind: SelectNextCharacter]. Then, open the Radial Menu with [Keybind: RadialCombatAction], and switch to the Quick Items Menu by pressing [Keybind: RadialCombatAction] a second time."
+        1 string data = "レンジャーが負傷しています！幸いにも、彼らは自分自身を回復するために使用できるメディック・ハイポを装備しています。使用するには、[Keybind: SelectPreviousCharacter][Keybind: SelectNextCharacter]で負傷したレンジャーを選択します。次に、[Keybind: RadialCombatAction]でラジアルメニューを開き、[Keybind: RadialCombatAction]をもう一度押してクイックアイテムメニューに切り替えます。"
        [222]
-        1 string data = "This Ranger is injured! Fortunately, they are also equipped with Med Hypos they can use to heal themself. To use one, select the injured Ranger with [Keybind: SelectPreviousCharacter][Keybind: SelectNextCharacter]. Then, open the Radial Menu with [Keybind: RadialCombatAction], and switch to the Quick Items Menu by pressing [Keybind: RadialCombatAction] a second time."
+        1 string data = "このレンジャーが負傷しています！幸いにも、自分自身を回復するために使用できるメディック・ハイポを装備しています。使用するには、[Keybind: SelectPreviousCharacter][Keybind: SelectNextCharacter]で負傷したレンジャーを選択します。次に、[Keybind: RadialCombatAction]でラジアルメニューを開き、[Keybind: RadialCombatAction]をもう一度押してクイックアイテムメニューに切り替えます。"
        [223]
-        1 string data = "This Ranger is injured! Fortunately, they are also equipped with Med Hypos they can use to heal themself. To use one, select the injured Ranger with [Keybind: SelectPreviousCharacter][Keybind: SelectNextCharacter]. Then, open the Radial Menu with [Keybind: RadialCombatAction], and switch to the Quick Items Menu by pressing [Keybind: RadialCombatAction] a second time."
+        1 string data = "このレンジャーが負傷しています！幸いにも、自分自身を回復するために使用できるメディック・ハイポを装備しています。使用するには、[Keybind: SelectPreviousCharacter][Keybind: SelectNextCharacter]で負傷したレンジャーを選択します。次に、[Keybind: RadialCombatAction]でラジアルメニューを開き、[Keybind: RadialCombatAction]をもう一度押してクイックアイテムメニューに切り替えます。"
        [224]
-        1 string data = "Your Rangers have leveled up! Leveling up grants them extra Constitution (CON) and Skill Points to spend on upgrading their Skills. At later levels they'll also gain additional Attribute Points. To upgrade your Skills, click the [Keybind: Inventory] button, then go to the Skills tab by pressing [Keybind: PreviousTab][Keybind: NextTab]."
+        1 string data = "レンジャーがレベルアップしました！レベルアップすると、追加の体力(CON)とスキルをアップグレードするために使用できるスキルポイントが付与されます。後のレベルでは、追加の属性ポイントも獲得できます。スキルをアップグレードするには、[Keybind: Inventory]ボタンをクリックし、[Keybind: PreviousTab][Keybind: NextTab]を押してSkillsタブに移動してください。"
        [225]
-        1 string data = "Your Rangers have leveled up! Leveling up grants them extra Constitution (CON) and Skill Points to spend on upgrading their Skills. At later levels they'll also gain additional Attribute Points. To upgrade your Skills, press [Keybind: Inventory], then go to the Skills tab by pressing [Keybind: PreviousTab][Keybind: NextTab]."
+        1 string data = "レンジャーがレベルアップしました！レベルアップすると、追加の体力(CON)とスキルをアップグレードするために使用できるスキルポイントが付与されます。後のレベルでは、追加の属性ポイントも獲得できます。スキルをアップグレードするには、[Keybind: Inventory]を押し、[Keybind: PreviousTab][Keybind: NextTab]を押してSkillsタブに移動してください。"
        [226]
-        1 string data = "When Rangers level up, they earn Skill Points needed for Skill upgrades. Since you've just leveled up, go to the Skills tab so you can spend your Skill Points by pressing [Keybind: PreviousTab][Keybind: NextTab]."
+        1 string data = "レンジャーがレベルアップすると、スキルアップグレードに必要なスキルポイントを獲得します。レベルアップしたばかりなので、[Keybind: PreviousTab][Keybind: NextTab]を押してSkillsタブに移動し、スキルポイントを使用できます。"
        [227]
-        1 string data = "Leveling up rewards each character with Skill Points that can be spent to upgrade their existing Skills or learn new ones. It only costs a single Skill Point to increase a Skill early on, but this cost goes up at higher levels. Upgrade a Skill by selecting the Skill you want to increase and pressing [Keybind: Submit]."
+        1 string data = "レベルアップすると、各キャラクターは既存のスキルをアップグレードしたり、新しいスキルを習得したりするために使用できるスキルポイントを獲得します。初期のうちはスキルを1つ上げるのに1つのスキルポイントしかかかりませんが、高レベルではこのコストが上がります。上げたいスキルを選択して[Keybind: Submit]を押してアップグレードします。"
        [228]
-        1 string data = "Leveling up rewards each character with Skill Points that can be spent to upgrade their existing Skills or learn new ones. It only costs a single Skill Point to increase a Skill early on, but this cost goes up at higher levels. Upgrade a Skill by selecting the Skill you want to increase and pressing [Keybind: Submit]."
+        1 string data = "レベルアップすると、各キャラクターは既存のスキルをアップグレードしたり、新しいスキルを習得したりするために使用できるスキルポイントを獲得します。初期のうちはスキルを1つ上げるのに1つのスキルポイントしかかかりませんが、高レベルではこのコストが上がります。上げたいスキルを選択して[Keybind: Submit]を押してアップグレードします。"
        [229]
-        1 string data = "This campsite is rife with loot. Walk up to containers and press [Keybind: Submit] to loot them."
+        1 string data = "このキャンプサイトは略奪品で溢れています。コンテナに近づいて[Keybind: Submit]を押して略奪してください。"
        [230]
-        1 string data = "This campsite is rife with loot. Walk up to the containers and press [Keybind: Submit] to loot them."
+        1 string data = "このキャンプサイトは略奪品で溢れています。コンテナに近づいて[Keybind: Submit]を押して略奪してください。"
        [231]
-        1 string data = "You've powered up a Strike! Strikes are powerful special attacks that can turn the tide of battle. Different weapon types have unique Strikes. Give it a try by pressing [Keybind: RadialCombatAction] and selecting your Strike ability."
+        1 string data = "ストライクをパワーアップしました！ストライクは戦況を一変させる強力な特殊攻撃です。武器タイプごとに固有のストライクがあります。[Keybind: RadialCombatAction]を押してストライク能力を選択して試してみましょう。"
        [232]
-        1 string data = "Select an enemy within your weapon's range and press [Keybind: Submit] to attack them. Enemies within your attack range will show your Hit Chance against them above their head."
+        1 string data = "武器の射程内にいる敵を選択し、[Keybind: Submit]を押して攻撃します。攻撃範囲内の敵は頭上にあなたに対する命中率が表示されます。"
        [233]
-        1 string data = "Select an enemy within your weapon's range and press [Keybind: Submit] to attack them. Enemies within your attack range will show your Hit Chance against them above their head."
+        1 string data = "武器の射程内にいる敵を選択し、[Keybind: Submit]を押して攻撃します。攻撃範囲内の敵は頭上にあなたに対する命中率が表示されます。"
        [234]
-        1 string data = "Combat is all about spending Action Points (AP) to move and attack. Different weapons cost different amounts of AP to fire. You have enough AP to fire your weapon again."
+        1 string data = "戦闘はアクションポイント(AP)を消費して移動と攻撃を行うことがすべてです。武器ごとに発射に必要なAPの量が異なります。もう一度武器を発射するのに十分なAPが残っています。"
        [235]
-        1 string data = "Once you've finished acting with a character, you may have Action Points (AP) left over. That's okay! You can put them to good use by tapping [Keybind: RadialStanceMenu] and selecting one of your Final Actions - Ambush, Defend, or Prepare."
+        1 string data = "キャラクターの行動を終えた後、アクションポイント(AP)が余っている場合があります。問題ありません！[Keybind: RadialStanceMenu]をタップしてファイナルアクションの1つ（待ち伏せ、防御、準備）を選択することで、有効活用できます。"
        [236]
-        1 string data = "Once you've finished acting with a character, you may have Action Points (AP) left over. That's okay! You can put them to good use by tapping [Keybind: RadialStanceMenu] and selecting one of your Final Actions - Ambush, Defend, or Prepare."
+        1 string data = "キャラクターの行動を終えた後、アクションポイント(AP)が余っている場合があります。問題ありません！[Keybind: RadialStanceMenu]をタップしてファイナルアクションの1つ（待ち伏せ、防御、準備）を選択することで、有効活用できます。"
        [237]
-        1 string data = "You've looted an item upgrade! You can view and equip it from your Inventory Screen. To access your Inventory, click the [Keybind: Inventory] button."
+        1 string data = "アイテムアップグレードを略奪しました！インベントリ画面から表示・装備できます。インベントリにアクセスするには、[Keybind: Inventory]ボタンをクリックします。"
        [238]
-        1 string data = "You've looted an item upgrade! You can view and equip it from your Inventory Screen. To access your Inventory, press [Keybind: Inventory]."
+        1 string data = "アイテムアップグレードを略奪しました！インベントリ画面から表示・装備できます。インベントリにアクセスするには、[Keybind: Inventory]を押します。"
        [239]
-        1 string data = "Let's equip your new gear! Select your new item, press [Keybind: Submit], and select "Equip" to equip it. If you want to change which Ranger to equip it onto, select a different Ranger using [Keybind: SelectPreviousCharacter][Keybind: SelectNextCharacter]."
+        1 string data = "新しい装備を装備しましょう！新しいアイテムを選択し、[Keybind: Submit]を押して、"Equip"を選択して装備します。装備するレンジャーを変更したい場合は、[Keybind: SelectPreviousCharacter][Keybind: SelectNextCharacter]を使用して別のレンジャーを選択します。"
        [240]
-        1 string data = "Let's equip your new gear! Select your new item, press [Keybind: Submit], and select "Equip" to equip it. If you want to change which Ranger to equip it onto, select a different Ranger using [Keybind: SelectPreviousCharacter][Keybind: SelectNextCharacter]."
+        1 string data = "新しい装備を装備しましょう！新しいアイテムを選択し、[Keybind: Submit]を押して、"Equip"を選択して装備します。装備するレンジャーを変更したい場合は、[Keybind: SelectPreviousCharacter][Keybind: SelectNextCharacter]を使用して別のレンジャーを選択します。"
        [241]
-        1 string data = "Energy Damage Type"
+        1 string data = "エネルギーダメージタイプ"
        [242]
-        1 string data = "You've equipped an Energy Weapon! Not only do these advanced weapons bypass enemy Armor, but they also get bonus Crit Chance and Crit Damage when targeting Conductive enemies. Increase your Weird Science skill to become more effective with Energy Weapons."
+        1 string data = "エネルギー兵器を装備しました！これらの先進的な兵器は敵のアーマーをバイパスするだけでなく、導電性の敵をターゲットにすると、ボーナスのクリティカル率とクリティカルダメージを得られます。Weird Scienceスキルを上げると、エネルギー兵器がより効果的になります。"
        [243]
-        1 string data = "Mission Log"
+        1 string data = "ミッションログ"
        [244]
-        1 string data = "You have a new Mission. To view its details, use [Keybind: Journal] to open the Mission Log."
+        1 string data = "新しいミッションがあります。詳細を表示するには、[Keybind: Journal]を使用してミッションログを開いてください。"
        [245]
-        1 string data = "You have a new Mission. To view its details, navigate to the Mission Log by using [Keybind: PreviousTab][Keybind: NextTab]."
+        1 string data = "新しいミッションがあります。詳細を表示するには、[Keybind: PreviousTab][Keybind: NextTab]を使用してミッションログに移動してください。"
        [246]
-        1 string data = "Mission Types"
+        1 string data = "ミッションタイプ"
        [247]
-        1 string data = "Primary Missions progress the main story. Secondary Missions are optional side quests. You've just received the Primary Mission "Cornered Rats," so your next step should be paying a visit to Sheriff Daisy in Downtown Colorado Springs."
+        1 string data = "プライマリミッションはメインストーリーを進行させます。セカンダリミッションはオプションのサイドクエストです。プライマリミッション"Cornered Rats"を受け取ったばかりなので、次のステップはダウンタウン・コロラドスプリングスでデイジー保安官を訪問することです。"
        [248]
-        1 string data = "To view all your characters' stats, you can press [Keybind: ShowDetails] while in the Inventory Screen. These stats are primarily determined by your Attributes, but certain Skills, your equipment, and any active Status Effects will influence them as well."
+        1 string data = "すべてのキャラクターのステータスを表示するには、インベントリ画面で[Keybind: ShowDetails]を押します。これらのステータスは主に属性によって決定されますが、特定のスキル、装備、アクティブなステータス効果も影響します。"
        [249]
-        1 string data = "To view all your characters' stats, you can press [Keybind: ShowDetails] while in the Inventory Screen. These stats are primarily determined by your Attributes, but certain Skills, your equipment, and any active Status Effects will influence them as well."
+        1 string data = "すべてのキャラクターのステータスを表示するには、インベントリ画面で[Keybind: ShowDetails]を押します。これらのステータスは主に属性によって決定されますが、特定のスキル、装備、アクティブなステータス効果も影響します。"
        [250]
-        1 string data = "That enemy has taken cover! To flank them, try moving to a new firing position on the battlefield with [Keybind: LeftStickUp] and pressing [Keybind: Submit]."
+        1 string data = "あの敵はカバーに入っています！側面を突くには、[Keybind: LeftStickUp]で戦場の新しい射撃位置に移動して[Keybind: Submit]を押してみてください。"
        [251]
-        1 string data = "That enemy has taken cover! To flank them, try moving to a new firing position on the battlefield with [Keybind: LeftStickUp] and pressing [Keybind: Submit]."
+        1 string data = "あの敵はカバーに入っています！側面を突くには、[Keybind: LeftStickUp]で戦場の新しい射撃位置に移動して[Keybind: Submit]を押してみてください。"
        [252]
-        1 string data = "You’re now controlling a single character. This is useful when setting up before a fight, or navigating past land mines and traps. However, while exploring the world, it's generally better to keep your entire squad together. You can quickly select everyone by pressing [Keybind: ToggleGroupMode]."
+        1 string data = "現在、1人のキャラクターを操作しています。これは戦闘前のセットアップや地雷・罠を回避する際に便利です。ただし、世界を探索する際は、通常部隊全体を一緒に保つ方が良いでしょう。[Keybind: ToggleGroupMode]を押してすばやく全員を選択できます。"
        [253]
-        1 string data = "It's time to even the odds! Press [Keybind: SelectPreviousCharacter][Keybind: SelectNextCharacter] to select your vehicle, then attack the Dorsey War-bot to take it out."
+        1 string data = "形勢を逆転させる時です！[Keybind: SelectPreviousCharacter][Keybind: SelectNextCharacter]を押して車両を選択し、ドーシー・ウォーボットを攻撃して倒してください。"
        [254]
-        1 string data = "It's time to even the odds! Press [Keybind: SelectPreviousCharacter][Keybind: SelectNextCharacter] to select your vehicle, then attack the Dorsey War-bot to take it out."
+        1 string data = "形勢を逆転させる時です！[Keybind: SelectPreviousCharacter][Keybind: SelectNextCharacter]を押して車両を選択し、ドーシー・ウォーボットを攻撃して倒してください。"
        [255]
-        1 string data = "You have a new Mission. To view its details, navigate to the Mission Log by using [Keybind: PreviousTab][Keybind: NextTab]."
+        1 string data = "新しいミッションがあります。詳細を表示するには、[Keybind: PreviousTab][Keybind: NextTab]を使用してミッションログに移動してください。"
        [256]
-        1 string data = "High Armor Enemies"
+        1 string data = "高アーマー敵"
        [257]
-        1 string data = "These machine shop jerks have high Armor, and weapons with low Penetration will have a hard time punching through. Try using Sniper Rifles, Heavy Machine Guns, or Blunt weapons. Energy, Cold, Fire, and Explosive damage will also bypass Armor altogether."
+        1 string data = "この機械工場の野郎どもは高アーマーを持っており、低Penetrationの武器では貫通が困難です。スナイパーライフル、ヘビーマシンガン、または鈍器武器を使用してみてください。エネルギー、冷気、火炎、爆発ダメージもアーマーを完全にバイパスします。"
        [258]
-        1 string data = "World Map - Location Choices"
+        1 string data = "ワールドマップ - 場所の選択"
        [259]
-        1 string data = "Uh oh! Two groups of people are under threat, and you may only have time to save one of them. You can see which direction each is in by looking at the indicators on the edge of your screen, or by opening your Map Screen with [Keybind: Map]. Best get a move on - there's no time to waste!"
+        1 string data = "やばい！2つのグループが脅威にさらされており、そのうち1つしか救う時間がないかもしれません。画面端のインジケーターを見るか、[Keybind: Map]でマップ画面を開くことで、それぞれがどちらの方向にいるかを確認できます。急いで - 時間がありません！"
        [260]
-        1 string data = "Out of Ammo"
+        1 string data = "弾薬切れ"
        [261]
-        1 string data = "Oh fuck... that weapon's out of ammo. For now, you can try equipping a different weapon, or unequipping it and going bare-knuckled. Once you're out of combat, you can resupply by finding a Merchant or searching for loot. Ammo is scarce in the wasteland, so it pays to stay stocked up."
+        1 string data = "くそ...その武器の弾薬が切れている。今は、別の武器を装備するか、装備を外して素手で戦うことができます。戦闘が終わったら、商人を見つけるか略奪品を探すことで補給できます。荒野では弾薬が不足しているので、在庫を確保しておくことが重要です。"
        [262]
-        1 string data = "World Map Radio"
+        1 string data = "ワールドマップ無線"
        [263]
-        1 string data = "If you get stuck out in the snow, you can call Gonzalez for a tow by left-clicking on the Radio at the top of the screen, or by pressing [Keybind: Radio]. "
+        1 string data = "雪に閉じ込められた場合、画面上部の無線を左クリックするか、[Keybind: Radio]を押すことで、ゴンザレスに牽引を依頼できます。"
        [264]
-        1 string data = "If you get stuck out in the snow, you can call Gonzalez for a tow by pressing [Keybind: Radio]."
+        1 string data = "雪に閉じ込められた場合、[Keybind: Radio]を押すことで、ゴンザレスに牽引を依頼できます。"
        [265]
-        1 string data = "If you get stuck out in the snow, you can call Gonzalez for a tow by pressing [Keybind: Radio]."
+        1 string data = "雪に閉じ込められた場合、[Keybind: Radio]を押すことで、ゴンザレスに牽引を依頼できます。"
        [266]
-        1 string data = "Armor Penetration"
+        1 string data = "アーマー貫通"
        [267]
-        1 string data = "If your weapon's Penetration is less than the target's Armor, you'll do a proportionate amount of damage, but no more than 80%. Examples: Penetration 15 vs. Armor 10 = 100% damage. Penetration 5 vs. Armor 10 = 50% damage. Penetration 9 vs. Armor 10 = 80% damage."
+        1 string data = "武器のPenetrationがターゲットのArmor未満の場合、比例した量のダメージを与えますが、80%を超えることはありません。例: Penetration 15対Armor 10 = 100%ダメージ。Penetration 5対Armor 10 = 50%ダメージ。Penetration 9対Armor 10 = 80%ダメージ。"
        [268]
-        1 string data = "Uh oh! Two groups of people are under threat, and you may only have time to save one of them. You can see which directions each is in by looking at the indicators on the edge of your screen, or pressing the [Keybind: Inventory] button and navigating to the Map Screen with [Keybind: PreviousTab][Keybind: NextTab]. Best get a move on - there's no time to waste!"
+        1 string data = "やばい！2つのグループが脅威にさらされており、そのうち1つしか救う時間がないかもしれません。画面端のインジケーターを見るか、[Keybind: Inventory]ボタンを押して[Keybind: PreviousTab][Keybind: NextTab]でマップ画面に移動することで、それぞれがどちらの方向にいるかを確認できます。急いで - 時間がありません！"
        [269]
-        1 string data = "Clothing"
+        1 string data = "衣服"
        [270]
-        1 string data = "You've found some clothing! To try it out, visit your barracks in Ranger HQ to customize your appearance. Keep in mind that equipping armor will cover up your clothing, but you can still show off your fashion sense by toggling the visibility of your armor in the Inventory Screen."
+        1 string data = "衣服を見つけました！試すには、レンジャーHQの兵舎を訪問して外見をカスタマイズしてください。アーマーを装備すると衣服が隠れてしまいますが、インベントリ画面でアーマーの表示を切り替えることで、ファッションセンスを見せることができます。"
        [271]
-        1 string data = "To view the Mission Log, start by opening your Inventory with the [Keybind: Inventory] button."
+        1 string data = "ミッションログを表示するには、まず[Keybind: Inventory]ボタンでインベントリを開いてください。"
        [272]
-        1 string data = "Creepy Dolls"
+        1 string data = "不気味な人形"
        [273]
-        1 string data = "You found a Creepy Doll. Creepy Dolls are dolls that are creepy, but they also grant powerful bonuses that benefit your entire squad. Simply collecting them will benefit you for the rest of the game."
+        1 string data = "不気味な人形を見つけました。不気味な人形は不気味な人形ですが、部隊全体に利益をもたらす強力なボーナスも付与します。単に収集するだけで、ゲームの残りの期間中利益を得られます。"
        [274]
-        1 string data = "The Archive"
+        1 string data = "アーカイブ"
        [275]
-        1 string data = "Creepy Dolls aren't found in your Inventory. Instead, find them, as well as any discovered Cassette Tapes and Tutorials in your Archive Menu. Access your Archive Menu by selecting it in the Pause Menu."
+        1 string data = "不気味な人形はインベントリには表示されません。代わりに、アーカイブメニューで発見したカセットテープやチュートリアルとともに見つけることができます。ポーズメニューでアーカイブメニューを選択してアクセスしてください。"
        [276]
-        1 string data = "Crafting Intro"
+        1 string data = "クラフト紹介"
        [277]
-        1 string data = "Need a med hypo, grenade, ammo, or killer robot, but don’t have time for shopping? Crafting lets you create useful items out of Scrap and other component parts. To get started, click the Crafting button in the Inventory or press [Keybind: WeirdScience]."
+        1 string data = "メディック・ハイポ、グレネード、弾薬、キラーロボットが必要だけど買い物をする時間がない？クラフトを使用すると、スクラップやその他のコンポーネントパーツから有用なアイテムを作成できます。開始するには、インベントリのCraftingボタンをクリックするか、[Keybind: WeirdScience]を押してください。"
        [278]
-        1 string data = "Need a med hypo, grenade, ammo, or killer robot, but don’t have time for shopping? Crafting lets you create useful items out of junk and other component parts. To get started, press the [Keybind: WeirdScience] button."
+        1 string data = "メディック・ハイポ、グレネード、弾薬、キラーロボットが必要だけど買い物をする時間がない？クラフトを使用すると、ジャンクやその他のコンポーネントパーツから有用なアイテムを作成できます。開始するには、[Keybind: WeirdScience]ボタンを押してください。"
        [279]
-        1 string data = "Crafting Interface"
+        1 string data = "クラフトインターフェース"
        [280]
-        1 string data = "Select an item from the list, then use the Craft Item button or press [Keybind: Submit] to create it. All items require Scrap to craft, and more specialized items may also require additional components or skills, such as Weapon Modding or First Aid. As you increase your skills and explore the world, you’ll unlock new crafting recipes."
+        1 string data = "リストからアイテムを選択し、Craft Itemボタンを使用するか[Keybind: Submit]を押して作成します。すべてのアイテムはクラフトにスクラップが必要で、より専門的なアイテムは追加のコンポーネントやスキル（Weapon ModdingやFirst Aidなど）も必要な場合があります。スキルを上げて世界を探索すると、新しいクラフトレシピがアンロックされます。"
        [281]
-        1 string data = "Select an item from the list, then press the [Keybind: Submit] button to create it. All items require Scrap to craft, and more specialized items may also require additional components or skills, such as Weapon Modding or First Aid. As you increase your skills and explore the world, you’ll unlock new crafting recipes."
+        1 string data = "リストからアイテムを選択し、[Keybind: Submit]ボタンを押して作成します。すべてのアイテムはクラフトにスクラップが必要で、より専門的なアイテムは追加のコンポーネントやスキル（Weapon ModdingやFirst Aidなど）も必要な場合があります。スキルを上げて世界を探索すると、新しいクラフトレシピがアンロックされます。"
        [282]
-        1 string data = "Animal Kennel"
+        1 string data = "アニマルケンネル"
        [283]
-        1 string data = "Got a furry friend who needs a home? If you dismiss any Animal Companions, or their owner is removed from the squad, they'll come back here for safe keeping. When you're ready for them to rejoin you, return to the Animal Kennel and you can recruit them once again."
+        1 string data = "家を必要としている毛皮の友達がいますか？アニマルコンパニオンを解雇したり、所有者が部隊から削除されたりした場合、彼らは安全な保管のためにここに戻ってきます。再び参加させる準備ができたら、アニマルケンネルに戻って再び募集できます。"
        [284]
         1 string data = ""
    [1685]
