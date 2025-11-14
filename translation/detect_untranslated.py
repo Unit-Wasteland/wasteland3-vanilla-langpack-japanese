@@ -73,7 +73,7 @@ def is_meaningful_dialogue(text):
 
     # Must have some actual words left
     words = re.findall(r'\b[a-zA-Z]+\b', text_without_markers)
-    return len(words) >= 2  # At least 2 words of dialogue
+    return len(words) >= 1  # At least 1 word (includes GUI elements)
 
 def main():
     print("Loading files...")
