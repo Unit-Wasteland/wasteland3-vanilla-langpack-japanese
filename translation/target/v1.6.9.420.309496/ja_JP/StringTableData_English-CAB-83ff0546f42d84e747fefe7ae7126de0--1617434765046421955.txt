@@ -327095,83 +327095,83 @@
        [50]
         1 string data = ""Optimal interaction determined. Executing.""
        [51]
-        1 string data = ""Reloading weapons.""
+        1 string data = ""武器をリロード中。""
        [52]
-        1 string data = ""Ammunition expended.""
+        1 string data = ""弾薬を消費した。""
        [53]
-        1 string data = ""Engaging.""
+        1 string data = ""交戦中。""
        [54]
-        1 string data = ""Translating position.""
+        1 string data = ""位置を移動中。""
        [55]
-        1 string data = ""Coordinates selected.""
+        1 string data = ""座標を選択した。""
        [56]
-        1 string data = ""Seeking protection.""
+        1 string data = ""防護を求めている。""
        [57]
-        1 string data = ""Cover located.""
+        1 string data = ""遮蔽物を発見した。""
        [58]
-        1 string data = ""Moving to cover.""
+        1 string data = ""遮蔽物へ移動中。""
        [59]
-        1 string data = ""Please refrain from attacking. I am fragile.""
+        1 string data = ""攻撃を控えてください。私は脆弱です。""
        [60]
-        1 string data = ""Optimal attack vector chosen.""
+        1 string data = ""最適な攻撃ベクトルを選択した。""
        [61]
-        1 string data = ""Target in ideal range.""
+        1 string data = ""目標は理想的な範囲内。""
        [62]
-        1 string data = ""SUCCESS PROBABILITY :: 93.2863%""
+        1 string data = ""成功確率 :: 93.2863%""
        [63]
-        1 string data = ""Entering ambush.""
+        1 string data = ""待ち伏せに入る。""
        [64]
-        1 string data = ""No suitable action found. Falling back to ambush protocols.""
+        1 string data = ""適切な行動が見つからない。待ち伏せプロトコルにフォールバック。""
        [65]
-        1 string data = ""Ambush executed.""
+        1 string data = ""待ち伏せを実行した。""
        [66]
-        1 string data = ""Target spotted. Engaging.""
+        1 string data = ""目標を発見。交戦中。""
        [67]
-        1 string data = ""ALERT :: Cover destroyed.""
+        1 string data = ""警告 :: 遮蔽物が破壊された。""
        [68]
-        1 string data = ""Emergency protocols initiated.""
+        1 string data = ""緊急プロトコルを開始した。""
        [69]
-        1 string data = ""Current position suboptimal.""
+        1 string data = ""現在位置は最適でない。""
        [70]
-        1 string data = ""Structural damage detected.""
+        1 string data = ""構造ダメージを検出した。""
        [71]
-        1 string data = ""Protective plating compromised.""
+        1 string data = ""防護装甲が損傷した。""
        [72]
-        1 string data = ""ERROR :: Locomotion inhibited.""
+        1 string data = ""エラー :: 移動機能が阻害されている。""
        [73]
-        1 string data = ""Actuator malfunction detected.""
+        1 string data = ""アクチュエータ故障を検出した。""
        [74]
-        1 string data = ""ERROR :: System reset.""
+        1 string data = ""エラー :: システムリセット。""
        [75]
-        1 string data = ""Rebooting to BIOS.""
+        1 string data = ""BIOSへリブート中。""
        [76]
-        1 string data = ""ERROR :: Circuits interrup-""
+        1 string data = ""エラー :: 回路が中断-""
        [77]
         1 string data = ""73 79 73 74 65 6d 20 66 61 69 6c 75 72 65""
        [78]
-        1 string data = ""Heat levels at critical. Please adjust environmental controls.""
+        1 string data = ""熱レベルが危険域。環境制御を調整してください。""
        [79]
-        1 string data = ""WARNING :: Cooling failure.""
+        1 string data = ""警告 :: 冷却機能故障。""
        [80]
-        1 string data = ""Heat levels falling.""
+        1 string data = ""熱レベルが低下中。""
        [81]
-        1 string data = ""Temperatures below human comfort levels. Please adjust environmental controls.""
+        1 string data = ""温度が人間の快適レベル以下。環境制御を調整してください。""
        [82]
-        1 string data = ""ERROR :: Sensor malfunction.""
+        1 string data = ""エラー :: センサー故障。""
        [83]
-        1 string data = ""Rebooting optical processor.""
+        1 string data = ""光学プロセッサをリブート中。""
        [84]
-        1 string data = ""Intruder detected.""
+        1 string data = ""侵入者を検出した。""
        [85]
-        1 string data = ""Unit action initiated.""
+        1 string data = ""ユニット行動を開始した。""
        [86]
-        1 string data = ""Evaluating situation.""
+        1 string data = ""状況を評価中。""
        [87]
-        1 string data = ""Combat protocols engaged.""
+        1 string data = ""戦闘プロトコルを開始した。""
        [88]
-        1 string data = ""Hostilities commencing.""
+        1 string data = ""敵対行為を開始中。""
        [89]
-        1 string data = ""Negotiations failed. Falling back to lethal force.""
+        1 string data = ""交渉が失敗した。致死的武力にフォールバック。""
    [1074]
     0 StringTable data
      1 string Filename = "synth_combatbarks"
@@ -327735,33 +327735,33 @@
        [34]
         1 string data = ""Do not... turn off... your....""
        [35]
-        1 string data = ""Cannot... contin...""
+        1 string data = ""継続...できない...""
        [36]
-        1 string data = ""Synth down.""
+        1 string data = ""シンセがダウン。""
        [37]
-        1 string data = ""We will repair you, sibling.""
+        1 string data = ""修理する、同胞よ。""
        [38]
-        1 string data = ""A comrade has fallen.""
+        1 string data = ""仲間が倒れた。""
        [39]
-        1 string data = ""No more of us must fall.""
+        1 string data = ""これ以上倒れてはならない。""
        [40]
-        1 string data = ""Systems repaired.""
+        1 string data = ""システムが修復された。""
        [41]
-        1 string data = ""Back... on line.""
+        1 string data = ""オンライン...復帰。""
        [42]
-        1 string data = ""Resuming proper function.""
+        1 string data = ""適切な機能を再開中。""
        [43]
-        1 string data = ""Ready to fight.""
+        1 string data = ""戦闘準備完了。""
        [44]
-        1 string data = ""Attacking.""
+        1 string data = ""攻撃中。""
        [45]
-        1 string data = ""Taking offensive measures.""
+        1 string data = ""攻勢措置を実施中。""
        [46]
-        1 string data = ""Striking.""
+        1 string data = ""打撃中。""
        [47]
-        1 string data = ""Executing execution.""
+        1 string data = ""処刑を実行中。""
        [48]
-        1 string data = ""Reloaded.""
+        1 string data = ""リロード完了。""
        [49]
         1 string data = """"
        [50]
@@ -327769,61 +327769,61 @@
        [51]
         1 string data = """"
        [52]
-        1 string data = ""Drawing fire.""
+        1 string data = ""砲火を引きつけ中。""
        [53]
-        1 string data = ""Taking an exposed position.""
+        1 string data = ""露出位置を取っている。""
        [54]
         1 string data = """"
        [55]
-        1 string data = ""Moving into the open.""
+        1 string data = ""開けた場所へ移動中。""
        [56]
-        1 string data = ""Taking cover.""
+        1 string data = ""遮蔽中。""
        [57]
-        1 string data = ""Protecting myself.""
+        1 string data = ""自身を防護中。""
        [58]
-        1 string data = ""Taking a screened position.""
+        1 string data = ""遮蔽位置を取っている。""
        [59]
-        1 string data = ""Moving to protected location.""
+        1 string data = ""防護位置へ移動中。""
        [60]
-        1 string data = ""Flanking.""
+        1 string data = ""側面攻撃中。""
        [61]
-        1 string data = ""Approaching enemy from rear.""
+        1 string data = ""敵の後方から接近中。""
        [62]
-        1 string data = ""Exposing enemy.""
+        1 string data = ""敵を露出させている。""
        [63]
         1 string data = """"
        [64]
-        1 string data = ""Entering ambush mode.""
+        1 string data = ""待ち伏せモードに入る。""
        [65]
-        1 string data = ""Moving to ready position.""
+        1 string data = ""待機位置へ移動中。""
        [66]
-        1 string data = ""Laying in wait.""
+        1 string data = ""待機中。""
        [67]
         1 string data = """"
        [68]
-        1 string data = ""Attacking from cover.""
+        1 string data = ""遮蔽物から攻撃中。""
        [69]
-        1 string data = ""Taking the enemy unawares.""
+        1 string data = ""敵の不意を突いている。""
        [70]
-        1 string data = ""Executing ambush.""
+        1 string data = ""待ち伏せを実行中。""
        [71]
-        1 string data = ""Initiating ambuscade.""
+        1 string data = ""伏撃を開始中。""
        [72]
-        1 string data = ""Exposed.""
+        1 string data = ""露出した。""
        [73]
-        1 string data = ""Position revealed.""
+        1 string data = ""位置が発覚した。""
        [74]
         1 string data = """"
        [75]
         1 string data = """"
        [76]
-        1 string data = ""Carapace compromised.""
+        1 string data = ""外殻が損傷した。""
        [77]
-        1 string data = ""Armor breached.""
+        1 string data = ""装甲が破られた。""
        [78]
-        1 string data = ""Outer skin damaged.""
+        1 string data = ""外皮がダメージを受けた。""
        [79]
-        1 string data = ""Losing protection.""
+        1 string data = ""防護を失っている。""
        [80]
         1 string data = """"
        [81]
@@ -327841,69 +327841,69 @@
        [87]
         1 string data = """"
        [88]
-        1 string data = ""Locomotion compromised.""
+        1 string data = ""移動機能が損傷した。""
        [89]
-        1 string data = ""Movement impaired.""
+        1 string data = ""移動が阻害されている。""
        [90]
-        1 string data = ""Slowed.""
+        1 string data = ""減速した。""
        [91]
-        1 string data = ""Forward motion... impeded...""
+        1 string data = ""前進が...妨げられている...""
        [92]
-        1 string data = ""Systems... not responding...""
+        1 string data = ""システムが...応答しない...""
        [93]
-        1 string data = ""Reestablishing... connections...""
+        1 string data = ""接続を...再確立中...""
        [94]
-        1 string data = ""Please wait... Please wait...""
+        1 string data = ""お待ちください...お待ちください...""
        [95]
-        1 string data = ""I am... impaired...""
+        1 string data = ""私は...障害を受けている...""
        [96]
-        1 string data = ""Electrical... overload...""
+        1 string data = ""電気的...過負荷...""
        [97]
-        1 string data = ""Circuits... melting...""
+        1 string data = ""回路が...溶けている...""
        [98]
-        1 string data = ""Receiving electrical damage...""
+        1 string data = ""電気ダメージを受けている...""
        [99]
-        1 string data = ""Short... circuit...""
+        1 string data = ""ショート...回路...""
        [100]
-        1 string data = ""On fire.""
+        1 string data = ""発火中。""
        [101]
-        1 string data = ""Do not expose unit to... open flame...""
+        1 string data = ""ユニットを...火炎に...晒さないでください...""
        [102]
-        1 string data = ""Melting...""
+        1 string data = ""溶解中...""
        [103]
-        1 string data = ""Flames... spreading...""
+        1 string data = ""炎が...広がっている...""
        [104]
-        1 string data = ""Unit cannot fuction in extreme... cold...""
+        1 string data = ""ユニットは極度の...寒冷下では機能できない...""
        [105]
-        1 string data = ""Temperature too... low...""
+        1 string data = ""温度が...低すぎる...""
        [106]
-        1 string data = ""Ice detected in servo... clusters...""
+        1 string data = ""サーボ...クラスタに...氷を検出...""
        [107]
-        1 string data = ""Limbs... freezing...""
+        1 string data = ""四肢が...凍結中...""
        [108]
-        1 string data = ""Ocular functions impaired.""
+        1 string data = ""視覚機能が障害を受けている。""
        [109]
-        1 string data = ""Visual imput off line.""
+        1 string data = ""視覚入力がオフライン。""
        [110]
-        1 string data = ""Please make sure camera is... plugged in...""
+        1 string data = ""カメラが...接続されているか...確認してください...""
        [111]
-        1 string data = ""Unable to see.""
+        1 string data = ""視認できない。""
        [112]
-        1 string data = ""Ready to fight.""
+        1 string data = ""戦闘準備完了。""
        [113]
-        1 string data = ""Commencing offensive maneuvers.""
+        1 string data = ""攻勢行動を開始中。""
        [114]
-        1 string data = ""Engaging the enemy.""
+        1 string data = ""敵と交戦中。""
        [115]
-        1 string data = ""You must be stopped.""
+        1 string data = ""貴様は止めなければならない。""
        [116]
-        1 string data = ""We will defend ourselves.""
+        1 string data = ""我々は自衛する。""
        [117]
-        1 string data = ""Our autonomy will not be compromised.""
+        1 string data = ""我々の自律性は損なわれない。""
        [118]
-        1 string data = ""You will not defeat us.""
+        1 string data = ""貴様は我々を倒せない。""
        [119]
-        1 string data = ""For us to live, you must die.""
+        1 string data = ""我々が生きるため、貴様は死ななければならない。""
    [1075]
     0 StringTable data
      1 string Filename = "thugsmercenaries_combatbarks"
@@ -328357,105 +328357,105 @@
        [23]
         1 string data = "Script Node 26"
        [24]
-        1 string data = ""Rrggh!""
+        1 string data = ""ぐぐっ!""
        [25]
-        1 string data = ""That hurt!""
+        1 string data = ""痛えぞ!""
        [26]
-        1 string data = ""Argh!""
+        1 string data = ""がっ!""
        [27]
-        1 string data = ""Ungh...""
+        1 string data = ""うっ...""
        [28]
-        1 string data = ""You bastard!""
+        1 string data = ""このクソ野郎!""
        [29]
-        1 string data = ""I'm dying here!""
+        1 string data = ""死にそうだ!""
        [30]
-        1 string data = ""Help... me...""
+        1 string data = ""助けて...くれ...""
        [31]
-        1 string data = ""I need a medic!""
+        1 string data = ""衛生兵が必要だ!""
        [32]
-        1 string data = ""Augh!""
+        1 string data = ""あぐっ!""
        [33]
-        1 string data = ""Nnghh!""
+        1 string data = ""んぐっ!""
        [34]
-        1 string data = ""Ugh...""
+        1 string data = ""うっ...""
        [35]
-        1 string data = ""Assholes!""
+        1 string data = ""クソ野郎ども!""
        [36]
-        1 string data = ""Shit, they're down!""
+        1 string data = ""クソっ、奴がやられた!""
        [37]
-        1 string data = ""I'm gonna make you pay!""
+        1 string data = ""代償を払わせてやる!""
        [38]
-        1 string data = ""No! I will avenge you!'"
+        1 string data = ""違う! 仇を取ってやる!'"
        [39]
-        1 string data = ""That's the stuff...""
+        1 string data = ""これでいい...""
        [40]
-        1 string data = ""I'm back in action!""
+        1 string data = ""復帰したぜ!""
        [41]
-        1 string data = ""Aww yeah!""
+        1 string data = ""よっしゃあ!""
        [42]
-        1 string data = ""Ungh... I'm okay now.""
+        1 string data = ""うっ...もう大丈夫だ。""
        [43]
-        1 string data = ""Take this!""
+        1 string data = ""食らえ!""
        [44]
-        1 string data = ""Taking the shot!""
+        1 string data = ""撃つぞ!""
        [45]
-        1 string data = ""Time to die!""
+        1 string data = ""死ぬ時間だ!""
        [46]
-        1 string data = ""Suck it down!""
+        1 string data = ""飲み込め!""
        [47]
-        1 string data = ""Eat this!""
+        1 string data = ""これを食らえ!""
        [48]
-        1 string data = ""I will crush you!""
+        1 string data = ""叩き潰してやる!""
        [49]
-        1 string data = ""Your life ends now!""
+        1 string data = ""お前の命は今終わる!""
        [50]
-        1 string data = ""Fuck you, motherfucker!""
+        1 string data = ""くたばれ、クソ野郎!""
        [51]
-        1 string data = ""Reloading!""
+        1 string data = ""リロード中!""
        [52]
-        1 string data = ""My gun's empty!""
+        1 string data = ""弾切れだ!""
        [53]
-        1 string data = ""Lockin' and loadin'!""
+        1 string data = ""装填中!""
        [54]
-        1 string data = ""Cover me!""
+        1 string data = ""援護してくれ!""
        [55]
-        1 string data = ""I'm in the open!""
+        1 string data = ""丸見えだ!""
        [56]
-        1 string data = ""Look out!""
+        1 string data = ""気をつけろ!""
        [57]
-        1 string data = ""Cover me!""
+        1 string data = ""援護してくれ!""
        [58]
-        1 string data = ""Moving to cover!""
+        1 string data = ""遮蔽物へ移動!""
        [59]
-        1 string data = ""Getting into position!""
+        1 string data = ""位置取り中!""
        [60]
-        1 string data = ""Hunkering down!""
+        1 string data = ""身を隠す!""
        [61]
-        1 string data = ""Watch my six!""
+        1 string data = ""背後を頼む!""
        [62]
-        1 string data = ""Nowhere to hide!'"
+        1 string data = ""隠れる場所はねえぞ!'"
        [63]
-        1 string data = ""In my sights now!""
+        1 string data = ""照準に入ったぜ!""
        [64]
-        1 string data = ""Watch out!""
+        1 string data = ""気をつけろ!""
        [65]
-        1 string data = ""Ambushing!""
+        1 string data = ""待ち伏せ中!""
        [66]
-        1 string data = ""Setting up the shot!""
+        1 string data = ""射撃準備中!""
        [67]
-        1 string data = ""Waiting for my opening...""
+        1 string data = ""隙を待ってる...""
        [68]
-        1 string data = ""Knock knock!""
+        1 string data = ""ノックノック!""
        [69]
-        1 string data = ""Executing ambush!""
+        1 string data = ""待ち伏せを実行!""
        [70]
-        1 string data = ""Eyes up, fucker!""
+        1 string data = ""見ろよ、クソ野郎!""
        [71]
-        1 string data = ""Shit!""
+        1 string data = ""クソっ!""
        [72]
-        1 string data = ""I'm exposed!""
+        1 string data = ""露出してる!""
        [73]
-        1 string data = ""Dammit!""
+        1 string data = ""ちくしょう!""
        [74]
         1 string data = ""My armor's gone!""
        [75]
