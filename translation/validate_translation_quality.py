@@ -69,8 +69,19 @@ def is_technical_term(text: str) -> bool:
             return True
     return False
 
+def contains_ascii_letters(text: str) -> bool:
+    """Check if text contains ASCII alphabet letters (indicating English text).
+
+    This is more comprehensive than pattern matching, as it catches:
+    - Short exclamations: "Hi!", "Hello!", "Candy!"
+    - Onomatopoeia: "Moooo!", "Choo choo!"
+    - Any other English text not in the pattern list
+    """
+    # Check if text contains any ASCII letters (a-z, A-Z)
+    return bool(re.search(r'[a-zA-Z]', text))
+
 def contains_common_english(text: str) -> bool:
-    """Check if text contains common English words."""
+    """Check if text contains common English words (legacy function, kept for compatibility)."""
     for pattern in ENGLISH_PATTERNS:
         if re.search(pattern, text, re.IGNORECASE):
             return True
@@ -127,7 +138,10 @@ def load_glossary(glossary_path: Optional[Path] = None) -> Dict[str, str]:
         return {}
 
 def load_spanish_reference(filepath: Optional[Path]) -> Dict[int, str]:
-    """Load Spanish reference file and extract string data by line number."""
+    """Load Spanish reference file and extract string data by line number.
+
+    Note: Spanish files use format: string data = "content"." (not "content"")
+    """
     spanish_data = {}
 
     if not filepath or not filepath.exists():
@@ -137,21 +151,29 @@ def load_spanish_reference(filepath: Optional[Path]) -> Dict[int, str]:
         for line_num, line in enumerate(f, start=1):
             if 'string data' in line:
                 # Extract the string content
-                match = re.search(r'string data = ""(.*)""', line)
+                # Spanish format: string data = ""content"."
+                match = re.search(r'string data = ""(.*?)"\."', line)
                 if match:
                     spanish_data[line_num] = match.group(1)
                 else:
-                    spanish_data[line_num] = ""
+                    # Try fallback pattern for empty strings: string data = ""
+                    match_empty = re.search(r'string data = ""$', line)
+                    if match_empty:
+                        spanish_data[line_num] = ""
+                    else:
+                        # Could not parse - mark as empty
+                        spanish_data[line_num] = ""
 
     return spanish_data
 
 def validate_untranslated_english(line_num: int, line: str, spanish_data: Dict[int, str], start_line: int = 666, end_line: int = 999999999) -> List[ValidationIssue]:
     """Validate that English text is translated (within the specified range).
 
-    UPDATED LOGIC (2025-11-15):
-    - Checks if English text contains common words indicating it should be translated
-    - Spanish reference is ADVISORY ONLY (not decisive)
-    - Even if Spanish is empty, English content is checked for translatability
+    UPDATED LOGIC (2025-11-15 - FIXED):
+    - Uses ASCII letter detection (more comprehensive than word pattern matching)
+    - Detects all English text including short exclamations, onomatopoeia, etc.
+    - Spanish reference is used to confirm translatability
+    - If Spanish is translated (differs from English), Japanese MUST also be translated
     """
     issues = []
 
@@ -184,27 +206,51 @@ def validate_untranslated_english(line_num: int, line: str, spanish_data: Dict[i
     for marker in markers:
         content_without_markers = content_without_markers.replace(marker, '')
 
-    if not content_without_markers.strip():
+    # Remove game variables like [Global: ...], [Reward: ...], etc.
+    content_without_vars = re.sub(r'\[Global:[^\]]+\]', '', content_without_markers)
+    content_without_vars = re.sub(r'\[Dropset:[^\]]+\]', '', content_without_vars)
+    content_without_vars = re.sub(r'\[Reward:[^\]]+\]', '', content_without_vars)
+    content_without_vars = re.sub(r'\[Switch to[^\]]+\]', '', content_without_vars)
+
+    if not content_without_vars.strip():
         return issues
 
-    # Check if content contains common English words
-    if contains_common_english(content):
-        # Check if it also contains Japanese (partially translated)
-        if contains_japanese(content):
-            # This is partially translated, which might be okay (mixed dialogue)
-            pass
-        else:
-            # This is fully in English, should be translated
-            # Determine the reason message based on Spanish reference
-            if line_num in spanish_data:
-                spanish_content = spanish_data[line_num]
-                if spanish_content.strip() and spanish_content.strip() != content.strip():
-                    reason = "Spanish was translated, so Japanese should also be translated"
-                else:
-                    reason = "English content contains translatable text (Spanish reference empty/same, but content should be translated)"
-            else:
-                reason = "English content contains translatable text (no Spanish reference available)"
+    # Check if content contains Japanese
+    has_japanese = contains_japanese(content)
 
+    # Check if content contains ASCII letters (English)
+    has_english = contains_ascii_letters(content_without_vars)
+
+    # If content has Japanese, consider it translated (even if partially in English)
+    if has_japanese:
+        return issues
+
+    # If content has English letters but no Japanese, it might be untranslated
+    if has_english:
+        # Check Spanish reference to confirm translatability
+        should_translate = False
+        reason = ""
+
+        if line_num in spanish_data:
+            spanish_content = spanish_data[line_num]
+            # If Spanish is translated (different from English), Japanese should also be translated
+            if spanish_content.strip() and spanish_content.strip() != content.strip():
+                should_translate = True
+                reason = "Spanish was translated, so Japanese should also be translated"
+            else:
+                # Spanish is same as English or empty
+                # This could be a technical term or translatable text
+                # Default to assuming it should be translated unless it's clearly technical
+                # (technical terms are already filtered by is_technical_term above)
+                should_translate = True
+                reason = "English content present (Spanish reference empty/same as English - likely translatable)"
+        else:
+            # No Spanish reference available
+            # Default to assuming English text should be translated
+            should_translate = True
+            reason = "English content present (no Spanish reference available - likely translatable)"
+
+        if should_translate:
             issues.append(ValidationIssue(
                 line_num=line_num,
                 issue_type="UNTRANSLATED_ENGLISH",
