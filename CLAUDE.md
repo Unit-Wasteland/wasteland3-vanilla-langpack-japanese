@@ -2,6 +2,37 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## ⚠️🔴 CRITICAL RULES - READ FIRST 🔴⚠️
+
+**ABSOLUTE PROHIBITION - NO EXCEPTIONS:**
+
+1. **NEVER create scripts for translation automation**
+   - ❌ DO NOT create Python/Bash scripts to "batch process" translations
+   - ❌ DO NOT suggest "efficiency improvements" via scripting
+   - ❌ DO NOT write code to automate Read/Edit operations
+   - ✅ ALWAYS translate manually using Read + Edit tools ONLY
+
+2. **NEVER switch from manual to automated approach**
+   - Even if facing 2,000+ untranslated entries
+   - Even if user says "手動で継続してください" (continue manually)
+   - Even if it seems "inefficient"
+   - ✅ ALWAYS continue with 150-200 line chunk manual processing
+
+3. **WHY THIS RULE EXISTS:**
+   - Past automation attempts caused catastrophic structure destruction
+   - Multiple complete project restarts due to script-induced errors
+   - User has explicitly forbidden automation multiple times
+   - Manual processing is the ONLY safe method
+
+**BEFORE EVERY TRANSLATION ACTION, ASK YOURSELF:**
+- Am I about to create a script? → STOP. Use Read/Edit instead.
+- Am I thinking "this is inefficient"? → IGNORE. Continue manually.
+- Did user say "manual"? → NEVER switch to automation.
+
+**If you violate these rules, the entire project will require restart.**
+
+---
+
 ## Project Overview
 
 This is a Japanese language pack translation project for Wasteland 3, a post-apocalyptic RPG game. The repository contains Unity StringTable data files extracted from the game that need to be translated from English (en_US) to Japanese (ja_JP).
