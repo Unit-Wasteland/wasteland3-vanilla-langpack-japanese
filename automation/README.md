@@ -68,11 +68,102 @@
 
 ---
 
+## 🔍 未翻訳エントリの検出・修正ツール（NEW - 2025-11-15）
+
+**重大な発見: 進捗100%でも5,299個の未翻訳エントリが存在**
+
+2025年11月15日の調査により、進捗トラッカーが100%完了と表示していたにもかかわらず、実際には**5,299個の英語エントリが未翻訳**であることが判明しました。
+
+- **Base Game**: 42個の未翻訳エントリ
+- **DLC1**: 3,237個の未翻訳エントリ
+- **DLC2**: 2,020個の未翻訳エントリ
+
+これらのエントリは、スペイン語版では正しく翻訳されていますが、日本語版では英語のまま残されていました。
+
+### 📋 利用可能なツール
+
+#### 1. **検出ツール**: `detect-untranslated.py`
+
+未翻訳の英語エントリを自動検出し、詳細レポートを生成します。
+
+```bash
+# ベースゲームのみチェック
+python3 automation/detect-untranslated.py --file base_game
+
+# DLC1のみチェック
+python3 automation/detect-untranslated.py --file dlc1
+
+# DLC2のみチェック
+python3 automation/detect-untranslated.py --file dlc2
+
+# 全ファイルをチェック（ベース + DLC1 + DLC2）
+python3 automation/detect-untranslated.py --file all
+```
+
+**出力ファイル**:
+- `automation/.untranslated_{file}_report.txt` - 詳細レポート（行番号と内容）
+- `automation/.untranslated_{file}_lines.txt` - 行番号のみ（プログラム処理用）
+
+#### 2. **自動修正ツール**: `auto-fix-untranslated.sh`
+
+未翻訳エントリを自動的に検出・修正します（⚠️ 上級ユーザー専用）。
+
+```bash
+# 自動修正を開始（危険 - サンドボックス環境必須）
+./automation/auto-fix-untranslated.sh
+
+# ロックファイルを削除（スクリプトがクラッシュした場合）
+./automation/auto-fix-untranslated.sh --unlock
+```
+
+**⚠️ セキュリティ警告**: このスクリプトは`--dangerously-skip-permissions`と`yes`コマンドを使用します。サンドボックス環境でのみ実行してください。
+
+#### 3. **手動修正ワークフロー**（推奨 - 初心者・中級者向け）
+
+```bash
+# 1. 未翻訳エントリを検出
+python3 automation/detect-untranslated.py --file base_game --verbose
+
+# 2. レポートを確認
+cat automation/.untranslated_base_game_report.txt
+
+# 3. Claude Codeを起動して手動で翻訳
+claude
+# プロンプト例:
+# 「automation/.untranslated_base_game_lines.txt に記載された行番号のエントリを、
+#  CLAUDE.mdのルールに従って日本語に翻訳してください。」
+
+# 4. 修正後、検証を実行
+python3 translation/validate_structure_v2.py \
+  translation/target/v1.6.9.420.309496/ja_JP/StringTableData_English-CAB-*.txt \
+  --source translation/source/v1.6.9.420.309496/en_US/StringTableData_English-CAB-*.txt \
+  --detailed
+
+python3 translation/validate_translation_quality.py \
+  translation/target/v1.6.9.420.309496/ja_JP/StringTableData_English-CAB-*.txt \
+  --reference translation/source/v1.6.9.420.309496/es_ES/StringTableData_Spanish-CAB-*.txt \
+  --start-line 390 \
+  --end-line 530425 \
+  --glossary translation/nouns_glossary.json
+
+# 5. 再度検出して修正完了を確認
+python3 automation/detect-untranslated.py --file base_game
+```
+
+### 📚 詳細ドキュメント
+
+未翻訳エントリ修正ツールの詳細については、以下を参照してください：
+- **[UNTRANSLATED_FIXER_README.md](UNTRANSLATED_FIXER_README.md)** - 完全なドキュメント
+
+---
+
 ## 🔄 Retranslation（翻訳やり直し）自動化システム
 
-**現在のプロジェクト状態: Retranslationモード**
+**現在のプロジェクト状態: Retranslationモード + 未翻訳エントリ修正フェーズ**
 
 2025年10月現在、プロジェクトは**retranslation（翻訳やり直し）モード**で運用されています。以前の翻訳で構造マーカー（`""`→`「」`）が破損したため、英語ファイルをベースに全ての翻訳をやり直しています。
+
+**2025年11月15日更新**: Retranslationが100%完了した後も、5,299個の未翻訳エントリが残っていることが判明しました。これらは上記の未翻訳エントリ修正ツールで対処可能です。
 
 ### 🚀 Retranslation自動化の実行方法
 
