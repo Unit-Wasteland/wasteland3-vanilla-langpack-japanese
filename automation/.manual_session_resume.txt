@@ -1,0 +1,34 @@
+Manual Translation Session - Resume Information
+================================================
+
+Last completed: Batch 12 (2025-11-15)
+
+Progress Summary:
+- Completed: 200/268 entries (74.6%)
+- Remaining: 68 entries (3-4 batches estimated)
+
+Next batch to translate:
+- Batch 13: Continue from .need_translation.txt line 201
+- Estimated: ~20 entries remaining in scattered locations
+
+Line numbers list location:
+- automation/.need_translation.txt (lines 121-268)
+
+To resume:
+1. Read line numbers: sed -n '121,140p' automation/.need_translation.txt
+2. Continue with batch 7 translation
+3. Follow CLAUDE.md guidelines (manual translation only)
+4. Validate after each batch (structure + quality)
+5. Commit after each batch
+
+Recent commits:
+- Batch 1: add230f8
+- Batch 2: fe44a09d
+- Batch 3: 2c31e864
+- Batch 4: ec21f103
+- Batch 5: 332a8e76
+- Batch 6: 57ec65e2
+- Batches 7-12: 12456408 (76 entries)
+
+Target file:
+translation/target/v1.6.9.420.309496/ja_JP/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt
