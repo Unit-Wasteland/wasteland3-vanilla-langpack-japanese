@@ -112401,7 +112401,7 @@
        [52]
         1 string data = ""今は無理だ! 忙しいんだ! トーレス! 彼女を落ち着かせろ!""
        [53]
-        1 string data = ""Yes ma'am! Miss, please...""
+        1 string data = ""了解しました! お嬢さん、どうか...""
        [54]
         1 string data = ""もううんざりです! なぜあなた達は<i>何も</i>しないんですか?""
        [55]
@@ -113801,9 +113801,9 @@
        [58]
         1 string data = "He stares at you... not angry but unmistakably disapponted in your continued presence."
        [59]
-        1 string data = ""No.""
+        1 string data = ""いいえ。""
        [60]
-        1 string data = ""Antibiotics. As much as you can find. I don't care if you bring me pills, powders, or little test tubes full of candy-colored medicine. We need everything right now.""
+        1 string data = ""抗生物質だ。可能な限り集めてくれ。錠剤でも粉末でも、カラフルな薬が入った小さな試験管でも構わない。今すぐ全てが必要なんだ。""
        [61]
         1 string data = ""任せてくれ。""
        [62]
@@ -113835,17 +113835,17 @@
        [75]
         1 string data = ""いくつか質問がある。""
        [76]
-        1 string data = ""Here's are the kits.""
+        1 string data = ""キットを持ってきた。""
        [77]
         1 string data = ""私たちのために働くことに興味はないか? 本部に優秀な医者が必要なんだ。""
        [78]
-        1 string data = ""Long as you don't mind if I keep workin' while we talk." "
+        1 string data = ""話している間も仕事を続けさせてもらうが、構わないか?" "
        [79]
         1 string data = ""あなたは誰?""
        [80]
         1 string data = ""一体何があったんだ?""
        [81]
-        1 string data = ""How are things going here?""
+        1 string data = ""ここの状況はどうだ?""
        [82]
         1 string data = ""また何が必要だった?""
        [83]
@@ -119171,7 +119171,7 @@
        [85]
         1 string data = ""レンジャーに入れてくれて改めてありがとうございます! はは! すぐに家に戻って荷造りします。た……ただ……勇気を……死んだクローンたちを見る勇気を出そうとしているだけなんです。""
        [86]
-        1 string data = ""I'm gonna go home and pack in a minute. I'm just trying to work up the courage to see my dead clones.""
+        1 string data = ""すぐに家に戻って荷造りします。ただ……死んだクローンたちを見る勇気を出そうとしているだけなんです。""
        [87]
         1 string data = ""レンジャー本部ですぐにお会いしましょう!""
        [88]
@@ -119217,17 +119217,17 @@
        [108]
         1 string data = "Script Node 113"
        [109]
-        1 string data = ""Don't hurt me! I'm just here for the books!""
+        1 string data = ""傷つけないで! 本を取りに来ただけなんです!""
        [110]
-        1 string data = ""I don't want any trouble!""
+        1 string data = ""面倒は起こしたくありません!""
        [111]
-        1 string data = ""Oh, no! This can't be happening!""
+        1 string data = ""ああ、だめだ! こんなことが起きるはずがない!""
        [112]
-        1 string data = ""Don't hurt me! I'm just here for the books!""
+        1 string data = ""傷つけないで! 本を取りに来ただけなんです!""
        [113]
-        1 string data = ""I don't want any trouble!""
+        1 string data = ""面倒は起こしたくありません!""
        [114]
-        1 string data = ""Oh no! Oh, this can't be happening!""
+        1 string data = ""ああ、だめだ! こんなことが起きるはずがない!""
        [115]
         1 string data = "レンジャー本部に無線連絡。"
    [337]
@@ -120953,39 +120953,39 @@
        [21]
         1 string data = "Script Node 22"
        [22]
-        1 string data = ""Deputy Torres, please. You have to let me talk to the sheriff again.""
+        1 string data = ""トーレス副官、お願いします。また保安官と話をさせてください。""
        [23]
-        1 string data = ""Deputy, how long is the sheriff going to be busy?""
+        1 string data = ""副官、保安官はあとどれくらい忙しいんですか?""
        [24]
-        1 string data = ""Deputy Torres! My family's in the Garden! They could be dying right now! Why won't you <i>do</i> something?""
+        1 string data = ""トーレス副官! 私の家族がガーデンにいるんです! 今まさに死にかけているかもしれないのに! なぜあなた達は<i>何も</i>しないんですか?""
        [25]
-        1 string data = ""If it's too dangerous for you marshals, maybe I should go in there myself. SHERIFF DAISY! SHERIFF!""
+        1 string data = ""マーシャルズの皆さんに危険すぎるなら、私が自分で中に入ります。保安官デイジー! 保安官!""
        [26]
-        1 string data = ""Sheriff's busy, Miss Wesson. I've told you this before.""
+        1 string data = ""保安官は忙しいんです、ウェッソンさん。前にも言いましたよね。""
        [27]
-        1 string data = ""Miss Wesson, you're going to have to wait. I do apologize.""
+        1 string data = ""ウェッソンさん、待っていただく必要があります。申し訳ありません。""
        [28]
-        1 string data = ""I would appreciate the chance to persuade her, deputy.""
+        1 string data = ""説得する機会をいただけると助かります、副官。""
        [29]
-        1 string data = ""I do know! My family's in there! That's why it's so urgent I talk to the sheriff!""
+        1 string data = ""分かっています! 私の家族があそこにいるんです! だから保安官と話すのがそんなに緊急なんです!""
        [30]
-        1 string data = ""As long as it takes, Miss Wesson. You know the trouble that's gone down.""
+        1 string data = ""必要なだけ、ウェッソンさん。何が起きたか分かっているでしょう。""
        [31]
-        1 string data = ""She's doing everything she can, ma'am. If you could just wait over here, you'll be the first to know when we know.""
+        1 string data = ""彼女はできる限りのことをしています、奥様。ここで待っていただければ、私たちが分かり次第、最初にお知らせします。""
        [32]
-        1 string data = ""I'm sorry, deputy, but not a single marshal's even gone into the Garden since I've been here!""
+        1 string data = ""申し訳ありませんが副官、私がここにいる間、マーシャルは一人もガーデンに入っていないんです!""
        [33]
-        1 string data = ""We're working on it, Miss Wesson! Shouting at me isn't going to help.""
+        1 string data = ""取り組んでいるんです、ウェッソンさん! 私に怒鳴っても助けにはなりませんよ。""
        [34]
-        1 string data = ""It's a dangerous situation, Miss Wesson. We don't want to lose any more people.""
+        1 string data = ""危険な状況なんです、ウェッソンさん。これ以上誰も失いたくないんです。""
        [35]
-        1 string data = ""Yes ma'am! Miss, please...""
+        1 string data = ""了解しました! お嬢さん、どうか...""
        [36]
-        1 string data = ""I've had enough of this! Why won't you people <i>do</i> anything?""
+        1 string data = ""もううんざりです! なぜあなた達は<i>何も</i>しないんですか?""
        [37]
-        1 string data = ""Not now! I'm busy! Torres! Get her under control!""
+        1 string data = ""今は無理だ! 忙しいんだ! トーレス! 彼女を落ち着かせろ!""
        [38]
-        1 string data = ""I suppose these vagabonds will get satisfaction from the sheriff first, won't they? That seems to be the order of things here.""
+        1 string data = ""このならず者たちが先に保安官から満足を得るんでしょうね? ここではそれが順番みたいですから。""
        [39]
         1 string data = ""ならず者たち?""
        [40]
@@ -121143,67 +121143,67 @@
        [116]
         1 string data = "Post garden, and Isaac is dead by my hand"
        [117]
-        1 string data = ""You let me shoot him. I've never... I've never shot anyone before, and you just made me shoot my boyfriend. I mean... my ex-boyfriend."\n\n\nShe laughs shakily.\n\n\n"Ex in more ways than one, I suppose.""
+        1 string data = ""あなたは私に彼を撃たせた。私は...私は今まで誰も撃ったことがなかったのに、あなたは私に彼氏を撃たせた。つまり...元彼を。"\n\n\n彼女は震えながら笑う。\n\n\n"いろんな意味で元彼ってことね。""
        [118]
-        1 string data = ""Oh, God... I killed him. I really killed him. I can't believe he's dead. At my hand. I can't..."\n\n\nShe scrubs her hand across her mouth, as if to wipe away a horrible taste."
+        1 string data = ""ああ、神様...私が彼を殺した。本当に殺してしまった。彼が死んだなんて信じられない。私の手で。できない..."\n\n\n彼女は恐ろしい味を拭い去るように手で口を擦る。"
        [119]
-        1 string data = ""You wanted justice for your family. You got it. You like the way it feels?""
+        1 string data = ""家族のための正義が欲しかったんだろう。手に入れた。その感覚は気に入ったか?""
        [120]
-        1 string data = ""I... I... I don't know."\n\n\n"No. I do know. It feels right. It feels like I was the hand of God.""
+        1 string data = ""私は...私は...分からないわ。"\n\n\n"いいえ。分かっている。正しいと感じる。私が神の手だったみたいに感じる。""
        [121]
-        1 string data = ""It had to be done, didn't it? He had to pay. My little brother was killed in cold blood. They gunned my mother down. They burned my family's bodies and dumped them in a shallow grave."\n\n\nSteel creeps back into her voice."
+        1 string data = ""やらなければならなかったのよね? 彼は償わなければならなかった。弟は冷酷に殺された。母は銃で撃ち殺された。彼らは家族の遺体を燃やして浅い墓に捨てた。"\n\n\n彼女の声に鋼の響きが戻ってくる。"
        [122]
-        1 string data = ""I need to find the people who steered Isaac wrong. I need to find the people who murdered my family. Everyone involved in that - <i>everyone</i> - they need to pay for what they've done."\n\n\n"Will you help me find them? You can count on my guns, every step of the way. We're going to judge them with lead and brass.""
+        1 string data = ""アイザックを誤った道に導いた人々を見つける必要がある。家族を殺した人々を見つけなければならない。それに関わった全員が―<i>全員が</i>―やったことの代償を払う必要がある。"\n\n\n"彼らを見つけるのを手伝ってくれる? 私の銃を頼りにして、最後まで一緒に。鉛と真鍮で裁きを下すの。""
        [123]
-        1 string data = ""You didn't know you'd have to kill him, but you didn't really have a choice.""
+        1 string data = ""彼を殺さなければならないとは知らなかった。でも本当は選択肢はなかったんだ。""
        [124]
-        1 string data = ""Yes... I did have a choice. I could have... I could have let him live."\n\n\nTears well up in her eyes."
+        1 string data = ""ええ...私には選択肢があった。私は...彼を生かすこともできた。"\n\n\n彼女の目に涙が溢れる。"
        [125]
-        1 string data = ""Now he's dead and the only memories I have of him are him laughing... and him begging for his life. Oh, God, I pray for you to forgive Isaac. And forgive me."\n\n\n"I don't know if I can do that again... but I have to, don't I?""
+        1 string data = ""今彼は死んで、私に残された彼の記憶は彼が笑っていたこと...そして命乞いをしていたこと。ああ、神様、アイザックを許してあげてください。そして私も許してください。"\n\n\n"またあんなことができるか分からない...でもしなければならないのよね?""
        [126]
-        1 string data = ""And then you killed him. I couldn't even finish him off. I needed your help to do it."\n\n\nShe laughs again, almost sobbing.\n\n\n"Now he's dead, and I'm to blame.""
+        1 string data = ""そしてあなたが彼を殺した。私はとどめを刺すこともできなかった。あなたの助けが必要だった。"\n\n\n彼女はまた笑うが、ほとんど泣いているようだ。\n\n\n"今彼は死んで、私が責められるべきなの。""
        [127]
-        1 string data = ""No. Isaac was to blame. He's the one who chose that path. You didn't really have a choice.""
+        1 string data = ""違う。アイザックが責められるべきだ。その道を選んだのは彼自身だ。君には本当の選択肢はなかった。""
        [128]
-        1 string data = ""Yeah, you are. If you hadn't come, he might still be alive.""
+        1 string data = ""ああ、そうだ。もし君が来ていなければ、彼はまだ生きていたかもしれない。""
        [129]
-        1 string data = ""But then he'd have gotten away with it! That wouldn't have been fair at all!""
+        1 string data = ""でもそうしたら彼は逃げおおせていた! それは全く公平じゃないわ!""
        [130]
-        1 string data = ""You let Isaac live. After all he admitted to, after giving aid and comfort to the enemies of the Patriarch, after <i>killing my family</i>, and you let him live?""
+        1 string data = ""あなたはアイザックを生かした。彼が全て認めた後で、パトリアークの敵に援助と慰めを与えた後で、<i>私の家族を殺した</i>後で、あなたは彼を生かしたの?""
        [131]
-        1 string data = ""And worse, you actually let him leave? You let him waltz away? I could have given him justice right then and there, but you let him go? You will tell me why, and right now.""
+        1 string data = ""しかももっと悪いことに、実際に彼を去らせたの? のうのうと歩き去らせた? その場で彼に正義を下すことができたのに、行かせた? 理由を話してちょうだい、今すぐに。""
        [132]
-        1 string data = ""You know he saved your life, right? He didn't have to get you out of your house, but he did.""
+        1 string data = ""彼が君の命を救ったことは分かっているだろう? 家から君を連れ出す必要はなかったが、そうしてくれた。""
        [133]
-        1 string data = ""If I had been in the house, perhaps I could have saved them. Perhaps the whole night would have gone differently."\n\n\nShe recollects for a moment.\n\n\n"But perhaps not. They would have had me outgunned, and they would not have thought twice of burning down our home.""
+        1 string data = ""もし私が家にいたら、彼らを救えたかもしれない。あの夜全体が違った展開になっていたかも。"\n\n\n彼女は少しの間、思い出に耽る。\n\n\n"でもそうじゃなかったかもしれない。彼らは私を武装で圧倒していただろうし、家を燃やすことに一切躊躇しなかったでしょう。""
        [134]
-        1 string data = "She comes to a decision.\n\n\n"Very well. I accept that you let him live. But the others involved in this - the people who are truly responsible - they must pay. I will bring justice to their doors. They'll hear me coming, and they'll know that my steps herald their doom.""
+        1 string data = "彼女は決心する。\n\n\n"分かったわ。あなたが彼を生かしたことは受け入れる。でもこれに関わった他の人々―本当に責任がある人々―彼らは償わなければならない。私が彼らの元に正義を持って行くわ。私が来るのを聞くでしょうし、私の足音が彼らの破滅を告げることを知るでしょう。""
        [135]
-        1 string data = ""Will you help me find them? You can count on my guns, every step of the way. We're going to judge them with lead and brass.""
+        1 string data = ""彼らを見つけるのを手伝ってくれる? 私の銃を頼りにして、最後まで一緒に。鉛と真鍮で裁きを下すの。""
        [136]
-        1 string data = ""I didn't want you to have his murder on your conscience.""
+        1 string data = ""彼を殺したという罪を君の良心に背負わせたくなかった。""
        [137]
-        1 string data = ""I'll be the keeper of my own conscience, thank you very much. I am a grown woman, legally an adult in the Patriarch's eyes."\n\n\nShe sighs.\n\n\n"I appreciate you looking out for me. Do not think me ungrateful.""
+        1 string data = ""自分の良心は自分で管理するわ、ありがとう。私は大人の女性よ、法的にパトリアークの目から見ても成人です。"\n\n\n彼女はため息をつく。\n\n\n"気にかけてくれてありがとう。恩知らずだとは思わないでください。""
        [138]
-        1 string data = ""He's a confused kid. He doesn't deserve to die because he's stupid.""
+        1 string data = ""彼は混乱した子供だ。愚かだからといって死ぬべきではない。""
        [139]
-        1 string data = ""Have you already forgotten the magnitude of his crimes? Others have died for less. He should have known. He should have."\n\n\nShe sighs.\n\n\n"But that's not for me to say, is it?""
+        1 string data = ""もう彼の罪の大きさを忘れたの? もっと小さな罪で死んだ人もいる。彼は知っているべきだった。知っているべきだったのよ。"\n\n\n彼女はため息をつく。\n\n\n"でもそれは私が言うべきことじゃないわね?""
        [140]
-        1 string data = ""Justice belongs to the law... and the sheriff will probably execute him anyway.""
+        1 string data = ""正義は法に属している...そして保安官はおそらくいずれにせよ彼を処刑するだろう。""
        [141]
-        1 string data = ""Perhaps you have it right. If I hold my own personal feelings above the law, then I become little better than a vigilante."\r\n\r\nShe frowns deeply. \r\n\r\n"But the law does not extend far beyond the city's borders these days.""
+        1 string data = ""おそらくあなたの言う通りね。もし私が自分の個人的な感情を法の上に置くなら、自警団員と大して変わらなくなってしまう。"\r\n\r\n彼女は深く眉をひそめる。\r\n\r\n"でも最近は法が街の境界を超えてはあまり及ばないのよね。""
        [142]
-        1 string data = ""Why? Why did you let him live? Is <i>arrest</i> good enough for him?""
+        1 string data = ""なぜ? なぜ彼を生かしたの? <i>逮捕</i>で十分だと思うの?""
        [143]
         1 string data = """"
        [144]
-        1 string data = ""Sure. We'll help you. In return, you do what we say.""
+        1 string data = ""いいだろう。手伝ってやる。その代わり、俺たちの言うことを聞け。""
        [145]
         1 string data = "She nods solemnly. "You've got yourselves a bargain, Rangers."\n\n\nShe adjusts her jacket, rests her hands on her guns."
        [146]
         1 string data = " "Let's go, then.""
        [147]
-        1 string data = ""No. We helped you through the Garden. That's as far as it goes.""
+        1 string data = ""いいえ。ガーデンを抜ける手伝いはした。そこまでだ。""
        [148]
         1 string data = "She looks like she's going to cry, and she ducks her head.\n\n\n"If that's the way it's got to be, then that's it. Fine. I'll do it myself. You change your mind, you can find me at my home.""
        [149]
