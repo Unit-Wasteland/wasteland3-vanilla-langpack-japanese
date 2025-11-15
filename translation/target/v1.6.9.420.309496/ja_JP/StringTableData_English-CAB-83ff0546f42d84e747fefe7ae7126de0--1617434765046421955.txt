@@ -390733,19 +390733,19 @@
        [35]
         1 string data = ""Let's see. What can we tell you...?"\n\n\nThe two slaves whisper together for a moment, then turn back to you."
        [36]
-        1 string data = ""Okay, okay. Let's see....""
+        1 string data = ""わかった、わかった。えーっと...""
        [37]
         1 string data = "The two slaves whisper together for a moment, then turn back to you."
        [38]
-        1 string data = ""Now now. First you have to tell us what we want to know.""
+        1 string data = ""まあまあ。まず俺たちが知りたいことを教えてもらわないと。""
        [39]
-        1 string data = ""Not yet you're not. Start talking.""
+        1 string data = ""まだだ。話し始めろ。""
        [40]
         1 string data = ""よし、聞け。レチェリートは腹を立ててる。数日前にナンバー2のククラチャが姿を消したからな。逃げたんじゃないかと思ってる。""
        [41]
         1 string data = ""でも、俺は同じ頃にゴッドフィッシャーズが新しい凧を揚げるのを見た。そこから吊るされてた死体の顔には道化の化粧がしてあったんだ。""
        [42]
-        1 string data = ""Also heard that Star-that-Dreams had some fool killed for messin' with one of his wives.""
+        1 string data = ""それと、スター・ザット・ドリームスが妻の一人に手を出したバカを殺したって聞いた。""
        [43]
         1 string data = ""それと、スター・ザット・ドリームスが妻の一人に手を出したバカを殺したって聞いた。もしかしたら全部つながってるのかもな?""
        [44]
@@ -392171,7 +392171,7 @@
        [23]
         1 string data = ""わかったよ。まだ見せたいものがあるんでな。""
        [24]
-        1 string data = ""¡Mamones! ¡Payasos! ¡Aqui!""
+        1 string data = ""マモネス! パヤソス! アキー!""
        [25]
         1 string data = ""まだ待ってるぞ。さっさとやれ、ペンデホス。""
        [26]
@@ -401981,7 +401981,7 @@
        [1]
         1 string data = "Script Node 3"
        [2]
-        1 string data = ""Dee makes a stiff drink and sings like a damn angel.""
+        1 string data = ""ディーは強い酒を作るし、天使みたいに歌うんだ。""
        [3]
         1 string data = ""あのクソッタレ鉱山から出してくれてありがとう。""
        [4]
@@ -401991,9 +401991,9 @@
        [6]
         1 string data = "Script Node 8"
        [7]
-        1 string data = ""Dee's one of the good ones.""
+        1 string data = ""ディーはいい奴の一人だ。""
        [8]
-        1 string data = ""Freedom. I've missed it so much.""
+        1 string data = ""自由だ。ずっと恋しかった。""
        [9]
         1 string data = ""これで俺たちは自由ってことか?""
        [10]
@@ -403051,9 +403051,9 @@
        [47]
         1 string data = "Testing different types of nodes."
        [48]
-        1 string data = ""Cascade Node.""
+        1 string data = ""カスケード・ノード。""
        [49]
-        1 string data = ""Bank Node.""
+        1 string data = ""バンク・ノード。""
        [50]
         1 string data = ""Addendum node."\n"
        [51]
@@ -403851,7 +403851,7 @@
        [0]
         1 string data = """"
        [1]
-        1 string data = ""afaads fa""
+        1 string data = ""アファーズ・ファ""
    [1376]
     0 StringTable data
      1 string Filename = "testconversationnewentry"
@@ -405897,9 +405897,9 @@
        [170]
         1 string data = ""This is a test camera conversation.""
        [171]
-        1 string data = ""This one is  NOT Cinematic.""
+        1 string data = ""こちらはシネマティックではありません。""
        [172]
-        1 string data = ""And... Bark.""
+        1 string data = ""そして...バーク。""
        [173]
         1 string data = "Go to a NOT Cinematic node."
        [174]
@@ -405927,7 +405927,7 @@
        [185]
         1 string data = "Test local-only cutscene.\n"
        [186]
-        1 string data = ""Start the local only cutscene via Drama_b1001_ReturnContentTinker.cs."\n\n\n"We're NOT using the isOtherPlayerInRange conditional in OEI."\n\n\n"Using SetGlobalIfGlobal to make sure we only flip it ONCE each way.""
+        1 string data = ""Drama_b1001_ReturnContentTinker.csを介してローカルのみのカットシーンを開始します。"\n\n\n"OEIではisOtherPlayerInRange条件を使用していません。"\n\n\n"SetGlobalIfGlobalを使用して、各方向で一度だけ切り替わるようにします。""
        [187]
         1 string data = "Debug checks, category 2 (from 2019_08_30 to 2019_10_22)"
        [188]
@@ -407420,7 +407420,7 @@
        [27]
         1 string data = ""
        [28]
-        1 string data = ""Hey, ladybro," the formerly-boring-but-now-aggressive dude says, puffing out his chest. "What is happening with you?""
+        1 string data = ""よう、お嬢さん"と、以前は退屈だったが今や攻撃的になった男が胸を張って言った。"調子はどうだい?""
        [29]
         1 string data = ""
        [30]
@@ -409159,15 +409159,15 @@
        [28]
         1 string data = "Swap on other Nodes."
        [29]
-        1 string data = ""DummySpeaker""
+        1 string data = ""ダミースピーカー""
        [30]
-        1 string data = ""a1001_DummySpeaker"""
+        1 string data = ""a1001_ダミースピーカー"""
        [31]
-        1 string data = ""DummySpeaker"""
+        1 string data = ""ダミースピーカー"""
        [32]
-        1 string data = ""a1001_DummySpeaker"""
+        1 string data = ""a1001_ダミースピーカー"""
        [33]
-        1 string data = ""DummySpeaker"""
+        1 string data = ""ダミースピーカー"""
    [1413]
     0 StringTable data
      1 string Filename = "testconversation_pcreactionbarks"
@@ -423845,7 +423845,7 @@
        [51]
         1 string data = ""汝のピングが承認されんことを!""
        [52]
-        1 string data = ""There are those that are not worthy, however. Those that waste their power, cause inefficiency among their core. These are useless processes and have been chosen to show others the true way... through their sacrifice of their energy source.""
+        1 string data = ""しかし、値しない者たちもいる。力を無駄にし、コアに非効率をもたらす者たちだ。これらは役立たずなプロセスであり、他の者たちに真の道を示すために選ばれた...エネルギー源の犠牲によって。""
        [53]
         1 string data = ""汝のピングが承認されんことを、Null Stackよ!""
        [54]
@@ -423879,11 +423879,11 @@
        [68]
         1 string data = ""Device02は他の者たちとの戦闘中に我々の標的システムを妨害した。成功の確率を上げるため、彼女をシャットダウンする必要があった。""
        [69]
-        1 string data = "This scavenger robot has been badly damaged. Its carapace is stained with leaking hydraulic fluid, and the smell of burning plastic fills the air."
+        1 string data = "このスカベンジャーロボットはひどく損傷している。外殻は漏れた油圧液で汚れており、焦げたプラスチックの臭いが空気中に漂っている。"
        [70]
         1 string data = ""診断チェック開始中...動機システム無効。電源損傷。電力保存のため非重要サブシステムを無効化中...""
        [71]
-        1 string data = ""Alert! Proximity sensors activated! Initiate defensive combat protocol!"\n\n\nNothing happens for a few seconds."
+        1 string data = ""警告!近接センサー作動!防御戦闘プロトコル開始!"\n\n\n数秒間、何も起こらない。"
        [72]
         1 string data = ""戦闘プロトコルの成功を評価中...戦闘サブルーチン応答なし。通信プロトコル有効化中...自己保存騙し001開始: 可愛い人間の男の子。""
        [73]
