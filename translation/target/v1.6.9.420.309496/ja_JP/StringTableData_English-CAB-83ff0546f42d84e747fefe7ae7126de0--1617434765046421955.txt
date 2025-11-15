@@ -123519,17 +123519,17 @@
        [109]
         1 string data = ""あたしの息子たちの命には代えられない。大人しく行くよ。" \r\n\r\n老女は手首を差し出す。"
        [110]
-        1 string data = ""Got some questions for you on your smuggling.""
+        1 string data = ""密輸について質問がある。""
        [111]
         1 string data = "She snorts. Loudly."
        [112]
-        1 string data = ""Let's talk about something else.""
+        1 string data = ""別の話をしよう。""
        [113]
         1 string data = "Another loud snort."
        [114]
         1 string data = ""ボビー、ジェシー、ジミー...荷物をまとめな。お前たちはレンジャーのために働くんだ。""
        [115]
-        1 string data = ""Well goddammit, why didn't you just say so? Stand down boys, they're with us!""
+        1 string data = ""ったく、なんで最初から言わないんだ? 武器を下ろせ、坊主ども。こいつらは仲間だ!""
        [116]
         1 string data = "[Attack] "Then you leave us no choice, we're taking you and your boys down.""
        [117]
@@ -124521,13 +124521,13 @@
        [2]
         1 string data = ""ドーシーズはもうここを通らせない。""
        [3]
-        1 string data = ""Did the attackers get through because of us? Won't happen again.""
+        1 string data = ""襲撃者が俺たちのせいで通ったのか? 二度と起こさせない。""
        [4]
-        1 string data = ""Keep sharp, people.""
+        1 string data = ""気を引き締めろ、みんな。""
        [5]
         1 string data = """"
        [6]
-        1 string data = ""Patriarch's not going to be happy about his boy.""
+        1 string data = ""パトリアークは息子のことで不機嫌になるだろうな。""
        [7]
         1 string data = ""パトリアークは羨ましくないね。最悪の家族を持ってるんだから。""
        [8]
@@ -124545,7 +124545,7 @@
        [14]
         1 string data = ""ドーシーズなら対処できる。平原のギャングは? うーん...""
        [15]
-        1 string data = ""All right, time to man up. Can take these Plains assholes. We've seen worse.""
+        1 string data = ""よし、腹をくくる時だ。平原のクソ野郎どもくらい何とかできる。もっとひどいのを見てきたんだからな。""
    [353]
     0 StringTable data
      1 string Filename = "a2001_marshallpitts"
@@ -124739,7 +124739,7 @@
        [17]
         1 string data = ""もちろんです、ウェッソンお嬢様。開けろ、みんな!"\n"
        [18]
-        1 string data = ""Yes, ma'am, the sheriff said you'd be coming by. Open it up, fellas.""
+        1 string data = ""はい、奥様、保安官から来ると聞いていました。開けろ、みんな!""
        [19]
         1 string data = ""通過許可が出ている。開けろ、みんな!""
        [20]
@@ -125341,7 +125341,7 @@
       1 Array Array (89 items)
        0 int size = 89
        [0]
-        1 string data = "Hello Rangers."
+        1 string data = "こんにちは、レンジャー。"
        [1]
         1 string data = " I am in Debug Mode!"
        [2]
@@ -125401,87 +125401,87 @@
        [29]
         1 string data = " Eat Shit!"
        [30]
-        1 string data = ""Hi Rangers. Can't talk now. Getting the next edition together.""
+        1 string data = ""やあ、レンジャー。今は話せない。次の号をまとめているんだ。""
        [31]
-        1 string data = ""Go make some good news.""
+        1 string data = ""良いニュースを作ってきてくれ。""
        [32]
-        1 string data = ""Hi Rangers. A little busy right now. Can it wait?""
+        1 string data = ""やあ、レンジャー。今ちょっと忙しいんだ。後でもいいか?""
        [33]
-        1 string data = ""We're looking for your photographer, Brady.""
+        1 string data = ""お宅の写真家、ブレイディを探しているんだ。""
        [34]
-        1 string data = ""Sure. See you.""
+        1 string data = ""ああ。またな。""
        [35]
-        1 string data = ""Oh?"\n\n\nHe gives you a long once over."
+        1 string data = ""ああ?"\n\n\n彼は君たちをじっくりと見渡す。"
        [36]
-        1 string data = ""What's this about?""
+        1 string data = ""何の用だ?""
        [37]
-        1 string data = ""We want him to come take some pictures of our headquarters. For publicity purposes.""
+        1 string data = ""我々の本部の写真を撮りに来て欲しいんだ。広報目的でね。""
        [38]
-        1 string data = ""We just want to see him, that's all.""
+        1 string data = ""ただ彼に会いたいだけなんだ。それだけだ。""
        [39]
-        1 string data = ""Ah, well, if that's all it is, then I'm happy to tell you. He's staying at the Sans Lux Apartments for a few days. Ask Rosie which room.""
+        1 string data = ""ああ、それだけのことなら、喜んで教えるよ。彼は数日間サン・リュクス・アパートメントに滞在している。ロージーに部屋番号を聞いてくれ。""
        [40]
-        1 string data = ""This is about that business with Quinn, isn't it? Well, you're on your own there. Brady didn't tell me what happened, and he didn't tell me where he was going. Sorry.""
+        1 string data = ""これはクォンとの一件についてだろ? まあ、それは自力でやってくれ。ブレイディは何が起きたか教えてくれなかったし、どこへ行くかも言わなかった。すまないね。""
        [41]
-        1 string data = ""Share those photos of your headquarters with me when you get 'em, rangers. I'll give you a full page spread.""
+        1 string data = ""本部の写真を撮ったら俺にも見せてくれよ、レンジャー。全面広告で載せてやるからな。""
        [42]
-        1 string data = ""So long.""
+        1 string data = ""じゃあな。""
        [43]
-        1 string data = ""Come on. We're on Brady's side on this. We just want to help him out.""
+        1 string data = ""頼むよ。俺たちはブレイディの味方なんだ。ただ彼を助けたいだけなんだ。""
        [44]
-        1 string data = ""Are we going to have to do this the hard way?""
+        1 string data = ""力ずくでやらなきゃいけないのか?""
        [45]
-        1 string data = ""Maybe you are, but I'm still sayin' no. If he checks in I'll tell him to call you, but that's as far as I'll go.""
+        1 string data = ""そうかもしれないが、俺は断る。もし彼が連絡してきたら電話するよう伝えるが、それ以上はしない。""
        [46]
-        1 string data = ""You're threatening me? Knowing who I work for?""
+        1 string data = ""俺を脅すつもりか? 俺が誰のために働いてるか知っての上で?""
        [47]
-        1 string data = ""You try any strong-arm tricks with me, the Patriot will make you Colorado's Public Enemy Number One. I'll turn the whole damn town against you, from the refugees, to the Hundred Familys, all the way up to the Patriarch himself. Is that what you want?""
+        1 string data = ""俺に力ずくの真似をしようってんなら、パトリオットがお前らをコロラド公敵ナンバーワンにしてやるぞ。難民から百家族、パトリアーク本人まで、この街全体をお前らの敵に回してやる。そうなりたいのか?""
        [48]
-        1 string data = ""He might check in? So he's still in town?""
+        1 string data = ""連絡してくるかもしれない? じゃあまだ街にいるのか?""
        [49]
-        1 string data = "Examine Maxwell's desk."
+        1 string data = "マクスウェルの机を調べる。"
        [50]
-        1 string data = "Kick Maxwell out of the way and search the desk."
+        1 string data = "マクスウェルを蹴り飛ばして机を調べる。"
        [51]
-        1 string data = "Maxwell shoots a quick glance at his desk, then looks back at you. "
+        1 string data = "マクスウェルは素早く机に視線を向け、それから君たちを見返す。 "
        [52]
-        1 string data = ""I... I've got no idea. He didn't tell me anything.""
+        1 string data = ""い...いや、全く分からない。彼は何も教えてくれなかったんだ。""
        [53]
-        1 string data = ""Hey! Get out of there! That's private!""
+        1 string data = ""おい! そこから離れろ! プライベートなんだぞ!""
        [54]
-        1 string data = "He gets in your way and puts up his fists."
+        1 string data = "彼は君たちの前に立ちはだかり、拳を構える。"
        [55]
-        1 string data = "Maxwell goes down hard and cracks his head on the floor. "
+        1 string data = "マクスウェルは激しく倒れ、頭を床に打ちつける。 "
        [56]
-        1 string data = "Under the desk blotter, you find a room key for the Sans Lux Apartments. Room 4. \r\n\r\nMaxwell groans and stands, clutching his head. "
+        1 string data = "机のブロッターの下に、サン・リュクス・アパートメントの部屋の鍵を見つける。4号室だ。 \r\n\r\nマクスウェルはうめき声を上げながら立ち上がり、頭を押さえる。 "
        [57]
-        1 string data = ""Goddamn goons. From now on, your name is mud in this town, you hear me? Now get out. And you better not touch a hair on Brady's head!""
+        1 string data = ""クソったれのゴロツキめ。今後お前らの名前はこの街で泥だ、分かったか? 今すぐ出て行け。ブレイディの髪の毛一本でも触れてみろ!""
        [58]
-        1 string data = ""I'm already composin' tomorrow's headline, you rats.""
+        1 string data = ""もう明日の見出しを考え始めてるところだ、このネズミどもめ。""
        [59]
-        1 string data = "Put Maxwell in an armlock."
+        1 string data = "マクスウェルを腕ひしぎ逆十字で固める。"
        [60]
-        1 string data = "Maxwell yelps as you put pressure on the joint. "
+        1 string data = "関節に圧力をかけると、マクスウェルは悲鳴を上げる。 "
        [61]
-        1 string data = ""All right, all right, all right! Don't break it! I'll tell you where he is. He's at the Sans Lux apartments. Hiding from Quinn.""
+        1 string data = ""分かった、分かった、分かったよ! 折らないでくれ! どこにいるか教える。サン・リュクス・アパートメントにいる。クォンから隠れてるんだ。""
        [62]
-        1 string data = ""Now are you done playing tough guys?""
+        1 string data = ""タフガイごっこはもう終わりか?""
        [63]
-        1 string data = "Break Maxwell's arm."
+        1 string data = "マクスウェルの腕を折る。"
        [64]
-        1 string data = "Let Maxwell go."
+        1 string data = "マクスウェルを解放する。"
        [65]
-        1 string data = "Maxwell screams and drops to the floor, clutching his arm. "
+        1 string data = "マクスウェルは悲鳴を上げて床に倒れ込み、腕を押さえる。 "
        [66]
-        1 string data = ""You fucking gorillas! From now on, your name is mud in this town, you hear me? Now get out. And you better not touch a hair on Brady's head!""
+        1 string data = ""このクソゴリラどもが! 今後お前らの名前はこの街で泥だ、分かったか? 今すぐ出て行け。ブレイディの髪の毛一本でも触れてみろ!""
        [67]
-        1 string data = ""Never mind. Forget we asked.""
+        1 string data = ""いや、何でもない。聞かなかったことにしてくれ。""
        [68]
-        1 string data = ""I don't mind. But I can't forget.""
+        1 string data = ""構わないさ。だが忘れることはできない。""
        [69]
-        1 string data = ""I've got my eye on you, Rangers.""
+        1 string data = ""お前たちには目を光らせておくぞ、レンジャー。""
        [70]
-        1 string data = ""Still looking for Brady, Rangers? Well, I still don't know where he is.""
+        1 string data = ""まだブレイディを探してるのか、レンジャー? まあ、彼がどこにいるかまだ分からないんだ。""
        [71]
         1 string data = ""I've got no idea. He didn't tell me anything.""
        [72]
