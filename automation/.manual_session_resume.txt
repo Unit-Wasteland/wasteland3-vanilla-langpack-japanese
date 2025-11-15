@@ -1,34 +1,60 @@
 Manual Translation Session - Resume Information
 ================================================
 
-Last completed: Batch 12 (2025-11-15)
+Last completed: Batch 3 (2025-11-16)
 
-Progress Summary:
-- Completed: 200/268 entries (74.6%)
-- Remaining: 68 entries (3-4 batches estimated)
+Progress Summary (Current Session):
+- Batch 1: 200 entries completed (commit: 00a17aec)
+- Batch 2: 200 entries completed (commit: 2e3346d6)
+- Batch 3: 211 entries completed (commit: 3a31ccd5)
+- Total: 611 entries translated in this session
+
+Translation Details:
+
+Batch 1 (200 entries):
+- Polly (vulgar parrot) combat barks: lines 318446-318612 (83 entries)
+- Generic character combat barks: lines 319318-319512 (117 entries)
+- Commit: 00a17aec
+
+Batch 2 (200 entries):
+- Gippers combat barks: lines 320434-320632 (101 entries)
+- Godfishers combat barks: lines 321240-321387 (75 entries)
+- Additional Godfishers: lines 321388-321438 (24 entries)
+- Commit: 2e3346d6
+
+Batch 3 (211 entries):
+- Giant Toad barks: lines 319860-319870 (4 entries)
+- Holy Detonation Cultists: lines 321512-321528 (9 entries)
+- Hostile Robots: lines 321954-322086 (66 entries)
+- Lawkeepers: lines 322532-322674 (72 entries)
+- Lightning Shaman: lines 323136-323230 (49 entries)
+- Godfishers additional: lines 321440-321460 (11 entries)
+- Commit: 3a31ccd5
 
 Next batch to translate:
-- Batch 13: Continue from .need_translation.txt line 201
-- Estimated: ~20 entries remaining in scattered locations
-
-Line numbers list location:
-- automation/.need_translation.txt (lines 121-268)
+- Continue from automation/.current_untranslated_lines.txt
+- Check remaining untranslated lines in the list
+- Continue with 200-entry batches
 
 To resume:
-1. Read line numbers: sed -n '121,140p' automation/.need_translation.txt
-2. Continue with batch 7 translation
-3. Follow CLAUDE.md guidelines (manual translation only)
-4. Validate after each batch (structure + quality)
-5. Commit after each batch
-
-Recent commits:
-- Batch 1: add230f8
-- Batch 2: fe44a09d
-- Batch 3: 2c31e864
-- Batch 4: ec21f103
-- Batch 5: 332a8e76
-- Batch 6: 57ec65e2
-- Batches 7-12: 12456408 (76 entries)
+1. Read automation/.current_untranslated_lines.txt to find next untranslated lines
+2. Process in 200-entry batches
+3. Follow CLAUDE.md guidelines (manual translation only, Read/Edit tools)
+4. Validate after each batch:
+   - Structure: validate_structure_v2.py (0 errors required)
+   - Quality: validate_translation_quality.py (0 issues required)
+5. Commit after each batch with comprehensive message
+6. Report to user every 200 entries
 
 Target file:
 translation/target/v1.6.9.420.309496/ja_JP/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt
+
+Source reference:
+translation/source/v1.6.9.420.309496/en_US/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt
+
+Recent commits:
+- Batch 1: 00a17aec (200 entries)
+- Batch 2: 2e3346d6 (200 entries)
+- Batch 3: 3a31ccd5 (211 entries)
+
+Validation status: All batches passed structure + quality validation (0 errors/issues)
