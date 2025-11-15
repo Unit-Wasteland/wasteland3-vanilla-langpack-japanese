@@ -421,14 +421,29 @@ def print_report(issues: Dict[str, List[ValidationIssue]], verbose: bool = False
     untranslated_issues = issues['untranslated']
     print(f"\n[2] Untranslated English entries: {len(untranslated_issues)}")
     if untranslated_issues:
-        print("\nSample issues (first 20):")
-        for issue in untranslated_issues[:20]:
-            print(f"  Line {issue.line_num}: {issue.description}")
-            if verbose:
-                print(f"    Content: {issue.line_content}")
+        if len(untranslated_issues) <= 50:
+            # If 50 or fewer, show all
+            print("\nAll issues:")
+            for issue in untranslated_issues:
+                print(f"  Line {issue.line_num}: {issue.description}")
+                if verbose:
+                    print(f"    Content: {issue.line_content}")
+        else:
+            # If more than 50, show first 20 and all line numbers
+            print("\nSample issues (first 20):")
+            for issue in untranslated_issues[:20]:
+                print(f"  Line {issue.line_num}: {issue.description}")
+                if verbose:
+                    print(f"    Content: {issue.line_content}")
 
-        if len(untranslated_issues) > 20:
             print(f"\n  ... and {len(untranslated_issues) - 20} more")
+
+            # List all line numbers for reference
+            print(f"\nAll untranslated line numbers ({len(untranslated_issues)} total):")
+            line_nums = [str(issue.line_num) for issue in untranslated_issues]
+            # Print in rows of 10
+            for i in range(0, len(line_nums), 10):
+                print(f"  {', '.join(line_nums[i:i+10])}")
 
     # Bracket translation issues
     bracket_issues = issues['bracket_translation']
