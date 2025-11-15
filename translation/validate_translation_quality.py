@@ -148,9 +148,10 @@ def load_spanish_reference(filepath: Optional[Path]) -> Dict[int, str]:
 def validate_untranslated_english(line_num: int, line: str, spanish_data: Dict[int, str], start_line: int = 666, end_line: int = 999999999) -> List[ValidationIssue]:
     """Validate that English text is translated (within the specified range).
 
-    Uses Spanish reference to determine if English should be translated:
-    - Spanish empty ("") = Program identifier → Keep English (NOT an error)
-    - Spanish translated = Normal text → Should be Japanese (IS an error if English)
+    UPDATED LOGIC (2025-11-15):
+    - Checks if English text contains common words indicating it should be translated
+    - Spanish reference is ADVISORY ONLY (not decisive)
+    - Even if Spanish is empty, English content is checked for translatability
     """
     issues = []
 
@@ -186,18 +187,6 @@ def validate_untranslated_english(line_num: int, line: str, spanish_data: Dict[i
     if not content_without_markers.strip():
         return issues
 
-    # Check Spanish reference if available
-    if line_num in spanish_data:
-        spanish_content = spanish_data[line_num]
-
-        # If Spanish is empty, this is a program identifier → Keep English (NOT an error)
-        if not spanish_content.strip():
-            return issues
-
-        # If Spanish equals English, this is also a program identifier
-        if spanish_content.strip() == content.strip():
-            return issues
-
     # Check if content contains common English words
     if contains_common_english(content):
         # Check if it also contains Japanese (partially translated)
@@ -206,10 +195,20 @@ def validate_untranslated_english(line_num: int, line: str, spanish_data: Dict[i
             pass
         else:
             # This is fully in English, should be translated
+            # Determine the reason message based on Spanish reference
+            if line_num in spanish_data:
+                spanish_content = spanish_data[line_num]
+                if spanish_content.strip() and spanish_content.strip() != content.strip():
+                    reason = "Spanish was translated, so Japanese should also be translated"
+                else:
+                    reason = "English content contains translatable text (Spanish reference empty/same, but content should be translated)"
+            else:
+                reason = "English content contains translatable text (no Spanish reference available)"
+
             issues.append(ValidationIssue(
                 line_num=line_num,
                 issue_type="UNTRANSLATED_ENGLISH",
-                description=f"English text not translated (Spanish was translated, so Japanese should also be translated)",
+                description=f"English text not translated ({reason})",
                 line_content=line.strip()
             ))
 
