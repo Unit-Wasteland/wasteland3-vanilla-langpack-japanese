@@ -69,17 +69,33 @@ class StrictStructureValidator:
 
             results['string_data_lines'] += 1
 
-            # 引用符の数を確認（ソースとターゲットは一致する必要がある）
-            src_quotes = src_line.count('"')
-            tgt_quotes = tgt_line.count('"')
+            # CLAUDE.md厳格ルール: クォート数を英語ソースと一致させる
+            # - 英語が `string data = " text"` (2個) → 日本語も `string data = " text"` (2個)
+            # - 英語が `string data = ""text""` (4個) → 日本語も `string data = ""text""` (4個)
+            # - クォートの追加・削除禁止
+            # - エスケープ `\"` 禁止
 
-            if src_quotes != tgt_quotes:
+            # クォート数を数える
+            src_quote_count = src_line.count('"')
+            tgt_quote_count = tgt_line.count('"')
+
+            # エスケープシーケンス検出
+            if '\\"' in tgt_line or "\\'" in tgt_line:
+                results['errors'].append({
+                    'line': i,
+                    'type': 'ESCAPE_SEQUENCE_FORBIDDEN',
+                    'message': 'エスケープシーケンス検出（絶対禁止 - 構造破壊の原因）',
+                    'target': tgt_line.strip()[:100]
+                })
+
+            # クォート数の一致確認
+            if src_quote_count != tgt_quote_count:
                 results['errors'].append({
                     'line': i,
                     'type': 'QUOTE_COUNT_MISMATCH',
-                    'message': f'引用符の数が不一致: ソース={src_quotes}, ターゲット={tgt_quotes}',
-                    'source': src_line.strip()[:100],
-                    'target': tgt_line.strip()[:100]
+                    'message': f'クォート数不一致: ソース={src_quote_count}, ターゲット={tgt_quote_count}',
+                    'source': src_line.strip()[:80],
+                    'target': tgt_line.strip()[:80]
                 })
 
             # ゲーム変数の保持確認
