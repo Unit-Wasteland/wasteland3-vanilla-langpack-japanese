@@ -154233,19 +154233,19 @@
        [129]
         1 string data = "Identify and disconnect the power supply."
        [130]
-        1 string data = " Try to pry off the metal bars"
+        1 string data = " 金属バーをこじ開けようとする"
        [131]
-        1 string data = " You gingerly touch one of the bars, and recieve a painful shock."
+        1 string data = " 慎重にバーに触れたが、激しい電気ショックを受けた。"
        [132]
         1 string data = "You find the power source, and gingerly pop its connection free. The bomb stops humming."
        [133]
-        1 string data = " This booby trap has been disabled."
+        1 string data = " この罠は無効化された。"
        [134]
         1 string data = "The metal bars that run from this module protect other key modules by shocking anyone who interferes. The shock's an annoyance, but shouldn't detonate the device all on its own."
        [135]
         1 string data = "Bank 166"
        [136]
-        1 string data = " That's what the tamper-proofing device is for, after all. And the capacitor trap is hooked to that."
+        1 string data = " そのために改ざん防止装置があるのだ。そしてコンデンサトラップはそれに接続されている。"
        [137]
         1 string data = "Check out the electronic fail-safe and the explosive material."
        [138]
@@ -154267,23 +154267,23 @@
        [146]
         1 string data = "Carefully pry out the failsafe chip."
        [147]
-        1 string data = " Attempt to puncture the container to drain the liquid"
+        1 string data = " 容器に穴を開けて液体を排出しようとする"
        [148]
         1 string data = "You try to reach past one of the metal bars covering the module. As you brush past, electricity arcs and delivers a painful shock."
        [149]
-        1 string data = " Carefully, cautiously, you recklessly tap on the explosive."
+        1 string data = " 慎重に、注意深く、無謀にも爆発物を叩く。"
        [150]
         1 string data = "You try to reach past one of the metal bars covering the module. As you brush past, electricity arcs and delivers a painful shock."
        [151]
         1 string data = "You work your tool underneath the chip, squint, and pop the chip from its seat.\n\n\nNothing explodes. You're still alive."
        [152]
-        1 string data = " You've disabled the failsafe, but the primary explosive remains. It is too volatile to handle directly. "
+        1 string data = " 安全装置は無効化したが、主要爆発物は残っている。直接扱うには不安定すぎる。"
        [153]
         1 string data = "Well, this is clever. The accelerant for the explosive hides a failsafe connect to the timer. If you don't remove the failsafe, the bomb will detonate when you tinker with the acelerant."
        [154]
         1 string data = "Bank 188"
        [155]
-        1 string data = " Worse, it's hooked up to the tamper-proofing module. "
+        1 string data = " さらに悪いことに、改ざん防止モジュールに接続されている。"
        [156]
         1 string data = "\n\n\nYou haven't disabled the capacitor trap yet, either. It will shock you if you try to do anything with this module."
        [157]
@@ -154293,9 +154293,9 @@
        [159]
         1 string data = "The digital timer is set into a small circuitboard, with wires criscrossing at hard right angles as they link to other modules. Thin metal bars from an adjoining module spread across the circuitboard like prison bars, leaving precious little room for you to work in."
        [160]
-        1 string data = " This is the primary detonator for the device.  Once you've disabled the other failsafes, you can probably disarm the bomb here."
+        1 string data = " これが装置の主要起爆装置だ。他の安全装置を無効化すれば、ここで爆弾を解除できるだろう。"
        [161]
-        1 string data = " Unfortunately, it's bound to the tamper-proof module - the device will explode if you tinker with this now."
+        1 string data = " 残念ながら、改ざん防止モジュールに接続されている - 今これを操作すれば装置は爆発する。"
        [162]
         1 string data = "\n\n\nThe capacitor trap is still active. You'll get a nasty shock if you don't disable that first."
        [163]
@@ -154307,11 +154307,11 @@
        [166]
         1 string data = "Cut the black wire."
        [167]
-        1 string data = " Cut the red wire!"
+        1 string data = " 赤いワイヤーを切る!"
        [168]
         1 string data = "You try to reach past one of the metal bars covering the module. As you brush past, electricity arcs and delivers a painful shock."
        [169]
-        1 string data = " With a steady hand, you slice the red wire. There is a pregnant pause."
+        1 string data = " 落ち着いた手つきで赤いワイヤーを切る。静寂が訪れる。"
        [170]
         1 string data = "You try to reach past one of the metal bars covering the module. As you brush past, electricity arcs and delivers a painful shock."
        [171]
@@ -154325,7 +154325,7 @@
        [175]
         1 string data = "As the handcuffs fall away from Laura's wrists, Mrs. Delgado pulls her daughter to her feet.\n\n\n"Thank you, Rangers. From the bottom of our hearts, thank you."\n\n\nThey stagger toward the stairs."
        [176]
-        1 string data = " You've disable the bomb! We're all safe!"
+        1 string data = " 爆弾を解除した! 全員無事だ!"
        [177]
         1 string data = " Addend. 188"
        [178]
@@ -154361,7 +154361,7 @@
        [193]
         1 string data = "You hear the two helpless women screaming behind you. This might be the kind of thing that you'll hear in your nightmares for years to come."
        [194]
-        1 string data = ""No! Don't leave my baby to die! No!" \r\n\r\nMrs. Delgado pulls fruitlessly at her daughter's bonds as you flee, and you can hear Laura's weeping as she resigns herself to her fate."
+        1 string data = ""「嫌! 娘を死なせないで! 嫌!」\r\n\r\nあなたが逃げる中、デルガド夫人は娘の拘束を必死に引っ張るが無駄だった。ローラが運命を受け入れて泣いている声が聞こえる。""
        [195]
         1 string data = "She looks at you with tired eyes, recognizing that you're about to flee.\n\n\n"Tell my family I love them. Tell them I always will.""
        [196]
@@ -154377,7 +154377,7 @@
        [201]
         1 string data = "\n\n\nBut you can't say the same for the other module that's attached to this via a nest of wires."
        [202]
-        1 string data = " Wires run from this module to another one - one with wires that connect to almost every other part of the bomb."
+        1 string data = " このモジュールからワイヤーが別のモジュールに伸びている - そのモジュールのワイヤーは爆弾のほぼすべての部分に接続されている。"
        [203]
         1 string data = "\n\n\nWires run from the accelerant and failsafe to another wire-festooned module."
        [204]
@@ -154385,7 +154385,7 @@
        [205]
         1 string data = "\n\n\nBut first you really ought to figure out what the detonator's connected to - for instance, this module with all the other wires attached to it."
        [206]
-        1 string data = " Speaking of failsafes... you should probably make sure the wires leading to this tangled nest of filaments don't connect to anything important."
+        1 string data = " 安全装置といえば... この絡み合った配線の巣に繋がるワイヤーが重要な部分に接続されていないか確認すべきだろう。"
        [207]
         1 string data = ""
        [208]
@@ -154393,7 +154393,7 @@
        [209]
         1 string data = " System isn't dsipalying greyed-out skill checks, this is a notification that you cannot free the Delgados."
        [210]
-        1 string data = " Examine the bomb's guts."
+        1 string data = " 爆弾の中身を調べる。"
        [211]
         1 string data = "The more you look at it, the more convinced you are that you're not qualified to handle this device."
        [212]
