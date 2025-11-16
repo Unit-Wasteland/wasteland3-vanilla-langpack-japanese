@@ -26,14 +26,16 @@ JAPANESE_CHAR_PATTERN = re.compile(r'[\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FFF]')
 ACTION_MARKER_PATTERN = re.compile(r'::[^:]+::')
 
 # Technical terms that should NOT be translated
+# NOTE: "Debug" in dialogue (e.g., "Debug!", "Debug mode") should be translated
+# Only exclude structural/programmatic terms like "Script Node"
 DO_NOT_TRANSLATE = [
-    r'Script Node',
-    r'\[Switch to',
-    r'\[Global:',
-    r'\[Dropset:',
-    r'\[Reward:',
-    r'DEBUG',
-    r'Test',
+    r'Script Node',  # e.g., "Script Node 65" - structural identifier
+    r'\[Switch to',  # e.g., "[Switch to 27.065 Megahertz]" - radio frequency marker
+    r'\[Global:',    # Game variable marker
+    r'\[Dropset:',   # Game variable marker
+    r'\[Reward:',    # Game variable marker
+    # REMOVED: r'DEBUG' - can appear in character dialogue
+    # REMOVED: r'Test' - can appear in character dialogue
 ]
 
 # English word patterns (common words that indicate English text)
@@ -169,7 +171,8 @@ def load_spanish_reference(filepath: Optional[Path]) -> Dict[int, str]:
 def validate_untranslated_english(line_num: int, line: str, spanish_data: Dict[int, str], start_line: int = 666, end_line: int = 999999999) -> List[ValidationIssue]:
     """Validate that English text is translated (within the specified range).
 
-    UPDATED LOGIC (2025-11-15 - FIXED):
+    UPDATED LOGIC (2025-11-16 - FIXED DUAL FORMAT SUPPORT):
+    - Supports both Unity StringTable formats: "" and "
     - Uses ASCII letter detection (more comprehensive than word pattern matching)
     - Detects all English text including short exclamations, onomatopoeia, etc.
     - Spanish reference is used to confirm translatability
@@ -185,12 +188,17 @@ def validate_untranslated_english(line_num: int, line: str, spanish_data: Dict[i
     if 'string data' not in line:
         return issues
 
-    # Extract the string content
+    # Extract the string content - support both formats
+    # Format 1: string data = ""content""
     match = re.search(r'string data = ""(.*)""', line)
-    if not match:
-        return issues
-
-    content = match.group(1)
+    if match:
+        content = match.group(1)
+    else:
+        # Format 2: string data = "content"
+        match = re.search(r'string data = "([^"]*)"', line)
+        if not match:
+            return issues
+        content = match.group(1)
 
     # Skip empty strings
     if not content.strip():
@@ -273,12 +281,17 @@ def validate_bracket_translation(line_num: int, line: str) -> List[ValidationIss
     if 'string data' not in line:
         return issues
 
-    # Extract the string data content
+    # Extract the string data content - support both formats
+    # Format 1: string data = ""content""
     match = re.search(r'string data = ""(.*)""', line)
-    if not match:
-        return issues
-
-    content = match.group(1)
+    if match:
+        content = match.group(1)
+    else:
+        # Format 2: string data = "content"
+        match = re.search(r'string data = "([^"]*)"', line)
+        if not match:
+            return issues
+        content = match.group(1)
 
     # Find all individual bracket pairs (non-nested)
     # This pattern finds single-level brackets only
@@ -323,18 +336,25 @@ def validate_glossary_compliance(line_num: int, line: str, glossary: Dict[str, s
 
     Detects incorrect translations that don't match nouns_glossary.json.
     For example: "Rangers" should be "レンジャー", not "レンジャーズ".
+
+    Also detects English proper nouns that should be translated per glossary.
     """
     issues = []
 
     if 'string data' not in line:
         return issues
 
-    # Extract the string content
+    # Extract the string content - support both formats
+    # Format 1: string data = ""content""
     match = re.search(r'string data = ""(.*)""', line)
-    if not match:
-        return issues
-
-    content = match.group(1)
+    if match:
+        content = match.group(1)
+    else:
+        # Format 2: string data = "content"
+        match = re.search(r'string data = "([^"]*)"', line)
+        if not match:
+            return issues
+        content = match.group(1)
 
     # Check for known incorrect translations
     for english_term, incorrect_japanese in INCORRECT_TRANSLATIONS.items():
@@ -346,6 +366,35 @@ def validate_glossary_compliance(line_num: int, line: str, glossary: Dict[str, s
                 description=f"Incorrect translation '{incorrect_japanese}' should be '{correct_japanese}' (for '{english_term}')",
                 line_content=line.strip()
             ))
+
+    # NEW (2025-11-16): Check for English proper nouns that should be translated
+    # If the line contains Japanese (partially translated), but also contains
+    # glossary terms in English, flag them as untranslated proper nouns
+    if contains_japanese(content) and glossary:
+        # Remove action markers and technical terms first
+        check_content = content
+        for marker in extract_action_markers(content):
+            check_content = check_content.replace(marker, '')
+
+        # Check if any glossary term appears in English in the content
+        for english_term, japanese_term in glossary.items():
+            # Skip short terms (1-2 chars) to avoid false positives
+            if len(english_term) <= 2:
+                continue
+
+            # Check if the English term appears in the content
+            # Use word boundary to avoid partial matches (e.g., "Rang" in "Rangers")
+            pattern = r'\b' + re.escape(english_term) + r'\b'
+            if re.search(pattern, check_content, re.IGNORECASE):
+                # Verify that the Japanese translation is NOT in the content
+                # (to avoid flagging already-translated terms)
+                if japanese_term not in content:
+                    issues.append(ValidationIssue(
+                        line_num=line_num,
+                        issue_type="GLOSSARY_VIOLATION",
+                        description=f"English proper noun '{english_term}' should be translated to '{japanese_term}'",
+                        line_content=line.strip()
+                    ))
 
     return issues
 
