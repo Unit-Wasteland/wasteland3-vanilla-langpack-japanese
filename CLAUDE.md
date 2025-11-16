@@ -59,7 +59,8 @@ This is a Japanese language pack translation project for Wasteland 3, a post-apo
 - **Validation**: validate_structure_v2.py after EVERY edit - zero tolerance for errors
 - **Protection**: Strict rules for `""`, `[]`, `<>`, `::action::` markers (no Japanese brackets allowed)
 - **Scope**: 232,418 entries total (base game: 169,712 + DLC1: 38,554 + DLC2: 24,152)
-- **Current Progress**: Base game 19% (32,448/169,712), DLC1 0% (not started), DLC2 0% (not started)
+- **Current Progress**: Base game 87.7% (148,757/169,712), **20,952 untranslated entries being auto-fixed**, DLC1 0% (not started), DLC2 0% (not started)
+- **Current Task (2025-11-16)**: Automated fixing of 20,952 missed untranslated entries using auto-fix-untranslated.sh
 - **Progress Tracking**: `translation/.retranslation_progress.json` v3.0
 - **Approach**: Sequential from line 390, NO skipping/prioritization/batch processing
 
@@ -126,6 +127,65 @@ This project features a **fully automated retranslation system** with strict str
    ```
 
 See `translation/RETRANSLATION_WORKFLOW.md` for detailed workflow documentation.
+
+### 🔍 Automated Untranslated Entry Fixing System (NEW - 2025-11-16)
+
+**Discovery (2025-11-16):** After completing base game translation to 87.7%, validation script improvements revealed **20,952 previously undetected untranslated entries**.
+
+**Root Causes of Missed Entries:**
+1. **Single-quote format blind spot**: Detection only supported `""content""` format, missing `"content"` format (~35,249 lines affected)
+2. **Overly broad DEBUG exclusion**: All entries containing "DEBUG" were excluded, including legitimate game dialogue about computers/debugging
+3. **Proper noun detection gap**: English proper nouns within Japanese text were not detected
+
+**Validation Script Improvements:**
+- **Dual-format support**: Now detects both `string data = ""content""` and `string data = "content"` formats
+- **Refined exclusions**: Only exclude development messages (`^DEBUG -`, `^Test$`), not in-game dialogue
+- **Proper noun detection**: Cross-reference nouns_glossary.json to detect untranslated proper nouns in Japanese text
+
+**Automated Fixing Components:**
+
+1. **generate-untranslated-list.sh**: Scans base game file and generates list of untranslated line numbers
+   ```bash
+   bash automation/generate-untranslated-list.sh
+   # Outputs: automation/.untranslated_lines.txt (line numbers)
+   #          automation/.untranslated_report.txt (detailed report)
+   ```
+
+2. **auto-fix-untranslated.sh**: Automated fixing via repeated Claude Code sessions
+   - Processes 20 entries per session
+   - Uses Read + Edit tools (strict CLAUDE.md compliance)
+   - Memory monitoring (30s intervals, 5000MB limit)
+   - Dual validation (structure + quality) after each batch
+   - Auto git commit + push on success
+   - 3 consecutive zero-fix sessions → stop (manual intervention required)
+   - Expected completion: 3-7 days
+
+3. **check-auto-fix-status.sh**: Monitor background process status
+   ```bash
+   bash automation/check-auto-fix-status.sh
+   # Shows: PID, uptime, progress %, recent logs
+   ```
+
+**Usage (Background Execution):**
+```bash
+# Start auto-fix in background (protects current Claude Code session)
+PROTECTED_CLAUDE_PID=$(pgrep claude | head -1) \
+  nohup bash automation/auto-fix-untranslated.sh > automation/.auto-fix-bg.log 2>&1 &
+
+# Check status from new Claude Code session
+bash automation/check-auto-fix-status.sh
+
+# Monitor real-time
+tail -f automation/untranslated-fix-automation.log
+```
+
+**Process Independence:**
+- Runs in background via `nohup` (survives session end)
+- Uses separate Claude Code instance
+- `PROTECTED_CLAUDE_PID` prevents killing interactive session
+- Status checkable from any new Claude Code session
+
+See `automation/README.md` and `automation/AUTO_FIX_README.md` for complete documentation.
 
 ## Repository Structure
 

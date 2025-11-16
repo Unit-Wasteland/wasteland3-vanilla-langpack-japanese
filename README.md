@@ -2,7 +2,8 @@
 
 Wasteland 3の非公式日本語化プロジェクトです。ゲームの全テキストを英語から日本語に翻訳し、日本のプレイヤーがこのポストアポカリプスRPGを楽しめるようにすることを目指しています。
 
-[![Translation Progress](https://img.shields.io/badge/Progress-4%2C288%20entries-blue)]()
+[![Translation Progress](https://img.shields.io/badge/Base_Game-87.7%25-green)]()
+[![Untranslated](https://img.shields.io/badge/Remaining-20%2C952_entries-orange)]()
 [![License](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 ## 📊 プロジェクト概要
@@ -12,367 +13,239 @@ Wasteland 3の非公式日本語化プロジェクトです。ゲームの全テ
 - **開発元**: inXile Entertainment
 - **対象バージョン**: v1.6.9.420.309496
 - **翻訳対象**:
-  - ベースゲーム: 530,425行
-  - DLC1 (Battle of Steeltown): 120,559行
-  - DLC2 (Cult of the Holy Detonation): 77,353行
-  - **合計**: 約728,337行
+  - ベースゲーム: 530,425行 (169,712エントリ)
+  - DLC1 (Battle of Steeltown): 120,559行 (38,554エントリ)
+  - DLC2 (Cult of the Holy Detonation): 77,353行 (24,152エントリ)
+  - **合計**: 728,337行 (232,418エントリ)
 
-### 翻訳進捗
-- ✅ **完了エントリ数**: 4,288
-- 📍 **現在のファイル**: StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0
-- 🎯 **推定完了率**: 4-8%（ベースゲーム）
-- 📅 **最終更新**: 2025年10月19日
+### 翻訳進捗（2025年11月16日時点）
 
-## 🚀 完全自動化翻訳システム
+| 項目 | 進捗 | 状態 |
+|------|------|------|
+| **ベースゲーム** | 148,757 / 169,712 | 🟢 **87.7%** |
+| 未翻訳エントリ | 20,952 残り | 🟡 自動修正中 |
+| **DLC1** | 0 / 38,554 | ⏳ 未開始 |
+| **DLC2** | 0 / 24,152 | ⏳ 未開始 |
+| **合計進捗** | 148,757 / 232,418 | **64.0%** |
 
-このプロジェクトは、**Claude Code AI**を活用した完全自動翻訳システムを実装しています。
+**現在の作業:**
+- ✅ ベースゲーム本体の翻訳完了（87.7%）
+- 🔄 **未翻訳エントリ修正中**（自動プロセス実行中）
+- ⏳ DLC1/DLC2はベースゲーム完了後に開始
 
-> **⚠️ 重要な警告 - 実験的機能**
->
-> **完全自動化スクリプトは実験的な機能であり、重大なセキュリティリスクを伴います。**
->
-> - 🔴 **`--dangerously-skip-permissions`フラグと`yes`コマンドを使用**
-> - 🔴 **すべてのファイル操作権限を自動承認します**
-> - 🔴 **誤動作時にシステムファイルを破壊する可能性があります**
->
-> **自動化スクリプトの実行は、以下のすべてを理解しているユーザーのみが行ってください：**
-> - ✅ Bashシェルスクリプトとパイプの動作原理
-> - ✅ Git操作とバージョン管理の基礎
-> - ✅ セキュリティリスクの評価と対処方法
-> - ✅ サンドボックス環境の構築方法
->
-> **🔰 初心者の方へ：**
-> - 自動化スクリプトは使用せず、**「方法2: 手動翻訳」**を推奨します
-> - Claude Codeを対話的に使用する方が安全です
-> - わからないことがあれば、まず[Issues](https://github.com/Unit-Wasteland/wasteland3-vanilla-langpack-japanese/issues)で質問してください
+## 🚀 翻訳作業の開始方法
 
-### ✨ 特徴
+### 必要なもの
+- [Claude Code](https://claude.com/claude-code) - AI翻訳エンジン
+- Git - バージョン管理
+- Linux/WSL環境（推奨）またはWindows PowerShell
 
-**🤖 完全無人運転**
-- ユーザーの介入なしで翻訳作業を継続
-- 自動的にセッション再起動・メモリ管理
-- 数日〜数週間の連続実行が可能
+### 方法1: 自動修正プロセス（推奨）
 
-**🧠 AI駆動翻訳**
-- Claude Sonnet 4.5による高品質な日本語翻訳
-- ゲームコンテキストを理解した自然な訳文
-- 用語統一のための自動グロッサリー管理
+**現在実行中のタスク**: 検出された20,952個の未翻訳エントリを自動的に修正
 
-**💾 自動進捗管理**
-- すべての変更を自動コミット・プッシュ
-- セッション間で進捗を自動保持
-- エラー回復・再開機能
-
-**🛡️ 品質保証**
-- ファイルフォーマットの厳密な検証
-- 行数一致の自動チェック
-- 中国語混入の自動検出・防止
-
-## 🎮 クイックスタート
-
-### 方法1: 完全自動翻訳（⚠️ 上級者向け）
-
-> **🚨 セキュリティ警告: この方法を実行する前に上記の警告をよく読んでください**
->
-> この方法は、**システム管理とセキュリティに関する十分な知識を持つ上級者専用**です。
-> 不適切な使用はシステムの破壊やデータ損失につながる可能性があります。
->
-> **推奨環境:**
-> - 専用の仮想マシン（VM）またはコンテナ
-> - サンドボックス環境
-> - 本番システムやメインPCでは**絶対に実行しない**
->
-> 初めての方は「**方法2: 手動翻訳**」を強く推奨します。
-
-**前提条件:**
-- [Claude Code](https://claude.com/claude-code) がインストール済み
-- Git設定済み
-- WSL/Linux環境またはWindows PowerShell
-
-**ワンコマンド実行:**
+#### クイックスタート
 
 ```bash
-# WSL/Linux環境
-cd /path/to/wasteland3-vanilla-langpack-japanese
-./automation/auto-translate.sh
+# 1. リポジトリをクローン
+git clone https://github.com/Unit-Wasteland/wasteland3-vanilla-langpack-japanese.git
+cd wasteland3-vanilla-langpack-japanese
 
-# Windows PowerShell
-cd C:\path\to\wasteland3-vanilla-langpack-japanese
-.\automation\auto-translate.ps1
+# 2. 未翻訳エントリを検出
+bash automation/generate-untranslated-list.sh
+
+# 3. 自動修正を開始
+bash automation/auto-fix-untranslated.sh
 ```
 
-これだけで翻訳作業が完全自動で開始されます！
+#### バックグラウンド実行
 
-**オプション設定:**
-```powershell
-# 1セッションあたり500エントリずつ慎重に翻訳
-.\automation\auto-translate.ps1 -EntriesPerSession 500 -MaxSessions 20
+```bash
+# Claude Codeセッションを保護しながらバックグラウンド実行
+PROTECTED_CLAUDE_PID=$(pgrep claude | head -1) \
+  nohup bash automation/auto-fix-untranslated.sh > automation/.auto-fix-bg.log 2>&1 &
 
-# メモリ閾値を5GBに設定
-.\automation\auto-translate.ps1 -MaxMemoryMB 5000
+# ステータス確認
+bash automation/check-auto-fix-status.sh
 
-# 長時間実行（最大100セッション）
-.\automation\auto-translate.ps1 -MaxSessions 100
+# リアルタイムログ監視
+tail -f automation/untranslated-fix-automation.log
 ```
+
+#### 自動修正プロセスの特徴
+
+- **完全自動**: 人間の介入なしで24時間連続実行
+- **安全**: 各エントリを個別に処理（一括処理なし）
+- **検証**: 全ての修正後に構造・品質検証を実施
+- **自動保存**: git commit + push を自動実行
+- **再開可能**: セッション間で進捗を自動保持
 
 詳細は [`automation/README.md`](automation/README.md) を参照してください。
 
-### 方法2: 手動翻訳（🔰 初心者推奨・安全）
+### 方法2: 手動翻訳
 
-**この方法の利点:**
-- ✅ **各操作を手動で確認**できるため安全
-- ✅ **学習しながら翻訳**に貢献できる
-- ✅ **予期しない動作時に即座に停止**できる
-- ✅ **サンドボックス環境が不要**（通常のPCで安全に実行可能）
+Claude Codeを対話的に使用して翻訳作業を行います。
 
 ```bash
-# Claude Code起動
+# Claude Codeを起動
 claude
 
-# セッション内で以下を実行
-translation/.translation_progress.json を読み込んで、CLAUDE.mdのルールに従って翻訳作業を継続してください。
+# プロンプト
+> translation/.retranslation_progress.json を読み込んで、
+> translation/STRICT_TRANSLATION_RULES.md に従って
+> 厳格翻訳作業を継続してください。
 ```
 
-Claude Codeが各操作（ファイル編集、Git操作など）を実行する前に確認を求めるため、
-**初めての方でも安心して使用できます。**
+**手動翻訳のメリット:**
+- ✅ 各ステップを確認しながら進められる
+- ✅ 翻訳判断を人間が監督できる
+- ✅ 学習目的に最適
 
-詳細は [`translation/RESUME_TRANSLATION.md`](translation/RESUME_TRANSLATION.md) を参照してください。
+詳細は [`CLAUDE.md`](CLAUDE.md) の「Translation Workflow」セクションを参照してください。
 
-## 📁 プロジェクト構造
+## 📖 ドキュメント構成
 
-```
-wasteland3-vanilla-langpack-japanese/
-├── README.md                          # このファイル（プロジェクト概要）
-├── CLAUDE.md                          # Claude Code用の翻訳ガイドライン
-│
-├── translation/                       # 翻訳ファイルとリソース
-│   ├── source/                        # ソース言語ファイル（参照専用）
-│   │   └── v1.6.9.420.309496/
-│   │       ├── en_US/                 # 英語テキスト
-│   │       │   ├── StringTableData_English-CAB-*.txt
-│   │       │   ├── DLC1/              # Battle of Steeltown DLC
-│   │       │   └── DLC2/              # Cult of the Holy Detonation DLC
-│   │       └── es_ES/                 # スペイン語（参考用）
-│   │
-│   ├── target/                        # 翻訳先ファイル（編集対象）
-│   │   └── v1.6.9.420.309496/
-│   │       └── ja_JP/                 # 日本語翻訳
-│   │           ├── StringTableData_English-CAB-*.txt
-│   │           ├── DLC1/
-│   │           └── DLC2/
-│   │
-│   ├── nouns_glossary.json            # 固有名詞の用語集
-│   ├── .translation_progress.json     # 翻訳進捗状態（自動生成）
-│   └── RESUME_TRANSLATION.md          # 手動再開手順
-│
-├── automation/                        # 完全自動化スクリプト
-│   ├── auto-translate.sh              # Bash版自動翻訳スクリプト
-│   ├── auto-translate.ps1             # PowerShell版自動翻訳スクリプト
-│   ├── README.md                      # 自動化システムの詳細ドキュメント
-│   └── translation-automation.log     # 自動化実行ログ（自動生成）
-│
-└── .claude/                           # Claude Code設定
-    ├── agents/
-    │   └── wasteland3-translator.md   # 翻訳専用AIエージェント定義
-    └── settings.local.json            # ローカル設定
-```
+プロジェクトの情報は以下のドキュメントに集約されています：
 
-## 🔧 技術詳細
+### メインドキュメント
 
-### ファイルフォーマット
+| ファイル | 対象 | 内容 |
+|---------|------|------|
+| **README.md** | 人間 | プロジェクト概要・使い方（このファイル） |
+| **CLAUDE.md** | AI | 完全な翻訳ルール・ワークフロー |
+| **automation/README.md** | 人間 | 自動化システムの完全ガイド |
 
-Wasteland 3はUnity StringTableフォーマットを使用しています：
+### 補足ドキュメント
+
+| ファイル | 内容 |
+|---------|------|
+| `automation/AUTO_FIX_README.md` | 自動修正プロセスのクイックリファレンス |
+| `translation/STRICT_TRANSLATION_RULES.md` | 厳格翻訳ルール（CLAUDE.mdの補足） |
+| `translation/STRUCTURE_PROTECTION_RULES.md` | 構造保護ルール（CLAUDE.mdの補足） |
+| `translation/RETRANSLATION_WORKFLOW.md` | 再翻訳ワークフロー（CLAUDE.mdの補足） |
+
+## 🛠️ 技術詳細
+
+### ファイル構成
 
 ```
-MonoBehaviour:                          # Lines 1-9: メタデータ（変更禁止）
-  string Filename = "mission_name"      # ミッション/ダイアログ識別子
-  Array entryIDs                        # エントリIDリスト
-    [0] int data = 12345
-    [1] int data = 12346
-  Array femaleTexts                     # 女性専用テキスト（多くは空）
-    [0] string data = ""
-    [1] string data = ""
-  Array defaultTexts                    # メインの翻訳対象テキスト
-    [0] string data = "Hello, Ranger."
-    [1] string data = "Welcome to Colorado."
+translation/
+├── source/v1.6.9.420.309496/
+│   ├── en_US/           # 英語ソース（翻訳元）
+│   ├── es_ES/           # スペイン語参照（翻訳可否判定）
+│   ├── DLC1/            # Battle of Steeltown DLC
+│   └── DLC2/            # Cult of the Holy Detonation DLC
+├── target/v1.6.9.420.309496/ja_JP/
+│   └── *.txt            # 日本語翻訳（同一構造）
+├── nouns_glossary.json  # 固有名詞用語集
+├── .retranslation_progress.json  # 進捗管理
+└── validate_*.py        # 検証スクリプト
+
+automation/
+├── auto-fix-untranslated.sh      # 未翻訳自動修正
+├── generate-untranslated-list.sh # 未翻訳検出
+├── check-auto-fix-status.sh      # ステータス確認
+└── *.log                         # ログファイル
 ```
 
-**重要なルール:**
-- ✅ `string data = "..."` 内のテキストのみ翻訳
-- ❌ ファイル構造、行数、IDは**絶対に**変更しない
-- ✅ ソースと翻訳先の行数が完全一致する必要がある
+### Unity StringTable形式
 
-### 翻訳ワークフロー
+このプロジェクトで扱うファイルは、Unity StringTable形式を使用しています。
 
+**重要な形式ルール:**
 ```
-┌─────────────────────────────────────┐
-│ 1. 用語集作成                        │
-│    - 固有名詞を抽出                  │
-│    - nouns_glossary.jsonに登録       │
-└──────────────┬──────────────────────┘
-               │
-               ▼
-┌─────────────────────────────────────┐
-│ 2. 順次翻訳                          │
-│    - ファイルの先頭から順番に翻訳    │
-│    - 100-200行チャンクで処理         │
-│    - 用語集を参照して一貫性を保持    │
-└──────────────┬──────────────────────┘
-               │
-               ▼
-┌─────────────────────────────────────┐
-│ 3. 品質チェック                      │
-│    - 行数の一致を確認                │
-│    - 中国語文字の混入チェック        │
-│    - フォーマットの検証              │
-└──────────────┬──────────────────────┘
-               │
-               ▼
-┌─────────────────────────────────────┐
-│ 4. コミット・プッシュ                │
-│    - 約1,000行ごとに自動コミット     │
-│    - GitHubに自動プッシュ            │
-└─────────────────────────────────────┘
+string data = ""日本語テキスト""    ← 正しい形式（ダブルダブルクォート）
+string data = "English text"       ← 正しい形式（シングルクォート）
+
+❌ string data = "\"日本語\""        ← 間違い（エスケープ禁止）
+❌ string data = "「日本語」"        ← 間違い（日本語括弧禁止）
 ```
 
-### AIエージェントアーキテクチャ
+詳細は `CLAUDE.md` の「File Format」セクションを参照してください。
 
-```
-┌────────────────────────────────────────────────────────┐
-│ 自動化スクリプト (auto-translate.sh/ps1)                │
-│  - セッション管理                                       │
-│  - メモリ監視                                           │
-│  - 自動再起動                                           │
-└──────────────────────┬─────────────────────────────────┘
-                       │ Claude Code stdin経由で指示
-                       ▼
-┌────────────────────────────────────────────────────────┐
-│ Claude Code メインセッション                            │
-│  - 進捗管理                                             │
-│  - Git操作                                              │
-│  - サブエージェント起動                                 │
-└──────────────────────┬─────────────────────────────────┘
-                       │ Task toolでサブエージェント起動
-                       ▼
-┌────────────────────────────────────────────────────────┐
-│ wasteland3-translator サブエージェント                  │
-│  - 実際の翻訳作業                                       │
-│  - ファイル読み書き                                     │
-│  - 用語集管理                                           │
-│  - チャンク処理（メモリ分離）                           │
-└────────────────────────────────────────────────────────┘
-```
+### 検証システム
 
-**メモリ管理の仕組み:**
-- メインセッションは6-7GB到達で自動再起動
-- サブエージェントはメモリ分離された環境で実行
-- 進捗は`.translation_progress.json`に自動保存
+翻訳後、2種類の検証を自動実行：
 
-## 📚 ドキュメント
+#### 1. 構造検証（validate_structure_v2.py）
+- ✅ 行数一致
+- ✅ クォート数一致
+- ✅ 構造マーカー保護（`""`, `[]`, `<>`, `::action::`）
 
-### 主要ドキュメント
-- [`CLAUDE.md`](CLAUDE.md) - Claude Code用の詳細な翻訳ガイドライン
-- [`automation/README.md`](automation/README.md) - 自動化システムの完全ガイド
-- [`translation/RESUME_TRANSLATION.md`](translation/RESUME_TRANSLATION.md) - 手動再開手順
-- [`.claude/agents/wasteland3-translator.md`](.claude/agents/wasteland3-translator.md) - AIエージェント定義
+#### 2. 品質検証（validate_translation_quality.py）
+- ✅ アクションマーカー翻訳検出
+- ✅ 未翻訳エントリ検出
+- ✅ 用語集違反検出
+- ✅ 技術用語保護検証
 
-### 翻訳ガイドライン
+**2025年11月16日の改善:**
+- ダブルクォート両形式対応（`""content""` と `"content"`）
+- 開発デバッグメッセージ除外（`DEBUG -`, `Test`）
+- 固有名詞英語残存検出
 
-**禁止事項:**
-- ❌ `Script Node`などの技術用語を翻訳しない
-- ❌ `::action::`形式のアクションマークアップを変更しない
-- ❌ 中国語（簡体字・繁体字）を使用しない
-- ❌ ファイル構造や行数を変更しない
+## 📈 進捗履歴
 
-**推奨事項:**
-- ✅ 用語集（nouns_glossary.json）を常に参照
-- ✅ ポストアポカリプスRPGに適した自然な日本語
-- ✅ キャラクターの口調・性格を反映
-- ✅ ゲーム世界観に合った訳語選択
+| 日付 | マイルストーン |
+|------|--------------|
+| 2025-10-19 | プロジェクト開始、自動翻訳システム構築 |
+| 2025-10-29 | 厳格翻訳ルール確立、構造保護強化 |
+| 2025-11-01 | アクションマーカー保護ルール追加 |
+| 2025-11-06 | 統一翻訳判断ロジック確立 |
+| 2025-11-14 | ベースゲーム翻訳完了（従来の検証基準） |
+| **2025-11-16** | **検証スクリプト改善、20,952未翻訳検出** |
+| **2025-11-16** | **自動修正プロセス開始** |
 
-## 🤝 コントリビューション
+## ⚠️ 既知の問題と対策
 
-現在、このプロジェクトは主にClaude Code AIによる自動翻訳で進行していますが、以下の貢献を歓迎します：
+### 未翻訳エントリの原因
 
-### 翻訳品質の向上
-- 翻訳の校正・改善提案
-- 用語集の追加・修正
-- ゲーム専門用語の訳語提案
+検証ロジックの欠陥により、以下が見逃されていました：
 
-### 技術的改善
-- 自動化スクリプトの改良
-- 新しい品質チェック機能
-- ドキュメントの改善
+1. **シングルクォート形式** (`string data = "content"`)
+   - 約35,249行が検出対象外だった
+   - **対策**: 両形式対応に改善
 
-### 貢献方法
-1. このリポジトリをフォーク
-2. 変更をコミット
-3. プルリクエストを作成
+2. **ゲーム内"Debug"セリフ**
+   - "DEBUG"キーワード全体を除外していた
+   - **対策**: 開発メッセージのみ除外
 
-詳細は [CONTRIBUTING.md](CONTRIBUTING.md) を参照してください（今後作成予定）。
+3. **固有名詞の英語残存**
+   - 日本語テキスト内の英語固有名詞を検出できず
+   - **対策**: 用語集ベース検出を追加
 
-## 🐛 問題報告
+### 現在の修正状況
 
-翻訳の問題や技術的な不具合を発見した場合：
+- ✅ 検証スクリプト改善完了
+- 🔄 自動修正プロセス実行中（20,952エントリ）
+- 📅 完了予想: 3-7日後
 
-1. [GitHub Issues](https://github.com/Unit-Wasteland/wasteland3-vanilla-langpack-japanese/issues)で報告
-2. 以下の情報を含めてください：
-   - 問題の具体的な説明
-   - 該当ファイル名と行番号（翻訳の場合）
-   - 期待される動作と実際の動作
+## 🤝 貢献方法
 
-## 📈 進捗追跡
+### Issue報告
+- バグ報告
+- 翻訳の改善提案
+- 新機能の提案
 
-### 現在の翻訳状況
+### Pull Request
+1. Fork このリポジトリ
+2. 翻訳作業を実施
+3. 検証スクリプトでエラー0を確認
+4. Pull Request作成
 
-最新の進捗は以下で確認できます：
+## 📄 ライセンス
 
-```bash
-# 進捗ファイルを確認
-cat translation/.translation_progress.json | jq
+このプロジェクトは [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) ライセンスの下で公開されています。
 
-# 最近のコミットを確認
-git log --oneline -20
+**注意**: Wasteland 3は inXile Entertainment の商標です。このプロジェクトは非公式なファンプロジェクトであり、開発元とは一切関係ありません。
 
-# 自動化ログを確認（実行中の場合）
-tail -f automation/translation-automation.log
-```
+## 🔗 関連リンク
 
-### マイルストーン
-
-- [x] プロジェクトセットアップ
-- [x] 用語集作成
-- [x] 自動化システム実装
-- [x] a1001_* セクション完了（Ranger HQ関連）
-- [ ] a2001_* セクション完了（Colorado Springs関連）
-- [ ] ベースゲーム完了
-- [ ] DLC1翻訳
-- [ ] DLC2翻訳
-- [ ] 全体の品質チェック
-- [ ] リリース準備
-
-## ⚖️ ライセンス
-
-このプロジェクトは以下のライセンスの下で提供されています：
-
-- **翻訳データ**: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-- **ソースコード（スクリプト等）**: [MIT License](LICENSE)
-
-**注意**: このプロジェクトは非公式のファンメイド翻訳です。Wasteland 3およびその関連コンテンツの権利はinXile EntertainmentおよびDeep Silverに帰属します。
-
-## 🙏 謝辞
-
-- **inXile Entertainment** - 素晴らしいゲームWasteland 3の開発
-- **Claude AI (Anthropic)** - 高品質な翻訳を実現するAI技術
-- **コミュニティ** - フィードバックと貢献
-
-## 📞 連絡先
-
-- **GitHubリポジトリ**: https://github.com/Unit-Wasteland/wasteland3-vanilla-langpack-japanese
-- **Issues**: https://github.com/Unit-Wasteland/wasteland3-vanilla-langpack-japanese/issues
+- [Wasteland 3 公式サイト](https://wasteland.inxile-entertainment.com/)
+- [Claude Code](https://claude.com/claude-code)
+- [GitHub Issues](https://github.com/Unit-Wasteland/wasteland3-vanilla-langpack-japanese/issues)
 
 ---
 
-**🎮 Happy Gaming! / 楽しいゲーム体験を！**
-
-このプロジェクトが、日本のWasteland 3プレイヤーの皆様に素晴らしいゲーム体験を提供できることを願っています。
+**最終更新**: 2025年11月16日
+**プロジェクト開始**: 2025年10月19日
+**現在のフェーズ**: ベースゲーム未翻訳修正中

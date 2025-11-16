@@ -1,614 +1,420 @@
-# Automated Translation Scripts
+# 自動化システム - Wasteland 3 日本語翻訳プロジェクト
 
-このディレクトリには、Wasteland 3の翻訳作業を完全自動で実行するスクリプトが含まれています。
+このディレクトリには、翻訳作業を自動化するスクリプトが含まれています。
 
----
-
-## ⚠️ 重大なセキュリティ警告 - 必読
-
-> **🚨 このスクリプトは実験的機能であり、重大なリスクを伴います**
->
-> ### 危険性の理解
->
-> このスクリプトは以下の2つの危険な機能を使用します：
->
-> 1. **`--dangerously-skip-permissions`フラグ**
->    - Claude Codeの内部権限チェックを完全にバイパス
->    - すべてのファイル操作が無条件で実行されます
->
-> 2. **`yes`コマンド**
->    - すべての対話的プロンプトに自動的に「y」を回答
->    - ファイル削除、システム変更など、すべての確認を自動承認
->
-> ### リスク
->
-> - ⛔ **システムファイルの破壊**: 誤動作時にOS重要ファイルが削除される可能性
-> - ⛔ **データ損失**: 意図しないファイルの上書き・削除
-> - ⛔ **セキュリティ侵害**: 予期しないコード実行
-> - ⛔ **リカバリ不可能**: 自動承認により、警告なく破壊的操作が実行される
->
-> ### 実行可能な条件（すべて必須）
->
-> このスクリプトは、以下の**すべての条件を満たす上級ユーザーのみ**が実行してください：
->
-> - ✅ Bashシェルスクリプトの動作原理を完全に理解している
-> - ✅ パイプライン（`|`）とリダイレクトの仕組みを理解している
-> - ✅ Gitのコミット、プッシュ、ロールバック操作に精通している
-> - ✅ `yes`コマンドと`--dangerously-skip-permissions`のリスクを理解している
-> - ✅ セキュリティインシデント発生時に対処できる技術力がある
-> - ✅ サンドボックス環境（VM/コンテナ）を構築できる
->
-> ### 必須の実行環境
->
-> - **✅ 専用の仮想マシン（Virtualbox、VMware、Hyper-Vなど）**
-> - **✅ Dockerコンテナなどの隔離環境**
-> - **✅ このプロジェクト専用の環境**
->
-> ### 絶対に実行してはいけない環境
->
-> - ❌ **メインPC・本番システム**
-> - ❌ **重要なファイルが含まれるマシン**
-> - ❌ **共有開発環境**
-> - ❌ **バックアップなしの環境**
->
-> ### 🔰 初心者・中級者の方へ
->
-> **このスクリプトは使用しないでください。**
->
-> 代わりに以下の安全な方法を使用してください：
->
-> 1. **手動翻訳**: Claude Codeを対話的に使用（各操作を手動で確認）
->    - 詳細: [`../translation/RESUME_TRANSLATION.md`](../translation/RESUME_TRANSLATION.md)
->
-> 2. **質問**: 不明な点は[GitHub Issues](https://github.com/Unit-Wasteland/wasteland3-vanilla-langpack-japanese/issues)で質問
->
-> 3. **学習**: まずBashとGitの基礎を学習してから、このスクリプトを理解する
->
-> **わからないまま実行すると、システムが破壊される可能性があります。**
+**現在の自動化タスク**: ベースゲームの未翻訳エントリ20,952個を自動修正中
 
 ---
 
-## 🔍 未翻訳エントリの検出・修正ツール（NEW - 2025-11-15）
+## 📊 現在の状況（2025年11月16日）
 
-**重大な発見: 進捗100%でも5,299個の未翻訳エントリが存在**
+| 項目 | 状態 |
+|------|------|
+| **ベースゲーム進捗** | 87.7% (148,757/169,712) |
+| **未翻訳エントリ** | 20,952個 |
+| **自動修正** | 実行中 |
+| **DLC1/DLC2** | 未開始（ベース完了後） |
 
-2025年11月15日の調査により、進捗トラッカーが100%完了と表示していたにもかかわらず、実際には**5,299個の英語エントリが未翻訳**であることが判明しました。
+---
 
-- **Base Game**: 42個の未翻訳エントリ
-- **DLC1**: 3,237個の未翻訳エントリ
-- **DLC2**: 2,020個の未翻訳エントリ
+## 🚀 未翻訳エントリ自動修正システム
 
-これらのエントリは、スペイン語版では正しく翻訳されていますが、日本語版では英語のまま残されていました。
+### システム概要
 
-### 📋 利用可能なツール
+2025年11月16日、検証スクリプトの改善により、これまで見逃されていた**20,952個の未翻訳エントリ**が検出されました。これらを自動的に修正するシステムが稼働中です。
 
-#### 1. **検出ツール**: `detect-untranslated.py`
+**検出された未翻訳の原因:**
+1. **シングルクォート形式の見逃し** (`string data = "content"` 形式が未対応だった)
+2. **ゲーム内"Debug"セリフの誤除外** (開発用デバッグと誤認識)
+3. **固有名詞の英語残存** (日本語テキスト内の英語固有名詞を検出できず)
 
-未翻訳の英語エントリを自動検出し、詳細レポートを生成します。
+**対策:**
+- validate_translation_quality.py を改善（両形式対応、固有名詞検出追加）
+- 自動修正プロセスで全エントリを順次処理
 
-```bash
-# ベースゲームのみチェック
-python3 automation/detect-untranslated.py --file base_game
+---
 
-# DLC1のみチェック
-python3 automation/detect-untranslated.py --file dlc1
+## 🔧 利用可能なスクリプト
 
-# DLC2のみチェック
-python3 automation/detect-untranslated.py --file dlc2
+### 1. generate-untranslated-list.sh
 
-# 全ファイルをチェック（ベース + DLC1 + DLC2）
-python3 automation/detect-untranslated.py --file all
-```
-
-**出力ファイル**:
-- `automation/.untranslated_{file}_report.txt` - 詳細レポート（行番号と内容）
-- `automation/.untranslated_{file}_lines.txt` - 行番号のみ（プログラム処理用）
-
-#### 2. **自動修正ツール**: `auto-fix-untranslated.sh`
-
-未翻訳エントリを自動的に検出・修正します（⚠️ 上級ユーザー専用）。
+未翻訳エントリを検出し、修正対象の行番号リストを生成します。
 
 ```bash
-# 自動修正を開始（危険 - サンドボックス環境必須）
-./automation/auto-fix-untranslated.sh
-
-# ロックファイルを削除（スクリプトがクラッシュした場合）
-./automation/auto-fix-untranslated.sh --unlock
+# 未翻訳エントリを検出
+bash automation/generate-untranslated-list.sh
 ```
 
-**⚠️ セキュリティ警告**: このスクリプトは`--dangerously-skip-permissions`と`yes`コマンドを使用します。サンドボックス環境でのみ実行してください。
+**生成ファイル:**
+- `automation/.untranslated_lines.txt` - 未翻訳行番号リスト（1行1番号）
+- `automation/.untranslated_report.txt` - 詳細レポート（検証結果全文）
 
-#### 3. **手動修正ワークフロー**（推奨 - 初心者・中級者向け）
+**検出ロジック:**
+- validate_translation_quality.py を使用
+- ダブルクォート両形式対応 (`""content""` と `"content"`)
+- 開発デバッグメッセージ除外（`^DEBUG -`, `^Test`）
+- 固有名詞の英語残存検出（nouns_glossary.json参照）
+
+### 2. auto-fix-untranslated.sh
+
+未翻訳エントリを自動的に修正します（完全無人実行）。
+
+```bash
+# 自動修正を開始
+bash automation/auto-fix-untranslated.sh
+
+# バックグラウンド実行（推奨）
+PROTECTED_CLAUDE_PID=$(pgrep claude | head -1) \
+  nohup bash automation/auto-fix-untranslated.sh > automation/.auto-fix-bg.log 2>&1 &
+```
+
+**動作の仕組み:**
+
+1. **初期化**
+   - `.untranslated_lines.txt` から修正対象を読み込み
+   - 排他ロック取得（重複実行防止）
+
+2. **セッション実行**
+   - 20エントリずつ処理
+   - Claude Code を自動起動
+   - Read + Edit ツールで1エントリずつ翻訳（CLAUDE.mdルール厳守）
+   - メモリ監視（30秒ごと、上限5000MB）
+
+3. **検証とコミット**
+   - 構造検証（validate_structure_v2.py）
+   - 品質検証（validate_translation_quality.py）
+   - 両方パスで自動 git commit + push
+   - 検証失敗時は警告（作業は保存）
+
+4. **進捗管理**
+   - 未翻訳リストを再生成（修正済みを除外）
+   - 3連続ゼロ修正で停止（手動介入が必要）
+   - 完了まで自動継続
+
+**パラメータ（スクリプト内変数）:**
+```bash
+MAX_MEMORY_MB=5000        # メモリ上限（6GB RAM - 1GB margin）
+ENTRIES_PER_SESSION=20    # 1セッションあたりの処理数
+MAX_SESSIONS=1050         # 最大セッション数（安全装置）
+```
+
+**所要時間:**
+- 総エントリ数: 20,952個
+- 予想セッション数: 約1,048セッション
+- 1セッション平均: 5-10分
+- **完了予想: 3-7日**
+
+### 3. check-auto-fix-status.sh
+
+自動修正プロセスのステータスを確認します。
+
+```bash
+# ステータス確認
+bash automation/check-auto-fix-status.sh
+```
+
+**表示内容:**
+- ✅ プロセス実行状況（PID、稼働時間）
+- 📈 進捗状況（修正済み/残り件数、進捗率）
+- 📝 最新ログ（直近10行）
+- 📁 ログファイルサイズ
+- 🔧 監視コマンド一覧
+
+---
+
+## 📖 使い方
+
+### クイックスタート（自動修正）
 
 ```bash
 # 1. 未翻訳エントリを検出
-python3 automation/detect-untranslated.py --file base_game --verbose
+bash automation/generate-untranslated-list.sh
 
-# 2. レポートを確認
-cat automation/.untranslated_base_game_report.txt
+# 2. 自動修正を開始（バックグラウンド）
+PROTECTED_CLAUDE_PID=$(pgrep claude | head -1) \
+  nohup bash automation/auto-fix-untranslated.sh > automation/.auto-fix-bg.log 2>&1 &
 
-# 3. Claude Codeを起動して手動で翻訳
-claude
-# プロンプト例:
-# 「automation/.untranslated_base_game_lines.txt に記載された行番号のエントリを、
-#  CLAUDE.mdのルールに従って日本語に翻訳してください。」
+# 3. ステータス確認
+bash automation/check-auto-fix-status.sh
 
-# 4. 修正後、検証を実行
-python3 translation/validate_structure_v2.py \
-  translation/target/v1.6.9.420.309496/ja_JP/StringTableData_English-CAB-*.txt \
-  --source translation/source/v1.6.9.420.309496/en_US/StringTableData_English-CAB-*.txt \
-  --detailed
-
-python3 translation/validate_translation_quality.py \
-  translation/target/v1.6.9.420.309496/ja_JP/StringTableData_English-CAB-*.txt \
-  --reference translation/source/v1.6.9.420.309496/es_ES/StringTableData_Spanish-CAB-*.txt \
-  --start-line 390 \
-  --end-line 530425 \
-  --glossary translation/nouns_glossary.json
-
-# 5. 再度検出して修正完了を確認
-python3 automation/detect-untranslated.py --file base_game
+# 4. リアルタイム監視
+tail -f automation/untranslated-fix-automation.log
 ```
 
-### 📚 詳細ドキュメント
+### プロセス保護について
 
-未翻訳エントリ修正ツールの詳細については、以下を参照してください：
-- **[UNTRANSLATED_FIXER_README.md](UNTRANSLATED_FIXER_README.md)** - 完全なドキュメント
+**PROTECTED_CLAUDE_PID の役割:**
+
+バックグラウンド実行時、自動化スクリプトは独自のClaude Codeセッションを起動します。現在のClaude Codeセッション（対話用）を誤って終了しないよう、PIDを保護します。
+
+```bash
+# 現在のClaude CodeセッションのPIDを取得
+PROTECTED_CLAUDE_PID=$(pgrep claude | head -1)
+
+# このPIDは終了せず、新しく起動されたClaude Codeのみを制御
+nohup bash automation/auto-fix-untranslated.sh > automation/.auto-fix-bg.log 2>&1 &
+```
+
+**プロセス独立性:**
+- `nohup` により親プロセス（現在のシェル）から独立
+- 対話セッションを終了してもバックグラウンドプロセスは継続
+- 別のClaude Codeセッションで状態確認可能
+
+### リアルタイム監視
+
+```bash
+# メインログ（推奨）
+tail -f automation/untranslated-fix-automation.log
+
+# バックグラウンドログ
+tail -f automation/.auto-fix-bg.log
+
+# 未翻訳残数確認
+wc -l automation/.untranslated_lines.txt
+
+# 次に処理される行番号（先頭20件）
+head -20 automation/.untranslated_lines.txt
+```
+
+### プロセス制御
+
+```bash
+# 状態確認
+ps aux | grep auto-fix-untranslated
+
+# 停止（正常終了）
+kill <PID>
+
+# 強制停止
+kill -9 <PID>
+```
 
 ---
 
-## 🔄 Retranslation（翻訳やり直し）自動化システム
+## 🛠️ トラブルシューティング
 
-**現在のプロジェクト状態: Retranslationモード + 未翻訳エントリ修正フェーズ**
-
-2025年10月現在、プロジェクトは**retranslation（翻訳やり直し）モード**で運用されています。以前の翻訳で構造マーカー（`""`→`「」`）が破損したため、英語ファイルをベースに全ての翻訳をやり直しています。
-
-**2025年11月15日更新**: Retranslationが100%完了した後も、5,299個の未翻訳エントリが残っていることが判明しました。これらは上記の未翻訳エントリ修正ツールで対処可能です。
-
-### 🚀 Retranslation自動化の実行方法
-
-```bash
-cd /path/to/wasteland3-vanilla-langpack-japanese
-./automation/auto-retranslate.sh
-```
-
-### 📋 動作の仕組み（Retranslation版 - 6GB RAM最適化）
-
-1. **セッション開始**: Claude Codeを起動（Node.js heap 2.5GB設定 - 6GB RAM最適化）
-2. **進捗読み込み**: `.retranslation_progress.json`から前回の続きを読み込み
-3. **自動翻訳やり直し（⚠️ 厳格なルール遵守）**:
-   - **Unity StringTable形式の完全保持**:
-     - 英語版のダブルクォート数と完全一致
-     - `string data = ""日本語""`形式（ダブルダブルクォート）
-     - 絶対禁止: `\"`エスケープ、`「」`日本語括弧、`""`全角クォート
-   - **::action::マーカーの厳格保護**:
-     - 英語のまま完全保持（絶対に翻訳しない）
-     - 翻訳後検証必須: `grep -o '::[^:]*[ぁ-ゖァ-ヾ一-龯][^:]*::'` → 出力なし
-   - **固有名詞の一貫性**:
-     - nouns_glossary.json必須参照
-     - 例: "Rangers" → "レンジャー"（"レンジャーズ"は誤り）
-   - **Edit tool必須、スクリプト一括処理禁止**:
-     - 1エントリずつEditツールで翻訳
-     - old_stringは英語版と完全一致
-   - backup_brokenから既存の日本語翻訳を抽出（**30行チャンク** - 低メモリ最適化）
-   - 英語ファイル（正しい構造）に日本語を適用
-   - 構造マーカー（`""`, `[]`, `<>`, `::action::`）の厳格な保護
-   - 未翻訳エントリは新規翻訳（glossary参照）
-   - **50エントリごとにコミット**（より頻繁 - メモリ制約対応）
-4. **メモリ監視**: メモリ使用量を監視（30秒ごと、**2GB警告/2.5GB強制再起動** - 6GB RAM対応）
-5. **エラー検出**: セッションログの健全性チェック
-   - JSON.stringify RangeError検出
-   - Heap out of memory検出
-   - 空ログファイル検出
-   - 未コミット作業検出
-6. **適応的クールダウン**:
-   - 正常セッション: 60秒待機
-   - エラーセッション: 180秒待機（3分）
-7. **自動git push**: 各セッション成功後、自動的にリモートへpush（データ損失防止）
-   - 進捗があった場合のみ実行
-   - push失敗を検出・カウント
-   - 3連続失敗で中断（ネットワーク/リモート問題検出）
-8. **自動再起動**: エラー検出後も自動的に次セッションへ継続
-9. **完了検出**: 全ファイル（71,992エントリ）完了で自動終了
-
-### 🎯 Retranslationの特徴（2025-10-23改善版 - 6GB RAM最適化）
-
-### ✅ 強化されたCLIクラッシュ耐性（6GB RAM対応）
-- **Node.js heap size 2.5GB**: 6GB物理RAMに最適化、JSON.stringify RangeErrorを防止
-- **メモリ配分**: Claude 2.5GB + OS/他プロセス 3.5GB = 6GB
-- **エラー検出**: セッションログをパターンマッチングで検査
-- **未コミット作業検出**: CLIクラッシュ前の作業を検出
-- **自動リカバリ**: エラー検出後も処理を継続
-- **詳細診断**: エラー時に具体的な問題を報告
-
-### ✅ 適応的な動作制御
-- **健全性ベースのクールダウン**: エラー時は3倍長く待機
-- **セッションタイムアウト**: 2時間（より多くの作業時間）
-- **3連続ゼロ進捗で中断**: 無限ループ防止
-
-### ✅ 厳格なメモリ管理（6GB RAM厳格化）
-- **30行チャンク処理**: 大ファイル（530K行）を最小メモリで安全に処理
-- **シーケンシャル処理**: バッチ処理禁止（メモリ爆発防止）
-- **頻繁なコミット**: **50エントリごと**にメモリリセット（100→50に短縮）
-- **メモリ閾値**: 2GB警告、2.5GB強制再起動
-
-### ✅ 構造保護
-- 全ての編集後に行数一致検証
-- 構造マーカー破損の自動検出
-- 中国語混入チェック
-
-### ✅ 自動バックアップ（データ損失防止）
-- **各セッション後に自動push**: 進捗が常にGitHub上に保存
-- **連続失敗検出**: 3回連続push失敗で中断（ネットワーク問題の早期検出）
-- **ローカルコミット保護**: push失敗時も警告を出すが作業継続（ローカルには安全に保存）
-- **リスク最小化**: サーバークラッシュ・ディスク障害時のデータ損失を最小限に
-
-### 🔧 Retranslationトラブルシューティング
-
-#### CLI JSON.stringify エラー（2025-10-23改善済み - 6GB RAM対応）
-
-**症状:**
-```
-RangeError: Invalid string length
-    at JSON.stringify (<anonymous>)
-```
-
-**原因:**
-- 大きなファイル（530K行）処理時のNode.jsメモリ不足
-- デフォルトheap size（~1.4GB）では不十分
-
-**解決済み（2025-10-23 - 6GB RAM最適化）:**
-1. **Node.js heap size 2.5GB化**: `NODE_OPTIONS='--max-old-space-size=2560'`
-   - 6GB物理RAMに最適（Claude 2.5GB + OS 3.5GB）
-   - スワップを避けるため物理メモリ内に収める
-2. **チャンクサイズ削減**: 50行 → 30行（メモリ使用量削減）
-3. **コミット頻度増加**: 100エントリ → 50エントリ（メモリプレッシャー軽減）
-4. **エラー検出強化**: `check_session_health()` 関数追加
-5. **自動継続**: エラー検出後も進捗があれば次セッションへ
-
-**効果:**
-- 6GB RAMサーバーで安定稼働
-- JSON.stringify エラーの発生率大幅減少
-- エラー発生時も自動リカバリ
-- 連続稼働の安定性向上
-- スワップ発生を回避（パフォーマンス向上）
-
-#### セッションが1回で停止する
+### プロセスが停止している
 
 **診断:**
 ```bash
-# 最後のセッションログを確認
-tail -50 automation/.session_*_output.log | grep -E "(ERROR|WARNING|RangeError)"
+# ログで原因確認
+tail -50 automation/untranslated-fix-automation.log
 
-# 自動化ログを確認
-tail -50 automation/retranslation-automation.log
+# よくある原因:
+# - 3連続ゼロ修正（手動介入が必要）
+# - メモリ超過（ENTRIES_PER_SESSION を減らす）
+# - git push 失敗3連続（ネットワーク確認）
 ```
 
-**確認ポイント:**
-- ⚠ WARNING: Session log is empty → CLIクラッシュ
-- ⚠ WARNING: Detected JSON.stringify error → メモリ不足
-- ⚠ WARNING: Uncommitted changes → クラッシュ前の未保存作業
-
 **対処:**
-1. 進捗が保存されているか確認: `git log -1`
-2. 未コミット作業があれば手動でコミット: `git status`
-3. スクリプトを再実行（自動的に続きから再開）
+1. 最新ログを確認: `tail -50 automation/untranslated-fix-automation.log`
+2. git status 確認: `git status`（未コミット作業があれば手動コミット）
+3. 再起動: `bash automation/auto-fix-untranslated.sh`（自動的に続きから再開）
+
+### 進捗が遅い
+
+```bash
+# メモリ使用量確認
+tail -f automation/untranslated-fix-automation.log | grep "Memory usage"
+
+# セッション完了時間確認
+grep "Session #" automation/untranslated-fix-automation.log | tail -5
+```
+
+**対策:**
+- メモリ使用量が常に高い（>3GB）→ ENTRIES_PER_SESSION を減らす
+- セッション時間が長い（>15分）→ ネットワーク遅延の可能性
+
+### 検証失敗が頻発する
+
+```bash
+# 詳細な検証レポートを確認
+cat automation/.untranslated_report.txt | tail -100
+
+# 特定の行を手動で確認
+grep "行番号" translation/target/v1.6.9.420.309496/ja_JP/StringTableData_English-*.txt
+```
+
+**対策:**
+- 構造検証エラー → 手動でダブルクォート形式を確認
+- 品質検証エラー → action marker翻訳や固有名詞の確認
+
+### 未翻訳リストを再生成
+
+```bash
+# 現在の状態で再検出
+bash automation/generate-untranslated-list.sh
+
+# 再生成後の件数確認
+wc -l automation/.untranslated_lines.txt
+```
 
 ---
 
-## 🚀 完全自動翻訳の実行方法（旧システム - 非推奨）
+## 📝 ログファイル
 
-**注意: 以下は旧翻訳システムの説明です。現在はRetranslation自動化（上記）を使用してください。**
+| ファイル | 内容 |
+|---------|------|
+| `automation/untranslated-fix-automation.log` | メインログ（セッション詳細、進捗、検証結果） |
+| `automation/.auto-fix-bg.log` | バックグラウンド起動ログ |
+| `automation/.fix_untranslated_output.log` | 各Claude Codeセッション出力 |
+| `automation/.untranslated_lines.txt` | 未翻訳行番号リスト（処理対象） |
+| `automation/.untranslated_report.txt` | 検証スクリプト完全レポート |
 
-### Windows (PowerShell) から実行
+---
 
-```powershell
-cd C:\path\to\wasteland3-vanilla-langpack-japanese
-.\automation\auto-translate.ps1
-```
+## 🔍 検証システム
 
-**オプションパラメータ:**
-```powershell
-.\automation\auto-translate.ps1 `
-    -MaxMemoryMB 7000 `
-    -EntriesPerSession 2500 `
-    -MaxSessions 100
-```
+自動修正後、2種類の検証を必ず実施します。
 
-### WSL/Linux (Bash) から実行
+### 1. 構造検証（validate_structure_v2.py）
+
+Unity StringTable形式の構造を保護します。
 
 ```bash
-cd /home/user/project_claude/game_wasteland/wasteland3-vanilla-langpack-japanese
-./automation/auto-translate.sh
+python3 translation/validate_structure_v2.py \
+  translation/target/v1.6.9.420.309496/ja_JP/FILENAME.txt \
+  --source translation/source/v1.6.9.420.309496/en_US/FILENAME.txt \
+  --detailed
 ```
 
-## 📋 動作の仕組み
+**検証項目:**
+- ✅ 行数一致（source == target）
+- ✅ クォート数一致（各行ごと）
+- ✅ 構造マーカー保護（`""`, `[]`, `<>`, `::action::`）
+- ✅ ダブルダブルクォート形式維持
 
-1. **セッション開始**: Claude Codeを起動
-2. **進捗読み込み**: `.translation_progress.json`から前回の続きを読み込み
-3. **自動翻訳**: メインセッションで直接翻訳実行（100-200行チャンク、1000エントリごとにコミット）
-4. **メモリ監視**: メモリ使用量を監視（30秒ごと）
-5. **自動再起動**: 以下の条件でセッションを終了・再起動
-   - メモリが閾値（デフォルト7GB）を超えた
-   - 目標エントリ数（デフォルト2,500）を達成した
-   - タイムアウト（1時間）に達した
-6. **ループ継続**: 次のセッションを自動的に開始
-7. **完了検出**: 翻訳完了を検出したら自動終了
+### 2. 品質検証（validate_translation_quality.py）
 
-**重要な変更点（2025-10）:**
-- サブエージェントを使用せず、メインセッションで直接翻訳を実行
-- **`--dangerously-skip-permissions` フラグ使用**: ファイル編集権限の自動承認を実現
-- **`yes` コマンド使用**: 対話的な承認プロンプトを自動承認
-- 権限承認の問題を完全に解決し、真の無人実行を実現
-- 厳格なメモリ管理（チャンク処理、頻繁なコミット）で安定性を確保
+翻訳内容の品質を確認します。
 
-**⚠️ 再確認: リスクを理解していますか？**
-- `--dangerously-skip-permissions` は全ての権限チェックをバイパスします
-- `yes` コマンドは全ての対話的プロンプトに自動的に「y」を回答します
-- **これは名前に「dangerously（危険に）」が含まれている理由を理解してください**
-- **サンドボックス環境（VM/コンテナ）での実行が必須です**
-- **メインPCや本番環境では絶対に実行しないでください**
-- インターネットアクセスが制限された環境での使用を強く推奨します
-- Gitブランチでの実行を推奨（変更の確認・ロールバックが容易）
-- 実行前に必ず重要なデータのバックアップを取得してください
-
-## 🎯 特徴
-
-### ✅ 完全無人運転
-- ユーザーの介入なしで数日〜数週間稼働可能
-- 夜間や週末に実行してバックグラウンドで翻訳
-
-### ✅ メモリ管理
-- メモリ使用量を自動監視
-- 閾値超過で自動的にセッション再起動
-- Out of Memoryエラーを防止
-
-### ✅ 進捗保存
-- すべての進捗を自動保存
-- スクリプト中断後も再開可能
-- Gitに自動コミット・プッシュ
-
-### ✅ ログ記録
-- 詳細なログを`translation-automation.log`に記録
-- 各セッションの出力を個別ファイルに保存
-- トラブルシューティングが容易
-
-## ⚙️ 設定パラメータ
-
-### PowerShell版 (`auto-translate.ps1`)
-
-| パラメータ | デフォルト | 説明 |
-|-----------|----------|------|
-| `MaxMemoryMB` | 7000 | メモリ閾値（MB）。この値を超えたらセッション再起動 |
-| `EntriesPerSession` | 2500 | セッションあたりの目標翻訳エントリ数 |
-| `MaxSessions` | 100 | 最大セッション数（安全装置） |
-
-### Bash版 (`auto-translate.sh`)
-
-スクリプト内の変数を編集:
 ```bash
+python3 translation/validate_translation_quality.py \
+  translation/target/v1.6.9.420.309496/ja_JP/FILENAME.txt \
+  --start-line 390 \
+  --end-line 530425 \
+  --glossary translation/nouns_glossary.json
+```
+
+**検証項目:**
+- ✅ action marker 翻訳検出（`::action::` は英語のまま）
+- ✅ 未翻訳エントリ検出（両クォート形式対応）
+- ✅ 用語集違反検出（nouns_glossary.json参照）
+- ✅ 技術用語保護（Script Node, [Switch to], etc.）
+
+**両検証でゼロエラー/ゼロ問題のみコミット可能です。**
+
+---
+
+## ⚙️ 設定の調整
+
+### メモリ制限の調整（6GB RAM環境）
+
+`auto-fix-untranslated.sh` 内:
+```bash
+MAX_MEMORY_MB=5000  # デフォルト: 6GB RAM - 1GB margin
+
+# メモリ不足が頻発する場合
+MAX_MEMORY_MB=4000  # より保守的な設定
+
+# メモリが十分な場合（8GB+ RAM）
 MAX_MEMORY_MB=7000
-ENTRIES_PER_SESSION=2500
-MAX_SESSIONS=100
 ```
 
-## 📊 進捗確認
-
-### リアルタイムログ監視
-
-**PowerShell:**
-```powershell
-Get-Content .\automation\translation-automation.log -Wait -Tail 20
-```
-
-**Bash:**
-```bash
-tail -f automation/translation-automation.log
-```
-
-### 現在の進捗確認
+### 処理速度の調整
 
 ```bash
-cat translation/.translation_progress.json | jq
+ENTRIES_PER_SESSION=20  # デフォルト
+
+# より慎重に処理（メモリ不足時）
+ENTRIES_PER_SESSION=10
+
+# より高速に処理（安定稼働時）
+ENTRIES_PER_SESSION=30
 ```
 
-### Git進捗確認
+---
 
-```bash
-git log --oneline -20
-```
+## 🔐 セキュリティに関する注意
 
-## 🛑 停止方法
+### --dangerously-skip-permissions フラグ
 
-### 安全な停止（現在のセッション完了後）
-スクリプトは各セッション完了後に自動的にチェックポイントを作成するため、単純に次のセッションが始まる前に停止できます。
+このスクリプトは `--dangerously-skip-permissions` フラグを使用します。
 
-**PowerShell:**
-```powershell
-# スクリプトウィンドウで Ctrl+C
-```
+**これは何か:**
+- Claude Code の内部権限チェックを完全にバイパス
+- すべてのファイル操作が無条件で実行される
 
-**Bash:**
-```bash
-# スクリプトウィンドウで Ctrl+C
-# または別ターミナルから:
-pkill -TERM -f auto-translate.sh
-```
+**なぜ必要か:**
+- 完全無人実行を実現するため
+- 対話的な承認プロンプトを回避
 
-### 緊急停止
+**リスク:**
+- システムファイルの破壊
+- データ損失
+- 予期しないコード実行
 
-**全Claude Codeプロセスを強制終了:**
-```bash
-pkill -9 claude
-```
+**安全な使用方法:**
+- ✅ サンドボックス環境（VM/コンテナ）で実行
+- ✅ 重要データのバックアップ取得
+- ✅ インターネットアクセス制限された環境
+- ❌ メインPCや本番環境では絶対に実行しない
 
-## 🔧 トラブルシューティング
-
-### スクリプトが起動しない
-
-1. **Claude Codeがインストールされているか確認:**
-   ```bash
-   which claude
-   claude --version
-   ```
-
-2. **作業ディレクトリのパスを確認:**
-   スクリプト内の`WORKING_DIR`が正しいか確認
-
-3. **実行権限を確認（Bash版）:**
-   ```bash
-   chmod +x automation/auto-translate.sh
-   ```
-
-### メモリ監視が機能しない
-
-PowerShell版はWSL内のプロセスを直接監視できない場合があります。その場合はBash版の使用を推奨。
-
-### セッションが途中で止まる
-
-- `automation/.session_N_output.log`を確認
-- Claude CodeのAPI制限に達している可能性
-- ネットワーク接続を確認
-
-### 翻訳が進まない
-
-1. `.translation_progress.json`の`next_action`を確認
-2. 最新のコミットを確認: `git log -1`
-3. 手動で1セッション実行してエラーを確認
-
-### ロックファイルエラー（Retranslation自動化のみ）
-
-**症状:** "Another retranslation session is already running" エラーが表示される
-
-**原因:**
-- 以前の自動化セッションが異常終了（kill -9、システムクラッシュなど）してロックファイルが残っている
-- 別のセッションが既に実行中
-
-**解決方法:**
-
-1. **ロック状態を確認:**
-   ```bash
-   ls -la automation/.retranslation.lock
-   ```
-
-2. **実行中のプロセスを確認:**
-   ```bash
-   ps aux | grep auto-retranslate
-   ps aux | grep claude
-   ```
-
-3. **ロックを解除（3つの方法）:**
-
-   **方法1: 自動化スクリプトの --unlock オプション（推奨）**
-   ```bash
-   ./automation/auto-retranslate.sh --unlock
-   ```
-   - 古いロックのみ安全に削除（プロセスが実行中の場合は警告）
-
-   **方法2: 専用のロック解除スクリプト**
-   ```bash
-   ./automation/unlock-retranslation.sh         # 通常モード
-   ./automation/unlock-retranslation.sh --force # 強制削除モード
-   ```
-   - カラー出力で状態を明確に表示
-   - --force: プロセスが実行中でも強制削除（要注意）
-
-   **方法3: 手動削除（最終手段）**
-   ```bash
-   # まず実行中のプロセスを終了
-   kill <PID>  # または kill -9 <PID>
-
-   # ロックファイルを削除
-   rm automation/.retranslation.lock
-   ```
-
-**ロック機構について:**
-- 2025年10月に追加された安全機能
-- 複数の自動化セッションの同時実行を防止
-- 正常終了時は自動的に削除される
-- Ctrl+Cでも自動削除される（trapで処理）
-- kill -9やシステムクラッシュでは残る可能性あり
-
-### Claude Code CLI JSON.stringify エラー（修正済み）
-
-**症状:** セッションログに `RangeError: Invalid string length at JSON.stringify` エラーが大量に出力され、自動化が1セッションで停止する
-
-**原因:**
-- Claude Code CLIの内部制限：会話履歴が大きくなりすぎると、JSON serialization時にJavaScriptの文字列長制限（約536MB）を超える
-- セッションは作業を完了してコミットも作成するが、最後にクラッシュして非ゼロ終了コードを返す
-- 旧版の自動化スクリプトは `wait $CLAUDE_PID` で非ゼロコードにより `set -e` が発動し、即座に終了していた
-
-**影響:**
-- 作業は完了しているが、進捗検出と次セッションへの継続が行われない
-- 自動化が1セッションで停止する
-
-**解決済み（2025-10-22）:**
-`automation/auto-retranslate.sh` line 247-250:
-```bash
-# 修正前（バグ）
-wait $CLAUDE_PID 2>/dev/null  # 非ゼロでset -e発動 → 即終了
-
-# 修正後（正常）
-set +e  # 一時的にset -eを無効化
-wait $CLAUDE_PID 2>/dev/null
-local exit_code=$?
-set -e  # set -eを再有効化
-```
-
-**効果:**
-- Claude Code CLIがクラッシュしても自動化スクリプトは継続
-- 進捗検出が正常に動作（コミットは作られているため）
-- 次セッションに自動的に移行
-
-**確認方法:**
-```bash
-grep "Progress after session" automation/retranslation-automation.log | tail -5
-```
-このメッセージが表示されていれば修正版が正常動作している。
-
-## 📝 注意事項
-
-### API制限
-Claude CodeのAPI制限により、連続実行が制限される場合があります。その場合は`ENTRIES_PER_SESSION`を減らすか、セッション間の待機時間を増やしてください。
-
-### ディスク容量
-ログファイルとGitリポジトリが増大します。定期的に確認してください：
-```bash
-du -sh automation/*.log
-du -sh .git
-```
-
-### バックアップ
-重要な変更が自動的にGitにプッシュされますが、定期的にリモートリポジトリの状態を確認してください。
-
-## 🎉 使用例
-
-### 夜間実行
-```powershell
-# 金曜日の夜に開始、週末中に実行
-.\automation\auto-translate.ps1 -MaxSessions 50
-```
-
-### 長期実行
-```bash
-# nohupでバックグラウンド実行（Bash）
-nohup ./automation/auto-translate.sh > /dev/null 2>&1 &
-
-# tmuxセッションで実行（推奨）
-tmux new-session -s translation
-./automation/auto-translate.sh
-# Ctrl+B, D でデタッチ
-# tmux attach -t translation で再接続
-```
-
-### 慎重な実行（少量ずつ）
-```powershell
-# 1セッションあたり500エントリ、最大10セッション
-.\automation\auto-translate.ps1 -EntriesPerSession 500 -MaxSessions 10
-```
+---
 
 ## 📚 関連ドキュメント
 
-- `CLAUDE.md` - 翻訳ルールとメモリ管理ガイドライン
-- `translation/RESUME_TRANSLATION.md` - 手動再開手順
-- `translation/.translation_progress.json` - 現在の進捗状態
+| ファイル | 内容 |
+|---------|------|
+| **CLAUDE.md** | AI用完全翻訳ルール・ワークフロー |
+| **README.md** | プロジェクト概要・使い方（人間用） |
+| **AUTO_FIX_README.md** | 自動修正クイックリファレンス |
+| **translation/STRICT_TRANSLATION_RULES.md** | 厳格翻訳ルール |
+| **translation/STRUCTURE_PROTECTION_RULES.md** | 構造保護ルール |
+
+---
+
+## 🎯 よくある質問
+
+### Q: このセッションを終了してもバックグラウンドプロセスは継続しますか？
+
+**A: はい、継続します。** `nohup` で起動されているため、親プロセス（現在のシェル）から独立しています。別のClaude Codeセッションから `check-auto-fix-status.sh` で状態確認できます。
+
+### Q: 自動修正プロセスはいつ停止しますか？
+
+**A: 以下の条件で停止します:**
+1. 全未翻訳エントリの修正完了
+2. 3連続でゼロ修正（手動介入が必要）
+3. 最大セッション数（1050）に到達
+4. git push 3連続失敗（ネットワーク問題）
+
+### Q: 途中で止まった場合、どうすればいいですか？
+
+**A: 単に再実行してください。** 進捗は `.untranslated_lines.txt` で管理されており、修正済みのエントリは自動的にスキップされます。
+
+```bash
+# 再起動（自動的に続きから）
+bash automation/auto-fix-untranslated.sh
+```
+
+### Q: 手動で翻訳したい場合は？
+
+**A: 以下の方法があります:**
+
+```bash
+# 1. 未翻訳リストを生成
+bash automation/generate-untranslated-list.sh
+
+# 2. Claude Codeを起動
+claude
+
+# 3. プロンプト例
+> automation/.untranslated_lines.txt に記載された行番号を参照し、
+> CLAUDE.mdのルールに従って未翻訳エントリを日本語に翻訳してください。
+> 20エントリごとに確認してください。
+```
+
+---
+
+**最終更新**: 2025年11月16日
+**システムバージョン**: auto-fix-untranslated v1.0
