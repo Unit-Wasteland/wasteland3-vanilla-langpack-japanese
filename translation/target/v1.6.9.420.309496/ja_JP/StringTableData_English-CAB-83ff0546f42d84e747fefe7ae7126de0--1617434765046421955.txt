@@ -343407,15 +343407,15 @@
        [16]
         1 string data = " 5=Euthanized with medpack. "
        [17]
-        1 string data = "  6=Intimidated into quiet death."
+        1 string data = "  6=脅迫して静かに死なせた。"
        [18]
-        1 string data = " 0=Not yet met."
+        1 string data = " 0=まだ会っていない。"
        [19]
-        1 string data = " (DEBUG) Command?"
+        1 string data = " (DEBUG) コマンド？"
        [20]
-        1 string data = " DEBUG: Show current debug variables."
+        1 string data = " DEBUG: 現在のデバッグ変数を表示。"
        [21]
-        1 string data = " DEBUG: Companion Options, Scene Transitions."
+        1 string data = " DEBUG: コンパニオンオプション、シーン遷移。"
        [22]
         1 string data = "DEBUG: I am a Debug NPC. If you are seeing this, the Debug Flags have been disabled, but I have not. "
        [23]
@@ -343461,7 +343461,7 @@
        [43]
         1 string data = "Jodie Bell Game Over test options. "
        [44]
-        1 string data = " Testing Jodie Bell's game over conditions."
+        1 string data = " Jodie Bellのゲームオーバー条件をテスト中。"
        [45]
         1 string data = "Set "Met Jodie Bell." "
        [46]
@@ -343473,7 +343473,7 @@
        [49]
         1 string data = "Add to party "
        [50]
-        1 string data = " Return to Debug QA Menu."
+        1 string data = " Debug QAメニューに戻る。"
    [1128]
     0 StringTable data
      1 string Filename = "m2001_dorsey_executioner"
@@ -343951,13 +343951,13 @@
        [41]
         1 string data = ""クソ野郎ども！殺すって言っただろうが!""
        [42]
-        1 string data = ""Here. Take it."\n\n\nShe hands the weapon to the injured Ranger."
+        1 string data = ""これを、受け取って。"\n\n\n彼女は負傷したレンジャーに武器を手渡した。"
        [43]
-        1 string data = ""G-God forgive me."\n\n\nShe raises the pistol."
+        1 string data = ""か、神よ、お許しください。"\n\n\n彼女は銃を構えた。"
        [44]
         1 string data = ""ご、ごめんなさい。""
        [45]
-        1 string data = ""You dirty li-!"\n\n\n"
+        1 string data = ""この汚い嘘つきが―！"\n\n\n"
        [46]
         1 string data = ""全員死ね!""
        [47]
@@ -344421,7 +344421,7 @@
        [15]
         1 string data = ""えっと……もしかして衛生兵とかじゃないですよね？""
        [16]
-        1 string data = " Second Waterfall question. So, uh, what do your Ranger skills tell you? You're more experience then me.\n(TEMP TEXT)"
+        1 string data = " 二つ目のウォーターフォールの質問。えっと、あなたのレンジャースキルで何がわかる？私より経験豊富でしょ。\n(仮テキスト)"
        [17]
         1 string data = "(TEMP TEXT)Leadership or other skill response, like "These are fanatics, not trained soldiers. They're dangerous but disorganized."\n"
        [18]
@@ -344433,7 +344433,7 @@
        [21]
         1 string data = ""少佐がひどく怪我してるの"\n\n\n"大勢のクレイジーどもを追い払ったんだけど、最後の一人にナイフでやられちゃって。早く戻らないと、私、怖いわ……""
        [22]
-        1 string data = ""Uh... sure. This way." "
+        1 string data = ""あっ……わかった。こっちだ。" "
        [23]
         1 string data = ""うっ"\n\n\n"完全にまぐれ。銃は苦手なの。本部じゃ車両班にいたんだから""
        [24]
@@ -344473,9 +344473,9 @@
        [41]
         1 string data = "Script Node 42"
        [42]
-        1 string data = " DEBUG: Run through my first conversation. Only do this if you've skipped past my cutscene."
+        1 string data = " DEBUG: 最初の会話を実行。カットシーンをスキップした場合のみ実行すること。"
        [43]
-        1 string data = ""Sorry, kinda freaked me out. I... I'm Ranger Private Jodie Bell, Major Prasad's driver. She's down at the bottom of the dam. She sent me to look for survivors." "
+        1 string data = ""ごめんなさい、ちょっとパニックになっちゃって。私……私はレンジャー二等兵のジョディ・ベル、プラサド少佐の運転手なの。彼女はダムの下にいるわ。生存者を探すよう命じられたの。" "
        [44]
         1 string data = "I'm catching you up about me (Jodie). She's a farm girl from Ag Center. Five years ago, during the outbreak of mutations, the family got lucky - Jodie's parents saw what was happening, so they got their family out before the mutations took hold\n(TEMP TEXT)"
        [45]
@@ -344497,7 +344497,7 @@
        [53]
         1 string data = "Non-skill response phrased as a Classic Hardass Archetype.(TEMP TEXT)"
        [54]
-        1 string data = ""Thanks. I feel calmer already. This way." "
+        1 string data = ""ありがとう。もう落ち着いたわ。こっちよ。" "
        [55]
         1 string data = "Upbeat response!(TEMP TEXT)"
        [56]
@@ -344513,7 +344513,7 @@
        [61]
         1 string data = "Medicine skill. Yeah, I know, I should probably treat it using this method that I'm describing."
        [62]
-        1 string data = ""Way happier fixing engines. I love cars." "
+        1 string data = ""エンジンを修理してる方がずっと幸せ。私、車が大好きなの。" "
        [63]
         1 string data = ""見て――見て！奴らが来る！""
        [64]
@@ -344529,7 +344529,7 @@
        [69]
         1 string data = ""ごめんなさい、今ちょっとパニックになってて。私……私はレンジャー二等兵ジョディ・ベル、プラサド少佐の運転手です。少佐はダムの反対側にいます。私を送って――""
        [70]
-        1 string data = ""Yikes..."\n"
+        1 string data = ""うわっ……"\n"
        [71]
         1 string data = ""やばい"\n\n\n"ふふ。あ、あ、あの人に私が兄弟を殺したって言わないわよね？""
        [72]
@@ -345977,7 +345977,7 @@
        [11]
         1 string data = ""ここにいるよ...どんな形であれ。""
        [12]
-        1 string data = ""Save... Major... Tom... cat."\n\n\nHe passes out."
+        1 string data = ""助けて……少佐……トム……猫。"\n\n\n彼は気を失った。"
        [13]
         1 string data = ""まず...無理だ。ほとんどが俺たちの...輸送車と一緒に燃えた。数人は氷の下に沈んで―""
        [14]
@@ -346005,7 +346005,7 @@
        [25]
         1 string data = ""待て!少佐トム!奴は...生き延びたかもしれない!墜落した後、地獄から逃げ出す蝙蝠のように...走り去るのを見た。""
        [26]
-        1 string data = ""Don't know if he'll... come with you if you find 'im. He gets pretty spooked, but... take these. Might get his attention."\n\n\nShe hands you a pack of cigarettes."
+        1 string data = ""奴を見つけても……一緒に来るかはわからない。かなり怯えてるから……でもこれを持ってって。気を引けるかもしれない。"\n\n\n彼女はタバコの箱を手渡した。"
        [27]
         1 string data = ""わ...わかった。俺が...後方を警戒する。""
        [28]
