@@ -6,6 +6,26 @@ automation/translation-automation.log
 automation/retranslation-automation.log
 automation/.retranslation.lock
 
+# Auto-fix-untranslated temporary files and logs
+automation/.auto-fix-bg.log
+automation/.fix_untranslated_command.txt
+automation/.fix_untranslated_output.log
+automation/untranslated-fix-automation.log
+automation/.untranslated_*.txt
+automation/.current_untranslated_*.txt
+automation/.validation_*.txt
+automation/.genuinely_untranslated.txt
+automation/.need_translation.txt
+automation/.real_untranslated_lines.txt
+automation/.remaining_untranslated.txt
+automation/.untranslated_scan.log
+automation/.untranslated_fix.lock
+automation/*-test.sh
+
+# Python cache
+translation/__pycache__/
+*.pyc
+
 # Editor and IDE files
 .vscode/
 .idea/
