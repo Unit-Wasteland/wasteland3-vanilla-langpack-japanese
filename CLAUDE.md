@@ -348,286 +348,53 @@ wc -l translation/target/v1.6.9.420.309496/ja_JP/*.txt
 
 5. **::action:: Markers - ABSOLUTELY CRITICAL** ⚠️🔴
 
-   **DISCOVERED ISSUE (2025-11-01): 97 instances of action markers were incorrectly translated to Japanese, breaking game functionality.**
+   **ABSOLUTE RULES:** NEVER translate action markers (e.g., `::sigh::`, `::laughs::`, `::static::`). They control game animations/sounds and MUST remain in English.
 
-   **UPDATE (2025-11-02): Additional 3 instances found and fixed in Session 7. Enhanced prevention measures implemented.**
-
-   **What are action markers?**
-   - Action markers are game engine control commands in the format `::action::`
-   - They control character animations, sounds, and visual effects
-   - Examples: `::sigh::`, `::laughs::`, `::nods::`, `::static::`, `::gunfire::`
-
-   **ABSOLUTE RULES (ZERO TOLERANCE):**
-
-   ❌ **NEVER translate action marker content**:
-   ```
-   WRONG: ::sigh::  → ::ため息::        (translating to Japanese)
-   WRONG: ::laughs:: → ::笑う::         (translating to Japanese)
-   WRONG: ::classic rock plays:: → ::クラシックロック曲が流れる:: (translating to Japanese)
-   ```
-
-   ✅ **ALWAYS keep action markers in English, character-for-character**:
-   ```
-   English source: string data = "::sigh:: "I don't know...""
-   Japanese target: string data = "::sigh:: "わからない...""
-                                  ^^^^^^^^ UNCHANGED - kept in English
-   ```
-
-   **Why this is critical:**
-   - If action markers are translated, the game engine cannot recognize them
-   - Character animations will not play
-   - Sound effects will not trigger
-   - Visual effects will fail
-   - This breaks the player experience
-
-   **How to verify:**
-   After translating, verify EVERY action marker remains in English:
+   ⚠️ **MANDATORY: Post-Edit Verification**
    ```bash
-   # Extract all action markers from your translation
-   grep -o '::[^:]*::' target_file.txt
-
-   # Check if any contain Japanese characters (should return nothing)
-   grep -o '::[^:]*[ぁ-ゖァ-ヾ一-龯][^:]*::' target_file.txt
+   grep -o '::[^:]*[ぁ-ゖァ-ヾ一-龯][^:]*::' TARGET_FILE  # Must return empty
    ```
-
-   ⚠️⚠️⚠️ **MANDATORY: Post-Edit Verification (Added 2025-11-02)** ⚠️⚠️⚠️
-
-   **After EVERY Edit tool execution, you MUST run this command:**
-   ```bash
-   grep -o '::[^:]*[ぁ-ゖァ-ヾ一-龯][^:]*::' TARGET_FILE
-   ```
-
-   **Expected result**: Empty output (no lines printed)
-   - If output is empty → ✅ OK, proceed to next edit
-   - If output shows anything → ❌ ERROR, action marker contains Japanese, fix immediately before proceeding
-
-   **This verification is NOT optional. It MUST be executed after each edit.**
-
-   **Common action markers (NEVER translate these):**
-   - Emotions: `::sigh::`, `::laughs::`, `::cries::`, `::screams::`
-   - Actions: `::nods::`, `::shrugs::`, `::blinks::`, `::shivers::`
-   - Sounds: `::static::`, `::gunfire::`, `::beep::`, `::music plays::`
-   - States: `::whispers::`, `::shouts::`, `::sing-song::`
-
-   **If you accidentally translate an action marker:**
-   1. STOP immediately
-   2. Revert the change
-   3. Verify against English source
-   4. Continue with correct English marker
 
 6. **DO NOT TRANSLATE - Technical Terms** ⚠️
-   - **ABSOLUTELY NEVER translate the following technical terms**:
-     - `Script Node` (followed by any number) - This is a technical identifier, NOT dialogue
-     - `Node` (when referring to script nodes)
-     - Any text that starts with `Script Node` must remain in English
-   - These are internal game engine references and translating them will break the game
-   - Check the `do_not_translate` section in `translation/nouns_glossary.json` for the complete list
-   - When in doubt, compare with the English source file - if it's identical in structure to technical terms, do NOT translate it
+   - NEVER translate: `Script Node`, `[Global:]`, `[Switch to]`, etc.
+   - Check `do_not_translate` in `translation/nouns_glossary.json` for complete list
 
-7. **Spanish Reference Rules** ⚠️
+7. **Translation Decision Logic** (Priority Order)
+   1. Empty (`""`) → Skip
+   2. In `do_not_translate` list → Keep English
+   3. In `nouns_glossary.json` → Use glossary term
+   4. Spanish translated AND differs from English → Translate
+   5. **Otherwise → Translate** (default: prevents untranslated proper nouns)
 
-   **UPDATED (2025-11-06): Unified translation decision logic to prevent untranslated proper nouns.**
+### Retranslation Execution Strategy
 
-   **Unified Translation Decision Logic (Priority Order):**
+**Key Principles:**
+- **Sequential processing**: Start from line 390, complete each section 100% before moving
+- **Chunk size**: 150-200 lines (minimizes Read/Edit operations)
+- **Session limit**: 500 entries/session (~340 sessions total for base game)
+- **Validation**: BOTH structure + quality validation after EVERY edit (zero tolerance)
+- **Commits**: Every 500 entries
+- **Memory**: 5000MB limit, monitored every 30s
 
-   1. **English == "" (empty)?** → Skip (truly empty entry)
+**Workflow:**
+1. Read progress → 2. Read chunks (150-200 lines) → 3. Apply translation decision logic → 4. Translate using glossary → 5. **Validate** (structure + quality, must pass ZERO errors) → 6. Commit every 500 entries → 7. End session
 
-   2. **Check do_not_translate list** (Script Node, [Global:], [Switch to], etc.)
-      → If found: Keep English text (technical term)
-
-   3. **Check nouns_glossary.json** (proper nouns: characters, locations, factions)
-      → If found: Translate using glossary term
-
-   4. **Spanish != "" AND Spanish != English** (Spanish is translated)?
-      → Translate to Japanese (normal translatable text)
-
-   5. **Otherwise** (Spanish == "" OR Spanish == English):
-      → **Translate to Japanese** (default behavior)
-      → Includes: proper nouns not yet in glossary, dialogue, descriptions
-
-   **KEY CHANGES (2025-11-06):**
-   - Spanish reference is now **advisory, NOT decisive**
-   - Default behavior is **to translate** (prevents untranslated proper nouns)
-   - Only skip translation if explicitly in do_not_translate list
-   - Proper nouns are translated even when Spanish version keeps them in English
-
-   **WRONG logic (DO NOT USE):**
-   ```
-   if Spanish == "":
-       keep_english()  # ❌ This leaves proper nouns untranslated
-
-   if Spanish == English:
-       keep_english()  # ❌ This skips proper nouns that should be translated
-   ```
-
-   **CORRECT Examples:**
-   - "Rangers" - Spanish: "Rangers" (unchanged) → Glossary: "レンジャー" → **Translate to "レンジャー"**
-   - "Angela Deth" - Spanish: "Angela Deth" (unchanged) → Glossary: "アンジェラ・デス" → **Translate**
-   - "Patriarch" - Spanish: "Patriarch" (unchanged) → Glossary: "総主教" → **Translate**
-   - "Script Node" - Spanish: "Script Node" → do_not_translate list → **Do NOT translate**
-
-### Retranslation Execution Strategy - Sequential from Line 1
-
-⚠️ **IMPORTANT: Process files sequentially from the beginning**
-
-**Sequential Processing Approach (STRICT WORKFLOW 2025-11-01 CORRECTED):**
-
-⚠️ **CORRECTION (2025-11-01): First translatable entry is at line 390, NOT line 666**
-
-**Translation range:**
-- **Line 390**: First non-empty translatable entry (Ananda Rabindranath dialogue)
-- **Lines 390-665**: 3 entries that were SKIPPED - must be translated
-- **Line 666+**: Main translation content
-
-1. **Start from line 390**: First translatable entry (CORRECTED - was incorrectly stated as line 666)
-2. **Complete each section 100%**: Before moving to next section
-3. **Unified translation decision MANDATORY**: Apply 5-step priority logic (do_not_translate → glossary → Spanish reference → default to translate)
-4. **Validate after EVERY edit**: Use BOTH `validate_structure_v2.py` AND `validate_translation_quality.py` - zero tolerance for errors
-5. **Only advance when validated**: Any error = immediate fix required
-
-**Key principles for strict retranslation (REDESIGNED 2025-11-06):**
-- **Unified translation decision**: Check do_not_translate list → glossary → Spanish reference → default to translate (prevents untranslated proper nouns)
-- **Large chunk processing**: Process in 150-200 line chunks (minimizes Read/Edit operations → small conversation history)
-- **Session limit**: 500 entries per session (high efficiency - completes in ~340 sessions total for 169,712 entries)
-- **Structure protection**: Validate `""`, `[]`, `<>`, `::action::` markers after EVERY edit
-- **Sequential processing**: Never batch operations; never skip sections; never prioritize
-- **Efficient commits**: Commit every 500 entries (reduces git overhead while maintaining safety)
-- **Session restarts**: Automated scripts handle session restarts when memory threshold reached
-- **Memory threshold**: 5000MB limit (6GB physical RAM - 1GB margin, monitored every 30s)
-
-**Standard strict retranslation workflow (UPDATED 2025-11-06):**
-1. Read progress from `translation/.retranslation_progress.json` (v3.0 - strict workflow)
-2. **Read 150-200 line chunks** from English source, Spanish reference, and Japanese target
-3. **Apply unified translation decision logic**: Check do_not_translate list → glossary → Spanish reference → default to translate
-4. Translate English→Japanese using `nouns_glossary.json` (for glossary terms and translatable entries)
-5. **MANDATORY VALIDATION after EACH edit (CRITICAL - 2025-11-01)**:
-
-   **BOTH validations must pass with ZERO errors before commit:**
-
-   a) **Structure validation** (existing):
-   ```bash
-   python3 translation/validate_structure_v2.py TARGET_FILE --source SOURCE_FILE --detailed
-   ```
-   Expected output: `Total errors: 0`
-
-   b) **Quality validation** (NEW - added 2025-11-01):
-   ```bash
-   python3 translation/validate_translation_quality.py TARGET_FILE \
-     --start-line START_LINE --end-line END_LINE
-   ```
-   Expected output: `Total issues found: 0`
-
-   **If EITHER validation fails:**
-   - STOP immediately
-   - Review the error report
-   - Fix issues manually (one by one)
-   - Re-run BOTH validations
-   - Only proceed when both show 0 errors/issues
-
-6. **Commit every 500 entries** with progress update (efficient memory management)
-7. **End session after ~500 entries** (high efficiency - minimizes total sessions needed)
-8. Continue until all files completed (expected: ~340 sessions for 169,712 entries)
-
-**For manual sessions (STRICT WORKFLOW 2025-11-06 UPDATED):**
-When user requests work manually (not via automation script):
-- **Unified translation decision**: MANDATORY - apply 5-step priority logic (do_not_translate → glossary → Spanish reference → default to translate)
-- **Chunk size**: For fixing errors: 10-20 entries per session; For new translation: 150-200 lines
-- **Session target**: Process as many entries as comfortable (for fixes: 10-20; for new content: aim for 500)
-- **DUAL VALIDATION MANDATORY after EVERY edit (CRITICAL)**:
-  1. Structure: `validate_structure_v2.py` - must show 0 errors
-  2. Quality: `validate_translation_quality.py` - must show 0 issues
-  3. Both must pass before commit
-- **Commit frequency**: After each batch of fixes (10-20 entries) or 500 new entries
-- **Glossary reference**: nouns_glossary.json for all proper nouns (consistent translations)
-- **Progress update**: Update .retranslation_progress.json after each commit
-- **Memory threshold**: 5000MB (6GB RAM - 1GB margin)
-- **Sequential only**: NO skipping, NO prioritization, NO batch processing
-- **Action marker verification**: After each edit, verify NO action markers contain Japanese characters
-
-**For automated retranslation:**
-The `automation/auto-retranslate.sh` script handles:
-- Session memory monitoring and automatic restart
-- Progress tracking across multiple sessions
-- Error detection (3 consecutive sessions with 0 entries = stop)
-- Logging to `automation/retranslation-automation.log`
-- **Dual validation after each commit** (UPDATED 2025-11-01):
-  - Structure validation (`validate_structure_v2.py`) - zero tolerance for errors
-  - Quality validation (`validate_translation_quality.py`) - zero tolerance for issues
-  - Both validations must pass before git push
-  - Automation stops immediately if either validation fails
-
-### Retranslation Workflow Steps
-
-**Step 1: Environment Preparation** (one-time setup)
-- Copy English files from `source/en_US/` to `target/ja_JP/` as new base
-- Existing broken translations already backed up in `backup_broken/`
-- Initialize progress file: `translation/.retranslation_progress.json`
-- See `translation/RETRANSLATION_WORKFLOW.md` Phase 0 for details
-
-**Step 2: Sequential Retranslation** (automated)
-- Process files sequentially from line 1: base_game → DLC1 → DLC2
-- For each 150-200 line chunk:
-  1. Read backup_broken file (extract Japanese text)
-  2. Read target file (English base with correct structure)
-  3. Apply Japanese text with structure protection
-  4. For untranslated entries: translate English→Japanese using glossary
-  5. Validate structure markers (`""`, `[]`, `<>`, `::action::`)
-  6. Edit target file with validated translation
-- Commit every 500 entries with progress update
-- End session after ~500 entries (automatic restart by automation script)
-- Continue until all 169,752 entries completed (across ~34 sessions)
-
-**Step 3: Quality Validation** (MANDATORY before every commit - UPDATED 2025-11-01)
-
-**CRITICAL: Run BOTH validation scripts before each commit. Both must show 0 errors/issues.**
-
-**Validation Script 1: Structure Validation**
+**Validation (MANDATORY after each edit):**
 ```bash
-python3 translation/validate_structure_v2.py \
-  translation/target/v1.6.9.420.309496/ja_JP/FILENAME.txt \
-  --source translation/source/v1.6.9.420.309496/en_US/FILENAME.txt \
-  --detailed
+# Structure: python3 translation/validate_structure_v2.py TARGET_FILE --source SOURCE_FILE --detailed
+# Quality: python3 translation/validate_translation_quality.py TARGET_FILE --start-line X --end-line Y
+# Both must show 0 errors. If fails: STOP, fix, re-validate
 ```
 
-Checks:
-- ✅ Line count matches source (mandatory)
-- ✅ Quote count per line matches source exactly
-- ✅ No broken structure markers (no `「」` in structure)
-- ✅ Game variables preserved (`[...]`)
-- ✅ HTML tags preserved (`<i>`, `</i>`)
+**For manual sessions:** Chunk size: 10-20 entries (fixes) or 150-200 lines (new). Validate after EVERY edit. Commit after batch. Sequential only.
 
-**Validation Script 2: Quality Validation (UPDATED - glossary check added 2025-11-05)**
-```bash
-python3 translation/validate_translation_quality.py \
-  translation/target/v1.6.9.420.309496/ja_JP/FILENAME.txt \
-  --start-line START_LINE \
-  --end-line END_LINE \
-  --glossary translation/nouns_glossary.json
-```
+**For automated:** `automation/auto-retranslate.sh` handles memory monitoring, progress tracking, dual validation, and auto-restart. See `automation/README.md`.
 
-Checks:
-- ✅ NO action markers contain Japanese characters (`::action::` must remain English)
-- ✅ NO untranslated English entries in translated range (entries that should be Japanese are Japanese)
-- ✅ Script Node not translated
-- ✅ Technical terms preserved
-- ✅ **Glossary compliance** (NEW - 2025-11-05): NO incorrect terminology that violates nouns_glossary.json
-  - Example: "Rangers" must be "レンジャー", NOT "レンジャーズ"
+### Workflow Steps (Details in RETRANSLATION_WORKFLOW.md)
 
-**Additional Manual Checks:**
-- ✅ Git diff shows only text changes, no structure changes
-- ✅ No Chinese characters mixed in
-- ✅ All action markers verified manually with grep:
-  ```bash
-  # Should return nothing (no Japanese in action markers)
-  grep -o '::[^:]*[ぁ-ゖァ-ヾ一-龯][^:]*::' TARGET_FILE
-  ```
-
-**If validation fails:**
-1. STOP immediately - DO NOT commit
-2. Review error/issue report
-3. Fix problems manually, one by one
-4. Re-run BOTH validations
-5. Only commit when both show 0 errors AND 0 issues
+**Step 1:** Environment prep (one-time) - English files → target, init progress
+**Step 2:** Sequential retranslation - 150-200 line chunks, validate, commit every 500 entries
+**Step 3:** Validation (MANDATORY) - Structure + Quality scripts, both must show 0 errors before commit
 
 ## Working with Large Files
 
