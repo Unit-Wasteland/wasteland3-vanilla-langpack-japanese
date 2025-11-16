@@ -209317,7 +209317,7 @@
        [17]
         1 string data = " Talk to Buck in the Oil Field (after he's saved)."
        [18]
-        1 string data = ""Can't believe we made it out of that oilfield. We should be dead."\n\n\nBuck sighs, rubbing his eyes."
+        1 string data = ""あの油田から逃げ出せたなんて信じられない。死んでいてもおかしくなかった。"\n\n\nバックはため息をつき、目をこする。"
        [19]
         1 string data = " Buck's Pre-Save Oil field dialogue will go here."
        [20]
@@ -209327,9 +209327,9 @@
        [22]
         1 string data = " Did Buck live or die? Note that this variable will only be set as the player leaves the Oil Field during "Dark Clouds.""
        [23]
-        1 string data = "  Died (if they were saved, they were killed by Godfishers or something else afterwards)."
+        1 string data = "  死亡（救出されたが、その後ゴッドフィッシャーズか何かに殺された）。"
        [24]
-        1 string data = "  Lived (both saved and survived)."
+        1 string data = "  生存（救出され、生き延びた）。"
        [25]
         1 string data = " Survivor = 1"
        [26]
@@ -209351,13 +209351,13 @@
        [34]
         1 string data = ""やあ、どうした?""
        [35]
-        1 string data = ""It's thanks to you. You're a damn miracle. Once that wall of flames came up, I thought we were dead."\n\n\nHe exhales."
+        1 string data = ""君たちのおかげだ。本当に奇跡だよ。あの炎の壁が現れた時、もう死んだと思った。"\n\n\n彼は息を吐く。"
        [36]
         1 string data = ""大丈夫か? 油田での戦闘は激しかったな。""
        [37]
         1 string data = ""ああ。不安はなかったと言いたいところだが、ゴッドフィッシャーたちが襲ってきた時は? ああ。後でズボンを埋めなきゃならなかったよ。""
        [38]
-        1 string data = ""I can't believe you actually shot the pipe. Blaze and I thought you were kidding."\n\n\nGrinning, he looks over your shoulder, then back at you."
+        1 string data = ""本当にパイプを撃つとは思わなかった。ブレイズと俺は冗談だと思ってたよ。"\n\n\nニヤリと笑いながら、彼は君の肩越しに視線を向け、そして君に戻す。"
        [39]
         1 string data = ""
        [40]
@@ -209369,7 +209369,7 @@
        [43]
         1 string data = ""じゃあな、レンジャー。""
        [44]
-        1 string data = " Leave."
+        1 string data = " 立ち去る。"
        [45]
         1 string data = ""ブレイズが...信じられない...""
        [46]
@@ -211251,21 +211251,21 @@
        [124]
         1 string data = ""君は混乱している。レンジャーよ、我々を助けてくれ。""
        [125]
-        1 string data = " RETRIEVAL INCOMPLETE. DID YOU REQUIRE FURTHER INFORMATION? "
+        1 string data = " 検索未完了。更なる情報が必要ですか? "
        [126]
-        1 string data = " Not yet. We'll return soon. "
+        1 string data = " まだだ。すぐに戻る。 "
        [127]
         1 string data = ""ナンシー?""
        [128]
         1 string data = ""転送プロセスはギッパーが選んだ人間の器の精神を上書きするだろう。その人物は消去され、レーガンに置き換えられる。もし貴殿らがこれを手伝えば、貴殿らは殺人の共犯者となる。""
        [129]
-        1 string data = " We, uh, sold Reagan. "
+        1 string data = " その、レーガンを売ってしまった。 "
        [130]
-        1 string data = " YOU HAVE FAILED IN A MANNER THAT ONLY 0.2% OF US ANTICIPATED. DEBATE RAGES AS TO WHETHER WE SHOULD BE DISAPPOINTED, IMPRESSED, BOTH, OR NEITHER. "
+        1 string data = " 貴殿らは我々の0.2%のみが予期した方法で失敗した。我々は失望すべきか、感心すべきか、両方か、どちらでもないか、議論が続いている。 "
        [131]
-        1 string data = " RELATED: THE GIPPER THREAT HAS BEEN REDUCED. "
+        1 string data = " 関連事項: ギッパーの脅威は減少した。 "
        [132]
-        1 string data = " CHANGING THE SUBJECT. "
+        1 string data = " 話題を変える。 "
        [133]
         1 string data = ""ターゲット捕捉。""
        [134]
@@ -211539,7 +211539,7 @@
        [268]
         1 string data = ""できる。""
        [269]
-        1 string data = ""So if we bring you the Reagan intelligence, "
+        1 string data = ""それで、レーガンの知性体を持ってくれば、 "
        [270]
         1 string data = "[Reward: Party Pal robot] "我々は言うまでもなく、伝説の<i>パーティパル</i>のことを話している。彼は貴殿らと共に旅をし、貴殿らの恐怖を和らげ、傷を癒すだろう。""
        [271]
@@ -215361,7 +215361,7 @@
       1 Array Array (169 items)
        0 int size = 169
        [0]
-        1 string data = ""Step right up! Don't be shy! Welcome to the vexingly vast world of Vendomatic 2000. I've got everybing you need... Everybing? God damn it. I always get that line wrong. Can you take a few steps back and then do that over? Act surprised. Adds to the atmosphere."\n\n\nThe vending machine, which had come alive at your approach, seem to sag onto itself."
+        1 string data = ""さあ、寄っといで! 恥ずかしがらないで! ベンドマティック2000の広大で複雑な世界へようこそ。君が必要なものは何でも揃ってる... 何でも? ちくしょう、いつもこのセリフを間違えるんだ。数歩下がってからもう一度やってくれないか? 驚いた演技をして。雰囲気が出るからさ。"\n\n\n君が近づくと動き出した自販機が、がっくりとうなだれているようだ。"
        [1]
         1 string data = "ぼろぼろになった自動販売機は、時間に優しく扱われなかった。外側には安っぽいステッカーが貼られ、ガラスは汚れでびっしりと覆われている。\n\n\nよく見ると、ヤギの性器について議論している広範囲な落書きに気づく。"
        [2]
@@ -215573,7 +215573,7 @@
        [105]
         1 string data = " "Cartyは昔ながらの「徘徊カメラ」の症状を持ってるけど、ねえ、誰だってそうだろ?""
        [106]
-        1 string data = "  Well, except me, of course.:"
+        1 string data = "  まあ、俺は別だけどね、もちろん。:"
        [107]
         1 string data = ""商品を見せてくれ。""
        [108]
