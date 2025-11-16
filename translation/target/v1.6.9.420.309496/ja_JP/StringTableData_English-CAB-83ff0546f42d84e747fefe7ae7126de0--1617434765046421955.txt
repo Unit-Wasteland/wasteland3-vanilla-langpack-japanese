@@ -347329,9 +347329,9 @@
        [4]
         1 string data = "For a moment, you stand in the Valhalla complex again, in those bloodstained halls, and you sense a different panther beside you - one you've never met.\n\n\nWincing, you return to the dark of the cave, and hear claws on the stone above.  "
        [5]
-        1 string data = ""<i>No. Get out. Get </i>out<i></i>."\n\n\n"
+        1 string data = ""<i>嫌だ。出て行って。</i>出て行って<i></i>。"\n\n\n"
        [6]
-        1 string data = ""<i>I'm lost. I'm sick. I want my mother."\r\n\r\n "
+        1 string data = ""<i>私は迷子。気分が悪い。母さんに会いたい。"\r\n\r\n "
        [7]
         1 string data = " (TEMP) \r\n-It's obvious that she has a cautious disposition, and she refuses to show herself."
        [8]
@@ -347343,9 +347343,9 @@
        [11]
         1 string data = " Follow-up or Return visit with Serum. (psychic communication only)"
        [12]
-        1 string data = ""<i>I am here, Freyja. Follow my voice. Follow it home.</i>"\n\n\nHer voice is calm - deliberately, relentlessly calm as she turns to you, focusing. "
+        1 string data = ""<i>ここにいるわ、フレイヤ。私の声をたどって。家に帰っておいで。</i>"\n\n\n彼女の声は穏やかだ——意図的に、執拗なまでに穏やかに、彼女はあなたに向き直り、集中する。"
        [13]
-        1 string data = ""<i>Mother? Are you there, mother? I'm sick. I'm having a bad dream.</i>"\n\n\nYou sense rather than see a hulking figure prowling about the upper reaches of the cave. "
+        1 string data = ""<i>母さん? そこにいるの、母さん? 気分が悪い。悪い夢を見てる。</i>"\n\n\nあなたは洞窟の上部を徘徊する巨大な姿を、見るというより感じ取る。"
        [14]
         1 string data = "::whimpers::"
        [15]
@@ -347363,11 +347363,11 @@
        [21]
         1 string data = "It feels as if the cave itself is moaning, that the voice is pouring through the walls. \r\n\r\nIt feels like you're drowning in it. \r\n\r\nThen, a mind invades yours, tumbling through your memories, raking and biting like a cornered cat."
        [22]
-        1 string data = ""<i>Medicine. Mother? I'm lost, mother. I'm lost.</i>"\n\n\nScratch. Scratch. "
+        1 string data = ""<i>薬。母さん? 迷子になった、母さん。迷子になった。</i>"\n\n\nガリガリ。ガリガリ。"
        [23]
         1 string data = ""あなたの母親はジョラ? 彼女はここにいないよ。""
        [24]
-        1 string data = ""<i>Help me, mother. I can't wake up.</i>"\n\n\nIt does not appear the panther has heard you.\n"
+        1 string data = ""<i>助けて、母さん。目が覚ませない。</i>"\n\n\nパンサーはあなたの声を聞いていないようだ。\n"
        [25]
         1 string data = "The cave goes still and silent. \r\n\r\nThen, Freyja leaps down from the darkness above. "
        [26]
@@ -347377,9 +347377,9 @@
        [28]
         1 string data = "The mind focuses on you with aching effort. Your temples throb."
        [29]
-        1 string data = ""<i>Freyja. Come down, daughter.</i>"\n\n\nHer words are calm and controlled, but her claws score the stone floor. When Freyja responds, her thoughts are a whisper, as if she's withdrawing into the unseen roof of the cave. "
+        1 string data = ""<i>フレイヤ。降りておいで、娘よ。</i>"\n\n\n彼女の言葉は穏やかで抑制されているが、その爪は石の床に刻み目を残す。フレイヤが応答すると、その思考はささやき声のようで、まるで洞窟の見えない天井へと退いているかのようだ。"
        [30]
-        1 string data = ""<i>All the thoughts. All the thoughts are shouting. I can't keep them out, mother. I can't sleep.</i>"\n\n\nShe falls silent, and Jola turns to you. "
+        1 string data = ""<i>全ての思考が。全ての思考が叫んでる。締め出せない、母さん。眠れない。</i>"\n\n\n彼女は黙り込み、ジョラはあなたに向き直る。"
        [31]
         1 string data = ""<i>扉を開けると約束したな。もう駆け引きも遅延も許さない、獲物よ。</i>今<i>すぐ行く。""
        [32]
@@ -347743,7 +347743,7 @@
        [20]
         1 string data = "Again, the robot studies the sky. "
        [21]
-        1 string data = ""Then this negotiation has concluded."\n\n\nThe robot returns to its work."
+        1 string data = ""ならば、この交渉は終了した。"\n\n\nロボットは作業に戻る。"
        [22]
         1 string data = " (TEMP TEXT) Welcome back. It's implied things are peaceful, for now. "
        [23]
@@ -347757,7 +347757,7 @@
        [27]
         1 string data = "Bargained and thus can continue conversation."
        [28]
-        1 string data = ""Function(Scavenger_Prime) was assembled in Detroit, Michigan and activated in Location(Cheyenne_Mountain)."\n\n\nThe robot lifts a cable, scans it, and puts it back down. "
+        1 string data = ""Function(Scavenger_Prime)はミシガン州デトロイトで組み立てられ、Location(Cheyenne_Mountain)で起動された。"\n\n\nロボットはケーブルを持ち上げ、スキャンし、元に戻す。"
        [29]
         1 string data = "The robot's head snaps up with the squeal of unoiled, unseen pistons. It watches you, pupils spinning and focusing on your hands, your throat, your weapons. \r\n\r\nThe host of silent robots around it turn slowly to watch you as well, as though their leader's suspicion makes a sound only they can hear. "
        [30]
