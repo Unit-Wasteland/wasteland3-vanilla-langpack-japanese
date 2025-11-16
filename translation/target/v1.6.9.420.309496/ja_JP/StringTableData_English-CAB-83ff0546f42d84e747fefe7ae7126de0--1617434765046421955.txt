@@ -181937,11 +181937,11 @@
        [24]
         1 string data = " Global Value Set"
        [25]
-        1 string data = " Open door"
+        1 string data = " ドアを開ける"
        [26]
-        1 string data = " Access granted"
+        1 string data = " アクセス許可"
        [27]
-        1 string data = " Leave."
+        1 string data = " 立ち去る。"
        [28]
         1 string data = "Script Node 30"
        [29]
@@ -182329,7 +182329,7 @@
        [0]
         1 string data = ""侵入者検出。ただちに立ち去れ。""
        [1]
-        1 string data = " We serve the Wesson Family."
+        1 string data = " 我々はウェッソン家に仕える。"
        [2]
         1 string data = "Script Node 3"
        [3]
@@ -183631,13 +183631,13 @@
       1 Array Array (11 items)
        0 int size = 11
        [0]
-        1 string data = " Accessing electrostatic dissipation systems..."
+        1 string data = " 静電気放電システムにアクセス中..."
        [1]
         1 string data = "Initiate Static Discharge"
        [2]
         1 string data = "Exit."
        [3]
-        1 string data = " Access unavailable. Systems are currently undergoing maintenance."
+        1 string data = " アクセス不可。システムは現在メンテナンス中です。"
        [4]
         1 string data = "Sector 02 - Initiate Static Discharge"
        [5]
@@ -183645,13 +183645,13 @@
        [6]
         1 string data = "Sector 04 - Initiate Static Discharge"
        [7]
-        1 string data = " Discharge commencing... Please evacuate all non-grounded electronic devices from the designated hazard zone."
+        1 string data = " 放電開始中...指定された危険区域から接地されていない電子機器をすべて退避させてください。"
        [8]
-        1 string data = " Discharge commencing... Please evacuate all electronic devices from the designated hazard zone."
+        1 string data = " 放電開始中...指定された危険区域から電子機器をすべて退避させてください。"
        [9]
-        1 string data = " Discharge commencing... Please evacuate all electronic devices from the designated hazard zone."
+        1 string data = " 放電開始中...指定された危険区域から電子機器をすべて退避させてください。"
        [10]
-        1 string data = " Discharge commencing... Please evacuate all electronic devices from the designated hazard zone."
+        1 string data = " 放電開始中...指定された危険区域から電子機器をすべて退避させてください。"
    [625]
     0 StringTable data
      1 string Filename = "a5101_antipatriarch_computer_stage2_power"
@@ -183697,21 +183697,21 @@
       1 Array Array (8 items)
        0 int size = 8
        [0]
-        1 string data = " Accessing auxillary power controls... Please select an option."
+        1 string data = " 補助電源制御にアクセス中...オプションを選択してください。"
        [1]
         1 string data = "Power Shutdown"
        [2]
         1 string data = "Exit."
        [3]
-        1 string data = " Warning. Security systems active. Powering down may result in containment breach.  Proceed anyway?\n\n\n"
+        1 string data = " 警告。セキュリティシステムが起動中。電源遮断により封じ込め違反が発生する可能性があります。続行しますか?\n\n\n"
        [4]
         1 string data = "Yes"
        [5]
         1 string data = "Abort"
        [6]
-        1 string data = " Shutdown complete."
+        1 string data = " シャットダウン完了。"
        [7]
-        1 string data = " Shutdown aborted."
+        1 string data = " シャットダウン中止。"
    [626]
     0 StringTable data
      1 string Filename = "a5101_antipatriarch_computer_stage2_security"
@@ -183741,13 +183741,13 @@
       1 Array Array (4 items)
        0 int size = 4
        [0]
-        1 string data = " Accessing Security Systems... Select an option."
+        1 string data = " セキュリティシステムにアクセス中...オプションを選択してください。"
        [1]
         1 string data = "Initiate Shutdown Protocol"
        [2]
         1 string data = "Exit"
        [3]
-        1 string data = " Secuirty systems disabled."
+        1 string data = " セキュリティシステムを無効化しました。"
    [627]
     0 StringTable data
      1 string Filename = "a5101_antipatriarch_computer_stage2_turrets"
