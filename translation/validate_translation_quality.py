@@ -30,6 +30,7 @@ ACTION_MARKER_PATTERN = re.compile(r'::[^:]+::')
 # Only exclude structural/programmatic terms and development messages
 DO_NOT_TRANSLATE = [
     r'Script Node',  # e.g., "Script Node 65" - structural identifier
+    r'Trigger Conv Node',  # e.g., "Trigger Conv Node 25" - conversation trigger identifier
     r'\[Switch to',  # e.g., "[Switch to 27.065 Megahertz]" - radio frequency marker
     r'\[Global:',    # Game variable marker
     r'\[Dropset:',   # Game variable marker
@@ -233,17 +234,26 @@ def validate_untranslated_english(line_num: int, line: str, spanish_data: Dict[i
     if 'string data' not in line:
         return issues
 
-    # Extract the string content - support both formats
-    # Format 1: string data = ""content""
+    # Extract the string content - support all three formats
+    # Format 1: string data = ""content""  (double-double quotes)
+    # Format 2: string data = "content""   (hybrid: single start, double end)
+    # Format 3: string data = "content"    (single quotes)
+
+    # Try Format 1 first (double-double quotes)
     match = re.search(r'string data = ""(.*)""', line)
     if match:
         content = match.group(1)
     else:
-        # Format 2: string data = "content"
-        match = re.search(r'string data = "([^"]*)"', line)
-        if not match:
-            return issues
-        content = match.group(1)
+        # Try Format 2 (hybrid format: ends with "")
+        match = re.search(r'string data = "(.*)""\s*$', line)
+        if match:
+            content = match.group(1)
+        else:
+            # Try Format 3 (single quotes)
+            match = re.search(r'string data = "([^"]*)"', line)
+            if not match:
+                return issues
+            content = match.group(1)
 
     # Skip empty strings
     if not content.strip():
@@ -265,14 +275,21 @@ def validate_untranslated_english(line_num: int, line: str, spanish_data: Dict[i
     content_without_vars = re.sub(r'\[Reward:[^\]]+\]', '', content_without_vars)
     content_without_vars = re.sub(r'\[Switch to[^\]]+\]', '', content_without_vars)
 
-    if not content_without_vars.strip():
+    # Remove ALL bracket markers (e.g., [Team Rumor], [Spread Rumors], [Attack], etc.)
+    # These are game engine markers that must remain in English
+    content_without_brackets = re.sub(r'\[[^\]]+\]', '', content_without_vars)
+
+    # Remove escape sequences (literal \n, \r, \t, etc.)
+    content_without_escapes = re.sub(r'\\[nrt]', '', content_without_brackets)
+
+    if not content_without_escapes.strip():
         return issues
 
     # Check if content contains Japanese
     has_japanese = contains_japanese(content)
 
     # Check if content contains ASCII letters (English)
-    has_english = contains_ascii_letters(content_without_vars)
+    has_english = contains_ascii_letters(content_without_escapes)
 
     # If content has Japanese, consider it translated (even if partially in English)
     if has_japanese:
@@ -389,17 +406,26 @@ def validate_glossary_compliance(line_num: int, line: str, glossary: Dict[str, s
     if 'string data' not in line:
         return issues
 
-    # Extract the string content - support both formats
-    # Format 1: string data = ""content""
+    # Extract the string content - support all three formats
+    # Format 1: string data = ""content""  (double-double quotes)
+    # Format 2: string data = "content""   (hybrid: single start, double end)
+    # Format 3: string data = "content"    (single quotes)
+
+    # Try Format 1 first (double-double quotes)
     match = re.search(r'string data = ""(.*)""', line)
     if match:
         content = match.group(1)
     else:
-        # Format 2: string data = "content"
-        match = re.search(r'string data = "([^"]*)"', line)
-        if not match:
-            return issues
-        content = match.group(1)
+        # Try Format 2 (hybrid format: ends with "")
+        match = re.search(r'string data = "(.*)""\s*$', line)
+        if match:
+            content = match.group(1)
+        else:
+            # Try Format 3 (single quotes)
+            match = re.search(r'string data = "([^"]*)"', line)
+            if not match:
+                return issues
+            content = match.group(1)
 
     # Check for known incorrect translations
     for english_term, incorrect_japanese in INCORRECT_TRANSLATIONS.items():
