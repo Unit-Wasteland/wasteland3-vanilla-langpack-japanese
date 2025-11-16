@@ -27,15 +27,15 @@ ACTION_MARKER_PATTERN = re.compile(r'::[^:]+::')
 
 # Technical terms that should NOT be translated
 # NOTE: "Debug" in dialogue (e.g., "Debug!", "Debug mode") should be translated
-# Only exclude structural/programmatic terms like "Script Node"
+# Only exclude structural/programmatic terms and development messages
 DO_NOT_TRANSLATE = [
     r'Script Node',  # e.g., "Script Node 65" - structural identifier
     r'\[Switch to',  # e.g., "[Switch to 27.065 Megahertz]" - radio frequency marker
     r'\[Global:',    # Game variable marker
     r'\[Dropset:',   # Game variable marker
     r'\[Reward:',    # Game variable marker
-    # REMOVED: r'DEBUG' - can appear in character dialogue
-    # REMOVED: r'Test' - can appear in character dialogue
+    r'^DEBUG -',     # Development debug messages (e.g., "DEBUG - go to combat")
+    r'^Test$',       # Test messages (exact match "Test" only)
 ]
 
 # English word patterns (common words that indicate English text)
