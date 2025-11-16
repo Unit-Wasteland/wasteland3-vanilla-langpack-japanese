@@ -214,14 +214,50 @@ def load_spanish_reference(filepath: Optional[Path]) -> Dict[int, str]:
 
     return spanish_data
 
-def validate_untranslated_english(line_num: int, line: str, spanish_data: Dict[int, str], start_line: int = 666, end_line: int = 999999999) -> List[ValidationIssue]:
+def load_english_source(filepath: Path) -> Dict[int, str]:
+    """Load English source file and extract string data by line number."""
+    english_data = {}
+
+    if not filepath or not filepath.exists():
+        return english_data
+
+    with open(filepath, 'r', encoding='utf-8') as f:
+        for line_num, line in enumerate(f, start=1):
+            if 'string data' in line:
+                # Extract the string content - support all Unity StringTable formats
+                # Format 1: string data = ""content""  (double-double quotes at both ends)
+                # Format 2: string data = ""content"   (double-double start, single end - HYBRID)
+                # Format 3: string data = " content"   (single quotes at both ends)
+
+                # Try Format 1 first (double-double quotes at both ends)
+                match = re.search(r'string data = ""(.*)""', line)
+                if match:
+                    english_data[line_num] = match.group(1)
+                else:
+                    # Try Format 2 (hybrid: double-double start, single end)
+                    match = re.search(r'string data = ""(.*)"(?:[^"]|$)', line)
+                    if match:
+                        english_data[line_num] = match.group(1)
+                    else:
+                        # Try Format 3 (single quotes)
+                        match = re.search(r'string data = " ([^"]*)"', line)
+                        if match:
+                            english_data[line_num] = match.group(1)
+                        else:
+                            # Empty string or unmatched format
+                            english_data[line_num] = ""
+
+    return english_data
+
+def validate_untranslated_english(line_num: int, line: str, spanish_data: Dict[int, str], english_data: Dict[int, str] = {}, start_line: int = 666, end_line: int = 999999999) -> List[ValidationIssue]:
     """Validate that English text is translated (within the specified range).
 
-    UPDATED LOGIC (2025-11-16 - FIXED DUAL FORMAT SUPPORT):
+    UPDATED LOGIC (2025-11-16 - FIXED WITH ENGLISH SOURCE COMPARISON):
     - Supports both Unity StringTable formats: "" and "
     - Uses ASCII letter detection (more comprehensive than word pattern matching)
     - Detects all English text including short exclamations, onomatopoeia, etc.
-    - Spanish reference is used to confirm translatability
+    - **PRIMARY CHECK: English source == Japanese target → untranslated**
+    - Spanish reference is used as secondary confirmation for translatability
     - If Spanish is translated (differs from English), Japanese MUST also be translated
     """
     issues = []
@@ -235,22 +271,23 @@ def validate_untranslated_english(line_num: int, line: str, spanish_data: Dict[i
         return issues
 
     # Extract the string content - support all three formats
-    # Format 1: string data = ""content""  (double-double quotes)
-    # Format 2: string data = "content""   (hybrid: single start, double end)
-    # Format 3: string data = "content"    (single quotes)
+    # Format 1: string data = ""content""  (double-double quotes at both ends)
+    # Format 2: string data = ""content"   (hybrid: double-double start, single end)
+    # Format 3: string data = "content"    (single quotes at both ends)
 
-    # Try Format 1 first (double-double quotes)
+    # Try Format 1 first (double-double quotes at both ends)
     match = re.search(r'string data = ""(.*)""', line)
     if match:
         content = match.group(1)
     else:
-        # Try Format 2 (hybrid format: ends with "")
-        match = re.search(r'string data = "(.*)""\s*$', line)
+        # Try Format 2 (hybrid: double-double start, single end)
+        # CRITICAL: This must be checked BEFORE Format 3 to avoid false empty matches
+        match = re.search(r'string data = ""(.*)"(?:[^"]|$)', line)
         if match:
             content = match.group(1)
         else:
             # Try Format 3 (single quotes)
-            match = re.search(r'string data = "([^"]*)"', line)
+            match = re.search(r'string data = " ([^"]*)"', line)
             if not match:
                 return issues
             content = match.group(1)
@@ -297,7 +334,20 @@ def validate_untranslated_english(line_num: int, line: str, spanish_data: Dict[i
 
     # If content has English letters but no Japanese, it might be untranslated
     if has_english:
-        # Check Spanish reference to confirm translatability
+        # PRIMARY CHECK: Compare with English source
+        if line_num in english_data:
+            english_content = english_data[line_num]
+            # If Japanese target == English source, definitely untranslated
+            if content.strip() == english_content.strip():
+                issues.append(ValidationIssue(
+                    line_num=line_num,
+                    issue_type="UNTRANSLATED_ENGLISH",
+                    description="Japanese text is identical to English source (untranslated)",
+                    line_content=line.strip()
+                ))
+                return issues
+
+        # SECONDARY CHECK: Use Spanish reference to confirm translatability
         should_translate = False
         reason = ""
 
@@ -407,22 +457,23 @@ def validate_glossary_compliance(line_num: int, line: str, glossary: Dict[str, s
         return issues
 
     # Extract the string content - support all three formats
-    # Format 1: string data = ""content""  (double-double quotes)
-    # Format 2: string data = "content""   (hybrid: single start, double end)
-    # Format 3: string data = "content"    (single quotes)
+    # Format 1: string data = ""content""  (double-double quotes at both ends)
+    # Format 2: string data = ""content"   (hybrid: double-double start, single end)
+    # Format 3: string data = "content"    (single quotes at both ends)
 
-    # Try Format 1 first (double-double quotes)
+    # Try Format 1 first (double-double quotes at both ends)
     match = re.search(r'string data = ""(.*)""', line)
     if match:
         content = match.group(1)
     else:
-        # Try Format 2 (hybrid format: ends with "")
-        match = re.search(r'string data = "(.*)""\s*$', line)
+        # Try Format 2 (hybrid: double-double start, single end)
+        # CRITICAL: This must be checked BEFORE Format 3 to avoid false empty matches
+        match = re.search(r'string data = ""(.*)"(?:[^"]|$)', line)
         if match:
             content = match.group(1)
         else:
             # Try Format 3 (single quotes)
-            match = re.search(r'string data = "([^"]*)"', line)
+            match = re.search(r'string data = " ([^"]*)"', line)
             if not match:
                 return issues
             content = match.group(1)
@@ -494,6 +545,19 @@ def validate_file(filepath: Path, reference_filepath: Optional[Path] = None, glo
         else:
             print(f"Warning: Spanish reference file not found or empty: {reference_filepath}")
 
+    # Load English source data (derive path from target filepath)
+    # Target: .../ja_JP/StringTableData_English-CAB-*.txt
+    # Source: .../en_US/StringTableData_English-CAB-*.txt
+    english_data = {}
+    english_filepath = None
+    if '/ja_JP/' in str(filepath):
+        english_filepath = Path(str(filepath).replace('/ja_JP/', '/en_US/').replace('/target/', '/source/'))
+        if english_filepath.exists():
+            english_data = load_english_source(english_filepath)
+            print(f"Loaded English source: {len(english_data)} string data entries")
+        else:
+            print(f"Warning: English source file not found: {english_filepath}")
+
     with open(filepath, 'r', encoding='utf-8') as f:
         for line_num, line in enumerate(f, start=1):
             # Check action markers
@@ -501,7 +565,7 @@ def validate_file(filepath: Path, reference_filepath: Optional[Path] = None, glo
             issues['action_markers'].extend(marker_issues)
 
             # Check untranslated English
-            english_issues = validate_untranslated_english(line_num, line, spanish_data, start_line, end_line)
+            english_issues = validate_untranslated_english(line_num, line, spanish_data, english_data, start_line, end_line)
             issues['untranslated'].extend(english_issues)
 
             # Check bracket markers (must not be translated)
