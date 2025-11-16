@@ -157,6 +157,9 @@ while [ $SESSION_COUNT -lt $MAX_SESSIONS ]; do
     # Clean up any existing Claude processes
     cleanup_claude
 
+    # Clean up processed lines file from previous session
+    rm -f "$WORKING_DIR/automation/.processed_lines.txt"
+
     # Get next batch of line numbers (up to ENTRIES_PER_SESSION)
     BATCH_LINES=$(head -n $ENTRIES_PER_SESSION "$UNTRANSLATED_LIST" | tr '\n' ',' | sed 's/,$//')
     BATCH_COUNT=$(head -n $ENTRIES_PER_SESSION "$UNTRANSLATED_LIST" | wc -l)
@@ -175,6 +178,7 @@ while [ $SESSION_COUNT -lt $MAX_SESSIONS ]; do
 1. **未翻訳リストの読み込み:**
    - automation/.untranslated_lines.txt を読み込み
    - 最初の20行の行番号を取得
+   - **処理済みリストファイルを初期化:** automation/.processed_lines.txt を空ファイルとして作成
 
 2. **各エントリを順次処理**（一括処理禁止）:
    - 各行番号について、以下を実行:
@@ -197,9 +201,15 @@ while [ $SESSION_COUNT -lt $MAX_SESSIONS ]; do
         - do_not_translate リストに該当 → 英語のまま保持
         - nouns_glossary.json に登録 → 用語集の訳語で翻訳
         - 通常の会話・説明文 → 日本語に翻訳
-     d) Edit ツールで該当行のみを修正（周辺行は変更しない）
+     d) **翻訳実行（翻訳 or 英語のまま保持）:**
+        - 翻訳が必要: Edit ツールで該当行を修正
+        - 英語のまま保持: 何もしない（プログラムコード、技術用語等）
         - **クォート数は英語ソースと完全一致させる（必須）**
-     e) 修正後、以下の検証を必ず実行:
+     e) **処理完了記録（CRITICAL - 必須）:**
+        - **該当行番号を automation/.processed_lines.txt に追記**
+        - 翻訳した場合も、英語のまま保持した場合も、必ず追記
+        - 例: 行24710を処理 → `echo "24710" >> automation/.processed_lines.txt`
+     f) 修正後（翻訳した場合のみ）、以下の検証を実行:
         - 構造検証: python3 translation/validate_structure_v2.py ... --detailed
         - アクションマーカー検証: grep -o '::[^:]*[ぁ-ゖァ-ヾ一-龯][^:]*::' ...
         - エラーがあれば即座に修正、再検証
@@ -220,8 +230,13 @@ while [ $SESSION_COUNT -lt $MAX_SESSIONS ]; do
      * 例: "[攻撃] "行くぞ。"" → ❌ 絶対禁止（ゲームが動作不能になる）
    - Script Node は翻訳禁止
 
-5. **完了後:**
-   - 処理したエントリ数を報告
+5. **完了後（CRITICAL - 処理済みリスト出力必須）:**
+   - **処理した全ての行番号を automation/.processed_lines.txt に出力:**
+     * 翻訳したエントリの行番号
+     * 英語のまま保持したエントリの行番号（プログラムコード、技術用語等）
+     * **全て「処理済み」として記録**（1行に1個の行番号）
+     * 例: 20エントリ処理 → 20行の行番号を出力
+   - 処理したエントリ数を報告（翻訳数 + 保持数）
    - git add + git commit
    - セッション終了
 
@@ -258,13 +273,40 @@ EOF
 
     log "INFO" "Claude Code session completed"
 
-    # Regenerate untranslated list to see what was fixed
-    log "INFO" "Regenerating untranslated list..."
-    bash "$SCRIPT_DIR/generate-untranslated-list.sh" > /dev/null 2>&1 || true
+    # Remove processed entries from untranslated list
+    PROCESSED_FILE="$WORKING_DIR/automation/.processed_lines.txt"
+    if [ -f "$PROCESSED_FILE" ]; then
+        log "INFO" "Removing processed entries from untranslated list..."
 
-    NEW_UNTRANSLATED_COUNT=$(wc -l < "$UNTRANSLATED_LIST" 2>/dev/null || echo "0")
-    FIXED_THIS_SESSION=$((UNTRANSLATED_COUNT - NEW_UNTRANSLATED_COUNT))
+        # Count processed entries
+        PROCESSED_COUNT=$(wc -l < "$PROCESSED_FILE" 2>/dev/null || echo "0")
+
+        # Remove processed lines from untranslated list
+        if [ -f "$UNTRANSLATED_LIST" ] && [ $PROCESSED_COUNT -gt 0 ]; then
+            # Create temporary file with remaining untranslated lines
+            grep -v -F -f "$PROCESSED_FILE" "$UNTRANSLATED_LIST" > "$UNTRANSLATED_LIST.tmp" || true
+            mv "$UNTRANSLATED_LIST.tmp" "$UNTRANSLATED_LIST"
+
+            log "INFO" "Removed $PROCESSED_COUNT processed entries from list"
+        fi
+
+        # Clean up processed file for next session
+        rm -f "$PROCESSED_FILE"
+
+        FIXED_THIS_SESSION=$PROCESSED_COUNT
+    else
+        log "WARN" "No processed entries file found - using old detection method"
+
+        # Fallback: Regenerate untranslated list to see what was fixed
+        log "INFO" "Regenerating untranslated list..."
+        bash "$SCRIPT_DIR/generate-untranslated-list.sh" > /dev/null 2>&1 || true
+
+        NEW_UNTRANSLATED_COUNT=$(wc -l < "$UNTRANSLATED_LIST" 2>/dev/null || echo "0")
+        FIXED_THIS_SESSION=$((UNTRANSLATED_COUNT - NEW_UNTRANSLATED_COUNT))
+    fi
+
     TOTAL_FIXED=$((TOTAL_FIXED + FIXED_THIS_SESSION))
+    NEW_UNTRANSLATED_COUNT=$(wc -l < "$UNTRANSLATED_LIST" 2>/dev/null || echo "0")
 
     log "INFO" "Session #$SESSION_COUNT completed: $FIXED_THIS_SESSION entries fixed"
     log "INFO" "Remaining untranslated: $NEW_UNTRANSLATED_COUNT"
