@@ -58,9 +58,22 @@ get_claude_memory() {
     fi
 }
 
-# Kill any existing Claude Code processes
+# Kill any existing Claude Code processes (except protected PID)
 cleanup_claude() {
-    pkill -9 claude 2>/dev/null || true
+    # Get protected PID from environment variable (if set)
+    local protected_pid="${PROTECTED_CLAUDE_PID:-}"
+
+    if [ -n "$protected_pid" ]; then
+        # Kill all claude processes except the protected one
+        ps aux | grep "[c]laude" | awk '{print $2}' | while read pid; do
+            if [ "$pid" != "$protected_pid" ]; then
+                kill -9 "$pid" 2>/dev/null || true
+            fi
+        done
+    else
+        # No protection - kill all
+        pkill -9 claude 2>/dev/null || true
+    fi
     sleep 2
 }
 
