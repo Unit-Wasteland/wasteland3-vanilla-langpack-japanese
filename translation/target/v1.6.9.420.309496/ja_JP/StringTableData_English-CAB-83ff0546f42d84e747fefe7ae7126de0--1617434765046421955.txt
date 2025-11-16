@@ -336545,11 +336545,11 @@
        [32]
         1 string data = ""誰もが自分の道を切り開かなければならないんだろう。彼らを批判するのは親切じゃないな。""
        [33]
-        1 string data = ""For instance! Explore the higher mountains, and you might glimpse a clan that strolls about the peaks in mechanical masks and breathing tanks, as if they're at the bottom of the fabled Pacific! What a wonder the world is, eh friend?"
+        1 string data = ""例えばだ! 高い山を探索すれば、機械式マスクと呼吸タンクを身につけて山頂を歩き回る部族を垣間見ることができるかもしれない。まるで伝説の太平洋の底にいるかのようだ! 世界は素晴らしいと思わないか、友よ?""
        [34]
         1 string data = ""檻から救ってくれたらよかったんだが、捕虜たちとの戦闘で感覚が鈍って盲目状態だったんだろうな。""
        [35]
-        1 string data = ""Pardon. Let me first get a snack, then you can peruse the scant remains of my inventory at a <i>scandalous</i> discount."\n\n\nWinking, he digs a handful of trail mix from his pack and tips it into his mouth. "
+        1 string data = ""失礼。まず軽食を取らせてくれ、それから僅かに残った在庫を<i>お買い得</i>価格で見ていってくれ。"\n\n\nウインクしながら、彼はパックからトレイルミックスをひとつかみ取り出し、口に放り込んだ。"
        [36]
         1 string data = ""なぜやつらが俺を生かしておいたか知ってるか? 山の食人氏族に売れば高値がつくと思ったからだ。""
        [37]
@@ -336871,9 +336871,9 @@
        [3]
         1 string data = ""コミュニケーション。続行。""
        [4]
-        1 string data = ""Define relationship between Faction(Unknown) and Unit(Cochise)."\n"
+        1 string data = ""Faction(Unknown)とUnit(Cochise)の関係を定義せよ。"\n"
        [5]
-        1 string data = ""Faction(Roaches) have never attempted to discontinue Class(Robots) or Faction(Recovery Robots). Thus, possible allies?"\r\n\r\n A roach crawls over its chassis."
+        1 string data = ""Faction(Roaches)はClass(Robots)またはFaction(Recovery Robots)の機能停止を試みたことがない。よって、同盟者の可能性あり?"\r\n\r\n ゴキブリがシャーシの上を這っている。"
        [6]
         1 string data = "The robot's light blinks more quickly, then stops. It makes a faint buzzing noise, then resumes scraping the floor."
        [7]
@@ -336893,7 +336893,7 @@
        [14]
         1 string data = "Script Node 15"
        [15]
-        1 string data = ""Communication with Faction(Roaches) achieved."\n"
+        1 string data = ""Faction(Roaches)との通信成功。"\n"
        [16]
         1 string data = "Bank 17"
        [17]
@@ -336901,7 +336901,7 @@
        [18]
         1 string data = "The robot scrapes at the cement floor. A roach crawls out of its chassis before scuttling back inside."
        [19]
-        1 string data = ""DEBUG. ERROR.""
+        1 string data = ""デバッグ。エラー。""
        [20]
         1 string data = "Step away."
        [21]
@@ -336929,9 +336929,9 @@
        [32]
         1 string data = "Script Node 33"
        [33]
-        1 string data = ""Faction(Roaches) pursue ranked goal cycle:"\n"(Primary) <i>Move to warmth</i>"\n"(Secondary) <i>Move to darkness</i>"\n"(Tertiary) <i>Eat</i>"\n"(Quaternary) <i>Breed</i>"\n\n\nThe roaches retreat back into its chassis, leaving behind a thin film of filth."
+        1 string data = ""Faction(Roaches)は優先順位付けされた目標サイクルを追求:"\n"(Primary) <i>暖かさに移動</i>"\n"(Secondary) <i>暗闇に移動</i>"\n"(Tertiary) <i>摂食</i>"\n"(Quaternary) <i>繁殖</i>"\n\n\nゴキブリたちはシャーシの中に戻り、汚物の薄い膜を残していった。"
        [34]
-        1 string data = ""Unnacceptable risk that Faction(Unknown) allied with Unit(Cochise). Threat assessment amended to 'high.'"\n\n\n"Communication option has failed. Discontinuation option begins."\n\n\nThe light on the robot's torso turns red. "
+        1 string data = ""Faction(Unknown)がUnit(Cochise)と同盟している危険性は容認不可。脅威評価を'高'に修正。"\n\n\n"通信オプション失敗。機能停止オプション開始。"\n\n\nロボットの胴体のライトが赤く変わった。"
        [35]
         1 string data = "The robot clicks rapidly as roaches swarm out of every gap in its body, a flowing carpet of shining black shells."
        [36]
@@ -336975,7 +336975,7 @@
        [55]
         1 string data = ""Class(Human)の停止は起こりそうにないため、このユニットはFaction(Recovery Robots)の存続を継続するための代替手段としてコミュニケーションを試みる。""
        [56]
-        1 string data = ""Communication confirmed. Threat assessment lowered for Faction(Unknown). Other units have been informed."\n\n\nIts light blinks green, then blinks back to yellow.\n\n\n"
+        1 string data = ""通信確認。Faction(Unknown)の脅威評価を低下。他のユニットに通知済み。"\n\n\nライトが緑に点滅し、その後黄色に戻った。\n\n\n"
        [57]
         1 string data = "Script Node 58"
        [58]
@@ -337865,7 +337865,7 @@
        [11]
         1 string data = """ she makes reference to the leader of the raiding party who attacked the convoy (Erastus Dorsey, though she can only describe him and doesn't know his name). He pulled out all the survivors he could find from the convoy wreckage and gutted them in front of her.\n"
        [12]
-        1 string data = ""G-good. That's good. Now..."\n\n\nShe closes her eyes, grimacing, then fumbles in her knapsack."
+        1 string data = ""よ、良かった。それでいい。さて..."\n\n\n彼女は目を閉じ、顔をしかめながら、ナップザックの中を探った。"
        [13]
         1 string data = ""もうそんなに長くはないだろう。""
        [14]
