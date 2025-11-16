@@ -183789,19 +183789,19 @@
       1 Array Array (7 items)
        0 int size = 7
        [0]
-        1 string data = " Accessing Turret interface.... Please select an option."
+        1 string data = " タレットインターフェースにアクセス中.... オプションを選択してください。"
        [1]
         1 string data = "Disable Alarm Sensors"
        [2]
         1 string data = "Exit"
        [3]
-        1 string data = " Sensors deactivated."
+        1 string data = " センサー無効化完了。"
        [4]
         1 string data = "Emergency Turret Eradication"
        [5]
         1 string data = ""
        [6]
-        1 string data = " Turrets eradicated."
+        1 string data = " タレット撃破完了。"
    [628]
     0 StringTable data
      1 string Filename = "a5101_antipatriarch_computer_stage2_vault"
@@ -183847,15 +183847,15 @@
       1 Array Array (8 items)
        0 int size = 8
        [0]
-        1 string data = " Accessing Vault Controls"
+        1 string data = " Vault制御システムにアクセス中"
        [1]
         1 string data = "Retract vault cylinders"
        [2]
         1 string data = "Exit"
        [3]
-        1 string data = " Locks disabled."
+        1 string data = " ロック解除完了。"
        [4]
-        1 string data = " All personnel must enter the designated safety zone near this terminal before initiating cylinder retraction."
+        1 string data = " シリンダー収縮を開始する前に、全職員はこの端末付近の指定安全区域に入ってください。"
        [5]
         1 string data = ""
        [6]
@@ -184449,7 +184449,7 @@
       1 Array Array (1 items)
        0 int size = 1
        [0]
-        1 string data = " Heavy pistons drive meters below the floor, holding this door in place. There is no way to open it when it's locked down like this."
+        1 string data = " 床下数メートルまで駆動する重いピストンが、このドアを固定している。このようにロックダウンされている時は、開ける方法がない。"
    [632]
     0 StringTable data
      1 string Filename = "a5101_doorpatriarchssuite"
@@ -184531,15 +184531,15 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = " The Patriarch - and whatever failsafe plan he has enacted - waits behind this door."
+        1 string data = " パトリアーク、そして彼が発動したフェイルセーフ計画が、このドアの向こうで待っている。"
        [2]
-        1 string data = " The Patriarch - and whatever failsafe plan he has enacted - waits behind this door. You'll need your full team to confront him."
+        1 string data = " パトリアーク、そして彼が発動したフェイルセーフ計画が、このドアの向こうで待っている。彼と対峙するには、チーム全員が必要だ。"
        [3]
-        1 string data = " Open the door."
+        1 string data = " ドアを開ける。"
        [4]
-        1 string data = " Step away."
+        1 string data = " 離れる。"
        [5]
-        1 string data = " Motors hum as the door cranks open."
+        1 string data = " モーターがうなりを上げ、ドアが軋みながら開く。"
    [634]
     0 StringTable data
      1 string Filename = "a5101_elitemarshal"
