@@ -3073,13 +3073,13 @@
        [26]
         1 string data = ""了解、チーム・ノヴェンバー。状況を解決済みとして記録する。通信終了""
        [27]
-        1 string data = ""[放棄] 否定的だ、本部。これは百家族の紛争だ。我々は関わらない。通信終了。""
+        1 string data = ""[Abandon] 否定的だ、本部。これは百家族の紛争だ。我々は関わらない。通信終了。""
        [28]
         1 string data = ""
        [29]
         1 string data = ""
        [30]
-        1 string data = ""[放棄] 調査したが、労力に見合わない、本部。放っておく。""
+        1 string data = ""[Abandon] 調査したが、労力に見合わない、本部。放っておく。""
        [31]
         1 string data = ""ふむ...了解、チーム・ノヴェンバー。記録から削除する。通信終了""
        [32]
@@ -3473,7 +3473,7 @@
        [15]
         1 string data = ""いいだろう。お前の時が来る""
        [16]
-        1 string data = ""[攻撃] 賭けてみよう。行くぞ。""
+        1 string data = ""[Attack] 賭けてみよう。行くぞ。""
        [17]
         1 string data = ""警告したぞ。お前ら?""
        [18]
@@ -32259,23 +32259,23 @@
       1 Array Array (187 items)
        0 int size = 187
        [0]
-        1 string data = " Howdy."
+        1 string data = ""やあ。""
        [1]
         1 string data = " I am in Debug mode!"
        [2]
-        1 string data = " We haven't met before! Angela Deth sent me here to ask for a meeting. she has info about Liberty Buchanan."
+        1 string data = ""初めまして! アンジェラ・デスがこちらにお越しいただくよう伝言を託しました。リバティ・ブキャナンについての情報があるそうです。""
        [3]
         1 string data = "Script Node 23"
        [4]
-        1 string data = " Captain Deth has some information about Liberty Buchanan she'd like to give you, but she wants to present it in person."
+        1 string data = ""デス大佐はリバティ・ブキャナンについての情報をお持ちですが、直接お会いしてお伝えしたいとのことです。""
        [5]
-        1 string data = " She said I should be sure talk to your whole squad, didn't want to deal with any squabbling. Come back when you've got everybody."
+        1 string data = ""部隊全員に必ずお話ししなければならないとおっしゃっていました。内輪もめは避けたいと。全員揃ったらまた来てください。""
        [6]
-        1 string data = " She'd like you to meet her at the stacks in steeltown."
+        1 string data = ""スティールタウンのスタックでお会いしたいとのことです。""
        [7]
         1 string data = " SFX of twisting metal, shouting, then gunfire"
        [8]
-        1 string data = " Sir! We've got intruders at the gates! Looks like Scar Collector Raiders! We're coordinating he defense now, but they could use you out there!"
+        1 string data = ""長官! 門に侵入者です! スカー・コレクター・レイダーのようです! 防衛を調整していますが、そちらの助けが必要です!""
        [9]
         1 string data = " I conveyed Angie's message. Gonna hang out here for a while and give some reactive comments"
        [10]
@@ -45567,7 +45567,7 @@
       1 Array Array (151 items)
        0 int size = 151
        [0]
-        1 string data = " Pappas straightens up when you approach. "Sir?""
+        1 string data = ""あなたが近づくと、パッパスは姿勢を正す。"長官?""
        [1]
         1 string data = ""改めて、俺のために色々してくれてありがとうございます""
        [2]
@@ -46817,17 +46817,17 @@
       1 Array Array (174 items)
        0 int size = 174
        [0]
-        1 string data = " Sir?"
+        1 string data = ""長官?""
        [1]
         1 string data = " I AM IN DBEUG MODE"
        [2]
-        1 string data = " What can i do for you?"
+        1 string data = ""何かご用ですか?""
        [3]
-        1 string data = " Show me your inventory"
+        1 string data = ""インベントリを見せてくれ""
        [4]
-        1 string data = " You got it"
+        1 string data = ""了解しました""
        [5]
-        1 string data = " Farewell"
+        1 string data = ""さようなら""
        [6]
         1 string data = ""やあ、レンジャー。会えて嬉しいよ""
        [7]
@@ -46885,13 +46885,13 @@
        [33]
         1 string data = " I AM IN DBEUG MODE"
        [34]
-        1 string data = " What can i do for you?"
+        1 string data = ""何かご用ですか?""
        [35]
-        1 string data = " Show me your inventory"
+        1 string data = ""インベントリを見せてくれ""
        [36]
-        1 string data = " You got it"
+        1 string data = ""了解しました""
        [37]
-        1 string data = " Farewell"
+        1 string data = ""さようなら""
        [38]
         1 string data = "Script Node 41"
        [39]
@@ -47905,17 +47905,17 @@
       1 Array Array (182 items)
        0 int size = 182
        [0]
-        1 string data = " Sir?"
+        1 string data = ""長官?""
        [1]
         1 string data = " I AM IN DBEUG MODE"
        [2]
-        1 string data = " What can i do for you?"
+        1 string data = ""何かご用ですか?""
        [3]
-        1 string data = " Show me your inventory"
+        1 string data = ""インベントリを見せてくれ""
        [4]
-        1 string data = " You got it"
+        1 string data = ""了解しました""
        [5]
-        1 string data = " Farewell"
+        1 string data = ""さようなら""
        [6]
         1 string data = "Script Node 8"
        [7]
@@ -55651,13 +55651,13 @@
        [374]
         1 string data = "Script Node 410"
        [375]
-        1 string data = "[チームの噂] "ああ! そこにいたか。君の仲間が教えてくれた、君たちの誰かが別の誰かに密かに想いを寄せていて、その秘密の崇拝者が書いたラブポエムを読んでほしいってね。さあ、始めよう。エヘン。""
+        1 string data = "[Team Rumor] "ああ! そこにいたか。君の仲間が教えてくれた、君たちの誰かが別の誰かに密かに想いを寄せていて、その秘密の崇拝者が書いたラブポエムを読んでほしいってね。さあ、始めよう。エヘン。""
        [376]
-        1 string data = "[チームの噂] "君の秘密の崇拝者から別の詩を受け取った。読み上げよう。""
+        1 string data = "[Team Rumor] "君の秘密の崇拝者から別の詩を受け取った。読み上げよう。""
        [377]
-        1 string data = "[チームの噂] "秘密の崇拝者からの別の詩の準備はいいかい? これは...素敵だ。""
+        1 string data = "[Team Rumor] "秘密の崇拝者からの別の詩の準備はいいかい? これは...素敵だ。""
        [378]
-        1 string data = "[噂を広める] "我々の乗組員の一人が、別の乗組員にラブポエムを書いたんだが、恥ずかしくて声に出して読めないそうだ。君は素敵な話し声をしている。読んでくれないか?""
+        1 string data = "[Spread Rumors] "我々の乗組員の一人が、別の乗組員にラブポエムを書いたんだが、恥ずかしくて声に出して読めないそうだ。君は素敵な話し声をしている。読んでくれないか?""
        [379]
         1 string data = ""私が...何と、光栄だ。次に会ったときに朗読しよう。真実の愛の道を滑らかにするのはいつでも喜んで。""
        [380]
@@ -127267,7 +127267,7 @@
        [57]
         1 string data = ""::static::""
        [58]
-        1 string data = " This display seems to be inactive."
+        1 string data = ""この展示は非アクティブのようだ。""
        [59]
         1 string data = "[Pet the eagle.] "おいおい、ハゲワシ。物語を聞かせてくれよ。""
        [60]
@@ -156081,7 +156081,7 @@
        [79]
         1 string data = ""どうしてコロラドに引っ越したんだ?""
        [80]
-        1 string data = "[嘘をつく] "ああ、ヴァーガスはまだボスだ。よろしくと伝えておくよ""
+        1 string data = "[Lie] "ああ、ヴァーガスはまだボスだ。よろしくと伝えておくよ""
        [81]
         1 string data = ""残念ながらヴァーガスは死んだが、彼の犠牲がアリゾナ全体を救った""
        [82]
@@ -170759,7 +170759,7 @@
        [111]
         1 string data = ""これだ。これだ。これが私が必要とする全てだ。メーガン、やったぞ。世界を変えるために必要なもの全てが揃った。""
        [112]
-        1 string data = "[NRC技術仕様書を渡す] "どうぞ。""
+        1 string data = "[Give him the NRC Tech Specs] "どうぞ。""
        [113]
         1 string data = ""全てが台無しだ。我々の希望も、コロラドスプリングスがギッパーズから解放される夢も。全て消えた。" セオドリックの声が最後の言葉で途切れ、苦悩のうめき声に崩れる。"
        [114]
@@ -170787,7 +170787,7 @@
        [125]
         1 string data = ""私...すぐにあなたたちの本部で会うことになりそうね。いずれ役に立てれば嬉しいわ？""
        [126]
-        1 string data = "[NRC技術仕様書を渡す] "原子力発電に関するこの技術仕様書を見つけた。""
+        1 string data = "[Give him the NRC Tech Specs] "原子力発電に関するこの技術仕様書を見つけた。""
        [127]
         1 string data = ""計画書はある。でももう少し長く持っている必要がある。""
        [128]
@@ -180165,7 +180165,7 @@
        [16]
         1 string data = ""私は取引を守ったわ。あなたたちも守りなさい。""
        [17]
-        1 string data = "[養子縁組記録を見せる] "これ、見覚えあるかしら?""
+        1 string data = "[Hold up adoption record] "これ、見覚えあるかしら?""
        [18]
         1 string data = ""
        [19]
@@ -190851,7 +190851,7 @@
        [89]
         1 string data = ""選択肢はありませんでした。彼は降伏を拒否しました。""
        [90]
-        1 string data = "[嘘をつく] "私たちが着いた時には既に死んでいました。""
+        1 string data = "[Lie] "私たちが着いた時には既に死んでいました。""
        [91]
         1 string data = ""その場の全員の皮を剥いでその皮を着て踊り回ったとしても気にしない! お前たちの仕事は彼を連れ帰ることだった!""
        [92]
@@ -190905,7 +190905,7 @@
        [116]
         1 string data = ""流れ弾に当たりました。""
        [117]
-        1 string data = "[嘘をつく] "彼が私たちを攻撃しました。""
+        1 string data = "[Lie] "彼が私たちを攻撃しました。""
        [118]
         1 string data = ""何で? 鉛筆か? あの少年は命がかかっていても銃を撃てなかった! たとえ撃てたとしても、私は'<i>できれば</i>生きて連れ帰れ'とも、'彼がお前たちを攻撃<i>しなければ</i>生きて連れ帰れ'とも言っていない。'生きて連れ帰れ'と言った。以上だ。全く。""
        [119]
@@ -198455,7 +198455,7 @@
        [10]
         1 string data = ""サイバネティック転送モジュールを入手（方法は指定しない）""
        [11]
-        1 string data = ""[攻撃] ギッパーズを攻撃し、敵対状態にする。""
+        1 string data = ""[Attack] ギッパーズを攻撃し、敵対状態にする。""
        [12]
         1 string data = ""選択をする。選択によって他の選択肢が開いたり閉じたりする。""
        [13]
@@ -198477,7 +198477,7 @@
        [21]
         1 string data = ""サイバネティック転送モジュールを入手（方法は指定しない）""
        [22]
-        1 string data = ""[攻撃] ギッパーズを攻撃する。何人殺すか、全員殺すかを選択できる。""
+        1 string data = ""[Attack] ギッパーズを攻撃する。何人殺すか、全員殺すかを選択できる。""
        [23]
         1 string data = ""進行オプション。""
        [24]
@@ -211467,11 +211467,11 @@
        [232]
         1 string data = ""我々はレーガンをピーターソン空軍基地から安全に取り出し我々に返還する方法を検討するだろう。""
        [233]
-        1 string data = "[嘘] "ギッパーは君たちの計画を知っていた。彼らは機械を設定して、もし彼がここに転送されたらレーガンを消去するようにしていた。これが彼を救える唯一の方法だった。""
+        1 string data = "[Lie] "ギッパーは君たちの計画を知っていた。彼らは機械を設定して、もし彼がここに転送されたらレーガンを消去するようにしていた。これが彼を救える唯一の方法だった。""
        [234]
-        1 string data = "[攻撃] "君たちは話しすぎだ。シャットダウンする時間だ。""
+        1 string data = "[Attack] "君たちは話しすぎだ。シャットダウンする時間だ。""
        [235]
-        1 string data = "[攻撃] "今までに理解できなかったなら、永遠にわからないだろう。""
+        1 string data = "[Attack] "今までに理解できなかったなら、永遠にわからないだろう。""
        [236]
         1 string data = ""貴殿の説明はあり得ない、不条理に接している。""
        [237]
@@ -211541,7 +211541,7 @@
        [269]
         1 string data = ""So if we bring you the Reagan intelligence, "
        [270]
-        1 string data = "[報酬: パーティパルロボット] "我々は言うまでもなく、伝説の<i>パーティパル</i>のことを話している。彼は貴殿らと共に旅をし、貴殿らの恐怖を和らげ、傷を癒すだろう。""
+        1 string data = "[Reward: Party Pal robot] "我々は言うまでもなく、伝説の<i>パーティパル</i>のことを話している。彼は貴殿らと共に旅をし、貴殿らの恐怖を和らげ、傷を癒すだろう。""
        [271]
         1 string data = ""レーガンを消費することは君たちの健康に有害だろう。""
        [272]
@@ -211563,7 +211563,7 @@
        [280]
         1 string data = ""貴殿らは自らの死に参加している。""
        [281]
-        1 string data = "[攻撃] "ハ! 君たちは実際に機械を'感覚ある'と考えているのか。それは面白い。""
+        1 string data = "[Attack] "ハ! 君たちは実際に機械を'感覚ある'と考えているのか。それは面白い。""
        [282]
         1 string data = "瓦礫の中に小さな長方形の装置があることに気づく。"
        [283]
@@ -212941,11 +212941,11 @@
        [78]
         1 string data = ""次はどうする、レンジャー?""
        [79]
-        1 string data = ""タレットを修理する。" [破壊されたタレットを1基修理]"
+        1 string data = ""タレットを修理する。" [Repair 1 destroyed turret]"
        [80]
-        1 string data = ""負傷者を手当てする。" [ギッパーを治療]"
+        1 string data = ""負傷者を手当てする。" [Heal Gippers]"
        [81]
-        1 string data = ""地雷原を補充する。" [破片地雷を設置]"
+        1 string data = ""地雷原を補充する。" [Set up frag mines]"
        [82]
         1 string data = ""もう少し考える時間が必要だ。""
        [83]
@@ -212953,7 +212953,7 @@
        [84]
         1 string data = "Bank 92"
        [85]
-        1 string data = ""負傷者を手当てする。こっちが先頭を務める。" [ギッパーを治療、レンジャーを治療]"
+        1 string data = ""負傷者を手当てする。こっちが先頭を務める。" [Heal Gippers, Heal Rangers]"
        [86]
         1 string data = ""来るぞ!""
        [87]
@@ -212963,9 +212963,9 @@
        [89]
         1 string data = ""分かった、でも時間がないわよ、レンジャー。""
        [90]
-        1 string data = ""地雷原を補充する。ついて来て。" [火炎地雷、冷凍地雷、プラズマ地雷を設置]"
+        1 string data = ""地雷原を補充する。ついて来て。" [Set up fire mines, cryo mines, and plasma mines]"
        [91]
-        1 string data = ""全タレットを修理する。いくつかコツを教えてやる。" [破壊された全タレットを修理]"
+        1 string data = ""全タレットを修理する。いくつかコツを教えてやる。" [Repair all destroyed turrets]"
        [92]
         1 string data = "Bank 100"
        [93]
@@ -225455,7 +225455,7 @@
        [117]
         1 string data = ""マシーン・コミューンのロボットは機械だけじゃなく人間を治療するコツを知ってると確信してる。たまにギッパーのパトロールが迷って負傷して、数日後に数体のロボットに護衛されて元気いっぱいで現れる""
        [118]
-        1 string data = "[Reward: 無料治療, [Dropset: DRP_b1001_Wyman_Counterintelligence_Reward]] "もちろん、リライアンスは共産主義のスリーパープログラムが起動する前にロニーに爆破させるが、コミューンにいて彼らの診療所のデータを入手できれば、今後ずっと無料で治療してやる。医療品もいくつか投げ込む""
+        1 string data = "[Reward: Free healing, [Dropset: DRP_b1001_Wyman_Counterintelligence_Reward]] "もちろん、リライアンスは共産主義のスリーパープログラムが起動する前にロニーに爆破させるが、コミューンにいて彼らの診療所のデータを入手できれば、今後ずっと無料で治療してやる。医療品もいくつか投げ込む""
        [119]
         1 string data = ""了解。調べてみよう""
        [120]
@@ -230715,7 +230715,7 @@
        [75]
         1 string data = ""残念だが、V.I.C.I.は遺跡でクリーチャーに殺された。""
        [76]
-        1 string data = "[嘘] "残念だが、V.I.C.I.は遺跡でクリーチャーに殺された。""
+        1 string data = "[Lie] "残念だが、V.I.C.I.は遺跡でクリーチャーに殺された。""
        [77]
         1 string data = ""V.I.C.I.にレンジャー本部で仕事を申し出て、彼女は受け入れた。これから彼女は我々のために働く。""
        [78]
@@ -230779,7 +230779,7 @@
        [107]
         1 string data = ""残念だが、V.I.C.I.は遺跡で殺された。""
        [108]
-        1 string data = "[嘘] "残念だが、V.I.C.I.は遺跡でクリーチャーに殺された。""
+        1 string data = "[Lie] "残念だが、V.I.C.I.は遺跡でクリーチャーに殺された。""
        [109]
         1 string data = ""V.I.C.I.にレンジャー本部で仕事を申し出て、彼女は受け入れた。これから彼女は我々のために働く。""
        [110]
@@ -250481,11 +250481,11 @@
        [2]
         1 string data = ""パーティパルについて何が知りたい?""
        [3]
-        1 string data = "[パーティパルを勧誘] "レンジャーになる準備はできたか、ちびっこ?""
+        1 string data = "[Recruit Party Pal] "レンジャーになる準備はできたか、ちびっこ?""
        [4]
         1 string data = "Make Party Pal Recruitable, normally this will happen after getting Reagan. "" PLACEHOLDER TEXT"
        [5]
-        1 string data = "[パーティパルを解雇] "パーティパルのコンパニオンに満足していない。ついてこないようにしてもらえるか?""
+        1 string data = "[Dismiss Party Pal] "パーティパルのコンパニオンに満足していない。ついてこないようにしてもらえるか?""
        [6]
         1 string data = "TBD\n"
        [7]
@@ -270889,7 +270889,7 @@
        [11]
         1 string data = ""レンジャー大好き!""
        [12]
-        1 string data = "[解散] "ごめんな、相棒。もう行かなきゃならない。""
+        1 string data = "[Dismiss] "ごめんな、相棒。もう行かなきゃならない。""
        [13]
         1 string data = ""手伝ってる!手伝ってる!あなたを手伝ってる!僕ら友達!""
        [14]
@@ -296183,7 +296183,7 @@
        [47]
         1 string data = ""俺たちはデザート・レンジャーだ。""
        [48]
-        1 string data = "[嘘] "そのとおりだ。""
+        1 string data = "[Lie] "そのとおりだ。""
        [49]
         1 string data = ""何だって?" \r\n\r\n彼は瞬きする。"
        [50]
@@ -297325,9 +297325,9 @@
        [3]
         1 string data = "男の傷を調べる。"
        [4]
-        1 string data = "[安楽死させる] 男の喉に手を当て、呼吸が止まるまで抑える。"
+        1 string data = "[Euthanize] 男の喉に手を当て、呼吸が止まるまで抑える。"
        [5]
-        1 string data = "[殺す] 男のぐったりした体を近くのスイッチに投げて押さえつける。"
+        1 string data = "[Kill] 男のぐったりした体を近くのスイッチに投げて押さえつける。"
        [6]
         1 string data = "離れる。"
        [7]
@@ -309015,13 +309015,13 @@
        [7]
         1 string data = "この会話はアスペンゾーンの最後で行われる。レンジャー（あなた）はパトリアークの居室に到達したばかりで、彼の残忍でサイコパスな息子、ヴィック・ブキャナンが待ち構えているのを発見する。\r\n\r\nこの会話はここに到達した方法によって変化する。どのようにして到達したか？"
        [8]
-        1 string data = "[嘘をつく] "終わりだ、ヴィック。俺たちはチーム・ノベンバーに過ぎない。チーム・X線は狙撃銃を持って外にいる""
+        1 string data = "[Lie] "終わりだ、ヴィック。俺たちはチーム・ノベンバーに過ぎない。チーム・X線は狙撃銃を持って外にいる""
        [9]
         1 string data = "(外交) "数で負けてるぞ、ヴィック。もう終わりだ。俺たちにお前を殺させるな""
        [10]
         1 string data = ""ここで仕切ってるのはお前じゃない、このクソサイコ野郎""
        [11]
-        1 string data = "[攻撃] "レンジャー、奴を倒せ""
+        1 string data = "[Attack] "レンジャー、奴を倒せ""
        [12]
         1 string data = ""まあ、俺<i>は</i>家にいると伝えてくれ。俺はここが好きだ""
        [13]

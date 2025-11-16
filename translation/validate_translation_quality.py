@@ -93,6 +93,51 @@ def extract_action_markers(text: str) -> List[str]:
     """Extract all ::action:: markers from text."""
     return ACTION_MARKER_PATTERN.findall(text)
 
+def extract_bracket_markers(text: str) -> List[str]:
+    """Extract all [bracket] markers from text."""
+    return re.findall(r'\[[^\]]+\]', text)
+
+def validate_bracket_markers(line_num: int, line: str) -> List[ValidationIssue]:
+    """Validate that bracket markers [like this] are NOT translated to Japanese.
+
+    Bracket markers are used by the game engine for:
+    - Choice options: [Attack], [Abandon], [Lie], [Truth], etc.
+    - Technical markers: [Global:...], [Switch to...], etc.
+    - Action markers: [DEBUG], [TEMP], etc.
+
+    These must NEVER be translated, as the game engine needs to recognize them.
+    """
+    issues = []
+
+    if 'string data' not in line:
+        return issues
+
+    # Extract bracket markers
+    markers = extract_bracket_markers(line)
+
+    for marker in markers:
+        # Skip numeric markers like [0], [1], [100], etc.
+        # These are array indices and are never translated anyway
+        inner_content = marker[1:-1]  # Remove [ and ]
+        if inner_content.isdigit():
+            continue
+
+        # Skip certain allowed patterns that may contain numbers/symbols
+        # e.g., [Global: b4001_Money...] contains numbers but is safe
+        if any(pattern in marker for pattern in ['[Global:', '[Dropset:', '[Reward:', '[Switch to']):
+            continue
+
+        # Check if marker contains Japanese characters
+        if contains_japanese(marker):
+            issues.append(ValidationIssue(
+                line_num=line_num,
+                issue_type="BRACKET_MARKER_TRANSLATED",
+                description=f"Bracket marker translated to Japanese (MUST keep English): {marker}",
+                line_content=line.strip()
+            ))
+
+    return issues
+
 def validate_action_markers(line_num: int, line: str) -> List[ValidationIssue]:
     """Validate that action markers are in English, not translated to Japanese."""
     issues = []
@@ -433,8 +478,8 @@ def validate_file(filepath: Path, reference_filepath: Optional[Path] = None, glo
             english_issues = validate_untranslated_english(line_num, line, spanish_data, start_line, end_line)
             issues['untranslated'].extend(english_issues)
 
-            # Check bracket translation
-            bracket_issues = validate_bracket_translation(line_num, line)
+            # Check bracket markers (must not be translated)
+            bracket_issues = validate_bracket_markers(line_num, line)
             issues['bracket_translation'].extend(bracket_issues)
 
             # Check glossary compliance

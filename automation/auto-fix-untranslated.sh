@@ -198,7 +198,11 @@ while [ $SESSION_COUNT -lt $MAX_SESSIONS ]; do
 4. **構造保護（CRITICAL）:**
    - "" マーカー保護（Unity形式）
    - ::action:: マーカーは英語のまま保持
-   - [] 内の技術用語は翻訳禁止
+   - **[]ブラケットマーカーは絶対に翻訳禁止** - ゲームエンジンが認識する必須構造マーカー
+     * 選択肢マーカー: [Attack], [Abandon], [Lie], [Truth], [Kill], [Leave], etc.
+     * 技術マーカー: [Global:...], [Switch to...], [Dropset:...], [Reward:...], etc.
+     * 例: "[Attack] "行くぞ。"" → OK（[]内は英語のまま）
+     * 例: "[攻撃] "行くぞ。"" → ❌ 絶対禁止（ゲームが動作不能になる）
    - Script Node は翻訳禁止
 
 5. **完了後:**
