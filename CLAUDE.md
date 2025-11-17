@@ -235,33 +235,61 @@ The StringTable files use Unity's serialized text format with the following stru
 string data = ""
 ```
 
-**Text with content (using DOUBLE double-quotes):**
+**Text with content - TWO VALID FORMATS:**
+
+Unity StringTable supports two quote formats depending on content type:
+
+**Format 1: Simple text (2 quotes total - 1 at start, 1 at end):**
 ```
-string data = ""Japanese text here""
+string data = "Simple Japanese text here"
 ```
+
+**Format 2: Dialogue/embedded quotes (4 quotes total - 2 at start, 2 at end):**
+```
+string data = ""Japanese dialogue here""
+```
+
+**Format 3: Mixed narration with embedded dialogue (4 quotes total):**
+```
+string data = "Narration text. "embedded dialogue" more narration."
+```
+
+**CRITICAL RULE: Match English source quote count EXACTLY**
+- If English has 2 quotes → Japanese must have 2 quotes
+- If English has 4 quotes → Japanese must have 4 quotes
+- Count all `"` characters in the line and match the source file precisely
 
 **ABSOLUTELY FORBIDDEN - DO NOT USE:**
 - ❌ Quote escape sequences: `string data = "\"Japanese text\""`  (NO backslash escaping for quotes!)
-- ❌ Japanese brackets: `string data = "「Japanese text」"`
+- ❌ Japanese brackets as structure: `string data = "「Japanese text」"` (brackets OK inside text, NOT as quote replacement)
 - ❌ Full-width quotes: `string data = ""Japanese text""`
 - ❌ Single quotes: `string data = "'Japanese text'"`
+- ❌ Adding or removing quotes to change English source count
 
 **ALLOWED - Text control characters:**
 - ✅ Newline: `\n` (preserve as-is)
 - ✅ Carriage return: `\r` (preserve as-is)
 - ✅ Tab: `\t` (preserve as-is)
+- ✅ Japanese brackets inside text content: `"彼女は言った。"こんにちは。"と答えた。"` (4 quotes, brackets inside)
 - ✅ Other text formatting escape sequences within the text content
 
-**Why double double-quotes (`""`):**
-Unity's StringTable format requires text to be wrapped in TWO double-quote characters at start and end. This is NOT an escape sequence - it's the literal format requirement. Think of it as:
-- First `"` = string delimiter (Unity format)
-- Second `"` = text boundary marker (Unity format)
-- Your text goes here
-- Third `"` = text boundary marker (Unity format)
-- Fourth `"` = string delimiter (Unity format)
+**Understanding Unity StringTable quote formats:**
+
+Unity's StringTable format uses different quote counts for different content types:
+- **2-quote format**: Used for simple text without embedded dialogue
+  - Structure: `"text"`
+  - Example: `string data = "Simple narration or description"`
+
+- **4-quote format**: Used for dialogue or text with embedded quotes
+  - Structure: `""dialogue""` OR `"text "embedded" text"`
+  - Example 1: `string data = ""Character speech here""`
+  - Example 2: `string data = "He said. "Hello." She replied."`
 
 **Critical editing rule:**
-When editing `string data` lines, ONLY modify the text between the inner double-quotes. NEVER add backslashes, NEVER change the `""` markers to any other character.
+1. First, check the English source line and COUNT the `"` characters
+2. Translate the text content
+3. Ensure Japanese line has EXACTLY the same number of `"` characters as English
+4. NEVER add backslashes, NEVER change quote counts, NEVER use Japanese brackets `「」` as quote replacements
 
 ## Translation Workflow
 
@@ -325,19 +353,38 @@ wc -l translation/target/v1.6.9.420.309496/ja_JP/*.txt
 
    **Structure Protection - NEVER do these:**
    - ❌ **NEVER use quote escape sequences**: `\"` is FORBIDDEN (Unity format doesn't need quote escaping)
-   - ❌ **NEVER change `""` to Japanese brackets**: `「」` `『』` will break the file
+   - ❌ **NEVER use Japanese brackets as quote replacements**: `「」` `『』` as structural quotes will break the file
    - ❌ **NEVER use full-width quotes**: `""` `''` are not valid
-   - ❌ **NEVER translate structure markers**: Keep `""`, `[]`, `<>`, `::action::` exactly as-is
+   - ❌ **NEVER add or remove quotes**: Always match English source quote count exactly
+   - ❌ **NEVER translate structure markers**: Keep `[]`, `<>`, `::action::` exactly as-is
    - ✅ **DO preserve text control characters**: Keep `\n`, `\r`, `\t` within text content
+   - ✅ **DO use Japanese brackets inside text**: `"彼女は「こんにちは」と言った。"` is valid (brackets inside, not replacing quotes)
 
-   **Correct format (MANDATORY):**
+   **Quote format rules (MANDATORY):**
+
+   Unity StringTable uses TWO formats - always match the English source:
+
+   **Format 1: Simple text (2 quotes)**
    ```
-   string data = ""Japanese text here""
-                 ↑↑              ↑↑
+   string data = "Japanese text here"
+                 ↑                  ↑
+                 One " at start, one " at end (2 total)
+   ```
+
+   **Format 2: Dialogue/embedded quotes (4 quotes)**
+   ```
+   string data = ""Japanese dialogue here""
+                 ↑↑                      ↑↑
                  Two " at start, two " at end (4 total)
    ```
 
-   - **Preserve structure**: Only modify text within `string data = ""...""`
+   **Critical workflow:**
+   1. Check English source line
+   2. Count `"` characters in English (2 or 4)
+   3. Translate text content
+   4. Ensure Japanese has SAME number of `"` characters
+
+   - **Preserve structure**: Only modify text within `string data = "..."` or `string data = ""...""`
    - **Maintain formatting**: Keep special markers like:
      - Radio frequencies: `[Switch to 27.065 Megahertz]`
      - Script nodes: `Script Node 14`
