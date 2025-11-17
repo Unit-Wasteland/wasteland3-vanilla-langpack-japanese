@@ -355157,7 +355157,7 @@
        [11]
         1 string data = " Ready to assault the interior!"
        [12]
-        1 string data = " Go on in. Asger and Bjorn will acompany you. The rest of us will stay here until it is done."
+        1 string data = "中に進め。AsgerとBjornが同行する。残りの者はここで待機し、任務が完了するまで待つ。"
        [13]
         1 string data = ""戦いの準備はできているか？""
        [14]
@@ -355197,7 +355197,7 @@
        [31]
         1 string data = "::crazed howling::"
        [32]
-        1 string data = ""YOU SPEAK TRUTH."\n\n\n::boisterous laughter::"
+        1 string data = ""お前は真実を語っている。"\n\n\n::boisterous laughter::"
        [33]
         1 string data = ""奴らは燃やされるのがふさわしい！""
        [34]
@@ -355225,7 +355225,7 @@
        [45]
         1 string data = ""中は今頃警戒態勢に入っているんじゃないか？""
        [46]
-        1 string data = " We'll talk soon."
+        1 string data = "またすぐに話そう。"
        [47]
         1 string data = ""この警備兵たちは勇敢に戦ったが、俺たちの力には及ばなかった。お前たちへの道は開かれた。俺たちは側面を守るが、ビョルンとアスガーは戦闘でお前たちに従う。""
        [48]
@@ -355233,7 +355233,7 @@
        [49]
         1 string data = ""そうだ！あるべき姿だ。奴らは歌に値する戦いを与えてくれるだろう。さて、トロエルスと俺はお前たちの側面を守らなければならないが、ビョルンとアスガーは戦闘でお前たちに従う。""
        [50]
-        1 string data = " We shall see if Odin favors you."
+        1 string data = "Odinがお前たちに味方するかどうか見守ろう。"
        [51]
         1 string data = ""ああ、兄弟たちよ、戦争の子犬たちが俺たちの戦いを助けに来てくれた！ようこそ、レンジャー。俺たちは、あの老いぼれた愚か者たちからビザールを奪う準備ができている。""
        [52]
@@ -355501,37 +355501,37 @@
       1 Array Array (50 items)
        0 int size = 50
        [0]
-        1 string data = " Mama Cotter send you you here to pay up? The way I see it, we're the ones doing all the work and taking all the risks, so you're going to have to give us double the old rate."
+        1 string data = "Mama Cotterが金を払いに来いと送り込んだのか？俺たちは全ての仕事をして、全てのリスクを負っている。だから古い料金の倍を払ってもらわないとな。"
        [1]
-        1 string data = " We'll pay the new rate. (Requires 50 currency)"
+        1 string data = "新しい料金を払おう。（50通貨必要）"
        [2]
-        1 string data = " Raising your rates after we already made a deal is bullshit. (Intimdate Checks)"
+        1 string data = "既に取引した後で料金を上げるなんて最低だ。（威嚇チェック）"
        [3]
         1 string data = """"
        [4]
-        1 string data = " No deal. We leaving."
+        1 string data = "取引はなしだ。撤収する。"
        [5]
-        1 string data = " So you think you can just stroll on in, and waste my time? Boys! Kill these assholes. (TODO Start Combat)"
+        1 string data = "のんびり歩いて来て、俺の時間を無駄にするつもりか？野郎ども！こいつらを殺せ。（TODO Start Combat）"
        [6]
-        1 string data = " We'll pay the new rate. (Ignore currency checks)"
+        1 string data = "新しい料金を払おう。（通貨チェック無視）"
        [7]
-        1 string data = " That's a good boy. Now run along and tell Mama Cotter we'll resume our end of the deal. "
+        1 string data = "いい子だ。さあ行ってMama Cotterに取引を再開すると伝えろ。"
        [8]
-        1 string data = " Raising your rates after we already made a deal is bullshit. (Ignore Intimdate Checks)"
+        1 string data = "既に取引した後で料金を上げるなんて最低だ。（威嚇チェック無視）"
        [9]
-        1 string data = " No need to get pissy about it. Tell Mama Cotter we'll keep our end of the deal, for now. "
+        1 string data = "怒る必要はない。Mama Cotterに今のところは取引を続けると伝えろ。"
        [10]
-        1 string data = " No need to get pissy about it. Tell Mama Cotter we'll keep our end of the deal, for now. "
+        1 string data = "怒る必要はない。Mama Cotterに今のところは取引を続けると伝えろ。"
        [11]
-        1 string data = " Let me tell YOU what's bullshit; You coming here and telling me how to run my business. We're done here. Boys! Kill these assholes."
+        1 string data = "何が最低か教えてやる。お前がここに来て俺の商売のやり方に口を出すことだ。もう終わりだ。野郎ども！こいつらを殺せ。"
        [12]
-        1 string data = " We don't have that much money."
+        1 string data = "そんなに金がない。"
        [13]
-        1 string data = " You came here without my money? Nothing pisses me off more than people wasting my damn time. Boys! Kill these assholes. (TODO Start Combat)"
+        1 string data = "俺の金を持たずに来たのか？俺の時間を無駄にする奴ほどムカつくものはない。野郎ども！こいつらを殺せ。（TODO Start Combat）"
        [14]
-        1 string data = " We don't have that much money.  (Ignore currency checks)"
+        1 string data = "そんなに金がない。（通貨チェック無視）"
        [15]
-        1 string data = " No need to get pissy about it. Tell Mama Cotter we'll keep our end of the deal, for now. "
+        1 string data = "怒る必要はない。Mama Cotterに今のところは取引を続けると伝えろ。"
        [16]
         1 string data = ""一体どこに行くつもりだ？この区域は俺たちの組織の一員以外立ち入り禁止だ。お前たちは見たこともない顔だ。"\n\n\n"もっと平和な地区に移動することを強く勧める。わかったか？""
        [17]
