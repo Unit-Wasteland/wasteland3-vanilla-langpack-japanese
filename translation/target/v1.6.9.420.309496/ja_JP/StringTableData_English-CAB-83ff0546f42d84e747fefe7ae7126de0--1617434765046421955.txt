@@ -355777,9 +355777,9 @@
        [15]
         1 string data = " Response"
        [16]
-        1 string data = ""Well, willykins. I suppose they must have run scared. It's all right, though. It happens."\n\n\nHe claps a hand onto your shoulder."
+        1 string data = ""まあ、坊や。きっと怖くて逃げたんだろう。いいんだ。よくあることさ。"\n\n\n彼はあなたの肩に手を置いた。"
        [17]
-        1 string data = ""You take care of yourself, you hear? And if you see that miscreant, let them know I don't bite." "
+        1 string data = ""気をつけろよ？それと、もしあいつに会ったら、俺は噛まないって伝えてくれ。" "
        [18]
         1 string data = ""何だ？何を言ってるんだ？老人をそんなに怖がらせるな...""
        [19]
@@ -356175,31 +356175,31 @@
       1 Array Array (88 items)
        0 int size = 88
        [0]
-        1 string data = " Leave me alone. Can't you see I'm eating my candies."
+        1 string data = " 放っておいてくれ。俺がキャンディを食べてるのが見えないのか。"
        [1]
-        1 string data = " Those aren't candies. You're eating people."
+        1 string data = " それはキャンディじゃない。人間を食べてる。"
        [2]
-        1 string data = " Goodbye."
+        1 string data = " さようなら。"
        [3]
-        1 string data = " Shut up! They're my candies and they're delicious. "
+        1 string data = " 黙れ！俺のキャンディだ、そして美味いんだ。 "
        [4]
-        1 string data = " You need to come with us now. (Requires Threaten Skill Check)"
+        1 string data = " 今すぐ俺たちと一緒に来い。(Requires Threaten Skill Check)"
        [5]
-        1 string data = " We brought you some candies. (TODO - Has Candy Item Check)"
+        1 string data = " キャンディを持ってきたぞ。(TODO - Has Candy Item Check)"
        [6]
-        1 string data = " Okay, but I'm taking some of my candies with me. (TODO - Follower API)"
+        1 string data = " わかった、でもキャンディをいくつか持っていく。(TODO - Follower API)"
        [7]
-        1 string data = " No! You're just trying to steal my candies."
+        1 string data = " ダメだ！俺のキャンディを盗もうとしてるだけだ。"
        [8]
-        1 string data = " Now that we're friends. Can you follow us for a second?"
+        1 string data = " 友達になったんだから、ちょっとついてきてくれる？"
        [9]
-        1 string data = " Yum! I love candies. You are my new friend. (TODO - Remove Candy Item)"
+        1 string data = " うまい！キャンディが大好きだ。お前は俺の新しい友達だ。(TODO - Remove Candy Item)"
        [10]
-        1 string data = " Okay, but I'm taking some of my candies with me.  (TODO - Follower API)"
+        1 string data = " わかった、でもキャンディをいくつか持っていく。  (TODO - Follower API)"
        [11]
-        1 string data = " You're insane. We're going to put you out of your misery."
+        1 string data = " 狂ってる。お前を楽にしてやる。"
        [12]
-        1 string data = " Leave me alone. I'm going to make you into candies too. (TODO - Set Faction Hates Party) (TODO - Initiates Combat)"
+        1 string data = " 放っておいてくれ。お前らもキャンディにしてやる。(TODO - Set Faction Hates Party) (TODO - Initiates Combat)"
        [13]
         1 string data = ""あ、またあなたたちだ！""
        [14]
