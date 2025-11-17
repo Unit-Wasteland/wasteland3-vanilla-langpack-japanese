@@ -373883,7 +373883,7 @@
        [53]
         1 string data = ""問題ないよ。何か気になることでも？" ::chew::"
        [54]
-        1 string data = ""You mean 'get them' get them? Hmm. I don't normally condone violence, but if it's what it takes..." ::progressively more intense chewing::"
+        1 string data = ""「奴らを始末する」って意味か？うーん。普段は暴力を容認しないんだが、必要なら仕方ない..." ::progressively more intense chewing::"
        [55]
         1 string data = ""正直に言うと、奴らは裏切るかもしれない。でも、お前たちならそれに対処できそうだな..." ::chew::\n\n\n"何が必要でもやってくれ、よそ者よ。ただ家族が無事であることを確認してくれ。""
        [56]
@@ -373895,15 +373895,15 @@
        [59]
         1 string data = ""親切だが、金の問題じゃないんだ。""
        [60]
-        1 string data = ""No offense, but you're a gamble in a hard-luck casino. Don't like working in the Bizarre, but it's constant money, and I need that right now."\n\n\n"See..." ::chew:: "
+        1 string data = ""悪く思わないでくれ。でも、あんたたちは運の悪いカジノでの賭けみたいなもんだ。ビザールで働くのは好きじゃないが、安定した金が入る。今はそれが必要なんだ。"\n\n\n"つまりな..." ::chew:: "
        [61]
         1 string data = " View Debug Options"
        [62]
         1 string data = " Select debug options."
        [63]
-        1 string data = " Would you like to come work for the Rangers?"
+        1 string data = " レンジャーズで働く気はないか？"
        [64]
-        1 string data = " I can help you if you help me first. My siblings are being held ransom at my homestead. Meet me there and help me save them."
+        1 string data = " 先に手伝ってくれれば協力できる。兄弟姉妹が俺の農場で人質に取られてるんだ。そこで会って助けてくれ。"
        [65]
         1 string data = ""さようなら。""
        [66]
@@ -373915,7 +373915,7 @@
        [69]
         1 string data = ""他の連中が美しい女性を夢見ている間、俺は物心ついた時から車に恋してきた。えーっと、そういう意味じゃないぞ、もちろん。""
        [70]
-        1 string data = ""Not particularly. It's boring work! I only get pulled in if something breaks that a Tender can't fix, so I spend most of my time just waiting here, like I'm doing now. But beggars can't be choosers." ::chew::"
+        1 string data = ""特にそうでもない。つまらない仕事さ！テンダーが直せない故障の時だけ呼ばれるから、ほとんどの時間は今みたいにここで待ってるだけだ。でも、弱い者に選択権はないからな。" ::chew::"
        [71]
         1 string data = ""俺たちの古い農場の場所を教えるよ。そこで会おう。ゲット一家を助けてくれたら、間違いなくあんたたちのために働くから。""
        [72]
@@ -373929,7 +373929,7 @@
        [76]
         1 string data = ""ああ...あんたたち、レンジャーのことは聞いてる。こいつらは信用できないが、あんたたちなら何とかして対処できると思う。" ::chew::\n\n\n"何が必要でもやってくれ。ただ家族が無事であることを確認してくれ。""
        [77]
-        1 string data = ""I'm not one to condone violence, but I've heard of what you folks have been doing all across Colorado. Whatever you think is needed." ::progressively more intense chewing::"
+        1 string data = ""暴力を容認するタイプじゃないが、コロラド中であんたたちがやってることは聞いてる。必要だと思うことをやってくれ。" ::progressively more intense chewing::"
        [78]
         1 string data = ""お前の家族のことをまた聞きたい。""
        [79]
@@ -373953,7 +373953,7 @@
        [88]
         1 string data = ""このカルテルの連中はかなりケチだ。家族のために金を集めるのがどんどん難しくなってる...""
        [89]
-        1 string data = ""Not particularly. It's boring work! The Cartel goons are breaking lots of things, but they pay pennies for the work on fixing it. But beggars can't be choosers." ::chew::"
+        1 string data = ""特にそうでもない。つまらない仕事さ！カルテルの連中がいろいろ壊しまくってるが、修理代はほんのわずかしか払わない。でも、弱い者に選択権はないからな。" ::chew::"
        [90]
         1 string data = "Script Node 97"
        [91]
@@ -374087,13 +374087,13 @@
       1 Array Array (9 items)
        0 int size = 9
        [0]
-        1 string data = " Damn it. I went into the Warrens to take a piss and a Hot Hog snuck past me."
+        1 string data = " くそっ。ウォレンズに小便しに行った間にホットホッグが抜けやがった。"
        [1]
-        1 string data = " Do not be alarmed. The Bizarre is secure."
+        1 string data = " 心配するな。ビザールは安全だ。"
        [2]
-        1 string data = " Carry on."
+        1 string data = " 続けてくれ。"
        [3]
-        1 string data = " Flab is gonna chew me out for this."
+        1 string data = " このことでフラブに怒られるな。"
        [4]
         1 string data = "You have nothing to worry about. The Bizarre is secure."
        [5]
@@ -374103,7 +374103,7 @@
        [7]
         1 string data = ""クソっ! ウォレンズのゲートを一秒開けただけだったのに、あのクソブタが俺の横をすり抜けやがった。""
        [8]
-        1 string data = " Flab is gonna chew me out for this."
+        1 string data = " このことでフラブに怒られるな。"
    [1262]
     0 StringTable data
      1 string Filename = "o2001_sanctifiedpiscitelli"
@@ -374543,31 +374543,31 @@
        [0]
         1 string data = ""また会ったな、ストレンジャー。""
        [1]
-        1 string data = " Can we see your wares?"
+        1 string data = " 商品を見せてもらえるか？"
        [2]
-        1 string data = " Tell us about your blindness and scars."
+        1 string data = " 失明と傷について教えてくれ。"
        [3]
-        1 string data = " The carrier on your workbench is missing a retaining pin. (Requires Weaponsmithing) (Once Ever)"
+        1 string data = " 作業台のキャリアにリテイニングピンが欠けてる。 (武器製作スキル必要) (一度のみ)"
        [4]
         1 string data = ""さようなら。""
        [5]
-        1 string data = " Have a look at my wares."
+        1 string data = " 商品を見てくれ。"
        [6]
-        1 string data = " They are a blessing. I've been Sanctified by explosions and shrapnel during my weapon experiments."
+        1 string data = " これは祝福だ。武器実験中の爆発と破片によって聖別されたんだ。"
        [7]
-        1 string data = " I appreciate the help. Please accept this reward. (TODO - choice of pistol, rifle, shotgun)."
+        1 string data = " 助けてくれて感謝する。この報酬を受け取ってくれ。 (TODO - ピストル、ライフル、ショットガンから選択)"
        [8]
-        1 string data = " Can we buy a Jigowatt Electrolytic Condenser? (Requires 29 Across Quest)"
+        1 string data = " ジゴワット電解コンデンサを買えるか？ (29 Acrossクエスト必要)"
        [9]
-        1 string data = " Those are very expenisve. One will cost you 100 currency."
+        1 string data = " それはかなり高価だ。一つ100通貨かかる。"
        [10]
-        1 string data = " We'll take one."
+        1 string data = " 一つもらおう。"
        [11]
-        1 string data = " No thanks."
+        1 string data = " いや、結構だ。"
        [12]
-        1 string data = " Here you go. (TODO - Give Jigowatt Electrolytic Condenser)"
+        1 string data = " はい、どうぞ。 (TODO - ジゴワット電解コンデンサを渡す)"
        [13]
-        1 string data = " You don't have enough currency."
+        1 string data = " 通貨が足りない。"
        [14]
         1 string data = " View Debug options."
        [15]
