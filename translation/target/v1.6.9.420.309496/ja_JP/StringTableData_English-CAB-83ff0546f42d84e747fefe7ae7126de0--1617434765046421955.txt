@@ -232313,11 +232313,11 @@
        [39]
         1 string data = " Console interface (FREEPLAY)"
        [40]
-        1 string data = " View High Scores."
+        1 string data = " ハイスコアを見る。"
        [41]
-        1 string data = " Admin commands."
+        1 string data = " 管理コマンド。"
        [42]
-        1 string data = " Start new game."
+        1 string data = " 新しいゲームを開始する。"
        [43]
         1 string data = " TODO for ALEX. Start a game outside of the mission conditionals."
        [44]
@@ -232325,7 +232325,7 @@
        [45]
         1 string data = " TODO for ALEX. Let players review the global variable scores, erase the records, and (with sufficient COMPUTER skill) unlock the "Glitch" enemies from the quest."
        [46]
-        1 string data = " Game settings."
+        1 string data = " ゲーム設定。"
        [47]
         1 string data = " TODO for ALEX. Basically a player-facing version of the Debug menu for Difficulty, Attitude, with the additional option to spawn enemy types (if we have this)."
        [48]
@@ -233813,19 +233813,19 @@
        [5]
         1 string data = " Debug conversation commands for Pico and Carty in the "Fun And Games" mission."
        [6]
-        1 string data = " Start a new round with mission conditionals."
+        1 string data = " ミッション条件で新しいラウンドを開始する。"
        [7]
         1 string data = "  DEBUG: Force the current round to end. "
        [8]
         1 string data = "  DEBUG: Glitch Round Options."
        [9]
-        1 string data = " Change enemy parameters for next round."
+        1 string data = " 次のラウンドの敵パラメータを変更する。"
        [10]
-        1 string data = " We still need to defeat that glitch. Could you please play again?"
+        1 string data = " まだあのグリッチを倒す必要がある。もう一度プレイしてくれる?"
        [11]
         1 string data = " You need to finish the current round first! You've started [Global: Mission_FunAndGames_b4001_RoundStarted] rounds, finished [Global: Mission_FunAndGames_b4001_RoundEnded].\n"
        [12]
-        1 string data = " Starting a new round."
+        1 string data = " 新しいラウンドを開始する。"
        [13]
         1 string data = " You stumbled upon a REAL LIFE bug! Go ask Alex to fix it.\nYou've started [Global: Mission_FunAndGames_b4001_RoundStarted] rounds, finished [Global: Mission_FunAndGames_b4001_RoundEnded]."
        [14]
@@ -233837,13 +233837,13 @@
        [17]
         1 string data = " Parameters are currently: \r\nDifficulty: [Global: Mission_FunAndGames_b4001_HologramDifficulty]\r\n\r\nAttitude: [Global: Mission_FunAndGames_b4001_HologramAttitude]"
        [18]
-        1 string data = " Easier."
+        1 string data = " より簡単に。"
        [19]
-        1 string data = " Harder."
+        1 string data = " より難しく。"
        [20]
-        1 string data = " Maintain current settings."
+        1 string data = " 現在の設定を維持する。"
        [21]
-        1 string data = " Choose a bark."
+        1 string data = " セリフを選ぶ。"
        [22]
         1 string data = ""
        [23]
@@ -233851,9 +233851,9 @@
        [24]
         1 string data = " Difficulty Increased.\r\nDifficulty: \r\n[Global: Mission_FunAndGames_b4001_HologramDifficulty]"
        [25]
-        1 string data = " Meaner."
+        1 string data = " より攻撃的に。"
        [26]
-        1 string data = " Nicer."
+        1 string data = " より穏やかに。"
        [27]
         1 string data = ""それは攻撃的なセリフのどれでもない!""
        [28]
@@ -233873,7 +233873,7 @@
        [35]
         1 string data = " Starting "Fun and Games""
        [36]
-        1 string data = " Review global variable values."
+        1 string data = " グローバル変数の値を確認する。"
        [37]
         1 string data = "  Current global values: \r\nRounds started: [Global: Mission_FunAndGames_b4001_RoundStarted]\r\n\r\nRounds finished: [Global: Mission_FunAndGames_b4001_RoundEnded]\r\n\r\nDifficulty: [Global: Mission_FunAndGames_b4001_HologramDifficulty]\r\n\r\nAttitude: [Global: Mission_FunAndGames_b4001_HologramAttitude]\r\n\r\nGlitchy Round status: [Global: Mission_FunAndGames_b4001_GlitchRound]\r\n\r\n"
        [38]
@@ -233885,13 +233885,13 @@
        [41]
         1 string data = " "
        [42]
-        1 string data = "  Start Glitch Round."
+        1 string data = "  グリッチラウンドを開始する。"
        [43]
-        1 string data = "  Lose Glitch Round."
+        1 string data = "  グリッチラウンドで敗北する。"
        [44]
-        1 string data = "  Win Glitch Round."
+        1 string data = "  グリッチラウンドで勝利する。"
        [45]
-        1 string data = " Reset Glitch Round."
+        1 string data = " グリッチラウンドをリセットする。"
        [46]
         1 string data = " ENUM. 0=Not started. 1=started. 2=lost. 3=won\n\n\nCurrent status: [Global: Mission_FunAndGames_b4001_GlitchRound]"
        [47]
