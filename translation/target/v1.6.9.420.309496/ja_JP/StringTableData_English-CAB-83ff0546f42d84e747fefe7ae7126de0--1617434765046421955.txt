@@ -360627,7 +360627,7 @@
        [2]
         1 string data = " いや、もう帰るところだ。"
        [3]
-        1 string data = " Go on in. Don't do anything stupid."
+        1 string data = " 入っていいぞ。馬鹿な真似はするなよ。"
    [1203]
     0 StringTable data
      1 string Filename = "o1001_troelsodinkirk"
@@ -360677,7 +360677,7 @@
       1 Array Array (9 items)
        0 int size = 9
        [0]
-        1 string data = " To Valhalla!"
+        1 string data = " ヴァルハラへ！"
        [1]
         1 string data = ""牛は死に、親族も死ぬ、だが我らの物語は時の終わりまで生き残るだろう。""
        [2]
@@ -360759,31 +360759,31 @@
       1 Array Array (13 items)
        0 int size = 13
        [0]
-        1 string data = " Greetings."
+        1 string data = " やあ。"
        [1]
-        1 string data = " Charley is planning to take over the Bizarre. The Cartel is in the Bizarre."
+        1 string data = " チャーリーがビザールを乗っ取ろうとしている。カルテルはビザール内にいる。"
        [2]
-        1 string data = " We cleared the Warrens of those clowns."
+        1 string data = " ウォレンズからピエロどもを一掃した。"
        [3]
-        1 string data = " Tell us about the Bizarre."
+        1 string data = " ビザールについて教えてくれ。"
        [4]
-        1 string data = " Goodbye."
+        1 string data = " さようなら。"
        [5]
-        1 string data = " There are reports of people going missing from the Bizarre. Weird laughter has been heard coming from The Warrens. Help us find get rid of whatever is down there and we'll give you a reward."
+        1 string data = " ビザールから人々が失踪しているという報告がある。ウォレンズから不気味な笑い声が聞こえてきている。あそこにいる何者かを始末してくれれば、報酬を出そう。"
        [6]
-        1 string data = " The citizens of the Bizarre appreciate your help. Take this reward for your troubles."
+        1 string data = " ビザールの住民たちは助力に感謝している。手間賃としてこの報酬を受け取ってくれ。"
        [7]
-        1 string data = " That son of a bitch! Kill them for me and you will be handsomely rewarded."
+        1 string data = " あのクソ野郎め！奴らを殺してくれれば、たっぷり報酬を出すぞ。"
        [8]
-        1 string data = " We killed the Cartel assassins in the Bizarre."
+        1 string data = " ビザールのカルテル暗殺者を殺した。"
        [9]
-        1 string data = " What I wouldn't give to see the look on Charley's face when he finds out. Well done. Take this reward."
+        1 string data = " チャーリーが知ったときの顔を見るためなら何でもする。よくやった。この報酬を受け取ってくれ。"
        [10]
-        1 string data = " Charley is planning to take over the Bizarre. The Cartel is in the Bizarre. (Ignore Quest Requirements)"
+        1 string data = " チャーリーがビザールを乗っ取ろうとしている。カルテルはビザール内にいる。(Ignore Quest Requirements)"
        [11]
-        1 string data = " We killed the Cartel assassins in the Bizarre. (Ignore Odinkirks Killed Requirement)"
+        1 string data = " ビザールのカルテル暗殺者を殺した。(Ignore Odinkirks Killed Requirement)"
        [12]
-        1 string data = " We cleared the Warrens of those clowns. (Ignore Payasos Defeated Requirement)"
+        1 string data = " ウォレンズからピエロどもを一掃した。(Ignore Payasos Defeated Requirement)"
    [1205]
     0 StringTable data
      1 string Filename = "o1001_randygett_obsolete"
@@ -360817,15 +360817,15 @@
       1 Array Array (5 items)
        0 int size = 5
        [0]
-        1 string data = " Greetings."
+        1 string data = " やあ。"
        [1]
-        1 string data = " Would you like to come work for the Rangers? (Requires We Need a Wrench Monkey Quest)"
+        1 string data = " レンジャーで働いてみないか？(Requires We Need a Wrench Monkey Quest)"
        [2]
-        1 string data = " Goodbye."
+        1 string data = " さようなら。"
        [3]
-        1 string data = " I can help you if you help me first. My siblings are being held ransom at my homestead. Meet me there and help me save them."
+        1 string data = " まず俺を助けてくれれば、協力できる。兄弟たちが俺の農場で人質に取られている。そこで会って助けてほしい。"
        [4]
-        1 string data = " Would you like to come work for the Rangers? (Ignore Quest Requirements)"
+        1 string data = " レンジャーで働いてみないか？(Ignore Quest Requirements)"
    [1206]
     0 StringTable data
      1 string Filename = "o2001_anandarabindranath"
