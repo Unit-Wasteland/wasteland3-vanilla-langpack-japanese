@@ -370083,9 +370083,9 @@
        [3]
         1 string data = " さようなら。"
        [4]
-        1 string data = " Ask about explosion"
+        1 string data = " 爆発について尋ねる"
        [5]
-        1 string data = " You should talk to Flab the Inhaler. He is past the fountain and up the stairs."
+        1 string data = " フラブ・ジ・インヘイラーと話すべきだ。彼は噴水を過ぎて階段を上ったところにいる。"
        [6]
         1 string data = ""またようこそ、尊敬すべきお客様。""
        [7]
@@ -370105,7 +370105,7 @@
        [14]
         1 string data = ""何でもあるぞ、本当に何でもな。ピシテッリは疲れた巡礼者に武器を売る。防護装備が必要ならグウィン・タルボットがあんたの女性だ。ドクター・コールドカッツは医療品を売るか、健康ニーズに対応できる。""
        [15]
-        1 string data = ""Ah yes, Pareidolia Jones would be the man you're looking for. He'll be hanging out at the Fountain Bar, right there."\n\n\nHe gestures behind him."
+        1 string data = ""ああ、そうだな、パレイドリア・ジョーンズが探している人物だ。彼はファウンテン・バーでたむろしているはずだ、まさにそこだ。"\n\n\n彼は背後を指差した。"
        [16]
         1 string data = ""楽しみの定義次第だな。エイディロンと話すのをお勧めする。彼女と仲間は本当にパーティーの仕方を知っている。だがもっと知的なタイプなら、奥のクォレックスの博物館をチェックしろ。""
        [17]
@@ -370555,7 +370555,7 @@
        [0]
         1 string data = ""あんたたちの助けが必要だ、レンジャー。フラブと話してくれ。""
        [1]
-        1 string data = " We appreciate the help with The Warrens."
+        1 string data = " ウォレンズでの助けに感謝する。"
        [2]
         1 string data = ""うわ、怪我してるな。えっと、去る前にドクター・コールドカッツのところで治療を受けてくれ。""
        [3]
@@ -370571,7 +370571,7 @@
        [8]
         1 string data = ""おい、奇妙なものが好きなら、クォレックスの博物館を見てみろ。""
        [9]
-        1 string data = " Take good care of your entrance pass. If you lose it, you'll have to get a new one."
+        1 string data = " 入場パスを大切にしろ。失くしたら、新しいのを手に入れなければならなくなる。"
        [10]
         1 string data = ""モンスター・アーミーのおもてなしを楽しんでくれ。なぜなら稼いだんだからな!""
        [11]
@@ -370823,7 +370823,7 @@
        [10]
         1 string data = ""それだけじゃ情報が足りない。""
        [11]
-        1 string data = ""You're not getting it. Last chance: yes or no?"
+        1 string data = ""分かってないな。最後のチャンスだ: イエスかノーか?"
        [12]
         1 string data = ""いいだろう。ピシテッリからジゴワット電解コンデンサを盗んでほしい。彼女はビザールの商人だ。顔に大きな傷があって、爆弾か何かのナンセンスを信じてる。"\n\n\n"とにかく、おそらく鍵付きの金庫にしまってるはずだ。彼女の金庫を探せ。""
        [13]
@@ -370855,7 +370855,7 @@
        [26]
         1 string data = ""遅すぎる。""
        [27]
-        1 string data = ""Don't fuck up."\n\n\n::CLICK::"
+        1 string data = ""失敗するなよ。"\n\n\n::CLICK::"
        [28]
         1 string data = "Script Node 43"
    [1242]
@@ -370879,9 +370879,9 @@
       1 Array Array (2 items)
        0 int size = 2
        [0]
-        1 string data = " We control the Bizarre now!"
+        1 string data = " 俺たちが今やビザールを支配してる!"
        [1]
-        1 string data = " Don't bother me."
+        1 string data = " 俺を邪魔するな。"
    [1243]
     0 StringTable data
      1 string Filename = "o2001_odinkirkleader"
