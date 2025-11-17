@@ -232237,7 +232237,7 @@
        [1]
         1 string data = "  Debug: Start Mission."
        [2]
-        1 string data = " Starting "Fun and Games""
+        1 string data = " "楽しいゲーム"を開始中"
        [3]
         1 string data = "  Debug: Review global variable values."
        [4]
@@ -232255,31 +232255,31 @@
        [10]
         1 string data = "  Debug: End current round with conditionals."
        [11]
-        1 string data = " Glitch Round!"
+        1 string data = " グリッチラウンド！"
        [12]
         1 string data = " Ending Round via debug.\n\n\n\n\nRounds started: [Global: Mission_FunAndGames_b4001_RoundStarted]\n\n\nRounds finished: [Global: Mission_FunAndGames_b4001_RoundEnded]\n\n\nGlitchy Round status: [Global: Mission_FunAndGames_b4001_GlitchRound]\n"
        [13]
-        1 string data = " Change enemy parameters for next round."
+        1 string data = " 次のラウンドの敵パラメーターを変更する。"
        [14]
         1 string data = " Parameters are currently: \r\nDifficulty: [Global: Mission_FunAndGames_b4001_HologramDifficulty]\r\n\r\nAttitude: [Global: Mission_FunAndGames_b4001_HologramAttitude]"
        [15]
-        1 string data = " Easier."
+        1 string data = " より簡単に。"
        [16]
         1 string data = " Difficulty Decreased.\r\nDifficulty: \r\n[Global: Mission_FunAndGames_b4001_HologramDifficulty]"
        [17]
-        1 string data = " Harder."
+        1 string data = " より難しく。"
        [18]
         1 string data = " Difficulty Increased.\r\nDifficulty: \r\n[Global: Mission_FunAndGames_b4001_HologramDifficulty]"
        [19]
-        1 string data = " Maintain current settings."
+        1 string data = " 現在の設定を維持する。"
        [20]
         1 string data = " No change.\r\nDifficulty: \r\n[Global: Mission_FunAndGames_b4001_HologramDifficulty]\r\n\r\nAttitude: [Global: Mission_FunAndGames_b4001_HologramAttitude]"
        [21]
-        1 string data = " Meaner."
+        1 string data = " より凶暴に。"
        [22]
         1 string data = " Meaner humans.\nAttitude: [Global: Mission_FunAndGames_b4001_HologramAttitude]"
        [23]
-        1 string data = " Nicer."
+        1 string data = " より友好的に。"
        [24]
         1 string data = " Nicer humans.\nAttitude: [Global: Mission_FunAndGames_b4001_HologramAttitude]"
        [25]
