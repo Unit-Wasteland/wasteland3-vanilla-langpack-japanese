@@ -371381,7 +371381,7 @@
        [2]
         1 string data = " We need to arrange transport for a group of Refugees in the smugglers camp. (TODO - Unwelcome Guests Quest)"
        [3]
-        1 string data = " I'll take care of it."
+        1 string data = " 私が対応しよう。"
        [4]
         1 string data = " We need to arrange transport for a group of Refugees in the smugglers camp. (TODO - Unwelcome Guests Quest) (Ignore Quest Requirements)"
        [5]
@@ -371391,7 +371391,7 @@
        [7]
         1 string data = " We need to arrange transport for a group of Refugees in the smugglers camp. (TODO - Unwelcome Guests Quest)"
        [8]
-        1 string data = " I'll take care of it."
+        1 string data = " 私が対応しよう。"
        [9]
         1 string data = "As you approach, this man's eyes flit over every member of your team, as if assessing whether or not you are a direct threat. He relaxes after a moment, and touches the brim of his hat with a slight nod."
        [10]
@@ -371427,7 +371427,7 @@
        [25]
         1 string data = ""パトリアークのおかげで、北のデンバーから南のスティールタウンまでの土地は旅するのにかなり安全だ。さらに遠くに行けばより豊かな機会が見つかるだろうが、リスクも増える。""
        [26]
-        1 string data = ""... could you... could you please take that away? I don't like ducks."\n\n\nWhile he attempts to appear stoic, his stiff posture and wide eyes betray his burgeoning panic."
+        1 string data = ""…あの…あれを片付けてもらえませんか？アヒルは苦手なんです。"\n\n\n彼は冷静を装おうとしているが、硬直した姿勢と見開いた目が、高まるパニックを裏切っている。"
        [27]
         1 string data = "[[Global: o2001_PareidoliaJones_Money_TransportFee] Dollars] "I see. Not my usual line of business, but I don't see why not. My normal rates would apply for a one way transport.""
        [28]
@@ -371435,9 +371435,9 @@
        [29]
         1 string data = ""アヒル？ここにアヒルなんて見えないぞ。""
        [30]
-        1 string data = ""Thank you."\n\n\nHe visibly slumps as you put the rubber duck away, before wiping the sweat off his brow."
+        1 string data = ""ありがとう。"\n\n\nゴム製のアヒルを片付けると、彼は目に見えて力が抜け、額の汗を拭う。"
        [31]
-        1 string data = ""I... what? It's worse than I thought. Please - I need a moment."\n\n\nHe closes his eyes and starts mumbling numbers. Eventually he opens his eyes again."
+        1 string data = ""私は…なんだって？思ったより酷い。頼む、少し時間をくれ。"\n\n\n彼は目を閉じて数字をつぶやき始める。やがて再び目を開ける。"
        [32]
         1 string data = "[[Global: o2001_PareidoliaJones_Money_TransportFee] Dollars] "Here's the money to transport the refugees. They're waiting near the parking garage.""
        [33]
@@ -371485,7 +371485,7 @@
        [54]
         1 string data = ""傷つけるつもりはない。モンスター・アーミーのためだけにここにいる。""
        [55]
-        1 string data = " I don't understand. The Monster Army told us to run into the Warrens and hide. They said we were under attack. Why would you attack The Bizarre?"
+        1 string data = " わかりません。モンスター・アーミーは、ウォーレンズに逃げ込んで隠れるように言いました。攻撃を受けていると言っていたんです。どうしてビザールを攻撃するんですか？"
        [56]
         1 string data = ""レッドハットは正しい！モンスター・アーミーは弱体化していた、終わっていたんだ。あなた方は今、新しい管理下にある。カルテルの管理だ。""
        [57]
@@ -371503,7 +371503,7 @@
        [63]
         1 string data = ""よく言った、レッドハット。見せしめにする時間だ。カルテルに逆らって生き延びる者はいない。""
        [64]
-        1 string data = " Oh really? Well then. Boys! Kill these assholes!"
+        1 string data = " ああ、そうか？それなら。野郎ども！このクソ野郎どもを殺せ！"
        [65]
         1 string data = ""
        [66]
@@ -371557,11 +371557,11 @@
        [90]
         1 string data = ""ああ！えーと、戦闘ではあまり役に立たなかった。マッシャーの訓練をあまり受けていないからな。だから今手伝える。レンジャー本部との連絡役になれる！""
        [91]
-        1 string data = ""Howdy, ma'am."\n\n\nHe nods at Lucia."
+        1 string data = ""やあ、お嬢さん。"\n\n\n彼はルシアにうなずく。"
        [92]
         1 string data = ""やあ。""
        [93]
-        1 string data = ""Always good to see a Wesson."\n\n\nHe turns to you, nodding again."
+        1 string data = ""Wessonに会えるのはいつも嬉しいね。"\n\n\n彼はあなたに向き直り、再びうなずく。"
        [94]
         1 string data = ""私が唯一残ったマッシャーだが、ただの訓練生だ。訓練された警備員なしでビザールを守り続ける方法はない。""
        [95]
@@ -373109,17 +373109,17 @@
       1 Array Array (135 items)
        0 int size = 135
        [0]
-        1 string data = " Greetings."
+        1 string data = " こんにちは。"
        [1]
-        1 string data = " Aren't you Quarex from Arizona?"
+        1 string data = " あなた、ArizonaのQuarexじゃありませんか？"
        [2]
-        1 string data = " Actually, 'Quarex' is just a really common name where I'm from, you're probably talking about someone else."
+        1 string data = " 実は、「Quarex」は俺の出身地ではよくある名前なんだ。多分、別の誰かと勘違いしてるだろう。"
        [3]
-        1 string data = " You look exactly like the Quarex we've heard about."
+        1 string data = " 私たちが聞いたQuarexに瓜二つだ。"
        [4]
-        1 string data = " You really seem like the guy heard about."
+        1 string data = " 本当に噂で聞いた人物そっくりだな。"
        [5]
-        1 string data = " Goodbye."
+        1 string data = " さようなら。"
        [6]
         1 string data = " Lots of people have copied my style, I am something of a trendsetter."
        [7]
