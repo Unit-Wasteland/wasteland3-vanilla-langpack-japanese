@@ -360465,27 +360465,27 @@
        [219]
         1 string data = " Select a Debug Option"
        [220]
-        1 string data = " Learn about Six-Fingered Larry"
+        1 string data = " 六本指のラリーについて聞く"
        [221]
-        1 string data = " You learn that Six-Fingered Larry is the leader of a group of hunters."
+        1 string data = " 六本指のラリーがハンターグループのリーダーであることを知った。"
        [222]
-        1 string data = " Ask what Six-Fingered Larry is selling"
+        1 string data = " 六本指のラリーが何を売っているか聞く"
        [223]
-        1 string data = " I am selling a Panther and a Parrot."
+        1 string data = " パンサーとオウムを売ってるんだ。"
        [224]
         1 string data = " Simulate asking Six-Fingered Larry to release Hawkbit the Panther"
        [225]
-        1 string data = " The panther is worth a lot of money."
+        1 string data = " そのパンサーはかなりの価値があるんだ。"
        [226]
         1 string data = " Simulate bribing Six-Fingered Larry."
        [227]
         1 string data = " Simulate intimidating Six-Fingered Larry."
        [228]
-        1 string data = " Hawkbit will be released."
+        1 string data = " ホークビットは解放される。"
        [229]
         1 string data = " Simulate asking Polly the Parrot if he is sick of Six-Fingered Larry."
        [230]
-        1 string data = " Polly the Parrot is now available for purchase."
+        1 string data = " オウムのポリーが購入可能になった。"
        [231]
         1 string data = " Simulate purchasing Polly the Parrot."
        [232]
@@ -360511,7 +360511,7 @@
        [242]
         1 string data = ""また考えさせてくれ。""
        [243]
-        1 string data = ""Really, that's too bad." He straightens, takes a half-step back, the lilt of his manner suddenly all predator."
+        1 string data = ""残念だな。"彼は姿勢を正し、半歩後ろへ下がる。その仕草の軽快さが突然、獲物を狙う捕食者のそれに変わった。"
        [244]
         1 string data = ""受ける。""
        [245]
@@ -360553,7 +360553,7 @@
        [263]
         1 string data = "Trigger Conv Node 279"
        [264]
-        1 string data = ""Howdy, strangers. Name's Six-Fingered Larry. Hunter. Though it seems you find me plumb out of wares."\n\n\nThe parrot beside him squawks obnoxiously. He studiously ignores the bird."
+        1 string data = ""やあ、旅の人。俺の名は六本指のラリー。ハンターだ。だが残念ながら、今は商品が何もないんだ。"\n\n\n隣のオウムがうるさく鳴く。彼は鳥を完全に無視している。"
        [265]
         1 string data = ""よう！お前らがウォレンズのイカレた道化師どもを片付けたって聞いたぜ。レンジャーだったか？素晴らしい仕事だ。""
        [266]
@@ -360621,11 +360621,11 @@
       1 Array Array (4 items)
        0 int size = 4
        [0]
-        1 string data = " No visitors. What do you want?"
+        1 string data = " 訪問者お断りだ。何の用だ？"
        [1]
-        1 string data = " We're here on behalf of Mama Cotter. We want to negotiate with your boss."
+        1 string data = " ママ・コッターの代理で来た。あんたのボスと交渉したい。"
        [2]
-        1 string data = " We were just leaving."
+        1 string data = " いや、もう帰るところだ。"
        [3]
         1 string data = " Go on in. Don't do anything stupid."
    [1203]
