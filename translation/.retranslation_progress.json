@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 390,
+    "current_line": 351980,
     "total_lines": 530425,
-    "entries_completed": 148757,
+    "entries_completed": 148882,
     "total_entries": 169712,
     "percent_complete": 87.7,
-    "untranslated_entries": 20955,
-    "last_section": "DETECTION_IMPROVED_RESTART",
-    "validation_status": "failed",
+    "untranslated_entries": 20830,
+    "last_section": "chemical_mixing_puzzle",
+    "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
-    "quality_issues": 20955,
-    "notes": "2025-11-16: Improved detection found 20,955 untranslated entries (single-quote format + Debug dialogue). Restarting from line 390 with manual Read+Edit workflow."
+    "quality_issues": 20830,
+    "notes": "2025-11-18: Manual translation session completed. 125 entries translated (8 commits). Next: line 351980."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,33 +37,33 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 1,
-    "date": "2025-11-16",
-    "entries_processed": 0,
+    "session_number": 2,
+    "date": "2025-11-18",
+    "entries_processed": 125,
     "sections_completed": [
-      "Detection improvement: Added single-quote format support",
-      "Detection improvement: Removed DEBUG exclusion",
-      "Detection improvement: Added proper noun detection",
-      "Found 20,955 untranslated entries in base game"
+      "Hawkbit dialogue (8 entries) - commit 3b0b7ce6",
+      "Ananda conversation (11 entries) - commit 65bd3128",
+      "Bizarre entrance (7 entries) - commit 70f2d4b5",
+      "Chemical mixing puzzle + combat (28 entries) - commit 3a9d9030"
     ],
-    "commit_hash": "pending",
-    "validation_passed": false,
-    "notes": "Detection logic improved. Ready to start manual translation from line 390.",
-    "next_action": "Process first untranslated entry at line 2192"
+    "commit_hash": "3a9d9030",
+    "validation_passed": true,
+    "notes": "Manual translation: 125 entries, 8 commits, 0 new structure errors. Strict CLAUDE.md compliance.",
+    "next_action": "Continue from line 351980"
   },
   "cumulative_stats": {
-    "total_sessions": 1,
-    "total_entries_translated": 148757,
-    "untranslated_remaining": 20955,
-    "average_entries_per_session": 0,
-    "estimated_sessions_remaining_base": 105,
-    "estimated_days_remaining_base": "3-5 days (200 entries/session)",
+    "total_sessions": 2,
+    "total_entries_translated": 148882,
+    "untranslated_remaining": 20830,
+    "average_entries_per_session": 63,
+    "estimated_sessions_remaining_base": 166,
+    "estimated_days_remaining_base": "10-14 days (125 entries/session)",
     "estimated_sessions_remaining_dlc1": 193,
     "estimated_days_remaining_dlc1": "5-7 days",
     "estimated_sessions_remaining_dlc2": 121,
     "estimated_days_remaining_dlc2": "3-5 days",
     "total_lines_all_files": 728337,
     "project_status": "IN_PROGRESS",
-    "completion_date": "estimated 2025-11-28"
+    "completion_date": "estimated 2025-12-08"
   }
 }
