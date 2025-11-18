@@ -348001,13 +348001,13 @@
       1 Array Array (8 items)
        0 int size = 8
        [0]
-        1 string data = "Customize PC 1"
+        1 string data = "PC 1をカスタマイズ"
        [1]
-        1 string data = "Done"
+        1 string data = "完了"
        [2]
-        1 string data = "Customize PC 2"
+        1 string data = "PC 2をカスタマイズ"
        [3]
-        1 string data = "Character Creation Complete"
+        1 string data = "キャラクター作成完了"
        [4]
         1 string data = ""
        [5]
@@ -348177,79 +348177,79 @@
       1 Array Array (37 items)
        0 int size = 37
        [0]
-        1 string data = "This is your (temporary) combat tutorial!\n\n\nSelect the targeting Reticle (todo: show icon) and click the red highlighted creature.\n\n\n(TEMP TEXT)  "
+        1 string data = "これは（仮の）戦闘チュートリアルです！\n\n\nターゲティングレティクル（todo: アイコン表示）を選択し、赤くハイライトされた生物をクリックしてください。\n\n\n(TEMP TEXT)  "
        [1]
-        1 string data = "Good work. You have finished the Combat Tutorial!\n\n\n(TEMP TEXT)  "
+        1 string data = "よくできました。戦闘チュートリアルを完了しました！\n\n\n(TEMP TEXT)  "
        [2]
-        1 string data = "Looks like you've taken damage! Try to avoid that whenever possible.\n(TEMP TEXT)  "
+        1 string data = "ダメージを受けたようですね！可能な限りそれを避けるようにしてください。\n(TEMP TEXT)  "
        [3]
-        1 string data = "Looks like you've inflicted damage! Nice work.\n(TEMP TEXT)  "
+        1 string data = "ダメージを与えたようですね！よくできました。\n(TEMP TEXT)  "
        [4]
-        1 string data = "That's one critter down... nice work!\n(TEMP TEXT)   "
+        1 string data = "1匹倒しました...よくできました！\n(TEMP TEXT)   "
        [5]
         1 string data = ""
        [6]
-        1 string data = "Last critter down. Great!\n(TEMP TEXT)   "
+        1 string data = "最後の1匹を倒しました。素晴らしい！\n(TEMP TEXT)   "
        [7]
-        1 string data = "Try moving here.\n(TEMP TEXT)   "
+        1 string data = "ここに移動してみてください。\n(TEMP TEXT)   "
        [8]
-        1 string data = "Attack this one!\n(TEMP TEXT)   "
+        1 string data = "これを攻撃してください！\n(TEMP TEXT)   "
        [9]
-        1 string data = "Another BARK direction.\n(TEMP TEXT)   "
+        1 string data = "別のBARK指示。\n(TEMP TEXT)   "
        [10]
-        1 string data = "Item tutorial. \r\nFind some cold weather gear.\r\n(TEMP TEXT) "
+        1 string data = "アイテムチュートリアル。\r\n防寒具を見つけてください。\r\n(TEMP TEXT) "
        [11]
-        1 string data = "(HIGHLIGHT GRAPHIC) Click on a container or corpse to loot it.\n(TEMP TEXT) "
+        1 string data = "(ハイライトグラフィック) コンテナまたは死体をクリックして略奪してください。\n(TEMP TEXT) "
        [12]
-        1 string data = "Item acquired. Press "i" (keyboard) / "(item button)" (xbox) / "(item button)" (playstation) to open your character sheet. \r\n\r\n(TEMP TEXT) "
+        1 string data = "アイテムを入手しました。"i"（キーボード）/"(アイテムボタン)"（xbox）/"(アイテムボタン)"（playstation）を押してキャラクターシートを開いてください。\r\n\r\n(TEMP TEXT) "
        [13]
-        1 string data = "Now, equip your item by dragging it onto the highlighted slot. (TODO: HIGHLIGHT SLOT) \r\n(TODO: HIGHLIGHT ITEM).\r\n\r\n (TEMP TEXT) "
+        1 string data = "次に、アイテムをハイライトされたスロットにドラッグして装備してください。(TODO: スロットをハイライト)\r\n(TODO: アイテムをハイライト)。\r\n\r\n (TEMP TEXT) "
        [14]
-        1 string data = "Lootable container\n(TEMP TEXT) "
+        1 string data = "略奪可能なコンテナ\n(TEMP TEXT) "
        [15]
-        1 string data = "Lootable corpse\n(TEMP TEXT) "
+        1 string data = "略奪可能な死体\n(TEMP TEXT) "
        [16]
-        1 string data = "Lootable TBD\n(TEMP TEXT) "
+        1 string data = "略奪可能TBD\n(TEMP TEXT) "
        [17]
         1 string data = ""
        [18]
         1 string data = ""
        [19]
-        1 string data = "Good work. You have completed the placeholder ITEM TUTORIAL.\n(TEMP TEXT) "
+        1 string data = "よくできました。仮のアイテムチュートリアルを完了しました。\n(TEMP TEXT) "
        [20]
         1 string data = ""
        [21]
-        1 string data = "It's getting colder. If you venture farther without warm clothing, you will die.\n(TEMP TEXT) "
+        1 string data = "寒くなってきています。暖かい服なしでさらに進むと、死んでしまいます。\n(TEMP TEXT) "
        [22]
-        1 string data = "(TEMP TEXT)  It's getting colder. If you venture farther without warm clothing, you will die.\n(Warning #2)"
+        1 string data = "(TEMP TEXT)  寒くなってきています。暖かい服なしでさらに進むと、死んでしまいます。\n(警告 #2)"
        [23]
-        1 string data = "It's getting <i>even colder.</i> If you venture farther without warm clothing, you will 100% die. \r\n(Warning #3) (Last warning before Game Over).\r\n(TEMP TEXT) "
+        1 string data = "<i>さらに</i>寒くなってきています。暖かい服なしでさらに進むと、100%死にます。\r\n(警告 #3) (ゲームオーバー前の最後の警告)。\r\n(TEMP TEXT) "
        [24]
-        1 string data = "You have died from the extreme cold.\n(TEMP TEXT) "
+        1 string data = "極寒で死亡しました。\n(TEMP TEXT) "
        [25]
-        1 string data = "It occurs to you that you may be able to find warm clothing near where you started.\n(TEMP TEXT) "
+        1 string data = "スタート地点の近くで暖かい服を見つけられるかもしれないと気づきます。\n(TEMP TEXT) "
        [26]
-        1 string data = "Good thing you put on that cold weather gear! \r\nOtherwise, this weather would be lethal \r\n(TEMP TEXT)"
+        1 string data = "その防寒具を着てよかった！\r\nそうでなければ、この天候は致命的だったでしょう\r\n(TEMP TEXT)"
        [27]
-        1 string data = "Once again: you were wise to bundle up! (TEMP TEXT) "
+        1 string data = "繰り返しますが: 厚着をしたのは賢明でした！(TEMP TEXT) "
        [28]
         1 string data = ""
        [29]
         1 string data = ""
        [30]
-        1 string data = "(TEMP TEXT)\nDiggable item tutorial begins here.\nTutorial specifics are TBD.\nFor now, please dig up an object."
+        1 string data = "(TEMP TEXT)\n掘削可能アイテムチュートリアルをここから開始します。\nチュートリアルの詳細はTBD。\n今のところ、オブジェクトを掘り起こしてください。"
        [31]
-        1 string data = "(TEMP TEXT)\nDiggable item tutorial concluded.\nCongratulations!\n\n\nThat said... you did descrate a grave, you monster."
+        1 string data = "(TEMP TEXT)\n掘削可能アイテムチュートリアル完了。\nおめでとうございます！\n\n\nとはいえ...お前は墓を冒涜したぞ、この怪物め。"
        [32]
-        1 string data = "(TEMP TEXT)\nDiggable item tutorial concluded.\nCongratulations!\n\n\nThis is the SPECIAL HIDDEN ENDING, which concludes the tutorial without descrating the Hoon graves. Your cleverness is clear, your conscience is clean."
+        1 string data = "(TEMP TEXT)\n掘削可能アイテムチュートリアル完了。\nおめでとうございます！\n\n\nこれは特別な隠しエンディングで、フーンの墓を冒涜せずにチュートリアルを完了します。あなたの賢さは明白で、良心は清らかです。"
        [33]
-        1 string data = "(TEMP TEXT) Looks like you found a (SHOVEL OR SHOLVE-LIKE OBJECT). \r\n\r\nUse this to dig up hidden treasures!"
+        1 string data = "(TEMP TEXT) （シャベルまたはシャベルのようなもの）を見つけたようです。\r\n\r\nこれを使って隠された宝物を掘り起こしましょう！"
        [34]
         1 string data = ""
        [35]
-        1 string data = "You're going to need a shovel (or a TBD shovel-like object) if you want to dig.\n(TEMP TEXT)"
+        1 string data = "掘りたいならシャベル（またはTBDシャベルのようなもの）が必要です。\n(TEMP TEXT)"
        [36]
-        1 string data = "You already have a shovel, so... Get to it! (TEMPTEXT)"
+        1 string data = "すでにシャベルを持っているので...さあ始めましょう！(TEMPTEXT)"
    [1152]
     0 StringTable data
      1 string Filename = "01001_hawkbit"
