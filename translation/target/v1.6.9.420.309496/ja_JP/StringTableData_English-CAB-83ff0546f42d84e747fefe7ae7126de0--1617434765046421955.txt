@@ -389181,19 +389181,19 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = "Through the door you hear the harsh commands of Liberty Buchanan directing her Dorsey guards. The disdain in her tone is palatable."
+        1 string data = "ドアの向こうから、Liberty BuchananがDorseyの護衛たちに厳しい命令を下している声が聞こえる。彼女の口調には軽蔑が滲み出ている。"
        [2]
-        1 string data = "Through the door you hear the disdainful tone of Liberty Buchanan directing her Dorsey guards. Gather the entire squad here before confronting her."
+        1 string data = "ドアの向こうから、Liberty BuchananがDorseyの護衛たちに命令を下す軽蔑的な口調が聞こえる。彼女と対峙する前に、全員をここに集めよう。"
        [3]
-        1 string data = "Open the door. [Warning: Once you confront Liberty, you won't be able to complete missions except in Yuma and DLC areas. Make sure you're ready before continuing.]"
+        1 string data = "ドアを開ける。[警告: Libertyと対峙すると、YumaとDLCエリアを除いてミッションを完了できなくなります。続行する前に準備ができているか確認してください。]"
        [4]
-        1 string data = "Leave it closed."
+        1 string data = "閉めたままにする。"
        [5]
-        1 string data = "The door remains open."
+        1 string data = "ドアは開いたままだ。"
        [6]
-        1 string data = "Open the door. [Warning: Once you confront Liberty, you won't be able to complete missions except in Yuma and DLC areas or create new Rangers. If all of your custom Rangers die, it will trigger a game over even if companions remain. Make sure you're ready before continuing.]"
+        1 string data = "ドアを開ける。[警告: Libertyと対峙すると、YumaとDLCエリアを除いてミッションを完了できなくなり、新しいRangerを作成できなくなります。カスタムRangerが全員死亡すると、コンパニオンが残っていてもゲームオーバーになります。続行する前に準備ができているか確認してください。]"
        [7]
-        1 string data = "[Warning: You have fewer than 2 custom Rangers in your party. You must return to Ranger HQ to reform your party with at least 2 custom Rangers before proceeding.]"
+        1 string data = "[警告: パーティにカスタムRangerが2人未満しかいません。続行する前にRanger HQに戻り、少なくとも2人のカスタムRangerでパーティを再編成する必要があります。]"
    [1324]
     0 StringTable data
      1 string Filename = "q1001_payasoatwindfarmexit"
@@ -389447,7 +389447,7 @@
        [1]
         1 string data = "Script Node 2"
        [2]
-        1 string data = " "Take care of that bison and we'll be back in business!""
+        1 string data = " "あのバイソンを片付けてくれれば、また商売を再開できるぜ!""
        [3]
         1 string data = ""お前らマモネスなら、俺たちを助けられるかもな。あのな、ゴッドフィッシャーズが新鮮な凧作りの素材を持ってこっちに向かってたんだが、巨大バイソンに遭遇して、ちょっと閉じ込められちまったんだ。""
        [4]
@@ -389455,37 +389455,37 @@
        [5]
         1 string data = "Script Node 6"
        [6]
-        1 string data = " "Nice work, Rangers. We'll be off with our new slaves and Risky will hook you up when you get to Meat Clown. Sound good?""
+        1 string data = " "いい仕事だ、Rangers。俺たちは新しい奴隷を連れて行く。Meat Clownに着いたらRiskyが報酬をくれるぜ。いいだろ?""
        [7]
-        1 string data = " "Sounds good.""
+        1 string data = " "いいだろう。""
        [8]
-        1 string data = " "Not a chance. We're letting these people free.""
+        1 string data = " "ありえない。この人たちは解放する。""
        [9]
-        1 string data = " "Great! Come down to Meat Clown!""
+        1 string data = " "最高だ!Meat Clownに来てくれよ!""
        [10]
         1 string data = "Script Node 11"
        [11]
-        1 string data = " "Goddammit, Rangers. Risky's gonna skin us for bringing 'em back pre-dead. Guess we'll have to bring you, too!""
+        1 string data = " "クソッ、Rangers。あいつらを死体で連れ戻したらRiskyに皮を剥がれるぜ。お前らも連れて行かなきゃな!""
        [12]
-        1 string data = " "Big mistake, Rangers. These meatsacks are ours, one way or another!""
+        1 string data = " "大きな間違いだ、Rangers。この肉袋どもはどう転んでも俺たちのものだ!""
        [13]
-        1 string data = " "You saved us! Thank you!""
+        1 string data = " "助けてくれた!ありがとう!""
        [14]
-        1 string data = " Not for long, the Payasos want you, too."
+        1 string data = " 長くは続かない。Payasosもお前たちを欲しがってる。"
        [15]
-        1 string data = " Nope. Just keeping you for ourselves."
+        1 string data = " いや。ただお前たちを自分たちのものにしたいだけだ。"
        [16]
-        1 string data = " Our pleasure. We'll make sure you go free from the Payasos, too."
+        1 string data = " 喜んで。Payasosからも解放してやるよ。"
        [17]
-        1 string data = " "Please, rangers, kill the Payasos and free us!""
+        1 string data = " "お願い、rangers、Payasosを殺して私たちを解放して!""
        [18]
-        1 string data = " "Payasos are dead, too, so you're free to go.""
+        1 string data = " "Payasosも死んだ、だから自由に行っていい。""
        [19]
-        1 string data = " "Payasos are dead, too, so you owe us a reward.""
+        1 string data = " "Payasosも死んだ、だから報酬をもらう権利がある。""
        [20]
-        1 string data = " "The Godfishers took everything from us! We've got nothing!""
+        1 string data = " "Godfishersが全部奪った!何も残ってない!""
        [21]
-        1 string data = " "Thanks, Rangers!""
+        1 string data = " "ありがとう、Rangers!""
        [22]
         1 string data = "Script Node 25"
        [23]
@@ -389509,7 +389509,7 @@
        [32]
         1 string data = "[Attack] "Screw it. No one's gonna miss a few clowns.""
        [33]
-        1 string data = ""Fine, pendejos. But you ain't gettin' what we promised."\n\n\nHe sticks out his tongue."
+        1 string data = ""いいだろう、ペンデホス。だが約束したものはもらえないぜ。"\n\n\n彼は舌を突き出す。"
        [34]
         1 string data = "::ppbbbttt::"
        [35]
@@ -390049,7 +390049,7 @@
       1 Array Array (2 items)
        0 int size = 2
        [0]
-        1 string data = " "Go get them bison, Rangers.""
+        1 string data = " "バイソンを仕留めてこい、Rangers。""
        [1]
         1 string data = "Script Node 4"
    [1328]
@@ -390731,11 +390731,11 @@
        [34]
         1 string data = ""クソ最高だ!""
        [35]
-        1 string data = ""Let's see. What can we tell you...?"\n\n\nThe two slaves whisper together for a moment, then turn back to you."
+        1 string data = ""そうだな。何を話そうか...?"\n\n\n二人の奴隷がしばらくささやき合ってから、あなたの方を振り返る。"
        [36]
         1 string data = ""わかった、わかった。えーっと...""
        [37]
-        1 string data = "The two slaves whisper together for a moment, then turn back to you."
+        1 string data = "二人の奴隷がしばらくささやき合ってから、あなたの方を振り返る。"
        [38]
         1 string data = ""まあまあ。まず俺たちが知りたいことを教えてもらわないと。""
        [39]
@@ -390791,9 +390791,9 @@
        [64]
         1 string data = ""確信どころの話じゃない。先日、ゴッドフィッシャーが新しい凧を飛ばしてるのを見たんだが、凧からぶら下がってた死体の顔にピエロの化粧がしてあった。""
        [65]
-        1 string data = "The Payaso slave gasps. "
+        1 string data = "Payasoの奴隷が息を呑む。"
        [66]
-        1 string data = "::gasps:: "Maybe that's where Cucaracha went! Lecherito's been sayin' he thought Cucaracha ran off, but if he found out the Godfishers hung him on the wind...!""
+        1 string data = "::gasps:: "もしかしてククアラーチャはそこに行ったのかも!レチェリートは奴が逃げたと思ってたって言ってたが、もしゴッドフィッシャーズが奴を風に吊るしたって知ったら...!""
        [67]
         1 string data = ""ああ。マジだ。""
        [68]
@@ -390825,7 +390825,7 @@
        [81]
         1 string data = ""一番いいのは、奴のナンバー1の妻に、もう行く時だと告げさせることだ。聖なる月って名前だ。星よ夢見よは、あいつを神託かなにかだと思ってる。信者が奴を信じてるのと同じように、奴も聖なる月の星読みを信じてる。""
        [82]
-        1 string data = ""No, no. That wouldn't work. I mean they might leave, but they'd go berserk first and cut all our throats."\n\n\nHe thinks for a minute, chewing his lip. "
+        1 string data = ""いや、いや。それはうまくいかない。つまり、奴らは去るかもしれないが、その前に狂乱状態になって俺たち全員の喉を切り裂くだろう。"\n\n\n彼は唇を噛みながら、しばらく考える。"
        [83]
         1 string data = ""ただ最近は、リバティ・ブキャナンが奴のもう一方の耳に囁いて、コロラドスプリングスで待っている生贄の犠牲者について話してる。だから聖なる月の言うことをあまり聞いてない。"\n\n\n"でも、もし誰かが奴を説得して夕日に向かって去らせられるとしたら、それは彼女だけだ。""
        [84]
@@ -390857,7 +390857,7 @@
        [97]
         1 string data = ""マジでイカれてる。""
        [98]
-        1 string data = ""I know, right? Anyway, this guy goes back down carrying a bucket of water and tells everyone the gods live in the ocean of the sky and all you have to do is pray to them and get rain any time you want it."\n\n\nHe shrugs."
+        1 string data = ""だろ? とにかく、その男は水の入ったバケツを持って戻り、神々は空の海に住んでいて、祈りさえすればいつでも雨を降らせられると皆に告げたんだ。"\n\n\n彼は肩をすくめる。"
        [99]
         1 string data = ""そこから人間の胴体を皮の凧から吊るすことにどう繋がるのか、俺には分からない。でもそれが全ての始まりらしい。""
        [100]
@@ -390917,7 +390917,7 @@
        [127]
         1 string data = ""やれやれ。新しいクソ野郎と会ったが、古いクソ野郎と同じだ。分かった、分かった、ゲームは知ってる。話そう。""
        [128]
-        1 string data = ""Jerks."\n\n\nThe two slaves whisper together for a moment, then turn back to you."
+        1 string data = ""クソ野郎ども。"\n\n\n二人の奴隷がしばらくささやき合ってから、あなたの方を振り返る。"
        [129]
         1 string data = ""幸運を。""
        [130]

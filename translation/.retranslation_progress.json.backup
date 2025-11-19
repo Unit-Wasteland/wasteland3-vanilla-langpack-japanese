@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 387730,
+    "current_line": 389140,
     "total_lines": 530425,
-    "entries_completed": 149158,
+    "entries_completed": 149173,
     "total_entries": 169712,
     "percent_complete": 87.9,
-    "untranslated_entries": 20554,
-    "last_section": "q1001_hallie_mckay",
+    "untranslated_entries": 20539,
+    "last_section": "q1001_libertybuchanan",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-20: Session 22 completed. Combat barks and prisoner dialogue. 13 entries. Sections: q1001_combatbarks_lecherito, q1001_combatbarks_libertybuchanan, q1001_combatbarks_payasos, q1001_dobson_compound_guards, q1001_erastus_dorsey_guards, q1001_hallie_mckay. All validations passed."
+    "notes": "2025-11-20: Session 23 completed. Haloed Moon and Liberty Buchanan dialogue. 15 entries. Sections: q1001_haloedmoon, q1001_libertybuchanan. All validations passed."
   },
   "dlc1": {
     "status": "not_started",
@@ -34,38 +34,34 @@
     "entries_completed": 0,
     "total_entries": 24152,
     "percent_complete": 0.0,
-    "notes": "Pending base game and DLC1 completion"
+    "notes": "Pending base game and DLC2 completion"
   },
   "last_session": {
-    "session_number": 22,
+    "session_number": 23,
     "date": "2025-11-20",
-    "entries_processed": 13,
+    "entries_processed": 15,
     "sections_completed": [
-      "q1001_combatbarks_lecherito",
-      "q1001_combatbarks_libertybuchanan",
-      "q1001_combatbarks_payasos",
-      "q1001_dobson_compound_guards",
-      "q1001_erastus_dorsey_guards",
-      "q1001_hallie_mckay"
+      "q1001_haloedmoon",
+      "q1001_libertybuchanan"
     ],
-    "commit_hash": "3fbc845",
+    "commit_hash": "9aed6c4",
     "validation_passed": true,
-    "notes": "Combat barks and prisoner dialogue. Translated combat taunts from gang members, guard interactions at compound entrance, and complete Hallie McKay encounter including narrative descriptions, dialogue choices, and action markers. Protected all action markers and escape sequences. Structure: 0 errors. Action markers: 0 errors.",
-    "next_action": "Continue sequential translation from line 387730"
+    "notes": "Haloed Moon and Liberty Buchanan dialogue. Translated character introductions, dialogue choices with multiple branches, combat options, and arrest/attack choices. Maintained quote format consistency (2-quote and 4-quote patterns), protected escape sequences and special markers. Structure: 0 errors. Action markers: 0 errors.",
+    "next_action": "Continue sequential translation from line 389140"
   },
   "cumulative_stats": {
-    "total_sessions": 22,
-    "total_entries_translated": 149158,
-    "untranslated_remaining": 20554,
-    "average_entries_per_session": 17,
-    "estimated_sessions_remaining_base": 1209,
-    "estimated_days_remaining_base": "20-25 days (average 17 entries per session)",
+    "total_sessions": 23,
+    "total_entries_translated": 149173,
+    "untranslated_remaining": 20539,
+    "average_entries_per_session": 16,
+    "estimated_sessions_remaining_base": 1284,
+    "estimated_days_remaining_base": "21-26 days (average 16 entries per session)",
     "estimated_sessions_remaining_dlc1": 214,
     "estimated_days_remaining_dlc1": "5-7 days",
     "estimated_sessions_remaining_dlc2": 134,
     "estimated_days_remaining_dlc2": "3-5 days",
     "total_lines_all_files": 728337,
     "project_status": "IN_PROGRESS",
-    "completion_date": "estimated 2025-12-15"
+    "completion_date": "estimated 2025-12-16"
   }
 }
