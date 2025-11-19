@@ -1,0 +1,46 @@
+Validating: /home/user/project_claude/game_wasteland/wasteland3-vanilla-langpack-japanese/translation/target/v1.6.9.420.309496/ja_JP/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt
+Range: lines 390 to 530425
+Spanish reference: /home/user/project_claude/game_wasteland/wasteland3-vanilla-langpack-japanese/translation/source/v1.6.9.420.309496/es_ES/StringTableData_Spanish-CAB-f95544f6ef35e8a6587dccfa911ba0f8-9130184510981781208.txt
+Glossary: /home/user/project_claude/game_wasteland/wasteland3-vanilla-langpack-japanese/translation/nouns_glossary.json
+Loaded glossary: 278 terms
+Loaded Spanish reference: 169712 string data entries
+
+================================================================================
+TRANSLATION QUALITY VALIDATION REPORT
+================================================================================
+
+Total issues found: 10158
+
+[1] Action markers translated to Japanese: 0
+
+[2] Untranslated English entries: 10158
+
+Sample issues (first 20):
+  Line 113838: English text not translated (English content contains translatable text (Spanish reference empty/same, but content should be translated))
+  Line 113848: English text not translated (English content contains translatable text (Spanish reference empty/same, but content should be translated))
+  Line 113864: English text not translated (English content contains translatable text (Spanish reference empty/same, but content should be translated))
+  Line 113870: English text not translated (English content contains translatable text (Spanish reference empty/same, but content should be translated))
+  Line 113874: English text not translated (English content contains translatable text (Spanish reference empty/same, but content should be translated))
+  Line 118460: English text not translated (English content contains translatable text (Spanish reference empty/same, but content should be translated))
+  Line 119174: English text not translated (English content contains translatable text (Spanish reference empty/same, but content should be translated))
+  Line 119220: English text not translated (English content contains translatable text (Spanish reference empty/same, but content should be translated))
+  Line 119222: English text not translated (English content contains translatable text (Spanish reference empty/same, but content should be translated))
+  Line 119224: English text not translated (English content contains translatable text (Spanish reference empty/same, but content should be translated))
+  Line 119226: English text not translated (English content contains translatable text (Spanish reference empty/same, but content should be translated))
+  Line 119228: English text not translated (English content contains translatable text (Spanish reference empty/same, but content should be translated))
+  Line 119230: English text not translated (English content contains translatable text (Spanish reference empty/same, but content should be translated))
+  Line 119272: English text not translated (English content contains translatable text (Spanish reference empty/same, but content should be translated))
+  Line 119276: English text not translated (English content contains translatable text (Spanish reference empty/same, but content should be translated))
+  Line 119278: English text not translated (English content contains translatable text (Spanish reference empty/same, but content should be translated))
+  Line 119324: English text not translated (English content contains translatable text (Spanish reference empty/same, but content should be translated))
+  Line 119722: English text not translated (English content contains translatable text (Spanish reference empty/same, but content should be translated))
+  Line 120956: English text not translated (English content contains translatable text (Spanish reference empty/same, but content should be translated))
+  Line 120958: English text not translated (English content contains translatable text (Spanish reference empty/same, but content should be translated))
+
+  ... and 10138 more
+
+[3] Bracket [] content translated to Japanese: 0
+
+[4] Glossary violations (incorrect terminology): 0
+
+================================================================================

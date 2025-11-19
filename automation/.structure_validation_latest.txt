@@ -1,0 +1,39 @@
+================================================================================
+Unity StringTable 厳格構造検証結果 v2.0
+================================================================================
+総行数: 530,425
+string data行数: 169,712
+
+エラー: 0件
+警告: 8件
+
+================================================================================
+警告一覧:
+================================================================================
+
+HTML_TAG_MISSING: 8件
+  Line 126664: HTMLタグが欠けている: <i>
+    SRC: 1 string data = " Set quest complete vars. <i>NOTE</i> doesn't actually set the 
+    TGT: 1 string data = ""
+  Line 126664: HTMLタグが欠けている: </i>
+    SRC: 1 string data = " Set quest complete vars. <i>NOTE</i> doesn't actually set the 
+    TGT: 1 string data = ""
+  Line 136472: HTMLタグが欠けている: <i>
+    SRC: 1 string data = ""Oh. Well... you've already done a great deal for us."\n\n\n"If
+    TGT: 1 string data = ""ああ。まあ...もう十分やってくれた。"\n\n\n"もし我々を助けられる技術マニュアルを見つけたら、Air Force A
+  Line 136472: HTMLタグが欠けている: </i>
+    SRC: 1 string data = ""Oh. Well... you've already done a great deal for us."\n\n\n"If
+    TGT: 1 string data = ""ああ。まあ...もう十分やってくれた。"\n\n\n"もし我々を助けられる技術マニュアルを見つけたら、Air Force A
+  Line 136552: HTMLタグが欠けている: <i>
+    SRC: 1 string data = ""Understood. Take your time. If you decide you <i>are</i> willi
+    TGT: 1 string data = ""了解した。時間をかけてくれ。手伝う気になったら、ここにいるよ。""
+  Line 136552: HTMLタグが欠けている: </i>
+    SRC: 1 string data = ""Understood. Take your time. If you decide you <i>are</i> willi
+    TGT: 1 string data = ""了解した。時間をかけてくれ。手伝う気になったら、ここにいるよ。""
+  Line 212272: HTMLタグが欠けている: <<ERROR: CONTROL AI NOT FOUND - - - - REVERTING TO AUTOMATED ROUTINES>
+    SRC: 1 string data = ""<<ERROR: CONTROL AI NOT FOUND - - - - REVERTING TO AUTOMATED R
+    TGT: 1 string data = ""<<エラー: 制御AIが見つかりません - - - - 自動ルーチンに復帰します>>""
+  Line 212288: HTMLタグが欠けている: <<TARGETING>
+    SRC: 1 string data = ""<<TARGETING>>""
+    TGT: 1 string data = ""<<照準中>>""
+================================================================================
