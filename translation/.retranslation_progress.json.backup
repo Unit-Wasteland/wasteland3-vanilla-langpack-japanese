@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 370945,
+    "current_line": 371587,
     "total_lines": 530425,
-    "entries_completed": 149024,
+    "entries_completed": 149033,
     "total_entries": 169712,
     "percent_complete": 87.8,
-    "untranslated_entries": 20688,
-    "last_section": "o2001_megascope",
+    "untranslated_entries": 20679,
+    "last_section": "o2001_pareidoliajones",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-20: Session 14 completed. Fixed bracket translation error (line 3476) and translated o2001_megascope section (9 entries). All validations passed."
+    "notes": "2025-11-20: Session 15 completed. Fixed 18 glossary violations and translated o2001_pareidoliajones section (9 entries). All validations passed."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,30 +37,30 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 14,
+    "session_number": 15,
     "date": "2025-11-20",
     "entries_processed": 9,
     "sections_completed": [
-      "o2001_megascope"
+      "o2001_pareidoliajones"
     ],
-    "commit_hash": "73261436",
+    "commit_hash": "92dfa4cf",
     "validation_passed": true,
-    "notes": "Fixed bracket translation error (line 3476: [Attack] marker restored). Translated o2001_megascope section (9 entries: display case descriptions, interaction options). Structure: 0 errors. Action markers: preserved correctly. Quote formats: matched source exactly.",
-    "next_action": "Continue sequential translation from line 370945"
+    "notes": "Fixed 18 glossary violations (Rangers, Marshal, Colorado, Daisy, Kwon, Vic proper nouns). Translated o2001_pareidoliajones section (9 entries: Pareidolia Jones caravan master dialogue, rubber duck phobia, refugee transport quest). Global markers preserved. Structure: 0 errors. Action markers: 0 errors. Quote formats: matched source exactly.",
+    "next_action": "Continue sequential translation from line 371587"
   },
   "cumulative_stats": {
-    "total_sessions": 14,
-    "total_entries_translated": 149024,
-    "untranslated_remaining": 20688,
-    "average_entries_per_session": 22,
-    "estimated_sessions_remaining_base": 940,
-    "estimated_days_remaining_base": "19-23 days (average 22 entries/session)",
+    "total_sessions": 15,
+    "total_entries_translated": 149033,
+    "untranslated_remaining": 20679,
+    "average_entries_per_session": 20,
+    "estimated_sessions_remaining_base": 1034,
+    "estimated_days_remaining_base": "21-25 days (average 20 entries/session)",
     "estimated_sessions_remaining_dlc1": 193,
     "estimated_days_remaining_dlc1": "5-7 days",
     "estimated_sessions_remaining_dlc2": 121,
     "estimated_days_remaining_dlc2": "3-5 days",
     "total_lines_all_files": 728337,
     "project_status": "IN_PROGRESS",
-    "completion_date": "estimated 2025-12-18"
+    "completion_date": "estimated 2025-12-20"
   }
 }
