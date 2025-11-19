@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 424140,
+    "current_line": 425140,
     "total_lines": 530425,
-    "entries_completed": 149643,
+    "entries_completed": 149658,
     "total_entries": 169712,
     "percent_complete": 88.2,
-    "untranslated_entries": 20069,
-    "last_section": "x3701_brokenbotsignpost",
+    "untranslated_entries": 20054,
+    "last_section": "x3801_bbq_alfredogarcia",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-20: Session 39 completed. Santa workshop computer interface and broken scavenger robot repair dialogues (40 entries). All quote formats matched source. All validations: 0 errors."
+    "notes": "2025-11-20: Session 40 completed (15 entries). x3701_bulb miner dialogue completion, x3701_miningcomputer interface, x3801_bbq_alfredogarcia cannibal cook. All validations: 0 errors."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,24 +37,23 @@
     "notes": "Pending base game and DLC2 completion"
   },
   "last_session": {
-    "session_number": 39,
+    "session_number": 40,
     "date": "2025-11-20",
-    "entries_processed": 40,
+    "entries_processed": 15,
     "sections_completed": [
-      "x3601_radio_elf_distresscall (1 entry - elf distress call fix)",
-      "x3601_workshopcomputer (14 entries - computer interface & hacking)",
-      "x3701_brokenbot (4 entries - robot dialogue with action markers)",
-      "x3701_brokenbotsignpost (21 entries - robot inspection & repair)"
+      "x3701_bulb (6 entries - Bulb miner dialogue completion)",
+      "x3701_miningcomputer (5 entries - mining laser control interface)",
+      "x3801_bbq_alfredogarcia (4 entries - cannibal cook Alfredo Garcia dialogue)"
     ],
-    "commit_hash": "876400c",
+    "commit_hash": "a770b08",
     "validation_passed": true,
-    "notes": "Session 39: Completed untranslated entries in x3601 and x3701 sections. All action markers preserved correctly. All quote formats matched source. All validations: 0 errors.",
-    "next_action": "Continue sequential translation from line 424140 (next section)"
+    "notes": "Session 40: Completed 15 entries. Bulb miner dialogue, mining laser interface, cannibal cook confrontation. All quote formats matched source. All validations: 0 errors.",
+    "next_action": "Continue sequential translation from line 425140"
   },
   "cumulative_stats": {
     "total_sessions": 39,
-    "total_entries_translated": 149643,
-    "untranslated_remaining": 20069,
+    "total_entries_translated": 149658,
+    "untranslated_remaining": 20054,
     "average_entries_per_session": 3937,
     "estimated_sessions_remaining_base": 6,
     "estimated_days_remaining_base": "18-22 days",
