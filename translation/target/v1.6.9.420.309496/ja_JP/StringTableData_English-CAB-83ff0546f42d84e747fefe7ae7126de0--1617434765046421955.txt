@@ -392167,7 +392167,7 @@
        [21]
         1 string data = ""お?やりたいのか?やろうぜ。だがな、パヤソスだけと戦うわけじゃねえぞ?俺たちに手を出せば、キャンプ全体が相手だ―スカー・コレクターズもゴッドフィッシャーズも、その叔父も叔母も全員な。本当にそれがお望みか?""
        [22]
-        1 string data = "[Attack] "Let's do it.""
+        1 string data = "[Attack] "やろうぜ。""
        [23]
         1 string data = ""わかったよ。まだ見せたいものがあるんでな。""
        [24]
@@ -392179,7 +392179,7 @@
        [27]
         1 string data = ""¡Que chingados!ちょっと待て。そんなもんだとは言わなかっただろ。見せろ!""
        [28]
-        1 string data = "You hand Lecherito the cam-corder. As he watches the playback, his customary snarl sags to blank shock. He throws the cam-corder back at you and balls his fists. "
+        1 string data = "あなたはLecheritoにカムコーダーを渡す。再生を見る彼の表情は、いつものうなり顔から驚愕へと変わる。彼はカムコーダーをあなたに投げ返し、拳を握りしめる。"
        [29]
         1 string data = ""¡Puta madres!何週間も騙しやがって。パヤソスは計画の「不可欠な」一部だと言っといて、実は俺をマーシャルズの餌に使ってるだと?""
        [30]
@@ -392193,7 +392193,7 @@
        [34]
         1 string data = ""このゴッドフィッシャーズには凧揚げでもさせとけ、わかるか?""
        [35]
-        1 string data = ""I've seen Scar Collectors with bolt-on arms, legs, hands, eyes. Too bad there's no such think as a bolt-on personality, huh?"\n"
+        1 string data = ""ボルト止めの腕、脚、手、目を持つスカー・コレクターズを見てきた。ボルト止めの人格ってのがないのが残念だよな?"\n"
        [36]
         1 string data = ""スティールトラップの下半身は壊れすぎて小便もしねえ。ただ漏れるだけだ。""
        [37]
@@ -392235,7 +392235,7 @@
        [55]
         1 string data = ""じゃあな、無名野郎。""
        [56]
-        1 string data = "::snorts:: "If it wasn't for the truce. Yeah.""
+        1 string data = "::snorts:: "休戦協定がなけりゃな。ああ。""
        [57]
         1 string data = ""クソして寝てろ、ペンデホス。無名野郎とは話さねえ―お前らはコーダイトなしじゃ無名野郎だ。""
        [58]
@@ -392575,15 +392575,15 @@
       1 Array Array (17 items)
        0 int size = 17
        [0]
-        1 string data = ""project solution built and ready for execution."\n\n\nAs you approach, you recognize the hooded figure as Satoshi, the hacker who gave you the mysterious case in downtown Colorado Springs."
+        1 string data = ""プロジェクトソリューション構築完了、実行準備完了。"\n\n\n近づくと、フードを被った人物がコロラドスプリングス中心街で謎のケースを渡してくれたハッカー、Satoshiだと分かる。"
        [1]
-        1 string data = ""yield return sensor config."\n\n\nHe holds out his hand, waiting for you to pass him the case."
+        1 string data = ""yield return sensor config."\n\n\n彼は手を差し出し、ケースを渡すのを待っている。"
        [2]
         1 string data = ""悪い、ケースを開けちまった。""
        [3]
         1 string data = ""もうケースは持ってない。""
        [4]
-        1 string data = "[Give Satoshi the case] "Here you go.""
+        1 string data = "[Give Satoshi the case] "どうぞ。""
        [5]
         1 string data = ""何も渡さない。""
        [6]
@@ -392593,19 +392593,19 @@
        [8]
         1 string data = ""コンパイラレポート:エラー0件、警告0件。コンストラクタ実行中。""
        [9]
-        1 string data = "Satoshi sets the case on the ground and presses a button on a small control pad inside his robe. The case opens and unfolds, then interior panels fold in on themselves. The process repeats until Satoshi waves to you to take the newly formed object."
+        1 string data = "Satoshiはケースを地面に置き、ローブの中の小型コントロールパッドのボタンを押す。ケースが開いて展開し、内部パネルが折り畳まれる。この過程が繰り返され、Satoshiが新しく形成された物体を取るよう手招きする。"
        [10]
         1 string data = ""触覚センサーデータストリームが実行可能な強化モデルを生成しました。デバイスはエージェント活動を数時間記録し、効率を最大化するために最終デバイスを構築しました。""
        [11]
-        1 string data = "A flash of pride curls the edge of Satoshi's mouth as he turns to walk away."
+        1 string data = "立ち去る際、Satoshiの口元に誇らしげな笑みが浮かぶ。"
        [12]
         1 string data = ""プロジェクト失敗。ガベージコレクション進行中。""
        [13]
-        1 string data = "The robots near Satoshi rise to attack."
+        1 string data = "Satoshiの近くにいたロボットたちが立ち上がり、攻撃を開始する。"
        [14]
         1 string data = ""プロジェクト完了にはデータ収集が必須。データが生成されない場合、ガベージコレクションを開始します。""
        [15]
-        1 string data = "[Give Satoshi the case] "Fine, here you go.""
+        1 string data = "[Give Satoshi the case] "わかった、どうぞ。""
        [16]
         1 string data = ""残念だが、これは俺たちのものだ。""
    [1336]
@@ -393309,7 +393309,7 @@
        [5]
         1 string data = " The night Dee disappeared, she went to take out the trash. We heard a struggle and some gunshots, but by the time we got outside she was gone. Maybe a clue in the spot where she was taken?"
        [6]
-        1 string data = ""Blades are almost ready, masters. I just need..."\n\n\nHe pauses, then sniffs the air."
+        1 string data = ""刃はもうすぐ完成します、旦那方。あと少し..."\n\n\n彼は止まり、空気の匂いを嗅ぐ。"
        [7]
         1 string data = ""
        [8]
@@ -393359,7 +393359,7 @@
        [30]
         1 string data = ""俺たちはコーダイトと一緒に来た。お前は誰だ?""
        [31]
-        1 string data = ""Ah, Master Cordite. Is that you? It's me, Knock Knock. I was boss slave at the Company Store when you were here, but I lost my eyes an' now I make blades for the masters." "
+        1 string data = ""ああ、コーダイト様。あなたですか?私です、ノック・ノック。あなたがここにいた時はカンパニー・ストアでボス奴隷でしたが、目を失って今は旦那方のために刃を作ってます。" "
        [32]
         1 string data = ""これらの刃を研いでくれ。""
        [33]
