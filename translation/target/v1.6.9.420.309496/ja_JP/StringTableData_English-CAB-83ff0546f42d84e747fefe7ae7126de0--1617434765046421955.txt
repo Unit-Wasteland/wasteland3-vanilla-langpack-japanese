@@ -416553,19 +416553,19 @@
       1 Array Array (7 items)
        0 int size = 7
        [0]
-        1 string data = "This antenna has been disconnected from  the attached cable."
+        1 string data = "このアンテナは接続ケーブルから外されている。"
        [1]
-        1 string data = "Fix the antenna."
+        1 string data = "アンテナを修理する。"
        [2]
-        1 string data = "Leave the antenna alone."
+        1 string data = "アンテナには触れない。"
        [3]
-        1 string data = "You reattach the wire and check for any other mechanical failures."
+        1 string data = "ワイヤーを再接続し、他の機械的な故障がないか確認する。"
        [4]
-        1 string data = "As you adjust the receiver, you hear a faint beeping coming from the nearby RV."
+        1 string data = "受信機を調整すると、近くのRVから かすかなビープ音が聞こえる。"
        [5]
-        1 string data = "As soon as you let go of the antenna, the noise stops. You'll need to leave someone here if you want to investigate."
+        1 string data = "アンテナから手を離すとすぐに、ノイズが止まる。調査したいなら、誰かをここに残す必要がある。"
        [6]
-        1 string data = "You grab the antenna, and hear the quiet beeping coming from the direction of the RV."
+        1 string data = "アンテナをつかむと、RVの方向から静かなビープ音が聞こえる。"
    [1446]
     0 StringTable data
      1 string Filename = "x1201_wind"
