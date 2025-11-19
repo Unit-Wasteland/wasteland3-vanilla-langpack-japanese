@@ -389185,15 +389185,15 @@
        [2]
         1 string data = "ドアの向こうから、Liberty BuchananがDorseyの護衛たちに命令を下す軽蔑的な口調が聞こえる。彼女と対峙する前に、全員をここに集めよう。"
        [3]
-        1 string data = "ドアを開ける。[警告: Libertyと対峙すると、YumaとDLCエリアを除いてミッションを完了できなくなります。続行する前に準備ができているか確認してください。]"
+        1 string data = "ドアを開ける。[Warning: Once you confront Liberty, you won't be able to complete missions except in Yuma and DLC areas. Make sure you're ready before continuing.]"
        [4]
         1 string data = "閉めたままにする。"
        [5]
         1 string data = "ドアは開いたままだ。"
        [6]
-        1 string data = "ドアを開ける。[警告: Libertyと対峙すると、YumaとDLCエリアを除いてミッションを完了できなくなり、新しいRangerを作成できなくなります。カスタムRangerが全員死亡すると、コンパニオンが残っていてもゲームオーバーになります。続行する前に準備ができているか確認してください。]"
+        1 string data = "ドアを開ける。[Warning: Once you confront Liberty, you won't be able to complete missions except in Yuma and DLC areas or create new Rangers. If all of your custom Rangers die, it will trigger a game over even if companions remain. Make sure you're ready before continuing.]"
        [7]
-        1 string data = "[警告: パーティにカスタムRangerが2人未満しかいません。続行する前にRanger HQに戻り、少なくとも2人のカスタムRangerでパーティを再編成する必要があります。]"
+        1 string data = "[Warning: You have fewer than 2 custom Rangers in your party. You must return to Ranger HQ to reform your party with at least 2 custom Rangers before proceeding.]"
    [1324]
     0 StringTable data
      1 string Filename = "q1001_payasoatwindfarmexit"
