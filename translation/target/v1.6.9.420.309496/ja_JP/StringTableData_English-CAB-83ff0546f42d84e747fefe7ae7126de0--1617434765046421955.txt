@@ -126659,11 +126659,11 @@
        [87]
         1 string data = ""
        [88]
-        1 string data = ""
+        1 string data = " Quest Started"
        [89]
-        1 string data = ""
+        1 string data = " Set quest complete vars. <i>NOTE</i> doesn't actually set the quest to complete."
        [90]
-        1 string data = ""
+        1 string data = " Set the variables"
        [91]
         1 string data = "Police Brutality"
        [92]
@@ -136469,7 +136469,7 @@
        [146]
         1 string data = "[Lie] "No. Sorry.""
        [147]
-        1 string data = ""ああ。まあ...もう十分やってくれた。"\n\n\n"もし我々を助けられる技術マニュアルを見つけたら、Air Force Academyの廃墟にいる。あなた方が見つけた核爆発を研究しているよ。""
+        1 string data = ""ああ。まあ...もう十分やってくれた。"\n\n\n"もし<i>本当に</i>我々を助けられる技術マニュアルを見つけたら、Air Force Academyの廃墟にいる。あなた方が見つけた核爆発を研究しているよ。""
        [148]
         1 string data = ""出発する前に、他に手伝えることはあるか?""
        [149]
@@ -136549,7 +136549,7 @@
        [186]
         1 string data = ""まだ答えは出せない。""
        [187]
-        1 string data = ""了解した。時間をかけてくれ。手伝う気になったら、ここにいるよ。""
+        1 string data = ""了解した。時間をかけてくれ。もし<i>本当に</i>手伝う気になったら、ここにいるよ。""
        [188]
         1 string data = ""そこで会おう。""
        [189]
@@ -212269,7 +212269,7 @@
        [39]
         1 string data = ""おやすみなさい、ママ。""
        [40]
-        1 string data = ""<<エラー: 制御AIが見つかりません - - - - 自動ルーチンに復帰します>>""
+        1 string data = ""<<ERROR: CONTROL AI NOT FOUND - - - - REVERTING TO AUTOMATED ROUTINES>>""
        [41]
         1 string data = ""ノックしても無駄だ、レンジャー。彼はそこにはいない。今は新しい身体の中だ。""
        [42]
@@ -212285,7 +212285,7 @@
        [47]
         1 string data = ""また会えて嬉しいよ、レンジャー。""
        [48]
-        1 string data = ""<<照準中>>""
+        1 string data = ""<<TARGETING>>""
        [49]
         1 string data = ""中で会えるのを楽しみにしている。""
        [50]
