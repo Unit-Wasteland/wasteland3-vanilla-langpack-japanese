@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 433525,
+    "current_line": 433915,
     "total_lines": 530425,
-    "entries_completed": 150047,
+    "entries_completed": 150077,
     "total_entries": 169712,
     "percent_complete": 88.4,
-    "untranslated_entries": 19665,
-    "last_section": "yy_drools_ambush",
+    "untranslated_entries": 19635,
+    "last_section": "yy_drools_spotted",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-20: Session 47 Part 1 completed (60 entries). Multiple encounter types: Godfishers kite-making rituals and combat, Drools horror encounters with survival mechanics, ambush mechanics with escape options. New glossary term: Drools to ドゥールズ. All validations: 0 errors."
+    "notes": "2025-11-20: Session 47 Part 2 completed (30 entries). Drools encounters: ambush in plains, spotted stealth scenarios. Fixed 5 bracket marker errors from previous session. All validations: 0 errors."
   },
   "dlc1": {
     "status": "not_started",
@@ -39,33 +39,21 @@
   "last_session": {
     "session_number": 47,
     "date": "2025-11-20",
-    "entries_processed": 60,
+    "entries_processed": 30,
     "sections_completed": [
-      "y308_breakdown_hills_na (3 entries - UI messages)",
-      "y309_investigation_hills_na (3 entries - UI messages)",
-      "y310_roadblock_hills_na (3 entries - UI messages)",
-      "y311_special_hills_commoner (3 entries - UI messages)",
-      "y312_hostile_hills_animals (3 entries - Combat UI)",
-      "y313_hostile_hills_godfishers (15 entries - Godfishers encounters)",
-      "y313_hostile_hills_godfishers_plains (11 entries - Godfishers plains)",
-      "y315_hostile_hills_multifaction (3 entries - Combat UI)",
-      "y316_hostile_hills_payasos (3 entries - Combat UI)",
-      "y305_roadblock_hills_godfishers (3 entries - Combat UI)",
-      "y318_hostile_hills_robots (3 entries - Combat UI)",
-      "y319_hostile_hills_scarcollectors (3 entries - Combat UI)",
-      "yy_dorseys_ambush (14 entries - Ambush mechanics)",
-      "yy_drools_ambush (14 entries - Drools encounters)"
+      "yy_drools_ambush_plains (14 entries - Drools plains ambush)",
+      "yy_drools_spotted (16 entries - Drools stealth encounters)"
     ],
-    "commit_hash": "a065b4c",
+    "commit_hash": "b6140d5",
     "validation_passed": true,
-    "notes": "Session 47 Part 1: Completed 60 entries. Godfishers encounters with kite-making rituals. Drools horror survival encounters. Ambush mechanics with escape options. New glossary term: Drools to ドゥールズ. Consistent Combat UI translations. Applied CLAUDE.md Translation Decision Logic. All validations: 0 errors.",
-    "next_action": "Continue sequential translation from line 433525"
+    "notes": "Session 47 Part 2: Completed 30 entries. Fixed 5 bracket marker errors. Drools encounters with stealth and combat options. All validations: 0 errors.",
+    "next_action": "Continue sequential translation from line 433915"
   },
   "cumulative_stats": {
     "total_sessions": 47,
-    "total_entries_translated": 150047,
-    "untranslated_remaining": 19665,
-    "average_entries_per_session": 3192,
+    "total_entries_translated": 150077,
+    "untranslated_remaining": 19635,
+    "average_entries_per_session": 3193,
     "estimated_sessions_remaining_base": 6,
     "estimated_days_remaining_base": "17-21 days",
     "estimated_sessions_remaining_dlc1": 203,
