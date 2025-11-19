@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 430915,
+    "current_line": 432465,
     "total_lines": 530425,
-    "entries_completed": 149832,
+    "entries_completed": 149987,
     "total_entries": 169712,
-    "percent_complete": 88.3,
-    "untranslated_entries": 19880,
-    "last_section": "y212_hostile_hills_payasos",
+    "percent_complete": 88.4,
+    "untranslated_entries": 19725,
+    "last_section": "y307_assistance_hills_refugees",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-20: Session 45 completed (33 entries). World events: Dorsey mountain encounters, Monster Army mannequin bomb trap, Payaso clown encounters. All validations: 0 errors."
+    "notes": "2025-11-20: Session 46 completed (155 entries). World events and encounters: Payaso clown encounters (plains/regular), Scar Collector ambushes, refugee funeral, various combat triggers. Fixed critical quote format errors. All validations: 0 errors."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,24 +37,33 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 45,
+    "session_number": 46,
     "date": "2025-11-20",
-    "entries_processed": 33,
+    "entries_processed": 155,
     "sections_completed": [
-      "y210_hostile_hills_dorseys_mountains (14 entries - Dorsey encounters)",
-      "y211_hostile_hills_monsterarmy (8 entries - Monster Army bomb trap)",
-      "y212_hostile_hills_payasos (11 entries - Payaso clown encounters)"
+      "y212_hostile_hills_payasos_plains (14 entries - Payaso plains encounters)",
+      "y213_hostile_hills_payasos (59 entries - Payaso ambush with fuel dump)",
+      "y213_hostile_hills_payasos_plains (13 entries - Payaso fog/mine/bomb)",
+      "y214_hostile_hills_refugees (19 entries - Refugee funeral with moral choices)",
+      "y301_assistance_hills_scarcollectors (15 entries - Scar Collector encounters)",
+      "y301_assistance_hills_scarcollectors_plains (14 entries - Scar Collector plains)",
+      "y302_breakdown_hills_godfishers (3 entries - Godfishers combat)",
+      "y303_investigation_hills_mutants (6 entries - Mutants investigation)",
+      "y304_investigation_hills_robots (3 entries - Robots investigation)",
+      "y305_roadblock_hills_godfishers (3 entries - Godfishers roadblock)",
+      "y306_assistance_hills_animals (3 entries - Animals assistance)",
+      "y307_assistance_hills_refugees (3 entries - Refugees assistance)"
     ],
-    "commit_hash": "737045a",
+    "commit_hash": "023218b",
     "validation_passed": true,
-    "notes": "Session 45: Completed 33 entries. Three hostile world event types: Dorsey ambushes with stealth/combat options, Monster Army mannequin bomb trap with bomb disposal choices, Payaso clown gang with joke distraction mechanic. Fixed critical quote format errors (Japanese brackets replaced with English quotes). All validations: 0 errors.",
-    "next_action": "Continue sequential translation from line 430915"
+    "notes": "Session 46: Completed 155 entries. Multiple world event types: Payaso clown encounters with Y.M.C.A. dance, fuel drum ambush, fog/mine/bomb traps, joke distraction mechanic. Refugee funeral with grave-robbing moral choice. Scar Collector slave-taker encounters. Various combat triggers. Fixed critical quote format errors (replaced Japanese brackets with English quotes to match source exactly). Applied CLAUDE.md Translation Decision Logic for Spanish-empty entries. All validations: 0 errors.",
+    "next_action": "Continue sequential translation from line 432465"
   },
   "cumulative_stats": {
-    "total_sessions": 45,
-    "total_entries_translated": 149832,
-    "untranslated_remaining": 19880,
-    "average_entries_per_session": 3330,
+    "total_sessions": 46,
+    "total_entries_translated": 149987,
+    "untranslated_remaining": 19725,
+    "average_entries_per_session": 3261,
     "estimated_sessions_remaining_base": 6,
     "estimated_days_remaining_base": "17-21 days",
     "estimated_sessions_remaining_dlc1": 203,
