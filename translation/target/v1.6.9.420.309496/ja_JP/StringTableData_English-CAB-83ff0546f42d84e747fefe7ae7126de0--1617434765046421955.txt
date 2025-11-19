@@ -424585,13 +424585,13 @@
        [8]
         1 string data = ""何が問題なんだ?""
        [9]
-        1 string data = ""This here's my tellurium mine, y'see."
+        1 string data = ""ここは俺のテルル鉱山なんだ、わかるだろ。"
        [10]
         1 string data = ""この辺りの連中は俺をバルブって呼んでる。テルルのせいでな。ニンニクみたいに臭くなるんだ。俺は気にしちゃいないし、トゥルーディーも気にしてないみたいだ、意味はわかるだろ?ヒヒヒ!""
        [11]
         1 string data = ""どこまで話したっけ?ああそうだ、火星人だ!俺とトゥルーディーが鉱山で働いてたら、いきなりロボットどもが現れたんだ!そのうちの一体は家みたいにでかかった!奴らがスカベンジャーじゃないってすぐわかったよ。何か別のもんだった!""
        [12]
-        1 string data = ""Now I bet you're askin' yourself how an old prospector like Bulb would know the difference between a martian death machine and some old scavenger robot, am I right?"\r"
+        1 string data = ""さて、きっとこう自問してるだろう。バルブみたいな年寄り採掘者が、火星の殺人マシンと古いスカベンジャーロボットの違いをどうやって見分けるのかってな?"\r"
        [13]
         1 string data = ""しばらくトゥルーディーを見てなくて、心配になってきたんだ。あのいまいましいロボットどもを何とかしてくれないか?""
        [14]
@@ -424603,7 +424603,7 @@
        [17]
         1 string data = ""心配するな、バルブ。俺たちがなんとかする。""
        [18]
-        1 string data = ""Glad ya asked! It's this mineral that's good fer makin' electronics an' such. Most of what we scrape out of the mine we send to the Patriarch. Most folks won't handle it 'cause it's toxic, but I ain't never had no problems with it." ::coughs::"
+        1 string data = ""聞いてくれて嬉しいよ!電子機器とかを作るのに良い鉱物なんだ。鉱山から掘り出したものの大半は総主教に送る。毒性があるからほとんどの人間は扱いたがらないが、俺は一度も問題を起こしたことがない。" ::coughs::"
        [19]
         1 string data = ""聞いてなかったのか?トゥルーディーは...まあ、俺の女だ。良い時も悪い時も一緒にいてくれた。時々本物のクソ女になることもあるが、俺だって一緒に暮らすのが楽な男じゃない。""
        [20]
@@ -424617,7 +424617,7 @@
        [24]
         1 string data = ""俺たちに何の得がある?""
        [25]
-        1 string data = "[Reward: [Dropset: DRP_x3701_BulbReward]] "Well... I got lots of books. 'Fore Trudy came around, that's how I passed my time. One of 'em you might find real interestin'. Make all kinda useful stuff with it. Yessir. You help me out, and it's yours.""
+        1 string data = "[Reward: [Dropset: DRP_x3701_BulbReward]] "まあ...本をたくさん持ってる。トゥルーディーが来る前は、そうやって時間を潰してたんだ。その中の一冊はきっと興味深いと思うよ。いろんな便利なものが作れる。本当だ。俺を手伝ってくれれば、お前たちのものだ。""
        [26]
         1 string data = ""取り組んでるところだ。""
        [27]
@@ -424629,7 +424629,7 @@
        [30]
         1 string data = ""あの年寄り娘なしでどうすればいいかわからないよ、本当に。""
        [31]
-        1 string data = ""Pals, you ain't no winter flowers yerselves." ::coughs::"
+        1 string data = ""友よ、お前たちだって冬の花じゃないだろう。" ::coughs::"
        [32]
         1 string data = ""すまない、バルブ。トゥルーディー...犬のことだが...もし慰めになるなら、苦しまなかったと思う。頼まれた通り、首輪を持ってきた。""
        [33]
@@ -424725,7 +424725,7 @@
        [78]
         1 string data = ""侵入者に対してNull Stackの側についた。ロボットは一体も戦闘を生き延びなかったし、今は鉱山が残骸で塞がれてる。""
        [79]
-        1 string data = "::laughs:: "Ain't no pile o' scrap metal gonna stop ol' Bulb! No sir! I got just the thing to clear that mess out. Have that mine goin' again in no time! You wait an' see!""
+        1 string data = "::laughs:: "スクラップの山ごときで年寄りバルブは止まらないぞ!違うとも!あの散らかったものを片付けるのにちょうどいいものがある。あっという間に鉱山をまた稼働させるさ!見てろよ!""
        [80]
         1 string data = ""Null Stackと話したのか?なあ、これは秘密にしてもらえるとありがたいんだが。総主教は、その...テルルの出荷をごまかしてることを良く思わないだろうからな。""
        [81]
@@ -424771,7 +424771,7 @@
        [101]
         1 string data = "Script Node 112"
        [102]
-        1 string data = "Bulb ignores you and keeps right on talking."
+        1 string data = "バルブはお前を無視して話し続ける。"
        [103]
         1 string data = ""
    [1504]
@@ -424815,17 +424815,17 @@
       1 Array Array (7 items)
        0 int size = 7
        [0]
-        1 string data = "Hephaestus Mk. V Plasma Mining Laser. STATUS: Ready to fire. Set aim point now?"
+        1 string data = "ヘファイストスMk. Vプラズマ採掘レーザー。状態:発射準備完了。今すぐ照準点を設定しますか?"
        [1]
-        1 string data = "Target the laser on the nearest robot."
+        1 string data = "最も近いロボットにレーザーを照準する。"
        [2]
-        1 string data = "Step away."
+        1 string data = "離れる。"
        [3]
-        1 string data = "Aim point set. Initiating firing sequence..."
+        1 string data = "照準点設定完了。発射シーケンス開始中..."
        [4]
-        1 string data = "The computer doesn't respond to commands. It must have been damaged during the battle."
+        1 string data = "コンピューターがコマンドに応答しない。戦闘中に損傷を受けたに違いない。"
        [5]
-        1 string data = "Hephaestus Mk. V Plasma Mining Laser. STATUS: Recharging, stand by..."
+        1 string data = "ヘファイストスMk. Vプラズマ採掘レーザー。状態:再充電中、待機してください..."
        [6]
         1 string data = "::bbzzz::"
    [1505]
