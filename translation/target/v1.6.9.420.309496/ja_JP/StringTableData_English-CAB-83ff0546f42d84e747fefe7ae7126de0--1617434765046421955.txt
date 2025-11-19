@@ -355551,15 +355551,15 @@
        [24]
         1 string data = " Provide some info."
        [25]
-        1 string data = " Enough talk - Stay away or prepare to fight! (Conversation Ends)"
+        1 string data = " おしゃべりは終わりだ - 離れるか戦う準備をしろ！(Conversation Ends)"
        [26]
-        1 string data = " Unique response - Stay away or prepare to fight. (Conversation Ends)"
+        1 string data = " ユニーク応答 - 離れるか戦う準備をしろ。(Conversation Ends)"
        [27]
-        1 string data = " Unique response - Stay away or prepare to fight. (Conversation Ends)"
+        1 string data = " ユニーク応答 - 離れるか戦う準備をしろ。(Conversation Ends)"
        [28]
-        1 string data = " Stay away or prepare to fight!"
+        1 string data = " 離れるか戦う準備をしろ！"
        [29]
-        1 string data = ""RANGERS, I must insist that you stand the fuck down! We don't want a quarrel with you but we sure as hell don't mind finishing anything you start." "
+        1 string data = ""レンジャー、下がることを強く要求する！お前たちと争いたくはないが、お前たちが始めたことは喜んで終わらせる。" "
        [30]
         1 string data = ""ここで密輸作戦が行われている疑いがある。""
        [31]
@@ -355583,7 +355583,7 @@
        [40]
         1 string data = ""見事だ。密輸業者を見つけたな。問題は、俺たちは作戦を終わらせるつもりはないし、交渉の余地もないってことだ。""
        [41]
-        1 string data = ""Damn right we've been smuggling refugees into the city. And yeah, we already know the Hundred Families don't like it. Tough shit." "
+        1 string data = ""その通りだ、難民を街に密輸してきた。ああ、百家族が気に入らないことも知ってる。知ったことか。" "
        [42]
         1 string data = ""わかった。俺の名前はステネルドだ。総主教が気づいていないようだが、何百人もの難民が彼の街に入ろうと必死なんだ...持っている全てを俺に払うほど必死にな。""
        [43]
@@ -355599,7 +355599,7 @@
        [48]
         1 string data = ""残念ながらお前たちには、俺には数の優位<i>と</i>高台がある。お前たちには終わりだ。野郎ども？やることはわかってるな！""
        [49]
-        1 string data = "[Shouting] Boys! You know what to do."
+        1 string data = "[Shouting] 野郎ども！やることはわかってるな。"
    [1183]
     0 StringTable data
      1 string Filename = "o1001_longjohnexterior"
@@ -355787,9 +355787,9 @@
        [20]
         1 string data = "Script Node 23"
        [21]
-        1 string data = "Dead, Long John looks smaller than he once was, a broken puppet with its limbs akimbo. The limb, if you choose to remove it, slides out with a faint pop."
+        1 string data = "死んだロングジョンは以前より小さく見える。手足を広げた壊れた人形のようだ。義手を取り外すことにすれば、かすかなポンという音とともに抜ける。"
        [22]
-        1 string data = "[Attack] "You got some sweet tech on your chest there. We're taking it.""
+        1 string data = "[Attack] "胸にいいテクノロジーを付けてるな。いただくぞ。""
        [23]
         1 string data = ""中に戻った方がいいと思う。""
        [24]
