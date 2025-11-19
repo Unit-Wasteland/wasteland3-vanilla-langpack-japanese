@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 416569,
+    "current_line": 417853,
     "total_lines": 530425,
-    "entries_completed": 149396,
+    "entries_completed": 149409,
     "total_entries": 169712,
     "percent_complete": 88.0,
-    "untranslated_entries": 20316,
-    "last_section": "x1201_radioantenna",
+    "untranslated_entries": 20303,
+    "last_section": "x2801_kymhie",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-20: Session 34 completed. Radio antenna puzzle interaction (7 entries): x1201_radioantenna. Antenna repair and beeping sound investigation. All quote formats matched source. All validations: 0 errors."
+    "notes": "2025-11-20: Session 35 completed. Wind-that-Tangles and Kym Hie dialogue content (13 entries): x1201_wind (6 entries), x2801_kymhie (7 entries). Godfisher backstory, Cogan debt situation. All quote formats matched source. All validations: 0 errors."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,22 +37,23 @@
     "notes": "Pending base game and DLC2 completion"
   },
   "last_session": {
-    "session_number": 34,
+    "session_number": 35,
     "date": "2025-11-20",
-    "entries_processed": 7,
+    "entries_processed": 13,
     "sections_completed": [
-      "x1201_radioantenna (7 entries - antenna puzzle interaction)"
+      "x1201_wind (6 entries - Wind-that-Tangles dialogue)",
+      "x2801_kymhie (7 entries - Kym & Yoon Hie story)"
     ],
-    "commit_hash": "fceed07",
+    "commit_hash": "95565e5",
     "validation_passed": true,
-    "notes": "Session 34: Radio antenna puzzle content. Translated antenna repair interaction and beeping sound investigation narrative. All quote formats matched source (2-quote format). All validations: 0 structural errors, 0 action marker errors. Note: Quality validation showed 166 false positives for [Global:] markers - correctly kept in English per rules.",
-    "next_action": "Continue sequential translation from line 416569 (x1201_wind section)"
+    "notes": "Session 35: Wind-that-Tangles Godfisher backstory and Kym Hie debt situation. Translated player dialogue choices, NPC interaction, and emotional scenes with action markers (sobs). All quote formats matched source. All validations: 0 structural errors, 0 action marker errors.",
+    "next_action": "Continue sequential translation from line 417853 (x2801_mosscogan section)"
   },
   "cumulative_stats": {
-    "total_sessions": 34,
-    "total_entries_translated": 149396,
-    "untranslated_remaining": 20316,
-    "average_entries_per_session": 4394,
+    "total_sessions": 35,
+    "total_entries_translated": 149409,
+    "untranslated_remaining": 20303,
+    "average_entries_per_session": 4269,
     "estimated_sessions_remaining_base": 5,
     "estimated_days_remaining_base": "18-22 days",
     "estimated_sessions_remaining_dlc1": 203,
