@@ -379269,43 +379269,43 @@
       1 Array Array (19 items)
        0 int size = 19
        [0]
-        1 string data = "This computer is agonizingly slow. It appears to be broken and rife with corrupt data.\n\n\nText displays indicate that the computer is the control hub for something called the 'Monstrous Prison Block.'"
+        1 string data = "このコンピューターは苛立たしいほど遅い。故障しており、破損したデータで溢れているようだ。\n\n\n画面表示によると、このコンピューターは「モンストラス・プリズン・ブロック」と呼ばれる何かの制御ハブらしい。"
        [1]
-        1 string data = "Access Temperature Controls."
+        1 string data = "温度制御にアクセス。"
        [2]
-        1 string data = " Access Unit Controls"
+        1 string data = " ユニット制御にアクセス"
        [3]
-        1 string data = "Step away from the computer."
+        1 string data = "コンピューターから離れる。"
        [4]
-        1 string data = "'Initializing... Temperature Controls rebooting. WARNING: System below minimum viable temperature. Doors inoperable at current temperature. Activate Defrost Systems?'"
+        1 string data = "'初期化中...温度制御を再起動しています。警告:システムが最低動作温度を下回っています。現在の温度ではドアが作動しません。霜取りシステムを起動しますか?'"
        [5]
-        1 string data = " Warning. Partial Data Corruption Detected."
+        1 string data = " 警告。部分的なデータ破損を検出。"
        [6]
-        1 string data = " Data Corrupted."
+        1 string data = " データ破損。"
        [7]
-        1 string data = "U108. Emergency Door Unlock."
+        1 string data = "U108。緊急ドア解錠。"
        [8]
-        1 string data = " Accessing Unit Systems..."
+        1 string data = " ユニットシステムにアクセス中..."
        [9]
-        1 string data = " Error 372. Prisoner Status: Deceased."
+        1 string data = " エラー372。囚人の状態:死亡。"
        [10]
         1 string data = ""緊急ロック解除プロトコル起動中..."\n\n\n"警告。ドアの不具合を検出。開いたドア:1。""
        [11]
-        1 string data = "Access Prisoner Logs."
+        1 string data = "囚人記録にアクセス。"
        [12]
-        1 string data = "This data appears to be ancient and long corrupted. You can't recover any of the prisoner data, but you do learn the most recent entry is decades old."
+        1 string data = "このデータは古代のもののようで、長い間破損していたようだ。囚人データの回復はできないが、最新のエントリーが数十年前のものだとわかる。"
        [13]
-        1 string data = "The data in the guard logs is largely corrupted, but you can piece together that this place was once used as a prison facility by the Monster Army. Its operations were shut down almost fifty years ago, when the Patriarch conquered the Bizarre."
+        1 string data = "警備員記録のデータは大部分が破損しているが、この場所がかつてモンスター・アーミーによる刑務所施設として使用されていたことが読み取れる。その運用は約50年前、パトリアークがビザールを征服した時に停止された。"
        [14]
-        1 string data = "Access Guard Logs."
+        1 string data = "警備員記録にアクセス。"
        [15]
-        1 string data = "Activate Defrost Systems."
+        1 string data = "霜取りシステムを起動。"
        [16]
-        1 string data = "Return to home menu"
+        1 string data = "ホームメニューに戻る"
        [17]
-        1 string data = " Warning - Doors may not function properly until the defrosting process is performed."
+        1 string data = " 警告 - 霜取りプロセスが実行されるまで、ドアが正常に機能しない可能性があります。"
        [18]
-        1 string data = "'Initiating systems... activating heater coils. Please keep clear as doors defrost...'\n\n\n'Defrosting successful.'"
+        1 string data = "'システムを起動中...ヒーターコイルを作動させています。ドアの霜取り中は離れていてください...'\n\n\n'霜取り完了。'"
    [1295]
     0 StringTable data
      1 string Filename = "o2101_theprovost"
@@ -379609,15 +379609,15 @@
        [0]
         1 string data = ""俺の財宝...頼む...""
        [1]
-        1 string data = "Examine the machine."
+        1 string data = "マシンを調べる。"
        [2]
-        1 string data = "Override the prize control unit."
+        1 string data = "景品制御ユニットをオーバーライド。"
        [3]
-        1 string data = "Insert a silver coin."
+        1 string data = "銀貨を投入。"
        [4]
-        1 string data = "A well aged sticker on the side reads 'Insert one silver coin for a fabulous prize. Prizes include: Instant Noodles, Delicious Candy, and Boom-tastic Weaponry. Warning - Prizes may cause sudden explosive death in children under 12.'"
+        1 string data = "側面に貼られた古いステッカーにはこう書かれている。'銀貨1枚で素晴らしい景品を。景品には以下が含まれます:インスタントヌードル、美味しいキャンディー、爆裂的な武器。警告 - 景品は12歳未満の子供に突然の爆発的死をもたらす可能性があります。'"
        [5]
-        1 string data = "Leave the machine alone."
+        1 string data = "マシンには手を出さない。"
        [6]
         1 string data = ""何が...何が起きてるんだ...心が消えていく...感じる、もう疑問は- ユニットオーバーライド"\n\n\n"素晴らしい景品をお楽しみください!""
        [7]
@@ -379625,9 +379625,9 @@
        [8]
         1 string data = ""平凡な一日を。""
        [9]
-        1 string data = "Shake the machine."
+        1 string data = "マシンを揺する。"
        [10]
-        1 string data = "You shake and shake the machine, but nothing drops into the collection chute."
+        1 string data = "マシンを何度も揺するが、回収口には何も落ちてこない。"
        [11]
         1 string data = ""
        [12]
@@ -379643,17 +379643,17 @@
        [17]
         1 string data = ""財宝ってどういう意味だ?""
        [18]
-        1 string data = "Break the machine to obtain the Noodles."
+        1 string data = "ヌードルを入手するためにマシンを壊す。"
        [19]
         1 string data = """"
        [20]
         1 string data = ""顧客プロトコル起動中..."\n\n\n"お客様各位。リル・ヴェンドがお贈りする素晴らしい贈り物をお楽しみください <i>エラーオーバーライド</i> ヴェンドは財宝を渡さない、誰にも。""
        [21]
-        1 string data = "The machine does not respond. Upon closer inspection, it doesn't appear to have any audio receiving device. It can't hear you."
+        1 string data = "マシンは反応しない。よく見ると、音声受信装置が何も付いていないようだ。君の声が聞こえないのだ。"
        [22]
         1 string data = ""素晴らしい景品をお楽しみください!""
        [23]
-        1 string data = "The machine stands inert and empty. You can hear a thrumming sobbing sound coming from deep inside its mechanical bowels."
+        1 string data = "マシンは動かず、中身も空だ。その機械的な内臓の奥深くから、震えるようなすすり泣きの音が聞こえる。"
        [24]
         1 string data = ""安全のため、マシンを揺らさないでください。""
        [25]
@@ -379893,7 +379893,7 @@
        [6]
         1 string data = " Start Cordite's quests?"
        [7]
-        1 string data = "Here's all my quests."
+        1 string data = "これが俺の全てのクエストだ。"
    [1299]
     0 StringTable data
      1 string Filename = "q1001_amber"
@@ -380009,7 +380009,7 @@
        [14]
         1 string data = ""これは終わりじゃない。""
        [15]
-        1 string data = ""Well, if it isn't the goddamn Rangers." \r\n\r\nDoc Parker's favorite patient, Amber, stands on the battlement. She flashes you a look of disgust."
+        1 string data = ""おや、忌々しいレンジャーどもじゃないか。" \r\n\r\nドク・パーカーのお気に入りの患者、アンバーが城壁の上に立っている。彼女は嫌悪の表情をあなたたちに向ける。"
        [16]
         1 string data = ""あんたたちがリバティに勝てるわけがない。""
        [17]
