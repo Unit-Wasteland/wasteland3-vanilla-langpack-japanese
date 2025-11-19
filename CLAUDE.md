@@ -413,6 +413,72 @@ wc -l translation/target/v1.6.9.420.309496/ja_JP/*.txt
    4. Spanish translated AND differs from English → Translate
    5. **Otherwise → Translate** (default: prevents untranslated proper nouns)
 
+8. **Space-Prefixed Entries - Special Handling** ⚠️ CRITICAL
+
+   **IMPORTANT**: Entries that begin with a space character (` `) require careful evaluation. They are NOT always debug messages.
+
+   **Evaluation Criteria - Check EACH entry individually:**
+
+   **✅ TRANSLATE these space-prefixed entries:**
+   - Game dialogue options: ` "Goodbye."`
+   - Player choices: ` "What are we waiting for? Let's take the Bizarre."`
+   - NPC responses: ` "Go on in. Asger and Bjorn will accompany you."`
+   - Quest-related text: ` "Ready to begin assault on Bizarre."`
+   - Game messages with technical comments: ` "Let the battle begin! (TODO Cutscene)"`
+   - **Rule**: If the text contains actual in-game dialogue or player-facing content, TRANSLATE IT
+   - **Preserve technical comments**: Keep `(TODO ...)`, `(Requires ...)`, `(quest active)` as-is in parentheses
+
+   **❌ DO NOT TRANSLATE these space-prefixed entries:**
+   - Variable assignments: ` "Set o2001_ToldFlabAboutCharleysPlan to 1"`
+   - Debug menu options: ` "View Debug Options."`, ` "Select a Debug Option."`
+   - System messages: ` "Global Variable set."`
+   - Technical cascades: ` "Cascade 25"`, ` "Bank 31"`
+   - Pure development markers: Starting with `DEBUG -`, `Test$`, `Set [variable]`, `Global Variable`
+   - **Rule**: If the text is purely technical/system-level with no player-facing content, DO NOT TRANSLATE
+
+   **Decision Process:**
+   ```
+   1. Read the space-prefixed entry
+   2. Ask: "Would a player see this text in-game?"
+      - YES → Translate (preserve technical comments in parentheses)
+      - NO → Skip (pure debug/system message)
+   3. When in doubt, check Spanish (es_ES) reference:
+      - If Spanish translated it → Translate to Japanese
+      - If Spanish kept it in English → Skip
+   ```
+
+   **Examples:**
+
+   ✅ **TRANSLATE:**
+   ```
+   " Greetings. (Charley In Charge quest active)"
+   → " 挨拶する。(Charley In Chargeクエストアクティブ時)"
+
+   " Ready to begin assault on Bizarre."
+   → " ビザール襲撃を開始する準備ができている。"
+
+   " Can't start until the whole team is here!"
+   → " チーム全員が揃うまで開始できない！"
+   ```
+
+   ❌ **DO NOT TRANSLATE:**
+   ```
+   " Set o2001_ToldFlabAboutCharleysPlan to 1"
+   → Keep as-is (variable assignment)
+
+   " View Debug Options."
+   → Keep as-is (debug menu)
+
+   " Global Variable set."
+   → Keep as-is (system message)
+   ```
+
+   **Common Mistakes to Avoid:**
+   - ❌ Translating ALL space-prefixed entries without checking
+   - ❌ Skipping ALL space-prefixed entries without checking
+   - ❌ Removing technical comments like `(TODO Cutscene)` during translation
+   - ✅ Evaluating EACH entry based on whether it's player-facing content
+
 ### Retranslation Execution Strategy
 
 **Key Principles:**
