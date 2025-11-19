@@ -423383,35 +423383,35 @@
       1 Array Array (15 items)
        0 int size = 15
        [0]
-        1 string data = "~ Jingle All The Way ~\n\n\n'Santa's Naughty List is currently active and processing happiness levels of elf workers.\n\n\nCurrent Status: Marshmallow'"
+        1 string data = "~ Jingle All The Way ~\n\n\n'サンタの悪い子リストは現在アクティブで、エルフ労働者の幸福度を処理中。\n\n\n現在のステータス: マシュマロ'"
        [1]
-        1 string data = "Log off."
+        1 string data = "ログオフする。"
        [2]
-        1 string data = "Kill the active Naughty List process on the server."
+        1 string data = "サーバー上のアクティブな悪い子リストプロセスを終了する。"
        [3]
-        1 string data = "Open the computer's case and disable the antenna."
+        1 string data = "コンピューターのケースを開けてアンテナを無効にする。"
        [4]
-        1 string data = "Use the Jingle All The Way schematics to disable the computer."
+        1 string data = "Jingle All The Wayの設計図を使用してコンピューターを無効にする。"
        [5]
-        1 string data = "Attempt to access an options menu."
+        1 string data = "オプションメニューへのアクセスを試みる。"
        [6]
-        1 string data = "~ Jingle All The Way ~\n\n\n'A happy elf is a productive elf.\n\n\nHappy Holidays!'"
+        1 string data = "~ Jingle All The Way ~\n\n\n'幸せなエルフは生産的なエルフ。\n\n\nハッピーホリデー!'"
        [7]
-        1 string data = "~ Jingle All The Way ~\n\n\n'Santa's Naughty List is currently disabled.\n\n\nCurrent Status: Coal'"
+        1 string data = "~ Jingle All The Way ~\n\n\n'サンタの悪い子リストは現在無効化されています。\n\n\n現在のステータス: 石炭'"
        [8]
-        1 string data = "You poke around the various menus and options in this cryptically seasonal interface. A lone option appears to be available to you:\n\n\n'Jingle All the Bells.'"
+        1 string data = "この不可解な季節的インターフェースの様々なメニューとオプションをいじり回す。一つだけ選択可能なオプションが表示される:\n\n\n'Jingle All the Bells.'"
        [9]
-        1 string data = "Select 'Jingle All the Bells.'"
+        1 string data = "'Jingle All the Bells.'を選択する。"
        [10]
-        1 string data = "~ Jingle All The Way ~\n\n\n'Jingle, jingle, jingle those bad little elves!\n\n\nHappy Holidays!'"
+        1 string data = "~ Jingle All The Way ~\n\n\n'ジングル、ジングル、ジングル、悪い小さなエルフたち!\n\n\nハッピーホリデー!'"
        [11]
-        1 string data = "You hack into the computer and disable the main process that was running. The computer system is effectively now just a large night light."
+        1 string data = "コンピューターにハッキングして実行中のメインプロセスを無効化する。コンピューターシステムは今や事実上、ただの大きな常夜灯になった。"
        [12]
-        1 string data = "Leveraging the Jingle All The Way schematics, you decypher the cryptic seasonally themed interface, choosing the options, 'Stockings,' and then 'Orange in the Toe.' There is a short animation of a fireplace burning, then being extinguised."
+        1 string data = "Jingle All The Wayの設計図を活用して、不可解な季節テーマのインターフェースを解読し、'Stockings'、そして'Orange in the Toe'のオプションを選択する。暖炉が燃えて、そして消火される短いアニメーションが表示される。"
        [13]
-        1 string data = "You pull open a few panels and locate the antenna that sends signals to and from the elves. The computer recognizes a system failure and promptly shuts down. An image of a piece of coal quickly displayed before the computer turned off."
+        1 string data = "いくつかのパネルを開けて、エルフとの間で信号を送受信するアンテナを見つける。コンピューターはシステム障害を認識して即座にシャットダウンする。コンピューターが電源を切る前に石炭のイメージが素早く表示される。"
        [14]
-        1 string data = "~ Jingle All The Way ~\n\n\n'Santa's Naughty List is awaiting new elves.\n\n\nCurrent Status: Milk and Cookies'"
+        1 string data = "~ Jingle All The Way ~\n\n\n'サンタの悪い子リストは新しいエルフを待機中。\n\n\n現在のステータス: ミルクとクッキー'"
    [1500]
     0 StringTable data
      1 string Filename = "x3701_brokenbot"
@@ -423741,13 +423741,13 @@
       1 Array Array (79 items)
        0 int size = 79
        [0]
-        1 string data = "A scavenger has been badly damaged. The smell of ozone and the burning of industrial fluids fill the air.\n\n\n"Preserving power. Deactivating unnecessary sub-systems... mobility disabled... Proximity sensor activited, initiating self-defensive combat manuevers!""
+        1 string data = "スカベンジャーが深刻な損傷を受けている。オゾンの臭いと産業用流体の燃焼臭が空気に満ちている。\n\n\n"電力保持。不要なサブシステム無効化中...移動機能無効...近接センサー作動、自己防衛戦闘マニューバ開始!""
        [1]
-        1 string data = "Nothing happens for a few seconds.\n\n\n"Evaluating combat success..."\n\n\n"Combat subroutine not responding. Divert power to communications protocol. Initiate self-preservation subterfuge dialog... adorable human boy lure.""
+        1 string data = "数秒間、何も起こらない。\n\n\n"戦闘成功評価中..."\n\n\n"戦闘サブルーチン応答なし。通信プロトコルに電力転用。自己保存騙しダイアログ開始...可愛い人間の男の子の誘惑。""
        [2]
         1 string data = ""おばあちゃん、あなたなの?!おばあちゃん、僕ティミーだよ。動けないんだ。テルルが必要なんだ、おばあちゃん!助けて!""
        [3]
-        1 string data = "[Mock] "Timmy? It's Gammy. I'm here, baby.""
+        1 string data = "[あざける] "ティミー?おばあちゃんよ。ここにいるわ、赤ちゃん。""
        [4]
         1 string data = ""本当に?君の名前は'ティミー'か?""
        [5]
@@ -423777,7 +423777,7 @@
        [17]
         1 string data = ""騙しは成功したか?評価中...""
        [18]
-        1 string data = ""... Negative."\n\n\nSparks pop from the robot's head. It shudders slightly."
+        1 string data = ""...否定。"\n\n\nロボットの頭から火花が飛び散る。わずかに震える。"
        [19]
         1 string data = ""まだ騙されてないぞ、ロボット。""
        [20]
@@ -423801,7 +423801,7 @@
        [29]
         1 string data = ""知る必要があるのはそれだけだ。""
        [30]
-        1 string data = "::sobs:: "Grandma! I'm so cold. So... cold...""
+        1 string data = "::sobs:: "おばあちゃん!寒いよ。とても...寒い...""
        [31]
         1 string data = ""我々はテルルを必要としている。それは無機マシンの生産に不可欠な資源だ。鉱山を操作する有機ユニットが、相互に有益な合意の一環としてテルルを提供してくれる。我々は彼をDevice01と呼称している。""
        [32]
