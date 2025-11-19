@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 371587,
+    "current_line": 374995,
     "total_lines": 530425,
-    "entries_completed": 149033,
+    "entries_completed": 149053,
     "total_entries": 169712,
     "percent_complete": 87.8,
-    "untranslated_entries": 20679,
-    "last_section": "o2001_pareidoliajones",
+    "untranslated_entries": 20659,
+    "last_section": "o2001_slicerdicer",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-20: Session 15 completed. Fixed 18 glossary violations and translated o2001_pareidoliajones section (9 entries). All validations passed."
+    "notes": "2025-11-20: Session 16 completed. Translated o2001 sections: Randy Gett mechanic (5 entries), Piscitelli weapon shop (6 entries), Slicer Dicer robot (9 entries). All action markers preserved. Quote formats matched source exactly. All validations passed."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,23 +37,25 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 15,
+    "session_number": 16,
     "date": "2025-11-20",
-    "entries_processed": 9,
+    "entries_processed": 20,
     "sections_completed": [
-      "o2001_pareidoliajones"
+      "o2001_randygett",
+      "o2001_piscitelli",
+      "o2001_slicerdicer"
     ],
-    "commit_hash": "92dfa4cf",
+    "commit_hash": "27cc554",
     "validation_passed": true,
-    "notes": "Fixed 18 glossary violations (Rangers, Marshal, Colorado, Daisy, Kwon, Vic proper nouns). Translated o2001_pareidoliajones section (9 entries: Pareidolia Jones caravan master dialogue, rubber duck phobia, refugee transport quest). Global markers preserved. Structure: 0 errors. Action markers: 0 errors. Quote formats: matched source exactly.",
-    "next_action": "Continue sequential translation from line 371587"
+    "notes": "Translated 20 entries across 3 sections. Randy Gett: mechanic dialogue with family rescue quest. Piscitelli: weapon shop owner with burn scars, weapon crafting. Slicer Dicer: broken robot from Arizona with Cochise reference. Action markers preserved (chew, progressively more intense chewing). Quote formats matched exactly. Structure: 0 errors. Action markers: 0 errors.",
+    "next_action": "Continue sequential translation from line 374995"
   },
   "cumulative_stats": {
-    "total_sessions": 15,
-    "total_entries_translated": 149033,
-    "untranslated_remaining": 20679,
+    "total_sessions": 16,
+    "total_entries_translated": 149053,
+    "untranslated_remaining": 20659,
     "average_entries_per_session": 20,
-    "estimated_sessions_remaining_base": 1034,
+    "estimated_sessions_remaining_base": 1033,
     "estimated_days_remaining_base": "21-25 days (average 20 entries/session)",
     "estimated_sessions_remaining_dlc1": 193,
     "estimated_days_remaining_dlc1": "5-7 days",
