@@ -354395,7 +354395,7 @@
        [2]
         1 string data = ""ビザールに入る資格を得たら、あの有名なポークバンズを試してみようと思ってるんだ。""
        [3]
-        1 string data = "If you ever meet Flab the Inhaler, don't draw attention to his weight or he'll have you fed to his pigs."
+        1 string data = "もしフラブ・ザ・インヘイラーに会うことがあったら、彼の体重に注意を向けるな。さもないとブタの餌にされるぞ。"
        [4]
         1 string data = ""一度ビザールに入ったんだが、気づいたらエイディロンの劇場で全財産を使い果たしてたよ。""
        [5]
@@ -354413,9 +354413,9 @@
        [11]
         1 string data = ""コロラドスプリングスに行ったことあるか？そこにはロボットの使用人がいて、足をマッサージしてくれるらしいぞ。""
        [12]
-        1 string data = "Sorry about the stomach grumbling. I haven't eaten anything all day."
+        1 string data = "腹の音ですまない。一日中何も食べてないんだ。"
        [13]
-        1 string data = "I may be hungry but at least I'm not cold."
+        1 string data = "腹は減ってるが、少なくとも寒くはない。"
        [14]
         1 string data = ""あんたは寒さなんか気にしないみたいだな。""
        [15]
@@ -354423,7 +354423,7 @@
        [16]
         1 string data = ""忠告だが、ビザールの近くにいた方がいい。周辺を探検しに行った奴らは消えていくんだ。""
        [17]
-        1 string data = "If you wan't to take your mind of the cold, just go outside and stare at the sun."
+        1 string data = "寒さから気をそらしたいなら、外に出て太陽を見つめればいい。"
        [18]
         1 string data = ""あれはウェッソンの娘じゃないか？こんなところで何してるんだ？""
        [19]
@@ -354793,19 +354793,19 @@
       1 Array Array (8 items)
        0 int size = 8
        [0]
-        1 string data = "The computer display reads, 'Greenhouse Pesticide Control. Status: READY.'\n\n\nDo you want to flood the greenhouse with pesticide gas?"
+        1 string data = "コンピュータの画面に「温室殺虫剤制御システム。ステータス：準備完了」と表示されている。\n\n\n温室に殺虫剤ガスを充満させますか？"
        [1]
-        1 string data = "Yes."
+        1 string data = "はい。"
        [2]
-        1 string data = "No."
+        1 string data = "いいえ。"
        [3]
         1 string data = ""
        [4]
-        1 string data = "There is a whir of electric motors and the rumble of pumps.\n\n\nA message appears on the display. 'Releasing pesticide. WARNING: Toxic gas in use. Please stand by.'\n\n\nAfter a few moments, the pumps cease."
+        1 string data = "電動モーターの唸り声とポンプの轟音が響く。\n\n\n画面にメッセージが表示される。「殺虫剤を放出中。警告：有毒ガス使用中。お待ちください。」\n\n\n数分後、ポンプが停止した。"
        [5]
-        1 string data = "You step away from the computer."
+        1 string data = "あなたはコンピュータから離れた。"
        [6]
-        1 string data = "'Greenhouse Pesticide Control. Status: TANKS EMPTY - please notify Project Administrator.'"
+        1 string data = "「温室殺虫剤制御システム。ステータス：タンク空 - プロジェクト管理者に通知してください。」"
        [7]
         1 string data = "::bbzzz::"
    [1181]
