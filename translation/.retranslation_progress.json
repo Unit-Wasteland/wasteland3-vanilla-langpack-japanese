@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 355250,
+    "current_line": 355820,
     "total_lines": 530425,
-    "entries_completed": 148916,
+    "entries_completed": 148925,
     "total_entries": 169712,
     "percent_complete": 87.7,
-    "untranslated_entries": 20796,
-    "last_section": "greenhouse_pesticide_control",
+    "untranslated_entries": 20787,
+    "last_section": "longjohn_exterior_dialogue",
     "validation_status": "passed",
     "structure_errors": 9,
     "action_marker_errors": 0,
     "quality_issues": 20803,
-    "notes": "2025-11-19: Session 5 completed. 17 entries translated (2 commits). Fixed space-prefixed dialogue translation. Next: line 355250."
+    "notes": "2025-11-19: Session 6 completed. 9 entries translated (1 commit). Applied CLAUDE.md space-prefixed rules correctly. Next: line 355820."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,23 +37,22 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 5,
+    "session_number": 6,
     "date": "2025-11-19",
-    "entries_processed": 17,
+    "entries_processed": 9,
     "sections_completed": [
-      "Hopeful NPC ambient dialogue (4 entries)",
-      "Greenhouse Pesticide Control computer system (6 entries)",
-      "Odinkirk space-prefixed dialogue options (7 entries)"
+      "Lewis Stenerud smuggler dialogue with space-prefixed choices (7 entries)",
+      "Long John exterior dialogue and narration (2 entries)"
     ],
-    "commit_hash": "c7d3daae",
+    "commit_hash": "e745f797",
     "validation_passed": true,
-    "notes": "Manual translation: 17 entries, 2 commits. Fixed incorrect skipping of space-prefixed entries. Lesson: Check each space-prefixed entry individually.",
-    "next_action": "Continue from line 355250"
+    "notes": "Manual translation: 9 entries, 1 commit. Applied CLAUDE.md space-prefixed rules: translated player-facing content, skipped debug options. Fixed quote count error.",
+    "next_action": "Continue from line 355820"
   },
   "cumulative_stats": {
-    "total_sessions": 5,
-    "total_entries_translated": 148916,
-    "untranslated_remaining": 20796,
+    "total_sessions": 6,
+    "total_entries_translated": 148925,
+    "untranslated_remaining": 20787,
     "average_entries_per_session": 38,
     "estimated_sessions_remaining_base": 548,
     "estimated_days_remaining_base": "11-15 days (average 38 entries/session)",
