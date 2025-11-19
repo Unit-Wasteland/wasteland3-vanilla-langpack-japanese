@@ -395089,51 +395089,51 @@
       1 Array Array (23 items)
        0 int size = 23
        [0]
-        1 string data = " This weird booth performs surgery to install mods. Only powered on when Steel-Trap offers."
+        1 string data = " この奇妙なブースはモッドをインストールするための手術を行う。スティール・トラップが提供する時のみ電源が入る。"
        [1]
         1 string data = " Debug options."
        [2]
-        1 string data = " What do you want to do?"
+        1 string data = " 何をしたい?"
        [3]
-        1 string data = " Leave."
+        1 string data = " 立ち去る。"
        [4]
-        1 string data = " Install a mod in my squad leader"
+        1 string data = " 分隊リーダーにモッドをインストール"
        [5]
-        1 string data = " Mod is installed."
+        1 string data = " モッドがインストールされた。"
        [6]
-        1 string data = "The Suture-Self Surgery Kiosk is an ancient, imposing device. It looks like it was built to modify one person at a time. Dried blood and hair is caked around the edges of the device."
+        1 string data = "セルフ縫合手術キオスクは古く、威圧的な装置だ。一度に一人を改造するために作られたように見える。乾いた血と髪の毛が装置の縁の周りに固まっている。"
        [7]
-        1 string data = "Enter the SSSK. "
+        1 string data = "SSSKに入る。"
        [8]
-        1 string data = "Do not enter the SSSK."
+        1 string data = "SSSKに入らない。"
        [9]
-        1 string data = "You strap yourself into the gruesome contraption and press the START button."
+        1 string data = "グロテスクな仕掛けに身を固定し、スタートボタンを押す。"
        [10]
-        1 string data = "You step away from the gruesome contraption. "
+        1 string data = "グロテスクな仕掛けから離れる。"
        [11]
-        1 string data = "You face the surgery kiosk again. If it's activated, it's likely to do something unpleasant to [Actor Name]."
+        1 string data = "再び手術キオスクと向き合う。作動すれば、[Actor Name]に何か不快なことをする可能性が高い。"
        [12]
         1 string data = "Trigger Conv Node 14"
        [13]
         1 string data = "Trigger Conv Node 14"
        [14]
-        1 string data = "The apparatus does not seem to be powered on at the moment."
+        1 string data = "この装置は現在電源が入っていないようだ。"
        [15]
         1 string data = "Script Node 17"
        [16]
         1 string data = "Script Node 18"
        [17]
-        1 string data = "The machine continues to work."
+        1 string data = "機械は作動し続けている。"
        [18]
-        1 string data = "Whatever this thing does, it's going to hurt [Actor Name] if it's turned on."
+        1 string data = "これが何をするにせよ、電源が入れば[Actor Name]を傷つけることになる。"
        [19]
-        1 string data = "[Actor Name] shrieks in agony. The sounds of grinding bones and popping membranes seep through the thick metal casing as the machine works."
+        1 string data = "[Actor Name]が苦痛で叫び声を上げる。機械が作動する中、骨が砕かれ膜が破裂する音が厚い金属ケーシングを通して漏れ出る。"
        [20]
-        1 string data = "Saws whir and blood spatters..."
+        1 string data = "ノコギリが唸り、血が飛び散る..."
        [21]
         1 string data = ""
        [22]
-        1 string data = "Ironclad Cordite is already riddled with cyborg mods, so installing another won't impress Steel-Trap. You'll need to pick another Ranger to enter the booth."
+        1 string data = "アイアンクラッド・コーダイトは既にサイボーグモッドだらけなので、もう一つインストールしてもスティール・トラップには印象を与えられない。ブースに入る別のレンジャーを選ぶ必要がある。"
    [1345]
     0 StringTable data
      1 string Filename = "q1001_themechanic"
@@ -395839,11 +395839,11 @@
       1 Array Array (173 items)
        0 int size = 173
        [0]
-        1 string data = " Hi, rangers, I'm the Mechanic."
+        1 string data = " やあ、レンジャー、俺はメカニックだ。"
        [1]
         1 string data = " Debug options"
        [2]
-        1 string data = " Leave."
+        1 string data = " 立ち去る。"
        [3]
         1 string data = " Question node"
        [4]
@@ -395851,13 +395851,13 @@
        [5]
         1 string data = " Start combat and get the King Cordite mission"
        [6]
-        1 string data = " You should talk to the gangs slaves in their holding pen. Make sure to find a back way in."
+        1 string data = " ギャングどもの奴隷に囚人区画で話しかけるべきだ。必ず裏口から入れよ。"
        [7]
-        1 string data = " You chose Cordite over me :("
+        1 string data = " お前は俺よりコーダイトを選んだ :("
        [8]
-        1 string data = " You bastards! I'm outta here."
+        1 string data = " クソ野郎ども!俺は出て行くぜ。"
        [9]
-        1 string data = ""You're the Desert Rangers, right? The ones the Patriarch made a deal with? Good to see you! I been hopin' you'd-"  \r\n\r\nHe stops short when he sees Cordite with you. "
+        1 string data = ""お前らがデザート・レンジャーだな?パトリアークが取引した連中か?会えて嬉しいぜ!ずっと待ってたんだ―"  \r\n\r\n彼はコーダイトがお前と一緒にいるのを見て言葉を止める。"
        [10]
         1 string data = ""この阿呆は老人の手先だ。奴を殺すか、俺たちはこれまでだ。""
        [11]
@@ -395949,7 +395949,7 @@
        [54]
         1 string data = ""何があってもドーシーズとは戦わなきゃならない。奴らだけを相手にしたいんだろ?""
        [55]
-        1 string data = ""Take my key. It'll "
+        1 string data = ""俺の鍵を持ってけ。"
        [56]
         1 string data = ""大まかなことは教えられるが、細かいことはお前ら次第だ。誰について知りたい?スカー・コレクターズか?パヤソスか?ゴッドフィッシャーズか?""
        [57]
@@ -395957,9 +395957,9 @@
        [58]
         1 string data = ""お前らがデザート・レンジャーだな?パトリアークが取引した連中か?会えて嬉しいぜ!ずっと待ってたんだ。パトリアークにはここでやらせたいことがたくさんあるし、時間もあまりない。さて、話はこうだ。""
        [59]
-        1 string data = ""Good job getting the Payasos and the Godfishers fighting. I saw the fireworks from here. That just leaves the Scar Collectors."\n\n\n"
+        1 string data = ""パヤソスとゴッドフィッシャーズを戦わせたのはいい仕事だ。ここから花火が見えたぜ。残りはスカー・コレクターズだけだ。"\n\n\n"
        [60]
-        1 string data = ""Good job getting the Scar Collectors fighting each other. I saw the fireworks from here. That just leaves the Payasos and the Godfishers."\n\n\n"
+        1 string data = ""スカー・コレクターズを互いに戦わせたのはいい仕事だ。ここから花火が見えたぜ。残りはパヤソスとゴッドフィッシャーズだけだ。"\n\n\n"
        [61]
         1 string data = ""いい仕事だ、レンジャー。やり遂げたな。パヤソス、ゴッドフィッシャーズ、スカー・コレクターズが一つの大乱戦で粉々になった。残ってる馬鹿はいねぇ。だが今度は本当に手を汚さなきゃならねぇぞ。""
        [62]
@@ -395967,9 +395967,9 @@
        [63]
         1 string data = ""リバティの監視カメラをハックしたんだぜ、この馬鹿野郎ども。全部見てたぞ。お前らが奴を殺したんだ!ボスの娘を殺しやがって!あれだけ苦労したのに!もうコロラドスプリングスには戻れねぇ、くそったれ!""
        [64]
-        1 string data = "So, got anything on the Scar Collectors yet?"
+        1 string data = "それで、スカー・コレクターズについて何かわかったか?"
        [65]
-        1 string data = ""Okay, okay, listen. The gangs may be loyal to Liberty, but they hate each others' guts. All you'd need to do is get each gang thinkin' the others are screwin' 'em somehow and this place'll go up like an ammo dump in a fire storm." "
+        1 string data = ""わかった、わかった、聞け。ギャングどもはリバティに忠実かもしれないが、互いの内臓を憎んでやがる。各ギャングに他のギャングが何らかの形で裏切ってると思わせるだけでいい。そうすりゃここは火災の中の弾薬庫みたいに吹き飛ぶ。""
        [66]
         1 string data = ""ちょっと待て。まず'一体お前は誰だ?'から始めようか。""
        [67]
@@ -396009,7 +396009,7 @@
        [84]
         1 string data = " Starting the mission."
        [85]
-        1 string data = " Add Cordite to the party and reset the q1001_TheMechanicMet. After selecting this, click the Mechanic again to start the dialog as if Cordite was present the whole time."
+        1 string data = " パーティにコーダイトを追加し、q1001_TheMechanicMetをリセット。選択後、メカニックを再度クリックすると、コーダイトが最初からいたかのように会話が開始される。"
        [86]
         1 string data = " Adding Cordite and prepping dialog to start convo over"
        [87]
@@ -396045,9 +396045,9 @@
        [102]
         1 string data = "Script Node 113"
        [103]
-        1 string data = " Open merchant screen."
+        1 string data = " 商人画面を開く。"
        [104]
-        1 string data = " Check me out."
+        1 string data = " 俺の品を見てくれ。"
        [105]
         1 string data = ""奴隷の檻の鍵をどうやって手に入れた?""
        [106]
@@ -396105,7 +396105,7 @@
        [132]
         1 string data = ""素晴らしい。計画は何だ?""
        [133]
-        1 string data = "[Lie] "Fine. We're here to do what the Patriarch wants. Tell us the plan.""
+        1 string data = "[Lie] "いいだろう。俺たちはパトリアークの望みを果たすためにここにいる。計画を教えてくれ。""
        [134]
         1 string data = ""お前らレンジャーが俺の人生を台無しにした。失せろ!""
        [135]

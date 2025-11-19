@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 394940,
+    "current_line": 396136,
     "total_lines": 530425,
-    "entries_completed": 149234,
+    "entries_completed": 149296,
     "total_entries": 169712,
     "percent_complete": 88.0,
-    "untranslated_entries": 20478,
-    "last_section": "q1001_steeltrap",
+    "untranslated_entries": 20416,
+    "last_section": "q1001_themechanic",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-20: Session 27 completed. Liberty camp NPCs dialogue (20 entries). Sections: q1001_stitch (doctor), q1001_starthatdreams (Godfishers leader), q1001_steeltrap (Scar Collectors leader). All action markers preserved. Structure: 0 errors."
+    "notes": "2025-11-20: Session 28 completed. Fixed debug message errors (8 entries), translated Liberty camp sections (62 entries): q1001_surgeryboothsi (surgery kiosk), q1001_themechanic (Mechanic spy infiltration dialogue). Structure protection maintained. All validations passed."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,26 +37,26 @@
     "notes": "Pending base game and DLC2 completion"
   },
   "last_session": {
-    "session_number": 27,
+    "session_number": 28,
     "date": "2025-11-20",
-    "entries_processed": 20,
+    "entries_processed": 70,
     "sections_completed": [
-      "q1001_stitch (slave doctor)",
-      "q1001_starthatdreams (Star-that-Dreams/Godfishers)",
-      "q1001_steeltrap (Steel-Trap/Scar Collectors - partial)"
+      "Error fixes: debug messages (8 entries)",
+      "q1001_surgeryboothsi (surgery kiosk - 23 entries)",
+      "q1001_themechanic (Mechanic spy - 39 entries)"
     ],
-    "commit_hash": "812e701",
+    "commit_hash": "pending",
     "validation_passed": true,
-    "notes": "Liberty camp NPC dialogue. Stitches doctor services with payment mechanics. Star-that-Dreams Haloed Moon affair plotline. Steel-Trap demolition derby challenge and test requirements. Action marker preserved (::sighs::). All validations passed with 0 errors.",
-    "next_action": "Continue sequential translation from line 394940"
+    "notes": "Session 28: Error correction and Liberty camp continuation. Fixed debug message translations (Debug options, test nodes reverted to English). Surgery kiosk interaction (Suture-Self Surgery Kiosk body modification). Mechanic infiltration dialogue with Cordite conflict, gang information, slave pen strategy. Bracket marker [Lie] corrected. All validations: 0 errors.",
+    "next_action": "Continue sequential translation from line 396136"
   },
   "cumulative_stats": {
-    "total_sessions": 27,
-    "total_entries_translated": 149234,
-    "untranslated_remaining": 20478,
-    "average_entries_per_session": 15,
-    "estimated_sessions_remaining_base": 1365,
-    "estimated_days_remaining_base": "21-27 days (average 15 entries per session)",
+    "total_sessions": 28,
+    "total_entries_translated": 149296,
+    "untranslated_remaining": 20416,
+    "average_entries_per_session": 18,
+    "estimated_sessions_remaining_base": 1134,
+    "estimated_days_remaining_base": "18-23 days (average 18 entries per session)",
     "estimated_sessions_remaining_dlc1": 214,
     "estimated_days_remaining_dlc1": "5-7 days",
     "estimated_sessions_remaining_dlc2": 134,
