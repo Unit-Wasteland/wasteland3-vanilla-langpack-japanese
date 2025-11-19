@@ -393899,13 +393899,13 @@
        [0]
         1 string data = ""やあ。みんなは俺をステッチと呼ぶ。この辺りで一応ドクターを務めてる。""
        [1]
-        1 string data = "[[Global: q1001_Money_SlaveDoctor_Cost] Dollars] "Hi again. Need some stitchin'? Cough up some cash and I'll patch your wounds.""
+        1 string data = "[[Global: q1001_Money_SlaveDoctor_Cost] Dollars] "また来たな。縫合が必要か?金を払えば傷を縫ってやる。""
        [2]
-        1 string data = "[[Global: q1001_Money_SlaveDoctor_Cost] Dollars] "Thanks. Fix us up.""
+        1 string data = "[[Global: q1001_Money_SlaveDoctor_Cost] Dollars] "ありがとう。治療してくれ。""
        [3]
         1 string data = ""今は大丈夫だ。""
        [4]
-        1 string data = "[[Global: q1001_Money_SlaveDoctor_Cost] Dollars] "If yer in one of the gangs, it's free. Heh. That's what bein' a slave is all about. But slaves and outsiders gotta pay.""
+        1 string data = "[[Global: q1001_Money_SlaveDoctor_Cost] Dollars] "ギャングのどれかに所属してるなら無料だ。ヘッ、奴隷ってのはそういうもんさ。だが奴隷や部外者は金を払う必要がある。""
        [5]
         1 string data = ""わかった。ここで待ってるよ。""
        [6]
@@ -394209,31 +394209,31 @@
       1 Array Array (61 items)
        0 int size = 61
        [0]
-        1 string data = " I'm Star-that-Dreams, leader of the Godfishers."
+        1 string data = " 私はスター・ザット・ドリームス、ゴッドフィッシャーズのリーダーだ。"
        [1]
         1 string data = " Debug options."
        [2]
-        1 string data = " What do you want to do?"
+        1 string data = " どうしたい?"
        [3]
-        1 string data = " Leave."
+        1 string data = " 立ち去る。"
        [4]
-        1 string data = " Tell him Haloed Moon is having an affair at Alaska Surprise."
+        1 string data = " ヘイロード・ムーンがアラスカ・サプライズで浮気していると伝える。"
        [5]
-        1 string data = " Oh no, she's being unfaithful! I'll go catcher at Alaska Surprise."
+        1 string data = " なんてこった、浮気してるのか!アラスカ・サプライズで捕まえに行くぞ。"
        [6]
-        1 string data = "A beautiful, long-haired man lounges on a leather-draped throne, sipping smoke from a hookah as women kneel worshipfully at his feet. His pants are leather too. You notice they have tattoos. He smiles sleepily at Cordite."
+        1 string data = "美しい長髪の男が革張りの玉座にもたれ、水タバコから煙を吸っている。女たちが崇拝するように足元にひざまずいている。彼のズボンも革製だ。タトゥーが入っているのに気づく。彼はコーダイトに眠そうに微笑む。"
        [7]
-        1 string data = "A beautiful, long-haired, shirtless man lounges on a leather-draped throne, sipping smoke from a hookah as women kneel worshipfully at his feet and stroke his leather pants. You notice that his pants have tattoos. \r\n\r\nHe looks up at your approach, then smiles sleepily at Cordite."
+        1 string data = "美しい長髪の上半身裸の男が革張りの玉座にもたれ、水タバコから煙を吸っている。女たちが崇拝するように足元にひざまずき、革のズボンを撫でている。ズボンにタトゥーが入っているのに気づく。\r\n\r\n彼はあなたたちが近づくと顔を上げ、コーダイトに眠そうに微笑む。"
        [8]
-        1 string data = "\n\n\nWhat? What do you want?"
+        1 string data = "\n\n\n何だ?何の用だ?"
        [9]
         1 string data = ""あなたの妻のヘイロード・ムーンに裏切られたことをお知らせしておこうと思いまして。""
        [10]
-        1 string data = "Nothing. Never mind. "
+        1 string data = "何でもない。気にしないでくれ。"
        [11]
-        1 string data = "Star that dreams sits up, alarmed. "
+        1 string data = "スター・ザット・ドリームスが驚いて身を起こす。"
        [12]
-        1 string data = "Go away. "
+        1 string data = "去れ。"
        [13]
         1 string data = ""ああ、犬が群れの支配権を争いに戻ってきたか。助けを求めに来たわけではあるまいな。雑種の小競り合いなど興味はない。""
        [14]
@@ -394287,11 +394287,11 @@
        [38]
         1 string data = ""また来たのか?なぜ私につきまとう?""
        [39]
-        1 string data = "::sighs:: "What did I tell you?""
+        1 string data = "::sighs:: "何と言ったと思う?""
        [40]
         1 string data = ""私を放っておけ。考えなければならないことがある...""
        [41]
-        1 string data = "A beautiful, long-haired man lounges on a leather-draped throne, sipping smoke from a hookah as women kneel worshipfully at his feet. His pants are leather too. You notice they have tattoos. He frowns sleepily as you approach."
+        1 string data = "美しい長髪の男が革張りの玉座にもたれ、水タバコから煙を吸っている。女たちが崇拝するように足元にひざまずいている。彼のズボンも革製だ。タトゥーが入っているのに気づく。あなたたちが近づくと眠そうにしかめ面をする。"
        [42]
         1 string data = ""招かれもせずに我が前に現れるとは何者だ?生贄として自ら捧げに来たのか?""
        [43]
@@ -394755,29 +394755,29 @@
       1 Array Array (103 items)
        0 int size = 103
        [0]
-        1 string data = " I'm Steel Trap, leader of the Scar Collectors."
+        1 string data = " 俺はスティール・トラップ、スカー・コレクターズのリーダーだ。"
        [1]
         1 string data = " Debug options."
        [2]
-        1 string data = " What do you want to do?"
+        1 string data = " どうしたい?"
        [3]
-        1 string data = " Leave."
+        1 string data = " 立ち去る。"
        [4]
-        1 string data = " Find out what Steel-Trap wants us to do for the One of Us mission."
+        1 string data = " One of Usミッションでスティール・トラップが何を望んでいるか聞く。"
        [5]
-        1 string data = " In order to let you run around the camp, you'll need to kill one of my slaves or let one of your squad members get a bio mod in my fancy surgery booth."
+        1 string data = " キャンプを自由に動き回らせるには、俺の奴隷の一人を殺すか、部隊の誰かに俺の豪華な手術ブースで生体改造を受けさせる必要がある。"
        [6]
-        1 string data = " Challenge Steel-Trap to a demolition derby."
+        1 string data = " スティール・トラップにデモリション・ダービーを挑む。"
        [7]
-        1 string data = " Pretend I killed a slave."
+        1 string data = " 奴隷を殺したことにする。"
        [8]
-        1 string data = " Bang!"
+        1 string data = " バン!"
        [9]
-        1 string data = " Let's get ready to rumble. Cutscene teleports both players to arena, fight starts."
+        1 string data = " 戦闘準備。カットシーンで両プレイヤーをアリーナにテレポート、戦闘開始。"
        [10]
-        1 string data = " Pretend I defeated Steel-Trap in the derby."
+        1 string data = " デモリション・ダービーでスティール・トラップを倒したことにする。"
        [11]
-        1 string data = " Steel-Trap is dead, long live King Cordite."
+        1 string data = " スティール・トラップは死んだ、コーダイト王万歳。"
        [12]
         1 string data = ""お前か、コーダイト?やったことの後で、よくもここで顔を見せられるもんだな。""
        [13]
@@ -394865,7 +394865,7 @@
        [54]
         1 string data = ""自分に何でも言い聞かせろよ、パシリ野郎。""
        [55]
-        1 string data = "He shakes his head, then turns to the assembled Scar Collectors."
+        1 string data = "彼は首を振り、集まったスカー・コレクターズに向き直る。"
        [56]
         1 string data = ""この間抜けどもは自分で死刑執行令状にサインしたことに気づいてるのか?お前らがコーダイトと一緒だから発砲を控えてたんだ。もう標的だ。奴隷小屋に入れろ、コレクターズ!""
        [57]
@@ -394891,9 +394891,9 @@
        [67]
         1 string data = ""準備はいいか、紳士淑女の諸君?決着をつける戦争の準備はいいか?""
        [68]
-        1 string data = " Start the duel, no conditionals"
+        1 string data = " デュエルを開始、条件なし"
        [69]
-        1 string data = " Staring duel cutscene"
+        1 string data = " デュエル開始カットシーン"
        [70]
         1 string data = "Script Node 77"
        [71]

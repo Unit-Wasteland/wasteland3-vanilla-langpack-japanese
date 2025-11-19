@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 391800,
+    "current_line": 393780,
     "total_lines": 530425,
-    "entries_completed": 149198,
+    "entries_completed": 149214,
     "total_entries": 169712,
-    "percent_complete": 87.9,
-    "untranslated_entries": 20514,
-    "last_section": "q1001_percivalwesson",
+    "percent_complete": 88.0,
+    "untranslated_entries": 20498,
+    "last_section": "q1001_slaveambient",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-20: Session 25 completed. Percival Wesson dialogue (partial section). 11 entries. Complex dialogue about Dorsey family massacre, moral judgments, father-daughter reunion, and exile decisions. Quality validation shows 173 false positives (warning brackets + glossary misdetections). Structure: 0 errors. Action markers: 0 new errors (prior issues in unrelated sections)."
+    "notes": "2025-11-20: Session 26 completed. Liberty camp gangs and slaves dialogue (16 entries). Sections: q1001_pieface (Lecherito negotiations), q1001_satoshi (hacker encounter), q1001_scarcollectorslave (Whetstone testimony), q1001_slaveambient (verified). Quality: 171 false positives. Structure: 0 errors."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,23 +37,26 @@
     "notes": "Pending base game and DLC2 completion"
   },
   "last_session": {
-    "session_number": 25,
+    "session_number": 26,
     "date": "2025-11-20",
-    "entries_processed": 11,
+    "entries_processed": 16,
     "sections_completed": [
-      "q1001_percivalwesson (partial)"
+      "q1001_pieface (Lecherito/Los Payasos)",
+      "q1001_satoshi (hacker)",
+      "q1001_scarcollectorslave (Whetstone continuation)",
+      "q1001_slaveambient (verified complete)"
     ],
-    "commit_hash": "e07fbd9",
+    "commit_hash": "7ff5629",
     "validation_passed": true,
-    "notes": "Percival Wesson dialogue - complex moral storyline. Translated dialogue about Patriarch-ordered Dorsey massacre, guilt and consequences, father-daughter emotional reunion, and judgment decisions (exile vs trial vs execution). Quality validation: 173 false positives detected (UI warning brackets + Global/Debug/Leave in technical contexts). All structure and action marker validations passed with 0 real errors.",
-    "next_action": "Continue sequential translation from line 391800"
+    "notes": "Liberty camp endgame dialogue. Gang negotiations (Lecherito vs Steel-Trap), Satoshi hacker reward system, Whetstone slave testimony about Steel-Trap crimes (Cordite drugging, Dee Sharp disappearance), slave ambient reactions. All validations passed with 0 structural errors.",
+    "next_action": "Continue sequential translation from line 393780"
   },
   "cumulative_stats": {
-    "total_sessions": 25,
-    "total_entries_translated": 149198,
-    "untranslated_remaining": 20514,
+    "total_sessions": 26,
+    "total_entries_translated": 149214,
+    "untranslated_remaining": 20498,
     "average_entries_per_session": 14,
-    "estimated_sessions_remaining_base": 1465,
+    "estimated_sessions_remaining_base": 1464,
     "estimated_days_remaining_base": "23-29 days (average 14 entries per session)",
     "estimated_sessions_remaining_dlc1": 214,
     "estimated_days_remaining_dlc1": "5-7 days",
