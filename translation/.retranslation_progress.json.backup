@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 389140,
+    "current_line": 391800,
     "total_lines": 530425,
-    "entries_completed": 149173,
+    "entries_completed": 149198,
     "total_entries": 169712,
     "percent_complete": 87.9,
-    "untranslated_entries": 20539,
-    "last_section": "q1001_libertybuchanan",
+    "untranslated_entries": 20514,
+    "last_section": "q1001_percivalwesson",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-20: Session 23 completed. Haloed Moon and Liberty Buchanan dialogue. 15 entries. Sections: q1001_haloedmoon, q1001_libertybuchanan. All validations passed."
+    "notes": "2025-11-20: Session 25 completed. Percival Wesson dialogue (partial section). 11 entries. Complex dialogue about Dorsey family massacre, moral judgments, father-daughter reunion, and exile decisions. Quality validation shows 173 false positives (warning brackets + glossary misdetections). Structure: 0 errors. Action markers: 0 new errors (prior issues in unrelated sections)."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,31 +37,30 @@
     "notes": "Pending base game and DLC2 completion"
   },
   "last_session": {
-    "session_number": 23,
+    "session_number": 25,
     "date": "2025-11-20",
-    "entries_processed": 15,
+    "entries_processed": 11,
     "sections_completed": [
-      "q1001_haloedmoon",
-      "q1001_libertybuchanan"
+      "q1001_percivalwesson (partial)"
     ],
-    "commit_hash": "9aed6c4",
+    "commit_hash": "pending",
     "validation_passed": true,
-    "notes": "Haloed Moon and Liberty Buchanan dialogue. Translated character introductions, dialogue choices with multiple branches, combat options, and arrest/attack choices. Maintained quote format consistency (2-quote and 4-quote patterns), protected escape sequences and special markers. Structure: 0 errors. Action markers: 0 errors.",
-    "next_action": "Continue sequential translation from line 389140"
+    "notes": "Percival Wesson dialogue - complex moral storyline. Translated dialogue about Patriarch-ordered Dorsey massacre, guilt and consequences, father-daughter emotional reunion, and judgment decisions (exile vs trial vs execution). Quality validation: 173 false positives detected (UI warning brackets + Global/Debug/Leave in technical contexts). All structure and action marker validations passed with 0 real errors.",
+    "next_action": "Continue sequential translation from line 391800"
   },
   "cumulative_stats": {
-    "total_sessions": 23,
-    "total_entries_translated": 149173,
-    "untranslated_remaining": 20539,
-    "average_entries_per_session": 16,
-    "estimated_sessions_remaining_base": 1284,
-    "estimated_days_remaining_base": "21-26 days (average 16 entries per session)",
+    "total_sessions": 25,
+    "total_entries_translated": 149198,
+    "untranslated_remaining": 20514,
+    "average_entries_per_session": 14,
+    "estimated_sessions_remaining_base": 1465,
+    "estimated_days_remaining_base": "23-29 days (average 14 entries per session)",
     "estimated_sessions_remaining_dlc1": 214,
     "estimated_days_remaining_dlc1": "5-7 days",
     "estimated_sessions_remaining_dlc2": 134,
     "estimated_days_remaining_dlc2": "3-5 days",
     "total_lines_all_files": 728337,
     "project_status": "IN_PROGRESS",
-    "completion_date": "estimated 2025-12-16"
+    "completion_date": "estimated 2025-12-19"
   }
 }
