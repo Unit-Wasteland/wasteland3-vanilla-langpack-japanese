@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 356480,
+    "current_line": 357835,
     "total_lines": 530425,
-    "entries_completed": 148932,
+    "entries_completed": 148940,
     "total_entries": 169712,
-    "percent_complete": 87.7,
-    "untranslated_entries": 20780,
-    "last_section": "nita_gett_finger_scene",
+    "percent_complete": 87.8,
+    "untranslated_entries": 20772,
+    "last_section": "o1001_radio_lars_takeoverwrapup",
     "validation_status": "passed",
     "structure_errors": 9,
     "action_marker_errors": 0,
-    "quality_issues": 20796,
-    "notes": "2025-11-19: Session 7 continued. 7 entries translated (2 commits). Nita Gett finger eating scene completed. Next: line 356480 (o1001_parishandler section)."
+    "quality_issues": 20788,
+    "notes": "2025-11-19: Session 8 completed. 8 entries translated (1 commit). Lars Odinkirk radio messages about Bizarre takeover completed. Next: continue sequential translation."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,31 +37,30 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 7,
+    "session_number": 8,
     "date": "2025-11-19",
-    "entries_processed": 7,
+    "entries_processed": 8,
     "sections_completed": [
-      "Nita Gett dialogue options and narration (3 entries)",
-      "Nita Gett finger eating scene (4 entries)"
+      "o1001_radio_lars_takeoverwrapup (8 entries)"
     ],
-    "commit_hash": "a086d41d",
+    "commit_hash": "631c21b6",
     "validation_passed": true,
-    "notes": "Manual translation: 7 entries, 2 commits. Completed Nita Gett section including disturbing finger eating scene. Quote counts preserved correctly (3-quote and 2-quote formats).",
-    "next_action": "Continue from line 356480 (o1001_parishandler section)"
+    "notes": "Manual translation: 8 entries, 1 commit. Translated Lars Odinkirk radio messages about Bizarre takeover aftermath and merchant fate. Single-space-prefix format maintained.",
+    "next_action": "Continue sequential translation from line 357835"
   },
   "cumulative_stats": {
-    "total_sessions": 7,
-    "total_entries_translated": 148932,
-    "untranslated_remaining": 20780,
-    "average_entries_per_session": 33,
-    "estimated_sessions_remaining_base": 630,
-    "estimated_days_remaining_base": "13-17 days (average 33 entries/session)",
+    "total_sessions": 8,
+    "total_entries_translated": 148940,
+    "untranslated_remaining": 20772,
+    "average_entries_per_session": 30,
+    "estimated_sessions_remaining_base": 692,
+    "estimated_days_remaining_base": "14-18 days (average 30 entries/session)",
     "estimated_sessions_remaining_dlc1": 193,
     "estimated_days_remaining_dlc1": "5-7 days",
     "estimated_sessions_remaining_dlc2": 121,
     "estimated_days_remaining_dlc2": "3-5 days",
     "total_lines_all_files": 728337,
     "project_status": "IN_PROGRESS",
-    "completion_date": "estimated 2025-12-11"
+    "completion_date": "estimated 2025-12-13"
   }
 }
