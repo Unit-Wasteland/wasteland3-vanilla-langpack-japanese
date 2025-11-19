@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 428400,
+    "current_line": 429400,
     "total_lines": 530425,
-    "entries_completed": 149682,
+    "entries_completed": 149724,
     "total_entries": 169712,
     "percent_complete": 88.2,
-    "untranslated_entries": 20030,
-    "last_section": "x4501_rancherleader",
+    "untranslated_entries": 19988,
+    "last_section": "y203_investigation_hills_dorseys",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-20: Session 42 completed (17 entries). Nelius Dorsey death scenes, ranch leader dialogue with player options. All validations: 0 errors."
+    "notes": "2025-11-20: Session 43 completed (42 entries). Knox Ranch final combat options, random events (boy ambush, Kodiak breakdown, Dorsey camp). All validations: 0 errors."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,24 +37,27 @@
     "notes": "Pending base game and DLC2 completion"
   },
   "last_session": {
-    "session_number": 42,
+    "session_number": 43,
     "date": "2025-11-20",
-    "entries_processed": 17,
+    "entries_processed": 42,
     "sections_completed": [
-      "x4101_neliusdorsey (1 entry - Nelius dialogue narration)",
-      "x4101_neliusdorseydead (3 entries - Nelius death scene narrations)",
-      "x4501_rancherleader (13 entries - ranch leader dialogue and player options)"
+      "x4501_rancherleader (2 entries - player attack options)",
+      "x4501_scarcollectorleader (3 entries - Scar Collector dialogue, Cordite references)",
+      "x4501_scarcollectorsambient (2 entries - ambient dialogue)",
+      "y201_assistance_hills_refugees (5 entries - boy ambush random event)",
+      "y202_breakdown_hills_animals (13 entries - Kodiak breakdown, wildlife encounter)",
+      "y203_investigation_hills_dorseys (17 entries - Dorsey camp investigation)"
     ],
-    "commit_hash": "a6ba471",
+    "commit_hash": "a6fcec7",
     "validation_passed": true,
-    "notes": "Session 42: Completed 17 entries. Nelius Dorsey final confrontation and death scenes. Knox Ranch siege defense dialogue. All space-prefixed entries properly evaluated per CLAUDE.md rules. All validations: 0 errors.",
-    "next_action": "Continue sequential translation from line 428400"
+    "notes": "Session 43: Completed 42 entries. Knox Ranch final combat options, three complete random world events with branching choices. Introduced Steel-Trap (literal) and Shadowclaw (transliteration) terms. All validations: 0 errors.",
+    "next_action": "Continue sequential translation from line 429400"
   },
   "cumulative_stats": {
-    "total_sessions": 42,
-    "total_entries_translated": 149682,
-    "untranslated_remaining": 20030,
-    "average_entries_per_session": 3564,
+    "total_sessions": 43,
+    "total_entries_translated": 149724,
+    "untranslated_remaining": 19988,
+    "average_entries_per_session": 3482,
     "estimated_sessions_remaining_base": 6,
     "estimated_days_remaining_base": "18-22 days",
     "estimated_sessions_remaining_dlc1": 203,
