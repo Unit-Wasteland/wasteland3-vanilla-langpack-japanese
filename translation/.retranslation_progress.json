@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 402446,
+    "current_line": 416250,
     "total_lines": 530425,
-    "entries_completed": 149365,
+    "entries_completed": 149389,
     "total_entries": 169712,
     "percent_complete": 88.0,
-    "untranslated_entries": 20347,
-    "last_section": "q3001_mineslaveambient",
+    "untranslated_entries": 20323,
+    "last_section": "x1201_betsy",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-20: Session 32 completed. Error fixes ([Attack] markers) and quest dialogue (12 entries): q3001_deesharp Dee Sharp conversation (10 - Steel-Trap takeover plot, Cordite reunion), q3001_mineslaveambient mine slave barks (2). Preserved [Reward: Dropset] game variables and action markers (::ptoo::, ::sing-song::). All validations: 0 errors."
+    "notes": "2025-11-20: Session 33 completed. Test and quest dialogue (24 entries): testconversation_alex01 debug options (6), testconversation_merchant trade UI (3), x3101_toasteraltar altar interaction (5), x1201_betsy revenge quest (10 - Betsy and vengeful widows dialogue). All quote formats matched source. All validations: 0 errors."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,24 +37,25 @@
     "notes": "Pending base game and DLC2 completion"
   },
   "last_session": {
-    "session_number": 32,
+    "session_number": 33,
     "date": "2025-11-20",
-    "entries_processed": 12,
+    "entries_processed": 24,
     "sections_completed": [
-      "error_fixes ([Attack] bracket markers - 2 fixes)",
-      "q3001_deesharp (10 entries - Dee Sharp conversation about coup, Cordite reunion)",
-      "q3001_mineslaveambient (2 entries - mine slave ambient dialogue)"
+      "testconversation_alex01 (6 entries - follower management debug)",
+      "testconversation_merchant (3 entries - trade dialogue)",
+      "x3101_toasteraltar (5 entries - altar interaction)",
+      "x1201_betsy (10 entries - revenge quest with widows)"
     ],
-    "commit_hash": "5379aff",
+    "commit_hash": "f3c27f8",
     "validation_passed": true,
-    "notes": "Session 32: Error fixes and quest dialogue. Fixed [Attack] markers from previous session. Translated Dee Sharp quest dialogue with game variable preservation. All action markers correctly preserved in English. All validations: 0 structural errors, 0 action marker errors.",
-    "next_action": "Continue sequential translation from line 402446"
+    "notes": "Session 33: Mixed test and quest content. Translated debug options for test conversations and actual quest dialogue for Betsy revenge questline. All quote formats matched source (2-quote format). All validations: 0 structural errors, 0 action marker errors.",
+    "next_action": "Continue sequential translation from line 416250"
   },
   "cumulative_stats": {
-    "total_sessions": 32,
-    "total_entries_translated": 149365,
-    "untranslated_remaining": 20347,
-    "average_entries_per_session": 4668,
+    "total_sessions": 33,
+    "total_entries_translated": 149389,
+    "untranslated_remaining": 20323,
+    "average_entries_per_session": 4527,
     "estimated_sessions_remaining_base": 4,
     "estimated_days_remaining_base": "18-22 days",
     "estimated_sessions_remaining_dlc1": 203,
