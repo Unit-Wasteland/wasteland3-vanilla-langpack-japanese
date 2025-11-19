@@ -2,7 +2,15 @@
 ##############################################################################
 # Wasteland 3 Japanese Translation - Automated Retranslation Script
 #
-# Purpose: Fully automated retranslation with structure protection
+# Purpose: Fully automated retranslation with CLAUDE.md compliance
+#
+# CLAUDE.md Compliance: This script follows ALL rules in CLAUDE.md
+# - Section 8: Space-Prefixed Entries - Special Handling
+# - Quote Format Rules: Match English source quote count exactly
+# - Structure Protection: No escapes, preserve markers
+# - Translation Decision Logic: Default to translate
+# - Sequential Processing: No skipping, no prioritization
+# - Validation: Structure + Action Markers + Quality (all MANDATORY)
 #
 # IMPORTANT: Work Sequence (MANDATORY)
 # 1. Base Game (169,712 entries) - MUST complete to 100% FIRST
@@ -333,6 +341,13 @@ is_retranslation_complete() {
 log "INFO" "========================================="
 log "INFO" "Wasteland 3 Retranslation Automation"
 log "INFO" "========================================="
+log "INFO" "✅ CLAUDE.md Compliance Mode: ALL rules enforced"
+log "INFO" "   - Space-Prefixed Entries: Individual evaluation"
+log "INFO" "   - Quote Format: Match English source exactly"
+log "INFO" "   - Structure Protection: Zero tolerance"
+log "INFO" "   - Sequential Processing: No skipping"
+log "INFO" "   - Triple Validation: Structure + Markers + Quality"
+log "INFO" ""
 log "INFO" "IMPORTANT: Currently processing BASE GAME ONLY"
 log "INFO" "  Base Game: 169,712 entries (Target: 100% completion)"
 log "INFO" "  DLC1/DLC2: Will be processed AFTER base game completion"
@@ -489,14 +504,97 @@ EOF
 
 **通常翻訳作業（エラー修正完了後に実行）:**
 
-translation/.retranslation_progress.json を読み込んで、translation/STRICT_TRANSLATION_RULES.md に従って厳格翻訳作業を継続してください。
+**CLAUDE.mdのルールに従って進捗ファイルから翻訳を続けてください。**
+
+translation/.retranslation_progress.json を読み込んで、CLAUDE.md の全てのルールに従って翻訳作業を継続してください。
+
+⚠️ **特に重要なCLAUDE.mdルール**:
+
+**Section 8: Space-Prefixed Entries - Special Handling** (MANDATORY)
+
+半角スペースで始まるエントリ（` エントリ内容`）は以下のプロセスで評価:
+
+1. **エントリを読む**: 実際の内容を確認
+2. **判断**: "プレイヤーがゲーム内でこのテキストを見るか？"
+   - YES → 翻訳する（技術的コメントは括弧で保持）
+   - NO → スキップ（純粋なデバッグ/システムメッセージ）
+
+**Translation Decision Logic** (CLAUDE.md優先順):
+1. 英語が空 → スキップ
+2. do_not_translateリスト該当 → 英語のまま保持
+3. nouns_glossary.json登録 → 用語集の訳語で翻訳
+4. スペイン語が非空 かつ スペイン語 != 英語 → 翻訳
+5. **それ以外 → 翻訳**（デフォルト）
+
+**Quote Format Rules**: 英語ソースの引用符数と完全一致（1個も増減禁止）
+**Structure Protection**: `\"` 禁止、`[]` `<>` `::action::` 保護、`\n` `\r` `\t` 保持
+**Sequential Processing**: current_line から順番に、スキップ禁止、150-200行チャンク
+**Validation**: 各edit後に構造・アクションマーカー・品質の3検証を全て実行（0エラー必須）
 EOF
 
     else
         # NORMAL TRANSLATION MODE
         log "INFO" "Generating normal translation command..."
-        cat > "$COMMAND_FILE" << EOF
-translation/.retranslation_progress.json を読み込んで、translation/STRICT_TRANSLATION_RULES.md に従って厳格翻訳作業を継続してください。
+        cat > "$COMMAND_FILE" << 'EOF'
+**CLAUDE.mdのルールに従って進捗ファイルから翻訳を続けてください。**
+
+translation/.retranslation_progress.json を読み込んで、CLAUDE.md の全てのルールに従って翻訳作業を継続してください。
+
+⚠️ **特に重要なCLAUDE.mdルール**:
+
+**Section 8: Space-Prefixed Entries - Special Handling** (MANDATORY)
+
+半角スペースで始まるエントリ（` エントリ内容`）は以下のプロセスで評価:
+
+1. **エントリを読む**: 実際の内容を確認
+2. **判断**: "プレイヤーがゲーム内でこのテキストを見るか？"
+   - YES → 翻訳する（技術的コメントは括弧で保持）
+   - NO → スキップ（純粋なデバッグ/システムメッセージ）
+
+**翻訳すべき例（プレイヤー向け）**:
+- ` おしゃべりは終わりだ - 離れるか戦う準備をしろ！(Conversation Ends)` ✅ 翻訳
+- ` [Hard Ass 6] 指を離せ、さもないと折るぞ。(Requires Global: HardAss_6)` ✅ 翻訳
+
+**スキップすべき例（デバッグ/システム）**:
+- ` DEBUG - Test conversation flow` ❌ スキップ
+- ` System: Internal state machine` ❌ スキップ
+
+**Translation Decision Logic** (CLAUDE.md優先順):
+
+1. 英語が空 (`""`) → スキップ
+2. `do_not_translate`リスト該当 (Script Node, [Global:], [Switch to]等) → 英語のまま保持
+3. `nouns_glossary.json`に登録 → 用語集の訳語で翻訳
+4. スペイン語が非空 かつ スペイン語 != 英語 → 翻訳
+5. **それ以外 → 翻訳**（デフォルト: 未翻訳固有名詞を防止）
+
+**Quote Format Rules** (MANDATORY):
+
+Unity StringTableは2つの引用符形式をサポート:
+- **Format 1**: `string data = "Simple text"` (2 quotes)
+- **Format 2**: `string data = ""Dialogue text""` (4 quotes)
+
+**絶対ルール**: 英語ソースの引用符数と**完全一致**
+- 英語が2個 → 日本語も2個
+- 英語が4個 → 日本語も4個
+- 1個も増減禁止
+
+**Structure Protection** (ZERO TOLERANCE):
+- ❌ エスケープシーケンス禁止: `\"`
+- ❌ 日本語括弧を構造に使用禁止: `「」` `『』`
+- ✅ テキスト内での日本語括弧は可: `"彼女は「こんにちは」と言った。"`
+- ✅ `\n`, `\r`, `\t` は保持
+
+**Sequential Processing**:
+- 進捗ファイルの current_line から順番に処理
+- スキップ禁止、優先度付け禁止
+- 150-200行チャンクで処理
+
+**Validation** (MANDATORY after EVERY edit):
+1. Structure: `python3 translation/validate_structure_v2.py TARGET --source SOURCE`
+2. Action markers: `grep -o '::[^:]*[ぁ-ゖァ-ヾ一-龯][^:]*::' TARGET` → 空であること
+3. Quality: `python3 translation/validate_translation_quality.py TARGET ...`
+
+全ての検証が0エラーになるまでコミット禁止。
 EOF
     fi
 

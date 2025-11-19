@@ -2,6 +2,14 @@
 
 このディレクトリには、翻訳作業を自動化するスクリプトが含まれています。
 
+**✅ CLAUDE.md完全準拠**: 全ての自動化スクリプトはCLAUDE.mdの全ルールに従います
+- **Section 8**: Space-Prefixed Entries - 個別評価（一律スキップ禁止）
+- **Quote Format**: 英語ソースと引用符数完全一致（1個も増減禁止）
+- **Structure Protection**: エスケープ禁止、マーカー保護（ゼロトレランス）
+- **Translation Logic**: デフォルトで翻訳（未翻訳固有名詞防止）
+- **Sequential Processing**: 順次処理（スキップ・優先度付け禁止）
+- **Triple Validation**: 構造+アクションマーカー+品質（全て必須）
+
 **現在の自動化タスク**: ベースゲームの未翻訳エントリ20,952個を自動修正中
 
 ---
@@ -35,6 +43,90 @@
 ---
 
 ## 🔧 利用可能なスクリプト
+
+### 0. auto-retranslate.sh （メイン翻訳自動化）⭐
+
+**進捗ファイルから続きを自動翻訳します**（CLAUDE.md完全準拠）
+
+```bash
+# 完全自動実行（推奨 - 完了まで実行）
+./automation/auto-retranslate.sh
+
+# ロック解除（クラッシュ後）
+./automation/auto-retranslate.sh --unlock
+```
+
+**✅ CLAUDE.md完全準拠の特徴:**
+- **Section 8準拠**: Space-Prefixed Entriesを個別評価（一律スキップしない）
+- **Quote Format**: 英語ソースと引用符数を完全一致（1個も増減しない）
+- **Structure Protection**: エスケープ禁止、全マーカー保護（ゼロトレランス）
+- **Translation Logic**: デフォルトで翻訳（未翻訳固有名詞を防止）
+- **Sequential Processing**: 順次処理のみ（スキップ・優先度付け禁止）
+- **Triple Validation**: 構造+アクションマーカー+品質（全て必須、0エラー）
+
+**動作の仕組み:**
+
+1. **進捗ファイル読み込み**
+   - `translation/.retranslation_progress.json` から現在位置を取得
+   - current_line から翻訳を再開
+
+2. **大規模チャンク処理（効率最適化）**
+   - 150-200行チャンクで処理（メモリ効率最大化）
+   - 500エントリ/セッション（高効率）
+   - Read/Edit操作を最小化（10-15操作/セッション）
+
+3. **CLAUDE.mdルール厳守**
+   - 各エントリをCLAUDE.mdの全ルールで評価
+   - Space-Prefixed: 個別評価（プレイヤー向けなら翻訳）
+   - Quote Count: 英語ソースと完全一致
+   - 順次処理: スキップ禁止
+
+4. **トリプル検証（MANDATORY）**
+   - 構造検証: `validate_structure_v2.py` → 0エラー必須
+   - アクションマーカー: `grep` → 日本語混入ゼロ必須
+   - 品質検証: `validate_translation_quality.py` → 0問題必須
+   - **全て合格するまでコミット禁止**
+
+5. **自動git push**
+   - 検証合格後、自動的にリモートにプッシュ
+   - 3連続push失敗で停止（ネットワーク問題）
+
+6. **メモリ監視**
+   - 30秒ごとに監視（5000MB上限）
+   - 超過時は自動セッション終了
+   - 60秒待機後、新セッション開始
+
+**パラメータ（スクリプト内変数）:**
+```bash
+MAX_MEMORY_MB=5000          # メモリ上限（6GB RAM - 1GB margin）
+ENTRIES_PER_SESSION=500     # 1セッションあたりの処理数（高効率）
+MAX_SESSIONS=340            # 最大セッション数（ベースゲーム）
+MONITOR_INTERVAL=30         # メモリ監視間隔（秒）
+```
+
+**所要時間（ベースゲーム）:**
+- 残りエントリ数: 20,780個
+- 予想セッション数: 約42セッション（500エントリ/セッション）
+- 1セッション平均: 20-30分
+- **完了予想: 1-2日**（未翻訳修正後）
+
+**ログファイル:**
+- `automation/retranslation-automation.log` - メインログ
+- `automation/.session_N_output.log` - 各セッション出力
+
+**ステータス確認:**
+```bash
+# メインログ監視
+tail -f automation/retranslation-automation.log
+
+# 進捗ファイル確認
+cat translation/.retranslation_progress.json | jq '.base_game'
+
+# プロセス確認
+ps aux | grep auto-retranslate
+```
+
+---
 
 ### 1. generate-untranslated-list.sh
 
@@ -74,10 +166,15 @@ PROTECTED_CLAUDE_PID=$(pgrep claude | head -1) \
    - `.untranslated_lines.txt` から修正対象を読み込み
    - 排他ロック取得（重複実行防止）
 
-2. **セッション実行**
+2. **セッション実行（CLAUDE.md完全準拠）**
    - 20エントリずつ処理
    - Claude Code を自動起動
-   - Read + Edit ツールで1エントリずつ翻訳（CLAUDE.mdルール厳守）
+   - Read + Edit ツールで1エントリずつ翻訳
+   - **CLAUDE.mdルール厳守**:
+     - Space-Prefixed Entries: 個別評価（プレイヤー向けなら翻訳）
+     - Quote Format: 英語ソースと完全一致
+     - Structure Protection: `\"` 禁止、マーカー保護
+     - Sequential Processing: 順次処理のみ
    - メモリ監視（30秒ごと、上限5000MB）
 
 3. **検証とコミット**
