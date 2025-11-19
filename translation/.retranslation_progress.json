@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 393780,
+    "current_line": 394940,
     "total_lines": 530425,
-    "entries_completed": 149214,
+    "entries_completed": 149234,
     "total_entries": 169712,
     "percent_complete": 88.0,
-    "untranslated_entries": 20498,
-    "last_section": "q1001_slaveambient",
+    "untranslated_entries": 20478,
+    "last_section": "q1001_steeltrap",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-20: Session 26 completed. Liberty camp gangs and slaves dialogue (16 entries). Sections: q1001_pieface (Lecherito negotiations), q1001_satoshi (hacker encounter), q1001_scarcollectorslave (Whetstone testimony), q1001_slaveambient (verified). Quality: 171 false positives. Structure: 0 errors."
+    "notes": "2025-11-20: Session 27 completed. Liberty camp NPCs dialogue (20 entries). Sections: q1001_stitch (doctor), q1001_starthatdreams (Godfishers leader), q1001_steeltrap (Scar Collectors leader). All action markers preserved. Structure: 0 errors."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,27 +37,26 @@
     "notes": "Pending base game and DLC2 completion"
   },
   "last_session": {
-    "session_number": 26,
+    "session_number": 27,
     "date": "2025-11-20",
-    "entries_processed": 16,
+    "entries_processed": 20,
     "sections_completed": [
-      "q1001_pieface (Lecherito/Los Payasos)",
-      "q1001_satoshi (hacker)",
-      "q1001_scarcollectorslave (Whetstone continuation)",
-      "q1001_slaveambient (verified complete)"
+      "q1001_stitch (slave doctor)",
+      "q1001_starthatdreams (Star-that-Dreams/Godfishers)",
+      "q1001_steeltrap (Steel-Trap/Scar Collectors - partial)"
     ],
-    "commit_hash": "7ff5629",
+    "commit_hash": "812e701",
     "validation_passed": true,
-    "notes": "Liberty camp endgame dialogue. Gang negotiations (Lecherito vs Steel-Trap), Satoshi hacker reward system, Whetstone slave testimony about Steel-Trap crimes (Cordite drugging, Dee Sharp disappearance), slave ambient reactions. All validations passed with 0 structural errors.",
-    "next_action": "Continue sequential translation from line 393780"
+    "notes": "Liberty camp NPC dialogue. Stitches doctor services with payment mechanics. Star-that-Dreams Haloed Moon affair plotline. Steel-Trap demolition derby challenge and test requirements. Action marker preserved (::sighs::). All validations passed with 0 errors.",
+    "next_action": "Continue sequential translation from line 394940"
   },
   "cumulative_stats": {
-    "total_sessions": 26,
-    "total_entries_translated": 149214,
-    "untranslated_remaining": 20498,
-    "average_entries_per_session": 14,
-    "estimated_sessions_remaining_base": 1464,
-    "estimated_days_remaining_base": "23-29 days (average 14 entries per session)",
+    "total_sessions": 27,
+    "total_entries_translated": 149234,
+    "untranslated_remaining": 20478,
+    "average_entries_per_session": 15,
+    "estimated_sessions_remaining_base": 1365,
+    "estimated_days_remaining_base": "21-27 days (average 15 entries per session)",
     "estimated_sessions_remaining_dlc1": 214,
     "estimated_days_remaining_dlc1": "5-7 days",
     "estimated_sessions_remaining_dlc2": 134,
