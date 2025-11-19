@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 381258,
+    "current_line": 387730,
     "total_lines": 530425,
-    "entries_completed": 149145,
+    "entries_completed": 149158,
     "total_entries": 169712,
     "percent_complete": 87.9,
-    "untranslated_entries": 20567,
-    "last_section": "q1001_betamaster",
+    "untranslated_entries": 20554,
+    "last_section": "q1001_hallie_mckay",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-20: Session 21 completed. Translated Beta Master dialogue completion. 13 entries. Sections: q1001_betamaster (additional untranslated entries). All validations passed."
+    "notes": "2025-11-20: Session 22 completed. Combat barks and prisoner dialogue. 13 entries. Sections: q1001_combatbarks_lecherito, q1001_combatbarks_libertybuchanan, q1001_combatbarks_payasos, q1001_dobson_compound_guards, q1001_erastus_dorsey_guards, q1001_hallie_mckay. All validations passed."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,24 +37,29 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 21,
+    "session_number": 22,
     "date": "2025-11-20",
     "entries_processed": 13,
     "sections_completed": [
-      "q1001_betamaster"
+      "q1001_combatbarks_lecherito",
+      "q1001_combatbarks_libertybuchanan",
+      "q1001_combatbarks_payasos",
+      "q1001_dobson_compound_guards",
+      "q1001_erastus_dorsey_guards",
+      "q1001_hallie_mckay"
     ],
-    "commit_hash": "5329dee",
+    "commit_hash": "3fbc845",
     "validation_passed": true,
-    "notes": "Beta Master dialogue completion. Translated remaining untranslated entries including money negotiation narration, character reactions, body language, and Cordite-specific dialogue branches. Protected variables and escape sequences. Structure: 0 errors. Action markers: 0 errors.",
-    "next_action": "Continue sequential translation from line 381258"
+    "notes": "Combat barks and prisoner dialogue. Translated combat taunts from gang members, guard interactions at compound entrance, and complete Hallie McKay encounter including narrative descriptions, dialogue choices, and action markers. Protected all action markers and escape sequences. Structure: 0 errors. Action markers: 0 errors.",
+    "next_action": "Continue sequential translation from line 387730"
   },
   "cumulative_stats": {
-    "total_sessions": 21,
-    "total_entries_translated": 149145,
-    "untranslated_remaining": 20567,
-    "average_entries_per_session": 18,
-    "estimated_sessions_remaining_base": 1143,
-    "estimated_days_remaining_base": "20-25 days (average 18 entries per session)",
+    "total_sessions": 22,
+    "total_entries_translated": 149158,
+    "untranslated_remaining": 20554,
+    "average_entries_per_session": 17,
+    "estimated_sessions_remaining_base": 1209,
+    "estimated_days_remaining_base": "20-25 days (average 17 entries per session)",
     "estimated_sessions_remaining_dlc1": 214,
     "estimated_days_remaining_dlc1": "5-7 days",
     "estimated_sessions_remaining_dlc2": 134,
