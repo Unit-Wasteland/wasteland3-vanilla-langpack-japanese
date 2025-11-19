@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 430200,
+    "current_line": 430915,
     "total_lines": 530425,
-    "entries_completed": 149799,
+    "entries_completed": 149832,
     "total_entries": 169712,
     "percent_complete": 88.3,
-    "untranslated_entries": 19913,
-    "last_section": "y209_special_hills_none",
+    "untranslated_entries": 19880,
+    "last_section": "y212_hostile_hills_payasos",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-20: Session 44 completed (75 entries). World events: Monster Army checkpoint, Payaso roadblock, Hundred Families bomb encounter, Kodiak blizzard breakdown, refugee building exploration, cave discovery. All validations: 0 errors."
+    "notes": "2025-11-20: Session 45 completed (33 entries). World events: Dorsey mountain encounters, Monster Army mannequin bomb trap, Payaso clown encounters. All validations: 0 errors."
   },
   "dlc1": {
     "status": "not_started",
@@ -34,30 +34,27 @@
     "entries_completed": 0,
     "total_entries": 24152,
     "percent_complete": 0.0,
-    "notes": "Pending base game and DLC2 completion"
+    "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 44,
+    "session_number": 45,
     "date": "2025-11-20",
-    "entries_processed": 75,
+    "entries_processed": 33,
     "sections_completed": [
-      "y204_roadblock_hills_monsterarmy (14 entries - checkpoint toll demands)",
-      "y205_roadblock_hills_payasos (13 entries - clown ambush scenario)",
-      "y206_assistance_hills_100fam (24 entries - bomb disposal encounter)",
-      "y207_breakdown_hills_na (10 entries - blizzard breakdown)",
-      "y208_investigation_hills_refugees (14 entries - refugee hideout looting)",
-      "y209_special_hills_none (complete - cave exploration)"
+      "y210_hostile_hills_dorseys_mountains (14 entries - Dorsey encounters)",
+      "y211_hostile_hills_monsterarmy (8 entries - Monster Army bomb trap)",
+      "y212_hostile_hills_payasos (11 entries - Payaso clown encounters)"
     ],
-    "commit_hash": "2d91fbe",
+    "commit_hash": "737045a",
     "validation_passed": true,
-    "notes": "Session 44: Completed 75 entries. Six world event encounters with branching choices: Monster Army checkpoint negotiation, Payaso roadblock trap, Hundred Families merchant bomb crisis, Kodiak blizzard survival, refugee building exploration, cave discovery with workshop. All validations: 0 errors.",
-    "next_action": "Continue sequential translation from line 430200"
+    "notes": "Session 45: Completed 33 entries. Three hostile world event types: Dorsey ambushes with stealth/combat options, Monster Army mannequin bomb trap with bomb disposal choices, Payaso clown gang with joke distraction mechanic. Fixed critical quote format errors (Japanese brackets replaced with English quotes). All validations: 0 errors.",
+    "next_action": "Continue sequential translation from line 430915"
   },
   "cumulative_stats": {
-    "total_sessions": 44,
-    "total_entries_translated": 149799,
-    "untranslated_remaining": 19913,
-    "average_entries_per_session": 3405,
+    "total_sessions": 45,
+    "total_entries_translated": 149832,
+    "untranslated_remaining": 19880,
+    "average_entries_per_session": 3330,
     "estimated_sessions_remaining_base": 6,
     "estimated_days_remaining_base": "17-21 days",
     "estimated_sessions_remaining_dlc1": 203,
