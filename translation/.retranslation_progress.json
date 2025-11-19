@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 356280,
+    "current_line": 356480,
     "total_lines": 530425,
-    "entries_completed": 148928,
+    "entries_completed": 148932,
     "total_entries": 169712,
     "percent_complete": 87.7,
-    "untranslated_entries": 20784,
-    "last_section": "nita_gett_dialogue",
+    "untranslated_entries": 20780,
+    "last_section": "nita_gett_finger_scene",
     "validation_status": "passed",
     "structure_errors": 9,
     "action_marker_errors": 0,
-    "quality_issues": 20800,
-    "notes": "2025-11-19: Session 7 completed. 3 entries translated (1 commit). Nita Gett dialogue section. Next: line 356280."
+    "quality_issues": 20796,
+    "notes": "2025-11-19: Session 7 continued. 7 entries translated (2 commits). Nita Gett finger eating scene completed. Next: line 356480 (o1001_parishandler section)."
   },
   "dlc1": {
     "status": "not_started",
@@ -39,28 +39,29 @@
   "last_session": {
     "session_number": 7,
     "date": "2025-11-19",
-    "entries_processed": 3,
+    "entries_processed": 7,
     "sections_completed": [
-      "Nita Gett dialogue options and narration (3 entries)"
+      "Nita Gett dialogue options and narration (3 entries)",
+      "Nita Gett finger eating scene (4 entries)"
     ],
-    "commit_hash": "f4d20940",
+    "commit_hash": "a086d41d",
     "validation_passed": true,
-    "notes": "Manual translation: 3 entries, 1 commit. Nita Gett dialogue section including disturbing narration. Quote counts preserved correctly (3-quote and 2-quote formats).",
-    "next_action": "Continue from line 356280"
+    "notes": "Manual translation: 7 entries, 2 commits. Completed Nita Gett section including disturbing finger eating scene. Quote counts preserved correctly (3-quote and 2-quote formats).",
+    "next_action": "Continue from line 356480 (o1001_parishandler section)"
   },
   "cumulative_stats": {
     "total_sessions": 7,
-    "total_entries_translated": 148928,
-    "untranslated_remaining": 20784,
-    "average_entries_per_session": 32,
-    "estimated_sessions_remaining_base": 650,
-    "estimated_days_remaining_base": "14-18 days (average 32 entries/session)",
+    "total_entries_translated": 148932,
+    "untranslated_remaining": 20780,
+    "average_entries_per_session": 33,
+    "estimated_sessions_remaining_base": 630,
+    "estimated_days_remaining_base": "13-17 days (average 33 entries/session)",
     "estimated_sessions_remaining_dlc1": 193,
     "estimated_days_remaining_dlc1": "5-7 days",
     "estimated_sessions_remaining_dlc2": 121,
     "estimated_days_remaining_dlc2": "3-5 days",
     "total_lines_all_files": 728337,
     "project_status": "IN_PROGRESS",
-    "completion_date": "estimated 2025-12-12"
+    "completion_date": "estimated 2025-12-11"
   }
 }
