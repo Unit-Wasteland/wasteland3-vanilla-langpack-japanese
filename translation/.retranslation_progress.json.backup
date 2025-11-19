@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 400626,
+    "current_line": 402446,
     "total_lines": 530425,
-    "entries_completed": 149353,
+    "entries_completed": 149365,
     "total_entries": 169712,
     "percent_complete": 88.0,
-    "untranslated_entries": 20359,
-    "last_section": "q3001_deeabductionsite",
+    "untranslated_entries": 20347,
+    "last_section": "q3001_mineslaveambient",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-20: Session 31 completed. Translated quest dialogue and narration (14 entries): q2001_haloedmoon kite sacrifice (2), q2001_riskybriskett Meat Clown restaurant (6), q3001_companion_barktriggers (1), q3001_deeabductionsite crime scene (5). Debug menus correctly kept in English (46 entries). All validations: 0 structural errors, 0 action marker errors."
+    "notes": "2025-11-20: Session 32 completed. Error fixes ([Attack] markers) and quest dialogue (12 entries): q3001_deesharp Dee Sharp conversation (10 - Steel-Trap takeover plot, Cordite reunion), q3001_mineslaveambient mine slave barks (2). Preserved [Reward: Dropset] game variables and action markers (::ptoo::, ::sing-song::). All validations: 0 errors."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,27 +37,26 @@
     "notes": "Pending base game and DLC2 completion"
   },
   "last_session": {
-    "session_number": 31,
+    "session_number": 32,
     "date": "2025-11-20",
-    "entries_processed": 14,
+    "entries_processed": 12,
     "sections_completed": [
-      "q2001_haloedmoon (2 entries - kite sacrifice narration)",
-      "q2001_riskybriskett (6 entries - restaurant dialogue with action markers)",
-      "q3001_companion_barktriggers (1 entry - companion bark with ::sniffs::)",
-      "q3001_deeabductionsite (5 entries - crime scene narration with escape sequences)"
+      "error_fixes ([Attack] bracket markers - 2 fixes)",
+      "q3001_deesharp (10 entries - Dee Sharp conversation about coup, Cordite reunion)",
+      "q3001_mineslaveambient (2 entries - mine slave ambient dialogue)"
     ],
-    "commit_hash": "6e54fc9",
+    "commit_hash": "5379aff",
     "validation_passed": true,
-    "notes": "Session 31: Quest dialogue and narration. Preserved action markers (::sniffs::, ::laughs::) and escape sequences (backslash-r-backslash-n). 46 debug menu entries correctly kept in English per CLAUDE.md Section 8. All validations: 0 structural errors, 0 action markers translated.",
-    "next_action": "Continue sequential translation from line 400626"
+    "notes": "Session 32: Error fixes and quest dialogue. Fixed [Attack] markers from previous session. Translated Dee Sharp quest dialogue with game variable preservation. All action markers correctly preserved in English. All validations: 0 structural errors, 0 action marker errors.",
+    "next_action": "Continue sequential translation from line 402446"
   },
   "cumulative_stats": {
-    "total_sessions": 31,
-    "total_entries_translated": 149353,
-    "untranslated_remaining": 20359,
-    "average_entries_per_session": 4818,
+    "total_sessions": 32,
+    "total_entries_translated": 149365,
+    "untranslated_remaining": 20347,
+    "average_entries_per_session": 4668,
     "estimated_sessions_remaining_base": 4,
-    "estimated_days_remaining_base": "18-22 days (average 19 entries per session)",
+    "estimated_days_remaining_base": "18-22 days",
     "estimated_sessions_remaining_dlc1": 203,
     "estimated_days_remaining_dlc1": "5-7 days",
     "estimated_sessions_remaining_dlc2": 127,

@@ -405933,17 +405933,17 @@
        [188]
         1 string data = ""2019_08_30と（将来のTBD終了日）の間のデバッグテストがここにあります。""
        [189]
-        1 string data = "Add follower: Courageous Little Toaster."
+        1 string data = "フォロワーを追加: 勇敢な小さなトースター。"
        [190]
-        1 string data = "Add follower: Party Pal."
+        1 string data = "フォロワーを追加: Party Pal。"
        [191]
-        1 string data = "Remove Follower: Courageous Little Toaster."
+        1 string data = "フォロワーを削除: 勇敢な小さなトースター。"
        [192]
-        1 string data = "Removing Courageous Little Toaster in On Exit and dropping Conversation."
+        1 string data = "On Exitで勇敢な小さなトースターを削除して会話を終了します。"
        [193]
-        1 string data = "Adding Courageous Little Toaster in On Exit and dropping Conversation."
+        1 string data = "On Exitで勇敢な小さなトースターを追加して会話を終了します。"
        [194]
-        1 string data = "Remove follower: Party Pal."
+        1 string data = "フォロワーを削除: Party Pal。"
        [195]
         1 string data = ""On Exitでフォロワーを削除して会話を終了します。""
        [196]
@@ -408185,11 +408185,11 @@
       1 Array Array (3 items)
        0 int size = 3
        [0]
-        1 string data = "Trade?"
+        1 string data = "取引する?"
        [1]
-        1 string data = "Let's trade"
+        1 string data = "取引しよう"
        [2]
-        1 string data = "Bye"
+        1 string data = "さよなら"
    [1409]
     0 StringTable data
      1 string Filename = "testconversation_mpterminal"
@@ -415727,15 +415727,15 @@
       1 Array Array (6 items)
        0 int size = 6
        [0]
-        1 string data = "Thin filaments of wire extend from a toaster-shaped niche in the marble altar. The pattern of connectors seems to match the base of the golden toaster you assembled."
+        1 string data = "大理石の祭壇にあるトースター型のくぼみから細いワイヤーフィラメントが伸びている。コネクターのパターンは、組み立てた黄金のトースターの底部と一致しているようだ。"
        [1]
-        1 string data = "Place the golden toaster on the altar."
+        1 string data = "黄金のトースターを祭壇に置く。"
        [2]
-        1 string data = "Step away."
+        1 string data = "離れる。"
        [3]
-        1 string data = "For a moment, nothing happens. Then a low hum emerges from deep below your feet..."
+        1 string data = "一瞬、何も起こらない。それから、足元の深くから低いうなり声が現れる..."
        [4]
-        1 string data = "The last of the great reserves of power have been drained from the Toaster Repair Academy."
+        1 string data = "トースター修理アカデミーから最後の偉大な電力の備蓄が排出された。"
        [5]
         1 string data = ""チン!""
    [1440]
@@ -416101,9 +416101,9 @@
        [8]
         1 string data = " Hurry up and kill'em, I'll stand here and make sure you get the job done."
        [9]
-        1 string data = "The women face you, cold-eyed and grim-faced. They're dressed in their Sunday worst - attire they won't mind getting dirty."
+        1 string data = "女たちはあなたを冷たい目で、険しい表情で見つめる。彼女たちは最悪の日曜服を着ている——汚れても構わない服装だ。"
        [10]
-        1 string data = ""He dead?" \r\n\r\nBetsy tightens her grip on her weapon."
+        1 string data = ""あいつは死んだのか?" \r\n\r\nBetsyは武器を握りしめる。"
        [11]
         1 string data = ""ああ。死んだ。""
        [12]
@@ -416111,15 +416111,15 @@
        [13]
         1 string data = ""Wind-that-Tanglesはまだ生きている。""
        [14]
-        1 string data = ""Of all the damn stupid things..." "
+        1 string data = ""なんてバカげたことだ..." "
        [15]
-        1 string data = ""He needs to die." "
+        1 string data = ""あいつは死ななきゃならない。" "
        [16]
         1 string data = ""あの男は...あの男は私たちの夫を、兄弟姉妹を、子供たちを奪って、あのゴッドフィッシャーどもが空に餌として飛ばすのを許した。確かに、彼らは間違いを犯したかもしれない。でも、誰もあんな死に方をする資格はない。""
        [17]
         1 string data = ""あんたたちはコロラドで正義と秩序を代表すると聞いた。もしそれが本当なら、少しでも誠実さがあるなら、あいつを殺さなきゃいけない。"\n\n\n"もしあんたがやらないなら、<i>私たち</i>がやる。""
        [18]
-        1 string data = ""Talk? Ain't nothing to talk about. That Godfisher's a mass murderer. Move aside and let us do what needs to be done." "
+        1 string data = ""話す? 話すことなんて何もない。あのゴッドフィッシャーは大量殺人者だ。退け、私たちがやるべきことをやらせろ。" "
        [19]
         1 string data = ""Wind-that-Tanglesは改心した。起きたことを後悔している。あんたに殺させるわけにはいかない。""
        [20]
@@ -416131,15 +416131,15 @@
        [23]
         1 string data = ""個人的なことじゃないが、もしあんたが大量殺人者の味方をするなら、そうだな。あんたは選択をした。私たちも選択した。あの男は自分がしたことの代償を払わなければならない。"\n\n\n"邪魔するな。""
        [24]
-        1 string data = ""So that makes it okay, then? For him to do what he did? For him to send our boys up to the sky like some kind of meat kites?" "
+        1 string data = ""それで許されるとでも? あいつがやったことが? 私たちの息子たちを肉の凧みたいに空に送ることが?" "
        [25]
         1 string data = ""あいつは臆病者になることを選んだ。自分の命を彼らより優先した。そして今? 今、あいつは代償を払わなければならない。あんたと戦いたくはないが、邪魔するなら戦う。""
        [26]
-        1 string data = "A curt bobbing of her jaw. The women file past, quiet as a funerary march. It's clear that they have little experience with their weapons, but that's unlikely to matter."
+        1 string data = "彼女は顎をぎこちなく上下させる。女たちは葬列のように静かに通り過ぎる。彼女たちが武器の扱いにほとんど経験がないことは明らかだが、それは問題にならないだろう。"
        [27]
-        1 string data = "There is very little sound and no shouting at all. Just the crack of gunshots and the sound of bones, broken to shrapnel."
+        1 string data = "音はほとんどなく、叫び声もまったくない。ただ銃声の鋭い音と、破片に砕かれた骨の音だけ。"
        [28]
-        1 string data = ""Good. That's real good. Now, if you'll excuse us, it's been a long road to see those scales balanced. Time for us to head home."\n\n\nShe hands you a package as payment."
+        1 string data = ""よし。それで良い。さて、失礼するが、この天秤を釣り合わせるのは長い道のりだった。帰る時間だ。"\n\n\n彼女は報酬として小包を手渡す。"
        [29]
         1 string data = ""あいつはあんたたちのものだ。""
        [30]
@@ -416165,7 +416165,7 @@
        [40]
         1 string data = ""あのゴッドフィッシャーの雑種を始末するのか?""
        [41]
-        1 string data = ""We heard that bastard's screams, Rangers. Thank you for evening the scales."\n\n\nShe hands you a package as payment."
+        1 string data = ""あの野郎の悲鳴が聞こえたわ、レンジャー。天秤を釣り合わせてくれてありがとう。"\n\n\n彼女は報酬として小包を手渡す。"
        [42]
         1 string data = ""そして、こんなことになってすまない。""
        [43]
@@ -416189,11 +416189,11 @@
        [52]
         1 string data = ""中にNikkiって女がいる。彼女はWind-that-Tanglesを殺させないだろう。""
        [53]
-        1 string data = "For a moment, she hesitates, her expression open and raw, before it tightens with resolve."
+        1 string data = "一瞬、彼女はためらい、その表情は剥き出しで生々しいが、やがて決意に硬くなる。"
        [54]
         1 string data = ""じゃあ、彼女も殺さなきゃならない。他に方法はない。""
        [55]
-        1 string data = ""Maybe you're right." "
+        1 string data = ""そうかもしれない。" "
        [56]
         1 string data = ""当たり前だ。あいつは死ぬべきだ。あんたが私たちのためにやるか、私たちが自分でやるかだ。""
        [57]
@@ -416207,7 +416207,7 @@
        [61]
         1 string data = ""正義が下されるのを見たかった。""
        [62]
-        1 string data = "She says nothing, just stares at you, hard and cold."
+        1 string data = "彼女は何も言わず、ただあなたを見つめる、硬く冷たく。"
        [63]
         1 string data = ""じゃあな、レンジャー。""
        [64]
@@ -416221,7 +416221,7 @@
        [68]
         1 string data = ""ここから出て行け、レンジャー。あんたたちはここまで連れてきてくれた。今度は私たちがあの野郎を殺す。""
        [69]
-        1 string data = ""We heard that bastard's screams. Don't care who killed him, as long as he's not breathing."\n\n\nShe hands you a package as payment."
+        1 string data = ""あの野郎の悲鳴が聞こえた。誰が殺したかは気にしない、息をしていなければな。"\n\n\n彼女は報酬として小包を手渡す。"
        [70]
         1 string data = ""復讐のためにここまで来たなら、あんたたちが手を下すべきだ。あいつは洞窟の中にいる。""
        [71]
@@ -416243,7 +416243,7 @@
        [79]
         1 string data = ""俺たちはデザート・レンジャーだ。今すぐ引き下がることを強く勧める...今すぐにな。""
        [80]
-        1 string data = "She stares at you with the gaze of one hardened by betrayal. A single bead of sweat trickles down her cheek, causing her to flinch."
+        1 string data = "彼女は裏切りによって硬くなった者の視線であなたを見つめる。一粒の汗が頬を伝い、彼女を身じろぎさせる。"
        [81]
         1 string data = ""いいだろう、殺人者のクズを守れ。いずれ仕留めてやる。でもいつか、あんたたちレンジャーも私たちみたいに誰かを失うだろう...そして傲慢な野郎どもに復讐を拒まれるんだ。""
        [82]
