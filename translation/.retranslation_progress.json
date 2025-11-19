@@ -11,16 +11,16 @@
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
     "current_line": 355250,
     "total_lines": 530425,
-    "entries_completed": 148909,
+    "entries_completed": 148916,
     "total_entries": 169712,
     "percent_complete": 87.7,
-    "untranslated_entries": 20803,
+    "untranslated_entries": 20796,
     "last_section": "greenhouse_pesticide_control",
     "validation_status": "passed",
     "structure_errors": 9,
     "action_marker_errors": 0,
     "quality_issues": 20803,
-    "notes": "2025-11-19: Session 5 completed. 10 entries translated (1 commit). Preserved ::action:: markers and debug messages. Next: line 355250."
+    "notes": "2025-11-19: Session 5 completed. 17 entries translated (2 commits). Fixed space-prefixed dialogue translation. Next: line 355250."
   },
   "dlc1": {
     "status": "not_started",
@@ -39,20 +39,21 @@
   "last_session": {
     "session_number": 5,
     "date": "2025-11-19",
-    "entries_processed": 10,
+    "entries_processed": 17,
     "sections_completed": [
       "Hopeful NPC ambient dialogue (4 entries)",
-      "Greenhouse Pesticide Control computer system (6 entries)"
+      "Greenhouse Pesticide Control computer system (6 entries)",
+      "Odinkirk space-prefixed dialogue options (7 entries)"
     ],
-    "commit_hash": "d3664675",
+    "commit_hash": "c7d3daae",
     "validation_passed": true,
-    "notes": "Manual translation: 10 entries, 1 commit. Preserved ::action:: markers, skipped debug messages correctly.",
+    "notes": "Manual translation: 17 entries, 2 commits. Fixed incorrect skipping of space-prefixed entries. Lesson: Check each space-prefixed entry individually.",
     "next_action": "Continue from line 355250"
   },
   "cumulative_stats": {
     "total_sessions": 5,
-    "total_entries_translated": 148909,
-    "untranslated_remaining": 20803,
+    "total_entries_translated": 148916,
+    "untranslated_remaining": 20796,
     "average_entries_per_session": 38,
     "estimated_sessions_remaining_base": 548,
     "estimated_days_remaining_base": "11-15 days (average 38 entries/session)",
