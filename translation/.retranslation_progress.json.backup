@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 370000,
+    "current_line": 370945,
     "total_lines": 530425,
-    "entries_completed": 149015,
+    "entries_completed": 149024,
     "total_entries": 169712,
     "percent_complete": 87.8,
-    "untranslated_entries": 20697,
-    "last_section": "o2001_masatothebutcher",
+    "untranslated_entries": 20688,
+    "last_section": "o2001_megascope",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-20: Session 13 completed. Translated 19 narrative description entries across multiple character sections (Eidilon, Flab, Gwyn Talbot, Long John, Masato). Fixed quote count errors. All validations passed."
+    "notes": "2025-11-20: Session 14 completed. Fixed bracket translation error (line 3476) and translated o2001_megascope section (9 entries). All validations passed."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,28 +37,24 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 13,
+    "session_number": 14,
     "date": "2025-11-20",
-    "entries_processed": 19,
+    "entries_processed": 9,
     "sections_completed": [
-      "o2001_eidilon",
-      "o2001_flabtheinhaler",
-      "o2001_gwynethtalbott",
-      "o2001_longjohn",
-      "o2001_masatothebutcher"
+      "o2001_megascope"
     ],
-    "commit_hash": "b6f003c9",
+    "commit_hash": "73261436",
     "validation_passed": true,
-    "notes": "Translated 19 narrative description entries. Fixed 2 quote count errors (lines 367370, 367402). Structure: 0 errors. Action markers: preserved correctly. Quote formats: matched source exactly.",
-    "next_action": "Continue sequential translation from line 370000"
+    "notes": "Fixed bracket translation error (line 3476: [Attack] marker restored). Translated o2001_megascope section (9 entries: display case descriptions, interaction options). Structure: 0 errors. Action markers: preserved correctly. Quote formats: matched source exactly.",
+    "next_action": "Continue sequential translation from line 370945"
   },
   "cumulative_stats": {
-    "total_sessions": 13,
-    "total_entries_translated": 149015,
-    "untranslated_remaining": 20697,
-    "average_entries_per_session": 23,
-    "estimated_sessions_remaining_base": 900,
-    "estimated_days_remaining_base": "18-22 days (average 23 entries/session)",
+    "total_sessions": 14,
+    "total_entries_translated": 149024,
+    "untranslated_remaining": 20688,
+    "average_entries_per_session": 22,
+    "estimated_sessions_remaining_base": 940,
+    "estimated_days_remaining_base": "19-23 days (average 22 entries/session)",
     "estimated_sessions_remaining_dlc1": 193,
     "estimated_days_remaining_dlc1": "5-7 days",
     "estimated_sessions_remaining_dlc2": 121,
