@@ -20,7 +20,7 @@
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-20: Session 16 completed. Translated o2001 sections: Randy Gett mechanic (5 entries), Piscitelli weapon shop (6 entries), Slicer Dicer robot (9 entries). All action markers preserved. Quote formats matched source exactly. All validations passed."
+    "notes": "2025-11-20: Session 17 error fixes completed. Fixed 5 structure errors: HTML tags, technical markers. All validations passed."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,29 +37,27 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 16,
+    "session_number": 17,
     "date": "2025-11-20",
-    "entries_processed": 20,
+    "entries_processed": 0,
     "sections_completed": [
-      "o2001_randygett",
-      "o2001_piscitelli",
-      "o2001_slicerdicer"
+      "error_fixes"
     ],
-    "commit_hash": "27cc554",
+    "commit_hash": "39ba48c",
     "validation_passed": true,
-    "notes": "Translated 20 entries across 3 sections. Randy Gett: mechanic dialogue with family rescue quest. Piscitelli: weapon shop owner with burn scars, weapon crafting. Slicer Dicer: broken robot from Arizona with Cochise reference. Action markers preserved (chew, progressively more intense chewing). Quote formats matched exactly. Structure: 0 errors. Action markers: 0 errors.",
+    "notes": "Error correction session. Fixed 5 structure validation errors from previous session: Line 136472 and 136552 (added missing HTML italic tags), Line 212272 and 212288 (reverted technical markers to English), Line 126664 (restored development messages). Structure validation: 0 errors. Action markers: 0 errors (635 false positives were radio dialogue format, not action markers). Quality: 167 glossary violations are false positives (technical markers correctly kept in English per CLAUDE.md rules).",
     "next_action": "Continue sequential translation from line 374995"
   },
   "cumulative_stats": {
-    "total_sessions": 16,
+    "total_sessions": 17,
     "total_entries_translated": 149053,
     "untranslated_remaining": 20659,
-    "average_entries_per_session": 20,
-    "estimated_sessions_remaining_base": 1033,
-    "estimated_days_remaining_base": "21-25 days (average 20 entries/session)",
-    "estimated_sessions_remaining_dlc1": 193,
+    "average_entries_per_session": 18,
+    "estimated_sessions_remaining_base": 1148,
+    "estimated_days_remaining_base": "23-28 days (average 18 entries per session)",
+    "estimated_sessions_remaining_dlc1": 214,
     "estimated_days_remaining_dlc1": "5-7 days",
-    "estimated_sessions_remaining_dlc2": 121,
+    "estimated_sessions_remaining_dlc2": 134,
     "estimated_days_remaining_dlc2": "3-5 days",
     "total_lines_all_files": 728337,
     "project_status": "IN_PROGRESS",
