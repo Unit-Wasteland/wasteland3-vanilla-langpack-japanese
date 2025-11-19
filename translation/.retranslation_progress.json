@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 397550,
+    "current_line": 398525,
     "total_lines": 530425,
-    "entries_completed": 149309,
+    "entries_completed": 149339,
     "total_entries": 169712,
     "percent_complete": 88.0,
-    "untranslated_entries": 20403,
-    "last_section": "q2001_riskybriskett_obsolete",
+    "untranslated_entries": 20373,
+    "last_section": "q2001_haloedmoon",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-20: Session 29 completed. Translated obsolete dialogue section (13 entries). All validations passed. Quality script false positives (Global, Debug, Leave) are technical terms correctly kept in English."
+    "notes": "2025-11-20: Session 30 completed. Translated q2001_cucarachakite (8 entries), q2001_haloedmoon (22 entries). Debug menu entries correctly kept in English. All validations passed: 0 structural errors, 0 action marker errors."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,30 +37,31 @@
     "notes": "Pending base game and DLC2 completion"
   },
   "last_session": {
-    "session_number": 29,
+    "session_number": 30,
     "date": "2025-11-20",
-    "entries_processed": 13,
+    "entries_processed": 30,
     "sections_completed": [
-      "q2001_riskybriskett_obsolete (13 entries - obsolete dialogue)"
+      "q2001_cucarachakite (8 entries - kite retrieval quest)",
+      "q2001_haloedmoon (22 entries - Haloed Moon sacrifice dialogue)"
     ],
-    "commit_hash": "3bd601f",
+    "commit_hash": "pending",
     "validation_passed": true,
-    "notes": "Session 29: Obsolete dialogue section translation. Player options and NPC responses. Debug option kept in English. Quality validation shows 166 false positives (Global, Debug, Leave are technical terms correctly kept in English, not translation errors). All validations: 0 structural errors.",
-    "next_action": "Continue sequential translation from line 397550"
+    "notes": "Session 30: Quest dialogue sections. Cucaracha kite retrieval (8 entries) and Haloed Moon sacrifice quest (22 entries with narration and action descriptions). 25 debug menu entries correctly kept in English per CLAUDE.md Section 8 rules. All validations: 0 structural errors, 0 action markers translated.",
+    "next_action": "Continue sequential translation from line 398525"
   },
   "cumulative_stats": {
-    "total_sessions": 29,
-    "total_entries_translated": 149309,
-    "untranslated_remaining": 20403,
-    "average_entries_per_session": 18,
-    "estimated_sessions_remaining_base": 1133,
-    "estimated_days_remaining_base": "18-23 days (average 18 entries per session)",
-    "estimated_sessions_remaining_dlc1": 214,
+    "total_sessions": 30,
+    "total_entries_translated": 149339,
+    "untranslated_remaining": 20373,
+    "average_entries_per_session": 19,
+    "estimated_sessions_remaining_base": 1072,
+    "estimated_days_remaining_base": "18-22 days (average 19 entries per session)",
+    "estimated_sessions_remaining_dlc1": 203,
     "estimated_days_remaining_dlc1": "5-7 days",
-    "estimated_sessions_remaining_dlc2": 134,
+    "estimated_sessions_remaining_dlc2": 127,
     "estimated_days_remaining_dlc2": "3-5 days",
     "total_lines_all_files": 728337,
     "project_status": "IN_PROGRESS",
-    "completion_date": "estimated 2025-12-19"
+    "completion_date": "estimated 2025-12-18"
   }
 }
