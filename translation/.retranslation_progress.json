@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 417853,
+    "current_line": 420127,
     "total_lines": 530425,
-    "entries_completed": 149409,
+    "entries_completed": 149518,
     "total_entries": 169712,
-    "percent_complete": 88.0,
-    "untranslated_entries": 20303,
-    "last_section": "x2801_kymhie",
+    "percent_complete": 88.1,
+    "untranslated_entries": 20225,
+    "last_section": "x3401_fixingclownballerina_04",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-20: Session 35 completed. Wind-that-Tangles and Kym Hie dialogue content (13 entries): x1201_wind (6 entries), x2801_kymhie (7 entries). Godfisher backstory, Cogan debt situation. All quote formats matched source. All validations: 0 errors."
+    "notes": "2025-11-20: Session 37 completed. Clown museum ballerina repair puzzles (78 entries). All quote formats matched source. All validations: 0 errors."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,23 +37,26 @@
     "notes": "Pending base game and DLC2 completion"
   },
   "last_session": {
-    "session_number": 35,
+    "session_number": 37,
     "date": "2025-11-20",
-    "entries_processed": 13,
+    "entries_processed": 78,
     "sections_completed": [
-      "x1201_wind (6 entries - Wind-that-Tangles dialogue)",
-      "x2801_kymhie (7 entries - Kym & Yoon Hie story)"
+      "x3401_fixingclownballerina_00 (20 entries - ballerina repair)",
+      "x3401_fixingclownballerina_01 (25 entries - ballerina repair)",
+      "x3401_fixingclownballerina_02 (15 entries - ballerina repair)",
+      "x3401_fixingclownballerina_03 (37 entries - ballerina repair)",
+      "x3401_fixingclownballerina_04 (18 entries - ballerina repair)"
     ],
-    "commit_hash": "95565e5",
+    "commit_hash": "",
     "validation_passed": true,
-    "notes": "Session 35: Wind-that-Tangles Godfisher backstory and Kym Hie debt situation. Translated player dialogue choices, NPC interaction, and emotional scenes with action markers (sobs). All quote formats matched source. All validations: 0 structural errors, 0 action marker errors.",
-    "next_action": "Continue sequential translation from line 417853 (x2801_mosscogan section)"
+    "notes": "Session 37: Clown museum animatronic ballerina repair puzzle interactions across 5 variants. Each ballerina has different malfunction types requiring specific replacement parts. All action markers preserved. All quote formats matched source. All validations: 0 errors.",
+    "next_action": "Continue sequential translation from line 420127 (x3401_fixingclownballerina_05 section)"
   },
   "cumulative_stats": {
-    "total_sessions": 35,
-    "total_entries_translated": 149409,
-    "untranslated_remaining": 20303,
-    "average_entries_per_session": 4269,
+    "total_sessions": 37,
+    "total_entries_translated": 149518,
+    "untranslated_remaining": 20225,
+    "average_entries_per_session": 4041,
     "estimated_sessions_remaining_base": 5,
     "estimated_days_remaining_base": "18-22 days",
     "estimated_sessions_remaining_dlc1": 203,
