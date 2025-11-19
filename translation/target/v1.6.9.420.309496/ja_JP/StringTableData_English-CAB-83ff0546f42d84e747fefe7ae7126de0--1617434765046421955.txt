@@ -428405,7 +428405,7 @@
        [52]
         1 string data = ""だが俺はあんたらを信じてる、レンジャー…幸運を!""
        [53]
-        1 string data = "[Attack] "We made a deal with the Scar Collectors, so we're taking the bison.""
+        1 string data = "[Attack] "スカー・コレクターズと取引したから、バイソンは俺たちが頂く。""
        [54]
         1 string data = ""ここの中から戦闘を始めれば、はるかに戦略的な攻撃位置になる。""
        [55]
@@ -428463,7 +428463,7 @@
        [81]
         1 string data = ""すまん。俺たちはレンジャーで、害獣駆除業者じゃない。幸運を祈る。""
        [82]
-        1 string data = "The rancher glowers at you before turning away."
+        1 string data = "牧場主はあなたを睨みつけてから背を向ける。"
        [83]
         1 string data = ""一体全体どうなってやがる!?""
        [84]
@@ -428753,7 +428753,7 @@
        [2]
         1 string data = ""
        [3]
-        1 string data = "[Attack] "The ranchers called us. There'll be no genocide on our watch, assholes!""
+        1 string data = "[Attack] "牧場主たちが俺たちを呼んだんだ。俺たちが見張ってる限り大量虐殺なんてさせねえぞ、クソ野郎ども!""
        [4]
         1 string data = ""消えろ、レンジャー。これはあんたらに関係ない。我々は自分たちのものを手に入れる。""
        [5]
@@ -428783,7 +428783,7 @@
        [17]
         1 string data = ""もっとバイソンが欲しいのか?欲深くなってきたな、レンジャー。だがこんな大量にいる中から、もう一頭くらいどうってことない。持って行って消えろ。""
        [18]
-        1 string data = "[Reward: [Dropset: DRP_A1001_Reward_KnoxMeatFull]] "We could take care of the ranchers for you, assuming there's a reward.""
+        1 string data = "[Reward: [Dropset: DRP_A1001_Reward_KnoxMeatFull]] "報酬があるなら、俺たちがあんたらの代わりに牧場主たちを始末できるぜ。""
        [19]
         1 string data = " Fucking Rangers, get out of here before I gut you.\nTHIS SHOULD BE VERY HOSTEL TOWARDS THE PLAYER"
        [20]
@@ -428829,15 +428829,15 @@
        [40]
         1 string data = ""なぜまだここにいる、虫けらども?!牧場主たちの始末があるんじゃないのか?!""
        [41]
-        1 string data = "[Attack] "We changed our minds.""
+        1 string data = "[Attack] "俺たちは考えを変えた。""
        [42]
         1 string data = ""
        [43]
         1 string data = ""
        [44]
-        1 string data = ""おいおい。あれはコーダイトか?""
+        1 string data = ""やばい。あれはコーダイトか?""
        [45]
-        1 string data = ""スティール・トラップの手下だ。""
+        1 string data = ""スティール・トラップの手下どもだ。""
        [46]
         1 string data = ""
        [47]
@@ -429077,33 +429077,33 @@
       1 Array Array (24 items)
        0 int size = 24
        [0]
-        1 string data = "A boy in thick furs waves you down by the road. He is alone but looks more bored than distressed. He tells you his uncles were supposed to take him on a hunt, but they got drunk and left him behind. He asks for a ride to their camp."
+        1 string data = "厚い毛皮を着た少年が道端で手を振っている。一人だが、苦しんでいるというよりも退屈そうに見える。叔父たちが狩りに連れて行くはずだったが、酔っぱらって自分を置いていったと言う。彼らの野営地まで乗せて行ってほしいと頼んでくる。"
        [1]
-        1 string data = "Something's not right about this. Threaten the brat for information."
+        1 string data = "何かおかしい。ガキを脅して情報を吐かせろ。"
        [2]
-        1 string data = "Help the kid find his uncles."
+        1 string data = "少年が叔父たちを見つけるのを手伝う。"
        [3]
-        1 string data = "NOPE. There's no room for dodgy brats in this rig."
+        1 string data = "無理だ。この車には怪しいガキを乗せる余裕はない。"
        [4]
-        1 string data = "The kid rides along in the rig, pointing the way. His directions lead to an empty culvert, but when you turn to ask him about it, he's gone. Seconds later, gunfire erupts outside the rig. "
+        1 string data = "少年は車に乗り込み、道を指示する。彼の指示は空の暗渠に導くが、振り返ってそのことを尋ねようとすると、彼は姿を消している。数秒後、車外で銃撃が勃発する。"
        [5]
-        1 string data = "Surrounding the kid, you ask if he expects you to believe his bullshit story. In the face of so many weapons, the kid begins sobbing about an ambush. "
+        1 string data = "少年を取り囲み、そんなデタラメな話を信じると思っているのかと尋ねる。多数の武器を前にして、少年は待ち伏せのことをすすり泣きながら話し始める。"
        [6]
-        1 string data = "Coax the details out of the kid so you can get the drop on the ambushers. "
+        1 string data = "少年から詳細を聞き出して、待ち伏せしている連中の先手を取る。"
        [7]
-        1 string data = "Ask the kid how to find the ambush so you can go on the offensive. "
+        1 string data = "待ち伏せの場所を少年に尋ねて、先制攻撃を仕掛ける。"
        [8]
-        1 string data = "Ask the kid how to avoid the ambush."
+        1 string data = "待ち伏せを回避する方法を少年に尋ねる。"
        [9]
-        1 string data = "You console the boy. His uncles use him as roadside bait, and he's starved for kindness. After he describes the layout of their trap, you send him home and drive around to the rear of the ambush. "
+        1 string data = "少年を慰める。叔父たちは彼を道端の囮として使っており、彼は優しさに飢えている。罠の配置を説明してもらった後、彼を家に帰し、待ち伏せの背後に回り込む。"
        [10]
-        1 string data = "The kid describes a hilly choke nearby, then runs off, sniffling. You put the Kodiak into gear and head out to find these uncles of his. "
+        1 string data = "少年は近くの丘陵地帯の狭い通路を説明してから、すすり泣きながら走り去る。コディアックのギアを入れて、彼の叔父たちを探しに向かう。"
        [11]
-        1 string data = "The kid describes a hilly choke nearby, then runs off, sniffling. You put the Kodiak into gear and head out, giving the ambush a wide berth. "
+        1 string data = "少年は近くの丘陵地帯の狭い通路を説明してから、すすり泣きながら走り去る。コディアックのギアを入れて、待ち伏せを大きく迂回して出発する。"
        [12]
         1 string data = ""
        [13]
-        1 string data = "Better to just stick to the mission."
+        1 string data = "任務に集中したほうがいい。"
        [14]
         1 string data = ""
        [15]
@@ -429123,7 +429123,7 @@
        [22]
         1 string data = ""
        [23]
-        1 string data = "A boy in thick furs waves you down by the road.\n\n\n"
+        1 string data = "厚い毛皮を着た少年が道端で手を振っている。\n\n\n"
    [1528]
     0 StringTable data
      1 string Filename = "y202_breakdown_hills_animals"
@@ -429207,31 +429207,31 @@
        [0]
         1 string data = ""
        [1]
-        1 string data = "The Kodiak lurches with a metal shriek. A craggy rock  has snagged one of the treads, tearing the linkage. The rig carries spares, but it's a difficult repair. Somewhere nearby, you hear a strange howl."
+        1 string data = "コディアックが金属音を立てながら急停止する。ごつごつした岩が履帯の一つに引っかかり、連結部を引き裂いた。車両には予備があるが、修理は困難だ。どこか近くで、奇妙な遠吠えが聞こえる。"
        [2]
-        1 string data = "Lay the replacement link on the ground and drive over it, popping it into position. "
+        1 string data = "交換用リンクを地面に置いて、その上を走行し、所定の位置にはめ込む。"
        [3]
-        1 string data = "Disassemble and replace the damaged tread."
+        1 string data = "損傷した履帯を分解して交換する。"
        [4]
-        1 string data = "This is a job that should not be rushed. Unfortunately, before it can be completed properly, the local wildlife comes out to greet you. "
+        1 string data = "これは急いではいけない作業だ。残念ながら、適切に完了する前に、地元の野生動物が挨拶に出てくる。"
        [5]
-        1 string data = "Proper repairs will have to wait. Prepare for hostile wildlife. "
+        1 string data = "適切な修理は後回しだ。敵対的な野生動物に備えろ。"
        [6]
-        1 string data = "The trick is lining up the replacement. Rolling forward, the vehicle's weight presses the new link into position. In a few minutes, you are on your way. "
+        1 string data = "コツは交換部品の位置を合わせることだ。前進すると、車両の重量が新しいリンクを所定の位置に押し込む。数分で出発できる。"
        [7]
-        1 string data = "The squad takes their positions. The howls increase, and within minutes dark shapes begin to skulk about the rig."
+        1 string data = "部隊は配置につく。遠吠えが大きくなり、数分以内に暗い影が車両の周りに忍び寄り始める。"
        [8]
-        1 string data = "Confront the pack alpha to drive the beasts away."
+        1 string data = "群れのアルファと対峙して、獣たちを追い払う。"
        [9]
-        1 string data = "Blast the rig's horn at them."
+        1 string data = "車両のホーンを鳴らして威嚇する。"
        [10]
-        1 string data = "Remind the mongrels which species invented gunpowder. "
+        1 string data = "雑種どもに、どの種が火薬を発明したか思い出させてやる。"
        [11]
-        1 string data = "Presenting yourself to the Alpha confidently, you send a clear message that it's picking the wrong fight. The creatures slowly slink into the darkness, and you finish your repairs unmolested. "
+        1 string data = "自信を持ってアルファの前に立つと、間違った相手を選んでいるという明確なメッセージが伝わる。クリーチャーたちはゆっくりと闇に消え、修理を無事に完了できる。"
        [12]
-        1 string data = "The creatures jump at the booming sound, but then launch a snarling attack. They seem REALLY pissed off. "
+        1 string data = "クリーチャーたちは轟音に驚いて跳び上がるが、その後唸り声を上げて攻撃を仕掛けてくる。本当に激怒しているようだ。"
        [13]
-        1 string data = "As well as rockets, flamethrowers, and plasma generators. Come and get it, poochy."
+        1 string data = "ロケット、火炎放射器、プラズマ発生器もな。かかってこいよ、犬ころ。"
        [14]
         1 string data = ""
        [15]
@@ -429333,39 +429333,39 @@
        [0]
         1 string data = ""
        [1]
-        1 string data = "The Kodiak rolls to a stop next to an unattended supply cart. It's stacked with animal skins, but no one is around. Smoke rises over the next hill."
+        1 string data = "コディアックが無人の補給車の隣で停止する。動物の皮が山積みになっているが、誰もいない。次の丘の向こうから煙が立ち上っている。"
        [2]
-        1 string data = "Some of this crap looks useful. Search through it more carefully."
+        1 string data = "このガラクタの中には使えそうなものがある。もっと注意深く探してみろ。"
        [3]
-        1 string data = "Approach the source of the smoke cautiously."
+        1 string data = "煙の発生源に慎重に近づく。"
        [4]
-        1 string data = "Get the hell out of there."
+        1 string data = "さっさとここから出る。"
        [5]
-        1 string data = "Uninteresting things are perfect for concealing interesting things. There are some odds and ends here that might be useful."
+        1 string data = "面白くないものは、面白いものを隠すのに最適だ。ここには役立つかもしれないものがいくつかある。"
        [6]
-        1 string data = "Lockpick - What do we have here?"
+        1 string data = "ロックピック - 何があるか見てみるか?"
        [7]
-        1 string data = "Interesting, but very difficult to open. "
+        1 string data = "興味深いが、開けるのは非常に難しい。"
        [8]
-        1 string data = "You check to make sure it's locked, and not just closed. That isn't the case, but man, that would have been sweet, right?"
+        1 string data = "鍵がかかっているのか、ただ閉まっているだけなのか確認する。残念ながらそうではなかったが、もしそうだったら最高だっただろう?"
        [9]
-        1 string data = "The lock is strong, but not overly complex. The compartment is filled with some pretty deadly hardware. Whoever owns this cart trades in more than just hides."
+        1 string data = "鍵は頑丈だが、過度に複雑ではない。区画の中にはかなり致命的な武器が詰まっている。この車の持ち主は、皮だけでなく、もっと多くのものを取引しているようだ。"
        [10]
-        1 string data = "A group of Dorseys have built a campfire. They could be stragglers, part of the attack on Colorado Springs. At the moment, they seem focused on whatever meat is charring over their fire. "
+        1 string data = "ドーシーズの一団が焚き火を起こしている。コロラドスプリングス攻撃の残党の可能性がある。今のところ、彼らは火の上で焦げている肉に集中しているようだ。"
        [11]
-        1 string data = "Could have been trap, a Shadowclaw nest, who knows? Sometimes it's best to just focus on the mission."
+        1 string data = "罠かもしれないし、シャドウクローの巣かもしれない、誰にもわからない。時には任務に集中するのが一番だ。"
        [12]
-        1 string data = "Move in quiet, take position, then take 'em out."
+        1 string data = "静かに接近して、位置につき、始末する。"
        [13]
-        1 string data = "Exterminate the scum."
+        1 string data = "クズどもを駆除しろ。"
        [14]
-        1 string data = "Walk away."
+        1 string data = "立ち去る。"
        [15]
-        1 string data = "You slip down the slope quietly and use the undergrowth to approach. The closer you get, the nastier these goons look. They've got this coming. "
+        1 string data = "静かに斜面を滑り降りて、下草を使って接近する。近づくほど、この悪党どもは凶悪に見える。自業自得だ。"
        [16]
-        1 string data = "You don't need to be a Ranger to know these guys are wasteland predators. This camp needs to burn. "
+        1 string data = "レンジャーでなくても、こいつらが荒地の捕食者だとわかる。この野営地は焼き払う必要がある。"
        [17]
-        1 string data = "You don't have the time or resources to fight every pack of human animals you come across, as much as you might like to. "
+        1 string data = "出会う人間の獣の群れ全てと戦う時間も資源もない。そうしたくても。"
        [18]
         1 string data = ""
        [19]
