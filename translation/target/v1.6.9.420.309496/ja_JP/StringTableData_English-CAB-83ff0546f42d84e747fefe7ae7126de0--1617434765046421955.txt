@@ -381011,9 +381011,9 @@
        [44]
         1 string data = ""ことだ!!!""
        [45]
-        1 string data = "[[Global: q1001_money_BetaMasterBribe] Dollars] "... You guys just have that kind of money sitting around like..."\n\n\n"Okay, fine, I'll take it. Deal. Gotta find a place to hide this, or Steel-Trap'll beat me up and steal it all like he usually..."\n\n\nHe looks up, suddenly remembering he's not alone."
+        1 string data = "[[Global: q1001_money_BetaMasterBribe] Dollars] "...お前ら、そんな大金をそこらに転がしてるように...".\n\n\n"わかった、もらうよ。取引成立だ。隠し場所を見つけないと、スティール・トラップにいつものように殴られて全部奪われるから...".\n\n\n彼は顔を上げ、自分が一人じゃないことを突然思い出す。"
        [46]
-        1 string data = ""I can't believe this! I have been looking for so long! Now I finally have it! I finally-!"\n\n\nHe looks up, suddenly remembering he's not alone. "
+        1 string data = ""信じられない!こんなに長い間探してた!ついに手に入れた!ついに...!".\n\n\n彼は顔を上げ、自分が一人じゃないことを突然思い出す。"
        [47]
         1 string data = ""それとも、お前を徹底的にボコボコにして吐かせるか?どうだ?""
        [48]
@@ -381037,7 +381037,7 @@
        [57]
         1 string data = "[[Global: q1001_money_BetaMasterBribe] Dollars] "We put together the cash, so hand over the dirt on Steel-Trap.""
        [58]
-        1 string data = "[[Global: q1001_money_BetaMasterBribe] Dollars] "... Wow, you guys actually have that much money? I didn't think..."\n\n\n"Okay, fine, I'll take it. Deal. Gotta find a place to hide this, or Steel-Trap'll beat me up and steal it all like he usually..."\n\n\nHe looks up, suddenly remembering he's not alone."
+        1 string data = "[[Global: q1001_money_BetaMasterBribe] Dollars] "...まさか、お前ら本当にそんな大金持ってるのか?まさか...".\n\n\n"わかった、もらうよ。取引成立だ。隠し場所を見つけないと、スティール・トラップにいつものように殴られて全部奪われるから...".\n\n\n彼は顔を上げ、自分が一人じゃないことを突然思い出す。"
        [59]
         1 string data = ""やっぱりいい。さよなら。""
        [60]
@@ -381081,9 +381081,9 @@
        [79]
         1 string data = ""スティール・トラップをどう思う?""
        [80]
-        1 string data = "His eyes slide toward Steel-Trap, who's on the far side of the garage."
+        1 string data = "彼の視線がガレージの向こう側にいるスティール・トラップに向く。"
        [81]
-        1 string data = ""I love Steel-Trap! He's the best leader. The best!"\r"
+        1 string data = ""スティール・トラップを愛してる!彼は最高のリーダーだ。最高だ!"\r"
        [82]
         1 string data = ""大丈夫だよ。彼には聞こえない。好きじゃないんだろ?""
        [83]
@@ -381111,9 +381111,9 @@
        [94]
         1 string data = ""じゃあな。""
        [95]
-        1 string data = ""Who-?"\n\n\nHis eyes widen as he drinks you in."
+        1 string data = ""誰が...?".\n\n\n彼はあなたを見つめながら目を見開く。"
        [96]
-        1 string data = ""Oh! You're back."\n\n\nHe licks his lips."
+        1 string data = ""おぉ!戻ってきたのか".\n\n\n彼は唇を舐める。"
        [97]
         1 string data = ""それは断りだ。""
        [98]
@@ -381137,9 +381137,9 @@
        [107]
         1 string data = ""お願いだ。やめてくれ。""
        [108]
-        1 string data = "He steps back in shock."
+        1 string data = "彼はショックで後ずさりする。"
        [109]
-        1 string data = ""How do you have that!? I thought I hid that where-!"\n\n\nHe claps his hand over his mouth."
+        1 string data = ""どうやって手に入れたんだ!?あそこに隠したはずなのに...!".\n\n\n彼は口に手を当てる。"
        [110]
         1 string data = ""つまりこれはお前のものか?何が入ってる?""
        [111]
@@ -381161,11 +381161,11 @@
        [119]
         1 string data = ""スティール・トラップには俺からもらったって言わないでくれよな?""
        [120]
-        1 string data = "[[Global: q1001_money_BetaMasterBribe] Dollars] "H-how about some cash? Or, wait...""
+        1 string data = "[[Global: q1001_money_BetaMasterBribe] Dollars] "金、金はどうだ?それとも、待て...""
        [121]
         1 string data = ""何年も何年も探してるビデオテープがあるんだ。'ビキニ・ヒート3'。'ビキニ・ヒート1'と'ビキニ・ヒート2'は持ってて、どう終わるのか知らないといけないんだ。そのテープを持ってきてくれたら、知りたいことを教えるよ。""
        [122]
-        1 string data = "[[Global: q1001_money_BetaMasterBribe] Dollars] "That or the money, and you've got yourself a deal.""
+        1 string data = "[[Global: q1001_money_BetaMasterBribe] Dollars] "それか金、どっちでも取引成立だ。""
        [123]
         1 string data = ""よし、これがスティール・トラップのテープを再生できるカメラだ。再生ウィンドウで見てくれ。""
        [124]
@@ -381195,7 +381195,7 @@
        [136]
         1 string data = ""建物から戻って、鉱山のトロッコの線路をたどってくれ。そのまままっすぐ行けるぞ。""
        [137]
-        1 string data = ""That's a better answer than I usually get. So, uh... what can I do you for?"\n\n\nHe winks."
+        1 string data = ""いつもよりマシな答えだな。それで、えっと...何か用か?".\n\n\n彼はウインクする。"
        [138]
         1 string data = ""また今度な。""
        [139]
@@ -381209,13 +381209,13 @@
        [143]
         1 string data = ""タ、タダじゃないぞ。何かくれよ。その、えっと...""
        [144]
-        1 string data = ""Who-?" \r\n\r\n"Shit! Cordite! Uh, y-y-you're not still mad at me, are you?"\r\n\r\n"
+        1 string data = ""誰だ...?" \r\n\r\n"クソ!コーダイト!あ、あ、まだ怒ってないよな?"\r\n\r\n"
        [145]
         1 string data = ""あぁ、えっと、前に...質問したら、怒られたんだよ。もう聞かないけど...友達には聞いていいか?""
        [146]
         1 string data = ""知ったことか。""
        [147]
-        1 string data = ""Th-thanks."\n\n\nHe turns to you."
+        1 string data = ""あ、ありがとう".\n\n\n彼はあなたの方を向く。"
        [148]
         1 string data = ""お前のことなんか覚えてないぞ。""
        [149]
@@ -381255,7 +381255,7 @@
        [166]
         1 string data = ""テープを手に入れたのか?さあレチェリートに見せろ。""
        [167]
-        1 string data = "He looks nervously at you, then at Steel-Trap."
+        1 string data = "彼は不安そうにあなたを見て、それからスティール・トラップを見る。"
    [1302]
     0 StringTable data
      1 string Filename = "q1001_combatbarks_lecherito"
