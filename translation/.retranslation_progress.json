@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 455617,
+    "current_line": 456215,
     "total_lines": 530425,
-    "entries_completed": 152166,
+    "entries_completed": 152566,
     "total_entries": 169712,
-    "percent_complete": 89.7,
-    "untranslated_entries": 17546,
+    "percent_complete": 89.9,
+    "untranslated_entries": 17146,
     "last_section": "abilities",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-20: Session 197 completed (139 entries). Marshal Murderer encounter, combat abilities/items. All validations: 0 errors."
+    "notes": "2025-11-20: Session 198 completed (400 entries). Ability names/descriptions, item effects, precision strikes, ultimate abilities. All validations: 0 errors."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,31 +37,30 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 197,
+    "session_number": 198,
     "date": "2025-11-20",
-    "entries_processed": 139,
+    "entries_processed": 400,
     "sections_completed": [
-      "y_unique06_marshalmurderers (57/57 entries - Marshal Murderer self-defense case)",
-      "abilities (82/500 entries partial - combat skills, grenades, mines, targeting)"
+      "abilities (400/500 entries partial - ability names, descriptions, item effects, precision strikes)"
     ],
-    "commit_hash": "dcdd051",
+    "commit_hash": "6fdcdca",
     "validation_passed": true,
-    "notes": "Session 197: 139 entries. Marshal Murderer encounter (woman who killed off-duty Marshal in self-defense), combat ability translations (grenades, mines, special attacks, body part targeting). All validations: 0 errors.",
-    "next_action": "Continue from line 455617 - abilities section continuation"
+    "notes": "Session 198: 400 entries. Ability names and descriptions (Laser Array, Mind Terror, deployables), item effects (healing, buffs, debuffs), precision strike mechanics (vehicle parts, robot components), ultimate abilities (Thundering Strike, Nuke Strike), character-specific abilities (Scotchmo, Cordite, Pizepi, Jodie). All validations: 0 errors.",
+    "next_action": "Continue from line 456215 - abilities section continuation"
   },
   "cumulative_stats": {
-    "total_sessions": 197,
-    "total_entries_translated": 152166,
-    "untranslated_remaining": 17546,
-    "average_entries_per_session": 772,
-    "estimated_sessions_remaining_base": 23,
-    "estimated_days_remaining_base": "5-7 days",
+    "total_sessions": 198,
+    "total_entries_translated": 152566,
+    "untranslated_remaining": 17146,
+    "average_entries_per_session": 770,
+    "estimated_sessions_remaining_base": 22,
+    "estimated_days_remaining_base": "4-6 days",
     "estimated_sessions_remaining_dlc1": 50,
     "estimated_days_remaining_dlc1": "1-2 days",
     "estimated_sessions_remaining_dlc2": 31,
     "estimated_days_remaining_dlc2": "1 day",
     "total_lines_all_files": 728337,
     "project_status": "IN_PROGRESS",
-    "completion_date": "estimated 2025-11-27"
+    "completion_date": "estimated 2025-11-26"
   }
 }
