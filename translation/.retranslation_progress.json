@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 456215,
+    "current_line": 462144,
     "total_lines": 530425,
-    "entries_completed": 152566,
+    "entries_completed": 153069,
     "total_entries": 169712,
-    "percent_complete": 89.9,
-    "untranslated_entries": 17146,
-    "last_section": "abilities",
+    "percent_complete": 90.2,
+    "untranslated_entries": 16643,
+    "last_section": "characters",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-20: Session 198 completed (400 entries). Ability names/descriptions, item effects, precision strikes, ultimate abilities. All validations: 0 errors."
+    "notes": "2025-11-20: Session 199 completed (503 entries). Abilities completion, achievements, attributes, character names (enemies, NPCs, companions, factions). All validations: 0 errors."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,30 +37,33 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 198,
+    "session_number": 199,
     "date": "2025-11-20",
-    "entries_processed": 400,
+    "entries_processed": 503,
     "sections_completed": [
-      "abilities (400/500 entries partial - ability names, descriptions, item effects, precision strikes)"
+      "abilities completion (73 entries - ability descriptions, item effects)",
+      "achievements (1 entry - test placeholder)",
+      "attributes (22 entries - game attributes with descriptions)",
+      "characters (407 entries - enemies, NPCs, companions, faction members)"
     ],
-    "commit_hash": "6fdcdca",
+    "commit_hash": "be8f5c5",
     "validation_passed": true,
-    "notes": "Session 198: 400 entries. Ability names and descriptions (Laser Array, Mind Terror, deployables), item effects (healing, buffs, debuffs), precision strike mechanics (vehicle parts, robot components), ultimate abilities (Thundering Strike, Nuke Strike), character-specific abilities (Scotchmo, Cordite, Pizepi, Jodie). All validations: 0 errors.",
-    "next_action": "Continue from line 456215 - abilities section continuation"
+    "notes": "Session 199: 503 entries. Completed ability descriptions (attacks, precision strikes, ultimate abilities), achievements test entry, attributes system (Coordination, Luck, Awareness, Strength, Speed, Intelligence, Charisma), character names covering all factions (Dorsey, Payaso, Gipper, Godfisher, Scar Collector, Monster Army, Machine Commune), major characters (Angela Deth, Buchanan family, The Patriarch, companions). Quote format fixed on 2 entries. All validations: 0 errors.",
+    "next_action": "Continue from line 462144 - characters section continuation"
   },
   "cumulative_stats": {
-    "total_sessions": 198,
-    "total_entries_translated": 152566,
-    "untranslated_remaining": 17146,
-    "average_entries_per_session": 770,
-    "estimated_sessions_remaining_base": 22,
-    "estimated_days_remaining_base": "4-6 days",
+    "total_sessions": 199,
+    "total_entries_translated": 153069,
+    "untranslated_remaining": 16643,
+    "average_entries_per_session": 769,
+    "estimated_sessions_remaining_base": 21,
+    "estimated_days_remaining_base": "4-5 days",
     "estimated_sessions_remaining_dlc1": 50,
     "estimated_days_remaining_dlc1": "1-2 days",
     "estimated_sessions_remaining_dlc2": 31,
     "estimated_days_remaining_dlc2": "1 day",
     "total_lines_all_files": 728337,
     "project_status": "IN_PROGRESS",
-    "completion_date": "estimated 2025-11-26"
+    "completion_date": "estimated 2025-11-25"
   }
 }
