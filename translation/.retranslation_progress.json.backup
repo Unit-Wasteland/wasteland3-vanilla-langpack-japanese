@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 449772,
+    "current_line": 450589,
     "total_lines": 530425,
-    "entries_completed": 151559,
+    "entries_completed": 151692,
     "total_entries": 169712,
-    "percent_complete": 89.3,
-    "untranslated_entries": 18153,
-    "last_section": "y_reusable_location05",
+    "percent_complete": 89.4,
+    "untranslated_entries": 18020,
+    "last_section": "y_reusable_shelter_abandonedhut",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-20: Session 193 completed (56 entries). Random encounters (ambush, mechanic, Pappy). Holy Detonation graffiti (partial). All validations: 0 errors."
+    "notes": "2025-11-20: Session 194 completed (133 entries). Holy Detonation graffiti (completed). Scorpitron encounters. Abandoned shelter encounters. All validations: 0 errors. Fixed 4 quote format errors."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,25 +37,24 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 193,
+    "session_number": 194,
     "date": "2025-11-20",
-    "entries_processed": 56,
+    "entries_processed": 133,
     "sections_completed": [
-      "y_reusable_fire01 (13 entries - random ambush encounters by factions)",
-      "y_reusable_fire02 (25 entries - vehicle breakdown and Arapaho mechanic)",
-      "y_reusable_general08 (18 entries - Pappy prospector and Sour Doe bison)",
-      "y_reusable_location05 (7/18 entries - Holy Detonation religious graffiti - PARTIAL)"
+      "y_reusable_location05 (10/18 entries - Holy Detonation religious graffiti - COMPLETED)",
+      "y_reusable_scorpitron01 (30/30 entries - Scorpitron random encounters)",
+      "y_reusable_shelter_abandonedhut (99/99 entries - abandoned shelter random encounters)"
     ],
-    "commit_hash": "3f5aa69",
+    "commit_hash": "b1c72e6",
     "validation_passed": true,
-    "notes": "Session 193: 56 entries. Random encounters (ambush, mechanic, Pappy). Holy Detonation graffiti (partial - 7/18 entries). All validations: 0 errors. Quote format strictly maintained. Remaining y_reusable_location05 entries (8-17) deferred due to complex quote format.",
-    "next_action": "Continue from line 449772 - complete y_reusable_location05 section"
+    "notes": "Session 194: 133 entries. Holy Detonation graffiti (completed). Scorpitron encounters. Abandoned shelter encounters. Fixed 4 quote format errors (replaced Japanese brackets with English quotes). All validations: 0 errors.",
+    "next_action": "Continue from line 450589 - y_reusable_shelter_abandonedhut_tier3 section"
   },
   "cumulative_stats": {
-    "total_sessions": 193,
-    "total_entries_translated": 151559,
-    "untranslated_remaining": 18153,
-    "average_entries_per_session": 785,
+    "total_sessions": 194,
+    "total_entries_translated": 151692,
+    "untranslated_remaining": 18020,
+    "average_entries_per_session": 782,
     "estimated_sessions_remaining_base": 23,
     "estimated_days_remaining_base": "5-7 days",
     "estimated_sessions_remaining_dlc1": 49,
