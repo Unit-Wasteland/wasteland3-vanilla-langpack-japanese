@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 443845,
+    "current_line": 444690,
     "total_lines": 530425,
-    "entries_completed": 151173,
+    "entries_completed": 151227,
     "total_entries": 169712,
     "percent_complete": 89.1,
-    "untranslated_entries": 18539,
-    "last_section": "y_merchant_gipper",
+    "untranslated_entries": 18485,
+    "last_section": "y_merchant_marshals",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-20: Session 59 completed (77 entries). Generic merchant (roadside encounter), Sister Nancy Reckoning (Gipper trader, Reagan capitalism). Fixed 14 quote format errors. All validations: 0 errors."
+    "notes": "2025-11-20: Session 60 completed (54 entries). Error correction (3 bracket markers), merchant encounters (Zero Pricely: Hundred Families trader, B.B. Gunn: Marshals trader). Fixed 1 quote format error (single quote vs double quote). All validations: 0 errors."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,23 +37,24 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 59,
+    "session_number": 60,
     "date": "2025-11-20",
-    "entries_processed": 77,
+    "entries_processed": 54,
     "sections_completed": [
-      "y_merchant_generic (7 entries - Generic merchant encounter)",
-      "y_merchant_gipper (70 entries - Sister Nancy Reckoning, Gipper arms dealer)"
+      "Error correction (3 bracket markers fixed)",
+      "y_merchant_hundredfamilies (30 entries - Zero Pricely, Hundred Families trader)",
+      "y_merchant_marshals (24 entries - B.B. Gunn, Marshals trader)"
     ],
-    "commit_hash": "24ed7a5",
+    "commit_hash": "d5f955e",
     "validation_passed": true,
-    "notes": "Session 59: Completed 77 entries. Generic merchant (roadside encounters). Sister Nancy Reckoning (Gipper trader, Reagan capitalism, American patriotism, commie insults). Fixed 14 quote format errors. All validations: 0 errors.",
-    "next_action": "Continue sequential translation from line 443845"
+    "notes": "Session 60: Error correction + 54 entries. Fixed bracket markers ([Attack], [Steal]) and quote format errors. Zero Pricely (Broadmoor family merchant, reputation system). B.B. Gunn (corrupt marshal, civil asset forfeiture). All validations: 0 errors.",
+    "next_action": "Continue sequential translation from line 444690"
   },
   "cumulative_stats": {
-    "total_sessions": 59,
-    "total_entries_translated": 151173,
-    "untranslated_remaining": 18539,
-    "average_entries_per_session": 2562,
+    "total_sessions": 60,
+    "total_entries_translated": 151227,
+    "untranslated_remaining": 18485,
+    "average_entries_per_session": 2520,
     "estimated_sessions_remaining_base": 7,
     "estimated_days_remaining_base": "14-18 days",
     "estimated_sessions_remaining_dlc1": 203,
