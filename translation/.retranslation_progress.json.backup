@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 517228,
+    "current_line": 521137,
     "total_lines": 530425,
-    "entries_completed": 161664,
+    "entries_completed": 162280,
     "total_entries": 169712,
-    "percent_complete": 95.3,
-    "untranslated_entries": 8048,
-    "last_section": "tutorial (part 2/11)",
+    "percent_complete": 95.6,
+    "untranslated_entries": 7432,
+    "last_section": "mission sections (slaversbounty through justiceforliberty)",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-20: Session 240 completed (100 entries). Tutorial section part 2/11 - Skills, combat, inventory, world map, ranger HQ. All validations: 0 errors."
+    "notes": "2025-11-20: Session 242 completed (146 entries). Mission sections: slaversbounty, thepsychopath, thetraitorousdaughter, wolfeshunt, bigtroubleinlittlevegas, corneredrats, justiceforliberty. Quote format validation passed. All validations: 0 errors."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,23 +37,29 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 240,
+    "session_number": 242,
     "date": "2025-11-20",
-    "entries_processed": 100,
+    "entries_processed": 146,
     "sections_completed": [
-      "tutorial section part 2 (lines 517028-517227): 100 entries - Skills, Combat mechanics, Inventory, World Map, Ranger HQ facilities, Downed/Incapacitated Rangers"
+      "mission_a1001_slaversbounty (lines 519825-519870): 16 entries",
+      "mission_a1001_thepsychopath (lines 520019-520086): 30 entries",
+      "mission_a1001_thetraitorousdaughter (lines 520239-520308): 25 entries",
+      "mission_a1001_wolfeshunt (lines 520453-520518): 18 entries",
+      "mission_a2001_bigtroubleinlittlevegas (lines 520751-520824): 33 entries",
+      "mission_a2001_corneredrats (lines 520893-520920): 12 entries",
+      "mission_a2001_justiceforliberty (lines 521069-521136): 12 entries"
     ],
-    "commit_hash": "1615061",
+    "commit_hash": "3679927",
     "validation_passed": true,
-    "notes": "Session 240: 100 entries. Tutorial section part 2 (entries [31]-[130]). Deprecated entries correctly preserved as English. Structure validation: 0 errors. Action marker check passed.",
-    "next_action": "Continue from line 517228 - tutorial section part 3 (entry [131]+)"
+    "notes": "Session 242: 146 entries. Mission quest sections including slaversbounty, thepsychopath, thetraitorousdaughter, wolfeshunt, bigtroubleinlittlevegas, corneredrats, justiceforliberty. Quote format validated (1 error fixed). Structure validation: 0 errors. Action marker check passed.",
+    "next_action": "Continue from line 521137 - mission_a2001_oldworldpower section"
   },
   "cumulative_stats": {
-    "total_sessions": 240,
-    "total_entries_translated": 161664,
-    "untranslated_remaining": 8048,
-    "average_entries_per_session": 673.6,
-    "estimated_sessions_remaining_base": 12,
+    "total_sessions": 242,
+    "total_entries_translated": 162280,
+    "untranslated_remaining": 7432,
+    "average_entries_per_session": 670.6,
+    "estimated_sessions_remaining_base": 11,
     "estimated_days_remaining_base": "1-2 days",
     "estimated_sessions_remaining_dlc1": 56,
     "estimated_days_remaining_dlc1": "1-2 days",
