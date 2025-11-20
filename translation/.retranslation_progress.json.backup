@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 436117,
+    "current_line": 436970,
     "total_lines": 530425,
-    "entries_completed": 150326,
+    "entries_completed": 150377,
     "total_entries": 169712,
     "percent_complete": 88.6,
-    "untranslated_entries": 19386,
-    "last_section": "yy_worms_ambush_plains",
+    "untranslated_entries": 19335,
+    "last_section": "y_combat04_scarcollectorsattack",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-20: Session 50 completed (73 entries). Robot spotted events with sneak/avoid/attack. Waste worm ambushes with terrain-based escape and thermal blanket tactics. All validations: 0 errors."
+    "notes": "2025-11-20: Session 51 completed (51 entries). Kwon/Pizepi encounters, Dorsey/Scar Collector ambushes. Fixed quote count and bracket markers. All validations: 0 errors."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,28 +37,27 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 50,
+    "session_number": 51,
     "date": "2025-11-20",
-    "entries_processed": 73,
+    "entries_processed": 51,
     "sections_completed": [
-      "yy_robots_spotted (15 entries - robot detection scenarios)",
-      "yy_robots_spotted_mountains (13 entries - mountain terrain variant)",
-      "yy_robots_spotted_plains (13 entries - plains terrain variant)",
-      "yy_worms_ambush (12 entries - waste worm encounters)",
-      "yy_worms_ambush_mountains (10 entries - mountain worm variant)",
-      "yy_worms_ambush_plains (10 entries - plains worm variant)"
+      "y_bbb_kwon (2 entries - Darius Kwon encounter)",
+      "y_bbb_pizepi (1 entry - Pizepi Joren encounter)",
+      "y_combat01_dorseysattack (22 entries - Dorsey ambush)",
+      "y_combat01_dorseysattack_mountains (15 entries - mountain variant)",
+      "y_combat04_scarcollectorsattack (11 entries - Scar Collectors)"
     ],
-    "commit_hash": "269294f",
+    "commit_hash": "0838889",
     "validation_passed": true,
-    "notes": "Session 50: Completed 73 entries. Robot spotted events with sneak/avoid/attack options. Waste worm ambushes with terrain-based escape mechanics and science-based thermal blanket tactics. All validations: 0 errors.",
-    "next_action": "Continue sequential translation from line 436117"
+    "notes": "Session 51: Completed 51 entries. Quote count fixes (embedded dialogue). Bracket marker fixes ([Attack], [Flee]). All validations: 0 errors.",
+    "next_action": "Continue sequential translation from line 436970"
   },
   "cumulative_stats": {
-    "total_sessions": 50,
-    "total_entries_translated": 150326,
-    "untranslated_remaining": 19386,
-    "average_entries_per_session": 3007,
-    "estimated_sessions_remaining_base": 6,
+    "total_sessions": 51,
+    "total_entries_translated": 150377,
+    "untranslated_remaining": 19335,
+    "average_entries_per_session": 2949,
+    "estimated_sessions_remaining_base": 7,
     "estimated_days_remaining_base": "17-21 days",
     "estimated_sessions_remaining_dlc1": 203,
     "estimated_days_remaining_dlc1": "5-7 days",
