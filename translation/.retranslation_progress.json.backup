@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 436970,
+    "current_line": 438043,
     "total_lines": 530425,
-    "entries_completed": 150377,
+    "entries_completed": 150461,
     "total_entries": 169712,
-    "percent_complete": 88.6,
-    "untranslated_entries": 19335,
-    "last_section": "y_combat04_scarcollectorsattack",
+    "percent_complete": 88.7,
+    "untranslated_entries": 19251,
+    "last_section": "y_combat19_hardheadsattack",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-20: Session 51 completed (51 entries). Kwon/Pizepi encounters, Dorsey/Scar Collector ambushes. Fixed quote count and bracket markers. All validations: 0 errors."
+    "notes": "2025-11-20: Session 52 completed (84 entries). Godfisher/Hard-Heads encounters. Fixed quote count (4-quote dialogue format). Fixed HTML tag. All validations: 0 errors."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,26 +37,26 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 51,
+    "session_number": 52,
     "date": "2025-11-20",
-    "entries_processed": 51,
+    "entries_processed": 84,
     "sections_completed": [
-      "y_bbb_kwon (2 entries - Darius Kwon encounter)",
-      "y_bbb_pizepi (1 entry - Pizepi Joren encounter)",
-      "y_combat01_dorseysattack (22 entries - Dorsey ambush)",
-      "y_combat01_dorseysattack_mountains (15 entries - mountain variant)",
-      "y_combat04_scarcollectorsattack (11 entries - Scar Collectors)"
+      "y_combat04_scarcollectorsattack (continued - 14 entries)",
+      "y_combat04_scarcollectorsattack_plains (8 entries - plains variant)",
+      "y_combat08_godfishersattack (17 entries - Godfisher kites)",
+      "y_combat08_godfishersattack_plains (13 entries - plains variant)",
+      "y_combat19_hardheadsattack (32 entries - cannibal gang)"
     ],
-    "commit_hash": "0838889",
+    "commit_hash": "2170170",
     "validation_passed": true,
-    "notes": "Session 51: Completed 51 entries. Quote count fixes (embedded dialogue). Bracket marker fixes ([Attack], [Flee]). All validations: 0 errors.",
-    "next_action": "Continue sequential translation from line 436970"
+    "notes": "Session 52: Completed 84 entries. Godfisher kite encounters, Hard-Heads cannibal encounters. Fixed quote count and HTML tag. All validations: 0 errors.",
+    "next_action": "Continue sequential translation from line 438043"
   },
   "cumulative_stats": {
-    "total_sessions": 51,
-    "total_entries_translated": 150377,
-    "untranslated_remaining": 19335,
-    "average_entries_per_session": 2949,
+    "total_sessions": 52,
+    "total_entries_translated": 150461,
+    "untranslated_remaining": 19251,
+    "average_entries_per_session": 2894,
     "estimated_sessions_remaining_base": 7,
     "estimated_days_remaining_base": "17-21 days",
     "estimated_sessions_remaining_dlc1": 203,
