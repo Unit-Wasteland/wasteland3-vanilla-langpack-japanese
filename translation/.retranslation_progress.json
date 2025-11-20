@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 509460,
+    "current_line": 511600,
     "total_lines": 530425,
-    "entries_completed": 160611,
+    "entries_completed": 160866,
     "total_entries": 169712,
-    "percent_complete": 94.6,
-    "untranslated_entries": 9101,
-    "last_section": "game_perks_and_mechanics_continuation",
+    "percent_complete": 94.8,
+    "untranslated_entries": 8846,
+    "last_section": "poi_and_scenedescriptions",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-20: Session 233 completed (116 entries). Game perks and mechanics. All validations: 0 errors."
+    "notes": "2025-11-20: Session 234 completed (255 entries). POI locations and scene descriptions. All validations: 0 errors."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,22 +37,23 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 233,
+    "session_number": 234,
     "date": "2025-11-20",
-    "entries_processed": 116,
+    "entries_processed": 255,
     "sections_completed": [
-      "game perks and mechanics continuation (lines 509146-509460): 116 entries"
+      "poi locations (lines 510700-511008): 155 entries",
+      "scenedescriptions (lines 511422-511596): 96 entries, 4 dev placeholders preserved"
     ],
-    "commit_hash": "bfc3092",
+    "commit_hash": "e512d23",
     "validation_passed": true,
-    "notes": "Session 233: 116 entries. Character backgrounds (Bouncer, Technician, Hacker, Negotiator, Doctor, Academic, Nomad, Circus Freak). Perk effects and mechanics (Cyborg Tech, Minesweeper, Fortify, Clear Cover, Opportunist, Flurry of Blows, Extreme Combo, Deadly Combo, Striking Distance, Reckless, Move Up). Combat abilities and passive bonuses. World map mechanics. All validations: 0 errors.",
-    "next_action": "Continue from line 509460 - poi section"
+    "notes": "Session 234: 255 entries. POI location names (Sacred Server Room, Restricted Zone, Denver Blast Crater, Broadmoor Heights, Bizarre, Machine Commune, Aspen resort, Knox ranch). Scene descriptions (Peterson AFB, Colorado Springs, Denver ruins, Godfisher shrine). Dev placeholders preserved (4 entries with empty Spanish). All validations: 0 errors.",
+    "next_action": "Continue from line 511600 - scenes section"
   },
   "cumulative_stats": {
-    "total_sessions": 233,
-    "total_entries_translated": 160611,
-    "untranslated_remaining": 9101,
-    "average_entries_per_session": 689.3,
+    "total_sessions": 234,
+    "total_entries_translated": 160866,
+    "untranslated_remaining": 8846,
+    "average_entries_per_session": 687.5,
     "estimated_sessions_remaining_base": 13,
     "estimated_days_remaining_base": "1-2 days",
     "estimated_sessions_remaining_dlc1": 56,
