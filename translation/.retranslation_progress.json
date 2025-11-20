@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 524071,
+    "current_line": 525001,
     "total_lines": 530425,
-    "entries_completed": 162706,
+    "entries_completed": 162829,
     "total_entries": 169712,
     "percent_complete": 95.9,
-    "untranslated_entries": 7006,
-    "last_section": "mission_b1001_gippersvsgodfishers (complete), mission_b1001_helpgodfishers (complete), mission_b1001_tinyclawsnopockets (complete), mission_b1001_upgrades (complete)",
+    "untranslated_entries": 6883,
+    "last_section": "mission_b1101_usefulprey (complete), mission_b3001_amansplace (complete), mission_b3001_dangerzone (complete), mission_b3001_killandclear (complete), mission_b3001_reaganreborn (complete), mission_b3001_thisland (complete)",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-21: Session 247 completed (80 entries). Completed sections: gippersvsgodfishers (Godfisher vs Gipper war quest - 30 entries), helpgodfishers (betraying Gippers quest - 19 entries), tinyclawsnopockets (kitten encounter - 6 entries), upgrades (Reagan statue computer system upgrades for Valor - 25 entries). All validations: 0 errors."
+    "notes": "2025-11-21: Session 248 completed (123 entries). Denver missions: Jola's children cure quest (32), missing trader and Dale Dawson (18), patriotic battle show (6), psychic lion hunting (19), development markers (6 kept as-is), Reagan AI transfer complex quest (48), oil well territory conflict (12). All validations: 0 errors."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,28 +37,30 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 247,
+    "session_number": 248,
     "date": "2025-11-21",
-    "entries_processed": 80,
+    "entries_processed": 123,
     "sections_completed": [
-      "mission_b1001_gippersvsgodfishers (lines 523562-523620): 30 entries (Godfisher attack quest)",
-      "mission_b1001_helpgodfishers (lines 523710-523746): 19 entries (betraying Gippers quest)",
-      "mission_b1001_sabotageterminals (lines 523828-523860): 1 entry (space-only preserved)",
-      "mission_b1001_tinyclawsnopockets (lines 523898-523908): 6 entries (kitten encounter)",
-      "mission_b1001_upgrades (lines 524022-524070): 25 entries (Reagan statue upgrades)"
+      "mission_b1101_usefulprey (lines 524212-524274): 32 entries (Jola's children quest)",
+      "mission_b3001_amansplace (lines 524360-524394): 18 entries (missing trader quest)",
+      "mission_b3001_dangerzone (lines 524432-524442): 6 entries (battle show)",
+      "mission_b3001_killandclear (lines 524532-524568): 19 entries (psychic lions)",
+      "mission_b3001_killtentigers (lines 524606-524616): 6 entries (dev markers kept)",
+      "mission_b3001_reaganreborn (lines 524822-524916): 48 entries (Reagan AI transfer)",
+      "mission_b3001_thisland (lines 524978-525000): 12 entries (oil well territory)"
     ],
-    "commit_hash": "f2e3cfd",
+    "commit_hash": "de6cb71",
     "validation_passed": true,
-    "notes": "Session 247: 80 entries. Denver Gippers missions completed: Godfisher vs Gipper war objectives and outcomes (30), betraying Gippers to help Godfisher horde (19), Reagan statue sabotage data (1), kitten encounter objectives (6), Reagan statue system upgrades for Valor (25). Structure validation: 0 errors. Action marker validation: 0 Japanese text in markers.",
-    "next_action": "Continue from line 524071 - mission_b1101_usefulprey onwards"
+    "notes": "Session 248: 123 entries. Denver missions Part 1: Jola's children (Baldur, Freyja, Frigg cure quest - 32), missing trader and Dale Dawson confrontation (18), patriotic battle show test (6), psychic lion hunting with side-effects (19), development markers preserved as English (6), Reagan AI transfer with complex branching paths (48), oil well territory dispute (12). Structure: 0 errors. Action markers: 0 Japanese. Quote format fix on line 524914.",
+    "next_action": "Continue from line 525001 - mission_b3001_tradingfireroguemission onwards"
   },
   "cumulative_stats": {
-    "total_sessions": 247,
-    "total_entries_translated": 162706,
-    "untranslated_remaining": 7006,
-    "average_entries_per_session": 658.7,
-    "estimated_sessions_remaining_base": 11,
-    "estimated_days_remaining_base": "1-2 days",
+    "total_sessions": 248,
+    "total_entries_translated": 162829,
+    "untranslated_remaining": 6883,
+    "average_entries_per_session": 656.6,
+    "estimated_sessions_remaining_base": 10,
+    "estimated_days_remaining_base": "1 day",
     "estimated_sessions_remaining_dlc1": 58,
     "estimated_days_remaining_dlc1": "1-2 days",
     "estimated_sessions_remaining_dlc2": 36,
