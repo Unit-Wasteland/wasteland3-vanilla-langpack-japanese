@@ -6,7 +6,7 @@
   "total_entries_dlc1": 38554,
   "total_entries_dlc2": 24152,
   "total_entries_all": 232418,
-  "current_phase": "base_game",
+  "current_phase": "dlc1",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
     "current_line": 530425,
@@ -23,11 +23,17 @@
     "notes": "2025-11-21: Session 254 completed (19 entries). Final missions: Hard Knox Life Knox Bison Ranch (19), Knox at the Door (1). File end reached at line 530425. Remaining untranslated: 1798 entries (from previous sessions). All validations: 0 errors."
   },
   "dlc1": {
-    "status": "not_started",
-    "entries_completed": 0,
+    "status": "in_progress",
+    "current_file": "StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
+    "current_line": 930,
+    "total_lines": 120559,
+    "entries_completed": 126,
     "total_entries": 38554,
-    "percent_complete": 0.0,
-    "notes": "Pending base game completion"
+    "percent_complete": 0.3,
+    "validation_status": "passed",
+    "structure_errors": 0,
+    "action_marker_errors": 0,
+    "notes": "2025-11-21: DLC1 translation started. Session 257 completed 126 entries. Replaced broken file with clean English source. Sequential translation from line 1. All validations passed with 0 errors."
   },
   "dlc2": {
     "status": "not_started",
@@ -37,30 +43,32 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 256,
+    "session_number": 257,
     "date": "2025-11-21",
-    "entries_processed": 3,
+    "entries_processed": 126,
     "sections_completed": [
-      "Untranslated entry review: Lines 24710, 24726, 79162 (punctuation fixes for radio codes and abbreviations)"
+      "DLC1 initialization: Replaced broken file with clean English source",
+      "DLC1 translation: Lines 1-930 (126 entries)",
+      "Sections: steeltown_radio_followupwithpatriarch, steeltown_radio_gangraidincoming, a1001_banterbarks_brig, a1001_banterbarks_museum, a1001_blue (partial), a1001_conniezheng, a1001_cordite"
     ],
-    "commit_hash": "7b3ed47",
+    "commit_hash": "pending",
     "validation_passed": true,
-    "notes": "Session 256: Fixed 3 entries with incorrect punctuation. Lines 24710, 24726: Radio code numbers had wrong case and full-width periods (2B -> 2b, 13C -> 13c). Line 79162: Abbreviation HRIC had full-width period. All 1798 reported untranslated entries reviewed - remaining 1795 are DEBUG messages and developer notes (correctly kept in English per CLAUDE.md Section 8 rules). Structure: 0 errors. Action markers: 0 errors.",
-    "next_action": "Base game review complete. All translatable content translated (163433/169712 entries, 96.3%). Remaining 6276 entries are DEBUG/technical content (translation not required). Ready to start DLC1 per CLAUDE.md Work Sequence."
+    "notes": "Session 257: Started DLC1 translation per CLAUDE.md work sequence. Discovered 107 quote mismatch errors in existing DLC1 file (from backup_broken). Replaced with clean English source and began sequential translation. Completed 126 entries (0.3% of DLC1). Structure: 0 errors. Action markers: 0 errors. Quality: 0 issues.",
+    "next_action": "Continue DLC1 sequential translation from line 930. Target: 500 entries per session. Remaining: 38428 entries (estimated 76 sessions)."
   },
   "cumulative_stats": {
-    "total_sessions": 256,
-    "total_entries_translated": 163433,
-    "untranslated_remaining": 6276,
-    "average_entries_per_session": 641.3,
+    "total_sessions": 257,
+    "total_entries_translated": 163559,
+    "untranslated_remaining": 68859,
+    "average_entries_per_session": 636.2,
     "estimated_sessions_remaining_base": 0,
-    "estimated_days_remaining_base": "Complete (awaiting review)",
-    "estimated_sessions_remaining_dlc1": 60,
-    "estimated_days_remaining_dlc1": "1-2 days",
-    "estimated_sessions_remaining_dlc2": 37,
-    "estimated_days_remaining_dlc2": "1 day",
+    "estimated_days_remaining_base": "Complete",
+    "estimated_sessions_remaining_dlc1": 76,
+    "estimated_days_remaining_dlc1": "2-3 days",
+    "estimated_sessions_remaining_dlc2": 48,
+    "estimated_days_remaining_dlc2": "1-2 days",
     "total_lines_all_files": 728337,
     "project_status": "IN_PROGRESS",
-    "completion_date": "estimated 2025-11-22"
+    "completion_date": "estimated 2025-11-24"
   }
 }
