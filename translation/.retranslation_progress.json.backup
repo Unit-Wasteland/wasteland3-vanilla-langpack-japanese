@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 505770,
+    "current_line": 506085,
     "total_lines": 530425,
-    "entries_completed": 159921,
+    "entries_completed": 160046,
     "total_entries": 169712,
-    "percent_complete": 94.2,
-    "untranslated_entries": 9791,
-    "last_section": "loadingtips_partial",
+    "percent_complete": 94.3,
+    "untranslated_entries": 9666,
+    "last_section": "loadingtips_continuation",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-20: Session 225 completed (14 entries). Loadingtips 30/223. All validations: 0 errors."
+    "notes": "2025-11-20: Session 226 completed (125 entries). Loadingtips 32-156. All validations: 0 errors."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,24 +37,24 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 225,
+    "session_number": 226,
     "date": "2025-11-20",
-    "entries_processed": 14,
+    "entries_processed": 125,
     "sections_completed": [
-      "loadingtips partial (14 entries: 16-29)"
+      "loadingtips entries 32-156 (Colorado lore, combat tips, gameplay)"
     ],
-    "commit_hash": "a76f67f",
+    "commit_hash": "1ea222a",
     "validation_passed": true,
-    "notes": "Session 225: 14 entries. Loadingtips 30/223 (lore tips). 193 loadingtips remain. All validations: 0 errors. Note: Edit tool challenged by Unicode chars in source.",
-    "next_action": "Continue from line 505770 - loadingtips continuation (entry 30/223)"
+    "notes": "Session 226: 125 entries. Loadingtips 32-156. All validations: 0 errors. Note: Fixed quote count on line 505876 (curly quotes).",
+    "next_action": "Continue from line 506085 - loadingtips continuation (entry 157/223)"
   },
   "cumulative_stats": {
-    "total_sessions": 225,
-    "total_entries_translated": 159921,
-    "untranslated_remaining": 9791,
-    "average_entries_per_session": 710.8,
-    "estimated_sessions_remaining_base": 14.0,
-    "estimated_days_remaining_base": "2-3 days",
+    "total_sessions": 226,
+    "total_entries_translated": 160046,
+    "untranslated_remaining": 9666,
+    "average_entries_per_session": 708.2,
+    "estimated_sessions_remaining_base": 14,
+    "estimated_days_remaining_base": "1-2 days",
     "estimated_sessions_remaining_dlc1": 54,
     "estimated_days_remaining_dlc1": "1-2 days",
     "estimated_sessions_remaining_dlc2": 34,
