@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 444690,
+    "current_line": 445755,
     "total_lines": 530425,
-    "entries_completed": 151227,
+    "entries_completed": 151254,
     "total_entries": 169712,
     "percent_complete": 89.1,
-    "untranslated_entries": 18485,
-    "last_section": "y_merchant_marshals",
+    "untranslated_entries": 18458,
+    "last_section": "y_merchant_nomad",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-20: Session 60 completed (54 entries). Error correction (3 bracket markers), merchant encounters (Zero Pricely: Hundred Families trader, B.B. Gunn: Marshals trader). Fixed 1 quote format error (single quote vs double quote). All validations: 0 errors."
+    "notes": "2025-11-20: Session 61 completed (27 entries). Merchant encounters (Cheebus: mutant merchant with broken speech, Monster Army merchant with attack/steal options). Fixed quality validation false positives (Global/Leave/Debug in technical markers). All validations: 0 errors."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,24 +37,24 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 60,
+    "session_number": 61,
     "date": "2025-11-20",
-    "entries_processed": 54,
+    "entries_processed": 27,
     "sections_completed": [
-      "Error correction (3 bracket markers fixed)",
-      "y_merchant_hundredfamilies (30 entries - Zero Pricely, Hundred Families trader)",
-      "y_merchant_marshals (24 entries - B.B. Gunn, Marshals trader)"
+      "y_merchant_marshals (3 entries - female merchant variant + scene descriptions)",
+      "y_merchant_monsterarmy (2 entries - attack/steal options)",
+      "y_merchant_nomad (22 entries - Cheebus, mutant merchant)"
     ],
-    "commit_hash": "d5f955e",
+    "commit_hash": "e2f7f94",
     "validation_passed": true,
-    "notes": "Session 60: Error correction + 54 entries. Fixed bracket markers ([Attack], [Steal]) and quote format errors. Zero Pricely (Broadmoor family merchant, reputation system). B.B. Gunn (corrupt marshal, civil asset forfeiture). All validations: 0 errors.",
-    "next_action": "Continue sequential translation from line 444690"
+    "notes": "Session 61: 27 entries. Cheebus encounter (mutant with broken speech pattern, Zeno paradox, Gob healing). Scotchmo slurred speech in steal option. Quote counts strictly matched (4-quote, 6-quote formats). All validations: 0 errors.",
+    "next_action": "Continue sequential translation from line 445755"
   },
   "cumulative_stats": {
-    "total_sessions": 60,
-    "total_entries_translated": 151227,
-    "untranslated_remaining": 18485,
-    "average_entries_per_session": 2520,
+    "total_sessions": 61,
+    "total_entries_translated": 151254,
+    "untranslated_remaining": 18458,
+    "average_entries_per_session": 2479,
     "estimated_sessions_remaining_base": 7,
     "estimated_days_remaining_base": "14-18 days",
     "estimated_sessions_remaining_dlc1": 203,
