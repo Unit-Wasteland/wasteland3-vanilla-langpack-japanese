@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 504589,
+    "current_line": 505741,
     "total_lines": 530425,
-    "entries_completed": 159857,
+    "entries_completed": 159907,
     "total_entries": 169712,
     "percent_complete": 94.2,
-    "untranslated_entries": 9855,
-    "last_section": "weapons_armor_items",
+    "untranslated_entries": 9805,
+    "last_section": "loadingtips_partial",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-20: Session 223 completed (148 entries). Weapons, armor mods, leg enhancements, weapon linkages, quest items, costumes, collectibles. Fixed 9 quote count errors. All validations: 0 errors."
+    "notes": "2025-11-20: Session 224 completed (50 entries). Keycodes 34, loadingtips 16/223. All validations: 0 errors."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,27 +37,28 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 223,
+    "session_number": 224,
     "date": "2025-11-20",
-    "entries_processed": 148,
+    "entries_processed": 50,
     "sections_completed": [
-      "weapons_armor_items (148 entries)"
+      "keycodes (34 entries)",
+      "loadingtips partial (16/223 entries)"
     ],
-    "commit_hash": "3667562",
+    "commit_hash": "39b4ee4",
     "validation_passed": true,
-    "notes": "Session 223: 148 entries. Weapons, armor mods, leg enhancements, weapon linkages, quest items, costumes, collectibles. Quote fixes: 9. All validations: 0 errors.",
-    "next_action": "Continue from line 504589 - keycodes section"
+    "notes": "Session 224: 50 entries. Keycodes 34 (keyboard keys), loadingtips 16 (game lore). 207 loadingtips remain. All validations: 0 errors.",
+    "next_action": "Continue from line 505741 - loadingtips continuation (entry 16/223)"
   },
   "cumulative_stats": {
-    "total_sessions": 223,
-    "total_entries_translated": 159857,
-    "untranslated_remaining": 9855,
-    "average_entries_per_session": 716.9,
+    "total_sessions": 224,
+    "total_entries_translated": 159907,
+    "untranslated_remaining": 9805,
+    "average_entries_per_session": 713.8,
     "estimated_sessions_remaining_base": 14.0,
     "estimated_days_remaining_base": "2-3 days",
-    "estimated_sessions_remaining_dlc1": 53,
+    "estimated_sessions_remaining_dlc1": 54,
     "estimated_days_remaining_dlc1": "1-2 days",
-    "estimated_sessions_remaining_dlc2": 33,
+    "estimated_sessions_remaining_dlc2": 34,
     "estimated_days_remaining_dlc2": "1 day",
     "total_lines_all_files": 728337,
     "project_status": "IN_PROGRESS",
