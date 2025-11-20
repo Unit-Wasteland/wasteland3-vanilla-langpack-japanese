@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 508899,
+    "current_line": 509144,
     "total_lines": 530425,
-    "entries_completed": 160361,
+    "entries_completed": 160495,
     "total_entries": 169712,
-    "percent_complete": 94.5,
-    "untranslated_entries": 9351,
-    "last_section": "perks_continuation",
+    "percent_complete": 94.6,
+    "untranslated_entries": 9217,
+    "last_section": "character_backgrounds_continuation",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-20: Session 231 completed (194 entries). Perks section continuation. All validations: 0 errors."
+    "notes": "2025-11-20: Session 232 completed (134 entries). Character backgrounds continuation. Fixed 3 embedded quote errors. All validations: 0 errors."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,22 +37,22 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 231,
+    "session_number": 232,
     "date": "2025-11-20",
-    "entries_processed": 194,
+    "entries_processed": 134,
     "sections_completed": [
-      "perks continuation (lines 508511-508898): 194 entries"
+      "character backgrounds continuation (lines 508899-509144): 134 entries"
     ],
-    "commit_hash": "ab42774",
+    "commit_hash": "04fb164",
     "validation_passed": true,
-    "notes": "Session 231: 194 entries. Game perks (Bloodlust, Grumpy, Ascetic, Circus, Animal Training, Double Tap, Sure Shot, Antiques Appraiser, Penny Pincher, Five Finger Discount, Pursuit, Relentless, Hack N Slash, Shrug It Off, Blast Radius, Bomb Recovery, Duck and Cover, Minesweeper, Trigger Happy, Microwave Research, Draw, High Impact, Terrorizer, Fortify, Hardened, Healthy, Deep Pockets, Quick Reflexes, Wide Spread, Weathered, Stormer, Safecracking, Emergency Response, Fine Forager, Hypocritic Oath, Overhealing, Physical Therapy, Skinning, Big Game Hunter, Clear Cover, Devastation, Flush Em Out, Concentration, Chain Ambush, Masterful Precision, Combat Senses, Onslaught, Rapid Reload, Breakfast Bandit, Heating Element, Toaster Expert, Toasty, Expert Disassembler, Tender Loving Care, Tuned Up, Biotech Serum, Vehicular Combat, Lone Wolf, Pyromaniac, Way of the Squeezins, Blunderer, Poindexter, Prospector, Animal Lover, Doomsday Prepper, Asshole, Wendigo, Death Wish, Rambo, Medical Marvel, Bop Bag, Two-Pump Chump, Mime). Fixed 1 embedded quote error (line 508616). All validations: 0 errors.",
-    "next_action": "Continue from line 508899 - remaining perks section (281 entries remaining)"
+    "notes": "Session 232: 134 entries. Game perks (Precognition, Fortune Cookie, Eye of Tarjan, Investigative Eye, Marshal Training, Game Master, Ranger Survivor, Illustratio, Booze Hound, Sadomasochist, Varangian Blood, Serial Killer, Waste Roamer, Careful Shot, Mopey Poet, Desert Cat, Raider Hater, Moneybags, Vicious Avenger, Bookworm, Mannerite, Explodomaniac, Stoner, Paladin, Sex Machine, Lethal Weapon, Disciple Of The Metal, The Boss, Grease Monkey, Goat Killer). Companion backgrounds (Warlord, Gunslinger, Peacekeeper, Researcher, Car Nut, Hobo, Psychopath, Scrapper, Bruiser, Wild Child, Warmonger, Duelist, Recluse, Avenger, Old Hand, Ex-Merc). Ranger backgrounds (Connoisseur, Techie, Mercenary, Farmer, Thief, Drifter, Evangelical, Con Artist, Trader, Gearhead, Scout, Miner). Fixed 3 embedded quote errors. All validations: 0 errors.",
+    "next_action": "Continue from line 509144 - remaining character backgrounds section"
   },
   "cumulative_stats": {
-    "total_sessions": 231,
-    "total_entries_translated": 160361,
-    "untranslated_remaining": 9351,
-    "average_entries_per_session": 694.2,
+    "total_sessions": 232,
+    "total_entries_translated": 160495,
+    "untranslated_remaining": 9217,
+    "average_entries_per_session": 691.8,
     "estimated_sessions_remaining_base": 13,
     "estimated_days_remaining_base": "1-2 days",
     "estimated_sessions_remaining_dlc1": 56,
