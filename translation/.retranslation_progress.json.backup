@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 509144,
+    "current_line": 509460,
     "total_lines": 530425,
-    "entries_completed": 160495,
+    "entries_completed": 160611,
     "total_entries": 169712,
     "percent_complete": 94.6,
-    "untranslated_entries": 9217,
-    "last_section": "character_backgrounds_continuation",
+    "untranslated_entries": 9101,
+    "last_section": "game_perks_and_mechanics_continuation",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-20: Session 232 completed (134 entries). Character backgrounds continuation. Fixed 3 embedded quote errors. All validations: 0 errors."
+    "notes": "2025-11-20: Session 233 completed (116 entries). Game perks and mechanics. All validations: 0 errors."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,22 +37,22 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 232,
+    "session_number": 233,
     "date": "2025-11-20",
-    "entries_processed": 134,
+    "entries_processed": 116,
     "sections_completed": [
-      "character backgrounds continuation (lines 508899-509144): 134 entries"
+      "game perks and mechanics continuation (lines 509146-509460): 116 entries"
     ],
-    "commit_hash": "04fb164",
+    "commit_hash": "bfc3092",
     "validation_passed": true,
-    "notes": "Session 232: 134 entries. Game perks (Precognition, Fortune Cookie, Eye of Tarjan, Investigative Eye, Marshal Training, Game Master, Ranger Survivor, Illustratio, Booze Hound, Sadomasochist, Varangian Blood, Serial Killer, Waste Roamer, Careful Shot, Mopey Poet, Desert Cat, Raider Hater, Moneybags, Vicious Avenger, Bookworm, Mannerite, Explodomaniac, Stoner, Paladin, Sex Machine, Lethal Weapon, Disciple Of The Metal, The Boss, Grease Monkey, Goat Killer). Companion backgrounds (Warlord, Gunslinger, Peacekeeper, Researcher, Car Nut, Hobo, Psychopath, Scrapper, Bruiser, Wild Child, Warmonger, Duelist, Recluse, Avenger, Old Hand, Ex-Merc). Ranger backgrounds (Connoisseur, Techie, Mercenary, Farmer, Thief, Drifter, Evangelical, Con Artist, Trader, Gearhead, Scout, Miner). Fixed 3 embedded quote errors. All validations: 0 errors.",
-    "next_action": "Continue from line 509144 - remaining character backgrounds section"
+    "notes": "Session 233: 116 entries. Character backgrounds (Bouncer, Technician, Hacker, Negotiator, Doctor, Academic, Nomad, Circus Freak). Perk effects and mechanics (Cyborg Tech, Minesweeper, Fortify, Clear Cover, Opportunist, Flurry of Blows, Extreme Combo, Deadly Combo, Striking Distance, Reckless, Move Up). Combat abilities and passive bonuses. World map mechanics. All validations: 0 errors.",
+    "next_action": "Continue from line 509460 - poi section"
   },
   "cumulative_stats": {
-    "total_sessions": 232,
-    "total_entries_translated": 160495,
-    "untranslated_remaining": 9217,
-    "average_entries_per_session": 691.8,
+    "total_sessions": 233,
+    "total_entries_translated": 160611,
+    "untranslated_remaining": 9101,
+    "average_entries_per_session": 689.3,
     "estimated_sessions_remaining_base": 13,
     "estimated_days_remaining_base": "1-2 days",
     "estimated_sessions_remaining_dlc1": 56,
