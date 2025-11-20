@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 498680,
+    "current_line": 499277,
     "total_lines": 530425,
-    "entries_completed": 157289,
+    "entries_completed": 157689,
     "total_entries": 169712,
-    "percent_complete": 92.7,
-    "untranslated_entries": 12423,
-    "last_section": "items",
+    "percent_complete": 92.9,
+    "untranslated_entries": 12023,
+    "last_section": "items_and_mods",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-20: Session 210 completed (140 entries). Items and weapons: medical supplies, drugs, consumables, rifles, pistols, melee weapons, ammunition types, keycards, quest items. Fixed 3 quote format errors. All validations: 0 errors."
+    "notes": "2025-11-20: Session 211 completed (400 entries). Weapons continued: boxing gloves, melee weapons (Rebar Knuckles to Clown Hammer), pistols (PMK to Retirer), launchers (RPG-7 to Javelin), sniper rifles (Hog Hunter to Anti-Materiel Rifle), shotguns (Lever Action to Punk Buster, SPAZ-12, Street Cleaner), flamethrowers (Flammenwerfer to Cryo Launcher), machine guns (Army MG to Minigun), SMGs (Greaser to PDW-01). Armor descriptions (Fur Parka to Power Armor). Weapon mods: barrels (Alloy to Hammerforge), sights (Laser to Ultraviolet), magazines (Long to Quickfire), scopes (Reflex to Red Dot). Quest items: keys, documents, tools. Fixed 2 quote format errors (flechette, antibiotic). All validations: 0 errors."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,23 +37,23 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 210,
+    "session_number": 211,
     "date": "2025-11-20",
-    "entries_processed": 140,
+    "entries_processed": 400,
     "sections_completed": [
-      "items (140 entries)"
+      "items_and_mods (400 entries)"
     ],
-    "commit_hash": "c179d7f",
+    "commit_hash": "97e5532",
     "validation_passed": true,
-    "notes": "Session 210: 140 entries total. Items and weapons descriptions: interactable objects (environment), medical supplies (suture kits, antidotes), drugs (liquid time, focus, rhino), consumables, weapon descriptions (rifles: Army Rifle, Kalash 47, M1989A1; pistols: VP91Z, Laser Pistol; melee: Brass Knuckles, Hand Wraps), ammunition types, keycards, quest items (Betamax Player/Tape, Tinker's Head, Cucaracha Corpse). Fixed 3 quote format errors (Japanese brackets to embedded quotes). All validations: 0 errors.",
-    "next_action": "Continue from line 498680 - items continuation"
+    "notes": "Session 211: 400 entries total. Comprehensive weapon and equipment coverage: melee weapons (Rebar Knuckles, Bionic Arm, Shock Glove, gauntlets), handguns (PMK, Makarov, Click 19, Autovolver, M1911, revolvers, Widow Maker, Man Cannon), launchers (RPG-7, LAW, Stinger, Javelin), sniper rifles (Marksman Rifle, Scout Rifle, SR2000-Argent, Anti-Materiel Rifle), shotguns (SPAZ-12, Assault Shotgun, Jackhammer, Tactical Shotgun), flamethrowers (Flammenwerfer, Incinerator, Cryo Launcher), machine guns (Army MG, Bren, Minigun), SMGs (Skorpion, Tommy Gun, MAC 17, FN-90). Armor complete set (Scout to Power Armor). Weapon modifications: barrels (Alloy, Cut-Rifled, Columbium, Titanium-Cobalt, Hammerforge), sights (Laser, Spec-Ops, SWAT, Ultraviolet), magazines (Extended, Max Capacity, Quickfire), scopes. Quest items and keys (Hoons Rifle, Slave Pen Key, multiple palace keys, technical items). Fixed 2 quote format errors. Structure validation: 0 errors.",
+    "next_action": "Continue from line 499277 - remaining items and mods"
   },
   "cumulative_stats": {
-    "total_sessions": 210,
-    "total_entries_translated": 157289,
-    "untranslated_remaining": 12423,
-    "average_entries_per_session": 749,
-    "estimated_sessions_remaining_base": 17,
+    "total_sessions": 211,
+    "total_entries_translated": 157689,
+    "untranslated_remaining": 12023,
+    "average_entries_per_session": 747,
+    "estimated_sessions_remaining_base": 16,
     "estimated_days_remaining_base": "3-4 days",
     "estimated_sessions_remaining_dlc1": 51,
     "estimated_days_remaining_dlc1": "1-2 days",
