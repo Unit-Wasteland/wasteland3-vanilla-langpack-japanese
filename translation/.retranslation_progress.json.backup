@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 506598,
+    "current_line": 508899,
     "total_lines": 530425,
-    "entries_completed": 160167,
+    "entries_completed": 160361,
     "total_entries": 169712,
-    "percent_complete": 94.4,
-    "untranslated_entries": 9545,
-    "last_section": "options_start",
+    "percent_complete": 94.5,
+    "untranslated_entries": 9351,
+    "last_section": "perks_continuation",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-20: Session 230 completed (29 entries). Loreentries completion + options start. All validations: 0 errors."
+    "notes": "2025-11-20: Session 231 completed (194 entries). Perks section continuation. All validations: 0 errors."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,28 +37,27 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 230,
+    "session_number": 231,
     "date": "2025-11-20",
-    "entries_processed": 29,
+    "entries_processed": 194,
     "sections_completed": [
-      "loreentries completion (lines 506514-506562): 25 entries",
-      "options start (lines 506592-506594): 2 entries"
+      "perks continuation (lines 508511-508898): 194 entries"
     ],
-    "commit_hash": "9a220b1",
+    "commit_hash": "ab42774",
     "validation_passed": true,
-    "notes": "Session 230: 29 entries. Disturbing toy dolls series (Cruel Corey, Patient Pierce, Radical Rachel, Fuckin' Fred, Keen Karen, Hearty Henry, Maneater Maury, Hyper Heather, Nervous Nancy, Angry Aaron, Zen Zoey, Ferocious Francesca, Electric Emmet, Quick Quaid, Purist Patty), Doug letter, Patriarch custody letter, Mashers evacuation, time capsule, cleaning orders, Redd-of-Blood anointing, Australian Rules Board Game, Brandi-Troy diary, Saul vs Krankenstein fiction, options menu. Fixed 4 errors (3 quote count + 1 action marker). All validations: 0 errors.",
-    "next_action": "Continue from line 506598 - perks section (475 items)"
+    "notes": "Session 231: 194 entries. Game perks (Bloodlust, Grumpy, Ascetic, Circus, Animal Training, Double Tap, Sure Shot, Antiques Appraiser, Penny Pincher, Five Finger Discount, Pursuit, Relentless, Hack N Slash, Shrug It Off, Blast Radius, Bomb Recovery, Duck and Cover, Minesweeper, Trigger Happy, Microwave Research, Draw, High Impact, Terrorizer, Fortify, Hardened, Healthy, Deep Pockets, Quick Reflexes, Wide Spread, Weathered, Stormer, Safecracking, Emergency Response, Fine Forager, Hypocritic Oath, Overhealing, Physical Therapy, Skinning, Big Game Hunter, Clear Cover, Devastation, Flush Em Out, Concentration, Chain Ambush, Masterful Precision, Combat Senses, Onslaught, Rapid Reload, Breakfast Bandit, Heating Element, Toaster Expert, Toasty, Expert Disassembler, Tender Loving Care, Tuned Up, Biotech Serum, Vehicular Combat, Lone Wolf, Pyromaniac, Way of the Squeezins, Blunderer, Poindexter, Prospector, Animal Lover, Doomsday Prepper, Asshole, Wendigo, Death Wish, Rambo, Medical Marvel, Bop Bag, Two-Pump Chump, Mime). Fixed 1 embedded quote error (line 508616). All validations: 0 errors.",
+    "next_action": "Continue from line 508899 - remaining perks section (281 entries remaining)"
   },
   "cumulative_stats": {
-    "total_sessions": 230,
-    "total_entries_translated": 160167,
-    "untranslated_remaining": 9545,
-    "average_entries_per_session": 696.4,
-    "estimated_sessions_remaining_base": 14,
+    "total_sessions": 231,
+    "total_entries_translated": 160361,
+    "untranslated_remaining": 9351,
+    "average_entries_per_session": 694.2,
+    "estimated_sessions_remaining_base": 13,
     "estimated_days_remaining_base": "1-2 days",
-    "estimated_sessions_remaining_dlc1": 54,
+    "estimated_sessions_remaining_dlc1": 56,
     "estimated_days_remaining_dlc1": "1-2 days",
-    "estimated_sessions_remaining_dlc2": 34,
+    "estimated_sessions_remaining_dlc2": 35,
     "estimated_days_remaining_dlc2": "1 day",
     "total_lines_all_files": 728337,
     "project_status": "IN_PROGRESS",
