@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 504100,
+    "current_line": 504589,
     "total_lines": 530425,
-    "entries_completed": 159709,
+    "entries_completed": 159857,
     "total_entries": 169712,
-    "percent_complete": 94.1,
-    "untranslated_entries": 10003,
-    "last_section": "items_quest_items_weapons",
+    "percent_complete": 94.2,
+    "untranslated_entries": 9855,
+    "last_section": "weapons_armor_items",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-20: Session 222 completed (200+ entries). Vehicles (chassis, modules, horns, armor), winter weapons, collectibles (cassette tapes, books, trinkets), quest items. Fixed 38 quote count issues. All validations: 0 errors."
+    "notes": "2025-11-20: Session 223 completed (148 entries). Weapons, armor mods, leg enhancements, weapon linkages, quest items, costumes, collectibles. Fixed 9 quote count errors. All validations: 0 errors."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,24 +37,24 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 222,
+    "session_number": 223,
     "date": "2025-11-20",
-    "entries_processed": 200,
+    "entries_processed": 148,
     "sections_completed": [
-      "vehicles_collectibles_items (200+ entries)"
+      "weapons_armor_items (148 entries)"
     ],
-    "commit_hash": "a97192e",
+    "commit_hash": "3667562",
     "validation_passed": true,
-    "notes": "Session 222: 200+ entries. Vehicles, winter weapons, collectibles, quest items. Quote fixes: 38. All validations: 0 errors.",
-    "next_action": "Continue from line 504100 - remaining collectibles and items"
+    "notes": "Session 223: 148 entries. Weapons, armor mods, leg enhancements, weapon linkages, quest items, costumes, collectibles. Quote fixes: 9. All validations: 0 errors.",
+    "next_action": "Continue from line 504589 - keycodes section"
   },
   "cumulative_stats": {
-    "total_sessions": 221,
-    "total_entries_translated": 159709,
-    "untranslated_remaining": 10003,
-    "average_entries_per_session": 721.8,
+    "total_sessions": 223,
+    "total_entries_translated": 159857,
+    "untranslated_remaining": 9855,
+    "average_entries_per_session": 716.9,
     "estimated_sessions_remaining_base": 14.0,
-    "estimated_days_remaining_base": "3 days",
+    "estimated_days_remaining_base": "2-3 days",
     "estimated_sessions_remaining_dlc1": 53,
     "estimated_days_remaining_dlc1": "1-2 days",
     "estimated_sessions_remaining_dlc2": 33,
