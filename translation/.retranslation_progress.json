@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 439380,
+    "current_line": 440979,
     "total_lines": 530425,
-    "entries_completed": 150551,
+    "entries_completed": 150803,
     "total_entries": 169712,
-    "percent_complete": 88.7,
-    "untranslated_entries": 19161,
-    "last_section": "y_combat24_breathersspecial",
+    "percent_complete": 88.9,
+    "untranslated_entries": 18909,
+    "last_section": "y_combat42_droolsspotted",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-20: Session 54 completed (62 entries). Breathers drug-induced hallucinations. Matrix references and rainbow squirrel humor. All validations: 0 errors."
+    "notes": "2025-11-20: Session 55 completed (252 entries). Marshals encounters (car chase, murder investigation, protection racket), razorback and drool random encounters. All validations: 0 errors."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,31 +37,36 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 54,
+    "session_number": 55,
     "date": "2025-11-20",
-    "entries_processed": 62,
+    "entries_processed": 252,
     "sections_completed": [
-      "y_combat23_breathersspotted (36 entries - Breathers wandering encounters)",
-      "y_combat24_breathersspecial (26 entries - drug-induced hallucinations with rainbow squirrel)"
+      "y_combat25_marshalscarchase (34 entries - Marshals car chase encounter)",
+      "y_combat26_marshalsinvestigation (51 entries - Marshals murder investigation)",
+      "y_combat27_marshalsprotection (19 entries - Marshals protection racket)",
+      "y_combat35_razorbacksattack (37 entries - razorback ambush)",
+      "y_combat36_razorbacksspotted (37 entries - razorback stealth encounter)",
+      "y_combat41_droolsattack (37 entries - drool/ghoul ambush)",
+      "y_combat42_droolsspotted (37 entries - drool/ghoul stealth encounter)"
     ],
-    "commit_hash": "70d6d72",
+    "commit_hash": "pending",
     "validation_passed": true,
-    "notes": "Session 54: Completed 62 entries. Breathers spotted encounters, drug hallucinations with Matrix references and rainbow squirrel humor. All validations: 0 errors.",
-    "next_action": "Continue sequential translation from line 439380"
+    "notes": "Session 55: Completed 252 entries. Marshals encounters (car chase with brutality, murder investigation with serial killer hints, protection racket with moral choices). Razorback encounters (ambush with speed mechanics, stealth detection with terrain usage). Drool/ghoul encounters (horror ambush, stealth avoidance). All validations: 0 errors.",
+    "next_action": "Continue sequential translation from line 440979"
   },
   "cumulative_stats": {
-    "total_sessions": 54,
-    "total_entries_translated": 150551,
-    "untranslated_remaining": 19161,
-    "average_entries_per_session": 2788,
+    "total_sessions": 55,
+    "total_entries_translated": 150803,
+    "untranslated_remaining": 18909,
+    "average_entries_per_session": 2742,
     "estimated_sessions_remaining_base": 7,
-    "estimated_days_remaining_base": "17-21 days",
+    "estimated_days_remaining_base": "16-20 days",
     "estimated_sessions_remaining_dlc1": 203,
     "estimated_days_remaining_dlc1": "5-7 days",
     "estimated_sessions_remaining_dlc2": 127,
     "estimated_days_remaining_dlc2": "3-5 days",
     "total_lines_all_files": 728337,
     "project_status": "IN_PROGRESS",
-    "completion_date": "estimated 2025-12-18"
+    "completion_date": "estimated 2025-12-17"
   }
 }
