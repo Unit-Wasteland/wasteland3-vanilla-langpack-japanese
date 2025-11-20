@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 438043,
+    "current_line": 438697,
     "total_lines": 530425,
-    "entries_completed": 150461,
+    "entries_completed": 150489,
     "total_entries": 169712,
     "percent_complete": 88.7,
-    "untranslated_entries": 19251,
-    "last_section": "y_combat19_hardheadsattack",
+    "untranslated_entries": 19223,
+    "last_section": "y_combat22_breathersattack",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-20: Session 52 completed (84 entries). Godfisher/Hard-Heads encounters. Fixed quote count (4-quote dialogue format). Fixed HTML tag. All validations: 0 errors."
+    "notes": "2025-11-20: Session 53 completed (28 entries). Hard-Heads and Breathers encounters. Fixed 6-quote dialogue format. All validations: 0 errors."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,26 +37,23 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 52,
+    "session_number": 53,
     "date": "2025-11-20",
-    "entries_processed": 84,
+    "entries_processed": 28,
     "sections_completed": [
-      "y_combat04_scarcollectorsattack (continued - 14 entries)",
-      "y_combat04_scarcollectorsattack_plains (8 entries - plains variant)",
-      "y_combat08_godfishersattack (17 entries - Godfisher kites)",
-      "y_combat08_godfishersattack_plains (13 entries - plains variant)",
-      "y_combat19_hardheadsattack (32 entries - cannibal gang)"
+      "y_combat20_hardheadsspotted (14 entries - cannibal encounters)",
+      "y_combat22_breathersattack (14 entries - drug gang ambushes)"
     ],
-    "commit_hash": "2170170",
+    "commit_hash": "59bcebc",
     "validation_passed": true,
-    "notes": "Session 52: Completed 84 entries. Godfisher kite encounters, Hard-Heads cannibal encounters. Fixed quote count and HTML tag. All validations: 0 errors.",
-    "next_action": "Continue sequential translation from line 438043"
+    "notes": "Session 53: Completed 28 entries. Hard-Heads spotted encounters, Breathers attack encounters. Fixed 6-quote embedded dialogue format. All validations: 0 errors.",
+    "next_action": "Continue sequential translation from line 438697"
   },
   "cumulative_stats": {
-    "total_sessions": 52,
-    "total_entries_translated": 150461,
-    "untranslated_remaining": 19251,
-    "average_entries_per_session": 2894,
+    "total_sessions": 53,
+    "total_entries_translated": 150489,
+    "untranslated_remaining": 19223,
+    "average_entries_per_session": 2839,
     "estimated_sessions_remaining_base": 7,
     "estimated_days_remaining_base": "17-21 days",
     "estimated_sessions_remaining_dlc1": 203,
