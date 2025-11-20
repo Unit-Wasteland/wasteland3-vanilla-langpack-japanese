@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 522751,
+    "current_line": 523166,
     "total_lines": 530425,
-    "entries_completed": 162519,
+    "entries_completed": 162568,
     "total_entries": 169712,
     "percent_complete": 95.8,
-    "untranslated_entries": 7193,
-    "last_section": "a5001_unwelcomeguests, mission_a5001_unwelcomeguests, a5101_thezealot",
+    "untranslated_entries": 7144,
+    "last_section": "mission_b1001_calltoaction, mission_b1001_counterintelligence (partial)",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-21: Session 244 completed (76 entries). Mission sections: a5001_unwelcomeguests (46 entries), mission_a5001_unwelcomeguests (13 entries), a5101_thezealot (31 entries). Quote format fix: 1 embedded quote error fixed. All validations: 0 errors."
+    "notes": "2025-11-21: Session 245 completed (49 entries). Mission sections: calltoaction (26 entries - Morningstar AI quest), counterintelligence partial (23 entries - Commune diagnostic quest). Quote format: 2 embedded quote fixes. All validations: 0 errors."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,24 +37,23 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 244,
+    "session_number": 245,
     "date": "2025-11-21",
-    "entries_processed": 76,
+    "entries_processed": 49,
     "sections_completed": [
-      "a5001_unwelcomeguests (lines 522372-522462): 46 entries",
-      "mission_a5001_unwelcomeguests (lines 522528-522552): 13 entries",
-      "a5101_thezealot (lines 522690-522750): 31 entries"
+      "mission_b1001_calltoaction (lines 522868-522918): 26 entries",
+      "mission_b1001_counterintelligence (lines 523120-523164): 23 entries (partial, 24 remaining)"
     ],
-    "commit_hash": "1541fed",
+    "commit_hash": "0e73e57",
     "validation_passed": true,
-    "notes": "Session 244: 76 entries. Mission sections: unwelcomeguests (refugee smuggling quest), thezealot (Valor extraction quest). Quote format fix: 1 embedded quote error fixed (Reagan name). Structure validation: 0 errors. Action marker check passed.",
-    "next_action": "Continue from line 522751 - mission_b1001_calltoaction section"
+    "notes": "Session 245: 49 entries. Mission sections: calltoaction (Morningstar AI rescue quest), counterintelligence partial (Commune diagnostic data quest for Gippers). Quote format: 2 embedded quote corrections. Structure validation: 0 errors. Action marker check passed.",
+    "next_action": "Continue from line 523166 - mission_b1001_counterintelligence entry [23] onwards (24 entries remaining)"
   },
   "cumulative_stats": {
-    "total_sessions": 244,
-    "total_entries_translated": 162519,
-    "untranslated_remaining": 7193,
-    "average_entries_per_session": 666.0,
+    "total_sessions": 245,
+    "total_entries_translated": 162568,
+    "untranslated_remaining": 7144,
+    "average_entries_per_session": 663.5,
     "estimated_sessions_remaining_base": 11,
     "estimated_days_remaining_base": "1-2 days",
     "estimated_sessions_remaining_dlc1": 58,
