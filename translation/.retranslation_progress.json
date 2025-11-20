@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 480541,
+    "current_line": 483992,
     "total_lines": 530425,
-    "entries_completed": 156558,
+    "entries_completed": 156949,
     "total_entries": 169712,
-    "percent_complete": 92.2,
-    "untranslated_entries": 13154,
-    "last_section": "gui",
+    "percent_complete": 92.5,
+    "untranslated_entries": 12763,
+    "last_section": "interactables",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-20: Session 207 completed (260 entries + 2 bracket fixes). Game settings UI. Multiplayer system messages. DLC content UI. Crafting system. Character voice types. Save and exit flow. All validations: 0 errors."
+    "notes": "2025-11-20: Session 208 completed (391 entries). Input actions (169 entries). Object examination text (222 entries). Fixed 5 quote format errors. All validations: 0 errors."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,22 +37,23 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 207,
+    "session_number": 208,
     "date": "2025-11-20",
-    "entries_processed": 262,
+    "entries_processed": 391,
     "sections_completed": [
-      "gui continuation (260 entries + 2 bracket marker fixes)"
+      "inputactions (169 entries)",
+      "interactables (222 entries)"
     ],
-    "commit_hash": "0b0d9e4",
+    "commit_hash": "0bd7e74",
     "validation_passed": true,
-    "notes": "Session 207: 262 entries total. Fixed 2 bracket markers from error log. Then translated 260 entries: game settings descriptions (language, input, autosave, tutorials, camera controls, visual settings, audio settings). UI text (player labels, conversation UI, multiplayer warnings, save messages). Character voice types (feminine). Difficulty settings (Tourist mode, Permanent Death, Difficult Skill Checks). Multiplayer (lobby errors, connection messages, save flow). DLC UI (Steeltown, Cheyenne Mountain, Colorado Survival Gear). Crafting system (recipes, components, mystery items). Save and exit flow. All quote formats exact match. All validations: 0 errors.",
-    "next_action": "Continue from line 480541 - inputactions section"
+    "notes": "Session 208: 391 entries total. Input action names: movement controls, camera controls, UI navigation, combat actions, multiplayer functions, crafting, inventory management. Object examination text: environmental descriptions (snow, ice, corpses, Rangers, trucks), location names (hospital, armory, cafeteria, cryogenics, war room), developer memorials, museum exhibits (Patriarch artifacts, weapons, uniforms, treaties), arcade machines, lore text (Reagan mythology, Communist threat). Fixed 5 quote format errors (Japanese brackets to English quotes). All quote formats exact match. All validations: 0 errors.",
+    "next_action": "Continue from line 483992 - interactables continuation"
   },
   "cumulative_stats": {
-    "total_sessions": 207,
-    "total_entries_translated": 156558,
-    "untranslated_remaining": 13154,
-    "average_entries_per_session": 756,
+    "total_sessions": 208,
+    "total_entries_translated": 156949,
+    "untranslated_remaining": 12763,
+    "average_entries_per_session": 754,
     "estimated_sessions_remaining_base": 17,
     "estimated_days_remaining_base": "3-4 days",
     "estimated_sessions_remaining_dlc1": 51,
