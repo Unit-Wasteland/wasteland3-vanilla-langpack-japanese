@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 501993,
+    "current_line": 502331,
     "total_lines": 530425,
-    "entries_completed": 158884,
+    "entries_completed": 158976,
     "total_entries": 169712,
-    "percent_complete": 93.6,
-    "untranslated_entries": 10828,
-    "last_section": "consumables_medical_equipment",
+    "percent_complete": 93.7,
+    "untranslated_entries": 10736,
+    "last_section": "armor_descriptions_machine_shop",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-20: Session 217 completed (100 entries). Item descriptions: weapons (Head-Knocker, Glass Knucks, Researcher's Laser Rifle, The Coming Storm, Skeet Shooter, Survivalist's Rifle, Ventilator), equipment (ornaments, Mega Scope), Ranger armor sets (Operative, Tundra, Heavy, Veteran, Outrider, Specialist), keys, documents, special items (heads, Pocket Sawpup, Machine Turret), consumables, medical items. Smart quote fixes: 5 entries corrected to match mixed straight/smart quote format. All validations: 0 errors."
+    "notes": "2025-11-20: Session 218 completed (92 entries). Weapon mods: Razor Box, Toxin Cell, Concussion Bell, Battery Pack, Cryocell Linkage, Plasma Linkage, HE Fuse Linkage, Blast Muffler, Sound Suppressor, Phase Silencer. Character quirks: Radical Rachel, Patient Pierce, Keen Karen, Cruel Corey, Fuckin Fred, Hearty Henry, Maneater Maury, Hyper Heather, Nervous Nancy, Zen Zoey, Ferocious Francesca, Electric Emmett, Angry Aaron, Quick Quaid, Purist Patty. Costumes: Female Caretaker, Bear, Gorilla, Doctor's Note, Fancy, Clown, Mime, Vampire, Hologram, Scientist. Ranger armor: Outrider, Tundra, Winter Parka, Scout, Gunslinger, Operative, Tundra, Specialist sets. Non-Ranger armor: Scrap, RadTek, Savage, Tank, Composite, Power Armor, Machine Shop. Quote format fix: Line 502052 corrected. All validations: 0 errors."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,27 +37,27 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 217,
+    "session_number": 218,
     "date": "2025-11-20",
-    "entries_processed": 100,
+    "entries_processed": 92,
     "sections_completed": [
-      "consumables_medical_equipment (100 entries)"
+      "armor_descriptions_machine_shop (92 entries)"
     ],
-    "commit_hash": "b9a079f",
+    "commit_hash": "09a0a5a",
     "validation_passed": true,
-    "notes": "Session 217: 100 entries total. Smart quote format fixes applied. All validations: 0 errors.",
-    "next_action": "Continue from line 501993 - remaining items and equipment"
+    "notes": "Session 218: 92 entries total (2 chunks). Weapon modifications and attachments, character quirks, costume items, Ranger armor sets (space-prefixed player-facing content), non-Ranger armor descriptions. All validations: 0 errors.",
+    "next_action": "Continue from line 502331 - ChemTek and advanced armor descriptions"
   },
   "cumulative_stats": {
-    "total_sessions": 217,
-    "total_entries_translated": 158884,
-    "untranslated_remaining": 10828,
-    "average_entries_per_session": 732.2,
+    "total_sessions": 218,
+    "total_entries_translated": 158976,
+    "untranslated_remaining": 10736,
+    "average_entries_per_session": 729.2,
     "estimated_sessions_remaining_base": 15.0,
     "estimated_days_remaining_base": "3 days",
-    "estimated_sessions_remaining_dlc1": 52,
+    "estimated_sessions_remaining_dlc1": 53,
     "estimated_days_remaining_dlc1": "1-2 days",
-    "estimated_sessions_remaining_dlc2": 32,
+    "estimated_sessions_remaining_dlc2": 33,
     "estimated_days_remaining_dlc2": "1 day",
     "total_lines_all_files": 728337,
     "project_status": "IN_PROGRESS",
