@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 506514,
+    "current_line": 506598,
     "total_lines": 530425,
-    "entries_completed": 160138,
+    "entries_completed": 160167,
     "total_entries": 169712,
     "percent_complete": 94.4,
-    "untranslated_entries": 9574,
-    "last_section": "loreentries_continuation",
+    "untranslated_entries": 9545,
+    "last_section": "options_start",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-20: Session 229 completed (41 entries). Loreentries continuation (Clown documents, pre-war journals, Holy Deluge ceremonies, Encyclopedia Robotica, disturbing toy dolls). All validations: 0 errors."
+    "notes": "2025-11-20: Session 230 completed (29 entries). Loreentries completion + options start. All validations: 0 errors."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,22 +37,23 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 229,
+    "session_number": 230,
     "date": "2025-11-20",
-    "entries_processed": 41,
+    "entries_processed": 29,
     "sections_completed": [
-      "loreentries continuation (lines 506468-506512): 41 entries"
+      "loreentries completion (lines 506514-506562): 25 entries",
+      "options start (lines 506592-506594): 2 entries"
     ],
-    "commit_hash": "3bea3a6",
+    "commit_hash": "9a220b1",
     "validation_passed": true,
-    "notes": "Session 229: 41 entries. Loreentries (Commodore Clown letter, clown paint recipe, McCoskeys letter, pre-war journals by Ally Bleu and Parker, Ellen Buchanan letter, BestBunker ad, Dr. Jakes laxative guide, human trafficking notes, paranoid diary, medical report, Lecherito order, JabJab jokes, dog tags, Godfish mythology, military orders, Encyclopedia Robotica, Holy Deluge ceremony variations, Cruel Corey dolls start). All validations: 0 errors.",
-    "next_action": "Continue from line 506514 - loreentries continuation (remaining disturbing toy dolls)"
+    "notes": "Session 230: 29 entries. Disturbing toy dolls series (Cruel Corey, Patient Pierce, Radical Rachel, Fuckin' Fred, Keen Karen, Hearty Henry, Maneater Maury, Hyper Heather, Nervous Nancy, Angry Aaron, Zen Zoey, Ferocious Francesca, Electric Emmet, Quick Quaid, Purist Patty), Doug letter, Patriarch custody letter, Mashers evacuation, time capsule, cleaning orders, Redd-of-Blood anointing, Australian Rules Board Game, Brandi-Troy diary, Saul vs Krankenstein fiction, options menu. Fixed 4 errors (3 quote count + 1 action marker). All validations: 0 errors.",
+    "next_action": "Continue from line 506598 - perks section (475 items)"
   },
   "cumulative_stats": {
-    "total_sessions": 229,
-    "total_entries_translated": 160138,
-    "untranslated_remaining": 9574,
-    "average_entries_per_session": 699.3,
+    "total_sessions": 230,
+    "total_entries_translated": 160167,
+    "untranslated_remaining": 9545,
+    "average_entries_per_session": 696.4,
     "estimated_sessions_remaining_base": 14,
     "estimated_days_remaining_base": "1-2 days",
     "estimated_sessions_remaining_dlc1": 54,
