@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 512340,
+    "current_line": 512946,
     "total_lines": 530425,
-    "entries_completed": 160988,
+    "entries_completed": 161087,
     "total_entries": 169712,
     "percent_complete": 94.9,
-    "untranslated_entries": 8724,
-    "last_section": "scenes",
+    "untranslated_entries": 8625,
+    "last_section": "skills",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-20: Session 235 completed (122 entries). Scene and location names. All validations: 0 errors."
+    "notes": "2025-11-20: Session 236 completed (99 entries). Skills section. All validations: 0 errors."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,22 +37,22 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 235,
+    "session_number": 236,
     "date": "2025-11-20",
-    "entries_processed": 122,
+    "entries_processed": 99,
     "sections_completed": [
-      "scenes section (lines 512097-512340): 122 entries - world map and facility names"
+      "skills section (lines 512750-512946): 99 entries - all skill names and descriptions"
     ],
-    "commit_hash": "1c1b730",
+    "commit_hash": "3f5534f",
     "validation_passed": true,
-    "notes": "Session 235: 122 entries. Scene and location names (Ranger HQ facilities, Colorado/Denver/Aspen overworld maps, major locations: Machine Commune, Bizarre, Yuma County, named sites: Snowed Inn Resort, Knox Ranch, Hoon Homestead, TEST locations preserved). Fixed quote format for embedded quotes. All validations: 0 errors.",
-    "next_action": "Continue from line 512340 - skills section next"
+    "notes": "Session 236: 99 entries. All combat, exploration, social, and general skill names and descriptions (Automatic Weapons, Melee Combat, Big Guns, Energy Weapons, Shotguns, Sniper Rifles, Lockpicking, Survival, Hard Ass, Kiss Ass, etc.). Structure validation: 0 errors. Action marker check passed.",
+    "next_action": "Continue from line 512946 - statuseffects section next"
   },
   "cumulative_stats": {
-    "total_sessions": 235,
-    "total_entries_translated": 160988,
-    "untranslated_remaining": 8724,
-    "average_entries_per_session": 685.1,
+    "total_sessions": 236,
+    "total_entries_translated": 161087,
+    "untranslated_remaining": 8625,
+    "average_entries_per_session": 682.5,
     "estimated_sessions_remaining_base": 13,
     "estimated_days_remaining_base": "1-2 days",
     "estimated_sessions_remaining_dlc1": 56,
