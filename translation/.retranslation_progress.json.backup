@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 501193,
+    "current_line": 501593,
     "total_lines": 530425,
-    "entries_completed": 158684,
+    "entries_completed": 158784,
     "total_entries": 169712,
-    "percent_complete": 93.5,
-    "untranslated_entries": 11028,
-    "last_section": "vehicle_customization_cybernetics",
+    "percent_complete": 93.6,
+    "untranslated_entries": 10928,
+    "last_section": "item_descriptions_weapons_keys",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-20: Session 215 completed (100 entries). Vehicle customization and cybernetic implants: Treads (9 types: Gold, Chain, Chrome, Plains Gang, Gipper, Scar Collector, Payaso, Military, Spiked), Ornaments (16 types: Ranger Star, Peek & Poke, Wolf Skull, Goat, Chicken, Dildo, Bison Skull, Erastus Dorsey Helmet, Guitar, Vampire Bat, Radioactive Battery, Clown Wig, Tinker Head, Criminal, Discobot), Paint jobs (10 types: Digital Camo, Frost, Gipper, Marshal, Military Camo, Payaso, Snakeskin, Tiger Stripe, Wastelander), Horns (4 types: Goat, Hat Dance, Police, Trucker). Weapons: Pinprick, Butcher Blade, Frostbite. Hairstyles: 4 types. Cybernetic implants: OptiLaser 9000, CyberFist, Nociception Clamp, Cerebral Modem, Subdermal Plating, EMP Cylinder, Liver Box, Hermes Mk. 3 Actuators, Adrenal Enhancer, Grapple Launcher. Clothing: 5 outfit types. Items: Survivalist Diary, Alistair Hoon gun, Dos-Teh-Seh Head. Quote fixes: 3 entries (lines 501004, 501020, 501028) adjusted to match source ASCII quote counts. All validations: 0 errors."
+    "notes": "2025-11-20: Session 216 completed (100 entries). Item descriptions: Synth Head Necklace, Tourmaline Head, books (Duck Hat, I Cant Believe Its Not Butter, Brief History of Tibia, Romancing the Ghost, Tax Evasion for Morons, Around the World in 800000 Days, Living With a Death Wish, Penetrating the Rear, The Art of War). Weapon parts: Applicator Gun, Coaxial Magnetron, Faraday Projector, Incendiary Linkage, Fluted Barrel Lining, Piezo Igniter, Fuser, Nano Resin, Optical Spectrometer, Sonic Emitter, ChemTek Armor, IV Jet, Electrohelmet, Cryo Beam, Anabolic Injector, Exoskeleton. Unique weapons: Excelsior, Arachnid, The Clobberer, Emissary, Liquefier Mk. 3, Graviton Shredder, Penetrator, Ambassador. Keys: storage unit keys (103, 102, 105, 108, 109), Admin Office, Employee Lounge, Gift Shop, Gondola, Patriarch Wing, Guest Suites 1, Sauna Maintenance, Hundred Families Vault, Freezer, Offices, Red Locker. Documents: Note to Carmen, Hostage Taker Note, Typed Letter, Cultist Journal, Sister Isotope Research Notes, Payaso Letter. Special items: Bikini Heat 3 VHS, Cabbage Patch Kid, Eterni-Tarts, Billy Bleat, Last Resort, Dog Hair, Tattered Logbook, Cog Pendant, Farmer Diary, Shovel of Secrets, Awakened Shovel. Quote format fixes: 18 entries corrected to match source quote counts. All validations: 0 errors."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,22 +37,22 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 215,
+    "session_number": 216,
     "date": "2025-11-20",
     "entries_processed": 100,
     "sections_completed": [
-      "vehicle_customization_cybernetics (100 entries)"
+      "item_descriptions_weapons_keys (100 entries)"
     ],
-    "commit_hash": "146d051",
+    "commit_hash": "26a7df4",
     "validation_passed": true,
-    "notes": "Session 215: 100 entries total. Vehicle customization and cybernetic implants. Quote format fixes: 3 entries. All validations: 0 errors.",
-    "next_action": "Continue from line 501193 - equipment and weapon parts"
+    "notes": "Session 216: 100 entries total. Item descriptions, weapon parts, unique weapons, keys, documents. Quote format fixes: 18 entries. All validations: 0 errors.",
+    "next_action": "Continue from line 501593 - remaining items and equipment"
   },
   "cumulative_stats": {
-    "total_sessions": 215,
-    "total_entries_translated": 158684,
-    "untranslated_remaining": 11028,
-    "average_entries_per_session": 738.0,
+    "total_sessions": 216,
+    "total_entries_translated": 158784,
+    "untranslated_remaining": 10928,
+    "average_entries_per_session": 735.0,
     "estimated_sessions_remaining_base": 15.0,
     "estimated_days_remaining_base": "3 days",
     "estimated_sessions_remaining_dlc1": 52,
