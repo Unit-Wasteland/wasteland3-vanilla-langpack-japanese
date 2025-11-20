@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 503482,
+    "current_line": 503584,
     "total_lines": 530425,
-    "entries_completed": 159457,
+    "entries_completed": 159509,
     "total_entries": 169712,
     "percent_complete": 94.0,
-    "untranslated_entries": 10255,
-    "last_section": "items_equipment_helmets",
+    "untranslated_entries": 10203,
+    "last_section": "items_quest_items_weapons",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-20: Session 220 completed (325 entries). Crafting materials, robot components, collectibles, Scar Collector equipment, creature materials, tools, cassette tapes, weapons, ammunition, turrets, costumes, character heads, hairstyles, masks, character trinkets, helmets, quest items, gold items. Quote format corrections: 2 entries. All validations: 0 errors."
+    "notes": "2025-11-20: Session 221 completed (52 entries). Quest items (prisoner note, tissue samples, diagnostic report, mysterious case), gold items, cassette tapes, winter-themed weapons. Quote format fix: 1 entry. All validations: 0 errors."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,22 +37,22 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 220,
+    "session_number": 221,
     "date": "2025-11-20",
-    "entries_processed": 325,
+    "entries_processed": 52,
     "sections_completed": [
-      "items_equipment_helmets (325 entries)"
+      "items_quest_items_weapons (52 entries)"
     ],
-    "commit_hash": "0954932",
+    "commit_hash": "8ae2a02",
     "validation_passed": true,
-    "notes": "Session 220: 325 entries total. Items, equipment, helmets, costumes, character customization, quest items. Quote format corrections: 2 entries. All validations: 0 errors.",
-    "next_action": "Continue from line 503482 - remaining items and equipment"
+    "notes": "Session 221: 52 entries total. Quest items, gold items, cassette tapes, winter weapons. Quote format fix: 1 entry. All validations: 0 errors.",
+    "next_action": "Continue from line 503584 - remaining weapons and vehicle equipment"
   },
   "cumulative_stats": {
-    "total_sessions": 220,
-    "total_entries_translated": 159457,
-    "untranslated_remaining": 10255,
-    "average_entries_per_session": 724.8,
+    "total_sessions": 221,
+    "total_entries_translated": 159509,
+    "untranslated_remaining": 10203,
+    "average_entries_per_session": 721.8,
     "estimated_sessions_remaining_base": 14.0,
     "estimated_days_remaining_base": "3 days",
     "estimated_sessions_remaining_dlc1": 53,
