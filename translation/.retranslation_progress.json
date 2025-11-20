@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 483992,
+    "current_line": 484392,
     "total_lines": 530425,
-    "entries_completed": 156949,
+    "entries_completed": 157149,
     "total_entries": 169712,
-    "percent_complete": 92.5,
-    "untranslated_entries": 12763,
+    "percent_complete": 92.6,
+    "untranslated_entries": 12563,
     "last_section": "interactables",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-20: Session 208 completed (391 entries). Input actions (169 entries). Object examination text (222 entries). Fixed 5 quote format errors. All validations: 0 errors."
+    "notes": "2025-11-20: Session 209 completed (200 entries). Interactable objects: environment descriptions, museum exhibits, torture scenes, massacre sites, workshop items. Fixed 9 quote format errors. All validations: 0 errors."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,23 +37,22 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 208,
+    "session_number": 209,
     "date": "2025-11-20",
-    "entries_processed": 391,
+    "entries_processed": 200,
     "sections_completed": [
-      "inputactions (169 entries)",
-      "interactables (222 entries)"
+      "interactables (200 entries)"
     ],
-    "commit_hash": "0bd7e74",
+    "commit_hash": "46dedd6",
     "validation_passed": true,
-    "notes": "Session 208: 391 entries total. Input action names: movement controls, camera controls, UI navigation, combat actions, multiplayer functions, crafting, inventory management. Object examination text: environmental descriptions (snow, ice, corpses, Rangers, trucks), location names (hospital, armory, cafeteria, cryogenics, war room), developer memorials, museum exhibits (Patriarch artifacts, weapons, uniforms, treaties), arcade machines, lore text (Reagan mythology, Communist threat). Fixed 5 quote format errors (Japanese brackets to English quotes). All quote formats exact match. All validations: 0 errors.",
-    "next_action": "Continue from line 483992 - interactables continuation"
+    "notes": "Session 209: 200 entries total. Object examination text: arcade games, museum exhibits, historical artifacts, Santa Workshop locations, Reagan cult items, Bizarre merchant corpses, Hundred Families massacre, Breather experiments, Payaso gear, bison operations, cookie production. Fixed 9 quote format errors (Japanese brackets to English quotes). All quote formats exact match. All validations: 0 errors.",
+    "next_action": "Continue from line 484392 - interactables continuation"
   },
   "cumulative_stats": {
-    "total_sessions": 208,
-    "total_entries_translated": 156949,
-    "untranslated_remaining": 12763,
-    "average_entries_per_session": 754,
+    "total_sessions": 209,
+    "total_entries_translated": 157149,
+    "untranslated_remaining": 12563,
+    "average_entries_per_session": 752,
     "estimated_sessions_remaining_base": 17,
     "estimated_days_remaining_base": "3-4 days",
     "estimated_sessions_remaining_dlc1": 51,
