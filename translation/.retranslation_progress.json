@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 505741,
+    "current_line": 505770,
     "total_lines": 530425,
-    "entries_completed": 159907,
+    "entries_completed": 159921,
     "total_entries": 169712,
     "percent_complete": 94.2,
-    "untranslated_entries": 9805,
+    "untranslated_entries": 9791,
     "last_section": "loadingtips_partial",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-20: Session 224 completed (50 entries). Keycodes 34, loadingtips 16/223. All validations: 0 errors."
+    "notes": "2025-11-20: Session 225 completed (14 entries). Loadingtips 30/223. All validations: 0 errors."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,23 +37,22 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 224,
+    "session_number": 225,
     "date": "2025-11-20",
-    "entries_processed": 50,
+    "entries_processed": 14,
     "sections_completed": [
-      "keycodes (34 entries)",
-      "loadingtips partial (16/223 entries)"
+      "loadingtips partial (14 entries: 16-29)"
     ],
-    "commit_hash": "39b4ee4",
+    "commit_hash": "a76f67f",
     "validation_passed": true,
-    "notes": "Session 224: 50 entries. Keycodes 34 (keyboard keys), loadingtips 16 (game lore). 207 loadingtips remain. All validations: 0 errors.",
-    "next_action": "Continue from line 505741 - loadingtips continuation (entry 16/223)"
+    "notes": "Session 225: 14 entries. Loadingtips 30/223 (lore tips). 193 loadingtips remain. All validations: 0 errors. Note: Edit tool challenged by Unicode chars in source.",
+    "next_action": "Continue from line 505770 - loadingtips continuation (entry 30/223)"
   },
   "cumulative_stats": {
-    "total_sessions": 224,
-    "total_entries_translated": 159907,
-    "untranslated_remaining": 9805,
-    "average_entries_per_session": 713.8,
+    "total_sessions": 225,
+    "total_entries_translated": 159921,
+    "untranslated_remaining": 9791,
+    "average_entries_per_session": 710.8,
     "estimated_sessions_remaining_base": 14.0,
     "estimated_days_remaining_base": "2-3 days",
     "estimated_sessions_remaining_dlc1": 54,
