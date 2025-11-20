@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 512946,
+    "current_line": 515206,
     "total_lines": 530425,
-    "entries_completed": 161087,
+    "entries_completed": 161278,
     "total_entries": 169712,
-    "percent_complete": 94.9,
-    "untranslated_entries": 8625,
-    "last_section": "skills",
+    "percent_complete": 95.0,
+    "untranslated_entries": 8434,
+    "last_section": "statuseffects",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-20: Session 236 completed (99 entries). Skills section. All validations: 0 errors."
+    "notes": "2025-11-20: Session 237 completed (191 entries). Statuseffects section. All validations: 0 errors."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,23 +37,23 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 236,
+    "session_number": 237,
     "date": "2025-11-20",
-    "entries_processed": 99,
+    "entries_processed": 191,
     "sections_completed": [
-      "skills section (lines 512750-512946): 99 entries - all skill names and descriptions"
+      "statuseffects section (lines 514808-515206): 191 entries - status effect names and descriptions"
     ],
-    "commit_hash": "3f5534f",
+    "commit_hash": "87bba07",
     "validation_passed": true,
-    "notes": "Session 236: 99 entries. All combat, exploration, social, and general skill names and descriptions (Automatic Weapons, Melee Combat, Big Guns, Energy Weapons, Shotguns, Sniper Rifles, Lockpicking, Survival, Hard Ass, Kiss Ass, etc.). Structure validation: 0 errors. Action marker check passed.",
-    "next_action": "Continue from line 512946 - statuseffects section next"
+    "notes": "Session 237: 191 entries. Status effects including injuries, buffs, debuffs, diseases, weather effects (Crippled, Bleeding, Shellshock, Poisoned, Burning, Frozen, Inspired, Irradiated, Blizzard, etc.). Structure validation: 0 errors. Action marker check passed.",
+    "next_action": "Continue from line 515206 - more statuseffects entries"
   },
   "cumulative_stats": {
-    "total_sessions": 236,
-    "total_entries_translated": 161087,
-    "untranslated_remaining": 8625,
-    "average_entries_per_session": 682.5,
-    "estimated_sessions_remaining_base": 13,
+    "total_sessions": 237,
+    "total_entries_translated": 161278,
+    "untranslated_remaining": 8434,
+    "average_entries_per_session": 680.6,
+    "estimated_sessions_remaining_base": 12,
     "estimated_days_remaining_base": "1-2 days",
     "estimated_sessions_remaining_dlc1": 56,
     "estimated_days_remaining_dlc1": "1-2 days",
@@ -61,6 +61,6 @@
     "estimated_days_remaining_dlc2": "1 day",
     "total_lines_all_files": 728337,
     "project_status": "IN_PROGRESS",
-    "completion_date": "estimated 2025-11-23"
+    "completion_date": "estimated 2025-11-22"
   }
 }
