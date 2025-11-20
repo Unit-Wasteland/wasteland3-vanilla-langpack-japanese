@@ -464671,231 +464671,231 @@
        [26]
         1 string data = "経験値ボーナス"
        [27]
-        1 string data = "How quick a learner you are. The higher this number, the more Experience Points you will earn, and the faster you will level up."
+        1 string data = "学習速度。この数値が高いほど、より多くの経験値を獲得し、レベルアップが早くなる。"
        [28]
-        1 string data = "CON Per Level"
+        1 string data = "レベル毎のCON"
        [29]
-        1 string data = "Bonus amount of CON received for each level-up."
+        1 string data = "レベルアップごとに受け取るCONのボーナス量。"
        [30]
-        1 string data = "Leadership Range"
+        1 string data = "リーダーシップ範囲"
        [31]
-        1 string data = "How far the effects of Leadership apply. The higher this number, the farther away squad members can be from you and still receive their effects."
+        1 string data = "リーダーシップの効果が及ぶ距離。この数値が高いほど、分隊メンバーが離れていても効果を受けることができる。"
        [32]
-        1 string data = "Melee Damage Bonus"
+        1 string data = "近接ダメージボーナス"
        [33]
-        1 string data = "Bonus to damage when using melee weapons."
+        1 string data = "近接武器使用時のダメージボーナス。"
        [34]
-        1 string data = "Ranged Damage Bonus"
+        1 string data = "遠距離ダメージボーナス"
        [35]
-        1 string data = "Bonus to damage when using ranged weapons."
+        1 string data = "遠距離武器使用時のダメージボーナス。"
        [36]
-        1 string data = "Normal Damage Bonus"
+        1 string data = "通常ダメージボーナス"
        [37]
-        1 string data = "Bonus to normal damage dealt by this character."
+        1 string data = "このキャラクターが与える通常ダメージのボーナス。"
        [38]
-        1 string data = "Energy Damage Bonus"
+        1 string data = "エネルギーダメージボーナス"
        [39]
-        1 string data = "Bonus to energy damage dealt by this character."
+        1 string data = "このキャラクターが与えるエネルギーダメージのボーナス。"
        [40]
-        1 string data = "Fire Damage Bonus"
+        1 string data = "火炎ダメージボーナス"
        [41]
-        1 string data = "Bonus to fire damage dealt by this character."
+        1 string data = "このキャラクターが与える火炎ダメージのボーナス。"
        [42]
-        1 string data = "Cold Damage Bonus"
+        1 string data = "冷気ダメージボーナス"
        [43]
-        1 string data = "Bonus to cold damage dealt by this character."
+        1 string data = "このキャラクターが与える冷気ダメージのボーナス。"
        [44]
-        1 string data = "Explosive Damage Bonus"
+        1 string data = "爆発ダメージボーナス"
        [45]
-        1 string data = "Bonus to explosive damage dealt by this character."
+        1 string data = "このキャラクターが与える爆発ダメージのボーナス。"
        [46]
         1 string data = ""
        [47]
-        1 string data = "Penetration"
+        1 string data = "貫通力"
        [48]
-        1 string data = "Determines the amount of a target's Armor that your attacks will bypass. Matching or exceeding an enemy's Armor will deal full damage."
+        1 string data = "攻撃が無視できる対象の装甲量を決定する。敵の装甲値と同等か超過すると、フルダメージを与える。"
        [49]
-        1 string data = "Throwing Range"
+        1 string data = "投擲範囲"
        [50]
-        1 string data = "Determines how far you can chuck Grenades and other throwable items."
+        1 string data = "グレネードやその他の投擲アイテムをどれだけ遠くに投げられるかを決定する。"
        [51]
-        1 string data = "Fire Resistance"
+        1 string data = "火炎耐性"
        [52]
-        1 string data = "Determines how resistant this character is to Fire Damage."
+        1 string data = "このキャラクターが火炎ダメージに対してどれだけ耐性があるかを決定する。"
        [53]
-        1 string data = "Cold Resistance"
+        1 string data = "冷気耐性"
        [54]
-        1 string data = "Determines how resistant this character is to Cold Damage."
+        1 string data = "このキャラクターが冷気ダメージに対してどれだけ耐性があるかを決定する。"
        [55]
-        1 string data = "Energy Resistance"
+        1 string data = "エネルギー耐性"
        [56]
-        1 string data = "Determines how resistant this character is to Energy Damage."
+        1 string data = "このキャラクターがエネルギーダメージに対してどれだけ耐性があるかを決定する。"
        [57]
-        1 string data = "Explosive Resistance"
+        1 string data = "爆発耐性"
        [58]
-        1 string data = "Determines how resistant this character is to Explosive Damage."
+        1 string data = "このキャラクターが爆発ダメージに対してどれだけ耐性があるかを決定する。"
        [59]
-        1 string data = "Detection Time"
+        1 string data = "発見時間"
        [60]
-        1 string data = "Determines how long it takes for enemies to detect you."
+        1 string data = "敵があなたを発見するまでの時間を決定する。"
        [61]
-        1 string data = "Initiative"
+        1 string data = "イニシアチブ"
        [62]
-        1 string data = "Determines your chances of getting the first combat turn if an enemy detects you."
+        1 string data = "敵に発見された場合に、最初の戦闘ターンを得られる確率を決定する。"
        [63]
-        1 string data = "Status Effect Resistance"
+        1 string data = "状態異常耐性"
        [64]
-        1 string data = "Determines your chance to shrug off the penalties and damage dealt by negative Status Effects."
+        1 string data = "負の状態異常によるペナルティやダメージを無効化できる確率を決定する。"
        [65]
-        1 string data = "Sneak Attack Damage"
+        1 string data = "スニークアタックダメージ"
        [66]
-        1 string data = "Determines bonus damage dealt to unaware targets you attack out of combat."
+        1 string data = "戦闘外で攻撃する気づいていない対象に与えるボーナスダメージを決定する。"
        [67]
-        1 string data = "Healing Bonus"
+        1 string data = "回復ボーナス"
        [68]
-        1 string data = "Determines how much better the effects of healing are on you."
+        1 string data = "回復効果がどれだけ向上するかを決定する。"
        [69]
-        1 string data = "Radiation Resistance"
+        1 string data = "放射線耐性"
        [70]
-        1 string data = "The level of radiation this character can mitigate. This will either reduce or completely eliminate the effects."
+        1 string data = "このキャラクターが軽減できる放射線レベル。効果を軽減または完全に無効化する。"
        [71]
-        1 string data = "Damage vs. Animals"
+        1 string data = "対動物ダメージ"
        [72]
-        1 string data = "Bonus to damage dealt when attacking animals."
+        1 string data = "動物を攻撃する際のダメージボーナス。"
        [73]
-        1 string data = "Damage vs. Humans"
+        1 string data = "対人間ダメージ"
        [74]
-        1 string data = "Bonus to damage dealt when attacking humans."
+        1 string data = "人間を攻撃する際のダメージボーナス。"
        [75]
-        1 string data = "Damage vs. Mutants"
+        1 string data = "対ミュータントダメージ"
        [76]
-        1 string data = "Bonus to damage dealt when attacking mutants."
+        1 string data = "ミュータントを攻撃する際のダメージボーナス。"
        [77]
-        1 string data = "Damage vs. Robots"
+        1 string data = "対ロボットダメージ"
        [78]
-        1 string data = "Bonus to damage dealt when attacking robots."
+        1 string data = "ロボットを攻撃する際のダメージボーナス。"
        [79]
-        1 string data = "Damage vs. Synth"
+        1 string data = "対シンセダメージ"
        [80]
-        1 string data = "Bonus to damage dealt when attacking synths."
+        1 string data = "シンセを攻撃する際のダメージボーナス。"
        [81]
-        1 string data = "Damage vs. Vehicles"
+        1 string data = "対車両ダメージ"
        [82]
-        1 string data = "Bonus to damage dealt when attacking vehicles."
+        1 string data = "車両を攻撃する際のダメージボーナス。"
        [83]
-        1 string data = "Hit Chance Bonus"
+        1 string data = "命中率ボーナス"
        [84]
-        1 string data = "Impact Damage"
+        1 string data = "衝撃ダメージ"
        [85]
-        1 string data = "How much damage the vehicle deals when running into enemies and objects. This base value is multiplied by the Impact Multipler stat for each grid space traveled."
+        1 string data = "車両が敵やオブジェクトに衝突した際に与えるダメージ。この基本値は、移動したマス目ごとに衝撃倍率ステータスで倍加される。"
        [86]
-        1 string data = "Impact Multiplier"
+        1 string data = "衝撃倍率"
        [87]
-        1 string data = "How much damage the vehicle deals when running into enemies and objects. This multiplies the base Impact Damage for each grid space traveled."
+        1 string data = "車両が敵やオブジェクトに衝突した際に与えるダメージ。移動したマス目ごとに基本衝撃ダメージを倍加する。"
        [88]
-        1 string data = "Downed Time"
+        1 string data = "瀕死時間"
        [89]
-        1 string data = "Determines how many additional combat turns you can cling to life while Downed, before you become Incapacitated."
+        1 string data = "瀕死状態で行動不能になる前に、何ターン生き延びられるかを決定する。"
        [90]
-        1 string data = "World Map Speed"
+        1 string data = "ワールドマップ速度"
        [91]
-        1 string data = "Determines how quickly the Kodiak travels on the World Map."
+        1 string data = "コディアックがワールドマップ上をどれだけ速く移動できるかを決定する。"
        [92]
         1 string data = ""
        [93]
         1 string data = ""
        [94]
-        1 string data = "Beneficial Companion Rogue Action Chance <color=#B2B4B7>+{0}%</color>"
+        1 string data = "コンパニオンの有益なならず者行動確率 <color=#B2B4B7>+{0}%</color>"
        [95]
-        1 string data = "Mission Reward Bonus <color=#B2B4B7>+{0}%</color>"
+        1 string data = "ミッション報酬ボーナス <color=#B2B4B7>+{0}%</color>"
        [96]
-        1 string data = "Lucky Crit Chance <color=#B2B4B7>+{0}%</color>"
+        1 string data = "幸運クリティカル確率 <color=#B2B4B7>+{0}%</color>"
        [97]
-        1 string data = "Lucky Mega Crit Chance <color=#B2B4B7>+{0}%</color>"
+        1 string data = "幸運メガクリティカル確率 <color=#B2B4B7>+{0}%</color>"
        [98]
-        1 string data = "Lucky Evade Chance <color=#B2B4B7>+{0}%</color>"
+        1 string data = "幸運回避確率 <color=#B2B4B7>+{0}%</color>"
        [99]
-        1 string data = "Lucky Crit Resist Chance <color=#B2B4B7>+{0}%</color>"
+        1 string data = "幸運クリティカル抵抗確率 <color=#B2B4B7>+{0}%</color>"
        [100]
-        1 string data = "Lucky Double Healing Chance <color=#B2B4B7>+{0}%</color>"
+        1 string data = "幸運2倍回復確率 <color=#B2B4B7>+{0}%</color>"
        [101]
-        1 string data = "Lucky Double Money Chance <color=#B2B4B7>+{0}%</color>"
+        1 string data = "幸運2倍金額確率 <color=#B2B4B7>+{0}%</color>"
        [102]
-        1 string data = "Lucky Double Scrap Chance <color=#B2B4B7>+{0}%</color>"
+        1 string data = "幸運2倍スクラップ確率 <color=#B2B4B7>+{0}%</color>"
        [103]
-        1 string data = "Equip Items Requiring <color=#B2B4B7>{0}</color> Strength Without Penalties"
+        1 string data = "<color=#B2B4B7>{0}</color>の筋力を必要とするアイテムをペナルティなしで装備"
        [104]
-        1 string data = "Gain <color=#B2B4B7>+{0}</color> Skill Point(s)"
+        1 string data = "<color=#B2B4B7>+{0}</color>スキルポイントを獲得"
        [105]
-        1 string data = "Disarm Alarms (Difficulty <color=#B2B4B7>{0}</color> or less)"
+        1 string data = "警報を解除 (難易度<color=#B2B4B7>{0}</color>以下)"
        [106]
-        1 string data = "Tame Animals (Difficulty <color=#B2B4B7>{0}</color> or less)"
+        1 string data = "動物を手なずける (難易度<color=#B2B4B7>{0}</color>以下)"
        [107]
-        1 string data = "Sell Value: <color=#B2B4B7>+{0}%</color>"
+        1 string data = "売却価格: <color=#B2B4B7>+{0}%</color>"
        [108]
-        1 string data = "Buy Cost: <color=#B2B4B7>-{0}%</color>"
+        1 string data = "購入費用: <color=#B2B4B7>-{0}%</color>"
        [109]
-        1 string data = "Hack Computers (Difficulty <color=#B2B4B7>{0}</color> or less)"
+        1 string data = "コンピューターをハック (難易度<color=#B2B4B7>{0}</color>以下)"
        [110]
-        1 string data = "Disarm Land Mines and Traps (difficulty <color=#B2B4B7>{0}</color> or less)"
+        1 string data = "地雷とトラップを解除 (難易度<color=#B2B4B7>{0}</color>以下)"
        [111]
-        1 string data = "Healing Item Effectiveness: <color=#B2B4B7>+{0}%</color>"
+        1 string data = "回復アイテム効果: <color=#B2B4B7>+{0}%</color>"
        [112]
-        1 string data = "Healing When Reviving Allies: <color=#B2B4B7>+{0}%</color>"
+        1 string data = "味方蘇生時の回復: <color=#B2B4B7>+{0}%</color>"
        [113]
-        1 string data = "Use Healing Items Requiring <color=#B2B4B7>{0}</color> First Aid"
+        1 string data = "<color=#B2B4B7>{0}</color>の応急手当を必要とする回復アイテムを使用"
        [114]
-        1 string data = "Nearby Allies Gain: <color=#B2B4B7>+{0}% Hit Chance</color>"
+        1 string data = "近くの味方が獲得: <color=#B2B4B7>+{0}% 命中率</color>"
        [115]
-        1 string data = "Ally Bonus on Boss Kill: <color=#B2B4B7>+{0}% Damage</color>"
+        1 string data = "ボス撃破時の味方ボーナス: <color=#B2B4B7>+{0}% ダメージ</color>"
        [116]
-        1 string data = "Ally Bonus on Multi-Kill: <color=#B2B4B7>+{0}% Crit Chance</color>"
+        1 string data = "連続キル時の味方ボーナス: <color=#B2B4B7>+{0}% クリティカル率</color>"
        [117]
-        1 string data = "Ally Bonus on Revive: <color=#B2B4B7>+{0}% CON Healed</color>"
+        1 string data = "蘇生時の味方ボーナス: <color=#B2B4B7>+{0}% CON回復</color>"
        [118]
-        1 string data = "Pick Locks (Difficulty <color=#B2B4B7>{0}</color> or less)"
+        1 string data = "錠を開ける (難易度<color=#B2B4B7>{0}</color>以下)"
        [119]
-        1 string data = "Crack Safes (Difficulty <color=#B2B4B7>{0}</color> or less)"
+        1 string data = "金庫を開ける (難易度<color=#B2B4B7>{0}</color>以下)"
        [120]
-        1 string data = "Fix Generators and Machines (Difficulty <color=#B2B4B7>{0}</color> or less)"
+        1 string data = "発電機と機械を修理 (難易度<color=#B2B4B7>{0}</color>以下)"
        [121]
-        1 string data = "Healing when repairing vehicles: <color=#B2B4B7>+{0}%</color>"
+        1 string data = "車両修理時の回復: <color=#B2B4B7>+{0}%</color>"
        [122]
-        1 string data = "Repair Toasters (Difficulty <color=#B2B4B7>{0}</color> or less)"
+        1 string data = "トースターを修理 (難易度<color=#B2B4B7>{0}</color>以下)"
        [123]
-        1 string data = "Install Weapon Mods (Difficulty <color=#B2B4B7>{0}</color> or less)"
+        1 string data = "武器改造を取り付ける (難易度<color=#B2B4B7>{0}</color>以下)"
        [124]
-        1 string data = "Use Items Requiring <color=#B2B4B7>{0}</color> Weird Science"
+        1 string data = "<color=#B2B4B7>{0}</color>の奇妙な科学を必要とするアイテムを使用"
        [125]
-        1 string data = "Succeed at Hard Ass Skill Checks (Difficulty <color=#B2B4B7>{0}</color> or less)"
+        1 string data = "ハードアススキルチェックに成功 (難易度<color=#B2B4B7>{0}</color>以下)"
        [126]
-        1 string data = "Succeed at Kiss Ass Skill Checks (Difficulty <color=#B2B4B7>{0}</color> or less)"
+        1 string data = "キスアススキルチェックに成功 (難易度<color=#B2B4B7>{0}</color>以下)"
        [127]
-        1 string data = "Install Armor Mods (Difficulty <color=#B2B4B7>{0}</color> or less)"
+        1 string data = "防具改造を取り付ける (難易度<color=#B2B4B7>{0}</color>以下)"
        [128]
-        1 string data = "Avoid World Map Encounters (Difficulty <color=#B2B4B7>{0}</color> or less)"
+        1 string data = "ワールドマップ遭遇を回避 (難易度<color=#B2B4B7>{0}</color>以下)"
        [129]
-        1 string data = "Repair Kit Effectiveness: <color=#B2B4B7>+{0}%</color>"
+        1 string data = "修理キット効果: <color=#B2B4B7>+{0}%</color>"
        [130]
-        1 string data = "Hack Robots (Difficulty <color=#B2B4B7>{0}</color> or less)"
+        1 string data = "ロボットをハック (難易度<color=#B2B4B7>{0}</color>以下)"
        [131]
-        1 string data = "Field Stripping Scrap: <color=#B2B4B7>+{0}%</color>"
+        1 string data = "フィールド分解スクラップ: <color=#B2B4B7>+{0}%</color>"
        [132]
-        1 string data = "Lucky Action Chance <color=#B2B4B7>+{0}%</color>"
+        1 string data = "幸運アクション確率 <color=#B2B4B7>+{0}%</color>"
        [133]
-        1 string data = "Animal Companion Damage: <color=#B2B4B7>+{0}%</color>"
+        1 string data = "動物コンパニオンダメージ: <color=#B2B4B7>+{0}%</color>"
        [134]
-        1 string data = "Energy Crit Chance vs. Conductive Enemies: <color=#B2B4B7>+{0}%</color>"
+        1 string data = "導電性の敵へのエネルギークリティカル率: <color=#B2B4B7>+{0}%</color>"
        [135]
-        1 string data = "Energy Crit Damage vs. Conductive Enemies: <color=#B2B4B7>+{0}%</color>"
+        1 string data = "導電性の敵へのエネルギークリティカルダメージ: <color=#B2B4B7>+{0}%</color>"
        [136]
-        1 string data = "Use Items Requiring <color=#B2B4B7>{0}</color> Mechanics"
+        1 string data = "<color=#B2B4B7>{0}</color>のメカニクスを必要とするアイテムを使用"
        [137]
-        1 string data = "Critical Heal Chance <color=#B2B4B7>+{0}%</color>"
+        1 string data = "クリティカル回復確率 <color=#B2B4B7>+{0}%</color>"
        [138]
-        1 string data = "Critical Heal Bonus <color=#B2B4B7>+{0}X</color>"
+        1 string data = "クリティカル回復ボーナス <color=#B2B4B7>+{0}X</color>"
        [139]
-        1 string data = "Damage represents how much CON will be depleted on successfully attacking a target. Can be reduced by Armor and other forms of damage resistance."
+        1 string data = "ダメージは、対象への攻撃成功時に消耗するCON量を表す。装甲やその他のダメージ耐性により軽減される。"
    [1669]
     0 StringTable data
      1 string Filename = "gui"
@@ -475695,43 +475695,43 @@
        [182]
         1 string data = "{0}'s Turn"
        [183]
-        1 string data = "Perks"
+        1 string data = "パーク"
        [184]
-        1 string data = "Delete"
+        1 string data = "削除"
        [185]
-        1 string data = "Are you sure you want to load this game? You will lose any unsaved changes."
+        1 string data = "このゲームをロードしてもよろしいですか？未保存の変更は失われます。"
        [186]
-        1 string data = "Sign-in change detected. Returning to main menu."
+        1 string data = "サインインの変更が検出されました。メインメニューに戻ります。"
        [187]
-        1 string data = "Please reconnect your controller."
+        1 string data = "コントローラーを再接続してください。"
        [188]
-        1 string data = "Guest profiles cannot save progress. You need to be signed in to a profile to continue."
+        1 string data = "ゲストプロフィールは進行状況を保存できません。続行するにはプロフィールにサインインする必要があります。"
        [189]
-        1 string data = "None"
+        1 string data = "なし"
        [190]
-        1 string data = "Requires {0} {1}"
+        1 string data = "{0} {1}が必要"
        [191]
-        1 string data = "{0} - Requires {0} {1}"
+        1 string data = "{0} - {0} {1}が必要"
        [192]
-        1 string data = "Weapon Modification"
+        1 string data = "武器改造"
        [193]
-        1 string data = "Confirm"
+        1 string data = "確認"
        [194]
-        1 string data = "Weaponsmith"
+        1 string data = "ウェポンスミス"
        [195]
-        1 string data = "Weapon Modding {0}"
+        1 string data = "武器改造 {0}"
        [196]
-        1 string data = "Available Modifications"
+        1 string data = "利用可能な改造"
        [197]
-        1 string data = "Install"
+        1 string data = "取り付け"
        [198]
-        1 string data = "Clip Size"
+        1 string data = "クリップサイズ"
        [199]
-        1 string data = "Range"
+        1 string data = "射程"
        [200]
-        1 string data = "Hit Chance"
+        1 string data = "命中率"
        [201]
-        1 string data = "Critical Damage"
+        1 string data = "クリティカルダメージ"
        [202]
         1 string data = "({0})"
        [203]
@@ -475739,117 +475739,117 @@
        [204]
         1 string data = "{0}x"
        [205]
-        1 string data = "Melee"
+        1 string data = "近接"
        [206]
-        1 string data = "Downloading"
+        1 string data = "ダウンロード中"
        [207]
-        1 string data = "To return to Main Menu"
+        1 string data = "メインメニューに戻る"
        [208]
-        1 string data = "<color=#818A8E>Target:</color> {0}"
+        1 string data = "<color=#818A8E>対象:</color> {0}"
        [209]
-        1 string data = "Allies and Enemies"
+        1 string data = "味方と敵"
        [210]
-        1 string data = "Allies"
+        1 string data = "味方"
        [211]
-        1 string data = "Enemies"
+        1 string data = "敵"
        [212]
-        1 string data = "No Abilities Available"
+        1 string data = "利用可能なアビリティなし"
        [213]
-        1 string data = "Ability source unknown."
+        1 string data = "アビリティの出所不明。"
        [214]
-        1 string data = "Granted by item {0}."
+        1 string data = "アイテム{0}により付与。"
        [215]
-        1 string data = "Granted by skill {0}."
+        1 string data = "スキル{0}により付与。"
        [216]
-        1 string data = "Granted by perk {0}."
+        1 string data = "パーク{0}により付与。"
        [217]
-        1 string data = "Buy"
+        1 string data = "購入"
        [218]
-        1 string data = "Sell"
+        1 string data = "売却"
        [219]
-        1 string data = "Trade Failed"
+        1 string data = "取引失敗"
        [220]
-        1 string data = "You cannot afford this item."
+        1 string data = "このアイテムを買う余裕がありません。"
        [221]
-        1 string data = "Set up an attack that will trigger on the enemy's next turn. Uses all remaining AP, gaining +5% Hit Chance per extra AP spent."
+        1 string data = "敵の次のターンに発動する攻撃を準備する。残りのAPを全て消費し、追加で消費したAP1につき命中率+5%を得る。"
        [222]
-        1 string data = "In Vehicle"
+        1 string data = "車両内"
        [223]
-        1 string data = "Enter Area"
+        1 string data = "エリアに入る"
        [224]
-        1 string data = "Choose Entrance"
+        1 string data = "入口を選択"
        [225]
-        1 string data = "Active Missions"
+        1 string data = "アクティブミッション"
        [226]
-        1 string data = "Location Discovered: {0}"
+        1 string data = "場所を発見: {0}"
        [227]
-        1 string data = "Usable in Combat"
+        1 string data = "戦闘で使用可能"
        [228]
-        1 string data = "Usable in Exploration"
+        1 string data = "探索で使用可能"
        [229]
-        1 string data = "Usable in Combat or Exploration"
+        1 string data = "戦闘または探索で使用可能"
        [230]
-        1 string data = "Ambushing"
+        1 string data = "待ち伏せ中"
        [231]
-        1 string data = "Executed Ambush"
+        1 string data = "待ち伏せ実行"
        [232]
-        1 string data = "{0} took {1} damage."
+        1 string data = "{0}は{1}ダメージを受けた。"
        [233]
-        1 string data = "{0} died."
+        1 string data = "{0}は死亡した。"
        [234]
-        1 string data = "{0} gained {1}."
+        1 string data = "{0}は{1}を獲得した。"
        [235]
-        1 string data = "{0} lost {1}."
+        1 string data = "{0}は{1}を失った。"
        [236]
-        1 string data = "{0} gained {1} XP."
+        1 string data = "{0}は{1} XPを獲得した。"
        [237]
         1 string data = "[{0}]: {1}"
        [238]
-        1 string data = "{0} has reached level {1}!"
+        1 string data = "{0}はレベル{1}に到達した！"
        [239]
         1 string data = "{0} XP"
        [240]
-        1 string data = "Level Up!"
+        1 string data = "レベルアップ！"
        [241]
-        1 string data = "Create Custom Character"
+        1 string data = "カスタムキャラクター作成"
        [242]
-        1 string data = "Select Ranger"
+        1 string data = "レンジャーを選択"
        [243]
-        1 string data = "{0} healed {1} CON."
+        1 string data = "{0}は{1} CONを回復した。"
        [244]
-        1 string data = "{0} used {1}."
+        1 string data = "{0}は{1}を使用した。"
        [245]
-        1 string data = "{0} is now affected by {1}."
+        1 string data = "{0}は{1}の影響を受けた。"
        [246]
-        1 string data = "{0} is no longer affected by {1}."
+        1 string data = "{0}は{1}の影響を受けなくなった。"
        [247]
-        1 string data = "Customize Ranger"
+        1 string data = "レンジャーのカスタマイズ"
        [248]
-        1 string data = "Portrait"
+        1 string data = "ポートレート"
        [249]
-        1 string data = "Customize Appearance"
+        1 string data = "外見のカスタマイズ"
        [250]
-        1 string data = "Biography"
+        1 string data = "経歴"
        [251]
-        1 string data = "Derived Stats"
+        1 string data = "派生ステータス"
        [252]
-        1 string data = "Gender"
+        1 string data = "性別"
        [253]
-        1 string data = "Age"
+        1 string data = "年齢"
        [254]
-        1 string data = "Attribute Points Remaining:"
+        1 string data = "残り属性ポイント:"
        [255]
-        1 string data = "Skill Points:"
+        1 string data = "スキルポイント:"
        [256]
-        1 string data = "Are you sure you wish to leave character creation? You will lose all changes."
+        1 string data = "キャラクター作成を終了してもよろしいですか？全ての変更が失われます。"
        [257]
-        1 string data = "Lock cameras to isometric views?"
+        1 string data = "カメラをアイソメトリック視点に固定しますか？"
        [258]
-        1 string data = "Reimport Custom Portraits"
+        1 string data = "カスタムポートレートの再インポート"
        [259]
-        1 string data = "Select Quirk"
+        1 string data = "クセを選択"
        [260]
-        1 string data = "Quirk"
+        1 string data = "クセ"
        [261]
         1 string data = "+"
        [262]
@@ -475857,133 +475857,133 @@
        [263]
         1 string data = "{2}: <color={3}>{0}{1}</color>"
        [264]
-        1 string data = "Grants the {0} ability"
+        1 string data = "{0}アビリティを付与"
        [265]
-        1 string data = "{0} turns remaining"
+        1 string data = "残り{0}ターン"
        [266]
-        1 string data = "One turn remaining"
+        1 string data = "残り1ターン"
        [267]
-        1 string data = "Read"
+        1 string data = "読む"
        [268]
-        1 string data = "Unjam"
+        1 string data = "ジャム解除"
        [269]
-        1 string data = "Clear the jammed round from your weapon, allowing you to attack."
+        1 string data = "武器のジャムした弾を取り除き、攻撃可能にする。"
        [270]
-        1 string data = "Show Log"
+        1 string data = "ログを表示"
        [271]
-        1 string data = "{0} - Requires level {1} {2}"
+        1 string data = "{0} - レベル{1} {2}が必要"
        [272]
-        1 string data = "Locked"
+        1 string data = "施錠"
        [273]
-        1 string data = "Broken"
+        1 string data = "破損"
        [274]
-        1 string data = "Unlocked"
+        1 string data = "解錠"
        [275]
-        1 string data = "Repaired"
+        1 string data = "修理済み"
        [276]
-        1 string data = "Requires Power"
+        1 string data = "電源が必要"
        [277]
-        1 string data = "Powered Up"
+        1 string data = "電源投入"
        [278]
-        1 string data = "Powered Down"
+        1 string data = "電源切断"
        [279]
-        1 string data = "Secure"
+        1 string data = "安全"
        [280]
-        1 string data = "Hacked"
+        1 string data = "ハック済み"
        [281]
-        1 string data = "Combat Grid"
+        1 string data = "戦闘グリッド"
        [282]
-        1 string data = "Accessed"
+        1 string data = "アクセス済み"
        [283]
-        1 string data = "Secured"
+        1 string data = "確保済み"
        [284]
-        1 string data = "Edit"
+        1 string data = "編集"
        [285]
-        1 string data = "Create Ranger"
+        1 string data = "レンジャー作成"
        [286]
-        1 string data = "Cannot Edit Other Player's Character"
+        1 string data = "他のプレイヤーのキャラクターは編集できません"
        [287]
-        1 string data = "Create New Character"
+        1 string data = "新しいキャラクターを作成"
        [288]
-        1 string data = "Engine's busted."
+        1 string data = "エンジンが壊れている。"
        [289]
-        1 string data = "The engine starts."
+        1 string data = "エンジンが始動した。"
        [290]
-        1 string data = "The mechanism is broken."
+        1 string data = "機構が壊れている。"
        [291]
         1 string data = ""
        [292]
-        1 string data = "Fixed!"
+        1 string data = "修理完了！"
        [293]
-        1 string data = "Customize Ranger Insignia"
+        1 string data = "レンジャー紋章のカスタマイズ"
        [294]
-        1 string data = "Select Insignia"
+        1 string data = "紋章を選択"
        [295]
-        1 string data = "Select Insignia Color"
+        1 string data = "紋章の色を選択"
        [296]
-        1 string data = "Select Banner Color"
+        1 string data = "旗の色を選択"
        [297]
-        1 string data = "Can't Reload - {0}"
+        1 string data = "リロード不可 - {0}"
        [298]
-        1 string data = "Not Enough AP"
+        1 string data = "AP不足"
        [299]
-        1 string data = "Out of Ammo"
+        1 string data = "弾薬切れ"
        [300]
-        1 string data = "You cannot leave the area during combat."
+        1 string data = "戦闘中はエリアから離脱できません。"
        [301]
-        1 string data = "You cannot leave the area while a player is in a conversation."
+        1 string data = "プレイヤーが会話中はエリアから離脱できません。"
        [302]
-        1 string data = "Assemble your team before rolling out."
+        1 string data = "出発前にチームを編成してください。"
        [303]
-        1 string data = "Ranger Stash"
+        1 string data = "レンジャーの貯蔵庫"
        [304]
-        1 string data = "Transfer Item"
+        1 string data = "アイテム転送"
        [305]
-        1 string data = "Appearance Unlocked: {0}"
+        1 string data = "外見解除: {0}"
        [306]
-        1 string data = "Skip Intro Movies"
+        1 string data = "イントロムービーをスキップ"
        [307]
-        1 string data = "Weapon Jammed"
+        1 string data = "武器ジャム"
        [308]
-        1 string data = "Can't Attack Target"
+        1 string data = "対象を攻撃できません"
        [309]
         1 string data = "{0} AP"
        [310]
-        1 string data = "Pick Lock"
+        1 string data = "錠を開ける"
        [311]
-        1 string data = "Repair"
+        1 string data = "修理"
        [312]
-        1 string data = "Repair Toaster"
+        1 string data = "トースター修理"
        [313]
-        1 string data = "Disarm Alarm"
+        1 string data = "警報解除"
        [314]
-        1 string data = "Hack Computer"
+        1 string data = "コンピューターハック"
        [315]
-        1 string data = "Disarm Explosive"
+        1 string data = "爆発物解除"
        [316]
-        1 string data = "Exit to {0}"
+        1 string data = "{0}に退出"
        [317]
-        1 string data = "Characters"
+        1 string data = "キャラクター"
        [318]
-        1 string data = "Points of Interest"
+        1 string data = "興味地点"
        [319]
-        1 string data = "Client Disconnected"
+        1 string data = "クライアント切断"
        [320]
-        1 string data = "You have been disconnected from the host."
+        1 string data = "ホストから切断されました。"
        [321]
-        1 string data = "The client has been disconnected."
+        1 string data = "クライアントが切断されました。"
        [322]
-        1 string data = "Attempt to Reconnect"
+        1 string data = "再接続を試行"
        [323]
-        1 string data = "{0} - Impossible"
+        1 string data = "{0} - 不可能"
        [324]
-        1 string data = "Requires {0}"
+        1 string data = "{0}が必要"
        [325]
-        1 string data = "No Games Found"
+        1 string data = "ゲームが見つかりません"
        [326]
-        1 string data = "Select Game"
+        1 string data = "ゲームを選択"
        [327]
-        1 string data = "New Game"
+        1 string data = "新規ゲーム"
        [328]
         1 string data = "[PH]The Frozen Lake"
        [329]
@@ -476021,27 +476021,27 @@
        [345]
         1 string data = "AoE Not Allowed"
        [346]
-        1 string data = "Attack Hits Friendlies"
+        1 string data = "攻撃が味方に命中"
        [347]
-        1 string data = "Overhead Health Bars"
+        1 string data = "頭上ヘルスバー"
        [348]
-        1 string data = "Highlight Fill"
+        1 string data = "ハイライト塗りつぶし"
        [349]
-        1 string data = "Talk"
+        1 string data = "話す"
        [350]
-        1 string data = "More Actions"
+        1 string data = "その他の行動"
        [351]
         1 string data = "[{0}: {1}]"
        [352]
-        1 string data = "No Targets In Range"
+        1 string data = "範囲内に対象なし"
        [353]
-        1 string data = "Requires Safecracker Tool"
+        1 string data = "金庫破りツールが必要"
        [354]
-        1 string data = "Unlock Safe"
+        1 string data = "金庫を開ける"
        [355]
-        1 string data = "Running"
+        1 string data = "走行中"
        [356]
-        1 string data = "Electrified"
+        1 string data = "帯電"
        [357]
         1 string data = "Chest Armor"
        [358]

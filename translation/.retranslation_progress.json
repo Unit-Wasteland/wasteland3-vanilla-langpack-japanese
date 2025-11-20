@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 464673,
+    "current_line": 476044,
     "total_lines": 530425,
-    "entries_completed": 153923,
+    "entries_completed": 154389,
     "total_entries": 169712,
-    "percent_complete": 90.7,
-    "untranslated_entries": 15789,
-    "last_section": "derivedstats",
+    "percent_complete": 90.9,
+    "untranslated_entries": 15323,
+    "last_section": "gui",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-20: Session 201 completed (353 entries). Fixed DEBUG messages, character names, enemy types (Monster Goat, Pikalope, Waste Worm), commune units (all turrets, robots, spiders), world map events, color names, game stats (CON, combat speed, etc). Quote format strictly matched. All validations: 0 errors."
+    "notes": "2025-11-20: Session 202 completed (466 entries). Game mechanics stats (derived stats, damage types, resistances, skill effects), GUI text (menus, character customization, combat interface, multiplayer messages, weapon modding, status effects). All HTML tags and variable placeholders preserved. All validations: 0 errors."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,27 +37,24 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 201,
+    "session_number": 202,
     "date": "2025-11-20",
-    "entries_processed": 353,
+    "entries_processed": 466,
     "sections_completed": [
-      "characters (100 entries)",
-      "enemies and weapons (100 entries)",
-      "commune units and events (75 entries)",
-      "colornames (51 entries)",
-      "derivedstats (27 entries)"
+      "derivedstats continuation (140 entries)",
+      "gui start (326 entries)"
     ],
-    "commit_hash": "17b79d1",
+    "commit_hash": "pending",
     "validation_passed": true,
-    "notes": "Session 201: 353 entries. Fixed DEBUG messages (3 reverted to English). Character names, enemy types (Monster Goat, Pikalope, Waste Worm variants), commune robots (all turrets, factory bots, spiders), world map events (Ambush, Enemies Spotted), color names (character customization), game mechanics stats (CON, combat speed, critical, armor descriptions). Fixed 4-quote format issue. All validations: 0 errors.",
-    "next_action": "Continue from line 464673 - derivedstats section continuation"
+    "notes": "Session 202: 466 entries. Game mechanics stats (learning speed, CON per level, leadership, damage bonuses, resistances, penetration, initiative, healing, radiation, damage vs enemy types, lucky perks, skill requirements). GUI text (load/save menus, weapon modding, character creation, combat messages, level up, status effects, multiplayer messages, lock picking, hacking, team management). All HTML color tags, variables, and placeholders preserved. All validations: 0 errors.",
+    "next_action": "Continue from line 476044 - gui section continuation"
   },
   "cumulative_stats": {
-    "total_sessions": 201,
-    "total_entries_translated": 153923,
-    "untranslated_remaining": 15789,
-    "average_entries_per_session": 766,
-    "estimated_sessions_remaining_base": 21,
+    "total_sessions": 202,
+    "total_entries_translated": 154389,
+    "untranslated_remaining": 15323,
+    "average_entries_per_session": 764,
+    "estimated_sessions_remaining_base": 20,
     "estimated_days_remaining_base": "4-5 days",
     "estimated_sessions_remaining_dlc1": 50,
     "estimated_days_remaining_dlc1": "1-2 days",
