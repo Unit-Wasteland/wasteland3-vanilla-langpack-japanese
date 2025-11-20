@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 530257,
+    "current_line": 530425,
     "total_lines": 530425,
-    "entries_completed": 163412,
+    "entries_completed": 163431,
     "total_entries": 169712,
     "percent_complete": 96.3,
-    "untranslated_entries": 6300,
-    "last_section": "mission_x2801_sisterskeeper (complete), mission_x3501_arapahocaravanorhoons (complete), mission_x3601_elfonashelf (complete), mission_x3701_robotwar (complete), mission_x3801_headhunter (complete), mission_x4101_daddyslittlesecret (complete)",
+    "untranslated_entries": 6281,
+    "last_section": "mission_x4501_hardknoxlife (complete), mission_x4501_knoxatthedoor (complete - file end reached)",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-21: Session 253 completed (147 entries). Side missions: Sister's Keeper (28), Heads or Tails (26), Elf on a Shelf (25), War of the Worlds (33), Head Hunter (15), Daddy's Little Secret (20). Quote format corrections applied. All validations: 0 errors."
+    "notes": "2025-11-21: Session 254 completed (19 entries). Final missions: Hard Knox Life Knox Bison Ranch (19), Knox at the Door (1). File end reached at line 530425. Remaining untranslated: 1798 entries (from previous sessions). All validations: 0 errors."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,27 +37,23 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 253,
+    "session_number": 254,
     "date": "2025-11-21",
-    "entries_processed": 147,
+    "entries_processed": 19,
     "sections_completed": [
-      "mission_x2801_sisterskeeper (lines 529349-529404): 28 entries (Kym Hie debt with Cogan)",
-      "mission_x3501_arapahocaravanorhoons (lines 529599-529650): 26 entries (Hoon family vs Arapaho convoy)",
-      "mission_x3601_elfonashelf (lines 529763-529812): 25 entries (Santa workshop slave labor)",
-      "mission_x3701_robotwar (lines 529957-530022): 33 entries (Tellurium Mine robots)",
-      "mission_x3801_headhunter (lines 530095-530124): 15 entries (Cannibal deserters)",
-      "mission_x4101_daddyslittlesecret (lines 530217-530256): 20 entries (Percival Wesson rescue)"
+      "mission_x4501_hardknoxlife (lines 530357-530400): 19 entries (Knox Bison Ranch under Scar Collectors siege)",
+      "mission_x4501_knoxatthedoor (lines 530421-530424): 1 entry (mission title)"
     ],
-    "commit_hash": "39b7a6c",
+    "commit_hash": "e5e4317",
     "validation_passed": true,
-    "notes": "Session 253: 147 entries. Side missions completed: Sister's Keeper with Kym Hie/Yoon Hie debt and Cogan confrontation (28), Heads or Tails Hoon family vs Arapaho convoy choice (26), Elf on a Shelf Santa workshop Brain Candy drug factory (25), War of the Worlds Tellurium Mine with Bulb/Trudy/Null Stack (33), Head Hunter Rollan Giff cannibal deserters (15), Daddy's Little Secret Percival Wesson hostage rescue (20). Quote format corrections: 4 lines fixed. Structure: 0 errors. Action markers: 0 Japanese.",
-    "next_action": "Continue from line 530257 - mission_x4501_hardknoxlife onwards"
+    "notes": "Session 254: 20 entries (19 translated, 1 empty skipped). Hard Knox Life mission: Knox Bison Ranch defense against Scar Collectors, rancher vs gang choice, vermin extermination, reward options. File end reached at line 530425. Remaining work: 1798 untranslated entries from previous sessions require review. Structure: 0 errors. Quality check shows 171 false positives (Global/Leave/Debug in technical markers).",
+    "next_action": "File complete. Review and retranslate 1798 untranslated entries from earlier sessions (scattered throughout file)."
   },
   "cumulative_stats": {
-    "total_sessions": 253,
-    "total_entries_translated": 163412,
-    "untranslated_remaining": 6300,
-    "average_entries_per_session": 646.2,
+    "total_sessions": 254,
+    "total_entries_translated": 163431,
+    "untranslated_remaining": 6281,
+    "average_entries_per_session": 643.4,
     "estimated_sessions_remaining_base": 10,
     "estimated_days_remaining_base": "1 day",
     "estimated_sessions_remaining_dlc1": 60,
