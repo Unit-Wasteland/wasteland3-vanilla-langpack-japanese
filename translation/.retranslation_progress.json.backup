@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 447888,
+    "current_line": 449197,
     "total_lines": 530425,
-    "entries_completed": 151309,
+    "entries_completed": 151503,
     "total_entries": 169712,
-    "percent_complete": 89.2,
-    "untranslated_entries": 18403,
-    "last_section": "y_randomencounter04_gippers",
+    "percent_complete": 89.3,
+    "untranslated_entries": 18209,
+    "last_section": "y_reusable_crates_tier6",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-20: Session 63 completed (1 entry). Gippers roadblock encounter (Rangers recognition, friendly passage). Skipped y_reusable_animalden and y_reusable_crates (Spanish empty - unused content). All validations: 0 errors."
+    "notes": "2025-11-20: Session 64 completed (194 entries). Reusable container encounters (tier2-6). All validations: 0 errors."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,22 +37,26 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 63,
+    "session_number": 64,
     "date": "2025-11-20",
-    "entries_processed": 1,
+    "entries_processed": 194,
     "sections_completed": [
-      "y_randomencounter04_gippers (1 entry - Rangers roadblock recognition)"
+      "y_reusable_crates_tier2 (34 entries - smuggled gear, container interactions)",
+      "y_reusable_crates_tier3 (40 entries - random containers with toaster shrine)",
+      "y_reusable_crates_tier4 (40 entries - tier 4 variant containers)",
+      "y_reusable_crates_tier5 (40 entries - tier 5 variant containers)",
+      "y_reusable_crates_tier6 (40 entries - tier 6 variant containers)"
     ],
-    "commit_hash": "cdf782a",
+    "commit_hash": "87ff494",
     "validation_passed": true,
-    "notes": "Session 63: 1 entry. Gippers roadblock encounter (Rangers friendly passage). Skipped y_reusable_animalden (94 entries) and y_reusable_crates (74 entries) - Spanish empty, unused content per CLAUDE.md rule 5. All validations: 0 errors.",
-    "next_action": "Continue sequential translation from line 447888"
+    "notes": "Session 64: 194 entries. Reusable container encounter variants (locked, booby-trapped, unlocked). Toaster shrine encounters. All validations: 0 errors. Quote format strictly maintained.",
+    "next_action": "Continue sequential translation from line 449197"
   },
   "cumulative_stats": {
-    "total_sessions": 63,
-    "total_entries_translated": 151309,
-    "untranslated_remaining": 18403,
-    "average_entries_per_session": 2401,
+    "total_sessions": 64,
+    "total_entries_translated": 151503,
+    "untranslated_remaining": 18209,
+    "average_entries_per_session": 2367,
     "estimated_sessions_remaining_base": 7,
     "estimated_days_remaining_base": "14-18 days",
     "estimated_sessions_remaining_dlc1": 203,
