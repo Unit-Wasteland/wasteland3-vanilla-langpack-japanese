@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 440979,
+    "current_line": 441985,
     "total_lines": 530425,
-    "entries_completed": 150803,
+    "entries_completed": 150908,
     "total_entries": 169712,
     "percent_complete": 88.9,
-    "untranslated_entries": 18909,
-    "last_section": "y_combat42_droolsspotted",
+    "untranslated_entries": 18804,
+    "last_section": "y_dogandmine",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-20: Session 55 completed (252 entries). Marshals encounters (car chase, murder investigation, protection racket), razorback and drool random encounters. All validations: 0 errors."
+    "notes": "2025-11-20: Session 56 completed (105 entries). Worm and growler random encounters (ambush vs stealth scenarios), dog and mine event. All validations: 0 errors."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,22 +37,20 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 55,
+    "session_number": 56,
     "date": "2025-11-20",
-    "entries_processed": 252,
+    "entries_processed": 105,
     "sections_completed": [
-      "y_combat25_marshalscarchase (34 entries - Marshals car chase encounter)",
-      "y_combat26_marshalsinvestigation (51 entries - Marshals murder investigation)",
-      "y_combat27_marshalsprotection (19 entries - Marshals protection racket)",
-      "y_combat35_razorbacksattack (37 entries - razorback ambush)",
-      "y_combat36_razorbacksspotted (37 entries - razorback stealth encounter)",
-      "y_combat41_droolsattack (37 entries - drool/ghoul ambush)",
-      "y_combat42_droolsspotted (37 entries - drool/ghoul stealth encounter)"
+      "y_combat44_wormsattack (24 entries - mutant worm ambush)",
+      "y_combat45_wormsignspotted (24 entries - worm stealth encounter)",
+      "y_combat47_growlersattack (24 entries - growler maul ambush)",
+      "y_combat48_growlersspotted (24 entries - growler maul stealth encounter)",
+      "y_dogandmine (9 entries - dog with landmine event)"
     ],
-    "commit_hash": "fc0627c",
+    "commit_hash": "pending",
     "validation_passed": true,
-    "notes": "Session 55: Completed 252 entries. Marshals encounters (car chase with brutality, murder investigation with serial killer hints, protection racket with moral choices). Razorback encounters (ambush with speed mechanics, stealth detection with terrain usage). Drool/ghoul encounters (horror ambush, stealth avoidance). All validations: 0 errors.",
-    "next_action": "Continue sequential translation from line 440979"
+    "notes": "Session 56: Completed 105 entries. Worm encounters (ground tremors, ambush vs terrain evasion). Growler encounters (maul mechanics, challenging vs retreat). Dog and mine event (split-second decisions). All validations: 0 errors.",
+    "next_action": "Continue sequential translation from line 441985"
   },
   "cumulative_stats": {
     "total_sessions": 55,
