@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 430915,
+    "current_line": 433915,
     "total_lines": 530425,
-    "entries_completed": 149832,
+    "entries_completed": 150077,
     "total_entries": 169712,
-    "percent_complete": 88.3,
-    "untranslated_entries": 19880,
-    "last_section": "y212_hostile_hills_payasos",
+    "percent_complete": 88.4,
+    "untranslated_entries": 19635,
+    "last_section": "yy_drools_spotted",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-20: Session 45 completed (33 entries). World events: Dorsey mountain encounters, Monster Army mannequin bomb trap, Payaso clown encounters. All validations: 0 errors."
+    "notes": "2025-11-20: Session 47 Part 2 completed (30 entries). Drools encounters: ambush in plains, spotted stealth scenarios. Fixed 5 bracket marker errors from previous session. All validations: 0 errors."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,24 +37,23 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 45,
+    "session_number": 47,
     "date": "2025-11-20",
-    "entries_processed": 33,
+    "entries_processed": 30,
     "sections_completed": [
-      "y210_hostile_hills_dorseys_mountains (14 entries - Dorsey encounters)",
-      "y211_hostile_hills_monsterarmy (8 entries - Monster Army bomb trap)",
-      "y212_hostile_hills_payasos (11 entries - Payaso clown encounters)"
+      "yy_drools_ambush_plains (14 entries - Drools plains ambush)",
+      "yy_drools_spotted (16 entries - Drools stealth encounters)"
     ],
-    "commit_hash": "737045a",
+    "commit_hash": "b6140d5",
     "validation_passed": true,
-    "notes": "Session 45: Completed 33 entries. Three hostile world event types: Dorsey ambushes with stealth/combat options, Monster Army mannequin bomb trap with bomb disposal choices, Payaso clown gang with joke distraction mechanic. Fixed critical quote format errors (Japanese brackets replaced with English quotes). All validations: 0 errors.",
-    "next_action": "Continue sequential translation from line 430915"
+    "notes": "Session 47 Part 2: Completed 30 entries. Fixed 5 bracket marker errors. Drools encounters with stealth and combat options. All validations: 0 errors.",
+    "next_action": "Continue sequential translation from line 433915"
   },
   "cumulative_stats": {
-    "total_sessions": 45,
-    "total_entries_translated": 149832,
-    "untranslated_remaining": 19880,
-    "average_entries_per_session": 3330,
+    "total_sessions": 47,
+    "total_entries_translated": 150077,
+    "untranslated_remaining": 19635,
+    "average_entries_per_session": 3193,
     "estimated_sessions_remaining_base": 6,
     "estimated_days_remaining_base": "17-21 days",
     "estimated_sessions_remaining_dlc1": 203,
