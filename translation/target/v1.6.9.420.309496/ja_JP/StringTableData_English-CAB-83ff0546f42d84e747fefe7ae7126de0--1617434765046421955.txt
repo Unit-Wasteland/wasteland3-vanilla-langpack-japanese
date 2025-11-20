@@ -480021,523 +480021,523 @@
        [2345]
         1 string data = "入力フィールド"
        [2346]
-        1 string data = "Changes the language of in-game text. Does not change voice-over language."
+        1 string data = "ゲーム内テキストの言語を変更します。ボイスオーバーの言語は変更されません。"
        [2347]
-        1 string data = "Changes the selected input device."
+        1 string data = "選択された入力デバイスを変更します。"
        [2348]
-        1 string data = "Determines whether the game will automatically save at certain points."
+        1 string data = "特定のポイントでゲームが自動的にセーブされるかどうかを決定します。"
        [2349]
-        1 string data = "Determines whether the game will attempt to automatically save on a timer."
+        1 string data = "ゲームがタイマーで自動的にセーブを試みるかどうかを決定します。"
        [2350]
-        1 string data = "Determines whether tutorial messages will appear during gameplay."
+        1 string data = "ゲームプレイ中にチュートリアルメッセージが表示されるかどうかを決定します。"
        [2351]
-        1 string data = "If enabled, selecting squad members during exploration gameplay will add them to the current selected group. If disabled, only the new squad members will be selected."
+        1 string data = "有効にすると、探索ゲームプレイ中に分隊メンバーを選択すると、現在選択されているグループに追加されます。無効にすると、新しい分隊メンバーのみが選択されます。"
        [2352]
-        1 string data = "If enabled, friendly and enemy NPCs will act at the same time during their combat turn. If disabled, they will each take their actions individually."
+        1 string data = "有効にすると、友好的および敵対的なNPCが戦闘ターン中に同時に行動します。無効にすると、それぞれが個別に行動します。"
        [2353]
-        1 string data = "If enabled, automatically reloads your squad members' weapons after combat is over, if they have ammo available."
+        1 string data = "有効にすると、戦闘終了後に弾薬が利用可能な場合、分隊メンバーの武器を自動的にリロードします。"
        [2354]
-        1 string data = "If enabled, during combat the game will automatically switch to the next available squad member once the current one has used all their AP."
+        1 string data = "有効にすると、戦闘中にゲームは現在の分隊メンバーが全てのAPを使い切ると自動的に次の利用可能な分隊メンバーに切り替えます。"
        [2355]
-        1 string data = "If enabled, during combat the game will automatically end your turn after all characters have spent all their AP."
+        1 string data = "有効にすると、戦闘中にゲームは全てのキャラクターが全てのAPを使い切った後、自動的にターンを終了します。"
        [2356]
-        1 string data = "Determines the overall level of combat difficulty. At higher levels, enemies can both deal and take more damage."
+        1 string data = "戦闘難易度の全体的なレベルを決定します。レベルが高いほど、敵は与えるダメージも受けるダメージも増加します。"
        [2357]
-        1 string data = "If enabled, ranged attacks made by your squad members will be able to hit other squad members who are in the way."
+        1 string data = "有効にすると、分隊メンバーによる遠距離攻撃が、射線上にいる他の分隊メンバーに命中する可能性があります。"
        [2358]
-        1 string data = "If enabled, skill checks you do not meet the requirements for will not show their required skill level."
+        1 string data = "有効にすると、要件を満たしていないスキルチェックに必要なスキルレベルが表示されません。"
        [2359]
-        1 string data = "Determines in what situations the gameplay camera will automatically follow your squad members as they move. If fully disabled, you must manually move the camera at all times. Does not affect the World Map."
+        1 string data = "分隊メンバーの移動時にゲームプレイカメラが自動的に追従する状況を決定します。完全に無効にすると、常に手動でカメラを移動する必要があります。ワールドマップには影響しません。"
        [2360]
-        1 string data = "If enabled, the camera will look ahead in the direction you're traveling while you move your squad members. If disabled, the camera will center directly on your controlled squad member. Does not affect combat or the World Map."
+        1 string data = "有効にすると、分隊メンバーを移動させる際、カメラは進行方向を先に見ます。無効にすると、カメラは制御している分隊メンバーの真上に中央配置されます。戦闘またはワールドマップには影響しません。"
        [2361]
-        1 string data = "If enabled, the camera will automatically begin following your squad members when you start moving them, even if you've manually moved it away from them. Does not affect combat or the World Map."
+        1 string data = "有効にすると、手動でカメラを離れた場所に移動させた場合でも、分隊メンバーを移動し始めるとカメラは自動的に追従を開始します。戦闘またはワールドマップには影響しません。"
        [2362]
-        1 string data = "If enabled, the camera will temporarily focus on certain important events and sequences during gameplay."
+        1 string data = "有効にすると、ゲームプレイ中の特定の重要なイベントやシーケンスにカメラが一時的にフォーカスします。"
        [2363]
-        1 string data = "Determines whether the mouse cursor will cause the camera to pan when moved to the edges of the screen. Does not affect the World Map."
+        1 string data = "マウスカーソルを画面の端に移動させた際にカメラがパンするかどうかを決定します。ワールドマップには影響しません。"
        [2364]
-        1 string data = "Determines how quickly the camera pans when Edge Scrolling is enabled."
+        1 string data = "エッジスクロールが有効な場合のカメラのパン速度を決定します。"
        [2365]
-        1 string data = "Determines how quickly the controller targeting and combat cursors move."
+        1 string data = "コントローラーのターゲティングカーソルと戦闘カーソルの移動速度を決定します。"
        [2366]
-        1 string data = "If enabled, the mouse cursor will not be able to move outside the game window. Only applies while running in Windowed mode."
+        1 string data = "有効にすると、マウスカーソルはゲームウィンドウの外に移動できません。ウィンドウモードで実行中のみ適用されます。"
        [2367]
-        1 string data = "Determines the size at which text is displayed."
+        1 string data = "テキストが表示されるサイズを決定します。"
        [2368]
-        1 string data = "If enabled, interactive objects will display a highlight effect when you are near them."
+        1 string data = "有効にすると、近くにいる際にインタラクティブなオブジェクトがハイライト効果で表示されます。"
        [2369]
-        1 string data = "If enabled, highlighted characters and objects will have an inner fill effect."
+        1 string data = "有効にすると、ハイライトされたキャラクターとオブジェクトに内部塗りつぶし効果が適用されます。"
        [2370]
-        1 string data = "If enabled, your multiplayer partner's squad members will show offscreen indicators."
+        1 string data = "有効にすると、マルチプレイヤーパートナーの分隊メンバーが画面外インジケーターを表示します。"
        [2371]
-        1 string data = "In single player, determines how long to wait when a conversation option is selected."
+        1 string data = "シングルプレイヤーで、会話オプションが選択された際の待機時間を決定します。"
        [2372]
-        1 string data = "In multiplayer, determines how long both players will wait when a conversation option is selected."
+        1 string data = "マルチプレイヤーで、会話オプションが選択された際に両プレイヤーが待機する時間を決定します。"
        [2373]
-        1 string data = "If enabled, subtitles will be displayed in cinematic sequences. Does not affect the interface or normal gameplay."
+        1 string data = "有効にすると、シネマティックシーケンスで字幕が表示されます。インターフェースや通常のゲームプレイには影響しません。"
        [2374]
-        1 string data = "If enabled, adds icons on the combat interface to differentiate squad members, friendly, and hostile characters."
+        1 string data = "有効にすると、戦闘インターフェースに分隊メンバー、友好的、敵対的なキャラクターを区別するアイコンが追加されます。"
        [2375]
-        1 string data = "If enabled, mission updates will show notification banners."
+        1 string data = "有効にすると、ミッションの更新が通知バナーで表示されます。"
        [2376]
-        1 string data = "In multiplayer, determines whether the text chat is enabled."
+        1 string data = "マルチプレイヤーで、テキストチャットが有効かどうかを決定します。"
        [2377]
-        1 string data = "If enabled, characters will always display overhead health bars during combat."
+        1 string data = "有効にすると、戦闘中にキャラクターが常に頭上にヘルスバーを表示します。"
        [2378]
-        1 string data = "If enabled, the game will display a grid overlay on the ground during combat."
+        1 string data = "有効にすると、ゲームは戦闘中に地面にグリッドオーバーレイを表示します。"
        [2379]
-        1 string data = "Determines what display mode the game uses."
+        1 string data = "ゲームが使用するディスプレイモードを決定します。"
        [2380]
-        1 string data = "Determines the screen resolution at which the game will run."
+        1 string data = "ゲームが実行される画面解像度を決定します。"
        [2381]
-        1 string data = "Determines the overall brightness level of the game."
+        1 string data = "ゲームの全体的な明るさレベルを決定します。"
        [2382]
-        1 string data = "Determines the contrast between light and dark areas of the game."
+        1 string data = "ゲームの明るい領域と暗い領域のコントラストを決定します。"
        [2383]
-        1 string data = "Determines the saturation level of colors in the game."
+        1 string data = "ゲームの色の彩度レベルを決定します。"
        [2384]
-        1 string data = "If enabled, the game will cap framerate to your display refresh rate and eliminate visual tearing. If disabled, the game will run as fast as possible, but may produce visual tearing."
+        1 string data = "有効にすると、ゲームはフレームレートをディスプレイのリフレッシュレートに制限し、視覚的なティアリングを排除します。無効にすると、ゲームは可能な限り高速で実行されますが、視覚的なティアリングが発生する可能性があります。"
        [2385]
-        1 string data = "Determines the overall visual quality level of the game. Auto-detected based on your system specifications."
+        1 string data = "ゲームの全体的な視覚品質レベルを決定します。システム仕様に基づいて自動検出されます。"
        [2386]
-        1 string data = "If enabled, makes flat surfaces look more defined at oblique angles."
+        1 string data = "有効にすると、斜めの角度で平坦な表面がより鮮明に見えるようになります。"
        [2387]
-        1 string data = "Determines the number of real-time lights that dynamic objects are able to receive."
+        1 string data = "動的オブジェクトが受け取ることができるリアルタイムライトの数を決定します。"
        [2388]
-        1 string data = "If enabled, the edges of particle effects will be smoothed out when they intersect with geometry."
+        1 string data = "有効にすると、パーティクル効果のエッジがジオメトリと交差する際に滑らかになります。"
        [2389]
-        1 string data = "If enabled, the edges of vegetation will be smoothed out."
+        1 string data = "有効にすると、植生のエッジが滑らかになります。"
        [2390]
-        1 string data = "If enabled, reflections will be displayed on certain surfaces."
+        1 string data = "有効にすると、特定の表面に反射が表示されます。"
        [2391]
-        1 string data = "If enabled, reflections will update dynamically during gameplay."
+        1 string data = "有効にすると、ゲームプレイ中に反射が動的に更新されます。"
        [2392]
-        1 string data = "Determines how much memory to allocate to textures. Manually setting this higher may improve image quality, but at a performance cost."
+        1 string data = "テクスチャに割り当てるメモリ量を決定します。これを手動で高く設定すると画質が向上する可能性がありますが、パフォーマンスコストがかかります。"
        [2393]
-        1 string data = "Determines the type of shadows to use. When soft shadows are enabled, they can be softer and more diffuse."
+        1 string data = "使用する影のタイプを決定します。ソフトシャドウが有効な場合、影はより柔らかく拡散します。"
        [2394]
-        1 string data = "Determines the resolution of real-time shadows used during the game. At higher levels, shadows will appear more defined."
+        1 string data = "ゲーム中に使用されるリアルタイムシャドウの解像度を決定します。レベルが高いほど、影がより鮮明に表示されます。"
        [2395]
-        1 string data = "Determines the distance at which real-time shadows will be displayed during gameplay."
+        1 string data = "ゲームプレイ中にリアルタイムシャドウが表示される距離を決定します。"
        [2396]
-        1 string data = "Determines the number of cascades used by real-time shadows. At higher levels, shadows closer to the camera will appear sharper and more defined."
+        1 string data = "リアルタイムシャドウで使用されるカスケードの数を決定します。レベルが高いほど、カメラに近い影がより鮮明で明確に表示されます。"
        [2397]
-        1 string data = "If enabled, the game will add a bloom effect to simulate extremely bright lights over-exposing the camera."
+        1 string data = "有効にすると、ゲームは非常に明るいライトがカメラを露出オーバーにするシミュレートをするためにブルーム効果を追加します。"
        [2398]
-        1 string data = "If enabled, the game will display a vignette that slightly darkens the edges of the screen."
+        1 string data = "有効にすると、ゲームは画面の端を少し暗くするビネット効果を表示します。"
        [2399]
-        1 string data = "If enabled, the game will display motion blur on moving objects and characters."
+        1 string data = "有効にすると、ゲームは移動するオブジェクトとキャラクターにモーションブラーを表示します。"
        [2400]
-        1 string data = "Determines the number of samples used for motion blur. At higher levels, motion blur will look smoother and more natural."
+        1 string data = "モーションブラーに使用されるサンプル数を決定します。レベルが高いほど、モーションブラーがより滑らかで自然に見えます。"
        [2401]
-        1 string data = "If enabled, allows the use of additional real-time reflections."
+        1 string data = "有効にすると、追加のリアルタイム反射の使用が可能になります。"
        [2402]
-        1 string data = "Determines the resolution of screen space reflections. At higher levels, reflections will appear sharper and more defined."
+        1 string data = "スクリーンスペースリフレクションの解像度を決定します。レベルが高いほど、反射がより鮮明で明確に表示されます。"
        [2403]
-        1 string data = "If enabled, adds simulated shadows to the corners and edges of objects to provide more image depth."
+        1 string data = "有効にすると、オブジェクトの角と端にシミュレートされた影を追加し、より画像の奥行きを提供します。"
        [2404]
-        1 string data = "If enabled, adds simulated camera lens blur."
+        1 string data = "有効にすると、シミュレートされたカメラレンズブラーを追加します。"
        [2405]
-        1 string data = "If enabled, adds simulated lens color distortion for certain visual effects."
+        1 string data = "有効にすると、特定の視覚効果にシミュレートされたレンズの色歪みを追加します。"
        [2406]
-        1 string data = "Determines the level of anti-aliasing used, which smooths over pixel edges. FXAA has a low performance impact. TAA has the highest visual quality, but highest performance impact."
+        1 string data = "ピクセルエッジを滑らかにするために使用されるアンチエイリアシングのレベルを決定します。FXAAはパフォーマンスへの影響が低いです。TAAは視覚品質が最も高いですが、パフォーマンスへの影響も最も高いです。"
        [2407]
-        1 string data = "Determines the overall volume level of the game."
+        1 string data = "ゲームの全体的な音量レベルを決定します。"
        [2408]
-        1 string data = "Determines the volume level of music."
+        1 string data = "音楽の音量レベルを決定します。"
        [2409]
-        1 string data = "Determines the volume level of sound effects."
+        1 string data = "サウンドエフェクトの音量レベルを決定します。"
        [2410]
-        1 string data = "Determines the volume level of game interface sounds."
+        1 string data = "ゲームインターフェースサウンドの音量レベルを決定します。"
        [2411]
-        1 string data = "Determines the volume level of voice-over."
+        1 string data = "ボイスオーバーの音量レベルを決定します。"
        [2412]
-        1 string data = "If enabled, the game will use text-to-speech to narrate menu options and navigation."
+        1 string data = "有効にすると、ゲームはテキスト読み上げを使用してメニューオプションとナビゲーションをナレーションします。"
        [2413]
-        1 string data = "If enabled, the game will narrate incoming text chat messages during multiplayer."
+        1 string data = "有効にすると、ゲームはマルチプレイヤー中の受信テキストチャットメッセージをナレーションします。"
        [2414]
-        1 string data = "If enabled, the game will display incoming voice chat messages in the text chat log during multiplayer."
+        1 string data = "有効にすると、ゲームはマルチプレイヤー中の受信ボイスチャットメッセージをテキストチャットログに表示します。"
        [2415]
-        1 string data = "If enabled, certain gameplay events will cause the controller to vibrate."
+        1 string data = "有効にすると、特定のゲームプレイイベントによってコントローラーが振動します。"
        [2416]
-        1 string data = "If enabled, certain gameplay events will cause the Wireless Controller to vibrate."
+        1 string data = "有効にすると、特定のゲームプレイイベントによってワイヤレスコントローラーが振動します。"
        [2417]
-        1 string data = "Jerk (Feminine)"
+        1 string data = "嫌な奴（女性）"
        [2418]
-        1 string data = "Recruit (Feminine)"
+        1 string data = "新兵（女性）"
        [2419]
-        1 string data = "Educated (Feminine)"
+        1 string data = "教養人（女性）"
        [2420]
-        1 string data = "Ice (Feminine)"
+        1 string data = "冷徹（女性）"
        [2421]
-        1 string data = "Joker (Feminine)"
+        1 string data = "ジョーカー（女性）"
        [2422]
-        1 string data = "Rebel (Feminine)"
+        1 string data = "反逆者（女性）"
        [2423]
-        1 string data = "Stoic (Feminine)"
+        1 string data = "ストイック（女性）"
        [2424]
-        1 string data = "Join Conversation"
+        1 string data = "会話に参加"
        [2425]
-        1 string data = "{0}{1}% Evasion"
+        1 string data = "{0}{1}% 回避"
        [2426]
-        1 string data = "Selling Junk"
+        1 string data = "ジャンクを売却中"
        [2427]
-        1 string data = "Join Combat"
+        1 string data = "戦闘に参加"
        [2428]
-        1 string data = "{0} attacks remaining"
+        1 string data = "{0}回の攻撃が残っています"
        [2429]
-        1 string data = "1 attack remaining"
+        1 string data = "1回の攻撃が残っています"
        [2430]
-        1 string data = "Points Available +{0}"
+        1 string data = "利用可能ポイント +{0}"
        [2431]
-        1 string data = "Minimap"
+        1 string data = "ミニマップ"
        [2432]
-        1 string data = "Auto-Detect"
+        1 string data = "自動検出"
        [2433]
-        1 string data = "Leave Game"
+        1 string data = "ゲームから退出"
        [2434]
-        1 string data = "WARNING: The host player needs to save the game or both players will lose any unsaved progress. Are you sure you want to leave without saving?"
+        1 string data = "警告: ホストプレイヤーがゲームをセーブする必要があります。そうしないと両プレイヤーが未保存の進行状況を失います。セーブせずに退出してもよろしいですか？"
        [2435]
-        1 string data = "WARNING: You need to save the game or both players will lose any unsaved progress. Are you sure you want to leave without saving?"
+        1 string data = "警告: あなたがゲームをセーブする必要があります。そうしないと両プレイヤーが未保存の進行状況を失います。セーブせずに退出してもよろしいですか？"
        [2436]
-        1 string data = "Game Ended"
+        1 string data = "ゲーム終了"
        [2437]
-        1 string data = "The other player has left the game. Any unsaved progress has been lost."
+        1 string data = "もう一方のプレイヤーがゲームから退出しました。未保存の進行状況は失われました。"
        [2438]
-        1 string data = "Use Item on Self"
+        1 string data = "自分にアイテムを使用"
        [2439]
-        1 string data = "Waiting for other player..."
+        1 string data = "もう一方のプレイヤーを待機中..."
        [2440]
-        1 string data = "Squad members can only be modified while at Ranger HQ."
+        1 string data = "分隊メンバーはレンジャー本部でのみ変更できます。"
        [2441]
-        1 string data = "Fueling Station"
+        1 string data = "給油ステーション"
        [2442]
-        1 string data = "Brightness Calibration"
+        1 string data = "明るさの調整"
        [2443]
-        1 string data = "Please calibrate your display"
+        1 string data = "ディスプレイを調整してください"
        [2444]
-        1 string data = "Adjust the brightness until you can barely see the Ranger Star on the left."
+        1 string data = "左側のレンジャースターがかろうじて見えるまで明るさを調整してください。"
        [2445]
-        1 string data = "Added to Archive"
+        1 string data = "アーカイブに追加されました"
        [2446]
-        1 string data = "Active Conversation Available"
+        1 string data = "アクティブな会話が利用可能"
        [2447]
         1 string data = "..."
        [2448]
-        1 string data = "Toggle Chat Window"
+        1 string data = "チャットウィンドウの切り替え"
        [2449]
-        1 string data = "Path Blocked"
+        1 string data = "道が塞がれています"
        [2450]
-        1 string data = "Determines how quickly the controller targeting and combat cursors move."
+        1 string data = "コントローラーのターゲティングカーソルと戦闘カーソルの移動速度を決定します。"
        [2451]
-        1 string data = "If enabled, certain gameplay events will cause the controller to vibrate."
+        1 string data = "有効にすると、特定のゲームプレイイベントによってコントローラーが振動します。"
        [2452]
-        1 string data = "If enabled, certain gameplay events will cause the Wireless Controller to vibrate."
+        1 string data = "有効にすると、特定のゲームプレイイベントによってワイヤレスコントローラーが振動します。"
        [2453]
-        1 string data = "Decal Coverage"
+        1 string data = "デカールの適用範囲"
        [2454]
         1 string data = "P1"
        [2455]
         1 string data = "P2"
        [2456]
-        1 string data = "Player 1"
+        1 string data = "プレイヤー1"
        [2457]
-        1 string data = "Player 2"
+        1 string data = "プレイヤー2"
        [2458]
-        1 string data = "The people of Colorado will never know what impact the Desert Rangers might have had on their land - whether you might have changed their lives for the better or the worse, or ended them entirely."
+        1 string data = "コロラドの人々は、デザートレンジャーが彼らの土地にどのような影響を与えたかを知ることはないだろう。彼らの人生をより良く変えたのか、悪化させたのか、あるいは完全に終わらせたのか。"
        [2459]
-        1 string data = "Confirm Characters"
+        1 string data = "キャラクターの確認"
        [2460]
-        1 string data = "Are you sure you want to continue with these characters?"
+        1 string data = "これらのキャラクターで続行してもよろしいですか？"
        [2461]
-        1 string data = "Controller"
+        1 string data = "コントローラー"
        [2462]
-        1 string data = "Multiplayer Autosave"
+        1 string data = "マルチプレイヤーオートセーブ"
        [2463]
-        1 string data = "Multiplayer Manual Save"
+        1 string data = "マルチプレイヤー手動セーブ"
        [2464]
-        1 string data = "You cannot move or remove Downed or Incapacitated characters."
+        1 string data = "ダウンまたは行動不能のキャラクターは移動または削除できません。"
        [2465]
         1 string data = "Lv {0} {1}"
        [2466]
-        1 string data = "Enter Text"
+        1 string data = "テキストを入力"
        [2467]
-        1 string data = "Scroll Chat"
+        1 string data = "チャットをスクロール"
        [2468]
-        1 string data = "Right Stick"
+        1 string data = "右スティック"
        [2469]
-        1 string data = "Right Stick"
+        1 string data = "右スティック"
        [2470]
-        1 string data = "Enter Message"
+        1 string data = "メッセージを入力"
        [2471]
-        1 string data = "Name"
+        1 string data = "名前"
        [2472]
-        1 string data = "A required, critical fix has been detected. You will not be able to play the game until this update has been installed."
+        1 string data = "必須の重要な修正が検出されました。この更新プログラムがインストールされるまでゲームをプレイできません。"
        [2473]
-        1 string data = "Game versions are mismatched. You cannot play Multiplayer until both players have installed the latest update."
+        1 string data = "ゲームのバージョンが一致していません。両プレイヤーが最新の更新プログラムをインストールするまでマルチプレイヤーをプレイできません。"
        [2474]
-        1 string data = "Highest Skill Level:"
+        1 string data = "最高スキルレベル:"
        [2475]
-        1 string data = "Other player is Ready"
+        1 string data = "もう一方のプレイヤーは準備完了"
        [2476]
-        1 string data = "Other player is Not Ready"
+        1 string data = "もう一方のプレイヤーは未準備"
        [2477]
-        1 string data = "Character Unavailable"
+        1 string data = "キャラクター使用不可"
        [2478]
-        1 string data = "This character has already been selected by the other player."
+        1 string data = "このキャラクターはすでにもう一方のプレイヤーによって選択されています。"
        [2479]
-        1 string data = "Tourist"
+        1 string data = "ツーリスト"
        [2480]
-        1 string data = "Come visit beautiful Colorado! For those who want to experience all its sights, sounds, and story, without having to worry about combat challenges getting in the way of the plot."
+        1 string data = "美しいコロラドを訪れよう！戦闘の挑戦がストーリーの邪魔になることを心配せずに、すべての景色、音、ストーリーを体験したい人のために。"
        [2481]
-        1 string data = "Metal Tin"
+        1 string data = "金属缶"
        [2482]
-        1 string data = "High Tech Crate"
+        1 string data = "ハイテククレート"
        [2483]
-        1 string data = "Hide Junk in Inventory"
+        1 string data = "インベントリでジャンクを非表示"
        [2484]
-        1 string data = "If enabled, Junk Items will be hidden from the All Items filter on the Inventory Screen."
+        1 string data = "有効にすると、インベントリ画面の全アイテムフィルターでジャンクアイテムが非表示になります。"
        [2485]
-        1 string data = "Hide Mission Items in Inventory"
+        1 string data = "インベントリでミッションアイテムを非表示"
        [2486]
-        1 string data = "If enabled, Mission Items will be hidden from the All Items filter on the Inventory Screen."
+        1 string data = "有効にすると、インベントリ画面の全アイテムフィルターでミッションアイテムが非表示になります。"
        [2487]
-        1 string data = "Camera Speed"
+        1 string data = "カメラ速度"
        [2488]
-        1 string data = "Determines the speed the camera moves during gameplay."
+        1 string data = "ゲームプレイ中にカメラが移動する速度を決定します。"
        [2489]
-        1 string data = "Trivial Combat Difficulty"
+        1 string data = "戦闘難易度：イージー"
        [2490]
-        1 string data = "Pressurized Nitrogen Tank"
+        1 string data = "加圧窒素タンク"
        [2491]
-        1 string data = "Overcharged Energy Battery"
+        1 string data = "過充電エネルギーバッテリー"
        [2492]
-        1 string data = "High-Explosive Barrel"
+        1 string data = "高性能爆薬バレル"
        [2493]
-        1 string data = "Flammable Gas Tank"
+        1 string data = "可燃性ガスタンク"
        [2494]
-        1 string data = "Ranger Limit Reached"
+        1 string data = "レンジャーの上限に達しました"
        [2495]
-        1 string data = "Amount Owned: {0}"
+        1 string data = "所持数: {0}"
        [2496]
-        1 string data = "Clear Binding"
+        1 string data = "バインドをクリア"
        [2497]
-        1 string data = "Missing Key Bindings"
+        1 string data = "キーバインドが不足しています"
        [2498]
-        1 string data = "One or more actions are not currently bound to a key. Are you sure you want to continue?"
+        1 string data = "1つ以上のアクションが現在キーにバインドされていません。続行してもよろしいですか？"
        [2499]
-        1 string data = "WARNING: ONE OR MORE ACTIONS ARE NOT CURRENTLY BOUND TO A KEY."
+        1 string data = "警告: 1つ以上のアクションが現在キーにバインドされていません。"
        [2500]
-        1 string data = "Energy Battery"
+        1 string data = "エネルギーバッテリー"
        [2501]
-        1 string data = "Cannot unequip in combat"
+        1 string data = "戦闘中は装備解除できません"
        [2502]
-        1 string data = "Cannot use in combat"
+        1 string data = "戦闘中は使用できません"
        [2503]
-        1 string data = "Requirement not met"
+        1 string data = "要件が満たされていません"
        [2504]
-        1 string data = "An error has occurred with PlayFab services. UI Narration and Voice Chat Text To Speech have been disabled."
+        1 string data = "PlayFabサービスでエラーが発生しました。UIナレーションとボイスチャットのテキスト読み上げが無効になりました。"
        [2505]
-        1 string data = "An error has occurred with PlayFab services. Voice Chat Speech To Text has been disabled."
+        1 string data = "PlayFabサービスでエラーが発生しました。ボイスチャットの音声テキスト変換が無効になりました。"
        [2506]
-        1 string data = "Voice Chat Volume"
+        1 string data = "ボイスチャット音量"
        [2507]
-        1 string data = "Determines the volume level of voice chat during multiplayer."
+        1 string data = "マルチプレイヤー中のボイスチャットの音量レベルを決定します。"
        [2508]
-        1 string data = "Voice Chat Style"
+        1 string data = "ボイスチャットスタイル"
        [2509]
-        1 string data = "Determines the method of activating voice chat during multiplayer."
+        1 string data = "マルチプレイヤー中のボイスチャットのアクティブ化方法を決定します。"
        [2510]
-        1 string data = "Voice Chat"
+        1 string data = "ボイスチャット"
        [2511]
-        1 string data = "Difficult Skill Checks"
+        1 string data = "難易度の高いスキルチェック"
        [2512]
-        1 string data = "If enabled, increases all Skill, Attribute and Perception checks by +2. This applies to in-world interactions, conversations, and equipment requirements.\\n\\nDifficult Skill Checks cannot be disabled once turned on."
+        1 string data = "有効にすると、全てのスキル、属性、知覚チェックが+2増加します。これはワールド内のインタラクション、会話、装備要件に適用されます。\\n\\n難易度の高いスキルチェックは一度有効にすると無効にできません。"
        [2513]
         1 string data = ""
        [2514]
-        1 string data = "Crate full of Christmas Ornaments"
+        1 string data = "クリスマスオーナメント入りクレート"
        [2515]
-        1 string data = "Sealed Crate"
+        1 string data = "密封されたクレート"
        [2516]
-        1 string data = "Crate full of Trees"
+        1 string data = "ツリー入りクレート"
        [2517]
-        1 string data = "Crate full of Stuffed Animals"
+        1 string data = "ぬいぐるみ入りクレート"
        [2518]
-        1 string data = "Lobby Name"
+        1 string data = "ロビー名"
        [2519]
-        1 string data = "Voice Activated"
+        1 string data = "音声起動"
        [2520]
-        1 string data = "Microphone"
+        1 string data = "マイク"
        [2521]
-        1 string data = "Audio Input Device"
+        1 string data = "オーディオ入力デバイス"
        [2522]
-        1 string data = "Audio Input Device Not Found"
+        1 string data = "オーディオ入力デバイスが見つかりません"
        [2523]
-        1 string data = "The input device used for voice chat in multiplayer. Wasteland 3 uses your system's default input device, which can be changed in your operating system sound settings."
+        1 string data = "マルチプレイヤーのボイスチャットに使用される入力デバイス。Wasteland 3はシステムのデフォルト入力デバイスを使用します。これはオペレーティングシステムのサウンド設定で変更できます。"
        [2524]
-        1 string data = "No input device detected. Multiplayer voice chat will be unavailable."
+        1 string data = "入力デバイスが検出されませんでした。マルチプレイヤーボイスチャットは利用できません。"
        [2525]
-        1 string data = "The input device used for voice chat in multiplayer."
+        1 string data = "マルチプレイヤーのボイスチャットに使用される入力デバイス。"
        [2526]
-        1 string data = "If enabled, the game will display a minimap showing your current surroundings in the corner of the screen."
+        1 string data = "有効にすると、ゲームは画面の隅に現在の周辺を示すミニマップを表示します。"
        [2527]
-        1 string data = "Determines how quickly the Wireless Controller targeting and combat cursors move."
+        1 string data = "ワイヤレスコントローラーのターゲティングカーソルと戦闘カーソルの移動速度を決定します。"
        [2528]
-        1 string data = "Determines the resolution of decal textures. At higher settings, these provide additional terrain and effects detail."
+        1 string data = "デカールテクスチャの解像度を決定します。設定が高いほど、追加の地形とエフェクトの詳細が提供されます。"
        [2529]
-        1 string data = "Retrain"
+        1 string data = "再訓練"
        [2530]
-        1 string data = "Retrain Character"
+        1 string data = "キャラクターの再訓練"
        [2531]
-        1 string data = "Retrain Cost: <color={1}>${0}{2}</color>\\n\\nRetraining this character will reset all of their Attributes, Skills, and Perks. Do you want to continue?"
+        1 string data = "再訓練コスト: <color={1}>${0}{2}</color>\\n\\nこのキャラクターを再訓練すると、全ての属性、スキル、パークがリセットされます。続行しますか？"
        [2532]
-        1 string data = "Hire Recruit"
+        1 string data = "新兵を雇用"
        [2533]
-        1 string data = "Hire Cost: <color={1}>${0}{2}</color>\\n\\nAre you sure you want to hire this new recruit?"
+        1 string data = "雇用コスト: <color={1}>${0}{2}</color>\\n\\nこの新兵を雇用してもよろしいですか？"
        [2534]
         1 string data = ""
        [2535]
-        1 string data = "Pump"
+        1 string data = "ポンプ"
        [2536]
-        1 string data = "Crafting Recipes Unlocked: "
+        1 string data = "クラフトレシピがアンロックされました: "
        [2537]
-        1 string data = "Minimum Level: {0}+"
+        1 string data = "最小レベル: {0}+"
        [2538]
-        1 string data = "Animal Companion Kennel"
+        1 string data = "アニマルコンパニオンの犬小屋"
        [2539]
-        1 string data = "Following Squadmates"
+        1 string data = "分隊メンバーに追従中"
        [2540]
-        1 string data = "Store"
+        1 string data = "保管"
        [2541]
-        1 string data = "Stored Animals"
+        1 string data = "保管中のアニマル"
        [2542]
-        1 string data = "Release"
+        1 string data = "放す"
        [2543]
-        1 string data = "Release Animal"
+        1 string data = "アニマルを放す"
        [2544]
-        1 string data = "Are you sure you wish to release this Animal Companion? This action cannot be undone."
+        1 string data = "このアニマルコンパニオンを放してもよろしいですか？この操作は元に戻せません。"
        [2545]
-        1 string data = "Take"
+        1 string data = "連れていく"
        [2546]
-        1 string data = "Camera Acceleration Speed"
+        1 string data = "カメラ加速速度"
        [2547]
-        1 string data = "Determines the speed at which the camera will accelerate to its top speed while panning it."
+        1 string data = "カメラをパンする際に最高速度に達するまでの加速速度を決定します。"
        [2548]
-        1 string data = "Squad members who you fail to revive in time during combat will permanently die instead of becoming incapacitated. Permanent Death can only be enabled in single player, and cannot be disabled once turned on."
+        1 string data = "戦闘中に時間内に蘇生できなかった分隊メンバーは、行動不能になる代わりに永久に死亡します。パーマネントデスはシングルプレイヤーでのみ有効にでき、一度有効にすると無効にできません。"
        [2549]
-        1 string data = "If enabled, increases all Skill, Attribute, and Perception checks by +2. This applies to in-world interactions, conversations, and equipment requirements. Difficult Skill Checks cannot be disabled once turned on."
+        1 string data = "有効にすると、全てのスキル、属性、知覚チェックが+2増加します。これはワールド内のインタラクション、会話、装備要件に適用されます。難易度の高いスキルチェックは一度有効にすると無効にできません。"
        [2550]
-        1 string data = "Crafting Recipe"
+        1 string data = "クラフトレシピ"
        [2551]
-        1 string data = "Craft"
+        1 string data = "クラフト"
        [2552]
-        1 string data = "Crafting Component"
+        1 string data = "クラフトコンポーネント"
        [2553]
-        1 string data = "Item"
+        1 string data = "アイテム"
        [2554]
-        1 string data = "Select Location"
+        1 string data = "場所を選択"
        [2555]
-        1 string data = "Missing DLC"
+        1 string data = "DLCが不足しています"
        [2556]
-        1 string data = "Both players must own the associated DLC to load this save file."
+        1 string data = "両プレイヤーが関連するDLCを所有している必要があります。このセーブファイルをロードするには。"
        [2557]
-        1 string data = "Autosave before entering Steeltown"
+        1 string data = "スティールタウン進入前のオートセーブ"
        [2558]
-        1 string data = "Autosave before entering Cheyenne Mountain"
+        1 string data = "シャイアンマウンテン進入前のオートセーブ"
        [2559]
-        1 string data = "You do not own the DLC required to load this save file."
+        1 string data = "このセーブファイルをロードするために必要なDLCを所有していません。"
        [2560]
-        1 string data = "Deployables"
+        1 string data = "設置物"
        [2561]
-        1 string data = "Grenades"
+        1 string data = "手榴弾"
        [2562]
-        1 string data = "Special"
+        1 string data = "特殊"
        [2563]
-        1 string data = "(max {0}x)"
+        1 string data = "(最大 {0}x)"
        [2564]
-        1 string data = "-{0}x per turn"
+        1 string data = "-{0}x ターンごと"
        [2565]
-        1 string data = "{0} Recipe"
+        1 string data = "{0} レシピ"
        [2566]
-        1 string data = "New Content Available"
+        1 string data = "新しいコンテンツが利用可能"
        [2567]
-        1 string data = "Crafting Recipes Unlocked"
+        1 string data = "クラフトレシピがアンロックされました"
        [2568]
-        1 string data = "Mystery Item"
+        1 string data = "謎のアイテム"
        [2569]
-        1 string data = "Craft this item to reveal its details."
+        1 string data = "このアイテムをクラフトして詳細を明らかにします。"
        [2570]
-        1 string data = "Active DLC:"
+        1 string data = "アクティブなDLC:"
        [2571]
-        1 string data = "Colorado Survival Gear"
+        1 string data = "コロラドサバイバルギア"
        [2572]
-        1 string data = "The Battle of Steeltown"
+        1 string data = "スティールタウンの戦い"
        [2573]
-        1 string data = "Cult of the Holy Detonation"
+        1 string data = "ホーリーデトネーション教団"
        [2574]
-        1 string data = "Stay"
+        1 string data = "留まる"
        [2575]
-        1 string data = "The merchant signals they’re ready to hit the road, and you likely won’t see them again. Are you sure you want to part ways yet?"
+        1 string data = "商人が出発の準備ができたことを知らせており、おそらく二度と会えないでしょう。別れを告げてもよろしいですか？"
        [2576]
-        1 string data = "Cassette Tape"
+        1 string data = "カセットテープ"
        [2577]
-        1 string data = "({0}h {1}m ago)"
+        1 string data = "({0}時間{1}分前)"
        [2578]
-        1 string data = "Crit Resisted!"
+        1 string data = "クリティカル耐性！"
        [2579]
-        1 string data = "{0} per turn"
+        1 string data = "{0} ターンごと"
        [2580]
         1 string data = ""
        [2581]
         1 string data = ""
        [2582]
-        1 string data = "Save & Exit"
+        1 string data = "セーブして終了"
        [2583]
-        1 string data = "Exit"
+        1 string data = "終了"
        [2584]
-        1 string data = "Are you sure you wish to exit? All players will be disconnected from the game. Progress will be automatically saved."
+        1 string data = "終了してもよろしいですか？全てのプレイヤーがゲームから切断されます。進行状況は自動的に保存されます。"
        [2585]
-        1 string data = "The game is currently in a non-savable state. If you exit the game now, all unsaved progress will be lost."
+        1 string data = "ゲームは現在セーブできない状態です。今ゲームを終了すると、未保存の進行状況は全て失われます。"
        [2586]
-        1 string data = "Please wait while progress is being saved. If you choose to cancel, you may lose all unsaved progress."
+        1 string data = "進行状況が保存されるまでお待ちください。キャンセルを選択すると、未保存の進行状況が全て失われる可能性があります。"
        [2587]
-        1 string data = "The other player is leaving the game. Please wait while progress is being saved. If you choose to cancel, you may lose all unsaved progress."
+        1 string data = "もう一方のプレイヤーがゲームから退出しています。進行状況が保存されるまでお待ちください。キャンセルを選択すると、未保存の進行状況が全て失われる可能性があります。"
        [2588]
-        1 string data = "Progress has been successfully saved."
+        1 string data = "進行状況が正常に保存されました。"
        [2589]
-        1 string data = "The other player has left game. Progress has been successfully saved."
+        1 string data = "もう一方のプレイヤーがゲームから退出しました。進行状況が正常に保存されました。"
        [2590]
-        1 string data = "Progress was not saved."
+        1 string data = "進行状況は保存されませんでした。"
        [2591]
-        1 string data = "The other player has left the game while it was in a non-savable state. Progress could not be saved."
+        1 string data = "もう一方のプレイヤーがセーブできない状態でゲームから退出しました。進行状況を保存できませんでした。"
        [2592]
-        1 string data = "Disable Security"
+        1 string data = "セキュリティを無効化"
        [2593]
-        1 string data = "Item Lost"
+        1 string data = "アイテムを失いました"
        [2594]
-        1 string data = "You're about to return to the World Map. All Downloadable Content takes place before the events of the End Game. Do you wish to make changes to your squad before leaving for the World Map?"
+        1 string data = "ワールドマップに戻ろうとしています。全てのダウンロードコンテンツはエンドゲームのイベント前に行われます。ワールドマップに出発する前に分隊を変更しますか？"
        [2595]
-        1 string data = "Lobby Error"
+        1 string data = "ロビーエラー"
        [2596]
-        1 string data = "Well, shit. Something broke and you need to close and re-open the game before you attempt to host another Multiplayer Lobby."
+        1 string data = "ああ、クソ。何かが壊れたので、別のマルチプレイヤーロビーをホストする前にゲームを閉じて再度開く必要があります。"
        [2597]
-        1 string data = "Save Canceled"
+        1 string data = "セーブがキャンセルされました"
        [2598]
-        1 string data = "The other player chose to cancel the saving process. Progress could not be saved."
+        1 string data = "もう一方のプレイヤーがセーブプロセスのキャンセルを選択しました。進行状況を保存できませんでした。"
        [2599]
-        1 string data = "Connection Lost"
+        1 string data = "接続が失われました"
        [2600]
-        1 string data = "The connection to the other player has been interrupted unexpectedly. Progress could not be saved."
+        1 string data = "もう一方のプレイヤーへの接続が予期せず中断されました。進行状況を保存できませんでした。"
        [2601]
-        1 string data = "Return to main menu."
+        1 string data = "メインメニューに戻る。"
        [2602]
-        1 string data = "The last living character can't be removed from the squad."
+        1 string data = "最後の生存キャラクターは分隊から削除できません。"
        [2603]
-        1 string data = "Empty Space"
+        1 string data = "空のスペース"
        [2604]
-        1 string data = "Return to World Map"
+        1 string data = "ワールドマップに戻る"
    [1670]
     0 StringTable data
      1 string Filename = "inputactions"
