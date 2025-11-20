@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 502832,
+    "current_line": 503482,
     "total_lines": 530425,
-    "entries_completed": 159132,
+    "entries_completed": 159457,
     "total_entries": 169712,
-    "percent_complete": 93.8,
-    "untranslated_entries": 10580,
-    "last_section": "armor_weapon_items",
+    "percent_complete": 94.0,
+    "untranslated_entries": 10255,
+    "last_section": "items_equipment_helmets",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-20: Session 219 completed (156 entries). Advanced armor sets: ChemTek, Exoskeleton, Nucular, Gipper, Verchitin, Payaso, Scar Collector. Scout/Merc/Tactical/Trooper/Commando/Spectrum Assault armor. Bardic equipment, masks, character-specific items. Weapons: Shotgun Gauntlet, Polar Vortex, Guardian, Nerve Driver, Pulsar, Nitro Thrower, Meson Cannon. Armor mods: Aramid Pads, Trauma Plates, Pocket Doc, HemoGoblin, Hydraskin, Exoknee. Deployable devices: Shard Sprayer, Decoy, Energy Barrier, Thumper. Vehicle ammunition types. Quote format corrections: 4 entries fixed. All validations: 0 errors."
+    "notes": "2025-11-20: Session 220 completed (325 entries). Crafting materials, robot components, collectibles, Scar Collector equipment, creature materials, tools, cassette tapes, weapons, ammunition, turrets, costumes, character heads, hairstyles, masks, character trinkets, helmets, quest items, gold items. Quote format corrections: 2 entries. All validations: 0 errors."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,23 +37,23 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 219,
+    "session_number": 220,
     "date": "2025-11-20",
-    "entries_processed": 156,
+    "entries_processed": 325,
     "sections_completed": [
-      "armor_weapon_items (156 entries)"
+      "items_equipment_helmets (325 entries)"
     ],
-    "commit_hash": "bd58798",
+    "commit_hash": "0954932",
     "validation_passed": true,
-    "notes": "Session 219: 156 entries total. Advanced armor sets, weapons, armor modifications, deployable devices, vehicle ammunition. Quote format corrections applied to 4 entries. All validations: 0 errors.",
-    "next_action": "Continue from line 502832 - remaining armor/weapon descriptions and consumables"
+    "notes": "Session 220: 325 entries total. Items, equipment, helmets, costumes, character customization, quest items. Quote format corrections: 2 entries. All validations: 0 errors.",
+    "next_action": "Continue from line 503482 - remaining items and equipment"
   },
   "cumulative_stats": {
-    "total_sessions": 219,
-    "total_entries_translated": 159132,
-    "untranslated_remaining": 10580,
-    "average_entries_per_session": 726.6,
-    "estimated_sessions_remaining_base": 15.0,
+    "total_sessions": 220,
+    "total_entries_translated": 159457,
+    "untranslated_remaining": 10255,
+    "average_entries_per_session": 724.8,
+    "estimated_sessions_remaining_base": 14.0,
     "estimated_days_remaining_base": "3 days",
     "estimated_sessions_remaining_dlc1": 53,
     "estimated_days_remaining_dlc1": "1-2 days",
