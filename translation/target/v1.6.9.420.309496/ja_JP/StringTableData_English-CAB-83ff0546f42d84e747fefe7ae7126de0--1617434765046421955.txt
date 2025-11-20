@@ -522865,13 +522865,13 @@
       1 Array Array (26 items)
        0 int size = 26
        [0]
-        1 string data = "Call to Action"
+        1 string data = "行動への呼びかけ"
        [1]
-        1 string data = "Locate the entrance to Union Station."
+        1 string data = "Union Stationへの入口を見つける。"
        [2]
         1 string data = ""
        [3]
-        1 string data = "Locate the console which unlocks Morningstar's prison under Union Station."
+        1 string data = "Union Stationの地下にあるMorningstarの牢獄を解錠するコンソールを見つける。"
        [4]
         1 string data = ""
        [5]
@@ -522879,43 +522879,43 @@
        [6]
         1 string data = " ""  "
        [7]
-        1 string data = "Use the console to unlock the prison under Union Station."
+        1 string data = "コンソールを使ってUnion Stationの地下の牢獄を解錠する。"
        [8]
-        1 string data = "Find Morningstar beneath Union Station."
+        1 string data = "Union Stationの地下でMorningstarを見つける。"
        [9]
-        1 string data = "Speak with Morningstar beneath Union Station."
+        1 string data = "Union Stationの地下でMorningstarと話す。"
        [10]
-        1 string data = "Decide Morningstar's fate."
+        1 string data = "Morningstarの運命を決める。"
        [11]
-        1 string data = "We received a call for help from someone calling themselves Morningstar."
+        1 string data = "Morningstarと名乗る人物から助けを求める連絡を受けた。"
        [12]
-        1 string data = "Someone with the codename "Morningstar" has reached out to us for help. They claim to be trapped under the ruins of Union Station in Denver."
+        1 string data = "コードネーム"Morningstar"と名乗る人物が助けを求めてきた。彼らはDenverのUnion Stationの廃墟の下に閉じ込められていると主張している。"
        [13]
-        1 string data = "We convinced Morningstar to join the Rangers."
+        1 string data = "Morningstarを説得してRangersに参加させた。"
        [14]
-        1 string data = "Morningstar has directed us to find a terminal somewhere inside Union Station to unlock his prison."
+        1 string data = "Morningstarは彼の牢獄を解錠するため、Union Stationのどこかにある端末を見つけるよう指示してきた。"
        [15]
-        1 string data = "We granted Morningstar's wish. He is dead."
+        1 string data = "Morningstarの望みを叶えた。彼は死んだ。"
        [16]
-        1 string data = "Sounds like this 'Morningstar' is trying to lead us into a trap. We're not touching this."
+        1 string data = "このMorningstarという人物は我々を罠に誘い込もうとしているようだ。これには手を出さない。"
        [17]
         1 string data = " ""  \r\n"
        [18]
-        1 string data = "We've found the terminal Morningstar directed us to. Now to use it to unlock the prison."
+        1 string data = "Morningstarが指示した端末を見つけた。これを使って牢獄を解錠しよう。"
        [19]
-        1 string data = "Morningstar claims to be trapped under Union Station. We should now be able to get inside the prison and find him."
+        1 string data = "MorningstarはUnion Stationの地下に閉じ込められていると主張している。これで牢獄の中に入って彼を見つけられるはずだ。"
        [20]
-        1 string data = "The prison is open, now we just need to find Morningstar."
+        1 string data = "牢獄は開いた。あとはMorningstarを見つけるだけだ。"
        [21]
-        1 string data = "Morningstar has been revealed to be an advanced AI operating inside an experimental pre-war car. It wants to die but can't do it without our help. We have a decision to make."
+        1 string data = "Morningstarは戦前の実験的な車両の中で稼働している高度なAIであることが明らかになった。彼は死にたいと思っているが、我々の助けなしにはそれができない。決断を下す必要がある。"
        [22]
-        1 string data = "We found corrupted data regarding the facility and Morningstar. It's still unclear who he is, how he got there, or why he needs us to free him."
+        1 string data = "施設とMorningstarに関する破損したデータを見つけた。彼が何者なのか、どうやってそこにたどり着いたのか、なぜ我々に彼を解放する必要があるのかは依然として不明だ。"
        [23]
-        1 string data = "We've located a locked computer next to a giant, sealed door underneath Union Station, but we still have to find the terminal which unlocks it."
+        1 string data = "Union Stationの地下で巨大な封印された扉の横にロックされたコンピューターを見つけたが、それを解錠する端末をまだ見つけなければならない。"
        [24]
-        1 string data = "The prison entrance is somewhere inside the old Union Station bar, but we need to find the terminal which unlocks it."
+        1 string data = "牢獄の入口は古いUnion Stationのバーの中のどこかにあるが、それを解錠する端末を見つける必要がある。"
        [25]
-        1 string data = "The voice on the radio invoked God, and someone named "the Elder Statesman.""
+        1 string data = "無線の声は神と、"the Elder Statesman"と呼ばれる人物の名を唱えた。"
    [1717]
     0 StringTable data
      1 string Filename = "mission_b1001_counterintelligence"
@@ -523117,51 +523117,51 @@
       1 Array Array (47 items)
        0 int size = 47
        [0]
-        1 string data = "Counterintelligence"
+        1 string data = "防諜活動"
        [1]
-        1 string data = "Find the healer/repairman at the Machine Commune in the Denver airport."
+        1 string data = "Denver空港のMachine Communeで治療師/修理工を見つける。"
        [2]
-        1 string data = "Find the healer/repairman at the Machine Commune in the Denver airport."
+        1 string data = "Denver空港のMachine Communeで治療師/修理工を見つける。"
        [3]
-        1 string data = "Ask Vivisecto, RN, about its healing and repair methods at the Machine Commune."
+        1 string data = "Machine CommuneでVivisecto, RNに治療と修理の方法について尋ねる。"
        [4]
-        1 string data = "Track down Vivisecto's assistant in the ruined hangar behind the Machine Commune."
+        1 string data = "Machine Communeの裏の廃墟となったハンガーでVivisectoの助手を追跡する。"
        [5]
-        1 string data = "Gippers turned hostile"
+        1 string data = "Gippersが敵対的になった"
        [6]
-        1 string data = "Commune turned hostile"
+        1 string data = "Communeが敵対的になった"
        [7]
-        1 string data = "Protect V.I.C.I. Mk IX from the hostile animals threatening her in the Machine Commune."
+        1 string data = "Machine CommuneでV.I.C.I. Mk IXを脅かす敵対的な動物から彼女を守る。"
        [8]
-        1 string data = "Collect V.I.C.I.'s data from her remains in the ruins behind the Machine Commune."
+        1 string data = "Machine Communeの裏の廃墟にある彼女の残骸からV.I.C.I.のデータを回収する。"
        [9]
-        1 string data = "Return to Vivsecto inside the Machine Commune."
+        1 string data = "Machine Commune内のVivisectoに戻る。"
        [10]
-        1 string data = "Take the diagnostic data to Sister Nancy Forge in the Western Whitehouse in the Denver Ruins."
+        1 string data = "Denver RuinsのWestern WhitehouseにいるSister Nancy Forgeに診断データを届ける。"
        [11]
-        1 string data = "Take the diagnostic data to the Wyman in the Western Whitehouse in the Denver Ruins."
+        1 string data = "Denver RuinsのWestern WhitehouseにいるWymanに診断データを届ける。"
        [12]
-        1 string data = "Take the diagnostic data to the Wyman or Sister Nancy Forge at the Western Whitehouse in the Denver Ruins."
+        1 string data = "Denver RuinsのWestern WhitehouseにいるWymanまたはSister Nancy Forgeに診断データを届ける。"
        [13]
-        1 string data = "Gave diagnostic data to Sister Nancy Forge."
+        1 string data = "Sister Nancy Forgeに診断データを渡した。"
        [14]
-        1 string data = "Gave diagnostic data to the Wyman."
+        1 string data = "Wymanに診断データを渡した。"
        [15]
-        1 string data = "Gave diagnostic data to both Sister Nancy Forge and the Wyman."
+        1 string data = "Sister Nancy ForgeとWymanの両方に診断データを渡した。"
        [16]
-        1 string data = "Go to the Machine Commune and ask Vivisecto for diagnostic data."
+        1 string data = "Machine Communeに行き、Vivisectoに診断データを求める。"
        [17]
-        1 string data = "Go to the Machine Commune and ask Vivisecto for diagnostic data."
+        1 string data = "Machine Communeに行き、Vivisectoに診断データを求める。"
        [18]
-        1 string data = "Inside the Machine Commune, pay or convince Vivisecto to hand over the diagnostic report."
+        1 string data = "Machine Commune内で、Vivisectoに金を払うか説得して診断報告書を渡してもらう。"
        [19]
-        1 string data = "Figure out why the Commune is so good at healing humans and repairing its own, then deliver the info to the Gippers."
+        1 string data = "Communeが人間の治療と自分たちの修理に優れている理由を解明し、その情報をGippersに届ける。"
        [20]
-        1 string data = "The Wyman, the Gippers' resident doctor, asked us to track down data on how the robots at the Commune heal humans. In exchange, she'll give us some medical supplies and free healing. First, we'll need to figure out who does that work at the Commune.\n\n\n[Reward: Free healing, [Dropset: DRP_b1001_Wyman_Counterintelligence_Reward]]"
+        1 string data = "Gippersの常駐医師であるWymanは、Communeのロボットがどのように人間を治療しているかのデータを追跡するよう依頼してきた。引き換えに、彼女は医療物資と無料の治療を提供してくれる。まず、Communeでその仕事をしているのが誰かを突き止める必要がある。\n\n\n[Reward: Free healing, [Dropset: DRP_b1001_Wyman_Counterintelligence_Reward]]"
        [21]
-        1 string data = "Sister Nancy Forge, the Gippers' weapons expert, asked us to track down data on how the Commune repairs damaged robots. In exchange, she'll give us a discount on her stock and some supplies. First, we'll need to figure out who does that work at the Commune.\n\n\n[Reward: Discount on stock, [Dropset: DRP_b1001_NancyForge_Counterintelligence_Reward]]"
+        1 string data = "Gippersの武器専門家であるSister Nancy Forgeは、Communeが損傷したロボットをどのように修理しているかのデータを追跡するよう依頼してきた。引き換えに、彼女は在庫の割引といくつかの物資を提供してくれる。まず、Communeでその仕事をしているのが誰かを突き止める必要がある。\n\n\n[Reward: Discount on stock, [Dropset: DRP_b1001_NancyForge_Counterintelligence_Reward]]"
        [22]
-        1 string data = "We found the Commune's healer and repair technician, Vivisecto, RN. It can tell us what we need to know."
+        1 string data = "Communeの治療師兼修理技術者であるVivisecto, RNを見つけた。彼は必要な情報を教えてくれる。"
        [23]
         1 string data = "Vivisecto is compiling the data we asked for, but won't hand it over until he finds out what happened to his assistant, V.I.C.I. Mk IX. He sent her into the ruined hangar to gather samples from some humans who camped there and froze to death years ago."
        [24]
