@@ -523559,13 +523559,13 @@
       1 Array Array (30 items)
        0 int size = 30
        [0]
-        1 string data = "Let's Go Fry a Kite"
+        1 string data = "凧を揚げに行こう"
        [1]
-        1 string data = "Find and destroy the Godfisher camps in the Denver Ruins."
+        1 string data = "デンバー廃墟でGodfisherキャンプを探して破壊する。"
        [2]
-        1 string data = "Sabotage the Reagan statue, or finish wiping out the Godfishers"
+        1 string data = "Reagan像を破壊工作するか、Godfisherを殲滅する"
        [3]
-        1 string data = "Leave Denver and intercept the Godfisher warband."
+        1 string data = "デンバーを去りGodfisher戦闘団を迎撃する。"
        [4]
         1 string data = ""
        [5]
@@ -523577,47 +523577,47 @@
        [8]
         1 string data = ""
        [9]
-        1 string data = "Leave before the Godfisher horde arrives."
+        1 string data = "Godfisherの大軍が到着する前に立ち去る。"
        [10]
-        1 string data = "Help the Gippers fight the Godfishers."
+        1 string data = "GipperがGodfisherと戦うのを手伝う。"
        [11]
-        1 string data = "A horde of Godfishers are at the Gipper's gates.\n\n\n[Reward: [Dropset: DRP_b1001_SisterGlory_Godfishers_Reward]]"
+        1 string data = "Godfisherの大軍がGipperの門前にいる。\n\n\n[Reward: [Dropset: DRP_b1001_SisterGlory_Godfishers_Reward]]"
        [12]
-        1 string data = "Camps destroyed: [Global: b1001_Mission_GvG_GroupsDefeated] of 3"
+        1 string data = "破壊したキャンプ: [Global: b1001_Mission_GvG_GroupsDefeated] / 3"
        [13]
-        1 string data = "Sabotaged terminals = [Global: b1001_Mission_GvG_SabotageState] of 3\n\n\nCamps destroyed = [Global: b1001_Mission_GvG_GroupsDefeated] of 3\n"
+        1 string data = "破壊工作した端末 = [Global: b1001_Mission_GvG_SabotageState] / 3\n\n\n破壊したキャンプ = [Global: b1001_Mission_GvG_GroupsDefeated] / 3\n"
        [14]
-        1 string data = "Seek out the Godfisher warband before they descend upon the ruins of Denver."
+        1 string data = "Godfisher戦闘団がデンバー廃墟に降りてくる前に探し出す。"
        [15]
-        1 string data = "We abandoned the Gippers during the final Godfisher attack."
+        1 string data = "Godfisherの最終攻撃の最中にGipperを見捨てた。"
        [16]
-        1 string data = "Vast numbers of Gippers and the Godfishers are dead. There may be scattered survivors, but as far as we can tell, no humans currently control the ruins of Denver."
+        1 string data = "GipperとGodfisherが大量に死亡した。散り散りになった生存者はいるかもしれないが、我々の知る限り、現在デンバー廃墟を支配している人間はいない。"
        [17]
-        1 string data = "We abandoned the Gippers to the Godfishers. Their Reagan statue was intact, so it's likely most of them survived."
+        1 string data = "GodfisherにGipperを見捨てた。Reagan像は無傷だったので、おそらく大半は生き延びただろう。"
        [18]
-        1 string data = "We helped the Gippers fend off the Godfishers."
+        1 string data = "GipperがGodfisherを撃退するのを手伝った。"
        [19]
-        1 string data = "We ended up in combat with the Gippers."
+        1 string data = "Gipperと戦闘になった。"
        [20]
-        1 string data = "The Gipper defenses are shattered. Leave Denver, and the Godfishers will wipe them out - as well as Valor - for you."
+        1 string data = "Gipperの防衛は粉砕された。デンバーを去れば、Godfisherが彼らとValorを始末してくれるだろう。"
        [21]
-        1 string data = "The last and largest wave of Godfishers has descended upon the Gippers."
+        1 string data = "最後にして最大のGodfisherの波がGipperに襲いかかった。"
        [22]
-        1 string data = "The Godfishers on the western side of Denver's ruins have been dealt with."
+        1 string data = "デンバー廃墟西側のGodfisherに対処した。"
        [23]
-        1 string data = "We destroyed a Godfisher camp located in the eastern ruins of Denver."
+        1 string data = "デンバー廃墟東側にあったGodfisherキャンプを破壊した。"
        [24]
-        1 string data = "The Gippers' oil field is clear of Godfishers."
+        1 string data = "Gipperの油田からGodfisherを一掃した。"
        [25]
-        1 string data = "We disabled a guarded terminal in the Gipper stronghold."
+        1 string data = "Gipper要塞で監視されている端末を無効化した。"
        [26]
-        1 string data = "A backup generator for the Reagan statue is temporarily out of service."
+        1 string data = "Reagan像のバックアップ発電機が一時的に停止中だ。"
        [27]
-        1 string data = "The Reagan statue's off-site regulator is offline.\n"
+        1 string data = "Reagan像の遠隔調整装置がオフラインだ。\n"
        [28]
-        1 string data = "Mist-that-Burns waits at the southern crater, overlooking a radioactive void."
+        1 string data = "Mist-that-Burnsは南のクレーターで、放射性の虚空を見下ろして待っている。"
        [29]
-        1 string data = "The Godfishers have asked us to side with them instead and sabotage the Reagan statue. "
+        1 string data = "Godfisherは代わりに彼らに味方してReagan像を破壊工作するよう我々に頼んできた。 "
    [1720]
     0 StringTable data
      1 string Filename = "mission_b1001_helpgodfishers"
@@ -523707,13 +523707,13 @@
       1 Array Array (19 items)
        0 int size = 19
        [0]
-        1 string data = "A House Divided"
+        1 string data = "分裂した家"
        [1]
-        1 string data = "Sabotage the Reagan statue's controls in the Denver Ruins."
+        1 string data = "デンバー廃墟でReagan像の制御装置を破壊工作する。"
        [2]
-        1 string data = "Give the attack signal to Flensing-Ice in the oilfield in the Denver Ruins."
+        1 string data = "デンバー廃墟の油田でFlensing-Iceに攻撃の合図を送る。"
        [3]
-        1 string data = "Abandon the Gippers to the Godfisher horde."
+        1 string data = "GipperをGodfisherの大軍に見捨てる。"
        [4]
         1 string data = ""
        [5]
@@ -523723,27 +523723,27 @@
        [7]
         1 string data = "Pcs attacked Gippers on their own."
        [8]
-        1 string data = "The Godfishers have offered to eliminate the Gippers - and Valor along with them - if we sabotage the giant Reagan statue."
+        1 string data = "Godfisherは巨大なReagan像を破壊工作すればGipperとValorを排除すると申し出た。"
        [9]
-        1 string data = "The Godfishers have asked us to sabotage the Reagan statue by disabling 3 terminals that control its critical systems.\n\n\n[Global: b1001_Mission_GvG_SabotageState] of 3 terminals sabotaged.\n"
+        1 string data = "Godfisherは重要システムを制御する3つの端末を無効化してReagan像を破壊工作するよう頼んできた。\n\n\n[Global: b1001_Mission_GvG_SabotageState] / 3 端末を破壊工作した。\n"
        [10]
-        1 string data = "The Gipper defenses are shattered. Signal Flensing-Ice to march on the Gippers and Valor Buchanan."
+        1 string data = "Gipperの防衛は粉砕された。Flensing-IceにGipperとValor Buchananに進軍するよう合図を送れ。"
        [11]
-        1 string data = "If we keep out of it, the Godfishers will destroy the Gippers and Valor Buchanan."
+        1 string data = "関わらなければ、GodfisherがGipperとValor Buchananを破壊するだろう。"
        [12]
-        1 string data = "Our short-lived allegience with the Godfishers has come to an end."
+        1 string data = "Godfisherとの短命な同盟は終わった。"
        [13]
-        1 string data = "After weakening the Gippers' defenses, we abandoned them during the final Godfisher attack."
+        1 string data = "Gipperの防衛を弱体化させた後、Godfisherの最終攻撃の最中に彼らを見捨てた。"
        [14]
-        1 string data = "Looks like the Godfishers decided to engage the Gippers on their own."
+        1 string data = "Godfisherは独自にGipperと交戦することを決めたようだ。"
        [15]
-        1 string data = "We engaged the Gippers in direct combat. The Godfishers' offer is irrelevant now."
+        1 string data = "Gipperと直接戦闘で交戦した。Godfisherの申し出はもう無関係だ。"
        [16]
-        1 string data = "We disabled a guarded terminal on the east side of the Western White House."
+        1 string data = "Western White Houseの東側で監視されている端末を無効化した。"
        [17]
-        1 string data = "We took down a system regulating the internal temperatures of Reagan's statue and other important Gipper electronics."
+        1 string data = "Reagan像の内部温度やその他の重要なGipper電子機器を調整するシステムを破壊した。"
        [18]
-        1 string data = "We compromised an off-site terminal located south of the Reagan statue."
+        1 string data = "Reagan像の南に位置する外部端末を無効化した。"
    [1721]
     0 StringTable data
      1 string Filename = "mission_b1001_sabotageterminals"
@@ -523895,17 +523895,17 @@
       1 Array Array (6 items)
        0 int size = 6
        [0]
-        1 string data = "Tiny Claws, No Pockets"
+        1 string data = "小さな爪、ポケットなし"
        [1]
-        1 string data = "Survive!"
+        1 string data = "生き延びろ！"
        [2]
-        1 string data = "Conquest"
+        1 string data = "征服"
        [3]
-        1 string data = "Deal with the kittens."
+        1 string data = "子猫たちに対処する。"
        [4]
-        1 string data = "Escape the ambush."
+        1 string data = "待ち伏せから逃げる。"
        [5]
-        1 string data = "You have achieved peace... but at what cost?"
+        1 string data = "平和を達成した...しかしその代償は？"
    [1723]
     0 StringTable data
      1 string Filename = "mission_b1001_upgrades"
@@ -524019,55 +524019,55 @@
       1 Array Array (25 items)
        0 int size = 25
        [0]
-        1 string data = "Build a Better Reagan"
+        1 string data = "より良いReaganを作る"
        [1]
-        1 string data = "Upgrade the key sub-systems running the Gippers' defenses in the Denver Ruins."
+        1 string data = "デンバー廃墟でGipperの防衛を動かす主要サブシステムをアップグレードする。"
        [2]
-        1 string data = "Deal with the power overload."
+        1 string data = "電力過負荷に対処する。"
        [3]
         1 string data = ""
        [4]
-        1 string data = "Upgrade complete: All systems are go!"
+        1 string data = "アップグレード完了: 全システム稼働！"
        [5]
-        1 string data = "Upgrade complete, aside from the heat"
+        1 string data = "アップグレード完了、暖房以外は"
        [6]
         1 string data = ""
        [7]
         1 string data = ""
        [8]
-        1 string data = "Collect your reward in the Sacred Server Room."
+        1 string data = "Sacred Server Roomで報酬を受け取る。"
        [9]
         1 string data = ""
        [10]
         1 string data = ""
        [11]
-        1 string data = "Upgrade key Gipper computer systems to super-charge the Reagan statue.\n\n\n[Reward: [Dropset: DRP_b1001_Valor_UpgradesComplete_Reward]]"
+        1 string data = "GipperのコンピュータシステムをアップグレードしてReagan像を超強化する。\n\n\n[Reward: [Dropset: DRP_b1001_Valor_UpgradesComplete_Reward]]"
        [12]
-        1 string data = "Valor asked us to upgrade some of the critical systems that run the Reagan statue while he continues to work on the mind transfer tech.\n\n\n[Global: b1001_StatueUpgrades_Current] of [Global: b1001_StatueUpgrades_Target] systems upgraded."
+        1 string data = "Valorは精神転送技術の作業を続ける間、Reagan像を動かす重要なシステムのいくつかをアップグレードするよう頼んできた。\n\n\n[Global: b1001_StatueUpgrades_Current] / [Global: b1001_StatueUpgrades_Target] システムをアップグレードした。"
        [13]
-        1 string data = "We've upgraded all the systems in the Western Whitehouse, but now the power grid is overloaded. We'll have to find a way to balance it out."
+        1 string data = "Western Whitehouseの全システムをアップグレードしたが、電力網が過負荷になった。バランスを取る方法を見つけなければならない。"
        [14]
-        1 string data = "A mission-critical terminal was disabled."
+        1 string data = "ミッションクリティカルな端末が無効化された。"
        [15]
-        1 string data = "Our upgrades were initially too much for the Gippers' power grid, but we were able to balance things out and collect our reward. The Reagan statue is ready to handle anything the Gippers' enemies throw at it."
+        1 string data = "アップグレードは最初Gipperの電力網に過負荷をかけたが、バランスを取って報酬を受け取ることができた。Reagan像はGipperの敵が投げつけるものに対処する準備ができている。"
        [16]
-        1 string data = "Our upgrades were initially too much for the Gippers' power grid, but we were able to balance things out by turning off the heat in the 'Western White House.' The Reagan statue is ready to handle anything the Gippers' enemies throw at it."
+        1 string data = "アップグレードは最初Gipperの電力網に過負荷をかけたが、Western White Houseの暖房を切ることでバランスを取ることができた。Reagan像はGipperの敵が投げつけるものに対処する準備ができている。"
        [17]
-        1 string data = "Our upgrades were initially too much for the Gippers' power grid, but we were able to balance things out by turning off the perimeter defenses. The Reagan statue is ready to handle anything the Gippers' enemies throw at it."
+        1 string data = "アップグレードは最初Gipperの電力網に過負荷をかけたが、周辺防衛を切ることでバランスを取ることができた。Reagan像はGipperの敵が投げつけるものに対処する準備ができている。"
        [18]
-        1 string data = "Our upgrades were too much for the Gippers' power grid. To keep it from melting down, we had to sacrifice one of the subsystems."
+        1 string data = "アップグレードはGipperの電力網に過負荷をかけすぎた。メルトダウンを防ぐため、サブシステムの1つを犠牲にしなければならなかった。"
        [19]
-        1 string data = "The upgrades are complete. Time for the Gippers to pay up."
+        1 string data = "アップグレードは完了した。Gipperに支払わせる時だ。"
        [20]
-        1 string data = "Considering the current situation with the Gippers, it's unlikely we'll get paid for fixing their infrastructure."
+        1 string data = "Gipperの現状を考えると、インフラ修理の報酬をもらえる可能性は低い。"
        [21]
-        1 string data = "There's no point in super-charging a statue which has already been destroyed."
+        1 string data = "すでに破壊された像を超強化しても意味がない。"
        [22]
-        1 string data = "The eastern terminal is fully defragmented, freeing up millions of bytes for the Reagan statue's storage needs."
+        1 string data = "東の端末は完全にデフラグされ、Reagan像のストレージニーズのために数百万バイトを解放した。"
        [23]
-        1 string data = "We optimized a system regulating the internal temperatures of Reagan's statue and other important Gipper electronics."
+        1 string data = "Reagan像の内部温度やその他の重要なGipper電子機器を調整するシステムを最適化した。"
        [24]
-        1 string data = "We thawed out an off-site terminal and restored it to full power."
+        1 string data = "外部端末の凍結を解除し、フルパワーに復元した。"
    [1724]
     0 StringTable data
      1 string Filename = "mission_b1101_usefulprey"

@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 523166,
+    "current_line": 523429,
     "total_lines": 530425,
-    "entries_completed": 162568,
+    "entries_completed": 162626,
     "total_entries": 169712,
     "percent_complete": 95.8,
-    "untranslated_entries": 7144,
-    "last_section": "mission_b1001_calltoaction, mission_b1001_counterintelligence (partial)",
+    "untranslated_entries": 7086,
+    "last_section": "mission_b1001_counterintelligence (complete), mission_b1001_darkclouds (complete)",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-21: Session 245 completed (49 entries). Mission sections: calltoaction (26 entries - Morningstar AI quest), counterintelligence partial (23 entries - Commune diagnostic quest). Quote format: 2 embedded quote fixes. All validations: 0 errors."
+    "notes": "2025-11-21: Session 246 completed (58 entries). Fixed 10 critical action marker errors from previous sessions (quote format issues). Completed sections: counterintelligence (24 entries - Vivisecto diagnostic data quest), darkclouds (34 entries - Gipper oil field defense mission). All validations: 0 errors."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,23 +37,24 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 245,
+    "session_number": 246,
     "date": "2025-11-21",
-    "entries_processed": 49,
+    "entries_processed": 58,
     "sections_completed": [
-      "mission_b1001_calltoaction (lines 522868-522918): 26 entries",
-      "mission_b1001_counterintelligence (lines 523120-523164): 23 entries (partial, 24 remaining)"
+      "Action marker fixes (10 errors from previous sessions)",
+      "mission_b1001_counterintelligence (lines 523166-523212): 24 entries (completion)",
+      "mission_b1001_darkclouds (lines 523362-523428): 34 entries (complete)"
     ],
-    "commit_hash": "0e73e57",
+    "commit_hash": "326b0be",
     "validation_passed": true,
-    "notes": "Session 245: 49 entries. Mission sections: calltoaction (Morningstar AI rescue quest), counterintelligence partial (Commune diagnostic data quest for Gippers). Quote format: 2 embedded quote corrections. Structure validation: 0 errors. Action marker check passed.",
-    "next_action": "Continue from line 523166 - mission_b1001_counterintelligence entry [23] onwards (24 entries remaining)"
+    "notes": "Session 246: 58 entries. CRITICAL: Fixed 10 action marker errors from previous sessions (quote format issues in sighs, static, mocking laugh, belch, distant roars, air raid siren, chuckles, chainsaw buzz). Completed sections: counterintelligence (Vivisecto diagnostic data quest for Wyman/Nancy Forge), darkclouds (Gipper oil field defense against Godfishers). Structure validation: 0 errors. Action marker validation: 0 Japanese text in markers.",
+    "next_action": "Continue from line 523429 - mission_b1001_gippersvsgodfishers onwards"
   },
   "cumulative_stats": {
-    "total_sessions": 245,
-    "total_entries_translated": 162568,
-    "untranslated_remaining": 7144,
-    "average_entries_per_session": 663.5,
+    "total_sessions": 246,
+    "total_entries_translated": 162626,
+    "untranslated_remaining": 7086,
+    "average_entries_per_session": 661.1,
     "estimated_sessions_remaining_base": 11,
     "estimated_days_remaining_base": "1-2 days",
     "estimated_sessions_remaining_dlc1": 58,
