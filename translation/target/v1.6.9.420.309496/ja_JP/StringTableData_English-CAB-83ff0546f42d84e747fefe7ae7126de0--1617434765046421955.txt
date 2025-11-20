@@ -444697,7 +444697,7 @@
        [54]
         1 string data = ""俺らは、ええと、'民事没収'を少しやってて、押収品を現金に換える必要があるんだ。興味あるか？""
        [55]
-        1 string data = "She looks around to see if anyone's listening, then lowers her voice. "We've been doin' a little 'civil forfeiture' and need to turn some impound into cash. Interested?""
+        1 string data = "彼女は周囲を見回し、誰も聞いていないか確認してから、声を落とす。"'民事没収'を少しやってて、押収品を現金に換える必要があるの。興味ある？""
        [56]
         1 string data = ""'民事没収'ってことは、容疑者からこれを取ったってことだろ？全員有罪だったのか？""
        [57]
@@ -444721,9 +444721,9 @@
        [66]
         1 string data = ""
        [67]
-        1 string data = "A burly woman leans her head out the window of a Marshals' assault truck."
+        1 string data = "たくましい女がマーシャルズの強襲トラックの窓から頭を出す。"
        [68]
-        1 string data = "The same burly marshal stops her truck again."
+        1 string data = "同じたくましいマーシャルが再びトラックを止める。"
    [1626]
     0 StringTable data
      1 string Filename = "y_merchant_monsterarmy"
@@ -444983,7 +444983,7 @@
        [12]
         1 string data = "彼女は少し悲鳴を上げる、"あああ!レンジャー!何だよ...やめろ!わかった、誰も傷つけないでくれ!欲しいものを持ってって、あたしたちを放っておいてくれ。"\n\n\n彼女は若いモンスターの一人を抱きしめる。彼は恐怖で震えている。"
        [13]
-        1 string data = "[Attack] Shoot the camp up and take their stuff!"
+        1 string data = "[Attack] キャンプを撃ちまくって、物資を奪え！"
        [14]
         1 string data = ""
        [15]
@@ -445027,7 +445027,7 @@
        [34]
         1 string data = ""長老たちは教えてくれる、昔は俺たちは悪で、いつかまた悪に戻らなきゃならないが、俺たちから始めるつもりはない。子羊どもが俺たちを裏切った時、そん時にまた爪を生やすんだとな。""
        [35]
-        1 string data = "[Steal] "Shorry, She-Monster. Thish is a shtick up! Hand over your shtock!""
+        1 string data = "[Steal] "しゅまん、シー・モンシュター。これは強盗だ！ブツを全部よこしぇ！""
        [36]
         1 string data = ""あーくそ。てめえら最低だな。くそったれ、こっちまで変になっちまったじゃねえか!このクソ野郎ども!""
        [37]
@@ -445605,53 +445605,53 @@
        [0]
         1 string data = ""
        [1]
-        1 string data = "A hunched over figure sits on a stump in the middle of a makeshift camp. At first he seems alone, but shadows twitch and you see some worker bots, in the shadows, near his rig. \r\n\r\nThe bots make some beeping noise and the figure looks up towards you."
+        1 string data = "前かがみの人影が、仮設キャンプの中央の切り株に座っている。最初は一人のようだが、影が動き、彼の車の近くの影の中に作業用ボットがいるのが見える。\r\n\r\nボットがビープ音を出し、人影があなたの方を見上げる。"
        [2]
-        1 string data = "Pull over to trade."
+        1 string data = "停車して取引する。"
        [3]
-        1 string data = "He signals the bots and they honk the rigs horn in greeting. The hooded figure approaches with a strange gait. He looks up, revealing his mutated features.\n\n\n"Trade with Cheebus? Cheebus trade.""
+        1 string data = "彼がボットに合図すると、車のクラクションが挨拶として鳴る。フードをかぶった人影が奇妙な歩き方で近づいてくる。彼が顔を上げると、変異した特徴が現れる。\n\n\n"チーバスと取引？チーバス取引する。""
        [4]
-        1 string data = "Grab a grenade and rob this mutant freak."
+        1 string data = "手榴弾を掴んでこのミュータントを襲う。"
        [5]
-        1 string data = "Feigning an interest in trade, you follow him back to his truck. Once you're close, you show Cheebus the grenade in your hand, pin already pulled.\n\n\nHe gets the picture: if they take you out, their truck goes with you."
+        1 string data = "取引に興味があるふりをして、彼のトラックまでついていく。近づいたところで、手に持った手榴弾を見せる。ピンはすでに抜いてある。\n\n\n彼は状況を理解した：お前らを倒せば、トラックも一緒に吹っ飛ぶ。"
        [6]
-        1 string data = "When his bots catch on, they're ready to take action. Cheebus stops them in their tracks.\n\n\n"Ease! Cheebus need truck to find and trade. Always more things to find. More things to trade.""
+        1 string data = "ボットたちが状況に気づき、行動を起こそうとする。チーバスが動きを止める。\n\n\n"落ち着け！チーバス トラック必要 探す 取引する。いつも もっと 探すもの。もっと 取引するもの。""
        [7]
-        1 string data = "They watch impotently as the squad stashes their goods.\n\n\nCheebus gathers his bots into the truck and they disappear into the snowy darkness."
+        1 string data = "彼らは無力に、部隊が物資を隠すのを見ている。\n\n\nチーバスはボットたちをトラックに集め、雪に覆われた闇の中へ消えていく。"
        [8]
-        1 string data = "[Attack] "Die, mutant freak!""
+        1 string data = "[Attack] "死ね、ミュータントめ！""
        [9]
-        1 string data = "The squad readies up, but the Wastelanders aren't caught off guard.\n\n\nThey see this shit every day."
+        1 string data = "部隊は準備を整えるが、ウェイストランダーたちは油断していない。\n\n\nこんなクソは毎日見てるんだ。"
        [10]
         1 string data = ""
        [11]
         1 string data = ""荒野で何か面白いことを聞いたか?""
        [12]
-        1 string data = "Cheebus stares up at the sky, searching the clouds for a pattern that stirs his memories.\n\n\n"Cheebus not talk to many living. Cheebus talk to some dead, though. Cheebus find them laying down. Cheebus thank them for dying and giving Cheebus things to sell. Cheebus always sell. Trade?""
+        1 string data = "チーバスは空を見つめ、記憶を呼び起こすパターンを雲の中に探す。\n\n\n"チーバス あまり 生きてる人 話さない。死んでる人 何人か 話す けど。チーバス 見つける 倒れてる人。チーバス 感謝する 死んで くれて チーバスに 売るもの くれて。チーバス いつも 売る。取引？""
        [13]
         1 string data = ""取引しよう""
        [14]
-        1 string data = "Cheebus walks you over to one of the trucks.\n\n\n"Cheebus prices are fair.""
+        1 string data = "チーバスがトラックの一台まで案内する。\n\n\n"チーバスの値段 公正。""
        [15]
-        1 string data = "MERCHANT INTERFACE HERE.\n\n\nThere is no return to the encounter from here."
+        1 string data = "商人インターフェースここに表示。\n\n\nここからエンカウンターには戻れない。"
        [16]
         1 string data = ""また会おう、チーバス""
        [17]
-        1 string data = "Cheebus nods when you wander back to your rig, "Cheebus find more. Trade soon."\n"
+        1 string data = "あなたが車に戻ると、チーバスがうなずく、"チーバス もっと 見つける。また すぐ 取引。"\n"
        [18]
-        1 string data = "Keep driving."
+        1 string data = "運転を続ける。"
        [19]
-        1 string data = "They keep their weapons trained on your rig as your vehicles pass each other."
+        1 string data = "車がすれ違う間、彼らは武器をこちらの車に向け続けている。"
        [20]
         1 string data = ""
        [21]
-        1 string data = ""Forgive Cheebus. Cheebus not sure why, but Cheebus need to give you. Give you this. Dream tell Cheebus to give you. You help Cheebus trade. Cheebus trade more now with others. They say you help. Here."\n\n\nHe hands you a small blanket, tied in a bundle."
+        1 string data = ""チーバス 許して。チーバス わからない なぜ、でも チーバス あげる 必要 ある。これ あげる。夢 教えた チーバスに あげろと。あなた 助けた チーバス 取引。チーバス もっと 取引する 今 他の人と。皆 言う あなた 助けたと。これ。"\n\n\n彼は小さな毛布を包んで渡す。"
        [22]
-        1 string data = "Cheebus stares up at the sky, searching the clouds for a pattern that stirs his memories.\n\n\n"Rabbit hop half way towards Cheebus. Rabbit hop half way again. Still not to Cheebus. Again, rabbit hop half way. Again and again. Rabbit never got to Cheebus. Why?""
+        1 string data = "チーバスは空を見つめ、記憶を呼び起こすパターンを雲の中に探す。\n\n\n"ウサギ 跳ねる 半分の距離 チーバスに向かって。ウサギ また 跳ねる 半分。まだ チーバスに 着かない。また ウサギ 跳ねる 半分。何度も 何度も。ウサギ 着かなかった チーバスに。なぜ？""
        [23]
-        1 string data = "Cheebus stares up at the sky, searching the clouds for a pattern that stirs his memories.\n\n\n"Cheebus had a dream. Cheebus was small. Playing in dark holes. The air burned and arm wrinkled. Withered away. Shiny bobble Cheebus saw. Cheebus sell it for food. We all do. Withered and finding and staying alive. Aren't we? Trade?""
+        1 string data = "チーバスは空を見つめ、記憶を呼び起こすパターンを雲の中に探す。\n\n\n"チーバス 夢 見た。チーバス 小さかった。遊んでた 暗い穴で。空気 焼けた 腕 しわしわ なった。枯れた。光る玉 チーバス 見た。チーバス 売った 食べ物のために。皆 そうする。枯れて 探して 生き続ける。そうだろ？取引？""
        [24]
-        1 string data = "Cheebus raises his arm in not so much a wave but more of a swirling motion, as if he is pulling your scent closer.\n\n\n"Cheebus trade. Cheebus happy to trade. Ranger trade?""
+        1 string data = "チーバスが腕を上げる。手を振っているというより、渦巻くような動きで、まるであなたの匂いを引き寄せているかのようだ。\n\n\n"チーバス 取引。チーバス 嬉しい 取引。レンジャー 取引？""
        [25]
         1 string data = ""ゼノンのパラドックスだ。お前に到達する前に無限の数の半分の距離を横切らなければならない""
        [26]
@@ -445749,9 +445749,9 @@
        [72]
         1 string data = ""これ 俺の物""
        [73]
-        1 string data = "Heal party then open inventory."
+        1 string data = "パーティを回復してからインベントリを開く。"
        [74]
-        1 string data = "Kiss ass for strange vision, plus shopping. "
+        1 string data = "お世辞を言って奇妙なビジョンを見る、それから買い物。"
        [75]
         1 string data = ""Wait. Cheebus talk to Gob." He stares up at the sky, eyes moving with the clouds. Finally he nods. "
        [76]
