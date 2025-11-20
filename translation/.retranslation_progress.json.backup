@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 500517,
+    "current_line": 500957,
     "total_lines": 530425,
-    "entries_completed": 158464,
+    "entries_completed": 158584,
     "total_entries": 169712,
     "percent_complete": 93.4,
-    "untranslated_entries": 11248,
-    "last_section": "character_customization_and_equipment",
+    "untranslated_entries": 11128,
+    "last_section": "vehicle_customization",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-20: Session 213 completed (498 entries). Equipment items: Fan Kicks, Spiked Collar, Night Terror Plushie, Backpack, Wool Cap, Pliers, Grooming Brush, Silver Dollar Necklace, PDA, various kits (Defusal, Thief, Tool, Modder). Weapons: Laser Shotgun, Cheese Grater, Knuckle Dusters, Jacknife, Reagans Gaze, Marshals Law, SWAT Rifle, Pacifier, Negotiator, Eliminator, Ice Thrower. Medical: Fortifying Medic Pack, Delayed Release Medic Pack, Injury Kit, Slime Spit. Food: Goat Horn Stew, Stouffers Select, Clown Burger, Toast, Pork Bun, Stir-Fried Pork, Severed Fingers, Ramen Noodles, Snickers, Bison Steak, Pickles. Skill books: Neural Net Processor Manual, Weinberger Guide, various survival and combat guides. Outfits: Wastelander A-F, Hundred Families A-D, Scrapper. Character customization: 50+ boot types, 40+ glove types, 20+ headgear types (Dorsey Antlers, Dorsey Wolf, Dorsey Horns, Dorsey Bear Skull, various hats, hoods, helmets, masks). All validations: 0 errors."
+    "notes": "2025-11-20: Session 214 completed (120 entries). Equipment and vehicle customization: Headgear (Blaster Master, Werewolf Mask, Nancy Beret, various Ranger and Dorsey items, 25 types), Clothing (pants, jackets, vests for Ranger, Dorsey, civilian categories), Special items (Mechanic Garage Key, Bards Tale IV items, Toaster Repair Academy set including Golden Toaster and parts Vol. XIV), Weapon mods (DeadEye Scope, FarSight scopes, barrels, chokes, laser sights), Unique weapons (Troels Arrow, Heartstopper, Sidecut, Hobo Shotgun, Pinprick), Vehicle parts (armor types, 7 tread variants including Gold, Chain, Chrome, Plains Gang, Gipper, Scar Collector, Payaso). Quote corrections: 3 entries with embedded quotes. All validations: 0 errors."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,22 +37,22 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 213,
+    "session_number": 214,
     "date": "2025-11-20",
-    "entries_processed": 498,
+    "entries_processed": 120,
     "sections_completed": [
-      "character_customization_and_equipment (498 entries)"
+      "vehicle_customization (120 entries)"
     ],
-    "commit_hash": "97706ef",
+    "commit_hash": "4f02aca",
     "validation_passed": true,
-    "notes": "Session 213: 498 entries total. Comprehensive equipment translation: footwear, handwear, headgear, utility items, weapons, medical supplies, food, skill books. Equipment: Fan Kicks through Backpack variants. Weapons: Laser Shotgun, Cheese Grater, Knuckle Dusters, Jacknife, Reagans Gaze, Marshals Law, SWAT Rifle, Pacifier, Negotiator, Eliminator, Ice Thrower. Medical: specialized medic packs and injury kit. Food: 15 types including cultural dishes (Pork Bun, Ramen Noodles, Stir-Fried Pork). Skill books: 20+ titles covering engineering, combat, survival, medical, leadership. Character customization: boots (50+ types), gloves (40+ types), headgear (20+ types including Dorsey faction gear). All validations: 0 errors.",
-    "next_action": "Continue from line 500517 - remaining character customization items"
+    "notes": "Session 214: 120 entries total. Equipment and vehicle customization items. Clothing: 100 items including headgear (Blaster Master, Werewolf Mask, Nancy Beret, various Dorsey faction gear), pants and jackets (Ranger variants, civilian types). Keys: Mechanic Garage Key, Guest Suites 1-2, Sauna Maintenance, Freezer, Brady Room Key, Brady Film. Bards Tale IV crossover items: Tips n Tricks book, Bardic Jacket, Real Bloodstaff. Toaster Repair Academy: Golden Toaster, Gold parts (Mica Sheeting, Nichrome Wire, Bi-metallic Filament), Vol. XIV. Weapon modifications: DeadEye Scope, FarSight scopes, Laser Sight, barrels, chokes. Unique weapons: Troels Arrow, Heartstopper, Sidecut, Hobo Shotgun, Pinprick, NRC Tech Specs. Vehicle customization: Star of Bravery medal, Atom Smasher, armor plating (Light/Medium/Heavy), 7 tread types (Gold, Chain, Chrome, Plains Gang, Gipper, Scar Collector, Payaso). Quote format fixed: 3 entries with embedded quotes. All validations: 0 errors.",
+    "next_action": "Continue from line 500957 - remaining vehicle customization items"
   },
   "cumulative_stats": {
-    "total_sessions": 213,
-    "total_entries_translated": 158464,
-    "untranslated_remaining": 11248,
-    "average_entries_per_session": 744,
+    "total_sessions": 214,
+    "total_entries_translated": 158584,
+    "untranslated_remaining": 11128,
+    "average_entries_per_session": 741,
     "estimated_sessions_remaining_base": 15,
     "estimated_days_remaining_base": "3 days",
     "estimated_sessions_remaining_dlc1": 52,
