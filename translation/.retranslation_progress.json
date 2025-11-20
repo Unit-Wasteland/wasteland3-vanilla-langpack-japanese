@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 523429,
+    "current_line": 524071,
     "total_lines": 530425,
-    "entries_completed": 162626,
+    "entries_completed": 162706,
     "total_entries": 169712,
-    "percent_complete": 95.8,
-    "untranslated_entries": 7086,
-    "last_section": "mission_b1001_counterintelligence (complete), mission_b1001_darkclouds (complete)",
+    "percent_complete": 95.9,
+    "untranslated_entries": 7006,
+    "last_section": "mission_b1001_gippersvsgodfishers (complete), mission_b1001_helpgodfishers (complete), mission_b1001_tinyclawsnopockets (complete), mission_b1001_upgrades (complete)",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-21: Session 246 completed (58 entries). Fixed 10 critical action marker errors from previous sessions (quote format issues). Completed sections: counterintelligence (24 entries - Vivisecto diagnostic data quest), darkclouds (34 entries - Gipper oil field defense mission). All validations: 0 errors."
+    "notes": "2025-11-21: Session 247 completed (80 entries). Completed sections: gippersvsgodfishers (Godfisher vs Gipper war quest - 30 entries), helpgodfishers (betraying Gippers quest - 19 entries), tinyclawsnopockets (kitten encounter - 6 entries), upgrades (Reagan statue computer system upgrades for Valor - 25 entries). All validations: 0 errors."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,24 +37,26 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 246,
+    "session_number": 247,
     "date": "2025-11-21",
-    "entries_processed": 58,
+    "entries_processed": 80,
     "sections_completed": [
-      "Action marker fixes (10 errors from previous sessions)",
-      "mission_b1001_counterintelligence (lines 523166-523212): 24 entries (completion)",
-      "mission_b1001_darkclouds (lines 523362-523428): 34 entries (complete)"
+      "mission_b1001_gippersvsgodfishers (lines 523562-523620): 30 entries (Godfisher attack quest)",
+      "mission_b1001_helpgodfishers (lines 523710-523746): 19 entries (betraying Gippers quest)",
+      "mission_b1001_sabotageterminals (lines 523828-523860): 1 entry (space-only preserved)",
+      "mission_b1001_tinyclawsnopockets (lines 523898-523908): 6 entries (kitten encounter)",
+      "mission_b1001_upgrades (lines 524022-524070): 25 entries (Reagan statue upgrades)"
     ],
-    "commit_hash": "326b0be",
+    "commit_hash": "f2e3cfd",
     "validation_passed": true,
-    "notes": "Session 246: 58 entries. CRITICAL: Fixed 10 action marker errors from previous sessions (quote format issues in sighs, static, mocking laugh, belch, distant roars, air raid siren, chuckles, chainsaw buzz). Completed sections: counterintelligence (Vivisecto diagnostic data quest for Wyman/Nancy Forge), darkclouds (Gipper oil field defense against Godfishers). Structure validation: 0 errors. Action marker validation: 0 Japanese text in markers.",
-    "next_action": "Continue from line 523429 - mission_b1001_gippersvsgodfishers onwards"
+    "notes": "Session 247: 80 entries. Denver Gippers missions completed: Godfisher vs Gipper war objectives and outcomes (30), betraying Gippers to help Godfisher horde (19), Reagan statue sabotage data (1), kitten encounter objectives (6), Reagan statue system upgrades for Valor (25). Structure validation: 0 errors. Action marker validation: 0 Japanese text in markers.",
+    "next_action": "Continue from line 524071 - mission_b1101_usefulprey onwards"
   },
   "cumulative_stats": {
-    "total_sessions": 246,
-    "total_entries_translated": 162626,
-    "untranslated_remaining": 7086,
-    "average_entries_per_session": 661.1,
+    "total_sessions": 247,
+    "total_entries_translated": 162706,
+    "untranslated_remaining": 7006,
+    "average_entries_per_session": 658.7,
     "estimated_sessions_remaining_base": 11,
     "estimated_days_remaining_base": "1-2 days",
     "estimated_sessions_remaining_dlc1": 58,
