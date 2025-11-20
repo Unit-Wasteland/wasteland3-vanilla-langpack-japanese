@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 450589,
+    "current_line": 451879,
     "total_lines": 530425,
-    "entries_completed": 151692,
+    "entries_completed": 151891,
     "total_entries": 169712,
-    "percent_complete": 89.4,
-    "untranslated_entries": 18020,
-    "last_section": "y_reusable_shelter_abandonedhut",
+    "percent_complete": 89.5,
+    "untranslated_entries": 17821,
+    "last_section": "y_somekindofstandoff",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-20: Session 194 completed (133 entries). Holy Detonation graffiti (completed). Scorpitron encounters. Abandoned shelter encounters. All validations: 0 errors. Fixed 4 quote format errors."
+    "notes": "2025-11-20: Session 195 completed (199 entries). Abandoned shelter tiers. Signpost encounters. Scorpitron variants. Faction standoff. All validations: 0 errors."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,24 +37,29 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 194,
+    "session_number": 195,
     "date": "2025-11-20",
-    "entries_processed": 133,
+    "entries_processed": 199,
     "sections_completed": [
-      "y_reusable_location05 (10/18 entries - Holy Detonation religious graffiti - COMPLETED)",
-      "y_reusable_scorpitron01 (30/30 entries - Scorpitron random encounters)",
-      "y_reusable_shelter_abandonedhut (99/99 entries - abandoned shelter random encounters)"
+      "y_reusable_shelter_abandonedhut_tier3 (28/28 entries)",
+      "y_reusable_shelter_abandonedhut_tier4 (28/28 entries)",
+      "y_reusable_shelter_abandonedhut_tier5 (28/28 entries)",
+      "y_reusable_shelter_abandonedhut_tier6 (28/28 entries)",
+      "y_reusable_signpost (34/34 entries - mysterious signpost encounter)",
+      "y_scorpitroninthedistance (16/16 entries)",
+      "y_scorpitroninthedistance_steeltown (16/16 entries)",
+      "y_somekindofstandoff (21/21 entries - Godfishers/Gippers/Mercs standoff)"
     ],
-    "commit_hash": "b1c72e6",
+    "commit_hash": "44f5da5",
     "validation_passed": true,
-    "notes": "Session 194: 133 entries. Holy Detonation graffiti (completed). Scorpitron encounters. Abandoned shelter encounters. Fixed 4 quote format errors (replaced Japanese brackets with English quotes). All validations: 0 errors.",
-    "next_action": "Continue from line 450589 - y_reusable_shelter_abandonedhut_tier3 section"
+    "notes": "Session 195: 199 entries. Abandoned shelter tier variants (all identical content). Mysterious signpost encounter. Scorpitron random encounters (base and Steeltown variants). Three-faction standoff over nail clippings jar. All validations: 0 errors.",
+    "next_action": "Continue from line 451879 - y_star01 section"
   },
   "cumulative_stats": {
-    "total_sessions": 194,
-    "total_entries_translated": 151692,
-    "untranslated_remaining": 18020,
-    "average_entries_per_session": 782,
+    "total_sessions": 195,
+    "total_entries_translated": 151891,
+    "untranslated_remaining": 17821,
+    "average_entries_per_session": 779,
     "estimated_sessions_remaining_base": 23,
     "estimated_days_remaining_base": "5-7 days",
     "estimated_sessions_remaining_dlc1": 49,
