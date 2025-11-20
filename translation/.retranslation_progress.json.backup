@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 478322,
+    "current_line": 480024,
     "total_lines": 530425,
-    "entries_completed": 155400,
+    "entries_completed": 156296,
     "total_entries": 169712,
-    "percent_complete": 91.5,
-    "untranslated_entries": 14312,
+    "percent_complete": 92.1,
+    "untranslated_entries": 13416,
     "last_section": "gui",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-20: Session 204 completed (500 entries). Multiplayer UI, game objects (containers, doors, traps, vehicles), status effects, combat mechanics, controller settings, player management, character progression (XP, skills, perks), game modes, menus. All structure markers preserved. All validations: 0 errors."
+    "notes": "2025-11-20: Session 206 completed (396 entries). Squad descriptions. UI elements (dialogs, customization, inventory). Graphics settings. Multiplayer UI. Controller mappings. Network errors. Keybinding config. Weapon mods. Accessibility. All validations: 0 errors."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,27 +37,27 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 204,
+    "session_number": 206,
     "date": "2025-11-20",
-    "entries_processed": 500,
+    "entries_processed": 396,
     "sections_completed": [
-      "gui continuation (500 entries)"
+      "gui continuation (396 entries)"
     ],
-    "commit_hash": "a2ad3e9",
+    "commit_hash": "0aaded6",
     "validation_passed": true,
-    "notes": "Session 204: 500 entries. Multiplayer UI elements (lobby, hosting, privacy, connection). Game objects (containers, doors, traps, vehicles). Status effects and combat mechanics. Controller and accessibility settings. Player management options. Character progression (XP, skills, perks). Game modes and menu systems. All structure markers preserved. All validations: 0 errors.",
-    "next_action": "Continue from line 478322 - gui section continuation"
+    "notes": "Session 206: 396 entries. Pre-made squad descriptions. Game UI (damage types, combat UI, lucky bonuses). Multiplayer (lobby, connection). Character customization (randomization options). Difficulty levels. Item categories. Controller buttons. Network messages. Display modes. Weapon mods. Accessibility (colorblind icons). Legal disclaimer. All quote formats exact match. All validations: 0 errors.",
+    "next_action": "Continue from line 480024 - gui section continuation"
   },
   "cumulative_stats": {
-    "total_sessions": 204,
-    "total_entries_translated": 155400,
-    "untranslated_remaining": 14312,
-    "average_entries_per_session": 762,
-    "estimated_sessions_remaining_base": 18,
-    "estimated_days_remaining_base": "4 days",
-    "estimated_sessions_remaining_dlc1": 50,
+    "total_sessions": 206,
+    "total_entries_translated": 156296,
+    "untranslated_remaining": 13416,
+    "average_entries_per_session": 758,
+    "estimated_sessions_remaining_base": 17,
+    "estimated_days_remaining_base": "3-4 days",
+    "estimated_sessions_remaining_dlc1": 51,
     "estimated_days_remaining_dlc1": "1-2 days",
-    "estimated_sessions_remaining_dlc2": 31,
+    "estimated_sessions_remaining_dlc2": 32,
     "estimated_days_remaining_dlc2": "1 day",
     "total_lines_all_files": 728337,
     "project_status": "IN_PROGRESS",
