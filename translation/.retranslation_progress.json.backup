@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 526200,
+    "current_line": 527425,
     "total_lines": 530425,
-    "entries_completed": 162943,
+    "entries_completed": 163074,
     "total_entries": 169712,
-    "percent_complete": 96.0,
-    "untranslated_entries": 6769,
-    "last_section": "mission_b3001_tradingfireroguemission (complete), mission_b4001_funandgames (complete), mission_c1000_gamescomdemo (complete), mission_c1001_littlehell (complete), mission_m1001_rangerslasthope (complete), mission_m2001_welcometocolorado (complete), mission_o2001_29across (complete), mission_o2001_cinemaverite (complete), mission_o2001_mybodyrequiresthis (complete)",
+    "percent_complete": 96.1,
+    "untranslated_entries": 6638,
+    "last_section": "mission_o2001_nightmareinthebizarre (complete), mission_o2001_thickerthanwater (complete), mission_o1001_knockknock (complete), mission_o1001_veryhostiletakeover (complete), mission_o2101_quarexhellaciousjourney (complete)",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-21: Session 249 completed (114 entries). Denver missions Part 2: Nancy weapons trade (8), hologram combat simulation game (25), Patriarch's son discovery (4), Little Hell hostage rescue (22), Rangers' last hope main mission (7), Colorado welcome sequence (25), Crossword Gang item retrieval (4), movie reel quest for Chix Flicks (9), ramen noodle quest for Masato (10). All validations: 0 errors."
+    "notes": "2025-11-21: Session 250 completed (131 entries). Bizarre region missions: Nightmare in the Bizarre with Flab (25), Thicker Than Water family rescue (22), Knock Knock entrance methods (30), Very Hostile Takeover Cartel battle (38), Quarex video game collection rescue (16). All validations: 0 errors."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,30 +37,26 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 249,
+    "session_number": 250,
     "date": "2025-11-21",
-    "entries_processed": 114,
+    "entries_processed": 131,
     "sections_completed": [
-      "mission_b3001_tradingfireroguemission (lines 525070-525096): 8 entries (Nancy weapons trade)",
-      "mission_b4001_funandgames (lines 525230-525288): 25 entries (hologram combat game)",
-      "mission_c1000_gamescomdemo (lines 525334-525348): 4 entries (Patriarch's son)",
-      "mission_c1001_littlehell (lines 525498-525564): 22 entries (hostage rescue)",
-      "mission_m1001_rangerslasthope (lines 525614-525630): 7 entries (main mission)",
-      "mission_m2001_welcometocolorado (lines 525776-525840): 25 entries (Colorado welcome)",
-      "mission_o2001_29across (lines 525886-525894): 4 entries (Crossword Gang)",
-      "mission_o2001_cinemaverite (lines 525966-525990): 9 entries (movie reels)",
-      "mission_o2001_mybodyrequiresthis (lines 526076-526110): 10 entries (ramen quest)"
+      "mission_o2001_nightmareinthebizarre (lines 526224-526272): 25 entries (Bizarre nightmare)",
+      "mission_o2001_thickerthanwater (lines 526488-526530): 22 entries (Gett family rescue)",
+      "mission_o1001_knockknock (lines 526784-526842): 30 entries (Bizarre entrance)",
+      "mission_o1001_veryhostiletakeover (lines 527116-527190): 38 entries (Cartel takeover)",
+      "mission_o2101_quarexhellaciousjourney (lines 527394-527424): 16 entries (video game collection)"
     ],
-    "commit_hash": "04799c4",
+    "commit_hash": "96f0cf3",
     "validation_passed": true,
-    "notes": "Session 249: 114 entries. Denver missions Part 2: Nancy weapons trade with Ex-Nancy Taint (8), hologram combat simulation with moral dilemmas (25), gamescom demo finding Patriarch's son (4), Little Hell hostage rescue mission with complex branching (22), Rangers' last hope after Prasad's death (7), Colorado welcome ambush sequence (25), Crossword Gang item retrieval (4), movie reel quest for theater (9), ramen noodle quest for Masato (10). Structure: 0 errors. Action markers: 0 Japanese. All quote formats match source perfectly.",
-    "next_action": "Continue from line 526200 - mission_o2001_nightmareinthebizarre onwards"
+    "notes": "Session 250: 131 entries. Bizarre region missions: Nightmare clown attacks on Monster Army (25), Thicker Than Water with Randy Gett and feral family members (22), Knock Knock multiple entrance methods and vouchers (30), Very Hostile Takeover three-way power struggle (38), Quarex video game treasure rescue (16). Structure: 0 errors. Action markers: 0 Japanese. All quote formats match source perfectly.",
+    "next_action": "Continue from line 527425 - mission_q1001_canaryinthecoalmine onwards"
   },
   "cumulative_stats": {
-    "total_sessions": 249,
-    "total_entries_translated": 162943,
-    "untranslated_remaining": 6769,
-    "average_entries_per_session": 654.0,
+    "total_sessions": 250,
+    "total_entries_translated": 163074,
+    "untranslated_remaining": 6638,
+    "average_entries_per_session": 652.3,
     "estimated_sessions_remaining_base": 10,
     "estimated_days_remaining_base": "1 day",
     "estimated_sessions_remaining_dlc1": 59,
