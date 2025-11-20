@@ -9,18 +9,18 @@
   "current_phase": "base_game",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
-    "current_line": 435319,
+    "current_line": 436117,
     "total_lines": 530425,
-    "entries_completed": 150253,
+    "entries_completed": 150326,
     "total_entries": 169712,
-    "percent_complete": 88.5,
-    "untranslated_entries": 19459,
-    "last_section": "yy_robots_ambush_plains",
+    "percent_complete": 88.6,
+    "untranslated_entries": 19386,
+    "last_section": "yy_worms_ambush_plains",
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
     "quality_issues": 0,
-    "notes": "2025-11-20: Session 49 completed (81 entries). Wilderness encounters: golden scorpitron, Fenix case discovery, growlers/razorbacks/robots ambushes with terrain variants. All validations: 0 errors."
+    "notes": "2025-11-20: Session 50 completed (73 entries). Robot spotted events with sneak/avoid/attack. Waste worm ambushes with terrain-based escape and thermal blanket tactics. All validations: 0 errors."
   },
   "dlc1": {
     "status": "not_started",
@@ -37,28 +37,27 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 49,
+    "session_number": 50,
     "date": "2025-11-20",
-    "entries_processed": 81,
+    "entries_processed": 73,
     "sections_completed": [
-      "yy_goldscorpitron (5 entries - golden scorpitron encounter)",
-      "yy_gowlancer (8 entries - Fenix case discovery)",
-      "yy_growlers_ambush (12 entries - growler ambush)",
-      "yy_razorbacks_ambush (14 entries - razorback ambush)",
-      "yy_robots_ambush (14 entries - robot encounters)",
-      "yy_robots_ambush_mountains (14 entries - mountain variant)",
-      "yy_robots_ambush_plains (14 entries - plains variant)"
+      "yy_robots_spotted (15 entries - robot detection scenarios)",
+      "yy_robots_spotted_mountains (13 entries - mountain terrain variant)",
+      "yy_robots_spotted_plains (13 entries - plains terrain variant)",
+      "yy_worms_ambush (12 entries - waste worm encounters)",
+      "yy_worms_ambush_mountains (10 entries - mountain worm variant)",
+      "yy_worms_ambush_plains (10 entries - plains worm variant)"
     ],
-    "commit_hash": "7f4ea60",
+    "commit_hash": "pending",
     "validation_passed": true,
-    "notes": "Session 49: Completed 81 entries. Wilderness encounters with combat/escape options, terrain advantages. Quote format errors fixed (Japanese brackets converted to English quotes). All validations: 0 errors.",
-    "next_action": "Continue sequential translation from line 435319"
+    "notes": "Session 50: Completed 73 entries. Robot spotted events with sneak/avoid/attack options. Waste worm ambushes with terrain-based escape mechanics and science-based thermal blanket tactics. All validations: 0 errors.",
+    "next_action": "Continue sequential translation from line 436117"
   },
   "cumulative_stats": {
-    "total_sessions": 49,
-    "total_entries_translated": 150253,
-    "untranslated_remaining": 19459,
-    "average_entries_per_session": 3066,
+    "total_sessions": 50,
+    "total_entries_translated": 150326,
+    "untranslated_remaining": 19386,
+    "average_entries_per_session": 3007,
     "estimated_sessions_remaining_base": 6,
     "estimated_days_remaining_base": "17-21 days",
     "estimated_sessions_remaining_dlc1": 203,
