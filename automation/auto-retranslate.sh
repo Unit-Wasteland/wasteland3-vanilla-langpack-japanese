@@ -17,10 +17,10 @@
 # 2. DLC1 (38,554 entries) - Start ONLY after base game 100%
 # 3. DLC2 (24,152 entries) - Start ONLY after DLC1 100%
 #
-# Current Implementation: BASE GAME ONLY
-# - This script currently processes ONLY the base game file
-# - DLC1/DLC2 support will be added after base game reaches 100%
-# - File paths are hardcoded to base game StringTable file
+# Current Implementation: ALL CONTENT SUPPORTED
+# - Script detects current phase from progress file
+# - Automatically uses correct file paths for base game, DLC1, or DLC2
+# - Progress tracking covers all phases combined
 #
 # Architecture: Based on successful auto-translate.sh pattern
 # - Large chunks (150-200 lines) to minimize Read/Edit operations
@@ -83,12 +83,30 @@ set -e
 # Configuration
 MAX_MEMORY_MB=5000          # 6GB physical RAM - 1GB margin
 ENTRIES_PER_SESSION=500     # 500 entries per session (100x improvement from 5)
-MAX_SESSIONS=340            # Max 340 sessions for base game (169,712 entries ÷ 500)
+MAX_SESSIONS=500            # Max 500 sessions for all content (232,418 entries ÷ 500)
 MONITOR_INTERVAL=30         # Check memory every 30 seconds
 
-# NOTE: Session count reflects BASE GAME ONLY
-# - Base game: 169,712 entries → ~340 sessions at 500 entries/session
-# - DLC1/DLC2 will require separate script execution after base game completion
+# File paths for each phase
+# Base game
+BASE_GAME_TARGET="translation/target/v1.6.9.420.309496/ja_JP/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt"
+BASE_GAME_SOURCE="translation/source/v1.6.9.420.309496/en_US/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt"
+BASE_GAME_SPANISH="translation/source/v1.6.9.420.309496/es_ES/StringTableData_Spanish-CAB-f95544f6ef35e8a6587dccfa911ba0f8-9130184510981781208.txt"
+
+# DLC1: Battle of Steeltown
+DLC1_TARGET="translation/target/v1.6.9.420.309496/ja_JP/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt"
+DLC1_SOURCE="translation/source/v1.6.9.420.309496/en_US/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt"
+DLC1_SPANISH="translation/source/v1.6.9.420.309496/es_ES/DLC1/StringTableData_Spanish-CAB-01cf4ea31238681a8e1bd9559c0f3f3e-7305399230875977342.txt"
+
+# DLC2: Cult of the Holy Detonation
+DLC2_TARGET="translation/target/v1.6.9.420.309496/ja_JP/DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt"
+DLC2_SOURCE="translation/source/v1.6.9.420.309496/en_US/DLC2/StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt"
+DLC2_SPANISH="translation/source/v1.6.9.420.309496/es_ES/DLC2/StringTableData_Spanish-CAB-6a212d8a4482b263f057ec8756825864-6420464141808439591.txt"
+
+# NOTE: Total entries across all content
+# - Base game: 169,712 entries
+# - DLC1: 38,554 entries
+# - DLC2: 24,152 entries
+# - Total: 232,418 entries → ~465 sessions at 500 entries/session
 
 # Working directory (SCRIPT_DIR already defined above for --unlock handling)
 WORKING_DIR="$(cd "$SCRIPT_DIR/.." && pwd)"
@@ -315,26 +333,83 @@ restore_progress_file() {
 }
 
 # Read retranslation progress (uses safe_jq_read)
+# Returns TOTAL entries across all phases (base_game + dlc1 + dlc2)
 get_progress_entries() {
     local progress_file="$WORKING_DIR/translation/.retranslation_progress.json"
-    safe_jq_read '.base_game.entries_completed // 0' "$progress_file" 0
+    local base_entries dlc1_entries dlc2_entries
+
+    base_entries=$(safe_jq_read '.base_game.entries_completed // 0' "$progress_file" 0)
+    dlc1_entries=$(safe_jq_read '.dlc1.entries_completed // 0' "$progress_file" 0)
+    dlc2_entries=$(safe_jq_read '.dlc2.entries_completed // 0' "$progress_file" 0)
+
+    echo $((base_entries + dlc1_entries + dlc2_entries))
 }
 
 # Check if retranslation is complete (uses safe_jq_read)
 is_retranslation_complete() {
     local progress_file="$WORKING_DIR/translation/.retranslation_progress.json"
-    local status_base status_dlc1 status_dlc2
+    local status_dlc1 status_dlc2
 
-    status_base=$(safe_jq_read '.files.base_game.status' "$progress_file" "in_progress")
-    status_dlc1=$(safe_jq_read '.files.dlc1.status' "$progress_file" "pending")
-    status_dlc2=$(safe_jq_read '.files.dlc2.status' "$progress_file" "pending")
+    # Check DLC1 and DLC2 completion (base_game is implicitly complete when DLC1 starts)
+    status_dlc1=$(safe_jq_read '.dlc1.status' "$progress_file" "not_started")
+    status_dlc2=$(safe_jq_read '.dlc2.status' "$progress_file" "not_started")
 
-    if [[ "$status_base" == "completed" ]] && \
-       [[ "$status_dlc1" == "completed" ]] && \
+    if [[ "$status_dlc1" == "completed" ]] && \
        [[ "$status_dlc2" == "completed" ]]; then
         return 0  # Complete
     fi
     return 1  # Not complete
+}
+
+# Get current phase from progress file
+get_current_phase() {
+    local progress_file="$WORKING_DIR/translation/.retranslation_progress.json"
+    safe_jq_read '.current_phase' "$progress_file" "base_game"
+}
+
+# Get target file path based on current phase
+get_target_file() {
+    local phase="$1"
+    case "$phase" in
+        "base_game") echo "$BASE_GAME_TARGET" ;;
+        "dlc1") echo "$DLC1_TARGET" ;;
+        "dlc2") echo "$DLC2_TARGET" ;;
+        *) echo "$BASE_GAME_TARGET" ;;
+    esac
+}
+
+# Get source file path based on current phase
+get_source_file() {
+    local phase="$1"
+    case "$phase" in
+        "base_game") echo "$BASE_GAME_SOURCE" ;;
+        "dlc1") echo "$DLC1_SOURCE" ;;
+        "dlc2") echo "$DLC2_SOURCE" ;;
+        *) echo "$BASE_GAME_SOURCE" ;;
+    esac
+}
+
+# Get Spanish reference file path based on current phase
+get_spanish_file() {
+    local phase="$1"
+    case "$phase" in
+        "base_game") echo "$BASE_GAME_SPANISH" ;;
+        "dlc1") echo "$DLC1_SPANISH" ;;
+        "dlc2") echo "$DLC2_SPANISH" ;;
+        *) echo "$BASE_GAME_SPANISH" ;;
+    esac
+}
+
+# Get current line from progress file based on phase
+get_current_line() {
+    local progress_file="$WORKING_DIR/translation/.retranslation_progress.json"
+    local phase="$1"
+    case "$phase" in
+        "base_game") safe_jq_read '.base_game.current_line // 390' "$progress_file" 390 ;;
+        "dlc1") safe_jq_read '.dlc1.current_line // 1' "$progress_file" 1 ;;
+        "dlc2") safe_jq_read '.dlc2.current_line // 1' "$progress_file" 1 ;;
+        *) echo "1" ;;
+    esac
 }
 
 # Main automation loop
@@ -348,9 +423,11 @@ log "INFO" "   - Structure Protection: Zero tolerance"
 log "INFO" "   - Sequential Processing: No skipping"
 log "INFO" "   - Triple Validation: Structure + Markers + Quality"
 log "INFO" ""
-log "INFO" "IMPORTANT: Currently processing BASE GAME ONLY"
-log "INFO" "  Base Game: 169,712 entries (Target: 100% completion)"
-log "INFO" "  DLC1/DLC2: Will be processed AFTER base game completion"
+log "INFO" "Total Project Scope:"
+log "INFO" "  Base Game: 169,712 entries"
+log "INFO" "  DLC1 (Battle of Steeltown): 38,554 entries"
+log "INFO" "  DLC2 (Cult of the Holy Detonation): 24,152 entries"
+log "INFO" "  Total: 232,418 entries"
 log "INFO" ""
 log "INFO" "Architecture: Based on successful auto-translate.sh pattern"
 log "INFO" "Max Memory: ${MAX_MEMORY_MB}MB, Entries/Session: $ENTRIES_PER_SESSION, Max Sessions: $MAX_SESSIONS"
@@ -789,8 +866,8 @@ EOF
         TOTAL_ENTRIES=$((TOTAL_ENTRIES + ENTRIES_THIS_SESSION))
 
         log "INFO" "Session #$SESSION_COUNT completed: $ENTRIES_THIS_SESSION entries translated"
-        log "INFO" "Cumulative total: $END_ENTRIES entries"
-        log "INFO" "  Base game progress: $END_ENTRIES / 169,712 (Target: 100% before DLC)"
+        log "INFO" "Cumulative total: $END_ENTRIES entries (base + dlc1 + dlc2)"
+        log "INFO" "  Total progress: $END_ENTRIES / 232,418 entries"
     fi
 
     # Check if retranslation is complete
@@ -819,14 +896,23 @@ EOF
     else
         ZERO_ENTRY_COUNT=0
 
+        # Get current phase and file paths for validation
+        CURRENT_PHASE=$(get_current_phase)
+        TARGET_FILE="$WORKING_DIR/$(get_target_file "$CURRENT_PHASE")"
+        SOURCE_FILE="$WORKING_DIR/$(get_source_file "$CURRENT_PHASE")"
+        REFERENCE_FILE="$WORKING_DIR/$(get_spanish_file "$CURRENT_PHASE")"
+        CURRENT_LINE=$(get_current_line "$CURRENT_PHASE")
+
+        log "INFO" "Current phase: $CURRENT_PHASE"
+
         # Validate structure before pushing
         log "INFO" "Running structure validation..."
         STRUCTURE_ERROR_FILE="$WORKING_DIR/automation/.structure_errors.log"
         rm -f "$STRUCTURE_ERROR_FILE"  # Clear old errors
 
         if ! python3 "$WORKING_DIR/translation/validate_structure_v2.py" \
-            "$WORKING_DIR/translation/target/v1.6.9.420.309496/ja_JP/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt" \
-            --source "$WORKING_DIR/translation/source/v1.6.9.420.309496/en_US/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt" \
+            "$TARGET_FILE" \
+            --source "$SOURCE_FILE" \
             --detailed > "$STRUCTURE_ERROR_FILE" 2>&1; then
             log "WARN" "✗ Structure validation FAILED - errors saved to .structure_errors.log"
             log "WARN" "  Next session will automatically fix these errors"
@@ -841,16 +927,16 @@ EOF
         QUALITY_ERROR_FILE="$WORKING_DIR/automation/.quality_errors.log"
         rm -f "$QUALITY_ERROR_FILE"  # Clear old errors
 
-        TARGET_FILE="$WORKING_DIR/translation/target/v1.6.9.420.309496/ja_JP/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt"
-        REFERENCE_FILE="$WORKING_DIR/translation/source/v1.6.9.420.309496/es_ES/StringTableData_Spanish-CAB-f95544f6ef35e8a6587dccfa911ba0f8-9130184510981781208.txt"
-
-        # Get current translation range from progress file
-        CURRENT_LINE=$(safe_jq_read '.files.base_game.current_line // 390' "$PROGRESS_FILE" 390)
+        # Start line depends on phase
+        local START_LINE=1
+        if [[ "$CURRENT_PHASE" == "base_game" ]]; then
+            START_LINE=390
+        fi
 
         if ! python3 "$WORKING_DIR/translation/validate_translation_quality.py" \
             "$TARGET_FILE" \
             --reference "$REFERENCE_FILE" \
-            --start-line 390 \
+            --start-line "$START_LINE" \
             --end-line "$CURRENT_LINE" \
             --glossary "$WORKING_DIR/translation/nouns_glossary.json" > "$QUALITY_ERROR_FILE" 2>&1; then
             log "WARN" "✗ Quality validation FAILED - errors saved to .quality_errors.log"
