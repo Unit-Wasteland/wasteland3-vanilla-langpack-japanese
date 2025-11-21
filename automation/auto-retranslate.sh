@@ -928,7 +928,7 @@ EOF
         rm -f "$QUALITY_ERROR_FILE"  # Clear old errors
 
         # Start line depends on phase
-        local START_LINE=1
+        START_LINE=1
         if [[ "$CURRENT_PHASE" == "base_game" ]]; then
             START_LINE=390
         fi
