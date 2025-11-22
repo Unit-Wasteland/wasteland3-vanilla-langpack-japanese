@@ -25,15 +25,15 @@
   "dlc1": {
     "status": "in_progress",
     "current_file": "StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
-    "current_line": 3967,
+    "current_line": 9527,
     "total_lines": 120559,
-    "entries_completed": 423,
+    "entries_completed": 1279,
     "total_entries": 38554,
-    "percent_complete": 1.1,
+    "percent_complete": 3.3,
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
-    "notes": "2025-11-21: Session 258 completed 297 entries. Total: 423 entries (1.1%). Translated sections: a1001_ludlow (49), a1001_marshalkwon (6), a1001_medbay_irv (3), a1001_museumexhibits (12), a1001_pizepi (7), a1001_psychopath_imprisonedatrangerhq (6), a1001_sergeigreatski (9), a1001_thewarden (10), a1001_vici (6), a2001_paperboy (26), a5101_patriarch_finaldialogue (2), a5101_thepatriarch_atpalace (14), companion_barks_robotengineer (147 translated + 49 Script Nodes). All validations passed with 0 errors."
+    "notes": "2025-11-22: Session 260 completed ~500 entries total. Sections: d_salenecrow (complete), d_steeltownguard (complete), d1001_advanceteam_scout (complete), d1001_angeladeth [0]-[97] (partial). All validations passed with 0 errors."
   },
   "dlc2": {
     "status": "not_started",
@@ -43,37 +43,28 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 258,
-    "date": "2025-11-21",
-    "entries_processed": 297,
+    "session_number": 260,
+    "date": "2025-11-22",
+    "entries_processed": 497,
     "sections_completed": [
-      "a1001_ludlow (49 entries)",
-      "a1001_marshalkwon (6 entries)",
-      "a1001_medbay_irv (3 entries)",
-      "a1001_museumexhibits (12 entries)",
-      "a1001_pizepi (7 entries, 1 Script Node)",
-      "a1001_psychopath_imprisonedatrangerhq (6 entries)",
-      "a1001_sergeigreatski (9 entries)",
-      "a1001_thewarden (10 entries)",
-      "a1001_vici (6 entries)",
-      "a2001_paperboy (26 entries, 5 Script Nodes)",
-      "a5101_patriarch_finaldialogue_propatriarchending_endgame (2 entries)",
-      "a5101_thepatriarch_atpalace (14 entries)",
-      "companion_barks_robotengineer (147 entries translated, 49 Script Nodes)"
+      "d_salenecrow entries [98]-[261] (164 entries - worker leader completion)",
+      "d_steeltownguard entries [0]-[99] (100 entries - guard/robot dialogue)",
+      "d1001_advanceteam_scout entries [0]-[14] (15 entries - scout intro)",
+      "d1001_angeladeth entries [0]-[97] (98 entries - Angela Deth major dialogue partial)"
     ],
-    "commit_hash": "pending",
+    "commit_hash": "3ca2cf86",
     "validation_passed": true,
-    "notes": "Session 258: Continued DLC1 translation from line 930. Processed 297 entries in 13 sections. Robot engineer companion barks fully translated. Structure validation: 0 errors. Action marker validation: 0 errors (markers preserved as ::english::).",
-    "next_action": "Continue DLC1 sequential translation from line 3967. Target: ~400 more entries per session. Next section: follower_bearsuit."
+    "notes": "Session 260: Completed d_salenecrow, d_steeltownguard, d1001_advanceteam_scout, partial d1001_angeladeth. Angela Deth dialogue includes Liberty/Patriarch plans and post-revolution Colorado discussion.",
+    "next_action": "Continue DLC1 sequential translation from d1001_angeladeth entry [98]. Remaining in section: 64 entries."
   },
   "cumulative_stats": {
-    "total_sessions": 258,
-    "total_entries_translated": 163856,
-    "untranslated_remaining": 68562,
-    "average_entries_per_session": 635.1,
+    "total_sessions": 260,
+    "total_entries_translated": 164712,
+    "untranslated_remaining": 67706,
+    "average_entries_per_session": 633.5,
     "estimated_sessions_remaining_base": 0,
     "estimated_days_remaining_base": "Complete",
-    "estimated_sessions_remaining_dlc1": 75,
+    "estimated_sessions_remaining_dlc1": 72,
     "estimated_days_remaining_dlc1": "2-3 days",
     "estimated_sessions_remaining_dlc2": 48,
     "estimated_days_remaining_dlc2": "1-2 days",
