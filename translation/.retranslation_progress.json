@@ -25,15 +25,15 @@
   "dlc1": {
     "status": "in_progress",
     "current_file": "StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
-    "current_line": 32953,
+    "current_line": 33577,
     "total_lines": 120559,
-    "entries_completed": 4221,
+    "entries_completed": 4300,
     "total_entries": 38554,
-    "percent_complete": 10.9,
+    "percent_complete": 11.2,
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
-    "notes": "2025-11-23: Session 275 completed 158 entries. Fixed Rangers terminology errors. Sections: d1001_blue (45), d1001_blue_radio (19), d1001_flushed_toilet (13), d1001_hotcommodities_patsy (11), d1001_orderup_h1n1 (16), d1001_orderup_robot (14), d1001_di_postraid (4), d1001_raiders_prefightleaderradiocall (6), d1001_raiders_prefightreactivity (30). All validations passed with 0 errors."
+    "notes": "2025-11-23: Session 276 completed 79 entries. Fixed 2 PQ entries + translated raiders rewards, Deirdre reunion quest, radio dialogues. All validations passed with 0 errors."
   },
   "dlc2": {
     "status": "not_started",
@@ -43,33 +43,28 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 275,
+    "session_number": 276,
     "date": "2025-11-23",
-    "entries_processed": 158,
+    "entries_processed": 79,
     "sections_completed": [
-      "d1001_blue (45 entries - Blue final dialogue)",
-      "d1001_blue_radio (19 entries - Blue radio messages)",
-      "d1001_flushed_toilet (13 entries - Toilet interaction)",
-      "d1001_hotcommodities_patsy (11 entries - Patsy exile dialogue)",
-      "d1001_orderup_h1n1 (16 entries - H1N1 loading dock)",
-      "d1001_orderup_robot (14 entries - Robot loading dock)",
-      "d1001_di_postraid (4 entries - Post-raid dialogue)",
-      "d1001_raiders_prefightleaderradiocall (6 entries - Pre-fight radio)",
-      "d1001_raiders_prefightreactivity (30 entries - Pre-fight reactions)"
+      "d1001_raiders_rewards (11 entries - Post-battle rewards)",
+      "d1001_deirdre (38 entries - Hallie mother reunion)",
+      "d1001_radio_gonzalez_reunitehallieanddeirdre (24 entries - Radio reunion)",
+      "d1001_radio_laperla_selldeirdreintoslavery (6 entries - Slave trade option)"
     ],
-    "commit_hash": "aa80c26c",
+    "commit_hash": "d0487e83",
     "validation_passed": true,
-    "notes": "Session 275: Fixed Rangers terminology (レンジャーズ to レンジャー). Blue dialogue, toilet interactions, raiders pre-fight. All validations passed with 0 errors.",
-    "next_action": "Continue DLC1 sequential translation from d1001_raiders_rewards at line 32953."
+    "notes": "Session 276: Fixed 2 PQ untranslated entries + translated 4 sections. Deirdre-Hallie reunion quest complete. All validations passed with 0 errors.",
+    "next_action": "Continue DLC1 sequential translation from d1101_blue at line 33577."
   },
   "cumulative_stats": {
-    "total_sessions": 275,
-    "total_entries_translated": 167657,
-    "untranslated_remaining": 64761,
-    "average_entries_per_session": 609.7,
+    "total_sessions": 276,
+    "total_entries_translated": 167736,
+    "untranslated_remaining": 64682,
+    "average_entries_per_session": 607.7,
     "estimated_sessions_remaining_base": 0,
     "estimated_days_remaining_base": "Complete",
-    "estimated_sessions_remaining_dlc1": 63,
+    "estimated_sessions_remaining_dlc1": 62,
     "estimated_days_remaining_dlc1": "2-3 days",
     "estimated_sessions_remaining_dlc2": 48,
     "estimated_days_remaining_dlc2": "1-2 days",
