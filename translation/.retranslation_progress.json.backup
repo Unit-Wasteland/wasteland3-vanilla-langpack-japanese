@@ -25,15 +25,15 @@
   "dlc1": {
     "status": "in_progress",
     "current_file": "StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
-    "current_line": 55363,
+    "current_line": 58938,
     "total_lines": 120559,
-    "entries_completed": 6829,
+    "entries_completed": 7280,
     "total_entries": 38554,
-    "percent_complete": 17.7,
+    "percent_complete": 18.9,
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
-    "notes": "2025-11-23: Session 291 completed 393 entries. Translated d2001_engineer (306), d2001_guard_arcology (71), d2001_guard_barracks (16). All validations passed with 0 errors."
+    "notes": "2025-11-23: Session 293 completed 271 entries. Translated int_markhampicture, markhamsecretsafe, warbot, lazarblazer, ludlow encounters, lunamoon, marcia, nursefirenze, nurse_asstrahmen. Fixed glossary [Attack]->[攻撃]. All validations passed."
   },
   "dlc2": {
     "status": "not_started",
@@ -43,32 +43,39 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 291,
+    "session_number": 293,
     "date": "2025-11-23",
-    "entries_processed": 393,
+    "entries_processed": 271,
     "sections_completed": [
-      "d2001_engineer (complete - 306 entries)",
-      "d2001_guard_arcology (complete - 71 entries)",
-      "d2001_guard_barracks (complete - 16 entries)"
+      "d2001_int_markhampicture (2 entries)",
+      "d2001_int_markhamsecretsafe (7 entries)",
+      "d2001_int_warbot (11 entries)",
+      "d2001_lazarblazer (86 entries)",
+      "d2001_ludlowreactivity_encounter1 (38 entries)",
+      "d2001_ludlowreactivity_encounter2 (29 entries)",
+      "d2001_lunamoon (8 entries)",
+      "d2001_marcia (55 entries)",
+      "d2001_nursefirenze (68 entries)",
+      "d2001_nurse_asstrahmen (34 entries)"
     ],
-    "commit_hash": "00127581",
+    "commit_hash": "5d20c053",
     "validation_passed": true,
-    "notes": "Session 291: Translated 3 sections (engineer robot, guard arcology, guard barracks). All validations passed with 0 errors.",
-    "next_action": "Continue DLC1 sequential translation from line 55363 (d2001_guard_safe - 28 entries)."
+    "notes": "Session 293: Fixed glossary violations [Attack]->[攻撃]. Translated 10 sections. All validations passed with 0 errors.",
+    "next_action": "Continue DLC1 sequential translation from line 58938 (next section after d2001_nurse_asstrahmen)."
   },
   "cumulative_stats": {
-    "total_sessions": 291,
-    "total_entries_translated": 170265,
-    "untranslated_remaining": 62153,
-    "average_entries_per_session": 585.1,
+    "total_sessions": 293,
+    "total_entries_translated": 170716,
+    "untranslated_remaining": 61702,
+    "average_entries_per_session": 582.6,
     "estimated_sessions_remaining_base": 0,
     "estimated_days_remaining_base": "Complete",
-    "estimated_sessions_remaining_dlc1": 54,
+    "estimated_sessions_remaining_dlc1": 52,
     "estimated_days_remaining_dlc1": "2-3 days",
     "estimated_sessions_remaining_dlc2": 48,
     "estimated_days_remaining_dlc2": "1-2 days",
     "total_lines_all_files": 728337,
     "project_status": "IN_PROGRESS",
-    "completion_date": "estimated 2025-11-25"
+    "completion_date": "estimated 2025-11-26"
   }
 }

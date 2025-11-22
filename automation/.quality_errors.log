@@ -1,0 +1,87 @@
+Validating: /home/claude/work/project-claude/wasteland3-vanilla-langpack-japanese/translation/target/v1.6.9.420.309496/ja_JP/DLC1/StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt
+Range: lines 1 to 58938
+Spanish reference: /home/claude/work/project-claude/wasteland3-vanilla-langpack-japanese/translation/source/v1.6.9.420.309496/es_ES/DLC1/StringTableData_Spanish-CAB-01cf4ea31238681a8e1bd9559c0f3f3e-7305399230875977342.txt
+Glossary: /home/claude/work/project-claude/wasteland3-vanilla-langpack-japanese/translation/nouns_glossary.json
+Loaded glossary: 279 terms
+Loaded Spanish reference: 38554 string data entries
+Loaded English source: 38554 string data entries
+
+================================================================================
+TRANSLATION QUALITY VALIDATION REPORT
+================================================================================
+
+Total issues found: 162
+
+[1] Action markers translated to Japanese: 0
+
+[2] Untranslated English entries: 143
+
+Sample issues (first 20):
+  Line 7918: Japanese text is identical to English source (untranslated)
+  Line 7932: Japanese text is identical to English source (untranslated)
+  Line 7936: Japanese text is identical to English source (untranslated)
+  Line 7938: Japanese text is identical to English source (untranslated)
+  Line 7940: Japanese text is identical to English source (untranslated)
+  Line 7942: Japanese text is identical to English source (untranslated)
+  Line 7944: Japanese text is identical to English source (untranslated)
+  Line 14218: Japanese text is identical to English source (untranslated)
+  Line 14222: Japanese text is identical to English source (untranslated)
+  Line 14228: Japanese text is identical to English source (untranslated)
+  Line 20662: Japanese text is identical to English source (untranslated)
+  Line 22566: Japanese text is identical to English source (untranslated)
+  Line 25866: Japanese text is identical to English source (untranslated)
+  Line 25884: Japanese text is identical to English source (untranslated)
+  Line 25886: Japanese text is identical to English source (untranslated)
+  Line 25888: Japanese text is identical to English source (untranslated)
+  Line 25916: Japanese text is identical to English source (untranslated)
+  Line 25918: Japanese text is identical to English source (untranslated)
+  Line 25920: Japanese text is identical to English source (untranslated)
+  Line 25922: Japanese text is identical to English source (untranslated)
+
+  ... and 123 more
+
+All untranslated line numbers (143 total):
+  7918, 7932, 7936, 7938, 7940, 7942, 7944, 14218, 14222, 14228
+  20662, 22566, 25866, 25884, 25886, 25888, 25916, 25918, 25920, 25922
+  25924, 25938, 32004, 32008, 32014, 32016, 32020, 32024, 32030, 32032
+  32034, 32036, 32038, 32902, 32930, 33058, 39776, 39778, 39780, 39782
+  39784, 39786, 39788, 39790, 39792, 39796, 39798, 39800, 39802, 39804
+  39806, 39808, 39810, 39812, 39814, 39816, 39818, 39820, 39822, 39826
+  39830, 39834, 39838, 39842, 39844, 39846, 39848, 39850, 39852, 39854
+  39856, 39858, 39860, 39864, 39866, 39868, 39870, 39872, 39874, 39876
+  39878, 39880, 39882, 39884, 39886, 39888, 39890, 39892, 39894, 39896
+  39898, 39900, 39902, 39904, 39906, 39908, 39910, 39912, 39914, 39916
+  39918, 39920, 39922, 39926, 39928, 39930, 39932, 39934, 39936, 39938
+  39942, 39944, 39946, 39948, 39950, 39952, 39958, 39960, 39962, 39964
+  39966, 40746, 41936, 42172, 46562, 46564, 46576, 50982, 50984, 50986
+  50992, 50996, 50998, 51000, 51002, 51004, 51006, 51010, 51020, 51022
+  51032, 54586, 54606
+
+[3] Bracket [] content translated to Japanese: 6
+
+Sample issues (first 20):
+  Line 34212: Bracket marker translated to Japanese (MUST keep English): [攻撃]
+  Line 34246: Bracket marker translated to Japanese (MUST keep English): [攻撃]
+  Line 34262: Bracket marker translated to Japanese (MUST keep English): [攻撃]
+  Line 56874: Bracket marker translated to Japanese (MUST keep English): [攻撃]
+  Line 57620: Bracket marker translated to Japanese (MUST keep English): [攻撃]
+  Line 57830: Bracket marker translated to Japanese (MUST keep English): [攻撃]
+
+[4] Glossary violations (incorrect terminology): 13
+
+Sample issues (first 20):
+  Line 11354: English proper noun 'Back' should be translated to '戻る'
+  Line 11358: English proper noun 'Back' should be translated to '戻る'
+  Line 29848: English proper noun 'Character' should be translated to 'キャラクター'
+  Line 57286: Incorrect translation 'レンジャーズ' should be 'レンジャー' (for 'Rangers')
+  Line 57290: Incorrect translation 'レンジャーズ' should be 'レンジャー' (for 'Rangers')
+  Line 57318: Incorrect translation 'レンジャーズ' should be 'レンジャー' (for 'Rangers')
+  Line 57320: Incorrect translation 'レンジャーズ' should be 'レンジャー' (for 'Rangers')
+  Line 57402: Incorrect translation 'レンジャーズ' should be 'レンジャー' (for 'Rangers')
+  Line 57646: Incorrect translation 'レンジャーズ' should be 'レンジャー' (for 'Rangers')
+  Line 57650: Incorrect translation 'レンジャーズ' should be 'レンジャー' (for 'Rangers')
+  Line 57652: Incorrect translation 'レンジャーズ' should be 'レンジャー' (for 'Rangers')
+  Line 57658: Incorrect translation 'レンジャーズ' should be 'レンジャー' (for 'Rangers')
+  Line 57838: Incorrect translation 'レンジャーズ' should be 'レンジャー' (for 'Rangers')
+
+================================================================================
