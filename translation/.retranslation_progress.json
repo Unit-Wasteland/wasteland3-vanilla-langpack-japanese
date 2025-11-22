@@ -25,15 +25,15 @@
   "dlc1": {
     "status": "in_progress",
     "current_file": "StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
-    "current_line": 67099,
+    "current_line": 70435,
     "total_lines": 120559,
-    "entries_completed": 8589,
+    "entries_completed": 8918,
     "total_entries": 38554,
-    "percent_complete": 22.3,
+    "percent_complete": 23.1,
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
-    "notes": "2025-11-23: Session 297 - completed 191 entries in 5 sections. All validations passed with 0 errors, 2 warnings (existing HTML tag issues)."
+    "notes": "2025-11-23: Session 298 - completed 329 entries in 8 sections. All validations passed with 0 errors, 2 warnings (existing HTML tag issues)."
   },
   "dlc2": {
     "status": "not_started",
@@ -43,25 +43,28 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 297,
+    "session_number": 298,
     "date": "2025-11-23",
-    "entries_processed": 191,
+    "entries_processed": 329,
     "sections_completed": [
-      "d2001_orderup_admin3 (30 entries)",
-      "d2001_workingstiff_valve (8 entries)",
-      "d2001_guard_markhamoffice (5 entries)",
-      "d2101_combatbarks_workers (130 entries)",
-      "d2101_companionbarks (18 entries)"
+      "d2101_crow (17 entries)",
+      "d2101_crow_intercom (38 entries)",
+      "d2101_cutscene_intro (14 entries)",
+      "d2101_di_factory_barks (56 entries)",
+      "d2101_dogbot (12 entries)",
+      "d2101_ellen (37 entries)",
+      "d2101_factorycomputer (20 entries)",
+      "d2101_giles (135 entries)"
     ],
-    "commit_hash": "pending",
+    "commit_hash": "07bb6b9f",
     "validation_passed": true,
-    "notes": "Session 297: Fixed false positive quality errors (146 were dev/debug text). Translated 5 sections. All validations passed with 0 errors.",
-    "next_action": "Continue DLC1 sequential translation from line 67099 (next section: d2101_crow)."
+    "notes": "Session 298: Translated 8 sections. All validations passed with 0 errors, 2 warnings.",
+    "next_action": "Continue DLC1 sequential translation from line 70435 (next section: d2101_giles_guard_barks)."
   },
   "cumulative_stats": {
-    "total_sessions": 297,
-    "total_entries_translated": 172025,
-    "untranslated_remaining": 60393,
+    "total_sessions": 298,
+    "total_entries_translated": 172354,
+    "untranslated_remaining": 60064,
     "average_entries_per_session": 581.9,
     "estimated_sessions_remaining_base": 0,
     "estimated_days_remaining_base": "Complete",
