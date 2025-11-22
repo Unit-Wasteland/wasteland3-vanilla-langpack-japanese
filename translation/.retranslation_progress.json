@@ -25,15 +25,15 @@
   "dlc1": {
     "status": "in_progress",
     "current_file": "StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
-    "current_line": 18489,
+    "current_line": 19513,
     "total_lines": 120559,
-    "entries_completed": 2484,
+    "entries_completed": 2724,
     "total_entries": 38554,
-    "percent_complete": 6.4,
+    "percent_complete": 7.1,
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
-    "notes": "2025-11-23: Session 265 completed ~90 entries. Section: d1001_drbreeler [211]-[298] (90 entries - completed Dr. Breeler section). All validations passed with 0 errors."
+    "notes": "2025-11-23: Session 266 completed ~240 entries. Sections: d1001_follower_bearsuitvinters (92 entries - man in bear suit), d1001_george_fakemichael (75 entries - George/Michael deception quest). All validations passed with 0 errors."
   },
   "dlc2": {
     "status": "not_started",
@@ -43,21 +43,22 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 265,
+    "session_number": 266,
     "date": "2025-11-23",
-    "entries_processed": 90,
+    "entries_processed": 240,
     "sections_completed": [
-      "d1001_drbreeler [211]-[298] (90 entries - completed Dr. Breeler Medical Evaluation Center)"
+      "d1001_follower_bearsuitvinters (92 entries - person in bear suit, humorous encounter)",
+      "d1001_george_fakemichael (75 entries - George impersonating Michael to kidnap Marcia)"
     ],
-    "commit_hash": "dc222868",
+    "commit_hash": "74a838a5",
     "validation_passed": true,
-    "notes": "Session 265: Completed d1001_drbreeler section (entries 211-298). Includes dialogue about job assignments, employee benefits, evaluation results. All validations passed with 0 errors.",
-    "next_action": "Continue DLC1 sequential translation from d1001_follower_bearsuitvinters [0] at line 18489."
+    "notes": "Session 266: Translated two complete sections. Bear suit section features comedic dialogue. George/Marcia section is a dark story about kidnapping and murder. All validations passed with 0 errors.",
+    "next_action": "Continue DLC1 sequential translation from d1001_ghostgang_squadleader [0] at line 19513."
   },
   "cumulative_stats": {
-    "total_sessions": 265,
-    "total_entries_translated": 165917,
-    "untranslated_remaining": 66501,
+    "total_sessions": 266,
+    "total_entries_translated": 166157,
+    "untranslated_remaining": 66261,
     "average_entries_per_session": 628.1,
     "estimated_sessions_remaining_base": 0,
     "estimated_days_remaining_base": "Complete",
