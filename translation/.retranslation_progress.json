@@ -25,15 +25,15 @@
   "dlc1": {
     "status": "in_progress",
     "current_file": "StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
-    "current_line": 34525,
+    "current_line": 35215,
     "total_lines": 120559,
-    "entries_completed": 4414,
+    "entries_completed": 4525,
     "total_entries": 38554,
-    "percent_complete": 11.5,
+    "percent_complete": 11.7,
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
-    "notes": "2025-11-23: Session 277 completed 114 entries. Translated d1101_blue (96 entries) and d1101_bluegoons (18 entries). All validations passed with 0 errors."
+    "notes": "2025-11-23: Session 278 completed 111 entries. Translated d1101_blue_2 (90 entries) and d1101_lootpile (21 entries). All validations passed with 0 errors."
   },
   "dlc2": {
     "status": "not_started",
@@ -43,23 +43,23 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 277,
+    "session_number": 278,
     "date": "2025-11-23",
-    "entries_processed": 114,
+    "entries_processed": 111,
     "sections_completed": [
-      "d1101_blue (96 entries - Blue Ghost Gang dialogue)",
-      "d1101_bluegoons (18 entries - Gang member ambient)"
+      "d1101_blue_2 (90 entries - Blue factory worker conversation, Di confrontation)",
+      "d1101_lootpile (21 entries - Money pile interaction)"
     ],
-    "commit_hash": "9a30f83f",
+    "commit_hash": "pending",
     "validation_passed": true,
-    "notes": "Session 277: Fixed RADIO CRACKLES translation + translated Blue and bluegoons dialogue sections. Car theft confrontation, money discovery, FADER identity reveal. All validations passed with 0 errors.",
-    "next_action": "Continue DLC1 sequential translation from d1101_blue_2 at line 34525."
+    "notes": "Session 278: Fixed 3 bracket marker errors first, then translated Blue-2 and lootpile sections. Factory history, Computation Engine origin, Crow leadership offer. All validations passed with 0 errors.",
+    "next_action": "Continue DLC1 sequential translation from d1201_blue at line 35215."
   },
   "cumulative_stats": {
-    "total_sessions": 277,
-    "total_entries_translated": 167850,
-    "untranslated_remaining": 64568,
-    "average_entries_per_session": 606.1,
+    "total_sessions": 278,
+    "total_entries_translated": 167961,
+    "untranslated_remaining": 64457,
+    "average_entries_per_session": 604.2,
     "estimated_sessions_remaining_base": 0,
     "estimated_days_remaining_base": "Complete",
     "estimated_sessions_remaining_dlc1": 61,
