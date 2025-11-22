@@ -25,15 +25,15 @@
   "dlc1": {
     "status": "in_progress",
     "current_file": "StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
-    "current_line": 9527,
+    "current_line": 14320,
     "total_lines": 120559,
-    "entries_completed": 1279,
+    "entries_completed": 1779,
     "total_entries": 38554,
-    "percent_complete": 3.3,
+    "percent_complete": 4.6,
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
-    "notes": "2025-11-22: Session 260 completed ~500 entries total. Sections: d_salenecrow (complete), d_steeltownguard (complete), d1001_advanceteam_scout (complete), d1001_angeladeth [0]-[97] (partial). All validations passed with 0 errors."
+    "notes": "2025-11-22: Session 261 completed ~500 entries. Sections: d1001_bennie_refugee (complete), d1001_brotherthomas (1 entry), d1001_bugboyfriend (79 entries), d1001_buggirlfriend (8 entries), d1001_car01 (10 entries), d1001_car02 (18 entries), d1001_car03 (18 entries), d1001_carla entries [0]-[286] (287 entries). All validations passed with 0 errors. Fixed 3 quote count mismatches."
   },
   "dlc2": {
     "status": "not_started",
@@ -43,25 +43,29 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 260,
+    "session_number": 261,
     "date": "2025-11-22",
-    "entries_processed": 497,
+    "entries_processed": 500,
     "sections_completed": [
-      "d_salenecrow entries [98]-[261] (164 entries - worker leader completion)",
-      "d_steeltownguard entries [0]-[99] (100 entries - guard/robot dialogue)",
-      "d1001_advanceteam_scout entries [0]-[14] (15 entries - scout intro)",
-      "d1001_angeladeth entries [0]-[97] (98 entries - Angela Deth major dialogue partial)"
+      "d1001_bennie_refugee [41]-[51] (completed from previous session)",
+      "d1001_brotherthomas [0] (1 entry)",
+      "d1001_bugboyfriend [0]-[78] (79 entries - Bug looking for Nova)",
+      "d1001_buggirlfriend [0]-[7] (8 entries - Nova mourning Bug)",
+      "d1001_car01 [0]-[9] (10 entries - racing car puzzle)",
+      "d1001_car02 [0]-[17] (18 entries - racing buggy puzzle)",
+      "d1001_car03 [0]-[17] (18 entries - police car puzzle)",
+      "d1001_carla [0]-[286] (287 entries - Carla Asphalt-Runner major dialogue)"
     ],
-    "commit_hash": "3ca2cf86",
+    "commit_hash": "pending",
     "validation_passed": true,
-    "notes": "Session 260: Completed d_salenecrow, d_steeltownguard, d1001_advanceteam_scout, partial d1001_angeladeth. Angela Deth dialogue includes Liberty/Patriarch plans and post-revolution Colorado discussion.",
-    "next_action": "Continue DLC1 sequential translation from d1001_angeladeth entry [98]. Remaining in section: 64 entries."
+    "notes": "Session 261: Major progress on DLC1 - Carla Asphalt-Runner dialogue (truck theft, Scar Collectors, Ghost Gang, Corvette of the Red Sun quest). Fixed 3 quote count mismatches for embedded quotes.",
+    "next_action": "Continue DLC1 sequential translation from d1001_carla entry [287]. Remaining in section: ~77 entries."
   },
   "cumulative_stats": {
-    "total_sessions": 260,
-    "total_entries_translated": 164712,
-    "untranslated_remaining": 67706,
-    "average_entries_per_session": 633.5,
+    "total_sessions": 261,
+    "total_entries_translated": 165212,
+    "untranslated_remaining": 67206,
+    "average_entries_per_session": 633.0,
     "estimated_sessions_remaining_base": 0,
     "estimated_days_remaining_base": "Complete",
     "estimated_sessions_remaining_dlc1": 72,
