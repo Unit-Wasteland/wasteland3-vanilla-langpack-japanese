@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """
-Unity StringTable構造検証スクリプト v2.0
+Unity StringTable構造検証スクリプト v2.1
 
 このスクリプトは英語ソースと日本語ターゲットを厳密に比較します:
 - 行数の一致
+- 配列インデックスの一致（[0], [1], [2]...）
 - 各行の引用符の数の一致
 - ゲーム変数の保持確認
 
@@ -62,6 +63,9 @@ class StrictStructureValidator:
 
         results['total_lines'] = len(source_lines)
 
+        # 配列インデックスの検証
+        self._check_array_indices(source_lines, target_lines, results)
+
         # 各行を検証
         for i, (src_line, tgt_line) in enumerate(zip(source_lines, target_lines), 1):
             if 'string data = ' not in src_line:
@@ -108,6 +112,44 @@ class StrictStructureValidator:
         results['warning_count'] = len(results['warnings'])
 
         return results
+
+    def _check_array_indices(self, source_lines: list, target_lines: list, results: Dict):
+        """配列インデックスが英語ソースと一致しているか確認"""
+        index_pattern = re.compile(r'^\s+\[(\d+)\]\s*$')
+
+        for i, (src_line, tgt_line) in enumerate(zip(source_lines, target_lines), 1):
+            src_match = index_pattern.match(src_line)
+            tgt_match = index_pattern.match(tgt_line)
+
+            # ソースが配列インデックスの行
+            if src_match:
+                if not tgt_match:
+                    # ターゲットに配列インデックスがない
+                    results['errors'].append({
+                        'line': i,
+                        'type': 'ARRAY_INDEX_MISSING',
+                        'message': f'配列インデックスが欠落: ソース=[{src_match.group(1)}]',
+                        'source': src_line.strip(),
+                        'target': tgt_line.strip()[:60]
+                    })
+                elif src_match.group(1) != tgt_match.group(1):
+                    # 配列インデックスの値が異なる
+                    results['errors'].append({
+                        'line': i,
+                        'type': 'ARRAY_INDEX_MISMATCH',
+                        'message': f'配列インデックス不一致: ソース=[{src_match.group(1)}], ターゲット=[{tgt_match.group(1)}]',
+                        'source': src_line.strip(),
+                        'target': tgt_line.strip()
+                    })
+            # ターゲットだけが配列インデックスの行（余分なインデックス）
+            elif tgt_match and not src_match:
+                results['errors'].append({
+                    'line': i,
+                    'type': 'ARRAY_INDEX_EXTRA',
+                    'message': f'余分な配列インデックス: ターゲット=[{tgt_match.group(1)}]',
+                    'source': src_line.strip()[:60],
+                    'target': tgt_line.strip()
+                })
 
     def _check_game_variables(self, src_line: str, tgt_line: str, line_num: int, results: Dict):
         """ゲーム変数が保持されているか確認"""
@@ -203,7 +245,7 @@ class StrictStructureValidator:
 def print_results(results: Dict, detailed: bool = False):
     """検証結果を表示"""
     print("=" * 80)
-    print("Unity StringTable 厳格構造検証結果 v2.0")
+    print("Unity StringTable 厳格構造検証結果 v2.1")
     print("=" * 80)
     print(f"総行数: {results['total_lines']:,}")
     print(f"string data行数: {results['string_data_lines']:,}")
@@ -212,6 +254,7 @@ def print_results(results: Dict, detailed: bool = False):
 
     if results['error_count'] == 0 and results['warning_count'] == 0:
         print("\n✓ 構造検証: 問題なし")
+        print("✓ 配列インデックスが一致しています")
         print("✓ 全ての行で引用符の数が一致しています")
         print("✓ ゲーム変数が保持されています")
     else:
@@ -273,7 +316,7 @@ def print_results(results: Dict, detailed: bool = False):
 
 def main():
     parser = argparse.ArgumentParser(
-        description='Unity StringTable厳格構造検証スクリプト v2.0',
+        description='Unity StringTable厳格構造検証スクリプト v2.1',
         formatter_class=argparse.RawDescriptionHelpFormatter
     )
     parser.add_argument('file', help='検証する翻訳ファイル')
@@ -293,7 +336,7 @@ def main():
     # エクスポート
     if args.export and (results['errors'] or results['warnings']):
         with open(args.export, 'w', encoding='utf-8') as f:
-            f.write("# Unity StringTable 厳格構造検証結果 v2.0\n\n")
+            f.write("# Unity StringTable 厳格構造検証結果 v2.1\n\n")
             f.write(f"ターゲットファイル: {args.file}\n")
             f.write(f"ソースファイル: {args.source}\n")
             f.write(f"エラー: {results['error_count']}件\n")

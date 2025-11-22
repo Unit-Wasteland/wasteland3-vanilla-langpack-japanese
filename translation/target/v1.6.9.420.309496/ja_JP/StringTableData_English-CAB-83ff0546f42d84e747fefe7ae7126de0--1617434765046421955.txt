@@ -436698,40 +436698,40 @@
        0 int size = 18
        [0]
         1 string data = ""
+       [1]
         1 string data = "道のカーブを曲がると、ドーシーの待ち伏せに直進してしまう。しまった！"
-        1 string data = "You come around a bend in the road and drive right into a Dorsey ambush. Oops!"
+       [2]
         1 string data = "道端で立ったまま昼食を取っていると、見られているような気がする。ドーシーだ！"
-        1 string data = "You're having a stand-up lunch by the side of the road when you get the feeling you're being watched. It's the Dorseys!"
+       [3]
         1 string data = "手遅れになるまでドーシーに気づかなかった。今、彼らは武器を構えている。決断の時だ。"
-        1 string data = "You didn't see those Dorseys until it was way too late. Now they're raising their weapons. Decision time."
+       [4]
         1 string data = "まあ、罠にはまったな。ドーシーが先手を取っている。さて、どうする？"
-        1 string data = "Well, you walked into that. The Dorseys have the drop on you. Now what?"
+       [5]
         1 string data = "前方の道路が塞がれている。バックし始めると、武装した人影が後方の道路を遮断する。クソッ！ドーシーだ！"
-        1 string data = "The road is blocked ahead. As you start to reverse, armed figures cut off the road behind you. Shit! It's the Dorseys!"
+       [6]
         1 string data = "[Small Chance to Escape] アクセル全開で罠から抜け出そうとする。"
-        1 string data = "[Small Chance to Escape] Put the pedal to the metal and try to drive out of the trap."
+       [7]
         1 string data = "弾丸が車体に打ち付けられ頭上を唸りながら通り過ぎる中、全速力で間一髪で脱出する。ふう！"
-        1 string data = "With bullets battering the bodywork and whistling overhead, you floor it and escape by the skin of your teeth. Whew!"
+       [8]
         1 string data = "それにはもう手遅れだ。アクセルに触れる前に、弾丸が激しく飛び交う。飛び出して着弾に備える時だ。"
-        1 string data = "It's far too late for that. Before you can even touch the gas, the bullets are flying thick and fast. Time to pile out and brace for incoming fire. "
        [9]
         1 string data = ""
        [10]
         1 string data = ""
        [11]
         1 string data = ""
+       [12]
         1 string data = "地形を利用して脱出する。"
-        1 string data = "Take advantage of the terrain to escape."
        [13]
-        1 string data = "コディアックの能力を理解していなかったドーシーは、荒れた地形の一帯を封鎖していなかった。ローギアに 入れて岩場を突破し、追撃を振り切る。"
+        1 string data = "コディアックの能力を理解していなかったドーシーは、荒れた地形の一帯を封鎖していなかった。ローギアに入れて岩場を突破し、追撃を振り切る。"
+       [14]
         1 string data = "この馬鹿どもを怯ませてから攻撃する。"
-        1 string data = "Scare these idiots into blinking, then attack."
-        1 string data = "拡声器に向かって叫ぶ。「ここには戦術核があるぞ、クソッタレども！撃てば全員吹き飛ぶ！」\n\n\n一瞬躊躇させただけだったが、必要なのは一瞬だけだった。"
-        1 string data = "You get on the loudspeaker. "We got a tactical nuke in here, motherfuckers! Start shooting and we all go!"\n\n\nIt only makes them hesitate for a second, but a second was all you needed."
+       [15]
+        1 string data = ""拡声器に向かって叫ぶ。「ここには戦術核があるぞ、クソッタレども！撃てば全員吹き飛ぶ！」\n\n\n一瞬躊躇させただけだったが、必要なのは一瞬だけだった。""
+       [16]
         1 string data = "自衛する。"
-        1 string data = "Defend yourself. "
+       [17]
         1 string data = "ドーシーの攻撃に備える。"
-        1 string data = "You brace yourself for the Dorseys' attack."
    [1593]
     0 StringTable data
      1 string Filename = "y_combat04_scarcollectorsattack"
@@ -436942,32 +436942,32 @@
        0 int size = 49
        [0]
         1 string data = "Script Node 1"
+       [1]
         1 string data = "肉と機械の臭いが押し寄せてくる。すぐ先を見ると、大量のスカー・コレクターが戦争の準備をしている。待ち伏せか、それとも無防備な町を襲おうとしているのか？"
-        1 string data = "The smell of flesh and machine washes over you. Looking just ahead you see a large group of Scar Collectors preparing for war. Is it an ambush or are they about to unleash on some unsuspecting town?"
+       [2]
         1 string data = "別のスカー・コレクターの集団が集まっており、トラブルを探している。四肢に取り付けた武器を熱心に準備しているのが見える。"
-        1 string data = "Another group of Scar Collectors has pooled up and is looking for trouble. You can see them preparing their limb-attached weaponry in eager anticipation."
+       [3]
         1 string data = "どうする？"
-        1 string data = "What do you do?"
+       [4]
         1 string data = "[Attack] 命令が下され、ノベンバーが位置に就く。"
-        1 string data = "[Attack] Orders are given and November moves into position."
+       [5]
         1 string data = "[Attack] ノベンバーが戦闘に突撃！"
-        1 string data = "[Attack] November charges into battle!"
+       [6]
         1 string data = "[Flee] スカー・コレクターから静かに離れるよう全員に指示する。できれば気づかれずに。"
-        1 string data = "[Flee] You direct everyone to move quietly away from the Scar Collectors, ideally unnoticed."
+       [7]
         1 string data = "[Flee] 最寄りの脱出口に向かって全速力で逃げる！"
-        1 string data = "[Flee] You book it for the nearest escape!"
+       [8]
         1 string data = "[Success] チームは素早く静かに位置に就く。スカー・コレクターはパーツをいじるのに夢中で、気づきもしない。先手を取った！"
-        1 string data = "[Success] The team moves into position quickly and quietly. The Scar Collectors, busy manipulating their parts, don't even notice. You've got the drop on them!"
+       [9]
         1 string data = "スカー・コレクターは常に戦闘準備ができている。スカー・コレクターが統一された激怒の叫びをあげ、チームは動揺する。戦いは血なまぐさくなるだろう！"
-        1 string data = "The Scar Collectors are always ready for combat. The Team is put off-kilter as the Scar Collectors join in a unified scream of rage. The fight will be bloody!"
        [10]
         1 string data = "Script Node 11"
        [11]
         1 string data = "Script Node 12"
+       [12]
         1 string data = "[Success] スカー・コレクターは互いの実力を試すことに夢中のようだ。あなたとチームは気づかれずに逃げることができる。"
-        1 string data = "[Success] The Scar Collectors seem to be preoccupied with testing their mettle against each other. You and the team are able to slip away unnoticed."
+       [13]
         1 string data = "[Fail] スカー・コレクターから急いで離れようとすると、恐ろしい叫び声が響く。ほとんどがこちらを指差しており、数名は既に武器を向けている。見つかった！"
-        1 string data = "[Fail] You all begin hustling away from the Scar Collectors when a hoarifying yell rings out. Most of them are pointing in your direction and several are already pointing weapons. You got caught!"
        [14]
         1 string data = "Script Node 15"
        [15]
@@ -503904,11 +503904,11 @@
         1 string data = "調味料台帳"
        [3000]
         1 string data = "この食べ物の染みがついたノートのページは、一連の調味料実験のレシピ、メモ、事後報告で埋め尽くされている。最後のエントリには"塩、オニオンパウダー、ガーリックパウダー、醤油、粉砕したバイソンの骨を等量。失敗！常に失敗！いつになるんだ、神よ！？いつあの天国の銀色パケットの味を見つけられるんだ！？"と書かれている。"
-        1 string data = "この食べ物の染みがついたノートのページは、一連の調味料実験のレシピ、メモ、事後報告で埋め尽くされている。最後のエントリには"塩、オニオンパウダー、ガーリックパウダー、醤油、粉砕したバイソンの骨を等量。失敗！常に失敗！いつになるんだ、神よ！？いつあの天国の銀色パケットの味を見つけられるんだ！？"と書かれている。"
+       [3001]
         1 string data = "楽譜"
        [3002]
         1 string data = "パリアッチから"衣装をつけろ"の歌詞付き楽譜。下線が引かれているのは"バッ！お前は男か？お前はピエロだ！"という言葉だ。"
-        1 string data = "パリアッチから"衣装をつけろ"の歌詞付き楽譜。下線が引かれているのは"バッ！お前は男か？お前はピエロだ！"という言葉だ。"
+       [3003]
         1 string data = "申し込みシート"
        [3004]
         1 string data = ""チキンファイト・バトルロイヤルに申し込もう!10チームが湖に入るが、勝利を手にするのは1チームだけ!プレミアムクラブメンバーの申し込み受付中。(ご注意!参加者は過失致死免責書にも署名する必要があります。ありがとうございます!)""
@@ -503932,7 +503932,7 @@
         1 string data = "インカンデッセント・インサイザーズブランド歯のホワイトニングジェル"
        [3014]
         1 string data = "この瓶には"ダリアス、このクソを見つけるのがどんどん難しく危険になってきている。この仕事の価格を再交渉しなきゃならん、マジで"と書かれたメモが結びつけられている。"
-        1 string data = "この瓶には"ダリアス、このクソを見つけるのがどんどん難しく危険になってきている。この仕事の価格を再交渉しなきゃならん、マジで"と書かれたメモが結びつけられている。"
+       [3015]
         1 string data = "破れたギリースーツ"
        [3016]
         1 string data = "この破れたギリースーツは、着用者を腰から上だけ適切にカモフラージュする。"
@@ -503940,7 +503940,7 @@
         1 string data = "トロイの日記"
        [3018]
         1 string data = "表紙に山ほどのペニスが描かれた小さな本で、"トロイの乳搾り 絶対読むな！"という言葉がある。別の筆跡で誰かが一言加えている。"モー！""
-        1 string data = "表紙に山ほどのペニスが描かれた小さな本で、"トロイの乳搾り 絶対読むな！"という言葉がある。別の筆跡で誰かが一言加えている。"モー！""
+       [3019]
         1 string data = "ジャンをマーシャに変えよう"
        [3020]
         1 string data = "大家族であることの試練と苦難のための自己啓発本。"
@@ -503952,7 +503952,7 @@
         1 string data = "ホルムアルデヒド漬けの虫"
        [3024]
         1 string data = "爪のある尾と大きく開いた口を持つ大きな虫のような生物を含むホルムアルデヒドの瓶。大胆にデザインされたラベルには"スライドロックボルターの胎児？あなたが決めて！"と書かれている。"
-        1 string data = "爪のある尾と大きく開いた口を持つ大きな虫のような生物を含むホルムアルデヒドの瓶。大胆にデザインされたラベルには"スライドロックボルターの胎児？あなたが決めて！"と書かれている。"
+       [3025]
         1 string data = "戦前の強力な調査報道、ツンドラの怪物についての真実を広める。"
        [3026]
         1 string data = "アラステア・フーンが両親のために録音したメッセージ。このテープは明らかに何度も再生されている。"
@@ -503964,7 +503964,7 @@
         1 string data = "このテープは、数十年前の総主教とモンスター軍の戦争にさかのぼる。"
        [3030]
         1 string data = "このテープの美しく書かれたラベルには"最後の言葉"と書かれている。"
-        1 string data = "このテープの美しく書かれたラベルには"最後の言葉"と書かれている。"
+       [3031]
         1 string data = "たくさんの麺 - マサトのみで！"
        [3032]
         1 string data = "古代のテープで、火の大洪水にほぼさかのぼり、ビザールの最初の入植者の言葉を含んでいる。"
@@ -503982,21 +503982,21 @@
         1 string data = "何らかの神秘的な大洪水前の儀式の記録。それは何を意味するのか？"
        [3039]
         1 string data = "ラベルには"宇宙居住区の日常記録"と書かれている。"
-        1 string data = "ラベルには"宇宙居住区の日常記録"と書かれている。"
+       [3040]
         1 string data = "このカセットのラベルは血の汚れの下でほぼ判読不能だ。"君が俺を作った"という言葉は読み取れるが、それ以外は何も。"
-        1 string data = "このカセットのラベルは血の汚れの下でほぼ判読不能だ。"君が俺を作った"という言葉は読み取れるが、それ以外は何も。"
+       [3041]
         1 string data = "このカセットには血の汚れと...皮膚？の痕跡以外のラベルはない。"
        [3042]
         1 string data = "黙示録前のユマ郡スピードウェイでのエキサイティングなレースの記録。"
        [3043]
         1 string data = "ラベルには大きなフォントで"クラウンバーガーの作り方"と書かれている。小さな注釈には"お前どうかしてるのか？"と書かれている。"
-        1 string data = "ラベルには大きなフォントで"クラウンバーガーの作り方"と書かれている。小さな注釈には"お前どうかしてるのか？"と書かれている。"
+       [3044]
         1 string data = "風力発電所で働いていた戦前の技術者の記録。"
        [3045]
         1 string data = "釣り針凧デザイン"
        [3046]
         1 string data = "通常尾がある場所に巨大な釣り針が付いた凧の急いでスケッチされた設計図。絵の横のメモには"神を捕まえるフックがないのに、なぜ凧を餌にするのか？"と書かれている。"
-        1 string data = "通常尾がある場所に巨大な釣り針が付いた凧の急いでスケッチされた設計図。絵の横のメモには"神を捕まえるフックがないのに、なぜ凧を餌にするのか？"と書かれている。"
+       [3047]
         1 string data = "公式らしき手紙"
        [3048]
         1 string data = "総主教によって署名された丁寧に書かれた手紙。"
@@ -504026,7 +504026,7 @@
         1 string data = "ホームステッドの鍵"
        [3061]
         1 string data = "小さな錆びた鍵。裏に"Gett"という言葉が引っ掻かれている。"
-        1 string data = "小さな錆びた鍵。裏に"Gett"という言葉が引っ掻かれている。"
+       [3062]
         1 string data = "ザ・フィオレンティーノ"
        [3063]
         1 string data = "スクラフ・ホーク"

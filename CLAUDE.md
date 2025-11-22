@@ -352,6 +352,7 @@ wc -l translation/target/v1.6.9.420.309496/ja_JP/*.txt
 4. **Format Preservation** ⚠️ CRITICAL
 
    **Structure Protection - NEVER do these:**
+   - ❌ **NEVER modify array indices**: `[0]`, `[1]`, `[2]`... lines MUST remain exactly as English source (causes game crash if changed)
    - ❌ **NEVER use quote escape sequences**: `\"` is FORBIDDEN (Unity format doesn't need quote escaping)
    - ❌ **NEVER use Japanese brackets as quote replacements**: `「」` `『』` as structural quotes will break the file
    - ❌ **NEVER use full-width quotes**: `""` `''` are not valid
@@ -359,6 +360,24 @@ wc -l translation/target/v1.6.9.420.309496/ja_JP/*.txt
    - ❌ **NEVER translate structure markers**: Keep `[]`, `<>`, `::action::` exactly as-is
    - ✅ **DO preserve text control characters**: Keep `\n`, `\r`, `\t` within text content
    - ✅ **DO use Japanese brackets inside text**: `"彼女は「こんにちは」と言った。"` is valid (brackets inside, not replacing quotes)
+
+   **Array Index Protection (CRITICAL - causes game crash):**
+
+   Unity StringTable files contain array indices like `[0]`, `[1]`, `[2]`... that MUST NOT be modified:
+   ```
+          [0]
+           1 string data = ""
+          [1]
+           1 string data = "Text entry 1"
+          [2]
+           1 string data = "Text entry 2"
+   ```
+
+   **Rules:**
+   - Array index lines (`[n]`) must match English source EXACTLY - same line position, same number
+   - NEVER delete, add, or modify array index lines
+   - NEVER replace array index lines with translated text
+   - If validation reports `ARRAY_INDEX_MISSING`, `ARRAY_INDEX_MISMATCH`, or `ARRAY_INDEX_EXTRA` errors, the file is corrupted and will crash the game
 
    **Quote format rules (MANDATORY):**
 

@@ -25,15 +25,15 @@
   "dlc1": {
     "status": "in_progress",
     "current_file": "StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
-    "current_line": 930,
+    "current_line": 3967,
     "total_lines": 120559,
-    "entries_completed": 126,
+    "entries_completed": 423,
     "total_entries": 38554,
-    "percent_complete": 0.3,
+    "percent_complete": 1.1,
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
-    "notes": "2025-11-21: DLC1 translation started. Session 257 completed 126 entries. Replaced broken file with clean English source. Sequential translation from line 1. All validations passed with 0 errors."
+    "notes": "2025-11-21: Session 258 completed 297 entries. Total: 423 entries (1.1%). Translated sections: a1001_ludlow (49), a1001_marshalkwon (6), a1001_medbay_irv (3), a1001_museumexhibits (12), a1001_pizepi (7), a1001_psychopath_imprisonedatrangerhq (6), a1001_sergeigreatski (9), a1001_thewarden (10), a1001_vici (6), a2001_paperboy (26), a5101_patriarch_finaldialogue (2), a5101_thepatriarch_atpalace (14), companion_barks_robotengineer (147 translated + 49 Script Nodes). All validations passed with 0 errors."
   },
   "dlc2": {
     "status": "not_started",
@@ -43,27 +43,37 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 257,
+    "session_number": 258,
     "date": "2025-11-21",
-    "entries_processed": 126,
+    "entries_processed": 297,
     "sections_completed": [
-      "DLC1 initialization: Replaced broken file with clean English source",
-      "DLC1 translation: Lines 1-930 (126 entries)",
-      "Sections: steeltown_radio_followupwithpatriarch, steeltown_radio_gangraidincoming, a1001_banterbarks_brig, a1001_banterbarks_museum, a1001_blue (partial), a1001_conniezheng, a1001_cordite"
+      "a1001_ludlow (49 entries)",
+      "a1001_marshalkwon (6 entries)",
+      "a1001_medbay_irv (3 entries)",
+      "a1001_museumexhibits (12 entries)",
+      "a1001_pizepi (7 entries, 1 Script Node)",
+      "a1001_psychopath_imprisonedatrangerhq (6 entries)",
+      "a1001_sergeigreatski (9 entries)",
+      "a1001_thewarden (10 entries)",
+      "a1001_vici (6 entries)",
+      "a2001_paperboy (26 entries, 5 Script Nodes)",
+      "a5101_patriarch_finaldialogue_propatriarchending_endgame (2 entries)",
+      "a5101_thepatriarch_atpalace (14 entries)",
+      "companion_barks_robotengineer (147 entries translated, 49 Script Nodes)"
     ],
     "commit_hash": "pending",
     "validation_passed": true,
-    "notes": "Session 257: Started DLC1 translation per CLAUDE.md work sequence. Discovered 107 quote mismatch errors in existing DLC1 file (from backup_broken). Replaced with clean English source and began sequential translation. Completed 126 entries (0.3% of DLC1). Structure: 0 errors. Action markers: 0 errors. Quality: 0 issues.",
-    "next_action": "Continue DLC1 sequential translation from line 930. Target: 500 entries per session. Remaining: 38428 entries (estimated 76 sessions)."
+    "notes": "Session 258: Continued DLC1 translation from line 930. Processed 297 entries in 13 sections. Robot engineer companion barks fully translated. Structure validation: 0 errors. Action marker validation: 0 errors (markers preserved as ::english::).",
+    "next_action": "Continue DLC1 sequential translation from line 3967. Target: ~400 more entries per session. Next section: follower_bearsuit."
   },
   "cumulative_stats": {
-    "total_sessions": 257,
-    "total_entries_translated": 163559,
-    "untranslated_remaining": 68859,
-    "average_entries_per_session": 636.2,
+    "total_sessions": 258,
+    "total_entries_translated": 163856,
+    "untranslated_remaining": 68562,
+    "average_entries_per_session": 635.1,
     "estimated_sessions_remaining_base": 0,
     "estimated_days_remaining_base": "Complete",
-    "estimated_sessions_remaining_dlc1": 76,
+    "estimated_sessions_remaining_dlc1": 75,
     "estimated_days_remaining_dlc1": "2-3 days",
     "estimated_sessions_remaining_dlc2": 48,
     "estimated_days_remaining_dlc2": "1-2 days",
