@@ -71857,39 +71857,39 @@
       1 Array Array (17 items)
        0 int size = 17
        [0]
-        1 string data = "With the door open, this terminal has no additional functionality."
+        1 string data = "ドアが開いている状態では、このターミナルには追加機能がない。"
        [1]
-        1 string data = "This terminal connects to the nearby door."
+        1 string data = "このターミナルは近くのドアに接続されている。"
        [2]
-        1 string data = ""Di, what do you say? Can we get in here?""
+        1 string data = ""ディ、どう思う？ここに入れるか？""
        [3]
-        1 string data = ""Steeltown property must be requisitioned through proper channels.""
+        1 string data = ""スティールタウンの資産は適切な手続きを経て申請する必要があります。""
        [4]
-        1 string data = ""We're the ones risking our lives down here, so we're going to take what we want, understand? Open. Up. Now.""
+        1 string data = ""ここで命を懸けてるのは俺たちなんだ。だから欲しいものは持っていく、いいな？開けろ。今すぐ。""
        [5]
-        1 string data = ""A robot cannot be intimidated, but there is merit in your logic. The cost in supplies is neglible if it helps you quell the unrest.""
+        1 string data = ""ロボットを脅すことはできませんが、あなたの論理には一理あります。騒乱を鎮めるのに役立つなら、物資のコストは取るに足りません。""
        [6]
-        1 string data = "Hack the terminal and override the door."
+        1 string data = "ターミナルをハッキングしてドアを解除する。"
        [7]
-        1 string data = "You quickly gain access to the root functions and open the door."
+        1 string data = "すぐにルート機能へのアクセスを得てドアを開けた。"
        [8]
-        1 string data = ""I am certain Administrator Markham did not hire you to rob Steeltown's supply closets, Rangers.""
+        1 string data = ""マーカム管理者は、スティールタウンの物資庫を荒らすためにあなたたちを雇ったわけではないと思いますが、レンジャー。""
        [9]
-        1 string data = "Step away."
+        1 string data = "離れる。"
        [10]
-        1 string data = ""You already gained access to another supply closet. You have enough materiel for the task at hand.""
+        1 string data = ""あなたたちは既に別の物資庫にアクセスしました。今の任務に必要な物資は十分にあるはずです。""
        [11]
-        1 string data = ""Researcher Ivan's prototype is in that closet. Since you were asked you to investigate it, you may enter.""
+        1 string data = ""研究員イワンのプロトタイプがそのクローゼットにあります。調査を依頼されているのですから、入っても構いません。""
        [12]
-        1 string data = ""You're really going to break into every closet you find, eh? Okay, then.""
+        1 string data = ""見つけたクローゼットは全部開けるつもり？まあ、いいけど。""
        [13]
-        1 string data = ""Well, I guess since Ivan's prototype is in there, and you were asked to investigate it, why not.""
+        1 string data = ""まあ、イワンのプロトタイプが中にあって、調査を頼まれてるなら、いいんじゃない。""
        [14]
-        1 string data = ""Really? You already raided one closet. Don't you have enough stuff by now?""
+        1 string data = ""マジで？もう一つクローゼット漁ったでしょ。まだ足りないの？""
        [15]
-        1 string data = ""Come on, guys. If you need supplies, you gotta put in a requisition form.""
+        1 string data = ""ちょっと、みんな。物資が必要なら申請書を出さないと。""
        [16]
-        1 string data = ""If you're trying to scare me, it's not working, okay? But you're right. You're taking the risks, so go ahead.""
+        1 string data = ""脅そうとしても無駄だよ、いいね？でも君たちの言う通りだ。危険を冒してるのは君たちだから、どうぞ。""
    [253]
     0 StringTable data
      1 string Filename = "d2101_int_consoles_assemblyline"
@@ -71961,11 +71961,11 @@
        [6]
         1 string data = ""
        [7]
-        1 string data = "ERROR: Vehicle Incomplete"
+        1 string data = "ERROR: 車両未完成"
        [8]
-        1 string data = "Deploying completed vehicle..."
+        1 string data = "完成した車両を配備中..."
        [9]
-        1 string data = "Vehicle deployed and ready for delivery"
+        1 string data = "車両配備完了、配送準備完了"
        [10]
         1 string data = ""
    [254]
@@ -71989,9 +71989,9 @@
       1 Array Array (2 items)
        0 int size = 2
        [0]
-        1 string data = "Assembling chassis..."
+        1 string data = "シャーシ組み立て中..."
        [1]
-        1 string data = "Chassis complete and sent to assembly line"
+        1 string data = "シャーシ完成、組み立てラインへ送出"
    [255]
     0 StringTable data
      1 string Filename = "d2101_int_console_chassis_mount"
@@ -72041,23 +72041,23 @@
       1 Array Array (9 items)
        0 int size = 9
        [0]
-        1 string data = "Chassis mounted\n\n\nSent to engine mount station"
+        1 string data = "シャーシ取り付け完了\n\n\nエンジン取り付けステーションへ送出"
        [1]
-        1 string data = "Mounting Chassis on assembly line..."
+        1 string data = "組み立てラインにシャーシを取り付け中..."
        [2]
-        1 string data = "ERROR: No chassis"
+        1 string data = "ERROR: シャーシがありません"
        [3]
-        1 string data = "War-bot Build Station Two - Torso Assembly\n\n\nAll components acquired and ready for assembly. Assembled leg unit in position.\n\n\nAssemble War-bot Torso Unit?"
+        1 string data = "ウォーボット製造ステーション2 - 胴体組み立て\n\n\n全コンポーネント取得完了、組み立て準備完了。組み立て済み脚部ユニット配置完了。\n\n\nウォーボット胴体ユニットを組み立てますか？"
        [4]
-        1 string data = "Yes."
+        1 string data = "はい。"
        [5]
-        1 string data = "Torso Unit assembled and mounted on Leg Unit\n\n\nSending to War-bot Build Station Three - Laser Mounting"
+        1 string data = "胴体ユニット組み立て完了、脚部ユニットに取り付け\n\n\nウォーボット製造ステーション3へ送出中 - レーザー取り付け"
        [6]
-        1 string data = "Step away from station. "
+        1 string data = "ステーションから離れてください。"
        [7]
-        1 string data = "War-bot Build Station Two - Torso Assembly\n\n\nNo components acquired. No components Available. Please contact supervisor for further information."
+        1 string data = "ウォーボット製造ステーション2 - 胴体組み立て\n\n\nコンポーネント未取得。利用可能なコンポーネントがありません。詳細は監督者にお問い合わせください。"
        [8]
-        1 string data = "War-bot Build Station Two - Torso Assembly\n\n\nAll components acquired and ready for assembly.\n\n\nWARNING - No leg unit on assembly line. Torso must be mounted upon assembled leg unit. Assemble leg unit first."
+        1 string data = "ウォーボット製造ステーション2 - 胴体組み立て\n\n\n全コンポーネント取得完了、組み立て準備完了。\n\n\n警告 - 組み立てラインに脚部ユニットがありません。胴体は組み立て済みの脚部ユニットに取り付ける必要があります。先に脚部ユニットを組み立ててください。"
    [256]
     0 StringTable data
      1 string Filename = "d2101_int_console_engine1"
@@ -72083,11 +72083,11 @@
       1 Array Array (3 items)
        0 int size = 3
        [0]
-        1 string data = "Engine Diagnostic: NON-OPERATIONAL\n\n\nPlease service engine for use in vehicle assembly"
+        1 string data = "エンジン診断: 動作不可\n\n\n車両組み立てに使用するためエンジンを整備してください"
        [1]
-        1 string data = "Engine Diagnostic: OPERATIONAL\n\n\nEngine is cleared for use. Sending to vehicle assembly line..."
+        1 string data = "エンジン診断: 動作可能\n\n\nエンジン使用許可。車両組み立てラインへ送出中..."
        [2]
-        1 string data = "Engine sent to assembly line"
+        1 string data = "エンジンを組み立てラインへ送出"
    [257]
     0 StringTable data
      1 string Filename = "d2101_int_console_engine2"
@@ -72113,11 +72113,11 @@
       1 Array Array (3 items)
        0 int size = 3
        [0]
-        1 string data = "Engine sent to assembly line"
+        1 string data = "エンジンを組み立てラインへ送出"
        [1]
-        1 string data = "Engine Diagnostic: OPERATIONAL\n\n\nEngine is cleared for use. Sending to vehicle assembly line"
+        1 string data = "エンジン診断: 動作可能\n\n\nエンジン使用許可。車両組み立てラインへ送出中"
        [2]
-        1 string data = "Engine Diagnostic: NON-OPERATIONAL\n\n\nPlease service engine for use in vehicle assembly"
+        1 string data = "エンジン診断: 動作不可\n\n\n車両組み立てに使用するためエンジンを整備してください"
    [258]
     0 StringTable data
      1 string Filename = "d2101_int_console_engineempty"
@@ -72135,7 +72135,7 @@
       1 Array Array (1 items)
        0 int size = 1
        [0]
-        1 string data = "WORKSTATION OFFLINE\n\n\nNo engine to service"
+        1 string data = "ワークステーション オフライン\n\n\n整備するエンジンがありません"
    [259]
     0 StringTable data
      1 string Filename = "d2101_int_console_engine_mount"
@@ -72181,21 +72181,21 @@
       1 Array Array (8 items)
        0 int size = 8
        [0]
-        1 string data = "Engined mounted\n\n\nSending vehicle to bodyshop"
+        1 string data = "エンジン取り付け完了\n\n\n車両をボディショップへ送出中"
        [1]
-        1 string data = "Mounting engine on vehicle..."
+        1 string data = "車両にエンジンを取り付け中..."
        [2]
-        1 string data = "War-bot Build Station One - Leg Assembly\n\n\nAll components acquired and ready for assembly.\n\n\nAssemble War-bot Leg Unit?"
+        1 string data = "ウォーボット製造ステーション1 - 脚部組み立て\n\n\n全コンポーネント取得完了、組み立て準備完了。\n\n\nウォーボット脚部ユニットを組み立てますか？"
        [3]
-        1 string data = "ERROR: Waiting for vehicle"
+        1 string data = "ERROR: 車両待機中"
        [4]
-        1 string data = "Yes."
+        1 string data = "はい。"
        [5]
-        1 string data = "Step away from station. "
+        1 string data = "ステーションから離れてください。"
        [6]
-        1 string data = "Leg Unit assembled. \r\n\r\nSending to War-bot Build Station Two - Torso Assembly"
+        1 string data = "脚部ユニット組み立て完了。\r\n\r\nウォーボット製造ステーション2へ送出中 - 胴体組み立て"
        [7]
-        1 string data = "War-bot Build Station One - Leg Assembly\n\n\nNo components acquired. No components Available. Please contact supervisor for further information."
+        1 string data = "ウォーボット製造ステーション1 - 脚部組み立て\n\n\nコンポーネント未取得。利用可能なコンポーネントがありません。詳細は監督者にお問い合わせください。"
    [260]
     0 StringTable data
      1 string Filename = "d2101_int_console_laser_mount"
@@ -72249,25 +72249,25 @@
       1 Array Array (10 items)
        0 int size = 10
        [0]
-        1 string data = "Cutting laser mounted on vehicle and sent to delivery"
+        1 string data = "カッティングレーザーを車両に取り付け、配送へ送出"
        [1]
-        1 string data = "Mounting cutting laser on vehicle..."
+        1 string data = "車両にカッティングレーザーを取り付け中..."
        [2]
-        1 string data = "ERROR: Waiting for Vehicle"
+        1 string data = "ERROR: 車両待機中"
        [3]
-        1 string data = "ERROR: No Cutting Laser"
+        1 string data = "ERROR: カッティングレーザーがありません"
        [4]
-        1 string data = "War-bot Build Station Three - Laser Mounting\n\n\nAll components acquired and ready for assembly.\n\n\nWARNING - No Torso unit on assembly line. Lasers must be mounted upon assembled Torso unit. Assemble torso unit first."
+        1 string data = "ウォーボット製造ステーション3 - レーザー取り付け\n\n\n全コンポーネント取得完了、組み立て準備完了。\n\n\n警告 - 組み立てラインに胴体ユニットがありません。レーザーは組み立て済みの胴体ユニットに取り付ける必要があります。先に胴体ユニットを組み立ててください。"
        [5]
-        1 string data = "War-bot Build Station Three - Laser Mounting\n\n\nAll components acquired and ready for assembly. Assembled leg and torso units in position.\n\n\nMount laser on torso?"
+        1 string data = "ウォーボット製造ステーション3 - レーザー取り付け\n\n\n全コンポーネント取得完了、組み立て準備完了。組み立て済み脚部・胴体ユニット配置完了。\n\n\nレーザーを胴体に取り付けますか？"
        [6]
-        1 string data = "Yes."
+        1 string data = "はい。"
        [7]
-        1 string data = "Lasers assembled and mounted on torso unit.\r\n\r\nWar-bot complete. \r\n\r\nSending War-bot to final inspection area. "
+        1 string data = "レーザー組み立て完了、胴体ユニットに取り付け。\r\n\r\nウォーボット完成。\r\n\r\nウォーボットを最終検査エリアへ送出中。"
        [8]
-        1 string data = "Step away from station. "
+        1 string data = "ステーションから離れてください。"
        [9]
-        1 string data = "War-bot Build Station Three - Laser Mounting\n\n\nNo components acquired. No components Available. Please contact supervisor for further information."
+        1 string data = "ウォーボット製造ステーション3 - レーザー取り付け\n\n\nコンポーネント未取得。利用可能なコンポーネントがありません。詳細は監督者にお問い合わせください。"
    [261]
     0 StringTable data
      1 string Filename = "d2101_int_corpse_ellen"
@@ -72293,11 +72293,11 @@
       1 Array Array (3 items)
        0 int size = 3
        [0]
-        1 string data = "The body of a Steeltown worker lies in the middle of the hallway. You don't see any signs of violence. "
+        1 string data = "スティールタウンの労働者の遺体が廊下の真ん中に横たわっている。暴力の痕跡は見当たらない。"
        [1]
-        1 string data = "Her name badge reads "Henn, Ellen.""
+        1 string data = "名札には"ヘン、エレン"と書いてある。"
        [2]
-        1 string data = "This must be Newt's mom. She'll want to know that her meds didn't come in time."
+        1 string data = "ニュートの母親に違いない。薬が間に合わなかったことを伝える必要がある。"
    [262]
     0 StringTable data
      1 string Filename = "d2101_int_engine1"
@@ -72343,21 +72343,21 @@
       1 Array Array (8 items)
        0 int size = 8
        [0]
-        1 string data = "An engine sits on this workbench."
+        1 string data = "この作業台にエンジンが置いてある。"
        [1]
-        1 string data = "You can tell that some parts missing."
+        1 string data = "いくつかの部品が欠けているのがわかる。"
        [2]
-        1 string data = "Attach Oil Pump"
+        1 string data = "オイルポンプを取り付ける"
        [3]
-        1 string data = "Attach Timing Belt"
+        1 string data = "タイミングベルトを取り付ける"
        [4]
-        1 string data = "It appears to be ready for use."
+        1 string data = "使用準備が整っているようだ。"
        [5]
-        1 string data = "Leave"
+        1 string data = "離れる"
        [6]
-        1 string data = "You attach the Oil Pump."
+        1 string data = "オイルポンプを取り付けた。"
        [7]
-        1 string data = "You attach the Timing Belt"
+        1 string data = "タイミングベルトを取り付けた"
    [263]
     0 StringTable data
      1 string Filename = "d2101_int_engine2"
@@ -72379,9 +72379,9 @@
       1 Array Array (2 items)
        0 int size = 2
        [0]
-        1 string data = "This engine appears complete and ready to use."
+        1 string data = "このエンジンは完成しており、使用準備ができているようだ。"
        [1]
-        1 string data = "It appears to be ready for use."
+        1 string data = "使用準備が整っているようだ。"
    [264]
     0 StringTable data
      1 string Filename = "d2101_int_laser"
@@ -72427,21 +72427,21 @@
       1 Array Array (8 items)
        0 int size = 8
        [0]
-        1 string data = "Cutting Laser Status: OPERATIONAL"
+        1 string data = "カッティングレーザー状態: 動作可能"
        [1]
-        1 string data = "PREPARE FOR TRANSPORT"
+        1 string data = "輸送準備"
        [2]
-        1 string data = "EXIT MENU"
+        1 string data = "メニュー終了"
        [3]
-        1 string data = "Cutting Laser Status: OPERATIONAL\n\n\nWaiting for Transport"
+        1 string data = "カッティングレーザー状態: 動作可能\n\n\n輸送待機中"
        [4]
-        1 string data = "AUTO TARGET HOSTILES"
+        1 string data = "敵自動照準"
        [5]
-        1 string data = "Cutting Laser Status: DISABLED\n\n\nLaser being transported"
+        1 string data = "カッティングレーザー状態: 無効\n\n\nレーザー輸送中"
        [6]
-        1 string data = "ACTIVATE LASER"
+        1 string data = "レーザー起動"
        [7]
-        1 string data = "Cutting Laser Status: OPERATIONAL\n\n\nTargetting Hostiles..."
+        1 string data = "カッティングレーザー状態: 動作可能\n\n\n敵照準中..."
    [265]
     0 StringTable data
      1 string Filename = "d2101_int_mountchassis"
@@ -73007,267 +73007,267 @@
        [0]
         1 string data = """"
        [1]
-        1 string data = ""Are you the help Markham's been promising me? About damn time.""
+        1 string data = ""お前らがマーカムが約束してた援軍か？やっと来たか。""
        [2]
-        1 string data = ""Crow's hiding with her crew in the foundry behind that blast door. Get it open and we can end this bullshit.""
+        1 string data = ""クロウはあの防爆扉の向こうの鋳造所に仲間と隠れてる。開ければこのくだらない騒ぎを終わらせられる。""
        [3]
-        1 string data = ""Who are you?""
+        1 string data = ""あなたは誰？""
        [4]
-        1 string data = ""Karl Ludlow, Markham's chief of security - though I'm getting closer to quitting every day. This job is bullshit. No support from management. No respect from the workers. I gotta do it all myself.""
+        1 string data = ""カール・ラドロー、マーカムの警備主任だ。毎日辞めたくなってるがな。この仕事はクソだ。上からの支援もねえ。労働者からの敬意もねえ。全部自分でやらなきゃならねえ。""
        [5]
-        1 string data = ""But I'm not going anywhere until Crow ends her stupid strike and these fools get back to work makin' war-bots like they're supposed to.""
+        1 string data = ""だが、クロウがくだらないストライキをやめて、このバカどもがウォーボットを作る仕事に戻るまで、俺はどこにも行かねえ。""
        [6]
-        1 string data = ""Who's Crow?""
+        1 string data = ""クロウって誰？""
        [7]
-        1 string data = ""Markham didn't tell you? Christ. Am I the only one who gives a damn around here?""
+        1 string data = ""マーカムから聞いてねえのか？クソが。ここで気にしてるのは俺だけか？""
        [8]
-        1 string data = ""Okay, okay. I'll lay it out for you. Crow's a thug. She claims she's fighting for worker's rights, but what she really wants is to kill us all and run the place herself.""
+        1 string data = ""分かった分かった。説明してやる。クロウはゴロツキだ。労働者の権利のために戦ってると主張してるが、本当は俺たちを殺して自分でこの場所を仕切りたいだけだ。""
        [9]
-        1 string data = ""Well, she's tried to kill <i>me</i> a few times, that's for sure. Beyond that she's refused to work, smashed up the machines, destroyed finished goods, and incited all the other workers to do the same.""
+        1 string data = ""まあ、<i>俺</i>を何度か殺そうとしたのは確かだ。それ以外にも、仕事を拒否し、機械を壊し、完成品を破壊し、他の労働者にも同じことをするよう扇動してる。""
        [10]
-        1 string data = ""Without the guns and armor and bots we make, we're all sitting ducks for the warlords and the gangs, and she knows it!""
+        1 string data = ""俺たちが作る銃や装甲やボットがなければ、軍閥やギャングのいいカモだ。あいつはそれを分かってやがる！""
        [11]
-        1 string data = ""Who are these people we just killed?""
+        1 string data = ""今殺した連中は誰だ？""
        [12]
-        1 string data = ""Some of Crow's faithful. Refugee trash, mostly. Do anything she tells 'em to.""
+        1 string data = ""クロウの忠実な手下どもだ。ほとんどが難民のクズだ。あいつの言うことなら何でもやる。""
        [13]
-        1 string data = ""What? I thought you were <i>bringing</i> me a plan. I've been asking Markham to find me a way through for days. I figured maybe her 'super genius Computation Engine' could come up with something. Jesus.""
+        1 string data = ""何だと？お前らが計画を<i>持ってくる</i>んだと思ってたんだが。俺は何日もマーカムに突破口を探すよう頼んでたんだ。あの『天才演算エンジン』が何か思いつくかと思ったんだがな。くそ。""
        [14]
-        1 string data = ""A heavy-duty cutting laser will do it. There is one in the robot factory. It is too heavy for humans to carry, but it would be easy to build a war-bot and mount the laser upon it, then bring it here.""
+        1 string data = ""高出力カッティングレーザーで突破できます。ロボット工場に一台あります。人間が運ぶには重すぎますが、ウォーボットを製造してレーザーを搭載し、ここに持ってくるのは簡単です。""
        [15]
-        1 string data = ""Ha! Di, that's a great idea! You're a genius.""
+        1 string data = ""ハッ！ディ、いい考えだ！お前は天才だな。""
        [16]
-        1 string data = ""Yeah yeah. Okay, then, we got a plan. But it ain't gonna be quite as easy as Di says, 'cause Crow's wreckers are all through the plant, tearing shit up. You have to clear 'em out before you can build the bot. You up for it?""
+        1 string data = ""ああ、そうだな。よし、計画はできた。だがディの言うほど簡単じゃねえ。クロウの破壊工作員が工場中にいて、めちゃくちゃにしてる。ボットを作る前にあいつらを排除しなきゃならねえ。やれるか？""
        [17]
-        1 string data = ""Not in the least. All that was required was an evaluation of available resources.""
+        1 string data = ""全然。利用可能なリソースの評価が必要だっただけです。""
        [18]
-        1 string data = ""We were explicitly told not to kill the workers. We're here to negotiate an end to the strike.""
+        1 string data = ""労働者を殺すなと明確に言われている。ストライキを終わらせる交渉に来たんだ。""
        [19]
-        1 string data = ""Fine! But, trust me, the only way you're gonna get Crow to the table is to get through that door and stick a gun in her face. And for that you're gonna need the laser-bot.""
+        1 string data = ""分かった！だが信じろ、クロウを交渉のテーブルにつかせる唯一の方法は、あのドアを通り抜けて銃を突きつけることだ。そのためにはレーザーボットが必要だ。""
        [20]
-        1 string data = ""So, here's how you get it. All you gotta do is go to each of the stations on the war-bot assembly line, push the buttons to build the bot and put the laser on it, then it'll show up back here.""
+        1 string data = ""こうすればいい。ウォーボットの組み立てラインの各ステーションに行って、ボタンを押してボットを作り、レーザーを取り付けるだけだ。そうすればここに現れる。""
        [21]
-        1 string data = ""Or you can just stand around here with your thumbs up your asses. Up to you.""
+        1 string data = ""それか、ここでぼーっと突っ立ってても構わねえ。好きにしろ。""
        [22]
-        1 string data = ""Up to you.""
+        1 string data = ""好きにしろ。""
        [23]
-        1 string data = ""Okay, we'll build your laser-bot.""
+        1 string data = ""分かった、レーザーボットを作ろう。""
        [24]
-        1 string data = ""Great. All you gotta do is go to each of the stations on the war-bot assembly line, push the buttons to build the bot and put the laser on it, then it'll show up back here.""
+        1 string data = ""いいぞ。ウォーボットの組み立てラインの各ステーションに行って、ボタンを押してボットを作り、レーザーを取り付けるだけだ。そうすればここに現れる。""
        [25]
-        1 string data = ""Crow's thugs may make a move before that happens, so I'll stay behind to keep this room secure. I'll be here when you get back with the laser.""
+        1 string data = ""その前にクロウの手下が動くかもしれねえから、俺はここに残ってこの部屋を守る。レーザーを持って戻ってきたらここにいる。""
        [26]
-        1 string data = ""Get going.""
+        1 string data = ""行け。""
        [27]
-        1 string data = ""Maybe not here, but there'll blood on her hands just the same. You better believe it.""
+        1 string data = ""ここじゃないかもしれねえが、どうせあいつの手は血まみれになる。信じろ。""
        [28]
         1 string data = ""
        [29]
-        1 string data = ""What's Crow doing that's so bad?""
+        1 string data = ""クロウは何をそんなに悪いことをしてるんだ？""
        [30]
-        1 string data = ""So Crow hasn't actually killed anybody?""
+        1 string data = ""じゃあクロウは実際には誰も殺してないのか？""
        [31]
-        1 string data = ""The gangs are heading right for us, but does she care?? Fuck no. All she cares about are her 'rights.' Selfish bitch.""
+        1 string data = ""ギャングが俺たちに向かってきてるのに、あいつは気にしてるか？クソ、気にしてねえ。あいつが気にしてるのは自分の『権利』だけだ。わがままなクソ女だ。""
        [32]
         1 string data = ""
        [33]
-        1 string data = ""Do you have a plan for getting through the door?""
+        1 string data = ""ドアを突破する計画はあるか？""
        [34]
-        1 string data = ""Can we talk to Crow?""
+        1 string data = ""クロウと話せるか？""
        [35]
-        1 string data = ""Ha! Sure. If you wanna get your ear chewed off, but I guarantee, everything she tells you will be a lie, and nothing short of telling her you killed Markham will get her to open that door.""
+        1 string data = ""ハッ！もちろん。耳をかじられたいならな。だが言っておく、あいつの言うことは全部嘘だ。マーカムを殺したと言わない限り、あのドアは開かねえ。""
        [36]
-        1 string data = ""Holocom's right over there. Oh, wait. I blasted it. Sorry. I guess you're outta luck.""
+        1 string data = ""ホロコムはあそこにある。ああ、待て。俺が壊した。悪いな。運がなかったな。""
        [37]
-        1 string data = ""Clear out the workers? You mean kill them? Markham said they shouldn't be harmed.""
+        1 string data = ""労働者を排除？殺すってことか？マーカムは傷つけるなと言ってたぞ。""
        [38]
-        1 string data = ""Markham's too soft. These scum don't deserve mercy, but I didn't say kill 'em. You can use Markham's non-lethal methods if you want. Just be aware they're not gonna do you the same kindness.""
+        1 string data = ""マーカムは甘すぎる。このクズどもは慈悲に値しねえが、殺せとは言ってねえ。マーカムの非致死的手段を使いたきゃ使え。ただ、あいつらは同じ優しさを見せねえってことは覚えとけ。""
        [39]
-        1 string data = ""And also, every minute we waste here 'being nice' means the gangs get another mile closer. So ask yourselves what your priorities are - save a few lives here, or save <i>everybody's</i> lives later.""
+        1 string data = ""それに、ここで『いい人ぶって』無駄にする1分1分が、ギャングを1マイル近づける。だから自分に聞け、優先順位は何だ。ここで数人の命を救うか、後で<i>全員</i>の命を救うか。""
        [40]
-        1 string data = ""Hey! New guys! Over here!""
+        1 string data = ""おい！新入り！こっちだ！""
        [41]
-        1 string data = ""Good work. Problem solved. Sorry if I was, you know, gruff before. I get real, uh... focused when shit starts to go sideways.""
+        1 string data = ""いい仕事だ。問題解決だ。さっきはなんというか、荒っぽくて悪かったな。事態がおかしくなると、俺は...集中しすぎるんだ。""
        [42]
-        1 string data = ""Appreciate the help. I'll tell Markham what you did and she'll get you paid.""
+        1 string data = ""助かった。お前らのことはマーカムに伝える。報酬をもらえるはずだ。""
        [43]
-        1 string data = ""So what happens now?""
+        1 string data = ""これからどうなる？""
        [44]
-        1 string data = ""Time to get this place running again before the gangs get here. Anybody who's still with us gets a pardon as long as they get back to work.""
+        1 string data = ""ギャングが来る前にこの場所を再稼働させる時間だ。俺たちの味方なら、仕事に戻る限り赦免する。""
        [45]
-        1 string data = ""Like Markham says, productivity trumps everything, right?""
+        1 string data = ""マーカムが言うように、生産性が全てに勝る、だろ？""
        [46]
-        1 string data = ""Made a promise, right? I won't even touch Crow.""
+        1 string data = ""約束しただろ？クロウには指一本触れねえ。""
        [47]
-        1 string data = ""Seemed kinda personal between you and Crow.""
+        1 string data = ""お前とクロウの間には何か個人的なことがあるようだな。""
        [48]
-        1 string data = ""Aw, fuck her.""
+        1 string data = ""ああ、あいつなんか知るか。""
        [49]
-        1 string data = ""All that bullshit about workers' rights. Plains trash like her oughta be thankful they have <i>any</i> job, let alone a good one like she got here.""
+        1 string data = ""労働者の権利とかいうくだらねえ話。平原のクズみたいなあいつは、<i>どんな</i>仕事でも感謝すべきなんだよ。ましてやここでの良い仕事なんて。""
        [50]
-        1 string data = ""Good working with you. So long.""
+        1 string data = ""一緒に働けてよかった。じゃあな。""
        [51]
-        1 string data = ""Thanks again.""
+        1 string data = ""またな。""
        [52]
-        1 string data = ""Thanks, amigos. We'll take it from here. Gotta get this place up and running again.""
+        1 string data = ""ありがとう、アミーゴ。後は任せろ。この場所を再稼働させないとな。""
        [53]
-        1 string data = ""Are you ready yet? Come on!""
+        1 string data = ""まだか？早くしろ！""
        [54]
-        1 string data = ""Still need a minute.""
+        1 string data = ""もう少し待ってくれ。""
        [55]
-        1 string data = ""Take your fucking time, why don't you?""
+        1 string data = ""ゆっくりしてくれよ、なあ？""
        [56]
-        1 string data = ""Goddammit, why aren't you makin' that robot? We need to get this door open!""
+        1 string data = ""くそ、なんでロボットを作ってねえんだ？このドアを開けなきゃならねえんだ！""
        [57]
-        1 string data = ""What were we supposed to do again?""
+        1 string data = ""何をするんだっけ？""
        [58]
-        1 string data = ""Come on, it's a robot factory. Just follow the assembly line and hit buttons until a robot comes out.""
+        1 string data = ""おい、ロボット工場だぞ。組み立てラインに沿ってボタンを押してロボットが出てくるまで続けろ。""
        [59]
-        1 string data = ""Now, get going.""
+        1 string data = ""さあ、行け。""
        [60]
-        1 string data = ""We're on it.""
+        1 string data = ""やってる。""
        [61]
-        1 string data = ""Good. Get going.""
+        1 string data = ""よし。行け。""
        [62]
-        1 string data = ""Door's open! We're going in! Cover us!""
+        1 string data = ""ドアが開いた！突入だ！援護しろ！""
        [63]
-        1 string data = ""You snakes! I'm gonna kill you!""
+        1 string data = ""この裏切り者ども！殺してやる！""
        [64]
-        1 string data = ""Why the hell are you talking to me? The enemy's over <i>there</i>!""
+        1 string data = ""なぜ俺に話しかけてる？敵は<i>あっち</i>だ！""
        [65]
-        1 string data = ""Fuckin' A! You did it! I thought you guys weren't ever comin' back! This is great. You good to start cutting? 'Cause I'm ready to end this.""
+        1 string data = ""やったな！成功だ！もう戻ってこねえかと思ったぜ！最高だ。切り始める準備はいいか？俺はこれを終わらせる準備ができてる。""
        [66]
-        1 string data = ""We're ready.""
+        1 string data = ""準備できた。""
        [67]
         1 string data = ""
        [68]
-        1 string data = ""Great. Now, here's the plan. Aim that laser at the door and start cutting. When it's open, me and the bots'll go in first with you covering us, then you follow. Shoot anybody that resists, but Crow is mine.""
+        1 string data = ""いいぞ。計画はこうだ。レーザーをドアに向けて切り始めろ。開いたら、俺とボットが先に入る。お前らは援護だ。その後について来い。抵抗する奴は撃て、だがクロウは俺のだ。""
        [69]
-        1 string data = ""Now, start blasting!""
+        1 string data = ""さあ、ぶっ放せ！""
        [70]
-        1 string data = ""No you're not! Get the rest of your squad over here so we can go over the plan.""
+        1 string data = ""まだだ！分隊の残りをここに呼べ。計画を説明する。""
        [71]
-        1 string data = ""Move it!""
+        1 string data = ""急げ！""
        [72]
-        1 string data = ""Give us a minute.""
+        1 string data = ""ちょっと待ってくれ。""
        [73]
-        1 string data = ""Yeah, well, don't take two.""
+        1 string data = ""ああ、2分はかけるなよ。""
        [74]
-        1 string data = ""I'm counting.""
+        1 string data = ""数えてるぞ。""
        [75]
-        1 string data = ""You made a bad situation worse. Glad to be saying goodbye.""
+        1 string data = ""お前らは悪い状況をさらに悪くした。さよならを言えて嬉しいよ。""
        [76]
-        1 string data = ""Oh yeah? Well fuck you too. Asswipes.""
+        1 string data = ""そうかい？じゃあお前もクソくらえだ。このクズども。""
        [77]
-        1 string data = ""We want to talk to Markham like Crow asked, but the elevator's not working. Have a key?""
+        1 string data = ""クロウが言うようにマーカムと話したいが、エレベーターが動かない。鍵があるか？""
        [78]
-        1 string data = ""What? That bitch Crow probably jammed it. That's how she operates. Make an impossible demand, then strike when you can't fulfill it. Forget going back up for now. We'll sort it out once shit down here's taken care of.""
+        1 string data = ""何だと？あのクソ女クロウが壊したんだろう。あいつのやり方だ。不可能な要求をして、応えられないと攻撃する。今は上に戻るのは忘れろ。ここの問題を片付けてから考える。""
        [79]
-        1 string data = ""You again? What now?""
+        1 string data = ""またお前らか？今度は何だ？""
        [80]
-        1 string data = ""Hey, the elevator's working again. I knew Crow sabotaged it!""
+        1 string data = ""おい、エレベーターがまた動くようになったぞ。やっぱりクロウが妨害してたんだ！""
        [81]
-        1 string data = ""And less defenses for Steeltown too.""
+        1 string data = ""スティールタウンの防衛も弱まるな。""
        [82]
-        1 string data = ""We're going to look around a bit first.""
+        1 string data = ""先に少し見て回る。""
        [83]
-        1 string data = ""I told you already. Ludlow. Chief of security.""
+        1 string data = ""もう言っただろ。ラドロー。警備主任だ。""
        [84]
-        1 string data = ""Can you not hear me through your ear wax? She's the one who's whipping up the workers to kill us all!""
+        1 string data = ""耳くそで聞こえねえのか？あいつは労働者を煽って俺たちを皆殺しにしようとしてるんだ！""
        [85]
-        1 string data = ""What? There's no time for that shit.""
+        1 string data = ""何？そんなことしてる暇はねえ。""
        [86]
-        1 string data = ""All right, fine. But if you just happen to feel like building a robot at the same time, let me tell you how you do that.""
+        1 string data = ""分かった分かった。だがもし同時にロボットを作りたくなったら、やり方を教えてやる。""
        [87]
-        1 string data = ""All you gotta do is go to each of the stations on the war-bot assembly line, push the buttons to build the bot and put the laser on it, then it'll show up back here.""
+        1 string data = ""ウォーボットの組み立てラインの各ステーションに行って、ボタンを押してボットを作り、レーザーを取り付けるだけだ。そうすればここに現れる。""
        [88]
         1 string data = ""
        [89]
-        1 string data = ""Okay, okay, fuck. Take it easy for a second. You want the factory to fail so bad, Crow can have it.""
+        1 string data = ""分かった分かった、くそ。少し落ち着け。工場を潰したいなら、クロウにくれてやれ。""
        [90]
-        1 string data = ""Now, what's it gonna be for me? Don't suppose I'm free to go, huh?""
+        1 string data = ""で、俺はどうなる？まさか自由に行かせてくれねえよな？""
        [91]
-        1 string data = "[Arrest] "We've got a nice cell for you back at Ranger HQ.""
+        1 string data = "[Arrest] "レンジャー本部にいい独房があるぞ。""
        [92]
-        1 string data = "[Attack] "Sorry, you don't deserve to live.""
+        1 string data = "[Attack] "悪いが、お前は生きる価値がない。""
        [93]
-        1 string data = ""Aw, you fuckin' dicks.""
+        1 string data = ""ああ、このクソ野郎ども。""
        [94]
-        1 string data = ""Fuck. Guess it beats gettin' dead.""
+        1 string data = ""くそ。死ぬよりはマシか。""
        [95]
         1 string data = ""
        [96]
-        1 string data = ""They fucking know the gangs are coming, and they still won't pick up their tools. Assholes.""
+        1 string data = ""あいつらはギャングが来るのを分かってて、それでも道具を手に取らねえ。クソ野郎どもが。""
        [97]
-        1 string data = ""Either that or let the gangs kill us. She's fuckin' crazy, that's all.""
+        1 string data = ""そうするかギャングに殺されるかだ。あいつは頭がおかしいんだ、それだけだ。""
        [98]
-        1 string data = ""What was that about the gangs coming?""
+        1 string data = ""ギャングが来るってどういうことだ？""
        [99]
-        1 string data = ""The gangs! The warlords of the plains! Liberty's army! They need weapons and vehicles before they make their run on Colorado Springs, and we're their one stop shop. Ain't a matter of if they're coming. It's when. They're on their way.""
+        1 string data = ""ギャングだ！平原の軍閥だ！リバティの軍勢だ！あいつらはコロラドスプリングスを攻める前に武器と車両が必要で、俺たちはそのワンストップショップだ。来るかどうかじゃねえ。いつ来るかだ。もう向かってきてる。""
        [100]
-        1 string data = ""The Marshals can't spare anybody to protect us, so we gotta protect ourselves, using the war-bots and turrets and guns we're famous for. Problem is, because Crow's on strike, we're not makin' 'em! We're gonna get slaughtered!""
+        1 string data = ""保安官は俺たちを守る人員を割けねえから、自分で守らなきゃならねえ。俺たちが有名なウォーボットやタレットや銃を使ってな。問題は、クロウがストライキ中だから、作れねえってことだ！皆殺しにされるぞ！""
        [101]
-        1 string data = ""Since Liberty's army fell apart, the Payasos and Godfishers and Scar Collectors have gone back to old fashioned raiding, and we're right in their path. Ain't a matter of if they're coming. It's when. They're on their way.""
+        1 string data = ""リバティの軍勢が崩壊してから、パヤソスやゴッドフィッシャーズやスカーコレクターズが昔ながらの略奪に戻った。俺たちはちょうどその通り道だ。来るかどうかじゃねえ。いつ来るかだ。もう向かってきてる。""
        [102]
-        1 string data = ""And all at the worst possible time! Steeltown is gonna get leveled if the workers don't get back to work.""
+        1 string data = ""しかも最悪のタイミングだ！労働者が仕事に戻らなきゃ、スティールタウンは壊滅する。""
        [103]
-        1 string data = ""Goddammit, Rangers, you just knocked her out. Markham will be pissed if she finds out I wrecked that powerloader after you neutralized it. So now I gotta toss her in the brig and keep seeing her stupid mug.""
+        1 string data = ""くそ、レンジャー、お前らは気絶させただけか。お前らが無力化した後に俺がパワーローダーを壊したことがマーカムにバレたら怒るだろう。だから今、あいつを牢屋にぶち込んで、あのバカ面を見続けなきゃならねえ。""
        [104]
-        1 string data = ""Still, it would've taken me forever to get in here without your help. I'll tell Markham what you did and she'll get you paid.""
+        1 string data = ""それでも、お前らの助けがなきゃ、ここに入るのに永遠にかかっただろう。お前らのことはマーカムに伝える。報酬をもらえるはずだ。""
        [105]
         1 string data = ""
        [106]
-        1 string data = ""Rangers, before we proceed. The war-bot is programmed to respond to threats automatically. If we bring it into the foundry, it will use lethal force against anyone who threatens us, which would go against Administrator Markham's wishes.""
+        1 string data = ""レンジャー、進む前に。ウォーボットは自動的に脅威に反応するようプログラムされています。鋳造所に持ち込めば、脅威となる者に致死的な力を使います。これはマーカム管理者の意向に反します。""
        [107]
-        1 string data = ""If you want to keep the option for non-lethal measures open, I can disable the war-bot after it blasts through the door. Shall I?""
+        1 string data = ""非致死的手段の選択肢を残したいなら、ドアを突破した後にウォーボットを無効化できます。そうしましょうか？""
        [108]
-        1 string data = ""Disable it. We need to be able to limit our attacks to disruption weapons.""
+        1 string data = ""無効化してくれ。攻撃を妨害武器に限定できるようにしないと。""
        [109]
-        1 string data = ""Keep it active. Anyone it kills is unavoidable collateral damage.""
+        1 string data = ""有効のままにしろ。殺される奴は避けられない巻き添えだ。""
        [110]
-        1 string data = ""Aw, you buncha pussies. Whatever.""
+        1 string data = ""ああ、臆病者どもが。まあいい。""
        [111]
-        1 string data = ""Very well. I have programmed it to remain inert after it opens the blast door.""
+        1 string data = ""了解です。防爆扉を開けた後は動かないようプログラムしました。""
        [112]
-        1 string data = ""Understood. I will not adjust it.""
+        1 string data = ""了解です。調整しません。""
        [113]
-        1 string data = ""Good choice, Rangers!""
+        1 string data = ""いい選択だ、レンジャー！""
        [114]
-        1 string data = ""A heavy-duty cutting laser might do it. There's one in the robot factory. Humans couldn't carry it, but we could build a war-bot and mount the laser on it, then bring it here.""
+        1 string data = ""高出力カッティングレーザーで突破できるかもしれません。ロボット工場に一台あります。人間には運べませんが、ウォーボットを製造してレーザーを搭載し、ここに持ってくることができます。""
        [115]
-        1 string data = ""Aw, it was nothing. Just had to think about what resources we have on hand.""
+        1 string data = ""ああ、大したことじゃない。手元にあるリソースを考えただけだ。""
        [116]
-        1 string data = ""One sec, Rangers. That war-bot automatically responds to threats. If we bring it into the foundry, it'll use lethal force on anyone who attacks us, which Administrator Markham wouldn't like."\n\n\n"
+        1 string data = ""ちょっと待て、レンジャー。あのウォーボットは自動的に脅威に反応する。鋳造所に持ち込めば、攻撃してくる奴に致死的な力を使う。マーカム管理者は気に入らないだろうな。"\n\n\n"
        [117]
-        1 string data = ""If you wanna do this the non-lethal way, I can disable the war-bot after it blasts through the door. Whaddaya say?""
+        1 string data = ""非致死的にやりたいなら、ドアを突破した後にウォーボットを無効化できる。どうする？""
        [118]
-        1 string data = ""Okey doke. I've set it so it won't fight after it cuts through the door.""
+        1 string data = ""了解。ドアを切った後は戦わないように設定した。""
        [119]
-        1 string data = ""Okay, if you say so.""
+        1 string data = ""分かった、お前がそう言うなら。""
        [120]
-        1 string data = ""What? I thought you were <i>bringing</i> me a plan. I've been asking Markham to find me a way through for days. I figured maybe her 'super genius Computation Engine' could come up with something. All right, lemme think.""
+        1 string data = ""何だと？お前らが計画を<i>持ってくる</i>んだと思ってたんだが。俺は何日もマーカムに突破口を探すよう頼んでたんだ。あの『天才演算エンジン』が何か思いつくかと思ったんだがな。よし、考えさせろ。""
        [121]
-        1 string data = ""Hmmm. A heavy-duty cutting laser might do it. There's one in the robot factory. It's too heavy to lift, but you could build a war-bot and mount the laser on it, then bring it here.""
+        1 string data = ""うーん。高出力カッティングレーザーで突破できるかもしれねえ。ロボット工場に一台ある。持ち上げるには重すぎるが、ウォーボットを作ってレーザーを搭載し、ここに持ってくることはできる。""
        [122]
-        1 string data = ""Yeah, that's a great idea. I'm a fuckin' genius! But it ain't gonna be easy, 'cause Crow's wreckers are all through the plant, tearing shit up. You'll have to clear 'em out before you can build the bot. You up for it?""
+        1 string data = ""ああ、いい考えだ。俺は天才だ！だが簡単じゃねえ。クロウの破壊工作員が工場中にいて、めちゃくちゃにしてる。ボットを作る前にあいつらを排除しなきゃならねえ。やれるか？""
        [123]
         1 string data = ""
        [124]
-        1 string data = ""God, he's gross.""
+        1 string data = ""うわ、最低だな。""
        [125]
-        1 string data = ""Leading from the rear. Pathetic.""
+        1 string data = ""後ろから指揮するとは。情けない。""
        [126]
-        1 string data = ""This guy's a walking turd.""
+        1 string data = ""こいつは歩くクソだな。""
        [127]
-        1 string data = ""What a vile man.""
+        1 string data = ""なんて卑劣な男だ。""
        [128]
-        1 string data = ""I've met guys like this before. Only tough 'til things get tough.""
+        1 string data = ""こういう奴は前にも会ったことがある。事態が厳しくなるまでだけ威張ってるやつだ。""
        [129]
-        1 string data = ""Who put a brute like this in charge of anything?""
+        1 string data = ""こんな野蛮人を誰が責任者にしたんだ？""
        [130]
-        1 string data = ""Oh, he's awful. I love him!""
+        1 string data = ""ああ、最悪だわ。好きになっちゃう！""
        [131]
-        1 string data = ""One'a him in every bar I ever been in.""
+        1 string data = ""俺が行ったどのバーにもこういう奴がいたな。""
        [132]
         1 string data = "Script Node 143"
    [267]
