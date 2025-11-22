@@ -25,15 +25,15 @@
   "dlc1": {
     "status": "in_progress",
     "current_file": "StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
-    "current_line": 74989,
+    "current_line": 76514,
     "total_lines": 120559,
-    "entries_completed": 9469,
+    "entries_completed": 9594,
     "total_entries": 38554,
-    "percent_complete": 24.6,
+    "percent_complete": 24.9,
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
-    "notes": "2025-11-23: Session 301 - completed 184 entries in 15 sections. All validations passed with 0 errors, 2 warnings (existing HTML tag issues)."
+    "notes": "2025-11-23: Session 302 - completed ~125 entries in 5 sections. Quality errors analysis: 151 issues all false positives (dev notes, debug options). All validations passed with 0 errors, 2 warnings (existing HTML tag issues)."
   },
   "dlc2": {
     "status": "not_started",
@@ -43,34 +43,26 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 301,
+    "session_number": 302,
     "date": "2025-11-23",
-    "entries_processed": 184,
+    "entries_processed": 125,
     "sections_completed": [
-      "d2101_mabelle (35 entries)",
-      "d2101_radio_gonzalez_arrests (8 entries)",
-      "d2101_refugee_newt_vent01 (10 entries)",
-      "d2101_refugee_newt_vent02 (10 entries)",
-      "d2101_refugee_newt_vent03 (11 entries)",
-      "d2101_reg (55 entries)",
-      "d2101_reg_workers_barks (8 entries)",
-      "d2101_rody (9 entries)",
-      "d2101_vendingmachine01 (3 entries)",
-      "d2101_warbot (2 entries)",
-      "d2101_worker_crow (20 entries)",
-      "d2101_worker_crow_robot (2 entries)",
-      "d2101_worker_engines (11 entries)"
+      "d2101_worker_laser (41 entries)",
+      "d2101_worker_tunnel (3 entries)",
+      "d2101_workingstiff_keith (70 entries)",
+      "d2201_companionbarks (8 entries)",
+      "d2201_computationengine (partial - ~37 entries)"
     ],
-    "commit_hash": "pending",
+    "commit_hash": "6262002d",
     "validation_passed": true,
-    "notes": "Session 301: Translated 15 sections from lines 73273-74989. Includes d2101_reg (Reg's sabotage scene - 55 entries), d2101_mabelle (foreman - 35 entries), Newt vent sequences. All validations passed with 0 errors, 2 warnings.",
-    "next_action": "Continue DLC1 sequential translation from line 74989 (next section: d2101_worker_laser)."
+    "notes": "Session 302: Analyzed quality errors (151 false positives). Translated 5 sections from lines 74989-76514. Includes Keith fire plate puzzle, Computation Engine synth dialogue. All validations: 0 errors, 2 warnings.",
+    "next_action": "Continue DLC1 sequential translation from line 76514 (continue d2201_computationengine)."
   },
   "cumulative_stats": {
-    "total_sessions": 301,
-    "total_entries_translated": 172905,
-    "untranslated_remaining": 59513,
-    "average_entries_per_session": 577.0,
+    "total_sessions": 302,
+    "total_entries_translated": 173030,
+    "untranslated_remaining": 59388,
+    "average_entries_per_session": 573.0,
     "estimated_sessions_remaining_base": 0,
     "estimated_days_remaining_base": "Complete",
     "estimated_sessions_remaining_dlc1": 51,
