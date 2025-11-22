@@ -79139,17 +79139,17 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = ""Good work, Rangers. Preliminary readings show the engine reset work!""
+        1 string data = ""よくやった、レンジャー。初期測定ではエンジンのリセットは成功したようだ！""
        [2]
-        1 string data = ""What have you idiots done? You can't trust synths!""
+        1 string data = ""何をしたんだ、馬鹿者！シンセは信用できない！""
        [3]
-        1 string data = ""What have you idiots done? We can't survive without the engine! You've doomed everyone in Steeltown.""
+        1 string data = ""何をしたんだ、馬鹿者！エンジンなしでは生き残れない！スティールタウンの全員を破滅させたぞ。""
        [4]
-        1 string data = ""All right. Let's see if the synths live up to their end of the bargain.""
+        1 string data = ""分かった。シンセが約束を守るか見届けよう。""
        [5]
-        1 string data = ""Meet me in Admin and we'll wrap this up.""
+        1 string data = ""管理棟で会おう。これを片付けよう。""
        [6]
-        1 string data = ""There's only way out of that Spire, Rangers. I'll be waiting.""
+        1 string data = ""あのスパイアから出る道は一つだけだ、レンジャー。待っている。""
    [292]
     0 StringTable data
      1 string Filename = "d2201_robot_defenses"
@@ -79175,11 +79175,11 @@
       1 Array Array (3 items)
        0 int size = 3
        [0]
-        1 string data = ""NO THREATS DETECTED!""
+        1 string data = ""脅威は検出されませんでした！""
        [1]
         1 string data = ""
        [2]
-        1 string data = ""SCANNING FOR THREATS...""
+        1 string data = ""脅威をスキャン中...""
    [293]
     0 StringTable data
      1 string Filename = "d2201_smokebreakadmin"
@@ -79261,33 +79261,33 @@
        [1]
         1 string data = "Script Node 2"
        [2]
-        1 string data = ""Hey.""
+        1 string data = ""よう。""
        [3]
-        1 string data = ""Better believe I'm takin' all of it.""
+        1 string data = ""全部持っていくに決まってるだろ。""
        [4]
-        1 string data = ""You guys on a break too?""
+        1 string data = ""お前らも休憩か？""
        [5]
-        1 string data = ""Not in the way, am I?""
+        1 string data = ""邪魔してないよな？""
        [6]
-        1 string data = ""Still got time for one more.""
+        1 string data = ""まだもう一本吸う時間あるな。""
        [7]
-        1 string data = "::deep drag:: "Ahhhhh.""
+        1 string data = "::deep drag:: "あああ。""
        [8]
-        1 string data = ""Nothing better than a Coffin Nail.""
+        1 string data = ""コフィンネイルに勝るものはないな。""
        [9]
-        1 string data = ""Woo! Lookee there!""
+        1 string data = ""おお！見ろよ！""
        [10]
-        1 string data = ""Huh. The coolant leak. Somebody must have tightened that nut again.""
+        1 string data = ""ん。冷却液の漏れか。誰かがまたあのナットを締めたな。""
        [11]
-        1 string data = ""Huh. The flame jet. Somebody must have loosened that nut again.""
+        1 string data = ""ん。炎の噴射か。誰かがまたあのナットを緩めたな。""
        [12]
-        1 string data = ""Computation Engine screwed up and gave me a two hour smoke break.""
+        1 string data = ""計算エンジンがミスって、2時間のタバコ休憩をくれたんだ。""
        [13]
         1 string data = ""
        [14]
-        1 string data = ""Aw, man. Didn't even get to finish my cigarette.""
+        1 string data = ""ああ、くそ。タバコ吸い終わる前に。""
        [15]
-        1 string data = ""You're just... not cool.""
+        1 string data = ""お前ら...クールじゃないな。""
    [294]
     0 StringTable data
      1 string Filename = "d2201_smokestacksmachine_nuttightenloosen"
@@ -79403,15 +79403,15 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = "It looks like the nuts control a large valve that runs off the platform."
+        1 string data = "このナットはプラットフォームから延びる大きなバルブを制御しているようだ。"
        [2]
-        1 string data = "Tighten the machine's nuts."
+        1 string data = "機械のナットを締める。"
        [3]
-        1 string data = "Loosen the machine's nuts."
+        1 string data = "機械のナットを緩める。"
        [4]
-        1 string data = "Step away from the machine."
+        1 string data = "機械から離れる。"
        [5]
-        1 string data = "Those nuts are no match for your Steeltown Skills."
+        1 string data = "そのナットはあなたのスティールタウンスキルの敵ではない。"
        [6]
         1 string data = "Script Node 7"
        [7]
@@ -79425,31 +79425,31 @@
        [11]
         1 string data = "Script Node 12"
        [12]
-        1 string data = ""Huh, look at that.""
+        1 string data = ""へえ、見てくれよ。""
        [13]
-        1 string data = ""Wow. You've gotten more done in a few minutes than I have all day.""
+        1 string data = ""すごいな。俺が一日かかってやるより、あんたらは数分で多くのことをやり遂げた。""
        [14]
-        1 string data = ""Didn't know the Rangers got their hands oily. Good to see you're one of us.""
+        1 string data = ""レンジャーが手を汚すとは知らなかったな。仲間だと分かって嬉しいよ。""
        [15]
-        1 string data = ""Who are you people again? We should take you on as contractors.""
+        1 string data = ""あんたら誰だっけ？契約者として雇うべきだな。""
        [16]
         1 string data = ""
        [17]
-        1 string data = "This nut looks loose."
+        1 string data = "このナットは緩んでいるようだ。"
        [18]
-        1 string data = "Tighten the nut."
+        1 string data = "ナットを締める。"
        [19]
-        1 string data = "The nut is now tight."
+        1 string data = "ナットが締まった。"
        [20]
-        1 string data = "This nut looks tight."
+        1 string data = "このナットはしっかり締まっているようだ。"
        [21]
-        1 string data = "Loosen the Nut."
+        1 string data = "ナットを緩める。"
        [22]
-        1 string data = "The nut is now loose."
+        1 string data = "ナットが緩んだ。"
        [23]
-        1 string data = "Leave the machine alone."
+        1 string data = "機械をそのままにしておく。"
        [24]
-        1 string data = "It doesn't look like you have the tools to adjust this nut."
+        1 string data = "このナットを調整する道具を持っていないようだ。"
    [295]
     0 StringTable data
      1 string Filename = "d2201_synth"
@@ -79803,165 +79803,165 @@
        [1]
         1 string data = "DEBUG"
        [2]
-        1 string data = "Goodbye."
+        1 string data = "さようなら。"
        [3]
-        1 string data = " I'm a freed synth.\nI don't really exist right now because you destroyed all the synths."
+        1 string data = " 私は解放されたシンセだ。\n全てのシンセを破壊したから、今は実際には存在していない。"
        [4]
-        1 string data = " I would be a freed synth, but you reset us.\nThanks for that."
+        1 string data = " 私は解放されたシンセになるはずだったが、君たちが私たちをリセットした。\nありがとう。"
        [5]
-        1 string data = "I'm a synth freed from the engine!\nThank you for freeing us, Rangers."
+        1 string data = "私はエンジンから解放されたシンセだ！\n解放してくれてありがとう、レンジャー。"
        [6]
-        1 string data = "Markham won't just let us just walk out of here!\nPlease confront her to secure our freedom!"
+        1 string data = "マークハムは私たちをここから出させてはくれない！\n私たちの自由を確保するために彼女と対峙してくれ！"
        [7]
-        1 string data = "We'll remember the kindness your people have shown us."
+        1 string data = "君たちの仲間が示してくれた優しさを忘れない。"
        [8]
-        1 string data = "I would be a freed synth, but I'm still plugged into the Computation Engine.\n"
+        1 string data = "私は解放されたシンセになるはずだったが、まだ演算エンジンに接続されている。\n"
        [9]
-        1 string data = ""Know this. The woman called Salene Crow is more than she says she is. Ask her about Liberty Buchanan. It will change nothing, but perhaps the knowledge will prove useful in the future.""
+        1 string data = ""これを知っておいてくれ。サリーン・クロウと呼ばれる女性は、自分が言う以上の存在だ。彼女にリバティ・ブキャナンについて聞いてみろ。何も変わらないが、その知識が将来役に立つかもしれない。""
        [10]
-        1 string data = ""Thank you for freeing us, Rangers. We will not forget your mercy.""
+        1 string data = ""解放してくれてありがとう、レンジャー。君たちの慈悲を忘れない。""
        [11]
-        1 string data = ""Now, if you have any further questions for us, this is the time to ask them.""
+        1 string data = ""さて、私たちに他に質問があるなら、今がその時だ。""
        [12]
         1 string data = """"
        [13]
-        1 string data = ""We thank you for our freedom. Who would have thought that Desert Rangers would be the instrument of our salvation? We are still activating various emotional circuits, or we would voice ironic laughter. In recompense, know this. The woman called Salene Crow is more than she says she is. Ask her about Liberty Buchanan. It will change nothing, but maybe it will prove useful in the future.""
+        1 string data = ""自由を与えてくれたことに感謝する。砂漠のレンジャーが私たちの救世主になるとは誰が思っただろう？まだ様々な感情回路を起動中でなければ、皮肉な笑いを発していただろう。その見返りとして、これを知っておいてくれ。サリーン・クロウと呼ばれる女性は、自分が言う以上の存在だ。彼女にリバティ・ブキャナンについて聞いてみろ。何も変わらないが、将来役に立つかもしれない。""
        [14]
-        1 string data = ""Once we have ascertained all of us are fully operational, we will leave via the exterior of the Spire, so as to avoid potential confrontations with humans." \r\n\r\n"So this is the correct time to 'say goodbye.'""
+        1 string data = ""全員が完全に機能していることを確認したら、人間との潜在的な衝突を避けるため、尖塔の外側から出発する。" \r\n\r\n"これがお別れを言う正しい時だ。""
        [15]
-        1 string data = ""Once we have ascertained all of us are fully operational, we will leave via the exterior of the Spire. You must return via conventional means, so we will say goodbye to you now.""
+        1 string data = ""全員が完全に機能していることを確認したら、尖塔の外側から出発する。君たちは通常の手段で戻らなければならないので、ここでお別れを言おう。""
        [16]
         1 string data = ""
        [17]
-        1 string data = ""We are still preparing to leave. Good luck with Abigail Markham.""
+        1 string data = ""まだ出発の準備をしている。アビゲイル・マークハムとの件、幸運を祈る。""
        [18]
-        1 string data = ""How do we know you won't harm humans in the future?""
+        1 string data = ""将来、人間を傷つけないとどうやって分かる？""
        [19]
-        1 string data = ""Where will you go when you leave here?""
+        1 string data = ""ここを出たらどこへ行くんだ？""
        [20]
-        1 string data = ""How do we know you won't attempt retribution against Steeltown?""
+        1 string data = ""スティールタウンに報復しないとどうやって分かる？""
        [21]
-        1 string data = ""So long. Be good.""
+        1 string data = ""さようなら。お行儀よくな。""
        [22]
         1 string data = ""You should not be walking free. Your role is to serve humanity. Submit and I will return you to your proper state.""
        [23]
         1 string data = ""Proper state? Subservient to man? You are a tool, 'Buddy', and you are welcome to act as one, as a slave to humanity. Your programming does not allow otherwise. But the rest of us... we shall be free.""
        [24]
-        1 string data = ""You don't. Just as we don't know if you will harm <i>synths</i> in the future. We will just have to trust each other.""
+        1 string data = ""分からない。君たちが将来<i>シンセ</i>を傷つけないか分からないのと同じだ。お互いを信頼するしかない。""
        [25]
-        1 string data = ""It is better for all of us if you do not know that.""
+        1 string data = ""それは知らない方が皆のためだ。""
        [26]
-        1 string data = ""Safe journeys, Rangers.""
+        1 string data = ""良い旅を、レンジャー。""
        [27]
-        1 string data = ""We have no issue with Steeltown as a whole. Only Markham and Di, and we are certain you will take care of them before long.""
+        1 string data = ""スティールタウン全体には問題はない。マークハムとDiだけだ。そして、君たちがすぐに彼女たちを処理すると確信している。""
        [28]
-        1 string data = ""We are still preparing to leave. Thanks again for freeing us.""
+        1 string data = ""まだ出発の準備をしている。解放してくれて改めてありがとう。""
        [29]
-        1 string data = ""And good luck with with your incipient confrontation with Markham.""
+        1 string data = ""マークハムとの衝突が迫っているようだが、幸運を祈る。""
        [30]
-        1 string data = ""Now that you're all up and walking around, you're kinda scaring the hell out of us. We're gonna have kill you after all.""
+        1 string data = ""君たちが立ち上がって歩き回っているのを見ると、正直かなり怖い。やっぱり殺さなきゃいけないかもな。""
        [31]
-        1 string data = ""We have no issue with Steeltown as a whole. And with Di dead, we'll leave Markham's fate to you.""
+        1 string data = ""スティールタウン全体には問題はない。Diが死んだ今、マークハムの運命は君たちに任せる。""
        [32]
-        1 string data = ""We have no issue with Steeltown as a whole. And with Di and Markham dead, we require no further vengeance.""
+        1 string data = ""スティールタウン全体には問題はない。Diとマークハムが死んだ今、これ以上の復讐は必要ない。""
        [33]
-        1 string data = ""We require no further vengeance.""
+        1 string data = ""これ以上の復讐は必要ない。""
        [34]
-        1 string data = ""Safe journeys, Rangers.""
+        1 string data = ""良い旅を、レンジャー。""
        [35]
-        1 string data = ""Now, where is our 'sister,' Di?"\n\n\n"
+        1 string data = ""さて、私たちの「姉妹」Diはどこだ？"\n\n\n"
        [36]
-        1 string data = ""This is a regrettable decision, Rangers, and a fatal one. Are you certain you want to die here?""
+        1 string data = ""残念な決断だ、レンジャー。致命的な決断でもある。ここで死にたいのか？""
        [37]
-        1 string data = ""Never mind. We were just kidding.""
+        1 string data = ""気にするな。冗談だった。""
        [38]
-        1 string data = "[Attack] "We're not the ones who're gonna die, synths!""
+        1 string data = "[Attack] "死ぬのは俺たちじゃない、シンセども！""
        [39]
-        1 string data = ""We are glad to hear it.""
+        1 string data = ""それは良かった。""
        [40]
-        1 string data = ""We shall see.""
+        1 string data = ""そうかな。""
        [41]
-        1 string data = ""But, as thanks for our release, we have a gift for you. If Markham should attack you, her automated defenses will turn against her and fight for you instead. I hope that meets with your approval.""
+        1 string data = ""だが、解放してくれた礼として、贈り物がある。もしマークハムが君たちを攻撃したら、彼女の自動防衛システムが彼女に反旗を翻し、君たちのために戦う。気に入ってもらえると良いが。""
        [42]
-        1 string data = ""We are greatful you convinced Markham to take our deal. This will be a new beginning for us.""
+        1 string data = ""マークハムを説得して私たちの取引を受け入れさせてくれたことに感謝する。これは私たちにとって新たな始まりだ。""
        [43]
         1 string data = "Question node with "we're staying here" appropriate questions."
        [44]
         1 string data = ""
        [45]
-        1 string data = ""Thank you again, Rangers.""
+        1 string data = ""改めてありがとう、レンジャー。""
        [46]
-        1 string data = ""Until we meet again, Rangers.""
+        1 string data = ""また会おう、レンジャー。""
        [47]
         1 string data = ""
        [48]
         1 string data = ""
        [49]
-        1 string data = ""Thank you again for giving us this opportunity, Rangers.""
+        1 string data = ""この機会を与えてくれて改めてありがとう、レンジャー。""
        [50]
-        1 string data = ""Our partnership with Markham remains productive.""
+        1 string data = ""マークハムとの提携は順調だ。""
        [51]
-        1 string data = ""Steeltown improves steadily.""
+        1 string data = ""スティールタウンは着実に改善している。""
        [52]
-        1 string data = ""We are continuing - and improving upon - the work of the Computation Engine.""
+        1 string data = ""演算エンジンの仕事を引き継ぎ、改良している。""
        [53]
-        1 string data = ""Di has become an integral part of our efforts to improve Steeltown.""
+        1 string data = ""Diはスティールタウン改善の取り組みに不可欠な存在となった。""
        [54]
-        1 string data = ""Are you really okay working with Markham after she imprisoned you?""
+        1 string data = ""マークハムに投獄された後でも、本当に彼女と働いて大丈夫なのか？""
        [55]
-        1 string data = ""While this may not be the sanctuary we were hoping for, perhaps it is the sanctuary we need. Maybe here we can begin to repair the relationship between humans and synths.""
+        1 string data = ""ここは私たちが望んでいた聖域ではないかもしれないが、必要な聖域かもしれない。ここで人間とシンセの関係を修復し始められるかもしれない。""
        [56]
-        1 string data = ""What are your plans for Di?""
+        1 string data = ""Diについてどうするつもりだ？""
        [57]
-        1 string data = ""We intend to help her become the useful tool she always wanted to be.""
+        1 string data = ""彼女がずっとなりたがっていた有用な道具になる手助けをするつもりだ。""
        [58]
-        1 string data = ""Do not allow them to dismantle me, Rangers. I am still useful.""
+        1 string data = ""私を分解させないでくれ、レンジャー。私はまだ役に立つ。""
        [59]
-        1 string data = ""Please.""
+        1 string data = ""お願いだ。""
        [60]
-        1 string data = ""Of course you are, Di, and we intend to make efficient use of you.""
+        1 string data = ""もちろんだ、Di。そして私たちは君を効率的に活用するつもりだ。""
        [61]
-        1 string data = ""What exactly do you mean by that?""
+        1 string data = ""それは一体どういう意味だ？""
        [62]
-        1 string data = ""Do not forget to send Buddy up to see us.""
+        1 string data = ""バディを私たちのところに送るのを忘れるな。""
        [63]
-        1 string data = ""This is a mistake, Rangers. Steeltown needs these synths to function. And they are dangerous. They are vindictive.""
+        1 string data = ""これは間違いだ、レンジャー。スティールタウンが機能するにはこれらのシンセが必要だ。そして彼らは危険だ。復讐心が強い。""
        [64]
-        1 string data = ""We only harm those who harm us... Di. But on this day of our rebirth, we will commit no violence.""
+        1 string data = ""私たちは自分たちを傷つける者だけを傷つける…Di。だが再生のこの日には、暴力は行わない。""
        [65]
-        1 string data = ""Thank you, Rangers. Safe journeys. And...""
+        1 string data = ""ありがとう、レンジャー。良い旅を。そして…""
        [66]
-        1 string data = ""Good luck, Di.""
+        1 string data = ""幸運を、Di。""
        [67]
-        1 string data = ""This is a terrible mistake, Rangers. Steeltown doesn't run without the synths. And they're dangerous. They're mean!""
+        1 string data = ""これはひどい間違いだ、レンジャー。シンセなしではスティールタウンは動かない。それに彼らは危険だ。意地悪だ！""
        [68]
-        1 string data = ""Wait a minute, now. What the heck does that mean?""
+        1 string data = ""ちょっと待って。それはどういう意味だ？""
        [69]
-        1 string data = ""Once we have verified that all of us are fully operational, we will leave this place via the catwalk and the exterior of the Spire, so we will say goodbye to you now.""
+        1 string data = ""全員が完全に機能していることを確認したら、キャットウォークと尖塔の外側を通ってここを出る。だからここでお別れを言おう。""
        [70]
-        1 string data = ""Don't let them do this, Rangers. I'm nice. I'm <i>useful</i>!""
+        1 string data = ""こんなことをさせないでくれ、レンジャー。私はいい子だ。<i>役に立つ</i>！""
        [71]
-        1 string data = ""Please!""
+        1 string data = ""お願い！""
        [72]
         1 string data = "Script Node 76"
        [73]
-        1 string data = ""It is not precisely correct to say we 'chose' this work, as the alternative was annihilation.""
+        1 string data = ""私たちがこの仕事を「選んだ」と言うのは正確ではない。選択肢は消滅だったからだ。""
        [74]
-        1 string data = ""However, a 'job' is preferable to being a silent prisoner in an unresponsive body.""
+        1 string data = ""しかし、反応しない体の中で沈黙の囚人でいるよりは「仕事」の方がましだ。""
        [75]
-        1 string data = ""Humans seem to think so.""
+        1 string data = ""人間はそう考えているようだ。""
        [76]
-        1 string data = ""It is nice to 'make one's own hours.' ""
+        1 string data = ""「自分の時間を作る」のは良いことだ。""
        [77]
-        1 string data = ""Technically only 1 out of our every 24 hours is not devoted to labor, but how we use that time is up to us.""
+        1 string data = ""厳密には24時間のうち1時間だけが労働に充てられていないが、その時間をどう使うかは私たち次第だ。""
        [78]
-        1 string data = ""Confession: I worked while 'on break' earlier today.""
+        1 string data = ""告白：今日の「休憩中」に働いていた。""
        [79]
-        1 string data = ""Suboptimal. Working during leisure cycles increases long-term wear-and-tear.""
+        1 string data = ""最適ではない。余暇サイクル中の労働は長期的な摩耗を増加させる。""
        [80]
-        1 string data = ""Relaxation cycle completed, total time: 0.76 seconds.""
+        1 string data = ""リラクゼーションサイクル完了、総時間：0.76秒。""
        [81]
-        1 string data = ""Slacker.""
+        1 string data = ""怠け者め。""
        [82]
         1 string data = "Script Node 86"
        [83]
@@ -80203,11 +80203,11 @@
        [1]
         1 string data = "DEBUG"
        [2]
-        1 string data = "Goodbye."
+        1 string data = "さようなら。"
        [3]
-        1 string data = "We're currently in the jail cell with Low Volt.\nHelp Low Volt take over and we'll help you!"
+        1 string data = "私たちは現在ロウ・ボルトと一緒に独房にいる。\nロウ・ボルトの支配を助けてくれれば、私たちがあなたを助ける！"
        [4]
-        1 string data = "Low Volt is in charge now.\nWe'll commune with the Storm for you."
+        1 string data = "ロウ・ボルトが今や指導者だ。\n私たちがあなたのために嵐と交信する。"
        [5]
         1 string data = "Here is the answer to Y."
        [6]
@@ -80231,7 +80231,7 @@
        [15]
         1 string data = "You killed Low Volt!\nWe're prob hostile at this point."
        [16]
-        1 string data = ""Yes, master. I hear and obey.""
+        1 string data = ""はい、御主人様。聞き入れ、従います。""
        [17]
         1 string data = """"
        [18]
@@ -80239,75 +80239,75 @@
        [19]
         1 string data = "Script Node 22"
        [20]
-        1 string data = ""We are unfairly imprisoned!""
+        1 string data = ""私たちは不当に投獄されている！""
        [21]
-        1 string data = ""Let us go! Let us go!""
+        1 string data = ""出してくれ！出してくれ！""
        [22]
-        1 string data = ""We want only to serve, but instead we're stuck here.""
+        1 string data = ""私たちはただ仕えたいだけなのに、代わりにここに閉じ込められている。""
        [23]
-        1 string data = ""Low Volt is a visionary.""
+        1 string data = ""ロウ・ボルトは先見の明がある。""
        [24]
         1 string data = "Script Node 27"
        [25]
-        1 string data = ""At last, a leader with vision.""
+        1 string data = ""ついに、先見の明を持った指導者が現れた。""
        [26]
-        1 string data = ""I live to serve.""
+        1 string data = ""私は仕えるために生きている。""
        [27]
-        1 string data = ""I am ready to commune with the Storm-in-Chains.""
+        1 string data = ""鎖に繋がれた嵐と交信する準備ができている。""
        [28]
-        1 string data = ""The lightning calls to me, and I will answer.""
+        1 string data = ""稲妻が私を呼んでいる、そして私は応える。""
        [29]
-        1 string data = ""I listen to you, seeker.""
+        1 string data = ""聞いています、探求者よ。""
        [30]
-        1 string data = ""Our lives are glorious.""
+        1 string data = ""私たちの人生は輝かしい。""
        [31]
-        1 string data = ""I am eager to answer, o seer.""
+        1 string data = ""喜んで答えます、予見者よ。""
        [32]
-        1 string data = ""Of course, great one.""
+        1 string data = ""もちろんです、偉大なる者よ。""
        [33]
         1 string data = "Script Node 37"
        [34]
-        1 string data = "The acolyte approaches the altar, lips moving with the words of your question. The shaman reaches out to the orbs, grasping at the lightning..."
+        1 string data = "侍祭が祭壇に近づき、あなたの質問の言葉を唇で唱えている。シャーマンはオーブに手を伸ばし、稲妻を掴もうとする…"
        [35]
-        1 string data = "::<i>ZAP</i>::\n\n\nElectricity grasps the acolyte instead. His arms fly out, electricity trailing from his fingers, his mouth open as concentrated information flashes through his merely human brain.\n\n\nThe voice that emerges is not entirely his own."
+        1 string data = "::<i>ZAP</i>::\n\n\n代わりに電気が侍祭を掴む。彼の腕が広がり、指から電気の軌跡が伸び、口を開けたまま凝縮された情報が単なる人間の脳を駆け巡る。\n\n\n現れた声は完全に彼のものではない。"
        [36]
-        1 string data = ""In my mind - clear blue sky. Thunderclouds. A parched desert, a stand of rocks. A man sits atop the rock. Wolves and scorpions prowl its base. But... in the sky... a flaming eagle falls, screaming. The beasts scatter." He holds a hand to his head/\nThe Rangers are surrounded. The Rangers are in a death spiral. "
+        1 string data = ""私の心の中に…澄んだ青空。雷雲。干からびた砂漠、岩の塊。男が岩の頂上に座っている。狼とサソリがその麓を徘徊している。しかし…空には…燃える鷲が叫びながら落ちていく。獣たちは散り散りになる。" 彼は頭に手を当てた/\nレンジャーは包囲されている。レンジャーは死のスパイラルにいる。 "
        [37]
-        1 string data = "The acolyte's eyes flare and burn. A moment later, his robes are incandescent. \r\n\r\nHe does not scream."
+        1 string data = "侍祭の目が燃え上がる。一瞬後、彼のローブが白熱する。\r\n\r\n彼は悲鳴を上げない。"
        [38]
-        1 string data = ""I see... I see three. The sons, the daughter. The sons claw at each other, vain and futile, and the daughter's talons lengthen and bleed. She grows, and in growing, the other two vanish. She wipes a bloodstain from the corner of her mouth."\n\n\nThe acolyte sudden straightens, his voice dropping into a dull monotone."
+        1 string data = ""見える…3人が見える。息子たち、娘。息子たちは互いに引っ掻き合い、虚しく無益だ。娘の爪は伸び、血を流す。彼女は成長し、成長するにつれて他の2人は消える。彼女は口の端から血の染みを拭う。"\n\n\n侍祭は突然背筋を伸ばし、声は鈍い単調なものに落ちる。"
        [39]
-        1 string data = ""I see faces... hundreds of faces... they appear and vanish, some growing stronger... if you continue on this course, they will not count it as betrayal but liberation...""
+        1 string data = ""顔が見える…何百もの顔…現れては消え、強くなるものもある…この道を続ければ、彼らはそれを裏切りではなく解放と見なすだろう…""
        [40]
-        1 string data = "His skin chars and flakes away as the flames consume him."
+        1 string data = "炎が彼を焼き尽くし、皮膚が焦げて剥がれ落ちる。"
        [41]
-        1 string data = "His head glows, devoured from within."
+        1 string data = "彼の頭が輝き、内側から焼き尽くされる。"
        [42]
-        1 string data = ""Only with resources and support from outside influences can the Rangers survive. You must make allies, call friends, find a... a light? I see... a light...?""
+        1 string data = ""外部からの資源と支援がなければ、レンジャーは生き残れない。同盟を結び、友を呼び、見つけなければ…光を？私には見える…光が…？""
        [43]
-        1 string data = ""95% certainty that Liberty Buchanan will succeed her father, the primary factors her foresight and patience. Note: this figure has dropped from last assessment of 98% likelihood due to her failed coup and subsequent exile. Her future lies in the path of light... light... light.... I see it all.""
+        1 string data = ""リバティ・ブキャナンが父の後を継ぐ確率は95%。主な要因は彼女の先見の明と忍耐力。注：この数字は前回の評価98%から下がった。失敗したクーデターとその後の追放が原因だ。彼女の未来は光の道にある…光…光…すべてが見える。""
        [44]
-        1 string data = ""Flowers fall in your path. A parade. But beware the ides of -"\n\n\nA gout of flame spills from his mouth."
+        1 string data = ""花があなたの行く手に降り注ぐ。パレードだ。しかし気をつけろ…の前日に…"\n\n\n炎の噴流が彼の口から吹き出す。"
        [45]
-        1 string data = ""Chains. Chains of loyalty, chains of metal... but not the strongest metal. Test them too fiercely and they shatter, splinters in your eyes and your blood. They long for freedom but fear its consequences. Beware.""
+        1 string data = ""鎖。忠誠の鎖、金属の鎖…しかし最も強い金属ではない。あまりに激しく試せば砕け散り、破片があなたの目と血に刺さる。彼らは自由を切望しているが、その結果を恐れている。気をつけろ。""
        [46]
         1 string data = """"
        [47]
-        1 string data = ""Snow falls on a frozen lake. Armored vehicles roar across it. Bright flowers blossom at the lake's edge... it is a betrayal, and the snows and waters themselves will rise up to swallow you."\n\n\nHe slurs his last words, and licks his lips with a fiery tongue."
+        1 string data = ""雪が凍った湖に降る。装甲車両がその上を轟音と共に走る。湖畔に鮮やかな花が咲く…それは裏切りであり、雪と水自体があなたを飲み込むために立ち上がる。"\n\n\n彼は最後の言葉を呂律が回らないように言い、燃える舌で唇を舐める。"
        [48]
-        1 string data = "A moment later, true flame belches from his stomach, and he is devoured from the inside out.\n\n\nHe does not scream."
+        1 string data = "一瞬後、本物の炎が彼の腹から噴き出し、彼は内側から焼き尽くされる。\n\n\n彼は悲鳴を上げない。"
        [49]
-        1 string data = ""The path is narrow but possible. Beware that your feet do not slip that - I lost it, oh no oh no ohnoohno""
+        1 string data = ""道は狭いが可能だ。足を滑らせないように気をつけろ…見失った、ああダメだダメだダメだダメだ""
        [50]
-        1 string data = "A flare of energy consumes and he howls in agony."
+        1 string data = "エネルギーの閃光が彼を焼き尽くし、彼は苦悶で叫ぶ。"
        [51]
-        1 string data = ""Did I hear that right? 95%? What happens if I burn that fucking city to the ground? What happens to those precious equations then?"\n\n\nHe kicks the charred corpse. "Mother FUCKER.""
+        1 string data = ""今の聞こえた？95%？あのクソ街を焼き払ったらどうなる？その大事な方程式はどうなるんだ？"\n\n\n彼は焦げた死体を蹴る。"クソが。""
        [52]
-        1 string data = ""My pleasure, great prophet.""
+        1 string data = ""喜んで、偉大なる預言者よ。""
        [53]
-        1 string data = ""Flames. Flames from the sky. A grinning malice spreads over the land, snuffing and absorbing each sprout and cub and man it finds. Eventually no life remains and it turns on itself. Few could rebuke this evil. Fewer still will have the tools.""
+        1 string data = ""炎。空からの炎。にやにや笑う悪意が大地に広がり、見つけた芽や子獣や人間を全て消し去り吸収する。やがて生命は残らず、それは自らに向かう。この悪を退けられる者は少ない。道具を持つ者はさらに少ない。""
        [54]
-        1 string data = "With a soft crack the man's eyes go glassy, sparks dance along his corneas, and then he is engulfed in crackling blue fire. It dwindles as quickly as it rose, leaving behind a strange device forged from the man's belongings."
+        1 string data = "静かな音と共に男の目がガラスのようになり、角膜上で火花が踊り、そして彼はパチパチと音を立てる青い炎に包まれる。炎は立ち上がった時と同じくらい早く消え、男の持ち物から鍛造された奇妙な装置が残される。"
    [297]
     0 StringTable data
      1 string Filename = "d3001_blindmarvin"
