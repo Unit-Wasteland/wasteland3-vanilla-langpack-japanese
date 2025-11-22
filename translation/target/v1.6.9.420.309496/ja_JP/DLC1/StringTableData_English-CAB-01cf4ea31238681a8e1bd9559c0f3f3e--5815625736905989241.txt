@@ -61265,17 +61265,17 @@
       1 Array Array (6 items)
        0 int size = 6
        [0]
-        1 string data = "This toaster sparks and sputters, desperately in need of repair."
+        1 string data = "このトースターは火花を散らしてパチパチいっている。修理が必要だ。"
        [1]
-        1 string data = "The toaster remains broken."
+        1 string data = "トースターは壊れたままだ。"
        [2]
-        1 string data = "Repair the toaster."
+        1 string data = "トースターを修理する。"
        [3]
-        1 string data = "Step away."
+        1 string data = "離れる。"
        [4]
-        1 string data = "You repair the toaster and test it. When it dings, out pops..."
+        1 string data = "トースターを修理してテストする。チンと鳴ると、飛び出してきたのは..."
        [5]
-        1 string data = "Another toaster."
+        1 string data = "別のトースター。"
    [212]
     0 StringTable data
      1 string Filename = "d2001_toaster_russiannestingdoll02"
@@ -61313,17 +61313,17 @@
       1 Array Array (6 items)
        0 int size = 6
        [0]
-        1 string data = "Somehow, this full size toaster was stuffed inside another toaster. It's also broken and sparking."
+        1 string data = "なぜか、このフルサイズのトースターは別のトースターの中に詰め込まれていた。これも壊れて火花を散らしている。"
        [1]
-        1 string data = "The toaster remains broken."
+        1 string data = "トースターは壊れたままだ。"
        [2]
-        1 string data = "Repair the toaster."
+        1 string data = "トースターを修理する。"
        [3]
-        1 string data = "You refit the final screw on the bottom plate and the spring mechanism <i>pops</i> with gusto, expelling..."
+        1 string data = "底板の最後のネジを締め直すと、バネ機構が<i>ポン</i>と勢いよく跳ね、飛び出してきたのは..."
        [4]
-        1 string data = "Another toaster."
+        1 string data = "別のトースター。"
        [5]
-        1 string data = "Step away."
+        1 string data = "離れる。"
    [213]
     0 StringTable data
      1 string Filename = "d2001_toaster_russiannestingdoll03"
@@ -61361,17 +61361,17 @@
       1 Array Array (6 items)
        0 int size = 6
        [0]
-        1 string data = "This full size toaster was stuffed inside another full sized toaster, which came out of another full size toaster."
+        1 string data = "このフルサイズのトースターは別のフルサイズのトースターの中に詰め込まれていた。そしてそれは別のフルサイズのトースターから出てきたものだ。"
        [1]
-        1 string data = "The toaster remains broken."
+        1 string data = "トースターは壊れたままだ。"
        [2]
-        1 string data = "Repair the toaster."
+        1 string data = "トースターを修理する。"
        [3]
-        1 string data = "You solder the last wire onto the heating element, check the spring, and the toaster pops out..."
+        1 string data = "最後の配線を発熱体にはんだ付けし、バネを確認すると、トースターから飛び出してきたのは..."
        [4]
-        1 string data = "A beautifully painted russian nesting doll. Each of the five babushkas contains a smaller babushka."
+        1 string data = "美しく塗装されたマトリョーシカ人形。5体のバブーシュカにはそれぞれ小さなバブーシュカが入っている。"
        [5]
-        1 string data = "Step away."
+        1 string data = "離れる。"
    [214]
     0 StringTable data
      1 string Filename = "d2001_vendingmachine01"
@@ -61397,11 +61397,11 @@
       1 Array Array (3 items)
        0 int size = 3
        [0]
-        1 string data = "This vending machine offers a surprisingly useful array of goods."
+        1 string data = "この自動販売機は驚くほど役立つ品揃えを提供している。"
        [1]
-        1 string data = "Go shopping!"
+        1 string data = "買い物をする！"
        [2]
-        1 string data = "Step away."
+        1 string data = "離れる。"
    [215]
     0 StringTable data
      1 string Filename = "d2001_walsh"
@@ -61609,99 +61609,99 @@
        [0]
         1 string data = "Script Node 1"
        [1]
-        1 string data = ""Welcome back!""
+        1 string data = ""おかえりなさい！""
        [2]
-        1 string data = ""We'll be back.""
+        1 string data = ""また来るよ。""
        [3]
-        1 string data = ""Oh, <i>that</i> box! Strange, I thought that had already shipped. You better talk to Jerry in processing to see what the hold-up is.""
+        1 string data = ""ああ、<i>あの</i>箱か！おかしいな、もう出荷したと思ってたんだが。処理部門のジェリーに遅れの原因を聞いた方がいい。""
        [4]
-        1 string data = ""If you're asking about your work order, it's out of my hands. Check with Jerry. Or maybe Hurley. Or Doe.""
+        1 string data = ""作業依頼のことを聞いているなら、私の管轄外だ。ジェリーに確認してくれ。あるいはハーレーか。それかドゥか。""
        [5]
-        1 string data = ""I'm afraid I'm quite busy. Could you make an appointment?""
+        1 string data = ""申し訳ないが今かなり忙しいんだ。予約を取ってもらえるかな？""
        [6]
-        1 string data = ""Just ask around. Someone will help you out.""
+        1 string data = ""周りに聞いてみてくれ。誰かが助けてくれるだろう。""
        [7]
         1 string data = "Bank 8"
        [8]
-        1 string data = ""All right, we're done! Now it's time to release the package. We don't need pre-authorization for that, luckily.""
+        1 string data = ""よし、終わった！さあパッケージを解放する時間だ。幸い、それには事前承認は必要ない。""
        [9]
-        1 string data = ""Go see Hurley. She can help you.""
+        1 string data = ""ハーレーに会いに行ってくれ。彼女が助けてくれる。""
        [10]
-        1 string data = ""Like I said, you need to get a release authorization.""
+        1 string data = ""言った通り、解放承認が必要なんだ。""
        [11]
-        1 string data = ""Hello, I'm Organic Maintainence Coordinator Walsh! How can I help you?""
+        1 string data = ""こんにちは、私は有機体メンテナンス・コーディネーターのウォルシュだ！何かお手伝いできることは？""
        [12]
-        1 string data = ""Well, I'm not one to brag, but I do know my way around a form. Let me help you with that. Let's see.... Ah. Okay. I just need to...""
+        1 string data = ""まあ、自慢するつもりはないが、書類に関してはかなり詳しいんだ。手伝わせてくれ。えーと...ああ、わかった。ここを...""
        [13]
-        1 string data = ""Uh... You know, the release authorization is sort of a formality anyway. I think we can fake it.""
+        1 string data = ""うーん...ほら、解放承認なんてどうせ形式的なものだから。偽造できると思う。""
        [14]
-        1 string data = ""Ah, you're back, and it looks like everything is in order. Let's get your box shipped!""
+        1 string data = ""ああ、戻ってきたね。全部揃っているようだ。さあ箱を出荷しよう！""
        [15]
-        1 string data = ""It's done!""
+        1 string data = ""完了だ！""
        [16]
-        1 string data = ""Enjoy that box full of food.""
+        1 string data = ""食料いっぱいの箱を楽しんでくれ。""
        [17]
-        1 string data = ""There's a crate on the loading dock, ready for delivery, but the robots won't release it.""
+        1 string data = ""積み込みドックに配達準備済みの木箱があるんだが、ロボットが解放してくれないんだ。""
        [18]
-        1 string data = ""What's with all the paperwork?""
+        1 string data = ""この書類手続きは何なんだ？""
        [19]
-        1 string data = ""Paperwork greases the gears of Steeltown!""
+        1 string data = ""書類仕事がスティールタウンの歯車を回すんだ！""
        [20]
         1 string data = " Follow-up PQ. 21"
        [21]
-        1 string data = ""Who should we talk to again?""
+        1 string data = ""また誰に話せばいいんだっけ？""
        [22]
-        1 string data = ""Remind us where to go to wrap this up?""
+        1 string data = ""これを片付けるにはどこに行けばいいか教えてくれないか？""
        [23]
-        1 string data = ""This process is <i>really confusing.</i> You're smart.  Can you 'grease the gears' a bit?""
+        1 string data = ""このプロセスは<i>本当にわかりにくい。</i>あなたは頭がいい。少し『歯車を回して』もらえないか？""
        [24]
-        1 string data = ""Now where was I...?""
+        1 string data = ""えーと、どこまで話したっけ...？""
        [25]
-        1 string data = ""We're done running in circles. Release Cookie's crate or we start shooting.""
+        1 string data = ""もう堂々巡りは終わりだ。クッキーの木箱を解放しろ、さもないと撃ち始めるぞ。""
        [26]
         1 string data = "Script Node 333"
        [27]
-        1 string data = ""Someone raided our supplies. Probably the raiders.""
+        1 string data = ""誰かが物資を略奪した。たぶんレイダーだろう。""
        [28]
-        1 string data = ""I'm really glad you were here to save us. Uh, what were your names again?""
+        1 string data = ""助けてくれて本当にうれしいよ。えーと、また名前を教えてもらえるかな？""
        [29]
-        1 string data = ""I'm going to tell all my friends how I was saved by the Rangers!""
+        1 string data = ""レンジャーに助けてもらったって友達みんなに言いふらすぞ！""
        [30]
-        1 string data = ""Fine. <i>Fine.</i>""
+        1 string data = ""わかった。<i>わかったよ。</i>""
        [31]
-        1 string data = ""Okay, we'll go do that!""
+        1 string data = ""よし、行ってくるよ！""
        [32]
-        1 string data = ""Sure!""
+        1 string data = ""もちろん！""
        [33]
-        1 string data = ""There, that should do it. I think. Oh, except for the release authorization.""
+        1 string data = ""これでいいはずだ。たぶん。ああ、解放承認は別だけど。""
        [34]
-        1 string data = ""One moment while I enter this here... and this... here... and...""
+        1 string data = ""ちょっと待ってくれ、これをここに入力して...これを...ここに...そして...""
        [35]
-        1 string data = ""That was a fun journey. I'm glad we could travel this paperwork path together.""
+        1 string data = ""楽しい旅だったな。一緒に書類の道を歩めてうれしいよ。""
        [36]
-        1 string data = ""Good.""
+        1 string data = ""よかった。""
        [37]
-        1 string data = ""Fine.""
+        1 string data = ""いいね。""
        [38]
-        1 string data = ""Uh, that's not the best metaphor. You know what I mean.""
+        1 string data = ""ああ、それは最適な比喩じゃないな。言いたいことはわかるだろう。""
        [39]
-        1 string data = ""What crate would that be? We ship a lot of crates you know. We're a factory.""
+        1 string data = ""どの木箱のことだ？ここはたくさんの木箱を出荷してるんだ。工場だからな。""
        [40]
-        1 string data = ""It's a crate of food. You authorized it to be shipped to Cookie, in the refugee camp.""
+        1 string data = ""食料の木箱だ。難民キャンプのクッキーに出荷するように承認したやつだ。""
        [41]
-        1 string data = ""Don't be a patronizing putz. It's food, for the refugees.""
+        1 string data = ""偉そうにするな。難民のための食料だ。""
        [42]
-        1 string data = ""Hmmm. I'm having trouble remembering. Probably because I'm a putz.""
+        1 string data = ""うーむ。思い出せない。たぶん俺がマヌケだからだな。""
        [43]
-        1 string data = ""Sorry we called you a putz. Can you help us get this crate shipped?""
+        1 string data = ""マヌケと呼んで悪かった。この木箱の出荷を手伝ってくれないか？""
        [44]
-        1 string data = ""Maybe we'll ask Markham if she remembers.""
+        1 string data = ""マーカムに覚えているか聞いてみようか。""
        [45]
-        1 string data = ""Apology accepted, now let's see if I can recall...""
+        1 string data = ""謝罪を受け入れた。さて、思い出せるかな...""
        [46]
         1 string data = ""
        [47]
-        1 string data = ""Sorry, paperwork's gonna have to wait until this craziness blows over.""
+        1 string data = ""悪いが、書類仕事はこの騒ぎが収まるまで待たないといけない。""
    [216]
     0 StringTable data
      1 string Filename = "d2001_winktillman"
@@ -61939,117 +61939,117 @@
       1 Array Array (56 items)
        0 int size = 56
        [0]
-        1 string data = ""Sorry, pals, can't show you any of Steeltown's glorious weapons - er, construction equipment - 'til Markham gives me the nod.""
+        1 string data = ""悪いな、友よ。スティールタウンの素晴らしい武器...いや、建設機器をマーカムの許可なしには見せられないんだ。""
        [1]
-        1 string data = ""Howdy, pals. Wink Tillman's the name, construction tools is the game. And I got a few that'll make your eyes pop. Now, I've can hear you asking yourselves, what would a squad of top-grade professional soldiers such as us want with construction tools?""
+        1 string data = ""よう、友よ。俺はウィンク・ティルマン、建設工具が専門だ。目玉が飛び出るようなものがいくつかあるぜ。ところで、お前らみたいな一流のプロ兵士が建設工具なんかに何の用があるのかって思ってるだろう？""
        [2]
-        1 string data = ""Welcome back, pallies. What can I do you for?""
+        1 string data = ""おかえり、友よ。何か用かい？""
        [3]
-        1 string data = ""Let's have a look at those 'tools.'""
+        1 string data = ""その『工具』を見せてくれ。""
        [4]
-        1 string data = ""You bet, pals. You bet.""
+        1 string data = ""もちろんだ、友よ。もちろん。""
        [5]
-        1 string data = ""Goodbye.""
+        1 string data = ""さようなら。""
        [6]
-        1 string data = ""So long, pals.""
+        1 string data = ""またな、友よ。""
        [7]
         1 string data = "Script Node 333"
        [8]
-        1 string data = ""Hey, pals. Thanks for saving us from those raiders! You guys are the best!""
+        1 string data = ""よう、友よ。レイダーから助けてくれてありがとう！最高だぜ！""
        [9]
-        1 string data = ""I coulda held my own against those raiders - Steeltown tools are just that good. But I appreciate the effort.""
+        1 string data = ""俺一人でもあのレイダーどもに対抗できたさ - スティールタウンの工具はそれだけ優秀だからな。でも助けてくれて感謝してるよ。""
        [10]
-        1 string data = ""Well, let me tell you, amigos - but, uh, don't tell the <i>boss</i> I told you - a rivet gun isn't just for putting things together. It can also take things - and people - apart. As can a pneumatic gauntlet, or a furnace lighter.""
+        1 string data = ""まあ聞いてくれ、友よ - でも、えーと、<i>ボス</i>には言ったって言わないでくれよ - リベットガンは物を組み立てるだけじゃないんだ。物を - そして人も - バラバラにできる。ニューマチック・ガントレットや炉用ライターもそうだ。""
        [11]
-        1 string data = ""Now, I'm not saying you <i>should</i> use them like that. I'm just saying you <i>could</i>, so have a look at my selection and let your imaginations run wild.""
+        1 string data = ""いや、そういう使い方を<i>すべき</i>だとは言ってないぜ。ただ<i>できる</i>って言ってるだけだ。だから俺の品揃えを見て想像力を働かせてくれ。""
        [12]
-        1 string data = ""Can we ask you some questions?""
+        1 string data = ""いくつか質問してもいいか？""
        [13]
-        1 string data = ""So long.""
+        1 string data = ""じゃあな。""
        [14]
-        1 string data = ""Absolutely, amigos. Questions don't cost a dime!""
+        1 string data = ""もちろんだ、友よ。質問はタダだからな！""
        [15]
-        1 string data = ""See ya, champs!""
+        1 string data = ""またな、チャンプ！""
        [16]
         1 string data = ""
        [17]
-        1 string data = ""What do <i>you</i> know about the strike in the factory?""
+        1 string data = ""工場のストライキについて<i>あなたは</i>何を知っている？""
        [18]
-        1 string data = ""So the sirens and gunshots coming from the factory level don't concern you?""
+        1 string data = ""工場階から聞こえるサイレンや銃声は気にならないのか？""
        [19]
-        1 string data = ""Thanks for the info.""
+        1 string data = ""情報をありがとう。""
        [20]
-        1 string data = ""No problemo!""
+        1 string data = ""どういたしまして！""
        [21]
-        1 string data = ""Whoa now, friends. I think the word 'strike' is a bit strong, don't you? The Computation Engine would never allow anything as serious as a strike to happen in Steeltown.""
+        1 string data = ""おいおい、友よ。『ストライキ』という言葉は少し強すぎないか？コンピュテーション・エンジンがスティールタウンでストライキなんて重大なことを許すわけがない。""
        [22]
-        1 string data = ""I'm sure that's just some kind of training exercise. The Computation Engine likes to keep us on our toes.""
+        1 string data = ""あれはただの訓練だと思うよ。コンピュテーション・エンジンは俺たちを油断させないのが好きなんだ。""
        [23]
-        1 string data = ""I'd say what's goin' on is just a little... disagreement. And all Markham wants you to do is have a little sit down with the parties involved and find a compromise.""
+        1 string data = ""俺に言わせれば、今起きてるのはちょっとした...意見の相違だ。マーカムがお前らに望んでるのは、関係者と話し合って妥協点を見つけることだけさ。""
        [24]
-        1 string data = ""What have you heard about Ludlow, the security chief? Or the woman leading the workers, Salene Crow?""
+        1 string data = ""セキュリティ・チーフのラドローについて何か聞いた？それか労働者を率いている女性、セイリーン・クロウについては？""
        [25]
-        1 string data = ""Pals, please. I'm just in sales. I don't stick my nose in other department's business.""
+        1 string data = ""友よ、頼むよ。俺は販売担当なんだ。他の部署のことに首を突っ込まないようにしてるんだ。""
        [26]
-        1 string data = ""Really toeing the company line, aren't you, Wink?""
+        1 string data = ""会社の方針に忠実だな、ウィンク？""
        [27]
-        1 string data = ""I don't know what you mean. These are my honest and independently arrived at conclusions.""
+        1 string data = ""何のことかわからないな。これは俺が正直に、独自に導き出した結論だ。""
        [28]
-        1 string data = ""What is the Computation Engine, anyway?""
+        1 string data = ""ところで、コンピュテーション・エンジンって何だ？""
        [29]
-        1 string data = ""The greatest computer in the world! Invented right here in Steeltown by our own world class engineers. With the Computation Engine in charge of Steeltown, everything goes right the first time, every time!""
+        1 string data = ""世界最高のコンピューターさ！スティールタウンの世界クラスのエンジニアがここで発明したんだ。コンピュテーション・エンジンがスティールタウンを管理してれば、全てが一発で、毎回うまくいくんだ！""
        [30]
-        1 string data = ""But things aren't going right now, Wink. Are they?""
+        1 string data = ""でも今はうまくいってないだろ、ウィンク。違うか？""
        [31]
-        1 string data = ""Th-that's not the Computation Engine's fault. That's human error!""
+        1 string data = ""そ...それはコンピュテーション・エンジンのせいじゃない。人為的ミスだ！""
        [32]
-        1 string data = ""Are you worried about the gangs coming here?""
+        1 string data = ""ギャングがここに来ることを心配してるか？""
        [33]
-        1 string data = ""Me, worried about ravening hordes? Are you kidding, pals? I work in a gun store! Er, I mean, tool store, but same difference. Those gangs get here, they'll get a face full of hot rivets from me.""
+        1 string data = ""俺が？貪欲な群れを心配してる？冗談だろ、友よ？俺は銃屋で働いてるんだぞ！いや、工具屋だが、同じようなもんだ。あのギャングどもがここに来たら、熱いリベットを顔面にお見舞いしてやるさ。""
        [34]
-        1 string data = ""And you too, if you want to check out the merchandise.""
+        1 string data = ""お前らもな、商品をチェックしたいならな。""
        [35]
         1 string data = ""
        [36]
-        1 string data = ""Can we ask you some questions?""
+        1 string data = ""いくつか質問してもいいか？""
        [37]
-        1 string data = ""Sure you can, champs. What's on your mind?""
+        1 string data = ""もちろんだ、チャンプ。何が気になる？""
        [38]
-        1 string data = ""Just take care of the rumpus in the factory and she'll sign off for sure.""
+        1 string data = ""工場の騒ぎを片付けてくれれば、彼女はきっと許可してくれるさ。""
        [39]
-        1 string data = ""Any insight on why Blue left Steeltown and started the Ghost Gang?""
+        1 string data = ""ブルーがスティールタウンを離れてゴースト・ギャングを作った理由について何かわかることはあるか？""
        [40]
-        1 string data = ""Insight's above my pay grade, amigos. All I can say is, he was a nice guy when he was here, but supposedly he stole company property on his way out, so I guess he wasn't so nice after all.""
+        1 string data = ""そういう洞察は俺の給料以上の話だな、友よ。言えるのは、ここにいた時は良いやつだったってことだけだ。でも出ていく時に会社の財産を盗んだらしいから、結局そんなに良いやつじゃなかったってことだな。""
        [41]
-        1 string data = ""How's Markham to work for?""
+        1 string data = ""マーカムの下で働くのはどうだ？""
        [42]
-        1 string data = ""She's the best, pals. The best. And if you thought I was gonna say anything else, then you don't know Wink Tillman!""
+        1 string data = ""最高だよ、友よ。最高さ。もし俺が他のことを言うと思ったなら、ウィンク・ティルマンを知らないってことだ！""
        [43]
-        1 string data = ""Thanks, Wink.""
+        1 string data = ""ありがとう、ウィンク。""
        [44]
-        1 string data = ""You're quite the public relations man, aren't you?""
+        1 string data = ""なかなかの広報マンだな？""
        [45]
-        1 string data = ""No problemo!""
+        1 string data = ""どういたしまして！""
        [46]
-        1 string data = ""Eh? Naw. I just love this company, pals. Love it!""
+        1 string data = ""え？いや。俺はただこの会社が好きなんだ、友よ。大好きなんだ！""
        [47]
         1 string data = ""
        [48]
-        1 string data = ""I... I don't want to get involved in whatever's going on. Come back after.""
+        1 string data = ""俺は...今起きてることには関わりたくない。後で来てくれ。""
        [49]
-        1 string data = ""You wanna buy? Now? Shit. Well, a sale's a sale I guess. Whaddaya need?""
+        1 string data = ""買いたいのか？今？くそ。まあ、売り上げは売り上げだ。何が欲しい？""
        [50]
-        1 string data = ""Yeah, maybe not now.""
+        1 string data = ""ああ、今じゃないほうがいいかもな。""
        [51]
-        1 string data = ""Right you are, pally. See you later.""
+        1 string data = ""その通りだ、友よ。また後でな。""
        [52]
-        1 string data = ""Go see her if you think you can change her mind.""
+        1 string data = ""彼女の気が変わると思うなら会いに行ってみろ。""
        [53]
         1 string data = ""
        [54]
-        1 string data = ""Oh, it don't look good for ol' Wink!""
+        1 string data = ""ああ、ウィンクにとって良くない展開だ！""
        [55]
-        1 string data = ""Guess I won't win employee of the month again.""
+        1 string data = ""また今月の最優秀社員にはなれなさそうだな。""
    [217]
     0 StringTable data
      1 string Filename = "d2001_worker_arcology"
