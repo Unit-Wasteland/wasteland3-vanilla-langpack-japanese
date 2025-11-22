@@ -25,15 +25,15 @@
   "dlc1": {
     "status": "in_progress",
     "current_file": "StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
-    "current_line": 27205,
+    "current_line": 28885,
     "total_lines": 120559,
-    "entries_completed": 3534,
+    "entries_completed": 3705,
     "total_entries": 38554,
-    "percent_complete": 9.2,
+    "percent_complete": 9.6,
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
-    "notes": "2025-11-23: Session 272 completed 130 entries. Fixed 2 bracket errors. Sections: refugee_prisonervictim (Aram, Arthur, Fatima, Iris corpses and dialogue), refugee_prisoner_scarcollectors, refugee_stacks (Stacks ambient). All validations passed with 0 errors."
+    "notes": "2025-11-23: Session 273 completed 171 entries. Sections: refugee_testing_eyescan/failure/skilltests, scarcollector_camp/slaver, scrapyard_robot, steeltownadmin_results, steeltownguard_carstolen/clinic/courtyard. All validations passed with 0 errors."
   },
   "dlc2": {
     "status": "not_started",
@@ -43,33 +43,34 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 272,
+    "session_number": 273,
     "date": "2025-11-23",
-    "entries_processed": 130,
+    "entries_processed": 171,
     "sections_completed": [
-      "d1001_refugee_prisonervictim_aramcorpse (7 entries - Aram corpse examination)",
-      "d1001_refugee_prisonervictim_arthur (20 entries - Arthur/Iris dialogue)",
-      "d1001_refugee_prisonervictim_arthurcorpse (10 entries - Arthur corpse)",
-      "d1001_refugee_prisonervictim_fatima (16 entries - Fatima murder witness)",
-      "d1001_refugee_prisonervictim_fatimacorpse (11 entries - Fatima corpse)",
-      "d1001_refugee_prisonervictim_iris (4 entries - Iris dialogue)",
-      "d1001_refugee_prisonervictim_iriscorpse (1 entry - Iris corpse)",
-      "d1001_refugee_prisoner_scarcollectors (18 entries - Captured refugees)",
-      "d1001_refugee_stacks (43 entries - Stacks ambient dialogue)"
+      "d1001_refugee_testing_eyescan (4 entries - Eye scan reactions)",
+      "d1001_refugee_testing_failure (17 entries - Test failure dialogue)",
+      "d1001_refugee_testing_skilltests (11 entries - Skill test comments)",
+      "d1001_scarcollector_camp (14 entries - Scar Collector camp dialogue)",
+      "d1001_scarcollector_slaver (6 entries - Slaver dialogue)",
+      "d1001_scrapyard_robot (48 entries - H3R0 robot dialogue)",
+      "d1001_steeltownadmin_results (13 entries - Test results)",
+      "d1001_steeltownguard_carstolen (6 entries - Car theft report)",
+      "d1001_steeltownguard_clinic (38 entries - Clinic guard dialogue)",
+      "d1001_steeltownguard_courtyard (14 entries - Courtyard guard dialogue)"
     ],
-    "commit_hash": "f002e227",
+    "commit_hash": "pending",
     "validation_passed": true,
-    "notes": "Session 272: Completed refugee murder victim storyline (serial killer mystery) and Stacks ambient dialogue. Fixed 2 bracket marker errors (changed from Japanese to English). All validations passed with 0 errors.",
-    "next_action": "Continue DLC1 sequential translation from d1001_refugee_testing at line 27205."
+    "notes": "Session 273: Steeltown entrance and testing area dialogue. Robot H3R0, guard dialogue, screening process. All validations passed with 0 errors.",
+    "next_action": "Continue DLC1 sequential translation from d1001_steeltownguard_exterior at line 28885."
   },
   "cumulative_stats": {
-    "total_sessions": 272,
-    "total_entries_translated": 166970,
-    "untranslated_remaining": 65448,
-    "average_entries_per_session": 614.0,
+    "total_sessions": 273,
+    "total_entries_translated": 167141,
+    "untranslated_remaining": 65277,
+    "average_entries_per_session": 612.4,
     "estimated_sessions_remaining_base": 0,
     "estimated_days_remaining_base": "Complete",
-    "estimated_sessions_remaining_dlc1": 67,
+    "estimated_sessions_remaining_dlc1": 66,
     "estimated_days_remaining_dlc1": "2-3 days",
     "estimated_sessions_remaining_dlc2": 48,
     "estimated_days_remaining_dlc2": "1-2 days",
