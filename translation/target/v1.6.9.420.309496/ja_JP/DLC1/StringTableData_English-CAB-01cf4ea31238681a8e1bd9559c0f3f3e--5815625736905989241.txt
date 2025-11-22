@@ -11351,11 +11351,11 @@
        [27]
         1 string data = ""よかった、生き残ったのね！""
        [28]
-        1 string data = ""Who are you?"TEMP-Needs rewrite now that we push back Ghost Gang."
+        1 string data = ""あなたは誰？"TEMP-Needs rewrite now that we push back Ghost Gang."
        [29]
         1 string data = ""あの連中は誰だった？""
        [30]
-        1 string data = ""What were you arguing about with the people out here?"TEMP-Needs rewrite now that we push back Ghost Gang."
+        1 string data = ""さっきここにいた人たちと何を言い合ってたの？"TEMP-Needs rewrite now that we push back Ghost Gang."
        [31]
         1 string data = ""盗賊を片付けてくれてありがとう。本当に迷惑なのよ。今から入る？""
        [32]
@@ -16607,35 +16607,35 @@
        [1]
         1 string data = "Script Node 2"
        [2]
-        1 string data = ""Our task is not complete, Rangers, and I cannot accompany you beyond Steeltown. If you must depart, I will rejoin you upon your return.""
+        1 string data = ""私たちの任務はまだ終わっていません、レンジャー。スティールタウンの外へは同行できません。出発されるなら、戻られた時に合流します。""
        [3]
-        1 string data = "[Leave] "Okay, Di. We'll see you when we get back.""
+        1 string data = "[Leave] "分かった、ディ。戻ったら会おう。""
        [4]
-        1 string data = "[Stay] "Never mind. We'll stay in Steeltown for now.""
+        1 string data = "[Stay] "やっぱりいい。今はスティールタウンにいる。""
        [5]
-        1 string data = ""Thank you.""
+        1 string data = ""ありがとうございます。""
        [6]
-        1 string data = ""Return promptly, Rangers. There is still much for you to do.""
+        1 string data = ""早く戻ってください、レンジャー。まだやることがたくさんあります。""
        [7]
         1 string data = "Script Node 8"
        [8]
         1 string data = "Script Node 9"
        [9]
-        1 string data = ""Hello again, Rangers!""
+        1 string data = ""また会えましたね、レンジャー！""
        [10]
-        1 string data = ""You have returned. Let us resume our task.""
+        1 string data = ""お戻りになりましたね。任務を再開しましょう。""
        [11]
         1 string data = "Script Node 12"
        [12]
-        1 string data = ""Wait, are you going? Uh, I can't leave Steeltown, so if you need to go, I'll see you when you get back, eh.""
+        1 string data = ""待って、行くの？えっと、私はスティールタウンを出られないから、行くなら戻った時に会おう、ね。""
        [13]
-        1 string data = "[Leave] "Okay, Di. See you later.""
+        1 string data = "[Leave] "分かった、ディ。また後で。""
        [14]
-        1 string data = "[Stay] "Never mind. We'll stay in Steeltown for now.""
+        1 string data = "[Stay] "やっぱりいい。今はスティールタウンにいる。""
        [15]
-        1 string data = ""Okay. Hurry back, Rangers!""
+        1 string data = ""分かった。早く戻ってね、レンジャー！""
        [16]
-        1 string data = ""Okidoki! Let's get to it, eh.""
+        1 string data = ""オッケー！さあ始めよう、ね。""
        [17]
         1 string data = ""
        [18]
@@ -16659,25 +16659,25 @@
        [27]
         1 string data = ""
        [28]
-        1 string data = ""These are the main gates of Steeltown. Also our shipping and receiving area.""
+        1 string data = ""ここがスティールタウンのメインゲートです。配送と受け取りのエリアでもあります。""
        [29]
-        1 string data = ""Steeltown was founded here because of this scrapyard. We get much of our steel here.""
+        1 string data = ""スティールタウンはこのスクラップヤードがあるからここに建てられました。鉄鋼の多くはここから取れます。""
        [30]
-        1 string data = ""Beware. A bear.""
+        1 string data = ""注意。クマがいます。""
        [31]
-        1 string data = ""Gosh! Is that a bear?""
+        1 string data = ""うわ！あれクマ？""
        [32]
-        1 string data = ""Warning. Hostiles ahead.""
+        1 string data = ""警告。前方に敵がいます。""
        [33]
-        1 string data = ""Uh oh. I think we've got trouble, eh.""
+        1 string data = ""おっと。トラブルだね。""
        [34]
-        1 string data = ""Beware. Bandits.""
+        1 string data = ""注意。盗賊がいます。""
        [35]
-        1 string data = ""I hear a faint radio signal here.""
+        1 string data = ""ここで微かな無線信号を受信しています。""
        [36]
-        1 string data = ""The radio signal again.""
+        1 string data = ""また無線信号だ。""
        [37]
-        1 string data = ""Static.""
+        1 string data = ""ノイズだ。""
    [57]
     0 StringTable data
      1 string Filename = "d1001_drbreeler"
@@ -17891,419 +17891,419 @@
        [1]
         1 string data = "DEBUG"
        [2]
-        1 string data = "Goodbye."
+        1 string data = "さようなら。"
        [3]
-        1 string data = "Here's the To Our Health mission.\nHelp me find find a cure for Dionna!"
+        1 string data = "「私たちの健康のために」ミッションだ。\nディオナの治療法を見つけるのを手伝ってくれ！"
        [4]
-        1 string data = "Any luck with a cure for Dionna?"
+        1 string data = "ディオナの治療法は見つかったか？"
        [5]
-        1 string data = "Install Turbine's Breather"
+        1 string data = "タービンのリブリーザーを装着"
        [6]
-        1 string data = "I've just made a breakthrough with the Fungus.\nStart a scripted sequence of you running over to finish it, and then giving it to Dionna."
+        1 string data = "キノコで突破口を見つけた。\n走っていって完成させ、ディオナに渡すスクリプトシーケンスを開始。"
        [7]
-        1 string data = "Here's the formula for the BLV vaccine"
+        1 string data = "BLVワクチンの処方だ"
        [8]
-        1 string data = "Thanks for all the help Rangers!"
+        1 string data = "助けてくれてありがとう、レンジャー！"
        [9]
-        1 string data = "Herrera is selling the Refugees to the Scar Collectors!\nPlease do something!"
+        1 string data = "エレーラが難民をスカー・コレクターに売っている！\n何とかしてくれ！"
        [10]
-        1 string data = "Herrera sold off the refugees to the Scar Collectors.\nI think it's time to shut down the clinic."
+        1 string data = "エレーラが難民をスカー・コレクターに売り払った。\nクリニックを閉鎖する時だと思う。"
        [11]
-        1 string data = "Thanks for stopping Herrera from selling the Refugees to the Scar Collectors!"
+        1 string data = "エレーラが難民をスカー・コレクターに売るのを止めてくれてありがとう！"
        [12]
-        1 string data = ""Welcome to the Steeltown Human Resources Evaluation Center. Enter the body scanner behind me to begin your assessment for employment in-""
+        1 string data = ""スティールタウン人材評価センターへようこそ。私の後ろの身体スキャナーに入って、雇用評価を始めて——""
        [13]
-        1 string data = ""To enter the factory, you have to pass the evaluation tests, and to do that, you have to be examined by the machines. And lately, they've been failing applicants 9.9 times out of 10. The door hasn't opened in a week. Good luck." "
+        1 string data = ""工場に入るには評価テストに合格しなければならない。そのためには機械の検査を受ける必要がある。最近、応募者の9.9割が不合格になっている。ドアはもう1週間開いていない。幸運を祈る。" "
        [14]
-        1 string data = ""You... you passed! I can't believe it! You're the first in... days!""
+        1 string data = ""合格...合格した！信じられない！何日ぶりだろう...初めてだ！""
        [15]
-        1 string data = ""Dionna's doing great, Rangers. My thanks. Now if you'll excuse me, I've got work to do.""
+        1 string data = ""ディオナは元気だ、レンジャー。感謝する。じゃあ失礼、仕事があるんだ。""
        [16]
-        1 string data = ""I've taken a sample of Black Lung from Dionna.""
+        1 string data = ""ディオナからブラックラングのサンプルを採取した。""
        [17]
-        1 string data = ""What was I supposed to do again?""
+        1 string data = ""何をすればよかったんだっけ？""
        [18]
-        1 string data = ""Got that rebreather.""
+        1 string data = ""リブリーザーを手に入れた。""
        [19]
         1 string data = ""
        [20]
-        1 string data = ""Find a rebreather from that Scar Collector down near the ruins, or find a cure for the Black Lung. Either way. Doesn't make a difference to me.""
+        1 string data = ""遺跡の近くにいるスカー・コレクターからリブリーザーを手に入れるか、ブラックラングの治療法を見つけてくれ。どちらでもいい。俺にとっては同じだ。""
        [21]
-        1 string data = "We can find a cure!\nI'll take a sample from Dionna."
+        1 string data = "治療法を見つけられる！\nディオナからサンプルを採取する。"
        [22]
-        1 string data = "We'll look into the Scar Collector solution."
+        1 string data = "スカー・コレクターの解決策を調べてみる。"
        [23]
-        1 string data = "I'll take it to her and install it.\nHope she doesn't hate it..."
+        1 string data = "彼女のところに持っていって装着する。\n嫌がらなければいいけど..."
        [24]
-        1 string data = "I see you've made a breakthrough!\nI'll walk over to the instruments and finish the cure, then I'll give it to Dionna."
+        1 string data = "突破口を見つけたようだな！\n機器のところに行って治療を完成させ、ディオナに渡す。"
        [25]
-        1 string data = "Sadly, Dionna didn't make it..."
+        1 string data = "残念ながら、ディオナは助からなかった..."
        [26]
-        1 string data = "We're trying to find a reactant that breaks down the smog particles."
+        1 string data = "スモッグ粒子を分解する反応物質を探している。"
        [27]
-        1 string data = "Hrm.... maybe something with OBSCURE PROPERTY OF ARCOLOGY FUNGUS?\nNo idea where we'd find something like that though..."
+        1 string data = "うーん...アーコロジーのキノコの不明な特性を持つ何かはどうだろう？\nそんなものがどこにあるか見当もつかないが..."
        [28]
-        1 string data = "You can use the lab equipment in my office."
+        1 string data = "私のオフィスの実験器具を使っていい。"
        [29]
-        1 string data = "We've got a tissue sample. We could use someplace to work."
+        1 string data = "組織サンプルがある。作業できる場所が欲しい。"
        [30]
-        1 string data = ""Every time I see Dionna, I think she's a Scar Collector. But... I'm grateful she's alive.""
+        1 string data = ""ディオナを見るたびに、スカー・コレクターだと思ってしまう。でも...生きていてくれて感謝している。""
        [31]
-        1 string data = ""Thanks for looking out for the refugees. Not many do.""
+        1 string data = ""難民を気にかけてくれてありがとう。そういう人は少ない。""
        [32]
-        1 string data = ""Did you see outside? Ludlow's selling workers to slavers! He's gotta be stopped!""
+        1 string data = ""外を見たか？ラドローが労働者を奴隷商人に売ってる！止めなきゃ！""
        [33]
-        1 string data = ""Uh, you don't look like the usual candidates. What do you want?""
+        1 string data = ""えーと、普通の応募者には見えないな。何の用だ？""
        [34]
-        1 string data = ""Who are you?""
+        1 string data = ""あなたは誰？""
        [35]
-        1 string data = ""What is the purpose of these tests?""
+        1 string data = ""このテストの目的は何？""
        [36]
-        1 string data = ""Why are so many of these people being turned away?""
+        1 string data = ""なぜこんなに多くの人が追い返されているの？""
        [37]
-        1 string data = ""We'd like to help Dionna.""
+        1 string data = ""ディオナを助けたいんだ。""
        [38]
-        1 string data = ""What's the deal with the screening tests out there, anyway?""
+        1 string data = ""外の審査テストって一体何なの？""
        [39]
-        1 string data = ""I guess we'll take the tests, then.""
+        1 string data = ""じゃあ、テストを受けてみるか。""
        [40]
-        1 string data = ""Then step into the garbage disposal behind me. I'm sorry. I meant the Biometric Assessment Pod.""
+        1 string data = ""じゃあ私の後ろのゴミ処理機に入ってくれ。すまん、生体評価ポッドの間違いだ。""
        [41]
-        1 string data = ""Everyone who wants to come in gets screened. No exceptions. Hm. Funny thing is, I think those cameras are just for show. No one's ever come when trouble breaks out.""
+        1 string data = ""入りたい人は全員審査を受ける。例外なしだ。ふむ。面白いことに、あのカメラは飾りだと思う。トラブルが起きても誰も来たことがない。""
        [42]
-        1 string data = ""I want to talk about these refugees.""
+        1 string data = ""この難民たちについて話したいんだ。""
        [43]
-        1 string data = ""My favorite topic. Ask."\n\n\nHe takes a swig from his bottle."
+        1 string data = ""俺の好きな話題だ。聞け。"\n\n\n彼はボトルから一口飲む。"
        [44]
-        1 string data = ""Again? Fine.""
+        1 string data = ""また？いいだろう。""
        [45]
-        1 string data = ""What's making these people sick?""
+        1 string data = ""この人たちを病気にしているのは何？""
        [46]
-        1 string data = ""Can't you cure them?""
+        1 string data = ""治せないの？""
        [47]
-        1 string data = ""With what medicine? I can't fill their prescriptions. Hell, I can't even <i>write</i> prescriptions. I'm out of everything I need. Basically I've got hope and a bottle, and I'm running awful short of liquor.""
+        1 string data = ""何の薬で？処方箋を書くことすらできない。いや、処方箋を<i>書く</i>ことさえできないんだ。必要なものは全部切れてる。基本的に俺にあるのは希望とボトルだけで、酒もほとんどなくなってきた。""
        [48]
-        1 string data = ""A condition called Black Lung. I've got no idea what's causing it, apart from the smog, but you'd think that asthma would be the worst of it. No such luck. There's something else going on, and I don't have any goddamn idea what it is.""
+        1 string data = ""ブラックラングという症状だ。スモッグ以外に何が原因か分からないが、喘息が最悪だと思うだろう。そうじゃない。何か他のことが起きているが、一体何なのか全く分からない。""
        [49]
-        1 string data = ""I can't help these people. Best I can do for them is ease their pain, and just between us, it's driving me fucking crazy. You see that coughing woman there? Her name's Dionna Herrera. She's gonna die, and there's not a damn thing I can do about it.""
+        1 string data = ""この人たちを助けられない。できるのは痛みを和らげることだけで、ここだけの話、気が狂いそうだ。あそこで咳をしている女を見ろ。名前はディオナ・エレーラ。彼女は死ぬし、俺にはどうすることもできない。""
        [50]
-        1 string data = ""You know what'd make me happy? If one of 'em had pecker rot. I'd kill to work on an infected dick right now. I know how to cure that shit. But no. It's all Black Lung.""
+        1 string data = ""何が俺を幸せにするか知りたい？あいつらの誰かがチンポ腐れだったらな。今すぐ感染したチンポを治療できたら死んでもいい。そのクソの治し方は知ってるからな。でもダメだ。全部ブラックラングだ。""
        [51]
-        1 string data = ""So you've got no idea what's making these people sick. Any way we can help?""
+        1 string data = ""つまりこの人たちを病気にしている原因が分からないと。何か手伝えることは？""
        [52]
-        1 string data = ""Want to ask a few other questions.""
+        1 string data = ""他にいくつか質問したいんだが。""
        [53]
-        1 string data = ""Sure, fine, whatever.""
+        1 string data = ""ああ、いいよ、何でも。""
        [54]
-        1 string data = ""Oh, do-gooders, huh? Sure, fine. Let's work on curing Dionna, then, because she's farthest along. Way I see it, I've got two options. Ideally, we find a cure, but honestly I'm out of ideas on  how to do that. Someone better at medicine could do it, maybe. I'm just so goddamned tired.""
+        1 string data = ""ああ、善人気取りか？いいよ、分かった。じゃあディオナの治療に取り組もう、彼女が一番進行してるから。俺の見方では二つの選択肢がある。理想的には治療法を見つけることだが、正直どうすればいいか分からない。医学に詳しい誰かならできるかもしれない。俺はただ疲れ切ってるんだ。""
        [55]
-        1 string data = ""To be the living definition of the term Kafkaesque? To drain the hopes and dreams of a hundred plus people a day? To drive me to drink?""
+        1 string data = ""カフカ的という言葉の生きた定義になるため？毎日100人以上の希望と夢を奪うため？俺を酒浸りにするため？""
        [56]
-        1 string data = ""Horace Breeler. You wouldn't guess it now, but I was an actual doctor once. Now I don't even do the eye test.""
+        1 string data = ""ホレス・ブリーラーだ。今は信じられないだろうが、昔は本物の医者だった。今は視力検査すらしていない。""
        [57]
-        1 string data = ""Sick. Not suitable for employment inside. No worthwhile skills. Not <i>important</i> enough.""
+        1 string data = ""病気だ。内部の雇用には適さない。価値のあるスキルがない。十分に<i>重要</i>じゃない。""
        [58]
-        1 string data = ""Second option - I saw a Scar Collector with an attached breathing apparatus exploring the scrapyard. Maybe acquire that breathing machine and I can hook Dionna up to it. Not sure how she'd feel about being part machine, but it's got to be better than being dead.""
+        1 string data = ""二つ目の選択肢 - スクラップヤードを探索しているスカー・コレクターが呼吸装置を付けているのを見た。その呼吸機を手に入れれば、ディオナに取り付けられるかもしれない。機械の一部になることを彼女がどう思うか分からないが、死ぬよりはましだろう。""
        [59]
-        1 string data = ""So whaddya say, Rangers? Do you want to do this?""
+        1 string data = ""どうする、レンジャー？やるか？""
        [60]
-        1 string data = ""We've thought about it. We'll try to help Dionna.""
+        1 string data = ""考えてみた。ディオナを助けてみる。""
        [61]
-        1 string data = ""Great."\n\n\nHis tone is hardly enthusiastic."
+        1 string data = ""よし。"\n\n\n彼の声には熱意がほとんどない。"
        [62]
-        1 string data = ""Like I said, there are two options. Figure out how to develop a cure - best of luck with <i>that</i> - or get the Scar Collector's breathing machine.""
+        1 string data = ""言った通り、二つの選択肢がある。治療法を開発する方法を見つけるか - <i>それ</i>がうまくいくことを祈るよ - スカー・コレクターの呼吸機を手に入れるか。""
        [63]
-        1 string data = ""Yep. Where should we start?""
+        1 string data = ""そうだ。どこから始めればいい？""
        [64]
-        1 string data = ""Not doing it right now.""
+        1 string data = ""今はやらない。""
        [65]
-        1 string data = ""Heh. Yep. It's a big, daunting job. Better not to try. Just setting yourself up for failure. And alcoholism, to boot."\n\n\nHe takes another swig."
+        1 string data = ""へへ。そうだな。大きくて気の遠くなる仕事だ。やらない方がいい。失敗するだけだ。おまけにアルコール依存症にもなる。"\n\n\n彼はまた一口飲む。"
        [66]
-        1 string data = ""Really? Uh... I didn't expect that. Great. Okay. so... uh... hm. Next steps, next steps.""
+        1 string data = ""本当に？えーと...それは予想してなかった。よし。OK。じゃあ...えーと...ふむ。次のステップ、次のステップ。""
        [67]
-        1 string data = ""Medicine's our specialty. We should start by taking samples from Dionna.""
+        1 string data = ""医学は私たちの専門だ。まずディオナからサンプルを採取しよう。""
        [68]
-        1 string data = ""Don't know much about making cures, but we're <i>great</i> at finding hardware.""
+        1 string data = ""治療法を作ることはあまり知らないが、ハードウェアを見つけるのは<i>得意</i>だ。""
        [69]
-        1 string data = ""Like I said, there are two options. Figure out how to develop a cure - best of luck with <i>that</i> - or get the Scar Collector's breathing machine.""
+        1 string data = ""言った通り、二つの選択肢がある。治療法を開発する方法を見つけるか - <i>それ</i>がうまくいくことを祈るよ - スカー・コレクターの呼吸機を手に入れるか。""
        [70]
-        1 string data = ""Really? Maybe you should be here running this place and I should be out having adventures in frozen wastes, ha ha."\n\n\nHe doesn't look like he's joking."
+        1 string data = ""本当に？たぶんあんたがここでこの場所を管理して、俺が凍った荒野で冒険してるべきだな、ハハ。"\n\n\n彼は冗談を言っているようには見えない。"
        [71]
-        1 string data = ""If you can get the samples from her somehow, then you can use my lab equipment over there. Patriarch knows it hardly gets any real use these days anyway.""
+        1 string data = ""なんとか彼女からサンプルを採取できれば、あそこの俺の実験器具を使っていい。パトリアーク様も知っているが、最近はほとんど使われていないからな。""
        [72]
-        1 string data = ""That Scar Collector's name is Turbine. He's out near the Scrapyard, last I heard. I expect I'll be seeing you in here with some bullet holes soon."\n\n\n"By which I mean, best of luck.""
+        1 string data = ""そのスカー・コレクターの名前はタービンだ。最後に聞いた話ではスクラップヤードの近くにいる。すぐに銃弾の穴を開けてここに戻ってくるのを楽しみにしてるよ。"\n\n\n"つまり、幸運を祈る。""
        [73]
-        1 string data = ""Anyway, if you've got nothing else to talk about..."\n\n\nHe turns back toward his work."
+        1 string data = ""とにかく、他に話すことがないなら..."\n\n\n彼は仕事に戻る。"
        [74]
-        1 string data = ""Damn it, I knew he was a psycho when he took the tests! Why did the computer pass him?""
+        1 string data = ""くそ、あいつがテストを受けた時にサイコだって分かってたのに！なぜコンピューターは合格させたんだ？""
        [75]
-        1 string data = ""I've got nothing to say to you until that slave auction is stopped.""
+        1 string data = ""奴隷オークションが止まるまで、お前らには何も言うことがない。""
        [76]
         1 string data = """"
        [77]
-        1 string data = ""I've analyzed the lung samples. No luck so far.""
+        1 string data = ""肺のサンプルを分析した。今のところ成功していない。""
        [78]
-        1 string data = ""We have a few more questions.""
+        1 string data = ""もう少し質問がある。""
        [79]
-        1 string data = ""Aw, jeez. Okay.""
+        1 string data = ""ああ、参ったな。分かった。""
        [80]
-        1 string data = ""Huh! Nice work. You want to use my lab equipment to check out the sample. Maybe find a reactant that can clear out the particles in the lungs."\n\n\nHe shrugs half-heartedly."
+        1 string data = ""ほう！いい仕事だ。俺の実験器具を使ってサンプルを調べたいんだな。肺の粒子を除去できる反応物質を見つけるかもしれない。"\n\n\n彼は気乗りしない様子で肩をすくめる。"
        [81]
-        1 string data = ""I'm not keen on making her look like a Scar Collector, but given the alternative... Well, help me out here. Think you can get a sample of her lung tissue, or do you want to go ahead and install this? Once it's on, it's not coming off.""
+        1 string data = ""彼女をスカー・コレクターのように見せるのは気が進まないが、代わりの選択肢を考えると...まあ、助けてくれ。彼女の肺組織のサンプルを採取できると思うか、それともこれをすぐに装着するか？一度付けたら外れないぞ。""
        [82]
-        1 string data = ""Wish I could tell you where to start with finding that reactant, but... I've got no ideas. Best of luck. Let me know if you find something.""
+        1 string data = ""その反応物質をどこから探し始めるか教えられればいいんだが...アイデアがない。幸運を祈る。何か見つけたら教えてくれ。""
        [83]
-        1 string data = ""Question still stands - install this now, or see if you can find a cure?""
+        1 string data = ""質問はまだ有効だ - 今これを装着するか、治療法を見つけられるか試すか？""
        [84]
-        1 string data = ""Figured out a filter for the Black Lung - it was a fungus from the arcology.""
+        1 string data = ""ブラックラングのフィルターが分かった - アーコロジーのキノコだった。""
        [85]
-        1 string data = ""That's <i>fantastic</i> news. Honestly, I never would've expected itinerants like yourselves to have the medical chops to find a cure for that disease, and especially not a cure that's easily synthesizable. You've got my thanks, Rangers.""
+        1 string data = ""それは<i>素晴らしい</i>ニュースだ。正直、あんたらみたいな旅人にその病気の治療法を見つける医学的能力があるとは思わなかった。特に簡単に合成できる治療法なんて。感謝する、レンジャー。""
        [86]
-        1 string data = ""Now, let's put that cure to use. The canister will aerosolize the fungus."\n\n\nHe takes some fungus and grinds it into a fine powder. He tips the power into a small canister and hands it to you."
+        1 string data = ""さあ、その治療法を使おう。キャニスターがキノコをエアロゾル化する。"\n\n\n彼はキノコを取って細かい粉に挽く。粉を小さなキャニスターに入れて、あなたに渡す。"
        [87]
-        1 string data = ""Want to see if we can find a cure.""
+        1 string data = ""治療法を見つけられるか試したい。""
        [88]
-        1 string data = ""Go ahead and stick it in her.""
+        1 string data = ""いいよ、彼女に装着してくれ。""
        [89]
         1 string data = """"
        [90]
-        1 string data = ""Fine. I'll hold off on the install, then. Anything else you need?""
+        1 string data = ""分かった。じゃあ装着は保留にする。他に必要なことは？""
        [91]
-        1 string data = ""I'm not that kind of doctor! ... oh, you meant the rebreather. Fair enough. I hope she actually wants to live with a cure like this.""
+        1 string data = ""俺はそういう医者じゃない！...ああ、リブリーザーのことか。いいだろう。彼女がこんな治療法で生きたいと思うことを願う。""
        [92]
-        1 string data = ""She's going to be under sedation for a while. Come back soon. She might have something to tell you then."\n\n\nHe collapses into a chair."
+        1 string data = ""しばらく鎮静状態になる。すぐに戻ってきてくれ。その時に何か話したいことがあるかもしれない。"\n\n\n彼は椅子に崩れ落ちる。"
        [93]
-        1 string data = ""She's gonna make it, Rangers. All thanks to you.""
+        1 string data = ""彼女は助かる、レンジャー。全部あんたらのおかげだ。""
        [94]
-        1 string data = ""Give the rebreather some time to work, will you? God, just give me a break.""
+        1 string data = ""リブリーザーが効くまで少し時間をくれ。頼むから、少し休ませてくれ。""
        [95]
-        1 string data = ""Go spray some in her mouth.""
+        1 string data = ""彼女の口にスプレーしてきてくれ。""
        [96]
-        1 string data = ""Fingers crossed, huh?""
+        1 string data = ""祈るしかないな？""
        [97]
-        1 string data = ""Keep it up. You're bound to find it someday.""
+        1 string data = ""続けてくれ。いつかきっと見つかる。""
        [98]
-        1 string data = ""Thanks for looking out for the refugees. Not many do. You let me keep the clinic open.""
+        1 string data = ""難民を気にかけてくれてありがとう。そういう人は少ない。クリニックを開けておけるよ。""
        [99]
         1 string data = """"
        [100]
-        1 string data = ""Crow let me keep my job, but the testing machines don't work anymore and I have to actually test people.""
+        1 string data = ""クロウは俺の仕事を続けさせてくれたが、テスト機が動かなくなって実際に人をテストしなきゃならない。""
        [101]
-        1 string data = ""Testing center's closed until Crow's uprising is over. And maybe longer than that. Depends on who wins, I guess.""
+        1 string data = ""テストセンターはクロウの反乱が終わるまで閉鎖だ。それ以上かもしれない。誰が勝つかによるな。""
        [102]
-        1 string data = ""Welcome to the Steeltown Human Resources Evaluation Center.""
+        1 string data = ""スティールタウン人材評価センターへようこそ。""
        [103]
-        1 string data = ""Can you heal us?""
+        1 string data = ""治療してくれる？""
        [104]
-        1 string data = ""Can you pay? I prefer to be paid in bottles.""
+        1 string data = ""金は払えるか？俺はボトルで払ってもらうのが好きなんだ。""
        [105]
-        1 string data = ""Maybe check in the arcology? Something there might be useful to you.""
+        1 string data = ""アーコロジーをチェックしてみたら？何か役に立つものがあるかもしれない。""
        [106]
-        1 string data = ""Anyway. What else d'you need?""
+        1 string data = ""とにかく。他に何か用は？""
        [107]
-        1 string data = ""Anyway. What else d'you need?""
+        1 string data = ""とにかく。他に何か用は？""
        [108]
-        1 string data = ""You mean <i>this</i> rebreather?""
+        1 string data = ""<i>この</i>リブリーザーのこと？""
        [109]
-        1 string data = ""Uh... that looks very much like the device I remembered, yes.""
+        1 string data = ""えーと...それは俺が覚えている装置にとてもよく似ているな、ああ。""
        [110]
-        1 string data = ""There's nothing wrong with you. I'll still charge you, though... if you want.""
+        1 string data = ""お前らには何も問題ない。でもそれでも請求はするぞ...望むなら。""
        [111]
-        1 string data = "[[Global: d1001_Money_Doctor_Breeler_const] Dollars] "It'll cost you, though.""
+        1 string data = "[[Global: d1001_Money_Doctor_Breeler_const] Dollars] "でも金はかかるぞ。""
        [112]
-        1 string data = "[[Global: d1001_Money_Doctor_Breeler_const] Dollars] "Deal. Heal us.""
+        1 string data = "[[Global: d1001_Money_Doctor_Breeler_const] Dollars] "取引成立。治療してくれ。""
        [113]
-        1 string data = ""I'm afraid we're broke and dry.""
+        1 string data = ""残念ながら金もなければ酒もない。""
        [114]
-        1 string data = ""Never mind.""
+        1 string data = ""やっぱりいい。""
        [115]
-        1 string data = ""Well, you'll get nothing out of me until you're rich and wet.""
+        1 string data = ""まあ、金持ちで酒を持ってくるまで俺から何も得られないぞ。""
        [116]
-        1 string data = ""Here goes nothing. Don't mind the shaky hands...""
+        1 string data = ""さてどうなるか。手の震えは気にするな...""
        [117]
-        1 string data = ""Fine with me.""
+        1 string data = ""俺はそれでいい。""
        [118]
         1 string data = "Script Node 128"
        [119]
         1 string data = "::coughs::"
        [120]
-        1 string data = ""Start at the body scanner behind me, then visit all stations before you return to me for your results.""
+        1 string data = ""まず私の後ろの身体スキャナーから始めて、全てのステーションを訪れてから結果を聞きに戻ってきてくれ。""
        [121]
         1 string data = "::sighs::"
        [122]
-        1 string data = ""Uh, you don't look like the usual candidates. What's going on? Why do you have so many weapons?""
+        1 string data = ""えーと、普通の応募者には見えないな。何が起きてる？なぜそんなに多くの武器を持ってる？""
        [123]
-        1 string data = ""We've got business in the factory. Are you who we see to get in?""
+        1 string data = ""工場で用がある。入るには誰に会えばいい？""
        [124]
-        1 string data = ""Carla Asphalt-Runner told us to talk to Bennie Bianchi in the factory.""
+        1 string data = ""カーラ・アスファルトランナーが工場のベニー・ビアンキと話せと言った。""
        [125]
-        1 string data = ""I'm not the doorman, I'm afraid. Not anymore. Sorry.""
+        1 string data = ""残念ながら俺は門番じゃない。もうな。すまん。""
        [126]
-        1 string data = ""I'm not the doorman, I'm afraid. Not anymore. Sorry.""
+        1 string data = ""残念ながら俺は門番じゃない。もうな。すまん。""
        [127]
-        1 string data = ""If nobody passes the tests, why do you keep administering them?""
+        1 string data = ""誰もテストに受からないなら、なぜ続けてるの？""
        [128]
         1 string data = "<i></i>sighs<i></i>"
        [129]
-        1 string data = "::sigh:: "Sorry. I have a bile problem. The stated purpose of the tests is to evaluate the fitness, work experience, and mental stability of people seeking employment in the factory."\n\n\n"
+        1 string data = "::sigh:: "すまん。胆汁の問題があってな。テストの公式な目的は、工場での雇用を求める人々の適性、職歴、精神的安定性を評価することだ。"\n\n\n"
        [130]
-        1 string data = ""People who pass are sent for job placement inside, but...""
+        1 string data = ""合格した人は内部で仕事に就くが...""
        [131]
-        1 string data = ""But that almost never happens.""
+        1 string data = ""でもそれはほとんど起こらない。""
        [132]
-        1 string data = ""Only good thing is, I can do this job stone drunk, so I am stone drunk as often as I can be.""
+        1 string data = ""唯一の良い点は、泥酔状態でもこの仕事ができることだ。だから俺はできるだけ泥酔してる。""
        [133]
-        1 string data = ""Like... now, for instance.""
+        1 string data = ""例えば...今みたいにな。""
        [134]
-        1 string data = ""Inertia? Once upon a time, I had a staff here, and we gave all these tests manually. Sent a lot of people through that door to a good job and a better life.""
+        1 string data = ""惰性か？昔はここにスタッフがいて、全てのテストを手動で行っていた。多くの人をあのドアの向こうの良い仕事とより良い人生へ送り出した。""
        [135]
-        1 string data = ""Then Markham built her Computation Engine and decided that <i>it</i> would make all the hiring decisions. So she had these evaluation machines installed, and told me that my new job was to be the friendly face that prepped people for the test.""
+        1 string data = ""それからマークハムが計算エンジンを作って、<i>それ</i>が全ての採用決定を下すことにした。だから評価機を設置して、俺の新しい仕事はテストのために人を準備するフレンドリーな顔だと言った。""
        [136]
-        1 string data = ""Apparently the Computation Engine said that was the position I'm best suited for. So now the machines do all the work and I... drink.""
+        1 string data = ""どうやら計算エンジンは、それが俺に最も適したポジションだと言ったらしい。だから今は機械が全ての仕事をして、俺は...飲む。""
        [137]
-        1 string data = ""Here. How about a bottle of this?""
+        1 string data = ""ほら。これのボトルはどう？""
        [138]
-        1 string data = ""Perfect. I'll just have a little nip before we get started.""
+        1 string data = ""完璧だ。始める前にちょっと一口だけ。""
        [139]
-        1 string data = ""I don't have the facilities - or the faculties for that matter - to do anything major. But if you want me to patch you up, why not? Not doing much else.""
+        1 string data = ""大きなことをする設備もなければ - 能力もない。でも応急処置してほしいなら、いいだろう？他にすることもないし。""
        [140]
-        1 string data = ""Are you sure there's no other way to get through that door?""
+        1 string data = ""あのドアを通る他の方法は本当にないの？""
        [141]
-        1 string data = ""None that I know of. I am the guardian of a gate that never opens. Useless.""
+        1 string data = ""俺が知る限りない。俺は開かない門の番人だ。役立たずだ。""
        [142]
-        1 string data = ""Tell us more about this 'Computation Engine.' ""
+        1 string data = ""この『計算エンジン』についてもっと教えて。""
        [143]
-        1 string data = ""I've never seen it. Could be a big brain in a box, for all I know.""
+        1 string data = ""見たことがない。箱の中の大きな脳かもしれない。""
        [144]
-        1 string data = ""But if that's the case, then it's got brain damage, because the people who go through that door are always the ones I wouldn't have picked in a million years. It's like a magic asshole-picking machine.""
+        1 string data = ""でももしそうなら、脳損傷だな。あのドアを通る人はいつも俺が百万年経っても選ばないような奴らだからな。まるで魔法のクソ野郎選別機だ。""
        [145]
-        1 string data = ""Oops. Sorry. I'm supposed to say it's the best thing ever. So... it's the best thing ever.""
+        1 string data = ""おっと。すまん。最高のものだと言うべきだった。だから...最高のものだ。""
        [146]
-        1 string data = ""You look too competent to pass.""
+        1 string data = ""お前らは有能すぎて受かりそうにないな。""
        [147]
-        1 string data = ""So, you're not happy with your job?""
+        1 string data = ""じゃあ、仕事に満足してないの？""
        [148]
-        1 string data = ""Ha!""
+        1 string data = ""ハッ！""
        [149]
-        1 string data = ""Ha ha!""
+        1 string data = ""ハハッ！""
        [150]
-        1 string data = ""Ha ha ha...!" ::sobs::"
+        1 string data = ""ハハハ...！" ::sobs::"
        [151]
-        1 string data = "He sobs suddenly, then pulls himself together."
+        1 string data = "彼は突然すすり泣き、それから気を取り直す。"
        [152]
-        1 string data = ""What I tell myself every morning when I get up is, 'It's better to be paid for getting drunk than to not be paid for getting drunk.'""
+        1 string data = ""毎朝起きた時に自分に言い聞かせるんだ、『酔っ払うのに金をもらう方が、酔っ払うのに金をもらわないより良い』ってな。""
        [153]
-        1 string data = ""We heard that once someone gets hired, they never come out of the factory again. Is that true?""
+        1 string data = ""一度雇われたら、二度と工場から出てこないって聞いたけど。本当？""
        [154]
-        1 string data = ""That's temporary - or so they tell me. With the plains gangs apparently bearing down on us, Markham's ordered her overseers to keep the place going day and night, making weapons for our defense.""
+        1 string data = ""一時的なものだ - 少なくともそう言われている。平原のギャングが迫ってきているらしく、マークハムは監督者に昼夜を問わず稼働させ続けて、防衛用の武器を作るよう命じた。""
        [155]
-        1 string data = ""The workers sleep inside now. The only break they get.""
+        1 string data = ""労働者は今は中で寝ている。唯一の休憩だ。""
        [156]
-        1 string data = ""You're almost done. Just log in at the Skills Test Terminal and answer the questions.""
+        1 string data = ""もうすぐ終わりだ。スキルテスト端末にログインして質問に答えてくれ。""
        [157]
-        1 string data = ""We're not ready to take the tests yet.""
+        1 string data = ""まだテストを受ける準備ができていない。""
        [158]
-        1 string data = ""Fine.""
+        1 string data = ""いいだろう。""
        [159]
-        1 string data = ""We have to take the tests even if we just want to talk to somebody inside?""
+        1 string data = ""中の誰かと話したいだけでもテストを受けなきゃならないの？""
        [160]
-        1 string data = ""I don't make the rules, sorry. I don't even enforce them. I just watch helplessly from the sidelines.""
+        1 string data = ""俺がルールを作ったんじゃない、すまん。施行すらしていない。ただ傍観者として無力に見ているだけだ。""
        [161]
-        1 string data = ""Isn't there someone you could call?""
+        1 string data = ""誰かに電話できないの？""
        [162]
-        1 string data = ""Ha! I put in a requisition for more toilet paper two weeks ago and I haven't heard from them since!""
+        1 string data = ""ハッ！2週間前にトイレットペーパーの追加を申請したが、それ以来何の連絡もない！""
        [163]
-        1 string data = ""We finally got a pass! Open the main gate!""
+        1 string data = ""やっと合格した！メインゲートを開けてくれ！""
        [164]
-        1 string data = ""Thanks.""
+        1 string data = ""ありがとう。""
        [165]
-        1 string data = ""Good luck.""
+        1 string data = ""幸運を。""
        [166]
-        1 string data = ""And tell Bennie Bianchi I'm still waiting for my toilet paper!""
+        1 string data = ""それとベニー・ビアンキにまだトイレットペーパーを待ってると伝えてくれ！""
        [167]
-        1 string data = ""It's like I don't exist!""
+        1 string data = ""まるで俺が存在しないみたいだ！""
        [168]
-        1 string data = ""You're back? How did you get out? No one gets out of the factory these days.""
+        1 string data = ""戻ってきた？どうやって出てきた？最近は誰も工場から出てこない。""
        [169]
-        1 string data = ""That's certainly the way to get ahead in there, from what I hear.""
+        1 string data = ""聞いた話では、それが中で出世する方法らしいな。""
        [170]
-        1 string data = ""I don't suppose you brought my toilet paper...""
+        1 string data = ""まさかトイレットペーパーを持ってきてくれたんじゃ...""
        [171]
-        1 string data = ""We're helping Bennie with something.""
+        1 string data = ""ベニーの手伝いをしているんだ。""
        [172]
-        1 string data = ""Goodbye.""
+        1 string data = ""さようなら。""
        [173]
-        1 string data = ""Can you heal us?""
+        1 string data = ""治療してくれる？""
        [174]
-        1 string data = ""Can you heal us?""
+        1 string data = ""治療してくれる？""
        [175]
-        1 string data = ""We do what we want.""
+        1 string data = ""俺たちは好きなことをする。""
        [176]
-        1 string data = ""So I see. Well, very macho of you, I'm sure.""
+        1 string data = ""そうみたいだな。まあ、とてもマッチョだな。""
        [177]
-        1 string data = ""Don't get your hopes up, though.""
+        1 string data = ""でもあまり期待するな。""
        [178]
-        1 string data = ""Doesn't matter one way or the other to me.""
+        1 string data = ""俺にはどっちでもいい。""
        [179]
         1 string data = "Script Node 189"
        [180]
-        1 string data = ""Please keep your arms and legs fully inside the chamber.""
+        1 string data = ""腕と脚をチャンバー内に完全に入れたままにしてください。""
        [181]
-        1 string data = ""The Biological Assessment Pod has completed its evaluation. Please move on to the Ocular Scanner.""
+        1 string data = ""生体評価ポッドが評価を完了しました。眼球スキャナーに進んでください。""
        [182]
-        1 string data = ""Press your eyes firmly against the eye piece. Don't worry, nobody's gotten pink eye from it in weeks.""
+        1 string data = ""目をアイピースにしっかりと押し付けてください。心配しないで、何週間も結膜炎になった人はいません。""
        [183]
-        1 string data = " Please step to the SAP - the Strength Assessment Pod.""
+        1 string data = " SAP - 筋力評価ポッドに進んでください。""
        [184]
-        1 string data = ""This is the Strength Assessment Pod. Please answer the questions that appear on the screen.""
+        1 string data = ""これは筋力評価ポッドです。画面に表示される質問に答えてください。""
        [185]
-        1 string data = ""The strength test is complete. Please step to the CRAP - the Computer Resourcefulness Assessment Pod.""
+        1 string data = ""筋力テストが完了しました。CRAP - コンピュータ機知評価ポッドに進んでください。""
        [186]
-        1 string data = ""The computer test is complete, please step to the EEEP - the Engineering Equipment Experience Pod.""
+        1 string data = ""コンピュータテストが完了しました。EEEP - エンジニアリング機器経験ポッドに進んでください。""
        [187]
-        1 string data = ""The engineering test is complete. Please give me a moment to check the results of your tests.""
+        1 string data = ""エンジニアリングテストが完了しました。テスト結果を確認しますので少々お待ちください。""
        [188]
-        1 string data = ""This is the Computer Resourcefulness Assessment Pod. Please answer the questions that appear on the screen.""
+        1 string data = ""これはコンピュータ機知評価ポッドです。画面に表示される質問に答えてください。""
        [189]
-        1 string data = ""This is the Engineering Equipment Experience Pod. Please answer the questions that appear on the screen.""
+        1 string data = ""これはエンジニアリング機器経験ポッドです。画面に表示される質問に答えてください。""
        [190]
-        1 string data = ""It says here you would be best suited to work as...""
+        1 string data = ""ここによると、あなたに最も適した仕事は...""
        [191]
-        1 string data = ""... a Masseuse.""
+        1 string data = ""...マッサージ師。""
        [192]
-        1 string data = ""... a Custodial Technician.""
+        1 string data = ""...清掃技術者。""
        [193]
-        1 string data = ""... a Machine Whisperer.""
+        1 string data = ""...機械ささやき師。""
        [194]
-        1 string data = ""... a Tape Rewinder.""
+        1 string data = ""...テープ巻き戻し係。""
        [195]
-        1 string data = ""... a Florist.""
+        1 string data = ""...花屋。""
        [196]
-        1 string data = ""... a Pencil Sharpener.""
+        1 string data = ""...鉛筆削り係。""
        [197]
-        1 string data = ""... a Vocational Counselor.""
+        1 string data = ""...職業カウンセラー。""
        [198]
-        1 string data = ""... a Restroom Interface Designer.""
+        1 string data = ""...トイレインターフェースデザイナー。""
        [199]
-        1 string data = ""... a Vice President of Mergers and Acquisitions.""
+        1 string data = ""...M&A担当副社長。""
        [200]
-        1 string data = ""... a Party Planner.""
+        1 string data = ""...パーティープランナー。""
        [201]
-        1 string data = ""... a Sous Chef.""
+        1 string data = ""...副料理長。""
        [202]
-        1 string data = ""... the President of the United States.""
+        1 string data = ""...アメリカ合衆国大統領。""
        [203]
-        1 string data = ""... a Wizard.""
+        1 string data = ""...魔法使い。""
        [204]
-        1 string data = ""... an Assistant to the Assistant Supervisor.""
+        1 string data = ""...副監督補佐のアシスタント。""
        [205]
-        1 string data = ""... a Soda Jerk.""
+        1 string data = ""...ソーダ係。""
        [206]
-        1 string data = ""... the boy who makes the tea.""
+        1 string data = ""...お茶を淹れる少年。""
        [207]
-        1 string data = ""The main gate is open. You better go in.""
+        1 string data = ""メインゲートが開いた。入った方がいいぞ。""
        [208]
-        1 string data = ""You're back. Are you ready to take the tests now?""
+        1 string data = ""戻ってきた。今度はテストを受ける準備はできた？""
        [209]
         1 string data = ""We have some questions first.""
        [210]
