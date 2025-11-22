@@ -25,15 +25,15 @@
   "dlc1": {
     "status": "in_progress",
     "current_file": "StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
-    "current_line": 16357,
+    "current_line": 18310,
     "total_lines": 120559,
-    "entries_completed": 2181,
+    "entries_completed": 2394,
     "total_entries": 38554,
-    "percent_complete": 5.7,
+    "percent_complete": 6.2,
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
-    "notes": "2025-11-23: Session 263 completed ~202 entries. Sections: d1001_cookie [51]-[109] (59 entries), d1001_crow_markham [0]-[75] (76 entries - Crow vs Markham confrontation), d1001_dionnaherrera [0]-[66] (67 entries - Dionna Herrera sick refugee). All validations passed with 0 errors. Fixed 1 quote count mismatch."
+    "notes": "2025-11-23: Session 264 completed ~213 entries. Sections: d1001_di_reactions [0]-[37] (18 entries - companion reactions), d1001_drbreeler [0]-[210] (~195 entries - Medical Evaluation Center, Black Lung quest). Fixed 1 quote count mismatch and 2 TEMP entries. All validations passed with 0 errors."
   },
   "dlc2": {
     "status": "not_started",
@@ -43,32 +43,31 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 263,
+    "session_number": 264,
     "date": "2025-11-23",
-    "entries_processed": 202,
+    "entries_processed": 213,
     "sections_completed": [
-      "d1001_cookie [51]-[109] (59 entries - Order Up mission NPC complete)",
-      "d1001_crow_markham [0]-[75] (76 entries - Crow vs Markham labor dispute confrontation)",
-      "d1001_dionnaherrera [0]-[66] (67 entries - Dionna Herrera sick refugee story)"
+      "d1001_di_reactions [0]-[37] (18 entries - Di companion reactions in Steeltown)",
+      "d1001_drbreeler [0]-[210] (~195 entries - Dr. Breeler Medical Evaluation Center)"
     ],
-    "commit_hash": "pending",
+    "commit_hash": "31fdbd60",
     "validation_passed": true,
-    "notes": "Session 263: Continued DLC1 translation. Completed Cookie NPC, Crow-Markham confrontation (worker revolt storyline), and Dionna Herrera (sick refugee with black lung disease). Fixed 1 quote count mismatch at line 15830.",
-    "next_action": "Continue DLC1 sequential translation from d1001_dionna_merchant at line 16357."
+    "notes": "Session 264: Continued DLC1 translation. Dr. Breeler section includes Black Lung cure quest, refugee clinic, evaluation test machines, and humorous job assignment dialogue. Fixed quality errors from previous session and 1 quote count mismatch.",
+    "next_action": "Continue DLC1 sequential translation from d1001_drbreeler [211] at line 18310."
   },
   "cumulative_stats": {
-    "total_sessions": 263,
-    "total_entries_translated": 165614,
-    "untranslated_remaining": 66804,
-    "average_entries_per_session": 631.3,
+    "total_sessions": 264,
+    "total_entries_translated": 165827,
+    "untranslated_remaining": 66591,
+    "average_entries_per_session": 628.1,
     "estimated_sessions_remaining_base": 0,
     "estimated_days_remaining_base": "Complete",
-    "estimated_sessions_remaining_dlc1": 72,
+    "estimated_sessions_remaining_dlc1": 71,
     "estimated_days_remaining_dlc1": "2-3 days",
     "estimated_sessions_remaining_dlc2": 48,
     "estimated_days_remaining_dlc2": "1-2 days",
     "total_lines_all_files": 728337,
     "project_status": "IN_PROGRESS",
-    "completion_date": "estimated 2025-11-24"
+    "completion_date": "estimated 2025-11-25"
   }
 }
