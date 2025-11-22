@@ -25,15 +25,15 @@
   "dlc1": {
     "status": "in_progress",
     "current_file": "StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
-    "current_line": 51090,
+    "current_line": 51511,
     "total_lines": 120559,
-    "entries_completed": 6186,
+    "entries_completed": 6265,
     "total_entries": 38554,
-    "percent_complete": 16.0,
+    "percent_complete": 16.3,
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
-    "notes": "2025-11-23: Session 287 completed 247 entries. Translated d2001_benniebianchi entries 101-393 (Hot Commodities quest, orientation, smuggling investigation). Fixed 5 quote count errors (lines 50662, 50672, 50694, 50810, 51076). All validations passed with 0 errors."
+    "notes": "2025-11-23: Session 288 completed 79 entries. Translated d2001_benniebianchi (final 35 entries - Polly parrot dialogue) and d2001_blue (21 entries - Crow/Blue ending dialogues). Fixed 1 quote count error (line 51292). All validations passed with 0 errors."
   },
   "dlc2": {
     "status": "not_started",
@@ -43,21 +43,22 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 287,
+    "session_number": 288,
     "date": "2025-11-23",
-    "entries_processed": 247,
+    "entries_processed": 79,
     "sections_completed": [
-      "d2001_benniebianchi (entries 101-393 - Hot Commodities quest continuation)"
+      "d2001_benniebianchi (final - Polly parrot dialogue)",
+      "d2001_blue (complete - Crow/Blue ending dialogues)"
     ],
-    "commit_hash": "20e9d671",
+    "commit_hash": "f6d556f6",
     "validation_passed": true,
-    "notes": "Session 287: Translated d2001_benniebianchi entries 101-393 (Hot Commodities quest, Steeltown orientation, smuggling investigation, worker processing). Fixed 5 quote count errors (lines 50662, 50672, 50694, 50810, 51076). All validations passed with 0 errors.",
-    "next_action": "Continue DLC1 sequential translation from line 51090."
+    "notes": "Session 288: Translated d2001_benniebianchi final 35 entries (Polly parrot dialogue with Bennie) and d2001_blue 21 entries (Crow/Blue ending dialogues). Fixed 1 quote count error (line 51292). All validations passed with 0 errors.",
+    "next_action": "Continue DLC1 sequential translation from line 51511 (d2001_companionbarks)."
   },
   "cumulative_stats": {
-    "total_sessions": 287,
-    "total_entries_translated": 169622,
-    "untranslated_remaining": 62796,
+    "total_sessions": 288,
+    "total_entries_translated": 169701,
+    "untranslated_remaining": 62717,
     "average_entries_per_session": 592.2,
     "estimated_sessions_remaining_base": 0,
     "estimated_days_remaining_base": "Complete",
