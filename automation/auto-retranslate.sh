@@ -509,6 +509,18 @@ while [ $SESSION_COUNT -lt $MAX_SESSIONS ]; do
     # Prepare command for Claude Code (STRICT WORKFLOW - based on STRICT_TRANSLATION_RULES.md)
     COMMAND_FILE="$WORKING_DIR/automation/.current_retranslate_command.txt"
 
+    # Get current phase and file paths for command generation
+    CMD_PHASE=$(get_current_phase)
+    CMD_TARGET_FILE=$(get_target_file "$CMD_PHASE")
+    CMD_SOURCE_FILE=$(get_source_file "$CMD_PHASE")
+    CMD_SPANISH_FILE=$(get_spanish_file "$CMD_PHASE")
+    CMD_CURRENT_LINE=$(get_current_line "$CMD_PHASE")
+
+    log "INFO" "Command generation for phase: $CMD_PHASE"
+    log "INFO" "  Target: $CMD_TARGET_FILE"
+    log "INFO" "  Source: $CMD_SOURCE_FILE"
+    log "INFO" "  Current line: $CMD_CURRENT_LINE"
+
     # Generate command based on whether errors need fixing
     if [ "$HAS_STRUCTURE_ERRORS" = true ] || [ "$HAS_QUALITY_ERRORS" = true ]; then
         # ERROR FIXING MODE
@@ -547,21 +559,21 @@ EOF
 
    a) **構造検証**:
       python3 translation/validate_structure_v2.py \
-        translation/target/v1.6.9.420.309496/ja_JP/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt \
-        --source translation/source/v1.6.9.420.309496/en_US/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt \
+        TARGET_FILE_PLACEHOLDER \
+        --source SOURCE_FILE_PLACEHOLDER \
         --detailed
       → エラー数: 0 であることを確認
 
    b) **アクションマーカー検証**:
-      grep -o '::[^:]*[ぁ-ゖァ-ヾ一-龯][^:]*::' translation/target/v1.6.9.420.309496/ja_JP/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt
+      grep -o '::[^:]*[ぁ-ゖァ-ヾ一-龯][^:]*::' TARGET_FILE_PLACEHOLDER
       → 結果が空であること確認
 
    c) **品質検証**:
       python3 translation/validate_translation_quality.py \
-        translation/target/v1.6.9.420.309496/ja_JP/StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt \
-        --reference translation/source/v1.6.9.420.309496/es_ES/StringTableData_Spanish-CAB-f95544f6ef35e8a6587dccfa911ba0f8-9130184510981781208.txt \
-        --start-line 390 \
-        --end-line CURRENT_LINE \
+        TARGET_FILE_PLACEHOLDER \
+        --reference SPANISH_FILE_PLACEHOLDER \
+        --start-line START_LINE_PLACEHOLDER \
+        --end-line CURRENT_LINE_PLACEHOLDER \
         --glossary translation/nouns_glossary.json
       → Total issues found: 0 であることを確認
 
@@ -608,6 +620,18 @@ translation/.retranslation_progress.json を読み込んで、CLAUDE.md の全�
 **Sequential Processing**: current_line から順番に、スキップ禁止、150-200行チャンク
 **Validation**: 各edit後に構造・アクションマーカー・品質の3検証を全て実行（0エラー必須）
 EOF
+
+        # Replace placeholders with actual file paths
+        CMD_START_LINE=1
+        if [[ "$CMD_PHASE" == "base_game" ]]; then
+            CMD_START_LINE=390
+        fi
+
+        sed -i "s|TARGET_FILE_PLACEHOLDER|$CMD_TARGET_FILE|g" "$COMMAND_FILE"
+        sed -i "s|SOURCE_FILE_PLACEHOLDER|$CMD_SOURCE_FILE|g" "$COMMAND_FILE"
+        sed -i "s|SPANISH_FILE_PLACEHOLDER|$CMD_SPANISH_FILE|g" "$COMMAND_FILE"
+        sed -i "s|START_LINE_PLACEHOLDER|$CMD_START_LINE|g" "$COMMAND_FILE"
+        sed -i "s|CURRENT_LINE_PLACEHOLDER|$CMD_CURRENT_LINE|g" "$COMMAND_FILE"
 
     else
         # NORMAL TRANSLATION MODE
