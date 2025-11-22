@@ -25,15 +25,15 @@
   "dlc1": {
     "status": "in_progress",
     "current_file": "StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
-    "current_line": 31471,
+    "current_line": 32953,
     "total_lines": 120559,
-    "entries_completed": 4063,
+    "entries_completed": 4221,
     "total_entries": 38554,
-    "percent_complete": 10.5,
+    "percent_complete": 10.9,
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
-    "notes": "2025-11-23: Session 274 completed 358 entries. Sections: steeltownguard_exterior/gates/ludlowslaveauction/threateninganimal/westgate, steeltownworker_beth, sugarplummary, takayuki, tvarchie/tvedith, winnebago, worker_prisoner, d2101_refugee_newt, d_follower_bearsuitvinters. All validations passed with 0 errors."
+    "notes": "2025-11-23: Session 275 completed 158 entries. Fixed Rangers terminology errors. Sections: d1001_blue (45), d1001_blue_radio (19), d1001_flushed_toilet (13), d1001_hotcommodities_patsy (11), d1001_orderup_h1n1 (16), d1001_orderup_robot (14), d1001_di_postraid (4), d1001_raiders_prefightleaderradiocall (6), d1001_raiders_prefightreactivity (30). All validations passed with 0 errors."
   },
   "dlc2": {
     "status": "not_started",
@@ -43,35 +43,30 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 274,
+    "session_number": 275,
     "date": "2025-11-23",
-    "entries_processed": 358,
+    "entries_processed": 158,
     "sections_completed": [
-      "d1001_steeltownguard_exterior [42-77] (36 entries - Post-crisis guard dialogue)",
-      "d1001_steeltownguard_gates (37 entries - Main gate security)",
-      "d1001_steeltownguard_ludlowslaveauction (15 entries - Slave auction)",
-      "d1001_steeltownguard_threateninganimal (7 entries - Trespasser warnings)",
-      "d1001_steeltownguard_westgate (5 entries - Scrapyard access)",
-      "d1001_steeltownworker_beth (5 entries - Worker family concerns)",
-      "d1001_sugarplummary (40 entries - Santa's elves job hunting)",
-      "d1001_takayuki (1 entry - Angie defense)",
-      "d1001_tvarchie (5 entries - Archie TV watching)",
-      "d1001_tvedith (49 entries - TV show discussions)",
-      "d1001_winnebago (38 entries - Arapaho Garage Vega Corsair)",
-      "d1001_worker_prisoner (18 entries - Prisoners sold dialogue)",
-      "d2101_refugee_newt (1 entry - Refugee gratitude)",
-      "d_follower_bearsuitvinters (101 entries - Bear suit follower Vinters)"
+      "d1001_blue (45 entries - Blue final dialogue)",
+      "d1001_blue_radio (19 entries - Blue radio messages)",
+      "d1001_flushed_toilet (13 entries - Toilet interaction)",
+      "d1001_hotcommodities_patsy (11 entries - Patsy exile dialogue)",
+      "d1001_orderup_h1n1 (16 entries - H1N1 loading dock)",
+      "d1001_orderup_robot (14 entries - Robot loading dock)",
+      "d1001_di_postraid (4 entries - Post-raid dialogue)",
+      "d1001_raiders_prefightleaderradiocall (6 entries - Pre-fight radio)",
+      "d1001_raiders_prefightreactivity (30 entries - Pre-fight reactions)"
     ],
-    "commit_hash": "db278039",
+    "commit_hash": "pending",
     "validation_passed": true,
-    "notes": "Session 274: Guards, TV couple Edith/Archie, bear suit character Vinters. Eclectic mix of sections. All validations passed with 0 errors.",
-    "next_action": "Continue DLC1 sequential translation from d1001_blue at line 31471."
+    "notes": "Session 275: Fixed Rangers terminology (レンジャーズ to レンジャー). Blue dialogue, toilet interactions, raiders pre-fight. All validations passed with 0 errors.",
+    "next_action": "Continue DLC1 sequential translation from d1001_raiders_rewards at line 32953."
   },
   "cumulative_stats": {
-    "total_sessions": 274,
-    "total_entries_translated": 167499,
-    "untranslated_remaining": 64919,
-    "average_entries_per_session": 611.3,
+    "total_sessions": 275,
+    "total_entries_translated": 167657,
+    "untranslated_remaining": 64761,
+    "average_entries_per_session": 609.7,
     "estimated_sessions_remaining_base": 0,
     "estimated_days_remaining_base": "Complete",
     "estimated_sessions_remaining_dlc1": 63,
