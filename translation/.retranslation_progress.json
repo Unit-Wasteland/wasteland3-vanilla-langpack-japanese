@@ -25,15 +25,15 @@
   "dlc1": {
     "status": "in_progress",
     "current_file": "StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
-    "current_line": 20107,
+    "current_line": 21000,
     "total_lines": 120559,
-    "entries_completed": 2806,
+    "entries_completed": 2928,
     "total_entries": 38554,
-    "percent_complete": 7.3,
+    "percent_complete": 7.6,
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
-    "notes": "2025-11-23: Session 268 completed ~40 entries. Sections: d1001_ghostgaragedoor (23 entries - radio puzzle), d1001_ghostleader_maingates (17 entries - wounded Ghost leader). All validations passed with 0 errors."
+    "notes": "2025-11-23: Session 269 completed 122 entries. Sections: d1001_grille (75), d1001_halliesmom (1), d1001_int_bodyscanner (20), d1001_int_clinictest_computers (26). All validations passed with 0 errors."
   },
   "dlc2": {
     "status": "not_started",
@@ -43,26 +43,28 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 268,
+    "session_number": 269,
     "date": "2025-11-23",
-    "entries_processed": 40,
+    "entries_processed": 122,
     "sections_completed": [
-      "d1001_ghostgaragedoor (23 entries - radio frequency puzzle to access Ghost Garage)",
-      "d1001_ghostleader_maingates (17 entries - wounded Ghost leader dialogue)"
+      "d1001_grille (75 entries - atomic battery savage)",
+      "d1001_halliesmom (1 entry)",
+      "d1001_int_bodyscanner (20 entries - medical questionnaire)",
+      "d1001_int_clinictest_computers (26 entries - computer skills test)"
     ],
-    "commit_hash": "63d84da8",
+    "commit_hash": "d5c41caa",
     "validation_passed": true,
-    "notes": "Session 268: Two small sections. Radio puzzle involves tuning frequencies and entering codes. Ghost leader wounded by Markham's mercy guns. All validations passed with 0 errors.",
-    "next_action": "Continue DLC1 sequential translation from d1001_grille [0] at line 20107."
+    "notes": "Session 269: Grille - atomic battery wielding savage with philosophical death dialogue. Clinic tests for worker evaluation. Fixed quality errors from previous session (Rangers terminology) and 3 quote count mismatches. All validations passed with 0 errors.",
+    "next_action": "Continue DLC1 sequential translation from d1001_int_clinictest_engineering at line 21000."
   },
   "cumulative_stats": {
-    "total_sessions": 268,
-    "total_entries_translated": 166242,
-    "untranslated_remaining": 66176,
-    "average_entries_per_session": 628.1,
+    "total_sessions": 269,
+    "total_entries_translated": 166364,
+    "untranslated_remaining": 66054,
+    "average_entries_per_session": 618.5,
     "estimated_sessions_remaining_base": 0,
     "estimated_days_remaining_base": "Complete",
-    "estimated_sessions_remaining_dlc1": 71,
+    "estimated_sessions_remaining_dlc1": 70,
     "estimated_days_remaining_dlc1": "2-3 days",
     "estimated_sessions_remaining_dlc2": 48,
     "estimated_days_remaining_dlc2": "1-2 days",
