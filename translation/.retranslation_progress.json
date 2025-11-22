@@ -25,15 +25,15 @@
   "dlc1": {
     "status": "in_progress",
     "current_file": "StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
-    "current_line": 22545,
+    "current_line": 26179,
     "total_lines": 120559,
-    "entries_completed": 3174,
+    "entries_completed": 3404,
     "total_entries": 38554,
-    "percent_complete": 8.2,
+    "percent_complete": 8.8,
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
-    "notes": "2025-11-23: Session 270 completed 246 entries. Sections: d1001_int_clinictest_engineering (27), d1001_int_clinictest_strength (87), d1001_int_eyescanner (27), d1001_int_foundghostnote (3), d1001_labequipment (41), d1001_ludlow (61). All validations passed with 0 errors."
+    "notes": "2025-11-23: Session 271 completed 230 entries. Sections: d1001_refugee_camp (remainder 10), d1001_refugee_elves (10), d1001_refugee_louis (210). Fixed 4 quote count errors from previous session. All validations passed with 0 errors."
   },
   "dlc2": {
     "status": "not_started",
@@ -43,27 +43,24 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 270,
+    "session_number": 271,
     "date": "2025-11-23",
-    "entries_processed": 246,
+    "entries_processed": 230,
     "sections_completed": [
-      "d1001_int_clinictest_engineering (27 entries - EEEP engineering test)",
-      "d1001_int_clinictest_strength (87 entries - SEEP/TRAP employment tests)",
-      "d1001_int_eyescanner (27 entries - Star Trek TNG lights reference)",
-      "d1001_int_foundghostnote (3 entries - ghost note clue)",
-      "d1001_labequipment (41 entries - Black Lung cure lab)",
-      "d1001_ludlow (61 entries - slave trading scene)"
+      "d1001_refugee_camp (10 entries - remaining [155]-[164])",
+      "d1001_refugee_elves (10 entries - Santa's elves dialogue)",
+      "d1001_refugee_louis (210 entries - Luis camp leader dialogue, Florinda storyline, toilet quest)"
     ],
-    "commit_hash": "3a24d787",
+    "commit_hash": "pending",
     "validation_passed": true,
-    "notes": "Session 270: Clinic employment tests (EEEP, CRAP, TRAP), eye scanner with Star Trek TNG 4 lights reference, Black Lung laboratory cure research, and Ludlow slave trading confrontation scene. All validations passed with 0 errors.",
-    "next_action": "Continue DLC1 sequential translation from d1001_morningstar at line 22545."
+    "notes": "Session 271: Completed refugee camp and Luis dialogue sections. Luis storyline includes factory family concerns, toilet quest (Flushed mission), Florinda's fate (cassette/note). Fixed 4 quote count errors. All validations passed with 0 errors.",
+    "next_action": "Continue DLC1 sequential translation from d1001_refugee_prisonervictim_aramcorpse at line 26179."
   },
   "cumulative_stats": {
-    "total_sessions": 270,
-    "total_entries_translated": 166610,
-    "untranslated_remaining": 65808,
-    "average_entries_per_session": 617.1,
+    "total_sessions": 271,
+    "total_entries_translated": 166840,
+    "untranslated_remaining": 65578,
+    "average_entries_per_session": 615.6,
     "estimated_sessions_remaining_base": 0,
     "estimated_days_remaining_base": "Complete",
     "estimated_sessions_remaining_dlc1": 68,
