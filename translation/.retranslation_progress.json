@@ -25,15 +25,15 @@
   "dlc1": {
     "status": "in_progress",
     "current_file": "StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
-    "current_line": 78559,
+    "current_line": 80310,
     "total_lines": 120559,
-    "entries_completed": 9898,
+    "entries_completed": 9999,
     "total_entries": 38554,
-    "percent_complete": 25.7,
+    "percent_complete": 25.9,
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
-    "notes": "2025-11-23: Session 304 - completed ~170 entries. d2201_computationengine_2 final, d2201_crisisbutton. Synth negotiations, failsafe disabling, guard-bot warnings. All validations: 0 errors, 2 warnings."
+    "notes": "2025-11-23: Session 304 final - completed ~100 additional entries (total ~370). d2201_smokestacksmachine, d2201_synth (freed synths dialogue), d3001_acolyte_lowvolt (prophecies). All validations: 0 errors, 2 warnings."
   },
   "dlc2": {
     "status": "not_started",
@@ -45,20 +45,27 @@
   "last_session": {
     "session_number": 304,
     "date": "2025-11-23",
-    "entries_processed": 170,
+    "entries_processed": 370,
     "sections_completed": [
-      "d2201_computationengine_2 completion (lines 77990-78370 - synth negotiations, Markham/Crow choices)",
-      "d2201_crisisbutton (lines 78534-78558 - C.R.I.S.I.S. simulation system)"
+      "d2201_computationengine_2 completion (lines 77990-78370)",
+      "d2201_crisisbutton (lines 78534-78558)",
+      "d2201_int_console_core (lines 78840-78972)",
+      "d2201_postsynths_markham (lines 79142-79152)",
+      "d2201_robot_defenses (lines 79178-79182)",
+      "d2201_smokebreakadmin (lines 79264-79290)",
+      "d2201_smokestacksmachine_nuttightenloosen (lines 79404-79452)",
+      "d2201_synth (lines 79802-79968)",
+      "d3001_acolyte_lowvolt (lines 80202-80310)"
     ],
-    "commit_hash": "1d80a5e5",
+    "commit_hash": "888d056a",
     "validation_passed": true,
-    "notes": "Session 304: Cleared false positive quality errors (147 dev messages, 6 system tags). Translated synth negotiation dialogue, failsafe warnings, C.R.I.S.I.S. system. All validations: 0 errors, 2 warnings.",
-    "next_action": "Continue DLC1 sequential translation from line 78559 (d2201_int_console_core)."
+    "notes": "Session 304 final: Synth dialogue, freed synths endings, acolyte prophecies, machine mechanics. All validations: 0 errors, 2 warnings (pre-existing HTML).",
+    "next_action": "Continue DLC1 sequential translation from line 80311 (d3001_blindmarvin)."
   },
   "cumulative_stats": {
     "total_sessions": 304,
-    "total_entries_translated": 173334,
-    "untranslated_remaining": 59084,
+    "total_entries_translated": 173434,
+    "untranslated_remaining": 58984,
     "average_entries_per_session": 570.2,
     "estimated_sessions_remaining_base": 0,
     "estimated_days_remaining_base": "Complete",
