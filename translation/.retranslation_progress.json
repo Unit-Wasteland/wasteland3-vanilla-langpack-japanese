@@ -25,15 +25,15 @@
   "dlc1": {
     "status": "in_progress",
     "current_file": "StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
-    "current_line": 56713,
+    "current_line": 58938,
     "total_lines": 120559,
-    "entries_completed": 7009,
+    "entries_completed": 7280,
     "total_entries": 38554,
-    "percent_complete": 18.2,
+    "percent_complete": 18.9,
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
-    "notes": "2025-11-23: Session 292 completed 180 entries. Translated d2001_guard_safe, d2001_int_console_* (multiple), d2001_int_jobtest_* (3 tests), d2001_int_markhamgunrack. Also fixed Rangers terminology. All validations passed."
+    "notes": "2025-11-23: Session 293 completed 271 entries. Translated int_markhampicture, markhamsecretsafe, warbot, lazarblazer, ludlow encounters, lunamoon, marcia, nursefirenze, nurse_asstrahmen. Fixed glossary [Attack]->[攻撃]. All validations passed."
   },
   "dlc2": {
     "status": "not_started",
@@ -43,33 +43,34 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 292,
+    "session_number": 293,
     "date": "2025-11-23",
-    "entries_processed": 180,
+    "entries_processed": 271,
     "sections_completed": [
-      "d2001_guard_safe (26 entries)",
-      "d2001_int_console_* (multiple console interactions)",
-      "d2001_int_fungusdome (4 entries)",
-      "d2001_int_jobtest_breath (20 entries)",
-      "d2001_int_jobtest_cognative (17 entries)",
-      "d2001_int_jobtest_firing (43 entries)",
-      "d2001_int_locker_dilemma (2 entries)",
-      "d2001_int_markhamashes (2 entries)",
-      "d2001_int_markhamgunrack (36 entries)"
+      "d2001_int_markhampicture (2 entries)",
+      "d2001_int_markhamsecretsafe (7 entries)",
+      "d2001_int_warbot (11 entries)",
+      "d2001_lazarblazer (86 entries)",
+      "d2001_ludlowreactivity_encounter1 (38 entries)",
+      "d2001_ludlowreactivity_encounter2 (29 entries)",
+      "d2001_lunamoon (8 entries)",
+      "d2001_marcia (55 entries)",
+      "d2001_nursefirenze (68 entries)",
+      "d2001_nurse_asstrahmen (34 entries)"
     ],
-    "commit_hash": "f287d186",
+    "commit_hash": "5d20c053",
     "validation_passed": true,
-    "notes": "Session 292: Translated multiple interior interaction sections. Fixed Rangers terminology (25 instances). All validations passed with 0 errors.",
-    "next_action": "Continue DLC1 sequential translation from line 56713 (d2001_int_markhampicture)."
+    "notes": "Session 293: Fixed glossary violations [Attack]->[攻撃]. Translated 10 sections. All validations passed with 0 errors.",
+    "next_action": "Continue DLC1 sequential translation from line 58938 (next section after d2001_nurse_asstrahmen)."
   },
   "cumulative_stats": {
-    "total_sessions": 292,
-    "total_entries_translated": 170445,
-    "untranslated_remaining": 61973,
-    "average_entries_per_session": 583.7,
+    "total_sessions": 293,
+    "total_entries_translated": 170716,
+    "untranslated_remaining": 61702,
+    "average_entries_per_session": 582.6,
     "estimated_sessions_remaining_base": 0,
     "estimated_days_remaining_base": "Complete",
-    "estimated_sessions_remaining_dlc1": 53,
+    "estimated_sessions_remaining_dlc1": 52,
     "estimated_days_remaining_dlc1": "2-3 days",
     "estimated_sessions_remaining_dlc2": 48,
     "estimated_days_remaining_dlc2": "1-2 days",
