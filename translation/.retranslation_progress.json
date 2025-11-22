@@ -25,15 +25,15 @@
   "dlc1": {
     "status": "in_progress",
     "current_file": "StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
-    "current_line": 62053,
+    "current_line": 62623,
     "total_lines": 120559,
-    "entries_completed": 7733,
+    "entries_completed": 7951,
     "total_entries": 38554,
-    "percent_complete": 20.1,
+    "percent_complete": 20.6,
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
-    "notes": "2025-11-23: Session 295 completed 125 entries. Translated toaster_russiannestingdoll01/02/03 (18), vendingmachine01 (3), walsh (48), winktillman (56). Quality errors in log were false positives (dev messages). All validations passed with 0 errors."
+    "notes": "2025-11-23: Session 295 batch 2 completed 93 entries. Translated worker_arcology (93 entries). Quality errors in log were false positives (dev messages). All validations passed with 0 errors."
   },
   "dlc2": {
     "status": "not_started",
@@ -45,24 +45,25 @@
   "last_session": {
     "session_number": 295,
     "date": "2025-11-23",
-    "entries_processed": 125,
+    "entries_processed": 218,
     "sections_completed": [
       "d2001_toaster_russiannestingdoll01 (6 entries)",
       "d2001_toaster_russiannestingdoll02 (6 entries)",
       "d2001_toaster_russiannestingdoll03 (6 entries)",
       "d2001_vendingmachine01 (3 entries)",
       "d2001_walsh (48 entries)",
-      "d2001_winktillman (56 entries)"
+      "d2001_winktillman (56 entries)",
+      "d2001_worker_arcology (93 entries)"
     ],
     "commit_hash": "pending",
     "validation_passed": true,
-    "notes": "Session 295: Quality error log contained false positives (developer messages and debug entries). Translated 6 sections. All validations passed with 0 errors.",
-    "next_action": "Continue DLC1 sequential translation from line 62053 (next section after d2001_winktillman)."
+    "notes": "Session 295: Translated 7 sections in 2 batches. Quality error log was false positives. All validations passed with 0 errors.",
+    "next_action": "Continue DLC1 sequential translation from line 62623 (next section: d2001_worker_injured)."
   },
   "cumulative_stats": {
     "total_sessions": 295,
-    "total_entries_translated": 171169,
-    "untranslated_remaining": 61249,
+    "total_entries_translated": 171387,
+    "untranslated_remaining": 61031,
     "average_entries_per_session": 580.2,
     "estimated_sessions_remaining_base": 0,
     "estimated_days_remaining_base": "Complete",
