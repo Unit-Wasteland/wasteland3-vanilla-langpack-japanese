@@ -25,15 +25,15 @@
   "dlc1": {
     "status": "in_progress",
     "current_file": "StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
-    "current_line": 46346,
+    "current_line": 47845,
     "total_lines": 120559,
-    "entries_completed": 5497,
+    "entries_completed": 5717,
     "total_entries": 38554,
-    "percent_complete": 14.3,
+    "percent_complete": 14.8,
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
-    "notes": "2025-11-23: Session 284 completed 220 entries. Section: d2001_abigailmarkham (Abigail Markham dialogue - Steeltown administrator, synth conversations, Bennie subplot, Computation Engine discussions). Fixed 6 quote count errors during session. All validations passed with 0 errors."
+    "notes": "2025-11-23: Session 285 completed ~220 entries. Sections: d2001_abigailmarkham (completed), d2001_adminstaff (complete), d2001_admin_testing (complete), d2001_ambient_admin (complete). Fixed 1 quote count error (line 46590). All validations passed with 0 errors."
   },
   "dlc2": {
     "status": "not_started",
@@ -43,21 +43,24 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 284,
+    "session_number": 285,
     "date": "2025-11-23",
     "entries_processed": 220,
     "sections_completed": [
-      "d2001_abigailmarkham (partial - entries 295-515, Abigail Markham dialogue)"
+      "d2001_abigailmarkham (completed - final entries)",
+      "d2001_adminstaff (complete - 87 entries)",
+      "d2001_admin_testing (complete - 28 entries)",
+      "d2001_ambient_admin (complete - 28 entries)"
     ],
     "commit_hash": "pending",
     "validation_passed": true,
-    "notes": "Session 284: Translated d2001_abigailmarkham section (Steeltown administrator Abigail Markham). Content includes: synth negotiations, Computation Engine reset discussions, Bennie embezzlement subplot, worker relations, Di the synth engineer. Fixed 6 quote count errors (lines 45816, 45822, 45834, 45850, 46040, 46088, 46106, 46136). All structure validations passed with 0 errors.",
-    "next_action": "Continue DLC1 sequential translation from d2001_abigailmarkham section at line 46346."
+    "notes": "Session 285: Completed d2001_abigailmarkham section, translated d2001_adminstaff (admin staff ambient dialogue), d2001_admin_testing (job testing dialogue), d2001_ambient_admin (admin office chatter). Content includes: Markham backstory, Detroit/Motor City history, strike discussions, Blue partnership. Fixed 1 quote count error (line 46590). All structure validations passed with 0 errors.",
+    "next_action": "Continue DLC1 sequential translation from d2001_armormerchant_amosryan section at line 47845."
   },
   "cumulative_stats": {
-    "total_sessions": 284,
-    "total_entries_translated": 168933,
-    "untranslated_remaining": 63485,
+    "total_sessions": 285,
+    "total_entries_translated": 169153,
+    "untranslated_remaining": 63265,
     "average_entries_per_session": 594.8,
     "estimated_sessions_remaining_base": 0,
     "estimated_days_remaining_base": "Complete",
