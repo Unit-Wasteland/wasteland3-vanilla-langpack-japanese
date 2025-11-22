@@ -369665,25 +369665,25 @@
       1 Array Array (87 items)
        0 int size = 87
        [0]
-        1 string data = " Greetings."
+        1 string data = " こんにちは。"
        [1]
-        1 string data = " Can we see your wares?"
+        1 string data = " 商品を見せてもらえますか?"
        [2]
         1 string data = ""さようなら。""
        [3]
-        1 string data = " Ranger HQ could use a chef like you."
+        1 string data = " レンジャー本部にはあなたのような料理人が必要です。"
        [4]
-        1 string data = " Have a look at my wares. (Open Merchant UI)"
+        1 string data = " 商品を見てみてくれ。(Open Merchant UI)"
        [5]
-        1 string data = " Bring me the package of Ramen Noodles found in the old diner within The Warrens and I'll go work for Ranger HQ."
+        1 string data = " The Warrensの古い食堂にあるラーメンの麺のパッケージを持ってきてくれれば、レンジャー本部で働くよ。"
        [6]
-        1 string data = " Here are the Ramen Noodles."
+        1 string data = " ラーメンの麺を持ってきました。"
        [7]
-        1 string data = " We ate the Ramen Noodles."
+        1 string data = " ラーメンの麺は食べてしまいました。"
        [8]
-        1 string data = " Yatta! I will see you at Ranger HQ soon. TODO - Remove Ramen Item)"
+        1 string data = " やった!すぐにレンジャー本部で会おう。TODO - Remove Ramen Item)"
        [9]
-        1 string data = " Bakayaro Konoyaro!"
+        1 string data = " バカヤロー、コノヤロー!"
        [10]
         1 string data = " Here are the Ramen Noodles. (Ignore Item Requirements)"
        [11]
@@ -369705,11 +369705,11 @@
        [19]
         1 string data = " The Warrensにある古い食堂で見つかるラーメンの麺のパッケージを持ってきてくれれば、レンジャー本部で働くよ。"
        [20]
-        1 string data = " Yatta! I will see you at Ranger HQ soon. TODO - Remove Ramen Item)"
+        1 string data = " やった!すぐにレンジャー本部で会おう。TODO - Remove Ramen Item)"
        [21]
         1 string data = " バカヤロー、コノヤロー!"
        [22]
-        1 string data = " Bakayaro Konoyaro!"
+        1 string data = " バカヤロー、コノヤロー!"
        [23]
         1 string data = "目の前の男は、コンロの鍋から鍋へと飛び回りながら、一つをかき混ぜては別の一つを味見しており、ほとんど残像になるほど速く動いている。あなたが近づくと、彼は料理を止めて、あなたに全神経を集中させる。"
        [24]
@@ -369751,11 +369751,11 @@
        [42]
         1 string data = ""君たちのおかげで、ここでの目標を達成した。だから次の冒険の準備は十分だ。ここで備品を梱包するから、本部で会おう!""
        [43]
-        1 string data = "[Reward: Ranger HQ mess hall recruit] "You have my interest for sure. But as I explained to you, I'm here for a reason. Bring me the Ramen Noodles, and I'll gladly join you at your HQ.""
+        1 string data = "[Reward: Ranger HQ mess hall recruit] "確かに興味はある。でも説明した通り、ここにいるのには理由があるんだ。ラーメンを持ってきてくれれば、喜んで君たちの本部に参加するよ。""
        [44]
         1 string data = ""俺は…理解できない。なぜそんなことをした?俺を滅ぼしたんだ。俺だけじゃない、無数の人々の未来の料理の楽しみを滅ぼしたんだ。""
        [45]
-        1 string data = "[Reward: Ranger HQ mess hall recruit] "However, the thing is... I am here for a reason. I've been trying to recreate the pre-war recipe of Instant Ramen Noodles. The ones I've tasted before were found in the Warrens underneath this place, and I'm hoping there are more to be found here.""
+        1 string data = "[Reward: Ranger HQ mess hall recruit] "でも実は...ここにいるのには理由があるんだ。戦前のインスタントラーメンのレシピを再現しようとしているんだ。前に食べたのはこの場所の下のウォーレンズで見つかったもので、もっとあることを期待してるんだ。""
        [46]
         1 string data = "無言で、彼は生地に包まれた豚肉の小皿を差し出す。"
        [47]
@@ -370185,7 +370185,7 @@
        [54]
         1 string data = ""本当に、道化師の格好だって?ロス・パヤソスのようだが、あのクレイジーな野郎どもがここにいるわけがない。えっと...フラブとこのことを話すことをお勧めする、奥にいる、階段を上がってだ。""
        [55]
-        1 string data = "This man is wearing the same outfit as the guards outside - a wolf mask and letterman jacket. As you get closer you notice the outfit looks old and worn, patched up many times through the years."
+        1 string data = "この男は外の警備員と同じ服装をしている - 狼のマスクとレタージャケットだ。近づくと、その服装が古く擦り切れていて、長年にわたって何度も繕われていることに気づく。"
    [1235]
     0 StringTable data
      1 string Filename = "o2001_megascope"
@@ -385387,7 +385387,7 @@
        [3]
         1 string data = ""俺のものだ。コレクターはまた俺のものになった! また一つ試練を乗り越えた。今は東への帰還を果たすだけだ。""
        [4]
-        1 string data = ""Biggest problem'll be that Steel-Trap won't fight fair. He'll have the Payasos and the Godfishers attack me from the outside like the cheater he is, so we've either gotta turn 'em to our side or get rid of 'em." "
+        1 string data = ""一番の問題は、スティール・トラップが正々堂々と戦わないことだ。あの卑怯者は、ペイアソスとゴッドフィッシャーに外から俺を攻撃させるだろうから、連中を味方につけるか、始末するかのどっちかだ。" "
        [5]
         1 string data = ""ペイアソスをどうしたい?""
        [6]
@@ -386843,9 +386843,9 @@
       1 Array Array (42 items)
        0 int size = 42
        [0]
-        1 string data = ""The goddamn Rangers. The fuck you doing out here?"\n\n\nThe man sneering at you is Gary Wolfe, the merc with a serious hate-on for synths."
+        1 string data = ""くそったれのレンジャーか。こんなところで何してやがる?"\n\n\nあなたを睨んでいる男はゲイリー・ウルフ、シンセに並々ならぬ憎しみを持つ傭兵だ。"
        [1]
-        1 string data = ""What the fuck are you pansy-asses doing out here?"\n\n\nThe man sneering at you is Gary Wolfe, the merc with a serious hate-on for synths."
+        1 string data = ""お前らヘタレどもは、こんなところで何やってんだ?"\n\n\nあなたを睨んでいる男はゲイリー・ウルフ、シンセに並々ならぬ憎しみを持つ傭兵だ。"
        [2]
         1 string data = ""動き続けろ、レンジャー""
        [3]
@@ -387621,7 +387621,7 @@
       1 Array Array (55 items)
        0 int size = 55
        [0]
-        1 string data = ""No... no way. The <i>Rangers?</i>"\n\n\nThrough grime and tangled hair, you recognize Hallie McKay, the escaped slave you handed over to La Perla outside Ranger HQ. She has a lot of new scars and burns, and she's not so beautiful anymore."
+        1 string data = ""嘘...まさか。<i>レンジャー?</i>"\n\n\n汚れと絡まった髪の向こうに、あなたはハリー・マッケイを認識する。レンジャー本部の外でラ・ペルラに引き渡した逃亡奴隷だ。彼女には多くの新しい傷跡と火傷があり、もう美しくはない。"
        [1]
         1 string data = ""まだリバティの始末を待ってるんだけど……""
        [2]
@@ -391547,7 +391547,7 @@
        [11]
         1 string data = ""だが何の違いも生まなかった。あの殺人鬼のドーシーズは..." ::chokes up::"
        [12]
-        1 string data = ""Years ago, Mr. Buchanan - the Patriarch - came to me for my help. He told me that Nelius Dorsey was looking to revive the practice of electing our leaders. I wanted to bring back the American dream too, but it was too soon."\n\n\nHe sighs and looks down at his hands."
+        1 string data = ""何年も前、ブキャナン氏——総主教が——私に助けを求めてきた。ネリウス・ドーシーが指導者を選挙で選ぶ慣習を復活させようとしていると言っていた。私もアメリカの夢を取り戻したかったが、まだ早すぎた。"\n\n\n彼はため息をつき、自分の手を見下ろす。"
        [13]
         1 string data = ""それで仲間を連れて集会を妨害しに行った。言葉が交わされた。ネルの息子が私を押した。私は発砲した。それから全員が撃ち始めた。その後...仕事を完遂した方がいいと判断し、一族の残りを狩り尽くしたのだ。""
        [14]
@@ -391663,7 +391663,7 @@
        [69]
         1 string data = ""いや、ピーチズ。レンジャーの言う通りだ。私は戻る資格がない。何年も前に怒りに狂った愚か者でなければ、リバティはドーシーズを頼りにすることもなかっただろう。東に向かおう。風の導くままに。""
        [70]
-        1 string data = ""I hope you'll be stronger than I ever was." He cups her cheek with his hand. "
+        1 string data = ""私よりも強くなってくれることを願っている。" 彼は手で彼女の頬を包む。 "
        [71]
         1 string data = ""東に向かう。銃の使い手の保護者を必要としている小さな町がたくさんあるだろう。""
        [72]
@@ -391729,7 +391729,7 @@
        [102]
         1 string data = ""コロラドスプリングスに出発する前に少し休む時間が必要だ。""
        [103]
-        1 string data = ""This whole ordeal is on my head. My family's death... my fault. I don't even hate Nelius for what he did."\n\n\nHe continues to stare at the ground."
+        1 string data = ""この苦難は全て私の責任だ。家族の死は...私のせいだ。ネリウスのしたことを恨んですらいない。"\n\n\n彼は地面を見つめ続ける。"
        [104]
         1 string data = ""私はずっとパトリアークの最も熱烈な支持者の一人だった。何年も前、ドーシーズが彼の統治を奪おうとした時、私は彼のために立ち上がった。誰よりも少し熱心だったと言えるだろう。""
        [105]
@@ -406437,13 +406437,13 @@
        [4]
         1 string data = "Okay, no time to lose. Prasad needs you to run recon on the (cave / dam building / compound / other) to the West: someone mentioned it in a garbled radio transmission, but they were cut off.\nAnother survivor may be in trouble: check it out ASAP.\n\n"
        [5]
-        1 string data = "Looks like you're empty-handed. I'm assuming you're familiar with firearms?"
+        1 string data = "手ぶらのようですね。銃器には慣れていますか？"
        [6]
         1 string data = ""銃によります。""
        [7]
-        1 string data = "Actually, I like to get up close and personal."
+        1 string data = "実は、接近戦が好きなんです。"
        [8]
-        1 string data = ""We're running low on sidearms. Ammo, too... But that's not <i>completely</i> your fault."\n\n\nShe chuckles."
+        1 string data = ""サイドアームが不足しています。弾薬も...でもそれは<i>完全に</i>あなたのせいではありませんが。"\n\n\n彼女はくすくす笑う。"
        [9]
         1 string data = ""弾薬は十分あります - あなたのおかげで - ただサイドアームが不足しています。""
        [10]
@@ -407499,31 +407499,31 @@
        [18]
         1 string data = ""気にするな。今のお前が好きだ。""
        [19]
-        1 string data = "He sags. \r\n\r\n"I don't.""
+        1 string data = "彼はうなだれる。 \r\n\r\n"俺は好きじゃない。""
        [20]
-        1 string data = ""Okay. Uh. Give me a second."\n\n\nHe walks away from you, muttering and cursing at himself."
+        1 string data = ""わかった。えっと。ちょっと待ってくれ。"\n\n\n彼はあなたから離れて歩きながら、独り言を言い、自分を罵っている。"
        [21]
         1 string data = ""
        [22]
-        1 string data = "You see a generic-looking dude for the first time. \r\n\r\n"Hello," he says. "I'm, uh, bland. And easy to forget.""
+        1 string data = "平凡な見た目の男を初めて見る。 \r\n\r\n"やあ"と彼は言う。"俺は、その、地味なんだ。忘れられやすい。""
        [23]
-        1 string data = "You see the generic-looking dude again.\n\n\n"Hello," he says, looking uncomfortable. "
+        1 string data = "また平凡な見た目の男を見る。\n\n\n"やあ"と彼は居心地悪そうに言う。 "
        [24]
         1 string data = ""
        [25]
-        1 string data = "The generic-looking dude tucks the marker away. His new mustache is still wet and slightly crooked. \r\n\r\n"I hope that's better.""
+        1 string data = "平凡な見た目の男がマーカーをしまう。彼の新しい口髭はまだ濡れていて、少し曲がっている。 \r\n\r\n"これでマシになったといいんだが。""
        [26]
-        1 string data = "The generic dude's mustache is smudged, as if he forgot it was there while itching his nose. "
+        1 string data = "平凡な男の口髭は、鼻を掻くときにそこにあることを忘れたかのように、にじんでいる。 "
        [27]
         1 string data = ""
        [28]
         1 string data = ""よお、兄弟"とかつて退屈だったが今は攻撃的な男が胸を張りながら言った。"どうしてる?""
        [29]
-        1 string data = "He nods at you, flexing a non-existent bicep."
+        1 string data = "彼は存在しない上腕二頭筋を曲げながら、あなたにうなずく。"
        [30]
         1 string data = ""できる。<i>できる</i>んだ。""
        [31]
-        1 string data = "He blinks, then pulls a marker from his pocket.\n\n\n"Be right back." "
+        1 string data = "彼は瞬きをし、ポケットからマーカーを取り出す。\n\n\n"すぐ戻る。" "
        [32]
         1 string data = ""鏡があればいいのに。""
        [33]
@@ -407533,11 +407533,11 @@
        [35]
         1 string data = ""攻撃的な感じ、うまくいってないよな?""
        [36]
-        1 string data = ""Not really," he admits. "But maybe if I keep trying, it'll, you know, stick."\n\n\nHe bares his teeth at you like a bucktoothed lion."
+        1 string data = ""あんまり"と彼は認める。"でも続けてれば、そのうち、身につくかもしれないだろ。"\n\n\n彼は出っ歯のライオンのように歯をむき出しにする。"
        [37]
         1 string data = ""
        [38]
-        1 string data = ""How should I know?" he says, fidgeting. "
+        1 string data = ""俺が知るわけないだろ?"と彼はそわそわしながら言う。 "
        [39]
         1 string data = ""マジで全然わかんない。""
        [40]
@@ -408605,29 +408605,29 @@
        [22]
         1 string data = "Script Node 23"
        [23]
-        1 string data = "Select one of the following hologram attacks."
+        1 string data = "以下のホログラム攻撃から1つ選べ。"
        [24]
-        1 string data = ""Rock." (1)"
+        1 string data = ""グー。" (1)"
        [25]
-        1 string data = ""Paper" (2)"
+        1 string data = ""パー" (2)"
        [26]
-        1 string data = ""Scissors" (3)"
+        1 string data = ""チョキ" (3)"
        [27]
-        1 string data = ""Talk it out" (4)"
+        1 string data = ""話し合い" (4)"
        [28]
-        1 string data = "Quit early."
+        1 string data = "途中でやめる。"
        [29]
-        1 string data = "Next round!\r\nb4001_Hologame_CurrentRound == \r\n[Global: b4001_Hologame_CurrentRound]"
+        1 string data = "次のラウンド!\r\nb4001_Hologame_CurrentRound == \r\n[Global: b4001_Hologame_CurrentRound]"
        [30]
         1 string data = "Script Node 31"
        [31]
-        1 string data = "We are still waiting for Player 2 to connect. Neither NPC nor Ranger has connected."
+        1 string data = "まだプレイヤー2の接続を待っています。NPCもレンジャーも接続していません。"
        [32]
         1 string data = "Ready, set... DEBUG INFO:\nb4001_HologameP2_InputLocked ==[Global: b4001_HologameP2_InputLocked]\nb4001_HologameP1_AttackType ==[Global: b4001_HologameP1_AttackType]\nb4001_HologameP2_AttackType ==[Global: b4001_HologameP2_AttackType]\nb4001_HologameP1_PcConnected == [Global: b4001_HologameP1_PcConnected]\nb4001_HologameP2_NpcConnected == [Global: b4001_HologameP2_NpcConnected]\nb4001_HologameP2_PcConnected ==\n[Global: b4001_HologameP2_PcConnected]\nb4001_Hologame_TalkAvailable == [Global: b4001_Hologame_TalkAvailable]"
        [33]
-        1 string data = "Wait."
+        1 string data = "待て。"
        [34]
-        1 string data = "Waiting for opponent selection..."
+        1 string data = "相手の選択を待っています..."
        [35]
         1 string data = "Bank 36"
        [36]
@@ -408641,11 +408641,11 @@
        [40]
         1 string data = "Script Node 41"
        [41]
-        1 string data = ""It's a tie!"\n\n\nRound #[Global: b4001_Hologame_CurrentRound] will be repeated."
+        1 string data = ""引き分け!"\n\n\nラウンド #[Global: b4001_Hologame_CurrentRound] を再試行します。"
        [42]
-        1 string data = "Round #[Global: b4001_Hologame_CurrentRound] is complete!\r\n\r\n"Player 1 wins this round." \r\n"Player 2 loses this round.""
+        1 string data = "ラウンド #[Global: b4001_Hologame_CurrentRound] 終了!\r\n\r\n"プレイヤー1がこのラウンドに勝利。" \r\n"プレイヤー2がこのラウンドに敗北。""
        [43]
-        1 string data = "Round #[Global: b4001_Hologame_CurrentRound] is complete!\r\n\r\n"Player 2 wins this round." \r\n"Player 1 loses this round.""
+        1 string data = "ラウンド #[Global: b4001_Hologame_CurrentRound] 終了!\r\n\r\n"プレイヤー2がこのラウンドに勝利。" \r\n"プレイヤー1がこのラウンドに敗北。""
        [44]
         1 string data = "Script Node 45"
        [45]
@@ -412245,19 +412245,19 @@
        [6]
         1 string data = ""モジュールをお持ちでないようですね。なぜ戻って来たのですか?""
        [7]
-        1 string data = ""Thank you for helping us achieve our destiny, Rangers." \r\nMission_ReaganReborn_b3001_GipperCeremonyStep == [Global: Mission_ReaganReborn_b3001_GipperCeremonyStep]"
+        1 string data = ""私たちの運命を達成する手助けをしてくれてありがとう、レンジャー諸君。" \r\nMission_ReaganReborn_b3001_GipperCeremonyStep == [Global: Mission_ReaganReborn_b3001_GipperCeremonyStep]"
        [8]
-        1 string data = "Goodbye, Mother Nancy Reliance."
+        1 string data = "さようなら、マザー・ナンシー・リライアンス。"
        [9]
         1 string data = ""私たちはヴァラー・ブキャナンとコロラドスプリングスの石油問題について話し合いに来ただけだ。""
        [10]
         1 string data = ""取引をしに来たのではない。石油供給を再開しヴァラーを引き渡せ、さもなくば報いを受けるぞ。""
        [11]
-        1 string data = "Sure about that? Companions interject here, too."
+        1 string data = "本当にそれでいいのか? 仲間もここで口を挟む。"
        [12]
-        1 string data = "[Attack] Yes."
+        1 string data = "[Attack] ああ。"
        [13]
-        1 string data = "No, we'll hear you out."
+        1 string data = "いや、話を聞こう。"
        [14]
         1 string data = "Script Node 16"
        [15]
@@ -412265,7 +412265,7 @@
        [16]
         1 string data = ""ギッパーズ、奴らを止めろ! ロニー、奴らを引き裂け!""
        [17]
-        1 string data = "Combat, NPCs go first."
+        1 string data = "戦闘、NPCが先攻。"
        [18]
         1 string data = ""これを成し遂げるには、デンバー空港を占領している不潔な共産主義ロボットから、ある技術、つまりサイバネティック転送モジュールを入手しなければなりません。""
        [19]
@@ -412273,7 +412273,7 @@
        [20]
         1 string data = ""私の夫、神なる大統領は、自らの意識を人間の体に転送したいと望んでいます。""
        [21]
-        1 string data = """Glad you're reasonable. No need for this to get ugly. So...."
+        1 string data = """理性的で良かった。これが泥沼になる必要はない。さて...."
        [22]
         1 string data = ""モジュールをここに持って来てください。神なる大統領レーガンの転送が完了したら、石油は流れ、ヴァラーへの請求権を放棄します。""
        [23]
@@ -412283,25 +412283,25 @@
        [25]
         1 string data = ""なぜあなた方の神が「転送モジュール」を必要とするのか?""
        [26]
-        1 string data = ""How do we know you'll keep your promise to turn over Valor?"
+        1 string data = ""ヴァラーを引き渡すという約束を守ると、どうやって信じればいい?"
        [27]
-        1 string data = "[Attack] "We're not here to deal. We're here to <i>take</i>. Valor, you're coming with us!"\n"
+        1 string data = "[Attack] "取引しに来たんじゃない。<i>奪いに</i>来たんだ。ヴァラー、一緒に来い!"\n"
        [28]
-        1 string data = ""Very well, but you are testing my patience, Rangers."\nb1001_MotherNancyReliance_PreMissionQuestions=\n[Global: b1001_MotherNancyReliance_PreMissionQuestions]"
+        1 string data = ""よろしい、でもあなたたちは私の忍耐を試していますよ、レンジャー諸君。"\nb1001_MotherNancyReliance_PreMissionQuestions=\n[Global: b1001_MotherNancyReliance_PreMissionQuestions]"
        [29]
         1 string data = ""ご覧の通り、レンジャー諸君、彼は才能があり意欲的な青年で、私たちの大義に完全に献身しています。ここに誰も意志に反して拘束されている者はいません。""
        [30]
         1 string data = ""取引成立だ。モジュールを入手する、そちらはヴァラーを引き渡しコロラドスプリングスへの石油輸送を再開する。""
        [31]
-        1 string data = "We're going to need some more information first."
+        1 string data = "まず、もう少し情報が必要だ。"
        [32]
         1 string data = ""これについて考える時間が欲しい。""
        [33]
-        1 string data = "We had questions about the mission."
+        1 string data = "ミッションについて質問があった。"
        [34]
-        1 string data = "We had questions about the Gippers."
+        1 string data = "ギッパーズについて質問があった。"
        [35]
-        1 string data = "We had questions about... Well, a few different things."
+        1 string data = "質問があった...えっと、いくつか違うことについて。"
        [36]
         1 string data = ""何をすればいい?""
        [37]
@@ -415371,25 +415371,25 @@
       1 Array Array (160 items)
        0 int size = 160
        [0]
-        1 string data = "We begin at the end of Wasteland 2, as the Rangers nuke their HQ to kill the Cochise AI and stop it from spreading its code to every robot and computer in Arizona. Outside their hunting cabin home, Li-Tsing and her parents, William and Lydia, watch the mushroom cloud rise. 1/7"
+        1 string data = "物語はウェイストランド2の終わりから始まる。レンジャーたちがコチーズAIを殺し、そのコードがアリゾナの全てのロボットとコンピューターに拡散するのを止めるために本部を核爆弾で破壊した時のことだ。狩猟小屋の家の外で、リー・ツィンと両親のウィリアムとリディアがキノコ雲の上昇を見守っている。 1/7"
        [1]
-        1 string data = "We begin at the end of Wasteland 2, as the Rangers nuke their HQ to kill the Cochise AI and stop it from spreading its code to every computer in Arizona. At a farm to the east, Dusty and Marie, two Diamond Back Militia members, are having a disagreement with their Captain."
+        1 string data = "物語はウェイストランド2の終わりから始まる。レンジャーたちがコチーズAIを殺し、そのコードがアリゾナの全てのコンピューターに拡散するのを止めるために本部を核爆弾で破壊した時のことだ。東の農場では、ダイヤモンドバック民兵団の2人のメンバー、ダスティとマリーが隊長と意見の相違を起こしている。"
        [2]
-        1 string data = ""Th-that was a nuke," said William, as Lydia and Li-Tsing laid the brace of rabbits they'd just brought home on his skinning table. The explosion's hell-light turned everything around them a sickly pink. \r\n\r\nLi-Tsing stared. "Isn't that where Ranger Citadel is?" 2/7"
+        1 string data = ""あ、あれは核だ"とウィリアムは言った。リディアとリー・ツィンが狩ってきたばかりのウサギを皮剥ぎ台に置いた時だった。爆発の地獄の光が周りのすべてを病的なピンク色に変えた。 \r\n\r\nリー・ツィンは見つめた。"あそこはレンジャー・シタデルがある場所じゃない?" 2/7"
        [3]
-        1 string data = "Lydia grabbed her rifle and started for the shack where they kept their goats and cart. "It's the bad days all over again. Pack up. Time to disappear 'til we see how this shakes-"\n\n\nShe stopped as she saw two plastic and metal men in the back yard, also staring at the blast. 3/7"
+        1 string data = "リディアはライフルを掴み、ヤギと荷車を置いている小屋に向かった。"また悪い時代が来た。荷造りしろ。どうなるか見届けるまで姿を消す時だ—"\n\n\n彼女は裏庭にプラスチックと金属でできた2人の男がいるのを見て立ち止まった。彼らも爆発を見つめていた。 3/7"
        [4]
-        1 string data = ""Cochise is no longer present in my head," said the red-painted one. "The humans have killed them."\n\n\n"To honor them, we must kill humans," said the blue. They turned their eye lenses toward Lydia.\n\n\nShe fired, blowing off the red one's arm as the blue one leapt. 4/7"
+        1 string data = ""コチーズはもう私の頭の中にいない"と赤く塗られた方が言った。"人間が彼らを殺した。"\n\n\n"彼らを称えるため、人間を殺さねばならない"と青い方が言った。彼らはアイレンズをリディアに向けた。\n\n\n彼女は発砲し、青い方が飛びかかる中、赤い方の腕を吹き飛ばした。 4/7"
        [5]
-        1 string data = "By the time William and Li-Tsing came running, Lydia was in pieces. The blue synth was tossing her head aside. The red was clutching its sparking, oil-spattered arm-stump and backing away. \r\n\r\n"You killed Cochise," said the blue. "You must die." 5/7"
+        1 string data = "ウィリアムとリー・ツィンが走ってきた時には、リディアはバラバラになっていた。青いシンセは彼女の頭を脇に投げ捨てていた。赤い方は火花を散らし油まみれの腕の断端を押さえながら後退していた。 \r\n\r\n"お前たちがコチーズを殺した"と青い方が言った。"お前たちは死なねばならない。" 5/7"
        [6]
-        1 string data = "Li-Tsing screamed and fired, but William just stared at Lydia's head like he couldn't understand what he was seeing. \r\n\r\nDad!" cried Li-Tsing. "Dad, help me!"\r\n\r\nWilliam looked up, eyes crazed. He drew his skinning knife and charged. The red synth fled. The blue attacked. 6/7"
+        1 string data = "リー・ツィンは叫んで発砲したが、ウィリアムは自分が見ているものが理解できないかのようにリディアの頭を見つめていた。 \r\n\r\nお父さん!"とリー・ツィンは叫んだ。"お父さん、助けて!"\r\n\r\nウィリアムは顔を上げた。目は狂気に染まっていた。皮剥ぎナイフを抜いて突撃した。赤いシンセは逃げた。青い方が攻撃してきた。 6/7"
        [7]
-        1 string data = "It's hard to kill a synth with a knife, but William's fury was unstoppable. Seconds later, the blue synth's head lay by Lydia's, and William was staring again, blank. \r\n\r\nLi-Tsing heard footsteps coming. More synths? "Come on, Dad."\r\n\r\nHe didn't move. The steps got closer. 7/7\r\n"
+        1 string data = "ナイフでシンセを殺すのは難しいが、ウィリアムの怒りは止められなかった。数秒後、青いシンセの頭はリディアの隣に転がり、ウィリアムは再び虚ろな目で見つめていた。 \r\n\r\nリー・ツィンは足音が近づいてくるのを聞いた。シンセがもっと来るのか? "お父さん、行こう。"\r\n\r\n彼は動かなかった。足音は近づいてきた。 7/7\r\n"
        [8]
-        1 string data = "Drag dad into hiding."
+        1 string data = "父を引きずって隠れる。"
        [9]
-        1 string data = "Stand and protect dad."
+        1 string data = "立って父を守る。"
        [10]
         1 string data = "Li-Tsing pulled William behind their wood pile, and they watched as two men and a woman, all  heavily-armed, came out of the trees and checked out the carnage.\n\n\n"Missed all the fun," said the leader. "But we'll get scrap for this robot, and... Oh, look, a wedding ring." 1/5"
        [11]
