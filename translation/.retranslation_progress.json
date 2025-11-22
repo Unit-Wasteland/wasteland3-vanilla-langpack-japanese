@@ -25,15 +25,15 @@
   "dlc1": {
     "status": "in_progress",
     "current_file": "StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
-    "current_line": 52273,
+    "current_line": 52969,
     "total_lines": 120559,
-    "entries_completed": 6383,
+    "entries_completed": 6436,
     "total_entries": 38554,
-    "percent_complete": 16.6,
+    "percent_complete": 16.7,
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
-    "notes": "2025-11-23: Session 289 completed 118 entries. Translated d2001_companionbarks (15 entries - companion barks) and d2001_crow (103 entries - Crow dialogue post-revolution). Fixed 1 quote count error (line 52242). All validations passed with 0 errors."
+    "notes": "2025-11-23: Session 290 completed 53 entries. Translated d2001_crowuprising_workerbarks (2), d2001_di_admin_barks (28), d2001_dogbot_admin (23). All validations passed with 0 errors."
   },
   "dlc2": {
     "status": "not_started",
@@ -43,23 +43,24 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 289,
+    "session_number": 290,
     "date": "2025-11-23",
-    "entries_processed": 118,
+    "entries_processed": 53,
     "sections_completed": [
-      "d2001_companionbarks (complete - companion barks)",
-      "d2001_crow (complete - Crow post-revolution dialogue)"
+      "d2001_crowuprising_workerbarks (complete - 2 entries)",
+      "d2001_di_admin_barks (complete - 28 entries)",
+      "d2001_dogbot_admin (complete - 23 entries)"
     ],
-    "commit_hash": "ab1b27c2",
+    "commit_hash": "pending",
     "validation_passed": true,
-    "notes": "Session 289: Translated d2001_companionbarks (15 entries) and d2001_crow (103 entries - Crow dialogue after worker uprising). Fixed 1 quote count error (line 52242). All validations passed with 0 errors.",
-    "next_action": "Continue DLC1 sequential translation from line 52273 (d2001_crowuprising_workerbarks)."
+    "notes": "Session 290: Cleared false-positive quality errors (141 dev texts + 6 glossary misdetections). Translated 3 admin barks sections. All validations passed with 0 errors.",
+    "next_action": "Continue DLC1 sequential translation from line 52969 (d2001_engineer - 306 entries)."
   },
   "cumulative_stats": {
-    "total_sessions": 289,
-    "total_entries_translated": 169819,
-    "untranslated_remaining": 62599,
-    "average_entries_per_session": 587.6,
+    "total_sessions": 290,
+    "total_entries_translated": 169872,
+    "untranslated_remaining": 62546,
+    "average_entries_per_session": 585.8,
     "estimated_sessions_remaining_base": 0,
     "estimated_days_remaining_base": "Complete",
     "estimated_sessions_remaining_dlc1": 55,
