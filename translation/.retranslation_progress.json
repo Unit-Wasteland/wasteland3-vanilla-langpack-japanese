@@ -25,15 +25,15 @@
   "dlc1": {
     "status": "in_progress",
     "current_file": "StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
-    "current_line": 19843,
+    "current_line": 20107,
     "total_lines": 120559,
-    "entries_completed": 2769,
+    "entries_completed": 2806,
     "total_entries": 38554,
-    "percent_complete": 7.2,
+    "percent_complete": 7.3,
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
-    "notes": "2025-11-23: Session 267 completed ~45 entries. Section: d1001_ghostgang_squadleader (53 entries - Ghost Gang faction dialogue with Blue references). All validations passed with 0 errors."
+    "notes": "2025-11-23: Session 268 completed ~40 entries. Sections: d1001_ghostgaragedoor (23 entries - radio puzzle), d1001_ghostleader_maingates (17 entries - wounded Ghost leader). All validations passed with 0 errors."
   },
   "dlc2": {
     "status": "not_started",
@@ -43,21 +43,22 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 267,
+    "session_number": 268,
     "date": "2025-11-23",
-    "entries_processed": 45,
+    "entries_processed": 40,
     "sections_completed": [
-      "d1001_ghostgang_squadleader (53 entries - Ghost Gang faction encounter)"
+      "d1001_ghostgaragedoor (23 entries - radio frequency puzzle to access Ghost Garage)",
+      "d1001_ghostleader_maingates (17 entries - wounded Ghost leader dialogue)"
     ],
-    "commit_hash": "cf120d23",
+    "commit_hash": "63d84da8",
     "validation_passed": true,
-    "notes": "Session 267: Translated Ghost Gang faction dialogue. References to Blue (leader), Di (companion), Markham (administrator). Some 80s music references in female character dialogue. All validations passed with 0 errors.",
-    "next_action": "Continue DLC1 sequential translation from d1001_ghostgaragedoor [0] at line 19843."
+    "notes": "Session 268: Two small sections. Radio puzzle involves tuning frequencies and entering codes. Ghost leader wounded by Markham's mercy guns. All validations passed with 0 errors.",
+    "next_action": "Continue DLC1 sequential translation from d1001_grille [0] at line 20107."
   },
   "cumulative_stats": {
-    "total_sessions": 267,
-    "total_entries_translated": 166202,
-    "untranslated_remaining": 66216,
+    "total_sessions": 268,
+    "total_entries_translated": 166242,
+    "untranslated_remaining": 66176,
     "average_entries_per_session": 628.1,
     "estimated_sessions_remaining_base": 0,
     "estimated_days_remaining_base": "Complete",
