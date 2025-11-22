@@ -25,15 +25,15 @@
   "dlc1": {
     "status": "in_progress",
     "current_file": "StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
-    "current_line": 58938,
+    "current_line": 61231,
     "total_lines": 120559,
-    "entries_completed": 7280,
+    "entries_completed": 7608,
     "total_entries": 38554,
-    "percent_complete": 18.9,
+    "percent_complete": 19.7,
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
-    "notes": "2025-11-23: Session 293 completed 271 entries. Translated int_markhampicture, markhamsecretsafe, warbot, lazarblazer, ludlow encounters, lunamoon, marcia, nursefirenze, nurse_asstrahmen. Fixed glossary [Attack]->[攻撃]. All validations passed."
+    "notes": "2025-11-23: Session 294 completed 328 entries in 2 batches. Translated oluwademilade, recruit sections (gyrosphere, gyrosphere_spectator, orientation, personalitytest, equipment, brainhelmet, breathregulation), serenaash, showroomwarbot, supplyofficer. Fixed quote count errors. All validations passed."
   },
   "dlc2": {
     "status": "not_started",
@@ -43,31 +43,33 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 293,
+    "session_number": 294,
     "date": "2025-11-23",
-    "entries_processed": 271,
+    "entries_processed": 328,
     "sections_completed": [
-      "d2001_int_markhampicture (2 entries)",
-      "d2001_int_markhamsecretsafe (7 entries)",
-      "d2001_int_warbot (11 entries)",
-      "d2001_lazarblazer (86 entries)",
-      "d2001_ludlowreactivity_encounter1 (38 entries)",
-      "d2001_ludlowreactivity_encounter2 (29 entries)",
-      "d2001_lunamoon (8 entries)",
-      "d2001_marcia (55 entries)",
-      "d2001_nursefirenze (68 entries)",
-      "d2001_nurse_asstrahmen (34 entries)"
+      "d2001_oluwademilade (126 entries)",
+      "d2001_recruit_brainhelmet (13 entries)",
+      "d2001_recruit_brainhelmet_spectator (7 entries)",
+      "d2001_recruit_breathregulation (7 entries)",
+      "d2001_recruit_equipment (6 entries)",
+      "d2001_recruit_gyrosphere (14 entries)",
+      "d2001_recruit_gyrosphere_spectator (22 entries)",
+      "d2001_recruit_orientation (23 entries)",
+      "d2001_recruit_personalitytest (8 entries)",
+      "d2001_serenaash (88 entries)",
+      "d2001_showroomwarbot (4 entries)",
+      "d2001_supplyofficer (36 entries)"
     ],
-    "commit_hash": "5d20c053",
+    "commit_hash": "ad8d4d74",
     "validation_passed": true,
-    "notes": "Session 293: Fixed glossary violations [Attack]->[攻撃]. Translated 10 sections. All validations passed with 0 errors.",
-    "next_action": "Continue DLC1 sequential translation from line 58938 (next section after d2001_nurse_asstrahmen)."
+    "notes": "Session 294: Fixed quote count errors at 4 lines. Translated 12 sections. All validations passed with 0 errors.",
+    "next_action": "Continue DLC1 sequential translation from line 61231 (next section after d2001_supplyofficer)."
   },
   "cumulative_stats": {
-    "total_sessions": 293,
-    "total_entries_translated": 170716,
-    "untranslated_remaining": 61702,
-    "average_entries_per_session": 582.6,
+    "total_sessions": 294,
+    "total_entries_translated": 171044,
+    "untranslated_remaining": 61374,
+    "average_entries_per_session": 581.8,
     "estimated_sessions_remaining_base": 0,
     "estimated_days_remaining_base": "Complete",
     "estimated_sessions_remaining_dlc1": 52,
