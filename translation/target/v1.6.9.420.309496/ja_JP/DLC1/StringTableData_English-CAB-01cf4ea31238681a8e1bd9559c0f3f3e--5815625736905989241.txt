@@ -112955,47 +112955,47 @@
       1 Array Array (21 items)
        0 int size = 21
        [0]
-        1 string data = "Use to remove Disruption, Hot Tar, Burning, Frozen, Shocked, Slowed, and Stunned status effects."
+        1 string data = "妨害、ホットタール、燃焼、凍結、感電、減速、スタンの状態異常を解除するために使用。"
        [1]
-        1 string data = "Hazard Shield"
+        1 string data = "ハザードシールド"
        [2]
-        1 string data = "Fire a protective shield at an ally that grants immunity to most negative conditions. Lasts until hit by elemental damage."
+        1 string data = "味方に保護シールドを発射し、ほとんどのネガティブ状態への耐性を付与する。属性ダメージを受けるまで持続。"
        [3]
-        1 string data = "Throw to create a persistent hazard that applies Disruption Field on anyone inside. Lasts 2 turns."
+        1 string data = "投げると持続するハザードを生成し、内部の誰にでも妨害フィールドを適用する。2ターン持続。"
        [4]
-        1 string data = "Charge Gauntlet"
+        1 string data = "チャージガントレット"
        [5]
-        1 string data = "Pneumatic Gauntlet"
+        1 string data = "空圧式ガントレット"
        [6]
-        1 string data = "Energy Shield"
+        1 string data = "エネルギーシールド"
        [7]
-        1 string data = "Cryo Shield"
+        1 string data = "クライオシールド"
        [8]
-        1 string data = "Fire Shield"
+        1 string data = "ファイアシールド"
        [9]
-        1 string data = "Cryo Cannon"
+        1 string data = "クライオキャノン"
        [10]
-        1 string data = "Call Out"
+        1 string data = "挑発"
        [11]
-        1 string data = "Cryo Cannon"
+        1 string data = "クライオキャノン"
        [12]
-        1 string data = "Subdue"
+        1 string data = "制圧"
        [13]
-        1 string data = "Extinguish"
+        1 string data = "消火"
        [14]
-        1 string data = "Use to safely put out flames on a target character."
+        1 string data = "対象キャラクターの炎を安全に消すために使用。"
        [15]
-        1 string data = "Self-Repair"
+        1 string data = "自己修復"
        [16]
-        1 string data = "Eat to gain +15% Melee Damage and +25% Max CON for 6 turns."
+        1 string data = "食べると6ターンの間、近接ダメージ+15%、最大CON+25%を獲得。"
        [17]
-        1 string data = "Deploy Guard-Dog"
+        1 string data = "ガードドッグ展開"
        [18]
-        1 string data = "Deploy Guard-Bot"
+        1 string data = "ガードボット展開"
        [19]
-        1 string data = "Spinal Implant"
+        1 string data = "脊髄インプラント"
        [20]
-        1 string data = "Applies Disruption Field x10, instantly knocking out the target.\n\n\n<color=#808080>{0}% Chance:</color> Detonates the target's Spinal Implant, unleashing a Disruption Field hazard around them."
+        1 string data = "妨害フィールドx10を適用し、対象を即座にノックアウトする。\n\n\n<color=#808080>{0}%の確率:</color> 対象の脊髄インプラントを爆発させ、周囲に妨害フィールドハザードを解き放つ。"
    [375]
     0 StringTable data
      1 string Filename = "characters"
@@ -113541,23 +113541,23 @@
       1 Array Array (133 items)
        0 int size = 133
        [0]
-        1 string data = "Doctor Breeler"
+        1 string data = "ドクター・ブリーラー"
        [1]
-        1 string data = "Carla Asphalt-Runner"
+        1 string data = "カーラ・アスファルトランナー"
        [2]
-        1 string data = "Vega Corsair"
+        1 string data = "ベガ・コルセア"
        [3]
-        1 string data = "Grille"
+        1 string data = "グリル"
        [4]
-        1 string data = "Abigail Markham"
+        1 string data = "アビゲイル・マークハム"
        [5]
-        1 string data = "Bennie Bianchi"
+        1 string data = "ベニー・ビアンキ"
        [6]
-        1 string data = "Salene Crow"
+        1 string data = "サリーン・クロウ"
        [7]
-        1 string data = "Roland Herrera"
+        1 string data = "ローランド・ヘレラ"
        [8]
-        1 string data = "Buddy"
+        1 string data = "バディ"
        [9]
         1 string data = "Debug Arcology"
        [10]
@@ -113565,77 +113565,77 @@
        [11]
         1 string data = "Debug Spire"
        [12]
-        1 string data = "Steeltown Guard"
+        1 string data = "スティールタウン警備員"
        [13]
-        1 string data = "Steeltown Refugee"
+        1 string data = "スティールタウン難民"
        [14]
-        1 string data = "Steeltown Administrator"
+        1 string data = "スティールタウン管理者"
        [15]
-        1 string data = "Computation Engine Core"
+        1 string data = "計算エンジンコア"
        [16]
-        1 string data = "Computation Engine Synth"
+        1 string data = "計算エンジンシンセ"
        [17]
-        1 string data = "Foreman MaBelle"
+        1 string data = "フォアマン・メイベル"
        [18]
-        1 string data = "Blue"
+        1 string data = "ブルー"
        [19]
         1 string data = "Debug Garage With No Name"
        [20]
-        1 string data = "Blue's Gang Assault"
+        1 string data = "ブルーのギャング襲撃"
        [21]
-        1 string data = "Blue"
+        1 string data = "ブルー"
        [22]
-        1 string data = "Wounded Steeltown Guard"
+        1 string data = "負傷したスティールタウン警備員"
        [23]
-        1 string data = "Blue's Gang Mechanic"
+        1 string data = "ブルーのギャング整備士"
        [24]
-        1 string data = "Blue's Gang Tech"
+        1 string data = "ブルーのギャング技術者"
        [25]
-        1 string data = "Blue's Gang Enforcer"
+        1 string data = "ブルーのギャング執行者"
        [26]
-        1 string data = "Foundry Worker"
+        1 string data = "鋳造所作業員"
        [27]
-        1 string data = "Elite Foundry Worker"
+        1 string data = "精鋭鋳造所作業員"
        [28]
-        1 string data = "Construction Worker"
+        1 string data = "建設作業員"
        [29]
-        1 string data = "Elite Construction Worker"
+        1 string data = "精鋭建設作業員"
        [30]
-        1 string data = "Maintenance Worker"
+        1 string data = "保守作業員"
        [31]
-        1 string data = "Worker Safety Chief"
+        1 string data = "作業員安全責任者"
        [32]
-        1 string data = "Powerloader Operator"
+        1 string data = "パワーローダーオペレーター"
        [33]
-        1 string data = "Weaponized Powerloader Operator"
+        1 string data = "武装パワーローダーオペレーター"
        [34]
-        1 string data = "Di"
+        1 string data = "ディ"
        [35]
-        1 string data = "Luis"
+        1 string data = "ルイス"
        [36]
-        1 string data = "Oluwademilade"
+        1 string data = "オルワデミラデ"
        [37]
-        1 string data = "Dog-Bot"
+        1 string data = "ドッグボット"
        [38]
-        1 string data = "Guard-Bot"
+        1 string data = "ガードボット"
        [39]
-        1 string data = "Guard-Bot XL"
+        1 string data = "ガードボットXL"
        [40]
-        1 string data = "Steeltown Guard Transport"
+        1 string data = "スティールタウン警備輸送車"
        [41]
-        1 string data = "Ghost Exo-Tec"
+        1 string data = "ゴースト・エクソテック"
        [42]
-        1 string data = "Ghost Thermal-Tec"
+        1 string data = "ゴースト・サーマルテック"
        [43]
-        1 string data = "Ghost Mechanic"
+        1 string data = "ゴースト・メカニック"
        [44]
-        1 string data = "Ghost Shield-Tec"
+        1 string data = "ゴースト・シールドテック"
        [45]
-        1 string data = "Ghost Powerloader"
+        1 string data = "ゴースト・パワーローダー"
        [46]
-        1 string data = "Ghost Weaponized Powerloader"
+        1 string data = "ゴースト・武装パワーローダー"
        [47]
-        1 string data = "Slaver"
+        1 string data = "奴隷商人"
        [48]
         1 string data = " Debug Mission: Order Up"
        [49]
@@ -113645,115 +113645,115 @@
        [51]
         1 string data = " Debug Mission: Working Stiff"
        [52]
-        1 string data = " Debug Mission: Breeler’s Cure"
+        1 string data = " Debug Mission: Breeler's Cure"
        [53]
         1 string data = " Debug Mission: Gift of the Magi"
        [54]
-        1 string data = "O.M.C. Walsh"
+        1 string data = "O.M.C.ウォルシュ"
        [55]
-        1 string data = "Cookie"
+        1 string data = "クッキー"
        [56]
-        1 string data = "Bot-lift"
+        1 string data = "ボットリフト"
        [57]
-        1 string data = "Clerk Jerry"
+        1 string data = "事務員ジェリー"
        [58]
-        1 string data = "Clerk Hurley"
+        1 string data = "事務員ハーレー"
        [59]
-        1 string data = "Clerk Doe"
+        1 string data = "事務員ドー"
        [60]
-        1 string data = "Bernice"
+        1 string data = "バーニス"
        [61]
-        1 string data = "Stolen shipment"
+        1 string data = "盗まれた貨物"
        [62]
-        1 string data = "Young Man Vinters"
+        1 string data = "若者ヴィンターズ"
        [63]
-        1 string data = "Archie"
+        1 string data = "アーチー"
        [64]
-        1 string data = "Edith"
+        1 string data = "イーディス"
        [65]
-        1 string data = "Awake Alfonso"
+        1 string data = "起きてるアルフォンソ"
        [66]
-        1 string data = "Sugarplum Fairy"
+        1 string data = "シュガープラム・フェアリー"
        [67]
-        1 string data = "Bug"
+        1 string data = "バグ"
        [68]
-        1 string data = "Silas"
+        1 string data = "サイラス"
        [69]
-        1 string data = "Nova"
+        1 string data = "ノヴァ"
        [70]
-        1 string data = "Desmond"
+        1 string data = "デズモンド"
        [71]
-        1 string data = "Nurse Firenze"
+        1 string data = "看護師フィレンツェ"
        [72]
-        1 string data = "Wink Tillman"
+        1 string data = "ウィンク・ティルマン"
        [73]
-        1 string data = "Amos Ryan"
+        1 string data = "エイモス・ライアン"
        [74]
-        1 string data = "Shirley Ryan"
+        1 string data = "シャーリー・ライアン"
        [75]
-        1 string data = "Shemp Ryan"
+        1 string data = "シェンプ・ライアン"
        [76]
-        1 string data = "Serena Ash"
+        1 string data = "セレナ・アッシュ"
        [77]
-        1 string data = "Lazar Blazer"
+        1 string data = "レイザー・ブレイザー"
        [78]
         1 string data = "B.F."
        [79]
-        1 string data = "Ivan"
+        1 string data = "イワン"
        [80]
-        1 string data = "Giles"
+        1 string data = "ジャイルズ"
        [81]
-        1 string data = "Arushi"
+        1 string data = "アルシ"
        [82]
-        1 string data = "Reg"
+        1 string data = "レグ"
        [83]
-        1 string data = "Keith"
+        1 string data = "キース"
        [84]
-        1 string data = "Mabelle"
+        1 string data = "メイベル"
        [85]
-        1 string data = "Computation Engine Synth"
+        1 string data = "計算エンジンシンセ"
        [86]
-        1 string data = "Toilet"
+        1 string data = "トイレ"
        [87]
-        1 string data = "Fatima"
+        1 string data = "ファティマ"
        [88]
-        1 string data = "Fatima's Corpse"
+        1 string data = "ファティマの死体"
        [89]
-        1 string data = "Aram's Corpse"
+        1 string data = "アラムの死体"
        [90]
-        1 string data = "Iris's Corpse"
+        1 string data = "アイリスの死体"
        [91]
-        1 string data = "Arthur"
+        1 string data = "アーサー"
        [92]
-        1 string data = "Arthur's Corpse"
+        1 string data = "アーサーの死体"
        [93]
-        1 string data = "Karl Ludlow"
+        1 string data = "カール・ラドロー"
        [94]
-        1 string data = "Iris"
+        1 string data = "アイリス"
        [95]
-        1 string data = "Enrico"
+        1 string data = "エンリコ"
        [96]
-        1 string data = "Beals"
+        1 string data = "ビールズ"
        [97]
-        1 string data = "Ghost Gang Raid Leader"
+        1 string data = "ゴースト・ギャング襲撃リーダー"
        [98]
-        1 string data = "Rank Ravi"
+        1 string data = "ランク・ラヴィ"
        [99]
-        1 string data = "Rad Ravi"
+        1 string data = "ラッド・ラヴィ"
        [100]
-        1 string data = "War-bot Floor Model"
+        1 string data = "ウォーボット展示モデル"
        [101]
-        1 string data = "Hayes"
+        1 string data = "ヘイズ"
        [102]
-        1 string data = "Luna Moon"
+        1 string data = "ルナ・ムーン"
        [103]
-        1 string data = "Nova"
+        1 string data = "ノヴァ"
        [104]
-        1 string data = "Bug"
+        1 string data = "バグ"
        [105]
-        1 string data = "Worker"
+        1 string data = "作業員"
        [106]
-        1 string data = "Dash Grabem"
+        1 string data = "ダッシュ・グラベム"
        [107]
         1 string data = "HN6R"
        [108]
@@ -113765,47 +113765,47 @@
        [111]
         1 string data = "H3L0"
        [112]
-        1 string data = "Disruption Turret"
+        1 string data = "妨害タレット"
        [113]
-        1 string data = "Shield-Bot"
+        1 string data = "シールドボット"
        [114]
-        1 string data = "Biometric Assessment Pod"
+        1 string data = "生体認証評価ポッド"
        [115]
-        1 string data = "Ocular Scanner"
+        1 string data = "眼球スキャナー"
        [116]
-        1 string data = "Skills Test Terminal"
+        1 string data = "スキルテスト端末"
        [117]
-        1 string data = "Newt"
+        1 string data = "ニュート"
        [118]
-        1 string data = "Ellen"
+        1 string data = "エレン"
        [119]
-        1 string data = "Deirdre"
+        1 string data = "ディードリー"
        [120]
-        1 string data = "Strength Test Terminal"
+        1 string data = "筋力テスト端末"
        [121]
         1 string data = "H3R0"
        [122]
-        1 string data = "Bot-Lift"
+        1 string data = "ボットリフト"
        [123]
-        1 string data = "Computation Engine Interface"
+        1 string data = "計算エンジンインターフェース"
        [124]
-        1 string data = "Secret Head"
+        1 string data = "秘密の頭"
        [125]
-        1 string data = "Handcraft"
+        1 string data = "手工芸"
        [126]
-        1 string data = "Blue's Drafting Table"
+        1 string data = "ブルーの製図台"
        [127]
-        1 string data = "Markham's Gun Rack"
+        1 string data = "マークハムの銃架"
        [128]
-        1 string data = "Worker Incentive System Prototype"
+        1 string data = "作業員インセンティブシステム試作品"
        [129]
-        1 string data = "EEG Hood Prototype"
+        1 string data = "脳波フード試作品"
        [130]
-        1 string data = "Florinda"
+        1 string data = "フロリンダ"
        [131]
-        1 string data = "Clean Toilet"
+        1 string data = "清潔なトイレ"
        [132]
-        1 string data = "Fancy Toilet"
+        1 string data = "豪華なトイレ"
    [376]
     0 StringTable data
      1 string Filename = "gui"
@@ -114003,97 +114003,97 @@
       1 Array Array (46 items)
        0 int size = 46
        [0]
-        1 string data = "Steeltown"
+        1 string data = "スティールタウン"
        [1]
-        1 string data = "Reputation tracks how your actions have affected each faction's opinion of the Rangers.\\n\\nBuilt upon the ruins of Pueblo, Steeltown is a massive industrial monstrosity - a post-apocalyptic arcology of metal and concrete, belching black smoke and fire into the Colorado sky. The ruler of Steeltown is Abigail Markham, a charismatic entrepreneur and engineer."
+        1 string data = "評判はあなたの行動が各勢力のレンジャーに対する評価にどう影響したかを追跡します。\\n\\nプエブロの廃墟の上に建てられたスティールタウンは、巨大な産業の怪物です。金属とコンクリートでできた終末後のアーコロジーで、黒煙と火をコロラドの空に吐き出しています。スティールタウンの支配者はアビゲイル・マークハム、カリスマ的な起業家であり技術者です。"
        [2]
-        1 string data = "Steeltown Gates"
+        1 string data = "スティールタウンゲート"
        [3]
-        1 string data = "Steeltown's Sigil"
+        1 string data = "スティールタウンの紋章"
        [4]
-        1 string data = "Computation Engine Model"
+        1 string data = "計算エンジンモデル"
        [5]
-        1 string data = "Fire Suppression System"
+        1 string data = "消火システム"
        [6]
-        1 string data = "Administration Valve"
+        1 string data = "管理バルブ"
        [7]
-        1 string data = "Cookie's Goat Meat"
+        1 string data = "クッキーのヤギ肉"
        [8]
-        1 string data = "Failsafe Release GAMMA"
+        1 string data = "フェイルセーフ解除ガンマ"
        [9]
-        1 string data = "Failsafe Release OMEGA"
+        1 string data = "フェイルセーフ解除オメガ"
        [10]
-        1 string data = "Core Control Console"
+        1 string data = "コア制御コンソール"
        [11]
-        1 string data = "Ocular Scanner"
+        1 string data = "眼球スキャナー"
        [12]
-        1 string data = "Biometric Assessment Pod"
+        1 string data = "生体認証評価ポッド"
        [13]
-        1 string data = "Skills Test Terminal"
+        1 string data = "スキルテスト端末"
        [14]
-        1 string data = "Test Terminal"
+        1 string data = "テスト端末"
        [15]
-        1 string data = "Filthy Toilet"
+        1 string data = "汚いトイレ"
        [16]
-        1 string data = "Clean Toilet"
+        1 string data = "清潔なトイレ"
        [17]
-        1 string data = "Fancy Toilet"
+        1 string data = "豪華なトイレ"
        [18]
-        1 string data = "Small Radio"
+        1 string data = "小型ラジオ"
        [19]
-        1 string data = "Old racing buggy"
+        1 string data = "古いレーシングバギー"
        [20]
-        1 string data = "Ancient police vehicle"
+        1 string data = "古代のパトカー"
        [21]
-        1 string data = "Wrecked sports car"
+        1 string data = "大破したスポーツカー"
        [22]
-        1 string data = "Sealed Crate"
+        1 string data = "封印された木箱"
        [23]
-        1 string data = "Target Practice"
+        1 string data = "射撃練習"
        [24]
-        1 string data = "Cognitive Test"
+        1 string data = "認知テスト"
        [25]
-        1 string data = "Fitness Test"
+        1 string data = "フィットネステスト"
        [26]
-        1 string data = "Reinforced Gate"
+        1 string data = "強化ゲート"
        [27]
-        1 string data = "West Gates"
+        1 string data = "西ゲート"
        [28]
-        1 string data = "Screen"
+        1 string data = "スクリーン"
        [29]
-        1 string data = "Computation Engine Interface"
+        1 string data = "計算エンジンインターフェース"
        [30]
-        1 string data = "Sealed Crate"
+        1 string data = "封印された木箱"
        [31]
-        1 string data = "Sealed Crate"
+        1 string data = "封印された木箱"
        [32]
-        1 string data = "Sealed Crate"
+        1 string data = "封印された木箱"
        [33]
-        1 string data = "Shipment"
+        1 string data = "貨物"
        [34]
-        1 string data = "Sealed Crate"
+        1 string data = "封印された木箱"
        [35]
-        1 string data = "Sealed Box"
+        1 string data = "封印された箱"
        [36]
-        1 string data = "Crate"
+        1 string data = "木箱"
        [37]
-        1 string data = "Box"
+        1 string data = "箱"
        [38]
-        1 string data = "Sealed Crate"
+        1 string data = "封印された木箱"
        [39]
-        1 string data = "Sealed Crate"
+        1 string data = "封印された木箱"
        [40]
-        1 string data = "Cookie's Cookbook"
+        1 string data = "クッキーの料理本"
        [41]
-        1 string data = "Television"
+        1 string data = "テレビ"
        [42]
-        1 string data = "You’ve successfully purchased The Battle of Steeltown! The Steeltown mission will become active once you load into the World Map with a level 9 party."
+        1 string data = "Battle of Steeltownの購入に成功しました！レベル9のパーティでワールドマップに入ると、スティールタウンミッションがアクティブになります。"
        [43]
-        1 string data = "Steeltown Administration"
+        1 string data = "スティールタウン管理局"
        [44]
-        1 string data = "Steeltown"
+        1 string data = "スティールタウン"
        [45]
-        1 string data = "Administrator Markham and her team of middle managers, clerks, and assistants, dedicated to giving Colorado a brighter future by returning to America's industrialized past."
+        1 string data = "マークハム管理官と彼女の中間管理職、事務員、アシスタントのチームは、アメリカの産業化された過去に戻ることでコロラドにより明るい未来をもたらすことに専念しています。"
    [377]
     0 StringTable data
      1 string Filename = "interactables"
@@ -114227,65 +114227,65 @@
       1 Array Array (30 items)
        0 int size = 30
        [0]
-        1 string data = "Secret Head"
+        1 string data = "秘密の頭"
        [1]
-        1 string data = "'Interface screen for the Biometric Assessment Diagnostic (isBAD)'"
+        1 string data = "'生体認証診断システム（isBAD）のインターフェース画面'"
        [2]
-        1 string data = "Measurements and calculations scroll across this screen."
+        1 string data = "測定値と計算がこの画面をスクロールしている。"
        [3]
-        1 string data = ""Contents: food-grade chevon (goat meat), no more than 2% synthetic protein substitute""
+        1 string data = ""内容物: 食品グレードのヤギ肉、合成タンパク質代替品2%以下""
        [4]
-        1 string data = "Blue's Drafting Table"
+        1 string data = "ブルーの製図台"
        [5]
-        1 string data = "Handcraft"
+        1 string data = "手工芸"
        [6]
-        1 string data = "EEG Hood Prototype"
+        1 string data = "脳波フード試作品"
        [7]
-        1 string data = "Worker Incentive System Prototype"
+        1 string data = "作業員インセンティブシステム試作品"
        [8]
-        1 string data = "This toilet glistens with an outer layer of frozen fluids. The inside is dark, coated in centuries of human waste."
+        1 string data = "このトイレは凍った液体の外層で輝いている。内側は暗く、数世紀分の人間の排泄物で覆われている。"
        [9]
-        1 string data = "So clean, it gleams."
+        1 string data = "非常に清潔で、光り輝いている。"
        [10]
-        1 string data = "It looks just like a normal toilet. Hard to believe it used to talk and think."
+        1 string data = "普通のトイレのように見える。かつては話したり考えたりしていたとは信じがたい。"
        [11]
-        1 string data = ""Contents: 600 Pink Flamingos -- Destination: The Patriarch, Broadmoor Heights""
+        1 string data = ""内容物: ピンクフラミンゴ600体 -- 宛先: 総督、ブロードモアハイツ""
        [12]
-        1 string data = ""Contents: Assorted Christmas Ornaments -- Destination: Greenhouse 2, Broadmoor Heights""
+        1 string data = ""内容物: 各種クリスマスオーナメント -- 宛先: 温室2、ブロードモアハイツ""
        [13]
-        1 string data = ""Contents: Weapon parts -- Destination: NULL_ENTRY""
+        1 string data = ""内容物: 武器パーツ -- 宛先: NULL_ENTRY""
        [14]
-        1 string data = ""Contents: Live trees. Do not let temperature fall below 75' -- Destination: Aspen resort""
+        1 string data = ""内容物: 生きた木。気温を75度以下にしないこと -- 宛先: アスペンリゾート""
        [15]
-        1 string data = ""Contents: Baby-Safe Toys -- Destination: The Patriarch, Broadmoor Heights""
+        1 string data = ""内容物: 赤ちゃん用安全おもちゃ -- 宛先: 総督、ブロードモアハイツ""
        [16]
-        1 string data = "Toilet paper"
+        1 string data = "トイレットペーパー"
        [17]
-        1 string data = "A tremendous pyramid of toilet paper. Truly praiseworthy!"
+        1 string data = "トイレットペーパーの巨大なピラミッド。本当に称賛に値する！"
        [18]
-        1 string data = "The clothing and skin around the spinal implant appears to be burnt and lightly smoking."
+        1 string data = "脊髄インプラント周辺の衣服と皮膚が焼けて軽く煙を出しているように見える。"
        [19]
-        1 string data = "Stolen Crate"
+        1 string data = "盗まれた木箱"
        [20]
-        1 string data = "Partial power armor, stripped SMGs, and broken-down batons. Looks like this place was built on material liberated from Steeltown."
+        1 string data = "部分的なパワーアーマー、剥ぎ取られたSMG、壊れた警棒。この場所はスティールタウンから奪った物資で作られたようだ。"
        [21]
-        1 string data = "Picked clean of disruption tech. Looks like the Ghosts are using it to repair their gear."
+        1 string data = "妨害技術がきれいに取り除かれている。ゴーストが装備の修理に使っているようだ。"
        [22]
-        1 string data = "Steak Knives"
+        1 string data = "ステーキナイフ"
        [23]
-        1 string data = ""Contents: Unthreaded nuts and bolts -- Destination: Recieving dept, Bizarre""
+        1 string data = ""内容物: ネジ山のないナットとボルト -- 宛先: 受取部門、ビザール""
        [24]
-        1 string data = ""Contents: Peek and Poke figurines -- Destination: Moon""
+        1 string data = ""内容物: ピークとポークのフィギュア -- 宛先: ムーン""
        [25]
-        1 string data = ""Contents: War-bot parts -- Destination: The Patriarch, Broadmoor Heights""
+        1 string data = ""内容物: ウォーボットパーツ -- 宛先: 総督、ブロードモアハイツ""
        [26]
-        1 string data = ""Contents: pants made of iron -- Destination: The Patriarch, Broadmoor Heights""
+        1 string data = ""内容物: 鉄製パンツ -- 宛先: 総督、ブロードモアハイツ""
        [27]
-        1 string data = ""Contents: cooking supplies -- Destination: The Patriarch, Broadmoor Heights""
+        1 string data = ""内容物: 調理用品 -- 宛先: 総督、ブロードモアハイツ""
        [28]
-        1 string data = ""Contents: assorted supplies -- Destination: The Patriarch, Broadmoor Heights""
+        1 string data = ""内容物: 各種物資 -- 宛先: 総督、ブロードモアハイツ""
        [29]
-        1 string data = "You can’t make out anything aside from the color bars."
+        1 string data = "カラーバー以外は何も判別できない。"
    [378]
     0 StringTable data
      1 string Filename = "items"
