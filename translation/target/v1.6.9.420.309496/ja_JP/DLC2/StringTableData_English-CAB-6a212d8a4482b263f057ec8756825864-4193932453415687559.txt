@@ -70105,27 +70105,27 @@
       1 Array Array (11 items)
        0 int size = 11
        [0]
-        1 string data = "As you descend from the heights of the Rockies and approach the foothills around Colorado Springs, the shine off the windshield of an oncoming vehicle makes you squint."
+        1 string data = "ロッキー山脈の高地から下り、コロラドスプリングス周辺の丘陵地帯に近づくと、向かってくる車のフロントガラスの反射が眩しくて目を細める。"
        [1]
-        1 string data = "As it approaches, you recognize the horns and flags of an Iron Thunder Logistics courier. It sidles up next to you, and a dark-haired young man hops out."
+        1 string data = "近づいてくると、アイアン・サンダー・ロジスティクスの配達車だと分かる。角と旗が目印だ。横に停まると、黒髪の若い男が飛び降りてきた。"
        [2]
-        1 string data = ""Hey there, Rangers! Got a delivery for you from Elijah Ward. Just need you to sign here, here, aaaaand here.""
+        1 string data = ""やあ、レンジャーの皆さん！イライジャ・ウォードから届け物です。ここと、ここと、あーとここにサインをお願いします。""
        [3]
-        1 string data = ""Thanks. Got a pen?""
+        1 string data = ""ありがとう。ペンある？""
        [4]
-        1 string data = ""Jesus, why all the paperwork?""
+        1 string data = ""なんでこんなに書類があるんだ？""
        [5]
-        1 string data = ""You betcha. Here you go!""
+        1 string data = ""もちろん！どうぞ！""
        [6]
-        1 string data = ""Hey, man, I just work here. Do you want your package or not?""
+        1 string data = ""俺はただの配達員ですよ。荷物、受け取りますか？""
        [7]
-        1 string data = ""Give us a call at ITL if you need anything delivered!""
+        1 string data = ""配達が必要ならITLにご連絡ください！""
        [8]
-        1 string data = ""Sorry, yeah. We'll sign.""
+        1 string data = ""ごめん、サインするよ。""
        [9]
-        1 string data = ""Don't need the goddamn attitude, but, yeah, we'll take it.""
+        1 string data = ""その態度はいらないが、まあ、受け取るよ。""
        [10]
-        1 string data = ""Here. Hope it cheers you grumpy mugs up.""
+        1 string data = ""はい。この不機嫌な顔が少しは明るくなるといいですね。""
    [375]
     0 StringTable data
      1 string Filename = "o2001_eidilon"
@@ -70147,9 +70147,9 @@
       1 Array Array (2 items)
        0 int size = 2
        [0]
-        1 string data = ""I am only a tool. I will do what you direct me to do.""
+        1 string data = ""私は道具に過ぎません。指示されたことを実行します。""
        [1]
-        1 string data = ""I have completed the assigned task.""
+        1 string data = ""割り当てられた任務を完了しました。""
    [376]
     0 StringTable data
      1 string Filename = "o2001_longjohn"
@@ -70171,9 +70171,9 @@
       1 Array Array (2 items)
        0 int size = 2
        [0]
-        1 string data = ""You are in need of repair.""
+        1 string data = ""修理が必要です。""
        [1]
-        1 string data = ""You are clearly malfunctioning.""
+        1 string data = ""明らかに故障しています。""
    [377]
     0 StringTable data
      1 string Filename = "x2601_wolverines_companionbarks"
@@ -70191,7 +70191,7 @@
       1 Array Array (1 items)
        0 int size = 1
        [0]
-        1 string data = ""This man has been eaten. The tracks suggest it was wolverines.""
+        1 string data = ""この男は食べられている。足跡からして、クズリの仕業だ。""
    [378]
     0 StringTable data
      1 string Filename = "abilities"
@@ -70469,137 +70469,137 @@
       1 Array Array (66 items)
        0 int size = 66
        [0]
-        1 string data = "Throw to cause massive damage to all targets in the affected area. Leaves behind a hazard that inflicts minor damage and Burning for 3 turns."
+        1 string data = "投げると範囲内の全標的に大ダメージを与える。3ターンの間、軽ダメージと炎上を与えるハザードを残す。"
        [1]
-        1 string data = "Throw to heal a large variety of negative conditions."
+        1 string data = "投げると様々な状態異常を治療する。"
        [2]
-        1 string data = "Use to gain +8 seconds Detection Time, +50% Sneak Attack Damage, and +50% Initiative for 1 turn."
+        1 string data = "使用すると1ターンの間、発見時間+8秒、奇襲ダメージ+50%、イニシアチブ+50%を得る。"
        [3]
-        1 string data = "Deploy Bomb Hopper"
+        1 string data = "ボムホッパー展開"
        [4]
-        1 string data = "Deploys a robotic Bomb Hopper follower that assists in combat. Self-destructs after combat has ended."
+        1 string data = "戦闘を支援するロボットのボムホッパーを展開する。戦闘終了後に自爆する。"
        [5]
-        1 string data = "Use to activate a shield that provides +8 Armor and +100% Holy Radiation Resistance, as well as -0.4 Combat Speed. Lasts 2 turns."
+        1 string data = "使用すると装甲+8、聖なる放射線耐性+100%のシールドを起動するが、戦闘速度-0.4。2ターン持続。"
        [6]
-        1 string data = "Use to remove Holy Radiation."
+        1 string data = "使用すると聖なる放射線を除去する。"
        [7]
-        1 string data = "Throw to remove any hazards in the affected area."
+        1 string data = "投げると範囲内のハザードを全て除去する。"
        [8]
-        1 string data = "Deploys a Flesh Tumor follower that will assist in combat. Dies after combat has ended."
+        1 string data = "戦闘を支援する肉の腫瘍を展開する。戦闘終了後に死亡する。"
        [9]
-        1 string data = "Death Delayed"
+        1 string data = "遅延死"
        [10]
-        1 string data = "Revenge"
+        1 string data = "復讐"
        [11]
-        1 string data = "Rupture"
+        1 string data = "破裂"
        [12]
-        1 string data = "Rocket Barrage"
+        1 string data = "ロケット弾幕"
        [13]
-        1 string data = "Summon Security Turret"
+        1 string data = "セキュリティタレット召喚"
        [14]
-        1 string data = "Summon Recon Bot"
+        1 string data = "偵察ボット召喚"
        [15]
-        1 string data = "Angelic Voice"
+        1 string data = "天使の声"
        [16]
-        1 string data = "Gamma Burst"
+        1 string data = "ガンマバースト"
        [17]
-        1 string data = "Holy Blaze"
+        1 string data = "聖なる炎"
        [18]
-        1 string data = " Holy Blaze"
+        1 string data = " 聖なる炎"
        [19]
-        1 string data = "Radiation Halo"
+        1 string data = "放射線の光輪"
        [20]
-        1 string data = "Inspire Zealotry"
+        1 string data = "狂信を鼓舞"
        [21]
-        1 string data = "Spawn Tumor"
+        1 string data = "腫瘍生成"
        [22]
-        1 string data = "Summon Proto-Drool"
+        1 string data = "プロトドルール召喚"
        [23]
-        1 string data = "Summon Initiate"
+        1 string data = "入信者召喚"
        [24]
-        1 string data = "Eat to restore +100% CON and gain +100% Crit Damage and +2x Crit Chance. Lasts 2 turns. After, gain Holy Radiation x1."
+        1 string data = "食べるとCON+100%回復、クリティカルダメージ+100%、クリティカル率2倍を得る。2ターン持続。その後、聖なる放射線x1を得る。"
        [25]
-        1 string data = "Eat to restore +100% CON and gain +1.0 Combat Speed and +2 AP. Lasts 2 turns. After, gain Holy Radiation x1."
+        1 string data = "食べるとCON+100%回復、戦闘速度+1.0、AP+2を得る。2ターン持続。その後、聖なる放射線x1を得る。"
        [26]
-        1 string data = "Eat to restore +100% CON and gain +100% Evasion and +100% Crit Resistance. Lasts 2 turns. After, gain Holy Radiation x1."
+        1 string data = "食べるとCON+100%回復、回避+100%、クリティカル耐性+100%を得る。2ターン持続。その後、聖なる放射線x1を得る。"
        [27]
-        1 string data = "Scan Intruder"
+        1 string data = "侵入者スキャン"
        [28]
-        1 string data = "Embiggen"
+        1 string data = "巨大化"
        [29]
-        1 string data = "Crank up the power to make targets enlarge instead of shrink, granting +25% CON and +25% Melee Damage, but reducing Evasion by -10%. Lasts 3 turns."
+        1 string data = "出力を上げて対象を縮小ではなく拡大させ、CON+25%、近接ダメージ+25%を付与するが、回避-10%。3ターン持続。"
        [30]
-        1 string data = "Overload"
+        1 string data = "オーバーロード"
        [31]
-        1 string data = "Deals +100% damage in an area around the target and inflicts Power Surge, stunning enemy spawners and robots for 1 turn. Uses 6 ammo."
+        1 string data = "対象周辺に+100%ダメージを与え、パワーサージを付与して敵スポナーとロボットを1ターン気絶させる。弾薬6消費。"
        [32]
-        1 string data = "Bile Blast"
+        1 string data = "胆汁爆発"
        [33]
-        1 string data = "Lets out a massive blast of caustic bile in the area around the wielder, dealing heavy damage to enemies and inflicting Poison."
+        1 string data = "使用者の周囲に腐食性の胆汁を大量に放出し、敵に大ダメージを与えて毒を付与する。"
        [34]
-        1 string data = "Uranium Storm"
+        1 string data = "ウラニウムストーム"
        [35]
-        1 string data = "Fires at each enemy in weapon range, up to a total of 12 enemies. Each bullet fired does 2x its regular damage."
+        1 string data = "武器射程内の各敵に発砲する。最大12体まで。発射された弾丸は通常の2倍のダメージを与える。"
        [36]
-        1 string data = "Thunderstruck"
+        1 string data = "サンダーストラック"
        [37]
-        1 string data = "Strike a target with a lasting electric shock, damaging both them and anyone nearby over 3 turns."
+        1 string data = "対象に持続的な電撃を与え、対象と周囲の者に3ターンの間ダメージを与える。"
        [38]
-        1 string data = "Eat to fully restore CON, but will also irradiate the user."
+        1 string data = "食べるとCONを完全回復するが、使用者も被曝する。"
        [39]
-        1 string data = "Drink to gain +25% Evasion and +10% Critical Chance for 36 turns, but will also irradiate the user."
+        1 string data = "飲むと36ターンの間、回避+25%、クリティカル率+10%を得るが、使用者も被曝する。"
        [40]
-        1 string data = "Create Clone"
+        1 string data = "クローン生成"
        [41]
-        1 string data = "Create a clone from mysterious blue goo."
+        1 string data = "謎の青いスライムからクローンを生成する。"
        [42]
-        1 string data = "Gorilla Pheromones"
+        1 string data = "ゴリラフェロモン"
        [43]
-        1 string data = "Use to become irresistible to animals. Moving near animals has a 25% chance to tame them. Lasts 2 turns."
+        1 string data = "使用すると動物に抗いがたい魅力を発する。動物の近くを移動すると25%の確率で手懐ける。2ターン持続。"
        [44]
-        1 string data = "Drink to gain +25% Melee Damage for 36 turns, but suffer -2 AP for 60 turns afterwards, but increases Holy Radiation level."
+        1 string data = "飲むと36ターンの間、近接ダメージ+25%を得るが、その後60ターンの間AP-2のペナルティを受け、聖なる放射線レベルが上昇する。"
        [45]
-        1 string data = "Eat to go on a magical adventure."
+        1 string data = "食べると魔法の冒険に出かける。"
        [46]
-        1 string data = "Throw to unleash the spirit of Tsoi."
+        1 string data = "投げるとツォイの魂を解き放つ。"
        [47]
-        1 string data = "Radiation Tank"
+        1 string data = "放射線タンク"
        [48]
-        1 string data = "Deals +35% bonus damage.\\n\\n<color=#808080>{0}% Chance:</color> Blows up the target's tank, killing them and leaving behind a Holy Radiation hazard area."
+        1 string data = "+35%のボーナスダメージを与える。\\n\\n<color=#808080>{0}%の確率:</color> 対象のタンクを爆破し、殺害して聖なる放射線のハザードエリアを残す。"
        [49]
-        1 string data = "Slime Sack"
+        1 string data = "粘液袋"
        [50]
-        1 string data = "Instantly kills the target and ruptures its slime sack, damaging and slowing anything nearby."
+        1 string data = "対象を即死させ、粘液袋を破裂させて周囲にダメージを与え減速させる。"
        [51]
-        1 string data = "Deals +25% bonus damage.\\n\\n<color=#808080>{0}% Chance:</color> Stuns the target for 1 turn, preventing it from spawning more Flesh Tumors."
+        1 string data = "+25%のボーナスダメージを与える。\\n\\n<color=#808080>{0}%の確率:</color> 対象を1ターン気絶させ、肉の腫瘍の追加生成を阻止する。"
        [52]
-        1 string data = "Deals +35% bonus damage.\\n\\n<color=#808080>{0}% Chance:</color> Inflicts Bleeding on the target."
+        1 string data = "+35%のボーナスダメージを与える。\\n\\n<color=#808080>{0}%の確率:</color> 対象に出血を付与する。"
        [53]
-        1 string data = "Mouth"
+        1 string data = "口"
        [54]
-        1 string data = "Security Scanner"
+        1 string data = "セキュリティスキャナー"
        [55]
-        1 string data = "\\n\\n<color=#808080>{0}% Chance:</color> Stuns the target for 1 turn, preventing it from summoning reinforcements."
+        1 string data = "\\n\\n<color=#808080>{0}%の確率:</color> 対象を1ターン気絶させ、増援の召喚を阻止する。"
        [56]
-        1 string data = "Lasers"
+        1 string data = "レーザー"
        [57]
-        1 string data = "Sensor"
+        1 string data = "センサー"
        [58]
-        1 string data = "Shell"
+        1 string data = "シェル"
        [59]
-        1 string data = "Particle Emitter"
+        1 string data = "パーティクルエミッター"
        [60]
-        1 string data = "Deals +35% bonus damage.\\n\\n<color=#808080>{0}% Chance:</color> Reduces the target's Armor by 75%."
+        1 string data = "+35%のボーナスダメージを与える。\\n\\n<color=#808080>{0}%の確率:</color> 対象の装甲を75%減少させる。"
        [61]
-        1 string data = "Armageddon"
+        1 string data = "アルマゲドン"
        [62]
-        1 string data = "Sets off a nuclear explosion that devastates anything nearby, including you, and leaves behind a fiery hazard on the ground that inflicts Burning. Must be charged up for 1 turn."
+        1 string data = "自分を含む周囲の全てを壊滅させる核爆発を起こし、炎上を与える炎のハザードを地面に残す。1ターンのチャージが必要。"
        [63]
-        1 string data = "Atomic Blessing"
+        1 string data = "原子の祝福"
        [64]
-        1 string data = "Fallout"
+        1 string data = "放射性降下物"
        [65]
-        1 string data = "Crank up the power to make targets enlarge instead of shrink, granting +35% CON and +35% Melee Damage, but reducing Evasion by -10%. Lasts 3 turns."
+        1 string data = "出力を上げて対象を縮小ではなく拡大させ、CON+35%、近接ダメージ+35%を付与するが、回避-10%。3ターン持続。"
    [379]
     0 StringTable data
      1 string Filename = "characters"
@@ -70909,153 +70909,153 @@
       1 Array Array (74 items)
        0 int size = 74
        [0]
-        1 string data = "Holy Detonation Acolyte"
+        1 string data = "聖なる爆発の侍者"
        [1]
-        1 string data = "Tourmaline"
+        1 string data = "トルマリン"
        [2]
-        1 string data = "Holy Detonation Disciple"
+        1 string data = "聖なる爆発の修道士"
        [3]
-        1 string data = "Radiation Angel"
+        1 string data = "放射線の天使"
        [4]
-        1 string data = "Initiate"
+        1 string data = "入信者"
        [5]
-        1 string data = "Zealot"
+        1 string data = "狂信者"
        [6]
-        1 string data = "Evangelist"
+        1 string data = "福音伝道師"
        [7]
-        1 string data = "Feral Proto-Drool"
+        1 string data = "野生のプロトドルール"
        [8]
-        1 string data = "Feral Flesh Mass"
+        1 string data = "野生の肉塊"
        [9]
-        1 string data = "Radiation Angel"
+        1 string data = "放射線の天使"
        [10]
-        1 string data = "Flesh Tumor"
+        1 string data = "肉の腫瘍"
        [11]
-        1 string data = "Access Hatch"
+        1 string data = "アクセスハッチ"
        [12]
-        1 string data = "Particle Cannon"
+        1 string data = "パーティクルキャノン"
        [13]
-        1 string data = "Father Bezoar"
+        1 string data = "ファーザー・ベゾアール"
        [14]
-        1 string data = "Coolant Tanks"
+        1 string data = "冷却タンク"
        [15]
-        1 string data = "Security Beacon"
+        1 string data = "セキュリティビーコン"
        [16]
-        1 string data = "Recon Bot"
+        1 string data = "偵察ボット"
        [17]
-        1 string data = "Security Turret"
+        1 string data = "セキュリティタレット"
        [18]
-        1 string data = "Abbot Deuterium"
+        1 string data = "修道院長デューテリウム"
        [19]
-        1 string data = "Angel Iridium"
+        1 string data = "エンジェル・イリジウム"
        [20]
-        1 string data = "Night Terror"
+        1 string data = "ナイトテラー"
        [21]
-        1 string data = "Night Terror"
+        1 string data = "ナイトテラー"
        [22]
-        1 string data = "Carbuncle"
+        1 string data = "カーバンクル"
        [23]
-        1 string data = "Benign"
+        1 string data = "ベナイン"
        [24]
-        1 string data = "Metastatic"
+        1 string data = "メタスタティック"
        [25]
-        1 string data = "Vent"
+        1 string data = "通気口"
        [26]
-        1 string data = "Proteus"
+        1 string data = "プロテウス"
        [27]
-        1 string data = "Clone Fabricator"
+        1 string data = "クローン製造機"
        [28]
-        1 string data = "Goiter"
+        1 string data = "ゴイター"
        [29]
-        1 string data = "Mitosis"
+        1 string data = "マイトーシス"
        [30]
-        1 string data = "Bubo"
+        1 string data = "ブボー"
        [31]
-        1 string data = "Polyp"
+        1 string data = "ポリープ"
        [32]
-        1 string data = "Sick Rick"
+        1 string data = "シック・リック"
        [33]
-        1 string data = "Melanoma"
+        1 string data = "メラノーマ"
        [34]
-        1 string data = "Brother Bismuth"
+        1 string data = "ブラザー・ビスマス"
        [35]
-        1 string data = "Boris"
+        1 string data = "ボリス"
        [36]
-        1 string data = "Natasha"
+        1 string data = "ナターシャ"
        [37]
-        1 string data = "Sister Autunite"
+        1 string data = "シスター・オートゥナイト"
        [38]
-        1 string data = "Primordialist Initiate"
+        1 string data = "原初主義者の入信者"
        [39]
-        1 string data = "Primordialist Evangelist"
+        1 string data = "原初主義者の福音伝道師"
        [40]
-        1 string data = "Primordialist Proto-Drool"
+        1 string data = "原初主義者のプロトドルール"
        [41]
-        1 string data = "Initiate Warrior"
+        1 string data = "入信者の戦士"
        [42]
-        1 string data = "Initiate Defender"
+        1 string data = "入信者の防衛者"
        [43]
-        1 string data = "Initiate Enforcer"
+        1 string data = "入信者の執行者"
        [44]
-        1 string data = "Initiate Soldier"
+        1 string data = "入信者の兵士"
        [45]
-        1 string data = "Initiate Marksman"
+        1 string data = "入信者の狙撃手"
        [46]
-        1 string data = "Zealot Crusader"
+        1 string data = "狂信者の十字軍"
        [47]
-        1 string data = "Zealot Blaster"
+        1 string data = "狂信者のブラスター"
        [48]
-        1 string data = "Zealot Enforcer"
+        1 string data = "狂信者の執行者"
        [49]
-        1 string data = "Zealot Gunner"
+        1 string data = "狂信者の砲手"
        [50]
-        1 string data = "Zealot Purifier"
+        1 string data = "狂信者の浄化者"
        [51]
-        1 string data = "Zealot Soldier"
+        1 string data = "狂信者の兵士"
        [52]
-        1 string data = "Tumor Door"
+        1 string data = "腫瘍のドア"
        [53]
-        1 string data = "Flesh Prince"
+        1 string data = "フレッシュプリンス"
        [54]
-        1 string data = "Radiation Pipe"
+        1 string data = "放射線パイプ"
        [55]
-        1 string data = "Hydraulics Pump"
+        1 string data = "油圧ポンプ"
        [56]
-        1 string data = "Water Pump"
+        1 string data = "水ポンプ"
        [57]
-        1 string data = "Ranger Turret"
+        1 string data = "レンジャータレット"
        [58]
-        1 string data = "Tumor Crate"
+        1 string data = "腫瘍の木箱"
        [59]
-        1 string data = "Stubborn Tumor Crate"
+        1 string data = "頑固な腫瘍の木箱"
        [60]
-        1 string data = "System Announcer"
+        1 string data = "システムアナウンサー"
        [61]
-        1 string data = "Tulane Blacktop"
+        1 string data = "テュレーン・ブラックトップ"
        [62]
-        1 string data = "Pustule"
+        1 string data = "膿疱"
        [63]
-        1 string data = "Uber-Clone"
+        1 string data = "ウーバークローン"
        [64]
-        1 string data = "Energy Syphon"
+        1 string data = "エネルギーサイフォン"
        [65]
-        1 string data = "Pressure Sensor"
+        1 string data = "圧力センサー"
        [66]
-        1 string data = "Caul"
+        1 string data = "コール"
        [67]
-        1 string data = "Strontium"
+        1 string data = "ストロンチウム"
        [68]
-        1 string data = "Crate"
+        1 string data = "木箱"
        [69]
-        1 string data = "Vehicle Workbench"
+        1 string data = "車両作業台"
        [70]
-        1 string data = "Mound of Shit"
+        1 string data = "糞の山"
        [71]
-        1 string data = "Container"
+        1 string data = "コンテナ"
        [72]
-        1 string data = "Feral Pitchblend"
+        1 string data = "野生のピッチブレンド"
        [73]
-        1 string data = "Core Control Console"
+        1 string data = "コア制御コンソール"
    [380]
     0 StringTable data
      1 string Filename = "gui"
@@ -71129,35 +71129,35 @@
       1 Array Array (15 items)
        0 int size = 15
        [0]
-        1 string data = "Radioactive Waste Barrel"
+        1 string data = "放射性廃棄物ドラム缶"
        [1]
-        1 string data = "You’ve successfully purchased Cult of the Holy Detonation! The Cheyenne Mountain mission will become active once you load into the World Map with a level 16 party."
+        1 string data = "Cult of the Holy Detonationの購入が完了しました！レベル16以上のパーティでワールドマップに入ると、シャイアンマウンテンミッションが有効になります。"
        [2]
-        1 string data = "Toxic Waste Pipe"
+        1 string data = "有毒廃棄物パイプ"
        [3]
-        1 string data = "Crystal Shards"
+        1 string data = "結晶の破片"
        [4]
-        1 string data = "Bone Pile"
+        1 string data = "骨の山"
        [5]
-        1 string data = "Mysterious Hole"
+        1 string data = "謎の穴"
        [6]
-        1 string data = "None"
+        1 string data = "なし"
        [7]
-        1 string data = "Gorilla Corpse"
+        1 string data = "ゴリラの死体"
        [8]
-        1 string data = "Holy Radiation"
+        1 string data = "聖なる放射線"
        [9]
-        1 string data = "Field Crystal Housing"
+        1 string data = "フィールドクリスタルハウジング"
        [10]
-        1 string data = "Monitor Bank"
+        1 string data = "モニターバンク"
        [11]
-        1 string data = "Cheyenne Power Conduit"
+        1 string data = "シャイアン電力導管"
        [12]
-        1 string data = "Energy Syphon"
+        1 string data = "エネルギーサイフォン"
        [13]
-        1 string data = "Loading Dock Door"
+        1 string data = "積み込みドックのドア"
        [14]
-        1 string data = "Crate"
+        1 string data = "木箱"
    [381]
     0 StringTable data
      1 string Filename = "interactables"
@@ -71315,77 +71315,77 @@
       1 Array Array (36 items)
        0 int size = 36
        [0]
-        1 string data = "Pressure Sensor"
+        1 string data = "圧力センサー"
        [1]
-        1 string data = "This midden heap is made of shit, decomposing cardboard, random trash, tens of thousands of empty tin cans, and a few human skeletons.  "
+        1 string data = "このゴミ山は糞、腐った段ボール、雑多なゴミ、数万個の空き缶、そして数体の人骨でできている。"
        [2]
-        1 string data = "From the depths of this hole comes the vile stench of six generations of canned food diets."
+        1 string data = "この穴の奥から、6世代分の缶詰食生活の悪臭が漂ってくる。"
        [3]
-        1 string data = "This sign reads "Security Level.""
+        1 string data = "この標識には"セキュリティレベル"と書かれている。"
        [4]
-        1 string data = "This sign reads "Research Level.""
+        1 string data = "この標識には"研究レベル"と書かれている。"
        [5]
-        1 string data = "This sign reads "Loading Dock.""
+        1 string data = "この標識には"積み込みドック"と書かれている。"
        [6]
-        1 string data = "This sign reads "The Holy Detonation.""
+        1 string data = "この標識には"聖なる爆発"と書かれている。"
        [7]
-        1 string data = "This sign reads "Power Storage Facility.""
+        1 string data = "この標識には"電力貯蔵施設"と書かれている。"
        [8]
-        1 string data = "Mitosis' face is covered in tears and blood. She appears to have stabbed herself in the heart."
+        1 string data = "マイトーシスの顔は涙と血で覆われている。自分で心臓を刺したようだ。"
        [9]
-        1 string data = "Goiter's face is frozen in shock. He appears to have died of a heart attack."
+        1 string data = "ゴイターの顔はショックで凍りついている。心臓発作で死んだようだ。"
        [10]
-        1 string data = "Unlike the other bodies, Sick Rick's face has turned pale and slightly blue. There is a deep gash under his throat."
+        1 string data = "他の死体と違い、シック・リックの顔は青白くなっている。喉の下に深い傷がある。"
        [11]
-        1 string data = "Bubo's face is crooked and his leg is bent in the wrong direction. He appears to have overdosed and spasmed uncontrollably. "
+        1 string data = "ブボーの顔は歪み、脚は異常な方向に曲がっている。過剰摂取して制御不能な痙攣を起こしたようだ。"
        [12]
-        1 string data = "Melanoma's body is drenched in blood. She appears to have smashed her own head into the ground repeatedly."
+        1 string data = "メラノーマの体は血まみれだ。自分で頭を地面に何度も叩きつけたようだ。"
        [13]
-        1 string data = "Benign's face is serene. There is an empty bottle of pills beside her."
+        1 string data = "ベナインの顔は穏やかだ。空の薬瓶が横にある。"
        [14]
-        1 string data = "Lectern"
+        1 string data = "講演台"
        [15]
-        1 string data = "The holy book on top of this lectern is entitled The Collected Teaching of Enrico Fermi."
+        1 string data = "この講演台の上にある聖典は「エンリコ・フェルミ教義集」と題されている。"
        [16]
-        1 string data = "The steam from this pipe makes your geiger counter click like an angry cricket."
+        1 string data = "このパイプから出る蒸気で、ガイガーカウンターが怒ったコオロギのようにカチカチ鳴る。"
        [17]
-        1 string data = "This repaired steam pipe still emits some faint residual radiation. "
+        1 string data = "この修理された蒸気パイプは、まだかすかな残留放射線を放出している。"
        [18]
-        1 string data = "The water dripping into in this bucket glows with radiation and has a fetid smell."
+        1 string data = "このバケツに滴る水は放射線で光り、悪臭を放っている。"
        [19]
-        1 string data = "The water dripping into in this bucket is clean and fresh."
+        1 string data = "このバケツに滴る水は清潔で新鮮だ。"
        [20]
-        1 string data = "These pipes are spraying irradiated water into this pool from an unkown source."
+        1 string data = "これらのパイプは、不明な発生源から放射能汚染水をこのプールに噴射している。"
        [21]
-        1 string data = "These pipes are no longer spraying irradiated water into this pool."
+        1 string data = "これらのパイプはもうこのプールに放射能汚染水を噴射していない。"
        [22]
-        1 string data = "A miniature replica of the Holy Detonation from Cheyenne Mountain - which now powers all of Colorado Springs."
+        1 string data = "シャイアンマウンテンの聖なる爆発のミニチュアレプリカ。現在コロラドスプリングス全体に電力を供給している。"
        [23]
-        1 string data = "A miniature replica of the Holy Detonation from Cheyenne Mountain - as it was before the Rangers snuffed it out for the safety of Colorado Springs."
+        1 string data = "シャイアンマウンテンの聖なる爆発のミニチュアレプリカ。レンジャーがコロラドスプリングスの安全のために消し止める前の状態。"
        [24]
-        1 string data = "A miniature replica of the Holy Detonation from Cheyenne Mountain - which now powers all of Colorado Springs (a gift of the United Primordialist Evangelical Center and Day Spa)."
+        1 string data = "シャイアンマウンテンの聖なる爆発のミニチュアレプリカ。現在コロラドスプリングス全体に電力を供給している（原初主義者連合福音センター＆デイスパからの贈り物）。"
        [25]
-        1 string data = "A hologram of the Proteus, leader of the Primordialists, whom the Rangers stopped from unleashing a nuclear explosion on all of Colorado."
+        1 string data = "原初主義者のリーダー、プロテウスのホログラム。レンジャーはコロラド全土に核爆発を起こすことを阻止した。"
        [26]
-        1 string data = "Pipe"
+        1 string data = "パイプ"
        [27]
-        1 string data = "Bucket"
+        1 string data = "バケツ"
        [28]
-        1 string data = "Sign"
+        1 string data = "標識"
        [29]
-        1 string data = "Mound of Shit"
+        1 string data = "糞の山"
        [30]
-        1 string data = "The monitors display various locations the Rangers have visited in Colorado - even Ranger HQ. These creeps have been watching your every move!"
+        1 string data = "モニターにはレンジャーがコロラドで訪れた様々な場所が表示されている。レンジャー本部さえも。この連中はあなたの全ての動きを監視していた！"
        [31]
-        1 string data = "McGinty was right. No bars could hold him. But a worm turret stopped him cold."
+        1 string data = "マッギンティは正しかった。どんな檻も彼を閉じ込められない。だがワームタレットが彼を止めた。"
        [32]
-        1 string data = "It’s possible the Nucleists' mutation experiments killed this poor Payaso. She looks kinda funny."
+        1 string data = "ニュークリスト達の突然変異実験がこの哀れなパヤソを殺した可能性がある。彼女はちょっと変な顔をしている。"
        [33]
-        1 string data = "Fifty eggs. Nobody can eat fifty eggs."
+        1 string data = "50個の卵。誰も50個の卵は食べられない。"
        [34]
-        1 string data = "Stupid mutants! Did you think I’d be here long enough for you to try your disgusting experiments on me? No cell can hold Muscles McGinty!"
+        1 string data = "馬鹿なミュータント共め！お前らの気持ち悪い実験を試すほど長くここにいると思ったか？どんな独房もマッスルズ・マッギンティを閉じ込められない！"
        [35]
-        1 string data = "These monitors are playing clips from the Joker's room on repeat. Better turn away before you see any familiar faces."
+        1 string data = "これらのモニターはジョーカーの部屋の映像を繰り返し再生している。見知った顔を見る前に目を背けた方がいい。"
    [382]
     0 StringTable data
      1 string Filename = "items"
