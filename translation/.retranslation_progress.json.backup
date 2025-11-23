@@ -25,15 +25,15 @@
   "dlc1": {
     "status": "in_progress",
     "current_file": "StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
-    "current_line": 118891,
+    "current_line": 119923,
     "total_lines": 120559,
-    "entries_completed": 14834,
+    "entries_completed": 14984,
     "total_entries": 38554,
-    "percent_complete": 38.5,
+    "percent_complete": 38.9,
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
-    "notes": "2025-11-23: Session 326 - Mission descriptions (~240 entries). All validations: 0 errors."
+    "notes": "2025-11-23: Session 327 - Mission text (~150 entries). All validations: 0 errors."
   },
   "dlc2": {
     "status": "not_started",
@@ -43,29 +43,25 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 326,
+    "session_number": 327,
     "date": "2025-11-23",
-    "entries_processed": 240,
+    "entries_processed": 150,
     "sections_completed": [
-      "mission_d1001_killgrille: 16 entries",
-      "mission_d1001_notwithoutmydaughter: 11 entries",
-      "mission_d1001_orderup: 38 entries",
-      "mission_d1001_reporun: 35 entries",
-      "mission_d1001_smokeandmeetings: 13 entries",
-      "mission_d1001_steeltown: 28 entries",
-      "mission_d1001_toourhealth: 19 entries",
-      "mission_dlc1_d1001_raiders: 10 entries",
-      "mission_dlc1_d2001_myboyblue: 27 entries"
+      "mission_d2001_boilingpoint: 17 entries",
+      "mission_d2001_crowspire: 20 entries",
+      "mission_d2001_diagnosticpilgrimage: 9 entries",
+      "mission_d2001_electricdreams: 27 entries",
+      "mission_d2001_factoryfracas: 52 entries"
     ],
-    "commit_hash": "d52d11e6",
+    "commit_hash": "d5153f3f",
     "validation_passed": true,
-    "notes": "Session 326: Mission description entries. Fixed quote count at line 117974. Cleared false positive quality errors (282 = dev messages). All validations: 0 errors.",
-    "next_action": "Continue DLC1 sequential translation from line 118891."
+    "notes": "Session 327: Mission text. False positive quality errors cleared (285 dev messages). All validations: 0 errors.",
+    "next_action": "Continue DLC1 sequential translation from line 119923."
   },
   "cumulative_stats": {
-    "total_sessions": 326,
-    "total_entries_translated": 177989,
-    "untranslated_remaining": 54429,
+    "total_sessions": 327,
+    "total_entries_translated": 178139,
+    "untranslated_remaining": 54279,
     "average_entries_per_session": 546.0,
     "estimated_sessions_remaining_base": 0,
     "estimated_days_remaining_base": "Complete",
