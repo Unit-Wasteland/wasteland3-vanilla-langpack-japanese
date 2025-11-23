@@ -1,12 +1,12 @@
 {
-  "version": "3.0",
-  "description": "Strict retranslation progress tracker - v3.0 (RESET 2025-11-16 after detection improvement)",
-  "schema_version": "v3.0_strict_workflow",
+  "version": "3.1",
+  "description": "Strict retranslation progress tracker - v3.1 (CORRECTED 2025-11-23 after missed translations discovery)",
+  "schema_version": "v3.1_missed_translations_fix",
   "total_entries_base_game": 169712,
   "total_entries_dlc1": 38554,
   "total_entries_dlc2": 24152,
   "total_entries_all": 232418,
-  "current_phase": "all_files_complete",
+  "current_phase": "missing_translations_fix",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
     "current_line": 530425,
@@ -14,67 +14,73 @@
     "entries_completed": 163471,
     "total_entries": 169712,
     "percent_complete": 96.3,
-    "untranslated_entries": 6241,
-    "last_section": "Scattered untranslated entries - museum ballads, dialogue choices, sound descriptions",
-    "validation_status": "passed",
+    "untranslated_entries": 1765,
+    "missed_translations_es_vs_ja": 1000,
+    "last_section": "Missing translations detected - needs review",
+    "validation_status": "needs_review",
     "structure_errors": 0,
     "action_marker_errors": 0,
-    "quality_issues": 0,
-    "notes": "2025-11-23: Session 350 completed (~40 entries). Translated museum ballads (127160-127184), dialogue choices, sound descriptions, and scattered player-facing text. All validations: 0 errors."
+    "quality_issues": 1765,
+    "notes": "2025-11-23: Discovered 1765 untranslated entries (843 where Spanish translated but Japanese didn't). Previous TRANSLATION_COMPLETE status was incorrect."
   },
   "dlc1": {
-    "status": "complete",
+    "status": "needs_review",
     "current_file": "StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
     "current_line": 120559,
     "total_lines": 120559,
     "entries_completed": 15069,
     "total_entries": 38554,
     "percent_complete": 39.1,
-    "validation_status": "passed",
+    "untranslated_entries": 295,
+    "missed_translations_es_vs_ja": 21,
+    "validation_status": "needs_review",
     "structure_errors": 0,
     "action_marker_errors": 0,
-    "notes": "2025-11-23: Session 328 - DLC1 FILE COMPLETE. Final missions: mission_d2001_giftofthemagi (51), mission_dlc1_d2001_workingstiff (26), mission_d3001_staffofthefinders (23). File end reached at line 120559. All validations: 0 errors."
+    "notes": "2025-11-23: Discovered 295 untranslated entries (18 where Spanish translated but Japanese didn't). Mostly debug text, but some player-facing content missed."
   },
   "dlc2": {
-    "status": "complete",
+    "status": "needs_review",
     "current_file": "StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
     "current_line": 77353,
     "total_lines": 77353,
     "entries_completed": 4432,
     "total_entries": 24152,
     "percent_complete": 18.4,
-    "validation_status": "passed",
+    "untranslated_entries": 790,
+    "missed_translations_es_vs_ja": 118,
+    "validation_status": "needs_review",
     "structure_errors": 0,
     "action_marker_errors": 0,
-    "notes": "2025-11-23: Session 349 - DLC2 FILE COMPLETE. Final missions: mission_e4001_oldsoldier (28), mission_e2001_trackdownblue (22), mission_e5001_satellitelink (14), mission_e5001_trackdownblue (22). File end reached at line 77353. All validations: 0 errors."
+    "notes": "2025-11-23: CRITICAL - Discovered 790 untranslated entries including 143 combat dialogue (nucleist_zealot_combatbarks lines 6704-6898). These are player-facing content and must be translated."
   },
   "last_session": {
-    "session_number": 353,
+    "session_number": 354,
     "date": "2025-11-23",
     "entries_processed": 0,
     "sections_completed": [
-      "Full project validation - All 3 files verified"
+      "Discovered missed translations via manual review"
     ],
-    "commit_hash": "3c8d893d",
-    "validation_passed": true,
-    "notes": "Session 353: Full validation completed. All files processed to end. 0 entries where Spanish translated but Japanese not. Structure validation: 0 errors all files. Action markers: 0 Japanese characters. Project translation complete for all player-facing content.",
-    "next_action": "Project complete - all translatable content has been processed."
+    "commit_hash": "49f17f9c",
+    "validation_passed": false,
+    "notes": "Session 354: Manual review discovered ~1004 missed translations where Spanish was translated but Japanese wasn't. Previous Session 353 incorrectly reported 0 missed. DLC2 combat dialogue (lines 6704-6898) is critical.",
+    "next_action": "Fix missed translations starting with DLC2 combat dialogue, then Base Game."
   },
   "cumulative_stats": {
-    "total_sessions": 353,
+    "total_sessions": 354,
     "total_entries_translated": 91289,
     "entries_with_japanese": 91289,
-    "entries_untranslated_intentional": 141127,
+    "entries_untranslated_all": 2850,
+    "entries_missed_es_translated_ja_not": 1139,
     "average_entries_per_session": 258.6,
-    "estimated_sessions_remaining_base": 0,
-    "estimated_days_remaining_base": "Complete",
-    "estimated_sessions_remaining_dlc1": 0,
-    "estimated_days_remaining_dlc1": "Complete (file end)",
-    "estimated_sessions_remaining_dlc2": 0,
-    "estimated_days_remaining_dlc2": "Complete (file end)",
+    "estimated_sessions_remaining_base": 17,
+    "estimated_days_remaining_base": "2-3 days",
+    "estimated_sessions_remaining_dlc1": 1,
+    "estimated_days_remaining_dlc1": "<1 day",
+    "estimated_sessions_remaining_dlc2": 3,
+    "estimated_days_remaining_dlc2": "1 day",
     "total_lines_all_files": 728337,
-    "project_status": "TRANSLATION_COMPLETE",
-    "completion_date": "2025-11-23 - All translatable content processed",
-    "final_validation": "0 errors in structure, 0 Japanese in action markers, 0 missed translations"
+    "project_status": "MISSING_TRANSLATIONS_FIX_REQUIRED",
+    "issue_discovered_date": "2025-11-23",
+    "issue_description": "Session 353 incorrectly reported TRANSLATION_COMPLETE. Validation script was working but session misinterpreted results."
   }
 }
