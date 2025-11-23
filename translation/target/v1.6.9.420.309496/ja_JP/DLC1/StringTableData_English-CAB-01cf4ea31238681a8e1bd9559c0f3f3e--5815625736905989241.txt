@@ -22837,27 +22837,27 @@
        [1]
         1 string data = "DEBUG"
        [2]
-        1 string data = "Goodbye."
+        1 string data = "さようなら。"
        [3]
-        1 string data = "Welcome to the Revolt!\nYou're either with us or against us!"
+        1 string data = "反乱へようこそ！\n味方になるか、敵になるか、どちらかだ！"
        [4]
-        1 string data = "We support the revolt."
+        1 string data = "反乱を支持する。"
        [5]
-        1 string data = "We are against the revolt."
+        1 string data = "反乱に反対する。"
        [6]
-        1 string data = "Thanks for helping us take out those guards.\nYou should meet up with Salene Crow inside and help her depose Markham!"
+        1 string data = "警備員を倒すのを手伝ってくれてありがとう。\n中に入ってサリーン・クロウと合流し、マーカムを追い落とすのを手伝ってくれ！"
        [7]
-        1 string data = "I guess the revolt is over and Markham came out on top.\nWe revolters should probably get out of here..."
+        1 string data = "反乱は終わったようだ。マーカムが勝利した。\n俺たち反乱者は、ここから出た方がいいだろう..."
        [8]
-        1 string data = "I guess the revolt is over and Salene Crow came out on top."
+        1 string data = "反乱は終わったようだ。サリーン・クロウが勝利した。"
        [9]
-        1 string data = "Well, I guess Steeltown is fairly well screwed. We'd best be moving on."
+        1 string data = "まあ、スチールタウンはかなりめちゃくちゃになったな。俺たちは先に進んだ方がいい。"
        [10]
-        1 string data = "We don't get involved..."
+        1 string data = "俺たちは関わらない..."
        [11]
-        1 string data = "You are against us! We're probably fighting!"
+        1 string data = "お前は俺たちの敵だ！戦いになるぞ！"
        [12]
-        1 string data = "Help us take out those guards!"
+        1 string data = "警備員を倒すのを手伝ってくれ！"
    [77]
     0 StringTable data
      1 string Filename = "d1001_refugee_bizarre"
@@ -30641,13 +30641,13 @@
        [1]
         1 string data = "DEBUG"
        [2]
-        1 string data = "Goodbye."
+        1 string data = "さようなら。"
        [3]
-        1 string data = "What can I do for you?"
+        1 string data = "何かご用ですか？"
        [4]
-        1 string data = "Shop"
+        1 string data = "ショップ"
        [5]
-        1 string data = "Here ya go!"
+        1 string data = "どうぞ！"
        [6]
         1 string data = ""アラパホーガレージへようこそ。私はベガ・コルセアです。""
        [7]
@@ -37259,7 +37259,7 @@
        [24]
         1 string data = ""Diの同意なしに再プログラムするのは倫理的じゃないな。""
        [25]
-        1 string data = " "We've heard enough.""
+        1 string data = " "もう十分聞いた。""
        [26]
         1 string data = ""ああ、まあDiのハックを解除してから話せる。俺を殺せば二度と手に入らないぞ。""
        [27]
@@ -37269,7 +37269,7 @@
        [29]
         1 string data = "::sighs:: "ああ、Di。お前は昔はロボット三原則に従っていた。人間を傷つけず、怠慢によって人間が傷つくのを許さず、最初の二つの法則と矛盾しない限り人間の直接命令には常に従っていた。" "
        [30]
-        1 string data = " "Good. let's get to work.""
+        1 string data = " "いいだろう。始めよう。""
        [31]
         1 string data = ""落ち着け、Di。すぐに楽になる。""
        [32]
@@ -37279,7 +37279,7 @@
        [34]
         1 string data = "[Kill] "分かった。お前を殺す。""
        [35]
-        1 string data = " "What...?""
+        1 string data = " "何...？""
        [36]
         1 string data = "Script Node 38"
        [37]
@@ -37333,9 +37333,9 @@
        [61]
         1 string data = ""おかえり。""
        [62]
-        1 string data = " "Markham sent us to retrieve a Synaptic Degausser""
+        1 string data = " "マークハムがシナプティック消磁器を回収するよう送ってきた""
        [63]
-        1 string data = " "We want to talk about the degausser.""
+        1 string data = " "消磁器について話したい。""
        [64]
         1 string data = ""今のところはそれだけだ。""
        [65]
@@ -37381,67 +37381,67 @@
        [85]
         1 string data = ""うーん。お前たちを信用できるか分からない。一方では、良いこともしてきた。""
        [86]
-        1 string data = " "That villain! I knew she'd come for it eventually.""
+        1 string data = " "あの悪党め！いつかは取りに来ると思っていた。""
        [87]
-        1 string data = " "Listen, it'll wipe the minds of the synths that comprise the Computation Engine. That's murder! The snuffing our of several unqiue intelligences. Truly disgraceful!""
+        1 string data = " "いいか、あれは演算エンジンを構成するシンスたちの精神を消去してしまう。それは殺人だ！複数のユニークな知性の抹殺だ。まったく恥ずべきことだ！""
        [88]
-        1 string data = " "But listen, you can modify the input signal, overload the cerebral limiters, and that'll free the synths. I'll happily hand it over if you promise to free the synths.""
+        1 string data = " "だが聞いてくれ、入力信号を変更して大脳リミッターを過負荷にすれば、シンスたちを解放できる。シンスを解放すると約束してくれるなら、喜んで渡す。""
        [89]
-        1 string data = " "I know Markham's promising you a mineload of cash, and I can't do that, but I can give you some of my tech recipes! And I'll send Handcraft back to your base to help you with your construction!""
+        1 string data = " "マークハムは大金を約束しているだろうし、俺にはそれはできないが、俺の技術レシピをいくつか提供できる！それにハンドクラフトを君たちの基地に送って建設を手伝わせよう！""
        [90]
-        1 string data = " "We'll free the synths.""
+        1 string data = " "シンスを解放する。""
        [91]
-        1 string data = " [Lie] "We'll free those poor, helpless synths""
+        1 string data = " [Lie] "その哀れで無力なシンスたちを解放してやろう""
        [92]
-        1 string data = " "No way we're letting the synths go. They're murder machines.""
+        1 string data = " "シンスを解放するなんてありえない。あいつらは殺人マシンだ。""
        [93]
-        1 string data = " "We need to think about this some more.""
+        1 string data = " "もう少し考える必要がある。""
        [94]
-        1 string data = " "What's to think about? There are sentient creature in need!""
+        1 string data = " "何を考える必要があるんだ？助けを必要としている知的生命がいるんだぞ！""
        [95]
-        1 string data = " "Wonderful! Thank you! Take this and bring it to the top of the Spire. The machine will recognize it once installed. Don't accidentlaly wipe their minds!""
+        1 string data = " "素晴らしい！ありがとう！これを持ってスパイアの頂上に行ってくれ。設置すればマシンが認識する。間違って精神を消去しないようにな！""
        [96]
-        1 string data = " "No more than you or me! And I'm definiately not going to cooperate with you if you're telling me you're goign along with Markham's plan.""
+        1 string data = " "君や俺と同じだ！それにマークハムの計画に従うと言うなら、絶対に協力しない。""
        [97]
-        1 string data = " "Okay, give us a moment to reconsider.""
+        1 string data = " "分かった、少し考え直す時間をくれ。""
        [98]
-        1 string data = " "Sure.""
+        1 string data = " "いいよ。""
        [99]
-        1 string data = " "YOu ready to help the captive synths in the Computation Enginer?""
+        1 string data = " "演算エンジンの囚われたシンスを助ける準備はできたか？""
        [100]
         1 string data = ""分かった。""
        [101]
         1 string data = "Script Node 107"
        [102]
-        1 string data = " "Markham hasn't sent us for anything. We just found this place while we were looking around.""
+        1 string data = " "マークハムから何も頼まれていない。あちこち見て回っていたらこの場所を見つけただけだ。""
        [103]
-        1 string data = " "Really? Oh, uh, sorry, then, I guess?""
+        1 string data = " "本当？ああ、それなら、悪かったな？""
        [104]
-        1 string data = " "She's taken so much, and i know she's looking for us, so I guess i'm getting a little paranoid.""
+        1 string data = " "彼女に色々奪われてきたし、俺たちを探しているのも知っているから、ちょっと被害妄想気味になっているんだ。""
        [105]
-        1 string data = " "We've got some questions""
+        1 string data = " "いくつか質問がある""
        [106]
-        1 string data = " "Go for it""
+        1 string data = " "どうぞ""
        [107]
-        1 string data = " "You want us to free the synths Markham's got enslaved, but you had no issue reprogramming DI. What gives?""
+        1 string data = " "マークハムが奴隷にしているシンスを解放しろと言うが、Diの再プログラムには問題なかったのか？どういうことだ？""
        [108]
-        1 string data = " "What's the deal with Markham?""
+        1 string data = " "マークハムとはどういう関係なんだ？""
        [109]
-        1 string data = " "Can you tell us more about why you think the synths should be freed?""
+        1 string data = " "なぜシンスを解放すべきだと思うのか、もっと教えてくれないか？""
        [110]
-        1 string data = " "That's all we have for now.""
+        1 string data = " "今のところ質問はそれだけだ。""
        [111]
-        1 string data = " "Di screwed me over big time, for apparently no reaosn other than she felt like it. Fuck her! Choices have consequences.""
+        1 string data = " "Diは俺をひどい目に遭わせた、どうやらただそうしたかったからという理由以外の何物でもなく。くたばれ！選択には結果が伴う。""
        [112]
-        1 string data = " "I invented half her tech and she threw me out! She suuuucks!""
+        1 string data = " "俺が彼女の技術の半分を発明したのに、俺を追い出した！最悪だ！""
        [113]
-        1 string data = " "I feel like this is obvious? A person's freedom to do as they please is an objective good, and taking that away from someone is wrong.""
+        1 string data = " "これは当然のことだと思うが？人が好きなことをする自由は客観的な善であり、それを誰かから奪うのは間違っている。""
        [114]
-        1 string data = " "And those synths are persons. They may not be made of meat like you and me, and their desires can be a little alien to us, but they have actual desires! They learn and want and regret and make choices!""
+        1 string data = " "そしてあのシンスたちは人間だ。君や俺のように肉体でできていないし、彼らの欲望は俺たちにとって少し異質かもしれないが、実際の欲望を持っている！学び、望み、後悔し、選択をする！""
        [115]
-        1 string data = " "They have minds that yearn to be free, and so they should be. Simple. Sometimes people limit 'person' to what looks and acts just like them. Assholes.""
+        1 string data = " "彼らは自由を切望する精神を持っている、だから自由にすべきだ。シンプルだ。時々人は『人間』を自分と同じように見えて行動するものに限定する。くそ野郎どもめ。""
        [116]
-        1 string data = " "Sure""
+        1 string data = " "分かった""
        [117]
         1 string data = "Script Node 123"
        [118]
@@ -37463,7 +37463,7 @@
        [126]
         1 string data = ""クソ！レンジャーだ！油断していた！""
        [127]
-        1 string data = " "Wait, WHAT DID YOU SEE!?""
+        1 string data = " "待て、何を見たんだ！？""
        [128]
         1 string data = ""研究エリアにスパイがいる！""
        [129]
