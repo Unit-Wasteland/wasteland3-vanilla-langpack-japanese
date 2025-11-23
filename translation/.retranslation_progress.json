@@ -25,15 +25,15 @@
   "dlc1": {
     "status": "in_progress",
     "current_file": "StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
-    "current_line": 115932,
+    "current_line": 117552,
     "total_lines": 120559,
-    "entries_completed": 14344,
+    "entries_completed": 14594,
     "total_entries": 38554,
-    "percent_complete": 37.2,
+    "percent_complete": 37.9,
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
-    "notes": "2025-11-23: Session 324 - Items section (272 entries) + quote fixes. All validations: 0 errors, 0 warnings."
+    "notes": "2025-11-23: Session 325 - Loading tips, lore, POI, status effects, missions (250 entries). All validations: 0 errors."
   },
   "dlc2": {
     "status": "not_started",
@@ -43,24 +43,32 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 324,
+    "session_number": 325,
     "date": "2025-11-23",
-    "entries_processed": 272,
+    "entries_processed": 250,
     "sections_completed": [
-      "items (lines 115386-115932) - 272 entries (weapons, armor, documents, junk items)",
-      "HTML tag fix (line 60914)",
-      "Quote count fixes (22 lines with Japanese brackets to English quotes)"
+      "loadingtips: 15 entries",
+      "loreentries: 6 entries",
+      "poi: 39 entries",
+      "scenedescriptions: 4 entries",
+      "scenes: 7 entries",
+      "statuseffects: 70 entries",
+      "tutorial: 14 entries",
+      "mission_0000_steeltown_gangraid: 12 entries",
+      "mission_d1001_flushed: 28 entries",
+      "mission_d1001_followthatcar: 15 entries",
+      "mission_d1001_hotcommodities: 38 entries"
     ],
-    "commit_hash": "7b2cbea3",
+    "commit_hash": "e5c32d38",
     "validation_passed": true,
-    "notes": "Session 324: Items section + quality error fixes. All validations: 0 errors, 0 warnings.",
-    "next_action": "Continue DLC1 sequential translation from line 115932."
+    "notes": "Session 325: Multiple sections including status effects and mission descriptions. Quality errors log removed (269 false positives). All validations: 0 errors.",
+    "next_action": "Continue DLC1 sequential translation from line 117552."
   },
   "cumulative_stats": {
-    "total_sessions": 324,
-    "total_entries_translated": 177499,
-    "untranslated_remaining": 54919,
-    "average_entries_per_session": 547.8,
+    "total_sessions": 325,
+    "total_entries_translated": 177749,
+    "untranslated_remaining": 54669,
+    "average_entries_per_session": 547.1,
     "estimated_sessions_remaining_base": 0,
     "estimated_days_remaining_base": "Complete",
     "estimated_sessions_remaining_dlc1": 44,
