@@ -25,15 +25,15 @@
   "dlc1": {
     "status": "in_progress",
     "current_file": "StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
-    "current_line": 82308,
+    "current_line": 84246,
     "total_lines": 120559,
-    "entries_completed": 10311,
+    "entries_completed": 10681,
     "total_entries": 38554,
-    "percent_complete": 26.7,
+    "percent_complete": 27.7,
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
-    "notes": "2025-11-23: Session 306 - model orb, lightning shamans, Low Volt (187 entries). d3001_int_console_modelorb, d3001_int_console_whiskey, d3001_lightningshamans, d3001_lightningshamans_gatekeeper, d3001_lowvolt. All validations: 0 errors, 2 warnings."
+    "notes": "2025-11-23: Session 307 - orb altar, petitioner, journal, sparksinger (370 entries). d3001_orb_altar, d3001_petitioner, d3001_researchersjournal, d3001_sparksinger. All validations: 0 errors, 2 warnings."
   },
   "dlc2": {
     "status": "not_started",
@@ -43,25 +43,24 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 306,
+    "session_number": 307,
     "date": "2025-11-23",
-    "entries_processed": 187,
+    "entries_processed": 370,
     "sections_completed": [
-      "d3001_int_console_modelorb (lines 81188-81210) - orb terminal interface",
-      "d3001_int_console_whiskey (lines 81232-81234) - console info",
-      "d3001_lightningshamans (lines 81352-81402) - shaman dialogue",
-      "d3001_lightningshamans_gatekeeper (lines 81584-81666) - gatekeeper dialogue",
-      "d3001_lowvolt (lines 82100-82308) - Low Volt NPC dialogue"
+      "d3001_orb_altar (lines 82694-82878) - orb altar interactions (~60 entries)",
+      "d3001_petitioner (lines 83036-83106) - petitioner NPC dialogue (~32 entries)",
+      "d3001_researchersjournal (lines 83164-83184) - Jabituya journal (~11 entries)",
+      "d3001_sparksinger (lines 83898-84246) - Sparksinger dialogue (~170 entries)"
     ],
-    "commit_hash": "a3646c76",
+    "commit_hash": "11676ca8",
     "validation_passed": true,
-    "notes": "Session 306: Fixed 7 bracket content errors, translated model orb terminal, lightning shamans, Low Volt NPC dialogue. All validations: 0 errors, 2 warnings (pre-existing HTML).",
-    "next_action": "Continue DLC1 sequential translation from line 82309."
+    "notes": "Session 307: orb altar interactions, petitioner dialogue, Jabituya journal, Sparksinger negotiations. Notable: Storm-in-Chains oracle lore, Lightning shamans backstory. All validations: 0 errors, 2 warnings (pre-existing HTML).",
+    "next_action": "Continue DLC1 sequential translation from line 84247 (d3001_whiningjimmy)."
   },
   "cumulative_stats": {
-    "total_sessions": 306,
-    "total_entries_translated": 173746,
-    "untranslated_remaining": 58672,
+    "total_sessions": 307,
+    "total_entries_translated": 174116,
+    "untranslated_remaining": 58302,
     "average_entries_per_session": 570.2,
     "estimated_sessions_remaining_base": 0,
     "estimated_days_remaining_base": "Complete",
