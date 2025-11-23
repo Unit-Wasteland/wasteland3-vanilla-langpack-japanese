@@ -51935,61 +51935,61 @@
       1 Array Array (33 items)
        0 int size = 33
        [0]
-        1 string data = "Welcome Dr. Finster Jr. \r\n> Booting Volume C"
+        1 string data = "ようこそ Dr. Finster Jr. \r\n> ボリュームCを起動中"
        [1]
-        1 string data = "OPEN PROJECT_LOGS.txt"
+        1 string data = "PROJECT_LOGS.txtを開く"
        [2]
         1 string data = "DIR"
        [3]
-        1 string data = "EXIT"
+        1 string data = "終了"
        [4]
-        1 string data = "Directory of C:\nPROJECT_LOGS.txt"
+        1 string data = "C:のディレクトリ\nPROJECT_LOGS.txt"
        [5]
-        1 string data = "OPEN Q2xvbmVz.txt"
+        1 string data = "Q2xvbmVz.txtを開く"
        [6]
-        1 string data = "Finally, the advanced genetic sequencer is fully operational. Our intial test run showed that it was capable of iterating hundreds of copies per day. This is a great day for science, and a great day for me. I must tell father."
+        1 string data = "ついに高度な遺伝子シーケンサーが完全に稼働した。最初のテストでは1日に数百のコピーを反復生成できることが示された。科学にとって素晴らしい日であり、私にとっても素晴らしい日だ。父に伝えなければ。"
        [7]
-        1 string data = "Access Denied. File encrypted."
+        1 string data = "アクセス拒否。ファイルは暗号化されています。"
        [8]
-        1 string data = "DECRYPT Q2xvbmVz.txt"
+        1 string data = "Q2xvbmVz.txtを復号化"
        [9]
-        1 string data = "FIle decrypted: CLONES.txt"
+        1 string data = "ファイル復号化: CLONES.txt"
        [10]
-        1 string data = "All clones made using my own DNA are proving frustratingly stupid. Though I've been hesitant to reveal the details - even going so far as to hide my cloning lab from my colleagues - I think I'm going to have to let someone in on the secret."
+        1 string data = "自分のDNAを使って作ったクローンは全て、苛立たしいほど愚かであることが証明されている。詳細を明かすことを躊躇してきた - 同僚からクローン研究室を隠すほどに - だが、誰かに秘密を打ち明けなければならないと思う。"
        [11]
-        1 string data = "OPEN HIDDEN LAB USING CODE WORD: DARWIN"
+        1 string data = "コードワードDARWINで隠し研究室を開く"
        [12]
-        1 string data = "OPEN CLONES.txt"
+        1 string data = "CLONES.txtを開く"
        [13]
-        1 string data = "Performing remote unlock."
+        1 string data = "リモートアンロックを実行中。"
        [14]
-        1 string data = "Directory of C:\nPROJECT_LOGS.txt\nCLONES.txt\nSECRET_LAB_CODE.txt"
+        1 string data = "C:のディレクトリ\nPROJECT_LOGS.txt\nCLONES.txt\nSECRET_LAB_CODE.txt"
        [15]
-        1 string data = "SEARCH LOGS"
+        1 string data = "ログを検索"
        [16]
-        1 string data = "Pink Goo"
+        1 string data = "ピンクグー"
        [17]
-        1 string data = " Enter search term:"
+        1 string data = " 検索語を入力:"
        [18]
-        1 string data = "Blue Goo"
+        1 string data = "ブルーグー"
        [19]
-        1 string data = " A very rare susbstance. It can be acquired by killing older clone variants and collecting their genetic matter."
+        1 string data = " 非常に希少な物質。古いクローン変異体を殺して遺伝物質を回収することで入手できる。"
        [20]
-        1 string data = " A common substance. By decreasing laster turret intensity my clone fabricator can collect a sample from the remaining clone matter."
+        1 string data = " 一般的な物質。レーザータレットの強度を下げることで、クローン製造機が残ったクローン物質からサンプルを回収できる。"
        [21]
-        1 string data = "Perhaps Jenkins. He looks healthy."
+        1 string data = "ジェンキンスかもしれない。彼は健康そうだ。"
        [22]
-        1 string data = "OPEN Q2xvbmWa.txt"
+        1 string data = "Q2xvbmWa.txtを開く"
        [23]
-        1 string data = "Access Denied. File Encrypted."
+        1 string data = "アクセス拒否。ファイルは暗号化されています。"
        [24]
-        1 string data = "DECRYPT Q2xvbmWa.txt"
+        1 string data = "Q2xvbmWa.txtを復号化"
        [25]
-        1 string data = "I've really got to memorize this thing. \r\n\r\nClone lab code: DARWIN"
+        1 string data = "これを本当に暗記しなければ。\r\n\r\nクローン研究室コード: DARWIN"
        [26]
-        1 string data = "FIle decrypted: SECRET LAB CODE.txt"
+        1 string data = "ファイル復号化: SECRET LAB CODE.txt"
        [27]
-        1 string data = "OPEN SECRET_LAB_CODE.txt"
+        1 string data = "SECRET_LAB_CODE.txtを開く"
        [28]
         1 string data = "DIR /ah"
        [29]
@@ -51997,9 +51997,9 @@
        [30]
         1 string data = ""
        [31]
-        1 string data = "OPEN PROJECT_LOGS.txt"
+        1 string data = "PROJECT_LOGS.txtを開く"
        [32]
-        1 string data = "Finally, the advanced genetic sequencer is fully operational. Our intial test run showed that it was capable of iterating hundreds of copies per day. This is a great day for science, and a great day for me. I must tell father."
+        1 string data = "ついに高度な遺伝子シーケンサーが完全に稼働した。最初のテストでは1日に数百のコピーを反復生成できることが示された。科学にとって素晴らしい日であり、私にとっても素晴らしい日だ。父に伝えなければ。"
    [277]
     0 StringTable data
      1 string Filename = "e4001_cultistleader"
@@ -52121,57 +52121,57 @@
       1 Array Array (27 items)
        0 int size = 27
        [0]
-        1 string data = ""What in the name of the Holy Detonation are you doing here? You are interrupting a sacred rite!""
+        1 string data = ""聖なる爆発の名において、ここで何をしている? 神聖な儀式を邪魔しているぞ!""
        [1]
         1 string data = ""
        [2]
-        1 string data = ""Check status of accumulators.""
+        1 string data = ""蓄電器の状態を確認せよ。""
        [3]
-        1 string data = ""Increase power to section one.""
+        1 string data = ""セクション1への電力を増加せよ。""
        [4]
-        1 string data = ""Holy Radiation levels are within normal parameters.""
+        1 string data = ""聖なる放射線レベルは正常値の範囲内です。""
        [5]
-        1 string data = ""We're here to pick up a voltage regulator. Hand it over and we'll be on our way.""
+        1 string data = ""電圧レギュレーターを受け取りに来た。渡してくれれば帰る。""
        [6]
-        1 string data = "[Attack] "Time to meet your Maker, freaks!""
+        1 string data = "[Attack] "創造主に会う時間だ、変人ども!""
        [7]
-        1 string data = ""Seize them, brothers and sisters! They will make useful test subjects for our work!""
+        1 string data = ""捕らえろ、兄弟姉妹たちよ! 我々の研究に役立つ実験体になるだろう!""
        [8]
-        1 string data = ""Reduce power to section two.""
+        1 string data = ""セクション2への電力を減少せよ。""
        [9]
-        1 string data = ""Increase coolant flow to sections one and three.""
+        1 string data = ""セクション1と3への冷却材の流量を増加せよ。""
        [10]
-        1 string data = ""Blasphemy! The voltage regulator is connected to the central core. We would have to shut down the entire ritual!""
+        1 string data = ""冒涜だ! 電圧レギュレーターは中央コアに接続されている。儀式全体を停止しなければならなくなる!""
        [11]
-        1 string data = ""If you don't shut it down, we'll do it for you. Your call.""
+        1 string data = ""停止しないなら、俺たちがやる。お前が決めろ。""
        [12]
-        1 string data = "[Attack] "Or we could just kill you. Let's go with that.""
+        1 string data = "[Attack] "あるいはお前を殺すだけだ。そっちにしよう。""
        [13]
-        1 string data = ""You don't know what you're saying, you filthy heathen! It would mean destroying the power cores!""
+        1 string data = ""何を言っているか分かっていないな、汚らわしい異教徒め! パワーコアを破壊することになるのだぞ!""
        [14]
-        1 string data = ""Defend the holy accelerator!""
+        1 string data = ""聖なる加速器を守れ!""
        [15]
         1 string data = ""
        [16]
-        1 string data = ""Ready for transcendence test twenty seven, Sister Autunite?""
+        1 string data = ""超越テスト27の準備はいいか、シスター・オータナイト?""
        [17]
-        1 string data = ""I was... <i>urrkkhh...!</i> Sorry. I was born ready, Brother Thorium!""
+        1 string data = ""私は...<i>うぅっ...!</i> ごめんなさい。生まれた時から準備万端よ、ブラザー・トリウム!""
        [18]
-        1 string data = ""You sure? You're not too sick to continue?""
+        1 string data = ""本当か? 体調が悪くて続けられないんじゃないか?""
        [19]
-        1 string data = ""I can take it. I'm gonna be an angel or die trying.""
+        1 string data = ""大丈夫。天使になるか、さもなくば死ぬまでやるわ。""
        [20]
-        1 string data = ""Okay, then. Now remember, think angelic thoughts, and welcome the Glow into your body like it was holy sunshine.""
+        1 string data = ""よし。忘れるな、天使のような考えを持ち、聖なる陽光のようにグロウを体に迎え入れるのだ。""
        [21]
-        1 string data = ""Yeah! Give it to me! Hit me with that Glow!""
+        1 string data = ""ええ! やって! グロウを浴びせて!""
        [22]
-        1 string data = ""Brother Half-Life, start the sequence!""
+        1 string data = ""ブラザー・ハーフライフ、シーケンスを開始しろ!""
        [23]
-        1 string data = ""Okay, then.""
+        1 string data = ""了解。""
        [24]
-        1 string data = ""Oh fuck. I... urrggkk... Ugh, dammit, still not an angel! Hit me again."\r \r "
+        1 string data = ""ちくしょう。私..うぐっ... くそ、まだ天使じゃない! もう一回やって。"\r \r "
        [25]
-        1 string data = ""Oh yeah, so good!""
+        1 string data = ""ああ、最高!""
        [26]
         1 string data = "Script Node 27"
    [278]
@@ -52375,47 +52375,47 @@
       1 Array Array (47 items)
        0 int size = 47
        [0]
-        1 string data = "Loading radiotrophic experiment controller. Please select an option:"
+        1 string data = "放射性栄養実験コントローラーを読み込み中。オプションを選択してください:"
        [1]
-        1 string data = "Read instructions."
+        1 string data = "説明を読む。"
        [2]
-        1 string data = "Deposit Destroying Angel Mushroom in receptacle."
+        1 string data = "デストロイングエンジェルマッシュルームを容器に投入。"
        [3]
-        1 string data = "Exit radiotrophic experiment controller."
+        1 string data = "放射性栄養実験コントローラーを終了。"
        [4]
-        1 string data = "Exiting..."
+        1 string data = "終了中..."
        [5]
-        1 string data = "Deposit Panther Mushroom in receptacle."
+        1 string data = "パンサーマッシュルームを容器に投入。"
        [6]
-        1 string data = "Deposit Horse Mushroom in receptacle."
+        1 string data = "ホースマッシュルームを容器に投入。"
        [7]
-        1 string data = "Valid specimen detected. Select duration of radiation exposure:"
+        1 string data = "有効な検体を検出。放射線照射時間を選択してください:"
        [8]
-        1 string data = "Experiment instructions: after depositing a valid specimen in receptacle, select duration of radiation exposure, followed by duration of cryogenic treatment. Experiment results will be deposited in the exit chute."
+        1 string data = "実験手順: 有効な検体を容器に投入後、放射線照射時間を選択し、続いて極低温処理時間を選択してください。実験結果は排出シュートに出力されます。"
        [9]
-        1 string data = "10 miliseconds."
+        1 string data = "10ミリ秒。"
        [10]
-        1 string data = "15 miliseconds."
+        1 string data = "15ミリ秒。"
        [11]
-        1 string data = "40 miliseconds."
+        1 string data = "40ミリ秒。"
        [12]
-        1 string data = "Cancel."
+        1 string data = "キャンセル。"
        [13]
-        1 string data = "Canceling experiment. Returning deposited specimen."
+        1 string data = "実験をキャンセル中。投入された検体を返却します。"
        [14]
-        1 string data = "Radiation exposure complete. Please select duration of cryogenic treatment."
+        1 string data = "放射線照射完了。極低温処理時間を選択してください。"
        [15]
-        1 string data = "10 miliseconds."
+        1 string data = "10ミリ秒。"
        [16]
-        1 string data = "20 miliseconds."
+        1 string data = "20ミリ秒。"
        [17]
-        1 string data = "30 miliseconds."
+        1 string data = "30ミリ秒。"
        [18]
-        1 string data = "Cryogenic treatment complete. Dispensing experiment results."
+        1 string data = "極低温処理完了。実験結果を出力中。"
        [19]
-        1 string data = "View valid specimens."
+        1 string data = "有効な検体を表示。"
        [20]
-        1 string data = "Valid native Colorado fungi specimens:\n-Destroying Angel Mushroom\n-Horse Mushroom\n-Panther Mushroom"
+        1 string data = "有効なコロラド原産キノコ検体:\n-デストロイングエンジェルマッシュルーム\n-ホースマッシュルーム\n-パンサーマッシュルーム"
        [21]
         1 string data = ""
        [22]
@@ -52431,9 +52431,9 @@
        [27]
         1 string data = ""
        [28]
-        1 string data = "Returning to main menu..."
+        1 string data = "メインメニューに戻る..."
        [29]
-        1 string data = "Collect Results."
+        1 string data = "結果を回収。"
        [30]
         1 string data = ""
        [31]
@@ -52441,13 +52441,13 @@
        [32]
         1 string data = ""
        [33]
-        1 string data = "Collect specimen."
+        1 string data = "検体を回収。"
        [34]
         1 string data = ""
        [35]
         1 string data = ""
        [36]
-        1 string data = "Returning to main menu..."
+        1 string data = "メインメニューに戻る..."
        [37]
         1 string data = ""
        [38]
@@ -52517,23 +52517,23 @@
       1 Array Array (9 items)
        0 int size = 9
        [0]
-        1 string data = "Welcome to Encylopedia Mycologica 3.0. Please select specimen:"
+        1 string data = "キノコ百科事典3.0へようこそ。検体を選択してください:"
        [1]
-        1 string data = "Destroying Angel Mushroom."
+        1 string data = "デストロイングエンジェルマッシュルーム。"
        [2]
-        1 string data = "Fly Agaric."
+        1 string data = "ベニテングタケ。"
        [3]
-        1 string data = "The Prince."
+        1 string data = "ザ・プリンス。"
        [4]
-        1 string data = "Exit."
+        1 string data = "終了。"
        [5]
-        1 string data = "Shutting down..."
+        1 string data = "シャットダウン中..."
        [6]
-        1 string data = "Color - White and brown. Edibility - Edible. Location - found in forests.\nExperiment data: successful sample after 15 miliseconds radiation, 20 miliseconds cryogenics.\n"
+        1 string data = "色 - 白と茶色。食用 - 食べられる。場所 - 森で発見される。\n実験データ: 放射線15ミリ秒、極低温20ミリ秒後に成功サンプル取得。\n"
        [7]
-        1 string data = "Color - Red with white spots. Edibility - Poisonous. Location - found in forests.  \r\nExperiment data: successful sample after 10 miliseconds radiation, 10 miliseconds cryogenics.\r\n"
+        1 string data = "色 - 白い斑点のある赤色。食用 - 有毒。場所 - 森で発見される。  \r\n実験データ: 放射線10ミリ秒、極低温10ミリ秒後に成功サンプル取得。\r\n"
        [8]
-        1 string data = "Color - White. Edibility - Poisonous. Location - found in forests.\nExperiment data: successful sample after 40 miliseconds radiation, 20 miliseconds cryogenics."
+        1 string data = "色 - 白色。食用 - 有毒。場所 - 森で発見される。\n実験データ: 放射線40ミリ秒、極低温20ミリ秒後に成功サンプル取得。"
    [280]
     0 StringTable data
      1 string Filename = "e4001_experiment_horse"
@@ -52583,23 +52583,23 @@
       1 Array Array (9 items)
        0 int size = 9
        [0]
-        1 string data = "Welcome to Encylopedia Mycologica 3.0.  Please select a specimen:"
+        1 string data = "キノコ百科事典3.0へようこそ。検体を選択してください:"
        [1]
-        1 string data = "Sheep Polypore."
+        1 string data = "シープポリポア。"
        [2]
-        1 string data = "Color - White. Edibility - Edible. Location - found in high elevations.\nExperiment data: successful sample after 40 miliseconds radiation, 30 miliseconds cryogenics.\n"
+        1 string data = "色 - 白色。食用 - 食べられる。場所 - 高地で発見される。\n実験データ: 放射線40ミリ秒、極低温30ミリ秒後に成功サンプル取得。\n"
        [3]
-        1 string data = "Horse Mushroom."
+        1 string data = "ホースマッシュルーム。"
        [4]
-        1 string data = "Color - White with yellow tints. Edibility - Edible. Location - found in plains.\nExperiment data: successful sample after 10 miliseconds radiation, 20 miliseconds cryogenics.\n"
+        1 string data = "色 - 黄色がかった白色。食用 - 食べられる。場所 - 平原で発見される。\n実験データ: 放射線10ミリ秒、極低温20ミリ秒後に成功サンプル取得。\n"
        [5]
-        1 string data = "The Grisette."
+        1 string data = "ザ・グリゼット。"
        [6]
-        1 string data = "Color - White. Edibility - Inedible. Location - found in mountains\nExperiment data: successful sample after 15 miliseconds radiation, 30 miliseconds cryogenics.\n"
+        1 string data = "色 - 白色。食用 - 食べられない。場所 - 山岳地帯で発見される。\n実験データ: 放射線15ミリ秒、極低温30ミリ秒後に成功サンプル取得。\n"
        [7]
-        1 string data = "Exit."
+        1 string data = "終了。"
        [8]
-        1 string data = "Shutting down..."
+        1 string data = "シャットダウン中..."
    [281]
     0 StringTable data
      1 string Filename = "e4001_experiment_panther"
@@ -52649,23 +52649,23 @@
       1 Array Array (9 items)
        0 int size = 9
        [0]
-        1 string data = "Welcome to Encylopedia Mycologica 3.0.  Please select a specimen:"
+        1 string data = "キノコ百科事典3.0へようこそ。検体を選択してください:"
        [1]
-        1 string data = "The Sickener."
+        1 string data = "ザ・シックナー。"
        [2]
-        1 string data = "Color - Red. Edibility - Poisonous. Location - found in coniferous forests.\nExperiment data: successful sample after 40 miliseconds radiation, 10 miliseconds cryogenics.\n"
+        1 string data = "色 - 赤色。食用 - 有毒。場所 - 針葉樹林で発見される。\n実験データ: 放射線40ミリ秒、極低温10ミリ秒後に成功サンプル取得。\n"
        [3]
-        1 string data = "Shaggy Mane."
+        1 string data = "ササクレヒトヨタケ。"
        [4]
-        1 string data = "Color - White. Edibility - Edible. Location - found near roads.\nExperiment data: successful sample after 10 miliseconds radiation, 30 miliseconds cryogenics."
+        1 string data = "色 - 白色。食用 - 食べられる。場所 - 道路付近で発見される。\n実験データ: 放射線10ミリ秒、極低温30ミリ秒後に成功サンプル取得。"
        [5]
-        1 string data = "The Panther."
+        1 string data = "ザ・パンサー。"
        [6]
-        1 string data = "Color - White and yellow. Edibility - Poisonous. Location - found in forests.\nExperiment data: successful sample after 15 miliseconds radiation, 10 miliseconds cryogenics."
+        1 string data = "色 - 白と黄色。食用 - 有毒。場所 - 森で発見される。\n実験データ: 放射線15ミリ秒、極低温10ミリ秒後に成功サンプル取得。"
        [7]
-        1 string data = "Exit."
+        1 string data = "終了。"
        [8]
-        1 string data = "Shutting down..."
+        1 string data = "シャットダウン中..."
    [282]
     0 StringTable data
      1 string Filename = "e4001_goiter"
@@ -52899,115 +52899,115 @@
       1 Array Array (55 items)
        0 int size = 55
        [0]
-        1 string data = ""Hey, Rangers. Brother Goiter callin'. Saw that the elevator stopped at the lab level and I figured I'd give you a heads up.""
+        1 string data = ""やあ、レンジャーズ。ブラザー・ゴイターだ。エレベーターが研究室階で止まったのを見たんで、情報を伝えておこうと思ってな。""
        [1]
-        1 string data = ""Hey again, Rangers. Looks like you're closin' in on the particle accelerator, so let me give you some more info.""
+        1 string data = ""また俺だ、レンジャーズ。粒子加速器に近づいてきたみたいだな、もう少し情報を伝えよう。""
        [2]
-        1 string data = ""We're still looking for it.""
+        1 string data = ""まだ探している。""
        [3]
-        1 string data = ""Let's hear it.""
+        1 string data = ""聞かせてくれ。""
        [4]
-        1 string data = ""Great! Now comes the hard part!""
+        1 string data = ""よし! ここからが難しいところだ!""
        [5]
-        1 string data = ""Your voltage regulator is attached to the particle accelerator's central core. Problem is, the core's lowered into a containment chamber while the PA runs its cycle. That means you'll need to shut down the accelerator to raise the core - got me?""
+        1 string data = ""お前らが必要な電圧レギュレーターは粒子加速器の中央コアに取り付けられている。問題は、粒子加速器がサイクルを回している間、コアが格納チャンバーに下がっていることだ。つまり、コアを上げるには加速器を停止させる必要がある - 分かったか?""
        [6]
-        1 string data = ""Best way to do that, by my calculations, is to raise at least three of the accelerator's four particle cannons and shut 'em down. That'll stop the radiation cycle and raise the central core.""
+        1 string data = ""俺の計算では、一番いい方法は加速器の4つの粒子砲のうち少なくとも3つを上げて停止させることだ。そうすれば放射線サイクルが止まり、中央コアが上がる。""
        [7]
-        1 string data = ""Okay, how do we stop the particle accelerator?""
+        1 string data = ""了解、どうやって粒子加速器を止めるんだ?""
        [8]
-        1 string data = ""How do we get into the containment chamber?""
+        1 string data = ""格納チャンバーにはどうやって入るんだ?""
        [9]
-        1 string data = ""You can't. Even if there was an access point you wouldn't survive the radiation. Your only option is to shut down at least the three of the accelerator's four power cores, which will raise the core.""
+        1 string data = ""無理だ。アクセスポイントがあったとしても放射線で死ぬ。唯一の選択肢は加速器の4つのパワーコアのうち少なくとも3つを停止させることだ、そうすればコアが上がる。""
        [10]
-        1 string data = ""How do we shut down the power cores?""
+        1 string data = ""パワーコアはどうやって停止させるんだ?""
        [11]
-        1 string data = ""What do the power cores do?""
+        1 string data = ""パワーコアは何をするんだ?""
        [12]
-        1 string data = ""They collect energy from the central core. When they're full, they raise into position and discharge the radiation into accumulator panels. That's some good shit.""
+        1 string data = ""中央コアからエネルギーを集める。満杯になると位置まで上昇して、蓄電パネルに放射線を放出する。いいもんだぞ。""
        [13]
-        1 string data = ""How do we raise the cores?""
+        1 string data = ""コアはどうやって上げるんだ?""
        [14]
-        1 string data = ""Well... you all got guns, right?""
+        1 string data = ""まあ...お前ら銃を持ってるだろ?""
        [15]
-        1 string data = ""How dangerous is the radiation?""
+        1 string data = ""放射線はどれくらい危険なんだ?""
        [16]
-        1 string data = ""Thanks for the info. We'll take it from here.""
+        1 string data = ""情報ありがとう。あとは任せてくれ。""
        [17]
-        1 string data = ""Each cannon is connected to a control switch. You'll need to have somebody on the switch while the rest of you destroy the cannon.""
+        1 string data = ""各砲は制御スイッチに接続されている。誰かがスイッチを操作している間に残りの連中で砲を破壊する必要がある。""
        [18]
-        1 string data = ""Well, part of it is. The first pulse - the gamma pulse - is like a fresh cup of coffee. Even you outsiders might like it.""
+        1 string data = ""まあ、一部はな。最初のパルス - ガンマパルス - は淹れたてのコーヒーみたいなもんだ。お前らよそ者でも気に入るかもしれない。""
        [19]
-        1 string data = ""Are there defenses we should know about?""
+        1 string data = ""知っておくべき防衛システムはあるか?""
        [20]
-        1 string data = ""Go with the Glow, Rangers!""
+        1 string data = ""グロウと共に行け、レンジャーズ!""
        [21]
-        1 string data = ""The second - the Holy Radiation pulse - when the cannon vents the rest of its energy - is more like a stiff shot of whisky. We can take it, but it'd make you folks sick as a dog faster than you can say 'hallelujah'!""
+        1 string data = ""2番目 - 聖なる放射線パルス - 砲が残りのエネルギーを放出する時 - はきついウィスキーのショットみたいなもんだ。俺たちは耐えられるが、お前らは『ハレルヤ』と言う間もなく犬みたいに吐くことになるぞ!""
        [22]
-        1 string data = ""Once the Nucleists spot you, they'll be on you like a bad rash, so keep away from 'em as long as you can. Good news is, killing a particle cannon should short out any nearby service hatches and cut off their reinforcements.""
+        1 string data = ""ヌクレイストに見つかったら、しつこい発疹みたいに付きまとってくるから、できるだけ避けろ。いい知らせは、粒子砲を壊せば近くのサービスハッチがショートして援軍を断てることだ。""
        [23]
-        1 string data = ""Ain't much time between the gamma pulse and the Holy Radiation pulse, so you gotta get in quick, do your damage, and get clear. Got it?""
+        1 string data = ""ガンマパルスと聖なる放射線パルスの間に時間はあまりないから、素早く入って、ダメージを与えて、離脱しろ。分かったか?""
        [24]
         1 string data = ""
        [25]
         1 string data = ""
        [26]
-        1 string data = ""How do we shut down the particle cannons?""
+        1 string data = ""粒子砲はどうやって停止させるんだ?""
        [27]
-        1 string data = ""How do we raise the cannons?""
+        1 string data = ""砲はどうやって上げるんだ?""
        [28]
         1 string data = ""
        [29]
-        1 string data = ""What do the particle cannons do?""
+        1 string data = ""粒子砲は何をするんだ?""
        [30]
-        1 string data = ""The radiation is... good?""
+        1 string data = ""放射線は...良いものなのか?""
        [31]
         1 string data = ""
        [32]
-        1 string data = ""Military used it as a lab back before the deluge, and the Nucleists are doin' the same now, tryin' to find ways to turn themselves all into angels like Iridium.""
+        1 string data = ""大洪水の前は軍がここを研究室として使っていた、今はヌクレイストが同じことをやっている、全員をイリジウムみたいな天使に変える方法を探しているんだ。""
        [33]
-        1 string data = ""Not that they're having much success, but there's still a lot of 'em down there, running' around, doin' experiments on each other, so watch yourselves. They may be idiots, but they're powerful idiots.""
+        1 string data = ""成功しているわけじゃないが、まだたくさんいて走り回って互いに実験をしているから気をつけろ。馬鹿かもしれないが、力のある馬鹿だ。""
        [34]
-        1 string data = ""The voltage regulator you need is in the particle accelerator chamber. I'll ping you again once I see you're approaching. Good luck.""
+        1 string data = ""必要な電圧レギュレーターは粒子加速器チャンバーの中にある。近づいたらまた連絡する。幸運を。""
        [35]
-        1 string data = ""Now, there's a right way to do this, but the Nucleists ain't gonna stand by while you read the manual, so you're gonna have to do it the wrong way, by beating on it 'til it dies.""
+        1 string data = ""正しいやり方はあるんだが、ヌクレイストはお前らがマニュアルを読んでいる間待ってくれないから、間違ったやり方でやるしかない、死ぬまで叩くんだ。""
        [36]
-        1 string data = ""Anything down here we could turn to our advantage?""
+        1 string data = ""ここに俺たちが有利になるものはあるか?""
        [37]
-        1 string data = ""Hmmm. Good question. Let's see. First of all, you're not gonna get into the particle accelerator at all without a keycard, so look around for that. Oh, and I think I saw a radiation suit down there somewhere. We didn't want it, but you might.""
+        1 string data = ""うーん。いい質問だ。見てみよう。まず、キーカードなしでは粒子加速器には絶対入れないから、それを探せ。ああ、それとどこかに放射線スーツがあったと思う。俺たちは要らなかったが、お前らには役立つかもな。""
        [38]
-        1 string data = ""Also, Deuterium's got a guy down there experimenting with mushrooms. Eating 'em is supposed to have some crazy effects. Don't know if that means good, bad, or just entertaining. Try 'em at your own risk, I guess.""
+        1 string data = ""あと、デューテリウムの部下がキノコの実験をしている。食べるとすごい効果があるらしい。良いのか悪いのか、ただ面白いだけなのかは知らない。自己責任で試してくれ。""
        [39]
-        1 string data = ""Oh! And here's a big one! The hydraulic system that raises and lowers the particle cannons and central core is not in the accelerator chamber itself. If you sneak around and find it, you might be able to sabotage is in some way.""
+        1 string data = ""ああ! これは重要だ! 粒子砲と中央コアを上げ下げする油圧システムは加速器チャンバー自体にはない。こっそり回って見つければ、何らかの方法で妨害できるかもしれない。""
        [40]
-        1 string data = ""Afraid that's all I got, Rangers. Good luck.""
+        1 string data = ""残念だがそれが俺の持っている情報の全部だ、レンジャーズ。幸運を。""
        [41]
-        1 string data = ""We understood every word of that.""
+        1 string data = ""全部理解した。""
        [42]
-        1 string data = ""Uh... we got the part about getting out of the way.""
+        1 string data = ""えーと...逃げろという部分は理解した。""
        [43]
-        1 string data = ""Really? 'Cause I was kinda fakin' it. But okay. As long as you know when to get out of the way, you're good.""
+        1 string data = ""本当か? 俺も結構適当に言ってたんだが。まあいい。いつ逃げればいいか分かっていれば大丈夫だ。""
        [44]
-        1 string data = ""That was the important part. Movin' on.""
+        1 string data = ""それが重要な部分だ。先に進もう。""
        [45]
-        1 string data = ""No worries. We got it.""
+        1 string data = ""心配ない。分かった。""
        [46]
-        1 string data = ""I like your confidence. Movin' on.""
+        1 string data = ""その自信は好きだ。先に進もう。""
        [47]
         1 string data = ""
        [48]
-        1 string data = ""All right, Rangers! You got the voltage regulator out of the particle accelerator and gave those idiot Nucleists a hiding to boot. I'd call that a good day's work!""
+        1 string data = ""よしレンジャーズ! 粒子加速器から電圧レギュレーターを取り出して、あの馬鹿なヌクレイストどもを叩きのめしたな。いい仕事だ!""
        [49]
-        1 string data = ""Now you just gotta get the other two pieces and we'll be ready to build Iridium's containment device. That's the scatter ray emitter in the loading dock level, and the crystal from the force field generator in the security level, right? Right.""
+        1 string data = ""あとは残り2つのパーツを手に入れれば、イリジウムの格納装置を作る準備が整う。積み込みドック階の散乱光線エミッターと、セキュリティ階のフォースフィールド発生器のクリスタルだな? そうだ。""
        [50]
-        1 string data = ""Okay, you take care down there! Goiter out.""
+        1 string data = ""よし、気をつけろよ! ゴイター通信終了。""
        [51]
-        1 string data = ""Now you just gotta get the last piece and we'll be ready to build Iridium's containment device. That's the scatter ray emitter in the loading dock level, right? Right.""
+        1 string data = ""あとは最後のパーツを手に入れれば、イリジウムの格納装置を作る準備が整う。積み込みドック階の散乱光線エミッターだな? そうだ。""
        [52]
-        1 string data = ""Now you just gotta get the last piece and we'll be ready to build Iridium's containment device. That's the crystal from the force field generator in the security level, right? Right.""
+        1 string data = ""あとは最後のパーツを手に入れれば、イリジウムの格納装置を作る準備が整う。セキュリティ階のフォースフィールド発生器のクリスタルだな? そうだ。""
        [53]
-        1 string data = ""And that's it! You did it! You got all the pieces. Bring 'em all back to me and I'll make the attachment that'll turn the syphon in the cooling pool chamber into a radiation angel containment device. Then you can get Iridium under control.""
+        1 string data = ""やったな! 全部のパーツを手に入れた。全部俺のところに持ってこい、冷却プールチャンバーのサイフォンを放射性天使格納装置に変えるアタッチメントを作ってやる。そうすればイリジウムを制御できる。""
        [54]
-        1 string data = ""All right then, see you soon! Goiter out.""
+        1 string data = ""よし、じゃあまたな! ゴイター通信終了。""
    [283]
     0 StringTable data
      1 string Filename = "e4001_hydraulics"
