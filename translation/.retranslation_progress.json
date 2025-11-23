@@ -38,39 +38,32 @@
   "dlc2": {
     "status": "in_progress",
     "current_file": "StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
-    "current_line": 71389,
+    "current_line": 73440,
     "total_lines": 77353,
-    "entries_completed": 3629,
+    "entries_completed": 3969,
     "total_entries": 24152,
-    "percent_complete": 15.0,
+    "percent_complete": 16.4,
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
-    "notes": "2025-11-23: Session 345 - yy_dlc2_elijahwardrewardcourier, o2001_eidilon, o2001_longjohn, x2601_wolverines_companionbarks, abilities, characters, gui, interactables sections (~207 entries). All validations: 0 errors."
+    "notes": "2025-11-23: Session 346 - items section (340 entries: weapons, armor, consumables, quest items). All validations: 0 errors."
   },
   "last_session": {
-    "session_number": 345,
+    "session_number": 346,
     "date": "2025-11-23",
-    "entries_processed": 207,
+    "entries_processed": 340,
     "sections_completed": [
-      "yy_dlc2_elijahwardrewardcourier: 11 entries (Iron Thunder Logistics courier)",
-      "o2001_eidilon: 2 entries (robot dialogue)",
-      "o2001_longjohn: 2 entries (robot dialogue)",
-      "x2601_wolverines_companionbarks: 1 entry",
-      "abilities: 66 entries (DLC2 abilities)",
-      "characters: 74 entries (DLC2 character names)",
-      "gui: 15 entries (GUI elements)",
-      "interactables: 36 entries (interactable objects)"
+      "items: 340 entries (weapons, armor, consumables, quest items)"
     ],
-    "commit_hash": "pending",
+    "commit_hash": "1e81e60e",
     "validation_passed": true,
-    "notes": "Session 345: DLC2 abilities, characters, GUI and interactables sections. Quote format fixed for sign entries. All validations: 0 errors.",
-    "next_action": "Continue DLC2 translation from line 71389 - items section (340 entries)."
+    "notes": "Session 346: DLC2 items section complete. 15 quote count mismatches fixed during validation. All validations: 0 errors.",
+    "next_action": "Continue DLC2 translation from line 73440 - next sections."
   },
   "cumulative_stats": {
-    "total_sessions": 345,
-    "total_entries_translated": 181853,
-    "untranslated_remaining": 50565,
+    "total_sessions": 346,
+    "total_entries_translated": 182193,
+    "untranslated_remaining": 50225,
     "average_entries_per_session": 527.4,
     "estimated_sessions_remaining_base": 0,
     "estimated_days_remaining_base": "Complete",
