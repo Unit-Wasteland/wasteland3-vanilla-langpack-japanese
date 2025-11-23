@@ -42787,13 +42787,13 @@
       1 Array Array (20 items)
        0 int size = 20
        [0]
-        1 string data = " Press any key..."
+        1 string data = " 何かキーを押してください..."
        [1]
-        1 string data = " Hack the computer to shut down machine?\n(use computer skill)"
+        1 string data = " コンピューターをハックして機械を停止する?\n(コンピュータースキルを使用)"
        [2]
-        1 string data = " Tamper with mixture ratios?\n(use engineering skill)"
+        1 string data = " 混合比率を改ざんする?\n(エンジニアリングスキルを使用)"
        [3]
-        1 string data = " Make the dispence only spit out toast.\n(use toaster repair skill)"
+        1 string data = " ディスペンサーがトーストしか出さないようにする。\n(トースター修理スキルを使用)"
        [4]
         1 string data = " Set e4001_Cafeteria_foodDispenser to 1\n(1 = computer skill used)"
        [5]
@@ -42803,27 +42803,27 @@
        [7]
         1 string data = " Reset globals."
        [8]
-        1 string data = " Success: The food dispencer is shut down.\n(1 to 2 Faders come to loook at what's wrong with the machine)"
+        1 string data = " 成功: 食料ディスペンサーが停止しました。\n(1~2人のフェーダーが機械の不具合を調べに来ます)"
        [9]
-        1 string data = " Your skill is not high enough"
+        1 string data = " スキルレベルが足りません"
        [10]
         1 string data = " "
        [11]
-        1 string data = " Success: The food dispence will only spit out toast.\n(causes confusion among the Faders)"
+        1 string data = " 成功: 食料ディスペンサーはトーストしか出さなくなります。\n(フェーダー間に混乱を引き起こします)"
        [12]
-        1 string data = " Your skill is not high enough"
+        1 string data = " スキルレベルが足りません"
        [13]
-        1 string data = " Success: The new mixture will cause intestinal distress in the Faders.\n(causes some kind of status effect to the surrounding Faders)"
+        1 string data = " 成功: 新しい混合物はフェーダーに腸障害を引き起こします。\n(周囲のフェーダーに何らかの状態異常を与えます)"
        [14]
-        1 string data = " Your skill is not high enough"
+        1 string data = " スキルレベルが足りません"
        [15]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [16]
-        1 string data = " The food dispence is shut down."
+        1 string data = " 食料ディスペンサーは停止しています。"
        [17]
-        1 string data = " This mixture will give the Faders something to worry about."
+        1 string data = " この混合物はフェーダーに心配の種を与えるでしょう。"
        [18]
-        1 string data = " This conversation is now about toast.\nI like toast."
+        1 string data = " この会話は今やトーストの話になりました。\n私はトーストが好きです。"
        [19]
         1 string data = " I pitty the fool who got this responce.\n(something went wrong, notify your neighborhood designer)"
    [197]
@@ -42915,43 +42915,43 @@
       1 Array Array (19 items)
        0 int size = 19
        [0]
-        1 string data = " You see a body on the dissection table."
+        1 string data = " 解剖台に遺体が乗っている。"
        [1]
-        1 string data = " Success: You dig into the corpse gut looking to see what the Fader were doing."
+        1 string data = " 成功: フェーダーが何をしていたか調べるため、遺体の腹部を掘り返す。"
        [2]
-        1 string data = " Your skill is not high enough."
+        1 string data = " スキルレベルが足りません。"
        [3]
         1 string data = " I pitty the fool who gets this responce."
        [4]
-        1 string data = " High perception skill reveals more."
+        1 string data = " 高い知覚スキルでさらに多くが明らかになる。"
        [5]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [6]
         1 string data = " Reset global."
        [7]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [8]
-        1 string data = " You have gained all the intel you could."
+        1 string data = " 得られる情報は全て入手しました。"
        [9]
-        1 string data = " There may be more to learn but you lack the skill."
+        1 string data = " さらに学べることがあるかもしれないが、スキルが足りない。"
        [10]
         1 string data = " Set table examintaion to basic = 1"
        [11]
         1 string data = " Set table examintaion to advanced = 2"
        [12]
-        1 string data = " Examine the body."
+        1 string data = " 遺体を調べる。"
        [13]
-        1 string data = " That's all you can see."
+        1 string data = " 見えるものはそれだけだ。"
        [14]
-        1 string data = " Nothing else to do."
+        1 string data = " 他にすることはない。"
        [15]
         1 string data = " Intro"
        [16]
         1 string data = " Debug options"
        [17]
-        1 string data = " Walk away"
+        1 string data = " 立ち去る"
        [18]
-        1 string data = "Pick an option"
+        1 string data = "オプションを選択"
    [198]
     0 StringTable data
      1 string Filename = "e4001_embryochamberstate_01"
@@ -43089,25 +43089,25 @@
       1 Array Array (31 items)
        0 int size = 31
        [0]
-        1 string data = " Check vitals..."
+        1 string data = " バイタルを確認..."
        [1]
-        1 string data = " Tap on the glass..."
+        1 string data = " ガラスをコツコツと叩く..."
        [2]
-        1 string data = " Tap on the glass..."
+        1 string data = " ガラスをコツコツと叩く..."
        [3]
         1 string data = " I pitty the fool who gets this responce."
        [4]
-        1 string data = " There is a Fader embryo that is almost fully grown."
+        1 string data = " ほぼ完全に成長したフェーダーの胚がいる。"
        [5]
-        1 string data = " He's dead Jim."
+        1 string data = " 死んでるよ、ジム。"
        [6]
-        1 string data = " The Fader looks slightly shriveled."
+        1 string data = " フェーダーは少し萎びて見える。"
        [7]
-        1 string data = " Use computer skill on embryo chamber.\n(shuts down embryo chamber killing the Fader inside)"
+        1 string data = " 胚チャンバーにコンピュータースキルを使用する。\n(胚チャンバーを停止させ、中のフェーダーを殺す)"
        [8]
-        1 string data = " Use mechanical repair skill on embryo chamber.\n(alters the machine to kill the embryo)"
+        1 string data = " 胚チャンバーに機械修理スキルを使用する。\n(機械を改造して胚を殺す)"
        [9]
-        1 string data = " Use toaster repair on the embryo chamber. \r\n(alters the machine to produce Chickens with Fader stats )\r\n"
+        1 string data = " 胚チャンバーにトースター修理を使用する。\r\n(機械を改造してフェーダーのステータスを持つニワトリを生産する)\r\n"
        [10]
         1 string data = " Set e4001_LabA_embryoChamber00 = 0"
        [11]
@@ -43115,41 +43115,41 @@
        [12]
         1 string data = " Set e4001_LabA_embryoChamber00 = 2"
        [13]
-        1 string data = " Success: The Fader inside dies."
+        1 string data = " 成功: 中のフェーダーが死んだ。"
        [14]
-        1 string data = " Your skill is not high enough."
+        1 string data = " スキルレベルが足りません。"
        [15]
-        1 string data = " Success: The parameters have been changed, this will kill the embryo Fader."
+        1 string data = " 成功: パラメーターが変更された。これで胚のフェーダーが死ぬ。"
        [16]
-        1 string data = " Your skill is not high enough."
+        1 string data = " スキルレベルが足りません。"
        [17]
         1 string data = " Set e4001_LabA_embryoChamber00 = 3"
        [18]
-        1 string data = " Success: The parameters have been changed, this will produce a chicken with high stats of a Fader."
+        1 string data = " 成功: パラメーターが変更された。これでフェーダー並のステータスを持つニワトリが生産される。"
        [19]
-        1 string data = " Your skill is not high enough."
+        1 string data = " スキルレベルが足りません。"
        [20]
-        1 string data = " Tap on the glass..."
+        1 string data = " ガラスをコツコツと叩く..."
        [21]
-        1 string data = " cluck, cluck, cluck..."
+        1 string data = " コッコッコッ..."
        [22]
         1 string data = " Reset Global."
        [23]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [24]
-        1 string data = " Insert genetic material."
+        1 string data = " 遺伝子物質を挿入する。"
        [25]
-        1 string data = " Genetic material need for processing."
+        1 string data = " 処理に遺伝子物質が必要。"
        [26]
-        1 string data = " Use genetic material."
+        1 string data = " 遺伝子物質を使用する。"
        [27]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [28]
-        1 string data = " Processing General3 DNA."
+        1 string data = " ジェネラル3のDNAを処理中。"
        [29]
-        1 string data = " General3 clone ready for duty."
+        1 string data = " ジェネラル3クローンの任務準備完了。"
        [30]
-        1 string data = " Only one General3 at a time."
+        1 string data = " 同時にジェネラル3は1体のみ。"
    [199]
     0 StringTable data
      1 string Filename = "e4001_embryochamberstate_02"
@@ -43291,69 +43291,69 @@
       1 Array Array (32 items)
        0 int size = 32
        [0]
-        1 string data = " Check vitals..."
+        1 string data = " バイタルを確認..."
        [1]
-        1 string data = " Tap on the glass..."
+        1 string data = " ガラスをコツコツと叩く..."
        [2]
-        1 string data = " Tap on the glass..."
+        1 string data = " ガラスをコツコツと叩く..."
        [3]
         1 string data = " I pitty the fool who gets this responce."
        [4]
-        1 string data = " There is a Fader embryo that is almost fully grown."
+        1 string data = " ほぼ完全に成長したフェーダーの胚がいる。"
        [5]
-        1 string data = " He's dead Jim."
+        1 string data = " 死んでるよ、ジム。"
        [6]
-        1 string data = " The Fader looks slightly shriveled."
+        1 string data = " フェーダーは少し萎びて見える。"
        [7]
-        1 string data = " Use computer skill on embryo chamber.\n(shuts down embryo chamber killing the Fader inside)"
+        1 string data = " 胚チャンバーにコンピュータースキルを使用する。\n(胚チャンバーを停止させ、中のフェーダーを殺す)"
        [8]
-        1 string data = " Use mechanical repair skill on embryo chamber.\n(alters the machine to kill the Embryo)"
+        1 string data = " 胚チャンバーに機械修理スキルを使用する。\n(機械を改造して胚を殺す)"
        [9]
-        1 string data = " Use toaster repair on the embryo chamber. \r\n(alters the machine to produce Chickens with Fader stats )\r\n"
+        1 string data = " 胚チャンバーにトースター修理を使用する。\r\n(機械を改造してフェーダーのステータスを持つニワトリを生産する)\r\n"
        [10]
         1 string data = " Set e4001_LabA_embryoChamber00 = 1"
        [11]
         1 string data = " Set e4001_LabA_embryoChamber00 = 2"
        [12]
-        1 string data = " Success: The Fader inside dies."
+        1 string data = " 成功: 中のフェーダーが死んだ。"
        [13]
-        1 string data = " Your skill is not high enough."
+        1 string data = " スキルレベルが足りません。"
        [14]
-        1 string data = " Success: The parameters have been changed, this will kill the embryo Fader."
+        1 string data = " 成功: パラメーターが変更された。これで胚のフェーダーが死ぬ。"
        [15]
-        1 string data = " Your skill is not high enough."
+        1 string data = " スキルレベルが足りません。"
        [16]
         1 string data = " Set e4001_LabA_embryoChamber00 = 3"
        [17]
         1 string data = ""
        [18]
-        1 string data = " Your skill is not high enough."
+        1 string data = " スキルレベルが足りません。"
        [19]
-        1 string data = " Tap on the glass..."
+        1 string data = " ガラスをコツコツと叩く..."
        [20]
-        1 string data = " cluck, cluck, cluck..."
+        1 string data = " コッコッコッ..."
        [21]
         1 string data = " Reset Global."
        [22]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [23]
-        1 string data = "  Genetic material in stasis, waiting for command."
+        1 string data = "  遺伝子物質がスタシス状態で、コマンド待機中。"
        [24]
-        1 string data = " Use genetic material."
+        1 string data = " 遺伝子物質を使用する。"
        [25]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [26]
-        1 string data = " Warning, inferior genetic material detected. You may not proceed."
+        1 string data = " 警告、低品質の遺伝子物質を検出。続行できません。"
        [27]
-        1 string data = " Use genetic material.\n(Weird Science skill needed, currently set to none)"
+        1 string data = " 遺伝子物質を使用する。\n(異常科学スキルが必要、現在は設定なし)"
        [28]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [29]
-        1 string data = " Processing inferior Fader DNA."
+        1 string data = " 低品質フェーダーDNAを処理中。"
        [30]
-        1 string data = " Cloning complete, results are unknown."
+        1 string data = " クローニング完了、結果は不明。"
        [31]
-        1 string data = " There is no genetic material."
+        1 string data = " 遺伝子物質がありません。"
    [200]
     0 StringTable data
      1 string Filename = "e4001_embryochamberstate_03"
@@ -43459,51 +43459,51 @@
       1 Array Array (23 items)
        0 int size = 23
        [0]
-        1 string data = " Check vitals..."
+        1 string data = " バイタルを確認..."
        [1]
-        1 string data = " Tap on the glass..."
+        1 string data = " ガラスをコツコツと叩く..."
        [2]
-        1 string data = " Tap on the glass..."
+        1 string data = " ガラスをコツコツと叩く..."
        [3]
         1 string data = " I pitty the fool who gets this responce."
        [4]
-        1 string data = " There is a Fader embryo that is almost fully grown."
+        1 string data = " ほぼ完全に成長したフェーダーの胚がいる。"
        [5]
-        1 string data = " He's dead Jim."
+        1 string data = " 死んでるよ、ジム。"
        [6]
-        1 string data = " The Fader looks slightly shriveled."
+        1 string data = " フェーダーは少し萎びて見える。"
        [7]
-        1 string data = " Use computer skill on embryo chamber.\n(shuts down embryo chamber killing the Fader inside)"
+        1 string data = " 胚チャンバーにコンピュータースキルを使用する。\n(胚チャンバーを停止させ、中のフェーダーを殺す)"
        [8]
-        1 string data = " Use mechanical repair skill on embryo chamber.\n(alters the machine to kill the embryo Fader)"
+        1 string data = " 胚チャンバーに機械修理スキルを使用する。\n(機械を改造して胚のフェーダーを殺す)"
        [9]
-        1 string data = " Use toaster repair on the embryo chamber. \r\n(alters the machine to produce Chickens with Fader stats )\r\n"
+        1 string data = " 胚チャンバーにトースター修理を使用する。\r\n(機械を改造してフェーダーのステータスを持つニワトリを生産する)\r\n"
        [10]
         1 string data = " Set e4001_LabA_embryoChamber00 = 1"
        [11]
         1 string data = " Set e4001_LabA_embryoChamber00 = 2"
        [12]
-        1 string data = " Success: The Fader inside dies."
+        1 string data = " 成功: 中のフェーダーが死んだ。"
        [13]
-        1 string data = " Your skill is not high enough."
+        1 string data = " スキルレベルが足りません。"
        [14]
-        1 string data = " Success: The parameters have been changed, this will kill the embryo Fader."
+        1 string data = " 成功: パラメーターが変更された。これで胚のフェーダーが死ぬ。"
        [15]
-        1 string data = " Your skill is not high enough."
+        1 string data = " スキルレベルが足りません。"
        [16]
         1 string data = " Set e4001_LabA_embryoChamber00 = 3"
        [17]
-        1 string data = " Success: The parameters have been changed, this will produce a chicken with high stats of a Fader."
+        1 string data = " 成功: パラメーターが変更された。これでフェーダー並のステータスを持つニワトリが生産される。"
        [18]
-        1 string data = " Your skill is not high enough."
+        1 string data = " スキルレベルが足りません。"
        [19]
-        1 string data = " Tap on the glass..."
+        1 string data = " ガラスをコツコツと叩く..."
        [20]
-        1 string data = " cluck, cluck, cluck..."
+        1 string data = " コッコッコッ..."
        [21]
         1 string data = " Reset Global."
        [22]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
    [201]
     0 StringTable data
      1 string Filename = "e4001_evalroomcomputer"
