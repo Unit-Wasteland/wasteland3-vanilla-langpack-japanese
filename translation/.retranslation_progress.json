@@ -38,37 +38,39 @@
   "dlc2": {
     "status": "in_progress",
     "current_file": "StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
-    "current_line": 51793,
+    "current_line": 53011,
     "total_lines": 77353,
-    "entries_completed": 1320,
+    "entries_completed": 1509,
     "total_entries": 24152,
-    "percent_complete": 5.5,
+    "percent_complete": 6.2,
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
-    "notes": "2025-11-23: Session 337 - E4001 cloning machines and companions (~195 entries). Sections: e4001_airlockdoor (14), e4001_battery (27), e4001_clone_machine_advanced (44), e4001_clone_machine_standard (20), e4001_companions (90). All validations: 0 errors."
+    "notes": "2025-11-23: Session 338 - E4001 computer, cultist, experiments, goiter (~189 entries). Sections: e4001_computer_clone_scientist (33), e4001_cultistleader (27), e4001_experiment (47), e4001_experiment_angel (9), e4001_experiment_horse (9), e4001_experiment_panther (9), e4001_goiter (55). All validations: 0 errors."
   },
   "last_session": {
-    "session_number": 337,
+    "session_number": 338,
     "date": "2025-11-23",
-    "entries_processed": 195,
+    "entries_processed": 189,
     "sections_completed": [
-      "e4001_airlockdoor: 14 entries (research keycard door)",
-      "e4001_battery: 27 entries (hydrogen battery puzzle)",
-      "e4001_clone_machine_advanced: 44 entries (Finster cloning v2.0)",
-      "e4001_clone_machine_standard: 20 entries (iteration experiment)",
-      "e4001_companions: 90 entries (companion barks)"
+      "e4001_computer_clone_scientist: 33 entries (Dr. Finster Jr. terminal)",
+      "e4001_cultistleader: 27 entries (cultist ritual dialogue)",
+      "e4001_experiment: 47 entries (radiotrophic experiment controller)",
+      "e4001_experiment_angel: 9 entries (encyclopedia - angel mushroom)",
+      "e4001_experiment_horse: 9 entries (encyclopedia - horse mushroom)",
+      "e4001_experiment_panther: 9 entries (encyclopedia - panther mushroom)",
+      "e4001_goiter: 55 entries (Brother Goiter radio communications)"
     ],
-    "commit_hash": "d364ccae",
+    "commit_hash": "84038fe2",
     "validation_passed": true,
-    "notes": "Session 337: Translated E4001 cloning machines and companion barks. All validations: 0 errors.",
-    "next_action": "Continue DLC2 translation - e4001_computer_clone_scientist section from line 51793."
+    "notes": "Session 338: Translated E4001 computer terminal, cultist leader, experiments, and Brother Goiter radio. All validations: 0 errors.",
+    "next_action": "Continue DLC2 translation - e4001_hydraulics section from line 53011."
   },
   "cumulative_stats": {
-    "total_sessions": 337,
-    "total_entries_translated": 179544,
-    "untranslated_remaining": 52874,
-    "average_entries_per_session": 533.1,
+    "total_sessions": 338,
+    "total_entries_translated": 179733,
+    "untranslated_remaining": 52685,
+    "average_entries_per_session": 532.0,
     "estimated_sessions_remaining_base": 0,
     "estimated_days_remaining_base": "Complete",
     "estimated_sessions_remaining_dlc1": 0,

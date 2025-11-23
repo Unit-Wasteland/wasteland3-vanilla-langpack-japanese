@@ -53109,49 +53109,49 @@
       1 Array Array (22 items)
        0 int size = 22
        [0]
-        1 string data = "Faded letters on this machine read: PARTICLE ACCELERATOR MAIN HYDRAULIC PUMP - AUTHORIZED TECHNICIANS ONLY."
+        1 string data = "この機械の色褪せた文字には次のように書かれている: 粒子加速器メイン油圧ポンプ - 認定技術者のみ。"
        [1]
-        1 string data = "Examine the machine."
+        1 string data = "機械を調べる。"
        [2]
-        1 string data = "Sabotage the machine with special sauce."
+        1 string data = "スペシャルソースで機械を妨害する。"
        [3]
-        1 string data = "Step away from the pump."
+        1 string data = "ポンプから離れる。"
        [4]
-        1 string data = "Looking at the schematics on the access hatch door, you see that this pump raises and lowers the partical cannons and central core of the particle accelerator during its testing cycle. Right now it appears to be operating at optimal efficiency. "
+        1 string data = "アクセスハッチのドアにある設計図を見ると、このポンプがテストサイクル中に粒子加速器の粒子砲と中央コアを上げ下げすることが分かる。現在、最適な効率で稼働しているようだ。"
        [5]
-        1 string data = "The system's centrifugal pump has been sabotaged with special sauce. It smells tangy, and is experiencing occasional internal slippage."
+        1 string data = "システムの遠心ポンプはスペシャルソースで妨害されている。ピリッとした匂いがして、時々内部で滑りが発生している。"
        [6]
-        1 string data = "The system's centrifugal pump has been sabotaged with thousand island dressing. It smells creamy, and is experiencing frequent internal slippage."
+        1 string data = "システムの遠心ポンプはサウザンドアイランドドレッシングで妨害されている。クリーミーな匂いがして、頻繁に内部で滑りが発生している。"
        [7]
-        1 string data = "You squeeze the liquid into the pump through a small access port. It immediately starts to screech and shudder."
+        1 string data = "小さなアクセスポートから液体をポンプに注ぎ込む。すぐにきしみ始め、振動し始める。"
        [8]
-        1 string data = "Sabotage the machine with thousand island dressing."
+        1 string data = "サウザンドアイランドドレッシングで機械を妨害する。"
        [9]
-        1 string data = "You squeeze the liquid into the pump through a small access port. It immediately starts to screech and shudder. The hydraulic piston starts to leak oil."
+        1 string data = "小さなアクセスポートから液体をポンプに注ぎ込む。すぐにきしみ始め、振動し始める。油圧ピストンからオイルが漏れ始める。"
        [10]
-        1 string data = "Inside the hatch is a capped port for adding oil to the system and more schematics and diagrams. "
+        1 string data = "ハッチの内部にはシステムにオイルを追加するためのキャップ付きポートと、さらに多くの設計図と図面がある。"
        [11]
-        1 string data = "Open the access hatch. "
+        1 string data = "アクセスハッチを開く。"
        [12]
-        1 string data = "Examine the schematics and diagrams."
+        1 string data = "設計図と図面を調べる。"
        [13]
-        1 string data = "The diagrams aren't helpful, but scrawled on one is a note. 'WARNING - certain combinations of organic contaminants, even in small amounts, can cause slippage and jamming. In other words, if you just ate lunch, wash your damn hands before oiling!'"
+        1 string data = "図面は役に立たないが、1枚にメモが走り書きされている。'警告 - 特定の有機汚染物質の組み合わせは、少量でも滑りや詰まりを引き起こす可能性がある。つまり、昼食を食べたばかりなら、オイルを入れる前に手を洗え!'"
        [14]
-        1 string data = "Add random liquids from your packs to access port."
+        1 string data = "荷物からランダムな液体をアクセスポートに加える。"
        [15]
-        1 string data = "That combination of liquids had no noticable effect on the hydraulic pump."
+        1 string data = "その液体の組み合わせは油圧ポンプに目立った効果がなかった。"
        [16]
-        1 string data = "Add ketchup to the access port."
+        1 string data = "ケチャップをアクセスポートに加える。"
        [17]
-        1 string data = "Add mustard to the access port."
+        1 string data = "マスタードをアクセスポートに加える。"
        [18]
-        1 string data = "The acidity of the ketchup briefly disrupts the operation of the pump, but it flushes from the system too quickly. It's not viscous enough."
+        1 string data = "ケチャップの酸性がポンプの動作を一時的に妨害するが、システムから早く流れ出てしまう。粘度が足りない。"
        [19]
-        1 string data = "The viscous mustard thickens the oil mixture and slows it momentarily, but it lacks the acidity to do any lasting damage."
+        1 string data = "粘性のあるマスタードがオイル混合物を濃くして一時的に遅くするが、持続的なダメージを与えるには酸性が足りない。"
        [20]
-        1 string data = "Add mayonnaise to access port."
+        1 string data = "マヨネーズをアクセスポートに加える。"
        [21]
-        1 string data = "The protein-based mayonnaise is too thick to be put into the access port by itself. It needs to be mixed with vegetable-based condiments to make it slightly more liquid. "
+        1 string data = "タンパク質ベースのマヨネーズは単独ではアクセスポートに入れるには濃すぎる。少し液状にするために植物ベースの調味料と混ぜる必要がある。"
    [284]
     0 StringTable data
      1 string Filename = "e4001_minipowercore"
@@ -53193,19 +53193,19 @@
       1 Array Array (7 items)
        0 int size = 7
        [0]
-        1 string data = "Loading Mini-Power Core Controller.\nPlease select an option."
+        1 string data = "ミニパワーコアコントローラーを読み込み中。\nオプションを選択してください。"
        [1]
-        1 string data = "System Offline. Please speak to a supervisor."
+        1 string data = "システムオフライン。監督者にお問い合わせください。"
        [2]
-        1 string data = "Begin Experiment"
+        1 string data = "実験を開始"
        [3]
-        1 string data = "Exit"
+        1 string data = "終了"
        [4]
-        1 string data = "Experiment in progress."
+        1 string data = "実験進行中。"
        [5]
         1 string data = "::beep::"
        [6]
-        1 string data = "Commencing."
+        1 string data = "開始中。"
    [285]
     0 StringTable data
      1 string Filename = "e4001_poopmountain"
@@ -53299,45 +53299,45 @@
       1 Array Array (20 items)
        0 int size = 20
        [0]
-        1 string data = "This midden heap is made of shit, decomposing cardboard, random trash, tens of thousands of empty tin cans, and a few human skeletons.  "
+        1 string data = "このゴミの山は糞、腐敗したダンボール、雑多なゴミ、何万もの空き缶、そしていくつかの人骨でできている。"
        [1]
-        1 string data = "This midden heap is made of shit, decomposing cardboard, random trash, tens of thousands of empty tin cans, and a few human skeletons. It no longer contains anything of value, hopefully."
+        1 string data = "このゴミの山は糞、腐敗したダンボール、雑多なゴミ、何万もの空き缶、そしていくつかの人骨でできている。うまくいけば、もう価値のあるものは含まれていない。"
        [2]
-        1 string data = "Dig around the edges of the midden to see if you can find anything."
+        1 string data = "ゴミの山の端を掘って何か見つかるか確認する。"
        [3]
-        1 string data = "This shit isn't worth your time."
+        1 string data = "このクソは時間の無駄だ。"
        [4]
-        1 string data = "Each of your senses revolts in horror as you poke at the shitheap, hoping for treasure."
+        1 string data = "宝を期待してクソの山を突きながら、あなたの全ての感覚が恐怖で反発する。"
        [5]
-        1 string data = "Your curiosity is rewarded. Do you want to dig deeper?"
+        1 string data = "好奇心は報われた。もっと深く掘りたいか?"
        [6]
-        1 string data = "Dig deeper."
+        1 string data = "もっと深く掘る。"
        [7]
-        1 string data = "Going any further would be an insult to your dignity."
+        1 string data = "これ以上進むのは自分の尊厳を侮辱することになる。"
        [8]
-        1 string data = "Your arms turn brown up to the shoulder as you feel around for lost goodies."
+        1 string data = "失われた宝を探しながら、腕が肩まで茶色くなる。"
        [9]
-        1 string data = "Nausea nearly overcomes you as you retrieve more buried bounty. You don't feel well. Do you want to continue?"
+        1 string data = "埋もれた戦利品をさらに回収するにつれ、吐き気が押し寄せてくる。気分が悪い。続けたいか?"
        [10]
-        1 string data = "Wade into that shit."
+        1 string data = "そのクソの中に入っていく。"
        [11]
-        1 string data = "That was far more than enough. You're done."
+        1 string data = "それは十分すぎるほどだった。もう終わりだ。"
        [12]
-        1 string data = "You plunge in, kicking your way to the center of the pile, and covering yourself with rotten trash and a century's worth of excrement in the process."
+        1 string data = "山の中心に蹴り進みながら飛び込み、その過程で腐ったゴミと100年分の排泄物にまみれる。"
        [13]
-        1 string data = "You found something! You also feel sick as a dog, and that stink will never come out of your clothes."
+        1 string data = "何か見つけた! でも犬のように気分が悪くなり、その臭いは服から永久に取れないだろう。"
        [14]
         1 string data = "::splurrch::"
        [15]
-        1 string data = "Thanks to your hazmat suit, you cannot smell or feel the revolting goop you're putting your hands into as you look for treasure."
+        1 string data = "ハズマットスーツのおかげで、宝を探して手を突っ込んでいる吐き気を催すドロドロの臭いも感触も分からない。"
        [16]
-        1 string data = "The arms of your hazmat suit turn brown up to the shoulder as you feel around for lost goodies. Inside it, however, you remain undefiled."
+        1 string data = "ハズマットスーツの腕が肩まで茶色くなりながら失われた宝を探す。しかしその中では、汚れていない。"
        [17]
-        1 string data = "Completely protected by your hazmat suit, you kick your way to the center of the pile, covering it with rotten trash and a century's worth of excrement in the process."
+        1 string data = "ハズマットスーツに完全に守られて、山の中心に蹴り進み、その過程でスーツを腐ったゴミと100年分の排泄物で覆う。"
        [18]
-        1 string data = "Success! You found something!  After stepping from the pile, you sluice off the suit with a little water from your supply and you're as good as new."
+        1 string data = "成功! 何か見つけた! 山から出た後、補給品の水でスーツを洗い流せば元通りだ。"
        [19]
-        1 string data = "Youy retrieve more buried bounty without any nausea or discomfort. Your squadmates, however, are looking at you askance."
+        1 string data = "吐き気も不快感もなく埋もれた戦利品をさらに回収する。しかし分隊の仲間たちは横目で見ている。"
    [286]
     0 StringTable data
      1 string Filename = "e4001_scientist"
@@ -53531,95 +53531,95 @@
       1 Array Array (45 items)
        0 int size = 45
        [0]
-        1 string data = ""Greetings in the name of the Holy Detonation. How may I help you?""
+        1 string data = ""聖なる爆発の名において挨拶する。何かお手伝いできることは?""
        [1]
-        1 string data = ""What are you doing here?""
+        1 string data = ""ここで何をしているんだ?""
        [2]
-        1 string data = ""Can you show us your experiments?""
+        1 string data = ""実験を見せてもらえるか?""
        [3]
-        1 string data = ""Goodbye.""
+        1 string data = ""さようなら。""
        [4]
-        1 string data = ""I'm studying the effects of holy radiation on the beneficial properties of certain species of therapeutic mushrooms. If the sacred fire can transform the worthy into angels, what could it do to common fungi?""
+        1 string data = ""私は聖なる放射線が特定の薬用キノコの有益な特性にどのような影響を与えるか研究している。聖なる炎が相応しい者を天使に変えられるなら、普通のキノコには何ができるだろう?""
        [5]
-        1 string data = ""Of course! The key is the mini particle accelerator. Let me show you how it works.""
+        1 string data = ""もちろん! 鍵はミニ粒子加速器だ。どう動くか見せよう。""
        [6]
-        1 string data = ""May the Holy Detonation's blessings be upon you.""
+        1 string data = ""聖なる爆発の祝福があなたに。""
        [7]
-        1 string data = ""Of course! That one's my favorite. Follow me.""
+        1 string data = ""もちろん! これは私のお気に入りだ。ついてきて。""
        [8]
         1 string data = ""
        [9]
-        1 string data = ""You see, just like in the real one, the mini power core is energized by the particle accelerator, then rises into position and fires a calibration pulse of radioactive energy to sync with the energy accumulator.""
+        1 string data = ""見てのとおり、本物と同じように、ミニパワーコアは粒子加速器によってエネルギーを与えられ、位置まで上昇してエネルギー蓄電器と同期するために放射性エネルギーの較正パルスを発射する。""
        [10]
-        1 string data = ""After the calibration pulse, the power core discharges its radioactive energy into the accumulator, then retracts to start the next cycle.""
+        1 string data = ""較正パルスの後、パワーコアは放射性エネルギーを蓄電器に放出し、次のサイクルを開始するために引っ込む。""
        [11]
-        1 string data = ""Want to sell any of this stuff?""
+        1 string data = ""このものを売ってくれないか?""
        [12]
-        1 string data = ""Sell? We Nucleists have no use for money. The Holy Detonation gives us all we need. But... well, I suppose I could do something with whatever you gave me. All right. Here are some things you might like.""
+        1 string data = ""売る? 我々ヌクレイストには金は必要ない。聖なる爆発が必要なものを全て与えてくれる。だが...まあ、何かくれれば何かできるかもしれない。よし。気に入るかもしれないものがある。""
        [13]
         1 string data = ""
        [14]
-        1 string data = ""What a curious specimen.""
+        1 string data = ""なんと興味深い検体だ。""
        [15]
-        1 string data = ""Hmmm. Specimen appears edible.""
+        1 string data = ""ふむ。検体は食用可能なようだ。""
        [16]
-        1 string data = ""Colorization is exquisite.""
+        1 string data = ""色合いが素晴らしい。""
        [17]
-        1 string data = ""Sister Autunite, is that you? I... Oh, who in the name of the Holy Detonation are you?""
+        1 string data = ""シスター・オータナイト、あなたか? 私...ああ、聖なる爆発の名において、お前たちは誰だ?""
        [18]
-        1 string data = ""Uh... we're recent converts. What are you doing here, brother?""
+        1 string data = ""えーと...最近改宗した者だ。ここで何をしているんだ、兄弟?""
        [19]
-        1 string data = ""We're asking the questions. What is all this stuff?""
+        1 string data = ""質問するのは俺たちだ。これは全部何だ?""
        [20]
-        1 string data = ""We were sent here by the Primordialists. What is this place?""
+        1 string data = ""プライモーディアリストに送られてきた。ここは何だ?""
        [21]
-        1 string data = ""Oh, well then, welcome, novices. I'm Brother Bismuth, and this is my lab, where I study the effects of holy radiation on the beneficial properties of certain species of therapeutic mushrooms.""
+        1 string data = ""ああ、それならようこそ、新入り。私はブラザー・ビスマス、ここは私の研究室で、聖なる放射線が特定の薬用キノコの有益な特性にどのような影響を与えるか研究している。""
        [22]
-        1 string data = ""The Primordialists? I thought we were at war with them. Oh well, never mind. I'm always the last to know.""
+        1 string data = ""プライモーディアリスト? 彼らとは戦争中だと思っていた。まあいい、気にしないで。私はいつも最後に知るんだ。""
        [23]
-        1 string data = ""Er... I see. Well, I'm Brother Bismuth, and this is my lab, where I study the effects of holy radiation on the beneficial properties of certain species of therapeutic mushrooms.""
+        1 string data = ""えー...分かった。私はブラザー・ビスマス、ここは私の研究室で、聖なる放射線が特定の薬用キノコの有益な特性にどのような影響を与えるか研究している。""
        [24]
-        1 string data = ""My theory is, that if the sacred fire can transform the worthy into angels, what could it do to common fungi, eh? And the results have been fascinating.""
+        1 string data = ""私の理論は、聖なる炎が相応しい者を天使に変えられるなら、普通のキノコには何ができるかということだ。そして結果は魅力的だった。""
        [25]
-        1 string data = ""Anyway, I'm Brother Bismuth, and this is my lab, where I study the effects of holy radiation on the beneficial properties of certain species of therapeutic mushrooms.""
+        1 string data = ""とにかく、私はブラザー・ビスマス、ここは私の研究室で、聖なる放射線が特定の薬用キノコの有益な特性にどのような影響を与えるか研究している。""
        [26]
-        1 string data = ""Well, I've got two running right now. In one, I'm dipping mushrooms into a bath of holy radiation and then freezing them to see if that increases their effectiveness.""
+        1 string data = ""今、2つの実験を行っている。1つでは、キノコを聖なる放射線の風呂に浸してから凍らせて効果が高まるか見ている。""
        [27]
-        1 string data = ""In the other, I'm using a working model of the particle accelerator down the hall to blast mushrooms with more concentrated holy radiation.""
+        1 string data = ""もう1つでは、廊下にある粒子加速器の作業モデルを使ってより濃縮された聖なる放射線でキノコを照射している。""
        [28]
-        1 string data = ""Can you show us the radiation bath experiment?""
+        1 string data = ""放射線風呂の実験を見せてもらえるか?""
        [29]
-        1 string data = ""Can you show us the particle accelerator experiment?""
+        1 string data = ""粒子加速器の実験を見せてもらえるか?""
        [30]
-        1 string data = ""Thanks for the info.""
+        1 string data = ""情報ありがとう。""
        [31]
-        1 string data = ""Actually, if you wanted to give it a go, I'd welcome the help. It's a bit of a chore trying all the different combinations of mushrooms and radiation and cryo exposure.""
+        1 string data = ""実は、やってみたいなら手伝いを歓迎する。キノコと放射線と極低温への曝露のあらゆる組み合わせを試すのは少し大変なんだ。""
        [32]
-        1 string data = ""You can look at my notes for the exposure times, etc, and then just set the machine. It automatically takes core samples from the mushrooms and records the data, so you could keep the ones you complete, if you want.""
+        1 string data = ""私のメモで曝露時間などを見て、機械を設定するだけでいい。自動的にキノコのコアサンプルを採取してデータを記録するから、完成したものは持っていっていい。""
        [33]
-        1 string data = ""Of course.""
+        1 string data = ""もちろん。""
        [34]
         1 string data = ""
        [35]
-        1 string data = ""Can you tell us about your experiments?""
+        1 string data = ""実験について教えてくれないか?""
        [36]
-        1 string data = ""Can you tell us about your experiments again?""
+        1 string data = ""もう一度実験について教えてくれないか?""
        [37]
-        1 string data = ""Well, I already told you about the radiation bath experiment, so let me show you the particle accelerator one, that's my favorite.""
+        1 string data = ""すでに放射線風呂の実験は説明したから、粒子加速器のを見せよう、これがお気に入りだ。""
        [38]
-        1 string data = ""Well, I already showed you the particle accelerator experiment, so that leaves the radiation bath one, and well, hmmm...""
+        1 string data = ""すでに粒子加速器の実験は見せたから、放射線風呂のが残っている、まあ、うーん...""
        [39]
-        1 string data = ""Follow me.""
+        1 string data = ""ついてきて。""
        [40]
-        1 string data = ""I'm afraid I've already explained everything I'm working on. Sorry.""
+        1 string data = ""残念だが、研究していることは全て説明した。すまない。""
        [41]
-        1 string data = ""Ah, it's you again. How can I help you.""
+        1 string data = ""ああ、また来たか。何か手伝えることは?""
        [42]
-        1 string data = ""Thus, timing is critical in this experiment. One must place the mushroom so it is struck by the calibration pulse, which is beneficial, but remove it before the main blast, which can destroy it.""
+        1 string data = ""したがって、この実験ではタイミングが重要だ。キノコを較正パルスに当たる位置に置く必要がある、これは有益だが、破壊する可能性のあるメインブラストの前に取り除く必要がある。""
        [43]
-        1 string data = ""Heh heh. The same would be true for anyone who entered the real accelerator while it was operating. The calibration pulse would give them a lovely glow. The main blast would incinerate them. But what sort of fool would do such a thing?""
+        1 string data = ""ふふふ。本物の加速器が稼働中に入った人にも同じことが言える。較正パルスは素敵な輝きを与える。メインブラストは焼却する。でもそんな馬鹿なことをする奴がいるか?""
        [44]
-        1 string data = ""If you're interested. Certainly.""
+        1 string data = ""興味があるなら。もちろん。""
    [287]
     0 StringTable data
      1 string Filename = "e4001_stowaway_female"
@@ -53705,41 +53705,41 @@
       1 Array Array (18 items)
        0 int size = 18
        [0]
-        1 string data = ""Privyet, comrade.""
+        1 string data = ""プリヴィエット、同志よ。""
        [1]
-        1 string data = ""How long have you been here?""
+        1 string data = ""ここにどれくらいいるの？""
        [2]
-        1 string data = ""Goodbye.""
+        1 string data = ""さようなら。""
        [3]
-        1 string data = ""Do svidaniya, comrade.""
+        1 string data = ""ダスヴィダーニャ、同志よ。""
        [4]
-        1 string data = ""Was born here, many years ago. We take what we need from base to survive.""
+        1 string data = ""ここで生まれた、何年も前に。基地から必要なものを取って生き延びている。""
        [5]
-        1 string data = ""We cannot leave until mission is completed. Signal from Moscow could arrive at any time. We must be ready!""
+        1 string data = ""任務が完了するまで離れられない。モスクワからの信号はいつ届くかわからない。準備しておかねば！""
        [6]
-        1 string data = ""Do you want to leave?""
+        1 string data = ""ここを出たいの？""
        [7]
         1 string data = ""
        [8]
-        1 string data = ""Shhhhh, we must listen for signal from Russia.""
+        1 string data = ""シーッ、ロシアからの信号を聞かねばならない。""
        [9]
-        1 string data = ""Will be leaving soon?""
+        1 string data = ""もうすぐ出ていくのか？""
        [10]
-        1 string data = ""You are in way.""
+        1 string data = ""邪魔だ。""
        [11]
-        1 string data = ""Do not touch food.""
+        1 string data = ""食べ物に触るな。""
        [12]
-        1 string data = ""Privyet, lackey.""
+        1 string data = ""プリヴィエット、下っ端め。""
        [13]
         1 string data = ""
        [14]
-        1 string data = ""Spasibo, comrades. Moscow will shower you with honor for completing mission.""
+        1 string data = ""スパシーバ、同志たちよ。モスクワは任務完了の栄誉を授けてくれるだろう。""
        [15]
-        1 string data = ""The particle accelerator is dead! All hail the politburo!""
+        1 string data = ""粒子加速器は死んだ！政治局万歳！""
        [16]
-        1 string data = ""We go now to claim America for motherland. But first, must eat.""
+        1 string data = ""祖国のためにアメリカを手に入れに行く。だがまず、食事だ。""
        [17]
-        1 string data = ""Is great day, comrades. Great day.""
+        1 string data = ""素晴らしい日だ、同志たちよ。素晴らしい日だ。""
    [288]
     0 StringTable data
      1 string Filename = "e4001_stowaway_male"
@@ -54385,295 +54385,295 @@
       1 Array Array (158 items)
        0 int size = 158
        [0]
-        1 string data = ""H'okay, have proved are loyal agents of glorious Soviet Republic. So we tell special chemicals, but... you cannot use until signal, da?""
+        1 string data = ""よし、栄光あるソビエト共和国の忠実なエージェントだと証明された。特別な化学薬品のことを教えよう、だが...信号が来るまで使ってはならない、ダ？""
        [1]
-        1 string data = ""Is there a way to shut down the particle accelerator?""
+        1 string data = ""粒子加速器を停止させる方法はありますか？""
        [2]
-        1 string data = ""Goodbye.""
+        1 string data = ""さようなら。""
        [3]
-        1 string data = ""Do svidanya.""
+        1 string data = ""ダスヴィダーニャ。""
        [4]
-        1 string data = ""Da. We have plan. Great-great-great-great grandfather's plans say there is hydraulic system next to particle accelerator room. Sabotage with special chemicals, particle accelerator grind to halt.""
+        1 string data = ""ダ。計画がある。高祖父の設計図によると、粒子加速器室の隣に油圧システムがある。特別な化学薬品で破壊工作すれば、粒子加速器は停止する。""
        [5]
-        1 string data = ""Long time ago, great-great-great-great grandfather Boris and great-great-great-great grandmother Natasha are Russian spies. Moscow tell them to sneak into base for secret mission - destroy American particle accelerator.""
+        1 string data = ""昔、高祖父ボリスと高祖母ナターシャはロシアのスパイだった。モスクワは彼らに秘密任務のため基地に潜入するよう命じた──アメリカの粒子加速器を破壊せよと。""
        [6]
-        1 string data = ""What are you doing in here?""
+        1 string data = ""ここで何をしているの？""
        [7]
-        1 string data = ""Ancestors hide here in store room and wait for signal from Moscow to begin destroying. They hear alarm one day, and soldiers evacuate, but signal never comes. So they wait.""
+        1 string data = ""先祖たちはこの倉庫に隠れ、破壊開始のモスクワからの信号を待った。ある日警報が鳴り兵士たちは避難したが、信号は来なかった。だから待った。""
        [8]
-        1 string data = "'What do you know about the experiments in the particle accelerator chamber?""
+        1 string data = "'粒子加速器室の実験について何か知っていますか？""
        [9]
-        1 string data = ""Because is mission.""
+        1 string data = ""任務だからだ。""
        [10]
-        1 string data = ""Da. What Moscow asks, we do.""
+        1 string data = ""ダ。モスクワが求めることを我々はやる。""
        [11]
         1 string data = ""
        [12]
-        1 string data = ""H'okay, then. I give you recipe for ultimate sabotage fluid. Is mix of ketchup, mustard, and mayonnaise. Put in hydraulic system, and... GRRRRR... particle accelerator dead as door nail.""
+        1 string data = ""よし、では教えよう。究極の破壊工作液のレシピだ。ケチャップとマスタードとマヨネーズの混合物だ。油圧システムに入れれば...ガガガッ...粒子加速器は完全に死ぬ。""
        [13]
-        1 string data = ""Here is mayonnaise. Unfortunately, mustard go down hole, and great-great grandfather ate all ketchup, so we cannot make sabotage fluid here. Have been waiting for signal before we go to find other ingredients.""
+        1 string data = ""これがマヨネーズだ。残念ながらマスタードは穴に落ちてしまい、曽祖父がケチャップを全部食べてしまったので、ここでは破壊工作液を作れない。他の材料を探しに行く前に信号を待っていた。""
        [14]
         1 string data = ""
        [15]
-        1 string data = ""What to eat, what to eat?""
+        1 string data = ""何を食べよう、何を食べよう？""
        [16]
-        1 string data = ""Pea soup, maybe?""
+        1 string data = ""エンドウ豆のスープはどうだ？""
        [17]
-        1 string data = ""We had last night. Beef stew?""
+        1 string data = ""昨夜食べた。ビーフシチューは？""
        [18]
-        1 string data = ""We had for lunch. Chicken Kiev?""
+        1 string data = ""昼に食べた。チキンキエフは？""
        [19]
         1 string data = ""
        [20]
-        1 string data = ""Who are you?""
+        1 string data = ""あなたは誰？""
        [21]
-        1 string data = ""Does Russia even exist anymore?""
+        1 string data = ""ロシアはまだ存在しているの？""
        [22]
-        1 string data = ""We are Boris and Natasha, agents of glorious Soviet Republic.""
+        1 string data = ""我々はボリスとナターシャ、栄光あるソビエト共和国のエージェントだ。""
        [23]
-        1 string data = ""Da. Mother Russia.""
+        1 string data = ""ダ。母なるロシアだ。""
        [24]
-        1 string data = ""Of course motherland exists, capitalist lackey!""
+        1 string data = ""もちろん祖国は存在する、資本主義の手先め！""
        [25]
-        1 string data = ""It is America who is dead!""
+        1 string data = ""死んだのはアメリカの方だ！""
        [26]
-        1 string data = ""Great-great-great-great grandfather and grandmother? So... who are your parents?""
+        1 string data = ""高祖父と高祖母？じゃあ...あなたたちの両親は誰？""
        [27]
-        1 string data = ""Father Boris and Mother Natasha, son and daughter of grandfather Boris and grandmother Natasha, who are son and daughter of great grandfather Boris and great grandmother Natasha, and so on, and so on.""
+        1 string data = ""父ボリスと母ナターシャ、祖父ボリスと祖母ナターシャの息子と娘で、彼らは曽祖父ボリスと曽祖母ナターシャの息子と娘で、以下同様、以下同様。""
        [28]
-        1 string data = ""I have great honor to be Natasha the sixth.""
+        1 string data = ""私はナターシャ6世という大いなる名誉を持つ。""
        [29]
-        1 string data = ""You've been here since you were born, waiting for this signal?""
+        1 string data = ""生まれた時からここで信号を待っていたの？""
        [30]
-        1 string data = ""The great enemies! You know their names!""
+        1 string data = ""偉大なる敵だ！その名を知っているのか！""
        [31]
-        1 string data = ""We await their coming since we are babies, but so far, nothing. Cowards.""
+        1 string data = ""赤ん坊の頃から彼らが来るのを待っているが、今のところ何もない。臆病者め。""
        [32]
         1 string data = ""
        [33]
-        1 string data = ""Why do you want to destroy the particle accelerator?""
+        1 string data = ""なぜ粒子加速器を破壊したいの？""
        [34]
-        1 string data = ""Uh, when was the last time you heard from Moscow?""
+        1 string data = ""えーと、最後にモスクワから連絡があったのはいつ？""
        [35]
-        1 string data = ""Ah... never. We wait for signal, like father and mother, and grandfather and grandmother, and all ancestors before them.""
+        1 string data = ""ああ...一度もない。父と母のように、祖父と祖母のように、その前の全ての先祖のように、信号を待っている。""
        [36]
-        1 string data = ""It will come! It must!""
+        1 string data = ""来る！必ず来る！""
        [37]
-        1 string data = ""Ha! Trick will not work. We are too strong!""
+        1 string data = ""ハッ！その手には乗らん。我々は強いのだ！""
        [38]
         1 string data = ""
        [39]
-        1 string data = ""Is there a way to shut down the particle accelerator?""
+        1 string data = ""粒子加速器を停止させる方法はありますか？""
        [40]
-        1 string data = ""Could we help you with this plan? What are the special chemicals?""
+        1 string data = ""その計画を手伝えますか？特別な化学薬品とは何ですか？""
        [41]
-        1 string data = ""Hmmm, you are loyal agents of glorious Soviet Republic. So, h'okay, we tell, but... you cannot use until signal, da?""
+        1 string data = ""うーむ、お前たちは栄光あるソビエト共和国の忠実なエージェントだな。よし、教えよう、だが...信号が来るまで使ってはならない、ダ？""
        [42]
-        1 string data = ""Uh, yes. Comrades. That's what we are.""
+        1 string data = ""ああ、はい。同志です。私たちはそうです。""
        [43]
-        1 string data = ""We're Arizona Rangers. Who are you?""
+        1 string data = ""私たちはアリゾナ・レンジャーズだ。あなたたちは誰？""
        [44]
-        1 string data = ""Hmmmm. Have not yet proved are loyal agents of glorious Soviet Republic. Now you will. We have test.""
+        1 string data = ""ふーむ。まだ栄光あるソビエト共和国の忠実なエージェントだと証明されていない。今から証明してもらう。テストがある。""
        [45]
-        1 string data = ""One question only. Who is greatest enemy of glorious Soviet Republic?""
+        1 string data = ""質問は一つだけ。栄光あるソビエト共和国の最大の敵は誰だ？""
        [46]
-        1 string data = ""Air-ee-zona. Hmmm. Is American name?"\n\n\n::gasps:: "You double agents. Trying to learn secrets. You will not trick us, capitalist pigs!""
+        1 string data = ""ア・リ・ゾ・ナ。ふーむ。アメリカの名前か？"\n\n\n::gasps:: "お前たちは二重スパイだ。秘密を探ろうとしている。騙されんぞ、資本主義の豚め！""
        [47]
-        1 string data = ""The United States of America.""
+        1 string data = ""アメリカ合衆国。""
        [48]
-        1 string data = ""NATO.""
+        1 string data = ""NATO。""
        [49]
-        1 string data = ""Moose and Squirrel.""
+        1 string data = ""ムースとリス。""
        [50]
-        1 string data = ""Da. It will come. Russia is greatest country in the world.""
+        1 string data = ""ダ。来る。ロシアは世界最高の国だ。""
        [51]
-        1 string data = ""Fearless leaders will not fail us.""
+        1 string data = ""恐れを知らぬ指導者たちは我々を裏切らない。""
        [52]
-        1 string data = ""Good guess, capitalist pigs. But wrong! You are not loyal agents of the glorious Soviet Republic. You are... s-s-s-spies! Oh no!""
+        1 string data = ""いい推測だ、資本主義の豚め。だが間違いだ！お前たちは栄光あるソビエト共和国の忠実なエージェントではない。お前たちは...ス・ス・スパイだ！なんてことだ！""
        [53]
-        1 string data = ""Bah! Not even close. You are not loyal agents of the glorious Soviet Republic. You are... s-s-s-spies! Oh no!""
+        1 string data = ""バッ！全然違う。お前たちは栄光あるソビエト共和国の忠実なエージェントではない。お前たちは...ス・ス・スパイだ！なんてことだ！""
        [54]
-        1 string data = ""No chemicals for you!""
+        1 string data = ""お前たちに化学薬品はやらん！""
        [55]
-        1 string data = ""Give us the secret chemicals or we'll kill you.""
+        1 string data = ""秘密の化学薬品を渡せ、さもなくば殺す。""
        [56]
-        1 string data = ""Boris, we must be strong. Do not give secret of secret chemicals.""
+        1 string data = ""ボリス、強くあらねば。秘密の化学薬品の秘密を教えてはならない。""
        [57]
-        1 string data = ""But, sister-wife, if die, cannot complete mission. We will fail Mother Russia and fearless leaders.""
+        1 string data = ""だが、妹妻よ、死んでは任務を完了できない。母なるロシアと恐れを知らぬ指導者たちを裏切ることになる。""
        [58]
-        1 string data = ""You are right, brother-husband. Secret of secret chemicals must be sacrificed. For great cause.""
+        1 string data = ""その通りだ、兄夫よ。秘密の化学薬品の秘密は犠牲にせねばならない。大義のために。""
        [59]
-        1 string data = ""H'okay, pig dogs. You win.  I give you recipe for ultimate sabotage fluid. Is mix of ketchup, mustard, and mayonnaise. Put in hydraulic system, and... GRRRRR... particle accelerator dead as door nail.""
+        1 string data = ""よし、豚犬め。お前たちの勝ちだ。究極の破壊工作液のレシピを教えよう。ケチャップとマスタードとマヨネーズの混合物だ。油圧システムに入れれば...ガガガッ...粒子加速器は完全に死ぬ。""
        [60]
-        1 string data = ""Now go. Leave us to our shame.""
+        1 string data = ""さあ行け。我々を恥辱と共に残していけ。""
        [61]
-        1 string data = ""Do svidanya.""
+        1 string data = ""ダスヴィダーニャ。""
        [62]
-        1 string data = ""Goodbye.""
+        1 string data = ""さようなら。""
        [63]
-        1 string data = ""How about mystery can?""
+        1 string data = ""謎の缶詰はどうだ？""
        [64]
-        1 string data = ""No. Not mystery can. Never again.""
+        1 string data = ""いや。謎の缶詰は駄目だ。二度とごめんだ。""
        [65]
-        1 string data = ""Then what?""
+        1 string data = ""じゃあ何を？""
        [66]
-        1 string data = ""Natasha! Someone enter secret base! Who are they? Where is gun?""
+        1 string data = ""ナターシャ！誰かが秘密基地に入ってきた！誰だ？銃はどこだ？""
        [67]
-        1 string data = ""Actually, the signal came, but it couldn't penetrate the store room walls. We carried out the mission.""
+        1 string data = ""実は、信号は来たんだが、倉庫の壁を通過できなかった。我々が任務を遂行した。""
        [68]
-        1 string data = ""What? You mean we have been waiting in secret base for six generations and would never have heard signal?""
+        1 string data = ""何だと？つまり6世代も秘密基地で待っていたのに、信号は聞こえなかったということか？""
        [69]
-        1 string data = ""And it just happen to come while you are outside store room?""
+        1 string data = ""そしてお前たちが倉庫の外にいる時にたまたま来たと？""
        [70]
-        1 string data = ""Speak, interlopers. Are American pigs? Are comrades?""
+        1 string data = ""話せ、侵入者ども。アメリカの豚か？同志か？""
        [71]
-        1 string data = ""I think went down hole. What we do, Boris? Mother and father never prepare us for invasion!""
+        1 string data = ""穴に落ちたと思う。どうする、ボリス？父も母も侵入に対する備えを教えてくれなかった！""
        [72]
-        1 string data = ""Wait. You're Russians? How long have you been here?""
+        1 string data = ""待って。あなたたちはロシア人？どれくらいここにいるの？""
        [73]
-        1 string data = "[Arrest] "You're the spies, ruskies. Hands behind your backs!""
+        1 string data = "[Arrest] "スパイはお前たちだ、ロシア野郎。手を後ろに回せ！""
        [74]
-        1 string data = ""Capitalist lackeys! Will never take alive! Natasha, cyanide pills! For motherland!""
+        1 string data = ""資本主義の手先め！生きては捕まらんぞ！ナターシャ、シアン化物の錠剤だ！祖国のために！""
        [75]
-        1 string data = ""Da, Boris! For motherland!""
+        1 string data = ""ダ、ボリス！祖国のために！""
        [76]
-        1 string data = ""Aggghhh...""
+        1 string data = ""アガァァ...""
        [77]
-        1 string data = ""Erghhh...""
+        1 string data = ""エルグゥ...""
        [78]
-        1 string data = ""No answers for spies. Only comrades. So, are American? Are comrades?""
+        1 string data = ""スパイには答えん。同志にだけだ。それで、アメリカ人か？同志か？""
        [79]
-        1 string data = ""Wait, Natasha, wait! They have decoder ring! Are comrades!""
+        1 string data = ""待て、ナターシャ、待て！デコーダーリングを持っている！同志だ！""
        [80]
-        1 string data = ""Hmmm. Maybe are comrades, maybe are not. But, h'okay, we trust for now. Welcome, provisional comrades. What news from mother Russia?""
+        1 string data = ""ふーむ。同志かもしれないし、そうでないかもしれない。だが、よし、今は信じよう。ようこそ、仮同志たちよ。母なるロシアからの便りは？""
        [81]
-        1 string data = ""True. Hmmm. Well, we interogate, then. Speak, interlopers. Are American pigs? Are comrades?""
+        1 string data = ""そうだな。ふーむ。では尋問しよう。話せ、侵入者ども。アメリカの豚か？同志か？""
        [82]
-        1 string data = ""No. I... Wait. Is signal from Moscow?""
+        1 string data = ""いや、俺は...待て。モスクワからの信号か？""
        [83]
-        1 string data = ""No. Is nothing. So, what to eat?""
+        1 string data = ""いや。何でもない。で、何を食べる？""
        [84]
-        1 string data = ""Is good plan. Have had six generations to make.""
+        1 string data = ""良い計画だ。6世代かけて作った。""
        [85]
-        1 string data = ""Must wait for word from Moscow. It is part of plan. Promise?""
+        1 string data = ""モスクワからの指示を待たねばならない。計画の一部だ。約束できるか？""
        [86]
-        1 string data = ""We promise.""
+        1 string data = ""約束する。""
        [87]
-        1 string data = ""You'll have to trust us.""
+        1 string data = ""信じてもらうしかない。""
        [88]
-        1 string data = ""You are spies after all! You want to steal secret!""
+        1 string data = ""やはりスパイだったか！秘密を盗もうとしている！""
        [89]
-        1 string data = ""Wait a minute. Loyal agents of glorious Soviet Republic would promise without hesitation.""
+        1 string data = ""ちょっと待て。栄光あるソビエト共和国の忠実なエージェントなら、躊躇なく約束するはずだ。""
        [90]
-        1 string data = ""Remember! No matter how tasty, do not eat mayonnaise! Is key ingredient. Ketchup and mustard without mayonnaise is okay. Slow down particle accelerator a little. But <i>with</i> mayo, ultimate sabotage!""
+        1 string data = ""覚えておけ！どんなに美味しそうでも、マヨネーズを食べるな！重要な材料だ。ケチャップとマスタードだけでもいい。粒子加速器を少し遅くする。だが<i>マヨ入り</i>なら、究極の破壊工作だ！""
        [91]
-        1 string data = ""What happened to your parents and grandparents?""
+        1 string data = ""両親や祖父母はどうなったの？""
        [92]
-        1 string data = ""Sometimes we hear voices from hole. Wonder if ghosts of parents. But good Russians do not believe in superstitions, so we know is hallucinations instead.""
+        1 string data = ""時々穴から声が聞こえる。両親の幽霊かと思う。だが良きロシア人は迷信を信じない、だから幻聴だとわかっている。""
        [93]
-        1 string data = ""When they die we give great send off, then they go down hole like all things.""
+        1 string data = ""死んだ時は盛大に送り出し、全てのものと同じく穴に落とす。""
        [94]
-        1 string data = ""Have you ever left this store room?""
+        1 string data = ""この倉庫から出たことはある？""
        [95]
-        1 string data = ""You mean secret base? Nyet.""
+        1 string data = ""秘密基地のことか？ニェット。""
        [96]
-        1 string data = ""Great-great Grandmother went out once. Brought back cartoon tape with secret messages from fearless leader in Moscow.""
+        1 string data = ""高祖母が一度出た。モスクワの恐れを知らぬ指導者からの秘密のメッセージが入ったアニメのテープを持ち帰った。""
        [97]
-        1 string data = ""Tape went down hole too. Like gun and soap and wind-up dog...""
+        1 string data = ""テープも穴に落ちた。銃や石鹸やゼンマイ仕掛けの犬のように...""
        [98]
-        1 string data = ""And Aeroflot in-flight magazine, and mustard. Everything goes down hole.""
+        1 string data = ""アエロフロートの機内誌やマスタードも。全て穴に落ちる。""
        [99]
-        1 string data = ""Was forgetting about mustard. Now I want to cry. Will never have such flavor again.""
+        1 string data = ""マスタードのことを忘れていた。泣きたくなる。あの味は二度と味わえない。""
        [100]
-        1 string data = ""Do you poop down the hole too?""
+        1 string data = ""穴でウンコもするの？""
        [101]
-        1 string data = ""Like we say, everything goes down hole.""
+        1 string data = ""言った通り、全て穴に落ちる。""
        [102]
-        1 string data = ""Comrades, you return."\n\n\n"
+        1 string data = ""同志たちよ、戻ってきたか。"\n\n\n"
        [103]
-        1 string data = ""Signal has not come. I hope you have not sabotaged particle accelerator with secret formula.""
+        1 string data = ""信号はまだ来ていない。秘密の調合で粒子加速器を破壊工作していないことを願う。""
        [104]
-        1 string data = ""We didn't wait for the signal. We just went ahead and sabotaged the particle accelerator.""
+        1 string data = ""信号を待たなかった。そのまま粒子加速器を破壊工作した。""
        [105]
-        1 string data = ""Don't worry. We haven't messed with the particle accelerator yet.""
+        1 string data = ""心配するな。まだ粒子加速器には手を出していない。""
        [106]
-        1 string data = ""Such shame cannot be endured. Natasha, the cyanide pills! We must redeem ourselves in eyes of motherland.""
+        1 string data = ""そのような恥辱は耐えられない。ナターシャ、シアン化物の錠剤だ！祖国の目に我々を贖わねばならない。""
        [107]
-        1 string data = ""Good. Thank you.""
+        1 string data = ""よし。ありがとう。""
        [108]
-        1 string data = ""A miracle! Bojemoi!""
+        1 string data = ""奇跡だ！ボージェモイ！""
        [109]
-        1 string data = ""At last it is done! Thank you! You are a credit to Mother Russia!""
+        1 string data = ""ついに成し遂げた！ありがとう！母なるロシアの誇りだ！""
        [110]
-        1 string data = ""We will be killed in middle of red square!""
+        1 string data = ""赤の広場のど真ん中で処刑されるぞ！""
        [111]
-        1 string data = ""Oh no! Is disaster! Moscow will be furious!""
+        1 string data = ""なんてことだ！大惨事だ！モスクワは激怒するぞ！""
        [112]
-        1 string data = ""Signal has still not come. I hope you have still not sabotaged particle accelerator.""
+        1 string data = ""信号はまだ来ていない。まだ粒子加速器を破壊工作していないことを願う。""
        [113]
         1 string data = ""
        [114]
-        1 string data = ""Thank you again for completing mission.""
+        1 string data = ""任務を完了してくれて改めて感謝する。""
        [115]
-        1 string data = ""We prepare now to explore new Russian territory.""
+        1 string data = ""今から新しいロシア領土を探索する準備をする。""
        [116]
-        1 string data = ""All glory to the Soviet Socialist Republic.""
+        1 string data = ""ソビエト社会主義共和国に栄光あれ。""
        [117]
-        1 string data = ""We will leave soon. Just have to find boots.""
+        1 string data = ""もうすぐ出発する。ブーツを見つけるだけだ。""
        [118]
-        1 string data = ""We're not the double agents, you are! You're Americans in disguise!""
+        1 string data = ""二重スパイは私たちじゃない、あなたたちだ！変装したアメリカ人だろう！""
        [119]
-        1 string data = "[Arrest] "Fine. You got us. Now you're under arrest. In the name of the United States of America!""
+        1 string data = "[Arrest] "わかった。バレたな。お前たちを逮捕する。アメリカ合衆国の名において！""
        [120]
-        1 string data = ""How you dare! We are loyal agents of the glorious Soviet Republic! Ask anything! We prove!""
+        1 string data = ""何を言う！我々は栄光あるソビエト共和国の忠実なエージェントだ！何でも聞け！証明する！""
        [121]
-        1 string data = ""We're comrades, but it's pretty clear you're not. We've never heard less convincing Russian accents in our lives.""
+        1 string data = ""私たちは同志だが、あなたたちは明らかに違う。こんな説得力のないロシア訛りは聞いたことがない。""
        [122]
-        1 string data = ""How you dare! We are Russian to bone! Ask anything! We prove!""
+        1 string data = ""何を言う！我々は骨の髄までロシア人だ！何でも聞け！証明する！""
        [123]
         1 string data = "Script Node 128"
        [124]
         1 string data = ""
        [125]
-        1 string data = ""Wh-what? Ewww!""
+        1 string data = ""な、何？うわぁ！""
        [126]
-        1 string data = ""You gotta do what you gotta do.""
+        1 string data = ""やるしかない時はやるしかない。""
        [127]
-        1 string data = ""Keepin' in the family, huh? Wow.""
+        1 string data = ""家族内で済ませているのか？すごいな。""
        [128]
-        1 string data = ""Er, you know there are genetic dangers to that practice.""
+        1 string data = ""えーと、その習慣には遺伝的な危険があるって知ってる？""
        [129]
-        1 string data = ""Reminds me of a song I heard once. 'I'm my own grandpa.'""
+        1 string data = ""昔聞いた歌を思い出す。『自分のおじいちゃん』っていう歌。""
        [130]
-        1 string data = ""What? Oh. Oh! Oh no!""
+        1 string data = ""何？ああ。ああ！なんてこった！""
        [131]
-        1 string data = ""Ha! Incest. It runs in the family.""
+        1 string data = ""ハッ！近親相姦か。家系に脈々と続いているな。""
        [132]
-        1 string data = ""That's gross.""
+        1 string data = ""気持ち悪い。""
        [133]
-        1 string data = ""Ha ha ha! Not many branches on your family tree, are there!?""
+        1 string data = ""ハハハ！お前たちの家系図、枝が少ないんじゃないか！？""
        [134]
-        1 string data = ""We're Arizona Rangers. Now you answer our question. Who are you?""
+        1 string data = ""私たちはアリゾナ・レンジャーズだ。今度は私たちの質問に答えろ。あなたたちは誰？""
        [135]
-        1 string data = ""Wait, you're Russians? How long have you been here?""
+        1 string data = ""待って、あなたたちはロシア人？どれくらいここにいるの？""
        [136]
-        1 string data = ""Come on. You're not Russians. We've never heard less convincing Russian accents in our lives.""
+        1 string data = ""おいおい。ロシア人じゃないだろう。こんな説得力のないロシア訛りは聞いたことがない。""
        [137]
-        1 string data = ""Long time. Long, long time.""
+        1 string data = ""長い間だ。とても長い間。""
        [138]
-        1 string data = ""Since before we are born. Waiting. Always waiting.""
+        1 string data = ""生まれる前から。待っている。ずっと待っている。""
        [139]
-        1 string data = ""Here is mayonnaise. Unfortunately mustard go down hole, and great great grandfather ate all ketchup, so we cannot make sabotage fluid here. Have been waiting for signal before we go to find other ingredients.""
+        1 string data = ""これがマヨネーズだ。残念ながらマスタードは穴に落ちてしまい、曽祖父がケチャップを全部食べてしまったので、ここでは破壊工作液を作れない。他の材料を探しに行く前に信号を待っていた。""
        [140]
-        1 string data = ""Remember! No matter how tasty, do not eat mayonnaise! Is key ingredient. Ketchup and mustard without mayonnaise is okay. Slow down particle accelerator a little. But <i>with</i> mayo, ultimate sabotage!""
+        1 string data = ""覚えておけ！どんなに美味しそうでも、マヨネーズを食べるな！重要な材料だ。ケチャップとマスタードだけでもいい。粒子加速器を少し遅くする。だが<i>マヨ入り</i>なら、究極の破壊工作だ！""
        [141]
         1 string data = "Script Node 147"
        [142]
         1 string data = "Script Node 148"
        [143]
-        1 string data = ""Oversimplified and insulting national stereotypes.""
+        1 string data = ""単純化されすぎた侮辱的な国民のステレオタイプ。""
        [144]
-        1 string data = ""Capitalism.""
+        1 string data = ""資本主義。""
        [145]
         1 string data = "Script Node 152"
        [146]
@@ -54683,23 +54683,23 @@
        [148]
         1 string data = "Script Node 15"
        [149]
-        1 string data = ""Then what?""
+        1 string data = ""じゃあ何を？""
        [150]
-        1 string data = ""What to eat, what to eat?""
+        1 string data = ""何を食べよう、何を食べよう？""
        [151]
-        1 string data = ""Pea soup, maybe?""
+        1 string data = ""エンドウ豆のスープはどうだ？""
        [152]
-        1 string data = ""We had last night. Beef stew?""
+        1 string data = ""昨夜食べた。ビーフシチューは？""
        [153]
-        1 string data = ""We had for lunch. Chicken Kiev?""
+        1 string data = ""昼に食べた。チキンキエフは？""
        [154]
-        1 string data = ""No. I... Wait. Is signal from Moscow?""
+        1 string data = ""いや、俺は...待て。モスクワからの信号か？""
        [155]
-        1 string data = ""No. Is nothing. So, what to eat?""
+        1 string data = ""いや。何でもない。で、何を食べる？""
        [156]
-        1 string data = ""How about mystery can?""
+        1 string data = ""謎の缶詰はどうだ？""
        [157]
-        1 string data = ""No. Not mystery can. Never again.""
+        1 string data = ""いや。謎の缶詰は駄目だ。二度とごめんだ。""
    [289]
     0 StringTable data
      1 string Filename = "e4001_systemannouncer"
@@ -54871,79 +54871,79 @@
        [0]
         1 string data = ""
        [1]
-        1 string data = ""Raising core zero. Preparing calibration pulse.""
+        1 string data = ""コア0上昇中。キャリブレーションパルス準備中。""
        [2]
-        1 string data = ""Raising core one. Preparing calibration pulse.""
+        1 string data = ""コア1上昇中。キャリブレーションパルス準備中。""
        [3]
-        1 string data = ""Raising core two. Preparing calibration pulse.""
+        1 string data = ""コア2上昇中。キャリブレーションパルス準備中。""
        [4]
-        1 string data = ""Raising core three. Preparing calibration pulse.""
+        1 string data = ""コア3上昇中。キャリブレーションパルス準備中。""
        [5]
-        1 string data = ""Preparing core zero gamma pulse. Extreme radiation burst imminent.""
+        1 string data = ""コア0ガンマパルス準備中。極度の放射線バースト迫る。""
        [6]
-        1 string data = ""Preparing core one gamma pulse. Extreme radiation burst imminent.""
+        1 string data = ""コア1ガンマパルス準備中。極度の放射線バースト迫る。""
        [7]
-        1 string data = ""Preparing core two gamma pulse. Extreme radiation burst imminent.""
+        1 string data = ""コア2ガンマパルス準備中。極度の放射線バースト迫る。""
        [8]
-        1 string data = ""Preparing core three gamma pulse. Extreme radiation burst imminent.""
+        1 string data = ""コア3ガンマパルス準備中。極度の放射線バースト迫る。""
        [9]
-        1 string data = ""Core zero hydraulics failure. Commencing flush and prime sequence.""
+        1 string data = ""コア0油圧系統故障。フラッシュ・プライムシーケンス開始。""
        [10]
-        1 string data = ""Core one hydraulics failure. Commencing flush and prime sequence.""
+        1 string data = ""コア1油圧系統故障。フラッシュ・プライムシーケンス開始。""
        [11]
-        1 string data = ""Core two hydraulics failure. Commencing flush and prime sequence.""
+        1 string data = ""コア2油圧系統故障。フラッシュ・プライムシーケンス開始。""
        [12]
-        1 string data = ""Core three hydraulics failure. Commencing flush and prime sequence.""
+        1 string data = ""コア3油圧系統故障。フラッシュ・プライムシーケンス開始。""
        [13]
-        1 string data = ""Retracting core zero.""
+        1 string data = ""コア0収納中。""
        [14]
-        1 string data = ""Retracting core one.""
+        1 string data = ""コア1収納中。""
        [15]
-        1 string data = ""Retracting core two.""
+        1 string data = ""コア2収納中。""
        [16]
-        1 string data = ""Retracting core three.""
+        1 string data = ""コア3収納中。""
        [17]
-        1 string data = ""Core zero damaged. Preparing discharge pulse. Extreme radiation burst imminent.""
+        1 string data = ""コア0損傷。放電パルス準備中。極度の放射線バースト迫る。""
        [18]
-        1 string data = ""Core one damaged. Preparing discharge pulse. Extreme radiation burst imminent.""
+        1 string data = ""コア1損傷。放電パルス準備中。極度の放射線バースト迫る。""
        [19]
-        1 string data = ""Core two damaged. Preparing discharge pulse. Extreme radiation burst imminent.""
+        1 string data = ""コア2損傷。放電パルス準備中。極度の放射線バースト迫る。""
        [20]
-        1 string data = ""Core three damaged. Preparing discharge pulse. Extreme radiation burst imminent.""
+        1 string data = ""コア3損傷。放電パルス準備中。極度の放射線バースト迫る。""
        [21]
-        1 string data = ""Shutting down core zero.""
+        1 string data = ""コア0シャットダウン中。""
        [22]
-        1 string data = ""Shutting down core one.""
+        1 string data = ""コア1シャットダウン中。""
        [23]
-        1 string data = ""Shutting down core two.""
+        1 string data = ""コア2シャットダウン中。""
        [24]
-        1 string data = ""Shutting down core three.""
+        1 string data = ""コア3シャットダウン中。""
        [25]
-        1 string data = ""Cores offline. Commencing central emitter discharge. Danger! Lethal radiation burst imminent.""
+        1 string data = ""全コアオフライン。中央エミッター放電開始。危険！致死性放射線バースト迫る。""
        [26]
-        1 string data = ""Core zero damaged. Shutdown imminent.""
+        1 string data = ""コア0損傷。シャットダウン迫る。""
        [27]
-        1 string data = ""Core one damaged. Shutdown imminent.""
+        1 string data = ""コア1損傷。シャットダウン迫る。""
        [28]
-        1 string data = ""Core two damaged. Shutdown imminent.""
+        1 string data = ""コア2損傷。シャットダウン迫る。""
        [29]
-        1 string data = ""Core three damaged. Shutdown imminent.""
+        1 string data = ""コア3損傷。シャットダウン迫る。""
        [30]
         1 string data = ""
        [31]
-        1 string data = ""Status report: all online cores are currently lowered. Please raise a power core to begin experiment.""
+        1 string data = ""ステータスレポート：全オンラインコアは現在下降位置。実験開始にはパワーコアを上昇させてください。""
        [32]
-        1 string data = ""Status report: experiment in progess. Power core is raised.""
+        1 string data = ""ステータスレポート：実験進行中。パワーコアは上昇位置。""
        [33]
-        1 string data = ""Status report: experiment in progess. Multiple power cores raised.""
+        1 string data = ""ステータスレポート：実験進行中。複数のパワーコアが上昇位置。""
        [34]
-        1 string data = ""Core status check: Two cores offline. Two cores online.""
+        1 string data = ""コアステータスチェック：2基オフライン。2基オンライン。""
        [35]
-        1 string data = ""Core status check: all cores online.""
+        1 string data = ""コアステータスチェック：全コアオンライン。""
        [36]
-        1 string data = ""Core status check: One core offline. Three cores online.""
+        1 string data = ""コアステータスチェック：1基オフライン。3基オンライン。""
        [37]
-        1 string data = ""Core status check. Three cores offline. One core online.""
+        1 string data = ""コアステータスチェック：3基オフライン。1基オンライン。""
        [38]
         1 string data = ""
    [290]
