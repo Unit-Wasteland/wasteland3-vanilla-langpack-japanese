@@ -25,15 +25,15 @@
   "dlc1": {
     "status": "in_progress",
     "current_file": "StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
-    "current_line": 87703,
+    "current_line": 92221,
     "total_lines": 120559,
-    "entries_completed": 10844,
+    "entries_completed": 11463,
     "total_entries": 38554,
-    "percent_complete": 28.1,
+    "percent_complete": 29.7,
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
-    "notes": "2025-11-23: Session 309 - Worker combatbarks and cassette tapes (103 entries). All validations: 0 errors, 2 warnings."
+    "notes": "2025-11-23: Session 311 - Foreman and Guerilla combatbarks (339 entries). All validations: 0 errors, 2 warnings."
   },
   "dlc2": {
     "status": "not_started",
@@ -43,28 +43,22 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 309,
+    "session_number": 311,
     "date": "2025-11-23",
-    "entries_processed": 103,
+    "entries_processed": 339,
     "sections_completed": [
-      "jenetest_combatbarks_workers (lines 84888-85014) - Worker combat barks 64 entries",
-      "cassettetape_d_steeltown_bennievoicemail (3 entries) - Bennie voicemail",
-      "cassettetape_d_steeltown_bluethronethoughts (5 entries) - Blue throne thoughts",
-      "cassettetape_d_steeltown_ghostganggoofs (8 entries) - Ghost gang pranks on Ravi",
-      "cassettetape_d_steeltown_lettertolouis (2 entries) - Florinda letter to Luis",
-      "cassettetape_d_steeltown_ludlowabuses (8 entries) - Ludlow worker abuse",
-      "cassettetape_d_steeltown_markhamphonerecording (8 entries) - Markham-Blue phone call",
-      "cassettetape_d_steeltown_synthlog (5 entries) - Synth broadcast message"
+      "factoryworkers_foreman_combatbarks (lines 90899-91260) - Factory foreman combat barks 181 entries",
+      "factoryworkers_guerilla_combatbarks (lines 91905-92220) - Guerilla worker combat barks 158 entries"
     ],
-    "commit_hash": "3acc3702",
+    "commit_hash": "pending",
     "validation_passed": true,
-    "notes": "Session 309: Worker combatbarks and cassette tape content. Combat barks for striking workers. Cassette tapes include emotional Blue-Markham dialogue, humorous Ghost Gang pranks, and synth peace message. All validations: 0 errors, 2 warnings (pre-existing HTML).",
-    "next_action": "Continue DLC1 sequential translation from line 87704 (abigailmarkham_combatbarks)."
+    "notes": "Session 311: Factory worker combat barks. Foreman barks for worker leaders, guerilla barks for resistance fighters. All validations: 0 errors, 2 warnings (pre-existing HTML).",
+    "next_action": "Continue DLC1 sequential translation from line 92221 (factoryworkers_mechanic_combatbarks)."
   },
   "cumulative_stats": {
-    "total_sessions": 309,
-    "total_entries_translated": 174279,
-    "untranslated_remaining": 58139,
+    "total_sessions": 311,
+    "total_entries_translated": 174618,
+    "untranslated_remaining": 57800,
     "average_entries_per_session": 564.0,
     "estimated_sessions_remaining_base": 0,
     "estimated_days_remaining_base": "Complete",
