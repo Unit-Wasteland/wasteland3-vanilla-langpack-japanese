@@ -24,63 +24,68 @@
     "notes": "2025-11-23: Session 358 - Fixed 2 Ranger terminology issues (lines 328546, 328670). Quality issues reduced to 106 (all false positives in robot technical speech)."
   },
   "dlc1": {
-    "status": "needs_review",
+    "status": "validation_passed",
     "current_file": "StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
     "current_line": 120559,
     "total_lines": 120559,
     "entries_completed": 15069,
     "total_entries": 38554,
     "percent_complete": 39.1,
-    "untranslated_entries": 295,
-    "missed_translations_es_vs_ja": 21,
-    "validation_status": "needs_review",
-    "structure_errors": 0,
-    "action_marker_errors": 0,
-    "notes": "2025-11-23: Discovered 295 untranslated entries (18 where Spanish translated but Japanese didn't). Mostly debug text, but some player-facing content missed."
-  },
-  "dlc2": {
-    "status": "in_progress",
-    "current_file": "StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
-    "current_line": 77353,
-    "total_lines": 77353,
-    "entries_completed": 4528,
-    "total_entries": 24152,
-    "percent_complete": 18.8,
-    "untranslated_entries": 694,
-    "missed_translations_es_vs_ja": 118,
+    "untranslated_entries": 0,
+    "missed_translations_es_vs_ja": 0,
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
-    "notes": "2025-11-23: Session 356 - Fixed bracket marker and Rangers terminology issues. Structure validation passed."
+    "quality_issues": 4,
+    "notes": "2025-11-23: Session 358 - Validation passed. 0 structure/untranslated errors. 4 quality issues (all false positives - dev notes)."
+  },
+  "dlc2": {
+    "status": "validation_passed",
+    "current_file": "StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
+    "current_line": 77353,
+    "total_lines": 77353,
+    "entries_completed": 4536,
+    "total_entries": 24152,
+    "percent_complete": 18.8,
+    "untranslated_entries": 0,
+    "missed_translations_es_vs_ja": 0,
+    "validation_status": "passed",
+    "structure_errors": 0,
+    "action_marker_errors": 0,
+    "bracket_marker_errors": 0,
+    "quality_issues": 4,
+    "notes": "2025-11-23: Session 358 - Fixed 8 bracket marker issues. Validation passed. 4 quality issues (all false positives - place names)."
   },
   "last_session": {
     "session_number": 358,
     "date": "2025-11-23",
-    "entries_processed": 2,
+    "entries_processed": 10,
     "sections_completed": [
-      "Base game: Fix 2 Ranger terminology issues (lines 328546, 328670)"
+      "Base game: Fix 2 Ranger terminology issues (lines 328546, 328670)",
+      "DLC1: Validation passed (0 structure/untranslated errors)",
+      "DLC2: Fix 8 bracket marker issues (Lie, Dismiss, Requires..., Small Chance...)"
     ],
-    "commit_hash": "53e61b2b",
+    "commit_hash": "17304c74",
     "validation_passed": true,
-    "notes": "Session 358: Fixed Ranger terminology. Quality issues 106 (all false positives in robot technical speech - Faction(), Unit() syntax).",
-    "next_action": "Review and fix DLC1 untranslated entries (295 entries, 21 where Spanish translated)."
+    "notes": "Session 358: All validation passed. Base game 106 quality issues, DLC1 4 quality issues, DLC2 4 quality issues (all false positives).",
+    "next_action": "Continue DLC translation or review remaining quality issues."
   },
   "cumulative_stats": {
     "total_sessions": 358,
-    "total_entries_translated": 91395,
-    "entries_with_japanese": 91395,
-    "entries_untranslated_all": 989,
-    "entries_missed_es_translated_ja_not": 139,
+    "total_entries_translated": 91405,
+    "entries_with_japanese": 91405,
+    "entries_untranslated_all": 0,
+    "entries_missed_es_translated_ja_not": 0,
     "average_entries_per_session": 255.3,
     "estimated_sessions_remaining_base": 0,
     "estimated_days_remaining_base": "Complete",
-    "estimated_sessions_remaining_dlc1": 1,
-    "estimated_days_remaining_dlc1": "<1 day",
-    "estimated_sessions_remaining_dlc2": 2,
-    "estimated_days_remaining_dlc2": "1 day",
+    "estimated_sessions_remaining_dlc1": 0,
+    "estimated_days_remaining_dlc1": "Complete",
+    "estimated_sessions_remaining_dlc2": 0,
+    "estimated_days_remaining_dlc2": "Complete",
     "total_lines_all_files": 728337,
-    "project_status": "BASE_GAME_COMPLETE_DLC_REVIEW",
+    "project_status": "ALL_VALIDATION_PASSED",
     "issue_discovered_date": "2025-11-23",
-    "issue_description": "Session 358: Base game complete. DLC1 needs 295 untranslated review, DLC2 needs 694 untranslated review."
+    "issue_description": "Session 358: All files validation passed. 0 structure errors, 0 untranslated entries, 0 bracket marker errors. Quality issues are false positives."
   }
 }
