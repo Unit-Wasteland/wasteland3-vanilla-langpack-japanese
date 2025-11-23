@@ -65355,73 +65355,73 @@
       1 Array Array (34 items)
        0 int size = 34
        [0]
-        1 string data = "Welcome to the Cryogenics Negative Direction Arc-Power Controller. \r\n\r\nNOTE: battery must be positioned between arc-power plugs to complete circuit. Please enter your command:"
+        1 string data = "低温施設マイナス方向アークパワーコントローラーへようこそ。\r\n\r\n注意：回路を完成させるには、バッテリーをアークパワープラグの間に配置する必要があります。コマンドを入力してください："
        [1]
-        1 string data = "Read user manual."
+        1 string data = "ユーザーマニュアルを読む。"
        [2]
-        1 string data = "Select from the following topics:"
+        1 string data = "以下のトピックから選択してください："
        [3]
-        1 string data = "Moving the battery with the Cryogenics Negative Direction Arc-Power Controller. \r\n"
+        1 string data = "低温施設マイナス方向アークパワーコントローラーでバッテリーを移動する。\r\n"
        [4]
-        1 string data = "Commands from this terminal move the battery in the direction of the negative terminal. "
+        1 string data = "このターミナルからのコマンドは、バッテリーをマイナス端子の方向に移動させます。"
        [5]
-        1 string data = "Movement distances."
+        1 string data = "移動距離。"
        [6]
-        1 string data = "This system will move the battery a specific distance along the track depending on user input. The three preprogrammed distances are: single length, double length, and triple length."
+        1 string data = "このシステムは、ユーザー入力に応じてバッテリーをトラックに沿って特定の距離移動させます。プログラムされた3つの距離は、シングル、ダブル、トリプルです。"
        [7]
-        1 string data = "Movement costs."
+        1 string data = "移動コスト。"
        [8]
-        1 string data = "Moving and stopping the battery trolley drains the power supply of the terminals, depending on distance covered. Moving one length uses one charge. Moving two lengths (the most efficient) uses no charges, and moving three lengths uses two charges."
+        1 string data = "バッテリートロリーの移動と停止は、移動距離に応じてターミナルの電源を消費します。1区間移動すると1チャージ消費。2区間移動（最も効率的）はチャージ消費なし。3区間移動すると2チャージ消費します。"
        [9]
-        1 string data = "Return to main menu."
+        1 string data = "メインメニューに戻る。"
        [10]
-        1 string data = "Welcome to the Cryogenics Negative Direction Arc-Power Controller. \r\n\r\nNOTE: battery must be positioned between arc-power plugs to complete circuit. Please enter your command:"
+        1 string data = "低温施設マイナス方向アークパワーコントローラーへようこそ。\r\n\r\n注意：回路を完成させるには、バッテリーをアークパワープラグの間に配置する必要があります。コマンドを入力してください："
        [11]
-        1 string data = "Move battery trolley."
+        1 string data = "バッテリートロリーを移動する。"
        [12]
-        1 string data = "ALERT! Power transmission in process. Crane controls have been disabled by safety override."
+        1 string data = "警告！送電中です。安全オーバーライドによりクレーン制御が無効化されています。"
        [13]
-        1 string data = "Select movement command:"
+        1 string data = "移動コマンドを選択してください："
        [14]
-        1 string data = "Move three units toward negative terminal. [[Global: e7001_Negative_Large_Uses] uses remaining.] "
+        1 string data = "マイナス端子に向かって3区間移動する。[[Global: e7001_Negative_Large_Uses] uses remaining.] "
        [15]
-        1 string data = "Waiting for trolley movement. Please stand by..."
+        1 string data = "トロリー移動待機中。お待ちください..."
        [16]
-        1 string data = "Waiting for movement command from positive terminal. Please stand by..."
+        1 string data = "プラス端子からの移動コマンド待機中。お待ちください..."
        [17]
-        1 string data = "[[Global: e7001_Negative_Large_Uses] uses remaining.] Recharging..."
+        1 string data = "[[Global: e7001_Negative_Large_Uses] uses remaining.] 再充電中..."
        [18]
-        1 string data = "[[Global: e7001_Negative_Large_Uses] uses remaining.] Expend charges on positive terminal for this movement command to start recharge cycle."
+        1 string data = "[[Global: e7001_Negative_Large_Uses] uses remaining.] この移動コマンドの再充電サイクルを開始するには、プラス端子でチャージを消費してください。"
        [19]
-        1 string data = "[[Global: e7001_Negative_Large_Uses] uses remaining.] Executing movement command..."
+        1 string data = "[[Global: e7001_Negative_Large_Uses] uses remaining.] 移動コマンド実行中..."
        [20]
-        1 string data = "Move two units toward negative terminal. "
+        1 string data = "マイナス端子に向かって2区間移動する。"
        [21]
-        1 string data = "Executing movement command... "
+        1 string data = "移動コマンド実行中..."
        [22]
-        1 string data = "Move one unit toward negative terminal. [[Global: e7001_Negative_Small_Uses] uses remaining.] "
+        1 string data = "マイナス端子に向かって1区間移動する。[[Global: e7001_Negative_Small_Uses] uses remaining.] "
        [23]
-        1 string data = "[[Global: e7001_Negative_Small_Uses] uses remaining.] Recharge in progress."
+        1 string data = "[[Global: e7001_Negative_Small_Uses] uses remaining.] 再充電中。"
        [24]
-        1 string data = "[[Global: e7001_Negative_Small_Uses] uses remaining.] Expend charges on positive terminal for this movement command to start recharge cycle."
+        1 string data = "[[Global: e7001_Negative_Small_Uses] uses remaining.] この移動コマンドの再充電サイクルを開始するには、プラス端子でチャージを消費してください。"
        [25]
-        1 string data = "[[Global: e7001_Negative_Small_Uses] uses remaining.] Executing movement command..."
+        1 string data = "[[Global: e7001_Negative_Small_Uses] uses remaining.] 移動コマンド実行中..."
        [26]
-        1 string data = "Reset crane."
+        1 string data = "クレーンをリセットする。"
        [27]
-        1 string data = "Resetting..."
+        1 string data = "リセット中..."
        [28]
-        1 string data = "Exit."
+        1 string data = "終了。"
        [29]
-        1 string data = "Logging off..."
+        1 string data = "ログオフ中..."
        [30]
-        1 string data = "Movement control shifting to positive terminal. Please stand by..."
+        1 string data = "移動制御をプラス端子に切り替え中。お待ちください..."
        [31]
-        1 string data = "Continue alternating commands from the negative and positive terminals to center the battery and complete the cryogenic circuit."
+        1 string data = "バッテリーを中央に配置して低温回路を完成させるには、マイナス端子とプラス端子からのコマンドを交互に実行してください。"
        [32]
-        1 string data = "This terminal may issue only one movement command in a row, after which a movement command must be issued from the positive terminal."
+        1 string data = "このターミナルは連続して1回の移動コマンドしか発行できません。その後、プラス端子から移動コマンドを発行する必要があります。"
        [33]
-        1 string data = "When all available charges for a given distance are consumed on BOTH terminals, they will begin to recharge. Recharging will complete after two additional movement cycles of any length."
+        1 string data = "特定の距離に対する利用可能なチャージが両方のターミナルで消費されると、再充電が開始されます。再充電は任意の距離の追加移動サイクル2回後に完了します。"
    [346]
     0 StringTable data
      1 string Filename = "e7001_computer_crane_positive"
@@ -65579,75 +65579,75 @@
       1 Array Array (36 items)
        0 int size = 36
        [0]
-        1 string data = "Welcome to the Cryogenics Positive Direction Arc-Power Controller. \r\n\r\nNOTE: battery must be positioned between arc-power plugs to complete circuit. Please enter your command:"
+        1 string data = "低温施設プラス方向アークパワーコントローラーへようこそ。\r\n\r\n注意：回路を完成させるには、バッテリーをアークパワープラグの間に配置する必要があります。コマンドを入力してください："
        [1]
-        1 string data = "Read user manual."
+        1 string data = "ユーザーマニュアルを読む。"
        [2]
-        1 string data = "Move battery trolley."
+        1 string data = "バッテリートロリーを移動する。"
        [3]
-        1 string data = "Reset crane."
+        1 string data = "クレーンをリセットする。"
        [4]
-        1 string data = "Exit."
+        1 string data = "終了。"
        [5]
-        1 string data = "Moving the battery with the Cryogenics Positive Direction Arc-Power Controller. \r\n"
+        1 string data = "低温施設プラス方向アークパワーコントローラーでバッテリーを移動する。\r\n"
        [6]
-        1 string data = "Select from the following topics:"
+        1 string data = "以下のトピックから選択してください："
        [7]
-        1 string data = "Movement distances."
+        1 string data = "移動距離。"
        [8]
-        1 string data = "Movement costs."
+        1 string data = "移動コスト。"
        [9]
-        1 string data = "Return to main menu."
+        1 string data = "メインメニューに戻る。"
        [10]
-        1 string data = "Move three units toward positive terminal. [[Global: e7001_Positive_Large_Uses] uses remaining.] "
+        1 string data = "プラス端子に向かって3区間移動する。[[Global: e7001_Positive_Large_Uses] uses remaining.] "
        [11]
-        1 string data = "Move two units toward positive terminal."
+        1 string data = "プラス端子に向かって2区間移動する。"
        [12]
-        1 string data = "Please wait..."
+        1 string data = "お待ちください..."
        [13]
-        1 string data = "Select movement command:"
+        1 string data = "移動コマンドを選択してください："
        [14]
-        1 string data = "Resetting..."
+        1 string data = "リセット中..."
        [15]
-        1 string data = "Logging off..."
+        1 string data = "ログオフ中..."
        [16]
-        1 string data = "Move one unit toward positive terminal. [[Global: e7001_Positive_Small_Uses] uses remaining.] "
+        1 string data = "プラス端子に向かって1区間移動する。[[Global: e7001_Positive_Small_Uses] uses remaining.] "
        [17]
-        1 string data = "Commands from this terminal move the battery in the direction of the positive terminal. "
+        1 string data = "このターミナルからのコマンドは、バッテリーをプラス端子の方向に移動させます。"
        [18]
-        1 string data = "This system will move the battery a specific distance along the track depending on user input. The three preprogrammed distances are: single length, double length, and triple length."
+        1 string data = "このシステムは、ユーザー入力に応じてバッテリーをトラックに沿って特定の距離移動させます。プログラムされた3つの距離は、シングル、ダブル、トリプルです。"
        [19]
-        1 string data = "Moving and stopping the battery trolley drains the power supply of the terminals, depending on distance covered. Moving one length uses one charge. Moving two lengths (the most efficient) uses no charges, and moving three lengths uses two charges."
+        1 string data = "バッテリートロリーの移動と停止は、移動距離に応じてターミナルの電源を消費します。1区間移動すると1チャージ消費。2区間移動（最も効率的）はチャージ消費なし。3区間移動すると2チャージ消費します。"
        [20]
-        1 string data = "[[Global: e7001_Positive_Large_Uses] uses remaining.] Recharging..."
+        1 string data = "[[Global: e7001_Positive_Large_Uses] uses remaining.] 再充電中..."
        [21]
-        1 string data = "[[Global: e7001_Positive_Large_Uses] uses remaining.] Expend charges on negative terminal for this movement command to start recharge cycle."
+        1 string data = "[[Global: e7001_Positive_Large_Uses] uses remaining.] この移動コマンドの再充電サイクルを開始するには、マイナス端子でチャージを消費してください。"
        [22]
-        1 string data = "[[Global: e7001_Positive_Large_Uses] uses remaining.] Executing movement command..."
+        1 string data = "[[Global: e7001_Positive_Large_Uses] uses remaining.] 移動コマンド実行中..."
        [23]
-        1 string data = "Waiting for movement command from negative terminal. Please stand by..."
+        1 string data = "マイナス端子からの移動コマンド待機中。お待ちください..."
        [24]
-        1 string data = "Executing movement command..."
+        1 string data = "移動コマンド実行中..."
        [25]
-        1 string data = "[[Global: e7001_Positive_Small_Uses] uses remaining.] Recharge in progress."
+        1 string data = "[[Global: e7001_Positive_Small_Uses] uses remaining.] 再充電中。"
        [26]
         1 string data = ""
        [27]
-        1 string data = "[[Global: e7001_Positive_Small_Uses] uses remaining.] Executing movement command..."
+        1 string data = "[[Global: e7001_Positive_Small_Uses] uses remaining.] 移動コマンド実行中..."
        [28]
-        1 string data = "Waiting for trolley movement. Please stand by..."
+        1 string data = "トロリー移動待機中。お待ちください..."
        [29]
-        1 string data = "ALERT! Power transmission in process. Crane controls have been disabled by safety override."
+        1 string data = "警告！送電中です。安全オーバーライドによりクレーン制御が無効化されています。"
        [30]
-        1 string data = "[[Global: e7001_Positive_Small_Uses] uses remaining.] Expend charges on negative terminal for this movement command to start recharge cycle."
+        1 string data = "[[Global: e7001_Positive_Small_Uses] uses remaining.] この移動コマンドの再充電サイクルを開始するには、マイナス端子でチャージを消費してください。"
        [31]
-        1 string data = "Movement control shifting to negative terminal. Please stand by..."
+        1 string data = "移動制御をマイナス端子に切り替え中。お待ちください..."
        [32]
-        1 string data = "This terminal may issue only one movement command in a row, after which a movement command must be issued from the negative terminal."
+        1 string data = "このターミナルは連続して1回の移動コマンドしか発行できません。その後、マイナス端子から移動コマンドを発行する必要があります。"
        [33]
-        1 string data = "Continue alternating commands from the positive and negative terminals to center the battery and complete the cryogenic circuit."
+        1 string data = "バッテリーを中央に配置して低温回路を完成させるには、プラス端子とマイナス端子からのコマンドを交互に実行してください。"
        [34]
-        1 string data = "When all available charges for a given distance are consumed on BOTH terminals, they will begin to recharge. Recharging will complete after two additional movement cycles of any length."
+        1 string data = "特定の距離に対する利用可能なチャージが両方のターミナルで消費されると、再充電が開始されます。再充電は任意の距離の追加移動サイクル2回後に完了します。"
        [35]
         1 string data = ""
    [347]
@@ -65743,45 +65743,45 @@
       1 Array Array (20 items)
        0 int size = 20
        [0]
-        1 string data = "This appears to be a cryogenic cooling system. A storage tank connects to a liquid level sensor, a centrifugal pump, a pressure transducer, and a pressure controller."
+        1 string data = "これは極低温冷却システムのようだ。貯蔵タンクが液面センサー、遠心ポンプ、圧力変換器、圧力コントローラーに接続されている。"
        [1]
-        1 string data = "Increase liquid pressure."
+        1 string data = "液体圧力を上げる。"
        [2]
-        1 string data = "Leave it alone."
+        1 string data = "そのままにしておく。"
        [3]
-        1 string data = "ERROR - Unable to adjust liquid pressure. Coolant supply failure detected."
+        1 string data = "エラー - 液体圧力を調整できません。冷却液供給障害が検出されました。"
        [4]
-        1 string data = "Increasing to 90% of maximum allowable working pressure. WARNING: Tank fill rate will be reduced by 50%. Severity of injury due to tank rupture increased by 20%."
+        1 string data = "最大許容作動圧力の90%に増加中。警告：タンク充填率が50%減少します。タンク破裂による負傷の重篤度が20%増加します。"
        [5]
-        1 string data = "Confirm pressure change."
+        1 string data = "圧力変更を確定する。"
        [6]
-        1 string data = "Cancel pressure change."
+        1 string data = "圧力変更をキャンセルする。"
        [7]
-        1 string data = "Reduce liquid pressure."
+        1 string data = "液体圧力を下げる。"
        [8]
-        1 string data = "Reducing to 60% of maximum allowable working pressure. WARNING: Tank fill rate will be increased by 50%. Severity of injury due to tank rupture reduced by 20%"
+        1 string data = "最大許容作動圧力の60%に減少中。警告：タンク充填率が50%増加します。タンク破裂による負傷の重篤度が20%減少します。"
        [9]
-        1 string data = "Pressure change confirmed. Reducing pressure..."
+        1 string data = "圧力変更を確定しました。圧力を減少中..."
        [10]
-        1 string data = "Canceling change..."
+        1 string data = "変更をキャンセル中..."
        [11]
-        1 string data = "Pressure change confirmed. Increasing pressure..."
+        1 string data = "圧力変更を確定しました。圧力を増加中..."
        [12]
-        1 string data = "Confirm pressure change."
+        1 string data = "圧力変更を確定する。"
        [13]
-        1 string data = "Cancel pressure change."
+        1 string data = "圧力変更をキャンセルする。"
        [14]
-        1 string data = "Canceling change..."
+        1 string data = "変更をキャンセル中..."
        [15]
-        1 string data = "Check system status."
+        1 string data = "システム状態を確認する。"
        [16]
-        1 string data = "Liquid pressure has been adjusted and is currently rising."
+        1 string data = "液体圧力が調整され、現在上昇中です。"
        [17]
-        1 string data = "Liquid pressure has been adjusted and is currently decreasing."
+        1 string data = "液体圧力が調整され、現在下降中です。"
        [18]
-        1 string data = "Liquid pressure rating at nominal at 75% maximum allowable working pressure."
+        1 string data = "液体圧力は最大許容作動圧力の75%で正常値です。"
        [19]
-        1 string data = "Liquid pressure is low. Cryogenic piping failure detected."
+        1 string data = "液体圧力が低下しています。極低温配管の故障が検出されました。"
    [348]
     0 StringTable data
      1 string Filename = "e7001_deuterium"
@@ -65807,11 +65807,11 @@
       1 Array Array (3 items)
        0 int size = 3
        [0]
-        1 string data = ""All I can say is, Theo Curie better know what he's talking about.""
+        1 string data = ""言えることは、テオ・キュリーが自分の言っていることを分かっていてほしいということだけだ。""
        [1]
-        1 string data = ""Well, go on, then. Hook the Holy Detonation to the grid. But if you hurt it...""
+        1 string data = ""分かった、やれ。聖なる爆発をグリッドに接続しろ。でもあれを傷つけたら...""
        [2]
-        1 string data = ""I'm watching you, Rangers.""
+        1 string data = ""見てるからな、レンジャー。""
    [349]
     0 StringTable data
      1 string Filename = "e7001_entrancedoor"
@@ -65851,13 +65851,13 @@
        [0]
         1 string data = ""
        [1]
-        1 string data = "On the other side of this reinforced blast door you can hear the rumble of the Holy Detonation."
+        1 string data = "この強化された防爆扉の向こう側から、聖なる爆発の轟音が聞こえる。"
        [2]
-        1 string data = "On the other side of this reinforced blast door you can hear the rumble of the Holy Detonation. You should gather the rest of your squad before proceeding."
+        1 string data = "この強化された防爆扉の向こう側から、聖なる爆発の轟音が聞こえる。先に進む前に残りの分隊を集めるべきだ。"
        [3]
-        1 string data = "Open the door."
+        1 string data = "扉を開ける。"
        [4]
-        1 string data = "Step away from the door."
+        1 string data = "扉から離れる。"
        [5]
         1 string data = "::beep::"
    [350]
@@ -66059,95 +66059,95 @@
        [0]
         1 string data = ""
        [1]
-        1 string data = "Welcome to the Cheyenne Mountain LIAB Stasis Reactor Experiment Control System. Please enter authorization code."
+        1 string data = "シャイアンマウンテンLIABスタシス炉実験制御システムへようこそ。認証コードを入力してください。"
        [2]
-        1 string data = "It looks like this terminal allows the user to adjust the output of the Holy Detonation. You should gather the rest of your squad before proceeding."
+        1 string data = "このターミナルでは聖なる爆発の出力を調整できるようだ。先に進む前に残りの分隊を集めるべきだ。"
        [3]
-        1 string data = "Enter the authorization code."
+        1 string data = "認証コードを入力する。"
        [4]
-        1 string data = "Step away from the monitor."
+        1 string data = "モニターから離れる。"
        [5]
-        1 string data = "<i></i>Beep<i></i>"
+        1 string data = "<i></i>ピッ<i></i>"
        [6]
-        1 string data = "Access granted. Please enter testing parameters."
+        1 string data = "アクセス許可。テストパラメータを入力してください。"
        [7]
-        1 string data = "Route full power output to Colorado Springs."
+        1 string data = "全出力をコロラドスプリングスに送る。"
        [8]
-        1 string data = "Increase passage of time within the time dilation field by one nanosecond and couple output to Colorado power grid."
+        1 string data = "時間遅延フィールド内の時間経過を1ナノ秒増加させ、コロラド電力網に出力を接続する。"
        [9]
-        1 string data = "Routing 100% output to Colorado Springs power grid..."
+        1 string data = "コロラドスプリングス電力網に100%出力を送電中..."
        [10]
-        1 string data = "Time dilation field set to two nanoseconds per minute. Energy output to Colorado Springs power grid at 582 megawatts per hour."
+        1 string data = "時間遅延フィールドを毎分2ナノ秒に設定。コロラドスプリングス電力網へのエネルギー出力は毎時582メガワット。"
        [11]
-        1 string data = "Welcome to the Cheyenne Mountain LIAB Stasis Reactor Experiment Control System. Recalibration cooldown and observation period in effect. Further recalibration will be allowed in five days."
+        1 string data = "シャイアンマウンテンLIABスタシス炉実験制御システムへようこそ。再校正クールダウンと観察期間中です。再校正は5日後に許可されます。"
        [12]
-        1 string data = "Read status log."
+        1 string data = "ステータスログを読む。"
        [13]
-        1 string data = "Time dilation field set to two nanoseconds per minute. Energy output to Colorado Springs power grid at 582 megawatts per hour."
+        1 string data = "時間遅延フィールドを毎分2ナノ秒に設定。コロラドスプリングス電力網へのエネルギー出力は毎時582メガワット。"
        [14]
-        1 string data = "Time dilation field set to one nanosecond per minute. Energy output at 293 megawatts per hour."
+        1 string data = "時間遅延フィールドを毎分1ナノ秒に設定。エネルギー出力は毎時293メガワット。"
        [15]
-        1 string data = "System shutdown complete. No power available."
+        1 string data = "システムシャットダウン完了。電力は利用できません。"
        [16]
-        1 string data = "Shut down the time dilation field completely and allow the frozen blast to erupt."
+        1 string data = "時間遅延フィールドを完全にシャットダウンし、凍結された爆発を解放する。"
        [17]
-        1 string data = "Reverse passage of time within time dilation field beyond initial moment of explosion, then shut down field."
+        1 string data = "時間遅延フィールド内の時間経過を爆発の初期時点より前に逆転させ、フィールドをシャットダウンする。"
        [18]
-        1 string data = "Shutting down time dilation field. \r\n\r\nALERT! Full speed thermo-nuclear explosion imminent! ALERT!"
+        1 string data = "時間遅延フィールドをシャットダウン中。\r\n\r\n警告！全速力での熱核爆発が迫っています！警告！"
        [19]
-        1 string data = "Reversing time dilation. Non-existence of thermo-nuclear explosion imminent."
+        1 string data = "時間遅延を逆転中。熱核爆発の非存在が迫っています。"
        [20]
-        1 string data = "Looking at the documentation you got from Theo Curie, you find the code, and also the instructions for adjusting the detonation's time dilation field, which will also adjust its energy output."
+        1 string data = "テオ・キュリーから受け取った文書を見ると、コードと爆発の時間遅延フィールドを調整する手順が見つかる。これによりエネルギー出力も調整される。"
        [21]
-        1 string data = "Read the status log."
+        1 string data = "ステータスログを読む。"
        [22]
-        1 string data = "Time dilation field set to one nanosecond per minute. Energy output at 293 megawatts per hour."
+        1 string data = "時間遅延フィールドを毎分1ナノ秒に設定。エネルギー出力は毎時293メガワット。"
        [23]
-        1 string data = ""Hmmm. That code is in the documentation I gave you. Er, right... there. Also, here are the instructions for adjusting the detonation's time dilation field, which will also adjust its energy output.""
+        1 string data = ""ふむ。そのコードは私が渡した文書にある。えーと、そう...そこだ。それと、爆発の時間遅延フィールドを調整する手順もある。これでエネルギー出力も調整される。""
        [24]
-        1 string data = ""Excellent. Access granted. Now, you will see you have a range of parameters you can set - including some you shouldn't even consider. For example, shutting down the time dilation field completely. That would quite literally be the end of us.""
+        1 string data = ""素晴らしい。アクセス許可だ。さて、設定できるパラメータの範囲があるが、考えるべきでないものもある。例えば、時間遅延フィールドを完全にシャットダウンすること。それは文字通り我々の終わりを意味する。""
        [25]
-        1 string data = ""But increasing the passage of time by even the tiniest amount should be enough to give Colorado Springs all the power it needs, while at the same time not compromising the safety of the inhabitants of Cheyenne - er, any more than it already is.""
+        1 string data = ""しかし、時間経過をほんのわずかでも増加させれば、コロラドスプリングスに必要な電力を全て供給しつつ、シャイアンの住民の安全を損なわずに済む。まあ、既に損なわれている以上にはね。""
        [26]
-        1 string data = ""Mmmm, yes. That is more than enough to run the systems of this base, but not enough for any external uses. Try increasing it by another nanosecond.""
+        1 string data = ""うーん、そうだ。この基地のシステムを動かすには十分すぎるが、外部利用には足りない。もう1ナノ秒増やしてみろ。""
        [27]
-        1 string data = "WARNING!!! Executing this command will cause the nuclear explosion within the field to expand at full speed. Do not proceed with this order unless Cheyenne Mountain is under direct foreign attack. WARNING!!!"
+        1 string data = "警告！！！このコマンドを実行すると、フィールド内の核爆発が全速力で拡大します。シャイアンマウンテンが直接外敵の攻撃を受けていない限り、この命令を実行しないでください。警告！！！"
        [28]
-        1 string data = ""Don't do it, Rangers! You'll kill us all! And Colorado Springs too!""
+        1 string data = ""やめろ、レンジャー！みんな死ぬぞ！コロラドスプリングスも！""
        [29]
-        1 string data = "Do you wish to proceed?"
+        1 string data = "続行しますか？"
        [30]
-        1 string data = "Execute time dilation field shutdown."
+        1 string data = "時間遅延フィールドのシャットダウンを実行する。"
        [31]
-        1 string data = "Return to parameter settings."
+        1 string data = "パラメータ設定に戻る。"
        [32]
-        1 string data = ""Ah, lovely. That will be more than enough power for Colorado Springs. And to think all it took was the nudging of a dial.""
+        1 string data = ""ああ、素晴らしい。コロラドスプリングスには十分すぎる電力だ。ダイヤルを少し動かすだけで済んだとはね。""
        [33]
-        1 string data = "Time dilation field set to two nanoseconds per minute. Energy output to Colorado Springs power grid at 582 megawatts per hour."
+        1 string data = "時間遅延フィールドを毎分2ナノ秒に設定。コロラドスプリングス電力網へのエネルギー出力は毎時582メガワット。"
        [34]
-        1 string data = "Reversing time dilation. Non-existence of thermo-nuclear explosion imminent."
+        1 string data = "時間遅延を逆転中。熱核爆発の非存在が迫っています。"
        [35]
-        1 string data = ""What!? What have you done!? Turn it back the other way! You assholes!""
+        1 string data = ""何だと！？何をした！？元に戻せ！このクソ野郎！""
        [36]
         1 string data = ""
        [37]
-        1 string data = ""Are you crazy!? What about our mission?""
+        1 string data = ""正気か！？任務はどうするんだ？""
        [38]
-        1 string data = ""You wanna kill yourself, do it alone.""
+        1 string data = ""自殺したいなら一人でやれ。""
        [39]
-        1 string data = ""Are you nuts? Don't do this!""
+        1 string data = ""頭おかしいのか？やめろ！""
        [40]
-        1 string data = ""Please don't do this. This solves nothing!""
+        1 string data = ""お願いだからやめてくれ。これでは何も解決しない！""
        [41]
-        1 string data = ""Whass goin' on?""
+        1 string data = ""なにがおきてるの？""
        [42]
-        1 string data = ""You can't do this, Rangers. You'll kill everyone I know.""
+        1 string data = ""これはダメだ、レンジャー。私の知り合い全員を殺すことになる。""
        [43]
-        1 string data = ""Heh heh heh. I never did wanna die alone.""
+        1 string data = ""ヘヘヘ。一人で死にたくはなかったんだ。""
        [44]
-        1 string data = ""Heh. If you're gonna go, might as well take everyone with you.""
+        1 string data = ""へへ。どうせ逝くなら、みんな道連れにするのもいいだろう。""
        [45]
-        1 string data = ""Do not do this, you prolapse! I have no intention of being an ex-parrot!""
+        1 string data = ""やめろ、この脱肛野郎！俺は元オウムになる気はないぞ！""
    [351]
     0 StringTable data
      1 string Filename = "e7001_iridium"
@@ -66181,15 +66181,15 @@
       1 Array Array (5 items)
        0 int size = 5
        [0]
-        1 string data = ""The fires of destruction create the fires of creation! The fires of creation destroy the fires of destruction!""
+        1 string data = ""破壊の炎が創造の炎を生む！創造の炎が破壊の炎を滅ぼす！""
        [1]
-        1 string data = ""Ride out! Defenders of the realm! Captains to the helm! Sail across the sea of lights!""
+        1 string data = ""出撃せよ！王国の守護者よ！船長は舵を取れ！光の海を渡れ！""
        [2]
-        1 string data = ""Blessed be the holy fire that burns within the holy fire that burns within the holy fire!""
+        1 string data = ""聖なる火の中で燃える聖なる火の中で燃える聖なる火に祝福あれ！""
        [3]
         1 string data = ""
        [4]
-        1 string data = ""AAAAAAAAAAAAARRRRRRRRRR!""
+        1 string data = ""アアアアアアアアアアアアアアアア！""
    [352]
     0 StringTable data
      1 string Filename = "e7001_polyp"
@@ -66215,11 +66215,11 @@
       1 Array Array (3 items)
        0 int size = 3
        [0]
-        1 string data = ""You have chosen wisely, Rangers. Colorado Springs has been blessed.""
+        1 string data = ""賢明な選択だ、レンジャー。コロラドスプリングスは祝福された。""
        [1]
-        1 string data = ""Look upon the Holy Detonation, Rangers, and receive its blessing.""
+        1 string data = ""聖なる爆発を見よ、レンジャー。その祝福を受けるのだ。""
        [2]
-        1 string data = ""May the Glow bless you, Rangers.""
+        1 string data = ""輝きがお前たちを祝福せんことを、レンジャー。""
    [353]
     0 StringTable data
      1 string Filename = "e7001_primordialist"
@@ -66375,73 +66375,73 @@
        [0]
         1 string data = ""
        [1]
-        1 string data = " Welcome Rangers. The Proteus is waiting for you."
+        1 string data = " ようこそレンジャー。プロテウスがお待ちだ。"
        [2]
-        1 string data = "We want to share the Holy Detonation's power with all of Colorado"
+        1 string data = "聖なる爆発の力をコロラド全土と分かち合いたい"
        [3]
-        1 string data = "Glad to see the clans united"
+        1 string data = "氏族が団結して嬉しい"
        [4]
-        1 string data = " The Proteus says it's time to share the power of the Holy Detonation with all of Colorado."
+        1 string data = " プロテウスは、聖なる爆発の力をコロラド全土と分かち合う時が来たと言っている。"
        [5]
-        1 string data = "How will we share the Holy Detonation?"
+        1 string data = "どうやって聖なる爆発を分かち合うんだ？"
        [6]
-        1 string data = "Why does it sound like you plan to cause a meltdown?"
+        1 string data = "メルトダウンを起こすつもりに聞こえるが？"
        [7]
         1 string data = " Tah'ihoh'fe'che. Kun'e'yah mohn'mah."
        [8]
-        1 string data = " The Proteus says we must shutdown the security protections and allow the Holy Detonation to spread accross the land."
+        1 string data = " プロテウスは、安全保護装置を停止し、聖なる爆発を大地に広げなければならないと言っている。"
        [9]
-        1 string data = "That sounds like a nuclear meltdown."
+        1 string data = "それは核メルトダウンのように聞こえる。"
        [10]
-        1 string data = "[Attack] "You're crazy. We're taking control of the Holy Detonation.""
+        1 string data = "[Attack] "お前は狂ってる。我々が聖なる爆発を支配する。""
        [11]
-        1 string data = " The Proteus says it has been ordained and so it must be! You must die."
+        1 string data = " プロテウスはそう定められた、だからそうなるべきだと言っている！お前は死ぬべきだ。"
        [12]
-        1 string data = " Welcome Rangers. The Proteus and Deuterium are waiting for you."
+        1 string data = " ようこそレンジャー。プロテウスとドューテリウムがお待ちだ。"
        [13]
         1 string data = " Hush'e Kun'ut'le Ulh'pe'sah. Kah'shup'le Ke'lim'pe. "
        [14]
-        1 string data = " You have proven that not all outsiders are unworthy. Your bodies accepted holy radiation and one of your own underwent a holy transfromation."
+        1 string data = " 全ての部外者が価値がないわけではないことを証明した。お前の体は聖なる放射線を受け入れ、仲間の一人が聖なる変容を遂げた。"
        [15]
         1 string data = " Ah'yah'chuf'ah chook'ah ah'chuf'ah."
        [16]
-        1 string data = " The Proteus is glad to have the clan reunited as one family."
+        1 string data = " プロテウスは氏族が一つの家族として再結合したことを喜んでいる。"
        [17]
-        1 string data = " While we may disgreed we are united by our love for the Holy Detonation. Together we are stronger."
+        1 string data = " 意見が合わないこともあるが、聖なる爆発への愛で我々は団結している。共に我々はより強い。"
        [18]
         1 string data = " Ik'lun'nah. Nohn'wah."
        [19]
-        1 string data = " The Proteus says you must tune the Holy Detonation to share half of it's power to the rest of Colorado."
+        1 string data = " プロテウスは、聖なる爆発を調整して力の半分をコロラドの他の地域と分かち合わなければならないと言っている。"
        [20]
         1 string data = " Il'le! Che'hoh'wah yuk'mish'che!"
        [21]
         1 string data = " Che'hoh'wah tah'lhoh'fah "
        [22]
-        1 string data = " The Proteus says it is our destiny to free our god and allow his glory to spread unrestrained."
+        1 string data = " プロテウスは、我々の神を解放し、その栄光を制限なく広めることが我々の運命だと言っている。"
        [23]
-        1 string data = " Those who love and worship the Holy Detonation will in turn recieve it's holy blessing."
+        1 string data = " 聖なる爆発を愛し崇拝する者は、代わりにその聖なる祝福を受けるだろう。"
        [24]
-        1 string data = "We will tune the Holy Detonatin as you say."
+        1 string data = "言われた通りに聖なる爆発を調整しよう。"
        [25]
-        1 string data = "[Attack] "No deal. We're taking control of the Holy Detonation.""
+        1 string data = "[Attack] "取引は無しだ。我々が聖なる爆発を支配する。""
        [26]
         1 string data = " It'ah'yook'pah'che. Yum'moh'mah che'tohk. Ehn'hem'moh'nah."
        [27]
-        1 string data = " The Proteus shakes your hand figuratively. Go forth to the Holy Detonation. Your fate awaits you."
+        1 string data = " プロテウスは比喩的にお前と握手する。聖なる爆発のもとへ進め。お前の運命が待っている。"
        [28]
-        1 string data = " Glory to the Holy Detonation! May it's power bless us all."
+        1 string data = " 聖なる爆発に栄光あれ！その力が我々全員を祝福せんことを。"
        [29]
-        1 string data = " The Proteus has spoken. Go forth and interact with the Holy Detonation."
+        1 string data = " プロテウスは告げた。進んで聖なる爆発と交わるがよい。"
        [30]
         1 string data = ""
        [31]
-        1 string data = " What have you done? You sent all of the Holy Detonation's power for Colorado?"
+        1 string data = " 何をした？聖なる爆発の力を全てコロラドに送ったのか？"
        [32]
         1 string data = " Huk'se'che! Il'le!"
        [33]
-        1 string data = " The Proteus has spoken. This is betrayal. You must die!"
+        1 string data = " プロテウスは告げた。これは裏切りだ。お前は死ぬべきだ！"
        [34]
-        1 string data = " What have you done? You've killed the Holy Detonation."
+        1 string data = " 何をした？聖なる爆発を殺してしまった。"
    [354]
     0 StringTable data
      1 string Filename = "e7001_proteus"
@@ -67055,11 +67055,11 @@
        [1]
         1 string data = ""
        [2]
-        1 string data = "We can share the energy."
+        1 string data = "エネルギーを分かち合える。"
        [3]
-        1 string data = "[Attack] Prepare to fight."
+        1 string data = "[Attack] 戦闘の準備をしろ。"
        [4]
-        1 string data = " Blub you!"
+        1 string data = " ブラブお前！"
        [5]
         1 string data = ""Im'ulh'tah'hah.""
        [6]
@@ -67071,15 +67071,15 @@
        [9]
         1 string data = ""!@o&i3j&@!""
        [10]
-        1 string data = "Discuss the clans be united."
+        1 string data = "氏族の統一について話し合う。"
        [11]
         1 string data = ""#Z<i>X>#<#!!!"\n"
        [12]
-        1 string data = ""Sorry, Proteus. We'll stop.""
+        1 string data = ""すまない、プロテウス。やめます。""
        [13]
         1 string data = ""
        [14]
-        1 string data = ""Thank you, Proteus. We're sorry too.""
+        1 string data = ""ありがとう、プロテウス。私たちも申し訳なく思っています。""
        [15]
         1 string data = ""
        [16]
@@ -67105,19 +67105,19 @@
        [26]
         1 string data = "">#$@^+&@<.""
        [27]
-        1 string data = ""Isn't that exciting, Rangers? You'll be firsthand witnesses to the birth of the Primordial Age!""
+        1 string data = ""ワクワクしないか、レンジャー？お前たちは原初の時代の誕生を直接目撃することになる！""
        [28]
-        1 string data = ""When the Proteus says 'free the Holy Detonation from its shackles' what exactly does that mean?""
+        1 string data = ""プロテウスが『聖なる爆発を枷から解放する』と言うとき、具体的にどういう意味だ？""
        [29]
         1 string data = ""!@o&i3j&@!""
        [30]
-        1 string data = ""You bet! The Proteus says it is our destiny to free our god and allow its glory to spread unrestrained!""
+        1 string data = ""もちろん！プロテウスは、我々の神を解放し、その栄光を制限なく広めることが我々の運命だと言っている！""
        [31]
-        1 string data = ""Sounds great. Let's get started.""
+        1 string data = ""いいね。始めよう。""
        [32]
         1 string data = "">#$@^+&@<.""
        [33]
-        1 string data = ""Don't fight it, Rangers. Let the Proteus absorb you!""
+        1 string data = ""抵抗するな、レンジャー。プロテウスに吸収されるがいい！""
        [34]
         1 string data = ""
        [35]
@@ -67127,173 +67127,173 @@
        [37]
         1 string data = ""!!!#/<i></i>/##<i>/</i>#/!!!""
        [38]
-        1 string data = " The Proteus has spoken. This is betrayal. You must die!"
+        1 string data = " プロテウスは告げた。これは裏切りだ。お前は死ぬべきだ！"
        [39]
-        1 string data = " What have you done? You've killed the Holy Detonation."
+        1 string data = " 何をした？聖なる爆発を殺してしまった。"
        [40]
         1 string data = ""
        [41]
-        1 string data = ""Greetings, Rangers. The Proteus thanks you for dealing with Abbot Deuterium and the Nucleists. They grieve for their deaths, but understand their necessity.""
+        1 string data = ""ようこそ、レンジャー。プロテウスは修道院長ドューテリウムとニュークリストたちを処理してくれたことに感謝している。彼らの死を悲しんでいるが、その必要性は理解している。""
        [42]
-        1 string data = ""Greetings, Rangers. The Proteus says they're sad you were unable to convince Deuterium to reunite with us, but they thank you for your efforts.""
+        1 string data = ""ようこそ、レンジャー。プロテウスはドューテリウムを説得して我々と再統合させられなかったことを悲しんでいるが、努力には感謝している。""
        [43]
-        1 string data = " The Proteus is glad to have the clan reunited as one family."
+        1 string data = " プロテウスは氏族が一つの家族として再結合したことを喜んでいる。"
        [44]
-        1 string data = " The Proteus says we must allow the Holy Detonation to spread accross the entire land."
+        1 string data = " プロテウスは、聖なる爆発を全土に広げなければならないと言っている。"
        [45]
-        1 string data = ""Indeed. The Proteus says it is our destiny to free our god and allow its glory to spread unrestrained.""
+        1 string data = ""確かに。プロテウスは、我々の神を解放し、その栄光を制限なく広めることが我々の運命だと言っている。""
        [46]
-        1 string data = ""Do not resist, Rangers. Let the Proteus absorb you!""
+        1 string data = ""抵抗するな、レンジャー。プロテウスに吸収されるがいい！""
        [47]
         1 string data = ""!@o&i3j&@!""
        [48]
         1 string data = " Kah'shup'le. Che'hoh'wah."
        [49]
-        1 string data = ""Yes. The Proteus has been heartened by their dealings with you and Theo Curie, and feels more contact with the outside world would be beneficial to the church.""
+        1 string data = ""そうだ。プロテウスはお前たちやテオ・キュリーとの交渉で勇気づけられ、外の世界とのさらなる接触が教会にとって有益だと感じている。""
        [50]
-        1 string data = " Proteus has decided to only some power with the outside."
+        1 string data = " プロテウスは外部と一部の電力のみを共有することに決めた。"
        [51]
-        1 string data = "Thanks. We're ready to share power."
+        1 string data = "ありがとう。電力を共有する準備ができた。"
        [52]
-        1 string data = ""No! This is not how we said we would share the Glow of the Holy Detonation! We said we were going to free it from its shackles and let it blossom! We said we were going to spread its Glow from here to Kansas - and beyond!""
+        1 string data = ""違う！これは聖なる爆発の輝きを分かち合うと言った方法じゃない！枷から解放して花開かせると言ったんだ！ここからカンザスまで、いやそれ以上に輝きを広めると言ったんだ！""
        [53]
         1 string data = ""!@o&i3j&@!""
        [54]
-        1 string data = " Take our energy almighty Proteus so that we may empower you."
+        1 string data = " 全能のプロテウスよ、我々のエネルギーを受け取り給え、お前に力を与えるために。"
        [55]
         1 string data = ""!!!#/<i></i>/##<i>/</i>#/!!!""
        [56]
-        1 string data = ""Primordialists! Give your strength to the Proteus! Defend the Holy Detonation!""
+        1 string data = ""原初主義者たちよ！プロテウスに力を与えよ！聖なる爆発を守れ！""
        [57]
-        1 string data = " One with the Proteus!"
+        1 string data = " プロテウスと一つに！"
        [58]
-        1 string data = " One with the Proteus!"
+        1 string data = " プロテウスと一つに！"
        [59]
-        1 string data = ""Primordialists! We must give our strength to the Proteus! Defend the Holy Detonation!""
+        1 string data = ""原初主義者たちよ！プロテウスに力を与えなければならない！聖なる爆発を守れ！""
        [60]
-        1 string data = ""Greetings, Rangers. The Proteus says they're overjoyed you were able to convince Deuterium to reunite with us.""
+        1 string data = ""ようこそ、レンジャー。プロテウスはドューテリウムを説得して我々と再統合させられたことを大変喜んでいる。""
        [61]
-        1 string data = ""Yeah, it just wasn't going to happen. Deuterium wasn't interested.""
+        1 string data = ""ああ、うまくいかなかったんだ。ドューテリウムは興味がなかった。""
        [62]
         1 string data = "">#$@^+&@<.""
        [63]
-        1 string data = ""The Proteus says they understand, but the way it all worked out has made them determined to give the world the gift of the Holy Detonation's Glow <i>now</i>, before any further splits happen in the church.""
+        1 string data = ""プロテウスは理解していると言っている。しかし、このような結果になったことで、教会がさらに分裂する前に、聖なる爆発の輝きという贈り物を世界に与えることを<i>今</i>決心した。""
        [64]
-        1 string data = ""The Proteus says they don't blame you, but the way it all worked out has made them determined to give the world the gift of the blessed Glow <i>now</i>, before any further splits happen in the church.""
+        1 string data = ""プロテウスはお前を責めていないと言っている。しかし、このような結果になったことで、教会がさらに分裂する前に、祝福された輝きという贈り物を世界に与えることを<i>今</i>決心した。""
        [65]
-        1 string data = ""So they've decided that today is the day that we're going to free the Holy Detonation from its shackles once and for all." "
+        1 string data = ""だから彼らは今日が聖なる爆発を枷から永遠に解放する日だと決めた。""
        [66]
-        1 string data = ""Is that the Proteus' way of saying they're going to share the energy from the Holy Detonation with Colorado springs?""
+        1 string data = ""プロテウスは聖なる爆発のエネルギーをコロラドスプリングスと共有すると言っているのか？""
        [67]
-        1 string data = ""Oh, yes! Once we turn off the time dilation field that's been holding the Holy Detonation back, we'll share it with Colorado Springs and everywhere downwind of there!" "
+        1 string data = ""ああ、そうだ！聖なる爆発を抑えていた時間遅延フィールドを止めたら、コロラドスプリングスやその風下の全ての場所と共有する！""
        [68]
-        1 string data = ""They mean that we're going to turn off the time dilation field that's been holding the Holy Detonation back, and, well... let 'er rip!""
+        1 string data = ""つまり、聖なる爆発を抑えていた時間遅延フィールドを止めて、まあ...爆発させるってことだ！""
        [69]
-        1 string data = ""Great! I'm so glad you're with us on this! Now we just have to turn off the time dilation field that's been holding the Holy Detonation back, and, well... let 'er rip!""
+        1 string data = ""素晴らしい！賛同してくれて嬉しい！あとは聖なる爆発を抑えていた時間遅延フィールドを止めて、まあ...爆発させるだけだ！""
        [70]
-        1 string data = ""It'll be glorious, Rangers. We'll share its Glow with Colorado Springs, Denver, and everywhere downwind of here! Heck, if we're lucky with the weather, it might even reach to Kansas!""
+        1 string data = ""壮大だぞ、レンジャー。コロラドスプリングス、デンバー、そしてここから風下の全ての場所と輝きを共有する！運が良ければ、カンザスまで届くかもしれない！""
        [71]
-        1 string data = ""Wait a minute. You're going to blow up the Holy Detonation?""
+        1 string data = ""ちょっと待て。聖なる爆発を爆発させるのか？""
        [72]
-        1 string data = ""This is not what we thought you meant by 'sharing.'""
+        1 string data = ""『共有』というのはそういう意味だとは思わなかった。""
        [73]
-        1 string data = ""Heck, if we're lucky with the weather, the Glow might even reach to Kansas! It'll be glorious!""
+        1 string data = ""運が良ければ、輝きはカンザスまで届くかもしれない！壮大だぞ！""
        [74]
-        1 string data = ""So, we're all going to die here.""
+        1 string data = ""じゃあ、俺たちはここで全員死ぬのか。""
        [75]
         1 string data = "">#$@^+&@<.""
        [76]
-        1 string data = ""The Proteus says not to be silly. We're not going to die. We're going to become one with the Great Glow, and allow it to spead our light and love to all of Colorado.""
+        1 string data = ""プロテウスはくだらないことを言うなと言っている。死ぬんじゃない。大いなる輝きと一つになり、コロラド全土に光と愛を広めるんだ。""
        [77]
-        1 string data = ""The Proteus is surprised. They thought you knew. But, yeah, they say it is our destiny to free our god and allow its glory to spread unrestrained!""
+        1 string data = ""プロテウスは驚いている。知っていると思っていた。でも、そうだ、我々の神を解放し、その栄光を制限なく広めることが我々の運命だと言っている！""
        [78]
-        1 string data = ""The Proteus is surprised. They thought you knew. They say it is our destiny to free our god and allow its glory to spread unrestrained.""
+        1 string data = ""プロテウスは驚いている。知っていると思っていた。我々の神を解放し、その栄光を制限なく広めることが我々の運命だと言っている。""
        [79]
-        1 string data = ""The Proteus says we are not going to die, we're going to become one with the Great Glow, and allow it to spead our light and love to all of Colorado.""
+        1 string data = ""プロテウスは我々は死ぬのではなく、大いなる輝きと一つになり、コロラド全土に光と愛を広めるのだと言っている。""
        [80]
-        1 string data = ""Sorry. You're lovely people, but we can't let this happen. We have to stop you.""
+        1 string data = ""すまない。君たちは素晴らしい人々だが、これを許すわけにはいかない。止めなければ。""
        [81]
-        1 string data = ""You're all crazy. We're ending this right now.""
+        1 string data = ""お前たちは全員狂ってる。今すぐ終わらせる。""
        [82]
-        1 string data = ""You know what, fine. Maybe this is just what Colorado needs. Do it.""
+        1 string data = ""分かった、いいよ。たぶんこれがコロラドに必要なことなんだ。やれ。""
        [83]
-        1 string data = ""Are you insane, Rangers!? This will kill thousands of people! Colorado Springs will be wiped from the map!""
+        1 string data = ""正気か、レンジャー！？何千人もの人が死ぬぞ！コロラドスプリングスは地図から消える！""
        [84]
-        1 string data = ""You bet! The Proteus says it's our destiny to free our god and allow its glory to spread unrestrained!""
+        1 string data = ""もちろん！プロテウスは我々の神を解放し、その栄光を制限なく広めることが我々の運命だと言っている！""
        [85]
-        1 string data = ""Yeah, sorry. Lost our heads there for a second. Sorry, Proteus. We have to stop you.""
+        1 string data = ""ああ、すまない。一瞬頭がおかしくなった。すまない、プロテウス。止めなければならない。""
        [86]
-        1 string data = ""It's okay, Theo. The city will become one with the Glow, just like we will.""
+        1 string data = ""大丈夫だよ、テオ。街は我々と同じように輝きと一つになる。""
        [87]
-        1 string data = ""There's no stopping us, Rangers. Nothing's going to turn us back now. We're making our dreams come true.""
+        1 string data = ""止められないぞ、レンジャー。何も我々を止められない。夢を叶えるんだ。""
        [88]
         1 string data = ""!!!@o&i3j&@!!!""
        [89]
-        1 string data = ""No, Rangers. Please!""
+        1 string data = ""やめてくれ、レンジャー。頼む！""
        [90]
-        1 string data = ""Thank you, Proteus. We're glad it's over.""
+        1 string data = ""ありがとう、プロテウス。終わって良かった。""
        [91]
-        1 string data = ""No worries. It was a pleasure to kick Deuterium's pompous ass.""
+        1 string data = ""気にするな。ドューテリウムのうぬぼれた尻を蹴り飛ばせて光栄だった。""
        [92]
-        1 string data = ""As are we all, but the infighting that led to this tragedy has made them determined to give the world the gift of the blessed Glow <i>now</i>, before any further splits happen in the church.""
+        1 string data = ""我々全員もそうだが、この悲劇を招いた内紛が、教会がさらに分裂する前に、祝福された輝きという贈り物を世界に与えることを<i>今</i>決心させた。""
        [93]
-        1 string data = ""The Proteus is disappointed that you would disrespect Deuterium this way. He had lost his way, but he was not beneath contempt.""
+        1 string data = ""プロテウスはお前がこのようにドューテリウムを侮辱したことに失望している。彼は道を踏み外したが、軽蔑に値する者ではなかった。""
        [94]
-        1 string data = ""Thus, they have decided that today is the day that they will free the Holy Detonation from its shackles once and for all.""
+        1 string data = ""だから彼らは今日が聖なる爆発を枷から永遠に解放する日だと決めた。""
        [95]
-        1 string data = ""You should be honored, Rangers. You will be firsthand witnesses to the birth of the Primordial Age.""
+        1 string data = ""光栄に思うべきだ、レンジャー。原初の時代の誕生を直接目撃することになる。""
        [96]
-        1 string data = ""But the infighting that led to this tragedy has made the Proteus determined to give the world the gift of the blessed Glow <i>now</i>, before any further splits happen in the church.""
+        1 string data = ""しかし、この悲劇を招いた内紛が、教会がさらに分裂する前に、祝福された輝きという贈り物を世界に与えることをプロテウスに<i>今</i>決心させた。""
        [97]
-        1 string data = ""They mean that we will to turn off the time dilation field that has held the Holy Detonation back from being the explosion it was meant to be, and allow it to blossom.""
+        1 string data = ""つまり、聖なる爆発があるべき爆発になるのを抑えていた時間遅延フィールドを止めて、花開かせるということだ。""
        [98]
-        1 string data = ""It will be glorious, Rangers. We will share its Glow with Colorado Springs, Denver, and everywhere downwind! Indeed, if the wind is right, it might even reach Kansas!""
+        1 string data = ""壮大だぞ、レンジャー。コロラドスプリングス、デンバー、そして風下の全ての場所と輝きを共有する！風向きが良ければ、カンザスまで届くかもしれない！""
        [99]
-        1 string data = ""Yes. Once we turn off the time dilation field that has held the Holy Detonation back from being the explosion it was meant to be, we will share it with Colorado Springs and everywhere downwind!""
+        1 string data = ""そうだ。聖なる爆発があるべき爆発になるのを抑えていた時間遅延フィールドを止めたら、コロラドスプリングスや風下の全ての場所と共有する！""
        [100]
-        1 string data = ""Indeed, if the wind is right, the Glow might even reach Kansas! It will be glorious!""
+        1 string data = ""風向きが良ければ、輝きはカンザスまで届くかもしれない！壮大だぞ！""
        [101]
-        1 string data = ""Wonderful! We are so glad you're with us on this. Now all there is to do is turn off the time dilation field that has held the Holy Detonation back from being the explosion it was meant to be, and let it... blossom.""
+        1 string data = ""素晴らしい！賛同してくれて本当に嬉しい。あとは聖なる爆発があるべき爆発になるのを抑えていた時間遅延フィールドを止めて...花開かせるだけだ。""
        [102]
-        1 string data = ""There is no stopping us, Rangers. Nothing is going to turn us back now. We are making our dreams come true.""
+        1 string data = ""止められないぞ、レンジャー。何も我々を止められない。夢を叶えるんだ。""
        [103]
-        1 string data = ""We shall! The Proteus says it is our destiny to free our god and allow its glory to spread unrestrained!""
+        1 string data = ""やるぞ！プロテウスは我々の神を解放し、その栄光を制限なく広めることが我々の運命だと言っている！""
        [104]
-        1 string data = ""I admit, I've missed you, Bezoar, and you, Proteus. It was never war I wanted. I wanted you to join us.""
+        1 string data = ""正直、お前が恋しかった、ベゾアー、そしてプロテウスも。戦争をしたかったわけじゃない。お前たちに我々に加わってほしかったんだ。""
        [105]
-        1 string data = ""And we wanted you to join <i>us!</i>""
+        1 string data = ""そして我々もお前に<i>我々に</i>加わってほしかったんだ！""
        [106]
-        1 string data = ""Well, I wouldn't have left if you hadn't-""
+        1 string data = ""まあ、お前たちがあんなことをしなければ離れなかったんだが...""
        [107]
-        1 string data = ""Yes. Sorry, Proteus.""
+        1 string data = ""そうだ。すまない、プロテウス。""
        [108]
-        1 string data = ""So, seeing as you're all friends again, are you willing to share power with Colorado Springs?""
+        1 string data = ""じゃあ、みんな仲直りしたところで、コロラドスプリングスと電力を共有する気はあるか？""
        [109]
-        1 string data = ""Now that we've solved your problem for you, I hope you're not going to reneg on our power-sharing deal.""
+        1 string data = ""お前たちの問題を解決してやったんだから、電力共有の取引を反故にしないでほしい。""
        [110]
-        1 string data = ""With that kind of attitude, maybe we should.""
+        1 string data = ""そんな態度なら、そうするかもな。""
        [111]
-        1 string data = ""If that's what the Proteus wishes.""
+        1 string data = ""プロテウスがそう望むなら。""
        [112]
-        1 string data = ""They are happy to allow you to syphon some power from the Holy Detonation for Colorado Springs, and would welcome visits from other scientific-""
+        1 string data = ""彼らはコロラドスプリングスのために聖なる爆発から電力の一部を取ることを喜んで許可し、他の科学者の訪問も歓迎する...""
        [113]
-        1 string data = ""Sister Polyp. Please, calm down. You-""
+        1 string data = ""シスター・ポリプ、落ち着いて。君は...""
        [114]
-        1 string data = ""Don't tell me what to do, you gladhanding fraud! You have broken your promises to the Holy Detonation! You all have! But I will set it free!""
+        1 string data = ""指図するな、この愛想振りまきの詐欺師め！お前たちは聖なる爆発への約束を破った！全員がだ！でも私が解放してやる！""
        [115]
-        1 string data = ""Proteus! Absorb me! Absorb my rage! Fight for the Holy Detonation. Fight!""
+        1 string data = ""プロテウス！私を吸収して！私の怒りを吸収して！聖なる爆発のために戦え。戦え！""
        [116]
-        1 string data = ""Fire in the hole, eh? Okay. Cool. We're ready.""
+        1 string data = ""爆発するのか？よし、いいぞ。準備はできてる。""
        [117]
-        1 string data = ""I am with you, Proteus!""
+        1 string data = ""私はあなたと共にいる、プロテウス！""
        [118]
-        1 string data = ""We are all one!""
+        1 string data = ""我々は一つ！""
        [119]
-        1 string data = ""Take me, o Proteus!""
+        1 string data = ""連れていって、プロテウス！""
        [120]
-        1 string data = ""My god, spontaneous mutation! It must be the proximity to the detonation!""
+        1 string data = ""なんてこった、自然発生的な突然変異だ！爆発への近接が原因に違いない！""
        [121]
-        1 string data = ""My god, spontaneous mutation! It must be the proximity to the detonation!""
+        1 string data = ""なんてこった、自然発生的な突然変異だ！爆発への近接が原因に違いない！""
        [122]
         1 string data = ""~}^~>;=~..."\n"
        [123]
@@ -67301,41 +67301,41 @@
        [124]
         1 string data = ""
        [125]
-        1 string data = ""What? What are you saying? Are you outta your mind?""
+        1 string data = ""何？何を言ってるんだ？頭おかしいのか？""
        [126]
-        1 string data = ""Hey. I didn't sign up for this?""
+        1 string data = ""おい。こんなことに同意した覚えはないぞ？""
        [127]
-        1 string data = ""What did you just say? Are you crazy?""
+        1 string data = ""今何て言った？狂ったのか？""
        [128]
-        1 string data = ""Rangers, now is not the time for jokes. There are innocent lives at stake.""
+        1 string data = ""レンジャー、今は冗談を言ってる場合じゃない。罪のない命がかかってるんだ。""
        [129]
-        1 string data = ""What? You have gone crazy. You don't know what you're saying!""
+        1 string data = ""何？お前頭おかしくなったぞ。自分が何を言ってるか分かってないだろ！""
        [130]
-        1 string data = ""Ha ha ha! I love it. I <i>love</i> it!""
+        1 string data = ""ハハハ！最高だ。<i>最高</i>だよ！""
        [131]
-        1 string data = ""What? You been drinkin' the kool aid when I wasn't lookin'? Don't talk crazy.""
+        1 string data = ""何？俺が見てないうちにおかしな飲み物でも飲んだのか？馬鹿なこと言うなよ。""
        [132]
-        1 string data = ""What did you say, you human rectum? Are you outta your mind?""
+        1 string data = ""何て言った、この人間直腸野郎？頭おかしいのか？""
        [133]
         1 string data = ""
        [134]
-        1 string data = ""Holy crap. They're insane! They're completely insane!""
+        1 string data = ""マジかよ。狂ってる！完全に狂ってる！""
        [135]
-        1 string data = ""Never trust a cultist.""
+        1 string data = ""カルト信者を信用するな。""
        [136]
-        1 string data = ""Damn. I knew they were crazy. I didn't know they were this crazy.""
+        1 string data = ""くそ。狂ってるとは思ってたけど、ここまでとは思わなかった。""
        [137]
-        1 string data = ""I suppose it is the logical conclusion of their doctrine...""
+        1 string data = ""彼らの教義の論理的帰結なのかもしれないが...""
        [138]
-        1 string data = ""Yeah! Glory! Uh, what're we celebratin'?""
+        1 string data = ""イェー！栄光！えーと、何を祝ってるんだ？""
        [139]
-        1 string data = ""They're all mad! Completely mad!""
+        1 string data = ""全員狂ってる！完全に狂ってる！""
        [140]
-        1 string data = ""You guys know how to party!""
+        1 string data = ""お前らパーティーの仕方分かってるな！""
        [141]
-        1 string data = ""What a bunch of nuts.""
+        1 string data = ""なんてキチガイどもだ。""
        [142]
-        1 string data = ""Oh, hell no. Hell no!""
+        1 string data = ""いや、マジ勘弁。マジ勘弁！""
        [143]
         1 string data = """"
        [144]
@@ -67345,9 +67345,9 @@
        [146]
         1 string data = ""
        [147]
-        1 string data = ""The Proteus absorbed them! It's getting larger!""
+        1 string data = ""プロテウスが彼らを吸収した！大きくなってる！""
        [148]
-        1 string data = ""The Proteus absorbed her! It's getting larger!""
+        1 string data = ""プロテウスが彼女を吸収した！大きくなってる！""
    [355]
     0 StringTable data
      1 string Filename = "e7001_radio_patriarch"
@@ -67493,69 +67493,69 @@
       1 Array Array (33 items)
        0 int size = 33
        [0]
-        1 string data = ""Rangers? Was that you? All the lights in the palace just flared and my heat lamp blew a fuse. I'm getting power surge reports from all over the city. What are you doing?""
+        1 string data = ""レンジャー？今のはお前たちか？宮殿中のライトが一斉に点滅して、ヒートランプのヒューズが飛んだ。街中から電力サージの報告が来てる。何をしてるんだ？""
        [1]
-        1 string data = ""We found a working power source in a military facility and helped Theo Curie connect it to the Colorado Springs power grid.""
+        1 string data = ""軍施設で稼働している電源を見つけて、テオ・キュリーがそれをコロラドスプリングスの電力網に接続するのを手伝いました。""
        [2]
-        1 string data = ""We just helped Theo Curie hook up a time-dilated nuclear explosion to the Colorado Springs power grid!""
+        1 string data = ""テオ・キュリーが時間遅延された核爆発をコロラドスプリングスの電力網に接続するのを手伝いました！""
        [3]
-        1 string data = ""Excellent! It will be good to augment the power we're getting from the Gippers, and have a back-up in case they make trouble again.""
+        1 string data = ""素晴らしい！ギッパーズから得ている電力を増強し、彼らがまた問題を起こした時のバックアップになるだろう。""
        [4]
-        1 string data = ""Good to know. I may give that duty to you, Rangers, once our current trouble is over. For now, though, this will be a good way to augment the power we're getting from the Gippers, and have as a back-up in case they make trouble again.""
+        1 string data = ""分かった。現在の問題が片付いたら、その任務をお前たちに任せるかもしれない、レンジャー。とりあえず今は、ギッパーズから得ている電力を増強し、彼らがまた問題を起こした時のバックアップになるだろう。""
        [5]
-        1 string data = ""You tell Curie to come see me when he gets back to the city. I'm going to want a full risk assessment of this thing from him when he gets back to the city.""
+        1 string data = ""キュリーに街に戻ったら会いに来るよう伝えてくれ。戻ったらこの件の完全なリスク評価を彼から聞きたい。""
        [6]
-        1 string data = ""Good to know. I may give that duty to you, Rangers, once our current trouble is over. But I'm glad to have all systems at full power again now that we're not getting the Gippers' oil. My people have been without electricity for far too long.""
+        1 string data = ""分かった。現在の問題が片付いたら、その任務をお前たちに任せるかもしれない、レンジャー。しかしギッパーズの石油が来なくなった今、全システムがフル稼働できるのは嬉しい。市民は長い間電気なしで過ごしてきた。""
        [7]
-        1 string data = ""Yes! It's a technical marvel that has powered this base since the Deluge, and should power your city for centuries to come.""
+        1 string data = ""そうだ！大洪水以来この基地に電力を供給してきた技術の驚異であり、今後何世紀もお前の街に電力を供給するはずだ。""
        [8]
-        1 string data = ""It has nearly infinite power, but it's also vulnerable. You'll need to secure this place or it could be used against you.""
+        1 string data = ""ほぼ無限の電力があるが、脆弱でもある。ここを確保しないと、敵に利用される可能性がある。""
        [9]
-        1 string data = ""I would have been grateful for a warning. Or a chance to review your plans. I don't like surprises, Rangers. Particularly not surprises that blow all the fuses in my security systems.""
+        1 string data = ""事前に警告をもらえれば感謝したのだが。あるいは計画を確認する機会を。サプライズは好きじゃない、レンジャー。特にセキュリティシステムのヒューズを全部飛ばすようなサプライズはな。""
        [10]
-        1 string data = ""Thank you, Rangers, knowing Theo, I've no doubt you were instrumental in bringing this plan to fruition. I, and Colorado Springs, owe you a debt. Good work. And, Theo, are you there?""
+        1 string data = ""ありがとう、レンジャー。テオのことを知っている身として、この計画を実現させるのにお前たちが不可欠だったことは疑いない。私とコロラドスプリングスはお前たちに借りがある。よくやった。それと、テオ、そこにいるか？""
        [11]
-        1 string data = ""I'm half-tempted to tell you to shut it all down until I get that report from Theo, but the thought of having proprerly hot water for once is too hard to resist. You can keep it running for now, but Theo... Are you there, Theo?""
+        1 string data = ""テオからの報告を受けるまで全部止めろと言いたいところだが、一度でもちゃんとした熱いお湯が出るかと思うと我慢できない。今のところ動かしておいていい。だが、テオ...テオ、そこにいるか？""
        [12]
-        1 string data = ""Uh... yes, sir?""
+        1 string data = ""え...はい、閣下？""
        [13]
-        1 string data = ""Well done, son. I'm sorry now I listened to Elijah Ward after you brought me your plan. I should have trusted you. If you have funds on you, pay the Rangers for their help. I'll reimburse you when I give you your reward.""
+        1 string data = ""よくやった、息子よ。お前が計画を持ってきた後にエリヤ・ウォードの言うことを聞いたことを今は後悔している。お前を信じるべきだった。金があるなら、レンジャーたちに手助けの報酬を払ってやれ。お前に報酬を渡す時に立て替え分は返す。""
        [14]
-        1 string data = ""Yes, sir. Understood.""
+        1 string data = ""はい、閣下。了解しました。""
        [15]
-        1 string data = ""Good job to all of you. Buchanan out.""
+        1 string data = ""全員よくやった。ブキャナン、通信終了。""
        [16]
-        1 string data = ""Excellent! It's good to have all systems at full power again now that we're not getting the Gippers' oil. My people have been without electricity for far too long.""
+        1 string data = ""素晴らしい！ギッパーズの石油が来なくなった今、全システムがフル稼働できるのは嬉しい。市民は長い間電気なしで過ごしてきた。""
        [17]
-        1 string data = ""Sir! It's Theo Curie. The Rangers have been helping me with that proposal I brought to you some months back. The one where I asked for backing to search for a power source in the old Cheyenne Mountain military facility. Do you remember?""
+        1 string data = ""閣下！テオ・キュリーです。レンジャーたちが数ヶ月前に持ってきた提案を手伝ってくれています。旧シャイアンマウンテン軍施設で電源を探すための支援を求めた件です。覚えていますか？""
        [18]
-        1 string data = ""I remember telling you I'd get back to you about it. It sounds like you didn't wait. ""
+        1 string data = ""後で連絡すると言ったのは覚えている。待たなかったようだな。""
        [19]
-        1 string data = ""Er, no sir, but the results have been spectacular! With the Rangers' help I've secured the source and, as you are now aware, we have successfully connected it to the Colorado Springs energy grid! We have more power here than we will ever need!""
+        1 string data = ""え、はい閣下。でも結果は素晴らしいものでした！レンジャーたちの助けで電源を確保し、ご存知の通り、コロラドスプリングスの電力網への接続に成功しました！必要な以上の電力があります！""
        [20]
-        1 string data = ""Well, that sounds like good news, but I'd like a second opinion. Rangers, what do you think of this power source? Is it all that Theo Curie says it is?""
+        1 string data = ""それは良いニュースのようだが、セカンドオピニオンが欲しい。レンジャー、この電源についてどう思う？テオ・キュリーの言う通りか？""
        [21]
-        1 string data = ""Yes, sir! Happy to!""
+        1 string data = ""はい、閣下！喜んで！""
        [22]
-        1 string data = ""We've been helping Theo Curie connect a power source in this old military facility to the Colorado Springs energy grid.""
+        1 string data = ""テオ・キュリーがこの旧軍施設の電源をコロラドスプリングスの電力網に接続するのを手伝っています。""
        [23]
-        1 string data = ""Don't look a gift horse in the mouth, Patriarch. Us and Theo Curie have just given you free power, forever.""
+        1 string data = ""貰ったものに文句を言うな、パトリアーク。俺たちとテオ・キュリーがあんたに永遠に無料の電力を与えたんだ。""
        [24]
-        1 string data = ""Military facility? This is the plan Theo presented to me a while back, isn't it? I put him off, but I guess he wasn't deterred. Good for him. Is he with you?""
+        1 string data = ""軍施設？これはテオが少し前に私に提出した計画か？保留にしたが、彼は諦めなかったようだ。彼にしては上出来だ。彼は一緒にいるか？""
        [25]
-        1 string data = ""Free power? This is the plan Theo presented to me a while back, isn't it? I put him off, but I guess he wasn't deterred. Good for him. Is he with you?""
+        1 string data = ""無料の電力？これはテオが少し前に私に提出した計画か？保留にしたが、彼は諦めなかったようだ。彼にしては上出来だ。彼は一緒にいるか？""
        [26]
-        1 string data = ""He didn't make it, but he didn't die in vain. We've completed his work.""
+        1 string data = ""彼は生き残れなかったが、無駄死にではなかった。我々が彼の仕事を完成させた。""
        [27]
-        1 string data = "[Lie] "He's, uh, busy right now. Fine tuning the power source.""
+        1 string data = "[Lie] "彼は、えーと、今忙しい。電源の微調整をしている。""
        [28]
-        1 string data = ""I'm very sorry to hear it. He was bright young man. But what of his work, Rangers? What do you think of this power source of his? Is it all he said it would be?""
+        1 string data = ""それは大変残念だ。彼は優秀な若者だった。しかし彼の仕事はどうだ、レンジャー？この電源についてどう思う？彼が言っていた通りか？""
        [29]
-        1 string data = ""I see. Good. And what do you think of this power source? Is it all he said it would be?""
+        1 string data = ""そうか、分かった。それでこの電源についてどう思う？彼が言っていた通りか？""
        [30]
-        1 string data = ""Thank you, Rangers. I, and Colorado Springs, owe you a debt. Good work.""
+        1 string data = ""ありがとう、レンジャー。私とコロラドスプリングスはお前たちに借りがある。よくやった。""
        [31]
-        1 string data = "::sighs:: "I'm sorry now I listened to Elijah Ward after Theo brought me his plan. I should have trusted him. Ah well. Rangers, if Theo hasn't paid you for your help, then I will. You'll find something waiting for you at your HQ when you get back.""
+        1 string data = "::sighs:: "テオが計画を持ってきた後にエリヤ・ウォードの言うことを聞いたことを今は後悔している。彼を信じるべきだった。まあいい。レンジャー、テオが手助けの報酬を払っていないなら、私が払う。本部に戻ったら何か届いているはずだ。""
        [32]
         1 string data = ""
    [356]
@@ -67709,71 +67709,71 @@
        [0]
         1 string data = ""
        [1]
-        1 string data = ""Raising cooling tank zero.""
+        1 string data = ""冷却タンクゼロを上昇中。""
        [2]
-        1 string data = ""Raising cooling tank one.""
+        1 string data = ""冷却タンク1を上昇中。""
        [3]
-        1 string data = ""Raising cooling tank two.""
+        1 string data = ""冷却タンク2を上昇中。""
        [4]
-        1 string data = ""Raising cooling tank three.""
+        1 string data = ""冷却タンク3を上昇中。""
        [5]
-        1 string data = ""Coolant tank zero depleted. Recharge required.""
+        1 string data = ""冷却液タンクゼロ枯渇。再充填が必要です。""
        [6]
-        1 string data = ""Coolant tank one depleted. Rechage required.""
+        1 string data = ""冷却液タンク1枯渇。再充填が必要です。""
        [7]
-        1 string data = ""Coolant tank two depleted. Recharge required.""
+        1 string data = ""冷却液タンク2枯渇。再充填が必要です。""
        [8]
-        1 string data = ""Coolant tank three. Recharge required.""
+        1 string data = ""冷却液タンク3。再充填が必要です。""
        [9]
-        1 string data = ""Coolant tank zero recharging.""
+        1 string data = ""冷却液タンクゼロ再充填中。""
        [10]
-        1 string data = ""Coolant tank one recharging.""
+        1 string data = ""冷却液タンク1再充填中。""
        [11]
-        1 string data = ""Coolant tank two recharging.""
+        1 string data = ""冷却液タンク2再充填中。""
        [12]
-        1 string data = ""Coolant tank three recharging.""
+        1 string data = ""冷却液タンク3再充填中。""
        [13]
-        1 string data = ""Coolant tank zero processing.""
+        1 string data = ""冷却液タンクゼロ処理中。""
        [14]
-        1 string data = ""Coolant tank one processing.""
+        1 string data = ""冷却液タンク1処理中。""
        [15]
-        1 string data = ""Coolant tank two processing.""
+        1 string data = ""冷却液タンク2処理中。""
        [16]
-        1 string data = ""Coolant tank three processing.""
+        1 string data = ""冷却液タンク3処理中。""
        [17]
-        1 string data = ""Commencing recharge of coolant tank zero.""
+        1 string data = ""冷却液タンクゼロの再充填を開始。""
        [18]
-        1 string data = ""Commencing recharge of coolant tank one.""
+        1 string data = ""冷却液タンク1の再充填を開始。""
        [19]
-        1 string data = ""Commencing recharge of coolant tank two.""
+        1 string data = ""冷却液タンク2の再充填を開始。""
        [20]
-        1 string data = ""Commencing recharge of coolant tank three.""
+        1 string data = ""冷却液タンク3の再充填を開始。""
        [21]
-        1 string data = ""Coolant tank zero recharging.""
+        1 string data = ""冷却液タンクゼロ再充填中。""
        [22]
-        1 string data = ""Coolant tank one recharging.""
+        1 string data = ""冷却液タンク1再充填中。""
        [23]
-        1 string data = ""Coolant tank two recharging.""
+        1 string data = ""冷却液タンク2再充填中。""
        [24]
-        1 string data = ""Coolant tank three recharging.""
+        1 string data = ""冷却液タンク3再充填中。""
        [25]
-        1 string data = ""Coolant tank zero fully charged.""
+        1 string data = ""冷却液タンクゼロ満充填完了。""
        [26]
-        1 string data = ""Coolant tank one fully charged.""
+        1 string data = ""冷却液タンク1満充填完了。""
        [27]
-        1 string data = ""Coolant tank two fully charged.""
+        1 string data = ""冷却液タンク2満充填完了。""
        [28]
-        1 string data = ""Coolant tank three fully charged.""
+        1 string data = ""冷却液タンク3満充填完了。""
        [29]
         1 string data = ""
        [30]
-        1 string data = ""Warning! Cooling systems offline. Temperature approaching critical levels. Core meltdown in progress.""
+        1 string data = ""警告！冷却システムがオフライン。温度が危険レベルに接近中。炉心メルトダウン進行中。""
        [31]
-        1 string data = ""Transferring partial power output to Colorado Springs power grid.""
+        1 string data = ""コロラドスプリングス電力網へ部分出力を送電中。""
        [32]
-        1 string data = ""Tranfering full power output to Colorado Springs power grid.""
+        1 string data = ""コロラドスプリングス電力網へ全出力を送電中。""
        [33]
-        1 string data = ""Reactor shutdown complete.""
+        1 string data = ""炉シャットダウン完了。""
    [357]
     0 StringTable data
      1 string Filename = "e7001_theo"
@@ -68075,145 +68075,145 @@
       1 Array Array (72 items)
        0 int size = 72
        [0]
-        1 string data = ""Well done, Rangers. With the power from the Holy Detonation, Colorado's future is secured.""
+        1 string data = ""よくやった、レンジャーズ。聖なる爆発のエネルギーで、コロラドの未来は保証された。""
        [1]
-        1 string data = ""Remember why we're here, Rangers. We need to send all that glorious power to Colorado.""
+        1 string data = ""我々がここにいる理由を忘れないでくれ、レンジャーズ。あの素晴らしいエネルギーをコロラドに送らねばならない。""
        [2]
-        1 string data = ""Carry on, Rangers.""
+        1 string data = ""続けてくれ、レンジャーズ。""
        [3]
-        1 string data = ""But killing them won't be easy, for, if the toughness of the tumor colonies is any indication, their body will be so robust, mere guns and explosives won't hurt them.""
+        1 string data = ""しかし、奴らを殺すのは容易ではない。腫瘍コロニーの頑丈さから推測すると、奴らの体は非常に堅固で、通常の銃や爆発物では傷つかないだろう。""
        [4]
         1 string data = ""
        [5]
-        1 string data = ""What should we do?""
+        1 string data = ""どうすればいい？""
        [6]
-        1 string data = ""How about <i>a lot</i> of guns and explosives?""
+        1 string data = ""<i>大量の</i>銃と爆発物を使うのはどうだ？""
        [7]
-        1 string data = ""See the heat sink reservoir over there? The base documentation says the canisters that lower its temperature contain pressurized cryo fluid. If you raised them, then lured the Proteus near them and blew them up, the blasts might damage it.""
+        1 string data = ""あそこのヒートシンク貯水槽が見えるか？基地の文書によると、温度を下げるキャニスターには加圧された冷凍液が入っている。それを上昇させ、プロテウスを近くにおびき寄せて爆破すれば、ダメージを与えられるかもしれない。""
        [8]
-        1 string data = ""It won't work, I tell you! Their gelatinous body will absorb all damage. However, I have an idea.""
+        1 string data = ""無駄だと言っているだろう！奴らのゼラチン状の体はあらゆるダメージを吸収する。しかし、私にはアイデアがある。""
        [9]
-        1 string data = ""How do we raise the cryo canisters?""
+        1 string data = ""冷凍キャニスターはどうやって上昇させる？""
        [10]
-        1 string data = ""How will the canisters damage the Proteus when nothing else will?""
+        1 string data = ""他の攻撃が効かないのに、なぜキャニスターならプロテウスにダメージを与えられる？""
        [11]
-        1 string data = ""Thanks for the info. We'll handle it.""
+        1 string data = ""情報ありがとう。あとは任せてくれ。""
        [12]
-        1 string data = ""I certainly hope so, or we're all doomed.""
+        1 string data = ""そう願うよ。さもなければ我々は全滅だ。""
        [13]
-        1 string data = ""In a movie I saw once, they killed an amorphous blob by freezing and shattering it. Here, the cryo fluid would freeze the Proteus. The canister shrapnel would shatter it.""
+        1 string data = ""以前見た映画で、不定形の塊を凍らせて粉砕して殺していた。ここでは、冷凍液がプロテウスを凍らせる。キャニスターの破片がそれを粉砕するだろう。""
        [14]
-        1 string data = ""I believe the computers here on the central platform raise them."\n"
+        1 string data = ""中央プラットフォームのコンピュータがキャニスターを上昇させると思う。"\n"
        [15]
-        1 string data = " And the computers near the cooling pond should refill new cooling canisters."
+        1 string data = " そして冷却池の近くのコンピュータが新しい冷却キャニスターを補充するはずだ。"
        [16]
-        1 string data = ""Rangers, I don't understand. Why... why did you do that?""
+        1 string data = ""レンジャーズ、理解できない。なぜ...なぜそんなことをした？""
        [17]
-        1 string data = ""With the time dilation field collapsed there is no way to restart the explosion. Cheyenne Mountain has become useless as a power source.""
+        1 string data = ""時間遅延フィールドが崩壊した今、爆発を再開させる方法はない。シャイアンマウンテンはエネルギー源としては役立たずになった。""
        [18]
-        1 string data = ""Elijah Ward asked us to shut it down. He felt it was too dangerous. We agreed.""
+        1 string data = ""イライジャ・ウォードが停止を依頼した。危険すぎると感じたからだ。我々も同意した。""
        [19]
-        1 string data = ""An adjustable nuclear explosion isn't something you want falling into the wrong hands. It's safer this way.""
+        1 string data = ""調整可能な核爆発は、悪人の手に渡ってはならないものだ。こうした方が安全だ。""
        [20]
-        1 string data = ""We don't have to explain ourselves to you.""
+        1 string data = ""あなたに説明する必要はない。""
        [21]
-        1 string data = ""Ward? That jealous old man. He doesn't think it's dangerous. He just doesn't want me to succeed where he failed. To rob a whole city of its future out of petty spite! It's... it's villainy! And you were party to it!""
+        1 string data = ""ウォード？あの嫉妬深い老人か。彼は危険だとは思っていない。ただ、自分が失敗した場所で私が成功するのを望んでいないだけだ。つまらない意地で都市全体の未来を奪うとは！それは...それは悪行だ！そしてあなたはその共犯者だ！""
        [22]
-        1 string data = ""But it would have been in my hands! The hands of a rational, scientific, civilized man. You could not find less-wrong hands!""
+        1 string data = ""しかし私の手に委ねられるはずだった！理性的で、科学的で、文明的な人間の手に。これ以上正しい手は見つからないだろう！""
        [23]
-        1 string data = ""I... I suppose you don't. And I don't have to associate with small-minded, backwards-thinking brutes.""
+        1 string data = ""私は...そうだな、説明する必要はないか。そして私も、視野の狭い、時代遅れの野蛮人と付き合う必要はない。""
        [24]
-        1 string data = ""Good day. You shall not see me again.""
+        1 string data = ""さようなら。二度と私を見ることはないだろう。""
        [25]
-        1 string data = "::sighs:: "Why am I wasting my time talking to small-minded, backwards-thinking brutes. I'm going home.""
+        1 string data = "::sighs:: "なぜ視野の狭い、時代遅れの野蛮人と話して時間を無駄にしているのだろう。帰るとしよう。""
        [26]
-        1 string data = ""Well, I will have no more to do with you small-minded, backwards-thinking brutes.""
+        1 string data = ""よし、視野の狭い、時代遅れの野蛮人とはこれ以上関わらないことにする。""
        [27]
-        1 string data = ""Just wait until Elijah Ward hears about this. He'll eat his telescope. Sideways!""
+        1 string data = ""イライジャ・ウォードがこれを聞いたらどうなるか見ものだな。望遠鏡を横向きに飲み込むことになるだろう！""
        [28]
-        1 string data = ""Thanks again, friends. I'm going to stay here and continue studying the detonation. There is so much yet to learn.""
+        1 string data = ""改めて感謝する、友よ。私はここに残って爆発の研究を続ける。まだ学ぶべきことがたくさんある。""
        [29]
         1 string data = ""
        [30]
-        1 string data = ""Whew! You stopped them. But what a sad outcome, Rangers. The Proteus was ready to welcome outsiders, but Polyp's rage infected them. I'm sorry to see them go.""
+        1 string data = ""ふう！奴らを止めたか。しかし悲しい結末だ、レンジャーズ。プロテウスは外部者を歓迎する準備ができていたのに、ポリープの怒りに感染してしまった。彼らが去るのを見るのは残念だ。""
        [31]
-        1 string data = ""So what's the next step?""
+        1 string data = ""次のステップは？""
        [32]
-        1 string data = ""It was us or them. We had no choice.""
+        1 string data = ""我々か奴らかだった。選択の余地はなかった。""
        [33]
-        1 string data = ""Our mission stands. It's time to propel Colorado into the new age of energy!""
+        1 string data = ""我々の任務は変わらない。コロラドを新しいエネルギー時代へ推進する時だ！""
        [34]
-        1 string data = ""Indeed. Sad all the same, but we must look to the future now. It's time to propel Colorado into the new age of energy!""
+        1 string data = ""確かに。それでも悲しいが、今は未来を見据えねばならない。コロラドを新しいエネルギー時代へ推進する時だ！""
        [35]
-        1 string data = " Let's go."
+        1 string data = " 行こう。"
        [36]
-        1 string data = ""And if I remember the documentation correctly, more canisters are on standby to replace any broken ones. It would just take some time to refill them.""
+        1 string data = ""文書によると、壊れたキャニスターを交換するための予備があるはずだ。補充には少し時間がかかるだけだろう。""
        [37]
-        1 string data = ""At least the detonation remained stable and unharmed, which allows us to resume our mission.""
+        1 string data = ""少なくとも爆発は安定したまま無傷だった。これで任務を再開できる。""
        [38]
-        1 string data = ""Hang on, Rangers. I'm shutting down the countdown!""
+        1 string data = ""待ってくれ、レンジャーズ。カウントダウンを停止する！""
        [39]
         1 string data = ""
        [40]
         1 string data = ""
        [41]
-        1 string data = ""Oh no! The countdown has reached zero. The stasis field is shutting down! This is the end!""
+        1 string data = ""しまった！カウントダウンがゼロに達した。スタシスフィールドが停止する！これで終わりだ！""
        [42]
-        1 string data = ""Whew! You stopped them. But what an unexpected outcome, Rangers. I truly thought, when the Proteus said they wanted to share the detonation, they meant through the power grid. Ah well, one can't expect rationality from cultists, can one?""
+        1 string data = ""ふう！奴らを止めたか。しかし予想外の結末だ、レンジャーズ。プロテウスが爆発を共有したいと言った時、電力網を通じてだと本当に思っていた。まあ、カルト信者に合理性を期待することはできないか？""
        [43]
-        1 string data = ""Safe travels.""
+        1 string data = ""良い旅を。""
        [44]
-        1 string data = ""Let's begin!""
+        1 string data = ""始めよう！""
        [45]
-        1 string data = ""See the heat sink reservoir over there? The base documentation says the canisters that lower its temprature contain pressurized cryo fluid. If you raised them, then lured the Proteus near them and blew them up, the blasts might damage it.""
+        1 string data = ""あそこのヒートシンク貯水槽が見えるか？基地の文書によると、温度を下げるキャニスターには加圧された冷凍液が入っている。それを上昇させ、プロテウスを近くにおびき寄せて爆破すれば、ダメージを与えられるかもしれない。""
        [46]
         1 string data = ""
        [47]
-        1 string data = ""Oh, well done, Rangers! That blast of cryo fluid did the trick! Keep it up! Lure them to the next one!""
+        1 string data = ""素晴らしい、レンジャーズ！冷凍液の爆発が効いた！その調子だ！次のキャニスターにおびき寄せろ！""
        [48]
-        1 string data = ""Yes! Keep at it!""
+        1 string data = ""そうだ！続けろ！""
        [49]
-        1 string data = ""Bravo!""
+        1 string data = ""見事だ！""
        [50]
-        1 string data = ""Oh dear, the cultists are charging the console that controls the Holy Detonation. If they wreck it, I fear the containment field will fail and the detonation will be freed!""
+        1 string data = ""大変だ、カルト信者が聖なる爆発を制御するコンソールに突撃している。破壊されたら、封じ込めフィールドが失敗して爆発が解放されてしまう！""
        [51]
-        1 string data = ""The only gleam of hope I can see is the possibility the cultists might lose heart when the Proteus dies, and be too grief-striken to continue.""
+        1 string data = ""唯一の希望は、プロテウスが死んだ時にカルト信者が意気消沈して、悲しみのあまり続けられなくなる可能性だ。""
        [52]
-        1 string data = ""Oh no. The Proteus has gone mad with rage - and you are their target, Rangers! Until they're killed you'll never be able to adjust the detonation's power output!""
+        1 string data = ""しまった。プロテウスが狂気の怒りに駆られている - そしてレンジャーズ、君たちがその標的だ！奴らを殺さない限り、爆発の出力を調整することはできない！""
        [53]
         1 string data = ""
        [54]
         1 string data = ""
        [55]
-        1 string data = ""I'm afraid it's become a war on two fronts, Rangers. Not only must you keep luring the Proteus to its icy doom, you'll have to stop those lunatics from unleashing a nuclear explosion!""
+        1 string data = ""残念ながら二正面作戦になってしまった、レンジャーズ。プロテウスを冷凍の運命へおびき寄せ続けるだけでなく、あの狂信者たちが核爆発を解き放つのを阻止しなければならない！""
        [56]
-        1 string data = ""Good luck, Rangers. The fate of our selves and our world is in your hands. No pressure, though.""
+        1 string data = ""幸運を、レンジャーズ。我々自身と世界の運命は君たちの手にかかっている。プレッシャーをかけるつもりはないが。""
        [57]
-        1 string data = ""Leave me alone, Rangers.""
+        1 string data = ""放っておいてくれ、レンジャーズ。""
        [58]
         1 string data = ""
        [59]
         1 string data = ""
        [60]
-        1 string data = ""What a heartbreaking loss.""
+        1 string data = ""なんと心が痛む損失だ。""
        [61]
-        1 string data = ""To think what could have been.""
+        1 string data = ""あり得たはずのことを思うと。""
        [62]
-        1 string data = ""I can't believe it's gone.""
+        1 string data = ""失われたとは信じられない。""
        [63]
-        1 string data = ""Forgive me, Colorado Springs. I failed you.""
+        1 string data = ""許してくれ、コロラドスプリングス。私は失敗した。""
        [64]
-        1 string data = ""So much work yet to be done, but such a great start.""
+        1 string data = ""まだやるべき仕事はたくさんあるが、素晴らしいスタートだ。""
        [65]
-        1 string data = ""This place will become a citadel of science!""
+        1 string data = ""この場所は科学の砦になるだろう！""
        [66]
-        1 string data = ""Fascinating. So much to learn.""
+        1 string data = ""魅力的だ。学ぶことがたくさんある。""
        [67]
-        1 string data = ""Where to start? I must make a list.""
+        1 string data = ""どこから始めよう？リストを作らねば。""
        [68]
-        1 string data = "::sighs:: "We shall not see its like again.""
+        1 string data = "::sighs:: "あのようなものは二度と見られないだろう。""
        [69]
-        1 string data = ""Time to get to work.""
+        1 string data = ""仕事に取り掛かる時だ。""
        [70]
         1 string data = ""
        [71]
@@ -68583,113 +68583,113 @@
       1 Array Array (55 items)
        0 int size = 55
        [0]
-        1 string data = ""Strangers are a rare sight here in Two Buttes, a rare sight indeed. Not so rare that we have nothing to offer! I'll be happy to tell what you we know!""
+        1 string data = ""ここトゥービュートでは、よそ者は珍しい光景だ。本当に珍しい。しかし、提供するものがないほど珍しくはない！喜んで我々の知っていることをお話ししよう！""
        [1]
-        1 string data = ""You return! Welcome!""
+        1 string data = ""戻ってきたか！ようこそ！""
        [2]
-        1 string data = ""You keep saying you'd be happy to tell us what you know. What DO you know?""
+        1 string data = ""知っていることを喜んで話すと言い続けているが、一体何を知っている？""
        [3]
-        1 string data = ""What's the name of the VHS you have?""
+        1 string data = ""持っているVHSのタイトルは？""
        [4]
-        1 string data = ""Any chance we could see this tape? ... for research, I mean?""
+        1 string data = ""そのテープを見せてもらえないか？...研究のためだ。""
        [5]
-        1 string data = ""What do you have for trade?""
+        1 string data = ""取引できるものは？""
        [6]
-        1 string data = ""That was a figure of speech. We have one dictionary, one English grammar manual, and one VHS tape here left over from before the great war.""
+        1 string data = ""それは比喩だ。我々が持っているのは、大戦前から残る辞書1冊、英文法マニュアル1冊、そしてVHSテープ1本だ。""
        [7]
-        1 string data = ""It must have been a great civilization indeed. I wonder what other wisdom we have lost? Ah well. We have several artifacts and trade goods I would be happy to show you.""
+        1 string data = ""本当に偉大な文明だったに違いない。他にどんな知恵を失ったのだろう？まあいい。いくつかの遺物と交易品をお見せしよう。""
        [8]
-        1 string data = ""I met some of your villagers. They were being held prisoner in Cheyenne Mountain.""
+        1 string data = ""あなたの村人たちに会った。シャイアンマウンテンで囚人として拘束されていた。""
        [9]
-        1 string data = ""It's called <i>Buttman Returns: The Second Cumming</i>. After extensive study, we believe that the ancients possessed some wizardry - or lubricant - that allowed them to engage in these feats of passion sans damage. Alas, we believe it to be impossible without gallons of... coconut butter?""
+        1 string data = ""タイトルは<i>バットマン・リターンズ：セカンド・カミング</i>だ。詳細な研究の結果、古代人は何らかの魔法か潤滑剤を持っていて、ダメージなしにこれらの情熱的な偉業を行えたと我々は信じている。残念ながら、大量の...ココナッツバター？なしでは不可能だと考えている。""
        [10]
-        1 string data = ""But of course! Right this way!""
+        1 string data = ""もちろん！こちらへどうぞ！""
        [11]
-        1 string data = ""The dramatic pauses... the twists and turns of the plot! What delightful entertainment!"\n\n\nHis face is flushed and moist."
+        1 string data = ""劇的な間...プロットの紆余曲折！なんと楽しい娯楽だ！"\n\n\n彼の顔は紅潮し、汗ばんでいる。"
        [12]
-        1 string data = ""From the dictionary we learn the words of the world. From the manual we learn how best to use our voice. And from the VHS - we gain our vision of love and harmony. We use its catchphrases ceremonially."\n\n\nHe looks sadly down at the ground."
+        1 string data = ""辞書からは世界の言葉を学ぶ。マニュアルからは声の最善の使い方を学ぶ。そしてVHSからは愛と調和のビジョンを得る。我々はそのキャッチフレーズを儀式的に使用している。"\n\n\n彼は悲しげに地面を見下ろす。"
        [13]
-        1 string data = ""Again you grace us with your presence! We would be happy to tell you what we know!""
+        1 string data = ""また来てくれたか！喜んで知っていることをお話ししよう！""
        [14]
-        1 string data = ""And you freed them, and they are on their way home right now, no doubt?""
+        1 string data = ""そして彼らを解放し、今まさに帰路についているのだろう？""
        [15]
-        1 string data = ""Yeah, about that... they were given an infectious disease as part of an experiment and their return would have doomed your village.""
+        1 string data = ""その件だが...彼らは実験の一部として感染症を移され、戻ってきたらあなたの村は全滅していた。""
        [16]
-        1 string data = ""Who would do such a thing? What kind of monster would...? No, never mind. As we saw in our ceremonial VHS, the world is full of malicious villains like the Peenguin who either don't care about the effects of their actions, or worse - who know and still persist.""
+        1 string data = ""誰がそんなことを？どんな怪物が...？いや、忘れてくれ。儀式用VHSで見たように、世界はペンギンのような悪党で溢れている。自分の行動の結果を気にしないか、もっと悪いことに、知っていてなお続ける者たちだ。""
        [17]
-        1 string data = ""Someday, we'll be able to replicate their work. Until such time, all we can do is work toward that bright future. Anyway! Perhaps you'd like to look at our wares?""
+        1 string data = ""いつか、彼らの仕事を再現できるようになるだろう。それまでは、明るい未来に向けて努力するしかない。ともかく！我々の商品を見てみるか？""
        [18]
-        1 string data = ""At any rate! That is the basis of our culture. Aren't you glad you asked?""
+        1 string data = ""ともかく！それが我々の文化の基盤だ。聞いてよかっただろう？""
        [19]
-        1 string data = ""I'm not sure. The bit with the cats was a little too much.""
+        1 string data = ""どうだろう。猫のシーンはちょっとやりすぎだった。""
        [20]
-        1 string data = ""Ugh. I need a shower.""
+        1 string data = ""うぇっ。シャワーを浴びたい。""
        [21]
-        1 string data = ""Loved the movie. The characterization, the plot, the... acting... all stellar.""
+        1 string data = ""映画は最高だった。キャラクター描写、プロット、...演技...全て素晴らしかった。""
        [22]
-        1 string data = ""I can understand how it might be overwhelming for an outsider, to be sure. I believe that scene was intended as a metaphor. Or perhaps an analogy or a simile. I do always get those terms confused. Regardless, it does seem like one would get an awful amount of cat fur lodged in one's windpipe, yes?""
+        1 string data = ""よそ者にとっては圧倒されるかもしれないのは理解できる。あのシーンは比喩として意図されていたと思う。あるいは類推か直喩か。いつもこれらの用語を混同してしまう。とにかく、喉に大量の猫の毛が詰まりそうではあるな？""
        [23]
-        1 string data = ""It's not for everyone, to be sure. But it is the last vestige of the old world that we know, and so we treasure it. My apologies if it wasn't to your taste.""
+        1 string data = ""確かに万人向けではない。しかし、我々が知る旧世界の最後の名残であり、だから大切にしている。お口に合わなかったなら申し訳ない。""
        [24]
-        1 string data = ""I'm delighted that you found it as educational and edifying as we did!""
+        1 string data = ""我々と同じように教育的で啓発的だと感じてもらえて嬉しい！""
        [25]
-        1 string data = ""At any rate! What else can we do for you?""
+        1 string data = ""ともかく！他に何かできることは？""
        [26]
-        1 string data = ""What can you tell me about this place?""
+        1 string data = ""この場所について教えてくれないか？""
        [27]
-        1 string data = ""Can you tell me anything more about these missing people?""
+        1 string data = ""行方不明の人々についてもっと教えてもらえるか？""
        [28]
-        1 string data = ""I'm so glad you asked! Here, take a look!"\n"
+        1 string data = ""聞いてくれて嬉しい！こちらをご覧あれ！"\n"
        [29]
-        1 string data = ""We are, as you can see, a small town. And, unfortunately, we have grown smaller still. Some of our procurement specialists - scavengers, in layman's terms - have disappeared mysteriously. We tracked them to a small clearing, but then - nothing. Very mysterious!""
+        1 string data = ""ご覧の通り、我々は小さな町だ。そして残念ながら、さらに小さくなってしまった。調達専門家、平たく言えばスカベンジャーの何人かが不思議なことに姿を消した。小さな空き地まで追跡したが、その後は何もない。非常に不思議だ！""
        [30]
-        1 string data = ""Goodbye.""
+        1 string data = ""さようなら。""
        [31]
-        1 string data = ""Cum aga-... I'm sorry. I meant, I hope you return soon!""
+        1 string data = ""また来て...いや、すまない。またすぐに戻ってきてくれることを願っている！""
        [32]
-        1 string data = ""Their names are Castle, Milch, and Froehlich, are they well missed. Well, missed, anyway. They were enthusiastic members - so to speak - of our ceremonial reenactments. And, of course, we have promised you our treasure if you can bring them home.""
+        1 string data = ""彼らの名前はキャッスル、ミルチ、フレーリッヒで、とても惜しまれている。まあ、惜しまれてはいる。彼らは儀式的な再演の熱心なメンバー、いわば、だった。そしてもちろん、彼らを連れ戻してくれれば宝物をお約束している。""
        [33]
-        1 string data = ""Sure. They'll be home any day now.""
+        1 string data = ""ああ。彼らはすぐに帰ってくるだろう。""
        [34]
-        1 string data = ""No idea!""
+        1 string data = ""わからない！""
        [35]
-        1 string data = ""How horrible! I have many thoughts about this, but... well, we shall have to soldier on without them. We shall give a feast in their honor. Mm, yes, a feast. How delightful that would be!""
+        1 string data = ""なんと恐ろしい！これについて多くの考えがあるが...まあ、彼らなしで進まねばならない。彼らの名誉のために宴を開こう。うむ、そうだ、宴を。なんと楽しいことだろう！""
        [36]
-        1 string data = ""Ahem. You have done the right thing in telling us. Thank you for saving us. And thank you for saving them.""
+        1 string data = ""えへん。話してくれて正しいことをした。我々を救ってくれてありがとう。そして彼らを救ってくれてありがとう。""
        [37]
-        1 string data = ""That's great news. We'll whip up something special to commemorate their return!"\n\n\nHe smiles broadly."
+        1 string data = ""素晴らしいニュースだ。彼らの帰還を記念して何か特別なものを作ろう！"\n\n\n彼は満面の笑みを浮かべる。"
        [38]
-        1 string data = ""I must confess that I am disappointed that the uncertainty about their fate continues, but at least I know they still live! Thank you for letting me know.""
+        1 string data = ""彼らの運命に関する不確実性が続くのは残念だと告白せねばならないが、少なくとも生きていると知ることができた！教えてくれてありがとう。""
        [39]
-        1 string data = ""And not just the Peenguin! Also the Jizzer, Suckacock Grundle, Two-Prick, Dickshot, Killer Cock, Rails al-Grunt... all of these villains with such improbable costumes, all focused solely on their own pleasure..."\n\n\nHis face has become red and moist again."
+        1 string data = ""ペンギンだけじゃない！ジザー、サッカコック・グランドル、トゥー・プリック、ディックショット、キラー・コック、レイルズ・アル・グラント...これらの悪党たちは信じられない衣装を着て、自分の快楽だけに集中している..."\n\n\n彼の顔はまた赤く汗ばんでいる。"
        [40]
-        1 string data = ""Indeed! Their names are Castle, Milch, and Froehlich. Two men, one woman. Should you find them, I will make it well worth your while."\n\n\nHe wiggles his eyebrows, and then decides that's not enough."
+        1 string data = ""そうだ！彼らの名前はキャッスル、ミルチ、フレーリッヒ。男2人、女1人だ。見つけてくれれば、十分な報酬を与えよう。"\n\n\n彼は眉をぴくぴく動かし、それでは不十分だと判断する。"
        [41]
-        1 string data = ""We have kept an item of great power here for many years. But it means nothing to us, not compared to the lives of our friends. If you find them and send them home, we will gladly give it to you.""
+        1 string data = ""我々はここで何年も強力なアイテムを保管してきた。しかし、友人たちの命に比べれば何でもない。彼らを見つけて家に送り返してくれれば、喜んでそれを譲ろう。""
        [42]
         1 string data = "Bank 45"
        [43]
-        1 string data = ""And when they get here, I will magnanimously part with that treasure I spoke of!""
+        1 string data = ""彼らが到着したら、私が話した宝物を寛大に手放そう！""
        [44]
-        1 string data = ""I wish to remind you that we have promised a wonderful treasure from the old times for the safe return of our people! Now, that said, what can I do for you?""
+        1 string data = ""我々の人々の無事な帰還のために、古い時代からの素晴らしい宝物を約束したことを思い出させておく！さて、それで何かできることは？""
        [45]
-        1 string data = ""Hm. If they are not coming home, then I regret that we cannot part with the item of which I spoke. We will need it for our town's defense. A pity... I am sure you could have used it. Ah well. What's done is done, as they say!""
+        1 string data = ""ふむ。彼らが帰ってこないのなら、残念ながら話したアイテムを手放すことはできない。町の防衛に必要だからだ。残念だが...きっと使えたはずだ。まあいい。覆水盆に返らず、というやつだ！""
        [46]
-        1 string data = ""I do hope that our treasure serves you well, travelers! Now, what can we help you with today?""
+        1 string data = ""我々の宝物が旅人たちの役に立つことを願う！さて、今日は何かお手伝いできるか？""
        [47]
-        1 string data = ""A pity you could not find a way to return our brethren to us. We would have gladly parted with our treasure to see their smiling faces again! At any rate, what can I do for you?""
+        1 string data = ""残念ながら我々の同胞を帰す方法を見つけられなかったようだ。彼らの笑顔をまた見られるなら、喜んで宝物を手放したのだが！ともかく、何かできることは？""
        [48]
-        1 string data = ""We've found your missing people, and have sent them home.""
+        1 string data = ""行方不明の人々を見つけ、家に送った。""
        [49]
-        1 string data = ""We saved your village by <i>not</i> sending those sick people home. You should give us the treasure you promised.""
+        1 string data = ""病気の人々を家に送り<i>返さない</i>ことで村を救った。約束した宝物をもらうべきだ。""
        [50]
-        1 string data = ""And when they arrive, I will gladly give you a treasure we have maintained for many years! It has served us well, but not so well as our lost brethren.""
+        1 string data = ""彼らが到着したら、何年も維持してきた宝物を喜んで譲ろう！それは我々によく仕えてくれたが、失われた同胞ほどではない。""
        [51]
-        1 string data = ""Oh, wonderful. Just wonderful. I'm certain you wouldn't deceive us now, and so allow me to give you our treasure!"\n\n\nHe disappears for a short while, and when he returns..."
+        1 string data = ""ああ、素晴らしい。本当に素晴らしい。今さら我々を騙すとは思わないので、宝物を渡させてもらおう！"\n\n\n彼は少しの間姿を消し、戻ってくると..."
        [52]
-        1 string data = ""Here you go! With our gratitude!""
+        1 string data = ""はい、どうぞ！感謝を込めて！""
        [53]
-        1 string data = ""Ah, ordinarily I would agree. But friends, wouldn't you agree that we have greater need of it than you, now that we are missing many of our scavengers? No, no, we'll hold on to it. Thank you for asking after it, though.""
+        1 string data = ""ああ、普通なら同意するところだ。しかし友よ、多くのスカベンジャーを失った今、あなたたちよりも我々の方がそれを必要としているとは思わないか？いや、いや、持っておこう。尋ねてくれたことには感謝する。""
        [54]
         1 string data = """"
    [360]
@@ -68743,19 +68743,19 @@
        [0]
         1 string data = "Script Node 2"
        [1]
-        1 string data = ""Look! Strangers!""
+        1 string data = ""見ろ！よそ者だ！""
        [2]
-        1 string data = ""Haven't seen your type 'round here before.""
+        1 string data = ""このあたりであんたみたいなのは見たことがない。""
        [3]
-        1 string data = ""Where'd <i>you</i> come from?""
+        1 string data = ""<i>あんた</i>はどこから来たんだ？""
        [4]
-        1 string data = ""I heard people used to swim in the reservoir here.""
+        1 string data = ""昔はここの貯水池で泳いでいたらしい。""
        [5]
-        1 string data = ""What'd we ever do to YOU?""
+        1 string data = ""俺たちがあんたに何をした？""
        [6]
-        1 string data = ""Leave me alone!""
+        1 string data = ""放っておいてくれ！""
        [7]
-        1 string data = ""I'm sorry for whatever I did!""
+        1 string data = ""何をしたか知らないけど、すまなかった！""
        [8]
         1 string data = "Script Node 10"
    [361]
@@ -68807,21 +68807,21 @@
       1 Array Array (9 items)
        0 int size = 9
        [0]
-        1 string data = ""Heard any word from our missing friends?""
+        1 string data = ""行方不明の友人たちの消息は聞いたか？""
        [1]
-        1 string data = ""Elder says this place used to be called Two Butts.""
+        1 string data = ""長老によると、ここは昔トゥー・バッツと呼ばれていたらしい。""
        [2]
-        1 string data = ""Tired of burning cow flops for fuel.""
+        1 string data = ""燃料に牛糞を燃やすのには飽きた。""
        [3]
-        1 string data = ""Is it this cold where you come from?""
+        1 string data = ""あんたの出身地もこんなに寒いのか？""
        [4]
         1 string data = "Script Node 2"
        [5]
-        1 string data = ""No! No! No!""
+        1 string data = ""嫌だ！嫌だ！嫌だ！""
        [6]
-        1 string data = ""Someone help me!""
+        1 string data = ""誰か助けて！""
        [7]
-        1 string data = ""Agh! Monsters!""
+        1 string data = ""ぎゃあ！怪物だ！""
        [8]
         1 string data = "Script Node 9"
    [362]
@@ -68873,21 +68873,21 @@
       1 Array Array (9 items)
        0 int size = 9
        [0]
-        1 string data = ""Who are <i>you</i>?""
+        1 string data = ""<i>あんた</i>は誰だ？""
        [1]
-        1 string data = ""Huh. Strangers.""
+        1 string data = ""ふん。よそ者か。""
        [2]
-        1 string data = ""I don't talk to strangers.""
+        1 string data = ""よそ者とは話さない。""
        [3]
-        1 string data = ""Talk to the elder if you wanna talk to someone.""
+        1 string data = ""誰かと話したいなら長老に話しかけろ。""
        [4]
         1 string data = "Script Node 5"
        [5]
-        1 string data = ""This is why I hate strangers!""
+        1 string data = ""だからよそ者は嫌いなんだ！""
        [6]
-        1 string data = ""Get away! Get away!""
+        1 string data = ""あっち行け！あっち行け！""
        [7]
-        1 string data = ""Don't kill me - please don't kill me!""
+        1 string data = ""殺さないでくれ - 頼むから殺さないでくれ！""
        [8]
         1 string data = "Script Node 9"
    [363]
@@ -68939,21 +68939,21 @@
       1 Array Array (9 items)
        0 int size = 9
        [0]
-        1 string data = ""Harvest was no good this year.""
+        1 string data = ""今年の収穫は良くなかった。""
        [1]
-        1 string data = ""Hope the savages don't come west this year.""
+        1 string data = ""今年は野蛮人が西に来ないといいが。""
        [2]
-        1 string data = ""Wish I could say the town's been growing... but it's not.""
+        1 string data = ""町が成長していると言いたいところだが...違う。""
        [3]
-        1 string data = ""Travelers. Huh. Wish I could travel.""
+        1 string data = ""旅人か。ふん。俺も旅がしたいもんだ。""
        [4]
         1 string data = "Script Node 5"
        [5]
-        1 string data = ""Spare my life! Please!""
+        1 string data = ""命だけは助けてくれ！頼む！""
        [6]
-        1 string data = ""I don't want to die!""
+        1 string data = ""死にたくない！""
        [7]
-        1 string data = ""I know I've wasted my life - but please! Don't kill me!""
+        1 string data = ""人生を無駄にしたのはわかってる - でも頼む！殺さないでくれ！""
        [8]
         1 string data = "Script Node 9"
    [364]
@@ -69005,21 +69005,21 @@
       1 Array Array (9 items)
        0 int size = 9
        [0]
-        1 string data = ""Worst part about living out here - no variety. Nothing ever changes.""
+        1 string data = ""ここで暮らす一番嫌なところ - 変化がない。何も変わらない。""
        [1]
-        1 string data = ""At least we can see the open sky and the stars at night.""
+        1 string data = ""少なくとも開けた空と夜の星は見られる。""
        [2]
-        1 string data = ""And the plains here make it <i>real</i> easy to see anyone sneaking up on us.""
+        1 string data = ""それに、ここの平原は忍び寄る者を<i>本当に</i>見つけやすい。""
        [3]
-        1 string data = ""It's a little weird that our friends disappeared, though.""
+        1 string data = ""でも、友人たちが消えたのはちょっと変だな。""
        [4]
         1 string data = "Script Node 5"
        [5]
-        1 string data = ""I always knew it would end like this.""
+        1 string data = ""こうなることはわかってた。""
        [6]
-        1 string data = ""Can you make it a quick death, at least?""
+        1 string data = ""せめて苦しまないように殺してくれ？""
        [7]
-        1 string data = "::sigh:: "Get it over with.""
+        1 string data = "::sigh:: "早く終わらせてくれ。""
        [8]
         1 string data = "Script Node 9"
    [365]
@@ -69071,21 +69071,21 @@
       1 Array Array (9 items)
        0 int size = 9
        [0]
-        1 string data = ""Why are you bothering me?""
+        1 string data = ""なんで俺を煩わせる？""
        [1]
-        1 string data = ""Can't you see I've got work to do?""
+        1 string data = ""仕事があるのがわからないのか？""
        [2]
-        1 string data = ""Look, I'm trying to get stuff done.""
+        1 string data = ""おい、やることがあるんだ。""
        [3]
-        1 string data = ""You're keeping me from my chores.""
+        1 string data = ""仕事の邪魔をするな。""
        [4]
         1 string data = "Script Node 5"
        [5]
-        1 string data = ""Sorry about whatever I said!""
+        1 string data = ""何か言ったならすまなかった！""
        [6]
-        1 string data = ""I just wanted to finish my work!""
+        1 string data = ""仕事を終わらせたかっただけだ！""
        [7]
-        1 string data = ""Stop! Stop!""
+        1 string data = ""やめろ！やめてくれ！""
        [8]
         1 string data = "Script Node 9"
    [366]
@@ -69137,21 +69137,21 @@
       1 Array Array (9 items)
        0 int size = 9
        [0]
-        1 string data = ""Oh. Hello.""
+        1 string data = ""ああ。こんにちは。""
        [1]
-        1 string data = ""It's certainly been an exciting year for us!""
+        1 string data = ""今年は確かに刺激的な年だった！""
        [2]
-        1 string data = ""First we lose a few of our people, and then you show up!""
+        1 string data = ""まず何人か仲間がいなくなって、それからあんたたちが現れた！""
        [3]
-        1 string data = ""Hang on... are you connected to the disappearance of our friends?""
+        1 string data = ""ちょっと待って...友人たちの失踪と何か関係があるのか？""
        [4]
         1 string data = "Script Node 5"
        [5]
-        1 string data = ""Help! Help!""
+        1 string data = ""助けて！助けて！""
        [6]
-        1 string data = ""I don't want to hurt you - or to get hurt!""
+        1 string data = ""あなたを傷つけたくない - 傷つけられたくもない！""
        [7]
-        1 string data = ""No! Stop! Help!""
+        1 string data = ""嫌だ！やめろ！助けて！""
        [8]
         1 string data = "Script Node 9"
    [367]
@@ -69203,21 +69203,21 @@
       1 Array Array (9 items)
        0 int size = 9
        [0]
-        1 string data = ""Feeling down, strangers.""
+        1 string data = ""落ち込んでるんだ、よそ者さん。""
        [1]
-        1 string data = ""Our friends disappeared. Not much we can do about it.""
+        1 string data = ""友人たちが消えた。どうしようもない。""
        [2]
-        1 string data = ""I guess people disappear all the time.""
+        1 string data = ""人はいつも消えるものなんだろう。""
        [3]
-        1 string data = ""Just trying to make the best of the situation.""
+        1 string data = ""状況を受け入れようとしているところだ。""
        [4]
         1 string data = "Script Node 5"
        [5]
-        1 string data = ""What'd we ever do to YOU?""
+        1 string data = ""俺たちがあんたに何をした？""
        [6]
-        1 string data = ""Leave me alone!""
+        1 string data = ""放っておいてくれ！""
        [7]
-        1 string data = ""I'm sorry for whatever I did!""
+        1 string data = ""何をしたか知らないけど、すまなかった！""
        [8]
         1 string data = "Script Node 9"
    [368]
@@ -69311,35 +69311,35 @@
        [0]
         1 string data = ""
        [1]
-        1 string data = "A plank covering the road snaps as you roll over. Suddenly, green gas blots out the windshield. The wind quickly slices through it, but when it clears you're surrounded by Nucleists!"
+        1 string data = "道路を覆っていた板を踏み抜くと突然、緑色のガスがフロントガラスを覆い尽くす。風がすぐに吹き払うが、晴れた時にはニュークリストに囲まれていた！"
        [2]
-        1 string data = "A sharp, acid smell invades the Kodiak. Before you can react, a squad of Nucleists pours out of the brush."
+        1 string data = "鋭い酸性の臭いがコディアックに侵入する。反応する前に、ニュークリストの一団が茂みから飛び出してきた。"
        [3]
-        1 string data = "As you pack up your bivouac, you hear an inhuman wail from just past the trees. Before you can even get your morning coffee, there are Nucleists all over!"
+        1 string data = "野営地を片付けていると、木々の向こうから人間離れした叫び声が聞こえる。朝のコーヒーを飲む間もなく、ニュークリストがそこら中に！"
        [4]
-        1 string data = "An oozing mass of cancerous flesh splashes across the Kodiak's windshield. Before you can stop, you smear another Tumor across the roadway. A more fearsome group of Nucleists block the way ahead."
+        1 string data = "癌性の肉塊がコディアックのフロントガラスに飛び散る。止まる前に、別の腫瘍を道路に引きずってしまう。さらに恐ろしいニュークリストの集団が前方を塞いでいる。"
        [5]
-        1 string data = "Nucleists pounce from their slimy hiding spots. They rear and shriek for battle."
+        1 string data = "ニュークリストがぬめぬめした隠れ場所から飛びかかってくる。彼らは身を起こし、戦いの叫びを上げる。"
        [6]
-        1 string data = "[Small Chance to Escape] Slam on the accelerator, throw on the e-brake, and try to fishtail your way around the blockade."
+        1 string data = "[脱出の小さなチャンス] アクセルを踏み込み、サイドブレーキを引いて、テールスライドで封鎖を迂回しようとする。"
        [7]
-        1 string data = "The Nucleists, scramble and skitter, trying to catch you, but your driving is just good enough to break free."
+        1 string data = "ニュークリストは慌てて追いかけようとするが、あなたの運転は逃げ切るのにぎりぎり十分だった。"
        [8]
-        1 string data = "The Nucleists block your path before you can complete the maneuver. Looks like a fight after all!"
+        1 string data = "機動を完了する前にニュークリストが道を塞いだ。結局戦うしかないようだ！"
        [9]
         1 string data = ""
        [10]
-        1 string data = "Take advantage of the terrain to escape."
+        1 string data = "地形を利用して脱出する。"
        [11]
-        1 string data = "Making a hard left, you slice a wide, knotty tree with the front bumper, dropping a barrier between you and the Nucleists. By the time the cultists clear it, you're long gone."
+        1 string data = "急ハンドルで左に切り、フロントバンパーで太い節くれ立った木を切り倒し、自分とニュークリストの間に障壁を作る。カルト信者が片付ける頃には、とっくに逃げ去っていた。"
        [12]
-        1 string data = "Recreate the radio wave emission pattern of the Holy Detonation to confuse them."
+        1 string data = "聖なる爆発の電波放射パターンを再現して混乱させる。"
        [13]
-        1 string data = "With a few adjustments, you program the radio in the Kodiak to emit the same crackling wave pulses recorded from the Holy Detonation. The nearby cultists perk up, hope gleaming in their eyes, until you rev the engine and bear down on them."
+        1 string data = "いくつかの調整で、コディアックの無線を聖なる爆発から記録されたのと同じパチパチいう波動パルスを放射するようにプログラムする。近くのカルト信者は目を輝かせて希望を抱くが、あなたがエンジンを吹かして突進すると..."
        [14]
-        1 string data = "Raise your weapons and prepare for the onslaught."
+        1 string data = "武器を構えて猛攻に備える。"
        [15]
-        1 string data = "You jump down from the Kodiak and brace for the attack."
+        1 string data = "あなたはコディアックから飛び降り、攻撃に備える。"
        [16]
         1 string data = ""
        [17]
@@ -69437,21 +69437,21 @@
        [0]
         1 string data = ""
        [1]
-        1 string data = "A plank covering the road snaps as you roll over. Suddenly, green gas blots out the windshield. The wind quickly slices through it, but when it clears you're surrounded by Nucleists!"
+        1 string data = "道路を覆っていた板を踏み抜くと突然、緑色のガスがフロントガラスを覆い尽くす。風がすぐに吹き払うが、晴れた時にはニュークリストに囲まれていた！"
        [2]
-        1 string data = "A sharp, acid smell invades the Kodiak. Before you can react, a squad of Nucleists pours out of the brush."
+        1 string data = "鋭い酸性の臭いがコディアックに侵入する。反応する前に、ニュークリストの一団が茂みから飛び出してきた。"
        [3]
-        1 string data = "As you pack up your bivouac, you hear an inhuman wail from just past the trees. Before you can even get your morning coffee, there are Nucleists all over!"
+        1 string data = "野営地を片付けていると、木々の向こうから人間離れした叫び声が聞こえる。朝のコーヒーを飲む間もなく、ニュークリストがそこら中に！"
        [4]
-        1 string data = "An oozing mass of cancerous flesh splashes across the Kodiak's windshield. Before you can stop, you smear another Tumor across the roadway. A more fearsome group of Nucleists block the way ahead."
+        1 string data = "癌性の肉塊がコディアックのフロントガラスに飛び散る。止まる前に、別の腫瘍を道路に引きずってしまう。さらに恐ろしいニュークリストの集団が前方を塞いでいる。"
        [5]
-        1 string data = "Nucleists pounce from their slimy hiding spots. They rear and shriek for battle."
+        1 string data = "ニュークリストがぬめぬめした隠れ場所から飛びかかってくる。彼らは身を起こし、戦いの叫びを上げる。"
        [6]
-        1 string data = "[Small Chance to Escape] Slam on the accelerator, throw on the e-brake, and try to fishtail your way around the blockade."
+        1 string data = "[脱出の小さなチャンス] アクセルを踏み込み、サイドブレーキを引いて、テールスライドで封鎖を迂回しようとする。"
        [7]
-        1 string data = "The Nucleists, scramble and skitter, trying to catch you, but your driving is just good enough to break free."
+        1 string data = "ニュークリストは慌てて追いかけようとするが、あなたの運転は逃げ切るのにぎりぎり十分だった。"
        [8]
-        1 string data = "The Nucleists block your path before you can complete the maneuver. Looks like a fight after all!"
+        1 string data = "機動を完了する前にニュークリストが道を塞いだ。結局戦うしかないようだ！"
        [9]
         1 string data = ""
        [10]
@@ -69461,17 +69461,17 @@
        [12]
         1 string data = ""
        [13]
-        1 string data = "Take advantage of the terrain to escape."
+        1 string data = "地形を利用して脱出する。"
        [14]
-        1 string data = "Making a hard left, you slice a wide, knotty tree with the front bumper, dropping a barrier between you and the Nucleists. By the time the cultists clear it, you're long gone."
+        1 string data = "急ハンドルで左に切り、フロントバンパーで太い節くれ立った木を切り倒し、自分とニュークリストの間に障壁を作る。カルト信者が片付ける頃には、とっくに逃げ去っていた。"
        [15]
-        1 string data = "Recreate the radio wave emission pattern of the Holy Detonation to confuse them."
+        1 string data = "聖なる爆発の電波放射パターンを再現して混乱させる。"
        [16]
-        1 string data = "With a few adjustments, you program the radio in the Kodiak to emit the same crackling wave pulses recorded from the Holy Detonation. The nearby cultists perk up, hope gleaming in their eyes, until you rev the engine and bear down on them."
+        1 string data = "いくつかの調整で、コディアックの無線を聖なる爆発から記録されたのと同じパチパチいう波動パルスを放射するようにプログラムする。近くのカルト信者は目を輝かせて希望を抱くが、あなたがエンジンを吹かして突進すると..."
        [17]
-        1 string data = "Raise your weapons and prepare for the onslaught."
+        1 string data = "武器を構えて猛攻に備える。"
        [18]
-        1 string data = "You jump down from the Kodiak and brace for the attack."
+        1 string data = "あなたはコディアックから飛び降り、攻撃に備える。"
    [370]
     0 StringTable data
      1 string Filename = "yy_dcl2_nucleists_ambush_plains"
@@ -69563,21 +69563,21 @@
        [0]
         1 string data = ""
        [1]
-        1 string data = "A plank covering the road snaps as you roll over. Suddenly, green gas blots out the windshield. The wind quickly slices through it, but when it clears you're surrounded by Nucleists!"
+        1 string data = "道路を覆っていた板を踏み抜くと突然、緑色のガスがフロントガラスを覆い尽くす。風がすぐに吹き払うが、晴れた時にはニュークリストに囲まれていた！"
        [2]
-        1 string data = "A sharp, acid smell invades the Kodiak. Before you can react, a squad of Nucleists pours out of the brush."
+        1 string data = "鋭い酸性の臭いがコディアックに侵入する。反応する前に、ニュークリストの一団が茂みから飛び出してきた。"
        [3]
-        1 string data = "As you pack up your bivouac, you hear an inhuman wail from just past the trees. Before you can even get your morning coffee, there are Nucleists all over!"
+        1 string data = "野営地を片付けていると、木々の向こうから人間離れした叫び声が聞こえる。朝のコーヒーを飲む間もなく、ニュークリストがそこら中に！"
        [4]
-        1 string data = "An oozing mass of cancerous flesh splashes across the Kodiak's windshield. Before you can stop, you smear another Tumor across the roadway. A more fearsome group of Nucleists block the way ahead."
+        1 string data = "癌性の肉塊がコディアックのフロントガラスに飛び散る。止まる前に、別の腫瘍を道路に引きずってしまう。さらに恐ろしいニュークリストの集団が前方を塞いでいる。"
        [5]
-        1 string data = "Nucleists pounce from their slimy hiding spots. They rear and shriek for battle."
+        1 string data = "ニュークリストがぬめぬめした隠れ場所から飛びかかってくる。彼らは身を起こし、戦いの叫びを上げる。"
        [6]
-        1 string data = "[Small Chance to Escape] Slam on the accelerator, throw on the e-brake, and try to fishtail your way around the blockade."
+        1 string data = "[脱出の小さなチャンス] アクセルを踏み込み、サイドブレーキを引いて、テールスライドで封鎖を迂回しようとする。"
        [7]
-        1 string data = "The Nucleists, scramble and skitter, trying to catch you, but your driving is just good enough to break free."
+        1 string data = "ニュークリストは慌てて追いかけようとするが、あなたの運転は逃げ切るのにぎりぎり十分だった。"
        [8]
-        1 string data = "The Nucleists block your path before you can complete the maneuver. Looks like a fight after all!"
+        1 string data = "機動を完了する前にニュークリストが道を塞いだ。結局戦うしかないようだ！"
        [9]
         1 string data = ""
        [10]
@@ -69587,17 +69587,17 @@
        [12]
         1 string data = ""
        [13]
-        1 string data = "Take advantage of the terrain to escape."
+        1 string data = "地形を利用して脱出する。"
        [14]
-        1 string data = "Making a hard left, you slice a wide, knotty tree with the front bumper, dropping a barrier between you and the Nucleists. By the time the cultists clear it, you're long gone."
+        1 string data = "急ハンドルで左に切り、フロントバンパーで太い節くれ立った木を切り倒し、自分とニュークリストの間に障壁を作る。カルト信者が片付ける頃には、とっくに逃げ去っていた。"
        [15]
-        1 string data = "Recreate the radio wave emission pattern of the Holy Detonation to confuse them."
+        1 string data = "聖なる爆発の電波放射パターンを再現して混乱させる。"
        [16]
-        1 string data = "With a few adjustments, you program the radio in the Kodiak to emit the same crackling wave pulses recorded from the Holy Detonation. The nearby cultists perk up, hope gleaming in their eyes, until you rev the engine and bear down on them."
+        1 string data = "いくつかの調整で、コディアックの無線を聖なる爆発から記録されたのと同じパチパチいう波動パルスを放射するようにプログラムする。近くのカルト信者は目を輝かせて希望を抱くが、あなたがエンジンを吹かして突進すると..."
        [17]
-        1 string data = "Raise your weapons and prepare for the onslaught."
+        1 string data = "武器を構えて猛攻に備える。"
        [18]
-        1 string data = "You jump down from the Kodiak and brace for the attack."
+        1 string data = "あなたはコディアックから飛び降り、攻撃に備える。"
    [371]
     0 StringTable data
      1 string Filename = "yy_dcl2_nucleists_spotted_foothills"
@@ -69705,19 +69705,19 @@
        [0]
         1 string data = ""
        [1]
-        1 string data = "A cadre of Nucleists are scavenging through debris piles just ahead. They seem intent on finding anything contaminated by radiation and do not notice your approach."
+        1 string data = "前方でニュークリストの一団が瓦礫の山を漁っている。放射能に汚染されたものを探すのに夢中で、あなたの接近に気づいていない。"
        [2]
-        1 string data = "Pulling around a bend, you spot a crew of Nucleists around a crackling, greenish campfire. They utter frantic prayer to the flame, oblivious to your presence."
+        1 string data = "カーブを曲がると、パチパチと燃える緑がかった焚き火の周りにニュークリストの一団を発見する。彼らは炎に向かって狂ったように祈り、あなたの存在に気づいていない。"
        [3]
-        1 string data = "As you enter a clearing, the telltale green glow of Nucleists plays on the nearby brush. They haven't yet seen the Kodiak."
+        1 string data = "空き地に入ると、ニュークリスト特有の緑色の光が近くの茂みに映っている。まだコディアックには気づいていない。"
        [4]
-        1 string data = "As you pass a large boulder, a group of wailing Nucleists come into view. They scream at the sky in a combination of pain, horror, and rage, ignoring your approach."
+        1 string data = "大きな岩を通り過ぎると、泣き叫ぶニュークリストの一団が視界に入る。苦痛、恐怖、怒りが入り混じった叫び声を空に向かって上げ、あなたの接近を無視している。"
        [5]
-        1 string data = "The smell of bile, vomit, and singed flesh reaches your nose before the group of Nucleists ahead are visible. Engaged in some ritual - mainly rending their own flesh - they have no idea you're near."
+        1 string data = "胆汁、嘔吐物、焦げた肉の臭いが前方のニュークリストの姿より先に鼻に届く。主に自らの肉を引き裂く儀式を行っている彼らは、あなたが近くにいることに全く気づいていない。"
        [6]
-        1 string data = "Sneak up on them."
+        1 string data = "忍び寄る。"
        [7]
-        1 string data = "You roll out to positions hidden from the cultists and ready your weapons."
+        1 string data = "カルト信者から隠れた位置に展開し、武器を構える。"
        [8]
         1 string data = ""
        [9]
@@ -69727,19 +69727,19 @@
        [11]
         1 string data = ""
        [12]
-        1 string data = "Avoid them."
+        1 string data = "回避する。"
        [13]
-        1 string data = "You throw the Kodiak in a low gear and grind up a nearby slope. When you reach the ridge above, you're in the clear."
+        1 string data = "コディアックを低速ギアに入れ、近くの斜面を登る。上の尾根に着くと、危険は去った。"
        [14]
-        1 string data = "[Small Chance to Escape] Try to avoid them."
+        1 string data = "[脱出の小さなチャンス] 回避を試みる。"
        [15]
-        1 string data = "By the skin of your teeth, you maneuver the Kodiak around them. They spot you and give chase, but it's too late. You're away."
+        1 string data = "ギリギリのところでコディアックを彼らの周りに操る。発見されて追いかけられるが、もう遅い。逃げ切った。"
        [16]
-        1 string data = "You hit the gas but an ice slick below one tire slows your acceleration just enough for the cultists to close in."
+        1 string data = "アクセルを踏むが、タイヤの下の氷で加速が鈍り、カルト信者に追いつかれてしまう。"
        [17]
-        1 string data = "[Attack] Attack them before they attack you."
+        1 string data = "[Attack] 攻撃される前に攻撃する。"
        [18]
-        1 string data = "You slam the Kodiak through a small wall of rubble and bear down on your enemies. The fight begins!"
+        1 string data = "コディアックで小さな瓦礫の壁を突き破り、敵に向かって突進する。戦いの始まりだ！"
        [19]
         1 string data = ""
        [20]
@@ -69855,19 +69855,19 @@
        [0]
         1 string data = ""
        [1]
-        1 string data = "A cadre of Nucleists are scavenging through debris piles just ahead. They seem intent on finding anything contaminated by radiation and do not notice your approach."
+        1 string data = "前方でニュークリストの一団が瓦礫の山を漁っている。放射能に汚染されたものを探すのに夢中で、あなたの接近に気づいていない。"
        [2]
-        1 string data = "Pulling around a bend, you spot a crew of Nucleists around a crackling, greenish campfire. They utter frantic prayer to the flame, oblivious to your presence."
+        1 string data = "カーブを曲がると、パチパチと燃える緑がかった焚き火の周りにニュークリストの一団を発見する。彼らは炎に向かって狂ったように祈り、あなたの存在に気づいていない。"
        [3]
-        1 string data = "As you enter a clearing, the telltale green glow of Nucleists plays on the nearby brush. They haven't yet seen the Kodiak."
+        1 string data = "空き地に入ると、ニュークリスト特有の緑色の光が近くの茂みに映っている。まだコディアックには気づいていない。"
        [4]
-        1 string data = "As you pass a large boulder, a group of wailing Nucleists come into view. They scream at the sky in a combination of pain, horror, and rage, ignoring your approach."
+        1 string data = "大きな岩を通り過ぎると、泣き叫ぶニュークリストの一団が視界に入る。苦痛、恐怖、怒りが入り混じった叫び声を空に向かって上げ、あなたの接近を無視している。"
        [5]
-        1 string data = "The smell of bile, vomit, and singed flesh reaches your nose before the group of Nucleists ahead are visible. Engaged in some ritual - mainly rending their own flesh - they have no idea you're near."
+        1 string data = "胆汁、嘔吐物、焦げた肉の臭いが前方のニュークリストの姿より先に鼻に届く。主に自らの肉を引き裂く儀式を行っている彼らは、あなたが近くにいることに全く気づいていない。"
        [6]
-        1 string data = "Sneak up on them."
+        1 string data = "忍び寄る。"
        [7]
-        1 string data = "You roll out to positions hidden from the cultists and ready your weapons."
+        1 string data = "カルト信者から隠れた位置に展開し、武器を構える。"
        [8]
         1 string data = ""
        [9]
@@ -69877,19 +69877,19 @@
        [11]
         1 string data = ""
        [12]
-        1 string data = "Avoid them."
+        1 string data = "回避する。"
        [13]
-        1 string data = "You throw the Kodiak in a low gear and grind up a nearby slope. When you reach the ridge above, you're in the clear."
+        1 string data = "コディアックを低速ギアに入れ、近くの斜面を登る。上の尾根に着くと、危険は去った。"
        [14]
-        1 string data = "[Small Chance to Escape] Try to avoid them."
+        1 string data = "[脱出の小さなチャンス] 回避を試みる。"
        [15]
-        1 string data = "By the skin of your teeth, you maneuver the Kodiak around them. They spot you and give chase, but it's too late. You're away."
+        1 string data = "ギリギリのところでコディアックを彼らの周りに操る。発見されて追いかけられるが、もう遅い。逃げ切った。"
        [16]
-        1 string data = "You hit the gas but an ice slick below one tire slows your acceleration just enough for the cultists to close in."
+        1 string data = "アクセルを踏むが、タイヤの下の氷で加速が鈍り、カルト信者に追いつかれてしまう。"
        [17]
-        1 string data = "[Attack] Attack them before they attack you."
+        1 string data = "[Attack] 攻撃される前に攻撃する。"
        [18]
-        1 string data = "You slam the Kodiak through a small wall of rubble and bear down on your enemies. The fight begins!"
+        1 string data = "コディアックで小さな瓦礫の壁を突き破り、敵に向かって突進する。戦いの始まりだ！"
        [19]
         1 string data = ""
        [20]
@@ -70005,19 +70005,19 @@
        [0]
         1 string data = ""
        [1]
-        1 string data = "A cadre of Nucleists are scavenging through debris piles just ahead. They seem intent on finding anything contaminated by radiation and do not notice your approach."
+        1 string data = "前方でニュークリストの一団が瓦礫の山を漁っている。放射能に汚染されたものを探すのに夢中で、あなたの接近に気づいていない。"
        [2]
-        1 string data = "Pulling around a bend, you spot a crew of Nucleists around a crackling, greenish campfire. They utter frantic prayer to the flame, oblivious to your presence."
+        1 string data = "カーブを曲がると、パチパチと燃える緑がかった焚き火の周りにニュークリストの一団を発見する。彼らは炎に向かって狂ったように祈り、あなたの存在に気づいていない。"
        [3]
-        1 string data = "As you enter a clearing, the telltale green glow of Nucleists plays on the nearby brush. They haven't yet seen the Kodiak."
+        1 string data = "空き地に入ると、ニュークリスト特有の緑色の光が近くの茂みに映っている。まだコディアックには気づいていない。"
        [4]
-        1 string data = "As you pass a large boulder, a group of wailing Nucleists come into view. They scream at the sky in a combination of pain, horror, and rage, ignoring your approach."
+        1 string data = "大きな岩を通り過ぎると、泣き叫ぶニュークリストの一団が視界に入る。苦痛、恐怖、怒りが入り混じった叫び声を空に向かって上げ、あなたの接近を無視している。"
        [5]
-        1 string data = "The smell of bile, vomit, and singed flesh reaches your nose before the group of Nucleists ahead are visible. Engaged in some ritual - mainly rending their own flesh - they have no idea you're near."
+        1 string data = "胆汁、嘔吐物、焦げた肉の臭いが前方のニュークリストの姿より先に鼻に届く。主に自らの肉を引き裂く儀式を行っている彼らは、あなたが近くにいることに全く気づいていない。"
        [6]
-        1 string data = "Sneak up on them."
+        1 string data = "忍び寄る。"
        [7]
-        1 string data = "You roll out to positions hidden from the cultists and ready your weapons."
+        1 string data = "カルト信者から隠れた位置に展開し、武器を構える。"
        [8]
         1 string data = ""
        [9]
@@ -70027,19 +70027,19 @@
        [11]
         1 string data = ""
        [12]
-        1 string data = "Avoid them."
+        1 string data = "回避する。"
        [13]
-        1 string data = "You throw the Kodiak in a low gear and grind up a nearby slope. When you reach the ridge above, you're in the clear."
+        1 string data = "コディアックを低速ギアに入れ、近くの斜面を登る。上の尾根に着くと、危険は去った。"
        [14]
-        1 string data = "[Small Chance to Escape] Try to avoid them."
+        1 string data = "[脱出の小さなチャンス] 回避を試みる。"
        [15]
-        1 string data = "By the skin of your teeth, you maneuver the Kodiak around them. They spot you and give chase, but it's too late. You're away."
+        1 string data = "ギリギリのところでコディアックを彼らの周りに操る。発見されて追いかけられるが、もう遅い。逃げ切った。"
        [16]
-        1 string data = "You hit the gas but an ice slick below one tire slows your acceleration just enough for the cultists to close in."
+        1 string data = "アクセルを踏むが、タイヤの下の氷で加速が鈍り、カルト信者に追いつかれてしまう。"
        [17]
-        1 string data = "[Attack] Attack them before they attack you."
+        1 string data = "[Attack] 攻撃される前に攻撃する。"
        [18]
-        1 string data = "You slam the Kodiak through a small wall of rubble and bear down on your enemies. The fight begins!"
+        1 string data = "コディアックで小さな瓦礫の壁を突き破り、敵に向かって突進する。戦いの始まりだ！"
        [19]
         1 string data = ""
        [20]
