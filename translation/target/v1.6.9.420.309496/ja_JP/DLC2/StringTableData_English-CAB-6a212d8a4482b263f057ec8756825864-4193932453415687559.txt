@@ -50487,37 +50487,37 @@
        [0]
         1 string data = ""
        [1]
-        1 string data = "Behind this door, the faint sound of voices and the hum of powerful machinery can be heard."
+        1 string data = "このドアの向こうから、かすかな声と強力な機械の唸り音が聞こえる。"
        [2]
-        1 string data = "Behind this door, the faint sound of voices and the hum of powerful machinery can be heard. You should gather the rest of your squad before proceeding."
+        1 string data = "このドアの向こうから、かすかな声と強力な機械の唸り音が聞こえる。先に進む前に分隊の残りを集めるべきだ。"
        [3]
-        1 string data = " [Requires Research Level Keycard] Open the door."
+        1 string data = " [Requires Research Level Keycard] ドアを開ける。"
        [4]
-        1 string data = "Examine the door."
+        1 string data = "ドアを調べる。"
        [5]
-        1 string data = "Leave the door alone."
+        1 string data = "ドアから離れる。"
        [6]
-        1 string data = " The door opens..."
+        1 string data = " ドアが開く..."
        [7]
-        1 string data = "Faded lettering on the door says DANGER!! HIGH RADIATION AREA."
+        1 string data = "ドアの色あせた文字に「危険!! 高放射線区域」と書かれている。"
        [8]
-        1 string data = " Access Denied. Requires Research Level Keycard."
+        1 string data = " アクセス拒否。研究レベルキーカードが必要です。"
        [9]
         1 string data = "::beep::"
        [10]
         1 string data = ""
        [11]
-        1 string data = "Door sealed. Requires Research Level Keycard.\n"
+        1 string data = "ドア封鎖中。研究レベルキーカードが必要です。\n"
        [12]
-        1 string data = "Open door."
+        1 string data = "ドアを開ける。"
        [13]
-        1 string data = "Door opening."
+        1 string data = "ドアを開いています。"
        [14]
-        1 string data = "Access Denied. Requires Research Level Keycard."
+        1 string data = "アクセス拒否。研究レベルキーカードが必要です。"
        [15]
-        1 string data = "Step away from the door."
+        1 string data = "ドアから離れる。"
        [16]
-        1 string data = "Door sealed. Requires Research Level Keycard. Gather the rest of your squad before proceeding."
+        1 string data = "ドア封鎖中。研究レベルキーカードが必要です。先に進む前に分隊の残りを集めてください。"
    [272]
     0 StringTable data
      1 string Filename = "e4001_battery"
@@ -50683,65 +50683,65 @@
       1 Array Array (38 items)
        0 int size = 38
        [0]
-        1 string data = "Inside the shipping container is a military hard case and a big battery that reeks of leaking hydrogen. The slightest spark could blow the built-up gas. Near you is a ventilation fan connected to a fuse box. The fan's not running."
+        1 string data = "輸送コンテナの中には軍用ハードケースと、水素漏れの悪臭を放つ大型バッテリーがある。わずかな火花でも蓄積したガスが爆発する可能性がある。近くにはヒューズボックスに接続された換気ファンがある。ファンは動いていない。"
        [1]
-        1 string data = "Examine the container"
+        1 string data = "コンテナを調べる"
        [2]
-        1 string data = "Step away quickly"
+        1 string data = "素早く離れる"
        [3]
-        1 string data = "You figure you should be safe if you can get the ventilation system working again. You'll have to check the fuses in the metal box."
+        1 string data = "換気システムを再稼働させれば安全だろう。金属ボックス内のヒューズを確認する必要がある。"
        [4]
-        1 string data = "Inspect the wires leading out of the box."
+        1 string data = "ボックスから出ているワイヤーを調べる。"
        [5]
-        1 string data = "Gently open the fuse box to check the fuses."
+        1 string data = "ヒューズボックスをそっと開けてヒューズを確認する。"
        [6]
-        1 string data = "Inside the box are three fuses - red, green, and blue."
+        1 string data = "ボックスの中には赤、緑、青の3つのヒューズがある。"
        [7]
-        1 string data = " You see three wires leading to the ventillation system - a red, green and blue."
+        1 string data = " 換気システムに繋がる3本のワイヤーが見える - 赤、緑、青だ。"
        [8]
-        1 string data = "Carefully unplug all the fuses, clean them, then reseat them in the proper order."
+        1 string data = "慎重にすべてのヒューズを外し、清掃してから正しい順序で差し直す。"
        [9]
-        1 string data = "Unplug and reseat the red fuse."
+        1 string data = "赤いヒューズを外して差し直す。"
        [10]
-        1 string data = "Unplug and reseat the blue fuse."
+        1 string data = "青いヒューズを外して差し直す。"
        [11]
-        1 string data = " Use your quick fingers to carefully unplug and reseat the three fuses at the same time."
+        1 string data = " 器用な指先を使って、3つのヒューズを同時に慎重に外して差し直す。"
        [12]
-        1 string data = " Unplug and reseat the red fuse."
+        1 string data = " 赤いヒューズを外して差し直す。"
        [13]
-        1 string data = " Unplug and reseat the green fuse."
+        1 string data = " 緑のヒューズを外して差し直す。"
        [14]
-        1 string data = "Unplug and reseat the green fuse."
+        1 string data = "緑のヒューズを外して差し直す。"
        [15]
-        1 string data = " Unplug and reseat the blue fuse."
+        1 string data = " 青いヒューズを外して差し直す。"
        [16]
-        1 string data = " The ventillation system starts up and quickly exctracts the excess hydrogen. The container is safe for now."
+        1 string data = " 換気システムが起動し、余分な水素を素早く排出する。コンテナは今のところ安全だ。"
        [17]
-        1 string data = "The ventillation system starts up and quickly exctracts the excess hydrogen. "
+        1 string data = "換気システムが起動し、余分な水素を素早く排出する。"
        [18]
         1 string data = ""
        [19]
-        1 string data = "By blind chance, it works. The ventillation system starts up and quickly exctracts the excess hydrogen."
+        1 string data = "まぐれで成功した。換気システムが起動し、余分な水素を素早く排出する。"
        [20]
-        1 string data = "Oops."
+        1 string data = "しまった。"
        [21]
-        1 string data = " You try to move away but it's too late..."
+        1 string data = " 逃げようとするが、もう手遅れだ..."
        [22]
-        1 string data = "Back away from the container."
+        1 string data = "コンテナから離れる。"
        [23]
-        1 string data = "You make it. The hydrogen didn't blow."
+        1 string data = "間に合った。水素は爆発しなかった。"
        [24]
-        1 string data = "Oops. A spark flies as it scrapes shut."
+        1 string data = "しまった。閉まる時に火花が飛んだ。"
        [25]
-        1 string data = "Inspect the side of the fuse box."
+        1 string data = "ヒューズボックスの側面を調べる。"
        [26]
-        1 string data = "On a worn label, you can make out the following shapes: Red Triangle, Blue Circle, and Green Square."
+        1 string data = "すり切れたラベルに、次の図形が見える：赤い三角形、青い円、緑の四角形。"
        [27]
-        1 string data = "Inspect the inside of the fuse box door."
+        1 string data = "ヒューズボックスのドアの内側を調べる。"
        [28]
-        1 string data = "On a taped up index card you see maintenance instructions: Triangle 1, Square 2, Circle 3."
+        1 string data = "テープで貼り付けられたインデックスカードにメンテナンス手順が書かれている：三角形 1、四角形 2、円 3。"
        [29]
-        1 string data = "The fuse clicks into place without issue."
+        1 string data = "ヒューズが問題なく所定の位置にカチッと収まった。"
        [30]
         1 string data = ""
        [31]
@@ -50753,11 +50753,11 @@
        [34]
         1 string data = ""
        [35]
-        1 string data = "Try to close the fuse box."
+        1 string data = "ヒューズボックスを閉めようとする。"
        [36]
-        1 string data = "The shipping container still smells like leaking hydrogen."
+        1 string data = "輸送コンテナはまだ水素漏れの匂いがする。"
        [37]
-        1 string data = "The fan is humming. The shipping container no longer smells like gas."
+        1 string data = "ファンが唸っている。輸送コンテナからガスの匂いはもうしない。"
    [273]
     0 StringTable data
      1 string Filename = "e4001_clone_machine_advanced"
@@ -50995,15 +50995,15 @@
       1 Array Array (56 items)
        0 int size = 56
        [0]
-        1 string data = "System offline for sanitation. Try again later."
+        1 string data = "システムは衛生処理のためオフラインです。後でもう一度お試しください。"
        [1]
         1 string data = ""
        [2]
-        1 string data = "Welcome to the Finster Cloning Controller v2.0\nPlease select an option:"
+        1 string data = "フィンスタークローン制御装置 v2.0へようこそ\nオプションを選択してください："
        [3]
-        1 string data = "OPEN OPTIONS MENU"
+        1 string data = "オプションメニューを開く"
        [4]
-        1 string data = "Add undifferentiated pluripotent bio-genetic material?\n\n\nLAB ASSISTANTS! REMINDER! Unlike the iteration machine, this one is old and takes an hour to self-sterilize. Do not waste its time and our precious pink goo on frivolous experiments! Dr. F."
+        1 string data = "未分化多能性生体遺伝物質を追加しますか？\n\n\n研究助手諸君、注意！反復装置とは違い、この装置は旧式で自己滅菌に1時間かかります。無駄な実験で時間と貴重なピンク色のゲルを浪費しないように！Dr. F."
        [5]
         1 string data = ""
        [6]
@@ -51013,99 +51013,99 @@
        [8]
         1 string data = ""
        [9]
-        1 string data = "CHECK MACHINE STATUS"
+        1 string data = "マシン状態を確認"
        [10]
         1 string data = ""
        [11]
-        1 string data = "Standing by for clone synthesis.\n"
+        1 string data = "クローン合成待機中。\n"
        [12]
-        1 string data = "EXIT"
+        1 string data = "終了"
        [13]
-        1 string data = "Beep."
+        1 string data = "ピッ。"
        [14]
-        1 string data = "Cloning in progress."
+        1 string data = "クローン作成中。"
        [15]
-        1 string data = "Sanitation cycle in progress. Please wait."
+        1 string data = "衛生サイクル進行中。お待ちください。"
        [16]
-        1 string data = "INSERT PINK UNDIFFERENTIATED PLURIPOTENT BIO-GENETIC MATERIAL"
+        1 string data = "ピンク色の未分化多能性生体遺伝物質を挿入"
        [17]
-        1 string data = "EXIT"
+        1 string data = "終了"
        [18]
-        1 string data = "Add optional advanced DNA?"
+        1 string data = "オプションの高度DNAを追加しますか？"
        [19]
-        1 string data = "[Create Upgraded Clone] MAKE CLONE WITH OPTIONAL ADVANCED DNA"
+        1 string data = "[Create Upgraded Clone] オプションの高度DNAでクローンを作成"
        [20]
-        1 string data = "[Create Clone] MAKE CLONE WITHOUT OPTIONAL ADVANCED DNA"
+        1 string data = "[Create Clone] オプションの高度DNAなしでクローンを作成"
        [21]
-        1 string data = "Please wait."
+        1 string data = "お待ちください。"
        [22]
-        1 string data = "No DNA material added. Make clone without DNA material instead?"
+        1 string data = "DNA物質が追加されていません。DNA物質なしでクローンを作成しますか？"
        [23]
-        1 string data = "CONFIRM"
+        1 string data = "確認"
        [24]
-        1 string data = "Please wait."
+        1 string data = "お待ちください。"
        [25]
-        1 string data = "[Create Upgraded Clone] INSERT PURPLE UNDIFFERENTIATED PLURIPOTENT BIO-GENETIC MATERIAL"
+        1 string data = "[Create Upgraded Clone] 紫色の未分化多能性生体遺伝物質を挿入"
        [26]
         1 string data = ""
        [27]
         1 string data = ""
        [28]
-        1 string data = "REQUEST UNDIFFERENTIATED PLURIPOTENT BIO-GENETIC MATERIAL"
+        1 string data = "未分化多能性生体遺伝物質をリクエスト"
        [29]
-        1 string data = "No undifferentiated pluripotent bio-genetic material in storage. To acquire UPBG, get requisition from Dr. F., or retrieve from former clone remains."
+        1 string data = "未分化多能性生体遺伝物質の在庫がありません。UPBGを入手するには、Dr. F.から要請を得るか、以前のクローンの残骸から回収してください。"
        [30]
-        1 string data = "WARNING: unidentifiable genetic material in biomass hopper! Please purge to allow for proper insertion of undifferentiated pluripotent bio-genetic material."
+        1 string data = "警告：バイオマスホッパー内に未確認遺伝物質があります！未分化多能性生体遺伝物質を正しく挿入するには、除去してください。"
        [31]
         1 string data = ""
        [32]
         1 string data = ""
        [33]
-        1 string data = "Cannot insert pink undifferentiated pluripotent bio-genetic material because unidentifiable genetic material detected in hopper. Purge material?"
+        1 string data = "ホッパー内で未確認遺伝物質が検出されたため、ピンク色の未分化多能性生体遺伝物質を挿入できません。物質を除去しますか？"
        [34]
-        1 string data = "[See what happens] PERFORM SYSTHESIS WITHOUT PURGING - USE UNIDENTIFIED GENETIC MASS"
+        1 string data = "[See what happens] 除去せずに合成を実行 - 未確認遺伝物質を使用"
        [35]
-        1 string data = "[Purge] PURGE UNIDENTIFIED GENETIC MASS"
+        1 string data = "[Purge] 未確認遺伝物質を除去"
        [36]
-        1 string data = "Warning: performing synthesis with unidentified genetic mass will cause irreparable damage to machine. Cloning will no longer be possible."
+        1 string data = "警告：未確認遺伝物質で合成を行うと、マシンに修復不可能な損傷を与えます。クローン作成は不可能になります。"
        [37]
-        1 string data = "COMBINE ADVANCED DNA WITH UNIDENTIFIED GENETIC MASS"
+        1 string data = "高度DNAと未確認遺伝物質を組み合わせる"
        [38]
-        1 string data = "CANCEL"
+        1 string data = "キャンセル"
        [39]
-        1 string data = "Canceling."
+        1 string data = "キャンセル中。"
        [40]
-        1 string data = "Please wait."
+        1 string data = "お待ちください。"
        [41]
-        1 string data = "WARNING: Purging will destroy all genetic material in the bio mass hopper. Are you sure you want to continue?"
+        1 string data = "警告：除去を行うと、バイオマスホッパー内のすべての遺伝物質が破壊されます。続行してもよろしいですか？"
        [42]
-        1 string data = "System damaged. Please contact maintenance for repairs."
+        1 string data = "システム損傷。修理についてはメンテナンスにお問い合わせください。"
        [43]
-        1 string data = "OPEN BIOMASS HOPPER FOR VISUAL CHECK."
+        1 string data = "目視確認のためバイオマスホッパーを開く。"
        [44]
-        1 string data = "Unidentified genetic mass purged. Machine ready for Clone Synthesis. "
+        1 string data = "未確認遺伝物質を除去しました。マシンはクローン合成の準備ができました。"
        [45]
-        1 string data = "Biomass hopper open. Standing by."
+        1 string data = "バイオマスホッパーが開いています。待機中。"
        [46]
-        1 string data = "You check the biomass hopper and it looks like a flesh tumor hopped in there and got stuck. You could purge it, or... just see what happens."
+        1 string data = "バイオマスホッパーを確認すると、肉の腫瘍のようなものが入り込んで詰まっているようだ。除去することもできるし...何が起こるか見てみることもできる。"
        [47]
-        1 string data = "CONTINUE PURGE"
+        1 string data = "除去を続行"
        [48]
-        1 string data = "CANCEL PURGE"
+        1 string data = "除去をキャンセル"
        [49]
-        1 string data = "Please wait."
+        1 string data = "お待ちください。"
        [50]
-        1 string data = "Now when you check the hopper, it's empty."
+        1 string data = "ホッパーを確認すると、今は空になっている。"
        [51]
-        1 string data = "PAUSE PURGE FOR VISUAL CHECK OF BIOMASS HOPPER."
+        1 string data = "バイオマスホッパーの目視確認のため除去を一時停止。"
        [52]
-        1 string data = "Purge paused. Standing by."
+        1 string data = "除去一時停止。待機中。"
        [53]
-        1 string data = "You check the biomass hopper and it looks like a flesh tumor hopped in there and got stuck. You could purge it, or... just see what happens."
+        1 string data = "バイオマスホッパーを確認すると、肉の腫瘍のようなものが入り込んで詰まっているようだ。除去することもできるし...何が起こるか見てみることもできる。"
        [54]
-        1 string data = "Synthesis requires DNA sample. Please obtain sample before proceeding."
+        1 string data = "合成にはDNAサンプルが必要です。続行する前にサンプルを入手してください。"
        [55]
-        1 string data = "Unidentified genetic material detected in biomass hopper. Clone synthesis unavailable until material is purged. No undifferentiated pluripotent bio-genetic material detected."
+        1 string data = "バイオマスホッパー内で未確認遺伝物質が検出されました。物質が除去されるまでクローン合成は利用できません。未分化多能性生体遺伝物質は検出されませんでした。"
    [274]
     0 StringTable data
      1 string Filename = "e4001_clone_machine_standard"
@@ -51199,45 +51199,45 @@
       1 Array Array (20 items)
        0 int size = 20
        [0]
-        1 string data = "Welcome to Cloning Controller v1.0\nIteration Experiment in progress.\nPlease select an option:"
+        1 string data = "クローン制御装置 v1.0へようこそ\n反復実験進行中。\nオプションを選択してください："
        [1]
-        1 string data = "Current clone DNA deterioration progress: Runtime start 1/21/98 14:00:03. Current clone iteration number: (ERROR: unable to compute. Last verifiable iteration 65,536.)"
+        1 string data = "現在のクローンDNA劣化状況：実行開始 1/21/98 14:00:03。現在のクローン反復番号：（エラー：計算不能。最後に確認できた反復 65,536。）"
        [2]
-        1 string data = "VIEW ITERATION EXPERIMENT INFO"
+        1 string data = "反復実験情報を表示"
        [3]
-        1 string data = "EXIT"
+        1 string data = "終了"
        [4]
-        1 string data = "Beep."
+        1 string data = "ピッ。"
        [5]
-        1 string data = "REQUEST DNA SAMPLE COLLECTION"
+        1 string data = "DNAサンプル収集をリクエスト"
        [6]
-        1 string data = "DNA sample will be collected from next complete clone iteration. There will be a three second scan before disintegration and collection.\n\n\nWarning: Countdown may cause clone to become aware of its impending disintegration. Do you wish to proceed?"
+        1 string data = "DNAサンプルは次の完全なクローン反復から収集されます。分解と収集の前に3秒間のスキャンがあります。\n\n\n警告：カウントダウンによりクローンが自身の差し迫った分解に気づく可能性があります。続行しますか？"
        [7]
-        1 string data = "CONFIRM"
+        1 string data = "確認"
        [8]
-        1 string data = "CANCEL"
+        1 string data = "キャンセル"
        [9]
-        1 string data = "Canceling."
+        1 string data = "キャンセル中。"
        [10]
-        1 string data = "DNA sample collection confirmed. Stand by for countdown. "
+        1 string data = "DNAサンプル収集を確認しました。カウントダウンまでお待ちください。"
        [11]
-        1 string data = "Collecting advanced DNA sample. Vial will dispense when chime sounds."
+        1 string data = "高度DNAサンプルを収集中。チャイムが鳴るとバイアルが供給されます。"
        [12]
-        1 string data = " Sampling cycle active. Sample collection will occur shortly after subject termination."
+        1 string data = " サンプリングサイクルがアクティブです。被験体終了後すぐにサンプル収集が行われます。"
        [13]
-        1 string data = "Advanced DNA sample ready. Please enjoy!"
+        1 string data = "高度DNAサンプルの準備ができました。どうぞお楽しみください！"
        [14]
-        1 string data = "Vial supply empty. Advanced DNA sample cannot be dispensed."
+        1 string data = "バイアルの供給が空です。高度DNAサンプルを供給できません。"
        [15]
-        1 string data = "START ITERATION EXPERIMENT"
+        1 string data = "反復実験を開始"
        [16]
-        1 string data = "System not responding. Please contact IT department for maintainance."
+        1 string data = "システムが応答していません。メンテナンスについてはIT部門にお問い合わせください。"
        [17]
-        1 string data = "Clone Iteration already active. Please make another selection. "
+        1 string data = "クローン反復は既にアクティブです。別の選択をしてください。"
        [18]
-        1 string data = "The purpose of this experiment is to determine the rate of DNA deterioration in clones recycled from a single batch of undifferentiated pluripotent bio-genetic material(UPBG) over multiple generations. "
+        1 string data = "この実験の目的は、複数世代にわたって単一バッチの未分化多能性生体遺伝物質（UPBG）からリサイクルされたクローンのDNA劣化率を測定することです。"
        [19]
-        1 string data = "Thus, using a laser borrowed from Dr. Dawson's lab, we have set up a system to create, destroy, and recycle clones in rapid succession. "
+        1 string data = "そのため、ドーソン博士の研究室から借りたレーザーを使用して、クローンを高速で作成、破壊、リサイクルするシステムを構築しました。"
    [275]
     0 StringTable data
      1 string Filename = "e4001_companions"
@@ -51613,119 +51613,119 @@
        [0]
         1 string data = ""
        [1]
-        1 string data = ""Hmmm. Hazard warnings. Watch out opening these containers.""
+        1 string data = ""うーん。危険警告だ。これらのコンテナを開ける時は気をつけろ。""
        [2]
-        1 string data = ""Hmm. Hazard symbols.""
+        1 string data = ""ふむ。危険標識だな。""
        [3]
-        1 string data = ""Looks like these containers are filled with hazardous waste.""
+        1 string data = ""これらのコンテナは有害廃棄物で満たされているようだ。""
        [4]
-        1 string data = ""Signs or not. I don't think they've been properly storing their hazardous waste.""
+        1 string data = ""標識があろうとなかろうと。有害廃棄物を適切に保管していたとは思えないな。""
        [5]
         1 string data = """"
        [6]
-        1 string data = ""Careful. Looks like all of these containers are filled with hazardous waste.""
+        1 string data = ""気をつけろ。これらのコンテナは全部有害廃棄物で満たされているようだ。""
        [7]
         1 string data = """"
        [8]
-        1 string data = ""Let's get outta here. Hazardous waste all over the place.""
+        1 string data = ""ここから出よう。そこら中に有害廃棄物だらけだ。""
        [9]
-        1 string data = ""Oh boy! A dose of radiation in every box!""
+        1 string data = ""やったね！箱ごとに放射線が一服分！""
        [10]
         1 string data = ""
        [11]
-        1 string data = ""Oh my god. The stench!" ::gags::"
+        1 string data = ""なんてこった。この悪臭！" ::gags::"
        [12]
         1 string data = """"
        [13]
-        1 string data = ""Jesus. What a stink!""
+        1 string data = ""くそっ。なんて臭いだ！""
        [14]
-        1 string data = ""A midden pile. Centuries old, but still in use. By who, I wonder.""
+        1 string data = ""ゴミ捨て場だな。何世紀も前からあるが、まだ使われている。誰が使っているんだろう。""
        [15]
-        1 string data = ""Izzat me? Man. Whaddid I have fer lunch?""
+        1 string data = ""俺の匂いか？ちくしょう。昼飯に何を食ったんだっけ？""
        [16]
-        1 string data = ""Ugh. What a stink. It's making my eyes water.""
+        1 string data = ""うっ。なんて悪臭だ。目から涙が出てくる。""
        [17]
-        1 string data = ""Ewww! Stinky!""
+        1 string data = ""うわあ！くさい！""
        [18]
-        1 string data = ""Shit.""
+        1 string data = ""くそっ。""
        [19]
-        1 string data = ""Wow, that stinks! On the other hand, I can't smell you assholes anymore. So that's a blessing.""
+        1 string data = ""うわ、くっさ！でもまあ、お前らクソ野郎の匂いがしなくなったのは救いだな。""
        [20]
         1 string data = ""
        [21]
-        1 string data = ""This must be the pump Goiter was talking about. The one that's connected to the particle accelerator.""
+        1 string data = ""これがゴイターが言っていたポンプに違いない。粒子加速器に接続されているやつだ。""
        [22]
-        1 string data = ""This is what Goiter said we should sabotage.""
+        1 string data = ""これがゴイターが破壊工作しろと言っていたものだ。""
        [23]
-        1 string data = ""Ah, the hydaulic system. Goiter said if we fucked with this, we could fuck with the particle accelerator.""
+        1 string data = ""ああ、油圧システムだ。ゴイターはこれをいじれば、粒子加速器もいじれると言っていた。""
        [24]
-        1 string data = ""This is the hydraulic system Goiter mentioned. I believe it raises and lowers the central core of the particle accelerator.""
+        1 string data = ""これがゴイターが言っていた油圧システムだ。粒子加速器の中央コアを上げ下げするものだと思う。""
        [25]
         1 string data = """"
        [26]
-        1 string data = ""Is this the hydraulic system Brother Goiter mentioned?""
+        1 string data = ""これがゴイター兄弟が言っていた油圧システムか？""
        [27]
-        1 string data = ""What's that? It looks boring.""
+        1 string data = ""あれは何？つまらなそうだな。""
        [28]
-        1 string data = ""This is that hydaulic pump Goiter talked about. We slow it down, it slows down the particle accelerator.""
+        1 string data = ""これがゴイターが話していた油圧ポンプだ。これを遅くすれば、粒子加速器も遅くなる。""
        [29]
-        1 string data = ""Oh, look. Another boring machine.""
+        1 string data = ""ああ、見ろよ。また退屈な機械だ。""
        [30]
         1 string data = ""
        [31]
-        1 string data = ""Woah! This thing is huge!""
+        1 string data = ""おお！こいつはでかい！""
        [32]
         1 string data = """"
        [33]
-        1 string data = ""So this is the particle accelerator? Impressive.""
+        1 string data = ""これが粒子加速器か？印象的だな。""
        [34]
-        1 string data = ""I've always wanted to see a particle accelerator. It lives up to my expectations.""
+        1 string data = ""粒子加速器を見てみたいとずっと思っていた。期待通りだ。""
        [35]
-        1 string data = ""Issis some kind of a... disco?""
+        1 string data = ""こいつは何かの...ディスコか？""
        [36]
-        1 string data = ""What a huge machine! The ancients had some really incredible tech.""
+        1 string data = ""なんて巨大な機械だ！古代人たちは本当に信じられない技術を持っていたんだな。""
        [37]
-        1 string data = ""I don't get it. What's it do?""
+        1 string data = ""わからないな。何をするものなんだ？""
        [38]
-        1 string data = ""Damn! That's a half year of salvage right there.""
+        1 string data = ""くそっ！あそこにあるのは半年分のサルベージ品だぞ。""
        [39]
         1 string data = """"
        [40]
         1 string data = ""
        [41]
-        1 string data = ""Who knew there were so many kinds of mushrooms.""
+        1 string data = ""こんなにたくさんの種類のキノコがあるなんて知らなかった。""
        [42]
-        1 string data = ""Never liked mushrooms.""
+        1 string data = ""キノコは好きじゃない。""
        [43]
-        1 string data = ""I've always thought mushrooms were kinda creepy. This place has not changed my opinion.""
+        1 string data = ""キノコは何か不気味だとずっと思っていた。この場所を見ても意見は変わらない。""
        [44]
-        1 string data = ""Now <i>this</i> is science!""
+        1 string data = ""<i>これこそ</i>科学だ！""
        [45]
-        1 string data = ""Rather have an olive...""
+        1 string data = ""オリーブの方がいいな...""
        [46]
-        1 string data = ""All I care about a mushroom is, will it kill me or not.""
+        1 string data = ""キノコで気になるのは、殺されるかどうかだけだ。""
        [47]
-        1 string data = ""So... can we take some of these home?""
+        1 string data = ""それで...これを家に持って帰れる？""
        [48]
-        1 string data = ""I'll stick to meat, thanks.""
+        1 string data = ""肉にしておくよ、ありがとう。""
        [49]
-        1 string data = ""Why doesn't anybody ever do science on bird seed?""
+        1 string data = ""なぜ誰も鳥の餌の研究をしないんだ？""
        [50]
         1 string data = ""
        [51]
-        1 string data = ""Look, it's a model of the particle accelerator. Maybe it can teach us something.""
+        1 string data = ""見ろ、粒子加速器の模型だ。何か学べるかもしれない。""
        [52]
         1 string data = """"
        [53]
-        1 string data = ""Is that a miniature version of the particle accelerator? Maybe we can learn something from it.""
+        1 string data = ""あれは粒子加速器のミニチュア版か？何か学べるかもしれない。""
        [54]
-        1 string data = ""Ah! A model of the particle accelerator. Maybe it can teach us something.""
+        1 string data = ""ああ！粒子加速器の模型だ。何か学べるかもしれない。""
        [55]
-        1 string data = ""Funniest lookin' foosball table I ever seen...""
+        1 string data = ""今まで見た中で一番変なテーブルサッカーだな...""
        [56]
-        1 string data = ""This must be a model of the particle accelerator. Maybe we can learn something from it.""
+        1 string data = ""これは粒子加速器の模型に違いない。何か学べるかもしれない。""
        [57]
-        1 string data = ""Come on. Give it a mushroom!""
+        1 string data = ""さあ。キノコをやってみろ！""
        [58]
         1 string data = """"
        [59]
@@ -51733,61 +51733,61 @@
        [60]
         1 string data = ""
        [61]
-        1 string data = ""Oh wow. How long has this been going on?""
+        1 string data = ""おおっと。これはどれくらい続いているんだ？""
        [62]
-        1 string data = ""Hmmf. This is the life of those without will.""
+        1 string data = ""ふん。これが意志のない者たちの生き方だ。""
        [63]
-        1 string data = ""Man. I feel you, buddy. I feel you.""
+        1 string data = ""ああ。わかるよ、相棒。わかる。""
        [64]
-        1 string data = ""How sad. But at least he doesn't seem aware of his inevitable doom.""
+        1 string data = ""なんて悲しい。でも少なくとも彼は自分の避けられない運命に気づいていないようだ。""
        [65]
-        1 string data = ""Oh yeah... one of these.""
+        1 string data = ""ああ、そうか...こういうやつか。""
        [66]
-        1 string data = ""The poor thing. Trapped in a loop for eternity.""
+        1 string data = ""かわいそうに。永遠にループに囚われている。""
        [67]
-        1 string data = ""I could watch this all day.""
+        1 string data = ""これなら一日中見ていられる。""
        [68]
-        1 string data = ""Poor sap.""
+        1 string data = ""かわいそうなやつだ。""
        [69]
-        1 string data = ""Ladies and gentlemen, the human mayfly!""
+        1 string data = ""紳士淑女の皆さん、人間カゲロウです！""
        [70]
         1 string data = ""
        [71]
-        1 string data = ""Oh god! We made it worse! He knows now! He knows!""
+        1 string data = ""ああ、なんてこった！悪化させてしまった！彼は今気づいた！気づいた！""
        [72]
-        1 string data = ""Ha!""
+        1 string data = ""ハッ！""
        [73]
-        1 string data = ""Aw, man. Now he sees it coming. Fuck.""
+        1 string data = ""ああ、くそ。今度は来るのが見えてる。ちくしょう。""
        [74]
-        1 string data = ""Oh no. No. Oh, the poor thing!""
+        1 string data = ""ああ、だめだ。だめ。ああ、かわいそうに！""
        [75]
-        1 string data = ""How many of these guys are there?""
+        1 string data = ""こいつらは何人いるんだ？""
        [76]
-        1 string data = ""No. This is terrible. We made it worse for him!""
+        1 string data = ""だめだ。これはひどい。彼にとって状況を悪くしてしまった！""
        [77]
-        1 string data = ""I didn't think this could be better, but you did it. You made it better. Thank you.""
+        1 string data = ""これ以上良くなるとは思わなかったが、やったな。良くしてくれた。ありがとう。""
        [78]
-        1 string data = ""Ugh. It's worse now. Fuck.""
+        1 string data = ""うっ。今の方が悪い。くそっ。""
        [79]
-        1 string data = ""Holy shit! Now this, ladies and gentlemen, is comedy! Comedy gold!""
+        1 string data = ""なんてこった！紳士淑女の皆さん、これがコメディだ！最高のコメディだ！""
        [80]
         1 string data = ""
        [81]
-        1 string data = ""Oh, look. It's just like Irv's machine at HQ.""
+        1 string data = ""おお、見ろ。本部にあるIrvの機械とそっくりだ。""
        [82]
         1 string data = """"
        [83]
-        1 string data = ""Isn't this one of those cloning machines, like Irv has back at base?""
+        1 string data = ""これは基地にIrvが持っているクローン機械じゃないか？""
        [84]
-        1 string data = ""A cloning machine. The same model as Irv's at headquarters.""
+        1 string data = ""クローン機械だ。本部にあるIrvのと同じモデルだ。""
        [85]
-        1 string data = ""Huh! A distillery.""
+        1 string data = ""へえ！蒸留所だ。""
        [86]
-        1 string data = ""I recognize this. Irv has one just like it back at Ranger headquarters.""
+        1 string data = ""これは見覚えがある。Irvがレンジャー本部に同じものを持っている。""
        [87]
         1 string data = """"
        [88]
-        1 string data = ""A cloning machine. Might still work too.""
+        1 string data = ""クローン機械だ。まだ動くかもしれない。""
        [89]
         1 string data = """"
    [276]
