@@ -25,15 +25,15 @@
   "dlc1": {
     "status": "in_progress",
     "current_file": "StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
-    "current_line": 96643,
+    "current_line": 97723,
     "total_lines": 120559,
-    "entries_completed": 12190,
+    "entries_completed": 12310,
     "total_entries": 38554,
-    "percent_complete": 31.6,
+    "percent_complete": 31.9,
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
-    "notes": "2025-11-23: Session 313 - Rioters, Bearsuit, Di combatbarks (408 entries). All validations: 0 errors, 2 warnings."
+    "notes": "2025-11-23: Session 314 - Ghost Gang foreman combatbarks (120 entries). All validations: 0 errors, 2 warnings."
   },
   "dlc2": {
     "status": "not_started",
@@ -43,23 +43,21 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 313,
+    "session_number": 314,
     "date": "2025-11-23",
-    "entries_processed": 408,
+    "entries_processed": 120,
     "sections_completed": [
-      "factoryworkers_rioters_combatbarks (lines 94816-95136) - Rioter combat barks 161 entries",
-      "follower_bearsuitvinters_combatbarks (lines 95382-95496) - Bearsuit Vinters combat barks 58 entries",
-      "follower_di_combatbarks (lines 96266-96642) - Di robot combat barks 189 entries"
+      "ghostgang_foreman_combatbarks (lines 97367-97722) - Ghost Gang foreman combat barks 120 entries"
     ],
-    "commit_hash": "440be3b8",
+    "commit_hash": "bb963352",
     "validation_passed": true,
-    "notes": "Session 313: Rioter, Bearsuit Vinters, and Di robot combat barks. Action markers preserved in English. All validations: 0 errors, 2 warnings (pre-existing HTML).",
-    "next_action": "Continue DLC1 sequential translation from line 96643 (ghostgang_foreman_combatbarks)."
+    "notes": "Session 314: Ghost Gang foreman combat barks including shield deployment, status effects, and combat dialogue. All validations: 0 errors, 2 warnings (pre-existing HTML).",
+    "next_action": "Continue DLC1 sequential translation from line 97723 (ghostgang_guerrilla_combatbarks)."
   },
   "cumulative_stats": {
-    "total_sessions": 313,
-    "total_entries_translated": 175345,
-    "untranslated_remaining": 57073,
+    "total_sessions": 314,
+    "total_entries_translated": 175465,
+    "untranslated_remaining": 56953,
     "average_entries_per_session": 560.7,
     "estimated_sessions_remaining_base": 0,
     "estimated_days_remaining_base": "Complete",
