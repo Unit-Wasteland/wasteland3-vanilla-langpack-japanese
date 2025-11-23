@@ -25,15 +25,15 @@
   "dlc1": {
     "status": "in_progress",
     "current_file": "StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
-    "current_line": 94159,
+    "current_line": 95497,
     "total_lines": 120559,
-    "entries_completed": 11782,
+    "entries_completed": 12001,
     "total_entries": 38554,
-    "percent_complete": 30.6,
+    "percent_complete": 31.1,
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
-    "notes": "2025-11-23: Session 312 - Mechanic and Powerloader combatbarks (319 entries). All validations: 0 errors, 2 warnings."
+    "notes": "2025-11-23: Session 313 - Rioters and Bearsuit combatbarks (219 entries). All validations: 0 errors, 2 warnings."
   },
   "dlc2": {
     "status": "not_started",
@@ -43,22 +43,22 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 312,
+    "session_number": 313,
     "date": "2025-11-23",
-    "entries_processed": 319,
+    "entries_processed": 219,
     "sections_completed": [
-      "factoryworkers_mechanic_combatbarks (lines 92893-93222) - Factory mechanic combat barks 165 entries",
-      "factoryworkers_powerloader_combatbarks (lines 93854-94158) - Powerloader operator combat barks 154 entries"
+      "factoryworkers_rioters_combatbarks (lines 94816-95136) - Rioter combat barks 161 entries",
+      "follower_bearsuitvinters_combatbarks (lines 95382-95496) - Bearsuit Vinters combat barks 58 entries"
     ],
-    "commit_hash": "85189230",
+    "commit_hash": "13f6b675",
     "validation_passed": true,
-    "notes": "Session 312: Factory worker combat barks for mechanics and powerloader operators. All validations: 0 errors, 2 warnings (pre-existing HTML).",
-    "next_action": "Continue DLC1 sequential translation from line 94159 (factoryworkers_rioters_combatbarks)."
+    "notes": "Session 313: Rioter and Bearsuit Vinters combat barks. Action markers preserved in English. All validations: 0 errors, 2 warnings (pre-existing HTML).",
+    "next_action": "Continue DLC1 sequential translation from line 95497 (follower_di_combatbarks)."
   },
   "cumulative_stats": {
-    "total_sessions": 312,
-    "total_entries_translated": 174937,
-    "untranslated_remaining": 57481,
+    "total_sessions": 313,
+    "total_entries_translated": 175156,
+    "untranslated_remaining": 57262,
     "average_entries_per_session": 560.7,
     "estimated_sessions_remaining_base": 0,
     "estimated_days_remaining_base": "Complete",
