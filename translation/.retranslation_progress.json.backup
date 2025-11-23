@@ -51,27 +51,28 @@
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
-    "notes": "2025-11-23: Session 355 - Translated 96 entries of nucleist_zealot_combatbarks combat dialogue (lines 6704-6898). Structure validation passed."
+    "notes": "2025-11-23: Session 356 - Fixed bracket marker and Rangers terminology issues. Structure validation passed."
   },
   "last_session": {
-    "session_number": 355,
+    "session_number": 356,
     "date": "2025-11-23",
-    "entries_processed": 96,
+    "entries_processed": 21,
     "sections_completed": [
-      "DLC2 nucleist_zealot_combatbarks combat dialogue (lines 6704-6898)"
+      "DLC2 terminology fixes - bracket marker [Small Chance to Escape] restored to English",
+      "DLC2 terminology fixes - 19 instances of Rangers corrected to proper term"
     ],
-    "commit_hash": "5265749d",
+    "commit_hash": "7e902c5a",
     "validation_passed": true,
-    "notes": "Session 355: Translated 96 combat dialogue entries in DLC2. Base game untranslated entries analyzed - most are debug text that should not be translated.",
-    "next_action": "Continue fixing player-facing missed translations in Base Game and DLC2."
+    "notes": "Session 356: Fixed bracket marker translation (should keep English) and Rangers terminology (19 instances corrected). Structure validation passed with 0 errors.",
+    "next_action": "Continue fixing missed translations in DLC2 and Base Game."
   },
   "cumulative_stats": {
-    "total_sessions": 355,
+    "total_sessions": 356,
     "total_entries_translated": 91385,
     "entries_with_japanese": 91385,
     "entries_untranslated_all": 2754,
     "entries_missed_es_translated_ja_not": 1139,
-    "average_entries_per_session": 257.4,
+    "average_entries_per_session": 256.7,
     "estimated_sessions_remaining_base": 17,
     "estimated_days_remaining_base": "2-3 days",
     "estimated_sessions_remaining_dlc1": 1,
@@ -81,6 +82,6 @@
     "total_lines_all_files": 728337,
     "project_status": "MISSING_TRANSLATIONS_FIX_IN_PROGRESS",
     "issue_discovered_date": "2025-11-23",
-    "issue_description": "Session 355: Fixed 96 DLC2 combat dialogues. Many base game untranslated entries are debug text that should remain in English."
+    "issue_description": "Session 356: Fixed terminology and marker issues in DLC2. Bracket markers must remain in English per CLAUDE.md rules."
   }
 }

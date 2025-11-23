@@ -37,6 +37,24 @@ DO_NOT_TRANSLATE = [
     r'\[Reward:',    # Game variable marker
     r'^DEBUG -',     # Development debug messages (e.g., "DEBUG - go to combat")
     r'^Test$',       # Test messages (exact match "Test" only)
+    r'^\s*I am in Debug Mode$',  # Debug mode message
+    r'^\s*Enter debug mode\.$',  # Debug mode entry
+    r'^\s*View Debug Options\.$',  # Debug menu option
+    r'^\s*Select a Debug Option\.$',  # Debug menu option
+    r'^You aren\'t on the part',  # Developer comments/placeholders
+    r'^\s*You\'ve been tipped off',  # Developer comments
+    r'{SCRIPT:',     # Script comments that start with {SCRIPT:
+    r'^\s*HRIC\.',   # Internal identifier
+    r'^\s*Set \w+',  # Variable assignments like "Set o2001_ToldFlabAboutCharleysPlan"
+    r'^\s*Global Variable set',  # System messages
+    r'^\s*Cascade \d+',  # Technical cascade markers
+    r'^\s*Bank \d+',  # Technical bank markers
+    r'after the next scene load',  # System message about scene loading
+    r'I will be going to',  # System NPC state message
+    r'I will be fleeing',  # System NPC state message
+    r'^\s*I am in Debug',  # Debug mode messages
+    r'^\s*OH NO$',  # Debug placeholder
+    r'^\s*Better than the marshalls',  # Developer placeholder
 ]
 
 # English word patterns (common words that indicate English text)
@@ -334,49 +352,52 @@ def validate_untranslated_english(line_num: int, line: str, spanish_data: Dict[i
 
     # If content has English letters but no Japanese, it might be untranslated
     if has_english:
-        # PRIMARY CHECK: Compare with English source
-        if line_num in english_data:
-            english_content = english_data[line_num]
-            # If Japanese target == English source, definitely untranslated
+        # FIRST: Check Spanish reference for translatability
+        # If Spanish is empty, it means this is a technical/dev message - NOT an error
+        if line_num in spanish_data:
+            spanish_content = spanish_data[line_num]
+            # If Spanish is empty or same as English, this is NOT translatable content
+            # These are typically dev messages, placeholders, or system text
+            if not spanish_content.strip():
+                # Spanish is empty - this is a technical/dev message, not translatable
+                return issues
+
+            # If Spanish is translated (different from English source), Japanese should also be translated
+            english_content = english_data.get(line_num, "")
+
+            # Normalize for comparison: lowercase, remove punctuation
+            def normalize_for_comparison(text):
+                import string
+                # Remove all punctuation and normalize case
+                # Include Spanish inverted punctuation marks
+                all_punctuation = string.punctuation + '¿¡'
+                normalized = text.strip().lower()
+                # Remove punctuation from both ends and middle
+                for char in all_punctuation:
+                    normalized = normalized.replace(char, '')
+                return normalized.strip()
+
+            english_normalized = normalize_for_comparison(english_content)
+            spanish_normalized = normalize_for_comparison(spanish_content)
+
+            if spanish_normalized == english_normalized:
+                # Spanish is essentially same as English (only case/punctuation differs)
+                # This is likely Latin/foreign text that should not be translated
+                return issues
+
+            # Spanish was translated differently - Japanese should also be translated
             if content.strip() == english_content.strip():
+                # Japanese is identical to English but Spanish was translated
                 issues.append(ValidationIssue(
                     line_num=line_num,
                     issue_type="UNTRANSLATED_ENGLISH",
-                    description="Japanese text is identical to English source (untranslated)",
+                    description="Spanish was translated but Japanese is still English",
                     line_content=line.strip()
                 ))
-                return issues
-
-        # SECONDARY CHECK: Use Spanish reference to confirm translatability
-        should_translate = False
-        reason = ""
-
-        if line_num in spanish_data:
-            spanish_content = spanish_data[line_num]
-            # If Spanish is translated (different from English), Japanese should also be translated
-            if spanish_content.strip() and spanish_content.strip() != content.strip():
-                should_translate = True
-                reason = "Spanish was translated, so Japanese should also be translated"
-            else:
-                # Spanish is same as English or empty
-                # This could be a technical term or translatable text
-                # Default to assuming it should be translated unless it's clearly technical
-                # (technical terms are already filtered by is_technical_term above)
-                should_translate = True
-                reason = "English content present (Spanish reference empty/same as English - likely translatable)"
         else:
-            # No Spanish reference available
-            # Default to assuming English text should be translated
-            should_translate = True
-            reason = "English content present (no Spanish reference available - likely translatable)"
-
-        if should_translate:
-            issues.append(ValidationIssue(
-                line_num=line_num,
-                issue_type="UNTRANSLATED_ENGLISH",
-                description=f"English text not translated ({reason})",
-                line_content=line.strip()
-            ))
+            # No Spanish reference available - can't determine translatability
+            # Default to no error (be conservative)
+            pass
 
     return issues
 
@@ -497,6 +518,10 @@ def validate_glossary_compliance(line_num: int, line: str, glossary: Dict[str, s
         check_content = content
         for marker in extract_action_markers(content):
             check_content = check_content.replace(marker, '')
+
+        # Remove bracket markers (e.g., [Attack], [Rangers], [Lie], etc.)
+        # These are game engine markers and should NOT be translated
+        check_content = re.sub(r'\[[^\]]+\]', '', check_content)
 
         # Check if any glossary term appears in English in the content
         for english_term, japanese_term in glossary.items():

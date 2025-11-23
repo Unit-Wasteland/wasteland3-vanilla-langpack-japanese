@@ -251,14 +251,10 @@
   },
 
   "special_terms": {
-    "Debug": "デバッグ",
-    "TEMP TEXT": "仮テキスト",
     "Trigger Conv": "会話トリガー",
-    "Global": "グローバル",
     "Current Value": "現在値",
     "Keybind": "キーバインド",
     "Option Highlighted": "オプション強調表示",
-    "View Debug": "デバッグビュー",
     "Small Chance": "低確率",
     "Hit Chance": "命中率",
     "Success": "成功"
@@ -267,7 +263,12 @@
   "do_not_translate": {
     "_comment": "以下の技術的な用語は絶対に翻訳しないでください",
     "Script Node": "Script Node",
-    "Node": "Node"
+    "Node": "Node",
+    "Global": "Global",
+    "Debug": "Debug",
+    "SCRIPT": "SCRIPT",
+    "Leave": "Leave",
+    "TEMP TEXT": "TEMP TEXT"
   },
 
   "ui_common": {
@@ -277,7 +278,6 @@
     "Okay": "了解",
     "Cancel": "キャンセル",
     "Back": "戻る",
-    "Leave": "立ち去る",
     "Exit": "退出",
     "Enter": "入る",
     "Open": "開ける",
