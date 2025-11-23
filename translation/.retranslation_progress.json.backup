@@ -25,15 +25,15 @@
   "dlc1": {
     "status": "in_progress",
     "current_file": "StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
-    "current_line": 105493,
+    "current_line": 107659,
     "total_lines": 120559,
-    "entries_completed": 13177,
+    "entries_completed": 13339,
     "total_entries": 38554,
-    "percent_complete": 34.2,
+    "percent_complete": 34.6,
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
-    "notes": "2025-11-23: Session 317 - Salene Crow combatbarks (270 entries). All validations: 0 errors, 2 warnings."
+    "notes": "2025-11-23: Session 318 - Spire synths and guardbots combatbarks (162 entries). All validations: 0 errors, 2 warnings."
   },
   "dlc2": {
     "status": "not_started",
@@ -43,22 +43,25 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 317,
+    "session_number": 318,
     "date": "2025-11-23",
-    "entries_processed": 270,
+    "entries_processed": 162,
     "sections_completed": [
-      "salenecrow_onfoot_combatbarks (lines 103838-104196) - 75 entries",
-      "salenecrow_powerloader_combatbarks (lines 105062-105492) - 195 entries"
+      "spiresynths_combatbarks (lines 106206-106554) - 70 entries",
+      "steeltown_admin_combatbarks (lines 106592-106602) - 5 entries",
+      "steeltown_civilian_combatbarks (lines 106640-106650) - 5 entries",
+      "steeltown_guardbotspawner_combatbarks (lines 106704-106722) - 7 entries",
+      "steeltown_guardbots_barks (lines 107352-107658) - 75 entries"
     ],
-    "commit_hash": "0b0bcaea",
+    "commit_hash": "10b26d26",
     "validation_passed": true,
-    "notes": "Session 317: Salene Crow combatbarks (on-foot and powerloader variants). Quality errors log analyzed - 226 entries identified as dev messages (correct to keep in English). All validations: 0 errors, 2 warnings.",
-    "next_action": "Continue DLC1 sequential translation from line 105493 (next section: spiresynths_combatbarks)."
+    "notes": "Session 318: Synth and guardbot combatbarks. Quality errors reviewed - 226 untranslated entries confirmed as dev messages. All validations: 0 errors, 2 warnings.",
+    "next_action": "Continue DLC1 sequential translation from line 107659 (next section: steeltown_guarddog_combatbarks)."
   },
   "cumulative_stats": {
-    "total_sessions": 317,
-    "total_entries_translated": 176332,
-    "untranslated_remaining": 56086,
+    "total_sessions": 318,
+    "total_entries_translated": 176494,
+    "untranslated_remaining": 55924,
     "average_entries_per_session": 558.0,
     "estimated_sessions_remaining_base": 0,
     "estimated_days_remaining_base": "Complete",
