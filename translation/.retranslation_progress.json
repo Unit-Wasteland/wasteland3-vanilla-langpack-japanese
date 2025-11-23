@@ -11,7 +11,7 @@
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
     "current_line": 530425,
     "total_lines": 530425,
-    "entries_completed": 163479,
+    "entries_completed": 163481,
     "total_entries": 169712,
     "percent_complete": 96.3,
     "untranslated_entries": 0,
@@ -20,8 +20,8 @@
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
-    "quality_issues": 108,
-    "notes": "2025-11-23: Fixed 8 untranslated entries. Improved validation script to correctly handle dev messages (Spanish empty), Latin text, and bracket markers. Validation passed with 0 structure/untranslated errors."
+    "quality_issues": 106,
+    "notes": "2025-11-23: Session 358 - Fixed 2 Ranger terminology issues (lines 328546, 328670). Quality issues reduced to 106 (all false positives in robot technical speech)."
   },
   "dlc1": {
     "status": "needs_review",
@@ -54,26 +54,24 @@
     "notes": "2025-11-23: Session 356 - Fixed bracket marker and Rangers terminology issues. Structure validation passed."
   },
   "last_session": {
-    "session_number": 357,
+    "session_number": 358,
     "date": "2025-11-23",
-    "entries_processed": 8,
+    "entries_processed": 2,
     "sections_completed": [
-      "Base game: Fix 8 untranslated entries (hologram errors, Payasos dialogue, Wind & Nikki, combat barks)",
-      "Validation script improvements: Spanish empty handling, Latin text, bracket markers",
-      "Glossary updates: Technical terms moved to do_not_translate"
+      "Base game: Fix 2 Ranger terminology issues (lines 328546, 328670)"
     ],
-    "commit_hash": "2ccfc6d8",
+    "commit_hash": "53e61b2b",
     "validation_passed": true,
-    "notes": "Session 357: Fixed base game untranslated entries. Improved validation script to reduce false positives (1765 to 0). Structure validation passed.",
-    "next_action": "Review and fix DLC1 and DLC2 untranslated entries using improved validation."
+    "notes": "Session 358: Fixed Ranger terminology. Quality issues 106 (all false positives in robot technical speech - Faction(), Unit() syntax).",
+    "next_action": "Review and fix DLC1 untranslated entries (295 entries, 21 where Spanish translated)."
   },
   "cumulative_stats": {
-    "total_sessions": 357,
-    "total_entries_translated": 91393,
-    "entries_with_japanese": 91393,
+    "total_sessions": 358,
+    "total_entries_translated": 91395,
+    "entries_with_japanese": 91395,
     "entries_untranslated_all": 989,
     "entries_missed_es_translated_ja_not": 139,
-    "average_entries_per_session": 256.0,
+    "average_entries_per_session": 255.3,
     "estimated_sessions_remaining_base": 0,
     "estimated_days_remaining_base": "Complete",
     "estimated_sessions_remaining_dlc1": 1,
@@ -81,8 +79,8 @@
     "estimated_sessions_remaining_dlc2": 2,
     "estimated_days_remaining_dlc2": "1 day",
     "total_lines_all_files": 728337,
-    "project_status": "BASE_GAME_VALIDATION_COMPLETE",
+    "project_status": "BASE_GAME_COMPLETE_DLC_REVIEW",
     "issue_discovered_date": "2025-11-23",
-    "issue_description": "Session 357: Base game validation complete (0 untranslated). DLC1 and DLC2 still need review."
+    "issue_description": "Session 358: Base game complete. DLC1 needs 295 untranslated review, DLC2 needs 694 untranslated review."
   }
 }
