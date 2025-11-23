@@ -25,15 +25,15 @@
   "dlc1": {
     "status": "in_progress",
     "current_file": "StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
-    "current_line": 99661,
+    "current_line": 103015,
     "total_lines": 120559,
-    "entries_completed": 12630,
+    "entries_completed": 12907,
     "total_entries": 38554,
-    "percent_complete": 32.8,
+    "percent_complete": 33.5,
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
-    "notes": "2025-11-23: Session 315 - Ghost Gang guerrilla and mechanic combatbarks (320 entries). All validations: 0 errors, 2 warnings."
+    "notes": "2025-11-23: Session 316 - Ghost Gang powerloader, rioters, Karl Ludlow combatbarks (277 entries). All validations: 0 errors, 2 warnings."
   },
   "dlc2": {
     "status": "not_started",
@@ -43,22 +43,24 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 315,
+    "session_number": 316,
     "date": "2025-11-23",
-    "entries_processed": 320,
+    "entries_processed": 277,
     "sections_completed": [
-      "ghostgang_guerrilla_combatbarks (lines 98352-98657) - Ghost Gang guerrilla combat barks 154 entries",
-      "ghostgang_mechanic_combatbarks (lines 99331-99660) - Ghost Gang mechanic combat barks 165 entries"
+      "ghostgang_powerloader_combatbarks (lines 100288-100590) - 68 entries",
+      "ghostgang_rioters_combatbarks (lines 101246-101562) - 75 entries",
+      "karlludlow_combatbarks (lines 102194-102498) - 67 entries",
+      "salenecrow_combatbarks - skipped (all empty placeholders)"
     ],
-    "commit_hash": "6ae988ef",
+    "commit_hash": "2e21aa71",
     "validation_passed": true,
-    "notes": "Session 315: Ghost Gang guerrilla and mechanic combat barks. Cleared quality errors log (false positives - dev messages). All validations: 0 errors, 2 warnings.",
-    "next_action": "Continue DLC1 sequential translation from line 99661 (ghostgang_powerloader_combatbarks)."
+    "notes": "Session 316: Ghost Gang powerloader, rioters, Karl Ludlow combatbarks. Salene Crow section skipped (all empty). Quality errors log cleared (false positives). All validations: 0 errors, 2 warnings.",
+    "next_action": "Continue DLC1 sequential translation from line 103015 (next section after salenecrow_combatbarks)."
   },
   "cumulative_stats": {
-    "total_sessions": 315,
-    "total_entries_translated": 175785,
-    "untranslated_remaining": 56633,
+    "total_sessions": 316,
+    "total_entries_translated": 176062,
+    "untranslated_remaining": 56356,
     "average_entries_per_session": 558.0,
     "estimated_sessions_remaining_base": 0,
     "estimated_days_remaining_base": "Complete",
