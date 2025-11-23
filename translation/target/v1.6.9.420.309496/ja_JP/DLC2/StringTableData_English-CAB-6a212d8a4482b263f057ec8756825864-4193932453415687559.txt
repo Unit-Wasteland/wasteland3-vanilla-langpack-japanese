@@ -43557,21 +43557,21 @@
       1 Array Array (10 items)
        0 int size = 10
        [0]
-        1 string data = " Press any key..."
+        1 string data = " 任意のキーを押してください..."
        [1]
-        1 string data = " Hack computer for intel."
+        1 string data = " コンピュータをハッキングして情報を入手する。"
        [2]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [3]
         1 string data = " Reset globals."
        [4]
         1 string data = " "
        [5]
-        1 string data = " Computer skill not high enough, sorry not sorry."
+        1 string data = " コンピュータスキルが足りない、残念でした。"
        [6]
-        1 string data = " Intel gained."
+        1 string data = " 情報を入手した。"
        [7]
-        1 string data = " Look at intell again."
+        1 string data = " 情報をもう一度見る。"
        [8]
         1 string data = " Blah Blah Blah"
        [9]
@@ -43795,51 +43795,51 @@
       1 Array Array (23 items)
        0 int size = 23
        [0]
-        1 string data = " Check vitals..."
+        1 string data = " バイタルをチェックする..."
        [1]
-        1 string data = " Tap on the glass..."
+        1 string data = " ガラスを叩く..."
        [2]
-        1 string data = " Tap on the glass..."
+        1 string data = " ガラスを叩く..."
        [3]
         1 string data = " I pitty the fool who gets this responce."
        [4]
-        1 string data = " There is a human trapped inside."
+        1 string data = " 中に人間が閉じ込められている。"
        [5]
-        1 string data = " He's dead Jim."
+        1 string data = " 死んでるぞ、ジム。"
        [6]
-        1 string data = " No reply since its empty."
+        1 string data = " 空なので反応がない。"
        [7]
-        1 string data = " Use computer skill on glass cage.\n(run euthanize sequence, kills the human trapped inside)"
+        1 string data = " コンピュータスキルをガラスケージに使用する。\n（安楽死シーケンスを実行、中に閉じ込められた人間を殺す）"
        [8]
-        1 string data = " Use Engineering skill on glass cage.\n(shorts out the lock and releases the human)"
+        1 string data = " エンジニアリングスキルをガラスケージに使用する。\n（ロックをショートさせて人間を解放する）"
        [9]
-        1 string data = " Use toaster repair on the embryo chamber. \r\n(alters the machine to produce Chickens with Fader stats )\r\n"
+        1 string data = " トースター修理を胚チャンバーに使用する。\r\n（フェイダーのステータスを持つニワトリを生成するように機械を改造する）\r\n"
        [10]
         1 string data = " Set e4001_LabB_humanCapsule00 = 1\n(used computer skill to flood capsule with poisonous gas to put the person out of their misery)"
        [11]
         1 string data = " Set e4001_LabB_humanCapsule00 = 2\n(used mechanical repair to set the person free)"
        [12]
-        1 string data = " Success: The Human inside dies."
+        1 string data = " 成功：中の人間が死亡した。"
        [13]
-        1 string data = " Your skill is not high enough."
+        1 string data = " スキルが足りない。"
        [14]
-        1 string data = " Success: The parameters have been changed, the human is released."
+        1 string data = " 成功：パラメータが変更され、人間が解放された。"
        [15]
-        1 string data = " Your skill is not high enough."
+        1 string data = " スキルが足りない。"
        [16]
         1 string data = " Set e4001_LabA_embryoChamber00 = 3"
        [17]
-        1 string data = " Success: The parameters have been changed, this will produce a chicken with high stats of a Fader."
+        1 string data = " 成功：パラメータが変更された。これでフェイダーの高いステータスを持つニワトリが生成される。"
        [18]
-        1 string data = " Your skill is not high enough."
+        1 string data = " スキルが足りない。"
        [19]
-        1 string data = " Tap on the glass..."
+        1 string data = " ガラスを叩く..."
        [20]
-        1 string data = " cluck, cluck, cluck..."
+        1 string data = " コッコッコッ..."
        [21]
         1 string data = " Reset Global."
        [22]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
    [208]
     0 StringTable data
      1 string Filename = "e4001_glasscagestate_01"
@@ -43921,39 +43921,39 @@
       1 Array Array (17 items)
        0 int size = 17
        [0]
-        1 string data = " Check vitals..."
+        1 string data = " バイタルをチェックする..."
        [1]
-        1 string data = " Tap on the glass..."
+        1 string data = " ガラスを叩く..."
        [2]
-        1 string data = " Tap on the glass..."
+        1 string data = " ガラスを叩く..."
        [3]
         1 string data = " I pitty the fool who gets this responce."
        [4]
-        1 string data = " There is a human trapped inside."
+        1 string data = " 中に人間が閉じ込められている。"
        [5]
-        1 string data = " He's dead Jim."
+        1 string data = " 死んでるぞ、ジム。"
        [6]
-        1 string data = " No reply since its empty."
+        1 string data = " 空なので反応がない。"
        [7]
-        1 string data = " Use computer skill on glass cage.\n(run euthanize sequence, kills the human trapped inside)"
+        1 string data = " コンピュータスキルをガラスケージに使用する。\n（安楽死シーケンスを実行、中に閉じ込められた人間を殺す）"
        [8]
-        1 string data = " Use Engineering skill on glass cage.\n(shorts out the lock and releases the human)"
+        1 string data = " エンジニアリングスキルをガラスケージに使用する。\n（ロックをショートさせて人間を解放する）"
        [9]
         1 string data = " Set e4001_LabB_humanCapsule00 = 1\n(used computer skill to flood capsule with poisonous gas to put the person out of their misery)"
        [10]
         1 string data = " Set e4001_LabB_humanCapsule00 = 2\n(used mechanical repair to set the person free)"
        [11]
-        1 string data = " Success: The human inside dies."
+        1 string data = " 成功：中の人間が死亡した。"
        [12]
-        1 string data = " Your skill is not high enough."
+        1 string data = " スキルが足りない。"
        [13]
-        1 string data = " Success: The parameters have been changed, the human is released."
+        1 string data = " 成功：パラメータが変更され、人間が解放された。"
        [14]
-        1 string data = " Your skill is not high enough."
+        1 string data = " スキルが足りない。"
        [15]
         1 string data = " Reset Global."
        [16]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
    [209]
     0 StringTable data
      1 string Filename = "e4001_glasscagestate_02"
@@ -44035,39 +44035,39 @@
       1 Array Array (17 items)
        0 int size = 17
        [0]
-        1 string data = " Tap on the glass..."
+        1 string data = " ガラスを叩く..."
        [1]
-        1 string data = " Tap on the glass..."
+        1 string data = " ガラスを叩く..."
        [2]
-        1 string data = " Tap on the glass..."
+        1 string data = " ガラスを叩く..."
        [3]
         1 string data = " I pitty the fool who gets this responce."
        [4]
-        1 string data = " It's empty."
+        1 string data = " 空だ。"
        [5]
-        1 string data = " He's dead Jim."
+        1 string data = " 死んでるぞ、ジム。"
        [6]
-        1 string data = " No reply since its empty."
+        1 string data = " 空なので反応がない。"
        [7]
-        1 string data = " Use computer skill on glass cage.\n(run euthanize sequence, kills the human trapped inside)"
+        1 string data = " コンピュータスキルをガラスケージに使用する。\n（安楽死シーケンスを実行、中に閉じ込められた人間を殺す）"
        [8]
-        1 string data = " Use mechanical repair skill on glass cage.\n(shorts out the lock and releases the human)"
+        1 string data = " 機械修理スキルをガラスケージに使用する。\n（ロックをショートさせて人間を解放する）"
        [9]
         1 string data = " Set e4001_LabB_humanCapsule00 = 1\n(used computer skill to flood capsule with poisonous gas to put the person out of their misery)"
        [10]
         1 string data = " Set e4001_LabB_humanCapsule00 = 2\n(used mechanical repair to set the person free)"
        [11]
-        1 string data = " Success: The Fader inside dies."
+        1 string data = " 成功：中のフェイダーが死亡した。"
        [12]
-        1 string data = " Your skill is not high enough."
+        1 string data = " スキルが足りない。"
        [13]
-        1 string data = " Success: The parameters have been changed, this will produce a weaker Fader."
+        1 string data = " 成功：パラメータが変更された。これで弱いフェイダーが生成される。"
        [14]
-        1 string data = " Your skill is not high enough."
+        1 string data = " スキルが足りない。"
        [15]
         1 string data = " Reset Global."
        [16]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
    [210]
     0 StringTable data
      1 string Filename = "e4001_hiddenlabcomputerlore_00.conversatioe4001n"
@@ -44089,7 +44089,7 @@
       1 Array Array (2 items)
        0 int size = 2
        [0]
-        1 string data = " Press any key..."
+        1 string data = " 任意のキーを押してください..."
        [1]
         1 string data = " LORE: Blah Blah Blah."
    [211]
@@ -44113,7 +44113,7 @@
       1 Array Array (2 items)
        0 int size = 2
        [0]
-        1 string data = " Press any key..."
+        1 string data = " 任意のキーを押してください..."
        [1]
         1 string data = " LORE: Blah Blah Blah."
    [212]
@@ -44169,21 +44169,21 @@
       1 Array Array (10 items)
        0 int size = 10
        [0]
-        1 string data = " Press any key..."
+        1 string data = " 任意のキーを押してください..."
        [1]
-        1 string data = " Hack computer for intel."
+        1 string data = " コンピュータをハッキングして情報を入手する。"
        [2]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [3]
         1 string data = " Reset globals."
        [4]
         1 string data = " "
        [5]
-        1 string data = " Computer skill not high enough, sorry not sorry."
+        1 string data = " コンピュータスキルが足りない、残念でした。"
        [6]
-        1 string data = " Intel gained."
+        1 string data = " 情報を入手した。"
        [7]
-        1 string data = " Look at intell again."
+        1 string data = " 情報をもう一度見る。"
        [8]
         1 string data = " Blah Blah Blah"
        [9]
@@ -44241,21 +44241,21 @@
       1 Array Array (10 items)
        0 int size = 10
        [0]
-        1 string data = " Hack computer?"
+        1 string data = " コンピュータをハッキングする？"
        [1]
-        1 string data = " Computer hacked, hidden doors are revealed."
+        1 string data = " コンピュータをハッキングした、隠し扉が明らかになった。"
        [2]
-        1 string data = " Skill not high enough."
+        1 string data = " スキルが足りない。"
        [3]
         1 string data = " Reset globals."
        [4]
         1 string data = " "
        [5]
-        1 string data = " Computer skill not high enough, sorry not sorry."
+        1 string data = " コンピュータスキルが足りない、残念でした。"
        [6]
-        1 string data = " Intel gained."
+        1 string data = " 情報を入手した。"
        [7]
-        1 string data = " Look at intell again."
+        1 string data = " 情報をもう一度見る。"
        [8]
         1 string data = " Blah Blah Blah"
        [9]
@@ -44369,53 +44369,53 @@
       1 Array Array (24 items)
        0 int size = 24
        [0]
-        1 string data = " Use Surgeon skill to thoroughly examine the body."
+        1 string data = " 外科医スキルで遺体を徹底的に調べる。"
        [1]
-        1 string data = " Success: You dig into the corpse gut looking to see what the Fader were doing."
+        1 string data = " 成功：死体の内臓を調べて、フェイダーが何をしていたか確認する。"
        [2]
-        1 string data = " Your skill is not high enough."
+        1 string data = " スキルが足りない。"
        [3]
         1 string data = " I pitty the fool who gets this responce."
        [4]
-        1 string data = " High perception skill reveals more."
+        1 string data = " 高い知覚スキルでさらに多くが明らかになる。"
        [5]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [6]
         1 string data = " Reset global."
        [7]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [8]
-        1 string data = " You have gained all the intel you could."
+        1 string data = " 入手できる情報は全て手に入れた。"
        [9]
-        1 string data = " There may be more to learn but you lack the skill."
+        1 string data = " まだ学べることがあるかもしれないが、スキルが足りない。"
        [10]
         1 string data = " Set table examintaion to basic = 1"
        [11]
         1 string data = " Set table examintaion to advanced = 2"
        [12]
-        1 string data = " There may be more to learn but you lack the skill."
+        1 string data = " まだ学べることがあるかもしれないが、スキルが足りない。"
        [13]
-        1 string data = " Nothing else to do."
+        1 string data = " 他にやることはない。"
        [14]
-        1 string data = " You have gained all the intel you could."
+        1 string data = " 入手できる情報は全て手に入れた。"
        [15]
-        1 string data = " You see a body on the dissection table."
+        1 string data = " 解剖台の上に遺体がある。"
        [16]
         1 string data = " Debug options"
        [17]
         1 string data = "Pick an option"
        [18]
-        1 string data = " Examine the body."
+        1 string data = " 遺体を調べる。"
        [19]
-        1 string data = " Success: You dig into the corpse gut looking to see what the Fader were doing."
+        1 string data = " 成功：死体の内臓を調べて、フェイダーが何をしていたか確認する。"
        [20]
-        1 string data = " High perception skill reveals more."
+        1 string data = " 高い知覚スキルでさらに多くが明らかになる。"
        [21]
-        1 string data = " That's all you can see."
+        1 string data = " これ以上は見えない。"
        [22]
         1 string data = " Reset global."
        [23]
-        1 string data = " Walk away"
+        1 string data = " 立ち去る"
    [215]
     0 StringTable data
      1 string Filename = "e4001_observationroomcomputer"
@@ -44469,21 +44469,21 @@
       1 Array Array (10 items)
        0 int size = 10
        [0]
-        1 string data = " Press any key..."
+        1 string data = " 任意のキーを押してください..."
        [1]
-        1 string data = " Hack computer for intel."
+        1 string data = " コンピュータをハッキングして情報を入手する。"
        [2]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [3]
         1 string data = " Reset globals."
        [4]
         1 string data = " "
        [5]
-        1 string data = " Computer skill not high enough, sorry not sorry."
+        1 string data = " コンピュータスキルが足りない、残念でした。"
        [6]
-        1 string data = " Intel gained."
+        1 string data = " 情報を入手した。"
        [7]
-        1 string data = " Look at intell again."
+        1 string data = " 情報をもう一度見る。"
        [8]
         1 string data = " Blah Blah Blah"
        [9]
@@ -44565,31 +44565,31 @@
       1 Array Array (16 items)
        0 int size = 16
        [0]
-        1 string data = " Check occupant..."
+        1 string data = " 搭乗者を確認する..."
        [1]
-        1 string data = " Sleeper Pod is empty..."
+        1 string data = " スリーパーポッドは空だ..."
        [2]
-        1 string data = " Tamper with Sleeper Pod."
+        1 string data = " スリーパーポッドを改ざんする。"
        [3]
-        1 string data = " Sabotage Sleeper Pod?"
+        1 string data = " スリーパーポッドを妨害工作する？"
        [4]
-        1 string data = " Lockout Sleeper Pod controls?"
+        1 string data = " スリーパーポッドの制御をロックアウトする？"
        [5]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [6]
-        1 string data = " Success, anybody using this Sleeper Pod will recieve damage not healing."
+        1 string data = " 成功、このスリーパーポッドを使う者は回復ではなくダメージを受ける。"
        [7]
-        1 string data = " Your skill is not high enough."
+        1 string data = " スキルが足りない。"
        [8]
-        1 string data = " Success, nobody will be able to access the controlls to make the unit work."
+        1 string data = " 成功、誰も制御にアクセスしてユニットを動作させることができなくなった。"
        [9]
-        1 string data = " Your skill is not high enough."
+        1 string data = " スキルが足りない。"
        [10]
-        1 string data = " This pod is setup to keep a Fader in a deep sleep so they never wake up un unassisted."
+        1 string data = " このポッドはフェイダーを深い眠りに保ち、補助なしでは絶対に目覚めないようにセットされている。"
        [11]
-        1 string data = " This pod's controlls are locked out, nobody will be able to access it."
+        1 string data = " このポッドの制御はロックアウトされており、誰もアクセスできない。"
        [12]
-        1 string data = " This is not the sleeper pod you are looking for."
+        1 string data = " これはお前が探しているスリーパーポッドではない。"
        [13]
         1 string data = " Set Sleeper Pod to 1 for Sabotage"
        [14]
@@ -44673,31 +44673,31 @@
       1 Array Array (16 items)
        0 int size = 16
        [0]
-        1 string data = " Check occupant..."
+        1 string data = " 搭乗者を確認する..."
        [1]
-        1 string data = " Sleeper Pod is empty..."
+        1 string data = " スリーパーポッドは空だ..."
        [2]
-        1 string data = " Tamper with Sleeper Pod."
+        1 string data = " スリーパーポッドを改ざんする。"
        [3]
-        1 string data = " Sabotage Sleeper Pod?"
+        1 string data = " スリーパーポッドを妨害工作する？"
        [4]
-        1 string data = " Lockout Sleeper Pod controls?"
+        1 string data = " スリーパーポッドの制御をロックアウトする？"
        [5]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [6]
-        1 string data = " Success, anybody using this Sleeper Pod will recieve damage not healing."
+        1 string data = " 成功、このスリーパーポッドを使う者は回復ではなくダメージを受ける。"
        [7]
-        1 string data = " Your skill is not high enough."
+        1 string data = " スキルが足りない。"
        [8]
-        1 string data = " Success, nobody will be able to access the controlls to make the unit work."
+        1 string data = " 成功、誰も制御にアクセスしてユニットを動作させることができなくなった。"
        [9]
-        1 string data = " Your skill is not high enough."
+        1 string data = " スキルが足りない。"
        [10]
-        1 string data = " This pod is setup to keep a Fader in a deep sleep so they never wake up un unassisted."
+        1 string data = " このポッドはフェイダーを深い眠りに保ち、補助なしでは絶対に目覚めないようにセットされている。"
        [11]
-        1 string data = " This pod's controlls are locked out, nobody will be able to access it."
+        1 string data = " このポッドの制御はロックアウトされており、誰もアクセスできない。"
        [12]
-        1 string data = " This is not the sleeper pod you are looking for."
+        1 string data = " これはお前が探しているスリーパーポッドではない。"
        [13]
         1 string data = " Set Sleeper Pod to 1 for Sabotage"
        [14]
@@ -44781,31 +44781,31 @@
       1 Array Array (16 items)
        0 int size = 16
        [0]
-        1 string data = " Check occupant..."
+        1 string data = " 搭乗者を確認する..."
        [1]
-        1 string data = " Sleeper Pod is empty..."
+        1 string data = " スリーパーポッドは空だ..."
        [2]
-        1 string data = " Tamper with Sleeper Pod."
+        1 string data = " スリーパーポッドを改ざんする。"
        [3]
-        1 string data = " Sabotage Sleeper Pod?"
+        1 string data = " スリーパーポッドを妨害工作する？"
        [4]
-        1 string data = " Lockout Sleeper Pod controls?"
+        1 string data = " スリーパーポッドの制御をロックアウトする？"
        [5]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [6]
-        1 string data = " Success, anybody using this Sleeper Pod will recieve damage not healing."
+        1 string data = " 成功、このスリーパーポッドを使う者は回復ではなくダメージを受ける。"
        [7]
-        1 string data = " Your skill is not high enough."
+        1 string data = " スキルが足りない。"
        [8]
-        1 string data = " Success, nobody will be able to access the controlls to make the unit work."
+        1 string data = " 成功、誰も制御にアクセスしてユニットを動作させることができなくなった。"
        [9]
-        1 string data = " Your skill is not high enough."
+        1 string data = " スキルが足りない。"
        [10]
-        1 string data = " This pod is setup to keep a Fader in a deep sleep so they never wake up un unassisted."
+        1 string data = " このポッドはフェイダーを深い眠りに保ち、補助なしでは絶対に目覚めないようにセットされている。"
        [11]
-        1 string data = " This pod's controlls are locked out, nobody will be able to access it."
+        1 string data = " このポッドの制御はロックアウトされており、誰もアクセスできない。"
        [12]
-        1 string data = " This is not the sleeper pod you are looking for."
+        1 string data = " これはお前が探しているスリーパーポッドではない。"
        [13]
         1 string data = " Set Sleeper Pod to 1 for Sabotage"
        [14]
@@ -44889,31 +44889,31 @@
       1 Array Array (16 items)
        0 int size = 16
        [0]
-        1 string data = " Check occupant..."
+        1 string data = " 搭乗者を確認する..."
        [1]
-        1 string data = " Sleeper Pod is empty..."
+        1 string data = " スリーパーポッドは空だ..."
        [2]
-        1 string data = " Tamper with Sleeper Pod."
+        1 string data = " スリーパーポッドを改ざんする。"
        [3]
-        1 string data = " Sabotage Sleeper Pod?"
+        1 string data = " スリーパーポッドを妨害工作する？"
        [4]
-        1 string data = " Lockout Sleeper Pod controls?"
+        1 string data = " スリーパーポッドの制御をロックアウトする？"
        [5]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [6]
-        1 string data = " Success, anybody using this Sleeper Pod will recieve damage not healing."
+        1 string data = " 成功、このスリーパーポッドを使う者は回復ではなくダメージを受ける。"
        [7]
-        1 string data = " Your skill is not high enough."
+        1 string data = " スキルが足りない。"
        [8]
-        1 string data = " Success, nobody will be able to access the controlls to make the unit work."
+        1 string data = " 成功、誰も制御にアクセスしてユニットを動作させることができなくなった。"
        [9]
-        1 string data = " Your skill is not high enough."
+        1 string data = " スキルが足りない。"
        [10]
-        1 string data = " This pod is setup to keep a Fader in a deep sleep so they never wake up un unassisted."
+        1 string data = " このポッドはフェイダーを深い眠りに保ち、補助なしでは絶対に目覚めないようにセットされている。"
        [11]
-        1 string data = " This pod's controlls are locked out, nobody will be able to access it."
+        1 string data = " このポッドの制御はロックアウトされており、誰もアクセスできない。"
        [12]
-        1 string data = " This is not the sleeper pod you are looking for."
+        1 string data = " これはお前が探しているスリーパーポッドではない。"
        [13]
         1 string data = " Set Sleeper Pod to 1 for Sabotage"
        [14]
@@ -44997,31 +44997,31 @@
       1 Array Array (16 items)
        0 int size = 16
        [0]
-        1 string data = " Check occupant..."
+        1 string data = " 搭乗者を確認する..."
        [1]
-        1 string data = " Sleeper Pod is empty..."
+        1 string data = " スリーパーポッドは空だ..."
        [2]
-        1 string data = " Tamper with Sleeper Pod."
+        1 string data = " スリーパーポッドを改ざんする。"
        [3]
-        1 string data = " Sabotage Sleeper Pod?"
+        1 string data = " スリーパーポッドを妨害工作する？"
        [4]
-        1 string data = " Lockout Sleeper Pod controls?"
+        1 string data = " スリーパーポッドの制御をロックアウトする？"
        [5]
-        1 string data = " Walk away."
+        1 string data = " 立ち去る。"
        [6]
-        1 string data = " Success, anybody using this Sleeper Pod will recieve damage not healing."
+        1 string data = " 成功、このスリーパーポッドを使う者は回復ではなくダメージを受ける。"
        [7]
-        1 string data = " Your skill is not high enough."
+        1 string data = " スキルが足りない。"
        [8]
-        1 string data = " Success, nobody will be able to access the controlls to make the unit work."
+        1 string data = " 成功、誰も制御にアクセスしてユニットを動作させることができなくなった。"
        [9]
-        1 string data = " Your skill is not high enough."
+        1 string data = " スキルが足りない。"
        [10]
-        1 string data = " This pod is setup to keep a Fader in a deep sleep so they never wake up un unassisted."
+        1 string data = " このポッドはフェイダーを深い眠りに保ち、補助なしでは絶対に目覚めないようにセットされている。"
        [11]
-        1 string data = " This pod's controlls are locked out, nobody will be able to access it."
+        1 string data = " このポッドの制御はロックアウトされており、誰もアクセスできない。"
        [12]
-        1 string data = " This is not the sleeper pod you are looking for."
+        1 string data = " これはお前が探しているスリーパーポッドではない。"
        [13]
         1 string data = " Set Sleeper Pod to 1 for Sabotage"
        [14]
