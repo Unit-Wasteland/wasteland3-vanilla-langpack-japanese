@@ -25,15 +25,15 @@
   "dlc1": {
     "status": "in_progress",
     "current_file": "StringTableData_English-CAB-01cf4ea31238681a8e1bd9559c0f3f3e--5815625736905989241.txt",
-    "current_line": 80310,
+    "current_line": 81127,
     "total_lines": 120559,
-    "entries_completed": 9999,
+    "entries_completed": 10124,
     "total_entries": 38554,
-    "percent_complete": 25.9,
+    "percent_complete": 26.3,
     "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
-    "notes": "2025-11-23: Session 304 final - completed ~100 additional entries (total ~370). d2201_smokestacksmachine, d2201_synth (freed synths dialogue), d3001_acolyte_lowvolt (prophecies). All validations: 0 errors, 2 warnings."
+    "notes": "2025-11-23: Session 305 - Blind Marvin complete dialogue, console logs (125 entries). d3001_blindmarvin, d3001_inertrobot, d3001_int_console_charlie_logs, d3001_int_console_charlie_materials. All validations: 0 errors, 2 warnings."
   },
   "dlc2": {
     "status": "not_started",
@@ -43,29 +43,24 @@
     "notes": "Pending base game and DLC1 completion"
   },
   "last_session": {
-    "session_number": 304,
+    "session_number": 305,
     "date": "2025-11-23",
-    "entries_processed": 370,
+    "entries_processed": 125,
     "sections_completed": [
-      "d2201_computationengine_2 completion (lines 77990-78370)",
-      "d2201_crisisbutton (lines 78534-78558)",
-      "d2201_int_console_core (lines 78840-78972)",
-      "d2201_postsynths_markham (lines 79142-79152)",
-      "d2201_robot_defenses (lines 79178-79182)",
-      "d2201_smokebreakadmin (lines 79264-79290)",
-      "d2201_smokestacksmachine_nuttightenloosen (lines 79404-79452)",
-      "d2201_synth (lines 79802-79968)",
-      "d3001_acolyte_lowvolt (lines 80202-80310)"
+      "d3001_blindmarvin (lines 80728-80928) - complete Blind Marvin dialogue",
+      "d3001_inertrobot (lines 80954-80958) - offline robot",
+      "d3001_int_console_charlie_logs (lines 81060-81102) - pre-war research logs",
+      "d3001_int_console_charlie_materials (lines 81124-81126) - orb composition"
     ],
-    "commit_hash": "888d056a",
+    "commit_hash": "a8f95075",
     "validation_passed": true,
-    "notes": "Session 304 final: Synth dialogue, freed synths endings, acolyte prophecies, machine mechanics. All validations: 0 errors, 2 warnings (pre-existing HTML).",
-    "next_action": "Continue DLC1 sequential translation from line 80311 (d3001_blindmarvin)."
+    "notes": "Session 305: Blind Marvin quest dialogue, JWize diary entries (1991-1998), orb development history, robot offline status. Also fixed 5 quality validation reported dialogue entries. All validations: 0 errors, 2 warnings (pre-existing HTML).",
+    "next_action": "Continue DLC1 sequential translation from line 81128 (d3001_int_console_modelorb)."
   },
   "cumulative_stats": {
-    "total_sessions": 304,
-    "total_entries_translated": 173434,
-    "untranslated_remaining": 58984,
+    "total_sessions": 305,
+    "total_entries_translated": 173559,
+    "untranslated_remaining": 58859,
     "average_entries_per_session": 570.2,
     "estimated_sessions_remaining_base": 0,
     "estimated_days_remaining_base": "Complete",
