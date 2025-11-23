@@ -39567,7 +39567,7 @@
        [0]
         1 string data = "ユーザーの皆様、シャイアンマウンテン拘留エリアへようこそ。コマンドを入力してください。"
        [1]
-        1 string data = "Status of special security prisoner BEZOAR: DETAINED."
+        1 string data = "特別警備囚人ベゾアールのステータス:拘留中。"
        [2]
         1 string data = "レーザーセキュリティネット:稼働中。特別警備区域では注意して行動してください。"
        [3]
@@ -39575,7 +39575,7 @@
        [4]
         1 string data = "警告:レーザーセキュリティネットへの不正アクセスは禁止されています。セキュリティシステムを改ざんしないでください!"
        [5]
-        1 string data = "Please enter your command:"
+        1 string data = "コマンドを入力してください:"
        [6]
         1 string data = "拘留エリアのメインドアを開く。"
        [7]
@@ -39587,7 +39587,7 @@
        [10]
         1 string data = "乱れた身なりの老人が独房の中を歩き回り、独り言を呟いている。時折立ち止まって祈りを捧げている。"
        [11]
-        1 string data = ""Blessed Detonation, from which all life flows, watch over the poor sarcoma blocking the control room door. I can soothe its troubled spirit and send it on its way, but I can't do it alone! Help me in my hour of need!""
+        1 string data = ""聖なる爆発よ、全ての命が流れ出るその源よ、制御室のドアを塞いでいる哀れな肉腫を見守ってください。私はその乱れた魂を慰め、送り出すことができますが、一人ではできません！困難の時に私を助けてください！""
        [12]
         1 string data = "ログオフします。"
        [13]
@@ -40159,15 +40159,15 @@
        [0]
         1 string data = ""ああ、みんな。ありがとう!グロウがあなた方の行いに報いますように。落ち着いたらすぐキャンプに戻って、デュテリウムとの状況について何ができるか見てみるよ。""
        [1]
-        1 string data = ""Hello, Father Bezoar.""
+        1 string data = ""こんにちは、ベゾアール神父。""
        [2]
-        1 string data = ""Goodbye.""
+        1 string data = ""さようなら。""
        [3]
-        1 string data = ""What are you doing, Rangers? This encounter is not yet complete.""
+        1 string data = ""何をしているんだ、レンジャー?このエンカウンターはまだ終わっていないぞ。""
        [4]
-        1 string data = ""Save me, Rangers. Use this whistle to open the sarcoma door and turn off the generator.""
+        1 string data = ""助けてくれ、レンジャー。この笛を使って肉腫のドアを開け、ジェネレーターを止めるんだ。""
        [5]
-        1 string data = ""Whoever is out there! Please come closer so I can instruct you on how to soothe the poor sarcoma!""
+        1 string data = ""そこにいる人!もっと近くに来てくれ、哀れな肉腫を落ち着かせる方法を教えるから!""
        [6]
         1 string data = ""
        [7]
@@ -40185,13 +40185,13 @@
        [13]
         1 string data = ""聖なる爆発の光の中を歩け!""
        [14]
-        1 string data = ""What is it we need to do again?""
+        1 string data = ""もう一度、何をすればいいんだ?""
        [15]
-        1 string data = ""We're still working on it.""
+        1 string data = ""まだ作業中だ。""
        [16]
         1 string data = ""フレッシュフルートを吹いたのが聞こえたから、ドアはもう開いてるはずだ。さあ入ってフィールドジェネレーターを停止しろ!""
        [17]
-        1 string data = ""We've shut down the main generator. What's next?""
+        1 string data = ""メインジェネレーターを停止した。次は何だ?""
        [18]
         1 string data = ""フルートを手に入れろ。ジェネレーターのドアを塞いでる腫瘍コロニーを消すのに必要だぞ!""
        [19]
@@ -40211,9 +40211,9 @@
        [26]
         1 string data = ""彼らは僕の群れなんだ。つまり、僕の教会だ。僕を助けに来てくれることを期待してたから、まだ...生きてるといいんだけど?""
        [27]
-        1 string data = ""Your people are fine. The Proteus sent us to rescue you.""
+        1 string data = ""あなたの仲間は無事だ。プロテウスが我々をあなたの救出に送った。""
        [28]
-        1 string data = ""Why, yes! You must have met my brothers and sisters in the Hub! They must be terribly upset that I've been gone for so long.""
+        1 string data = ""ああ、そうか!ハブで私の兄弟姉妹に会ったんだな!私がこんなに長くいなくて、きっとひどく心配しているだろう。""
        [29]
         1 string data = ""へっ。まあ、時々下層階に降りて肉腫を探すんだ。分かるだろうけど、彼らは彷徨う傾向があって、怖がったり動揺したりすると群れて集まってコロニーを形成するんだ。ここの拘留階にあるやつみたいに。""
        [30]
@@ -40229,9 +40229,9 @@
        [35]
         1 string data = ""ありがとう、友よ。グロウを讃えよ。""
        [36]
-        1 string data = ""After that, you'll able to reach the main generator and shut it down, and make it possible to open my cell.""
+        1 string data = ""その後、メインジェネレーターに到達して停止し、私の独房を開けられるようになる。""
        [37]
-        1 string data = ""Good luck, and may the Glow guide you.""
+        1 string data = ""幸運を、そしてグロウがあなたを導きますように。""
        [38]
         1 string data = ""あるいは聖なる爆発がそれに対する禁じ手を定めていなければ""
        [39]
@@ -40589,7 +40589,7 @@
        [9]
         1 string data = "自動バイパスプロトコルが開始されました。お待ちください..."
        [10]
-        1 string data = "All security protocols deactivated. Please enter your command:"
+        1 string data = "全てのセキュリティプロトコルが停止されました。コマンドを入力してください:"
        [11]
         1 string data = "ログオフ中。"
        [12]
@@ -40599,21 +40599,21 @@
        [14]
         1 string data = "セキュリティ設定3が設定されました。コマンドを入力してください:"
        [15]
-        1 string data = "4 of 8 lasers deactivated.  Please enter your command:"
+        1 string data = "8基中4基のレーザーが停止されました。コマンドを入力してください:"
        [16]
-        1 string data = "5 of 8 lasers deactivated.  Please enter your command:"
+        1 string data = "8基中5基のレーザーが停止されました。コマンドを入力してください:"
        [17]
-        1 string data = "6 of 8 lasers deactivated.  Please enter your command:"
+        1 string data = "8基中6基のレーザーが停止されました。コマンドを入力してください:"
        [18]
-        1 string data = "7 of 8 lasers deactivated.  Please enter your command:"
+        1 string data = "8基中7基のレーザーが停止されました。コマンドを入力してください:"
        [19]
-        1 string data = "Reactivate all lasers. "
+        1 string data = "全てのレーザーを再起動する。"
        [20]
         1 string data = "ようこそ、USERさん、シャイアン特別警備拘留エリアへ。"
        [21]
-        1 string data = "0 of 8 lasers deactivated. Please enter your command:"
+        1 string data = "8基中0基のレーザーが停止されました。コマンドを入力してください:"
        [22]
-        1 string data = "8 of 8 lasers deactivated."
+        1 string data = "8基中8基のレーザーが停止されました。"
        [23]
         1 string data = "全てのセキュリティプロトコルが停止されました。"
        [24]

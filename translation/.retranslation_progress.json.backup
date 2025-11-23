@@ -6,7 +6,7 @@
   "total_entries_dlc1": 38554,
   "total_entries_dlc2": 24152,
   "total_entries_all": 232418,
-  "current_phase": "dlc1_complete",
+  "current_phase": "dlc2_in_progress",
   "base_game": {
     "current_file": "StringTableData_English-CAB-83ff0546f42d84e747fefe7ae7126de0--1617434765046421955.txt",
     "current_line": 530425,
@@ -36,31 +36,37 @@
     "notes": "2025-11-23: Session 328 - DLC1 FILE COMPLETE. Final missions: mission_d2001_giftofthemagi (51), mission_dlc1_d2001_workingstiff (26), mission_d3001_staffofthefinders (23). File end reached at line 120559. All validations: 0 errors."
   },
   "dlc2": {
-    "status": "not_started",
-    "entries_completed": 0,
+    "status": "in_progress",
+    "current_file": "StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
+    "current_line": 36120,
+    "total_lines": 77353,
+    "entries_completed": 465,
     "total_entries": 24152,
-    "percent_complete": 0.0,
-    "notes": "Ready to start - DLC1 file complete"
+    "percent_complete": 1.9,
+    "validation_status": "passed",
+    "structure_errors": 0,
+    "action_marker_errors": 0,
+    "notes": "2025-11-23: Session 330 - Nucleist combat barks, quote fixes (~160 entries). All validations: 0 errors."
   },
   "last_session": {
-    "session_number": 328,
+    "session_number": 330,
     "date": "2025-11-23",
-    "entries_processed": 85,
+    "entries_processed": 160,
     "sections_completed": [
-      "mission_d2001_giftofthemagi: 51 entries (40 translated)",
-      "mission_dlc1_d2001_workingstiff: 26 entries (22 translated)",
-      "mission_d3001_staffofthefinders: 23 entries (23 translated)"
+      "nucleist_combatbarks: ~140 entries",
+      "Quote count fixes: 14 entries",
+      "Computer menu translations: 8 entries"
     ],
-    "commit_hash": "88de8e44",
+    "commit_hash": "1131455e",
     "validation_passed": true,
-    "notes": "Session 328: DLC1 file COMPLETE. Final 3 missions translated. Quality errors from previous log were false positives (285 dev messages, 9 structure markers). All validations: 0 errors.",
-    "next_action": "Start DLC2 translation from line 1."
+    "notes": "Session 330: Fixed 14 quote mismatches in test subject dialogue. Translated nucleist combat barks. Fixed scattered untranslated lines. All validations: 0 errors.",
+    "next_action": "Continue DLC2 translation - nucleist_zealot_combatbarks and remaining sections."
   },
   "cumulative_stats": {
-    "total_sessions": 328,
-    "total_entries_translated": 178224,
-    "untranslated_remaining": 54194,
-    "average_entries_per_session": 543.4,
+    "total_sessions": 330,
+    "total_entries_translated": 178689,
+    "untranslated_remaining": 53729,
+    "average_entries_per_session": 541.5,
     "estimated_sessions_remaining_base": 0,
     "estimated_days_remaining_base": "Complete",
     "estimated_sessions_remaining_dlc1": 0,
