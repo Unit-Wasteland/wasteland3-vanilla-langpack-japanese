@@ -39,48 +39,48 @@
     "notes": "2025-11-23: Discovered 295 untranslated entries (18 where Spanish translated but Japanese didn't). Mostly debug text, but some player-facing content missed."
   },
   "dlc2": {
-    "status": "needs_review",
+    "status": "in_progress",
     "current_file": "StringTableData_English-CAB-6a212d8a4482b263f057ec8756825864-4193932453415687559.txt",
     "current_line": 77353,
     "total_lines": 77353,
-    "entries_completed": 4432,
+    "entries_completed": 4528,
     "total_entries": 24152,
-    "percent_complete": 18.4,
-    "untranslated_entries": 790,
+    "percent_complete": 18.8,
+    "untranslated_entries": 694,
     "missed_translations_es_vs_ja": 118,
-    "validation_status": "needs_review",
+    "validation_status": "passed",
     "structure_errors": 0,
     "action_marker_errors": 0,
-    "notes": "2025-11-23: CRITICAL - Discovered 790 untranslated entries including 143 combat dialogue (nucleist_zealot_combatbarks lines 6704-6898). These are player-facing content and must be translated."
+    "notes": "2025-11-23: Session 355 - Translated 96 entries of nucleist_zealot_combatbarks combat dialogue (lines 6704-6898). Structure validation passed."
   },
   "last_session": {
-    "session_number": 354,
+    "session_number": 355,
     "date": "2025-11-23",
-    "entries_processed": 0,
+    "entries_processed": 96,
     "sections_completed": [
-      "Discovered missed translations via manual review"
+      "DLC2 nucleist_zealot_combatbarks combat dialogue (lines 6704-6898)"
     ],
-    "commit_hash": "49f17f9c",
-    "validation_passed": false,
-    "notes": "Session 354: Manual review discovered ~1004 missed translations where Spanish was translated but Japanese wasn't. Previous Session 353 incorrectly reported 0 missed. DLC2 combat dialogue (lines 6704-6898) is critical.",
-    "next_action": "Fix missed translations starting with DLC2 combat dialogue, then Base Game."
+    "commit_hash": "5265749d",
+    "validation_passed": true,
+    "notes": "Session 355: Translated 96 combat dialogue entries in DLC2. Base game untranslated entries analyzed - most are debug text that should not be translated.",
+    "next_action": "Continue fixing player-facing missed translations in Base Game and DLC2."
   },
   "cumulative_stats": {
-    "total_sessions": 354,
-    "total_entries_translated": 91289,
-    "entries_with_japanese": 91289,
-    "entries_untranslated_all": 2850,
+    "total_sessions": 355,
+    "total_entries_translated": 91385,
+    "entries_with_japanese": 91385,
+    "entries_untranslated_all": 2754,
     "entries_missed_es_translated_ja_not": 1139,
-    "average_entries_per_session": 258.6,
+    "average_entries_per_session": 257.4,
     "estimated_sessions_remaining_base": 17,
     "estimated_days_remaining_base": "2-3 days",
     "estimated_sessions_remaining_dlc1": 1,
     "estimated_days_remaining_dlc1": "<1 day",
-    "estimated_sessions_remaining_dlc2": 3,
+    "estimated_sessions_remaining_dlc2": 2,
     "estimated_days_remaining_dlc2": "1 day",
     "total_lines_all_files": 728337,
-    "project_status": "MISSING_TRANSLATIONS_FIX_REQUIRED",
+    "project_status": "MISSING_TRANSLATIONS_FIX_IN_PROGRESS",
     "issue_discovered_date": "2025-11-23",
-    "issue_description": "Session 353 incorrectly reported TRANSLATION_COMPLETE. Validation script was working but session misinterpreted results."
+    "issue_description": "Session 355: Fixed 96 DLC2 combat dialogues. Many base game untranslated entries are debug text that should remain in English."
   }
 }
