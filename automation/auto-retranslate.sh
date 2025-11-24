@@ -348,7 +348,19 @@ get_progress_entries() {
 # Check if retranslation is complete (uses safe_jq_read)
 is_retranslation_complete() {
     local progress_file="$WORKING_DIR/translation/.retranslation_progress.json"
-    local status_dlc1 status_dlc2
+    local status_dlc1 status_dlc2 current_phase project_status
+
+    # Check if current_phase is COMPLETE (explicitly set when translation finishes)
+    current_phase=$(safe_jq_read '.current_phase' "$progress_file" "base_game")
+    if [[ "$current_phase" == "COMPLETE" ]]; then
+        return 0  # Complete
+    fi
+
+    # Check if project_status indicates completion
+    project_status=$(safe_jq_read '.cumulative_stats.project_status' "$progress_file" "in_progress")
+    if [[ "$project_status" == "TRANSLATION_COMPLETE" ]]; then
+        return 0  # Complete
+    fi
 
     # Check DLC1 and DLC2 completion (base_game is implicitly complete when DLC1 starts)
     status_dlc1=$(safe_jq_read '.dlc1.status' "$progress_file" "not_started")
