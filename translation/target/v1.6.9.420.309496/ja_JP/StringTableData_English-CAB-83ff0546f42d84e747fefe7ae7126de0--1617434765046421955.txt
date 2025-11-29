@@ -166701,7 +166701,7 @@
        [25]
         1 string data = ""ふざけるな、レンジャー。頼む...知る必要がある。""
        [26]
-        1 string data = "(嘘をつく) "家族は無事だ。""
+        1 string data = "(Lie) "家族は無事だ。""
        [27]
         1 string data = ""ありがとう、レンジャー。""
        [28]
@@ -199555,11 +199555,11 @@
        [11]
         1 string data = "[Attack] "死人に話す必要はない。""
        [12]
-        1 string data = """ (外交) 最悪の出だしだったようだな。やり直そう。"
+        1 string data = """ (DIPLOMACY) 最悪の出だしだったようだな。やり直そう。"
        [13]
         1 string data = ""聞いたことがないな。さて……""
        [14]
-        1 string data = """ (物々交換) 重火器の市場を探していると聞いた。聞き違いだったか。"
+        1 string data = """ (BARTER) 重火器の市場を探していると聞いた。聞き違いだったか。"
        [15]
         1 string data = ""ビルっていうギッパーのガキを探してたんだが、ここからそう遠くないところで遺体を見つけた。お前が殺したのか?""
        [16]
@@ -199613,17 +199613,17 @@
        [40]
         1 string data = """ おお、もうお前は死んだも同然だ。"
        [41]
-        1 string data = """ (物々交換) 通りすがりだ...軍用弾薬を処分しようとしてる。興味がある奴を知らないか?"
+        1 string data = """ (BARTER) 通りすがりだ...軍用弾薬を処分しようとしてる。興味がある奴を知らないか?"
        [42]
-        1 string data = """ (立ち去る) 了解だ。"
+        1 string data = """ (Leave) 了解だ。"
        [43]
-        1 string data = """ (攻撃) クソくらえだ。"
+        1 string data = """ (Attack) クソくらえだ。"
        [44]
         1 string data = ""
        [45]
-        1 string data = """ (取引) もちろんだ。商売の話をしよう。"
+        1 string data = """ (Trade) もちろんだ。商売の話をしよう。"
        [46]
-        1 string data = """ (攻撃) 実は、お前が持っているものは全部奪うことにした。"
+        1 string data = """ (Attack) 実は、お前が持っているものは全部奪うことにした。"
        [47]
         1 string data = """ ああ、一つだけ聞きたいことがある...入口で死体を見た。何か知ってるか?"
        [48]
@@ -230715,7 +230715,7 @@
        [75]
         1 string data = ""残念だが、V.I.C.I.は遺跡でクリーチャーに殺された。""
        [76]
-        1 string data = "[Lie] "残念だが、V.I.C.I.は遺跡でクリーチャーに殺された。""
+        1 string data = "(Lie) "残念だが、V.I.C.I.は遺跡でクリーチャーに殺された。""
        [77]
         1 string data = ""V.I.C.I.にレンジャー本部で仕事を申し出て、彼女は受け入れた。これから彼女は我々のために働く。""
        [78]
@@ -239067,7 +239067,7 @@
        [100]
         1 string data = ""今すぐパトリアークのところに連れ戻さない理由を教えてくれないか？""
        [101]
-        1 string data = "[Attack] "お前が望もうが望むまいが、パトリアークのところに連れ戻す。""
+        1 string data = "(Attack) "お前が望もうが望むまいが、パトリアークのところに連れ戻す。""
        [102]
         1 string data = ""じゃあな。""
        [103]
@@ -309017,7 +309017,7 @@
        [8]
         1 string data = "[Lie] "終わりだ、ヴィック。俺たちはチーム・ノベンバーに過ぎない。チーム・X線は狙撃銃を持って外にいる""
        [9]
-        1 string data = "(外交) "数で負けてるぞ、ヴィック。もう終わりだ。俺たちにお前を殺させるな""
+        1 string data = "(Diplomacy)"数で負けてるぞ、ヴィック。もう終わりだ。俺たちにお前を殺させるな""
        [10]
         1 string data = ""ここで仕切ってるのはお前じゃない、このクソサイコ野郎""
        [11]
@@ -365549,7 +365549,7 @@
        [229]
         1 string data = ""バンカーから映画リールを手に入れたけど、かなり損傷してる。""
        [230]
-        1 string data = "[Reward: [Dropset: DRP_Reward_o2001_CinemaVerite_Initial]] "So - it's easy as a slice of apple pie. The Monster Army used to live in a pre-war luxury bunker. Apparently their monster outfits were inspired by the movies they watched in there.""
+        1 string data = "[Reward: [Dropset: DRP_Reward_o2001_CinemaVerite_Initial]] "つまり - アップルパイを一切れ食べるくらい簡単さ。モンスター・アーミーは戦前の高級バンカーに住んでいた。どうやら彼らのモンスター衣装は、そこで観た映画にインスピレーションを得たらしい。""
        [231]
         1 string data = ""映画は完成した？""
        [232]
@@ -367417,11 +367417,11 @@
        [194]
         1 string data = ""厳しく裁かないでくれ、友よ。我々は過去の儀式にしがみついて、失われた力を思い出そうとしているのだ。哀れに思えるかもしれないが、それが我々に必要な安らぎを与えてくれる。""
        [195]
-        1 string data = "[Reward: [Dropset: DRP_Flab_Skillbook_Reward]] "You are the Patriarch's Rangers, yes? If he trusts you, so can I. Nothing we've done has helped, so your arrival could not be more fortuitous - we need your help to combat this threat!""
+        1 string data = "[Reward: [Dropset: DRP_Flab_Skillbook_Reward]] "君たちはパトリアークのレンジャーだな?彼が信頼するなら、私も信頼できる。我々がやったことは何も効果がなかったので、君たちの到着はこれ以上ないほど幸運だ - この脅威と戦うのに君たちの助けが必要だ!""
        [196]
         1 string data = "Script Node 219"
        [197]
-        1 string data = "[Reward: [Dropset: DRP_Flab_Skillbook_Reward]] "We need outside help. I have heard of your exploits, Rangers, I know you'll be able to help us!""
+        1 string data = "[Reward: [Dropset: DRP_Flab_Skillbook_Reward]] "外部の助けが必要だ。君たちの活躍は聞いている、レンジャー、君たちなら助けてくれると分かっている!""
        [198]
         1 string data = ""俺たちの下?ああ、そこで狂ったピエロを見つけた - もう全員始末したぞ。""
        [199]
@@ -373871,7 +373871,7 @@
        [47]
         1 string data = ""
        [48]
-        1 string data = "[Reward: Randy Gett recruited to Ranger HQ garage] "They sent me a letter... My parents are dead and they're holding my kid brother and sister hostage. I ain't even close to having enough money to pay the ransom."\n\n\n"Even if I did, I suspect they'd just kill us all after I pay. So what's a guy to do?""
+        1 string data = "[Reward: Randy Gett recruited to Ranger HQ garage] "手紙が届いたんだ...両親は死んで、弟と妹が人質に取られてる。身代金を払えるほどの金なんて全然持ってない。"\n\n\n"たとえあったとしても、払った後に俺たち全員殺されるんじゃないかと思う。どうすりゃいいんだ?""
        [49]
         1 string data = ""
        [50]
@@ -374637,7 +374637,7 @@
        [47]
         1 string data = ""君が自分の情報を一番よく知っているだろう。""
        [48]
-        1 string data = ""君の[WEIRD WEAPON]について素晴らしいことを聞いた。実演してもらえるか?""
+        1 string data = ""君の[WEIRD WEAPON.]について素晴らしいことを聞いた。実演してもらえるか?""
        [49]
         1 string data = ""ビザールに鑑定家がいるとは。なんと稀な喜びだ。もちろん、準備に少し時間がかかるがね。""
        [50]
@@ -379043,7 +379043,7 @@
        [5]
         1 string data = " Ready to go?"
        [6]
-        1 string data = "[Reward: [Dropset: DRP_Reward_o2101_QuarexHellaciousJourney]] "Rangers! You heard my call! Please, I need your help. This is a totally not-cool situation.""
+        1 string data = "[Reward: [Dropset: DRP_Reward_o2101_QuarexHellaciousJourney]] "レンジャー!俺の呼びかけを聞いてくれた!頼む、助けが必要だ。マジでヤバい状況なんだ。""
        [7]
         1 string data = ""レンジャー!戻ってきてくれたんだね!今度は助けてくれるの?""
        [8]
@@ -379105,7 +379105,7 @@
        [36]
         1 string data = ""ええと...その...うーん。この戦術ゴーグルを使って暗いトンネルを進んで悪い奴らを避けたんだ。かっこいいだろ?""
        [37]
-        1 string data = "[Reward: [Dropset: DRP_Reward_o2101_QuarexHellaciousJourney]] "Rangers? Wow, that's so weird! I was just about to call you! I'm trapped and need your help. This is a totally not-cool situation.""
+        1 string data = "[Reward: [Dropset: DRP_Reward_o2101_QuarexHellaciousJourney]] "レンジャー?うわ、すごい偶然だ!ちょうど君たちに電話しようとしてたんだ!閉じ込められて助けが必要なんだ。マジでヤバい状況だよ。""
        [38]
         1 string data = ""ここで待ってろ。コレクションを助けてくる...""
        [39]
@@ -426655,7 +426655,7 @@
        [122]
         1 string data = ""探してるのは5人だ。アルフレドって若い奴、可愛いお嬢ちゃんのアーリーン、それと3人兄弟のダリル、ダリル、ラリーだ。""
        [123]
-        1 string data = "[Reward: [Dropset: DRP_x3801_WorkshopPowerArmor]] "I want 'em back dead or alive, understand? There's a reward for bringin' in all five. Yessir. Somethin' you can't find anywhere else.""
+        1 string data = "[Reward: [Dropset: DRP_x3801_WorkshopPowerArmor]] "生きてても死んでても連れ戻してほしい、分かるか?5人全員連れてきたら報酬がある。ああ。他じゃ手に入らないものだ。""
        [124]
         1 string data = ""見つけたら知らせてくれ。""
        [125]
@@ -524837,7 +524837,7 @@
        [8]
         1 string data = " 快適に過ごしてくれ、ロン。"
        [9]
-        1 string data = " 終了状態 4 - (失敗) - 転送儀式の前にギッパーズを攻撃した。"
+        1 string data = " END STATE 4 - (FAIL) - Attacked the Gippers before the Transfer Ceremony."
        [10]
         1 string data = "ギッパーズとコミューンの両方と戦争状態"
        [11]
